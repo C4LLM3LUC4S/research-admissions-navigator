@@ -10,14 +10,17 @@
     "programme_or_route_cards": 16,
     "degree_routes": 29,
     "faculty": 139,
-    "official_sources": 220,
+    "official_sources": 295,
     "programmes_with_partial_requirements": 14,
     "requirement_items": 45,
     "programmes_with_partial_finances": 7,
     "finance_items": 12,
     "official_directory_entries": 34,
     "teacher_linked_sources": 1,
-    "total_sources": 221
+    "total_sources": 296,
+    "academic_unit_rows": 66,
+    "listed_child_units": 157,
+    "pending_profile_links": 271
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -44,10 +47,11 @@
     "新增四条数学/统计/商科研究学位，硕博贯通限制、GMAT/GRE及各项目日期分开",
     "按完整院系目录逐人保留身份、已读与超时状态，目录分类与全校范围分开",
     "教师卡片展示院系给出的个人主页与研究档案，正文读取状态和官网政策分开",
-    "增加软件工程、网络安全、人机交互、数据库、图形学与计算机音乐的有据分类和常用研究词"
+    "增加软件工程、网络安全、人机交互、数据库、图形学与计算机音乐的有据分类和常用研究词",
+    "七校学术架构分层总表、逐单位入口状态与待核个人主页；不混算学院、教师与招生名额"
   ],
   "verification": {
-    "node_checks": 46,
+    "node_checks": 48,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -61,7 +65,7 @@
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 12
+    "python_checks": 16
   },
   "limitations": [
     "139位教师、34个官方目录入口仍非完整师资库。仅港科大CSE Regular一组完成53个主页枚举，本轮读到38个，15个网络超时；其他分类和院系未核全。",

@@ -92,6 +92,34 @@
     if(census){const list=node('ul');census.entries.forEach(entry=>{const li=node('li');append(li,link(entry.name+' ↗',entry.profileUrl),node('div',entry.directoryPosition+' · '+(entry.profileRead?'本轮已读正文':'本轮读取超时，待核'),'field-help'));list.append(li);});progress.append(list);}
     append(card,progress,evidence(d.sourceIds));return card;
   }
+  function renderAcademicCoverage() {
+    const target=$('academic-coverage');clear(target);target.hidden=mode!=='directories';
+    if(target.hidden)return;
+    append(target,node('h2','先看全校的学院，再逐个找老师'),node('p','下面按学校列出已核到的学术架构。学院入口、教师名单、个人主页是三步；打开了学院页面，不代表这个学院的老师已经查完。','evidence-note'));
+    const selected=state.profile.universityIds||[];
+    (C.academicCoverage||[]).filter(row=>!selected.length||selected.includes(row.universityId)).forEach(row=>{
+      const school=node('details',null,'school-coverage'),u=university(row.universityId);
+      append(school,node('summary',(u.short||u.name)+' · '+row.reportedCounts.map(c=>c.value+' '+c.label).join('；')),node('p',row.note,'evidence-note'));
+      const list=node('div',null,'academic-unit-list');
+      row.units.forEach(unit=>{
+        const section=node('details',null,'academic-unit');
+        const status=unit.entryBodyStatus==='body_read'?'已读学院入口':unit.entryBodyStatus==='access_failed'?'入口读取失败，待核':'入口待核';
+        const supportUnit=['graduate_school','undergraduate_college'].includes(unit.kind);
+        append(section,node('summary',unit.name+' · '+status),node('p',supportUnit?'这个单位单独保留作申请或教学入口，不另外计成一个学科教师库。':'教师总人数尚未核实；逐人主页仍待整理。未收录不等于不能申请。','field-help'));
+        if(unit.url)section.append(link('打开这个单位的官方入口 ↗',unit.url));
+        if(unit.accessNote)section.append(node('p',unit.accessNote,'field-help'));
+        if(unit.children.length){section.append(node('h4','先按这些下属单位继续查'));const children=node('ul');
+          unit.children.forEach(child=>{const item=node('li');append(item,child.url?link(child.name+' ↗',child.url):node('span',child.name),node('span',' · 下属入口与个人页待核','field-help'));if(child.url&&child.url.startsWith('http://'))item.append(node('div','官网给的是 HTTP 地址，本页不自动改成 HTTPS：'+child.url,'field-help'));children.append(item);});section.append(children);}
+        if(unit.staffEntries.length){section.append(node('h4','已发现的人员或学院导航'));unit.staffEntries.forEach(entry=>{append(section,link(entry.label+' ↗',entry.url),node('p',entry.entryBodyStatus==='body_read'?'已读导航正文；完整教师名单及分页仍待核。':entry.entryBodyStatus==='access_failed'?'本轮没能读到导航正文，保留待核。':'尚未读到导航正文。','field-help'));
+          if((entry.profileLeads||[]).length){const pending=node('details',null,'source-details');append(pending,node('summary','展开 '+entry.profileLeads.length+' 个已发现、尚待逐人核查的主页'),node('p','这是目录中出现的主页链接，可能包含实践、教学或兼任职位。还没读完个人页，也没确认研究生指导资格与名额，不混入已整理研究方向的人数。','field-help'));const names=node('ul');entry.profileLeads.forEach(lead=>{const li=node('li');li.append(link(lead.directoryLabel+' ↗',lead.url));names.append(li);});pending.append(names);section.append(pending);}
+        });}
+        else if(!supportUnit)section.append(node('p','还需要从这个单位继续找完整师资目录，再逐个打开教师主页。','field-help'));
+        if(unit.sourceIds.length)section.append(evidence(unit.sourceIds));list.append(section);
+      });
+      append(school,list,evidence(row.sourceIds));target.append(school);
+    });
+    target.append(node('p','下方是已经整理的部分师资目录。学院总表与这些目录分开计数，教师人数也不会拿学院数或目录数来代替。','evidence-note'));
+  }
   function renderFunding() { const items=L.fundingFor(C,state.profile);$('funding-results').hidden=!items.length;clear($('funding-cards'));items.forEach(f=>{const box=node('article',null,'funding-card');append(box,node('h3',f.title),node('p',f.note||'资格和资助结果以官方审核为准，不是自动获奖。'));box.append(deadlineCard({label:'相关申请日期',at:f.deadline,cycle:f.cycle},state.profile.cycle));box.append(evidence(f.sourceIds));$('funding-cards').append(box);}); }
   function renderResults() {
     const target=$('results');clear(target);resultCards=[];const items=mode==='programs'?L.programsFor(C,state.profile):mode==='directories'?L.directoriesFor(C,state.profile):L.facultyFor(C,state.profile);
@@ -100,7 +128,7 @@
     const preparation=L.preparationNote(state.profile);$('preparation-note').textContent=preparation;$('preparation-note').hidden=!preparation||mode!=='programs';
     const shown=mode==='faculty'?items.slice(0,facultyLimit):items;shown.forEach(item=>{const card=mode==='programs'?programCard(item):mode==='directories'?directoryCard(item):facultyCard(item);resultCards.push(card);target.append(card);});
     $('show-more-faculty').hidden=mode!=='faculty'||shown.length>=items.length;$('show-more-faculty').textContent='再看一些老师（已显示 '+shown.length+' / '+items.length+'）';
-    if(!items.length)empty(target,'这组条件下暂时没有已核到的资料。','可以清除部分筛选，或查看院系目录。未收录不等于没有项目、没有导师或不招生。');renderFunding();
+    if(!items.length)empty(target,'这组条件下暂时没有已核到的资料。','可以清除部分筛选，或查看院系目录。未收录不等于没有项目、没有导师或不招生。');renderAcademicCoverage();renderFunding();
   }
   function chooseMode(value) { mode=value;facultyLimit=24;[['show-programs','programs'],['show-faculty','faculty'],['show-directories','directories']].forEach(([id,target])=>$(id).setAttribute('aria-pressed',String(mode===target)));renderResults(); }
   function readProfile() { state.profile={degree:new FormData($('profile-form')).get('degree'),cycle:$('intake-cycle').value,universityIds:[...document.querySelectorAll('[name=university]:checked')].map(x=>x.value),interests:[...document.querySelectorAll('[name=interest]:checked')].map(x=>x.value),researchQuery:$('research-query').value,education:$('education').value,english:$('english').value,gpaNote:$('gpa-note').value}; }

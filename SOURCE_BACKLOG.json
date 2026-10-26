@@ -1,6 +1,12 @@
 {
-  "primary_task": "按可用申请路线补齐官网信息，不按链接数或导师名片数冒充完整性。",
+  "primary_task": "逐校学院总表→逐院学系/学域→完整师资及分页→逐人官方主页与个人Links→对应研究型项目要求。七校都推进，不能只在一个系零散加人。",
   "priorities": [
+    {
+      "id": "whole-university-academic-map",
+      "status": "seven_maps_66_typed_units_157_child_rows_271_pending_personal_links",
+      "task": "先核各校所有学院与下属单位，再逐院枚举全部师资和分页。继续港城大独立学院入口、港中深未读正文与各校缺失师资目录，不重试已拒通道。",
+      "acceptance": "每个单位和主页有来源、读取状态、身份及下一步。271个待核链接不混入139位已整理研究方向；未知指导资格与名额不补成有或无。"
+    },
     {
       "id": "regular-contact-gaps",
       "task": "继续找HKU常规CS/CDS、CityU CS当期官方流程，核清申请前联系和导师支持的不同阶段。",

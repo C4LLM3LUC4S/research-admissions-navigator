@@ -44,6 +44,24 @@ function harness(initialStorage,options={}) {
   return {byId,saved,downloads,button,select,walk,networkCalls:()=>networkCalls};
 }
 
+test('school structure is a separate scoped journey, without inventing faculty totals or changing directory counts',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  assert.equal(el('academic-coverage').hidden,true);
+  await el('show-directories').emit('click');
+  assert.equal(el('academic-coverage').hidden,false);
+  const schools=h.walk(el('academic-coverage')).filter(x=>x.className==='school-coverage');
+  assert.equal(schools.length,7);
+  assert.equal(el('result-count').textContent,C.directories.length+' 个目录');
+  assert.match(el('academic-coverage').textContent,/中央完整架构页访问403/);
+  assert.match(el('academic-coverage').textContent,/不是.*学科教师库|不另外计成一个学科教师库/);
+  h.select('cuhksz','PhD',[]);await el('profile-form').emit('input');
+  const selected=h.walk(el('academic-coverage')).filter(x=>x.className==='school-coverage');
+  assert.equal(selected.length,1);assert.match(selected[0].textContent,/港中文（深圳）/);
+  assert.doesNotMatch(selected[0].textContent,/Faculty of Engineering/);
+  await el('show-faculty').emit('click');assert.equal(el('academic-coverage').hidden,true);
+  assert.equal(h.networkCalls(),0);
+});
+
 test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.ok(el('results').childElementCount>0);

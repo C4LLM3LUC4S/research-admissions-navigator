@@ -12,6 +12,16 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
   for(const d of C.directories){assert.equal(d.coverageComplete,false);assert.ok(L.officialUrl(d.url));assert.ok(d.sourceIds.every(id=>sources.has(id)));}
 });
 
+test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
+  assert.equal(C.academicCoverage.length,7);
+  const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
+  assert.equal(leads.length,271);assert.equal(C.faculty.length,139);
+  for(const lead of leads){assert.equal(lead.profileBodyStatus,'not_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
+  const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
+  assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));
+  assert.equal(C.directories.length,34);
+});
+
 test('the full regular-directory census keeps every observed entry and separates failed profile reads',()=>{
   const d=C.directories.find(d=>d.id==='census-hkust-cse-regular'),c=d.census;
   assert.equal(c.observedTotal,53);assert.equal(c.entries.length,53);

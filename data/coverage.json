@@ -5,7 +5,7 @@
     "universities": 7,
     "programs": 16,
     "faculty": 139,
-    "sources": 221,
+    "sources": 296,
     "funding": 1,
     "degreeRoutes": 29,
     "facultyByUniversity": {
@@ -32,7 +32,9 @@
       "cuhksz": 4,
       "polyu": 4,
       "cityu": 5
-    }
+    },
+    "academicUnitRows": 66,
+    "listedChildUnits": 157
   },
   "assertions": [
     "seven institution identities stay separate",
