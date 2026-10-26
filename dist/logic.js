@@ -5,7 +5,7 @@
   else root.APP_LOGIC = api;
 }(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频','环境与可持续发展','物理与化学','材料与能源','土木与机械工程','经济与管理','人文与社会科学','教育学','设计与创意','旅游与酒店管理'];
+  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频','环境与可持续发展','物理与化学','材料与能源','土木与机械工程','经济与管理','人文与社会科学','教育学','设计与创意','旅游与酒店管理','电子与集成电路'];
   const KEYWORDS = [
     /人工智能|artificial intelligence|(?:^|\W)ai(?:$|\W)|ai4science/i,
     /机器学习|深度学习|machine learning|deep learning|distributed learning|reinforcement learning/i,
@@ -32,7 +32,8 @@
     /人文|社会科学|humanities|social sciences/i,
     /教育|education/i,
     /设计|创意|design|creative/i,
-    /旅游|酒店|tourism|hospitality/i
+    /旅游|酒店|tourism|hospitality/i,
+    /集成电路|微电子|半导体|芯片|integrated circuit|microelectronic|semiconductor|vlsi|photonic|electronic design automation/i
   ];
   const OFFICIAL_HOSTS = ['hku.hk','cuhk.edu.hk','hkust.edu.hk','ust.hk','polyu.edu.hk','cityu.edu.hk','cuhk.edu.cn','hkust-gz.edu.cn','ugc.edu.hk','rgc.edu.hk'];
   const EDUCATION = ['','undergraduate','bachelor','master','other'];
@@ -61,7 +62,13 @@
     ['旅游','tourism'],['酒店管理','hospitality management','hotel management'],['旅游经济学','tourism economics'],
     ['消费者行为','consumer behavior','consumer behaviour'],['目的地营销','destination marketing'],
     ['设计','design'],['教育','education'],['公共政策','public policy'],
-    ['计算机音乐','computer music'],['音频工程','audio engineering']
+    ['计算机音乐','computer music'],['音频工程','audio engineering'],
+    ['集成电路','integrated circuits','integrated circuit','ic design'],['微电子','microelectronics','microelectronic'],
+    ['电子设计自动化','electronic design automation','eda'],['硬件安全','hardware security'],
+    ['芯片设计','chip design','vlsi design'],['半导体','semiconductor','semiconductors'],
+    ['光子集成电路','photonic integrated circuits'],['光子计算','photonic computing'],
+    ['大气化学','atmospheric chemistry'],['空气质量','air quality'],['储能','energy storage'],
+    ['固态电池','solid-state batteries','solid state batteries'],['钙钛矿','perovskite','perovskites']
   ];
   function officialUrl(value) {
     try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password &&

@@ -2,7 +2,7 @@
 
 想申请研究型硕士或博士，却不知道从哪里查起？这个工具先帮你看清项目要求，找到值得进一步了解的老师，再把申请准备整理成能继续推进的清单。
 
-首批学校：港大、港中文、港科技、港理工、港城市、港中深、港科广。当前已整理372位教师的研究方向、34个官方院系目录入口，涵盖计算机、AI、电子工程、控制和数据科学，并开始补数学、统计、金融、设计、环境及人文社科等方向。先看[覆盖说明](COVERAGE.md)了解哪些已读、哪些还没核全，再按[学院和学系清单](ACADEMIC_COVERAGE.md)继续找人。这是持续完善的早期alpha，个人资料留在本机；已整理人数不是全部导师、可以申请的人数上限或当前名额。
+首批学校：港大、港中文、港科技、港理工、港城市、港中深、港科广。当前已整理466位教师的研究方向、35个官方院系目录入口，涵盖计算机、AI、电子工程、控制和数据科学，并开始补数学、统计、金融、设计、环境及人文社科等方向。先看[覆盖说明](COVERAGE.md)了解哪些已读、哪些还没核全，再按[学院和学系清单](ACADEMIC_COVERAGE.md)继续找人。这是持续完善的早期alpha，个人资料留在本机；已整理人数不是全部导师、可以申请的人数上限或当前名额。
 
 ## 打开方式
 
@@ -56,7 +56,7 @@ python -m unittest discover -s tests -p test_catalog_validation.py
 
 ## English
 
-An early alpha for research-degree applicants to explore official programme rules, faculty research and practical next steps, online or from an offline download. Current partial coverage includes 372 faculty, 34 official directory entries and 16 programme/application routes across seven institutions. The academic map lists schools and departments still to review; these counts do not describe all potential supervisors. Some MPhil degrees belong to integrated MPhil-PhD schemes and are not standalone application routes; each card explains its own conditions. Concrete research keywords, follow-up tasks and portable backups help applicants continue investigating. Programme, degree, campus and intake remain separate. Research overlap does not establish recruitment availability or admission probability. Personal notes stay in the browser; there is no public experience-submission backend.
+An early alpha for research-degree applicants to explore official programme rules, faculty research and practical next steps, online or from an offline download. Current partial coverage includes 466 faculty, 35 official directory entries and 16 programme/application routes across seven institutions. The academic map lists schools and departments still to review; these counts do not describe all potential supervisors. Some MPhil degrees belong to integrated MPhil-PhD schemes and are not standalone application routes; each card explains its own conditions. Concrete research keywords, follow-up tasks and portable backups help applicants continue investigating. Programme, degree, campus and intake remain separate. Research overlap does not establish recruitment availability or admission probability. Personal notes stay in the browser; there is no public experience-submission backend.
 
 
 先在“看院系目录”查看[七校学院与师资整理进度](ACADEMIC_COVERAGE.md)，再进入具体学院和下属学系。学校架构、待核个人页与已整理研究方向的人数分别显示，不把当前收录量当作全部老师。

@@ -15,7 +15,7 @@ ROOT = Path(__file__).resolve().parents[1]
 CHECKED = "2026-10-27"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
-TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理")
+TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路")
 # Exact aliases only: generic words such as 'systems' do not create extra fields.
 ALIASES = {
     "人工智能": {"人工智能", "ai", "ai4science", "ai theory", "大语言模型", "智能体", "人工智能与通信网络融合"},
@@ -350,6 +350,18 @@ def build_catalog():
     programme["contact"]["sourceIds"].append(update["applicationSourceId"])
     for deadline in programme["deadlines"]:
         deadline["sourceIds"].append(update["applicationSourceId"])
+    gz = load("hkustgz-function-census-20261027.json")
+    catalog["sources"].extend(gz["sources"])
+    catalog["faculty"].extend(gz["faculty"])
+    for update in gz["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics", "directorySourceIds", "academicUnitIds"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        for field in ("directoryRole", "identityNote", "reviewedProfileUrl", "department"):
+            old[field] = update[field]
+    catalog["directories"].append(gz["directory"])
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hkustgz-1")
+    unit["staffEntries"].extend(gz["staffEntries"])
     return catalog
 
 
