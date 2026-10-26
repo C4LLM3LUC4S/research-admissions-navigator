@@ -15,12 +15,51 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,271);assert.equal(C.faculty.length,327);
-  assert.equal(leads.filter(p=>p.facultyId).length,170);
+  assert.equal(leads.length,324);assert.equal(C.faculty.length,372);
+  assert.equal(leads.filter(p=>p.facultyId).length,223);
   for(const lead of leads){assert.equal(lead.profileBodyStatus,'body_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
   assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));
   assert.equal(C.directories.length,34);
+});
+
+test('SAI keeps all six pages, original identities and two different Ming Li profiles',()=>{
+  const d=C.directories.find(d=>d.id==='wide-directory-cuhksz-sai');
+  assert.equal(d.census.pageUrls.length,6);assert.equal(d.census.observedTotal,53);
+  assert.equal(d.census.profilesRead,53);assert.equal(d.census.profilesFailed,0);
+  const same=C.faculty.filter(f=>f.universityId==='cuhksz'&&f.name==='LI, Ming');
+  assert.equal(same.length,2);assert.notEqual(same[0].id,same[1].id);
+  assert.deepEqual(new Set(same.map(f=>f.profileUrl)),new Set(['https://sai.cuhk.edu.cn/en/teacher/258','https://sai.cuhk.edu.cn/en/teacher/277']));
+  assert.equal(C.faculty.filter(f=>f.profileUrl==='https://sai.cuhk.edu.cn/en/teacher/175')[0].id,'cuhksz-xiaoqiang-ji');
+  assert.ok(C.faculty.find(f=>f.profileUrl==='https://sai.cuhk.edu.cn/en/teacher/328').directoryRole.includes('Adjunct'));
+});
+
+test('SAI exact official-parent Links retain unread shells and old affiliation conflicts',()=>{
+  const faculty=C.faculty.filter(f=>f.sourceIds.some(id=>id.startsWith('cuhksz-sai-profile-')));
+  const links=faculty.flatMap(f=>f.extraLinks||[]).filter(l=>l.parentSourceId.startsWith('cuhksz-sai-profile-'));
+  assert.equal(links.length,42);assert.equal(links.filter(l=>l.bodyStatus==='body_read').length,33);
+  const orcid=links.find(l=>l.url.startsWith('https://orcid.org/'));assert.equal(orcid.bodyStatus,'not_read');
+  const david=faculty.find(f=>f.profileUrl.endsWith('/107'));assert.equal(L.facultyLinks(C,david).length,0);
+  const actual=C.sources.find(s=>s.title.startsWith('ZHAO, Zhanzhan')&&s.evidenceLevel==='teacher_page_linked_from_official_profile');
+  assert.ok(actual.knownIssues.some(x=>x.includes('博士后')&&x.includes('不同')));
+});
+
+test('a teacher Fall notice is scoped evidence and generic Master never becomes MPhil',()=>{
+  const wu=C.faculty.find(f=>f.name==='WU, Baoyuan');assert.equal(wu.availability.state,'advertised');
+  assert.equal(wu.availability.cycle,'2027/28');assert.equal(wu.availability.intake,'2027 Fall');
+  assert.deepEqual(wu.availability.degrees,['PhD']);assert.match(wu.availability.text,/未说明是否为MPhil/);
+  const yang=C.faculty.find(f=>f.name==='LI, Yang');assert.deepEqual(yang.availability.degrees,['PhD','MPhil']);
+  assert.equal(yang.availability.state,'advertised');assert.match(L.availabilityText(yang),/需进一步确认/);
+  assert.equal(C.faculty.find(f=>f.name==='LI, Ming'&&f.profileUrl.endsWith('/258')).availability.state,'unknown');
+});
+
+test('Chinese multimodal queries find the corresponding original English research terms',()=>{
+  const base={...L.defaultProfile(C),universityIds:['cuhksz']};
+  const multi=L.facultyFor(C,{...base,researchQuery:'多模态'});
+  assert.ok(multi.some(f=>f.profileUrl.endsWith('/258')));assert.ok(multi.some(f=>f.profileUrl.endsWith('/277')));
+  assert.ok(L.facultyFor(C,{...base,researchQuery:'多模态大模型'}).some(f=>f.profileUrl.endsWith('/277')));
+  assert.deepEqual(L.matchedResearchTerms({researchKeywords:['Speech Processing'],summary:'No multimodal work confirmed'},'多模态'),[]);
+  assert.ok(multi.every(f=>L.matchedResearchTerms(f,'多模态').length));
 });
 
 test('research records keep directory identities, existing aliases and unknown supervision rather than inflating available places',()=>{

@@ -12,7 +12,8 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-10-26"
+CHECKED = "2026-10-27"
+BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理")
 # Exact aliases only: generic words such as 'systems' do not create extra fields.
@@ -92,12 +93,12 @@ def normalize_sources(packs):
     by_id["gz-lingjie-duan"]["knownIssues"].append("公告写2026和2027；不改写成2027/28已确认余位。")
     result.extend([
         {"id": "rgc-hkpfs-2027", "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/",
-         "title": "Hong Kong PhD Fellowship Scheme", "checkedAt": CHECKED,
+         "title": "Hong Kong PhD Fellowship Scheme", "checkedAt": BASE_SOURCE_DATE,
          "evidenceLevel": "official_funding_call_current_cycle", "scope": "HKPFS 2027/28初申请；只适用于博士",
          "claims": ["2027/28初申请截止2026-12-01香港时间中午12:00；仍需向所选大学递交博士正式申请。"],
          "knownIssues": ["同页奖学金金额标注2026/27，不作为2027/28金额使用。"]},
         {"id": "rgc-hkpfs-institutions", "url": "https://cerg1.ugc.edu.hk/hkpfs/institutions.html",
-         "title": "Hong Kong PhD Fellowship Scheme — Participating Universities", "checkedAt": CHECKED,
+         "title": "Hong Kong PhD Fellowship Scheme — Participating Universities", "checkedAt": BASE_SOURCE_DATE,
          "evidenceLevel": "official_funding_participating_institutions", "scope": "八所香港参与大学；本目录仅包含其中五所",
          "claims": ["参与列表包含港大、港中文香港、港科大香港、港理工与港城大；深圳和广州机构没有列在该参与名单中。"],
          "knownIssues": ["不能从香港同名大学向深圳或广州继承资助资格。"]},
@@ -326,6 +327,29 @@ def build_catalog():
     directory = next(d for d in catalog["directories"] if d["id"] == cityu["directoryUpdate"]["id"])
     directory["sourceIds"].extend(cityu["directoryUpdate"]["sourceIds"])
     directory["coverageNotes"] = cityu["directoryUpdate"]["coverageNotes"]
+    sai = load("cuhksz-sai-census-20261027.json")
+    catalog["sources"].extend(sai["sources"])
+    catalog["faculty"].extend(sai["faculty"])
+    for update in sai["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics", "directorySourceIds", "academicUnitIds"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        old.update(directoryRole=update["directoryRole"], identityNote=update["identityNote"], availability=update["availability"])
+        old["extraLinks"] = list({link["url"]: link for link in old.get("extraLinks", []) + update["extraLinks"]}.values())
+    directory = next(d for d in catalog["directories"] if d["id"] == sai["directoryUpdate"]["id"])
+    directory["sourceIds"].extend(sai["directoryUpdate"]["sourceIds"])
+    directory.update({key: value for key, value in sai["directoryUpdate"].items() if key not in {"id", "sourceIds"}})
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhksz-8")
+    unit["staffEntries"].extend(sai["staffEntries"])
+    update = sai["programUpdate"]
+    programme = next(p for p in catalog["programs"] if p["id"] == update["id"])
+    programme["sourceIds"].extend(update["sourceIds"])
+    programme["requirements"].extend(update["requirements"])
+    programme.setdefault("finances", []).extend(update["finances"])
+    programme["evidenceNote"] = update["evidenceNote"]
+    programme["contact"]["sourceIds"].append(update["applicationSourceId"])
+    for deadline in programme["deadlines"]:
+        deadline["sourceIds"].append(update["applicationSourceId"])
     return catalog
 
 
@@ -417,6 +441,12 @@ def validate(catalog):
             assert f["availability"]["state"] == "advertised" and "2027/28" not in f["availability"]["cycle"]
         elif f["availability"]["state"] == "unknown":
             assert f["availability"]["state"] == "unknown" and f["availability"]["cycle"] is None
+        elif f["availability"].get("noticeKind") == "dated_teacher_statement":
+            notice = f["availability"]
+            assert re.fullmatch(r"\d{4}/\d{2}", notice["cycle"])
+            assert notice["intake"] == notice["cycle"][:4] + " Fall"
+            assert notice["degrees"] and set(notice["degrees"]) <= {"PhD", "MPhil"}
+            assert all(sources[sid]["evidenceLevel"] == "teacher_page_linked_from_official_profile" for sid in notice["sourceIds"])
         else:
             assert f["availability"]["sourceIds"] and f["availability"]["text"]
             assert f["availability"].get("degrees") == ["PhD"]

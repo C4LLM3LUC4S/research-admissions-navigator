@@ -5,6 +5,20 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const program=id=>C.programs.find(p=>p.id===id);
 const profile=(degree,cycle)=>({...L.defaultProfile(C),degree,cycle});
 
+test('SAI separates a current fee reference, doctoral support and unconfirmed MPhil project income',()=>{
+  const p=program('cuhksz-ai-rpg');
+  const mphil=L.financesFor(p,profile('MPhil','2027/28'));
+  const phd=L.financesFor(p,profile('PhD','2027/28'));
+  assert.deepEqual(mphil.map(x=>x.id),['cuhksz-ai-application-fee','cuhksz-ai-mphil-support']);
+  assert.deepEqual(phd.map(x=>x.id),['cuhksz-ai-application-fee','cuhksz-ai-phd-support']);
+  assert.equal(mphil[0].rates[0].value,600);assert.equal(mphil[0].rates[0].basis,'page_reference');
+  assert.equal(mphil[0].rates[0].cycle,null);assert.equal(L.financeRates(mphil[0],profile('MPhil','2027/28')).matched.length,0);
+  assert.equal(mphil[1].rates.length,0);assert.match(mphil[1].text,/仍在探索/);
+  assert.equal(phd[1].rates.length,0);assert.match(phd[1].text,/2026入学/);assert.match(phd[1].text,/2027标准.*未知/);
+  assert.match(p.evidenceNote,/6月30日.*5月31日/);
+  assert.ok(p.deadlines.some(d=>d.date==='2027-06-30'&&d.at===null));
+});
+
 test('CIE has its own two-referee and English-form rules rather than inheriting Hong Kong requirements',()=>{
   const cie=L.requirementsFor(program('cuhksz-sse-cie'),profile('PhD',C.cycle));
   assert.match(cie.find(i=>i.label.includes('推荐人')).text,/不能把意向导师列作这两位之一/);
