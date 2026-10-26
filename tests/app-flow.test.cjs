@@ -106,6 +106,18 @@ test('a microelectronics applicant can follow new research, keep the old faculty
   assert.match(restored.byId.get('saved-faculty').textContent,/Yuzhe Ma|Yuzhe MA/);assert.equal(backup.profile.researchQuery,'电子设计自动化');assert.equal(h.networkCalls(),0);
 });
 
+test('a Function Hub applicant saves a scoped doctoral action and sees the separate Red Bird MPhil route',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('hkustgz','PhD',[]);await el('profile-form').emit('input');
+  const card=el('results').children.find(c=>h.walk(c).some(x=>x.tagName==='h3'&&x.textContent.includes('微电子 PhD')));assert.ok(card);
+  assert.match(card.textContent,/国际申请者/);assert.match(card.textContent,/2027-06-15/);assert.match(card.textContent,/2027-07-15/);assert.match(card.textContent,/150/);
+  const nodes=h.walk(card),at=nodes.findIndex(n=>n.tagName==='h4'&&n.textContent==='英语分数和考试形式一起核对');assert.ok(at>=0);
+  await nodes.slice(at+1).find(n=>n.tagName==='button').emit('click');await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.equal(backup.tasks.length,1);assert.match(backup.tasks[0].text,/微电子 PhD/);assert.ok(backup.sourceIds.includes('gz-central-requirements'));
+  const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);assert.match(restored.byId.get('tasks').textContent,/微电子 PhD/);
+  h.select('hkustgz','MPhil',[]);await el('profile-form').emit('input');assert.match(el('results').textContent,/红鸟/);assert.doesNotMatch(el('results').textContent,/微电子 PhD/);assert.equal(h.networkCalls(),0);
+});
+
 test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.ok(el('results').childElementCount>0);

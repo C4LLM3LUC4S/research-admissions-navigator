@@ -67,6 +67,23 @@ test('public Function Hub pack excludes contact and internal personnel fields',(
   check(p);
 });
 
+test('current Function Hub award names do not turn four MPhil awards into four direct applications',()=>{
+  const p=C.programs.filter(p=>p.id.startsWith('hkustgz-function-'));
+  assert.equal(p.length,4);
+  for(const route of p){assert.deepEqual(route.degrees,['PhD']);assert.equal(route.cycle,'2027/28');assert.equal(route.contact.status,'unknown');assert.match(route.evidenceNote,/红鸟/);
+    assert.deepEqual(route.deadlines.map(d=>[d.route,d.at]),[['国际申请者','2027-06-15T23:59:00+08:00'],['中国申请者','2027-07-15T23:59:00+08:00']]);}
+  const mphil=L.programsFor(C,{...L.defaultProfile(C),universityIds:['hkustgz'],degree:'MPhil'});
+  assert.equal(mphil.filter(p=>p.id.startsWith('hkustgz-function-')).length,0);assert.ok(mphil.some(p=>p.id==='hkust-gz-rbm'));
+  assert.equal(C.programs.find(p=>p.id==='hkust-gz-rbm').deadlines[0].date,'2027-03-01');
+});
+
+test('current programme evidence excludes hidden taught entries and keeps application fees distinct from tuition',()=>{
+  const pack=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/hkustgz-function-programmes-20261027.json'),'utf8'));
+  for(const source of pack.sources){assert.equal(source.yearOfEntry,'2027/28');assert.ok(source.recordId.endsWith('-27'));assert.match(source.readMethod,/public_programme_interface/);assert.ok(!source.url.endsWith('-5'));}
+  assert.ok(!pack.programs.some(p=>/new.energy|MSc/.test(p.id+p.name)));
+  for(const p of pack.programs){const item=p.finances[0];assert.equal(item.kind,'application_fee');assert.deepEqual(item.rates.map(r=>[r.value,r.currency,r.unit,r.cycle]),[[150,'CNY','application','2027/28']]);assert.match(p.requirements[1].text,/单项5.5/);assert.match(p.requirements[1].text,/不接受在家/);}
+});
+
 test('SAI exact official-parent Links retain unread shells and old affiliation conflicts',()=>{
   const faculty=C.faculty.filter(f=>f.sourceIds.some(id=>id.startsWith('cuhksz-sai-profile-')));
   const links=faculty.flatMap(f=>f.extraLinks||[]).filter(l=>l.parentSourceId.startsWith('cuhksz-sai-profile-'));
