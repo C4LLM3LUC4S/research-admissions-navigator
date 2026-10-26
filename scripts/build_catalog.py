@@ -362,6 +362,9 @@ def build_catalog():
     catalog["directories"].append(gz["directory"])
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hkustgz-1")
     unit["staffEntries"].extend(gz["staffEntries"])
+    gz_programmes = load("hkustgz-function-programmes-20261027.json")
+    catalog["sources"].extend(gz_programmes["sources"])
+    catalog["programs"].extend(gz_programmes["programs"])
     return catalog
 
 

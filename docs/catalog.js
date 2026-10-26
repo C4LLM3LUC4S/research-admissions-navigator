@@ -1814,6 +1814,390 @@ window.APP_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "hkustgz-function-amat-phd",
+      "universityId": "hkustgz",
+      "name": "功能枢纽 · 先进材料 PhD",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州；2027/28秋季博士路径。MPhil请走单列的红鸟硕士统一申请。",
+      "contact": {
+        "status": "unknown",
+        "text": "可以先了解研究方向；本次项目目录没有说明必须在申请前取得哪位老师的支持，接收安排仍要核对。",
+        "sourceIds": [
+          "hkustgz-function-amat-phd-2027"
+        ]
+      },
+      "selection": {
+        "text": "目录没有说明导师与委员会各自的决定权，先按正式博士项目要求准备；不要把项目协调人当成已确认的接收导师。",
+        "sourceIds": [
+          "hkustgz-function-amat-phd-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者博士截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "国际申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者博士截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "中国申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-function-amat-phd-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "gz-redbird"
+      ],
+      "requirements": [
+        {
+          "label": "先核博士学历路径",
+          "text": "广州校级博士要求列优秀本科学位，或至少一年全日制、两年非全日制研究生阶段的满意表现等路径。具体资格由学校审阅，符合最低要求不保证录取。",
+          "action": "按广州博士要求核对本科成绩或研究生阶段证明，再查学域是否追加条件",
+          "sourceIds": [
+            "hkustgz-function-amat-phd-2027",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语分数和考试形式一起核对",
+          "text": "IELTS Academic总分6.5、单项5.5。TOEFL iBT按2026年1月21日前后区分80与4.5；要求单次成绩，不接受在家考试。第一语言英语或英语授课本科学历另有路径，请看广州官方原页。",
+          "action": "核对英语考试日期、总分、单项、考试形式与可用的免交路径",
+          "sourceIds": [
+            "hkustgz-function-amat-phd-2027",
+            "gz-central-requirements"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-function-amat-phd-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "2027/28项目目录列人民币150元申请费。这里只确认这一项，不当作学费、完整预算或资助承诺。",
+          "action": "提交博士申请前核对当期申请费及支付说明",
+          "sourceIds": [
+            "hkustgz-function-amat-phd-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该2027/28项目条目列示；博士路径，实际提交前再核"
+            }
+          ]
+        }
+      ],
+      "evidenceNote": "先分清学位名称与申请渠道：这张卡是PhD。目录中MPhil链接指向红鸟统一申请，不把博士截止日套给MPhil；红鸟按自己的日期申请，入学后再探索学域。招生名额、导师接收和博士评审权重仍未知。"
+    },
+    {
+      "id": "hkustgz-function-eoas-phd",
+      "universityId": "hkustgz",
+      "name": "功能枢纽 · 地球、海洋与大气科学 PhD",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州；2027/28秋季博士路径。MPhil请走单列的红鸟硕士统一申请。",
+      "contact": {
+        "status": "unknown",
+        "text": "可以先了解研究方向；本次项目目录没有说明必须在申请前取得哪位老师的支持，接收安排仍要核对。",
+        "sourceIds": [
+          "hkustgz-function-eoas-phd-2027"
+        ]
+      },
+      "selection": {
+        "text": "目录没有说明导师与委员会各自的决定权，先按正式博士项目要求准备；不要把项目协调人当成已确认的接收导师。",
+        "sourceIds": [
+          "hkustgz-function-eoas-phd-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者博士截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "国际申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者博士截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "中国申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-function-eoas-phd-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "gz-redbird"
+      ],
+      "requirements": [
+        {
+          "label": "先核博士学历路径",
+          "text": "广州校级博士要求列优秀本科学位，或至少一年全日制、两年非全日制研究生阶段的满意表现等路径。具体资格由学校审阅，符合最低要求不保证录取。",
+          "action": "按广州博士要求核对本科成绩或研究生阶段证明，再查学域是否追加条件",
+          "sourceIds": [
+            "hkustgz-function-eoas-phd-2027",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语分数和考试形式一起核对",
+          "text": "IELTS Academic总分6.5、单项5.5。TOEFL iBT按2026年1月21日前后区分80与4.5；要求单次成绩，不接受在家考试。第一语言英语或英语授课本科学历另有路径，请看广州官方原页。",
+          "action": "核对英语考试日期、总分、单项、考试形式与可用的免交路径",
+          "sourceIds": [
+            "hkustgz-function-eoas-phd-2027",
+            "gz-central-requirements"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-function-eoas-phd-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "2027/28项目目录列人民币150元申请费。这里只确认这一项，不当作学费、完整预算或资助承诺。",
+          "action": "提交博士申请前核对当期申请费及支付说明",
+          "sourceIds": [
+            "hkustgz-function-eoas-phd-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该2027/28项目条目列示；博士路径，实际提交前再核"
+            }
+          ]
+        }
+      ],
+      "evidenceNote": "先分清学位名称与申请渠道：这张卡是PhD。目录中MPhil链接指向红鸟统一申请，不把博士截止日套给MPhil；红鸟按自己的日期申请，入学后再探索学域。招生名额、导师接收和博士评审权重仍未知。"
+    },
+    {
+      "id": "hkustgz-function-mics-phd",
+      "universityId": "hkustgz",
+      "name": "功能枢纽 · 微电子 PhD",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州；2027/28秋季博士路径。MPhil请走单列的红鸟硕士统一申请。",
+      "contact": {
+        "status": "unknown",
+        "text": "可以先了解研究方向；本次项目目录没有说明必须在申请前取得哪位老师的支持，接收安排仍要核对。",
+        "sourceIds": [
+          "hkustgz-function-mics-phd-2027"
+        ]
+      },
+      "selection": {
+        "text": "目录没有说明导师与委员会各自的决定权，先按正式博士项目要求准备；不要把项目协调人当成已确认的接收导师。",
+        "sourceIds": [
+          "hkustgz-function-mics-phd-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者博士截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "国际申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者博士截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "中国申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-function-mics-phd-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "gz-redbird"
+      ],
+      "requirements": [
+        {
+          "label": "先核博士学历路径",
+          "text": "广州校级博士要求列优秀本科学位，或至少一年全日制、两年非全日制研究生阶段的满意表现等路径。具体资格由学校审阅，符合最低要求不保证录取。",
+          "action": "按广州博士要求核对本科成绩或研究生阶段证明，再查学域是否追加条件",
+          "sourceIds": [
+            "hkustgz-function-mics-phd-2027",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语分数和考试形式一起核对",
+          "text": "IELTS Academic总分6.5、单项5.5。TOEFL iBT按2026年1月21日前后区分80与4.5；要求单次成绩，不接受在家考试。第一语言英语或英语授课本科学历另有路径，请看广州官方原页。",
+          "action": "核对英语考试日期、总分、单项、考试形式与可用的免交路径",
+          "sourceIds": [
+            "hkustgz-function-mics-phd-2027",
+            "gz-central-requirements"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-function-mics-phd-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "2027/28项目目录列人民币150元申请费。这里只确认这一项，不当作学费、完整预算或资助承诺。",
+          "action": "提交博士申请前核对当期申请费及支付说明",
+          "sourceIds": [
+            "hkustgz-function-mics-phd-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该2027/28项目条目列示；博士路径，实际提交前再核"
+            }
+          ]
+        }
+      ],
+      "evidenceNote": "先分清学位名称与申请渠道：这张卡是PhD。目录中MPhil链接指向红鸟统一申请，不把博士截止日套给MPhil；红鸟按自己的日期申请，入学后再探索学域。招生名额、导师接收和博士评审权重仍未知。"
+    },
+    {
+      "id": "hkustgz-function-see-phd",
+      "universityId": "hkustgz",
+      "name": "功能枢纽 · 可持续能源与环境 PhD",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州；2027/28秋季博士路径。MPhil请走单列的红鸟硕士统一申请。",
+      "contact": {
+        "status": "unknown",
+        "text": "可以先了解研究方向；本次项目目录没有说明必须在申请前取得哪位老师的支持，接收安排仍要核对。",
+        "sourceIds": [
+          "hkustgz-function-see-phd-2027"
+        ]
+      },
+      "selection": {
+        "text": "目录没有说明导师与委员会各自的决定权，先按正式博士项目要求准备；不要把项目协调人当成已确认的接收导师。",
+        "sourceIds": [
+          "hkustgz-function-see-phd-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者博士截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "国际申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者博士截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "中国申请者",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-function-see-phd-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "gz-redbird"
+      ],
+      "requirements": [
+        {
+          "label": "先核博士学历路径",
+          "text": "广州校级博士要求列优秀本科学位，或至少一年全日制、两年非全日制研究生阶段的满意表现等路径。具体资格由学校审阅，符合最低要求不保证录取。",
+          "action": "按广州博士要求核对本科成绩或研究生阶段证明，再查学域是否追加条件",
+          "sourceIds": [
+            "hkustgz-function-see-phd-2027",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语分数和考试形式一起核对",
+          "text": "IELTS Academic总分6.5、单项5.5。TOEFL iBT按2026年1月21日前后区分80与4.5；要求单次成绩，不接受在家考试。第一语言英语或英语授课本科学历另有路径，请看广州官方原页。",
+          "action": "核对英语考试日期、总分、单项、考试形式与可用的免交路径",
+          "sourceIds": [
+            "hkustgz-function-see-phd-2027",
+            "gz-central-requirements"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-function-see-phd-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "2027/28项目目录列人民币150元申请费。这里只确认这一项，不当作学费、完整预算或资助承诺。",
+          "action": "提交博士申请前核对当期申请费及支付说明",
+          "sourceIds": [
+            "hkustgz-function-see-phd-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该2027/28项目条目列示；博士路径，实际提交前再核"
+            }
+          ]
+        }
+      ],
+      "evidenceNote": "先分清学位名称与申请渠道：这张卡是PhD。目录中MPhil链接指向红鸟统一申请，不把博士截止日套给MPhil；红鸟按自己的日期申请，入学后再探索学域。招生名额、导师接收和博士评审权重仍未知。"
     }
   ],
   "faculty": [
@@ -38530,6 +38914,118 @@ window.APP_CATALOG = {
         }
       ],
       "alsoListsHongKongAppointments": false
+    },
+    {
+      "id": "hkustgz-function-amat-phd-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 先进材料",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Function Hub / advanced-materials-27；项目公开接口中的学位、申请入口及申请费",
+      "claims": [
+        "目录列MPhil/PhD两个学位，但MPhil网站指向统一红鸟申请入口，不能据学位名称推定可直接申请该学域MPhil。",
+        "本条只整理博士路径；项目页将学历和英语要求、申请时间转到广州研究院中央页面。",
+        "该2027/28条目列申请费人民币150元；不是学费或已获资助。"
+      ],
+      "knownIssues": [
+        "旧fytgs的-5项目页仍写2026/27，不能拿它充当本年度项目目录。",
+        "Program Advisor是项目协调人，不自动视为申请导师或录取决定人；当前名额与导师接收安排未知。",
+        "不使用同一接口中hideThisProgram=true的条目充作开放项目。"
+      ],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "advanced-materials-27",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline"
+      ]
+    },
+    {
+      "id": "hkustgz-function-eoas-phd-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 地球、海洋与大气科学",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Function Hub / earth-ocean-and-atmospheric-sciences-27；项目公开接口中的学位、申请入口及申请费",
+      "claims": [
+        "目录列MPhil/PhD两个学位，但MPhil网站指向统一红鸟申请入口，不能据学位名称推定可直接申请该学域MPhil。",
+        "本条只整理博士路径；项目页将学历和英语要求、申请时间转到广州研究院中央页面。",
+        "该2027/28条目列申请费人民币150元；不是学费或已获资助。"
+      ],
+      "knownIssues": [
+        "旧fytgs的-5项目页仍写2026/27，不能拿它充当本年度项目目录。",
+        "Program Advisor是项目协调人，不自动视为申请导师或录取决定人；当前名额与导师接收安排未知。",
+        "不使用同一接口中hideThisProgram=true的条目充作开放项目。"
+      ],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "earth-ocean-and-atmospheric-sciences-27",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline"
+      ]
+    },
+    {
+      "id": "hkustgz-function-mics-phd-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 微电子",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Function Hub / microelectronics-27；项目公开接口中的学位、申请入口及申请费",
+      "claims": [
+        "目录列MPhil/PhD两个学位，但MPhil网站指向统一红鸟申请入口，不能据学位名称推定可直接申请该学域MPhil。",
+        "本条只整理博士路径；项目页将学历和英语要求、申请时间转到广州研究院中央页面。",
+        "该2027/28条目列申请费人民币150元；不是学费或已获资助。"
+      ],
+      "knownIssues": [
+        "旧fytgs的-5项目页仍写2026/27，不能拿它充当本年度项目目录。",
+        "Program Advisor是项目协调人，不自动视为申请导师或录取决定人；当前名额与导师接收安排未知。",
+        "不使用同一接口中hideThisProgram=true的条目充作开放项目。"
+      ],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "microelectronics-27",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline"
+      ]
+    },
+    {
+      "id": "hkustgz-function-see-phd-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 可持续能源与环境",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Function Hub / sustainable-energy-and-environment-27；项目公开接口中的学位、申请入口及申请费",
+      "claims": [
+        "目录列MPhil/PhD两个学位，但MPhil网站指向统一红鸟申请入口，不能据学位名称推定可直接申请该学域MPhil。",
+        "本条只整理博士路径；项目页将学历和英语要求、申请时间转到广州研究院中央页面。",
+        "该2027/28条目列申请费人民币150元；不是学费或已获资助。"
+      ],
+      "knownIssues": [
+        "旧fytgs的-5项目页仍写2026/27，不能拿它充当本年度项目目录。",
+        "Program Advisor是项目协调人，不自动视为申请导师或录取决定人；当前名额与导师接收安排未知。",
+        "不使用同一接口中hideThisProgram=true的条目充作开放项目。"
+      ],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "sustainable-energy-and-environment-27",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline"
+      ]
     }
   ],
   "funding": [
@@ -51889,5 +52385,5 @@ window.APP_CATALOG = {
     "staffRouteBodiesRead": 107,
     "staffRouteFailures": 0
   },
-  "snapshotId": "sha256:bd819f9e10836efd3821c76f491369414fb9a3dd7947a5d57c750b5f684c8f86"
+  "snapshotId": "sha256:8cf2b5bea7181cb70e934e750cc9486b16d39a03f8dc77702304802ef63752b7"
 };
