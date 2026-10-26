@@ -1,0 +1,434 @@
+{
+  "schema_version": 1,
+  "checked_at": "2026-10-26",
+  "research_scope": "HKUST Hong Kong and HKUST(GZ), AI/computing/control-first research degree and faculty-fit source pack; no contacts or application submissions",
+  "source_count": 10,
+  "sources": [
+    {
+      "id": "hk-cse-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "title": "HKUST Program & Course Catalog 2027/28 — MPhil/PhD Computer Science and Engineering",
+      "scope": "Hong Kong; CSE; MPhil and PhD; Fall 2027 and Spring 2027 dates displayed separately",
+      "evidence_level": "official_program_current_cycle",
+      "claims": [
+        "CSE awards both MPhil and PhD.",
+        "Fall 2027 non-local deadline is 1 June 2027; local deadline 15 July 2027; rolling review.",
+        "Spring 2027 non-local deadline is 1 November 2026, not the Fall deadline.",
+        "HKPFS PhD application requires the RGC reference by 1 December 2026 noon GMT+8 and HKUST submission by 23:59 the same day."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "hk-ece-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+      "title": "HKUST Program & Course Catalog 2027/28 — MPhil/PhD Electronic and Computer Engineering",
+      "scope": "Hong Kong; ECE; MPhil and PhD; Fall 2027 / Spring 2027",
+      "evidence_level": "official_program_current_cycle",
+      "claims": [
+        "ECE awards MPhil and PhD.",
+        "Published research streams include control and robotic systems, networked sensing/control, and data science/AI.",
+        "Fall 2027 non-local deadline is 1 June 2027; local deadline 15 July 2027.",
+        "Spring 2027 non-local deadline is 1 November 2026; HKPFS uses the two 1 December 2026 deadlines."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "hk-engineering-faq",
+      "url": "https://seng.hkust.edu.hk/academics/research-postgraduate/mphil-phd-programs/faq",
+      "title": "HKUST School of Engineering — MPhil/PhD FAQ",
+      "scope": "Engineering-school guidance, not a department-specific or university-wide guarantee; live undated guidance",
+      "evidence_level": "official_school_policy_scope_limited",
+      "locator": "Questions 10,13,14; Studentship questions 1,3",
+      "claims": [
+        "Prior verbal supervisor approval is not a general Engineering prerequisite; requirements can differ by department. Some departments select through committees and match supervisors after admission.",
+        "Submitted applications circulate among faculty; interviews are communicated through program offices. The school advises communicating with potential supervisors after online submission.",
+        "Full-time MPhil/PhD applicants are considered for PGS without a separate application. An unsuccessful HKPFS applicant is also considered for PGS."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "hk-james-kwok",
+      "url": "https://cse.hkust.edu.hk/faculty/jamesk/",
+      "title": "James Tin-Yau Kwok — HKUST CSE faculty page",
+      "scope": "Hong Kong faculty research profile; no intake-specific recruitment confirmation",
+      "evidence_level": "official_faculty_research_profile",
+      "claims": [
+        "Professor in Computer Science and Engineering.",
+        "Research topics include machine learning, deep learning, data mining and AI, with vision/image and speech applications.",
+        "No dated 2027 recruitment or remaining capacity statement established from this page."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "hk-ling-shi",
+      "url": "https://seng.hkust.edu.hk/about/people/faculty/ling-shi",
+      "title": "Ling Shi — HKUST School of Engineering faculty page",
+      "scope": "Hong Kong ECE faculty research profile; no intake-specific recruitment confirmation",
+      "evidence_level": "official_faculty_research_profile",
+      "claims": [
+        "ECE faculty member; listed research covers automatic control, cyber-physical systems, game theory and networked sensing.",
+        "No dated 2027 recruitment or remaining capacity statement established from this page."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "gz-timeline",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "title": "HKUST(GZ) FYTGS — Admission Timeline",
+      "scope": "Guangzhou; PhD Spring 2026/27 and Fall 2027/28; July 2026 last-update label",
+      "evidence_level": "official_central_current_cycle",
+      "claims": [
+        "Fall 2027 PhD application runs from 21 July 2026 to 15 July 2027 for Chinese applicants and 15 June 2027 for international applicants; deadline 23:59 GMT+8.",
+        "Spring 2027 PhD deadline is 25 December 2026 Chinese / 4 December 2026 international; program starts 25 January 2027.",
+        "Red Bird MPhil follows a separate College of Future Technology timeline. Offers are issued on a rolling basis."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "gz-redbird",
+      "url": "https://cft.hkust-gz.edu.cn/RBM%20Program/Admission/",
+      "title": "HKUST(GZ) College of Future Technology — Red Bird MPhil Admission",
+      "scope": "Guangzhou; Red Bird MPhil (General); Fall 2027/28",
+      "evidence_level": "official_program_current_cycle",
+      "locator": "Admission mechanism; timeline; scholarship/tuition; admission FAQ",
+      "claims": [
+        "Applications use MPhil (General), with central university admission and selection/interview committee review.",
+        "Contacting professors before application is not required. Supervisor/thrust matching follows an initial exploration period rather than a guaranteed pre-admission faculty commitment.",
+        "Application opens 2 April 2026 and closes 1 March 2027 at 23:59; later submissions roll to Fall 2028 review.",
+        "Full-time MPhil PGS is considered automatically, stated at CNY120000/year for at most 24 months; PGS-supported tuition shown as CNY60000/year."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "gz-central-faq",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/faq",
+      "title": "HKUST(GZ) FYTGS — Admissions FAQ",
+      "scope": "Guangzhou central RPg guidance; do not override Red Bird-specific rules",
+      "evidence_level": "official_central_policy_scope_limited",
+      "locator": "Application Procedures; identifying supervisors; Admission Results; Funding",
+      "claims": [
+        "Applicants can consult the faculty/thrust list for research compatibility. This wording does not establish mandatory prior supervisor confirmation for every PhD program.",
+        "Formal application progress and results are recorded in OAS, with successful-offer email notification.",
+        "Full-time MPhil/PhD PGS consideration is automatic; no separate application, but tuition remains payable.",
+        "A missing test score can be declared as scheduled and later updated; applicants should provide it promptly."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "gz-hui-xiong",
+      "url": "https://ailab.hkust-gz.edu.cn/prospective.html",
+      "title": "Hui Xiong — For Prospective Students, HKUST(GZ) official lab page",
+      "scope": "Guangzhou faculty/lab guidance; current wording has no dated intake",
+      "evidence_level": "official_faculty_undated_recruitment_statement",
+      "claims": [
+        "Research spans AI4Science, computer vision, data mining, business analytics and talent intelligence.",
+        "Page expresses interest in PhD/MPhil applicants through AI and interdisciplinary thrusts, but does not establish available 2027 seats.",
+        "MPhil decisions are made by the university; the page directs admitted MPhil applicants to contact the professor afterward."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    },
+    {
+      "id": "gz-lingjie-duan",
+      "url": "https://personal.hkust-gz.edu.cn/lingjieduan/phd-openings/",
+      "title": "Lingjie Duan — PhD/MPhil/RA Opportunities, HKUST(GZ) official faculty site",
+      "scope": "Guangzhou faculty recruitment statement explicitly naming 2026 and 2027",
+      "evidence_level": "official_faculty_intake_named_opening_not_offer",
+      "claims": [
+        "Page invites PhD/MPhil/RA candidates for 2026 and 2027 and provides application materials to send to the professor.",
+        "Research includes AI theory, distributed learning, multi-agent systems, networking and game theory, with robotics/IoT applications.",
+        "This is an advertised intake opportunity, not proof of a currently unfilled place or an admission/funding offer."
+      ],
+      "checked_at": "2026-10-26",
+      "verbatim_quote": null,
+      "access": "official page text retrieved with web tool"
+    }
+  ],
+  "programs": [
+    {
+      "id": "hkust-hk-cse-rpg",
+      "institution": "HKUST",
+      "campus": "Hong Kong",
+      "program": "Computer Science and Engineering",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "intake": "2027/28 Fall",
+      "availability": "confirmed_program_awards_and_current_application_cycle",
+      "program_entry": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "deadline_chinese_mainland_nonlocal": "2027-06-01",
+      "deadline_local": "2027-07-15",
+      "timezone": "Asia/Hong_Kong",
+      "supervisor_contact": {
+        "precontact_mandatory": "not_established_at_CSE_program_scope",
+        "confirmation_required": "unknown_department_specific",
+        "guidance": "School FAQ: not generally necessary, department-dependent; discuss fit after online application.",
+        "sources": [
+          "hk-engineering-faq"
+        ]
+      },
+      "final_admission": {
+        "decision_model": "faculty/program review plus formal university admission; no individual supervisor acceptance guarantee",
+        "exact_department_committee_composition": "not_verified",
+        "sources": [
+          "hk-engineering-faq",
+          "hk-cse-2027"
+        ]
+      },
+      "funding": {
+        "PGS": "automatic_consideration_not_a_guarantee",
+        "HKPFS": "PhD only; RGC and HKUST submissions are distinct",
+        "sources": [
+          "hk-engineering-faq",
+          "hk-cse-2027"
+        ]
+      },
+      "sources": [
+        "hk-cse-2027",
+        "hk-engineering-faq"
+      ]
+    },
+    {
+      "id": "hkust-hk-ece-rpg",
+      "institution": "HKUST",
+      "campus": "Hong Kong",
+      "program": "Electronic and Computer Engineering",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "intake": "2027/28 Fall",
+      "availability": "confirmed_program_awards_and_current_application_cycle",
+      "program_entry": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+      "deadline_chinese_mainland_nonlocal": "2027-06-01",
+      "deadline_local": "2027-07-15",
+      "timezone": "Asia/Hong_Kong",
+      "supervisor_contact": {
+        "precontact_mandatory": "not_established_at_ECE_program_scope",
+        "confirmation_required": "unknown_department_specific",
+        "guidance": "Use school FAQ as general guidance; verify ECE-specific workflow rather than infer from one faculty page.",
+        "sources": [
+          "hk-engineering-faq"
+        ]
+      },
+      "final_admission": {
+        "decision_model": "not a faculty email promise; department/program review and official admission",
+        "exact_department_committee_composition": "not_verified",
+        "sources": [
+          "hk-engineering-faq"
+        ]
+      },
+      "funding": {
+        "PGS": "automatic_consideration_not_a_guarantee",
+        "HKPFS": "PhD only; current deadlines in program application tab",
+        "sources": [
+          "hk-engineering-faq",
+          "hk-ece-2027"
+        ]
+      },
+      "sources": [
+        "hk-ece-2027",
+        "hk-engineering-faq"
+      ]
+    },
+    {
+      "id": "hkust-gz-rbm",
+      "institution": "HKUST(GZ)",
+      "campus": "Guangzhou",
+      "program": "Red Bird MPhil / MPhil (General)",
+      "degrees": [
+        "MPhil"
+      ],
+      "intake": "2027/28 Fall",
+      "availability": "confirmed_current_cycle",
+      "program_entry": "https://cft.hkust-gz.edu.cn/RBM%20Program/Admission/",
+      "deadline": "2027-03-01T23:59:00+08:00",
+      "supervisor_contact": {
+        "precontact_mandatory": false,
+        "preconfirmation_required": false,
+        "match_timing": "mutual selection after initial academic exploration; site describes about six months",
+        "sources": [
+          "gz-redbird"
+        ]
+      },
+      "final_admission": {
+        "decision_model": "central application; Selection and Interview Committee review",
+        "sources": [
+          "gz-redbird"
+        ]
+      },
+      "funding": {
+        "PGS": "automatic consideration; stated CNY120000/year up to24months, tuition separate CNY60000/year",
+        "not_a_personal_offer": true,
+        "sources": [
+          "gz-redbird"
+        ]
+      },
+      "sources": [
+        "gz-redbird"
+      ]
+    },
+    {
+      "id": "hkust-gz-phd-entry",
+      "institution": "HKUST(GZ)",
+      "campus": "Guangzhou",
+      "program": "Research PhD — choose and verify the actual thrust/program in OAS",
+      "degrees": [
+        "PhD"
+      ],
+      "intake": "2027/28 Fall",
+      "availability": "central_PhD_cycle_confirmed_not_all_thrust_places",
+      "program_entry": "https://fytgs.hkust-gz.edu.cn/admissions/apply-now",
+      "deadline_chinese": "2027-07-15T23:59:00+08:00",
+      "deadline_international": "2027-06-15T23:59:00+08:00",
+      "supervisor_contact": {
+        "precontact_mandatory": "unknown_at_individual_thrust_scope",
+        "confirmation_required": "not_established_by_general_FAQ",
+        "guidance": "Check faculty fit and actual program instructions. Individual dated openings may invite contact but do not become university-wide prerequisites.",
+        "sources": [
+          "gz-central-faq",
+          "gz-lingjie-duan"
+        ]
+      },
+      "final_admission": {
+        "decision_model": "Formal result through university OAS; precise AI-thrust decision composition not verified",
+        "faculty_support_is_not_final_offer": true,
+        "sources": [
+          "gz-central-faq"
+        ]
+      },
+      "funding": {
+        "PGS": "automatic consideration for full-time research students; terms and formal award still require verification",
+        "sources": [
+          "gz-central-faq"
+        ]
+      },
+      "sources": [
+        "gz-timeline",
+        "gz-central-faq"
+      ]
+    }
+  ],
+  "faculty_candidates": [
+    {
+      "id": "james-kwok",
+      "name": "James Tin-Yau Kwok",
+      "institution": "HKUST",
+      "campus": "Hong Kong",
+      "unit": "Computer Science and Engineering",
+      "fit_keywords": [
+        "machine learning",
+        "deep learning",
+        "data mining",
+        "AI"
+      ],
+      "research_fit_status": "profile-supported candidate, not personal-match score",
+      "recruitment_availability": "unknown",
+      "intake_evidence": null,
+      "sources": [
+        "hk-james-kwok"
+      ]
+    },
+    {
+      "id": "ling-shi",
+      "name": "Ling Shi",
+      "institution": "HKUST",
+      "campus": "Hong Kong",
+      "unit": "Electronic and Computer Engineering",
+      "fit_keywords": [
+        "automatic control",
+        "cyber-physical systems",
+        "networked sensing",
+        "game theory"
+      ],
+      "research_fit_status": "profile-supported candidate, not personal-match score",
+      "recruitment_availability": "unknown",
+      "intake_evidence": null,
+      "sources": [
+        "hk-ling-shi"
+      ]
+    },
+    {
+      "id": "hui-xiong",
+      "name": "Hui Xiong",
+      "institution": "HKUST(GZ)",
+      "campus": "Guangzhou",
+      "unit": "AI / interdisciplinary thrusts (as stated on prospective page)",
+      "fit_keywords": [
+        "AI4Science",
+        "computer vision",
+        "data mining"
+      ],
+      "research_fit_status": "profile-supported candidate, not personal-match score",
+      "recruitment_availability": "unknown_current_intake_capacity",
+      "intake_evidence": "undated recruitment wording; not upgraded to confirmed 2027 capacity",
+      "contact_note": "MPhil route is central university admission; faculty page says contact after admission.",
+      "sources": [
+        "gz-hui-xiong",
+        "gz-redbird"
+      ]
+    },
+    {
+      "id": "lingjie-duan",
+      "name": "Lingjie Duan",
+      "institution": "HKUST(GZ)",
+      "campus": "Guangzhou",
+      "unit": "A2E Lab / exact application thrust must be checked",
+      "fit_keywords": [
+        "distributed machine learning",
+        "multi-agent autonomous systems",
+        "AI theory",
+        "networking",
+        "game theory"
+      ],
+      "research_fit_status": "profile-supported candidate, not personal-match score",
+      "recruitment_availability": "advertised_for_2026_and_2027_current_capacity_unknown",
+      "intake_evidence": "Official faculty page explicitly names 2026 and2027",
+      "contact_note": "Faculty invites CV/GPA, transcript, ranking and possible publications; application still uses official process.",
+      "sources": [
+        "gz-lingjie-duan"
+      ]
+    }
+  ],
+  "product_rules": [
+    "Store institution+campus+program+degree+intake as a compound key.",
+    "Keep optional/recommended/required contact, supervisor confirmation and final official decision as distinct fields with unknown allowed.",
+    "A faculty research topic is not an opening; a dated opening is not a seat, offer or admission probability.",
+    "Keep Spring/Fall and local/nonlocal versus Chinese/international categories distinct.",
+    "Funding consideration is not an award; stipend is not tuition waiver.",
+    "Do not infer current AI-thrust intake availability from a 2026/27 degree catalog."
+  ],
+  "known_gaps": [
+    "HKUST Hong Kong CSE/ECE exact departmental preconfirmation and final committee rules remain to verify; school FAQ does not settle all departments.",
+    "HKUST(GZ) AI 2026/27 catalog search supports MPhil/PhD award names, but 2027/28 catalog could not be fetched; no specific 2027 AI-thrust availability claim made.",
+    "Current capacity for each faculty and individualized eligibility/funding award are unknown."
+  ],
+  "access_failures": [
+    {
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog/artificial-intelligence-5?yearOfEntry=2027%2F28",
+      "result": "web tool unavailable; historical 2026/27 catalog not used as 2027 intake proof"
+    },
+    {
+      "url": "https://cft.hkust-gz.edu.cn/zh/rbm-program/admission/",
+      "result": "direct retrieval timed out; English official page body successfully retrieved and used instead"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "checkedDate": "2026-10-26",
+  "counts": {
+    "universities": 7,
+    "programs": 12,
+    "faculty": 107,
+    "sources": 176,
+    "funding": 1,
+    "degreeRoutes": 21,
+    "facultyByUniversity": {
+      "hku": 17,
+      "cuhk": 16,
+      "hkust": 14,
+      "hkustgz": 13,
+      "polyu": 16,
+      "cityu": 16,
+      "cuhksz": 15
+    },
+    "unknownRecruitment": 104,
+    "dateOnlyDeadlines": 16,
+    "programsWithRequirements": 10,
+    "requirementItems": 33,
+    "programsWithFinances": 4,
+    "financeItems": 9,
+    "officialDirectories": 33,
+    "directoriesByUniversity": {
+      "hku": 6,
+      "cuhk": 4,
+      "hkust": 4,
+      "hkustgz": 6,
+      "cuhksz": 4,
+      "polyu": 4,
+      "cityu": 5
+    }
+  },
+  "assertions": [
+    "seven institution identities stay separate",
+    "all claims retain source references",
+    "no invented clock for date-only deadlines",
+    "HKU regular and CityU CS contact remain unknown",
+    "past early round retained",
+    "faculty topics use exact aliases only",
+    "dated advert is not confirmed capacity",
+    "HKPFS is PhD-only and does not cross to SZ/GZ"
+  ]
+}

@@ -1,0 +1,234 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict');
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm');
+const L=require('../dist/logic.js');
+const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));
+const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
+const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
+
+// This runs actual event callbacks against deterministic DOM/storage/file stubs.
+// It is not browser, keyboard, visual, native-picker or completed-download QA.
+function harness(initialStorage,options={}) {
+  const all=[],byId=new Map(),saved=new Map(initialStorage||[]),blobs=new Map(),downloads=[];
+  class Element {
+    constructor(tag){this.tagName=tag;this.children=[];this.events={};this.attributes={};this.dataset={};this._text='';this.value='';this.checked=false;this.hidden=false;this.className='';this.files=[];all.push(this);this.classList={toggle:(name,on)=>{const values=new Set(this.className.split(' ').filter(Boolean));on?values.add(name):values.delete(name);this.className=[...values].join(' ');}};}
+    set textContent(value){this._text=String(value);this.children=[];}
+    get textContent(){return this._text+this.children.map(x=>x.textContent).join('');}
+    get childElementCount(){return this.children.length;}
+    append(...children){children.forEach(child=>{this.children.push(child);child.parent=this;});}
+    replaceChildren(...children){this.children=[];this._text='';this.append(...children);}
+    setAttribute(name,value){this.attributes[name]=String(value);}
+    removeAttribute(name){delete this.attributes[name];}
+    addEventListener(name,callback){(this.events[name]||=[]).push(callback);}
+    async emit(name,event={}){for(const callback of this.events[name]||[])await callback({target:this,preventDefault(){},...event});}
+    click(){if(this.tagName==='a'&&this.download)downloads.push({name:this.download,blob:blobs.get(this.href)});else return this.emit('click');}
+    focus(){this.focusRequested=true;}
+    remove(){if(this.parent)this.parent.children=this.parent.children.filter(x=>x!==this);}
+  }
+  for(const match of html.matchAll(/<([a-z0-9]+)\b[^>]*\bid="([^"]+)"[^>]*>/g)){
+    const element=new Element(match[1]);element.id=match[2];element.className=/class="([^"]*)"/.exec(match[0])?.[1]||'';byId.set(element.id,element);
+  }
+  for(const value of ['MPhil','PhD']){const radio=new Element('input');radio.name='degree';radio.value=value;radio.checked=value==='MPhil';}
+  for(const value of ['explore','shortlist','sources','community']){const button=new Element('button');button.dataset.view=value;}
+  const body=new Element('body');
+  function query(selector){if(selector==='.view')return [...byId.values()].filter(x=>x.className.split(' ').includes('view'));if(selector==='[data-view]')return all.filter(x=>x.dataset.view);const name=/^\[name=([^\]]+)\](:checked)?$/.exec(selector);if(name)return all.filter(x=>x.name===name[1]&&(!name[2]||x.checked));throw Error('Unsupported test selector '+selector);}
+  let networkCalls=0;
+  class TestURL extends URL {static createObjectURL(blob){const key='blob:local-test-'+blobs.size;blobs.set(key,blob);return key;}static revokeObjectURL(){}}
+  class TestFormData {get(name){return query('[name='+name+']:checked')[0]?.value||null;}}
+  const context={window:{APP_LOGIC:L,APP_CATALOG:C},document:{getElementById:id=>{assert.ok(byId.has(id),id);return byId.get(id);},createElement:tag=>new Element(tag),querySelectorAll:query,body},localStorage:{getItem:key=>saved.get(key)||null,setItem:(key,value)=>{if(options.storageWriteFails)throw Error('synthetic storage failure');saved.set(key,value);},removeItem:key=>saved.delete(key)},structuredClone,Intl,Date,Math,Blob,URL:TestURL,FormData:TestFormData,Option:function(label,value){const option=new Element('option');option.textContent=label;option.value=value;return option;},history:{replaceState(){}},location:{hash:''},setTimeout:()=>1,clearTimeout(){},console,fetch(){networkCalls++;throw Error('No outbound network allowed in this local task');}};
+  vm.runInNewContext(script,context,{timeout:1000});
+  const walk=(element)=>[element,...element.children.flatMap(walk)];
+  const button=(parent,text)=>{const found=walk(byId.get(parent)).find(x=>x.tagName==='button'&&x.textContent.includes(text));assert.ok(found,text);return found;};
+  function select(university,degree,interests){query('[name=degree]').forEach(x=>{x.checked=x.value===degree;});query('[name=university]').forEach(x=>{x.checked=x.value===university;});query('[name=interest]').forEach(x=>{x.checked=interests.includes(x.value);});}
+  return {byId,saved,downloads,button,select,walk,networkCalls:()=>networkCalls};
+}
+
+test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  assert.ok(el('results').childElementCount>0);
+  assert.equal(el('source-list').childElementCount,C.sources.length);
+  h.select('hkustgz','MPhil',['机器学习']);
+  el('gpa-note').value='<script>这只是合成测试备注</script>';
+  await el('profile-form').emit('input');
+  assert.equal(el('results').childElementCount,1);
+  assert.match(el('results').textContent,/红鸟/);
+  assert.equal(el('funding-results').hidden,true);
+  await h.button('results','加入准备清单').emit('click');
+  assert.equal(JSON.parse(h.saved.get('yanxiang-local-v1')).profile.gpaNote,'');
+  assert.equal(el('tasks').childElementCount,1);
+  await el('show-faculty').emit('click');
+  assert.match(el('results').textContent,/Lingjie Duan/);
+  assert.match(el('results').textContent,/需进一步确认/);
+  await h.button('results','放入我的清单').emit('click');
+  await el('profile-form').emit('submit');
+  await el('export-local').emit('click');
+  assert.equal(h.downloads.length,1);
+  const raw=await h.downloads[0].blob.text();
+  const portable=L.parsePortable(raw,C);
+  assert.equal(portable.profile.gpaNote,'<script>这只是合成测试备注</script>');
+  assert.ok(portable.sourceIds.includes('gz-redbird'));
+  assert.ok(portable.shortlist.includes('lingjie-duan'));
+  const before=h.saved.get('yanxiang-local-v1');
+  el('import-local').files=[{size:1,text:async()=>'{'}];
+  await el('import-local').emit('change');
+  assert.equal(h.saved.get('yanxiang-local-v1'),before);
+  assert.match(el('notice').textContent,/没有替换当前清单/);
+  await el('reset-local').emit('click');
+  assert.equal(h.saved.has('yanxiang-local-v1'),false);
+  el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];
+  await el('import-local').emit('change');
+  assert.match(el('notice').textContent,/已载入完整备份/);
+  assert.ok(JSON.parse(h.saved.get('yanxiang-local-v1')).shortlist.includes('lingjie-duan'));
+  assert.match(el('saved-faculty').textContent,/Lingjie Duan/);
+  el('community-university').value='hkustgz';await el('community-university').emit('change');
+  el('community-program').value='hkust-gz-rbm';el('community-cycle').value='2027/28';el('community-outcome').value='rejected';el('community-notes').value='开发者合成样例，不是真实申请反馈。';el('community-consent').checked=true;
+  await el('community-form').emit('submit');
+  const draft=JSON.parse(await h.downloads[1].blob.text());
+  assert.equal(draft.publiclySubmitted,false);assert.equal(draft.outcome,'rejected');
+  assert.equal(h.networkCalls(),0);
+});
+
+test('a malformed saved record is retained rather than overwritten on startup',()=>{
+  const raw='{broken';const h=harness([['yanxiang-local-v1',raw]]);
+  assert.equal(h.saved.get('yanxiang-local-v1'),raw);
+  assert.match(h.byId.get('notice').textContent,/原记录没有被覆盖/);
+  assert.ok(h.byId.get('results').childElementCount>0);
+});
+
+test('a changed catalog is explained without erasing the saved application notes',()=>{
+  const saved=L.portable(C,{profile:{...L.defaultProfile(),gpaNote:'保留这条旧笔记'},shortlist:['lingjie-duan'],tasks:[],sourceIds:['gz-lingjie-duan']});
+  saved.catalogSnapshotId='sha256:'+'0'.repeat(64);
+  const raw=JSON.stringify(saved),h=harness([['yanxiang-local-v1',raw]]);
+  assert.match(h.byId.get('notice').textContent,/资料版本已变化/);
+  assert.equal(h.byId.get('gpa-note').value,'保留这条旧笔记');
+  assert.equal(h.saved.get('yanxiang-local-v1'),raw);
+});
+
+test('the real intake selector changes the date rows and survives portable save and restore',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('cuhksz','MPhil',[]);
+  el('intake-cycle').value='2026/27 Spring';await el('profile-form').emit('input');
+  assert.equal(el('results').childElementCount,2);
+  assert.match(el('results').textContent,/2026-10-15/);assert.match(el('results').textContent,/2026-10-31/);
+  assert.doesNotMatch(el('results').textContent,/2027-06-30/);
+  await el('export-local').emit('click');const raw=await h.downloads[0].blob.text();assert.equal(L.parsePortable(raw,C).profile.cycle,'2026/27 Spring');
+  await el('reset-local').emit('click');el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await el('import-local').emit('change');
+  assert.equal(el('intake-cycle').value,'2026/27 Spring');assert.equal(el('results').childElementCount,2);
+});
+
+test('source-backed material actions follow the selected degree, avoid duplicates and restore with intake context',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  function action(label){const nodes=h.walk(el('results')),at=nodes.findIndex(n=>n.tagName==='h4'&&n.textContent===label);assert.ok(at>=0,label);const b=nodes.slice(at+1).find(n=>n.tagName==='button');assert.ok(b);return b;}
+  h.select('cuhk','MPhil',[]);el('education').value='undergraduate';el('english').value='scheduled';await el('profile-form').emit('input');
+  assert.match(el('results').textContent,/硕士：先约好两位推荐人/);assert.doesNotMatch(el('results').textContent,/博士：先约好三位推荐人/);
+  assert.match(el('preparation-note').textContent,/已预约不等于可以在截止后补交/);
+  const link=h.walk(el('results')).find(n=>n.tagName==='a'&&n.href==='https://dept-eappsrv.cse.cuhk.edu.hk/pgas2027/');assert.ok(link);
+  await action('别只完成一个申请系统').emit('click');await action('别只完成一个申请系统').emit('click');
+  assert.equal(el('tasks').childElementCount,1);assert.match(el('notice').textContent,/已经在清单/);
+  h.select('cuhk','PhD',[]);await el('profile-form').emit('input');
+  assert.doesNotMatch(el('results').textContent,/硕士：先约好两位推荐人/);assert.match(el('results').textContent,/博士：先约好三位推荐人/);
+  await action('博士：先约好三位推荐人').emit('click');await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const raw=await h.downloads[0].blob.text(),backup=L.parsePortable(raw,C);
+  assert.equal(backup.tasks.length,2);assert.match(backup.tasks[0].text,/2027\/28学年 · MPhil/);assert.match(backup.tasks[1].text,/2027\/28学年 · PhD/);
+  assert.ok(backup.sourceIds.includes('cuhk-gs-documents'));assert.ok(backup.sourceIds.includes('CUHK-CSE-PROGRAMME'));
+  await el('reset-local').emit('click');el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await el('import-local').emit('change');
+  assert.match(el('tasks').textContent,/三位推荐人/);assert.match(el('tasks').textContent,/pgas2027/);assert.equal(h.networkCalls(),0);
+});
+
+test('actual finance and CIE callbacks keep scoped actions and distinguish matched amounts from references after restore',async()=>{
+  const h=harness(),el=id=>h.byId.get(id),nodes=()=>h.walk(el('results'));
+  function action(label){const all=nodes(),at=all.findIndex(n=>n.tagName==='h4'&&n.textContent===label);assert.ok(at>=0,label);return all.slice(at+1).find(n=>n.tagName==='button');}
+  const matched=()=>nodes().filter(n=>n.className==='finance-rate matched').map(n=>n.textContent).join(' ');
+  h.select('cuhk','MPhil',[]);await el('profile-form').emit('input');
+  assert.match(matched(),/49,500/);assert.doesNotMatch(matched(),/229,200/);
+  assert.ok(nodes().some(n=>n.className==='finance-rate unknown'&&n.textContent.includes('所选轮次')));
+  await action('研究生助学金不是只有博士才有').emit('click');
+  h.select('cuhksz','PhD',[]);await el('profile-form').emit('input');
+  assert.match(el('results').textContent,/不能把意向导师列作这两位之一/);
+  await action('硕博都先约两位推荐人').emit('click');
+  h.select('hkustgz','PhD',[]);el('intake-cycle').value='2027/28';await el('profile-form').emit('input');
+  assert.match(matched(),/CNY 60,000.*有PGS/);assert.doesNotMatch(matched(),/15,000|150,000/);
+  el('intake-cycle').value='2026/27 Spring';await el('profile-form').emit('input');assert.equal(matched(),'');
+  await action('有PGS与自费分开看').emit('click');await action('有PGS与自费分开看').emit('click');
+  assert.equal(el('tasks').childElementCount,3);
+  await el('profile-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads[0].blob.text();
+  const backup=L.parsePortable(raw,C);assert.ok(backup.sourceIds.includes('cuhk-gs-studentships'));assert.ok(backup.sourceIds.includes('gz-scholarships-fees'));assert.ok(backup.sourceIds.includes('cuhksz-cie'));
+  assert.match(backup.tasks[2].text,/2027年春季.*PhD/);
+  await el('reset-local').emit('click');el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await el('import-local').emit('change');
+  assert.equal(el('tasks').childElementCount,3);assert.equal(matched(),'');assert.equal(h.networkCalls(),0);
+});
+
+test('importing, saving and exporting an old-catalogue backup retains its original source version across a restart',async()=>{
+  const old=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/snapshots/f6acacfcbb436a3c52e45a92b093a614e3747c9554f94d036653464e6a9193fe.json'),'utf8'));
+  const original={kind:'research-admissions-navigator-local',schemaVersion:1,catalogCheckedDate:old.checkedDate,catalogSnapshotId:old.snapshotId,
+    profile:{...L.defaultProfile(old),universityIds:['cuhk'],gpaNote:'旧材料清单，尚未复核新版本'},shortlist:[],sourceIds:['CUHK-CSE-PROGRAMME'],
+    tasks:[{id:'task-old-check',text:'保留原材料核查笔记',done:false,programId:'cuhk-cse-rpg',facultyId:null}]};
+  const raw=JSON.stringify(original),h=harness();h.byId.get('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await h.byId.get('import-local').emit('change');
+  const saved=JSON.parse(h.saved.get('yanxiang-local-v1'));
+  const retains=value=>value.catalogSnapshotId===old.snapshotId||(value.catalogHistory||[]).some(x=>x.snapshotId===old.snapshotId&&x.checkedDate===old.checkedDate);
+  assert.ok(retains(saved),'original catalogue identity must survive the actual import persistence callback');
+  assert.equal(saved.tasks[0].text,original.tasks[0].text);assert.equal(saved.profile.gpaNote,original.profile.gpaNote);
+  await h.byId.get('export-local').emit('click');const exported=JSON.parse(await h.downloads[0].blob.text());assert.ok(retains(exported));
+  const restarted=harness([...h.saved]);await restarted.byId.get('export-local').emit('click');
+  const after=JSON.parse(await restarted.downloads[0].blob.text());assert.ok(retains(after));
+  assert.equal(restarted.byId.get('catalog-history-panel').hidden,false);assert.match(restarted.byId.get('catalog-history').textContent,/f6acacfc/);
+  assert.equal(JSON.stringify(original),raw);assert.equal(restarted.networkCalls(),0);
+});
+
+test('provided multiple source versions survive while malformed or overflowing history leaves the current record intact',async()=>{
+  const initial=L.portable(C,{profile:{...L.defaultProfile(C),gpaNote:'原清单'},tasks:[],shortlist:[],sourceIds:[]});
+  const h=harness([['yanxiang-local-v1',JSON.stringify(initial)]]),el=id=>h.byId.get(id);
+  const incoming=structuredClone(initial);incoming.catalogSnapshotId='sha256:'+'a'.repeat(64);incoming.catalogCheckedDate='2025-01-01';incoming.catalogHistory=[{snapshotId:'sha256:'+'b'.repeat(64),checkedDate:'2024-01-01'}];
+  async function load(value){const raw=JSON.stringify(value);el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await el('import-local').emit('change');}
+  await load(incoming);const saved=JSON.parse(h.saved.get('yanxiang-local-v1'));assert.equal(saved.catalogHistory.length,2);
+  assert.match(el('catalog-history').textContent,/2024-01-01/);assert.match(el('catalog-history').textContent,/2025-01-01/);
+  const before=h.saved.get('yanxiang-local-v1');
+  const bad=structuredClone(incoming);bad.catalogHistory=[{snapshotId:'wrong',checkedDate:'2023-01-01'}];await load(bad);assert.equal(h.saved.get('yanxiang-local-v1'),before);assert.match(el('notice').textContent,/没有替换当前清单/);
+  const tooMany=structuredClone(incoming);tooMany.catalogHistory=Array.from({length:256},(_,i)=>({snapshotId:'sha256:'+i.toString(16).padStart(64,'0'),checkedDate:'2023-01-01'}));await load(tooMany);
+  assert.equal(h.saved.get('yanxiang-local-v1'),before);assert.match(el('notice').textContent,/超过256项/);assert.equal(el('gpa-note').value,'原清单');
+});
+
+test('storage failure rejects an import before replacing visible notes and does not claim a new action was saved',async()=>{
+  const initial=L.portable(C,{profile:{...L.defaultProfile(C),gpaNote:'保留原笔记'},tasks:[],shortlist:[],sourceIds:[]});
+  const raw=JSON.stringify(initial),h=harness([['yanxiang-local-v1',raw]],{storageWriteFails:true}),el=id=>h.byId.get(id);
+  const incoming=structuredClone(initial);incoming.profile.gpaNote='不应替换原笔记';const file=JSON.stringify(incoming);
+  el('import-local').files=[{size:Buffer.byteLength(file),text:async()=>file}];await el('import-local').emit('change');
+  assert.equal(h.saved.get('yanxiang-local-v1'),raw);assert.equal(el('gpa-note').value,'保留原笔记');assert.match(el('notice').textContent,/没有替换当前清单/);
+  h.select('cuhk','MPhil',[]);await el('profile-form').emit('input');await h.button('results','加入准备清单').emit('click');
+  assert.equal(h.saved.get('yanxiang-local-v1'),raw);assert.match(el('notice').textContent,/暂时没能写入本机记录/);assert.equal(el('tasks').childElementCount,1);
+  await el('export-local').emit('click');const exported=JSON.parse(await h.downloads[0].blob.text());assert.equal(exported.tasks.length,1);assert.equal(exported.profile.gpaNote,'保留原笔记');assert.equal(h.networkCalls(),0);
+});
+
+test('concrete research discovery follows the teacher to evidence, follow-up, directories and portable recovery',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('hkust','PhD',[]);el('research-query').value='自然语言处理';
+  await el('profile-form').emit('input',{target:el('research-query')});
+  const card=h.walk(el('results')).find(n=>n.tagName==='article'&&n.textContent.includes('Junxian He'));
+  assert.ok(card);assert.match(card.textContent,/对应的官网研究词：Natural language processing/);
+  assert.doesNotMatch(el('results').textContent,/港科大（广州）/);
+  const children=h.walk(card),pick=text=>children.find(n=>n.tagName==='button'&&n.textContent.includes(text));
+  assert.ok(children.some(n=>n.tagName==='a'&&L.officialUrl(n.href)));
+  await pick('放入我的清单').emit('click');await pick('加入跟进待办').emit('click');await pick('加入跟进待办').emit('click');
+  assert.equal(el('tasks').childElementCount,1);assert.match(el('tasks').textContent,/PhD.*Junxian He/);
+  await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const raw=await h.downloads[0].blob.text(),parsed=L.parsePortable(raw,C);
+  assert.equal(parsed.profile.researchQuery,'自然语言处理');assert.equal(parsed.tasks[0].facultyId,'wide-hkust-junxian-he');
+  await pick('查这所学校的院系目录').emit('click');
+  assert.equal(el('results').childElementCount,L.directoriesFor(C,parsed.profile).length);
+  assert.match(el('results').textContent,/不是该院系教师总人数/);
+  await el('reset-local').emit('click');el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await el('import-local').emit('change');
+  assert.equal(el('research-query').value,'自然语言处理');assert.match(el('saved-faculty').textContent,/Junxian He/);
+  const restarted=harness([...h.saved]);assert.equal(restarted.byId.get('research-query').value,'自然语言处理');
+  assert.match(restarted.byId.get('tasks').textContent,/Junxian He/);assert.equal(h.networkCalls(),0);
+});
+
+test('broad discovery renders bounded batches and clearing filters preserves the saved plan',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);await el('show-faculty').emit('click');
+  assert.equal(el('results').childElementCount,24);assert.equal(el('show-more-faculty').hidden,false);
+  await el('show-more-faculty').emit('click');assert.equal(el('results').childElementCount,48);
+  assert.equal(el('results').children[24].focusRequested,true);
+  h.select('hkust','PhD',[]);el('research-query').value='完全未收录的研究问题';
+  await el('profile-form').emit('input',{target:el('research-query')});assert.match(el('results').textContent,/未收录不等于/);
+  await el('clear-filters').emit('click');assert.equal(el('research-query').value,'');assert.equal(el('results').childElementCount,24);
+  assert.equal(el('intake-cycle').value,'2027/28');assert.match(el('notice').textContent,/学位.*清单保留/);
+  await el('export-local').emit('click');assert.equal(L.parsePortable(await h.downloads[0].blob.text(),C).profile.degree,'PhD');
+});

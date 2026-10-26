@@ -1,0 +1,112 @@
+{
+  "checkedDate": "2026-10-26",
+  "method": "Read official page bodies. Programme requirements and central requirements remain separately scoped. No automatic eligibility decision or grade conversion.",
+  "sources": [
+    {
+      "id": "hku-phd-qualification", "url": "https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy",
+      "title": "HKU Graduate School — Doctor of Philosophy", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_degree_requirements", "scope": "港大校级博士学制与学历路线，非CS当期附加要求",
+      "claims": ["良好荣誉学士及/或授课型硕士可获考虑四年制博士；已有研究型硕士可获考虑三年制博士。"],
+      "knownIssues": ["没有据此核实CS当期语言、材料、名额或最终资格；页面未标明该段规则的入学轮次。"]
+    },
+    {
+      "id": "cuhk-gs-requirements", "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+      "title": "CUHK Graduate School — Requirements", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_admission_requirements", "scope": "香港本部研究院；MPhil-PhD项目的PhD stream与独立博士要求要区分",
+      "claims": ["MPhil-PhD项目的博士方向列有硕士、荣誉学士等替代资格路径；并非所有博士路线均要求先有硕士。", "英语最低路径包括IELTS Academic 6.5、TOEFL 79/120或4.5/6、英语授课学历等；具体院系可有附加要求。"],
+      "knownIssues": ["TOEFL/IELTS一般两年有效；考试形式、替代证明与具体项目要求要回原页核对，不据此自动判定资格。"]
+    },
+    {
+      "id": "cuhk-gs-documents", "url": "https://www.gs.cuhk.edu.hk/admissions/documents-required",
+      "title": "CUHK Graduate School — Documents Required", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_document_requirements", "scope": "香港本部研究院材料；不套用深圳校区",
+      "claims": ["研究型博士需三份推荐报告，其他项目需两份；需在网申录入推荐人。", "成绩单要附评分说明，内地学历及成绩的核验材料另有要求；语言成绩既须录入申请，也须按考试机构渠道正式送分。"],
+      "knownIssues": ["申请阶段与接受录取阶段的原件要求不同；在读生和已毕业生不能机械套同一套证明。项目还可要求额外材料。"]
+    },
+    {
+      "id": "hku-central-language", "url": "https://gradsch.hku.hk/prospective_students/application/admission_requirement",
+      "title": "HKU Graduate School — Admission Requirement", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_rpg_language_requirements", "scope": "港大研究型学位校级语言要求；文学院另有较高要求，具体项目仍可有附加条件",
+      "claims": ["非文学院校级IELTS Academic总分6.5、各项至少6；TOEFL iBT按2026-01-21前后区分85与4.5，单次考试且两年内。", "不接受TOEFL Home Edition或IELTS One Skill Retake；CET-6/TEM-8不能代替，须及时正式送分。"],
+      "knownIssues": ["最低学历条目在图片中，本条未从图片推断学历；已读文字语言要求。常规CS联系导师规则仍未核实。"]
+    },
+    {
+      "id": "gz-central-requirements", "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+      "title": "HKUST(GZ) FYTGS — Admission Requirements", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_admission_requirements", "scope": "广州研究院校级学历与英语要求；具体项目仍可加要求",
+      "claims": ["博士列优秀本科学位或至少一年全日制/两年非全日制研究生阶段的满意表现等路线。", "IELTS Academic总分6.5、单项5.5；TOEFL iBT按2026-01-21前后区分80与4.5，单次成绩且不接受在家考试；第一语言英语或英语授课本科学历另有路径。"],
+      "knownIssues": ["这是独立读取的广州官方要求，不能因为与香港数值相似就假定两校其他流程相同；不证明当期名额。"]
+    },
+    {
+      "id": "gz-ai-programme-general", "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-3",
+      "title": "HKUST(GZ) — Artificial Intelligence programme", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_programme_general_page", "scope": "广州AI学域通用培养与申请入口，未标明当前名额",
+      "claims": ["AI学域页列PhD培养与申请入口，学历和语言条件链接广州研究院；申请日期链接中央日程。"],
+      "knownIssues": ["该通用页不是已核实2027/28空位的公告，不将培养委员会名称当作招生最终审批制度，也不将其硕士部分替代红鸟申请。"]
+    },
+    {
+      "id": "polyu-rpg-requirements", "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/2023/admission-requirements-rpg",
+      "title": "PolyU — Admission Requirements (RPG)", "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_rpg_requirements_linked_from_live_faq", "scope": "港理工研究型学位校级要求；不是授课型硕士页面",
+      "claims": ["MPhil一般要求二等荣誉学士或同等资格；四年制PhD列硕士加学士或一等荣誉学士等路径，三年制通常要求研究型硕士加学士。", "当前所读页面列IELTS Academic 6.5或TOEFL iBT 80、两年有效、考点内单次成绩；英语授课学历有另一路径。"],
+      "knownIssues": ["当前FAQ链接跳转到路径含2023的页面，未明确2027/28新版TOEFL尺度。只按所读原文保存；报新考试前须再向研究院确认，不能套用其他学校的4.5。"]
+    }
+  ],
+  "sourceUpdates": {
+    "CUHK-CSE-PROGRAMME": {"claims": ["除研究院网申外，还须向CSE的pgas2027系内系统提交申请及材料；2027/28学费为HK$49,500。"]},
+    "hk-cse-2027": {"claims": ["2027/28 CSE页列本科及优秀本科直博等学历路径；IELTS总分6.5且单项5.5，TOEFL按2026-01-21前后区分80与4.5，不接受在家考试选项。"]},
+    "hk-ece-2027": {"claims": ["2027/28 ECE页独立核到本科及优秀本科直博等学历路径；IELTS总分6.5且单项5.5，TOEFL按2026-01-21前后区分80与4.5，不接受在家考试选项。"]},
+    "cityu-cs": {"claims": ["CS的MPhil列相关一等或二等荣誉学士；PhD列研究型高学位、校内MPhil转读、授课型硕士、一等荣誉学士等替代路线。英语须同时满足校级及学院要求。"]},
+    "gz-redbird": {"claims": ["红鸟硕士需本科学位或认可同等资格；全日制学生自动纳入PGS考虑、无须另申，不等于个人已获资助，也不等于免学费。"]}
+  },
+  "programRequirements": {
+    "hku-cs-rpg": [
+      {"label": "本科能不能直接考虑博士？", "degrees": ["PhD"], "text": "校级说明允许以良好荣誉学士及/或授课型硕士获考虑四年制博士；研究型硕士可获考虑三年制。具体CS要求还要再核，不能只按自己的学历名称判断。", "action": "核对港大CS博士的具体资格与三年/四年学制，不把校级路线当录取承诺", "sourceIds": ["hku-phd-qualification"]},
+      {"label": "英语：单项和考试版本也要核对", "text": "校级非文学院最低IELTS Academic总分6.5、各项至少6。TOEFL iBT在2026年1月21日前列85，此日起列4.5；须单次、两年内成绩。TOEFL Home Edition和IELTS单项重考不接受，六级/专八不能替代。是否需要考试及CS额外要求仍要核对，并及时正式送分。", "action": "核对港大CS的英语证明路径、总分/单项、考试形式、有效期和正式送分", "sourceIds": ["hku-central-language"]}
+    ],
+    "cuhk-cse-rpg": [
+      {"label": "先核对学历路线", "text": "CSE一般要求计算机、计算机工程或相关方向的荣誉学位，并须满足研究院要求。读PhD时要看MPhil-PhD项目的博士方向，不要误套另列的独立博士条款。", "action": "按港中文CSE及MPhil-PhD博士方向原文，核对自己的学历与评分说明", "sourceIds": ["CUHK-CSE-PROGRAMME", "cuhk-gs-requirements"]},
+      {"label": "别只完成一个申请系统", "text": "官方项目页明确要求：完成研究院网申后，还要在CSE系内系统提交申请及材料。两个入口都要按所选轮次核对截止要求。", "action": "分别完成港中文研究院网申和CSE系内pgas2027申请，核对两边材料与截止", "url": "https://dept-eappsrv.cse.cuhk.edu.hk/pgas2027/", "sourceIds": ["CUHK-CSE-PROGRAMME"]},
+      {"label": "英语证明和正式送分", "text": "中央最低途径包括IELTS Academic 6.5、TOEFL 79/120或4.5/6，也有英语授课学历等证明路径。成绩形式和有效期要再核。使用考试成绩时，网申填分与考试机构正式送分都要完成。", "action": "核对港中文CSE英语路径、有效期，并完成网申填分及正式送分", "sourceIds": ["cuhk-gs-requirements", "cuhk-gs-documents"]},
+      {"label": "博士：先约好三位推荐人", "degrees": ["PhD"], "text": "研究院当前材料页要求研究型博士提交三份保密推荐报告。请再核对CSE系统要求；若不同页面不一致，先确认，不自行选更少的份数。", "action": "为港中文博士准备三位推荐人，并核对研究院和CSE的提交要求", "sourceIds": ["cuhk-gs-documents"]},
+      {"label": "硕士：先约好两位推荐人", "degrees": ["MPhil"], "text": "研究院当前材料页对其他项目要求两份保密推荐报告；仍需对照CSE系内材料要求。", "action": "为港中文MPhil准备两位推荐人，并核对研究院和CSE的提交要求", "sourceIds": ["cuhk-gs-documents"]},
+      {"label": "成绩单和学历核验", "text": "整理完整正式成绩单与评分说明。内地学历和成绩有学信网核验等要求；在读、毕业及接受录取后的原件核查分别处理，不要只上传一张GPA截图。", "action": "按港中文材料页整理成绩单、评分说明及适用的学历和成绩核验材料", "sourceIds": ["cuhk-gs-documents"]}
+    ],
+    "polyu-computing-rpg": [
+      {"label": "硕士学历要求", "degrees": ["MPhil"], "text": "校级研究型学位页列二等荣誉学士或认可同等资格。Computing附加要求仍须对照项目页，不自行换算成某个GPA。", "action": "核对港理工Computing MPhil学历与同等资格要求", "sourceIds": ["polyu-rpg-requirements"]},
+      {"label": "博士：先分清三年制和四年制", "degrees": ["PhD"], "text": "三年制通常要求研究型硕士加学士；四年制列硕士加学士或一等荣誉学士等路线。等同资格由学校逐案决定，不是所有人都得先读研究型硕士。", "action": "核对港理工Computing三年/四年博士路线及自己的资格材料", "sourceIds": ["polyu-rpg-requirements"]},
+      {"label": "英语：新制TOEFL先确认", "text": "当前FAQ所指页面列IELTS Academic 6.5或TOEFL iBT 80，考点内单次成绩，两年有效；英语授课学历有另一路径。但页面未明确2027/28新制TOEFL尺度，准备新考试时请先向研究院核实。", "action": "核对港理工英语证明、考试形式与有效期；新制TOEFL分数先向研究院确认", "sourceIds": ["polyu-rpg-requirements"]}
+    ],
+    "cityu-cs-rpg": [
+      {"label": "硕士学历要求", "degrees": ["MPhil"], "text": "CS页列相关方向的一等或二等荣誉学士，或认可同等资格。不直接把荣誉等级换成你学校的GPA。", "action": "按港城大CS原页核对MPhil学历及同等资格要求", "sourceIds": ["cityu-cs"]},
+      {"label": "博士不只有一条学历路线", "degrees": ["PhD"], "text": "CS页列研究型高学位、校内MPhil转读、授课型硕士、一等荣誉学士等替代路线。是否被认作同等资格，需要学校确认。", "action": "按港城大CS博士原页核对适用学历路线与证明", "sourceIds": ["cityu-cs"]},
+      {"label": "英语：还要看学院要求", "text": "CS页要求同时满足学校和相关学院的最低英语要求。本条尚未核清当期学院分数与考试形式，不套用EE或其他学校的数字。", "action": "进一步核实港城大CS当期校级及学院英语分数、考试形式和有效期", "sourceIds": ["cityu-cs"]}
+    ],
+    "hkust-gz-phd-entry": [
+      {"label": "先核对博士学历路线", "text": "广州研究院列优秀本科学位，或至少一年全日制/两年非全日制研究生阶段的满意表现等路线。还须核对所选学域的附加条件；满足最低要求不保证录取。", "action": "核对广州博士的学历路线及目标学域附加要求", "sourceIds": ["gz-central-requirements"]},
+      {"label": "AI学域从哪里确认？", "text": "已找到AI学域的官方通用页，可以看研究范围与申请入口。但它没有确认当前剩余名额，中央总截止也不代表某位老师一直有空位。", "action": "从广州AI学域官方页核对项目要求、导师方向及当期申请信息", "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence-3", "sourceIds": ["gz-ai-programme-general", "gz-timeline"]},
+      {"label": "英语要按广州本地规则核对", "text": "独立读取的广州官方页列IELTS Academic总分6.5、单项5.5；TOEFL iBT在2026年1月21日前列80，此日起列4.5，只收单次成绩，不接受在家考试。第一语言英语或英语授课本科学历有另一路径。还要核具体学域附加要求。", "action": "按广州研究院及目标学域核对英语证明、考试日期/形式和单项", "sourceIds": ["gz-central-requirements"]}
+    ],
+    "hkust-gz-rbm": [
+      {"label": "学历与英语分别准备", "text": "红鸟硕士要求本科学位或认可同等资格。独立读取的广州研究院页列IELTS Academic总分6.5、单项5.5，TOEFL iBT按2026年1月21日前后区分80与4.5，单次且不接受在家考试；英语授课本科学历等有另一路径。具体材料仍按红鸟要求核对。", "action": "按红鸟硕士及广州研究院原页核对本科证明、英语总分/单项与考试形式", "sourceIds": ["gz-redbird", "gz-central-requirements"]},
+      {"label": "有资助考虑，不等于已经拿到资助", "text": "全日制学生自动纳入研究生助学金（PGS）考虑，无须另外申请。是否获批、覆盖多久以及实际学费，要看正式通知和当期说明；资助不等于免学费。", "action": "核对红鸟硕士PGS考虑方式、正式资助条件与需缴学费", "sourceIds": ["gz-redbird"]}
+    ]
+  },
+  "sharedRequirements": [
+    {
+      "programIds": ["hkust-hk-cse-rpg", "hkust-hk-ece-rpg"],
+      "items": [
+        {"label": "研究型硕士的学历", "degrees": ["MPhil"], "text": "本项目目录列认可机构的本科学位或获批同等资格。满足最低要求仍不保证录取。", "action": "核对港科大香港本项目的本科学历与同等资格证明"},
+        {"label": "博士可考虑优秀本科路径", "degrees": ["PhD"], "text": "目录列优秀本科记录，或至少一年全日制/两年非全日制研究生阶段的满意学习表现等路径。请核对原文和证明材料，不把硕士学位当唯一入口。", "action": "按港科大香港本项目原文核对本科直博或研究生阶段的资格路线"},
+        {"label": "英语：别只看总分", "text": "IELTS Academic需总分6.5、各单项5.5。TOEFL iBT在2026年1月21日前考试列80，此日起列4.5；只接受单次成绩，不接受在家考试选项。第一语言为英语或英语授课本科学历另有路径。", "action": "核对港科大香港本项目英语总分、单项、考试日期/形式和可用替代证明"}
+      ],
+      "sourceByProgram": {"hkust-hk-cse-rpg": "hk-cse-2027", "hkust-hk-ece-rpg": "hk-ece-2027"}
+    }
+  ],
+  "accessNotes": [
+    {"url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/admission-requirements-rpg", "result": "live_RPG_FAQ_link_redirects_to_2023_path", "action": "Saved actual target and uncertainty; no inferred new TOEFL equivalence."},
+    {"url": "https://www.admissions.hku.hk/", "result": "undergraduate_scope", "action": "Did not use undergraduate language requirements for research postgraduate programmes."},
+    {"url": "https://www.cityu.edu.hk/en/cc/programmes/research-degree-programmes/admission-overview", "result": "403_forbidden_on_direct_open", "action": "Search indexed an apparent new-scale/CET6 rule, but the body could not be read. Did not promote it into confirmed CS requirements or bypass access controls."},
+    {"url": "https://www.cs.hku.hk/programmes/research-based/mphil-phd-admission", "result": "404_on_direct_open", "action": "Did not use indexed mixed early-recruitment years as regular admissions rules."}
+  ]
+}

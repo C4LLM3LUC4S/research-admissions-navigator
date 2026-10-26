@@ -1,0 +1,53 @@
+{
+  "primary_task": "按可用申请路线补齐官网信息，不按链接数或导师名片数冒充完整性。",
+  "priorities": [
+    {
+      "id": "regular-contact-gaps",
+      "task": "继续找HKU常规CS/CDS、CityU CS当期官方流程，核清申请前联系和导师支持的不同阶段。",
+      "acceptance": "必须读到对应项目正文，记录年度与适用范围；找不到就保留未知，不借其他院系补答案。"
+    },
+    {
+      "id": "materials-and-funding",
+      "status": "partial_10_routes_33_items_4_finance_routes",
+      "task": "CIE材料及其两位非意向导师推荐人已补；CUHK香港/广州/深圳费用分项目保存。继续补CityU CS及其他费用/资助；CUHK香港2027/28助学金金额与CIE学费尚未核清。",
+      "acceptance": "区分校级与项目级要求、资助考虑与实际发放、津贴与学费、学年与入学轮次、币种和单位；未知不补0，不把2026/27金额冒充2027/28。港理工新制TOEFL、CityU Computing正文403仍待核，不借别校数字或搜索索引替代。"
+    },
+    {
+      "id": "faculty-coverage",
+      "task": "继续读取现有33入口中未覆盖个人页，配套核新增专业的研究学位及当期政策；再扩生命科学、商科、社科和人文。公开仓库与上线仍待独立交付。",
+      "acceptance": "每位记录当前单位、可解释研究主题和官方依据；研究方向、招生广告和当前名额分开。中文名用官网核对，不从拼音猜。",
+      "status": "107_partial_faculty_33_official_entries"
+    },
+    {
+      "id": "intake-filter",
+      "status": "implemented_and_local_checks_passed",
+      "task": "已支持当前两类核实轮次；后续随对应官方资料增加轮次，不编造通用日期。",
+      "acceptance": "相同日历年不能自动当相同学年；具体截止时刻未知就保持未知，过期或其他轮次不能当本轮开放。"
+    },
+    {
+      "id": "source-revisions",
+      "status": "write3_read1_2_3_with_research_query",
+      "task": "完整备份保留所给资料版本及具体研究词；继续核查官方变更，不改写旧来源日期。",
+      "acceptance": "不覆盖既有快照，不把当前政策冒充原备份当时政策；只保留所给版本链，不自动合并其他清单。来源一致性编号不是来源真实性认证，也不是官网全文或逐项笔记的政策归属证据。"
+    },
+    {
+      "id": "actual-ui-review",
+      "task": "随新增页面继续验证对应任务；手动OS原生选择器与独立真人使用仍不冒充通过。",
+      "acceptance": "不能拿DOM桩或HTTP200冒充浏览器操作，也不改权限或绕过禁用通道。",
+      "status": "actual_IAB_390px_keyboard_download_filechooser_flow_checked"
+    },
+    {
+      "id": "public-feedback",
+      "task": "准备匿名反馈字段、授权撤回、去重、审核与展示规则，再做真正的社区反馈服务。",
+      "acceptance": "不发布私人材料，不让少量自报样本生成学校偏好或录取概率，未回复和失败经验也要可记录。"
+    }
+  ],
+  "search_order": [
+    "研究院/研究生院",
+    "院系及具体项目",
+    "官方导师和实验室主页",
+    "近期论文用于辅助研究主题",
+    "有日期的个人经历仅作为未推广的线索"
+  ],
+  "previous_products": "RankProbe、SparsiLoop保持已验收版本维护，不扩到此项目的数据或仓库。"
+}

@@ -1,0 +1,1712 @@
+{
+  "schemaVersion": 1,
+  "checkedDate": "2026-10-26",
+  "cycle": "2027/28",
+  "universities": [
+    {
+      "id": "hku",
+      "name": "香港大学",
+      "short": "港大",
+      "en": "The University of Hong Kong",
+      "region": "香港",
+      "entryUrl": "https://gradsch.hku.hk/prospective_students/application/application_period"
+    },
+    {
+      "id": "cuhk",
+      "name": "香港中文大学",
+      "short": "港中文（香港）",
+      "en": "The Chinese University of Hong Kong",
+      "region": "香港",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-computer-science-and-engineering"
+    },
+    {
+      "id": "hkust",
+      "name": "香港科技大学",
+      "short": "港科大（香港）",
+      "en": "The Hong Kong University of Science and Technology",
+      "region": "香港",
+      "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse"
+    },
+    {
+      "id": "polyu",
+      "name": "香港理工大学",
+      "short": "港理工",
+      "en": "The Hong Kong Polytechnic University",
+      "region": "香港",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/research-postgraduate"
+    },
+    {
+      "id": "cityu",
+      "name": "香港城市大学",
+      "short": "港城大",
+      "en": "City University of Hong Kong",
+      "region": "香港",
+      "entryUrl": "https://www.cs.cityu.edu.hk/en/academic-programmes/master-philosophy-doctor-philosophy/admissions"
+    },
+    {
+      "id": "cuhksz",
+      "name": "香港中文大学（深圳）",
+      "short": "港中文（深圳）",
+      "en": "The Chinese University of Hong Kong, Shenzhen",
+      "region": "深圳",
+      "entryUrl": "https://gs.cuhk.edu.cn/page/144"
+    },
+    {
+      "id": "hkustgz",
+      "name": "香港科技大学（广州）",
+      "short": "港科大（广州）",
+      "en": "The Hong Kong University of Science and Technology (Guangzhou)",
+      "region": "广州",
+      "entryUrl": "https://fytgs.hkust-gz.edu.cn/admissions/apply-now"
+    }
+  ],
+  "programs": [
+    {
+      "id": "hku-cs-rpg",
+      "universityId": "hku",
+      "name": "计算机科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "CS / CDS；2027/28常规轮",
+      "contact": {
+        "status": "unknown",
+        "text": "常规轮是否须先取得导师同意，这次没有核实。不要把提前招生FAQ直接套过来。",
+        "sourceIds": [
+          "HKU-PROGRAMMES"
+        ]
+      },
+      "selection": {
+        "text": "须走正式申请。当前所读常规资料没有写清最终审批委员会层级，不能当成导师一人决定。",
+        "sourceIds": [
+          "HKU-PROGRAMMES"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "第一轮补录截止（看余位）：2027-04-30 23:59（UTC+8）",
+          "date": "2027-04-30",
+          "at": "2027-04-30T23:59:00+08:00",
+          "degree": null,
+          "route": "补录",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "第二轮补录截止（看余位）：2027-08-31 23:59（UTC+8）",
+          "date": "2027-08-31",
+          "at": "2027-08-31T23:59:00+08:00",
+          "degree": null,
+          "route": "补录",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "HKU-PROGRAMMES",
+        "HKU-CENTRAL-PERIOD"
+      ],
+      "evidenceNote": "中央日期已核；导师要求按具体常规项目再确认。"
+    },
+    {
+      "id": "hku-cds-early-2027",
+      "universityId": "hku",
+      "name": "CDS提前招生（该轮已结束）",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "CDS 2027提前招生第二轮，非当前常规轮",
+      "contact": {
+        "status": "not_required",
+        "text": "提前轮FAQ说，申请前可以找老师讨论研究计划，不强制先取得导师同意。",
+        "sourceIds": [
+          "HKU-EARLY-CONTACT-FAQ"
+        ]
+      },
+      "selection": {
+        "text": "短名单会安排面试；页面没有说明完整审批委员会组成。",
+        "sourceIds": [
+          "HKU-EARLY-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "第二轮已截止：2026-08-31 23:59（UTC+8）",
+          "date": "2026-08-31",
+          "at": "2026-08-31T23:59:00+08:00",
+          "degree": null,
+          "route": "提前招生",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-EARLY-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "HKU-EARLY-2027",
+        "HKU-EARLY-CONTACT-FAQ"
+      ],
+      "evidenceNote": "原文写2027入学，本目录与2027/28秋季对齐；明确截止日已过，遗留横幅不代表仍可申请。"
+    },
+    {
+      "id": "cuhk-cse-rpg",
+      "universityId": "cuhk",
+      "name": "计算机科学与工程 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港本部CSE；2027/28常规招生",
+      "contact": {
+        "status": "recommended",
+        "text": "准备申请时鼓励先联系；评审通过或获面试豁免后，还必须落实愿意指导的老师。这不是说申请前就必须拿到老师同意。",
+        "sourceIds": [
+          "CUHK-CSE-REGULAR-2027"
+        ]
+      },
+      "selection": {
+        "text": "院系评审与导师接收是两道环节。老师的非正式接收意见不等于正式大学录取。",
+        "sourceIds": [
+          "CUHK-CSE-REGULAR-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "研究院主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "CUHK-CSE-PROGRAMME"
+          ]
+        },
+        {
+          "label": "研究院补录截止（看余位）：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "补录",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "CUHK-CSE-PROGRAMME"
+          ]
+        },
+        {
+          "label": "系内第1面试批次申请截止（暂定）：2026-10-06（官网未说明具体时间）",
+          "date": "2026-10-06",
+          "at": null,
+          "degree": null,
+          "route": "系内面试批次",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "CUHK-CSE-REGULAR-2027"
+          ]
+        },
+        {
+          "label": "系内第2面试批次申请截止（暂定）：2027-01-12（官网未说明具体时间）",
+          "date": "2027-01-12",
+          "at": null,
+          "degree": null,
+          "route": "系内面试批次",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "CUHK-CSE-REGULAR-2027"
+          ]
+        },
+        {
+          "label": "系内第3面试批次申请截止（暂定）：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "系内面试批次",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "CUHK-CSE-REGULAR-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "CUHK-CSE-PROGRAMME"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "CUHK-CSE-PROGRAMME",
+        "CUHK-CSE-REGULAR-2027"
+      ],
+      "evidenceNote": "研究院截止与系内面试批次不同；系内说HKPFS走首批，具体路线要再核，不挑最晚日期。"
+    },
+    {
+      "id": "hkust-hk-cse-rpg",
+      "universityId": "hkust",
+      "name": "计算机科学与工程",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港校区；2027/28秋季；本地与非本地分开",
+      "contact": {
+        "status": "unknown",
+        "text": "工学院FAQ通常不要求事先口头同意，并建议提交后交流；本项目独立要求尚未核清，不能直接视为无须联系。",
+        "sourceIds": [
+          "hk-engineering-faq"
+        ]
+      },
+      "selection": {
+        "text": "申请由教师/项目审核，正式结果经学校发出；本次未核实院系委员会的具体组成。",
+        "sourceIds": [
+          "hk-cse-2027",
+          "hk-engineering-faq"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季非本地申请截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hk-cse-2027"
+          ]
+        },
+        {
+          "label": "秋季本地申请截止：2027-07-15（官网未说明具体时间）",
+          "date": "2027-07-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hk-cse-2027"
+          ]
+        },
+        {
+          "label": "2027春季非本地申请截止：2026-11-01（官网未说明具体时间）",
+          "date": "2026-11-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2026/27 Spring",
+          "sourceIds": [
+            "hk-cse-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hk-cse-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hk-cse-2027",
+        "hk-engineering-faq"
+      ],
+      "evidenceNote": "使用工学院通用指引时保留院系差异；春季截止不能替代秋季截止。"
+    },
+    {
+      "id": "hkust-hk-ece-rpg",
+      "universityId": "hkust",
+      "name": "电子与计算机工程",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港校区；2027/28秋季；本地与非本地分开",
+      "contact": {
+        "status": "unknown",
+        "text": "工学院FAQ通常不要求事先口头同意，并建议提交后交流；本项目独立要求尚未核清，不能直接视为无须联系。",
+        "sourceIds": [
+          "hk-engineering-faq"
+        ]
+      },
+      "selection": {
+        "text": "申请由教师/项目审核，正式结果经学校发出；本次未核实院系委员会的具体组成。",
+        "sourceIds": [
+          "hk-ece-2027",
+          "hk-engineering-faq"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季非本地申请截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hk-ece-2027"
+          ]
+        },
+        {
+          "label": "秋季本地申请截止：2027-07-15（官网未说明具体时间）",
+          "date": "2027-07-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hk-ece-2027"
+          ]
+        },
+        {
+          "label": "2027春季非本地申请截止：2026-11-01（官网未说明具体时间）",
+          "date": "2026-11-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2026/27 Spring",
+          "sourceIds": [
+            "hk-ece-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hk-ece-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hk-ece-2027",
+        "hk-engineering-faq"
+      ],
+      "evidenceNote": "使用工学院通用指引时保留院系差异；春季截止不能替代秋季截止。"
+    },
+    {
+      "id": "hkust-gz-rbm",
+      "universityId": "hkustgz",
+      "name": "红鸟硕士 MPhil (General)",
+      "degrees": [
+        "MPhil"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州；红鸟硕士2027/28秋季",
+      "contact": {
+        "status": "not_required",
+        "text": "该项目不要求申请前联系老师；先入学探索，再进行导师/学域双向选择。",
+        "sourceIds": [
+          "gz-redbird"
+        ]
+      },
+      "selection": {
+        "text": "通过大学统一申请，由选拔与面试委员会审阅；不是先拿某位老师承诺才能申请。",
+        "sourceIds": [
+          "gz-redbird"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "本轮截止：2027-03-01 23:59（UTC+8）",
+          "date": "2027-03-01",
+          "at": "2027-03-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-redbird"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "gz-redbird"
+      ],
+      "evidenceNote": "仅红鸟硕士规则，不代表广州所有博士或学域。"
+    },
+    {
+      "id": "hkust-gz-phd-entry",
+      "universityId": "hkustgz",
+      "name": "博士申请总入口（须再选具体项目）",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州；2027/28秋季；总入口而非每个学域名额确认",
+      "contact": {
+        "status": "unknown",
+        "text": "总FAQ提供研究方向与教师检索方法，没有证明所有博士项目都须先取得导师同意。按所选学域再核实。",
+        "sourceIds": [
+          "gz-central-faq"
+        ]
+      },
+      "selection": {
+        "text": "正式结果经学校OAS；具体AI学域的最终委员会组成，本次未核清。",
+        "sourceIds": [
+          "gz-central-faq"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "中国籍申请截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "国际申请截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "gz-timeline",
+        "gz-central-faq"
+      ],
+      "evidenceNote": "2027/28具体AI学域目录未成功读取；不把旧目录当当前名额。"
+    },
+    {
+      "id": "polyu-computing-rpg",
+      "universityId": "polyu",
+      "name": "计算学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港理工大学；Department of Computing；2027/28所读范围",
+      "contact": {
+        "status": "recommended",
+        "text": "先联系方向合适的老师会更有帮助，但中央FAQ说，暂未确定导师也能递交。再检查所选项目有没有额外要求。",
+        "sourceIds": [
+          "polyu-faq"
+        ]
+      },
+      "selection": {
+        "text": "以RPgAdmission正式录取或有条件录取通知确认；导师积极回复不能代替正式结果",
+        "sourceIds": [
+          "polyu-faq"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "中央一般申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-calendar"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-calendar"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-computing",
+        "polyu-calendar",
+        "polyu-faq"
+      ],
+      "evidenceNote": "中央FAQ与日期已核；Computing当前周期独立截止和额外要求仍待核。"
+    },
+    {
+      "id": "cityu-cs-rpg",
+      "universityId": "cityu",
+      "name": "计算机科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港城市大学；Department of Computer Science；2027/28所读范围",
+      "contact": {
+        "status": "unknown",
+        "text": "本次CS招生页没有说明申请前导师同意要求；通用建议及EE规则不能代替CS要求。",
+        "sourceIds": [
+          "cityu-cs"
+        ]
+      },
+      "selection": {
+        "text": "仍需正式申请、必要面试及学校系统结果；最终委员会层级本轮未核清，不编成导师单独拍板",
+        "sourceIds": [
+          "cityu-steps",
+          "cityu-cs",
+          "cityu-ee"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "一般主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cityu-steps"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cityu-cs",
+        "cityu-steps"
+      ],
+      "evidenceNote": "中央主域曾403；用可读官方步骤与院系页核对，院系独立日程仍需确认。"
+    },
+    {
+      "id": "cityu-ee-phd-route",
+      "universityId": "cityu",
+      "name": "电机工程博士申请路线",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港城市大学；Department of Electrical Engineering；2027/28所读范围",
+      "contact": {
+        "status": "recommended",
+        "text": "仅EE普通轮：鼓励先联系，但申请前联系不是强制。",
+        "sourceIds": [
+          "cityu-ee"
+        ]
+      },
+      "selection": {
+        "text": "仍需正式申请、必要面试及学校系统结果；最终委员会层级本轮未核清，不编成导师单独拍板",
+        "sourceIds": [
+          "cityu-steps",
+          "cityu-cs",
+          "cityu-ee"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "一般主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cityu-steps"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cityu-ee"
+      ],
+      "evidenceNote": "中央主域曾403；用可读官方步骤与院系页核对，院系独立日程仍需确认。"
+    },
+    {
+      "id": "cuhksz-sse-cie",
+      "universityId": "cuhksz",
+      "name": "计算机与信息工程",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港中文大学（深圳）；School of Science and Engineering；2027/28所读范围",
+      "contact": {
+        "status": "recommended",
+        "text": "CIE项目建议先联系意向导师，也可能安排项目或学院面试。导师愿意交流和正式录取是两步，仍要通过深圳的正式申请。",
+        "sourceIds": [
+          "cuhksz-cie"
+        ]
+      },
+      "selection": {
+        "text": "已核项目/学院可面试及正式申请入口；具体最终批准委员会未核，不推定导师一人决定",
+        "sourceIds": [
+          "cuhksz-cie",
+          "cuhksz-apply"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "CIE秋季截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-cie"
+          ]
+        },
+        {
+          "label": "CIE旧春季已截止：2026-10-15（官网未说明具体时间）",
+          "date": "2026-10-15",
+          "at": null,
+          "degree": null,
+          "route": "春季申请",
+          "cycle": "2026/27 Spring",
+          "sourceIds": [
+            "cuhksz-cie"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-cie"
+      ],
+      "evidenceNote": "深圳独立项目，不能沿用香港本部HKPFS资格；日期未写时刻，不补23:59。"
+    },
+    {
+      "id": "cuhksz-ai-rpg",
+      "universityId": "cuhksz",
+      "name": "人工智能 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中深人工智能学院；本卡以2027秋季申请为主，春季另列，不套用CIE规则。",
+      "contact": {
+        "status": "not_required",
+        "text": "可以先联系心仪的老师或研究组，也可以直接提交申请；两种方式都可以。",
+        "sourceIds": [
+          "cuhksz-ai-programme"
+        ]
+      },
+      "selection": {
+        "text": "按学校正式流程申请。硕士可在入学时确定导师，也可在学习过程中双向选择；博士按主导师安排培养。老师的回复仍不等于正式录取。",
+        "sourceIds": [
+          "cuhksz-ai-programme"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027秋季截止：2027-06-30（官网未说明具体时间）",
+          "date": "2027-06-30",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-ai-programme"
+          ]
+        },
+        {
+          "label": "2027春季截止：2026-10-31（官网未说明具体时间）",
+          "date": "2026-10-31",
+          "at": null,
+          "degree": null,
+          "route": "春季申请",
+          "cycle": "2026/27 Spring",
+          "sourceIds": [
+            "cuhksz-ai-programme"
+          ]
+        }
+      ],
+      "requirements": [
+        {
+          "label": "学历与成绩",
+          "text": "先核对官网列出的多条资格路径。不要把其中的3.2/4.0当作所有申请者统一的唯一门槛。",
+          "sourceIds": [
+            "cuhksz-ai-programme"
+          ]
+        },
+        {
+          "label": "英语材料",
+          "text": "页面列IELTS Academic 6.5、TOEFL 79/120或4.5/6等途径，也有英语授课学历等路径。还要核对具体考试版本、有效期和证明材料。",
+          "sourceIds": [
+            "cuhksz-ai-programme"
+          ]
+        },
+        {
+          "label": "准备哪些材料",
+          "text": "先整理学历或在读证明、完整成绩单与评分/排名材料、两封保密推荐信、英语材料、英文简历和个人陈述，再按官网完整清单逐项核对。",
+          "sourceIds": [
+            "cuhksz-ai-programme"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-ai-programme"
+      ],
+      "evidenceNote": "滚动审理可能在所列截止前满位。日期、导师研究方向和当前招生名额分别核对；这条AI路线与同校CIE的日期不同。"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "HKU-Chao-Huang",
+      "universityId": "hku",
+      "name": "Chao Huang",
+      "department": "Department of Computer Science, School of Computing and Data Science; HKU IDS member",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理",
+        "数据挖掘"
+      ],
+      "summary": "大语言模型、智能体、图机器学习、推荐系统、数据挖掘。方向已核，当前招生名额未知。",
+      "profileUrl": "https://datascience.hku.hk/people/chao-huang/",
+      "sourceIds": [
+        "HKU-FACULTY-HUANG"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "未核到明确当前学年的招生名额；研究方向和职务不代表有空位。",
+        "cycle": null,
+        "sourceIds": [
+          "HKU-FACULTY-HUANG"
+        ]
+      }
+    },
+    {
+      "id": "HKU-Yizhou-Yu",
+      "universityId": "hku",
+      "name": "Yizhou Yu",
+      "department": "School of Computing and Data Science; official AI academic-staff profile",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "summary": "人工智能、视觉计算、深度学习、计算机视觉、图形、虚拟与增强现实。方向已核，当前招生名额未知。",
+      "profileUrl": "https://www.ai.hku.hk/people/academic-staff/yzyu",
+      "sourceIds": [
+        "HKU-FACULTY-YU"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "未核到明确当前学年的招生名额；研究方向和职务不代表有空位。",
+        "cycle": null,
+        "sourceIds": [
+          "HKU-FACULTY-YU"
+        ]
+      }
+    },
+    {
+      "id": "CUHK-Sinno-Jialin-Pan",
+      "universityId": "cuhk",
+      "name": "Sinno Jialin Pan",
+      "department": "Department of Computer Science and Engineering",
+      "topics": [
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "人工智能、深度学习、机器学习。方向已核，当前招生名额未知。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/sinno-jialin-pan/",
+      "sourceIds": [
+        "CUHK-FACULTY-PAN"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "未核到明确当前学年的招生名额；研究方向和职务不代表有空位。",
+        "cycle": null,
+        "sourceIds": [
+          "CUHK-FACULTY-PAN"
+        ]
+      }
+    },
+    {
+      "id": "CUHK-Chi-Wing-Fu",
+      "universityId": "cuhk",
+      "name": "Chi Wing Fu",
+      "department": "Department of Computer Science and Engineering",
+      "topics": [
+        "计算机视觉"
+      ],
+      "summary": "三维生成与设计、三维重建、人机交互、计算机视觉、图形与可视化。方向已核，当前招生名额未知。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/fu-chi-wing/",
+      "sourceIds": [
+        "CUHK-FACULTY-FU"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "未核到明确当前学年的招生名额；研究方向和职务不代表有空位。",
+        "cycle": null,
+        "sourceIds": [
+          "CUHK-FACULTY-FU"
+        ]
+      }
+    },
+    {
+      "id": "james-kwok",
+      "universityId": "hkust",
+      "name": "James Tin-Yau Kwok",
+      "department": "Computer Science and Engineering",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数据挖掘"
+      ],
+      "summary": "主页提到的方向包括：人工智能、机器学习、数据挖掘。可以先读主页了解，是否招人还需要另外确认。",
+      "profileUrl": "https://cse.hkust.edu.hk/faculty/jamesk/",
+      "sourceIds": [
+        "hk-james-kwok"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "没有核实当前学年的可用名额；未注明年份的招收文字仍保留未知。",
+        "cycle": null,
+        "sourceIds": [
+          "hk-james-kwok"
+        ]
+      }
+    },
+    {
+      "id": "ling-shi",
+      "universityId": "hkust",
+      "name": "Ling Shi",
+      "department": "Electronic and Computer Engineering",
+      "topics": [
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "summary": "主页提到的方向包括：机器人与控制、理论与优化。可以先读主页了解，是否招人还需要另外确认。",
+      "profileUrl": "https://seng.hkust.edu.hk/about/people/faculty/ling-shi",
+      "sourceIds": [
+        "hk-ling-shi"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "没有核实当前学年的可用名额；未注明年份的招收文字仍保留未知。",
+        "cycle": null,
+        "sourceIds": [
+          "hk-ling-shi"
+        ]
+      }
+    },
+    {
+      "id": "hui-xiong",
+      "universityId": "hkustgz",
+      "name": "Hui Xiong",
+      "department": "AI / interdisciplinary thrusts (as stated on prospective page)",
+      "topics": [
+        "人工智能",
+        "计算机视觉",
+        "数据挖掘"
+      ],
+      "summary": "主页提到的方向包括：人工智能、计算机视觉、数据挖掘。可以先读主页了解，是否招人还需要另外确认。",
+      "profileUrl": "https://ailab.hkust-gz.edu.cn/prospective.html",
+      "sourceIds": [
+        "gz-hui-xiong",
+        "gz-redbird"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "没有核实当前学年的可用名额；未注明年份的招收文字仍保留未知。",
+        "cycle": null,
+        "sourceIds": [
+          "gz-hui-xiong",
+          "gz-redbird"
+        ]
+      }
+    },
+    {
+      "id": "lingjie-duan",
+      "universityId": "hkustgz",
+      "name": "Lingjie Duan",
+      "department": "A2E实验室；具体申请学域需另行确认",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "机器人与控制",
+        "网络与系统",
+        "理论与优化"
+      ],
+      "summary": "主页提到的方向包括：人工智能、机器学习、机器人与控制、网络与系统、理论与优化。可以先读主页了解，是否招人还需要另外确认。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/lingjieduan/phd-openings/",
+      "sourceIds": [
+        "gz-lingjie-duan"
+      ],
+      "availability": {
+        "state": "advertised",
+        "text": "公告公开征集2026、2027申请；不代表仍有余位，也不改写为2027/28已确认。",
+        "cycle": "2026 / 2027（公告原用语）",
+        "sourceIds": [
+          "gz-lingjie-duan"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cao",
+      "universityId": "polyu",
+      "name": "Jiannong Cao / 曹建农",
+      "department": "香港理工大学计算学系",
+      "topics": [
+        "机器学习",
+        "网络与系统"
+      ],
+      "summary": "分布式系统、无线感知、机器学习、移动与边缘计算。方向可以先看，2027具体招生名额未核实。",
+      "profileUrl": "https://www.polyu.edu.hk/risa/people/risa-people/prof-jiannong-cao/",
+      "sourceIds": [
+        "polyu-cao"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "方向可以先看，2027具体招生名额未核实。",
+        "cycle": null,
+        "sourceIds": [
+          "polyu-cao"
+        ]
+      }
+    },
+    {
+      "id": "cityu-jun-wang",
+      "universityId": "cityu",
+      "name": "Jun Wang / 王钧",
+      "department": "香港城市大学计算机科学系、数据科学系",
+      "topics": [
+        "机器学习",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "summary": "神经计算、优化、智能控制。主页有接收博士标记，但没写年份和名额；仍需核实2027批次。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/jwang358/",
+      "sourceIds": [
+        "cityu-jun-wang"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "主页有接收博士标记，但没写年份和名额；仍需核实2027批次。",
+        "cycle": null,
+        "sourceIds": [
+          "cityu-jun-wang"
+        ]
+      }
+    },
+    {
+      "id": "cityu-chen-ma",
+      "universityId": "cityu",
+      "name": "Chen Ma / 马辰",
+      "department": "香港城市大学计算机科学系",
+      "topics": [
+        "机器学习",
+        "自然语言处理",
+        "数据挖掘"
+      ],
+      "summary": "推荐系统、数据挖掘、深度学习、自然语言处理。研究方向已核，当前招生批次与名额未核实。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/chenma/",
+      "sourceIds": [
+        "cityu-chen-ma"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "研究方向已核，当前招生批次与名额未核实。",
+        "cycle": null,
+        "sourceIds": [
+          "cityu-chen-ma"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-cui",
+      "universityId": "cuhksz",
+      "name": "Shuguang Cui / 崔曙光",
+      "department": "香港中文大学（深圳）理工学院官方师资页面",
+      "topics": [
+        "人工智能",
+        "网络与系统"
+      ],
+      "summary": "人工智能与通信网络融合、网络智能。可先看AI与网络方向是否合适，当前招生名额未核实。",
+      "profileUrl": "https://sse.cuhk.edu.cn/en/faculty/cuishuguang",
+      "sourceIds": [
+        "cuhksz-cui"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "可先看AI与网络方向是否合适，当前招生名额未核实。",
+        "cycle": null,
+        "sourceIds": [
+          "cuhksz-cui"
+        ]
+      }
+    },
+    {
+      "id": "polyu-wenhua-chen",
+      "universityId": "polyu",
+      "name": "Wen-Hua Chen",
+      "department": "航空及民航工程学系（AAE）",
+      "topics": [
+        "机器人与控制",
+        "计算机视觉"
+      ],
+      "summary": "主页介绍了高级控制、自主飞行器、传感融合与视觉等方向。如果你想做控制与自主系统，可以从这些研究问题继续了解。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wen-hua-chen/",
+      "sourceIds": [
+        "polyu-wenhua-chen"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前招生名额没有核实；还需核对具体申请项目与该老师能否接收所选学位。",
+        "cycle": null,
+        "sourceIds": [
+          "polyu-wenhua-chen"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-xiaoqiang-ji",
+      "universityId": "cuhksz",
+      "name": "Xiaoqiang Ji / 冀晓强",
+      "department": "人工智能学院与理工学院联聘",
+      "topics": [
+        "人工智能",
+        "机器人与控制"
+      ],
+      "summary": "主页重点介绍智能控制系统、具身智能，以及控制理论与AI的结合。可以先读他的研究介绍，再核对项目和联系办法。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/175",
+      "sourceIds": [
+        "cuhksz-xiaoqiang-ji",
+        "cuhksz-xiaoqiang-ji-zh"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "主页虽列为博士生导师，本次仍未确认当前学年的可用名额。",
+        "cycle": null,
+        "sourceIds": [
+          "cuhksz-xiaoqiang-ji"
+        ]
+      }
+    }
+  ],
+  "sources": [
+    {
+      "id": "HKU-PROGRAMMES",
+      "url": "https://www.cds.hku.hk/prospective-students/postgraduate/",
+      "title": "Postgraduate - HKU School of Computing and Data Science (HKUCDS)",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HKU-CS-MPHIL.programme; HKU-CS-PHD.programme",
+      "claims": [
+        "学院列出计算机科学的 MPhil 与 PhD 研究学位，提供全日制和非全日制模式；这页不能证明某位老师有招生名额。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "HKU-CENTRAL-PERIOD",
+      "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+      "title": "Application Period | HKU Graduate School",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HKU-CS-MPHIL.central_rounds; HKU-CS-PHD.central_rounds",
+      "claims": [
+        "2027/28 主轮为 2026年9月1日至12月1日；两轮补录截止分别为2027年4月30日和8月31日，补录取决于剩余名额，院系可能提前处理申请。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "HKU-EARLY-2027",
+      "url": "https://i.cs.hku.hk/~gradappl/index.html",
+      "title": "HKU CS Postgraduate Recruitment",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HKU-CS-MPHIL.early_route; HKU-CS-PHD.early_route; source_conflicts.HKU-stale-open-banner",
+      "claims": [
+        "CDS 2027 提前招生第二轮截止2026年8月31日23:59；页面仍留有开放字样。按明确截止日判断，截至本次核查该轮已结束，之后可走主轮。"
+      ],
+      "knownIssues": [
+        "页面仍写开放，但明确截止2026-08-31已过；不能按横幅判断现在可申请。"
+      ]
+    },
+    {
+      "id": "HKU-EARLY-CONTACT-FAQ",
+      "url": "https://i.cs.hku.hk/~gradappl/FAQ.html",
+      "title": "HKU CS Postgraduate Recruitment",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CDS Early Recruitment Scheme; linked from the live explicit-2027 call, FAQ itself undated",
+      "claims": [
+        "提前招生 FAQ 表示可以联系潜在导师帮助构思研究计划，但提交申请前不强制获得导师同意；不能据此声称整个港大都不需要联系导师。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "仅提前招生；旧cs.hku常见问题链接已404，不能把搜索缓存当最新常规流程。"
+      ]
+    },
+    {
+      "id": "HKU-FACULTY-HUANG",
+      "url": "https://datascience.hku.hk/people/chao-huang/",
+      "title": "Chao HUANG - HKU Musketeers Foundation Institute of Data Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "faculty.HKU-Chao-Huang.current_role; faculty.HKU-Chao-Huang.unit; faculty.HKU-Chao-Huang.research",
+      "claims": [
+        "官方介绍列为计算机科学系助理教授及 IDS 成员，研究包括大语言模型、智能体、图机器学习、推荐与数据挖掘；未核到有明确学年或期限的招生名额公告。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "HKU-FACULTY-YU",
+      "url": "https://www.ai.hku.hk/people/academic-staff/yzyu",
+      "title": "Yu, Y.Z.",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "faculty.HKU-Yizhou-Yu.current_role; faculty.HKU-Yizhou-Yu.research",
+      "claims": [
+        "官方学术人员页列为讲座教授，介绍人工智能、视觉计算、深度学习和图形等方向；不能由研究方向或教授头衔推断正在招生。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "CUHK-CSE-PROGRAMME",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-computer-science-and-engineering",
+      "title": "MPhil-PhD in Computer Science and Engineering | CUHK Graduate School",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CUHK-CSE-MPHIL.programme; CUHK-CSE-PHD.programme; CUHK-CSE-MPHIL.central_rounds; CUHK-CSE-PHD.central_rounds",
+      "claims": [
+        "研究院列出同一衔接项目中的 MPhil 和 PhD 路线，以及人工智能、机器学习、视觉等研究范围。2027/28 主轮截止2026年12月1日，补录截止2027年3月31日且取决于余位；除研究院系统外还须完成院系系统提交。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "CUHK-CSE-REGULAR-2027",
+      "url": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
+      "title": "Regular Admission – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CUHK-CSE-MPHIL.contact_policy; CUHK-CSE-PHD.contact_policy; CUHK-CSE-MPHIL.department_batches; CUHK-CSE-PHD.department_batches; source_conflicts.CUHK-central-vs-department-schedules",
+      "claims": [
+        "院系常规招生须经过研究生评审及导师接收环节，可获面试豁免；准备申请时鼓励联系老师，通过评审后必须落实导师。系内批次日期不等于研究院统一截止日，须分别保留。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "系内暂定面试批次与研究院主轮/奖学金日期分别保存，不挑最晚日期替代全部路线。"
+      ]
+    },
+    {
+      "id": "CUHK-FACULTY-PAN",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/sinno-jialin-pan/",
+      "title": "Sinno Jialin Pan – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "faculty.CUHK-Sinno-Jialin-Pan.current_role; faculty.CUHK-Sinno-Jialin-Pan.unit; faculty.CUHK-Sinno-Jialin-Pan.research",
+      "claims": [
+        "院系页列为教授兼研究生事务副主任，研究范围包括人工智能、深度学习和机器学习。职务与研究范围不证明当前有名额，也不构成个人适配分数。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "CUHK-FACULTY-FU",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/fu-chi-wing/",
+      "title": "FU Chi Wing – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "faculty.CUHK-Chi-Wing-Fu.current_role; faculty.CUHK-Chi-Wing-Fu.unit; faculty.CUHK-Chi-Wing-Fu.research",
+      "claims": [
+        "院系页列为教授兼本科事务副主任，方向包括三维生成与重建、人机交互、视觉和图形。未在本次所读页面核到对应学年的招生名额。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "hk-cse-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "title": "HKUST Program & Course Catalog 2027/28 — MPhil/PhD Computer Science and Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_program_current_cycle",
+      "scope": "Hong Kong; CSE; MPhil and PhD; Fall 2027 and Spring 2027 dates displayed separately",
+      "claims": [
+        "CSE awards both MPhil and PhD.",
+        "Fall 2027 non-local deadline is 1 June 2027; local deadline 15 July 2027; rolling review.",
+        "Spring 2027 non-local deadline is 1 November 2026, not the Fall deadline.",
+        "HKPFS PhD application requires the RGC reference by 1 December 2026 noon GMT+8 and HKUST submission by 23:59 the same day."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "hk-ece-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+      "title": "HKUST Program & Course Catalog 2027/28 — MPhil/PhD Electronic and Computer Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_program_current_cycle",
+      "scope": "Hong Kong; ECE; MPhil and PhD; Fall 2027 / Spring 2027",
+      "claims": [
+        "ECE awards MPhil and PhD.",
+        "Published research streams include control and robotic systems, networked sensing/control, and data science/AI.",
+        "Fall 2027 non-local deadline is 1 June 2027; local deadline 15 July 2027.",
+        "Spring 2027 non-local deadline is 1 November 2026; HKPFS uses the two 1 December 2026 deadlines."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "hk-engineering-faq",
+      "url": "https://seng.hkust.edu.hk/academics/research-postgraduate/mphil-phd-programs/faq",
+      "title": "HKUST School of Engineering — MPhil/PhD FAQ",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_school_policy_scope_limited",
+      "scope": "Engineering-school guidance, not a department-specific or university-wide guarantee; live undated guidance",
+      "claims": [
+        "Prior verbal supervisor approval is not a general Engineering prerequisite; requirements can differ by department. Some departments select through committees and match supervisors after admission.",
+        "Submitted applications circulate among faculty; interviews are communicated through program offices. The school advises communicating with potential supervisors after online submission.",
+        "Full-time MPhil/PhD applicants are considered for PGS without a separate application. An unsuccessful HKPFS applicant is also considered for PGS."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "hk-james-kwok",
+      "url": "https://cse.hkust.edu.hk/faculty/jamesk/",
+      "title": "James Tin-Yau Kwok — HKUST CSE faculty page",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Hong Kong faculty research profile; no intake-specific recruitment confirmation",
+      "claims": [
+        "Professor in Computer Science and Engineering.",
+        "Research topics include machine learning, deep learning, data mining and AI, with vision/image and speech applications.",
+        "No dated 2027 recruitment or remaining capacity statement established from this page."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "hk-ling-shi",
+      "url": "https://seng.hkust.edu.hk/about/people/faculty/ling-shi",
+      "title": "Ling Shi — HKUST School of Engineering faculty page",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Hong Kong ECE faculty research profile; no intake-specific recruitment confirmation",
+      "claims": [
+        "ECE faculty member; listed research covers automatic control, cyber-physical systems, game theory and networked sensing.",
+        "No dated 2027 recruitment or remaining capacity statement established from this page."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "gz-timeline",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "title": "HKUST(GZ) FYTGS — Admission Timeline",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_current_cycle",
+      "scope": "Guangzhou; PhD Spring 2026/27 and Fall 2027/28; July 2026 last-update label",
+      "claims": [
+        "Fall 2027 PhD application runs from 21 July 2026 to 15 July 2027 for Chinese applicants and 15 June 2027 for international applicants; deadline 23:59 GMT+8.",
+        "Spring 2027 PhD deadline is 25 December 2026 Chinese / 4 December 2026 international; program starts 25 January 2027.",
+        "Red Bird MPhil follows a separate College of Future Technology timeline. Offers are issued on a rolling basis."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "具体AI thrust的2027/28目录未成功读取；本目录只确认总入口，不推定每个thrust有名额。"
+      ]
+    },
+    {
+      "id": "gz-redbird",
+      "url": "https://cft.hkust-gz.edu.cn/RBM%20Program/Admission/",
+      "title": "HKUST(GZ) College of Future Technology — Red Bird MPhil Admission",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_program_current_cycle",
+      "scope": "Guangzhou; Red Bird MPhil (General); Fall 2027/28",
+      "claims": [
+        "Applications use MPhil (General), with central university admission and selection/interview committee review.",
+        "Contacting professors before application is not required. Supervisor/thrust matching follows an initial exploration period rather than a guaranteed pre-admission faculty commitment.",
+        "Application opens 2 April 2026 and closes 1 March 2027 at 23:59; later submissions roll to Fall 2028 review.",
+        "Full-time MPhil PGS is considered automatically, stated at CNY120000/year for at most 24 months; PGS-supported tuition shown as CNY60000/year."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "gz-central-faq",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/faq",
+      "title": "HKUST(GZ) FYTGS — Admissions FAQ",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_central_policy_scope_limited",
+      "scope": "Guangzhou central RPg guidance; do not override Red Bird-specific rules",
+      "claims": [
+        "Applicants can consult the faculty/thrust list for research compatibility. This wording does not establish mandatory prior supervisor confirmation for every PhD program.",
+        "Formal application progress and results are recorded in OAS, with successful-offer email notification.",
+        "Full-time MPhil/PhD PGS consideration is automatic; no separate application, but tuition remains payable.",
+        "A missing test score can be declared as scheduled and later updated; applicants should provide it promptly."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "gz-hui-xiong",
+      "url": "https://ailab.hkust-gz.edu.cn/prospective.html",
+      "title": "Hui Xiong — For Prospective Students, HKUST(GZ) official lab page",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_undated_recruitment_statement",
+      "scope": "Guangzhou faculty/lab guidance; current wording has no dated intake",
+      "claims": [
+        "Research spans AI4Science, computer vision, data mining, business analytics and talent intelligence.",
+        "Page expresses interest in PhD/MPhil applicants through AI and interdisciplinary thrusts, but does not establish available 2027 seats.",
+        "MPhil decisions are made by the university; the page directs admitted MPhil applicants to contact the professor afterward."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "招收文字没有注明入学年，不升级为当前周期有名额。"
+      ]
+    },
+    {
+      "id": "gz-lingjie-duan",
+      "url": "https://personal.hkust-gz.edu.cn/lingjieduan/phd-openings/",
+      "title": "Lingjie Duan — PhD/MPhil/RA Opportunities, HKUST(GZ) official faculty site",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_intake_named_opening_not_offer",
+      "scope": "Guangzhou faculty recruitment statement explicitly naming 2026 and 2027",
+      "claims": [
+        "Page invites PhD/MPhil/RA candidates for 2026 and 2027 and provides application materials to send to the professor.",
+        "Research includes AI theory, distributed learning, multi-agent systems, networking and game theory, with robotics/IoT applications.",
+        "This is an advertised intake opportunity, not proof of a currently unfilled place or an admission/funding offer."
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "公告写2026和2027；不改写成2027/28已确认余位。"
+      ]
+    },
+    {
+      "id": "polyu-faq",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/frequently-asked-questions-rpg",
+      "title": "Frequently Asked Questions (RPG)",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "中央通用流程，院系可有额外要求",
+      "claims": [
+        "FAQ17建议申请前联系潜在导师，但未确定导师仍可提交；FAQ37说正式录取或有条件录取经RPgAdmission通知。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "polyu-calendar",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+      "title": "Research Postgraduate - Application Period",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "中央时间，不能当作Computing独立截止或导师名额",
+      "claims": [
+        "2027/28九月入学一般申请期为2026-09-01至2027-05-31；HKPFS初申请2026-12-01香港时间12:00前，PolyU完整申请同日23:59前。院系可另定日程。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "这是中央日程，未核到Computing当前周期的独立截止日。"
+      ]
+    },
+    {
+      "id": "polyu-computing",
+      "url": "https://www.polyu.edu.hk/comp/study/research-postgraduate-programme/phd-and-mphil-in-computing/",
+      "title": "PhD and MPhil in Computing",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学位和方向，未确认2027/28院系独立截止",
+      "claims": [
+        "计算学系设MPhil和PhD，研究方向包括AI、大数据、模式识别、自然语言处理与系统建模。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "polyu-cao",
+      "url": "https://www.polyu.edu.hk/risa/people/risa-people/prof-jiannong-cao/",
+      "title": "Prof. Jiannong CAO",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "任职和研究方向，未核得明确2027招生声明",
+      "claims": [
+        "官方页列曹建农为计算学系教授；研究分布式系统、无线感知、机器学习、移动和边缘计算。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "cityu-steps",
+      "url": "https://www.cb.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "title": "Research Degree Programmes : Steps and Procedures",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "可读官方通用步骤；导师建议不能直接扩为每个院系的硬性先决条件",
+      "claims": [
+        "2027/28主轮截止2026-12-01香港时间23:59；全年可收申请，主轮后取决于名额。步骤建议寻找导师并征询同意，随后正式申请、可能面试，在系统查看结果。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "中央主域直接访问403；使用可读的官方cb子域步骤，不登录或绕过限制。CS独立规则待核实。"
+      ]
+    },
+    {
+      "id": "cityu-cs",
+      "url": "https://www.cs.cityu.edu.hk/en/academic-programmes/master-philosophy-doctor-philosophy/admissions",
+      "title": "Master of Philosophy / Doctor of Philosophy in Computer Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "该页未说明申请前导师同意要求，也未列2027/28独立日程；页面更新标记2026-07-23",
+      "claims": [
+        "CS设研究型MPhil和PhD，列学历及英语要求；博士入学不只有研究硕士这一种路径。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "cityu-ee",
+      "url": "https://www.ee.cityu.edu.hk/current_students/research_degree/application",
+      "title": "Research Degree — Application Procedure",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "仅EE，不外推CS。内容列2026日期而页脚更新仍是2025-10-27；提交前复核。奖学金段落存在年额/月额混写，本数据不采金额。",
+      "claims": [
+        "正文介绍博士普通轮和HKPFS。EE普通轮鼓励先联系，但不强制申请前联系；申请表须声明研究兴趣。表列普通轮2026-12-01截止；HKPFS需分别向RGC和CityU提交。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "正文日期与旧更新标记不一致；金额存在年额/月额混写，本目录不采用金额，也不把EE规则外推CS。"
+      ]
+    },
+    {
+      "id": "cityu-jun-wang",
+      "url": "https://scholars.cityu.edu.hk/en/persons/jwang358/",
+      "title": "Prof. Jun WANG, 王鈞",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "任职和方向已核；未注明周期的标记不证明2027名额",
+      "claims": [
+        "官方页列王钧为计算机科学系及数据科学系讲座教授，研究神经计算、优化、智能控制；页面有未注明年份的接收博士标记。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。",
+        "接收博士的标记没有年份，当前学年名额仍未知。"
+      ]
+    },
+    {
+      "id": "cityu-chen-ma",
+      "url": "https://scholars.cityu.edu.hk/en/persons/chenma/",
+      "title": "Prof. Chen MA, 馬辰",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "任职与方向，未核得明确当前招生批次声明",
+      "claims": [
+        "官方页列马辰为计算机科学系副教授，研究推荐系统、数据挖掘、深度学习和自然语言处理。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "cuhksz-cie",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
+      "title": "Computer and Information Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "仅深圳理工学院CIE，不是香港本部或其他校区；不自动继承HKPFS资格",
+      "claims": [
+        "CIE设全日制MPhil和PhD，方向含AI、控制和机器人。建议先联系意向导师，项目/学院可面试，仍需正式申请。2027/28秋季申请期2026-09-01至2027-05-31；2026/27春季2026-10-15已截止。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "cuhksz-cui",
+      "url": "https://sse.cuhk.edu.cn/en/faculty/cuishuguang",
+      "title": "CUI, Shuguang",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "任职与方向；未发现明确2027招生批次或名额",
+      "claims": [
+        "官方师资页列崔曙光为教授，主要研究人工智能与通信网络结合。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "cuhksz-apply",
+      "url": "https://gs.cuhk.edu.cn/page/144",
+      "title": "网上申请",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "中央入口，不提供CIE截止日期、导师名额或审批委员会细则",
+      "claims": [
+        "深圳研究生院的网上申请入口链接到pgapply.cuhk.edu.cn。"
+      ],
+      "knownIssues": [
+        "本条尚未记录网页发布时间，请不要把核查日期当作政策发布时间。"
+      ]
+    },
+    {
+      "id": "rgc-hkpfs-2027",
+      "url": "https://www.ugc.edu.hk/eng/rgc/funding_opport/hkpfs/",
+      "title": "Hong Kong PhD Fellowship Scheme",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_funding_call_current_cycle",
+      "scope": "HKPFS 2027/28初申请；只适用于博士",
+      "claims": [
+        "2027/28初申请截止2026-12-01香港时间中午12:00；仍需向所选大学递交博士正式申请。"
+      ],
+      "knownIssues": [
+        "同页奖学金金额标注2026/27，不作为2027/28金额使用。"
+      ]
+    },
+    {
+      "id": "rgc-hkpfs-institutions",
+      "url": "https://cerg1.ugc.edu.hk/hkpfs/institutions.html",
+      "title": "Hong Kong PhD Fellowship Scheme — Participating Universities",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_funding_participating_institutions",
+      "scope": "八所香港参与大学；本目录仅包含其中五所",
+      "claims": [
+        "参与列表包含港大、港中文香港、港科大香港、港理工与港城大；深圳和广州机构没有列在该参与名单中。"
+      ],
+      "knownIssues": [
+        "不能从香港同名大学向深圳或广州继承资助资格。"
+      ]
+    },
+    {
+      "id": "polyu-wenhua-chen",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wen-hua-chen/",
+      "title": "Wen-Hua Chen — PolyU AAE official staff profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "PolyU航空及民航工程学系；任职与研究方向，不是当前招生名额",
+      "claims": [
+        "官方页面列为机器人与自主系统讲座教授及AAE系主任。",
+        "研究包含高级控制、自主飞行器、传感融合和计算机视觉。"
+      ],
+      "knownIssues": [
+        "本次没有从这页确认2027/28招生名额，也没有把Computing项目与该老师自动配成可申请关系。"
+      ]
+    },
+    {
+      "id": "cuhksz-xiaoqiang-ji",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/175",
+      "title": "JI Xiaoqiang — CUHK-Shenzhen School of Artificial Intelligence",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "港中深SSE与SAI联聘；任职与研究方向，不是招生承诺",
+      "claims": [
+        "官方页面列为SSE与SAI联聘助理教授，并写明博士生导师。",
+        "研究包括智能控制系统、具身智能、控制理论与AI。"
+      ],
+      "knownIssues": [
+        "博士生导师身份不等于当前学年有空位；没有据此确认名额或保证可被某一项目接收。"
+      ]
+    },
+    {
+      "id": "cuhksz-ai-programme",
+      "url": "https://sai.cuhk.edu.cn/en/node/35",
+      "title": "MPhil-PhD in Artificial Intelligence — CUHK-Shenzhen SAI",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_program_current_cycle",
+      "scope": "港中深人工智能研究型MPhil/PhD；明确列2027春季与秋季，不能外推CIE",
+      "claims": [
+        "可先联系导师或研究组，也可直接申请；在线申请可列最多三位意向导师和三个研究组。",
+        "博士有多条学历或成绩资格路径；3.2/4.0仅是其中一条，并非所有申请者统一的唯一门槛。",
+        "页面列2027春季截止2026-10-31、2027秋季截止2027-06-30，未说明具体几点；滚动审理可能提前满位。",
+        "语言途径包含IELTS Academic 6.5，以及TOEFL 79/120或4.5/6等，另列英语授课学历等路径及有效期。",
+        "材料包括学历或在读证明、完整成绩单及评分/排名材料、两封保密推荐信、有效语言材料、英文简历与个人陈述等。"
+      ],
+      "knownIssues": [
+        "只确认页面列出的申请办法，不确认剩余名额。",
+        "没有把春季日期当秋季截止，也没有给仅日期的字段补上23:59。",
+        "语言与学历资格含多条替代路径，当前原型只整理核查步骤，不据用户资料自动判断资格。"
+      ]
+    },
+    {
+      "id": "cuhksz-xiaoqiang-ji-zh",
+      "url": "https://sai.cuhk.edu.cn/teacher/175",
+      "title": "冀晓强（双聘：理工学院与人工智能学院）",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "官方中文姓名与任职；不据此确认名额",
+      "claims": [
+        "中文官方主页将Xiaoqiang Ji列为冀晓强，双聘理工学院与人工智能学院。"
+      ],
+      "knownIssues": [
+        "中文名按官方页面核对，不从拼音推测；同名跨校不能合并。"
+      ]
+    }
+  ],
+  "funding": [
+    {
+      "id": "hkpfs-2027",
+      "title": "香港博士研究生奖学金计划：RGC初申请",
+      "universities": [
+        "hku",
+        "cuhk",
+        "hkust",
+        "polyu",
+        "cityu"
+      ],
+      "degree": "PhD",
+      "cycle": "2027/28",
+      "deadline": "2026-12-01T12:00:00+08:00",
+      "sourceIds": [
+        "rgc-hkpfs-2027",
+        "rgc-hkpfs-institutions"
+      ],
+      "note": "这是RGC初申请，不代替大学正式申请。仅适用于参与大学的博士；不向深圳或广州继承。原页金额属于2026/27，本目录不转作2027/28金额。"
+    }
+  ],
+  "snapshotId": "sha256:f6acacfcbb436a3c52e45a92b093a614e3747c9554f94d036653464e6a9193fe"
+}

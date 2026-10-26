@@ -1,0 +1,28 @@
+name: 资料纠错或补充 / Source correction
+description: 帮大家找到正确的官方信息，不上传私人申请资料。
+title: "[资料] "
+body:
+  - type: markdown
+    attributes:
+      value: "这里是公开讨论。请不要贴成绩单、申请编号、邮箱、推荐人或私人聊天。自己的申请经历目前仍只在本机整理，不会自动提交到这里。"
+  - type: input
+    id: scope
+    attributes:
+      label: 对应哪所学校、院系或项目？
+      description: 如有学位、轮次和申请渠道，也请写清楚。
+    validations:
+      required: true
+  - type: input
+    id: official_page
+    attributes:
+      label: 官方原页
+      description: 提供研究院、院系或老师官方主页的完整链接。
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: 哪里需要修改？
+      description: 用自己的话简述原页内容、实际读取日期及仍不确定的地方，不必搬整篇网页。
+    validations:
+      required: true
