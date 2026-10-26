@@ -36,7 +36,8 @@ function harness(initialStorage,options={}) {
   class TestURL extends URL {static createObjectURL(blob){const key='blob:local-test-'+blobs.size;blobs.set(key,blob);return key;}static revokeObjectURL(){}}
   class TestFormData {get(name){return query('[name='+name+']:checked')[0]?.value||null;}}
   const context={window:{APP_LOGIC:L,APP_CATALOG:C},document:{getElementById:id=>{assert.ok(byId.has(id),id);return byId.get(id);},createElement:tag=>new Element(tag),querySelectorAll:query,body},localStorage:{getItem:key=>saved.get(key)||null,setItem:(key,value)=>{if(options.storageWriteFails)throw Error('synthetic storage failure');saved.set(key,value);},removeItem:key=>saved.delete(key)},structuredClone,Intl,Date,Math,Blob,URL:TestURL,FormData:TestFormData,Option:function(label,value){const option=new Element('option');option.textContent=label;option.value=value;return option;},history:{replaceState(){}},location:{hash:''},setTimeout:()=>1,clearTimeout(){},console,fetch(){networkCalls++;throw Error('No outbound network allowed in this local task');}};
-  vm.runInNewContext(script,context,{timeout:1000});
+  // This is a hang guard, not a startup-speed requirement; locale cold starts vary on shared runners.
+  vm.runInNewContext(script,context,{timeout:10000});
   const walk=(element)=>[element,...element.children.flatMap(walk)];
   const button=(parent,text)=>{const found=walk(byId.get(parent)).find(x=>x.tagName==='button'&&x.textContent.includes(text));assert.ok(found,text);return found;};
   function select(university,degree,interests){query('[name=degree]').forEach(x=>{x.checked=x.value===degree;});query('[name=university]').forEach(x=>{x.checked=x.value===university;});query('[name=interest]').forEach(x=>{x.checked=interests.includes(x.value);});}
