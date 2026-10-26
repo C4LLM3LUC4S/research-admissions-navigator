@@ -1,0 +1,872 @@
+{
+  "checkedDate": "2026-10-26",
+  "method": "Official profile-body review, partial subject expansion; no inferred capacity.",
+  "sources": [
+    {
+      "id": "expand-dir-hku-saas",
+      "url": "https://saasweb.hku.hk/staff_teaching",
+      "title": "统计与精算学系 / Statistics and Actuarial Science · 官方入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_entry_partial_body",
+      "scope": "统计与精算学系 / Statistics and Actuarial Science；目录范围与覆盖进展。",
+      "claims": [
+        "官方师资入口可访问，但本次文本读取只得到筛选框和无结果提示，不能解释为院系没有教师。两位研究教师另从官方个人页核查。"
+      ],
+      "knownIssues": [
+        "仅整理部分个人页，不是完整师资或招生名单。"
+      ]
+    },
+    {
+      "id": "expand-dir-cuhk-statistics",
+      "url": "https://research.cuhk.edu.hk/en/organisations/department-of-statistics-and-data-science/",
+      "title": "统计与数据科学系 / Statistics and Data Science · 官方入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "统计与数据科学系 / Statistics and Data Science；目录范围与覆盖进展。",
+      "claims": [
+        "研究门户并列讲师、研究教师与荣休身份，不能将28个检索条目当作可申请导师。已另外读取两位现任研究教师个人页；未读完全部名册。"
+      ],
+      "knownIssues": [
+        "仅整理部分个人页，不是完整师资或招生名单。"
+      ]
+    },
+    {
+      "id": "expand-dir-hkust-math",
+      "url": "https://researchportal.hkust.edu.hk/en/organisations/department-of-mathematics/",
+      "title": "数学系 / Mathematics · 官方入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "数学系 / Mathematics；目录范围与覆盖进展。",
+      "claims": [
+        "部门研究门户有师资入口及57个资料条目的继续查看入口，包含不同职务和历史资料；本轮只核读部分现任研究教师，不把57当作导师人数。"
+      ],
+      "knownIssues": [
+        "仅整理部分个人页，不是完整师资或招生名单。"
+      ]
+    },
+    {
+      "id": "expand-dir-polyu-ama",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+      "title": "应用数学系 / Applied Mathematics · 官方入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "应用数学系 / Applied Mathematics；目录范围与覆盖进展。",
+      "claims": [
+        "官方目录按职务分组，另列荣休、访问及兼职类别。本轮读取孙德锋、赵兴球两位个人页，其他个人页仍待整理。"
+      ],
+      "knownIssues": [
+        "仅整理部分个人页，不是完整师资或招生名单。"
+      ]
+    },
+    {
+      "id": "expand-dir-cityu-ds",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "数据科学系 / Data Science · 官方入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "数据科学系 / Data Science；目录范围与覆盖进展。",
+      "claims": [
+        "实际师资正文列出职务与研究主题；本轮继续核查李忻月、吴琦的官方个人资料，未读完全部个人页。"
+      ],
+      "knownIssues": [
+        "仅整理部分个人页，不是完整师资或招生名单。"
+      ]
+    },
+    {
+      "id": "expand-dir-gz-fintech",
+      "url": "https://soch.hkust-gz.edu.cn/academics/ftec/faculty/",
+      "title": "金融科技学域 / Financial Technology · 官方入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_entry_partial_body",
+      "scope": "金融科技学域 / Financial Technology；目录范围与覆盖进展。",
+      "claims": [
+        "目录入口可打开，但本轮正文只显示导航和跨学域重复任职说明，未取得完整教师名册。蔡宁的任职与方向另从2026年官方个人介绍核实。"
+      ],
+      "knownIssues": [
+        "仅整理部分个人页，不是完整师资或招生名单。"
+      ]
+    },
+    {
+      "id": "expand-hku-edwin-fong-profile",
+      "url": "https://saasweb1.hku.hk/staff/chefong/",
+      "title": "Edwin C.H. Fong · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Assistant Professor；Department of Statistics and Actuarial Science。",
+        "研究贝叶斯推断、贝叶斯非参数方法、模型选择和因果推断。"
+      ],
+      "knownIssues": [
+        "读取的是仍可访问的官方旧式个人页；未注明内容更新日，当前轮次与名额仍待核。"
+      ]
+    },
+    {
+      "id": "expand-hku-marius-hofert-profile",
+      "url": "https://saasresearch.hku.hk/~mhofert/",
+      "title": "Marius Hofert · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Professor of Statistics；Department of Statistics and Actuarial Science。",
+        "研究相依结构建模、计算统计、数据科学和量化风险管理。",
+        "个人页公开说明暂无全额资助岗位，同时提到HKPFS；两者保留范围，不合成为全校招生结论。"
+      ],
+      "knownIssues": [
+        "个人页的资助岗位说明未注明更新日；不得把老师列举的理想背景当作全校硬性资格要求。"
+      ]
+    },
+    {
+      "id": "expand-cuhk-xiao-fang-profile",
+      "url": "https://www.sta.cuhk.edu.hk/xfang/xiaofang/",
+      "title": "Xiao Fang · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Professor；Department of Statistics and Data Science。",
+        "研究概率统计的渐近理论、分布近似、高维中心极限定理和变点分析。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-cuhk-kin-wai-chan-profile",
+      "url": "https://research.cuhk.edu.hk/en/persons/kin-wai-chan/",
+      "title": "Kin Wai Chan · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Professor；Department of Statistics and Data Science。",
+        "研究时间序列与不完整数据的统计推断，包括高频数据、方差估计、非参数方法和多重插补。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-hkust-ke-wang-profile",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/ke-wang/",
+      "title": "Ke Wang / 王可 · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Professor；Department of Mathematics。",
+        "研究概率论、离散数学、概率组合、随机矩阵与随机结构。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-hkust-xinghua-zheng-profile",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng",
+      "title": "Xinghua Zheng / 鄭星華 · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Professor；Department of Information Systems, Business Statistics and Operations Management。",
+        "研究金融大数据、高维统计、大协方差矩阵、投资组合、高频数据与随机粒子系统。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-polyu-defeng-sun-profile",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+      "title": "Defeng Sun / 孫德鋒 · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Head and Chair Professor of Applied Optimization and Operations Research；Department of Applied Mathematics。",
+        "研究矩阵优化、高维统计优化、二阶变分分析，以及风险管理和计算金融。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-polyu-xingqiu-zhao-profile",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+      "title": "Xingqiu Zhao / 趙興球 · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Head of Department and Professor；Department of Applied Mathematics。",
+        "研究统计机器学习、高维统计、生存分析及非参数、半参数推断。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-cityu-xinyue-li-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/xinyueli/",
+      "title": "Xinyue Li / 李忻月 · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Professor；Department of Data Science；Affiliate, Department of Biostatistics。",
+        "研究可穿戴设备数据的统计方法、统计遗传学、大人群研究、精准医疗及可扩展统计学习。",
+        "官方个人页写着欢迎博士申请，并列出CV与成绩单。没有注明申请年度、资助或剩余人数，不能当成所选轮次已确认名额，也不能外推为MPhil招生说明。"
+      ],
+      "knownIssues": [
+        "博士招生说明没有明确年度、更新日、资助或剩余名额；院系主职与生物统计关联任职分开。"
+      ]
+    },
+    {
+      "id": "expand-cityu-qi-wu-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/qiwu55/",
+      "title": "Qi Wu / 吳琦 · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Associate Professor; Director of Flagship Programme, College of Computing；Department of Data Science。",
+        "研究量化金融、金融科技、商业分析和应用概率。",
+        "官方资料标注接受博士申请，但未注明年度、资助或剩余人数。所选轮次及实际接收情况仍需核实，不能据此确认MPhil名额。"
+      ],
+      "knownIssues": [
+        "博士接受标记未注明年度或更新日；旧简介使用School、新页使用Department，不从旧部门名称推断任职变动。"
+      ]
+    },
+    {
+      "id": "expand-cuhksz-jeff-yao-profile",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/506",
+      "title": "Jeff J Yao / Jianfeng Yao · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Presidential Chair Professor; Area Head - Statistics；School of Data Science。",
+        "研究随机矩阵、高维统计与计量模型、马尔可夫过程、时间序列和网络数据。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-cuhksz-tianyang-hu-profile",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2109",
+      "title": "Tianyang Hu · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Assistant Professor；School of Data Science。",
+        "研究统计机器学习、可信AI、表示学习和生成建模，关注统计学与AI的交叉。"
+      ],
+      "knownIssues": [
+        "当前申请轮次及实际名额未核实。"
+      ]
+    },
+    {
+      "id": "expand-hkustgz-ning-cai-profile",
+      "url": "https://mbaplus.hkust-gz.edu.cn/zh/2026/10/09/ning-cai/",
+      "title": "Ning Cai · 官方个人资料",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "官方任职与研究方向；不证明实际名额。",
+      "claims": [
+        "Professor; Head of the Thrust of Financial Technology；Thrust of Financial Technology。",
+        "研究金融科技、金融工程、风险管理、绿色金融、运筹学、随机建模和应用概率。"
+      ],
+      "knownIssues": [
+        "这是2026-10-09官方MBA+站点上的教师介绍，只用于任职与研究；不能继承MBA+项目的招生规则为研究型硕博规则。"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "expand-hku-edwin-fong",
+      "universityId": "hku",
+      "name": "Edwin C.H. Fong",
+      "department": "Department of Statistics and Actuarial Science",
+      "role": "Assistant Professor",
+      "profileUrl": "https://saasweb1.hku.hk/staff/chefong/",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "Bayesian inference",
+        "Bayesian nonparametrics",
+        "Model selection",
+        "Causal inference"
+      ],
+      "summary": "研究贝叶斯推断、贝叶斯非参数方法、模型选择和因果推断。",
+      "sourceIds": [
+        "expand-hku-edwin-fong-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-hku-edwin-fong-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-hku-saas"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-hku-edwin-fong-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-hku-marius-hofert",
+      "universityId": "hku",
+      "name": "Marius Hofert",
+      "department": "Department of Statistics and Actuarial Science",
+      "role": "Associate Professor of Statistics",
+      "profileUrl": "https://saasresearch.hku.hk/~mhofert/",
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Dependence modeling",
+        "Computational statistics",
+        "Data science",
+        "Quantitative risk management"
+      ],
+      "summary": "研究相依结构建模、计算统计、数据科学和量化风险管理。",
+      "sourceIds": [
+        "expand-hku-marius-hofert-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-hku-marius-hofert-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-hku-saas"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "个人页写明暂时没有全额资助岗位，并建议有意申请博士者了解HKPFS；未注明该说明的更新日。这不能解释为学校全部资助关闭、所有学位都停招或其他老师没有名额。",
+        "sourceIds": [
+          "expand-hku-marius-hofert-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-cuhk-xiao-fang",
+      "universityId": "cuhk",
+      "name": "Xiao Fang",
+      "department": "Department of Statistics and Data Science",
+      "role": "Associate Professor",
+      "profileUrl": "https://www.sta.cuhk.edu.hk/xfang/xiaofang/",
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Asymptotic theory in probability and statistics",
+        "Stein's method",
+        "High-dimensional central limit theorems",
+        "Change-point analysis"
+      ],
+      "summary": "研究概率统计的渐近理论、分布近似、高维中心极限定理和变点分析。",
+      "sourceIds": [
+        "expand-cuhk-xiao-fang-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-cuhk-xiao-fang-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-cuhk-statistics"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-cuhk-xiao-fang-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-cuhk-kin-wai-chan",
+      "universityId": "cuhk",
+      "name": "Kin Wai Chan",
+      "department": "Department of Statistics and Data Science",
+      "role": "Associate Professor",
+      "profileUrl": "https://research.cuhk.edu.hk/en/persons/kin-wai-chan/",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "Time series",
+        "Missing data",
+        "High-frequency data",
+        "Variance estimation",
+        "Nonparametric methods",
+        "Multiple imputation"
+      ],
+      "summary": "研究时间序列与不完整数据的统计推断，包括高频数据、方差估计、非参数方法和多重插补。",
+      "sourceIds": [
+        "expand-cuhk-kin-wai-chan-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-cuhk-kin-wai-chan-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-cuhk-statistics"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-cuhk-kin-wai-chan-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-hkust-ke-wang",
+      "universityId": "hkust",
+      "name": "Ke Wang / 王可",
+      "department": "Department of Mathematics",
+      "role": "Associate Professor",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/ke-wang/",
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Probability",
+        "Discrete mathematics and combinatorics",
+        "Probabilistic combinatorics",
+        "Random matrices",
+        "Random structures"
+      ],
+      "summary": "研究概率论、离散数学、概率组合、随机矩阵与随机结构。",
+      "sourceIds": [
+        "expand-hkust-ke-wang-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-hkust-ke-wang-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-hkust-math"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-hkust-ke-wang-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-hkust-xinghua-zheng",
+      "universityId": "hkust",
+      "name": "Xinghua Zheng / 鄭星華",
+      "department": "Department of Information Systems, Business Statistics and Operations Management",
+      "role": "Professor",
+      "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinghua-zheng-xhzheng",
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Financial big data",
+        "High-dimensional statistics",
+        "Large covariance matrices",
+        "Large portfolio management",
+        "High-frequency data analysis",
+        "Stochastic interacting particle systems"
+      ],
+      "summary": "研究金融大数据、高维统计、大协方差矩阵、投资组合、高频数据与随机粒子系统。",
+      "sourceIds": [
+        "expand-hkust-xinghua-zheng-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-hkust-xinghua-zheng-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-hkust-xinghua-zheng-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-polyu-defeng-sun",
+      "universityId": "polyu",
+      "name": "Defeng Sun / 孫德鋒",
+      "department": "Department of Applied Mathematics",
+      "role": "Head and Chair Professor of Applied Optimization and Operations Research",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Matrix optimization",
+        "High-dimensional statistical optimization",
+        "Second order variational analysis",
+        "Risk management and computational finance"
+      ],
+      "summary": "研究矩阵优化、高维统计优化、二阶变分分析，以及风险管理和计算金融。",
+      "sourceIds": [
+        "expand-polyu-defeng-sun-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-polyu-defeng-sun-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-polyu-ama"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-polyu-defeng-sun-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-polyu-xingqiu-zhao",
+      "universityId": "polyu",
+      "name": "Xingqiu Zhao / 趙興球",
+      "department": "Department of Applied Mathematics",
+      "role": "Associate Head of Department and Professor",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+      "topics": [
+        "数学与统计",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Statistical machine learning",
+        "High-dimensional statistics",
+        "Survival analysis",
+        "Nonparametric inference",
+        "Semiparametric inference"
+      ],
+      "summary": "研究统计机器学习、高维统计、生存分析及非参数、半参数推断。",
+      "sourceIds": [
+        "expand-polyu-xingqiu-zhao-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-polyu-xingqiu-zhao-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-polyu-ama"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-polyu-xingqiu-zhao-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-cityu-xinyue-li",
+      "universityId": "cityu",
+      "name": "Xinyue Li / 李忻月",
+      "department": "Department of Data Science；Affiliate, Department of Biostatistics",
+      "role": "Associate Professor",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/xinyueli/",
+      "topics": [
+        "数学与统计",
+        "生物医学与健康",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Statistical methods for wearable device data",
+        "Statistical genetics",
+        "Large population studies",
+        "Precision medicine",
+        "Scalable statistical learning",
+        "Machine learning methods for large data sets"
+      ],
+      "summary": "研究可穿戴设备数据的统计方法、统计遗传学、大人群研究、精准医疗及可扩展统计学习。",
+      "sourceIds": [
+        "expand-cityu-xinyue-li-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-cityu-xinyue-li-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-cityu-ds"
+      ],
+      "availability": {
+        "state": "advertised",
+        "cycle": null,
+        "text": "官方个人页写着欢迎博士申请，并列出CV与成绩单。没有注明申请年度、资助或剩余人数，不能当成所选轮次已确认名额，也不能外推为MPhil招生说明。",
+        "sourceIds": [
+          "expand-cityu-xinyue-li-profile"
+        ],
+        "degrees": [
+          "PhD"
+        ]
+      }
+    },
+    {
+      "id": "expand-cityu-qi-wu",
+      "universityId": "cityu",
+      "name": "Qi Wu / 吳琦",
+      "department": "Department of Data Science",
+      "role": "Associate Professor; Director of Flagship Programme, College of Computing",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/qiwu55/",
+      "topics": [
+        "金融与精算",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "Quantitative finance",
+        "Financial technology",
+        "Business analytics",
+        "Applied probability"
+      ],
+      "summary": "研究量化金融、金融科技、商业分析和应用概率。",
+      "sourceIds": [
+        "expand-cityu-qi-wu-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-cityu-qi-wu-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-cityu-ds"
+      ],
+      "availability": {
+        "state": "advertised",
+        "cycle": null,
+        "text": "官方资料标注接受博士申请，但未注明年度、资助或剩余人数。所选轮次及实际接收情况仍需核实，不能据此确认MPhil名额。",
+        "sourceIds": [
+          "expand-cityu-qi-wu-profile"
+        ],
+        "degrees": [
+          "PhD"
+        ]
+      }
+    },
+    {
+      "id": "expand-cuhksz-jeff-yao",
+      "universityId": "cuhksz",
+      "name": "Jeff J Yao / Jianfeng Yao",
+      "department": "School of Data Science",
+      "role": "Presidential Chair Professor; Area Head - Statistics",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/506",
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Random matrix theory",
+        "High-dimensional statistics",
+        "High-dimensional econometric models",
+        "Markov chains and Markov processes",
+        "Time series analysis",
+        "Network data analysis",
+        "Digital image analysis"
+      ],
+      "summary": "研究随机矩阵、高维统计与计量模型、马尔可夫过程、时间序列和网络数据。",
+      "sourceIds": [
+        "expand-cuhksz-jeff-yao-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-cuhksz-jeff-yao-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sds"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-cuhksz-jeff-yao-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-cuhksz-tianyang-hu",
+      "universityId": "cuhksz",
+      "name": "Tianyang Hu",
+      "department": "School of Data Science",
+      "role": "Assistant Professor",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2109",
+      "topics": [
+        "数学与统计",
+        "机器学习",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Statistical machine learning",
+        "Trustworthy AI",
+        "Representation learning",
+        "Generative modeling"
+      ],
+      "summary": "研究统计机器学习、可信AI、表示学习和生成建模，关注统计学与AI的交叉。",
+      "sourceIds": [
+        "expand-cuhksz-tianyang-hu-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-cuhksz-tianyang-hu-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sds"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-cuhksz-tianyang-hu-profile"
+        ]
+      }
+    },
+    {
+      "id": "expand-hkustgz-ning-cai",
+      "universityId": "hkustgz",
+      "name": "Ning Cai",
+      "department": "Thrust of Financial Technology",
+      "role": "Professor; Head of the Thrust of Financial Technology",
+      "profileUrl": "https://mbaplus.hkust-gz.edu.cn/zh/2026/10/09/ning-cai/",
+      "topics": [
+        "金融与精算",
+        "数学与统计",
+        "理论与优化",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Financial technology",
+        "Financial engineering",
+        "Risk management",
+        "Green finance",
+        "Operations research",
+        "Stochastic modeling",
+        "Applied probability",
+        "Statistics and data science"
+      ],
+      "summary": "研究金融科技、金融工程、风险管理、绿色金融、运筹学、随机建模和应用概率。",
+      "sourceIds": [
+        "expand-hkustgz-ning-cai-profile"
+      ],
+      "keywordSourceIds": [
+        "expand-hkustgz-ning-cai-profile"
+      ],
+      "directorySourceIds": [
+        "expand-dir-gz-fintech"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及实际名额还需确认。",
+        "sourceIds": [
+          "expand-hkustgz-ning-cai-profile"
+        ]
+      }
+    }
+  ],
+  "directories": [
+    {
+      "id": "expand-dir-hku-saas",
+      "universityId": "hku",
+      "unit": "统计与精算学系 / Statistics and Actuarial Science",
+      "url": "https://saasweb.hku.hk/staff_teaching",
+      "sourceIds": [
+        "expand-dir-hku-saas"
+      ],
+      "coverageNotes": "官方师资入口可访问，但本次文本读取只得到筛选框和无结果提示，不能解释为院系没有教师。两位研究教师另从官方个人页核查。",
+      "coverageComplete": false
+    },
+    {
+      "id": "expand-dir-cuhk-statistics",
+      "universityId": "cuhk",
+      "unit": "统计与数据科学系 / Statistics and Data Science",
+      "url": "https://research.cuhk.edu.hk/en/organisations/department-of-statistics-and-data-science/",
+      "sourceIds": [
+        "expand-dir-cuhk-statistics"
+      ],
+      "coverageNotes": "研究门户并列讲师、研究教师与荣休身份，不能将28个检索条目当作可申请导师。已另外读取两位现任研究教师个人页；未读完全部名册。",
+      "coverageComplete": false
+    },
+    {
+      "id": "expand-dir-hkust-math",
+      "universityId": "hkust",
+      "unit": "数学系 / Mathematics",
+      "url": "https://researchportal.hkust.edu.hk/en/organisations/department-of-mathematics/",
+      "sourceIds": [
+        "expand-dir-hkust-math"
+      ],
+      "coverageNotes": "部门研究门户有师资入口及57个资料条目的继续查看入口，包含不同职务和历史资料；本轮只核读部分现任研究教师，不把57当作导师人数。",
+      "coverageComplete": false
+    },
+    {
+      "id": "expand-dir-polyu-ama",
+      "universityId": "polyu",
+      "unit": "应用数学系 / Applied Mathematics",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+      "sourceIds": [
+        "expand-dir-polyu-ama"
+      ],
+      "coverageNotes": "官方目录按职务分组，另列荣休、访问及兼职类别。本轮读取孙德锋、赵兴球两位个人页，其他个人页仍待整理。",
+      "coverageComplete": false
+    },
+    {
+      "id": "expand-dir-cityu-ds",
+      "universityId": "cityu",
+      "unit": "数据科学系 / Data Science",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "sourceIds": [
+        "expand-dir-cityu-ds"
+      ],
+      "coverageNotes": "实际师资正文列出职务与研究主题；本轮继续核查李忻月、吴琦的官方个人资料，未读完全部个人页。",
+      "coverageComplete": false
+    },
+    {
+      "id": "expand-dir-gz-fintech",
+      "universityId": "hkustgz",
+      "unit": "金融科技学域 / Financial Technology",
+      "url": "https://soch.hkust-gz.edu.cn/academics/ftec/faculty/",
+      "sourceIds": [
+        "expand-dir-gz-fintech"
+      ],
+      "coverageNotes": "目录入口可打开，但本轮正文只显示导航和跨学域重复任职说明，未取得完整教师名册。蔡宁的任职与方向另从2026年官方个人介绍核实。",
+      "coverageComplete": false
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://www.saasweb.hku.hk/research/research-groups",
+      "result": "502; search excerpt not used as a read body"
+    },
+    {
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search?academic=All&category=All&class_type=All&keywords=&page=3",
+      "result": "timeout; individual official profiles read separately"
+    },
+    {
+      "url": "https://isom.hkust.edu.hk/node/394",
+      "result": "timeout; current central faculty profile read separately"
+    },
+    {
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "result": "two personal stfprofile links failed; official Scholars profiles read separately"
+    }
+  ],
+  "notAdded": [
+    "Bingyan Han仅找到旧年度官方册的研究介绍，当前独立个人正文尚未核清，本轮不为凑人数添加。"
+  ]
+}

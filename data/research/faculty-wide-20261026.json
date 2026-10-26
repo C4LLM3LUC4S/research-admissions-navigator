@@ -1,0 +1,5315 @@
+{
+  "checkedDate": "2026-10-26",
+  "method": "Official directories followed by individual official profile-body reading; partial coverage, never a count of available supervisors or places.",
+  "sources": [
+    {
+      "id": "wide-dir-hku-cds",
+      "url": "https://www.cds.hku.hk/about/academic-staff/",
+      "title": "Academic Staff - HKU School of Computing and Data Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "School of Computing and Data Science；仅目录和任职分类，不证明招生。",
+      "claims": [
+        "已读学术师资目录；AI/CS/SaaS汇总。"
+      ],
+      "knownIssues": [
+        "仅有界抽样核查，目录余下个人页待后续读取；当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-hku-ai",
+      "url": "https://ai.hku.hk/people/academic-staff",
+      "title": "Academic Staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "Department of AI & Data Science；仅目录和任职分类，不证明招生。",
+      "claims": [
+        "已读目录并观察个人页链接；正式、荣誉及兼职区分；本轮仅选部分研究教师。"
+      ],
+      "knownIssues": [
+        "仅有界抽样核查，目录余下个人页待后续读取；当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-hku-cs",
+      "url": "https://www.cs.hku.hk/people/academic-staff/",
+      "title": "Academic Staff - HKU CDS Computer Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "Department of Computer Science；仅目录和任职分类，不证明招生。",
+      "claims": [
+        "已读目录并观察个人页链接；荣誉/荣休区另列，不自动当现任研究教师。"
+      ],
+      "knownIssues": [
+        "仅有界抽样核查，目录余下个人页待后续读取；当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-hku-ece",
+      "url": "https://ece.hku.hk/people/",
+      "title": "Academic and Teaching Staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "Department of Electrical and Computer Engineering；仅目录和任职分类，不证明招生。",
+      "claims": [
+        "已读目录并观察个人页链接；教授、副教授、助理教授及荣休分类。"
+      ],
+      "knownIssues": [
+        "仅有界抽样核查，目录余下个人页待后续读取；当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhk-cse",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "title": "Faculty – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "Department of Computer Science and Engineering；仅目录和任职分类，不证明招生。",
+      "claims": [
+        "已读目录；包含教授、讲师、by courtesy、兼职及荣休，不将全部视为现任可招生教师。"
+      ],
+      "knownIssues": [
+        "仅有界抽样核查，目录余下个人页待后续读取；当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhk-mae",
+      "url": "https://www4.mae.cuhk.edu.hk/people/academic-staff/",
+      "title": "Academic Staff – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "MAE现任及其他身份目录；个人页链接未从目录正文解析。",
+      "claims": [
+        "目录列现任教授、研究助理教授、讲师、兼职等不同身份及研究方向；本轮独立读取其中6位现任研究教师个人页。"
+      ],
+      "knownIssues": [
+        "目录正文提取未暴露姓名链接；个人页另用官方站内搜索定位。",
+        "未读完该系个人页；当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-yuan-cao-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/yuancao",
+      "title": "Cao, Yuan",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Yuan Cao个人页列为Assistant Professor。",
+        "研究机器学习理论、高维数据分析与优化。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-kai-han-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/kaihan",
+      "title": "Han, Kai",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Kai Han个人页列为Assistant Professor。",
+        "研究计算机视觉与机器学习，当前关注开放世界学习、空间智能、基础模型及生成式AI。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-lingpeng-kong-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/lpk",
+      "title": "Kong, Lingpeng",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Lingpeng Kong个人页列为Assistant Professor。",
+        "用表示学习与结构化预测研究自然语言处理，应用包括句法分析、语音识别及机器翻译。"
+      ],
+      "knownIssues": [
+        "个人页简介仍使用旧Department of Computer Science称谓；当前AI目录列在AI & Data Science，保留组织迁移差异。",
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-ping-luo-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/pluo",
+      "title": "Luo P.",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Ping Luo个人页列为Professor。",
+        "研究可微学习、元学习及强化学习，并关注深度学习基础与视觉应用。"
+      ],
+      "knownIssues": [
+        "页面有未注明轮次的PhD招聘文字，不能据此确认2027/28名额。",
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-jia-pan-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/jpan",
+      "title": "Pan, J.",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Jia Pan个人页列为Associate Professor。",
+        "研究机器人与人工智能，关注通用自主机器人、可泛化物理智能及物理智能体系统。"
+      ],
+      "knownIssues": [
+        "个人页有意向登记入口，但未核实当前轮次或名额；没有打开或填写登记表。",
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-hengshuang-zhao-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/hszhao",
+      "title": "Zhao, H.",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Hengshuang Zhao个人页列为Assistant Professor。",
+        "研究计算机视觉、具身智能及机器学习，关注智能系统。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-difan-zou-profile",
+      "url": "https://ai.hku.hk/index.php/people/academic-staff/dzou",
+      "title": "Zou, Difan",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Difan Zou个人页列为Assistant Professor。",
+        "研究机器学习与深度学习理论、决策、随机建模及结构化数据学习。"
+      ],
+      "knownIssues": [
+        "个人页简介仍使用旧Department of Computer Science称谓；当前AI目录列在AI & Data Science。",
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-zhiyi-huang-profile",
+      "url": "https://www.cs.hku.hk/people/academic-staff/zhiyi/",
+      "title": "Huang, Zhiyi - HKU CDS Computer Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Zhiyi Huang个人页列为Professor; Department Head。",
+        "研究理论计算机科学、算法博弈论、在线算法及差分隐私。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-chuan-wu-profile",
+      "url": "https://www.cs.hku.hk/people/academic-staff/cwu/",
+      "title": "Wu, Chuan - HKU CDS Computer Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Chuan Wu个人页列为Professor。",
+        "研究云计算与分布式机器学习系统，关注大型分布式系统建模、分析和实现。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-xiaojuan-qi-profile",
+      "url": "https://ece.hku.hk/people/xjqi/",
+      "title": "Professor Xiaojuan QI",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Xiaojuan Qi个人页列为Associate Professor。",
+        "研究三维视觉、深度学习、世界模型与空间智能，并探索科学和医学AI。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-qi-dou-profile",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/qi-dou/",
+      "title": "Qi Dou – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Qi Dou个人页列为Associate Professor。",
+        "研究医学影像、手术数据科学及医疗机器人，关注自主手术机器人与安全具身智能。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-farzan-farnia-profile",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/",
+      "title": "Farzan Farnia – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Farzan Farnia个人页列为Assistant Professor。",
+        "研究机器学习、深度学习理论、优化及信息论。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-hku-kaibin-huang-profile",
+      "url": "https://ece.hku.hk/people/huangkb/",
+      "title": "Professor Kaibin HUANG",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Kaibin Huang个人页列为Professor; Head of Department。",
+        "研究机器学习与无线通信交叉、边缘AI通信、6G及MIMO通信。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-irwin-king-profile",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/",
+      "title": "Irwin King – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Irwin King个人页列为Professor; Pro-Vice-Chancellor (Education)。",
+        "研究可信AI、机器学习、社会计算、自然语言处理、图神经网络及推荐系统。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-weiyang-liu-profile",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/Weiyang-Liu/",
+      "title": "Weiyang Liu – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Weiyang Liu个人页列为Assistant Professor。",
+        "研究生成式AI、基础模型与大语言模型，并开展机器学习与视觉相关研究。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-john-chi-shing-lui-profile",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/john-chi-shing-lui/",
+      "title": "John Chi Shing Lui – CUHK CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "John Chi Shing Lui个人页列为Choh-Ming Li Professor of Computer Science and Engineering。",
+        "研究在线学习及多臂赌博机、强化学习应用、量子网络与系统性能评估。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-hku-dase",
+      "url": "https://www.dase.hku.hk/people/academic-staff",
+      "title": "Academic Staff - People - Department of Data and Systems Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "学术师资目录与任职；不是招生清单。",
+      "claims": [
+        "目录列N. Xi为系主任及机器人与自动化讲座教授，并有个人页链接。"
+      ],
+      "knownIssues": [
+        "本轮仅核查其中部分个人页；非完整覆盖。"
+      ]
+    },
+    {
+      "id": "wide-hku-ning-xi-profile",
+      "url": "https://www.dase.hku.hk/people/n-xi",
+      "title": "N. Xi - Academic Staff - Department of Data and Systems Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Ning Xi个人页列为Chair Professor of Robotics and Automation; Head of Department。",
+        "研究机器人、制造自动化、微纳制造、纳米传感及智能控制系统。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-fei-chen-profile",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+      "title": "CHEN Fei 陳翡 – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Fei Chen / 陳翡个人页列为Associate Professor; Vice-Chairman (Outreach)。",
+        "研究机器人抓取与操作、人形机器人具身智能及人机交互协作。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-samuel-au-profile",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/au-kwok-wai-samuel/",
+      "title": "AU Kwok Wai Samuel 歐國威 – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Kwok Wai Samuel Au / 歐國威个人页列为Professor。",
+        "研究医疗及仿生机器人、控制系统设计与机电系统开发。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-zhongyu-li-profile",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/li-zhongyu/",
+      "title": "LI Zhongyu 李鐘毓 – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Zhongyu Li / 李鐘毓个人页列为Assistant Professor。",
+        "研究腿足与人形机器人、机器人学习、具身智能、安全关键控制及控制中的学习。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-yunjian-xu-profile",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/xu-yunjian-1/",
+      "title": "XU Yunjian 徐云建 – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Yunjian Xu / 徐云建个人页列为Associate Professor。",
+        "研究随机最优控制、安全强化学习、电力系统优化控制及电力市场机制设计。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhk-ee-research",
+      "url": "https://research.cuhk.edu.hk/en/organisations/department-of-electronic-engineering/",
+      "title": "Department of Electronic Engineering - The Chinese University of Hong Kong",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_read",
+      "scope": "研究门户组织页及师资入口，不确认全部为现任或有名额。",
+      "claims": [
+        "页面设Profiles区，并给出View all 44 scholars入口；名单可能同时含研究教师、研究助理教授与其他任职。"
+      ],
+      "knownIssues": [
+        "没有逐一读完44位；不能将总数当现任研究导师覆盖数。"
+      ]
+    },
+    {
+      "id": "wide-hku-peng-lu-profile",
+      "url": "https://mech.hku.hk/academic-staff/lu-p/",
+      "title": "Lu-P – HKU mech",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Peng Lu / 魯鵬个人页列为Assistant Professor。",
+        "研究自主无人机与地面机器人的视觉、规划和控制，涉及容错控制、深度强化学习及具身智能。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-ben-m-chen-profile",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-benmei/",
+      "title": "Ben M. CHEN 陳本美 – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Ben M. Chen / 陳本美个人页列为Choh-Ming Li Professor of Mechanical and Automation Engineering; Department Chairman; Graduate Division Head。",
+        "研究自主无人系统、数字孪生与智慧环境应用，项目涉及无人机导航及协同规划控制。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-darwin-lau-profile",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/lau-darwin-tat-ming/",
+      "title": "LAU Darwin Tat Ming 劉達銘 – MAE CUHK",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Darwin Tat Ming Lau / 劉達銘个人页列为Associate Professor; Associate Dean (Student Affairs)。",
+        "研究肌骨与人形机器人、绳索驱动机器人、生物机电系统及建筑机器人，涉及设计优化与动力学控制。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cuhk-hongsheng-li-profile",
+      "url": "https://research.cuhk.edu.hk/en/persons/hongsheng-li/",
+      "title": "Hongsheng LI - The Chinese University of Hong Kong",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "任职及研究方向；不是当前招生名额。",
+      "claims": [
+        "Hongsheng Li个人页列为Professor (research portal position header); Professor by courtesy in CSE。",
+        "研究计算机视觉、医学影像及深度学习。"
+      ],
+      "knownIssues": [
+        "官方研究门户任职标题列Professor，但其简介正文仍列Associate Professor；CSE目录也仍写Associate Professor by courtesy。保留冲突，不能据旧简介覆盖现任职位标题；EE院系个人页本轮多次超时，职位精确级别仍宜再核。",
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkust-cse-ai",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?a=AI&c=regular&d=textview&s=name",
+      "title": "Faculty | HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "Computer Science and Engineering / Regular / Artificial Intelligence；目录与任职类别入口，未核实招生名额。",
+      "claims": [
+        "实际读取AI筛选下15名Regular师资目录，核实其中8位新增个人研究页；James Kwok为既有条目。未遍历全CSE、其他研究分类或全校。"
+      ],
+      "knownIssues": [
+        "目录列名不等于研究方向已验证，也不等于当前可接收研究生。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkustgz-ai",
+      "url": "https://ait.hkust-gz.edu.cn/people/faculty/",
+      "title": "Faculty – HKUST(GZ) AI Thrust",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "Information Hub / Artificial Intelligence Thrust；目录与任职类别入口，未核实招生名额。",
+      "claims": [
+        "实际读取Faculty第1及第2页；第3页和类别筛选未遍历。当前纳入的Lei Chen以校内个人页核实，统一faculty个人系统正文受JavaScript限制。AI目录第二页含同一链接文字指向多个姓名的现象，不能按链接自动批量配人。"
+      ],
+      "knownIssues": [
+        "目录列名不等于研究方向已验证，也不等于当前可接收研究生。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhksz-sai",
+      "url": "https://sai.cuhk.edu.cn/en/teacher-search",
+      "title": "教师搜索 | 人工智能学院",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "School of Artificial Intelligence；目录与任职类别入口，未核实招生名额。",
+      "claims": [
+        "实际读取Academic Staff教师搜索当前返回页，并逐一核实6位该页教师及另1位SSE/SAI联聘Rui Huang个人页；其他筛选、分页与全部教师未遍历。"
+      ],
+      "knownIssues": [
+        "目录列名不等于研究方向已验证，也不等于当前可接收研究生。"
+      ]
+    },
+    {
+      "id": "wide-hkust-hao-chen-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc",
+      "title": "Hao Chen（陳浩） | HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；任职及研究兴趣正文。",
+      "claims": [
+        "Assistant Professor",
+        "Research Interests / Biography明确列出：Medical image analysis; Artificial intelligence; Machine learning; Computer vision; Bioinformatics"
+      ],
+      "knownIssues": [
+        "部分个人页标有较早更新时间；2026-10-21更新的Regular目录仍列在任。未核实当前申请轮次或名额。"
+      ]
+    },
+    {
+      "id": "wide-hkust-long-chen-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
+      "title": "Long Chen（陳隆） | HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；任职及研究兴趣正文。",
+      "claims": [
+        "Assistant Professor",
+        "Research Interests / Biography明确列出：Computer vision; Machine learning; Multimedia; Natural language processing; Explainable, robust and universal vision systems"
+      ],
+      "knownIssues": [
+        "部分个人页标有较早更新时间；2026-10-21更新的Regular目录仍列在任。未核实当前申请轮次或名额。"
+      ]
+    },
+    {
+      "id": "wide-hkust-qifeng-chen-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
+      "title": "Qifeng Chen（陳启峰） | HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；Electronic and Computer Engineering；任职及研究兴趣正文。",
+      "claims": [
+        "Associate Professor（个人页写明CSE与ECE任职）",
+        "Research Interests / Biography明确列出：Computer vision; Machine learning; Optimization; Computer graphics"
+      ],
+      "knownIssues": [
+        "部分个人页标有较早更新时间；2026-10-21更新的Regular目录仍列在任。未核实当前申请轮次或名额。"
+      ]
+    },
+    {
+      "id": "wide-hkust-junxian-he-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh",
+      "title": "Junxian He（何俊賢） | HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；任职及研究兴趣正文。",
+      "claims": [
+        "Assistant Professor",
+        "Research Interests / Biography明确列出：Natural language processing"
+      ],
+      "knownIssues": [
+        "部分个人页标有较早更新时间；2026-10-21更新的Regular目录仍列在任。未核实当前申请轮次或名额。"
+      ]
+    },
+    {
+      "id": "wide-hkust-yangqiu-song-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+      "title": "Yangqiu Song（宋陽秋） | HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；任职及研究兴趣正文。",
+      "claims": [
+        "Associate Professor；PG Programs Coordinator",
+        "Research Interests / Biography明确列出：Artificial intelligence; Data mining; Information extraction; Machine learning; Text mining"
+      ],
+      "knownIssues": [
+        "部分个人页标有较早更新时间；2026-10-21更新的Regular目录仍列在任。未核实当前申请轮次或名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkust-ece",
+      "url": "https://ece.hkust.edu.hk/people_list",
+      "title": "Faculty | HKUST ECE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "Electronic and Computer Engineering / Faculty；目录入口或研究师资分组。",
+      "claims": [
+        "正式Faculty入口可打开，但web正文只显示导航与筛选壳，未解析出教师名单。"
+      ],
+      "knownIssues": [
+        "未核实招生轮次和名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkust-ece-research",
+      "url": "https://ece.hkust.edu.hk/research/areas",
+      "title": "Research Areas | HKUST ECE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "Electronic and Computer Engineering / Research Areas；目录入口或研究师资分组。",
+      "claims": [
+        "已读取八个研究支柱的师资分组，包含Control and Robotic Systems、Data Science and AI；核实Shaojie Shen与Yajing Shen个人页。该页姓名为正文名册，不将其当作实际可点个人链接；未遍历全部ECE。"
+      ],
+      "knownIssues": [
+        "未核实招生轮次和名额。"
+      ]
+    },
+    {
+      "id": "wide-hkust-yi-r-fung-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+      "title": "Yi R. Fung（馮一人） | HKUST official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；已读取个人任职及研究兴趣正文。",
+      "claims": [
+        "Assistant Professor",
+        "Research Interests / Biography明确列出：Natural language processing; Multimedia knowledge reasoning; Computational social science; Retrieval-augmented generation; Agentic frameworks"
+      ],
+      "knownIssues": [
+        "未核实当前申请轮次及剩余名额；现有研究生或导师职务不是招生空位证据。"
+      ]
+    },
+    {
+      "id": "wide-hkust-song-guo-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+      "title": "Song Guo（郭嵩） | HKUST official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；已读取个人任职及研究兴趣正文。",
+      "claims": [
+        "Chair Professor；Associate Head（Research & Knowledge Transfer）",
+        "Research Interests / Biography明确列出：Large language model; Physical AI; Machine learning systems; World models; Embodied AI"
+      ],
+      "knownIssues": [
+        "未核实当前申请轮次及剩余名额；现有研究生或导师职务不是招生空位证据。"
+      ]
+    },
+    {
+      "id": "wide-hkust-zihan-zhang-profile",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz",
+      "title": "Zihan Zhang（張子函） | HKUST official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Computer Science and Engineering；已读取个人任职及研究兴趣正文。",
+      "claims": [
+        "Assistant Professor",
+        "Research Interests / Biography明确列出：Reinforcement learning; Online learning; Game theory; Convex optimization"
+      ],
+      "knownIssues": [
+        "未核实当前申请轮次及剩余名额；现有研究生或导师职务不是招生空位证据。"
+      ]
+    },
+    {
+      "id": "wide-hkust-shaojie-shen-profile",
+      "url": "https://ece.hkust.edu.hk/eeshaojie",
+      "title": "Shaojie Shen（沈劭劼） | HKUST official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Electronic and Computer Engineering；已读取个人任职及研究兴趣正文。",
+      "claims": [
+        "Associate Professor；Director, HKUST-DJI Joint Innovation Laboratory",
+        "Research Interests / Biography明确列出：Robotics; Unmanned aerial vehicles; Estimation and control for aerial robots; Sensor fusion; Autonomous navigation; Field robotics"
+      ],
+      "knownIssues": [
+        "未核实当前申请轮次及剩余名额；现有研究生或导师职务不是招生空位证据。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkustgz-roas",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/",
+      "title": "Faculty Profile – HKUST(GZ) Systems Hub / ROAS",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_access_limited",
+      "scope": "正式目录入口；正文未成功读取。",
+      "claims": [
+        "官方ROAS师资目录入口已定位；本次正文获取超时。"
+      ],
+      "knownIssues": [
+        "不可单独用于证明任职或研究方向；对应教师依赖校内个人页正文。"
+      ]
+    },
+    {
+      "id": "wide-hkust-yajing-shen-profile",
+      "url": "https://ece.hkust.edu.hk/eeyajing",
+      "title": "Yajing Shen（申亞京） | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Electronic and Computer Engineering；已读取个人任职与研究正文。",
+      "claims": [
+        "Professor；Director of Center for Smart Manufacturing",
+        "网页研究正文列出：Biomedical robot and device; Human-robot interaction; Robot manipulation and control; Miniature intelligent system"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；来源也作为核查上下文引用，不代表页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-yiding-ji-profile",
+      "url": "https://personal.hkust-gz.edu.cn/jiyiding/",
+      "title": "Yiding Ji（季一丁） | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Systems Hub / Robotics and Autonomous Systems Thrust；已读取个人任职与研究正文。",
+      "claims": [
+        "Assistant Professor；个人页另列HKUST ECE affiliation",
+        "网页研究正文列出：Control and decision making; Formal methods; Discrete event systems; Trustworthy machine learning; Cyber physical systems; Robotic planning and control; Industrial automation"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；来源也作为核查上下文引用，不代表页面宣称无名额。",
+        "个人页长期欢迎硕博申请，但明确名额视经费而定；不能推定当前轮次有空位。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-lei-chen-profile",
+      "url": "https://personal.hkust-gz.edu.cn/Chenlei/",
+      "title": "Lei Chen（陈雷） | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Information Hub / Artificial Intelligence Thrust；已读取个人任职与研究正文。",
+      "claims": [
+        "Chair Professor；Dean of Information Hub",
+        "网页研究正文列出：Data management; Database systems; Data-driven AI; Knowledge graphs; Crowdsourcing; Spatiotemporal data"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；来源也作为核查上下文引用，不代表页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-haizhou-li-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/102",
+      "title": "Haizhou Li | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Artificial Intelligence；已读取个人任职与研究正文。",
+      "claims": [
+        "X.Q. Deng Presidential Chair Professor；Dean of School of Artificial Intelligence",
+        "网页研究正文列出：Speech information processing; Natural language processing; Neuromorphic computing"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；来源也作为核查上下文引用，不代表页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-tsung-hui-chang-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/83",
+      "title": "Tsung-Hui Chang | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Artificial Intelligence；已读取个人任职与研究正文。",
+      "claims": [
+        "Professor；Associate Dean（Education）",
+        "网页研究正文列出：Signal processing; Optimization methods; Wireless communications; Machine learning"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；来源也作为核查上下文引用，不代表页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkustgz-central",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "title": "Faculty Profile | HKUST(GZ)",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_access_limited",
+      "scope": "校级正式目录入口，正文受JavaScript限制。",
+      "claims": [
+        "目录URL已确认，web仅返回需要JavaScript。"
+      ],
+      "knownIssues": [
+        "未读取名单正文，不作为教师任职或研究方向依据。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-jun-ma-profile",
+      "url": "https://personal.hkust-gz.edu.cn/junma/people-page.html",
+      "title": "Jun Ma | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Systems Hub / Robotics and Autonomous Systems Thrust；已读取个人任职与研究正文。",
+      "claims": [
+        "Associate Professor；校内个人页列Associate Thrust Head",
+        "网页研究正文列出：Robotics; Autonomous driving; Embodied AI"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。",
+        "Systems Hub搜索索引写Acting Head，个人页写Associate Thrust Head；不据搜索摘要升级行政职务。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-dengbo-he-profile",
+      "url": "https://personal.hkust-gz.edu.cn/hedengbo/index.html",
+      "title": "Dengbo He | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Systems Hub / Intelligent Transportation Thrust；Robotics and Autonomous Systems Thrust；已读取个人任职与研究正文。",
+      "claims": [
+        "Assistant Professor；Director, Human-Integrated Systems Lab",
+        "网页研究正文列出：Teleoperation of robots; Human-robot interaction; Driving automation and traffic safety; Motion sickness; Mixed traffic; Driver monitoring systems"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。",
+        "网页招生段落只说明2025秋无PhD空位、2026秋尚不确定，不能外推2027；MPhil另按校级流程。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-yuzhe-ma-profile",
+      "url": "https://personal.hkust-gz.edu.cn/yuzhema/",
+      "title": "Yuzhe Ma | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Microelectronics Thrust；已读取个人任职与研究正文。",
+      "claims": [
+        "Assistant Professor；Associate Thrust Head（Research）",
+        "网页研究正文列出：Electronic design automation; Agile VLSI design methodologies; Machine learning-aided VLSI design; Hardware-friendly machine learning"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-jiang-xu-profile",
+      "url": "https://personal.hkust-gz.edu.cn/jiangxu/",
+      "title": "Jiang Xu（须江） | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Microelectronics Thrust；已读取个人任职与研究正文。",
+      "claims": [
+        "Professor and Department Head of Microelectronics Thrust（个人页原文）",
+        "网页研究正文列出：Electronic-photonic integrated circuit; AI system; Multiprocessor system-on-chip; Hardware/software codesign; Interconnection network; Low-power embedded system"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-zhiquan-tom-luo-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/92",
+      "title": "Zhiquan Tom Luo | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Artificial Intelligence；已读取个人任职与研究正文。",
+      "claims": [
+        "X.Q. Deng Presidential Chair Professor；Vice President（Academic）",
+        "网页研究正文列出：Optimization methods for big data analytics; Complexity and computational issues in signal processing; Digital communication"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-bing-yi-jing-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/162",
+      "title": "Bing-Yi Jing | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Artificial Intelligence；已读取个人任职与研究正文。",
+      "claims": [
+        "Duan Family Presidential Chair Professor；Associate Dean（School Development & Student Affairs）",
+        "网页研究正文列出：Artificial intelligence; Data science; Network data analysis; Bioinformatics; Financial econometrics; Probability and statistics"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-yangsheng-xu-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/115",
+      "title": "Yangsheng Xu | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Artificial Intelligence；已读取个人任职与研究正文。",
+      "claims": [
+        "Presidential Chair Professor；President",
+        "网页研究正文列出：Robotics; Intelligent systems and control; Space robotics; Service robotics; Wearable interface; Intelligent vehicles; Self-learning systems"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-satoshi-nakamura-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/104",
+      "title": "Satoshi Nakamura | official faculty / personal profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Artificial Intelligence；已读取个人任职与研究正文。",
+      "claims": [
+        "Presidential Chair Professor",
+        "网页研究正文列出：Spoken language translation; Machine translation; Spoken dialogue systems; Speech processing; Human-AI interaction"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds保留核查上下文，不表示页面宣称无名额。",
+        "其在NAIST的emeritus身份不等同CUHK深圳任职为荣休；本页列深圳Presidential Chair Professor。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkustgz-cma",
+      "url": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+      "title": "REGULAR FACULTY – HKUST(GZ) CMA",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "Information Hub / Computational Media and Arts / Regular Faculty",
+      "claims": [
+        "实际读取Regular Faculty分类目录，并核实4位个人页。分类中仍有Visiting与Practice职务，已按个人职务区分；未遍历其他教师个人页或Adjunct目录。"
+      ],
+      "knownIssues": [
+        "不等于招生目录；未核实当前名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhksz-sds",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search",
+      "title": "Faculty – CUHK-Shenzhen SDS",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "School of Data Science / Faculty",
+      "claims": [
+        "实际读取正式Faculty搜索入口与部分分页内容；已核实Tongxin Li和Ruoyu Sun个人研究页，未遍历全SDS。page=7的后续正文读取超时，未以摘要代替目录全文。"
+      ],
+      "knownIssues": [
+        "不等于招生目录；未核实当前名额。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-zeyu-wang-profile",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/zeyu-wang/",
+      "title": "Zeyu Wang | official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Information Hub / Computational Media and Arts Thrust；Artificial Intelligence Thrust；已读取个人任职及研究正文。",
+      "claims": [
+        "Assistant Professor；CMA Postgraduate Programs Coordinator；AI joint appointment",
+        "网页研究正文列出：Computer graphics; Human-computer interaction; Artificial intelligence; Digital cultural heritage"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-mingming-fan-profile",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/mingming-fan-3/",
+      "title": "Mingming Fan | official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Information Hub / Computational Media and Arts Thrust；Internet of Things Thrust；已读取个人任职及研究正文。",
+      "claims": [
+        "Associate Professor；个人页另列HKUST ISD joint appointment",
+        "网页研究正文列出：Human-computer interaction; Human-AI interaction; VR/AR/MR interactive systems; Learning and education; Aging and accessibility"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-xin-tong-profile",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/tong-xin/",
+      "title": "Xin Tong | official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Information Hub / Computational Media and Arts Thrust；已读取个人任职及研究正文。",
+      "claims": [
+        "Assistant Professor；另在Duke Kunshan University兼任Adjunct Assistant Professor",
+        "网页研究正文列出：Human-computer interaction; Human-AI collaboration; Generative AI and LLM; Healthcare and wellbeing; Accessibility; Digital cultural heritage"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-huamin-qu-profile",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/huamin-qu-5/",
+      "title": "Huamin Qu | official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "Information Hub / Computational Media and Arts Thrust（官网Regular分类）；HKUST CSE；已读取个人任职及研究正文。",
+      "claims": [
+        "Chair Professor（CMA官方个人页与Regular目录）",
+        "网页研究正文列出：Visualization; Human-computer interaction; Urban informatics; Social network analysis; Text visualization; Explainable AI"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。",
+        "CMA官网将其放在Regular分类；个人传记也有香港校区职务，不能据此推定任一具体广州PhD项目接收资格。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-tongxin-li-profile",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/632",
+      "title": "Tongxin Li | official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Data Science；已读取个人任职及研究正文。",
+      "claims": [
+        "Assistant Professor（Biography写tenure-track）",
+        "网页研究正文列出：Trustworthy machine learning; Online learning; Power systems; Smart grid and control; Sustainability"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhksz-sse-ece",
+      "url": "https://sse.cuhk.edu.cn/en/teacher-search?academic%5B177%5D=177&page=0",
+      "title": "Teacher Search | CUHK-Shenzhen SSE（ECE筛选）",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "School of Science and Engineering / Electrical and Computer Engineering",
+      "claims": [
+        "实际读取ECE筛选第一页，包含控制、网络、能源等教师；仅核实Li Qiu个人研究页，未遍历其他页及全部专业。"
+      ],
+      "knownIssues": [
+        "研究方向以个人页为准；未核实当前名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-cuhksz-sse-c",
+      "url": "https://sse.cuhk.edu.cn/en/teacher-search?alphabet=129&page=1",
+      "title": "Teacher Search | CUHK-Shenzhen SSE（C姓分页）",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "School of Science and Engineering / C姓筛选分页",
+      "claims": [
+        "实际读取该C姓分页，可见Xiaomeng Chen及其助理教授身份；未全遍历SSE。"
+      ],
+      "knownIssues": [
+        "研究方向以个人页为准；未核实当前名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-xiaomeng-chen-profile",
+      "url": "https://myweb.cuhk.edu.cn/chenxiaomeng/",
+      "title": "Xiaomeng Chen | CUHK-Shenzhen official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Science and Engineering；已读取个人任职及研究正文。",
+      "claims": [
+        "Assistant Professor（个人页写2026年加入CUHK-Shenzhen）",
+        "网页研究正文列出：Distributed optimization and learning; Game theory; Trustworthy and efficient multi-agent algorithms"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-rui-huang-profile",
+      "url": "https://sai.cuhk.edu.cn/en/teacher/172",
+      "title": "Rui Huang | CUHK-Shenzhen official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Science and Engineering；School of Artificial Intelligence；已读取个人任职及研究正文。",
+      "claims": [
+        "Associate Professor；SSE & SAI Joint Appointment",
+        "网页研究正文列出：Computer vision; Image processing; Pattern recognition; Machine learning; Intelligent video analysis; Robotic vision navigation; Autonomous driving"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-li-qiu-profile",
+      "url": "https://sse.cuhk.edu.cn/en/faculty/qiuli",
+      "title": "Li Qiu | CUHK-Shenzhen official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Science and Engineering；已读取个人任职及研究正文。",
+      "claims": [
+        "Presidential Chair Professor（深圳）；HKUST ECE Emeritus Professor（另一校身份）",
+        "网页研究正文列出：Control and optimization of complex network systems; System and control theory; Optimization theory; Manufacturing industry; Energy systems"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。",
+        "深圳官网写2024年加入为Presidential Chair Professor；香港HKUST的荣休身份不能误标成深圳荣休，也不计入HKUST香港新增。"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-ruoyu-sun-profile",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/628",
+      "title": "Ruoyu Sun | CUHK-Shenzhen official faculty profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "School of Data Science；已读取个人任职及研究正文。",
+      "claims": [
+        "Associate Professor",
+        "网页研究正文列出：Deep learning theory; Generative models; Large-scale optimization; Learning to optimize; Graph neural nets; AI for communication; Information theory"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实；sourceIds为核查上下文，不表示页面宣称没有名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-hkustgz-ai-page2",
+      "url": "https://ait.hkust-gz.edu.cn/people/faculty/page/2/",
+      "title": "Faculty – Page 2 – HKUST(GZ) AI Thrust",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_directory",
+      "scope": "AI Thrust师资目录第二页。",
+      "claims": [
+        "实际读取第二页姓名及职务；未将目录方向推定到个人。"
+      ],
+      "knownIssues": [
+        "第3页未遍历；第二页部分姓名链接有复用现象，需要逐个人工核对。"
+      ]
+    },
+    {
+      "id": "wide-dir-polyu-comp",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/?sc_lang=en",
+      "title": "Academic and Teaching Staff | Department of Computing",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Computing",
+      "claims": [
+        "已打开官方人员目录；目录用于确认单位、职务及个人页入口。"
+      ],
+      "knownIssues": [
+        "目录不证明个人当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-polyu-eee",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/?sc_lang=en",
+      "title": "Academic and Teaching Staff | Department of Electrical and Electronic Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Electrical and Electronic Engineering",
+      "claims": [
+        "已打开官方人员目录；目录用于确认单位、职务及个人页入口。"
+      ],
+      "knownIssues": [
+        "目录不证明个人当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-polyu-me",
+      "url": "https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/",
+      "title": "Academic & Teaching Staff | Department of Mechanical Engineering",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Mechanical Engineering",
+      "claims": [
+        "已打开官方人员目录；目录用于确认单位、职务及个人页入口。"
+      ],
+      "knownIssues": [
+        "目录不证明个人当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-cityu-cs",
+      "url": "https://www.cs.cityu.edu.hk/people/academic-staff",
+      "title": "Academic Staff | Department of Computer Science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Computer Science",
+      "claims": [
+        "已打开官方人员目录；目录用于确认单位、职务及个人页入口。"
+      ],
+      "knownIssues": [
+        "目录不证明个人当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-cityu-ee",
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-electrical-engineering/",
+      "title": "Department of Electrical Engineering - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Electrical Engineering",
+      "claims": [
+        "已打开官方人员目录；目录用于确认单位、职务及个人页入口。"
+      ],
+      "knownIssues": [
+        "目录不证明个人当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-polyu-qing-li-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+      "title": "Qing Li | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Chair Professor of Data Science and Head，Department of Computing。",
+        "个人主页列出多模态数据管理、数据仓库与挖掘、社交媒体及 Web 服务、电子学习技术。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-qing-li-home",
+      "url": "https://www4.comp.polyu.edu.hk/~csqli/",
+      "title": "Qing LI personal homepage",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-personal-homepage-body-opened",
+      "scope": "具体研究方向",
+      "claims": [
+        "研究涉及多模态数据管理、数据仓库和挖掘、社交媒体与 Web 服务及电子学习技术。"
+      ],
+      "knownIssues": [
+        "主页标题为 GOODBYE SLOGAN；研究方向段落可读。",
+        "招生名额未核查。"
+      ]
+    },
+    {
+      "id": "wide-polyu-changwen-chen-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+      "title": "Changwen Chen | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Chair Professor of Visual Computing; Interim Dean of Faculty of Computer and Mathematical Sciences，Department of Computing。",
+        "官方实验室主页展示 AI 驱动的多媒体内容理解与生成，以及长视频推理、开放词汇场景图生成相关工作。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-changwen-chen-lab",
+      "url": "https://chenlab.comp.polyu.edu.hk/",
+      "title": "CHENLab at PolyU",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-linked-lab-body-opened",
+      "scope": "研究方向和项目",
+      "claims": [
+        "实验室聚焦 AI 驱动多媒体内容理解与生成；列有长视频推理及开放词汇场景图研究。"
+      ],
+      "knownIssues": [
+        "虽有 PhD recruitment 通用栏目，但未注明适用轮次及数量，不据此标为当前有名额。"
+      ]
+    },
+    {
+      "id": "wide-polyu-hongxia-yang-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+      "title": "Hongxia Yang | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Chair Professor of Generative Artificial Intelligence; Executive Director of PolyU Academy for AI，Department of Computing。",
+        "官方个人页确认生成式人工智能讲座教授身份，并说明其大语言模型及基础模型团队经历。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-lei-zhang-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+      "title": "Lei Zhang John | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Chair Professor of Computer Vision and Image Analysis，Department of Computing。",
+        "官方个人页列出图像与视频处理、计算机视觉、模式识别及生物特征识别。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-wenjie-li-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+      "title": "Wenjie Li Maggie | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor，Department of Computing。",
+        "官方个人页列出自然语言处理、文本挖掘、社交媒体分析、信息检索、信息抽取及摘要。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-chenguang-yang-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+      "title": "Chenguang Yang Charlie | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor，Department of Computing。",
+        "官方个人页说明当前聚焦用于机器人学习的具身 AI、人机交互和智能系统设计。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-di-jiang-profile",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+      "title": "Di Jiang | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Associate Professor，Department of Computing。",
+        "官方个人页列出语音处理、自然语言处理及联邦学习，应用包含金融科技、长者照护及长寿医学。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-kin-man-lam-profile",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
+      "title": "Kin-Man Lam Kenneth | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor，Department of Electrical and Electronic Engineering。",
+        "官方个人页列出人脸识别、图像与视频处理及计算机视觉。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-haibo-hu-profile",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/",
+      "title": "Haibo Hu | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor; Associate Head (Learning and Teaching)，Department of Electrical and Electronic Engineering。",
+        "官方个人页列出数据隐私、物联网与网络安全、对抗机器学习、移动及时空数据库。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-henry-chu-profile",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/chu-kar-hang-henry-prof/",
+      "title": "Henry Kar Hang Chu | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Associate Professor，Department of Mechanical Engineering。",
+        "官方个人页列出软体连续机器人、视觉控制与自动化、人工智能、协作机器人及机电系统。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "页面有通用 Research Opportunity 招募文字，但未注明轮次和数量，保持名额未知。"
+      ]
+    },
+    {
+      "id": "wide-polyu-yifu-tao-profile",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+      "title": "Yifu Tao Ethan | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Assistant Professor，Department of Mechanical Engineering。",
+        "官方个人页聚焦移动机器人感知、SLAM、三维重建、传感器融合与不确定性；包括视觉及 LiDAR 的大范围室外重建。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-polyu-david-navarro-profile",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/",
+      "title": "David Navarro | PolyU official profile",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Associate Professor，Department of Mechanical Engineering。",
+        "官方个人页研究机器人视觉运动技能，结合感知、学习、规划与反馈控制；细分方向包括可变形物体操作、移动操作、长时程任务及多机器人协作。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "页面欢迎 PhD 申请并链接申请指引，但当前轮次、资助及数量未核实。"
+      ]
+    },
+    {
+      "id": "wide-cityu-antoni-chan-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/abchan/",
+      "title": "Antoni Bert Chan - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor; Associate Dean of College of Computing，Department of Computer Science。",
+        "官方 Scholars 个人页列出计算机视觉、机器学习、可解释 AI、眼动分析、模式识别及音频信息分析。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "页面标有 Accepting PhD Students，但没有核实具体轮次、资助及数量，保持名额未知。"
+      ]
+    },
+    {
+      "id": "wide-cityu-junhui-hou-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/junhuhou/",
+      "title": "Junhui Hou - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor，Department of Computer Science。",
+        "官方个人页列出多媒体信号处理、几何建模、计算机视觉、应用机器学习、3D/4D 生成，并说明近期关注神经空间计算。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "页面标有 Accepting PhD Students，但没有核实具体轮次、资助及数量，保持名额未知。"
+      ]
+    },
+    {
+      "id": "wide-cityu-jing-liao-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/jingliao/",
+      "title": "Jing Liao - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Associate Professor，Department of Computer Science。",
+        "官方个人页列出计算机图形学、计算机视觉、图像视频处理、数字艺术和计算摄影。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cityu-cong-wang-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/congwang/",
+      "title": "Cong Wang - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Chair Professor; Head (CS)，Department of Computer Science。",
+        "官方个人页列出数据安全与隐私、AI 系统及其安全、区块链与去中心化应用安全。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-dir-cityu-ds",
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-data-science/",
+      "title": "Department of Data Science - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Data Science",
+      "claims": [
+        "已打开官方组织和研究人员入口。"
+      ],
+      "knownIssues": [
+        "已打开官方组织页；初始研究人员列表包含学生和博士后，未遍历全部人员页。只以已打开的教师个人页确认其在职身份及研究方向。",
+        "目录不证明当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-dir-cityu-me",
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-mechanical-engineering/",
+      "title": "Department of Mechanical Engineering - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-directory-opened",
+      "scope": "Department of Mechanical Engineering",
+      "claims": [
+        "已打开官方组织和研究人员入口。"
+      ],
+      "knownIssues": [
+        "已打开官方组织页；初始列表包含学生、研究助理和博士后，未把其人数当作教师总数。未遍历全部人员页。",
+        "目录不证明当前招生名额。"
+      ]
+    },
+    {
+      "id": "wide-cityu-xiangyu-zhao-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/xianzhao/",
+      "title": "Xiangyu Zhao - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Associate Professor，Department of Data Science。",
+        "官方个人页列出推荐、检索、广告、大语言模型与智能体、可信 AI、自动机器学习、强化学习及多模态学习。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    },
+    {
+      "id": "wide-cityu-hing-cheung-so-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/ithcso/",
+      "title": "Hing Cheung So - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor，Department of Electrical Engineering。",
+        "官方个人页列出统计信号处理、快速自适应算法、信号检测、鲁棒估计、信源定位及稀疏逼近。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "页首有 Accepting PhD Students 标记，未核实具体轮次、资助及数量。"
+      ]
+    },
+    {
+      "id": "wide-cityu-ray-cheung-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/racheung/",
+      "title": "Chak Chung Ray Cheung - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "电机工程系 Professor；计算机科学系 Professor, Affiliate；兼任 Associate Provost (Digital Learning)。",
+        "官方个人页聚焦 AIoT、可重构可信计算、FPGA/VLSI、密码硬件、片上系统及嵌入式系统。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "存在通用博士和硕士招募文字，未注明轮次及名额，保持未知。",
+        "CS 任职在页首明确标为 Affiliate，不能当作第二个独立导师重复计数。"
+      ]
+    },
+    {
+      "id": "wide-cityu-wenbin-kang-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/wenbkang/",
+      "title": "Wenbin Kang - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Assistant Professor，Department of Mechanical Engineering。",
+        "官方个人页列出小尺度机器人、传感器与执行器、机器人 AI、压电与铁电材料，并关联医学机器人应用。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "有 Accepting PhD Students 和课题组通用招募文字，未核实轮次、资助及数量。"
+      ]
+    },
+    {
+      "id": "wide-cityu-changhong-linghu-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/clinghu/",
+      "title": "Changhong Linghu - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Presidential Assistant Professor，Department of Mechanical Engineering。",
+        "官方个人页研究跨力学、材料与机器人，包含智能界面科学、协作与攀爬机器人、栖停飞行器、柔性可穿戴器件及机械超材料。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "有 Accepting PhD Students 标记，未核实轮次、资助及数量。"
+      ]
+    },
+    {
+      "id": "wide-cityu-mengze-wang-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/mwang669/",
+      "title": "Mengze Wang - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Presidential Assistant Professor，Department of Mechanical Engineering。",
+        "官方个人页研究高维动力系统的数据同化与机器学习，方向包括非线性优化、小数据机器学习及复杂工程极端事件。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "有 Accepting PhD Students 和通用招募文字，未核实轮次、资助及数量。"
+      ]
+    },
+    {
+      "id": "wide-cityu-yu-yang-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/yuyang/",
+      "title": "Yu Yang - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Associate Professor，Department of Data Science。",
+        "官方个人页列出图、集合和序列等组合结构数据挖掘、数据市场量子算法、数据驱动运营及 AI 数字医学。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。",
+        "有 Accepting PhD Students 和通用招募文字，未核实轮次、资助及数量。"
+      ]
+    },
+    {
+      "id": "wide-cityu-nan-guan-profile",
+      "url": "https://scholars.cityu.edu.hk/en/persons/nanguan/",
+      "title": "Nan Guan - CityUHK Scholars",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official-profile-body-opened",
+      "scope": "任职与研究方向",
+      "claims": [
+        "Professor; Associate Head (CS)，Department of Computer Science。",
+        "官方个人页列出实时系统、嵌入式系统、信息物理系统和物联网，并说明参与物联网与终端计算系统项目。"
+      ],
+      "knownIssues": [
+        "当前轮次及名额未核实。"
+      ]
+    }
+  ],
+  "directories": [
+    {
+      "id": "wide-dir-hku-cds",
+      "universityId": "hku",
+      "unit": "School of Computing and Data Science",
+      "url": "https://www.cds.hku.hk/about/academic-staff/",
+      "title": "Academic Staff - HKU School of Computing and Data Science",
+      "profileLinksObserved": [],
+      "coverageNotes": "已读学术师资目录；AI/CS/SaaS汇总。",
+      "sourceIds": [
+        "wide-dir-hku-cds"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-hku-ai",
+      "universityId": "hku",
+      "unit": "Department of AI & Data Science",
+      "url": "https://ai.hku.hk/people/academic-staff",
+      "title": "Academic Staff",
+      "profileLinksObserved": [
+        "https://ai.hku.hk/index.php/people/academic-staff/yuancao",
+        "https://ai.hku.hk/index.php/people/academic-staff/kaihan",
+        "https://ai.hku.hk/index.php/people/academic-staff/lpk",
+        "https://ai.hku.hk/index.php/people/academic-staff/pluo",
+        "https://ai.hku.hk/index.php/people/academic-staff/jpan",
+        "https://ai.hku.hk/index.php/people/academic-staff/hszhao",
+        "https://ai.hku.hk/index.php/people/academic-staff/dzou"
+      ],
+      "coverageNotes": "已读目录并观察个人页链接；正式、荣誉及兼职区分；本轮仅选部分研究教师。",
+      "sourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-hku-cs",
+      "universityId": "hku",
+      "unit": "Department of Computer Science",
+      "url": "https://www.cs.hku.hk/people/academic-staff/",
+      "title": "Academic Staff - HKU CDS Computer Science",
+      "profileLinksObserved": [
+        "https://www.cs.hku.hk/people/academic-staff/zhiyi/",
+        "https://www.cs.hku.hk/people/academic-staff/cwu/"
+      ],
+      "coverageNotes": "已读目录并观察个人页链接；荣誉/荣休区另列，不自动当现任研究教师。",
+      "sourceIds": [
+        "wide-dir-hku-cs"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-hku-ece",
+      "universityId": "hku",
+      "unit": "Department of Electrical and Computer Engineering",
+      "url": "https://ece.hku.hk/people/",
+      "title": "Academic and Teaching Staff",
+      "profileLinksObserved": [
+        "https://ece.hku.hk/people/xjqi/",
+        "https://ece.hku.hk/people/huangkb/"
+      ],
+      "coverageNotes": "已读目录并观察个人页链接；教授、副教授、助理教授及荣休分类。",
+      "sourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cuhk-cse",
+      "universityId": "cuhk",
+      "unit": "Department of Computer Science and Engineering",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/",
+      "title": "Faculty – CUHK CSE",
+      "profileLinksObserved": [
+        "https://www.cse.cuhk.edu.hk/people/faculty/qi-dou/",
+        "https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/",
+        "https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/",
+        "https://www.cse.cuhk.edu.hk/people/faculty/Weiyang-Liu/",
+        "https://www.cse.cuhk.edu.hk/people/faculty/john-chi-shing-lui/"
+      ],
+      "coverageNotes": "已读目录；包含教授、讲师、by courtesy、兼职及荣休，不将全部视为现任可招生教师。",
+      "sourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cuhk-mae",
+      "universityId": "cuhk",
+      "unit": "Department of Mechanical and Automation Engineering",
+      "url": "https://www4.mae.cuhk.edu.hk/people/academic-staff/",
+      "title": "Academic Staff – MAE CUHK",
+      "profileLinksObserved": [],
+      "coverageNotes": "已读目录并独立核查6位现任教师个人页；研究助理、兼职、讲师等身份未并入这6位；目录余下个人页待继续。 正文提取未暴露姓名链接；已读个人页通过官方站内搜索另行定位，profileLinksObserved留空。",
+      "sourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-hku-dase",
+      "universityId": "hku",
+      "unit": "Department of Data and Systems Engineering",
+      "url": "https://www.dase.hku.hk/people/academic-staff",
+      "title": "Academic Staff - People - Department of Data and Systems Engineering",
+      "profileLinksObserved": [
+        "https://www.dase.hku.hk/people/n-xi"
+      ],
+      "coverageNotes": "已读官方学术师资目录；本轮核查Ning Xi，其余个人页待继续。",
+      "sourceIds": [
+        "wide-dir-hku-dase"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cuhk-ee-research",
+      "universityId": "cuhk",
+      "unit": "Department of Electronic Engineering — CUHK Research Portal",
+      "url": "https://research.cuhk.edu.hk/en/organisations/department-of-electronic-engineering/",
+      "title": "Department of Electronic Engineering - The Chinese University of Hong Kong",
+      "profileLinksObserved": [],
+      "coverageNotes": "已读官方研究门户院系列表页，显示Profiles及View all 44 scholars入口；这不是44位现任可招生导师的确认。院系主站目录超时/502，个人方向以已读官方研究门户核实。 本轮只观察到姓名链接标签，未解析其规范URL，profileLinksObserved留空。",
+      "sourceIds": [
+        "wide-dir-cuhk-ee-research"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkust-cse-ai",
+      "universityId": "hkust",
+      "unit": "Computer Science and Engineering / Regular / Artificial Intelligence",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/?a=AI&c=regular&d=textview&s=name",
+      "title": "Faculty | HKUST CSE",
+      "profileLinksObserved": [
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+        "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz"
+      ],
+      "coverageNotes": "实际读取AI筛选下15名Regular师资目录，核实其中8位新增个人研究页；James Kwok为既有条目。未遍历全CSE、其他研究分类或全校。",
+      "sourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkustgz-ai",
+      "universityId": "hkustgz",
+      "unit": "Information Hub / Artificial Intelligence Thrust",
+      "url": "https://ait.hkust-gz.edu.cn/people/faculty/",
+      "title": "Faculty – HKUST(GZ) AI Thrust",
+      "profileLinksObserved": [
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen"
+      ],
+      "coverageNotes": "实际读取Faculty第1及第2页；第3页和类别筛选未遍历。当前纳入的Lei Chen以校内个人页核实，统一faculty个人系统正文受JavaScript限制。AI目录第二页含同一链接文字指向多个姓名的现象，不能按链接自动批量配人。",
+      "sourceIds": [
+        "wide-dir-hkustgz-ai"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-cuhksz-sai",
+      "universityId": "cuhksz",
+      "unit": "School of Artificial Intelligence",
+      "url": "https://sai.cuhk.edu.cn/en/teacher-search",
+      "title": "教师搜索 | 人工智能学院",
+      "profileLinksObserved": [
+        "https://sai.cuhk.edu.cn/en/teacher/102",
+        "https://sai.cuhk.edu.cn/en/teacher/83",
+        "https://sai.cuhk.edu.cn/en/teacher/92",
+        "https://sai.cuhk.edu.cn/en/teacher/162",
+        "https://sai.cuhk.edu.cn/en/teacher/104",
+        "https://sai.cuhk.edu.cn/en/teacher/115"
+      ],
+      "coverageNotes": "实际读取Academic Staff教师搜索当前返回页，并逐一核实6位该页教师及另1位SSE/SAI联聘Rui Huang个人页；其他筛选、分页与全部教师未遍历。",
+      "sourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkust-ece",
+      "universityId": "hkust",
+      "unit": "Electronic and Computer Engineering / Faculty",
+      "url": "https://ece.hkust.edu.hk/people_list",
+      "title": "Faculty | HKUST ECE",
+      "profileLinksObserved": [],
+      "coverageNotes": "正式Faculty入口可打开，但web正文只显示导航与筛选壳，未解析出教师名单。",
+      "sourceIds": [
+        "wide-dir-hkust-ece"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkust-ece-research",
+      "universityId": "hkust",
+      "unit": "Electronic and Computer Engineering / Research Areas",
+      "url": "https://ece.hkust.edu.hk/research/areas",
+      "title": "Research Areas | HKUST ECE",
+      "profileLinksObserved": [],
+      "coverageNotes": "已读取八个研究支柱的师资分组，包含Control and Robotic Systems、Data Science and AI；核实Shaojie Shen与Yajing Shen个人页。该页姓名为正文名册，不将其当作实际可点个人链接；未遍历全部ECE。",
+      "sourceIds": [
+        "wide-dir-hkust-ece-research"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkustgz-roas",
+      "universityId": "hkustgz",
+      "unit": "Systems Hub / Robotics and Autonomous Systems Thrust",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/",
+      "title": "Faculty Profile – HKUST(GZ) Systems Hub / ROAS",
+      "profileLinksObserved": [],
+      "coverageNotes": "正式师资入口已由官方网页搜索定位，但首次open超时；未将搜索摘要当个人研究证据。所录季一丁任职与研究来自其校内个人页，目录正文核查仍缺。",
+      "sourceIds": [
+        "wide-dir-hkustgz-roas"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkustgz-central",
+      "universityId": "hkustgz",
+      "unit": "University Faculty Profiles（跨学域入口）",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "title": "Faculty Profile | HKUST(GZ)",
+      "profileLinksObserved": [],
+      "coverageNotes": "正式校级目录open仅返回JavaScript提示，未读取名单正文。微电子等条目的任职和研究完全依据校内个人主页；该入口只保留供后续核查，不作为任职实证。",
+      "sourceIds": [
+        "wide-dir-hkustgz-central"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkustgz-cma",
+      "universityId": "hkustgz",
+      "unit": "Information Hub / Computational Media and Arts / Regular Faculty",
+      "url": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+      "title": "REGULAR FACULTY – HKUST(GZ) CMA",
+      "profileLinksObserved": [
+        "https://cma.hkust-gz.edu.cn/faculty-regular/zeyu-wang/",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/mingming-fan-3/",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/tong-xin/",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/huamin-qu-5/"
+      ],
+      "coverageNotes": "实际读取Regular Faculty分类目录，并核实4位个人页。分类中仍有Visiting与Practice职务，已按个人职务区分；未遍历其他教师个人页或Adjunct目录。",
+      "sourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-cuhksz-sds",
+      "universityId": "cuhksz",
+      "unit": "School of Data Science / Faculty",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search",
+      "title": "Faculty – CUHK-Shenzhen SDS",
+      "profileLinksObserved": [],
+      "coverageNotes": "实际读取正式Faculty搜索入口与部分分页内容；已核实Tongxin Li和Ruoyu Sun个人研究页，未遍历全SDS。page=7的后续正文读取超时，未以摘要代替目录全文。",
+      "sourceIds": [
+        "wide-dir-cuhksz-sds"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-cuhksz-sse-ece",
+      "universityId": "cuhksz",
+      "unit": "School of Science and Engineering / Electrical and Computer Engineering",
+      "url": "https://sse.cuhk.edu.cn/en/teacher-search?academic%5B177%5D=177&page=0",
+      "title": "Teacher Search | CUHK-Shenzhen SSE（ECE筛选）",
+      "profileLinksObserved": [
+        "https://myweb.cuhk.edu.cn/qiuli"
+      ],
+      "coverageNotes": "实际读取ECE筛选第一页，包含控制、网络、能源等教师；仅核实Li Qiu个人研究页，未遍历其他页及全部专业。",
+      "sourceIds": [
+        "wide-dir-cuhksz-sse-ece"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-cuhksz-sse-c",
+      "universityId": "cuhksz",
+      "unit": "School of Science and Engineering / C姓筛选分页",
+      "url": "https://sse.cuhk.edu.cn/en/teacher-search?alphabet=129&page=1",
+      "title": "Teacher Search | CUHK-Shenzhen SSE（C姓分页）",
+      "profileLinksObserved": [
+        "https://myweb.cuhk.edu.cn/chenxiaomeng"
+      ],
+      "coverageNotes": "实际读取该C姓分页，可见Xiaomeng Chen及其助理教授身份；未全遍历SSE。",
+      "sourceIds": [
+        "wide-dir-cuhksz-sse-c"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-directory-hkustgz-ai-page2",
+      "universityId": "hkustgz",
+      "unit": "Information Hub / Artificial Intelligence Thrust / page 2",
+      "url": "https://ait.hkust-gz.edu.cn/people/faculty/page/2/",
+      "title": "Faculty – Page 2 – HKUST(GZ) AI Thrust",
+      "profileLinksObserved": [],
+      "coverageNotes": "已读取Huangxun Chen至Hao Wang等第二页姓名与职务，个人研究页未逐一核实，不计入31位。",
+      "sourceIds": [
+        "wide-dir-hkustgz-ai-page2"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-polyu-comp",
+      "universityId": "polyu",
+      "unit": "Department of Computing",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/?sc_lang=en",
+      "title": "Academic and Teaching Staff | Department of Computing",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/"
+      ],
+      "coverageNotes": "已查看现任学术人员部分；未逐一核查所有教师。荣休、访问及兼职名单另列，不混作新增导师。",
+      "sourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-polyu-eee",
+      "universityId": "polyu",
+      "unit": "Department of Electrical and Electronic Engineering",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/?sc_lang=en",
+      "title": "Academic and Teaching Staff | Department of Electrical and Electronic Engineering",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/"
+      ],
+      "coverageNotes": "已打开现行 EEE 人员目录；旧猜测路径访问失败。只选取具有明确相关研究信息的在职研究教师，未覆盖全员。",
+      "sourceIds": [
+        "wide-dir-polyu-eee"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-polyu-me",
+      "universityId": "polyu",
+      "unit": "Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/en/me/people/academic-teaching-staff/",
+      "title": "Academic & Teaching Staff | Department of Mechanical Engineering",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/chu-kar-hang-henry-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/"
+      ],
+      "coverageNotes": "已查看学术人员部分；教学职及研究助理教授未按一般教研序列混计；未覆盖全员。",
+      "sourceIds": [
+        "wide-dir-polyu-me"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cityu-cs",
+      "universityId": "cityu",
+      "unit": "Department of Computer Science",
+      "url": "https://www.cs.cityu.edu.hk/people/academic-staff",
+      "title": "Academic Staff | Department of Computer Science",
+      "profileLinksObserved": [],
+      "coverageNotes": "首轮正常打开成功；未完整展开所有个人页入口。后续按行获取超时，未重试；另一 CS Scholars persons 目录 403 后停止访问。CityU 教师身份和方向以正常公开的 Scholars 个人页正文单独核查；本目录不用于证明名额。",
+      "sourceIds": [
+        "wide-dir-cityu-cs"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cityu-ee",
+      "universityId": "cityu",
+      "unit": "Department of Electrical Engineering",
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-electrical-engineering/",
+      "title": "Department of Electrical Engineering - CityUHK Scholars",
+      "profileLinksObserved": [
+        "https://scholars.cityu.edu.hk/en/persons/ithcso/",
+        "https://scholars.cityu.edu.hk/en/persons/racheung/"
+      ],
+      "coverageNotes": "官方组织页已打开；研究人员列表含学生及博士后，须用个人页辨别任职，未按列表总数计教师。",
+      "sourceIds": [
+        "wide-dir-cityu-ee"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cityu-ds",
+      "universityId": "cityu",
+      "unit": "Department of Data Science",
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-data-science/",
+      "title": "Department of Data Science - CityUHK Scholars",
+      "profileLinksObserved": [],
+      "coverageNotes": "已打开官方组织页；初始研究人员列表包含学生和博士后，未遍历全部人员页。只以已打开的教师个人页确认其在职身份及研究方向。",
+      "sourceIds": [
+        "wide-dir-cityu-ds"
+      ],
+      "coverageComplete": false
+    },
+    {
+      "id": "wide-dir-cityu-me",
+      "universityId": "cityu",
+      "unit": "Department of Mechanical Engineering",
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-mechanical-engineering/",
+      "title": "Department of Mechanical Engineering - CityUHK Scholars",
+      "profileLinksObserved": [],
+      "coverageNotes": "已打开官方组织页；初始列表包含学生、研究助理和博士后，未把其人数当作教师总数。未遍历全部人员页。",
+      "sourceIds": [
+        "wide-dir-cityu-me"
+      ],
+      "coverageComplete": false
+    }
+  ],
+  "faculty": [
+    {
+      "id": "wide-hku-yuan-cao",
+      "universityId": "hku",
+      "name": "Yuan Cao",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Machine Learning",
+        "Learning Theory",
+        "High-Dimensional Data Analysis",
+        "Optimization"
+      ],
+      "summary": "研究机器学习理论、高维数据分析与优化。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/yuancao",
+      "sourceIds": [
+        "wide-hku-yuan-cao-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-yuan-cao-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-yuan-cao-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-kai-han",
+      "universityId": "hku",
+      "name": "Kai Han",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "open-world learning",
+        "spatial intelligence",
+        "foundation models",
+        "generative AI"
+      ],
+      "summary": "研究计算机视觉与机器学习，当前关注开放世界学习、空间智能、基础模型及生成式AI。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/kaihan",
+      "sourceIds": [
+        "wide-hku-kai-han-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-kai-han-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-kai-han-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-lingpeng-kong",
+      "universityId": "hku",
+      "name": "Lingpeng Kong",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "representation learning",
+        "structured prediction",
+        "syntactic parsing",
+        "speech recognition",
+        "machine translation"
+      ],
+      "summary": "用表示学习与结构化预测研究自然语言处理，应用包括句法分析、语音识别及机器翻译。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/lpk",
+      "sourceIds": [
+        "wide-hku-lingpeng-kong-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-lingpeng-kong-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-lingpeng-kong-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-ping-luo",
+      "universityId": "hku",
+      "name": "Ping Luo",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "differentiable learning",
+        "meta learning",
+        "reinforcement learning",
+        "deep learning foundations",
+        "computer vision"
+      ],
+      "summary": "研究可微学习、元学习及强化学习，并关注深度学习基础与视觉应用。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/pluo",
+      "sourceIds": [
+        "wide-hku-ping-luo-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-ping-luo-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-ping-luo-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-jia-pan",
+      "universityId": "hku",
+      "name": "Jia Pan",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Associate Professor",
+      "topics": [
+        "人工智能",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "robotics",
+        "general-purpose autonomous robots",
+        "physical intelligence",
+        "agentic physical systems"
+      ],
+      "summary": "研究机器人与人工智能，关注通用自主机器人、可泛化物理智能及物理智能体系统。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/jpan",
+      "sourceIds": [
+        "wide-hku-jia-pan-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-jia-pan-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-jia-pan-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-hengshuang-zhao",
+      "universityId": "hku",
+      "name": "Hengshuang Zhao",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "computer vision",
+        "embodied AI",
+        "machine learning",
+        "intelligent systems"
+      ],
+      "summary": "研究计算机视觉、具身智能及机器学习，关注智能系统。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/hszhao",
+      "sourceIds": [
+        "wide-hku-hengshuang-zhao-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-hengshuang-zhao-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-hengshuang-zhao-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-difan-zou",
+      "universityId": "hku",
+      "name": "Difan Zou",
+      "department": "School of Computing and Data Science — Department of AI & Data Science",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "machine learning theory",
+        "deep learning theory",
+        "decision making",
+        "stochastic modeling",
+        "learning structured data"
+      ],
+      "summary": "研究机器学习与深度学习理论、决策、随机建模及结构化数据学习。",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/dzou",
+      "sourceIds": [
+        "wide-hku-difan-zou-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-difan-zou-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-difan-zou-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-zhiyi-huang",
+      "universityId": "hku",
+      "name": "Zhiyi Huang",
+      "department": "School of Computing and Data Science — Department of Computer Science",
+      "role": "Professor; Department Head",
+      "topics": [
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "theoretical computer science",
+        "algorithmic game theory",
+        "online algorithms",
+        "differential privacy"
+      ],
+      "summary": "研究理论计算机科学、算法博弈论、在线算法及差分隐私。",
+      "profileUrl": "https://www.cs.hku.hk/people/academic-staff/zhiyi/",
+      "sourceIds": [
+        "wide-hku-zhiyi-huang-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-zhiyi-huang-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-cs"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-zhiyi-huang-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-chuan-wu",
+      "universityId": "hku",
+      "name": "Chuan Wu",
+      "department": "School of Computing and Data Science — Department of Computer Science",
+      "role": "Professor",
+      "topics": [
+        "机器学习",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "cloud computing",
+        "distributed machine learning systems",
+        "large-scale distributed systems",
+        "smart elderly care technologies"
+      ],
+      "summary": "研究云计算与分布式机器学习系统，关注大型分布式系统建模、分析和实现。",
+      "profileUrl": "https://www.cs.hku.hk/people/academic-staff/cwu/",
+      "sourceIds": [
+        "wide-hku-chuan-wu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-chuan-wu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-cs"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-chuan-wu-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-xiaojuan-qi",
+      "universityId": "hku",
+      "name": "Xiaojuan Qi",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Associate Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "3D vision",
+        "deep learning",
+        "world models",
+        "spatial intelligence",
+        "AI for science and medicine"
+      ],
+      "summary": "研究三维视觉、深度学习、世界模型与空间智能，并探索科学和医学AI。",
+      "profileUrl": "https://ece.hku.hk/people/xjqi/",
+      "sourceIds": [
+        "wide-hku-xiaojuan-qi-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-xiaojuan-qi-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-xiaojuan-qi-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-qi-dou",
+      "universityId": "cuhk",
+      "name": "Qi Dou",
+      "department": "Department of Computer Science and Engineering",
+      "role": "Associate Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "medical image analysis",
+        "surgical data science",
+        "autonomous surgical robots",
+        "safe embodied AI"
+      ],
+      "summary": "研究医学影像、手术数据科学及医疗机器人，关注自主手术机器人与安全具身智能。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/qi-dou/",
+      "sourceIds": [
+        "wide-cuhk-qi-dou-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-qi-dou-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-qi-dou-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-farzan-farnia",
+      "universityId": "cuhk",
+      "name": "Farzan Farnia",
+      "department": "Department of Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "machine learning",
+        "deep learning theory",
+        "optimization",
+        "information theory"
+      ],
+      "summary": "研究机器学习、深度学习理论、优化及信息论。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/farzan-farnia/",
+      "sourceIds": [
+        "wide-cuhk-farzan-farnia-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-farzan-farnia-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-farzan-farnia-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-kaibin-huang",
+      "universityId": "hku",
+      "name": "Kaibin Huang",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Professor; Head of Department",
+      "topics": [
+        "机器学习",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "machine learning and wireless communications",
+        "wireless communications for edge AI",
+        "6G communications",
+        "MIMO communications"
+      ],
+      "summary": "研究机器学习与无线通信交叉、边缘AI通信、6G及MIMO通信。",
+      "profileUrl": "https://ece.hku.hk/people/huangkb/",
+      "sourceIds": [
+        "wide-hku-kaibin-huang-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-kaibin-huang-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-kaibin-huang-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-irwin-king",
+      "universityId": "cuhk",
+      "name": "Irwin King",
+      "department": "Department of Computer Science and Engineering",
+      "role": "Professor; Pro-Vice-Chancellor (Education)",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "trustworthy AI",
+        "social computing",
+        "natural language processing",
+        "graph neural networks",
+        "recommender systems"
+      ],
+      "summary": "研究可信AI、机器学习、社会计算、自然语言处理、图神经网络及推荐系统。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/irwin-king/",
+      "sourceIds": [
+        "wide-cuhk-irwin-king-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-irwin-king-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-irwin-king-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-weiyang-liu",
+      "universityId": "cuhk",
+      "name": "Weiyang Liu",
+      "department": "Department of Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "generative AI",
+        "foundation models",
+        "large language models",
+        "deep learning"
+      ],
+      "summary": "研究生成式AI、基础模型与大语言模型，并开展机器学习与视觉相关研究。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/Weiyang-Liu/",
+      "sourceIds": [
+        "wide-cuhk-weiyang-liu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-weiyang-liu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-weiyang-liu-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-john-chi-shing-lui",
+      "universityId": "cuhk",
+      "name": "John Chi Shing Lui",
+      "department": "Department of Computer Science and Engineering",
+      "role": "Choh-Ming Li Professor of Computer Science and Engineering",
+      "topics": [
+        "机器学习",
+        "网络与系统",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "online learning algorithms",
+        "multi-armed bandits",
+        "reinforcement learning",
+        "quantum networks",
+        "performance evaluation"
+      ],
+      "summary": "研究在线学习及多臂赌博机、强化学习应用、量子网络与系统性能评估。",
+      "profileUrl": "https://www.cse.cuhk.edu.hk/people/faculty/john-chi-shing-lui/",
+      "sourceIds": [
+        "wide-cuhk-john-chi-shing-lui-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-john-chi-shing-lui-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-john-chi-shing-lui-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-ning-xi",
+      "universityId": "hku",
+      "name": "Ning Xi",
+      "department": "Department of Data and Systems Engineering",
+      "role": "Chair Professor of Robotics and Automation; Head of Department",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "robotics",
+        "manufacturing automation",
+        "micro/nano manufacturing",
+        "nano sensors and devices",
+        "intelligent control and systems"
+      ],
+      "summary": "研究机器人、制造自动化、微纳制造、纳米传感及智能控制系统。",
+      "profileUrl": "https://www.dase.hku.hk/people/n-xi",
+      "sourceIds": [
+        "wide-hku-ning-xi-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-ning-xi-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hku-dase"
+      ],
+      "keywordSourceIds": [
+        "wide-hku-ning-xi-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-fei-chen",
+      "universityId": "cuhk",
+      "name": "Fei Chen / 陳翡",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Associate Professor; Vice-Chairman (Outreach)",
+      "topics": [
+        "人工智能",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "robotic grasping and manipulation",
+        "embodied AI for humanoid robots",
+        "human-robot interaction and collaboration"
+      ],
+      "summary": "研究机器人抓取与操作、人形机器人具身智能及人机交互协作。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/chen-fei/",
+      "sourceIds": [
+        "wide-cuhk-fei-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-fei-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-fei-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-samuel-au",
+      "universityId": "cuhk",
+      "name": "Kwok Wai Samuel Au / 歐國威",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Professor",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "medical robotics",
+        "bioinspired robotics",
+        "control system design",
+        "mechatronics system development"
+      ],
+      "summary": "研究医疗及仿生机器人、控制系统设计与机电系统开发。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/au-kwok-wai-samuel/",
+      "sourceIds": [
+        "wide-cuhk-samuel-au-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-samuel-au-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-samuel-au-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-zhongyu-li",
+      "universityId": "cuhk",
+      "name": "Zhongyu Li / 李鐘毓",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "legged and humanoid robotics",
+        "robot learning and embodied AI",
+        "safety-critical control",
+        "learning for control"
+      ],
+      "summary": "研究腿足与人形机器人、机器人学习、具身智能、安全关键控制及控制中的学习。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/li-zhongyu/",
+      "sourceIds": [
+        "wide-cuhk-zhongyu-li-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-zhongyu-li-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-zhongyu-li-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-yunjian-xu",
+      "universityId": "cuhk",
+      "name": "Yunjian Xu / 徐云建",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Associate Professor",
+      "topics": [
+        "机器学习",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "stochastic optimal control",
+        "safe reinforcement learning",
+        "power system optimization and control",
+        "mechanism design for electricity markets"
+      ],
+      "summary": "研究随机最优控制、安全强化学习、电力系统优化控制及电力市场机制设计。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/xu-yunjian-1/",
+      "sourceIds": [
+        "wide-cuhk-yunjian-xu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-yunjian-xu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-yunjian-xu-profile"
+      ]
+    },
+    {
+      "id": "wide-hku-peng-lu",
+      "universityId": "hku",
+      "name": "Peng Lu / 魯鵬",
+      "department": "Department of Mechanical Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "autonomous UAVs",
+        "vision planning and control",
+        "walking robots",
+        "fault-tolerant control",
+        "deep reinforcement learning control",
+        "embodied AI"
+      ],
+      "summary": "研究自主无人机与地面机器人的视觉、规划和控制，涉及容错控制、深度强化学习及具身智能。",
+      "profileUrl": "https://mech.hku.hk/academic-staff/lu-p/",
+      "sourceIds": [
+        "wide-hku-peng-lu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hku-peng-lu-profile"
+        ]
+      },
+      "directorySourceIds": [],
+      "keywordSourceIds": [
+        "wide-hku-peng-lu-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-ben-m-chen",
+      "universityId": "cuhk",
+      "name": "Ben M. Chen / 陳本美",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Choh-Ming Li Professor of Mechanical and Automation Engineering; Department Chairman; Graduate Division Head",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "autonomous unmanned systems",
+        "digital twins",
+        "smart environments",
+        "UAV navigation and control"
+      ],
+      "summary": "研究自主无人系统、数字孪生与智慧环境应用，项目涉及无人机导航及协同规划控制。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/chen-benmei/",
+      "sourceIds": [
+        "wide-cuhk-ben-m-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-ben-m-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-ben-m-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-darwin-lau",
+      "universityId": "cuhk",
+      "name": "Darwin Tat Ming Lau / 劉達銘",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Associate Professor; Associate Dean (Student Affairs)",
+      "topics": [
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "musculoskeletal and humanoid robots",
+        "cable-driven robots",
+        "biomechatronics",
+        "building construction and maintenance robotics",
+        "dynamics and control"
+      ],
+      "summary": "研究肌骨与人形机器人、绳索驱动机器人、生物机电系统及建筑机器人，涉及设计优化与动力学控制。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/lau-darwin-tat-ming/",
+      "sourceIds": [
+        "wide-cuhk-darwin-lau-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-darwin-lau-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-darwin-lau-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhk-hongsheng-li",
+      "universityId": "cuhk",
+      "name": "Hongsheng Li",
+      "department": "Department of Electronic Engineering",
+      "role": "Professor (research portal position header); Professor by courtesy in CSE",
+      "topics": [
+        "机器学习",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "computer vision",
+        "medical imaging",
+        "deep learning"
+      ],
+      "summary": "研究计算机视觉、医学影像及深度学习。",
+      "profileUrl": "https://research.cuhk.edu.hk/en/persons/hongsheng-li/",
+      "sourceIds": [
+        "wide-cuhk-hongsheng-li-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhk-hongsheng-li-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-cse"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhk-hongsheng-li-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-hao-chen",
+      "universityId": "hkust",
+      "name": "Hao Chen（陳浩）",
+      "department": "Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "Medical image analysis",
+        "Artificial intelligence",
+        "Machine learning",
+        "Computer vision",
+        "Bioinformatics"
+      ],
+      "summary": "研究医疗影像分析与面向医疗的可信人工智能，结合机器学习和计算机视觉。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc",
+      "sourceIds": [
+        "wide-hkust-hao-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-hao-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-hao-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-long-chen",
+      "universityId": "hkust",
+      "name": "Long Chen（陳隆）",
+      "department": "Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "计算机视觉",
+        "机器学习",
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "Computer vision",
+        "Machine learning",
+        "Multimedia",
+        "Natural language processing",
+        "Explainable, robust and universal vision systems"
+      ],
+      "summary": "研究计算机视觉、多媒体和自然语言处理，关注能理解复杂场景且可解释、稳健的视觉系统。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
+      "sourceIds": [
+        "wide-hkust-long-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-long-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-long-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-qifeng-chen",
+      "universityId": "hkust",
+      "name": "Qifeng Chen（陳启峰）",
+      "department": "Computer Science and Engineering；Electronic and Computer Engineering",
+      "role": "Associate Professor（个人页写明CSE与ECE任职）",
+      "topics": [
+        "计算机视觉",
+        "机器学习",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Computer vision",
+        "Machine learning",
+        "Optimization",
+        "Computer graphics"
+      ],
+      "summary": "研究视觉、机器学习与优化，并与计算机图形学结合。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
+      "sourceIds": [
+        "wide-hkust-qifeng-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-qifeng-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-qifeng-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-junxian-he",
+      "universityId": "hkust",
+      "name": "Junxian He（何俊賢）",
+      "department": "Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "Natural language processing"
+      ],
+      "summary": "个人页明确以自然语言处理为主要研究方向。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh",
+      "sourceIds": [
+        "wide-hkust-junxian-he-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-junxian-he-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-junxian-he-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-yangqiu-song",
+      "universityId": "hkust",
+      "name": "Yangqiu Song（宋陽秋）",
+      "department": "Computer Science and Engineering",
+      "role": "Associate Professor；PG Programs Coordinator",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数据挖掘",
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "Artificial intelligence",
+        "Data mining",
+        "Information extraction",
+        "Machine learning",
+        "Text mining"
+      ],
+      "summary": "研究人工智能、数据与文本挖掘，以及信息抽取和机器学习。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+      "sourceIds": [
+        "wide-hkust-yangqiu-song-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-yangqiu-song-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-yangqiu-song-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-yi-r-fung",
+      "universityId": "hkust",
+      "name": "Yi R. Fung（馮一人）",
+      "department": "Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "人工智能",
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "Natural language processing",
+        "Multimedia knowledge reasoning",
+        "Computational social science",
+        "Retrieval-augmented generation",
+        "Agentic frameworks"
+      ],
+      "summary": "研究以人为本的可信AI和语言模型推理，涉及多模态知识、检索增强生成与智能体框架。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+      "sourceIds": [
+        "wide-hkust-yi-r-fung-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-yi-r-fung-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-yi-r-fung-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-song-guo",
+      "universityId": "hkust",
+      "name": "Song Guo（郭嵩）",
+      "department": "Computer Science and Engineering",
+      "role": "Chair Professor；Associate Head（Research & Knowledge Transfer）",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "网络与系统",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "Large language model",
+        "Physical AI",
+        "Machine learning systems",
+        "World models",
+        "Embodied AI"
+      ],
+      "summary": "研究大语言模型、Physical AI与机器学习系统，涉及机器人感知、推理和规划。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+      "sourceIds": [
+        "wide-hkust-song-guo-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-song-guo-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-song-guo-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-zihan-zhang",
+      "universityId": "hkust",
+      "name": "Zihan Zhang（張子函）",
+      "department": "Computer Science and Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Reinforcement learning",
+        "Online learning",
+        "Game theory",
+        "Convex optimization"
+      ],
+      "summary": "研究机器学习理论，重点包括强化学习、在线学习、博弈论和凸优化。",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz",
+      "sourceIds": [
+        "wide-hkust-zihan-zhang-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-zihan-zhang-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-cse-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-zihan-zhang-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-shaojie-shen",
+      "universityId": "hkust",
+      "name": "Shaojie Shen（沈劭劼）",
+      "department": "Electronic and Computer Engineering",
+      "role": "Associate Professor；Director, HKUST-DJI Joint Innovation Laboratory",
+      "topics": [
+        "机器人与控制",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "Robotics",
+        "Unmanned aerial vehicles",
+        "Estimation and control for aerial robots",
+        "Sensor fusion",
+        "Autonomous navigation",
+        "Field robotics"
+      ],
+      "summary": "研究无人机和机器人，关注复杂环境中的状态估计、传感融合、定位建图与自主导航。",
+      "profileUrl": "https://ece.hkust.edu.hk/eeshaojie",
+      "sourceIds": [
+        "wide-hkust-shaojie-shen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-shaojie-shen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-ece-research"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-shaojie-shen-profile"
+      ]
+    },
+    {
+      "id": "wide-hkust-yajing-shen",
+      "universityId": "hkust",
+      "name": "Yajing Shen（申亞京）",
+      "department": "Electronic and Computer Engineering",
+      "role": "Professor；Director of Center for Smart Manufacturing",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "Biomedical robot and device",
+        "Human-robot interaction",
+        "Robot manipulation and control",
+        "Miniature intelligent system"
+      ],
+      "summary": "研究生物医学机器人、人机交互、机器人操作控制与微型智能系统。",
+      "profileUrl": "https://ece.hkust.edu.hk/eeyajing",
+      "sourceIds": [
+        "wide-hkust-yajing-shen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkust-yajing-shen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkust-ece-research"
+      ],
+      "keywordSourceIds": [
+        "wide-hkust-yajing-shen-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-yiding-ji",
+      "universityId": "hkustgz",
+      "name": "Yiding Ji（季一丁）",
+      "department": "Systems Hub / Robotics and Autonomous Systems Thrust",
+      "role": "Assistant Professor；个人页另列HKUST ECE affiliation",
+      "topics": [
+        "机器人与控制",
+        "机器学习",
+        "理论与优化",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Control and decision making",
+        "Formal methods",
+        "Discrete event systems",
+        "Trustworthy machine learning",
+        "Cyber physical systems",
+        "Robotic planning and control",
+        "Industrial automation"
+      ],
+      "summary": "研究控制与决策、形式化方法和可信机器学习，并应用于机器人规划、自动驾驶及工业自动化。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/jiyiding/",
+      "sourceIds": [
+        "wide-hkustgz-yiding-ji-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-yiding-ji-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-roas"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-yiding-ji-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-lei-chen",
+      "universityId": "hkustgz",
+      "name": "Lei Chen（陈雷）",
+      "department": "Information Hub / Artificial Intelligence Thrust",
+      "role": "Chair Professor；Dean of Information Hub",
+      "topics": [
+        "人工智能",
+        "数据挖掘",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Data management",
+        "Database systems",
+        "Data-driven AI",
+        "Knowledge graphs",
+        "Crowdsourcing",
+        "Spatiotemporal data"
+      ],
+      "summary": "研究数据管理和数据库系统，涉及数据驱动AI、知识图谱、众包与时空数据。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/Chenlei/",
+      "sourceIds": [
+        "wide-hkustgz-lei-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-lei-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-ai"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-lei-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-haizhou-li",
+      "universityId": "cuhksz",
+      "name": "Haizhou Li",
+      "department": "School of Artificial Intelligence",
+      "role": "X.Q. Deng Presidential Chair Professor；Dean of School of Artificial Intelligence",
+      "topics": [
+        "自然语言处理",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Speech information processing",
+        "Natural language processing",
+        "Neuromorphic computing"
+      ],
+      "summary": "研究语音信息处理、自然语言处理和神经形态计算。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/102",
+      "sourceIds": [
+        "wide-cuhksz-haizhou-li-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-haizhou-li-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-haizhou-li-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-tsung-hui-chang",
+      "universityId": "cuhksz",
+      "name": "Tsung-Hui Chang",
+      "department": "School of Artificial Intelligence",
+      "role": "Professor；Associate Dean（Education）",
+      "topics": [
+        "机器学习",
+        "理论与优化",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Signal processing",
+        "Optimization methods",
+        "Wireless communications",
+        "Machine learning"
+      ],
+      "summary": "研究无线通信及机器学习中的信号处理和优化方法。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/83",
+      "sourceIds": [
+        "wide-cuhksz-tsung-hui-chang-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-tsung-hui-chang-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-tsung-hui-chang-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-jun-ma",
+      "universityId": "hkustgz",
+      "name": "Jun Ma",
+      "department": "Systems Hub / Robotics and Autonomous Systems Thrust",
+      "role": "Associate Professor；校内个人页列Associate Thrust Head",
+      "topics": [
+        "机器人与控制",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Robotics",
+        "Autonomous driving",
+        "Embodied AI"
+      ],
+      "summary": "研究机器人、自动驾驶和具身智能，并任智能自动驾驶中心主任。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/junma/people-page.html",
+      "sourceIds": [
+        "wide-hkustgz-jun-ma-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-jun-ma-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-roas"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-jun-ma-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-dengbo-he",
+      "universityId": "hkustgz",
+      "name": "Dengbo He",
+      "department": "Systems Hub / Intelligent Transportation Thrust；Robotics and Autonomous Systems Thrust",
+      "role": "Assistant Professor；Director, Human-Integrated Systems Lab",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "Teleoperation of robots",
+        "Human-robot interaction",
+        "Driving automation and traffic safety",
+        "Motion sickness",
+        "Mixed traffic",
+        "Driver monitoring systems"
+      ],
+      "summary": "研究机器人遥操作、人机交互、自动驾驶安全和驾驶员监测，关注人的状态与行为。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/hedengbo/index.html",
+      "sourceIds": [
+        "wide-hkustgz-dengbo-he-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-dengbo-he-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-roas"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-dengbo-he-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-yuzhe-ma",
+      "universityId": "hkustgz",
+      "name": "Yuzhe Ma",
+      "department": "Microelectronics Thrust",
+      "role": "Assistant Professor；Associate Thrust Head（Research）",
+      "topics": [
+        "机器学习",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Electronic design automation",
+        "Agile VLSI design methodologies",
+        "Machine learning-aided VLSI design",
+        "Hardware-friendly machine learning"
+      ],
+      "summary": "研究电子设计自动化与机器学习交叉，涉及敏捷芯片设计、机器学习辅助VLSI设计和适合硬件的学习算法。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/yuzhema/",
+      "sourceIds": [
+        "wide-hkustgz-yuzhe-ma-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-yuzhe-ma-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-central"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-yuzhe-ma-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-jiang-xu",
+      "universityId": "hkustgz",
+      "name": "Jiang Xu（须江）",
+      "department": "Microelectronics Thrust",
+      "role": "Professor and Department Head of Microelectronics Thrust（个人页原文）",
+      "topics": [
+        "人工智能",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Electronic-photonic integrated circuit",
+        "AI system",
+        "Multiprocessor system-on-chip",
+        "Hardware/software codesign",
+        "Interconnection network",
+        "Low-power embedded system"
+      ],
+      "summary": "研究AI系统和软硬件协同设计，涵盖光电集成、多核片上系统、互连网络及低功耗嵌入式系统。",
+      "profileUrl": "https://personal.hkust-gz.edu.cn/jiangxu/",
+      "sourceIds": [
+        "wide-hkustgz-jiang-xu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-jiang-xu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-central"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-jiang-xu-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-zhiquan-tom-luo",
+      "universityId": "cuhksz",
+      "name": "Zhiquan Tom Luo",
+      "department": "School of Artificial Intelligence",
+      "role": "X.Q. Deng Presidential Chair Professor；Vice President（Academic）",
+      "topics": [
+        "机器学习",
+        "理论与优化",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Optimization methods for big data analytics",
+        "Complexity and computational issues in signal processing",
+        "Digital communication"
+      ],
+      "summary": "研究大数据分析优化，以及信号处理和数字通信中的计算复杂性问题。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/92",
+      "sourceIds": [
+        "wide-cuhksz-zhiquan-tom-luo-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-zhiquan-tom-luo-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-zhiquan-tom-luo-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-bing-yi-jing",
+      "universityId": "cuhksz",
+      "name": "Bing-Yi Jing",
+      "department": "School of Artificial Intelligence",
+      "role": "Duan Family Presidential Chair Professor；Associate Dean（School Development & Student Affairs）",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数据挖掘",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Artificial intelligence",
+        "Data science",
+        "Network data analysis",
+        "Bioinformatics",
+        "Financial econometrics",
+        "Probability and statistics"
+      ],
+      "summary": "研究人工智能与数据科学中的统计方法，涉及网络数据、生物信息和金融计量。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/162",
+      "sourceIds": [
+        "wide-cuhksz-bing-yi-jing-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-bing-yi-jing-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-bing-yi-jing-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-yangsheng-xu",
+      "universityId": "cuhksz",
+      "name": "Yangsheng Xu",
+      "department": "School of Artificial Intelligence",
+      "role": "Presidential Chair Professor；President",
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Robotics",
+        "Intelligent systems and control",
+        "Space robotics",
+        "Service robotics",
+        "Wearable interface",
+        "Intelligent vehicles",
+        "Self-learning systems"
+      ],
+      "summary": "研究机器人和智能控制系统，涵盖空间与服务机器人、可穿戴接口、智能车辆和自学习系统。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/115",
+      "sourceIds": [
+        "wide-cuhksz-yangsheng-xu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-yangsheng-xu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-yangsheng-xu-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-satoshi-nakamura",
+      "universityId": "cuhksz",
+      "name": "Satoshi Nakamura",
+      "department": "School of Artificial Intelligence",
+      "role": "Presidential Chair Professor",
+      "topics": [
+        "自然语言处理",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Spoken language translation",
+        "Machine translation",
+        "Spoken dialogue systems",
+        "Speech processing",
+        "Human-AI interaction"
+      ],
+      "summary": "研究语音翻译、机器翻译与口语对话系统，以及人和AI的交互。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/104",
+      "sourceIds": [
+        "wide-cuhksz-satoshi-nakamura-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-satoshi-nakamura-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-satoshi-nakamura-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-zeyu-wang",
+      "universityId": "hkustgz",
+      "name": "Zeyu Wang",
+      "department": "Information Hub / Computational Media and Arts Thrust；Artificial Intelligence Thrust",
+      "role": "Assistant Professor；CMA Postgraduate Programs Coordinator；AI joint appointment",
+      "topics": [
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Computer graphics",
+        "Human-computer interaction",
+        "Artificial intelligence",
+        "Digital cultural heritage"
+      ],
+      "summary": "研究计算机图形学、人机交互与人工智能，应用于数字文化遗产。",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/zeyu-wang/",
+      "sourceIds": [
+        "wide-hkustgz-zeyu-wang-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-zeyu-wang-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-zeyu-wang-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-mingming-fan",
+      "universityId": "hkustgz",
+      "name": "Mingming Fan",
+      "department": "Information Hub / Computational Media and Arts Thrust；Internet of Things Thrust",
+      "role": "Associate Professor；个人页另列HKUST ISD joint appointment",
+      "topics": [
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Human-computer interaction",
+        "Human-AI interaction",
+        "VR/AR/MR interactive systems",
+        "Learning and education",
+        "Aging and accessibility"
+      ],
+      "summary": "研究人机与人智交互，以及VR/AR/MR交互系统，用于教育、老龄化和无障碍场景。",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/mingming-fan-3/",
+      "sourceIds": [
+        "wide-hkustgz-mingming-fan-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-mingming-fan-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-mingming-fan-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-xin-tong",
+      "universityId": "hkustgz",
+      "name": "Xin Tong",
+      "department": "Information Hub / Computational Media and Arts Thrust",
+      "role": "Assistant Professor；另在Duke Kunshan University兼任Adjunct Assistant Professor",
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "Human-computer interaction",
+        "Human-AI collaboration",
+        "Generative AI and LLM",
+        "Healthcare and wellbeing",
+        "Accessibility",
+        "Digital cultural heritage"
+      ],
+      "summary": "研究人智协作与生成式AI，结合VR/AR用于健康、无障碍和数字文化遗产。",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/tong-xin/",
+      "sourceIds": [
+        "wide-hkustgz-xin-tong-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-xin-tong-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-xin-tong-profile"
+      ]
+    },
+    {
+      "id": "wide-hkustgz-huamin-qu",
+      "universityId": "hkustgz",
+      "name": "Huamin Qu",
+      "department": "Information Hub / Computational Media and Arts Thrust（官网Regular分类）；HKUST CSE",
+      "role": "Chair Professor（CMA官方个人页与Regular目录）",
+      "topics": [
+        "人工智能",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Visualization",
+        "Human-computer interaction",
+        "Urban informatics",
+        "Social network analysis",
+        "Text visualization",
+        "Explainable AI"
+      ],
+      "summary": "研究可视化、人机交互与可解释AI，涉及城市信息、社交网络和文本数据。",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/huamin-qu-5/",
+      "sourceIds": [
+        "wide-hkustgz-huamin-qu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-hkustgz-huamin-qu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "keywordSourceIds": [
+        "wide-hkustgz-huamin-qu-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-tongxin-li",
+      "universityId": "cuhksz",
+      "name": "Tongxin Li",
+      "department": "School of Data Science",
+      "role": "Assistant Professor（Biography写tenure-track）",
+      "topics": [
+        "机器学习",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "Trustworthy machine learning",
+        "Online learning",
+        "Power systems",
+        "Smart grid and control",
+        "Sustainability"
+      ],
+      "summary": "研究可信机器学习、在线学习、控制与优化，面向电力系统和智能电网。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/632",
+      "sourceIds": [
+        "wide-cuhksz-tongxin-li-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-tongxin-li-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sds"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-tongxin-li-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-xiaomeng-chen",
+      "universityId": "cuhksz",
+      "name": "Xiaomeng Chen",
+      "department": "School of Science and Engineering",
+      "role": "Assistant Professor（个人页写2026年加入CUHK-Shenzhen）",
+      "topics": [
+        "机器学习",
+        "机器人与控制",
+        "理论与优化",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Distributed optimization and learning",
+        "Game theory",
+        "Trustworthy and efficient multi-agent algorithms"
+      ],
+      "summary": "研究分布式优化与学习、博弈论，以及可信高效的多智能体算法。",
+      "profileUrl": "https://myweb.cuhk.edu.cn/chenxiaomeng/",
+      "sourceIds": [
+        "wide-cuhksz-xiaomeng-chen-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-xiaomeng-chen-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sse-c"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-xiaomeng-chen-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-rui-huang",
+      "universityId": "cuhksz",
+      "name": "Rui Huang",
+      "department": "School of Science and Engineering；School of Artificial Intelligence",
+      "role": "Associate Professor；SSE & SAI Joint Appointment",
+      "topics": [
+        "计算机视觉",
+        "机器学习",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "Computer vision",
+        "Image processing",
+        "Pattern recognition",
+        "Machine learning",
+        "Intelligent video analysis",
+        "Robotic vision navigation",
+        "Autonomous driving"
+      ],
+      "summary": "研究视觉与模式识别，近期侧重智能视频分析、机器人视觉导航和自动驾驶。",
+      "profileUrl": "https://sai.cuhk.edu.cn/en/teacher/172",
+      "sourceIds": [
+        "wide-cuhksz-rui-huang-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-rui-huang-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sai"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-rui-huang-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-li-qiu",
+      "universityId": "cuhksz",
+      "name": "Li Qiu",
+      "department": "School of Science and Engineering",
+      "role": "Presidential Chair Professor（深圳）；HKUST ECE Emeritus Professor（另一校身份）",
+      "topics": [
+        "机器人与控制",
+        "理论与优化",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Control and optimization of complex network systems",
+        "System and control theory",
+        "Optimization theory",
+        "Manufacturing industry",
+        "Energy systems"
+      ],
+      "summary": "研究复杂网络系统的控制与优化，以及控制理论在制造和能源系统中的应用。",
+      "profileUrl": "https://sse.cuhk.edu.cn/en/faculty/qiuli",
+      "sourceIds": [
+        "wide-cuhksz-li-qiu-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-li-qiu-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sse-ece"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-li-qiu-profile"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-ruoyu-sun",
+      "universityId": "cuhksz",
+      "name": "Ruoyu Sun",
+      "department": "School of Data Science",
+      "role": "Associate Professor",
+      "topics": [
+        "机器学习",
+        "理论与优化",
+        "人工智能",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "Deep learning theory",
+        "Generative models",
+        "Large-scale optimization",
+        "Learning to optimize",
+        "Graph neural nets",
+        "AI for communication",
+        "Information theory"
+      ],
+      "summary": "研究深度学习理论、生成模型与大规模优化，涉及图神经网络和通信中的AI方法。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/628",
+      "sourceIds": [
+        "wide-cuhksz-ruoyu-sun-profile"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cuhksz-ruoyu-sun-profile"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhksz-sds"
+      ],
+      "keywordSourceIds": [
+        "wide-cuhksz-ruoyu-sun-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-qing-li",
+      "universityId": "polyu",
+      "name": "Qing Li",
+      "department": "Department of Computing",
+      "role": "Chair Professor of Data Science and Head",
+      "topics": [
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "Multi-modal data management",
+        "Data warehousing and mining",
+        "Social media and Web services",
+        "e-Learning Technologies"
+      ],
+      "summary": "个人主页列出多模态数据管理、数据仓库与挖掘、社交媒体及 Web 服务、电子学习技术。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+      "sourceIds": [
+        "wide-polyu-qing-li-profile",
+        "wide-polyu-qing-li-home"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-qing-li-profile",
+          "wide-polyu-qing-li-home"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-qing-li-profile",
+        "wide-polyu-qing-li-home"
+      ]
+    },
+    {
+      "id": "wide-polyu-changwen-chen",
+      "universityId": "polyu",
+      "name": "Changwen Chen",
+      "department": "Department of Computing",
+      "role": "Chair Professor of Visual Computing; Interim Dean of Faculty of Computer and Mathematical Sciences",
+      "topics": [
+        "人工智能",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "AI-empowered multimedia content understanding and generation",
+        "long video reasoning",
+        "open-vocabulary scene graph generation"
+      ],
+      "summary": "官方实验室主页展示 AI 驱动的多媒体内容理解与生成，以及长视频推理、开放词汇场景图生成相关工作。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+      "sourceIds": [
+        "wide-polyu-changwen-chen-profile",
+        "wide-polyu-changwen-chen-lab"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-changwen-chen-profile",
+          "wide-polyu-changwen-chen-lab"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-changwen-chen-profile",
+        "wide-polyu-changwen-chen-lab"
+      ]
+    },
+    {
+      "id": "wide-polyu-hongxia-yang",
+      "universityId": "polyu",
+      "name": "Hongxia Yang",
+      "department": "Department of Computing",
+      "role": "Chair Professor of Generative Artificial Intelligence; Executive Director of PolyU Academy for AI",
+      "topics": [
+        "人工智能",
+        "自然语言处理",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Generative Artificial Intelligence",
+        "foundation models",
+        "Large Language Models"
+      ],
+      "summary": "官方个人页确认生成式人工智能讲座教授身份，并说明其大语言模型及基础模型团队经历。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+      "sourceIds": [
+        "wide-polyu-hongxia-yang-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-hongxia-yang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-hongxia-yang-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-lei-zhang",
+      "universityId": "polyu",
+      "name": "Lei Zhang John",
+      "department": "Department of Computing",
+      "role": "Chair Professor of Computer Vision and Image Analysis",
+      "topics": [
+        "计算机视觉",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Image and Video Processing",
+        "Computer Vision",
+        "Pattern Recognition",
+        "Biometrics"
+      ],
+      "summary": "官方个人页列出图像与视频处理、计算机视觉、模式识别及生物特征识别。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+      "sourceIds": [
+        "wide-polyu-lei-zhang-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-lei-zhang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-lei-zhang-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-wenjie-li",
+      "universityId": "polyu",
+      "name": "Wenjie Li Maggie",
+      "department": "Department of Computing",
+      "role": "Professor",
+      "topics": [
+        "自然语言处理",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "natural language processing",
+        "text mining",
+        "social media analysis",
+        "information retrieval",
+        "information extraction",
+        "summarization"
+      ],
+      "summary": "官方个人页列出自然语言处理、文本挖掘、社交媒体分析、信息检索、信息抽取及摘要。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+      "sourceIds": [
+        "wide-polyu-wenjie-li-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-wenjie-li-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-wenjie-li-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-chenguang-yang",
+      "universityId": "polyu",
+      "name": "Chenguang Yang Charlie",
+      "department": "Department of Computing",
+      "role": "Professor",
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "embodied AI for robot learning",
+        "human robot interaction",
+        "intelligent system design"
+      ],
+      "summary": "官方个人页说明当前聚焦用于机器人学习的具身 AI、人机交互和智能系统设计。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+      "sourceIds": [
+        "wide-polyu-chenguang-yang-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-chenguang-yang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-chenguang-yang-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-di-jiang",
+      "universityId": "polyu",
+      "name": "Di Jiang",
+      "department": "Department of Computing",
+      "role": "Associate Professor",
+      "topics": [
+        "自然语言处理",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "speech processing",
+        "natural language processing",
+        "federated learning",
+        "FinTech",
+        "elderly care",
+        "longevity medicine"
+      ],
+      "summary": "官方个人页列出语音处理、自然语言处理及联邦学习，应用包含金融科技、长者照护及长寿医学。",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+      "sourceIds": [
+        "wide-polyu-di-jiang-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-comp"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-di-jiang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-di-jiang-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-kin-man-lam",
+      "universityId": "polyu",
+      "name": "Kin-Man Lam Kenneth",
+      "department": "Department of Electrical and Electronic Engineering",
+      "role": "Professor",
+      "topics": [
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "human face recognition",
+        "image and video processing",
+        "computer vision"
+      ],
+      "summary": "官方个人页列出人脸识别、图像与视频处理及计算机视觉。",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
+      "sourceIds": [
+        "wide-polyu-kin-man-lam-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-eee"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-kin-man-lam-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-kin-man-lam-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-haibo-hu",
+      "universityId": "polyu",
+      "name": "Haibo Hu",
+      "department": "Department of Electrical and Electronic Engineering",
+      "role": "Professor; Associate Head (Learning and Teaching)",
+      "topics": [
+        "机器学习",
+        "网络与系统",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "data privacy",
+        "IoT and network security",
+        "adversarial machine learning",
+        "mobile and spatiotemporal databases"
+      ],
+      "summary": "官方个人页列出数据隐私、物联网与网络安全、对抗机器学习、移动及时空数据库。",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/",
+      "sourceIds": [
+        "wide-polyu-haibo-hu-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-eee"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-haibo-hu-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-haibo-hu-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-henry-chu",
+      "universityId": "polyu",
+      "name": "Henry Kar Hang Chu",
+      "department": "Department of Mechanical Engineering",
+      "role": "Associate Professor",
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "Soft Continuum Robots",
+        "Vision-based Control and Automation",
+        "Artificial Intelligence",
+        "Collaborative Robots",
+        "Mechatronic Systems"
+      ],
+      "summary": "官方个人页列出软体连续机器人、视觉控制与自动化、人工智能、协作机器人及机电系统。",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/chu-kar-hang-henry-prof/",
+      "sourceIds": [
+        "wide-polyu-henry-chu-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-me"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-henry-chu-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-henry-chu-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-yifu-tao",
+      "universityId": "polyu",
+      "name": "Yifu Tao Ethan",
+      "department": "Department of Mechanical Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器人与控制",
+        "计算机视觉",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Robotic Perception",
+        "SLAM",
+        "Sensor Fusion",
+        "Uncertainty Estimation",
+        "3D reconstruction",
+        "Deep Learning for Robotics"
+      ],
+      "summary": "官方个人页聚焦移动机器人感知、SLAM、三维重建、传感器融合与不确定性；包括视觉及 LiDAR 的大范围室外重建。",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+      "sourceIds": [
+        "wide-polyu-yifu-tao-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-me"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-yifu-tao-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-yifu-tao-profile"
+      ]
+    },
+    {
+      "id": "wide-polyu-david-navarro",
+      "universityId": "polyu",
+      "name": "David Navarro",
+      "department": "Department of Mechanical Engineering",
+      "role": "Associate Professor",
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "visuomotor skills",
+        "deformable-object manipulation",
+        "mobile manipulation",
+        "long-horizon task execution",
+        "cooperative multi-robot systems",
+        "feedback control"
+      ],
+      "summary": "官方个人页研究机器人视觉运动技能，结合感知、学习、规划与反馈控制；细分方向包括可变形物体操作、移动操作、长时程任务及多机器人协作。",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/",
+      "sourceIds": [
+        "wide-polyu-david-navarro-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-polyu-me"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-polyu-david-navarro-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-polyu-david-navarro-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-antoni-chan",
+      "universityId": "cityu",
+      "name": "Antoni Bert Chan",
+      "department": "Department of Computer Science",
+      "role": "Professor; Associate Dean of College of Computing",
+      "topics": [
+        "计算机视觉",
+        "机器学习",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Computer Vision",
+        "Machine Learning",
+        "Explainable AI",
+        "Eye Gaze Analysis",
+        "Pattern Recognition",
+        "Computer Audition",
+        "Music Information Retrieval"
+      ],
+      "summary": "官方 Scholars 个人页列出计算机视觉、机器学习、可解释 AI、眼动分析、模式识别及音频信息分析。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/abchan/",
+      "sourceIds": [
+        "wide-cityu-antoni-chan-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-antoni-chan-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-antoni-chan-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-junhui-hou",
+      "universityId": "cityu",
+      "name": "Junhui Hou",
+      "department": "Department of Computer Science",
+      "role": "Professor",
+      "topics": [
+        "计算机视觉",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "Multimedia Signal Processing",
+        "Geometric Modeling",
+        "Computer Vision",
+        "Applied Machine Learning",
+        "3D/4D Generation",
+        "neural spatial computing"
+      ],
+      "summary": "官方个人页列出多媒体信号处理、几何建模、计算机视觉、应用机器学习、3D/4D 生成，并说明近期关注神经空间计算。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/junhuhou/",
+      "sourceIds": [
+        "wide-cityu-junhui-hou-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-junhui-hou-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-junhui-hou-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-jing-liao",
+      "universityId": "cityu",
+      "name": "Jing Liao",
+      "department": "Department of Computer Science",
+      "role": "Associate Professor",
+      "topics": [
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "Computer Graphics",
+        "Computer Vision",
+        "Image/Video Processing",
+        "Digital Art",
+        "Computational Photography"
+      ],
+      "summary": "官方个人页列出计算机图形学、计算机视觉、图像视频处理、数字艺术和计算摄影。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/jingliao/",
+      "sourceIds": [
+        "wide-cityu-jing-liao-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-jing-liao-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-jing-liao-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-cong-wang",
+      "universityId": "cityu",
+      "name": "Cong Wang",
+      "department": "Department of Computer Science",
+      "role": "Chair Professor; Head (CS)",
+      "topics": [
+        "网络与系统",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "data security and privacy",
+        "AI systems and security",
+        "blockchain and decentralized application security"
+      ],
+      "summary": "官方个人页列出数据安全与隐私、AI 系统及其安全、区块链与去中心化应用安全。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/congwang/",
+      "sourceIds": [
+        "wide-cityu-cong-wang-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-cong-wang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-cong-wang-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-xiangyu-zhao",
+      "universityId": "cityu",
+      "name": "Xiangyu Zhao",
+      "department": "Department of Data Science",
+      "role": "Associate Professor",
+      "topics": [
+        "数据挖掘",
+        "机器学习",
+        "自然语言处理",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Recommender System",
+        "Information Retrieval",
+        "Large Language Model and Agents",
+        "Trustworthy AI",
+        "AutoML",
+        "Reinforcement Learning",
+        "Multimodal ML"
+      ],
+      "summary": "官方个人页列出推荐、检索、广告、大语言模型与智能体、可信 AI、自动机器学习、强化学习及多模态学习。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/xianzhao/",
+      "sourceIds": [
+        "wide-cityu-xiangyu-zhao-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-xiangyu-zhao-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-xiangyu-zhao-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-hing-cheung-so",
+      "universityId": "cityu",
+      "name": "Hing Cheung So",
+      "department": "Department of Electrical Engineering",
+      "role": "Professor",
+      "topics": [
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "statistical signal processing",
+        "fast and adaptive algorithms",
+        "signal detection",
+        "robust estimation",
+        "source localization",
+        "sparse approximation"
+      ],
+      "summary": "官方个人页列出统计信号处理、快速自适应算法、信号检测、鲁棒估计、信源定位及稀疏逼近。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/ithcso/",
+      "sourceIds": [
+        "wide-cityu-hing-cheung-so-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-cityu-ee"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-hing-cheung-so-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-hing-cheung-so-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-ray-cheung",
+      "universityId": "cityu",
+      "name": "Chak Chung Ray Cheung",
+      "department": "Department of Electrical Engineering; Department of Computer Science (Affiliate)",
+      "role": "Professor (Electrical Engineering); Professor, Affiliate (Computer Science); Associate Provost (Digital Learning)",
+      "topics": [
+        "网络与系统",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "AIoT designs",
+        "reconfigurable trusted computing",
+        "VLSI/FPGA circuit designs",
+        "cryptographic hardware",
+        "System-on-Chip architecture",
+        "embedded systems"
+      ],
+      "summary": "官方个人页聚焦 AIoT、可重构可信计算、FPGA/VLSI、密码硬件、片上系统及嵌入式系统。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/racheung/",
+      "sourceIds": [
+        "wide-cityu-ray-cheung-profile"
+      ],
+      "directorySourceIds": [
+        "wide-dir-cityu-ee"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-ray-cheung-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-ray-cheung-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-wenbin-kang",
+      "universityId": "cityu",
+      "name": "Wenbin Kang",
+      "department": "Department of Mechanical Engineering",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器人与控制",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "Small-scale Robotics",
+        "Sensors and Actuators",
+        "AI for Robotics",
+        "Piezoelectrics and Ferroelectrics"
+      ],
+      "summary": "官方个人页列出小尺度机器人、传感器与执行器、机器人 AI、压电与铁电材料，并关联医学机器人应用。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/wenbkang/",
+      "sourceIds": [
+        "wide-cityu-wenbin-kang-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-wenbin-kang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-wenbin-kang-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-changhong-linghu",
+      "universityId": "cityu",
+      "name": "Changhong Linghu",
+      "department": "Department of Mechanical Engineering",
+      "role": "Presidential Assistant Professor",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "Smart Interfacial Science and Engineering",
+        "collaborative/climbing robots",
+        "perching aerial vehicles",
+        "flexible/wearable devices",
+        "mechanical metamaterials"
+      ],
+      "summary": "官方个人页研究跨力学、材料与机器人，包含智能界面科学、协作与攀爬机器人、栖停飞行器、柔性可穿戴器件及机械超材料。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/clinghu/",
+      "sourceIds": [
+        "wide-cityu-changhong-linghu-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-changhong-linghu-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-changhong-linghu-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-mengze-wang",
+      "universityId": "cityu",
+      "name": "Mengze Wang",
+      "department": "Department of Mechanical Engineering",
+      "role": "Presidential Assistant Professor",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "data assimilation",
+        "nonlinear optimization",
+        "machine learning with limited data",
+        "high-dimensional dynamical systems",
+        "extreme events"
+      ],
+      "summary": "官方个人页研究高维动力系统的数据同化与机器学习，方向包括非线性优化、小数据机器学习及复杂工程极端事件。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/mwang669/",
+      "sourceIds": [
+        "wide-cityu-mengze-wang-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-mengze-wang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-mengze-wang-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-yu-yang",
+      "universityId": "cityu",
+      "name": "Yu Yang",
+      "department": "Department of Data Science",
+      "role": "Associate Professor",
+      "topics": [
+        "数据挖掘",
+        "理论与优化",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "graphs, sets and sequences",
+        "quantum algorithms for Data Markets",
+        "Data-Driven Operations Management",
+        "AI Empowered Digital Medicine"
+      ],
+      "summary": "官方个人页列出图、集合和序列等组合结构数据挖掘、数据市场量子算法、数据驱动运营及 AI 数字医学。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/yuyang/",
+      "sourceIds": [
+        "wide-cityu-yu-yang-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-yu-yang-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-yu-yang-profile"
+      ]
+    },
+    {
+      "id": "wide-cityu-nan-guan",
+      "universityId": "cityu",
+      "name": "Nan Guan",
+      "department": "Department of Computer Science",
+      "role": "Professor; Associate Head (CS)",
+      "topics": [
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "real-time systems",
+        "embedded systems",
+        "cyber-physical systems",
+        "internet-of-things",
+        "end-device computing"
+      ],
+      "summary": "官方个人页列出实时系统、嵌入式系统、信息物理系统和物联网，并说明参与物联网与终端计算系统项目。",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/nanguan/",
+      "sourceIds": [
+        "wide-cityu-nan-guan-profile"
+      ],
+      "directorySourceIds": [],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "wide-cityu-nan-guan-profile"
+        ]
+      },
+      "keywordSourceIds": [
+        "wide-cityu-nan-guan-profile"
+      ]
+    }
+  ],
+  "accessFailures": [
+    {
+      "url": "https://ece.hku.hk/people/",
+      "checkedAt": "2026-10-26",
+      "error": "首次open超时；随后同URL重试成功。",
+      "resolved": true
+    },
+    {
+      "url": "https://ece.hku.hk/people/chesi/",
+      "checkedAt": "2026-10-26",
+      "error": "click取得页面元数据后，open正文超时；待重试。",
+      "resolved": false
+    },
+    {
+      "url": "https://www.cs.hku.hk/~tyu",
+      "checkedAt": "2026-10-26",
+      "error": "个人主页跳转至https://ai.hku.hk/~tyu后超时；官方院系个人页仅含任职未含研究方向，暂不计入faculty。",
+      "resolved": false
+    },
+    {
+      "url": "https://ece.hku.hk/people/taoliu/",
+      "checkedAt": "2026-10-26",
+      "error": "click取得页面元数据后，open正文超时；待重试。",
+      "resolved": false
+    },
+    {
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/chen-ben-m/",
+      "checkedAt": "2026-10-26",
+      "error": "尝试的非标准个人页路径不可访问；通过官方搜索定位并读取chen-benmei，已解决。",
+      "resolved": true
+    },
+    {
+      "url": "https://www.ee.cuhk.edu.hk/en-gb/people-4/academic-staff/professors/82-prof-hongsheng-li",
+      "checkedAt": "2026-10-26",
+      "error": "两次open超时；研究方向已改从官方research.cuhk.edu.hk个人页正文核实。",
+      "resolved": false
+    },
+    {
+      "url": "https://explore.ee.cuhk.edu.hk/en-gb/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "error": "502 Bad Gateway；转而读取官方研究门户EE组织及师资入口。",
+      "resolved": false
+    },
+    {
+      "url": "https://www.ee.cuhk.edu.hk/en-gb/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "error": "open超时；本轮未读到该目录正文。",
+      "resolved": false
+    },
+    {
+      "url": "https://mech.hku.hk/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "error": "不可访问；已独立读取机械系Peng Lu官方个人页，但未核实这一路径为目录。",
+      "resolved": false
+    },
+    {
+      "url": "https://mech.hku.hk/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "error": "不可访问；未将该候选目录作为已读来源。",
+      "resolved": false
+    },
+    {
+      "url": "https://ece.hkust.edu.hk/faculty",
+      "universityId": "hkust",
+      "checkedAt": "2026-10-26",
+      "reason": "web open返回Internal Error / URL not accessible；未使用浏览器或其他绕过方式。"
+    },
+    {
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/faculty-profile/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "首次web open正文超时；搜索结果提供名单但未作为个人研究证据。"
+    },
+    {
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open仅返回JavaScript壳或一行，未获得个人研究正文；未使用浏览器绕过。"
+    },
+    {
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open仅返回JavaScript壳或一行，未获得个人研究正文；未使用浏览器绕过。"
+    },
+    {
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open仅返回JavaScript壳或一行，未获得个人研究正文；未使用浏览器绕过。"
+    },
+    {
+      "url": "https://mics.hkust-gz.edu.cn/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "官方Microelectronics学域首页web返回403，未绕过。"
+    },
+    {
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/teacher/295",
+      "universityId": "cuhksz",
+      "checkedAt": "2026-10-26",
+      "reason": "Xiaomeng Chen项目站个人页web open超时，暂未计入；拟读校内个人页或学院页。"
+    },
+    {
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/roas/thrust-leadership/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open返回500；Jun Ma改用成功读取的校内个人页。"
+    },
+    {
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=321",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open仅返回需要JavaScript，未从搜索摘要纳入Huangxun Chen。"
+    },
+    {
+      "url": "https://personal.hkust-gz.edu.cn/yingcongchen/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open不可访问；未纳入。"
+    },
+    {
+      "url": "https://sysh.hkust-gz.edu.cn/about-systems-hub/our-people/faculty/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open超时，正式入口未遍历。"
+    },
+    {
+      "url": "https://dsa.hkust-gz.edu.cn/",
+      "universityId": "hkustgz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open超时，DSA正式目录及其他个人页未遍历。"
+    },
+    {
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search?academic=All&category=All&class_type=All&keywords=&page=7",
+      "universityId": "cuhksz",
+      "checkedAt": "2026-10-26",
+      "reason": "初次open只返回目录前部；请求后部正文时超时，未读取完整该页。"
+    },
+    {
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search?keywords=Tongxin",
+      "universityId": "cuhksz",
+      "checkedAt": "2026-10-26",
+      "reason": "web open不可访问；个人任职与方向改由成功读取的学院个人页核实。"
+    },
+    {
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "result": "工具报告 URL is not accessible",
+      "action": "停止该路径；经正常公开搜索发现现行 academic-staff-and-teaching-staff 目录。"
+    },
+    {
+      "url": "https://www.cs.cityu.edu.hk/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "result": "首轮成功；后续按行读取 (400) Timeout fetching",
+      "action": "未重试该资源；使用不同正式公开 Scholars 研究资料。"
+    },
+    {
+      "url": "https://scholars.cityu.edu.hk/en/organisations/department-of-computer-science/persons/",
+      "checkedAt": "2026-10-26",
+      "result": "(403) Forbidden",
+      "action": "停止访问该资源，未重试、未改 URL 规避；个别正常公开官方个人页单独核查。"
+    }
+  ],
+  "exclusions": [
+    {
+      "universityId": "hku",
+      "name": "Chao Huang",
+      "reason": "现有catalog已收录，不计新增。"
+    },
+    {
+      "universityId": "hku",
+      "name": "Yizhou Yu",
+      "reason": "现有catalog已收录，不计新增。"
+    },
+    {
+      "universityId": "cuhk",
+      "name": "Sinno Jialin Pan",
+      "reason": "现有catalog已收录，不计新增。"
+    },
+    {
+      "universityId": "cuhk",
+      "name": "Chi Wing Fu",
+      "reason": "现有catalog已收录，不计新增。"
+    },
+    {
+      "universityId": "hku",
+      "name": "Tao Yu",
+      "profileUrl": "https://ai.hku.hk/index.php/people/academic-staff/tyu",
+      "reason": "官方个人页已读，只含任职而无研究方向。大学host跳转页最终指向taoyds.github.io，本轮未继续读外站，因此不计入faculty。"
+    },
+    {
+      "universityId": "hku",
+      "name": "Graziano Chesi",
+      "profileUrl": "https://ece.hku.hk/people/chesi/",
+      "reason": "已观察现任目录链接，个人页open连续超时，只有搜索摘要可见方向，故不计入已读个人页faculty。"
+    },
+    {
+      "universityId": "hku",
+      "name": "Tao Liu",
+      "profileUrl": "https://ece.hku.hk/people/taoliu/",
+      "reason": "已观察现任目录链接，个人页open正文超时；未将搜索摘要或旧个人主页结果当已核实方向。"
+    },
+    {
+      "universityId": "cuhk",
+      "name": "Jiaya Jia; Tien Tsin Wong; emeritus/adjunct entries",
+      "reason": "当前CSE目录明确列部分熟知学者为Adjunct或Emeritus，未纳入本轮现任研究教师扩充；不凭知名度或旧任职补入。"
+    },
+    {
+      "universityId": "hkust",
+      "names": [
+        "James Kwok",
+        "Ling Shi"
+      ],
+      "reason": "既有条目，不计新增。"
+    },
+    {
+      "universityId": "hkustgz",
+      "names": [
+        "Hui Xiong",
+        "Lingjie Duan"
+      ],
+      "reason": "既有条目，不计新增。"
+    },
+    {
+      "universityId": "cuhksz",
+      "names": [
+        "Shuguang Cui",
+        "Xiaoqiang Ji（冀晓强）"
+      ],
+      "reason": "既有条目，不计新增。"
+    },
+    {
+      "universityId": "hkustgz",
+      "names": [
+        "Margaret Minsky",
+        "Theo Papatheodorou",
+        "Jake Zhang",
+        "Nicolò Merendino"
+      ],
+      "reason": "CMA目录实际可见的Visiting Professor或Professor/Assistant Professor of Practice；本批不作为常规研究教师新增。"
+    },
+    {
+      "universityId": "hkustgz",
+      "names": [
+        "Xiaowen Chu",
+        "Huangxun Chen",
+        "Yingcong Chen"
+      ],
+      "reason": "仅目录或搜索命中，个人研究正文未成功读取，未计新增。"
+    },
+    {
+      "universityId": "hkustgz",
+      "names": [
+        "Hang Zhao"
+      ],
+      "reason": "实际读到校内实验室成员页及实验室研究介绍，但成员页未单列个人研究兴趣，本批保守不计入已核实个人研究正文人数。"
+    },
+    {
+      "universityId": "polyu",
+      "name": "Jiannong Cao",
+      "reason": "已有记录，不重复计入新增。"
+    },
+    {
+      "universityId": "polyu",
+      "name": "Wen-Hua Chen",
+      "reason": "已有记录，不重复计入新增。"
+    },
+    {
+      "universityId": "cityu",
+      "name": "Jun Wang",
+      "reason": "已有记录，不重复计入新增。"
+    },
+    {
+      "universityId": "cityu",
+      "name": "Chen Ma",
+      "reason": "已有记录，不重复计入新增。"
+    },
+    {
+      "universityId": "polyu",
+      "name": "Xiao Huang",
+      "reason": "已打开个人页但页面正文未列细分研究方向；本轮不以发表会议或研究摘要推断方向，因此未计新增。",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/"
+    }
+  ],
+  "collectorInputs": [
+    {
+      "name": "faculty-wide-hku-cuhk.json",
+      "sha256": "f730d2867661e37ceebea70ede2ae598103d68460c072265bcdf34cdd532a3a4"
+    },
+    {
+      "name": "faculty-wide-ust-gz-sz.json",
+      "sha256": "5e773df8a29edf89ea246da4b756c9763a0ec54ae8fe08249dc1278b7837c04e"
+    },
+    {
+      "name": "faculty-wide-polyu-cityu.json",
+      "sha256": "e1eee28385cd6fa9abaff69c792aefa3ca88fd6c8dff6f2abdcd7b0c3fe466e5"
+    }
+  ]
+}

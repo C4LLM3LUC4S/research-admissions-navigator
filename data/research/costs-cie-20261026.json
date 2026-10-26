@@ -1,0 +1,42 @@
+{
+  "checkedDate": "2026-10-26",
+  "method": "Official page bodies read; independent heuristic student task, not user feedback. Currency, unit, academic year, intake and unknown award are not merged.",
+  "sources": [
+    {"id":"cuhk-gs-studentships","url":"https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships","title":"CUHK Graduate School — Studentships","checkedAt":"2026-10-26","evidenceLevel":"official_central_financial_support","scope":"香港本部；符合条件的全日制研究型硕博，所列金额为2026/27学年","claims":["助学金适用于合资格全日制研究型研究生，结果与录取通知同时公布。页面年额HKD229,200明确属于2026/27，不改作2027/28金额。","当地合资格全日制UGC资助研究生另有学费豁免；不是所有非本地生免学费。"],"knownIssues":["没有由此确认2027/28个人资助金额、获得概率或续期。香港本部规则不继承到深圳。"]},
+    {"id":"cuhk-gs-fees","url":"https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees","title":"CUHK Graduate School — Fees","checkedAt":"2026-10-26","evidenceLevel":"official_central_fee_schedule","scope":"香港本部研究型学位学费；申请费另列","claims":["研究型学位2027/28学费为每年HKD49,500，2026/27为每年HKD47,000。","申请费每项目HKD500；页面说明已付费用不退还、不转让。"],"knownIssues":["学费不是整个学位总价。申请费行未独立标明入学轮次，保留为网页参考；不替个人判断本地豁免资格。"]},
+    {"id":"gz-scholarships-fees","url":"https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/scholarships-fees","title":"HKUST(GZ) FYTGS — Scholarships & Fees","checkedAt":"2026-10-26","evidenceLevel":"official_central_financial_support_and_fees","scope":"广州；全日制研究型硕博PGS与学费分列，2027/28起PGS学生学费另列","claims":["PGS参考月额：全日制MPhil CNY10,000最多两年，PhD CNY15,000最多四年；还须满足PGS条款。","有PGS的全日制研究型学生，2027/28及以后入学学费CNY60,000每学年；页面另列原CNY40,000、自费CNY150,000每学年和研究型申请费CNY150。"],"knownIssues":["PGS和自费价格条件不同，不据此为个人选定价格；津贴行和部分费用行未独立标明入学轮次，保留参考，正式资助结果另核。不能当香港校区费用。"]}
+  ],
+  "sourceUpdates": {
+    "cuhksz-cie": {"claims":["CIE对硕博均要求两名推荐人，且不含意向导师；成绩单需含完整记录、排名与评分说明，另备英文简历、个人陈述及适用证明。","CIE英语途径含TOEFL 79/120或4.5/6（含Home Edition）、IELTS Academic 6.5（考点/Online）、英语授课学历等，TOEFL/IELTS一般两年有效；申请费CNY600。"]}
+  },
+  "programRequirements": {
+    "cuhksz-sse-cie": [
+      {"label":"硕士：先核对本科资格","degrees":["MPhil"],"text":"CIE列二等荣誉学士、荣誉课程平均B等多条资格路径，或认可同等资格；要求理工科背景。别把荣誉等级直接换成自己学校的GPA。","action":"按港中深CIE原页核对MPhil本科及同等资格，准备评分说明","sourceIds":["cuhksz-cie"]},
+      {"label":"博士：本科和硕士路线分别核对","degrees":["PhD"],"text":"CIE列认可硕士、二等荣誉学士、荣誉课程平均B等替代路径或认可同等资格。是否被认可由学校确认，不是所有人都必须先有研究型硕士。","action":"按港中深CIE原页核对博士学历路径，不自行换算GPA或判同等资格","sourceIds":["cuhksz-cie"]},
+      {"label":"英语：别套用香港校区或其他学院","text":"CIE页列TOEFL 79/120或4.5/6（含Home Edition）、IELTS Academic 6.5（考点或Online），也有英语授课学历等途径。TOEFL/IELTS一般两年有效；具体证明、有效期与送分方式还要对照本项目原页。","action":"核对港中深CIE英语证明、接受的考试形式与有效期","sourceIds":["cuhksz-cie"]},
+      {"label":"硕博都先约两位推荐人","text":"CIE目前要求两位推荐人，且不能把意向导师列作这两位之一。推荐邀请由申请系统发出。这里不能套用香港本部博士三份推荐报告的要求。","action":"为港中深CIE准备两位非意向导师的推荐人，并在系统录入","sourceIds":["cuhksz-cie"]},
+      {"label":"把完整材料和入口对上","text":"准备学历或适用证明、完整成绩单、排名和评分说明、英语证明、英文简历与个人陈述等，按原页完整清单核对。提交后还可能补材料，入学时会核查原件。","action":"按港中深CIE完整清单整理材料，核对系统记录与入学原件要求","url":"https://pgapply.cuhk.edu.cn/","sourceIds":["cuhksz-cie"]}
+    ]
+  },
+  "programFinances": {
+    "cuhk-cse-rpg": [
+      {"id":"cuhk-rpg-tuition","kind":"tuition","label":"学费按学年算","text":"这是香港本部研究型学位年学费，不是整个学位总价。当地合资格全日制学生的豁免另有条件，不默认适用于你。","action":"核对港中文CSE入学学年的学费与自己是否适用豁免","sourceIds":["cuhk-gs-fees","CUHK-CSE-PROGRAMME"],"rates":[{"value":49500,"currency":"HKD","unit":"academic_year","basis":"academic_year","cycle":"2027/28","condition":"研究型学位年学费"},{"value":47000,"currency":"HKD","unit":"academic_year","basis":"academic_year","cycle":"2026/27","condition":"研究型学位年学费"}]},
+      {"id":"cuhk-rpg-studentship","kind":"studentship","label":"研究生助学金不是只有博士才有","text":"合资格全日制研究型硕博可获考虑，结果随录取通知公布。不要先把参考津贴当成个人已获收入，也不要直接从学费里扣掉。","action":"核对港中文CSE所选轮次的助学金金额、条件与正式资助结果","sourceIds":["cuhk-gs-studentships"],"rates":[{"value":229200,"currency":"HKD","unit":"academic_year","basis":"academic_year","cycle":"2026/27","condition":"符合条件的全日制研究生，个人是否获批另核"}]},
+      {"id":"cuhk-rpg-application-fee","kind":"application_fee","label":"申请费另算","text":"中央费用页按每个项目收取申请费。它不是学费或助学金，具体付款及不退费条件要在提交前核对。","action":"核对港中文CSE每项目申请费与付款要求","sourceIds":["cuhk-gs-fees"],"rates":[{"value":500,"currency":"HKD","unit":"application","basis":"page_reference","cycle":null,"condition":"每项目；该行未注明入学轮次"}]}
+    ],
+    "cuhksz-sse-cie": [
+      {"id":"cuhksz-cie-application-fee","kind":"application_fee","label":"CIE申请费，别与香港本部混用","text":"CIE页列不可退还的申请费。金额与香港本部不同；学费和奖助金额还没有在本条核清，不能因此填成零或认为没有资助。","action":"核对港中深CIE申请费，以及当期学费和资助的完整说明","sourceIds":["cuhksz-cie"],"rates":[{"value":600,"currency":"CNY","unit":"application","basis":"page_reference","cycle":null,"condition":"不可退还；页面该行未注明入学轮次"}]}
+    ],
+    "hkust-gz-rbm": [
+      {"id":"gz-rbm-pgs-tuition","kind":"tuition","label":"有PGS时仍有学费","text":"2027/28起，有PGS的全日制研究型新生按这档年学费。自费是不同价格条件；本页不能替你认定已经获得PGS。","action":"核对红鸟硕士正式PGS条件与所适用的年学费","sourceIds":["gz-scholarships-fees","gz-redbird"],"rates":[{"value":60000,"currency":"CNY","unit":"academic_year","basis":"intake","cycle":"2027/28","condition":"有PGS的全日制研究型新生"}]},
+      {"id":"gz-rbm-studentship","kind":"studentship","label":"自动纳入考虑，不等于已经获批","text":"红鸟页列全日制硕士资助最长24个月，无须另交PGS申请。金额是网页参考，不是个人资助通知，也不代表免学费或覆盖全部生活成本。","action":"核对红鸟硕士PGS的正式金额、持续条件和最长覆盖时间","sourceIds":["gz-redbird"],"rates":[{"value":120000,"currency":"CNY","unit":"year","basis":"page_reference","cycle":null,"condition":"全日制MPhil，最多24个月；金额段未独立注明入学轮次"}]}
+    ],
+    "hkust-gz-phd-entry": [
+      {"id":"gz-phd-tuition","kind":"tuition","label":"有PGS与自费分开看","text":"2027/28起，有PGS的全日制研究型新生适用单独学费；自费价格另列。先确定正式资助条件，再确认哪档费用与你有关，不把参考金额自动相减。","action":"核对广州博士正式资助情况、入学轮次与实际学费档位","sourceIds":["gz-scholarships-fees"],"rates":[{"value":60000,"currency":"CNY","unit":"academic_year","basis":"intake","cycle":"2027/28","condition":"有PGS的全日制研究型新生"},{"value":40000,"currency":"CNY","unit":"academic_year","basis":"page_reference","cycle":null,"condition":"页面原PGS学费行，未独立标明入学轮次；不直接当所选春季费用"},{"value":150000,"currency":"CNY","unit":"academic_year","basis":"page_reference","cycle":null,"condition":"自费研究型学位；该行未独立标明入学轮次"}]},
+      {"id":"gz-phd-studentship","kind":"studentship","degrees":["PhD"],"label":"博士PGS按月列，不当全年总额","text":"广州研究院页列全日制博士PGS最多四年，另有条款。此处保留月额，不换算成人工承诺、保证年收入或净费用。","action":"核对广州博士PGS月额、最长年限、持续条件与正式资助结果","sourceIds":["gz-scholarships-fees"],"rates":[{"value":15000,"currency":"CNY","unit":"month","basis":"page_reference","cycle":null,"condition":"全日制PhD，最多四年；金额行未独立注明入学轮次"}]},
+      {"id":"gz-phd-application-fee","kind":"application_fee","label":"研究型申请费另核","text":"这项费用针对研究型项目，不是授课型项目、访学或学费。付款前核所选学域的完整说明。","action":"核对广州博士所选学域申请费与付款要求","sourceIds":["gz-scholarships-fees"],"rates":[{"value":150,"currency":"CNY","unit":"application","basis":"page_reference","cycle":null,"condition":"研究型项目；该行未独立注明入学轮次"}]}
+    ]
+  },
+  "unverified": ["CIE当期学费和助学金金额", "CUHK香港2027/28助学金金额", "个人是否获得任何助学金或减免", "广州春季PGS学生学费的具体适用档位"],
+  "scopeNotes": ["未采用其他院系的CIE学费数字", "未用2026/27 CUHK金额填2027/28", "未做币种换算、年/月换算、学费减津贴或生活费预算", "未提交申请、资助申请或对外联系"]
+}

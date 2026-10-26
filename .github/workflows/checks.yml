@@ -1,0 +1,23 @@
+name: Data and local application checks
+on: [push, pull_request]
+jobs:
+  checks:
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check deterministic catalog and source boundaries
+        run: python scripts/build_catalog.py --check
+      - name: Check local decisions and actual callback journey
+        run: node --test tests/logic.test.cjs tests/app-flow.test.cjs tests/finance.test.cjs tests/faculty-discovery.test.cjs
+      - name: Preserve actual per-source verification dates
+        run: python -m unittest discover -s tests -p test_catalog_validation.py
+

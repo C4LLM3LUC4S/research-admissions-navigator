@@ -1,0 +1,69 @@
+{
+  "version": "0.1.0a1",
+  "stage": "experimental_offline_alpha_partial_coverage",
+  "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
+  "checked_date": "2026-10-26",
+  "working_name": "研向",
+  "scope": "七校研究型硕博申请导航；扩充AI、计算机与控制，并开始数学、统计、金融和生物统计等相邻方向。部分目录，不是完整导师库。",
+  "counts": {
+    "universities": 7,
+    "programme_or_route_cards": 12,
+    "degree_routes": 21,
+    "faculty": 107,
+    "official_sources": 176,
+    "programmes_with_partial_requirements": 10,
+    "requirement_items": 33,
+    "programmes_with_partial_finances": 4,
+    "finance_items": 9,
+    "official_directory_entries": 33
+  },
+  "implemented": [
+    "项目/学位/办学实体筛选",
+    "按官网研究标签看交集",
+    "政策与依据展开",
+    "日期与未知时刻分开",
+    "HKPFS博士与学校范围限制",
+    "导师收藏与准备清单",
+    "显式保存本机与JSON备份恢复",
+    "资料快照及版本变化提示",
+    "匿名经历草稿导出且不公开提交",
+    "入学轮次选择及春秋季日期/奖学金范围筛选",
+    "按学位显示部分学历/英语/材料/资助要求及逐条官方依据",
+    "具体材料行动加入待办，保留项目/学位/轮次且避免重复",
+    "按学习阶段和英语准备情况提示下一步，不自动判资格",
+    "项目学费/申请费/助学金分列，币种、单位、学年/入学轮次与未知金额保持分开",
+    "CIE两名非意向导师推荐人与香港本部博士材料分开",
+    "格式2备份保留已提供的旧目录版本历史，仍可读取格式1；导入写入失败不替换当前清单",
+    "具体研究词与常用中英文对应词检索；不从未知或免责声明造匹配",
+    "官方院系目录入口和部分覆盖说明，找不到人时可以继续查",
+    "教师跟进待办保留学位和入学轮次，分批显示并将键盘焦点移到新结果",
+    "格式3备份保存研究关键词，仍读格式1/2；旧程序拒绝新格式",
+    "静态资源按实际字节添加版本标记，避免刷新仍读到旧脚本或旧资料"
+  ],
+  "verification": {
+    "node_checks": 42,
+    "python_source_date_checks": 3,
+    "backup_schema_write": 3,
+    "backup_schema_read": [
+      1,
+      2,
+      3
+    ],
+    "catalog_check": "passed",
+    "actual_callback_journey_with_DOM_stubs": "passed",
+    "actual_browser_visual_keyboard_native_picker_and_download": "Actual IAB visual/search/keyboard/pagination/backup download and filechooser API restore passed; no manual OS-native picker or independent-human claim.",
+    "github_CI": "Current commit results are recorded in this repository's Actions; not embedded into this source snapshot.",
+    "hosted_service": "not_deployed",
+    "python_checks": 5
+  },
+  "limitations": [
+    "107位教师、33个官方目录入口仍非完整院系名册；部分入口正文依赖脚本，逐条记录访问缺口。",
+    "104位实际接收情况未知；1份2026/2027广告、2份未注明年度的博士接受说明都不证明本轮余位。",
+    "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
+    "仍只有12条项目/申请路线：10条有部分要求、4条有部分费用或资助，不能把同校CSE规则套给新增院系。",
+    "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
+    "公开源码与离线页面仍是早期alpha；尚未托管在线页面，也没有申请经历的公共投稿审核后台。",
+    "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。"
+  ],
+  "next": "继续读取现有33入口中未覆盖个人页，配套核新增专业的研究学位及当期政策；再扩生命科学、商科、社科和人文。在线托管和申请经历服务另行交付。"
+}

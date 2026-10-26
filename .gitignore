@@ -1,0 +1,8 @@
+artifacts/
+__pycache__/
+*.pyc
+.venv/
+.DS_Store
+personal-*.json
+application-profile*.json
+

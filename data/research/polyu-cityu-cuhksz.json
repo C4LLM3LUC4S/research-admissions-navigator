@@ -1,0 +1,254 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-26",
+  "timezone": "Asia/Shanghai",
+  "scope": "AI、计算与控制的第一批研究型MPhil/PhD入口；香港理工大学、香港城市大学、香港中文大学（深圳）分别建档，不是完整招生目录或录取预测。",
+  "source_policy": "下列12个主来源均为官方网页，已打开正文；未登录申请系统、未联系导师。搜索发现但未读正文的页面没有作为事实来源。",
+  "sources": [
+    {
+      "id": "polyu-faq",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/frequently-asked-questions-rpg",
+      "title": "Frequently Asked Questions (RPG)",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "PolyU中央招生网站",
+      "claim": "FAQ17建议申请前联系潜在导师，但未确定导师仍可提交；FAQ37说正式录取或有条件录取经RPgAdmission通知。",
+      "scope": "中央通用流程，院系可有额外要求",
+      "evidence_locator": "FAQ17及37，正文107–108、190–194行"
+    },
+    {
+      "id": "polyu-calendar",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/research-postgraduate-application-period",
+      "title": "Research Postgraduate - Application Period",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "PolyU中央招生网站",
+      "claim": "2027/28九月入学一般申请期为2026-09-01至2027-05-31；HKPFS初申请2026-12-01香港时间12:00前，PolyU完整申请同日23:59前。院系可另定日程。",
+      "scope": "中央时间，不能当作Computing独立截止或导师名额",
+      "evidence_locator": "2027/28 Admission，正文54、67–75行"
+    },
+    {
+      "id": "polyu-computing",
+      "url": "https://www.polyu.edu.hk/comp/study/research-postgraduate-programme/phd-and-mphil-in-computing/",
+      "title": "PhD and MPhil in Computing",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "PolyU计算学系",
+      "claim": "计算学系设MPhil和PhD，研究方向包括AI、大数据、模式识别、自然语言处理与系统建模。",
+      "scope": "学位和方向，未确认2027/28院系独立截止",
+      "evidence_locator": "PhD and MPhil in Computing；Main research areas"
+    },
+    {
+      "id": "polyu-cao",
+      "url": "https://www.polyu.edu.hk/risa/people/risa-people/prof-jiannong-cao/",
+      "title": "Prof. Jiannong CAO",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "PolyU Research Institute for Smart Ageing",
+      "claim": "官方页列曹建农为计算学系教授；研究分布式系统、无线感知、机器学习、移动和边缘计算。",
+      "scope": "任职和研究方向，未核得明确2027招生声明",
+      "evidence_locator": "正文112–132行及Research Interests"
+    },
+    {
+      "id": "cityu-steps",
+      "url": "https://www.cb.cityu.edu.hk/pg/research-degree-programmes/steps-and-procedures",
+      "title": "Research Degree Programmes : Steps and Procedures",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CityUHK Postgraduate Admissions，官方cb子域承载",
+      "claim": "2027/28主轮截止2026-12-01香港时间23:59；全年可收申请，主轮后取决于名额。步骤建议寻找导师并征询同意，随后正式申请、可能面试，在系统查看结果。",
+      "scope": "可读官方通用步骤；导师建议不能直接扩为每个院系的硬性先决条件",
+      "evidence_locator": "Important Date；Explore and Prepare；Check Application Status，正文63–112行"
+    },
+    {
+      "id": "cityu-cs",
+      "url": "https://www.cs.cityu.edu.hk/en/academic-programmes/master-philosophy-doctor-philosophy/admissions",
+      "title": "Master of Philosophy / Doctor of Philosophy in Computer Science",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CityU计算机科学系",
+      "claim": "CS设研究型MPhil和PhD，列学历及英语要求；博士入学不只有研究硕士这一种路径。",
+      "scope": "该页未说明申请前导师同意要求，也未列2027/28独立日程；页面更新标记2026-07-23",
+      "evidence_locator": "Admissions，正文277–301、318行"
+    },
+    {
+      "id": "cityu-ee",
+      "url": "https://www.ee.cityu.edu.hk/current_students/research_degree/application",
+      "title": "Research Degree — Application Procedure",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CityU电机工程学系",
+      "claim": "正文介绍博士普通轮和HKPFS。EE普通轮鼓励先联系，但不强制申请前联系；申请表须声明研究兴趣。表列普通轮2026-12-01截止；HKPFS需分别向RGC和CityU提交。",
+      "scope": "仅EE，不外推CS。内容列2026日期而页脚更新仍是2025-10-27；提交前复核。奖学金段落存在年额/月额混写，本数据不采金额。",
+      "evidence_locator": "Application Procedure及Normal Round Admission，正文228–255行"
+    },
+    {
+      "id": "cityu-jun-wang",
+      "url": "https://scholars.cityu.edu.hk/en/persons/jwang358/",
+      "title": "Prof. Jun WANG, 王鈞",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CityUHK Scholars",
+      "claim": "官方页列王钧为计算机科学系及数据科学系讲座教授，研究神经计算、优化、智能控制；页面有未注明年份的接收博士标记。",
+      "scope": "任职和方向已核；未注明周期的标记不证明2027名额",
+      "evidence_locator": "正文9–19、46–59行"
+    },
+    {
+      "id": "cityu-chen-ma",
+      "url": "https://scholars.cityu.edu.hk/en/persons/chenma/",
+      "title": "Prof. Chen MA, 馬辰",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CityUHK Scholars",
+      "claim": "官方页列马辰为计算机科学系副教授，研究推荐系统、数据挖掘、深度学习和自然语言处理。",
+      "scope": "任职与方向，未核得明确当前招生批次声明",
+      "evidence_locator": "正文9–11、46–48行"
+    },
+    {
+      "id": "cuhksz-cie",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CIE",
+      "title": "Computer and Information Engineering",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CUHK-Shenzhen理工学院MPhil-PhD项目",
+      "claim": "CIE设全日制MPhil和PhD，方向含AI、控制和机器人。建议先联系意向导师，项目/学院可面试，仍需正式申请。2027/28秋季申请期2026-09-01至2027-05-31；2026/27春季2026-10-15已截止。",
+      "scope": "仅深圳理工学院CIE，不是香港本部或其他校区；不自动继承HKPFS资格",
+      "evidence_locator": "正文40–64、74–84、137–178行"
+    },
+    {
+      "id": "cuhksz-cui",
+      "url": "https://sse.cuhk.edu.cn/en/faculty/cuishuguang",
+      "title": "CUI, Shuguang",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CUHK-Shenzhen理工学院",
+      "claim": "官方师资页列崔曙光为教授，主要研究人工智能与通信网络结合。",
+      "scope": "任职与方向；未发现明确2027招生批次或名额",
+      "evidence_locator": "Research Field及Biography，正文244行附近"
+    },
+    {
+      "id": "cuhksz-apply",
+      "url": "https://gs.cuhk.edu.cn/page/144",
+      "title": "网上申请",
+      "checked_date": "2026-10-26",
+      "availability": "body_read",
+      "publisher": "CUHK-Shenzhen研究生院",
+      "claim": "深圳研究生院的网上申请入口链接到pgapply.cuhk.edu.cn。",
+      "scope": "中央入口，不提供CIE截止日期、导师名额或审批委员会细则",
+      "evidence_locator": "网上申请，正文106–108行"
+    }
+  ],
+  "institutions": [
+    {
+      "id": "polyu-hong-kong",
+      "display_name": "香港理工大学",
+      "campus": "香港",
+      "research_admissions_entry": "https://www.polyu.edu.hk/study/pg/research-postgraduate",
+      "application_portal": "https://rpgadmission.polyu.edu.hk/",
+      "portal_availability": "official_link_observed_not_logged_in",
+      "programmes": [
+        {
+          "id": "polyu-computing-rpg",
+          "name": "Computing",
+          "degrees": ["MPhil", "PhD"],
+          "degree_type": "research",
+          "unit": "Department of Computing",
+          "keywords_zh": ["人工智能", "机器学习", "大数据", "自然语言处理", "系统建模"],
+          "programme_specific_deadline": null,
+          "source_ids": ["polyu-computing", "polyu-calendar"]
+        }
+      ],
+      "supervisor_process": {
+        "contact_status": "advised_not_central_submission_prerequisite",
+        "copy_zh": "先联系方向合适的老师会更有帮助，但中央FAQ说，暂未确定导师也能递交。再检查所选项目有没有额外要求。",
+        "scope": "中央FAQ，不覆盖每个项目的独立限制",
+        "specific_final_approval_body": null,
+        "formal_offer": "以RPgAdmission正式录取或有条件录取通知确认；导师积极回复不能代替正式结果",
+        "source_ids": ["polyu-faq"]
+      },
+      "dates": [
+        {"cycle": "2027/28", "route": "一般研究型课程2027年9月", "opens": "2026-09-01", "deadline": "2027-05-31", "deadline_time": null, "timezone": "Asia/Hong_Kong", "status": "within_published_period", "scope": "中央日期，院系可另设时间；不是Computing独立日期", "source_ids": ["polyu-calendar"]},
+        {"cycle": "2027/28", "route": "HKPFS RGC初申请", "opens": "2026-09-01", "deadline": "2026-12-01", "deadline_time": "12:00", "timezone": "Asia/Hong_Kong", "scope": "还需另交PolyU完整申请", "source_ids": ["polyu-calendar"]},
+        {"cycle": "2027/28", "route": "HKPFS PolyU完整申请", "opens": "2026-09-01", "deadline": "2026-12-01", "deadline_time": "23:59", "timezone": "Asia/Hong_Kong", "scope": "不能只完成RGC初申请", "source_ids": ["polyu-calendar"]}
+      ],
+      "faculty": [
+        {"name_zh": "曹建农", "name_en": "Jiannong Cao", "profile_url": "https://www.polyu.edu.hk/risa/people/risa-people/prof-jiannong-cao/", "affiliation_verified": "香港理工大学计算学系", "role_zh": "教授（官方页列讲座教授）", "keywords_zh": ["分布式系统", "无线感知", "机器学习", "移动与边缘计算"], "recruitment_status": "unknown", "recruitment_cycle": null, "copy_zh": "方向可以先看，2027具体招生名额未核实。", "source_ids": ["polyu-cao"]}
+      ]
+    },
+    {
+      "id": "cityu-hong-kong",
+      "display_name": "香港城市大学",
+      "campus": "香港；不延伸其他城市或合作培养地点",
+      "research_admissions_entry": "https://www.cityu.edu.hk/pg/research-degree-programmes",
+      "central_entry_availability": "direct_open_403; official_department_and_cb_hosted_admissions_content_read",
+      "portal_availability": "official_online_admission_link_observed_not_logged_in",
+      "programmes": [
+        {"id": "cityu-cs-rpg", "name": "Computer Science", "degrees": ["MPhil", "PhD"], "degree_type": "research", "unit": "Department of Computer Science", "keywords_zh": ["人工智能", "计算机科学", "推荐系统", "智能控制"], "programme_specific_deadline": null, "source_ids": ["cityu-cs", "cityu-steps"]},
+        {"id": "cityu-ee-phd-route", "name": "EE research-degree application route", "degrees": ["PhD"], "degree_type": "research", "unit": "Department of Electrical Engineering", "scope": "本轮流程正文明确介绍博士，不凭导航推定所有MPhil细则", "source_ids": ["cityu-ee"]}
+      ],
+      "supervisor_process": {
+        "contact_status": "programme_specific_not_campuswide_binary",
+        "copy_zh": "先看具体院系。通用步骤建议找导师并征询同意；EE普通轮另写明，申请前联系并非强制。CS这次所看的招生页没说明这一点，先标待核实。",
+        "rules": [
+          {"unit": "EE", "route": "normal", "status": "encouraged_not_mandatory_before_submission", "source_ids": ["cityu-ee"]},
+          {"unit": "CS", "route": "research_MPhil_PhD", "status": "unknown_from_checked_department_page", "source_ids": ["cityu-cs"]}
+        ],
+        "specific_final_approval_body": null,
+        "formal_offer": "仍需正式申请、必要面试及学校系统结果；最终委员会层级本轮未核清，不编成导师单独拍板",
+        "source_ids": ["cityu-steps", "cityu-cs", "cityu-ee"]
+      },
+      "dates": [
+        {"cycle": "2027/28", "route": "研究学位一般主轮", "opens": null, "deadline": "2026-12-01", "deadline_time": "23:59", "timezone": "Asia/Hong_Kong", "status": "before_published_main_deadline", "scope": "官方通用步骤，主轮后只可能按名额考虑；CS独立覆盖规则待核", "source_ids": ["cityu-steps"]},
+        {"cycle": "2027/28", "route": "HKPFS RGC初申请（EE页面）", "opens": "2026-09-01", "deadline": "2026-12-01", "deadline_time": "12:00", "timezone": "Asia/Hong_Kong", "scope": "EE页面列明确日期但页脚更新旧，提交前另核RGC和学校", "source_ids": ["cityu-ee"]}
+      ],
+      "faculty": [
+        {"name_zh": "王钧", "name_en": "Jun Wang", "profile_url": "https://scholars.cityu.edu.hk/en/persons/jwang358/", "affiliation_verified": "香港城市大学计算机科学系、数据科学系", "role_zh": "计算智能讲座教授", "keywords_zh": ["神经计算", "优化", "智能控制"], "recruitment_status": "unknown_current_cycle", "recruitment_cycle": null, "observed_label": "页面有未写年份的接收博士生标记", "copy_zh": "主页有接收博士标记，但没写年份和名额；仍需核实2027批次。", "source_ids": ["cityu-jun-wang"]},
+        {"name_zh": "马辰", "name_en": "Chen Ma", "profile_url": "https://scholars.cityu.edu.hk/en/persons/chenma/", "affiliation_verified": "香港城市大学计算机科学系", "role_zh": "副教授", "keywords_zh": ["推荐系统", "数据挖掘", "深度学习", "自然语言处理"], "recruitment_status": "unknown", "recruitment_cycle": null, "copy_zh": "研究方向已核，当前招生批次与名额未核实。", "source_ids": ["cityu-chen-ma"]}
+      ]
+    },
+    {
+      "id": "cuhk-shenzhen",
+      "display_name": "香港中文大学（深圳）",
+      "campus": "深圳龙岗；单独申请与项目页面，不并入香港本部",
+      "research_admissions_entry": "https://gs.cuhk.edu.cn/page/144",
+      "application_portal": "https://pgapply.cuhk.edu.cn/",
+      "portal_availability": "official_link_observed_not_logged_in",
+      "programmes": [
+        {"id": "cuhksz-sse-cie", "name": "Computer and Information Engineering", "name_zh": "计算机与信息工程", "degrees": ["MPhil", "PhD"], "degree_type": "research", "unit": "School of Science and Engineering", "study_mode": "full_time", "keywords_zh": ["人工智能", "计算机视觉", "控制", "智能系统与机器人", "优化", "通信网络"], "source_ids": ["cuhksz-cie"]}
+      ],
+      "supervisor_process": {
+        "contact_status": "suggested_before_submission_programme_scope",
+        "copy_zh": "CIE项目建议先联系意向导师，也可能安排项目或学院面试。导师愿意交流和正式录取是两步，仍要通过深圳的正式申请。",
+        "specific_final_approval_body": null,
+        "formal_offer": "已核项目/学院可面试及正式申请入口；具体最终批准委员会未核，不推定导师一人决定",
+        "source_ids": ["cuhksz-cie", "cuhksz-apply"]
+      },
+      "dates": [
+        {"cycle": "2027/28", "route": "CIE秋季", "opens": "2026-09-01", "deadline": "2027-05-31", "deadline_time": null, "timezone": "Asia/Shanghai", "status": "within_published_period", "scope": "CIE明确当前周期，未写具体时刻，不补23:59", "source_ids": ["cuhksz-cie"]},
+        {"cycle": "2026/27", "route": "CIE春季", "opens": "2026-07-01", "deadline": "2026-10-15", "deadline_time": null, "timezone": "Asia/Shanghai", "status": "closed", "scope": "保留过去日期，不能显示现在仍可申", "source_ids": ["cuhksz-cie"]}
+      ],
+      "hkpfs": {"status": "not_evidenced_for_this_programme", "inherit_from_cuhk_hong_kong": false, "copy_zh": "这里是深圳项目，不能沿用香港本部HKPFS入口或资格。", "source_ids": ["cuhksz-cie"]},
+      "faculty": [
+        {"name_zh": "崔曙光", "name_en": "Shuguang Cui", "profile_url": "https://sse.cuhk.edu.cn/en/faculty/cuishuguang", "affiliation_verified": "香港中文大学（深圳）理工学院官方师资页面", "role_zh": "教授（官方页列校长讲座教授）", "keywords_zh": ["人工智能与通信网络融合", "网络智能"], "recruitment_status": "unknown", "recruitment_cycle": null, "copy_zh": "可先看AI与网络方向是否合适，当前招生名额未核实。", "source_ids": ["cuhksz-cui"]}
+      ]
+    }
+  ],
+  "access_limitations": [
+    {"resource": "CityU中央主域研究学位入口和steps", "observed": "直接打开返回403", "handling": "未用认证或技术绕过；保留中央用户入口，事实据可读官方院系页与cb子域通用步骤。"},
+    {"resource": "PolyU Computing 2027/28独立项目截止页", "observed": "未确认新周期独立页面", "handling": "独立截止null，中央日期另列；不把已截止的2027年1月页面改写为2027年9月。"}
+  ],
+  "unknowns": [
+    "PolyU Computing 2027/28独立截止与额外导师要求",
+    "CityU CS是否独立要求申请前导师同意",
+    "所选项目精确最终审批委员会层级",
+    "所列导师2027具体名额、经费和实际接收意愿",
+    "CUHK-Shenzhen其他学院和人工智能学院不在本轮有限CIE样本内"
+  ],
+  "product_copy_rules": [
+    "显示方向匹配不等于正在招生；未注明当前周期的接收标记仍保留名额未知。",
+    "联系导师、导师愿意交流、项目面试、正式录取分开显示，不给整所学校贴单一导师制/委员会制标签。",
+    "院校、校区、学院、项目、学位类型和申请周期分开存；不把授课型MSc当MPhil，不跨香港/深圳/广州继承资助。",
+    "日期有明确周期才入库；未写时刻则null，过期保留并标已截止。",
+    "自然文案采用：先看项目要求，再核老师方向；没写年份或名额就先标待确认。"
+  ]
+}

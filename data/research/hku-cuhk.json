@@ -1,0 +1,292 @@
+{
+  "schema_version": 1,
+  "checked_date": "2026-10-26",
+  "timezone": "Asia/Hong_Kong",
+  "scope": "Official-source seed research for HKU and CUHK Hong Kong only; AI/computing research degrees. Two degree routes per university share one departmental programme where applicable.",
+  "limitations": [
+    "This is research metadata, not an admissions prediction or a guarantee of an offer, supervision, funding or a current vacancy.",
+    "No applications, emails, account access, third-party agent payments or remote writes were performed.",
+    "A live official page without a visible publication date is recorded with source_date=null; the check date is not its publication date.",
+    "HKU early-recruitment contact policy is not automatically transferred to regular admissions, another department, or the whole university.",
+    "CUHK department interview batches and Graduate School application deadlines are separate records and are not silently reconciled."
+  ],
+  "sources": [
+    {
+      "id": "HKU-PROGRAMMES",
+      "url": "https://www.cds.hku.hk/prospective-students/postgraduate/",
+      "page_title": "Postgraduate - HKU School of Computing and Data Science (HKUCDS)",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "access_status": "live_official_text_verified",
+      "supports": ["HKU-CS-MPHIL.programme", "HKU-CS-PHD.programme"],
+      "claim_paraphrase_zh": "学院列出计算机科学的 MPhil 与 PhD 研究学位，提供全日制和非全日制模式；这页不能证明某位老师有招生名额。"
+    },
+    {
+      "id": "HKU-CENTRAL-PERIOD",
+      "url": "https://gradsch.hku.hk/prospective_students/application/application_period",
+      "page_title": "Application Period | HKU Graduate School",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "intake_explicit": "2027/28",
+      "access_status": "live_official_text_verified",
+      "supports": ["HKU-CS-MPHIL.central_rounds", "HKU-CS-PHD.central_rounds"],
+      "claim_paraphrase_zh": "2027/28 主轮为 2026年9月1日至12月1日；两轮补录截止分别为2027年4月30日和8月31日，补录取决于剩余名额，院系可能提前处理申请。"
+    },
+    {
+      "id": "HKU-EARLY-2027",
+      "url": "https://i.cs.hku.hk/~gradappl/index.html",
+      "page_title": "HKU CS Postgraduate Recruitment",
+      "checked_date": "2026-10-26",
+      "source_date": "2026-07-31",
+      "source_date_kind": "explicit_last_modified",
+      "intake_explicit": "2027 admission; admission date 2027-09-01",
+      "access_status": "live_official_text_verified",
+      "supports": ["HKU-CS-MPHIL.early_route", "HKU-CS-PHD.early_route", "source_conflicts.HKU-stale-open-banner"],
+      "claim_paraphrase_zh": "CDS 2027 提前招生第二轮截止2026年8月31日23:59；页面仍留有开放字样。按明确截止日判断，截至本次核查该轮已结束，之后可走主轮。"
+    },
+    {
+      "id": "HKU-EARLY-CONTACT-FAQ",
+      "url": "https://i.cs.hku.hk/~gradappl/FAQ.html",
+      "page_title": "HKU CS Postgraduate Recruitment",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "access_status": "live_official_text_verified",
+      "scope": "CDS Early Recruitment Scheme; linked from the live explicit-2027 call, FAQ itself undated",
+      "supports": ["HKU-CS-MPHIL.contact_policy.early", "HKU-CS-PHD.contact_policy.early"],
+      "claim_paraphrase_zh": "提前招生 FAQ 表示可以联系潜在导师帮助构思研究计划，但提交申请前不强制获得导师同意；不能据此声称整个港大都不需要联系导师。"
+    },
+    {
+      "id": "HKU-FACULTY-HUANG",
+      "url": "https://datascience.hku.hk/people/chao-huang/",
+      "page_title": "Chao HUANG - HKU Musketeers Foundation Institute of Data Science",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "access_status": "live_official_text_verified",
+      "supports": ["faculty.HKU-Chao-Huang.current_role", "faculty.HKU-Chao-Huang.unit", "faculty.HKU-Chao-Huang.research"],
+      "claim_paraphrase_zh": "官方介绍列为计算机科学系助理教授及 IDS 成员，研究包括大语言模型、智能体、图机器学习、推荐与数据挖掘；未核到有明确学年或期限的招生名额公告。"
+    },
+    {
+      "id": "HKU-FACULTY-YU",
+      "url": "https://www.ai.hku.hk/people/academic-staff/yzyu",
+      "page_title": "Yu, Y.Z.",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "access_status": "live_official_text_verified",
+      "supports": ["faculty.HKU-Yizhou-Yu.current_role", "faculty.HKU-Yizhou-Yu.research"],
+      "claim_paraphrase_zh": "官方学术人员页列为讲座教授，介绍人工智能、视觉计算、深度学习和图形等方向；不能由研究方向或教授头衔推断正在招生。"
+    },
+    {
+      "id": "CUHK-CSE-PROGRAMME",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-computer-science-and-engineering",
+      "page_title": "MPhil-PhD in Computer Science and Engineering | CUHK Graduate School",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "intake_explicit": "2027/28",
+      "access_status": "live_official_text_verified",
+      "supports": ["CUHK-CSE-MPHIL.programme", "CUHK-CSE-PHD.programme", "CUHK-CSE-MPHIL.central_rounds", "CUHK-CSE-PHD.central_rounds"],
+      "claim_paraphrase_zh": "研究院列出同一衔接项目中的 MPhil 和 PhD 路线，以及人工智能、机器学习、视觉等研究范围。2027/28 主轮截止2026年12月1日，补录截止2027年3月31日且取决于余位；除研究院系统外还须完成院系系统提交。"
+    },
+    {
+      "id": "CUHK-CSE-REGULAR-2027",
+      "url": "https://www.cse.cuhk.edu.hk/admission/mphil-phd/regular-admission/",
+      "page_title": "Regular Admission – CUHK CSE",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "intake_explicit": "2027-2028",
+      "access_status": "live_official_text_verified",
+      "supports": ["CUHK-CSE-MPHIL.contact_policy", "CUHK-CSE-PHD.contact_policy", "CUHK-CSE-MPHIL.department_batches", "CUHK-CSE-PHD.department_batches", "source_conflicts.CUHK-central-vs-department-schedules"],
+      "claim_paraphrase_zh": "院系常规招生须经过研究生评审及导师接收环节，可获面试豁免；准备申请时鼓励联系老师，通过评审后必须落实导师。系内批次日期不等于研究院统一截止日，须分别保留。"
+    },
+    {
+      "id": "CUHK-FACULTY-PAN",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/sinno-jialin-pan/",
+      "page_title": "Sinno Jialin Pan – CUHK CSE",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "access_status": "live_official_text_verified",
+      "supports": ["faculty.CUHK-Sinno-Jialin-Pan.current_role", "faculty.CUHK-Sinno-Jialin-Pan.unit", "faculty.CUHK-Sinno-Jialin-Pan.research"],
+      "claim_paraphrase_zh": "院系页列为教授兼研究生事务副主任，研究范围包括人工智能、深度学习和机器学习。职务与研究范围不证明当前有名额，也不构成个人适配分数。"
+    },
+    {
+      "id": "CUHK-FACULTY-FU",
+      "url": "https://www.cse.cuhk.edu.hk/people/faculty/fu-chi-wing/",
+      "page_title": "FU Chi Wing – CUHK CSE",
+      "checked_date": "2026-10-26",
+      "source_date": null,
+      "access_status": "live_official_text_verified",
+      "supports": ["faculty.CUHK-Chi-Wing-Fu.current_role", "faculty.CUHK-Chi-Wing-Fu.unit", "faculty.CUHK-Chi-Wing-Fu.research"],
+      "claim_paraphrase_zh": "院系页列为教授兼本科事务副主任，方向包括三维生成与重建、人机交互、视觉和图形。未在本次所读页面核到对应学年的招生名额。"
+    }
+  ],
+  "programme_routes": [
+    {
+      "id": "HKU-CS-MPHIL",
+      "university": "The University of Hong Kong",
+      "campus_scope": "Hong Kong",
+      "department": "Computer Science, School of Computing and Data Science",
+      "programme_family": "HKU-CS-RESEARCH",
+      "degree": "MPhil",
+      "type": "research",
+      "programme_source_ids": ["HKU-PROGRAMMES"],
+      "intake": "2027/28",
+      "central_rounds": [
+        {"name": "Main Round", "starts": "2026-09-01", "deadline": "2026-12-01T23:59:00+08:00"},
+        {"name": "1st Clearing Round", "starts": "2026-12-02", "deadline": "2027-04-30T23:59:00+08:00", "subject_to_vacancies": true},
+        {"name": "2nd Clearing Round", "starts": "2027-05-01", "deadline": "2027-08-31T23:59:00+08:00", "subject_to_vacancies": true}
+      ],
+      "central_round_source_id": "HKU-CENTRAL-PERIOD",
+      "early_route": {"intake": "2027", "round": "second", "deadline": "2026-08-31T23:59:00+08:00", "as_of_check_date": "closed", "source_ids": ["HKU-EARLY-2027", "HKU-EARLY-CONTACT-FAQ"]},
+      "contact_policy": {
+        "early": {"before_submission": "optional_for_research_plan_help", "prior_supervisor_agreement_required": false, "institutional_review": "shortlisted applicants are interviewed; exact committee composition not specified", "source_id": "HKU-EARLY-CONTACT-FAQ"},
+        "regular": {"before_submission": "unknown_from_verified_sources", "prior_supervisor_agreement_required": null, "decision_authority": "not_verified_in_this_seed_review"}
+      }
+    },
+    {
+      "id": "HKU-CS-PHD",
+      "university": "The University of Hong Kong",
+      "campus_scope": "Hong Kong",
+      "department": "Computer Science, School of Computing and Data Science",
+      "programme_family": "HKU-CS-RESEARCH",
+      "degree": "PhD",
+      "type": "research",
+      "programme_source_ids": ["HKU-PROGRAMMES"],
+      "intake": "2027/28",
+      "central_rounds_same_as_route": "HKU-CS-MPHIL",
+      "central_round_source_id": "HKU-CENTRAL-PERIOD",
+      "early_route": {"intake": "2027", "round": "second", "deadline": "2026-08-31T23:59:00+08:00", "as_of_check_date": "closed", "source_ids": ["HKU-EARLY-2027", "HKU-EARLY-CONTACT-FAQ"]},
+      "contact_policy_same_as_route": "HKU-CS-MPHIL",
+      "route_specific_note": "The school lists 3-year and 4-year PhD routes. This seed does not infer eligibility, choose a duration, or add an HKPFS deadline from the regular-admission deadline."
+    },
+    {
+      "id": "CUHK-CSE-MPHIL",
+      "university": "The Chinese University of Hong Kong",
+      "campus_scope": "Hong Kong; not CUHK Shenzhen",
+      "department": "Computer Science and Engineering",
+      "programme_family": "CUHK-CSE-ARTICULATED-MPHIL-PHD",
+      "degree": "MPhil",
+      "type": "research",
+      "programme_source_ids": ["CUHK-CSE-PROGRAMME"],
+      "intake": "2027/28",
+      "central_rounds": [
+        {"name": "Main Round", "deadline_date": "2026-12-01", "time": null},
+        {"name": "Clearing Round", "deadline_date": "2027-03-31", "time": null, "subject_to_vacancies": true}
+      ],
+      "central_round_source_id": "CUHK-CSE-PROGRAMME",
+      "department_batches": [
+        {"name": "1st interview batch", "application_starts": "2026-09-01", "application_deadline_date": "2026-10-06", "interview_dates": ["2026-11-05", "2026-11-06"], "tentative": true},
+        {"name": "2nd interview batch", "application_starts": "2026-10-07", "application_deadline_date": "2027-01-12", "interview_dates": ["2027-02-18", "2027-02-19"], "tentative": true},
+        {"name": "3rd interview batch", "application_starts": "2027-01-13", "application_deadline_date": "2027-03-31", "interview_dates": ["2027-04-30"], "tentative": true}
+      ],
+      "department_batch_source_id": "CUHK-CSE-REGULAR-2027",
+      "contact_policy": {
+        "before_submission": "strongly_encouraged",
+        "supervisor_contact_after_panel_clearance_or_exemption": "required",
+        "admission_conditions": ["Graduate Panel clearance or stated interview exemption", "informal offer of supervision from a professor"],
+        "not_equivalent_to": "professor alone grants formal university admission",
+        "interview_scope": "department states a written exam and an oral interview unless exempted",
+        "source_id": "CUHK-CSE-REGULAR-2027"
+      },
+      "submission": "Complete both Graduate School and departmental admission-system steps; this research did not open or submit either form.",
+      "schedule_verification_flag": "Do not replace the central 1 December main deadline with the 12 January department-batch endpoint. Preserve the discrepancy in scope and verify the relevant route before relying on it."
+    },
+    {
+      "id": "CUHK-CSE-PHD",
+      "university": "The Chinese University of Hong Kong",
+      "campus_scope": "Hong Kong; not CUHK Shenzhen",
+      "department": "Computer Science and Engineering",
+      "programme_family": "CUHK-CSE-ARTICULATED-MPHIL-PHD",
+      "degree": "PhD",
+      "type": "research",
+      "programme_source_ids": ["CUHK-CSE-PROGRAMME"],
+      "intake": "2027/28",
+      "central_rounds_same_as_route": "CUHK-CSE-MPHIL",
+      "department_batches_same_as_route": "CUHK-CSE-MPHIL",
+      "contact_policy_same_as_route": "CUHK-CSE-MPHIL",
+      "hkpfs": {
+        "initial_application_deadline": "2026-12-01T12:00:00+08:00",
+        "full_CUHK_application_deadline": "2026-12-01T23:59:00+08:00",
+        "source_id": "CUHK-CSE-PROGRAMME",
+        "department_first_batch_note": "Department labels its first interview round as the last for applicants also seeking HKPFS; the explicit department application deadline was 6 October 2026.",
+        "needs_route_verification": true,
+        "not_inferred": "No assertion that all HKPFS routes are closed, that an interview waiver is available, or that the later central date overrides department scheduling."
+      }
+    }
+  ],
+  "faculty": [
+    {
+      "id": "HKU-Chao-Huang",
+      "name": "Chao Huang",
+      "university": "HKU",
+      "unit": "Department of Computer Science, School of Computing and Data Science; HKU IDS member",
+      "current_role_as_listed": "Assistant Professor",
+      "research_keywords_zh": ["大语言模型", "智能体", "图机器学习", "推荐系统", "数据挖掘"],
+      "source_ids": ["HKU-FACULTY-HUANG"],
+      "recruitment": {"status": "unknown", "cycle": null, "capacity": null, "reason": "No explicit cycle-bound opening verified on the reviewed official profile."},
+      "scope_note": "Namesake academics elsewhere are not merged by name alone."
+    },
+    {
+      "id": "HKU-Yizhou-Yu",
+      "name": "Yizhou Yu",
+      "university": "HKU",
+      "unit": "School of Computing and Data Science; official AI academic-staff profile",
+      "department_finer_than_school": null,
+      "department_note": "Do not infer a current CS-versus-AI departmental appointment merely from an old cs.hku email or the hosting URL. The reviewed current profile does not state that finer appointment explicitly.",
+      "current_role_as_listed": "Chair Professor",
+      "research_keywords_zh": ["人工智能", "视觉计算", "深度学习", "计算机视觉", "图形", "虚拟与增强现实"],
+      "source_ids": ["HKU-FACULTY-YU"],
+      "recruitment": {"status": "unknown", "cycle": null, "capacity": null, "reason": "Current faculty listing and research interests do not establish a current opening."}
+    },
+    {
+      "id": "CUHK-Sinno-Jialin-Pan",
+      "name": "Sinno Jialin Pan",
+      "university": "CUHK Hong Kong",
+      "unit": "Department of Computer Science and Engineering",
+      "current_role_as_listed": "Professor; Vice-Chairman (Postgraduate)",
+      "research_keywords_zh": ["人工智能", "深度学习", "机器学习"],
+      "source_ids": ["CUHK-FACULTY-PAN"],
+      "recruitment": {"status": "unknown", "cycle": null, "capacity": null, "reason": "Programme contact role is not an individual recruitment announcement."}
+    },
+    {
+      "id": "CUHK-Chi-Wing-Fu",
+      "name": "Chi Wing Fu",
+      "university": "CUHK Hong Kong",
+      "unit": "Department of Computer Science and Engineering",
+      "current_role_as_listed": "Professor; Vice-Chairman (Undergraduate)",
+      "research_keywords_zh": ["三维生成与设计", "三维重建", "人机交互", "计算机视觉", "图形与可视化"],
+      "source_ids": ["CUHK-FACULTY-FU"],
+      "recruitment": {"status": "unknown", "cycle": null, "capacity": null, "reason": "No explicit cycle-bound opening verified on the reviewed official profile."}
+    }
+  ],
+  "source_conflicts": [
+    {
+      "id": "HKU-stale-open-banner",
+      "source_id": "HKU-EARLY-2027",
+      "kind": "banner_vs_explicit_date",
+      "resolution": "Use the explicit 31 August 2026 deadline to label this early round closed as of 26 October; preserve the stale open banner as a warning, not evidence of availability."
+    },
+    {
+      "id": "CUHK-central-vs-department-schedules",
+      "source_ids": ["CUHK-CSE-PROGRAMME", "CUHK-CSE-REGULAR-2027"],
+      "kind": "different_schedule_granularity",
+      "resolution": "Keep central application/fellowship deadlines and tentative departmental interview batches separately. Do not choose the latest date or infer how unscheduled HKPFS applicants will be handled."
+    }
+  ],
+  "access_failures_and_fallbacks": [
+    {
+      "url": "https://www.cs.hku.hk/programmes/research-based/mphil-phd-faqs",
+      "result": "Direct open returned HTTP404 although a search index retained an excerpt.",
+      "excluded_from_current_verified_claims": true,
+      "fallback": "HKU-EARLY-CONTACT-FAQ is live but is explicitly scoped only to early recruitment."
+    },
+    {
+      "url": "https://gradsch.hku.hk/prospective_students/application",
+      "result": "Direct open returned HTTP404.",
+      "fallback": "Followed the live School page's Graduate School FAQ and its Application Period link; final period source is HKU-CENTRAL-PERIOD."
+    },
+    {
+      "url": "https://datascience.hku.hk/people/yizhou-yu/",
+      "result": "Timed out in the research tool; not used as verified profile evidence.",
+      "fallback": "HKU-FACULTY-YU is a live official academic-staff profile; finer department retained as unknown."
+    }
+  ]
+}
