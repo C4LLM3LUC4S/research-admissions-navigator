@@ -15,12 +15,12 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,324);assert.equal(C.faculty.length,372);
-  assert.equal(leads.filter(p=>p.facultyId).length,223);
+  assert.equal(leads.length,427);assert.equal(C.faculty.length,466);
+  assert.equal(leads.filter(p=>p.facultyId).length,319);
   for(const lead of leads){assert.equal(lead.profileBodyStatus,'body_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
   assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));
-  assert.equal(C.directories.length,34);
+  assert.equal(C.directories.length,35);
 });
 
 test('SAI keeps all six pages, original identities and two different Ming Li profiles',()=>{
@@ -32,6 +32,39 @@ test('SAI keeps all six pages, original identities and two different Ming Li pro
   assert.deepEqual(new Set(same.map(f=>f.profileUrl)),new Set(['https://sai.cuhk.edu.cn/en/teacher/258','https://sai.cuhk.edu.cn/en/teacher/277']));
   assert.equal(C.faculty.filter(f=>f.profileUrl==='https://sai.cuhk.edu.cn/en/teacher/175')[0].id,'cuhksz-xiaoqiang-ji');
   assert.ok(C.faculty.find(f=>f.profileUrl==='https://sai.cuhk.edu.cn/en/teacher/328').directoryRole.includes('Adjunct'));
+});
+
+test('Function Hub retains returned range, missing research, public-interface provenance and conflicting pagination',()=>{
+  const pack=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/hkustgz-function-census-20261027.json'),'utf8'));
+  assert.equal(pack.faculty.length,94);assert.equal(pack.facultyUpdates.length,2);assert.equal(pack.pendingResearch.length,7);
+  const d=C.directories.find(d=>d.id==='hkustgz-function-census');
+  assert.equal(d.census.observedTotal,103);assert.equal(d.census.profilesRead,103);assert.equal(d.census.enumerationComplete,false);
+  const source=C.sources.find(s=>s.id===d.sourceIds[0]);
+  assert.equal(source.paginationObservation.total,103);assert.equal(source.paginationObservation.pages,1);assert.equal(source.paginationObservation.hasNextPage,true);
+  assert.match(source.readMethod,/public_directory_interface/);assert.match(source.knownIssues.join(' '),/矛盾/);
+  const ids=new Set(pack.faculty.map(f=>f.id));
+  for(const missing of pack.pendingResearch)assert.ok(!C.faculty.some(f=>f.profileUrl===missing.profileUrl));
+  for(const f of C.faculty.filter(f=>ids.has(f.id))){assert.equal(f.universityId,'hkustgz');assert.equal(f.availability.state,'unknown');assert.match(f.identityNote,/香港.*广州|广州.*香港/);}
+  assert.equal(C.sources.filter(s=>s.id.startsWith('gz-function-linked-')).length,28);
+});
+
+test('new circuit searches preserve old saved identities without attributing an empty research field to AI',()=>{
+  for(const [id,oldUrl] of [['wide-hkustgz-jiang-xu','https://personal.hkust-gz.edu.cn/jiangxu/'],['wide-hkustgz-yuzhe-ma','https://personal.hkust-gz.edu.cn/yuzhema/']]){
+    const f=C.faculty.find(f=>f.id===id);assert.equal(f.profileUrl,oldUrl);assert.ok(f.reviewedProfileUrl.includes('faculty-personal-page?id='));
+    assert.equal(C.faculty.filter(x=>x.reviewedProfileUrl===f.reviewedProfileUrl).length,1);
+  }
+  const profile={...L.defaultProfile(C),universityIds:['hkustgz'],interests:['电子与集成电路'],researchQuery:'电子设计自动化'};
+  const matches=L.facultyFor(C,profile);assert.ok(matches.some(f=>f.id==='wide-hkustgz-yuzhe-ma'));assert.ok(matches.every(f=>f.universityId==='hkustgz'));
+  const peng=C.faculty.find(f=>f.id==='hkustgz-function-707');assert.ok(!peng.topics.includes('人工智能'));assert.deepEqual(L.matchedResearchTerms(peng,'AI'),[]);
+  const backup=L.portable(C,{profile,shortlist:['wide-hkustgz-yuzhe-ma'],tasks:[],sourceIds:[]});
+  assert.deepEqual(L.parsePortable(JSON.stringify(backup),C).profile.interests,['电子与集成电路']);
+});
+
+test('public Function Hub pack excludes contact and internal personnel fields',()=>{
+  const p=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/hkustgz-function-census-20261027.json'),'utf8'));
+  const forbidden=new Set(['email','telephone','phone','mobile','personCode','createUser','personId','studentList','avatar']);
+  const check=value=>{if(Array.isArray(value))value.forEach(check);else if(value&&typeof value==='object')for(const [key,v] of Object.entries(value)){assert.ok(!forbidden.has(key),key);check(v);}};
+  check(p);
 });
 
 test('SAI exact official-parent Links retain unread shells and old affiliation conflicts',()=>{

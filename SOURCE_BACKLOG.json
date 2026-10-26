@@ -20,9 +20,9 @@
     },
     {
       "id": "faculty-coverage",
-      "task": "按七校学院顺序继续其他院系完整名录。港中深AI当前六页53个官方研究栏目已读，33个个人网站读到可核实正文，9个待核；继续SDS/SSE等其他学院，不把一院完成当全校完成。",
+      "task": "继续七校尚未完整整理的院系与对应项目政策。功能枢纽本次返回103份资料已读、7份缺研究栏目、分页标志矛盾；不要重复拉取同批资料充数。继续港大/港中文其他学院及港科广其他枢纽，逐人跟进原Links。",
       "acceptance": "记录枚举范围、身份、逐人正文状态和延伸链接来源。中文名以已读官网为准；未知名额和指导资格保持未知。",
-      "status": "372_partial_faculty_SAI_six_pages_53_profiles_reviewed_9_linked_pages_pending"
+      "status": "466_partial_faculty_103_function_profiles_read_7_missing_research_pagination_conflict"
     },
     {
       "id": "intake-filter",

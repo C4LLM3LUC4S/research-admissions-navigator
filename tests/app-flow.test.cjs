@@ -93,6 +93,19 @@ test('a Chinese multimodal search can save both Ming Li profiles and restore the
   assert.equal(h.networkCalls(),0);
 });
 
+test('a microelectronics applicant can follow new research, keep the old faculty identity and reopen the full backup',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('hkustgz','PhD',['电子与集成电路']);el('research-query').value='电子设计自动化';
+  await el('show-faculty').emit('click');await el('profile-form').emit('input',{target:el('research-query')});
+  assert.match(el('results').textContent,/Yuzhe Ma|Yuzhe MA/);assert.match(el('results').textContent,/广州/);assert.match(el('results').textContent,/名额|接收/);
+  const card=el('results').children.find(c=>h.walk(c).some(x=>x.tagName==='h3'&&/Yuzhe Ma|Yuzhe MA/.test(x.textContent)));
+  assert.ok(card);await h.walk(card).find(x=>x.tagName==='button'&&x.textContent.includes('放入我的清单')).emit('click');
+  await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.deepEqual(backup.shortlist,['wide-hkustgz-yuzhe-ma']);
+  const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);
+  assert.match(restored.byId.get('saved-faculty').textContent,/Yuzhe Ma|Yuzhe MA/);assert.equal(backup.profile.researchQuery,'电子设计自动化');assert.equal(h.networkCalls(),0);
+});
+
 test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.ok(el('results').childElementCount>0);
