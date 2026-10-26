@@ -52,7 +52,7 @@ test('school structure is a separate scoped journey, without inventing faculty t
   const schools=h.walk(el('academic-coverage')).filter(x=>x.className==='school-coverage');
   assert.equal(schools.length,7);
   assert.equal(el('result-count').textContent,C.directories.length+' 个目录');
-  assert.match(el('academic-coverage').textContent,/中央完整架构页访问403/);
+  assert.match(el('academic-coverage').textContent,/中央完整架构页(?:访问)?403/);
   assert.match(el('academic-coverage').textContent,/不是.*学科教师库|不另外计成一个学科教师库/);
   h.select('cuhksz','PhD',[]);await el('profile-form').emit('input');
   const selected=h.walk(el('academic-coverage')).filter(x=>x.className==='school-coverage');

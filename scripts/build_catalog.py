@@ -315,6 +315,17 @@ def build_catalog():
                     child.update(entryBodyStatus=row["bodyStatus"], sourceIds=row["sourceIds"],
                                  bodySha256=row["bodySha256"], retrievedUrl=row["retrievedUrl"],
                                  staffRoutes=row["staffRoutes"], failure=row["failure"])
+    cityu = load("cityu-ds-reviewed-20261026.json")
+    catalog["sources"].extend(cityu["sources"])
+    catalog["faculty"].extend(cityu["faculty"])
+    for update in cityu["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics", "directorySourceIds", "academicUnitIds"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        old.update(directoryRole=update["directoryRole"], identityNote=update["identityNote"])
+    directory = next(d for d in catalog["directories"] if d["id"] == cityu["directoryUpdate"]["id"])
+    directory["sourceIds"].extend(cityu["directoryUpdate"]["sourceIds"])
+    directory["coverageNotes"] = cityu["directoryUpdate"]["coverageNotes"]
     return catalog
 
 

@@ -1,0 +1,1724 @@
+{
+  "checkedAt": "2026-10-26",
+  "sources": [
+    {
+      "id": "cityu-ds-staff-cards-20261026",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "港城大数据科学系 · 实际列示的学术人员及研究方向",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "此页实际32张研究卡片；研究教授、客座、兼任、讲师等其他分类另待核",
+      "claims": [
+        "按主页网址逐条保留32张卡片的原职位、研究词与实际个人页读取状态。"
+      ],
+      "knownIssues": [
+        "只确认本页实际列示，不把其他分类、分页或每人当前招生名额算作已核完。",
+        "HTTP个人页不猜改HTTPS；跳转机构首页不能充作个人研究档案。"
+      ],
+      "bodySha256": "600f42653c4de39ccf561aaefa39acf799bc22a41d00d7a2c34b109099e0ac5a"
+    },
+    {
+      "id": "cityu-ds-card-9b92e275934672",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Lishuai LI · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate Vice-President (Strategic Research)Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Intelligent Transportation Systems；Air Transport and Operations；Data Mining and Computational Intelligence"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/lishuai.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/lishuai.htm",
+      "profileBodySha256": "5a25c9a832162b5c79c9221722f85c4028d679c36410ad9abc87493fb3d7077f"
+    },
+    {
+      "id": "cityu-ds-card-640d5ab07ae85c",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Jianping WANG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Dean of College of ComputingChair Professor of Computer Science；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Autonomous Driving；Service-oriented Networking；Cloud Computing；Multicast；Optical Networking"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/jianping-wang(0ff9fbf8-eeb5-4061-bcaf-029e3f282463).html",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/jianwang/",
+      "profileBodySha256": "f29584e9ddbdc5f2c52a6869f5d87ad24114c420a9f71d84b4544f70cd5ab080"
+    },
+    {
+      "id": "cityu-ds-card-2fa7b7a4caa531",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Jian LU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Chair Professor of Mechanical Engineering；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Experimental mechanics；Residual stress；Mechanical properties of metallic and ceramic materials；Metallurgy；4D printing"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/jian-lu(2e28d779-1155-49a2-bd2a-81aa891225cf).html",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/jianlu/",
+      "profileBodySha256": "6a5d4644d1577f27362c5ef58b37914bc09287b4bf4434d6a265464441499a01"
+    },
+    {
+      "id": "cityu-ds-card-1f04e2f2e4b3f5",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Jun WANG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Chair Professor of Computational Intelligence；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Computational Intelligence；Neural Computation；Optimization Methods；Data Processing；Intelligent Control"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/jun-wang(6d556e00-9da5-4b40-9602-8ee68ce4e526).html",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/jwang358/",
+      "profileBodySha256": "44c6f8c6790ed4caaa9bc2231a1553b82a0f1bfe535f2446546d35bc204fbaa6"
+    },
+    {
+      "id": "cityu-ds-card-d6e19a17c47b76",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Minghua CHEN · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Online Optimization and Algorithms；Capitalizing the Benefit of Data-driven Prediction in Algorithm/System Design；Machine Learning in Networked and Societal Systems；Energy Systems (e.g；smart power grids and energy-efficient data centers)；Intelligent Transportation Systems；Delay-constrained Networking"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/minghua.chen.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/minghua.chen.htm",
+      "profileBodySha256": "d67aa8779e3383865d27e48f9a8856867031adfa7db6484a5f5ceaaebef54c8c"
+    },
+    {
+      "id": "cityu-ds-card-939aafd442a33d",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Weijun XIE · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Theory and Applications of Stochastic；Discrete；and Convex Optimization；with Applications in Machine Learning；Logistics；Healthcare；Risk Management；and Data-driven Decision-making"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-weijun-xie",
+      "retrievedProfileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-weijun-xie",
+      "profileBodySha256": "f614e3fc49df648d697cf18d7cf5ad8b04b276a577bdecc8f90af8dbf4f159e5"
+    },
+    {
+      "id": "cityu-ds-card-02261426ea47ff",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Yining DONG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Process Data Analytics；Multivariate Time Series Modeling；Statistical Machine Learning；Smart Manufacturing and New Material Design"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/Yining.Dong.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/Yining.Dong.htm",
+      "profileBodySha256": "9b1c137cad984ef674d992ee3beb8a56774f55024c23ee58c29229c6597745c9"
+    },
+    {
+      "id": "cityu-ds-card-b19c946b79db8c",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Xinyue LI · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Wearable Device Data Analysis；Statistical Genetics；Electronic Health Record Analysis；Precision Medicine；Scalable Statistical Learning and Machine Learning Methods for Large Data Sets"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/xinyueli.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/xinyueli.htm",
+      "profileBodySha256": "d5ef8a5b2c72dbfa2ac62ff183a9f0a5300fc38e6bee64e1a3a81b69bf86e8b6"
+    },
+    {
+      "id": "cityu-ds-card-c1e23d00ad4cf5",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Qi WU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Director of Flagship Programme of College of ComputingAssociate Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Quantitative Finance；Financial Technology；Business Analytics"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "http://www.cityu.edu.hk/stfprofile/qiwu55.htm",
+      "retrievedProfileUrl": "http://www.cityu.edu.hk/stfprofile/qiwu55.htm",
+      "profileBodySha256": "9835cbb600d360ce8bc0d0f24e0879e6276593ffd2644a96bd2aee166c345c25"
+    },
+    {
+      "id": "cityu-ds-card-800cd33c41c7d8",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Kaidi XU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate ProfessorDeputy Director of HKAI-Sci；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Trustworthy AI；Uncertainty Quantification；Formal Verification；AI in Health；Foundation Models"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/kaidixu/",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/kaidixu/",
+      "profileBodySha256": "9209c3d771047b207b2a417ae03d853295c6403a2c2bffe1b3463eaaa0fb7b98"
+    },
+    {
+      "id": "cityu-ds-card-370eb9f7de1171",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Yu YANG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Algorithmic Data Science；Mining Data of Combinatorial Structures；Data-Driven Operations Management；AI-Empowered Digital Medicine"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "http://www.cityu.edu.hk/stfprofile/yuyang.htm",
+      "retrievedProfileUrl": "http://www.cityu.edu.hk/stfprofile/yuyang.htm",
+      "profileBodySha256": "084680cd671f0d169106c37b70a45edf242bbd26181af716873a97373244a686"
+    },
+    {
+      "id": "cityu-ds-card-94a7a14b1965f1",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Li ZENG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Statistical Machine Learning；Quality Engineering；Data Analytics in Manufacturing and Biomedical Engineering"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/li.zeng.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/li.zeng.htm",
+      "profileBodySha256": "b6b13544e9e83f916525497d70e8af5fa94c77cc6a0be44e263cf3a80963386e"
+    },
+    {
+      "id": "cityu-ds-card-ac146ace2075ad",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Xiangyu ZHAO · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Associate Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Machine Learning and Data Mining；Reinforcement Learning/AutoML/Multimodal；Information Retrieval (Recommender Systems；Online Advertising；Search Engine)；Urban Computing and Spatio-Temporal Data Analysis；AI for Social Computing/Finance/Education/Ecosystem/Healthcare"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/xyzhao.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/xyzhao.htm",
+      "profileBodySha256": "bc97f5b6892fb0bedcd71b75e729371edcbc1181de31b2c83f068feebe026bb4"
+    },
+    {
+      "id": "cityu-ds-card-27f20347c7ba70",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Fenglei FAN · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：NeuroAI；Model Compression；Medical Imaging；Industrial Data Analytics；Deep Learning Theory"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/fenglfan/",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/fenglfan/",
+      "profileBodySha256": "5420287204f500bc6301ad8c32e61c858d7ac2eed62708858cab784b22426a62"
+    },
+    {
+      "id": "cityu-ds-card-90a7378e6a4b47",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Qing KE · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Innovation；Entrepreneurship；Venture Capital；Intellectual Property；Patents；Science and Technology Policy；Economic Geography；China；Network Science；Social Computing；Social Media"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/qingke.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/qingke.htm",
+      "profileBodySha256": "6919fbe86b1cb90726cdb060bc394212b5c6d885d4f9d0831afaff370bfed428"
+    },
+    {
+      "id": "cityu-ds-card-fd79c183c365b6",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Samuel Chun Pong LAU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Machine Learning；Computer Vision；Biometrics；Adversarial Robustness；Generative AI；Scientific Computing"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/cplau27.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/cplau27.htm",
+      "profileBodySha256": "918b614217781b5a0a963071f9695491516b640a6034fc96153bf80624bc76ec"
+    },
+    {
+      "id": "cityu-ds-card-a68ac1ca6b41e6",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Linyan LI · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Health Informatics；Digital Intervention；Medical Image Analysis；Multi-omics；Health Impact Assessment；Aging"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/linyanli.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/linyanli.htm",
+      "profileBodySha256": "bf5b54143fb0b6becb9fcd0cf21e4e682d98df6ecc77726c034747b0c8e3b05c"
+    },
+    {
+      "id": "cityu-ds-card-70622c4393be16",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Tanghua LI · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Climate Change；Sea-Level Change；Numerical Simulation；Geoscience Data；AI for Climate and Sea Level"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/see/people/prof-tanghua-li",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/see/people/prof-tanghua-li",
+      "profileBodySha256": "68bb33ee2fe9aea7bff1c8a1bfe1c7fb733f41fbf762d31f3b2e9bdd57798e1c"
+    },
+    {
+      "id": "cityu-ds-card-a32bb13ae052a2",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Gang LIU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor (HKAI-Sci)；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Generative AI；Large Language Models；Foundation models"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-gang-liu",
+      "retrievedProfileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-gang-liu",
+      "profileBodySha256": "07035ee38541cedbddc82196433c3650f13a7a41af8e95c92f9b3c04a3314695"
+    },
+    {
+      "id": "cityu-ds-card-715e615644128d",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Ning MIAO · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Large language models；especially their reasoning ability；Generative models；Natural language processing"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/ningmiao/",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/ningmiao/",
+      "profileBodySha256": "0c065ffea1738ba3039771989e9b099b79630b15706bcfae822adda5841bd386"
+    },
+    {
+      "id": "cityu-ds-card-6247960a620355",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Yangchen PAN · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Sequential Decision-Making；Reinforcement Learning；World Models；Continual Learning；Representation Learning；and AI Foundations"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-yangchen-pan",
+      "retrievedProfileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-yangchen-pan",
+      "profileBodySha256": "d3c02c95d6f1fa6073d6e110fdc533469ef3f610882ff1725b037af9477a8d31"
+    },
+    {
+      "id": "cityu-ds-card-74f8d69123fa55",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Hao PENG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Computational Social Science；Data Science；Science of Innovation；Social Networks；Network Science；Management Science；Complex Systems；Online Media；Diversity；Leadership；Communication；Ethnicity；Gender；NLP；AI"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/haopeng.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/haopeng.htm",
+      "profileBodySha256": "643b6fd89d54194d7127712a828442849d1b19e2eb88994f63db995d5da6a7a9"
+    },
+    {
+      "id": "cityu-ds-card-532a02b13d6b85",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Xiao QIAO · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Financial Economics；Asset Pricing；Financial Data Analytics and Risk Management"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/xiaoqiao.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/xiaoqiao.htm",
+      "profileBodySha256": "15b9415d05b9a13ae98b39645ab46d5526a8ac020bb3186e28c1808c564dd301"
+    },
+    {
+      "id": "cityu-ds-card-d83b8de48bcb61",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Lijia WANG · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Network data analysis；Partial information in social networks；Local clustering；Multiple testing；Confidence interval；Naymen-Person classification；Asymmetric error control；Machine learning"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/lijiwang.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/lijiwang.htm",
+      "profileBodySha256": "e290a8231aba402df41a577bca8a3c1dad19e973b7e82b8282beee6a6e3e7658"
+    },
+    {
+      "id": "cityu-ds-card-2c562c8af4b6a2",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Ye WEI · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Applied and Computational Mathematics；Rare Event；Stochastic Modelling and Simulation；Energy Landscape；Machine Learning"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/ye.wei.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/ye.wei.htm",
+      "profileBodySha256": "ccc06b77872e2aedf2b580df94a800f3653dd7c5de98860543feb29766cfac43"
+    },
+    {
+      "id": "cityu-ds-card-ca95e7fa63d322",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Jiaman WU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Data-driven modelling；Optimization of energy and transportation systems"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/jm.wu.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/jm.wu.htm",
+      "profileBodySha256": "31419f02c6931ff58ba2716b557fd2688b522380b3ebc3df9cf68dd62d6b4b3d"
+    },
+    {
+      "id": "cityu-ds-card-3999194cf221e8",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Peng YIN · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Field Robotics；SLAM；Planning；Multi-Agent System；Reinforcement Learning；Embodied AI"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/max-yin(0946c1e9-0c41-4406-910d-ad556027672b).html",
+      "retrievedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+      "profileBodySha256": "12223a8127addddb944029546b7e8a865f5e42ab0750402cce8aa48878da1fc4"
+    },
+    {
+      "id": "cityu-ds-card-4047bf70972a2d",
+      "url": "https://www.ds.cityu.edu.hk/en/people/academic-staff",
+      "title": "Zimu ZHOU · 院系研究卡片",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Assistant Professor；研究词来自院系卡片，未确认当前招生或指导资格",
+      "claims": [
+        "卡片列出的研究词：Machine Learning for Mobile and IoT Systems；Ubiquitous Sensing；Urban Computing and Spatiotemporal Data Management"
+      ],
+      "knownIssues": [
+        "页面未记录任职生效日或当期名额；不从教授职称自动推定可申请。"
+      ],
+      "observedProfileUrl": "https://www.cityu.edu.hk/stfprofile/zhouzimu.htm",
+      "retrievedProfileUrl": "https://www.cityu.edu.hk/stfprofile/zhouzimu.htm",
+      "profileBodySha256": "3bbede1e00455e46ff004f5470c667cb70c34ccc642e79de17957f209548ae20"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "cityu-ds-9b92e275934672",
+      "researchKeywords": [
+        "Intelligent Transportation Systems",
+        "Air Transport and Operations",
+        "Data Mining and Computational Intelligence"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-9b92e275934672"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-9b92e275934672"
+      ],
+      "topics": [
+        "人工智能",
+        "数据挖掘"
+      ],
+      "directoryRole": "Associate Vice-President (Strategic Research)Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Lishuai LI",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/lishuai.htm",
+      "summary": "公开研究线索：Intelligent Transportation Systems；Air Transport and Operations；Data Mining and Computational Intelligence。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-9b92e275934672"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-640d5ab07ae85c",
+      "researchKeywords": [
+        "Autonomous Driving",
+        "Service-oriented Networking",
+        "Cloud Computing",
+        "Multicast",
+        "Optical Networking"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-640d5ab07ae85c"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-640d5ab07ae85c"
+      ],
+      "topics": [
+        "机器人与控制",
+        "网络与系统"
+      ],
+      "directoryRole": "Dean of College of ComputingChair Professor of Computer Science",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Jianping WANG",
+      "department": "Department of Data Science",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/jianwang/",
+      "summary": "公开研究线索：Autonomous Driving；Service-oriented Networking；Cloud Computing。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-640d5ab07ae85c"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-2fa7b7a4caa531",
+      "researchKeywords": [
+        "Experimental mechanics",
+        "Residual stress",
+        "Mechanical properties of metallic and ceramic materials",
+        "Metallurgy",
+        "4D printing"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-2fa7b7a4caa531"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-2fa7b7a4caa531"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "directoryRole": "Chair Professor of Mechanical Engineering",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Jian LU",
+      "department": "Department of Data Science",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/jianlu/",
+      "summary": "公开研究线索：Experimental mechanics；Residual stress；Mechanical properties of metallic and ceramic materials。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-2fa7b7a4caa531"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-d6e19a17c47b76",
+      "researchKeywords": [
+        "Online Optimization and Algorithms",
+        "Capitalizing the Benefit of Data-driven Prediction in Algorithm/System Design",
+        "Machine Learning in Networked and Societal Systems",
+        "Energy Systems (e.g",
+        "smart power grids and energy-efficient data centers)",
+        "Intelligent Transportation Systems",
+        "Delay-constrained Networking"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-d6e19a17c47b76"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-d6e19a17c47b76"
+      ],
+      "topics": [
+        "机器学习",
+        "网络与系统",
+        "理论与优化",
+        "环境与可持续发展",
+        "材料与能源"
+      ],
+      "directoryRole": "Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Minghua CHEN",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/minghua.chen.htm",
+      "summary": "公开研究线索：Online Optimization and Algorithms；Capitalizing the Benefit of Data-driven Prediction in Algorithm/System Design；Machine Learning in Networked and Societal Systems。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-d6e19a17c47b76"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-939aafd442a33d",
+      "researchKeywords": [
+        "Theory and Applications of Stochastic",
+        "Discrete",
+        "and Convex Optimization",
+        "with Applications in Machine Learning",
+        "Logistics",
+        "Healthcare",
+        "Risk Management",
+        "and Data-driven Decision-making"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-939aafd442a33d"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-939aafd442a33d"
+      ],
+      "topics": [
+        "机器学习",
+        "理论与优化",
+        "数学与统计",
+        "金融与精算",
+        "生物医学与健康",
+        "经济与管理"
+      ],
+      "directoryRole": "Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Weijun XIE",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-weijun-xie",
+      "summary": "公开研究线索：Theory and Applications of Stochastic；Discrete；and Convex Optimization。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-939aafd442a33d"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-02261426ea47ff",
+      "researchKeywords": [
+        "Process Data Analytics",
+        "Multivariate Time Series Modeling",
+        "Statistical Machine Learning",
+        "Smart Manufacturing and New Material Design"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-02261426ea47ff"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-02261426ea47ff"
+      ],
+      "topics": [
+        "机器学习",
+        "数据挖掘",
+        "数学与统计",
+        "土木与机械工程"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Yining DONG",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/Yining.Dong.htm",
+      "summary": "公开研究线索：Process Data Analytics；Multivariate Time Series Modeling；Statistical Machine Learning。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-02261426ea47ff"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-800cd33c41c7d8",
+      "researchKeywords": [
+        "Trustworthy AI",
+        "Uncertainty Quantification",
+        "Formal Verification",
+        "AI in Health",
+        "Foundation Models"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-800cd33c41c7d8"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-800cd33c41c7d8"
+      ],
+      "topics": [
+        "人工智能",
+        "数学与统计",
+        "生物医学与健康",
+        "软件工程与编程语言"
+      ],
+      "directoryRole": "Associate ProfessorDeputy Director of HKAI-Sci",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Kaidi XU",
+      "department": "Department of Data Science",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/kaidixu/",
+      "summary": "公开研究线索：Trustworthy AI；Uncertainty Quantification；Formal Verification。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-800cd33c41c7d8"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-94a7a14b1965f1",
+      "researchKeywords": [
+        "Statistical Machine Learning",
+        "Quality Engineering",
+        "Data Analytics in Manufacturing and Biomedical Engineering"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-94a7a14b1965f1"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-94a7a14b1965f1"
+      ],
+      "topics": [
+        "机器学习",
+        "数据挖掘",
+        "数学与统计",
+        "生物医学与健康",
+        "土木与机械工程"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Li ZENG",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/li.zeng.htm",
+      "summary": "公开研究线索：Statistical Machine Learning；Quality Engineering；Data Analytics in Manufacturing and Biomedical Engineering。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-94a7a14b1965f1"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-27f20347c7ba70",
+      "researchKeywords": [
+        "NeuroAI",
+        "Model Compression",
+        "Medical Imaging",
+        "Industrial Data Analytics",
+        "Deep Learning Theory"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-27f20347c7ba70"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-27f20347c7ba70"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉",
+        "数据挖掘",
+        "生物医学与健康"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Fenglei FAN",
+      "department": "Department of Data Science",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/fenglfan/",
+      "summary": "公开研究线索：NeuroAI；Model Compression；Medical Imaging。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-27f20347c7ba70"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-90a7378e6a4b47",
+      "researchKeywords": [
+        "Innovation",
+        "Entrepreneurship",
+        "Venture Capital",
+        "Intellectual Property",
+        "Patents",
+        "Science and Technology Policy",
+        "Economic Geography",
+        "China",
+        "Network Science",
+        "Social Computing",
+        "Social Media"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-90a7378e6a4b47"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-90a7378e6a4b47"
+      ],
+      "topics": [
+        "数据挖掘",
+        "经济与管理",
+        "人文与社会科学"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Qing KE",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/qingke.htm",
+      "summary": "公开研究线索：Innovation；Entrepreneurship；Venture Capital。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-90a7378e6a4b47"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-fd79c183c365b6",
+      "researchKeywords": [
+        "Machine Learning",
+        "Computer Vision",
+        "Biometrics",
+        "Adversarial Robustness",
+        "Generative AI",
+        "Scientific Computing"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-fd79c183c365b6"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-fd79c183c365b6"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Samuel Chun Pong LAU",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/cplau27.htm",
+      "summary": "公开研究线索：Machine Learning；Computer Vision；Biometrics。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-fd79c183c365b6"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-a68ac1ca6b41e6",
+      "researchKeywords": [
+        "Health Informatics",
+        "Digital Intervention",
+        "Medical Image Analysis",
+        "Multi-omics",
+        "Health Impact Assessment",
+        "Aging"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-a68ac1ca6b41e6"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-a68ac1ca6b41e6"
+      ],
+      "topics": [
+        "计算机视觉",
+        "生物医学与健康"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Linyan LI",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/linyanli.htm",
+      "summary": "公开研究线索：Health Informatics；Digital Intervention；Medical Image Analysis。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-a68ac1ca6b41e6"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-70622c4393be16",
+      "researchKeywords": [
+        "Climate Change",
+        "Sea-Level Change",
+        "Numerical Simulation",
+        "Geoscience Data",
+        "AI for Climate and Sea Level"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-70622c4393be16"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-70622c4393be16"
+      ],
+      "topics": [
+        "人工智能",
+        "环境与可持续发展"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Tanghua LI",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/see/people/prof-tanghua-li",
+      "summary": "公开研究线索：Climate Change；Sea-Level Change；Numerical Simulation。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-70622c4393be16"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-a32bb13ae052a2",
+      "researchKeywords": [
+        "Generative AI",
+        "Large Language Models",
+        "Foundation models"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-a32bb13ae052a2"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-a32bb13ae052a2"
+      ],
+      "topics": [
+        "人工智能",
+        "自然语言处理"
+      ],
+      "directoryRole": "Assistant Professor (HKAI-Sci)",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Gang LIU",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-gang-liu",
+      "summary": "公开研究线索：Generative AI；Large Language Models；Foundation models。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-a32bb13ae052a2"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-715e615644128d",
+      "researchKeywords": [
+        "Large language models",
+        "especially their reasoning ability",
+        "Generative models",
+        "Natural language processing"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-715e615644128d"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-715e615644128d"
+      ],
+      "topics": [
+        "机器学习",
+        "自然语言处理"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Ning MIAO",
+      "department": "Department of Data Science",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/ningmiao/",
+      "summary": "公开研究线索：Large language models；especially their reasoning ability；Generative models。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-715e615644128d"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-6247960a620355",
+      "researchKeywords": [
+        "Sequential Decision-Making",
+        "Reinforcement Learning",
+        "World Models",
+        "Continual Learning",
+        "Representation Learning",
+        "and AI Foundations"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-6247960a620355"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-6247960a620355"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "理论与优化"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Yangchen PAN",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.ds.cityu.edu.hk/en/people/academic-staff/professor-yangchen-pan",
+      "summary": "公开研究线索：Sequential Decision-Making；Reinforcement Learning；World Models。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-6247960a620355"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-74f8d69123fa55",
+      "researchKeywords": [
+        "Computational Social Science",
+        "Data Science",
+        "Science of Innovation",
+        "Social Networks",
+        "Network Science",
+        "Management Science",
+        "Complex Systems",
+        "Online Media",
+        "Diversity",
+        "Leadership",
+        "Communication",
+        "Ethnicity",
+        "Gender",
+        "NLP",
+        "AI"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-74f8d69123fa55"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-74f8d69123fa55"
+      ],
+      "topics": [
+        "人工智能",
+        "自然语言处理",
+        "数据挖掘",
+        "经济与管理",
+        "人文与社会科学"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Hao PENG",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/haopeng.htm",
+      "summary": "公开研究线索：Computational Social Science；Data Science；Science of Innovation。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-74f8d69123fa55"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-532a02b13d6b85",
+      "researchKeywords": [
+        "Financial Economics",
+        "Asset Pricing",
+        "Financial Data Analytics and Risk Management"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-532a02b13d6b85"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-532a02b13d6b85"
+      ],
+      "topics": [
+        "数据挖掘",
+        "金融与精算",
+        "经济与管理"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Xiao QIAO",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/xiaoqiao.htm",
+      "summary": "公开研究线索：Financial Economics；Asset Pricing；Financial Data Analytics and Risk Management。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-532a02b13d6b85"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-d83b8de48bcb61",
+      "researchKeywords": [
+        "Network data analysis",
+        "Partial information in social networks",
+        "Local clustering",
+        "Multiple testing",
+        "Confidence interval",
+        "Naymen-Person classification",
+        "Asymmetric error control",
+        "Machine learning"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-d83b8de48bcb61"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-d83b8de48bcb61"
+      ],
+      "topics": [
+        "机器学习",
+        "机器人与控制",
+        "数学与统计",
+        "人文与社会科学"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Lijia WANG",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/lijiwang.htm",
+      "summary": "公开研究线索：Network data analysis；Partial information in social networks；Local clustering。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-d83b8de48bcb61"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-2c562c8af4b6a2",
+      "researchKeywords": [
+        "Applied and Computational Mathematics",
+        "Rare Event",
+        "Stochastic Modelling and Simulation",
+        "Energy Landscape",
+        "Machine Learning"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-2c562c8af4b6a2"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-2c562c8af4b6a2"
+      ],
+      "topics": [
+        "机器学习",
+        "数学与统计",
+        "环境与可持续发展",
+        "材料与能源"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Ye WEI",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/ye.wei.htm",
+      "summary": "公开研究线索：Applied and Computational Mathematics；Rare Event；Stochastic Modelling and Simulation。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-2c562c8af4b6a2"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-ca95e7fa63d322",
+      "researchKeywords": [
+        "Data-driven modelling",
+        "Optimization of energy and transportation systems"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-ca95e7fa63d322"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-ca95e7fa63d322"
+      ],
+      "topics": [
+        "理论与优化",
+        "环境与可持续发展",
+        "材料与能源"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Jiaman WU",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/jm.wu.htm",
+      "summary": "公开研究线索：Data-driven modelling；Optimization of energy and transportation systems。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-ca95e7fa63d322"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-3999194cf221e8",
+      "researchKeywords": [
+        "Field Robotics",
+        "SLAM",
+        "Planning",
+        "Multi-Agent System",
+        "Reinforcement Learning",
+        "Embodied AI"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-3999194cf221e8"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-3999194cf221e8"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "机器人与控制"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Peng YIN",
+      "department": "Department of Data Science",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/pengyin/",
+      "summary": "公开研究线索：Field Robotics；SLAM；Planning。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-3999194cf221e8"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-4047bf70972a2d",
+      "researchKeywords": [
+        "Machine Learning for Mobile and IoT Systems",
+        "Ubiquitous Sensing",
+        "Urban Computing and Spatiotemporal Data Management"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-4047bf70972a2d"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-4047bf70972a2d"
+      ],
+      "topics": [
+        "机器学习",
+        "网络与系统",
+        "经济与管理"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "universityId": "cityu",
+      "name": "Zimu ZHOU",
+      "department": "Department of Data Science",
+      "profileUrl": "https://www.cityu.edu.hk/stfprofile/zhouzimu.htm",
+      "summary": "公开研究线索：Machine Learning for Mobile and IoT Systems；Ubiquitous Sensing；Urban Computing and Spatiotemporal Data Management。可以点开院系研究资料，再核具体申请项目。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及MPhil/PhD指导资格、名额尚未核实。",
+        "sourceIds": [
+          "cityu-ds-staff-cards-20261026",
+          "cityu-ds-card-4047bf70972a2d"
+        ]
+      }
+    }
+  ],
+  "facultyUpdates": [
+    {
+      "id": "cityu-jun-wang",
+      "researchKeywords": [
+        "Computational Intelligence",
+        "Neural Computation",
+        "Optimization Methods",
+        "Data Processing",
+        "Intelligent Control"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-1f04e2f2e4b3f5"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-1f04e2f2e4b3f5"
+      ],
+      "topics": [
+        "人工智能",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "directoryRole": "Chair Professor of Computational Intelligence",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ]
+    },
+    {
+      "id": "expand-cityu-xinyue-li",
+      "researchKeywords": [
+        "Wearable Device Data Analysis",
+        "Statistical Genetics",
+        "Electronic Health Record Analysis",
+        "Precision Medicine",
+        "Scalable Statistical Learning and Machine Learning Methods for Large Data Sets"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-b19c946b79db8c"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-b19c946b79db8c"
+      ],
+      "topics": [
+        "机器学习",
+        "数学与统计",
+        "生物医学与健康"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ]
+    },
+    {
+      "id": "expand-cityu-qi-wu",
+      "researchKeywords": [
+        "Quantitative Finance",
+        "Financial Technology",
+        "Business Analytics"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-c1e23d00ad4cf5"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-c1e23d00ad4cf5"
+      ],
+      "topics": [
+        "金融与精算"
+      ],
+      "directoryRole": "Director of Flagship Programme of College of ComputingAssociate Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ]
+    },
+    {
+      "id": "wide-cityu-yu-yang",
+      "researchKeywords": [
+        "Algorithmic Data Science",
+        "Mining Data of Combinatorial Structures",
+        "Data-Driven Operations Management",
+        "AI-Empowered Digital Medicine"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-370eb9f7de1171"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-370eb9f7de1171"
+      ],
+      "topics": [
+        "人工智能",
+        "数据挖掘",
+        "理论与优化",
+        "生物医学与健康",
+        "经济与管理"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ]
+    },
+    {
+      "id": "wide-cityu-xiangyu-zhao",
+      "researchKeywords": [
+        "Machine Learning and Data Mining",
+        "Reinforcement Learning/AutoML/Multimodal",
+        "Information Retrieval (Recommender Systems",
+        "Online Advertising",
+        "Search Engine)",
+        "Urban Computing and Spatio-Temporal Data Analysis",
+        "AI for Social Computing/Finance/Education/Ecosystem/Healthcare"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-card-ac146ace2075ad"
+      ],
+      "sourceIds": [
+        "cityu-ds-staff-cards-20261026",
+        "cityu-ds-card-ac146ace2075ad"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数据挖掘",
+        "金融与精算",
+        "生物医学与健康",
+        "人文与社会科学"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是院系公开目录中的原职位，研究方向和任职不等于当前有指导名额。",
+      "directorySourceIds": [
+        "cityu-ds-staff-cards-20261026"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ]
+    }
+  ],
+  "deferred": [
+    {
+      "name": "Zijun ZHANG",
+      "directoryRole": "Head and Professor",
+      "url": "http://www.cityu.edu.hk/stfprofile/00308048.htm",
+      "retrievedUrl": "http://www.cityu.edu.hk/stfprofile/00308048.htm",
+      "reason": "HTTP入口未改写，或跳转到机构首页；保留原目录线索，尚不作为个人研究档案加入检索。"
+    },
+    {
+      "name": "Clint Chin Pang HO",
+      "directoryRole": "Associate Head and Associate Professor",
+      "url": "http://www.cityu.edu.hk/stfprofile/ClintHo.htm",
+      "retrievedUrl": "http://www.cityu.edu.hk/stfprofile/ClintHo.htm",
+      "reason": "HTTP入口未改写，或跳转到机构首页；保留原目录线索，尚不作为个人研究档案加入检索。"
+    },
+    {
+      "name": "Way KUO",
+      "directoryRole": "Senior Fellow of Hong Kong Institute for Advanced StudyEmeritus President and University Distinguished Professor",
+      "url": "https://www.ias.cityu.edu.hk/html/profile/prof-way-kuo/index.htm",
+      "retrievedUrl": "https://www.hkias.cityu.edu.hk/",
+      "reason": "HTTP入口未改写，或跳转到机构首页；保留原目录线索，尚不作为个人研究档案加入检索。"
+    },
+    {
+      "name": "Matthias Hwai-yong TAN",
+      "directoryRole": "Associate Professor",
+      "url": "http://www.cityu.edu.hk/stfprofile/matthtan.htm",
+      "retrievedUrl": "http://www.cityu.edu.hk/stfprofile/matthtan.htm",
+      "reason": "HTTP入口未改写，或跳转到机构首页；保留原目录线索，尚不作为个人研究档案加入检索。"
+    }
+  ],
+  "directoryUpdate": {
+    "id": "expand-dir-cityu-ds",
+    "sourceIds": [
+      "cityu-ds-staff-cards-20261026"
+    ],
+    "coverageNotes": "本页32张学术人员卡片已逐一整理并读取其实际个人页；原HTTP及跳转机构首页的未确认入口单独待核。其他人员分类和完整分页继续核查，不确认指导资格或名额。",
+    "coverageComplete": false
+  }
+}

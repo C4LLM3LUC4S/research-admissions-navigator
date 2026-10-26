@@ -139,9 +139,9 @@ class AcademicMapChecks(unittest.TestCase):
             builder.validate(self.catalog)
 
     def test_staff_navigation_read_does_not_imply_complete_teacher_enumeration(self):
-        self.assertEqual(self.catalog['academicEntryProgress']['childBodiesRead'], 101)
-        self.assertEqual(self.catalog['academicEntryProgress']['childFailures'], 11)
-        self.assertEqual(self.catalog['academicEntryProgress']['distinctStaffRoutes'], 95)
+        self.assertEqual(self.catalog['academicEntryProgress']['childBodiesRead'], 128)
+        self.assertEqual(self.catalog['academicEntryProgress']['childFailures'], 12)
+        self.assertEqual(self.catalog['academicEntryProgress']['distinctStaffRoutes'], 107)
         child = next(c for r in self.catalog['academicCoverage'] for u in r['units'] for c in u['children'] if c.get('staffRoutes'))
         self.assertTrue(all(route['completeFacultyEnumeration'] is False for route in child['staffRoutes']))
         child['staffRoutes'][0]['completeFacultyEnumeration'] = True

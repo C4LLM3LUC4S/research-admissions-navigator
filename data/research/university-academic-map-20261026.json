@@ -1331,6 +1331,23 @@
       "knownIssues": [
         "页面未注明发布日期；核查日不等于架构生效日。"
       ]
+    },
+    {
+      "id": "academic-map-cityu-research-areas",
+      "url": "https://www.cb.cityu.edu.hk/en/pg/research-degree-programmes/research-areas",
+      "title": "港城大研究学位研究领域与学系官网入口",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "页面实际列出的学科学院、28个下属学系及其官网入口；不确认具体导师余位",
+      "claims": [
+        "已读研究学位研究领域全文，并按学院保留页面实际给出的28个学系和网址。"
+      ],
+      "knownIssues": [
+        "中央学术架构目录访问403仍保留，未用此页面冒充完整中央架构已读。",
+        "工学院介绍写six academic units，实际列五个学系；保留冲突，不补猜第六个。",
+        "不少官方入口仍为HTTP旧地址，使用实际跳转结果，不猜改HTTPS。"
+      ],
+      "bodySha256": "ef8ec90e095f2827198fd3869be5d6d1624dd123dc8ea32b6689aed7214a1966"
     }
   ],
   "universities": [
@@ -5497,9 +5514,10 @@
           "value": 11
         }
       ],
-      "note": "官方总介绍写十一所Colleges/Schools；中央完整架构页访问403。下列十个学科学院名称由可读的2027/28授课型项目目录交叉确认，研究生院另列；创新学院不混入十一的分母。授课型目录不能证明研究型项目开放。",
+      "note": "官方总介绍写十一所Colleges/Schools；中央完整架构页403仍保留。本轮已读独立可访问的官方研究学位研究领域页面，列出十个学科学院及28个下属学系，研究生院另列、创新学院不混入十一的分母。名单和项目仍需逐项核，不能由学院存在推定导师正在招生。",
       "sourceIds": [
-        "academic-map-cityu-structure"
+        "academic-map-cityu-structure",
+        "academic-map-cityu-research-areas"
       ],
       "units": [
         {
@@ -5510,13 +5528,48 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Biomedical Engineering",
+              "url": "http://www.cityu.edu.hk/bme/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Biomedical Sciences",
+              "url": "http://www.cityu.edu.hk/bms/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Neuroscience",
+              "url": "https://www.cityu.edu.hk/neuro/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-2",
@@ -5526,13 +5579,81 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Accountancy",
+              "url": "http://www.cityu.edu.hk/ac/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Decision Analytics and Operations",
+              "url": "https://www.cb.cityu.edu.hk/dao/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Economics and Finance",
+              "url": "http://www.cityu.edu.hk/ef/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Information Systems",
+              "url": "http://www.cityu.edu.hk/is/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Management",
+              "url": "http://www.cityu.edu.hk/mgt/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Marketing",
+              "url": "http://www.cityu.edu.hk/mkt/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-3",
@@ -5542,13 +5663,48 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Biostatistics",
+              "url": "https://www.cityu.edu.hk/bios/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Computer Science",
+              "url": "http://www.cs.cityu.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Data Science",
+              "url": "https://www.cityu.edu.hk/sdsc/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-4",
@@ -5558,13 +5714,70 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Architecture and Civil Engineering",
+              "url": "https://www.cityu.edu.hk/ace/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Electrical Engineering",
+              "url": "http://www.ee.cityu.edu.hk/home/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Materials Science and Engineering",
+              "url": "http://www.cityu.edu.hk/mse/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Mechanical Engineering",
+              "url": "http://www.cityu.edu.hk/mne/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Systems Engineering",
+              "url": "http://www.cityu.edu.hk/sye/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-5",
@@ -5574,13 +5787,81 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Chinese and History",
+              "url": "http://cah.cityu.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of English",
+              "url": "https://www.en.cityu.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Linguistics and Translation",
+              "url": "http://lt.cityu.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Media and Communication",
+              "url": "http://www6.cityu.edu.hk/com/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Public and International Affairs",
+              "url": "http://www.cityu.edu.hk/pia/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Social and Behavioural Sciences",
+              "url": "http://ssweb.cityu.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-6",
@@ -5590,13 +5871,48 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Chemistry",
+              "url": "http://www.cityu.edu.hk/chem/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Mathematics",
+              "url": "http://www6.cityu.edu.hk/ma/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Physics",
+              "url": "http://www.phy.cityu.edu.hk/home.aspx",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-7",
@@ -5606,61 +5922,88 @@
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "Department of Infectious Diseases and Public Health",
+              "url": "http://www.cityu.edu.hk/ph/",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            },
+            {
+              "name": "Department of Veterinary Clinical Sciences",
+              "url": "https://www.cityu.edu.hk/vcs",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_official_research_degree_areas",
+              "sourceIds": [
+                "academic-map-cityu-research-areas"
+              ]
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-8",
           "name": "School of Creative Media",
           "kind": "school",
-          "url": null,
+          "url": "http://www.scm.cityu.edu.hk/",
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-9",
           "name": "School of Energy and Environment",
           "kind": "school",
-          "url": null,
+          "url": "http://www.cityu.edu.hk/see/",
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-10",
           "name": "School of Law",
           "kind": "school",
-          "url": null,
+          "url": "http://www.cityu.edu.hk/slw/",
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
           "staffEntries": [],
-          "accessNote": "名称已交叉核实，独立学院入口及完整师资目录仍待核。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         },
         {
           "id": "cityu-gs",
@@ -5681,16 +6024,18 @@
           "id": "cityu-innovation",
           "name": "CityUHK Academy of Innovation",
           "kind": "additional_academy",
-          "url": null,
+          "url": "https://www.cityu.edu.hk/svie/academy-of-innovation.htm",
           "entryBodyStatus": "not_read",
           "readMethod": null,
           "sourceIds": [
-            "academic-map-cityu-unit-names"
+            "academic-map-cityu-unit-names",
+            "academic-map-cityu-research-areas"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
-          "staffEntries": []
+          "staffEntries": [],
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
         }
       ],
       "coverageComplete": false
