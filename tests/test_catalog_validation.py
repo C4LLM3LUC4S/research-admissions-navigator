@@ -41,6 +41,38 @@ class SourceDateChecks(unittest.TestCase):
                     builder.validate(self.catalog)
 
 
+class QuantitativeProgrammeChecks(unittest.TestCase):
+    def setUp(self):
+        self.programs = {p["id"]: p for p in builder.build_catalog()["programs"]}
+
+    def test_mathematics_keeps_its_own_deadlines_not_engineering_dates(self):
+        math = self.programs["hkust-math-rpg"]
+        autumn = [d for d in math["deadlines"] if d["degree"] is None and d["cycle"] == "2027/28"]
+        self.assertEqual([(d["date"], d["at"]) for d in autumn], [("2027-06-01", None)])
+        spring = [d for d in math["deadlines"] if d["cycle"] == "2026/27 Spring"]
+        self.assertEqual({d["date"] for d in spring}, {"2026-11-01", "2026-12-15"})
+        self.assertNotIn("2027-07-15", {d["date"] for d in math["deadlines"]})
+
+    def test_business_mphil_is_not_a_standalone_application(self):
+        for pid in ("hkust-fina-rpg", "hkust-is-rpg"):
+            with self.subTest(programme=pid):
+                p = self.programs[pid]
+                self.assertIn("MPhil不单独招生", p["name"])
+                items = {i["label"]: i for i in p["requirements"]}
+                self.assertIn("网申选择PhD", items["MPhil不能单独申请"]["text"])
+                self.assertIn("GMAT或GRE", items["另核GMAT或GRE"]["text"])
+                self.assertEqual(p["contact"]["status"], "unknown")
+                self.assertTrue(all(d["date"] == "2027-02-01" for d in p["deadlines"] if d["degree"] is None))
+
+    def test_statistics_intent_is_post_submission_not_a_preconsent_claim(self):
+        p = self.programs["cuhk-statistics-rpg"]
+        self.assertEqual(p["contact"]["status"], "unknown")
+        self.assertIn("正式网申后", p["contact"]["text"])
+        self.assertTrue(all(i["sourceIds"] == ["cuhk-statistics-2027"] for i in p["requirements"]))
+        self.assertFalse(any("CSE" in sid for sid in p["sourceIds"]))
+        self.assertTrue(all(d["at"] is None for d in p["deadlines"] if d["degree"] is None))
+
+
 class PageAssetChecks(unittest.TestCase):
     def test_public_page_mirror_is_exactly_the_reviewed_offline_page(self):
         for name in ('index.html', 'catalog.js', 'logic.js', 'app.js', 'styles.css', 'discovery.css'):

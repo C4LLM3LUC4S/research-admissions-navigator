@@ -53,10 +53,10 @@ members["START_HERE.md"] = """# 研向：本地试用
 
 source/ 保存对应源码、原始整理记录、不可覆盖的数据快照和开发检查。备份标记资料版本；页面使用当前目录，旧政策应结合对应旧目录核对。
 
-这是尚未公开上线的开发原型。实际验收范围见source/STATUS.json；代码检查、模拟DOM回调、真实浏览器操作分别记录，不能代替独立真人使用反馈。
+这是早期alpha。也可打开公开网页 https://c4llm3luc4s.github.io/research-admissions-navigator/ ，但网页可能更新，旧政策请保留本包资料。个人清单按浏览器来源分开，换网页或设备请带上完整备份。实际验收范围见source/STATUS.json；代码检查、模拟DOM回调、真实浏览器操作分别记录，不代替独立真人反馈。
 """.encode()
 info = {"version": version, "source_commit": source, "source_tree": git("rev-parse", "HEAD^{tree}").decode().strip(),
-        "catalog_snapshot": catalog["snapshotId"], "publicly_deployed": False, "contains_personal_profile": False}
+        "catalog_snapshot": catalog["snapshotId"], "publicly_deployed": True, "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/", "contains_personal_profile": False}
 if not version.endswith('-local'):
     info.update(repository_url="https://github.com/C4LLM3LUC4S/research-admissions-navigator", release_tag="v" + version,
                 artifact_scope="Experimental offline alpha; partial evidence-linked coverage, no hosted feedback service")

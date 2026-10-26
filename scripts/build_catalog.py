@@ -267,6 +267,9 @@ def build_catalog():
     catalog["sources"].extend(extended["sources"])
     catalog["faculty"].extend(extended["faculty"])
     catalog["directories"].extend(extended["directories"])
+    quantitative = load("quantitative-programmes-20261026.json")
+    catalog["sources"].extend(quantitative["sources"])
+    catalog["programs"].extend(quantitative["programs"])
     return catalog
 
 

@@ -1,0 +1,497 @@
+{
+  "checkedDate": "2026-10-26",
+  "sources": [
+    {
+      "id": "hkust-math-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-math",
+      "title": "HKUST 2027/28 — 数学（含概率统计、金融数学等方向）",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "香港校区；该项目2027/28目录与所列条件",
+      "claims": [
+        "数学MPhil/PhD，含概率统计、金融数学、数据科学等研究领域。",
+        "秋季本地和非本地截止均2027-06-01，常规轮未给时刻。",
+        "英语分新旧TOEFL；IELTS总6.5、分项5.5，不接受居家考试。"
+      ],
+      "knownIssues": [
+        "课程段落标注2023-06-01更新，不能当整页招生政策发布日期。",
+        "实际名额、导师接收和最终委员会层级未确认。"
+      ]
+    },
+    {
+      "id": "hkust-fina-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-fina",
+      "title": "HKUST 2027/28 — 金融（硕博贯通，MPhil不单独招生）",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "香港校区；该项目2027/28目录与所列条件",
+      "claims": [
+        "MPhil只在硕博贯通中提供，不能单独申请；网申选择PhD。",
+        "秋季本地和非本地截止均2027-02-01，常规轮未给时刻。",
+        "英语分新旧TOEFL；IELTS总6.5、分项5.5，不接受居家考试。"
+      ],
+      "knownIssues": [
+        "课程段落标注2026-08-26更新，不能当整页招生政策发布日期。",
+        "实际名额、导师接收和最终委员会层级未确认。"
+      ]
+    },
+    {
+      "id": "hkust-is-2027",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-is",
+      "title": "HKUST 2027/28 — 资讯系统（硕博贯通，MPhil不单独招生）",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "香港校区；该项目2027/28目录与所列条件",
+      "claims": [
+        "MPhil只在硕博贯通中提供，不能单独申请；网申选择PhD。",
+        "秋季本地和非本地截止均2027-02-01，常规轮未给时刻。",
+        "英语分新旧TOEFL；IELTS总6.5、分项5.5，不接受居家考试。"
+      ],
+      "knownIssues": [
+        "课程段落标注2023-09-25更新，不能当整页招生政策发布日期。",
+        "实际名额、导师接收和最终委员会层级未确认。"
+      ]
+    },
+    {
+      "id": "cuhk-statistics-2027",
+      "url": "https://www.sta.cuhk.edu.hk/programmes/m-phil-ph-d-in-statistics/",
+      "title": "CUHK Statistics — MPhil/PhD",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_department_programme_page",
+      "scope": "香港本部统计学；正文明确2027入学",
+      "claims": [
+        "主轮2026-12-01，补录2027-03-31且看余位；HKPFS学校完整申请12月1日23:59。",
+        "相关领域良好荣誉学位及研究院英语；正式提交后可填导师意向。"
+      ],
+      "knownIssues": [
+        "同页保留纸本递交等旧描述，完整材料及递交方式须核当期研究院，不能直接套旧操作。",
+        "官网提到导师意向有利申请，产品不换成概率、名额或承诺；原表是否仍收件须核。",
+        "未核到整页发布日期，不拿核查日替代。"
+      ]
+    }
+  ],
+  "programs": [
+    {
+      "id": "hkust-math-rpg",
+      "universityId": "hkust",
+      "name": "数学（含概率统计、金融数学等方向）",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港校区；2027/28秋季；常规研究学位，春季另列",
+      "contact": {
+        "status": "unknown",
+        "text": "这页没有写清是否要先取得导师同意，请向具体项目核对；不套用CSE或工程学院FAQ。",
+        "sourceIds": [
+          "hkust-math-2027"
+        ]
+      },
+      "selection": {
+        "text": "本页没有说明完整审批委员会或导师接收流程，正式结果以学校通知为准。",
+        "sourceIds": [
+          "hkust-math-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季本地及非本地截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "cycle": "2027/28",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "hkust-math-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "cycle": "2027/28",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "sourceIds": [
+            "hkust-math-2027"
+          ]
+        },
+        {
+          "label": "春季非本地截止：2026-11-01（官网未说明具体时间）",
+          "date": "2026-11-01",
+          "at": null,
+          "cycle": "2026/27 Spring",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "hkust-math-2027"
+          ]
+        },
+        {
+          "label": "春季本地截止：2026-12-15（官网未说明具体时间）",
+          "date": "2026-12-15",
+          "at": null,
+          "cycle": "2026/27 Spring",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "hkust-math-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-math-2027"
+      ],
+      "evidenceNote": "数学MPhil/PhD，含概率统计、金融数学、数据科学等研究领域。滚动审核不表示目前一定还有名额。",
+      "requirements": [
+        {
+          "label": "先核学历路线",
+          "text": "硕士一般须有认可学士或等同学历；博士可凭优秀学士表现，或官网所列研究生阶段学习记录考虑。满足最低条件不等于录取。",
+          "action": "按所选项目核对学历及完整材料，不自行换算资格",
+          "sourceIds": [
+            "hkust-math-2027"
+          ]
+        },
+        {
+          "label": "英语分考试日期与考试形式",
+          "text": "TOEFL iBT在2026-01-21前为80，新制为4.5；IELTS学术总6.5、每项5.5，须单次成绩，不接受居家考试。其他考试及英语母语/英语授课学士豁免看原页。",
+          "action": "按考试日期、形式及豁免条件核英语",
+          "sourceIds": [
+            "hkust-math-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-math-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "该项目页列申请费HK$180，不是学费、生活费或录取保证。",
+          "action": "付款前核该项目申请费，另查学费和资助",
+          "sourceIds": [
+            "hkust-math-2027"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该项目2027/28目录列申请费；学费、助学金未在本条核全"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkust-fina-rpg",
+      "universityId": "hkust",
+      "name": "金融（硕博贯通，MPhil不单独招生）",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港校区；2027/28秋季；MPhil仅属贯通培养，网申须选PhD",
+      "contact": {
+        "status": "unknown",
+        "text": "这页没有写清是否要先取得导师同意，请向具体项目核对；不套用CSE或工程学院FAQ。",
+        "sourceIds": [
+          "hkust-fina-2027"
+        ]
+      },
+      "selection": {
+        "text": "本页没有说明完整审批委员会或导师接收流程，正式结果以学校通知为准。",
+        "sourceIds": [
+          "hkust-fina-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季本地及非本地截止：2027-02-01（官网未说明具体时间）",
+          "date": "2027-02-01",
+          "at": null,
+          "cycle": "2027/28",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "cycle": "2027/28",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-fina-2027"
+      ],
+      "evidenceNote": "MPhil只在硕博贯通中提供，不能单独申请；网申选择PhD。滚动审核不表示目前一定还有名额。",
+      "requirements": [
+        {
+          "label": "先核学历路线",
+          "text": "硕士一般须有认可学士或等同学历；博士可凭优秀学士表现，或官网所列研究生阶段学习记录考虑。满足最低条件不等于录取。",
+          "action": "按所选项目核对学历及完整材料，不自行换算资格",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ]
+        },
+        {
+          "label": "英语分考试日期与考试形式",
+          "text": "TOEFL iBT在2026-01-21前为80，新制为4.5；IELTS学术总6.5、每项5.5，须单次成绩，不接受居家考试。其他考试及英语母语/英语授课学士豁免看原页。",
+          "action": "按考试日期、形式及豁免条件核英语",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ]
+        },
+        {
+          "label": "MPhil不能单独申请",
+          "text": "MPhil只在硕博贯通中提供，不能单独申请；网申选择PhD。不是独立研究型硕士入口，也不是授课型硕士。",
+          "action": "确认愿意走硕博贯通，网申选择PhD；不按独立MPhil申请",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ]
+        },
+        {
+          "label": "另核GMAT或GRE",
+          "text": "要求满意的GMAT或GRE成绩，本条没有统一数值；持港科大商学院MPhil者有该项豁免。",
+          "action": "准备GMAT或GRE，或核对港科大商学院MPhil豁免",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-fina-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "该项目页列申请费HK$180，不是学费、生活费或录取保证。",
+          "action": "付款前核该项目申请费，另查学费和资助",
+          "sourceIds": [
+            "hkust-fina-2027"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该项目2027/28目录列申请费；学费、助学金未在本条核全"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkust-is-rpg",
+      "universityId": "hkust",
+      "name": "资讯系统（硕博贯通，MPhil不单独招生）",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港校区；2027/28秋季；MPhil仅属贯通培养，网申须选PhD",
+      "contact": {
+        "status": "unknown",
+        "text": "这页没有写清是否要先取得导师同意，请向具体项目核对；不套用CSE或工程学院FAQ。",
+        "sourceIds": [
+          "hkust-is-2027"
+        ]
+      },
+      "selection": {
+        "text": "本页没有说明完整审批委员会或导师接收流程，正式结果以学校通知为准。",
+        "sourceIds": [
+          "hkust-is-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季本地及非本地截止：2027-02-01（官网未说明具体时间）",
+          "date": "2027-02-01",
+          "at": null,
+          "cycle": "2027/28",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "hkust-is-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "cycle": "2027/28",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "sourceIds": [
+            "hkust-is-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-is-2027"
+      ],
+      "evidenceNote": "MPhil只在硕博贯通中提供，不能单独申请；网申选择PhD。滚动审核不表示目前一定还有名额。",
+      "requirements": [
+        {
+          "label": "先核学历路线",
+          "text": "硕士一般须有认可学士或等同学历；博士可凭优秀学士表现，或官网所列研究生阶段学习记录考虑。满足最低条件不等于录取。",
+          "action": "按所选项目核对学历及完整材料，不自行换算资格",
+          "sourceIds": [
+            "hkust-is-2027"
+          ]
+        },
+        {
+          "label": "英语分考试日期与考试形式",
+          "text": "TOEFL iBT在2026-01-21前为80，新制为4.5；IELTS学术总6.5、每项5.5，须单次成绩，不接受居家考试。其他考试及英语母语/英语授课学士豁免看原页。",
+          "action": "按考试日期、形式及豁免条件核英语",
+          "sourceIds": [
+            "hkust-is-2027"
+          ]
+        },
+        {
+          "label": "MPhil不能单独申请",
+          "text": "MPhil只在硕博贯通中提供，不能单独申请；网申选择PhD。不是独立研究型硕士入口，也不是授课型硕士。",
+          "action": "确认愿意走硕博贯通，网申选择PhD；不按独立MPhil申请",
+          "sourceIds": [
+            "hkust-is-2027"
+          ]
+        },
+        {
+          "label": "另核GMAT或GRE",
+          "text": "要求满意的GMAT或GRE成绩，本条没有统一数值；持港科大商学院MPhil者有该项豁免。",
+          "action": "准备GMAT或GRE，或核对港科大商学院MPhil豁免",
+          "sourceIds": [
+            "hkust-is-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-is-application-fee",
+          "kind": "application_fee",
+          "label": "申请费与学费分开",
+          "text": "该项目页列申请费HK$180，不是学费、生活费或录取保证。",
+          "action": "付款前核该项目申请费，另查学费和资助",
+          "sourceIds": [
+            "hkust-is-2027"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "该项目2027/28目录列申请费；学费、助学金未在本条核全"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhk-statistics-rpg",
+      "universityId": "cuhk",
+      "name": "统计学 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港本部统计学；2027年8月入学，不套深圳或CSE流程",
+      "contact": {
+        "status": "unknown",
+        "text": "系里建议正式网申后补填导师意向。这不等于申请前必须拿同意，也不代表老师承诺接收。",
+        "sourceIds": [
+          "cuhk-statistics-2027"
+        ]
+      },
+      "selection": {
+        "text": "本页没有说明最终审批委员会组成；填写导师意向不是正式录取。",
+        "sourceIds": [
+          "cuhk-statistics-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "cycle": "2027/28",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhk-statistics-2027"
+          ]
+        },
+        {
+          "label": "补录截止（看余位）：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "cycle": "2027/28",
+          "degree": null,
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhk-statistics-2027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "cycle": "2027/28",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "sourceIds": [
+            "cuhk-statistics-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-statistics-2027"
+      ],
+      "evidenceNote": "统计系自己的说明；旧纸本操作需核当期研究院。",
+      "requirements": [
+        {
+          "label": "先核专业背景与学校要求",
+          "text": "系页要求相关领域良好荣誉学位，并满足研究院一般资格及英语要求；未补猜英语分数或换算GPA。",
+          "action": "按统计学项目核学历、英语及当期材料",
+          "sourceIds": [
+            "cuhk-statistics-2027"
+          ]
+        },
+        {
+          "label": "提交后补导师意向",
+          "text": "正式网申后，系页另给导师意向表。先读研究方向，再核当前表单；不当作套磁承诺或量化录取机会。",
+          "action": "正式提交后，按统计系原页核导师意向表是否适用",
+          "sourceIds": [
+            "cuhk-statistics-2027"
+          ]
+        }
+      ]
+    }
+  ],
+  "notClaimed": [
+    "complete materials",
+    "current vacancies",
+    "CSE dates/contact apply to other units"
+  ],
+  "failedLookups": [
+    {
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-in-statistics",
+      "result": "not accessible via web tool; read official department programme body instead"
+    }
+  ]
+}
