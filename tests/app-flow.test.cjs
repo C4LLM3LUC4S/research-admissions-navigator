@@ -62,6 +62,20 @@ test('school structure is a separate scoped journey, without inventing faculty t
   assert.equal(h.networkCalls(),0);
 });
 
+test('a non-computing applicant can find real research terms, inspect original roles and keep the same backup flow',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('polyu','PhD',['旅游与酒店管理']);el('research-query').value='旅游经济学';
+  await el('profile-form').emit('input',{target:el('research-query')});
+  assert.match(el('results').textContent,/Haiyan Song/);
+  assert.match(el('results').textContent,/目录中的原职位/);
+  assert.match(el('results').textContent,/指导资格/);
+  await h.button('results','放入我的清单').emit('click');await el('profile-form').emit('submit');
+  await el('export-local').emit('click');const backup=L.parsePortable(await h.downloads[0].blob.text(),C);
+  assert.equal(backup.profile.interests[0],'旅游与酒店管理');assert.ok(backup.shortlist.length);
+  const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);
+  assert.match(restored.byId.get('saved-faculty').textContent,/Haiyan Song/);assert.equal(h.networkCalls(),0);
+});
+
 test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.ok(el('results').childElementCount>0);

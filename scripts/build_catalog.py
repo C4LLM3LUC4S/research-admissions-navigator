@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CHECKED = "2026-10-26"
 CYCLE = "2027/28"
-TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频")
+TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理")
 # Exact aliases only: generic words such as 'systems' do not create extra fields.
 ALIASES = {
     "人工智能": {"人工智能", "ai", "ai4science", "ai theory", "大语言模型", "智能体", "人工智能与通信网络融合"},
@@ -282,6 +282,39 @@ def build_catalog():
     academic_map = load("university-academic-map-20261026.json")
     catalog["sources"].extend(academic_map["sources"])
     catalog["academicCoverage"] = academic_map["universities"]
+    reviewed = load("reviewed-directory-profiles-20261026.json")
+    catalog["sources"].extend(reviewed["sources"])
+    catalog["faculty"].extend(reviewed["faculty"])
+    by_id = {f["id"]: f for f in catalog["faculty"]}
+    for update in reviewed["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        for field in ("academicUnitIds", "directoryRole", "identityNote", "reviewedProfileUrl"):
+            old[field] = update[field]
+        for link in old.get("extraLinks", []):
+            if link["url"] == update["reviewedProfileUrl"]:
+                link.update(bodyStatus="body_read", sourceId=update["sourceIds"][0])
+    reviews = {r["url"]: r for r in reviewed["profileReviews"]}
+    for overview in catalog["academicCoverage"]:
+        for unit in overview["units"]:
+            for entry in unit["staffEntries"]:
+                for lead in entry.get("profileLeads", []):
+                    review = reviews[lead["url"]]
+                    lead.update(profileBodyStatus=review["profileBodyStatus"], bodySha256=review["bodySha256"],
+                                researchReviewStatus=review["researchReviewStatus"], facultyId=review["facultyId"])
+    entry_progress = load("academic-entry-progress-20261026.json")
+    catalog["sources"].extend(entry_progress["sources"])
+    entry_by_url = {row["url"]: row for row in entry_progress["entries"]}
+    catalog["academicEntryProgress"] = entry_progress["counts"]
+    for overview in catalog["academicCoverage"]:
+        for unit in overview["units"]:
+            for child in unit["children"]:
+                row = entry_by_url.get((child.get("url") or "").split("#", 1)[0])
+                if row:
+                    child.update(entryBodyStatus=row["bodyStatus"], sourceIds=row["sourceIds"],
+                                 bodySha256=row["bodySha256"], retrievedUrl=row["retrievedUrl"],
+                                 staffRoutes=row["staffRoutes"], failure=row["failure"])
     return catalog
 
 
@@ -418,11 +451,24 @@ def validate(catalog):
                 assert len({lead["url"] for lead in leads}) == len(leads)
                 for lead in leads:
                     assert lead["observedOn"] == entry["url"] and lead["directoryLabel"]
-                    assert lead["profileBodyStatus"] == "not_read" and lead["supervisionEligibility"] == lead["availability"] == "unknown"
+                    assert lead["profileBodyStatus"] in {"not_read", "body_read", "access_failed"} and lead["supervisionEligibility"] == lead["availability"] == "unknown"
+                    if lead["profileBodyStatus"] == "body_read":
+                        assert re.fullmatch("[a-f0-9]{64}", lead["bodySha256"])
+                    if lead.get("facultyId"):
+                        assert lead["facultyId"] in faculty_ids
+                        assert lead["researchReviewStatus"] == "research_excerpt_and_directory_role_reviewed"
                     assert any(lead["url"] in sources[sid].get("discoveredLinks", []) for sid in entry["sourceIds"])
             for child in unit["children"]:
                 assert child["teacherProfilesTotal"] is None and child["teacherReviewStatus"] == "pending"
-                assert child["entryBodyStatus"] == "not_read"
+                assert child["entryBodyStatus"] in {"not_read", "body_read", "access_failed"}
+                if child["entryBodyStatus"] == "body_read":
+                    assert re.fullmatch("[a-f0-9]{64}", child["bodySha256"])
+                    if child["retrievedUrl"].startswith("https://"):
+                        refs(child["sourceIds"])
+                for route in child.get("staffRoutes", []):
+                    assert route["completeFacultyEnumeration"] is False
+                    if route["bodyStatus"] == "body_read" and route.get("retrievedUrl", "").startswith("https://"):
+                        refs(route["sourceIds"])
     counts = {"universities": len(unis), "programs": len(catalog["programs"]), "faculty": len(catalog["faculty"]), "sources": len(sources),
         "funding": len(catalog["funding"]), "degreeRoutes": sum(len(p["degrees"]) for p in catalog["programs"]),
         "facultyByUniversity": dict(Counter(f["universityId"] for f in catalog["faculty"])),

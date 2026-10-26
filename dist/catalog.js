@@ -3249,7 +3249,8 @@ window.APP_CATALOG = {
       "topics": [
         "计算机视觉",
         "机器学习",
-        "理论与优化"
+        "理论与优化",
+        "计算机图形学"
       ],
       "researchKeywords": [
         "Computer vision",
@@ -3260,7 +3261,8 @@ window.APP_CATALOG = {
       "summary": "研究视觉、机器学习与优化，并与计算机图形学结合。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
       "sourceIds": [
-        "wide-hkust-qifeng-chen-profile"
+        "wide-hkust-qifeng-chen-profile",
+        "review-profile-44ef49666e37f8"
       ],
       "availability": {
         "state": "unknown",
@@ -3274,8 +3276,15 @@ window.APP_CATALOG = {
         "wide-dir-hkust-cse-ai"
       ],
       "keywordSourceIds": [
-        "wide-hkust-qifeng-chen-profile"
-      ]
+        "wide-hkust-qifeng-chen-profile",
+        "review-profile-44ef49666e37f8"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "CHEN Qifeng Associate Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/qifeng-chen/"
     },
     {
       "id": "wide-hkust-junxian-he",
@@ -3326,13 +3335,16 @@ window.APP_CATALOG = {
         "Data mining",
         "Information extraction",
         "Machine learning",
-        "Text mining"
+        "Text mining",
+        "Language modeling",
+        "Knowledge representations"
       ],
       "summary": "可以先从人工智能、数据挖掘、信息抽取和文本挖掘这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
       "sourceIds": [
         "wide-hkust-yangqiu-song-profile",
-        "census-hkust-cse-profile-yqsong"
+        "census-hkust-cse-profile-yqsong",
+        "review-profile-0f2be26f049fc9"
       ],
       "availability": {
         "state": "unknown",
@@ -3348,7 +3360,8 @@ window.APP_CATALOG = {
       ],
       "keywordSourceIds": [
         "wide-hkust-yangqiu-song-profile",
-        "census-hkust-cse-profile-yqsong"
+        "census-hkust-cse-profile-yqsong",
+        "review-profile-0f2be26f049fc9"
       ],
       "extraLinks": [
         {
@@ -3361,9 +3374,16 @@ window.APP_CATALOG = {
           "url": "https://researchportal.hkust.edu.hk/en/persons/yangqiu-song/",
           "label": "校方研究档案",
           "parentSourceId": "census-hkust-cse-profile-yqsong",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "review-profile-0f2be26f049fc9"
         }
-      ]
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "SONG Yangqiu Associate Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yangqiu-song/"
     },
     {
       "id": "wide-hkust-yi-r-fung",
@@ -3373,20 +3393,25 @@ window.APP_CATALOG = {
       "role": "Assistant Professor",
       "topics": [
         "自然语言处理",
-        "人工智能"
+        "人工智能",
+        "机器学习"
       ],
       "researchKeywords": [
         "Natural language processing",
         "Multimedia knowledge reasoning",
         "Computational social science",
         "Retrieval-augmented generation",
-        "Agentic frameworks"
+        "Agentic frameworks",
+        "AI / ML / NLP",
+        "Reasoning and Agents",
+        "Computational Social Science"
       ],
       "summary": "可以先从自然语言处理、多媒体知识推理与计算社会科学这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
       "sourceIds": [
         "wide-hkust-yi-r-fung-profile",
-        "census-hkust-cse-profile-yrfung"
+        "census-hkust-cse-profile-yrfung",
+        "review-profile-8964b74e8d6e88"
       ],
       "availability": {
         "state": "unknown",
@@ -3402,7 +3427,8 @@ window.APP_CATALOG = {
       ],
       "keywordSourceIds": [
         "wide-hkust-yi-r-fung-profile",
-        "census-hkust-cse-profile-yrfung"
+        "census-hkust-cse-profile-yrfung",
+        "review-profile-8964b74e8d6e88"
       ],
       "extraLinks": [
         {
@@ -3415,9 +3441,16 @@ window.APP_CATALOG = {
           "url": "https://researchportal.hkust.edu.hk/en/persons/may-fung/",
           "label": "校方研究档案",
           "parentSourceId": "census-hkust-cse-profile-yrfung",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "review-profile-8964b74e8d6e88"
         }
-      ]
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "May FUNG Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/may-fung/"
     },
     {
       "id": "wide-hkust-song-guo",
@@ -3435,13 +3468,19 @@ window.APP_CATALOG = {
         "Physical AI",
         "Machine learning systems",
         "World models",
-        "Embodied AI"
+        "Embodied AI",
+        "Edge AI",
+        "Machine learning",
+        "Cloud computing",
+        "Distributed systems",
+        "Mobile computing"
       ],
       "summary": "可以先从大语言模型、物理AI和机器学习系统这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
       "sourceIds": [
         "wide-hkust-song-guo-profile",
-        "census-hkust-cse-profile-songguo"
+        "census-hkust-cse-profile-songguo",
+        "review-profile-f1e1f77e0ad72d"
       ],
       "availability": {
         "state": "unknown",
@@ -3457,7 +3496,8 @@ window.APP_CATALOG = {
       ],
       "keywordSourceIds": [
         "wide-hkust-song-guo-profile",
-        "census-hkust-cse-profile-songguo"
+        "census-hkust-cse-profile-songguo",
+        "review-profile-f1e1f77e0ad72d"
       ],
       "extraLinks": [
         {
@@ -3470,9 +3510,16 @@ window.APP_CATALOG = {
           "url": "https://researchportal.hkust.edu.hk/en/persons/song-guo/",
           "label": "校方研究档案",
           "parentSourceId": "census-hkust-cse-profile-songguo",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "review-profile-f1e1f77e0ad72d"
         }
-      ]
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "GUO Song Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/song-guo/"
     },
     {
       "id": "wide-hkust-zihan-zhang",
@@ -6530,11 +6577,13 @@ window.APP_CATALOG = {
         "Machine learning"
       ],
       "keywordSourceIds": [
-        "census-hkust-cse-profile-lzhang"
+        "census-hkust-cse-profile-lzhang",
+        "review-profile-a716d1f3ec6ca3"
       ],
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lzhang",
       "sourceIds": [
-        "census-hkust-cse-profile-lzhang"
+        "census-hkust-cse-profile-lzhang",
+        "review-profile-a716d1f3ec6ca3"
       ],
       "directorySourceIds": [
         "census-hkust-cse-regular"
@@ -6550,7 +6599,8 @@ window.APP_CATALOG = {
           "url": "https://researchportal.hkust.edu.hk/en/persons/nevin-lianwen-zhang/",
           "label": "校方研究档案",
           "parentSourceId": "census-hkust-cse-profile-lzhang",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "review-profile-a716d1f3ec6ca3"
         }
       ],
       "availability": {
@@ -6560,7 +6610,13 @@ window.APP_CATALOG = {
           "census-hkust-cse-profile-lzhang"
         ],
         "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
-      }
+      },
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Nevin Lianwen ZHANG Co-director",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/nevin-lianwen-zhang/"
     },
     {
       "id": "census-hkust-arya",
@@ -7355,6 +7411,6187 @@ window.APP_CATALOG = {
           "census-hkust-cse-profile-mingxunz"
         ],
         "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "review-hkust-dea5c4e675ccdc",
+      "researchKeywords": [
+        "Information visualization",
+        "Big data",
+        "Human-computer interaction",
+        "Artificial intelligence",
+        "Mobile augmented reality"
+      ],
+      "keywordSourceIds": [
+        "review-profile-dea5c4e675ccdc"
+      ],
+      "sourceIds": [
+        "review-profile-dea5c4e675ccdc"
+      ],
+      "topics": [
+        "人工智能",
+        "数据挖掘",
+        "人机交互"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "QU Huamin Chair Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/huamin-qu/",
+      "universityId": "hkust",
+      "name": "Huamin QU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/huamin-qu/",
+      "summary": "公开研究线索：Information visualization；Big data；Human-computer interaction。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-dea5c4e675ccdc"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-386299345c41c8",
+      "researchKeywords": [
+        "Biomarkers and microbial VOCs",
+        "Bioaerosols",
+        "General air quality",
+        "Environmental education"
+      ],
+      "keywordSourceIds": [
+        "review-profile-386299345c41c8"
+      ],
+      "sourceIds": [
+        "review-profile-386299345c41c8"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "人文与社会科学",
+        "教育学",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Arthur LAU Professor of Interdisciplinary Education",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/pui-sang-lau/",
+      "universityId": "hkust",
+      "name": "Pui Sang LAU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/pui-sang-lau/",
+      "summary": "公开研究线索：Biomarkers and microbial VOCs；Bioaerosols；General air quality。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-386299345c41c8"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-48b966d4f23b30",
+      "researchKeywords": [
+        "Air Pollution",
+        "Air Pollution Measurement and Modelling",
+        "Air Pollution Exposure and Health Impact Assessment",
+        "Microsensors",
+        "Instrumentation and measurement"
+      ],
+      "keywordSourceIds": [
+        "review-profile-48b966d4f23b30"
+      ],
+      "sourceIds": [
+        "review-profile-48b966d4f23b30"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "土木与机械工程",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "NING Zhi Associate Dean (Research and Graduate Studies)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/zhi-ning/",
+      "universityId": "hkust",
+      "name": "Zhi NING",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/zhi-ning/",
+      "summary": "公开研究线索：Air Pollution；Air Pollution Measurement and Modelling；Air Pollution Exposure and Health Impact Assessment。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-48b966d4f23b30"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-4e1c2f85d5f922",
+      "researchKeywords": [
+        "Air quality analysis, forecasts and management",
+        "Air pollution exposure and health impact assessment",
+        "Climate Adaptation and Resilience",
+        "Sustainable Urban Environment",
+        "Green and Sustainable Finance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-4e1c2f85d5f922"
+      ],
+      "sourceIds": [
+        "review-profile-4e1c2f85d5f922"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "土木与机械工程",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Alexis K H LAU Head; Tang Junyuan Professor of Environmental Science",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/alexis-kai-hon-lau/",
+      "universityId": "hkust",
+      "name": "Alexis Kai Hon LAU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/alexis-kai-hon-lau/",
+      "summary": "公开研究线索：Air quality analysis, forecasts and management；Air pollution exposure and health impact assessment；Climate Adaptation and Resilience。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-4e1c2f85d5f922"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-8ad06467096ef5",
+      "researchKeywords": [
+        "Land-atmosphere interactions",
+        "Land-surface and hydrologic process",
+        "Development of community land-surface, weather prediction, and climate models",
+        "Urbanization and its impacts on weather and climate",
+        "Agriculture management modelling in land-surface models",
+        "Regional climate modelling and assessment"
+      ],
+      "keywordSourceIds": [
+        "review-profile-8ad06467096ef5"
+      ],
+      "sourceIds": [
+        "review-profile-8ad06467096ef5"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "土木与机械工程",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "CHEN Fei Associate Head; Chair Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/fei-chen/",
+      "universityId": "hkust",
+      "name": "Fei CHEN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/fei-chen/",
+      "summary": "公开研究线索：Land-atmosphere interactions；Land-surface and hydrologic process；Development of community land-surface, weather prediction, and climate models。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-8ad06467096ef5"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-ef14de1e698bde",
+      "researchKeywords": [
+        "Atmospheric Chemistry",
+        "Air Pollution",
+        "Atmospheric heterogeneous/multiphase chemistry",
+        "Cloud-aerosol-gas interactions",
+        "Oxidation of VOCs and SOA formation"
+      ],
+      "keywordSourceIds": [
+        "review-profile-ef14de1e698bde"
+      ],
+      "sourceIds": [
+        "review-profile-ef14de1e698bde"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "WANG Zhe Associate Professor; UG Coordinator",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/zhe-wang-2/",
+      "universityId": "hkust",
+      "name": "Zhe WANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/zhe-wang-2/",
+      "summary": "公开研究线索：Atmospheric Chemistry；Air Pollution；Atmospheric heterogeneous/multiphase chemistry。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-ef14de1e698bde"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-4b9db911fa7031",
+      "researchKeywords": [
+        "Climate change and variability",
+        "Analysis of hydrological extremes",
+        "Regional Climate Change Modelling",
+        "Global and planetary change"
+      ],
+      "keywordSourceIds": [
+        "review-profile-4b9db911fa7031"
+      ],
+      "sourceIds": [
+        "review-profile-4b9db911fa7031"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "IM Eun Soon Associate Professor (Joint Appointment); RPg Coordinator",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/eun-soon-im/",
+      "universityId": "hkust",
+      "name": "Eun Soon IM",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/eun-soon-im/",
+      "summary": "公开研究线索：Climate change and variability；Analysis of hydrological extremes；Regional Climate Change Modelling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-4b9db911fa7031"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-a580916ecb8ec2",
+      "researchKeywords": [
+        "Environmental engineering"
+      ],
+      "keywordSourceIds": [
+        "review-profile-a580916ecb8ec2"
+      ],
+      "sourceIds": [
+        "review-profile-a580916ecb8ec2"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "CHEN Guanghao Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/guanghao-chen/",
+      "universityId": "hkust",
+      "name": "Guanghao CHEN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/guanghao-chen/",
+      "summary": "公开研究线索：Environmental engineering。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-a580916ecb8ec2"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-1a4d5126dd3fea",
+      "researchKeywords": [
+        "Atmospheric science and weather prediction",
+        "Regional climate change and variability",
+        "Multi-scale air quality modeling",
+        "Computational fluid dynamics",
+        "Environmental Sustainability"
+      ],
+      "keywordSourceIds": [
+        "review-profile-1a4d5126dd3fea"
+      ],
+      "sourceIds": [
+        "review-profile-1a4d5126dd3fea"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "人文与社会科学",
+        "教育学",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Jimmy FUNG Chair Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/jimmy-chi-hung-fung/",
+      "universityId": "hkust",
+      "name": "Jimmy Chi Hung FUNG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/jimmy-chi-hung-fung/",
+      "summary": "公开研究线索：Atmospheric science and weather prediction；Regional climate change and variability；Multi-scale air quality modeling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-1a4d5126dd3fea"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-8e8e02159255ad",
+      "researchKeywords": [
+        "Ocean Circulation and Ecosystem Modelling",
+        "Computational fluid dynamics",
+        "Physical oceanography",
+        "Ocean circulation and ecosystem",
+        "Regional Climate Change Modelling"
+      ],
+      "keywordSourceIds": [
+        "review-profile-8e8e02159255ad"
+      ],
+      "sourceIds": [
+        "review-profile-8e8e02159255ad"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "GAN Jianping Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/jianping-gan/",
+      "universityId": "hkust",
+      "name": "Jianping GAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/jianping-gan/",
+      "summary": "公开研究线索：Ocean Circulation and Ecosystem Modelling；Computational fluid dynamics；Physical oceanography。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-8e8e02159255ad"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-974099ba22b899",
+      "researchKeywords": [
+        "Remote Sensing",
+        "Tropical meteorology",
+        "Climate Variability and Climate Change"
+      ],
+      "keywordSourceIds": [
+        "review-profile-974099ba22b899"
+      ],
+      "sourceIds": [
+        "review-profile-974099ba22b899"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "SU Hui Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/hui-su/",
+      "universityId": "hkust",
+      "name": "Hui SU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/hui-su/",
+      "summary": "公开研究线索：Remote Sensing；Tropical meteorology；Climate Variability and Climate Change。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-974099ba22b899"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-6c1c8e4437ee5f",
+      "researchKeywords": [
+        "Environmental pollution treatment",
+        "Nanoporous and nanostructured materials",
+        "Biomedical engineering (BME)"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6c1c8e4437ee5f"
+      ],
+      "sourceIds": [
+        "review-profile-6c1c8e4437ee5f"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "YEUNG King Lun Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/king-lun-yeung/",
+      "universityId": "hkust",
+      "name": "King Lun YEUNG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/king-lun-yeung/",
+      "summary": "公开研究线索：Environmental pollution treatment；Nanoporous and nanostructured materials；Biomedical engineering (BME)。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6c1c8e4437ee5f"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-824888edfb74dc",
+      "researchKeywords": [
+        "Aerosol chemistry",
+        "Analytical chemistry",
+        "Atmospheric applications",
+        "Environmental analysis",
+        "Atmospheric science",
+        "Environmental chemistry/instrumentation",
+        "Urban ozone formation chemistry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-824888edfb74dc"
+      ],
+      "sourceIds": [
+        "review-profile-824888edfb74dc"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "YU Jianzhen Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/jianzhen-yu/",
+      "universityId": "hkust",
+      "name": "Jianzhen YU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/jianzhen-yu/",
+      "summary": "公开研究线索：Aerosol chemistry；Analytical chemistry；Atmospheric applications。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-824888edfb74dc"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-e07f46c91c3364",
+      "researchKeywords": [
+        "Analytical chemistry",
+        "Bioanalytical chemistry",
+        "Chemical toxicology",
+        "Food Chemistry",
+        "Mass spectrometry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e07f46c91c3364"
+      ],
+      "sourceIds": [
+        "review-profile-e07f46c91c3364"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Simon CHAN Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wan-chan/",
+      "universityId": "hkust",
+      "name": "Simon Wan CHAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wan-chan/",
+      "summary": "公开研究线索：Analytical chemistry；Bioanalytical chemistry；Chemical toxicology。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e07f46c91c3364"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-edf807d52fe9a4",
+      "researchKeywords": [
+        "Sustainable production and manufacturing",
+        "Emergence of the innovation systems approach",
+        "Green chemistry and engineering",
+        "National innovation systems in Asia and Europe"
+      ],
+      "keywordSourceIds": [
+        "review-profile-edf807d52fe9a4"
+      ],
+      "sourceIds": [
+        "review-profile-edf807d52fe9a4"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程",
+        "经济与管理",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Kira MATUS Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/kira-matus/",
+      "universityId": "hkust",
+      "name": "Kira MATUS",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kira-matus/",
+      "summary": "公开研究线索：Sustainable production and manufacturing；Emergence of the innovation systems approach；Green chemistry and engineering。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-edf807d52fe9a4"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-62aa396fe8bff1",
+      "researchKeywords": [
+        "Computing for Sustainability",
+        "Sustainable Computing",
+        "AI for Weather and Climate Systems",
+        "Edge AI"
+      ],
+      "keywordSourceIds": [
+        "review-profile-62aa396fe8bff1"
+      ],
+      "sourceIds": [
+        "review-profile-62aa396fe8bff1"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "WANG Dan Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/dan-wang/",
+      "universityId": "hkust",
+      "name": "Dan WANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/dan-wang/",
+      "summary": "公开研究线索：Computing for Sustainability；Sustainable Computing；AI for Weather and Climate Systems。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-62aa396fe8bff1"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-631bafd264ae90",
+      "researchKeywords": [
+        "Air Pollution Measurement and Modelling",
+        "Atmospheric Chemistry",
+        "Air Quality Analyses and Forecasts",
+        "Air Quality Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-631bafd264ae90"
+      ],
+      "sourceIds": [
+        "review-profile-631bafd264ae90"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "YING Qi Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/qi-ying/",
+      "universityId": "hkust",
+      "name": "Qi YING",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/qi-ying/",
+      "summary": "公开研究线索：Air Pollution Measurement and Modelling；Atmospheric Chemistry；Air Quality Analyses and Forecasts。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-631bafd264ae90"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-e55d707c50c86e",
+      "researchKeywords": [
+        "Socially responsible investing (SRI)",
+        "Corporate social responsibility (CSR)",
+        "Behavioral finance",
+        "Mutual funds / hedge funds"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e55d707c50c86e"
+      ],
+      "sourceIds": [
+        "review-profile-e55d707c50c86e"
+      ],
+      "topics": [
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Darwin CHOI Associate Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/darwin-choi/",
+      "universityId": "hkust",
+      "name": "Darwin CHOI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/darwin-choi/",
+      "summary": "公开研究线索：Socially responsible investing (SRI)；Corporate social responsibility (CSR)；Behavioral finance。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e55d707c50c86e"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-2fc5c27047de73",
+      "researchKeywords": [
+        "Environment and society",
+        "Global and Planetary Change",
+        "Environmental Sustainability",
+        "Renewable energy",
+        "Developing countries"
+      ],
+      "keywordSourceIds": [
+        "review-profile-2fc5c27047de73"
+      ],
+      "sourceIds": [
+        "review-profile-2fc5c27047de73"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "材料与能源",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Laurence L DELINA Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/laurence-delina/",
+      "universityId": "hkust",
+      "name": "Laurence Delina",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/laurence-delina/",
+      "summary": "公开研究线索：Environment and society；Global and Planetary Change；Environmental Sustainability。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-2fc5c27047de73"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-3b15ce3cb43432",
+      "researchKeywords": [
+        "Air Pollution",
+        "Atmospheric Chemistry",
+        "Emission Inventory",
+        "Remote Sensing",
+        "Environmental Technologies"
+      ],
+      "keywordSourceIds": [
+        "review-profile-3b15ce3cb43432"
+      ],
+      "sourceIds": [
+        "review-profile-3b15ce3cb43432"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "GU Dasa Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/dasa-gu/",
+      "universityId": "hkust",
+      "name": "Dasa GU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/dasa-gu/",
+      "summary": "公开研究线索：Air Pollution；Atmospheric Chemistry；Emission Inventory。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-3b15ce3cb43432"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-c40ba19ece1d20",
+      "researchKeywords": [
+        "Atmospheric science and weather prediction",
+        "Regional Climate Change Modelling",
+        "Computational Fluid Dynamics",
+        "Atmospheric science",
+        "Climate change and variability"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c40ba19ece1d20"
+      ],
+      "sourceIds": [
+        "review-profile-c40ba19ece1d20"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "SHI Xiaoming Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/xiaoming-shi/",
+      "universityId": "hkust",
+      "name": "Xiaoming SHI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/xiaoming-shi/",
+      "summary": "公开研究线索：Atmospheric science and weather prediction；Regional Climate Change Modelling；Computational Fluid Dynamics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c40ba19ece1d20"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-08e1a4ca4e232f",
+      "researchKeywords": [
+        "Policy Design and Innovations",
+        "Emergence of the Innovation Systems Approach",
+        "Energy Policy and Technology Development",
+        "Climate Change and Global Environmental Governance",
+        "Big Data and Social Science Research"
+      ],
+      "keywordSourceIds": [
+        "review-profile-08e1a4ca4e232f"
+      ],
+      "sourceIds": [
+        "review-profile-08e1a4ca4e232f"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Masaru YARIME Associate Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/masaru-yarime/",
+      "universityId": "hkust",
+      "name": "Masaru YARIME",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/masaru-yarime/",
+      "summary": "公开研究线索：Policy Design and Innovations；Emergence of the Innovation Systems Approach；Energy Policy and Technology Development。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-08e1a4ca4e232f"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-c03275b596531f",
+      "researchKeywords": [
+        "Environmental Economics",
+        "Game Theory",
+        "Economic theory"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c03275b596531f"
+      ],
+      "sourceIds": [
+        "review-profile-c03275b596531f"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "经济与管理",
+        "理论与优化"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Keith CHAN Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/keith-chan/",
+      "universityId": "hkust",
+      "name": "Keith CHAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/keith-chan/",
+      "summary": "公开研究线索：Environmental Economics；Game Theory；Economic theory。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c03275b596531f"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-5c3d28302f4db3",
+      "researchKeywords": [
+        "Renewable energy",
+        "Life cycle assessment",
+        "Energy Policy and Technology Development",
+        "Synergies and trade-offs across sectors",
+        "International finance and investment"
+      ],
+      "keywordSourceIds": [
+        "review-profile-5c3d28302f4db3"
+      ],
+      "sourceIds": [
+        "review-profile-5c3d28302f4db3"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程",
+        "人文与社会科学",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "CHEN Shi Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/shi-chen/",
+      "universityId": "hkust",
+      "name": "Shi CHEN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/shi-chen/",
+      "summary": "公开研究线索：Renewable energy；Life cycle assessment；Energy Policy and Technology Development。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-5c3d28302f4db3"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-3819ce37bb38d4",
+      "researchKeywords": [
+        "Sustainable finance",
+        "Corporate finance",
+        "Environmental Sustainability",
+        "Risk and insurance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-3819ce37bb38d4"
+      ],
+      "sourceIds": [
+        "review-profile-3819ce37bb38d4"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Quentin MOREAU Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/quentin-bertrand-arthur-moreau/",
+      "universityId": "hkust",
+      "name": "Quentin Bertrand Arthur MOREAU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/quentin-bertrand-arthur-moreau/",
+      "summary": "公开研究线索：Sustainable finance；Corporate finance；Environmental Sustainability。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-3819ce37bb38d4"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-0ab41ce384e257",
+      "researchKeywords": [
+        "Life cycle assessment",
+        "Sustainable consumption",
+        "Sustainability education",
+        "Environmental chemistry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-0ab41ce384e257"
+      ],
+      "sourceIds": [
+        "review-profile-0ab41ce384e257"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "经济与管理",
+        "教育学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Meike SAUERWEIN Assistant Professor of Interdisciplinary Education",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/meike-sauerwein/",
+      "universityId": "hkust",
+      "name": "Meike SAUERWEIN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/meike-sauerwein/",
+      "summary": "公开研究线索：Life cycle assessment；Sustainable consumption；Sustainability education。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-0ab41ce384e257"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-22d9ffc3d0a19f",
+      "researchKeywords": [
+        "Air Pollution",
+        "Environmental Sustainability",
+        "Environmental Microbiology"
+      ],
+      "keywordSourceIds": [
+        "review-profile-22d9ffc3d0a19f"
+      ],
+      "sourceIds": [
+        "review-profile-22d9ffc3d0a19f"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "HAN Wei Research Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wei-han/",
+      "universityId": "hkust",
+      "name": "Wei HAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wei-han/",
+      "summary": "公开研究线索：Air Pollution；Environmental Sustainability；Environmental Microbiology。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-22d9ffc3d0a19f"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-d7d22eb28195f9",
+      "researchKeywords": [
+        "Air Pollution Measurement and Modelling",
+        "Atmospheric Chemistry",
+        "Air Pollution Exposure and Health Impact Assessment"
+      ],
+      "keywordSourceIds": [
+        "review-profile-d7d22eb28195f9"
+      ],
+      "sourceIds": [
+        "review-profile-d7d22eb28195f9"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Hemraj BHATTARAI Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/hemraj-bhattarai/",
+      "universityId": "hkust",
+      "name": "Hemraj BHATTARAI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/hemraj-bhattarai/",
+      "summary": "公开研究线索：Air Pollution Measurement and Modelling；Atmospheric Chemistry；Air Pollution Exposure and Health Impact Assessment。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-d7d22eb28195f9"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-2cb95e3b26ed1a",
+      "researchKeywords": [
+        "Atmospheric chemistry impacts on air quality and climate",
+        "Multiphase chemistry",
+        "Nitrogen and halogens"
+      ],
+      "keywordSourceIds": [
+        "review-profile-2cb95e3b26ed1a"
+      ],
+      "sourceIds": [
+        "review-profile-2cb95e3b26ed1a"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Theodore K KOENIG Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/ted-koenig/",
+      "universityId": "hkust",
+      "name": "Ted KOENIG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/ted-koenig/",
+      "summary": "公开研究线索：Atmospheric chemistry impacts on air quality and climate；Multiphase chemistry；Nitrogen and halogens。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-2cb95e3b26ed1a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-e5642e6b4cfcdb",
+      "researchKeywords": [
+        "Analytical chemistry",
+        "Atmospheric Chemistry",
+        "Air Pollution Measurement and Modelling",
+        "General air quality",
+        "Risk Assessment"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e5642e6b4cfcdb"
+      ],
+      "sourceIds": [
+        "review-profile-e5642e6b4cfcdb"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LIAO Kezheng Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/kezheng-coco-liao/",
+      "universityId": "hkust",
+      "name": "Kezheng CoCo LIAO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kezheng-coco-liao/",
+      "summary": "公开研究线索：Analytical chemistry；Atmospheric Chemistry；Air Pollution Measurement and Modelling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e5642e6b4cfcdb"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-bb309294d2b070",
+      "researchKeywords": [
+        "Environmental Technologies",
+        "Water Pollution",
+        "Smart Manufacturing",
+        "Environmental Chemistry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-bb309294d2b070"
+      ],
+      "sourceIds": [
+        "review-profile-bb309294d2b070"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LIU Zhang Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/zhang-liu/",
+      "universityId": "hkust",
+      "name": "Zhang LIU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/zhang-liu/",
+      "summary": "公开研究线索：Environmental Technologies；Water Pollution；Smart Manufacturing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-bb309294d2b070"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-c2b07ef7aaba28",
+      "researchKeywords": [
+        "Air Quality Management",
+        "Environmental Technologies",
+        "Lab on a chip",
+        "Infrared laser spectroscopy",
+        "Optical sensors for light-matter interactions"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c2b07ef7aaba28"
+      ],
+      "sourceIds": [
+        "review-profile-c2b07ef7aaba28"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHENG Kaiyuan Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/kaiyuan-zheng/",
+      "universityId": "hkust",
+      "name": "Kaiyuan ZHENG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kaiyuan-zheng/",
+      "summary": "公开研究线索：Air Quality Management；Environmental Technologies；Lab on a chip。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c2b07ef7aaba28"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-047fe916a93a76",
+      "researchKeywords": [
+        "Atmospheric Chemistry",
+        "Field Measurements",
+        "Aerosol chemistry",
+        "Atmospheric science",
+        "Air Pollution"
+      ],
+      "keywordSourceIds": [
+        "review-profile-047fe916a93a76"
+      ],
+      "sourceIds": [
+        "review-profile-047fe916a93a76"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHENG Yan Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yan-zheng/",
+      "universityId": "hkust",
+      "name": "Yan ZHENG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yan-zheng/",
+      "summary": "公开研究线索：Atmospheric Chemistry；Field Measurements；Aerosol chemistry。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-047fe916a93a76"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-b4eee01185bab1",
+      "researchKeywords": [
+        "Nature-based solutions in coastal and urban environments",
+        "Biodiversity conservation and ecosystem services",
+        "Community and industry engagement in applied environmental research",
+        "Science communication and public engagement through creative and experiential approaches"
+      ],
+      "keywordSourceIds": [
+        "review-profile-b4eee01185bab1"
+      ],
+      "sourceIds": [
+        "review-profile-b4eee01185bab1"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Jay Joan MINUTI Lecturer I",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/jay-joan-minuti/",
+      "universityId": "hkust",
+      "name": "Jay Joan MINUTI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/jay-joan-minuti/",
+      "summary": "公开研究线索：Nature-based solutions in coastal and urban environments；Biodiversity conservation and ecosystem services；Community and industry engagement in applied environmental research。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-b4eee01185bab1"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-5e226a34ef0b94",
+      "researchKeywords": [
+        "Demography",
+        "Social policy in Asia"
+      ],
+      "keywordSourceIds": [
+        "review-profile-5e226a34ef0b94"
+      ],
+      "sourceIds": [
+        "review-profile-5e226a34ef0b94"
+      ],
+      "topics": [
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Stuart GIETEL-BASTEN Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/stuart-arthur-gietel-basten/",
+      "universityId": "hkust",
+      "name": "Stuart Arthur GIETEL-BASTEN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/stuart-arthur-gietel-basten/",
+      "summary": "公开研究线索：Demography；Social policy in Asia。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-5e226a34ef0b94"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-a9e7c044251e12",
+      "researchKeywords": [
+        "Genetics",
+        "Evolutionary biology",
+        "Cellular and molecular mechanisms",
+        "Developmental biology",
+        "Sensory organ differentiation"
+      ],
+      "keywordSourceIds": [
+        "review-profile-a9e7c044251e12"
+      ],
+      "sourceIds": [
+        "review-profile-a9e7c044251e12"
+      ],
+      "topics": [
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "King L. CHOW Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/king-lau-chow/",
+      "universityId": "hkust",
+      "name": "King Lau CHOW",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/king-lau-chow/",
+      "summary": "公开研究线索：Genetics；Evolutionary biology；Cellular and molecular mechanisms。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-a9e7c044251e12"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-172636e3043ce5",
+      "researchKeywords": [
+        "Health Policy",
+        "Policy Design and Innovations",
+        "Population aging",
+        "Social policy"
+      ],
+      "keywordSourceIds": [
+        "review-profile-172636e3043ce5"
+      ],
+      "sourceIds": [
+        "review-profile-172636e3043ce5"
+      ],
+      "topics": [
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Alex HE Jingwei Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/alex-jingwei-he/",
+      "universityId": "hkust",
+      "name": "Alex Jingwei HE",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/alex-jingwei-he/",
+      "summary": "公开研究线索：Health Policy；Policy Design and Innovations；Population aging。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-172636e3043ce5"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-32e7cf5d4b9a8a",
+      "researchKeywords": [
+        "Technology and innovation management",
+        "Telecom industry development and policy",
+        "Open innovation",
+        "Information technology policy and standardization",
+        "Digital economy"
+      ],
+      "keywordSourceIds": [
+        "review-profile-32e7cf5d4b9a8a"
+      ],
+      "sourceIds": [
+        "review-profile-32e7cf5d4b9a8a"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "XU Yan Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yan-xu-3/",
+      "universityId": "hkust",
+      "name": "Yan XU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yan-xu-3/",
+      "summary": "公开研究线索：Technology and innovation management；Telecom industry development and policy；Open innovation。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-32e7cf5d4b9a8a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-686ddb5b5cac3d",
+      "researchKeywords": [
+        "Big data analytics and urban AI",
+        "Sustainable Transportation",
+        "Economic Development Policy",
+        "Low-altitude economy development",
+        "Housing and Land Use Policy",
+        "Green finance and carbon trading markets",
+        "Blockchain and digital economy",
+        "Migration and Employment"
+      ],
+      "keywordSourceIds": [
+        "review-profile-686ddb5b5cac3d"
+      ],
+      "sourceIds": [
+        "review-profile-686ddb5b5cac3d"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学",
+        "人工智能",
+        "数据挖掘",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHU Pengyu Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/pengyu-zhu/",
+      "universityId": "hkust",
+      "name": "Pengyu ZHU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/pengyu-zhu/",
+      "summary": "公开研究线索：Big data analytics and urban AI；Sustainable Transportation；Economic Development Policy。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-686ddb5b5cac3d"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-12acd260553e42",
+      "researchKeywords": [
+        "Poverty and Inequality",
+        "Big Data and Social Science Research",
+        "Development Economics",
+        "Political Economy of Development",
+        "Population and Policy Issues in Asia"
+      ],
+      "keywordSourceIds": [
+        "review-profile-12acd260553e42"
+      ],
+      "sourceIds": [
+        "review-profile-12acd260553e42"
+      ],
+      "topics": [
+        "经济与管理",
+        "人文与社会科学",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Donald LOW Professor of Practice in Public Policy",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/donald-low/",
+      "universityId": "hkust",
+      "name": "Donald LOW",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/donald-low/",
+      "summary": "公开研究线索：Poverty and Inequality；Big Data and Social Science Research；Development Economics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-12acd260553e42"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-1a71275fcb17a5",
+      "researchKeywords": [
+        "Climate Change and Global Environmental Governance",
+        "Environmental Policy and Governance",
+        "Theories of public policy"
+      ],
+      "keywordSourceIds": [
+        "review-profile-1a71275fcb17a5"
+      ],
+      "sourceIds": [
+        "review-profile-1a71275fcb17a5"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Raul P. LEJANO Professor Emeritus",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/raul-perez-lejano/",
+      "universityId": "hkust",
+      "name": "Raul Perez LEJANO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/raul-perez-lejano/",
+      "summary": "公开研究线索：Climate Change and Global Environmental Governance；Environmental Policy and Governance；Theories of public policy。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-1a71275fcb17a5"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-20ed96ac1d0a39",
+      "researchKeywords": [
+        "Environmental economics",
+        "Urban and regional economics",
+        "International trade",
+        "Economic growth and development"
+      ],
+      "keywordSourceIds": [
+        "review-profile-20ed96ac1d0a39"
+      ],
+      "sourceIds": [
+        "review-profile-20ed96ac1d0a39"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "经济与管理",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LIN Yatang Associate Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yatang-lin/",
+      "universityId": "hkust",
+      "name": "Yatang LIN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yatang-lin/",
+      "summary": "公开研究线索：Environmental economics；Urban and regional economics；International trade。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-20ed96ac1d0a39"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-720eaa2841c041",
+      "researchKeywords": [
+        "Ethics and public policy",
+        "Politics of science, environment and sustainability",
+        "Democratic governance and citizen participation"
+      ],
+      "keywordSourceIds": [
+        "review-profile-720eaa2841c041"
+      ],
+      "sourceIds": [
+        "review-profile-720eaa2841c041"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "James K WONG Associate Professor of Social Science Education (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/james-k-wong/",
+      "universityId": "hkust",
+      "name": "James K. WONG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/james-k-wong/",
+      "summary": "公开研究线索：Ethics and public policy；Politics of science, environment and sustainability；Democratic governance and citizen participation。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-720eaa2841c041"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-f31687872a680a",
+      "researchKeywords": [
+        "International security",
+        "Nuclear Engineering",
+        "Technology policy",
+        "Energy Policy and Technology Development",
+        "Open source software"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f31687872a680a"
+      ],
+      "sourceIds": [
+        "review-profile-f31687872a680a"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程",
+        "人文与社会科学",
+        "软件工程与编程语言"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Julien de TROULLIOUD de LANVERSIN Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/julien-de-troullioud-de-lanversin/",
+      "universityId": "hkust",
+      "name": "Julien DE TROULLIOUD DE LANVERSIN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/julien-de-troullioud-de-lanversin/",
+      "summary": "公开研究线索：International security；Nuclear Engineering；Technology policy。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f31687872a680a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-f9800b07ff787e",
+      "researchKeywords": [
+        "Chinese Environmental and Energy Policy",
+        "Climate Change and Global Environmental Governance",
+        "Environmental Policy and Governance",
+        "Policy process theories",
+        "Regulatory enforcement and compliance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f9800b07ff787e"
+      ],
+      "sourceIds": [
+        "review-profile-f9800b07ff787e"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHAO Xiaofan Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/xiaofan-zhao/",
+      "universityId": "hkust",
+      "name": "Xiaofan ZHAO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/xiaofan-zhao/",
+      "summary": "公开研究线索：Chinese Environmental and Energy Policy；Climate Change and Global Environmental Governance；Environmental Policy and Governance。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f9800b07ff787e"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-8f17e09eeaf42d",
+      "researchKeywords": [
+        "Food policy",
+        "Health Policy",
+        "History and Policy",
+        "Environmental history",
+        "Science, Technology, and Medicine Studies",
+        "Health-environmental humanities",
+        "Emerging green technologies"
+      ],
+      "keywordSourceIds": [
+        "review-profile-8f17e09eeaf42d"
+      ],
+      "sourceIds": [
+        "review-profile-8f17e09eeaf42d"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Nicolo LUDOVICE Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/nicolo-paolo-ludovice/",
+      "universityId": "hkust",
+      "name": "Nicolo Paolo LUDOVICE",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/nicolo-paolo-ludovice/",
+      "summary": "公开研究线索：Food policy；Health Policy；History and Policy。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-8f17e09eeaf42d"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-c45ea3366d7894",
+      "researchKeywords": [
+        "Urban and land policy",
+        "City resilience",
+        "Risk management",
+        "Complexity and public policy"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c45ea3366d7894"
+      ],
+      "sourceIds": [
+        "review-profile-c45ea3366d7894"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "YI Fangxin Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/fangxin-francine-yi/",
+      "universityId": "hkust",
+      "name": "Fangxin Francine YI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/fangxin-francine-yi/",
+      "summary": "公开研究线索：Urban and land policy；City resilience；Risk management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c45ea3366d7894"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-88cac274dc1d29",
+      "researchKeywords": [
+        "Regulatory Policy",
+        "Chemical Regulation",
+        "Policy Change and Dynamics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-88cac274dc1d29"
+      ],
+      "sourceIds": [
+        "review-profile-88cac274dc1d29"
+      ],
+      "topics": [
+        "物理与化学",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Marie BERNAL Lecturer I",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/marie-bernal/",
+      "universityId": "hkust",
+      "name": "Marie BERNAL",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/marie-bernal/",
+      "summary": "公开研究线索：Regulatory Policy；Chemical Regulation；Policy Change and Dynamics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-88cac274dc1d29"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-3d0e7cea60e5b9",
+      "researchKeywords": [
+        "World-Systems Analysis",
+        "Global Offshore Finance",
+        "Global Tax Governance",
+        "Political Economy of Development",
+        "Social Psychology of Late Capitalism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-3d0e7cea60e5b9"
+      ],
+      "sourceIds": [
+        "review-profile-3d0e7cea60e5b9"
+      ],
+      "topics": [
+        "人文与社会科学",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Michael TYRALA Lecturer I",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/michael-tyrala/",
+      "universityId": "hkust",
+      "name": "Michael TYRALA",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/michael-tyrala/",
+      "summary": "公开研究线索：World-Systems Analysis；Global Offshore Finance；Global Tax Governance。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-3d0e7cea60e5b9"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-569712fd684f11",
+      "researchKeywords": [
+        "Sustainable Consumption",
+        "Sustainable Development",
+        "Health Policy",
+        "Climate Change and Global Environmental Governance",
+        "Business and Environment"
+      ],
+      "keywordSourceIds": [
+        "review-profile-569712fd684f11"
+      ],
+      "sourceIds": [
+        "review-profile-569712fd684f11"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "经济与管理",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Alvin LI Lecturer II",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/alvin-li/",
+      "universityId": "hkust",
+      "name": "Alvin LI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/alvin-li/",
+      "summary": "公开研究线索：Sustainable Consumption；Sustainable Development；Health Policy。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-569712fd684f11"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-0bf91834e1f59a",
+      "researchKeywords": [
+        "Media intelligence",
+        "Global Communication",
+        "Cyberpsychology and Behavior",
+        "AI in the social sciences and humanities"
+      ],
+      "keywordSourceIds": [
+        "review-profile-0bf91834e1f59a"
+      ],
+      "sourceIds": [
+        "review-profile-0bf91834e1f59a"
+      ],
+      "topics": [
+        "人文与社会科学",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Celine SONG Head",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yunya-song/",
+      "universityId": "hkust",
+      "name": "Yunya SONG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yunya-song/",
+      "summary": "公开研究线索：Media intelligence；Global Communication；Cyberpsychology and Behavior。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-0bf91834e1f59a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-ef70dfef9397cd",
+      "researchKeywords": [
+        "Computer graphics",
+        "Human-computer interaction",
+        "Computer vision"
+      ],
+      "keywordSourceIds": [
+        "review-profile-ef70dfef9397cd"
+      ],
+      "sourceIds": [
+        "review-profile-ef70dfef9397cd"
+      ],
+      "topics": [
+        "计算机视觉",
+        "人机交互",
+        "计算机图形学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "FU Hongbo Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/hongbo-fu/",
+      "universityId": "hkust",
+      "name": "Hongbo FU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/hongbo-fu/",
+      "summary": "公开研究线索：Computer graphics；Human-computer interaction；Computer vision。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-ef70dfef9397cd"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-10c849c00bd2e9",
+      "researchKeywords": [
+        "Infectious disease modelling",
+        "Epidemiology",
+        "Digital medicine",
+        "AI application in medicine",
+        "Microbiology"
+      ],
+      "keywordSourceIds": [
+        "review-profile-10c849c00bd2e9"
+      ],
+      "sourceIds": [
+        "review-profile-10c849c00bd2e9"
+      ],
+      "topics": [
+        "人工智能",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Kathy LEUNG Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/kathy-sze-man-leung/",
+      "universityId": "hkust",
+      "name": "Kathy Sze Man LEUNG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kathy-sze-man-leung/",
+      "summary": "公开研究线索：Infectious disease modelling；Epidemiology；Digital medicine。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-10c849c00bd2e9"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-17817c50844e08",
+      "researchKeywords": [
+        "Creative AI",
+        "Generative Models",
+        "Image and Video Generation",
+        "Content Restoration",
+        "Computer Vision"
+      ],
+      "keywordSourceIds": [
+        "review-profile-17817c50844e08"
+      ],
+      "sourceIds": [
+        "review-profile-17817c50844e08"
+      ],
+      "topics": [
+        "人工智能",
+        "计算机视觉"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LUO Wenhan Associate Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenhan-luo/",
+      "universityId": "hkust",
+      "name": "Wenhan LUO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenhan-luo/",
+      "summary": "公开研究线索：Creative AI；Generative Models；Image and Video Generation。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-17817c50844e08"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-b645dce965720a",
+      "researchKeywords": [
+        "Imaging techniques",
+        "Atmospheric science and weather prediction",
+        "Remote Sensing",
+        "Regional Climate Change Modelling",
+        "Quantum simulation",
+        "Data analysis using machine learning",
+        "Quantum search algorithm",
+        "Quantum mechanical phenomena"
+      ],
+      "keywordSourceIds": [
+        "review-profile-b645dce965720a"
+      ],
+      "sourceIds": [
+        "review-profile-b645dce965720a"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学",
+        "土木与机械工程",
+        "机器学习",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHAI Chengxing Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/chengxing-zhai/",
+      "universityId": "hkust",
+      "name": "Chengxing ZHAI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/chengxing-zhai/",
+      "summary": "公开研究线索：Imaging techniques；Atmospheric science and weather prediction；Remote Sensing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-b645dce965720a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-c75295453eb2fa",
+      "researchKeywords": [
+        "Data visualization",
+        "Scientific visualization",
+        "Data management",
+        "Deep learning",
+        "Human-computer interaction"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c75295453eb2fa"
+      ],
+      "sourceIds": [
+        "review-profile-c75295453eb2fa"
+      ],
+      "topics": [
+        "经济与管理",
+        "机器学习",
+        "人机交互",
+        "数据库与数据系统"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "HAN Jun Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/jun-han/",
+      "universityId": "hkust",
+      "name": "Jun HAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/jun-han/",
+      "summary": "公开研究线索：Data visualization；Scientific visualization；Data management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c75295453eb2fa"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-17de14dbe57342",
+      "researchKeywords": [
+        "Artificial intelligence",
+        "LegalTech",
+        "Law and finance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-17de14dbe57342"
+      ],
+      "sourceIds": [
+        "review-profile-17de14dbe57342"
+      ],
+      "topics": [
+        "经济与管理",
+        "人工智能",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "HAN Sirui Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/sirui-han/",
+      "universityId": "hkust",
+      "name": "Sirui HAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/sirui-han/",
+      "summary": "公开研究线索：Artificial intelligence；LegalTech；Law and finance。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-17de14dbe57342"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-0e0a1dab883003",
+      "researchKeywords": [
+        "Generative AI",
+        "World Models",
+        "Computer Vision",
+        "Computer Graphics",
+        "Human-computer interaction",
+        "Agentic AI",
+        "AI for Creativity",
+        "Film Studies"
+      ],
+      "keywordSourceIds": [
+        "review-profile-0e0a1dab883003"
+      ],
+      "sourceIds": [
+        "review-profile-0e0a1dab883003"
+      ],
+      "topics": [
+        "设计与创意",
+        "人工智能",
+        "计算机视觉",
+        "人机交互",
+        "计算机图形学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "RAO Anyi Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/anyi-rao/",
+      "universityId": "hkust",
+      "name": "Anyi RAO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/anyi-rao/",
+      "summary": "公开研究线索：Generative AI；World Models；Computer Vision。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-0e0a1dab883003"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-b23367cbd3623b",
+      "researchKeywords": [
+        "Non-equilibrium gas/phonon transport",
+        "Multiscale modelling and simulation",
+        "Scientific computing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-b23367cbd3623b"
+      ],
+      "sourceIds": [
+        "review-profile-b23367cbd3623b"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "SU Wei Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wei-su/",
+      "universityId": "hkust",
+      "name": "Wei SU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wei-su/",
+      "summary": "公开研究线索：Non-equilibrium gas/phonon transport；Multiscale modelling and simulation；Scientific computing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-b23367cbd3623b"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-c9869a1e2a9cfc",
+      "researchKeywords": [
+        "Artificial Intelligence",
+        "AI Content Generation",
+        "AI Music",
+        "Computational Audition",
+        "Speech Processing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c9869a1e2a9cfc"
+      ],
+      "sourceIds": [
+        "review-profile-c9869a1e2a9cfc"
+      ],
+      "topics": [
+        "人工智能",
+        "计算机音乐与音频"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "XUE Wei Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wei-xue/",
+      "universityId": "hkust",
+      "name": "Wei XUE",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wei-xue/",
+      "summary": "公开研究线索：Artificial Intelligence；AI Content Generation；AI Music。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c9869a1e2a9cfc"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-33e30c7dd43559",
+      "researchKeywords": [
+        "Civil and structural engineering",
+        "Artificial intelligence",
+        "Risk assessment",
+        "Uncertainty quantification and analysis",
+        "Surrogate modeling"
+      ],
+      "keywordSourceIds": [
+        "review-profile-33e30c7dd43559"
+      ],
+      "sourceIds": [
+        "review-profile-33e30c7dd43559"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHANG Jize Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/jize-zhang/",
+      "universityId": "hkust",
+      "name": "Jize ZHANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/jize-zhang/",
+      "summary": "公开研究线索：Civil and structural engineering；Artificial intelligence；Risk assessment。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-33e30c7dd43559"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-0580beb5809212",
+      "researchKeywords": [
+        "Compound semiconductor materials and devices",
+        "III-V on Si integration by epitaxy",
+        "Photonics devices",
+        "Power semiconductor devices"
+      ],
+      "keywordSourceIds": [
+        "review-profile-0580beb5809212"
+      ],
+      "sourceIds": [
+        "review-profile-0580beb5809212"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Kei May LAU Research Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/kei-may-lau/",
+      "universityId": "hkust",
+      "name": "Kei May LAU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kei-may-lau/",
+      "summary": "公开研究线索：Compound semiconductor materials and devices；III-V on Si integration by epitaxy；Photonics devices。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-0580beb5809212"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-63360ba1ef7efe",
+      "researchKeywords": [
+        "III-Nitride materials and devices"
+      ],
+      "keywordSourceIds": [
+        "review-profile-63360ba1ef7efe"
+      ],
+      "sourceIds": [
+        "review-profile-63360ba1ef7efe"
+      ],
+      "topics": [
+        "材料与能源"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHU Renqiang Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/renqiang-zhu/",
+      "universityId": "hkust",
+      "name": "Renqiang ZHU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/renqiang-zhu/",
+      "summary": "公开研究线索：III-Nitride materials and devices。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-63360ba1ef7efe"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-521e051e6bc6b6",
+      "researchKeywords": [
+        "Smart City",
+        "Technology policy",
+        "ArtTech",
+        "Entrepreneurship"
+      ],
+      "keywordSourceIds": [
+        "review-profile-521e051e6bc6b6"
+      ],
+      "sourceIds": [
+        "review-profile-521e051e6bc6b6"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "经济与管理",
+        "人文与社会科学",
+        "设计与创意"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Daniel CHUN Lecturer I (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/daniel-chun/",
+      "universityId": "hkust",
+      "name": "Daniel CHUN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/daniel-chun/",
+      "summary": "公开研究线索：Smart City；Technology policy；ArtTech。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-521e051e6bc6b6"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-06237892bf1bf0",
+      "researchKeywords": [
+        "Computer networking",
+        "Wireless systems",
+        "Cyber-physical systems",
+        "Mobile computing",
+        "Cybersecurity"
+      ],
+      "keywordSourceIds": [
+        "review-profile-06237892bf1bf0"
+      ],
+      "sourceIds": [
+        "review-profile-06237892bf1bf0"
+      ],
+      "topics": [
+        "机器人与控制",
+        "网络与系统",
+        "网络安全"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHANG Qian Head",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/qian-zhang/",
+      "universityId": "hkust",
+      "name": "Qian ZHANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/qian-zhang/",
+      "summary": "公开研究线索：Computer networking；Wireless systems；Cyber-physical systems。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-06237892bf1bf0"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-2cb6d476237ad3",
+      "researchKeywords": [
+        "Machine learning for communications (model and data-driven approaches)",
+        "Integrated sensing and communication",
+        "Wireless communications and machine learning with focus on distributed intelligence (federated learning)"
+      ],
+      "keywordSourceIds": [
+        "review-profile-2cb6d476237ad3"
+      ],
+      "sourceIds": [
+        "review-profile-2cb6d476237ad3"
+      ],
+      "topics": [
+        "人文与社会科学",
+        "机器学习"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "SONG Shenghui Associate Professor; UG Coordinator",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/shenghui-song/",
+      "universityId": "hkust",
+      "name": "Shenghui SONG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/shenghui-song/",
+      "summary": "公开研究线索：Machine learning for communications (model and data-driven approaches)；Integrated sensing and communication；Wireless communications and machine learning with focus on distributed intelligence (federated learning)。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-2cb6d476237ad3"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-76920cc8e5717e",
+      "researchKeywords": [
+        "Computer vision",
+        "Computer graphics",
+        "Computational Design",
+        "Computer-aided design and manufacturing (CAD/CAM)"
+      ],
+      "keywordSourceIds": [
+        "review-profile-76920cc8e5717e"
+      ],
+      "sourceIds": [
+        "review-profile-76920cc8e5717e"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "设计与创意",
+        "计算机视觉",
+        "计算机图形学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "YEUNG Sai-Kit Professor; PG Coordinator",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/sai-kit-yeung/",
+      "universityId": "hkust",
+      "name": "Sai Kit YEUNG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/sai-kit-yeung/",
+      "summary": "公开研究线索：Computer vision；Computer graphics；Computational Design。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-76920cc8e5717e"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-091353d961719b",
+      "researchKeywords": [
+        "Virtual reality (VR) / augmented reality (AR)",
+        "Human-computer interaction",
+        "Ubiquitous and pervasive computing",
+        "Systems thinking and design"
+      ],
+      "keywordSourceIds": [
+        "review-profile-091353d961719b"
+      ],
+      "sourceIds": [
+        "review-profile-091353d961719b"
+      ],
+      "topics": [
+        "人机交互"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Tristan Camille BRAUD Assistant Professor; PG Co-coordinator",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/tristan-camille-braud/",
+      "universityId": "hkust",
+      "name": "Tristan Camille BRAUD",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/tristan-camille-braud/",
+      "summary": "公开研究线索：Virtual reality (VR) / augmented reality (AR)；Human-computer interaction；Ubiquitous and pervasive computing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-091353d961719b"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-2efbaad7412656",
+      "researchKeywords": [
+        "Aeroacoustics",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Aircraft engineering",
+        "Aircraft and aeronautical engineering"
+      ],
+      "keywordSourceIds": [
+        "review-profile-2efbaad7412656"
+      ],
+      "sourceIds": [
+        "review-profile-2efbaad7412656"
+      ],
+      "topics": [
+        "物理与化学",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHANG Xin Chair Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/xin-zhang/",
+      "universityId": "hkust",
+      "name": "Xin ZHANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/xin-zhang/",
+      "summary": "公开研究线索：Aeroacoustics；Aerodynamics；Aerospace engineering。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-2efbaad7412656"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-da25b49efa0f7d",
+      "researchKeywords": [
+        "Wearable Electronic Textiles",
+        "Industrial Innovations",
+        "Advanced Manufacturing",
+        "Fiber Technology",
+        "Creative Art"
+      ],
+      "keywordSourceIds": [
+        "review-profile-da25b49efa0f7d"
+      ],
+      "sourceIds": [
+        "review-profile-da25b49efa0f7d"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "设计与创意"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LI Li Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/li-li/",
+      "universityId": "hkust",
+      "name": "Li LI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/li-li/",
+      "summary": "公开研究线索：Wearable Electronic Textiles；Industrial Innovations；Advanced Manufacturing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-da25b49efa0f7d"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-6db20cbf27d308",
+      "researchKeywords": [
+        "Motion control and manufacturing",
+        "Robotics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6db20cbf27d308"
+      ],
+      "sourceIds": [
+        "review-profile-6db20cbf27d308"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LI Zexiang Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/zexiang-li/",
+      "universityId": "hkust",
+      "name": "Zexiang LI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/zexiang-li/",
+      "summary": "公开研究线索：Motion control and manufacturing；Robotics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6db20cbf27d308"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-19878a6e2619b0",
+      "researchKeywords": [
+        "AI hardware accelerator",
+        "Baseband application-specific integrated circuit (ASIC)",
+        "Computer architecture",
+        "Embedded systems",
+        "Energy harvesting",
+        "Integrated circuits and systems"
+      ],
+      "keywordSourceIds": [
+        "review-profile-19878a6e2619b0"
+      ],
+      "sourceIds": [
+        "review-profile-19878a6e2619b0"
+      ],
+      "topics": [
+        "材料与能源",
+        "人工智能",
+        "网络与系统"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "TSUI Chi Ying Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/chi-ying-tsui/",
+      "universityId": "hkust",
+      "name": "Chi Ying TSUI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/chi-ying-tsui/",
+      "summary": "公开研究线索：AI hardware accelerator；Baseband application-specific integrated circuit (ASIC)；Computer architecture。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-19878a6e2619b0"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-d2e0e0b237e1d7",
+      "researchKeywords": [
+        "Mechanics analysis for construction materials",
+        "Creativity and Design Thinking",
+        "Bridge dynamics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-d2e0e0b237e1d7"
+      ],
+      "sourceIds": [
+        "review-profile-d2e0e0b237e1d7"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程",
+        "教育学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Ben CHAN Yui-Bun Professor of Engineering Education (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yui-bun-chan/",
+      "universityId": "hkust",
+      "name": "Yui Bun CHAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yui-bun-chan/",
+      "summary": "公开研究线索：Mechanics analysis for construction materials；Creativity and Design Thinking；Bridge dynamics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-d2e0e0b237e1d7"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-5d0ee48397f62b",
+      "researchKeywords": [
+        "Architectural geometry",
+        "Computer-aided design and manufacturing (CAD/CAM)",
+        "Rapid prototyping"
+      ],
+      "keywordSourceIds": [
+        "review-profile-5d0ee48397f62b"
+      ],
+      "sourceIds": [
+        "review-profile-5d0ee48397f62b"
+      ],
+      "topics": [
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Ajay JONEJA Professor Emeritus",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/ajay-joneja/",
+      "universityId": "hkust",
+      "name": "Ajay JONEJA",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/ajay-joneja/",
+      "summary": "公开研究线索：Architectural geometry；Computer-aided design and manufacturing (CAD/CAM)；Rapid prototyping。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-5d0ee48397f62b"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-e272f4e5ccead7",
+      "researchKeywords": [
+        "Laser manufacturing",
+        "Advanced Manufacturing Technologies"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e272f4e5ccead7"
+      ],
+      "sourceIds": [
+        "review-profile-e272f4e5ccead7"
+      ],
+      "topics": [
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Mitch LI Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/mitch-li/",
+      "universityId": "hkust",
+      "name": "Mitch LI",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/mitch-li/",
+      "summary": "公开研究线索：Laser manufacturing；Advanced Manufacturing Technologies。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e272f4e5ccead7"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-f05718c48a05dc",
+      "researchKeywords": [
+        "Computer-aided design and manufacturing (CAD/CAM)",
+        "Artificial intelligence",
+        "Simulation and modeling",
+        "Process systems efficiency and optimization",
+        "Big Data and Social Science Research"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f05718c48a05dc"
+      ],
+      "sourceIds": [
+        "review-profile-f05718c48a05dc"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "经济与管理",
+        "设计与创意",
+        "人工智能",
+        "数据挖掘",
+        "理论与优化"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Tracy MOK Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/tracy-pik-yin-mok/",
+      "universityId": "hkust",
+      "name": "Tracy Pik Yin MOK",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/tracy-pik-yin-mok/",
+      "summary": "公开研究线索：Computer-aided design and manufacturing (CAD/CAM)；Artificial intelligence；Simulation and modeling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f05718c48a05dc"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-f58e4519cd768a",
+      "researchKeywords": [
+        "Robotics",
+        "Design automation",
+        "Intelligent control and nonlinear systems",
+        "Simulation and modeling",
+        "Control / dynamics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f58e4519cd768a"
+      ],
+      "sourceIds": [
+        "review-profile-f58e4519cd768a"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Winnie LEUNG Associate Professor of Engineering Education",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/suk-wai-winnie-leung/",
+      "universityId": "hkust",
+      "name": "Suk Wai Winnie LEUNG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/suk-wai-winnie-leung/",
+      "summary": "公开研究线索：Robotics；Design automation；Intelligent control and nonlinear systems。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f58e4519cd768a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-4480c76794767f",
+      "researchKeywords": [
+        "Microrobots",
+        "Soft robotics",
+        "Structured magnetic materials",
+        "Medical devices"
+      ],
+      "keywordSourceIds": [
+        "review-profile-4480c76794767f"
+      ],
+      "sourceIds": [
+        "review-profile-4480c76794767f"
+      ],
+      "topics": [
+        "材料与能源",
+        "机器人与控制",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Richard GU Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/hongri-gu/",
+      "universityId": "hkust",
+      "name": "Hongri GU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/hongri-gu/",
+      "summary": "公开研究线索：Microrobots；Soft robotics；Structured magnetic materials。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-4480c76794767f"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-b51279e43c553a",
+      "researchKeywords": [
+        "Miniature robots",
+        "Soft robots",
+        "Surgical robots",
+        "Underwater robots",
+        "Implantable medical devices",
+        "Multi-material microfabrication"
+      ],
+      "keywordSourceIds": [
+        "review-profile-b51279e43c553a"
+      ],
+      "sourceIds": [
+        "review-profile-b51279e43c553a"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "HU Wenqi Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenqi-hu/",
+      "universityId": "hkust",
+      "name": "Wenqi HU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenqi-hu/",
+      "summary": "公开研究线索：Miniature robots；Soft robots；Surgical robots。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-b51279e43c553a"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-6934e0ea6840d7",
+      "researchKeywords": [
+        "Computational Design",
+        "3-dimensional (3D) reconstruction",
+        "Computer graphics",
+        "Computer animation",
+        "Geometry processing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6934e0ea6840d7"
+      ],
+      "sourceIds": [
+        "review-profile-6934e0ea6840d7"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "设计与创意",
+        "计算机视觉",
+        "计算机图形学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "LIU Yuan Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yuan-liu/",
+      "universityId": "hkust",
+      "name": "Yuan LIU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yuan-liu/",
+      "summary": "公开研究线索：Computational Design；3-dimensional (3D) reconstruction；Computer graphics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6934e0ea6840d7"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-5da47c92915273",
+      "researchKeywords": [
+        "Robotics",
+        "Soft Robotics",
+        "Rapid prototyping",
+        "Additive Manufacturing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-5da47c92915273"
+      ],
+      "sourceIds": [
+        "review-profile-5da47c92915273"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Rob SCHARFF Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/rob-scharff/",
+      "universityId": "hkust",
+      "name": "Rob SCHARFF",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/rob-scharff/",
+      "summary": "公开研究线索：Robotics；Soft Robotics；Rapid prototyping。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-5da47c92915273"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-106308e3256ac3",
+      "researchKeywords": [
+        "Computational Design",
+        "Robotic Assembly",
+        "Simulation and modeling"
+      ],
+      "keywordSourceIds": [
+        "review-profile-106308e3256ac3"
+      ],
+      "sourceIds": [
+        "review-profile-106308e3256ac3"
+      ],
+      "topics": [
+        "设计与创意"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "WANG Ziqi Assistant Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/ziqi-wang/",
+      "universityId": "hkust",
+      "name": "Ziqi WANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/ziqi-wang/",
+      "summary": "公开研究线索：Computational Design；Robotic Assembly；Simulation and modeling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-106308e3256ac3"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-6d3915ab7a48eb",
+      "researchKeywords": [
+        "Building Integrated photovoltaics systems",
+        "Integrative system for smart elderly care",
+        "Sustainable architectural design",
+        "Advanced renewable energy system",
+        "Robotic Construction",
+        "Design for smart low-altitude infrastructure"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6d3915ab7a48eb"
+      ],
+      "sourceIds": [
+        "review-profile-6d3915ab7a48eb"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "XIANG Changying Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/changying-xiang/",
+      "universityId": "hkust",
+      "name": "Changying XIANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/changying-xiang/",
+      "summary": "公开研究线索：Building Integrated photovoltaics systems；Integrative system for smart elderly care；Sustainable architectural design。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6d3915ab7a48eb"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-ecdff23af9c530",
+      "researchKeywords": [
+        "Information Engineering"
+      ],
+      "keywordSourceIds": [
+        "review-profile-ecdff23af9c530"
+      ],
+      "sourceIds": [
+        "review-profile-ecdff23af9c530"
+      ],
+      "topics": [
+        "网络与系统"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "XU Wenchao Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenchao-xu/",
+      "universityId": "hkust",
+      "name": "Wenchao XU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenchao-xu/",
+      "summary": "公开研究线索：Information Engineering。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-ecdff23af9c530"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-6bc3e91fa5943e",
+      "researchKeywords": [
+        "Robotics",
+        "Bioelectronics",
+        "Sensory interface",
+        "Human-Machine Interface"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6bc3e91fa5943e"
+      ],
+      "sourceIds": [
+        "review-profile-6bc3e91fa5943e"
+      ],
+      "topics": [
+        "机器人与控制",
+        "生物医学与健康",
+        "人机交互"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "YAO Kuanming Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+      "universityId": "hkust",
+      "name": "Kuanming YAO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+      "summary": "公开研究线索：Robotics；Bioelectronics；Sensory interface。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6bc3e91fa5943e"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-908fa36ec9b80c",
+      "researchKeywords": [
+        "Aeroacoustics",
+        "Aerodynamics",
+        "Aerospace engineering",
+        "Noise and acoustics",
+        "Flow instability"
+      ],
+      "keywordSourceIds": [
+        "review-profile-908fa36ec9b80c"
+      ],
+      "sourceIds": [
+        "review-profile-908fa36ec9b80c"
+      ],
+      "topics": [
+        "物理与化学",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHOU Peng Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/peng-zhou/",
+      "universityId": "hkust",
+      "name": "Peng ZHOU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/peng-zhou/",
+      "summary": "公开研究线索：Aeroacoustics；Aerodynamics；Aerospace engineering。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-908fa36ec9b80c"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-905717b23e16a1",
+      "researchKeywords": [
+        "Design and sustainability",
+        "Eco-design",
+        "Eco-art"
+      ],
+      "keywordSourceIds": [
+        "review-profile-905717b23e16a1"
+      ],
+      "sourceIds": [
+        "review-profile-905717b23e16a1"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "设计与创意"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Brian LAU Lecturer I",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/brian-hui-wang-lau/",
+      "universityId": "hkust",
+      "name": "Brian Hui Wang LAU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/brian-hui-wang-lau/",
+      "summary": "公开研究线索：Design and sustainability；Eco-design；Eco-art。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-905717b23e16a1"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-885c8521641c91",
+      "researchKeywords": [
+        "Computer vision",
+        "Computer graphics",
+        "Robotics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-885c8521641c91"
+      ],
+      "sourceIds": [
+        "review-profile-885c8521641c91"
+      ],
+      "topics": [
+        "计算机视觉",
+        "机器人与控制",
+        "计算机图形学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "TAN Ping Professor (Joint Appointment)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/ping-tan/",
+      "universityId": "hkust",
+      "name": "Ping TAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/ping-tan/",
+      "summary": "公开研究线索：Computer vision；Computer graphics；Robotics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-885c8521641c91"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-495976d923f89b",
+      "researchKeywords": [
+        "Composition",
+        "Electroacoustic and instrumental music",
+        "Spatial audio",
+        "Sound-based performance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-495976d923f89b"
+      ],
+      "sourceIds": [
+        "review-profile-495976d923f89b"
+      ],
+      "topics": [
+        "设计与创意",
+        "计算机音乐与音频"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Timothy Markham PAGE Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/timothy-markham-page/",
+      "universityId": "hkust",
+      "name": "Timothy Markham PAGE",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/timothy-markham-page/",
+      "summary": "公开研究线索：Composition；Electroacoustic and instrumental music；Spatial audio。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-495976d923f89b"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-620e24b961d936",
+      "researchKeywords": [
+        "Computer Vision",
+        "Generative AI",
+        "Natural Languange Processing",
+        "Machine Learning",
+        "Artificial Intelligence"
+      ],
+      "keywordSourceIds": [
+        "review-profile-620e24b961d936"
+      ],
+      "sourceIds": [
+        "review-profile-620e24b961d936"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "计算机视觉",
+        "自然语言处理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Harry YANG Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/harry-yang/",
+      "universityId": "hkust",
+      "name": "Harry YANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/harry-yang/",
+      "summary": "公开研究线索：Computer Vision；Generative AI；Natural Languange Processing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-620e24b961d936"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-999995dfbce824",
+      "researchKeywords": [
+        "Computer vision",
+        "Embodied AI"
+      ],
+      "keywordSourceIds": [
+        "review-profile-999995dfbce824"
+      ],
+      "sourceIds": [
+        "review-profile-999995dfbce824"
+      ],
+      "topics": [
+        "人工智能",
+        "计算机视觉"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHAN Fangneng Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/fangneng-zhan/",
+      "universityId": "hkust",
+      "name": "Fangneng ZHAN",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/fangneng-zhan/",
+      "summary": "公开研究线索：Computer vision；Embodied AI。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-999995dfbce824"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-25b23a12829584",
+      "researchKeywords": [
+        "Trustworthy Creative AI"
+      ],
+      "keywordSourceIds": [
+        "review-profile-25b23a12829584"
+      ],
+      "sourceIds": [
+        "review-profile-25b23a12829584"
+      ],
+      "topics": [
+        "设计与创意",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "ZHANG Yonggang Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yonggang-zhang/",
+      "universityId": "hkust",
+      "name": "Yonggang ZHANG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yonggang-zhang/",
+      "summary": "公开研究线索：Trustworthy Creative AI。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-25b23a12829584"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-18dee7b471548d",
+      "researchKeywords": [
+        "Contemporary Art",
+        "Art Archive",
+        "Critical Theories",
+        "Curatorial Studies"
+      ],
+      "keywordSourceIds": [
+        "review-profile-18dee7b471548d"
+      ],
+      "sourceIds": [
+        "review-profile-18dee7b471548d"
+      ],
+      "topics": [
+        "人文与社会科学",
+        "设计与创意"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Vennes CHENG Lecturer I",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/vennes-sau-wai-cheng/",
+      "universityId": "hkust",
+      "name": "Vennes Sau Wai CHENG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/vennes-sau-wai-cheng/",
+      "summary": "公开研究线索：Contemporary Art；Art Archive；Critical Theories。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-18dee7b471548d"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-e276736220f256",
+      "researchKeywords": [
+        "Economics of information systems",
+        "Online reputation",
+        "Online advertising",
+        "Online social network system",
+        "Auditing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e276736220f256"
+      ],
+      "sourceIds": [
+        "review-profile-e276736220f256"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "XU Hong Co-director",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/hong-xu/",
+      "universityId": "hkust",
+      "name": "Hong XU",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/hong-xu/",
+      "summary": "公开研究线索：Economics of information systems；Online reputation；Online advertising。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e276736220f256"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-721356d3bfa5f0",
+      "researchKeywords": [
+        "Strategy",
+        "Business technology consulting",
+        "Entrepreneurship",
+        "Innovation",
+        "Technology transfer",
+        "Incubation",
+        "Corporate governance",
+        "Mergers and acquisitions"
+      ],
+      "keywordSourceIds": [
+        "review-profile-721356d3bfa5f0"
+      ],
+      "sourceIds": [
+        "review-profile-721356d3bfa5f0"
+      ],
+      "topics": [
+        "经济与管理",
+        "人工智能",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Justin LEUNG UG Coordinator; Associate Professor of Practice",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/justin-chi-wai-leung/",
+      "universityId": "hkust",
+      "name": "Justin Chi Wai LEUNG",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/justin-chi-wai-leung/",
+      "summary": "公开研究线索：Strategy；Business technology consulting；Entrepreneurship。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-721356d3bfa5f0"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-b1f40aebb9e0ca",
+      "researchKeywords": [
+        "Molecular and cellular neuroscience",
+        "Aging",
+        "Neuroscience"
+      ],
+      "keywordSourceIds": [
+        "review-profile-b1f40aebb9e0ca"
+      ],
+      "sourceIds": [
+        "review-profile-b1f40aebb9e0ca"
+      ],
+      "topics": [
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Yukinori HIRANO T&M-DDP Affiliated Faculty",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/yukinori-hirano/",
+      "universityId": "hkust",
+      "name": "Yukinori HIRANO",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yukinori-hirano/",
+      "summary": "公开研究线索：Molecular and cellular neuroscience；Aging；Neuroscience。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-b1f40aebb9e0ca"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-a26ec8d0ffcee7",
+      "researchKeywords": [
+        "Agricultural and domestic animal services",
+        "Cellular and molecular mechanisms",
+        "Food science and technology",
+        "Molecular and cellular neuroscience"
+      ],
+      "keywordSourceIds": [
+        "review-profile-a26ec8d0ffcee7"
+      ],
+      "sourceIds": [
+        "review-profile-a26ec8d0ffcee7"
+      ],
+      "topics": [
+        "生物医学与健康"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "Karl W K TSIM T&M-DDP Affiliated Faculty",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/karl-wah-keung-tsim/",
+      "universityId": "hkust",
+      "name": "Karl Wah Keung TSIM",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/karl-wah-keung-tsim/",
+      "summary": "公开研究线索：Agricultural and domestic animal services；Cellular and molecular mechanisms；Food science and technology。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-a26ec8d0ffcee7"
+        ]
+      }
+    },
+    {
+      "id": "review-hkust-3ffad52cde082b",
+      "researchKeywords": [
+        "Comparative philosophy",
+        "Chinese buddhism",
+        "Confucianism",
+        "Ethics",
+        "Taoism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-3ffad52cde082b"
+      ],
+      "sourceIds": [
+        "review-profile-3ffad52cde082b"
+      ],
+      "topics": [
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "NAM Sai Lok Academic Director (Undergraduate Core Education)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/sai-lok-nam/",
+      "universityId": "hkust",
+      "name": "Sai Lok NAM",
+      "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/sai-lok-nam/",
+      "summary": "公开研究线索：Comparative philosophy；Chinese buddhism；Confucianism。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-3ffad52cde082b"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-67ab4c91c55be0",
+      "researchKeywords": [
+        "Spatial Phygital Interaction Human–VR Interaction / Human–XR Interaction AI-assisted design and design innovation Immersive architectural education Virtual heritage and spatial narrative"
+      ],
+      "keywordSourceIds": [
+        "review-profile-67ab4c91c55be0"
+      ],
+      "sourceIds": [
+        "review-profile-67ab4c91c55be0"
+      ],
+      "topics": [
+        "设计与创意",
+        "环境与可持续发展",
+        "教育学",
+        "人工智能",
+        "人机交互"
+      ],
+      "academicUnitIds": [
+        "polyu-8"
+      ],
+      "directoryRole": "Sky Lo Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/sd/people/academic-staff/lo-sky/",
+      "universityId": "polyu",
+      "name": "Sky Lo",
+      "department": "School of Design",
+      "profileUrl": "https://www.polyu.edu.hk/sd/people/academic-staff/lo-sky/",
+      "summary": "公开研究线索：Spatial Phygital Interaction Human–VR Interaction / Human–XR Interaction AI-assisted design and design innovation Immersive architectural education Virtual heritage and spatial narrative。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-67ab4c91c55be0"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-34bd4ce7cb3288",
+      "researchKeywords": [
+        "Sustainable and ecological design studies Innovative structure assembling methods of medium-span bridge under operation conditions Studies on local cultures, eco-environment and traditional"
+      ],
+      "keywordSourceIds": [
+        "review-profile-34bd4ce7cb3288"
+      ],
+      "sourceIds": [
+        "review-profile-34bd4ce7cb3288"
+      ],
+      "topics": [
+        "设计与创意",
+        "环境与可持续发展",
+        "土木与机械工程"
+      ],
+      "academicUnitIds": [
+        "polyu-8"
+      ],
+      "directoryRole": "Michael Chan Associate Professor of Practice, Senior Teaching Fellow",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/sd/people/academic-staff/chan-michael/",
+      "universityId": "polyu",
+      "name": "Michael Chan",
+      "department": "School of Design",
+      "profileUrl": "https://www.polyu.edu.hk/sd/people/academic-staff/chan-michael/",
+      "summary": "公开研究线索：Sustainable and ecological design studies Innovative structure assembling methods of medium-span bridge under operation conditions Studies on local cultures, eco-environment and traditional。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-34bd4ce7cb3288"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e3a7a11fd7f555",
+      "researchKeywords": [
+        "Study of Hospitality Hospitality and Tourism Strategies Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e3a7a11fd7f555"
+      ],
+      "sourceIds": [
+        "review-profile-e3a7a11fd7f555"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Kaye Chon Dean and Chair Professor, Walter & Wendy Kwok Family Foundation Professor in International Hospitality Management",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/kaye-chon/",
+      "universityId": "polyu",
+      "name": "Kaye Chon",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/kaye-chon/",
+      "summary": "公开研究线索：Study of Hospitality Hospitality and Tourism Strategies Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e3a7a11fd7f555"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-a6fd7012143a48",
+      "researchKeywords": [
+        "Consumer Behavior in Hospitality and Tourism Technological Impacts and Decision-Making Branding and Loyalty Destination Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-a6fd7012143a48"
+      ],
+      "sourceIds": [
+        "review-profile-a6fd7012143a48"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Billy Bai Associate Dean (Academic Affairs) and Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/billy-bai/",
+      "universityId": "polyu",
+      "name": "Billy Bai",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/billy-bai/",
+      "summary": "公开研究线索：Consumer Behavior in Hospitality and Tourism Technological Impacts and Decision-Making Branding and Loyalty Destination Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-a6fd7012143a48"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e53c5e6071dfc3",
+      "researchKeywords": [
+        "Impact of Mobile IT Innovation IT & Communication Strategies in Hospitality & Tourism Organizations Tourists On-site Decision Making Destination Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e53c5e6071dfc3"
+      ],
+      "sourceIds": [
+        "review-profile-e53c5e6071dfc3"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "人文与社会科学"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Dan Wang Associate Dean (Research) and Professor, Associate Director of Research Centre for Digital Transformation of Tourism",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/dan-wang/",
+      "universityId": "polyu",
+      "name": "Dan Wang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/dan-wang/",
+      "summary": "公开研究线索：Impact of Mobile IT Innovation IT & Communication Strategies in Hospitality & Tourism Organizations Tourists On-site Decision Making Destination Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e53c5e6071dfc3"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-32e1c87f16a127",
+      "researchKeywords": [
+        "Hospitality Management Medical Tourism Spa Management Human Resources Management in Hospitality Industry Wellness Tourism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-32e1c87f16a127"
+      ],
+      "sourceIds": [
+        "review-profile-32e1c87f16a127"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Deniz Kucukusta Associate Dean (Global Engagement and Student Affairs) and Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/deniz-kucukusta/",
+      "universityId": "polyu",
+      "name": "Deniz Kucukusta",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/deniz-kucukusta/",
+      "summary": "公开研究线索：Hospitality Management Medical Tourism Spa Management Human Resources Management in Hospitality Industry Wellness Tourism。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-32e1c87f16a127"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-275449caef5280",
+      "researchKeywords": [
+        "Tourist behavior and resident sentiment Hospitality and destination marketing Hospitality education and student learning"
+      ],
+      "keywordSourceIds": [
+        "review-profile-275449caef5280"
+      ],
+      "sourceIds": [
+        "review-profile-275449caef5280"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "教育学"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Cathy Hsu Chair Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/cathy-hsu/",
+      "universityId": "polyu",
+      "name": "Cathy Hsu",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/cathy-hsu/",
+      "summary": "公开研究线索：Tourist behavior and resident sentiment Hospitality and destination marketing Hospitality education and student learning。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-275449caef5280"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-046177db165612",
+      "researchKeywords": [
+        "Applied Econometrics Tourism Economics Tourism Impact Assessment Competition Issues in Tourism Tourist Behaviour Tourism in China Chinese Economy under Transition Tourism Supply Chain Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-046177db165612"
+      ],
+      "sourceIds": [
+        "review-profile-046177db165612"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Haiyan Song Chair Professor, Mr and Mrs Chan Chak Fu Professor in International Tourism, Director of Research Centre for Digital Transformation of Tourism",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/haiyan-song/",
+      "universityId": "polyu",
+      "name": "Haiyan Song",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/haiyan-song/",
+      "summary": "公开研究线索：Applied Econometrics Tourism Economics Tourism Impact Assessment Competition Issues in Tourism Tourist Behaviour Tourism in China Chinese Economy under Transition Tourism Supply Chain Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-046177db165612"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-c41a97bb6db3ed",
+      "researchKeywords": [
+        "Chinese Tourist Behavior and Psychology Chinese Luxury Consumption in Tourism and Hospitality Cruise Tourism Senior Travel"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c41a97bb6db3ed"
+      ],
+      "sourceIds": [
+        "review-profile-c41a97bb6db3ed"
+      ],
+      "topics": [
+        "旅游与酒店管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Kam Hung Assistant Dean (Postgraduate Programmes) and Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/kam-hung/",
+      "universityId": "polyu",
+      "name": "Kam Hung",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/kam-hung/",
+      "summary": "公开研究线索：Chinese Tourist Behavior and Psychology Chinese Luxury Consumption in Tourism and Hospitality Cruise Tourism Senior Travel。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c41a97bb6db3ed"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-4df5879bfdb35a",
+      "researchKeywords": [
+        "Destination Marketing Fourth Industrial Revolution and Technology Sustainable Tourism Convention/Event Tourism Film Tourism/Celebrity Marketing Psychology of Pricing Medical Tourism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-4df5879bfdb35a"
+      ],
+      "sourceIds": [
+        "review-profile-4df5879bfdb35a"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Sam Kim Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sam-kim/",
+      "universityId": "polyu",
+      "name": "Sam Kim",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sam-kim/",
+      "summary": "公开研究线索：Destination Marketing Fourth Industrial Revolution and Technology Sustainable Tourism Convention/Event Tourism Film Tourism/Celebrity Marketing Psychology of Pricing Medical Tourism。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-4df5879bfdb35a"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-ae95d42491ee64",
+      "researchKeywords": [
+        "MICE Hospitality Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-ae95d42491ee64"
+      ],
+      "sourceIds": [
+        "review-profile-ae95d42491ee64"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Jinsoo Lee Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinsoo-lee/",
+      "universityId": "polyu",
+      "name": "Jinsoo Lee",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinsoo-lee/",
+      "summary": "公开研究线索：MICE Hospitality Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-ae95d42491ee64"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-f91723595d6908",
+      "researchKeywords": [
+        "Consumer Behavior in Hospitality and Tourism Destination Marketing Children Tourism Tourism Planning"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f91723595d6908"
+      ],
+      "sourceIds": [
+        "review-profile-f91723595d6908"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Mimi Li Professor, Associate Director of Research Centre for Digital Transformation of Tourism",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/mimi-li/",
+      "universityId": "polyu",
+      "name": "Mimi Li",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/mimi-li/",
+      "summary": "公开研究线索：Consumer Behavior in Hospitality and Tourism Destination Marketing Children Tourism Tourism Planning。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f91723595d6908"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-cf6a64759b2c4b",
+      "researchKeywords": [
+        "Big Data Analytics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-cf6a64759b2c4b"
+      ],
+      "sourceIds": [
+        "review-profile-cf6a64759b2c4b"
+      ],
+      "topics": [
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Bela Stantic Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/bela-stantic/",
+      "universityId": "polyu",
+      "name": "Bela Stantic",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/bela-stantic/",
+      "summary": "公开研究线索：Big Data Analytics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-cf6a64759b2c4b"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-c5c95b051371dc",
+      "researchKeywords": [
+        "Knowledge Development Scientific Community Communities of Learning and Practice Critical Tourism Cultural Studies Tourism in China Leisure and Recreation"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c5c95b051371dc"
+      ],
+      "sourceIds": [
+        "review-profile-c5c95b051371dc"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "人文与社会科学",
+        "教育学"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Honggen Xiao Assistant Dean (Research and Administration) and Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/honggen-xiao/",
+      "universityId": "polyu",
+      "name": "Honggen Xiao",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/honggen-xiao/",
+      "summary": "公开研究线索：Knowledge Development Scientific Community Communities of Learning and Practice Critical Tourism Cultural Studies Tourism in China Leisure and Recreation。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c5c95b051371dc"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-5ace4bb9475afa",
+      "researchKeywords": [
+        "Online/Mobile Marketing Hotel & Tourism Technology Management Labor Productivity in the Hospitality Industry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-5ace4bb9475afa"
+      ],
+      "sourceIds": [
+        "review-profile-5ace4bb9475afa"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Sangwon Park Adjunct Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sangwon-park/",
+      "universityId": "polyu",
+      "name": "Sangwon Park",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sangwon-park/",
+      "summary": "公开研究线索：Online/Mobile Marketing Hotel & Tourism Technology Management Labor Productivity in the Hospitality Industry。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-5ace4bb9475afa"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-ae88f9d97400a3",
+      "researchKeywords": [
+        "Information Technology Internet and E-Commerce Modelling and Forecasting Artificial Intelligence Software Engineering Computer Assisted Education"
+      ],
+      "keywordSourceIds": [
+        "review-profile-ae88f9d97400a3"
+      ],
+      "sourceIds": [
+        "review-profile-ae88f9d97400a3"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "教育学",
+        "人工智能",
+        "软件工程与编程语言"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Rob Law Honorary Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/rob-law/",
+      "universityId": "polyu",
+      "name": "Rob Law",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/rob-law/",
+      "summary": "公开研究线索：Information Technology Internet and E-Commerce Modelling and Forecasting Artificial Intelligence Software Engineering Computer Assisted Education。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-ae88f9d97400a3"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-4f72e8592e5b0b",
+      "researchKeywords": [
+        "Hospitality and Hotel Management Hospitality Financial Management Corporate Strategy in Hospitality"
+      ],
+      "keywordSourceIds": [
+        "review-profile-4f72e8592e5b0b"
+      ],
+      "sourceIds": [
+        "review-profile-4f72e8592e5b0b"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Gregg Rockett Professor of Practice (Hotel Management)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/gregg-rockett/",
+      "universityId": "polyu",
+      "name": "Gregg Rockett",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/gregg-rockett/",
+      "summary": "公开研究线索：Hospitality and Hotel Management Hospitality Financial Management Corporate Strategy in Hospitality。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-4f72e8592e5b0b"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-487ea9b7f7eab2",
+      "researchKeywords": [
+        "China's Outbound Tourism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-487ea9b7f7eab2"
+      ],
+      "sourceIds": [
+        "review-profile-487ea9b7f7eab2"
+      ],
+      "topics": [
+        "旅游与酒店管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Tony Tse Professor of Practice and Programme Director (Industry Partnerships)",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/tony-tse/",
+      "universityId": "polyu",
+      "name": "Tony Tse",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/tony-tse/",
+      "summary": "公开研究线索：China's Outbound Tourism。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-487ea9b7f7eab2"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-5c1286c4c159dc",
+      "researchKeywords": [
+        "Travel information search E-Tourism Social media analytics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-5c1286c4c159dc"
+      ],
+      "sourceIds": [
+        "review-profile-5c1286c4c159dc"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Prof. Phil Xiang Visiting Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/phil-xiang/",
+      "universityId": "polyu",
+      "name": "Phil Xiang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/phil-xiang/",
+      "summary": "公开研究线索：Travel information search E-Tourism Social media analytics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-5c1286c4c159dc"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-3f6dfa0f2b77fa",
+      "researchKeywords": [
+        "Human Resources Management Service Quality Yield Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-3f6dfa0f2b77fa"
+      ],
+      "sourceIds": [
+        "review-profile-3f6dfa0f2b77fa"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Catherine Cheung Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/catherine-cheung/",
+      "universityId": "polyu",
+      "name": "Catherine Cheung",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/catherine-cheung/",
+      "summary": "公开研究线索：Human Resources Management Service Quality Yield Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-3f6dfa0f2b77fa"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-f66425d742e13e",
+      "researchKeywords": [
+        "Social sustainability Social contact Tourist behaviour Active ageing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f66425d742e13e"
+      ],
+      "sourceIds": [
+        "review-profile-f66425d742e13e"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Daisy Fan Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/daisy-fan/",
+      "universityId": "polyu",
+      "name": "Daisy Fan",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/daisy-fan/",
+      "summary": "公开研究线索：Social sustainability Social contact Tourist behaviour Active ageing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f66425d742e13e"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-098fd111cc9d05",
+      "researchKeywords": [
+        "Consumer Behavior Corporate Social Responsibility Services Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-098fd111cc9d05"
+      ],
+      "sourceIds": [
+        "review-profile-098fd111cc9d05"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Lisa Gao Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/lisa-gao/",
+      "universityId": "polyu",
+      "name": "Lisa Gao",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/lisa-gao/",
+      "summary": "公开研究线索：Consumer Behavior Corporate Social Responsibility Services Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-098fd111cc9d05"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-27ec57c6bd8777",
+      "researchKeywords": [
+        "Employee Creativity & Innovation Service Employee Motivation Leadership and Team Management Justice and Trust Customer Satisfaction"
+      ],
+      "keywordSourceIds": [
+        "review-profile-27ec57c6bd8777"
+      ],
+      "sourceIds": [
+        "review-profile-27ec57c6bd8777"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Alice Hon Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/alice-hon/",
+      "universityId": "polyu",
+      "name": "Alice Hon",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/alice-hon/",
+      "summary": "公开研究线索：Employee Creativity & Innovation Service Employee Motivation Leadership and Team Management Justice and Trust Customer Satisfaction。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-27ec57c6bd8777"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-f9ce4e40d5db18",
+      "researchKeywords": [
+        "Cultural and Heritage Tourism Globalization and Tourism Development Destination Image Diaspora Tourism Tourist Behavior and Typology"
+      ],
+      "keywordSourceIds": [
+        "review-profile-f9ce4e40d5db18"
+      ],
+      "sourceIds": [
+        "review-profile-f9ce4e40d5db18"
+      ],
+      "topics": [
+        "旅游与酒店管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Sabrina Huang Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sabrina-huang/",
+      "universityId": "polyu",
+      "name": "Sabrina Huang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sabrina-huang/",
+      "summary": "公开研究线索：Cultural and Heritage Tourism Globalization and Tourism Development Destination Image Diaspora Tourism Tourist Behavior and Typology。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-f9ce4e40d5db18"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-04ce532e828ad4",
+      "researchKeywords": [
+        "Services Marketing Relationship Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-04ce532e828ad4"
+      ],
+      "sourceIds": [
+        "review-profile-04ce532e828ad4"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "YooHee Hwang Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/yoohee-hwang/",
+      "universityId": "polyu",
+      "name": "YooHee Hwang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/yoohee-hwang/",
+      "summary": "公开研究线索：Services Marketing Relationship Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-04ce532e828ad4"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-b0c1bd3f361b71",
+      "researchKeywords": [
+        "Technology Management Electronic Marketing Social Media Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-b0c1bd3f361b71"
+      ],
+      "sourceIds": [
+        "review-profile-b0c1bd3f361b71"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Daniel Leung Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/daniel-leung/",
+      "universityId": "polyu",
+      "name": "Daniel Leung",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/daniel-leung/",
+      "summary": "公开研究线索：Technology Management Electronic Marketing Social Media Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-b0c1bd3f361b71"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-20cdb91f8e1c86",
+      "researchKeywords": [
+        "IT-enabled Business Strategies Economic Analytics in Tourism and Hospitality Consumer Decision Making Big Data Analytics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-20cdb91f8e1c86"
+      ],
+      "sourceIds": [
+        "review-profile-20cdb91f8e1c86"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Neil Li Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/neil-li/",
+      "universityId": "polyu",
+      "name": "Neil Li",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/neil-li/",
+      "summary": "公开研究线索：IT-enabled Business Strategies Economic Analytics in Tourism and Hospitality Consumer Decision Making Big Data Analytics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-20cdb91f8e1c86"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e14843e8d966b4",
+      "researchKeywords": [
+        "Innovation and Entrepreneurship Small Business Managemen CSR/ESG issues"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e14843e8d966b4"
+      ],
+      "sourceIds": [
+        "review-profile-e14843e8d966b4"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Michael Lin Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/michael-lin/",
+      "universityId": "polyu",
+      "name": "Michael Lin",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/michael-lin/",
+      "summary": "公开研究线索：Innovation and Entrepreneurship Small Business Managemen CSR/ESG issues。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e14843e8d966b4"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-82c26e94de4ee6",
+      "researchKeywords": [
+        "Culinary Creativity Culinary Training and Education Quality Assurance in Bed and Breakfast Sector"
+      ],
+      "keywordSourceIds": [
+        "review-profile-82c26e94de4ee6"
+      ],
+      "sourceIds": [
+        "review-profile-82c26e94de4ee6"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "教育学"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Pearl Lin Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/pearl-lin/",
+      "universityId": "polyu",
+      "name": "Pearl Lin",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/pearl-lin/",
+      "summary": "公开研究线索：Culinary Creativity Culinary Training and Education Quality Assurance in Bed and Breakfast Sector。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-82c26e94de4ee6"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-7b1fabe5af19d7",
+      "researchKeywords": [
+        "Customer Relationship Management Spa Experience Loyalty Programme Development Tourists' Behavior Tourism Risks Corporate Social Responsibility & Sustainability Digital Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-7b1fabe5af19d7"
+      ],
+      "sourceIds": [
+        "review-profile-7b1fabe5af19d7"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Ada Lo Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/ada-lo/",
+      "universityId": "polyu",
+      "name": "Ada Lo",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/ada-lo/",
+      "summary": "公开研究线索：Customer Relationship Management Spa Experience Loyalty Programme Development Tourists' Behavior Tourism Risks Corporate Social Responsibility & Sustainability Digital Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-7b1fabe5af19d7"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-dc84ee37e340d6",
+      "researchKeywords": [
+        "Hospitality & Tourism Financial Management Hospitality & Tourism Strategic Management Food & Beverage Management Revenue Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-dc84ee37e340d6"
+      ],
+      "sourceIds": [
+        "review-profile-dc84ee37e340d6"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Sung Gyun Mun Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-gyun-mun/",
+      "universityId": "polyu",
+      "name": "Sung Gyun Mun",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-gyun-mun/",
+      "summary": "公开研究线索：Hospitality & Tourism Financial Management Hospitality & Tourism Strategic Management Food & Beverage Management Revenue Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-dc84ee37e340d6"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e254f51d81b470",
+      "researchKeywords": [
+        "Tourist Choice Behaviour Tourism Economics Tourism Demand Modelling and Forecasting"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e254f51d81b470"
+      ],
+      "sourceIds": [
+        "review-profile-e254f51d81b470"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Richard Qiu Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/richard-qiu/",
+      "universityId": "polyu",
+      "name": "Richard Qiu",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/richard-qiu/",
+      "summary": "公开研究线索：Tourist Choice Behaviour Tourism Economics Tourism Demand Modelling and Forecasting。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e254f51d81b470"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-2f89819ef4710b",
+      "researchKeywords": [
+        "Employee Well-being and Emotions Ethical Leadership Abusive Supervision Computational Social Method"
+      ],
+      "keywordSourceIds": [
+        "review-profile-2f89819ef4710b"
+      ],
+      "sourceIds": [
+        "review-profile-2f89819ef4710b"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Crystal Shi Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/crystal-shi/",
+      "universityId": "polyu",
+      "name": "Crystal Shi",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/crystal-shi/",
+      "summary": "公开研究线索：Employee Well-being and Emotions Ethical Leadership Abusive Supervision Computational Social Method。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-2f89819ef4710b"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e86715c451ad88",
+      "researchKeywords": [
+        "Casino and Gaming Management Hotel Efficiency Ownership Structure Corporate Performance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e86715c451ad88"
+      ],
+      "sourceIds": [
+        "review-profile-e86715c451ad88"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Henry Tsai Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/henry-tsai/",
+      "universityId": "polyu",
+      "name": "Henry Tsai",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/henry-tsai/",
+      "summary": "公开研究线索：Casino and Gaming Management Hotel Efficiency Ownership Structure Corporate Performance。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e86715c451ad88"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-91e57e1b4769b9",
+      "researchKeywords": [
+        "Service Quality Service Culture Tourist Behaviour"
+      ],
+      "keywordSourceIds": [
+        "review-profile-91e57e1b4769b9"
+      ],
+      "sourceIds": [
+        "review-profile-91e57e1b4769b9"
+      ],
+      "topics": [
+        "旅游与酒店管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Nelson Tsang Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/nelson-tsang/",
+      "universityId": "polyu",
+      "name": "Nelson Tsang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/nelson-tsang/",
+      "summary": "公开研究线索：Service Quality Service Culture Tourist Behaviour。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-91e57e1b4769b9"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-1591b0d9d51a52",
+      "researchKeywords": [
+        "Resident attitudes Tourist experiences Industry perspectives"
+      ],
+      "keywordSourceIds": [
+        "review-profile-1591b0d9d51a52"
+      ],
+      "sourceIds": [
+        "review-profile-1591b0d9d51a52"
+      ],
+      "topics": [
+        "旅游与酒店管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Vincent Tung Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/vincent-tung/",
+      "universityId": "polyu",
+      "name": "Vincent Tung",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/vincent-tung/",
+      "summary": "公开研究线索：Resident attitudes Tourist experiences Industry perspectives。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-1591b0d9d51a52"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-bcad922b561a69",
+      "researchKeywords": [
+        "Error Management Emotions in the workplace Service Management Leadership"
+      ],
+      "keywordSourceIds": [
+        "review-profile-bcad922b561a69"
+      ],
+      "sourceIds": [
+        "review-profile-bcad922b561a69"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Maxime Wang Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/maxime-wang/",
+      "universityId": "polyu",
+      "name": "Maxime Wang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/maxime-wang/",
+      "summary": "公开研究线索：Error Management Emotions in the workplace Service Management Leadership。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-bcad922b561a69"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-83debef8a4523c",
+      "researchKeywords": [
+        "Travel and technology Destination management and marketing Consumer behaviours"
+      ],
+      "keywordSourceIds": [
+        "review-profile-83debef8a4523c"
+      ],
+      "sourceIds": [
+        "review-profile-83debef8a4523c"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Ying Wang Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/ying-wang/",
+      "universityId": "polyu",
+      "name": "Ying Wang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/ying-wang/",
+      "summary": "公开研究线索：Travel and technology Destination management and marketing Consumer behaviours。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-83debef8a4523c"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-99b7bdff0ec6ca",
+      "researchKeywords": [
+        "Strategic Management Hospitality Real Estate Investment and Asset Management Brand Management Merger and Acquisition and Chain Development Innovations in the Hospitality Industry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-99b7bdff0ec6ca"
+      ],
+      "sourceIds": [
+        "review-profile-99b7bdff0ec6ca"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Qu Xiao Assistant Dean (Industry Engagement) and Associate Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/qu-xiao/",
+      "universityId": "polyu",
+      "name": "Qu Xiao",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/qu-xiao/",
+      "summary": "公开研究线索：Strategic Management Hospitality Real Estate Investment and Asset Management Brand Management Merger and Acquisition and Chain Development Innovations in the Hospitality Industry。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-99b7bdff0ec6ca"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-cae3307a7f4237",
+      "researchKeywords": [
+        "Strategic Management Startups Competitive Dynamics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-cae3307a7f4237"
+      ],
+      "sourceIds": [
+        "review-profile-cae3307a7f4237"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Simone Bianco Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/simone-bianco/",
+      "universityId": "polyu",
+      "name": "Simone Bianco",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/simone-bianco/",
+      "summary": "公开研究线索：Strategic Management Startups Competitive Dynamics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-cae3307a7f4237"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-3ca4768dce25cd",
+      "researchKeywords": [
+        "Services Marketing Digital Marketing and Analytics Technology strategy Hospitality and Tourism Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-3ca4768dce25cd"
+      ],
+      "sourceIds": [
+        "review-profile-3ca4768dce25cd"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Janelle Chan Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/janelle-chan/",
+      "universityId": "polyu",
+      "name": "Janelle Chan",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/janelle-chan/",
+      "summary": "公开研究线索：Services Marketing Digital Marketing and Analytics Technology strategy Hospitality and Tourism Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-3ca4768dce25cd"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-6ac2aa303d259d",
+      "researchKeywords": [
+        "Host-tourist Interactions Emotional Experience Resident Sentiment Tourist Stereotypes Event Tourism & Destination Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6ac2aa303d259d"
+      ],
+      "sourceIds": [
+        "review-profile-6ac2aa303d259d"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Nan Chen Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/nan-chen/",
+      "universityId": "polyu",
+      "name": "Nan Chen",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/nan-chen/",
+      "summary": "公开研究线索：Host-tourist Interactions Emotional Experience Resident Sentiment Tourist Stereotypes Event Tourism & Destination Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6ac2aa303d259d"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-cb45cd85310fff",
+      "researchKeywords": [
+        "Destination curiosity People-centric travel experiences Destination-community hospitality Tourism as a social phenomenon Cultural ambassadorship Sustainable behaviors"
+      ],
+      "keywordSourceIds": [
+        "review-profile-cb45cd85310fff"
+      ],
+      "sourceIds": [
+        "review-profile-cb45cd85310fff"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Dori Davari Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/dori-davari/",
+      "universityId": "polyu",
+      "name": "Dori Davari",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/dori-davari/",
+      "summary": "公开研究线索：Destination curiosity People-centric travel experiences Destination-community hospitality Tourism as a social phenomenon Cultural ambassadorship Sustainable behaviors。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-cb45cd85310fff"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-2608fdce24d48b",
+      "researchKeywords": [
+        "Hospitality and Hotel Management Tourism Economic and Financial Management Strategic Management in Hospitality"
+      ],
+      "keywordSourceIds": [
+        "review-profile-2608fdce24d48b"
+      ],
+      "sourceIds": [
+        "review-profile-2608fdce24d48b"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Jaehee Gim Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jaehee-gim/",
+      "universityId": "polyu",
+      "name": "Jaehee Gim",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jaehee-gim/",
+      "summary": "公开研究线索：Hospitality and Hotel Management Tourism Economic and Financial Management Strategic Management in Hospitality。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-2608fdce24d48b"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-acd48b109c3242",
+      "researchKeywords": [
+        "Sustainable Tourism Destination Competitiveness Tourism Governance Tourist Behaviour Regional and Labour Economics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-acd48b109c3242"
+      ],
+      "sourceIds": [
+        "review-profile-acd48b109c3242"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Gianluca Goffi Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/gianluca-goffi/",
+      "universityId": "polyu",
+      "name": "Gianluca Goffi",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/gianluca-goffi/",
+      "summary": "公开研究线索：Sustainable Tourism Destination Competitiveness Tourism Governance Tourist Behaviour Regional and Labour Economics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-acd48b109c3242"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e7dfc266b626e4",
+      "researchKeywords": [
+        "Technology for Humanity Generative AI Metaverse and Avatar Blockchain in Hospitality"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e7dfc266b626e4"
+      ],
+      "sourceIds": [
+        "review-profile-e7dfc266b626e4"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Faye Hao Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/faye-hao/",
+      "universityId": "polyu",
+      "name": "Faye Hao",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/faye-hao/",
+      "summary": "公开研究线索：Technology for Humanity Generative AI Metaverse and Avatar Blockchain in Hospitality。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e7dfc266b626e4"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-87261faa0f24d7",
+      "researchKeywords": [
+        "Strategic Management Risk/crisis Management and Community Resilience Sharing Economy Spatial Analysis Discrete Choice Modelling"
+      ],
+      "keywordSourceIds": [
+        "review-profile-87261faa0f24d7"
+      ],
+      "sourceIds": [
+        "review-profile-87261faa0f24d7"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "数学与统计"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Sung In Kim Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-in-kim/",
+      "universityId": "polyu",
+      "name": "Sung In Kim",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-in-kim/",
+      "summary": "公开研究线索：Strategic Management Risk/crisis Management and Community Resilience Sharing Economy Spatial Analysis Discrete Choice Modelling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-87261faa0f24d7"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-1a9d68bb86298f",
+      "researchKeywords": [
+        "Tourism and Mobility Socio-spatial Behavior of Tourists Urban and Regional Destinations Tourism Marketing and Management Cross-border Tourism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-1a9d68bb86298f"
+      ],
+      "sourceIds": [
+        "review-profile-1a9d68bb86298f"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Jinah Park Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinah-park/",
+      "universityId": "polyu",
+      "name": "Jinah Park",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinah-park/",
+      "summary": "公开研究线索：Tourism and Mobility Socio-spatial Behavior of Tourists Urban and Regional Destinations Tourism Marketing and Management Cross-border Tourism。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-1a9d68bb86298f"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-33b595fcfdaa1d",
+      "researchKeywords": [
+        "Innovation in hospitality and tourism Crisis management in hospitality and tourism Tourism impacts and sustainability"
+      ],
+      "keywordSourceIds": [
+        "review-profile-33b595fcfdaa1d"
+      ],
+      "sourceIds": [
+        "review-profile-33b595fcfdaa1d"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Dagnachew Senbeto Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/dagnachew-senbeto/",
+      "universityId": "polyu",
+      "name": "Dagnachew Senbeto",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/dagnachew-senbeto/",
+      "summary": "公开研究线索：Innovation in hospitality and tourism Crisis management in hospitality and tourism Tourism impacts and sustainability。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-33b595fcfdaa1d"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-fbf9d45dcaa0d3",
+      "researchKeywords": [
+        "Human-technology interactions Corporate digital responsibility Technological innovation in the hospitality and tourism industry"
+      ],
+      "keywordSourceIds": [
+        "review-profile-fbf9d45dcaa0d3"
+      ],
+      "sourceIds": [
+        "review-profile-fbf9d45dcaa0d3"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "人机交互"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Hailey Shin Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/hailey-shin/",
+      "universityId": "polyu",
+      "name": "Hailey Shin",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/hailey-shin/",
+      "summary": "公开研究线索：Human-technology interactions Corporate digital responsibility Technological innovation in the hospitality and tourism industry。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-fbf9d45dcaa0d3"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-c858713a536c17",
+      "researchKeywords": [
+        "Social media analytics in hospitality and tourism Traveller behavior in online platforms Information technology"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c858713a536c17"
+      ],
+      "sourceIds": [
+        "review-profile-c858713a536c17"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Seunghun Shin Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/seunghun-shin/",
+      "universityId": "polyu",
+      "name": "Seunghun Shin",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/seunghun-shin/",
+      "summary": "公开研究线索：Social media analytics in hospitality and tourism Traveller behavior in online platforms Information technology。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c858713a536c17"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-fa06eacc96c6ef",
+      "researchKeywords": [
+        "Corporate social responsibility Organizational behaviour Diversity and Inclusion Hotel management Human resource management Medical tourism"
+      ],
+      "keywordSourceIds": [
+        "review-profile-fa06eacc96c6ef"
+      ],
+      "sourceIds": [
+        "review-profile-fa06eacc96c6ef"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Antony Wong Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/antony-wong/",
+      "universityId": "polyu",
+      "name": "Antony Wong",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/antony-wong/",
+      "summary": "公开研究线索：Corporate social responsibility Organizational behaviour Diversity and Inclusion Hotel management Human resource management Medical tourism。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-fa06eacc96c6ef"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-1110b372311e2e",
+      "researchKeywords": [
+        "Leadership Employee well-being Employee-robot interaction Gig workers Human resource management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-1110b372311e2e"
+      ],
+      "sourceIds": [
+        "review-profile-1110b372311e2e"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "机器人与控制",
+        "人机交互"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Yitong Yu Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/yitong-yu/",
+      "universityId": "polyu",
+      "name": "Yitong Yu",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/yitong-yu/",
+      "summary": "公开研究线索：Leadership Employee well-being Employee-robot interaction Gig workers Human resource management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-1110b372311e2e"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e17715d7433b70",
+      "researchKeywords": [
+        "Strategic Management, Big Data Analytics, Generative AI"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e17715d7433b70"
+      ],
+      "sourceIds": [
+        "review-profile-e17715d7433b70"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "人工智能",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Huihui Zhang Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/huihui-zhang/",
+      "universityId": "polyu",
+      "name": "Huihui Zhang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/huihui-zhang/",
+      "summary": "公开研究线索：Strategic Management, Big Data Analytics, Generative AI。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e17715d7433b70"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-fdc31319b67701",
+      "researchKeywords": [
+        "Hotel and Tourism Technology Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-fdc31319b67701"
+      ],
+      "sourceIds": [
+        "review-profile-fdc31319b67701"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Jason Zhang Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jason-zhang/",
+      "universityId": "polyu",
+      "name": "Jason Zhang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jason-zhang/",
+      "summary": "公开研究线索：Hotel and Tourism Technology Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-fdc31319b67701"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-630a6ef91ddc8a",
+      "researchKeywords": [
+        "Travel patterns Tourist mobility Sentiment analysis Network analysis Big data analytics and social media"
+      ],
+      "keywordSourceIds": [
+        "review-profile-630a6ef91ddc8a"
+      ],
+      "sourceIds": [
+        "review-profile-630a6ef91ddc8a"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "数据挖掘"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Emily Chen Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinyan-chen-emily/",
+      "universityId": "polyu",
+      "name": "Emily Chen",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinyan-chen-emily/",
+      "summary": "公开研究线索：Travel patterns Tourist mobility Sentiment analysis Network analysis Big data analytics and social media。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-630a6ef91ddc8a"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-43f743af8b2349",
+      "researchKeywords": [
+        "Organizational Behavior Strategic Hospitality Management Well-being and Psychological Sustainability Green Strategies and Sustainability AI-Driven Workplace Dynamics"
+      ],
+      "keywordSourceIds": [
+        "review-profile-43f743af8b2349"
+      ],
+      "sourceIds": [
+        "review-profile-43f743af8b2349"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展",
+        "经济与管理",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Meli Darvish (Mahlagha Darvishmotevali) Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/meli-darvish/",
+      "universityId": "polyu",
+      "name": "Meli Darvish (Mahlagha Darvishmotevali)",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/meli-darvish/",
+      "summary": "公开研究线索：Organizational Behavior Strategic Hospitality Management Well-being and Psychological Sustainability Green Strategies and Sustainability AI-Driven Workplace Dynamics。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-43f743af8b2349"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-c2acd03f16c42f",
+      "researchKeywords": [
+        "Social commerce Digital marketing Destination avoidance"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c2acd03f16c42f"
+      ],
+      "sourceIds": [
+        "review-profile-c2acd03f16c42f"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Ivanka Huang Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/ivanka-huang/",
+      "universityId": "polyu",
+      "name": "Ivanka Huang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/ivanka-huang/",
+      "summary": "公开研究线索：Social commerce Digital marketing Destination avoidance。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c2acd03f16c42f"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-1f36374fc32efb",
+      "researchKeywords": [
+        "Hospitality and Tourism Marketing Hotel and Tourism Technology Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-1f36374fc32efb"
+      ],
+      "sourceIds": [
+        "review-profile-1f36374fc32efb"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Eunji Lee Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/eunji-lee/",
+      "universityId": "polyu",
+      "name": "Eunji Lee",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/eunji-lee/",
+      "summary": "公开研究线索：Hospitality and Tourism Marketing Hotel and Tourism Technology Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-1f36374fc32efb"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-c23bb0644dc4c7",
+      "researchKeywords": [
+        "Consumer Behaviour Food and Beverage Decision Making Sensory Marketing"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c23bb0644dc4c7"
+      ],
+      "sourceIds": [
+        "review-profile-c23bb0644dc4c7"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Angie Luo Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/angie-luo/",
+      "universityId": "polyu",
+      "name": "Angie Luo",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/angie-luo/",
+      "summary": "公开研究线索：Consumer Behaviour Food and Beverage Decision Making Sensory Marketing。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c23bb0644dc4c7"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-d30e92e8d68aae",
+      "researchKeywords": [
+        "Tourism Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-d30e92e8d68aae"
+      ],
+      "sourceIds": [
+        "review-profile-d30e92e8d68aae"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Roshis Shrestha Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/roshis-shrestha/",
+      "universityId": "polyu",
+      "name": "Roshis Shrestha",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/roshis-shrestha/",
+      "summary": "公开研究线索：Tourism Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-d30e92e8d68aae"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-6cbfcaa6a9b16c",
+      "researchKeywords": [
+        "Tourism and event management Tourist behaviour Emotional experience"
+      ],
+      "keywordSourceIds": [
+        "review-profile-6cbfcaa6a9b16c"
+      ],
+      "sourceIds": [
+        "review-profile-6cbfcaa6a9b16c"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Jessie Wang Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jessie-wang/",
+      "universityId": "polyu",
+      "name": "Jessie Wang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/jessie-wang/",
+      "summary": "公开研究线索：Tourism and event management Tourist behaviour Emotional experience。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-6cbfcaa6a9b16c"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-c6c7b32c0ac74b",
+      "researchKeywords": [
+        "Hospitality and Hotel Management Food and Beverage Management Tourism Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-c6c7b32c0ac74b"
+      ],
+      "sourceIds": [
+        "review-profile-c6c7b32c0ac74b"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Yuchen Xu Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/yuchen-xu/",
+      "universityId": "polyu",
+      "name": "Yuchen Xu",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/yuchen-xu/",
+      "summary": "公开研究线索：Hospitality and Hotel Management Food and Beverage Management Tourism Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-c6c7b32c0ac74b"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-430ecdbc3b6de8",
+      "researchKeywords": [
+        "Tourism Economics Tourism and Hotel Demand Modelling and Forecasting Tourist Behaviour and Choice Modelling"
+      ],
+      "keywordSourceIds": [
+        "review-profile-430ecdbc3b6de8"
+      ],
+      "sourceIds": [
+        "review-profile-430ecdbc3b6de8"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Hanyuan Zhang Research Assistant Professor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/hanyuan-zhang/",
+      "universityId": "polyu",
+      "name": "Hanyuan Zhang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/hanyuan-zhang/",
+      "summary": "公开研究线索：Tourism Economics Tourism and Hotel Demand Modelling and Forecasting Tourist Behaviour and Choice Modelling。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-430ecdbc3b6de8"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-e18f278681b3f4",
+      "researchKeywords": [
+        "Sustainable Tourism Development Tourism Planning Tourism Marketing Tourism Product Development"
+      ],
+      "keywordSourceIds": [
+        "review-profile-e18f278681b3f4"
+      ],
+      "sourceIds": [
+        "review-profile-e18f278681b3f4"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "环境与可持续发展",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Tak Kanchanawat Instructor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/tak-kanchanawat/",
+      "universityId": "polyu",
+      "name": "Tak Kanchanawat",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/tak-kanchanawat/",
+      "summary": "公开研究线索：Sustainable Tourism Development Tourism Planning Tourism Marketing Tourism Product Development。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-e18f278681b3f4"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-36ba105638c222",
+      "researchKeywords": [
+        "Tourism Management"
+      ],
+      "keywordSourceIds": [
+        "review-profile-36ba105638c222"
+      ],
+      "sourceIds": [
+        "review-profile-36ba105638c222"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Pia Kwan Instructor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/pia-kwan/",
+      "universityId": "polyu",
+      "name": "Pia Kwan",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/pia-kwan/",
+      "summary": "公开研究线索：Tourism Management。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-36ba105638c222"
+        ]
+      }
+    },
+    {
+      "id": "review-polyu-728f13509f16ba",
+      "researchKeywords": [
+        "Human Resources Management Blended Learning Creativity Motivation"
+      ],
+      "keywordSourceIds": [
+        "review-profile-728f13509f16ba"
+      ],
+      "sourceIds": [
+        "review-profile-728f13509f16ba"
+      ],
+      "topics": [
+        "旅游与酒店管理",
+        "经济与管理",
+        "教育学"
+      ],
+      "academicUnitIds": [
+        "polyu-10"
+      ],
+      "directoryRole": "Loretta Pang Instructor",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/loretta-pang/",
+      "universityId": "polyu",
+      "name": "Loretta Pang",
+      "department": "School of Hotel and Tourism Management",
+      "profileUrl": "https://www.polyu.edu.hk/shtm/people/academic-staff/loretta-pang/",
+      "summary": "公开研究线索：Human Resources Management Blended Learning Creativity Motivation。请结合原职位和具体项目继续核对。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前学年是否接收所选学位、是否有名额及个人指导资格尚未核实；不能用研究方向或职称代替招生确认。",
+        "sourceIds": [
+          "review-profile-728f13509f16ba"
+        ]
       }
     }
   ],
@@ -12199,6 +18436,5750 @@ window.APP_CATALOG = {
       "knownIssues": [
         "页面未注明发布日期；核查日不等于架构生效日。"
       ]
+    },
+    {
+      "id": "review-profile-dea5c4e675ccdc",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/huamin-qu/",
+      "title": "Huamin QU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "QU Huamin Chair Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Information visualization；Big data；Human-computer interaction；Artificial intelligence；Mobile augmented reality"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "9e120ca3dae63d5bed2552e2947eefd9846b833ffcde70ce5f9bc8b2b54c97be"
+    },
+    {
+      "id": "review-profile-386299345c41c8",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/pui-sang-lau/",
+      "title": "Pui Sang LAU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Arthur LAU Professor of Interdisciplinary Education；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Biomarkers and microbial VOCs；Bioaerosols；General air quality；Environmental education"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "4c2c63b5066723b0e78ad13729d35546a5b4bd74461c55e49497fb18b6870ebc"
+    },
+    {
+      "id": "review-profile-48b966d4f23b30",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/zhi-ning/",
+      "title": "Zhi NING · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "NING Zhi Associate Dean (Research and Graduate Studies)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air Pollution；Air Pollution Measurement and Modelling；Air Pollution Exposure and Health Impact Assessment；Microsensors；Instrumentation and measurement"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "cbb25181f8f96366877363063bd94e54933f9e3736b96f99a74dffcab24eeb8f"
+    },
+    {
+      "id": "review-profile-4e1c2f85d5f922",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/alexis-kai-hon-lau/",
+      "title": "Alexis Kai Hon LAU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Alexis K H LAU Head; Tang Junyuan Professor of Environmental Science；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air quality analysis, forecasts and management；Air pollution exposure and health impact assessment；Climate Adaptation and Resilience；Sustainable Urban Environment；Green and Sustainable Finance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "3743d33cecf512a9c7e35cdf3e31c10d63e4213bd68f2792b067e51c3ef1a81a"
+    },
+    {
+      "id": "review-profile-8ad06467096ef5",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/fei-chen/",
+      "title": "Fei CHEN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CHEN Fei Associate Head; Chair Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Land-atmosphere interactions；Land-surface and hydrologic process；Development of community land-surface, weather prediction, and climate models；Urbanization and its impacts on weather and climate；Agriculture management modelling in land-surface models；Regional climate modelling and assessment"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "95bd5d0e2e7c56506d5d4f5717a1a44e479b0f4dda7f79fe0352a6a4748d517a"
+    },
+    {
+      "id": "review-profile-ef14de1e698bde",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/zhe-wang-2/",
+      "title": "Zhe WANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "WANG Zhe Associate Professor; UG Coordinator；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Atmospheric Chemistry；Air Pollution；Atmospheric heterogeneous/multiphase chemistry；Cloud-aerosol-gas interactions；Oxidation of VOCs and SOA formation"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "7e04fd4bfceed8725caed4e0cd3ba8baaeb17837b80b5562344f4e2079b09138"
+    },
+    {
+      "id": "review-profile-4b9db911fa7031",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/eun-soon-im/",
+      "title": "Eun Soon IM · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "IM Eun Soon Associate Professor (Joint Appointment); RPg Coordinator；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Climate change and variability；Analysis of hydrological extremes；Regional Climate Change Modelling；Global and planetary change"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "eb8fe82e0059e0771d2f192dd1d6e594cfa86fc2144cfa9ac7f556114602290b"
+    },
+    {
+      "id": "review-profile-a580916ecb8ec2",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/guanghao-chen/",
+      "title": "Guanghao CHEN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CHEN Guanghao Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Environmental engineering"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "03fc197d3e68f343c18db6ba9c74dd52e7e6af13c238fa1f43fe30643f2a6457"
+    },
+    {
+      "id": "review-profile-1a4d5126dd3fea",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/jimmy-chi-hung-fung/",
+      "title": "Jimmy Chi Hung FUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jimmy FUNG Chair Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Atmospheric science and weather prediction；Regional climate change and variability；Multi-scale air quality modeling；Computational fluid dynamics；Environmental Sustainability"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f409250f77e4e7d733e2e2bc6ad62904f284fc0c45f72d028d8073ed0c853b93"
+    },
+    {
+      "id": "review-profile-8e8e02159255ad",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/jianping-gan/",
+      "title": "Jianping GAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "GAN Jianping Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Ocean Circulation and Ecosystem Modelling；Computational fluid dynamics；Physical oceanography；Ocean circulation and ecosystem；Regional Climate Change Modelling"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "3e751d5881fee8d9e90a5810bef9b85e7b33b6d4d70f2b6047186c74af9b54eb"
+    },
+    {
+      "id": "review-profile-974099ba22b899",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/hui-su/",
+      "title": "Hui SU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "SU Hui Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Remote Sensing；Tropical meteorology；Climate Variability and Climate Change"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d764da435cf09e11b8a42a2698c2c0ee5fa60c142a4d9c3f927f952a20bdf02e"
+    },
+    {
+      "id": "review-profile-6c1c8e4437ee5f",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/king-lun-yeung/",
+      "title": "King Lun YEUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YEUNG King Lun Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Environmental pollution treatment；Nanoporous and nanostructured materials；Biomedical engineering (BME)"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "449c264f31f847f857d7a70811dbb5e2c46569d2600f4a40d51bb2fc273af9ab"
+    },
+    {
+      "id": "review-profile-824888edfb74dc",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/jianzhen-yu/",
+      "title": "Jianzhen YU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YU Jianzhen Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Aerosol chemistry；Analytical chemistry；Atmospheric applications；Environmental analysis；Atmospheric science；Environmental chemistry/instrumentation；Urban ozone formation chemistry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "388816a96e46ce8dcb6af635f278667d943087956023be455050de99f3dfa2bf"
+    },
+    {
+      "id": "review-profile-e07f46c91c3364",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wan-chan/",
+      "title": "Simon Wan CHAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Simon CHAN Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Analytical chemistry；Bioanalytical chemistry；Chemical toxicology；Food Chemistry；Mass spectrometry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "ce4003ceebd9fc2a3766211a1b33d2b8de6386f648ee407b880bb53efde835af"
+    },
+    {
+      "id": "review-profile-edf807d52fe9a4",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kira-matus/",
+      "title": "Kira MATUS · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Kira MATUS Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Sustainable production and manufacturing；Emergence of the innovation systems approach；Green chemistry and engineering；National innovation systems in Asia and Europe"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e37672fb38c0a0e8948823464d9a58394103f44ff0e19938e6687a453a468f91"
+    },
+    {
+      "id": "review-profile-62aa396fe8bff1",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/dan-wang/",
+      "title": "Dan WANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "WANG Dan Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computing for Sustainability；Sustainable Computing；AI for Weather and Climate Systems；Edge AI"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "466870ec61faa32395c4c9bf7c9e0b90490ec30361fe2760bb1a876a5aa48202"
+    },
+    {
+      "id": "review-profile-631bafd264ae90",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/qi-ying/",
+      "title": "Qi YING · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YING Qi Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air Pollution Measurement and Modelling；Atmospheric Chemistry；Air Quality Analyses and Forecasts；Air Quality Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6134d0a4ca26645ebd5fd8e4e91ec2be2c824b724e7b1930220f0b86d2a1c964"
+    },
+    {
+      "id": "review-profile-e55d707c50c86e",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/darwin-choi/",
+      "title": "Darwin CHOI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Darwin CHOI Associate Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Socially responsible investing (SRI)；Corporate social responsibility (CSR)；Behavioral finance；Mutual funds / hedge funds"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b505efc79cefa8d98c4ee1161e1ba8ef9c6ff0d6f51d2fa5383e367e0db1bf30"
+    },
+    {
+      "id": "review-profile-2fc5c27047de73",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/laurence-delina/",
+      "title": "Laurence Delina · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Laurence L DELINA Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Environment and society；Global and Planetary Change；Environmental Sustainability；Renewable energy；Developing countries"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e4be31d8ab5dce354723e40e84ee36a6e7e9a08e56f670be7009167eee1cee98"
+    },
+    {
+      "id": "review-profile-3b15ce3cb43432",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/dasa-gu/",
+      "title": "Dasa GU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "GU Dasa Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air Pollution；Atmospheric Chemistry；Emission Inventory；Remote Sensing；Environmental Technologies"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "c528280602045dd1bbfa42c9f19c9e4990604f488f7c62d232d5afdf947cef89"
+    },
+    {
+      "id": "review-profile-c40ba19ece1d20",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/xiaoming-shi/",
+      "title": "Xiaoming SHI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "SHI Xiaoming Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Atmospheric science and weather prediction；Regional Climate Change Modelling；Computational Fluid Dynamics；Atmospheric science；Climate change and variability"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "4bc0c99f240efdcccadace74c6accfba640234360f5841d271d8ad1115e76c18"
+    },
+    {
+      "id": "review-profile-08e1a4ca4e232f",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/masaru-yarime/",
+      "title": "Masaru YARIME · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Masaru YARIME Associate Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Policy Design and Innovations；Emergence of the Innovation Systems Approach；Energy Policy and Technology Development；Climate Change and Global Environmental Governance；Big Data and Social Science Research"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d8a2a393a89f11c7d17f4a74ff164bdb75372863119b943e95e781c9daa7d891"
+    },
+    {
+      "id": "review-profile-c03275b596531f",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/keith-chan/",
+      "title": "Keith CHAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Keith CHAN Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Environmental Economics；Game Theory；Economic theory"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "85d5a2d3100e1a22a26b9e1237b50202ba5794ea3b6ab522762c1d0fb7193d1b"
+    },
+    {
+      "id": "review-profile-5c3d28302f4db3",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/shi-chen/",
+      "title": "Shi CHEN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CHEN Shi Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Renewable energy；Life cycle assessment；Energy Policy and Technology Development；Synergies and trade-offs across sectors；International finance and investment"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "8a3f8c5f2597b467596cd6816e8315f8acee2601259cca0dbe944a546710c2e6"
+    },
+    {
+      "id": "review-profile-3819ce37bb38d4",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/quentin-bertrand-arthur-moreau/",
+      "title": "Quentin Bertrand Arthur MOREAU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Quentin MOREAU Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Sustainable finance；Corporate finance；Environmental Sustainability；Risk and insurance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d41b32dff8c79b15a795fc4a83b1d79a2fbcc0ee53e65e04f943b5854abd6b2b"
+    },
+    {
+      "id": "review-profile-0ab41ce384e257",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/meike-sauerwein/",
+      "title": "Meike SAUERWEIN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Meike SAUERWEIN Assistant Professor of Interdisciplinary Education；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Life cycle assessment；Sustainable consumption；Sustainability education；Environmental chemistry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "afbe89d321653231946055617edfecc403446fff6cc670c389ca09132ebb31d4"
+    },
+    {
+      "id": "review-profile-22d9ffc3d0a19f",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wei-han/",
+      "title": "Wei HAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HAN Wei Research Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air Pollution；Environmental Sustainability；Environmental Microbiology"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "bb9de6615430755f161616bfe9eccbf22856ef24f4308ebf926cc5ba4ef57d2c"
+    },
+    {
+      "id": "review-profile-d7d22eb28195f9",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/hemraj-bhattarai/",
+      "title": "Hemraj BHATTARAI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Hemraj BHATTARAI Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air Pollution Measurement and Modelling；Atmospheric Chemistry；Air Pollution Exposure and Health Impact Assessment"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "c3634b8e1296169d0087dc0617f90fe23abdb6099b418f07e341c93ec113d3ef"
+    },
+    {
+      "id": "review-profile-2cb95e3b26ed1a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/ted-koenig/",
+      "title": "Ted KOENIG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Theodore K KOENIG Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Atmospheric chemistry impacts on air quality and climate；Multiphase chemistry；Nitrogen and halogens"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "98f4c9d84f336c72b9e057eab9c8beeea9a9a5308866f24bf0751719c55c8e5b"
+    },
+    {
+      "id": "review-profile-e5642e6b4cfcdb",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kezheng-coco-liao/",
+      "title": "Kezheng CoCo LIAO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LIAO Kezheng Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Analytical chemistry；Atmospheric Chemistry；Air Pollution Measurement and Modelling；General air quality；Risk Assessment"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "bef7d6e8dc0c3082e8897df5df5a9df31c1ed35f439ebe699e987e67a1c21c0a"
+    },
+    {
+      "id": "review-profile-bb309294d2b070",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/zhang-liu/",
+      "title": "Zhang LIU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LIU Zhang Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Environmental Technologies；Water Pollution；Smart Manufacturing；Environmental Chemistry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6146f822faf83e48f6490085fcbae8f6d1bc1297662f73242f8a42b605f002e1"
+    },
+    {
+      "id": "review-profile-c2b07ef7aaba28",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kaiyuan-zheng/",
+      "title": "Kaiyuan ZHENG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHENG Kaiyuan Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Air Quality Management；Environmental Technologies；Lab on a chip；Infrared laser spectroscopy；Optical sensors for light-matter interactions"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b2388cce960f223eadce612574558e299af9d2fa99eb724e8bdc2ecf7ec47c4d"
+    },
+    {
+      "id": "review-profile-047fe916a93a76",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yan-zheng/",
+      "title": "Yan ZHENG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHENG Yan Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Atmospheric Chemistry；Field Measurements；Aerosol chemistry；Atmospheric science；Air Pollution"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e44f9601fbfca2178263ac18c0b0208d8c829385780e3b27bf4a80b001dbc6c2"
+    },
+    {
+      "id": "review-profile-b4eee01185bab1",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/jay-joan-minuti/",
+      "title": "Jay Joan MINUTI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jay Joan MINUTI Lecturer I；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Nature-based solutions in coastal and urban environments；Biodiversity conservation and ecosystem services；Community and industry engagement in applied environmental research；Science communication and public engagement through creative and experiential approaches"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "eb91f42762e109c8d6e870fc50edd6d776084d0c634b3b6f96af7d512e6c4487"
+    },
+    {
+      "id": "review-profile-5e226a34ef0b94",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/stuart-arthur-gietel-basten/",
+      "title": "Stuart Arthur GIETEL-BASTEN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Stuart GIETEL-BASTEN Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Demography；Social policy in Asia"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "da4873fc5606edd6b148de29525adc68e2a6f7dcdc8aafcbde25f6a8c6e90889"
+    },
+    {
+      "id": "review-profile-a9e7c044251e12",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/king-lau-chow/",
+      "title": "King Lau CHOW · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "King L. CHOW Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Genetics；Evolutionary biology；Cellular and molecular mechanisms；Developmental biology；Sensory organ differentiation"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "508b70dbf46d88dedc428bd00575046e0fa1d7644dc3a92c1a20a7be73e9b96b"
+    },
+    {
+      "id": "review-profile-172636e3043ce5",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/alex-jingwei-he/",
+      "title": "Alex Jingwei HE · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Alex HE Jingwei Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Health Policy；Policy Design and Innovations；Population aging；Social policy"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e7de7ac9f45a7f1e8f424b6424cc2c221e5701510b08fd620d9bfae9ce7e8b0a"
+    },
+    {
+      "id": "review-profile-32e7cf5d4b9a8a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yan-xu-3/",
+      "title": "Yan XU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "XU Yan Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Technology and innovation management；Telecom industry development and policy；Open innovation；Information technology policy and standardization；Digital economy"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "1e4448476d0318944e666ccbf97f5cae7108070c784ac1afbca9de60d275c048"
+    },
+    {
+      "id": "review-profile-686ddb5b5cac3d",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/pengyu-zhu/",
+      "title": "Pengyu ZHU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHU Pengyu Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Big data analytics and urban AI；Sustainable Transportation；Economic Development Policy；Low-altitude economy development；Housing and Land Use Policy；Green finance and carbon trading markets；Blockchain and digital economy；Migration and Employment"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b60fc636c33435988fc4963594e990d738dea09c26f9166c1fe0a2428893f53f"
+    },
+    {
+      "id": "review-profile-12acd260553e42",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/donald-low/",
+      "title": "Donald LOW · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Donald LOW Professor of Practice in Public Policy；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Poverty and Inequality；Big Data and Social Science Research；Development Economics；Political Economy of Development；Population and Policy Issues in Asia"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "67ebf654206e7114b6c14908f92a84384d4080fb366d0a19f250149727803808"
+    },
+    {
+      "id": "review-profile-1a71275fcb17a5",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/raul-perez-lejano/",
+      "title": "Raul Perez LEJANO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Raul P. LEJANO Professor Emeritus；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Climate Change and Global Environmental Governance；Environmental Policy and Governance；Theories of public policy"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "8e999b25002945cdff86442fb5898da11abfcb6332c07081632d11f7068564d2"
+    },
+    {
+      "id": "review-profile-20ed96ac1d0a39",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yatang-lin/",
+      "title": "Yatang LIN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LIN Yatang Associate Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Environmental economics；Urban and regional economics；International trade；Economic growth and development"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "78306ac4f025d206162fdfaaa599deab75ea463d271f95df84fa352de89691f9"
+    },
+    {
+      "id": "review-profile-720eaa2841c041",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/james-k-wong/",
+      "title": "James K. WONG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "James K WONG Associate Professor of Social Science Education (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Ethics and public policy；Politics of science, environment and sustainability；Democratic governance and citizen participation"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "776ca66b49bc43557f46a335dfae76a98f336d4f8baee91a67b2a836f32d95c6"
+    },
+    {
+      "id": "review-profile-f31687872a680a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/julien-de-troullioud-de-lanversin/",
+      "title": "Julien DE TROULLIOUD DE LANVERSIN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Julien de TROULLIOUD de LANVERSIN Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：International security；Nuclear Engineering；Technology policy；Energy Policy and Technology Development；Open source software"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "57f47056d6f938c19b4fa6684f995292b898af3618ec45dc6135176f286242bc"
+    },
+    {
+      "id": "review-profile-f9800b07ff787e",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/xiaofan-zhao/",
+      "title": "Xiaofan ZHAO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHAO Xiaofan Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Chinese Environmental and Energy Policy；Climate Change and Global Environmental Governance；Environmental Policy and Governance；Policy process theories；Regulatory enforcement and compliance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "7b0f3e7eebdec3b82431b42c074ab4e4bffb209c4fdb5af64dbd88d62df4bd2b"
+    },
+    {
+      "id": "review-profile-8f17e09eeaf42d",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/nicolo-paolo-ludovice/",
+      "title": "Nicolo Paolo LUDOVICE · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Nicolo LUDOVICE Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Food policy；Health Policy；History and Policy；Environmental history；Science, Technology, and Medicine Studies；Health-environmental humanities；Emerging green technologies"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "2172ad5804146438d53ffb9997ace1742f6cb04bcdbae36acc181ee27ecc36fb"
+    },
+    {
+      "id": "review-profile-c45ea3366d7894",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/fangxin-francine-yi/",
+      "title": "Fangxin Francine YI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YI Fangxin Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Urban and land policy；City resilience；Risk management；Complexity and public policy"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "32a589ee5e8f2daf5d34861e9312943096009c446756eb8c358c90dde52acac1"
+    },
+    {
+      "id": "review-profile-88cac274dc1d29",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/marie-bernal/",
+      "title": "Marie BERNAL · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Marie BERNAL Lecturer I；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Regulatory Policy；Chemical Regulation；Policy Change and Dynamics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "01bfe4f10a45935bcb180c0b5a424cd7b605c1ae546413231214be35d2dc97c9"
+    },
+    {
+      "id": "review-profile-3d0e7cea60e5b9",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/michael-tyrala/",
+      "title": "Michael TYRALA · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Michael TYRALA Lecturer I；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：World-Systems Analysis；Global Offshore Finance；Global Tax Governance；Political Economy of Development；Social Psychology of Late Capitalism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "c010d0732ba2a76c73b283c750e645d1725220fa10aaab0265d06867b1ef786c"
+    },
+    {
+      "id": "review-profile-569712fd684f11",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/alvin-li/",
+      "title": "Alvin LI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Alvin LI Lecturer II；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Sustainable Consumption；Sustainable Development；Health Policy；Climate Change and Global Environmental Governance；Business and Environment"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "2cc009d5943c3c30b984465f9085883c2f78e320c94ef52ec17e60ab57c2ee20"
+    },
+    {
+      "id": "review-profile-0bf91834e1f59a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yunya-song/",
+      "title": "Yunya SONG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Celine SONG Head；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Media intelligence；Global Communication；Cyberpsychology and Behavior；AI in the social sciences and humanities"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f3293ea4a72dcae8fb10f39a096145dbe932e245e6ab8bbb82a9a2395ed0acd1"
+    },
+    {
+      "id": "review-profile-ef70dfef9397cd",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/hongbo-fu/",
+      "title": "Hongbo FU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "FU Hongbo Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer graphics；Human-computer interaction；Computer vision"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f40e21d2e5721d9f084e5e94b6a83670419a5442d9d3ad8b8167819693eb1e54"
+    },
+    {
+      "id": "review-profile-10c849c00bd2e9",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kathy-sze-man-leung/",
+      "title": "Kathy Sze Man LEUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Kathy LEUNG Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Infectious disease modelling；Epidemiology；Digital medicine；AI application in medicine；Microbiology"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "cb0f956f0d8d8cc039518ff58f27765e0f4d4cb867b2cf92e2d95ffe277e028e"
+    },
+    {
+      "id": "review-profile-17817c50844e08",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wenhan-luo/",
+      "title": "Wenhan LUO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LUO Wenhan Associate Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Creative AI；Generative Models；Image and Video Generation；Content Restoration；Computer Vision"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d70490744d4ed5c6e507761ffe5629a17ac4fb14c12b0eeb03b0363a551d7662"
+    },
+    {
+      "id": "review-profile-0f2be26f049fc9",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yangqiu-song/",
+      "title": "Yangqiu SONG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "SONG Yangqiu Associate Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Artificial intelligence；Language modeling；Data mining；Machine learning；Knowledge representations"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "4335678fe49d53aa27e6f9706183608a3f37108dddaa7af2c3243df9b37120f1"
+    },
+    {
+      "id": "review-profile-b645dce965720a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/chengxing-zhai/",
+      "title": "Chengxing ZHAI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHAI Chengxing Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Imaging techniques；Atmospheric science and weather prediction；Remote Sensing；Regional Climate Change Modelling；Quantum simulation；Data analysis using machine learning；Quantum search algorithm；Quantum mechanical phenomena"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "8a023c10481a90762e4eb4cbc72c864d03870ef5ab977baf3453343066a0c785"
+    },
+    {
+      "id": "review-profile-8964b74e8d6e88",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/may-fung/",
+      "title": "Yi Ren FUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "May FUNG Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：AI / ML / NLP；Multimedia knowledge reasoning；Reasoning and Agents；Computational Social Science"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "afb2ad92a5a9a6898366c55a0cdcb3f09ff5d71a2e79016c987eca856df52796"
+    },
+    {
+      "id": "review-profile-c75295453eb2fa",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/jun-han/",
+      "title": "Jun HAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HAN Jun Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Data visualization；Scientific visualization；Data management；Deep learning；Human-computer interaction"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "ec7017e1f0b451798f8e952ffe0aa6ee6bd917054e61d456f28e776b8ff7e16e"
+    },
+    {
+      "id": "review-profile-17de14dbe57342",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/sirui-han/",
+      "title": "Sirui HAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HAN Sirui Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Artificial intelligence；LegalTech；Law and finance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "07a22a1a01504229b9fdf98e0c946a428649d5a4c2ea8621a3d048f2e347e614"
+    },
+    {
+      "id": "review-profile-0e0a1dab883003",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/anyi-rao/",
+      "title": "Anyi RAO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "RAO Anyi Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Generative AI；World Models；Computer Vision；Computer Graphics；Human-computer interaction；Agentic AI；AI for Creativity；Film Studies"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "ac0550fd1f0fb32ec9c0e51b64b53a87856e2e7549f9293f9322da74a5e3b9cb"
+    },
+    {
+      "id": "review-profile-b23367cbd3623b",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wei-su/",
+      "title": "Wei SU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "SU Wei Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Non-equilibrium gas/phonon transport；Multiscale modelling and simulation；Scientific computing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "bcb94788b284ab9fe1d087e4ac54a09351f22e44d8d8063eaa9bd908364e59ff"
+    },
+    {
+      "id": "review-profile-c9869a1e2a9cfc",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wei-xue/",
+      "title": "Wei XUE · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "XUE Wei Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Artificial Intelligence；AI Content Generation；AI Music；Computational Audition；Speech Processing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "2b670fbf3c29d2a16bf3d33e26ce2d8ec83df685cd27e2ce106d8ca6e6c9aa9f"
+    },
+    {
+      "id": "review-profile-33e30c7dd43559",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/jize-zhang/",
+      "title": "Jize ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHANG Jize Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Civil and structural engineering；Artificial intelligence；Risk assessment；Uncertainty quantification and analysis；Surrogate modeling"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "36ffdc907c7823594ddfaf8fe81c471345605db26efa46c7cd07c414e2faa101"
+    },
+    {
+      "id": "review-profile-0580beb5809212",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kei-may-lau/",
+      "title": "Kei May LAU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Kei May LAU Research Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Compound semiconductor materials and devices；III-V on Si integration by epitaxy；Photonics devices；Power semiconductor devices"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "a75840b2d7a9ab2273f2569ac3a72fae42ce23269d7881a04fbea63a19f96e52"
+    },
+    {
+      "id": "review-profile-63360ba1ef7efe",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/renqiang-zhu/",
+      "title": "Renqiang ZHU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHU Renqiang Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：III-Nitride materials and devices"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b5c2c56c3ab3b0fd60d94d44595561524872a999ee99e82f000ad88632b0771e"
+    },
+    {
+      "id": "review-profile-521e051e6bc6b6",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/daniel-chun/",
+      "title": "Daniel CHUN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Daniel CHUN Lecturer I (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Smart City；Technology policy；ArtTech；Entrepreneurship"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "7bb3c00b36353e016a8a8dc7fa9da76e0c7bd4d303db5881feb3c91f925c801c"
+    },
+    {
+      "id": "review-profile-06237892bf1bf0",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/qian-zhang/",
+      "title": "Qian ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHANG Qian Head；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer networking；Wireless systems；Cyber-physical systems；Mobile computing；Cybersecurity"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "726479506f377935f67e546dc576e14179d91ce3f26d26aad31c77ede5d9fc3b"
+    },
+    {
+      "id": "review-profile-2cb6d476237ad3",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/shenghui-song/",
+      "title": "Shenghui SONG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "SONG Shenghui Associate Professor; UG Coordinator；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Machine learning for communications (model and data-driven approaches)；Integrated sensing and communication；Wireless communications and machine learning with focus on distributed intelligence (federated learning)"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e073a245682a4c1c79c292f5e9e343ca7785c2fbe27b6aa1d8279471af8dea8e"
+    },
+    {
+      "id": "review-profile-76920cc8e5717e",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/sai-kit-yeung/",
+      "title": "Sai Kit YEUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YEUNG Sai-Kit Professor; PG Coordinator；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer vision；Computer graphics；Computational Design；Computer-aided design and manufacturing (CAD/CAM)"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e270d65e4f1e849fb708d37fd36e52bb4705a52074933ec778b9f4bd8b9c355c"
+    },
+    {
+      "id": "review-profile-091353d961719b",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/tristan-camille-braud/",
+      "title": "Tristan Camille BRAUD · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Tristan Camille BRAUD Assistant Professor; PG Co-coordinator；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Virtual reality (VR) / augmented reality (AR)；Human-computer interaction；Ubiquitous and pervasive computing；Systems thinking and design"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "aa52339b250e1da0414dbf90b5e1b75f18d3fe952809019f8177ca95e3aa3c02"
+    },
+    {
+      "id": "review-profile-f1e1f77e0ad72d",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/song-guo/",
+      "title": "Song GUO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "GUO Song Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Edge AI；Machine learning；Cloud computing；Distributed systems；Mobile computing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "00f0bfe7d42779ae972b7b867c8bf1dba2b1389ebd4fc12f8a597e7d8ca570ea"
+    },
+    {
+      "id": "review-profile-2efbaad7412656",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/xin-zhang/",
+      "title": "Xin ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHANG Xin Chair Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Aeroacoustics；Aerodynamics；Aerospace engineering；Aircraft engineering；Aircraft and aeronautical engineering"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "a35e2d506836c5611332badc812483ef77e23ce40bb049a06175d00a4dc345a7"
+    },
+    {
+      "id": "review-profile-da25b49efa0f7d",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/li-li/",
+      "title": "Li LI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LI Li Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Wearable Electronic Textiles；Industrial Innovations；Advanced Manufacturing；Fiber Technology；Creative Art"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "64c85d1ced794b798bb7aa22e99588ce74479501c184170d1a679aa6666a3a7f"
+    },
+    {
+      "id": "review-profile-6db20cbf27d308",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/zexiang-li/",
+      "title": "Zexiang LI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LI Zexiang Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Motion control and manufacturing；Robotics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "23f71d23f393398d03712c4babc1c9b41550722c58a25dbad29243f12043f761"
+    },
+    {
+      "id": "review-profile-19878a6e2619b0",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/chi-ying-tsui/",
+      "title": "Chi Ying TSUI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "TSUI Chi Ying Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：AI hardware accelerator；Baseband application-specific integrated circuit (ASIC)；Computer architecture；Embedded systems；Energy harvesting；Integrated circuits and systems"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "9ec2612d70c3e7dc34540b4c2fc11f9266a36a8220a26048b04523a4a6e61917"
+    },
+    {
+      "id": "review-profile-d2e0e0b237e1d7",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yui-bun-chan/",
+      "title": "Yui Bun CHAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Ben CHAN Yui-Bun Professor of Engineering Education (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Mechanics analysis for construction materials；Creativity and Design Thinking；Bridge dynamics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "58bfe5d9dc0f18205203efa3a66a3ff277db0fcb89dc6ac3004f77aae48e5308"
+    },
+    {
+      "id": "review-profile-5d0ee48397f62b",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/ajay-joneja/",
+      "title": "Ajay JONEJA · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Ajay JONEJA Professor Emeritus；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Architectural geometry；Computer-aided design and manufacturing (CAD/CAM)；Rapid prototyping"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "65e16b0578516d2902b919740edaac00dcd7f28f83307e34e4feb19242f84e6a"
+    },
+    {
+      "id": "review-profile-e272f4e5ccead7",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/mitch-li/",
+      "title": "Mitch LI · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Mitch LI Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Laser manufacturing；Advanced Manufacturing Technologies"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "59b48140b751488359e97e35bd11cac04f90279b29e31d66ab82d5348cad6916"
+    },
+    {
+      "id": "review-profile-f05718c48a05dc",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/tracy-pik-yin-mok/",
+      "title": "Tracy Pik Yin MOK · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Tracy MOK Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer-aided design and manufacturing (CAD/CAM)；Artificial intelligence；Simulation and modeling；Process systems efficiency and optimization；Big Data and Social Science Research"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "163172869f29d70f805b4b3b841d21c516200fdcaf5b39a17acba56e67becc40"
+    },
+    {
+      "id": "review-profile-f58e4519cd768a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/suk-wai-winnie-leung/",
+      "title": "Suk Wai Winnie LEUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Winnie LEUNG Associate Professor of Engineering Education；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Robotics；Design automation；Intelligent control and nonlinear systems；Simulation and modeling；Control / dynamics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f91a177bea678d19ed867b1beee9855b46b874fc26efe03f042b07f6662a40ee"
+    },
+    {
+      "id": "review-profile-4480c76794767f",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/hongri-gu/",
+      "title": "Hongri GU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Richard GU Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Microrobots；Soft robotics；Structured magnetic materials；Medical devices"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "5fbcb699790da2dac86261501094f22bf9626811edda517979c7e29aea29b924"
+    },
+    {
+      "id": "review-profile-b51279e43c553a",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wenqi-hu/",
+      "title": "Wenqi HU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "HU Wenqi Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Miniature robots；Soft robots；Surgical robots；Underwater robots；Implantable medical devices；Multi-material microfabrication"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "28fadcd8308ee142996e3832f2ebec6d53edec93e3f4191684e0f873d52ab11e"
+    },
+    {
+      "id": "review-profile-6934e0ea6840d7",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yuan-liu/",
+      "title": "Yuan LIU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "LIU Yuan Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computational Design；3-dimensional (3D) reconstruction；Computer graphics；Computer animation；Geometry processing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e09011b629dd9dbf8daa238dc650f1e8d2c486e4e3fd4debcd343c4b338863c1"
+    },
+    {
+      "id": "review-profile-5da47c92915273",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/rob-scharff/",
+      "title": "Rob SCHARFF · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Rob SCHARFF Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Robotics；Soft Robotics；Rapid prototyping；Additive Manufacturing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "dd7a882ed5414193a1a9582291946673189d6910fe0ac0756e4b37e213e5afd1"
+    },
+    {
+      "id": "review-profile-106308e3256ac3",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/ziqi-wang/",
+      "title": "Ziqi WANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "WANG Ziqi Assistant Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computational Design；Robotic Assembly；Simulation and modeling"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "1d7c44467e9e1d2f28c1b1a861f1a6670c762791eba3655afb5bd0c10a62b0ea"
+    },
+    {
+      "id": "review-profile-6d3915ab7a48eb",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/changying-xiang/",
+      "title": "Changying XIANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "XIANG Changying Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Building Integrated photovoltaics systems；Integrative system for smart elderly care；Sustainable architectural design；Advanced renewable energy system；Robotic Construction；Design for smart low-altitude infrastructure"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "832543cacf0bac41abbc5cef4abc545838eb54bd2c85bf88b3c070852744e63b"
+    },
+    {
+      "id": "review-profile-ecdff23af9c530",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/wenchao-xu/",
+      "title": "Wenchao XU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "XU Wenchao Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Information Engineering"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e408503ee85d3f9064a89486f1b02ef9a52da5da27f7ab2b61708a47e173c95d"
+    },
+    {
+      "id": "review-profile-6bc3e91fa5943e",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+      "title": "Kuanming YAO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YAO Kuanming Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Robotics；Bioelectronics；Sensory interface；Human-Machine Interface"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "36d767d3075abf2a9673411d73374162865b1d6dba6640745ffeb4e3ab937a11"
+    },
+    {
+      "id": "review-profile-908fa36ec9b80c",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/peng-zhou/",
+      "title": "Peng ZHOU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHOU Peng Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Aeroacoustics；Aerodynamics；Aerospace engineering；Noise and acoustics；Flow instability"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "68ec56e3eb62318953522b47cc48b704cabed2eec649d6f001d1657cc392ae23"
+    },
+    {
+      "id": "review-profile-905717b23e16a1",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/brian-hui-wang-lau/",
+      "title": "Brian Hui Wang LAU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Brian LAU Lecturer I；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Design and sustainability；Eco-design；Eco-art"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "3546603c71c352ca3968034c76e96f930fe9ea2590cfda4fe13e1734610e1218"
+    },
+    {
+      "id": "review-profile-885c8521641c91",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/ping-tan/",
+      "title": "Ping TAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "TAN Ping Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer vision；Computer graphics；Robotics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "193f4a5b8ae5d32b80a28161232ebffb6e14325200b55386eb9b4139e98bde34"
+    },
+    {
+      "id": "review-profile-44ef49666e37f8",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/qifeng-chen/",
+      "title": "Qifeng CHEN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "CHEN Qifeng Associate Professor (Joint Appointment)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer vision；Machine learning；Computer graphics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "dccc1c7f2bfce55d7848dac74ad96dc8df52767731141ddffcc61cd03a09e7db"
+    },
+    {
+      "id": "review-profile-495976d923f89b",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/timothy-markham-page/",
+      "title": "Timothy Markham PAGE · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Timothy Markham PAGE Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Composition；Electroacoustic and instrumental music；Spatial audio；Sound-based performance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6d34846830a11d0fa896006250b016312244511a4143354501660433f7ab8550"
+    },
+    {
+      "id": "review-profile-620e24b961d936",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/harry-yang/",
+      "title": "Harry YANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Harry YANG Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer Vision；Generative AI；Natural Languange Processing；Machine Learning；Artificial Intelligence"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f94484524c44b85e4ec9b9a0ed91559a4a0940e0656da8c2d93350568397063f"
+    },
+    {
+      "id": "review-profile-999995dfbce824",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/fangneng-zhan/",
+      "title": "Fangneng ZHAN · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHAN Fangneng Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Computer vision；Embodied AI"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "dd3851f1ff9fa688e888806a47a51f7be5ac47748f1070a7251da28e9ec83db4"
+    },
+    {
+      "id": "review-profile-25b23a12829584",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yonggang-zhang/",
+      "title": "Yonggang ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "ZHANG Yonggang Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Trustworthy Creative AI"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "2c750470438d893a11b91f70f4df54cf57bc13df25ed924591da900aaff91a0c"
+    },
+    {
+      "id": "review-profile-18dee7b471548d",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/vennes-sau-wai-cheng/",
+      "title": "Vennes Sau Wai CHENG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Vennes CHENG Lecturer I；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Contemporary Art；Art Archive；Critical Theories；Curatorial Studies"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "fb2e179eeeedf7bf7891e321d2ffa3c2551f0338fb3330dbc86d856997513e9d"
+    },
+    {
+      "id": "review-profile-e276736220f256",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/hong-xu/",
+      "title": "Hong XU · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "XU Hong Co-director；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Economics of information systems；Online reputation；Online advertising；Online social network system；Auditing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6c3b3eeb927eb60b8ab485ef98c711038fb9bb0b618ecc6364924098ef8687cf"
+    },
+    {
+      "id": "review-profile-a716d1f3ec6ca3",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/nevin-lianwen-zhang/",
+      "title": "Nevin Lianwen ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Nevin Lianwen ZHANG Co-director；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Bayesian networks；Artificial intelligence；Machine learning"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "4475121a0562230ce9bac5512ef12ccf681bcb9bbe3f62501e8974705a7c64dd"
+    },
+    {
+      "id": "review-profile-721356d3bfa5f0",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/justin-chi-wai-leung/",
+      "title": "Justin Chi Wai LEUNG · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Justin LEUNG UG Coordinator; Associate Professor of Practice；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Strategy；Business technology consulting；Entrepreneurship；Innovation；Technology transfer；Incubation；Corporate governance；Mergers and acquisitions"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "03aa09075947f60d629695886fa0f974a0d41ed628df4fd0f72b9f964c9f4c6c"
+    },
+    {
+      "id": "review-profile-b1f40aebb9e0ca",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yukinori-hirano/",
+      "title": "Yukinori HIRANO · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Yukinori HIRANO T&M-DDP Affiliated Faculty；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Molecular and cellular neuroscience；Aging；Neuroscience"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "aeecaa1fc55dd6eb4af4f4087328e39641b8169eda4abeb950ef6543a709f9b5"
+    },
+    {
+      "id": "review-profile-a26ec8d0ffcee7",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/karl-wah-keung-tsim/",
+      "title": "Karl Wah Keung TSIM · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Karl W K TSIM T&M-DDP Affiliated Faculty；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Agricultural and domestic animal services；Cellular and molecular mechanisms；Food science and technology；Molecular and cellular neuroscience"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6a31878fbe368ee08cfd71ec1c6c1000b8ac62588f8f7c6582a6e6ecec2e77f4"
+    },
+    {
+      "id": "review-profile-3ffad52cde082b",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/sai-lok-nam/",
+      "title": "Sai Lok NAM · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "NAM Sai Lok Academic Director (Undergraduate Core Education)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Comparative philosophy；Chinese buddhism；Confucianism；Ethics；Taoism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "1422690ade0528e867b5b3408c2769ed0c55604dc34f13d90f57230a3fa9a719"
+    },
+    {
+      "id": "review-profile-67ab4c91c55be0",
+      "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lo-sky/",
+      "title": "Sky Lo · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Sky Lo Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Spatial Phygital Interaction Human–VR Interaction / Human–XR Interaction AI-assisted design and design innovation Immersive architectural education Virtual heritage and spatial narrative"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "001a0b3a14c0bb4a9b2d469947784ca3a339fee1e048baca5b65989e3e329689"
+    },
+    {
+      "id": "review-profile-34bd4ce7cb3288",
+      "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chan-michael/",
+      "title": "Michael Chan · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Michael Chan Associate Professor of Practice, Senior Teaching Fellow；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Sustainable and ecological design studies Innovative structure assembling methods of medium-span bridge under operation conditions Studies on local cultures, eco-environment and traditional"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "946608ad52ba1298f616a073b4d4911a4305f891f509fb1648eb67075125b257"
+    },
+    {
+      "id": "review-profile-e3a7a11fd7f555",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/kaye-chon/",
+      "title": "Kaye Chon · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Kaye Chon Dean and Chair Professor, Walter & Wendy Kwok Family Foundation Professor in International Hospitality Management；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Study of Hospitality Hospitality and Tourism Strategies Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "2811f5a1309e6ab6828c0b6195ce28971f3f6ec892853ad418d2b0b5aecdb2d1"
+    },
+    {
+      "id": "review-profile-a6fd7012143a48",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/billy-bai/",
+      "title": "Billy Bai · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Billy Bai Associate Dean (Academic Affairs) and Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Consumer Behavior in Hospitality and Tourism Technological Impacts and Decision-Making Branding and Loyalty Destination Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "41bfa1cb68c0de70086e8b6227df60e6ba5dbaef0acd0f0cff7704a730d41a4c"
+    },
+    {
+      "id": "review-profile-e53c5e6071dfc3",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dan-wang/",
+      "title": "Dan Wang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Dan Wang Associate Dean (Research) and Professor, Associate Director of Research Centre for Digital Transformation of Tourism；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Impact of Mobile IT Innovation IT & Communication Strategies in Hospitality & Tourism Organizations Tourists On-site Decision Making Destination Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "5901d06dd0aaa489c6ddbf506131e0bedf203921f91577da3e247d0b01b1e0f5"
+    },
+    {
+      "id": "review-profile-32e1c87f16a127",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/deniz-kucukusta/",
+      "title": "Deniz Kucukusta · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Deniz Kucukusta Associate Dean (Global Engagement and Student Affairs) and Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hospitality Management Medical Tourism Spa Management Human Resources Management in Hospitality Industry Wellness Tourism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f3646a76fa8245635d167b30c87aeb063be0bd86edd4c5b65b158058144809aa"
+    },
+    {
+      "id": "review-profile-275449caef5280",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/cathy-hsu/",
+      "title": "Cathy Hsu · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Cathy Hsu Chair Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourist behavior and resident sentiment Hospitality and destination marketing Hospitality education and student learning"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "91e75d7cae8cf6422f35aad4f4b1347b32d404c3eedbe3769c917d9be0e8d337"
+    },
+    {
+      "id": "review-profile-046177db165612",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/haiyan-song/",
+      "title": "Haiyan Song · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Haiyan Song Chair Professor, Mr and Mrs Chan Chak Fu Professor in International Tourism, Director of Research Centre for Digital Transformation of Tourism；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Applied Econometrics Tourism Economics Tourism Impact Assessment Competition Issues in Tourism Tourist Behaviour Tourism in China Chinese Economy under Transition Tourism Supply Chain Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "13ef3514e9a9702ce3e3ae1e7d4192ef61bd2741923a70cbfb04d424061e35e9"
+    },
+    {
+      "id": "review-profile-c41a97bb6db3ed",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/kam-hung/",
+      "title": "Kam Hung · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Kam Hung Assistant Dean (Postgraduate Programmes) and Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Chinese Tourist Behavior and Psychology Chinese Luxury Consumption in Tourism and Hospitality Cruise Tourism Senior Travel"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "3c99520ff423cd08cea28f805d34b4abd8ecf2bc83b1291108a7f04f3105e668"
+    },
+    {
+      "id": "review-profile-4df5879bfdb35a",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sam-kim/",
+      "title": "Sam Kim · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Sam Kim Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Destination Marketing Fourth Industrial Revolution and Technology Sustainable Tourism Convention/Event Tourism Film Tourism/Celebrity Marketing Psychology of Pricing Medical Tourism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6858813185d2de59a1222a588eb54520e3d9808146fcfcccf8380e03bc71cc58"
+    },
+    {
+      "id": "review-profile-ae95d42491ee64",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinsoo-lee/",
+      "title": "Jinsoo Lee · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jinsoo Lee Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：MICE Hospitality Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "00fb6174ab706cdac7c51281341a14cfbb8891106207d72fe66bd5df3d7a8e13"
+    },
+    {
+      "id": "review-profile-f91723595d6908",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/mimi-li/",
+      "title": "Mimi Li · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Mimi Li Professor, Associate Director of Research Centre for Digital Transformation of Tourism；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Consumer Behavior in Hospitality and Tourism Destination Marketing Children Tourism Tourism Planning"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b8a87103745a5bf760a01154c8a232ed38f0f70f5a229651c354fa49a3b6678f"
+    },
+    {
+      "id": "review-profile-cf6a64759b2c4b",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/bela-stantic/",
+      "title": "Bela Stantic · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Bela Stantic Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Big Data Analytics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "bf7098fe58b295332c487eeeaf978926c8a9d625ce7eb0267133ac0b83ae5478"
+    },
+    {
+      "id": "review-profile-c5c95b051371dc",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/honggen-xiao/",
+      "title": "Honggen Xiao · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Honggen Xiao Assistant Dean (Research and Administration) and Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Knowledge Development Scientific Community Communities of Learning and Practice Critical Tourism Cultural Studies Tourism in China Leisure and Recreation"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "631866b722fe6019417edfe56217afdcf1aa84612f8cb7d885651ab4d2931c3a"
+    },
+    {
+      "id": "review-profile-5ace4bb9475afa",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sangwon-park/",
+      "title": "Sangwon Park · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Sangwon Park Adjunct Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Online/Mobile Marketing Hotel & Tourism Technology Management Labor Productivity in the Hospitality Industry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "4865b34a3b87e78e521e62a533181780e652b77972ecaac87b1da1adf5313477"
+    },
+    {
+      "id": "review-profile-ae88f9d97400a3",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/rob-law/",
+      "title": "Rob Law · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Rob Law Honorary Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Information Technology Internet and E-Commerce Modelling and Forecasting Artificial Intelligence Software Engineering Computer Assisted Education"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "a47a7bd1bcd5da01ce0e40f5a0351eddcf7d01615315f4a4b68406f36415e4f0"
+    },
+    {
+      "id": "review-profile-4f72e8592e5b0b",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/gregg-rockett/",
+      "title": "Gregg Rockett · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Gregg Rockett Professor of Practice (Hotel Management)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hospitality and Hotel Management Hospitality Financial Management Corporate Strategy in Hospitality"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "0157f4346512322384238542f8fc80dba9c1d3ebcf24f6ad002bb8c8ff65ecec"
+    },
+    {
+      "id": "review-profile-487ea9b7f7eab2",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/tony-tse/",
+      "title": "Tony Tse · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Tony Tse Professor of Practice and Programme Director (Industry Partnerships)；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：China's Outbound Tourism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "91a3bce34f8e5851762236c7b56b36cdc67e8d49df8735cbeadb5a046dc52a35"
+    },
+    {
+      "id": "review-profile-5c1286c4c159dc",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/phil-xiang/",
+      "title": "Phil Xiang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Prof. Phil Xiang Visiting Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Travel information search E-Tourism Social media analytics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "9d713615471cebb0d6fd2346a5ab7423c00b5c387cc1c6c6da8001dc138d3a97"
+    },
+    {
+      "id": "review-profile-3f6dfa0f2b77fa",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/catherine-cheung/",
+      "title": "Catherine Cheung · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Catherine Cheung Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Human Resources Management Service Quality Yield Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "662858231aefa704ef5c662fe3c602bcee9b2f3b67082352a5d8aff3c758a66c"
+    },
+    {
+      "id": "review-profile-f66425d742e13e",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/daisy-fan/",
+      "title": "Daisy Fan · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Daisy Fan Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Social sustainability Social contact Tourist behaviour Active ageing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b56a69442559d6dd424054e9bc9e298db59208f575a69f24402df1ac009dae6d"
+    },
+    {
+      "id": "review-profile-098fd111cc9d05",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/lisa-gao/",
+      "title": "Lisa Gao · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Lisa Gao Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Consumer Behavior Corporate Social Responsibility Services Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d49d8651e4831e2ae9a3179723a33a8162c66b420c89697dcb3045431dc5899e"
+    },
+    {
+      "id": "review-profile-27ec57c6bd8777",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/alice-hon/",
+      "title": "Alice Hon · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Alice Hon Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Employee Creativity & Innovation Service Employee Motivation Leadership and Team Management Justice and Trust Customer Satisfaction"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "5c3f471a0cd31ba5e944b12cd8dc6c7f0598c644a594d665743b0e6bdd389a17"
+    },
+    {
+      "id": "review-profile-f9ce4e40d5db18",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sabrina-huang/",
+      "title": "Sabrina Huang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Sabrina Huang Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Cultural and Heritage Tourism Globalization and Tourism Development Destination Image Diaspora Tourism Tourist Behavior and Typology"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "8e90b799197d0cbbd9ee0b7a34c9a60b76b41a48c2e43996d93c9c08773b1b63"
+    },
+    {
+      "id": "review-profile-04ce532e828ad4",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/yoohee-hwang/",
+      "title": "YooHee Hwang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "YooHee Hwang Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Services Marketing Relationship Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "5cd0cfe87988e45e15e5c4ced56de2c7b5f517f8271e789b37f3c01e936dc4d1"
+    },
+    {
+      "id": "review-profile-b0c1bd3f361b71",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/daniel-leung/",
+      "title": "Daniel Leung · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Daniel Leung Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Technology Management Electronic Marketing Social Media Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "c6278811df7da5814265fe90eff738412f058e25b525c3f0fc318ece6c44a88a"
+    },
+    {
+      "id": "review-profile-20cdb91f8e1c86",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/neil-li/",
+      "title": "Neil Li · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Neil Li Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：IT-enabled Business Strategies Economic Analytics in Tourism and Hospitality Consumer Decision Making Big Data Analytics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "19aac221a8c5febad649c4600c51102e51453dc19dd0f65aa59d52c02f680b60"
+    },
+    {
+      "id": "review-profile-e14843e8d966b4",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/michael-lin/",
+      "title": "Michael Lin · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Michael Lin Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Innovation and Entrepreneurship Small Business Managemen CSR/ESG issues"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "cf2475054ba133acf5b7ce486fd348ef5ed480cc9e3ba86d8e43ee26821faa7c"
+    },
+    {
+      "id": "review-profile-82c26e94de4ee6",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/pearl-lin/",
+      "title": "Pearl Lin · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Pearl Lin Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Culinary Creativity Culinary Training and Education Quality Assurance in Bed and Breakfast Sector"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "ce027a1d3a3d4636ae596ef62911a624fddbf3d35f74459a26ec1d23933348ca"
+    },
+    {
+      "id": "review-profile-7b1fabe5af19d7",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ada-lo/",
+      "title": "Ada Lo · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Ada Lo Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Customer Relationship Management Spa Experience Loyalty Programme Development Tourists' Behavior Tourism Risks Corporate Social Responsibility & Sustainability Digital Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "ca1a3861bc038193929aa2d67258e083d066c3bc5ef408ee3ffafb2b4b637c75"
+    },
+    {
+      "id": "review-profile-dc84ee37e340d6",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-gyun-mun/",
+      "title": "Sung Gyun Mun · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Sung Gyun Mun Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hospitality & Tourism Financial Management Hospitality & Tourism Strategic Management Food & Beverage Management Revenue Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "84631f8e08e741ebe2f3aa5d4d071255ed9dd6b05cf097f51b7909c97746d58a"
+    },
+    {
+      "id": "review-profile-e254f51d81b470",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/richard-qiu/",
+      "title": "Richard Qiu · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Richard Qiu Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourist Choice Behaviour Tourism Economics Tourism Demand Modelling and Forecasting"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "a8cc35833e1db8eccb65ec2cce02491c775c977255cd9919595b7efa191422de"
+    },
+    {
+      "id": "review-profile-2f89819ef4710b",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/crystal-shi/",
+      "title": "Crystal Shi · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Crystal Shi Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Employee Well-being and Emotions Ethical Leadership Abusive Supervision Computational Social Method"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "66ace6587d9db2d7595045c86800890bd4f391f1f616bc8a0b91fff1aa4334a3"
+    },
+    {
+      "id": "review-profile-e86715c451ad88",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/henry-tsai/",
+      "title": "Henry Tsai · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Henry Tsai Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Casino and Gaming Management Hotel Efficiency Ownership Structure Corporate Performance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f0e2dcb637b0ccafb30c7370ddaab4e38f8a9b21bef038ce6134f7febc2a46f8"
+    },
+    {
+      "id": "review-profile-91e57e1b4769b9",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/nelson-tsang/",
+      "title": "Nelson Tsang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Nelson Tsang Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Service Quality Service Culture Tourist Behaviour"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "fb32b27a3a01bb8b6a2e9823e0b109dfa1e892f9b3491c4ed1827ccba4400323"
+    },
+    {
+      "id": "review-profile-1591b0d9d51a52",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/vincent-tung/",
+      "title": "Vincent Tung · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Vincent Tung Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Resident attitudes Tourist experiences Industry perspectives"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "c29471637b8f05d7323e3151050f8c4f964e8d7254a50cef629d7715fbe4798c"
+    },
+    {
+      "id": "review-profile-bcad922b561a69",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/maxime-wang/",
+      "title": "Maxime Wang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Maxime Wang Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Error Management Emotions in the workplace Service Management Leadership"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "1c48f74656a780ffad2fe729061c766fd023a184df754ff6f5fa0fced42423df"
+    },
+    {
+      "id": "review-profile-83debef8a4523c",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ying-wang/",
+      "title": "Ying Wang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Ying Wang Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Travel and technology Destination management and marketing Consumer behaviours"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "06abdb4347694f1f3bc8dabc6280721adc039ba89842af8a603b4330ae513517"
+    },
+    {
+      "id": "review-profile-99b7bdff0ec6ca",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/qu-xiao/",
+      "title": "Qu Xiao · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Qu Xiao Assistant Dean (Industry Engagement) and Associate Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Strategic Management Hospitality Real Estate Investment and Asset Management Brand Management Merger and Acquisition and Chain Development Innovations in the Hospitality Industry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d4cc6d613de2409fec9243a9adcb02eefd5207a4b6e612e6bb4e7f6501cf1b16"
+    },
+    {
+      "id": "review-profile-cae3307a7f4237",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/simone-bianco/",
+      "title": "Simone Bianco · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Simone Bianco Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Strategic Management Startups Competitive Dynamics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "e3f79532141b6db01fde7ec3b3331aa11c33a18ed44c5241dd9abb0669022f75"
+    },
+    {
+      "id": "review-profile-3ca4768dce25cd",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/janelle-chan/",
+      "title": "Janelle Chan · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Janelle Chan Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Services Marketing Digital Marketing and Analytics Technology strategy Hospitality and Tourism Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "84f72c9474a3fb6a872bc8aaab2f146e32ad0f918deacb2a0a54d5e77dd6000f"
+    },
+    {
+      "id": "review-profile-6ac2aa303d259d",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/nan-chen/",
+      "title": "Nan Chen · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Nan Chen Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Host-tourist Interactions Emotional Experience Resident Sentiment Tourist Stereotypes Event Tourism & Destination Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "62d9273109cc1c9d1b63f75f3baff4878991af5533b8826776ff21c2a34e150e"
+    },
+    {
+      "id": "review-profile-cb45cd85310fff",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dori-davari/",
+      "title": "Dori Davari · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Dori Davari Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Destination curiosity People-centric travel experiences Destination-community hospitality Tourism as a social phenomenon Cultural ambassadorship Sustainable behaviors"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "3a0b566ee9e4fa17592ad912e295d9f105c826e74dc70fd9ac48f3222685afc4"
+    },
+    {
+      "id": "review-profile-2608fdce24d48b",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jaehee-gim/",
+      "title": "Jaehee Gim · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jaehee Gim Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hospitality and Hotel Management Tourism Economic and Financial Management Strategic Management in Hospitality"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "35ca909fec8e0e059f4535e16a5279a1d43accc2f437503fbdd51716d0e9f8a6"
+    },
+    {
+      "id": "review-profile-acd48b109c3242",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/gianluca-goffi/",
+      "title": "Gianluca Goffi · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Gianluca Goffi Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Sustainable Tourism Destination Competitiveness Tourism Governance Tourist Behaviour Regional and Labour Economics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "cae813fc1021882476a3e47951e104b6ea9cd00febca2f07c2eaf9479917092d"
+    },
+    {
+      "id": "review-profile-e7dfc266b626e4",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/faye-hao/",
+      "title": "Faye Hao · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Faye Hao Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Technology for Humanity Generative AI Metaverse and Avatar Blockchain in Hospitality"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "49a77944319b2978bf150d5a19872d9fbea61212718aadc025a73c68f0b7e4cb"
+    },
+    {
+      "id": "review-profile-87261faa0f24d7",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-in-kim/",
+      "title": "Sung In Kim · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Sung In Kim Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Strategic Management Risk/crisis Management and Community Resilience Sharing Economy Spatial Analysis Discrete Choice Modelling"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "21fd31831c2479984ad51a17662bb1d178d19f83a1c818b2a3a5800ad409b7ea"
+    },
+    {
+      "id": "review-profile-1a9d68bb86298f",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinah-park/",
+      "title": "Jinah Park · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jinah Park Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourism and Mobility Socio-spatial Behavior of Tourists Urban and Regional Destinations Tourism Marketing and Management Cross-border Tourism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "af3a1f3110fc449b8caa560d44c533e11bb97eb088d39caae4fdb8c6e1d001d2"
+    },
+    {
+      "id": "review-profile-33b595fcfdaa1d",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dagnachew-senbeto/",
+      "title": "Dagnachew Senbeto · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Dagnachew Senbeto Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Innovation in hospitality and tourism Crisis management in hospitality and tourism Tourism impacts and sustainability"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f76e01c826dacd54fe18facd0d7de6ead965f71b03770e6272f67950721954b6"
+    },
+    {
+      "id": "review-profile-fbf9d45dcaa0d3",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/hailey-shin/",
+      "title": "Hailey Shin · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Hailey Shin Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Human-technology interactions Corporate digital responsibility Technological innovation in the hospitality and tourism industry"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b74e22fa0645a426509d07a6d3f4bfed36b2befdd098f8374c9e780c779a1001"
+    },
+    {
+      "id": "review-profile-c858713a536c17",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/seunghun-shin/",
+      "title": "Seunghun Shin · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Seunghun Shin Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Social media analytics in hospitality and tourism Traveller behavior in online platforms Information technology"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "b9bb57bf3ba1cf39f436f6e440b0a464fdd55b629a7dcec3507790ba09cea50f"
+    },
+    {
+      "id": "review-profile-fa06eacc96c6ef",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/antony-wong/",
+      "title": "Antony Wong · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Antony Wong Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Corporate social responsibility Organizational behaviour Diversity and Inclusion Hotel management Human resource management Medical tourism"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "207f5250129151ca3f9594be65f569804bdda15376eaab0575de7b715ddb0a74"
+    },
+    {
+      "id": "review-profile-1110b372311e2e",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/yitong-yu/",
+      "title": "Yitong Yu · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Yitong Yu Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Leadership Employee well-being Employee-robot interaction Gig workers Human resource management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "f0e2a0f4c7dafd196deb59a2f47e4f5f896ed0e5c7102571e450bc400a7beb9d"
+    },
+    {
+      "id": "review-profile-e17715d7433b70",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/huihui-zhang/",
+      "title": "Huihui Zhang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Huihui Zhang Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Strategic Management, Big Data Analytics, Generative AI"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "306c77d38dea15ef56e7e3e686252a9c28b949d19811ccfa7241dec5c30106db"
+    },
+    {
+      "id": "review-profile-fdc31319b67701",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jason-zhang/",
+      "title": "Jason Zhang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jason Zhang Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hotel and Tourism Technology Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "8257df7ca5ed543e12bea920b1a110b772602d582c7541b7ecd575a01462e42c"
+    },
+    {
+      "id": "review-profile-630a6ef91ddc8a",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinyan-chen-emily/",
+      "title": "Emily Chen · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Emily Chen Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Travel patterns Tourist mobility Sentiment analysis Network analysis Big data analytics and social media"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "05775cc7b22c71d45506a5da9a113e9a9c2aff7d20a042254fc277d5d80487e3"
+    },
+    {
+      "id": "review-profile-43f743af8b2349",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/meli-darvish/",
+      "title": "Meli Darvish (Mahlagha Darvishmotevali) · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Meli Darvish (Mahlagha Darvishmotevali) Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Organizational Behavior Strategic Hospitality Management Well-being and Psychological Sustainability Green Strategies and Sustainability AI-Driven Workplace Dynamics"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "87bbfc98372771957dbbf2a0ac0a8a205af950f49125ad4a79ac630d4e39ef18"
+    },
+    {
+      "id": "review-profile-c2acd03f16c42f",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ivanka-huang/",
+      "title": "Ivanka Huang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Ivanka Huang Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Social commerce Digital marketing Destination avoidance"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "d8ccd6a65140e0f148dc64e6c99d735cf0eab198596c21e0c356a3ca8875398c"
+    },
+    {
+      "id": "review-profile-1f36374fc32efb",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/eunji-lee/",
+      "title": "Eunji Lee · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Eunji Lee Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hospitality and Tourism Marketing Hotel and Tourism Technology Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "ce6e6afce81faed75c424c98110b2b791e5a605a21347fec67c93a1fcd9d27b2"
+    },
+    {
+      "id": "review-profile-c23bb0644dc4c7",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/angie-luo/",
+      "title": "Angie Luo · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Angie Luo Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Consumer Behaviour Food and Beverage Decision Making Sensory Marketing"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "33300c9d97e715e6563d921cfc75cfc563d6f2d042d52504e955d3e94bb5c105"
+    },
+    {
+      "id": "review-profile-d30e92e8d68aae",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/roshis-shrestha/",
+      "title": "Roshis Shrestha · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Roshis Shrestha Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourism Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "416b3f45a883ceceae9151b1772cd0c3a7595a015eeeed28c0cd099c6647057a"
+    },
+    {
+      "id": "review-profile-6cbfcaa6a9b16c",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jessie-wang/",
+      "title": "Jessie Wang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Jessie Wang Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourism and event management Tourist behaviour Emotional experience"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "7a61ccc71e629755ffb31bcee00787994f0e9fa1a126e1b25cd5222e4e57ec43"
+    },
+    {
+      "id": "review-profile-c6c7b32c0ac74b",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/yuchen-xu/",
+      "title": "Yuchen Xu · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Yuchen Xu Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Hospitality and Hotel Management Food and Beverage Management Tourism Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "babae511f0c9bd72758852f5fb7c3a1d5f47a1500b43d926398b3179ece77001"
+    },
+    {
+      "id": "review-profile-430ecdbc3b6de8",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/hanyuan-zhang/",
+      "title": "Hanyuan Zhang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Hanyuan Zhang Research Assistant Professor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourism Economics Tourism and Hotel Demand Modelling and Forecasting Tourist Behaviour and Choice Modelling"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "162590c1ed989e251344f102920572709bdc72daf6e206017656bc6071cabaa8"
+    },
+    {
+      "id": "review-profile-e18f278681b3f4",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/tak-kanchanawat/",
+      "title": "Tak Kanchanawat · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Tak Kanchanawat Instructor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Sustainable Tourism Development Tourism Planning Tourism Marketing Tourism Product Development"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "6b631d6262edbb524f7930d28d8600dae5aebb40b440bd7c40b8d8a2fbd3ca90"
+    },
+    {
+      "id": "review-profile-36ba105638c222",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/pia-kwan/",
+      "title": "Pia Kwan · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Pia Kwan Instructor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Tourism Management"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "765ac90c194e20954b9333c569c325a056091b94ef3922e329aed7c2c6881fd6"
+    },
+    {
+      "id": "review-profile-728f13509f16ba",
+      "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/loretta-pang/",
+      "title": "Loretta Pang · 官方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "Loretta Pang Instructor；公开研究方向，不确认招生或指导资格",
+      "claims": [
+        "研究栏目列出：Human Resources Management Blended Learning Creativity Motivation"
+      ],
+      "knownIssues": [
+        "页面发布时间未单独核实；核查日不是任职或政策生效日。",
+        "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。"
+      ],
+      "bodySha256": "3efc71950db78e8bf1f9810d2a43bb6a6e41e84108a11f64e8a6622daaded54b"
+    },
+    {
+      "id": "entry-read-staff-route-798c4cd1b51e4cb7",
+      "url": "https://www.civil.hku.hk/h2_acstaff.html",
+      "title": "院系提供的人员导航 · https://www.civil.hku.hk/h2_acstaff.html",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.civil.hku.hk/h2_acstaff.html",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "256d7f48691d3a04098a424e727ce3caab22d59d7f44233c88764021632c8c7d"
+    },
+    {
+      "id": "entry-read-staff-route-1dc3c34b3438bf6b",
+      "url": "https://www.cds.hku.hk/about/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.cds.hku.hk/about/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cds.hku.hk/about/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "84bef257c281cee6bfa9c054c13cb391ebc214b9956c4f7fdd2ed7fa9e06283c"
+    },
+    {
+      "id": "entry-read-staff-route-556cd65649c18cbf",
+      "url": "https://www.dase.hku.hk/people/academic-staff",
+      "title": "院系提供的人员导航 · https://www.dase.hku.hk/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.dase.hku.hk/people/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "afbbf52083b71bb0bc16f38a072a51419dcb14abe80673c7ef3cab2ff8f6580f"
+    },
+    {
+      "id": "entry-read-staff-route-f825a73dd0c752eb",
+      "url": "https://i-school.hku.hk/people/",
+      "title": "院系提供的人员导航 · https://i-school.hku.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://i-school.hku.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "5b7cbcbfa5f383fa086cea644bb88078c959aeab2f8ac1da218e5110233aed51"
+    },
+    {
+      "id": "entry-read-staff-route-3d07c205131ceb37",
+      "url": "https://mech.hku.hk/teaching_staff_directory/",
+      "title": "院系提供的人员导航 · https://mech.hku.hk/teaching_staff_directory/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mech.hku.hk/teaching_staff_directory/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "cdf6fb8e0db367447948315536c58f68c8ace6dfc775cf29200bd2f2188709c7"
+    },
+    {
+      "id": "entry-read-staff-route-4723e7596f5380c4",
+      "url": "https://www.scifac.hku.hk/people/management-team",
+      "title": "院系提供的人员导航 · https://www.scifac.hku.hk/about/faculty-members",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.scifac.hku.hk/about/faculty-members",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "109bf73367e200fd9ab79231f3a99ebc8d39d0341a33ac2870dea84330d6d7bc"
+    },
+    {
+      "id": "entry-read-staff-route-1526259abd42457d",
+      "url": "https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+      "title": "院系提供的人员导航 · https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "abb3a1e40201e2a0a60e440e0f33f0d0ab1ef0cd2da5e2d54db88441cba61bc7"
+    },
+    {
+      "id": "entry-read-staff-route-663459d1128f8bc9",
+      "url": "https://www.chi.cuhk.edu.hk/people/teaching-staff/",
+      "title": "院系提供的人员导航 · https://www.chi.cuhk.edu.hk/people/teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.chi.cuhk.edu.hk/people/teaching-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c4b42624837198f24b7e75dcc7dca41029bf8f71871a402ad882c2bbdafa43b6"
+    },
+    {
+      "id": "entry-read-staff-route-9c01ab8c922f5edc",
+      "url": "https://www2.crs.cuhk.edu.hk/faculty-staff/teaching-faculty",
+      "title": "院系提供的人员导航 · https://www2.crs.cuhk.edu.hk/faculty-staff/teaching-faculty",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www2.crs.cuhk.edu.hk/faculty-staff/teaching-faculty",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "176e3201f14fe44c0fd800b1f0cb08e672ee5ced206d2304102ffd894a9c526d"
+    },
+    {
+      "id": "entry-read-staff-route-99f53941c509872b",
+      "url": "https://eng.cuhk.edu.hk/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://eng.cuhk.edu.hk/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://eng.cuhk.edu.hk/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ab0d8d3be56150a686bc795bb93201ccef74d259f4b2bb39f3c3936951447313"
+    },
+    {
+      "id": "entry-read-staff-route-d92a817cfbc89c17",
+      "url": "https://www.history.cuhk.edu.hk/en/people/teaching-staff/",
+      "title": "院系提供的人员导航 · https://www.history.cuhk.edu.hk/en/people/teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.history.cuhk.edu.hk/en/people/teaching-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "e4f27eeef15a7dcd8f310ec9d86d683a5c4f6471054ce46e11710f85f1b946f3"
+    },
+    {
+      "id": "entry-read-staff-route-3a1beb3a3282402c",
+      "url": "https://www.jas.cuhk.edu.hk/",
+      "title": "院系提供的人员导航 · https://www.jas.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.jas.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "9ec81eb9e63bad68ac572a50d4e0c2eea73e78e61b20bc723f84613dec5b7ec7"
+    },
+    {
+      "id": "entry-read-staff-route-1ded9a641f9e2fcc",
+      "url": "https://www.jas.cuhk.edu.hk/people/",
+      "title": "院系提供的人员导航 · https://www.jas.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.jas.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6daa0a9c20072b8607abcd80bc80e8ee5de0bafaa0538eaf1fb67936949c8374"
+    },
+    {
+      "id": "entry-read-staff-route-d909cc8f31f492fb",
+      "url": "https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+      "title": "院系提供的人员导航 · https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "654a02bfac7dd17513e2956f0cd7d833dbc9fa969387eb055a0ecf487f3dd138"
+    },
+    {
+      "id": "entry-read-staff-route-f111cd183047f44a",
+      "url": "https://phil.arts.cuhk.edu.hk/faculty/",
+      "title": "院系提供的人员导航 · https://phil.arts.cuhk.edu.hk/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://phil.arts.cuhk.edu.hk/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "179539715a3722cd8374d16487d406615f4a37b0a75cf31d2266bacdc56208c1"
+    },
+    {
+      "id": "entry-read-staff-route-6cdc9d0bd558f002",
+      "url": "https://phil.arts.cuhk.edu.hk/faculty/",
+      "title": "院系提供的人员导航 · https://phil.arts.cuhk.edu.hk/professors/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://phil.arts.cuhk.edu.hk/professors/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1743fa18e2b032a1457c9e6441d5e55ea54d33ac4f00a1abb4f143ea83483f33"
+    },
+    {
+      "id": "entry-read-staff-route-a31168079466c463",
+      "url": "https://traserver.tra.cuhk.edu.hk/en/people.php",
+      "title": "院系提供的人员导航 · https://traserver.tra.cuhk.edu.hk/en/people.php",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://traserver.tra.cuhk.edu.hk/en/people.php",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d89cc478bebe18035e0a9ec16a3f254a47e199460fc54343a61424a2ba4efb53"
+    },
+    {
+      "id": "entry-read-staff-route-15b53c53a8ee78b9",
+      "url": "https://traserver.tra.cuhk.edu.hk/en/ctt.php?id=10",
+      "title": "院系提供的人员导航 · https://traserver.tra.cuhk.edu.hk/en/ctt.php?id=10",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://traserver.tra.cuhk.edu.hk/en/ctt.php?id=10",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b41c766aecb73c2e8feeb87d0f3deafb2f57ee7fee5fd94a03ccb321aed64377"
+    },
+    {
+      "id": "entry-read-staff-route-cade92620f60bf39",
+      "url": "https://www.bschool.cuhk.edu.hk/staff/",
+      "title": "院系提供的人员导航 · https://www.bschool.cuhk.edu.hk/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.bschool.cuhk.edu.hk/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2978852a178a9a45dacfa46f5a0a9b446677fb42276ff10eb5b241ec3653184b"
+    },
+    {
+      "id": "entry-read-staff-route-250a0703dcad09ee",
+      "url": "https://www.fed.cuhk.edu.hk/cri/faculty/",
+      "title": "院系提供的人员导航 · https://www.fed.cuhk.edu.hk/cri/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.fed.cuhk.edu.hk/cri/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "9302daeebadb9923390bd3b9aa8573bd7de33e0654002dea34c2a58112f2d35a"
+    },
+    {
+      "id": "entry-read-staff-route-158ec29ccb9dbbc7",
+      "url": "https://www.fed.cuhk.edu.hk/eap/",
+      "title": "院系提供的人员导航 · https://www.fed.cuhk.edu.hk/eap/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.fed.cuhk.edu.hk/eap/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "5f63eba008c794681952c1be287d898c787433a118edc1923759afdb3b3adb5f"
+    },
+    {
+      "id": "entry-read-staff-route-c1dc51b0d8625b5f",
+      "url": "https://www.fed.cuhk.edu.hk/eap/academic-staffs/",
+      "title": "院系提供的人员导航 · https://www.fed.cuhk.edu.hk/eap/academic-staffs/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.fed.cuhk.edu.hk/eap/academic-staffs/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "0031438a71c1363b962e1701a58cc8d8352908652ca32de1d735739e1a8da0bd"
+    },
+    {
+      "id": "entry-read-staff-route-64a3f0786d910acd",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/",
+      "title": "院系提供的人员导航 · https://www.ie.cuhk.edu.hk/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.ie.cuhk.edu.hk/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "56c13ae30bc13791be7fcb30b75cfa44178127fcbb1800da8b46f764fffb7450"
+    },
+    {
+      "id": "entry-read-staff-route-706e2acf2de6cfa0",
+      "url": "https://www.se.cuhk.edu.hk/about-us/accolades/faculty/",
+      "title": "院系提供的人员导航 · https://www.se.cuhk.edu.hk/about-us/accolades/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.se.cuhk.edu.hk/about-us/accolades/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "95e15d00d973123c14240e88d916034d2dac3ae6986ff8b456259ad5078cedc6"
+    },
+    {
+      "id": "entry-read-staff-route-21d05329c66fef30",
+      "url": "https://www.se.cuhk.edu.hk/people/",
+      "title": "院系提供的人员导航 · https://www.se.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.se.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "25b2d81e076712cc28421b183cbc4040b68acc67abfffe612a0ac8a2d5db0819"
+    },
+    {
+      "id": "entry-read-staff-route-da700f5786ae127a",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.se.cuhk.edu.hk/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.se.cuhk.edu.hk/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "63c1cc267b8ec434d41fa11c5b0b9d28f6bc63045e1e50b55c76c9dd0024b68b"
+    },
+    {
+      "id": "entry-read-staff-route-9384520b5827eade",
+      "url": "https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+      "title": "院系提供的人员导航 · https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ea176b3dcae17b2c2b2335b899f39c2b6833b6c532da9a72879e70c2de045ec3"
+    },
+    {
+      "id": "entry-read-staff-route-47816a3e3442abb0",
+      "url": "https://www3.sbs.cuhk.edu.hk/en/",
+      "title": "院系提供的人员导航 · https://www3.sbs.cuhk.edu.hk/en/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www3.sbs.cuhk.edu.hk/en/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "a46bd641d0525748a5581a60c92ab330350d9b79a89b1daedcdbc885c74efaea"
+    },
+    {
+      "id": "entry-read-staff-route-f187e69f57ccc4ee",
+      "url": "https://www.scm.cuhk.edu.hk/en-gb/staff/teaching-staff/",
+      "title": "院系提供的人员导航 · https://www.scm.cuhk.edu.hk/en-gb/staff/teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.scm.cuhk.edu.hk/en-gb/staff/teaching-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6738b350117c30fc24fa1374b4f445a8793f5f8ba5d6515a56b23d3b5a198a60"
+    },
+    {
+      "id": "entry-read-staff-route-2fad00b60f30682b",
+      "url": "https://www.diir.cuhk.edu.hk/people/",
+      "title": "院系提供的人员导航 · https://www.diir.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.diir.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "396bbb155e578e5420135d6ab8b0c68f4113ca1f9eaad0845eecab0137c2d77d"
+    },
+    {
+      "id": "entry-read-staff-route-a70b1e2084c91388",
+      "url": "https://www.mect.cuhk.edu.hk/people.html",
+      "title": "院系提供的人员导航 · https://www.mect.cuhk.edu.hk/people.html",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.mect.cuhk.edu.hk/people.html",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "9ee542974a53aea665d9224edefc39ca9f9dad8febcf5174c0735a429f62a5b7"
+    },
+    {
+      "id": "entry-read-staff-route-97259aced52c7dcb",
+      "url": "https://mic.cuhk.edu.hk/people/",
+      "title": "院系提供的人员导航 · https://mic.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mic.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "299f863557bea9dde5540ce929e64bd4b5f8be00e3deec88104be21a44b083a9"
+    },
+    {
+      "id": "entry-read-staff-route-2e7f12f40878e765",
+      "url": "https://pae.cuhk.edu.hk/academic-staff",
+      "title": "院系提供的人员导航 · https://pae.cuhk.edu.hk/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://pae.cuhk.edu.hk/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c72d29e31c1877e7039b64a2fa2cfb867088ed54d3b4dc699e12c402f27cc8a5"
+    },
+    {
+      "id": "entry-read-staff-route-fc0de672d4ab5f8d",
+      "url": "https://www.psychiatry.cuhk.edu.hk/faculty-members/",
+      "title": "院系提供的人员导航 · http://www.psychiatry.cuhk.edu.hk/faculty-members/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.psychiatry.cuhk.edu.hk/faculty-members/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6595b5f151e93ddc72cc9cfec2439e9db96e9aa71221342603f2b732504fadd8"
+    },
+    {
+      "id": "entry-read-staff-route-8632f930acb4aa94",
+      "url": "https://chem.cuhk.edu.hk/people/",
+      "title": "院系提供的人员导航 · https://chem.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://chem.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ae96596c78ff690266d6279c08eca5567426da8e38e7825b9be6c7f73e227d4a"
+    },
+    {
+      "id": "entry-read-staff-route-4627281f10e210a1",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://chem.cuhk.edu.hk/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://chem.cuhk.edu.hk/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "96b2f71cbcb36fa9a584deb12426e58fcbdd8ef4c20f9a33b201ba2b6fdba994"
+    },
+    {
+      "id": "entry-read-staff-route-49cadb8f47069248",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://wp.chem.cuhk.edu.hk/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://wp.chem.cuhk.edu.hk/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "8309d0a02915159cc030d2f7137596864135fb2e809835f52d74ee13b858646b"
+    },
+    {
+      "id": "entry-read-staff-route-803a848288d5654e",
+      "url": "https://www.ees.cuhk.edu.hk/people/",
+      "title": "院系提供的人员导航 · https://www.ees.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.ees.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "8810fca8ad4dc7cb8859d66c227814b5d9533f9964091534f48d4600be894c0c"
+    },
+    {
+      "id": "entry-read-staff-route-9120d0a1413490a0",
+      "url": "https://www.sta.cuhk.edu.hk/people/faculty/",
+      "title": "院系提供的人员导航 · https://www.sta.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.sta.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "79b07d9d4fc6398b9f953a50dea4d668b8979385b0f61b99e1e5df42ba22e91c"
+    },
+    {
+      "id": "entry-read-staff-route-fd952f32bfc0c95f",
+      "url": "https://www.sta.cuhk.edu.hk/people/faculty/",
+      "title": "院系提供的人员导航 · https://www.sta.cuhk.edu.hk/people/faculty",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.sta.cuhk.edu.hk/people/faculty",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "79b07d9d4fc6398b9f953a50dea4d668b8979385b0f61b99e1e5df42ba22e91c"
+    },
+    {
+      "id": "entry-read-staff-route-b13bbf1429069b5a",
+      "url": "https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+      "title": "院系提供的人员导航 · https://www.arch.cuhk.edu.hk/school/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.arch.cuhk.edu.hk/school/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1f8c79adafe65edde4844f4a7539bd522caf3c4ac1e00958a9f98e2495f95931"
+    },
+    {
+      "id": "entry-read-staff-route-111faf9fc04b0b4e",
+      "url": "https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+      "title": "院系提供的人员导航 · https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1f8c79adafe65edde4844f4a7539bd522caf3c4ac1e00958a9f98e2495f95931"
+    },
+    {
+      "id": "entry-read-staff-route-257cb05f73c6355b",
+      "url": "https://www.econ.cuhk.edu.hk/en/about/people/faculty/regular-faculty-members/",
+      "title": "院系提供的人员导航 · https://www.econ.cuhk.edu.hk/en/about/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.econ.cuhk.edu.hk/en/about/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "a0e2e70bb249ada03f68e8649d5f2957c0b9b54617707a662553dfb45cfe1a81"
+    },
+    {
+      "id": "entry-read-staff-route-03ab3df19b55bec5",
+      "url": "https://www.grm.cuhk.edu.hk/en/",
+      "title": "院系提供的人员导航 · https://www.grm.cuhk.edu.hk/en/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.grm.cuhk.edu.hk/en/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "7dad3f3a4655237b70ea29ac79df0c29baff87a55c3e48ec8244c3362ee56db2"
+    },
+    {
+      "id": "entry-read-staff-route-befd0cee057192eb",
+      "url": "https://www.grm.cuhk.edu.hk/en/about/people/faculty/",
+      "title": "院系提供的人员导航 · https://www.grm.cuhk.edu.hk/en/about/people/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.grm.cuhk.edu.hk/en/about/people/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f4863ae1ddc9728254ce5c5c8ae10f99339885cd137354262f70d3a48d01d774"
+    },
+    {
+      "id": "entry-read-staff-route-9066be04503c7176",
+      "url": "https://www.soc.cuhk.edu.hk/people/our-people/",
+      "title": "院系提供的人员导航 · https://www.soc.cuhk.edu.hk/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.soc.cuhk.edu.hk/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6508741169d47b16965ba64a9a6c513c7d0756141f53bd88ca6762f180247f01"
+    },
+    {
+      "id": "entry-read-staff-route-bc0ea38462751abb",
+      "url": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/people/",
+      "title": "院系提供的人员导航 · https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2285aab72771fba1c7fbf256e22fb1bf8b705cd429495e3560f0bbf903eb2b25"
+    },
+    {
+      "id": "entry-read-staff-route-70433b453233d2b9",
+      "url": "https://cbe.hkust.edu.hk/",
+      "title": "院系提供的人员导航 · https://cbe.hkust.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cbe.hkust.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b746c858dbae00c5c6f802f14313e89312d9ef4b45f9c23c674f248f7e472cf2"
+    },
+    {
+      "id": "entry-read-staff-route-acc7d62c3bd3a357",
+      "url": "https://cbe.hkust.edu.hk/faculty",
+      "title": "院系提供的人员导航 · https://cbe.hkust.edu.hk/faculty",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cbe.hkust.edu.hk/faculty",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "033cca6754d0eb22eb60a51aab6cfc0b8975d974c6b8acf1a549252831d717f7"
+    },
+    {
+      "id": "entry-read-staff-route-357a856a65d0cb42",
+      "url": "https://cbe.hkust.edu.hk/faculty",
+      "title": "院系提供的人员导航 · https://cbe.hkust.edu.hk/people",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cbe.hkust.edu.hk/people",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "033cca6754d0eb22eb60a51aab6cfc0b8975d974c6b8acf1a549252831d717f7"
+    },
+    {
+      "id": "entry-read-staff-route-30b2bd748da26359",
+      "url": "https://ce.hkust.edu.hk/people_list",
+      "title": "院系提供的人员导航 · https://ce.hkust.edu.hk/people_list",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ce.hkust.edu.hk/people_list",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "a1618e890c741ae8ef5efdaf1627b91e8900ee4c529eb50f10d0cec8440d30c4"
+    },
+    {
+      "id": "entry-read-staff-route-02bc5a4fd3d22aab",
+      "url": "https://cse.hkust.edu.hk/Restricted/",
+      "title": "院系提供的人员导航 · https://cse.hkust.edu.hk/Restricted/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cse.hkust.edu.hk/Restricted/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b95e02c6e76ed16f1d2980fd4686876a7dc4f220c7175adbee7c0f8a57687169"
+    },
+    {
+      "id": "entry-read-staff-route-e25c452c052679c7",
+      "url": "https://cse.hkust.edu.hk/",
+      "title": "院系提供的人员导航 · https://cse.hkust.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cse.hkust.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d4d154d0b43b20e57913691513146f85fb4950773e51a03db867df28d425238d"
+    },
+    {
+      "id": "entry-read-staff-route-bdc767db7b11d2bd",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "title": "院系提供的人员导航 · https://cse.hkust.edu.hk/admin/people/faculty/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cse.hkust.edu.hk/admin/people/faculty/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "374db0447c5ddad377b9ce4eeb43575c5a9cd4bf8f3835af80e690bf22bd8e68"
+    },
+    {
+      "id": "entry-read-staff-route-3acb09f7b1b0bbd0",
+      "url": "https://ece.hkust.edu.hk/people_list",
+      "title": "院系提供的人员导航 · https://ece.hkust.edu.hk/people_list",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ece.hkust.edu.hk/people_list",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2be69e0c6565a4f706a293274650fbdf7e3c56afb576f5673fdd9d59075536be"
+    },
+    {
+      "id": "entry-read-staff-route-fc9f07ee39005b3e",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+      "title": "院系提供的人员导航 · https://mae.hkust.edu.hk/en/people/faculty",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mae.hkust.edu.hk/en/people/faculty",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6543f7dfc6d676c1fb2c0ea279fe98f9bcedd92c789e488d309e582dd3705fcf"
+    },
+    {
+      "id": "entry-read-staff-route-3f38c153192a3364",
+      "url": "https://mae.hkust.edu.hk/en/home",
+      "title": "院系提供的人员导航 · https://mae.hkust.edu.hk/en/home",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mae.hkust.edu.hk/en/home",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d5c5c3329b2aaf76abd03fd703daf2ddfa42f59e7af935f328f59e2492732fe6"
+    },
+    {
+      "id": "entry-read-staff-route-e11e59611dd75605",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+      "title": "院系提供的人员导航 · https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6543f7dfc6d676c1fb2c0ea279fe98f9bcedd92c789e488d309e582dd3705fcf"
+    },
+    {
+      "id": "entry-read-staff-route-354a98986e1cc672",
+      "url": "https://shss.hkust.edu.hk/music_arts/people",
+      "title": "院系提供的人员导航 · https://shss.hkust.edu.hk/music_arts/people",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://shss.hkust.edu.hk/music_arts/people",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "21f6e607ba1140df987c10abae209d3c99b42bc083183c6f8e5404a946e51cc5"
+    },
+    {
+      "id": "entry-read-staff-route-a5670952d7005353",
+      "url": "https://www.polyu.edu.hk/lms/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/lms/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/lms/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "12340f450baea86718d296fadec1984d33699cf849f3f96b14943d3267d99e98"
+    },
+    {
+      "id": "entry-read-staff-route-4a1b83025e81267f",
+      "url": "https://www.polyu.edu.hk/mm/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/mm/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/mm/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c8b25a9abee48ce766b45c099138d8a004d23a3763663bb2d8eed6780eac4328"
+    },
+    {
+      "id": "entry-read-staff-route-73be9cfaff9f59c4",
+      "url": "https://www.polyu.edu.hk/af/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/af/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/af/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "97e3c2c6ebed0dfdd04e10f58eceecef30a6089421519008e118bdbe6117b141"
+    },
+    {
+      "id": "entry-read-staff-route-17101e9c4d753d73",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/ama/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/ama/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "3ca16d3a17e43f969012bd67a513a1463a827ea8ff3f2ea724d3dfba0f5c84c6"
+    },
+    {
+      "id": "entry-read-staff-route-397c521f96b4b4cd",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/comp/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/comp/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f48b8b22cfb074e1550b06688e83c62f7281249da1897c2aecbe770f74482f10"
+    },
+    {
+      "id": "entry-read-staff-route-b3e15c2018057613",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/dsai/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/dsai/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "66f9371dee4ce81a044eb1a8bc80b7d0b6bb7a38380a23ab19dae770b22d6efa"
+    },
+    {
+      "id": "entry-read-staff-route-8381a16b5b3257b6",
+      "url": "https://www.polyu.edu.hk/arch/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/arch/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/arch/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "36eb2736846855e4aa9140dbaac38a81561ccfd2487b618dfebfdd74916dc05c"
+    },
+    {
+      "id": "entry-read-staff-route-b43ec34bb5e0c644",
+      "url": "https://www.polyu.edu.hk/beee/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/beee/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/beee/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f6a5398fb4844d5073064663d29c1736c4ec253335c148dd0e207686b4765740"
+    },
+    {
+      "id": "entry-read-staff-route-a22394d9c6c7b5c5",
+      "url": "https://www.polyu.edu.hk/cee/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/cee/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/cee/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "954ec78ee92a4def4ea46c554db0e25845d9676e502f3c358515bb7556db751b"
+    },
+    {
+      "id": "entry-read-staff-route-0460fcc0e6efb7ed",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/cmi/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/cmi/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2c013d8bbd19a555ee315f2faf850f3cbff4773d627e55b96c106735e8c3d323"
+    },
+    {
+      "id": "entry-read-staff-route-5d8183fa4d7b330b",
+      "url": "https://www.polyu.edu.hk/lsgs/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/lsgs/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/lsgs/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2ec154db888f9da7bb8b10e96a7fd7940604e806855766b33772d49ecd8ff6bf"
+    },
+    {
+      "id": "entry-read-staff-route-51457545a5b30759",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/aae/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "31f79304fec4983be5232345046c4166fd9a5afa666f56d6f4749a58eac07ac6"
+    },
+    {
+      "id": "entry-read-staff-route-8e418b20f3b952d9",
+      "url": "https://www.polyu.edu.hk/best/people/academic-and-teaching-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/best/people/academic-and-teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/best/people/academic-and-teaching-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "349062a8dc0bc88036853ee76cd318bf64d5c008b083f59dae8fbb19b150af11"
+    },
+    {
+      "id": "entry-read-staff-route-0ed324475341514d",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "7cb197f408b5a40b658dd57916f7ca3836e2b284643db0e9b15e1679399f9448"
+    },
+    {
+      "id": "entry-read-staff-route-af885b8c5f605e4a",
+      "url": "https://www.polyu.edu.hk/ise/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/ise/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/ise/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "defd0f99acea045985dd4bec47232917af776920d80937cc8d4ecb0755a23dc8"
+    },
+    {
+      "id": "entry-read-staff-route-490a7902f302a26e",
+      "url": "https://www.polyu.edu.hk/me/people/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/me/people/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/me/people/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "7e4971ff2cdc41754103e64269e3f134257f4d7910ca82c6e918fe598e9950e0"
+    },
+    {
+      "id": "entry-read-staff-route-4ecaea5b32e31116",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "584c30dc706e7c5a73de84cbde095e6200a1944533f6dc92ece4634cf8e4dd4d"
+    },
+    {
+      "id": "entry-read-staff-route-38a5354de59bdc96",
+      "url": "https://www.polyu.edu.hk/apss/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/apss/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/apss/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c455f0c77d86294719ed2adad12bf7c9a2288d5783f049ad73404c1a8c1e2394"
+    },
+    {
+      "id": "entry-read-staff-route-7cc0bac835169736",
+      "url": "https://www.polyu.edu.hk/hti/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/hti/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/hti/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6d054b29a55cb4f6c26cd92249135f49811a759a8c834d5b370290473b981ab1"
+    },
+    {
+      "id": "entry-read-staff-route-daf5b5f01dabd4ec",
+      "url": "https://www.polyu.edu.hk/rs/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/rs/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/rs/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "077cb3ad1a13e2ccf5ff47f6515b4a1d5e24a2cc25b182fe5d9ea57bdd654f38"
+    },
+    {
+      "id": "entry-read-staff-route-8268d56c55e02854",
+      "url": "https://www.polyu.edu.hk/so/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/so/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/so/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "811c49457c5d235ca72ad43a636dc2ac39a991bf5a8111f13762a707a03cd97d"
+    },
+    {
+      "id": "entry-read-staff-route-bc619285c593015b",
+      "url": "https://www.polyu.edu.hk/engl/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/engl/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/engl/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "7d387683c31e8342120bd7ccb8b420d8509943a233a1188452543adb6d30e204"
+    },
+    {
+      "id": "entry-read-staff-route-33cb9a5264e85f66",
+      "url": "https://www.polyu.edu.hk/lst/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/lst/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/lst/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "eca62821f5960a5ed01218647a58f4da7e1ef757e02a4a34c0dc2820cc95e985"
+    },
+    {
+      "id": "entry-read-staff-route-17fe8c6876ba033b",
+      "url": "https://www.polyu.edu.hk/aih/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/aih/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/aih/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "85f99d2a9aea95c4c3d76336192b3718679ed0285275f8888926c7cf35db3d49"
+    },
+    {
+      "id": "entry-read-staff-route-1705a0eb1b7cb0d9",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/chem/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/chem/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d63168493a969c88c1057f24b6d7904bedae7978878a8d33831264ecbf5f4b7e"
+    },
+    {
+      "id": "entry-read-staff-route-1c1b0c34b3159f2c",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/fsn/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "903200c1fea7667d434118f9f8d361c54104bdf1781e89efaaaf2e178048286f"
+    },
+    {
+      "id": "entry-read-staff-route-22f39b10cbb029d7",
+      "url": "https://www.polyu.edu.hk/ls/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/ls/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/ls/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1b6a2296d6ff784ebe74fc6bfb3823d43ed5a532cd6a85228373372f39d7d4a1"
+    },
+    {
+      "id": "entry-read-staff-route-d7e98e2432e348ec",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/",
+      "title": "院系提供的人员导航 · https://www.polyu.edu.hk/pm/people/academic-staff/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/pm/people/academic-staff/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "99a2342217e97ea38ea183a9d7aeacb652ca37db1ee9b1a10130f7886045653f"
+    },
+    {
+      "id": "entry-read-staff-route-0cfb6c96de2aa6b9",
+      "url": "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+      "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "14d97b7213f63f1c0f2ceae89f3bed503601469871539cb22c005ad3a4daa056"
+    },
+    {
+      "id": "entry-read-staff-route-1b99400d3138616e",
+      "url": "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+      "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d555b4e04aa1921c205a68cd48493b01c5e8952effe9a116c6b6008d59488d70"
+    },
+    {
+      "id": "entry-read-staff-route-c85cb28c9e752c69",
+      "url": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+      "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "7cd5f738e82ddc8fed09c81d50036898236f7fc5174dc211378bdb0c2f7b3270"
+    },
+    {
+      "id": "entry-read-staff-route-790fba89a07741b2",
+      "url": "https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+      "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "5796383ba997e06c2f5d67287972be19ba91e44fa2f3e6e562d5d6a7547cea51"
+    },
+    {
+      "id": "entry-read-staff-route-b4a842073231b6f9",
+      "url": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+      "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "47ea50882fc37c9ecf3af5f5e7afcf2c2a62a89bc9253409632fdc7daabfcba6"
+    },
+    {
+      "id": "entry-read-staff-route-c28893af1991a23b",
+      "url": "https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+      "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "161f1ae6b4c36191ca2c443250aac6e184ef80a37875964ca8b823cbaf83d74c"
+    },
+    {
+      "id": "entry-read-academic-child-6ddce94f63a1399d",
+      "url": "https://www.civil.hku.hk/index.html",
+      "title": "学系/学域入口 · https://www.civil.hku.hk/index.html",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.civil.hku.hk/index.html",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b1e13ea38c2d372669b021ae60de14427245c8d1afc98a0e23ec9b6dd7371da8"
+    },
+    {
+      "id": "entry-read-academic-child-ba62ca945ed385ea",
+      "url": "https://www.cds.hku.hk/",
+      "title": "学系/学域入口 · https://www.cds.hku.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cds.hku.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "5abe8cc0367a4c22d7535e32cee48cd9158f21d79177dcfca220ae11f8577bfe"
+    },
+    {
+      "id": "entry-read-academic-child-87382e50a1cf4798",
+      "url": "https://www.dase.hku.hk/",
+      "title": "学系/学域入口 · https://www.dase.hku.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.dase.hku.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "3112b3863bc3e85fc1a1500f99632203bf6089363fd9f340c5293870d78efecc"
+    },
+    {
+      "id": "entry-read-academic-child-84c227c24b2a45a6",
+      "url": "https://i-school.hku.hk/programmes/",
+      "title": "学系/学域入口 · https://i-school.hku.hk/program",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://i-school.hku.hk/program",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "52e861756530e96b25e83880ef08ae09b52cbf21be45955fb005b1e181ff49e0"
+    },
+    {
+      "id": "entry-read-academic-child-bf70eb4e24e3d2f7",
+      "url": "https://mech.hku.hk/",
+      "title": "学系/学域入口 · https://mech.hku.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mech.hku.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "be48f8b45628851f656eb1ee5c87db877453ab6ff45f4dc8444a91b387381316"
+    },
+    {
+      "id": "entry-read-academic-child-ae0a559211f2a427",
+      "url": "https://www.scifac.hku.hk/prospective/tpg/about",
+      "title": "学系/学域入口 · https://www.scifac.hku.hk/prospective/tpg/about",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.scifac.hku.hk/prospective/tpg/about",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "71380d763a33ed4444ea9c17d671b60c3ffc41f20905e37c104f1e1682c106b0"
+    },
+    {
+      "id": "entry-read-academic-child-05e295a20d26d067",
+      "url": "https://www.chi.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.chi.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.chi.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "dfddd8a998109437430c71585f9205b9fe5c4af23aa123567971a737a7b5347e"
+    },
+    {
+      "id": "entry-read-academic-child-e7feb5f3ddb6e946",
+      "url": "https://www2.crs.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www2.crs.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www2.crs.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c77c7af9555047fe0c3b12546e510e16903840854e045474c48f52c2b8b7bbc9"
+    },
+    {
+      "id": "entry-read-academic-child-7c131bffbce744bc",
+      "url": "https://eng.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.eng.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.eng.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "66d9dc4119899f567b264384abc9495f4dae946aca480f04283363038645e500"
+    },
+    {
+      "id": "entry-read-academic-child-65f26dfa7b964850",
+      "url": "https://www.history.cuhk.edu.hk/en/",
+      "title": "学系/学域入口 · http://www.history.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.history.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6e99f21455ac305c28be063a733690830a6a3215702ea6a285d1fc1407345de2"
+    },
+    {
+      "id": "entry-read-academic-child-b072aa0c615ef302",
+      "url": "https://www.jas.cuhk.edu.hk/",
+      "title": "学系/学域入口 · https://www.jas.cuhk.edu.hk/en/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.jas.cuhk.edu.hk/en/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1e096172b8c5a85d247ecef0366195292beb40cd79c6e9a82d6c3a8c3ba5bc11"
+    },
+    {
+      "id": "entry-read-academic-child-06d1e4d3666d96d9",
+      "url": "https://ling.cuhk.edu.hk/",
+      "title": "学系/学域入口 · https://ling.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ling.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "46818eeae311d0b232df8462117bb9fa940947525fe46f00255ca07e87aaa26e"
+    },
+    {
+      "id": "entry-read-academic-child-1c4c95596c5332e8",
+      "url": "https://phil.arts.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.phil.arts.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.phil.arts.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ccd9d16c6f94ab91542cb3b0c6d936b5583b8644c9350b22139de502685f466f"
+    },
+    {
+      "id": "entry-read-academic-child-d23e65f4fa33e23d",
+      "url": "https://traserver.tra.cuhk.edu.hk/en/",
+      "title": "学系/学域入口 · http://traserver.tra.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://traserver.tra.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "48cc6cbc165f0950c5148c9663c8f9e53c0b0010fa996b8d7304a73d5c9da9c3"
+    },
+    {
+      "id": "entry-read-academic-child-239cc79a55f46f49",
+      "url": "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+      "title": "学系/学域入口 · https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1310f0cee351cfb02405e02437d9c3a487583b9cb714f70594d67f658b3be597"
+    },
+    {
+      "id": "entry-read-academic-child-ee1e52ab89457db5",
+      "url": "https://www.bschool.cuhk.edu.hk/departments/finance/",
+      "title": "学系/学域入口 · https://www.bschool.cuhk.edu.hk/departments/finance/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.bschool.cuhk.edu.hk/departments/finance/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "e963d9ca7b5a5df963f8f1af31cd62bca986ae5a0b855c9b613e19358e546d77"
+    },
+    {
+      "id": "entry-read-academic-child-5599237c0de9d57f",
+      "url": "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+      "title": "学系/学域入口 · https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "761d493caf826ee21195dcee0833b14a3d9ff8da55c4417db6fd8fc277330eae"
+    },
+    {
+      "id": "entry-read-academic-child-4b679b25fe13e270",
+      "url": "https://www.bschool.cuhk.edu.hk/departments/management/",
+      "title": "学系/学域入口 · https://www.bschool.cuhk.edu.hk/departments/management/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.bschool.cuhk.edu.hk/departments/management/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2bbda60d3bd7a78a85bd699f99779fea4da6d7337db6d4aba1e8d4ab0534307d"
+    },
+    {
+      "id": "entry-read-academic-child-596965a58e4f84f9",
+      "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+      "title": "学系/学域入口 · https://www.bschool.cuhk.edu.hk/departments/marketing/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.bschool.cuhk.edu.hk/departments/marketing/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "be49676c25a72312a75b603f6f637ddc642c936d5f01fee89356ddcef546710e"
+    },
+    {
+      "id": "entry-read-academic-child-8c1380912ee65c8d",
+      "url": "https://www.fed.cuhk.edu.hk/cri/",
+      "title": "学系/学域入口 · http://www.fed.cuhk.edu.hk/cri/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.fed.cuhk.edu.hk/cri/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "765dabcf262f4d7929dd8e428d0b6c92be4fc05722448de3babe774dae6e7fe2"
+    },
+    {
+      "id": "entry-read-academic-child-e2177253210c752e",
+      "url": "https://www.fed.cuhk.edu.hk/eap/",
+      "title": "学系/学域入口 · http://www.fed.cuhk.edu.hk/eap/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.fed.cuhk.edu.hk/eap/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "8166a438a2b2d532eb9573c34b3168749f7f0a564a66a5feaf0846de75dcb70f"
+    },
+    {
+      "id": "entry-read-academic-child-56c530213fb39244",
+      "url": "https://www.cuhk.edu.hk/spe/",
+      "title": "学系/学域入口 · http://www.cuhk.edu.hk/spe/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cuhk.edu.hk/spe/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2f6f9fbc0583e6235b13ffce35a6858904a7ca892a2eef7e3157a1223725daf6"
+    },
+    {
+      "id": "entry-read-academic-child-500f1aec4ddee61b",
+      "url": "https://www.bme.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.bme.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.bme.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "a5ce7226d260e8c3546b3fa0e14c8cff75842624b7504ce3503aa7cb1c6221f2"
+    },
+    {
+      "id": "entry-read-academic-child-7462e1e5e134571c",
+      "url": "https://www.ie.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.ie.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.ie.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "fd2dabbb34e755135725b5db2d94bf98fd9c0e49b0c63b639442e89af99d147b"
+    },
+    {
+      "id": "entry-read-academic-child-e309a803ea3dde70",
+      "url": "https://www.se.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.se.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.se.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "e9bf2dea9c075f21d7df718e34d7ad17f17bf549b7af5974f77ebc791a9cea25"
+    },
+    {
+      "id": "entry-read-academic-child-0523d9e01c625f7e",
+      "url": "https://www.cuhk.edu.hk/med/ans/",
+      "title": "学系/学域入口 · http://www.cuhk.edu.hk/med/ans/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cuhk.edu.hk/med/ans/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "66a708c3150fa75c9534b343ca7f8952b174a1d3fab3aa87bd4a24c82947622c"
+    },
+    {
+      "id": "entry-read-academic-child-d765ce83141fcc11",
+      "url": "https://www.cuhk.edu.hk/med/acp/",
+      "title": "学系/学域入口 · http://www.cuhk.edu.hk/med/acp/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cuhk.edu.hk/med/acp/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "14fc36d96089a759186ebf3beb34b9e27339a6ee3fde14d1b95ed8b061c8ab00"
+    },
+    {
+      "id": "entry-read-academic-child-994d5f9cda137d88",
+      "url": "https://www3.sbs.cuhk.edu.hk/en/",
+      "title": "学系/学域入口 · http://www.sbs.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.sbs.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "a46bd641d0525748a5581a60c92ab330350d9b79a89b1daedcdbc885c74efaea"
+    },
+    {
+      "id": "entry-read-academic-child-3d92377c579eeef0",
+      "url": "https://www.cuhk.edu.hk/med/cpy/",
+      "title": "学系/学域入口 · http://www.cpy.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cpy.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "436f9186484abfe03597d723be19a55612462e69b6749508e10e7029f09856ad"
+    },
+    {
+      "id": "entry-read-academic-child-b8cbc008b372e32a",
+      "url": "https://www.scm.cuhk.edu.hk/en-gb/",
+      "title": "学系/学域入口 · http://www.scm.cuhk.edu.hk/en-gb/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.scm.cuhk.edu.hk/en-gb/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2cae2e5f8745ae36d3fe726ced3809f7cb8ae9490fb3f6974ac28d0887301fae"
+    },
+    {
+      "id": "entry-read-academic-child-09c2feda0e1389cc",
+      "url": "https://www.clo.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.clo.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.clo.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "46221edd3400f64c9e1d30ed4d07b64ae54bf86dc02f34ef14d4b2b50532e3d7"
+    },
+    {
+      "id": "entry-read-academic-child-84e54f1d6a1b4d25",
+      "url": "https://www.diir.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.diir.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.diir.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f7421557fe10c86d1fbc4a906858d8ebdda0ef918d5e87dc718784861fd80db4"
+    },
+    {
+      "id": "entry-read-academic-child-ae444766017fcbe8",
+      "url": "https://www.mect.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.mect.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.mect.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "7d3c8efd7b4a1452357642efaa42b2ba9fa161b9e5a2d77b833ba2c72dd016f9"
+    },
+    {
+      "id": "entry-read-academic-child-12a6d36355f08f5a",
+      "url": "https://mic.cuhk.edu.hk/",
+      "title": "学系/学域入口 · https://mic.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mic.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "847526e4d2ffd679d0d14484113b590487cb2dfa9b0eabf19baf15bf30ba6149"
+    },
+    {
+      "id": "entry-read-academic-child-5fcb42353881296d",
+      "url": "https://www.obg.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.obg.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.obg.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b4ba71d5b3e394d0c3b0dffcdefd98507f5fddf669fb36cd07f9a1215314fa4f"
+    },
+    {
+      "id": "entry-read-academic-child-d6c780d66c275456",
+      "url": "https://www.ort.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.ort.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.ort.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "95f5b778f78a836ea4790881e6526a6e40609d48206a6b6df75dbc3e476ae9a0"
+    },
+    {
+      "id": "entry-read-academic-child-3105e8111553ca91",
+      "url": "https://www.ent.cuhk.edu.hk/Ent/en/",
+      "title": "学系/学域入口 · http://www.ent.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.ent.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "8499f194dfa0b0880b90cc73c448a0e4911d1b72f3c6553074d8d722bf078598"
+    },
+    {
+      "id": "entry-read-academic-child-9b836109b2d7d915",
+      "url": "https://pae.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.pae.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.pae.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2fbf3b3188286f00bd8c45b5c0d3e1dfc4f751fe0c2075d0a0edb50ebd947194"
+    },
+    {
+      "id": "entry-read-academic-child-b8b3ee006db309bf",
+      "url": "https://www.psychiatry.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.psychiatry.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.psychiatry.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b1a009f117224eff6fd8e64daca193ab253e6cb5312831514bdc2fed621be90e"
+    },
+    {
+      "id": "entry-read-academic-child-f20ab62a9ebf06de",
+      "url": "https://chem.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.chem.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.chem.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1af7ac2e4b9052a5d00e55805fdd79d818f4b3721b299bdcac91277382a55f29"
+    },
+    {
+      "id": "entry-read-academic-child-2c287f5e5d8c7cee",
+      "url": "https://www.ees.cuhk.edu.hk/",
+      "title": "学系/学域入口 · https://www.ees.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.ees.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f7ecb8ca09d1208480dd6b44d49bbad5b1275a9df7c2e8c2174c86e5cf3d5b20"
+    },
+    {
+      "id": "entry-read-academic-child-d5a38d1bbbb9dd1d",
+      "url": "https://www.cuhk.edu.hk/lifesciences/",
+      "title": "学系/学域入口 · http://www.cuhk.edu.hk/lifesciences",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cuhk.edu.hk/lifesciences",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6217c315b6d43b2422345de75ce6076c00422b9758486ce725bea25ddaebf532"
+    },
+    {
+      "id": "entry-read-academic-child-5e6112b3ab8b52ca",
+      "url": "https://www.phy.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.phy.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.phy.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2aa09547f8ac3204b1de5e8d1738e01d4d1274f85821f12729d03f5e4cd98836"
+    },
+    {
+      "id": "entry-read-academic-child-28d7c733cd99c529",
+      "url": "https://www.sta.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.sta.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.sta.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "02a6379ee5063ded9fc3d3530512799ba8ac1a6faaee241456e5dc291fc1aa3b"
+    },
+    {
+      "id": "entry-read-academic-child-9529b77313e30e9e",
+      "url": "https://www.arch.cuhk.edu.hk/",
+      "title": "学系/学域入口 · http://www.arch.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.arch.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "dab91410628f4e83ef1e67f9bf9cf1210738bebdd201799d63c890eaeb36f192"
+    },
+    {
+      "id": "entry-read-academic-child-2271309fa3ea1d0b",
+      "url": "https://www.econ.cuhk.edu.hk/en/home/",
+      "title": "学系/学域入口 · http://www.econ.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.econ.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "40a62f93aef6d983d2fe0953c422854225c275be5dfcc97b208ad4f1023892a6"
+    },
+    {
+      "id": "entry-read-academic-child-10f31b2987641e24",
+      "url": "https://www.grm.cuhk.edu.hk/en/",
+      "title": "学系/学域入口 · http://www.grm.cuhk.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.grm.cuhk.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "4116e621580b48025df8d48814403e22aa1c3201bc9a0bff7633104942ad3f32"
+    },
+    {
+      "id": "entry-read-academic-child-4999b688e993ca8f",
+      "url": "https://www.cuhk.edu.hk/swk/",
+      "title": "学系/学域入口 · http://www.cuhk.edu.hk/swk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cuhk.edu.hk/swk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "8a0d7fed19cee52f2914231d3c10de3c60ef096f9a996a5c72e377c716d1a1e9"
+    },
+    {
+      "id": "entry-read-academic-child-785b2340fb06c823",
+      "url": "https://www.soc.cuhk.edu.hk",
+      "title": "学系/学域入口 · https://www.soc.cuhk.edu.hk",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.soc.cuhk.edu.hk",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "cd8cb9daeba043789d9b3bdec3f3fd256b13d7fd7687877b33b954c3859706d5"
+    },
+    {
+      "id": "entry-read-academic-child-e35f5eb327455829",
+      "url": "https://cbe.hkust.edu.hk/",
+      "title": "学系/学域入口 · https://cbe.ust.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://cbe.ust.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b746c858dbae00c5c6f802f14313e89312d9ef4b45f9c23c674f248f7e472cf2"
+    },
+    {
+      "id": "entry-read-academic-child-8d57f35312417832",
+      "url": "https://ce.hkust.edu.hk/",
+      "title": "学系/学域入口 · https://www.ce.ust.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.ce.ust.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "4e037a58eb727bb2e13e88a7f27607e58669a7add9d407e4ef670f558641100f"
+    },
+    {
+      "id": "entry-read-academic-child-d1467258a0033ccb",
+      "url": "https://cse.hkust.edu.hk/",
+      "title": "学系/学域入口 · https://www.cse.ust.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cse.ust.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "99e66edd87dcedd660b19be459ca4a3ce5adebbba97d819971687ba3f6fe0f53"
+    },
+    {
+      "id": "entry-read-academic-child-aed20ce166ab4728",
+      "url": "https://ece.hkust.edu.hk/",
+      "title": "学系/学域入口 · https://ece.hkust.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ece.hkust.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "71feba078153c6a1ae91f03f8469fa2c7d12d5bc19d39ab1e4487892631c18e3"
+    },
+    {
+      "id": "entry-read-academic-child-cc20ed3ab4362815",
+      "url": "https://www.ieda.ust.hk/",
+      "title": "学系/学域入口 · https://www.ieda.ust.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.ieda.ust.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ffe0084d22c10b35ad6409562a891a7ec8e47aecf045acfaab42113af51237dc"
+    },
+    {
+      "id": "entry-read-academic-child-060413a7dc3533df",
+      "url": "https://mae.hkust.edu.hk/en/home",
+      "title": "学系/学域入口 · https://mae.hkust.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mae.hkust.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d5c5c3329b2aaf76abd03fd703daf2ddfa42f59e7af935f328f59e2492732fe6"
+    },
+    {
+      "id": "entry-read-academic-child-f408a9376965fcd1",
+      "url": "https://shss.hkust.edu.hk/divisions/index",
+      "title": "学系/学域入口 · https://shss.hkust.edu.hk/divisions/index",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://shss.hkust.edu.hk/divisions/index",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "233073757afc564697304cc1cb628b10c36a9480000f6e7e1fce45f7b02bca82"
+    },
+    {
+      "id": "entry-read-academic-child-c01a9386e005e65c",
+      "url": "https://shss.hkust.edu.hk/divisions/social_science",
+      "title": "学系/学域入口 · https://shss.hkust.edu.hk/divisions/social_science",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://shss.hkust.edu.hk/divisions/social_science",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "66b13bafedf3413de669609eb61f83738a3edcc87d168456fe344a7573a795b0"
+    },
+    {
+      "id": "entry-read-academic-child-737fb6458fb084b9",
+      "url": "https://www.polyu.edu.hk/lms/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/lms/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/lms/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "19cf56d0321b16e2c62cb7f49848dd82e20283fdedf83b273b6d70a20812ae9a"
+    },
+    {
+      "id": "entry-read-academic-child-00351fa0b0e7b776",
+      "url": "https://www.polyu.edu.hk/mm/",
+      "title": "学系/学域入口 · https://mm.polyu.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://mm.polyu.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6837fdc0ad932e4486eeede9b9141f74214fd267a56e579f87d9475d585b9da1"
+    },
+    {
+      "id": "entry-read-academic-child-64cb2b7f5c50ed69",
+      "url": "https://www.polyu.edu.hk/af/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/af/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/af/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "dd495cd9cffaf68028849475d77e581eb4984735f0be6e2d67d47969614ca3c7"
+    },
+    {
+      "id": "entry-read-academic-child-cda5ddc7632f4c68",
+      "url": "https://www.polyu.edu.hk/ama/",
+      "title": "学系/学域入口 · http://www.polyu.edu.hk/ama/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.polyu.edu.hk/ama/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "02296d27dbd56348d3dfa364e7e71c52779e0996bdbc99f2b8699efd7058706e"
+    },
+    {
+      "id": "entry-read-academic-child-1a6709591efc0adf",
+      "url": "https://www.polyu.edu.hk/comp/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/comp/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/comp/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "322e0882da7e0cf10f9b27560445048636e1f49f328509bfa72bdf2719e9895b"
+    },
+    {
+      "id": "entry-read-academic-child-f2d8998eb9774f3b",
+      "url": "https://www.polyu.edu.hk/dsai/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/dsai/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/dsai/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b8c9b8ed20390f01d035c2e934a9a08102860a77a0f72199142d814a0e7322b7"
+    },
+    {
+      "id": "entry-read-academic-child-3e1851cd272a4f0b",
+      "url": "https://www.polyu.edu.hk/arch/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/arch/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/arch/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "3446ba529564921a14e5bdf1d7d9b28dd4cc3817b3ce5d318c5872d6a3b894ed"
+    },
+    {
+      "id": "entry-read-academic-child-236e60788383c95b",
+      "url": "https://www.polyu.edu.hk/beee/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/beee/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/beee/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "99603400672e67e4c69f10835ead0f202197d2a9edd543db784643192b1e32cf"
+    },
+    {
+      "id": "entry-read-academic-child-6db6cc0fbd462b51",
+      "url": "https://www.polyu.edu.hk/cee/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/cee/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/cee/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "aad571d428bd24be324e7ba9e825520d72635c04e62751f5d00c8de7f52534b4"
+    },
+    {
+      "id": "entry-read-academic-child-e71fe790f6ef2497",
+      "url": "https://www.polyu.edu.hk/cmi/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/cmi/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/cmi/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b03e1521c9791e2a804c57f32578d4d2e94132db7043b9ae87ad102c59301afe"
+    },
+    {
+      "id": "entry-read-academic-child-b291252aa4a7dd6a",
+      "url": "https://www.polyu.edu.hk/lsgs/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/lsgs/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/lsgs/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "bf885d2b8846746f9612ceb70fa75f2a681142f331269da981d4b8045399b50d"
+    },
+    {
+      "id": "entry-read-academic-child-32df8457b8f53f7f",
+      "url": "https://www.polyu.edu.hk/aae/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/aae/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/aae/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "51d1aa33b83a20537dc43bd33bc6ed5f380d11f9cf3e97278d967311e8cc9585"
+    },
+    {
+      "id": "entry-read-academic-child-ee73a7e112e0a6e0",
+      "url": "https://www.polyu.edu.hk/best/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/best/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/best/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "97e0eda03617d1eb6fdfc9746df7cddbe073dbbf52ebb81d77e54bae7c8c277c"
+    },
+    {
+      "id": "entry-read-academic-child-90c3d083687e9602",
+      "url": "https://www.polyu.edu.hk/eee/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/eee/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/eee/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "750a24aabdae788a3d139155becc65bb6466948ffbb798117f6acc78d315c144"
+    },
+    {
+      "id": "entry-read-academic-child-7587016221a223a2",
+      "url": "https://www.polyu.edu.hk/ise/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/ise/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/ise/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "495bc78e888ebd96e693c2a370c55946c744dcd2749bb683eae866476794d88f"
+    },
+    {
+      "id": "entry-read-academic-child-d6d2724a96ca881b",
+      "url": "https://www.polyu.edu.hk/me/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/me/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/me/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "266370f9432c412ba1b1bd16f1eb1daab19189806262868c73e7dab94b57de80"
+    },
+    {
+      "id": "entry-read-academic-child-8e3aa4de9092dc2d",
+      "url": "https://www.polyu.edu.hk/apss/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/apss/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/apss/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c3c213edd0bf2caaba48c70af0a339443d533be71722caf537c9ec559eaa8e4b"
+    },
+    {
+      "id": "entry-read-academic-child-985aa071f7b587d5",
+      "url": "https://www.polyu.edu.hk/hti/",
+      "title": "学系/学域入口 · http://www.polyu.edu.hk/hti/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.polyu.edu.hk/hti/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "32f9b7f5db52066b2530f782a0742ce189e944ed5f3d097c1646fd9104bffbe6"
+    },
+    {
+      "id": "entry-read-academic-child-4a5366bb4e57b198",
+      "url": "https://www.polyu.edu.hk/rs/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/rs/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/rs/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "4bf3427c9e55d9d5584b32cbaeae3c6d4366f3e38d8ac1a10fb1d4c7966b9a7e"
+    },
+    {
+      "id": "entry-read-academic-child-f2d79dfd9fb0231e",
+      "url": "https://www.polyu.edu.hk/sn/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/sn/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/sn/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b2b3305a0196c70cae93f03ccf6101d458f2f2b9ebb0a10d952f1d485ce47a3e"
+    },
+    {
+      "id": "entry-read-academic-child-253d5cba5f5bbdc8",
+      "url": "https://www.polyu.edu.hk/so/",
+      "title": "学系/学域入口 · http://www.polyu.edu.hk/so/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.polyu.edu.hk/so/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ddf16498a4902c64d5508dd3589b5f5473564c4c84527008551a1e5192409438"
+    },
+    {
+      "id": "entry-read-academic-child-333a15a11ea10ae1",
+      "url": "https://www.polyu.edu.hk/chc/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/cc/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/cc/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f0819f2597023c379a5db40bcdf743dbea8321aa0a203d019c6b0b497c1a0344"
+    },
+    {
+      "id": "entry-read-academic-child-43f7c207d51ae0d3",
+      "url": "https://www.polyu.edu.hk/engl/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/engl/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/engl/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d3bb87c2cc2c25230584074f24239a8fa6cf5e6e745142a312881be11849ba42"
+    },
+    {
+      "id": "entry-read-academic-child-0a78d406ce70b621",
+      "url": "https://www.polyu.edu.hk/lst/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/lst/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/lst/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "932da9bca2f027dc50d1856aa2c52d2c12882756e687f465f06d50335f10e450"
+    },
+    {
+      "id": "entry-read-academic-child-8e2f35881f849ff5",
+      "url": "https://www.polyu.edu.hk/aih/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/aih/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/aih/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "92bd88e0caf4b83229c4b77c2c7f57e72c0f274113e9884d5f204e49493b5f54"
+    },
+    {
+      "id": "entry-read-academic-child-436e5860ea63c0ba",
+      "url": "https://www.polyu.edu.hk/chem/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/chem/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/chem/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "2c86e377d49730eae06decf1f19d3d209633d81bffa095229b071f3920ced9ca"
+    },
+    {
+      "id": "entry-read-academic-child-ebef366ba26e5999",
+      "url": "https://www.polyu.edu.hk/fsn/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/fsn/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/fsn/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "9492a8374da5f60d5be174142392f3e327cb28ca28ebc8898a088b3d0b76fa3e"
+    },
+    {
+      "id": "entry-read-academic-child-a76dea4c168b841d",
+      "url": "https://www.polyu.edu.hk/ls/",
+      "title": "学系/学域入口 · https://www.polyu.edu.hk/ls/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.polyu.edu.hk/ls/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "08f0a50a7ee669012ad571f2e23ec4809990688993015ed11adef923cea9f5f7"
+    },
+    {
+      "id": "entry-read-academic-child-33d2761c2e83118f",
+      "url": "https://www.polyu.edu.hk/pm/",
+      "title": "学系/学域入口 · http://www.polyu.edu.hk/ap",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.polyu.edu.hk/ap",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "84c0f749e2dac30306c66452ba8bdf3a682c555107ce5b5a996c5c5a2973addf"
+    },
+    {
+      "id": "entry-read-academic-child-6557e3e2e7349712",
+      "url": "https://amat.hkust-gz.edu.cn/zh/",
+      "title": "学系/学域入口 · https://amat.hkust-gz.edu.cn/zh/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://amat.hkust-gz.edu.cn/zh/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1815fb73efdce8bfa0283755f478544c2aaa3ff81f56e0abb48edea3240fc084"
+    },
+    {
+      "id": "entry-read-academic-child-611b226ecdcfa301",
+      "url": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/about-the-thrust/?variant=zh-cn",
+      "title": "学系/学域入口 · https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "62a27b24a62fc99743a0a02f7f57e92a326c9be96ec1a33dc7d22df97db2318e"
+    },
+    {
+      "id": "entry-read-academic-child-1675b4a50762ecbc",
+      "url": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/about-the-thrust/?variant=zh-cn",
+      "title": "学系/学域入口 · https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ce53b8d5978dcfbfd6381c037310b148c4cd15a96613a4f89d556733101e60b4"
+    },
+    {
+      "id": "entry-read-academic-child-ec56f26b939d2343",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "64b1ec4d21d25a49ee64dab0b6445383b9309de41aead62a7e4879bddce5acc6"
+    },
+    {
+      "id": "entry-read-academic-child-dabfcec73af8c9db",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "ddc94d8379027eae58a58ac75dc7ecb4b1c23a96b866e96f5f684a73bba0890b"
+    },
+    {
+      "id": "entry-read-academic-child-50a15df24ff3cb3e",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "dafd7cf505e457c490db20a042b47a191d821012a1668e41875a6adc76a1f954"
+    },
+    {
+      "id": "entry-read-academic-child-20b0b3e1b9b89774",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "5b80e476b70d724fa99c96d1cf838a69d49cfcccad7665eb0be1d81bd53aa19f"
+    },
+    {
+      "id": "entry-read-academic-child-c4a509a1682d923d",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d15a183039cab1b132eaafcd316cf7ea15469aa37e682eec027e8de30aa7e2c7"
+    },
+    {
+      "id": "entry-read-academic-child-a79bca9005bb363f",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "e1c934a85201f329a909ed41b69f0d7780b3e644878ae0c41994c76fe750cca0"
+    },
+    {
+      "id": "entry-read-academic-child-01d8e556827303da",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
+      "title": "学系/学域入口 · https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "9165b1b660afbce5271092946e372ddee6ea35babd8584f92124247591fbeb91"
     }
   ],
   "funding": [
@@ -13487,42 +25468,141 @@ window.APP_CATALOG = {
             {
               "name": "Department of Civil Engineering",
               "url": "https://www.civil.hku.hk/index.html",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-6ddce94f63a1399d"
+              ],
+              "bodySha256": "b1e13ea38c2d372669b021ae60de14427245c8d1afc98a0e23ec9b6dd7371da8",
+              "retrievedUrl": "https://www.civil.hku.hk/index.html",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.civil.hku.hk/index.html",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.civil.hku.hk/h2_acstaff.html",
+                  "retrievedUrl": "https://www.civil.hku.hk/h2_acstaff.html",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-798c4cd1b51e4cb7"
+                  ],
+                  "bodySha256": "256d7f48691d3a04098a424e727ce3caab22d59d7f44233c88764021632c8c7d",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Computing & Data Science",
               "url": "https://www.cds.hku.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ba62ca945ed385ea"
+              ],
+              "bodySha256": "5abe8cc0367a4c22d7535e32cee48cd9158f21d79177dcfca220ae11f8577bfe",
+              "retrievedUrl": "https://www.cds.hku.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.cds.hku.hk/about/academic-staff/",
+                  "retrievedUrl": "https://www.cds.hku.hk/about/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1dc3c34b3438bf6b"
+                  ],
+                  "bodySha256": "84bef257c281cee6bfa9c054c13cb391ebc214b9956c4f7fdd2ed7fa9e06283c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.cds.hku.hk/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Data and Systems Engineering",
               "url": "https://www.dase.hku.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-87382e50a1cf4798"
+              ],
+              "bodySha256": "3112b3863bc3e85fc1a1500f99632203bf6089363fd9f340c5293870d78efecc",
+              "retrievedUrl": "https://www.dase.hku.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.dase.hku.hk/people/academic-staff",
+                  "retrievedUrl": "https://www.dase.hku.hk/people/academic-staff",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-556cd65649c18cbf"
+                  ],
+                  "bodySha256": "afbbf52083b71bb0bc16f38a072a51419dcb14abe80673c7ef3cab2ff8f6580f",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Electrical and Computer Engineering",
               "url": "https://ece.hku.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "https://ece.hku.hk/",
+              "staffRoutes": [],
+              "failure": "HTTP Error 403: Forbidden"
             },
             {
               "name": "School of Innovation",
               "url": "https://i-school.hku.hk/program",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-84c227c24b2a45a6"
+              ],
+              "bodySha256": "52e861756530e96b25e83880ef08ae09b52cbf21be45955fb005b1e181ff49e0",
+              "retrievedUrl": "https://i-school.hku.hk/programmes/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://i-school.hku.hk/people/",
+                  "retrievedUrl": "https://i-school.hku.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-f825a73dd0c752eb"
+                  ],
+                  "bodySha256": "5b7cbcbfa5f383fa086cea644bb88078c959aeab2f8ac1da218e5110233aed51",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Materials and Energy",
@@ -13535,10 +25615,44 @@ window.APP_CATALOG = {
             {
               "name": "Department of Mechanical Engineering",
               "url": "https://mech.hku.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-bf70eb4e24e3d2f7"
+              ],
+              "bodySha256": "be48f8b45628851f656eb1ee5c87db877453ab6ff45f4dc8444a91b387381316",
+              "retrievedUrl": "https://mech.hku.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://mech.hku.hk/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://mech.hku.hk/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Teaching Staff",
+                  "url": "https://mech.hku.hk/teaching_staff_directory/",
+                  "retrievedUrl": "https://mech.hku.hk/teaching_staff_directory/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-3d07c205131ceb37"
+                  ],
+                  "bodySha256": "cdf6fb8e0db367447948315536c58f68c8ace6dfc775cf29200bd2f2188709c7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": [
@@ -13708,10 +25822,42 @@ window.APP_CATALOG = {
             {
               "name": "School of Computing & Data Science",
               "url": "https://www.scifac.hku.hk/prospective/tpg/about",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ae0a559211f2a427"
+              ],
+              "bodySha256": "71380d763a33ed4444ea9c17d671b60c3ffc41f20905e37c104f1e1682c106b0",
+              "retrievedUrl": "https://www.scifac.hku.hk/prospective/tpg/about",
+              "staffRoutes": [
+                {
+                  "label": "Faculty Members",
+                  "url": "https://www.scifac.hku.hk/about/faculty-members",
+                  "retrievedUrl": "https://www.scifac.hku.hk/people/management-team",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-4723e7596f5380c4"
+                  ],
+                  "bodySha256": "109bf73367e200fd9ab79231f3a99ebc8d39d0341a33ac2870dea84330d6d7bc",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Teaching Staff",
+                  "url": "https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+                  "retrievedUrl": "https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1526259abd42457d"
+                  ],
+                  "bodySha256": "abb3a1e40201e2a0a60e440e0f33f0d0ab1ef0cd2da5e2d54db88441cba61bc7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Biomedical Engineering",
@@ -13724,10 +25870,42 @@ window.APP_CATALOG = {
             {
               "name": "School of Innovation",
               "url": "https://www.scifac.hku.hk/prospective/tpg/about",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ae0a559211f2a427"
+              ],
+              "bodySha256": "71380d763a33ed4444ea9c17d671b60c3ffc41f20905e37c104f1e1682c106b0",
+              "retrievedUrl": "https://www.scifac.hku.hk/prospective/tpg/about",
+              "staffRoutes": [
+                {
+                  "label": "Faculty Members",
+                  "url": "https://www.scifac.hku.hk/about/faculty-members",
+                  "retrievedUrl": "https://www.scifac.hku.hk/people/management-team",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-4723e7596f5380c4"
+                  ],
+                  "bodySha256": "109bf73367e200fd9ab79231f3a99ebc8d39d0341a33ac2870dea84330d6d7bc",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Teaching Staff",
+                  "url": "https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+                  "retrievedUrl": "https://www.scifac.hku.hk/about/faculty-members/teaching-staff",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1526259abd42457d"
+                  ],
+                  "bodySha256": "abb3a1e40201e2a0a60e440e0f33f0d0ab1ef0cd2da5e2d54db88441cba61bc7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -13846,90 +26024,313 @@ window.APP_CATALOG = {
             {
               "name": "Department of Anthropology",
               "url": "https://www.arts.cuhk.edu.hk/~ant/en/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "https://www.arts.cuhk.edu.hk/~ant/en/",
+              "staffRoutes": [],
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
             },
             {
               "name": "Department of Chinese Language and Literature",
               "url": "http://www.chi.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-05e295a20d26d067"
+              ],
+              "bodySha256": "dfddd8a998109437430c71585f9205b9fe5c4af23aa123567971a737a7b5347e",
+              "retrievedUrl": "https://www.chi.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "教學人員",
+                  "url": "https://www.chi.cuhk.edu.hk/people/teaching-staff/",
+                  "retrievedUrl": "https://www.chi.cuhk.edu.hk/people/teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-663459d1128f8bc9"
+                  ],
+                  "bodySha256": "c4b42624837198f24b7e75dcc7dca41029bf8f71871a402ad882c2bbdafa43b6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Cultural and Religious Studies",
               "url": "http://www2.crs.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-e7feb5f3ddb6e946"
+              ],
+              "bodySha256": "c77c7af9555047fe0c3b12546e510e16903840854e045474c48f52c2b8b7bbc9",
+              "retrievedUrl": "https://www2.crs.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www2.crs.cuhk.edu.hk/faculty-staff/teaching-faculty",
+                  "retrievedUrl": "https://www2.crs.cuhk.edu.hk/faculty-staff/teaching-faculty",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-9c01ab8c922f5edc"
+                  ],
+                  "bodySha256": "176e3201f14fe44c0fd800b1f0cb08e672ee5ced206d2304102ffd894a9c526d",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of English",
               "url": "http://www.eng.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-7c131bffbce744bc"
+              ],
+              "bodySha256": "66d9dc4119899f567b264384abc9495f4dae946aca480f04283363038645e500",
+              "retrievedUrl": "https://eng.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://eng.cuhk.edu.hk/people/academic-staff/",
+                  "retrievedUrl": "https://eng.cuhk.edu.hk/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-99f53941c509872b"
+                  ],
+                  "bodySha256": "ab0d8d3be56150a686bc795bb93201ccef74d259f4b2bb39f3c3936951447313",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Fine Arts",
               "url": "https://www.arts.cuhk.edu.hk/~fadept/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "https://www.arts.cuhk.edu.hk/~fadept/",
+              "staffRoutes": [],
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
             },
             {
               "name": "Department of History",
               "url": "http://www.history.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-65f26dfa7b964850"
+              ],
+              "bodySha256": "6e99f21455ac305c28be063a733690830a6a3215702ea6a285d1fc1407345de2",
+              "retrievedUrl": "https://www.history.cuhk.edu.hk/en/",
+              "staffRoutes": [
+                {
+                  "label": "Teaching Staff",
+                  "url": "https://www.history.cuhk.edu.hk/en/people/teaching-staff/",
+                  "retrievedUrl": "https://www.history.cuhk.edu.hk/en/people/teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-d92a817cfbc89c17"
+                  ],
+                  "bodySha256": "e4f27eeef15a7dcd8f310ec9d86d683a5c4f6471054ce46e11710f85f1b946f3",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Japanese Studies",
               "url": "https://www.jas.cuhk.edu.hk/en/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-b072aa0c615ef302"
+              ],
+              "bodySha256": "1e096172b8c5a85d247ecef0366195292beb40cd79c6e9a82d6c3a8c3ba5bc11",
+              "retrievedUrl": "https://www.jas.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.jas.cuhk.edu.hk/",
+                  "retrievedUrl": "https://www.jas.cuhk.edu.hk/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-3a1beb3a3282402c"
+                  ],
+                  "bodySha256": "9ec81eb9e63bad68ac572a50d4e0c2eea73e78e61b20bc723f84613dec5b7ec7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Teaching Staff",
+                  "url": "https://www.jas.cuhk.edu.hk/people/#people-teachs",
+                  "retrievedUrl": "https://www.jas.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1ded9a641f9e2fcc"
+                  ],
+                  "bodySha256": "6daa0a9c20072b8607abcd80bc80e8ee5de0bafaa0538eaf1fb67936949c8374",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Linguistics and Modern Languages",
               "url": "https://ling.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-06d1e4d3666d96d9"
+              ],
+              "bodySha256": "46818eeae311d0b232df8462117bb9fa940947525fe46f00255ca07e87aaa26e",
+              "retrievedUrl": "https://ling.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+                  "retrievedUrl": "https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-d909cc8f31f492fb"
+                  ],
+                  "bodySha256": "654a02bfac7dd17513e2956f0cd7d833dbc9fa969387eb055a0ecf487f3dd138",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "PEOPLE",
+                  "url": "https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+                  "retrievedUrl": "https://ling.cuhk.edu.hk/people/faculty-linguistics/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-d909cc8f31f492fb"
+                  ],
+                  "bodySha256": "654a02bfac7dd17513e2956f0cd7d833dbc9fa969387eb055a0ecf487f3dd138",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Music",
               "url": "https://www.arts.cuhk.edu.hk/~music/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "https://www.arts.cuhk.edu.hk/~music/",
+              "staffRoutes": [],
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
             },
             {
               "name": "Department of Philosophy",
               "url": "http://www.phil.arts.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-1c4c95596c5332e8"
+              ],
+              "bodySha256": "ccd9d16c6f94ab91542cb3b0c6d936b5583b8644c9350b22139de502685f466f",
+              "retrievedUrl": "https://phil.arts.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://phil.arts.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://phil.arts.cuhk.edu.hk/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-f111cd183047f44a"
+                  ],
+                  "bodySha256": "179539715a3722cd8374d16487d406615f4a37b0a75cf31d2266bacdc56208c1",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://phil.arts.cuhk.edu.hk/professors/",
+                  "retrievedUrl": "https://phil.arts.cuhk.edu.hk/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-6cdc9d0bd558f002"
+                  ],
+                  "bodySha256": "1743fa18e2b032a1457c9e6441d5e55ea54d33ac4f00a1abb4f143ea83483f33",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Translation",
               "url": "http://traserver.tra.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-d23e65f4fa33e23d"
+              ],
+              "bodySha256": "48cc6cbc165f0950c5148c9663c8f9e53c0b0010fa996b8d7304a73d5c9da9c3",
+              "retrievedUrl": "https://traserver.tra.cuhk.edu.hk/en/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://traserver.tra.cuhk.edu.hk/en/people.php",
+                  "retrievedUrl": "https://traserver.tra.cuhk.edu.hk/en/people.php",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-a31168079466c463"
+                  ],
+                  "bodySha256": "d89cc478bebe18035e0a9ec16a3f254a47e199460fc54343a61424a2ba4efb53",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "People",
+                  "url": "https://traserver.tra.cuhk.edu.hk/en/ctt.php?id=10",
+                  "retrievedUrl": "https://traserver.tra.cuhk.edu.hk/en/ctt.php?id=10",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-15b53c53a8ee78b9"
+                  ],
+                  "bodySha256": "b41c766aecb73c2e8feeb87d0f3deafb2f57ee7fee5fd94a03ccb321aed64377",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -13950,42 +26351,212 @@ window.APP_CATALOG = {
             {
               "name": "Department of Decisions, Operations and Technology",
               "url": "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-239cc79a55f46f49"
+              ],
+              "bodySha256": "1310f0cee351cfb02405e02437d9c3a487583b9cb714f70594d67f658b3be597",
+              "retrievedUrl": "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://www.bschool.cuhk.edu.hk/staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-cade92620f60bf39"
+                  ],
+                  "bodySha256": "2978852a178a9a45dacfa46f5a0a9b446677fb42276ff10eb5b241ec3653184b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/#staff",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Finance",
               "url": "https://www.bschool.cuhk.edu.hk/departments/finance/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ee1e52ab89457db5"
+              ],
+              "bodySha256": "e963d9ca7b5a5df963f8f1af31cd62bca986ae5a0b855c9b613e19358e546d77",
+              "retrievedUrl": "https://www.bschool.cuhk.edu.hk/departments/finance/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://www.bschool.cuhk.edu.hk/staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-cade92620f60bf39"
+                  ],
+                  "bodySha256": "2978852a178a9a45dacfa46f5a0a9b446677fb42276ff10eb5b241ec3653184b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/finance/#staff",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/finance/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Hotel and Tourism Management",
               "url": "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-5599237c0de9d57f"
+              ],
+              "bodySha256": "761d493caf826ee21195dcee0833b14a3d9ff8da55c4417db6fd8fc277330eae",
+              "retrievedUrl": "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://www.bschool.cuhk.edu.hk/staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-cade92620f60bf39"
+                  ],
+                  "bodySha256": "2978852a178a9a45dacfa46f5a0a9b446677fb42276ff10eb5b241ec3653184b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/#staff",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Management",
               "url": "https://www.bschool.cuhk.edu.hk/departments/management/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-4b679b25fe13e270"
+              ],
+              "bodySha256": "2bbda60d3bd7a78a85bd699f99779fea4da6d7337db6d4aba1e8d4ab0534307d",
+              "retrievedUrl": "https://www.bschool.cuhk.edu.hk/departments/management/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://www.bschool.cuhk.edu.hk/staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-cade92620f60bf39"
+                  ],
+                  "bodySha256": "2978852a178a9a45dacfa46f5a0a9b446677fb42276ff10eb5b241ec3653184b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/management/#staff",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/management/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Marketing",
               "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-596965a58e4f84f9"
+              ],
+              "bodySha256": "be49676c25a72312a75b603f6f637ddc642c936d5f01fee89356ddcef546710e",
+              "retrievedUrl": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://www.bschool.cuhk.edu.hk/staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-cade92620f60bf39"
+                  ],
+                  "bodySha256": "2978852a178a9a45dacfa46f5a0a9b446677fb42276ff10eb5b241ec3653184b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/#staff",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14006,34 +26577,98 @@ window.APP_CATALOG = {
             {
               "name": "Department of Curriculum and Instruction",
               "url": "http://www.fed.cuhk.edu.hk/cri/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-8c1380912ee65c8d"
+              ],
+              "bodySha256": "765dabcf262f4d7929dd8e428d0b6c92be4fc05722448de3babe774dae6e7fe2",
+              "retrievedUrl": "https://www.fed.cuhk.edu.hk/cri/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.fed.cuhk.edu.hk/cri/faculty/",
+                  "retrievedUrl": "https://www.fed.cuhk.edu.hk/cri/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-250a0703dcad09ee"
+                  ],
+                  "bodySha256": "9302daeebadb9923390bd3b9aa8573bd7de33e0654002dea34c2a58112f2d35a",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Educational Administration and Policy",
               "url": "http://www.fed.cuhk.edu.hk/eap/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-e2177253210c752e"
+              ],
+              "bodySha256": "8166a438a2b2d532eb9573c34b3168749f7f0a564a66a5feaf0846de75dcb70f",
+              "retrievedUrl": "https://www.fed.cuhk.edu.hk/eap/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.fed.cuhk.edu.hk/eap/",
+                  "retrievedUrl": "https://www.fed.cuhk.edu.hk/eap/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-158ec29ccb9dbbc7"
+                  ],
+                  "bodySha256": "5f63eba008c794681952c1be287d898c787433a118edc1923759afdb3b3adb5f",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.fed.cuhk.edu.hk/eap/academic-staffs/",
+                  "retrievedUrl": "https://www.fed.cuhk.edu.hk/eap/academic-staffs/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-c1dc51b0d8625b5f"
+                  ],
+                  "bodySha256": "0031438a71c1363b962e1701a58cc8d8352908652ca32de1d735739e1a8da0bd",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Educational Psychology",
               "url": "http://www.fed.cuhk.edu.hk/eps/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "http://www.fed.cuhk.edu.hk/eps/",
+              "staffRoutes": [],
+              "failure": "HTTP Error 404: Not Found"
             },
             {
               "name": "Department of Sports Science and Physical Education",
               "url": "http://www.cuhk.edu.hk/spe/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-56c530213fb39244"
+              ],
+              "bodySha256": "2f6f9fbc0583e6235b13ffce35a6858904a7ca892a2eef7e3157a1223725daf6",
+              "retrievedUrl": "https://www.cuhk.edu.hk/spe/",
+              "staffRoutes": [],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14054,50 +26689,157 @@ window.APP_CATALOG = {
             {
               "name": "Department of Biomedical Engineering",
               "url": "http://www.bme.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-500f1aec4ddee61b"
+              ],
+              "bodySha256": "a5ce7226d260e8c3546b3fa0e14c8cff75842624b7504ce3503aa7cb1c6221f2",
+              "retrievedUrl": "https://www.bme.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Computer Science and Engineering",
               "url": "http://www.cse.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": "9730bfcfa5353d99b8237b52bc3daf0862a54ac7460595f14e02d4039097ee30",
+              "retrievedUrl": "http://www.cse.cuhk.edu.hk/index.html/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Electronic Engineering",
               "url": "http://www.ee.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": "be5d8d0e1f2a34728b4415bd9898b23510719478ce642db017dd108076a068e7",
+              "retrievedUrl": "http://www.ee.cuhk.edu.hk/en-gb/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "http://www.ee.cuhk.edu.hk/en-gb/people",
+                  "retrievedUrl": "http://www.ee.cuhk.edu.hk/en-gb/people",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [],
+                  "bodySha256": "62e906affa04fa3397397107c2b109d643d21ef4cb599adf5e9358dbb8496fe2",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "http://www.ee.cuhk.edu.hk/en-gb/people/academic-staff",
+                  "retrievedUrl": "http://www.ee.cuhk.edu.hk/en-gb/people/academic-staff",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [],
+                  "bodySha256": "4f09efadff8b32f24ab4e7315eed4203cd9f27fdb49d07279ea4d4365b7b5312",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Information Engineering",
               "url": "http://www.ie.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-7462e1e5e134571c"
+              ],
+              "bodySha256": "fd2dabbb34e755135725b5db2d94bf98fd9c0e49b0c63b639442e89af99d147b",
+              "retrievedUrl": "https://www.ie.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.ie.cuhk.edu.hk/faculty/",
+                  "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-64a3f0786d910acd"
+                  ],
+                  "bodySha256": "56c13ae30bc13791be7fcb30b75cfa44178127fcbb1800da8b46f764fffb7450",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Mechanical and Automation Engineering",
               "url": "http://www.mae.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "http://www.mae.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": "<urlopen error timed out>"
             },
             {
               "name": "Department of Systems Engineering and Engineering Management",
               "url": "http://www.se.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-e309a803ea3dde70"
+              ],
+              "bodySha256": "e9bf2dea9c075f21d7df718e34d7ad17f17bf549b7af5974f77ebc791a9cea25",
+              "retrievedUrl": "https://www.se.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty",
+                  "url": "https://www.se.cuhk.edu.hk/about-us/accolades/faculty/",
+                  "retrievedUrl": "https://www.se.cuhk.edu.hk/about-us/accolades/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-706e2acf2de6cfa0"
+                  ],
+                  "bodySha256": "95e15d00d973123c14240e88d916034d2dac3ae6986ff8b456259ad5078cedc6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "People",
+                  "url": "https://www.se.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://www.se.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-21d05329c66fef30"
+                  ],
+                  "bodySha256": "25b2d81e076712cc28421b183cbc4040b68acc67abfffe612a0ac8a2d5db0819",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "retrievedUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-da700f5786ae127a"
+                  ],
+                  "bodySha256": "63c1cc267b8ec434d41fa11c5b0b9d28f6bc63045e1e50b55c76c9dd0024b68b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14133,138 +26875,378 @@ window.APP_CATALOG = {
             {
               "name": "Department of Anaesthesia and Intensive Care",
               "url": "http://www.cuhk.edu.hk/med/ans/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-0523d9e01c625f7e"
+              ],
+              "bodySha256": "66a708c3150fa75c9534b343ca7f8952b174a1d3fab3aa87bd4a24c82947622c",
+              "retrievedUrl": "https://www.cuhk.edu.hk/med/ans/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Anatomical and Cellular Pathology",
               "url": "http://www.cuhk.edu.hk/med/acp/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-d765ce83141fcc11"
+              ],
+              "bodySha256": "14fc36d96089a759186ebf3beb34b9e27339a6ee3fde14d1b95ed8b061c8ab00",
+              "retrievedUrl": "https://www.cuhk.edu.hk/med/acp/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "School of Biomedical Sciences",
               "url": "http://www.sbs.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-994d5f9cda137d88"
+              ],
+              "bodySha256": "a46bd641d0525748a5581a60c92ab330350d9b79a89b1daedcdbc885c74efaea",
+              "retrievedUrl": "https://www3.sbs.cuhk.edu.hk/en/",
+              "staffRoutes": [
+                {
+                  "label": "Our People",
+                  "url": "https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+                  "retrievedUrl": "https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-9384520b5827eade"
+                  ],
+                  "bodySha256": "ea176b3dcae17b2c2b2335b899f39c2b6833b6c532da9a72879e70c2de045ec3",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+                  "retrievedUrl": "https://www3.sbs.cuhk.edu.hk/en/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-9384520b5827eade"
+                  ],
+                  "bodySha256": "ea176b3dcae17b2c2b2335b899f39c2b6833b6c532da9a72879e70c2de045ec3",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Our People",
+                  "url": "https://www3.sbs.cuhk.edu.hk/en/",
+                  "retrievedUrl": "https://www3.sbs.cuhk.edu.hk/en/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-47816a3e3442abb0"
+                  ],
+                  "bodySha256": "a46bd641d0525748a5581a60c92ab330350d9b79a89b1daedcdbc885c74efaea",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Chemical Pathology",
               "url": "http://www.cpy.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-3d92377c579eeef0"
+              ],
+              "bodySha256": "436f9186484abfe03597d723be19a55612462e69b6749508e10e7029f09856ad",
+              "retrievedUrl": "https://www.cuhk.edu.hk/med/cpy/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "School of Chinese Medicine",
               "url": "http://www.scm.cuhk.edu.hk/en-gb/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-b8cbc008b372e32a"
+              ],
+              "bodySha256": "2cae2e5f8745ae36d3fe726ced3809f7cb8ae9490fb3f6974ac28d0887301fae",
+              "retrievedUrl": "https://www.scm.cuhk.edu.hk/en-gb/",
+              "staffRoutes": [
+                {
+                  "label": "Teaching Staff",
+                  "url": "https://www.scm.cuhk.edu.hk/en-gb/staff/teaching-staff/",
+                  "retrievedUrl": "https://www.scm.cuhk.edu.hk/en-gb/staff/teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-f187e69f57ccc4ee"
+                  ],
+                  "bodySha256": "6738b350117c30fc24fa1374b4f445a8793f5f8ba5d6515a56b23d3b5a198a60",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Clinical Oncology",
               "url": "http://www.clo.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-09c2feda0e1389cc"
+              ],
+              "bodySha256": "46221edd3400f64c9e1d30ed4d07b64ae54bf86dc02f34ef14d4b2b50532e3d7",
+              "retrievedUrl": "https://www.clo.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Imaging and Interventional Radiology",
               "url": "http://www.diir.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-84e54f1d6a1b4d25"
+              ],
+              "bodySha256": "f7421557fe10c86d1fbc4a906858d8ebdda0ef918d5e87dc718784861fd80db4",
+              "retrievedUrl": "https://www.diir.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.diir.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://www.diir.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-2fad00b60f30682b"
+                  ],
+                  "bodySha256": "396bbb155e578e5420135d6ab8b0c68f4113ca1f9eaad0845eecab0137c2d77d",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Medicine and Therapeutics",
               "url": "http://www.mect.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ae444766017fcbe8"
+              ],
+              "bodySha256": "7d3c8efd7b4a1452357642efaa42b2ba9fa161b9e5a2d77b833ba2c72dd016f9",
+              "retrievedUrl": "https://www.mect.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.mect.cuhk.edu.hk/people.html",
+                  "retrievedUrl": "https://www.mect.cuhk.edu.hk/people.html",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-a70b1e2084c91388"
+                  ],
+                  "bodySha256": "9ee542974a53aea665d9224edefc39ca9f9dad8febcf5174c0735a429f62a5b7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Microbiology",
               "url": "https://mic.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-12a6d36355f08f5a"
+              ],
+              "bodySha256": "847526e4d2ffd679d0d14484113b590487cb2dfa9b0eabf19baf15bf30ba6149",
+              "retrievedUrl": "https://mic.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://mic.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://mic.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-97259aced52c7dcb"
+                  ],
+                  "bodySha256": "299f863557bea9dde5540ce929e64bd4b5f8be00e3deec88104be21a44b083a9",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://mic.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://mic.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-97259aced52c7dcb"
+                  ],
+                  "bodySha256": "299f863557bea9dde5540ce929e64bd4b5f8be00e3deec88104be21a44b083a9",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Obstetrics and Gynaecology",
               "url": "http://www.obg.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-5fcb42353881296d"
+              ],
+              "bodySha256": "b4ba71d5b3e394d0c3b0dffcdefd98507f5fddf669fb36cd07f9a1215314fa4f",
+              "retrievedUrl": "https://www.obg.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Ophthalmology and Visual Sciences",
               "url": "http://www.ovs.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": "7e932d8a9f036a48ad49a173c1fe8fddf98923e61154182977fa40974a7b1852",
+              "retrievedUrl": "http://www.ovs.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Orthopaedics and Traumatology",
               "url": "http://www.ort.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-d6c780d66c275456"
+              ],
+              "bodySha256": "95f5b778f78a836ea4790881e6526a6e40609d48206a6b6df75dbc3e476ae9a0",
+              "retrievedUrl": "https://www.ort.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Otorhinolaryngology, Head and Neck Surgery",
               "url": "http://www.ent.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-3105e8111553ca91"
+              ],
+              "bodySha256": "8499f194dfa0b0880b90cc73c448a0e4911d1b72f3c6553074d8d722bf078598",
+              "retrievedUrl": "https://www.ent.cuhk.edu.hk/Ent/en/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Paediatrics",
               "url": "http://www.pae.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-9b836109b2d7d915"
+              ],
+              "bodySha256": "2fbf3b3188286f00bd8c45b5c0d3e1dfc4f751fe0c2075d0a0edb50ebd947194",
+              "retrievedUrl": "https://pae.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://pae.cuhk.edu.hk/academic-staff",
+                  "retrievedUrl": "https://pae.cuhk.edu.hk/academic-staff",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-2e7f12f40878e765"
+                  ],
+                  "bodySha256": "c72d29e31c1877e7039b64a2fa2cfb867088ed54d3b4dc699e12c402f27cc8a5",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Pharmacy",
               "url": "http://www.pharmacy.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": "2653dbd5bd4ba3b92ecb88428665167f953df28c04913288299d5df5924002d6",
+              "retrievedUrl": "http://www.pharmacy.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Psychiatry",
               "url": "http://www.psychiatry.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-b8b3ee006db309bf"
+              ],
+              "bodySha256": "b1a009f117224eff6fd8e64daca193ab253e6cb5312831514bdc2fed621be90e",
+              "retrievedUrl": "https://www.psychiatry.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty Members",
+                  "url": "http://www.psychiatry.cuhk.edu.hk/faculty-members/",
+                  "retrievedUrl": "https://www.psychiatry.cuhk.edu.hk/faculty-members/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-fc0de672d4ab5f8d"
+                  ],
+                  "bodySha256": "6595b5f151e93ddc72cc9cfec2439e9db96e9aa71221342603f2b732504fadd8",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Surgery",
               "url": "http://www.surgery.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": "557b5e9015b4963a130c7039e077b3ec0306d401b6ee13d631721d5d969d2917",
+              "retrievedUrl": "http://www.surgery.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14285,50 +27267,165 @@ window.APP_CATALOG = {
             {
               "name": "Department of Chemistry",
               "url": "http://www.chem.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-f20ab62a9ebf06de"
+              ],
+              "bodySha256": "1af7ac2e4b9052a5d00e55805fdd79d818f4b3721b299bdcac91277382a55f29",
+              "retrievedUrl": "https://chem.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://chem.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://chem.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-8632f930acb4aa94"
+                  ],
+                  "bodySha256": "ae96596c78ff690266d6279c08eca5567426da8e38e7825b9be6c7f73e227d4a",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://chem.cuhk.edu.hk/people/academic-staff/",
+                  "retrievedUrl": "https://chem.cuhk.edu.hk/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-4627281f10e210a1"
+                  ],
+                  "bodySha256": "96b2f71cbcb36fa9a584deb12426e58fcbdd8ef4c20f9a33b201ba2b6fdba994",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic staff",
+                  "url": "https://wp.chem.cuhk.edu.hk/people/academic-staff/",
+                  "retrievedUrl": "https://chem.cuhk.edu.hk/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-49cadb8f47069248"
+                  ],
+                  "bodySha256": "8309d0a02915159cc030d2f7137596864135fb2e809835f52d74ee13b858646b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Earth and Environmental Sciences",
               "url": "https://www.ees.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-2c287f5e5d8c7cee"
+              ],
+              "bodySha256": "f7ecb8ca09d1208480dd6b44d49bbad5b1275a9df7c2e8c2174c86e5cf3d5b20",
+              "retrievedUrl": "https://www.ees.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.ees.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://www.ees.cuhk.edu.hk/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-803a848288d5654e"
+                  ],
+                  "bodySha256": "8810fca8ad4dc7cb8859d66c227814b5d9533f9964091534f48d4600be894c0c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Life Sciences",
               "url": "http://www.cuhk.edu.hk/lifesciences",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-d5a38d1bbbb9dd1d"
+              ],
+              "bodySha256": "6217c315b6d43b2422345de75ce6076c00422b9758486ce725bea25ddaebf532",
+              "retrievedUrl": "https://www.cuhk.edu.hk/lifesciences/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Mathematics",
               "url": "http://www.math.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "http://www.math.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
             },
             {
               "name": "Department of Physics",
               "url": "http://www.phy.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-5e6112b3ab8b52ca"
+              ],
+              "bodySha256": "2aa09547f8ac3204b1de5e8d1738e01d4d1274f85821f12729d03f5e4cd98836",
+              "retrievedUrl": "https://www.phy.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Statistics and Data Science",
               "url": "http://www.sta.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-28d7c733cd99c529"
+              ],
+              "bodySha256": "02a6379ee5063ded9fc3d3530512799ba8ac1a6faaee241456e5dc291fc1aa3b",
+              "retrievedUrl": "https://www.sta.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.sta.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://www.sta.cuhk.edu.hk/people/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-9120d0a1413490a0"
+                  ],
+                  "bodySha256": "79b07d9d4fc6398b9f953a50dea4d668b8979385b0f61b99e1e5df42ba22e91c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://www.sta.cuhk.edu.hk/people/faculty",
+                  "retrievedUrl": "https://www.sta.cuhk.edu.hk/people/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-fd952f32bfc0c95f"
+                  ],
+                  "bodySha256": "79b07d9d4fc6398b9f953a50dea4d668b8979385b0f61b99e1e5df42ba22e91c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14349,66 +27446,204 @@ window.APP_CATALOG = {
             {
               "name": "School of Architecture",
               "url": "http://www.arch.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-9529b77313e30e9e"
+              ],
+              "bodySha256": "dab91410628f4e83ef1e67f9bf9cf1210738bebdd201799d63c890eaeb36f192",
+              "retrievedUrl": "https://www.arch.cuhk.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.arch.cuhk.edu.hk/school/people/",
+                  "retrievedUrl": "https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-b13bbf1429069b5a"
+                  ],
+                  "bodySha256": "1f8c79adafe65edde4844f4a7539bd522caf3c4ac1e00958a9f98e2495f95931",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty Members",
+                  "url": "https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+                  "retrievedUrl": "https://www.arch.cuhk.edu.hk/school/people/faculty-members/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-111faf9fc04b0b4e"
+                  ],
+                  "bodySha256": "1f8c79adafe65edde4844f4a7539bd522caf3c4ac1e00958a9f98e2495f95931",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Economics",
               "url": "http://www.econ.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-2271309fa3ea1d0b"
+              ],
+              "bodySha256": "40a62f93aef6d983d2fe0953c422854225c275be5dfcc97b208ad4f1023892a6",
+              "retrievedUrl": "https://www.econ.cuhk.edu.hk/en/home/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.econ.cuhk.edu.hk/en/about/people/",
+                  "retrievedUrl": "https://www.econ.cuhk.edu.hk/en/about/people/faculty/regular-faculty-members/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-257cb05f73c6355b"
+                  ],
+                  "bodySha256": "a0e2e70bb249ada03f68e8649d5f2957c0b9b54617707a662553dfb45cfe1a81",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Geography and Resource Management",
               "url": "http://www.grm.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-10f31b2987641e24"
+              ],
+              "bodySha256": "4116e621580b48025df8d48814403e22aa1c3201bc9a0bff7633104942ad3f32",
+              "retrievedUrl": "https://www.grm.cuhk.edu.hk/en/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.grm.cuhk.edu.hk/en/",
+                  "retrievedUrl": "https://www.grm.cuhk.edu.hk/en/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-03ab3df19b55bec5"
+                  ],
+                  "bodySha256": "7dad3f3a4655237b70ea29ac79df0c29baff87a55c3e48ec8244c3362ee56db2",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty Members",
+                  "url": "https://www.grm.cuhk.edu.hk/en/about/people/faculty/",
+                  "retrievedUrl": "https://www.grm.cuhk.edu.hk/en/about/people/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-befd0cee057192eb"
+                  ],
+                  "bodySha256": "f4863ae1ddc9728254ce5c5c8ae10f99339885cd137354262f70d3a48d01d774",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Governance and Policy Science",
               "url": "https://sgps.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "https://sgps.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
             },
             {
               "name": "School of Journalism and Communication",
               "url": "http://www.com.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "http://www.com.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": "HTTP Error 403: Forbidden"
             },
             {
               "name": "Department of Psychology",
               "url": "http://www.psy.cuhk.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "http://www.psy.cuhk.edu.hk/",
+              "staffRoutes": [],
+              "failure": "<urlopen error no host given>"
             },
             {
               "name": "Department of Social Work",
               "url": "http://www.cuhk.edu.hk/swk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-4999b688e993ca8f"
+              ],
+              "bodySha256": "8a0d7fed19cee52f2914231d3c10de3c60ef096f9a996a5c72e377c716d1a1e9",
+              "retrievedUrl": "https://www.cuhk.edu.hk/swk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Sociology",
               "url": "https://www.soc.cuhk.edu.hk",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-785b2340fb06c823"
+              ],
+              "bodySha256": "cd8cb9daeba043789d9b3bdec3f3fd256b13d7fd7687877b33b954c3859706d5",
+              "retrievedUrl": "https://www.soc.cuhk.edu.hk",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.soc.cuhk.edu.hk/people/",
+                  "retrievedUrl": "https://www.soc.cuhk.edu.hk/people/our-people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-9066be04503c7176"
+                  ],
+                  "bodySha256": "6508741169d47b16965ba64a9a6c513c7d0756141f53bd88ca6762f180247f01",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "People",
+                  "url": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/people/",
+                  "retrievedUrl": "https://www.soc.cuhk.edu.hk/postgraduate/ma-programme/introduction/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-bc0ea38462751abb"
+                  ],
+                  "bodySha256": "2285aab72771fba1c7fbf256e22fb1bf8b705cd429495e3560f0bbf903eb2b25",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14510,50 +27745,248 @@ window.APP_CATALOG = {
             {
               "name": "Department of Chemical and Biological Engineering",
               "url": "https://cbe.ust.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-e35f5eb327455829"
+              ],
+              "bodySha256": "b746c858dbae00c5c6f802f14313e89312d9ef4b45f9c23c674f248f7e472cf2",
+              "retrievedUrl": "https://cbe.hkust.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://cbe.hkust.edu.hk/",
+                  "retrievedUrl": "https://cbe.hkust.edu.hk/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-70433b453233d2b9"
+                  ],
+                  "bodySha256": "b746c858dbae00c5c6f802f14313e89312d9ef4b45f9c23c674f248f7e472cf2",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://cbe.hkust.edu.hk/faculty",
+                  "retrievedUrl": "https://cbe.hkust.edu.hk/faculty",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-acc7d62c3bd3a357"
+                  ],
+                  "bodySha256": "033cca6754d0eb22eb60a51aab6cfc0b8975d974c6b8acf1a549252831d717f7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://cbe.hkust.edu.hk/people",
+                  "retrievedUrl": "https://cbe.hkust.edu.hk/faculty",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-357a856a65d0cb42"
+                  ],
+                  "bodySha256": "033cca6754d0eb22eb60a51aab6cfc0b8975d974c6b8acf1a549252831d717f7",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Civil and Environmental Engineering",
               "url": "https://www.ce.ust.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-8d57f35312417832"
+              ],
+              "bodySha256": "4e037a58eb727bb2e13e88a7f27607e58669a7add9d407e4ef670f558641100f",
+              "retrievedUrl": "https://ce.hkust.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "PEOPLE",
+                  "url": "https://ce.hkust.edu.hk/people_list",
+                  "retrievedUrl": "https://ce.hkust.edu.hk/people_list",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-30b2bd748da26359"
+                  ],
+                  "bodySha256": "a1618e890c741ae8ef5efdaf1627b91e8900ee4c529eb50f10d0cec8440d30c4",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://ce.hkust.edu.hk/people_list",
+                  "retrievedUrl": "https://ce.hkust.edu.hk/people_list",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-30b2bd748da26359"
+                  ],
+                  "bodySha256": "a1618e890c741ae8ef5efdaf1627b91e8900ee4c529eb50f10d0cec8440d30c4",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Computer Science and Engineering",
               "url": "https://www.cse.ust.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-d1467258a0033ccb"
+              ],
+              "bodySha256": "99e66edd87dcedd660b19be459ca4a3ce5adebbba97d819971687ba3f6fe0f53",
+              "retrievedUrl": "https://cse.hkust.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "Faculty & Staff",
+                  "url": "https://cse.hkust.edu.hk/Restricted/",
+                  "retrievedUrl": "https://cse.hkust.edu.hk/Restricted/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-02bc5a4fd3d22aab"
+                  ],
+                  "bodySha256": "b95e02c6e76ed16f1d2980fd4686876a7dc4f220c7175adbee7c0f8a57687169",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "People",
+                  "url": "https://cse.hkust.edu.hk/",
+                  "retrievedUrl": "https://cse.hkust.edu.hk/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-e25c452c052679c7"
+                  ],
+                  "bodySha256": "d4d154d0b43b20e57913691513146f85fb4950773e51a03db867df28d425238d",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://cse.hkust.edu.hk/admin/people/faculty/",
+                  "retrievedUrl": "https://cse.hkust.edu.hk/admin/people/faculty/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-bdc767db7b11d2bd"
+                  ],
+                  "bodySha256": "374db0447c5ddad377b9ce4eeb43575c5a9cd4bf8f3835af80e690bf22bd8e68",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Electronic and Computer Engineering",
               "url": "https://ece.hkust.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-aed20ce166ab4728"
+              ],
+              "bodySha256": "71feba078153c6a1ae91f03f8469fa2c7d12d5bc19d39ab1e4487892631c18e3",
+              "retrievedUrl": "https://ece.hkust.edu.hk/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://ece.hkust.edu.hk/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://ece.hkust.edu.hk/people_list",
+                  "retrievedUrl": "https://ece.hkust.edu.hk/people_list",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-3acb09f7b1b0bbd0"
+                  ],
+                  "bodySha256": "2be69e0c6565a4f706a293274650fbdf7e3c56afb576f5673fdd9d59075536be",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Industrial Engineering and Decision Analytics",
               "url": "https://www.ieda.ust.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-cc20ed3ab4362815"
+              ],
+              "bodySha256": "ffe0084d22c10b35ad6409562a891a7ec8e47aecf045acfaab42113af51237dc",
+              "retrievedUrl": "https://www.ieda.ust.hk/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of Mechanical and Aerospace Engineering",
               "url": "https://mae.hkust.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-060413a7dc3533df"
+              ],
+              "bodySha256": "d5c5c3329b2aaf76abd03fd703daf2ddfa42f59e7af935f328f59e2492732fe6",
+              "retrievedUrl": "https://mae.hkust.edu.hk/en/home",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://mae.hkust.edu.hk/en/people/faculty",
+                  "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-fc9f07ee39005b3e"
+                  ],
+                  "bodySha256": "6543f7dfc6d676c1fb2c0ea279fe98f9bcedd92c789e488d309e582dd3705fcf",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://mae.hkust.edu.hk/en/home",
+                  "retrievedUrl": "https://mae.hkust.edu.hk/en/home",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-3f38c153192a3364"
+                  ],
+                  "bodySha256": "d5c5c3329b2aaf76abd03fd703daf2ddfa42f59e7af935f328f59e2492732fe6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Faculty",
+                  "url": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+                  "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-e11e59611dd75605"
+                  ],
+                  "bodySha256": "6543f7dfc6d676c1fb2c0ea279fe98f9bcedd92c789e488d309e582dd3705fcf",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Materials",
@@ -14630,18 +28063,72 @@ window.APP_CATALOG = {
             {
               "name": "Division of Humanities",
               "url": "https://shss.hkust.edu.hk/divisions/index",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-f408a9376965fcd1"
+              ],
+              "bodySha256": "233073757afc564697304cc1cb628b10c36a9480000f6e7e1fce45f7b02bca82",
+              "retrievedUrl": "https://shss.hkust.edu.hk/divisions/index",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://shss.hkust.edu.hk/divisions/index",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "People",
+                  "url": "https://shss.hkust.edu.hk/music_arts/people",
+                  "retrievedUrl": "https://shss.hkust.edu.hk/music_arts/people",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-354a98986e1cc672"
+                  ],
+                  "bodySha256": "21f6e607ba1140df987c10abae209d3c99b42bc083183c6f8e5404a946e51cc5",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Division of Social Science",
               "url": "https://shss.hkust.edu.hk/divisions/social_science",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-c01a9386e005e65c"
+              ],
+              "bodySha256": "66b13bafedf3413de669609eb61f83738a3edcc87d168456fe344a7573a795b0",
+              "retrievedUrl": "https://shss.hkust.edu.hk/divisions/social_science",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://shss.hkust.edu.hk/divisions/social_science",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [],
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "People",
+                  "url": "https://shss.hkust.edu.hk/music_arts/people",
+                  "retrievedUrl": "https://shss.hkust.edu.hk/music_arts/people",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-354a98986e1cc672"
+                  ],
+                  "bodySha256": "21f6e607ba1140df987c10abae209d3c99b42bc083183c6f8e5404a946e51cc5",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -14701,841 +28188,1156 @@ window.APP_CATALOG = {
                   "directoryLabel": "QU Huamin Chair Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/huamin-qu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "9e120ca3dae63d5bed2552e2947eefd9846b833ffcde70ce5f9bc8b2b54c97be",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-dea5c4e675ccdc"
                 },
                 {
                   "directoryLabel": "Arthur LAU Professor of Interdisciplinary Education",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/pui-sang-lau/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4c2c63b5066723b0e78ad13729d35546a5b4bd74461c55e49497fb18b6870ebc",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-386299345c41c8"
                 },
                 {
                   "directoryLabel": "NING Zhi Associate Dean (Research and Graduate Studies)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/zhi-ning/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "cbb25181f8f96366877363063bd94e54933f9e3736b96f99a74dffcab24eeb8f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-48b966d4f23b30"
                 },
                 {
                   "directoryLabel": "Alexis K H LAU Head; Tang Junyuan Professor of Environmental Science",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/alexis-kai-hon-lau/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3743d33cecf512a9c7e35cdf3e31c10d63e4213bd68f2792b067e51c3ef1a81a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-4e1c2f85d5f922"
                 },
                 {
                   "directoryLabel": "CHEN Fei Associate Head; Chair Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/fei-chen/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "95bd5d0e2e7c56506d5d4f5717a1a44e479b0f4dda7f79fe0352a6a4748d517a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-8ad06467096ef5"
                 },
                 {
                   "directoryLabel": "WANG Zhe Associate Professor; UG Coordinator",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/zhe-wang-2/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7e04fd4bfceed8725caed4e0cd3ba8baaeb17837b80b5562344f4e2079b09138",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-ef14de1e698bde"
                 },
                 {
                   "directoryLabel": "IM Eun Soon Associate Professor (Joint Appointment); RPg Coordinator",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/eun-soon-im/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "eb8fe82e0059e0771d2f192dd1d6e594cfa86fc2144cfa9ac7f556114602290b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-4b9db911fa7031"
                 },
                 {
                   "directoryLabel": "CHEN Guanghao Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/guanghao-chen/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "03fc197d3e68f343c18db6ba9c74dd52e7e6af13c238fa1f43fe30643f2a6457",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-a580916ecb8ec2"
                 },
                 {
                   "directoryLabel": "Jimmy FUNG Chair Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jimmy-chi-hung-fung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f409250f77e4e7d733e2e2bc6ad62904f284fc0c45f72d028d8073ed0c853b93",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-1a4d5126dd3fea"
                 },
                 {
                   "directoryLabel": "GAN Jianping Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jianping-gan/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3e751d5881fee8d9e90a5810bef9b85e7b33b6d4d70f2b6047186c74af9b54eb",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-8e8e02159255ad"
                 },
                 {
                   "directoryLabel": "SU Hui Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/hui-su/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d764da435cf09e11b8a42a2698c2c0ee5fa60c142a4d9c3f927f952a20bdf02e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-974099ba22b899"
                 },
                 {
                   "directoryLabel": "YEUNG King Lun Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/king-lun-yeung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "449c264f31f847f857d7a70811dbb5e2c46569d2600f4a40d51bb2fc273af9ab",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-6c1c8e4437ee5f"
                 },
                 {
                   "directoryLabel": "YU Jianzhen Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jianzhen-yu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "388816a96e46ce8dcb6af635f278667d943087956023be455050de99f3dfa2bf",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-824888edfb74dc"
                 },
                 {
                   "directoryLabel": "Simon CHAN Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wan-chan/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ce4003ceebd9fc2a3766211a1b33d2b8de6386f648ee407b880bb53efde835af",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-e07f46c91c3364"
                 },
                 {
                   "directoryLabel": "Kira MATUS Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/kira-matus/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e37672fb38c0a0e8948823464d9a58394103f44ff0e19938e6687a453a468f91",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-edf807d52fe9a4"
                 },
                 {
                   "directoryLabel": "WANG Dan Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/dan-wang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "466870ec61faa32395c4c9bf7c9e0b90490ec30361fe2760bb1a876a5aa48202",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-62aa396fe8bff1"
                 },
                 {
                   "directoryLabel": "YING Qi Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/qi-ying/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6134d0a4ca26645ebd5fd8e4e91ec2be2c824b724e7b1930220f0b86d2a1c964",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-631bafd264ae90"
                 },
                 {
                   "directoryLabel": "Darwin CHOI Associate Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/darwin-choi/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b505efc79cefa8d98c4ee1161e1ba8ef9c6ff0d6f51d2fa5383e367e0db1bf30",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-e55d707c50c86e"
                 },
                 {
                   "directoryLabel": "Laurence L DELINA Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/laurence-delina/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e4be31d8ab5dce354723e40e84ee36a6e7e9a08e56f670be7009167eee1cee98",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-2fc5c27047de73"
                 },
                 {
                   "directoryLabel": "GU Dasa Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/dasa-gu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c528280602045dd1bbfa42c9f19c9e4990604f488f7c62d232d5afdf947cef89",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-3b15ce3cb43432"
                 },
                 {
                   "directoryLabel": "SHI Xiaoming Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/xiaoming-shi/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4bc0c99f240efdcccadace74c6accfba640234360f5841d271d8ad1115e76c18",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-c40ba19ece1d20"
                 },
                 {
                   "directoryLabel": "Masaru YARIME Associate Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/masaru-yarime/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d8a2a393a89f11c7d17f4a74ff164bdb75372863119b943e95e781c9daa7d891",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-08e1a4ca4e232f"
                 },
                 {
                   "directoryLabel": "Keith CHAN Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/keith-chan/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "85d5a2d3100e1a22a26b9e1237b50202ba5794ea3b6ab522762c1d0fb7193d1b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-c03275b596531f"
                 },
                 {
                   "directoryLabel": "CHEN Shi Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/shi-chen/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8a3f8c5f2597b467596cd6816e8315f8acee2601259cca0dbe944a546710c2e6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-5c3d28302f4db3"
                 },
                 {
                   "directoryLabel": "Quentin MOREAU Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/quentin-bertrand-arthur-moreau/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d41b32dff8c79b15a795fc4a83b1d79a2fbcc0ee53e65e04f943b5854abd6b2b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-3819ce37bb38d4"
                 },
                 {
                   "directoryLabel": "Meike SAUERWEIN Assistant Professor of Interdisciplinary Education",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/meike-sauerwein/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "afbe89d321653231946055617edfecc403446fff6cc670c389ca09132ebb31d4",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-0ab41ce384e257"
                 },
                 {
                   "directoryLabel": "HAN Wei Research Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wei-han/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "bb9de6615430755f161616bfe9eccbf22856ef24f4308ebf926cc5ba4ef57d2c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-22d9ffc3d0a19f"
                 },
                 {
                   "directoryLabel": "Hemraj BHATTARAI Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/hemraj-bhattarai/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c3634b8e1296169d0087dc0617f90fe23abdb6099b418f07e341c93ec113d3ef",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-d7d22eb28195f9"
                 },
                 {
                   "directoryLabel": "Theodore K KOENIG Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/ted-koenig/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "98f4c9d84f336c72b9e057eab9c8beeea9a9a5308866f24bf0751719c55c8e5b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-2cb95e3b26ed1a"
                 },
                 {
                   "directoryLabel": "LIAO Kezheng Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/kezheng-coco-liao/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "bef7d6e8dc0c3082e8897df5df5a9df31c1ed35f439ebe699e987e67a1c21c0a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-e5642e6b4cfcdb"
                 },
                 {
                   "directoryLabel": "LIU Zhang Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/zhang-liu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6146f822faf83e48f6490085fcbae8f6d1bc1297662f73242f8a42b605f002e1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-bb309294d2b070"
                 },
                 {
                   "directoryLabel": "ZHENG Kaiyuan Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/kaiyuan-zheng/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b2388cce960f223eadce612574558e299af9d2fa99eb724e8bdc2ecf7ec47c4d",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-c2b07ef7aaba28"
                 },
                 {
                   "directoryLabel": "ZHENG Yan Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yan-zheng/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e44f9601fbfca2178263ac18c0b0208d8c829385780e3b27bf4a80b001dbc6c2",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-047fe916a93a76"
                 },
                 {
                   "directoryLabel": "Jay Joan MINUTI Lecturer I",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jay-joan-minuti/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "eb91f42762e109c8d6e870fc50edd6d776084d0c634b3b6f96af7d512e6c4487",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-b4eee01185bab1"
                 },
                 {
                   "directoryLabel": "Stuart GIETEL-BASTEN Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/stuart-arthur-gietel-basten/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "da4873fc5606edd6b148de29525adc68e2a6f7dcdc8aafcbde25f6a8c6e90889",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-5e226a34ef0b94"
                 },
                 {
                   "directoryLabel": "King L. CHOW Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/king-lau-chow/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "508b70dbf46d88dedc428bd00575046e0fa1d7644dc3a92c1a20a7be73e9b96b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-a9e7c044251e12"
                 },
                 {
                   "directoryLabel": "Alex HE Jingwei Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/alex-jingwei-he/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e7de7ac9f45a7f1e8f424b6424cc2c221e5701510b08fd620d9bfae9ce7e8b0a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-172636e3043ce5"
                 },
                 {
                   "directoryLabel": "XU Yan Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yan-xu-3/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1e4448476d0318944e666ccbf97f5cae7108070c784ac1afbca9de60d275c048",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-32e7cf5d4b9a8a"
                 },
                 {
                   "directoryLabel": "ZHU Pengyu Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/pengyu-zhu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b60fc636c33435988fc4963594e990d738dea09c26f9166c1fe0a2428893f53f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-686ddb5b5cac3d"
                 },
                 {
                   "directoryLabel": "Donald LOW Professor of Practice in Public Policy",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/donald-low/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "67ebf654206e7114b6c14908f92a84384d4080fb366d0a19f250149727803808",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-12acd260553e42"
                 },
                 {
                   "directoryLabel": "Raul P. LEJANO Professor Emeritus",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/raul-perez-lejano/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8e999b25002945cdff86442fb5898da11abfcb6332c07081632d11f7068564d2",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-1a71275fcb17a5"
                 },
                 {
                   "directoryLabel": "LIN Yatang Associate Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yatang-lin/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "78306ac4f025d206162fdfaaa599deab75ea463d271f95df84fa352de89691f9",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-20ed96ac1d0a39"
                 },
                 {
                   "directoryLabel": "James K WONG Associate Professor of Social Science Education (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/james-k-wong/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "776ca66b49bc43557f46a335dfae76a98f336d4f8baee91a67b2a836f32d95c6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-720eaa2841c041"
                 },
                 {
                   "directoryLabel": "Julien de TROULLIOUD de LANVERSIN Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/julien-de-troullioud-de-lanversin/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "57f47056d6f938c19b4fa6684f995292b898af3618ec45dc6135176f286242bc",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-f31687872a680a"
                 },
                 {
                   "directoryLabel": "ZHAO Xiaofan Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/xiaofan-zhao/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7b0f3e7eebdec3b82431b42c074ab4e4bffb209c4fdb5af64dbd88d62df4bd2b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-f9800b07ff787e"
                 },
                 {
                   "directoryLabel": "Nicolo LUDOVICE Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/nicolo-paolo-ludovice/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2172ad5804146438d53ffb9997ace1742f6cb04bcdbae36acc181ee27ecc36fb",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-8f17e09eeaf42d"
                 },
                 {
                   "directoryLabel": "YI Fangxin Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/fangxin-francine-yi/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "32a589ee5e8f2daf5d34861e9312943096009c446756eb8c358c90dde52acac1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-c45ea3366d7894"
                 },
                 {
                   "directoryLabel": "Marie BERNAL Lecturer I",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/marie-bernal/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "01bfe4f10a45935bcb180c0b5a424cd7b605c1ae546413231214be35d2dc97c9",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-88cac274dc1d29"
                 },
                 {
                   "directoryLabel": "Michael TYRALA Lecturer I",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/michael-tyrala/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c010d0732ba2a76c73b283c750e645d1725220fa10aaab0265d06867b1ef786c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-3d0e7cea60e5b9"
                 },
                 {
                   "directoryLabel": "Alvin LI Lecturer II",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/alvin-li/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2cc009d5943c3c30b984465f9085883c2f78e320c94ef52ec17e60ab57c2ee20",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-569712fd684f11"
                 },
                 {
                   "directoryLabel": "Celine SONG Head",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yunya-song/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f3293ea4a72dcae8fb10f39a096145dbe932e245e6ab8bbb82a9a2395ed0acd1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-0bf91834e1f59a"
                 },
                 {
                   "directoryLabel": "ZHANG Rong UG coordinator; Senior Lecturer",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/rong-zhang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "fa4489d6f581334dc5f14f775b75f90dc14d07fe35448a58b12ccb44a9971883",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "FU Hongbo Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/hongbo-fu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f40e21d2e5721d9f084e5e94b6a83670419a5442d9d3ad8b8167819693eb1e54",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-ef70dfef9397cd"
                 },
                 {
                   "directoryLabel": "Kathy LEUNG Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/kathy-sze-man-leung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "cb0f956f0d8d8cc039518ff58f27765e0f4d4cb867b2cf92e2d95ffe277e028e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-10c849c00bd2e9"
                 },
                 {
                   "directoryLabel": "LUO Wenhan Associate Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wenhan-luo/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d70490744d4ed5c6e507761ffe5629a17ac4fb14c12b0eeb03b0363a551d7662",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-17817c50844e08"
                 },
                 {
                   "directoryLabel": "SONG Yangqiu Associate Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yangqiu-song/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4335678fe49d53aa27e6f9706183608a3f37108dddaa7af2c3243df9b37120f1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-hkust-yangqiu-song"
                 },
                 {
                   "directoryLabel": "ZHAI Chengxing Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/chengxing-zhai/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8a023c10481a90762e4eb4cbc72c864d03870ef5ab977baf3453343066a0c785",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-b645dce965720a"
                 },
                 {
                   "directoryLabel": "May FUNG Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/may-fung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "afb2ad92a5a9a6898366c55a0cdcb3f09ff5d71a2e79016c987eca856df52796",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-hkust-yi-r-fung"
                 },
                 {
                   "directoryLabel": "HAN Jun Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jun-han/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ec7017e1f0b451798f8e952ffe0aa6ee6bd917054e61d456f28e776b8ff7e16e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-c75295453eb2fa"
                 },
                 {
                   "directoryLabel": "HAN Sirui Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/sirui-han/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "07a22a1a01504229b9fdf98e0c946a428649d5a4c2ea8621a3d048f2e347e614",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-17de14dbe57342"
                 },
                 {
                   "directoryLabel": "RAO Anyi Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/anyi-rao/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ac0550fd1f0fb32ec9c0e51b64b53a87856e2e7549f9293f9322da74a5e3b9cb",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-0e0a1dab883003"
                 },
                 {
                   "directoryLabel": "SU Wei Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wei-su/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "bcb94788b284ab9fe1d087e4ac54a09351f22e44d8d8063eaa9bd908364e59ff",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-b23367cbd3623b"
                 },
                 {
                   "directoryLabel": "XUE Wei Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wei-xue/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2b670fbf3c29d2a16bf3d33e26ce2d8ec83df685cd27e2ce106d8ca6e6c9aa9f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-c9869a1e2a9cfc"
                 },
                 {
                   "directoryLabel": "ZHANG Jize Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jize-zhang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "36ffdc907c7823594ddfaf8fe81c471345605db26efa46c7cd07c414e2faa101",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-33e30c7dd43559"
                 },
                 {
                   "directoryLabel": "Kei May LAU Research Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/kei-may-lau/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a75840b2d7a9ab2273f2569ac3a72fae42ce23269d7881a04fbea63a19f96e52",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-0580beb5809212"
                 },
                 {
                   "directoryLabel": "ZHU Renqiang Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/renqiang-zhu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b5c2c56c3ab3b0fd60d94d44595561524872a999ee99e82f000ad88632b0771e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-63360ba1ef7efe"
                 },
                 {
                   "directoryLabel": "Daniel CHUN Lecturer I (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/daniel-chun/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7bb3c00b36353e016a8a8dc7fa9da76e0c7bd4d303db5881feb3c91f925c801c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-521e051e6bc6b6"
                 },
                 {
                   "directoryLabel": "ZHANG Qian Head",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/qian-zhang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "726479506f377935f67e546dc576e14179d91ce3f26d26aad31c77ede5d9fc3b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-06237892bf1bf0"
                 },
                 {
                   "directoryLabel": "SONG Shenghui Associate Professor; UG Coordinator",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/shenghui-song/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e073a245682a4c1c79c292f5e9e343ca7785c2fbe27b6aa1d8279471af8dea8e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-2cb6d476237ad3"
                 },
                 {
                   "directoryLabel": "YEUNG Sai-Kit Professor; PG Coordinator",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/sai-kit-yeung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e270d65e4f1e849fb708d37fd36e52bb4705a52074933ec778b9f4bd8b9c355c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-76920cc8e5717e"
                 },
                 {
                   "directoryLabel": "Tristan Camille BRAUD Assistant Professor; PG Co-coordinator",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/tristan-camille-braud/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "aa52339b250e1da0414dbf90b5e1b75f18d3fe952809019f8177ca95e3aa3c02",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-091353d961719b"
                 },
                 {
                   "directoryLabel": "GUO Song Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/song-guo/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "00f0bfe7d42779ae972b7b867c8bf1dba2b1389ebd4fc12f8a597e7d8ca570ea",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-hkust-song-guo"
                 },
                 {
                   "directoryLabel": "ZHANG Xin Chair Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/xin-zhang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a35e2d506836c5611332badc812483ef77e23ce40bb049a06175d00a4dc345a7",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-2efbaad7412656"
                 },
                 {
                   "directoryLabel": "LI Li Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/li-li/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "64c85d1ced794b798bb7aa22e99588ce74479501c184170d1a679aa6666a3a7f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-da25b49efa0f7d"
                 },
                 {
                   "directoryLabel": "LI Zexiang Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/zexiang-li/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "23f71d23f393398d03712c4babc1c9b41550722c58a25dbad29243f12043f761",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-6db20cbf27d308"
                 },
                 {
                   "directoryLabel": "TSUI Chi Ying Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/chi-ying-tsui/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "9ec2612d70c3e7dc34540b4c2fc11f9266a36a8220a26048b04523a4a6e61917",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-19878a6e2619b0"
                 },
                 {
                   "directoryLabel": "Ben CHAN Yui-Bun Professor of Engineering Education (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yui-bun-chan/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "58bfe5d9dc0f18205203efa3a66a3ff277db0fcb89dc6ac3004f77aae48e5308",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-d2e0e0b237e1d7"
                 },
                 {
                   "directoryLabel": "Ajay JONEJA Professor Emeritus",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/ajay-joneja/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "65e16b0578516d2902b919740edaac00dcd7f28f83307e34e4feb19242f84e6a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-5d0ee48397f62b"
                 },
                 {
                   "directoryLabel": "Mitch LI Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/mitch-li/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "59b48140b751488359e97e35bd11cac04f90279b29e31d66ab82d5348cad6916",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-e272f4e5ccead7"
                 },
                 {
                   "directoryLabel": "Tracy MOK Associate Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/tracy-pik-yin-mok/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "163172869f29d70f805b4b3b841d21c516200fdcaf5b39a17acba56e67becc40",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-f05718c48a05dc"
                 },
                 {
                   "directoryLabel": "Winnie LEUNG Associate Professor of Engineering Education",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/suk-wai-winnie-leung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f91a177bea678d19ed867b1beee9855b46b874fc26efe03f042b07f6662a40ee",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-f58e4519cd768a"
                 },
                 {
                   "directoryLabel": "Richard GU Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/hongri-gu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "5fbcb699790da2dac86261501094f22bf9626811edda517979c7e29aea29b924",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-4480c76794767f"
                 },
                 {
                   "directoryLabel": "HU Wenqi Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wenqi-hu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "28fadcd8308ee142996e3832f2ebec6d53edec93e3f4191684e0f873d52ab11e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-b51279e43c553a"
                 },
                 {
                   "directoryLabel": "LIU Yuan Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yuan-liu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e09011b629dd9dbf8daa238dc650f1e8d2c486e4e3fd4debcd343c4b338863c1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-6934e0ea6840d7"
                 },
                 {
                   "directoryLabel": "Rob SCHARFF Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/rob-scharff/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "dd7a882ed5414193a1a9582291946673189d6910fe0ac0756e4b37e213e5afd1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-5da47c92915273"
                 },
                 {
                   "directoryLabel": "WANG Ziqi Assistant Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/ziqi-wang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1d7c44467e9e1d2f28c1b1a861f1a6670c762791eba3655afb5bd0c10a62b0ea",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-106308e3256ac3"
                 },
                 {
                   "directoryLabel": "XIANG Changying Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/changying-xiang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "832543cacf0bac41abbc5cef4abc545838eb54bd2c85bf88b3c070852744e63b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-6d3915ab7a48eb"
                 },
                 {
                   "directoryLabel": "XU Wenchao Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/wenchao-xu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e408503ee85d3f9064a89486f1b02ef9a52da5da27f7ab2b61708a47e173c95d",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-ecdff23af9c530"
                 },
                 {
                   "directoryLabel": "YAO Kuanming Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "36d767d3075abf2a9673411d73374162865b1d6dba6640745ffeb4e3ab937a11",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-6bc3e91fa5943e"
                 },
                 {
                   "directoryLabel": "ZHOU Peng Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/peng-zhou/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "68ec56e3eb62318953522b47cc48b704cabed2eec649d6f001d1657cc392ae23",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-908fa36ec9b80c"
                 },
                 {
                   "directoryLabel": "Brian LAU Lecturer I",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/brian-hui-wang-lau/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3546603c71c352ca3968034c76e96f930fe9ea2590cfda4fe13e1734610e1218",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-905717b23e16a1"
                 },
                 {
                   "directoryLabel": "Jac LEUNG Lecturer I",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/jac-ka-lok-leung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7d638251e5091a96f3d17ed58848aefb7390610fec1d037def934bf8377feb17",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "TAN Ping Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/ping-tan/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "193f4a5b8ae5d32b80a28161232ebffb6e14325200b55386eb9b4139e98bde34",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-885c8521641c91"
                 },
                 {
                   "directoryLabel": "CHEN Qifeng Associate Professor (Joint Appointment)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/qifeng-chen/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "dccc1c7f2bfce55d7848dac74ad96dc8df52767731141ddffcc61cd03a09e7db",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-hkust-qifeng-chen"
                 },
                 {
                   "directoryLabel": "Timothy Markham PAGE Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/timothy-markham-page/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6d34846830a11d0fa896006250b016312244511a4143354501660433f7ab8550",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-495976d923f89b"
                 },
                 {
                   "directoryLabel": "Harry YANG Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/harry-yang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f94484524c44b85e4ec9b9a0ed91559a4a0940e0656da8c2d93350568397063f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-620e24b961d936"
                 },
                 {
                   "directoryLabel": "ZHAN Fangneng Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/fangneng-zhan/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "dd3851f1ff9fa688e888806a47a51f7be5ac47748f1070a7251da28e9ec83db4",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-999995dfbce824"
                 },
                 {
                   "directoryLabel": "ZHANG Yonggang Research Assistant Professor",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yonggang-zhang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2c750470438d893a11b91f70f4df54cf57bc13df25ed924591da900aaff91a0c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-25b23a12829584"
                 },
                 {
                   "directoryLabel": "Vennes CHENG Lecturer I",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/vennes-sau-wai-cheng/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "fb2e179eeeedf7bf7891e321d2ffa3c2551f0338fb3330dbc86d856997513e9d",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-18dee7b471548d"
                 },
                 {
                   "directoryLabel": "XU Hong Co-director",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/hong-xu/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6c3b3eeb927eb60b8ab485ef98c711038fb9bb0b618ecc6364924098ef8687cf",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-e276736220f256"
                 },
                 {
                   "directoryLabel": "Nevin Lianwen ZHANG Co-director",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/nevin-lianwen-zhang/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4475121a0562230ce9bac5512ef12ccf681bcb9bbe3f62501e8974705a7c64dd",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "census-hkust-lzhang"
                 },
                 {
                   "directoryLabel": "Justin LEUNG UG Coordinator; Associate Professor of Practice",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/justin-chi-wai-leung/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "03aa09075947f60d629695886fa0f974a0d41ed628df4fd0f72b9f964c9f4c6c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-721356d3bfa5f0"
                 },
                 {
                   "directoryLabel": "Yukinori HIRANO T&M-DDP Affiliated Faculty",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/yukinori-hirano/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "aeecaa1fc55dd6eb4af4f4087328e39641b8169eda4abeb950ef6543a709f9b5",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-b1f40aebb9e0ca"
                 },
                 {
                   "directoryLabel": "Karl W K TSIM T&M-DDP Affiliated Faculty",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/karl-wah-keung-tsim/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6a31878fbe368ee08cfd71ec1c6c1000b8ac62588f8f7c6582a6e6ecec2e77f4",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-a26ec8d0ffcee7"
                 },
                 {
                   "directoryLabel": "NAM Sai Lok Academic Director (Undergraduate Core Education)",
                   "url": "https://researchportal.hkust.edu.hk/en/persons/sai-lok-nam/",
                   "observedOn": "https://ais.hkust.edu.hk/about-ais/our-people",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1422690ade0528e867b5b3408c2769ed0c55604dc34f13d90f57230a3fa9a719",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-hkust-3ffad52cde082b"
                 }
               ]
             }
@@ -15587,26 +29389,110 @@ window.APP_CATALOG = {
             {
               "name": "Department of Logistics and Maritime Studies",
               "url": "https://www.polyu.edu.hk/lms/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-737fb6458fb084b9"
+              ],
+              "bodySha256": "19cf56d0321b16e2c62cb7f49848dd82e20283fdedf83b273b6d70a20812ae9a",
+              "retrievedUrl": "https://www.polyu.edu.hk/lms/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/lms/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/lms/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-a5670952d7005353"
+                  ],
+                  "bodySha256": "12340f450baea86718d296fadec1984d33699cf849f3f96b14943d3267d99e98",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/lms/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/lms/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-a5670952d7005353"
+                  ],
+                  "bodySha256": "12340f450baea86718d296fadec1984d33699cf849f3f96b14943d3267d99e98",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Management and Marketing",
               "url": "https://mm.polyu.edu.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-00351fa0b0e7b776"
+              ],
+              "bodySha256": "6837fdc0ad932e4486eeede9b9141f74214fd267a56e579f87d9475d585b9da1",
+              "retrievedUrl": "https://www.polyu.edu.hk/mm/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/mm/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/mm/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-4a1b83025e81267f"
+                  ],
+                  "bodySha256": "c8b25a9abee48ce766b45c099138d8a004d23a3763663bb2d8eed6780eac4328",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Accounting and Finance",
               "url": "https://www.polyu.edu.hk/af/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-64cb2b7f5c50ed69"
+              ],
+              "bodySha256": "dd495cd9cffaf68028849475d77e581eb4984735f0be6e2d67d47969614ca3c7",
+              "retrievedUrl": "https://www.polyu.edu.hk/af/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/af/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/af/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-73be9cfaff9f59c4"
+                  ],
+                  "bodySha256": "97e3c2c6ebed0dfdd04e10f58eceecef30a6089421519008e118bdbe6117b141",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/af/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/af/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-73be9cfaff9f59c4"
+                  ],
+                  "bodySha256": "97e3c2c6ebed0dfdd04e10f58eceecef30a6089421519008e118bdbe6117b141",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15627,26 +29513,86 @@ window.APP_CATALOG = {
             {
               "name": "Department of Applied Mathematics",
               "url": "http://www.polyu.edu.hk/ama/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-cda5ddc7632f4c68"
+              ],
+              "bodySha256": "02296d27dbd56348d3dfa364e7e71c52779e0996bdbc99f2b8699efd7058706e",
+              "retrievedUrl": "https://www.polyu.edu.hk/ama/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-17101e9c4d753d73"
+                  ],
+                  "bodySha256": "3ca16d3a17e43f969012bd67a513a1463a827ea8ff3f2ea724d3dfba0f5c84c6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Computing",
               "url": "https://www.polyu.edu.hk/comp/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-1a6709591efc0adf"
+              ],
+              "bodySha256": "322e0882da7e0cf10f9b27560445048636e1f49f328509bfa72bdf2719e9895b",
+              "retrievedUrl": "https://www.polyu.edu.hk/comp/",
+              "staffRoutes": [
+                {
+                  "label": "Academic and Teaching Staff",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-397c521f96b4b4cd"
+                  ],
+                  "bodySha256": "f48b8b22cfb074e1550b06688e83c62f7281249da1897c2aecbe770f74482f10",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Data Science and Artificial Intelligence",
               "url": "https://www.polyu.edu.hk/dsai/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-f2d8998eb9774f3b"
+              ],
+              "bodySha256": "b8c9b8ed20390f01d035c2e934a9a08102860a77a0f72199142d814a0e7322b7",
+              "retrievedUrl": "https://www.polyu.edu.hk/dsai/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-b3e15c2018057613"
+                  ],
+                  "bodySha256": "66f9371dee4ce81a044eb1a8bc80b7d0b6bb7a38380a23ab19dae770b22d6efa",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15667,42 +29613,166 @@ window.APP_CATALOG = {
             {
               "name": "Department of Architecture",
               "url": "https://www.polyu.edu.hk/arch/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-3e1851cd272a4f0b"
+              ],
+              "bodySha256": "3446ba529564921a14e5bdf1d7d9b28dd4cc3817b3ce5d318c5872d6a3b894ed",
+              "retrievedUrl": "https://www.polyu.edu.hk/arch/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/arch/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/arch/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-8381a16b5b3257b6"
+                  ],
+                  "bodySha256": "36eb2736846855e4aa9140dbaac38a81561ccfd2487b618dfebfdd74916dc05c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Building Environment and Energy Engineering",
               "url": "https://www.polyu.edu.hk/beee/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-236e60788383c95b"
+              ],
+              "bodySha256": "99603400672e67e4c69f10835ead0f202197d2a9edd543db784643192b1e32cf",
+              "retrievedUrl": "https://www.polyu.edu.hk/beee/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/beee/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/beee/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-b43ec34bb5e0c644"
+                  ],
+                  "bodySha256": "f6a5398fb4844d5073064663d29c1736c4ec253335c148dd0e207686b4765740",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Civil and Environmental Engineering",
               "url": "https://www.polyu.edu.hk/cee/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-6db6cc0fbd462b51"
+              ],
+              "bodySha256": "aad571d428bd24be324e7ba9e825520d72635c04e62751f5d00c8de7f52534b4",
+              "retrievedUrl": "https://www.polyu.edu.hk/cee/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/cee/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/cee/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-a22394d9c6c7b5c5"
+                  ],
+                  "bodySha256": "954ec78ee92a4def4ea46c554db0e25845d9676e502f3c358515bb7556db751b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/cee/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/cee/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-a22394d9c6c7b5c5"
+                  ],
+                  "bodySha256": "954ec78ee92a4def4ea46c554db0e25845d9676e502f3c358515bb7556db751b",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Construction Management and Intelligence",
               "url": "https://www.polyu.edu.hk/cmi/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-e71fe790f6ef2497"
+              ],
+              "bodySha256": "b03e1521c9791e2a804c57f32578d4d2e94132db7043b9ae87ad102c59301afe",
+              "retrievedUrl": "https://www.polyu.edu.hk/cmi/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-0460fcc0e6efb7ed"
+                  ],
+                  "bodySha256": "2c013d8bbd19a555ee315f2faf850f3cbff4773d627e55b96c106735e8c3d323",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-0460fcc0e6efb7ed"
+                  ],
+                  "bodySha256": "2c013d8bbd19a555ee315f2faf850f3cbff4773d627e55b96c106735e8c3d323",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Land Surveying and Geospatial Science",
               "url": "https://www.polyu.edu.hk/lsgs/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-b291252aa4a7dd6a"
+              ],
+              "bodySha256": "bf885d2b8846746f9612ceb70fa75f2a681142f331269da981d4b8045399b50d",
+              "retrievedUrl": "https://www.polyu.edu.hk/lsgs/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/lsgs/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/lsgs/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-5d8183fa4d7b330b"
+                  ],
+                  "bodySha256": "2ec154db888f9da7bb8b10e96a7fd7940604e806855766b33772d49ecd8ff6bf",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15723,42 +29793,166 @@ window.APP_CATALOG = {
             {
               "name": "Department of Aeronautical and Aviation Engineering",
               "url": "https://www.polyu.edu.hk/aae/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-32df8457b8f53f7f"
+              ],
+              "bodySha256": "51d1aa33b83a20537dc43bd33bc6ed5f380d11f9cf3e97278d967311e8cc9585",
+              "retrievedUrl": "https://www.polyu.edu.hk/aae/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-51457545a5b30759"
+                  ],
+                  "bodySha256": "31f79304fec4983be5232345046c4166fd9a5afa666f56d6f4749a58eac07ac6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Biomedical Engineering and Sports Technology",
               "url": "https://www.polyu.edu.hk/best/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ee73a7e112e0a6e0"
+              ],
+              "bodySha256": "97e0eda03617d1eb6fdfc9746df7cddbe073dbbf52ebb81d77e54bae7c8c277c",
+              "retrievedUrl": "https://www.polyu.edu.hk/best/",
+              "staffRoutes": [
+                {
+                  "label": "Academic and Teaching Staff",
+                  "url": "https://www.polyu.edu.hk/best/people/academic-and-teaching-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/best/people/academic-and-teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-8e418b20f3b952d9"
+                  ],
+                  "bodySha256": "349062a8dc0bc88036853ee76cd318bf64d5c008b083f59dae8fbb19b150af11",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Electrical and Electronic Engineering",
               "url": "https://www.polyu.edu.hk/eee/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-90c3d083687e9602"
+              ],
+              "bodySha256": "750a24aabdae788a3d139155becc65bb6466948ffbb798117f6acc78d315c144",
+              "retrievedUrl": "https://www.polyu.edu.hk/eee/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-0ed324475341514d"
+                  ],
+                  "bodySha256": "7cb197f408b5a40b658dd57916f7ca3836e2b284643db0e9b15e1679399f9448",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic and Teaching Staff",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-0ed324475341514d"
+                  ],
+                  "bodySha256": "7cb197f408b5a40b658dd57916f7ca3836e2b284643db0e9b15e1679399f9448",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Industrial and Systems Engineering",
               "url": "https://www.polyu.edu.hk/ise/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-7587016221a223a2"
+              ],
+              "bodySha256": "495bc78e888ebd96e693c2a370c55946c744dcd2749bb683eae866476794d88f",
+              "retrievedUrl": "https://www.polyu.edu.hk/ise/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/ise/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/ise/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-af885b8c5f605e4a"
+                  ],
+                  "bodySha256": "defd0f99acea045985dd4bec47232917af776920d80937cc8d4ecb0755a23dc8",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Mechanical Engineering",
               "url": "https://www.polyu.edu.hk/me/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-d6d2724a96ca881b"
+              ],
+              "bodySha256": "266370f9432c412ba1b1bd16f1eb1daab19189806262868c73e7dab94b57de80",
+              "retrievedUrl": "https://www.polyu.edu.hk/me/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/me/people/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/me/people/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-490a7902f302a26e"
+                  ],
+                  "bodySha256": "7e4971ff2cdc41754103e64269e3f134257f4d7910ca82c6e918fe598e9950e0",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic & Teaching Staff",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-4ecaea5b32e31116"
+                  ],
+                  "bodySha256": "584c30dc706e7c5a73de84cbde095e6200a1944533f6dc92ece4634cf8e4dd4d",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15779,42 +29973,129 @@ window.APP_CATALOG = {
             {
               "name": "Department of Applied Social Sciences",
               "url": "https://www.polyu.edu.hk/apss/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-8e3aa4de9092dc2d"
+              ],
+              "bodySha256": "c3c213edd0bf2caaba48c70af0a339443d533be71722caf537c9ec559eaa8e4b",
+              "retrievedUrl": "https://www.polyu.edu.hk/apss/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/apss/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/apss/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-38a5354de59bdc96"
+                  ],
+                  "bodySha256": "c455f0c77d86294719ed2adad12bf7c9a2288d5783f049ad73404c1a8c1e2394",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Health Technology and Informatics",
               "url": "http://www.polyu.edu.hk/hti/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-985aa071f7b587d5"
+              ],
+              "bodySha256": "32f9b7f5db52066b2530f782a0742ce189e944ed5f3d097c1646fd9104bffbe6",
+              "retrievedUrl": "https://www.polyu.edu.hk/hti/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/hti/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/hti/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-7cc0bac835169736"
+                  ],
+                  "bodySha256": "6d054b29a55cb4f6c26cd92249135f49811a759a8c834d5b370290473b981ab1",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Rehabilitation Sciences",
               "url": "https://www.polyu.edu.hk/rs/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-4a5366bb4e57b198"
+              ],
+              "bodySha256": "4bf3427c9e55d9d5584b32cbaeae3c6d4366f3e38d8ac1a10fb1d4c7966b9a7e",
+              "retrievedUrl": "https://www.polyu.edu.hk/rs/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/rs/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/rs/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-daf5b5f01dabd4ec"
+                  ],
+                  "bodySha256": "077cb3ad1a13e2ccf5ff47f6515b4a1d5e24a2cc25b182fe5d9ea57bdd654f38",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "School of Nursing",
               "url": "https://www.polyu.edu.hk/sn/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-f2d79dfd9fb0231e"
+              ],
+              "bodySha256": "b2b3305a0196c70cae93f03ccf6101d458f2f2b9ebb0a10d952f1d485ce47a3e",
+              "retrievedUrl": "https://www.polyu.edu.hk/sn/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "School of Optometry",
               "url": "http://www.polyu.edu.hk/so/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-253d5cba5f5bbdc8"
+              ],
+              "bodySha256": "ddf16498a4902c64d5508dd3589b5f5473564c4c84527008551a1e5192409438",
+              "retrievedUrl": "https://www.polyu.edu.hk/so/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/so/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/so/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-8268d56c55e02854"
+                  ],
+                  "bodySha256": "811c49457c5d235ca72ad43a636dc2ac39a991bf5a8111f13762a707a03cd97d",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15835,34 +30116,113 @@ window.APP_CATALOG = {
             {
               "name": "Department of Chinese History and Culture",
               "url": "https://www.polyu.edu.hk/cc/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-333a15a11ea10ae1"
+              ],
+              "bodySha256": "f0819f2597023c379a5db40bcdf743dbea8321aa0a203d019c6b0b497c1a0344",
+              "retrievedUrl": "https://www.polyu.edu.hk/chc/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "Department of English and Communication",
               "url": "https://www.polyu.edu.hk/engl/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-43f7c207d51ae0d3"
+              ],
+              "bodySha256": "d3bb87c2cc2c25230584074f24239a8fa6cf5e6e745142a312881be11849ba42",
+              "retrievedUrl": "https://www.polyu.edu.hk/engl/",
+              "staffRoutes": [
+                {
+                  "label": "People",
+                  "url": "https://www.polyu.edu.hk/engl/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/engl/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-bc619285c593015b"
+                  ],
+                  "bodySha256": "7d387683c31e8342120bd7ccb8b420d8509943a233a1188452543adb6d30e204",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/engl/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/engl/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-bc619285c593015b"
+                  ],
+                  "bodySha256": "7d387683c31e8342120bd7ccb8b420d8509943a233a1188452543adb6d30e204",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Language Science and Technology",
               "url": "https://www.polyu.edu.hk/lst/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-0a78d406ce70b621"
+              ],
+              "bodySha256": "932da9bca2f027dc50d1856aa2c52d2c12882756e687f465f06d50335f10e450",
+              "retrievedUrl": "https://www.polyu.edu.hk/lst/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/lst/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/lst/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-33cb9a5264e85f66"
+                  ],
+                  "bodySha256": "eca62821f5960a5ed01218647a58f4da7e1ef757e02a4a34c0dc2820cc95e985",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Division of Artificial Intelligence and the Humanities",
               "url": "https://www.polyu.edu.hk/aih/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-8e2f35881f849ff5"
+              ],
+              "bodySha256": "92bd88e0caf4b83229c4b77c2c7f57e72c0f274113e9884d5f204e49493b5f54",
+              "retrievedUrl": "https://www.polyu.edu.hk/aih/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/aih/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/aih/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-17fe8c6876ba033b"
+                  ],
+                  "bodySha256": "85f99d2a9aea95c4c3d76336192b3718679ed0285275f8888926c7cf35db3d49",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15883,34 +30243,114 @@ window.APP_CATALOG = {
             {
               "name": "Department of Chemistry",
               "url": "https://www.polyu.edu.hk/chem/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-436e5860ea63c0ba"
+              ],
+              "bodySha256": "2c86e377d49730eae06decf1f19d3d209633d81bffa095229b071f3920ced9ca",
+              "retrievedUrl": "https://www.polyu.edu.hk/chem/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/chem/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1705a0eb1b7cb0d9"
+                  ],
+                  "bodySha256": "d63168493a969c88c1057f24b6d7904bedae7978878a8d33831264ecbf5f4b7e",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Food Science and Nutrition",
               "url": "https://www.polyu.edu.hk/fsn/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ebef366ba26e5999"
+              ],
+              "bodySha256": "9492a8374da5f60d5be174142392f3e327cb28ca28ebc8898a088b3d0b76fa3e",
+              "retrievedUrl": "https://www.polyu.edu.hk/fsn/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1c1b0c34b3159f2c"
+                  ],
+                  "bodySha256": "903200c1fea7667d434118f9f8d361c54104bdf1781e89efaaaf2e178048286f",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Life Sciences",
               "url": "https://www.polyu.edu.hk/ls/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-a76dea4c168b841d"
+              ],
+              "bodySha256": "08f0a50a7ee669012ad571f2e23ec4809990688993015ed11adef923cea9f5f7",
+              "retrievedUrl": "https://www.polyu.edu.hk/ls/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/ls/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/ls/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-22f39b10cbb029d7"
+                  ],
+                  "bodySha256": "1b6a2296d6ff784ebe74fc6bfb3823d43ed5a532cd6a85228373372f39d7d4a1",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "Department of Physics and Materials",
               "url": "http://www.polyu.edu.hk/ap",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-33d2761c2e83118f"
+              ],
+              "bodySha256": "84c0f749e2dac30306c66452ba8bdf3a682c555107ce5b5a996c5c5a2973addf",
+              "retrievedUrl": "https://www.polyu.edu.hk/pm/",
+              "staffRoutes": [
+                {
+                  "label": "Academic Staff",
+                  "url": "https://www.polyu.edu.hk/pm/people/academic-staff/",
+                  "retrievedUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-d7e98e2432e348ec"
+                  ],
+                  "bodySha256": "99a2342217e97ea38ea183a9d7aeacb652ca37db1ee9b1a10130f7886045653f",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -15943,505 +30383,694 @@ window.APP_CATALOG = {
                   "directoryLabel": "Kun-Pyo Lee Dean of School, Swire Chair Professor of Design",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lee-kun-pyo/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8bad4f0cc413abfa8dd6fc0d8e0580d5923c63051f03948b4a0c9251fd7981cc",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Gerhard Bruyns Associate Dean (Academic Programmes), Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/bruyns-gerhardes/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3b18ed37877d60b56eaacd7d75db4190ab8f9236facda759600300fff2e623b5",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Henry Duh Associate Dean (Global & Industry Engagement), Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/duh-henry/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ddf8f291854a6f55def9a4a98ab42897b16e2c099fa8d59eb43408ea3ff6b520",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Yan Tina Luximon Associate Dean (Research), Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/luximon-tina/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b3767f1605e087ac602d4d1af7d5bb294cb5358fca5bc66d99cc703f1e17a004",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Kin Wai Michael Siu Eric C. Yim Professor in Inclusive Design, Chair Professor of Public Design",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/siu-michael/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "dae2b10ce0d3ef402aad19b9e24c73b60ae2a41933e02c812065911cf8df5919",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Johan F. Hoorn Professor (Joint with COMP)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/hoorn-johan/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c44e1980e468f94ddd0dcd0830965854bb52541c700f8cc4db4b937830519dfa",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Stephen J. Wang Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/wang-stephen-jia/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "0916b66d5434831413cf77b27a5cadabefff03fda7b7be0258f52295a9b7d02c",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Brian Lee Assistant Dean (Resources & Infrastructure), Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lee-brian/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3ebaa53e716c5f200c670a224e23ad998506ddaa062647210cb574a1ffee7996",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Sylvia Xihui Liu Assistant Dean (Academic Programmes), Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/liu-sylvia/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "dbe0a75b6a44d6d0c9d09333e508c270433a8192397040438e407863e00881f4",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Angus Donald Campbell Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/campbell-angus-donald/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "65d1a33b22b7237cf8fd733787c08e383d9623f86c4f48013b41c786cce858b4",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jeffrey C. F. Ho Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/ho-jeffrey/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f0d7810819fad548a1ba490de4b29744a0ad0c7ff4408713071ab8c25bfd21ea",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Brian Kwok Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/kwok-brian/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "49388a14a603d34fd1d6cc5ee310322144b435bce81a67e22d5fc3146246553c",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jae-Eun Oh Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/oh-jae-eun/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b75b73e80852345a1ea8316425dbc7e730677f0ac78d4cbe913628f0262f7b56",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jaehyun Jaden Park Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/park-jaehyun-jaden/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "eb9d6f5c17748aab1fe6e3fc8a39706eaea3394216ed9ab8bb0b52ea9014f125",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Huaxin Wei Associate Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/wei-huaxin/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "0574f253225996a4e68ecf7c382818117c9e1881eadb98116e7dfa587ea7af35",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Sunny Choi Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/choi-hee-sun-sunny/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f85518c7354bccedc773377b8f2ee2341077689fce9ecbe901df61885989b3be",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Luke Feast Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/feast-luke/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8268fcddd4238a9276f7570485bf9a7100951693cf4db7f263799e2d7238bd52",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Anthony Kong Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/kong-pui-keung-anthony/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "49638e15354df05536cb7db6a87c93e9734fa9f54360cfdd07ab668affd294b2",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Sky Lo Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lo-sky/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "001a0b3a14c0bb4a9b2d469947784ca3a339fee1e048baca5b65989e3e329689",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-67ab4c91c55be0"
                 },
                 {
                   "directoryLabel": "Qiuyu Luca Lu Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lu-qiuyu-luca/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f16d383f00d10be78d29874965b7efefa31d1b856c72c8be0c0d13268a5cd8a5",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Sandy Ng Assistant Professor (Culture & Theory)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/ng-sandy/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f4a9c4fc350590ab9d206e0f188e12675052380521f50df6933f066b72d52d6e",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Shera Hyunyim Park Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/park-hyunyim-shera/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "dd85a952d04dfdfec644b431df74ec718e8163bd5c4339539372e1d847603a4b",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Yi-Teng Shih Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/shih-yi-teng/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "54e6c051b51f34f77ac778ff641771521a4086b187ef2f7368e499c1ac86444f",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Hailiang Wang Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/wang-hailiang/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ea7be470dde220b7be38fa2e5d08d749f57337efc8cee8bd493d522df4a4aa4d",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Norah Xiaolu Wang Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/wang-norah-xiaolu/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "250caec16b33324df638a737956078847c5032db4c3e21fa507b6a6d840dc903",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Junnan Yu Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/yu-junnan/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a2346a8e870d17649a949b38945b57bd2e85c4d6c79489568b33ef6dac796681",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Wangda Zhu Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/zhu-wangda/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e96edfca9bc4db347af8c6af0eda8000ac5c859c6cea6869607fa1d96266528d",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Zhibin Zhou Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/zhibin-zhou/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "10f3146fd9ed4754211a37fdde83b8edb96d71f91e3607b3f6ae8f880c40b046",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Stefan Sonntag Professor of Practice, Principal Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/sonntag-stefan/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "49cbeda3550714c836517648aeb7d6de8c47d157fef0a8bef8dc0a2e9c29c3ca",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Michael Chan Associate Professor of Practice, Senior Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chan-michael/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "946608ad52ba1298f616a073b4d4911a4305f891f509fb1648eb67075125b257",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-34bd4ce7cb3288"
                 },
                 {
                   "directoryLabel": "Francis Hung Associate Professor of Practice, Senior Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/hung-francis/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "9091058f8ca779845f8ededa2d7c22639d02ef59c4292299d87923a78cc6670f",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Hossein Najafi Associate Professor of Practice, Senior Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/najafi-hossein/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3b7baeae7e7c4736b302a1b412945950a7365f51e5f4323165982913e24af98f",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Horace Pan Associate Professor of Practice",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/pan-horace/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2b5031bc6699e592a2110d6db6991c00becc74767d990c63110f45fea6da49ea",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Man To Yiu Associate Professor of Practice, Senior Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/yiu-man-to/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "899922534fedcc4e9833745c885e12fa5b4adb610fafba5d7ece31eca7183a03",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Clifford Sze Tsan Choy Senior Lecturer, Senior Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/choy-clifford/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "36b70462241acc1def53c103b0288fa30741496d8ed0e6791a1b5e6f23373fbc",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Marc Chataigner Assistant Professor of Practice, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chataigner-marc/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "0c632773c5d5efc729e473a0c6948d0856e390a014e549aa51eede5b3f5ef71e",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Scott Chin Assistant Professor of Practice, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chin-scott/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "25b6bdbf28fbaf0536fb5c4119266d53ca47f894e5da44beea792e5be797fa15",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Roberto Vilchis Assistant Professor of Practice, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/vilchis-roberto/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e85075868aa72fd418d8cf627153597c0e2768ae2fe4c8dbf0e472c54ba534be",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Kam Fai Chan Lecturer, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chan-kam-fai/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "76a40ce5e187891ce0765569292f9d594a27244a2a76c526069e5860469df259",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Chun Hei Cheng Lecturer, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/cheng-chun-hei/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "23bce0ffe42751f77f3705fd829efa26106c25343222bb2e15501eba73789bd0",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Step Cheung Lecturer, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/cheung-step/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "fd43c3e3cfe88ce4ad290284e9c434f4108e5ea713bd4d153c92f218c6a6cf79",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "James Roha Halliwell Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/halliwell-james/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f0673df653d1e17c9efb76e06d376a2487d193bd3227631ca34281271a98d262",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Martin Lau Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lau-wai-keung-martin/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "feb2960bb6f8cbce4571321dd0af533266a8028241b7a35204ec19bcc78988bd",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dominicus Leung Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/leung-dominicus/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "115fe47ee889578776bf63462c303b8de08e0c8dbdf48add33fc9bd7421c4797",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Paul Lo Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/lo-paul/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e9aa6787332066252621119294ad37326662337adae62c260e62b7ec483fea0d",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Olgierd Nitka Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/nitka-olgierd/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b5003a7b3e57e15cb6a72ad685b82e1ce75014cffb647eb0e47fe65782c40a14",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Charis Poon Lecturer, Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/poon-charis/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "aae63397a76f00e9684cee5ebac01bf712e40788b6b2ef8077d75216afe53322",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Eric Siu Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/siu-man-leong-eric/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "21ce9e73e5b44e560c83d252abd216f29e1d806e99d6e30f396046f41bd27edb",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Amelie Y. K. Chan Instructor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chan-amelie/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "123882296d7878965f6be4ccf34c68b8343b792a9578cc238d35feeb3856fdf4",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Joel Cunningham Instructor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/cunningham-austin-joel/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "42b436257eefb52b7fed25c64149da7d2ba8f0818608ed7677341967e27d126d",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Lukasz Mirocha Instructor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/mirocha-lukasz/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e34da0b67a37cb79b7d16c738ae1621039e9f49e8916e19d555d8b52376834e3",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Larina Wang Instructor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/wang-larina/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "59b7fca6fe08658ae1a349cf89d6559c46460cd4fa33c3fcbab169e85de812c0",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Yang Chen Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/chen-yang/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ae0d6a9fc322c6d1e4e77e18b89d5af1208469638a2f544973c0e25e7e7c71a3",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Luis Vega Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/vega-luis/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "07785a9249b9838f093b623c5b216bedaa0413ac51e0b3f275fd230e608f08e4",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Eunji Woo Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/woo-eunji/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "eb01cb25b811f72df54e7d8b7afff303b3f692d60dc7893198b463108d08d630",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Feiran Zhang Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/zhang-feiran/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c27a8cd81701444e42499233bf1a3d17ef24eeca838d1789203ffe4160d928f7",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Laurent Gutierrez Professor of Practice",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/gutierrez-laurent/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "29b2ca2f0dbdde6e8f7a001ef52d873ae07c195baae6b59578389019649b98b3",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Alan Kan Professor of Practice (Digital Advertising)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/kan-alan/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6a0974014a2b3295d7ae1d40a37b393dcafff1e4b40e87c2fe07b1608ebb55af",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Benny Leong Professor of Practice (Design Practice)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/leong-benny/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "27b90249912df021f6b78af785b5d0514ac4b17850a216cf9b58a294cb34b457",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Henry Ma Professor of Practice",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/ma-henry/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ef520994dfadd313c09972d6189ea397bc30c9f14ea847bd1d67e9a0c8e108e6",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Donald Choi, JP Professor of Practice (Environment and Interior Design)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/choi-donald/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ddb9b372280578707c9325612690d96cc3e85b93beb1d669907947dc0f116ce0",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Eric Yim, JP Professor of Practice (Product Design)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/yim-eric/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2357e494299666ee493a9466488098ff1b3ed1c165ae244367f740a55ab3c3dd",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Alan Yip Professor of Practice (Product Design)",
                   "url": "https://www.polyu.edu.hk/sd/people/academic-staff/yip-chi-wing-alan/",
                   "observedOn": "https://www.polyu.edu.hk/sd/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4ae4f0d79c54115986f5e01be96c9bdffb5ea467a6c78aced969ea5aeede9b11",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 }
               ]
             }
@@ -16475,89 +31104,122 @@ window.APP_CATALOG = {
                   "directoryLabel": "Prof. Erin Cho Dean and Limin Professor in Integrated Strategies and Leadership in Fashion",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/prof-erin-cho/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6923682ca4e45280e5f5fe51973a0cceeb56be9b2b76041b33c8578bb3ec281e",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dr Ivonbony H. S. Chan Teaching Fellow",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/dr-ivonbony-hiu-sen-chan/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "527af725c16abac865697701ae74f5f97a3db5a011373c8230fe4c1ee2943d9d",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dr Desmond Chau Kwok-pui Lecturer",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/dr-desmond-chau-kwok-pui/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d44ed2f0d5b4d16b14feee35cce6e482d0170c7d520852c44477df7c2ca0d5dc",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dr Cheung Nga-man Lecturer",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/dr-man-cheung/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "65ec630256615c3524f87d84c07739564832e6021f993f534bc5be2ef89cda07",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Mr Ryan Houlton Lecturer",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/mr-ryan-houlton/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a8e31c0fcbc503335eb5e405feb173500a9df0226a944bebe62856788b93b178",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dr Nico Liu Pak-yiu Lecturer",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/miss-nico-liu-pak-yiu/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b2051a2a525bf88b86f096ad9794e8c730ac37bb0ae0848f85c8920a03041fc1",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dr Lo Ka-wai Lecturer",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/dr-lo-ka-wai/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c14f8c4529b615571708e6ed1476e189523eb2fd4e2c493dc1c54605382ce7b6",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dr Carrie Wong Lecturer",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/dr-carrie-wong/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "aa9c69cf4500ea698c707ee7048cdcf06816806e2441927c49be3aca25bc6d48",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Ms Uki Lau Instructor",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/ms-uki-lau/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ac963f4273e84c1fd747daa1d56e6f732d4a2dd1ab3dcd93c5caf7cfaf921e12",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Ms Mei Lai Leung Instructor",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/miss-mei-lai-leung/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4fa47f04011d6dae003ca535d763db2714790acb7ad2de9d1eb3e8df0cd0e93b",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Ms Amana Wu Instructor",
                   "url": "https://www.polyu.edu.hk/sft/people/academic-staff/ms-amana-wu/",
                   "observedOn": "https://www.polyu.edu.hk/sft/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2394b9fd555340e8a6f3c10a7151df944da0649c3c686e918ca4ff10269801c0",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 }
               ]
             }
@@ -16591,737 +31253,1013 @@ window.APP_CATALOG = {
                   "directoryLabel": "Kaye Chon Dean and Chair Professor, Walter & Wendy Kwok Family Foundation Professor in International Hospitality Management",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/kaye-chon/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2811f5a1309e6ab6828c0b6195ce28971f3f6ec892853ad418d2b0b5aecdb2d1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e3a7a11fd7f555"
                 },
                 {
                   "directoryLabel": "Billy Bai Associate Dean (Academic Affairs) and Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/billy-bai/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "41bfa1cb68c0de70086e8b6227df60e6ba5dbaef0acd0f0cff7704a730d41a4c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-a6fd7012143a48"
                 },
                 {
                   "directoryLabel": "Dan Wang Associate Dean (Research) and Professor, Associate Director of Research Centre for Digital Transformation of Tourism",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dan-wang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "5901d06dd0aaa489c6ddbf506131e0bedf203921f91577da3e247d0b01b1e0f5",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e53c5e6071dfc3"
                 },
                 {
                   "directoryLabel": "Deniz Kucukusta Associate Dean (Global Engagement and Student Affairs) and Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/deniz-kucukusta/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f3646a76fa8245635d167b30c87aeb063be0bd86edd4c5b65b158058144809aa",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-32e1c87f16a127"
                 },
                 {
                   "directoryLabel": "Cathy Hsu Chair Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/cathy-hsu/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "91e75d7cae8cf6422f35aad4f4b1347b32d404c3eedbe3769c917d9be0e8d337",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-275449caef5280"
                 },
                 {
                   "directoryLabel": "Haiyan Song Chair Professor, Mr and Mrs Chan Chak Fu Professor in International Tourism, Director of Research Centre for Digital Transformation of Tourism",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/haiyan-song/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "13ef3514e9a9702ce3e3ae1e7d4192ef61bd2741923a70cbfb04d424061e35e9",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-046177db165612"
                 },
                 {
                   "directoryLabel": "Kam Hung Assistant Dean (Postgraduate Programmes) and Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/kam-hung/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3c99520ff423cd08cea28f805d34b4abd8ecf2bc83b1291108a7f04f3105e668",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-c41a97bb6db3ed"
                 },
                 {
                   "directoryLabel": "Sam Kim Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sam-kim/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6858813185d2de59a1222a588eb54520e3d9808146fcfcccf8380e03bc71cc58",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-4df5879bfdb35a"
                 },
                 {
                   "directoryLabel": "Jinsoo Lee Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinsoo-lee/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "00fb6174ab706cdac7c51281341a14cfbb8891106207d72fe66bd5df3d7a8e13",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-ae95d42491ee64"
                 },
                 {
                   "directoryLabel": "Mimi Li Professor, Associate Director of Research Centre for Digital Transformation of Tourism",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/mimi-li/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b8a87103745a5bf760a01154c8a232ed38f0f70f5a229651c354fa49a3b6678f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-f91723595d6908"
                 },
                 {
                   "directoryLabel": "Bela Stantic Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/bela-stantic/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "bf7098fe58b295332c487eeeaf978926c8a9d625ce7eb0267133ac0b83ae5478",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-cf6a64759b2c4b"
                 },
                 {
                   "directoryLabel": "Honggen Xiao Assistant Dean (Research and Administration) and Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/honggen-xiao/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "631866b722fe6019417edfe56217afdcf1aa84612f8cb7d885651ab4d2931c3a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-c5c95b051371dc"
                 },
                 {
                   "directoryLabel": "Jackie Chan Adjunct Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jackie-chan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "01a5142363ded0c06023e379c6a6548693b919214a0f44ec795198851dba08ab",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Francesco Frangialli Adjunct Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/francesco-frangialli/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3ad89a8a7b61ea8355c71999e563272553606e68ba080657d8fb5ea75fa81dd5",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Sangwon Park Adjunct Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sangwon-park/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4865b34a3b87e78e521e62a533181780e652b77972ecaac87b1da1adf5313477",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-5ace4bb9475afa"
                 },
                 {
                   "directoryLabel": "Taleb Rifai Adjunct Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/taleb-rifai/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7c5995194b45f846751f3f9685f5e5cb7c43fa72642a1c8b303e8e4758cc3cd4",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Ian Lee Adjunct Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ian-lee/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1e2f56772e24d2dd95f7e474e94a94d3b2eb245837ffa38bf50083b889c6d5ba",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Rob Law Honorary Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/rob-law/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a47a7bd1bcd5da01ce0e40f5a0351eddcf7d01615315f4a4b68406f36415e4f0",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-ae88f9d97400a3"
                 },
                 {
                   "directoryLabel": "Giovanni Angelini Professor of Practice (Hotel Management)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/giovanni-angelini/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "47f3e883034e1fb7f1178752fbfa161cda2ef76eac795ba8a94e12965e3f4c6e",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Lawrence Chan Professor of Practice (Hospitality Asset Management)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/lawrence-chan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1ccca752f1006eb9322ee7b1195877e256974f4fdeeaaaa36c55cace674fc54e",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Louis Shih Professor of Practice (Hotel Development)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/louis-shih/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "5b644302485fce0e169a3f69c8428c32f62cb4ca53864e9b6e0a30fcb5411b26",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Philip Chen Professor of Practice (Hospitality and Tourism Strategies)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/philip-chen/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1b8b64d7e2dd4ced30cec037f584adad44fc91d5bb2d0b4d0adb34c6f34dadff",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jeannie Cho Lee Professor of Practice (Wine)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jeannie-cho-lee/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "fd62ee2b762012d3a76f068f590bfa6d7bccd6fd6feb13c524c6e589cc00ee3c",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Young Shim Dho Professor of Practice (Tourism Policy)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/young-shim-dho/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "06a5d263bca98f1cf1d300450d9577c59c8d960d1a468087f404c0f9f9764ca2",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jay Kim Professor of Practice (Hotel Management)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jay-kim/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7f0ca9916e10634918ed348413127761514fb70923f667705babfa9e7981d353",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "James Mabey Professor of Practice (Hotel Development and Strategy)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/james-mabey/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "97300c92dce9ac5e4574ad11df21e854e13de415f0e1fd00a37ce5a2feb2d335",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Gregg Rockett Professor of Practice (Hotel Management)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/gregg-rockett/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "0157f4346512322384238542f8fc80dba9c1d3ebcf24f6ad002bb8c8ff65ecec",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-4f72e8592e5b0b"
                 },
                 {
                   "directoryLabel": "Tony Tse Professor of Practice and Programme Director (Industry Partnerships)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/tony-tse/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "91a3bce34f8e5851762236c7b56b36cdc67e8d49df8735cbeadb5a046dc52a35",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-487ea9b7f7eab2"
                 },
                 {
                   "directoryLabel": "Patrick Yeung Professor of Practice (Tourism Marketing)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/patrick-yeung/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f947cbbd41218f428d44882e5d2a7305ed8c431ad3dc1cc1d106d2c2f6ccf24b",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Prof. Phil Xiang Visiting Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/phil-xiang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "9d713615471cebb0d6fd2346a5ab7423c00b5c387cc1c6c6da8001dc138d3a97",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-5c1286c4c159dc"
                 },
                 {
                   "directoryLabel": "Catherine Cheung Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/catherine-cheung/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "662858231aefa704ef5c662fe3c602bcee9b2f3b67082352a5d8aff3c758a66c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-3f6dfa0f2b77fa"
                 },
                 {
                   "directoryLabel": "Daisy Fan Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/daisy-fan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b56a69442559d6dd424054e9bc9e298db59208f575a69f24402df1ac009dae6d",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-f66425d742e13e"
                 },
                 {
                   "directoryLabel": "Lisa Gao Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/lisa-gao/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d49d8651e4831e2ae9a3179723a33a8162c66b420c89697dcb3045431dc5899e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-098fd111cc9d05"
                 },
                 {
                   "directoryLabel": "Alice Hon Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/alice-hon/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "5c3f471a0cd31ba5e944b12cd8dc6c7f0598c644a594d665743b0e6bdd389a17",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-27ec57c6bd8777"
                 },
                 {
                   "directoryLabel": "Sabrina Huang Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sabrina-huang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8e90b799197d0cbbd9ee0b7a34c9a60b76b41a48c2e43996d93c9c08773b1b63",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-f9ce4e40d5db18"
                 },
                 {
                   "directoryLabel": "YooHee Hwang Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/yoohee-hwang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "5cd0cfe87988e45e15e5c4ced56de2c7b5f517f8271e789b37f3c01e936dc4d1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-04ce532e828ad4"
                 },
                 {
                   "directoryLabel": "Daniel Leung Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/daniel-leung/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c6278811df7da5814265fe90eff738412f058e25b525c3f0fc318ece6c44a88a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-b0c1bd3f361b71"
                 },
                 {
                   "directoryLabel": "Neil Li Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/neil-li/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "19aac221a8c5febad649c4600c51102e51453dc19dd0f65aa59d52c02f680b60",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-20cdb91f8e1c86"
                 },
                 {
                   "directoryLabel": "Michael Lin Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/michael-lin/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "cf2475054ba133acf5b7ce486fd348ef5ed480cc9e3ba86d8e43ee26821faa7c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e14843e8d966b4"
                 },
                 {
                   "directoryLabel": "Pearl Lin Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/pearl-lin/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ce027a1d3a3d4636ae596ef62911a624fddbf3d35f74459a26ec1d23933348ca",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-82c26e94de4ee6"
                 },
                 {
                   "directoryLabel": "Ada Lo Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ada-lo/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ca1a3861bc038193929aa2d67258e083d066c3bc5ef408ee3ffafb2b4b637c75",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-7b1fabe5af19d7"
                 },
                 {
                   "directoryLabel": "Sung Gyun Mun Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-gyun-mun/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "84631f8e08e741ebe2f3aa5d4d071255ed9dd6b05cf097f51b7909c97746d58a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-dc84ee37e340d6"
                 },
                 {
                   "directoryLabel": "Richard Qiu Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/richard-qiu/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a8cc35833e1db8eccb65ec2cce02491c775c977255cd9919595b7efa191422de",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e254f51d81b470"
                 },
                 {
                   "directoryLabel": "Crystal Shi Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/crystal-shi/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "66ace6587d9db2d7595045c86800890bd4f391f1f616bc8a0b91fff1aa4334a3",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-2f89819ef4710b"
                 },
                 {
                   "directoryLabel": "Henry Tsai Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/henry-tsai/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f0e2dcb637b0ccafb30c7370ddaab4e38f8a9b21bef038ce6134f7febc2a46f8",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e86715c451ad88"
                 },
                 {
                   "directoryLabel": "Nelson Tsang Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/nelson-tsang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "fb32b27a3a01bb8b6a2e9823e0b109dfa1e892f9b3491c4ed1827ccba4400323",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-91e57e1b4769b9"
                 },
                 {
                   "directoryLabel": "Vincent Tung Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/vincent-tung/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "c29471637b8f05d7323e3151050f8c4f964e8d7254a50cef629d7715fbe4798c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-1591b0d9d51a52"
                 },
                 {
                   "directoryLabel": "Maxime Wang Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/maxime-wang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1c48f74656a780ffad2fe729061c766fd023a184df754ff6f5fa0fced42423df",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-bcad922b561a69"
                 },
                 {
                   "directoryLabel": "Ying Wang Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ying-wang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "06abdb4347694f1f3bc8dabc6280721adc039ba89842af8a603b4330ae513517",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-83debef8a4523c"
                 },
                 {
                   "directoryLabel": "Qu Xiao Assistant Dean (Industry Engagement) and Associate Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/qu-xiao/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d4cc6d613de2409fec9243a9adcb02eefd5207a4b6e612e6bb4e7f6501cf1b16",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-99b7bdff0ec6ca"
                 },
                 {
                   "directoryLabel": "Simone Bianco Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/simone-bianco/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "e3f79532141b6db01fde7ec3b3331aa11c33a18ed44c5241dd9abb0669022f75",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-cae3307a7f4237"
                 },
                 {
                   "directoryLabel": "Janelle Chan Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/janelle-chan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "84f72c9474a3fb6a872bc8aaab2f146e32ad0f918deacb2a0a54d5e77dd6000f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-3ca4768dce25cd"
                 },
                 {
                   "directoryLabel": "Nan Chen Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/nan-chen/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "62d9273109cc1c9d1b63f75f3baff4878991af5533b8826776ff21c2a34e150e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-6ac2aa303d259d"
                 },
                 {
                   "directoryLabel": "Dori Davari Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dori-davari/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3a0b566ee9e4fa17592ad912e295d9f105c826e74dc70fd9ac48f3222685afc4",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-cb45cd85310fff"
                 },
                 {
                   "directoryLabel": "Jaehee Gim Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jaehee-gim/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "35ca909fec8e0e059f4535e16a5279a1d43accc2f437503fbdd51716d0e9f8a6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-2608fdce24d48b"
                 },
                 {
                   "directoryLabel": "Gianluca Goffi Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/gianluca-goffi/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "cae813fc1021882476a3e47951e104b6ea9cd00febca2f07c2eaf9479917092d",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-acd48b109c3242"
                 },
                 {
                   "directoryLabel": "Faye Hao Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/faye-hao/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "49a77944319b2978bf150d5a19872d9fbea61212718aadc025a73c68f0b7e4cb",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e7dfc266b626e4"
                 },
                 {
                   "directoryLabel": "Sung In Kim Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/sung-in-kim/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "21fd31831c2479984ad51a17662bb1d178d19f83a1c818b2a3a5800ad409b7ea",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-87261faa0f24d7"
                 },
                 {
                   "directoryLabel": "Wangoo Lee Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/wangoo-lee/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b4c58185b8c6b35595a42e9e96e2a1ff22cc6d3fb6f38a30fbe7353d1ce39817",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jinah Park Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinah-park/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "af3a1f3110fc449b8caa560d44c533e11bb97eb088d39caae4fdb8c6e1d001d2",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-1a9d68bb86298f"
                 },
                 {
                   "directoryLabel": "Dagnachew Senbeto Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dagnachew-senbeto/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f76e01c826dacd54fe18facd0d7de6ead965f71b03770e6272f67950721954b6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-33b595fcfdaa1d"
                 },
                 {
                   "directoryLabel": "Hailey Shin Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/hailey-shin/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b74e22fa0645a426509d07a6d3f4bfed36b2befdd098f8374c9e780c779a1001",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-fbf9d45dcaa0d3"
                 },
                 {
                   "directoryLabel": "Seunghun Shin Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/seunghun-shin/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "b9bb57bf3ba1cf39f436f6e440b0a464fdd55b629a7dcec3507790ba09cea50f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-c858713a536c17"
                 },
                 {
                   "directoryLabel": "Antony Wong Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/antony-wong/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "207f5250129151ca3f9594be65f569804bdda15376eaab0575de7b715ddb0a74",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-fa06eacc96c6ef"
                 },
                 {
                   "directoryLabel": "Yitong Yu Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/yitong-yu/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f0e2a0f4c7dafd196deb59a2f47e4f5f896ed0e5c7102571e450bc400a7beb9d",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-1110b372311e2e"
                 },
                 {
                   "directoryLabel": "Huihui Zhang Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/huihui-zhang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "306c77d38dea15ef56e7e3e686252a9c28b949d19811ccfa7241dec5c30106db",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e17715d7433b70"
                 },
                 {
                   "directoryLabel": "Jason Zhang Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jason-zhang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8257df7ca5ed543e12bea920b1a110b772602d582c7541b7ecd575a01462e42c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-fdc31319b67701"
                 },
                 {
                   "directoryLabel": "Emily Chen Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jinyan-chen-emily/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "05775cc7b22c71d45506a5da9a113e9a9c2aff7d20a042254fc277d5d80487e3",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-630a6ef91ddc8a"
                 },
                 {
                   "directoryLabel": "Meli Darvish (Mahlagha Darvishmotevali) Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/meli-darvish/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "87bbfc98372771957dbbf2a0ac0a8a205af950f49125ad4a79ac630d4e39ef18",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-43f743af8b2349"
                 },
                 {
                   "directoryLabel": "Ivanka Huang Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ivanka-huang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "d8ccd6a65140e0f148dc64e6c99d735cf0eab198596c21e0c356a3ca8875398c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-c2acd03f16c42f"
                 },
                 {
                   "directoryLabel": "Eunji Lee Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/eunji-lee/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "ce6e6afce81faed75c424c98110b2b791e5a605a21347fec67c93a1fcd9d27b2",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-1f36374fc32efb"
                 },
                 {
                   "directoryLabel": "Curley Liu Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/curley-liu/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "be9818041f96afeaca078fe273c08aee561cd1664aab5989481639a27c7e3165",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Angie Luo Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/angie-luo/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "33300c9d97e715e6563d921cfc75cfc563d6f2d042d52504e955d3e94bb5c105",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-c23bb0644dc4c7"
                 },
                 {
                   "directoryLabel": "Roshis Shrestha Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/roshis-shrestha/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "416b3f45a883ceceae9151b1772cd0c3a7595a015eeeed28c0cd099c6647057a",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-d30e92e8d68aae"
                 },
                 {
                   "directoryLabel": "Jessie Wang Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jessie-wang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7a61ccc71e629755ffb31bcee00787994f0e9fa1a126e1b25cd5222e4e57ec43",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-6cbfcaa6a9b16c"
                 },
                 {
                   "directoryLabel": "Yuchen Xu Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/yuchen-xu/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "babae511f0c9bd72758852f5fb7c3a1d5f47a1500b43d926398b3179ece77001",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-c6c7b32c0ac74b"
                 },
                 {
                   "directoryLabel": "Hanyuan Zhang Research Assistant Professor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/hanyuan-zhang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "162590c1ed989e251344f102920572709bdc72daf6e206017656bc6071cabaa8",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-430ecdbc3b6de8"
                 },
                 {
                   "directoryLabel": "Chris Chan Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/chris-chan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "08a2ed7869b8274d1345ba69988ef7e2f5e2ece7fa16210ce3d9082b14c6832b",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Dave Chan Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/dave-chan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "1e02d94fe8488b58373a26691254065d0bffcadf903f498f337e268d19e178b1",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Tiffany Cheng Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/tiffany-cheng/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "7693fe43ba5e1c2634a3b63d25a15e0d719b0d01151db51696897109513b9072",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Jennifer Marie Ducasse Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jennifer-marie-ducasse/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "0b0a7fe1a52d0b8d5fd90fc58b4ab6c6174e5d9ffd6ca92448bd7ca021b6181a",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Ada Fong Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/ada-fong/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8b3637d57b367c188958955b2bf26139adf334f84edcf1f0af892b2e4ee6ff3e",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Clare Fung Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/clare-fung/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "4efe427dd29c9cfe67eb76727e321337702c8bd75715d26c9ce1b7533ebf6269",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Tak Kanchanawat Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/tak-kanchanawat/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "6b631d6262edbb524f7930d28d8600dae5aebb40b440bd7c40b8d8a2fbd3ca90",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-e18f278681b3f4"
                 },
                 {
                   "directoryLabel": "Jason Kelly Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/jason-kelly/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "847117c6f021bbb27c8d71e6b2781f340b4e49bdd82c104a9f83127e7720a62a",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Pia Kwan Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/pia-kwan/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "765ac90c194e20954b9333c569c325a056091b94ef3922e329aed7c2c6881fd6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-36ba105638c222"
                 },
                 {
                   "directoryLabel": "Loretta Pang Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/loretta-pang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "3efc71950db78e8bf1f9810d2a43bb6a6e41e84108a11f64e8a6622daaded54b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "review-polyu-728f13509f16ba"
                 },
                 {
                   "directoryLabel": "Katsuto Sandifer Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/katsuto-sandifer/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "2f024f9ef971613fa47e58b1061242d0c70981dcced7ba39b22feb8e74a32761",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Samantha Tam Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/samantha-tam/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "55025ad341f1e0f9cb945586345bbe3a78df0e6de1e95958fad5c1681fb429be",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Nordin Mohd Yassin Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/nordin-mohd-yassin/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "df7c7acd5350f5afbecaf2bf26ffd0eea6cfd5ee34fe926836ed0950568d15e5",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "John Yoo Instructor",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/john-yoo/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8845148ccf2c301f2b7cd1f76d5891d11a78bb1f35bc8f81097878db6521827b",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 },
                 {
                   "directoryLabel": "Judy Zhang Instructor (MicroMasters Programme)",
                   "url": "https://www.polyu.edu.hk/shtm/people/academic-staff/judy-zhang/",
                   "observedOn": "https://www.polyu.edu.hk/shtm/people/academic-staff/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "8a6d7d83f6e2c47a538473007f2b457a44266a9ba04b6885200cf2aca066b479",
+                  "researchReviewStatus": "no_research_section_extracted_pending_further_reading",
+                  "facultyId": null
                 }
               ]
             }
@@ -17768,34 +32706,206 @@ window.APP_CATALOG = {
             {
               "name": "先进材料",
               "url": "https://amat.hkust-gz.edu.cn/zh/#new_tab",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-6557e3e2e7349712"
+              ],
+              "bodySha256": "1815fb73efdce8bfa0283755f478544c2aaa3ff81f56e0abb48edea3240fc084",
+              "retrievedUrl": "https://amat.hkust-gz.edu.cn/zh/",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "地球与海洋大气科学",
               "url": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-611b226ecdcfa301"
+              ],
+              "bodySha256": "62a27b24a62fc99743a0a02f7f57e92a326c9be96ec1a33dc7d22df97db2318e",
+              "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/about-the-thrust/?variant=zh-cn",
+              "staffRoutes": [
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-0cfb6c96de2aa6b9"
+                  ],
+                  "bodySha256": "14d97b7213f63f1c0f2ceae89f3bed503601469871539cb22c005ad3a4daa056",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1b99400d3138616e"
+                  ],
+                  "bodySha256": "d555b4e04aa1921c205a68cd48493b01c5e8952effe9a116c6b6008d59488d70",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-c85cb28c9e752c69"
+                  ],
+                  "bodySha256": "7cd5f738e82ddc8fed09c81d50036898236f7fc5174dc211378bdb0c2f7b3270",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-790fba89a07741b2"
+                  ],
+                  "bodySha256": "5796383ba997e06c2f5d67287972be19ba91e44fa2f3e6e562d5d6a7547cea51",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-b4a842073231b6f9"
+                  ],
+                  "bodySha256": "47ea50882fc37c9ecf3af5f5e7afcf2c2a62a89bc9253409632fdc7daabfcba6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-c28893af1991a23b"
+                  ],
+                  "bodySha256": "161f1ae6b4c36191ca2c443250aac6e184ef80a37875964ca8b823cbaf83d74c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             },
             {
               "name": "微电子",
               "url": "https://mics.hkust-gz.edu.cn/#new_tab",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [],
+              "bodySha256": null,
+              "retrievedUrl": "https://mics.hkust-gz.edu.cn/",
+              "staffRoutes": [],
+              "failure": "HTTP Error 403: Forbidden"
             },
             {
               "name": "可持续能源与环境",
               "url": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-1675b4a50762ecbc"
+              ],
+              "bodySha256": "ce53b8d5978dcfbfd6381c037310b148c4cd15a96613a4f89d556733101e60b4",
+              "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/about-the-thrust/?variant=zh-cn",
+              "staffRoutes": [
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-0cfb6c96de2aa6b9"
+                  ],
+                  "bodySha256": "14d97b7213f63f1c0f2ceae89f3bed503601469871539cb22c005ad3a4daa056",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-1b99400d3138616e"
+                  ],
+                  "bodySha256": "d555b4e04aa1921c205a68cd48493b01c5e8952effe9a116c6b6008d59488d70",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-c85cb28c9e752c69"
+                  ],
+                  "bodySha256": "7cd5f738e82ddc8fed09c81d50036898236f7fc5174dc211378bdb0c2f7b3270",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-790fba89a07741b2"
+                  ],
+                  "bodySha256": "5796383ba997e06c2f5d67287972be19ba91e44fa2f3e6e562d5d6a7547cea51",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-b4a842073231b6f9"
+                  ],
+                  "bodySha256": "47ea50882fc37c9ecf3af5f5e7afcf2c2a62a89bc9253409632fdc7daabfcba6",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                },
+                {
+                  "label": "师资队伍",
+                  "url": "https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+                  "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "entry-read-staff-route-c28893af1991a23b"
+                  ],
+                  "bodySha256": "161f1ae6b4c36191ca2c443250aac6e184ef80a37875964ca8b823cbaf83d74c",
+                  "failure": null,
+                  "completeFacultyEnumeration": false
+                }
+              ],
+              "failure": null
             }
           ],
           "staffEntries": [
@@ -17905,10 +33015,17 @@ window.APP_CATALOG = {
             {
               "name": "人工智能",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-ec56f26b939d2343"
+              ],
+              "bodySha256": "64b1ec4d21d25a49ee64dab0b6445383b9309de41aead62a7e4879bddce5acc6",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "数据科学与分析",
@@ -17921,10 +33038,17 @@ window.APP_CATALOG = {
             {
               "name": "计算媒体与艺术",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-dabfcec73af8c9db"
+              ],
+              "bodySha256": "ddc94d8379027eae58a58ac75dc7ecb4b1c23a96b866e96f5f684a73bba0890b",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "物联网",
@@ -17961,26 +33085,47 @@ window.APP_CATALOG = {
             {
               "name": "智能交通",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-50a15df24ff3cb3e"
+              ],
+              "bodySha256": "dafd7cf505e457c490db20a042b47a191d821012a1668e41875a6adc76a1f954",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "机器人与自主系统",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-20b0b3e1b9b89774"
+              ],
+              "bodySha256": "5b80e476b70d724fa99c96d1cf838a69d49cfcccad7665eb0be1d81bd53aa19f",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "智能制造",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-c4a509a1682d923d"
+              ],
+              "bodySha256": "d15a183039cab1b132eaafcd316cf7ea15469aa37e682eec027e8de30aa7e2c7",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -18001,10 +33146,17 @@ window.APP_CATALOG = {
             {
               "name": "金融科技",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-a79bca9005bb363f"
+              ],
+              "bodySha256": "e1c934a85201f329a909ed41b69f0d7780b3e644878ae0c41994c76fe750cca0",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             },
             {
               "name": "创新创业与公共政策",
@@ -18025,10 +33177,17 @@ window.APP_CATALOG = {
             {
               "name": "碳中和与气候变化",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "sourceIds": [
+                "entry-read-academic-child-01d8e556827303da"
+              ],
+              "bodySha256": "9165b1b660afbce5271092946e372ddee6ea35babd8584f92124247591fbeb91",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
+              "staffRoutes": [],
+              "failure": null
             }
           ],
           "staffEntries": []
@@ -18094,5 +33253,13 @@ window.APP_CATALOG = {
       "coverageComplete": false
     }
   ],
-  "snapshotId": "sha256:726b9fa4bf7277cf25826a7323c540f75767a4431d53ade2a0a8c916c4bea012"
+  "academicEntryProgress": {
+    "childEntries": 112,
+    "childBodiesRead": 101,
+    "childFailures": 11,
+    "distinctStaffRoutes": 95,
+    "staffRouteBodiesRead": 95,
+    "staffRouteFailures": 0
+  },
+  "snapshotId": "sha256:a712258c6cd79c6b03331d9e7abde895ecf62f7c15f763edaf15fe6d233e0899"
 };
