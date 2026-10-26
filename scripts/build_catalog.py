@@ -406,6 +406,10 @@ def main():
               for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css")}
     index = ROOT / "dist/index.html"
     outputs[index] = asset_versioned_html(index.read_text(encoding="utf-8"), assets)
+    # GitHub Pages serves this generated mirror; --check prevents it drifting from the offline page.
+    outputs.update({ROOT / "docs" / name: content.decode("utf-8") for name, content in assets.items()})
+    outputs[ROOT / "docs/index.html"] = outputs[index]
+    outputs[ROOT / "docs/.nojekyll"] = ""
     for path, content in outputs.items():
         if args.check:
             assert path.read_text(encoding="utf-8") == content, f"Stale generated catalog: {path.name}"

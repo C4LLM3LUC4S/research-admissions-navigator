@@ -53,8 +53,9 @@
     "actual_callback_journey_with_DOM_stubs": "passed",
     "actual_browser_visual_keyboard_native_picker_and_download": "Actual IAB visual/search/keyboard/pagination/backup download and filechooser API restore passed; no manual OS-native picker or independent-human claim.",
     "github_CI": "Current commit results are recorded in this repository's Actions; not embedded into this source snapshot.",
-    "hosted_service": "not_deployed",
-    "python_checks": 5
+    "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
+    "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
+    "python_checks": 6
   },
   "limitations": [
     "107位教师、33个官方目录入口仍非完整院系名册；部分入口正文依赖脚本，逐条记录访问缺口。",
@@ -62,8 +63,8 @@
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
     "仍只有12条项目/申请路线：10条有部分要求、4条有部分费用或资助，不能把同校CSE规则套给新增院系。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
-    "公开源码与离线页面仍是早期alpha；尚未托管在线页面，也没有申请经历的公共投稿审核后台。",
+    "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。"
   ],
-  "next": "继续读取现有33入口中未覆盖个人页，配套核新增专业的研究学位及当期政策；再扩生命科学、商科、社科和人文。在线托管和申请经历服务另行交付。"
+  "next": "继续读取现有33入口中未覆盖个人页，配套核新增专业的研究学位及当期政策；再扩生命科学、商科、社科和人文。公共申请经历服务另行设计与验收。"
 }
