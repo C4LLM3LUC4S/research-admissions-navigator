@@ -38,6 +38,7 @@
   const EDUCATION = ['','undergraduate','bachelor','master','other'];
   const ENGLISH = ['','planning','scheduled','available','exemption'];
   const RESEARCH_ALIASES = [
+    ['多模态','multimodal','multi-modal'],['多模态大模型','multimodal large language models','multimodal language models'],
     ['人工智能','artificial intelligence','ai'],['自动化','automation'],
     ['机器人','robot','robotics'],['控制','control'],['网络化控制','networked control'],['智能控制','intelligent control'],
     ['自适应控制','adaptive control'],['强化学习','reinforcement learning'],['多智能体','multi-agent','multiagent'],

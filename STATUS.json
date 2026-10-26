@@ -2,31 +2,38 @@
   "version": "0.1.0a3",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
-  "checked_date": "2026-10-26",
+  "checked_date": "2026-10-27",
   "working_name": "研向",
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
     "programme_or_route_cards": 16,
     "degree_routes": 29,
-    "faculty": 327,
-    "official_sources": 707,
+    "faculty": 372,
+    "official_sources": 769,
     "programmes_with_partial_requirements": 14,
-    "requirement_items": 45,
-    "programmes_with_partial_finances": 7,
-    "finance_items": 12,
+    "requirement_items": 46,
+    "programmes_with_partial_finances": 8,
+    "finance_items": 15,
     "official_directory_entries": 34,
-    "teacher_linked_sources": 1,
-    "total_sources": 708,
+    "teacher_linked_sources": 34,
+    "total_sources": 803,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
-    "pending_profile_links": 271,
     "reviewed_new_profiles": 165,
     "reviewed_existing_updates": 5,
-    "profile_bodies_read": 271,
+    "profile_bodies_read": 324,
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
-    "cityu_deferred_profiles": 4
+    "cityu_deferred_profiles": 4,
+    "observed_profile_links": 324,
+    "pending_research_review": 101,
+    "sai_directory_pages": 6,
+    "sai_profiles": 53,
+    "sai_new_profiles": 45,
+    "sai_existing_updates": 8,
+    "sai_linked_pages_read": 33,
+    "sai_linked_pages_pending": 9
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -58,10 +65,14 @@
     "逐项整理170份研究栏目及原职位，保留5位既有编号，增加165条研究资料；不把教学/实践/荣休等职务当作指导资格",
     "补环境、材料能源、土木机械、经济管理、人文社科、教育、设计及旅游酒店方向；保留原研究词和未知名额",
     "读取128个下属单位与107个人员导航，12个读取失败和完整名录待核状态单列",
-    "城大数据科学系32张研究卡片逐条记录：新增23条、接续5个既有编号，4条个人页证据不足保持待核"
+    "城大数据科学系32张研究卡片逐条记录：新增23条、接续5个既有编号，4条个人页证据不足保持待核",
+    "港中深AI六页53个主页完整列示并读研究栏目；新增45位、接续8位收藏编号，42个延伸网站中33个读到可核实正文，9个待核",
+    "保留两位同名LI, Ming的独立主页和身份；2027秋教师招生自述按原学位范围展示，不把Master自动当MPhil",
+    "补AI项目600元申请费、博士奖助与MPhil项目机会的不同口径；2026示例不冒充2027金额，项目与个人页的截止日冲突保留",
+    "具体研究词补多模态与多模态大模型的中英文对应；同名不同教师可分别收藏、备份并恢复"
   ],
   "verification": {
-    "node_checks": 51,
+    "node_checks": 57,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -75,16 +86,16 @@
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 18
+    "python_checks": 20
   },
   "limitations": [
-    "327位教师、34个官方目录入口仍非完整师资库。完整枚举、逐人研究方向、指导资格与当期名额分开核查；已读正文不代表全院已核完。",
-    "324位实际接收情况未知；1份2026/2027广告、2份未注明年度的博士接受说明都不证明本轮余位。",
+    "372位教师、34个官方目录入口仍非完整师资库。港中深AI只完成未筛选Academic Staff六页的当前范围，不能当作全校名单或指导资格认证。",
+    "367位的当前接收情况未知；另5位有不同年度或范围的公开说明，都不是已确认的余位。2027秋两份教师自述与旧2026/2027广告、未注明年度说明分开。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
-    "当前16条项目/申请路线：14条有部分要求、7条有部分费用或资助，不能把同校CSE规则套给新增院系。",
+    "当前16条项目/申请路线：14条有部分要求、8条有部分费用或资助，仍不能将已核规则套给未核院系。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。"
   ],
-  "next": "继续处理完整师资目录的逐人核查和延伸个人/实验室主页，再扩其他院系；新增老师不能继承同校计算机项目要求。"
+  "next": "按七校学院清单继续其他完整目录、个人Links与对应研究学位；港中深数据科学/理工等仍待全分页，不能让新增教师继承同校AI或CSE申请要求。"
 }

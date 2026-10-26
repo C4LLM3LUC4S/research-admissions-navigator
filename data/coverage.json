@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "checkedDate": "2026-10-26",
+  "checkedDate": "2026-10-27",
   "counts": {
     "universities": 7,
     "programs": 16,
-    "faculty": 327,
-    "sources": 708,
+    "faculty": 372,
+    "sources": 803,
     "funding": 1,
     "degreeRoutes": 29,
     "facultyByUniversity": {
@@ -15,14 +15,14 @@
       "hkustgz": 13,
       "polyu": 83,
       "cityu": 39,
-      "cuhksz": 15
+      "cuhksz": 60
     },
-    "unknownRecruitment": 324,
+    "unknownRecruitment": 367,
     "dateOnlyDeadlines": 23,
     "programsWithRequirements": 14,
-    "requirementItems": 45,
-    "programsWithFinances": 7,
-    "financeItems": 12,
+    "requirementItems": 46,
+    "programsWithFinances": 8,
+    "financeItems": 15,
     "officialDirectories": 34,
     "directoriesByUniversity": {
       "hku": 6,

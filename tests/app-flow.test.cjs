@@ -76,6 +76,23 @@ test('a non-computing applicant can find real research terms, inspect original r
   assert.match(restored.byId.get('saved-faculty').textContent,/Haiyan Song/);assert.equal(h.networkCalls(),0);
 });
 
+test('a Chinese multimodal search can save both Ming Li profiles and restore their separate identities',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('cuhksz','PhD',[]);el('research-query').value='多模态';
+  await el('show-faculty').emit('click');await el('profile-form').emit('input',{target:el('research-query')});
+  const cards=el('results').children.filter(card=>h.walk(card).some(x=>x.tagName==='h3'&&x.textContent==='LI, Ming'));
+  assert.equal(cards.length,2);
+  for(const card of cards)await h.walk(card).find(x=>x.tagName==='button'&&x.textContent.includes('放入我的清单')).emit('click');
+  await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const backup=L.parsePortable(await h.downloads[0].blob.text(),C);
+  assert.equal(backup.shortlist.length,2);assert.equal(new Set(backup.shortlist).size,2);
+  assert.equal(backup.profile.researchQuery,'多模态');
+  assert.deepEqual(new Set(backup.shortlist.map(id=>C.faculty.find(f=>f.id===id).profileUrl)),new Set(['https://sai.cuhk.edu.cn/en/teacher/258','https://sai.cuhk.edu.cn/en/teacher/277']));
+  const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);
+  assert.equal(restored.walk(restored.byId.get('saved-faculty')).filter(x=>x.tagName==='h3'&&x.textContent==='LI, Ming').length,2);
+  assert.equal(h.networkCalls(),0);
+});
+
 test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.ok(el('results').childElementCount>0);

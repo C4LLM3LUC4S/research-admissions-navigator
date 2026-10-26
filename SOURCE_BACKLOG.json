@@ -5,7 +5,7 @@
       "id": "whole-university-academic-map",
       "status": "seven_maps_128_child_entries_read_107_staff_routes_read_profile_curation_partial",
       "task": "逐院核107个人员导航的完整名单与分页；128个下属单位正文和12失败分别保留。港中深AI/SDS继续全部分页及个人Links；CityU从可读的独立院系继续，不重试403中央页。",
-      "acceptance": "学院→学系→人员目录→分页→逐人研究及身份→Links→项目要求各阶段分开；四组目录271主页全部读到、170研究栏目整理、101待进一步核，城大32卡片另保留23新增/5更新/4待核，不把人数当名额。"
+      "acceptance": "学院→学系→人员目录→分页→逐人研究及身份→Links→项目要求各阶段分开；四组目录271主页全部读到、170研究栏目整理、101待进一步核，城大32卡片另保留23新增/5更新/4待核，不把人数当名额。 港中深AI另有六页53个主页、45新增/8更新；目录范围与全校覆盖分开。"
     },
     {
       "id": "regular-contact-gaps",
@@ -14,15 +14,15 @@
     },
     {
       "id": "materials-and-funding",
-      "status": "partial_14_routes_45_requirement_items_7_finance_routes",
+      "status": "partial_14_routes_46_requirement_items_8_finance_routes",
       "task": "CIE材料及其两位非意向导师推荐人已补；CUHK香港/广州/深圳费用分项目保存。继续补CityU CS及其他费用/资助；CUHK香港2027/28助学金金额与CIE学费尚未核清。",
       "acceptance": "区分校级与项目级要求、资助考虑与实际发放、津贴与学费、学年与入学轮次、币种和单位；未知不补0，不把2026/27金额冒充2027/28。港理工新制TOEFL、CityU Computing正文403仍待核，不借别校数字或搜索索引替代。"
     },
     {
       "id": "faculty-coverage",
-      "task": "按七校学院清单推进完整师资目录、分页、逐人研究及个人/实验室Links；继续港中深AI全分页并补其他学院，不从院系卡片推定指导资格。",
+      "task": "按七校学院顺序继续其他院系完整名录。港中深AI当前六页53个官方研究栏目已读，33个个人网站读到可核实正文，9个待核；继续SDS/SSE等其他学院，不把一院完成当全校完成。",
       "acceptance": "记录枚举范围、身份、逐人正文状态和延伸链接来源。中文名以已读官网为准；未知名额和指导资格保持未知。",
-      "status": "327_partial_faculty_34_entries_full_enumerations_not_all_completed"
+      "status": "372_partial_faculty_SAI_six_pages_53_profiles_reviewed_9_linked_pages_pending"
     },
     {
       "id": "intake-filter",

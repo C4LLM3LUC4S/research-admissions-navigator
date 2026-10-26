@@ -4,6 +4,7 @@ import hashlib
 import importlib.util
 import re
 import unittest
+from datetime import date, timedelta
 from pathlib import Path
 
 spec = importlib.util.spec_from_file_location("catalog_builder", Path(__file__).resolve().parents[1] / "scripts/build_catalog.py")
@@ -23,7 +24,19 @@ class SourceDateChecks(unittest.TestCase):
         self.assertEqual(self.catalog["checkedDate"], original["checkedDate"])
 
     def test_a_future_verification_date_is_rejected(self):
-        self.catalog["sources"][0]["checkedAt"] = "2026-10-27"
+        self.catalog["sources"][0]["checkedAt"] = (date.fromisoformat(self.catalog["checkedDate"]) + timedelta(days=1)).isoformat()
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_new_census_does_not_re_date_unvisited_policy_sources(self):
+        rgc = [s for s in self.catalog['sources'] if s['id'] in {'rgc-hkpfs-2027', 'rgc-hkpfs-institutions'}]
+        self.assertEqual(len(rgc), 2)
+        self.assertTrue(all(s['checkedAt'] == '2026-10-26' for s in rgc))
+        self.assertEqual(self.catalog['checkedDate'], '2026-10-27')
+
+    def test_dated_teacher_notice_requires_exact_intake_and_teacher_source(self):
+        teacher = next(f for f in self.catalog['faculty'] if f['availability'].get('noticeKind') == 'dated_teacher_statement')
+        teacher['availability']['intake'] = '2027 Spring'
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
 
