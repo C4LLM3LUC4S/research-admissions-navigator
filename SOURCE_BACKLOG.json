@@ -3,9 +3,9 @@
   "priorities": [
     {
       "id": "whole-university-academic-map",
-      "status": "seven_maps_66_typed_units_157_child_rows_271_pending_personal_links",
-      "task": "先核各校所有学院与下属单位，再逐院枚举全部师资和分页。继续港城大独立学院入口、港中深未读正文与各校缺失师资目录，不重试已拒通道。",
-      "acceptance": "每个单位和主页有来源、读取状态、身份及下一步。271个待核链接不混入139位已整理研究方向；未知指导资格与名额不补成有或无。"
+      "status": "seven_maps_101_child_entries_read_95_staff_routes_read_profile_curation_partial",
+      "task": "逐院核95个人员导航的完整名单与分页；完成缺失院系入口。101个下属单位正文和11失败分别保留。港中深已读AI/SDS首屏并发现需要继续过滤/分页，不能称已枚举全体；CityU从可读的独立院系继续，不重试403中央页。",
+      "acceptance": "学院→学系→人员目录→分页→逐人研究及身份→Links→项目要求各阶段分开；271主页全部读到，170研究信息已整理，101缺研究栏目待进一步核，未知不补齐。"
     },
     {
       "id": "regular-contact-gaps",

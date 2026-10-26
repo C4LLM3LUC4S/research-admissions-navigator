@@ -126,8 +126,25 @@ class AcademicMapChecks(unittest.TestCase):
 
     def test_a_pending_personal_link_must_have_been_observed_on_that_directory(self):
         entry = next(e for r in self.catalog['academicCoverage'] for u in r['units'] for e in u['staffEntries'] if e.get('profileLeads'))
-        self.assertTrue(all(p['profileBodyStatus'] == 'not_read' for p in entry['profileLeads']))
+        self.assertTrue(all(p['profileBodyStatus'] == 'body_read' for p in entry['profileLeads']))
         entry['profileLeads'][0]['url'] = 'https://www.polyu.edu.hk/sd/not-observed/'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_a_reviewed_record_keeps_its_real_faculty_reference(self):
+        entry = next(e for r in self.catalog['academicCoverage'] for u in r['units'] for e in u['staffEntries'] if e.get('profileLeads'))
+        lead = next(p for p in entry['profileLeads'] if p['facultyId'])
+        lead['facultyId'] = 'invented-adviser'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_staff_navigation_read_does_not_imply_complete_teacher_enumeration(self):
+        self.assertEqual(self.catalog['academicEntryProgress']['childBodiesRead'], 101)
+        self.assertEqual(self.catalog['academicEntryProgress']['childFailures'], 11)
+        self.assertEqual(self.catalog['academicEntryProgress']['distinctStaffRoutes'], 95)
+        child = next(c for r in self.catalog['academicCoverage'] for u in r['units'] for c in u['children'] if c.get('staffRoutes'))
+        self.assertTrue(all(route['completeFacultyEnumeration'] is False for route in child['staffRoutes']))
+        child['staffRoutes'][0]['completeFacultyEnumeration'] = True
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
 

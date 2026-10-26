@@ -5,7 +5,7 @@
   else root.APP_LOGIC = api;
 }(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频'];
+  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频','环境与可持续发展','物理与化学','材料与能源','土木与机械工程','经济与管理','人文与社会科学','教育学','设计与创意','旅游与酒店管理'];
   const KEYWORDS = [
     /人工智能|artificial intelligence|(?:^|\W)ai(?:$|\W)|ai4science/i,
     /机器学习|深度学习|machine learning|deep learning|distributed learning|reinforcement learning/i,
@@ -23,7 +23,16 @@
     /人机交互|human.computer|human.ai interaction/i,
     /数据库|数据系统|database|data systems/i,
     /计算机图形学|computer graphics/i,
-    /计算机音乐|音频|computer music|audio/i
+    /计算机音乐|音频|computer music|audio/i,
+    /环境|可持续|environment|sustainab|climate/i,
+    /物理|化学|physics|chemistry/i,
+    /材料|能源|materials|energy/i,
+    /土木|机械工程|civil engineering|mechanical engineering/i,
+    /经济|管理|economics|management/i,
+    /人文|社会科学|humanities|social sciences/i,
+    /教育|education/i,
+    /设计|创意|design|creative/i,
+    /旅游|酒店|tourism|hospitality/i
   ];
   const OFFICIAL_HOSTS = ['hku.hk','cuhk.edu.hk','hkust.edu.hk','ust.hk','polyu.edu.hk','cityu.edu.hk','cuhk.edu.cn','hkust-gz.edu.cn','ugc.edu.hk','rgc.edu.hk'];
   const EDUCATION = ['','undergraduate','bachelor','master','other'];
@@ -46,6 +55,11 @@
     ['人机交互','human-computer interaction','human computer interaction'],['可视化','visualization'],
     ['数据库','database','databases'],['网络安全','cybersecurity','network security'],
     ['密码学','cryptography'],['差分隐私','differential privacy'],['计算机图形学','computer graphics'],
+    ['可持续发展','可持续性','sustainability','sustainable development'],['气候变化','climate change'],
+    ['空气污染','air pollution'],['环境工程','environmental engineering'],['可再生能源','renewable energy'],
+    ['旅游','tourism'],['酒店管理','hospitality management','hotel management'],['旅游经济学','tourism economics'],
+    ['消费者行为','consumer behavior','consumer behaviour'],['目的地营销','destination marketing'],
+    ['设计','design'],['教育','education'],['公共政策','public policy'],
     ['计算机音乐','computer music'],['音频工程','audio engineering']
   ];
   function officialUrl(value) {

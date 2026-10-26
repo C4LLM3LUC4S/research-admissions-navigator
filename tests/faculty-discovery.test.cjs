@@ -15,11 +15,26 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,271);assert.equal(C.faculty.length,139);
-  for(const lead of leads){assert.equal(lead.profileBodyStatus,'not_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
+  assert.equal(leads.length,271);assert.equal(C.faculty.length,304);
+  assert.equal(leads.filter(p=>p.facultyId).length,170);
+  for(const lead of leads){assert.equal(lead.profileBodyStatus,'body_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
   assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));
   assert.equal(C.directories.length,34);
+});
+
+test('research records keep directory identities, existing aliases and unknown supervision rather than inflating available places',()=>{
+  const pack=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/reviewed-directory-profiles-20261026.json'),'utf8'));
+  assert.equal(pack.faculty.length,165);assert.equal(pack.facultyUpdates.length,5);
+  for(const raw of pack.faculty){const f=C.faculty.find(f=>f.id===raw.id);assert.ok(f.directoryRole);assert.match(f.identityNote,/资格/);assert.equal(f.availability.state,'unknown');assert.equal(f.availability.cycle,null);}
+  const fung=C.faculty.find(f=>f.id==='wide-hkust-yi-r-fung');assert.equal(fung.reviewedProfileUrl,'https://researchportal.hkust.edu.hk/en/persons/may-fung/');
+  assert.equal(C.faculty.filter(f=>f.reviewedProfileUrl===fung.reviewedProfileUrl).length,1);
+  const existingLink=L.facultyLinks(C,fung).find(link=>link.url===fung.reviewedProfileUrl);
+  assert.equal(existingLink.bodyStatus,'body_read');
+  const alias={...L.defaultProfile(C),universityIds:['polyu'],researchQuery:'旅游经济学'};
+  assert.ok(L.facultyFor(C,alias).some(f=>f.name==='Haiyan Song'));
+  assert.ok(L.facultyFor(C,{...alias,researchQuery:'',interests:['旅游与酒店管理']}).length>40);
+  assert.deepEqual(L.matchedTopics({topics:['人文与社会科学']},['人工智能','网络与系统']),[]);
 });
 
 test('the full regular-directory census keeps every observed entry and separates failed profile reads',()=>{
