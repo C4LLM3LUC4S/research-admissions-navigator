@@ -95,6 +95,43 @@ class DirectoryCensusChecks(unittest.TestCase):
             builder.validate(self.catalog)
 
 
+class AcademicMapChecks(unittest.TestCase):
+    def setUp(self):
+        self.catalog = builder.build_catalog()
+
+    def test_seven_school_maps_keep_typed_counts_and_separate_support_units(self):
+        maps = {r['universityId']: r for r in self.catalog['academicCoverage']}
+        self.assertEqual(len(maps), 7)
+        self.assertEqual(len(maps['hku']['units']), 10)
+        self.assertEqual(len(maps['cuhksz']['units']), 9)
+        self.assertEqual([c['value'] for c in maps['hkustgz']['reportedCounts']], [4, 2, 1])
+        self.assertTrue(all(r['coverageComplete'] is False for r in maps.values()))
+        for row in maps.values():
+            for unit in row['units']:
+                if unit['kind'] in {'graduate_school', 'undergraduate_college'}:
+                    self.assertEqual(unit['teacherReviewStatus'], 'not_applicable')
+        self.assertEqual(maps['cityu']['structureStatus'], 'partial_cross_checked')
+
+    def test_an_unknown_faculty_total_cannot_silently_become_zero(self):
+        self.catalog['academicCoverage'][0]['units'][0]['teacherProfilesTotal'] = 0
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_claiming_a_read_entry_needs_its_actual_source(self):
+        unit = self.catalog['academicCoverage'][0]['units'][0]
+        self.assertEqual(unit['entryBodyStatus'], 'body_read')
+        unit['sourceIds'] = []
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_a_pending_personal_link_must_have_been_observed_on_that_directory(self):
+        entry = next(e for r in self.catalog['academicCoverage'] for u in r['units'] for e in u['staffEntries'] if e.get('profileLeads'))
+        self.assertTrue(all(p['profileBodyStatus'] == 'not_read' for p in entry['profileLeads']))
+        entry['profileLeads'][0]['url'] = 'https://www.polyu.edu.hk/sd/not-observed/'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+
 class PageAssetChecks(unittest.TestCase):
     def test_public_page_mirror_is_exactly_the_reviewed_offline_page(self):
         for name in ('index.html', 'catalog.js', 'logic.js', 'app.js', 'styles.css', 'discovery.css'):

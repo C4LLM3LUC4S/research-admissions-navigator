@@ -279,6 +279,9 @@ def build_catalog():
         else:
             catalog["faculty"].append(row)
     catalog["directories"].append(census["directory"])
+    academic_map = load("university-academic-map-20261026.json")
+    catalog["sources"].extend(academic_map["sources"])
+    catalog["academicCoverage"] = academic_map["universities"]
     return catalog
 
 
@@ -391,6 +394,35 @@ def validate(catalog):
         refs(fund["sourceIds"])
         assert fund["degree"] == "PhD" and set(fund["universities"]) == {"hku", "cuhk", "hkust", "polyu", "cityu"}
         assert "cuhksz" not in fund["universities"] and "hkustgz" not in fund["universities"]
+    maps = catalog.get("academicCoverage", [])
+    assert len(maps) == len(unis) and {m["universityId"] for m in maps} == unis
+    unit_ids = set()
+    for overview in maps:
+        assert overview["coverageComplete"] is False
+        refs(overview["sourceIds"])
+        for count in overview["reportedCounts"]:
+            assert count["label"] and type(count["value"]) is int and count["value"] > 0
+        for unit in overview["units"]:
+            assert unit["id"] not in unit_ids and unit["name"] != "Read more"
+            unit_ids.add(unit["id"])
+            assert unit["teacherProfilesTotal"] is None, "Unknown school headcount is not zero or available places"
+            assert unit["entryBodyStatus"] in {"body_read", "not_read", "access_failed"}
+            if unit["entryBodyStatus"] == "body_read":
+                refs(unit["sourceIds"])
+                assert unit["readMethod"] in {"anonymous_HTTP", "web_reader"}
+            for entry in unit["staffEntries"]:
+                assert entry["enumerationComplete"] is False and entry["teacherProfilesTotal"] is None
+                if entry["entryBodyStatus"] == "body_read":
+                    refs(entry["sourceIds"])
+                leads = entry.get("profileLeads", [])
+                assert len({lead["url"] for lead in leads}) == len(leads)
+                for lead in leads:
+                    assert lead["observedOn"] == entry["url"] and lead["directoryLabel"]
+                    assert lead["profileBodyStatus"] == "not_read" and lead["supervisionEligibility"] == lead["availability"] == "unknown"
+                    assert any(lead["url"] in sources[sid].get("discoveredLinks", []) for sid in entry["sourceIds"])
+            for child in unit["children"]:
+                assert child["teacherProfilesTotal"] is None and child["teacherReviewStatus"] == "pending"
+                assert child["entryBodyStatus"] == "not_read"
     counts = {"universities": len(unis), "programs": len(catalog["programs"]), "faculty": len(catalog["faculty"]), "sources": len(sources),
         "funding": len(catalog["funding"]), "degreeRoutes": sum(len(p["degrees"]) for p in catalog["programs"]),
         "facultyByUniversity": dict(Counter(f["universityId"] for f in catalog["faculty"])),
@@ -400,7 +432,9 @@ def validate(catalog):
         "requirementItems": sum(len(p.get("requirements", [])) for p in catalog["programs"]),
         "programsWithFinances": sum(bool(p.get("finances")) for p in catalog["programs"]),
         "financeItems": len(finance_ids), "officialDirectories": len(directory_ids),
-        "directoriesByUniversity": dict(Counter(d["universityId"] for d in catalog.get("directories", [])))}
+        "directoriesByUniversity": dict(Counter(d["universityId"] for d in catalog.get("directories", []))),
+        "academicUnitRows": len(unit_ids),
+        "listedChildUnits": sum(len(u["children"]) for m in maps for u in m["units"])}
     assert set(counts["facultyByUniversity"]) == unis
     return {"status": "passed", "checkedDate": CHECKED, "counts": counts,
         "assertions": ["seven institution identities stay separate", "all claims retain source references", "no invented clock for date-only deadlines", "HKU regular and CityU CS contact remain unknown", "past early round retained", "faculty topics use exact aliases only", "dated advert is not confirmed capacity", "HKPFS is PhD-only and does not cross to SZ/GZ"]}
