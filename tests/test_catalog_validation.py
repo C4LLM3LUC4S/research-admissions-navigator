@@ -42,6 +42,11 @@ class SourceDateChecks(unittest.TestCase):
 
 
 class PageAssetChecks(unittest.TestCase):
+    def test_public_page_mirror_is_exactly_the_reviewed_offline_page(self):
+        for name in ('index.html', 'catalog.js', 'logic.js', 'app.js', 'styles.css', 'discovery.css'):
+            self.assertEqual((builder.ROOT / 'docs' / name).read_bytes(), (builder.ROOT / 'dist' / name).read_bytes(), name)
+        self.assertTrue((builder.ROOT / 'docs/.nojekyll').is_file())
+
     def test_served_page_references_the_current_bytes_instead_of_an_older_cached_app(self):
         html = (builder.ROOT / 'dist/index.html').read_text(encoding='utf-8')
         for name in ('catalog.js', 'logic.js', 'app.js', 'styles.css', 'discovery.css'):

@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="color-scheme" content="light">
+  <title>研向 · 看清要求，找到方向</title>
+  <link rel="stylesheet" href="styles.css?v=b75216002e5df080">
+  <link rel="stylesheet" href="discovery.css?v=731b9e120a9a8ff5">
+  <script defer src="catalog.js?v=b5d1de33262fa829"></script>
+  <script defer src="logic.js?v=e5fb8b9b0a3ee82b"></script>
+  <script defer src="app.js?v=1e0b2c0975524b1a"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main-content">跳到主要内容</a>
+  <header class="site-header">
+    <a class="brand" href="#explore" aria-label="研向首页"><span class="brand-mark" aria-hidden="true">研</span><span><strong>研向<span class="working-name">暂名</span></strong><small>看清要求，找到方向</small></span></a>
+    <nav class="navigation" aria-label="主要页面">
+      <button type="button" data-view="explore" aria-current="page">找学校和导师</button>
+      <button type="button" data-view="shortlist">我的清单</button>
+      <button type="button" data-view="sources">信息来源</button>
+      <button type="button" data-view="community">分享经历</button>
+    </nav>
+    <span class="local-label"><span aria-hidden="true">●</span> 本地使用</span>
+  </header>
+  <div class="scope-banner"><span aria-hidden="true">↗</span><p>先看官方要求，再判断适不适合自己。这里帮你整理方向和申请步骤，<strong>不预测录取概率</strong>。</p></div>
+  <main id="main-content" tabindex="-1">
+    <section id="view-explore" class="view">
+      <div class="page-heading"><div><p class="eyebrow">RESEARCH STARTS WITH A GOOD QUESTION</p><h1>先查清申请要求，再找想深入了解的老师。</h1><p class="subtitle">先选学校和学位，再看项目、教师研究和下一步准备。</p></div><div class="data-stamp" id="data-stamp"></div></div>
+      <p id="faculty-coverage" class="coverage-callout"></p>
+      <div class="explore-layout">
+        <aside class="profile-panel" aria-labelledby="profile-title">
+          <div class="panel-heading"><h2 id="profile-title">你想往哪里走？</h2><span>先选方向</span></div>
+          <form id="profile-form">
+            <fieldset><legend>想申请的学位</legend><div class="degree-switch"><label><input type="radio" name="degree" value="MPhil" checked><span>MPhil <small>研究型硕士</small></span></label><label><input type="radio" name="degree" value="PhD"><span>PhD <small>博士</small></span></label></div></fieldset>
+            <label class="field-label" for="intake-cycle">想申请哪一轮？</label><select id="intake-cycle" name="cycle"></select><p class="field-help">只列已核到的轮次。没有列出，不代表学校不招生。</p>
+            <fieldset><legend>学校和校区</legend><p class="field-help">香港、深圳、广州分别列出，申请规则不混用。</p><div id="university-filters" class="university-list"></div></fieldset>
+            <fieldset><legend>感兴趣的方向</legend><p class="field-help">用于找研究交集，不代表导师有名额。</p><div id="interest-filters" class="interest-list"></div></fieldset>
+            <label class="field-label" for="research-query">想研究什么？<span class="field-help">选填</span></label><input id="research-query" name="researchQuery" type="search" maxlength="160" placeholder="例如：网络化控制、推荐系统、三维重建"><p class="field-help">用逗号分开几个词。在已核实的研究关键词中查找，支持部分常用中英文对应词，不是录取预测。</p>
+            <details class="profile-details"><summary>补充自己的情况 <span>选填</span></summary><div class="details-body">
+              <label class="field-label" for="education">目前的学习阶段</label><select id="education" name="education"><option value="">暂不填写</option><option value="undergraduate">本科在读</option><option value="bachelor">本科已毕业</option><option value="master">硕士在读或已毕业</option><option value="other">其他阶段</option></select>
+              <label class="field-label" for="english">英语准备情况</label><select id="english" name="english"><option value="">暂不填写</option><option value="planning">准备考试中</option><option value="scheduled">已预约考试</option><option value="available">已有成绩，待核对项目要求</option><option value="exemption">准备核实豁免条件</option></select>
+              <label class="field-label" for="gpa-note">给自己的学业备注</label><textarea id="gpa-note" name="gpaNote" rows="3" maxlength="2000" placeholder="例如：GPA 的计分方式、还要补哪份材料"></textarea><p class="field-help">这些内容不参与打分，也不会自动上传。无需写姓名、学号或证件信息。</p>
+            </div></details>
+            <button class="button primary full-width" type="submit">把这些选择保存在本机</button><p class="privacy-note">筛选随时可用。只有你点击保存，个人备注才写入这个浏览器。</p>
+            <a class="button secondary full-width results-jump" id="results-jump" href="#results-panel">查看筛选结果</a><button type="button" id="clear-filters" class="button text-button full-width">清除学校和方向筛选</button>
+          </form>
+        </aside>
+        <div id="results-panel" class="results-panel" tabindex="-1">
+          <div class="results-toolbar"><div class="segmented" aria-label="查看内容"><button type="button" id="show-programs" aria-pressed="true">看项目要求</button><button type="button" id="show-faculty" aria-pressed="false">找相关老师</button><button type="button" id="show-directories" aria-pressed="false">看院系目录</button></div><span id="result-count" class="quiet-count" aria-live="polite"></span></div>
+          <p id="filter-note" class="results-note"></p>
+          <p id="preparation-note" class="evidence-note" hidden></p>
+          <div id="results" class="card-list"></div>
+          <button id="show-more-faculty" type="button" class="button secondary full-width" hidden>再看一些老师</button>
+          <section id="funding-results" class="funding-section" aria-labelledby="funding-title"><h2 id="funding-title">香港博士奖学金：还有单独申请步骤</h2><p class="field-help">这一栏只列HKPFS，不是全部资助。研究生助学金与学费另看具体项目卡片；没列出不等于没有。</p><div id="funding-cards"></div></section>
+        </div>
+      </div>
+    </section>
+    <section id="view-shortlist" class="view" hidden>
+      <div class="page-heading"><div><p class="eyebrow">YOUR NEXT STEPS</p><h1>把感兴趣，变成下一步。</h1><p class="subtitle">清单只存在本机。带走一份备份，下次可以接着整理。</p></div></div>
+      <div class="portable-panel"><div><h2>保存和恢复</h2><p>备份包含备注、导师清单、待办、来源编号和资料版本，不是官网全文。页面会使用当前版本的招生资料；旧政策请保留对应资料目录一起核对。</p></div><div class="portable-actions"><button type="button" id="export-local" class="button primary">下载完整备份</button><label class="button secondary file-button" for="import-local">载入备份<input id="import-local" type="file" accept="application/json,.json"></label><button type="button" id="reset-local" class="button text-button">清空本机记录</button></div></div>
+      <details id="catalog-history-panel" class="source-details" hidden><summary>这份清单保留过哪些资料版本？</summary><p class="field-help">这里保留备份里带来的资料版本，不是官网全文，也不能证明每条笔记当时依据哪条政策。页面使用当前目录，旧笔记仍需按项目原页复核。继续接续请用本版或更新版本，保留原文件与对应资料包。</p><ul id="catalog-history"></ul></details>
+      <div class="shortlist-layout"><section aria-labelledby="saved-faculty-title"><h2 id="saved-faculty-title" class="section-title">想进一步了解的老师</h2><div id="saved-faculty" class="card-list"></div></section><section class="task-panel" aria-labelledby="tasks-title"><h2 id="tasks-title">准备清单</h2><form id="task-form"><label for="task-text" class="field-label">加一件能具体完成的事</label><input id="task-text" type="text" maxlength="500" placeholder="例如：读两篇论文，再整理想问的问题" required><button class="button secondary" type="submit">加入待办</button></form><ul id="tasks" class="tasks"></ul><p class="field-help">“查清要求”比“提高录取率”更适合做一项待办。</p></section></div>
+    </section>
+    <section id="view-sources" class="view" hidden>
+      <div class="page-heading"><div><p class="eyebrow">CHECK THE ORIGINAL</p><h1>每条信息，都留一个出处。</h1><p class="subtitle">先看适用于哪个项目和入学轮次，再打开官方页面核对。网页会更新，核查日期不是长期保证。</p></div></div>
+      <div id="source-list" class="source-list"></div>
+    </section>
+    <section id="view-community" class="view" hidden>
+      <div class="page-heading"><div><p class="eyebrow">EXPERIENCE, WITH CONTEXT</p><h1>分享过程，也保留没成功的部分。</h1><p class="subtitle">这一版只帮你整理匿名草稿，下载到本机，不会发布，也没有公共投稿后台。</p></div></div>
+      <div class="community-layout"><form id="community-form" class="community-form"><div class="form-grid"><div><label for="community-university" class="field-label">学校 / 校区</label><select id="community-university" required></select></div><div><label for="community-program" class="field-label">项目</label><select id="community-program" required></select></div><div><label for="community-cycle" class="field-label">申请轮次</label><input id="community-cycle" maxlength="100" placeholder="例如：2027/28 Fall" required></div><div><label for="community-outcome" class="field-label">目前的结果</label><select id="community-outcome" required><option value="">请选择</option><option value="no_response">尚无回复</option><option value="rejected">未获录取</option><option value="admitted">收到正式录取</option><option value="pending">仍在申请 / 审核</option><option value="withdrew">主动退出</option></select></div></div><label for="community-notes" class="field-label">哪一步最有参考价值？</label><textarea id="community-notes" rows="6" maxlength="4000" placeholder="写清做了什么、何时做、结果怎样。不要写他人姓名、邮箱、私信截图或未经同意的材料。" required></textarea><label class="consent-label"><input id="community-consent" type="checkbox" required><span>我已去除本人和他人的可识别信息，同意把这份匿名草稿导出到本机。我知道这不会公开提交。</span></label><button class="button primary" type="submit">下载匿名经历草稿</button></form><aside class="community-context"><span class="note-icon" aria-hidden="true">“</span><h2>经历有帮助，条件更重要。</h2><p>老师曾经回复过某个人，不代表现在仍有名额。某次录取或拒绝，也不能直接变成你的录取概率。</p><p>这里没有真实投稿计数、成功率或虚构评价。分享前先把项目、轮次和结果写清楚。</p></aside></div>
+    </section>
+    <div id="notice" class="notice" role="status" aria-live="polite" hidden></div>
+    <div id="startup-error" class="empty-state" hidden></div>
+  </main>
+  <footer><span>研向 · 先弄清楚，再向前一步。</span><span>本地原型 · 非官方招生平台 · 不代替院校决定</span></footer>
+</body>
+</html>

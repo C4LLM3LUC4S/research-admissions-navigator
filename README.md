@@ -6,6 +6,8 @@
 
 ## 打开方式
 
+**网页入口：<https://c4llm3luc4s.github.io/research-admissions-navigator/>**。网页部署状态见仓库的Pages环境；若暂时打不开，可用下面的离线方式。网页与离线版使用同一套页面和资料，没有注册、录取预测或个人资料上传接口。本机保存与备份仍由你选择；换设备请带上完整备份。
+
 下载源码后直接打开 `dist/index.html`，不需要注册、账户、API 密钥或服务器。[GitHub Releases](https://github.com/C4LLM3LUC4S/research-admissions-navigator/releases)中有离线包时，选择`Yanxiang-版本-offline.zip`，先完整解压，再打开 `app/index.html`；只想使用页面，不必运行下面的开发命令。数据入口为 `data/catalog.json`，页面使用由脚本生成的 `dist/catalog.js`。
 
 ```powershell
@@ -15,6 +17,8 @@ python -m unittest discover -s tests -p test_catalog_validation.py
 ```
 
 页面和数据状态以 `STATUS.json` 为准。功能与范围见 [产品说明](PRODUCT_BRIEF.md)。
+
+`docs/` 是发布到GitHub Pages的自动生成副本，请改 `dist/` 后运行目录构建命令；检查流程会拒绝不一致的网页副本。
 
 ## 从哪里开始准备
 
