@@ -5,7 +5,7 @@
   else root.APP_LOGIC = api;
 }(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康'];
+  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频'];
   const KEYWORDS = [
     /人工智能|artificial intelligence|(?:^|\W)ai(?:$|\W)|ai4science/i,
     /机器学习|深度学习|machine learning|deep learning|distributed learning|reinforcement learning/i,
@@ -17,7 +17,13 @@
     /理论|优化|theory|optimization|game|mathematics/i,
     /数学|统计|math|statistic/i,
     /金融|精算|financ|fintech|actuari/i,
-    /生物医学|健康|biomed|health/i
+    /生物医学|健康|biomed|health/i,
+    /软件工程|编程语言|software engineering|programming languages/i,
+    /网络安全|cybersecurity|security|cryptograph/i,
+    /人机交互|human.computer|human.ai interaction/i,
+    /数据库|数据系统|database|data systems/i,
+    /计算机图形学|computer graphics/i,
+    /计算机音乐|音频|computer music|audio/i
   ];
   const OFFICIAL_HOSTS = ['hku.hk','cuhk.edu.hk','hkust.edu.hk','ust.hk','polyu.edu.hk','cityu.edu.hk','cuhk.edu.cn','hkust-gz.edu.cn','ugc.edu.hk','rgc.edu.hk'];
   const EDUCATION = ['','undergraduate','bachelor','master','other'];
@@ -35,7 +41,12 @@
     ['统计','统计学','statistics','statistical'],['概率','概率论','probability'],['贝叶斯','bayesian'],
     ['因果推断','causal inference'],['时间序列','time series'],['随机矩阵','random matrices','random matrix theory'],
     ['金融科技','financial technology','fintech'],['量化金融','quantitative finance'],['金融工程','financial engineering'],
-    ['风险管理','risk management'],['生存分析','survival analysis'],['精准医疗','precision medicine']
+    ['风险管理','risk management'],['生存分析','survival analysis'],['精准医疗','precision medicine'],
+    ['软件工程','software engineering'],['编程语言','programming languages'],['程序分析','program analysis'],
+    ['人机交互','human-computer interaction','human computer interaction'],['可视化','visualization'],
+    ['数据库','database','databases'],['网络安全','cybersecurity','network security'],
+    ['密码学','cryptography'],['差分隐私','differential privacy'],['计算机图形学','computer graphics'],
+    ['计算机音乐','computer music'],['音频工程','audio engineering']
   ];
   function officialUrl(value) {
     try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password &&
@@ -43,11 +54,29 @@
     catch (_) { return null; }
   }
   function defaultProfile(catalog) { return {degree:'MPhil',cycle:catalog?catalog.cycle:'',universityIds:[],interests:[],researchQuery:'',education:'',english:'',gpaNote:''}; }
+  function publicHttps(value) {
+    try {const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&(!u.port||u.port==='443')?u.href:null;}catch(_){return null;}
+  }
+  function sourceUrl(catalog,source) {
+    const official=officialUrl(source.url);if(official)return official;
+    if(source.evidenceLevel!=='teacher_page_linked_from_official_profile')return null;
+    const parent=catalog.sources.find(s=>s.id===source.parentSourceId);
+    return parent&&officialUrl(parent.url)&&(parent.discoveredLinks||[]).includes(source.url)?publicHttps(source.url):null;
+  }
+  function facultyLinks(catalog,faculty) {
+    return (faculty.extraLinks||[]).flatMap(item=>{
+      const parent=catalog.sources.find(s=>s.id===item.parentSourceId);
+      const url=publicHttps(item.url);
+      if(!url||!parent||!officialUrl(parent.url)||parent.url!==faculty.profileUrl||
+        !faculty.sourceIds.includes(parent.id)||!(parent.discoveredLinks||[]).includes(item.url))return [];
+      return [{...item,url}];
+    });
+  }
   function cyclesFor(catalog) { return [...new Set([catalog.cycle,...catalog.programs.flatMap(p=>[p.cycle,...(p.deadlines||[]).map(d=>d.cycle)])].filter(Boolean))]; }
   function cycleLabel(value) { const spring=/^(\d{4}\/\d{2}) Spring$/.exec(value||'');return !value?'先看全部已核轮次':spring?(Number(spring[1].slice(0,4))+1)+'年春季（'+spring[1]+'学年）':value+'学年'; }
   function matchedTopics(faculty, interests) {
-    const text = (faculty.topics || []).join(' ');
-    return interests.filter(tag => INTERESTS.includes(tag) && KEYWORDS[INTERESTS.indexOf(tag)].test(text));
+    return interests.filter(tag => INTERESTS.includes(tag) && (faculty.topics||[]).some(topic=>
+      INTERESTS.includes(topic)?topic===tag:KEYWORDS[INTERESTS.indexOf(tag)].test(topic)));
   }
   function programsFor(catalog, profile) {
     return catalog.programs.filter(p => (p.degrees || []).includes(profile.degree) &&
@@ -196,5 +225,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {INTERESTS,officialUrl,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
+  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
 }));

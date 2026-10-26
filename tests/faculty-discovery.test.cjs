@@ -11,6 +11,40 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
   for(const f of C.faculty){assert.ok(f.researchKeywords.length);assert.ok(f.keywordSourceIds.every(id=>sources.has(id)));assert.ok(L.officialUrl(f.profileUrl));assert.notEqual(f.availability.state,'confirmed');}
   for(const d of C.directories){assert.equal(d.coverageComplete,false);assert.ok(L.officialUrl(d.url));assert.ok(d.sourceIds.every(id=>sources.has(id)));}
 });
+
+test('the full regular-directory census keeps every observed entry and separates failed profile reads',()=>{
+  const d=C.directories.find(d=>d.id==='census-hkust-cse-regular'),c=d.census;
+  assert.equal(c.observedTotal,53);assert.equal(c.entries.length,53);
+  assert.equal(new Set(c.entries.map(e=>e.profileUrl)).size,53);
+  assert.equal(c.entries.filter(e=>e.profileRead).length,38);assert.equal(c.profilesFailed,15);
+  assert.equal(c.enumerationComplete,true);assert.equal(d.coverageComplete,false);
+  for(const entry of c.entries.filter(e=>e.profileRead)){
+    const f=C.faculty.find(f=>f.profileUrl===entry.profileUrl);assert.ok(f,entry.name);
+    assert.ok(f.directorySourceIds.includes(d.id));assert.equal(f.availability.state,'unknown');
+  }
+  assert.equal(C.faculty.filter(f=>f.id==='james-kwok').length,1);
+  assert.ok(!C.faculty.some(f=>f.id==='census-hkust-jamesk'));
+});
+
+test('an external personal website needs its exact observed official-parent link, never a domain-wide exception',()=>{
+  const f=C.faculty.find(f=>f.id==='census-hkust-zxf'),links=L.facultyLinks(C,f);
+  assert.ok(links.some(x=>x.url==='https://sites.google.com/view/xiaofang-zhou'&&x.bodyStatus==='body_read'));
+  assert.equal(L.officialUrl('https://sites.google.com/view/xiaofang-zhou'),null);
+  const s=C.sources.find(s=>s.id==='census-hkust-zxf-personal');assert.equal(L.sourceUrl(C,s),s.url);
+  for(const bad of ['https://sites.google.com/view/someone-else','javascript:alert(1)','https://user:secret@sites.google.com/view/xiaofang-zhou','http://sites.google.com/view/xiaofang-zhou']){
+    assert.equal(L.sourceUrl(C,{...s,url:bad}),null);
+    assert.deepEqual(L.facultyLinks(C,{...f,extraLinks:[{...f.extraLinks[0],url:bad}]}),[]);
+  }
+  assert.equal(L.sourceUrl(C,{...s,parentSourceId:'missing'}),null);
+  assert.deepEqual(L.facultyLinks(C,{...f,profileUrl:'https://cse.hkust.edu.hk/unrelated'}),[]);
+});
+
+test('new subject categories do not silently cross-match other canonical categories',()=>{
+  assert.deepEqual(L.matchedTopics({topics:['网络安全','数据库与数据系统']},['网络与系统','网络安全','数据库与数据系统']),['网络安全','数据库与数据系统']);
+  for(const query of ['编程语言','人机交互','密码学','计算机音乐'])assert.ok(L.facultyFor(C,{...L.defaultProfile(C),universityIds:['hkust'],researchQuery:query}).length,query);
+  const old=JSON.parse(require('node:fs').readFileSync(require('node:path').join(__dirname,'../data/snapshots/62f69402a15a65a232876e747aea5c41c982fd9a4763e4ff44450741ce31e625.json'),'utf8'));
+  assert.ok(old.faculty.every(f=>C.faculty.some(current=>current.id===f.id)));
+});
 test('research queries use grounded keywords and bounded translations, not claims or arbitrary substrings',()=>{
   const f={researchKeywords:['Networked control','Robotics','Fair learning','Reinforcement learning'],summary:'这里没有核实MFAＣ、机器翻译和大语言模型。',topics:['机器人与控制']};
   assert.deepEqual(L.matchedResearchTerms(f,'网络化控制, 机器人'),['Networked control','Robotics']);
