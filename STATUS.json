@@ -4,26 +4,29 @@
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-26",
   "working_name": "研向",
-  "scope": "七校研究型硕博申请导航；扩充AI、计算机与控制，并开始数学、统计、金融和生物统计等相邻方向。部分目录，不是完整导师库。",
+  "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
     "programme_or_route_cards": 16,
     "degree_routes": 29,
-    "faculty": 304,
-    "official_sources": 654,
+    "faculty": 327,
+    "official_sources": 707,
     "programmes_with_partial_requirements": 14,
     "requirement_items": 45,
     "programmes_with_partial_finances": 7,
     "finance_items": 12,
     "official_directory_entries": 34,
     "teacher_linked_sources": 1,
-    "total_sources": 655,
+    "total_sources": 708,
     "academic_unit_rows": 66,
-    "listed_child_units": 157,
+    "listed_child_units": 185,
     "pending_profile_links": 271,
     "reviewed_new_profiles": 165,
     "reviewed_existing_updates": 5,
-    "profile_bodies_read": 271
+    "profile_bodies_read": 271,
+    "cityu_new_profiles": 23,
+    "cityu_existing_updates": 5,
+    "cityu_deferred_profiles": 4
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -54,10 +57,11 @@
     "七校学术架构分层总表、逐单位入口状态与待核个人主页；不混算学院、教师与招生名额",
     "逐项整理170份研究栏目及原职位，保留5位既有编号，增加165条研究资料；不把教学/实践/荣休等职务当作指导资格",
     "补环境、材料能源、土木机械、经济管理、人文社科、教育、设计及旅游酒店方向；保留原研究词和未知名额",
-    "读取101个下属单位与95个人员导航，失败和完整名录待核状态单列"
+    "读取128个下属单位与107个人员导航，12个读取失败和完整名录待核状态单列",
+    "城大数据科学系32张研究卡片逐条记录：新增23条、接续5个既有编号，4条个人页证据不足保持待核"
   ],
   "verification": {
-    "node_checks": 50,
+    "node_checks": 51,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -74,8 +78,8 @@
     "python_checks": 18
   },
   "limitations": [
-    "139位教师、34个官方目录入口仍非完整师资库。仅港科大CSE Regular一组完成53个主页枚举，本轮读到38个，15个网络超时；其他分类和院系未核全。",
-    "104位实际接收情况未知；1份2026/2027广告、2份未注明年度的博士接受说明都不证明本轮余位。",
+    "327位教师、34个官方目录入口仍非完整师资库。完整枚举、逐人研究方向、指导资格与当期名额分开核查；已读正文不代表全院已核完。",
+    "324位实际接收情况未知；1份2026/2027广告、2份未注明年度的博士接受说明都不证明本轮余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
     "当前16条项目/申请路线：14条有部分要求、7条有部分费用或资助，不能把同校CSE规则套给新增院系。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",

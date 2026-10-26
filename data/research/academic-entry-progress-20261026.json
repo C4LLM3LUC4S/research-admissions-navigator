@@ -1394,6 +1394,198 @@
       "bodySha256": "99a2342217e97ea38ea183a9d7aeacb652ca37db1ee9b1a10130f7886045653f"
     },
     {
+      "id": "entry-read-staff-route-b2315bca144ea5fa",
+      "url": "https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff",
+      "title": "院系提供的人员导航 · https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "5e633dd896d1c8ebeb24f65565fe0271eaf52759882ff948fbdb0e02dc0e3685"
+    },
+    {
+      "id": "entry-read-staff-route-b71e33e23a8c168b",
+      "url": "https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff/academic-staff",
+      "title": "院系提供的人员导航 · https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "b3a1a5404c270bcd61b092f5a9fe67fe3f7ef297a920912a3e348852c77e3aaa"
+    },
+    {
+      "id": "entry-read-staff-route-ed8a31fcfe5b32d4",
+      "url": "https://www.cs.cityu.edu.hk/en/people/academic-staff",
+      "title": "院系提供的人员导航 · https://www.cs.cityu.edu.hk/en/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cs.cityu.edu.hk/en/people/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "a820d463e8a0eb3e319abb94cf791e961b4c382e89720b1dbf60ecb332b91cbd"
+    },
+    {
+      "id": "entry-read-staff-route-bf57970f394b56dd",
+      "url": "https://www.cs.cityu.edu.hk/en/people/teaching-staff",
+      "title": "院系提供的人员导航 · https://www.cs.cityu.edu.hk/en/people/teaching-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cs.cityu.edu.hk/en/people/teaching-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "1bfc89f37cb9724e10c7d0c35f0f3633dd65ce92cc2c6dde9a86e5f6bc1f29c4"
+    },
+    {
+      "id": "entry-read-staff-route-cfb2e2357341c607",
+      "url": "https://www.cah.cityu.edu.hk/en/people/academic-staff",
+      "title": "院系提供的人员导航 · https://www.cah.cityu.edu.hk/en/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cah.cityu.edu.hk/en/people/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "3bb0814ed65e4cc4b2073e997208a738e1e497af7cc1a5b41dd7469b25648f15"
+    },
+    {
+      "id": "entry-read-staff-route-3733393e8a4579b9",
+      "url": "https://www.en.cityu.edu.hk/en/our-people/faculty-and-teaching-staff",
+      "title": "院系提供的人员导航 · https://www.en.cityu.edu.hk/en/our-people/faculty-and-teaching-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.en.cityu.edu.hk/en/our-people/faculty-and-teaching-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "8b87870b1b1991ff8c928c3af2c621b7d7a5a0fbc06c1f9d9626066860d5d4d3"
+    },
+    {
+      "id": "entry-read-staff-route-9b86b8f6e3a037fc",
+      "url": "https://lt.cityu.edu.hk/en/people",
+      "title": "院系提供的人员导航 · https://lt.cityu.edu.hk/en/people",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://lt.cityu.edu.hk/en/people",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "220142a75ba399ee655c34c5996f146b255263427817a82cf28678af091dc457"
+    },
+    {
+      "id": "entry-read-staff-route-8b1f40f2b0ad8d85",
+      "url": "https://lt.cityu.edu.hk/en/people/academic-staff",
+      "title": "院系提供的人员导航 · https://lt.cityu.edu.hk/en/people/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://lt.cityu.edu.hk/en/people/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "c148343a6f23910acc7698d8976d6c9708daa501bce99175a5801ccec99a15ae"
+    },
+    {
+      "id": "entry-read-staff-route-f3ca8b9ff31781ef",
+      "url": "https://ssweb.cityu.edu.hk/en/people/staff-profile/academic-staff",
+      "title": "院系提供的人员导航 · https://ssweb.cityu.edu.hk/en/people/staff-profile/academic-staff",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ssweb.cityu.edu.hk/en/people/staff-profile/academic-staff",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "80432fea60414f0ba5e3ddfb888f1cf7050eea5cadbfc6567e0000ee482e1872"
+    },
+    {
+      "id": "entry-read-staff-route-03cbf4dd3d14027b",
+      "url": "https://ssweb.cityu.edu.hk/en/disciplines/crime-science/people",
+      "title": "院系提供的人员导航 · https://ssweb.cityu.edu.hk/en/disciplines/crime-science/people",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ssweb.cityu.edu.hk/en/disciplines/crime-science/people",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "3e9e3a0ffe429e2aee4064005da6e89ef9f1d1d75c952b7f8149730f866c64ba"
+    },
+    {
+      "id": "entry-read-staff-route-9cad22e343a2a467",
+      "url": "https://ssweb.cityu.edu.hk/en/disciplines/psychology/people",
+      "title": "院系提供的人员导航 · https://ssweb.cityu.edu.hk/en/disciplines/psychology/people",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ssweb.cityu.edu.hk/en/disciplines/psychology/people",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "66a88aa37f7c46fd1ca4409c0d644dfd71cedafb6667e6d9b44244aed8f7398b"
+    },
+    {
+      "id": "entry-read-staff-route-4efd9e939486a34d",
+      "url": "https://ssweb.cityu.edu.hk/en/disciplines/social-work-and-counselling/people",
+      "title": "院系提供的人员导航 · https://ssweb.cityu.edu.hk/en/disciplines/social-work-and-counselling/people",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://ssweb.cityu.edu.hk/en/disciplines/social-work-and-counselling/people",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "e637df4bef3349c527fe7646931286f701194708b726b7fb225a036524241614"
+    },
+    {
       "id": "entry-read-staff-route-0cfb6c96de2aa6b9",
       "url": "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
       "title": "院系提供的人员导航 · https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
@@ -2864,6 +3056,182 @@
         "页面发布时间未核实；核查日不是任职或政策生效日。"
       ],
       "bodySha256": "84c0f749e2dac30306c66452ba8bdf3a682c555107ce5b5a996c5c5a2973addf"
+    },
+    {
+      "id": "entry-read-academic-child-633188f87f12cdd4",
+      "url": "https://www.cityu.edu.hk/neuro/",
+      "title": "学系/学域入口 · https://www.cityu.edu.hk/neuro/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cityu.edu.hk/neuro/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    {
+      "id": "entry-read-academic-child-321b23c306c0c1f2",
+      "url": "https://www.cb.cityu.edu.hk/dao/",
+      "title": "学系/学域入口 · https://www.cb.cityu.edu.hk/dao/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cb.cityu.edu.hk/dao/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "f086a48993731ce7738c15582dc12c2c5e7f838c39e6c0060dc33e0c57808f2b"
+    },
+    {
+      "id": "entry-read-academic-child-20ad62210ec340ed",
+      "url": "https://www.cityu.edu.hk/bios/",
+      "title": "学系/学域入口 · https://www.cityu.edu.hk/bios/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cityu.edu.hk/bios/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    {
+      "id": "entry-read-academic-child-028b2b359047f08f",
+      "url": "https://www.cs.cityu.edu.hk/",
+      "title": "学系/学域入口 · http://www.cs.cityu.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://www.cs.cityu.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "e4dd3764f8570fd6f9c2f5aa7df8acbab04597db514659dcf633ea432dda27e4"
+    },
+    {
+      "id": "entry-read-academic-child-7b1c240a602412d1",
+      "url": "https://www.cityu.edu.hk/sdsc/",
+      "title": "学系/学域入口 · https://www.cityu.edu.hk/sdsc/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cityu.edu.hk/sdsc/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    {
+      "id": "entry-read-academic-child-4aafc8b7b31e2d07",
+      "url": "https://www.cityu.edu.hk/ace/",
+      "title": "学系/学域入口 · https://www.cityu.edu.hk/ace/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cityu.edu.hk/ace/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+    },
+    {
+      "id": "entry-read-academic-child-d987799db06eae67",
+      "url": "https://www.cah.cityu.edu.hk/",
+      "title": "学系/学域入口 · http://cah.cityu.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://cah.cityu.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "6c942f2d8f12e37dcee5f9a6d6da0f01c804751cd7c0cc75c751deac58e3f728"
+    },
+    {
+      "id": "entry-read-academic-child-42f5160da867753a",
+      "url": "https://www.en.cityu.edu.hk/",
+      "title": "学系/学域入口 · https://www.en.cityu.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.en.cityu.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "971d6836260a464443717a9669d380a2b2479bf883a5f2028304794abe425e26"
+    },
+    {
+      "id": "entry-read-academic-child-6c509905f3e938ad",
+      "url": "https://lt.cityu.edu.hk/",
+      "title": "学系/学域入口 · http://lt.cityu.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://lt.cityu.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "37bbb1679a95892f43b19d34257310bb880f9e766f5106dd3b576e701688e64b"
+    },
+    {
+      "id": "entry-read-academic-child-7db02d7be2c089cd",
+      "url": "https://ssweb.cityu.edu.hk/",
+      "title": "学系/学域入口 · http://ssweb.cityu.edu.hk/",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：http://ssweb.cityu.edu.hk/",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "820b94c4e04a62daf40b04365b055d4d3a89ae8f44d4171d72022daa2d017c1b"
+    },
+    {
+      "id": "entry-read-academic-child-7dbe6f2899c780fd",
+      "url": "https://www.cityu.edu.hk/vcs",
+      "title": "学系/学域入口 · https://www.cityu.edu.hk/vcs",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "claims": [
+        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+      ],
+      "knownIssues": [
+        "原链接：https://www.cityu.edu.hk/vcs",
+        "页面发布时间未核实；核查日不是任职或政策生效日。"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
     },
     {
       "id": "entry-read-academic-child-6557e3e2e7349712",
@@ -6357,6 +6725,666 @@
       ]
     },
     {
+      "url": "http://www.cityu.edu.hk/bme/",
+      "retrievedUrl": "http://www.cityu.edu.hk/bme/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-1",
+          "name": "Department of Biomedical Engineering"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/bms/",
+      "retrievedUrl": "http://www.cityu.edu.hk/bms/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-1",
+          "name": "Department of Biomedical Sciences"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/neuro/",
+      "retrievedUrl": "https://www.cityu.edu.hk/neuro/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-633188f87f12cdd4"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-1",
+          "name": "Department of Neuroscience"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/ac/",
+      "retrievedUrl": "http://www.cityu.edu.hk/ac/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-2",
+          "name": "Department of Accountancy"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "https://www.cb.cityu.edu.hk/dao/",
+      "retrievedUrl": "https://www.cb.cityu.edu.hk/dao/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-321b23c306c0c1f2"
+      ],
+      "bodySha256": "f086a48993731ce7738c15582dc12c2c5e7f838c39e6c0060dc33e0c57808f2b",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-2",
+          "name": "Department of Decision Analytics and Operations"
+        }
+      ],
+      "staffRoutes": [
+        {
+          "label": "Faculty and Staff",
+          "url": "https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff",
+          "retrievedUrl": "https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-b2315bca144ea5fa"
+          ],
+          "bodySha256": "5e633dd896d1c8ebeb24f65565fe0271eaf52759882ff948fbdb0e02dc0e3685",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "Academic Staff",
+          "url": "https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff/academic-staff",
+          "retrievedUrl": "https://www.cb.cityu.edu.hk/en/dao/about-us/faculty-and-staff/academic-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-b71e33e23a8c168b"
+          ],
+          "bodySha256": "b3a1a5404c270bcd61b092f5a9fe67fe3f7ef297a920912a3e348852c77e3aaa",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        }
+      ]
+    },
+    {
+      "url": "http://www.cityu.edu.hk/ef/",
+      "retrievedUrl": "http://www.cityu.edu.hk/ef/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-2",
+          "name": "Department of Economics and Finance"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/is/",
+      "retrievedUrl": "http://www.cityu.edu.hk/is/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-2",
+          "name": "Department of Information Systems"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mgt/",
+      "retrievedUrl": "http://www.cityu.edu.hk/mgt/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-2",
+          "name": "Department of Management"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mkt/",
+      "retrievedUrl": "http://www.cityu.edu.hk/mkt/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-2",
+          "name": "Department of Marketing"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/bios/",
+      "retrievedUrl": "https://www.cityu.edu.hk/bios/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-20ad62210ec340ed"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-3",
+          "name": "Department of Biostatistics"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cs.cityu.edu.hk/",
+      "retrievedUrl": "https://www.cs.cityu.edu.hk/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-028b2b359047f08f"
+      ],
+      "bodySha256": "e4dd3764f8570fd6f9c2f5aa7df8acbab04597db514659dcf633ea432dda27e4",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-3",
+          "name": "Department of Computer Science"
+        }
+      ],
+      "staffRoutes": [
+        {
+          "label": "People",
+          "url": "https://www.cs.cityu.edu.hk/en/people/academic-staff",
+          "retrievedUrl": "https://www.cs.cityu.edu.hk/en/people/academic-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-ed8a31fcfe5b32d4"
+          ],
+          "bodySha256": "a820d463e8a0eb3e319abb94cf791e961b4c382e89720b1dbf60ecb332b91cbd",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "Academic Staff",
+          "url": "https://www.cs.cityu.edu.hk/en/people/academic-staff",
+          "retrievedUrl": "https://www.cs.cityu.edu.hk/en/people/academic-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-ed8a31fcfe5b32d4"
+          ],
+          "bodySha256": "a820d463e8a0eb3e319abb94cf791e961b4c382e89720b1dbf60ecb332b91cbd",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "Teaching Staff",
+          "url": "https://www.cs.cityu.edu.hk/en/people/teaching-staff",
+          "retrievedUrl": "https://www.cs.cityu.edu.hk/en/people/teaching-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-bf57970f394b56dd"
+          ],
+          "bodySha256": "1bfc89f37cb9724e10c7d0c35f0f3633dd65ce92cc2c6dde9a86e5f6bc1f29c4",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.cityu.edu.hk/sdsc/",
+      "retrievedUrl": "https://www.cityu.edu.hk/sdsc/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-7b1c240a602412d1"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-3",
+          "name": "Department of Data Science"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/ace/",
+      "retrievedUrl": "https://www.cityu.edu.hk/ace/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-4aafc8b7b31e2d07"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-4",
+          "name": "Department of Architecture and Civil Engineering"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.ee.cityu.edu.hk/home/",
+      "retrievedUrl": "http://www.ee.cityu.edu.hk/home/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "1732bc84f262478a76f3358ee12b9bf9a42939c8dbcf82a7995d99d6ddf0c8e4",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-4",
+          "name": "Department of Electrical Engineering"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mse/",
+      "retrievedUrl": "http://www.cityu.edu.hk/mse/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-4",
+          "name": "Department of Materials Science and Engineering"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mne/",
+      "retrievedUrl": "http://www.cityu.edu.hk/mne/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-4",
+          "name": "Department of Mechanical Engineering"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/sye/",
+      "retrievedUrl": "http://www.cityu.edu.hk/sye/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-4",
+          "name": "Department of Systems Engineering"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://cah.cityu.edu.hk/",
+      "retrievedUrl": "https://www.cah.cityu.edu.hk/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-d987799db06eae67"
+      ],
+      "bodySha256": "6c942f2d8f12e37dcee5f9a6d6da0f01c804751cd7c0cc75c751deac58e3f728",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-5",
+          "name": "Department of Chinese and History"
+        }
+      ],
+      "staffRoutes": [
+        {
+          "label": "Academic Staff",
+          "url": "https://www.cah.cityu.edu.hk/en/people/academic-staff",
+          "retrievedUrl": "https://www.cah.cityu.edu.hk/en/people/academic-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-cfb2e2357341c607"
+          ],
+          "bodySha256": "3bb0814ed65e4cc4b2073e997208a738e1e497af7cc1a5b41dd7469b25648f15",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        }
+      ]
+    },
+    {
+      "url": "https://www.en.cityu.edu.hk/",
+      "retrievedUrl": "https://www.en.cityu.edu.hk/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-42f5160da867753a"
+      ],
+      "bodySha256": "971d6836260a464443717a9669d380a2b2479bf883a5f2028304794abe425e26",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-5",
+          "name": "Department of English"
+        }
+      ],
+      "staffRoutes": [
+        {
+          "label": "Our People",
+          "url": "https://www.en.cityu.edu.hk/en/our-people/faculty-and-teaching-staff",
+          "retrievedUrl": "https://www.en.cityu.edu.hk/en/our-people/faculty-and-teaching-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-3733393e8a4579b9"
+          ],
+          "bodySha256": "8b87870b1b1991ff8c928c3af2c621b7d7a5a0fbc06c1f9d9626066860d5d4d3",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        }
+      ]
+    },
+    {
+      "url": "http://lt.cityu.edu.hk/",
+      "retrievedUrl": "https://lt.cityu.edu.hk/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-6c509905f3e938ad"
+      ],
+      "bodySha256": "37bbb1679a95892f43b19d34257310bb880f9e766f5106dd3b576e701688e64b",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-5",
+          "name": "Department of Linguistics and Translation"
+        }
+      ],
+      "staffRoutes": [
+        {
+          "label": "People",
+          "url": "https://lt.cityu.edu.hk/en/people",
+          "retrievedUrl": "https://lt.cityu.edu.hk/en/people",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-9b86b8f6e3a037fc"
+          ],
+          "bodySha256": "220142a75ba399ee655c34c5996f146b255263427817a82cf28678af091dc457",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "Academic Staff",
+          "url": "https://lt.cityu.edu.hk/en/people/academic-staff",
+          "retrievedUrl": "https://lt.cityu.edu.hk/en/people/academic-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-8b1f40f2b0ad8d85"
+          ],
+          "bodySha256": "c148343a6f23910acc7698d8976d6c9708daa501bce99175a5801ccec99a15ae",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        }
+      ]
+    },
+    {
+      "url": "http://www6.cityu.edu.hk/com/",
+      "retrievedUrl": "http://www6.cityu.edu.hk/com/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-5",
+          "name": "Department of Media and Communication"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/pia/",
+      "retrievedUrl": "http://www.cityu.edu.hk/pia/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-5",
+          "name": "Department of Public and International Affairs"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://ssweb.cityu.edu.hk/",
+      "retrievedUrl": "https://ssweb.cityu.edu.hk/",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-7db02d7be2c089cd"
+      ],
+      "bodySha256": "820b94c4e04a62daf40b04365b055d4d3a89ae8f44d4171d72022daa2d017c1b",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-5",
+          "name": "Department of Social and Behavioural Sciences"
+        }
+      ],
+      "staffRoutes": [
+        {
+          "label": "Academic Staff",
+          "url": "https://ssweb.cityu.edu.hk/en/people/staff-profile/academic-staff",
+          "retrievedUrl": "https://ssweb.cityu.edu.hk/en/people/staff-profile/academic-staff",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-f3ca8b9ff31781ef"
+          ],
+          "bodySha256": "80432fea60414f0ba5e3ddfb888f1cf7050eea5cadbfc6567e0000ee482e1872",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "People",
+          "url": "https://ssweb.cityu.edu.hk/en/disciplines/crime-science/people",
+          "retrievedUrl": "https://ssweb.cityu.edu.hk/en/disciplines/crime-science/people",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-03cbf4dd3d14027b"
+          ],
+          "bodySha256": "3e9e3a0ffe429e2aee4064005da6e89ef9f1d1d75c952b7f8149730f866c64ba",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "People",
+          "url": "https://ssweb.cityu.edu.hk/en/disciplines/psychology/people",
+          "retrievedUrl": "https://ssweb.cityu.edu.hk/en/disciplines/psychology/people",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-9cad22e343a2a467"
+          ],
+          "bodySha256": "66a88aa37f7c46fd1ca4409c0d644dfd71cedafb6667e6d9b44244aed8f7398b",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        },
+        {
+          "label": "People",
+          "url": "https://ssweb.cityu.edu.hk/en/disciplines/social-work-and-counselling/people",
+          "retrievedUrl": "https://ssweb.cityu.edu.hk/en/disciplines/social-work-and-counselling/people",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "entry-read-staff-route-4efd9e939486a34d"
+          ],
+          "bodySha256": "e637df4bef3349c527fe7646931286f701194708b726b7fb225a036524241614",
+          "failure": null,
+          "completeFacultyEnumeration": false
+        }
+      ]
+    },
+    {
+      "url": "http://www.cityu.edu.hk/chem/",
+      "retrievedUrl": "http://www.cityu.edu.hk/chem/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-6",
+          "name": "Department of Chemistry"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www6.cityu.edu.hk/ma/",
+      "retrievedUrl": "http://www6.cityu.edu.hk/ma/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-6",
+          "name": "Department of Mathematics"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.phy.cityu.edu.hk/home.aspx",
+      "retrievedUrl": "http://www.phy.cityu.edu.hk/home.aspx",
+      "bodyStatus": "access_failed",
+      "sourceIds": [],
+      "bodySha256": null,
+      "failure": "HTTP Error 404: Site Not Found",
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-6",
+          "name": "Department of Physics"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/ph/",
+      "retrievedUrl": "http://www.cityu.edu.hk/ph/",
+      "bodyStatus": "body_read",
+      "sourceIds": [],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-7",
+          "name": "Department of Infectious Diseases and Public Health"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/vcs",
+      "retrievedUrl": "https://www.cityu.edu.hk/vcs",
+      "bodyStatus": "body_read",
+      "sourceIds": [
+        "entry-read-academic-child-7dbe6f2899c780fd"
+      ],
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "failure": null,
+      "completeFacultyEnumeration": false,
+      "parents": [
+        {
+          "universityId": "cityu",
+          "unitId": "cityu-7",
+          "name": "Department of Veterinary Clinical Sciences"
+        }
+      ],
+      "staffRoutes": []
+    },
+    {
       "url": "https://amat.hkust-gz.edu.cn/zh/",
       "retrievedUrl": "https://amat.hkust-gz.edu.cn/zh/",
       "bodyStatus": "body_read",
@@ -6711,11 +7739,11 @@
     }
   ],
   "counts": {
-    "childEntries": 112,
-    "childBodiesRead": 101,
-    "childFailures": 11,
-    "distinctStaffRoutes": 95,
-    "staffRouteBodiesRead": 95,
+    "childEntries": 140,
+    "childBodiesRead": 128,
+    "childFailures": 12,
+    "distinctStaffRoutes": 107,
+    "staffRouteBodiesRead": 107,
     "staffRouteFailures": 0
   },
   "scope": "Observed academic child units and their staff navigation, not an exhaustive whole-university faculty census."

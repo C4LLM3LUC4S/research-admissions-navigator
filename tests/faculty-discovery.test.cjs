@@ -15,7 +15,7 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,271);assert.equal(C.faculty.length,304);
+  assert.equal(leads.length,271);assert.equal(C.faculty.length,327);
   assert.equal(leads.filter(p=>p.facultyId).length,170);
   for(const lead of leads){assert.equal(lead.profileBodyStatus,'body_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
@@ -35,6 +35,18 @@ test('research records keep directory identities, existing aliases and unknown s
   assert.ok(L.facultyFor(C,alias).some(f=>f.name==='Haiyan Song'));
   assert.ok(L.facultyFor(C,{...alias,researchQuery:'',interests:['旅游与酒店管理']}).length>40);
   assert.deepEqual(L.matchedTopics({topics:['人文与社会科学']},['人工智能','网络与系统']),[]);
+});
+
+test('CityU expansion keeps unverified HTTP and institution-home redirects pending, and reuses existing people',()=>{
+  const pack=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/cityu-ds-reviewed-20261026.json'),'utf8'));
+  assert.equal(pack.faculty.length,23);assert.equal(pack.facultyUpdates.length,5);assert.equal(pack.deferred.length,4);
+  for(const f of pack.faculty){assert.ok(L.officialUrl(f.profileUrl));assert.equal(f.availability.state,'unknown');}
+  assert.ok(pack.deferred.some(f=>f.name==='Way KUO'&&f.retrievedUrl==='https://www.hkias.cityu.edu.hk/'));
+  const cityu=C.academicCoverage.find(r=>r.universityId==='cityu');
+  assert.equal(cityu.units.reduce((n,u)=>n+u.children.length,0),28);
+  const yin=L.facultyFor(C,{...L.defaultProfile(C),universityIds:['cityu'],researchQuery:'具身智能'});
+  assert.ok(yin.some(f=>f.name==='Peng YIN'));
+  assert.equal(C.faculty.filter(f=>f.id==='expand-cityu-qi-wu').length,1);
 });
 
 test('the full regular-directory census keeps every observed entry and separates failed profile reads',()=>{
