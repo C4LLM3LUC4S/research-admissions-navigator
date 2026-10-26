@@ -96,6 +96,22 @@ test('a malformed saved record is retained rather than overwritten on startup',(
   assert.ok(h.byId.get('results').childElementCount>0);
 });
 
+test('actual callbacks show observed linked-profile status and complete directory progress, then preserve follow-up in a backup',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);
+  el('research-query').value='时空数据库, Spatiotemporal';await el('profile-form').emit('input');
+  await el('show-faculty').emit('click');
+  assert.match(el('results').textContent,/Xiaofang/);assert.match(el('results').textContent,/继续看个人主页/);
+  const personal=h.walk(el('results')).find(x=>x.tagName==='a'&&x.href==='https://sites.google.com/view/xiaofang-zhou');assert.ok(personal);
+  assert.match(el('results').textContent,/不等于学校招生政策/);assert.match(el('results').textContent,/已读到正文/);
+  await h.button('results','加入跟进待办').emit('click');await el('export-local').emit('click');
+  const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.ok(backup.tasks.some(x=>x.facultyId==='census-hkust-zxf'));
+  await el('show-directories').emit('click');
+  assert.match(el('results').textContent,/53 个不同主页：已读 38 个，15 个读取超时/);
+  assert.match(el('results').textContent,/逐人进度与待核主页/);assert.match(el('results').textContent,/本轮读取超时，待核/);
+  const li=h.walk(el('results')).filter(x=>x.tagName==='li'&&/本轮已读正文|本轮读取超时/.test(x.textContent));assert.equal(li.length,53);
+  assert.equal(h.networkCalls(),0);
+});
+
 test('a changed catalog is explained without erasing the saved application notes',()=>{
   const saved=L.portable(C,{profile:{...L.defaultProfile(),gpaNote:'保留这条旧笔记'},shortlist:['lingjie-duan'],tasks:[],sourceIds:['gz-lingjie-duan']});
   saved.catalogSnapshotId='sha256:'+'0'.repeat(64);

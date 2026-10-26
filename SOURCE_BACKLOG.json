@@ -14,9 +14,9 @@
     },
     {
       "id": "faculty-coverage",
-      "task": "继续读33入口中的个人页，补生命科学、商科、社科人文及对应研究学位；首个alpha与HTTPS入口已交付，新增四条数学/统计/商科路线仍是部分覆盖。",
-      "acceptance": "每位记录当前单位、可解释研究主题和官方依据；研究方向、招生广告和当前名额分开。中文名用官网核对，不从拼音猜。",
-      "status": "107_partial_faculty_33_official_entries"
+      "task": "继续逐目录完整枚举，核38个教师页提供的延伸主页与15个网络超时，之后按院系补其他专业及对应研究学位。",
+      "acceptance": "记录枚举范围、身份、逐人正文状态和延伸链接来源。中文名以已读官网为准；未知名额和指导资格保持未知。",
+      "status": "139_partial_faculty_34_entries_one_regular_census_53_with_15_timeouts"
     },
     {
       "id": "intake-filter",

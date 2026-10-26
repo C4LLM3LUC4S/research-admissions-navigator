@@ -14,7 +14,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 CHECKED = "2026-10-26"
 CYCLE = "2027/28"
-TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康")
+TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频")
 # Exact aliases only: generic words such as 'systems' do not create extra fields.
 ALIASES = {
     "人工智能": {"人工智能", "ai", "ai4science", "ai theory", "大语言模型", "智能体", "人工智能与通信网络融合"},
@@ -46,7 +46,7 @@ def load(name):
 
 def topics(words):
     words = {word.casefold().strip() for word in words}
-    return [tag for tag in TAGS if words & ALIASES[tag]]
+    return [tag for tag in TAGS if words & ALIASES.get(tag, {tag})]
 
 
 def deadline(label, date, ids, *, clock=None, degree=None, route="常规申请", cycle=CYCLE):
@@ -270,6 +270,15 @@ def build_catalog():
     quantitative = load("quantitative-programmes-20261026.json")
     catalog["sources"].extend(quantitative["sources"])
     catalog["programs"].extend(quantitative["programs"])
+    census = load("hkust-cse-census-20261026.json")
+    catalog["sources"].extend(census["sources"])
+    faculty_by_id = {f["id"]: f for f in catalog["faculty"]}
+    for row in census["faculty"]:
+        if row["id"] in faculty_by_id:
+            faculty_by_id[row["id"]].update(row)
+        else:
+            catalog["faculty"].append(row)
+    catalog["directories"].append(census["directory"])
     return catalog
 
 
@@ -347,6 +356,13 @@ def validate(catalog):
         assert f["researchKeywords"] and len(f["researchKeywords"]) == len(set(f["researchKeywords"]))
         assert all(isinstance(term, str) and 1 < len(term) <= 200 for term in f["researchKeywords"])
         refs(f["keywordSourceIds"])
+        for link in f.get("extraLinks", []):
+            parent = sources[link["parentSourceId"]]
+            assert link["parentSourceId"] in f["sourceIds"] and parent["url"] == f["profileUrl"]
+            assert link["url"] in parent["discoveredLinks"]
+            assert link["bodyStatus"] in {"not_read", "body_read"}
+            if link["bodyStatus"] == "body_read":
+                assert sources[link["sourceId"]]["url"] == link["url"]
         for sid in f.get("directorySourceIds", []):
             assert sid in directory_by_source and directory_by_source[sid]["universityId"] == f["universityId"]
         assert f["availability"]["state"] in {"unknown", "advertised"}
@@ -364,6 +380,13 @@ def validate(catalog):
         directory_ids.add(d["id"])
         assert d["unit"] and d["url"].startswith("https://") and d["coverageComplete"] is False
         refs(d["sourceIds"])
+        if "census" in d:
+            census = d["census"]
+            assert census["observedTotal"] == len(census["entries"])
+            assert len({e["profileUrl"] for e in census["entries"]}) == census["observedTotal"]
+            assert sum(e["profileRead"] for e in census["entries"]) == census["profilesRead"]
+            assert census["profilesRead"] + census["profilesFailed"] == census["observedTotal"]
+            assert all(e["reviewStatus"] in {"body_read", "network_timeout"} for e in census["entries"])
     for fund in catalog["funding"]:
         refs(fund["sourceIds"])
         assert fund["degree"] == "PhD" and set(fund["universities"]) == {"hku", "cuhk", "hkust", "polyu", "cityu"}

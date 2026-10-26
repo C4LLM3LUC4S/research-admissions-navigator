@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a2",
+  "version": "0.1.0a3",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-26",
@@ -9,13 +9,15 @@
     "universities": 7,
     "programme_or_route_cards": 16,
     "degree_routes": 29,
-    "faculty": 107,
-    "official_sources": 180,
+    "faculty": 139,
+    "official_sources": 220,
     "programmes_with_partial_requirements": 14,
     "requirement_items": 45,
     "programmes_with_partial_finances": 7,
     "finance_items": 12,
-    "official_directory_entries": 33
+    "official_directory_entries": 34,
+    "teacher_linked_sources": 1,
+    "total_sources": 221
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -39,10 +41,13 @@
     "教师跟进待办保留学位和入学轮次，分批显示并将键盘焦点移到新结果",
     "格式3备份保存研究关键词，仍读格式1/2；旧程序拒绝新格式",
     "静态资源按实际字节添加版本标记，避免刷新仍读到旧脚本或旧资料",
-    "新增四条数学/统计/商科研究学位，硕博贯通限制、GMAT/GRE及各项目日期分开"
+    "新增四条数学/统计/商科研究学位，硕博贯通限制、GMAT/GRE及各项目日期分开",
+    "按完整院系目录逐人保留身份、已读与超时状态，目录分类与全校范围分开",
+    "教师卡片展示院系给出的个人主页与研究档案，正文读取状态和官网政策分开",
+    "增加软件工程、网络安全、人机交互、数据库、图形学与计算机音乐的有据分类和常用研究词"
   ],
   "verification": {
-    "node_checks": 42,
+    "node_checks": 46,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -53,13 +58,13 @@
     "catalog_check": "passed",
     "actual_callback_journey_with_DOM_stubs": "passed",
     "actual_browser_visual_keyboard_native_picker_and_download": "Actual IAB visual/search/keyboard/pagination/backup download and filechooser API restore passed; no manual OS-native picker or independent-human claim.",
-    "github_CI": "Current commit results are recorded in this repository's Actions; not embedded into this source snapshot.",
+    "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 9
+    "python_checks": 12
   },
   "limitations": [
-    "107位教师、33个官方目录入口仍非完整院系名册；部分入口正文依赖脚本，逐条记录访问缺口。",
+    "139位教师、34个官方目录入口仍非完整师资库。仅港科大CSE Regular一组完成53个主页枚举，本轮读到38个，15个网络超时；其他分类和院系未核全。",
     "104位实际接收情况未知；1份2026/2027广告、2份未注明年度的博士接受说明都不证明本轮余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
     "当前16条项目/申请路线：14条有部分要求、7条有部分费用或资助，不能把同校CSE规则套给新增院系。",
@@ -67,5 +72,5 @@
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。"
   ],
-  "next": "继续读取现有33入口中未覆盖个人页，配套核新增专业的研究学位及当期政策；再扩生命科学、商科、社科和人文。公共申请经历服务另行设计与验收。"
+  "next": "继续处理完整师资目录的逐人核查和延伸个人/实验室主页，再扩其他院系；新增老师不能继承同校计算机项目要求。"
 }

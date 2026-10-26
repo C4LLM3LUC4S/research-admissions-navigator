@@ -73,6 +73,28 @@ class QuantitativeProgrammeChecks(unittest.TestCase):
         self.assertTrue(all(d["at"] is None for d in p["deadlines"] if d["degree"] is None))
 
 
+class DirectoryCensusChecks(unittest.TestCase):
+    def setUp(self):
+        self.catalog = builder.build_catalog()
+        self.census = self.catalog['directories'][-1]['census']
+
+    def test_failed_reads_cannot_be_counted_as_read(self):
+        self.census['profilesRead'] += 1
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_duplicate_directory_urls_are_rejected(self):
+        self.census['entries'][-1]['profileUrl'] = self.census['entries'][0]['profileUrl']
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_personal_links_need_exact_parent_provenance_and_a_source_if_marked_read(self):
+        f = next(f for f in self.catalog['faculty'] if f.get('extraLinks'))
+        f['extraLinks'][0]['url'] = 'https://unobserved.example/profile'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+
 class PageAssetChecks(unittest.TestCase):
     def test_public_page_mirror_is_exactly_the_reviewed_offline_page(self):
         for name in ('index.html', 'catalog.js', 'logic.js', 'app.js', 'styles.css', 'discovery.css'):

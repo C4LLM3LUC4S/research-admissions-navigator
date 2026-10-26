@@ -2,7 +2,7 @@
 
 想申请研究型硕士或博士，却不知道从哪里查起？这个工具先帮你看清项目要求，找到值得进一步了解的老师，再把申请准备整理成能继续推进的清单。
 
-首批学校：港大、港中文、港科技、港理工、港城市、港中深、港科广。当前已整理107位教师的研究方向、33个官方院系目录入口，涵盖计算机、AI、电子工程、机械与自动化、机器人和数据科学，并开始补数学、统计、金融科技和生物统计等方向。具体进度与缺口见 [覆盖说明](COVERAGE.md)。这是持续完善的早期alpha，个人资料留在本机；已整理人数不是全部导师、可以申请的人数上限或当前名额。
+首批学校：港大、港中文、港科技、港理工、港城市、港中深、港科广。当前已整理139位教师的研究方向、34个官方院系目录入口，涵盖计算机、AI、电子工程、机械与自动化、机器人和数据科学，并开始补数学、统计、金融科技和生物统计等方向。具体进度与缺口见 [覆盖说明](COVERAGE.md)。这是持续完善的早期alpha，个人资料留在本机；已整理人数不是全部导师、可以申请的人数上限或当前名额。
 
 ## 打开方式
 
@@ -26,8 +26,10 @@ python -m unittest discover -s tests -p test_catalog_validation.py
 2. 打开项目卡片中的“已核到的要求与下一步”，看学历、英语、材料或资助说明；每一项都有官方出处。这里仍是部分整理，不能代替官网完整材料清单。
 3. 把需要做的那一步加入待办。清单保留项目、学位与轮次；例如港中文CSE的两个申请系统、博士三位推荐人，不会与MPhil两位推荐人混在一起。
 4. 到“找相关老师”填写具体研究词，比如“网络化控制”“自然语言处理”。多个词用逗号分开，命中任一词即可；只查官网已核到的研究词，支持部分中英文对应词。列表顺序不是推荐排名。没找到时，可到“看院系目录”继续查；目录只按学校筛选，不会因为关键词未命中而把院系藏起来。
-5. 对感兴趣的老师，打开研究依据、收藏或加入跟进待办。先读主页与近期工作，核对对应的申请项目、学位和轮次，再决定是否联系。方向相关只意味着值得继续了解，当前名额另外确认。
+5. 教师卡片可展开“继续看个人主页与研究档案”。链接来自院系页面，已读正文和仍待整理分开标明；个人网站不是学校招生政策。对感兴趣的老师，打开研究依据、收藏或加入跟进待办。先读主页与近期工作，核对对应的申请项目、学位和轮次，再决定是否联系。方向相关只意味着值得继续了解，当前名额另外确认。
 6. 在“我的清单”导出完整备份，并保留这一版目录。换设备或隔天使用时载入；原文件不会修改，研究关键词和旧资料版本线索保存在历史中，页面使用当前目录。
+
+“看院系目录”中，已做完整枚举的分类会列出每个人的进度。例如港科大CSE Regular本轮列出53个不同主页，读到38个，15个网络超时。它只是这组目录的整理进度，不是导师名额或全校覆盖率。
 
 “目前的学习阶段”和“英语准备情况”只提供准备提醒，不判定资格、换算GPA或给录取概率。不同项目可能接受不同考试形式：不要把一家学校的规则复制到另一家。
 
@@ -54,5 +56,5 @@ python -m unittest discover -s tests -p test_catalog_validation.py
 
 ## English
 
-An early alpha for research-degree applicants to explore official programme rules, faculty research and practical next steps, online or from an offline download. Current partial coverage includes 107 faculty, 33 official directory entries and 16 programme/application routes across seven institutions. Some MPhil degrees belong to integrated MPhil-PhD schemes and are not standalone application routes; each card explains its own conditions. Concrete research keywords, follow-up tasks and portable backups help applicants continue investigating. Programme, degree, campus and intake remain separate. Research overlap does not establish recruitment availability or admission probability. Personal notes stay in the browser; there is no public experience-submission backend.
+An early alpha for research-degree applicants to explore official programme rules, faculty research and practical next steps, online or from an offline download. Current partial coverage includes 139 faculty, 34 official directory entries and 16 programme/application routes across seven institutions. Some MPhil degrees belong to integrated MPhil-PhD schemes and are not standalone application routes; each card explains its own conditions. Concrete research keywords, follow-up tasks and portable backups help applicants continue investigating. Programme, degree, campus and intake remain separate. Research overlap does not establish recruitment availability or admission probability. Personal notes stay in the browser; there is no public experience-submission backend.
 

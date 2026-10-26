@@ -1851,7 +1851,8 @@
       "name": "Chi Wing Fu",
       "department": "Department of Computer Science and Engineering",
       "topics": [
-        "计算机视觉"
+        "计算机视觉",
+        "人机交互"
       ],
       "summary": "三维生成与设计、三维重建、人机交互、计算机视觉、图形与可视化。方向已核，当前招生名额未知。",
       "researchKeywords": [
@@ -1881,25 +1882,30 @@
       "id": "james-kwok",
       "universityId": "hkust",
       "name": "James Tin-Yau Kwok",
-      "department": "Computer Science and Engineering",
+      "department": "计算机科学与工程学系 / CSE",
       "topics": [
-        "人工智能",
         "机器学习",
-        "数据挖掘"
+        "人工智能"
       ],
-      "summary": "主页提到的方向包括：人工智能、机器学习、数据挖掘。可以先读主页了解，是否招人还需要另外确认。",
+      "summary": "可以先从机器学习、深度学习、核方法和人工智能这些问题了解这位老师，再读个人主页和近期工作。",
       "researchKeywords": [
         "machine learning",
         "deep learning",
         "data mining",
-        "AI"
+        "AI",
+        "Machine learning",
+        "Deep learning",
+        "Kernel methods",
+        "Artificial intelligence"
       ],
       "keywordSourceIds": [
-        "hk-james-kwok"
+        "hk-james-kwok",
+        "census-hkust-cse-profile-jamesk"
       ],
-      "profileUrl": "https://cse.hkust.edu.hk/faculty/jamesk/",
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk",
       "sourceIds": [
-        "hk-james-kwok"
+        "hk-james-kwok",
+        "census-hkust-cse-profile-jamesk"
       ],
       "availability": {
         "state": "unknown",
@@ -1908,7 +1914,25 @@
         "sourceIds": [
           "hk-james-kwok"
         ]
-      }
+      },
+      "role": "Professor",
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~jamesk/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-jamesk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/james-tin-yau-kwok/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-jamesk",
+          "bodyStatus": "not_read"
+        }
+      ]
     },
     {
       "id": "ling-shi",
@@ -3164,24 +3188,26 @@
       "id": "wide-hkust-long-chen",
       "universityId": "hkust",
       "name": "Long Chen（陳隆）",
-      "department": "Computer Science and Engineering",
+      "department": "计算机科学与工程学系 / CSE",
       "role": "Assistant Professor",
       "topics": [
         "计算机视觉",
-        "机器学习",
-        "自然语言处理"
+        "机器学习"
       ],
       "researchKeywords": [
         "Computer vision",
         "Machine learning",
         "Multimedia",
         "Natural language processing",
-        "Explainable, robust and universal vision systems"
+        "Explainable, robust and universal vision systems",
+        "Computer Vision",
+        "Machine Learning"
       ],
-      "summary": "研究计算机视觉、多媒体和自然语言处理，关注能理解复杂场景且可解释、稳健的视觉系统。",
+      "summary": "可以先从计算机视觉、机器学习和多媒体这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
       "sourceIds": [
-        "wide-hkust-long-chen-profile"
+        "wide-hkust-long-chen-profile",
+        "census-hkust-cse-profile-longchen"
       ],
       "availability": {
         "state": "unknown",
@@ -3192,10 +3218,26 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkust-cse-ai"
+        "wide-dir-hkust-cse-ai",
+        "census-hkust-cse-regular"
       ],
       "keywordSourceIds": [
-        "wide-hkust-long-chen-profile"
+        "wide-hkust-long-chen-profile",
+        "census-hkust-cse-profile-longchen"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~longchen/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-longchen",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/long-chen/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-longchen",
+          "bodyStatus": "not_read"
+        }
       ]
     },
     {
@@ -3271,12 +3313,12 @@
       "id": "wide-hkust-yangqiu-song",
       "universityId": "hkust",
       "name": "Yangqiu Song（宋陽秋）",
-      "department": "Computer Science and Engineering",
-      "role": "Associate Professor；PG Programs Coordinator",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Associate Professor",
       "topics": [
         "人工智能",
-        "机器学习",
         "数据挖掘",
+        "机器学习",
         "自然语言处理"
       ],
       "researchKeywords": [
@@ -3286,10 +3328,11 @@
         "Machine learning",
         "Text mining"
       ],
-      "summary": "研究人工智能、数据与文本挖掘，以及信息抽取和机器学习。",
+      "summary": "可以先从人工智能、数据挖掘、信息抽取和文本挖掘这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
       "sourceIds": [
-        "wide-hkust-yangqiu-song-profile"
+        "wide-hkust-yangqiu-song-profile",
+        "census-hkust-cse-profile-yqsong"
       ],
       "availability": {
         "state": "unknown",
@@ -3300,21 +3343,37 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkust-cse-ai"
+        "wide-dir-hkust-cse-ai",
+        "census-hkust-cse-regular"
       ],
       "keywordSourceIds": [
-        "wide-hkust-yangqiu-song-profile"
+        "wide-hkust-yangqiu-song-profile",
+        "census-hkust-cse-profile-yqsong"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~yqsong/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-yqsong",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/yangqiu-song/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-yqsong",
+          "bodyStatus": "not_read"
+        }
       ]
     },
     {
       "id": "wide-hkust-yi-r-fung",
       "universityId": "hkust",
       "name": "Yi R. Fung（馮一人）",
-      "department": "Computer Science and Engineering",
+      "department": "计算机科学与工程学系 / CSE",
       "role": "Assistant Professor",
       "topics": [
-        "人工智能",
-        "自然语言处理"
+        "自然语言处理",
+        "人工智能"
       ],
       "researchKeywords": [
         "Natural language processing",
@@ -3323,10 +3382,11 @@
         "Retrieval-augmented generation",
         "Agentic frameworks"
       ],
-      "summary": "研究以人为本的可信AI和语言模型推理，涉及多模态知识、检索增强生成与智能体框架。",
+      "summary": "可以先从自然语言处理、多媒体知识推理与计算社会科学这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
       "sourceIds": [
-        "wide-hkust-yi-r-fung-profile"
+        "wide-hkust-yi-r-fung-profile",
+        "census-hkust-cse-profile-yrfung"
       ],
       "availability": {
         "state": "unknown",
@@ -3337,23 +3397,38 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkust-cse-ai"
+        "wide-dir-hkust-cse-ai",
+        "census-hkust-cse-regular"
       ],
       "keywordSourceIds": [
-        "wide-hkust-yi-r-fung-profile"
+        "wide-hkust-yi-r-fung-profile",
+        "census-hkust-cse-profile-yrfung"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://mayrfung.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-yrfung",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/may-fung/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-yrfung",
+          "bodyStatus": "not_read"
+        }
       ]
     },
     {
       "id": "wide-hkust-song-guo",
       "universityId": "hkust",
       "name": "Song Guo（郭嵩）",
-      "department": "Computer Science and Engineering",
-      "role": "Chair Professor；Associate Head（Research & Knowledge Transfer）",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Chair Professor and Associate Head",
       "topics": [
         "人工智能",
         "机器学习",
-        "网络与系统",
-        "机器人与控制"
+        "网络与系统"
       ],
       "researchKeywords": [
         "Large language model",
@@ -3362,10 +3437,11 @@
         "World models",
         "Embodied AI"
       ],
-      "summary": "研究大语言模型、Physical AI与机器学习系统，涉及机器人感知、推理和规划。",
+      "summary": "可以先从大语言模型、物理AI和机器学习系统这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
       "sourceIds": [
-        "wide-hkust-song-guo-profile"
+        "wide-hkust-song-guo-profile",
+        "census-hkust-cse-profile-songguo"
       ],
       "availability": {
         "state": "unknown",
@@ -3376,17 +3452,33 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkust-cse-ai"
+        "wide-dir-hkust-cse-ai",
+        "census-hkust-cse-regular"
       ],
       "keywordSourceIds": [
-        "wide-hkust-song-guo-profile"
+        "wide-hkust-song-guo-profile",
+        "census-hkust-cse-profile-songguo"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~songguo/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-songguo",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/song-guo/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-songguo",
+          "bodyStatus": "not_read"
+        }
       ]
     },
     {
       "id": "wide-hkust-zihan-zhang",
       "universityId": "hkust",
       "name": "Zihan Zhang（張子函）",
-      "department": "Computer Science and Engineering",
+      "department": "计算机科学与工程学系 / CSE",
       "role": "Assistant Professor",
       "topics": [
         "机器学习",
@@ -3398,10 +3490,11 @@
         "Game theory",
         "Convex optimization"
       ],
-      "summary": "研究机器学习理论，重点包括强化学习、在线学习、博弈论和凸优化。",
+      "summary": "可以先从强化学习、在线学习、博弈论和凸优化这些问题了解这位老师，再读个人主页和近期工作。",
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz",
       "sourceIds": [
-        "wide-hkust-zihan-zhang-profile"
+        "wide-hkust-zihan-zhang-profile",
+        "census-hkust-cse-profile-zihanz"
       ],
       "availability": {
         "state": "unknown",
@@ -3412,10 +3505,26 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkust-cse-ai"
+        "wide-dir-hkust-cse-ai",
+        "census-hkust-cse-regular"
       ],
       "keywordSourceIds": [
-        "wide-hkust-zihan-zhang-profile"
+        "wide-hkust-zihan-zhang-profile",
+        "census-hkust-cse-profile-zihanz"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zsubfuncz.github.io/zihanzhang.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-zihanz",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/zihan-zhang/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-zihanz",
+          "bodyStatus": "not_read"
+        }
       ]
     },
     {
@@ -5649,6 +5758,1603 @@
         "sourceIds": [
           "expand-hkustgz-ning-cai-profile"
         ]
+      }
+    },
+    {
+      "id": "census-hkust-zxf",
+      "universityId": "hkust",
+      "name": "Xiaofang ZHOU 周曉方",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Otto Poon Professor of Engineering and Chair Professor and Head",
+      "topics": [
+        "数据库与数据系统",
+        "数据挖掘",
+        "机器学习"
+      ],
+      "summary": "可以先从时空多媒体数据库、数据质量、大数据分析与机器学习这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Spatiotemporal and multimedia databases",
+        "Data mining",
+        "Data quality management",
+        "Big data analytics",
+        "Machine learning"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-zxf"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zxf",
+      "sourceIds": [
+        "census-hkust-cse-profile-zxf",
+        "census-hkust-zxf-personal",
+        "census-hkust-zxf-research-portal"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/xiaofang-zhou",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-zxf",
+          "bodyStatus": "body_read",
+          "sourceId": "census-hkust-zxf-personal"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/xiaofang-zhou/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-zxf",
+          "bodyStatus": "body_read",
+          "sourceId": "census-hkust-zxf-research-portal"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-zxf"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-raywong",
+      "universityId": "hkust",
+      "name": "Raymond Chi-Wing WONG 黃智榮",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor and Associate Head",
+      "topics": [
+        "数据挖掘",
+        "数据库与数据系统"
+      ],
+      "summary": "可以先从大数据、数据挖掘和数据库系统这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Big data",
+        "Data mining",
+        "Database systems"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-raywong"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/raywong",
+      "sourceIds": [
+        "census-hkust-cse-profile-raywong"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~raywong/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-raywong",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/raymond-chi-wing-wong/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-raywong",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-raywong"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-leichen",
+      "universityId": "hkust",
+      "name": "Lei CHEN 陳雷",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Chair Professor",
+      "topics": [
+        "机器学习",
+        "数据库与数据系统"
+      ],
+      "summary": "可以先从数据驱动学习、众包数据处理、不确定数据库与多媒体系统这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Data-driven machine learning",
+        "Crowdsourcing-based data processing",
+        "Uncertain and probabilistic databases",
+        "Web information management",
+        "Multimedia systems"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-leichen"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/leichen",
+      "sourceIds": [
+        "census-hkust-cse-profile-leichen"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~leichen/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-leichen",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/lei-chen/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-leichen",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-leichen"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-scc",
+      "universityId": "hkust",
+      "name": "Shing-Chi CHEUNG 張成志",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Chair Professor",
+      "topics": [
+        "软件工程与编程语言",
+        "网络安全"
+      ],
+      "summary": "可以先从软件测试分析、AI与移动软件开发、生成式编程和网络安全这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Software testing and analysis",
+        "AI and mobile software development",
+        "Generative and spreadsheet programming",
+        "Software analytics",
+        "Cybersecurity"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-scc"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/scc",
+      "sourceIds": [
+        "census-hkust-cse-profile-scc"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~scc/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-scc",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/shing-chi-cheung/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-scc",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-scc"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-achung",
+      "universityId": "hkust",
+      "name": "Albert Chi-Shing CHUNG 鍾志成",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "计算机视觉"
+      ],
+      "summary": "可以先从图像分析、图像处理和计算机视觉这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Image analysis",
+        "Image processing",
+        "Computer vision"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-achung"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/achung",
+      "sourceIds": [
+        "census-hkust-cse-profile-achung"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~achung/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-achung",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/chi-shing-chung/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-achung",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-achung"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-horner",
+      "universityId": "hkust",
+      "name": "Andrew B. HORNER 康立德",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "计算机音乐与音频"
+      ],
+      "summary": "可以先从计算机音乐、音频工程与音乐情绪这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Computer music",
+        "Audio engineering",
+        "Music emotion"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-horner"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/horner",
+      "sourceIds": [
+        "census-hkust-cse-profile-horner"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/faculty/horner/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-horner",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/andrew-brian-horner/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-horner",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-horner"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-lim",
+      "universityId": "hkust",
+      "name": "Mo LI 李默",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "网络与系统",
+        "数据挖掘"
+      ],
+      "summary": "可以先从无线移动计算、城市数据分析、低空通信与物联网这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Wireless and Mobile Computing",
+        "Smart City and Urban Data Analytics",
+        "Low Altitude Systems and Communications",
+        "Internet of Things (IoT) and AIoT"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-lim"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lim",
+      "sourceIds": [
+        "census-hkust-cse-profile-lim"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~lim/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-lim",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/mo-li/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-lim",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-lim"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-flin",
+      "universityId": "hkust",
+      "name": "Fangzhen LIN 林方真",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "人工智能",
+        "软件工程与编程语言",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "summary": "可以先从人工智能、编程语言、机器人、多智能体与博弈论这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Artificial intelligence",
+        "Programming languages",
+        "Robotics",
+        "Multiagent systems",
+        "Game theory and social choice theory"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-flin"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/flin",
+      "sourceIds": [
+        "census-hkust-cse-profile-flin"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~flin/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-flin",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/fangzhen-lin/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-flin",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-flin"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-luo",
+      "universityId": "hkust",
+      "name": "Qiong LUO 羅瓊",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "数据库与数据系统",
+        "网络与系统"
+      ],
+      "summary": "可以先从大数据管理、数据库、并行分布式系统与图分析这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Big data management",
+        "Database systems",
+        "Parallel and distributed systems",
+        "Graph data management and analytics"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-luo"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/luo",
+      "sourceIds": [
+        "census-hkust-cse-profile-luo"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~luo/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-luo",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qiong-luo-luo",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-luo",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-luo"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-dimitris",
+      "universityId": "hkust",
+      "name": "Dimitris PAPADIAS 白德善",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "数据库与数据系统",
+        "理论与优化"
+      ],
+      "summary": "可以先从数据管理、图数据分析、算法和位置服务这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Data management",
+        "Algorithms",
+        "Graph data management and analytics",
+        "Location-based services",
+        "Big data"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-dimitris"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dimitris",
+      "sourceIds": [
+        "census-hkust-cse-profile-dimitris"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/faculty/dimitris/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-dimitris",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/dimitrios-papadias/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-dimitris",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-dimitris"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-quan",
+      "universityId": "hkust",
+      "name": "Long QUAN 權龍",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "计算机视觉"
+      ],
+      "summary": "可以先从计算机视觉这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Computer vision"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-quan"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/quan",
+      "sourceIds": [
+        "census-hkust-cse-profile-quan"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~quan/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-quan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/long-quan/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-quan",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-quan"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-psander",
+      "universityId": "hkust",
+      "name": "Pedro SANDER 辛達德",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "计算机图形学",
+        "网络与系统"
+      ],
+      "summary": "可以先从计算机图形学与图形硬件通用计算这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Computer graphics",
+        "General purpose processing on graphics hardware"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-psander"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/psander",
+      "sourceIds": [
+        "census-hkust-cse-profile-psander"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~psander/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-psander",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/pedro-sander/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-psander",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-psander"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-cktang",
+      "universityId": "hkust",
+      "name": "Chi-Keung TANG 鄧智強",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "计算机视觉",
+        "计算机图形学",
+        "机器学习"
+      ],
+      "summary": "可以先从计算机视觉、图形学和机器学习这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Computer vision",
+        "Computer graphics",
+        "Machine learning"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-cktang"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang",
+      "sourceIds": [
+        "census-hkust-cse-profile-cktang"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~cktang/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-cktang",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/chi-keung-tang/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-cktang",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-cktang"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-yike",
+      "universityId": "hkust",
+      "name": "Ke YI 易珂",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "数据库与数据系统",
+        "理论与优化",
+        "网络安全"
+      ],
+      "summary": "可以先从数据库理论算法、数据安全隐私、并行算法与数据流这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Database theory and algorithms",
+        "Data security and privacy",
+        "Parallel and distributed algorithms",
+        "Sampling",
+        "Data streams"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-yike"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yike",
+      "sourceIds": [
+        "census-hkust-cse-profile-yike"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~yike/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-yike",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/ke-yi/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-yike",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-yike"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-charlesz",
+      "universityId": "hkust",
+      "name": "Charles ZHANG 張川",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "软件工程与编程语言",
+        "网络安全"
+      ],
+      "summary": "可以先从程序分析、软件安全、软件工程和编程语言这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Program analysis",
+        "Software security",
+        "Software engineering",
+        "Programming languages"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-charlesz"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/charlesz",
+      "sourceIds": [
+        "census-hkust-cse-profile-charlesz"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~charlesz/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-charlesz",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/charles-chuan-zhang/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-charlesz",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-charlesz"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-lzhang",
+      "universityId": "hkust",
+      "name": "Nevin Lianwen ZHANG 張連文",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Professor",
+      "topics": [
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "可以先从贝叶斯网络、人工智能与机器学习这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Bayesian networks",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-lzhang"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lzhang",
+      "sourceIds": [
+        "census-hkust-cse-profile-lzhang"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/faculty/lzhang/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-lzhang",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/nevin-lianwen-zhang/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-lzhang",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-lzhang"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-arya",
+      "universityId": "hkust",
+      "name": "Sunil ARYA 安雅信",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Associate Professor",
+      "topics": [
+        "理论与优化"
+      ],
+      "summary": "可以先从算法、数据结构和计算几何这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Algorithms",
+        "Data structures and computational geometry"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-arya"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arya",
+      "sourceIds": [
+        "census-hkust-cse-profile-arya"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/faculty/arya/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-arya",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/sunil-arya/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-arya",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-arya"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-mxj",
+      "universityId": "hkust",
+      "name": "Xiaojuan MA 麻曉娟",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Associate Professor",
+      "topics": [
+        "人机交互",
+        "机器人与控制"
+      ],
+      "summary": "可以先从人机交互、情感计算、人机协作、虚拟现实与可视化这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Human computer Interaction",
+        "Affective computing",
+        "Human-robot interaction",
+        "Virtual reality and augmented reality",
+        "Visualization"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-mxj"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mxj",
+      "sourceIds": [
+        "census-hkust-cse-profile-mxj"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~mxj/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-mxj",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/xiaojuan-ma/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-mxj",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-mxj"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-wilfred",
+      "universityId": "hkust",
+      "name": "Wilfred Siu-Hung NG 吳兆鴻",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Associate Professor",
+      "topics": [
+        "数据库与数据系统",
+        "数据挖掘"
+      ],
+      "summary": "可以先从社会计算、网页搜索、数据分析建模和查询语言这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Social computing",
+        "Web searching",
+        "Data analytics",
+        "Data modelling",
+        "Query languages"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-wilfred"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/wilfred",
+      "sourceIds": [
+        "census-hkust-cse-profile-wilfred"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/faculty/wilfred/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-wilfred",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/wilfred-siu-hung-ng/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-wilfred",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-wilfred"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-dipapado",
+      "universityId": "hkust",
+      "name": "Dimitris PAPADOPOULOS",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Associate Professor",
+      "topics": [
+        "网络安全"
+      ],
+      "summary": "可以先从区块链安全、密码学、数据加密和网络安全这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Blockchain security",
+        "Computer security",
+        "Cryptography",
+        "Cybersecurity",
+        "Data encryption",
+        "Network security"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-dipapado"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dipapado",
+      "sourceIds": [
+        "census-hkust-cse-profile-dipapado"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~dipapado/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-dipapado",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/dimitris-papadopoulos/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-dipapado",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-dipapado"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-shuaiw",
+      "universityId": "hkust",
+      "name": "Shuai WANG 王帥",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Associate Professor",
+      "topics": [
+        "网络安全"
+      ],
+      "summary": "可以先从软件系统安全、二进制安全与新兴平台隐私这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Software and system security",
+        "Binary-level security techniques",
+        "Security and privacy on emerging platforms"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-shuaiw"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw",
+      "sourceIds": [
+        "census-hkust-cse-profile-shuaiw"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~shuaiw/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-shuaiw",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/shuai-wang/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-shuaiw",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-shuaiw"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-jinyaonan",
+      "universityId": "hkust",
+      "name": "Yaonan JIN 金耀楠",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "理论与优化"
+      ],
+      "summary": "可以先从算法博弈论、在线算法和组合优化这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Algorithmic game theory",
+        "Online algorithms",
+        "Combinatorial optimization"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-jinyaonan"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jinyaonan",
+      "sourceIds": [
+        "census-hkust-cse-profile-jinyaonan"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yj10027.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-jinyaonan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/yaonan-jin/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-jinyaonan",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-jinyaonan"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-chaojian",
+      "universityId": "hkust",
+      "name": "Chaojian LI 李朝鑒",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "网络与系统",
+        "人工智能"
+      ],
+      "summary": "可以先从算法与硬件协同设计、计算机体系结构和AI基础设施这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Algorithm-hardware co-design",
+        "Computer architecture and systems",
+        "AI infrastructure and systems"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-chaojian"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/chaojian",
+      "sourceIds": [
+        "census-hkust-cse-profile-chaojian"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sponge-lab.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-chaojian",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/chaojian-li/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-chaojian",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-chaojian"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-sehi",
+      "universityId": "hkust",
+      "name": "Sehi L'YI 李世熙",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "人机交互",
+        "生物医学与健康",
+        "机器人与控制"
+      ],
+      "summary": "可以先从可视化、人机与AI交互、生物医学信息学和人机协作这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Visualization",
+        "Human-AI interaction",
+        "Biomedical informatics",
+        "AI applications",
+        "Virtual reality and augmented reality",
+        "Human-robot interaction",
+        "Interactive data systems and toolkits"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-sehi"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sehi",
+      "sourceIds": [
+        "census-hkust-cse-profile-sehi"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sehilyi.com/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-sehi",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-sehi"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-arpit",
+      "universityId": "hkust",
+      "name": "Arpit NARECHANIA",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "人机交互"
+      ],
+      "summary": "可以先从人机交互、可视分析、自然语言处理与地理信息科学这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Human-computer interaction",
+        "Visual analytics",
+        "Information visualization",
+        "Guidance",
+        "Provenance",
+        "Natural language processing",
+        "Geographic information science (GIS)",
+        "Interdisciplinary collaborations"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-arpit"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit",
+      "sourceIds": [
+        "census-hkust-cse-profile-arpit"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://narechania.com/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-arpit",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/arpit-ajay-narechania/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-arpit",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-arpit"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-xmouyang",
+      "universityId": "hkust",
+      "name": "Xiaomin OUYANG 歐陽小敏",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "机器学习",
+        "网络与系统",
+        "生物医学与健康",
+        "机器人与控制"
+      ],
+      "summary": "可以先从物联网机器学习、移动计算、智能健康和信息物理系统这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Machine learning for Internet of Things (IoT)",
+        "Mobile computing",
+        "Smart health",
+        "Cyber-physical systems"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-xmouyang"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/xmouyang",
+      "sourceIds": [
+        "census-hkust-cse-profile-xmouyang"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://xmouyang.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-xmouyang",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/xiaomin-ouyang/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-xmouyang",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-xmouyang"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-parreaux",
+      "universityId": "hkust",
+      "name": "Lionel PARREAUX",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "软件工程与编程语言"
+      ],
+      "summary": "可以先从类型系统、编译优化、元编程和函数式编程这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Type systems",
+        "Compiler optimization",
+        "Metaprogramming",
+        "Functional programming",
+        "Domain-specific languages"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-parreaux"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/parreaux",
+      "sourceIds": [
+        "census-hkust-cse-profile-parreaux"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~parreaux/author/lionel-parreaux/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-parreaux",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/lionel-parreaux/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-parreaux",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-parreaux"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-dongdong",
+      "universityId": "hkust",
+      "name": "Dongdong SHE 佘東冬",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "网络安全",
+        "软件工程与编程语言",
+        "机器学习"
+      ],
+      "summary": "可以先从软件与系统安全、程序分析测试，以及机器学习在安全中的应用这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Software systems and security",
+        "Program analysis and testing",
+        "Machine learning",
+        "Applied data-driven approaches (e.g., large language models, machine learning, optimization) in security"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-dongdong"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dongdong",
+      "sourceIds": [
+        "census-hkust-cse-profile-dongdong"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~dongdong/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-dongdong",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/dongdong-she/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-dongdong",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-dongdong"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-sjs",
+      "universityId": "hkust",
+      "name": "Jiasi SHEN 沈嘉思",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "软件工程与编程语言"
+      ],
+      "summary": "可以先从编程语言、程序分析转换与软件工程这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Programming languages",
+        "Program analysis",
+        "Program transformation",
+        "Software engineering"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-sjs"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sjs",
+      "sourceIds": [
+        "census-hkust-cse-profile-sjs"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~sjs/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-sjs",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/jiasi-shen/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-sjs",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-sjs"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-justimyhxu",
+      "universityId": "hkust",
+      "name": "Yinghao XU 徐英豪",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "计算机视觉",
+        "人工智能"
+      ],
+      "summary": "可以先从三维视觉、生成式AI和具身智能这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "3D computer vision",
+        "Generative AI",
+        "Embodied AI"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-justimyhxu"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
+      "sourceIds": [
+        "census-hkust-cse-profile-justimyhxu"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://justimyhxu.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-justimyhxu",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/yinghao-xu/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-justimyhxu",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-justimyhxu"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-biyuan",
+      "universityId": "hkust",
+      "name": "Binhang YUAN 袁彬航",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "数据库与数据系统",
+        "机器学习",
+        "网络与系统"
+      ],
+      "summary": "可以先从面向机器学习的数据管理与分布式学习系统这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Data management systems for machine learning",
+        "Distributed machine learning systems"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-biyuan"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/biyuan",
+      "sourceIds": [
+        "census-hkust-cse-profile-biyuan"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://binhangyuan.github.io/site/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-biyuan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/binhang-yuan/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-biyuan",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-biyuan"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
+      }
+    },
+    {
+      "id": "census-hkust-mingxunz",
+      "universityId": "hkust",
+      "name": "Mingxun ZHOU 周銘洵",
+      "department": "计算机科学与工程学系 / CSE",
+      "role": "Assistant Professor",
+      "topics": [
+        "网络安全",
+        "机器学习"
+      ],
+      "summary": "可以先从应用密码学、差分隐私与机器学习的安全隐私这些问题了解这位老师，再读个人主页和近期工作。",
+      "researchKeywords": [
+        "Applied cryptography",
+        "Differential privacy",
+        "Security and privacy in machine learning"
+      ],
+      "keywordSourceIds": [
+        "census-hkust-cse-profile-mingxunz"
+      ],
+      "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mingxunz",
+      "sourceIds": [
+        "census-hkust-cse-profile-mingxunz"
+      ],
+      "directorySourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://wuwuz.github.io/",
+          "label": "个人主页",
+          "parentSourceId": "census-hkust-cse-profile-mingxunz",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/mingxun-zhou/",
+          "label": "校方研究档案",
+          "parentSourceId": "census-hkust-cse-profile-mingxunz",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "sourceIds": [
+          "census-hkust-cse-profile-mingxunz"
+        ],
+        "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
       }
     }
   ],
@@ -8361,6 +10067,809 @@
         "官网提到导师意向有利申请，产品不换成概率、名额或承诺；原表是否仍收件须核。",
         "未核到整页发布日期，不拿核查日替代。"
       ]
+    },
+    {
+      "id": "census-hkust-cse-regular",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "title": "HKUST CSE Faculty · Regular / All Areas",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_directory_actual_browser",
+      "scope": "仅Regular / All Areas这组目录，不含其他身份类别或其他院系",
+      "claims": [
+        "去重后识别53个教师主页；正文读取38个，15个网络超时，未把超时页记作已核。"
+      ],
+      "knownIssues": [
+        "Regular是官网目录分类，不等于已确认研究生指导资格或本轮名额。"
+      ]
+    },
+    {
+      "id": "census-hkust-cse-profile-zxf",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zxf",
+      "title": "Xiaofang ZHOU · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：时空多媒体数据库、数据质量、大数据分析与机器学习。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2021-02-24；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/xiaofang-zhou",
+        "https://researchportal.hkust.edu.hk/en/persons/xiaofang-zhou/"
+      ],
+      "bodySha256": "4afd56cef38a1c8edb15f68f12ec709335f466cf01efc54cac9335d3b22bf650"
+    },
+    {
+      "id": "census-hkust-cse-profile-songguo",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+      "title": "Song GUO · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：大语言模型、物理AI和机器学习系统。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2026-05-08；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~songguo/",
+        "https://researchportal.hkust.edu.hk/en/persons/song-guo/"
+      ],
+      "bodySha256": "a6fd925ca59c5065ca4dddddbd962afc64eef2fdfdea22c31c86fcf9ef9f1b67"
+    },
+    {
+      "id": "census-hkust-cse-profile-raywong",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/raywong",
+      "title": "Raymond Chi-Wing WONG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：大数据、数据挖掘和数据库系统。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2020-07-01；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~raywong/",
+        "https://researchportal.hkust.edu.hk/en/persons/raymond-chi-wing-wong/"
+      ],
+      "bodySha256": "482a561fde444ddbf96658c28ff4a545dbb650bb4012689f796263a69e0376a7"
+    },
+    {
+      "id": "census-hkust-cse-profile-leichen",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/leichen",
+      "title": "Lei CHEN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：数据驱动学习、众包数据处理、不确定数据库与多媒体系统。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~leichen/",
+        "https://researchportal.hkust.edu.hk/en/persons/lei-chen/"
+      ],
+      "bodySha256": "e550545cae288bb25fa315b235a297af21960fb57b5f76fb8e91e8a4296aec04"
+    },
+    {
+      "id": "census-hkust-cse-profile-scc",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/scc",
+      "title": "Shing-Chi CHEUNG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：软件测试分析、AI与移动软件开发、生成式编程和网络安全。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~scc/",
+        "https://researchportal.hkust.edu.hk/en/persons/shing-chi-cheung/"
+      ],
+      "bodySha256": "5de25946bd90387edebae32c60645f9341ae26304d15784d879baec8ec36eb63"
+    },
+    {
+      "id": "census-hkust-cse-profile-achung",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/achung",
+      "title": "Albert Chi-Shing CHUNG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：图像分析、图像处理和计算机视觉。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-08-31；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~achung/",
+        "https://researchportal.hkust.edu.hk/en/persons/chi-shing-chung/"
+      ],
+      "bodySha256": "630600c507f5e9f89e74c2d487c944b0199429ae1bde9400d72885ddf25237f6"
+    },
+    {
+      "id": "census-hkust-cse-profile-horner",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/horner",
+      "title": "Andrew B. HORNER · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：计算机音乐、音频工程与音乐情绪。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/faculty/horner/",
+        "https://researchportal.hkust.edu.hk/en/persons/andrew-brian-horner/"
+      ],
+      "bodySha256": "342ab63b6bbcb15c704e01096aa6960502b74f8cfe74e57aab9086edc771084d"
+    },
+    {
+      "id": "census-hkust-cse-profile-jamesk",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk",
+      "title": "James Tin-Yau KWOK · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：机器学习、深度学习、核方法和人工智能。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2019-03-19；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~jamesk/",
+        "https://researchportal.hkust.edu.hk/en/persons/james-tin-yau-kwok/"
+      ],
+      "bodySha256": "daef672a2e6b9c2d031fac3041dd4f8d709006fc4906a5540f53b8c799053586"
+    },
+    {
+      "id": "census-hkust-cse-profile-lim",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lim",
+      "title": "Mo LI · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：无线移动计算、城市数据分析、低空通信与物联网。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-07-25；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~lim/",
+        "https://researchportal.hkust.edu.hk/en/persons/mo-li/"
+      ],
+      "bodySha256": "cf116217a91cc6aed4db1d253a73cc1110bbb76aa86cc3a7d75fde519fc844e0"
+    },
+    {
+      "id": "census-hkust-cse-profile-flin",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/flin",
+      "title": "Fangzhen LIN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：人工智能、编程语言、机器人、多智能体与博弈论。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-29；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~flin/",
+        "https://researchportal.hkust.edu.hk/en/persons/fangzhen-lin/"
+      ],
+      "bodySha256": "1731a2b7a122ae5de4bb871b73ed884cd164b1ba626eb1f0b8ee68cf48e03584"
+    },
+    {
+      "id": "census-hkust-cse-profile-luo",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/luo",
+      "title": "Qiong LUO · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：大数据管理、数据库、并行分布式系统与图分析。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2021-07-01；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~luo/",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qiong-luo-luo"
+      ],
+      "bodySha256": "506d6dba94edd127b145e822d91fda78ab44cb61932c7f22ebd2cd7907d7b3ea"
+    },
+    {
+      "id": "census-hkust-cse-profile-dimitris",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dimitris",
+      "title": "Dimitris PAPADIAS · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：数据管理、图数据分析、算法和位置服务。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/faculty/dimitris/",
+        "https://researchportal.hkust.edu.hk/en/persons/dimitrios-papadias/"
+      ],
+      "bodySha256": "68221681819d5449a3b6d2456e7b9629054eeda93b57833de83dfd077781f70d"
+    },
+    {
+      "id": "census-hkust-cse-profile-quan",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/quan",
+      "title": "Long QUAN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：计算机视觉。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~quan/",
+        "https://researchportal.hkust.edu.hk/en/persons/long-quan/"
+      ],
+      "bodySha256": "ea765f11612367d48243960b05befffc7d6af85d429a6d26fab6c99a6e6a0e83"
+    },
+    {
+      "id": "census-hkust-cse-profile-psander",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/psander",
+      "title": "Pedro SANDER · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：计算机图形学与图形硬件通用计算。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2020-07-01；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~psander/",
+        "https://researchportal.hkust.edu.hk/en/persons/pedro-sander/"
+      ],
+      "bodySha256": "f72c3aa67e5a9e04534e5df71f6c6a767010a963e804a0c8af310e2544ea8851"
+    },
+    {
+      "id": "census-hkust-cse-profile-cktang",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang",
+      "title": "Chi-Keung TANG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：计算机视觉、图形学和机器学习。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-29；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~cktang/",
+        "https://researchportal.hkust.edu.hk/en/persons/chi-keung-tang/"
+      ],
+      "bodySha256": "c826e0ad47c56226149714fac7a810397d0438cbd2a7d60589a8faf6a4801208"
+    },
+    {
+      "id": "census-hkust-cse-profile-yike",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yike",
+      "title": "Ke YI · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：数据库理论算法、数据安全隐私、并行算法与数据流。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2026-02-20；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~yike/",
+        "https://researchportal.hkust.edu.hk/en/persons/ke-yi/"
+      ],
+      "bodySha256": "52924e689edbeaf0b25144947f4cc767b593e88cc0616e2c4f294e8a49df97d0"
+    },
+    {
+      "id": "census-hkust-cse-profile-charlesz",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/charlesz",
+      "title": "Charles ZHANG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：程序分析、软件安全、软件工程和编程语言。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-09-01；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~charlesz/",
+        "https://researchportal.hkust.edu.hk/en/persons/charles-chuan-zhang/"
+      ],
+      "bodySha256": "0c6a917bc34e471b74f920745f07ae5b31ef362bb57acbdb2176147a2ae321f5"
+    },
+    {
+      "id": "census-hkust-cse-profile-lzhang",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lzhang",
+      "title": "Nevin Lianwen ZHANG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：贝叶斯网络、人工智能与机器学习。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-29；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/faculty/lzhang/",
+        "https://researchportal.hkust.edu.hk/en/persons/nevin-lianwen-zhang/"
+      ],
+      "bodySha256": "59c87a9d93a0be8778d02920e0b7aa356274605120805cf58d949ba978fe8796"
+    },
+    {
+      "id": "census-hkust-cse-profile-arya",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arya",
+      "title": "Sunil ARYA · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：算法、数据结构和计算几何。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-29；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/faculty/arya/",
+        "https://researchportal.hkust.edu.hk/en/persons/sunil-arya/"
+      ],
+      "bodySha256": "ec2d1ae9608d99337bb7be9d58d8f89b480ff649fc70d6f9d97973b81a6185ea"
+    },
+    {
+      "id": "census-hkust-cse-profile-mxj",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mxj",
+      "title": "Xiaojuan MA · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：人机交互、情感计算、人机协作、虚拟现实与可视化。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2021-12-29；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~mxj/",
+        "https://researchportal.hkust.edu.hk/en/persons/xiaojuan-ma/"
+      ],
+      "bodySha256": "e677f7fff3d8e2a6d0c877091297ca3e95a085282150a9f4882ce617a80874af"
+    },
+    {
+      "id": "census-hkust-cse-profile-wilfred",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/wilfred",
+      "title": "Wilfred Siu-Hung NG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：社会计算、网页搜索、数据分析建模和查询语言。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/faculty/wilfred/",
+        "https://researchportal.hkust.edu.hk/en/persons/wilfred-siu-hung-ng/"
+      ],
+      "bodySha256": "a7f83ff7254812a34fe1d04c47719fd7b975a65b428be590f497121670cf750a"
+    },
+    {
+      "id": "census-hkust-cse-profile-dipapado",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dipapado",
+      "title": "Dimitris PAPADOPOULOS · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：区块链安全、密码学、数据加密和网络安全。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-07-01；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~dipapado/",
+        "https://researchportal.hkust.edu.hk/en/persons/dimitris-papadopoulos/"
+      ],
+      "bodySha256": "04aa832dd033917b16d859f2d6d62c19ecb274c007520ece399b8a05352c039c"
+    },
+    {
+      "id": "census-hkust-cse-profile-yqsong",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+      "title": "Yangqiu SONG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：人工智能、数据挖掘、信息抽取和文本挖掘。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2018-01-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~yqsong/",
+        "https://researchportal.hkust.edu.hk/en/persons/yangqiu-song/"
+      ],
+      "bodySha256": "00c287a93b90105c0facfc2638f173b7d4ca9504c328d23ce3c1e1b10c77f5ff"
+    },
+    {
+      "id": "census-hkust-cse-profile-shuaiw",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw",
+      "title": "Shuai WANG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：软件系统安全、二进制安全与新兴平台隐私。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2024-07-02；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~shuaiw/",
+        "https://researchportal.hkust.edu.hk/en/persons/shuai-wang/"
+      ],
+      "bodySha256": "a9c3986b7f5b3223820cd38011623f42a8354c81b29b8c58b5e869f3fad07dbc"
+    },
+    {
+      "id": "census-hkust-cse-profile-longchen",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
+      "title": "Long CHEN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：计算机视觉、机器学习和多媒体。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-03-23；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~longchen/",
+        "https://researchportal.hkust.edu.hk/en/persons/long-chen/"
+      ],
+      "bodySha256": "875c75e7cd0be3ed0417ee7517349ad1120d5d1e1a9f859db77714a8e5c7ed8f"
+    },
+    {
+      "id": "census-hkust-cse-profile-yrfung",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+      "title": "Yi R. FUNG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：自然语言处理、多媒体知识推理与计算社会科学。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2025-03-31；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://mayrfung.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/may-fung/"
+      ],
+      "bodySha256": "06430acdfc29f7ddc93761d6bebe25dec1e24a502f0e4692054c71f6b01724fb"
+    },
+    {
+      "id": "census-hkust-cse-profile-jinyaonan",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jinyaonan",
+      "title": "Yaonan JIN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：算法博弈论、在线算法和组合优化。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2026-06-15；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://yj10027.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/yaonan-jin/"
+      ],
+      "bodySha256": "735b820e24a27e3a92535f542795a1f5ffd0f3b064734d5f3f168e8e18115ff5"
+    },
+    {
+      "id": "census-hkust-cse-profile-chaojian",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/chaojian",
+      "title": "Chaojian LI · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：算法与硬件协同设计、计算机体系结构和AI基础设施。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2025-08-15；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://sponge-lab.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/chaojian-li/"
+      ],
+      "bodySha256": "d724416562b39d03ebbed98c00925a31ef3805faad0e136c12a46930074673f7"
+    },
+    {
+      "id": "census-hkust-cse-profile-sehi",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sehi",
+      "title": "Sehi L'YI · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：可视化、人机与AI交互、生物医学信息学和人机协作。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2026-06-15；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://sehilyi.com/"
+      ],
+      "bodySha256": "dc078316f20826d201f500956e286538f492f710bfd8f7bbe103c8ed0f24513d"
+    },
+    {
+      "id": "census-hkust-cse-profile-arpit",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit",
+      "title": "Arpit NARECHANIA · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：人机交互、可视分析、自然语言处理与地理信息科学。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2025-01-17；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://narechania.com/",
+        "https://researchportal.hkust.edu.hk/en/persons/arpit-ajay-narechania/"
+      ],
+      "bodySha256": "d89ae7b3495d976a7ee3eb41af8f6a0302057553c35304390973046b662d90c5"
+    },
+    {
+      "id": "census-hkust-cse-profile-xmouyang",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/xmouyang",
+      "title": "Xiaomin OUYANG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：物联网机器学习、移动计算、智能健康和信息物理系统。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2024-08-16；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://xmouyang.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/xiaomin-ouyang/"
+      ],
+      "bodySha256": "27ee69965240fa03ff66729a4ff06e874ea3510861e176e953137115cdaa9428"
+    },
+    {
+      "id": "census-hkust-cse-profile-parreaux",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/parreaux",
+      "title": "Lionel PARREAUX · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：类型系统、编译优化、元编程和函数式编程。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2021-02-26；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~parreaux/author/lionel-parreaux/",
+        "https://researchportal.hkust.edu.hk/en/persons/lionel-parreaux/"
+      ],
+      "bodySha256": "3736617e8008a47405c0113ec4445024213eb8393baeddbe764ec1cdf563aa2c"
+    },
+    {
+      "id": "census-hkust-cse-profile-dongdong",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dongdong",
+      "title": "Dongdong SHE · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：软件与系统安全、程序分析测试，以及机器学习在安全中的应用。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-07-31；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~dongdong/",
+        "https://researchportal.hkust.edu.hk/en/persons/dongdong-she/"
+      ],
+      "bodySha256": "209d6ea270168dce9ff3ff907ed55ff23092cb6f0b95e7d26642b666148137e2"
+    },
+    {
+      "id": "census-hkust-cse-profile-sjs",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sjs",
+      "title": "Jiasi SHEN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：编程语言、程序分析转换与软件工程。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-01-04；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~sjs/",
+        "https://researchportal.hkust.edu.hk/en/persons/jiasi-shen/"
+      ],
+      "bodySha256": "dacfb42b4a63ed5f5c86855aa23f52e695a94f82e53e03e9c56b4a3e77a05782"
+    },
+    {
+      "id": "census-hkust-cse-profile-justimyhxu",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
+      "title": "Yinghao XU · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：三维视觉、生成式AI和具身智能。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2026-03-31；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "http://justimyhxu.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/yinghao-xu/"
+      ],
+      "bodySha256": "2cbb8129eeab44a09ea13890a40bdb652e206ea9e7cc02960c7176f2c131cccb"
+    },
+    {
+      "id": "census-hkust-cse-profile-biyuan",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/biyuan",
+      "title": "Binhang YUAN · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：面向机器学习的数据管理与分布式学习系统。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2023-07-25；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://binhangyuan.github.io/site/",
+        "https://researchportal.hkust.edu.hk/en/persons/binhang-yuan/"
+      ],
+      "bodySha256": "9eca0b4959e9a62b343708e227f5a5ebb4413ff05d10652e6a23eaba8860253b"
+    },
+    {
+      "id": "census-hkust-cse-profile-zihanz",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz",
+      "title": "Zihan ZHANG · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：强化学习、在线学习、博弈论和凸优化。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2025-08-22；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://zsubfuncz.github.io/zihanzhang.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/zihan-zhang/"
+      ],
+      "bodySha256": "bf89964e9bceb23150e93f85004a59a0651423ab10048b7a508501c03e56be95"
+    },
+    {
+      "id": "census-hkust-cse-profile-mingxunz",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mingxunz",
+      "title": "Mingxun ZHOU · HKUST CSE",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_faculty_profile_body",
+      "scope": "港科大香港本部CSE教师身份与研究主题；不是招生名额或申请资格核验",
+      "claims": [
+        "主页列出的研究包括：应用密码学、差分隐私与机器学习的安全隐私。"
+      ],
+      "knownIssues": [
+        "页尾更新标记为2026-01-23；实际读取日与页面更新时间分开。",
+        "只核到研究主题和院系所列身份，本轮名额及正式指导资格仍需确认。"
+      ],
+      "discoveredLinks": [
+        "https://wuwuz.github.io/",
+        "https://researchportal.hkust.edu.hk/en/persons/mingxun-zhou/"
+      ],
+      "bodySha256": "cd39aea907ff80995060ab2e9a1325e3747e2155249304ecdaaf61502c2238da"
+    },
+    {
+      "id": "census-hkust-zxf-personal",
+      "url": "https://sites.google.com/view/xiaofang-zhou",
+      "title": "Xiaofang Zhou · 个人网站",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "census-hkust-cse-profile-zxf",
+      "scope": "教师自述研究与校方任职档案；不作为学校招生政策",
+      "claims": [
+        "进一步列出时空数据库、数据质量、推荐系统与机器学习等研究方向。"
+      ],
+      "knownIssues": [
+        "个人网站写明最近更新为2026年9月；未见明确当前轮次名额。"
+      ]
+    },
+    {
+      "id": "census-hkust-zxf-research-portal",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/xiaofang-zhou/",
+      "title": "Xiaofang Zhou · 校方研究档案",
+      "checkedAt": "2026-10-26",
+      "evidenceLevel": "official_research_portal_body",
+      "parentSourceId": "census-hkust-cse-profile-zxf",
+      "scope": "教师自述研究与校方任职档案；不作为学校招生政策",
+      "claims": [
+        "进一步列出时空数据库、数据质量、推荐系统与机器学习等研究方向。"
+      ],
+      "knownIssues": [
+        "研究项目和论文记录不证明本轮招生余位。"
+      ]
     }
   ],
   "funding": [
@@ -8869,7 +11378,504 @@
       ],
       "coverageNotes": "目录入口可打开，但本轮正文只显示导航和跨学域重复任职说明，未取得完整教师名册。蔡宁的任职与方向另从2026年官方个人介绍核实。",
       "coverageComplete": false
+    },
+    {
+      "id": "census-hkust-cse-regular",
+      "universityId": "hkust",
+      "unit": "计算机科学与工程 / CSE · Regular全研究方向",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/",
+      "sourceIds": [
+        "census-hkust-cse-regular"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这组Regular目录已逐项列出53个不同主页，38个读到正文，15个网络超时。未覆盖其他身份分类、全校师资或正式导师资格；个人网站与实验室仍需继续逐页核查。",
+      "census": {
+        "filter": "Regular / All Areas",
+        "enumerationComplete": true,
+        "observedTotal": 53,
+        "profilesRead": 38,
+        "profilesFailed": 15,
+        "entries": [
+          {
+            "name": "Xiaofang ZHOU",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zxf",
+            "directoryPosition": "Otto Poon Professor of Engineering and Chair Professor and Head",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Song GUO",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/songguo",
+            "directoryPosition": "Chair Professor and Associate Head",
+            "directoryResearchArea": "Artificial Intelligence; Networking and Computer Systems",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Raymond Chi-Wing WONG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/raywong",
+            "directoryPosition": "Professor and Associate Head",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Lei CHEN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/leichen",
+            "directoryPosition": "Chair Professor",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Shing-Chi CHEUNG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/scc",
+            "directoryPosition": "Chair Professor",
+            "directoryResearchArea": "Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Yike GUO",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yikeguo",
+            "directoryPosition": "Chair Professor",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Jiaya JIA",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jia",
+            "directoryPosition": "Chair Professor",
+            "directoryResearchArea": "Vision and Graphics; Artificial Intelligence",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Bo LI",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/bli",
+            "directoryPosition": "Chair Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Huamin QU",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/huamin",
+            "directoryPosition": "Chair Professor",
+            "directoryResearchArea": "Human-Computer Interaction; Vision and Graphics",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Qian ZHANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/qianzh",
+            "directoryPosition": "Tencent Professor of Engineering and Chair Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Gary Shueng-Han CHAN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/gchan",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Kai CHEN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/kaichen",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Siu-Wing CHENG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/scheng",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Theoretical Computer Science",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Albert Chi-Shing CHUNG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/achung",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Vision and Graphics; Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Cunsheng DING",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cding",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Theoretical Computer Science; Cybersecurity",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Andrew B. HORNER",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/horner",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Human-Computer Interaction",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "James Tin-Yau KWOK",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jamesk",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Mo LI",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lim",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Fangzhen LIN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/flin",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Artificial Intelligence; Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Qiong LUO",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/luo",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Data, Knowledge and Information Management; Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Dimitris PAPADIAS",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dimitris",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Long QUAN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/quan",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Vision and Graphics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Pedro SANDER",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/psander",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Vision and Graphics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Chi-Keung TANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cktang",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Vision and Graphics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Ke YI",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yike",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Theoretical Computer Science; Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Charles ZHANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/charlesz",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Software Engineering and Programming Languages; Cybersecurity",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Nevin Lianwen ZHANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/lzhang",
+            "directoryPosition": "Professor",
+            "directoryResearchArea": "Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Sunil ARYA",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arya",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Theoretical Computer Science",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Brahim BENSAOU",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/csbb",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Qifeng CHEN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/cqf",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Vision and Graphics; Artificial Intelligence",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Xiaojuan MA",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mxj",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Human-Computer Interaction",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Wilfred Siu-Hung NG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/wilfred",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Dimitris PAPADOPOULOS",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dipapado",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Cybersecurity",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Yangqiu SONG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yqsong",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Shuai WANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/shuaiw",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Cybersecurity; Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Wei WANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/weiwa",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Dan XU",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/danxu",
+            "directoryPosition": "Associate Professor",
+            "directoryResearchArea": "Vision and Graphics",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Hao CHEN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jhc",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Vision and Graphics; Artificial Intelligence",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Long CHEN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/longchen",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Vision and Graphics; Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Yi R. FUNG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/yrfung",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Junxian HE",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/junxianh",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Artificial Intelligence; Software Engineering and Programming Languages",
+            "profileRead": false,
+            "reviewStatus": "network_timeout",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Yaonan JIN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/jinyaonan",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Theoretical Computer Science",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Chaojian LI",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/chaojian",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Networking and Computer Systems; Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Sehi L'YI",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sehi",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Human-Computer Interaction; Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Arpit NARECHANIA",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/arpit",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Human-Computer Interaction",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Xiaomin OUYANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/xmouyang",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Networking and Computer Systems",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Lionel PARREAUX",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/parreaux",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Dongdong SHE",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/dongdong",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Cybersecurity; Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Jiasi SHEN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/sjs",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Software Engineering and Programming Languages",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Yinghao XU",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Artificial Intelligence; Vision and Graphics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Binhang YUAN",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/biyuan",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Data, Knowledge and Information Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Zihan ZHANG",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/zihanz",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Artificial Intelligence; Theoretical Computer Science",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          },
+          {
+            "name": "Mingxun ZHOU",
+            "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/mingxunz",
+            "directoryPosition": "Assistant Professor",
+            "directoryResearchArea": "Cybersecurity; Theoretical Computer Science",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "checkedAt": "2026-10-26"
+          }
+        ]
+      }
     }
   ],
-  "snapshotId": "sha256:62f69402a15a65a232876e747aea5c41c982fd9a4763e4ff44450741ce31e625"
+  "snapshotId": "sha256:f9095154516dbf59c42982acd9933912d706d3ddcf21e76f014893ed14a1416c"
 }
