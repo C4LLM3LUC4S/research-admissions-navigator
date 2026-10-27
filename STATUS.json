@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a6",
+  "version": "0.1.0a7",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-27",
@@ -7,17 +7,17 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 23,
-    "degree_routes": 39,
-    "faculty": 745,
-    "official_sources": 1215,
-    "programmes_with_partial_requirements": 21,
-    "requirement_items": 72,
-    "programmes_with_partial_finances": 16,
-    "finance_items": 24,
-    "official_directory_entries": 36,
-    "teacher_linked_sources": 166,
-    "total_sources": 1381,
+    "programme_or_route_cards": 25,
+    "degree_routes": 43,
+    "faculty": 808,
+    "official_sources": 1298,
+    "programmes_with_partial_requirements": 23,
+    "requirement_items": 83,
+    "programmes_with_partial_finances": 18,
+    "finance_items": 26,
+    "official_directory_entries": 37,
+    "teacher_linked_sources": 182,
+    "total_sources": 1480,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
     "reviewed_new_profiles": 165,
@@ -26,8 +26,8 @@
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
     "cityu_deferred_profiles": 4,
-    "observed_profile_links": 763,
-    "pending_research_review": 132,
+    "observed_profile_links": 831,
+    "pending_research_review": 133,
     "sai_directory_pages": 6,
     "sai_profiles": 53,
     "sai_new_profiles": 45,
@@ -68,7 +68,17 @@
     "polyu_fcms_cross_department_pairs": 3,
     "polyu_fcms_missing_research": 4,
     "polyu_fcms_provided_urls": 265,
-    "polyu_fcms_selected_linked_sources": 21
+    "polyu_fcms_selected_linked_sources": 21,
+    "hkust_cbe_directory_categories": 7,
+    "hkust_cbe_original_profile_urls": 68,
+    "hkust_cbe_profile_bodies_read": 68,
+    "hkust_cbe_curated": 67,
+    "hkust_cbe_new": 63,
+    "hkust_cbe_old_ids": 4,
+    "hkust_cbe_missing_research": 1,
+    "hkust_cbe_announced_upcoming": 1,
+    "hkust_cbe_personal_sources_read": 16,
+    "hkust_cbe_legacy_profile_sources_read": 3
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -112,10 +122,12 @@
     "保留个人主页指向其他人标题的未核实冲突并在页面提醒，中文医学影像和图算法等查询能沿用收藏与备份",
     "港大CDS逐人研究与个人网站、18名统计系研究生导师名单分层；保留13个原编号，个人资助或博士季节说明不套给MPhil，旧学费不当新学年金额。",
     "具体研究词与结果入口提前，宽泛方向按需展开并显示已选数量；保存或载入关键词后先显示老师结果，搜索框在小屏使用完整宽度。",
-    "港理工应用数学、计算及数据科学与AI三个主名录168个主页逐项保留，跨系任职据共同档案去重；新增151条研究、保留10个原编号，补实际2027年9月三条入口和分学位要求、博士费用与有条件资助。"
+    "港理工应用数学、计算及数据科学与AI三个主名录168个主页逐项保留，跨系任职据共同档案去重；新增151条研究、保留10个原编号，补实际2027年9月三条入口和分学位要求、博士费用与有条件资助。",
+    "港科大CBE当前七类68条主页分身份整理，新增63条研究、4位旧编号接续；未来2027年7月任职、1条缺研究、个人站脚本壳和其他机构职务分开。新增生命科学/生物工程及化学工程分类和常用中文研究词。",
+    "补CBME和BIEN的2027/28研究学位、非本地/本地及春秋日期、新旧托福尺度与180港元申请费；补课条件不写成生物本科前置要求，完整系统材料和导师支持要求仍未知。"
   ],
   "verification": {
-    "node_checks": 87,
+    "node_checks": 95,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -125,21 +137,21 @@
     ],
     "catalog_check": "passed",
     "actual_callback_journey_with_DOM_stubs": "passed",
-    "actual_browser_visual_keyboard_native_picker_and_download": "a4实际备份恢复已验收；本次Edge新预览实测390px页面375px无横溢出，键盘展开方向/直达结果、已选数量和保存重开结果通过。最终viewport截图单独稳定捕获并查看，视口恢复1258。不是Windows原生框、独立真人或新浏览器下载验收。",
+    "actual_browser_visual_keyboard_native_picker_and_download": "旧a4/PR13实际恢复及窄屏证据保留；新CBE对应实际操作另存验收收据，本源码不预先声称新浏览器通过。",
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
     "python_checks": 22
   },
   "limitations": [
-    "745位教师、36个官方目录入口仍非完整师资库；这批港理工只覆盖三个主名录的当前范围，其他职位分类、院系、指导资格与实际名额仍待继续核实。",
-    "740位的当前接收情况未知；另5位有不同年度或范围的公开说明。新个人页的未注明轮次招募说明也不当作已确认余位。",
+    "808份教师研究资料、37个官方目录入口仍非完整导师库；含官网已公布的未来任职。CBE只核当前七类显示范围，不确认全校名单、所选学位指导资格或余位。",
+    "803份资料的当前接收情况未知，另5位有不同年度或范围的说明；任何一项都不当作已确认的实时余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
-    "当前23条项目/申请路线：21条有部分要求、16条有部分费用或资助；仍不能将已核规则套给未核院系。",
+    "当前25条项目/申请路线：23条有部分要求、18条有部分费用或资助。CBE的Apply入口本次403，完整上传材料没有核到，不用其他项目或搜索摘要补猜。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "继续七校其他尚未覆盖院系的完整名单和个人Links，优先港科大香港工程及城大其他系；当前批次的旧链接冲突、4个缺研究主页和未核Links保留。a6发行及公开文件验收另记收据。"
+  "next": "继续港科大其他工程院系及城大未覆盖院系；CBE个人站脚本壳、1条缺研究与未知申请材料保留待核。教师到对应项目的导航及按姓名查找可做具体任务审视；不虚构缺口。a7发行验收另记。"
 }

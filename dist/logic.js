@@ -5,7 +5,7 @@
   else root.APP_LOGIC = api;
 }(typeof globalThis !== 'undefined' ? globalThis : this, function () {
   'use strict';
-  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频','环境与可持续发展','物理与化学','材料与能源','土木与机械工程','经济与管理','人文与社会科学','教育学','设计与创意','旅游与酒店管理','电子与集成电路'];
+  const INTERESTS = ['人工智能','机器学习','计算机视觉','自然语言处理','机器人与控制','数据挖掘','网络与系统','理论与优化','数学与统计','金融与精算','生物医学与健康','软件工程与编程语言','网络安全','人机交互','数据库与数据系统','计算机图形学','计算机音乐与音频','环境与可持续发展','物理与化学','材料与能源','土木与机械工程','经济与管理','人文与社会科学','教育学','设计与创意','旅游与酒店管理','电子与集成电路','生命科学与生物工程','化学工程'];
   const KEYWORDS = [
     /人工智能|artificial intelligence|(?:^|\W)ai(?:$|\W)|ai4science/i,
     /机器学习|深度学习|machine learning|deep learning|distributed learning|reinforcement learning/i,
@@ -33,7 +33,9 @@
     /教育|education/i,
     /设计|创意|design|creative/i,
     /旅游|酒店|tourism|hospitality/i,
-    /集成电路|微电子|半导体|芯片|integrated circuit|microelectronic|semiconductor|vlsi|photonic|electronic design automation/i
+    /集成电路|微电子|半导体|芯片|integrated circuit|microelectronic|semiconductor|vlsi|photonic|electronic design automation/i,
+    /生命科学|生物工程|life science|bioengineering|genomics|genetics|synthetic biology/i,
+    /化学工程|化工|chemical engineering|chemical process|process control/i
   ];
   const OFFICIAL_HOSTS = ['hku.hk','cuhk.edu.hk','hkust.edu.hk','ust.hk','polyu.edu.hk','cityu.edu.hk','cuhk.edu.cn','hkust-gz.edu.cn','ugc.edu.hk','rgc.edu.hk'];
   const EDUCATION = ['','undergraduate','bachelor','master','other'];
@@ -78,7 +80,11 @@
     ['数学金融','mathematical finance','financial mathematics'],
     ['后量子密码学','后量子密码','post-quantum cryptography','post quantum cryptography'],
     ['图检索增强生成','图rag','graph retrieval-augmented generation','graph rag'],
-    ['超大规模集成电路','vlsi']
+    ['超大规模集成电路','vlsi'],
+    ['合成生物学','synthetic biology'],['生物信息学','bioinformatics'],
+    ['过程控制','process control'],['电催化','electrocatalysis'],
+    ['膜技术','membrane technology','membrane technologies'],
+    ['可穿戴电子','wearable electronics'],['科学智能','ai辅助科学研究','ai for science']
   ];
   function officialUrl(value) {
     try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password &&
