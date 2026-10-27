@@ -152,8 +152,8 @@ class AcademicMapChecks(unittest.TestCase):
             builder.validate(self.catalog)
 
     def test_staff_navigation_read_does_not_imply_complete_teacher_enumeration(self):
-        self.assertEqual(self.catalog['academicEntryProgress']['childBodiesRead'], 128)
-        self.assertEqual(self.catalog['academicEntryProgress']['childFailures'], 12)
+        self.assertEqual(self.catalog['academicEntryProgress']['childBodiesRead'], 108)
+        self.assertEqual(self.catalog['academicEntryProgress']['childFailures'], 32)
         self.assertEqual(self.catalog['academicEntryProgress']['distinctStaffRoutes'], 107)
         child = next(c for r in self.catalog['academicCoverage'] for u in r['units'] for c in u['children'] if c.get('staffRoutes'))
         self.assertTrue(all(route['completeFacultyEnumeration'] is False for route in child['staffRoutes']))
@@ -196,6 +196,30 @@ class PageAssetChecks(unittest.TestCase):
         new = builder.asset_versioned_html(old, {'app.js': b'new copy'})
         self.assertNotEqual(old, new)
         self.assertEqual(new, builder.asset_versioned_html(new, {'app.js': b'new copy'}))
+
+
+class AccessResponseChecks(unittest.TestCase):
+    def test_access_checks_stay_unread_without_erasing_original_links_or_dates(self):
+        catalog = builder.build_catalog()
+        rows = [c for m in catalog['academicCoverage'] for u in m['units'] for c in u['children'] if c.get('responseKind') == 'access_challenge']
+        self.assertEqual(len(rows), 20)
+        self.assertTrue(all(c['entryBodyStatus'] == 'access_failed' and c['url'] and c['teacherProfilesTotal'] is None for c in rows))
+        sources = [s for s in catalog['sources'] if s['evidenceLevel'] == 'official_entry_access_failed']
+        self.assertEqual(len(sources), 5)
+        self.assertTrue(all(s['checkedAt'] == '2026-10-26' and s['classificationReviewedAt'] == '2026-10-27' for s in sources))
+        self.assertEqual(catalog['academicEntryProgress']['knownAccessChallenges'], 20)
+
+    def test_known_access_checks_cannot_be_promoted_to_verified_sources_or_read_entries(self):
+        catalog = builder.build_catalog()
+        source = next(s for s in catalog['sources'] if s.get('responseKind') == 'access_challenge')
+        source['evidenceLevel'] = 'official_verified_page_scoped'
+        with self.assertRaisesRegex(AssertionError, 'access-check'):
+            builder.validate(catalog)
+        catalog = builder.build_catalog()
+        child = next(c for m in catalog['academicCoverage'] for u in m['units'] for c in u['children'] if c.get('responseKind') == 'access_challenge')
+        child['entryBodyStatus'] = 'body_read'
+        with self.assertRaisesRegex(AssertionError, 'access checks'):
+            builder.validate(catalog)
 
 
 if __name__ == "__main__":

@@ -53056,18 +53056,21 @@ window.APP_CATALOG = {
     {
       "id": "entry-read-academic-child-633188f87f12cdd4",
       "url": "https://www.cityu.edu.hk/neuro/",
-      "title": "学系/学域入口 · https://www.cityu.edu.hk/neuro/",
+      "title": "未读到正文 · 学系/学域入口 · https://www.cityu.edu.hk/neuro/",
       "checkedAt": "2026-10-26",
-      "evidenceLevel": "official_verified_page_scoped",
-      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "evidenceLevel": "official_entry_access_failed",
+      "scope": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
       "claims": [
-        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+        "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。"
       ],
       "knownIssues": [
         "原链接：https://www.cityu.edu.hk/neuro/",
-        "页面发布时间未核实；核查日不是任职或政策生效日。"
+        "页面发布时间未核实；核查日不是任职或政策生效日。",
+        "原核查日期保留；2026-10-27根据已存响应摘要纠正分类，不是重新核实院系正文。"
       ],
-      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "responseKind": "access_challenge",
+      "classificationReviewedAt": "2026-10-27"
     },
     {
       "id": "entry-read-academic-child-321b23c306c0c1f2",
@@ -53088,18 +53091,21 @@ window.APP_CATALOG = {
     {
       "id": "entry-read-academic-child-20ad62210ec340ed",
       "url": "https://www.cityu.edu.hk/bios/",
-      "title": "学系/学域入口 · https://www.cityu.edu.hk/bios/",
+      "title": "未读到正文 · 学系/学域入口 · https://www.cityu.edu.hk/bios/",
       "checkedAt": "2026-10-26",
-      "evidenceLevel": "official_verified_page_scoped",
-      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "evidenceLevel": "official_entry_access_failed",
+      "scope": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
       "claims": [
-        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+        "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。"
       ],
       "knownIssues": [
         "原链接：https://www.cityu.edu.hk/bios/",
-        "页面发布时间未核实；核查日不是任职或政策生效日。"
+        "页面发布时间未核实；核查日不是任职或政策生效日。",
+        "原核查日期保留；2026-10-27根据已存响应摘要纠正分类，不是重新核实院系正文。"
       ],
-      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "responseKind": "access_challenge",
+      "classificationReviewedAt": "2026-10-27"
     },
     {
       "id": "entry-read-academic-child-028b2b359047f08f",
@@ -53120,34 +53126,40 @@ window.APP_CATALOG = {
     {
       "id": "entry-read-academic-child-7b1c240a602412d1",
       "url": "https://www.cityu.edu.hk/sdsc/",
-      "title": "学系/学域入口 · https://www.cityu.edu.hk/sdsc/",
+      "title": "未读到正文 · 学系/学域入口 · https://www.cityu.edu.hk/sdsc/",
       "checkedAt": "2026-10-26",
-      "evidenceLevel": "official_verified_page_scoped",
-      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "evidenceLevel": "official_entry_access_failed",
+      "scope": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
       "claims": [
-        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+        "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。"
       ],
       "knownIssues": [
         "原链接：https://www.cityu.edu.hk/sdsc/",
-        "页面发布时间未核实；核查日不是任职或政策生效日。"
+        "页面发布时间未核实；核查日不是任职或政策生效日。",
+        "原核查日期保留；2026-10-27根据已存响应摘要纠正分类，不是重新核实院系正文。"
       ],
-      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "responseKind": "access_challenge",
+      "classificationReviewedAt": "2026-10-27"
     },
     {
       "id": "entry-read-academic-child-4aafc8b7b31e2d07",
       "url": "https://www.cityu.edu.hk/ace/",
-      "title": "学系/学域入口 · https://www.cityu.edu.hk/ace/",
+      "title": "未读到正文 · 学系/学域入口 · https://www.cityu.edu.hk/ace/",
       "checkedAt": "2026-10-26",
-      "evidenceLevel": "official_verified_page_scoped",
-      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "evidenceLevel": "official_entry_access_failed",
+      "scope": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
       "claims": [
-        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+        "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。"
       ],
       "knownIssues": [
         "原链接：https://www.cityu.edu.hk/ace/",
-        "页面发布时间未核实；核查日不是任职或政策生效日。"
+        "页面发布时间未核实；核查日不是任职或政策生效日。",
+        "原核查日期保留；2026-10-27根据已存响应摘要纠正分类，不是重新核实院系正文。"
       ],
-      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "responseKind": "access_challenge",
+      "classificationReviewedAt": "2026-10-27"
     },
     {
       "id": "entry-read-academic-child-d987799db06eae67",
@@ -53216,18 +53228,21 @@ window.APP_CATALOG = {
     {
       "id": "entry-read-academic-child-7dbe6f2899c780fd",
       "url": "https://www.cityu.edu.hk/vcs",
-      "title": "学系/学域入口 · https://www.cityu.edu.hk/vcs",
+      "title": "未读到正文 · 学系/学域入口 · https://www.cityu.edu.hk/vcs",
       "checkedAt": "2026-10-26",
-      "evidenceLevel": "official_verified_page_scoped",
-      "scope": "入口正文及其实际提供的人员导航；未确认所有分页、每位教师或招生资格",
+      "evidenceLevel": "official_entry_access_failed",
+      "scope": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
       "claims": [
-        "已读取入口正文；个人页和完整名录核查继续单独记录。"
+        "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。"
       ],
       "knownIssues": [
         "原链接：https://www.cityu.edu.hk/vcs",
-        "页面发布时间未核实；核查日不是任职或政策生效日。"
+        "页面发布时间未核实；核查日不是任职或政策生效日。",
+        "原核查日期保留；2026-10-27根据已存响应摘要纠正分类，不是重新核实院系正文。"
       ],
-      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d"
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "responseKind": "access_challenge",
+      "classificationReviewedAt": "2026-10-27"
     },
     {
       "id": "entry-read-academic-child-6557e3e2e7349712",
@@ -90266,7 +90281,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Biomedical Engineering",
               "url": "http://www.cityu.edu.hk/bme/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90274,12 +90289,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/bme/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Biomedical Sciences",
               "url": "http://www.cityu.edu.hk/bms/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90287,12 +90304,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/bms/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Neuroscience",
               "url": "https://www.cityu.edu.hk/neuro/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90302,7 +90321,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "https://www.cityu.edu.hk/neuro/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             }
           ],
           "staffEntries": [],
@@ -90325,7 +90346,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Accountancy",
               "url": "http://www.cityu.edu.hk/ac/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90333,7 +90354,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/ac/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Decision Analytics and Operations",
@@ -90378,7 +90401,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Economics and Finance",
               "url": "http://www.cityu.edu.hk/ef/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90386,12 +90409,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/ef/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Information Systems",
               "url": "http://www.cityu.edu.hk/is/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90399,12 +90424,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/is/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Management",
               "url": "http://www.cityu.edu.hk/mgt/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90412,12 +90439,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/mgt/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Marketing",
               "url": "http://www.cityu.edu.hk/mkt/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90425,7 +90454,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/mkt/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             }
           ],
           "staffEntries": [],
@@ -90448,7 +90479,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Biostatistics",
               "url": "https://www.cityu.edu.hk/bios/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90458,7 +90489,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "https://www.cityu.edu.hk/bios/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Computer Science",
@@ -90515,7 +90548,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Data Science",
               "url": "https://www.cityu.edu.hk/sdsc/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90525,7 +90558,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "https://www.cityu.edu.hk/sdsc/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             }
           ],
           "staffEntries": [],
@@ -90548,7 +90583,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Architecture and Civil Engineering",
               "url": "https://www.cityu.edu.hk/ace/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90558,7 +90593,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "https://www.cityu.edu.hk/ace/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Electrical Engineering",
@@ -90576,7 +90613,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Materials Science and Engineering",
               "url": "http://www.cityu.edu.hk/mse/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90584,12 +90621,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/mse/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Mechanical Engineering",
               "url": "http://www.cityu.edu.hk/mne/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90597,12 +90636,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/mne/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Systems Engineering",
               "url": "http://www.cityu.edu.hk/sye/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90610,7 +90651,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/sye/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             }
           ],
           "staffEntries": [],
@@ -90729,7 +90772,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Media and Communication",
               "url": "http://www6.cityu.edu.hk/com/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90737,12 +90780,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www6.cityu.edu.hk/com/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Public and International Affairs",
               "url": "http://www.cityu.edu.hk/pia/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90750,7 +90795,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/pia/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Social and Behavioural Sciences",
@@ -90837,7 +90884,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Chemistry",
               "url": "http://www.cityu.edu.hk/chem/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90845,12 +90892,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/chem/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Mathematics",
               "url": "http://www6.cityu.edu.hk/ma/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90858,7 +90907,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www6.cityu.edu.hk/ma/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Physics",
@@ -90894,7 +90945,7 @@ window.APP_CATALOG = {
             {
               "name": "Department of Infectious Diseases and Public Health",
               "url": "http://www.cityu.edu.hk/ph/",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90902,12 +90953,14 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "http://www.cityu.edu.hk/ph/",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             },
             {
               "name": "Department of Veterinary Clinical Sciences",
               "url": "https://www.cityu.edu.hk/vcs",
-              "entryBodyStatus": "body_read",
+              "entryBodyStatus": "access_failed",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_official_research_degree_areas",
@@ -90917,7 +90970,9 @@ window.APP_CATALOG = {
               "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
               "retrievedUrl": "https://www.cityu.edu.hk/vcs",
               "staffRoutes": [],
-              "failure": null
+              "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
+              "responseKind": "access_challenge",
+              "classificationReviewedAt": "2026-10-27"
             }
           ],
           "staffEntries": [],
@@ -93864,11 +93919,12 @@ window.APP_CATALOG = {
   ],
   "academicEntryProgress": {
     "childEntries": 140,
-    "childBodiesRead": 128,
-    "childFailures": 12,
+    "childBodiesRead": 108,
+    "childFailures": 32,
     "distinctStaffRoutes": 107,
     "staffRouteBodiesRead": 107,
-    "staffRouteFailures": 0
+    "staffRouteFailures": 0,
+    "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:0bd3c836280169c749b90915983619283ae73f7d8a3b3c222339073ad56ff7e2"
+  "snapshotId": "sha256:2e3ad63bcdd5ec6457293679bf408499b603a0b2845af9ee2f753ba586052b86"
 };

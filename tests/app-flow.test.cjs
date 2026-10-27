@@ -44,6 +44,15 @@ function harness(initialStorage,options={}) {
   return {byId,saved,downloads,button,select,walk,networkCalls:()=>networkCalls};
 }
 
+test('access-check entries and source evidence never tell applicants institutional content was read',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+  assert.match(el('academic-coverage').textContent,/入口返回访问检查页，尚未读到院系正文/);
+  const bios=h.walk(el('academic-coverage')).find(n=>n.tagName==='li'&&n.children.some(c=>c.textContent==='Department of Biostatistics ↗'));
+  assert.ok(bios);assert.doesNotMatch(bios.textContent,/已读学系\/学域入口/);assert.match(bios.textContent,/入口读取失败/);
+  const cards=el('source-list').children.filter(c=>c.children.some(n=>n.textContent==='官方入口（未读到正文） · 核查 2026-10-26'));
+  assert.equal(cards.length,5);assert.ok(cards.every(c=>!c.textContent.includes('已读取入口正文')));assert.equal(h.networkCalls(),0);
+});
+
 test('collapsed direction filters reveal active saved choices and remain clearable after backup restore',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.equal(el('interest-summary').textContent,'按方向再筛选（选填）');

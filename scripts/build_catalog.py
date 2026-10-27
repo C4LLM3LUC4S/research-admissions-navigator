@@ -429,6 +429,26 @@ def build_catalog():
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hkust-2")
     unit["staffEntries"].extend(cbe["staffEntries"])
     catalog["programs"].extend(cbe["programmes"])
+    access = load("entry-access-review-20261027.json")
+    failed = {row["url"]: row for row in access["entries"]}
+    corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
+    for source in catalog["sources"]:
+        if source["id"] in corrected_sources:
+            assert source["bodySha256"] == access["responseSha256"]
+            source.update(evidenceLevel="official_entry_access_failed", title="未读到正文 · " + source["title"],
+                          scope=access["failure"], claims=[access["failure"]], responseKind="access_challenge",
+                          classificationReviewedAt=access["reviewedAt"])
+            source["knownIssues"].append("原核查日期保留；2026-10-27根据已存响应摘要纠正分类，不是重新核实院系正文。")
+    for overview in catalog["academicCoverage"]:
+        for unit in overview["units"]:
+            for child in unit["children"]:
+                if child.get("url") in failed:
+                    assert child["bodySha256"] == access["responseSha256"]
+                    child.update(entryBodyStatus="access_failed", responseKind="access_challenge", failure=access["failure"],
+                                 classificationReviewedAt=access["reviewedAt"])
+    catalog["academicEntryProgress"].update(childBodiesRead=entry_progress["counts"]["childBodiesRead"]-len(failed),
+                                          childFailures=entry_progress["counts"]["childFailures"]+len(failed),
+                                          knownAccessChallenges=len(failed))
     return catalog
 
 
@@ -439,6 +459,8 @@ def validate(catalog):
     sources = {s["id"]: s for s in catalog["sources"]}
     assert len(sources) == len(catalog["sources"]) and len(sources) >= 34
     for source in sources.values():
+        if source.get("bodySha256") == "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d":
+            assert source["evidenceLevel"] == "official_entry_access_failed" and source.get("responseKind") == "access_challenge", "A known access-check response is not verified institutional content"
         assert source["url"].startswith("https://") and source["claims"]
         checked = source["checkedAt"]
         assert isinstance(checked, str) and re.fullmatch(r"\d{4}-\d\d-\d\d", checked), "Record the actual source verification date"
@@ -597,6 +619,8 @@ def validate(catalog):
                         assert lead["researchReviewStatus"] == "research_excerpt_and_directory_role_reviewed"
                     assert any(lead["url"] in sources[sid].get("discoveredLinks", []) for sid in entry["sourceIds"])
             for child in unit["children"]:
+                if child.get("bodySha256") == "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d":
+                    assert child["entryBodyStatus"] == "access_failed" and child.get("responseKind") == "access_challenge", "HTTP200 access checks must stay unread"
                 assert child["teacherProfilesTotal"] is None and child["teacherReviewStatus"] == "pending"
                 assert child["entryBodyStatus"] in {"not_read", "body_read", "access_failed"}
                 if child["entryBodyStatus"] == "body_read":

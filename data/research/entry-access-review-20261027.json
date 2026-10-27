@@ -1,0 +1,119 @@
+{
+  "reviewedAt": "2026-10-27",
+  "responseKind": "access_challenge",
+  "responseSha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+  "scope": "根据旧收据的相同响应摘要纠正20个入口状态；仅重新读取原SYE网址，212字节防护脚本页与旧摘要完全相同。不是重新访问其余19个入口，也没有重试其他通道。",
+  "entries": [
+    {
+      "url": "http://www.cityu.edu.hk/bme/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/bms/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/neuro/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": [
+        "entry-read-academic-child-633188f87f12cdd4"
+      ]
+    },
+    {
+      "url": "http://www.cityu.edu.hk/ac/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/ef/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/is/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mgt/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mkt/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/bios/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": [
+        "entry-read-academic-child-20ad62210ec340ed"
+      ]
+    },
+    {
+      "url": "https://www.cityu.edu.hk/sdsc/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": [
+        "entry-read-academic-child-7b1c240a602412d1"
+      ]
+    },
+    {
+      "url": "https://www.cityu.edu.hk/ace/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": [
+        "entry-read-academic-child-4aafc8b7b31e2d07"
+      ]
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mse/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/mne/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/sye/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www6.cityu.edu.hk/com/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/pia/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/chem/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www6.cityu.edu.hk/ma/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "http://www.cityu.edu.hk/ph/",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": []
+    },
+    {
+      "url": "https://www.cityu.edu.hk/vcs",
+      "bodySha256": "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d",
+      "sourceIds": [
+        "entry-read-academic-child-7dbe6f2899c780fd"
+      ]
+    }
+  ],
+  "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。"
+}
