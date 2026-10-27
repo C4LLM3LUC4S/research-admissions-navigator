@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a5",
+  "version": "0.1.0a6",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-27",
@@ -101,10 +101,11 @@
     "CSE名录77卡按76网址与1无网址分开，2条纪念项不进入当前教师检索；原HTTP和证书失败分别待核",
     "已观察到的校外主页仅放行该条原网址，不给整个外部域名权限；进度按姓名与具体原因展示",
     "保留个人主页指向其他人标题的未核实冲突并在页面提醒，中文医学影像和图算法等查询能沿用收藏与备份",
-    "港大CDS逐人研究与个人网站、18名统计系研究生导师名单分层；保留13个原编号，个人资助或博士季节说明不套给MPhil，旧学费不当新学年金额。"
+    "港大CDS逐人研究与个人网站、18名统计系研究生导师名单分层；保留13个原编号，个人资助或博士季节说明不套给MPhil，旧学费不当新学年金额。",
+    "具体研究词与结果入口提前，宽泛方向按需展开并显示已选数量；保存或载入关键词后先显示老师结果，搜索框在小屏使用完整宽度。"
   ],
   "verification": {
-    "node_checks": 79,
+    "node_checks": 81,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -114,7 +115,7 @@
     ],
     "catalog_check": "passed",
     "actual_callback_journey_with_DOM_stubs": "passed",
-    "actual_browser_visual_keyboard_native_picker_and_download": "公开a4已完成Edge真实筛选、收藏、备份文件内容和恢复重开；本次HKU修改为数据与实际回调检查，新的布局与原生Windows选择器未验收。各阶段证据另存。",
+    "actual_browser_visual_keyboard_native_picker_and_download": "a4实际备份恢复已验收；本次Edge新预览实测390px页面375px无横溢出，键盘展开方向/直达结果、已选数量和保存重开结果通过。最终viewport截图单独稳定捕获并查看，视口恢复1258。不是Windows原生框、独立真人或新浏览器下载验收。",
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
@@ -130,5 +131,5 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "按七校单位总表补下一完整院系及对应项目；港大本批不是全校完成。小屏研究词入口仍可优化。版本为开发快照，公开a4附件保持原字节。"
+  "next": "继续港理工计算与数学科学学院三个完整名录及提供的个人网站，补相应项目要求；a6为候选，发行结果另存收据，旧a5资产保留。"
 }

@@ -18,6 +18,8 @@ python -m unittest discover -s tests -p test_catalog_validation.py
 
 页面和数据状态以 `STATUS.json` 为准。功能与范围见 [产品说明](PRODUCT_BRIEF.md)。
 
+有具体研究问题时，可以直接输入关键词，再点“查看筛选结果”。宽泛方向放在可展开的筛选里，已选数量会一直显示；想放宽范围时可以清除筛选。保存或载入含关键词的清单后，再次打开会先显示相关老师，不会把项目列表当作关键词匹配结果。
+
 `docs/` 是发布到GitHub Pages的自动生成副本，请改 `dist/` 后运行目录构建命令；检查流程会拒绝不一致的网页副本。
 
 ## 从哪里开始准备
