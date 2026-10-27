@@ -379,6 +379,22 @@ def build_catalog():
     directory.update({k: v for k, v in cse["directoryUpdate"].items() if k not in {"id", "sourceIds"}})
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhk-4")
     unit["staffEntries"].extend(cse["staffEntries"])
+    hku = load("hku-cds-census-20261027.json")
+    catalog["sources"].extend(hku["sources"])
+    catalog["faculty"].extend(hku["faculty"])
+    for update in hku["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics", "directorySourceIds", "academicUnitIds"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        for field in ("directoryRole", "identityNote", "reviewedProfileUrl", "department", "summary", "applicationNotes"):
+            old[field] = update[field]
+        old["extraLinks"] = list({link["url"]: link for link in old.get("extraLinks", []) + update["extraLinks"]}.values())
+    directory = next(d for d in catalog["directories"] if d["id"] == hku["directoryUpdate"]["id"])
+    directory["sourceIds"].extend(hku["directoryUpdate"]["sourceIds"])
+    directory.update({k: v for k, v in hku["directoryUpdate"].items() if k not in {"id", "sourceIds"}})
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hku-6")
+    unit["staffEntries"].extend(hku["staffEntries"])
+    catalog["programs"].extend(hku["programmes"])
     return catalog
 
 
@@ -458,11 +474,23 @@ def validate(catalog):
         refs(f["keywordSourceIds"])
         for link in f.get("extraLinks", []):
             parent = sources[link["parentSourceId"]]
-            assert link["parentSourceId"] in f["sourceIds"] and parent["url"] == f["profileUrl"]
+            assert link["parentSourceId"] in f["sourceIds"] and parent["url"] in {f["profileUrl"], f.get("reviewedProfileUrl")}
             assert link["url"] in parent["discoveredLinks"]
             assert link["bodyStatus"] in {"not_read", "body_read"}
+            if link.get("linkIssue"):
+                assert link["linkIssue"] == "malformed_href" and link["bodyStatus"] == "not_read" and link["readNote"]
             if link["bodyStatus"] == "body_read":
                 assert sources[link["sourceId"]]["url"] == link["url"]
+        for note in f.get("applicationNotes", []):
+            assert note["kind"] in {"official_supervisor_list", "teacher_statement", "page_conflict"}
+            assert note["label"] and note["text"]
+            refs(note["sourceIds"])
+            assert set(note["sourceIds"]) <= set(f["sourceIds"])
+            if "degrees" in note:
+                assert note["degrees"] and set(note["degrees"]) <= {"MPhil", "PhD"}
+            for intake in note.get("mentionedIntakes", []):
+                assert re.fullmatch(r"\d{4}/\d{2}( Spring)?", intake["cycle"])
+                assert re.fullmatch(r"\d{4} (Spring|Fall)", intake["intake"])
         for sid in f.get("directorySourceIds", []):
             assert sid in directory_by_source and directory_by_source[sid]["universityId"] == f["universityId"]
         assert f["availability"]["state"] in {"unknown", "advertised"}

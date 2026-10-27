@@ -330,6 +330,29 @@ test('concrete research discovery follows the teacher to evidence, follow-up, di
   assert.match(restarted.byId.get('tasks').textContent,/Junxian He/);assert.equal(h.networkCalls(),0);
 });
 
+test('teacher PhD statements stay separate from the selected MPhil and remain scoped after portable recovery',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('hku','MPhil',[]);el('research-query').value='Medical Image Processing';
+  await el('profile-form').emit('input',{target:el('research-query')});
+  const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Liangqiong Qu'));assert.ok(card);
+  assert.match(card.textContent,/2027春季和秋季/);assert.match(card.textContent,/没有覆盖当前选择的MPhil/);
+  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='加入跟进待办').emit('click');
+  await el('profile-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads[0].blob.text();
+  const restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/没有覆盖当前选择的MPhil/);assert.match(restored.byId.get('tasks').textContent,/MPhil.*Liangqiong Qu/);assert.equal(h.networkCalls(),0);
+});
+
+test('no fully funded position is not rendered as no admissions and does not inject personal GPA preferences',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);el('research-query').value='Dependence Modeling';await el('profile-form').emit('input',{target:el('research-query')});
+  assert.match(el('results').textContent,/Marius Hofert/);assert.match(el('results').textContent,/近期没有全额资助职位/);assert.match(el('results').textContent,/不等于整个项目不招生/);assert.doesNotMatch(el('results').textContent,/3\.8|top 100/i);
+});
+
+test('a malformed official homepage target is explained without guessing a corrected clickable website',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);el('research-query').value='hallucinations';await el('profile-form').emit('input',{target:el('research-query')});
+  const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Zheng Zhang'));assert.ok(card);
+  assert.match(card.textContent,/原链接有误，待核/);assert.match(card.textContent,/没有自行修正网址/);
+  assert.ok(!h.walk(card).filter(n=>n.tagName==='a').some(n=>(n.href||'').includes('hackmd')));
+});
+
 test('broad discovery renders bounded batches and clearing filters preserves the saved plan',async()=>{
   const h=harness(),el=id=>h.byId.get(id);await el('show-faculty').emit('click');
   assert.equal(el('results').childElementCount,24);assert.equal(el('show-more-faculty').hidden,false);

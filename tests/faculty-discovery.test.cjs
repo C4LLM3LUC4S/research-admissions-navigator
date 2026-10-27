@@ -15,8 +15,8 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,503);assert.equal(C.faculty.length,521);
-  assert.equal(leads.filter(p=>p.facultyId).length,381);
+  assert.equal(leads.length,595);assert.equal(C.faculty.length,594);
+  assert.equal(leads.filter(p=>p.facultyId).length,467);
   for(const lead of leads){assert.ok(['body_read','not_read','access_failed'].includes(lead.profileBodyStatus));assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');if(lead.url.startsWith('http://')){assert.equal(lead.profileBodyStatus,'not_read');assert.equal(L.observedProfileUrl(C,lead.url,lead.directorySourceIds),null);}else assert.ok(L.observedProfileUrl(C,lead.url,lead.directorySourceIds));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
   assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));

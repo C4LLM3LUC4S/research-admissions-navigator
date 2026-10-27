@@ -70,6 +70,9 @@
     ['大气化学','atmospheric chemistry'],['空气质量','air quality'],['储能','energy storage'],
     ['固态电池','solid-state batteries','solid state batteries'],['钙钛矿','perovskite','perovskites'],
     ['医学图像分析','医学影像分析','medical image analysis'],['图算法','graph algorithms'],
+    ['精算','精算学','actuarial science'],['量子计算','quantum computing','quantum computation'],
+    ['量子信息','quantum information'],['量子密码','quantum cryptography'],
+    ['医疗ai','medical ai','ai in healthcare'],['学习分析','learning analytics'],
     ['超大规模集成电路','vlsi']
   ];
   function officialUrl(value) {
@@ -91,7 +94,7 @@
     return (faculty.extraLinks||[]).flatMap(item=>{
       const parent=catalog.sources.find(s=>s.id===item.parentSourceId);
       const url=publicHttps(item.url);
-      if(!url||!parent||!officialUrl(parent.url)||parent.url!==faculty.profileUrl||
+      if(!url||!parent||!officialUrl(parent.url)||![faculty.profileUrl,faculty.reviewedProfileUrl].filter(Boolean).includes(parent.url)||
         !faculty.sourceIds.includes(parent.id)||!(parent.discoveredLinks||[]).includes(item.url))return [];
       return [{...item,url}];
     });

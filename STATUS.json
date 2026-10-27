@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a4",
+  "version": "0.1.0a5",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-27",
@@ -7,17 +7,17 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 20,
-    "degree_routes": 33,
-    "faculty": 521,
-    "official_sources": 944,
-    "programmes_with_partial_requirements": 18,
-    "requirement_items": 54,
-    "programmes_with_partial_finances": 12,
-    "finance_items": 19,
+    "programme_or_route_cards": 21,
+    "degree_routes": 35,
+    "faculty": 594,
+    "official_sources": 1037,
+    "programmes_with_partial_requirements": 19,
+    "requirement_items": 57,
+    "programmes_with_partial_finances": 13,
+    "finance_items": 20,
     "official_directory_entries": 35,
-    "teacher_linked_sources": 109,
-    "total_sources": 1053,
+    "teacher_linked_sources": 144,
+    "total_sources": 1181,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
     "reviewed_new_profiles": 165,
@@ -51,7 +51,15 @@
     "cuhk_cse_new": 55,
     "cuhk_cse_existing_updates": 7,
     "cuhk_cse_linked_identity_read": 44,
-    "cuhk_cse_linked_pending": 9
+    "cuhk_cse_linked_pending": 9,
+    "hku_cds_original_links": 92,
+    "hku_cds_original_profiles_read": 87,
+    "hku_cds_original_failed_or_partial": 5,
+    "hku_cds_curated": 86,
+    "hku_cds_new": 73,
+    "hku_cds_existing_updates": 13,
+    "hku_cds_linked_read": 35,
+    "hku_saas_rpg_listed": 18
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -92,10 +100,11 @@
     "2027/28功能枢纽四博士路径，MPhil统一红鸟入口；不把学位目录、旧政策、申请费或项目协调人误当直申渠道、学费或接收导师",
     "CSE名录77卡按76网址与1无网址分开，2条纪念项不进入当前教师检索；原HTTP和证书失败分别待核",
     "已观察到的校外主页仅放行该条原网址，不给整个外部域名权限；进度按姓名与具体原因展示",
-    "保留个人主页指向其他人标题的未核实冲突并在页面提醒，中文医学影像和图算法等查询能沿用收藏与备份"
+    "保留个人主页指向其他人标题的未核实冲突并在页面提醒，中文医学影像和图算法等查询能沿用收藏与备份",
+    "港大CDS逐人研究与个人网站、18名统计系研究生导师名单分层；保留13个原编号，个人资助或博士季节说明不套给MPhil，旧学费不当新学年金额。"
   ],
   "verification": {
-    "node_checks": 70,
+    "node_checks": 79,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -105,21 +114,21 @@
     ],
     "catalog_check": "passed",
     "actual_callback_journey_with_DOM_stubs": "passed",
-    "actual_browser_visual_keyboard_native_picker_and_download": "Earlier real-browser results are historical. Current CSE work: anonymous public HTML, known redirects, exact source reading and real callbacks with DOM stubs; no new visual/keyboard/native-picker/completed-browser-download claim.",
+    "actual_browser_visual_keyboard_native_picker_and_download": "公开a4已完成Edge真实筛选、收藏、备份文件内容和恢复重开；本次HKU修改为数据与实际回调检查，新的布局与原生Windows选择器未验收。各阶段证据另存。",
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
     "python_checks": 22
   },
   "limitations": [
-    "521位教师、35个官方目录入口仍非完整师资库。港中深AI只完成未筛选Academic Staff六页的当前范围，不能当作全校名单或指导资格认证。",
-    "516位的当前接收情况未知；另5位有不同年度或范围的公开说明，都不是已确认的余位。2027秋两份教师自述与旧2026/2027广告、未注明年度说明分开。",
+    "594位教师、35个官方目录入口仍非完整师资库。港中深AI只完成未筛选Academic Staff六页的当前范围，不能当作全校名单或指导资格认证。",
+    "589位的当前接收情况未知；另5位有不同年度或范围的公开说明，都不是已确认的余位。2027秋两份教师自述与旧2026/2027广告、未注明年度说明分开。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
-    "当前20条项目/申请路线：18条有部分要求、12条有部分费用或资助，仍不能将已核规则套给未核院系。",
+    "当前21条项目/申请路线：19条有部分要求、13条有部分费用或资助，仍不能将已核规则套给未核院系。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "按七校学院清单继续其他完整目录、个人Links与对应研究学位；港中深数据科学/理工等仍待全分页，不能让新增教师继承同校AI或CSE申请要求。"
+  "next": "按七校单位总表补下一完整院系及对应项目；港大本批不是全校完成。小屏研究词入口仍可优化。版本为开发快照，公开a4附件保持原字节。"
 }
