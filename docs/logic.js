@@ -42,7 +42,7 @@
     ['多模态','multimodal','multi-modal'],['多模态大模型','multimodal large language models','multimodal language models'],
     ['人工智能','artificial intelligence','ai'],['自动化','automation'],
     ['机器人','robot','robotics'],['控制','control'],['网络化控制','networked control'],['智能控制','intelligent control'],
-    ['自适应控制','adaptive control'],['强化学习','reinforcement learning'],['多智能体','multi-agent','multiagent'],
+    ['自适应控制','adaptive control'],['强化学习','reinforcement learning','rl'],['多智能体','multi-agent','multiagent'],
     ['具身智能','embodied ai','embodied intelligence'],['无人机','uav','unmanned aerial vehicle'],
     ['机器学习','machine learning'],['深度学习','deep learning'],['迁移学习','transfer learning'],
     ['图机器学习','graph machine learning'],['推荐系统','recommendation','recommender systems'],
@@ -68,7 +68,9 @@
     ['芯片设计','chip design','vlsi design'],['半导体','semiconductor','semiconductors'],
     ['光子集成电路','photonic integrated circuits'],['光子计算','photonic computing'],
     ['大气化学','atmospheric chemistry'],['空气质量','air quality'],['储能','energy storage'],
-    ['固态电池','solid-state batteries','solid state batteries'],['钙钛矿','perovskite','perovskites']
+    ['固态电池','solid-state batteries','solid state batteries'],['钙钛矿','perovskite','perovskites'],
+    ['医学图像分析','医学影像分析','medical image analysis'],['图算法','graph algorithms'],
+    ['超大规模集成电路','vlsi']
   ];
   function officialUrl(value) {
     try { const url = new URL(value); return url.protocol === 'https:' && !url.username && !url.password &&
@@ -93,6 +95,14 @@
         !faculty.sourceIds.includes(parent.id)||!(parent.discoveredLinks||[]).includes(item.url))return [];
       return [{...item,url}];
     });
+  }
+  function observedProfileUrl(catalog,url,sourceIds) {
+    const own=officialUrl(url);if(own)return own;
+    const safe=publicHttps(url);if(!safe)return null;
+    return (sourceIds||[]).some(id=>{
+      const parent=catalog.sources.find(s=>s.id===id);
+      return parent&&officialUrl(parent.url)&&(parent.discoveredLinks||[]).includes(url);
+    })?safe:null;
   }
   function cyclesFor(catalog) { return [...new Set([catalog.cycle,...catalog.programs.flatMap(p=>[p.cycle,...(p.deadlines||[]).map(d=>d.cycle)])].filter(Boolean))]; }
   function cycleLabel(value) { const spring=/^(\d{4}\/\d{2}) Spring$/.exec(value||'');return !value?'先看全部已核轮次':spring?(Number(spring[1].slice(0,4))+1)+'年春季（'+spring[1]+'学年）':value+'学年'; }
@@ -247,5 +257,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
+  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
 }));

@@ -139,14 +139,14 @@ class AcademicMapChecks(unittest.TestCase):
 
     def test_a_pending_personal_link_must_have_been_observed_on_that_directory(self):
         entry = next(e for r in self.catalog['academicCoverage'] for u in r['units'] for e in u['staffEntries'] if e.get('profileLeads'))
-        self.assertTrue(all(p['profileBodyStatus'] == 'body_read' for p in entry['profileLeads']))
+        self.assertTrue(all(p['profileBodyStatus'] in {'body_read', 'not_read', 'access_failed'} for p in entry['profileLeads']))
         entry['profileLeads'][0]['url'] = 'https://www.polyu.edu.hk/sd/not-observed/'
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
 
     def test_a_reviewed_record_keeps_its_real_faculty_reference(self):
         entry = next(e for r in self.catalog['academicCoverage'] for u in r['units'] for e in u['staffEntries'] if e.get('profileLeads'))
-        lead = next(p for p in entry['profileLeads'] if p['facultyId'])
+        lead = next(p for p in entry['profileLeads'] if p.get('facultyId'))
         lead['facultyId'] = 'invented-adviser'
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
@@ -160,6 +160,22 @@ class AcademicMapChecks(unittest.TestCase):
         child['staffRoutes'][0]['completeFacultyEnumeration'] = True
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
+
+
+class DirectoryPendingChecks(unittest.TestCase):
+    def test_pending_reasons_must_account_for_the_actual_unread_profiles(self):
+        catalog = builder.build_catalog()
+        cse = next(d for d in catalog['directories'] if d['id'] == 'wide-dir-cuhk-cse')['census']
+        cse['pendingReasonCounts']['originalHTTP'] = 7
+        with self.assertRaises(AssertionError):
+            builder.validate(catalog)
+
+    def test_an_unprovided_profile_url_cannot_be_invented_for_a_named_card(self):
+        catalog = builder.build_catalog()
+        cse = next(d for d in catalog['directories'] if d['id'] == 'wide-dir-cuhk-cse')['census']
+        cse['unlinkedEntries'][0]['profileUrl'] = 'https://www.cse.cuhk.edu.hk/guessed'
+        with self.assertRaises(AssertionError):
+            builder.validate(catalog)
 
 
 class PageAssetChecks(unittest.TestCase):

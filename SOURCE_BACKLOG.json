@@ -20,9 +20,9 @@
     },
     {
       "id": "faculty-coverage",
-      "task": "继续七校尚未完整整理的院系与对应项目政策。功能枢纽本次返回103份资料已读、7份缺研究栏目、分页标志矛盾；不要重复拉取同批资料充数。继续港大/港中文其他学院及港科广其他枢纽，逐人跟进原Links。",
+      "task": "按七校院系总表继续覆盖最少的单位，下一步优先港大CDS/CS完整师资、其他学院和对应项目。CUHK CSE已整理62份研究、7个原网址待核（6 HTTP/1证书）、1卡无网址；2条纪念项不纳入当前教师。不重复抓取已完成个人页，也不把一系完成当全校完成。",
       "acceptance": "记录枚举范围、身份、逐人正文状态和延伸链接来源。中文名以已读官网为准；未知名额和指导资格保持未知。",
-      "status": "466_partial_faculty_103_function_profiles_read_7_missing_research_pagination_conflict"
+      "status": "521_partial_faculty_CUHK_CSE62_curated_7_urls_pending_2_memorial_not_current"
     },
     {
       "id": "intake-filter",
