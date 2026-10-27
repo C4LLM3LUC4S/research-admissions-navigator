@@ -17,7 +17,7 @@ jobs:
       - name: Check deterministic catalog and source boundaries
         run: python scripts/build_catalog.py --check
       - name: Check local decisions and actual callback journey
-        run: node --test tests/logic.test.cjs tests/app-flow.test.cjs tests/finance.test.cjs tests/faculty-discovery.test.cjs
+        run: node --test tests/*.test.cjs
       - name: Preserve actual per-source verification dates
         run: python -m unittest discover -s tests -p test_catalog_validation.py
 

@@ -14,15 +14,15 @@
     },
     {
       "id": "materials-and-funding",
-      "status": "partial_18_routes_54_requirement_items_12_finance_routes",
+      "status": "partial_19_routes_57_requirement_items_13_finance_routes",
       "task": "CIE材料及其两位非意向导师推荐人已补；CUHK香港/广州/深圳费用分项目保存。继续补CityU CS及其他费用/资助；CUHK香港2027/28助学金金额与CIE学费尚未核清。 功能枢纽四博士已读新2027/28目录；MPhil仍统一红鸟，继续其他学院项目与导师的衔接，不从协调人或课程委员会推定招生权重。",
       "acceptance": "区分校级与项目级要求、资助考虑与实际发放、津贴与学费、学年与入学轮次、币种和单位；未知不补0，不把2026/27金额冒充2027/28。港理工新制TOEFL、CityU Computing正文403仍待核，不借别校数字或搜索索引替代。"
     },
     {
       "id": "faculty-coverage",
-      "task": "按七校院系总表继续覆盖最少的单位，下一步优先港大CDS/CS完整师资、其他学院和对应项目。CUHK CSE已整理62份研究、7个原网址待核（6 HTTP/1证书）、1卡无网址；2条纪念项不纳入当前教师。不重复抓取已完成个人页，也不把一系完成当全校完成。",
+      "task": "港大CDS本批已整理86份研究，原92链接仍有失败或缺栏目；继续七校其他完整院系、个人Links与对应项目，不重复已读页，不把一院完成当全校完成。",
       "acceptance": "记录枚举范围、身份、逐人正文状态和延伸链接来源。中文名以已读官网为准；未知名额和指导资格保持未知。",
-      "status": "521_partial_faculty_CUHK_CSE62_curated_7_urls_pending_2_memorial_not_current"
+      "status": "594_partial_HKU_CDS86_curated_73_new_13_preserved_not_all_supervisors"
     },
     {
       "id": "intake-filter",
