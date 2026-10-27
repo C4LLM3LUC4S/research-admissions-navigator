@@ -72,7 +72,12 @@
     ['医学图像分析','医学影像分析','medical image analysis'],['图算法','graph algorithms'],
     ['精算','精算学','actuarial science'],['量子计算','quantum computing','quantum computation'],
     ['量子信息','quantum information'],['量子密码','quantum cryptography'],
-    ['医疗ai','medical ai','ai in healthcare'],['学习分析','learning analytics'],
+    ['医疗ai','medical ai','ai in healthcare','ai for healthcare'],['学习分析','learning analytics'],
+    ['联邦学习','federated learning'],['随机控制','stochastic control','stochastic controls'],
+    ['量子信息与控制','量子控制','quantum information and control','quantum control'],
+    ['数学金融','mathematical finance','financial mathematics'],
+    ['后量子密码学','后量子密码','post-quantum cryptography','post quantum cryptography'],
+    ['图检索增强生成','图rag','graph retrieval-augmented generation','graph rag'],
     ['超大规模集成电路','vlsi']
   ];
   function officialUrl(value) {

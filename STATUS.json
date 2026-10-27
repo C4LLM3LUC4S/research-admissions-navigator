@@ -7,17 +7,17 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 21,
-    "degree_routes": 35,
-    "faculty": 594,
-    "official_sources": 1036,
-    "programmes_with_partial_requirements": 19,
-    "requirement_items": 57,
-    "programmes_with_partial_finances": 13,
-    "finance_items": 20,
-    "official_directory_entries": 35,
-    "teacher_linked_sources": 145,
-    "total_sources": 1181,
+    "programme_or_route_cards": 23,
+    "degree_routes": 39,
+    "faculty": 745,
+    "official_sources": 1215,
+    "programmes_with_partial_requirements": 21,
+    "requirement_items": 72,
+    "programmes_with_partial_finances": 16,
+    "finance_items": 24,
+    "official_directory_entries": 36,
+    "teacher_linked_sources": 166,
+    "total_sources": 1381,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
     "reviewed_new_profiles": 165,
@@ -26,8 +26,8 @@
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
     "cityu_deferred_profiles": 4,
-    "observed_profile_links": 503,
-    "pending_research_review": 120,
+    "observed_profile_links": 763,
+    "pending_research_review": 132,
     "sai_directory_pages": 6,
     "sai_profiles": 53,
     "sai_new_profiles": 45,
@@ -59,7 +59,16 @@
     "hku_cds_new": 73,
     "hku_cds_existing_updates": 13,
     "hku_cds_linked_read": 35,
-    "hku_saas_rpg_listed": 18
+    "hku_saas_rpg_listed": 18,
+    "polyu_fcms_original_urls": 168,
+    "polyu_fcms_original_bodies_read": 168,
+    "polyu_fcms_curated": 161,
+    "polyu_fcms_new": 151,
+    "polyu_fcms_existing_ids": 10,
+    "polyu_fcms_cross_department_pairs": 3,
+    "polyu_fcms_missing_research": 4,
+    "polyu_fcms_provided_urls": 265,
+    "polyu_fcms_selected_linked_sources": 21
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -102,10 +111,11 @@
     "已观察到的校外主页仅放行该条原网址，不给整个外部域名权限；进度按姓名与具体原因展示",
     "保留个人主页指向其他人标题的未核实冲突并在页面提醒，中文医学影像和图算法等查询能沿用收藏与备份",
     "港大CDS逐人研究与个人网站、18名统计系研究生导师名单分层；保留13个原编号，个人资助或博士季节说明不套给MPhil，旧学费不当新学年金额。",
-    "具体研究词与结果入口提前，宽泛方向按需展开并显示已选数量；保存或载入关键词后先显示老师结果，搜索框在小屏使用完整宽度。"
+    "具体研究词与结果入口提前，宽泛方向按需展开并显示已选数量；保存或载入关键词后先显示老师结果，搜索框在小屏使用完整宽度。",
+    "港理工应用数学、计算及数据科学与AI三个主名录168个主页逐项保留，跨系任职据共同档案去重；新增151条研究、保留10个原编号，补实际2027年9月三条入口和分学位要求、博士费用与有条件资助。"
   ],
   "verification": {
-    "node_checks": 81,
+    "node_checks": 87,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -122,14 +132,14 @@
     "python_checks": 22
   },
   "limitations": [
-    "594位教师、35个官方目录入口仍非完整师资库。港中深AI只完成未筛选Academic Staff六页的当前范围，不能当作全校名单或指导资格认证。",
-    "589位的当前接收情况未知；另5位有不同年度或范围的公开说明，都不是已确认的余位。2027秋两份教师自述与旧2026/2027广告、未注明年度说明分开。",
+    "745位教师、36个官方目录入口仍非完整师资库；这批港理工只覆盖三个主名录的当前范围，其他职位分类、院系、指导资格与实际名额仍待继续核实。",
+    "740位的当前接收情况未知；另5位有不同年度或范围的公开说明。新个人页的未注明轮次招募说明也不当作已确认余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
-    "当前21条项目/申请路线：19条有部分要求、13条有部分费用或资助，仍不能将已核规则套给未核院系。",
+    "当前23条项目/申请路线：21条有部分要求、16条有部分费用或资助；仍不能将已核规则套给未核院系。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "继续港理工计算与数学科学学院三个完整名录及提供的个人网站，补相应项目要求；a6为候选，发行结果另存收据，旧a5资产保留。"
+  "next": "继续七校其他尚未覆盖院系的完整名单和个人Links，优先港科大香港工程及城大其他系；当前批次的旧链接冲突、4个缺研究主页和未核Links保留。a6发行及公开文件验收另记收据。"
 }
