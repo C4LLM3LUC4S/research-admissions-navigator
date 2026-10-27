@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a7",
+  "version": "0.1.0a8",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-27",
@@ -154,5 +154,5 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "公开a7的20个入口读取分类已在后续源码纠正；新包与新版发行待后续实际验收，不把当前源码冒充a7已发字节。继续七校未覆盖院系。"
+  "next": "本版整合入口证据纠错；实际发行状态与浏览器范围另记。继续七校未覆盖院系和当期申请要求。"
 }
