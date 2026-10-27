@@ -106,6 +106,24 @@ test('a microelectronics applicant can follow new research, keep the old faculty
   assert.match(restored.byId.get('saved-faculty').textContent,/Yuzhe Ma|Yuzhe MA/);assert.equal(backup.profile.researchQuery,'电子设计自动化');assert.equal(h.networkCalls(),0);
 });
 
+test('an applicant sees a source identity conflict before saving a medical-image follow-up and reopening it',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('cuhk','PhD',[]);el('research-query').value='医学影像分析';await el('show-faculty').emit('click');await el('profile-form').emit('input',{target:el('research-query')});
+  const colin=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Colin S. C. Tsang'));assert.ok(colin);
+  assert.match(colin.textContent,/Michael Ping-Fu Fung/);assert.match(colin.textContent,/没有确认与Colin Tsang的关系/);
+  await h.walk(colin).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+  await h.walk(colin).find(n=>n.tagName==='button'&&n.textContent==='加入跟进待办').emit('click');await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.equal(backup.shortlist.length,1);assert.equal(backup.tasks.length,1);assert.equal(backup.profile.researchQuery,'医学影像分析');
+  const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);assert.match(restored.byId.get('saved-faculty').textContent,/Colin S. C. Tsang/);assert.match(restored.byId.get('saved-faculty').textContent,/没有确认与Colin Tsang的关系/);assert.equal(h.networkCalls(),0);
+});
+
+test('directory progress gives actual names and precise pending reasons without fake links or current-supervisor claims',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+  assert.match(el('results').textContent,/76 个主页：69 个已读，7 个待核/);assert.match(el('results').textContent,/Martin Ding Fat Wong/);assert.match(el('results').textContent,/In Memoriam/);assert.match(el('results').textContent,/证书校验失败/);assert.doesNotMatch(el('results').textContent,/7 个读取超时/);
+  assert.ok(h.walk(el('results')).some(n=>n.tagName==='a'&&n.href==='https://cs.uwaterloo.ca/~lapchi/'));assert.ok(!h.walk(el('results')).some(n=>n.tagName==='a'&&n.href==='http://www.cse.cuhk.edu.hk/~adafu/'));
+  assert.match(el('academic-coverage').textContent,/Leizhen Cai/);assert.match(el('academic-coverage').textContent,/Hongsheng Li/);assert.equal(h.networkCalls(),0);
+});
+
 test('a Function Hub applicant saves a scoped doctoral action and sees the separate Red Bird MPhil route',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   h.select('hkustgz','PhD',[]);await el('profile-form').emit('input');

@@ -15,9 +15,9 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,427);assert.equal(C.faculty.length,466);
-  assert.equal(leads.filter(p=>p.facultyId).length,319);
-  for(const lead of leads){assert.equal(lead.profileBodyStatus,'body_read');assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');assert.ok(L.officialUrl(lead.url));}
+  assert.equal(leads.length,503);assert.equal(C.faculty.length,521);
+  assert.equal(leads.filter(p=>p.facultyId).length,381);
+  for(const lead of leads){assert.ok(['body_read','not_read','access_failed'].includes(lead.profileBodyStatus));assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');if(lead.url.startsWith('http://')){assert.equal(lead.profileBodyStatus,'not_read');assert.equal(L.observedProfileUrl(C,lead.url,lead.directorySourceIds),null);}else assert.ok(L.observedProfileUrl(C,lead.url,lead.directorySourceIds));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
   assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));
   assert.equal(C.directories.length,35);
@@ -65,6 +65,41 @@ test('public Function Hub pack excludes contact and internal personnel fields',(
   const forbidden=new Set(['email','telephone','phone','mobile','personCode','createUser','personId','studentList','avatar']);
   const check=value=>{if(Array.isArray(value))value.forEach(check);else if(value&&typeof value==='object')for(const [key,v] of Object.entries(value)){assert.ok(!forbidden.has(key),key);check(v);}};
   check(p);
+});
+
+test('CUHK CSE keeps memorial, unlinked, non-HTTPS and certificate cases out of invented current-faculty counts',()=>{
+  const pack=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/cuhk-cse-census-20261027.json'),'utf8'));
+  assert.equal(pack.faculty.length,55);assert.equal(pack.facultyUpdates.length,7);
+  const census=pack.directoryUpdate.census;assert.equal(census.observedTotal,76);assert.equal(census.profilesRead,69);assert.equal(census.profilesFailed,7);
+  assert.deepEqual(census.pendingReasonCounts,{originalHTTP:6,certificateFailure:1});assert.equal(census.unlinkedEntries[0].name,'Martin Ding Fat Wong');assert.ok(!census.unlinkedEntries[0].profileUrl);
+  const historic=census.entries.filter(e=>e.historicalMemorialEntry);assert.equal(historic.length,2);
+  for(const entry of historic)assert.ok(!C.faculty.some(f=>f.profileUrl===entry.profileUrl));
+  assert.ok(!pack.faculty.some(f=>f.profileUrl.startsWith('http:')));
+  assert.equal(C.faculty.find(f=>f.profileUrl.endsWith('/qi-dou/')).id,'wide-cuhk-qi-dou');
+  assert.equal(C.faculty.find(f=>f.profileUrl.endsWith('/sinno-jialin-pan/')).id,'CUHK-Sinno-Jialin-Pan');
+});
+
+test('an observed external directory profile grants only its exact safe link, not an outside-domain exception',()=>{
+  const ids=['cuhk-cse-directory-20261027'];
+  assert.equal(L.observedProfileUrl(C,'https://cs.uwaterloo.ca/~lapchi/',ids),'https://cs.uwaterloo.ca/~lapchi/');
+  for(const u of ['https://cs.uwaterloo.ca/unobserved','http://www.cse.cuhk.edu.hk/~adafu/','javascript:alert(1)','https://user:password@cs.uwaterloo.ca/~lapchi/'])assert.equal(L.observedProfileUrl(C,u,ids),null);
+  assert.equal(L.observedProfileUrl(C,'https://cs.uwaterloo.ca/~lapchi/',['gz-function-directory-20261027']),null);
+});
+
+test('a shared personal URL with another person title remains an explicit unresolved conflict',()=>{
+  const colin=C.faculty.find(f=>f.name==='Colin S. C. Tsang');assert.ok(colin);
+  const link=L.facultyLinks(C,colin).find(l=>l.url==='https://www.cse.cuhk.edu.hk/~pffung');
+  assert.equal(link.bodyStatus,'not_read');assert.equal(link.identityStatus,'conflicting_person_title');assert.match(link.readNote,/Michael Ping-Fu Fung/);assert.match(link.readNote,/没有确认/);
+  assert.ok(!colin.keywordSourceIds.some(id=>id.includes('linked')));
+  const source=C.sources.find(s=>s.id===link.parentSourceId);assert.ok(source.discoveredLinks.includes(link.url));
+});
+
+test('concrete Chinese research queries use source terms while emeritus roles stay explicit',()=>{
+  const profile={...L.defaultProfile(C),universityIds:['cuhk'],researchQuery:'医学影像分析'};
+  const matches=L.facultyFor(C,profile);assert.ok(matches.some(f=>f.id==='wide-cuhk-qi-dou'));assert.ok(matches.some(f=>f.name==='Colin S. C. Tsang'));
+  const graph=L.facultyFor(C,{...profile,researchQuery:'图算法'}).find(f=>f.name==='Leizhen Cai');assert.ok(graph);assert.match(graph.identityNote,/荣休/);assert.equal(graph.availability.state,'unknown');
+  const rl=L.facultyFor(C,{...profile,researchQuery:'强化学习'});assert.ok(rl.some(f=>f.name==='James Cheng'));
+  assert.deepEqual(L.matchedResearchTerms({researchKeywords:['parallel algorithms']},'强化学习'),[]);
 });
 
 test('current Function Hub award names do not turn four MPhil awards into four direct applications',()=>{

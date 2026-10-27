@@ -365,6 +365,20 @@ def build_catalog():
     gz_programmes = load("hkustgz-function-programmes-20261027.json")
     catalog["sources"].extend(gz_programmes["sources"])
     catalog["programs"].extend(gz_programmes["programs"])
+    cse = load("cuhk-cse-census-20261027.json")
+    catalog["sources"].extend(cse["sources"])
+    catalog["faculty"].extend(cse["faculty"])
+    for update in cse["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics", "directorySourceIds", "academicUnitIds"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        old.update(directoryRole=update["directoryRole"], identityNote=update["identityNote"])
+        old["extraLinks"] = list({link["url"]: link for link in old.get("extraLinks", []) + update["extraLinks"]}.values())
+    directory = next(d for d in catalog["directories"] if d["id"] == cse["directoryUpdate"]["id"])
+    directory["sourceIds"].extend(cse["directoryUpdate"]["sourceIds"])
+    directory.update({k: v for k, v in cse["directoryUpdate"].items() if k not in {"id", "sourceIds"}})
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhk-4")
+    unit["staffEntries"].extend(cse["staffEntries"])
     return catalog
 
 
@@ -478,7 +492,13 @@ def validate(catalog):
             assert len({e["profileUrl"] for e in census["entries"]}) == census["observedTotal"]
             assert sum(e["profileRead"] for e in census["entries"]) == census["profilesRead"]
             assert census["profilesRead"] + census["profilesFailed"] == census["observedTotal"]
-            assert all(e["reviewStatus"] in {"body_read", "network_timeout"} for e in census["entries"])
+            assert all(e["reviewStatus"] in {"body_read", "network_timeout", "not_read", "access_failed"} for e in census["entries"])
+            assert all(e["profileRead"] == (e["reviewStatus"] == "body_read") for e in census["entries"])
+            if "pendingReasonCounts" in census:
+                assert all(type(n) is int and n >= 0 for n in census["pendingReasonCounts"].values())
+                assert sum(census["pendingReasonCounts"].values()) == census["profilesFailed"]
+            for row in census.get("unlinkedEntries", []):
+                assert row["name"] and row["reason"] and not row.get("profileUrl"), "Never invent an unprovided profile URL"
     for fund in catalog["funding"]:
         refs(fund["sourceIds"])
         assert fund["degree"] == "PhD" and set(fund["universities"]) == {"hku", "cuhk", "hkust", "polyu", "cityu"}
