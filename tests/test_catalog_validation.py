@@ -32,7 +32,19 @@ class SourceDateChecks(unittest.TestCase):
         rgc = [s for s in self.catalog['sources'] if s['id'] in {'rgc-hkpfs-2027', 'rgc-hkpfs-institutions'}]
         self.assertEqual(len(rgc), 2)
         self.assertTrue(all(s['checkedAt'] == '2026-10-26' for s in rgc))
-        self.assertEqual(self.catalog['checkedDate'], '2026-10-27')
+        self.assertEqual(self.catalog['checkedDate'], '2026-10-28')
+
+    def test_web_reader_receipt_cannot_be_relabeled_as_raw_http(self):
+        row = next(s for s in self.catalog['sources'] if s['id'].startswith('cityu-dao-profile-'))
+        row['bodySha256'] = row['readReceiptSha256']
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_web_reader_requires_explicit_text_receipt_scope(self):
+        row = next(s for s in self.catalog['sources'] if s['id'].startswith('cityu-dao-profile-'))
+        row.pop('receiptKind')
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
 
     def test_dated_teacher_notice_requires_exact_intake_and_teacher_source(self):
         teacher = next(f for f in self.catalog['faculty'] if f['availability'].get('noticeKind') == 'dated_teacher_statement')
@@ -89,7 +101,7 @@ class QuantitativeProgrammeChecks(unittest.TestCase):
 class DirectoryCensusChecks(unittest.TestCase):
     def setUp(self):
         self.catalog = builder.build_catalog()
-        self.census = self.catalog['directories'][-1]['census']
+        self.census = next(d['census'] for d in self.catalog['directories'] if d['id'] == 'census-hkust-cbe-all-categories')
 
     def test_failed_reads_cannot_be_counted_as_read(self):
         self.census['profilesRead'] += 1

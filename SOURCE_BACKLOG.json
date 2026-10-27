@@ -3,8 +3,8 @@
   "priorities": [
     {
       "id": "whole-university-academic-map",
-      "status": "seven_maps_128_child_entries_read_107_staff_routes_read_profile_curation_partial",
-      "task": "逐院核107个人员导航的完整名单与分页；128个下属单位正文和12失败分别保留。港中深AI/SDS继续全部分页及个人Links；CityU从可读的独立院系继续，不重试403中央页。",
+      "status": "seven_maps_108_child_entries_read_32_unread_107_staff_routes",
+      "task": "逐院核107个人员导航的完整名单与分页；108个下属单位正文和32个未读到正文分别保留，其中20个是访问检查页，不能当正文。",
       "acceptance": "学院→学系→人员目录→分页→逐人研究及身份→Links→项目要求各阶段分开；四组目录271主页全部读到、170研究栏目整理、101待进一步核，城大32卡片另保留23新增/5更新/4待核，不把人数当名额。 港中深AI另有六页53个主页、45新增/8更新；目录范围与全校覆盖分开。"
     },
     {
@@ -20,9 +20,9 @@
     },
     {
       "id": "faculty-coverage",
-      "task": "CBE当前七类已整理；继续香港工程其他学系及城大其他院系、个人Links和对应项目，不把一个系当全校完成。",
+      "task": "DAO三类49个原主页已有33份研究资料；16条研究/读取和中央当期政策仍待核。继续七校其他未覆盖院系，不把一个系当全校完成。",
       "acceptance": "记录枚举范围、身份、逐人正文状态和延伸链接来源。中文名以已读官网为准；未知名额和指导资格保持未知。",
-      "status": "808_partial_CBE68_urls_67_research_63_new_4_old_with_upcoming_role"
+      "status": "841_partial_DAO49_links_33_research_16_pending"
     },
     {
       "id": "intake-filter",

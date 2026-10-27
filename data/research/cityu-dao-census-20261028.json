@@ -1,0 +1,3562 @@
+{
+  "sources": [
+    {
+      "id": "cityu-dao-directory-regular-20261028",
+      "url": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+      "title": "决策分析与运营学系 · 正职名录",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "205c52b09b778f15076c866a1561db4c2c76405a5091a732babc6bc9d8bcf72e",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=penguo",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lilundu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=youhchen",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msawan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=houminyan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yanzhili",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=guanliu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yelu22",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=swhshum",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yiminyu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mswchung",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mengloli",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mslincky",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhanksun",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwang657",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=biaocai",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=chiwchu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=baojudou",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=wenbjing",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hanweili",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=twang533",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwu424",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yilinxie",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jyan65",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=czhan34",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jydong7",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=qzhang793"
+      ]
+    },
+    {
+      "id": "cityu-dao-profile-lilundu-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lilundu",
+      "title": "Prof. Lilun DU · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "55c67665ec54d8de94139e2922bb6f82dd7b12492b5c7373ce18af38b0ae7b23",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://github.com/dulilun"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-lilundu-20261028",
+      "url": "https://github.com/dulilun",
+      "title": "Prof. Lilun DU · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "0820588fa106ae58df0b47e1773a600708a6dea84bca13c7a62b59f5f398b8e5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-lilundu-20261028"
+    },
+    {
+      "id": "cityu-dao-profile-guanliu-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=guanliu",
+      "title": "Prof. Guangwu LIU · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "55c67665ec54d8de94139e2922bb6f82dd7b12492b5c7373ce18af38b0ae7b23",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-yelu22-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yelu22",
+      "title": "Prof. Ye LU · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "55c67665ec54d8de94139e2922bb6f82dd7b12492b5c7373ce18af38b0ae7b23",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-swhshum-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=swhshum",
+      "title": "Prof. Stephen Wan Hang SHUM · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "1fa2c959f0daf6fec1bed4f2aa3c3f89a8e1817dd66d16d0970201f3c5c7b32c",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-gufeng-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
+      "title": "Prof. Guanhao Gavin FENG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "676563b2e7fb4bdfa33493aa3754cb3231c31b48711b5d2012d44625defbf853",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://www.gavinfeng702.com"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-gufeng-20261028",
+      "url": "https://www.gavinfeng702.com",
+      "title": "Prof. Guanhao Gavin FENG · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "7e43614d68cf8d4e9ca42a415b66db7565a9694be0d4a0eb29ee2b5bd48f0ac0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-gufeng-20261028"
+    },
+    {
+      "id": "cityu-dao-profile-jingyuhe-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
+      "title": "Prof. Jingyu HE · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "676563b2e7fb4bdfa33493aa3754cb3231c31b48711b5d2012d44625defbf853",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "http://www.jingyuhe.com"
+      ]
+    },
+    {
+      "id": "cityu-dao-profile-mengloli-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mengloli",
+      "title": "Prof. Menglong LI · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "e3984673a94fb148bb72814bb8e3eea3a0a522abdf1e0ca6a4af13bde279d7d9",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-mslincky-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mslincky",
+      "title": "Prof. Ka Yuk Carrie LIN · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "e3984673a94fb148bb72814bb8e3eea3a0a522abdf1e0ca6a4af13bde279d7d9",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-zhanksun-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhanksun",
+      "title": "Prof. Zhankun SUN · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "02a0e20e34218a0f4025ae74c282e4729f1bb26cbf23e2dd9732f0461febe83a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-jwang657-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwang657",
+      "title": "Prof. Jianfu WANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "02a0e20e34218a0f4025ae74c282e4729f1bb26cbf23e2dd9732f0461febe83a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-biaocai-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=biaocai",
+      "title": "Prof. Biao CAI · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "02a0e20e34218a0f4025ae74c282e4729f1bb26cbf23e2dd9732f0461febe83a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-chiwchu-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=chiwchu",
+      "title": "Prof. Chi Wing CHU · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8a17e38be84247f182b1c585578dc02301a7cf50579380a3e88526b6da6284af",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-baojudou-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=baojudou",
+      "title": "Prof. Baojun DOU · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "02a0e20e34218a0f4025ae74c282e4729f1bb26cbf23e2dd9732f0461febe83a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-wenbjing-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=wenbjing",
+      "title": "Prof. Wenbo JING · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8c9266d3e1f72183c743a3789b89927a023c1c32bfa7ac3ef088acc14e068575",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-hanweili-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hanweili",
+      "title": "Prof. Hanwei LI · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8c9266d3e1f72183c743a3789b89927a023c1c32bfa7ac3ef088acc14e068575",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-twang533-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=twang533",
+      "title": "Prof. Tong WANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/wangt/bio"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-twang533-20261028",
+      "url": "https://sites.google.com/view/wangt/bio",
+      "title": "Prof. Tong WANG · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "7e43614d68cf8d4e9ca42a415b66db7565a9694be0d4a0eb29ee2b5bd48f0ac0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-twang533-20261028"
+    },
+    {
+      "id": "cityu-dao-profile-jwu424-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwu424",
+      "title": "Prof. Jian WU · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8c9266d3e1f72183c743a3789b89927a023c1c32bfa7ac3ef088acc14e068575",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-yilinxie-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yilinxie",
+      "title": "Prof. Yiling XIE · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8c9266d3e1f72183c743a3789b89927a023c1c32bfa7ac3ef088acc14e068575",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-czhan34-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=czhan34",
+      "title": "Prof. Chaoyu ZHANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8a17e38be84247f182b1c585578dc02301a7cf50579380a3e88526b6da6284af",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://www.c-zhang.com/"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-czhan34-20261028",
+      "url": "https://www.c-zhang.com/",
+      "title": "Prof. Chaoyu ZHANG · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "4d7a4ff00ddcfd5b9fd8e653bb22987f942f72772a76e36586e261d11b1882b0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-czhan34-20261028"
+    },
+    {
+      "id": "cityu-dao-profile-jydong7-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jydong7",
+      "title": "Prof. Junyi DONG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "25d559148bd68fd1cb8d92d7588e1f01b46aa7c8362ca7d536a6c8773295c097",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-qzhang793-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=qzhang793",
+      "title": "Prof. Qingkai ZHANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "e65a97d1336a7f911905da992a3cafe315c7c7c46f8963d24d7eba580c94f79d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-directory-adjunct-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+      "title": "决策分析与运营学系 · 兼任、荣誉与访问名录",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "008ad36ca8ccfa0dd201346f1b3fabee5157102803161b4d0e3da477ddd4d84b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yzhan273",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msycchan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hokhanko2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msgtso",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmlouie",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=elizwong",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=sgavioli"
+      ]
+    },
+    {
+      "id": "cityu-dao-profile-yzhan273-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yzhan273",
+      "title": "Prof. Yue ZHANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "b9f1d1771c4fcf18dd1c05221883c57a4bd03904b18437db37f4168783ee1a8d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/site/yuezhangfuqua/"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-yzhan273-20261028",
+      "url": "https://sites.google.com/site/yuezhangfuqua/",
+      "title": "Prof. Yue ZHANG · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "4d7a4ff00ddcfd5b9fd8e653bb22987f942f72772a76e36586e261d11b1882b0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-yzhan273-20261028"
+    },
+    {
+      "id": "cityu-dao-profile-msycchan-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msycchan",
+      "title": "Prof. Yan Chong CHAN · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "536a8f38eac37c61d129959596e3a02053c75ffb2540bd24028f384e52d1616a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-cmlouie-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmlouie",
+      "title": "Prof. Hong Ming Louie WONG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "536a8f38eac37c61d129959596e3a02053c75ffb2540bd24028f384e52d1616a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-sgavioli-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=sgavioli",
+      "title": "Dr. SHAKEEL GAVIOLI-AKILAGUN · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "0a3433a6baab796d54d4ad5e0d6b68624d64714f93f12b6b917deef3d263eef6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://gaviosha.xyz/"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-sgavioli-20261028",
+      "url": "https://gaviosha.xyz/",
+      "title": "Dr. SHAKEEL GAVIOLI-AKILAGUN · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "4d7a4ff00ddcfd5b9fd8e653bb22987f942f72772a76e36586e261d11b1882b0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-sgavioli-20261028"
+    },
+    {
+      "id": "cityu-dao-directory-teaching-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+      "title": "决策分析与运营学系 · 教学与助教名录",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "205c52b09b778f15076c866a1561db4c2c76405a5091a732babc6bc9d8bcf72e",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmfrayue",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hiullo",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=susannat",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=ythchow2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=saikfan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mssallyt",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xinxyang",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lingqidai2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yingtan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=siumanau2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yijianhu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=pmaharani2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=kywong888"
+      ]
+    },
+    {
+      "id": "cityu-dao-profile-cmfrayue-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmfrayue",
+      "title": "Dr. Kwok Keung Francis YUE · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "25d559148bd68fd1cb8d92d7588e1f01b46aa7c8362ca7d536a6c8773295c097",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-hiullo-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hiullo",
+      "title": "Dr. Venus Hiu Ling LO · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "25d559148bd68fd1cb8d92d7588e1f01b46aa7c8362ca7d536a6c8773295c097",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": [
+        "https://venuslo.net"
+      ]
+    },
+    {
+      "id": "cityu-dao-linked-hiullo-20261028",
+      "url": "https://venuslo.net",
+      "title": "Dr. Venus Hiu Ling LO · 官网提供的个人研究页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "4d7a4ff00ddcfd5b9fd8e653bb22987f942f72772a76e36586e261d11b1882b0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "parentSourceId": "cityu-dao-profile-hiullo-20261028"
+    },
+    {
+      "id": "cityu-dao-profile-susannat-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=susannat",
+      "title": "Dr. Mei Ling TAM · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8133587c710d6149952d99cc1bcfd069291c04cfe236b5d35342b3218338421c",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-ythchow2-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=ythchow2",
+      "title": "Dr. Yuk Ting Hester CHOW · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8133587c710d6149952d99cc1bcfd069291c04cfe236b5d35342b3218338421c",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-saikfan-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=saikfan",
+      "title": "Dr. Sai Kit FAN · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8133587c710d6149952d99cc1bcfd069291c04cfe236b5d35342b3218338421c",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-mssallyt-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mssallyt",
+      "title": "Ms. Oi Sze Sally TSANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8133587c710d6149952d99cc1bcfd069291c04cfe236b5d35342b3218338421c",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-xinxyang-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xinxyang",
+      "title": "Dr. Xinxin YANG · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "c672a1b0f61ed94a978633d68a78a8f8ba024a420116a11f6f475488656f3e85",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-profile-yingtan-20261028",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yingtan",
+      "title": "Dr. Ying TAN · 官方个人页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "已读返回文本中的身份或明确研究自述；不认证指导资格、当期接收或余位。",
+      "claims": [
+        "页面身份、名录分类或明确研究文字；适用范围另行说明。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "c672a1b0f61ed94a978633d68a78a8f8ba024a420116a11f6f475488656f3e85",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cityu-dao-undated-admission-20261028",
+      "url": "https://www.cb.cityu.edu.hk/dao/research_degree/programme/admission/",
+      "title": "DAO招生说明（未注明申请年度）",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "未注明年度的系页，列TOEFL iBT85，与未注明年度的个人博士说明79有差异；不能由本页判定2027/28门槛。",
+      "claims": [
+        "未注明年度的系页，列TOEFL iBT85，与未注明年度的个人博士说明79有差异；不能由本页判定2027/28门槛。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "9127883f9a626f818654ec2f907afcbcfd758b6327134161c4d3562cf9e9baab",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。",
+        "当期中央招生页未读到，原制托福及历史数字不自动转为新年度规则。"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "cityu-dao-lilundu",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-lilundu-20261028",
+        "cityu-dao-directory-regular-20261028",
+        "cityu-dao-linked-lilundu-20261028",
+        "cityu-dao-undated-admission-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://github.com/dulilun",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-lilundu-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-lilundu-20261028"
+        }
+      ],
+      "name": "Prof. Lilun DU（杜理論教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lilundu",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lilundu",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究大规模统计推断、经验贝叶斯、因子模型、运营分析，以及资产定价与选择。",
+      "researchKeywords": [
+        "Large-Scale Inference",
+        "Empirical Bayes",
+        "Factor Models",
+        "Operations Analytics",
+        "Asset Pricing and Selection",
+        "大规模统计推断",
+        "经验贝叶斯",
+        "因子模型",
+        "运营分析",
+        "资产定价"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-lilundu-20261028",
+        "cityu-dao-linked-lilundu-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "理论与优化",
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-lilundu-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "申请与页面范围说明",
+          "text": "原官方个人页有未注明年度的博士招募偏好，包括背景和成绩；不是学校统一门槛，也不确认当期名额。个人页托福79与未注明年度的系页85不同，不能择低值当本轮标准；当期中央页未读到，需按原招生入口另核。",
+          "sourceIds": [
+            "cityu-dao-profile-lilundu-20261028",
+            "cityu-dao-undated-admission-20261028"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cityu-dao-guanliu",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-guanliu-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Guangwu LIU（劉光梧教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=guanliu",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=guanliu",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究金融工程、风险管理、随机仿真、机器学习和商业分析。",
+      "researchKeywords": [
+        "Financial Engineering, Risk Management",
+        "Stochastic Simulation",
+        "Machine learning",
+        "Business analytics",
+        "金融工程",
+        "风险管理",
+        "随机仿真",
+        "机器学习",
+        "商业分析"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-guanliu-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "理论与优化",
+        "金融与精算",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-guanliu-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-yelu22",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-yelu22-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Ye LU（陸曄教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yelu22",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yelu22",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究运营管理与运筹学，关注用优化和统计模型解决实际问题。",
+      "researchKeywords": [
+        "Operations Management",
+        "Operations Research",
+        "运营管理",
+        "运筹学",
+        "优化",
+        "统计模型"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-yelu22-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-yelu22-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-swhshum",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-swhshum-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Stephen Wan Hang SHUM（岑運亨教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=swhshum",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=swhshum",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究定价与收益管理、供应链管理，以及运营管理中的消费者行为。",
+      "researchKeywords": [
+        "Pricing and Revenue Management",
+        "Supply Chain Management",
+        "Consumer Behavior in Operations Management",
+        "定价",
+        "收益管理",
+        "供应链管理",
+        "消费者行为"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-swhshum-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-swhshum-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "申请与页面范围说明",
+          "text": "页首列Dean，传记写Interim Dean，两处职务表述并存；本卡只保留其正职教师分类，不替页面统一行政职务。",
+          "sourceIds": [
+            "cityu-dao-profile-swhshum-20261028"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cityu-dao-gufeng",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-gufeng-20261028",
+        "cityu-dao-directory-regular-20261028",
+        "cityu-dao-linked-gufeng-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.gavinfeng702.com",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-gufeng-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-gufeng-20261028"
+        }
+      ],
+      "name": "Prof. Guanhao Gavin FENG（馮冠豪教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究资产定价与金融科技中的实证问题，使用机器学习、生成式人工智能、贝叶斯统计和金融计量方法。",
+      "researchKeywords": [
+        "asset pricing",
+        "FinTech",
+        "machine learning",
+        "generative AI",
+        "Bayesian statistics",
+        "financial econometrics",
+        "资产定价",
+        "金融科技",
+        "机器学习",
+        "生成式人工智能",
+        "贝叶斯统计",
+        "金融计量"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-gufeng-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "金融与精算",
+        "机器学习",
+        "人工智能"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-gufeng-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-jingyuhe",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-jingyuhe-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.jingyuhe.com",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-jingyuhe-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "原网址未读到正文，保留待核；未自行猜换协议。"
+        }
+      ],
+      "name": "Prof. Jingyu HE（何靖宇教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究金融领域的机器学习、实证资产定价和贝叶斯统计。",
+      "researchKeywords": [
+        "machine learning in finance",
+        "empirical asset pricing",
+        "Bayesian statistics",
+        "金融机器学习",
+        "实证资产定价",
+        "贝叶斯统计"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-jingyuhe-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "金融与精算",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-jingyuhe-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-mengloli",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-mengloli-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Menglong LI（李夢龍教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mengloli",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mengloli",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究库存管理、收益管理、数据驱动决策和离散凸分析。",
+      "researchKeywords": [
+        "Inventory Management",
+        "Revenue Management",
+        "Data-Driven Decision Making",
+        "(Discrete) Convex Analysis",
+        "库存管理",
+        "收益管理",
+        "数据驱动决策",
+        "离散凸分析"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-mengloli-20261028"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-mengloli-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-mslincky",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-mslincky-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Ka Yuk Carrie LIN（林嘉玉教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mslincky",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mslincky",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究调度、优化、容量规划、仿真及医疗健康应用。",
+      "researchKeywords": [
+        "Scheduling",
+        "Optimization",
+        "Capacity Planning",
+        "Simulation",
+        "Health care application",
+        "调度",
+        "优化",
+        "容量规划",
+        "仿真",
+        "医疗健康"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-mslincky-20261028"
+      ],
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-mslincky-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-zhanksun",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-zhanksun-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Zhankun SUN（孫占坤教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhanksun",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhanksun",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究随机建模、最优控制、医疗服务运营和换电管理。",
+      "researchKeywords": [
+        "Stochastic Modeling",
+        "Optimal Control",
+        "Healthcare Operations",
+        "Battery Swapping Management",
+        "随机建模",
+        "最优控制",
+        "医疗服务运营",
+        "换电管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-zhanksun-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-zhanksun-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-jwang657",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-jwang657-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Jianfu WANG（王健夫教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwang657",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwang657",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究零工经济、信息技术运营、服务运营和排队经济学。",
+      "researchKeywords": [
+        "Gig Economy",
+        "Information Technology Operations",
+        "Service Operations",
+        "Queueing Economics",
+        "零工经济",
+        "信息技术运营",
+        "服务运营",
+        "排队经济学"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-jwang657-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-jwang657-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-biaocai",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-biaocai-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Biao CAI（蔡標博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=biaocai",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=biaocai",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究复杂数据结构下的统计机器学习，涉及点过程模型、张量学习和中介分析。",
+      "researchKeywords": [
+        "statistical machine learning",
+        "point process models",
+        "tensor learning",
+        "mediation analysis",
+        "统计机器学习",
+        "点过程",
+        "张量学习",
+        "中介分析"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-biaocai-20261028"
+      ],
+      "topics": [
+        "数学与统计",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-biaocai-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-chiwchu",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-chiwchu-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Chi Wing CHU（朱志榮教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=chiwchu",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=chiwchu",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究生存分析、分位数回归、半参数推断与高维检验。",
+      "researchKeywords": [
+        "survival analysis",
+        "quantile regression",
+        "semiparametric inference",
+        "high dimensional testing",
+        "生存分析",
+        "分位数回归",
+        "半参数推断",
+        "高维检验"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-chiwchu-20261028"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-chiwchu-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "申请与页面范围说明",
+          "text": "原页表达的是研究助理招募，不是MPhil或PhD接收承诺，也不确认当期余位。",
+          "sourceIds": [
+            "cityu-dao-profile-chiwchu-20261028"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cityu-dao-baojudou",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-baojudou-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Baojun DOU（竇宝君教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=baojudou",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=baojudou",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究高维时间序列、时空过程、金融统计学习和变点检测。",
+      "researchKeywords": [
+        "high dimensional time series",
+        "spatio-temporal processes",
+        "statistical learning for finance",
+        "change point detection",
+        "高维时间序列",
+        "时空过程",
+        "金融统计学习",
+        "变点检测"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-baojudou-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-baojudou-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-wenbjing",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-wenbjing-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Wenbo JING（景聞博教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=wenbjing",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=wenbjing",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究统计理论与方法、机器学习和数据驱动决策。",
+      "researchKeywords": [
+        "Statistical Theory and Method",
+        "Machine Learning",
+        "Data-Driven Decision-Making",
+        "统计理论与方法",
+        "机器学习",
+        "数据驱动决策"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-wenbjing-20261028"
+      ],
+      "topics": [
+        "数学与统计",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-wenbjing-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-hanweili",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-hanweili-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Hanwei LI（李函威教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hanweili",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hanweili",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究实证运营管理、定价与收益管理、机器学习、平台运营和优化。",
+      "researchKeywords": [
+        "Empirical Operations Management",
+        "Pricing & Revenue Management",
+        "Machine Learning",
+        "Platform Operations",
+        "Optimization",
+        "实证运营管理",
+        "定价与收益管理",
+        "机器学习",
+        "平台运营",
+        "优化"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-hanweili-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-hanweili-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-twang533",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-twang533-20261028",
+        "cityu-dao-directory-regular-20261028",
+        "cityu-dao-linked-twang533-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/wangt/bio",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-twang533-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-twang533-20261028"
+        }
+      ],
+      "name": "Prof. Tong WANG（王彤教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=twang533",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=twang533",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究如何在结果不确定时连续作决策，近期关注非营利组织的运营，也研究数据驱动的库存管理和高维决策问题。",
+      "researchKeywords": [
+        "sequential decisions under uncertainty",
+        "not-for-profit OM",
+        "inventory management",
+        "high-dimensional Markovian decision processes",
+        "不确定性下的连续决策",
+        "非营利组织运营",
+        "库存管理",
+        "高维马尔可夫决策过程"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-twang533-20261028",
+        "cityu-dao-linked-twang533-20261028"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-twang533-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "申请与页面范围说明",
+          "text": "个人主页表达了博士生招募意向，欢迎数学、统计、物理、计算机背景者联系；没有注明申请轮次、已确认余位或资助，不能直接当作2027接收承诺或MPhil规则。",
+          "sourceIds": [
+            "cityu-dao-linked-twang533-20261028"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cityu-dao-jwu424",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-jwu424-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Jian WU（吳鑒教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwu424",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwu424",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究库存管理、数据驱动决策和机器学习。",
+      "researchKeywords": [
+        "Inventory Management",
+        "Data-Driven Decision Making",
+        "Machine Learning",
+        "库存管理",
+        "数据驱动决策",
+        "机器学习"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-jwu424-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-jwu424-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-yilinxie",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-yilinxie-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Yiling XIE（謝宜凌教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yilinxie",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yilinxie",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究统计学、优化和学习理论。",
+      "researchKeywords": [
+        "Statistics",
+        "Optimization",
+        "Learning theory",
+        "统计学",
+        "优化",
+        "学习理论"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-yilinxie-20261028"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-yilinxie-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-czhan34",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-czhan34-20261028",
+        "cityu-dao-directory-regular-20261028",
+        "cityu-dao-linked-czhan34-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.c-zhang.com/",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-czhan34-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-czhan34-20261028"
+        }
+      ],
+      "name": "Prof. Chaoyu ZHANG（張超宇教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=czhan34",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=czhan34",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究人工智能增强的运营管理，关注供应链韧性和医疗健康相关的运营问题。",
+      "researchKeywords": [
+        "AI-enhanced operations",
+        "resilient supply chain management",
+        "healthcare issues",
+        "人工智能增强的运营管理",
+        "供应链韧性",
+        "医疗健康运营"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-czhan34-20261028",
+        "cityu-dao-linked-czhan34-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化",
+        "人工智能"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-czhan34-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-jydong7",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-jydong7-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Junyi DONG（董俊毅教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jydong7",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jydong7",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究随机运筹、数据驱动的强化学习、动态定价与收益管理。",
+      "researchKeywords": [
+        "stochastic operations research",
+        "data-driven reinforcement learning",
+        "dynamic pricing",
+        "revenue management",
+        "随机运筹",
+        "数据驱动的强化学习",
+        "动态定价",
+        "收益管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-jydong7-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-jydong7-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-qzhang793",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-qzhang793-20261028",
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Qingkai ZHANG（張慶凱教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=qzhang793",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=qzhang793",
+      "directoryRole": "正职",
+      "department": "决策分析与运营学系 · 正职",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究仿真、生成式人工智能、金融风险管理和金融工程。",
+      "researchKeywords": [
+        "Simulation",
+        "Generative AI",
+        "Financial Risk Management",
+        "Financial Engineering",
+        "仿真",
+        "生成式人工智能",
+        "金融风险管理",
+        "金融工程"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-qzhang793-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化",
+        "金融与精算",
+        "人工智能"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-qzhang793-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-yzhan273",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-yzhan273-20261028",
+        "cityu-dao-directory-adjunct-20261028",
+        "cityu-dao-linked-yzhan273-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/site/yuezhangfuqua/",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-yzhan273-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-yzhan273-20261028"
+        }
+      ],
+      "name": "Prof. Yue ZHANG（張越教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yzhan273",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yzhan273",
+      "directoryRole": "兼任、荣誉与访问",
+      "department": "决策分析与运营学系 · 兼任、荣誉与访问",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究新兴技术如何影响运营管理与决策。",
+      "researchKeywords": [
+        "emerging technologies",
+        "operations",
+        "decision making",
+        "新兴技术",
+        "运营管理",
+        "决策"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-yzhan273-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-yzhan273-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-msycchan",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-msycchan-20261028",
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Yan Chong CHAN（曾淵滄教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msycchan",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msycchan",
+      "directoryRole": "兼任、荣誉与访问",
+      "department": "决策分析与运营学系 · 兼任、荣誉与访问",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究运营管理。原页另列“Index”，具体含义尚未核清，暂不扩写为某个研究方向。",
+      "researchKeywords": [
+        "Operations Management",
+        "运营管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-msycchan-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-msycchan-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-cmlouie",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-cmlouie-20261028",
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Hong Ming Louie WONG（黃康銘教授）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmlouie",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmlouie",
+      "directoryRole": "兼任、荣誉与访问",
+      "department": "决策分析与运营学系 · 兼任、荣誉与访问",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究电子商务管理与策略、信息安全、知识管理、社交媒体、数字营销和数字化转型。",
+      "researchKeywords": [
+        "eBusiness Management and Strategies",
+        "Information Security",
+        "Knowledge Management",
+        "Social Media",
+        "Digital Marketing",
+        "Digital Transformation",
+        "电子商务",
+        "信息安全",
+        "知识管理",
+        "社交媒体",
+        "数字营销",
+        "数字化转型"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-cmlouie-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "网络安全"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-cmlouie-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-sgavioli",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-sgavioli-20261028",
+        "cityu-dao-directory-adjunct-20261028",
+        "cityu-dao-linked-sgavioli-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://gaviosha.xyz/",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-sgavioli-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-sgavioli-20261028"
+        }
+      ],
+      "name": "Dr. SHAKEEL GAVIOLI-AKILAGUN",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=sgavioli",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=sgavioli",
+      "directoryRole": "兼任、荣誉与访问",
+      "department": "决策分析与运营学系 · 兼任、荣誉与访问",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究多尺度统计建模、变点与特征检测、形状约束估计和核方法。",
+      "researchKeywords": [
+        "multi-scale statistical modeling",
+        "change points and feature detection",
+        "shape constrained estimation",
+        "kernel methods",
+        "多尺度统计建模",
+        "变点检测",
+        "特征检测",
+        "形状约束估计",
+        "核方法"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-sgavioli-20261028"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-sgavioli-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-cmfrayue",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-cmfrayue-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Kwok Keung Francis YUE（余國強博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmfrayue",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmfrayue",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "近期关注教学与学习及教育评估。主页列出的其他课程属于教学范围，未据此扩成研究方向。",
+      "researchKeywords": [
+        "teaching and learning",
+        "educational assessment",
+        "教学与学习",
+        "教育评估"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-cmfrayue-20261028"
+      ],
+      "topics": [
+        "教育学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-cmfrayue-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-hiullo",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-hiullo-20261028",
+        "cityu-dao-directory-teaching-20261028",
+        "cityu-dao-linked-hiullo-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://venuslo.net",
+          "label": "个人主页与研究资料",
+          "parentSourceId": "cityu-dao-profile-hiullo-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读本人研究或任职说明，不能当学校政策或余位。",
+          "sourceId": "cityu-dao-linked-hiullo-20261028"
+        }
+      ],
+      "name": "Dr. Venus Hiu Ling LO（盧曉羚博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hiullo",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hiullo",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究收益管理中的商品组合优化、消费者选择建模与定价，也关注近似动态规划和离散优化。",
+      "researchKeywords": [
+        "Revenue management",
+        "Assortment optimization",
+        "customer choice modeling",
+        "pricing problems",
+        "Approximate dynamic programming",
+        "Discrete optimization",
+        "收益管理",
+        "商品组合优化",
+        "消费者选择建模",
+        "定价",
+        "近似动态规划",
+        "离散优化"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-hiullo-20261028",
+        "cityu-dao-linked-hiullo-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-hiullo-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-susannat",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-susannat-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Mei Ling TAM（譚美玲博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=susannat",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=susannat",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究交通运输和营销问题。",
+      "researchKeywords": [
+        "Transportation research",
+        "Marketing research",
+        "交通运输",
+        "营销"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-susannat-20261028"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-susannat-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-ythchow2",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-ythchow2-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Yuk Ting Hester CHOW（周育霆博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=ythchow2",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=ythchow2",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究运筹学，以及高等教育中的教学与学习。",
+      "researchKeywords": [
+        "Operations research",
+        "Teaching and Learning in Higher Education",
+        "运筹学",
+        "高等教育中的教学与学习"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-ythchow2-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化",
+        "教育学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-ythchow2-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-saikfan",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-saikfan-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Sai Kit FAN（范世傑博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=saikfan",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=saikfan",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究运营管理。",
+      "researchKeywords": [
+        "Operation Management",
+        "运营管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-saikfan-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-saikfan-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-mssallyt",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-mssallyt-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Ms. Oi Sze Sally TSANG（曾藹詩小姐）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mssallyt",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mssallyt",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究运筹学。",
+      "researchKeywords": [
+        "Operations Research",
+        "运筹学"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-mssallyt-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-mssallyt-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-xinxyang",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-xinxyang-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Xinxin YANG（楊欣欣博士）",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xinxyang",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xinxyang",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究高维与高频数据、风险管理和多重检验。",
+      "researchKeywords": [
+        "High-dimensional and High-frequency data, Risk Management, Multiple Testing",
+        "高维数据",
+        "高频数据",
+        "风险管理",
+        "多重检验"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-xinxyang-20261028"
+      ],
+      "topics": [
+        "经济与管理",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-xinxyang-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-dao-yingtan",
+      "universityId": "cityu",
+      "sourceIds": [
+        "cityu-dao-profile-yingtan-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "directorySourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "academicUnitIds": [
+        "cityu-2"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Ying TAN",
+      "profileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yingtan",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yingtan",
+      "directoryRole": "教学与助教",
+      "department": "决策分析与运营学系 · 教学与助教",
+      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "summary": "研究随机分析、随机微分方程、随机最优控制理论和生成式人工智能模型。",
+      "researchKeywords": [
+        "Stochastic Analysis, Stochastic Differential Equations, Stochastic Optimal Control Theory, and the generative AI model",
+        "随机分析",
+        "随机微分方程",
+        "随机最优控制",
+        "生成式人工智能"
+      ],
+      "keywordSourceIds": [
+        "cityu-dao-profile-yingtan-20261028"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "人工智能"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
+        "sourceIds": [
+          "cityu-dao-profile-yingtan-20261028"
+        ]
+      }
+    }
+  ],
+  "staffEntries": [
+    {
+      "label": "决策分析与运营学系 · 正职（本次显示29）",
+      "url": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "cityu-dao-directory-regular-20261028"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Prof. Pengfei GUO",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=penguo",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "access_failed",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。"
+        },
+        {
+          "name": "Prof. Lilun DU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lilundu",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "5262aafd88327c0c32d8ba1b8fb363109c642d36421493de2ecae6ce0198b5b2",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-lilundu",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Youhua Frank CHEN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=youhchen",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "access_failed",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。"
+        },
+        {
+          "name": "Prof. Tze-Kin Alan WAN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msawan",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "5262aafd88327c0c32d8ba1b8fb363109c642d36421493de2ecae6ce0198b5b2",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Prof. Houmin YAN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=houminyan",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "access_failed",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。"
+        },
+        {
+          "name": "Prof. Yanzhi David LI",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yanzhili",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "5262aafd88327c0c32d8ba1b8fb363109c642d36421493de2ecae6ce0198b5b2",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Prof. Guangwu LIU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=guanliu",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "5262aafd88327c0c32d8ba1b8fb363109c642d36421493de2ecae6ce0198b5b2",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-guanliu",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Ye LU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yelu22",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "5262aafd88327c0c32d8ba1b8fb363109c642d36421493de2ecae6ce0198b5b2",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-yelu22",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Stephen Wan Hang SHUM",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=swhshum",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "1fa2c959f0daf6fec1bed4f2aa3c3f89a8e1817dd66d16d0970201f3c5c7b32c",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-swhshum",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Yimin YU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yiminyu",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "access_failed",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。"
+        },
+        {
+          "name": "Prof. Siu Wai William CHUNG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mswchung",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "access_failed",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。"
+        },
+        {
+          "name": "Prof. Guanhao Gavin FENG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-gufeng",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Jingyu HE",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-jingyuhe",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Menglong LI",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mengloli",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-mengloli",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Ka Yuk Carrie LIN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mslincky",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-mslincky",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Zhankun SUN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhanksun",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-zhanksun",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Jianfu WANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwang657",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-jwang657",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Biao CAI",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=biaocai",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-biaocai",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Chi Wing CHU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=chiwchu",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-chiwchu",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Baojun DOU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=baojudou",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "0364ef1101a780ea41eb37d1a54a8e078fa21aa1dec6ddc188ec4cebeb5740e7",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-baojudou",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Wenbo JING",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=wenbjing",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-wenbjing",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Hanwei LI",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hanweili",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-hanweili",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Tong WANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=twang533",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-twang533",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Jian WU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwu424",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-jwu424",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Yiling XIE",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yilinxie",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-yilinxie",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Jian YAN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jyan65",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Prof. Chaoyu ZHANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=czhan34",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-czhan34",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Junyi DONG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jydong7",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-jydong7",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Qingkai ZHANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=qzhang793",
+          "observedOn": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+          "directoryLabel": "DAO / 正职",
+          "directorySourceIds": [
+            "cityu-dao-directory-regular-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "479e642eecb3fcf83ae47286c19c978f64d2f7b346a5b680e3cf8fe2132f838d",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-qzhang793",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "决策分析与运营学系 · 兼任、荣誉与访问（本次显示7）",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "cityu-dao-directory-adjunct-20261028"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Prof. Yue ZHANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yzhan273",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "3718ccad18c5fafb5cfc87b0c292089a8e0bcec7abad930541973bb27dca1fbb",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-yzhan273",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Yan Chong CHAN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msycchan",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "3718ccad18c5fafb5cfc87b0c292089a8e0bcec7abad930541973bb27dca1fbb",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-msycchan",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Hok Han Henry KO",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hokhanko2",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "3718ccad18c5fafb5cfc87b0c292089a8e0bcec7abad930541973bb27dca1fbb",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Prof. Kwok Fai Geoffrey TSO",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msgtso",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "access_failed",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。"
+        },
+        {
+          "name": "Prof. Hong Ming Louie WONG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmlouie",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "3718ccad18c5fafb5cfc87b0c292089a8e0bcec7abad930541973bb27dca1fbb",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-cmlouie",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Prof. Lai Yi Eliza WONG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=elizwong",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "3718ccad18c5fafb5cfc87b0c292089a8e0bcec7abad930541973bb27dca1fbb",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Dr. SHAKEEL GAVIOLI-AKILAGUN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=sgavioli",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=24",
+          "directoryLabel": "DAO / 兼任、荣誉与访问",
+          "directorySourceIds": [
+            "cityu-dao-directory-adjunct-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "3718ccad18c5fafb5cfc87b0c292089a8e0bcec7abad930541973bb27dca1fbb",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-sgavioli",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "决策分析与运营学系 · 教学与助教（本次显示13）",
+      "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Dr. Kwok Keung Francis YUE",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmfrayue",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-cmfrayue",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Dr. Venus Hiu Ling LO",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hiullo",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-hiullo",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Dr. Mei Ling TAM",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=susannat",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-susannat",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Dr. Yuk Ting Hester CHOW",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=ythchow2",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-ythchow2",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Dr. Sai Kit FAN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=saikfan",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-saikfan",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Ms. Oi Sze Sally TSANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mssallyt",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-mssallyt",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Dr. Xinxin YANG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xinxyang",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "c6bb5d4040c05898a66e05550ffa2acc36e14e8e156df5450044743e6a6f5282",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-xinxyang",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Mr. Lingqi DAI",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lingqidai2",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "7b71918da1909f4be40851ce170e1bf92a611f7d3b5582a3484d51567dce1e04",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Dr. Ying TAN",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yingtan",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "研究自述与名录分类已整理；资格和余位仍未知。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "7b71918da1909f4be40851ce170e1bf92a611f7d3b5582a3484d51567dce1e04",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response",
+          "facultyId": "cityu-dao-yingtan",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Miss Tracy AU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=siumanau2",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "7b71918da1909f4be40851ce170e1bf92a611f7d3b5582a3484d51567dce1e04",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Mr. Yijian HU",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yijianhu",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "7b71918da1909f4be40851ce170e1bf92a611f7d3b5582a3484d51567dce1e04",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Miss Puteri Julaika MAHARANI",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=pmaharani2",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "7b71918da1909f4be40851ce170e1bf92a611f7d3b5582a3484d51567dce1e04",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        },
+        {
+          "name": "Miss Ka Ying WONG",
+          "url": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=kywong888",
+          "observedOn": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people?dept_code=DAOS&id_staff_type=25",
+          "directoryLabel": "DAO / 教学与助教",
+          "directorySourceIds": [
+            "cityu-dao-directory-teaching-20261028"
+          ],
+          "profileBodyStatus": "body_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "reviewNote": "读取或研究自述仍待核，不从姓名、课程、论文题目或名录分类推断指导资格。",
+          "readMethod": "web_reader",
+          "readReceiptSha256": "7b71918da1909f4be40851ce170e1bf92a611f7d3b5582a3484d51567dce1e04",
+          "receiptKind": "web_reader_returned_text",
+          "receiptScope": "batched_tool_response"
+        }
+      ]
+    }
+  ],
+  "directories": [
+    {
+      "id": "census-cityu-dao-academic-categories",
+      "universityId": "cityu",
+      "unit": "决策分析与运营学系 · 三类学术人员",
+      "url": "https://www.cb.cityu.edu.hk/cb2025/people-and-research/people?dept_code=DAOS",
+      "sourceIds": [
+        "cityu-dao-directory-regular-20261028",
+        "cityu-dao-directory-adjunct-20261028",
+        "cityu-dao-directory-teaching-20261028"
+      ],
+      "profileLinksObserved": [
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yzhan273",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msycchan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hokhanko2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msgtso",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmlouie",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=elizwong",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=sgavioli",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=penguo",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lilundu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=youhchen",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=msawan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=houminyan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yanzhili",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=guanliu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yelu22",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=swhshum",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yiminyu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mswchung",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mengloli",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mslincky",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=zhanksun",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwang657",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=biaocai",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=chiwchu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=baojudou",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=wenbjing",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hanweili",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=twang533",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jwu424",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yilinxie",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jyan65",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=czhan34",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jydong7",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=qzhang793",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=cmfrayue",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=hiullo",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=susannat",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=ythchow2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=saikfan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=mssallyt",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=xinxyang",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=lingqidai2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yingtan",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=siumanau2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=yijianhu",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=pmaharani2",
+        "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=kywong888"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "三类共49个原主页，43条返回页面文字，33份明确研究自述已整理；其余16条继续待核。研究工作人员14人另列，不并入本组。杰出访问教授入口未读到，不能当0人。本目录不是导师资格或余位清单。"
+    }
+  ],
+  "counts": {
+    "observedAcademicLinks": 49,
+    "responsesWithText": 43,
+    "researchCurated": 33,
+    "remainingResearchLeads": 16,
+    "providedPersonalPagesRead": 7
+  },
+  "programmeBoundary": "系内招生页未标年度，英语与个人说明有差异；中央当期页面未读到。未新增DAO当期项目卡，不把CS/EE规则移给本系。",
+  "identityReview": {
+    "existingCityURecordsReviewed": 39,
+    "existingCatalogueFaculty": 808,
+    "oldIdsToUpdate": [],
+    "scope": "逐名与原39条CityU记录核对，无同一人证据；跨校共有名字片段不是合并依据。"
+  },
+  "readReceiptBoundary": "readReceiptSha256记录网页读取工具返回的批次文本摘要，不是服务器原始HTTP正文摘要；原网络失败保留。"
+}

@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-10-27"
+CHECKED = "2026-10-28"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -429,6 +429,12 @@ def build_catalog():
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hkust-2")
     unit["staffEntries"].extend(cbe["staffEntries"])
     catalog["programs"].extend(cbe["programmes"])
+    dao = load("cityu-dao-census-20261028.json")
+    catalog["sources"].extend(dao["sources"])
+    catalog["faculty"].extend(dao["faculty"])
+    catalog["directories"].extend(dao["directories"])
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cityu-2")
+    unit["staffEntries"].extend(dao["staffEntries"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -452,6 +458,19 @@ def build_catalog():
     return catalog
 
 
+def validate_read_receipt(record):
+    """A web-reader receipt is not the server's raw response body."""
+    if "readReceiptSha256" in record:
+        assert "bodySha256" not in record, "Do not label tool text as a raw HTTP body"
+        assert record.get("readMethod") in {"web_reader", "web_tool_actual_body"}
+        if record["readMethod"] == "web_reader":
+            assert record.get("receiptKind") == "web_reader_returned_text"
+            assert record.get("receiptScope") == "batched_tool_response"
+        assert re.fullmatch("[a-f0-9]{64}", record["readReceiptSha256"])
+    else:
+        assert re.fullmatch("[a-f0-9]{64}", record["bodySha256"])
+
+
 def validate(catalog):
     assert catalog["schemaVersion"] == 1 and catalog["checkedDate"] == CHECKED
     unis = {u["id"] for u in catalog["universities"]}
@@ -459,6 +478,8 @@ def validate(catalog):
     sources = {s["id"]: s for s in catalog["sources"]}
     assert len(sources) == len(catalog["sources"]) and len(sources) >= 34
     for source in sources.values():
+        if "readReceiptSha256" in source:
+            validate_read_receipt(source)
         if source.get("bodySha256") == "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d":
             assert source["evidenceLevel"] == "official_entry_access_failed" and source.get("responseKind") == "access_challenge", "A known access-check response is not verified institutional content"
         assert source["url"].startswith("https://") and source["claims"]
@@ -613,7 +634,7 @@ def validate(catalog):
                     assert lead["observedOn"] == entry["url"] and lead["directoryLabel"]
                     assert lead["profileBodyStatus"] in {"not_read", "body_read", "access_failed"} and lead["supervisionEligibility"] == lead["availability"] == "unknown"
                     if lead["profileBodyStatus"] == "body_read":
-                        assert re.fullmatch("[a-f0-9]{64}", lead["bodySha256"])
+                        validate_read_receipt(lead)
                     if lead.get("facultyId"):
                         assert lead["facultyId"] in faculty_ids
                         assert lead["researchReviewStatus"] == "research_excerpt_and_directory_role_reviewed"
