@@ -44,6 +44,42 @@ function harness(initialStorage,options={}) {
   return {byId,saved,downloads,button,select,walk,networkCalls:()=>networkCalls};
 }
 
+test('collapsed direction filters reveal active saved choices and remain clearable after backup restore',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  assert.equal(el('interest-summary').textContent,'按方向再筛选（选填）');
+  h.select('hku','PhD',['机器学习','计算机视觉']);
+  await el('profile-form').emit('input');
+  assert.equal(el('interest-summary').textContent,'按方向再筛选 · 已选 2 项');
+  await el('export-local').emit('click');
+  const backup=JSON.parse(await h.downloads.at(-1).blob.text());
+  await el('clear-filters').emit('click');
+  assert.equal(el('interest-summary').textContent,'按方向再筛选（选填）');
+  el('import-local').files=[{size:JSON.stringify(backup).length,text:async()=>JSON.stringify(backup)}];
+  await el('import-local').emit('change');
+  assert.equal(el('interest-summary').textContent,'按方向再筛选 · 已选 2 项');
+  await el('export-local').emit('click');
+  assert.deepEqual(JSON.parse(await h.downloads.at(-1).blob.text()).profile.interests,backup.profile.interests);
+  assert.equal(h.networkCalls(),0);
+});
+
+test('a saved research query reopens teacher results and import does not mislabel projects as research matches',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('hku','MPhil',[]);el('research-query').value='医疗AI';
+  await el('profile-form').emit('input',{target:el('research-query')});
+  await el('profile-form').emit('submit');
+  await el('export-local').emit('click');
+  const backup=JSON.parse(await h.downloads.at(-1).blob.text()),restarted=harness(h.saved);
+  assert.equal(restarted.byId.get('show-faculty').attributes['aria-pressed'],'true');
+  assert.match(restarted.byId.get('result-count').textContent,/2 位老师/);
+  assert.equal(restarted.byId.get('research-query').value,'医疗AI');
+  const clean=harness(),target=clean.byId.get('import-local');
+  target.files=[{size:JSON.stringify(backup).length,text:async()=>JSON.stringify(backup)}];
+  await target.emit('change');
+  assert.equal(clean.byId.get('show-faculty').attributes['aria-pressed'],'true');
+  assert.match(clean.byId.get('result-count').textContent,/2 位老师/);
+  assert.equal(clean.networkCalls(),0);
+});
+
 test('school structure is a separate scoped journey, without inventing faculty totals or changing directory counts',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.equal(el('academic-coverage').hidden,true);

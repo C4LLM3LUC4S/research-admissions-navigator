@@ -6,10 +6,10 @@
   <meta name="color-scheme" content="light">
   <title>研向 · 看清要求，找到方向</title>
   <link rel="stylesheet" href="styles.css?v=b75216002e5df080">
-  <link rel="stylesheet" href="discovery.css?v=aa10e55dec86f8d9">
+  <link rel="stylesheet" href="discovery.css?v=4dd04f1c7f91b603">
   <script defer src="catalog.js?v=28cbbc63db689c5f"></script>
   <script defer src="logic.js?v=e7975c1d038ff280"></script>
-  <script defer src="app.js?v=1008cc37e3c178a7"></script>
+  <script defer src="app.js?v=0187d58dd4c63fac"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
@@ -35,15 +35,16 @@
             <fieldset><legend>想申请的学位</legend><div class="degree-switch"><label><input type="radio" name="degree" value="MPhil" checked><span>MPhil <small>研究型硕士</small></span></label><label><input type="radio" name="degree" value="PhD"><span>PhD <small>博士</small></span></label></div></fieldset>
             <label class="field-label" for="intake-cycle">想申请哪一轮？</label><select id="intake-cycle" name="cycle"></select><p class="field-help">只列已核到的轮次。没有列出，不代表学校不招生。</p>
             <fieldset><legend>学校和校区</legend><p class="field-help">香港、深圳、广州分别列出，申请规则不混用。</p><div id="university-filters" class="university-list"></div></fieldset>
-            <fieldset><legend>感兴趣的方向</legend><p class="field-help">用于找研究交集，不代表导师有名额。</p><div id="interest-filters" class="interest-list"></div></fieldset>
             <label class="field-label" for="research-query">想研究什么？<span class="field-help">选填</span></label><input id="research-query" name="researchQuery" type="search" maxlength="160" placeholder="例如：网络化控制、推荐系统、三维重建"><p class="field-help">用逗号分开几个词。在已核实的研究关键词中查找，支持部分常用中英文对应词，不是录取预测。</p>
+            <a class="button secondary full-width results-jump" id="results-jump" href="#results-panel">查看筛选结果</a>
+            <details class="profile-details interest-details"><summary id="interest-summary">按方向再筛选（选填）</summary><div class="details-body"><fieldset><legend>感兴趣的方向</legend><p class="field-help">有具体问题时可以先用上面的关键词。方向筛选会进一步缩小范围，不代表导师有名额。</p><div id="interest-filters" class="interest-list"></div></fieldset></div></details>
             <details class="profile-details"><summary>补充自己的情况 <span>选填</span></summary><div class="details-body">
               <label class="field-label" for="education">目前的学习阶段</label><select id="education" name="education"><option value="">暂不填写</option><option value="undergraduate">本科在读</option><option value="bachelor">本科已毕业</option><option value="master">硕士在读或已毕业</option><option value="other">其他阶段</option></select>
               <label class="field-label" for="english">英语准备情况</label><select id="english" name="english"><option value="">暂不填写</option><option value="planning">准备考试中</option><option value="scheduled">已预约考试</option><option value="available">已有成绩，待核对项目要求</option><option value="exemption">准备核实豁免条件</option></select>
               <label class="field-label" for="gpa-note">给自己的学业备注</label><textarea id="gpa-note" name="gpaNote" rows="3" maxlength="2000" placeholder="例如：GPA 的计分方式、还要补哪份材料"></textarea><p class="field-help">这些内容不参与打分，也不会自动上传。无需写姓名、学号或证件信息。</p>
             </div></details>
             <button class="button primary full-width" type="submit">把这些选择保存在本机</button><p class="privacy-note">筛选随时可用。只有你点击保存，个人备注才写入这个浏览器。</p>
-            <a class="button secondary full-width results-jump" id="results-jump" href="#results-panel">查看筛选结果</a><button type="button" id="clear-filters" class="button text-button full-width">清除学校和方向筛选</button>
+            <button type="button" id="clear-filters" class="button text-button full-width">清除学校和方向筛选</button>
           </form>
         </aside>
         <div id="results-panel" class="results-panel" tabindex="-1">
