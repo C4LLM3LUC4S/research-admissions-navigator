@@ -395,6 +395,30 @@ def build_catalog():
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hku-6")
     unit["staffEntries"].extend(hku["staffEntries"])
     catalog["programs"].extend(hku["programmes"])
+    polyu = load("polyu-fcms-census-20261027.json")
+    catalog["sources"].extend(polyu["sources"])
+    catalog["faculty"].extend(polyu["faculty"])
+    for update in polyu["facultyUpdates"]:
+        old = by_id[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords", "topics", "directorySourceIds", "academicUnitIds"):
+            old[field] = list(dict.fromkeys(old.get(field, []) + update[field]))
+        for field in ("directoryRole", "identityNote", "reviewedProfileUrl", "department", "summary", "applicationNotes"):
+            if field in update:
+                old[field] = update[field]
+        old["extraLinks"] = list({(link["url"], link["parentSourceId"]): link for link in old.get("extraLinks", []) + update["extraLinks"]}.values())
+    for update in polyu["directoryUpdates"]:
+        directory = next((d for d in catalog["directories"] if d["id"] == update["id"]), None)
+        if directory is None:
+            catalog["directories"].append(update)
+        else:
+            directory["sourceIds"].extend(update["sourceIds"])
+            directory.update({k: v for k, v in update.items() if k not in {"id", "sourceIds"}})
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "polyu-2")
+    unit["staffEntries"].extend(polyu["staffEntries"])
+    catalog["programs"].extend(polyu["programmes"])
+    for update in polyu["programmeUpdates"]:
+        old = next(p for p in catalog["programs"] if p["id"] == update["id"])
+        old.update(update)
     return catalog
 
 

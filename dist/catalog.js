@@ -936,12 +936,13 @@ window.APP_CATALOG = {
         "PhD"
       ],
       "cycle": "2027/28",
-      "scope": "香港理工大学；Department of Computing；2027/28所读范围",
+      "scope": "Computing；2027年9月实际入学页，MPhil与PhD分开核对。",
       "contact": {
         "status": "recommended",
-        "text": "先联系方向合适的老师会更有帮助，但中央FAQ说，暂未确定导师也能递交。再检查所选项目有没有额外要求。",
+        "text": "2027/28博士简章请申请前联系教授讨论；中央FAQ仍说未确定导师也能递交。不能将交流建议理解成博士或MPhil必须先拿正式接收。",
         "sourceIds": [
-          "polyu-faq"
+          "polyu-faq",
+          "polyu-comp-phd-flyer-2027-20261027"
         ]
       },
       "selection": {
@@ -952,14 +953,14 @@ window.APP_CATALOG = {
       },
       "deadlines": [
         {
-          "label": "中央一般申请截止：2027-05-31（官网未说明具体时间）",
+          "label": "2027年9月入学截止：2027-05-31（官网未说明具体时间）",
           "date": "2027-05-31",
           "at": null,
           "degree": null,
-          "route": "常规申请",
+          "route": "院系常规申请",
           "cycle": "2027/28",
           "sourceIds": [
-            "polyu-calendar"
+            "polyu-fcms-comp-2027-route-20261027"
           ]
         },
         {
@@ -975,12 +976,17 @@ window.APP_CATALOG = {
         }
       ],
       "sourceIds": [
+        "polyu-fcms-comp-2027-route-20261027",
         "polyu-computing",
         "polyu-calendar",
         "polyu-faq",
-        "polyu-rpg-requirements"
+        "polyu-rpg-requirements",
+        "polyu-comp-phd-flyer-2027-20261027",
+        "polyu-comp-flyer-old-target-20261027",
+        "polyu-fcms-comp-general-programme-20261027",
+        "polyu-comp-phd-flyer-2027-20261027"
       ],
-      "evidenceNote": "中央FAQ与日期已核；Computing当前周期独立截止和额外要求仍待核。",
+      "evidenceNote": "当前秋季入口已核；博士简章的链接却指向已截止的旧Jan2027页面，保留差异，不用旧页截止日替代。",
       "requirements": [
         {
           "label": "硕士学历要求",
@@ -1010,6 +1016,102 @@ window.APP_CATALOG = {
           "action": "核对港理工英语证明、考试形式与有效期；新制TOEFL分数先向研究院确认",
           "sourceIds": [
             "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "研究计划、CV与学历材料",
+          "text": "本入学页将CV、研究计划标准表及成绩/学历文件列为必交。请使用原页给出的研究计划表，按所选学位和系统要求准备。",
+          "action": "下载COMP原页研究计划标准表，核对CV和成绩/学历材料",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-comp-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "学术推荐报告",
+          "text": "Computing在奖学金计划申请条件中列出两份学术推荐报告，并说明拟任导师和非学术背景人士不适合作为推荐人。常规申请的材料仍请按本页及网申系统逐项核对，不把奖学金条款直接套用。",
+          "action": "核对COMP推荐人资格、两份报告及提交状态",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-comp-2027-route-20261027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-comp-phd-2027-tuition",
+          "kind": "tuition",
+          "label": "Computing博士：2027/28年学费",
+          "text": "博士简章列每年HK$49,500；这条只对应本简章的博士范围。是否免学费须另获相应计划批准，不能先从预算中扣掉。",
+          "action": "核对Computing博士2027/28学费、修读模式和实际免学费结果",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-comp-phd-flyer-2027-20261027"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027/28 Computing博士简章；不向MPhil自动继承"
+            }
+          ]
+        },
+        {
+          "id": "polyu-comp-phd-2027-scholarships",
+          "kind": "studentship",
+          "label": "博士奖学金计划：最高额与已获批分开",
+          "text": "简章列HKPFS最高每年344,400港元、PPPFS最高340,800港元；IPFS/PRPgS按注册状态列230,640或235,920港元。计划、现金奖及免学费条件不同，不能相加，也不是所有博士的已获待遇；请核对各计划原规则。 以下是不同计划或状态的上限，不是合计金额；资助年期和续领条件另核。",
+          "action": "分别核对Computing博士各奖学金计划、注册状态和实际获批通知",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-comp-phd-flyer-2027-20261027"
+          ],
+          "rates": [
+            {
+              "value": 344400,
+              "currency": "HKD",
+              "unit": "year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "HKPFS：简章最高额，须另获该计划批准，实际年期另核"
+            },
+            {
+              "value": 340800,
+              "currency": "HKD",
+              "unit": "year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "PPPFS：简章最高额，须另获该计划批准，实际年期另核"
+            },
+            {
+              "value": 230640,
+              "currency": "HKD",
+              "unit": "year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "IPFS或PRPgS：简章共享单元列一般最高额，须核计划及注册状态"
+            },
+            {
+              "value": 235920,
+              "currency": "HKD",
+              "unit": "year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "IPFS或PRPgS：已确认注册博士的简章最高额，须核实际获批条件"
+            }
           ]
         }
       ]
@@ -2326,6 +2428,303 @@ window.APP_CATALOG = {
         "hku-saas-rpg-supervisors-20261027"
       ],
       "evidenceNote": "常规轮、已结束提前轮、旧学费与教师个人说法分开；没有继承计算机学系或某位老师的接收偏好。"
+    },
+    {
+      "id": "polyu-ama-rpg",
+      "universityId": "polyu",
+      "name": "应用数学研究学位（含统计、优化与金融数学）",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "AMA；2027年9月；全日制/兼读与MPhil/PhD分开核对，不继承其他院系规则。",
+      "contact": {
+        "status": "recommended",
+        "text": "项目页建议联系方向合适的老师讨论；中央FAQ说，暂未确定导师也可提交。讨论、老师意向和正式录取是不同环节。",
+        "sourceIds": [
+          "polyu-fcms-ama-2027-route-20261027",
+          "polyu-faq"
+        ]
+      },
+      "selection": {
+        "text": "本项目页未说明完整评审委员会层级或各环节权重；正式结果以学校发出的录取通知为准。",
+        "sourceIds": [
+          "polyu-fcms-ama-2027-route-20261027",
+          "polyu-faq"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027年9月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "院系常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-fcms-ama-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-calendar"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-fcms-ama-2027-route-20261027",
+        "polyu-fcms-ama-general-programme-20261027",
+        "polyu-faq",
+        "polyu-calendar",
+        "polyu-rpg-requirements"
+      ],
+      "requirements": [
+        {
+          "label": "硕士学历要求",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "校级研究型学位页列二等荣誉学士或认可同等资格。AMA附加要求仍须对照项目页，不自行换算成某个GPA。",
+          "action": "核对港理工AMA MPhil学历与同等资格要求",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "博士：先分清三年制和四年制",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "三年制通常要求研究型硕士加学士；四年制列硕士加学士或一等荣誉学士等路线。等同资格由学校逐案决定，不是所有人都得先读研究型硕士。",
+          "action": "核对港理工AMA三年/四年博士路线及自己的资格材料",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "英语：新制TOEFL先确认",
+          "text": "当前FAQ所指页面列IELTS Academic 6.5或TOEFL iBT 80，考点内单次成绩，两年有效；英语授课学历有另一路径。但页面未明确2027/28新制TOEFL尺度，准备新考试时请先向研究院核实。",
+          "action": "核对港理工英语证明、考试形式与有效期；新制TOEFL分数先向研究院确认",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "研究计划、CV与学历材料",
+          "text": "本入学页将CV、研究计划标准表及成绩/学历文件列为必交。请使用原页给出的研究计划表，按所选学位和系统要求准备。",
+          "action": "下载AMA原页研究计划标准表，核对CV和成绩/学历材料",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-ama-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "学术推荐报告",
+          "text": "本页将两份学术推荐报告列为必交，请提前征得推荐人同意并按系统要求跟进。",
+          "action": "核对AMA推荐人资格、两份报告及提交状态",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-ama-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "个人陈述",
+          "text": "本入学页将Personal Statement列为必交；它与研究计划是两项材料。",
+          "action": "准备AMA个人陈述，并与研究计划分别核对",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-ama-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "应用数学系页所列硕士背景",
+          "text": "通用系页列数学、统计或工程的二等荣誉学士等背景；同页另有2026/27课程文件。请继续核对2027/28是否调整，不把旧课程文件当新轮次公告。",
+          "action": "核对AMA所需背景、同等资格及当前轮次要求",
+          "degrees": [
+            "MPhil"
+          ],
+          "sourceIds": [
+            "polyu-fcms-ama-general-programme-20261027"
+          ]
+        }
+      ],
+      "evidenceNote": "本系2027年9月入学页与旧Jan2027页面分开；日期只有日历日，不补截止时刻。",
+      "finances": [
+        {
+          "id": "polyu-ama-studentship-scope",
+          "kind": "studentship",
+          "label": "全日制研究生助学金：先看评定与条件",
+          "text": "系页说全日制MPhil或PhD可获考虑，按学术表现评定、年期由院系决定；本页没有给出可直接套用的当期金额。不是人人自动获得，也不把其他项目或个人自述的待遇搬过来。",
+          "action": "核对AMA所选学位和入学轮次的助学金条件、实际金额与获批结果",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-ama-general-programme-20261027"
+          ],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "polyu-dsai-rpg",
+      "universityId": "polyu",
+      "name": "数据科学与人工智能研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "DSAI；2027年9月；全日制/兼读与MPhil/PhD分开核对，不继承其他院系规则。",
+      "contact": {
+        "status": "recommended",
+        "text": "项目页建议联系方向合适的老师讨论；中央FAQ说，暂未确定导师也可提交。讨论、老师意向和正式录取是不同环节。",
+        "sourceIds": [
+          "polyu-fcms-dsai-2027-route-20261027",
+          "polyu-faq"
+        ]
+      },
+      "selection": {
+        "text": "本项目页未说明完整评审委员会层级或各环节权重；正式结果以学校发出的录取通知为准。",
+        "sourceIds": [
+          "polyu-fcms-dsai-2027-route-20261027",
+          "polyu-faq"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027年9月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "院系常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-fcms-dsai-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "HKPFS学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-calendar"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-fcms-dsai-2027-route-20261027",
+        "polyu-fcms-dsai-general-programme-20261027",
+        "polyu-faq",
+        "polyu-calendar",
+        "polyu-rpg-requirements"
+      ],
+      "requirements": [
+        {
+          "label": "硕士学历要求",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "校级研究型学位页列二等荣誉学士或认可同等资格。DSAI附加要求仍须对照项目页，不自行换算成某个GPA。",
+          "action": "核对港理工DSAI MPhil学历与同等资格要求",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "博士：先分清三年制和四年制",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "三年制通常要求研究型硕士加学士；四年制列硕士加学士或一等荣誉学士等路线。等同资格由学校逐案决定，不是所有人都得先读研究型硕士。",
+          "action": "核对港理工DSAI三年/四年博士路线及自己的资格材料",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "英语：新制TOEFL先确认",
+          "text": "当前FAQ所指页面列IELTS Academic 6.5或TOEFL iBT 80，考点内单次成绩，两年有效；英语授课学历有另一路径。但页面未明确2027/28新制TOEFL尺度，准备新考试时请先向研究院核实。",
+          "action": "核对港理工英语证明、考试形式与有效期；新制TOEFL分数先向研究院确认",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "研究计划、CV与学历材料",
+          "text": "本入学页将CV、研究计划标准表及成绩/学历文件列为必交。请使用原页给出的研究计划表，按所选学位和系统要求准备。",
+          "action": "下载DSAI原页研究计划标准表，核对CV和成绩/学历材料",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-dsai-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "学术推荐报告",
+          "text": "本页将两份学术推荐报告列为必交，请提前征得推荐人同意并按系统要求跟进。",
+          "action": "核对DSAI推荐人资格、两份报告及提交状态",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-dsai-2027-route-20261027"
+          ]
+        },
+        {
+          "label": "个人陈述",
+          "text": "本入学页将Personal Statement列为必交；它与研究计划是两项材料。",
+          "action": "准备DSAI个人陈述，并与研究计划分别核对",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-dsai-2027-route-20261027"
+          ]
+        }
+      ],
+      "evidenceNote": "本系2027年9月入学页与旧Jan2027页面分开；日期只有日历日，不补截止时刻。",
+      "finances": [
+        {
+          "id": "polyu-dsai-studentship-scope",
+          "kind": "studentship",
+          "label": "全日制研究生助学金：先看评定与条件",
+          "text": "系页说全日制MPhil或PhD可获考虑，按学术表现评定、年期由院系决定；本页没有给出可直接套用的当期金额。不是人人自动获得，也不把其他项目或个人自述的待遇搬过来。",
+          "action": "核对DSAI所选学位和入学轮次的助学金条件、实际金额与获批结果",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-fcms-dsai-general-programme-20261027"
+          ],
+          "rates": []
+        }
+      ]
     }
   ],
   "faculty": [
@@ -2742,24 +3141,33 @@ window.APP_CATALOG = {
       "id": "polyu-cao",
       "universityId": "polyu",
       "name": "Jiannong Cao / 曹建农",
-      "department": "香港理工大学计算学系",
+      "department": "计算与数学科学学院 · 计算学系",
       "topics": [
         "机器学习",
-        "网络与系统"
+        "网络与系统",
+        "数据挖掘",
+        "网络安全"
       ],
-      "summary": "分布式系统、无线感知、机器学习、移动与边缘计算。方向可以先看，2027具体招生名额未核实。",
+      "summary": "研究分布式系统与区块链、无线感知与网络、大数据与机器学习，以及移动云与边缘计算。",
       "researchKeywords": [
         "分布式系统",
         "无线感知",
         "机器学习",
-        "移动与边缘计算"
+        "移动与边缘计算",
+        "distributed systems and blockchain",
+        "wireless sensing and networking",
+        "big data and machine learning",
+        "mobile cloud and edge computing"
       ],
       "keywordSourceIds": [
-        "polyu-cao"
+        "polyu-cao",
+        "polyu-fcms-profile-060-20261027"
       ],
       "profileUrl": "https://www.polyu.edu.hk/risa/people/risa-people/prof-jiannong-cao/",
       "sourceIds": [
-        "polyu-cao"
+        "polyu-cao",
+        "polyu-fcms-profile-060-20261027",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -2768,7 +3176,32 @@ window.APP_CATALOG = {
         "sourceIds": [
           "polyu-cao"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Vice President (Education), Otto Poon Charitable Foundation Professor in Data Science, Chair Professor of Distributed and Mobile Computing",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-jiannong/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/58b70a97-fb93-488b-b464-ce4d7920cbb3",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-060-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~csjcao/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-060-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ]
     },
     {
       "id": "cityu-jun-wang",
@@ -5706,10 +6139,12 @@ window.APP_CATALOG = {
       "id": "wide-polyu-qing-li",
       "universityId": "polyu",
       "name": "Qing Li",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Chair Professor of Data Science and Head",
       "topics": [
-        "数据挖掘"
+        "数据挖掘",
+        "数据库与数据系统",
+        "教育学"
       ],
       "researchKeywords": [
         "Multi-modal data management",
@@ -5721,10 +6156,14 @@ window.APP_CATALOG = {
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
       "sourceIds": [
         "wide-polyu-qing-li-profile",
-        "wide-polyu-qing-li-home"
+        "wide-polyu-qing-li-home",
+        "polyu-fcms-profile-059-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-096-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5738,13 +6177,36 @@ window.APP_CATALOG = {
       "keywordSourceIds": [
         "wide-polyu-qing-li-profile",
         "wide-polyu-qing-li-home"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Chair Professor of Data Science and Head",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/bbb1710d-57ab-4ab3-ac7e-c79049aca644",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-059-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-096-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~csqli/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-059-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次未取得可用正文，原链接保留待核。"
+        }
       ]
     },
     {
       "id": "wide-polyu-changwen-chen",
       "universityId": "polyu",
       "name": "Changwen Chen",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Chair Professor of Visual Computing; Interim Dean of Faculty of Computer and Mathematical Sciences",
       "topics": [
         "人工智能",
@@ -5753,16 +6215,24 @@ window.APP_CATALOG = {
       "researchKeywords": [
         "AI-empowered multimedia content understanding and generation",
         "long video reasoning",
-        "open-vocabulary scene graph generation"
+        "open-vocabulary scene graph generation",
+        "Mobile Video Delivery System Design",
+        "Image & Video Analytics",
+        "Multimodal Content Understanding and Generation",
+        "IoVT Semantic Communication System"
       ],
-      "summary": "官方实验室主页展示 AI 驱动的多媒体内容理解与生成，以及长视频推理、开放词汇场景图生成相关工作。",
+      "summary": "实验室公开项目涉及移动视频传输、图像与视频分析、多模态内容理解与生成，以及视频物联网语义通信。",
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
       "sourceIds": [
         "wide-polyu-changwen-chen-profile",
-        "wide-polyu-changwen-chen-lab"
+        "wide-polyu-changwen-chen-lab",
+        "polyu-fcms-profile-061-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-101-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5775,14 +6245,37 @@ window.APP_CATALOG = {
       },
       "keywordSourceIds": [
         "wide-polyu-changwen-chen-profile",
-        "wide-polyu-changwen-chen-lab"
+        "wide-polyu-changwen-chen-lab",
+        "polyu-fcms-linked-101-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Interim Dean of Faculty of Computer and Mathematical Sciences, Chair Professor of Visual Computing",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f1e0de65-19d1-41df-b7c9-c1bb077acb66",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-061-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://chenlab.comp.polyu.edu.hk/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-061-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-101-20261027"
+        }
       ]
     },
     {
       "id": "wide-polyu-hongxia-yang",
       "universityId": "polyu",
       "name": "Hongxia Yang",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Chair Professor of Generative Artificial Intelligence; Executive Director of PolyU Academy for AI",
       "topics": [
         "人工智能",
@@ -5792,15 +6285,26 @@ window.APP_CATALOG = {
       "researchKeywords": [
         "Generative Artificial Intelligence",
         "foundation models",
-        "Large Language Models"
+        "Large Language Models",
+        "Generative AI",
+        "LLMs",
+        "MLLMs",
+        "Diffusion Models",
+        "Reinforcement learning",
+        "decentralized computing"
       ],
-      "summary": "官方个人页确认生成式人工智能讲座教授身份，并说明其大语言模型及基础模型团队经历。",
+      "summary": "研究生成式AI、大语言与多模态模型、扩散模型、强化学习和去中心化计算；个人招募说明另列。",
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
       "sourceIds": [
-        "wide-polyu-hongxia-yang-profile"
+        "wide-polyu-hongxia-yang-profile",
+        "polyu-fcms-profile-062-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-103-20261027",
+        "polyu-fcms-linked-102-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5811,14 +6315,51 @@ window.APP_CATALOG = {
         ]
       },
       "keywordSourceIds": [
-        "wide-polyu-hongxia-yang-profile"
+        "wide-polyu-hongxia-yang-profile",
+        "polyu-fcms-linked-103-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Executive Director of PAAI (EDoPAAI), Associate Dean (Global Engagement) of Faculty of Computer and Mathematical Sciences, Vobile Group Professor in Generative Artificial Intelligence, Chair Professor of Generative Artificial Intelligence, Director of UCAIC",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人页的博士招募与面试安排",
+          "text": "个人页自述招博士、研究助理等，并写先做编程测试、再介绍过往工作；未写明入学轮次。属于老师自述，不是学院统一门槛，也不等于已获资助或正式录取。",
+          "sourceIds": [
+            "polyu-fcms-linked-103-20261027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/8fe68b13-7865-4e51-ae01-1e5498636037",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-062-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-102-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~hongxyang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-062-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-103-20261027"
+        }
       ]
     },
     {
       "id": "wide-polyu-lei-zhang",
       "universityId": "polyu",
       "name": "Lei Zhang John",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Chair Professor of Computer Vision and Image Analysis",
       "topics": [
         "计算机视觉",
@@ -5830,13 +6371,16 @@ window.APP_CATALOG = {
         "Pattern Recognition",
         "Biometrics"
       ],
-      "summary": "官方个人页列出图像与视频处理、计算机视觉、模式识别及生物特征识别。",
+      "summary": "研究图像与视频处理、计算机视觉、模式识别和生物特征识别。",
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
       "sourceIds": [
-        "wide-polyu-lei-zhang-profile"
+        "wide-polyu-lei-zhang-profile",
+        "polyu-fcms-profile-063-20261027",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5847,18 +6391,42 @@ window.APP_CATALOG = {
         ]
       },
       "keywordSourceIds": [
-        "wide-polyu-lei-zhang-profile"
+        "wide-polyu-lei-zhang-profile",
+        "polyu-fcms-profile-063-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Chair Professor of Computer Vision and Image Analysis",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/a824e78a-b4c7-466c-bae4-07a47f507912",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-063-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~cslzhang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-063-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
       ]
     },
     {
       "id": "wide-polyu-wenjie-li",
       "universityId": "polyu",
       "name": "Wenjie Li Maggie",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Professor",
       "topics": [
         "自然语言处理",
-        "数据挖掘"
+        "数据挖掘",
+        "数据库与数据系统"
       ],
       "researchKeywords": [
         "natural language processing",
@@ -5866,15 +6434,19 @@ window.APP_CATALOG = {
         "social media analysis",
         "information retrieval",
         "information extraction",
-        "summarization"
+        "summarization",
+        "extraction and summarization"
       ],
-      "summary": "官方个人页列出自然语言处理、文本挖掘、社交媒体分析、信息检索、信息抽取及摘要。",
+      "summary": "研究自然语言处理、文本挖掘、社交媒体分析、信息检索与摘要。",
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
       "sourceIds": [
-        "wide-polyu-wenjie-li-profile"
+        "wide-polyu-wenjie-li-profile",
+        "polyu-fcms-profile-068-20261027",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5885,32 +6457,59 @@ window.APP_CATALOG = {
         ]
       },
       "keywordSourceIds": [
-        "wide-polyu-wenjie-li-profile"
+        "wide-polyu-wenjie-li-profile",
+        "polyu-fcms-profile-068-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/0ef0fbec-264d-45ad-af49-4984c10ceadf",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-068-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~cswjli",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-068-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
       ]
     },
     {
       "id": "wide-polyu-chenguang-yang",
       "universityId": "polyu",
       "name": "Chenguang Yang Charlie",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Professor",
       "topics": [
         "机器人与控制",
         "人工智能",
-        "机器学习"
+        "机器学习",
+        "人机交互"
       ],
       "researchKeywords": [
         "embodied AI for robot learning",
         "human robot interaction",
         "intelligent system design"
       ],
-      "summary": "官方个人页说明当前聚焦用于机器人学习的具身 AI、人机交互和智能系统设计。",
+      "summary": "研究面向机器人学习的具身AI、人机交互与智能系统设计。",
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
       "sourceIds": [
-        "wide-polyu-chenguang-yang-profile"
+        "wide-polyu-chenguang-yang-profile",
+        "polyu-fcms-profile-071-20261027",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5921,18 +6520,35 @@ window.APP_CATALOG = {
         ]
       },
       "keywordSourceIds": [
-        "wide-polyu-chenguang-yang-profile"
+        "wide-polyu-chenguang-yang-profile",
+        "polyu-fcms-profile-071-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/7a352f2a-0cf7-4121-b438-071a7a398ac4",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-071-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
       ]
     },
     {
       "id": "wide-polyu-di-jiang",
       "universityId": "polyu",
       "name": "Di Jiang",
-      "department": "Department of Computing",
+      "department": "计算与数学科学学院 · 计算学系",
       "role": "Associate Professor",
       "topics": [
         "自然语言处理",
-        "机器学习"
+        "机器学习",
+        "计算机音乐与音频"
       ],
       "researchKeywords": [
         "speech processing",
@@ -5942,13 +6558,16 @@ window.APP_CATALOG = {
         "elderly care",
         "longevity medicine"
       ],
-      "summary": "官方个人页列出语音处理、自然语言处理及联邦学习，应用包含金融科技、长者照护及长寿医学。",
+      "summary": "研究语音处理、自然语言处理与联邦学习，并探索金融科技、老年照护和长寿医学中的应用。",
       "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
       "sourceIds": [
-        "wide-polyu-di-jiang-profile"
+        "wide-polyu-di-jiang-profile",
+        "polyu-fcms-profile-076-20261027",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -5959,7 +6578,23 @@ window.APP_CATALOG = {
         ]
       },
       "keywordSourceIds": [
-        "wide-polyu-di-jiang-profile"
+        "wide-polyu-di-jiang-profile",
+        "polyu-fcms-profile-076-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/0e7723f8-671d-47e1-9c00-2c348649ea46",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-076-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
       ]
     },
     {
@@ -6896,29 +7531,38 @@ window.APP_CATALOG = {
       "id": "expand-polyu-defeng-sun",
       "universityId": "polyu",
       "name": "Defeng Sun / 孫德鋒",
-      "department": "Department of Applied Mathematics",
+      "department": "计算与数学科学学院 · 应用数学系",
       "role": "Head and Chair Professor of Applied Optimization and Operations Research",
       "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
       "topics": [
         "数学与统计",
         "金融与精算",
-        "理论与优化"
+        "理论与优化",
+        "软件工程与编程语言"
       ],
       "researchKeywords": [
         "Matrix optimization",
         "High-dimensional statistical optimization",
         "Second order variational analysis",
-        "Risk management and computational finance"
+        "Risk management and computational finance",
+        "Matrix Optimization (MatOpt): Theory, Algorithms, Software and Applications",
+        "High-Dimensional Statistical Optimization",
+        "Second Order Variational Analysis",
+        "Risk Management and Computational Finance"
       ],
-      "summary": "研究矩阵优化、高维统计优化、二阶变分分析，以及风险管理和计算金融。",
+      "summary": "研究矩阵优化、高维统计优化、变分分析，以及风险管理与计算金融。",
       "sourceIds": [
-        "expand-polyu-defeng-sun-profile"
+        "expand-polyu-defeng-sun-profile",
+        "polyu-fcms-profile-000-20261027",
+        "polyu-fcms-directory-ama-20261027"
       ],
       "keywordSourceIds": [
-        "expand-polyu-defeng-sun-profile"
+        "expand-polyu-defeng-sun-profile",
+        "polyu-fcms-profile-000-20261027"
       ],
       "directorySourceIds": [
-        "expand-dir-polyu-ama"
+        "expand-dir-polyu-ama",
+        "polyu-fcms-directory-ama-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -6927,13 +7571,35 @@ window.APP_CATALOG = {
         "sourceIds": [
           "expand-polyu-defeng-sun-profile"
         ]
-      }
+      },
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Head and Chair Professor of Applied Optimization and Operations Research, RGC Senior Research Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/06f4bb40-4e5b-40b8-ab55-8fa3a2d1a8dc",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-000-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/dfsun/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-000-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ]
     },
     {
       "id": "expand-polyu-xingqiu-zhao",
       "universityId": "polyu",
       "name": "Xingqiu Zhao / 趙興球",
-      "department": "Department of Applied Mathematics",
+      "department": "计算与数学科学学院 · 应用数学系",
       "role": "Associate Head of Department and Professor",
       "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
       "topics": [
@@ -6947,15 +7613,19 @@ window.APP_CATALOG = {
         "Nonparametric inference",
         "Semiparametric inference"
       ],
-      "summary": "研究统计机器学习、高维统计、生存分析及非参数、半参数推断。",
+      "summary": "研究统计机器学习、高维统计、生存分析，以及非参数和半参数推断。",
       "sourceIds": [
-        "expand-polyu-xingqiu-zhao-profile"
+        "expand-polyu-xingqiu-zhao-profile",
+        "polyu-fcms-profile-008-20261027",
+        "polyu-fcms-directory-ama-20261027"
       ],
       "keywordSourceIds": [
-        "expand-polyu-xingqiu-zhao-profile"
+        "expand-polyu-xingqiu-zhao-profile",
+        "polyu-fcms-profile-008-20261027"
       ],
       "directorySourceIds": [
-        "expand-dir-polyu-ama"
+        "expand-dir-polyu-ama",
+        "polyu-fcms-directory-ama-20261027"
       ],
       "availability": {
         "state": "unknown",
@@ -6964,7 +7634,29 @@ window.APP_CATALOG = {
         "sourceIds": [
           "expand-polyu-xingqiu-zhao-profile"
         ]
-      }
+      },
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "directoryRole": "Associate Head of Department and Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/4b8ec71d-dc3d-414b-9054-80578997e992",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-008-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/xqzhao",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-008-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ]
     },
     {
       "id": "expand-cityu-xinyue-li",
@@ -29315,6 +30007,8494 @@ window.APP_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "polyu-fcms-d471ffab13d8fa",
+      "universityId": "polyu",
+      "name": "Chen Xiaojun",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+      "directoryRole": "Associate Director of UCAIC and Chair Professor of Applied Mathematics",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Stochastic Equilibrium Problems",
+        "Nonsmooth, nonconvex optimization"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-001-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计"
+      ],
+      "summary": "研究随机均衡问题，以及非光滑、非凸优化。",
+      "sourceIds": [
+        "polyu-fcms-profile-001-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/2ee4cfeb-d051-489f-a33d-eb50cc9eabaf",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-001-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-001-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-001-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-c520950dbc2e00",
+      "universityId": "polyu",
+      "name": "Huang Jian",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-jian/",
+      "department": "计算与数学科学学院 · 应用数学系 / 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huangjian/",
+      "directoryRole": "Chair Professor of Data Science and Analytics",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。 两份院系页共享同一明确个人研究档案与个人网站，结合姓名及任职核对后接续同一编号；不是仅按同名自动合并。",
+      "researchKeywords": [
+        "Semiparametric inference",
+        "nonparametric statistics",
+        "high-dimensional statistics",
+        "computational statistics",
+        "machine learning",
+        "survival analysis",
+        "statistical genetics",
+        "bioinformatics",
+        "Deep generative models",
+        "representation learning",
+        "Deep Learning",
+        "Generative Models",
+        "Representation Learning",
+        "Statistical Analysis Leveraging Large Models",
+        "Bioinformatics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-002-20261027",
+        "polyu-fcms-profile-144-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数学与统计",
+        "生物医学与健康"
+      ],
+      "summary": "研究统计推断、高维数据、深度生成模型、表征学习与生物信息学；两系所列任职分别保留。",
+      "sourceIds": [
+        "polyu-fcms-profile-002-20261027",
+        "polyu-fcms-directory-ama-20261027",
+        "polyu-fcms-profile-144-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/334fcc05-d900-42ac-8c3b-0009aca0e0e6",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-002-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/prof-jian-huang",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-002-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/334fcc05-d900-42ac-8c3b-0009aca0e0e6",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-144-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/prof-jian-huang",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-144-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-002-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-b36d7850129704",
+      "universityId": "polyu",
+      "name": "Leng Chenlei",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+      "directoryRole": "Chair Professor of Statistics and Machine Learning",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Network Models",
+        "High-Dimensional Data",
+        "Correlated Data",
+        "Human-Centred Foundation Models"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-003-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "数学与统计"
+      ],
+      "summary": "研究网络模型、高维及相关数据，以及以人为中心的基础模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-003-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://chenlei-leng.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-003-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-003-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-614d81e6e75511",
+      "universityId": "polyu",
+      "name": "Li Buyang",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+      "directoryRole": "Chair Professor of Computational Mathematics and RGC Research Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Numerical Analysis",
+        "Scientific Computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-004-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究数值分析与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-004-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/49bb0f3e-823a-44fa-b745-cedf8e8e7124",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-004-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/byli/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-004-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-004-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6943a0bb1447ea",
+      "universityId": "polyu",
+      "name": "Qiao Zhonghua",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+      "directoryRole": "Chair Professor of Numerical Analysis and Scientific Computing and RGC Research Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Numerical analysis and scientific computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-005-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究数值分析与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-005-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/eec3654b-559d-49fd-9b7d-ebd03137589f",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-005-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/zhqiao/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-005-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-005-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-35181c49089bff",
+      "universityId": "polyu",
+      "name": "Yang Tong",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+      "directoryRole": "Kuok Group Professor in Mathematical Science & Chair Professor of Mathematical Science",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Partial Differential Equations",
+        "Kinetic Theory"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-006-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "物理与化学"
+      ],
+      "summary": "研究偏微分方程与动理学理论。",
+      "sourceIds": [
+        "polyu-fcms-profile-006-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/36a883ad-b943-4357-933d-e89bf251a828",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-006-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/tongyang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-006-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-006-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-510676acf27cac",
+      "universityId": "polyu",
+      "name": "Cedric Yiu Ka-fai",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+      "directoryRole": "Associate Head of Department and Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Signal processing, beamforming",
+        "Financial risk management",
+        "Optimization and optimal control",
+        "Scientific computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-007-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "理论与优化",
+        "金融与精算"
+      ],
+      "summary": "研究信号处理、波束形成、金融风险管理、优化与最优控制。",
+      "sourceIds": [
+        "polyu-fcms-profile-007-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/a5f6f677-7dc9-49f4-94fb-ceee44a3de3b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-007-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/kfyiu/personal_web/yiukafai.htm",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-007-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次未取得可用正文，原链接保留待核。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-007-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-379370c5e1f5f7",
+      "universityId": "polyu",
+      "name": "Raymond Sze Nung-sing",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+      "directoryRole": "Associate Dean of",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Quantum information Science",
+        "Matrix Theory",
+        "Operator Theory"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-009-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "物理与化学"
+      ],
+      "summary": "研究量子信息、矩阵理论与算子理论。",
+      "sourceIds": [
+        "polyu-fcms-profile-009-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/67ea1c22-aa07-4ba1-be1b-f84df4f85b86",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-009-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/sze/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-009-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-009-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-bd22ff701683d7",
+      "universityId": "polyu",
+      "name": "He Daihai",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical Epidemiology",
+        "Statistical Inference of Stochastic Process"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-010-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究传染病的数学模型，以及随机过程的统计推断。",
+      "sourceIds": [
+        "polyu-fcms-profile-010-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e10ba41a-957d-427a-b651-f46960f4483e",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-010-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/dhe/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-010-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-010-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-e9ed6553669ce9",
+      "universityId": "polyu",
+      "name": "Hu Xianpeng",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+      "directoryRole": "Professor and RGC Research Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Partial Differential Equations"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-011-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究偏微分方程。",
+      "sourceIds": [
+        "polyu-fcms-profile-011-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/xianpenghu/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-011-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-011-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-1ec218f7b60565",
+      "universityId": "polyu",
+      "name": "Li Xun",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Stochastic Controls and Applied Probability with Financial Applications"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-012-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究随机控制、应用概率及其金融应用。",
+      "sourceIds": [
+        "polyu-fcms-profile-012-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d764ab62-16fe-4947-94ca-da0933ce158a",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-012-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/xli",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-012-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次未取得可用正文，原链接保留待核。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-012-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-46b671247db5b1",
+      "universityId": "polyu",
+      "name": "Lin Yanping",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+      "directoryRole": "Research Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Partial differential equations and scientific computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-013-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究偏微分方程与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-013-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/73359835-0b63-4499-93c0-fa7a780ffff5",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-013-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/staff/malin/malin.htm",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-013-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-013-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-012c38e24504bc",
+      "universityId": "polyu",
+      "name": "Pong Ting-kei",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Convex optimization",
+        "Numerical methods for large-scale optimization problems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-014-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计"
+      ],
+      "summary": "研究凸优化，以及大规模优化问题的数值方法。",
+      "sourceIds": [
+        "polyu-fcms-profile-014-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/733a8fcf-6b9f-4487-9840-e0099c813825",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-014-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/pong/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-014-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-014-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-f280c5031c8465",
+      "universityId": "polyu",
+      "name": "Qi Houduo",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qi-houduo/",
+      "department": "计算与数学科学学院 · 应用数学系 / 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/qihouduo/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。 两份院系页共享同一明确个人研究档案与个人网站，结合姓名及任职核对后接续同一编号；不是仅按同名自动合并。",
+      "researchKeywords": [
+        "Numerical Optimization",
+        "Data Science",
+        "Portfolio Optimization",
+        "Embedding Methods in Data Science"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-015-20261027",
+        "polyu-fcms-profile-149-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究数值优化、数据科学中的嵌入方法与投资组合优化。",
+      "sourceIds": [
+        "polyu-fcms-profile-015-20261027",
+        "polyu-fcms-directory-ama-20261027",
+        "polyu-fcms-profile-149-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/5a20e1a0-7b37-42b7-880c-8302fc462dab",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-015-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-015-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        },
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/5a20e1a0-7b37-42b7-880c-8302fc462dab",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-149-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-149-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-015-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-0b13aecf5d31b6",
+      "universityId": "polyu",
+      "name": "Wang Zhian",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical modeling and analysis on chemotaxis",
+        "Traveling waves in reaction-diffusion system",
+        "Mathematical Physics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-016-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "物理与化学"
+      ],
+      "summary": "研究趋化现象的数学建模、反应扩散系统中的行波及数学物理。",
+      "sourceIds": [
+        "polyu-fcms-profile-016-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/8c2998bd-1909-4f77-b5ae-f4f10c86f78e",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-016-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/zawang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-016-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-016-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-40b38043ece419",
+      "universityId": "polyu",
+      "name": "Xu Zuoquan",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical finance",
+        "Quantitative behavioral finance",
+        "Insurance",
+        "Stochastic control"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-017-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究数学金融、定量行为金融、保险与随机控制。",
+      "sourceIds": [
+        "polyu-fcms-profile-017-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/142867a9-008d-4844-995b-e786fedb0bf6",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-017-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/xu",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-017-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-017-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-fe26ee38239d80",
+      "universityId": "polyu",
+      "name": "Yang Xiaoqi",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical optimization",
+        "Vector optimization",
+        "Variational analysis",
+        "Financial optimization"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-018-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究数学优化、向量优化、变分分析与金融优化。",
+      "sourceIds": [
+        "polyu-fcms-profile-018-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/a8c8e5df-5423-46bc-9c99-2f165ffc1807",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-018-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/xqyang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-018-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-018-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6b4a2536560ffc",
+      "universityId": "polyu",
+      "name": "Zhang Guofeng",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Quantum information and control",
+        "Digital control and network-based control",
+        "Non-linear dynamics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-019-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "物理与化学"
+      ],
+      "summary": "研究量子信息与控制、数字控制、网络化控制及非线性动力学。",
+      "sourceIds": [
+        "polyu-fcms-profile-019-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e26d9387-f885-4185-81e3-f5f310905958",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-019-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/gfzhang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-019-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-019-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-f65c9eaa2bfeb8",
+      "universityId": "polyu",
+      "name": "Zhou Zhi",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Finite Difference",
+        "Finite Volume",
+        "Finite Element",
+        "Scientific Computations",
+        "Peridynamics",
+        "Nonlocal Diffusion",
+        "Fractional PDEs",
+        "Inverse Problems",
+        "Optimal Control"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-020-20261027"
+      ],
+      "topics": [
+        "机器人与控制"
+      ],
+      "summary": "研究偏微分方程的数值近似、非局部与分数阶问题、反问题及最优控制。",
+      "sourceIds": [
+        "polyu-fcms-profile-020-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/57579f09-7438-45ea-bd40-6b4cd27a7e49",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-020-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/site/zhizhou0125/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-020-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-020-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-c5913fb55cb243",
+      "universityId": "polyu",
+      "name": "Fu Guanxing",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical finance"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-021-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究数学金融。",
+      "sourceIds": [
+        "polyu-fcms-profile-021-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/748998e2-1678-411b-bed8-dc2e6e9a5c9d",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-021-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/guanxfu",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-021-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-021-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ba8db80652ac0e",
+      "universityId": "polyu",
+      "name": "James Huang",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Statistical estimation and filtering theory (linear, nonlinear)",
+        "Statistical inference of stochastic process",
+        "Control and optimization theory (deterministic, stochastic)"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-022-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "理论与优化",
+        "数学与统计"
+      ],
+      "summary": "研究估计与滤波、随机过程的统计推断、控制优化及金融数学。",
+      "sourceIds": [
+        "polyu-fcms-profile-022-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/a64761d9-912f-4b75-8ae7-e6853a8789cf",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-022-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/jianhui-huang",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-022-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-022-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6cd2ecc120fd28",
+      "universityId": "polyu",
+      "name": "Joseph Lee Heung-wing",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Computational Optimal Controls",
+        "Scheduling",
+        "Manpower Planning Problem",
+        "Optimal Discrete-valued Controls",
+        "Control of Chaotic Systems",
+        "Semi-infinite Programming",
+        "Internet Traffic Control"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-023-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "经济与管理"
+      ],
+      "summary": "研究最优控制的计算方法、调度、人员规划、供应链及金融数学。",
+      "sourceIds": [
+        "polyu-fcms-profile-023-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/c791f86a-b41b-4c8d-849e-f875978cb686",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-023-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/hwlee/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-023-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-023-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-83ac08d4e16084",
+      "universityId": "polyu",
+      "name": "Lou Yijun",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Applied Dynamical Systems",
+        "Differential Equations",
+        "Mathematical Epidemiology",
+        "Mathematical Biology"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-024-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究应用动力系统、微分方程，以及传染病与生物问题的数学模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-024-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ae4fe295-8fa1-45f5-bc0c-160b798c24b8",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-024-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/lou/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-024-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-024-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-d63eea09b1dad3",
+      "universityId": "polyu",
+      "name": "Alex Wong Kin-yau",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "High-Dimensional Data Analysis",
+        "Integrative Analysis of Genomic data",
+        "Latent Variable Modeling",
+        "Statistical Genetics",
+        "Survival Analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-025-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "生物医学与健康"
+      ],
+      "summary": "研究高维和基因组数据、潜变量建模、统计遗传学与生存分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-025-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/29411560-1b63-40cf-aa89-aa38f288edbe",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-025-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/alexwky/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-025-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-025-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-b8b9c09a89e0b6",
+      "universityId": "polyu",
+      "name": "Yu Xiang",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical Finance",
+        "Applied Probability",
+        "Stochastic Control and Optimization"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-026-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "理论与优化",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究数学金融、应用概率，以及随机控制与优化。",
+      "sourceIds": [
+        "polyu-fcms-profile-026-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/79206ca5-6dbe-48cc-835a-ad91e1b8e90c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-026-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/site/xiangyuama/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-026-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-026-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-573c69a03d2305",
+      "universityId": "polyu",
+      "name": "Yue Man-Chung",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Nonlinear Optimization Algorithms",
+        "Robust Optimization",
+        "Mathematical Signal Processing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-027-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计"
+      ],
+      "summary": "研究非线性优化算法、鲁棒优化与数学信号处理。",
+      "sourceIds": [
+        "polyu-fcms-profile-027-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/44d5c3d6-3bde-4bcf-b2b3-c94e5f5e2db6",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-027-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://manchungyue.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-027-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-027-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-49866b153c1fc9",
+      "universityId": "polyu",
+      "name": "Cao Xinlin",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Inverse Problems for Partial Differential Equations",
+        "Mathematical Material Sciences",
+        "Scattering Theory and Spectral Theory",
+        "Microlocal Analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-028-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "材料与能源"
+      ],
+      "summary": "研究偏微分方程反问题、数学材料科学、散射与谱理论及微局部分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-028-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/xlcao/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-028-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-028-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3ed424038097c2",
+      "universityId": "polyu",
+      "name": "Chen Kexin",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Financial Mathematics: Stochastic control for financial application",
+        "Optimal stopping problems",
+        "Partial and asymmetric information problems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-029-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究金融中的随机控制、最优停止，以及信息不完全或不对称的问题。",
+      "sourceIds": [
+        "polyu-fcms-profile-029-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/878b7092-401b-4ef7-a910-aab07fc0654a",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-029-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/site/nemechenkexin",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-029-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-029-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-16c5210c4af933",
+      "universityId": "polyu",
+      "name": "Cui Jianbo",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Analysis and computations of stochastic differential equations",
+        "Optimal transport theory",
+        "Structure-preserving numerical methods of Hamiltonian systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-030-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究随机微分方程的分析与计算、最优输运，以及哈密顿系统的保结构数值方法。",
+      "sourceIds": [
+        "polyu-fcms-profile-030-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/07531e4c-9b33-4496-bc19-d9a62a1ed951",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-030-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/cuijb/index.html",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-030-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-030-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3ae09bb7eb61c4",
+      "universityId": "polyu",
+      "name": "Hu Jiashun",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Numerical Analysis",
+        "Scientific Computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-031-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究数值分析与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-031-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://jiashhu.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-031-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-031-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-13b493ae883025",
+      "universityId": "polyu",
+      "name": "Huang Yilie",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Reinforcement Learning",
+        "Diffusion Models for Generative AI",
+        "Stochastic Control",
+        "Financial Engineering"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-032-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "机器人与控制",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究强化学习、生成式AI中的扩散模型、随机控制与金融工程。",
+      "sourceIds": [
+        "polyu-fcms-profile-032-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yiliehuang.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-032-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-032-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-0da79a15a8f379",
+      "universityId": "polyu",
+      "name": "Jiang Zhaoli",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Portfolio Selection",
+        "Corporate Finance",
+        "Stochastic Control"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-033-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "数学与统计",
+        "金融与精算"
+      ],
+      "summary": "研究投资组合选择、公司金融与随机控制。",
+      "sourceIds": [
+        "polyu-fcms-profile-033-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/zhaolijiang/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-033-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-033-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-34bb7299171bfe",
+      "universityId": "polyu",
+      "name": "Shen Guohao",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Statistical Machine Learning",
+        "Deep Learning",
+        "Nonparametric Methods"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-034-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数学与统计"
+      ],
+      "summary": "研究统计机器学习、深度学习与非参数方法。",
+      "sourceIds": [
+        "polyu-fcms-profile-034-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d9f60db9-a646-490f-90ca-1e2e7f3d10e2",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-034-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://ghshen1.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-034-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-034-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-7e544c274d87fa",
+      "universityId": "polyu",
+      "name": "Tang Rong",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Numerical Analysis",
+        "Scientific Computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-035-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究数值分析与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-035-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://ronglotus.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-035-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-035-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-8d355b2f5349af",
+      "universityId": "polyu",
+      "name": "Yuan Yancheng",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "sparse optimization",
+        "Mathematical foundation for data science",
+        "healthcare",
+        "fintech"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-036-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计",
+        "金融与精算",
+        "生物医学与健康"
+      ],
+      "summary": "研究大规模稀疏优化、数据科学的数学基础，以及医疗和金融科技中的数据应用。",
+      "sourceIds": [
+        "polyu-fcms-profile-036-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/36db317e-1aba-40b9-931d-719af6594e0e",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-036-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://paulyuanmath.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-036-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-036-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-052032af7b591b",
+      "universityId": "polyu",
+      "name": "Zhang Shijun",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Approximation theory",
+        "Neural networks"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-037-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究逼近理论与神经网络。",
+      "sourceIds": [
+        "polyu-fcms-profile-037-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://shijunzhang.top/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-037-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-037-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-2ca816e7b63e3a",
+      "universityId": "polyu",
+      "name": "Zhang Zhu",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Partial Differential Equations",
+        "Boundary layer in fluid mechanics",
+        "Kinetic theory"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-038-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "物理与化学"
+      ],
+      "summary": "研究偏微分方程、流体边界层与动理学理论。",
+      "sourceIds": [
+        "polyu-fcms-profile-038-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/160240e6-ba93-4bb3-b6eb-7fdf67dbb71d",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-038-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/zzhangpde724/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-038-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-038-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-5c9cc3aec5fb43",
+      "universityId": "polyu",
+      "name": "Li Hao",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Machine learning",
+        "Numerical analysis",
+        "Scientific computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-039-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数学与统计"
+      ],
+      "summary": "研究机器学习、数值分析与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-039-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://haoli-hl.github.io",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-039-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次未取得可用正文，原链接保留待核。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-039-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-bfa085b68c80db",
+      "universityId": "polyu",
+      "name": "Li Mingxiang",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Differential Geometry",
+        "Geometric analysis and PDEs"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-040-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究微分几何、几何分析与偏微分方程。",
+      "sourceIds": [
+        "polyu-fcms-profile-040-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://limingxiangmath.github.io",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-040-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-040-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-79bf855eb5c159",
+      "universityId": "polyu",
+      "name": "Liu Wei",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "first-order methods",
+        "nonlinear optimization problems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-041-20261027"
+      ],
+      "topics": [
+        "理论与优化"
+      ],
+      "summary": "研究非线性优化问题的一阶方法及算法设计。",
+      "sourceIds": [
+        "polyu-fcms-profile-041-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/liu-wei/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-041-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-041-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-693dea57e840b9",
+      "universityId": "polyu",
+      "name": "Wang Qi",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Optimization algorithms",
+        "power systems",
+        "machine learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-042-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "理论与优化",
+        "材料与能源"
+      ],
+      "summary": "研究电力系统的大规模优化，以及结合机器学习的优化方法。",
+      "sourceIds": [
+        "polyu-fcms-profile-042-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://qiwang-site.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-042-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-042-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-d3fea1106cc2b4",
+      "universityId": "polyu",
+      "name": "Yao Fangyan",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Numerical Analysis",
+        "Scientific Computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-043-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究数值分析与科学计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-043-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://fangyan-yao.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-043-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-043-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-e7c93685e83ca1",
+      "universityId": "polyu",
+      "name": "Zhang Hua",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Dynamical Systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-044-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究动力系统。",
+      "sourceIds": [
+        "polyu-fcms-profile-044-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/4f4fd517-e08c-4b26-b5ec-6802ae076f25",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-044-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/zhanghua/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-044-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-044-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-12081d7b8406fb",
+      "universityId": "polyu",
+      "name": "He Yangbo",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Nonlinear dynamical system"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-045-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究非线性动力系统。",
+      "sourceIds": [
+        "polyu-fcms-profile-045-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/47185c49-a852-4849-9751-024e958821d3",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-045-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/bobhe/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-045-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-045-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-7b4fed6c1c7acd",
+      "universityId": "polyu",
+      "name": "Charles Lee Kei-fung",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Asymptotic Analysis",
+        "Orthogonal Polynomials",
+        "Special Functions"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-046-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究渐近分析、正交多项式与特殊函数。",
+      "sourceIds": [
+        "polyu-fcms-profile-046-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/996abd70-e499-464e-bb00-e45f86d9ae59",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-046-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/charleslee/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-046-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-046-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-710b37ee1117b7",
+      "universityId": "polyu",
+      "name": "Selena Qian Yihe",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "FinTech",
+        "Machine Learning",
+        "Asset Pricing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-049-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "金融与精算"
+      ],
+      "summary": "研究金融科技、机器学习与资产定价。",
+      "sourceIds": [
+        "polyu-fcms-profile-049-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-049-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-c135daa1cf54c3",
+      "universityId": "polyu",
+      "name": "Allen Tai Hoi-lun",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mathematical Modeling and Optimization in Supply Chain Management",
+        "Inventory Theory",
+        "Industrial Engineering"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-050-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计",
+        "经济与管理"
+      ],
+      "summary": "研究供应链中的数学建模与优化、库存理论及工业工程。",
+      "sourceIds": [
+        "polyu-fcms-profile-050-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/cde359e8-6460-4d3f-b6f1-b884e198af08",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-050-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/allentai/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-050-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-050-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-85e3bd7d2e6754",
+      "universityId": "polyu",
+      "name": "Tian Peixin",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+      "directoryRole": "Teaching Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Statistical genetics and genomics",
+        "Causal inference and mediation analysis",
+        "Machine learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-051-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数学与统计",
+        "生物医学与健康"
+      ],
+      "summary": "研究统计遗传与基因组学、因果及中介分析和机器学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-051-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://mxxptian.github.io/pxtian.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-051-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-051-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-bc37ba66514237",
+      "universityId": "polyu",
+      "name": "Terry Tong Kam-hung",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+      "directoryRole": "Teaching Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Algebraic Combinatorics",
+        "Representation Theory"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-052-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究代数组合与表示论。",
+      "sourceIds": [
+        "polyu-fcms-profile-052-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/khtong/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-052-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-052-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-4f522dbf11d6c8",
+      "universityId": "polyu",
+      "name": "Wang Di",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Demography",
+        "Modelling of Actuarial Assumptions",
+        "Risk Management",
+        "Financial Data Modelling"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-053-20261027"
+      ],
+      "topics": [
+        "金融与精算"
+      ],
+      "summary": "研究人口统计、精算假设与金融数据的建模，以及风险管理。",
+      "sourceIds": [
+        "polyu-fcms-profile-053-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/diwanghomepage/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-053-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-053-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-bf4165568a60d5",
+      "universityId": "polyu",
+      "name": "Andy Cheung Yat-ming",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+      "directoryRole": "Instructor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Optimization Algorithm",
+        "Manifold Optimization",
+        "Variational Analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-054-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计"
+      ],
+      "summary": "研究优化算法、流形优化与变分分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-054-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/7cfbc1c4-938e-408a-b7f6-3a7e073b59fa",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-054-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/andycheungym/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-054-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-054-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-4f873c63d65b91",
+      "universityId": "polyu",
+      "name": "Ho Chor-yin",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+      "directoryRole": "Instructor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Differential geometry"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-055-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究微分几何。",
+      "sourceIds": [
+        "polyu-fcms-profile-055-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/7639f05a-e427-48b1-9526-00f57d8a8ee9",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-055-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/hochoryin/home-page",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-055-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-055-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-db9064f373096b",
+      "universityId": "polyu",
+      "name": "Adam Leung Man-kin",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+      "directoryRole": "Instructor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Computational Fluid Dynamics",
+        "Mathematical Physics",
+        "Mathematics and Arts"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-056-20261027"
+      ],
+      "topics": [
+        "数学与统计",
+        "物理与化学",
+        "设计与创意"
+      ],
+      "summary": "研究计算流体力学、数学物理，以及数学与艺术的交叉。",
+      "sourceIds": [
+        "polyu-fcms-profile-056-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/c8aead31-d639-4fdf-a1b9-b4831a47660b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-056-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/adamleung",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-056-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-056-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ce7aa9490d2bbe",
+      "universityId": "polyu",
+      "name": "Frankie Tsoi Sze-leong",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+      "directoryRole": "Instructor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Inverted Probability Loss Functions",
+        "Spatial Statistics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-057-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究空间统计和概率损失函数。",
+      "sourceIds": [
+        "polyu-fcms-profile-057-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/26330d68-61ad-4df6-a2b4-a21aa77bc0e9",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-057-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://frankietsoi.wixsite.com/work",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-057-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-057-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-7d293bcbb11f6c",
+      "universityId": "polyu",
+      "name": "Angus Yeung Hon-keung",
+      "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/",
+      "department": "计算与数学科学学院 · 应用数学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/",
+      "directoryRole": "Instructor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Supply Chain Management",
+        "Optimization",
+        "Actuarial Analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-058-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "金融与精算",
+        "经济与管理"
+      ],
+      "summary": "研究供应链管理、优化与精算分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-058-20261027",
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-ama-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ddf8dd5a-1e95-41e4-891a-1457a6d906a4",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-058-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/hkyeung/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-058-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-058-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-f2b021a0f10e61",
+      "universityId": "polyu",
+      "name": "AU Man Ho Allen",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+      "directoryRole": "Professor and Associate Head (Research and Development)",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "information security",
+        "applied cryptography",
+        "blockchain technology"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-064-20261027"
+      ],
+      "topics": [
+        "网络安全"
+      ],
+      "summary": "研究信息安全、应用密码学与区块链技术。",
+      "sourceIds": [
+        "polyu-fcms-profile-064-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ef797022-c584-4731-9ed5-a5ca7e041533",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-064-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://web.comp.polyu.edu.hk/mhaau/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-064-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-064-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-56d6a7b68a9c5a",
+      "universityId": "polyu",
+      "name": "XIAO Bin",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+      "directoryRole": "Professor and Associate Head (Partnership & Collaboration)",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI and network security",
+        "data privacy",
+        "blockchain systems",
+        "learning model security"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-065-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络安全"
+      ],
+      "summary": "研究AI与网络安全、数据隐私、区块链系统和学习模型安全。",
+      "sourceIds": [
+        "polyu-fcms-profile-065-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/41c2eae0-e0cb-40bd-a9b5-e4080912be5c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-065-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csbxiao",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-065-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-065-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-9e8c3fd37a4463",
+      "universityId": "polyu",
+      "name": "YIU Man Lung Ken",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+      "directoryRole": "Professor and Associate Head (Teaching & Learning)",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "database research group"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-066-20261027"
+      ],
+      "topics": [
+        "数据库与数据系统"
+      ],
+      "summary": "官方简介列有数据库研究组归属；完整个人课题仍需沿个人主页继续核对。",
+      "sourceIds": [
+        "polyu-fcms-profile-066-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e84695c7-dbfa-47ed-920e-5aaafbdc3938",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-066-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csmlyiu/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-066-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-066-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-8cf71bc59b5e48",
+      "universityId": "polyu",
+      "name": "HOORN Johan",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "social robots",
+        "cognitive models",
+        "Robot Brain Server",
+        "data security",
+        "AI",
+        "Cloud"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-067-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器人与控制",
+        "网络与系统",
+        "网络安全"
+      ],
+      "summary": "研究社交机器人与人工系统中的认知模型，并关注机器人服务平台的数据、安全、AI与云端支持。",
+      "sourceIds": [
+        "polyu-fcms-profile-067-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-112-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/dbeaf5f9-f1be-42fd-81a3-2f91dfcedf8a",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-067-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-112-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-067-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-2df7a89941e294",
+      "universityId": "polyu",
+      "name": "LI Zhenhui Jessie",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "City Intelligence",
+        "AI for Science"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-116-20261027"
+      ],
+      "topics": [
+        "人工智能"
+      ],
+      "summary": "目前关注城市智能和面向科学的AI；交通信号控制等被个人页另列为过去研究。",
+      "sourceIds": [
+        "polyu-fcms-profile-069-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-116-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/6b20fff9-cca0-4b22-a2db-fdde05d7434b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-069-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://jessielzh.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-069-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-116-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-069-20261027"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "先分清研究助理机会与学位录取",
+          "text": "个人页当前主要找研究助理，提到可能转博士、实习或短期项目。这不是博士或MPhil正式接收，也不能把个人对背景的说法当作学校资格要求。",
+          "sourceIds": [
+            "polyu-fcms-linked-116-20261027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-fcms-0dcebef6d90623",
+      "universityId": "polyu",
+      "name": "LUO Xiapu Daniel",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
+      "directoryRole": "Associate Dean (Research) of Faculty of Computer and Mathematical Sciences, Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Blockchain and Smart Contracts Security",
+        "Mobile/IoT/Vehicle Security",
+        "Network Security and Privacy",
+        "Software Engineering"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-070-20261027"
+      ],
+      "topics": [
+        "网络与系统",
+        "软件工程与编程语言",
+        "网络安全"
+      ],
+      "summary": "研究区块链与智能合约安全、移动和物联网系统安全、网络隐私及软件工程。",
+      "sourceIds": [
+        "polyu-fcms-profile-070-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/58f6b95c-bf34-44d9-890d-31df870e4473",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-070-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~csxluo/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-070-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-070-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-9b0e7d2e2fcef0",
+      "universityId": "polyu",
+      "name": "ZHENG Yuanqing",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+      "directoryRole": "Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Internet of Things (IoT)",
+        "Wireless Networking",
+        "Ubiquitous Computing",
+        "Efficient AI"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-072-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络与系统"
+      ],
+      "summary": "研究物联网、无线网络、普适计算与高效AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-072-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/5477ad63-3704-44ca-826d-bbf29d28adce",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-072-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~csyqzheng/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-072-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-072-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-2a10efa73336ba",
+      "universityId": "polyu",
+      "name": "CAO Yixin",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "algorithmic graph theory",
+        "combinatorial optimization",
+        "social networks",
+        "bioinformatics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-073-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "生物医学与健康"
+      ],
+      "summary": "研究算法图论、组合优化、社交网络与生物信息学。",
+      "sourceIds": [
+        "polyu-fcms-profile-073-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/82367680-b668-4d06-b587-12c313a2e75c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-073-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~csycao/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-073-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-073-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-94fa122c4d2806",
+      "universityId": "polyu",
+      "name": "CHUNG Fu Lai Korris",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chung-fu-lai-korris/",
+      "department": "计算与数学科学学院 · 计算学系 / 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/chungkorris/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。 两份院系页共享同一明确个人研究档案与个人网站，结合姓名及任职核对后接续同一编号；不是仅按同名自动合并。",
+      "researchKeywords": [
+        "intelligence, learning and recognition",
+        "text data",
+        "time series data",
+        "multimedia data",
+        "social network data",
+        "bioinformatics data",
+        "Machine Learning",
+        "Data Mining",
+        "Spatial-Temporal Analytics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-074-20261027",
+        "polyu-fcms-profile-150-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数据挖掘",
+        "生物医学与健康"
+      ],
+      "summary": "研究机器学习、数据挖掘和时空分析，涉及文本、多媒体、社交网络及生物信息数据。",
+      "sourceIds": [
+        "polyu-fcms-profile-074-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-profile-150-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f5e6fdf9-b87b-42d5-9db5-7fce67e78726",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-074-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~cskchung/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-074-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        },
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f5e6fdf9-b87b-42d5-9db5-7fce67e78726",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-150-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~cskchung/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-150-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-074-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-d309a16bf7011b",
+      "universityId": "polyu",
+      "name": "HUANG Xiao",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "data mining",
+        "machine learning",
+        "agentic AI",
+        "graph retrieval-augmented generation",
+        "text-to-SQL",
+        "knowledge graphs",
+        "collaborative filtering"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-127-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数据挖掘",
+        "数据库与数据系统"
+      ],
+      "summary": "研究数据挖掘、机器学习和智能体AI，具体涉及图检索增强生成、文本转SQL、知识图谱与协同过滤。",
+      "sourceIds": [
+        "polyu-fcms-profile-075-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-127-20261027",
+        "polyu-fcms-linked-126-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/87c8847f-57c0-4508-aa65-1450d156f63d",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-075-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-126-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~xiaohuang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-075-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-127-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-075-20261027"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人页的博士招募自述",
+          "text": "老师自述正在招博士，但未注明具体入学轮次或可用名额；不套给MPhil，也不替代正式申请。",
+          "sourceIds": [
+            "polyu-fcms-linked-127-20261027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-fcms-7133f193709432",
+      "universityId": "polyu",
+      "name": "LI Bo",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "algorithms",
+        "AI",
+        "computational economics",
+        "resource allocation",
+        "game theory",
+        "online algorithms"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-077-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "理论与优化",
+        "经济与管理"
+      ],
+      "summary": "研究算法、AI与计算经济学，关注资源分配、博弈论和在线算法。",
+      "sourceIds": [
+        "polyu-fcms-profile-077-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/52334247-7d2d-4c08-af03-f386c1abb468",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-077-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~bo2li/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-077-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-077-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-b5a3d79c326273",
+      "universityId": "polyu",
+      "name": "LI Jing Amelia",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "natural language processing (NLP)",
+        "social computing",
+        "machine learning",
+        "topic modeling",
+        "information extraction",
+        "discourse analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-078-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "自然语言处理"
+      ],
+      "summary": "研究自然语言处理、社会计算与机器学习，涉及主题建模、信息抽取和篇章分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-078-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/5917b004-e3b4-4bea-86d0-ff6c025cb67a",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-078-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~jing1li/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-078-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-078-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-48bf4e7876542e",
+      "universityId": "polyu",
+      "name": "LIU Yan Fiona",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "brain modeling and cognitive computing",
+        "image/video retrieval",
+        "computer music",
+        "machine learning",
+        "pattern recognition"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-079-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "生物医学与健康",
+        "计算机音乐与音频"
+      ],
+      "summary": "研究脑建模与认知计算、图像和视频检索、计算机音乐、机器学习及模式识别。",
+      "sourceIds": [
+        "polyu-fcms-profile-079-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/bb89812c-8bcb-4c3b-87bf-39dc2927e590",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-079-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csyliu/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-079-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-079-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-82aba99a9319bc",
+      "universityId": "polyu",
+      "name": "LIU Yang Veronica",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+      "directoryRole": "Associate Professor, Presidential Young Scholar",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "machine learning",
+        "federated learning",
+        "trustworthy AI",
+        "statistical mechanics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-080-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数学与统计"
+      ],
+      "summary": "研究机器学习、联邦学习、可信AI与统计力学，并关注产业应用。",
+      "sourceIds": [
+        "polyu-fcms-profile-080-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d7f403b1-6b8a-4288-9e60-005011f35e44",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-080-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/site/yangliuveronica/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-080-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-080-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-115a6a10d93d58",
+      "universityId": "polyu",
+      "name": "LOU Wei",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "wireless networking",
+        "wireless ad hoc and sensor networks",
+        "peer to peer networks",
+        "mobile computing",
+        "computer networks"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-081-20261027"
+      ],
+      "topics": [
+        "网络与系统"
+      ],
+      "summary": "研究无线网络、自组织和传感器网络、对等网络及移动计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-081-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/21d31b3f-922c-4649-9b3c-e9053aec2238",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-081-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csweilou",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-081-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-081-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-4867fcb0e644c7",
+      "universityId": "polyu",
+      "name": "NGAI Grace",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "human-centered computing",
+        "Human-Computer Interaction (HCI)",
+        "Affective Computing",
+        "computational linguistics",
+        "statistical natural language processing",
+        "computing education",
+        "educational technology"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-082-20261027"
+      ],
+      "topics": [
+        "自然语言处理",
+        "数学与统计",
+        "人机交互",
+        "教育学"
+      ],
+      "summary": "研究以人为中心的计算、人机交互、情感计算与自然语言处理，也关注计算机教育和教育技术。",
+      "sourceIds": [
+        "polyu-fcms-profile-082-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/37caf2f8-c847-450c-ab01-273f7ed17fed",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-082-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csgngai",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-082-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-082-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-f9983005e2973c",
+      "universityId": "polyu",
+      "name": "PEI Yu Max",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "high quality software systems",
+        "automatically test and repair software systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-083-20261027"
+      ],
+      "topics": [
+        "软件工程与编程语言"
+      ],
+      "summary": "公开简介围绕软件质量，提出自动测试与修复软件系统的研究方向。",
+      "sourceIds": [
+        "polyu-fcms-profile-083-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/efe2a3ff-eef9-45d3-8ab7-c67bbfa00994",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-083-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~csypei/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-083-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-083-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-c852470416babf",
+      "universityId": "polyu",
+      "name": "SHI Jieming",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "big data analytics",
+        "databases",
+        "machine learning",
+        "large-scale graph algorithms",
+        "graph mining and learning",
+        "GPU parallel computing",
+        "heterogeneous data management"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-084-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数据挖掘",
+        "数据库与数据系统"
+      ],
+      "summary": "研究大数据分析、数据库与机器学习，涉及大规模图算法、图挖掘、GPU并行计算和异构数据管理。",
+      "sourceIds": [
+        "polyu-fcms-profile-084-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/61691c5a-1a29-4b2f-b80b-26f0222cbe7c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-084-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~jiemshi/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-084-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-084-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-88c4f19aabb397",
+      "universityId": "polyu",
+      "name": "WANG Qixin",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "cyber-physical systems",
+        "real-time/embedded systems/networks",
+        "industrial control",
+        "medicine",
+        "assisted living"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-085-20261027"
+      ],
+      "topics": [
+        "机器人与控制"
+      ],
+      "summary": "研究信息物理系统、实时与嵌入式系统和网络，涉及工业控制、医疗与辅助生活。",
+      "sourceIds": [
+        "polyu-fcms-profile-085-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/3275a0b6-b451-4274-a95c-872b0ea4ee83",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-085-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csqwang",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-085-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-085-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ed66ea18769971",
+      "universityId": "polyu",
+      "name": "YANG Bo",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "machine learning",
+        "computer vision",
+        "robotics",
+        "real 3D world"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-086-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "机器人与控制"
+      ],
+      "summary": "研究机器学习、计算机视觉与机器人，关注对真实三维世界的理解与交互。",
+      "sourceIds": [
+        "polyu-fcms-profile-086-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/96e6f077-306e-49a4-b915-a75d2199d7e0",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-086-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://yang7879.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-086-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-086-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-128cdc07819ef2",
+      "universityId": "polyu",
+      "name": "YANG Lei Ray",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "backscatter",
+        "mobile computing",
+        "radio frequency identification"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-087-20261027"
+      ],
+      "topics": [
+        "网络与系统"
+      ],
+      "summary": "研究反向散射、移动计算与射频识别。",
+      "sourceIds": [
+        "polyu-fcms-profile-087-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/b6d3d070-eeba-477f-9e6f-4c0f2b0006cd",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-087-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~csyanglei/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-087-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-087-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3777fc2789c226",
+      "universityId": "polyu",
+      "name": "FAN Wenqi",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Recommender Systems",
+        "Large Language Models",
+        "Agentic AI",
+        "Trustworthy AI",
+        "Graph Machine Learning",
+        "Multimodal Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-088-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理",
+        "数据挖掘"
+      ],
+      "summary": "研究推荐系统、大语言模型、智能体AI、可信AI、图机器学习与多模态学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-088-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/49cc0aa3-a13c-4d42-a43e-4397b7f4f8b3",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-088-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://wenqifan03.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-088-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-088-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6361a4a0770ac9",
+      "universityId": "polyu",
+      "name": "GAO Shang Jason",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "information security",
+        "network security",
+        "data privacy",
+        "blockchain security",
+        "applied cryptography"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-089-20261027"
+      ],
+      "topics": [
+        "网络安全"
+      ],
+      "summary": "研究信息与网络安全、数据隐私、区块链安全及应用密码学。",
+      "sourceIds": [
+        "polyu-fcms-profile-089-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/6609ad6b-c6bc-4268-a020-95088ef6c81c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-089-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www4.comp.polyu.edu.hk/~shanggao/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-089-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-089-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6ba7e27c979c24",
+      "universityId": "polyu",
+      "name": "GUO Jingcai",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI Efficiency",
+        "Edge-native AI",
+        "learning",
+        "deployment",
+        "inference",
+        "adaptation"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-090-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "数学与统计"
+      ],
+      "summary": "研究高效AI与边缘原生AI，关注受限数据和算力下的学习、部署、推理与适应。",
+      "sourceIds": [
+        "polyu-fcms-profile-090-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d2b17a46-116f-42c4-92ec-829a22fdb971",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-090-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://jingcaiguo.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-090-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-090-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-693d602de0fb07",
+      "universityId": "polyu",
+      "name": "LI Chen Richard",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Human-centred computing",
+        "virtual and augmented reality",
+        "learning experiences",
+        "human–AI collaboration",
+        "Health & wellbeing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-158-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "生物医学与健康",
+        "人机交互",
+        "计算机图形学",
+        "教育学"
+      ],
+      "summary": "研究以人为中心的计算，关注虚拟与增强现实、包容性学习、人机协作及健康福祉。",
+      "sourceIds": [
+        "polyu-fcms-profile-091-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-158-20261027",
+        "polyu-fcms-linked-157-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f4a246ef-846f-4c0e-b8b2-4cf213188e0f",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-091-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-157-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://lichenrichard.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-091-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-158-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-091-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-61814d6de802c7",
+      "universityId": "polyu",
+      "name": "LIN Wanyu",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "machine learning algorithms for graph-structured data"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-092-20261027"
+      ],
+      "topics": [
+        "机器学习"
+      ],
+      "summary": "研究面向图结构数据的机器学习算法。",
+      "sourceIds": [
+        "polyu-fcms-profile-092-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/df3e38c4-413f-4a7f-a856-8fe4dd5c4b6c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-092-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://wanyu-lin.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-092-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-092-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-36e71866f57488",
+      "universityId": "polyu",
+      "name": "LIU Ninghao",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Explainable AI (XAI)",
+        "Large Foundation Models",
+        "Graph Mining",
+        "Model Fairness",
+        "Recommender Systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-093-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "数据挖掘"
+      ],
+      "summary": "研究可解释AI、基础模型、图挖掘、模型公平性与推荐系统。",
+      "sourceIds": [
+        "polyu-fcms-profile-093-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d9596b7a-ef71-43c5-93ac-7eedef70d326",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-093-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://ninghaohello.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-093-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-093-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-0f7a163d4d0198",
+      "universityId": "polyu",
+      "name": "LIU Yu",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "edge computing and networks",
+        "low-Earth orbit satellite networks",
+        "online algorithm design",
+        "distributed quantum computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-094-20261027"
+      ],
+      "topics": [
+        "网络与系统",
+        "物理与化学"
+      ],
+      "summary": "研究边缘计算与网络、低轨卫星网络、在线算法及分布式量子计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-094-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/82aff6ac-502a-43c9-b510-1680e333f10b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-094-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~liuyu/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-094-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-094-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-0283b412c4763f",
+      "universityId": "polyu",
+      "name": "NG Hiu Fung Peter",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "artificial intelligence and game development",
+        "player behavior analysis",
+        "data analysis",
+        "interactive design"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-095-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "人机交互",
+        "设计与创意"
+      ],
+      "summary": "研究AI与游戏开发，并涉及玩家行为、数据分析及交互设计。",
+      "sourceIds": [
+        "polyu-fcms-profile-095-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-165-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/3a96ddd4-11e5-4e68-aab1-b43e1bf6faef",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-095-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-165-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "http://goo.gl/7zB6Os",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-095-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-095-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ab65b389795d93",
+      "universityId": "polyu",
+      "name": "QIN Haotong",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+      "directoryRole": "Assistant Professor, Presidential Young Scholar",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI efficiency",
+        "model compression",
+        "efficient architectures and inference",
+        "hardware-aware deployment"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-096-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "数学与统计"
+      ],
+      "summary": "研究AI效率、模型压缩、高效架构与推理，以及面向硬件的部署。",
+      "sourceIds": [
+        "polyu-fcms-profile-096-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/0727b81e-9c32-4afc-a8a3-c82a00554dd7",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-096-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://htqin.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-096-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-096-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-cb1fff4718e4f3",
+      "universityId": "polyu",
+      "name": "SHEN Yu",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "permissionless consensus",
+        "clock synchronization",
+        "transaction order fairness",
+        "front-running attacks",
+        "DeFi"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-097-20261027"
+      ],
+      "topics": [
+        "网络安全"
+      ],
+      "summary": "研究无许可共识、时钟同步、交易排序公平性，以及去中心化金融中的抢先交易防护。",
+      "sourceIds": [
+        "polyu-fcms-profile-097-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/14dc718a-559b-4d46-aab6-7bb72cabeef3",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-097-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://shenyu-official.icu/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-097-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-097-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-169b25f6955dbf",
+      "universityId": "polyu",
+      "name": "WU Yujie",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+      "directoryRole": "Assistant Professor, Presidential Young Scholar",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "brain-inspired artificial intelligence",
+        "computational neuroscience",
+        "machine learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-098-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "生物医学与健康"
+      ],
+      "summary": "研究脑启发AI、计算神经科学与机器学习，关注神经科学和AI的交叉。",
+      "sourceIds": [
+        "polyu-fcms-profile-098-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/546fb0fd-dcbd-4f99-b282-15d9534ad62c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-098-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-098-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-d96f264d985a91",
+      "universityId": "polyu",
+      "name": "XU Songlin",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Human-AI Integration",
+        "Human-AI Alignment",
+        "AIoT for Health",
+        "Science of Science"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-173-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络与系统",
+        "生物医学与健康",
+        "人机交互",
+        "人文与社会科学"
+      ],
+      "summary": "研究人类与AI的结合和对齐、面向健康的智能物联网，以及数据驱动的科学研究。",
+      "sourceIds": [
+        "polyu-fcms-profile-099-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-173-20261027",
+        "polyu-fcms-linked-172-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/387eaeb8-cf63-4646-acf4-9b3c478c2a0e",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-099-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-172-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://songlinxu.com ",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-099-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-173-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-099-20261027"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人页分别写PhD、MPhil和MSc",
+          "text": "个人页列PhD、MPhil、MSc及访问等机会，建议提供CV、成绩与研究经历；未标具体入学轮次。不同学位分别核对，老师愿意交流不等于正式录取或资助。",
+          "sourceIds": [
+            "polyu-fcms-linked-173-20261027"
+          ],
+          "degrees": [
+            "PhD",
+            "MPhil"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-fcms-e4e921fc8f0b7d",
+      "universityId": "polyu",
+      "name": "ZHANG Chen Jason",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Crowdsourcing",
+        "Fintech",
+        "Machine Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-100-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "金融与精算"
+      ],
+      "summary": "研究众包、金融科技与机器学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-100-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/327b9082-667f-43eb-8b7b-8553725326e4",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-100-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-100-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3244a94a4b9794",
+      "universityId": "polyu",
+      "name": "ZHOU Kai",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI Security",
+        "Adversarial Graph Learning",
+        "AI Agent Security",
+        "AI for Security"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-176-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络安全"
+      ],
+      "summary": "研究AI安全、对抗图学习、智能体安全，以及将AI用于安全问题的方法。",
+      "sourceIds": [
+        "polyu-fcms-profile-101-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-176-20261027",
+        "polyu-fcms-linked-175-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/b8bf1cfa-f996-4af4-ba9d-d6c13b8eedf1",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-101-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-175-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~kaizhou/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-101-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-176-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-101-20261027"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人页的博士与研究助理机会",
+          "text": "个人页提到博士、研究助理和博士后；也愿意与在校硕士或本科生合作。合作不等于MPhil招生，未注明当前入学轮次和实时余位。",
+          "sourceIds": [
+            "polyu-fcms-linked-176-20261027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-fcms-806cc47bcf816a",
+      "universityId": "polyu",
+      "name": "CHANG Yijia",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "homomorphic encryption",
+        "threshold cryptography",
+        "provable AI security"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-102-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络安全"
+      ],
+      "summary": "研究同态加密、门限密码学与可证明的AI安全。",
+      "sourceIds": [
+        "polyu-fcms-profile-102-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://scholar.google.com.hk/citations?user=mzBg5sMAAAAJ",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-102-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-102-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-7751ab15ed0e87",
+      "universityId": "polyu",
+      "name": "CHEN Long",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "networked systems for efficient AI and Space AI",
+        "embodied intelligence for space environments and satellite networks"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-103-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器人与控制",
+        "网络与系统",
+        "环境与可持续发展"
+      ],
+      "summary": "研究支持高效AI与空间AI的网络系统，关注空间环境及卫星网络中的具身智能。",
+      "sourceIds": [
+        "polyu-fcms-profile-103-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/83f95cc8-9317-4987-83b9-be80c3f1c5cf",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-103-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=iDxfFUkAAAAJ&hl=zh-CN",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-103-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次未取得可用正文，原链接保留待核。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-103-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-9817a66b8b4c37",
+      "universityId": "polyu",
+      "name": "DI Yining",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "data mining",
+        "knowledge engineering",
+        "multimodal data fusion",
+        "generative AI systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-104-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "数据挖掘"
+      ],
+      "summary": "研究数据挖掘、领域知识工程与多模态数据融合，探索生成式AI在工业和民用场景中的决策支持。",
+      "sourceIds": [
+        "polyu-fcms-profile-104-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/92e9f460-3300-4470-9e3a-13c603b39ab7",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-104-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-104-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ea6120b541cd32",
+      "universityId": "polyu",
+      "name": "HE Chenhang",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "3D computer vision",
+        "point cloud processing",
+        "object detection and segmentation"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-105-20261027"
+      ],
+      "topics": [
+        "计算机视觉",
+        "网络与系统"
+      ],
+      "summary": "研究三维计算机视觉、点云处理、目标检测与分割。",
+      "sourceIds": [
+        "polyu-fcms-profile-105-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ef824592-0eb2-4355-a5d1-0c2b55cf8f90",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-105-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://skyhehe123.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-105-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-105-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-c658ca415d5156",
+      "universityId": "polyu",
+      "name": "HE Ningyu",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "blockchain security",
+        "program analysis",
+        "WebAssembly Security"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-106-20261027"
+      ],
+      "topics": [
+        "软件工程与编程语言",
+        "网络安全"
+      ],
+      "summary": "研究区块链安全、程序分析与WebAssembly安全。",
+      "sourceIds": [
+        "polyu-fcms-profile-106-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/08c5dabf-5d1a-490f-9008-5edf5e35263f",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-106-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://ningyu-he.notion.site/Ningyu-s-Homepage-74990eabecda4c5b9cd0e90762ebc7a9?pvs=4",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-106-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-106-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-4e0de520141d32",
+      "universityId": "polyu",
+      "name": "HU Zhejing",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "generative AI",
+        "computer music",
+        "computational creativity",
+        "affective computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-107-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "人机交互",
+        "计算机音乐与音频",
+        "设计与创意"
+      ],
+      "summary": "研究生成式AI、计算机音乐、计算创造力与情感计算的交叉。",
+      "sourceIds": [
+        "polyu-fcms-profile-107-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/75a79600-975e-4fb1-aeff-0b89f0b4e8d7",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-107-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://hu-music.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-107-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-107-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-e8b91f50c1a0e9",
+      "universityId": "polyu",
+      "name": "JIANG Qinhong",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "security and privacy",
+        "IoT",
+        "embedded",
+        "embodied intelligence systems",
+        "hardware-software co-design"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-108-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "网络与系统",
+        "软件工程与编程语言",
+        "网络安全"
+      ],
+      "summary": "研究信息物理交互带来的安全与隐私问题，关注物联网、嵌入式和具身智能系统的软硬件协同防护。",
+      "sourceIds": [
+        "polyu-fcms-profile-108-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://jackjiang313.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-108-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-108-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-582050f7ae326c",
+      "universityId": "polyu",
+      "name": "LI Haoyang",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "data management",
+        "data-driven machine learning",
+        "security",
+        "large language models"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-109-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "自然语言处理",
+        "网络安全",
+        "数据库与数据系统"
+      ],
+      "summary": "研究数据管理、数据驱动机器学习、安全与大语言模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-109-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/bd2cb796-7073-4f6e-a121-0752204fcb5d",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-109-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://refrainlhy.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-109-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-109-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-49801cd761b2ba",
+      "universityId": "polyu",
+      "name": "LI Yongqi",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "natural language processing",
+        "information retrieval",
+        "multimedia computing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-110-20261027"
+      ],
+      "topics": [
+        "自然语言处理",
+        "数据库与数据系统"
+      ],
+      "summary": "研究自然语言处理、信息检索与多媒体计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-110-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/b18dec7a-dce6-402c-acdd-3107a04327c0",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-110-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://liyongqi67.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-110-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-110-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-c0ca014f6d3570",
+      "universityId": "polyu",
+      "name": "LI Zecheng",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "blockchain security",
+        "smart contract security",
+        "trusted execution environment"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-111-20261027"
+      ],
+      "topics": [
+        "网络安全",
+        "环境与可持续发展"
+      ],
+      "summary": "研究区块链、智能合约安全与可信执行环境。",
+      "sourceIds": [
+        "polyu-fcms-profile-111-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e9c3a1a6-e5d0-4992-9f8b-8343825d16c1",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-111-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://archi-cszcli.github.io/homepage/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-111-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-111-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-27446adea9e33c",
+      "universityId": "polyu",
+      "name": "LU Xingye",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "applied cryptography",
+        "post-quantum cryptography",
+        "blockchain security"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-112-20261027"
+      ],
+      "topics": [
+        "网络安全",
+        "物理与化学"
+      ],
+      "summary": "研究应用密码学、后量子密码学与区块链安全。",
+      "sourceIds": [
+        "polyu-fcms-profile-112-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/a9c33c8c-c0d6-42d9-b48b-b8c1b66a498f",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-112-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://cassieluxy.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-112-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-112-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-55c17427bc1ff3",
+      "universityId": "polyu",
+      "name": "NI Minheng",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "large multimodal models",
+        "responsible AI",
+        "multimodal reasoning",
+        "AI for social science"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-197-20261027"
+      ],
+      "topics": [
+        "人工智能"
+      ],
+      "summary": "研究大型多模态模型的推理与认知、负责任AI，以及AI在社会科学中的应用。",
+      "sourceIds": [
+        "polyu-fcms-profile-113-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-197-20261027",
+        "polyu-fcms-linked-196-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d5e0bcee-c0c4-4958-9932-33ea2451e9d8",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-113-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-196-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://kodenii.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-113-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-197-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-113-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-dc6a657cb57f73",
+      "universityId": "polyu",
+      "name": "SHENG Xihua",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "image and video coding",
+        "processing",
+        "visual intelligence"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-114-20261027"
+      ],
+      "topics": [
+        "计算机视觉"
+      ],
+      "summary": "研究图像与视频的编码、处理和视觉智能。",
+      "sourceIds": [
+        "polyu-fcms-profile-114-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://xhsheng-ustc.github.io/info/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-114-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-114-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-1b7882bb05c71d",
+      "universityId": "polyu",
+      "name": "SIN Ping Tat Zackary",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "metaverse",
+        "computer graphics",
+        "human-computer interaction",
+        "neural rendering",
+        "generative AI"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-115-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "人机交互",
+        "计算机图形学"
+      ],
+      "summary": "研究元宇宙、计算机图形学与人机交互，涉及神经渲染和生成式AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-115-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/013c82f5-2aa6-4935-aaa0-799a7a4026ec",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-115-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://zackarysin.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-115-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-115-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3bcd31170624cb",
+      "universityId": "polyu",
+      "name": "WANG Xiangmeng",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "trustworthy artificial intelligence",
+        "data analysis",
+        "causal machine learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-116-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "研究可信AI、数据分析与因果机器学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-116-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/36f41b9b-8a0e-41bf-8231-5018dd5bf12f",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-116-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://chrystalii.github.io/ ",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-116-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-116-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-1b51239df92105",
+      "universityId": "polyu",
+      "name": "WEN Zhiyuan",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "personality and emotion",
+        "LLM-based dialog systems",
+        "conversational AI"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-117-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "自然语言处理"
+      ],
+      "summary": "研究把人格与情绪信息融入大语言模型对话系统，以改进会话式AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-117-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/7735516e-bb93-4544-8655-70b15a207d8b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-117-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://preke.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-117-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-117-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-edafe46fe7175d",
+      "universityId": "polyu",
+      "name": "XIA Xianjin",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Internet of Things (IoT)",
+        "Wireless Communication",
+        "Low-Power Wide-Area Networks (LPWANs)",
+        "Mobile Computing",
+        "Localization"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-118-20261027"
+      ],
+      "topics": [
+        "网络与系统"
+      ],
+      "summary": "研究物联网、无线通信、低功耗广域网络、移动计算与定位。",
+      "sourceIds": [
+        "polyu-fcms-profile-118-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d2232148-190d-40d8-b573-2104639ffc8a",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-118-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://csxxia.github.io/site/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-118-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-118-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-519864a56c9b2d",
+      "universityId": "polyu",
+      "name": "ZHANG Jia",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI for education",
+        "computer networks",
+        "transport-layer optimization",
+        "routing security",
+        "generative AI",
+        "learning analytics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-119-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络与系统",
+        "理论与优化",
+        "网络安全",
+        "教育学"
+      ],
+      "summary": "研究教育AI和计算机网络，涉及传输层优化、路由安全、生成式AI与学习分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-119-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/2df1a0c0-b710-40bb-9965-e819aafdafdc",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-119-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://joycezhangjia.github.io",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-119-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-119-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-741b4677651eff",
+      "universityId": "polyu",
+      "name": "ZHANG Li",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "embodied intelligence",
+        "computer vision",
+        "multimodal intelligence",
+        "vision-tactile perception",
+        "decision-making",
+        "robotic manipulation"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-120-20261027"
+      ],
+      "topics": [
+        "计算机视觉",
+        "机器人与控制"
+      ],
+      "summary": "研究具身智能、计算机视觉与多模态智能，关注视觉触觉感知、决策和机器人操作。",
+      "sourceIds": [
+        "polyu-fcms-profile-120-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zanly20.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-120-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-120-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-27c0ad95aec122",
+      "universityId": "polyu",
+      "name": "ZHANG Mingjin",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "edge computing",
+        "collaborative edge AI",
+        "IoT",
+        "distributed machine learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-121-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "网络与系统"
+      ],
+      "summary": "研究边缘计算、协同边缘AI、物联网与分布式机器学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-121-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e13450af-c550-447e-beb7-4ddb566ff131",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-121-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-121-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-4a324fec1f4b1e",
+      "universityId": "polyu",
+      "name": "ZHANG Zhaorui",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI systems (MLSys)",
+        "computing platforms",
+        "distributed",
+        "cloud",
+        "HPC",
+        "IoT",
+        "AIoT",
+        "quantum and photonic platforms"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-122-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络与系统",
+        "物理与化学"
+      ],
+      "summary": "研究AI系统的构建与优化，涉及分布式、云端、高性能、物联网及量子与光子计算平台。",
+      "sourceIds": [
+        "polyu-fcms-profile-122-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/bdf3ead0-724a-48af-9b3c-38361de7b653",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-122-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://zhaorui-zhang.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-122-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-122-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-bbf81cfc003ffb",
+      "universityId": "polyu",
+      "name": "ZHENG Changmeng",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "multimodal learning",
+        "social media analytics",
+        "knowledge graph",
+        "large language models"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-123-20261027"
+      ],
+      "topics": [
+        "自然语言处理",
+        "数据库与数据系统"
+      ],
+      "summary": "研究多模态学习、社交媒体分析、知识图谱与大语言模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-123-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/3b178313-8142-4192-8f3d-5d8a7ad86e70",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-123-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://thecharm.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-123-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-123-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6420acda955791",
+      "universityId": "polyu",
+      "name": "ZHOU Alexander",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "social science-driven design for databases",
+        "social networks and community structures",
+        "graph data"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-124-20261027"
+      ],
+      "topics": [
+        "数据库与数据系统",
+        "人文与社会科学"
+      ],
+      "summary": "研究社会科学驱动的数据库设计，关注社交网络、社区结构及图数据问题。",
+      "sourceIds": [
+        "polyu-fcms-profile-124-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e66f63dd-3834-4b9a-9c72-196dae739bcd",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-124-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://atzhou.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-124-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-124-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-246410691fcc35",
+      "universityId": "polyu",
+      "name": "ZHOU Hao",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Mobile Systems Security",
+        "Operating Systems Security",
+        "Malware Analysis",
+        "Program Analysis",
+        "Blockchain"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-125-20261027"
+      ],
+      "topics": [
+        "网络与系统",
+        "软件工程与编程语言",
+        "网络安全"
+      ],
+      "summary": "研究移动和操作系统安全、恶意软件分析、程序分析与区块链。",
+      "sourceIds": [
+        "polyu-fcms-profile-125-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/796a542e-ae88-41bb-8b10-722919249a60",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-125-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://moonzhh.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-125-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-125-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-b048522a50632a",
+      "universityId": "polyu",
+      "name": "CHUN Andy",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+      "directoryRole": "Professor of Practice",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "digital innovation",
+        "emerging technologies",
+        "AI"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-219-20261027"
+      ],
+      "topics": [
+        "人工智能"
+      ],
+      "summary": "公开简介以AI应用、数字创新与新兴技术为主要实践方向；页面列实践教授任职，研究型学位指导安排仍需核对。",
+      "sourceIds": [
+        "polyu-fcms-profile-126-20261027",
+        "polyu-fcms-directory-comp-20261027",
+        "polyu-fcms-linked-219-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~hwchun/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-126-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-219-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-126-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ed007259a39c93",
+      "universityId": "polyu",
+      "name": "WEI Xiaoyong",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+      "directoryRole": "Professor of Practice",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Multimedia Computing",
+        "Health Computing",
+        "Machine Learning",
+        "Large-Scale Data Mining"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-127-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数据挖掘",
+        "生物医学与健康"
+      ],
+      "summary": "研究多媒体计算、健康计算、机器学习与大规模数据挖掘。",
+      "sourceIds": [
+        "polyu-fcms-profile-127-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www4.comp.polyu.edu.hk/~x1wei/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-127-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-127-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-d3751328e05e70",
+      "universityId": "polyu",
+      "name": "LEONG Hong Va",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "distributed systems",
+        "distributed databases",
+        "mobile computing",
+        "parallel programming",
+        "geographical information systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-129-20261027"
+      ],
+      "topics": [
+        "网络与系统",
+        "数据库与数据系统"
+      ],
+      "summary": "研究分布式系统与数据库、移动计算，以及并行编程和地理信息系统中的相关应用。",
+      "sourceIds": [
+        "polyu-fcms-profile-129-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/55e9e8c7-e8c8-4945-9299-f7ad074d1c66",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-129-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "http://www.comp.polyu.edu.hk/~cshleong/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-129-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "官网给的是HTTP原网址，本次保留待核，没有猜改HTTPS。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-129-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-7d08330b789da2",
+      "universityId": "polyu",
+      "name": "MOHAMMED Aquil Mirza",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "robotics",
+        "surgical applications",
+        "construction robots",
+        "wireless and complex networks",
+        "underwater communications"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-131-20261027"
+      ],
+      "topics": [
+        "机器人与控制",
+        "网络与系统",
+        "生物医学与健康"
+      ],
+      "summary": "研究和教学涉及手术与建筑机器人，也关注水下通信中的无线和复杂网络。",
+      "sourceIds": [
+        "polyu-fcms-profile-131-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://aquil.uk",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-131-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-131-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-490b5b72d8e4d0",
+      "universityId": "polyu",
+      "name": "LAI Lotto",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "quality & innovation management",
+        "testing and certification (T&C)",
+        "AI Innovation by Extenics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-132-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "经济与管理"
+      ],
+      "summary": "公开简介主要涉及质量与创新管理、检测认证和可拓学AI创新；研究型指导安排待核。",
+      "sourceIds": [
+        "polyu-fcms-profile-132-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-132-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-753eddf54a2ccd",
+      "universityId": "polyu",
+      "name": "PANG Wai Man Raymond",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "computer vision",
+        "graphics",
+        "multimedia",
+        "machine learning",
+        "metaverse technologies"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-133-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "计算机图形学"
+      ],
+      "summary": "研究与开发方向包括计算机视觉、图形、多媒体、机器学习及元宇宙技术。",
+      "sourceIds": [
+        "polyu-fcms-profile-133-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-133-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-b495bed5dab568",
+      "universityId": "polyu",
+      "name": "TANG Kai Tai Jeff",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "artificial intelligence",
+        "pattern recognition",
+        "computer graphics",
+        "interactive design",
+        "metaverse technologies",
+        "natural language processing",
+        "autonomous driving technologies"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-134-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "自然语言处理",
+        "人机交互",
+        "计算机图形学",
+        "设计与创意"
+      ],
+      "summary": "研究AI、模式识别、计算机图形学、交互设计、元宇宙、自然语言处理与自动驾驶。",
+      "sourceIds": [
+        "polyu-fcms-profile-134-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://web.comp.polyu.edu.hk/kttang/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-134-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-134-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3f17c384ca4c8e",
+      "universityId": "polyu",
+      "name": "TAYYAB Muhammad",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "IoT",
+        "Embedded Systems",
+        "Programming languages",
+        "computer networks"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-135-20261027"
+      ],
+      "topics": [
+        "网络与系统",
+        "软件工程与编程语言"
+      ],
+      "summary": "研究物联网、嵌入式系统、编程语言与计算机网络。",
+      "sourceIds": [
+        "polyu-fcms-profile-135-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-135-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-551357bd432130",
+      "universityId": "polyu",
+      "name": "XIE Hongcheng",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+      "directoryRole": "Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Big-Data Security",
+        "Network Security",
+        "AI Security"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-136-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "网络安全"
+      ],
+      "summary": "研究大数据安全、网络安全与AI安全。",
+      "sourceIds": [
+        "polyu-fcms-profile-136-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-136-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ccb3dd60940957",
+      "universityId": "polyu",
+      "name": "LAM Alexander",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+      "directoryRole": "Teaching Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "theoretical computer science",
+        "mathematical social sciences",
+        "algorithmic game theory"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-137-20261027"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计",
+        "人文与社会科学"
+      ],
+      "summary": "研究理论计算机科学、数学社会科学与算法博弈论。",
+      "sourceIds": [
+        "polyu-fcms-profile-137-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-137-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-eb6bffe7a901be",
+      "universityId": "polyu",
+      "name": "LYU Mingsong",
+      "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/",
+      "department": "计算与数学科学学院 · 计算学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/",
+      "directoryRole": "Teaching Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "green computing in IoT and real-time systems"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-138-20261027"
+      ],
+      "topics": [
+        "网络与系统",
+        "环境与可持续发展"
+      ],
+      "summary": "研究物联网和实时系统中的绿色计算。",
+      "sourceIds": [
+        "polyu-fcms-profile-138-20261027",
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-comp-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-138-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-0646707b6d8fba",
+      "universityId": "polyu",
+      "name": "TAN Kay Chen",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+      "directoryRole": "Head and Chair Professor of Computational Intelligence",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Artificial Intelligence",
+        "Evolutionary Computation",
+        "Machine Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-139-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "研究人工智能、进化计算与机器学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-139-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ed2322f1-7adf-4541-b83d-c5510f44f5db",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-139-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-139-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ff9b40c7f9e14b",
+      "universityId": "polyu",
+      "name": "CHENG Ran",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+      "directoryRole": "Associate Head (Outreach and Partnership), Associate Professor, Presidential Young Scholar",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Evolutionary Computation",
+        "AI Systems",
+        "Physical AI"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-140-20261027"
+      ],
+      "topics": [
+        "人工智能"
+      ],
+      "summary": "研究进化计算、AI系统和物理AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-140-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f9268c1b-304f-42f7-a3ae-3a40943abb46",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-140-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://chengran.tech/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-140-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-140-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-6878c2aaf503ce",
+      "universityId": "polyu",
+      "name": "JIANG Binyan",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+      "directoryRole": "Associate Head (Teaching) and Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "High Dimensional Data Analysis",
+        "Network Data Analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-141-20261027"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究高维数据与网络数据的分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-141-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f850bc33-22a5-4089-86b0-30c7b96a2e47",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-141-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/site/binyanj",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-141-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-141-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-fe2e16007b71d7",
+      "universityId": "polyu",
+      "name": "KUMAR Ajay",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+      "directoryRole": "Associate Head (Research) and Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Biometrics",
+        "Cybersecurity",
+        "Authentication",
+        "Identity Science",
+        "Data Forensics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-142-20261027"
+      ],
+      "topics": [
+        "网络安全"
+      ],
+      "summary": "研究生物特征识别、网络安全、身份认证与数据取证。",
+      "sourceIds": [
+        "polyu-fcms-profile-142-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/20833075-b768-498b-97df-0f83b9615f70",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-142-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://web.comp.polyu.edu.hk/csajaykr/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-142-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-142-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3be9363b0115f4",
+      "universityId": "polyu",
+      "name": "CAO Liangliang",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+      "directoryRole": "Chair Professor of Artificial Intelligence Systems",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Artificial Intelligence",
+        "Cloud AI",
+        "Computer Vision",
+        "Large Language Model"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-143-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "计算机视觉",
+        "自然语言处理",
+        "网络与系统"
+      ],
+      "summary": "研究人工智能、云端AI、计算机视觉与大语言模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-143-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://llcao.net/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-143-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-143-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-46f881a3808d84",
+      "universityId": "polyu",
+      "name": "LIANG Hualou",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+      "directoryRole": "ADoUBSN & Chair Professor of Neuroscience and Artificial Intelligence (joint appointment with AIH & LST)",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "dementia prediction using LLMs",
+        "early diagnosis of dementia"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-linked-235-20261027"
+      ],
+      "topics": [
+        "自然语言处理",
+        "生物医学与健康"
+      ],
+      "summary": "实验室公开的2022/2024项目涉及利用语言模型研究失智症识别；不据此推定当前招募或临床效果。",
+      "sourceIds": [
+        "polyu-fcms-profile-145-20261027",
+        "polyu-fcms-directory-dsai-20261027",
+        "polyu-fcms-linked-235-20261027",
+        "polyu-fcms-linked-234-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/7dd2f55e-78c9-4ff0-bda7-e2b13710b022",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-145-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-234-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://liang-lab.org/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-145-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-235-20261027"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-145-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-da0bf8a54e9166",
+      "universityId": "polyu",
+      "name": "YANG Qiang",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+      "directoryRole": "Chief Artificial Intelligence Officer (CAIO), Director of PolyU Academy for Artificial Intelligence (DoPAAI), Director of Research Institute for Federated Learning (DoRIFL), Chair Professor of Artificial Intelligence",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Federated Learning",
+        "Transfer Learning",
+        "Machine Learning",
+        "Planning and Data Mining in Artificial Intelligence"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-146-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "数据挖掘"
+      ],
+      "summary": "研究联邦学习、迁移学习、机器学习，以及AI中的规划与数据挖掘。",
+      "sourceIds": [
+        "polyu-fcms-profile-146-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/qiang-yang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-146-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-146-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-146-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-8bdc223c81e2b8",
+      "universityId": "polyu",
+      "name": "ZHANG Chengqi",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+      "directoryRole": "Director of The Hong Kong Polytechnic University Shenzhen Research Institute (SZRI), Chair Professor of Artificial Intelligence",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Data Mining",
+        "Artificial Intelligence"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-147-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "数据挖掘"
+      ],
+      "summary": "研究数据挖掘与人工智能。",
+      "sourceIds": [
+        "polyu-fcms-profile-147-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/chengqi-zhang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-147-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://chengqi-zhang.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-147-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-147-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-bd617bcc4dccf1",
+      "universityId": "polyu",
+      "name": "ZHANG Weixiong",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+      "directoryRole": "ADoPAIR & Chair Professor of Systems Biology and Artificial Intelligence, Hong Kong Global STEM Scholar (joint appointment with HTI)",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Genetics/Genomics",
+        "Noncoding RNA",
+        "Medical imaging",
+        "Disease study",
+        "Big data analytics",
+        "Heuristic search",
+        "constraint satisfaction",
+        "combinatorial optimization"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-148-20261027"
+      ],
+      "topics": [
+        "计算机视觉",
+        "数据挖掘",
+        "理论与优化",
+        "生物医学与健康"
+      ],
+      "summary": "研究遗传与基因组学、非编码RNA、医学影像和生物数据分析，也关注AI搜索与组合优化。",
+      "sourceIds": [
+        "polyu-fcms-profile-148-20261027",
+        "polyu-fcms-directory-dsai-20261027",
+        "polyu-fcms-linked-240-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/16e3cbde-82da-4f34-b6a0-161ff811f973",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-148-20261027",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-fcms-linked-240-20261027",
+          "readNote": "已核到所给研究档案；门户自动生成的研究指纹未作为本卡研究词或招生依据，任职范围与院系页分开看。"
+        },
+        {
+          "url": "https://genomics-in-healthcare.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-148-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-148-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-1b25b86334d915",
+      "universityId": "polyu",
+      "name": "HUA Wen",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+      "directoryRole": "Assistant Dean (Graduate Studies), Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Database",
+        "Data Mining",
+        "Deep Learning",
+        "Knowledge Graph",
+        "Spatiotemporal Data Analysis"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-151-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数据挖掘",
+        "数据库与数据系统"
+      ],
+      "summary": "研究数据库、数据挖掘、深度学习、知识图谱及时空数据分析。",
+      "sourceIds": [
+        "polyu-fcms-profile-151-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/b85f5f2c-a1f5-4211-95f8-a2e0a587d08b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-151-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://web.comp.polyu.edu.hk/wenhua/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-151-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-151-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-88a6a400dfbf83",
+      "universityId": "polyu",
+      "name": "LIU Catherine C.",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Statistical Learning",
+        "Medical Image Analysis",
+        "Functional Data Analysis",
+        "Bayesian Learning",
+        "Biostatistics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-152-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "数学与统计",
+        "生物医学与健康"
+      ],
+      "summary": "研究统计学习、医学图像分析、函数型数据、贝叶斯学习与生物统计。",
+      "sourceIds": [
+        "polyu-fcms-profile-152-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/1c592498-af5e-4be4-8a1d-dd1008cbc032",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-152-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://sites.google.com/view/catherinecliu/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-152-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-152-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-1211847c280182",
+      "universityId": "polyu",
+      "name": "WU Xiao Ming",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Artificial Intelligence",
+        "Machine Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-153-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "研究人工智能与机器学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-153-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f969fce8-9a65-4e42-821f-8801aa8545bf",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-153-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://dsai.polyu.edu.hk/profile/xiao-ming-wu/  ",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-153-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-153-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-4df3250b49324f",
+      "universityId": "polyu",
+      "name": "CHEN Zhen",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI for Healthcare",
+        "Multimodal AI",
+        "Medical Foundation Models",
+        "Surgical Intelligence"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-154-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "生物医学与健康"
+      ],
+      "summary": "研究医疗AI、多模态AI、医学基础模型与手术智能。",
+      "sourceIds": [
+        "polyu-fcms-profile-154-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://franciszchen.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-154-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-154-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-5f58335d219391",
+      "universityId": "polyu",
+      "name": "HAN Ruijian",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Ranking",
+        "Online Inference",
+        "Reinforcement Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-155-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "数学与统计"
+      ],
+      "summary": "研究排序、在线推断与强化学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-155-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/bddfdec0-63bc-4282-8d53-caeebb871d1c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-155-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/ama/profile/rjhan/index.html",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-155-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "同站较早的原链接被拒绝后，本次没有继续请求该站；未绕过拒绝。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-155-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-a7557144d96679",
+      "universityId": "polyu",
+      "name": "HUANG Jiaxing",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Artificial Intelligence",
+        "Multimodal AI",
+        "Agentic AI",
+        "Embodied AI"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-156-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器人与控制"
+      ],
+      "summary": "研究多模态、智能体与具身AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-156-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://jxhuang0508.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-156-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-156-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-9b1251da3f2dd1",
+      "universityId": "polyu",
+      "name": "LI Xinfeng",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI Security and Privacy",
+        "LLM and AI Agent Security",
+        "Trustworthy AI",
+        "AI for Cybersecurity"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-157-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "自然语言处理",
+        "网络安全"
+      ],
+      "summary": "研究AI安全与隐私、大语言模型及智能体安全，以及可信AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-157-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://letterligo.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-157-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-157-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-ba019821ad7934",
+      "universityId": "polyu",
+      "name": "ROSSI Luca",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+      "directoryRole": "Assistant Professor (joint appointment with EEE)",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Graph-based Pattern Recognition",
+        "Machine Learning",
+        "Data and Network Science"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-158-20261027"
+      ],
+      "topics": [
+        "机器学习"
+      ],
+      "summary": "研究基于图的模式识别、机器学习，以及数据与网络科学。",
+      "sourceIds": [
+        "polyu-fcms-profile-158-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/7b220abb-c72d-419c-bd81-00eaa56aebaf",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-158-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://blextar.github.io/luca-rossi/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-158-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-158-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-a2450e035de85e",
+      "universityId": "polyu",
+      "name": "SONG Zixing",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+      "directoryRole": "Assistant Professor, Presidential Young Scholar",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Graph Machine Learning",
+        "Large Language Models",
+        "Deep Generative Models",
+        "AI4Science"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-159-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理"
+      ],
+      "summary": "研究图机器学习、大语言模型、深度生成模型，以及面向科学的AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-159-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://aizxsong.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-159-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-159-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-cba8355bc0c2b2",
+      "universityId": "polyu",
+      "name": "WU Jibin",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Neuromorphic Computing",
+        "Speech Processing"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-160-20261027"
+      ],
+      "topics": [
+        "自然语言处理",
+        "计算机音乐与音频"
+      ],
+      "summary": "主要研究类脑计算与语音处理；原页另有未完整展开的研究词，需继续核对。",
+      "sourceIds": [
+        "polyu-fcms-profile-160-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/73418390-b38b-4779-8b6d-b83cbee33fd0",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fcms-profile-160-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        },
+        {
+          "url": "https://jibinwu.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-160-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-160-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-3b0fd85f7378c1",
+      "universityId": "polyu",
+      "name": "WU Xingyu",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Machine Learning",
+        "Autonomous AI System",
+        "Causality-based Machine Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-161-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "研究机器学习、自主AI系统，以及结合因果关系的机器学习方法。",
+      "sourceIds": [
+        "polyu-fcms-profile-161-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://wuxingyu-ai.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-161-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-161-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-95231f1dabf182",
+      "universityId": "polyu",
+      "name": "YANG Xingyi",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+      "directoryRole": "Assistant Professor, Presidential Young Scholar",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Artificial intelligence",
+        "Generative AI",
+        "Multi-Modal Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-162-20261027"
+      ],
+      "topics": [
+        "人工智能"
+      ],
+      "summary": "研究生成式AI与多模态学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-162-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://adamdad.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-162-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-162-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-2c220d71b8dcc3",
+      "universityId": "polyu",
+      "name": "HU Yao",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Medical Image Analysis",
+        "Domain Adaptation",
+        "Federated Learning"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-163-20261027"
+      ],
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "生物医学与健康"
+      ],
+      "summary": "研究医学图像分析、域适应与联邦学习。",
+      "sourceIds": [
+        "polyu-fcms-profile-163-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://77yq77.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-163-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-163-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-7778021c5ee2e6",
+      "universityId": "polyu",
+      "name": "LUO Yanchen",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "AI4Science",
+        "Agent4Science",
+        "Generative Models"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-164-20261027"
+      ],
+      "topics": [
+        "人工智能"
+      ],
+      "summary": "研究面向科学的AI、科研智能体与生成模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-164-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://lyc0930.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-164-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-164-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-d5464581b79f66",
+      "universityId": "polyu",
+      "name": "FONG Chi Kit Ken",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Algorithmic Game Theory and Mechanism Design",
+        "Algorithms Design and Analysis",
+        "Combinatorial Optimization",
+        "AI in Education"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-165-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "理论与优化",
+        "教育学"
+      ],
+      "summary": "研究算法博弈与机制设计、算法分析、组合优化，以及教育中的AI。",
+      "sourceIds": [
+        "polyu-fcms-profile-165-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://ckkfong-polyu.github.io/homepage/index.html",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-165-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-165-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-b31c49a75ce57d",
+      "universityId": "polyu",
+      "name": "LIAO Weihang Ryo",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+      "directoryRole": "Teaching Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Medical Image Processing",
+        "Signal Reconstruction",
+        "Compression"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-166-20261027"
+      ],
+      "topics": [
+        "计算机视觉",
+        "生物医学与健康"
+      ],
+      "summary": "研究医学图像处理、信号重建与压缩。",
+      "sourceIds": [
+        "polyu-fcms-profile-166-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/liaowh",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-166-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-166-20261027"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fcms-453a917606561a",
+      "universityId": "polyu",
+      "name": "WANG Xiuling Lily",
+      "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/",
+      "department": "计算与数学科学学院 · 数据科学及人工智能学系",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/",
+      "directoryRole": "Teaching Fellow",
+      "identityNote": "这是名录所列的任职信息；是否可以指导你所选的学位，需要再核对对应项目。",
+      "researchKeywords": [
+        "Trustworthy AI",
+        "algorithmic fairness",
+        "privacy",
+        "robustness analysis",
+        "graph learning",
+        "federated learning",
+        "generative diffusion models",
+        "large language models"
+      ],
+      "keywordSourceIds": [
+        "polyu-fcms-profile-167-20261027"
+      ],
+      "topics": [
+        "人工智能",
+        "机器学习",
+        "自然语言处理",
+        "网络安全"
+      ],
+      "summary": "研究可信AI与数据分析，关注公平性、隐私和鲁棒性，以及图学习、联邦学习和生成模型。",
+      "sourceIds": [
+        "polyu-fcms-profile-167-20261027",
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "directorySourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "academicUnitIds": [
+        "polyu-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/xiuling-wang/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fcms-profile-167-20261027",
+          "bodyStatus": "not_read",
+          "readNote": "本次已取得公开页面，但身份和研究内容还没逐条整理；请结合院系原页继续看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "具体学位、当期接收及余位本轮未确认；个人招募自述另列。",
+        "sourceIds": [
+          "polyu-fcms-profile-167-20261027"
+        ]
+      }
     }
   ],
   "sources": [
@@ -51406,6 +60586,3665 @@ window.APP_CATALOG = {
       ],
       "readMethod": "web_reader",
       "renderedResponseSha256": "da7cf71e3b6d4231975455e6935b060673e2ddb95de1a48a7ae598dcd034e2d7"
+    },
+    {
+      "id": "polyu-fcms-directory-ama-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+      "title": "Department of Applied Mathematics · 官方师资目录",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本页Academic/Teaching Staff当前静态返回范围；其他任职分类另列，非全部研究生导师。",
+      "claims": [
+        "逐条保留本页给出的教师主页与原任职，不根据职位推断指导资格。"
+      ],
+      "bodySha256": "3ca16d3a17e43f969012bd67a513a1463a827ea8ff3f2ea724d3dfba0f5c84c6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/#skip-start",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-jian/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qi-houduo/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zachary-leung-ngai-hang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-leung-ping-kei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-directory-comp-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+      "title": "Department of Computing · 官方师资目录",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本页Academic/Teaching Staff当前静态返回范围；其他任职分类另列，非全部研究生导师。",
+      "claims": [
+        "逐条保留本页给出的教师主页与原任职，不根据职位推断指导资格。"
+      ],
+      "bodySha256": "e76e5062eb92b49664ef16b064853fa0d7c2c6bf446edf32ff9930215ee1e307",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/comp/people/academic-staff/#skip-start",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-jiannong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chung-fu-lai-korris/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-fung-sui-leung-walter/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lui-wing-cheung-richard/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-directory-dsai-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+      "title": "Department of Data Science and Artificial Intelligence · 官方师资目录",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本页Academic/Teaching Staff当前静态返回范围；其他任职分类另列，非全部研究生导师。",
+      "claims": [
+        "逐条保留本页给出的教师主页与原任职，不根据职位推断指导资格。"
+      ],
+      "bodySha256": "bc46a96bcd1ffa1630c7650d33050320cbb64683d28950fe83b123a8a093ba1b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/#skip-start",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/huangjian/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/qihouduo/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/chungkorris/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-000-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+      "title": "Prof. Sun Defeng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "bb490dc5a0be937f6a780f21b25b8cf1785a02b351faf073a141cbdf40def276",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/06f4bb40-4e5b-40b8-ab55-8fa3a2d1a8dc",
+        "https://www.polyu.edu.hk/ama/profile/dfsun/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-001-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+      "title": "Prof. Chen Xiaojun · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "a94f5538a335ab646021bc3f959fe96beb4063de65f476a87933b0540e5e1638",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/2ee4cfeb-d051-489f-a33d-eb50cc9eabaf",
+        "http://www.polyu.edu.hk/ama/staff/xjchen/ChenXJ.htm"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-002-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-jian/",
+      "title": "Prof. Huang Jian · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "254d620c46c05726b9fe69306934267eef77c38d2d5b631032e69ffa5a3d486a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/334fcc05-d900-42ac-8c3b-0009aca0e0e6",
+        "https://sites.google.com/view/prof-jian-huang"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-003-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+      "title": "Prof. Leng Chenlei · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6df61a00721f30c21528d03b34d0c75ad638307eafee869cecab6f1f96a57015",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://chenlei-leng.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-004-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+      "title": "Prof. Li Buyang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "c2941dcae23fd8247d485b99896bdf1c72e991c1846a872a5646f7290e5e4e20",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/49bb0f3e-823a-44fa-b745-cedf8e8e7124",
+        "https://www.polyu.edu.hk/ama/profile/byli/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-005-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+      "title": "Prof. Qiao Zhonghua · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "84f27087455f4ed01c53a7704b14c63230f57605785d1b86f8089a65ea058a82",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/eec3654b-559d-49fd-9b7d-ebd03137589f",
+        "https://www.polyu.edu.hk/ama/profile/zhqiao/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-006-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+      "title": "Prof. Yang Tong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4f2e9ba130e3c7d679e231024911fcc8ae8aa738dd31a7db1e810761012cf993",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/36a883ad-b943-4357-933d-e89bf251a828",
+        "https://www.polyu.edu.hk/ama/profile/tongyang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-007-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+      "title": "Prof. Cedric Yiu Ka-fai · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "9b9844d4c1c69126cd85de2678c555848d5921858726b474b8bea788e2b3031e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/a5f6f677-7dc9-49f4-94fb-ceee44a3de3b",
+        "https://www.polyu.edu.hk/ama/profile/kfyiu/personal_web/yiukafai.htm"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-008-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+      "title": "Prof. Zhao Xingqiu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f4121a535bad2fccdc27fa4af592715a89bb004da4a66accd1e03534c9fb149b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/4b8ec71d-dc3d-414b-9054-80578997e992",
+        "https://www.polyu.edu.hk/ama/profile/xqzhao"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-009-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+      "title": "Prof. Raymond Sze Nung-sing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "57a47b8636221912020bd32e931b3da1f8a5c01faef00eb1ec26ca78fe5b52f0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/67ea1c22-aa07-4ba1-be1b-f84df4f85b86",
+        "https://www.polyu.edu.hk/ama/profile/sze/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-010-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+      "title": "Prof. He Daihai · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7ff0e0d35c2fb2e11055ea6bcc674992b7304a06138c601bf3b8e612d374bd89",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e10ba41a-957d-427a-b651-f46960f4483e",
+        "https://www.polyu.edu.hk/ama/profile/dhe/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-011-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+      "title": "Prof. Hu Xianpeng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "57fe68c1f606b91667a1291c232fe3e8bd626e58711023f5e02322f7e577c5ad",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/xianpenghu/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-012-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+      "title": "Prof. Li Xun · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "2e3d21b2e7c56f2ffc7d16572915b36c86ccd75e9ba2a13fa1c7dad64a5cdd15",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d764ab62-16fe-4947-94ca-da0933ce158a",
+        "https://www.polyu.edu.hk/ama/profile/xli"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-013-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+      "title": "Prof. Lin Yanping · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "c441a9af2ae3abb788f08eed3c5405a1503114644ecf7d4f2d244a20f635e182",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/73359835-0b63-4499-93c0-fa7a780ffff5",
+        "https://www.polyu.edu.hk/ama/staff/malin/malin.htm"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-014-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+      "title": "Prof. Pong Ting-kei · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "903fa1719411482c044ae6d3c37f3f1fd34769d8782031f24d7afb0e1df0ea74",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/733a8fcf-6b9f-4487-9840-e0099c813825",
+        "https://www.polyu.edu.hk/ama/profile/pong/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-015-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qi-houduo/",
+      "title": "Prof. Qi Houduo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d4372fd8396b8672ab4780fedf32e1db5610605e12d1aad5b880a33f1754db1a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/5a20e1a0-7b37-42b7-880c-8302fc462dab",
+        "https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-016-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+      "title": "Prof. Wang Zhian · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d043a6b3a2fefe6f200ef160bb8337faead1555a234d7cb4f625906a489d41d9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/8c2998bd-1909-4f77-b5ae-f4f10c86f78e",
+        "https://www.polyu.edu.hk/ama/profile/zawang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-017-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+      "title": "Prof. Xu Zuoquan · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4235edde878343db129746fec568363ed6464d377b1e9cc13d246a2b58e6529f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/142867a9-008d-4844-995b-e786fedb0bf6",
+        "https://www.polyu.edu.hk/ama/profile/xu"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-018-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+      "title": "Prof. Yang Xiaoqi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "26286adc7ee7d9c166facc36169a945b34ed224aee1aa1e863806c5ea88a95a6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/a8c8e5df-5423-46bc-9c99-2f165ffc1807",
+        "https://www.polyu.edu.hk/ama/profile/xqyang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-019-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+      "title": "Prof. Zhang Guofeng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "93db3dc7a3cf5c9429795d9d4ccac38d73697f998198d35b02a075a9f6ff36fa",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e26d9387-f885-4185-81e3-f5f310905958",
+        "https://www.polyu.edu.hk/ama/profile/gfzhang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-020-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+      "title": "Prof. Zhou Zhi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e601ddd9b3bbd06b7c363b68260fb41de67413c07bc5575af86bec53ee6adcec",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/57579f09-7438-45ea-bd40-6b4cd27a7e49",
+        "https://sites.google.com/site/zhizhou0125/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-021-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+      "title": "Prof. Fu Guanxing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "23bacee24a6ec95fde045c6b4f1f094e4cb4b37ae06b0cd2f54c64de5da20427",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/748998e2-1678-411b-bed8-dc2e6e9a5c9d",
+        "https://sites.google.com/view/guanxfu"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-022-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+      "title": "Prof. James Huang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e235307d17ef141a214117a46edb8189e09d31771dcbbf8deb3b05dbbf48899a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/a64761d9-912f-4b75-8ae7-e6853a8789cf",
+        "https://sites.google.com/view/jianhui-huang"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-023-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+      "title": "Prof. Joseph Lee Heung-wing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ca7012a17a472829ebd14e17bf9ccdd896431f7634fb31970a42048eddefdecc",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/c791f86a-b41b-4c8d-849e-f875978cb686",
+        "https://www.polyu.edu.hk/ama/profile/hwlee/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-024-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+      "title": "Prof. Lou Yijun · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ef7c3a4788e635ba66a7c486690ceb914b7fa2675a9b0dd51b327346125ef786",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ae4fe295-8fa1-45f5-bc0c-160b798c24b8",
+        "https://www.polyu.edu.hk/ama/profile/lou/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-025-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+      "title": "Prof. Alex Wong Kin-yau · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "c3ee87fecf2c3a3469b745f1d9893ad61825ae71c388528b99402796ff7ee771",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/29411560-1b63-40cf-aa89-aa38f288edbe",
+        "https://sites.google.com/view/alexwky/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-026-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+      "title": "Prof. Yu Xiang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d0b9f52dad7f7902b53eccef919541533bd3d8028a41ef5689768c459ceec99e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/79206ca5-6dbe-48cc-835a-ad91e1b8e90c",
+        "https://sites.google.com/site/xiangyuama/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-027-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+      "title": "Prof. Yue Man-Chung · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "918a9991a70573c0d962434745c9806c3f7ad020ff03fa334c53259312a8a23e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/44d5c3d6-3bde-4bcf-b2b3-c94e5f5e2db6",
+        "https://manchungyue.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-028-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+      "title": "Prof. Cao Xinlin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1aafcd088dddceead060e434f4c112a844e25005e553903a64fd3e4467510f2b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/xlcao/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-029-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+      "title": "Prof. Chen Kexin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "a8c89ee4db1e68e16e03ce66d1b1e005a0a5b09c11d2695f004ade43a4f621d9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/878b7092-401b-4ef7-a910-aab07fc0654a",
+        "https://sites.google.com/site/nemechenkexin"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-030-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+      "title": "Prof. Cui Jianbo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d4bbdaf0af1bd0412c07ceccd8834d023de610f89c6d953f3341f2b846d81b2f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/07531e4c-9b33-4496-bc19-d9a62a1ed951",
+        "https://www.polyu.edu.hk/ama/profile/cuijb/index.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-031-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+      "title": "Prof. Hu Jiashun · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6e76f9e70c62223ea841d13e2dc0a10422ed2992e6657fb45a6f015d2c55124e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://jiashhu.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-032-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+      "title": "Prof. Huang Yilie · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6e4039da612872982352b0165288e0dd28d1170a5d07cd97ae28a21e91644c25",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://yiliehuang.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-033-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+      "title": "Prof. Jiang Zhaoli · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "5f01d4fbce78bfdc7741112b6280c7e3b2277f6bc370fd8c4319ba1d935b612c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/zhaolijiang/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-034-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+      "title": "Prof. Shen Guohao · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "3d14fc9fd20bb372cfb301bb5105d3992564c3b54181796be371df53cdffb05d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d9f60db9-a646-490f-90ca-1e2e7f3d10e2",
+        "https://ghshen1.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-035-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+      "title": "Prof. Tang Rong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6fd389c443503bc02028070bc97feb5814965d376a2dab84870119e57cd968db",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://ronglotus.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-036-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+      "title": "Prof. Yuan Yancheng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "20134261c69d1ebd239318f62f5ebdaff03a77a6d5fb87fb5d11c88eef8c9dea",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/36db317e-1aba-40b9-931d-719af6594e0e",
+        "https://paulyuanmath.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-037-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+      "title": "Prof. Zhang Shijun · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "b498d773ff82e92592061064f576cf9d780e1c03924b2c46a24705e22a499bbf",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://shijunzhang.top/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-038-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+      "title": "Prof. Zhang Zhu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0b6439f5703bed3ae68031cea325022f5e15296871c7dfee4b6583e2a9131c43",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/160240e6-ba93-4bb3-b6eb-7fdf67dbb71d",
+        "https://sites.google.com/view/zzhangpde724/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-039-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+      "title": "Dr Li Hao · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "a5fd4cbd7f453a80ff85282a1456649b645cfb13a12995c543871355495b4b77",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://haoli-hl.github.io"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-040-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+      "title": "Dr Li Mingxiang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "83f809495aabef5bda8fb688f15c51a8fb58c7695963a68eced13281681d6066",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://limingxiangmath.github.io"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-041-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+      "title": "Dr Liu Wei · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4faa72647ac6535d5796bdd7c49921c0625e843eed322bb913d6d7bccacce6e9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/liu-wei/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-042-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+      "title": "Dr Wang Qi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4540665a6e81e4f34eac76b329e361f03df355be52e8067e2204c0a940c4b81f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://qiwang-site.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-043-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+      "title": "Dr Yao Fangyan · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "adab0631c44777350ce19be07e974a045646b384212542c38eb660b9fa3fcd8a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://fangyan-yao.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-044-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+      "title": "Dr Zhang Hua · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "bf19501e313974459f14c1cf667b1c72186d344a579fc66070c4550ebea900a5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/4f4fd517-e08c-4b26-b5ec-6802ae076f25",
+        "https://sites.google.com/view/zhanghua/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-045-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+      "title": "Dr He Yangbo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e64ba0785254a118813c93e10c4a8ea2a89532869b3abeff5a053a3fc2d75984",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/47185c49-a852-4849-9751-024e958821d3",
+        "https://www.polyu.edu.hk/ama/profile/bobhe/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-046-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+      "title": "Dr Charles Lee Kei-fung · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f9b982ca1508b4006d0116373a7e330b80fa3fc362905c098e0e67bbbb289712",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/996abd70-e499-464e-bb00-e45f86d9ae59",
+        "https://www.polyu.edu.hk/ama/profile/charleslee/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-047-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zachary-leung-ngai-hang/",
+      "title": "Dr Zachary Leung Ngai-hang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e706b4f43fddbed85299e754301d420edea5bccdb890e4342c23d4d1d972e432",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-048-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-leung-ping-kei/",
+      "title": "Dr Leung Ping-kei · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ef386e773b8790f1b519e72c7473d5b0c45d7355f29655ec459cad2be23c7c7d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-049-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+      "title": "Dr Selena Qian Yihe · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "3cf3604ef9a1f498eba2bcd9d46389694610fc17b7d9293394579f2da25e006f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-050-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+      "title": "Dr Allen Tai Hoi-lun · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "60e552e4a0066f8347caa512b5ff4edec323457c73bde0df8e5e290446f0987e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/cde359e8-6460-4d3f-b6f1-b884e198af08",
+        "https://www.polyu.edu.hk/ama/profile/allentai/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-051-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+      "title": "Dr Tian Peixin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f34374cf38868d8d01f76143f44c2852c8b0f539ae8239e4c50ba98ed70c49b5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://mxxptian.github.io/pxtian.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-052-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+      "title": "Dr Terry Tong Kam-hung · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7fa69bc6d7aedcdf0588b45ff27ed89be019129221534efe79f6ba89e331ab7d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/khtong/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-053-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+      "title": "Dr Wang Di · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6690ec3023efd650bfa7336fe7bd1fecf9d99031ada95d794c50fe38b7672f43",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/diwanghomepage/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-054-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+      "title": "Dr Andy Cheung Yat-ming · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0edae0991b5a72c1c5023ebcf6d71038ef27f5c2508a4a4b2be220d1717bf2b2",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/7cfbc1c4-938e-408a-b7f6-3a7e073b59fa",
+        "https://sites.google.com/view/andycheungym/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-055-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+      "title": "Dr Ho Chor-yin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f6af8465483fb4680537a6aee105e4559e443d354b1a9945095a390a2333958f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/7639f05a-e427-48b1-9526-00f57d8a8ee9",
+        "https://sites.google.com/view/hochoryin/home-page"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-056-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+      "title": "Mr Adam Leung Man-kin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1072aa0decfc1bff8373fd2967ddbfae0f36a4bb6bec9ad0951db9c1650a56f6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/c8aead31-d639-4fdf-a1b9-b4831a47660b",
+        "https://sites.google.com/view/adamleung"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-057-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+      "title": "Mr Frankie Tsoi Sze-leong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "be3894b4e64a501b11279cafbbfc6c866c2a025fb99d01bfb0a215272f40f866",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/26330d68-61ad-4df6-a2b4-a21aa77bc0e9",
+        "https://frankietsoi.wixsite.com/work"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-058-20261027",
+      "url": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/",
+      "title": "Mr Angus Yeung Hon-keung · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f1d8c89634a7679b9a99fdeced8f9c33498dbe561fa4efd814ae887a46141922",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ddf8dd5a-1e95-41e4-891a-1457a6d906a4",
+        "https://www.polyu.edu.hk/ama/profile/hkyeung/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-059-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+      "title": "Prof. LI Qing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "8efbc97f36fc9742ff9f177ab76474daebd19027295cab3d3e9144659e196b1f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/bbb1710d-57ab-4ab3-ac7e-c79049aca644",
+        "https://www4.comp.polyu.edu.hk/~csqli/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-060-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-jiannong/",
+      "title": "Prof. CAO Jiannong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "041e07c894dc5c9bc6254cccab468256db76a97cbd364bf4de66c98302d7d5cd",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/58b70a97-fb93-488b-b464-ce4d7920cbb3",
+        "http://www4.comp.polyu.edu.hk/~csjcao/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-061-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+      "title": "Prof. CHEN Changwen · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "52974464ffd93761386331d9165066c4b64a21ed1e2a0c733f89f8d13d577410",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f1e0de65-19d1-41df-b7c9-c1bb077acb66",
+        "https://chenlab.comp.polyu.edu.hk/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-062-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+      "title": "Prof. YANG Hongxia · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7f65045b31c3e987c05a8dc99c99e90fe95fbcea7e49015494ffec7f1a0371d6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/8fe68b13-7865-4e51-ae01-1e5498636037",
+        "https://www4.comp.polyu.edu.hk/~hongxyang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-063-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+      "title": "Prof. ZHANG Lei John · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7e2c954a893db4d101f515b3f82218245c40319276506cc70642565c880f9f0d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/a824e78a-b4c7-466c-bae4-07a47f507912",
+        "http://www.comp.polyu.edu.hk/~cslzhang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-064-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+      "title": "Prof. AU Man Ho Allen · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ef40b48849f8a6e13c8bbc700021da2505601f174c45f88af09b2e4d62518cd9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ef797022-c584-4731-9ed5-a5ca7e041533",
+        "https://web.comp.polyu.edu.hk/mhaau/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-065-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+      "title": "Prof. XIAO Bin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "251bacf875928fc4a31d23c194bb5235ab2e11026c6c6ce53bee88c939b1ceba",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/41c2eae0-e0cb-40bd-a9b5-e4080912be5c",
+        "http://www.comp.polyu.edu.hk/~csbxiao"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-066-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+      "title": "Prof. YIU Man Lung Ken · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1bbc35110400bc19f854ecaa688add44442b6242789641879282ca7294b2d22f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e84695c7-dbfa-47ed-920e-5aaafbdc3938",
+        "http://www.comp.polyu.edu.hk/~csmlyiu/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-067-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
+      "title": "Prof. HOORN Johan · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "a14de33ec2f33b135361aa86c62ac078e0f59cbd3fa535a573af939d2648a881",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/dbeaf5f9-f1be-42fd-81a3-2f91dfcedf8a"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-068-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+      "title": "Prof. LI Wenjie Maggie · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6fa7176c70f1a23e2099191fe4f8b345637388255003821d8c5d080bc590f4d1",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/0ef0fbec-264d-45ad-af49-4984c10ceadf",
+        "http://www4.comp.polyu.edu.hk/~cswjli"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-069-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+      "title": "Prof. LI Zhenhui Jessie · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ae8791b95595432c702e5c367697b37b332f22ead863ddb74f260bc6bdd863d0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/6b20fff9-cca0-4b22-a2db-fdde05d7434b",
+        "https://jessielzh.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-070-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
+      "title": "Prof. LUO Xiapu Daniel · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "a97b61a44f34c010d2d1d1a2a85c572fca7a05558e9821b224ab9629fc6ff259",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/58f6b95c-bf34-44d9-890d-31df870e4473",
+        "https://www4.comp.polyu.edu.hk/~csxluo/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-071-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+      "title": "Prof. YANG Chenguang Charlie · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7dce1f345ec7e3b2413b242b1a1f6a59310a2fe27ce755dd1bda15ae5bc8222d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/7a352f2a-0cf7-4121-b438-071a7a398ac4"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-072-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+      "title": "Prof. ZHENG Yuanqing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1b5a7bac51569abfbe2a918d46c644b783171ae384d2fb36320b8337ede92a02",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/5477ad63-3704-44ca-826d-bbf29d28adce",
+        "http://www4.comp.polyu.edu.hk/~csyqzheng/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-073-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+      "title": "Prof. CAO Yixin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "83c5b0786464ee36365da408982cb19949d31549902d77d78024b321ab5a1bbf",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/82367680-b668-4d06-b587-12c313a2e75c",
+        "http://www4.comp.polyu.edu.hk/~csycao/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-074-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chung-fu-lai-korris/",
+      "title": "Prof. CHUNG Fu Lai Korris · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "683859e21fceac75b0ba71efae82b7d0a82ba67f4d9994496c4f19ba3f410448",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f5e6fdf9-b87b-42d5-9db5-7fce67e78726",
+        "http://www.comp.polyu.edu.hk/~cskchung/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-075-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+      "title": "Prof. HUANG Xiao · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d061996877b051bec3aa9e5f898fc0d376a89fd370ae16a360c41a323944d177",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/87c8847f-57c0-4508-aa65-1450d156f63d",
+        "https://www4.comp.polyu.edu.hk/~xiaohuang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-076-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+      "title": "Prof. JIANG Di · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "46de66bba651dc86ab2c3b8c708722adc7bb5193595892ddd7860a0fd386094a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/0e7723f8-671d-47e1-9c00-2c348649ea46"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-077-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+      "title": "Prof. LI Bo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "01de06d1d76e3dcf458097e37d62abaf46d536560367a426dd38e0c604f321f9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/52334247-7d2d-4c08-af03-f386c1abb468",
+        "https://www4.comp.polyu.edu.hk/~bo2li/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-078-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+      "title": "Prof. LI Jing Amelia · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4884a48016f973369f0ca532e70d13eec8db76ab9c8e1156e295de6e77d84fd7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/5917b004-e3b4-4bea-86d0-ff6c025cb67a",
+        "http://www4.comp.polyu.edu.hk/~jing1li/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-079-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+      "title": "Prof. LIU Yan Fiona · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ebc5cdb869963663d23b76768ba692eec38889e56e66148abdb077a7081a110a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/bb89812c-8bcb-4c3b-87bf-39dc2927e590",
+        "http://www.comp.polyu.edu.hk/~csyliu/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-080-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+      "title": "Prof. LIU Yang Veronica · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0a32fc8cc6ec60046204f16609d4a996c81cf4cdf944e7f505133a80120bfa52",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d7f403b1-6b8a-4288-9e60-005011f35e44",
+        "https://sites.google.com/site/yangliuveronica/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-081-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+      "title": "Prof. LOU Wei · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ba36bc67ac42f7de1c33e253f5e57915ae4c0ca6662b1b3e9f3875f83735ae26",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/21d31b3f-922c-4649-9b3c-e9053aec2238",
+        "http://www.comp.polyu.edu.hk/~csweilou"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-082-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+      "title": "Prof. NGAI Grace · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "2b0a2d9e38492dc279ebbdd285b2c5574a64caffb04108b174a8997864a5131c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/37caf2f8-c847-450c-ab01-273f7ed17fed",
+        "http://www.comp.polyu.edu.hk/~csgngai"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-083-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+      "title": "Prof. PEI Yu Max · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d98775b1e824133f155d30206ac43d1affef46265cb53d12b30d452130c98717",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/efe2a3ff-eef9-45d3-8ab7-c67bbfa00994",
+        "http://www4.comp.polyu.edu.hk/~csypei/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-084-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+      "title": "Prof. SHI Jieming · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "3ad8cab36da64a788bfe728d137165f71bc7f1da6fafc82bafe15637b7ecc4d6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/61691c5a-1a29-4b2f-b80b-26f0222cbe7c",
+        "https://www4.comp.polyu.edu.hk/~jiemshi/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-085-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+      "title": "Prof. WANG Qixin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "25dd3623851bdb8f18425f2b3b164c7c374728abea6b79887aa01fca8326e4ba",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/3275a0b6-b451-4274-a95c-872b0ea4ee83",
+        "http://www.comp.polyu.edu.hk/~csqwang"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-086-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+      "title": "Prof. YANG Bo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e0a61f29d8750cd4f94fd100b100acd6f5885082f9485774504e0ac2be2d5fc7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/96e6f077-306e-49a4-b915-a75d2199d7e0",
+        "https://yang7879.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-087-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+      "title": "Prof. YANG Lei Ray · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "27025261f82b592073a02936432b16db96aa6f1a8b2b1f4bb91c02bf55719749",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/b6d3d070-eeba-477f-9e6f-4c0f2b0006cd",
+        "http://www.comp.polyu.edu.hk/~csyanglei/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-088-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+      "title": "Prof. FAN Wenqi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "80b77425cc03a3365fccc7a29af89b9df56b2796df9026b8bff8f8dd73bb4a23",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/49cc0aa3-a13c-4d42-a43e-4397b7f4f8b3",
+        "https://wenqifan03.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-089-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+      "title": "Prof. GAO Shang Jason · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "719c94a1cea94362a206c8b3dd33424df03bf731641925b3e23dabcfb394b29c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/6609ad6b-c6bc-4268-a020-95088ef6c81c",
+        "http://www4.comp.polyu.edu.hk/~shanggao/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-090-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+      "title": "Prof. GUO Jingcai · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ae97b33ce762d8d1ea56f848c8b73cdde3a9ed3945f0742c880d730f2004c18f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d2b17a46-116f-42c4-92ec-829a22fdb971",
+        "https://jingcaiguo.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-091-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+      "title": "Prof. LI Chen Richard · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "37aef0c1069ab6a8cb7c82f876cd1720eebc903e9d02540b032df82b971cfe1c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f4a246ef-846f-4c0e-b8b2-4cf213188e0f",
+        "https://lichenrichard.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-092-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+      "title": "Prof. LIN Wanyu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "57af52a8f7cafb9e2fba197778f0c4608b4f75bfc8720b51fd64e60fb9a21cf7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/df3e38c4-413f-4a7f-a856-8fe4dd5c4b6c",
+        "https://wanyu-lin.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-093-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+      "title": "Prof. LIU Ninghao · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d096b156d1e28bbba1fb839dc5566eaae19d1e8d3b1afd5717c78d3a7d5453f8",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d9596b7a-ef71-43c5-93ac-7eedef70d326",
+        "https://ninghaohello.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-094-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+      "title": "Prof. LIU Yu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "2fa7ee8252e75f1a9cf1360da0699892814da124a8bd6e1309dc070e120a854f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/82aff6ac-502a-43c9-b510-1680e333f10b",
+        "https://www4.comp.polyu.edu.hk/~liuyu/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-095-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+      "title": "Prof. NG Hiu Fung Peter · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "b65e424999358cde9f5f311444c95c770298fdd4969ec98ac70d5ebdd17c3ba0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/3a96ddd4-11e5-4e68-aab1-b43e1bf6faef",
+        "http://goo.gl/7zB6Os"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-096-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+      "title": "Prof. QIN Haotong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0c2c39f684ebd5a6c3dcebd3f5c9b922d82be00d514c628a63de98179413d19e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/0727b81e-9c32-4afc-a8a3-c82a00554dd7",
+        "https://htqin.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-097-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+      "title": "Prof. SHEN Yu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "2bd0bc28c7b074f2141687f5c4a250c960ef53a6b9b835a9978496cb01e8cacf",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/14dc718a-559b-4d46-aab6-7bb72cabeef3",
+        "https://shenyu-official.icu/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-098-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+      "title": "Prof. WU Yujie · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "3c2eb24f352ea13161623bf511c7d8cc2bcfd5479eee4794e72075b076c40571",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/546fb0fd-dcbd-4f99-b282-15d9534ad62c"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-099-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+      "title": "Prof. XU Songlin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ff324f84e9ee88ac887108a4db91734735a7a98e425592313f867899ede588ea",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/387eaeb8-cf63-4646-acf4-9b3c478c2a0e",
+        "https://songlinxu.com "
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-100-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+      "title": "Prof. ZHANG Chen Jason · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "ee70c271809a6973fbd7dd48b0344c820fc2ace13fe875028d0d9951f6866d04",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/327b9082-667f-43eb-8b7b-8553725326e4"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-101-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+      "title": "Prof. ZHOU Kai · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "245d8c697e2c040195999f32e902040261ecc3c291910905262cbc26f13d9a0e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/b8bf1cfa-f996-4af4-ba9d-d6c13b8eedf1",
+        "https://www4.comp.polyu.edu.hk/~kaizhou/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-102-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+      "title": "Dr CHANG Yijia · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "26eb2156b0038a1f67f1753f4fbb8d00eff873b273039ce4ce2a57933461dc49",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://scholar.google.com.hk/citations?user=mzBg5sMAAAAJ"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-103-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+      "title": "Dr CHEN Long · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6f9359090baaa6f8bdd9b104d279ea37a40aa3d85e3d6298fe5ed082fa585391",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/83f95cc8-9317-4987-83b9-be80c3f1c5cf",
+        "https://scholar.google.com/citations?user=iDxfFUkAAAAJ&hl=zh-CN"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-104-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+      "title": "Dr DI Yining · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "af7425dc95e848a9a043252f9aff88ed5521fc049a78b8bd8405fd26d9dc0879",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/92e9f460-3300-4470-9e3a-13c603b39ab7"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-105-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+      "title": "Dr HE Chenhang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d9c3c830e0d980190f5e4e7229de2c5c34defd484d0210f0e75ec6fb050e14b9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ef824592-0eb2-4355-a5d1-0c2b55cf8f90",
+        "https://skyhehe123.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-106-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+      "title": "Dr HE Ningyu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d651485c109d70689d469caf5633f3891bf8bd1caad69021b0f30f0b6a3380b5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/08c5dabf-5d1a-490f-9008-5edf5e35263f",
+        "https://ningyu-he.notion.site/Ningyu-s-Homepage-74990eabecda4c5b9cd0e90762ebc7a9?pvs=4"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-107-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+      "title": "Dr HU Zhejing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "90f3d39d9a0fa22906f64da0aeb83e52aa178351db9040c653cb3632ef1b280d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/75a79600-975e-4fb1-aeff-0b89f0b4e8d7",
+        "https://hu-music.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-108-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+      "title": "Dr JIANG Qinhong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "fa2e0d8cb82e393f406d90e5d750f8433ae4d193a3cb97bbe0c8b71ddff72ee6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://jackjiang313.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-109-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+      "title": "Dr LI Haoyang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "6a823f9a764fac3c4208d40e8c5cb4f1728920fa48b4ee4896436357c1dec1c6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/bd2cb796-7073-4f6e-a121-0752204fcb5d",
+        "https://refrainlhy.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-110-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+      "title": "Dr LI Yongqi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "dded7679886cd01d0f4eb8ddce29ef8fd4fbbbd4dd33dfe3fc88490bd83c33e5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/b18dec7a-dce6-402c-acdd-3107a04327c0",
+        "https://liyongqi67.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-111-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+      "title": "Dr LI Zecheng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f690ca931aa55d885fa20b422d74a9fa75452710c1b28dbb1e8928a93bdd0e64",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e9c3a1a6-e5d0-4992-9f8b-8343825d16c1",
+        "https://archi-cszcli.github.io/homepage/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-112-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+      "title": "Dr LU Xingye · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0f441b64280ac5c5ef44bcdfb28ab0bd9c2a0d26231fb039698a99f048460ef0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/a9c33c8c-c0d6-42d9-b48b-b8c1b66a498f",
+        "https://cassieluxy.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-113-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+      "title": "Dr NI Minheng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4e322fb26399a1406bf144966850f0abb93648e1b6c034d15977577287c3b9de",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d5e0bcee-c0c4-4958-9932-33ea2451e9d8",
+        "https://kodenii.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-114-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+      "title": "Dr SHENG Xihua · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "a2b9d94012a8b8df4a454ec0a13c94755d7f5ad87b88fe7c702904f8ce109014",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://xhsheng-ustc.github.io/info/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-115-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+      "title": "Dr SIN Ping Tat Zackary · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "8fade2c1fe113af6ed0b834f69ce9bf9d03beea7572e234b30a08ef92728a079",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/013c82f5-2aa6-4935-aaa0-799a7a4026ec",
+        "https://zackarysin.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-116-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+      "title": "Dr WANG Xiangmeng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "793e10f86fed2b885ba99b8bfba6f0ffcef9925ddcf60859271a8b8d4349ca51",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/36f41b9b-8a0e-41bf-8231-5018dd5bf12f",
+        "https://chrystalii.github.io/ "
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-117-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+      "title": "Dr WEN Zhiyuan · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "531b71b045c451a53b0c2f89f19749652034344f7271266a357a8d2b5c7352b2",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/7735516e-bb93-4544-8655-70b15a207d8b",
+        "https://preke.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-118-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+      "title": "Dr XIA Xianjin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "b4033038988b1584838c5881e8bf7da3e17706ccd3edf6c4783c99e8fcbbb332",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d2232148-190d-40d8-b573-2104639ffc8a",
+        "https://csxxia.github.io/site/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-119-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+      "title": "Dr ZHANG Jia · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "717c2c1e7660f96eefc1664228c58d6ffb6a227e062b9d596431859039e2d3bb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/2df1a0c0-b710-40bb-9965-e819aafdafdc",
+        "https://joycezhangjia.github.io"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-120-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+      "title": "Dr ZHANG Li · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e172460422dc8b399c6ae0304036a66c3e846cb8660ed2b003cfe2c989769bb6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://zanly20.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-121-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+      "title": "Dr ZHANG Mingjin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "9b80e6d5e549ced3c3b6a782aed87477f9ae3b472eecfe418ed4cf243121d13c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e13450af-c550-447e-beb7-4ddb566ff131"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-122-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+      "title": "Dr ZHANG Zhaorui · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0c13a333235a58f5557f700c2ac28b0d3446561d407fc82a2009a0999727050f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/bdf3ead0-724a-48af-9b3c-38361de7b653",
+        "https://zhaorui-zhang.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-123-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+      "title": "Dr ZHENG Changmeng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "49a0568554ee37575c2e4f48dac41c1605183c1a7e6304abd36201f7d3614951",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/3b178313-8142-4192-8f3d-5d8a7ad86e70",
+        "https://thecharm.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-124-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+      "title": "Dr ZHOU Alexander · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "2fe22b46aaf16227c8ed5b25c982ab1079a3c7dc8139d7ca2886d8d0fb2b182f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e66f63dd-3834-4b9a-9c72-196dae739bcd",
+        "https://atzhou.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-125-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+      "title": "Dr ZHOU Hao · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0a30148a24d3594f337abc80c9a88b19b07d8b835200e6ad6609a42aa24f324a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/796a542e-ae88-41bb-8b10-722919249a60",
+        "https://moonzhh.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-126-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+      "title": "Prof. CHUN Andy · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1077b170575f23136bfdbbb429520b5df563c7364fa395cae78764240975a8a0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www4.comp.polyu.edu.hk/~hwchun/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-127-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+      "title": "Prof. WEI Xiaoyong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "fe1118dee5ddbf4e13e1358c110388d00a19ea23ba44636b263da1899cf50fa9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www4.comp.polyu.edu.hk/~x1wei/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-128-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-fung-sui-leung-walter/",
+      "title": "Dr FUNG Sui Leung Walter · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "efefc64e5a5c6f7796cc473e0d2f6bec0687daf68313d5381c12c0397f19867a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-129-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+      "title": "Dr LEONG Hong Va · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7bb84e4ac3d1ab5da630f32a7efdb0eda43ad5433bb28557fa0a1c86e6d6dc25",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/55e9e8c7-e8c8-4945-9299-f7ad074d1c66",
+        "http://www.comp.polyu.edu.hk/~cshleong/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-130-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lui-wing-cheung-richard/",
+      "title": "Dr LUI Wing Cheung Richard · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0d8c38d14bf748897c1f538431b92d4755016e1d58a1126513e35e64ac415249",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.comp.polyu.edu.hk/~cswclui"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-131-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+      "title": "Dr MOHAMMED Aquil Mirza · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "9ffa0ac9da7ce7c2696975ee664c76bb0030846c6b5b2a5098a3e9e1c9fe2b42",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://aquil.uk"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-132-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+      "title": "Dr LAI Lotto · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "01fa13ffdd5d072ba8fee063f40387a7eedd39945ad19ce14ead5d8767012774",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-133-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+      "title": "Dr PANG Wai Man Raymond · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "793c16fb2fbfcb72b01760249d1661d9ac38b112dc7efc2a8aad55fb707de5e7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-134-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+      "title": "Dr TANG Kai Tai Jeff · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f939ef5ceefc204698781f345d5924731f6cac862d1eb3abe28d26ee08f31946",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://web.comp.polyu.edu.hk/kttang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-135-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+      "title": "Dr TAYYAB Muhammad · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7e56257974984a7c6d20f5323f95075aef40a2b5766ec6cc4ef757bd095a3f1e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-136-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+      "title": "Dr XIE Hongcheng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "67f29c4c2bf53cf144e83c829c9415f9339cbb27578723110c8e602164de27df",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-137-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+      "title": "Dr LAM Alexander · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4cbe5885f007028991c3fc5477d3ed23a504bacec3d898b78f58ce1c71f7aee6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-138-20261027",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/",
+      "title": "Dr LYU Mingsong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1a83ba273a776c08426a2f256eea6bcf1ba17bf48b146724235df15bda0a7fb1",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-139-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+      "title": "Prof. TAN Kay Chen · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "c938a378dd998c1df3d4611475b7ab4bede0901fab5adf7357dbf958b6b4732e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ed2322f1-7adf-4541-b83d-c5510f44f5db"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-140-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+      "title": "Prof. CHENG Ran · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "1018dfea5d13804d9feb611bbbe5aeee7ff76e6624b1d799e51922f46c7d5458",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f9268c1b-304f-42f7-a3ae-3a40943abb46",
+        "https://chengran.tech/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-141-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+      "title": "Prof. JIANG Binyan · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "c475fed8e00481a75fdf8905a496d744f33221fadca42e88fa00756969da4944",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f850bc33-22a5-4089-86b0-30c7b96a2e47",
+        "https://sites.google.com/site/binyanj"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-142-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+      "title": "Prof. KUMAR Ajay · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "962ef84c3e21da4c96f48eb9113cc93416bd8b9b530ae2c9df0a961d75e0de96",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/20833075-b768-498b-97df-0f83b9615f70",
+        "https://web.comp.polyu.edu.hk/csajaykr/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-143-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+      "title": "Prof. CAO Liangliang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f1c1223627e8b1d1183b5a56d91ecc3ed646fb4ca35e9e6c3ab67379040766ef",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://llcao.net/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-144-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/huangjian/",
+      "title": "Prof. HUANG Jian · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "b696dec426ed73f10634b7ea8accf14c64d8f86b2d678f2963004fbacf6af4c5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/334fcc05-d900-42ac-8c3b-0009aca0e0e6",
+        "https://sites.google.com/view/prof-jian-huang"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-145-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+      "title": "Prof. LIANG Hualou · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "bdbacd970105c5ac59591d14879e8277aa9405561083780a96847ced17e30486",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/7dd2f55e-78c9-4ff0-bda7-e2b13710b022",
+        "https://liang-lab.org/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-146-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+      "title": "Prof. YANG Qiang · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d0b41e0c081ba040263ef04a4b55e013512bb6fe84605f99a51bedd8f7bf9e67",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/qiang-yang",
+        "https://www.polyu.edu.hk/dsai/docdrive/personal/yangqiang.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-147-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+      "title": "Prof. ZHANG Chengqi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "d24e631bf4ce9d75fc80595e247031c96d30d2e216b2bb07d5ef70108b83c492",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/chengqi-zhang",
+        "https://chengqi-zhang.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-148-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+      "title": "Prof. ZHANG Weixiong · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "20412e9b12bd22dd8ccc276f77e9ae2fadada62ca5a3fb0e3b86fabcefd1b045",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/16e3cbde-82da-4f34-b6a0-161ff811f973",
+        "https://genomics-in-healthcare.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-149-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/qihouduo/",
+      "title": "Prof. QI Houduo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "0dc63dec6ed8a0c866d11b7524e84f627ef27f7af959c60d545a6545352f36df",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/5a20e1a0-7b37-42b7-880c-8302fc462dab",
+        "https://www.polyu.edu.hk/ama/profile/hdqi/hdqi.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-150-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/chungkorris/",
+      "title": "Prof. CHUNG Fu Lai Korris · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "689eb4fbe6e8e395a2308e7cbe2d86764a017178ead965ddcdb47912d2613f85",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f5e6fdf9-b87b-42d5-9db5-7fce67e78726",
+        "http://www.comp.polyu.edu.hk/~cskchung/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-151-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+      "title": "Prof. HUA Wen · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "7fdfc4a3b9fb6d40f86557c4f133a341073a0f0686b159cb20b9a88b08c97189",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/b85f5f2c-a1f5-4211-95f8-a2e0a587d08b",
+        "https://web.comp.polyu.edu.hk/wenhua/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-152-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+      "title": "Prof. LIU Catherine C. · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "82ffd2dd8d47f5face9b282dea5b96358584bbab036a9ae321a51d9bd16573f5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/1c592498-af5e-4be4-8a1d-dd1008cbc032",
+        "https://sites.google.com/view/catherinecliu/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-153-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+      "title": "Prof. WU Xiao Ming · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "8f5814441c1498ff524868f8bd0877365ca52e827bb06fdd828d7ee97f13afb2",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f969fce8-9a65-4e42-821f-8801aa8545bf",
+        "https://dsai.polyu.edu.hk/profile/xiao-ming-wu/  "
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-154-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+      "title": "Prof. CHEN Zhen · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "8c8b8f663634a8c8bf3561f11002e0c3e2fc5463539a387e59befe69612ff4c8",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://franciszchen.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-155-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+      "title": "Prof. HAN Ruijian · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "115a9d223272a98b51c4f5f4d675906db18d7f65adeafce3df42cef24754ed8f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/bddfdec0-63bc-4282-8d53-caeebb871d1c",
+        "https://www.polyu.edu.hk/ama/profile/rjhan/index.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-156-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+      "title": "Prof. HUANG Jiaxing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "63932c90f090a4b497ed33527e2e292a45f17772266e5a46cac0738a24a90adb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://jxhuang0508.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-157-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+      "title": "Prof. LI Xinfeng · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "f3452b81e31e5bfa5309421a0c10282e6417bc8e84d1bee8441e44fca6083d52",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://letterligo.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-158-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+      "title": "Prof. ROSSI Luca · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "621dbdb4b0c035b6b3669fe18ff137cc73674a4129212fae4ffa7d847c95baa3",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/7b220abb-c72d-419c-bd81-00eaa56aebaf",
+        "https://blextar.github.io/luca-rossi/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-159-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+      "title": "Prof. SONG Zixing · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "006996366674d3930a8b0b6a9696d9436dd247c57429ef3d9e1f10d3f3912747",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://aizxsong.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-160-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+      "title": "Prof. WU Jibin · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "181a943fdc334aa1c395cbd726221676a4485333206679508e64e1ab0c2ab264",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/73418390-b38b-4779-8b6d-b83cbee33fd0",
+        "https://jibinwu.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-161-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+      "title": "Prof. WU Xingyu · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "bab17b203336858d264da39c1190e91eabe2502dc8023c826c3389fa30a1ec7d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://wuxingyu-ai.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-162-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+      "title": "Prof. YANG Xingyi · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "18da20f4414bb46dd5d411f7da84174c17f8d715a76d13767ac94b93475a2da8",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://adamdad.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-163-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+      "title": "Dr HU Yao · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "b0ce2cf373d167fc5adec8dc50e425aaf10d17d27350a106fa59a484efb09a96",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://77yq77.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-164-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+      "title": "Dr LUO Yanchen · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "31c770c7e65f3c3a50709493cc4649cec24bcb0dff85a7adc261d2f15809764c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://lyc0930.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-165-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+      "title": "Dr FONG Chi Kit Ken · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "4be23043cc0046a0545e708cb7a1e840fc07f2901b231e72b89e84690333750a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://ckkfong-polyu.github.io/homepage/index.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-166-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+      "title": "Dr LIAO Weihang Ryo · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "512576bd549ce710b6a874b6c1b3ef37f07e4a272973d514282045f98b1d6b26",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/liaowh"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-profile-167-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/",
+      "title": "Dr WANG Xiuling Lily · 官方个人页",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "原院系所列身份与个人研究说明；无实时名额或研究型指导资格认证。",
+      "claims": [
+        "已读个人页身份；研究栏目或简介中的明确研究描述另作短摘。"
+      ],
+      "bodySha256": "e2e3308352980f83a8c7ead00db44e72f5b4dff362ba1503c5e62496f4a26ee0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/xiuling-wang/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-fcms-linked-096-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/bbb1710d-57ab-4ab3-ac7e-c79049aca644",
+      "title": "Qing Li\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "45204ea09d40686464936af5166f30ad6a1987f25f710098e759651ff0ee0b18",
+      "parentSourceId": "polyu-fcms-profile-059-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-101-20261027",
+      "url": "https://chenlab.comp.polyu.edu.hk/",
+      "title": "CHENLab at PolyU",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ae84664b659ff1694c0097cfbbfe7b5b05f4add2a3ea3e9e294ff422f67c8de8",
+      "parentSourceId": "polyu-fcms-profile-061-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-103-20261027",
+      "url": "https://www4.comp.polyu.edu.hk/~hongxyang/",
+      "title": "Hongxia Yang",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "07dd371ea587d003043841a3346bb51ec82abd7242c895aea25fbf4daee5586e",
+      "parentSourceId": "polyu-fcms-profile-062-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-102-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/8fe68b13-7865-4e51-ae01-1e5498636037",
+      "title": "Hongxia Yang\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d73aa10e9e7307f392f6c0cb4c637771b62e92d4f7551d6f9b58b0c8242620ea",
+      "parentSourceId": "polyu-fcms-profile-062-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-112-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/dbeaf5f9-f1be-42fd-81a3-2f91dfcedf8a",
+      "title": "Johannes Ferdinand Hoorn\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b6f9bbcd39640e36dd2045a20fe5053abaf9b4fc6ec94d3c7065837a04cf9946",
+      "parentSourceId": "polyu-fcms-profile-067-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-116-20261027",
+      "url": "https://jessielzh.com/",
+      "title": "Jessie Li - Personal Homepage",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "actual_Edge_DOM",
+      "parentSourceId": "polyu-fcms-profile-069-20261027",
+      "renderedResponseSha256": "888571bba13ddfb376d467dffd601b8a1385e871b1a2d52ba6595020e2f4b6fc",
+      "rawHttpBodySha256": "38a8cbb54ec264d5c0fe16ebe64fde391036b5e9f2b0f30b06153878ac2fd896"
+    },
+    {
+      "id": "polyu-fcms-linked-127-20261027",
+      "url": "https://www4.comp.polyu.edu.hk/~xiaohuang/",
+      "title": "Xiao Huang | Home",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a344c714e18bace40921a583b9a72ad1d7e6c11f14511d971542faa09cf15ac9",
+      "parentSourceId": "polyu-fcms-profile-075-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-126-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/87c8847f-57c0-4508-aa65-1450d156f63d",
+      "title": "Xiao Huang\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7b65207b2b00a5ef14e7df21f568015e02c61716de985d5325d0cdee44a3e1e3",
+      "parentSourceId": "polyu-fcms-profile-075-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-158-20261027",
+      "url": "https://lichenrichard.github.io/",
+      "title": "Chen 'Richard' Li | Human-centred Computing Researcher",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a4c555789d8368dc3541f52bde7b5cd1483517599bfb5130f5b2f2d17016b5da",
+      "parentSourceId": "polyu-fcms-profile-091-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-157-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/f4a246ef-846f-4c0e-b8b2-4cf213188e0f",
+      "title": "Chen Li\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b6c9d01d2d7a50d23de3a9bf31fc89145f856528b2f387f9529949dafc1ed201",
+      "parentSourceId": "polyu-fcms-profile-091-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-165-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/3a96ddd4-11e5-4e68-aab1-b43e1bf6faef",
+      "title": "Hiu Fung Ng\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bc37917ec2f599901a49f02a1bbce24e920c53f4fdfcfc82575099ef754f1fcb",
+      "parentSourceId": "polyu-fcms-profile-095-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-173-20261027",
+      "url": "https://songlinxu.com ",
+      "title": "Songlin Xu | Assistant Professor | Hong Kong Polytechnic University",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c707e707ac208c8f54f3ca37e95961d1ccd8b8e7b2091797027829dac5ff13f",
+      "parentSourceId": "polyu-fcms-profile-099-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-172-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/387eaeb8-cf63-4646-acf4-9b3c478c2a0e",
+      "title": "Songlin Xu\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "de29ee35a398510883b39125897307b34913340512c2b7f52377440bcac74187",
+      "parentSourceId": "polyu-fcms-profile-099-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-176-20261027",
+      "url": "https://www4.comp.polyu.edu.hk/~kaizhou/",
+      "title": "Kai Zhou's Webpage",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a5a73999b444b51a7c6687494818d176d6121204408e0e00fa3a60cac3c9a203",
+      "parentSourceId": "polyu-fcms-profile-101-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-175-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/b8bf1cfa-f996-4af4-ba9d-d6c13b8eedf1",
+      "title": "Kai Zhou\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5ba0477ccd65ee8374e4783fc5daec15cd50c19901e5ede94686b72ac190aeaf",
+      "parentSourceId": "polyu-fcms-profile-101-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-197-20261027",
+      "url": "https://kodenii.github.io/",
+      "title": "Minheng Ni",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a4015f8c11755e8efdac860ee756dacd9a72a2711719df28d2fe1b81f726a778",
+      "parentSourceId": "polyu-fcms-profile-113-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-196-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/d5e0bcee-c0c4-4958-9932-33ea2451e9d8",
+      "title": "Minheng Ni\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b60fd71ab519382989f8afa70ea87e698d6542ed59a0c65439062609b146bd13",
+      "parentSourceId": "polyu-fcms-profile-113-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-219-20261027",
+      "url": "https://www4.comp.polyu.edu.hk/~hwchun/",
+      "title": "Prof. Andy Chun",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0c919999d10b4b5f53f85398a7d5bb5aad1a8e2f578c711c6f37c46e6ba7a626",
+      "parentSourceId": "polyu-fcms-profile-126-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-235-20261027",
+      "url": "https://liang-lab.org/",
+      "title": "The Liang Lab",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网给出的教师自述或实验室项目；非学校招生政策。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。",
+        "引用的是2022/2024实验室研究项目，不当作当期招募或临床效果证明。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1f7ba18d004dce43fc3e3497e01f3d9abd059808ff074b02b0f75be84a41ee05",
+      "parentSourceId": "polyu-fcms-profile-145-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-234-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/7dd2f55e-78c9-4ff0-bda7-e2b13710b022",
+      "title": "Hualou Liang\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "175ddc4279128b5b8351af4452e6eafda579ef22a79be23f26a9932568693a8b",
+      "parentSourceId": "polyu-fcms-profile-145-20261027"
+    },
+    {
+      "id": "polyu-fcms-linked-240-20261027",
+      "url": "https://research.polyu.edu.hk/en/persons/16e3cbde-82da-4f34-b6a0-161ff811f973",
+      "title": "Weixiong Zhang\n      -  PolyU Scholars Hub",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官方给出的研究门户；自动研究指纹不作本卡研究词或招生证据。",
+      "claims": [
+        "已读给出链接的正文；任职与研究范围按该页及原院系页分别核对。"
+      ],
+      "knownIssues": [
+        "未据此确认指导资格、当期名额、录取机会或项目资助。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ab3b2ee5f485caa00a96c08aca18d7c18f1e0720ec35751d51b4a0385a0f04d3",
+      "parentSourceId": "polyu-fcms-profile-148-20261027"
+    },
+    {
+      "id": "polyu-fcms-ama-general-programme-20261027",
+      "url": "https://www.polyu.edu.hk/ama/study/research-postgraduate-programme/",
+      "title": "AMA · 通用研究型学位介绍",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "通用院系页；旧课程文件或金额不据核查日更新成年份。",
+      "claims": [
+        "提供研究学位和方向介绍；当期日期与材料另核正式入学页面。"
+      ],
+      "bodySha256": "30117bbe2fb8622b4c68fe3c4c748efb698d2e9506a353a57f31b6ae76e7800d",
+      "readMethod": "anonymous_HTTP",
+      "knownIssues": [
+        "不从网页上的项目负责人或培养导师安排推断谁最终决定录取。"
+      ]
+    },
+    {
+      "id": "polyu-fcms-ama-2027-route-20261027",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/ama",
+      "title": "AMA · Sept 2027 MPhil/PhD",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027年9月，MPhil与PhD、全日制与兼读；本页独立日期及材料，不代替奖学金另行申请。",
+      "claims": [
+        "当前页列MPhil/PhD，2027年9月入学，截止2027-05-31；未说明具体时间。",
+        "材料按本院系本页逐项保存，不跨系继承。"
+      ],
+      "bodySha256": "76ec21ab072df912ffac8ba03c4036b48169c2f5c0f9e63aa5d01a16c54a7b99",
+      "readMethod": "anonymous_HTTP",
+      "knownIssues": [
+        "不从网页上的项目负责人或培养导师安排推断谁最终决定录取。"
+      ]
+    },
+    {
+      "id": "polyu-fcms-comp-general-programme-20261027",
+      "url": "https://www.polyu.edu.hk/comp/study/research-postgraduate-programme/phd-and-mphil-in-computing/",
+      "title": "COMP · 通用研究型学位介绍",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "通用院系页；旧课程文件或金额不据核查日更新成年份。",
+      "claims": [
+        "提供研究学位和方向介绍；当期日期与材料另核正式入学页面。"
+      ],
+      "bodySha256": "f2c0bfe485572f087cca7e247bf4b5889a0dbeb856e5624dc372381fea8334c1",
+      "readMethod": "anonymous_HTTP",
+      "knownIssues": [
+        "不从网页上的项目负责人或培养导师安排推断谁最终决定录取。"
+      ]
+    },
+    {
+      "id": "polyu-fcms-comp-2027-route-20261027",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/comp",
+      "title": "COMP · Sept 2027 MPhil/PhD",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027年9月，MPhil与PhD、全日制与兼读；本页独立日期及材料，不代替奖学金另行申请。",
+      "claims": [
+        "当前页列MPhil/PhD，2027年9月入学，截止2027-05-31；未说明具体时间。",
+        "材料按本院系本页逐项保存，不跨系继承。"
+      ],
+      "bodySha256": "eed13f3bd69057a347319b7a1edbd7f015dd55a13bfc8e8db6e8ce995713bb47",
+      "readMethod": "anonymous_HTTP",
+      "knownIssues": [
+        "不从网页上的项目负责人或培养导师安排推断谁最终决定录取。"
+      ]
+    },
+    {
+      "id": "polyu-fcms-dsai-general-programme-20261027",
+      "url": "https://www.polyu.edu.hk/dsai/study/rpg/phd-and-mphil-in-data-science-and-artificial-intelligence/",
+      "title": "DSAI · 通用研究型学位介绍",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "通用院系页；旧课程文件或金额不据核查日更新成年份。",
+      "claims": [
+        "提供研究学位和方向介绍；当期日期与材料另核正式入学页面。"
+      ],
+      "bodySha256": "a2672d59c25fd5189efa2f11c6e707690c45701dacf176b8c632f206cb108e93",
+      "readMethod": "anonymous_HTTP",
+      "knownIssues": [
+        "不从网页上的项目负责人或培养导师安排推断谁最终决定录取。"
+      ]
+    },
+    {
+      "id": "polyu-fcms-dsai-2027-route-20261027",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/dsai",
+      "title": "DSAI · Sept 2027 MPhil/PhD",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027年9月，MPhil与PhD、全日制与兼读；本页独立日期及材料，不代替奖学金另行申请。",
+      "claims": [
+        "当前页列MPhil/PhD，2027年9月入学，截止2027-05-31；未说明具体时间。",
+        "材料按本院系本页逐项保存，不跨系继承。"
+      ],
+      "bodySha256": "651d9f58cfdf534afc70a67c068929a8ec5a4d0c0e30c16260be9746133ffa52",
+      "readMethod": "anonymous_HTTP",
+      "knownIssues": [
+        "不从网页上的项目负责人或培养导师安排推断谁最终决定录取。"
+      ]
+    },
+    {
+      "id": "polyu-comp-phd-flyer-2027-20261027",
+      "url": "https://www.polyu.edu.hk/comp/-/media/department/comp/programme/2026/phd-flyer-2026_20260922.pdf?rev=d9705e14239a4ea29123041043af4f32&hash=4158F764B5979124E254E8EC72462B54",
+      "title": "PolyU COMP · PhD Student Recruitment 2027/2028",
+      "checkedAt": "2026-10-27",
+      "publishedAt": "2026-09",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "仅2027/28 Computing博士简章；已逐页提取并查看第4页原始表格，非MPhil待遇或个人获奖。",
+      "claims": [
+        "2027/28博士简章列年学费HK$49,500，奖学金按计划及注册状态分开。",
+        "申请前建议联系教授讨论；不是先有正式接收才可递交的证明。"
+      ],
+      "knownIssues": [
+        "2027/28封面所给申请链接仍指向Jan 2027、2026-09-30已截止页面；当前秋季入口已沿学校项目总表另核。",
+        "简章仍列TOEFL iBT80，没有说明新制尺度；新考试先向学校确认。"
+      ],
+      "bodySha256": "c7cbcc42adb004a0a6671d1dd1e78d11c9a04f26db091d41c8616652fc553d5c",
+      "readMethod": "anonymous_HTTP_PDF_text_and_page_render"
+    },
+    {
+      "id": "polyu-comp-flyer-old-target-20261027",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/20262/comp",
+      "title": "简章原链接实际指向的Jan 2027页面",
+      "checkedAt": "2026-10-27",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "旧2027年1月入学，不是当前2027年9月入口。",
+      "claims": [
+        "正文列Jan2027 Entry，截止2026-09-30；按实际页面保留，未把URL猜改为新年份。"
+      ],
+      "renderedResponseSha256": "00f53560369aa63ac27027fad1529930433939267effef333de74cb577150fef",
+      "readMethod": "web_reader",
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -53894,22 +66733,744 @@ window.APP_CATALOG = {
       "id": "wide-dir-polyu-comp",
       "universityId": "polyu",
       "unit": "Department of Computing",
-      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/?sc_lang=en",
+      "url": "https://www.polyu.edu.hk/comp/people/academic-staff/",
       "title": "Academic and Teaching Staff | Department of Computing",
       "profileLinksObserved": [
         "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-jiannong/",
         "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
         "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
         "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
         "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
         "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
-        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/"
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chung-fu-lai-korris/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-fung-sui-leung-walter/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lui-wing-cheung-richard/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+        "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/"
       ],
-      "coverageNotes": "已查看现任学术人员部分；未逐一核查所有教师。荣休、访问及兼职名单另列，不混作新增导师。",
+      "coverageNotes": "本次静态主名录观察80条主页，逐条读到正文；其他任职分类另列，未把URL数当独立导师人数或余位。",
       "sourceIds": [
-        "wide-dir-polyu-comp"
+        "wide-dir-polyu-comp",
+        "polyu-fcms-directory-comp-20261027"
       ],
-      "coverageComplete": false
+      "coverageComplete": false,
+      "census": {
+        "observedTotal": 80,
+        "profilesRead": 80,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "LI Qing",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+            "directoryPosition": "Prof. LI Qing Chair Professor of Data Science and Head",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CAO Jiannong",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-jiannong/",
+            "directoryPosition": "Prof. CAO Jiannong Vice President (Education), Otto Poon Charitable Foundation Professor in Data Science, Chair Professor of Distributed and Mobile Computing",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHEN Changwen",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+            "directoryPosition": "Prof. CHEN Changwen Interim Dean of Faculty of Computer and Mathematical Sciences, Chair Professor of Visual Computing",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YANG Hongxia",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+            "directoryPosition": "Prof. YANG Hongxia Executive Director of PAAI (EDoPAAI), Associate Dean (Global Engagement) of Faculty of Computer and Mathematical Sciences, Vobile Group Professor in Generative Artificial Intelligence, Chair Professor of Generative Artificial Intelligence, Director of UCAIC",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Lei John",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+            "directoryPosition": "Prof. ZHANG Lei John Chair Professor of Computer Vision and Image Analysis",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "AU Man Ho Allen",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+            "directoryPosition": "Prof. AU Man Ho Allen Professor and Associate Head (Research and Development)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "XIAO Bin",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+            "directoryPosition": "Prof. XIAO Bin Professor and Associate Head (Partnership & Collaboration)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YIU Man Lung Ken",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+            "directoryPosition": "Prof. YIU Man Lung Ken Professor and Associate Head (Teaching & Learning)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HOORN Johan",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
+            "directoryPosition": "Prof. HOORN Johan Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Wenjie Maggie",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+            "directoryPosition": "Prof. LI Wenjie Maggie Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Zhenhui Jessie",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+            "directoryPosition": "Prof. LI Zhenhui Jessie Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LUO Xiapu Daniel",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
+            "directoryPosition": "Prof. LUO Xiapu Daniel Associate Dean (Research) of Faculty of Computer and Mathematical Sciences, Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YANG Chenguang Charlie",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+            "directoryPosition": "Prof. YANG Chenguang Charlie Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHENG Yuanqing",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+            "directoryPosition": "Prof. ZHENG Yuanqing Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CAO Yixin",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+            "directoryPosition": "Prof. CAO Yixin Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHUNG Fu Lai Korris",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chung-fu-lai-korris/",
+            "directoryPosition": "Prof. CHUNG Fu Lai Korris Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HUANG Xiao",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+            "directoryPosition": "Prof. HUANG Xiao Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "JIANG Di",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+            "directoryPosition": "Prof. JIANG Di Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Bo",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+            "directoryPosition": "Prof. LI Bo Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Jing Amelia",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+            "directoryPosition": "Prof. LI Jing Amelia Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIU Yan Fiona",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+            "directoryPosition": "Prof. LIU Yan Fiona Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIU Yang Veronica",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+            "directoryPosition": "Prof. LIU Yang Veronica Associate Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LOU Wei",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+            "directoryPosition": "Prof. LOU Wei Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "NGAI Grace",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+            "directoryPosition": "Prof. NGAI Grace Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "PEI Yu Max",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+            "directoryPosition": "Prof. PEI Yu Max Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "SHI Jieming",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+            "directoryPosition": "Prof. SHI Jieming Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WANG Qixin",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+            "directoryPosition": "Prof. WANG Qixin Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YANG Bo",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+            "directoryPosition": "Prof. YANG Bo Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YANG Lei Ray",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+            "directoryPosition": "Prof. YANG Lei Ray Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "FAN Wenqi",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+            "directoryPosition": "Prof. FAN Wenqi Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "GAO Shang Jason",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+            "directoryPosition": "Prof. GAO Shang Jason Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "GUO Jingcai",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+            "directoryPosition": "Prof. GUO Jingcai Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Chen Richard",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+            "directoryPosition": "Prof. LI Chen Richard Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIN Wanyu",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+            "directoryPosition": "Prof. LIN Wanyu Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIU Ninghao",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+            "directoryPosition": "Prof. LIU Ninghao Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIU Yu",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+            "directoryPosition": "Prof. LIU Yu Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "NG Hiu Fung Peter",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+            "directoryPosition": "Prof. NG Hiu Fung Peter Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "QIN Haotong",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+            "directoryPosition": "Prof. QIN Haotong Assistant Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "SHEN Yu",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+            "directoryPosition": "Prof. SHEN Yu Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WU Yujie",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+            "directoryPosition": "Prof. WU Yujie Assistant Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "XU Songlin",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+            "directoryPosition": "Prof. XU Songlin Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Chen Jason",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+            "directoryPosition": "Prof. ZHANG Chen Jason Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHOU Kai",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+            "directoryPosition": "Prof. ZHOU Kai Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHANG Yijia",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+            "directoryPosition": "Dr CHANG Yijia Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHEN Long",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+            "directoryPosition": "Dr CHEN Long Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "DI Yining",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+            "directoryPosition": "Dr DI Yining Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HE Chenhang",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+            "directoryPosition": "Dr HE Chenhang Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HE Ningyu",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+            "directoryPosition": "Dr HE Ningyu Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HU Zhejing",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+            "directoryPosition": "Dr HU Zhejing Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "JIANG Qinhong",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+            "directoryPosition": "Dr JIANG Qinhong Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Haoyang",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+            "directoryPosition": "Dr LI Haoyang Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Yongqi",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+            "directoryPosition": "Dr LI Yongqi Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Zecheng",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+            "directoryPosition": "Dr LI Zecheng Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LU Xingye",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+            "directoryPosition": "Dr LU Xingye Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "NI Minheng",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+            "directoryPosition": "Dr NI Minheng Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "SHENG Xihua",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+            "directoryPosition": "Dr SHENG Xihua Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "SIN Ping Tat Zackary",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+            "directoryPosition": "Dr SIN Ping Tat Zackary Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WANG Xiangmeng",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+            "directoryPosition": "Dr WANG Xiangmeng Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WEN Zhiyuan",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+            "directoryPosition": "Dr WEN Zhiyuan Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "XIA Xianjin",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+            "directoryPosition": "Dr XIA Xianjin Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Jia",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+            "directoryPosition": "Dr ZHANG Jia Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Li",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+            "directoryPosition": "Dr ZHANG Li Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Mingjin",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+            "directoryPosition": "Dr ZHANG Mingjin Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Zhaorui",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+            "directoryPosition": "Dr ZHANG Zhaorui Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHENG Changmeng",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+            "directoryPosition": "Dr ZHENG Changmeng Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHOU Alexander",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+            "directoryPosition": "Dr ZHOU Alexander Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHOU Hao",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+            "directoryPosition": "Dr ZHOU Hao Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHUN Andy",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+            "directoryPosition": "Prof. CHUN Andy Professor of Practice",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WEI Xiaoyong",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+            "directoryPosition": "Prof. WEI Xiaoyong Professor of Practice",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "FUNG Sui Leung Walter",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-fung-sui-leung-walter/",
+            "directoryPosition": "Dr FUNG Sui Leung Walter Associate Professor of Practice",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。"
+          },
+          {
+            "name": "LEONG Hong Va",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+            "directoryPosition": "Dr LEONG Hong Va Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LUI Wing Cheung Richard",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lui-wing-cheung-richard/",
+            "directoryPosition": "Dr LUI Wing Cheung Richard Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。"
+          },
+          {
+            "name": "MOHAMMED Aquil Mirza",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+            "directoryPosition": "Dr MOHAMMED Aquil Mirza Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LAI Lotto",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+            "directoryPosition": "Dr LAI Lotto Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "PANG Wai Man Raymond",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+            "directoryPosition": "Dr PANG Wai Man Raymond Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "TANG Kai Tai Jeff",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+            "directoryPosition": "Dr TANG Kai Tai Jeff Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "TAYYAB Muhammad",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+            "directoryPosition": "Dr TAYYAB Muhammad Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "XIE Hongcheng",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+            "directoryPosition": "Dr XIE Hongcheng Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LAM Alexander",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+            "directoryPosition": "Dr LAM Alexander Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LYU Mingsong",
+            "profileUrl": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/",
+            "directoryPosition": "Dr LYU Mingsong Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          }
+        ]
+      }
     },
     {
       "id": "wide-dir-polyu-eee",
@@ -54035,13 +67596,555 @@ window.APP_CATALOG = {
     {
       "id": "expand-dir-polyu-ama",
       "universityId": "polyu",
-      "unit": "应用数学系 / Applied Mathematics",
+      "unit": "Department of Applied Mathematics",
       "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
       "sourceIds": [
-        "expand-dir-polyu-ama"
+        "expand-dir-polyu-ama",
+        "polyu-fcms-directory-ama-20261027"
       ],
-      "coverageNotes": "官方目录按职务分组，另列荣休、访问及兼职类别。本轮读取孙德锋、赵兴球两位个人页，其他个人页仍待整理。",
-      "coverageComplete": false
+      "coverageNotes": "本次静态主名录观察59条主页，逐条读到正文；其他任职分类另列，未把URL数当独立导师人数或余位。",
+      "coverageComplete": false,
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-jian/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qi-houduo/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zachary-leung-ngai-hang/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-leung-ping-kei/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+        "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/"
+      ],
+      "census": {
+        "observedTotal": 59,
+        "profilesRead": 59,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "Sun Defeng",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+            "directoryPosition": "Prof. Sun Defeng Head and Chair Professor of Applied Optimization and Operations Research, RGC Senior Research Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Chen Xiaojun",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+            "directoryPosition": "Prof. Chen Xiaojun Associate Director of UCAIC and Chair Professor of Applied Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Huang Jian",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-jian/",
+            "directoryPosition": "Prof. Huang Jian Chair Professor of Data Science and Analytics (joint appointment with DSAI)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Leng Chenlei",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+            "directoryPosition": "Prof. Leng Chenlei Chair Professor of Statistics and Machine Learning",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Li Buyang",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+            "directoryPosition": "Prof. Li Buyang Chair Professor of Computational Mathematics and RGC Research Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Qiao Zhonghua",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+            "directoryPosition": "Prof. Qiao Zhonghua Chair Professor of Numerical Analysis and Scientific Computing and RGC Research Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Yang Tong",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+            "directoryPosition": "Prof. Yang Tong Kuok Group Professor in Mathematical Science & Chair Professor of Mathematical Science 郭氏集團數學科學教授及數學科學講座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Cedric Yiu Ka-fai",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+            "directoryPosition": "Prof. Cedric Yiu Ka-fai Associate Head of Department and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zhao Xingqiu",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+            "directoryPosition": "Prof. Zhao Xingqiu Associate Head of Department and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Raymond Sze Nung-sing",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+            "directoryPosition": "Prof. Raymond Sze Nung-sing Associate Dean of Faculty of Computer and Mathematical Sciences Associate Director of TJU PolyU Shenzhen Institute of Future Technology Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "He Daihai",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+            "directoryPosition": "Prof. He Daihai Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Hu Xianpeng",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+            "directoryPosition": "Prof. Hu Xianpeng Professor and RGC Research Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Li Xun",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+            "directoryPosition": "Prof. Li Xun Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Lin Yanping",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+            "directoryPosition": "Prof. Lin Yanping Research Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Pong Ting-kei",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+            "directoryPosition": "Prof. Pong Ting-kei Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Qi Houduo",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qi-houduo/",
+            "directoryPosition": "Prof. Qi Houduo Professor (joint appointment with DSAI)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Wang Zhian",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+            "directoryPosition": "Prof. Wang Zhian Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Xu Zuoquan",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+            "directoryPosition": "Prof. Xu Zuoquan Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Yang Xiaoqi",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+            "directoryPosition": "Prof. Yang Xiaoqi Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zhang Guofeng",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+            "directoryPosition": "Prof. Zhang Guofeng Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zhou Zhi",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+            "directoryPosition": "Prof. Zhou Zhi Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Fu Guanxing",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+            "directoryPosition": "Prof. Fu Guanxing Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "James Huang",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+            "directoryPosition": "Prof. James Huang Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Joseph Lee Heung-wing",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+            "directoryPosition": "Prof. Joseph Lee Heung-wing Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Lou Yijun",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+            "directoryPosition": "Prof. Lou Yijun Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Alex Wong Kin-yau",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+            "directoryPosition": "Prof. Alex Wong Kin-yau Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Yu Xiang",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+            "directoryPosition": "Prof. Yu Xiang Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Yue Man-Chung",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+            "directoryPosition": "Prof. Yue Man-Chung Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Cao Xinlin",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+            "directoryPosition": "Prof. Cao Xinlin Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Chen Kexin",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+            "directoryPosition": "Prof. Chen Kexin Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Cui Jianbo",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+            "directoryPosition": "Prof. Cui Jianbo Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Hu Jiashun",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+            "directoryPosition": "Prof. Hu Jiashun Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Huang Yilie",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+            "directoryPosition": "Prof. Huang Yilie Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Jiang Zhaoli",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+            "directoryPosition": "Prof. Jiang Zhaoli Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Shen Guohao",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+            "directoryPosition": "Prof. Shen Guohao Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Tang Rong",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+            "directoryPosition": "Prof. Tang Rong Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Yuan Yancheng",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+            "directoryPosition": "Prof. Yuan Yancheng Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zhang Shijun",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+            "directoryPosition": "Prof. Zhang Shijun Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zhang Zhu",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+            "directoryPosition": "Prof. Zhang Zhu Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Li Hao",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+            "directoryPosition": "Dr Li Hao Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Li Mingxiang",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+            "directoryPosition": "Dr Li Mingxiang Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Liu Wei",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+            "directoryPosition": "Dr Liu Wei Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Wang Qi",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+            "directoryPosition": "Dr Wang Qi Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Yao Fangyan",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+            "directoryPosition": "Dr Yao Fangyan Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zhang Hua",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+            "directoryPosition": "Dr Zhang Hua Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "He Yangbo",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+            "directoryPosition": "Dr He Yangbo Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Charles Lee Kei-fung",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+            "directoryPosition": "Dr Charles Lee Kei-fung Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Zachary Leung Ngai-hang",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zachary-leung-ngai-hang/",
+            "directoryPosition": "Dr Zachary Leung Ngai-hang Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。"
+          },
+          {
+            "name": "Leung Ping-kei",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-leung-ping-kei/",
+            "directoryPosition": "Dr Leung Ping-kei Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。"
+          },
+          {
+            "name": "Selena Qian Yihe",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+            "directoryPosition": "Dr Selena Qian Yihe Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Allen Tai Hoi-lun",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+            "directoryPosition": "Dr Allen Tai Hoi-lun Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Tian Peixin",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+            "directoryPosition": "Dr Tian Peixin Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Terry Tong Kam-hung",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+            "directoryPosition": "Dr Terry Tong Kam-hung Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Wang Di",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+            "directoryPosition": "Dr Wang Di Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Andy Cheung Yat-ming",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+            "directoryPosition": "Dr Andy Cheung Yat-ming Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Ho Chor-yin",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+            "directoryPosition": "Dr Ho Chor-yin Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Adam Leung Man-kin",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+            "directoryPosition": "Mr Adam Leung Man-kin Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Frankie Tsoi Sze-leong",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+            "directoryPosition": "Mr Frankie Tsoi Sze-leong Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "Angus Yeung Hon-keung",
+            "profileUrl": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/",
+            "directoryPosition": "Mr Angus Yeung Hon-keung Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          }
+        ]
+      }
     },
     {
       "id": "expand-dir-cityu-ds",
@@ -55615,6 +69718,288 @@ window.APP_CATALOG = {
             "profileRead": true,
             "reviewStatus": "body_read",
             "checkedAt": "2026-10-27"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-dsai-academic-census",
+      "universityId": "polyu",
+      "unit": "Department of Data Science and Artificial Intelligence",
+      "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+      "sourceIds": [
+        "polyu-fcms-directory-dsai-20261027"
+      ],
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/huangjian/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/qihouduo/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/chungkorris/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+        "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "本次静态主名录观察29条主页，逐条读到正文；其他任职分类另列，未把URL数当独立导师人数或余位。",
+      "census": {
+        "observedTotal": 29,
+        "profilesRead": 29,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "TAN Kay Chen",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+            "directoryPosition": "Prof. TAN Kay Chen Head and Chair Professor of Computational Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHENG Ran",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+            "directoryPosition": "Prof. CHENG Ran Associate Head (Outreach and Partnership), Associate Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "JIANG Binyan",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+            "directoryPosition": "Prof. JIANG Binyan Associate Head (Teaching) and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "KUMAR Ajay",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+            "directoryPosition": "Prof. KUMAR Ajay Associate Head (Research) and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CAO Liangliang",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+            "directoryPosition": "Prof. CAO Liangliang Chair Professor of Artificial Intelligence Systems",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HUANG Jian",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huangjian/",
+            "directoryPosition": "Prof. HUANG Jian Chair Professor of Data Science and Analytics (joint appointment with AMA)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIANG Hualou",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+            "directoryPosition": "Prof. LIANG Hualou ADoUBSN & Chair Professor of Neuroscience and Artificial Intelligence (joint appointment with AIH & LST)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YANG Qiang",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+            "directoryPosition": "Prof. YANG Qiang Chief Artificial Intelligence Officer (CAIO), Director of PolyU Academy for Artificial Intelligence (DoPAAI), Director of Research Institute for Federated Learning (DoRIFL), Chair Professor of Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Chengqi",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+            "directoryPosition": "Prof. ZHANG Chengqi Director of The Hong Kong Polytechnic University Shenzhen Research Institute (SZRI), Chair Professor of Artificial Intelligence",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ZHANG Weixiong",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+            "directoryPosition": "Prof. ZHANG Weixiong ADoPAIR & Chair Professor of Systems Biology and Artificial Intelligence, Hong Kong Global STEM Scholar (joint appointment with HTI)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "QI Houduo",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/qihouduo/",
+            "directoryPosition": "Prof. QI Houduo Professor (joint appointment with AMA)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHUNG Fu Lai Korris",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/chungkorris/",
+            "directoryPosition": "Prof. CHUNG Fu Lai Korris Associate Professor (joint appointment with COMP)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HUA Wen",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+            "directoryPosition": "Prof. HUA Wen Assistant Dean (Graduate Studies), Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIU Catherine C.",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+            "directoryPosition": "Prof. LIU Catherine C. Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WU Xiao Ming",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+            "directoryPosition": "Prof. WU Xiao Ming Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "CHEN Zhen",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+            "directoryPosition": "Prof. CHEN Zhen Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HAN Ruijian",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+            "directoryPosition": "Prof. HAN Ruijian Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HUANG Jiaxing",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+            "directoryPosition": "Prof. HUANG Jiaxing Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LI Xinfeng",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+            "directoryPosition": "Prof. LI Xinfeng Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "ROSSI Luca",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+            "directoryPosition": "Prof. ROSSI Luca Assistant Professor (joint appointment with EEE)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "SONG Zixing",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+            "directoryPosition": "Prof. SONG Zixing Assistant Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WU Jibin",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+            "directoryPosition": "Prof. WU Jibin Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WU Xingyu",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+            "directoryPosition": "Prof. WU Xingyu Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "YANG Xingyi",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+            "directoryPosition": "Prof. YANG Xingyi Assistant Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "HU Yao",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+            "directoryPosition": "Dr HU Yao Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LUO Yanchen",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+            "directoryPosition": "Dr LUO Yanchen Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "FONG Chi Kit Ken",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+            "directoryPosition": "Dr FONG Chi Kit Ken Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "LIAO Weihang Ryo",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+            "directoryPosition": "Dr LIAO Weihang Ryo Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
+          },
+          {
+            "name": "WANG Xiuling Lily",
+            "profileUrl": "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/",
+            "directoryPosition": "Dr WANG Xiuling Lily Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。"
           }
         ]
       }
@@ -62882,7 +77267,2728 @@ window.APP_CATALOG = {
               "failure": null
             }
           ],
-          "staffEntries": []
+          "staffEntries": [
+            {
+              "label": "Department of Applied Mathematics · 当前主名录",
+              "url": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-fcms-directory-ama-20261027"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Sun Defeng",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-sun-defeng/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "bb490dc5a0be937f6a780f21b25b8cf1785a02b351faf073a141cbdf40def276",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "expand-polyu-defeng-sun"
+                },
+                {
+                  "name": "Chen Xiaojun",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-xiaojun/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a94f5538a335ab646021bc3f959fe96beb4063de65f476a87933b0540e5e1638",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d471ffab13d8fa"
+                },
+                {
+                  "name": "Huang Jian",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-jian/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "254d620c46c05726b9fe69306934267eef77c38d2d5b631032e69ffa5a3d486a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c520950dbc2e00"
+                },
+                {
+                  "name": "Leng Chenlei",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-leng-chenlei/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6df61a00721f30c21528d03b34d0c75ad638307eafee869cecab6f1f96a57015",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-b36d7850129704"
+                },
+                {
+                  "name": "Li Buyang",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-buyang/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c2941dcae23fd8247d485b99896bdf1c72e991c1846a872a5646f7290e5e4e20",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-614d81e6e75511"
+                },
+                {
+                  "name": "Qiao Zhonghua",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qiao-zhonghua/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "84f27087455f4ed01c53a7704b14c63230f57605785d1b86f8089a65ea058a82",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6943a0bb1447ea"
+                },
+                {
+                  "name": "Yang Tong",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-tong/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4f2e9ba130e3c7d679e231024911fcc8ae8aa738dd31a7db1e810761012cf993",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-35181c49089bff"
+                },
+                {
+                  "name": "Cedric Yiu Ka-fai",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cedric-yiu-ka-fai/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "9b9844d4c1c69126cd85de2678c555848d5921858726b474b8bea788e2b3031e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-510676acf27cac"
+                },
+                {
+                  "name": "Zhao Xingqiu",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhao-xingqiu/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f4121a535bad2fccdc27fa4af592715a89bb004da4a66accd1e03534c9fb149b",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "expand-polyu-xingqiu-zhao"
+                },
+                {
+                  "name": "Raymond Sze Nung-sing",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-raymond-sze-nung-sing/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "57a47b8636221912020bd32e931b3da1f8a5c01faef00eb1ec26ca78fe5b52f0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-379370c5e1f5f7"
+                },
+                {
+                  "name": "He Daihai",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-he-daihai/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7ff0e0d35c2fb2e11055ea6bcc674992b7304a06138c601bf3b8e612d374bd89",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-bd22ff701683d7"
+                },
+                {
+                  "name": "Hu Xianpeng",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-xianpeng/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "57fe68c1f606b91667a1291c232fe3e8bd626e58711023f5e02322f7e577c5ad",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-e9ed6553669ce9"
+                },
+                {
+                  "name": "Li Xun",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-li-xun/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2e3d21b2e7c56f2ffc7d16572915b36c86ccd75e9ba2a13fa1c7dad64a5cdd15",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-1ec218f7b60565"
+                },
+                {
+                  "name": "Lin Yanping",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lin-yanping/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c441a9af2ae3abb788f08eed3c5405a1503114644ecf7d4f2d244a20f635e182",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-46b671247db5b1"
+                },
+                {
+                  "name": "Pong Ting-kei",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-pong-ting-kei/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "903fa1719411482c044ae6d3c37f3f1fd34769d8782031f24d7afb0e1df0ea74",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-012c38e24504bc"
+                },
+                {
+                  "name": "Qi Houduo",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-qi-houduo/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d4372fd8396b8672ab4780fedf32e1db5610605e12d1aad5b880a33f1754db1a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-f280c5031c8465"
+                },
+                {
+                  "name": "Wang Zhian",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-wang-zhian/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d043a6b3a2fefe6f200ef160bb8337faead1555a234d7cb4f625906a489d41d9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-0b13aecf5d31b6"
+                },
+                {
+                  "name": "Xu Zuoquan",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-xu-zuoquan/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4235edde878343db129746fec568363ed6464d377b1e9cc13d246a2b58e6529f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-40b38043ece419"
+                },
+                {
+                  "name": "Yang Xiaoqi",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yang-xiaoqi/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "26286adc7ee7d9c166facc36169a945b34ed224aee1aa1e863806c5ea88a95a6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-fe26ee38239d80"
+                },
+                {
+                  "name": "Zhang Guofeng",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-guofeng/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "93db3dc7a3cf5c9429795d9d4ccac38d73697f998198d35b02a075a9f6ff36fa",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6b4a2536560ffc"
+                },
+                {
+                  "name": "Zhou Zhi",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhou-zhi/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e601ddd9b3bbd06b7c363b68260fb41de67413c07bc5575af86bec53ee6adcec",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-f65c9eaa2bfeb8"
+                },
+                {
+                  "name": "Fu Guanxing",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-fu-guanxing/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "23bacee24a6ec95fde045c6b4f1f094e4cb4b37ae06b0cd2f54c64de5da20427",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c5913fb55cb243"
+                },
+                {
+                  "name": "James Huang",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-james-huang/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e235307d17ef141a214117a46edb8189e09d31771dcbbf8deb3b05dbbf48899a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ba8db80652ac0e"
+                },
+                {
+                  "name": "Joseph Lee Heung-wing",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-joseph-lee-heung-wing/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ca7012a17a472829ebd14e17bf9ccdd896431f7634fb31970a42048eddefdecc",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6cd2ecc120fd28"
+                },
+                {
+                  "name": "Lou Yijun",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-lou-yijun/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ef7c3a4788e635ba66a7c486690ceb914b7fa2675a9b0dd51b327346125ef786",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-83ac08d4e16084"
+                },
+                {
+                  "name": "Alex Wong Kin-yau",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-alex-wong-kin-yau/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c3ee87fecf2c3a3469b745f1d9893ad61825ae71c388528b99402796ff7ee771",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d63eea09b1dad3"
+                },
+                {
+                  "name": "Yu Xiang",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yu-xiang/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d0b9f52dad7f7902b53eccef919541533bd3d8028a41ef5689768c459ceec99e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-b8b9c09a89e0b6"
+                },
+                {
+                  "name": "Yue Man-Chung",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yue-man-chung/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "918a9991a70573c0d962434745c9806c3f7ad020ff03fa334c53259312a8a23e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-573c69a03d2305"
+                },
+                {
+                  "name": "Cao Xinlin",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cao-xinlin/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1aafcd088dddceead060e434f4c112a844e25005e553903a64fd3e4467510f2b",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-49866b153c1fc9"
+                },
+                {
+                  "name": "Chen Kexin",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-chen-kexin/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a8c89ee4db1e68e16e03ce66d1b1e005a0a5b09c11d2695f004ade43a4f621d9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3ed424038097c2"
+                },
+                {
+                  "name": "Cui Jianbo",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-cui-jianbo/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d4bbdaf0af1bd0412c07ceccd8834d023de610f89c6d953f3341f2b846d81b2f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-16c5210c4af933"
+                },
+                {
+                  "name": "Hu Jiashun",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-hu-jiashun/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6e76f9e70c62223ea841d13e2dc0a10422ed2992e6657fb45a6f015d2c55124e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3ae09bb7eb61c4"
+                },
+                {
+                  "name": "Huang Yilie",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-huang-yilie/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6e4039da612872982352b0165288e0dd28d1170a5d07cd97ae28a21e91644c25",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-13b493ae883025"
+                },
+                {
+                  "name": "Jiang Zhaoli",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-jiang-zhaoli/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "5f01d4fbce78bfdc7741112b6280c7e3b2277f6bc370fd8c4319ba1d935b612c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-0da79a15a8f379"
+                },
+                {
+                  "name": "Shen Guohao",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-shen-guohao/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "3d14fc9fd20bb372cfb301bb5105d3992564c3b54181796be371df53cdffb05d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-34bb7299171bfe"
+                },
+                {
+                  "name": "Tang Rong",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-tang-rong/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6fd389c443503bc02028070bc97feb5814965d376a2dab84870119e57cd968db",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7e544c274d87fa"
+                },
+                {
+                  "name": "Yuan Yancheng",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-yuan-yancheng/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "20134261c69d1ebd239318f62f5ebdaff03a77a6d5fb87fb5d11c88eef8c9dea",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-8d355b2f5349af"
+                },
+                {
+                  "name": "Zhang Shijun",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-shijun/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b498d773ff82e92592061064f576cf9d780e1c03924b2c46a24705e22a499bbf",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-052032af7b591b"
+                },
+                {
+                  "name": "Zhang Zhu",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/prof-zhang-zhu/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0b6439f5703bed3ae68031cea325022f5e15296871c7dfee4b6583e2a9131c43",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-2ca816e7b63e3a"
+                },
+                {
+                  "name": "Li Hao",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-hao/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a5fd4cbd7f453a80ff85282a1456649b645cfb13a12995c543871355495b4b77",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-5c9cc3aec5fb43"
+                },
+                {
+                  "name": "Li Mingxiang",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-li-mingxiang/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "83f809495aabef5bda8fb688f15c51a8fb58c7695963a68eced13281681d6066",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-bfa085b68c80db"
+                },
+                {
+                  "name": "Liu Wei",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-liu-wei/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4faa72647ac6535d5796bdd7c49921c0625e843eed322bb913d6d7bccacce6e9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-79bf855eb5c159"
+                },
+                {
+                  "name": "Wang Qi",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-qi/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4540665a6e81e4f34eac76b329e361f03df355be52e8067e2204c0a940c4b81f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-693dea57e840b9"
+                },
+                {
+                  "name": "Yao Fangyan",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-yao-fangyan/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "adab0631c44777350ce19be07e974a045646b384212542c38eb660b9fa3fcd8a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d3fea1106cc2b4"
+                },
+                {
+                  "name": "Zhang Hua",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zhang-hua/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "bf19501e313974459f14c1cf667b1c72186d344a579fc66070c4550ebea900a5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-e7c93685e83ca1"
+                },
+                {
+                  "name": "He Yangbo",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-he-yangbo/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e64ba0785254a118813c93e10c4a8ea2a89532869b3abeff5a053a3fc2d75984",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-12081d7b8406fb"
+                },
+                {
+                  "name": "Charles Lee Kei-fung",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-charles-lee-kei-fung/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f9b982ca1508b4006d0116373a7e330b80fa3fc362905c098e0e67bbbb289712",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7b4fed6c1c7acd"
+                },
+                {
+                  "name": "Zachary Leung Ngai-hang",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-zachary-leung-ngai-hang/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e706b4f43fddbed85299e754301d420edea5bccdb890e4342c23d4d1d972e432",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。",
+                  "researchReviewStatus": "pending"
+                },
+                {
+                  "name": "Leung Ping-kei",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-leung-ping-kei/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ef386e773b8790f1b519e72c7473d5b0c45d7355f29655ec459cad2be23c7c7d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。",
+                  "researchReviewStatus": "pending"
+                },
+                {
+                  "name": "Selena Qian Yihe",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-qian-yihe/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "3cf3604ef9a1f498eba2bcd9d46389694610fc17b7d9293394579f2da25e006f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-710b37ee1117b7"
+                },
+                {
+                  "name": "Allen Tai Hoi-lun",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-allen-tai-hoi-lun/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "60e552e4a0066f8347caa512b5ff4edec323457c73bde0df8e5e290446f0987e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c135daa1cf54c3"
+                },
+                {
+                  "name": "Tian Peixin",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-tian-peixin/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f34374cf38868d8d01f76143f44c2852c8b0f539ae8239e4c50ba98ed70c49b5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-85e3bd7d2e6754"
+                },
+                {
+                  "name": "Terry Tong Kam-hung",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-terry-tong-kam-hung/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7fa69bc6d7aedcdf0588b45ff27ed89be019129221534efe79f6ba89e331ab7d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-bc37ba66514237"
+                },
+                {
+                  "name": "Wang Di",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-wang-di/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6690ec3023efd650bfa7336fe7bd1fecf9d99031ada95d794c50fe38b7672f43",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-4f522dbf11d6c8"
+                },
+                {
+                  "name": "Andy Cheung Yat-ming",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-andy-cheung-yat-ming/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0edae0991b5a72c1c5023ebcf6d71038ef27f5c2508a4a4b2be220d1717bf2b2",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-bf4165568a60d5"
+                },
+                {
+                  "name": "Ho Chor-yin",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/dr-ho-chor-yin/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f6af8465483fb4680537a6aee105e4559e443d354b1a9945095a390a2333958f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-4f873c63d65b91"
+                },
+                {
+                  "name": "Adam Leung Man-kin",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-adam-leung-man-kin/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1072aa0decfc1bff8373fd2967ddbfae0f36a4bb6bec9ad0951db9c1650a56f6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-db9064f373096b"
+                },
+                {
+                  "name": "Frankie Tsoi Sze-leong",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-frankie-tsoi-sze-leong/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "be3894b4e64a501b11279cafbbfc6c866c2a025fb99d01bfb0a215272f40f866",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ce7aa9490d2bbe"
+                },
+                {
+                  "name": "Angus Yeung Hon-keung",
+                  "url": "https://www.polyu.edu.hk/ama/people/academic-staff/mr-angus-yeung-hon-keung/",
+                  "observedOn": "https://www.polyu.edu.hk/ama/people/academic-staff/",
+                  "directoryLabel": "Department of Applied Mathematics / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-ama-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f1d8c89634a7679b9a99fdeced8f9c33498dbe561fa4efd814ae887a46141922",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7d293bcbb11f6c"
+                }
+              ]
+            },
+            {
+              "label": "Department of Computing · 当前主名录",
+              "url": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-fcms-directory-comp-20261027"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "LI Qing",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-qing/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8efbc97f36fc9742ff9f177ab76474daebd19027295cab3d3e9144659e196b1f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-qing-li"
+                },
+                {
+                  "name": "CAO Jiannong",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-jiannong/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "041e07c894dc5c9bc6254cccab468256db76a97cbd364bf4de66c98302d7d5cd",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-cao"
+                },
+                {
+                  "name": "CHEN Changwen",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chen-changwen/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "52974464ffd93761386331d9165066c4b64a21ed1e2a0c733f89f8d13d577410",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-changwen-chen"
+                },
+                {
+                  "name": "YANG Hongxia",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-hongxia/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7f65045b31c3e987c05a8dc99c99e90fe95fbcea7e49015494ffec7f1a0371d6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-hongxia-yang"
+                },
+                {
+                  "name": "ZHANG Lei John",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-lei-john/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7e2c954a893db4d101f515b3f82218245c40319276506cc70642565c880f9f0d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-lei-zhang"
+                },
+                {
+                  "name": "AU Man Ho Allen",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-au-allen/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ef40b48849f8a6e13c8bbc700021da2505601f174c45f88af09b2e4d62518cd9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-f2b021a0f10e61"
+                },
+                {
+                  "name": "XIAO Bin",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xiao-bin/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "251bacf875928fc4a31d23c194bb5235ab2e11026c6c6ce53bee88c939b1ceba",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-56d6a7b68a9c5a"
+                },
+                {
+                  "name": "YIU Man Lung Ken",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yiu-man-lung-ken/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1bbc35110400bc19f854ecaa688add44442b6242789641879282ca7294b2d22f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-9e8c3fd37a4463"
+                },
+                {
+                  "name": "HOORN Johan",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-hoorn-johan/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a14de33ec2f33b135361aa86c62ac078e0f59cbd3fa535a573af939d2648a881",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-8cf71bc59b5e48"
+                },
+                {
+                  "name": "LI Wenjie Maggie",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-wenjie-maggie/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6fa7176c70f1a23e2099191fe4f8b345637388255003821d8c5d080bc590f4d1",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-wenjie-li"
+                },
+                {
+                  "name": "LI Zhenhui Jessie",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jessie-zhenhui/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ae8791b95595432c702e5c367697b37b332f22ead863ddb74f260bc6bdd863d0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-2df7a89941e294"
+                },
+                {
+                  "name": "LUO Xiapu Daniel",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-luo-xiapu-daniel/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a97b61a44f34c010d2d1d1a2a85c572fca7a05558e9821b224ab9629fc6ff259",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-0dcebef6d90623"
+                },
+                {
+                  "name": "YANG Chenguang Charlie",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-chenguang-charlie/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7dce1f345ec7e3b2413b242b1a1f6a59310a2fe27ce755dd1bda15ae5bc8222d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-chenguang-yang"
+                },
+                {
+                  "name": "ZHENG Yuanqing",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zheng-yuanqing/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1b5a7bac51569abfbe2a918d46c644b783171ae384d2fb36320b8337ede92a02",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-9b0e7d2e2fcef0"
+                },
+                {
+                  "name": "CAO Yixin",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-cao-yixin/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "83c5b0786464ee36365da408982cb19949d31549902d77d78024b321ab5a1bbf",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-2a10efa73336ba"
+                },
+                {
+                  "name": "CHUNG Fu Lai Korris",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chung-fu-lai-korris/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "683859e21fceac75b0ba71efae82b7d0a82ba67f4d9994496c4f19ba3f410448",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-94fa122c4d2806"
+                },
+                {
+                  "name": "HUANG Xiao",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-huang-xiao/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d061996877b051bec3aa9e5f898fc0d376a89fd370ae16a360c41a323944d177",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d309a16bf7011b"
+                },
+                {
+                  "name": "JIANG Di",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-jiang-di/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "46de66bba651dc86ab2c3b8c708722adc7bb5193595892ddd7860a0fd386094a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-polyu-di-jiang"
+                },
+                {
+                  "name": "LI Bo",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-bo/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "01de06d1d76e3dcf458097e37d62abaf46d536560367a426dd38e0c604f321f9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7133f193709432"
+                },
+                {
+                  "name": "LI Jing Amelia",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-jing-amelia/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4884a48016f973369f0ca532e70d13eec8db76ab9c8e1156e295de6e77d84fd7",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-b5a3d79c326273"
+                },
+                {
+                  "name": "LIU Yan Fiona",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yan-fiona/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ebc5cdb869963663d23b76768ba692eec38889e56e66148abdb077a7081a110a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-48bf4e7876542e"
+                },
+                {
+                  "name": "LIU Yang Veronica",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yang-veronica/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0a32fc8cc6ec60046204f16609d4a996c81cf4cdf944e7f505133a80120bfa52",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-82aba99a9319bc"
+                },
+                {
+                  "name": "LOU Wei",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lou-wei/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ba36bc67ac42f7de1c33e253f5e57915ae4c0ca6662b1b3e9f3875f83735ae26",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-115a6a10d93d58"
+                },
+                {
+                  "name": "NGAI Grace",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ngai-grace/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2b0a2d9e38492dc279ebbdd285b2c5574a64caffb04108b174a8997864a5131c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-4867fcb0e644c7"
+                },
+                {
+                  "name": "PEI Yu Max",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-pei-yu-max/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d98775b1e824133f155d30206ac43d1affef46265cb53d12b30d452130c98717",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-f9983005e2973c"
+                },
+                {
+                  "name": "SHI Jieming",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shi-jieming/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "3ad8cab36da64a788bfe728d137165f71bc7f1da6fafc82bafe15637b7ecc4d6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c852470416babf"
+                },
+                {
+                  "name": "WANG Qixin",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wang-qixin/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "25dd3623851bdb8f18425f2b3b164c7c374728abea6b79887aa01fca8326e4ba",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-88c4f19aabb397"
+                },
+                {
+                  "name": "YANG Bo",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-bo/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e0a61f29d8750cd4f94fd100b100acd6f5885082f9485774504e0ac2be2d5fc7",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ed66ea18769971"
+                },
+                {
+                  "name": "YANG Lei Ray",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-yang-lei-ray/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "27025261f82b592073a02936432b16db96aa6f1a8b2b1f4bb91c02bf55719749",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-128cdc07819ef2"
+                },
+                {
+                  "name": "FAN Wenqi",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-fan-wenqi/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "80b77425cc03a3365fccc7a29af89b9df56b2796df9026b8bff8f8dd73bb4a23",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3777fc2789c226"
+                },
+                {
+                  "name": "GAO Shang Jason",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-gao-shang/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "719c94a1cea94362a206c8b3dd33424df03bf731641925b3e23dabcfb394b29c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6361a4a0770ac9"
+                },
+                {
+                  "name": "GUO Jingcai",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-guo-jingcai/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ae97b33ce762d8d1ea56f848c8b73cdde3a9ed3945f0742c880d730f2004c18f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6ba7e27c979c24"
+                },
+                {
+                  "name": "LI Chen Richard",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-li-chen-richard/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "37aef0c1069ab6a8cb7c82f876cd1720eebc903e9d02540b032df82b971cfe1c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-693d602de0fb07"
+                },
+                {
+                  "name": "LIN Wanyu",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-lin-wanyu/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "57af52a8f7cafb9e2fba197778f0c4608b4f75bfc8720b51fd64e60fb9a21cf7",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-61814d6de802c7"
+                },
+                {
+                  "name": "LIU Ninghao",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-ninghao/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d096b156d1e28bbba1fb839dc5566eaae19d1e8d3b1afd5717c78d3a7d5453f8",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-36e71866f57488"
+                },
+                {
+                  "name": "LIU Yu",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-liu-yu/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2fa7ee8252e75f1a9cf1360da0699892814da124a8bd6e1309dc070e120a854f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-0f7a163d4d0198"
+                },
+                {
+                  "name": "NG Hiu Fung Peter",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-ng-hiu-fung-peter/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b65e424999358cde9f5f311444c95c770298fdd4969ec98ac70d5ebdd17c3ba0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-0283b412c4763f"
+                },
+                {
+                  "name": "QIN Haotong",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-qin-haotong/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0c2c39f684ebd5a6c3dcebd3f5c9b922d82be00d514c628a63de98179413d19e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ab65b389795d93"
+                },
+                {
+                  "name": "SHEN Yu",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-shen-yu/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2bd0bc28c7b074f2141687f5c4a250c960ef53a6b9b835a9978496cb01e8cacf",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-cb1fff4718e4f3"
+                },
+                {
+                  "name": "WU Yujie",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wu-yujie/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "3c2eb24f352ea13161623bf511c7d8cc2bcfd5479eee4794e72075b076c40571",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-169b25f6955dbf"
+                },
+                {
+                  "name": "XU Songlin",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-xu-songlin/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ff324f84e9ee88ac887108a4db91734735a7a98e425592313f867899ede588ea",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d96f264d985a91"
+                },
+                {
+                  "name": "ZHANG Chen Jason",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhang-chen-jason/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ee70c271809a6973fbd7dd48b0344c820fc2ace13fe875028d0d9951f6866d04",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-e4e921fc8f0b7d"
+                },
+                {
+                  "name": "ZHOU Kai",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-zhou-kai/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "245d8c697e2c040195999f32e902040261ecc3c291910905262cbc26f13d9a0e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3244a94a4b9794"
+                },
+                {
+                  "name": "CHANG Yijia",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chang-yijia/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "26eb2156b0038a1f67f1753f4fbb8d00eff873b273039ce4ce2a57933461dc49",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-806cc47bcf816a"
+                },
+                {
+                  "name": "CHEN Long",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-chen-long/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6f9359090baaa6f8bdd9b104d279ea37a40aa3d85e3d6298fe5ed082fa585391",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7751ab15ed0e87"
+                },
+                {
+                  "name": "DI Yining",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-di-yining/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "af7425dc95e848a9a043252f9aff88ed5521fc049a78b8bd8405fd26d9dc0879",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-9817a66b8b4c37"
+                },
+                {
+                  "name": "HE Chenhang",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-chenhang/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d9c3c830e0d980190f5e4e7229de2c5c34defd484d0210f0e75ec6fb050e14b9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ea6120b541cd32"
+                },
+                {
+                  "name": "HE Ningyu",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-he-ningyu/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d651485c109d70689d469caf5633f3891bf8bd1caad69021b0f30f0b6a3380b5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c658ca415d5156"
+                },
+                {
+                  "name": "HU Zhejing",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-hu-zhejing/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "90f3d39d9a0fa22906f64da0aeb83e52aa178351db9040c653cb3632ef1b280d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-4e0de520141d32"
+                },
+                {
+                  "name": "JIANG Qinhong",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-jiang-qinhong/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "fa2e0d8cb82e393f406d90e5d750f8433ae4d193a3cb97bbe0c8b71ddff72ee6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-e8b91f50c1a0e9"
+                },
+                {
+                  "name": "LI Haoyang",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-haoyang/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6a823f9a764fac3c4208d40e8c5cb4f1728920fa48b4ee4896436357c1dec1c6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-582050f7ae326c"
+                },
+                {
+                  "name": "LI Yongqi",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-yongqi/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "dded7679886cd01d0f4eb8ddce29ef8fd4fbbbd4dd33dfe3fc88490bd83c33e5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-49801cd761b2ba"
+                },
+                {
+                  "name": "LI Zecheng",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-li-zecheng/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f690ca931aa55d885fa20b422d74a9fa75452710c1b28dbb1e8928a93bdd0e64",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c0ca014f6d3570"
+                },
+                {
+                  "name": "LU Xingye",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lu-xingye/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0f441b64280ac5c5ef44bcdfb28ab0bd9c2a0d26231fb039698a99f048460ef0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-27446adea9e33c"
+                },
+                {
+                  "name": "NI Minheng",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-ni-minheng/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4e322fb26399a1406bf144966850f0abb93648e1b6c034d15977577287c3b9de",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-55c17427bc1ff3"
+                },
+                {
+                  "name": "SHENG Xihua",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sheng-xihua/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a2b9d94012a8b8df4a454ec0a13c94755d7f5ad87b88fe7c702904f8ce109014",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-dc6a657cb57f73"
+                },
+                {
+                  "name": "SIN Ping Tat Zackary",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-sin-zackary/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8fade2c1fe113af6ed0b834f69ce9bf9d03beea7572e234b30a08ef92728a079",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-1b7882bb05c71d"
+                },
+                {
+                  "name": "WANG Xiangmeng",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wang-xiangmeng/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "793e10f86fed2b885ba99b8bfba6f0ffcef9925ddcf60859271a8b8d4349ca51",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3bcd31170624cb"
+                },
+                {
+                  "name": "WEN Zhiyuan",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-wen-zhiyuan/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "531b71b045c451a53b0c2f89f19749652034344f7271266a357a8d2b5c7352b2",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-1b51239df92105"
+                },
+                {
+                  "name": "XIA Xianjin",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xia-xianjin/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b4033038988b1584838c5881e8bf7da3e17706ccd3edf6c4783c99e8fcbbb332",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-edafe46fe7175d"
+                },
+                {
+                  "name": "ZHANG Jia",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-jia-joyce/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "717c2c1e7660f96eefc1664228c58d6ffb6a227e062b9d596431859039e2d3bb",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-519864a56c9b2d"
+                },
+                {
+                  "name": "ZHANG Li",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-li/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e172460422dc8b399c6ae0304036a66c3e846cb8660ed2b003cfe2c989769bb6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-741b4677651eff"
+                },
+                {
+                  "name": "ZHANG Mingjin",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-mingjin/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "9b80e6d5e549ced3c3b6a782aed87477f9ae3b472eecfe418ed4cf243121d13c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-27c0ad95aec122"
+                },
+                {
+                  "name": "ZHANG Zhaorui",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhang-zhaorui/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0c13a333235a58f5557f700c2ac28b0d3446561d407fc82a2009a0999727050f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-4a324fec1f4b1e"
+                },
+                {
+                  "name": "ZHENG Changmeng",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zheng-changmeng/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "49a0568554ee37575c2e4f48dac41c1605183c1a7e6304abd36201f7d3614951",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-bbf81cfc003ffb"
+                },
+                {
+                  "name": "ZHOU Alexander",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-alexander/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2fe22b46aaf16227c8ed5b25c982ab1079a3c7dc8139d7ca2886d8d0fb2b182f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6420acda955791"
+                },
+                {
+                  "name": "ZHOU Hao",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-zhou-hao/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0a30148a24d3594f337abc80c9a88b19b07d8b835200e6ad6609a42aa24f324a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-246410691fcc35"
+                },
+                {
+                  "name": "CHUN Andy",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-chun-andy/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1077b170575f23136bfdbbb429520b5df563c7364fa395cae78764240975a8a0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-b048522a50632a"
+                },
+                {
+                  "name": "WEI Xiaoyong",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/prof-wei-xiaoyong/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "fe1118dee5ddbf4e13e1358c110388d00a19ea23ba44636b263da1899cf50fa9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ed007259a39c93"
+                },
+                {
+                  "name": "FUNG Sui Leung Walter",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-fung-sui-leung-walter/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "efefc64e5a5c6f7796cc473e0d2f6bec0687daf68313d5381c12c0397f19867a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。",
+                  "researchReviewStatus": "pending"
+                },
+                {
+                  "name": "LEONG Hong Va",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-leong-hong-va/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7bb84e4ac3d1ab5da630f32a7efdb0eda43ad5433bb28557fa0a1c86e6d6dc25",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d3751328e05e70"
+                },
+                {
+                  "name": "LUI Wing Cheung Richard",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lui-wing-cheung-richard/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0d8c38d14bf748897c1f538431b92d4755016e1d58a1126513e35e64ac415249",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "已读身份，但没有取得足够明确的个人研究说明，继续待核；不根据职位或学历补研究词。",
+                  "researchReviewStatus": "pending"
+                },
+                {
+                  "name": "MOHAMMED Aquil Mirza",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-mohammed-aquil-mirza/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "9ffa0ac9da7ce7c2696975ee664c76bb0030846c6b5b2a5098a3e9e1c9fe2b42",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7d08330b789da2"
+                },
+                {
+                  "name": "LAI Lotto",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lai-lotto/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "01fa13ffdd5d072ba8fee063f40387a7eedd39945ad19ce14ead5d8767012774",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-490b5b72d8e4d0"
+                },
+                {
+                  "name": "PANG Wai Man Raymond",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-pang-raymond/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "793c16fb2fbfcb72b01760249d1661d9ac38b112dc7efc2a8aad55fb707de5e7",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-753eddf54a2ccd"
+                },
+                {
+                  "name": "TANG Kai Tai Jeff",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tang-jeff/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f939ef5ceefc204698781f345d5924731f6cac862d1eb3abe28d26ee08f31946",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-b495bed5dab568"
+                },
+                {
+                  "name": "TAYYAB Muhammad",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-tayyab-muhammad/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7e56257974984a7c6d20f5323f95075aef40a2b5766ec6cc4ef757bd095a3f1e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3f17c384ca4c8e"
+                },
+                {
+                  "name": "XIE Hongcheng",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-xie-hongcheng/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "67f29c4c2bf53cf144e83c829c9415f9339cbb27578723110c8e602164de27df",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-551357bd432130"
+                },
+                {
+                  "name": "LAM Alexander",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lam-alexander/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4cbe5885f007028991c3fc5477d3ed23a504bacec3d898b78f58ce1c71f7aee6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ccb3dd60940957"
+                },
+                {
+                  "name": "LYU Mingsong",
+                  "url": "https://www.polyu.edu.hk/comp/people/academic-staff/dr-lyu-mingsong/",
+                  "observedOn": "https://www.polyu.edu.hk/comp/people/academic-staff/",
+                  "directoryLabel": "Department of Computing / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-comp-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1a83ba273a776c08426a2f256eea6bcf1ba17bf48b146724235df15bda0a7fb1",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-eb6bffe7a901be"
+                }
+              ]
+            },
+            {
+              "label": "Department of Data Science and Artificial Intelligence · 当前主名录",
+              "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-fcms-directory-dsai-20261027"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "TAN Kay Chen",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c938a378dd998c1df3d4611475b7ab4bede0901fab5adf7357dbf958b6b4732e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-0646707b6d8fba"
+                },
+                {
+                  "name": "CHENG Ran",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/cheng-ran/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1018dfea5d13804d9feb611bbbe5aeee7ff76e6624b1d799e51922f46c7d5458",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ff9b40c7f9e14b"
+                },
+                {
+                  "name": "JIANG Binyan",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/jiangbinyan/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c475fed8e00481a75fdf8905a496d744f33221fadca42e88fa00756969da4944",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-6878c2aaf503ce"
+                },
+                {
+                  "name": "KUMAR Ajay",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/kumarajay/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "962ef84c3e21da4c96f48eb9113cc93416bd8b9b530ae2c9df0a961d75e0de96",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-fe2e16007b71d7"
+                },
+                {
+                  "name": "CAO Liangliang",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/cao-liangliang/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f1c1223627e8b1d1183b5a56d91ecc3ed646fb4ca35e9e6c3ab67379040766ef",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3be9363b0115f4"
+                },
+                {
+                  "name": "HUANG Jian",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/huangjian/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b696dec426ed73f10634b7ea8accf14c64d8f86b2d678f2963004fbacf6af4c5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-c520950dbc2e00"
+                },
+                {
+                  "name": "LIANG Hualou",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/liang-hualou/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "bdbacd970105c5ac59591d14879e8277aa9405561083780a96847ced17e30486",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-46f881a3808d84"
+                },
+                {
+                  "name": "YANG Qiang",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-qiang/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d0b41e0c081ba040263ef04a4b55e013512bb6fe84605f99a51bedd8f7bf9e67",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-da0bf8a54e9166"
+                },
+                {
+                  "name": "ZHANG Chengqi",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhang-chengqi/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d24e631bf4ce9d75fc80595e247031c96d30d2e216b2bb07d5ef70108b83c492",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-8bdc223c81e2b8"
+                },
+                {
+                  "name": "ZHANG Weixiong",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/zhangweixiong/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "20412e9b12bd22dd8ccc276f77e9ae2fadada62ca5a3fb0e3b86fabcefd1b045",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-bd617bcc4dccf1"
+                },
+                {
+                  "name": "QI Houduo",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/qihouduo/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0dc63dec6ed8a0c866d11b7524e84f627ef27f7af959c60d545a6545352f36df",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-f280c5031c8465"
+                },
+                {
+                  "name": "CHUNG Fu Lai Korris",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/chungkorris/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "689eb4fbe6e8e395a2308e7cbe2d86764a017178ead965ddcdb47912d2613f85",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-94fa122c4d2806"
+                },
+                {
+                  "name": "HUA Wen",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/huawen/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7fdfc4a3b9fb6d40f86557c4f133a341073a0f0686b159cb20b9a88b08c97189",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-1b25b86334d915"
+                },
+                {
+                  "name": "LIU Catherine C.",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/liucatherine/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "82ffd2dd8d47f5face9b282dea5b96358584bbab036a9ae321a51d9bd16573f5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-88a6a400dfbf83"
+                },
+                {
+                  "name": "WU Xiao Ming",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wuxiaoming/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8f5814441c1498ff524868f8bd0877365ca52e827bb06fdd828d7ee97f13afb2",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-1211847c280182"
+                },
+                {
+                  "name": "CHEN Zhen",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/chen-zhen/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8c8b8f663634a8c8bf3561f11002e0c3e2fc5463539a387e59befe69612ff4c8",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-4df3250b49324f"
+                },
+                {
+                  "name": "HAN Ruijian",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/hanruijian/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "115a9d223272a98b51c4f5f4d675906db18d7f65adeafce3df42cef24754ed8f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-5f58335d219391"
+                },
+                {
+                  "name": "HUANG Jiaxing",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/huang-jiaxing/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "63932c90f090a4b497ed33527e2e292a45f17772266e5a46cac0738a24a90adb",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-a7557144d96679"
+                },
+                {
+                  "name": "LI Xinfeng",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/li-xinfeng/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f3452b81e31e5bfa5309421a0c10282e6417bc8e84d1bee8441e44fca6083d52",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-9b1251da3f2dd1"
+                },
+                {
+                  "name": "ROSSI Luca",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/rossiluca/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "621dbdb4b0c035b6b3669fe18ff137cc73674a4129212fae4ffa7d847c95baa3",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-ba019821ad7934"
+                },
+                {
+                  "name": "SONG Zixing",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/song-zixing/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "006996366674d3930a8b0b6a9696d9436dd247c57429ef3d9e1f10d3f3912747",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-a2450e035de85e"
+                },
+                {
+                  "name": "WU Jibin",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wujibin/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "181a943fdc334aa1c395cbd726221676a4485333206679508e64e1ab0c2ab264",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-cba8355bc0c2b2"
+                },
+                {
+                  "name": "WU Xingyu",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wu-xingyu/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "bab17b203336858d264da39c1190e91eabe2502dc8023c826c3389fa30a1ec7d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-3b0fd85f7378c1"
+                },
+                {
+                  "name": "YANG Xingyi",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/yang-xingyi/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "18da20f4414bb46dd5d411f7da84174c17f8d715a76d13767ac94b93475a2da8",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-95231f1dabf182"
+                },
+                {
+                  "name": "HU Yao",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/hu-yao/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b0ce2cf373d167fc5adec8dc50e425aaf10d17d27350a106fa59a484efb09a96",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-2c220d71b8dcc3"
+                },
+                {
+                  "name": "LUO Yanchen",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/luo-yanchen/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "31c770c7e65f3c3a50709493cc4649cec24bcb0dff85a7adc261d2f15809764c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-7778021c5ee2e6"
+                },
+                {
+                  "name": "FONG Chi Kit Ken",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/fong-chikit/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4be23043cc0046a0545e708cb7a1e840fc07f2901b231e72b89e84690333750a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-d5464581b79f66"
+                },
+                {
+                  "name": "LIAO Weihang Ryo",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/liao-weihang/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "512576bd549ce710b6a874b6c1b3ef37f07e4a272973d514282045f98b1d6b26",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-b31c49a75ce57d"
+                },
+                {
+                  "name": "WANG Xiuling Lily",
+                  "url": "https://www.polyu.edu.hk/dsai/people/academic-staff/wang-xiuling/",
+                  "observedOn": "https://www.polyu.edu.hk/dsai/people/academic-staff/",
+                  "directoryLabel": "Department of Data Science and Artificial Intelligence / Academic and Teaching Staff",
+                  "directorySourceIds": [
+                    "polyu-fcms-directory-dsai-20261027"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e2e3308352980f83a8c7ead00db44e72f5b4dff362ba1503c5e62496f4a26ee0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "reviewNote": "研究资料已整理；指导资格和具体余位仍需按学位另核。",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "polyu-fcms-453a917606561a"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "polyu-3",
@@ -69222,5 +86328,5 @@ window.APP_CATALOG = {
     "staffRouteBodiesRead": 107,
     "staffRouteFailures": 0
   },
-  "snapshotId": "sha256:d31e2a1e5e350cf56e632f5140895925bd616229c990bb26d516f5e590c17294"
+  "snapshotId": "sha256:12e6d8a0d2911cacf7b111f610b884cc6f24eeda0dca98127a7cd12de81a4c0d"
 };
