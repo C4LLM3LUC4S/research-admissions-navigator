@@ -478,6 +478,7 @@ test('BME applicant opens the directory-supplied lab, sees earlier submission an
  const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','MPhil',[]);el('research-query').value='定量相位成像';await el('profile-form').emit('input',{target:el('research-query')});
  const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='ZHOU, Renjie'));assert.ok(card);
  assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href==='https://www.lambcuhk.org/'),'An observed directory HTTPS link should be usable on the teacher card');
+ assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href==='https://www.lambcuhk.org/people/openings'),'The exact research/opening Links from that supplied profile should remain usable');
  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
  await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='生物医学工程 MPhil/PhD'));assert.ok(p);
  assert.match(p.textContent,/2026-11-15/);assert.match(p.textContent,/纸质/);assert.match(p.textContent,/三封推荐/);assert.doesNotMatch(p.textContent,/博士英文研究兴趣和院系信息表/);

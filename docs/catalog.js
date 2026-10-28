@@ -102753,7 +102753,7 @@ window.APP_CATALOG = {
       "url": "https://www.lambcuhk.org/",
       "title": "Prof. ZHOU, Renjie · 官方提供的个人档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "所引正文的具体身份、研究或申请范围；年度、资格与实时余位分别核。",
       "claims": [
         "按留存正文核对，研究交集不等于指导资格或实时接收。"
@@ -102837,7 +102837,8 @@ window.APP_CATALOG = {
         "https://drive.google.com/file/d/1oXPqkR5PkFKAMPh-7D_TriJmMnMvdOzN/view?usp=sharing",
         "https://drive.google.com/file/d/1GEPOBpbP-BCTTjJlhopdjHdHNIOSswA9/view?usp=drive_link",
         "https://www.lambcuhk.org/archived-news"
-      ]
+      ],
+      "parentSourceId": "bme-core-faculty-20261028"
     },
     {
       "id": "bme-linked-21-0-20261028",
@@ -103893,7 +103894,7 @@ window.APP_CATALOG = {
       "url": "https://ngwailung.com/",
       "title": "Prof. NG, Wai-Lung Billy · 官方提供的个人档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "所引正文的具体身份、研究或申请范围；年度、资格与实时余位分别核。",
       "claims": [
         "按留存正文核对，研究交集不等于指导资格或实时接收。"
@@ -103976,7 +103977,8 @@ window.APP_CATALOG = {
         "http://url",
         "http://url",
         "http://url"
-      ]
+      ],
+      "parentSourceId": "bme-associate-faculty-20261028"
     },
     {
       "id": "bme-profile-45-20261028",
@@ -104416,7 +104418,7 @@ window.APP_CATALOG = {
       "url": "https://repository.eduhk.hk/en/persons/hung-kay-daniel-chow/",
       "title": "Prof. CHOW, Hung Kay Daniel · 官方提供的个人档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "所引正文的具体身份、研究或申请范围；年度、资格与实时余位分别核。",
       "claims": [
         "按留存正文核对，研究交集不等于指导资格或实时接收。"
@@ -104510,14 +104512,15 @@ window.APP_CATALOG = {
         "https://elsevier.responsibledisclosure.com/hc/en-us/requests/new",
         "https://repository.eduhk.hk/cdn-cgi/l/email-protection#5e32373c2c3b2e1e3b3a2b3635703635",
         "https://repository.eduhk.hk/en/persons/hung-kay-daniel-chow/"
-      ]
+      ],
+      "parentSourceId": "bme-adjunct-professors-20261028"
     },
     {
       "id": "bme-profile-56-20261028",
       "url": "https://duydinhng.wixsite.com/dinhngocduy",
       "title": "Prof. DINH Ngoc Duy · 官方提供的个人档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "所引正文的具体身份、研究或申请范围；年度、资格与实时余位分别核。",
       "claims": [
         "按留存正文核对，研究交集不等于指导资格或实时接收。"
@@ -104550,7 +104553,8 @@ window.APP_CATALOG = {
         "https://www.linkedin.com/in/dinh-ngoc-duy-ph-d-50a0a280/",
         "https://www.researchgate.net/profile/Ngoc_Duy_Dinh",
         "https://scholar.google.com.sg/citations?hl=en&user=WB-4szcAAAAJ"
-      ]
+      ],
+      "parentSourceId": "bme-adjunct-professors-20261028"
     },
     {
       "id": "bme-linked-56-0-20261028",
@@ -104705,7 +104709,7 @@ window.APP_CATALOG = {
       "url": "https://www.eng.uwo.ca/chemical//faculty/mequanint_k/index.html",
       "title": "Prof. MEQUANINT, Kibret · 官方提供的个人档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "所引正文的具体身份、研究或申请范围；年度、资格与实时余位分别核。",
       "claims": [
         "按留存正文核对，研究交集不等于指导资格或实时接收。"
@@ -104847,7 +104851,8 @@ window.APP_CATALOG = {
         "https://www.linkedin.com/school/166689/",
         "https://weibo.com/westerninternational",
         "https://www.uwo.ca"
-      ]
+      ],
+      "parentSourceId": "bme-adjunct-professors-20261028"
     },
     {
       "id": "bme-profile-62-20261028",
@@ -138494,5 +138499,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:ce319b43c727d4b477545ff9c9391d1ea4c9359c345daf915d27e9e4fa54897d"
+  "snapshotId": "sha256:46b23bcfbea4a9f89283670036da4d4268a15871e319e67d98b6ee1e26e1f682"
 };

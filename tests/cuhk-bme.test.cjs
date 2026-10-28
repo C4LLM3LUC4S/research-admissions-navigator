@@ -20,6 +20,8 @@ test('research questions and actual supplied HTTPS sites retain provenance witho
  const p={...L.defaultProfile(C),universityIds:['cuhk'],degree:'PhD',researchQuery:'定量相位成像'};
  assert.ok(L.facultyFor(C,p).some(x=>x.id==='cuhk-bme-21'));
  const zhou=P.faculty.find(x=>x.id==='cuhk-bme-21');assert.equal(L.observedProfileUrl(C,zhou.profileUrl,zhou.directorySourceIds),'https://www.lambcuhk.org/');
+ assert.equal(L.sourceUrl(C,C.sources.find(s=>s.id==='bme-profile-21-20261028')),zhou.profileUrl);
+ assert.equal(L.facultyLinks(C,zhou).length,3);assert.ok(L.facultyLinks(C,zhou).every(x=>L.sourceUrl(C,C.sources.find(s=>s.id===x.sourceId))===x.url));
  const blu=P.faculty.find(x=>x.id==='cuhk-bme-24');assert.match(blu.profileUrl,/^http:/);assert.equal(L.observedProfileUrl(C,blu.profileUrl,blu.directorySourceIds),null);
  const source=C.sources.find(s=>s.id==='bme-profile-24-20261028');assert.equal(source.url,source.originalUrl);assert.equal(L.sourceUrl(C,source),null);
  const cheung=P.faculty.find(x=>x.id==='cuhk-bme-31');assert.match(cheung.profileUrl,/^https:/);assert.match(cheung.originalProfileUrl,/^http:/);
