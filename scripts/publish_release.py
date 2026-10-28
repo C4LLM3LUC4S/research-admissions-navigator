@@ -54,9 +54,10 @@ def bundle_files(folder, tag, source, tree):
             raise ValueError("Archived version differs")
     files = {name: data, "RELEASE_INFO.json": (folder / "RELEASE_INFO.json").read_bytes()}
     sums = "".join(sha(payload) + "  " + key + "\n" for key, payload in files.items()).encode("ascii")
-    if (folder / "SHA256SUMS").read_bytes() != sums:
+    recorded_sums = (folder / "SHA256SUMS").read_bytes()
+    if recorded_sums.decode("ascii").splitlines() != sums.decode("ascii").splitlines():
         raise ValueError("Checksum file differs")
-    files["SHA256SUMS"] = sums
+    files["SHA256SUMS"] = recorded_sums
     return info, files
 
 

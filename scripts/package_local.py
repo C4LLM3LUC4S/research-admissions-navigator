@@ -86,7 +86,7 @@ if not version.endswith('-local'):
     release_info = out / "RELEASE_INFO.json"
     release_info.write_text(json.dumps({**info, "archive": archive.name, "bytes": archive.stat().st_size, "sha256": digest}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     checksums.append(hashlib.sha256(release_info.read_bytes()).hexdigest() + "  RELEASE_INFO.json")
-(out / "SHA256SUMS").write_text("\n".join(checksums) + "\n", encoding="ascii")
+(out / "SHA256SUMS").write_text("\n".join(checksums) + "\n", encoding="ascii", newline="\n")
 (out / "summary.json").write_text(json.dumps({"status": "passed_local_package", **info, "members": len(members), "zip_sha256": digest,
     "scope": "Local committed package CRC, member bytes and hashes; no new UI/download/independent-user or public-release claim"}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps({"status": "passed", "archive": str(archive), "members": len(members)}))

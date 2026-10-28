@@ -159,6 +159,9 @@ class PublicationTests(unittest.TestCase):
             files = {name: data, "RELEASE_INFO.json": (folder / "RELEASE_INFO.json").read_bytes()}
             (folder / "SHA256SUMS").write_bytes("".join(release.sha(d) + "  " + n + "\n" for n, d in files.items()).encode())
             self.assertEqual(len(release.bundle_files(folder, TAG, SOURCE, TREE)[1]), 3)
+            legacy = (folder / "SHA256SUMS").read_bytes().replace(b"\n", b"\r\n")
+            (folder / "SHA256SUMS").write_bytes(legacy)
+            self.assertEqual(release.bundle_files(folder, TAG, SOURCE, TREE)[1]["SHA256SUMS"], legacy)
             with self.assertRaises(ValueError):
                 release.bundle_files(folder, TAG, "c" * 40, TREE)
             (folder / name).write_bytes(data + b"changed")
