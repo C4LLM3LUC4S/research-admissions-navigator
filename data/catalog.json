@@ -3997,6 +3997,63 @@
         "cuhksz-sme-management-phd-2027"
       ],
       "evidenceNote": "按本项目原页整理；与香港校本部及本校其他项目分开。信息管理与商业分析原页本轮未完整读到，本批不补猜为相同要求。"
+    },
+    {
+      "id": "hku-dase-rpg",
+      "universityId": "hku",
+      "name": "数据与系统工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": null,
+      "cycleVerified": false,
+      "scope": "系概览未标具体招生年度；仅确认MPhil/PhD路线与课题联系建议，当前轮次、资格和材料须另核。",
+      "contact": {
+        "status": "recommended",
+        "text": "系概览鼓励潜在申请者与导师讨论研究课题；不是已经确认必须先取得导师同意。",
+        "sourceIds": [
+          "hku-dase-rpg-overview-20261028"
+        ]
+      },
+      "selection": {
+        "text": "概览列招生顾问和研究生委员会联系人，没有写清最终录取由导师还是委员会决定；不据联系人职务替学校下结论。",
+        "sourceIds": [
+          "hku-dase-rpg-overview-20261028"
+        ]
+      },
+      "deadlines": [],
+      "finances": [],
+      "sourceIds": [
+        "hku-dase-rpg-overview-20261028"
+      ],
+      "evidenceNote": "概览培养规则与当前申请规则分开；不复制计算机系、港中深或个人网站的GPA和金额。",
+      "requirements": [
+        {
+          "label": "先核对应研究学位与当期规则",
+          "text": "本系概览同时列MPhil和PhD，但没有完整给出本轮学历、英语、材料、日期及费用。研究涉及机器人、物流供应链、系统分析、医疗、工业4.0、信息物理和交通等。",
+          "action": "从本系入口继续核研究生院当期要求，再按本人的学位和轮次准备。",
+          "sourceIds": [
+            "hku-dase-rpg-overview-20261028"
+          ]
+        },
+        {
+          "label": "入学后的培养要求不是申请前材料",
+          "text": "研究计划口头报告用于确认候选资格，至少一次研讨报告在提交论文题目前完成；不能据此让尚未申请的人先交这些培养成果。",
+          "action": "申请前只按本轮正式材料清单准备；录取后的培养安排另记。",
+          "sourceIds": [
+            "hku-dase-rpg-overview-20261028"
+          ]
+        },
+        {
+          "label": "研究成果奖励与入学资助分开",
+          "text": "本页提到面向在读研究生研究成果的院系奖学金，资格和评审按年变化；不能当作每名新生必得的入学助学金。",
+          "action": "核当期入学资助与正式通知，保留学费和生活预算。",
+          "sourceIds": [
+            "hku-dase-rpg-overview-20261028"
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -50538,6 +50595,1329 @@
           "cuhksz-sme-8f0cdcf3fd06c0-profile"
         ]
       }
+    },
+    {
+      "id": "hku-dase-h-p-chen",
+      "name": "Heping Chen",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-h-p-chen-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-h-p-chen-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/h-p-chen",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/h-p-chen",
+      "directoryRole": "Professor of Practice",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "智能工业机器人与制造自动化、人机协作、检测机器人、信息物理系统、机器学习、半导体制造优化、数字孪生与机器人应用。",
+      "researchKeywords": [
+        "工业机器人",
+        "制造自动化",
+        "人机协作",
+        "机器学习",
+        "半导体制造",
+        "数字孪生",
+        "微纳机器人"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-h-p-chen-profile-20261028",
+        "hku-dase-h-p-chen-personal-20261028"
+      ],
+      "topics": [
+        "机器人与控制",
+        "机器学习",
+        "土木与机械工程"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://chen-heping.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-h-p-chen-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-h-p-chen-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-h-p-chen-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-j-c-chen",
+      "name": "Jiangcheng Chen",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-j-c-chen-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/j-c-chen",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/j-c-chen",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究肌电、脑电等生物电信号的处理与控制，以及用于康复和老年辅助的可穿戴机器人。",
+      "researchKeywords": [
+        "肌电",
+        "脑电",
+        "生物电信号",
+        "信号处理",
+        "控制",
+        "康复机器人",
+        "可穿戴机器人"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-j-c-chen-profile-20261028"
+      ],
+      "topics": [
+        "机器人与控制",
+        "生物医学与健康"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-j-c-chen-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-j-y-chen",
+      "name": "Jiayu Chen / 陳佳玉",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-j-y-chen-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-j-y-chen-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/j-y-chen",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/j-y-chen",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官方简介仍写incoming和2025两名博士；提供实验室主页有2026消息及目前核聚变方向招募。分来源保留，不把2025计为2027余位；实验室金额无年度，不用于当前预算。",
+      "summary": "研究序贯决策和连续控制中的学习方法；所提供的实验室另列机器人智能体、大语言模型智能体及核聚变等复杂系统。",
+      "researchKeywords": [
+        "序贯决策",
+        "连续控制",
+        "机器人智能体",
+        "大语言模型智能体",
+        "强化学习"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-j-y-chen-profile-20261028",
+        "hku-dase-j-y-chen-personal-20261028"
+      ],
+      "topics": [
+        "人工智能",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://agentic-intelligence-lab.org/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-j-y-chen-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-j-y-chen-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-j-y-chen-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "官方简介仍写incoming和2025两名博士；提供实验室主页有2026消息及目前核聚变方向招募。分来源保留，不把2025计为2027余位；实验室金额无年度，不用于当前预算。",
+          "sourceIds": [
+            "hku-dase-j-y-chen-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-j-y-chen-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-y-cheng",
+      "name": "Yao Cheng",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-y-cheng-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-y-cheng-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/y-cheng",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/y-cheng",
+      "directoryRole": "Associate Professor",
+      "identityNote": "个人页侧栏旧Assistant与正文Associate并存；履历明确2026.07起Associate，官方目录也Associate。保留冲突而不取侧栏旧职称。",
+      "summary": "研究复杂系统的可靠性与韧性，包括可靠性建模和测试、检查维修策略、韧性建模与优化。",
+      "researchKeywords": [
+        "可靠性建模",
+        "可靠性测试",
+        "维修策略",
+        "韧性建模",
+        "韧性优化"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-y-cheng-profile-20261028",
+        "hku-dase-y-cheng-personal-20261028"
+      ],
+      "topics": [
+        "理论与优化"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yaocheng-dase.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-y-cheng-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-y-cheng-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-y-cheng-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "个人页侧栏旧Assistant与正文Associate并存；履历明确2026.07起Associate，官方目录也Associate。保留冲突而不取侧栏旧职称。",
+          "sourceIds": [
+            "hku-dase-y-cheng-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-y-cheng-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-hh-cheung",
+      "name": "H.H. Cheung",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-hh-cheung-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/hh-cheung",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/hh-cheung",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究计算机辅助设计与制造、3D打印、虚拟原型与制造、产品开发，以及电子商务、RFID、NFC和物联网应用。",
+      "researchKeywords": [
+        "计算机辅助设计",
+        "计算机辅助制造",
+        "3D打印",
+        "虚拟原型",
+        "产品开发",
+        "RFID",
+        "NFC",
+        "物联网"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-hh-cheung-profile-20261028"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "电子与集成电路"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-hh-cheung-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-s-y-hu",
+      "name": "Shiyan Hu",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-s-y-hu-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/s-y-hu",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/s-y-hu",
+      "directoryRole": "Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究信息物理系统、机器人和数据分析。个人网站本次返回以论文列表为主，不从论文题目扩写新的研究方向。",
+      "researchKeywords": [
+        "信息物理系统",
+        "机器人",
+        "数据分析"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-s-y-hu-profile-20261028"
+      ],
+      "topics": [
+        "机器人与控制",
+        "网络与系统"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://shiyanhucps.github.io",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-s-y-hu-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-s-y-hu-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-wj-huang",
+      "name": "Wenjie Huang",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-wj-huang-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/wj-huang",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/wj-huang",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究风险分析与鲁棒优化、序贯决策、用于运营管理的数据科学和人工智能，以及可持续性和社会公益问题。",
+      "researchKeywords": [
+        "风险分析",
+        "鲁棒优化",
+        "序贯决策",
+        "运营管理",
+        "数据科学",
+        "人工智能",
+        "可持续发展"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-wj-huang-profile-20261028"
+      ],
+      "topics": [
+        "理论与优化",
+        "人工智能",
+        "经济与管理",
+        "环境与可持续发展"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://wenjiehuangwayne.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-wj-huang-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-wj-huang-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-y-h-kuo",
+      "name": "Yong-Hong Kuo / 郭永鴻",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-y-h-kuo-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/y-h-kuo",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/y-h-kuo",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "结合系统建模、离散优化和数据工程研究服务系统决策，涉及物流交通规划、医疗服务、系统仿真与扩展现实中的数据分析。",
+      "researchKeywords": [
+        "离散优化",
+        "数据密集型建模",
+        "系统仿真",
+        "物流规划",
+        "交通规划",
+        "医疗服务",
+        "扩展现实"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-y-h-kuo-profile-20261028"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理",
+        "生物医学与健康"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/site/yonghongkuo/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-y-h-kuo-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-y-h-kuo-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-j-y-li",
+      "name": "Jiayang Li",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-j-y-li-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-j-y-li-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/j-y-li",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/j-y-li",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "结合优化、博弈论和机器学习研究运筹问题，重点涉及交通与出行系统、交通经济和双层优化。",
+      "researchKeywords": [
+        "算法博弈论",
+        "双层优化",
+        "机器学习",
+        "交通经济",
+        "交通系统优化"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-j-y-li-profile-20261028",
+        "hku-dase-j-y-li-personal-20261028"
+      ],
+      "topics": [
+        "理论与优化",
+        "机器学习",
+        "经济与管理"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://jiayangli-nu.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-j-y-li-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-j-y-li-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-j-y-li-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "官方页仍提2025入组；个人主页只写持续欢迎博士申请，没有证明2027实时余位。",
+          "sourceIds": [
+            "hku-dase-j-y-li-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-j-y-li-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-x-li",
+      "name": "Xiang Li / 李想",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-x-li-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-x-li-personal-20261028",
+        "hku-dase-x-li-sir-join-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/x-li",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/x-li",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官方简介仍写incoming；提供个人页2026.08开始HKU助理教授的实际日期可核。SiR实验室2027博士早审要求2026-11-01之前邮件和表单，香港时间、无具体时钟，明确不是官方HKPFS截止。实验室GPA/985偏好不当学校统一规则，也不由产品换算GPA。",
+      "summary": "研究人机交互和扩展现实，重点是情境感知交互、身体中心计算、智能空间界面、人类能力增强及可实际部署的XR系统。",
+      "researchKeywords": [
+        "人机交互",
+        "扩展现实",
+        "混合现实",
+        "情境感知交互",
+        "身体中心计算",
+        "人类能力增强",
+        "空间计算"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-x-li-profile-20261028",
+        "hku-dase-x-li-personal-20261028"
+      ],
+      "topics": [
+        "人机交互",
+        "人工智能"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.xiang-li.phd/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-x-li-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-x-li-personal-20261028"
+        },
+        {
+          "url": "https://www.situated-reality.org/join-us",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-x-li-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "官方个人页直接提供此Join链接，实际正文明确2027博士及实验室提前联系范围。",
+          "sourceId": "hku-dase-x-li-sir-join-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-x-li-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "官方简介仍写incoming；提供个人页2026.08开始HKU助理教授的实际日期可核。SiR实验室2027博士早审要求2026-11-01之前邮件和表单，香港时间、无具体时钟，明确不是官方HKPFS截止。实验室GPA/985偏好不当学校统一规则，也不由产品换算GPA。",
+          "sourceIds": [
+            "hku-dase-x-li-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-x-li-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "kind": "teacher_statement",
+          "label": "2027博士：实验室提前联系与正式申请分开",
+          "text": "SiR实验室希望申请HKPFS的学生在2026年11月1日之前（香港时间，未说明具体几点）完成博士表单并邮件联系，便于提前审阅。这是实验室联系日期，不是官方HKPFS截止；其他博士申请仍欢迎。需准备简历、GPA和说明研究经历及方向交集的短说明。刊载的1至2名不当实时剩余名额；校级资格和正式申请仍另核。",
+          "sourceIds": [
+            "hku-dase-x-li-sir-join-20261028"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-s-c-lin",
+      "name": "Shaochong Lin / 林少冲",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-s-c-lin-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-s-c-lin-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/s-c-lin",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/s-c-lin",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究数据驱动的运营管理、人工智能与运筹学的交叉，以及物流供应链优化和智能调度。",
+      "researchKeywords": [
+        "数据驱动决策",
+        "运营管理",
+        "人工智能",
+        "运筹学",
+        "供应链优化",
+        "智能调度"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-s-c-lin-profile-20261028",
+        "hku-dase-s-c-lin-personal-20261028"
+      ],
+      "topics": [
+        "人工智能",
+        "理论与优化",
+        "经济与管理"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/shaochong",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-s-c-lin-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-s-c-lin-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-s-c-lin-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-j-liu",
+      "name": "Jun Liu",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-j-liu-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/j-liu",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/j-liu",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究微纳机器人、人工智能、智能传感器与执行器、多尺度自动化和先进制造。",
+      "researchKeywords": [
+        "微纳机器人",
+        "人工智能",
+        "智能传感器",
+        "智能执行器",
+        "多尺度自动化",
+        "先进制造"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-j-liu-profile-20261028"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "土木与机械工程"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://airlab.hku.hk",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-j-liu-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-j-liu-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-s-n-liu",
+      "name": "Shinan Liu",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-s-n-liu-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-s-n-liu-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/s-n-liu",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/s-n-liu",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "提供个人站明确Spring/Fall2027博士与MPhil招募；这是教师公开招募，不是仍剩名额或全系统一接收。",
+      "summary": "研究网络与安全，关注机器学习与系统的交叉、网络安全和隐私，以及信息物理智能和数字健康。",
+      "researchKeywords": [
+        "机器学习系统",
+        "计算机网络",
+        "网络安全",
+        "隐私",
+        "信息物理智能",
+        "数字健康"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-s-n-liu-profile-20261028",
+        "hku-dase-s-n-liu-personal-20261028"
+      ],
+      "topics": [
+        "网络与系统",
+        "网络安全",
+        "机器学习",
+        "生物医学与健康"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.shinan.info/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-s-n-liu-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-s-n-liu-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-s-n-liu-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "提供个人站明确Spring/Fall2027博士与MPhil招募；这是教师公开招募，不是仍剩名额或全系统一接收。",
+          "sourceIds": [
+            "hku-dase-s-n-liu-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-s-n-liu-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "kind": "teacher_statement",
+          "label": "个人站的2027春秋季招募说明",
+          "text": "个人主页说招募2027春季或秋季博士、MPhil及其他研究岗位，可先核研究交集再联系。岗位类别、学校正式申请和当期余位分别确认，不由本产品认定已经符合资格。",
+          "sourceIds": [
+            "hku-dase-s-n-liu-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-x-ma",
+      "name": "Xin Ma",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-x-ma-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/x-ma",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/x-ma",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究人机系统动力学与控制、逆动力学、防跌倒与康复、肌肉骨骼系统数字孪生，以及可穿戴辅助和人形机器人。",
+      "researchKeywords": [
+        "人机系统动力学",
+        "控制",
+        "逆动力学",
+        "防跌倒",
+        "康复",
+        "数字孪生",
+        "可穿戴辅助机器人",
+        "人形机器人"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-x-ma-profile-20261028"
+      ],
+      "topics": [
+        "机器人与控制",
+        "生物医学与健康",
+        "土木与机械工程"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://ati.hku.hk/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-x-ma-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-x-ma-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-j-w-c-ng",
+      "name": "Jonathan W.C. Ng",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-j-w-c-ng-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/j-w-c-ng",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/j-w-c-ng",
+      "directoryRole": "Principal Lecturer",
+      "identityNote": "个人简介仍使用旧IMSE部门名；当前DASE名录身份与原文分开，不把改名当两个人。",
+      "summary": "官方简介明确研究物流与供应链管理；过去的港口行业项目另作经历，不由项目列表扩写当前研究。",
+      "researchKeywords": [
+        "物流管理",
+        "供应链管理"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-j-w-c-ng-profile-20261028"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-j-w-c-ng-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "个人简介仍使用旧IMSE部门名；当前DASE名录身份与原文分开，不把改名当两个人。",
+          "sourceIds": [
+            "hku-dase-j-w-c-ng-profile-20261028",
+            "hku-dase-academic-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-c-k-l-or",
+      "name": "Calvin K.L. Or",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-c-k-l-or-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/c-k-l-or",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/c-k-l-or",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究人因与工效学、人机交互、健康信息学、健康系统工程和患者安全，以及信息技术的实施、采用和接受。",
+      "researchKeywords": [
+        "人因工程",
+        "工效学",
+        "人机交互",
+        "健康信息学",
+        "健康系统工程",
+        "患者安全",
+        "信息技术接受"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-c-k-l-or-profile-20261028"
+      ],
+      "topics": [
+        "人机交互",
+        "生物医学与健康"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://kalunor.dase.hku.hk/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-c-k-l-or-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-c-k-l-or-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-max-z-j-shen",
+      "name": "Zuo-Jun (Max) Shen",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-max-z-j-shen-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/max-z-j-shen",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/max-z-j-shen",
+      "directoryRole": "Chair Professor in Logistics and Supply Chain Management",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究供应链整体设计与管理、数据驱动物流与供应链优化、优化算法、能源系统优化和交通系统规划。",
+      "researchKeywords": [
+        "供应链设计",
+        "供应链管理",
+        "物流优化",
+        "数据驱动决策",
+        "优化算法",
+        "能源系统优化",
+        "交通系统规划"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-max-z-j-shen-profile-20261028"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zj-maxshen.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-max-z-j-shen-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-max-z-j-shen-profile-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hku-dase-c-sun",
+      "name": "Chen Sun",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-c-sun-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-c-sun-openings-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/c-sun",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/c-sun",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "个人Openings列2027/28 Fall博士1-2，页脚仍Updated2025-11-08；两者并存，刊载人数不当实时空位。偏好/资助另核，不当学校门槛。",
+      "summary": "研究不确定和交互环境中的自主系统安全，涉及场地机器人、自动驾驶安全规划、AI系统不确定性量化及复杂混合系统故障诊断。",
+      "researchKeywords": [
+        "自主系统",
+        "机器人",
+        "自动驾驶",
+        "安全规划",
+        "不确定性量化",
+        "故障诊断",
+        "混合系统"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-c-sun-profile-20261028"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://chensunmac.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-c-sun-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        },
+        {
+          "url": "https://chensunmac.github.io/openings/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-c-sun-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "官方主页直接列此Openings网址；正文2027/28与页脚2025日期并存，不解释成实时余位。",
+          "sourceId": "hku-dase-c-sun-openings-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-c-sun-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "个人Openings列2027/28 Fall博士1-2，页脚仍Updated2025-11-08；两者并存，刊载人数不当实时空位。偏好/资助另核，不当学校门槛。",
+          "sourceIds": [
+            "hku-dase-c-sun-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-c-sun-openings-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-y-xu",
+      "name": "Yang Xu",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-y-xu-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-y-xu-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/y-xu",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/y-xu",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "实验室主页同时保留旧2026秋季和2027春秋季轮次；这里只证明页面刊载说明，不认定当前仍接收。",
+      "summary": "研究面向设计与先进制造的AI，包括智能增材制造、结构与功能材料、面向科学的智能体，以及制造中的物理AI。",
+      "researchKeywords": [
+        "人工智能",
+        "智能增材制造",
+        "3D打印",
+        "材料设计",
+        "科学智能体",
+        "物理AI",
+        "先进制造"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-y-xu-profile-20261028",
+        "hku-dase-y-xu-personal-20261028"
+      ],
+      "topics": [
+        "人工智能",
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yangxu.hku.hk/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-y-xu-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-y-xu-personal-20261028"
+        },
+        {
+          "url": "https://www.yxu195.com/join",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-y-xu-profile-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "提供的原链接；返回响应、身份和研究逐项核查分开，未全部完成。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-y-xu-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "实验室主页同时保留旧2026秋季和2027春秋季轮次；这里只证明页面刊载说明，不认定当前仍接收。",
+          "sourceIds": [
+            "hku-dase-y-xu-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-y-xu-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "kind": "teacher_statement",
+          "label": "ADAM页面的入学轮次",
+          "text": "提供的实验室主页同时列2026秋季、2027春季和秋季MPhil/PhD。旧2026条目保留作历史线索，不当本轮开放证明；具体学位、资助和仍可接收情况须进一步核正式项目与Join页。",
+          "sourceIds": [
+            "hku-dase-y-xu-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-f-n-zhang",
+      "name": "Fangni Zhang",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-f-n-zhang-profile-20261028",
+        "hku-dase-academic-20261028",
+        "hku-dase-f-n-zhang-personal-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/f-n-zhang",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/f-n-zhang",
+      "directoryRole": "Associate Professor",
+      "identityNote": "个人站刊载博士1-2及2025PGS金额；不把旧金额当2027资助，也不把学院页MPhil说明自动扩成该个人博士招募含MPhil。",
+      "summary": "研究低空物流系统优化、出行和物流网络建模、自动驾驶车辆和无人机系统运营，以及交通人工智能。",
+      "researchKeywords": [
+        "低空物流",
+        "物流网络",
+        "网络建模",
+        "自动驾驶",
+        "无人机",
+        "交通人工智能",
+        "系统优化"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-f-n-zhang-profile-20261028",
+        "hku-dase-f-n-zhang-personal-20261028"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理",
+        "人工智能"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://fangnizhang.github.io/",
+          "label": "个人网站与实验室",
+          "parentSourceId": "hku-dase-f-n-zhang-profile-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "已读同名或官方明确关联的实验室研究文字，任职与招募日期分别核查；不认证当前余位。",
+          "sourceId": "hku-dase-f-n-zhang-personal-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-f-n-zhang-profile-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "任职、年份或申请说明分别核对",
+          "text": "个人站刊载博士1-2及2025PGS金额；不把旧金额当2027资助，也不把学院页MPhil说明自动扩成该个人博士招募含MPhil。",
+          "sourceIds": [
+            "hku-dase-f-n-zhang-profile-20261028",
+            "hku-dase-academic-20261028",
+            "hku-dase-f-n-zhang-personal-20261028"
+          ],
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-dase-r-y-zhong",
+      "name": "Runyang Zhong / Ray Y. Zhong",
+      "universityId": "hku",
+      "sourceIds": [
+        "hku-dase-r-y-zhong-profile-20261028",
+        "hku-dase-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "department": "数据与系统工程系（DASE）",
+      "profileUrl": "https://www.dase.hku.hk/people/r-y-zhong",
+      "reviewedProfileUrl": "https://www.dase.hku.hk/people/r-y-zhong",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网名录职称与研究自述分别保留；职称本身不证明所选学位指导资格。",
+      "summary": "研究制造系统、大数据分析、建筑信息学和建筑分析。",
+      "researchKeywords": [
+        "制造系统",
+        "大数据分析",
+        "建筑信息学",
+        "建筑分析"
+      ],
+      "keywordSourceIds": [
+        "hku-dase-r-y-zhong-profile-20261028"
+      ],
+      "topics": [
+        "土木与机械工程"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "尚未确认所选学位的指导资格、当前接收和实际余位；公开招募也不等于仍有名额。",
+        "sourceIds": [
+          "hku-dase-r-y-zhong-profile-20261028"
+        ]
+      }
     }
   ],
   "sources": [
@@ -81995,6 +83375,815 @@
       "knownIssues": [
         "摘要对应网页读取工具返回的批次文本，不是原始HTTP正文。"
       ]
+    },
+    {
+      "id": "hku-dase-academic-20261028",
+      "url": "https://www.dase.hku.hk/people/academic-staff",
+      "title": "港大数据与系统工程系 · 学术人员名录",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "68eebac01cbb948975ec23f450934e39a720151cf822fd382224ad122648eefb",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://www.dase.hku.hk/people/h-p-chen",
+        "https://www.dase.hku.hk/people/j-c-chen",
+        "https://www.dase.hku.hk/people/j-y-chen",
+        "https://www.dase.hku.hk/people/y-cheng",
+        "https://www.dase.hku.hk/people/hh-cheung",
+        "https://www.dase.hku.hk/people/s-y-hu",
+        "https://www.dase.hku.hk/people/wj-huang",
+        "https://www.dase.hku.hk/people/y-h-kuo",
+        "https://www.dase.hku.hk/people/j-y-li",
+        "https://www.dase.hku.hk/people/x-li",
+        "https://www.dase.hku.hk/people/s-c-lin",
+        "https://www.dase.hku.hk/people/j-liu",
+        "https://www.dase.hku.hk/people/s-n-liu",
+        "https://www.dase.hku.hk/people/x-ma",
+        "https://www.dase.hku.hk/people/j-w-c-ng",
+        "https://www.dase.hku.hk/people/c-k-l-or",
+        "https://www.dase.hku.hk/people/max-z-j-shen",
+        "https://www.dase.hku.hk/people/c-sun",
+        "https://www.dase.hku.hk/people/n-xi",
+        "https://www.dase.hku.hk/people/y-xu",
+        "https://www.dase.hku.hk/people/f-n-zhang",
+        "https://www.dase.hku.hk/people/r-y-zhong"
+      ],
+      "teacherLinksByProfile": {
+        "https://www.dase.hku.hk/people/h-p-chen": [
+          "https://chen-heping.github.io/"
+        ],
+        "https://www.dase.hku.hk/people/j-c-chen": [],
+        "https://www.dase.hku.hk/people/j-y-chen": [
+          "https://agentic-intelligence-lab.org/"
+        ],
+        "https://www.dase.hku.hk/people/y-cheng": [
+          "https://yaocheng-dase.github.io/"
+        ],
+        "https://www.dase.hku.hk/people/hh-cheung": [],
+        "https://www.dase.hku.hk/people/s-y-hu": [
+          "https://shiyanhucps.github.io"
+        ],
+        "https://www.dase.hku.hk/people/wj-huang": [
+          "https://wenjiehuangwayne.github.io/"
+        ],
+        "https://www.dase.hku.hk/people/y-h-kuo": [
+          "https://sites.google.com/site/yonghongkuo/"
+        ],
+        "https://www.dase.hku.hk/people/j-y-li": [
+          "https://jiayangli-nu.github.io/"
+        ],
+        "https://www.dase.hku.hk/people/x-li": [
+          "https://www.xiang-li.phd/",
+          "https://www.situated-reality.org/join-us"
+        ],
+        "https://www.dase.hku.hk/people/s-c-lin": [
+          "https://sites.google.com/view/shaochong"
+        ],
+        "https://www.dase.hku.hk/people/j-liu": [
+          "https://airlab.hku.hk"
+        ],
+        "https://www.dase.hku.hk/people/s-n-liu": [
+          "https://www.shinan.info/"
+        ],
+        "https://www.dase.hku.hk/people/x-ma": [
+          "https://ati.hku.hk/"
+        ],
+        "https://www.dase.hku.hk/people/j-w-c-ng": [],
+        "https://www.dase.hku.hk/people/c-k-l-or": [
+          "https://kalunor.dase.hku.hk/"
+        ],
+        "https://www.dase.hku.hk/people/max-z-j-shen": [
+          "https://zj-maxshen.github.io/"
+        ],
+        "https://www.dase.hku.hk/people/c-sun": [
+          "https://chensunmac.github.io/",
+          "https://chensunmac.github.io/openings/"
+        ],
+        "https://www.dase.hku.hk/people/n-xi": [
+          "https://ati.hku.hk/"
+        ],
+        "https://www.dase.hku.hk/people/y-xu": [
+          "https://yangxu.hku.hk/",
+          "https://www.yxu195.com/join"
+        ],
+        "https://www.dase.hku.hk/people/f-n-zhang": [
+          "https://fangnizhang.github.io/"
+        ],
+        "https://www.dase.hku.hk/people/r-y-zhong": []
+      }
+    },
+    {
+      "id": "hku-dase-h-p-chen-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/h-p-chen",
+      "title": "H.P. Chen · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "f96071e68e071f81e7e89fecac4dfdbeb753f6dd83f5cd8b74f654cba574f1bf",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://chen-heping.github.io/"
+      ]
+    },
+    {
+      "id": "hku-dase-h-p-chen-personal-20261028",
+      "url": "https://chen-heping.github.io/",
+      "title": "Heping Chen · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "e13548a7e187023ef8bda18993b8fe2145ed0b2468d4c1f40a28951efb02f832",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-h-p-chen-profile-20261028"
+    },
+    {
+      "id": "hku-dase-j-c-chen-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/j-c-chen",
+      "title": "J.C. Chen · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "40630b17330dcfdca1cd2d455cacfeb153407a3f5f447ccb4bd4175607d5eb19",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-dase-j-y-chen-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/j-y-chen",
+      "title": "J.Y. Chen · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "30fa53edd82dfe69e6803e4018c5133c95b04db17b0a1785af44c5beff7ee71a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://agentic-intelligence-lab.org/"
+      ]
+    },
+    {
+      "id": "hku-dase-j-y-chen-personal-20261028",
+      "url": "https://agentic-intelligence-lab.org/",
+      "title": "Jiayu Chen / 陳佳玉 · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "e13548a7e187023ef8bda18993b8fe2145ed0b2468d4c1f40a28951efb02f832",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-j-y-chen-profile-20261028"
+    },
+    {
+      "id": "hku-dase-y-cheng-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/y-cheng",
+      "title": "Y. Cheng · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "30fa53edd82dfe69e6803e4018c5133c95b04db17b0a1785af44c5beff7ee71a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://yaocheng-dase.github.io/"
+      ]
+    },
+    {
+      "id": "hku-dase-y-cheng-personal-20261028",
+      "url": "https://yaocheng-dase.github.io/",
+      "title": "Yao Cheng · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "e13548a7e187023ef8bda18993b8fe2145ed0b2468d4c1f40a28951efb02f832",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-y-cheng-profile-20261028"
+    },
+    {
+      "id": "hku-dase-hh-cheung-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/hh-cheung",
+      "title": "H.H. Cheung · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "30fa53edd82dfe69e6803e4018c5133c95b04db17b0a1785af44c5beff7ee71a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-dase-s-y-hu-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/s-y-hu",
+      "title": "S.Y. Hu · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "40630b17330dcfdca1cd2d455cacfeb153407a3f5f447ccb4bd4175607d5eb19",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://shiyanhucps.github.io"
+      ]
+    },
+    {
+      "id": "hku-dase-wj-huang-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/wj-huang",
+      "title": "W.J. Huang · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "40630b17330dcfdca1cd2d455cacfeb153407a3f5f447ccb4bd4175607d5eb19",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://wenjiehuangwayne.github.io/"
+      ]
+    },
+    {
+      "id": "hku-dase-y-h-kuo-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/y-h-kuo",
+      "title": "Y.H. Kuo · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "b18d24a06d325cf300af547661e5508f7b901f6d5108adf89a8af1bf445bfaa8",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/site/yonghongkuo/"
+      ]
+    },
+    {
+      "id": "hku-dase-j-y-li-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/j-y-li",
+      "title": "J.Y. Li · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "b18d24a06d325cf300af547661e5508f7b901f6d5108adf89a8af1bf445bfaa8",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://jiayangli-nu.github.io/"
+      ]
+    },
+    {
+      "id": "hku-dase-j-y-li-personal-20261028",
+      "url": "https://jiayangli-nu.github.io/",
+      "title": "Jiayang Li · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5d2bbdced40881eac5693fb0bc50cecb4d8cef5dee963eb67adbbe924d585f0d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-j-y-li-profile-20261028"
+    },
+    {
+      "id": "hku-dase-x-li-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/x-li",
+      "title": "X. Li · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "b18d24a06d325cf300af547661e5508f7b901f6d5108adf89a8af1bf445bfaa8",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://www.xiang-li.phd/",
+        "https://www.situated-reality.org/join-us"
+      ]
+    },
+    {
+      "id": "hku-dase-x-li-personal-20261028",
+      "url": "https://www.xiang-li.phd/",
+      "title": "Xiang Li / 李想 · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5d2bbdced40881eac5693fb0bc50cecb4d8cef5dee963eb67adbbe924d585f0d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-x-li-profile-20261028"
+    },
+    {
+      "id": "hku-dase-x-li-sir-join-20261028",
+      "url": "https://www.situated-reality.org/join-us",
+      "title": "SiR实验室 · 2027博士及提前联系",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "758d926c5f3ec494dd2802ae84cd5c61b3ca5f73070807ce4e75e9df67ee0eca",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-x-li-profile-20261028",
+      "retrievedUrl": "https://www.situated-reality.org/join-us/"
+    },
+    {
+      "id": "hku-dase-s-c-lin-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/s-c-lin",
+      "title": "S.C. Lin · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "966d48513c929b374207ce752b2b260cb2f45c864393c0a934a654fda15b694d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/shaochong"
+      ]
+    },
+    {
+      "id": "hku-dase-s-c-lin-personal-20261028",
+      "url": "https://sites.google.com/view/shaochong",
+      "title": "Shaochong Lin / 林少冲 · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "776931d01a3ddd2e06ad0c66452b2d2dc3080f5588e1a63e6df4cfdde68abf68",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-s-c-lin-profile-20261028"
+    },
+    {
+      "id": "hku-dase-j-liu-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/j-liu",
+      "title": "J. Liu · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "966d48513c929b374207ce752b2b260cb2f45c864393c0a934a654fda15b694d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://airlab.hku.hk"
+      ]
+    },
+    {
+      "id": "hku-dase-s-n-liu-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/s-n-liu",
+      "title": "S. N. Liu · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "966d48513c929b374207ce752b2b260cb2f45c864393c0a934a654fda15b694d",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://www.shinan.info/"
+      ]
+    },
+    {
+      "id": "hku-dase-s-n-liu-personal-20261028",
+      "url": "https://www.shinan.info/",
+      "title": "Shinan Liu · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "776931d01a3ddd2e06ad0c66452b2d2dc3080f5588e1a63e6df4cfdde68abf68",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-s-n-liu-profile-20261028"
+    },
+    {
+      "id": "hku-dase-x-ma-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/x-ma",
+      "title": "X. Ma · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5678964e054185e5228e4d9a4146d7f17d271e3421de8737f6c27926e6a09a68",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://ati.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-dase-j-w-c-ng-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/j-w-c-ng",
+      "title": "Jonathan W.C. Ng · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5678964e054185e5228e4d9a4146d7f17d271e3421de8737f6c27926e6a09a68",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-dase-c-k-l-or-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/c-k-l-or",
+      "title": "Calvin K.L. Or · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5678964e054185e5228e4d9a4146d7f17d271e3421de8737f6c27926e6a09a68",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://kalunor.dase.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-dase-max-z-j-shen-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/max-z-j-shen",
+      "title": "Max Z.J. Shen · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "25a32b88f6b7a4c81ea9e4b7ba0ee497555827e435ef3052027e6a19895c4695",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://zj-maxshen.github.io/"
+      ]
+    },
+    {
+      "id": "hku-dase-c-sun-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/c-sun",
+      "title": "C. Sun · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "25a32b88f6b7a4c81ea9e4b7ba0ee497555827e435ef3052027e6a19895c4695",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://chensunmac.github.io/",
+        "https://chensunmac.github.io/openings/"
+      ]
+    },
+    {
+      "id": "hku-dase-c-sun-openings-20261028",
+      "url": "https://chensunmac.github.io/openings/",
+      "title": "Chen Sun · 提供的Openings",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "3962a3b479e692c9bc58126ab79bd9a0648ddb70c48983d16552e210093af02a",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-c-sun-profile-20261028"
+    },
+    {
+      "id": "hku-dase-n-xi-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/n-xi",
+      "title": "N. Xi · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "25a32b88f6b7a4c81ea9e4b7ba0ee497555827e435ef3052027e6a19895c4695",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://ati.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-dase-y-xu-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/y-xu",
+      "title": "Y. Xu · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2e4e4c05642b02916695f5f3c19dab87d83d122eca0137c922a14a0ed2430e80",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://yangxu.hku.hk/",
+        "https://www.yxu195.com/join"
+      ]
+    },
+    {
+      "id": "hku-dase-y-xu-personal-20261028",
+      "url": "https://yangxu.hku.hk/",
+      "title": "Yang Xu · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "3bc4fae98440e81fb2a6a32b1ba25f64c982bccadc01b84dcab3c0bc4a2d1ca9",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-y-xu-profile-20261028"
+    },
+    {
+      "id": "hku-dase-f-n-zhang-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/f-n-zhang",
+      "title": "F.N. Zhang · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2e4e4c05642b02916695f5f3c19dab87d83d122eca0137c922a14a0ed2430e80",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": [
+        "https://fangnizhang.github.io/"
+      ]
+    },
+    {
+      "id": "hku-dase-f-n-zhang-personal-20261028",
+      "url": "https://fangnizhang.github.io/",
+      "title": "Fangni Zhang · 提供的个人或实验室页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "3bc4fae98440e81fb2a6a32b1ba25f64c982bccadc01b84dcab3c0bc4a2d1ca9",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "parentSourceId": "hku-dase-f-n-zhang-profile-20261028"
+    },
+    {
+      "id": "hku-dase-r-y-zhong-profile-20261028",
+      "url": "https://www.dase.hku.hk/people/r-y-zhong",
+      "title": "Ray Y. Zhong · 官方主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2e4e4c05642b02916695f5f3c19dab87d83d122eca0137c922a14a0ed2430e80",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-dase-honorary-20261028",
+      "url": "https://www.dase.hku.hk/people/honorary-and-adjunct-appointments/part-time-appointments",
+      "title": "DASE · 荣誉、访问与兼职另表",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "f96071e68e071f81e7e89fecac4dfdbeb753f6dd83f5cd8b74f654cba574f1bf",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-dase-rpg-overview-20261028",
+      "url": "https://www.dase.hku.hk/teaching-and-learning/prospective-students/mphil-phd",
+      "title": "DASE · MPhil/PhD研究学位概览",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "实际返回的身份、研究或明确范围内申请说明；不认证指导资格或实时余位。",
+      "claims": [
+        "按实际页面保留研究自述、任职或申请说明的范围与日期。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "f96071e68e071f81e7e89fecac4dfdbeb753f6dd83f5cd8b74f654cba574f1bf",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "knownIssues": [
+        "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
+      ]
     }
   ],
   "funding": [
@@ -88599,6 +90788,53 @@
         "https://myweb.cuhk.edu.cn/alessandroteixeira"
       ],
       "coverageNotes": "本次返回的完整列表区间有130张卡片；118份明确研究自述已整理，12份继续待核。七种筛选按钮不等于每类都有已核教师。未发现文本分页入口，但浏览器筛选行为未新核，不宣称全院或全校已收全。"
+    },
+    {
+      "id": "census-hku-dase-academic",
+      "universityId": "hku",
+      "unit": "数据与系统工程系 · 学术人员",
+      "url": "https://www.dase.hku.hk/people/academic-staff",
+      "sourceIds": [
+        "hku-dase-academic-20261028"
+      ],
+      "coverageComplete": false,
+      "profileLinksObserved": [
+        "https://www.dase.hku.hk/people/h-p-chen",
+        "https://www.dase.hku.hk/people/j-c-chen",
+        "https://www.dase.hku.hk/people/j-y-chen",
+        "https://www.dase.hku.hk/people/y-cheng",
+        "https://www.dase.hku.hk/people/hh-cheung",
+        "https://www.dase.hku.hk/people/s-y-hu",
+        "https://www.dase.hku.hk/people/wj-huang",
+        "https://www.dase.hku.hk/people/y-h-kuo",
+        "https://www.dase.hku.hk/people/j-y-li",
+        "https://www.dase.hku.hk/people/x-li",
+        "https://www.dase.hku.hk/people/s-c-lin",
+        "https://www.dase.hku.hk/people/j-liu",
+        "https://www.dase.hku.hk/people/s-n-liu",
+        "https://www.dase.hku.hk/people/x-ma",
+        "https://www.dase.hku.hk/people/j-w-c-ng",
+        "https://www.dase.hku.hk/people/c-k-l-or",
+        "https://www.dase.hku.hk/people/max-z-j-shen",
+        "https://www.dase.hku.hk/people/c-sun",
+        "https://www.dase.hku.hk/people/n-xi",
+        "https://www.dase.hku.hk/people/y-xu",
+        "https://www.dase.hku.hk/people/f-n-zhang",
+        "https://www.dase.hku.hk/people/r-y-zhong"
+      ],
+      "coverageNotes": "23张返回卡片含22个原主页和1条未链接Bill K.P. Chan；不是已确认全部导师或余位，教学/研究助理等职称不自动推指导资格。"
+    },
+    {
+      "id": "census-hku-dase-honorary",
+      "universityId": "hku",
+      "unit": "数据与系统工程系 · 荣誉、访问与兼职另表",
+      "url": "https://www.dase.hku.hk/people/honorary-and-adjunct-appointments/part-time-appointments",
+      "sourceIds": [
+        "hku-dase-honorary-20261028"
+      ],
+      "coverageComplete": false,
+      "profileLinksObserved": [],
+      "coverageNotes": "返回29张荣誉、访问或兼职卡片，本次未给出可点击个人主页；P.C.Chen另有明文HTTP网址尚未核。未把这些人加入已核研究卡片或认定指导资格。"
     }
   ],
   "academicCoverage": [
@@ -90650,6 +92886,447 @@
                   "facultyId": "wide-hku-difan-zou"
                 }
               ]
+            },
+            {
+              "label": "DASE · 学术人员23卡片，22原主页",
+              "url": "https://www.dase.hku.hk/people/academic-staff",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "hku-dase-academic-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "H.P. Chen",
+                  "url": "https://www.dase.hku.hk/people/h-p-chen",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Professor of Practice",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Professor of Practice",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "f96071e68e071f81e7e89fecac4dfdbeb753f6dd83f5cd8b74f654cba574f1bf",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-h-p-chen"
+                },
+                {
+                  "name": "J.C. Chen",
+                  "url": "https://www.dase.hku.hk/people/j-c-chen",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Research Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Research Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "40630b17330dcfdca1cd2d455cacfeb153407a3f5f447ccb4bd4175607d5eb19",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-j-c-chen"
+                },
+                {
+                  "name": "J.Y. Chen",
+                  "url": "https://www.dase.hku.hk/people/j-y-chen",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "30fa53edd82dfe69e6803e4018c5133c95b04db17b0a1785af44c5beff7ee71a",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-j-y-chen"
+                },
+                {
+                  "name": "Y. Cheng",
+                  "url": "https://www.dase.hku.hk/people/y-cheng",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Associate Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Associate Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "30fa53edd82dfe69e6803e4018c5133c95b04db17b0a1785af44c5beff7ee71a",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-y-cheng"
+                },
+                {
+                  "name": "H.H. Cheung",
+                  "url": "https://www.dase.hku.hk/people/hh-cheung",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Senior Lecturer",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Senior Lecturer",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "30fa53edd82dfe69e6803e4018c5133c95b04db17b0a1785af44c5beff7ee71a",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-hh-cheung"
+                },
+                {
+                  "name": "S.Y. Hu",
+                  "url": "https://www.dase.hku.hk/people/s-y-hu",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "40630b17330dcfdca1cd2d455cacfeb153407a3f5f447ccb4bd4175607d5eb19",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-s-y-hu"
+                },
+                {
+                  "name": "W.J. Huang",
+                  "url": "https://www.dase.hku.hk/people/wj-huang",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Research Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Research Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "40630b17330dcfdca1cd2d455cacfeb153407a3f5f447ccb4bd4175607d5eb19",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-wj-huang"
+                },
+                {
+                  "name": "Y.H. Kuo",
+                  "url": "https://www.dase.hku.hk/people/y-h-kuo",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Associate Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Associate Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "b18d24a06d325cf300af547661e5508f7b901f6d5108adf89a8af1bf445bfaa8",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-y-h-kuo"
+                },
+                {
+                  "name": "J.Y. Li",
+                  "url": "https://www.dase.hku.hk/people/j-y-li",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "b18d24a06d325cf300af547661e5508f7b901f6d5108adf89a8af1bf445bfaa8",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-j-y-li"
+                },
+                {
+                  "name": "X. Li",
+                  "url": "https://www.dase.hku.hk/people/x-li",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "b18d24a06d325cf300af547661e5508f7b901f6d5108adf89a8af1bf445bfaa8",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-x-li"
+                },
+                {
+                  "name": "S.C. Lin",
+                  "url": "https://www.dase.hku.hk/people/s-c-lin",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "966d48513c929b374207ce752b2b260cb2f45c864393c0a934a654fda15b694d",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-s-c-lin"
+                },
+                {
+                  "name": "J. Liu",
+                  "url": "https://www.dase.hku.hk/people/j-liu",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Associate Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Associate Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "966d48513c929b374207ce752b2b260cb2f45c864393c0a934a654fda15b694d",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-j-liu"
+                },
+                {
+                  "name": "S. N. Liu",
+                  "url": "https://www.dase.hku.hk/people/s-n-liu",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "966d48513c929b374207ce752b2b260cb2f45c864393c0a934a654fda15b694d",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-s-n-liu"
+                },
+                {
+                  "name": "X. Ma",
+                  "url": "https://www.dase.hku.hk/people/x-ma",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Research Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Research Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "5678964e054185e5228e4d9a4146d7f17d271e3421de8737f6c27926e6a09a68",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-x-ma"
+                },
+                {
+                  "name": "Jonathan W.C. Ng",
+                  "url": "https://www.dase.hku.hk/people/j-w-c-ng",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Principal Lecturer",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Principal Lecturer",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "5678964e054185e5228e4d9a4146d7f17d271e3421de8737f6c27926e6a09a68",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-j-w-c-ng"
+                },
+                {
+                  "name": "Calvin K.L. Or",
+                  "url": "https://www.dase.hku.hk/people/c-k-l-or",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Associate Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Associate Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "5678964e054185e5228e4d9a4146d7f17d271e3421de8737f6c27926e6a09a68",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-c-k-l-or"
+                },
+                {
+                  "name": "Max Z.J. Shen",
+                  "url": "https://www.dase.hku.hk/people/max-z-j-shen",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Chair Professor in Logistics and Supply Chain Management",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Chair Professor in Logistics and Supply Chain Management",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "25a32b88f6b7a4c81ea9e4b7ba0ee497555827e435ef3052027e6a19895c4695",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-max-z-j-shen"
+                },
+                {
+                  "name": "C. Sun",
+                  "url": "https://www.dase.hku.hk/people/c-sun",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "25a32b88f6b7a4c81ea9e4b7ba0ee497555827e435ef3052027e6a19895c4695",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-c-sun"
+                },
+                {
+                  "name": "N. Xi",
+                  "url": "https://www.dase.hku.hk/people/n-xi",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Head of Department; Chair Professor of Robotics and Automation",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Head of Department; Chair Professor of Robotics and Automation",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "25a32b88f6b7a4c81ea9e4b7ba0ee497555827e435ef3052027e6a19895c4695",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "wide-hku-ning-xi"
+                },
+                {
+                  "name": "Y. Xu",
+                  "url": "https://www.dase.hku.hk/people/y-xu",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Assistant Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Assistant Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "2e4e4c05642b02916695f5f3c19dab87d83d122eca0137c922a14a0ed2430e80",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-y-xu"
+                },
+                {
+                  "name": "F.N. Zhang",
+                  "url": "https://www.dase.hku.hk/people/f-n-zhang",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Associate Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Associate Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "2e4e4c05642b02916695f5f3c19dab87d83d122eca0137c922a14a0ed2430e80",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-f-n-zhang"
+                },
+                {
+                  "name": "Ray Y. Zhong",
+                  "url": "https://www.dase.hku.hk/people/r-y-zhong",
+                  "observedOn": "https://www.dase.hku.hk/people/academic-staff",
+                  "directoryLabel": "DASE / Associate Professor",
+                  "directorySourceIds": [
+                    "hku-dase-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "originalRole": "Associate Professor",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "2e4e4c05642b02916695f5f3c19dab87d83d122eca0137c922a14a0ed2430e80",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hku-dase-r-y-zhong"
+                }
+              ]
+            },
+            {
+              "label": "DASE · 荣誉访问兼职29卡片另表",
+              "url": "https://www.dase.hku.hk/people/honorary-and-adjunct-appointments/part-time-appointments",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "hku-dase-honorary-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": []
             }
           ]
         },
@@ -110099,5 +112776,5 @@
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:94495ca73081619fb2db1979a60c6c141147da353b0d3afd5d0d423494101e86"
+  "snapshotId": "sha256:efed3de25c92f9a0eb2074222c9ec081348710ff6a6bcb9e8993e5e862315029"
 }
