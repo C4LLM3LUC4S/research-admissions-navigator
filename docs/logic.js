@@ -105,7 +105,10 @@
     return (faculty.extraLinks||[]).flatMap(item=>{
       const parent=catalog.sources.find(s=>s.id===item.parentSourceId);
       const url=publicHttps(item.url);
-      if(!url||!parent||!officialUrl(parent.url)||![faculty.profileUrl,faculty.reviewedProfileUrl].filter(Boolean).includes(parent.url)||
+      const fromProfile=parent&&[faculty.profileUrl,faculty.reviewedProfileUrl].filter(Boolean).includes(parent.url);
+      const fromDirectory=parent&&(faculty.directorySourceIds||[]).includes(parent.id)&&
+        (parent.teacherLinksByProfile?.[faculty.profileUrl]||[]).includes(item.url);
+      if(!url||!parent||!officialUrl(parent.url)||(!fromProfile&&!fromDirectory)||
         !faculty.sourceIds.includes(parent.id)||!(parent.discoveredLinks||[]).includes(item.url))return [];
       return [{...item,url}];
     });

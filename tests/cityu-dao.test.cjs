@@ -20,7 +20,7 @@ test('web-reader text receipts do not pretend to be raw HTTP bodies',()=>{
 });
 test('all old identities, sources, dates and programme rules survive unchanged',()=>{
  for(const key of ['faculty','programs','sources'])for(const r of old[key])assert.deepEqual(C[key].find(n=>n.id===r.id),r,r.id);
- assert.equal(C.faculty.length,841);assert.equal(C.programs.length,25);
+ assert.equal(C.faculty.length,959);assert.equal(C.programs.length,30);
  assert.ok(!C.programs.some(p=>p.id==='cityu-dao-rpg'));
 });
 test('Chinese research terms lead to corresponding reviewed statements',()=>{

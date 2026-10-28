@@ -435,6 +435,13 @@ def build_catalog():
     catalog["directories"].extend(dao["directories"])
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cityu-2")
     unit["staffEntries"].extend(dao["staffEntries"])
+    sme = load("cuhksz-sme-census-20261028.json")
+    catalog["sources"].extend(sme["sources"])
+    catalog["faculty"].extend(sme["faculty"])
+    catalog["directories"].extend(sme["directories"])
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhksz-1")
+    unit["staffEntries"].extend(sme["staffEntries"])
+    catalog["programs"].extend(sme["programmes"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -551,7 +558,9 @@ def validate(catalog):
         refs(f["keywordSourceIds"])
         for link in f.get("extraLinks", []):
             parent = sources[link["parentSourceId"]]
-            assert link["parentSourceId"] in f["sourceIds"] and parent["url"] in {f["profileUrl"], f.get("reviewedProfileUrl")}
+            from_profile = parent["url"] in {f["profileUrl"], f.get("reviewedProfileUrl")}
+            from_directory = parent["id"] in f.get("directorySourceIds", []) and link["url"] in parent.get("teacherLinksByProfile", {}).get(f["profileUrl"], [])
+            assert link["parentSourceId"] in f["sourceIds"] and (from_profile or from_directory)
             assert link["url"] in parent["discoveredLinks"]
             assert link["bodyStatus"] in {"not_read", "body_read"}
             if link.get("linkIssue"):

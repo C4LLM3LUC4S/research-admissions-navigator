@@ -409,3 +409,18 @@ test('broad discovery renders bounded batches and clearing filters preserves the
   assert.equal(el('intake-cycle').value,'2027/28');assert.match(el('notice').textContent,/学位.*清单保留/);
   await el('export-local').emit('click');assert.equal(L.parsePortable(await h.downloads[0].blob.text(),C).profile.degree,'PhD');
 });
+
+test('SME actual callbacks connect a research query, directory-only personal link and a saved doctoral task',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);h.select('cuhksz','PhD',[]);el('research-query').value='数据驱动优化';
+  await el('profile-form').emit('input',{target:el('research-query')});
+  const teacher=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='邓淇元'));assert.ok(teacher);
+  assert.ok(h.walk(teacher).some(n=>n.tagName==='a'&&n.href==='https://qiyuan-deng.github.io/'));
+  await h.walk(teacher).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+  await el('show-programs').emit('click');
+  const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='金融学博士（港中文深圳经管）'));assert.ok(p);
+  assert.match(p.textContent,/博士/);assert.match(p.textContent,/自动纳入考虑|奖学金考虑/);assert.match(p.textContent,/2027-04-15/);
+  await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='加入准备清单 ＋').emit('click');
+  await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
+  assert.match(restored.byId.get('saved-faculty').textContent,/邓淇元/);assert.match(restored.byId.get('tasks').textContent,/金融学博士/);
+  assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});

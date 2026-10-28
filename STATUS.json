@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a9",
+  "version": "0.1.0a10",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-28",
@@ -7,17 +7,17 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 25,
-    "degree_routes": 43,
-    "faculty": 841,
-    "official_sources": 1335,
-    "programmes_with_partial_requirements": 23,
-    "requirement_items": 83,
-    "programmes_with_partial_finances": 18,
-    "finance_items": 26,
-    "official_directory_entries": 38,
-    "teacher_linked_sources": 189,
-    "total_sources": 1524,
+    "programme_or_route_cards": 30,
+    "degree_routes": 48,
+    "faculty": 959,
+    "official_sources": 1459,
+    "programmes_with_partial_requirements": 28,
+    "requirement_items": 118,
+    "programmes_with_partial_finances": 23,
+    "finance_items": 41,
+    "official_directory_entries": 39,
+    "teacher_linked_sources": 191,
+    "total_sources": 1650,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
     "reviewed_new_profiles": 165,
@@ -82,7 +82,10 @@
     "cityu_dao_observed": 49,
     "cityu_dao_responses_read": 43,
     "cityu_dao_research_curated": 33,
-    "cityu_dao_pending": 16
+    "cityu_dao_pending": 16,
+    "sme_observed": 130,
+    "sme_researched": 118,
+    "sme_pending": 12
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -132,7 +135,7 @@
     "根据已存相同防护响应摘要纠正20个入口和5项来源的正文读取状态；保留原核查日、原链接与所有教师编号，不把HTTP200当作院系正文。"
   ],
   "verification": {
-    "node_checks": 103,
+    "node_checks": 113,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -146,11 +149,11 @@
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 26
+    "python_checks": 27
   },
   "limitations": [
-    "841份教师研究资料、38个官方目录入口仍非完整导师库；DAO33份不确认指导资格、当期接收或余位。",
-    "836份资料的当前接收情况未知，另5位有不同年度或范围的说明；任何一项都不当作已确认的实时余位。",
+    "959份研究资料、39个目录入口仍非完整导师库；SME118份不认证指导资格、余位。",
+    "954份资料的当前接收未知，另5份不同年度/范围说明不代表实时余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
     "当前25条项目/申请路线：23条有部分要求、18条有部分费用或资助。CBE的Apply入口本次403，完整上传材料没有核到，不用其他项目或搜索摘要补猜。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
@@ -158,5 +161,5 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "DAO已按三类49个原主页整理33份明确研究自述；16条研究或读取待核。当期中央招生页未读到，继续其他七校尚未覆盖院系。"
+  "next": "继续SME12份未完成研究、个人Links及信息管理商业分析当期规则；其余学校按缺口轮换。实际发行与浏览器验收另存收据。"
 }
