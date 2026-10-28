@@ -78,8 +78,8 @@
     const u=university(f.universityId),card=node('article',null,'result-card');append(card,topLine(u,(f.availability||{}).cycle),node('h3',f.name),node('p',f.department||'院系待核实','scope-text'));const matches=L.matchedTopics(f,state.profile.interests);card.append(node('p',matches.length?'方向有交集 · '+matches.join('、'):'先看研究问题，再判断是否适合自己','matched-line'));const tags=node('div',null,'degree-line');(f.topics||[]).slice(0,8).forEach(t=>tags.append(node('span',t,'small-tag neutral')));card.append(tags);append(card,node('p',f.summary||'研究简介待核实','faculty-summary'),node('p',L.availabilityText(f)+' '+((f.availability||{}).text||''),'availability-note'));
     card.tabIndex=-1;
     if(f.role)card.append(node('p','官网所列身份：'+f.role,'scope-text'));
-    const key=word=>word.normalize('NFKC').replace(/^研究/,'').replace(/[\s。.,，；;、]/g,'').toLowerCase();
-    const summaryKey=key(f.summary||'');
+    const key=word=>{const value=word.trim().replace(/\s+/g,' ');return /^[A-Z]?[a-z]{2,}(?: [A-Z]?[a-z]{2,})+$/.test(value)?value.toLowerCase():value;};
+    const summaryKey=key((f.summary||'').replace(/^研究/,'').replace(/[。.]$/,''));
     const concise=terms=>{const seen=new Set();return terms.filter(term=>{const value=key(term);if(seen.has(value)||(term.length>28&&summaryKey.includes(value)))return false;seen.add(value);return true;});};
     const words=concise(f.researchKeywords||[]),specific=node('div',null,'research-terms');words.slice(0,6).forEach(term=>specific.append(node('span',term,'research-term')));card.append(specific);
     if(words.length>6){const more=node('details',null,'source-details'),terms=node('div',null,'research-terms');more.append(node('summary','还有 '+(words.length-6)+' 个研究词'));words.slice(6).forEach(term=>terms.append(node('span',term,'research-term')));more.append(terms);card.append(more);}

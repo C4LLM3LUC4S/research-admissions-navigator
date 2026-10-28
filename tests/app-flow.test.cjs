@@ -35,7 +35,7 @@ function harness(initialStorage,options={}) {
   let networkCalls=0;
   class TestURL extends URL {static createObjectURL(blob){const key='blob:local-test-'+blobs.size;blobs.set(key,blob);return key;}static revokeObjectURL(){}}
   class TestFormData {get(name){return query('[name='+name+']:checked')[0]?.value||null;}}
-  const context={window:{APP_LOGIC:L,APP_CATALOG:C},document:{getElementById:id=>{assert.ok(byId.has(id),id);return byId.get(id);},createElement:tag=>new Element(tag),querySelectorAll:query,body},localStorage:{getItem:key=>saved.get(key)||null,setItem:(key,value)=>{if(options.storageWriteFails)throw Error('synthetic storage failure');saved.set(key,value);},removeItem:key=>saved.delete(key)},structuredClone,Intl,Date,Math,Blob,URL:TestURL,FormData:TestFormData,Option:function(label,value){const option=new Element('option');option.textContent=label;option.value=value;return option;},history:{replaceState(){}},location:{hash:''},setTimeout:()=>1,clearTimeout(){},console,fetch(){networkCalls++;throw Error('No outbound network allowed in this local task');}};
+  const context={window:{APP_LOGIC:L,APP_CATALOG:options.catalog||C},document:{getElementById:id=>{assert.ok(byId.has(id),id);return byId.get(id);},createElement:tag=>new Element(tag),querySelectorAll:query,body},localStorage:{getItem:key=>saved.get(key)||null,setItem:(key,value)=>{if(options.storageWriteFails)throw Error('synthetic storage failure');saved.set(key,value);},removeItem:key=>saved.delete(key)},structuredClone,Intl,Date,Math,Blob,URL:TestURL,FormData:TestFormData,Option:function(label,value){const option=new Element('option');option.textContent=label;option.value=value;return option;},history:{replaceState(){}},location:{hash:''},setTimeout:()=>1,clearTimeout(){},console,fetch(){networkCalls++;throw Error('No outbound network allowed in this local task');}};
   // This is a hang guard, not a startup-speed requirement; locale cold starts vary on shared runners.
   vm.runInNewContext(script,context,{timeout:10000});
   const walk=(element)=>[element,...element.children.flatMap(walk)];
@@ -508,4 +508,15 @@ test('research cards keep concise distinct keywords and preserve a description-o
  el('research-query').value='天然酶反应范围之外';await el('profile-form').emit('input',{target:el('research-query')});card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Hui CAO'));assert.ok(card);assert.match(card.textContent,/研究描述与所填词语有交集/);
  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
  assert.match(restored.byId.get('saved-faculty').textContent,/Hui CAO/);assert.equal(restored.byId.get('research-query').value,'天然酶反应范围之外');assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
+
+
+test('compact labels preserve case-sensitive scientific symbols and exponent notation',async()=>{
+ const catalog={...C,faculty:C.faculty.map(f=>f.id==='hkust-chemistry-01'?{...f,researchKeywords:['Co','CO','mRNA','mrna','x²','x2','Protein engineering','protein engineering']}:f)};
+ const h=harness(undefined,{catalog}),el=id=>h.byId.get(id);h.select('hkust','MPhil',[]);el('research-query').value='protein';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Hui CAO'));assert.ok(card);
+ const labels=h.walk(card).filter(n=>n.className==='research-term').map(n=>n.textContent);
+ for(const term of ['Co','CO','mRNA','mrna','x²','x2'])assert.ok(labels.includes(term),term);
+ assert.equal(labels.filter(x=>x.toLowerCase()==='protein engineering').length,1);
+ assert.deepEqual(catalog.faculty.find(f=>f.id==='hkust-chemistry-01').researchKeywords,['Co','CO','mRNA','mrna','x²','x2','Protein engineering','protein engineering']);
 });
