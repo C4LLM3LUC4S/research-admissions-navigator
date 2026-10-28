@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import subprocess
+import time
 import zipfile
 from pathlib import Path, PurePosixPath
 
@@ -22,6 +23,7 @@ def git(*args):
 if git("status", "--porcelain", "--untracked-files=no").strip():
     raise ValueError("Commit tracked source changes before packaging")
 source = git("rev-parse", "HEAD").decode().strip()
+commit_time = max(315532800, int(git("show", "-s", "--format=%ct", "HEAD")))
 members = {}
 for name in git("ls-files", "-z").decode().split("\0"):
     if not name:
@@ -69,7 +71,11 @@ members["MANIFEST.json"] = (json.dumps(manifest, ensure_ascii=False, indent=2) +
 archive = out / (("Yanxiang-local-prototype-" + version.removesuffix("-local") + ".zip") if version.endswith('-local') else ("Yanxiang-" + version + "-offline.zip"))
 with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as zipped:
     for name, data in sorted(members.items()):
-        zipped.writestr(name, data)
+        entry = zipfile.ZipInfo(name, time.gmtime(commit_time)[:6])
+        entry.create_system = 3
+        entry.external_attr = 0o100644 << 16
+        entry.compress_type = zipfile.ZIP_DEFLATED
+        zipped.writestr(entry, data)
 with zipfile.ZipFile(archive) as zipped:
     assert zipped.testzip() is None and set(zipped.namelist()) == set(members)
     for name, data in members.items():
