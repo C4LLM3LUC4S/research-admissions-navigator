@@ -442,6 +442,13 @@ def build_catalog():
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhksz-1")
     unit["staffEntries"].extend(sme["staffEntries"])
     catalog["programs"].extend(sme["programmes"])
+    dase = load("hku-dase-census-20261028.json")
+    catalog["sources"].extend(dase["sources"])
+    catalog["faculty"].extend(dase["faculty"])
+    catalog["directories"].extend(dase["directories"])
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hku-6")
+    unit["staffEntries"].extend(dase["staffEntries"])
+    catalog["programs"].extend(dase["programmes"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -502,6 +509,8 @@ def validate(catalog):
         assert p["id"] not in seen and p["universityId"] in unis
         seen.add(p["id"])
         assert p["degrees"] and set(p["degrees"]) <= {"MPhil", "PhD"}
+        if p.get("cycleVerified") is False:
+            assert p["cycle"] is None and not p["deadlines"], "An undated route must not acquire an intake or deadline"
         assert p["contact"]["status"] in {"recommended", "required", "not_required", "after_admission", "unknown"}
         refs(p["sourceIds"]); refs(p["contact"]["sourceIds"]); refs(p["selection"]["sourceIds"])
         for item in p.get("requirements", []):

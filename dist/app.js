@@ -35,7 +35,8 @@
   function topLine(u,cycle) { const row=node('div',null,'card-topline'),kicker=node('div',null,'university-kicker');append(kicker,node('strong',u?u.short||u.name:'学校待核实'),node('span',u?u.region:'','region-pill'));append(row,kicker,cycle?node('span',cycle,'cycle-pill'):null);return row; }
   function taskForProgram(p) { if(state.tasks.length>=200){notify('待办已到 200 条，请先整理或备份现有清单。',true);return;}const text='核对 '+p.name+' 的联系要求、申请轮次和材料清单';state.tasks.push({id:'task-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7),text,done:false,programId:p.id,facultyId:null});state.sourceIds=[...new Set([...state.sourceIds,...(p.sourceIds||[])])];const saved=persist(false);renderShortlist();if(saved)notify('已加入准备清单。先核对要求，再决定是否联系。'); }
   function taskForRequirement(p,item) {
-    const text=L.cycleLabel(state.profile.cycle||p.cycle)+' · '+state.profile.degree+' · '+p.name+'：'+item.action;
+    const cycleText=p.cycleVerified===false?'计划'+L.cycleLabel(state.profile.cycle)+'（项目轮次待核）':L.cycleLabel(state.profile.cycle||p.cycle);
+    const text=cycleText+' · '+state.profile.degree+' · '+p.name+'：'+item.action;
     if(state.tasks.some(t=>t.programId===p.id&&t.text===text)){notify('这件事已经在清单里，可以接着完成。');return;}
     if(state.tasks.length>=200){notify('待办已到 200 条，请先整理或备份现有清单。',true);return;}
     state.tasks.push({id:'task-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7),text,done:false,programId:p.id,facultyId:null});
@@ -56,13 +57,13 @@
     });section.append(body);return section;
   }
   function programCard(p) {
-    const u=university(p.universityId),card=node('article',null,'result-card');append(card,topLine(u,L.cycleLabel(state.profile.cycle||p.cycle)),node('h3',p.name));const tags=node('div',null,'degree-line');(p.degrees||[]).forEach(d=>tags.append(node('span',d==='MPhil'?'MPhil · 研究型硕士':'PhD · 博士','small-tag')));card.append(tags);card.append(node('p',p.scope||'具体适用范围待核实','scope-text'));if(state.profile.cycle&&state.profile.cycle!==p.cycle)card.append(node('p','下面只显示官网列出的这轮日期；导师联系、资格和材料是否有变化，还需按这轮原页核对。','evidence-note'));
+    const u=university(p.universityId),card=node('article',null,'result-card');append(card,topLine(u,p.cycleVerified===false?'入学轮次待核':L.cycleLabel(state.profile.cycle||p.cycle)),node('h3',p.name));const tags=node('div',null,'degree-line');(p.degrees||[]).forEach(d=>tags.append(node('span',d==='MPhil'?'MPhil · 研究型硕士':'PhD · 博士','small-tag')));card.append(tags);card.append(node('p',p.scope||'具体适用范围待核实','scope-text'));if(p.cycleVerified===false)card.append(node('p','这是未注明招生年度的研究学位入口；当前轮次、资格和材料仍需核对，不代表你所选轮次已经开放。','evidence-note'));else if(state.profile.cycle&&state.profile.cycle!==p.cycle)card.append(node('p','下面只显示官网列出的这轮日期；导师联系、资格和材料是否有变化，还需按这轮原页核对。','evidence-note'));
     const questions=node('div',null,'question-grid');[['申请前要不要先联系导师',p.contact&&p.contact.text],['谁参与审核',p.selection&&p.selection.text]].forEach(([heading,text])=>{const part=node('div');append(part,node('h4',heading),node('p',text||'当前资料不足，先查项目要求；不要把未知当成无需联系。'));questions.append(part);});card.append(questions);
     const items=L.requirementsFor(p,state.profile);
     if(items.length){const requirements=node('details',null,'source-details');requirements.append(node('summary','已核到的要求与下一步'));const body=node('div',null,'source-details-body');body.append(node('p','这里只整理了已核到的部分要求。没有列出的材料仍需看官网完整清单，不代表无需提交。','evidence-note'));items.forEach(item=>{append(body,node('h4',item.label),node('p',item.text));if(item.url)body.append(link('打开这一步的官方入口 ↗',item.url));body.append(evidence(item.sourceIds));if(item.action)body.append(button('把这一步加入待办 ＋',()=>taskForRequirement(p,item),'subtle-button'));});requirements.append(body);card.append(requirements);}
     else card.append(node('p','这条路线的学历、英语和完整材料还没补齐。请打开官方原页逐项核对，不能按资料缺失理解为没有要求。','evidence-note'));
     card.append(financeSection(p));
-    const dates=node('div',null,'deadlines'),visible=L.deadlinesFor(p,state.profile,u);visible.forEach(d=>dates.append(deadlineCard({...d,cycle:d.cycle||p.cycle},state.profile.cycle)));if(!visible.length)dates.append(deadlineCard({label:'本轮申请时间',at:null,cycle:state.profile.cycle||p.cycle},state.profile.cycle));card.append(dates);
+    const dates=node('div',null,'deadlines'),visible=L.deadlinesFor(p,state.profile,u);visible.forEach(d=>dates.append(deadlineCard({...d,cycle:d.cycle||p.cycle},state.profile.cycle)));if(!visible.length)dates.append(deadlineCard({label:p.cycleVerified===false?'当期申请时间待核':'本轮申请时间',at:null,cycle:p.cycleVerified===false?null:state.profile.cycle||p.cycle},state.profile.cycle));card.append(dates);
     const primary=(p.sourceIds||[]).map(id=>C.sources.find(s=>s.id===id)).find(s=>s&&L.officialUrl(s.url));
     const bottom=node('div',null,'card-bottom');append(bottom,link('打开官方原页 ↗',p.entryUrl||(primary&&primary.url)||(u&&u.entryUrl)),button('加入准备清单 ＋',()=>taskForProgram(p),'subtle-button'));card.append(bottom);card.append(evidence([...(p.sourceIds||[]),...((p.contact||{}).sourceIds||[]),...((p.selection||{}).sourceIds||[]),...visible.flatMap(d=>d.sourceIds||[])],p.evidenceNote));return card;
   }

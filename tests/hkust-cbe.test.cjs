@@ -5,7 +5,7 @@ const source=id=>C.sources.find(s=>s.id===id),profile=(q='',degree='MPhil',cycle
 const leads=P.staffEntries.flatMap(s=>s.profileLeads),byName=s=>C.faculty.find(f=>f.name.includes(s));
 test('seven current category counts include all68 original links but only67 researched records',()=>{
  assert.deepEqual(P.staffEntries.map(s=>s.profileLeads.length),[29,4,5,17,0,6,7]);assert.equal(leads.length,68);assert.equal(new Set(leads.map(l=>l.url)).size,68);
- assert.equal(leads.filter(l=>l.facultyId).length,67);assert.equal(P.faculty.length,63);assert.equal(P.facultyUpdates.length,4);assert.equal(C.faculty.length,959);
+ assert.equal(leads.filter(l=>l.facultyId).length,67);assert.equal(P.faculty.length,63);assert.equal(P.facultyUpdates.length,4);assert.equal(C.faculty.length,980);
  assert.equal(leads.filter(l=>!l.facultyId)[0].name,'Teng ZHAO');assert.equal(P.directories[0].coverageComplete,false);
  for(const l of leads){assert.equal(l.profileBodyStatus,'body_read');assert.equal(l.availability,'unknown');assert.equal(l.supervisionEligibility,'unknown');assert.match(l.bodySha256,/^[a-f0-9]{64}$/);}
 });

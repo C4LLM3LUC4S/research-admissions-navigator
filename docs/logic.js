@@ -130,7 +130,7 @@
   function programsFor(catalog, profile) {
     return catalog.programs.filter(p => (p.degrees || []).includes(profile.degree) &&
       (!profile.universityIds.length || profile.universityIds.includes(p.universityId)) &&
-      (!profile.cycle || p.cycle===profile.cycle || (p.deadlines||[]).some(d=>d.cycle===profile.cycle&&(!d.degree||d.degree===profile.degree))));
+      (!profile.cycle || p.cycleVerified===false || p.cycle===profile.cycle || (p.deadlines||[]).some(d=>d.cycle===profile.cycle&&(!d.degree||d.degree===profile.degree))));
   }
   function facultyFor(catalog, profile) {
     return catalog.faculty.filter(f => (!profile.universityIds.length || profile.universityIds.includes(f.universityId)) &&

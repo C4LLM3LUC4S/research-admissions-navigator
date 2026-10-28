@@ -7,17 +7,17 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 30,
-    "degree_routes": 48,
-    "faculty": 959,
-    "official_sources": 1459,
-    "programmes_with_partial_requirements": 28,
-    "requirement_items": 118,
+    "programme_or_route_cards": 31,
+    "degree_routes": 50,
+    "faculty": 980,
+    "official_sources": 1484,
+    "programmes_with_partial_requirements": 29,
+    "requirement_items": 121,
     "programmes_with_partial_finances": 23,
     "finance_items": 41,
-    "official_directory_entries": 39,
-    "teacher_linked_sources": 191,
-    "total_sources": 1650,
+    "official_directory_entries": 41,
+    "teacher_linked_sources": 202,
+    "total_sources": 1686,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
     "reviewed_new_profiles": 165,
@@ -85,7 +85,12 @@
     "cityu_dao_pending": 16,
     "sme_observed": 130,
     "sme_researched": 118,
-    "sme_pending": 12
+    "sme_pending": 12,
+    "dase_academic_cards": 23,
+    "dase_linked_profiles": 22,
+    "dase_new_records": 21,
+    "dase_existing_id": 1,
+    "dase_honorary_cards": 29
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -132,10 +137,11 @@
     "港理工应用数学、计算及数据科学与AI三个主名录168个主页逐项保留，跨系任职据共同档案去重；新增151条研究、保留10个原编号，补实际2027年9月三条入口和分学位要求、博士费用与有条件资助。",
     "港科大CBE当前七类68条主页分身份整理，新增63条研究、4位旧编号接续；未来2027年7月任职、1条缺研究、个人站脚本壳和其他机构职务分开。新增生命科学/生物工程及化学工程分类和常用中文研究词。",
     "补CBME和BIEN的2027/28研究学位、非本地/本地及春秋日期、新旧托福尺度与180港元申请费；补课条件不写成生物本科前置要求，完整系统材料和导师支持要求仍未知。",
-    "根据已存相同防护响应摘要纠正20个入口和5项来源的正文读取状态；保留原核查日、原链接与所有教师编号，不把HTTP200当作院系正文。"
+    "根据已存相同防护响应摘要纠正20个入口和5项来源的正文读取状态；保留原核查日、原链接与所有教师编号，不把HTTP200当作院系正文。",
+    "未注明招生年度的研究学位入口明确标待核，选择轮次不当官网已证实，待办保留计划与未知区别"
   ],
   "verification": {
-    "node_checks": 113,
+    "node_checks": 118,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -152,8 +158,8 @@
     "python_checks": 27
   },
   "limitations": [
-    "959份研究资料、39个目录入口仍非完整导师库；SME118份不认证指导资格、余位。",
-    "954份资料的当前接收未知，另5份不同年度/范围说明不代表实时余位。",
+    "980份研究资料、41目录仍非七校导师全集；DASE23学术卡片、29荣誉兼职卡片仍有未链接与资格未知。",
+    "975份当前接收未知，其他既有公开招募也不是实时余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
     "当前25条项目/申请路线：23条有部分要求、18条有部分费用或资助。CBE的Apply入口本次403，完整上传材料没有核到，不用其他项目或搜索摘要补猜。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
@@ -161,5 +167,5 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "继续SME12份未完成研究、个人Links及信息管理商业分析当期规则；其余学校按缺口轮换。实际发行与浏览器验收另存收据。"
+  "next": "接续DASE完整当期校级规则与未链接身份，再按七校缺口轮换；SME12条与更多个人站保留待核。"
 }

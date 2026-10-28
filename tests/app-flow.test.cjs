@@ -424,3 +424,15 @@ test('SME actual callbacks connect a research query, directory-only personal lin
   assert.match(restored.byId.get('saved-faculty').textContent,/邓淇元/);assert.match(restored.byId.get('tasks').textContent,/金融学博士/);
   assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+test('an undated research-degree route remains findable without pretending the selected intake is verified',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='数据与系统工程研究学位'));assert.ok(card);
+ const top=h.walk(card).find(n=>n.className==='card-topline');assert.match(top.textContent,/入学轮次待核/);assert.doesNotMatch(top.textContent,/2027/);
+ assert.match(card.textContent,/不代表你所选轮次已经开放/);assert.match(card.textContent,/当期申请时间待核/);
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');
+ assert.match(el('tasks').textContent,/计划2027\/28学年（项目轮次待核）/);
+ await el('export-local').emit('click');const restored=harness([['yanxiang-local-v1',await h.downloads[0].blob.text()]]);
+ assert.match(restored.byId.get('tasks').textContent,/项目轮次待核/);
+ assert.equal(h.networkCalls(),0);
+});
