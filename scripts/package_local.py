@@ -56,7 +56,10 @@ source/ 保存对应源码、原始整理记录、不可覆盖的数据快照和
 这是早期alpha。也可打开公开网页 https://c4llm3luc4s.github.io/research-admissions-navigator/ ，但网页可能更新，旧政策请保留本包资料。个人清单按浏览器来源分开，换网页或设备请带上完整备份。实际验收范围见source/STATUS.json；代码检查、模拟DOM回调、真实浏览器操作分别记录，不代替独立真人反馈。
 """.encode()
 info = {"version": version, "source_commit": source, "source_tree": git("rev-parse", "HEAD^{tree}").decode().strip(),
-        "catalog_snapshot": catalog["snapshotId"], "publicly_deployed": True, "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/", "contains_personal_profile": False}
+        "catalog_snapshot": catalog["snapshotId"], "publicly_deployed": None,
+        "deployment_status": "not_checked_by_packager",
+        "deployment_note": "网页入口可能更新；打包不证明这一份源码已经部署，需另核实际线上文件。",
+        "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/", "contains_personal_profile": False}
 if not version.endswith('-local'):
     info.update(repository_url="https://github.com/C4LLM3LUC4S/research-admissions-navigator", release_tag="v" + version,
                 artifact_scope="Experimental offline alpha; partial evidence-linked coverage, no hosted feedback service")
