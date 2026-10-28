@@ -482,6 +482,13 @@ def build_catalog():
     catalog["directories"].extend(chemistry["directories"])
     catalog["programs"].extend(chemistry["programmes"])
     science_unit["staffEntries"].extend(chemistry["staffEntries"])
+    mechanical = load("hku-mechanical-census-20261029.json")
+    catalog["sources"].extend(mechanical["sources"])
+    catalog["faculty"].extend(mechanical["faculty"])
+    catalog["directories"].extend(mechanical["directories"])
+    catalog["programs"].extend(mechanical["programmes"])
+    hku_engineering = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hku-6")
+    hku_engineering["staffEntries"].extend(mechanical["staffEntries"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
