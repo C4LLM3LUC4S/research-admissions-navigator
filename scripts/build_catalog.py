@@ -464,6 +464,11 @@ def build_catalog():
     science_unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hkust-1")
     science_unit["staffEntries"].extend(physics["staffEntries"])
     science_unit["children"].extend(physics["unitChildren"])
+    mathematics = load("hkust-math-census-20261028.json")
+    catalog["sources"].extend(mathematics["sources"])
+    catalog["faculty"].extend(mathematics["faculty"])
+    catalog["directories"].extend(mathematics["directories"])
+    science_unit["staffEntries"].extend(mathematics["staffEntries"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}

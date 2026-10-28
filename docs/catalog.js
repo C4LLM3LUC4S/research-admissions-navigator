@@ -56451,6 +56451,2991 @@ window.APP_CATALOG = {
           "physics-profile-43-20261028"
         ]
       }
+    },
+    {
+      "id": "hkust-math-00",
+      "name": "Fengmiao BIAN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=fengmiao-bian-mafmbian",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=fengmiao-bian-mafmbian",
+      "directoryRole": "Research Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究数据与图像科学中的优化和反问题。",
+      "researchKeywords": [
+        "数据与图像科学中的优化和反问题",
+        "Data science and image science Optimization Inverse problems"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "math-profile-00-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-00-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-00-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-01",
+      "name": "Jianfeng CAI",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jianfeng-cai-jfcai",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jianfeng-cai-jfcai",
+      "directoryRole": "Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究计算调和分析、图像与数据处理、优化和数值线性代数。",
+      "researchKeywords": [
+        "计算调和分析、图像与数据处理、优化和数值线性代数",
+        "Computational harmonic analysis Image processing Data analysis Optimization Numerical linear algebra"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "math-profile-01-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-01-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-01-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/jfcai/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-01-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-01-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-01-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-02",
+      "name": "Kani CHEN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
+      "directoryRole": "Professor, Department of Mathematics Professor, Department of Industrial Engineering and Decision Analytics Program Director of MSc in Financial Mathematics Co-Director of Risk Management and Business Intelligence Program",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究生存分析、经验过程、随机建模与金融统计。",
+      "researchKeywords": [
+        "生存分析、经验过程、随机建模与金融统计",
+        "Survival analysis Empirical processes Stochastic modeling Financial statistics"
+      ],
+      "topics": [
+        "数学与统计",
+        "金融与精算"
+      ],
+      "sourceIds": [
+        "math-profile-02-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-02-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-02-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/makchen/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-02-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-02-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-02-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-03",
+      "name": "Junfeng CHEN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=junfeng-chen-majfchen",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=junfeng-chen-majfchen",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究科学机器学习、AI辅助科学计算、计算流体力学、湍流与时间序列。",
+      "researchKeywords": [
+        "科学机器学习、AI辅助科学计算、计算流体力学、湍流与时间序列",
+        "Scientific machine learning AI4Science Computational fluid dynamics Turbulence Time series"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "math-profile-03-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-03-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-03-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/people/faculty/profile/majfchen/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-03-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-03-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-03-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-04",
+      "name": "Kam Hang CHENG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-hang-cheng-keroc",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-hang-cheng-keroc",
+      "directoryRole": "Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究复变函数、分析与差分方程。",
+      "researchKeywords": [
+        "复变函数、分析与差分方程",
+        "Complex function theory Analysis Difference equations"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-04-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-04-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-04-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-05",
+      "name": "Edmund Yik Man CHIANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=edmund-yik-man-chiang-machiang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=edmund-yik-man-chiang-machiang",
+      "directoryRole": "Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究差分方程、复变函数与正交多项式。",
+      "researchKeywords": [
+        "差分方程、复变函数与正交多项式",
+        "Difference equations Complex function theory Orthogonal polynomials"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-05-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-05-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-05-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/machiang/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-05-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-05-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-05-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-06",
+      "name": "Tsz Kiu Aaron CHOW",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kiu-aaron-chow-chowtka",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kiu-aaron-chow-chowtka",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究微分几何、几何流与几何偏微分方程。",
+      "researchKeywords": [
+        "微分几何、几何流与几何偏微分方程",
+        "Differential geometry Geometric flows Geometric partial differential equations"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-06-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-06-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-06-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/aaronchow",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-06-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-06-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-06-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-07",
+      "name": "Shuoqing DENG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shuoqing-deng-masdeng",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shuoqing-deng-masdeng",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究应用概率、金融数学、随机控制与随机建模。",
+      "researchKeywords": [
+        "应用概率、金融数学、随机控制与随机建模",
+        "Applied probability Financial mathematics Stochastic control Stochastic modeling"
+      ],
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "math-profile-07-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-07-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-07-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/shuoqingdeng/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-07-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-07-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-07-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-08",
+      "name": "Tsz Ho Frederick FONG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-ho-frederick-fong-mafong",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-ho-frederick-fong-mafong",
+      "directoryRole": "Associate Professor, Department of Mathematics UG Programs Coordinator (Mathematics)",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究微分几何、几何分析、几何流与复几何。",
+      "researchKeywords": [
+        "微分几何、几何分析、几何流与复几何",
+        "Differential geometry Geometric analysis Geometric flows Complex geometry"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-08-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-08-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-08-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/mafong/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-08-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-08-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-08-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-09",
+      "name": "Lin FU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
+      "directoryRole": "Associate Professor, Department of Mechanical and Aerospace Engineering Associate Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究空气动力学、湍流、流体动力学与计算流体力学，涉及偏微分方程数值方法。",
+      "researchKeywords": [
+        "空气动力学、湍流、流体动力学与计算流体力学，涉及偏微分方程数值方法",
+        "Aerodynamics Turbulence Fluid dynamics Computational fluid dynamics Numerical methods for partial differential equations Applied mathematics"
+      ],
+      "topics": [
+        "数学与统计",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "math-profile-09-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-09-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-09-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://linfu.people.ust.hk/index.html",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-09-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-09-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-09-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-12",
+      "name": "Yu GAO",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-gao-mayugao",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-gao-mayugao",
+      "directoryRole": "Research Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究波传播、反问题与最优设计。",
+      "researchKeywords": [
+        "波传播、反问题与最优设计",
+        "Wave propagation Inverse problems Optimal design"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-12-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-12-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-12-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-13",
+      "name": "Xinzhou GUO",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xinzhou-guo-xinzhoug",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xinzhou-guo-xinzhoug",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究重采样方法、亚组分析，以及精准医疗和监管科学中的统计问题。",
+      "researchKeywords": [
+        "重采样方法、亚组分析，以及精准医疗和监管科学中的统计问题",
+        "Resampling methods Subgroup analysis Precision medicine Regulatory science"
+      ],
+      "topics": [
+        "数学与统计",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "math-profile-13-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-13-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-13-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-13-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-13-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-13-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-14",
+      "name": "Quoc HO",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=quoc-ho-maqho",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=quoc-ho-maqho",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究表示论、代数几何、代数与量子群及拓扑。",
+      "researchKeywords": [
+        "表示论、代数几何、代数与量子群及拓扑",
+        "Representation theory Algebraic geometry Algebras and quantum groups Topology"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-14-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-14-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-14-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://quocho.com",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-14-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-14-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-14-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-15",
+      "name": "Hon Ming HO",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hon-ming-ho-mastanho",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hon-ming-ho-mastanho",
+      "directoryRole": "Assistant Professor of Science Education Lecturer I, Department of Mathematics Associate Director of MSc in Mathematics for Educators",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究傅里叶分析与泛函分析。",
+      "researchKeywords": [
+        "傅里叶分析与泛函分析",
+        "Fourier analysis Functional analysis"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-15-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-15-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/mastanho/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-15-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-15-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-16",
+      "name": "Zihao HU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=zihao-hu-zihaohu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=zihao-hu-zihaohu",
+      "directoryRole": "Research Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究优化、博弈论、运筹学与决策。",
+      "researchKeywords": [
+        "优化、博弈论、运筹学与决策",
+        "Optimization Game theory Operations research Decision making"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "math-profile-16-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-16-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-16-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://zihaohu.github.io/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-16-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-16-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-16-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "个人网站的身份与当前院系名录不同",
+          "text": "院系名录列研究助理教授，提供的个人网站仍自称Georgia Tech博士生；页面未注明这段身份的更新日。保留这一差异，不把旧自述当作现在仍在读，也不由此推断导师资格。",
+          "sourceIds": [
+            "math-profile-16-20261028",
+            "math-personal-16-20261028"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkust-math-17",
+      "name": "Kin Ting Ken HUNG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kin-ting-ken-hung-kenkthung",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kin-ting-ken-hung-kenkthung",
+      "directoryRole": "Lecturer II, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究科学计算、计算数学与应用数学。",
+      "researchKeywords": [
+        "科学计算、计算数学与应用数学",
+        "Scientific computation Computational mathematics Applied mathematics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-17-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-17-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-17-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/~kenkthung/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-17-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-17-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-17-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-18",
+      "name": "Ivan Chi Ho IP",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip",
+      "directoryRole": "Associate Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究代数与量子群、可积系统及表示论。",
+      "researchKeywords": [
+        "代数与量子群、可积系统及表示论",
+        "Algebras and quantum groups Integrable systems Representation theory"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-18-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-18-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-18-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/ivanip/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-18-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-18-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-18-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-19",
+      "name": "Qingyuan JIANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qingyuan-jiang-jiangqy",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qingyuan-jiang-jiangqy",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究代数几何、表示论、数学物理、代数与数论。",
+      "researchKeywords": [
+        "代数几何、表示论、数学物理、代数与数论",
+        "Algebraic geometry Geometry Representation theory Mathematical physics Algebra and number theory"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-19-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-19-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-19-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/qyjiang",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-19-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-19-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-19-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-20",
+      "name": "Tianling JIN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tianling-jin-tianlingjin",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tianling-jin-tianlingjin",
+      "directoryRole": "Professor, Department of Mathematics PG Programs Coordinator (Mathematics)",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究分析、偏微分方程与微分几何。",
+      "researchKeywords": [
+        "分析、偏微分方程与微分几何",
+        "Analysis Partial differential equations Differential geometry"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-20-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-20-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-20-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/~tianlingjin/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-20-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-20-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-20-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-22",
+      "name": "Tsz Kin LAM",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kin-lam-tklam",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kin-lam-tklam",
+      "directoryRole": "Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究复几何与代数圈。",
+      "researchKeywords": [
+        "复几何与代数圈",
+        "Complex geometry Algebraic cycles"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-22-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-22-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/tklam/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-22-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-22-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-23",
+      "name": "Shing Yu LEUNG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shing-yu-leung-masyleung",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shing-yu-leung-masyleung",
+      "directoryRole": "Associate Dean of Science (Undergraduate Studies & Student Affairs) Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究应用与计算数学、非线性偏微分方程和科学计算。",
+      "researchKeywords": [
+        "应用与计算数学、非线性偏微分方程和科学计算",
+        "Applied mathematics Computational mathematics Nonlinear partial differential equations Scientific computation"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-23-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-23-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://syleung.my.canva.site/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-23-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-23-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-24",
+      "name": "Chi Man LEUNG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-man-leung-chimanleung",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-man-leung-chimanleung",
+      "directoryRole": "Assistant Professor of Science Education Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究随机控制模型的数值算法及实物期权博弈模型。",
+      "researchKeywords": [
+        "随机控制模型的数值算法及实物期权博弈模型",
+        "Numerical algorithm development for stochastic control model Real options game model"
+      ],
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "math-profile-24-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-24-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-24-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/chimanleung/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-24-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-24-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-24-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-25",
+      "name": "Weiping LI",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=weiping-li-mawpli",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=weiping-li-mawpli",
+      "directoryRole": "Chair Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究代数几何。",
+      "researchKeywords": [
+        "代数几何",
+        "Algebraic geometry"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-25-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-25-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-25-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/mawpli/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-25-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-25-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-25-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-26",
+      "name": "Shiqing LING",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shiqing-ling-maling",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shiqing-ling-maling",
+      "directoryRole": "Chair Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究大样本理论、经验过程，以及非平稳、非线性和长记忆时间序列。",
+      "researchKeywords": [
+        "大样本理论、经验过程，以及非平稳、非线性和长记忆时间序列",
+        "Large sample theory Empirical processes Nonstationary time series Nonlinear time series Long memory time series"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-26-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-26-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-26-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/maling/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-26-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-26-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-26-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-27",
+      "name": "Stephen Shang Yi LIU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=stephen-shang-yi-liu-masyliu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=stephen-shang-yi-liu-masyliu",
+      "directoryRole": "Lecturer II, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究几何流、几何偏微分方程与微分几何。",
+      "researchKeywords": [
+        "几何流、几何偏微分方程与微分几何",
+        "Geometric flows Geometric partial differential equations Differential geometry"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-27-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-27-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-27-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://steuyve.github.io/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-27-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-27-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-27-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-28",
+      "name": "Julian MAK",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak",
+      "directoryRole": "Associate Professor, Department of Ocean Science Associate Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究物理海洋学、流体力学、应用与计算数学，以及全球气候变化。",
+      "researchKeywords": [
+        "物理海洋学、流体力学、应用与计算数学，以及全球气候变化",
+        "Physical oceanography Fluid mechanics Applied mathematics Global climate change Computational mathematics"
+      ],
+      "topics": [
+        "数学与统计",
+        "土木与机械工程",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "math-profile-28-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-28-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-28-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://julianmak.github.io/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-28-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-28-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-28-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-29",
+      "name": "Eric Paul MARBERG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-paul-marberg-emarberg",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-paul-marberg-emarberg",
+      "directoryRole": "Associate Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究组合学、表示论、Hopf代数、离散数学与量子群。",
+      "researchKeywords": [
+        "组合学、表示论、Hopf代数、离散数学与量子群",
+        "Combinatorics Representation theory Hopf algebra Discrete mathematics and combinatorics Algebras and quantum groups"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-29-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-29-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-29-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/~emarberg/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-29-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-29-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-29-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-30",
+      "name": "Guowu MENG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=guowu-meng-mameng",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=guowu-meng-mameng",
+      "directoryRole": "Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究受物理问题启发的数学。",
+      "researchKeywords": [
+        "受物理问题启发的数学",
+        "Physics-inspired mathematics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-30-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-30-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-30-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/mameng/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-30-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-30-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-30-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-31",
+      "name": "Yu MIN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-min-maymin",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-min-maymin",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究代数与数论。",
+      "researchKeywords": [
+        "代数与数论",
+        "Algebra and number theory"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-31-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-31-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-31-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/yu-min",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-31-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-31-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-31-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-32",
+      "name": "Maximilian Alexander NITZSCHNER",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究概率、统计物理、高斯随机场、数学物理与随机结构。",
+      "researchKeywords": [
+        "概率、统计物理、高斯随机场、数学物理与随机结构",
+        "Probability Statistical physics Gaussian random fields Mathematical physics Random structures"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-32-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-32-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-32-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/~mnitzschner/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-32-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-32-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-32-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-33",
+      "name": "Zhichao PENG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=zhichao-peng-pengzhic",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=zhichao-peng-pengzhic",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究偏微分方程数值方法、波传播与数据分析。",
+      "researchKeywords": [
+        "偏微分方程数值方法、波传播与数据分析",
+        "Numerical methods for partial differential equations Wave propagation Data analysis"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "math-profile-33-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-33-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-33-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://zhichaopengmath.github.io/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-33-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-33-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-33-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-34",
+      "name": "Tiezheng QIAN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tiezheng-qian-maqian",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tiezheng-qian-maqian",
+      "directoryRole": "Associate Head and Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究应用数学、复杂流体与统计物理。",
+      "researchKeywords": [
+        "应用数学、复杂流体与统计物理",
+        "Applied mathematics Complex fluids Statistical physics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-34-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-34-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-34-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/maqian/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-34-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-34-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-34-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-35",
+      "name": "Shuaijie QIAN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shuaijie-qian-sjqian",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shuaijie-qian-sjqian",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究金融数学、控制理论与随机系统、金融工程和金融科技。",
+      "researchKeywords": [
+        "金融数学、控制理论与随机系统、金融工程和金融科技",
+        "Financial mathematics Control theory and stochastic systems Financial engineering FinTech"
+      ],
+      "topics": [
+        "数学与统计",
+        "金融与精算",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "math-profile-35-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-35-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-35-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/shuaijie-qian",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-35-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-35-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-35-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-36",
+      "name": "Eric Naijian SHEN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-naijian-shen-njshen",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-naijian-shen-njshen",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究应用数学、流体力学、空气动力学与微纳流体。",
+      "researchKeywords": [
+        "应用数学、流体力学、空气动力学与微纳流体",
+        "Applied mathematics Fluid mechanics Aerodynamics Microfluidics and nanofluidics"
+      ],
+      "topics": [
+        "数学与统计",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "math-profile-36-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-36-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-36-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-38",
+      "name": "Xun TANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xun-tang-xuntang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xun-tang-xuntang",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究科学计算、应用数学与机器学习。",
+      "researchKeywords": [
+        "科学计算、应用数学与机器学习",
+        "Scientific computation Applied mathematics Machine learning"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "math-profile-38-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-38-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-38-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/people/faculty/profile/xuntang/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-38-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-38-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-38-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-39",
+      "name": "Rong TANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=rong-tang-martang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=rong-tang-martang",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究机器学习理论、贝叶斯统计、采样复杂度与非参数推断。",
+      "researchKeywords": [
+        "机器学习理论、贝叶斯统计、采样复杂度与非参数推断",
+        "Machine learning theory Bayesian statistics Sampling complexity Nonparametric inference"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "math-profile-39-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-39-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-39-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/rongtang",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-39-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-39-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-39-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-41",
+      "name": "Ka Yee WONG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ka-yee-wong-kayee",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ka-yee-wong-kayee",
+      "directoryRole": "Lecturer II, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究应用统计、应用分析与应用概率。",
+      "researchKeywords": [
+        "应用统计、应用分析与应用概率",
+        "Applied statistics Applied analysis Applied probability"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-41-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-41-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-41-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-42",
+      "name": "Wilson WOON",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=wilson-woon-wilsonwoon",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=wilson-woon-wilsonwoon",
+      "directoryRole": "Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究混合式学习、在线语言教育、教育信息技术与数据分析。",
+      "researchKeywords": [
+        "混合式学习、在线语言教育、教育信息技术与数据分析",
+        "Blended learning and online language education IT in education Data analytics"
+      ],
+      "topics": [
+        "数学与统计",
+        "教育学"
+      ],
+      "sourceIds": [
+        "math-profile-42-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-42-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-42-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/site/wthwoon",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-42-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-42-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-42-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-43",
+      "name": "Yueping WU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yueping-wu-maypwu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yueping-wu-maypwu",
+      "directoryRole": "Lecturer II, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究信号处理、随机几何与随机矩阵理论，以及无线通信和网络。",
+      "researchKeywords": [
+        "信号处理、随机几何与随机矩阵理论，以及无线通信和网络",
+        "Signal processing Applications of stochastic geometry and random matrix theory Wireless communications and networking"
+      ],
+      "topics": [
+        "数学与统计",
+        "网络与系统"
+      ],
+      "sourceIds": [
+        "math-profile-43-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-43-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-43-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-44",
+      "name": "Yang XIANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yang-xiang-maxiang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yang-xiang-maxiang",
+      "directoryRole": "Professor, Department of Mathematics Professor, Department of Materials Director of Algorithms of Machine Learning and Autonomous Driving Research Laboratory",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究材料科学中的建模与模拟、数据和图像科学、机器学习、偏微分方程与数值分析。",
+      "researchKeywords": [
+        "材料科学中的建模与模拟、数据和图像科学、机器学习、偏微分方程与数值分析",
+        "Modeling and simulations in materials science Data science and image science Machine learning Partial differential equations Numerical analysis"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "math-profile-44-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-44-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-44-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/maxiang/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-44-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-44-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-44-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-45",
+      "name": "Maosheng XIONG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=maosheng-xiong-mamsxiong",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=maosheng-xiong-mamsxiong",
+      "directoryRole": "Associate Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究代数与数论、离散数学和组合学。",
+      "researchKeywords": [
+        "代数与数论、离散数学和组合学",
+        "Algebra and number theory Discrete mathematics and combinatorics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-45-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-45-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-45-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/mamsxiong/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-45-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-45-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-45-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-46",
+      "name": "Luze XU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=luze-xu-xuluze",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=luze-xu-xuluze",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究优化、混合整数规划、运筹学、离散数学与组合学。",
+      "researchKeywords": [
+        "优化、混合整数规划、运筹学、离散数学与组合学",
+        "Optimization Mixed integer programming Operations research Discrete mathematics and combinatorics"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "math-profile-46-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-46-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-46-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/xuluze",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-46-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-46-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-46-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-47",
+      "name": "Kun XU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu",
+      "directoryRole": "Head and Chair Professor, Department of Mathematics Stephen Kam Chuen Cheong Professor of Science Chair Professor, Department of Mechanical and Aerospace Engineering",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究计算流体力学、Navier–Stokes方程高阶紧致格式、多尺度气体动理学格式与非平衡稀薄流。",
+      "researchKeywords": [
+        "计算流体力学、Navier–Stokes方程高阶紧致格式、多尺度气体动理学格式与非平衡稀薄流",
+        "Computational fluid dynamics High-order compact schemes for Navier-Stokes equations Multiscale modeling and gas-kinetic schemes Non-equilibrium transport and rarefied flow"
+      ],
+      "topics": [
+        "数学与统计",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "math-profile-47-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-47-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-47-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/makxu/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-47-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-47-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-47-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-48",
+      "name": "Min YAN",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=min-yan-mamyan",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=min-yan-mamyan",
+      "directoryRole": "Director of International Affairs (School of Science) Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究可积系统、Hopf代数、几何拓扑与组合学。",
+      "researchKeywords": [
+        "可积系统、Hopf代数、几何拓扑与组合学",
+        "Integrable systems Hopf algebra Geometric topology Combinatorics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-48-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-48-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-48-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/mamyan/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-48-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-48-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-48-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-49",
+      "name": "Can YANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang",
+      "directoryRole": "Professor, Department of Mathematics Professor, Department of Ocean Science Director of HKUST Big Data for Bio Intelligence Laboratory",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究统计机器学习与应用统计。",
+      "researchKeywords": [
+        "统计机器学习与应用统计",
+        "Statistical machine learning Applied statistics"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "math-profile-49-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-49-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/~macyang",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-49-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-49-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-50",
+      "name": "Jing YAO",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jing-yao-majyao",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jing-yao-majyao",
+      "directoryRole": "Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究数据分析、建模与模拟。",
+      "researchKeywords": [
+        "数据分析、建模与模拟",
+        "Data analysis Modeling and simulations"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-50-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-50-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-50-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-51",
+      "name": "Yuan YAO",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yuan-yao-yuany",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yuan-yao-yuany",
+      "directoryRole": "Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究统计机器学习与应用数学。",
+      "researchKeywords": [
+        "统计机器学习与应用数学",
+        "Statistical machine learning Applied mathematics"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "math-profile-51-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-51-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-51-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/yuany/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-51-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-51-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-51-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-52",
+      "name": "Guibo YE",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=guibo-ye-magbye",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=guibo-ye-magbye",
+      "directoryRole": "Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究统计机器学习、图像处理、优化与逼近论。",
+      "researchKeywords": [
+        "统计机器学习、图像处理、优化与逼近论",
+        "Statistical machine learning Image processing Optimization Approximation theory"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "math-profile-52-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-52-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/magbye/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-52-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-52-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-53",
+      "name": "Chi Hoi Kyle YIP",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-hoi-kyle-yip-machyip",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-hoi-kyle-yip-machyip",
+      "directoryRole": "Assistant Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究组合学、数论与离散数学。",
+      "researchKeywords": [
+        "组合学、数论与离散数学",
+        "Combinatorics Number theory Discrete mathematics and combinatorics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-53-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-53-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-53-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/kyle-chi-hoi-yip/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-53-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-53-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-53-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-54",
+      "name": "Chi Wai YU",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-wai-yu-macwyu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-wai-yu-macwyu",
+      "directoryRole": "Assistant Professor of Science Education Lecturer I, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究统计推断、统计机器学习与数据分析。",
+      "researchKeywords": [
+        "统计推断、统计机器学习与数据分析",
+        "Statistical inference Statistical machine learning Data analysis"
+      ],
+      "topics": [
+        "数学与统计",
+        "理论与优化",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "math-profile-54-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-54-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-54-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.ust.hk/people/faculty/profile/macwyu/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-54-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-54-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-54-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-55",
+      "name": "Jiheng ZHANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
+      "directoryRole": "Head and Professor, Department of Industrial Engineering and Decision Analytics Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究运筹学与应用概率。",
+      "researchKeywords": [
+        "运筹学与应用概率",
+        "Operations research Applied probability"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-55-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-55-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-55-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=0&id=16",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-55-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-55-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-55-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-math-56",
+      "name": "Hai ZHANG",
+      "universityId": "hkust",
+      "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hai-zhang-haizhang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hai-zhang-haizhang",
+      "directoryRole": "Professor, Department of Mathematics",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "summary": "研究应用数学、反问题与成像、波物理。",
+      "researchKeywords": [
+        "应用数学、反问题与成像、波物理",
+        "Applied mathematics Inverse problems and imaging Wave physics"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "math-profile-56-20261028",
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-personal-56-20261028"
+      ],
+      "keywordSourceIds": [
+        "math-profile-56-20261028"
+      ],
+      "directorySourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.math.hkust.edu.hk/~haizhang/",
+          "label": "个人或学系研究主页",
+          "parentSourceId": "math-profile-56-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-56-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "研究相近只是进一步了解的线索，不代表当期接收、导师资格或实时余位。",
+        "sourceIds": [
+          "math-profile-56-20261028"
+        ]
+      }
     }
   ],
   "sources": [
@@ -92916,6 +95901,2258 @@ window.APP_CATALOG = {
       "readMethod": "web_reader",
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "math-directory-0-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+      "title": "港科大理学院 · 数学人员第1页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b0356e61bf5741416d2ecef7abf90f86507b5d2f364dbe8a620a237157b793d5",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=fengmiao-bian-mafmbian",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jianfeng-cai-jfcai",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=junfeng-chen-majfchen",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kam-hang-cheng-keroc",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=edmund-yik-man-chiang-machiang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kiu-aaron-chow-chowtka",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shuoqing-deng-masdeng",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-ho-frederick-fong-mafong",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jimmy-chi-hung-fung-majfung",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jianping-gan-magan"
+      ]
+    },
+    {
+      "id": "math-directory-1-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members&page=1",
+      "title": "港科大理学院 · 数学人员第2页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "95e7d6f43a479c663902ef55c7c098ea44c0be3ec4ed6e7d625f5b107d931acf",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yu-gao-mayugao",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=xinzhou-guo-xinzhoug",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=quoc-ho-maqho",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=hon-ming-ho-mastanho",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=zihao-hu-zihaohu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kin-ting-ken-hung-kenkthung",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=qingyuan-jiang-jiangqy",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tianling-jin-tianlingjin",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yin-bon-ku-maybku",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kin-lam-tklam",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shing-yu-leung-masyleung"
+      ]
+    },
+    {
+      "id": "math-directory-2-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members&page=2",
+      "title": "港科大理学院 · 数学人员第3页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d1310840dcedbb851c94dc5061d0a4c85bd49920974034a641a7313cde2e32c8",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=chi-man-leung-chimanleung",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=weiping-li-mawpli",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shiqing-ling-maling",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=stephen-shang-yi-liu-masyliu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=eric-paul-marberg-emarberg",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=guowu-meng-mameng",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yu-min-maymin",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=zhichao-peng-pengzhic",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tiezheng-qian-maqian",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shuaijie-qian-sjqian"
+      ]
+    },
+    {
+      "id": "math-directory-3-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members&page=3",
+      "title": "港科大理学院 · 数学人员第4页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "221e3f05958206595fbadc7aa0681b3dd6c83eec68dfded903faf49e5067e1e6",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=eric-naijian-shen-njshen",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=wei-su-weisu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=xun-tang-xuntang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=rong-tang-martang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ke-wang-kewang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ka-yee-wong-kayee",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=wilson-woon-wilsonwoon",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yueping-wu-maypwu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yang-xiang-maxiang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=maosheng-xiong-mamsxiong",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=luze-xu-xuluze",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu"
+      ]
+    },
+    {
+      "id": "math-directory-4-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members&page=4",
+      "title": "港科大理学院 · 数学人员第5页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d7096ae7ebeead058b99a0dc8abc63ad84637eb37f72203f4a831a9b026327e9",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=min-yan-mamyan",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jing-yao-majyao",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yuan-yao-yuany",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=guibo-ye-magbye",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=chi-hoi-kyle-yip-machyip",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=chi-wai-yu-macwyu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=hai-zhang-haizhang"
+      ]
+    },
+    {
+      "id": "math-dept-people-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/",
+      "title": "港科大数学 · 常规、附属与荣休",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "60cbaee515d1be4ad5af6e56b8dd8fcf14e924d1306b6814267d023c3d2ebd65",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "math-dept-teaching-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/?menu=1",
+      "title": "港科大数学 · 教学人员与助教",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "60cbaee515d1be4ad5af6e56b8dd8fcf14e924d1306b6814267d023c3d2ebd65",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "discoveredLinks": [
+        "https://www.math.hkust.edu.hk/~xyquan"
+      ]
+    },
+    {
+      "id": "math-dept-researchers-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/?menu=2",
+      "title": "港科大数学 · 研究人员",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "60cbaee515d1be4ad5af6e56b8dd8fcf14e924d1306b6814267d023c3d2ebd65",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "math-profile-00-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=fengmiao-bian-mafmbian",
+      "title": "Fengmiao BIAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7f9de6c87daaec026f607a8f2016dfe8cd9a442cca82c8e41ac6a0b56fc37530",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fengmiao-bian-mafmbian",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-01-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jianfeng-cai-jfcai",
+      "title": "Jianfeng CAI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "095aad94ce66938448b3821009994ccd3290b4d5adde38dfaf5d954a038ee7f0",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jianfeng-cai-jfcai",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/jfcai/"
+      ]
+    },
+    {
+      "id": "math-personal-01-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/jfcai/",
+      "title": "Jianfeng CAI · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "49165a4c67aecc47c747e177673676dbab8ef9d7680453b8e94cb4c5d39b568b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-01-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/jfcai/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/jfcai/"
+    },
+    {
+      "id": "math-profile-02-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
+      "title": "Kani CHEN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4360f96b1184eaaafa6670296a11f8a252ac1cfbbf642e93e1c1bdc219cc0d07",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kani-chen-makchen",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/makchen/"
+      ]
+    },
+    {
+      "id": "math-personal-02-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/",
+      "title": "Kani CHEN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "49165a4c67aecc47c747e177673676dbab8ef9d7680453b8e94cb4c5d39b568b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-02-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/makchen/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/"
+    },
+    {
+      "id": "math-profile-03-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=junfeng-chen-majfchen",
+      "title": "Junfeng CHEN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "58139fe8bfd9e48e56348f86e2ea8185a64e316f1cc7ed4e07fb0b51890f2d90",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=junfeng-chen-majfchen",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/people/faculty/profile/majfchen/"
+      ]
+    },
+    {
+      "id": "math-personal-03-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/majfchen/",
+      "title": "Junfeng CHEN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "49165a4c67aecc47c747e177673676dbab8ef9d7680453b8e94cb4c5d39b568b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-03-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/people/faculty/profile/majfchen/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/majfchen/"
+    },
+    {
+      "id": "math-profile-04-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-hang-cheng-keroc",
+      "title": "Kam Hang CHENG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e8ad751944dcb4ed1a83a6bab747c5f8363d4e7ab06d44ca183d8688adc351d6",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kam-hang-cheng-keroc",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-05-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=edmund-yik-man-chiang-machiang",
+      "title": "Edmund Yik Man CHIANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9537a60c8919dee0381dce8272a8d9b5ace01cd154f5eaa50bd53c47eafb68bf",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=edmund-yik-man-chiang-machiang",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/machiang/"
+      ]
+    },
+    {
+      "id": "math-personal-05-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/machiang/",
+      "title": "Edmund Yik Man CHIANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "49165a4c67aecc47c747e177673676dbab8ef9d7680453b8e94cb4c5d39b568b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-05-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/machiang/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/machiang/"
+    },
+    {
+      "id": "math-profile-06-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kiu-aaron-chow-chowtka",
+      "title": "Tsz Kiu Aaron CHOW · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c0f22cec3aeab8dc22ef5bd04991edd04501d3388b082b98704575afd4b9648f",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tsz-kiu-aaron-chow-chowtka",
+      "discoveredLinks": [
+        "http://sites.google.com/view/aaronchow"
+      ]
+    },
+    {
+      "id": "math-personal-06-20261028",
+      "url": "https://sites.google.com/view/aaronchow",
+      "title": "Tsz Kiu Aaron CHOW · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "49165a4c67aecc47c747e177673676dbab8ef9d7680453b8e94cb4c5d39b568b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-06-20261028",
+      "originalUrl": "http://sites.google.com/view/aaronchow",
+      "retrievedUrl": "https://sites.google.com/view/aaronchow"
+    },
+    {
+      "id": "math-profile-07-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shuoqing-deng-masdeng",
+      "title": "Shuoqing DENG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "67444c5915ab4e466a28c826f579a6952daed249a7458a0b1084658f47c16f4b",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shuoqing-deng-masdeng",
+      "discoveredLinks": [
+        "http://sites.google.com/view/shuoqingdeng/"
+      ]
+    },
+    {
+      "id": "math-personal-07-20261028",
+      "url": "https://sites.google.com/view/shuoqingdeng/",
+      "title": "Shuoqing DENG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "49165a4c67aecc47c747e177673676dbab8ef9d7680453b8e94cb4c5d39b568b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-07-20261028",
+      "originalUrl": "http://sites.google.com/view/shuoqingdeng/",
+      "retrievedUrl": "https://sites.google.com/view/shuoqingdeng/"
+    },
+    {
+      "id": "math-profile-08-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-ho-frederick-fong-mafong",
+      "title": "Tsz Ho Frederick FONG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "764fd12b64734dfcfe09033f21b6a7db4cc5c14487d5c2dbd90fe7cd31b0b092",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tsz-ho-frederick-fong-mafong",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/mafong/"
+      ]
+    },
+    {
+      "id": "math-personal-08-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/mafong/",
+      "title": "Tsz Ho Frederick FONG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "abfcc1d1066512557137ac2e892bae2f7a447e2595655f74af2639255a4e3212",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-08-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/mafong/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/mafong/"
+    },
+    {
+      "id": "math-profile-09-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
+      "title": "Lin FU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "11df8d0777dba789eaeb57b665f48aaf69f6c3bed5e146b8bf6cbb1326d076bb",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=lin-fu-linfu",
+      "discoveredLinks": [
+        "http://linfu.people.ust.hk/index.html"
+      ]
+    },
+    {
+      "id": "math-personal-09-20261028",
+      "url": "https://linfu.people.ust.hk/index.html",
+      "title": "Lin FU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "abfcc1d1066512557137ac2e892bae2f7a447e2595655f74af2639255a4e3212",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-09-20261028",
+      "originalUrl": "http://linfu.people.ust.hk/index.html",
+      "retrievedUrl": "https://linfu.people.ust.hk/index.html"
+    },
+    {
+      "id": "math-profile-10-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jimmy-chi-hung-fung-majfung",
+      "title": "Jimmy Chi Hung FUNG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8a6b87a80a87ade73c9ea082c9a746f602001a0240e60ac589b802f0830367c9",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jimmy-chi-hung-fung-majfung",
+      "discoveredLinks": [
+        "http://envr.ust.hk/our-division/people/faculty-staff/majfung.html"
+      ]
+    },
+    {
+      "id": "math-profile-11-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jianping-gan-magan",
+      "title": "Jianping GAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e63564456766b02451274d5ff7242ca3dacf0791b3d2a4cfd5d91750b88dbd36",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jianping-gan-magan",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/magan/"
+      ]
+    },
+    {
+      "id": "math-personal-11-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/magan/",
+      "title": "Jianping GAN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "abfcc1d1066512557137ac2e892bae2f7a447e2595655f74af2639255a4e3212",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-11-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/magan/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/magan/"
+    },
+    {
+      "id": "math-profile-12-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-gao-mayugao",
+      "title": "Yu GAO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a7d1fcbf0c086864861ab4fc5170d8d2c7c0a3a6a6d219c4f6388ebed1920ccd",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yu-gao-mayugao",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-13-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xinzhou-guo-xinzhoug",
+      "title": "Xinzhou GUO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f5c2c98f617ab98c0faf557973f1cb97a18b60d7b053c4bf10b09cbdd73dc80c",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xinzhou-guo-xinzhoug",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/"
+      ]
+    },
+    {
+      "id": "math-personal-13-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/",
+      "title": "Xinzhou GUO · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "abfcc1d1066512557137ac2e892bae2f7a447e2595655f74af2639255a4e3212",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-13-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/xinzhoug/"
+    },
+    {
+      "id": "math-profile-14-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=quoc-ho-maqho",
+      "title": "Quoc HO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "25bf732dd22bf62602976a1a50361bd5d882d543869a5ca7900fd9073426fff5",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=quoc-ho-maqho",
+      "discoveredLinks": [
+        "http://quocho.com"
+      ]
+    },
+    {
+      "id": "math-personal-14-20261028",
+      "url": "https://quocho.com/",
+      "title": "Quoc HO · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "abfcc1d1066512557137ac2e892bae2f7a447e2595655f74af2639255a4e3212",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-14-20261028",
+      "originalUrl": "http://quocho.com",
+      "retrievedUrl": "https://quocho.com/"
+    },
+    {
+      "id": "math-profile-15-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=hon-ming-ho-mastanho",
+      "title": "Hon Ming HO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "db34538bd2860e2263b4737410377a7db640e413d26fce9d8cc932e40a2a6d0e",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hon-ming-ho-mastanho",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/mastanho/"
+      ]
+    },
+    {
+      "id": "math-profile-16-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=zihao-hu-zihaohu",
+      "title": "Zihao HU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "480394af2bd0f8f5141d1afc508a9624f588bc5d3863ef8b0029e48850ebc10e",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zihao-hu-zihaohu",
+      "discoveredLinks": [
+        "http://zihaohu.github.io/"
+      ]
+    },
+    {
+      "id": "math-personal-16-20261028",
+      "url": "https://zihaohu.github.io/",
+      "title": "Zihao HU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "d29ecd3c7d9e46a2dde2162f074aacc39f98286fcde03b84bc2869f14a69dcc0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-16-20261028",
+      "originalUrl": "http://zihaohu.github.io/",
+      "retrievedUrl": "https://zihaohu.github.io/"
+    },
+    {
+      "id": "math-profile-17-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kin-ting-ken-hung-kenkthung",
+      "title": "Kin Ting Ken HUNG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6aa44b57b3affa51b476ac2c92c8b75dc47896e82abe5350aeb8985b207cc391",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kin-ting-ken-hung-kenkthung",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~kenkthung/"
+      ]
+    },
+    {
+      "id": "math-personal-17-20261028",
+      "url": "https://www.math.hkust.edu.hk/~kenkthung/",
+      "title": "Kin Ting Ken HUNG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "d29ecd3c7d9e46a2dde2162f074aacc39f98286fcde03b84bc2869f14a69dcc0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-17-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/~kenkthung/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~kenkthung/"
+    },
+    {
+      "id": "math-profile-18-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip",
+      "title": "Ivan Chi Ho IP · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6c1cc85426e340349d76297e7b4c44248fb181f260bf13baee149df6e2f80ddf",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/ivanip/"
+      ]
+    },
+    {
+      "id": "math-personal-18-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/ivanip/",
+      "title": "Ivan Chi Ho IP · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "d29ecd3c7d9e46a2dde2162f074aacc39f98286fcde03b84bc2869f14a69dcc0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-18-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/ivanip/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/ivanip/"
+    },
+    {
+      "id": "math-profile-19-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=qingyuan-jiang-jiangqy",
+      "title": "Qingyuan JIANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e16c4bd661d89ef83c5a24bf5038254a1466dfa6ef07c5e871b97d1ce811b64a",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qingyuan-jiang-jiangqy",
+      "discoveredLinks": [
+        "http://sites.google.com/view/qyjiang"
+      ]
+    },
+    {
+      "id": "math-personal-19-20261028",
+      "url": "https://sites.google.com/view/qyjiang",
+      "title": "Qingyuan JIANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "d29ecd3c7d9e46a2dde2162f074aacc39f98286fcde03b84bc2869f14a69dcc0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-19-20261028",
+      "originalUrl": "http://sites.google.com/view/qyjiang",
+      "retrievedUrl": "https://sites.google.com/view/qyjiang"
+    },
+    {
+      "id": "math-profile-20-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tianling-jin-tianlingjin",
+      "title": "Tianling JIN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c412a035fbd0fa415ea30b0fa295d0d7ab4701ff150aadd8165d38ae9f56a4b",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tianling-jin-tianlingjin",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~tianlingjin/"
+      ]
+    },
+    {
+      "id": "math-personal-20-20261028",
+      "url": "https://www.math.hkust.edu.hk/~tianlingjin/",
+      "title": "Tianling JIN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "d29ecd3c7d9e46a2dde2162f074aacc39f98286fcde03b84bc2869f14a69dcc0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-20-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/~tianlingjin/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~tianlingjin/"
+    },
+    {
+      "id": "math-profile-21-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yin-bon-ku-maybku",
+      "title": "Yin Bon KU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "126f79fe9a482c1a4df984a2e20a0757c64151b19a9b60bcca3ef2354c98a54d",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yin-bon-ku-maybku",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/maybku/"
+      ]
+    },
+    {
+      "id": "math-profile-22-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kin-lam-tklam",
+      "title": "Tsz Kin LAM · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fd6b1656894ca54c251dff1437d97ef5351185fcf8ddc415dcc6015c4bb63e8d",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tsz-kin-lam-tklam",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/tklam/"
+      ]
+    },
+    {
+      "id": "math-profile-23-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shing-yu-leung-masyleung",
+      "title": "Shing Yu LEUNG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "336fd883a4d8f094baa5a283bc2a92b814e6cd3c4af263a64511ed7e5f5912ed",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shing-yu-leung-masyleung",
+      "discoveredLinks": [
+        "http://syleung.my.canva.site/"
+      ]
+    },
+    {
+      "id": "math-profile-24-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-man-leung-chimanleung",
+      "title": "Chi Man LEUNG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a0e8a6be6d7da87f30a52ea2f3d64978d8db1c8b9b8d94bdfaa92eae4cc109b9",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-man-leung-chimanleung",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/chimanleung/"
+      ]
+    },
+    {
+      "id": "math-personal-24-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/chimanleung/",
+      "title": "Chi Man LEUNG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "1cba3ddd26685847ef7a8f533aaab0e6575d0df879835d09045ab26d8194aed5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-24-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/chimanleung/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/chimanleung/"
+    },
+    {
+      "id": "math-profile-25-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=weiping-li-mawpli",
+      "title": "Weiping LI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed54da5645d0b7cd49aee5d9ef0cf7cb7ba4d9522fa5cf5d1eddf662dd8abe87",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=weiping-li-mawpli",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/mawpli/"
+      ]
+    },
+    {
+      "id": "math-personal-25-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/mawpli/",
+      "title": "Weiping LI · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "1cba3ddd26685847ef7a8f533aaab0e6575d0df879835d09045ab26d8194aed5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-25-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/mawpli/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/mawpli/"
+    },
+    {
+      "id": "math-profile-26-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shiqing-ling-maling",
+      "title": "Shiqing LING · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "74ed4082b532a18766438a67bdb5385c64cdab1f28d4b481c8fc9ab0ec52f6f8",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shiqing-ling-maling",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/maling/"
+      ]
+    },
+    {
+      "id": "math-personal-26-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/maling/",
+      "title": "Shiqing LING · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "1cba3ddd26685847ef7a8f533aaab0e6575d0df879835d09045ab26d8194aed5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-26-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/maling/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/maling/"
+    },
+    {
+      "id": "math-profile-27-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=stephen-shang-yi-liu-masyliu",
+      "title": "Stephen Shang Yi LIU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "610afba277aa489de45d2422892cac2b9de4f19ad328a432ecec72b8e3ffb4ad",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=stephen-shang-yi-liu-masyliu",
+      "discoveredLinks": [
+        "http://steuyve.github.io/"
+      ]
+    },
+    {
+      "id": "math-personal-27-20261028",
+      "url": "https://steuyve.github.io/",
+      "title": "Stephen Shang Yi LIU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "eaad705846cd872639f82546545bb25e47e1cba954f00c8f73f1b8b1a47c4dad",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-27-20261028",
+      "originalUrl": "http://steuyve.github.io/",
+      "retrievedUrl": "https://steuyve.github.io/"
+    },
+    {
+      "id": "math-profile-28-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak",
+      "title": "Julian MAK · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ab6da5236ccaf97685ab00c5ddb99261d21e65d441c04a7fefcfbbf22758f1f4",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=julian-mak-jclmak",
+      "discoveredLinks": [
+        "http://julianmak.github.io/"
+      ]
+    },
+    {
+      "id": "math-personal-28-20261028",
+      "url": "https://julianmak.github.io/",
+      "title": "Julian MAK · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "eaad705846cd872639f82546545bb25e47e1cba954f00c8f73f1b8b1a47c4dad",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-28-20261028",
+      "originalUrl": "http://julianmak.github.io/",
+      "retrievedUrl": "https://julianmak.github.io/"
+    },
+    {
+      "id": "math-profile-29-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-paul-marberg-emarberg",
+      "title": "Eric Paul MARBERG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "83bbe9efd04aa32df027208d67977729c75e195e4289963f7bc20f2f10af02bc",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=eric-paul-marberg-emarberg",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~emarberg/"
+      ]
+    },
+    {
+      "id": "math-personal-29-20261028",
+      "url": "https://www.math.hkust.edu.hk/~emarberg/",
+      "title": "Eric Paul MARBERG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "eaad705846cd872639f82546545bb25e47e1cba954f00c8f73f1b8b1a47c4dad",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-29-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/~emarberg/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~emarberg/"
+    },
+    {
+      "id": "math-profile-30-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=guowu-meng-mameng",
+      "title": "Guowu MENG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "62c575569668e713f2785ea18485a1bd4d4c8d57224a3870757bd5af76b3016c",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=guowu-meng-mameng",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/mameng/"
+      ]
+    },
+    {
+      "id": "math-personal-30-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/mameng/",
+      "title": "Guowu MENG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "eaad705846cd872639f82546545bb25e47e1cba954f00c8f73f1b8b1a47c4dad",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-30-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/mameng/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/mameng/"
+    },
+    {
+      "id": "math-profile-31-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-min-maymin",
+      "title": "Yu MIN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3e4f3cee4d693762ec931aa209c17b03c5473c23b1164c410e1d6e87df1c63c8",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yu-min-maymin",
+      "discoveredLinks": [
+        "http://sites.google.com/view/yu-min"
+      ]
+    },
+    {
+      "id": "math-personal-31-20261028",
+      "url": "https://sites.google.com/view/yu-min",
+      "title": "Yu MIN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "eaad705846cd872639f82546545bb25e47e1cba954f00c8f73f1b8b1a47c4dad",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-31-20261028",
+      "originalUrl": "http://sites.google.com/view/yu-min",
+      "retrievedUrl": "https://sites.google.com/view/yu-min"
+    },
+    {
+      "id": "math-profile-32-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner",
+      "title": "Maximilian Alexander NITZSCHNER · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7b1a425f6dae0acc2620ab10956a19a5fa5d6468ca648448eaa5de76b38afb53",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~mnitzschner/"
+      ]
+    },
+    {
+      "id": "math-personal-32-20261028",
+      "url": "https://www.math.hkust.edu.hk/~mnitzschner/",
+      "title": "Maximilian Alexander NITZSCHNER · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "eaad705846cd872639f82546545bb25e47e1cba954f00c8f73f1b8b1a47c4dad",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-32-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/~mnitzschner/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~mnitzschner/"
+    },
+    {
+      "id": "math-profile-33-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=zhichao-peng-pengzhic",
+      "title": "Zhichao PENG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d69f2c411c0916ba768eb96391cf1858115a66accb4710f1b499c4a96ab7a301",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=zhichao-peng-pengzhic",
+      "discoveredLinks": [
+        "http://zhichaopengmath.github.io/"
+      ]
+    },
+    {
+      "id": "math-personal-33-20261028",
+      "url": "https://zhichaopengmath.github.io/",
+      "title": "Zhichao PENG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "a485bf9be23def992bf0290fa655ef65bf292aeac308ab63c0668d1a9a2d30d0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-33-20261028",
+      "originalUrl": "http://zhichaopengmath.github.io/",
+      "retrievedUrl": "https://zhichaopengmath.github.io/"
+    },
+    {
+      "id": "math-profile-34-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tiezheng-qian-maqian",
+      "title": "Tiezheng QIAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2f9c2e85ec7e9263afbbada575dbf80acdafed12dcd41227879edfb4655aa9c0",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tiezheng-qian-maqian",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/maqian/"
+      ]
+    },
+    {
+      "id": "math-personal-34-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/maqian/",
+      "title": "Tiezheng QIAN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "a485bf9be23def992bf0290fa655ef65bf292aeac308ab63c0668d1a9a2d30d0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-34-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/maqian/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/maqian/"
+    },
+    {
+      "id": "math-profile-35-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shuaijie-qian-sjqian",
+      "title": "Shuaijie QIAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8f364f43da47c07d3747a7be40a6892970143890da595569ff538ba0ff4270f4",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shuaijie-qian-sjqian",
+      "discoveredLinks": [
+        "http://sites.google.com/view/shuaijie-qian"
+      ]
+    },
+    {
+      "id": "math-personal-35-20261028",
+      "url": "https://sites.google.com/view/shuaijie-qian",
+      "title": "Shuaijie QIAN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "a485bf9be23def992bf0290fa655ef65bf292aeac308ab63c0668d1a9a2d30d0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-35-20261028",
+      "originalUrl": "http://sites.google.com/view/shuaijie-qian",
+      "retrievedUrl": "https://sites.google.com/view/shuaijie-qian"
+    },
+    {
+      "id": "math-profile-36-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-naijian-shen-njshen",
+      "title": "Eric Naijian SHEN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4a7e43f6b7c1dbfe1fafe6f75bf9cf880a39429b9bce95c1e0babe921c380656",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=eric-naijian-shen-njshen",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-37-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=wei-su-weisu",
+      "title": "Wei SU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9d3c0d50aaa06a8c0e9d060e58a109821029415b9c96ffc6cbf7d1d05ffa2df9",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wei-su-weisu",
+      "discoveredLinks": [
+        "http://weisu-mae.github.io/"
+      ]
+    },
+    {
+      "id": "math-personal-37-20261028",
+      "url": "https://weisu-mae.github.io/",
+      "title": "Wei SU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "a485bf9be23def992bf0290fa655ef65bf292aeac308ab63c0668d1a9a2d30d0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-37-20261028",
+      "originalUrl": "http://weisu-mae.github.io/",
+      "retrievedUrl": "https://weisu-mae.github.io/"
+    },
+    {
+      "id": "math-profile-38-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xun-tang-xuntang",
+      "title": "Xun TANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "415655b8e244f84c9f371846c3c24497ba9e1fe0b5b96db3c5215231392d2e26",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xun-tang-xuntang",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/people/faculty/profile/xuntang/"
+      ]
+    },
+    {
+      "id": "math-personal-38-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/xuntang/",
+      "title": "Xun TANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "a485bf9be23def992bf0290fa655ef65bf292aeac308ab63c0668d1a9a2d30d0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-38-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/people/faculty/profile/xuntang/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/xuntang/"
+    },
+    {
+      "id": "math-profile-39-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=rong-tang-martang",
+      "title": "Rong TANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "326a59cc32e1aeef99ad4239c02a07af8180aa3f0aeefb4ac9abc39dabc389ad",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=rong-tang-martang",
+      "discoveredLinks": [
+        "http://sites.google.com/view/rongtang"
+      ]
+    },
+    {
+      "id": "math-personal-39-20261028",
+      "url": "https://sites.google.com/view/rongtang",
+      "title": "Rong TANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "a485bf9be23def992bf0290fa655ef65bf292aeac308ab63c0668d1a9a2d30d0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-39-20261028",
+      "originalUrl": "http://sites.google.com/view/rongtang",
+      "retrievedUrl": "https://sites.google.com/view/rongtang"
+    },
+    {
+      "id": "math-profile-40-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ke-wang-kewang",
+      "title": "Ke WANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8d323f0138fe9fe78970258e356a93f4df151fc9c85d82a5103ce8173b18cec",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ke-wang-kewang",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~kewang/"
+      ]
+    },
+    {
+      "id": "math-personal-40-20261028",
+      "url": "https://www.math.hkust.edu.hk/~kewang/",
+      "title": "Ke WANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "11e3caffc36b0d875ba70cfbc1caa32fc592121ae0f439586001258bf0f6b5b6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-40-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/~kewang/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~kewang/"
+    },
+    {
+      "id": "math-profile-41-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ka-yee-wong-kayee",
+      "title": "Ka Yee WONG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "75a9efd89c728c4036afcfdc6706fd030f16d410ba31e5807cfd2ad33f8ab64b",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ka-yee-wong-kayee",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-42-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=wilson-woon-wilsonwoon",
+      "title": "Wilson WOON · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3aa5464492ee7f87d35e4cf7bf219ae0b946289c04732b38c7bf29a50827c043",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wilson-woon-wilsonwoon",
+      "discoveredLinks": [
+        "http://sites.google.com/site/wthwoon"
+      ]
+    },
+    {
+      "id": "math-personal-42-20261028",
+      "url": "https://sites.google.com/site/wthwoon",
+      "title": "Wilson WOON · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "11e3caffc36b0d875ba70cfbc1caa32fc592121ae0f439586001258bf0f6b5b6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-42-20261028",
+      "originalUrl": "http://sites.google.com/site/wthwoon",
+      "retrievedUrl": "https://sites.google.com/site/wthwoon"
+    },
+    {
+      "id": "math-profile-43-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yueping-wu-maypwu",
+      "title": "Yueping WU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9bbb4b55aa937619d96bff08080b3aca2d59111bead3052d2f0c17b6181b5063",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yueping-wu-maypwu",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-44-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yang-xiang-maxiang",
+      "title": "Yang XIANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c2b3c49cb959d4046755e00118e7ed6e1d3a306e8b9cd84c11c62ef16d9bfab9",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yang-xiang-maxiang",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/maxiang/"
+      ]
+    },
+    {
+      "id": "math-personal-44-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/maxiang/",
+      "title": "Yang XIANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "11e3caffc36b0d875ba70cfbc1caa32fc592121ae0f439586001258bf0f6b5b6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-44-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/maxiang/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/maxiang/"
+    },
+    {
+      "id": "math-profile-45-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=maosheng-xiong-mamsxiong",
+      "title": "Maosheng XIONG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ecd49cb193589b99d7ca5cfe4024b89e6eae06cc162761f87f8016b051133c5a",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=maosheng-xiong-mamsxiong",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/mamsxiong/"
+      ]
+    },
+    {
+      "id": "math-personal-45-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/mamsxiong/",
+      "title": "Maosheng XIONG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "11e3caffc36b0d875ba70cfbc1caa32fc592121ae0f439586001258bf0f6b5b6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-45-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/mamsxiong/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/mamsxiong/"
+    },
+    {
+      "id": "math-profile-46-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=luze-xu-xuluze",
+      "title": "Luze XU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7c0267b08bca3c8494f71a48fa3b4738f2fa78cf9b2991984e68633d8ee7da17",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=luze-xu-xuluze",
+      "discoveredLinks": [
+        "http://sites.google.com/view/xuluze"
+      ]
+    },
+    {
+      "id": "math-personal-46-20261028",
+      "url": "https://sites.google.com/view/xuluze",
+      "title": "Luze XU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "11e3caffc36b0d875ba70cfbc1caa32fc592121ae0f439586001258bf0f6b5b6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-46-20261028",
+      "originalUrl": "http://sites.google.com/view/xuluze",
+      "retrievedUrl": "https://sites.google.com/view/xuluze"
+    },
+    {
+      "id": "math-profile-47-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu",
+      "title": "Kun XU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e3ab900e90fbe3eb36db92fc04a62e0180d144385988fdd922a3ef278ab354ef",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kun-xu-makxu",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/makxu/"
+      ]
+    },
+    {
+      "id": "math-personal-47-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/makxu/",
+      "title": "Kun XU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "11e3caffc36b0d875ba70cfbc1caa32fc592121ae0f439586001258bf0f6b5b6",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-47-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/makxu/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/makxu/"
+    },
+    {
+      "id": "math-profile-48-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=min-yan-mamyan",
+      "title": "Min YAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e66a57ac9bda75b9d5f0b4fad2dc13b6aceff5c8c76c6d9892f7da43126785c5",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=min-yan-mamyan",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/mamyan/"
+      ]
+    },
+    {
+      "id": "math-personal-48-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/mamyan/",
+      "title": "Min YAN · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "505a838eecbdc6f0ec811ac39d70690a7fc791e30c6384ae5a21f17ffe549e82",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-48-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/mamyan/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/mamyan/"
+    },
+    {
+      "id": "math-profile-49-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang",
+      "title": "Can YANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "61fbab121d3df3f9c0314aa66e3aa0359ef70fa13af4810d17d62ad137946e11",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=can-yang-macyang",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~macyang"
+      ]
+    },
+    {
+      "id": "math-profile-50-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jing-yao-majyao",
+      "title": "Jing YAO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8054e995485495a8bb4e951df67b16fb6e6c5e37d533d6cfb84921bf1e332c8",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jing-yao-majyao",
+      "discoveredLinks": []
+    },
+    {
+      "id": "math-profile-51-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yuan-yao-yuany",
+      "title": "Yuan YAO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "96a57b03f32a986d1262d8a3524af51cdd15d8bbe54aa48f2e1c7700b6d3264e",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yuan-yao-yuany",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/yuany/"
+      ]
+    },
+    {
+      "id": "math-personal-51-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/yuany/",
+      "title": "Yuan YAO · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "505a838eecbdc6f0ec811ac39d70690a7fc791e30c6384ae5a21f17ffe549e82",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-51-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/yuany/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/yuany/"
+    },
+    {
+      "id": "math-profile-52-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=guibo-ye-magbye",
+      "title": "Guibo YE · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "13a4ba21b2bd79b65e655e48558a281ebdade33ae564ca8a40ba7edc0c0541b0",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=guibo-ye-magbye",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/magbye/"
+      ]
+    },
+    {
+      "id": "math-profile-53-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-hoi-kyle-yip-machyip",
+      "title": "Chi Hoi Kyle YIP · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0e23528d66f7966b74e0487ed0ef7c4f2042288e53f78dd5e9880ae9b7403478",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-hoi-kyle-yip-machyip",
+      "discoveredLinks": [
+        "http://sites.google.com/view/kyle-chi-hoi-yip/"
+      ]
+    },
+    {
+      "id": "math-personal-53-20261028",
+      "url": "https://sites.google.com/view/kyle-chi-hoi-yip/",
+      "title": "Chi Hoi Kyle YIP · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "505a838eecbdc6f0ec811ac39d70690a7fc791e30c6384ae5a21f17ffe549e82",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-53-20261028",
+      "originalUrl": "http://sites.google.com/view/kyle-chi-hoi-yip/",
+      "retrievedUrl": "https://sites.google.com/view/kyle-chi-hoi-yip/"
+    },
+    {
+      "id": "math-profile-54-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-wai-yu-macwyu",
+      "title": "Chi Wai YU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "eac83405bf85fae1ee5410e02ddd2962ac3eccc77941b87b4e9aaaabb2e5e88f",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=chi-wai-yu-macwyu",
+      "discoveredLinks": [
+        "http://www.math.ust.hk/people/faculty/profile/macwyu/"
+      ]
+    },
+    {
+      "id": "math-personal-54-20261028",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/macwyu/",
+      "title": "Chi Wai YU · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "505a838eecbdc6f0ec811ac39d70690a7fc791e30c6384ae5a21f17ffe549e82",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-54-20261028",
+      "originalUrl": "http://www.math.ust.hk/people/faculty/profile/macwyu/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/macwyu/"
+    },
+    {
+      "id": "math-profile-55-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
+      "title": "Jiheng ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fae57de02319faf50909050622fce1297882e7d26163c8412141adefdd853611",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiheng-zhang-jiheng",
+      "discoveredLinks": [
+        "http://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=0&id=16"
+      ]
+    },
+    {
+      "id": "math-personal-55-20261028",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&id=16&sid=0",
+      "title": "Jiheng ZHANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "24c46fe7973aae3f37ea583d73ad545d97c10637a598ce1771c01373efff4ee3",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-55-20261028",
+      "originalUrl": "http://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=0&id=16",
+      "retrievedUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&id=16&sid=0"
+    },
+    {
+      "id": "math-profile-56-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=hai-zhang-haizhang",
+      "title": "Hai ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7f80e99638c037e5e48e09ede7ec41c3fe6a490aedd6fedfed1141b473f18c21",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hai-zhang-haizhang",
+      "discoveredLinks": [
+        "http://www.math.hkust.edu.hk/~haizhang/"
+      ]
+    },
+    {
+      "id": "math-personal-56-20261028",
+      "url": "https://www.math.hkust.edu.hk/~haizhang/",
+      "title": "Hai ZHANG · 官网提供的延伸主页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "24c46fe7973aae3f37ea583d73ad545d97c10637a598ce1771c01373efff4ee3",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "math-profile-56-20261028",
+      "originalUrl": "http://www.math.hkust.edu.hk/~haizhang/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~haizhang/"
+    },
+    {
+      "id": "math-extra-instructor-20261028",
+      "url": "https://www.math.hkust.edu.hk/~xyquan",
+      "title": "Xueyang Quan · 教学岗位补核",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "所引页面的具体研究、身份或申请范围；不同年度和实时余位另核。",
+      "claims": [
+        "按实际正文整理，任职、研究与招生资格分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日，个人站旧身份不能覆盖院系现页。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2b2353716260700a29dd3bbe8012918884c5df33f9e95d63f580c6419c0628a0",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/~xyquan/"
     }
   ],
   "funding": [
@@ -99935,6 +105172,24 @@ window.APP_CATALOG = {
       ],
       "coverageComplete": false,
       "coverageNotes": "四页名录的44个原链接；研究与岗位分开，教学及研究岗位不自动等于可指导导师。系内另有访问、荣休、研究和支持人员分类，尚未全数逐人整合。七校仍未收全。"
+    },
+    {
+      "id": "census-hkust-math",
+      "universityId": "hkust",
+      "unit": "理学院与学系 · 数学人员目录",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+      "sourceIds": [
+        "math-directory-0-20261028",
+        "math-directory-1-20261028",
+        "math-directory-2-20261028",
+        "math-directory-3-20261028",
+        "math-directory-4-20261028",
+        "math-dept-people-20261028",
+        "math-dept-teaching-20261028",
+        "math-dept-researchers-20261028"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "理学院五页57原主页，56有明确研究、1缺研究保留待核，其中4位接续旧编号。另补教学目录1个原主页，未读到明确研究。系内常规41、附属10、荣休22、教学14、助教7和研究30张分类卡片已读取；跨表重复与无个人网址条目仍需映射，不能加总成导师数或称全系已收全。"
     }
   ],
   "academicCoverage": [
@@ -107417,6 +112672,1250 @@ window.APP_CATALOG = {
                   "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
                   "bodySha256": "2e1c9c2466b835cb39da2d13456a8814a4e2c4b9aad8d77c384841eb908d0ada",
                   "readMethod": "anonymous_HTTP"
+                }
+              ]
+            },
+            {
+              "label": "理学院 · 数学人员分页",
+              "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "math-directory-0-20261028",
+                "math-directory-1-20261028",
+                "math-directory-2-20261028",
+                "math-directory-3-20261028",
+                "math-directory-4-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Fengmiao BIAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=fengmiao-bian-mafmbian",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "7f9de6c87daaec026f607a8f2016dfe8cd9a442cca82c8e41ac6a0b56fc37530",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-00",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Jianfeng CAI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jianfeng-cai-jfcai",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "095aad94ce66938448b3821009994ccd3290b4d5adde38dfaf5d954a038ee7f0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-01",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Kani CHEN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "4360f96b1184eaaafa6670296a11f8a252ac1cfbbf642e93e1c1bdc219cc0d07",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-02",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Junfeng CHEN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=junfeng-chen-majfchen",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "58139fe8bfd9e48e56348f86e2ea8185a64e316f1cc7ed4e07fb0b51890f2d90",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-03",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Kam Hang CHENG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-hang-cheng-keroc",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "e8ad751944dcb4ed1a83a6bab747c5f8363d4e7ab06d44ca183d8688adc351d6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-04",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Edmund Yik Man CHIANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=edmund-yik-man-chiang-machiang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "9537a60c8919dee0381dce8272a8d9b5ace01cd154f5eaa50bd53c47eafb68bf",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-05",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Tsz Kiu Aaron CHOW",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kiu-aaron-chow-chowtka",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "c0f22cec3aeab8dc22ef5bd04991edd04501d3388b082b98704575afd4b9648f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-06",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Shuoqing DENG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shuoqing-deng-masdeng",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "67444c5915ab4e466a28c826f579a6952daed249a7458a0b1084658f47c16f4b",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-07",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Tsz Ho Frederick FONG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-ho-frederick-fong-mafong",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "764fd12b64734dfcfe09033f21b6a7db4cc5c14487d5c2dbd90fe7cd31b0b092",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-08",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Lin FU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "11df8d0777dba789eaeb57b665f48aaf69f6c3bed5e146b8bf6cbb1326d076bb",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-09",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Jimmy Chi Hung FUNG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jimmy-chi-hung-fung-majfung",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "8a6b87a80a87ade73c9ea082c9a746f602001a0240e60ac589b802f0830367c9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "review-hkust-1a4d5126dd3fea",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Jianping GAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jianping-gan-magan",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "e63564456766b02451274d5ff7242ca3dacf0791b3d2a4cfd5d91750b88dbd36",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "review-hkust-8e8e02159255ad",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Yu GAO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-gao-mayugao",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "a7d1fcbf0c086864861ab4fc5170d8d2c7c0a3a6a6d219c4f6388ebed1920ccd",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-12",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Xinzhou GUO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xinzhou-guo-xinzhoug",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "f5c2c98f617ab98c0faf557973f1cb97a18b60d7b053c4bf10b09cbdd73dc80c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-13",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Quoc HO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=quoc-ho-maqho",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "25bf732dd22bf62602976a1a50361bd5d882d543869a5ca7900fd9073426fff5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-14",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Hon Ming HO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=hon-ming-ho-mastanho",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "db34538bd2860e2263b4737410377a7db640e413d26fce9d8cc932e40a2a6d0e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-15",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Zihao HU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=zihao-hu-zihaohu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "480394af2bd0f8f5141d1afc508a9624f588bc5d3863ef8b0029e48850ebc10e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-16",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Kin Ting Ken HUNG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kin-ting-ken-hung-kenkthung",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "6aa44b57b3affa51b476ac2c92c8b75dc47896e82abe5350aeb8985b207cc391",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-17",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Ivan Chi Ho IP",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ivan-chi-ho-ip-ivanip",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "6c1cc85426e340349d76297e7b4c44248fb181f260bf13baee149df6e2f80ddf",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-18",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Qingyuan JIANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=qingyuan-jiang-jiangqy",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "e16c4bd661d89ef83c5a24bf5038254a1466dfa6ef07c5e871b97d1ce811b64a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-19",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Tianling JIN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tianling-jin-tianlingjin",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "8c412a035fbd0fa415ea30b0fa295d0d7ab4701ff150aadd8165d38ae9f56a4b",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-20",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Yin Bon KU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yin-bon-ku-maybku",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "126f79fe9a482c1a4df984a2e20a0757c64151b19a9b60bcca3ef2354c98a54d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "research_statement_not_found",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Tsz Kin LAM",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tsz-kin-lam-tklam",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "fd6b1656894ca54c251dff1437d97ef5351185fcf8ddc415dcc6015c4bb63e8d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-22",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Shing Yu LEUNG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shing-yu-leung-masyleung",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "336fd883a4d8f094baa5a283bc2a92b814e6cd3c4af263a64511ed7e5f5912ed",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-23",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Chi Man LEUNG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-man-leung-chimanleung",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "a0e8a6be6d7da87f30a52ea2f3d64978d8db1c8b9b8d94bdfaa92eae4cc109b9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-24",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Weiping LI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=weiping-li-mawpli",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "ed54da5645d0b7cd49aee5d9ef0cf7cb7ba4d9522fa5cf5d1eddf662dd8abe87",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-25",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Shiqing LING",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shiqing-ling-maling",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "74ed4082b532a18766438a67bdb5385c64cdab1f28d4b481c8fc9ab0ec52f6f8",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-26",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Stephen Shang Yi LIU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=stephen-shang-yi-liu-masyliu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "610afba277aa489de45d2422892cac2b9de4f19ad328a432ecec72b8e3ffb4ad",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-27",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Julian MAK",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "ab6da5236ccaf97685ab00c5ddb99261d21e65d441c04a7fefcfbbf22758f1f4",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-28",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Eric Paul MARBERG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-paul-marberg-emarberg",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "83bbe9efd04aa32df027208d67977729c75e195e4289963f7bc20f2f10af02bc",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-29",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Guowu MENG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=guowu-meng-mameng",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "62c575569668e713f2785ea18485a1bd4d4c8d57224a3870757bd5af76b3016c",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-30",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Yu MIN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yu-min-maymin",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "3e4f3cee4d693762ec931aa209c17b03c5473c23b1164c410e1d6e87df1c63c8",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-31",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Maximilian Alexander NITZSCHNER",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=maximilian-alexander-nitzschner-mnitzschner",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "7b1a425f6dae0acc2620ab10956a19a5fa5d6468ca648448eaa5de76b38afb53",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-32",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Zhichao PENG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=zhichao-peng-pengzhic",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "d69f2c411c0916ba768eb96391cf1858115a66accb4710f1b499c4a96ab7a301",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-33",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Tiezheng QIAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tiezheng-qian-maqian",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "2f9c2e85ec7e9263afbbada575dbf80acdafed12dcd41227879edfb4655aa9c0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-34",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Shuaijie QIAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shuaijie-qian-sjqian",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "8f364f43da47c07d3747a7be40a6892970143890da595569ff538ba0ff4270f4",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-35",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Eric Naijian SHEN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=eric-naijian-shen-njshen",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "4a7e43f6b7c1dbfe1fafe6f75bf9cf880a39429b9bce95c1e0babe921c380656",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-36",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Wei SU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=wei-su-weisu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "9d3c0d50aaa06a8c0e9d060e58a109821029415b9c96ffc6cbf7d1d05ffa2df9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "review-hkust-b23367cbd3623b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Xun TANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xun-tang-xuntang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "415655b8e244f84c9f371846c3c24497ba9e1fe0b5b96db3c5215231392d2e26",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-38",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Rong TANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=rong-tang-martang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "326a59cc32e1aeef99ad4239c02a07af8180aa3f0aeefb4ac9abc39dabc389ad",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-39",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Ke WANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ke-wang-kewang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "b8d323f0138fe9fe78970258e356a93f4df151fc9c85d82a5103ce8173b18cec",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "expand-hkust-ke-wang",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Ka Yee WONG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ka-yee-wong-kayee",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "75a9efd89c728c4036afcfdc6706fd030f16d410ba31e5807cfd2ad33f8ab64b",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-41",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Wilson WOON",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=wilson-woon-wilsonwoon",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "3aa5464492ee7f87d35e4cf7bf219ae0b946289c04732b38c7bf29a50827c043",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-42",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Yueping WU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yueping-wu-maypwu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "9bbb4b55aa937619d96bff08080b3aca2d59111bead3052d2f0c17b6181b5063",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-43",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Yang XIANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yang-xiang-maxiang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "c2b3c49cb959d4046755e00118e7ed6e1d3a306e8b9cd84c11c62ef16d9bfab9",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-44",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Maosheng XIONG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=maosheng-xiong-mamsxiong",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "ecd49cb193589b99d7ca5cfe4024b89e6eae06cc162761f87f8016b051133c5a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-45",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Luze XU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=luze-xu-xuluze",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "7c0267b08bca3c8494f71a48fa3b4738f2fa78cf9b2991984e68633d8ee7da17",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-46",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Kun XU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "e3ab900e90fbe3eb36db92fc04a62e0180d144385988fdd922a3ef278ab354ef",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-47",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Min YAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=min-yan-mamyan",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "e66a57ac9bda75b9d5f0b4fad2dc13b6aceff5c8c76c6d9892f7da43126785c5",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-48",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Can YANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "61fbab121d3df3f9c0314aa66e3aa0359ef70fa13af4810d17d62ad137946e11",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-49",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Jing YAO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jing-yao-majyao",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "b8054e995485495a8bb4e951df67b16fb6e6c5e37d533d6cfb84921bf1e332c8",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-50",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Yuan YAO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yuan-yao-yuany",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "96a57b03f32a986d1262d8a3524af51cdd15d8bbe54aa48f2e1c7700b6d3264e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-51",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Guibo YE",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=guibo-ye-magbye",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "13a4ba21b2bd79b65e655e48558a281ebdade33ae564ca8a40ba7edc0c0541b0",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-52",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Chi Hoi Kyle YIP",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-hoi-kyle-yip-machyip",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "0e23528d66f7966b74e0487ed0ef7c4f2042288e53f78dd5e9880ae9b7403478",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-53",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Chi Wai YU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=chi-wai-yu-macwyu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "eac83405bf85fae1ee5410e02ddd2962ac3eccc77941b87b4e9aaaabb2e5e88f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-54",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Jiheng ZHANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "fae57de02319faf50909050622fce1297882e7d26163c8412141adefdd853611",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-55",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                },
+                {
+                  "name": "Hai ZHANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=hai-zhang-haizhang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "directoryLabel": "理学院 · 数学人员分页",
+                  "directorySourceIds": [
+                    "math-directory-0-20261028",
+                    "math-directory-1-20261028",
+                    "math-directory-2-20261028",
+                    "math-directory-3-20261028",
+                    "math-directory-4-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "7f80e99638c037e5e48e09ede7ec41c3fe6a490aedd6fedfed1141b473f18c21",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-56",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "名录岗位、研究自述与导师资格分别核；教学或研究岗位不自动当作可指导研究生。"
+                }
+              ]
+            },
+            {
+              "label": "数学系教学人员 · 本次额外补核1条",
+              "url": "https://www.math.hkust.edu.hk/people/?menu=1",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "math-dept-teaching-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Xueyang QUAN / 權雪阳",
+                  "url": "https://www.math.hkust.edu.hk/~xyquan",
+                  "observedOn": "https://www.math.hkust.edu.hk/people/?menu=1",
+                  "directoryLabel": "数学系教学人员 · 本次额外补核1条",
+                  "directorySourceIds": [
+                    "math-dept-teaching-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "readMethod": "web_reader",
+                  "readReceiptSha256": "2b2353716260700a29dd3bbe8012918884c5df33f9e95d63f580c6419c0628a0",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "research_statement_not_found",
+                  "reviewNote": "教学人员页列Teaching Associate；本次个人页显示课程，未读到明确研究陈述，不据教学任务推定研究或导师资格。"
                 }
               ]
             }
@@ -123525,5 +130024,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:452a9f812d522b475238c505c0d03dbdbbad39d44c002e29600a21e6dd073016"
+  "snapshotId": "sha256:ba51270ff69c5e1dcf299e45a3829f06845e6503a895d1ba1ec6a4f582b4878b"
 };
