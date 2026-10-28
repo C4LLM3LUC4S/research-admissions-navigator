@@ -4054,6 +4054,214 @@ window.APP_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "cuhk-seem-rpg",
+      "universityId": "cuhk",
+      "name": "系统工程与工程管理 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文香港校本部SEEM，2027/28研究型硕博；与同系授课型MSc、港中文深圳各项目分开。",
+      "contact": {
+        "status": "unknown",
+        "text": "本批官方申请页没有明确要求先取得意向导师承诺；部分个人页欢迎联系，但不是全系统一规则。",
+        "sourceIds": [
+          "seem-central-2027",
+          "seem-dept-qualifications"
+        ]
+      },
+      "selection": {
+        "text": "研究生院项目页明确通过面试选拔，且面试会早于申请截止开始；没有写清导师与委员会的最终决定权限。",
+        "sourceIds": [
+          "seem-central-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "常规主轮截止（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "seem-central-2027"
+          ]
+        },
+        {
+          "label": "清理轮截止，须仍有学额（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "seem-central-2027"
+          ]
+        },
+        {
+          "label": "HKPFS向RGC提交初步申请（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T12:00:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "seem-central-2027"
+          ]
+        },
+        {
+          "label": "HKPFS向CUHK提交完整申请（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "seem-central-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "seem-rpg-2027",
+        "seem-central-2027"
+      ],
+      "evidenceNote": "常规主轮没有擅自沿用HKPFS的23:59；面试、正式申请与老师个人联系分开。培养课程和候选资格考试是入学后的要求。",
+      "requirements": [
+        {
+          "label": "学历范围与本科直博",
+          "text": "中央项目页通常要求工程、应用数学、计算机或相关领域荣誉本科；系详细页说PhD通常研究型硕士，同时允许优秀本科直接申请。保留两页表述，不由本产品判定个人资格。",
+          "action": "按所选学位与本人学历核通用和项目要求；有差异先向项目确认。",
+          "sourceIds": [
+            "seem-central-2027",
+            "seem-dept-qualifications",
+            "seem-central-requirements"
+          ]
+        },
+        {
+          "label": "研究计划与较早面试",
+          "text": "项目要求研究计划，附已有项目和论文清单（如有）；通过面试选拔，面试可能明显早于申请截止。没有说必须已有论文。",
+          "action": "准备研究问题、经历与拟开展工作的说明，及时留意正式面试通知。",
+          "sourceIds": [
+            "seem-central-2027"
+          ]
+        },
+        {
+          "label": "英语分制与有效期",
+          "text": "通用页列TOEFL 79/120或4.5/6、IELTS Academic 6.5等路径；TOEFL/IELTS有效两年。英语授课学历等路径仍需学校认可证明，不等于人人自动豁免。",
+          "action": "按实际考试分制、形式和有效期核原页，并准备正式成绩分享或英语授课证明。",
+          "sourceIds": [
+            "seem-central-requirements",
+            "seem-central-documents"
+          ]
+        },
+        {
+          "label": "推荐人按学位分开",
+          "text": "研究型博士需三份推荐报告，其他项目需两份；推荐人在正式系统提交，不把MPhil两份套到PhD。",
+          "action": "PhD先安排三位推荐人，并核系统是否收到报告。",
+          "sourceIds": [
+            "seem-central-documents"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "MPhil推荐材料",
+          "text": "中央材料页对其他项目列两份推荐报告；本卡MPhil按该范围整理，具体补充仍看项目。",
+          "action": "MPhil先安排两位推荐人，并核系统是否收到报告。",
+          "sourceIds": [
+            "seem-central-documents"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "申请与录取后的证明分阶段",
+          "text": "申请阶段提交学历、官方成绩单与评分说明、英语和身份证明；内地学历及成绩另有学信网验证要求。录取后还需按条件期限提交原件核验；系详细页保留密封直送说明。",
+          "action": "对照两页及系统的当期清单准备，原件核验与申请上传分开确认，保留原文件。",
+          "sourceIds": [
+            "seem-central-documents",
+            "seem-dept-qualifications"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "seem-tuition",
+          "kind": "tuition",
+          "label": "2027/28年度学费",
+          "text": "每年港币49,500，不因学习模式不同而改金额；符合条件的本地全日制研究生可另核学费减免，不能推广给所有申请者。",
+          "sourceIds": [
+            "seem-central-2027",
+            "seem-central-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "year",
+              "cycle": "2027/28",
+              "basis": "academic_year",
+              "condition": "对应2027/28学年；减免资格另核。"
+            }
+          ],
+          "action": "按适用年度与正式通知核对，费用和助学金分开预算。"
+        },
+        {
+          "id": "seem-application_fee",
+          "kind": "application_fee",
+          "label": "每个项目的申请费",
+          "text": "中央费用页列每个项目港币500，未单独写此金额的适用轮次；缴后不退、不转让，支付前核系统。",
+          "sourceIds": [
+            "seem-central-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "cycle": null,
+              "basis": "page_reference",
+              "condition": "未注明轮次的现页参考，按系统当期金额复核。"
+            }
+          ],
+          "action": "按适用年度与正式通知核对，费用和助学金分开预算。"
+        },
+        {
+          "id": "seem-studentship",
+          "kind": "studentship",
+          "label": "资助年度不能混用",
+          "text": "中央页只核到2026/27每年229,200；系页仍列2025/26每月约19,100，金额会调整并通常附助教工作。两者均不是已核2027/28金额；资助结果随录取通知，资格和正式结果另核。",
+          "sourceIds": [
+            "seem-central-studentships",
+            "seem-dept-aid"
+          ],
+          "rates": [
+            {
+              "value": 229200,
+              "currency": "HKD",
+              "unit": "year",
+              "cycle": "2026/27",
+              "basis": "academic_year",
+              "condition": "符合条件的全日制研究生，旧学年参考，不是已核2027/28。"
+            },
+            {
+              "value": 19100,
+              "currency": "HKD",
+              "unit": "month",
+              "cycle": "2025/26",
+              "basis": "academic_year",
+              "condition": "系页约数及旧学年参考，通常有助教职责。"
+            }
+          ],
+          "action": "按适用年度与正式通知核对，费用和助学金分开预算。"
+        }
+      ]
     }
   ],
   "faculty": [
@@ -51918,6 +52126,1754 @@ window.APP_CATALOG = {
           "hku-dase-r-y-zhong-profile-20261028"
         ]
       }
+    },
+    {
+      "id": "cuhk-seem-00",
+      "name": "AHN, Dohyun / 安濤賢",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究金融与运营网络中的风险，结合随机模型、优化和蒙特卡罗模拟支持不确定条件下的决策。",
+      "researchKeywords": [
+        "定量风险管理",
+        "蒙特卡罗模拟",
+        "金融网络",
+        "不确定性决策",
+        "序贯学习"
+      ],
+      "topics": [
+        "金融与精算",
+        "理论与优化",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-00-20261028",
+        "seem-academic-20261028",
+        "seem-personal-00-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-00-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/dohyun",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-00-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-00-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-00-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-01",
+      "name": "CHEN, Nan / 陳南",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/",
+      "directoryRole": "Professor and Department Vice-Chairman (Graduate)",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究金融工程与金融科技，关注风险建模、模拟和强化学习在金融决策中的应用。",
+      "researchKeywords": [
+        "金融工程",
+        "蒙特卡罗模拟",
+        "应用概率",
+        "随机动态规划",
+        "强化学习"
+      ],
+      "topics": [
+        "金融与精算",
+        "数学与统计",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "seem-profile-01-20261028",
+        "seem-academic-20261028",
+        "seem-personal-01-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-01-20261028",
+        "seem-personal-01-0-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~nchenweb/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-01-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-01-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-01-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-03",
+      "name": "GAO, Xuefeng / 高雪峰",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "结合应用概率和运筹方法研究金融决策、强化学习与生成模型。",
+      "researchKeywords": [
+        "随机模型",
+        "运筹学",
+        "强化学习",
+        "生成模型",
+        "金融工程"
+      ],
+      "topics": [
+        "理论与优化",
+        "机器学习",
+        "金融与精算",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-03-20261028",
+        "seem-academic-20261028",
+        "seem-personal-03-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-03-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~xfgao/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-03-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-03-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-03-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-04",
+      "name": "HE, Xuedong / 何雪冬",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究行为金融和风险管理，也关注随机控制与金融科技。",
+      "researchKeywords": [
+        "行为金融",
+        "风险管理",
+        "随机控制",
+        "金融科技"
+      ],
+      "topics": [
+        "金融与精算",
+        "机器人与控制",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-04-20261028",
+        "seem-academic-20261028",
+        "seem-personal-04-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-04-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/site/xuedonghepage/home",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-04-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-04-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-04-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-05",
+      "name": "HO, Sin Cheung / 何倩璋",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "为交通和物流决策建立数学模型与求解算法，涉及共享单车调度和车辆路径。",
+      "researchKeywords": [
+        "共享单车",
+        "车辆路径",
+        "交通物流",
+        "元启发式算法"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "seem-profile-05-20261028",
+        "seem-academic-20261028",
+        "seem-personal-05-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-05-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/drsinho/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-05-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-05-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-05-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-06",
+      "name": "JIA, Yanwei / 賈顏瑋",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究金融和不确定条件下的决策，结合强化学习、信息聚合及群体判断。",
+      "researchKeywords": [
+        "金融决策",
+        "强化学习",
+        "信息聚合",
+        "群体智慧",
+        "行为数据分析"
+      ],
+      "topics": [
+        "金融与精算",
+        "机器学习",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-06-20261028",
+        "seem-academic-20261028",
+        "seem-personal-06-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-06-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/yanwei-jia",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-06-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-06-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-06-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-07",
+      "name": "LAM, Wai / 林偉",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究文本挖掘、智能信息检索和自然语言处理，个人研究页还列出世界模型。",
+      "researchKeywords": [
+        "文本挖掘",
+        "智能信息检索",
+        "网络挖掘",
+        "自然语言处理",
+        "世界模型"
+      ],
+      "topics": [
+        "自然语言处理",
+        "机器学习",
+        "数据挖掘"
+      ],
+      "sourceIds": [
+        "seem-profile-07-20261028",
+        "seem-academic-20261028",
+        "seem-personal-07-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-07-20261028",
+        "seem-personal-07-0-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~textmine/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-07-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-07-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-07-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-08",
+      "name": "LIANG, Bin / 梁斌",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/",
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究自然语言处理、大语言模型、情感计算和多模态学习。",
+      "researchKeywords": [
+        "自然语言处理",
+        "大语言模型",
+        "情感计算",
+        "多模态学习"
+      ],
+      "topics": [
+        "自然语言处理",
+        "人工智能",
+        "人机交互"
+      ],
+      "sourceIds": [
+        "seem-profile-08-20261028",
+        "seem-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-08-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-08-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-09",
+      "name": "LI, Lingfei / 李凌飛",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/",
+      "directoryRole": "Professor and Department Vice-Chairman (Undergraduate)",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究金融工程中的数学模型、计算方法和金融科技。",
+      "researchKeywords": [
+        "金融工程",
+        "数理金融",
+        "计算金融",
+        "金融科技"
+      ],
+      "topics": [
+        "金融与精算",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-09-20261028",
+        "seem-academic-20261028",
+        "seem-personal-09-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-09-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/lingfeili/home",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-09-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-09-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-09-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-10",
+      "name": "LIU, Weiliang / 劉偉亮",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究服务运营和有社会影响的运营问题，用随机模型、优化及数据分析支持决策。",
+      "researchKeywords": [
+        "服务运营",
+        "社会责任运营",
+        "随机模型",
+        "数据驱动决策",
+        "排队论",
+        "应急服务"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-10-20261028",
+        "seem-academic-20261028",
+        "seem-personal-10-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-10-20261028",
+        "seem-personal-10-0-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://weiliangliu0.github.io/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-10-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-10-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-10-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "未注明轮次的个人联系建议",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "seem-personal-10-0-20261028"
+          ],
+          "text": "个人站欢迎有数学和技术基础的博士申请者，建议准备简历、成绩单与简短研究兴趣；没有明确这段说明的招生年度，不当2027余位。老师说可能只回复部分来信，不由未回复推断录取结果。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-11",
+      "name": "LIU, Xunying / 劉循英",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究机器学习在语音识别、语言建模、语音合成和辅助技术中的应用。",
+      "researchKeywords": [
+        "语音识别",
+        "语言建模",
+        "语音合成",
+        "辅助技术"
+      ],
+      "topics": [
+        "机器学习",
+        "自然语言处理",
+        "计算机音乐与音频"
+      ],
+      "sourceIds": [
+        "seem-profile-11-20261028",
+        "seem-academic-20261028",
+        "seem-personal-11-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-11-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~xyliu/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-11-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-11-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-11-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人网站的联系说明需另核年度",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "seem-personal-11-0-20261028"
+          ],
+          "text": "提供的个人页刊载欢迎研究申请或联系的说明，但未明确对应当期轮次与实际余位。个人建议不等于系里统一的先联系要求，也不替代正式网申和资助决定。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-12",
+      "name": "LONG, Zhuoyu, Daniel / 龍卓瑜",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究供应链风险、项目和库存管理，使用目标导向风险分析与鲁棒优化。",
+      "researchKeywords": [
+        "供应链风险",
+        "项目管理",
+        "库存控制",
+        "鲁棒优化"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "seem-profile-12-20261028",
+        "seem-academic-20261028",
+        "seem-personal-12-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-12-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.se.cuhk.edu.hk/~zylong",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-12-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-12-0-20261028"
+        },
+        {
+          "url": "https://www1.se.cuhk.edu.hk/~zylong/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-12-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "原站提供的链接保留；本轮尚未整理可核实正文，不猜改协议。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-12-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-13",
+      "name": "MENG, Mei Ling, Helen / 蒙美玲",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/",
+      "directoryRole": "Patrick Huen Wing Ming Professor of Systems Engineering & Engineering Management",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究多语言语音与语言处理、多模态人机交互、生物特征认证和对话式人工智能。",
+      "researchKeywords": [
+        "多语言语音处理",
+        "多模态人机交互",
+        "生物特征认证",
+        "对话式人工智能"
+      ],
+      "topics": [
+        "自然语言处理",
+        "人机交互",
+        "网络安全",
+        "计算机音乐与音频"
+      ],
+      "sourceIds": [
+        "seem-profile-13-20261028",
+        "seem-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-13-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-13-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-14",
+      "name": "NG, Chi Kong / 伍志剛",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/",
+      "directoryRole": "Senior Lecturer",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究全局优化、非线性整数规划和离散时间最优控制，并应用于库存及供应链。",
+      "researchKeywords": [
+        "全局优化",
+        "非线性整数规划",
+        "离散时间最优控制",
+        "库存控制"
+      ],
+      "topics": [
+        "理论与优化",
+        "机器人与控制",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "seem-profile-14-20261028",
+        "seem-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-14-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www1.se.cuhk.edu.hk/~ckng/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-14-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "原站提供的链接保留；本轮尚未整理可核实正文，不猜改协议。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-14-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-15",
+      "name": "SO, Man Cho, Anthony / 蘇文藻",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究算法设计、优化和数据分析。",
+      "researchKeywords": [
+        "算法设计",
+        "优化",
+        "数据分析"
+      ],
+      "topics": [
+        "理论与优化",
+        "数学与统计"
+      ],
+      "sourceIds": [
+        "seem-profile-15-20261028",
+        "seem-academic-20261028",
+        "seem-personal-15-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-15-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~manchoso/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-15-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-15-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-15-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-16",
+      "name": "NGUYEN, Viet Anh / 阮越英",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究负责任的人工智能、伦理分析与不确定条件下的决策，结合数据科学和运筹方法。",
+      "researchKeywords": [
+        "伦理分析",
+        "负责任人工智能",
+        "不确定性决策",
+        "运筹学",
+        "稳健性"
+      ],
+      "topics": [
+        "人工智能",
+        "理论与优化",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "seem-profile-16-20261028",
+        "seem-academic-20261028",
+        "seem-personal-16-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-16-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.vietanhnguyen.net/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-16-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-16-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-16-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人网站的联系说明需另核年度",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "seem-personal-16-0-20261028"
+          ],
+          "text": "提供的个人页刊载欢迎研究申请或联系的说明，但未明确对应当期轮次与实际余位。个人建议不等于系里统一的先联系要求，也不替代正式网申和资助决定。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-17",
+      "name": "WAI, Hoi To / 韋凱滔",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究图信号处理、图学习，以及机器学习和分布式信号处理中的随机优化算法。",
+      "researchKeywords": [
+        "图信号处理",
+        "图学习",
+        "图拓扑推断",
+        "随机优化",
+        "分布式信号处理"
+      ],
+      "topics": [
+        "理论与优化",
+        "机器学习",
+        "网络与系统"
+      ],
+      "sourceIds": [
+        "seem-profile-17-20261028",
+        "seem-academic-20261028",
+        "seem-personal-17-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-17-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~htwai/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-17-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-17-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-17-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人网站的联系说明需另核年度",
+          "sourceIds": [
+            "seem-personal-17-0-20261028"
+          ],
+          "text": "个人页欢迎对相关方向感兴趣的学生、研究助理或博士后联系，但这段邀请没有明确学生岗位的学位与入学轮次，不能据此推定本轮MPhil或PhD接收。个人建议不替代正式网申与资助决定；HKPFS另按博士规则核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-18",
+      "name": "WANG, Liming / 汪黎明",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究自监督和多模态学习，尤其是弱配对或无配对语音、文字、图像的对齐及医疗应用。",
+      "researchKeywords": [
+        "自监督语音表示",
+        "无配对多模态学习",
+        "语音基础模型",
+        "多模态医疗人工智能",
+        "生成模型"
+      ],
+      "topics": [
+        "自然语言处理",
+        "机器学习",
+        "生物医学与健康",
+        "计算机音乐与音频"
+      ],
+      "sourceIds": [
+        "seem-profile-18-20261028",
+        "seem-academic-20261028",
+        "seem-personal-18-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-18-20261028",
+        "seem-personal-18-0-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://lwang114.github.io/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-18-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-18-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-18-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人页刊载的2027秋季博士联系说明",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "seem-personal-18-0-20261028"
+          ],
+          "text": "个人页说考虑新增一名2027秋季博士，取决于研究契合、资助与院系录取流程；不是实时剩余名额或录取承诺。重点为语音/音频基础模型、多模态语言建模或医疗AI；联系可准备简历、成绩单、拟入学时间、既往研究贡献和想研究的问题。对口者也不保证收到回复。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-19",
+      "name": "WANG, Sibo / 王思博",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究大规模数据管理和查询，个人页进一步列出向量数据库、检索增强生成与智能体数据系统。",
+      "researchKeywords": [
+        "图数据管理",
+        "近似查询",
+        "动态索引",
+        "向量数据库",
+        "检索增强生成",
+        "智能体上下文与记忆"
+      ],
+      "topics": [
+        "数据库与数据系统",
+        "理论与优化",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "seem-profile-19-20261028",
+        "seem-academic-20261028",
+        "seem-personal-19-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-19-20261028",
+        "seem-personal-19-0-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~swang/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-19-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-19-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-19-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-20",
+      "name": "WONG, Kam Fai / 黃錦輝",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究中文信息处理、数据库和信息检索。",
+      "researchKeywords": [
+        "中文信息处理",
+        "数据库",
+        "信息检索"
+      ],
+      "topics": [
+        "自然语言处理",
+        "数据库与数据系统"
+      ],
+      "sourceIds": [
+        "seem-profile-20-20261028",
+        "seem-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-20-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-20-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-21",
+      "name": "WU, Xixin / 吳錫欣",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/",
+      "directoryRole": "Assistant Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究生成式人工智能、面向健康的语音与语言处理、情感计算和人机交互。",
+      "researchKeywords": [
+        "生成式人工智能",
+        "健康语音处理",
+        "情感计算",
+        "人机交互",
+        "神经网络不确定性"
+      ],
+      "topics": [
+        "人工智能",
+        "自然语言处理",
+        "人机交互",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "seem-profile-21-20261028",
+        "seem-academic-20261028",
+        "seem-personal-21-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-21-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www1.se.cuhk.edu.hk/~wuxx/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-21-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-21-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-21-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人网站的联系说明需另核年度",
+          "sourceIds": [
+            "seem-personal-21-0-20261028"
+          ],
+          "text": "个人页欢迎对相关方向感兴趣的学生、研究助理或博士后联系，但这段邀请没有明确学生岗位的学位与入学轮次，不能据此推定本轮MPhil或PhD接收。个人建议不替代正式网申与资助决定；HKPFS另按博士规则核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-seem-22",
+      "name": "XU, Huifu / 徐慧福",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+      "directoryRole": "Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究鲁棒优化、风险分析、随机规划与数据驱动优化，应用于能源和金融决策。",
+      "researchKeywords": [
+        "鲁棒优化",
+        "风险分析",
+        "随机规划",
+        "数据驱动优化",
+        "能源与金融优化"
+      ],
+      "topics": [
+        "理论与优化",
+        "金融与精算",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "seem-profile-22-20261028",
+        "seem-academic-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-22-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~hfxu",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-22-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "原站提供的链接保留；本轮尚未整理可核实正文，不猜改协议。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-22-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-23",
+      "name": "YANG, Chen / 楊晨",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/",
+      "directoryRole": "Associate Professor",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究金融科技与数理金融，个人页进一步列出投资组合、市场摩擦和随机控制。",
+      "researchKeywords": [
+        "金融科技",
+        "数理金融",
+        "投资组合",
+        "市场摩擦",
+        "随机控制"
+      ],
+      "topics": [
+        "金融与精算",
+        "数学与统计",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "seem-profile-23-20261028",
+        "seem-academic-20261028",
+        "seem-personal-23-0-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-academic-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-23-20261028",
+        "seem-personal-23-0-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www1.se.cuhk.edu.hk/~cyang/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-23-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "实际读到提供链接返回的身份或研究正文；原HTTP与返回HTTPS分开保留，不能据此认定仍有名额。",
+          "sourceId": "seem-personal-23-0-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-23-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-25",
+      "name": "CAI, Xiaoqiang / 蔡小強",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/",
+      "directoryRole": "Emeritus Professor",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究物流与供应链、调度模型及投资组合优化；名录列为荣休教授。",
+      "researchKeywords": [
+        "物流与供应链",
+        "调度模型",
+        "投资组合优化"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理",
+        "金融与精算"
+      ],
+      "sourceIds": [
+        "seem-profile-25-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-25-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-25-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-26",
+      "name": "GONG, Xiting / 龔錫挺",
+      "universityId": "cuhk",
+      "department": "商学院决策、运营与科技学系；SEEM兼任",
+      "profileUrl": "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/",
+      "reviewedProfileUrl": "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/",
+      "directoryRole": "Professor by Courtesy in SEEM; Professor in Business School",
+      "identityNote": "官网职称与实际指导资格分开；本次研究资料不代表当期接收。",
+      "summary": "研究运营和供应链管理，重点涉及库存、定价与数据驱动近似算法。",
+      "researchKeywords": [
+        "运营与供应链管理",
+        "随机库存",
+        "收益管理与定价",
+        "数据驱动近似算法"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "seem-profile-26-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-26-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-26-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-28",
+      "name": "HON, Hsiao Wuen / 洪小文",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/",
+      "directoryRole": "Adjunct Professor",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究语音识别和合成、自然语言处理、信息检索及数据挖掘；名录列为兼职教授。",
+      "researchKeywords": [
+        "语音识别与合成",
+        "自然语言处理",
+        "信息检索",
+        "数据挖掘"
+      ],
+      "topics": [
+        "自然语言处理",
+        "数据挖掘",
+        "计算机音乐与音频"
+      ],
+      "sourceIds": [
+        "seem-profile-28-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-28-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-28-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-29",
+      "name": "LEUNG, May Yee, Janny / 梁美兒",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/",
+      "directoryRole": "Adjunct Professor",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究组合优化、交通、公共运输和人道主义物流；名录列为兼职教授。",
+      "researchKeywords": [
+        "组合优化",
+        "公共交通",
+        "人道主义物流",
+        "运筹学"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "seem-profile-29-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-29-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-29-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-30",
+      "name": "LUM, Yu Sun, Vincent / 林耀燊",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/",
+      "directoryRole": "Emeritus Professor",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究数据库管理、数据组织、信息检索和信息系统；名录列为荣休教授。",
+      "researchKeywords": [
+        "数据库管理",
+        "数据结构与组织",
+        "信息检索",
+        "信息系统"
+      ],
+      "topics": [
+        "数据库与数据系统",
+        "数据挖掘"
+      ],
+      "sourceIds": [
+        "seem-profile-30-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-30-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-30-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-31",
+      "name": "LUO, Zhi Quan, Tom / 羅智泉",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/",
+      "directoryRole": "Adjunct Professor",
+      "identityNote": "SEEM旧简介仍提明尼苏达任职，不能当当前完整任职；本次只整理该页明确研究与兼职标签，港中深是独立办学实体。 荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究优化算法及其在信号处理和数字通信中的计算问题；本卡仅表示SEEM兼职任职范围。",
+      "researchKeywords": [
+        "优化算法",
+        "信号处理",
+        "数字通信",
+        "计算复杂度"
+      ],
+      "topics": [
+        "理论与优化",
+        "网络与系统"
+      ],
+      "sourceIds": [
+        "seem-profile-31-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-31-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-31-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-32",
+      "name": "WONG, Wing Shing / 黃永成",
+      "universityId": "cuhk",
+      "department": "信息工程学系荣休；SEEM荣誉菜单保留",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/Wong-Wing-Shing/",
+      "reviewedProfileUrl": "https://www.ie.cuhk.edu.hk/faculty/Wong-Wing-Shing/",
+      "directoryRole": "Emeritus Professor in Information Engineering",
+      "identityNote": "People荣誉菜单保留此人，Honorary正文表未列；IE档案当前标题是荣休，旧Biography仍写研究生院院长，不据旧经历推当前职务。",
+      "summary": "研究无线通信、信息驱动控制和非线性滤波；信息工程系档案列为荣休教授。",
+      "researchKeywords": [
+        "无线通信",
+        "信息驱动控制",
+        "非线性滤波"
+      ],
+      "topics": [
+        "网络与系统",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "seem-profile-32-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-32-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-32-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-33",
+      "name": "YAN Houmin / 嚴厚民",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/",
+      "directoryRole": "Adjunct Professor",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究风险建模、机器学习、随机模型与供应链管理；名录列为兼职教授。",
+      "researchKeywords": [
+        "风险建模",
+        "机器学习",
+        "随机模型",
+        "供应链管理"
+      ],
+      "topics": [
+        "机器学习",
+        "经济与管理",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "seem-profile-33-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-33-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-33-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-34",
+      "name": "YU, Xu, Jeffrey / 于旭",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/",
+      "directoryRole": "Emeritus Professor",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究图数据库、查询处理、图挖掘和数据库中的机器学习；主页明确列为荣休教授。",
+      "researchKeywords": [
+        "图数据库",
+        "图查询处理",
+        "图挖掘",
+        "社交网络",
+        "数据库机器学习"
+      ],
+      "topics": [
+        "数据库与数据系统",
+        "数据挖掘",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "seem-profile-34-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-34-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www-std.se.cuhk.edu.hk/~dbgroup/next/index.php",
+          "label": "个人或研究组主页",
+          "parentSourceId": "seem-profile-34-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "原站提供的链接保留；本轮尚未整理可核实正文，不猜改协议。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-34-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-seem-35",
+      "name": "ZHOU, Xiang, Sean / 周翔",
+      "universityId": "cuhk",
+      "department": "系统工程与工程管理学系（SEEM名录范围）",
+      "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/",
+      "reviewedProfileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/",
+      "directoryRole": "Professor by Courtesy",
+      "identityNote": "荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+      "summary": "研究库存、定价、可持续运营以及运营与营销的交叉问题；SEEM列为兼任教授。",
+      "researchKeywords": [
+        "库存管理",
+        "定价",
+        "可持续运营",
+        "供应链管理",
+        "运营与营销"
+      ],
+      "topics": [
+        "经济与管理",
+        "理论与优化",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "seem-profile-35-20261028",
+        "seem-honorary-20261028"
+      ],
+      "directorySourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "keywordSourceIds": [
+        "seem-profile-35-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、当期接收与实时余位仍待核实。",
+        "sourceIds": [
+          "seem-profile-35-20261028"
+        ]
+      }
     }
   ],
   "sources": [
@@ -84184,6 +86140,1375 @@ window.APP_CATALOG = {
       "knownIssues": [
         "摘要是已保存的网页读取工具返回文本，不是原始HTTP正文。"
       ]
+    },
+    {
+      "id": "seem-academic-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+      "title": "港中文SEEM · 学术人员",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "80708dcfbc2be4089b67dec58c65279f2d866d689f084dc3ad65374bd35d70c8",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-cheng-hong/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/"
+      ]
+    },
+    {
+      "id": "seem-professional-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/professional-staff/",
+      "title": "港中文SEEM · 专业人员",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5694dac6a42bf002dc86b5bd72746fee779784b0bc63089180dfc4b93818685a",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://www.se.cuhk.edu.hk/people/professional-staff/prof-chan-chun-kwong/"
+      ]
+    },
+    {
+      "id": "seem-honorary-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+      "title": "港中文SEEM · 荣誉任职",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "62cb0b82f6a675e91dad6978bc4ce271340dd9c89ebc227c9beef7c6f97159bd",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/",
+        "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/",
+        "http://www.cse.cuhk.edu.hk/~jlee/",
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/",
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/",
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/",
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/",
+        "http://www.ie.cuhk.edu.hk/people/wing.shtml",
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/",
+        "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/",
+        "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/"
+      ]
+    },
+    {
+      "id": "seem-profile-00-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/",
+      "title": "Prof. AHN, Dohyun 安 濤 賢 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3303c7ea2f78b7692ebfbf31c03b1245ecd057f43d1bb0d2272181adb4d41bf9",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://sites.google.com/view/dohyun"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/"
+    },
+    {
+      "id": "seem-personal-00-0-20261028",
+      "url": "https://sites.google.com/view/dohyun",
+      "title": "Prof. AHN, Dohyun 安 濤 賢 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5c0575ffa40eb8bc679b05f025b33390ac59653e4e1099cdcf7c73756e8825f2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-00-20261028",
+      "originalUrl": "https://sites.google.com/view/dohyun",
+      "retrievedUrl": "https://sites.google.com/view/dohyun"
+    },
+    {
+      "id": "seem-profile-01-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/",
+      "title": "Prof. CHEN, Nan 陳 南 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "442ab7cebe45f84d4e054968a2ed17799a0aefcaf2ca54018ce239bef9d28bc0",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~nchenweb/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/"
+    },
+    {
+      "id": "seem-personal-01-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~nchenweb/",
+      "title": "Prof. CHEN, Nan 陳 南 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2128a5e7be2bcec15a8236851d126fe72897d190f7e0587294f7f7d2b07256b5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-01-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~nchenweb/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~nchenweb/"
+    },
+    {
+      "id": "seem-profile-02-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-cheng-hong/",
+      "title": "Prof. CHENG, Hong 程 鴻 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7e0a99496f3c83ce0c85afde3a95b71037d845e4b007bdca13679e22ab459e91",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~hcheng/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-cheng-hong/"
+    },
+    {
+      "id": "seem-personal-02-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~hcheng/",
+      "title": "Prof. CHENG, Hong 程 鴻 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2128a5e7be2bcec15a8236851d126fe72897d190f7e0587294f7f7d2b07256b5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-02-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~hcheng/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~hcheng/"
+    },
+    {
+      "id": "seem-profile-03-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/",
+      "title": "Prof. GAO, Xuefeng 高 雪 峰 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3ebbe4ed2299cfcf2608ee65b5fd4ae0953079be4c28d1f84cdc339335719872",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~xfgao/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/"
+    },
+    {
+      "id": "seem-personal-03-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~xfgao/",
+      "title": "Prof. GAO, Xuefeng 高 雪 峰 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2128a5e7be2bcec15a8236851d126fe72897d190f7e0587294f7f7d2b07256b5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-03-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~xfgao/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~xfgao/"
+    },
+    {
+      "id": "seem-profile-04-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/",
+      "title": "Prof. HE, Xuedong 何 雪 冬 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "72f426d3fee1d6e91257b206e7215306e384a3d466fba8e650200d080dbc72ac",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://sites.google.com/site/xuedonghepage/home"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/"
+    },
+    {
+      "id": "seem-personal-04-0-20261028",
+      "url": "https://sites.google.com/site/xuedonghepage/home",
+      "title": "Prof. HE, Xuedong 何 雪 冬 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5c0575ffa40eb8bc679b05f025b33390ac59653e4e1099cdcf7c73756e8825f2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-04-20261028",
+      "originalUrl": "https://sites.google.com/site/xuedonghepage/home",
+      "retrievedUrl": "https://sites.google.com/site/xuedonghepage/home"
+    },
+    {
+      "id": "seem-profile-05-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/",
+      "title": "Dr. HO, Sin Cheung 何 倩 璋 博 士 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "134d64e95737584af30d71094b810aa42dc860a48a0bb38567f7a3b751f15233",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://sites.google.com/view/drsinho/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/"
+    },
+    {
+      "id": "seem-personal-05-0-20261028",
+      "url": "https://sites.google.com/view/drsinho/",
+      "title": "Dr. HO, Sin Cheung 何 倩 璋 博 士 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5c0575ffa40eb8bc679b05f025b33390ac59653e4e1099cdcf7c73756e8825f2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-05-20261028",
+      "originalUrl": "https://sites.google.com/view/drsinho/",
+      "retrievedUrl": "https://sites.google.com/view/drsinho/"
+    },
+    {
+      "id": "seem-profile-06-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+      "title": "Prof. JIA, Yanwei 賈 顏 瑋 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "debadfec38cd33dc7a5cc09437dd193f1116533ce7aeb50cee4d732ed92f46d7",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://sites.google.com/view/yanwei-jia"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/"
+    },
+    {
+      "id": "seem-personal-06-0-20261028",
+      "url": "https://sites.google.com/view/yanwei-jia",
+      "title": "Prof. JIA, Yanwei 賈 顏 瑋 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5c0575ffa40eb8bc679b05f025b33390ac59653e4e1099cdcf7c73756e8825f2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-06-20261028",
+      "originalUrl": "https://sites.google.com/view/yanwei-jia",
+      "retrievedUrl": "https://sites.google.com/view/yanwei-jia"
+    },
+    {
+      "id": "seem-profile-07-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/",
+      "title": "Prof. LAM, Wai 林 偉 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2bae113f830d37dcc41e250deb6c6bea4e01cb57be0eb59b343cb61cc3fb48b1",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~textmine/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/"
+    },
+    {
+      "id": "seem-personal-07-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~textmine/",
+      "title": "Prof. LAM, Wai 林 偉 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2128a5e7be2bcec15a8236851d126fe72897d190f7e0587294f7f7d2b07256b5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-07-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~textmine/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~textmine/"
+    },
+    {
+      "id": "seem-profile-08-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/",
+      "title": "Prof. LIANG, Bin 梁 斌 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "05556ae147e251fbad9bfe035877d9de73ae84197efbfa77622272c56baa2844",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/"
+    },
+    {
+      "id": "seem-profile-09-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/",
+      "title": "Prof. LI, Lingfei 李 凌 飛 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3248289fcf8e478d9bd0929dd5f21c0b8cb27885804ce84b0540fe13568fb492",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://sites.google.com/view/lingfeili/home"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/"
+    },
+    {
+      "id": "seem-personal-09-0-20261028",
+      "url": "https://sites.google.com/view/lingfeili/home",
+      "title": "Prof. LI, Lingfei 李 凌 飛 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5c0575ffa40eb8bc679b05f025b33390ac59653e4e1099cdcf7c73756e8825f2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-09-20261028",
+      "originalUrl": "https://sites.google.com/view/lingfeili/home",
+      "retrievedUrl": "https://sites.google.com/view/lingfeili/home"
+    },
+    {
+      "id": "seem-profile-10-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/",
+      "title": "Prof. LIU, Weiliang 劉 偉 亮 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "44b494f52d0af90eee9c2a6ea1b710515c7bbb8f9e629d044e1b2a4f407affa3",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://weiliangliu0.github.io/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/"
+    },
+    {
+      "id": "seem-personal-10-0-20261028",
+      "url": "https://weiliangliu0.github.io/",
+      "title": "Prof. LIU, Weiliang 劉 偉 亮 教 授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2128a5e7be2bcec15a8236851d126fe72897d190f7e0587294f7f7d2b07256b5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-10-20261028",
+      "originalUrl": "https://weiliangliu0.github.io/",
+      "retrievedUrl": "https://weiliangliu0.github.io/"
+    },
+    {
+      "id": "seem-profile-11-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/",
+      "title": "Prof. LIU, Xunying 劉 循 英 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3db5ec29f6536b01772fc4562cb6dbd2ecc170ca708cd476e1dfe3d4feecbd76",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~xyliu/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/"
+    },
+    {
+      "id": "seem-personal-11-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~xyliu/",
+      "title": "Prof. LIU, Xunying 劉 循 英 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2128a5e7be2bcec15a8236851d126fe72897d190f7e0587294f7f7d2b07256b5",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-11-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~xyliu/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~xyliu/"
+    },
+    {
+      "id": "seem-profile-12-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/",
+      "title": "Prof. LONG, Zhuoyu, Daniel 龍 卓 瑜 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7e61539b6b5ec46edd2001ec915a6c0993d4b350fdf89a04dbe007f10cddd38f",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://www.se.cuhk.edu.hk/~zylong",
+        "https://www1.se.cuhk.edu.hk/~zylong/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/"
+    },
+    {
+      "id": "seem-personal-12-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~zylong/",
+      "title": "Prof. LONG, Zhuoyu, Daniel 龍 卓 瑜 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-12-20261028",
+      "originalUrl": "https://www.se.cuhk.edu.hk/~zylong",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~zylong/"
+    },
+    {
+      "id": "seem-profile-13-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/",
+      "title": "Prof. MENG, Mei Ling, Helen 蒙 美 玲 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f5b04c5bef48ace62de6f43caa141c611186ed08b8c5ff7fd0f33b4749e3df52",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/"
+    },
+    {
+      "id": "seem-profile-14-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/",
+      "title": "Dr. NG, Chi Kong 伍 志 剛 博 士 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "0a11092e5ac4ff557123caf676ea17ad1264b3089a6d768de0624373d492b979",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "discoveredLinks": [
+        "https://www1.se.cuhk.edu.hk/~ckng/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/"
+    },
+    {
+      "id": "seem-profile-15-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+      "title": "Prof. SO, Man Cho, Anthony 蘇 文 藻 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5edff550c4e1dc683c8d71f315afc207e87a0d21ab339eae9a2e02b3b09d47e9",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~manchoso/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/"
+    },
+    {
+      "id": "seem-personal-15-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~manchoso/",
+      "title": "Prof. SO, Man Cho, Anthony 蘇 文 藻 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-15-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~manchoso/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~manchoso/"
+    },
+    {
+      "id": "seem-profile-16-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+      "title": "Prof. NGUYEN, Viet Anh 阮 越 英 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7d4535a9c5cfed2cc93919a62ff152bc2d58fbd56d40ce426d030223a898485e",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www.vietanhnguyen.net/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/"
+    },
+    {
+      "id": "seem-personal-16-0-20261028",
+      "url": "https://www.vietanhnguyen.net/",
+      "title": "Prof. NGUYEN, Viet Anh 阮 越 英 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-16-20261028",
+      "originalUrl": "http://www.vietanhnguyen.net/",
+      "retrievedUrl": "https://www.vietanhnguyen.net/"
+    },
+    {
+      "id": "seem-profile-17-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/",
+      "title": "Prof. WAI, Hoi To 韋 凱 滔 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0268acff9bb959eca46663cc3952adea5391ba745d33d39f5e9feb2b2ac31005",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~htwai/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/"
+    },
+    {
+      "id": "seem-personal-17-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~htwai/",
+      "title": "Prof. WAI, Hoi To 韋 凱 滔 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-17-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~htwai/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~htwai/"
+    },
+    {
+      "id": "seem-profile-18-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/",
+      "title": "Prof. WANG, Liming 汪 黎 明 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6d5930be2f60dffaa43d49efad7370701f282108e2cef747912cdd8457c1073f",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://lwang114.github.io/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/"
+    },
+    {
+      "id": "seem-personal-18-0-20261028",
+      "url": "https://lwang114.github.io/",
+      "title": "Prof. WANG, Liming 汪 黎 明 教 授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "5c0575ffa40eb8bc679b05f025b33390ac59653e4e1099cdcf7c73756e8825f2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-18-20261028",
+      "originalUrl": "https://lwang114.github.io/",
+      "retrievedUrl": "https://lwang114.github.io/"
+    },
+    {
+      "id": "seem-profile-19-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+      "title": "Prof. WANG, Sibo 王 思 博 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "806a1bba207c09b2e40e5ea374e81e7fe44fe6864eb4fdf139ec4557a94cc3a6",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~swang/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/"
+    },
+    {
+      "id": "seem-personal-19-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~swang/",
+      "title": "Prof. WANG, Sibo 王 思 博 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-19-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~swang/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~swang/"
+    },
+    {
+      "id": "seem-profile-20-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/",
+      "title": "Prof. WONG, Kam Fai 黃 錦 輝 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f5460b88bbf4a538a78cb5d0d3faae7a77b64471f7bbec77bff8fb9401886672",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/"
+    },
+    {
+      "id": "seem-profile-21-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/",
+      "title": "Prof. WU, Xixin 吳 錫 欣 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "02fc6b5f7f8e46a76c6582ab670390120d716b7a1e91a4a23c2b243852044c36",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "https://www1.se.cuhk.edu.hk/~wuxx/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/"
+    },
+    {
+      "id": "seem-personal-21-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~wuxx/",
+      "title": "Prof. WU, Xixin 吳 錫 欣 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-21-20261028",
+      "originalUrl": "https://www1.se.cuhk.edu.hk/~wuxx/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~wuxx/"
+    },
+    {
+      "id": "seem-profile-22-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+      "title": "Prof. XU, Huifu 徐 慧 福 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "186f146ad814da4963f3ffcf163aadef385967b78701b85ce37ea698cd6d8b05",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~hfxu"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/"
+    },
+    {
+      "id": "seem-profile-23-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/",
+      "title": "Prof. YANG, Chen 楊 晨 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "86ff279fc097a4f7d4f477e333e8f8ea07c82ebc79d61cdf072ee33d4b04177e",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www1.se.cuhk.edu.hk/~cyang/"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/"
+    },
+    {
+      "id": "seem-personal-23-0-20261028",
+      "url": "https://www1.se.cuhk.edu.hk/~cyang/",
+      "title": "Prof. YANG, Chen 楊 晨 教授 · 提供的个人网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "fc0836680da34bfd5da24f8af595bbc7f62da6b881017c97a8ac16be96a00779",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "seem-profile-23-20261028",
+      "originalUrl": "http://www1.se.cuhk.edu.hk/~cyang/",
+      "retrievedUrl": "https://www1.se.cuhk.edu.hk/~cyang/"
+    },
+    {
+      "id": "seem-profile-24-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/professional-staff/prof-chan-chun-kwong/",
+      "title": "Prof. CHAN, Chun Kwong 陳 俊 光 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8d4afd1afeb031c0a4e5cfba7ef1729f4b4907eab5452fa87b05c9a1c82a7812",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/professional-staff/prof-chan-chun-kwong/"
+    },
+    {
+      "id": "seem-profile-25-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/",
+      "title": "Prof. CAI, Xiaoqiang 蔡 小 強 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "adef4e2aa9eb1efef5ce9efffc5adb853dcaf2a07ea5eec2087078634dc8143a",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/"
+    },
+    {
+      "id": "seem-profile-26-20261028",
+      "url": "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/",
+      "title": "Prof. GONG, Xiting 龔 錫 挺 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "0a11092e5ac4ff557123caf676ea17ad1264b3089a6d768de0624373d492b979",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/"
+    },
+    {
+      "id": "seem-profile-27-20261028",
+      "url": "https://www.cse.cuhk.edu.hk/~jlee/",
+      "title": "Prof. LEE, Ho Man, Jimmy 李 浩 文 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "48ed49a2a1e5a2d834ebb845eee01179d90614b8a1e954dbae3027b4085f5acd",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "discoveredLinks": [],
+      "originalUrl": "http://www.cse.cuhk.edu.hk/~jlee/"
+    },
+    {
+      "id": "seem-profile-28-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/",
+      "title": "Prof. HON, Hsiao Wuen 洪 小 文 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "19cd24da757aec2cf2d39935be8397d0c2a1553a6e092e0c29794a4f3679cc2c",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/"
+    },
+    {
+      "id": "seem-profile-29-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/",
+      "title": "Prof. LEUNG, May Yee, Janny 梁 美 兒 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4455b9c16f9448f4cce138aa64a500c0adda8364a94ead9fc4f84e01fba64019",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/"
+    },
+    {
+      "id": "seem-profile-30-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/",
+      "title": "Prof. LUM, Yu Sun, Vincent 林 耀 燊 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9348e8ca4f02b3d3ec3c7dbcc8ab0fd2027c17eb27d17d09f7385092ddceb5f5",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/"
+    },
+    {
+      "id": "seem-profile-31-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/",
+      "title": "Prof. LUO, Zhi Quan, Tom 羅 智 泉 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "566c46ed133bb4d2bed394fdaef0739a27fa6ff2517940d92df8e9846ba6b048",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/"
+    },
+    {
+      "id": "seem-profile-32-20261028",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/Wong-Wing-Shing/",
+      "title": "Prof. WONG, Wing Shing 黃 永 成 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "48ed49a2a1e5a2d834ebb845eee01179d90614b8a1e954dbae3027b4085f5acd",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "discoveredLinks": [],
+      "originalUrl": "http://www.ie.cuhk.edu.hk/people/wing.shtml"
+    },
+    {
+      "id": "seem-profile-33-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/",
+      "title": "Prof. YAN Houmin 嚴 厚 民 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6db9e2f7e51b8185efae2218196a9c86ce979035e39e6f4bfe4de30672ac569b",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/"
+    },
+    {
+      "id": "seem-profile-34-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/",
+      "title": "Prof. YU, Xu, Jeffrey 于 旭 教授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "45a8047ebd7388100cd3c81772f60decf7ee30a14afe6404942a472bc365e1a0",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [
+        "http://www-std.se.cuhk.edu.hk/~dbgroup/next/index.php"
+      ],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/"
+    },
+    {
+      "id": "seem-profile-35-20261028",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/",
+      "title": "Prof. ZHOU, Xiang, Sean 周 翔 教 授 · 官方档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cb7ac34147ae72832663aaa37a45c05c3af5219658e10822199aa951f82b4158",
+      "savedTextScope": "Raw response digest recorded at read time; saved decoded HTML can have newline differences.",
+      "discoveredLinks": [],
+      "originalUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/"
+    },
+    {
+      "id": "seem-rpg-2027",
+      "url": "https://www.se.cuhk.edu.hk/programmes/postgraduate-programmes/research-postgraduate-programmes/",
+      "title": "SEEM · 2027/28申请日期",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "64e771db259bc7966443e0740b5de041f8cfeab6bfa1bd85cf5c20b3f95c65c2",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-central-2027",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-systems-engineering-and-engineering-management",
+      "title": "研究生院 · SEEM项目",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "0051f9b59baafbbcb69806529b92ead26b16cf7c187664f459951b6575112f32",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-dept-qualifications",
+      "url": "https://www.se.cuhk.edu.hk/programmes/postgraduate-programmes/research-postgraduate-programmes/qualifications-for-admission/",
+      "title": "SEEM · 申请要求",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "20b75b9b0d59564e353591d0b3caf735c3ec10025944ec7581b36cd07c2f1bed",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-central-requirements",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+      "title": "研究生院 · 通用资格与英语",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "0051f9b59baafbbcb69806529b92ead26b16cf7c187664f459951b6575112f32",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-central-documents",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/documents-required",
+      "title": "研究生院 · 材料及提交阶段",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "01f1668138926b44c6b39873cdfba234b325d3c0c9bbbaa40c696ed82e57ac88",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-central-fees",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/fees",
+      "title": "研究生院 · 费用",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "9bb1a590bb7b403fe92e2640a026c2e592e5ac4c758b28da069a74f9ab896b65",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-central-studentships",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/studentships",
+      "title": "研究生院 · 助学金",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "01f1668138926b44c6b39873cdfba234b325d3c0c9bbbaa40c696ed82e57ac88",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "seem-dept-aid",
+      "url": "https://www.se.cuhk.edu.hk/programmes/postgraduate-programmes/research-postgraduate-programmes/m-phil-ph-d-programme-finanical-aid/",
+      "title": "SEEM · 旧年度资助参考",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "对应页面的身份、研究或申请范围，不认证指导资格和实时余位。",
+      "claims": [
+        "按本页明确自述整理，并保留年度、范围和未知。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日；旧年份与页面差异单独保留。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "326ba7132121fb32c3e0ba1170e9e0e17717ee104e49fb0879e0a0716404ad3b",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
     }
   ],
   "funding": [
@@ -90835,6 +94160,360 @@ window.APP_CATALOG = {
       "coverageComplete": false,
       "profileLinksObserved": [],
       "coverageNotes": "返回29张荣誉、访问或兼职卡片，本次未给出可点击个人主页；P.C.Chen另有明文HTTP网址尚未核。未把这些人加入已核研究卡片或认定指导资格。"
+    },
+    {
+      "id": "census-cuhk-seem-0",
+      "universityId": "cuhk",
+      "unit": "系统工程与工程管理 · 学术人员",
+      "url": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+      "sourceIds": [
+        "seem-academic-20261028"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "分类按People导航；Academic页正文还混列部分专业及荣誉人员，不按重复卡片加人。页面旧更新日保留，当前指导资格和余位未知。荣誉菜单多于正文表的Wong Wing Shing另保留差异。",
+      "census": {
+        "observedTotal": 24,
+        "profilesRead": 24,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Prof. AHN, Dohyun 安 濤 賢 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. CHEN, Nan 陳 南 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/",
+            "directoryPosition": "Professor and Department Vice-Chairman (Graduate)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. CHENG, Hong 程 鴻 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-cheng-hong/",
+            "directoryPosition": "原研究资料编号接续或研究待核",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。原CSE目录为by courtesy，本次SEEM主页列系主任；同一个Hong Cheng，保留原编号，不重复加人。"
+          },
+          {
+            "name": "Prof. GAO, Xuefeng 高 雪 峰 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. HE, Xuedong 何 雪 冬 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Dr. HO, Sin Cheung 何 倩 璋 博 士",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/",
+            "directoryPosition": "Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. JIA, Yanwei 賈 顏 瑋 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LAM, Wai 林 偉 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LIANG, Bin 梁 斌 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LI, Lingfei 李 凌 飛 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/",
+            "directoryPosition": "Professor and Department Vice-Chairman (Undergraduate)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LIU, Weiliang 劉 偉 亮 教 授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LIU, Xunying 劉 循 英 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LONG, Zhuoyu, Daniel 龍 卓 瑜 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. MENG, Mei Ling, Helen 蒙 美 玲 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/",
+            "directoryPosition": "Patrick Huen Wing Ming Professor of Systems Engineering & Engineering Management",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Dr. NG, Chi Kong 伍 志 剛 博 士",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/",
+            "directoryPosition": "Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. SO, Man Cho, Anthony 蘇 文 藻 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. NGUYEN, Viet Anh 阮 越 英 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. WAI, Hoi To 韋 凱 滔 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. WANG, Liming 汪 黎 明 教 授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. WANG, Sibo 王 思 博 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. WONG, Kam Fai 黃 錦 輝 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. WU, Xixin 吳 錫 欣 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. XU, Huifu 徐 慧 福 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. YANG, Chen 楊 晨 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          }
+        ],
+        "pendingReasonCounts": {
+          "original_http_pending": 0
+        },
+        "unlinkedEntries": []
+      }
+    },
+    {
+      "id": "census-cuhk-seem-1",
+      "universityId": "cuhk",
+      "unit": "系统工程与工程管理 · 专业人员",
+      "url": "https://www.se.cuhk.edu.hk/people/professional-staff/",
+      "sourceIds": [
+        "seem-professional-20261028"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "分类按People导航；Academic页正文还混列部分专业及荣誉人员，不按重复卡片加人。页面旧更新日保留，当前指导资格和余位未知。荣誉菜单多于正文表的Wong Wing Shing另保留差异。",
+      "census": {
+        "observedTotal": 1,
+        "profilesRead": 1,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Prof. CHAN, Chun Kwong 陳 俊 光 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/professional-staff/prof-chan-chun-kwong/",
+            "directoryPosition": "原研究资料编号接续或研究待核",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。仅核到金融科技实务教授身份与职业经历，没有明确研究兴趣；不从论文题名或银行经历造研究方向，暂不加研究卡片。"
+          }
+        ],
+        "pendingReasonCounts": {
+          "original_http_pending": 0
+        },
+        "unlinkedEntries": []
+      }
+    },
+    {
+      "id": "census-cuhk-seem-2",
+      "universityId": "cuhk",
+      "unit": "系统工程与工程管理 · 荣誉任职",
+      "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+      "sourceIds": [
+        "seem-honorary-20261028"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "分类按People导航；Academic页正文还混列部分专业及荣誉人员，不按重复卡片加人。页面旧更新日保留，当前指导资格和余位未知。荣誉菜单多于正文表的Wong Wing Shing另保留差异。",
+      "census": {
+        "observedTotal": 11,
+        "profilesRead": 9,
+        "profilesFailed": 2,
+        "entries": [
+          {
+            "name": "Prof. CAI, Xiaoqiang 蔡 小 強 教 授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/",
+            "directoryPosition": "Emeritus Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. GONG, Xiting 龔 錫 挺 教 授",
+            "profileUrl": "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/",
+            "directoryPosition": "Professor by Courtesy in SEEM; Professor in Business School",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。"
+          },
+          {
+            "name": "Prof. LEE, Ho Man, Jimmy 李 浩 文 教 授",
+            "profileUrl": "http://www.cse.cuhk.edu.hk/~jlee/",
+            "directoryPosition": "原研究资料编号接续或研究待核",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "原HTTP入口仍待核；本轮另读到正常返回的HTTPS档案，不能混写为原URL正文通过。个人页明确CSE教授及SEEM by courtesy；保留原Jimmy Ho Man Lee编号。"
+          },
+          {
+            "name": "Prof. HON, Hsiao Wuen 洪 小 文 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. LEUNG, May Yee, Janny 梁 美 兒 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. LUM, Yu Sun, Vincent 林 耀 燊 教 授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/",
+            "directoryPosition": "Emeritus Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. LUO, Zhi Quan, Tom 羅 智 泉 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。SEEM旧简介仍提明尼苏达任职，不能当当前完整任职；本次只整理该页明确研究与兼职标签，港中深是独立办学实体。 荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. WONG, Wing Shing 黃 永 成 教 授",
+            "profileUrl": "http://www.ie.cuhk.edu.hk/people/wing.shtml",
+            "directoryPosition": "Emeritus Professor in Information Engineering",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "原HTTP入口仍待核；本轮另读到正常返回的HTTPS档案，不能混写为原URL正文通过。People荣誉菜单保留此人，Honorary正文表未列；IE档案当前标题是荣休，旧Biography仍写研究生院院长，不据旧经历推当前职务。"
+          },
+          {
+            "name": "Prof. YAN Houmin 嚴 厚 民 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. YU, Xu, Jeffrey 于 旭 教授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/",
+            "directoryPosition": "Emeritus Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          },
+          {
+            "name": "Prof. ZHOU, Xiang, Sean 周 翔 教 授",
+            "profileUrl": "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/",
+            "directoryPosition": "Professor by Courtesy",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。"
+          }
+        ],
+        "pendingReasonCounts": {
+          "original_http_pending": 2
+        },
+        "unlinkedEntries": []
+      }
     }
   ],
   "academicCoverage": [
@@ -95784,6 +99463,654 @@ window.APP_CATALOG = {
                   "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
                   "bodySha256": "acf913e67319367352662795c9afe9e4bd8c35ecd262a0b2732bbfd2baf0e55e",
                   "facultyId": "cuhk-cse-census-076"
+                }
+              ]
+            },
+            {
+              "label": "SEEM · 学术人员",
+              "url": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "seem-academic-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. AHN, Dohyun 安 濤 賢 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-ahn-dohyun/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-00",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "3303c7ea2f78b7692ebfbf31c03b1245ecd057f43d1bb0d2272181adb4d41bf9",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHEN, Nan 陳 南 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-chen-nan/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-01",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "442ab7cebe45f84d4e054968a2ed17799a0aefcaf2ca54018ce239bef9d28bc0",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHENG, Hong 程 鴻 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-cheng-hong/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-cse-census-004",
+                  "reviewNote": "已读官方正文。原CSE目录为by courtesy，本次SEEM主页列系主任；同一个Hong Cheng，保留原编号，不重复加人。",
+                  "bodySha256": "7e0a99496f3c83ce0c85afde3a95b71037d845e4b007bdca13679e22ab459e91",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. GAO, Xuefeng 高 雪 峰 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-gao-xuefeng/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-03",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "3ebbe4ed2299cfcf2608ee65b5fd4ae0953079be4c28d1f84cdc339335719872",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. HE, Xuedong 何 雪 冬 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-he-xuedong/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-04",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "72f426d3fee1d6e91257b206e7215306e384a3d466fba8e650200d080dbc72ac",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr. HO, Sin Cheung 何 倩 璋 博 士",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ho-sin-cheung/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-05",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "134d64e95737584af30d71094b810aa42dc860a48a0bb38567f7a3b751f15233",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. JIA, Yanwei 賈 顏 瑋 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-jia-yanwei/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-06",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "debadfec38cd33dc7a5cc09437dd193f1116533ce7aeb50cee4d732ed92f46d7",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LAM, Wai 林 偉 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-lam-wai/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-07",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "2bae113f830d37dcc41e250deb6c6bea4e01cb57be0eb59b343cb61cc3fb48b1",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LIANG, Bin 梁 斌 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liang-bin/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-08",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "05556ae147e251fbad9bfe035877d9de73ae84197efbfa77622272c56baa2844",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LI, Lingfei 李 凌 飛 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-li-lingfei/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-09",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "3248289fcf8e478d9bd0929dd5f21c0b8cb27885804ce84b0540fe13568fb492",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LIU, Weiliang 劉 偉 亮 教 授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-weiliang/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-10",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "44b494f52d0af90eee9c2a6ea1b710515c7bbb8f9e629d044e1b2a4f407affa3",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LIU, Xunying 劉 循 英 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-liu-xunying/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-11",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "3db5ec29f6536b01772fc4562cb6dbd2ecc170ca708cd476e1dfe3d4feecbd76",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LONG, Zhuoyu, Daniel 龍 卓 瑜 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-long-zhuoyu-daniel/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-12",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "7e61539b6b5ec46edd2001ec915a6c0993d4b350fdf89a04dbe007f10cddd38f",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. MENG, Mei Ling, Helen 蒙 美 玲 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-meng-mei-ling-helen/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-13",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "f5b04c5bef48ace62de6f43caa141c611186ed08b8c5ff7fd0f33b4749e3df52",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr. NG, Chi Kong 伍 志 剛 博 士",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/dr-ng-chi-kong/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-14",
+                  "reviewNote": "已读官方正文。",
+                  "readReceiptSha256": "0a11092e5ac4ff557123caf676ea17ad1264b3089a6d768de0624373d492b979",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response"
+                },
+                {
+                  "name": "Prof. SO, Man Cho, Anthony 蘇 文 藻 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-so-man-cho-anthony/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-15",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "5edff550c4e1dc683c8d71f315afc207e87a0d21ab339eae9a2e02b3b09d47e9",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. NGUYEN, Viet Anh 阮 越 英 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-viet-anh-nguyen/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-16",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "7d4535a9c5cfed2cc93919a62ff152bc2d58fbd56d40ce426d030223a898485e",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WAI, Hoi To 韋 凱 滔 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wai-hoi-to/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-17",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "0268acff9bb959eca46663cc3952adea5391ba745d33d39f5e9feb2b2ac31005",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WANG, Liming 汪 黎 明 教 授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-liming/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-18",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "6d5930be2f60dffaa43d49efad7370701f282108e2cef747912cdd8457c1073f",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WANG, Sibo 王 思 博 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wang-sibo/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-19",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "806a1bba207c09b2e40e5ea374e81e7fe44fe6864eb4fdf139ec4557a94cc3a6",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WONG, Kam Fai 黃 錦 輝 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wong-kam-fai/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-20",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "f5460b88bbf4a538a78cb5d0d3faae7a77b64471f7bbec77bff8fb9401886672",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WU, Xixin 吳 錫 欣 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-wu-xixin/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-21",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "02fc6b5f7f8e46a76c6582ab670390120d716b7a1e91a4a23c2b243852044c36",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. XU, Huifu 徐 慧 福 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-xu-huifu/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-22",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "186f146ad814da4963f3ffcf163aadef385967b78701b85ce37ea698cd6d8b05",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. YANG, Chen 楊 晨 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yang-chen/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/academic-staff/",
+                  "directoryLabel": "SEEM Academic",
+                  "directorySourceIds": [
+                    "seem-academic-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-23",
+                  "reviewNote": "已读官方正文。",
+                  "bodySha256": "86ff279fc097a4f7d4f477e333e8f8ea07c82ebc79d61cdf072ee33d4b04177e",
+                  "readMethod": "anonymous_HTTP"
+                }
+              ]
+            },
+            {
+              "label": "SEEM · 专业人员",
+              "url": "https://www.se.cuhk.edu.hk/people/professional-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "seem-professional-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. CHAN, Chun Kwong 陳 俊 光 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/professional-staff/prof-chan-chun-kwong/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/professional-staff/",
+                  "directoryLabel": "SEEM Professional",
+                  "directorySourceIds": [
+                    "seem-professional-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_statement_not_found",
+                  "facultyId": null,
+                  "reviewNote": "已读官方正文。仅核到金融科技实务教授身份与职业经历，没有明确研究兴趣；不从论文题名或银行经历造研究方向，暂不加研究卡片。",
+                  "bodySha256": "8d4afd1afeb031c0a4e5cfba7ef1729f4b4907eab5452fa87b05c9a1c82a7812",
+                  "readMethod": "anonymous_HTTP"
+                }
+              ]
+            },
+            {
+              "label": "SEEM · 荣誉任职",
+              "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "seem-honorary-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. CAI, Xiaoqiang 蔡 小 強 教 授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-cai-xiaoqiang/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-25",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "adef4e2aa9eb1efef5ce9efffc5adb853dcaf2a07ea5eec2087078634dc8143a",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. GONG, Xiting 龔 錫 挺 教 授",
+                  "url": "https://www.bschool.cuhk.edu.hk/staff/gong-xiting/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-26",
+                  "reviewNote": "已读官方正文。",
+                  "readReceiptSha256": "0a11092e5ac4ff557123caf676ea17ad1264b3089a6d768de0624373d492b979",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response"
+                },
+                {
+                  "name": "Prof. LEE, Ho Man, Jimmy 李 浩 文 教 授",
+                  "url": "http://www.cse.cuhk.edu.hk/~jlee/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-cse-census-027",
+                  "reviewNote": "原HTTP入口仍待核；本轮另读到正常返回的HTTPS档案，不能混写为原URL正文通过。个人页明确CSE教授及SEEM by courtesy；保留原Jimmy Ho Man Lee编号。"
+                },
+                {
+                  "name": "Prof. HON, Hsiao Wuen 洪 小 文 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-hon-hsiao-wuen/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-28",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "19cd24da757aec2cf2d39935be8397d0c2a1553a6e092e0c29794a4f3679cc2c",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LEUNG, May Yee, Janny 梁 美 兒 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-leung-may-yee-janny/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-29",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "4455b9c16f9448f4cce138aa64a500c0adda8364a94ead9fc4f84e01fba64019",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LUM, Yu Sun, Vincent 林 耀 燊 教 授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-lum-yu-sun-vincent/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-30",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "9348e8ca4f02b3d3ec3c7dbcc8ab0fd2027c17eb27d17d09f7385092ddceb5f5",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LUO, Zhi Quan, Tom 羅 智 泉 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-luo-zhi-quan-tom/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-31",
+                  "reviewNote": "已读官方正文。SEEM旧简介仍提明尼苏达任职，不能当当前完整任职；本次只整理该页明确研究与兼职标签，港中深是独立办学实体。 荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "566c46ed133bb4d2bed394fdaef0739a27fa6ff2517940d92df8e9846ba6b048",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WONG, Wing Shing 黃 永 成 教 授",
+                  "url": "http://www.ie.cuhk.edu.hk/people/wing.shtml",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-32",
+                  "reviewNote": "原HTTP入口仍待核；本轮另读到正常返回的HTTPS档案，不能混写为原URL正文通过。People荣誉菜单保留此人，Honorary正文表未列；IE档案当前标题是荣休，旧Biography仍写研究生院院长，不据旧经历推当前职务。"
+                },
+                {
+                  "name": "Prof. YAN Houmin 嚴 厚 民 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/prof-yan-houmin/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-33",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "6db9e2f7e51b8185efae2218196a9c86ce979035e39e6f4bfe4de30672ac569b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. YU, Xu, Jeffrey 于 旭 教授",
+                  "url": "https://www.se.cuhk.edu.hk/people/academic-staff/prof-yu-xu-jeffrey/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-34",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "45a8047ebd7388100cd3c81772f60decf7ee30a14afe6404942a472bc365e1a0",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. ZHOU, Xiang, Sean 周 翔 教 授",
+                  "url": "https://www.se.cuhk.edu.hk/people/honorary-appointments/zhou-xiang-sean/",
+                  "observedOn": "https://www.se.cuhk.edu.hk/people/honorary-appointments/",
+                  "directoryLabel": "SEEM Honorary",
+                  "directorySourceIds": [
+                    "seem-honorary-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "cuhk-seem-35",
+                  "reviewNote": "已读官方正文。荣休、兼职或兼任身份不自动证明可指导MPhil/PhD；所选项目的指导资格仍未知。",
+                  "bodySha256": "cb7ac34147ae72832663aaa37a45c05c3af5219658e10822199aa951f82b4158",
+                  "readMethod": "anonymous_HTTP"
                 }
               ]
             }
@@ -112776,5 +117103,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:efed3de25c92f9a0eb2074222c9ec081348710ff6a6bcb9e8993e5e862315029"
+  "snapshotId": "sha256:8a208df3c6212dd35904f5d31ebd65e6b16bf35cabe91c8838e59e1ce96592f3"
 };

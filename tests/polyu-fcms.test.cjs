@@ -9,7 +9,7 @@ test('all168 observed profile entries remain visible, without turning four missi
   assert.equal(leads.length,168);assert.equal(leads.filter(p=>p.profileBodyStatus==='body_read').length,168);
   assert.equal(leads.filter(p=>p.facultyId).length,164);assert.equal(leads.filter(p=>!p.facultyId).length,4);
   assert.equal(P.faculty.length,151);assert.equal(P.facultyUpdates.length,10);
-  assert.equal(C.faculty.length,980);assert.equal(C.faculty.filter(f=>f.universityId==='polyu').length,234);
+  assert.equal(C.faculty.length,1013);assert.equal(C.faculty.filter(f=>f.universityId==='polyu').length,234);
   for(const p of leads){assert.equal(p.supervisionEligibility,'unknown');assert.equal(p.availability,'unknown');assert.match(p.bodySha256,/^[a-f0-9]{64}$/);}
   assert.deepEqual(leads.filter(p=>!p.facultyId).map(p=>p.name),['Zachary Leung Ngai-hang','Leung Ping-kei','FUNG Sui Leung Walter','LUI Wing Cheung Richard']);
 });

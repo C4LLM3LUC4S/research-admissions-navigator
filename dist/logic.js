@@ -99,17 +99,25 @@
     const official=officialUrl(source.url);if(official)return official;
     if(source.evidenceLevel!=='teacher_page_linked_from_official_profile')return null;
     const parent=catalog.sources.find(s=>s.id===source.parentSourceId);
-    return parent&&officialUrl(parent.url)&&(parent.discoveredLinks||[]).includes(source.url)?publicHttps(source.url):null;
+    if(!parent||!officialUrl(parent.url))return null;
+    if((parent.discoveredLinks||[]).includes(source.url))return publicHttps(source.url);
+    return source.originalUrl&&source.retrievedUrl===source.url&&(parent.discoveredLinks||[]).includes(source.originalUrl)?publicHttps(source.url):null;
   }
   function facultyLinks(catalog,faculty) {
     return (faculty.extraLinks||[]).flatMap(item=>{
       const parent=catalog.sources.find(s=>s.id===item.parentSourceId);
-      const url=publicHttps(item.url);
+      let url=publicHttps(item.url);
       const fromProfile=parent&&[faculty.profileUrl,faculty.reviewedProfileUrl].filter(Boolean).includes(parent.url);
       const fromDirectory=parent&&(faculty.directorySourceIds||[]).includes(parent.id)&&
         (parent.teacherLinksByProfile?.[faculty.profileUrl]||[]).includes(item.url);
-      if(!url||!parent||!officialUrl(parent.url)||(!fromProfile&&!fromDirectory)||
+      if(!parent||!officialUrl(parent.url)||(!fromProfile&&!fromDirectory)||
         !faculty.sourceIds.includes(parent.id)||!(parent.discoveredLinks||[]).includes(item.url))return [];
+      if(!url&&item.bodyStatus==='body_read'&&item.sourceId&&faculty.sourceIds.includes(item.sourceId)){
+        const read=catalog.sources.find(s=>s.id===item.sourceId);
+        if(read&&read.evidenceLevel==='teacher_page_linked_from_official_profile'&&read.parentSourceId===parent.id&&
+          read.originalUrl===item.url&&read.retrievedUrl===read.url)url=publicHttps(read.url);
+      }
+      if(!url)return [];
       return [{...item,url}];
     });
   }

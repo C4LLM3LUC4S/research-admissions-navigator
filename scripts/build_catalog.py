@@ -449,6 +449,13 @@ def build_catalog():
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hku-6")
     unit["staffEntries"].extend(dase["staffEntries"])
     catalog["programs"].extend(dase["programmes"])
+    seem = load("cuhk-seem-census-20261028.json")
+    catalog["sources"].extend(seem["sources"])
+    catalog["faculty"].extend(seem["faculty"])
+    catalog["directories"].extend(seem["directories"])
+    unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhk-4")
+    unit["staffEntries"].extend(seem["staffEntries"])
+    catalog["programs"].extend(seem["programmes"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -575,7 +582,12 @@ def validate(catalog):
             if link.get("linkIssue"):
                 assert link["linkIssue"] == "malformed_href" and link["bodyStatus"] == "not_read" and link["readNote"]
             if link["bodyStatus"] == "body_read":
-                assert sources[link["sourceId"]]["url"] == link["url"]
+                target = sources[link["sourceId"]]
+                if target["url"] != link["url"]:
+                    assert target["evidenceLevel"] == "teacher_page_linked_from_official_profile"
+                    assert target["originalUrl"] == link["url"] and target["retrievedUrl"] == target["url"]
+                    assert target["parentSourceId"] == parent["id"] and target["id"] in f["sourceIds"]
+                    assert target["url"].startswith("https://")
         for note in f.get("applicationNotes", []):
             assert note["kind"] in {"official_supervisor_list", "teacher_statement", "page_conflict"}
             assert note["label"] and note["text"]

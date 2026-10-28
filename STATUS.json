@@ -7,27 +7,27 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 31,
-    "degree_routes": 50,
-    "faculty": 980,
-    "official_sources": 1484,
-    "programmes_with_partial_requirements": 29,
-    "requirement_items": 121,
-    "programmes_with_partial_finances": 23,
-    "finance_items": 41,
-    "official_directory_entries": 41,
-    "teacher_linked_sources": 202,
-    "total_sources": 1686,
+    "programme_or_route_cards": 32,
+    "degree_routes": 52,
+    "faculty": 1013,
+    "official_sources": 1531,
+    "programmes_with_partial_requirements": 30,
+    "requirement_items": 127,
+    "programmes_with_partial_finances": 24,
+    "finance_items": 44,
+    "official_directory_entries": 44,
+    "teacher_linked_sources": 221,
+    "total_sources": 1752,
     "academic_unit_rows": 66,
     "listed_child_units": 185,
     "reviewed_new_profiles": 165,
     "reviewed_existing_updates": 5,
-    "profile_bodies_read": 496,
+    "profile_bodies_read": 1045,
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
     "cityu_deferred_profiles": 4,
-    "observed_profile_links": 831,
-    "pending_research_review": 133,
+    "observed_profile_links": 1068,
+    "pending_research_review": 162,
     "sai_directory_pages": 6,
     "sai_profiles": 53,
     "sai_new_profiles": 45,
@@ -90,7 +90,12 @@
     "dase_linked_profiles": 22,
     "dase_new_records": 21,
     "dase_existing_id": 1,
-    "dase_honorary_cards": 29
+    "dase_honorary_cards": 29,
+    "seem_observed_links": 36,
+    "seem_researched": 35,
+    "seem_new": 33,
+    "seem_existing_ids": 2,
+    "seem_missing_research": 1
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -138,10 +143,11 @@
     "港科大CBE当前七类68条主页分身份整理，新增63条研究、4位旧编号接续；未来2027年7月任职、1条缺研究、个人站脚本壳和其他机构职务分开。新增生命科学/生物工程及化学工程分类和常用中文研究词。",
     "补CBME和BIEN的2027/28研究学位、非本地/本地及春秋日期、新旧托福尺度与180港元申请费；补课条件不写成生物本科前置要求，完整系统材料和导师支持要求仍未知。",
     "根据已存相同防护响应摘要纠正20个入口和5项来源的正文读取状态；保留原核查日、原链接与所有教师编号，不把HTTP200当作院系正文。",
-    "未注明招生年度的研究学位入口明确标待核，选择轮次不当官网已证实，待办保留计划与未知区别"
+    "未注明招生年度的研究学位入口明确标待核，选择轮次不当官网已证实，待办保留计划与未知区别",
+    "港中文SEEM三类36原链接和35份研究分开，33新增、2原编号接续；只按已核源归属与真实返回HTTPS接通旧HTTP个人链接。"
   ],
   "verification": {
-    "node_checks": 118,
+    "node_checks": 124,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -155,17 +161,18 @@
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 27
+    "python_checks": 29
   },
   "limitations": [
-    "980份研究资料、41目录仍非七校导师全集；DASE23学术卡片、29荣誉兼职卡片仍有未链接与资格未知。",
-    "975份当前接收未知，其他既有公开招募也不是实时余位。",
+    "1013份研究资料、44目录仍非七校导师全集；SEEM1条缺研究、2个原HTTP入口与其HTTPS档案分开，任职不证明指导资格。",
+    "1008份当前接收未知，其他公开招募也不是实时余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
-    "当前25条项目/申请路线：23条有部分要求、18条有部分费用或资助。CBE的Apply入口本次403，完整上传材料没有核到，不用其他项目或搜索摘要补猜。",
+    "当前32条项目/申请路线，30条有部分要求、24条有部分费用或资助；未列出的材料和费用仍未知。旧访问拒绝保留，不用别系规则填补。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "接续DASE完整当期校级规则与未链接身份，再按七校缺口轮换；SME12条与更多个人站保留待核。"
+  "next": "接续DASE完整当期校级规则与未链接身份，再按七校缺口轮换；SME12条与更多个人站保留待核。",
+  "count_scope_notes": "observed_profile_links、profile_bodies_read及pending_research_review只统计学院图已列原主页线索；不是全校人口，也不含全部未链接卡片。各校具名计数保留各批范围。"
 }
