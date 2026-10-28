@@ -129674,7 +129674,7 @@
       "url": "https://srolovitzgroup.github.io/index.html",
       "title": "Srolovitz, David J · 名录提供档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "仅本页明确的身份、研究或申请范围；旧任职、教师自述和校级规则分别说明。",
       "claims": [
         "已按留存正文核对；研究和职务不自动证明指导资格、当期接收或实时余位。"
@@ -129708,14 +129708,15 @@
         "http://www.maps.hku.hk/",
         "https://hpc.hku.hk/hpc/system/",
         "https://lib.hku.hk/"
-      ]
+      ],
+      "parentSourceId": "hku-mech-directory-aa2797a35d27"
     },
     {
       "id": "hku-mech-profile-32-20261029",
       "url": "https://www.comfortablenergy.net/",
       "title": "Zhi, Chunyi · 名录提供档案",
       "checkedAt": "2026-10-28",
-      "evidenceLevel": "official_profile_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "scope": "仅本页明确的身份、研究或申请范围；旧任职、教师自述和校级规则分别说明。",
       "claims": [
         "已按留存正文核对；研究和职务不自动证明指导资格、当期接收或实时余位。"
@@ -129743,7 +129744,8 @@
         "https://www.cityu.edu.hk/",
         "https://gradsch.hku.hk/prospective_students/programmes/doctor_of_philosophy",
         "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/hong_kong_phd_fellowship_scheme"
-      ]
+      ],
+      "parentSourceId": "hku-mech-directory-aa2797a35d27"
     },
     {
       "id": "hku-mech-profile-36-20261029",
@@ -171188,5 +171190,5 @@
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:0ce152c1f3b92863cbddf495f123816308145d23bc8265a150b56772f28ce97e"
+  "snapshotId": "sha256:8d8d7b88cf894f78a0fa78ce33f183cd1e5a5369e9f214e6b1796c1a4a3217b2"
 }

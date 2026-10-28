@@ -31,6 +31,8 @@ test('mechanical concrete searches find graph control, medical robotics, flow co
 });
 
 test('unexpected redirects, empty bodies and denied profiles never become verified personal research',()=>{
+ for(const s of P.sources)if(s.url.startsWith('https:'))assert.ok(L.sourceUrl(C,s),s.url);
+ for(const i of [30,32]){const source=C.sources.find(s=>s.id===person(i).sourceIds[0]);assert.equal(source.evidenceLevel,'teacher_page_linked_from_official_profile');assert.ok(person(i).directorySourceIds.includes(source.parentSourceId));}
  const li=person(12),link=li.extraLinks.find(l=>l.url==='http://www.yugo.hk/');assert.equal(link.bodyStatus,'not_read');assert.match(link.readNote,/第三方/);assert.ok(!P.sources.some(s=>s.url.includes('znaki.fm')));
  assert.ok(P.pendingProfiles.some(r=>r.index===57&&r.reason.includes('404')));assert.ok(P.pendingProfiles.some(r=>r.index===65&&r.reason.includes('403')));
  assert.ok(P.pendingProfiles.some(r=>r.index===31&&r.reason.includes('Xiaoxiao Wu')));
