@@ -498,3 +498,14 @@ test('chemistry applicant follows the supplied lab, reads the correct round and 
  const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/Hui CAO/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);
  assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+test('research cards keep concise distinct keywords and preserve a description-only search through restore',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkust','MPhil',[]);el('research-query').value='生物催化';await el('profile-form').emit('input',{target:el('research-query')});
+ let card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Hui CAO'));assert.ok(card);
+ const chips=card.children.find(n=>n.className==='research-terms').children.map(n=>n.textContent);assert.ok(chips.length<=6);assert.ok(chips.includes('生物催化'));assert.ok(!chips.some(t=>t.includes('天然酶反应范围之外')));assert.equal(new Set(chips.map(t=>t.toLowerCase())).size,chips.length);
+ const more=card.children.find(n=>n.tagName==='details'&&n.textContent.includes('还有 1 个研究词'));assert.ok(more);assert.match(more.textContent,/Enantioselective reactions/);
+ const summary=C.faculty.find(f=>f.id==='hkust-chemistry-01').summary;assert.match(card.textContent,/与你所填词语对应的官网研究词：生物催化/);assert.match(summary,/天然酶反应范围之外/);
+ el('research-query').value='天然酶反应范围之外';await el('profile-form').emit('input',{target:el('research-query')});card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Hui CAO'));assert.ok(card);assert.match(card.textContent,/研究描述与所填词语有交集/);
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
+ assert.match(restored.byId.get('saved-faculty').textContent,/Hui CAO/);assert.equal(restored.byId.get('research-query').value,'天然酶反应范围之外');assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
