@@ -4262,6 +4262,149 @@ window.APP_CATALOG = {
           "action": "按适用年度与正式通知核对，费用和助学金分开预算。"
         }
       ]
+    },
+    {
+      "id": "hkust-physics-rpg",
+      "universityId": "hkust",
+      "name": "物理 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": null,
+      "cycleVerified": false,
+      "scope": "本轮读到的学系介绍未标明完整招生年度；物理与相关纳米研究学位入口分别保留。与授课型MSc分开，具体轮次和申请窗口请回当前正式系统确认。",
+      "contact": {
+        "status": "unknown",
+        "text": "所读系页未明确要求所有申请者先取得导师承诺；个人网站的邀请不能替代项目正式要求。",
+        "sourceIds": [
+          "physics-admissions-20261028"
+        ]
+      },
+      "selection": {
+        "text": "学系说明会考虑学业记录、可提供的物理标准化考试结果、英语、推荐材料，并可自行决定面试；未写清导师和委员会最终权限，不给整系贴简单制度标签。",
+        "sourceIds": [
+          "physics-admissions-20261028"
+        ]
+      },
+      "deadlines": [],
+      "sourceIds": [
+        "physics-mphil-20261028",
+        "physics-phd-20261028",
+        "physics-admissions-20261028"
+      ],
+      "evidenceNote": "网页核查日不是招生年度。入学后课程、资格考和论文答辩不当成申请前已完成要求。未确认年度、截止时钟、费率、推荐信数量或实时资助。",
+      "requirements": [
+        {
+          "label": "学科背景与相关专业",
+          "text": "系页一般要求良好的物理或相关专业荣誉学位；纳米项目还说明物理或相关背景。本科直博与其他路径须对照所选学位的当期正式要求，产品不代判资格。",
+          "action": "准备学位、成绩与学科背景，先回正式项目逐项核。",
+          "sourceIds": [
+            "physics-admissions-20261028"
+          ]
+        },
+        {
+          "label": "英语证明按学校条件核",
+          "text": "系页对非英语第一语言、且学位授课语言非英语等情况指向学校英语要求；本轮未把具体分数或豁免条件补成统一门槛。",
+          "action": "核对授课语言证明、认可考试与当期学校要求，豁免须由学校确认。",
+          "sourceIds": [
+            "physics-admissions-20261028"
+          ]
+        },
+        {
+          "label": "申请前与入学后任务分开",
+          "text": "课程、研讨会、论文与答辩属于学位培养；PhD资格考的具体时限按入学背景和正式规则核，不能当成递交申请前必须通过的考试。",
+          "action": "申请时准备原材料；入学后的培养安排另列待办，不提前勾成已完成。",
+          "sourceIds": [
+            "physics-mphil-20261028",
+            "physics-phd-20261028"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "physics-physics-studentship",
+          "kind": "studentship",
+          "label": "合资格全日制研究生的有条件资助",
+          "text": "系页说明奖助按学业表现及项目适合度评定，获资助者需承担辅助教学和研究工作；本轮没有核出适用年度的金额或个人已获批结果。",
+          "action": "把资助资格、具体金额、职责与正式录取分别核清，再做个人预算。",
+          "sourceIds": [
+            "physics-admissions-20261028"
+          ],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "hkust-nano-rpg",
+      "universityId": "hkust",
+      "name": "纳米科学与技术 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": null,
+      "cycleVerified": false,
+      "scope": "本轮读到的学系介绍未标明完整招生年度；物理与相关纳米研究学位入口分别保留。与授课型MSc分开，具体轮次和申请窗口请回当前正式系统确认。",
+      "contact": {
+        "status": "unknown",
+        "text": "所读系页未明确要求所有申请者先取得导师承诺；个人网站的邀请不能替代项目正式要求。",
+        "sourceIds": [
+          "physics-admissions-20261028"
+        ]
+      },
+      "selection": {
+        "text": "学系说明会考虑学业记录、可提供的物理标准化考试结果、英语、推荐材料，并可自行决定面试；未写清导师和委员会最终权限，不给整系贴简单制度标签。",
+        "sourceIds": [
+          "physics-admissions-20261028"
+        ]
+      },
+      "deadlines": [],
+      "sourceIds": [
+        "physics-nano-20261028",
+        "physics-admissions-20261028"
+      ],
+      "evidenceNote": "网页核查日不是招生年度。入学后课程、资格考和论文答辩不当成申请前已完成要求。未确认年度、截止时钟、费率、推荐信数量或实时资助。",
+      "requirements": [
+        {
+          "label": "学科背景与相关专业",
+          "text": "系页一般要求良好的物理或相关专业荣誉学位；纳米项目还说明物理或相关背景。本科直博与其他路径须对照所选学位的当期正式要求，产品不代判资格。",
+          "action": "准备学位、成绩与学科背景，先回正式项目逐项核。",
+          "sourceIds": [
+            "physics-admissions-20261028",
+            "physics-nano-20261028"
+          ]
+        },
+        {
+          "label": "英语证明按学校条件核",
+          "text": "系页对非英语第一语言、且学位授课语言非英语等情况指向学校英语要求；本轮未把具体分数或豁免条件补成统一门槛。",
+          "action": "核对授课语言证明、认可考试与当期学校要求，豁免须由学校确认。",
+          "sourceIds": [
+            "physics-admissions-20261028"
+          ]
+        },
+        {
+          "label": "申请前与入学后任务分开",
+          "text": "课程、研讨会、论文与答辩属于学位培养；PhD资格考的具体时限按入学背景和正式规则核，不能当成递交申请前必须通过的考试。",
+          "action": "申请时准备原材料；入学后的培养安排另列待办，不提前勾成已完成。",
+          "sourceIds": [
+            "physics-nano-20261028"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "physics-nano-studentship",
+          "kind": "studentship",
+          "label": "合资格全日制研究生的有条件资助",
+          "text": "系页说明奖助按学业表现及项目适合度评定，获资助者需承担辅助教学和研究工作；本轮没有核出适用年度的金额或个人已获批结果。",
+          "action": "把资助资格、具体金额、职责与正式录取分别核清，再做个人预算。",
+          "sourceIds": [
+            "physics-admissions-20261028"
+          ],
+          "rates": []
+        }
+      ]
     }
   ],
   "faculty": [
@@ -53874,6 +54017,2440 @@ window.APP_CATALOG = {
           "seem-profile-35-20261028"
         ]
       }
+    },
+    {
+      "id": "hkust-physics-00",
+      "name": "Ho Bun CHAN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ho-bun-chan-hochan",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ho-bun-chan-hochan",
+      "directoryRole": "Professor, Department of Physics Director of Materials Characterization and Preparation Facility",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究微米、纳米尺度的机械器件，用于微弱力测量，并关注共振器的非线性与涨落。",
+      "researchKeywords": [
+        "研究微米、纳米尺度的机械器件，用于微弱力测量，并关注共振器的非线性与涨落",
+        "Nanomechanical systems"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-00-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-00-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-00-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://hochanlab.hkust.edu.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-00-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-00-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-00-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-01",
+      "name": "Che Ting CHAN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=che-ting-chan-phchan",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=che-ting-chan-phchan",
+      "directoryRole": "Interim Director of HKUST Jockey Club Institute for Advanced Study Daniel C K Yu Professor of Science Chair Professor, Department of Physics Director of Joint Laboratory for Wave Functional Materials Research",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究理论物理、超材料、材料模拟、光子晶体与计算物理。",
+      "researchKeywords": [
+        "研究理论物理、超材料、材料模拟、光子晶体与计算物理"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-01-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-01-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.phys.ust.hk/ctchan/index.html",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-01-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-01-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-02",
+      "name": "Tian Wen CHEN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tian-wen-chen-twchen",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tian-wen-chen-twchen",
+      "directoryRole": "Associate Professor of Science Education Lecturer I, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究量子力学基础与诠释，以及量子信息理论；学系列为科学教育副教授和讲师。",
+      "researchKeywords": [
+        "量子基础",
+        "量子信息理论"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-02-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-02-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-02-20261028",
+        "physics-personal-02-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/2444",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-02-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-02-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-02-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-03",
+      "name": "Man Fung CHEUNG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=man-fung-cheung-cheungmf",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=man-fung-cheung-cheungmf",
+      "directoryRole": "Assistant Professor of Science Education Lecturer I, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究科学教育与强子物理。",
+      "researchKeywords": [
+        "研究科学教育与强子物理",
+        "Science education Hadronic physics"
+      ],
+      "topics": [
+        "物理与化学",
+        "教育学"
+      ],
+      "sourceIds": [
+        "physics-profile-03-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-03-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-03-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/471",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-03-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-03-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-03-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-04",
+      "name": "Edwin Yun Sang CHOW",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=edwin-yun-sang-chow-edwinchow",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=edwin-yun-sang-chow-edwinchow",
+      "directoryRole": "Research Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究粒子物理，关注B物理、马约拉纳中微子、CP破坏与多希格斯模型。",
+      "researchKeywords": [
+        "研究粒子物理，关注B物理、马约拉纳中微子、CP破坏与多希格斯模型",
+        "Particle physics B-physics Majorana neutrinos Charge parity (CP) violation Multiple-Higgs"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-04-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-04-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://edwinchowresearch.web.app/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-04-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-04-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-05",
+      "name": "Xi DAI",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xi-dai-daix",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xi-dai-daix",
+      "directoryRole": "Dr William M W Mong Professor of Nanoscience Chair Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究强关联材料、计算材料科学、量子磁性与超导体，包括非常规超导。",
+      "researchKeywords": [
+        "研究强关联材料、计算材料科学、量子磁性与超导体，包括非常规超导",
+        "Strongly correlated materials Computational materials science Quantum magnetism Superconductors Unconventional superconductors"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-05-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-05-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-05-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/150",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-05-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-05-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-05-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-06",
+      "name": "Bradley Alan FOREMAN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=bradley-alan-foreman-phbaf",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=bradley-alan-foreman-phbaf",
+      "directoryRole": "Professor of Science Education Senior Lecturer, Department of Physics UG Programs Coordinator (Physics)",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "现介绍主要研究量子力学基础；也列有半导体、凝聚态物理和半导体量子结构方向。",
+      "researchKeywords": [
+        "现介绍主要研究量子力学基础；也列有半导体、凝聚态物理和半导体量子结构方向",
+        "Semiconductor physics Condensed matter physics Quantum mechanics Envelope function theory Semiconductor quantum structures"
+      ],
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "physics-profile-06-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-06-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-06-20261028",
+        "physics-personal-06-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/155",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-06-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-06-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-06-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-07",
+      "name": "Yilong HAN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yilong-han-yilong",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yilong-han-yilong",
+      "directoryRole": "Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究软物质、复杂与无序系统，以及统计物理。",
+      "researchKeywords": [
+        "研究软物质、复杂与无序系统，以及统计物理",
+        "Soft matter physics Complex and disordered systems Statistical physics"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-07-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-07-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-07-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://yilong.people.ust.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-07-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-07-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-07-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-08",
+      "name": "Shilin HUANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shilin-huang-huangsl",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shilin-huang-huangsl",
+      "directoryRole": "Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究量子信息、量子计算与量子纠错。",
+      "researchKeywords": [
+        "量子信息",
+        "量子纠错",
+        "容错量子计算",
+        "量子控制"
+      ],
+      "topics": [
+        "物理与化学",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "physics-profile-08-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-08-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-08-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://huang-shilin.github.io",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-08-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-08-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-08-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人主页另有博士岗位说明栏目",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "physics-personal-08-20261028"
+          ],
+          "text": "个人主页提供Open Positions栏目，可继续核博士岗位的方向和准备建议。栏目未注明入学年度，不能只凭研究匹配判断当期名额。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-physics-09",
+      "name": "Meizhen HUANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=meizhen-huang-meizhenhuang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=meizhen-huang-meizhenhuang",
+      "directoryRole": "Research Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态物理、纳米材料、拓扑相与拓扑材料，以及半导体量子结构。",
+      "researchKeywords": [
+        "研究凝聚态物理、纳米材料、拓扑相与拓扑材料，以及半导体量子结构",
+        "Condensed matter physics Nanomaterials Topological phases and topological materials Semiconductor quantum structures"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-09-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-09-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-09-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-10",
+      "name": "Berthold JÄCK",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=berthold-j196ck-bjaeck",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=berthold-j196ck-bjaeck",
+      "directoryRole": "Assistant Professor, Department of Physics Associate Director of IAS Center for Quantum Matter",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态物理与显微技术，关注拓扑材料、强关联材料和无序材料。",
+      "researchKeywords": [
+        "研究凝聚态物理与显微技术，关注拓扑材料、强关联材料和无序材料",
+        "Condensed matter physics Microscopy Topological phases and topological materials Strongly correlated materials Disordered materials"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-10-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-10-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-10-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.nanoscale.ninja/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-10-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-10-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-10-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-11",
+      "name": "Kaifei KANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kaifei-kang-kfkang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kaifei-kang-kfkang",
+      "directoryRole": "Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态与拓扑材料、半导体量子结构、纳米磁性、自旋电子学和超导体。",
+      "researchKeywords": [
+        "研究凝聚态与拓扑材料、半导体量子结构、纳米磁性、自旋电子学和超导体",
+        "Condensed matter physics Topological phases and topological materials Semiconductor quantum structures Nano-magnetism and spintronics Superconductors"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-11-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-11-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-11-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/3071",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-11-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-11-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-11-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-12",
+      "name": "Kam Tuen LAW",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-tuen-law-phlaw",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-tuen-law-phlaw",
+      "directoryRole": "Director of Research Office Special Advisor to the Provost Chair Professor, Department of Physics Associate Director of Center for Theoretical Condensed Matter Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态物理、电子结构、超导体与量子态。",
+      "researchKeywords": [
+        "研究凝聚态物理、电子结构、超导体与量子态",
+        "Condensed matter physics Electronic structure Superconductors Quantum states"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-12-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-12-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-12-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://phlaw.hkust.edu.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-12-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-12-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-12-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人网站的博士联系说明未标年度",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "physics-personal-12-20261028"
+          ],
+          "text": "个人网站欢迎博士生及博士后探索所列研究问题，未明确入学轮次和实时余位。请先核当前项目条件，再带着研究问题和已有准备了解联系路径；这不是院系录取或资助承诺。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-physics-13",
+      "name": "Shiming LEI",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shiming-lei-phslei",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shiming-lei-phslei",
+      "directoryRole": "Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究拓扑材料与电子结构，并使用磁输运和微加工等方法。",
+      "researchKeywords": [
+        "研究拓扑材料与电子结构，并使用磁输运和微加工等方法",
+        "Topological phases and topological materials Electronic structure Material physics Magnetotransport Microfabrication"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-13-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-13-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-13-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://thequantumlab.org/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-13-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-13-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-13-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-14",
+      "name": "Pak Wo LEUNG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=pak-wo-leung-phleung",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=pak-wo-leung-phleung",
+      "directoryRole": "Dean of Students Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态物理，尤其是用大规模和并行计算研究强关联电子系统。",
+      "researchKeywords": [
+        "凝聚态物理",
+        "强关联电子系统",
+        "并行计算"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-14-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-14-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-14-20261028",
+        "physics-personal-14-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/328",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-14-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-14-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-14-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-15",
+      "name": "Shuohui LI",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shuohui-li-shuohuili",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shuohui-li-shuohuili",
+      "directoryRole": "Research Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究计算物理、机器学习与凝聚态物理的交叉问题。",
+      "researchKeywords": [
+        "研究计算物理、机器学习与凝聚态物理的交叉问题",
+        "Computational physics Machine learning Condensed matter physics"
+      ],
+      "topics": [
+        "物理与化学",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "physics-profile-15-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-15-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-15-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-16",
+      "name": "Nian LIN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=nian-lin-phnlin",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=nian-lin-phnlin",
+      "directoryRole": "Professor, Department of Physics Associate Director of William Mong Institute of Nano Science and Technology",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究超分子自组装、纳米结构与表面物理。",
+      "researchKeywords": [
+        "研究超分子自组装、纳米结构与表面物理",
+        "Supramolecular self-assembly Nanostructures Surface physics"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-16-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-16-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.phys.ust.hk/phnlin/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-16-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-16-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-17",
+      "name": "Tao LIU",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tao-liu-taoliu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=tao-liu-taoliu",
+      "directoryRole": "Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究粒子物理与宇宙学。",
+      "researchKeywords": [
+        "研究粒子物理与宇宙学",
+        "Particle physics Cosmology"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-17-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-17-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-17-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/348",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-17-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-17-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-17-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-18",
+      "name": "Junwei LIU",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=junwei-liu-liuj",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=junwei-liu-liuj",
+      "directoryRole": "Associate Professor, Department of Physics Director of IAS Center for Quantum Matter Program Director of MSc in Data-Driven Modeling",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态物理、计算材料科学、机器学习、薄膜物理与拓扑材料。",
+      "researchKeywords": [
+        "研究凝聚态物理、计算材料科学、机器学习、薄膜物理与拓扑材料",
+        "Condensed matter physics Computational materials science Machine learning Thin film physics Topological phases and topological materials"
+      ],
+      "topics": [
+        "物理与化学",
+        "机器学习",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "physics-profile-18-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-18-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-18-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/343",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-18-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-18-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-18-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-19",
+      "name": "Kam Biu LUK",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-biu-luk-kbluk",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-biu-luk-kbluk",
+      "directoryRole": "IAS Paul C W Chu Professor Chair Professor, Department of Physics Director of IAS Center for Fundamental Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究粒子物理、宇宙学与自然界的对称性，也关注仪器和计算技术。",
+      "researchKeywords": [
+        "研究粒子物理、宇宙学与自然界的对称性，也关注仪器和计算技术",
+        "Particle physics Cosmology Symmetries of nature Instrumentation Computational techniques"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-19-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-19-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-19-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-19-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-19-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-19-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-20",
+      "name": "Giorgio MANZONI",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=giorgio-manzoni-manzoni",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=giorgio-manzoni-manzoni",
+      "directoryRole": "Lecturer II, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究天体物理、宇宙学模拟与星系演化，也列有液晶和高性能计算方向。",
+      "researchKeywords": [
+        "研究天体物理、宇宙学模拟与星系演化，也列有液晶和高性能计算方向",
+        "Astrophysics Cosmological simulations Galaxy evolution Liquid crystals (LCs) High performance computing"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-20-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-20-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://giorgiomanzoni.github.io",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-20-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-20-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-21",
+      "name": "Yee Fai NG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yee-fai-ng-phyfng",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yee-fai-ng-phyfng",
+      "directoryRole": "Lecturer I, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究科学教育、材料物理、纳米科学与表面物理。",
+      "researchKeywords": [
+        "研究科学教育、材料物理、纳米科学与表面物理",
+        "Science education Material physics Nanoscience Surface physics"
+      ],
+      "topics": [
+        "物理与化学",
+        "教育学"
+      ],
+      "sourceIds": [
+        "physics-profile-21-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-21-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-21-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/473",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-21-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-21-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-21-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-22",
+      "name": "Shangqiang NING",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shangqiang-ning-sqning",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shangqiang-ning-sqning",
+      "directoryRole": "Research Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究拓扑相、强关联材料、非常规超导与量子磁性。",
+      "researchKeywords": [
+        "研究拓扑相、强关联材料、非常规超导与量子磁性",
+        "Condensed matter physics Topological phases and topological materials Strongly correlated materials Unconventional superconductors Quantum magnetism"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-22-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-22-20261028"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-22-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-23",
+      "name": "Ding PAN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ding-pan-dingpan",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ding-pan-dingpan",
+      "directoryRole": "Professor, Department of Physics Professor, Department of Chemistry Associate Director of HKUST-KF Joint Laboratory for Sustainable Technologies Associate Director of IAS Center for AI for Scientific Discoveries",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究化学物理、物理化学与计算材料，关注水、深部碳循环和清洁能源等问题。",
+      "researchKeywords": [
+        "研究化学物理、物理化学与计算材料，关注水、深部碳循环和清洁能源等问题",
+        "Chemical physics Physical chemistry Computational physics Computational materials science Water science Deep carbon cycle Clean energy"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-23-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-23-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://angstrom.ust.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-23-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-23-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-24",
+      "name": "Nidhi PANT",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=nidhi-pant-pantnidhi",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=nidhi-pant-pantnidhi",
+      "directoryRole": "Lecturer II, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究宇宙学，关注脉冲星计时阵列与引力波。",
+      "researchKeywords": [
+        "研究宇宙学，关注脉冲星计时阵列与引力波",
+        "Cosmology Pulsar timing arrays Gravitational waves"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-24-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-24-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-24-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/2476",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-24-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-24-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-24-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-25",
+      "name": "Hyo Keun PARK",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hyo-keun-park-hkpark",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hyo-keun-park-hkpark",
+      "directoryRole": "Associate Professor, Division of Life Science Associate Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究神经科学、生物物理与成像技术。",
+      "researchKeywords": [
+        "研究神经科学、生物物理与成像技术",
+        "Neuroscience Biophysics Imaging techniques"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "physics-profile-25-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-25-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://life-sci.ust.hk/team/hyokeun-park/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-25-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-25-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-26",
+      "name": "Adrian Hoi Chun PO",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=adrian-hoi-chun-po-hcpo",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=adrian-hoi-chun-po-hcpo",
+      "directoryRole": "Hari Harilela Assistant Professor of Physics Assistant Professor, Department of Physics Director of Center for Theoretical Condensed Matter Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态与拓扑材料、强关联材料、量子磁性和量子信息。",
+      "researchKeywords": [
+        "研究凝聚态与拓扑材料、强关联材料、量子磁性和量子信息",
+        "Condensed matter physics Topological phases and topological materials Strongly correlated materials Quantum magnetism Quantum information"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-26-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-26-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-26-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/2456",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-26-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-26-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-26-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-28",
+      "name": "Yik Chuen SAN",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yik-chuen-san-phycsan",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yik-chuen-san-phycsan",
+      "directoryRole": "Lecturer II, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究粒子物理、机器学习与计算物理的交叉问题。",
+      "researchKeywords": [
+        "研究粒子物理、机器学习与计算物理的交叉问题",
+        "Particle physics Machine learning Computational physics"
+      ],
+      "topics": [
+        "物理与化学",
+        "机器学习"
+      ],
+      "sourceIds": [
+        "physics-profile-28-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-28-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-28-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/people/yik-chuen-san-shenyizun",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-28-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-28-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-28-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-29",
+      "name": "Qiming SHAO",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qiming-shao-eeqshao",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qiming-shao-eeqshao",
+      "directoryRole": "Associate Professor, Department of Electronic and Computer Engineering Associate Professor, Department of Physics UG Programs Coordinator (Electronic and Computer Engineering) Associate Director of IAS Center for Quantum Matter",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究自旋与量子材料及器件，涉及存内计算、类脑计算和面向AI、机器人应用的软硬件协同设计。",
+      "researchKeywords": [
+        "自旋电子学",
+        "类脑计算",
+        "存内计算",
+        "机器人学习",
+        "量子器件"
+      ],
+      "topics": [
+        "物理与化学",
+        "电子与集成电路",
+        "人工智能",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "physics-profile-29-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-29-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-29-20261028",
+        "physics-personal-29-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sqml.hkust.edu.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-29-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-29-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-29-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-30",
+      "name": "Xueyang SONG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xueyang-song-songxy",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=xueyang-song-songxy",
+      "directoryRole": "Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究量子自旋液体与磁性、高温超导、非费米液体、拓扑序和量子霍尔系统。",
+      "researchKeywords": [
+        "研究量子自旋液体与磁性、高温超导、非费米液体、拓扑序和量子霍尔系统",
+        "Quantum spin liquids and magnetism High-temperature superconductivity Non-Fermi liquids Topological order Quantum hall systems"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-30-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-30-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-30-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/2464",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-30-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-30-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-30-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-31",
+      "name": "Penger TONG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=penger-tong-penger",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=penger-tong-penger",
+      "directoryRole": "Associate Vice-President for Research and Development (Research) Chair Professor, Department of Physics Interim Director of Materials, Design and Manufacturing Facility,",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究软物质、生物物理，以及复杂与无序系统。",
+      "researchKeywords": [
+        "研究软物质、生物物理，以及复杂与无序系统",
+        "Soft matter physics Biophysics Complex and disordered systems"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-31-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-31-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-31-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://penger-physics.hkust.edu.hk",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-31-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-31-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-31-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-32",
+      "name": "Ophelia K C TSUI",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ophelia-k-c-tsui-okctsui",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ophelia-k-c-tsui-okctsui",
+      "directoryRole": "Professor, Department of Physics Director of William Mong Institute of Nano Science and Technology",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究聚合物纳米薄膜、无序材料与材料物理。",
+      "researchKeywords": [
+        "研究聚合物纳米薄膜、无序材料与材料物理",
+        "Polymer nanometer films Disordered materials Material physics"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-32-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-32-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://okctsui.people.ust.hk",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-32-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-32-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-33",
+      "name": "Jiannong WANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiannong-wang-phjwang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiannong-wang-phjwang",
+      "directoryRole": "Head and Chair Professor, Department of Physics Wu Chien-Shiung Professor of Science",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究凝聚态与材料物理，关注半导体量子结构、自旋电子学和纳米结构材料。",
+      "researchKeywords": [
+        "研究凝聚态与材料物理，关注半导体量子结构、自旋电子学和纳米结构材料",
+        "Condensed matter physics Material physics Semiconductor quantum structures Semiconductor spintronics Nanostructured materials"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-33-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-33-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-33-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/404",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-33-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-33-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-33-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-34",
+      "name": "Jue WANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jue-wang-jue",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jue-wang-jue",
+      "directoryRole": "Assistant Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究二维材料与强关联材料，并关注超快光谱和量子输运。",
+      "researchKeywords": [
+        "研究二维材料与强关联材料，并关注超快光谱和量子输运",
+        "Condensed matter physics Two-dimensional materials Strongly correlated materials Ultrafast spectroscopy Quantum transport"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-34-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-34-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-34-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/3074",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-34-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-34-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-34-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-35",
+      "name": "Dong-Gang WANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=donggang-wang-wdgang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=donggang-wang-wdgang",
+      "directoryRole": "Research Assistant Professor, Department of Physics IAS Junior Fellow, HKUST Jockey Club Institute for Advanced Study",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究早期宇宙与宇宙暴胀，涉及高能物理、理论物理和宇宙学。",
+      "researchKeywords": [
+        "研究早期宇宙与宇宙暴胀，涉及高能物理、理论物理和宇宙学",
+        "Cosmic inflation Early universe High energy physics Theoretical physics Cosmology"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-35-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-35-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-35-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://ias.hkust.edu.hk/people/ias-members/fellows-affiliates/dr-wang-dong-gang",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-35-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-35-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-35-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-36",
+      "name": "Ning WANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ning-wang-phwang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ning-wang-phwang",
+      "directoryRole": "Chair Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究低维结构、电子输运实验与电子显微技术。",
+      "researchKeywords": [
+        "研究低维结构、电子输运实验与电子显微技术",
+        "Low-dimensional structure Electronic transport experiment Electron microscopy"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-36-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-36-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-36-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://phwang.hkust.edu.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-36-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-36-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-36-20261028"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人网站的未注明轮次博士接收提示",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "physics-personal-36-20261028"
+          ],
+          "text": "网站机会栏目写“目前暂无PhD位置”，但未注明公告日期或适用入学年度。保留这一负面提示，请对照你计划的轮次再确认；不能把它当作对2027/28的永久关闭结论，也不能据研究交集推定仍有名额。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-physics-37",
+      "name": "Yi WANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yi-wang-phyw",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yi-wang-phyw",
+      "directoryRole": "Professor, Department of Physics PG Programs Coordinator (Physics) Associate Director of Space Science and Technology Institute",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究高能理论、宇宙学及面向物理研究的智能体式人工智能。",
+      "researchKeywords": [
+        "宇宙学",
+        "高能物理",
+        "物理智能体",
+        "AI for physics"
+      ],
+      "topics": [
+        "物理与化学",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "physics-profile-37-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-37-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-37-20261028",
+        "physics-personal-37-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://phyw.people.ust.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-37-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-37-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-37-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-38",
+      "name": "Haruki WATANABE",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=haruki-watanabe-hwatanabe",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=haruki-watanabe-hwatanabe",
+      "directoryRole": "Professor, Department of Physics IAS Professor",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究量子多体系统、拓扑相与自发对称性破缺。",
+      "researchKeywords": [
+        "研究量子多体系统、拓扑相与自发对称性破缺",
+        "Quantum many-body systems Topological phases Spontaneous symmetry breaking"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-38-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-38-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/view/watanabegroup",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-38-20261028",
+          "bodyStatus": "not_read",
+          "readNote": "官网提供的原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-38-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-39",
+      "name": "Qin XU",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qin-xu-qinxu",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qin-xu-qinxu",
+      "directoryRole": "Associate Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究软物质与复杂流体。",
+      "researchKeywords": [
+        "研究软物质与复杂流体",
+        "Soft matter physics Complex fluids"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-39-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-39-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-39-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://softmat-hkust.org/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-39-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-39-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-39-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-40",
+      "name": "Sen YANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=sen-yang-phsyang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=sen-yang-phsyang",
+      "directoryRole": "Associate Head and Professor, Department of Physics Director of Center for Complex Quantum Systems Associate Director of Materials Characterization and Preparation Facility",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究量子光学、纳米科学与半导体物理，也关注光学显微和量子器件。",
+      "researchKeywords": [
+        "研究量子光学、纳米科学与半导体物理，也关注光学显微和量子器件",
+        "Quantum optics Nanoscience Semiconductor physics Optical microscopy Quantum devices"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-40-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-40-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-40-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://diamond-physics.hkust.edu.hk/",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-40-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-40-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-40-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-41",
+      "name": "Rui ZHANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=rui-zhang-ruizhang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=rui-zhang-ruizhang",
+      "directoryRole": "Associate Professor, Department of Physics Program Director of MSc in Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "用计算方法和机器学习研究软物质、自主材料与软体机器，涉及液晶、活性物质和复杂流体。",
+      "researchKeywords": [
+        "软物质",
+        "复杂流体",
+        "液晶",
+        "机器学习",
+        "自主材料",
+        "软体机器人"
+      ],
+      "topics": [
+        "物理与化学",
+        "机器学习",
+        "材料与能源",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "physics-profile-41-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-41-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-41-20261028",
+        "physics-personal-41-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://www.sirianray.org",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-41-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-41-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-41-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-42",
+      "name": "Jingdi ZHANG",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jingdi-zhang-jdzhang",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jingdi-zhang-jdzhang",
+      "directoryRole": "Associate Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究时间分辨光谱、凝聚态物理、非线性光学、强关联材料与超材料。",
+      "researchKeywords": [
+        "研究时间分辨光谱、凝聚态物理、非线性光学、强关联材料与超材料",
+        "Time-resolved spectroscopy Condensed matter physics Nonlinear optics Strongly correlated materials Metamaterials"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-42-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-42-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-42-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/node/454",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-42-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-42-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-42-20261028"
+        ]
+      }
+    },
+    {
+      "id": "hkust-physics-43",
+      "name": "Yue ZHAO",
+      "universityId": "hkust",
+      "department": "物理系（理学院师资目录范围）",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yue-zhao-zhaoyue",
+      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yue-zhao-zhaoyue",
+      "directoryRole": "Associate Professor, Department of Physics",
+      "identityNote": "按官方名录与提供页面保留身份。教学岗位、研究助理教授、访问或其他兼任身份不自动证明可以独立指导所选MPhil/PhD；实际指导资格仍需项目确认。",
+      "summary": "研究粒子物理、宇宙学与天体物理。",
+      "researchKeywords": [
+        "研究粒子物理、宇宙学与天体物理",
+        "Particle physics Cosmology Astrophysics"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "physics-profile-43-20261028",
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028",
+        "physics-personal-43-20261028"
+      ],
+      "directorySourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "academicUnitIds": [
+        "hkust-1"
+      ],
+      "keywordSourceIds": [
+        "physics-profile-43-20261028"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://physics.hkust.edu.hk/people/zhao-yue-zhaoyue",
+          "label": "个人或研究组主页",
+          "parentSourceId": "physics-profile-43-20261028",
+          "bodyStatus": "body_read",
+          "readNote": "正常web reader实际返回的HTTPS身份或研究正文；原HTTP入口与返回URL分开保存。未据此确认年度或余位。",
+          "sourceId": "physics-personal-43-20261028"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "所选学位的指导资格、招生轮次与实时余位仍待确认；个人网站的说明分别展示。",
+        "sourceIds": [
+          "physics-profile-43-20261028"
+        ]
+      }
     }
   ],
   "sources": [
@@ -87509,6 +90086,2836 @@ window.APP_CATALOG = {
       "readReceiptSha256": "326ba7132121fb32c3e0ba1170e9e0e17717ee104e49fb0879e0a0716404ad3b",
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "science-unit-chemistry-20261028",
+      "url": "https://science.hkust.edu.hk/academic_units/chemistry",
+      "title": "港科大理学院 · 化学系",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_academic_unit_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "982cf83121064a18109290d3c9b12976324aa1293a9546598c1127891ee497f8",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/academic_units/chemistry#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/chemistry",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/chemistry",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/chemistry",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/chemistry",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://chem.ust.hk/home",
+        "https://chem.ust.hk/programs/UG-overview",
+        "http://www.chem-msc.ust.hk/?page_id=46",
+        "https://chem.ust.hk/programs/PG-overview",
+        "https://chem.ust.hk/programs/PG-overview",
+        "https://science.hkust.edu.hk/about/our_people?academic-unit=3007&show=faculty-members",
+        "https://science.hkust.edu.hk/news/hkust-hosts-31st-symposium-chemistry-postgraduate-research-hong-kong",
+        "https://science.hkust.edu.hk/research/hkust-chemists-develop-entangled-dual-site-migration-paradigm-organic-synthesis",
+        "https://science.hkust.edu.hk/research/hkust-develops-new-biocompatible-chemical-reaction-advance-next-generation-anticancer",
+        "https://www.ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG",
+        "https://www.ust.hk"
+      ]
+    },
+    {
+      "id": "science-unit-life_science-20261028",
+      "url": "https://science.hkust.edu.hk/academic_units/life_science",
+      "title": "港科大理学院 · 生命科学学部",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_academic_unit_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "aa6d67d52206f6815e31592fbcecceda68bde4559d81dd45f4d534a29452039c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/academic_units/life_science#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/life_science",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/life_science",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/life_science",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/life_science",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://life-sci.ust.hk/",
+        "https://life-sci.ust.hk/undergraduate/bisc/",
+        "https://life-sci.ust.hk/undergraduate/bcb/",
+        "https://life-sci.ust.hk/undergraduate/biot/",
+        "https://bmh.hkust.edu.hk/",
+        "https://bibu.hkust.edu.hk/",
+        "http://www.btec.ust.hk/",
+        "https://life-sci.ust.hk/postgraduate/mphil-phd-in-life-science/",
+        "https://life-sci.ust.hk/postgraduate/mphil-phd-in-life-science/",
+        "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members",
+        "https://science.hkust.edu.hk/news/hkust-information-session-mphil-and-phd-studies",
+        "https://science.hkust.edu.hk/research/hkust-launches-healthy-longevity-study-recruiting-adults-aged-90-and-above-five-year-study",
+        "https://science.hkust.edu.hk/research/hkust-launches-neurocare-community-project-screen-6000-elderly-early-alzheimers",
+        "https://www.ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members&page=0"
+      ]
+    },
+    {
+      "id": "science-life-directory-scope-recovery-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members&page=0",
+      "title": "生命科学学部 · 实际已核筛选入口",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "原完整师资入口曾实际显示All Academic Units；使用原页真实分页中的page=0入口后，已核页面筛选为生命科学。其余人员类别和完整性仍待逐项核。"
+      ],
+      "bodySha256": "1430e9cb5778184ba09e8a531f58cf5166a44bb02b3535a91c097089e6f0104f",
+      "readMethod": "anonymous_HTTP",
+      "originalUrl": "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members",
+      "retrievedUrl": "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members&page=0",
+      "parentSourceId": "science-unit-life_science-20261028"
+    },
+    {
+      "id": "science-unit-mathematics-20261028",
+      "url": "https://science.hkust.edu.hk/academic_units/mathematics",
+      "title": "港科大理学院 · 数学系",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_academic_unit_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "68037f56c84d7f4868e3414f598e713de11130e2e7b2e93e1c999fcaf161ab38",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/academic_units/mathematics#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/mathematics",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/mathematics",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/mathematics",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/mathematics",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "http://www.math.ust.hk/",
+        "http://www.math.ust.hk/ug/",
+        "https://maec.hkust.edu.hk/",
+        "https://dsct.ust.hk/",
+        "http://mafm.ust.hk/",
+        "http://www.math.ust.hk/maed/",
+        "https://seng.hkust.edu.hk/academics/taught-postgraduate/msc-bdt",
+        "https://msdm.ust.hk/",
+        "http://www.mscfintech.ust.hk/",
+        "http://www.math.ust.hk/pg/",
+        "http://www.math.ust.hk/pg/",
+        "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+        "https://science.hkust.edu.hk/news/hkust-school-science-and-unipro-technology-limited-forge-collaboration-digital-finance",
+        "https://science.hkust.edu.hk/research/hkust-researchers-develop-ai-enabled-model-help-mitigate-global-ammonia-emissions-cropland",
+        "https://www.ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG",
+        "https://www.ust.hk"
+      ]
+    },
+    {
+      "id": "science-unit-ocean_science-20261028",
+      "url": "https://science.hkust.edu.hk/academic_units/ocean_science",
+      "title": "港科大理学院 · 海洋科学系",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_academic_unit_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "26a0fcc8ef28756e6bc01f79ce729462d5f936852bb991be76723c7b80320ee1",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/academic_units/ocean_science#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://oces.ust.hk/",
+        "https://oces.ust.hk/programs/bsc-ocean-science-and-technology-bsc-ost",
+        "https://ehs.hkust.edu.hk/",
+        "https://mscgmrm.org/",
+        "https://oces.ust.hk/programs/master-philosophy-marine-environmental-science-mphil-mes",
+        "https://oces.ust.hk/programs/mphil-and-phd-marine-science-and-technology-new-and-progress",
+        "https://oces.ust.hk/programs/doctor-philosophy-marine-environmental-science-phd-mes",
+        "https://oces.ust.hk/programs/mphil-and-phd-marine-science-and-technology-new-and-progress",
+        "https://oces.ust.hk/programs/gml-hkust-joint-phd-program-marine-environmental-science",
+        "https://oces.ust.hk/programs/sml-zhuhai-and-hkust-joint-phd-program-marine-environmental-science",
+        "https://science.hkust.edu.hk/about/our_people?academic-unit=3010&show=faculty-members",
+        "https://science.hkust.edu.hk/news/hkust-secures-dual-unesco-endorsements-two-international-deep-sea-research-programs",
+        "https://science.hkust.edu.hk/research/hkust-launches-next-generation-interactive-wavyocean-30-platform-connecting-research-and",
+        "https://science.hkust.edu.hk/research/hkust-study-reveals-why-tropical-cyclones-rainfall-surges-landfall-rainfall-intensifies",
+        "https://www.ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG",
+        "https://www.ust.hk"
+      ]
+    },
+    {
+      "id": "science-unit-physics-20261028",
+      "url": "https://science.hkust.edu.hk/academic_units/physics",
+      "title": "港科大理学院 · 物理系",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_academic_unit_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "da56e2b85b0469da39afbc6e1948f60e6f15a06a2401227628365f53caf1f9f7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/academic_units/physics#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/physics",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/physics",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://facultyprofiles.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/zh-hant/academic_units/physics",
+        "https://science.hkust.edu.hk/zh-hans/academic_units/physics",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://science.hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "http://physics.ust.hk/",
+        "https://physics.hkust.edu.hk/",
+        "https://msdm.ust.hk/",
+        "https://msphy.hkust.edu.hk/",
+        "https://physics.hkust.edu.hk/programs/postgraduate-programs/mphil-physics",
+        "https://physics.hkust.edu.hk/programs/postgraduate-programs/program-nano-science-and-technology",
+        "https://physics.hkust.edu.hk/programs/postgraduate-programs/phd-physics",
+        "https://physics.hkust.edu.hk/programs/postgraduate-programs/program-nano-science-and-technology",
+        "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+        "https://science.hkust.edu.hk/news/hkust-physicist-elected-member-us-national-academy-sciences",
+        "https://science.hkust.edu.hk/research/hkust-researchers-redraw-boundary-between-phases-matter",
+        "https://science.hkust.edu.hk/research/hkust-researchers-pioneer-pathway-mechanical-intelligence-breaking-symmetry-soft-composite",
+        "https://www.ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG",
+        "https://www.ust.hk"
+      ]
+    },
+    {
+      "id": "physics-directory-0-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+      "title": "港科大理学院物理人员 · 第1页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "f8fffb8e13db4bd57ae0d43f40ca6f1b65aa43a9a5f3b47aceaa602fef60f019",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ho-bun-chan-hochan",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=che-ting-chan-phchan",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tian-wen-chen-twchen",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=man-fung-cheung-cheungmf",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=edwin-yun-sang-chow-edwinchow",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=xi-dai-daix",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=bradley-alan-foreman-phbaf",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yilong-han-yilong",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shilin-huang-huangsl",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=meizhen-huang-meizhenhuang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=berthold-j196ck-bjaeck",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kaifei-kang-kfkang"
+      ]
+    },
+    {
+      "id": "physics-directory-1-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members&page=1",
+      "title": "港科大理学院物理人员 · 第2页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "537d74b4db595beba669e49c8959f85d44a03d872adc294da8715b937f0303dd",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kam-tuen-law-phlaw",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shiming-lei-phslei",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=pak-wo-leung-phleung",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shuohui-li-shuohuili",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=nian-lin-phnlin",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=tao-liu-taoliu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=junwei-liu-liuj",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kam-biu-luk-kbluk",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=giorgio-manzoni-manzoni",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yee-fai-ng-phyfng",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shangqiang-ning-sqning",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ding-pan-dingpan"
+      ]
+    },
+    {
+      "id": "physics-directory-2-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members&page=2",
+      "title": "港科大理学院物理人员 · 第3页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "6834e92239468211ef709be78ea781ff14fe632fd657389e155a152bdbe4bf37",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=nidhi-pant-pantnidhi",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=hyo-keun-park-hkpark",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=adrian-hoi-chun-po-hcpo",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=kirill-prokofiev-kprok",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yik-chuen-san-phycsan",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=qiming-shao-eeqshao",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=xueyang-song-songxy",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=penger-tong-penger",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ophelia-k-c-tsui-okctsui",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jiannong-wang-phjwang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jue-wang-jue",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=donggang-wang-wdgang"
+      ]
+    },
+    {
+      "id": "physics-directory-3-20261028",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members&page=3",
+      "title": "港科大理学院物理人员 · 第4页",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "c5e48de52802238ed21aaf24a73af190b07bfd3b5d602b923ea0dbf01216512e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ning-wang-phwang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yi-wang-phyw",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=haruki-watanabe-hwatanabe",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=qin-xu-qinxu",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=sen-yang-phsyang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=rui-zhang-ruizhang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jingdi-zhang-jdzhang",
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yue-zhao-zhaoyue"
+      ]
+    },
+    {
+      "id": "physics-profile-00-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ho-bun-chan-hochan",
+      "title": "Ho Bun CHAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "496c92cc071650b7e8fb3d5916b39be68a19e694d2ed1bd4bbacf523f7873e64",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ho-bun-chan-hochan",
+      "discoveredLinks": [
+        "http://hochanlab.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-00-20261028",
+      "url": "https://hochanlab.hkust.edu.hk/",
+      "title": "Ho Bun CHAN · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "9fd4aaa5e7ada264284c5c290895834ac14965df39fdb4bbc9e45169fc7da8c0",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-00-20261028",
+      "originalUrl": "http://hochanlab.hkust.edu.hk/",
+      "retrievedUrl": "https://hochanlab.hkust.edu.hk/"
+    },
+    {
+      "id": "physics-profile-01-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=che-ting-chan-phchan",
+      "title": "Che Ting CHAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "42b3449e03be5fc0cd4188212741654f05e5aa27aa84d744fb1260cefe44b0d7",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "discoveredLinks": [
+        "https://www.phys.ust.hk/ctchan/index.html"
+      ]
+    },
+    {
+      "id": "physics-profile-02-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tian-wen-chen-twchen",
+      "title": "Tian Wen CHEN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "3f2fc26caf56808d193b16114055fd1f3a6b1718a083122b7da9cd53558f92db",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tian-wen-chen-twchen",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/2444"
+      ]
+    },
+    {
+      "id": "physics-personal-02-20261028",
+      "url": "https://physics.hkust.edu.hk/node/2444",
+      "title": "Tian Wen CHEN · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "1f0f2aca0d93499c3334766a9117979fee10ced62e8935c66552d771c1001464",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-02-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/2444",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/2444"
+    },
+    {
+      "id": "physics-profile-03-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=man-fung-cheung-cheungmf",
+      "title": "Man Fung CHEUNG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "45f52d02579b90be367c4939d197f8fbee9dfa5203d3b7ac65b7e94220f96785",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=man-fung-cheung-cheungmf",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/471"
+      ]
+    },
+    {
+      "id": "physics-personal-03-20261028",
+      "url": "https://physics.hkust.edu.hk/node/471",
+      "title": "Man Fung CHEUNG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "1f0f2aca0d93499c3334766a9117979fee10ced62e8935c66552d771c1001464",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-03-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/471",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/471"
+    },
+    {
+      "id": "physics-profile-04-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=edwin-yun-sang-chow-edwinchow",
+      "title": "Edwin Yun Sang CHOW · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "0cbd1d815fb13c11e37deaf604315e7ca359fcf2743d68dfb09a7edc619e2f50",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=edwin-yun-sang-chow-edwinchow",
+      "discoveredLinks": [
+        "http://edwinchowresearch.web.app/"
+      ]
+    },
+    {
+      "id": "physics-profile-05-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xi-dai-daix",
+      "title": "Xi DAI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "301305f09aaaf2c28fdda6d11b0572f5b4ee7fff145412ea067df44d4dcfa4c7",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xi-dai-daix",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/150"
+      ]
+    },
+    {
+      "id": "physics-personal-05-20261028",
+      "url": "https://physics.hkust.edu.hk/node/150",
+      "title": "Xi DAI · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "9fd4aaa5e7ada264284c5c290895834ac14965df39fdb4bbc9e45169fc7da8c0",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-05-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/150",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/150"
+    },
+    {
+      "id": "physics-profile-06-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=bradley-alan-foreman-phbaf",
+      "title": "Bradley Alan FOREMAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "f1434acfa392bc571e27902a1dc18ddaf2122fcbbe1916f43d123ceabfd72740",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bradley-alan-foreman-phbaf",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/155"
+      ]
+    },
+    {
+      "id": "physics-personal-06-20261028",
+      "url": "https://physics.hkust.edu.hk/node/155",
+      "title": "Bradley Alan FOREMAN · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "1f0f2aca0d93499c3334766a9117979fee10ced62e8935c66552d771c1001464",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-06-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/155",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/155"
+    },
+    {
+      "id": "physics-profile-07-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yilong-han-yilong",
+      "title": "Yilong HAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "df413dc78c21999a3fd2ab7acb11f05b4db1991518875e90c4059185384fd0bd",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yilong-han-yilong",
+      "discoveredLinks": [
+        "http://yilong.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-07-20261028",
+      "url": "https://yilong.people.ust.hk/",
+      "title": "Yilong HAN · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "1f0f2aca0d93499c3334766a9117979fee10ced62e8935c66552d771c1001464",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-07-20261028",
+      "originalUrl": "http://yilong.people.ust.hk/",
+      "retrievedUrl": "https://yilong.people.ust.hk/"
+    },
+    {
+      "id": "physics-profile-08-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shilin-huang-huangsl",
+      "title": "Shilin HUANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "f671abe3f47f4fecbfb1e30672c1c588c6736126354804285a88f3b701e952d3",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shilin-huang-huangsl",
+      "discoveredLinks": [
+        "http://huang-shilin.github.io"
+      ]
+    },
+    {
+      "id": "physics-personal-08-20261028",
+      "url": "https://huang-shilin.github.io/",
+      "title": "Shilin HUANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "1f0f2aca0d93499c3334766a9117979fee10ced62e8935c66552d771c1001464",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-08-20261028",
+      "originalUrl": "http://huang-shilin.github.io",
+      "retrievedUrl": "https://huang-shilin.github.io/"
+    },
+    {
+      "id": "physics-profile-09-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=meizhen-huang-meizhenhuang",
+      "title": "Meizhen HUANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "bc28a65c73b8c82f87b46a76d2b3bca1706ce626f08789d13cda9ecd6180afaf",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=meizhen-huang-meizhenhuang",
+      "discoveredLinks": []
+    },
+    {
+      "id": "physics-profile-10-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=berthold-j196ck-bjaeck",
+      "title": "Berthold JÄCK · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "cc82230b8dba4514300f8087cbd7cca32ee2b8480371a6f1dc7c2332a1faa3b9",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=berthold-j196ck-bjaeck",
+      "discoveredLinks": [
+        "http://www.nanoscale.ninja/"
+      ]
+    },
+    {
+      "id": "physics-personal-10-20261028",
+      "url": "https://www.nanoscale.ninja/",
+      "title": "Berthold JÄCK · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "4708f1af7e470249843cf4277a49e5f6b0d4123681eed54a436696f880cc1f95",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-10-20261028",
+      "originalUrl": "http://www.nanoscale.ninja/",
+      "retrievedUrl": "https://www.nanoscale.ninja/"
+    },
+    {
+      "id": "physics-profile-11-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kaifei-kang-kfkang",
+      "title": "Kaifei KANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "01c7c2099fd522d81f6e2175adc4b84d8f6eba62efe20fc2308893d05b180526",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kaifei-kang-kfkang",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/3071"
+      ]
+    },
+    {
+      "id": "physics-personal-11-20261028",
+      "url": "https://physics.hkust.edu.hk/node/3071",
+      "title": "Kaifei KANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "4708f1af7e470249843cf4277a49e5f6b0d4123681eed54a436696f880cc1f95",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-11-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/3071",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/3071"
+    },
+    {
+      "id": "physics-profile-12-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-tuen-law-phlaw",
+      "title": "Kam Tuen LAW · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "a560fa7eb1e3831dd7ad4acdb9dd02a06dcd5ef183a2cb4d3085006f3983bdfe",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kam-tuen-law-phlaw",
+      "discoveredLinks": [
+        "http://phlaw.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-12-20261028",
+      "url": "https://phlaw.hkust.edu.hk/",
+      "title": "Kam Tuen LAW · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "85208fd6f7fb4d5c365be9d3559aa12a42dfc2db036a110820f41674bf82c2da",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-12-20261028",
+      "originalUrl": "http://phlaw.hkust.edu.hk/",
+      "retrievedUrl": "https://phlaw.hkust.edu.hk/"
+    },
+    {
+      "id": "physics-profile-13-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shiming-lei-phslei",
+      "title": "Shiming LEI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "36ec6338faa2e316987b88c1d0946e20f33fb765e0876752cac319790b267687",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shiming-lei-phslei",
+      "discoveredLinks": [
+        "http://thequantumlab.org/"
+      ]
+    },
+    {
+      "id": "physics-personal-13-20261028",
+      "url": "https://thequantumlab.org/",
+      "title": "Shiming LEI · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "4708f1af7e470249843cf4277a49e5f6b0d4123681eed54a436696f880cc1f95",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-13-20261028",
+      "originalUrl": "http://thequantumlab.org/",
+      "retrievedUrl": "https://thequantumlab.org/"
+    },
+    {
+      "id": "physics-profile-14-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=pak-wo-leung-phleung",
+      "title": "Pak Wo LEUNG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "44112e1823399c0c3faf16b0a4c783e369e4c7d39205330fb358d799044a50a0",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=pak-wo-leung-phleung",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/328"
+      ]
+    },
+    {
+      "id": "physics-personal-14-20261028",
+      "url": "https://physics.hkust.edu.hk/node/328",
+      "title": "Pak Wo LEUNG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "4708f1af7e470249843cf4277a49e5f6b0d4123681eed54a436696f880cc1f95",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-14-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/328",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/328"
+    },
+    {
+      "id": "physics-profile-15-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shuohui-li-shuohuili",
+      "title": "Shuohui LI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "315deb86b37836658868db80f04ca3b945747c8bc816090a2b617b84e52769f9",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shuohui-li-shuohuili",
+      "discoveredLinks": []
+    },
+    {
+      "id": "physics-profile-16-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=nian-lin-phnlin",
+      "title": "Nian LIN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "5be28b331aa561ab90857e44ca9f4895c50a5362ec85fca6c4b10429833bd029",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=nian-lin-phnlin",
+      "discoveredLinks": [
+        "http://www.phys.ust.hk/phnlin/"
+      ]
+    },
+    {
+      "id": "physics-profile-17-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tao-liu-taoliu",
+      "title": "Tao LIU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "77710e8a29ebb2307e15b1472db2ede28ce61f1471ede3eb7b11b2efb9ae4d67",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=tao-liu-taoliu",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/348"
+      ]
+    },
+    {
+      "id": "physics-personal-17-20261028",
+      "url": "https://physics.hkust.edu.hk/node/348",
+      "title": "Tao LIU · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "c803b785b5ed525fc0cfd66a02def7f871b034d3f20f2f84aec820e2d171ab0f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-17-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/348",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/348"
+    },
+    {
+      "id": "physics-profile-18-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=junwei-liu-liuj",
+      "title": "Junwei LIU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "74e8c0f86c451ebf1bf40f0621cc7ede2f6f05bed23ccacc88d9b3029fee89c1",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=junwei-liu-liuj",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/343"
+      ]
+    },
+    {
+      "id": "physics-personal-18-20261028",
+      "url": "https://physics.hkust.edu.hk/node/343",
+      "title": "Junwei LIU · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "c803b785b5ed525fc0cfd66a02def7f871b034d3f20f2f84aec820e2d171ab0f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-18-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/343",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/343"
+    },
+    {
+      "id": "physics-profile-19-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-biu-luk-kbluk",
+      "title": "Kam Biu LUK · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "464ebb791bd76dc75c114947785732927097e91612842b5e2c618bf64fea4a7c",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kam-biu-luk-kbluk",
+      "discoveredLinks": [
+        "http://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu"
+      ]
+    },
+    {
+      "id": "physics-personal-19-20261028",
+      "url": "https://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu",
+      "title": "Kam Biu LUK · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "c803b785b5ed525fc0cfd66a02def7f871b034d3f20f2f84aec820e2d171ab0f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-19-20261028",
+      "originalUrl": "http://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu",
+      "retrievedUrl": "https://ias.hkust.edu.hk/people/ias-members/faculty/prof-luk-kam-biu"
+    },
+    {
+      "id": "physics-profile-20-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=giorgio-manzoni-manzoni",
+      "title": "Giorgio MANZONI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "4bcd30fb696145ec53d2b16bf70f1e656b537253e944ff39671dcc970d1bc729",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=giorgio-manzoni-manzoni",
+      "discoveredLinks": [
+        "http://giorgiomanzoni.github.io"
+      ]
+    },
+    {
+      "id": "physics-profile-21-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yee-fai-ng-phyfng",
+      "title": "Yee Fai NG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "4f1bf9fc2415dc3ad616588bbdb800ffd9a32caad8701c8e83aa7a712c11fda0",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yee-fai-ng-phyfng",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/473"
+      ]
+    },
+    {
+      "id": "physics-personal-21-20261028",
+      "url": "https://physics.hkust.edu.hk/node/473",
+      "title": "Yee Fai NG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "18f27fd4bda200780ae12808c63a80331335f20afcd644e65c3ae5a70d866d1f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-21-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/473",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/473"
+    },
+    {
+      "id": "physics-profile-22-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shangqiang-ning-sqning",
+      "title": "Shangqiang NING · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "dd7747a1f9959c440aba24e86ce88d1f50ce51bb2c98e90c8cac6b628f356d46",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shangqiang-ning-sqning",
+      "discoveredLinks": []
+    },
+    {
+      "id": "physics-profile-23-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ding-pan-dingpan",
+      "title": "Ding PAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "2135592687ed8a39c5fff41b74867a4999d995697e021ed60ad2b1a3cfcbc152",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ding-pan-dingpan",
+      "discoveredLinks": [
+        "http://angstrom.ust.hk/"
+      ]
+    },
+    {
+      "id": "physics-profile-24-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=nidhi-pant-pantnidhi",
+      "title": "Nidhi PANT · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "70d7b024402e7996fca0f9c836b72c2d0fdb008def9ab8e626c5abb5cb3778c8",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=nidhi-pant-pantnidhi",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/2476"
+      ]
+    },
+    {
+      "id": "physics-personal-24-20261028",
+      "url": "https://physics.hkust.edu.hk/node/2476",
+      "title": "Nidhi PANT · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "18f27fd4bda200780ae12808c63a80331335f20afcd644e65c3ae5a70d866d1f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-24-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/2476",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/2476"
+    },
+    {
+      "id": "physics-profile-25-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=hyo-keun-park-hkpark",
+      "title": "Hyo Keun PARK · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "e0833d17d079517d2bba1821f3112525f5bc8e015646a16e93cfae0a3eba73e5",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hyo-keun-park-hkpark",
+      "discoveredLinks": [
+        "http://life-sci.ust.hk/team/hyokeun-park/"
+      ]
+    },
+    {
+      "id": "physics-profile-26-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=adrian-hoi-chun-po-hcpo",
+      "title": "Adrian Hoi Chun PO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "47631525996ef628bf74ac6f4e39819dbdfda3cd3a9efe31553e1104c737e937",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=adrian-hoi-chun-po-hcpo",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/2456"
+      ]
+    },
+    {
+      "id": "physics-personal-26-20261028",
+      "url": "https://physics.hkust.edu.hk/node/2456",
+      "title": "Adrian Hoi Chun PO · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "0de3d8ea2a7c92d420cca8f6b9c67b425d83ec28676aae56e6c484a1f52f295f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-26-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/2456",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/2456"
+    },
+    {
+      "id": "physics-profile-28-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yik-chuen-san-phycsan",
+      "title": "Yik Chuen SAN · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "854bd0b6bba823db5aaaf8d9039607857fba12ce536ed28012ad984cb0474723",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yik-chuen-san-phycsan",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/people/yik-chuen-san-shenyizun"
+      ]
+    },
+    {
+      "id": "physics-personal-28-20261028",
+      "url": "https://physics.hkust.edu.hk/people/yik-chuen-san-shenyizun",
+      "title": "Yik Chuen SAN · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "0de3d8ea2a7c92d420cca8f6b9c67b425d83ec28676aae56e6c484a1f52f295f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-28-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/people/yik-chuen-san-shenyizun",
+      "retrievedUrl": "https://physics.hkust.edu.hk/people/yik-chuen-san-shenyizun"
+    },
+    {
+      "id": "physics-profile-29-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=qiming-shao-eeqshao",
+      "title": "Qiming SHAO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "093cc57e7e904d9c5601c7558df1d418514b6727d9ba767529664c17859ebea5",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qiming-shao-eeqshao",
+      "discoveredLinks": [
+        "http://sqml.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-29-20261028",
+      "url": "https://sqml.hkust.edu.hk/",
+      "title": "Qiming SHAO · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "0de3d8ea2a7c92d420cca8f6b9c67b425d83ec28676aae56e6c484a1f52f295f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-29-20261028",
+      "originalUrl": "http://sqml.hkust.edu.hk/",
+      "retrievedUrl": "https://sqml.hkust.edu.hk/"
+    },
+    {
+      "id": "physics-profile-30-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xueyang-song-songxy",
+      "title": "Xueyang SONG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "d53790a512292307e64d7e45574156a31471055d5d28f034679dfc78f420a565",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=xueyang-song-songxy",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/2464"
+      ]
+    },
+    {
+      "id": "physics-personal-30-20261028",
+      "url": "https://physics.hkust.edu.hk/node/2464",
+      "title": "Xueyang SONG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "0de3d8ea2a7c92d420cca8f6b9c67b425d83ec28676aae56e6c484a1f52f295f",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-30-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/2464",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/2464"
+    },
+    {
+      "id": "physics-profile-31-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=penger-tong-penger",
+      "title": "Penger TONG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "7afd38235764c5e578b8488fe386fe43864bb485d5210ab035514199bc8c31da",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=penger-tong-penger",
+      "discoveredLinks": [
+        "http://penger-physics.hkust.edu.hk"
+      ]
+    },
+    {
+      "id": "physics-personal-31-20261028",
+      "url": "https://penger-physics.hkust.edu.hk/",
+      "title": "Penger TONG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "85208fd6f7fb4d5c365be9d3559aa12a42dfc2db036a110820f41674bf82c2da",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-31-20261028",
+      "originalUrl": "http://penger-physics.hkust.edu.hk",
+      "retrievedUrl": "https://penger-physics.hkust.edu.hk/"
+    },
+    {
+      "id": "physics-profile-32-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ophelia-k-c-tsui-okctsui",
+      "title": "Ophelia K C TSUI · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "22b97f286df2c75148b1743a6eb8339cfe1db37da5558af1f2eb18ba102f4891",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ophelia-k-c-tsui-okctsui",
+      "discoveredLinks": [
+        "http://okctsui.people.ust.hk"
+      ]
+    },
+    {
+      "id": "physics-profile-33-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jiannong-wang-phjwang",
+      "title": "Jiannong WANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "1d2559afc91c8aa88533563c2d1cedc39427e5ee58744af0280ef29d651091d3",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiannong-wang-phjwang",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/404"
+      ]
+    },
+    {
+      "id": "physics-personal-33-20261028",
+      "url": "https://physics.hkust.edu.hk/node/404",
+      "title": "Jiannong WANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "6f991c14506a742811de368fbfb770e8b327fcbe5d157e4baaefc48ec5de3e0a",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-33-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/404",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/404"
+    },
+    {
+      "id": "physics-profile-34-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jue-wang-jue",
+      "title": "Jue WANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "637468b3d51500e969827e296b6e61b8b263c168d2cc8cb505f377a9d947e0e0",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jue-wang-jue",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/3074"
+      ]
+    },
+    {
+      "id": "physics-personal-34-20261028",
+      "url": "https://physics.hkust.edu.hk/node/3074",
+      "title": "Jue WANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "6f991c14506a742811de368fbfb770e8b327fcbe5d157e4baaefc48ec5de3e0a",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-34-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/3074",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/3074"
+    },
+    {
+      "id": "physics-profile-35-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=donggang-wang-wdgang",
+      "title": "Dong-Gang WANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "404e435e95894c8633ff893c864a9266f43e7e83b3cc4b25f811a6591fa24f86",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=donggang-wang-wdgang",
+      "discoveredLinks": [
+        "http://ias.hkust.edu.hk/people/ias-members/fellows-affiliates/dr-wang-dong-gang"
+      ]
+    },
+    {
+      "id": "physics-personal-35-20261028",
+      "url": "https://ias.hkust.edu.hk/people/ias-members/fellows-affiliates/dr-wang-dong-gang",
+      "title": "Dong-Gang WANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "7aab6650f3eeebf696a71d361ea7add26c9195d604a5240bce3d9f34322f13b9",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-35-20261028",
+      "originalUrl": "http://ias.hkust.edu.hk/people/ias-members/fellows-affiliates/dr-wang-dong-gang",
+      "retrievedUrl": "https://ias.hkust.edu.hk/people/ias-members/fellows-affiliates/dr-wang-dong-gang"
+    },
+    {
+      "id": "physics-profile-36-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ning-wang-phwang",
+      "title": "Ning WANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "2c428cc4286a3cd57e99a85178cfba791c6a746b02c2f761bbd05a4ebbbd3db6",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ning-wang-phwang",
+      "discoveredLinks": [
+        "http://phwang.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-36-20261028",
+      "url": "https://phwang.hkust.edu.hk/",
+      "title": "Ning WANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "7aab6650f3eeebf696a71d361ea7add26c9195d604a5240bce3d9f34322f13b9",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-36-20261028",
+      "originalUrl": "http://phwang.hkust.edu.hk/",
+      "retrievedUrl": "https://phwang.hkust.edu.hk/"
+    },
+    {
+      "id": "physics-profile-37-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yi-wang-phyw",
+      "title": "Yi WANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "0307f2bd9221044e9e0db9e72a2770ed25129c37b328cf3542e8bbec882ad5a7",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yi-wang-phyw",
+      "discoveredLinks": [
+        "http://phyw.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-37-20261028",
+      "url": "https://phyw.people.ust.hk/",
+      "title": "Yi WANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "7aab6650f3eeebf696a71d361ea7add26c9195d604a5240bce3d9f34322f13b9",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-37-20261028",
+      "originalUrl": "http://phyw.people.ust.hk/",
+      "retrievedUrl": "https://phyw.people.ust.hk/"
+    },
+    {
+      "id": "physics-profile-38-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=haruki-watanabe-hwatanabe",
+      "title": "Haruki WATANABE · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "4d4c995d975ffa5fa3138665d5745db71b81960f2b6c484326bab6dad85256f6",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=haruki-watanabe-hwatanabe",
+      "discoveredLinks": [
+        "http://sites.google.com/view/watanabegroup"
+      ]
+    },
+    {
+      "id": "physics-profile-39-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=qin-xu-qinxu",
+      "title": "Qin XU · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "fff68e6b6e451624e45a35cd5eb255a17e4c51533b634eccc56e3ab0c48f92be",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qin-xu-qinxu",
+      "discoveredLinks": [
+        "http://softmat-hkust.org/"
+      ]
+    },
+    {
+      "id": "physics-personal-39-20261028",
+      "url": "https://softmat-hkust.org/",
+      "title": "Qin XU · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "16a146b41806a786b38e469ffd04fef3960d2c2a96f068618cd841143eef4b62",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-39-20261028",
+      "originalUrl": "http://softmat-hkust.org/",
+      "retrievedUrl": "https://softmat-hkust.org/"
+    },
+    {
+      "id": "physics-profile-40-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=sen-yang-phsyang",
+      "title": "Sen YANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "29b1fc74c250eb01b7d56f279097390ad9c387fa5a6c497d3a803dad0527e584",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sen-yang-phsyang",
+      "discoveredLinks": [
+        "http://diamond-physics.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "physics-personal-40-20261028",
+      "url": "https://diamond-physics.hkust.edu.hk/",
+      "title": "Sen YANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "16a146b41806a786b38e469ffd04fef3960d2c2a96f068618cd841143eef4b62",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-40-20261028",
+      "originalUrl": "http://diamond-physics.hkust.edu.hk/",
+      "retrievedUrl": "https://diamond-physics.hkust.edu.hk/"
+    },
+    {
+      "id": "physics-profile-41-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=rui-zhang-ruizhang",
+      "title": "Rui ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "29ad9a97fc120cd7b514fabf86a3c154a8459cea7d144ac749ff919610ad8cc2",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=rui-zhang-ruizhang",
+      "discoveredLinks": [
+        "http://www.sirianray.org"
+      ]
+    },
+    {
+      "id": "physics-personal-41-20261028",
+      "url": "https://www.sirianray.org/",
+      "title": "Rui ZHANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "16a146b41806a786b38e469ffd04fef3960d2c2a96f068618cd841143eef4b62",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-41-20261028",
+      "originalUrl": "http://www.sirianray.org",
+      "retrievedUrl": "https://www.sirianray.org/"
+    },
+    {
+      "id": "physics-profile-42-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jingdi-zhang-jdzhang",
+      "title": "Jingdi ZHANG · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "d2e1af1e42cb768fea2cf597bfa151e351f043468e78a06d084422595e48af5e",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jingdi-zhang-jdzhang",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/node/454"
+      ]
+    },
+    {
+      "id": "physics-personal-42-20261028",
+      "url": "https://physics.hkust.edu.hk/node/454",
+      "title": "Jingdi ZHANG · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "16a146b41806a786b38e469ffd04fef3960d2c2a96f068618cd841143eef4b62",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-42-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/node/454",
+      "retrievedUrl": "https://physics.hkust.edu.hk/node/454"
+    },
+    {
+      "id": "physics-profile-43-20261028",
+      "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yue-zhao-zhaoyue",
+      "title": "Yue ZHAO · 官方研究档案",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "bodySha256": "2e1c9c2466b835cb39da2d13456a8814a4e2c4b9aad8d77c384841eb908d0ada",
+      "readMethod": "anonymous_HTTP",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yue-zhao-zhaoyue",
+      "discoveredLinks": [
+        "http://physics.hkust.edu.hk/people/zhao-yue-zhaoyue"
+      ]
+    },
+    {
+      "id": "physics-personal-43-20261028",
+      "url": "https://physics.hkust.edu.hk/people/zhao-yue-zhaoyue",
+      "title": "Yue ZHAO · 提供的个人或研究网站",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "16a146b41806a786b38e469ffd04fef3960d2c2a96f068618cd841143eef4b62",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "parentSourceId": "physics-profile-43-20261028",
+      "originalUrl": "http://physics.hkust.edu.hk/people/zhao-yue-zhaoyue",
+      "retrievedUrl": "https://physics.hkust.edu.hk/people/zhao-yue-zhaoyue"
+    },
+    {
+      "id": "physics-admissions-20261028",
+      "url": "https://physics.hkust.edu.hk/admissions/postgraduate-pg-admissions",
+      "title": "物理系 · 研究学位申请条件",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_programme_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "ee03ce879ee6c835dd08463b670d106be421fecf3481aa68180e831c3dff992b",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "physics-overview-20261028",
+      "url": "https://physics.hkust.edu.hk/programs/postgraduate-programs/overview",
+      "title": "物理系 · 研究与授课学位分开",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_programme_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "ee03ce879ee6c835dd08463b670d106be421fecf3481aa68180e831c3dff992b",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "physics-mphil-20261028",
+      "url": "https://physics.hkust.edu.hk/programs/postgraduate-programs/mphil-physics",
+      "title": "物理MPhil · 学位与入学后要求",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_programme_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "5144a798ad470d2d065e935810319fd88bbfb20335acfdf4633c37400b54cb2d",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "physics-phd-20261028",
+      "url": "https://physics.hkust.edu.hk/programs/postgraduate-programs/phd-physics",
+      "title": "物理PhD · 学位与入学后要求",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_programme_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "5144a798ad470d2d065e935810319fd88bbfb20335acfdf4633c37400b54cb2d",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "physics-nano-20261028",
+      "url": "https://physics.hkust.edu.hk/programs/postgraduate-programs/program-nano-science-and-technology",
+      "title": "纳米科学与技术 · 研究学位",
+      "checkedAt": "2026-10-28",
+      "evidenceLevel": "official_programme_body_read",
+      "scope": "本页对应的身份、研究或申请范围；指导资格、招生年度与实时余位分别核查。",
+      "claims": [
+        "保留原页面明确陈述、未注明年度及未知项。"
+      ],
+      "knownIssues": [
+        "核查日不等于页面更新日。"
+      ],
+      "readReceiptSha256": "5144a798ad470d2d065e935810319fd88bbfb20335acfdf4633c37400b54cb2d",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
     }
   ],
   "funding": [
@@ -94514,6 +99921,20 @@ window.APP_CATALOG = {
         },
         "unlinkedEntries": []
       }
+    },
+    {
+      "id": "census-hkust-physics",
+      "universityId": "hkust",
+      "unit": "理学院 · 物理人员目录",
+      "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+      "sourceIds": [
+        "physics-directory-0-20261028",
+        "physics-directory-1-20261028",
+        "physics-directory-2-20261028",
+        "physics-directory-3-20261028"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "四页名录的44个原链接；研究与岗位分开，教学及研究岗位不自动等于可指导导师。系内另有访问、荣休、研究和支持人员分类，尚未全数逐人整合。七校仍未收全。"
     }
   ],
   "academicCoverage": [
@@ -100985,7 +106406,113 @@ window.APP_CATALOG = {
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "化学系",
+              "url": "https://science.hkust.edu.hk/academic_units/chemistry",
+              "retrievedUrl": "https://science.hkust.edu.hk/academic_units/chemistry",
+              "entryBodyStatus": "body_read",
+              "bodySha256": "982cf83121064a18109290d3c9b12976324aa1293a9546598c1127891ee497f8",
+              "sourceIds": [
+                "science-unit-chemistry-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "staffRoutes": [
+                {
+                  "label": "官方完整师资入口（资格与完整性仍须分开核查）",
+                  "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3007&show=faculty-members",
+                  "bodyStatus": "not_read",
+                  "completeFacultyEnumeration": false
+                }
+              ]
+            },
+            {
+              "name": "生命科学学部",
+              "url": "https://science.hkust.edu.hk/academic_units/life_science",
+              "retrievedUrl": "https://science.hkust.edu.hk/academic_units/life_science",
+              "entryBodyStatus": "body_read",
+              "bodySha256": "aa6d67d52206f6815e31592fbcecceda68bde4559d81dd45f4d534a29452039c",
+              "sourceIds": [
+                "science-unit-life_science-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "staffRoutes": [
+                {
+                  "label": "生命科学学部师资（已核筛选入口）",
+                  "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members&page=0",
+                  "originalUrl": "https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members",
+                  "bodyStatus": "body_read",
+                  "sourceIds": [
+                    "science-life-directory-scope-recovery-20261028"
+                  ],
+                  "completeFacultyEnumeration": false,
+                  "reviewNote": "原入口可能显示全校区，保留原地址；本入口已核实际筛选范围，不表示全部类别已整理完成。"
+                }
+              ]
+            },
+            {
+              "name": "数学系",
+              "url": "https://science.hkust.edu.hk/academic_units/mathematics",
+              "retrievedUrl": "https://science.hkust.edu.hk/academic_units/mathematics",
+              "entryBodyStatus": "body_read",
+              "bodySha256": "68037f56c84d7f4868e3414f598e713de11130e2e7b2e93e1c999fcaf161ab38",
+              "sourceIds": [
+                "science-unit-mathematics-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "staffRoutes": [
+                {
+                  "label": "官方完整师资入口（资格与完整性仍须分开核查）",
+                  "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3008&show=faculty-members",
+                  "bodyStatus": "not_read",
+                  "completeFacultyEnumeration": false
+                }
+              ]
+            },
+            {
+              "name": "海洋科学系",
+              "url": "https://science.hkust.edu.hk/academic_units/ocean_science",
+              "retrievedUrl": "https://science.hkust.edu.hk/academic_units/ocean_science",
+              "entryBodyStatus": "body_read",
+              "bodySha256": "26a0fcc8ef28756e6bc01f79ce729462d5f936852bb991be76723c7b80320ee1",
+              "sourceIds": [
+                "science-unit-ocean_science-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "staffRoutes": [
+                {
+                  "label": "官方完整师资入口（资格与完整性仍须分开核查）",
+                  "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3010&show=faculty-members",
+                  "bodyStatus": "not_read",
+                  "completeFacultyEnumeration": false
+                }
+              ]
+            },
+            {
+              "name": "物理系",
+              "url": "https://science.hkust.edu.hk/academic_units/physics",
+              "retrievedUrl": "https://science.hkust.edu.hk/academic_units/physics",
+              "entryBodyStatus": "body_read",
+              "bodySha256": "da56e2b85b0469da39afbc6e1948f60e6f15a06a2401227628365f53caf1f9f7",
+              "sourceIds": [
+                "science-unit-physics-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "staffRoutes": [
+                {
+                  "label": "官方完整师资入口（资格与完整性仍须分开核查）",
+                  "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "bodyStatus": "not_read",
+                  "completeFacultyEnumeration": false
+                }
+              ]
+            }
+          ],
           "staffEntries": [
             {
               "label": "Our People",
@@ -100997,6 +106524,901 @@ window.APP_CATALOG = {
               "teacherProfilesTotal": null,
               "enumerationComplete": false,
               "profileLeads": []
+            },
+            {
+              "label": "理学院 · 物理人员分页",
+              "url": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "physics-directory-0-20261028",
+                "physics-directory-1-20261028",
+                "physics-directory-2-20261028",
+                "physics-directory-3-20261028"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Ho Bun CHAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ho-bun-chan-hochan",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-00",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "496c92cc071650b7e8fb3d5916b39be68a19e694d2ed1bd4bbacf523f7873e64",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Che Ting CHAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=che-ting-chan-phchan",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-01",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "readReceiptSha256": "42b3449e03be5fc0cd4188212741654f05e5aa27aa84d744fb1260cefe44b0d7",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response"
+                },
+                {
+                  "name": "Tian Wen CHEN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tian-wen-chen-twchen",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-02",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "3f2fc26caf56808d193b16114055fd1f3a6b1718a083122b7da9cd53558f92db",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Man Fung CHEUNG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=man-fung-cheung-cheungmf",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-03",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "45f52d02579b90be367c4939d197f8fbee9dfa5203d3b7ac65b7e94220f96785",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Edwin Yun Sang CHOW",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=edwin-yun-sang-chow-edwinchow",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-04",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "0cbd1d815fb13c11e37deaf604315e7ca359fcf2743d68dfb09a7edc619e2f50",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Xi DAI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xi-dai-daix",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-05",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "301305f09aaaf2c28fdda6d11b0572f5b4ee7fff145412ea067df44d4dcfa4c7",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Bradley Alan FOREMAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=bradley-alan-foreman-phbaf",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-06",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "f1434acfa392bc571e27902a1dc18ddaf2122fcbbe1916f43d123ceabfd72740",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Yilong HAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yilong-han-yilong",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-07",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "df413dc78c21999a3fd2ab7acb11f05b4db1991518875e90c4059185384fd0bd",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Shilin HUANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shilin-huang-huangsl",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-08",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "f671abe3f47f4fecbfb1e30672c1c588c6736126354804285a88f3b701e952d3",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Meizhen HUANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=meizhen-huang-meizhenhuang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-09",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "bc28a65c73b8c82f87b46a76d2b3bca1706ce626f08789d13cda9ecd6180afaf",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Berthold JÄCK",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=berthold-j196ck-bjaeck",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-10",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "cc82230b8dba4514300f8087cbd7cca32ee2b8480371a6f1dc7c2332a1faa3b9",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Kaifei KANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kaifei-kang-kfkang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-11",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "01c7c2099fd522d81f6e2175adc4b84d8f6eba62efe20fc2308893d05b180526",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Kam Tuen LAW",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-tuen-law-phlaw",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-12",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "a560fa7eb1e3831dd7ad4acdb9dd02a06dcd5ef183a2cb4d3085006f3983bdfe",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Shiming LEI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shiming-lei-phslei",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-13",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "36ec6338faa2e316987b88c1d0946e20f33fb765e0876752cac319790b267687",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Pak Wo LEUNG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=pak-wo-leung-phleung",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-14",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "44112e1823399c0c3faf16b0a4c783e369e4c7d39205330fb358d799044a50a0",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Shuohui LI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shuohui-li-shuohuili",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-15",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "315deb86b37836658868db80f04ca3b945747c8bc816090a2b617b84e52769f9",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Nian LIN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=nian-lin-phnlin",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-16",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "5be28b331aa561ab90857e44ca9f4895c50a5362ec85fca6c4b10429833bd029",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Tao LIU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=tao-liu-taoliu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-17",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "77710e8a29ebb2307e15b1472db2ede28ce61f1471ede3eb7b11b2efb9ae4d67",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Junwei LIU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=junwei-liu-liuj",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-18",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "74e8c0f86c451ebf1bf40f0621cc7ede2f6f05bed23ccacc88d9b3029fee89c1",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Kam Biu LUK",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kam-biu-luk-kbluk",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-19",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "464ebb791bd76dc75c114947785732927097e91612842b5e2c618bf64fea4a7c",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Giorgio MANZONI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=giorgio-manzoni-manzoni",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-20",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "4bcd30fb696145ec53d2b16bf70f1e656b537253e944ff39671dcc970d1bc729",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Yee Fai NG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yee-fai-ng-phyfng",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-21",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "4f1bf9fc2415dc3ad616588bbdb800ffd9a32caad8701c8e83aa7a712c11fda0",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Shangqiang NING",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=shangqiang-ning-sqning",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-22",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "dd7747a1f9959c440aba24e86ce88d1f50ce51bb2c98e90c8cac6b628f356d46",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Ding PAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ding-pan-dingpan",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-23",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "2135592687ed8a39c5fff41b74867a4999d995697e021ed60ad2b1a3cfcbc152",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Nidhi PANT",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=nidhi-pant-pantnidhi",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-24",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "70d7b024402e7996fca0f9c836b72c2d0fdb008def9ab8e626c5abb5cb3778c8",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Hyo Keun PARK",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=hyo-keun-park-hkpark",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-25",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "e0833d17d079517d2bba1821f3112525f5bc8e015646a16e93cfae0a3eba73e5",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Adrian Hoi Chun PO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=adrian-hoi-chun-po-hcpo",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-26",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "47631525996ef628bf74ac6f4e39819dbdfda3cd3a9efe31553e1104c737e937",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Kirill PROKOFIEV",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=kirill-prokofiev-kprok",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_statement_not_found",
+                  "facultyId": null,
+                  "reviewNote": "原HTTP完整回应超过私有读取界限，正常web reader未能访问；保留待核，不换通道或推断研究。"
+                },
+                {
+                  "name": "Yik Chuen SAN",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yik-chuen-san-phycsan",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-28",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "854bd0b6bba823db5aaaf8d9039607857fba12ce536ed28012ad984cb0474723",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Qiming SHAO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=qiming-shao-eeqshao",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-29",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "093cc57e7e904d9c5601c7558df1d418514b6727d9ba767529664c17859ebea5",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Xueyang SONG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=xueyang-song-songxy",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-30",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "d53790a512292307e64d7e45574156a31471055d5d28f034679dfc78f420a565",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Penger TONG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=penger-tong-penger",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-31",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "7afd38235764c5e578b8488fe386fe43864bb485d5210ab035514199bc8c31da",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Ophelia K C TSUI",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ophelia-k-c-tsui-okctsui",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-32",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "22b97f286df2c75148b1743a6eb8339cfe1db37da5558af1f2eb18ba102f4891",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Jiannong WANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jiannong-wang-phjwang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-33",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "1d2559afc91c8aa88533563c2d1cedc39427e5ee58744af0280ef29d651091d3",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Jue WANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jue-wang-jue",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-34",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "637468b3d51500e969827e296b6e61b8b263c168d2cc8cb505f377a9d947e0e0",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dong-Gang WANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=donggang-wang-wdgang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-35",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "404e435e95894c8633ff893c864a9266f43e7e83b3cc4b25f811a6591fa24f86",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Ning WANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ning-wang-phwang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-36",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "2c428cc4286a3cd57e99a85178cfba791c6a746b02c2f761bbd05a4ebbbd3db6",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Yi WANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yi-wang-phyw",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-37",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "0307f2bd9221044e9e0db9e72a2770ed25129c37b328cf3542e8bbec882ad5a7",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Haruki WATANABE",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=haruki-watanabe-hwatanabe",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-38",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "4d4c995d975ffa5fa3138665d5745db71b81960f2b6c484326bab6dad85256f6",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Qin XU",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=qin-xu-qinxu",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-39",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "fff68e6b6e451624e45a35cd5eb255a17e4c51533b634eccc56e3ab0c48f92be",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Sen YANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=sen-yang-phsyang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-40",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "29b1fc74c250eb01b7d56f279097390ad9c387fa5a6c497d3a803dad0527e584",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Rui ZHANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=rui-zhang-ruizhang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-41",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "29ad9a97fc120cd7b514fabf86a3c154a8459cea7d144ac749ff919610ad8cc2",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Jingdi ZHANG",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=jingdi-zhang-jdzhang",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-42",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "d2e1af1e42cb768fea2cf597bfa151e351f043468e78a06d084422595e48af5e",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Yue ZHAO",
+                  "url": "https://facultyprofiles.ust.hk/profiles.php?profile=yue-zhao-zhaoyue",
+                  "observedOn": "https://science.hkust.edu.hk/about/our_people?academic-unit=3009&show=faculty-members",
+                  "directoryLabel": "理学院 · 物理人员分页",
+                  "directorySourceIds": [
+                    "physics-directory-0-20261028",
+                    "physics-directory-1-20261028",
+                    "physics-directory-2-20261028",
+                    "physics-directory-3-20261028"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "facultyId": "hkust-physics-43",
+                  "reviewNote": "研究与名录身份分别核对；原链接失败和后续web-reader补读不混为一次完整HTTP成功。",
+                  "bodySha256": "2e1c9c2466b835cb39da2d13456a8814a4e2c4b9aad8d77c384841eb908d0ada",
+                  "readMethod": "anonymous_HTTP"
+                }
+              ]
             }
           ]
         },
@@ -117103,5 +123525,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:8a208df3c6212dd35904f5d31ebd65e6b16bf35cabe91c8838e59e1ce96592f3"
+  "snapshotId": "sha256:452a9f812d522b475238c505c0d03dbdbbad39d44c002e29600a21e6dd073016"
 };

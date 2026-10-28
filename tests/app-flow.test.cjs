@@ -448,3 +448,17 @@ test('SEEM callbacks expose a verified personal redirect, keep ordinary dates se
  await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
  assert.match(restored.byId.get('saved-faculty').textContent,/陳南/);assert.match(restored.byId.get('tasks').textContent,/2027\/28.*PhD/);assert.equal(restored.networkCalls(),0);
 });
+
+test('physics callbacks preserve research, an undated programme action and the scoped directory across backup restore',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);el('research-query').value='量子控制';await el('profile-form').emit('input',{target:el('research-query')});
+ const teacher=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Shilin HUANG'));assert.ok(teacher);
+ assert.ok(h.walk(teacher).some(n=>n.tagName==='a'&&n.href==='https://huang-shilin.github.io/'));assert.match(teacher.textContent,/未注明入学年度/);assert.match(teacher.textContent,/指导资格/);
+ await h.walk(teacher).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='物理 MPhil/PhD'));assert.ok(p);
+ assert.match(p.textContent,/入学轮次待核/);assert.match(p.textContent,/不能当成递交申请前/);assert.match(p.textContent,/当期申请时间待核/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');
+ await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
+ assert.match(restored.byId.get('saved-faculty').textContent,/Shilin HUANG/);assert.match(restored.byId.get('tasks').textContent,/PhD.*项目轮次待核|项目轮次待核.*PhD/);
+ await el('show-directories').emit('click');assert.ok(h.walk(el('academic-coverage')).some(n=>n.tagName==='a'&&n.href==='https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members&page=0'));
+ assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
