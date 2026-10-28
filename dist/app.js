@@ -80,7 +80,7 @@
     if(f.role)card.append(node('p','官网所列身份：'+f.role,'scope-text'));
     const specific=node('div',null,'research-terms');(f.researchKeywords||[]).forEach(term=>specific.append(node('span',term,'research-term')));card.append(specific);
     const termMatches=L.matchedResearchTerms(f,state.profile.researchQuery);if(termMatches.length)card.append(node('p','与你所填词语对应的官网研究词：'+termMatches.join('、'),'research-match'));
-    const bottom=node('div',null,'card-bottom');append(bottom,link('看老师的官方主页 ↗',f.profileUrl),button(state.shortlist.includes(f.id)?'已在清单中 · 移除':'放入我的清单 ＋',()=>toggleFaculty(f),'subtle-button'));card.append(bottom);
+      const bottom=node('div',null,'card-bottom');append(bottom,observedProfileLink('看院系提供的老师主页 ↗',f.profileUrl,f.directorySourceIds),button(state.shortlist.includes(f.id)?'已在清单中 · 移除':'放入我的清单 ＋',()=>toggleFaculty(f),'subtle-button'));card.append(bottom);
     if(f.directoryRole){append(card,node('p','目录中的原职位：'+f.directoryRole,'scope-text'),node('p',f.identityNote,'field-help'));if(f.reviewedProfileUrl&&f.reviewedProfileUrl!==f.profileUrl)card.append(link('这次补读的官方研究档案 ↗',f.reviewedProfileUrl));}
     const related=L.facultyLinks(C,f);
     if(related.length){const more=node('details',null,'source-details');more.append(node('summary','继续看个人主页与研究档案'));more.append(node('p','下面的链接来自院系主页。个人网站可能更详细，但教师自述不等于学校招生政策。','evidence-note'));related.forEach(item=>{append(more,item.linkIssue?node('span',item.label+'（原链接有误，待核）'):verifiedLink(item.label+' ↗',item.url),node('p',item.readNote||(item.bodyStatus==='body_read'?'已读到正文；具体名额仍需另行确认。':'已核到院系提供这个链接，正文还没整理；可以先打开继续看。'),'field-help'));});card.append(more);}

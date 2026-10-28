@@ -473,3 +473,15 @@ test('math applicant reads actual research and current programme, then reopens t
  const raw=await h.downloads[0].blob.text(),saved=L.parsePortable(raw,C);assert.deepEqual(saved.shortlist,['hkust-math-07']);const restored=harness([['yanxiang-local-v1',raw]]);
  assert.match(restored.byId.get('saved-faculty').textContent,/Shuoqing DENG/);assert.match(restored.byId.get('tasks').textContent,/PhD/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+test('BME applicant opens the directory-supplied lab, sees earlier submission and restores a MPhil action',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','MPhil',[]);el('research-query').value='定量相位成像';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='ZHOU, Renjie'));assert.ok(card);
+ assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href==='https://www.lambcuhk.org/'),'An observed directory HTTPS link should be usable on the teacher card');
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='生物医学工程 MPhil/PhD'));assert.ok(p);
+ assert.match(p.textContent,/2026-11-15/);assert.match(p.textContent,/纸质/);assert.match(p.textContent,/三封推荐/);assert.doesNotMatch(p.textContent,/博士英文研究兴趣和院系信息表/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
+ const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
+ assert.match(restored.byId.get('saved-faculty').textContent,/ZHOU, Renjie/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});

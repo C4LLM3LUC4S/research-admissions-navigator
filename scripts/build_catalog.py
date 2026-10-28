@@ -469,6 +469,13 @@ def build_catalog():
     catalog["faculty"].extend(mathematics["faculty"])
     catalog["directories"].extend(mathematics["directories"])
     science_unit["staffEntries"].extend(mathematics["staffEntries"])
+    bme = load("cuhk-bme-census-20261028.json")
+    catalog["sources"].extend(bme["sources"])
+    catalog["faculty"].extend(bme["faculty"])
+    catalog["directories"].extend(bme["directories"])
+    catalog["programs"].extend(bme["programmes"])
+    engineering_unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhk-4")
+    engineering_unit["staffEntries"].extend(bme["staffEntries"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -516,7 +523,17 @@ def validate(catalog):
             validate_read_receipt(source)
         if source.get("bodySha256") == "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d":
             assert source["evidenceLevel"] == "official_entry_access_failed" and source.get("responseKind") == "access_challenge", "A known access-check response is not verified institutional content"
-        assert source["url"].startswith("https://") and source["claims"]
+        if source["url"].startswith("http://"):
+            # Keep actual supplied legacy HTTP evidence without silently upgrading it.
+            # The web link policy remains HTTPS-only.
+            assert source.get("transportScope") == "read_only_http_source_not_clickable"
+            assert source.get("retrievedUrl") == source["url"]
+            assert source.get("readMethod") == "anonymous_HTTP"
+            assert re.fullmatch("[a-f0-9]{64}", source.get("bodySha256", ""))
+            assert source.get("originalUrl", "").startswith("http://")
+        else:
+            assert source["url"].startswith("https://")
+        assert source["claims"]
         checked = source["checkedAt"]
         assert isinstance(checked, str) and re.fullmatch(r"\d{4}-\d\d-\d\d", checked), "Record the actual source verification date"
         assert datetime.fromisoformat(checked).date().isoformat() == checked and checked <= catalog["checkedDate"], "Source verification cannot be after the catalogue version"
