@@ -476,6 +476,12 @@ def build_catalog():
     catalog["programs"].extend(bme["programmes"])
     engineering_unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhk-4")
     engineering_unit["staffEntries"].extend(bme["staffEntries"])
+    chemistry = load("hkust-chemistry-census-20261028.json")
+    catalog["sources"].extend(chemistry["sources"])
+    catalog["faculty"].extend(chemistry["faculty"])
+    catalog["directories"].extend(chemistry["directories"])
+    catalog["programs"].extend(chemistry["programmes"])
+    science_unit["staffEntries"].extend(chemistry["staffEntries"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -617,7 +623,10 @@ def validate(catalog):
                     assert target["evidenceLevel"] == "teacher_page_linked_from_official_profile"
                     assert target["originalUrl"] == link["url"] and target["retrievedUrl"] == target["url"]
                     assert target["parentSourceId"] == parent["id"] and target["id"] in f["sourceIds"]
-                    assert target["url"].startswith("https://")
+                    if not target["url"].startswith("https://"):
+                        # Retained HTTP redirects are evidence only; the UI still rejects HTTP.
+                        assert link["url"].startswith("http://")
+                        assert target.get("transportScope") == "read_only_http_source_not_clickable"
         for note in f.get("applicationNotes", []):
             assert note["kind"] in {"official_supervisor_list", "teacher_statement", "page_conflict"}
             assert note["label"] and note["text"]

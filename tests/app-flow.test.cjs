@@ -486,3 +486,15 @@ test('BME applicant opens the directory-supplied lab, sees earlier submission an
  const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
  assert.match(restored.byId.get('saved-faculty').textContent,/ZHOU, Renjie/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+test('chemistry applicant follows the supplied lab, reads the correct round and restores the degree-scoped action',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkust','MPhil',[]);el('research-query').value='生物催化';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Hui CAO'));assert.ok(card);
+ assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href==='https://hcaogroup.com/'));assert.match(card.textContent,/HKPFS本身只适用于PhD/);
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='化学 MPhil/PhD'));assert.ok(p);
+ assert.match(p.textContent,/2027-07-15/);assert.match(p.textContent,/2027-06-01/);assert.match(p.textContent,/完整上传材料/);assert.doesNotMatch(p.textContent,/博士不只有硕士毕业一条路/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
+ const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/Hui CAO/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);
+ assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});

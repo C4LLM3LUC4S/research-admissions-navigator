@@ -7,7 +7,7 @@ const profile=q=>({...L.defaultProfile(C),universityIds:['hkust'],degree:'PhD',r
 
 test('math preserves1056 prior identities, all programme conditions and original source objects',()=>{
  for(const k of ['faculty','programs','sources'])for(const row of old[k])assert.deepEqual(C[k].find(x=>x.id===row.id),row);
- assert.equal(P.faculty.length,52);assert.equal(P.existingIdentityEvidence.length,4);assert.equal(C.faculty.length,1147);
+ assert.equal(P.faculty.length,52);assert.equal(P.existingIdentityEvidence.length,4);assert.equal(C.faculty.length,1191);
  assert.deepEqual(P.existingIdentityEvidence.map(x=>x.id).sort(),['expand-hkust-ke-wang','review-hkust-1a4d5126dd3fea','review-hkust-8e8e02159255ad','review-hkust-b23367cbd3623b'].sort());
  for(const row of P.existingIdentityEvidence)assert.ok(!P.faculty.some(f=>f.name===row.name));
 });
