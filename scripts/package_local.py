@@ -4,6 +4,7 @@ import hashlib
 import json
 import re
 import subprocess
+import time
 import zipfile
 from pathlib import Path, PurePosixPath
 
@@ -22,6 +23,7 @@ def git(*args):
 if git("status", "--porcelain", "--untracked-files=no").strip():
     raise ValueError("Commit tracked source changes before packaging")
 source = git("rev-parse", "HEAD").decode().strip()
+commit_time = max(315532800, int(git("show", "-s", "--format=%ct", "HEAD")))
 members = {}
 for name in git("ls-files", "-z").decode().split("\0"):
     if not name:
@@ -69,7 +71,11 @@ members["MANIFEST.json"] = (json.dumps(manifest, ensure_ascii=False, indent=2) +
 archive = out / (("Yanxiang-local-prototype-" + version.removesuffix("-local") + ".zip") if version.endswith('-local') else ("Yanxiang-" + version + "-offline.zip"))
 with zipfile.ZipFile(archive, "w", zipfile.ZIP_DEFLATED) as zipped:
     for name, data in sorted(members.items()):
-        zipped.writestr(name, data)
+        entry = zipfile.ZipInfo(name, time.gmtime(commit_time)[:6])
+        entry.create_system = 3
+        entry.external_attr = 0o100644 << 16
+        entry.compress_type = zipfile.ZIP_DEFLATED
+        zipped.writestr(entry, data)
 with zipfile.ZipFile(archive) as zipped:
     assert zipped.testzip() is None and set(zipped.namelist()) == set(members)
     for name, data in members.items():
@@ -80,7 +86,7 @@ if not version.endswith('-local'):
     release_info = out / "RELEASE_INFO.json"
     release_info.write_text(json.dumps({**info, "archive": archive.name, "bytes": archive.stat().st_size, "sha256": digest}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")
     checksums.append(hashlib.sha256(release_info.read_bytes()).hexdigest() + "  RELEASE_INFO.json")
-(out / "SHA256SUMS").write_text("\n".join(checksums) + "\n", encoding="ascii")
+(out / "SHA256SUMS").write_text("\n".join(checksums) + "\n", encoding="ascii", newline="\n")
 (out / "summary.json").write_text(json.dumps({"status": "passed_local_package", **info, "members": len(members), "zip_sha256": digest,
     "scope": "Local committed package CRC, member bytes and hashes; no new UI/download/independent-user or public-release claim"}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 print(json.dumps({"status": "passed", "archive": str(archive), "members": len(members)}))

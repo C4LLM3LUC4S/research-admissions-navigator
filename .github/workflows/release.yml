@@ -1,0 +1,44 @@
+name: Checked offline alpha release
+on:
+  push:
+    tags: ['v*']
+permissions:
+  contents: read
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'C4LLM3LUC4S/research-admissions-navigator'
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Check source, decisions and release recovery
+        run: |
+          python scripts/build_catalog.py --check
+          node --test tests/*.test.cjs
+          python -m unittest discover -s tests -p 'test_*.py'
+      - name: Build exact tagged offline package
+        run: python scripts/package_local.py --out artifacts/tagged-release
+      - name: Check and publish without replacing any remote asset
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: python scripts/publish_release.py --folder artifacts/tagged-release --tag "$RELEASE_TAG"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: release-receipt-${{ github.ref_name }}
+          path: artifacts/tagged-release/
+          if-no-files-found: ignore
