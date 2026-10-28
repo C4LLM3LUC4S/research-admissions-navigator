@@ -462,3 +462,14 @@ test('physics callbacks preserve research, an undated programme action and the s
  await el('show-directories').emit('click');assert.ok(h.walk(el('academic-coverage')).some(n=>n.tagName==='a'&&n.href==='https://science.hkust.edu.hk/about/our_people?academic-unit=2942&show=faculty-members&page=0'));
  assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+test('math applicant reads actual research and current programme, then reopens the teacher and doctoral action',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);el('research-query').value='随机控制';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(x=>x.tagName==='h3'&&x.textContent==='Shuoqing DENG'));assert.ok(card);assert.match(card.textContent,/随机控制/);assert.match(card.textContent,/指导资格/);
+ assert.ok(h.walk(card).some(x=>x.tagName==='a'&&x.href==='https://sites.google.com/view/shuoqingdeng/'));
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(x=>x.tagName==='h3'&&x.textContent==='数学（含概率统计、金融数学等方向）'));assert.ok(p);assert.match(p.textContent,/2027-06-01/);assert.match(p.textContent,/每项5.5/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
+ const raw=await h.downloads[0].blob.text(),saved=L.parsePortable(raw,C);assert.deepEqual(saved.shortlist,['hkust-math-07']);const restored=harness([['yanxiang-local-v1',raw]]);
+ assert.match(restored.byId.get('saved-faculty').textContent,/Shuoqing DENG/);assert.match(restored.byId.get('tasks').textContent,/PhD/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
