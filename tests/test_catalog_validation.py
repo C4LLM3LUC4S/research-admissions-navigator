@@ -13,6 +13,21 @@ spec.loader.exec_module(builder)
 
 
 class SourceDateChecks(unittest.TestCase):
+    def test_a_recorded_redirect_cannot_be_reassigned_to_another_teacher(self):
+        f = next(f for f in self.catalog['faculty'] if f['id'] == 'cuhk-seem-01')
+        link = f['extraLinks'][0]
+        source = next(s for s in self.catalog['sources'] if s['id'] == link['sourceId'])
+        source['parentSourceId'] = 'seem-profile-03-20261028'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_a_redirect_needs_the_actual_original_url_not_a_guessed_upgrade(self):
+        f = next(f for f in self.catalog['faculty'] if f['id'] == 'cuhk-seem-01')
+        source = next(s for s in self.catalog['sources'] if s['id'] == f['extraLinks'][0]['sourceId'])
+        source['originalUrl'] = 'http://another.example/'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
     def setUp(self):
         self.catalog = builder.build_catalog()
 

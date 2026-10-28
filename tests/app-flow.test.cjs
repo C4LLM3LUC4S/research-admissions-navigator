@@ -436,3 +436,15 @@ test('an undated research-degree route remains findable without pretending the s
  assert.match(restored.byId.get('tasks').textContent,/项目轮次待核/);
  assert.equal(h.networkCalls(),0);
 });
+
+test('SEEM callbacks expose a verified personal redirect, keep ordinary dates separate and restore a doctoral task',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);el('research-query').value='金融工程';await el('profile-form').emit('input',{target:el('research-query')});
+ const teacher=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='CHEN, Nan / 陳南'));assert.ok(teacher);
+ assert.ok(h.walk(teacher).some(n=>n.tagName==='a'&&n.href==='https://www1.se.cuhk.edu.hk/~nchenweb/'));
+ await h.walk(teacher).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='系统工程与工程管理 MPhil/PhD'));assert.ok(p);
+ assert.match(p.textContent,/面试会早于申请截止/);assert.match(p.textContent,/三份推荐报告/);assert.match(p.textContent,/2026-12-01/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');
+ await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);
+ assert.match(restored.byId.get('saved-faculty').textContent,/陳南/);assert.match(restored.byId.get('tasks').textContent,/2027\/28.*PhD/);assert.equal(restored.networkCalls(),0);
+});
