@@ -8,19 +8,19 @@ test('wide coverage is an evidence-linked faculty inventory, never a count of av
   assert.equal(new Set(C.faculty.map(f=>f.universityId+'|'+f.profileUrl.replace(/\/$/,''))).size,C.faculty.length);
   for(const u of C.universities){assert.ok(C.faculty.filter(f=>f.universityId===u.id).length>=10,u.id);assert.ok(C.directories.filter(d=>d.universityId===u.id).length>=2,u.id);}
   const sources=new Set(C.sources.map(s=>s.id));
-  for(const f of C.faculty){assert.ok(f.researchKeywords.length);assert.ok(f.keywordSourceIds.every(id=>sources.has(id)));assert.ok(L.officialUrl(f.profileUrl));assert.notEqual(f.availability.state,'confirmed');}
+  for(const f of C.faculty){assert.ok(f.researchKeywords.length);assert.ok(f.keywordSourceIds.every(id=>sources.has(id)));if(f.profileUrl.startsWith('http://')){assert.equal(L.observedProfileUrl(C,f.profileUrl,f.directorySourceIds),null);assert.ok(f.sourceIds.some(id=>C.sources.some(s=>s.id===id&&s.transportScope==='read_only_http_source_not_clickable')));}else assert.ok(L.observedProfileUrl(C,f.profileUrl,f.directorySourceIds));assert.notEqual(f.availability.state,'confirmed');}
   for(const d of C.directories){assert.equal(d.coverageComplete,false);assert.ok(L.officialUrl(d.url));assert.ok(d.sourceIds.every(id=>sources.has(id)));}
 });
 
 test('the academic map exposes pending profile links without inflating researched-faculty counts',()=>{
   assert.equal(C.academicCoverage.length,7);
   const leads=C.academicCoverage.flatMap(r=>r.units.flatMap(u=>u.staffEntries.flatMap(s=>s.profileLeads)));
-  assert.equal(leads.length,1170);assert.equal(C.faculty.length,1108);
-  assert.equal(leads.filter(p=>p.facultyId).length,1005);
-  for(const lead of leads){assert.ok(['body_read','not_read','access_failed'].includes(lead.profileBodyStatus));assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');if(lead.url.startsWith('http://')){assert.equal(lead.profileBodyStatus,'not_read');assert.equal(L.observedProfileUrl(C,lead.url,lead.directorySourceIds),null);}else assert.ok(L.observedProfileUrl(C,lead.url,lead.directorySourceIds));}
+  assert.equal(leads.length,1232);assert.equal(C.faculty.length,1147);
+  assert.equal(leads.filter(p=>p.facultyId).length,1047);
+  for(const lead of leads){assert.ok(['body_read','not_read','access_failed'].includes(lead.profileBodyStatus));assert.equal(lead.supervisionEligibility,'unknown');assert.equal(lead.availability,'unknown');if(lead.url.startsWith('http://')){if(lead.profileBodyStatus==='body_read')assert.match(lead.bodySha256||lead.readReceiptSha256,/^[a-f0-9]{64}$/);assert.equal(L.observedProfileUrl(C,lead.url,lead.directorySourceIds),null);}else assert.ok(L.observedProfileUrl(C,lead.url,lead.directorySourceIds));}
   const polyu=C.academicCoverage.find(r=>r.universityId==='polyu');
   assert.ok(polyu.units.find(u=>u.id==='polyu-8').staffEntries.some(s=>s.profileLeads.length>20));
-  assert.equal(C.directories.length,46);
+  assert.equal(C.directories.length,49);
 });
 
 test('SAI keeps all six pages, original identities and two different Ming Li profiles',()=>{

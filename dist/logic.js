@@ -96,12 +96,18 @@
     try {const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&(!u.port||u.port==='443')?u.href:null;}catch(_){return null;}
   }
   function sourceUrl(catalog,source) {
-    const official=officialUrl(source.url);if(official)return official;
-    if(source.evidenceLevel!=='teacher_page_linked_from_official_profile')return null;
-    const parent=catalog.sources.find(s=>s.id===source.parentSourceId);
-    if(!parent||!officialUrl(parent.url))return null;
-    if((parent.discoveredLinks||[]).includes(source.url))return publicHttps(source.url);
-    return source.originalUrl&&source.retrievedUrl===source.url&&(parent.discoveredLinks||[]).includes(source.originalUrl)?publicHttps(source.url):null;
+    const target=publicHttps(source.url);if(!target)return null;
+    const seen=new Set();let current=source;
+    for(let depth=0;depth<16;depth++){
+      if(seen.has(current.id))return null;seen.add(current.id);
+      if(officialUrl(current.url))return target;
+      if(!publicHttps(current.url)||current.evidenceLevel!=='teacher_page_linked_from_official_profile')return null;
+      const parent=catalog.sources.find(s=>s.id===current.parentSourceId);if(!parent)return null;
+      const links=parent.discoveredLinks||[];
+      if(!links.includes(current.url)&&!(current.originalUrl&&current.retrievedUrl===current.url&&links.includes(current.originalUrl)))return null;
+      current=parent;
+    }
+    return null;
   }
   function facultyLinks(catalog,faculty) {
     return (faculty.extraLinks||[]).flatMap(item=>{
@@ -110,7 +116,7 @@
       const fromProfile=parent&&[faculty.profileUrl,faculty.reviewedProfileUrl].filter(Boolean).includes(parent.url);
       const fromDirectory=parent&&(faculty.directorySourceIds||[]).includes(parent.id)&&
         (parent.teacherLinksByProfile?.[faculty.profileUrl]||[]).includes(item.url);
-      if(!parent||!officialUrl(parent.url)||(!fromProfile&&!fromDirectory)||
+      if(!parent||!sourceUrl(catalog,parent)||(!fromProfile&&!fromDirectory)||
         !faculty.sourceIds.includes(parent.id)||!(parent.discoveredLinks||[]).includes(item.url))return [];
       if(!url&&item.bodyStatus==='body_read'&&item.sourceId&&faculty.sourceIds.includes(item.sourceId)){
         const read=catalog.sources.find(s=>s.id===item.sourceId);

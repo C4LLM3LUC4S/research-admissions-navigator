@@ -212,6 +212,25 @@ class DirectoryPendingChecks(unittest.TestCase):
             builder.validate(catalog)
 
 
+class LegacyEvidenceChecks(unittest.TestCase):
+    def test_http_evidence_needs_actual_response_and_explicit_nonclickable_scope(self):
+        catalog = builder.build_catalog()
+        source = next(s for s in catalog['sources'] if s['id'] == 'bme-profile-24-20261028')
+        self.assertEqual(source['url'], source['retrievedUrl'])
+        self.assertEqual(builder.validate(catalog)['status'], 'passed')
+        source.pop('transportScope')
+        with self.assertRaises(AssertionError):
+            builder.validate(catalog)
+
+    def test_http_evidence_cannot_borrow_a_different_returned_url_or_missing_body(self):
+        for field, value in [('retrievedUrl', 'https://unverified.example/'), ('bodySha256', '')]:
+            catalog = builder.build_catalog()
+            source = next(s for s in catalog['sources'] if s['id'] == 'bme-profile-24-20261028')
+            source[field] = value
+            with self.assertRaises(AssertionError):
+                builder.validate(catalog)
+
+
 class PageAssetChecks(unittest.TestCase):
     def test_public_page_mirror_is_exactly_the_reviewed_offline_page(self):
         for name in ('index.html', 'catalog.js', 'logic.js', 'app.js', 'styles.css', 'discovery.css'):

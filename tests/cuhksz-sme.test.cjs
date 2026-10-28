@@ -10,7 +10,7 @@ test('the entire returned130-card range stays visible without calling twelve unr
 });
 test('old faculty, programme, source dates and identities remain exact objects',()=>{
  for(const key of ['faculty','programs','sources'])for(const r of old[key])assert.deepEqual(C[key].find(n=>n.id===r.id),r,r.id);
- assert.equal(C.faculty.length,1108);assert.equal(C.programs.length,34);assert.equal(C.faculty.filter(f=>f.universityId==='cuhksz').length,178);
+ assert.equal(C.faculty.length,1147);assert.equal(C.programs.length,35);assert.equal(C.faculty.filter(f=>f.universityId==='cuhksz').length,178);
 });
 test('Chinese words find the actual original research while appointments and past institutions stay separate',()=>{
  for(const [q,name] of [['大语言模型','申睿'],['图神经网络','陈琛'],['气候金融','胡中琛']]){
