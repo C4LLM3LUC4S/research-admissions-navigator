@@ -456,6 +456,14 @@ def build_catalog():
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cuhk-4")
     unit["staffEntries"].extend(seem["staffEntries"])
     catalog["programs"].extend(seem["programmes"])
+    physics = load("hkust-physics-census-20261028.json")
+    catalog["sources"].extend(physics["sources"])
+    catalog["faculty"].extend(physics["faculty"])
+    catalog["directories"].extend(physics["directories"])
+    catalog["programs"].extend(physics["programmes"])
+    science_unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hkust-1")
+    science_unit["staffEntries"].extend(physics["staffEntries"])
+    science_unit["children"].extend(physics["unitChildren"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}

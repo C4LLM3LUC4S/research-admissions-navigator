@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a10",
+  "version": "0.1.0a11",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-28",
@@ -7,26 +7,26 @@
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 32,
-    "degree_routes": 52,
-    "faculty": 1013,
-    "official_sources": 1531,
-    "programmes_with_partial_requirements": 30,
-    "requirement_items": 127,
-    "programmes_with_partial_finances": 24,
-    "finance_items": 44,
-    "official_directory_entries": 44,
-    "teacher_linked_sources": 221,
-    "total_sources": 1752,
+    "programme_or_route_cards": 34,
+    "degree_routes": 56,
+    "faculty": 1056,
+    "official_sources": 1589,
+    "programmes_with_partial_requirements": 32,
+    "requirement_items": 133,
+    "programmes_with_partial_finances": 26,
+    "finance_items": 46,
+    "official_directory_entries": 45,
+    "teacher_linked_sources": 253,
+    "total_sources": 1842,
     "academic_unit_rows": 66,
-    "listed_child_units": 185,
+    "listed_child_units": 190,
     "reviewed_new_profiles": 165,
     "reviewed_existing_updates": 5,
     "profile_bodies_read": 1045,
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
     "cityu_deferred_profiles": 4,
-    "observed_profile_links": 1068,
+    "observed_profile_links": 1112,
     "pending_research_review": 162,
     "sai_directory_pages": 6,
     "sai_profiles": 53,
@@ -144,10 +144,11 @@
     "补CBME和BIEN的2027/28研究学位、非本地/本地及春秋日期、新旧托福尺度与180港元申请费；补课条件不写成生物本科前置要求，完整系统材料和导师支持要求仍未知。",
     "根据已存相同防护响应摘要纠正20个入口和5项来源的正文读取状态；保留原核查日、原链接与所有教师编号，不把HTTP200当作院系正文。",
     "未注明招生年度的研究学位入口明确标待核，选择轮次不当官网已证实，待办保留计划与未知区别",
-    "港中文SEEM三类36原链接和35份研究分开，33新增、2原编号接续；只按已核源归属与真实返回HTTPS接通旧HTTP个人链接。"
+    "港中文SEEM三类36原链接和35份研究分开，33新增、2原编号接续；只按已核源归属与真实返回HTTPS接通旧HTTP个人链接。",
+    "港科大物理44原主页分清43份研究与1份待核，个人链接32正文/8未读；物理与纳米研究学位年度和费用未知，教学身份与导师资格分开。生命科学用已核范围的真实分页入口。"
   ],
   "verification": {
-    "node_checks": 124,
+    "node_checks": 130,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -155,24 +156,33 @@
       2,
       3
     ],
-    "catalog_check": "passed",
+    "catalog_check": "Current source is checked during build and CI; exact run receipts remain separate.",
     "actual_callback_journey_with_DOM_stubs": "passed",
-    "actual_browser_visual_keyboard_native_picker_and_download": "旧a4/PR13实际恢复及窄屏证据保留；新CBE对应实际操作另存验收收据，本源码不预先声称新浏览器通过。",
+    "actual_browser_visual_keyboard_native_picker_and_download": "Earlier browser evidence is preserved separately. This Physics batch adds source review and callback/logic task checks, not new browser or native file operations.",
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 29
+    "python_checks": 39
   },
   "limitations": [
-    "1013份研究资料、44目录仍非七校导师全集；SEEM1条缺研究、2个原HTTP入口与其HTTPS档案分开，任职不证明指导资格。",
-    "1008份当前接收未知，其他公开招募也不是实时余位。",
+    "1056份研究资料、45目录仍非七校导师全集；物理1份原主页与其他人员分类待核，教学与研究岗位不证明指导资格。",
+    "1051份当前接收未知，其他公开招募也不是实时余位。",
     "数学、统计、金融和生物统计仅开始整理部分研究线索，尚未补齐各专业申请项目和政策。",
-    "当前32条项目/申请路线，30条有部分要求、24条有部分费用或资助；未列出的材料和费用仍未知。旧访问拒绝保留，不用别系规则填补。",
+    "当前34条项目卡片，32条有部分要求、26条有部分费用或资助；未列出的条件仍未知，未标年度的物理与纳米入口不推定当期开放。",
     "部分2027/28资助金额、港理工新制TOEFL与具体院系联系要求尚待核实；未知不补0。",
     "公开源码与静态页面仍是早期alpha；没有申请经历的公共投稿审核后台。",
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "接续DASE完整当期校级规则与未链接身份，再按七校缺口轮换；SME12条与更多个人站保留待核。",
-  "count_scope_notes": "observed_profile_links、profile_bodies_read及pending_research_review只统计学院图已列原主页线索；不是全校人口，也不含全部未链接卡片。各校具名计数保留各批范围。"
+  "next": "七校轮换补缺，继续理学院其余单位及系内其他身份类别、个人站和对应当期要求；不把已有研究人数当全体导师。",
+  "count_scope_notes": "observed_profile_links、profile_bodies_read及pending_research_review只统计学院图已列原主页线索；不是全校人口，也不含全部未链接卡片。各校具名计数保留各批范围。",
+  "latest_coverage_batch": {
+    "unit": "HKUST Physics research and research degrees",
+    "reviewed_original_profiles": 44,
+    "new_research_records": 43,
+    "unread_original": 1,
+    "provided_personal_links": 40,
+    "read_personal_links": 32,
+    "scope": "Partial reviewed research leads, not qualified supervisors or available places. Other departmental categories remain in review queue."
+  }
 }
