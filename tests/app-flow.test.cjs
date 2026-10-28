@@ -520,3 +520,13 @@ test('compact labels preserve case-sensitive scientific symbols and exponent not
  assert.equal(labels.filter(x=>x.toLowerCase()==='protein engineering').length,1);
  assert.deepEqual(catalog.faculty.find(f=>f.id==='hkust-chemistry-01').researchKeywords,['Co','CO','mRNA','mrna','x²','x2','Protein engineering','protein engineering']);
 });
+
+test('mechanical applicant finds graph control and restores a school-and-degree-specific preparation task',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','MPhil',[]);el('research-query').value='图学习';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Gao, Zhan'));assert.ok(card);assert.match(card.textContent,/指导资格.*实时余位/);
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='机械工程研究学位'));assert.ok(p);
+ assert.match(p.textContent,/2023–24/);assert.match(p.textContent,/2026\/12\/01/);assert.doesNotMatch(p.textContent,/先分研究硕士与不同博士学制/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
+ const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/Gao, Zhan/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.match(restored.byId.get('tasks').textContent,/机械工程/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
