@@ -46,6 +46,13 @@ class SourceDateChecks(unittest.TestCase):
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
 
+    def test_a_directory_link_cannot_be_attached_to_another_teacher(self):
+        teacher = next(f for f in self.catalog['faculty'] if f['name'] == '邓淇元')
+        parent = next(s for s in self.catalog['sources'] if s['id'] == 'cuhksz-sme-directory-20261028')
+        parent['teacherLinksByProfile'][teacher['profileUrl']] = []
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
     def test_dated_teacher_notice_requires_exact_intake_and_teacher_source(self):
         teacher = next(f for f in self.catalog['faculty'] if f['availability'].get('noticeKind') == 'dated_teacher_statement')
         teacher['availability']['intake'] = '2027 Spring'

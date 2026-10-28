@@ -2,6 +2,11 @@
   "primary_task": "逐校学院总表→逐院学系/学域→完整师资及分页→逐人官方主页与个人Links→对应研究型项目要求。七校都推进，不能只在一个系零散加人。",
   "priorities": [
     {
+      "id": "cuhksz-sme-followthrough",
+      "task": "SME130原主页中12份研究/身份仍待核；65个去重提供网站入口的返回响应、身份、研究分别复核，原失败保留；IMS当期博士政策不可用，不套其他五项目。下一学校优先未覆盖学院。",
+      "acceptance": "已读原文才能更新研究/政策，指导资格和余位未知。不可用浏览器不冒充UI通过，原841条资料逐项保持。"
+    },
+    {
       "id": "whole-university-academic-map",
       "status": "seven_maps_108_child_entries_read_32_unread_107_staff_routes",
       "task": "逐院核107个人员导航的完整名单与分页；108个下属单位正文和32个未读到正文分别保留，其中20个是访问检查页，不能当正文。",
