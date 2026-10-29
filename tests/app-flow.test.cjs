@@ -558,3 +558,8 @@ test('CEE doctoral reader sees a scoped 2027 advertisement and both separate HKP
  const h=harness(),el=id=>h.byId.get(id);h.select('polyu','PhD',[]);el('research-query').value='超材料';await el('profile-form').emit('input',{target:el('research-query')});const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Prof. Kai ZHOU'));assert.ok(card);assert.match(card.textContent,/2027年秋季PhD招募/);assert.match(card.textContent,/不是MPhil/);
  await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='土木与环境工程：2027/28 HKPFS博士申请'));assert.ok(p);assert.match(p.textContent,/12:00/);assert.match(p.textContent,/23:59/);assert.match(p.textContent,/不是两个不同学位或两次大学缴费/);assert.equal(h.networkCalls(),0);
 });
+
+test('college-first view separates matched list from unfinished departments and faculty',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const text=el('academic-coverage').textContent;
+ assert.match(text,/先核清学院和下属院系/);assert.match(text,/11 研究学位页所列学院\/学术单位（含创新学院）/);assert.match(text,/1 另列研究生院/);assert.match(text,/学院名单：已逐项核对研究学位页/);assert.match(text,/下属院系：尚未核齐；教师：按院逐步核对/);assert.match(text,/没有列出，不代表这所学院没有学系/);assert.doesNotMatch(text,/全校教师已收齐/);assert.equal(h.networkCalls(),0);
+});

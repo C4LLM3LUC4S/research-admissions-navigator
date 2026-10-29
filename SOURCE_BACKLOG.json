@@ -105,5 +105,11 @@
     "近期论文用于辅助研究主题",
     "有日期的个人经历仅作为未推广的线索"
   ],
-  "previous_products": "RankProbe、SparsiLoop保持已验收版本维护，不扩到此项目的数据或仓库。"
+  "previous_products": "RankProbe、SparsiLoop保持已验收版本维护，不扩到此项目的数据或仓库。",
+  "priority_order": [
+    "先逐校核齐官方学院/学部/枢纽名单与适用范围",
+    "再逐院核齐下属学系/学域及其他正式学术划分",
+    "最后逐单位完整师资类别/分页/个人主页/提供Links与对应研究学位要求"
+  ],
+  "college_priority_receipt": "data/research/college-priority-20261029.json"
 }
