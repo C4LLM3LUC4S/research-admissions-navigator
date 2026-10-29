@@ -149558,6 +149558,1621 @@ window.APP_CATALOG = {
       "knownIssues": [
         "名单与单位正文、逐人教师和研究学位要求是不同核查阶段。"
       ]
+    },
+    {
+      "id": "organization-sse-home-20261029",
+      "url": "https://sse.cuhk.edu.cn/",
+      "title": "港中深理工学院 · 导航与项目分类",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f367266c9f9202c10a0a06de3c701cdfb9fd6f7c0dcfee9312b8a904743895f9",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "https://sse.cuhk.edu.cn/",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/en",
+        "https://sse.cuhk.edu.cn/node/411",
+        "https://sse.cuhk.edu.cn/introduction",
+        "https://sse.cuhk.edu.cn/page/24",
+        "https://sse.cuhk.edu.cn/sites/default/files/2026-06/%E7%90%86%E5%B7%A5%E6%8B%9B%E7%94%9F%E6%89%8B%E5%86%8C20260616-%E5%8D%95%E9%A1%B5%E7%94%B5%E5%AD%90%E7%89%88%E7%BD%91%E7%AB%9920mb.pdf",
+        "https://sse.cuhk.edu.cn/taxonomy/term/52",
+        "https://sse.cuhk.edu.cn/page/26",
+        "https://sse.cuhk.edu.cn/taxonomy/term/1",
+        "https://sse.cuhk.edu.cn/taxonomy/term/184",
+        "https://sse.cuhk.edu.cn/taxonomy/term/202",
+        "https://sse.cuhk.edu.cn/taxonomy/term/3",
+        "https://sse.cuhk.edu.cn/node/412",
+        "https://sse.cuhk.edu.cn/Undergraduateprogrammes",
+        "https://sse.cuhk.edu.cn/page/538",
+        "https://sse.cuhk.edu.cn/page/1009",
+        "https://sse.cuhk.edu.cn/page/802",
+        "https://sse.cuhk.edu.cn/page/962",
+        "https://sse.cuhk.edu.cn/page/537",
+        "https://sse.cuhk.edu.cn/page/539",
+        "https://sse.cuhk.edu.cn/page/423",
+        "https://sse.cuhk.edu.cn/page/2004",
+        "https://sse.cuhk.edu.cn/page/37",
+        "https://sse.cuhk.edu.cn/talentscheme",
+        "https://sse.cuhk.edu.cn/talentscheme/BSc-PhDProgramme",
+        "https://sse.cuhk.edu.cn/talentscheme/excellenceclass",
+        "https://sse.cuhk.edu.cn/talentscheme/columbiaclass",
+        "https://sse.cuhk.edu.cn/talentscheme/AcceleratedBachelor-MPhilProgram",
+        "https://sse.cuhk.edu.cn/talentscheme/BachelorMScProgramme",
+        "https://sse.cuhk.edu.cn/talentscheme/cuhksz%C3%97cuhkdoublemajor",
+        "https://sse.cuhk.edu.cn/talentscheme/doublemajor-sse%C3%97sme",
+        "https://sse.cuhk.edu.cn/talentscheme/YauClass",
+        "https://sse.cuhk.edu.cn/talentscheme/EliteClassinMathematicsandAl",
+        "https://sse.cuhk.edu.cn/Masterprogrammes",
+        "https://ssemsc.cuhk.edu.cn/node/35",
+        "https://ssemsc.cuhk.edu.cn/node/98",
+        "https://ssemsc.cuhk.edu.cn/node/88",
+        "https://ssemsc.cuhk.edu.cn/node/89",
+        "https://ssemsc.cuhk.edu.cn/node/215",
+        "https://ssemsc.cuhk.edu.cn/node/338",
+        "https://gs.cuhk.edu.cn/node/403",
+        "https://emscsclm.cuhk.edu.cn",
+        "https://sse.cuhk.edu.cn/PhDprogrammes",
+        "https://sse.cuhk.edu.cn/page/757",
+        "https://sse.cuhk.edu.cn/page/991",
+        "https://sse.cuhk.edu.cn/page/1700",
+        "https://sse.cuhk.edu.cn/page/748",
+        "https://sse.cuhk.edu.cn/page/931",
+        "https://sse.cuhk.edu.cn/page/749",
+        "https://sse.cuhk.edu.cn/page/1323",
+        "https://sse.cuhk.edu.cn/teacher-search",
+        "https://sse.cuhk.edu.cn/taxonomy/term/158",
+        "https://sse.cuhk.edu.cn/page/30",
+        "https://sse.cuhk.edu.cn/page/laboratories",
+        "https://sse.cuhk.edu.cn/taxonomy/term/188",
+        "https://sse.cuhk.edu.cn/taxonomy/term/192",
+        "https://sse.cuhk.edu.cn/taxonomy/term/66",
+        "https://sse.cuhk.edu.cn/taxonomy/term/172",
+        "https://mcpc.cuhk.edu.cn/",
+        "https://mrc.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/taxonomy/term/203",
+        "https://sse.cuhk.edu.cn/taxonomy/term/159",
+        "https://sse.cuhk.edu.cn/taxonomy/term/160",
+        "https://sse.cuhk.edu.cn/page/1599",
+        "https://sse.cuhk.edu.cn/page/430",
+        "https://sse.cuhk.edu.cn/page/1134",
+        "https://sse.cuhk.edu.cn/page/1135",
+        "https://sse.cuhk.edu.cn/page/1139",
+        "https://sse.cuhk.edu.cn/page/434",
+        "https://sse.cuhk.edu.cn/sites/default/files/2026-08/CareerPassport2026.pdf",
+        "https://sse.cuhk.edu.cn/page/34",
+        "https://oal.cuhk.edu.cn/exchange_visiting_program",
+        "https://sse.cuhk.edu.cn/page/38",
+        "https://sse.cuhk.edu.cn/taxonomy/term/163",
+        "https://sse.cuhk.edu.cn/taxonomy/term/162",
+        "https://sse.cuhk.edu.cn/taxonomy/term/164",
+        "https://sse.cuhk.edu.cn/taxonomy/term/165",
+        "https://apply.cuhk.edu.cn/matrix-base/rs/plan/SSECD",
+        "https://sse.cuhk.edu.cn/taxonomy/term/166",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/45",
+        "https://sse.cuhk.edu.cn/article/2361",
+        "https://sse.cuhk.edu.cn/article/2355",
+        "https://sse.cuhk.edu.cn/article/2289",
+        "https://sse.cuhk.edu.cn/article/2256",
+        "https://sse.cuhk.edu.cn/article/2161",
+        "https://sse.cuhk.edu.cn/article/2162",
+        "https://sse.cuhk.edu.cn/article/2150",
+        "https://sse.cuhk.edu.cn/article/2112",
+        "https://sse.cuhk.edu.cn/article/2203",
+        "https://sse.cuhk.edu.cn/article/2179",
+        "https://sse.cuhk.edu.cn/article/2206",
+        "https://sse.cuhk.edu.cn/article/2358",
+        "https://sse.cuhk.edu.cn/article/2380",
+        "https://sse.cuhk.edu.cn/article/2379",
+        "https://sse.cuhk.edu.cn/event/2353",
+        "https://admissions.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/page/1667",
+        "https://www.cuhk.edu.cn/taxonomy/term/37",
+        "https://www.cuhk.edu.cn/taxonomy/term/50",
+        "https://www.cuhk.edu.cn/taxonomy/term/45",
+        "https://www.cuhk.edu.cn/page/4908",
+        "https://registry.cuhk.edu.cn",
+        "https://oal.cuhk.edu.cn/",
+        "https://www.cuhk.edu.cn/zh-hans/page/114",
+        "https://library.cuhk.edu.cn/"
+      ],
+      "listedNames": [],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "主页分别列本科、理学硕士和研究型硕博项目，不能把同名本科或授课型入口当研究学位。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-sse-introduction-20261029",
+      "url": "https://sse.cuhk.edu.cn/introduction",
+      "title": "港中深理工学院 · 2026年7月学院简介",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "996698dc305968a5b1b3f3c0c620b0b1501a8697bdd894d4ad7a44d6bb24453e",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/introduction",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "https://sse.cuhk.edu.cn/",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/en/introduction",
+        "https://sse.cuhk.edu.cn/node/411",
+        "https://sse.cuhk.edu.cn/introduction",
+        "https://sse.cuhk.edu.cn/page/24",
+        "https://sse.cuhk.edu.cn/sites/default/files/2026-06/%E7%90%86%E5%B7%A5%E6%8B%9B%E7%94%9F%E6%89%8B%E5%86%8C20260616-%E5%8D%95%E9%A1%B5%E7%94%B5%E5%AD%90%E7%89%88%E7%BD%91%E7%AB%9920mb.pdf",
+        "https://sse.cuhk.edu.cn/taxonomy/term/52",
+        "https://sse.cuhk.edu.cn/page/26",
+        "https://sse.cuhk.edu.cn/taxonomy/term/1",
+        "https://sse.cuhk.edu.cn/taxonomy/term/184",
+        "https://sse.cuhk.edu.cn/taxonomy/term/202",
+        "https://sse.cuhk.edu.cn/taxonomy/term/3",
+        "https://sse.cuhk.edu.cn/node/412",
+        "https://sse.cuhk.edu.cn/Undergraduateprogrammes",
+        "https://sse.cuhk.edu.cn/page/538",
+        "https://sse.cuhk.edu.cn/page/1009",
+        "https://sse.cuhk.edu.cn/page/802",
+        "https://sse.cuhk.edu.cn/page/962",
+        "https://sse.cuhk.edu.cn/page/537",
+        "https://sse.cuhk.edu.cn/page/539",
+        "https://sse.cuhk.edu.cn/page/423",
+        "https://sse.cuhk.edu.cn/page/2004",
+        "https://sse.cuhk.edu.cn/page/37",
+        "https://sse.cuhk.edu.cn/talentscheme",
+        "https://sse.cuhk.edu.cn/talentscheme/BSc-PhDProgramme",
+        "https://sse.cuhk.edu.cn/talentscheme/excellenceclass",
+        "https://sse.cuhk.edu.cn/talentscheme/columbiaclass",
+        "https://sse.cuhk.edu.cn/talentscheme/AcceleratedBachelor-MPhilProgram",
+        "https://sse.cuhk.edu.cn/talentscheme/BachelorMScProgramme",
+        "https://sse.cuhk.edu.cn/talentscheme/cuhksz%C3%97cuhkdoublemajor",
+        "https://sse.cuhk.edu.cn/talentscheme/doublemajor-sse%C3%97sme",
+        "https://sse.cuhk.edu.cn/talentscheme/YauClass",
+        "https://sse.cuhk.edu.cn/talentscheme/EliteClassinMathematicsandAl",
+        "https://sse.cuhk.edu.cn/Masterprogrammes",
+        "https://ssemsc.cuhk.edu.cn/node/35",
+        "https://ssemsc.cuhk.edu.cn/node/98",
+        "https://ssemsc.cuhk.edu.cn/node/88",
+        "https://ssemsc.cuhk.edu.cn/node/89",
+        "https://ssemsc.cuhk.edu.cn/node/215",
+        "https://ssemsc.cuhk.edu.cn/node/338",
+        "https://gs.cuhk.edu.cn/node/403",
+        "https://emscsclm.cuhk.edu.cn",
+        "https://sse.cuhk.edu.cn/PhDprogrammes",
+        "https://sse.cuhk.edu.cn/page/757",
+        "https://sse.cuhk.edu.cn/page/991",
+        "https://sse.cuhk.edu.cn/page/1700",
+        "https://sse.cuhk.edu.cn/page/748",
+        "https://sse.cuhk.edu.cn/page/931",
+        "https://sse.cuhk.edu.cn/page/749",
+        "https://sse.cuhk.edu.cn/page/1323",
+        "https://sse.cuhk.edu.cn/teacher-search",
+        "https://sse.cuhk.edu.cn/taxonomy/term/158",
+        "https://sse.cuhk.edu.cn/page/30",
+        "https://sse.cuhk.edu.cn/page/laboratories",
+        "https://sse.cuhk.edu.cn/taxonomy/term/188",
+        "https://sse.cuhk.edu.cn/taxonomy/term/192",
+        "https://sse.cuhk.edu.cn/taxonomy/term/66",
+        "https://sse.cuhk.edu.cn/taxonomy/term/172",
+        "https://mcpc.cuhk.edu.cn/",
+        "https://mrc.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/taxonomy/term/203",
+        "https://sse.cuhk.edu.cn/taxonomy/term/159",
+        "https://sse.cuhk.edu.cn/taxonomy/term/160",
+        "https://sse.cuhk.edu.cn/page/1599",
+        "https://sse.cuhk.edu.cn/page/430",
+        "https://sse.cuhk.edu.cn/page/1134",
+        "https://sse.cuhk.edu.cn/page/1135",
+        "https://sse.cuhk.edu.cn/page/1139",
+        "https://sse.cuhk.edu.cn/page/434",
+        "https://sse.cuhk.edu.cn/sites/default/files/2026-08/CareerPassport2026.pdf",
+        "https://sse.cuhk.edu.cn/page/34",
+        "https://oal.cuhk.edu.cn/exchange_visiting_program",
+        "https://sse.cuhk.edu.cn/page/38",
+        "https://sse.cuhk.edu.cn/taxonomy/term/163",
+        "https://sse.cuhk.edu.cn/taxonomy/term/162",
+        "https://sse.cuhk.edu.cn/taxonomy/term/164",
+        "https://sse.cuhk.edu.cn/taxonomy/term/165",
+        "https://apply.cuhk.edu.cn/matrix-base/rs/plan/SSECD",
+        "https://sse.cuhk.edu.cn/taxonomy/term/166",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/45",
+        "https://www.cuhk.edu.cn/page/4908",
+        "https://www.cuhk.edu.cn/taxonomy/term/37",
+        "https://admissions.cuhk.edu.cn/",
+        "https://registry.cuhk.edu.cn",
+        "https://oal.cuhk.edu.cn/",
+        "https://www.cuhk.edu.cn/zh-hans/page/114",
+        "https://library.cuhk.edu.cn/"
+      ],
+      "listedNames": [],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "页面写更新至2026年7月，介绍学科布局与培养，不提供下设学系完整名单。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ],
+      "pageVersion": "更新至2026年7月"
+    },
+    {
+      "id": "organization-sse-research-fields-20261029",
+      "url": "https://sse.cuhk.edu.cn/page/30",
+      "title": "港中深理工学院 · 六类科研领域",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1b445b96bd28aea87f61b9727f8a1770589f99de56adfd4e89f717909018fb43",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/page/30",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "https://sse.cuhk.edu.cn/",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/en/page/30",
+        "https://sse.cuhk.edu.cn/node/411",
+        "https://sse.cuhk.edu.cn/introduction",
+        "https://sse.cuhk.edu.cn/page/24",
+        "https://sse.cuhk.edu.cn/sites/default/files/2026-06/%E7%90%86%E5%B7%A5%E6%8B%9B%E7%94%9F%E6%89%8B%E5%86%8C20260616-%E5%8D%95%E9%A1%B5%E7%94%B5%E5%AD%90%E7%89%88%E7%BD%91%E7%AB%9920mb.pdf",
+        "https://sse.cuhk.edu.cn/taxonomy/term/52",
+        "https://sse.cuhk.edu.cn/page/26",
+        "https://sse.cuhk.edu.cn/taxonomy/term/1",
+        "https://sse.cuhk.edu.cn/taxonomy/term/184",
+        "https://sse.cuhk.edu.cn/taxonomy/term/202",
+        "https://sse.cuhk.edu.cn/taxonomy/term/3",
+        "https://sse.cuhk.edu.cn/node/412",
+        "https://sse.cuhk.edu.cn/Undergraduateprogrammes",
+        "https://sse.cuhk.edu.cn/page/538",
+        "https://sse.cuhk.edu.cn/page/1009",
+        "https://sse.cuhk.edu.cn/page/802",
+        "https://sse.cuhk.edu.cn/page/962",
+        "https://sse.cuhk.edu.cn/page/537",
+        "https://sse.cuhk.edu.cn/page/539",
+        "https://sse.cuhk.edu.cn/page/423",
+        "https://sse.cuhk.edu.cn/page/2004",
+        "https://sse.cuhk.edu.cn/page/37",
+        "https://sse.cuhk.edu.cn/talentscheme",
+        "https://sse.cuhk.edu.cn/talentscheme/BSc-PhDProgramme",
+        "https://sse.cuhk.edu.cn/talentscheme/excellenceclass",
+        "https://sse.cuhk.edu.cn/talentscheme/columbiaclass",
+        "https://sse.cuhk.edu.cn/talentscheme/AcceleratedBachelor-MPhilProgram",
+        "https://sse.cuhk.edu.cn/talentscheme/BachelorMScProgramme",
+        "https://sse.cuhk.edu.cn/talentscheme/cuhksz%C3%97cuhkdoublemajor",
+        "https://sse.cuhk.edu.cn/talentscheme/doublemajor-sse%C3%97sme",
+        "https://sse.cuhk.edu.cn/talentscheme/YauClass",
+        "https://sse.cuhk.edu.cn/talentscheme/EliteClassinMathematicsandAl",
+        "https://sse.cuhk.edu.cn/Masterprogrammes",
+        "https://ssemsc.cuhk.edu.cn/node/35",
+        "https://ssemsc.cuhk.edu.cn/node/98",
+        "https://ssemsc.cuhk.edu.cn/node/88",
+        "https://ssemsc.cuhk.edu.cn/node/89",
+        "https://ssemsc.cuhk.edu.cn/node/215",
+        "https://ssemsc.cuhk.edu.cn/node/338",
+        "https://gs.cuhk.edu.cn/node/403",
+        "https://emscsclm.cuhk.edu.cn",
+        "https://sse.cuhk.edu.cn/PhDprogrammes",
+        "https://sse.cuhk.edu.cn/page/757",
+        "https://sse.cuhk.edu.cn/page/991",
+        "https://sse.cuhk.edu.cn/page/1700",
+        "https://sse.cuhk.edu.cn/page/748",
+        "https://sse.cuhk.edu.cn/page/931",
+        "https://sse.cuhk.edu.cn/page/749",
+        "https://sse.cuhk.edu.cn/page/1323",
+        "https://sse.cuhk.edu.cn/teacher-search",
+        "https://sse.cuhk.edu.cn/taxonomy/term/158",
+        "https://sse.cuhk.edu.cn/page/30",
+        "https://sse.cuhk.edu.cn/page/laboratories",
+        "https://sse.cuhk.edu.cn/taxonomy/term/188",
+        "https://sse.cuhk.edu.cn/taxonomy/term/192",
+        "https://sse.cuhk.edu.cn/taxonomy/term/66",
+        "https://sse.cuhk.edu.cn/taxonomy/term/172",
+        "https://mcpc.cuhk.edu.cn/",
+        "https://mrc.cuhk.edu.cn/",
+        "https://sse.cuhk.edu.cn/taxonomy/term/203",
+        "https://sse.cuhk.edu.cn/taxonomy/term/159",
+        "https://sse.cuhk.edu.cn/taxonomy/term/160",
+        "https://sse.cuhk.edu.cn/page/1599",
+        "https://sse.cuhk.edu.cn/page/430",
+        "https://sse.cuhk.edu.cn/page/1134",
+        "https://sse.cuhk.edu.cn/page/1135",
+        "https://sse.cuhk.edu.cn/page/1139",
+        "https://sse.cuhk.edu.cn/page/434",
+        "https://sse.cuhk.edu.cn/sites/default/files/2026-08/CareerPassport2026.pdf",
+        "https://sse.cuhk.edu.cn/page/34",
+        "https://oal.cuhk.edu.cn/exchange_visiting_program",
+        "https://sse.cuhk.edu.cn/page/38",
+        "https://sse.cuhk.edu.cn/taxonomy/term/163",
+        "https://sse.cuhk.edu.cn/taxonomy/term/162",
+        "https://sse.cuhk.edu.cn/taxonomy/term/164",
+        "https://sse.cuhk.edu.cn/taxonomy/term/165",
+        "https://apply.cuhk.edu.cn/matrix-base/rs/plan/SSECD",
+        "https://sse.cuhk.edu.cn/taxonomy/term/166",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/45",
+        "https://mrc.cuhk.edu.cn/en",
+        "https://sse.cuhk.edu.cn/teacher-search?academic%5B177%5D=177",
+        "https://sse.cuhk.edu.cn/teacher-search?academic%5B178%5D=178",
+        "https://sse.cuhk.edu.cn/teacher-search?academic%5B179%5D=179",
+        "https://sse.cuhk.edu.cn/teacher-search?academic%5B180%5D=180",
+        "https://sse.cuhk.edu.cn/teacher-search?academic%5B182%5D=182",
+        "https://sse.cuhk.edu.cn/teacher-search?academic%5B181%5D=181",
+        "https://www.cuhk.edu.cn/page/4908",
+        "https://www.cuhk.edu.cn/taxonomy/term/37",
+        "https://admissions.cuhk.edu.cn/",
+        "https://registry.cuhk.edu.cn",
+        "https://oal.cuhk.edu.cn/",
+        "https://www.cuhk.edu.cn/zh-hans/page/114",
+        "https://library.cuhk.edu.cn/"
+      ],
+      "listedNames": [
+        "计算机工程",
+        "电子工程",
+        "化学",
+        "数学与应用数学",
+        "新能源科学与工程",
+        "材料学"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "本页列六类科研领域；它们不是六个已确认学系，与较新的学院简介范围分开。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-sds-home-20261029",
+      "url": "https://sds.cuhk.edu.cn/",
+      "title": "港中深数据科学学院 · 学位与人员导航",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "81dc490b5d738e9a08d22181f07fc94e96f8e8324ce7c3d6ccec0ce03bb2e5a7",
+      "retrievedUrl": "https://sds.cuhk.edu.cn/",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "https://sp16.cuhk.edu.cn/sds/Faculty/Guidelines%20and%20SOPs/Forms/AllItems.aspx?View=%7B93B3EED5-F7EE-465B-BB81-A75BDF642931%7D",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/en",
+        "https://sds.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/page/172",
+        "https://sds.cuhk.edu.cn/page/525",
+        "https://sds.cuhk.edu.cn/page/173",
+        "https://sds.cuhk.edu.cn/node/204",
+        "https://sds.cuhk.edu.cn/brochure",
+        "https://sds.cuhk.edu.cn/taxonomy/term/467",
+        "https://sds.cuhk.edu.cn/page/182",
+        "https://sds.cuhk.edu.cn/page/196",
+        "https://sds.cuhk.edu.cn/taxonomy/term/183",
+        "https://sds.cuhk.edu.cn/page/361",
+        "https://sds.cuhk.edu.cn/page/362",
+        "https://sds.cuhk.edu.cn/page/363",
+        "https://sds.cuhk.edu.cn/page/364",
+        "https://admission.cuhk.edu.hk/dmp/tc/",
+        "https://admission.cuhk.edu.hk/sc/programme/asein/",
+        "https://sds.cuhk.edu.cn/page/2263",
+        "https://sds.cuhk.edu.cn/page/2422",
+        "https://sds.cuhk.edu.cn/taxonomy/term/184",
+        "http://mscds.cuhk.edu.cn/",
+        "https://mscfe.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/mair",
+        "https://sds.cuhk.edu.cn/page/2132",
+        "https://sds.cuhk.edu.cn/page/2133",
+        "https://sds.cuhk.edu.cn/page/908",
+        "https://sds.cuhk.edu.cn/phd-programmes",
+        "https://sds.cuhk.edu.cn/phd-programmes-CSE",
+        "https://medpg.cuhk.edu.cn/node/109",
+        "https://medpg.cuhk.edu.cn/node/108",
+        "https://sds.cuhk.edu.cn/teacher-search",
+        "https://sds.cuhk.edu.cn/teacher-honorary",
+        "https://sds.cuhk.edu.cn/taxonomy/term/258",
+        "https://sds.cuhk.edu.cn/student-search",
+        "https://sds.cuhk.edu.cn/taxonomy/term/487",
+        "https://sds.cuhk.edu.cn/taxonomy/term/262",
+        "https://sds.cuhk.edu.cn/page/2295",
+        "https://sds.cuhk.edu.cn/page/376",
+        "https://sds.cuhk.edu.cn/page/374",
+        "https://sds.cuhk.edu.cn/taxonomy/term/1",
+        "https://sds.cuhk.edu.cn/taxonomy/term/299",
+        "https://sds.cuhk.edu.cn/page/1566",
+        "https://ddtor.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/csamse2023",
+        "https://sites.google.com/view/shenzhen-rmt-conference/home",
+        "https://sds.cuhk.edu.cn/ICASSP2022",
+        "https://sds.cuhk.edu.cn/page/40",
+        "https://sds.cuhk.edu.cn/taxonomy/term/65",
+        "https://sds.cuhk.edu.cn/taxonomy/term/298",
+        "https://sds.cuhk.edu.cn/taxonomy/term/260",
+        "https://sds.cuhk.edu.cn/research",
+        "https://sds.cuhk.edu.cn/taxonomy/term/37",
+        "https://sds.cuhk.edu.cn/page/181",
+        "https://sds.cuhk.edu.cn/article/2476",
+        "https://mp.weixin.qq.com/s/Xhyjf1i7OkpS0_T6i6U8uA",
+        "https://sds.cuhk.edu.cn/article/2465",
+        "https://sds.cuhk.edu.cn/article/2443",
+        "https://sds.cuhk.edu.cn/article/2483",
+        "https://sds.cuhk.edu.cn/article/2482",
+        "https://sds.cuhk.edu.cn/article/2480",
+        "https://sds.cuhk.edu.cn/article/1915",
+        "https://sds.cuhk.edu.cn/article/1152",
+        "https://sds.cuhk.edu.cn/article/1135",
+        "https://sds.cuhk.edu.cn/article/696",
+        "https://sds.cuhk.edu.cn/event/1747",
+        "https://sds.cuhk.edu.cn/page/277",
+        "mailto:sds@cuhk.edu.cn"
+      ],
+      "listedNames": [],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "主页将研究型硕博与理学硕士、本科分开；部分研究项目链接指向医学院，须继续核实际项目归属。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-sds-fields-20261029",
+      "url": "https://sds.cuhk.edu.cn/page/525",
+      "title": "港中深数据科学学院 · 三个学科方向",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "19adc78a53241726d72b3ba193d840df30581f6aad8809260ffbc4b175f2c43c",
+      "retrievedUrl": "https://sds.cuhk.edu.cn/page/525",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "https://sp16.cuhk.edu.cn/sds/Faculty/Guidelines%20and%20SOPs/Forms/AllItems.aspx?View=%7B93B3EED5-F7EE-465B-BB81-A75BDF642931%7D",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/en/page/525",
+        "https://sds.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/page/172",
+        "https://sds.cuhk.edu.cn/page/525",
+        "https://sds.cuhk.edu.cn/page/173",
+        "https://sds.cuhk.edu.cn/node/204",
+        "https://sds.cuhk.edu.cn/brochure",
+        "https://sds.cuhk.edu.cn/taxonomy/term/467",
+        "https://sds.cuhk.edu.cn/page/182",
+        "https://sds.cuhk.edu.cn/page/196",
+        "https://sds.cuhk.edu.cn/taxonomy/term/183",
+        "https://sds.cuhk.edu.cn/page/361",
+        "https://sds.cuhk.edu.cn/page/362",
+        "https://sds.cuhk.edu.cn/page/363",
+        "https://sds.cuhk.edu.cn/page/364",
+        "https://admission.cuhk.edu.hk/dmp/tc/",
+        "https://admission.cuhk.edu.hk/sc/programme/asein/",
+        "https://sds.cuhk.edu.cn/page/2263",
+        "https://sds.cuhk.edu.cn/page/2422",
+        "https://sds.cuhk.edu.cn/taxonomy/term/184",
+        "http://mscds.cuhk.edu.cn/",
+        "https://mscfe.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/mair",
+        "https://sds.cuhk.edu.cn/page/2132",
+        "https://sds.cuhk.edu.cn/page/2133",
+        "https://sds.cuhk.edu.cn/page/908",
+        "https://sds.cuhk.edu.cn/phd-programmes",
+        "https://sds.cuhk.edu.cn/phd-programmes-CSE",
+        "https://medpg.cuhk.edu.cn/node/109",
+        "https://medpg.cuhk.edu.cn/node/108",
+        "https://sds.cuhk.edu.cn/teacher-search",
+        "https://sds.cuhk.edu.cn/teacher-honorary",
+        "https://sds.cuhk.edu.cn/taxonomy/term/258",
+        "https://sds.cuhk.edu.cn/student-search",
+        "https://sds.cuhk.edu.cn/taxonomy/term/487",
+        "https://sds.cuhk.edu.cn/taxonomy/term/262",
+        "https://sds.cuhk.edu.cn/page/2295",
+        "https://sds.cuhk.edu.cn/page/376",
+        "https://sds.cuhk.edu.cn/page/374",
+        "https://sds.cuhk.edu.cn/taxonomy/term/1",
+        "https://sds.cuhk.edu.cn/taxonomy/term/299",
+        "https://sds.cuhk.edu.cn/page/1566",
+        "https://ddtor.cuhk.edu.cn/",
+        "https://sds.cuhk.edu.cn/csamse2023",
+        "https://sites.google.com/view/shenzhen-rmt-conference/home",
+        "https://sds.cuhk.edu.cn/ICASSP2022",
+        "https://sds.cuhk.edu.cn/page/40",
+        "https://sds.cuhk.edu.cn/taxonomy/term/65",
+        "https://sds.cuhk.edu.cn/taxonomy/term/298",
+        "https://sds.cuhk.edu.cn/taxonomy/term/260",
+        "https://sds.cuhk.edu.cn/research",
+        "https://sds.cuhk.edu.cn/taxonomy/term/37",
+        "https://sds.cuhk.edu.cn/page/181",
+        "mailto:sds@cuhk.edu.cn"
+      ],
+      "listedNames": [
+        "计算机科学与技术",
+        "统计学",
+        "数据科学与大数据技术"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "官网列计算机科学与技术、统计学、数据科学与大数据技术三个学科方向，不把它们改称三个学系。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-sai-home-20261029",
+      "url": "https://sai.cuhk.edu.cn/",
+      "title": "港中深人工智能学院 · 学院与学位导航",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0bb2fb04bc2fbd833a726676ac3c0f29cfe5254df60c885b44bb586653af6dbd",
+      "retrievedUrl": "https://sai.cuhk.edu.cn/",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn/",
+        "https://sai.cuhk.edu.cn/en",
+        "https://sai.cuhk.edu.cn/zh-hans",
+        "https://sai.cuhk.edu.cn/zh-hans/page/41",
+        "https://sai.cuhk.edu.cn/zh-hans/page/42",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/52",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/192",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/191",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/194",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/193",
+        "https://sai.cuhk.edu.cn/zh-hans/page/49",
+        "https://sai.cuhk.edu.cn/zh-hans/page/47",
+        "https://sai.cuhk.edu.cn/zh-hans/page/259",
+        "https://sai.cuhk.edu.cn/zh-hans/page/276",
+        "https://sai.cuhk.edu.cn/zh-hans/page/321",
+        "https://sai.cuhk.edu.cn/zh-hans/page/251",
+        "https://sai.cuhk.edu.cn/zh-hans/page/252",
+        "https://sai.cuhk.edu.cn/zh-hans/node/35",
+        "https://sai.cuhk.edu.cn/zh-hans/teacher-search",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/176",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/202",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/155",
+        "https://sai.cuhk.edu.cn/zh-hans/student-search",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/104",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/106",
+        "https://sai.cuhk.edu.cn/zh-hans/page/80",
+        "https://sai.cuhk.edu.cn/zh-hans/page/183",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/105",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/1",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/3",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/66",
+        "https://jobs.cuhk.edu.cn/jobDetails?id=729",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/50",
+        "https://sai.cuhk.edu.cn/zh-hans/page/79",
+        "https://sai.cuhk.edu.cn/zh-hans/article/345",
+        "https://sai.cuhk.edu.cn/article/261",
+        "https://sai.cuhk.edu.cn/node/35",
+        "https://sai.cuhk.edu.cn/article/161",
+        "https://sai.cuhk.edu.cn/zh-hans/article/14",
+        "https://sai.cuhk.edu.cn/zh-hans/article/358",
+        "https://sai.cuhk.edu.cn/zh-hans/article/375",
+        "https://sai.cuhk.edu.cn/zh-hans/event/336",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/458",
+        "http://sai.cuhk.edu.cn/zh-hans"
+      ],
+      "listedNames": [],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "主页列人工智能研究型硕博入口，教职人员与兼职另列；未给出下设学系名单。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-sai-introduction-20261029",
+      "url": "https://sai.cuhk.edu.cn/zh-hans/page/41",
+      "title": "港中深人工智能学院 · 学院简介",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "02b3212ed85907f8623856d0b81ecc6fc838fc21d0b8aaf78061c84264bc56e2",
+      "retrievedUrl": "https://sai.cuhk.edu.cn/zh-hans/page/41",
+      "discoveredLinks": [
+        "javascript:void(0)",
+        "javascript:void(0);",
+        "https://www.cuhk.edu.cn",
+        "https://sai.cuhk.edu.cn/en/page/41",
+        "https://sai.cuhk.edu.cn/zh-hans",
+        "https://sai.cuhk.edu.cn/zh-hans/page/41",
+        "https://sai.cuhk.edu.cn/zh-hans/page/42",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/52",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/192",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/191",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/194",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/193",
+        "https://sai.cuhk.edu.cn/zh-hans/page/49",
+        "https://sai.cuhk.edu.cn/zh-hans/page/47",
+        "https://sai.cuhk.edu.cn/zh-hans/page/259",
+        "https://sai.cuhk.edu.cn/zh-hans/page/276",
+        "https://sai.cuhk.edu.cn/zh-hans/page/321",
+        "https://sai.cuhk.edu.cn/zh-hans/page/251",
+        "https://sai.cuhk.edu.cn/zh-hans/page/252",
+        "https://sai.cuhk.edu.cn/zh-hans/node/35",
+        "https://sai.cuhk.edu.cn/zh-hans/teacher-search",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/176",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/202",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/155",
+        "https://sai.cuhk.edu.cn/zh-hans/student-search",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/104",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/106",
+        "https://sai.cuhk.edu.cn/zh-hans/page/80",
+        "https://sai.cuhk.edu.cn/zh-hans/page/183",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/105",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/1",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/3",
+        "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/66",
+        "https://jobs.cuhk.edu.cn/jobDetails?id=729",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/50",
+        "https://sai.cuhk.edu.cn/zh-hans/page/79",
+        "http://sai.cuhk.edu.cn/zh-hans"
+      ],
+      "listedNames": [],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "简介写学院成立于2025年2月13日，说明跨学科培养；课程中的认知科学、机器学习等名称不自动构成下设学系。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-gz-function-20261029",
+      "url": "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+      "title": "港科广功能枢纽 · 四个学域名单",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "240db6573ddb61dde9f3f4804ce2d860c5b70a095e849f403a329d4a6236c488",
+      "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+      "discoveredLinks": [
+        "https://www.hkust-gz.edu.cn/",
+        "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/overview/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/hub-deans-message/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/hub-administration/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/our-people/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/our-people/student/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/about/our-people/staff/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/#new_tab",
+        "https://amat.hkust-gz.edu.cn/zh/#new_tab",
+        "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/faculty-members/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/about-the-thrust/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/?variant=zh-cn",
+        "https://mics.hkust-gz.edu.cn/#new_tab",
+        "https://funh.hkust-gz.edu.cn/zh/academics/microelectronics/faculty-members/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/about-the-thrust/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/programs/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/programs/#ug",
+        "https://funh.hkust-gz.edu.cn/zh/programs/#rpg",
+        "https://funh.hkust-gz.edu.cn/zh/programs/tpg-program/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/faculty/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/research/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/research/crf/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/research/trf/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/news-events/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/news-events/news/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/news-events/events/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/career/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/campus-life/?variant=zh-cn",
+        "https://funh.hkust-gz.edu.cn/zh/wp-content/themes/hkust-gz-function-hub-zh-0923/images/index/qrcode-wechat.jpg",
+        "https://funh.hkust-gz.edu.cn/zh/wp-content/themes/hkust-gz-function-hub-zh-0923/images/index/qrcode-micro-red.png",
+        "https://twitter.com/HKUSTGZfunction",
+        "https://www.bilibili.com/video/BV11gr5YoEQV/?spm_id_from=333.1387.0.0",
+        "https://fytgs.hkust-gz.edu.cn/programs/2025-26/function-hub-2025-26/advanced-materials-4#new_tab",
+        "https://funh.hkust-gz.edu.cn/zh/academics/advanced-materials/about-the-thrust/",
+        "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/about-the-thrust/",
+        "https://funh.hkust-gz.edu.cn/zh/academics/earth-ocean-and-atmospheric-sciences/faculty-members/",
+        "https://fytgs.hkust-gz.edu.cn/programs/2025-26/function-hub-2025-26/earth-ocean-and-atmospheric-sciences-4#new_tab",
+        "https://fytgs.hkust-gz.edu.cn/programs/2025-26/function-hub-2025-26/microelectronics-4#new_tab",
+        "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/about-the-thrust/",
+        "https://funh.hkust-gz.edu.cn/zh/academics/sustainable-energy-and-environment/faculty-members/",
+        "https://fytgs.hkust-gz.edu.cn/programs/2025-26/function-hub-2025-26/sustainable-energy-and-environment-4#new_tab",
+        "https://funh.hkust-gz.edu.cn/zh/wp-content/uploads/sites/2/2024/06/港科大（广州）功能枢纽招生手册（2024-25）.pdf",
+        "https://www.bilibili.com/video/BV1LF4m1c7Tf/?spm_id_from=333.999.0.0",
+        "https://funh.hkust-gz.edu.cn/zh/news-events/news/",
+        "https://funh.hkust-gz.edu.cn/zh/news-events/events/",
+        "https://mp.weixin.qq.com/s/QoQ6o1LbgBxpMi-N_1KQfQ",
+        "https://mp.weixin.qq.com/s/buZD7Qd21GvIy3OuicoO7Q",
+        "https://mp.weixin.qq.com/s/LrXsxGe1p_WhDoUATbJB-w",
+        "https://ucalendar.ust.hk/zh-hans/events/{{id}}",
+        "https://funh.hkust-gz.edu.cn/zh/faculty/",
+        "https://funh.hkust-gz.edu.cn/zh/administration/weijia-wen/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/student-dormitories/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/restaurant/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/sports-facilities/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/student-counseling-center/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/career-center/",
+        "https://funh.hkust-gz.edu.cn/zh/campus-life/funh-office/",
+        "https://funh.hkust-gz.edu.cn/zh/about/overview/",
+        "https://funh.hkust-gz.edu.cn/zh/about/hub-deans-message/",
+        "https://funh.hkust-gz.edu.cn/zh/about/our-people/faculty/",
+        "https://funh.hkust-gz.edu.cn/zh/about/hub-administration/",
+        "https://funh.hkust-gz.edu.cn/zh/research/crf/",
+        "https://funh.hkust-gz.edu.cn/zh/contact/?variant=zh-cn",
+        "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/",
+        "https://beian.miit.gov.cn/#/Integrated/index"
+      ],
+      "listedNames": [
+        "先进材料",
+        "地球与海洋大气科学",
+        "微电子",
+        "可持续能源与环境"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "按所引枢纽页核对四个学域名称与归属，不代表四份独立招生承诺。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-gz-information-20261029",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+      "title": "港科广信息枢纽 · 四个学域名单",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "05d962f5d472a00dede7b21db3e87221dacf07226cb434b0c5d7562cdb146ef0",
+      "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+      "discoveredLinks": [
+        "https://www.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#background",
+        "https://strategicplan.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/zh/about/governance/governance-of-the-university/about-the-governance/",
+        "https://www.hkust-gz.edu.cn/zh/about#cross-campus-collaboration",
+        "https://www.hkust-gz.edu.cn/zh/about/diversity-and-equal-opportunities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/leadership/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#location",
+        "https://www.hkust-gz.edu.cn/zh/about/campus-design/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#milestones",
+        "https://www.hkust-gz.edu.cn/zh/about/university-publication/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics#overview",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-the-world-needs",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-cross-disciplinary",
+        "https://www.hkust-gz.edu.cn/zh/academics#academic-structure",
+        "https://www.hkust-gz.edu.cn/zh/academics/#hubs-and-thrust-areas",
+        "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/#education-innovation",
+        "https://eeccs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+        "https://cft.hkust-gz.edu.cn/#new_tab",
+        "https://cee.hkust-gz.edu.cn/?locale=zh",
+        "https://vptlo.hkust-gz.edu.cn/ieip/#/",
+        "https://fytgs.hkust-gz.edu.cn/",
+        "https://ars.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-quality-manual/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-calendar/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/universityforum",
+        "https://ug-prog-crs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life",
+        "https://osa.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/photo-gallery/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/research-news/?variant=zh-cn",
+        "https://rd.hkust-gz.edu.cn/#new_tab",
+        "https://rcdd.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/research/central-research-facilities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research#living-lab-network",
+        "https://lsd.hkust-gz.edu.cn/",
+        "https://lhsd.hkust-gz.edu.cn/zh/",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#aboutOKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#newParadigmKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#SciTech",
+        "https://okt.hkust-gz.edu.cn/collaboration/content",
+        "https://okt.hkust-gz.edu.cn/property/content",
+        "https://okt.hkust-gz.edu.cn/entrepreneurship/content",
+        "https://okt.hkust-gz.edu.cn/training/content",
+        "https://www.hkust-gz.edu.cn/zh/news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkust-gz-news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkustgz-research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/our-people/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/cooperation/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/in-the-media/?variant=zh-cn",
+        "https://global.hkust-gz.edu.cn/",
+        "https://global.hkust-gz.edu.cn/global-connections",
+        "https://global.hkust-gz.edu.cn/student-mobility/outbound",
+        "https://global.hkust-gz.edu.cn/current-developments/latest-news",
+        "https://global.hkust-gz.edu.cn/contact-us/our-global-team",
+        "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+        "https://myportal.hkust-gz.edu.cn/",
+        "https://35a.hkust.edu.hk/zh-hans#new_tab",
+        "https://nso.hkust-gz.edu.cn/welcome#new_tab",
+        "https://ugadmissions.hkust-gz.edu.cn/zh-CN/#new_tab",
+        "https://hkust.edu.hk/zh-hans?cn=1",
+        "https://www.hkust-gz.edu.cn/zh/admissions/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/",
+        "https://www.hkust-gz.edu.cn/zh/join-us/?variant=zh-cn",
+        "https://library.hkust-gz.edu.cn/",
+        "https://giving.hkust-gz.edu.cn/",
+        "tel:020-88331234",
+        "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011502001012",
+        "https://beian.miit.gov.cn",
+        "https://www.hkust-gz.edu.cn/zh/information-disclosure/?variant=zh-cn",
+        "https://puro.hkust-gz.edu.cn/bid/index?redirect=%2Fzh-cn",
+        "https://www.hkust-gz.edu.cn/zh/%e6%97%a0%e9%9a%9c%e7%a2%8d%e6%b5%8f%e8%a7%88/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/contact-us/?variant=zh-cn",
+        "https://itdid.hkust-gz.edu.cn/cn/PoliciesRegulations",
+        "https://brand.hkust.edu.hk/sites/default/files/bm_folder/HKUST_Brand_guideline.pdf",
+        "https://mp.weixin.qq.com/s?__biz=MzkzODI5MDE2NA==&mid=2247499320&idx=1&sn=41c8b4cfc7da6e0eb185a44b5774cd93&chksm=c280c0a3f5f749b55276008f8f501761569af0c5ee489edd068768751b1997f060f1016acd71&token=1865304155&lang=zh_CN#rd",
+        "https://weibo.com/u/7707274273",
+        "https://www.facebook.com/hkustguangzhou",
+        "https://www.youtube.com/@HKUSTGuangzhou",
+        "https://www.instagram.com/hkustguangzhou/",
+        "https://www.linkedin.com/school/99308539/admin/page-posts/published/",
+        "https://x.com/HKUSTGuangzhou",
+        "https://www.xiaohongshu.com/user/profile/640574e60000000029014ff1",
+        "https://space.bilibili.com/16783101?spm_id_from=333.337.0.0",
+        "https://www.hkust-gz.edu.cn/zh?variant=zh-cn",
+        "https://infh.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/data-science-and-analytics/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/internet-of-things/?variant=zh-cn",
+        "https://career.hkust-gz.edu.cn/en/career?hubCode=10011A10000000000H26",
+        "https://hkust-gz.edu.cn/"
+      ],
+      "listedNames": [
+        "人工智能",
+        "数据科学与分析",
+        "计算媒体与艺术",
+        "物联网"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "按所引枢纽页核对四个学域名称与归属，不代表四份独立招生承诺。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-gz-systems-reused-20261029",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+      "title": "港科广系统枢纽 · 四个学域名单",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "25ca7668e4515fe82ce9480eb5850def9310b3fc7c6342ea2879b72ee12c184c",
+      "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+      "discoveredLinks": [
+        "https://www.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#background",
+        "https://strategicplan.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/zh/about/governance/governance-of-the-university/about-the-governance/",
+        "https://www.hkust-gz.edu.cn/zh/about#cross-campus-collaboration",
+        "https://www.hkust-gz.edu.cn/zh/about/diversity-and-equal-opportunities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/leadership/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#location",
+        "https://www.hkust-gz.edu.cn/zh/about/campus-design/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#milestones",
+        "https://www.hkust-gz.edu.cn/zh/about/university-publication/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics#overview",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-the-world-needs",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-cross-disciplinary",
+        "https://www.hkust-gz.edu.cn/zh/academics#academic-structure",
+        "https://www.hkust-gz.edu.cn/zh/academics/#hubs-and-thrust-areas",
+        "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/#education-innovation",
+        "https://eeccs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+        "https://cft.hkust-gz.edu.cn/#new_tab",
+        "https://cee.hkust-gz.edu.cn/?locale=zh",
+        "https://vptlo.hkust-gz.edu.cn/ieip/#/",
+        "https://fytgs.hkust-gz.edu.cn/",
+        "https://ars.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-quality-manual/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-calendar/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/universityforum",
+        "https://ug-prog-crs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life",
+        "https://osa.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/photo-gallery/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/research-news/?variant=zh-cn",
+        "https://rd.hkust-gz.edu.cn/#new_tab",
+        "https://rcdd.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/research/central-research-facilities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research#living-lab-network",
+        "https://lsd.hkust-gz.edu.cn/",
+        "https://lhsd.hkust-gz.edu.cn/zh/",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#aboutOKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#newParadigmKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#SciTech",
+        "https://okt.hkust-gz.edu.cn/collaboration/content",
+        "https://okt.hkust-gz.edu.cn/property/content",
+        "https://okt.hkust-gz.edu.cn/entrepreneurship/content",
+        "https://okt.hkust-gz.edu.cn/training/content",
+        "https://www.hkust-gz.edu.cn/zh/news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkust-gz-news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkustgz-research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/our-people/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/cooperation/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/in-the-media/?variant=zh-cn",
+        "https://global.hkust-gz.edu.cn/",
+        "https://global.hkust-gz.edu.cn/global-connections",
+        "https://global.hkust-gz.edu.cn/student-mobility/outbound",
+        "https://global.hkust-gz.edu.cn/current-developments/latest-news",
+        "https://global.hkust-gz.edu.cn/contact-us/our-global-team",
+        "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+        "https://myportal.hkust-gz.edu.cn/",
+        "https://35a.hkust.edu.hk/zh-hans#new_tab",
+        "https://nso.hkust-gz.edu.cn/welcome#new_tab",
+        "https://ugadmissions.hkust-gz.edu.cn/zh-CN/#new_tab",
+        "https://hkust.edu.hk/zh-hans?cn=1",
+        "https://www.hkust-gz.edu.cn/zh/admissions/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/",
+        "https://www.hkust-gz.edu.cn/zh/join-us/?variant=zh-cn",
+        "https://library.hkust-gz.edu.cn/",
+        "https://giving.hkust-gz.edu.cn/",
+        "tel:020-88331234",
+        "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011502001012",
+        "https://beian.miit.gov.cn",
+        "https://www.hkust-gz.edu.cn/zh/information-disclosure/?variant=zh-cn",
+        "https://puro.hkust-gz.edu.cn/bid/index?redirect=%2Fzh-cn",
+        "https://www.hkust-gz.edu.cn/zh/%e6%97%a0%e9%9a%9c%e7%a2%8d%e6%b5%8f%e8%a7%88/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/contact-us/?variant=zh-cn",
+        "https://itdid.hkust-gz.edu.cn/cn/PoliciesRegulations",
+        "https://brand.hkust.edu.hk/sites/default/files/bm_folder/HKUST_Brand_guideline.pdf",
+        "https://mp.weixin.qq.com/s?__biz=MzkzODI5MDE2NA==&mid=2247499320&idx=1&sn=41c8b4cfc7da6e0eb185a44b5774cd93&chksm=c280c0a3f5f749b55276008f8f501761569af0c5ee489edd068768751b1997f060f1016acd71&token=1865304155&lang=zh_CN#rd",
+        "https://weibo.com/u/7707274273",
+        "https://www.facebook.com/hkustguangzhou",
+        "https://www.youtube.com/@HKUSTGuangzhou",
+        "https://www.instagram.com/hkustguangzhou/",
+        "https://www.linkedin.com/school/99308539/admin/page-posts/published/",
+        "https://x.com/HKUSTGuangzhou",
+        "https://www.xiaohongshu.com/user/profile/640574e60000000029014ff1",
+        "https://space.bilibili.com/16783101?spm_id_from=333.337.0.0",
+        "https://www.hkust-gz.edu.cn/zh?variant=zh-cn",
+        "https://sysh.hkust-gz.edu.cn/zh/",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/bioscience-and-biomedical-engineering/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
+        "https://career.hkust-gz.edu.cn/en/career?hubCode=10011A10000000000H2G",
+        "https://www.hkust-gz.edu.cn/zh/2026/10/22/%e8%af%b4%e5%8f%a5%e8%af%9d%ef%bc%8cai%e7%94%9f%e6%88%90%e8%9b%8b%e7%99%bd%e8%b4%a8%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%ef%bc%8cnature1/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/\\/news\\/?variant=zh-cn科广新闻",
+        "https://www.hkust-gz.edu.cn/zh/2026/10/20/%e8%bd%bd%e8%aa%89%e8%80%8c%e5%bd%92%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e4%bb%a3%e8%a1%a8%e5%9b%a2%e7%82%b9%e7%87%83hkust-35a-sports-day%e8%b5%9b%e5%9c%ba/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/2026/10/13/%e6%b8%af%e7%a7%91%e5%a4%a7%e5%b9%bf%e5%b7%9e120%e4%ba%ba%e6%ac%a1%e5%85%a5%e9%80%89%e5%85%a8%e7%90%83%e5%89%8d2%e9%a1%b6%e5%b0%96%e7%a7%91%e5%ad%a6%e5%ae%b6%e6%a6%9c%e5%8d%95/?variant=zh-cn",
+        "https://hkust-gz.edu.cn/"
+      ],
+      "listedNames": [
+        "生命科学与生物医学工程",
+        "智能交通",
+        "机器人与自主系统",
+        "智能制造"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "按所引枢纽页核对四个学域名称与归属，不代表四份独立招生承诺。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。",
+        "复用2026-10-29早先已保存的实际正文，没有重访；原始响应摘要与日期保持。"
+      ]
+    },
+    {
+      "id": "organization-gz-society-20261029",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+      "title": "港科广社会枢纽 · 四个学域名单",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f74eb2a0eea391735b26f0269d22ae471da76eb964ede1260d8f06b1e6e5f2d6",
+      "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+      "discoveredLinks": [
+        "https://www.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#background",
+        "https://strategicplan.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/zh/about/governance/governance-of-the-university/about-the-governance/",
+        "https://www.hkust-gz.edu.cn/zh/about#cross-campus-collaboration",
+        "https://www.hkust-gz.edu.cn/zh/about/diversity-and-equal-opportunities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/leadership/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#location",
+        "https://www.hkust-gz.edu.cn/zh/about/campus-design/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#milestones",
+        "https://www.hkust-gz.edu.cn/zh/about/university-publication/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics#overview",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-the-world-needs",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-cross-disciplinary",
+        "https://www.hkust-gz.edu.cn/zh/academics#academic-structure",
+        "https://www.hkust-gz.edu.cn/zh/academics/#hubs-and-thrust-areas",
+        "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/#education-innovation",
+        "https://eeccs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+        "https://cft.hkust-gz.edu.cn/#new_tab",
+        "https://cee.hkust-gz.edu.cn/?locale=zh",
+        "https://vptlo.hkust-gz.edu.cn/ieip/#/",
+        "https://fytgs.hkust-gz.edu.cn/",
+        "https://ars.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-quality-manual/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-calendar/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/universityforum",
+        "https://ug-prog-crs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life",
+        "https://osa.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/photo-gallery/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/research-news/?variant=zh-cn",
+        "https://rd.hkust-gz.edu.cn/#new_tab",
+        "https://rcdd.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/research/central-research-facilities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research#living-lab-network",
+        "https://lsd.hkust-gz.edu.cn/",
+        "https://lhsd.hkust-gz.edu.cn/zh/",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#aboutOKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#newParadigmKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#SciTech",
+        "https://okt.hkust-gz.edu.cn/collaboration/content",
+        "https://okt.hkust-gz.edu.cn/property/content",
+        "https://okt.hkust-gz.edu.cn/entrepreneurship/content",
+        "https://okt.hkust-gz.edu.cn/training/content",
+        "https://www.hkust-gz.edu.cn/zh/news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkust-gz-news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkustgz-research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/our-people/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/cooperation/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/in-the-media/?variant=zh-cn",
+        "https://global.hkust-gz.edu.cn/",
+        "https://global.hkust-gz.edu.cn/global-connections",
+        "https://global.hkust-gz.edu.cn/student-mobility/outbound",
+        "https://global.hkust-gz.edu.cn/current-developments/latest-news",
+        "https://global.hkust-gz.edu.cn/contact-us/our-global-team",
+        "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+        "https://myportal.hkust-gz.edu.cn/",
+        "https://35a.hkust.edu.hk/zh-hans#new_tab",
+        "https://nso.hkust-gz.edu.cn/welcome#new_tab",
+        "https://ugadmissions.hkust-gz.edu.cn/zh-CN/#new_tab",
+        "https://hkust.edu.hk/zh-hans?cn=1",
+        "https://www.hkust-gz.edu.cn/zh/admissions/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/",
+        "https://www.hkust-gz.edu.cn/zh/join-us/?variant=zh-cn",
+        "https://library.hkust-gz.edu.cn/",
+        "https://giving.hkust-gz.edu.cn/",
+        "tel:020-88331234",
+        "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011502001012",
+        "https://beian.miit.gov.cn",
+        "https://www.hkust-gz.edu.cn/zh/information-disclosure/?variant=zh-cn",
+        "https://puro.hkust-gz.edu.cn/bid/index?redirect=%2Fzh-cn",
+        "https://www.hkust-gz.edu.cn/zh/%e6%97%a0%e9%9a%9c%e7%a2%8d%e6%b5%8f%e8%a7%88/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/contact-us/?variant=zh-cn",
+        "https://itdid.hkust-gz.edu.cn/cn/PoliciesRegulations",
+        "https://brand.hkust.edu.hk/sites/default/files/bm_folder/HKUST_Brand_guideline.pdf",
+        "https://mp.weixin.qq.com/s?__biz=MzkzODI5MDE2NA==&mid=2247499320&idx=1&sn=41c8b4cfc7da6e0eb185a44b5774cd93&chksm=c280c0a3f5f749b55276008f8f501761569af0c5ee489edd068768751b1997f060f1016acd71&token=1865304155&lang=zh_CN#rd",
+        "https://weibo.com/u/7707274273",
+        "https://www.facebook.com/hkustguangzhou",
+        "https://www.youtube.com/@HKUSTGuangzhou",
+        "https://www.instagram.com/hkustguangzhou/",
+        "https://www.linkedin.com/school/99308539/admin/page-posts/published/",
+        "https://x.com/HKUSTGuangzhou",
+        "https://www.xiaohongshu.com/user/profile/640574e60000000029014ff1",
+        "https://space.bilibili.com/16783101?spm_id_from=333.337.0.0",
+        "https://www.hkust-gz.edu.cn/zh?variant=zh-cn",
+        "https://soch.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/innovation-policy-and-entrepreneurship/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/urban-governance-and-design/?variant=zh-cn",
+        "https://career.hkust-gz.edu.cn/en/career?hubCode=10011A10000000000H2Q",
+        "https://www.hkust-gz.edu.cn/zh/2026/10/22/%e8%af%b4%e5%8f%a5%e8%af%9d%ef%bc%8cai%e7%94%9f%e6%88%90%e8%9b%8b%e7%99%bd%e8%b4%a8%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%ef%bc%8cnature1/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/\\/news\\/?variant=zh-cn科广新闻",
+        "https://www.hkust-gz.edu.cn/zh/2026/10/20/%e8%bd%bd%e8%aa%89%e8%80%8c%e5%bd%92%ef%bc%81%e6%b8%af%e7%a7%91%e5%a4%a7%ef%bc%88%e5%b9%bf%e5%b7%9e%ef%bc%89%e4%bb%a3%e8%a1%a8%e5%9b%a2%e7%82%b9%e7%87%83hkust-35a-sports-day%e8%b5%9b%e5%9c%ba/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/2026/10/13/%e6%b8%af%e7%a7%91%e5%a4%a7%e5%b9%bf%e5%b7%9e120%e4%ba%ba%e6%ac%a1%e5%85%a5%e9%80%89%e5%85%a8%e7%90%83%e5%89%8d2%e9%a1%b6%e5%b0%96%e7%a7%91%e5%ad%a6%e5%ae%b6%e6%a6%9c%e5%8d%95/?variant=zh-cn",
+        "https://hkust-gz.edu.cn/"
+      ],
+      "listedNames": [
+        "金融科技",
+        "创新创业与公共政策",
+        "城市治理与设计",
+        "碳中和与气候变化"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "按所引枢纽页核对四个学域名称与归属，不代表四份独立招生承诺。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-gz-education-20261029",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+      "title": "港科广校级介绍 · 教育科学学院六部门口径",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "af7e47137313646a40647fd911a487ce4746afa1d3e7c82a1506407fda1c8f21",
+      "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+      "discoveredLinks": [
+        "https://www.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#background",
+        "https://strategicplan.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/zh/about/governance/governance-of-the-university/about-the-governance/",
+        "https://www.hkust-gz.edu.cn/zh/about#cross-campus-collaboration",
+        "https://www.hkust-gz.edu.cn/zh/about/diversity-and-equal-opportunities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about/leadership/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#location",
+        "https://www.hkust-gz.edu.cn/zh/about/campus-design/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/about#milestones",
+        "https://www.hkust-gz.edu.cn/zh/about/university-publication/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics#overview",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-the-world-needs",
+        "https://www.hkust-gz.edu.cn/zh/academics#what-cross-disciplinary",
+        "https://www.hkust-gz.edu.cn/zh/academics#academic-structure",
+        "https://www.hkust-gz.edu.cn/zh/academics/#hubs-and-thrust-areas",
+        "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/#education-innovation",
+        "https://eeccs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+        "https://cft.hkust-gz.edu.cn/#new_tab",
+        "https://cee.hkust-gz.edu.cn/?locale=zh",
+        "https://vptlo.hkust-gz.edu.cn/ieip/#/",
+        "https://fytgs.hkust-gz.edu.cn/",
+        "https://ars.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-quality-manual/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/academics/academic-calendar/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/#new_tab",
+        "https://www.hkust-gz.edu.cn/universityforum",
+        "https://ug-prog-crs.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/facilities-services/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life",
+        "https://osa.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/campus-life/photo-gallery/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research/research-news/?variant=zh-cn",
+        "https://rd.hkust-gz.edu.cn/#new_tab",
+        "https://rcdd.hkust-gz.edu.cn/cn/",
+        "https://www.hkust-gz.edu.cn/zh/research/central-research-facilities/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/research#living-lab-network",
+        "https://lsd.hkust-gz.edu.cn/",
+        "https://lhsd.hkust-gz.edu.cn/zh/",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#aboutOKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#newParadigmKT",
+        "https://www.hkust-gz.edu.cn/zh/knowledge-transfer/#SciTech",
+        "https://okt.hkust-gz.edu.cn/collaboration/content",
+        "https://okt.hkust-gz.edu.cn/property/content",
+        "https://okt.hkust-gz.edu.cn/entrepreneurship/content",
+        "https://okt.hkust-gz.edu.cn/training/content",
+        "https://www.hkust-gz.edu.cn/zh/news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkust-gz-news/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/hkustgz-research/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/campus-life/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/our-people/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/cooperation/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/news/in-the-media/?variant=zh-cn",
+        "https://global.hkust-gz.edu.cn/",
+        "https://global.hkust-gz.edu.cn/global-connections",
+        "https://global.hkust-gz.edu.cn/student-mobility/outbound",
+        "https://global.hkust-gz.edu.cn/current-developments/latest-news",
+        "https://global.hkust-gz.edu.cn/contact-us/our-global-team",
+        "https://www.hkust-gz.edu.cn/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+        "https://myportal.hkust-gz.edu.cn/",
+        "https://35a.hkust.edu.hk/zh-hans#new_tab",
+        "https://nso.hkust-gz.edu.cn/welcome#new_tab",
+        "https://ugadmissions.hkust-gz.edu.cn/zh-CN/#new_tab",
+        "https://hkust.edu.hk/zh-hans?cn=1",
+        "https://www.hkust-gz.edu.cn/zh/admissions/?variant=zh-cn",
+        "https://facultyprofiles.hkust.edu.hk/",
+        "https://www.hkust-gz.edu.cn/zh/join-us/?variant=zh-cn",
+        "https://library.hkust-gz.edu.cn/",
+        "https://giving.hkust-gz.edu.cn/",
+        "tel:020-88331234",
+        "https://www.beian.gov.cn/portal/registerSystemInfo?recordcode=44011502001012",
+        "https://beian.miit.gov.cn",
+        "https://www.hkust-gz.edu.cn/zh/information-disclosure/?variant=zh-cn",
+        "https://puro.hkust-gz.edu.cn/bid/index?redirect=%2Fzh-cn",
+        "https://www.hkust-gz.edu.cn/zh/%e6%97%a0%e9%9a%9c%e7%a2%8d%e6%b5%8f%e8%a7%88/?variant=zh-cn",
+        "https://www.hkust-gz.edu.cn/zh/contact-us/?variant=zh-cn",
+        "https://itdid.hkust-gz.edu.cn/cn/PoliciesRegulations",
+        "https://brand.hkust.edu.hk/sites/default/files/bm_folder/HKUST_Brand_guideline.pdf",
+        "https://mp.weixin.qq.com/s?__biz=MzkzODI5MDE2NA==&mid=2247499320&idx=1&sn=41c8b4cfc7da6e0eb185a44b5774cd93&chksm=c280c0a3f5f749b55276008f8f501761569af0c5ee489edd068768751b1997f060f1016acd71&token=1865304155&lang=zh_CN#rd",
+        "https://weibo.com/u/7707274273",
+        "https://www.facebook.com/hkustguangzhou",
+        "https://www.youtube.com/@HKUSTGuangzhou",
+        "https://www.instagram.com/hkustguangzhou/",
+        "https://www.linkedin.com/school/99308539/admin/page-posts/published/",
+        "https://x.com/HKUSTGuangzhou",
+        "https://www.xiaohongshu.com/user/profile/640574e60000000029014ff1",
+        "https://space.bilibili.com/16783101?spm_id_from=333.337.0.0",
+        "https://www.hkust-gz.edu.cn/zh?variant=zh-cn",
+        "https://dle.hkust-gz.edu.cn/",
+        "https://ugtl.hkust-gz.edu.cn/zh/",
+        "https://ces.hkust-gz.edu.cn/",
+        "https://hkust-gz.edu.cn/"
+      ],
+      "listedNames": [
+        "教育科学学院办公室"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "本页列四个教育基柱、本科实验教学管理处和学院办公室，共六个部门；与学院主页五部门口径并列。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-ces-home-20261029",
+      "url": "https://ces.hkust-gz.edu.cn/",
+      "title": "港科广教育科学学院主页 · 五部门口径",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "63c99c5074821c0555684df12057b1bc311482791bff6ef21747c1e2f405137b",
+      "retrievedUrl": "https://ces.hkust-gz.edu.cn/",
+      "discoveredLinks": [
+        "https://ces.hkust-gz.edu.cn",
+        "https://ces.hkust-gz.edu.cn/",
+        "https://ces.hkust-gz.edu.cn/#vision",
+        "https://ces.hkust-gz.edu.cn/#news",
+        "https://ces.hkust-gz.edu.cn/#intro",
+        "https://ces.hkust-gz.edu.cn/student/",
+        "https://ces.hkust-gz.edu.cn/staff/",
+        "https://ces.hkust-gz.edu.cn/course/",
+        "https://ces.hkust-gz.edu.cn/job/",
+        "https://ces.hkust-gz.edu.cn/support-and-resources/",
+        "https://ces.hkust-gz.edu.cn/support-and-resources/ceso-team/",
+        "https://mp.weixin.qq.com/s/FX1hb4xm6SLtP8qVs4RcAg",
+        "https://mp.weixin.qq.com/s/RwReENigPjMf72VhWAZqcw?scene=126&sessionid=1788271437&from=industrynews&color_scheme=light#rd#new_tab",
+        "https://mp.weixin.qq.com/s/uArrOd4BlAy6QofL5HWmfw?from=industrynews&color_scheme=light#new_tab",
+        "https://mp.weixin.qq.com/s/vsdZ4roHxGbhWYg8uCIhgg?from=industrynews&color_scheme=light#new_tab",
+        "https://mp.weixin.qq.com/s/pWk2uU0hwgtRlCh48ggSPQ#new_tab",
+        "https://mp.weixin.qq.com/s/Kcwm7zZUw5qd02rELmRT4g?from=industrynews&color_scheme=light#new_tab",
+        "https://ces.hkust-gz.edu.cn/news/college-news",
+        "https://ple.hkust-gz.edu.cn/",
+        "https://ugtl.hkust-gz.edu.cn/",
+        "https://www.hkust-gz.edu.cn",
+        "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/"
+      ],
+      "listedNames": [
+        "Pillar of Cognitive Sciences",
+        "Pillar of General Education",
+        "Pillar of Language Education",
+        "Pillar of STEM Education",
+        "UG Teaching Labs"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "学院主页列四个教育基柱和UG Teaching Labs，共五个部门；校级介绍另列学院办公室。未核实两个口径的生效时间或重组关系。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-gz-future-20261029",
+      "url": "https://cft.hkust-gz.edu.cn/#new_tab",
+      "title": "港科广未来技术学院 · 学院组成",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "daee739551714107727ee66e6c55ed811215b613bd13f17538f73f24be844411",
+      "retrievedUrl": "https://cft.hkust-gz.edu.cn/#new_tab",
+      "discoveredLinks": [
+        "mailto:cft@hkust-gz.edu.cn",
+        "https://cft.hkust-gz.edu.cn/current-students/",
+        "https://cft.hkust-gz.edu.cn/faculty-staff/",
+        "https://cft.hkust-gz.edu.cn/alumni/",
+        "https://hkust-gz.edu.cn/",
+        "https://myportal.hkust-gz.edu.cn/tp_up/view?m=up#act=portal/viewhome",
+        "https://cft.hkust-gz.edu.cn/",
+        "https://cft.hkust-gz.edu.cn/about/dean-message/",
+        "https://cft.hkust-gz.edu.cn/about/administration-structure/",
+        "https://cft.hkust-gz.edu.cn/about/mission-vision/",
+        "https://cft.hkust-gz.edu.cn/about/our-people/faculty/",
+        "https://cft.hkust-gz.edu.cn/about/our-people/staff/",
+        "https://cft.hkust-gz.edu.cn/about/founder-message/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/the-project-journey/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/supporting-tools-systems/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/education-project/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/a-triad-supervisor-system/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/mphil-program-courses/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/student-career-development/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/our-students/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/space-facilities/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/mentors/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/bridge-demo-day/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/bird-workshop/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/red-bird-maker-space-classroom/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/tool-list/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/lab-of-future-technology/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/lab-of-future-technology/laboratory/",
+        "https://cft.hkust-gz.edu.cn/research/",
+        "https://cft.hkust-gz.edu.cn/alumni/alumni-news/",
+        "https://cft.hkust-gz.edu.cn/news-media/news/",
+        "https://cft.hkust-gz.edu.cn/news-media/events/",
+        "https://cft.hkust-gz.edu.cn/news-media/videos/",
+        "https://cft.hkust-gz.edu.cn/news-media/brochures/",
+        "https://fytgs.hkust-gz.edu.cn/admissions/apply-now",
+        "https://mp.weixin.qq.com/s/O4PmArIbvuirFuR_uQg8SQ#new_tab",
+        "https://mp.weixin.qq.com/s/jaiX1fIYnp4zvFe-2TaYdQ#new_tab",
+        "https://mp.weixin.qq.com/s/FTRM8LZkInMgDTZm7f5IrQ#new_tab",
+        "https://mp.weixin.qq.com/s/FhA4318iY7Iq0WqXqYGOaA",
+        "https://mp.weixin.qq.com/s/Fc7LwB824kqtF3Fz-D5fqA#new_tab",
+        "https://cft.hkust-gz.edu.cn/2026/07/08/a-journey-to-central-asia-growing-through-experience-hkustgz-college-of-future-technology-pie-%c2%b7-newuu-visit-recap/",
+        "https://cft.hkust-gz.edu.cn/2026/08/07/admission-mechanism-of-red-bird-mphil-program-revision-2/",
+        "https://cft.hkust-gz.edu.cn/admission/",
+        "https://cft.hkust-gz.edu.cn/department/rbms/bird-workshop/",
+        "https://cft.hkust-gz.edu.cn/department/rbms/red-bird-maker-space-classroom/",
+        "https://booking.hkust-gz.edu.cn/front_page",
+        "https://mp.weixin.qq.com/s/UyihdnCKdjFhCk32SaeFSQ",
+        "https://mp.weixin.qq.com/s/ixA71ypHRVnokNAKA9g5QA",
+        "https://mp.weixin.qq.com/s/-FMSKd5Ytkd_ZOhG_MdTSQ#new_tab",
+        "https://mp.weixin.qq.com/s/SpNdcJV8tnVHRDvNaiVSxQ#new_tab",
+        "https://mp.weixin.qq.com/s/YTVsZtCg-OmFMNhTWo6kDQ#new_tab",
+        "https://mp.weixin.qq.com/s/hwBYF_jhAn7M5WF1Zf5rfQ#new_tab",
+        "https://mp.weixin.qq.com/s/pbKA_Vlz9n3_Aor84CQtFg#new_tab",
+        "https://mp.weixin.qq.com/s/Bak9Y0jNGRnljbFTwIW0bQ#new_tab",
+        "https://mp.weixin.qq.com/s/BFCxxrcZjV_O6xHFQtrLNg#new_tab",
+        "https://mp.weixin.qq.com/s/o_HbMkIYamny32aCsd-ATg#new_tab",
+        "https://mp.weixin.qq.com/s/Qo4j7UFVndMfqweV55qvzw#new_tab",
+        "https://mp.weixin.qq.com/s/473uVdFimcPT3KxO8L8VAw#new_tab",
+        "https://mp.weixin.qq.com/s/zszgNMY8BYQHDrONTshJoA#new_tab",
+        "https://mp.weixin.qq.com/s/qC0j__OLT5EQQpkDeRq_AQ",
+        "https://mp.weixin.qq.com/s/7q6RcXAUjr4FGhqoROK4-A",
+        "https://mp.weixin.qq.com/s/GK6UBBy6THpPyAMIHxkg_g",
+        "https://mp.weixin.qq.com/s/xDw7__W8J1Ov0_m9sQXqLw",
+        "https://mp.weixin.qq.com/s/r_3xWTSbasWbxBAqtNHy9A#new_tab",
+        "https://mp.weixin.qq.com/s/YWUNh-wavdunDKNcfKiElg#new_tab",
+        "https://mp.weixin.qq.com/s/quHkv2A6usXY8OELtq9C6Q#new_tab",
+        "https://mp.weixin.qq.com/s/g8H8LHsmyeOTe1O9E2yiZw#new_tab",
+        "https://mp.weixin.qq.com/s/ogf5cGjVoYxuY8JZY1497Q#new_tab",
+        "https://mp.weixin.qq.com/s/Zx_8iRp3wXjbegHcwS3CnA#new_tab",
+        "https://mp.weixin.qq.com/s/tyEPMsY-9L9RvJirpVvzdg#new_tab",
+        "https://mp.weixin.qq.com/s/rvPav0vxrbJ7rMvjrYyHDg#new_tab",
+        "https://mp.weixin.qq.com/s/1ZJ0K1kPh8ackOVb5C7gWA#new_tab",
+        "https://mp.weixin.qq.com/s/3126jDsHt0ZBkc57SlrRcQ#new_tab",
+        "https://mp.weixin.qq.com/s/6JcHbbVnITel30eWsDNBog#new_tab",
+        "https://mp.weixin.qq.com/s/TQ0mg2cxEXOXSu8aoqNkQQ#new_tab",
+        "https://mp.weixin.qq.com/s/YV-BzNyTIFKC3uP6XTynrA#new_tab",
+        "https://mp.weixin.qq.com/s/ZZZGVauRvr5AxN6WaGS7Yg#new_tab",
+        "https://mp.weixin.qq.com/s/gEsdxmAGf3JG1QlRKdOzug#new_tab",
+        "https://mp.weixin.qq.com/s/vkrm4eJuCLpk1kCbY6NlTA#new_tab",
+        "https://mp.weixin.qq.com/s/vFXIfRbfG1CTYSLS1PIGCw#new_tab",
+        "https://mp.weixin.qq.com/s/mkJ3VPAMWMAfno6H-TLzVA#new_tab",
+        "https://mp.weixin.qq.com/s/T-qX06XyFytuHbtfvLxntg#new_tab",
+        "https://mp.weixin.qq.com/s/riNm-RwhjWXxXP7uhoLVMQ#new_tab",
+        "https://mp.weixin.qq.com/s/ixrm0Tz23yogiaAnlHYU-g#new_tab",
+        "https://mp.weixin.qq.com/s/ry3NoKsDT6ICnQXpQyu1mA#new_tab",
+        "https://mp.weixin.qq.com/s/rLgqN39L9uVTYwha9NjIHQ#new_tab",
+        "https://mp.weixin.qq.com/s/q4dtOubb6Ji1GD-w4RNHfg#new_tab",
+        "https://mp.weixin.qq.com/s/AqvOg34fCXy4VKBL6rVrug#new_tab",
+        "https://mp.weixin.qq.com/s/qO0gYqv_uaGI1GB3A_FHig#new_tab",
+        "https://mp.weixin.qq.com/s/8asSXeXyeFnJECgcvRtG6w#new_tab",
+        "https://mp.weixin.qq.com/s/DP8QNR7fhlBw4UzTa8qaQQ#new_tab",
+        "https://mp.weixin.qq.com/s/W2bIBdrMTcQMNgUDlYlrkw#new_tab",
+        "https://mp.weixin.qq.com/s/YA8cA7rI02hpy42u0h2RBg#new_tab",
+        "https://mp.weixin.qq.com/s/j7H9gtmK_LTE2i6xEa7CJA#new_tab",
+        "https://mp.weixin.qq.com/s/SFkLqyRvZ1NNQacCm0YPuQ#new_tab",
+        "https://mp.weixin.qq.com/s/SyDcq8f2byrQAKS3VidHgg#new_tab",
+        "https://mp.weixin.qq.com/s/4HssnevEOAw9gwOGtGU4HQ#new_tab",
+        "https://mp.weixin.qq.com/s/FAkMQHcuMrq5rQHM76TZKg#new_tab",
+        "https://mp.weixin.qq.com/s/vm3WW4xPa0SNR36d20LyUQ#new_tab",
+        "https://mp.weixin.qq.com/s/FT_bTpI8kTrTrGsYIIV9Mg#new_tab",
+        "https://mp.weixin.qq.com/s/v-TXXLO0svzbWKMRYGi3RA#new_tab",
+        "https://mp.weixin.qq.com/s/97Zpo0nM5MlEYN1LStq2qw#new_tab",
+        "https://mp.weixin.qq.com/s/IAkKnwMXCt6ZqgyINV7R7g#new_tab",
+        "https://mp.weixin.qq.com/s/aOUIFFCLPFhdKlmf2M53pA#new_tab",
+        "https://mp.weixin.qq.com/s/fw_fPNaSlH7e0Ry-DJkPUQ#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247488609&idx=1&sn=a20dcc16c6dc18c12aa063769a374e7c&chksm=cf8b01f8143c52f23900bfe2baf68372f75f5058e3204af8b2d0cede4cac3ed2202e1d6973bb&scene=126&sessionid=1723704314#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247496293&idx=1&sn=3395f8512aa3e60cea0fd6fbd993d54f&chksm=ced8a062f9af2974c8d1268ccd3e09809011d60ceb5949738a1a542d3c5ce352d9d08e1f7ff4&scene=126&sessionid=1723689053#rd#new_tab",
+        "https://mp.weixin.qq.com/s/iY0Kiob0q88hC5kRBwHgEg#new_tab",
+        "https://mp.weixin.qq.com/s/nve1Al1p7fhoL8yUDySMoA#new_tab",
+        "https://mp.weixin.qq.com/s/dcOd9eo_R3YmfGtsrBxS6Q#new_tab",
+        "https://mp.weixin.qq.com/s/U6lPnQtyOPJirS24uJxJxQ#new_tab",
+        "https://mp.weixin.qq.com/s/wDZMCKU6chZ1EXwJmSVYHg#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247498977&idx=1&sn=b7349762e4d0c0ac34027b577a66633d&chksm=cf8438bb7380612805f45c0faf9651731b5155245fb3d0c15a79341b726bc985ad7994541488&scene=126&sessionid=1723689053#rd#new_tab",
+        "https://mp.weixin.qq.com/s/zYpP4va87O2M5CXdRf5aug#new_tab",
+        "https://mp.weixin.qq.com/s/4pBGde0VpwZLurTb8N8ldw#new_tab",
+        "https://mp.weixin.qq.com/s/MJ_qb--qS_UOMxb0zPIVeA#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247498975&idx=1&sn=ad48c3f0d00b6fae0d958fe53795691b&chksm=cf0b292705d843b1b22fb2869e7436a97a05fcbc16ff7107b9f31ecb117b37dd6c359560c6af&scene=126&sessionid=1723689053#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247498082&idx=1&sn=c33e3e949a77c53c9939f4efb1bf001d&chksm=cf19c4751bd3559460a56bc9c9bc00dd0f1aae0aaf184df3b93280ec65504e8feb419fb33790&scene=126&sessionid=1723689053#rd#new_tab",
+        "https://mp.weixin.qq.com/s/bMlbbnc6lHuwuy4cJeHFiA#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247497695&idx=1&sn=abd2078bd99d35475eff8a782b91fbde&chksm=cf31b7f04168dc771455c869095cbcd386cdad77587e5bf4afaf38889ce33506002e57f487c6&scene=126&sessionid=1723689053#rd#new_tab",
+        "https://mp.weixin.qq.com/s/hxlFyTDUzrRgU1jBFRmakw#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247495853&idx=1&sn=55a5f01264012f671f4067d79fb474d6&chksm=cfae2bedc12eb60a5061a2c35b62ef5d36a1c7c95fc771dd3166f323d4f5f3dc4cc35f2b6be8&scene=126&sessionid=1723704156#rd#new_tab",
+        "https://mp.weixin.qq.com/s/QbYx73eH-noUO5Wk9lYzhg#new_tab",
+        "https://mp.weixin.qq.com/s/FCJ6Dc5UoMosCll0gdEJxA#new_tab",
+        "https://mp.weixin.qq.com/s/8O2CFIvXVx0U1WBb1a6iVA#new_tab",
+        "https://mp.weixin.qq.com/s/nW0gWH5MiZSCe3HXoi4jVg#new_tab",
+        "https://mp.weixin.qq.com/s/0qc6rjIVwnAxFG5Uw3HlIA#new_tab",
+        "https://mp.weixin.qq.com/s/iI5cdoXlKOEWhJS7gGVs8g#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247491079&idx=1&sn=213f30fd121df7e6a817efe74217d2af&chksm=cfde2abd88eac63816af0ebc41b8d126d5fcd56a5a71e96a0f4559dbf44e662195783688f4cb&scene=126&sessionid=1723704202#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247491065&idx=1&sn=d86f52328f547c327f254bb3b5e2840e&chksm=cf2529fb93a9b53b60878b0ed54ed67d44ca3a50bc34fd02a8602227fbf83429b1a782b50b59&scene=126&sessionid=1723704267#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247491068&idx=2&sn=ad6e02911b00cb925f9d4033eaa5f79f&chksm=cf140bf8de8210bf8eb09bfc3490f4cc7d7a30801995e225662668d5facd942ef116b57df6db&scene=126&sessionid=1723704267#rd#new_tab",
+        "https://cft.hkust-gz.edu.cn/2024/05/10/%e5%85%b3%e4%ba%8e%e7%ba%a2%e9%b8%9f%e7%a1%95%e5%a3%ab%e9%a1%b9%e7%9b%ae%e7%94%b3%e8%af%b7%e7%9a%84%e6%b8%a9%e9%a6%a8%e6%8f%90%e7%a4%ba/",
+        "https://mp.weixin.qq.com/s/e9E7Ta_Pv1nGu4ytFyGaOQ#new_tab",
+        "https://mp.weixin.qq.com/s/zDKACWRytx3gQhfYL5gzBw#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247490240&idx=1&sn=20de4f270360fb8a5b6e9e461bd96ce4&chksm=cf53d898ed91bf1a0d0af7dd70874328db543984b250e94ed436bb55201856457e32c8c908db&scene=126&sessionid=1723704285#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247490239&idx=1&sn=04220fb90792f4d3327a5426bc2389bc&chksm=cf2feea07c7ec1ceb83a8f1404687d3a5c8ef475f9ea2ef2f5e5a2f1153fb5d37f1903686c93&scene=126&sessionid=1723704285#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247490085&idx=1&sn=3276656e1c782d1da8211fc1cffd240a&chksm=cfdfccfaa39134ee9e90d2df7a0fc7e806712fc75ac303eee529b536123649b026fb57a4d8a7&scene=126&sessionid=1723704285#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247488649&idx=1&sn=336601e420b9398c366a7c10490f1a4a&chksm=cf7ce373537cf94f0cee7e9e1e1467484196fc03866e0a6590c4a55bce3b898802ad156d7740&scene=126&sessionid=1723704314#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247488602&idx=1&sn=9e659d16a60d2256953f5aca4744a0d7&chksm=cffaaedd35da9408e9a1d1e370259cc8093e2be334d909a891493a0b4448617e168d7c6830c8&scene=126&sessionid=1723704314#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247488548&idx=1&sn=416485b59426af7db0051dc8e1317721&chksm=cf2427a3df7a1da99dccfdfaf21a6a991c1bd425c7277f6b22e9f33ba19708ddb2fbfbd66d9c&scene=126&sessionid=1723704314&poc_token=HLHDvWajGjAvafkFlym-Tgsl1c6Yriyd0tVlk4qD#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247488540&idx=1&sn=a66500ce946449947280585937c855f0&chksm=cffc785f3b3872313bd1d90a34a9cfde445b03d7426abbc082ef5d9b19b37e74a9d131b7b78c&scene=126&sessionid=1723704314#rd#new_tab",
+        "https://mp.weixin.qq.com/s/8klxrhyJQ3Mb0KW7PO006Q#new_tab",
+        "https://mp.weixin.qq.com/s/LqIFAryOLUg-NhDrTU_4dw#new_tab",
+        "https://mp.weixin.qq.com/s/exA5NkqpDGEDhGC_t50gsQ#new_tab",
+        "https://mp.weixin.qq.com/s/ky4GWweua3NtIeYr8QY8gw#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247487746&idx=1&sn=0bdcc33d553e820b0086e01c5610d798&chksm=cfa9d0e6f9832ca81b7b31d9ec44be2f845754ecc6b08f0c606245c52a501a7ccee15b5305ea&scene=126&sessionid=1723704328#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247487723&idx=1&sn=c3dfe5e31695e8473167257587d380eb&chksm=cf6c128f77eafcedec6b3abf124669e5fc529bcfc6fb10808ee064090cb69d82de9f8fe19976&scene=126&sessionid=1723704328#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247487683&idx=1&sn=16e032aeb8688fe7dc1500dac07de08e&chksm=cfa91d25babb47220a2f596da68322f048f02d4e94d22342ef02ccb4c54821dc87fdea518705&scene=126&sessionid=1723704370#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247487683&idx=2&sn=f29d5d45f4c288381f19223f321455a2&chksm=cfa3bb74b91d1fab7cee7290fc6d78f79453df989467e910ea5a5643dfa4b758e1cd79b728c5&scene=126&sessionid=1723704370#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247487580&idx=2&sn=1dd7206dcd4460bfbc432ad8945faed1&chksm=cf036483a0206ba163e015e8c2df18dc2a67af5d0e6ae4f3db41c903587e254786c1962f7282&scene=126&sessionid=1723704370#rd#new_tab",
+        "https://mp.weixin.qq.com/s/B3dSyTH0moGdhVcj9b7QUw#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247487488&idx=1&sn=7836ce3e041a548263ed20e91d934ac6&chksm=cf61831941788ae5536f8031fce9eee5ffd1dde601b4e2ec603cdfdae1622367b7b03941567f&scene=126&sessionid=1723704370#rd#new_tab",
+        "https://mp.weixin.qq.com/s/yU0OsbqmmBdCA1JhckJ7Sw#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247486931&idx=2&sn=4142f80d3e0ce8552b20461fae7c5b1d&chksm=cfb0ee13fb835d697b2f9ae822acd1fdae4e59e4668495ede3226315758aaffcabae6b1c0ba7&scene=126&sessionid=1723704382#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247486884&idx=1&sn=7f247db92738d4e33726908986e4f977&chksm=cf9bb5e01718dcd56f61d1a4eb71252db4223125466269cd32192eb9e482e2ee9e91d21fe72f&scene=126&sessionid=1723704382#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247486838&idx=2&sn=a6abd946f3dc6ce9ac508936a3e1e299&chksm=cfd9bf194c3a10b393590cf2991cd714bac84fee8f2348fdc66fb8196799bb0c048a98e61ae5&scene=126&sessionid=1723704396#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247486362&idx=1&sn=25e6182b0f5dd34605175099d5b5d572&chksm=cf94f39b86c80e45588ae167ced09d3570a81af8d6176a0eb05a4f766dc789d23eef3350d96f&scene=126&sessionid=1723704396#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247486240&idx=1&sn=c65751f65764a2896ccbcabee4941903&chksm=cfcd4cfefcb5b30a5ebc6f560b91f4f942db87696f115367c2ae3a8756b17a475a37dc868fae&scene=126&sessionid=1723704396#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247485720&idx=2&sn=dd75e61dcd58f6b2708d29adbca6e4fa&chksm=cfb4b68ee3fb453adb2345b562436c25794eb036e4b4d20be9a5f682173734864c14202f9d2f&scene=126&sessionid=1723704396#rd#new_tab",
+        "https://mp.weixin.qq.com/s/RkrCU8SOzZz_JbWsdD5H0w#new_tab",
+        "https://mp.weixin.qq.com/s/hxAMMiUP9Cc4jFXRpF_8Qg#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247485307&idx=1&sn=87c42473a7bedc3a1ac7f1a395784dc8&chksm=cfe61a011d1293f256cf3eb3797d540424a8e33df5cedd2ae36c4d38d1029a512733eb757ce1&scene=126&sessionid=1723704396#rd#new_tab",
+        "https://mp.weixin.qq.com/s?__biz=Mzg3MzgyNjE1Mg==&mid=2247485003&idx=1&sn=05325581d090eab5f1a6ca8035ba89e7&chksm=cfaf7f66ef151fbb7f200c67474d316a4caf5f4aa4772615b615f027f909fd99e6b5914c70c8&scene=126&sessionid=1723704396#rd#new_tab",
+        "https://mp.weixin.qq.com/s/Jyu6vS2Ls6bYRlQ5yay-bg#new_tab",
+        "https://mp.weixin.qq.com/s/zKiUMVZInJonZTkDzjgyRQ#new_tab",
+        "https://mp.weixin.qq.com/s/sTXaIrkYdixZfBHrLAsTgA#new_tab",
+        "https://mp.weixin.qq.com/s/eEEbk4iXY6H3aQFlVAO_Jw#new_tab",
+        "https://mp.weixin.qq.com/s/P26Y4DDB08y3erVgYzSC2g#new_tab",
+        "https://mp.weixin.qq.com/s/BtO8dPn1t4CB_w1sng1H5A#new_tab",
+        "https://mp.weixin.qq.com/s/7YHVZc_NptsEJoURPAhtPA#new_tab",
+        "https://www.hkust-gz.edu.cn/",
+        "https://beian.miit.gov.cn/",
+        "https://www.facebook.com/TheRedBirdMPhilProgram/",
+        "https://www.linkedin.com/company/hkust-gz-red-bird-mphil-program/?viewAsMember=true",
+        "https://www.instagram.com/hkustgz_cft/",
+        "https://www.youtube.com/@TheRedBirdMPhilProgram"
+      ],
+      "listedNames": [
+        "Base of Red Bird MPhil",
+        "Lab of Future Technology",
+        "Red Bird Maker Space"
+      ],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "主页说明学院包括Base of Red Bird MPhil、Lab of Future Technology和Red Bird Maker Space；这些不是三个学系或三条博士招生路线。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-cft-mission-20261029",
+      "url": "https://cft.hkust-gz.edu.cn/about/mission-vision/",
+      "title": "港科广未来技术学院 · 教育使命",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4793bff51967e8a387807639467c97dce82ee8b6ad1a4ef2a7c15a901aa4df87",
+      "retrievedUrl": "https://cft.hkust-gz.edu.cn/about/mission-vision/",
+      "discoveredLinks": [
+        "mailto:cft@hkust-gz.edu.cn",
+        "https://cft.hkust-gz.edu.cn/current-students/",
+        "https://cft.hkust-gz.edu.cn/faculty-staff/",
+        "https://cft.hkust-gz.edu.cn/alumni/",
+        "https://hkust-gz.edu.cn/",
+        "https://myportal.hkust-gz.edu.cn/tp_up/view?m=up#act=portal/viewhome",
+        "https://cft.hkust-gz.edu.cn/",
+        "https://cft.hkust-gz.edu.cn/about/dean-message/",
+        "https://cft.hkust-gz.edu.cn/about/administration-structure/",
+        "https://cft.hkust-gz.edu.cn/about/mission-vision/",
+        "https://cft.hkust-gz.edu.cn/about/our-people/faculty/",
+        "https://cft.hkust-gz.edu.cn/about/our-people/staff/",
+        "https://cft.hkust-gz.edu.cn/about/founder-message/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/the-project-journey/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/supporting-tools-systems/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/education-project/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/a-triad-supervisor-system/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/cultivation/mphil-program-courses/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/student-career-development/",
+        "https://cft.hkust-gz.edu.cn/rbm-program/our-students/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/space-facilities/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/mentors/",
+        "https://cft.hkust-gz.edu.cn/entrepreneurship-education/the-bridge-program/bridge-demo-day/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/bird-workshop/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/red-bird-maker-space-classroom/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/tool-list/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/lab-of-future-technology/",
+        "https://cft.hkust-gz.edu.cn/facilities-and-labs/lab-of-future-technology/laboratory/",
+        "https://cft.hkust-gz.edu.cn/research/",
+        "https://cft.hkust-gz.edu.cn/alumni/alumni-news/",
+        "https://cft.hkust-gz.edu.cn/news-media/news/",
+        "https://cft.hkust-gz.edu.cn/news-media/events/",
+        "https://cft.hkust-gz.edu.cn/news-media/videos/",
+        "https://cft.hkust-gz.edu.cn/news-media/brochures/",
+        "https://cft.hkust-gz.edu.cn",
+        "https://www.hkust-gz.edu.cn/",
+        "https://beian.miit.gov.cn/",
+        "https://www.facebook.com/TheRedBirdMPhilProgram/",
+        "https://www.linkedin.com/company/hkust-gz-red-bird-mphil-program/?viewAsMember=true",
+        "https://www.instagram.com/hkustgz_cft/",
+        "https://www.youtube.com/@TheRedBirdMPhilProgram"
+      ],
+      "listedNames": [],
+      "scope": "学院组成、学科/项目导航及所引页面范围；不确认研究生指导资格、项目开放或名额。",
+      "claims": [
+        "说明红鸟硕士的融合学科、项目式培养；不据课程或场地名称推导独立学系。"
+      ],
+      "knownIssues": [
+        "研究方向、学位项目、教学支持和正式学术单位不能混算；本次不新增教师或项目政策卡。"
+      ]
+    },
+    {
+      "id": "organization-cft-structure-failed-20261029",
+      "url": "https://cft.hkust-gz.edu.cn/about/administration-structure/",
+      "title": "未读到正文 · 未来技术学院行政架构",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_entry_access_failed",
+      "readMethod": "anonymous_HTTP",
+      "scope": "本次403访问失败记录，不是组织架构事实。",
+      "claims": [
+        "原行政架构入口返回403，本轮尚未核实该页正文；没有换通道重试。"
+      ],
+      "knownIssues": [
+        "主页列出的组成部分不能替代尚未读到的行政架构图。"
+      ],
+      "httpStatus": 403
     }
   ],
   "funding": [
@@ -189690,14 +191305,233 @@ window.APP_CATALOG = {
           "name": "理工学院",
           "kind": "school",
           "url": "https://sse.cuhk.edu.cn/",
-          "entryBodyStatus": "access_failed",
-          "readMethod": null,
-          "sourceIds": [],
+          "entryBodyStatus": "body_read",
+          "readMethod": "anonymous_HTTP",
+          "sourceIds": [
+            "organization-sse-home-20261029"
+          ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
-          "staffEntries": [],
-          "accessNote": "匿名读取遇到TLS错误；本轮未读到正文，不能算已核完。"
+          "staffEntries": [
+            {
+              "label": "教职人员",
+              "url": "https://sse.cuhk.edu.cn/teacher-search",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-sse-home-20261029"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
+            },
+            {
+              "label": "研究人员",
+              "url": "https://sse.cuhk.edu.cn/taxonomy/term/158",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-sse-home-20261029"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
+            }
+          ],
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；本轮未读到正文，不能算已核完。"
+          },
+          "bodySha256": "f367266c9f9202c10a0a06de3c701cdfb9fd6f7c0dcfee9312b8a904743895f9",
+          "retrievedUrl": "https://sse.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "organization-sse-home-20261029",
+              "organization-sse-introduction-20261029",
+              "organization-sse-research-fields-20261029"
+            ],
+            "summary": "已读学院介绍、主页和科研领域页。这几页按学科与项目组织信息，尚未核到下设学系的完整清单；下方六类科研领域和七个研究项目不改称学系，也不限定全部方向。",
+            "organizationComplete": false,
+            "facultyComplete": false
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "科研领域（不是学系列表）",
+              "kind": "research_fields",
+              "sourceIds": [
+                "organization-sse-research-fields-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "计算机工程",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "organization-sse-research-fields-20261029"
+                  ],
+                  "observedName": "计算机工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "电子工程",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "organization-sse-research-fields-20261029"
+                  ],
+                  "observedName": "电子工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "化学",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "organization-sse-research-fields-20261029"
+                  ],
+                  "observedName": "化学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "数学与应用数学",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "organization-sse-research-fields-20261029"
+                  ],
+                  "observedName": "数学与应用数学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "新能源科学与工程",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "organization-sse-research-fields-20261029"
+                  ],
+                  "observedName": "新能源科学与工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "材料学",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "organization-sse-research-fields-20261029"
+                  ],
+                  "observedName": "材料学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "这是所引科研领域页的分类，不限定学院全部研究方向。"
+            },
+            {
+              "title": "研究型硕博项目导航（不计作学系）",
+              "kind": "research_degree_navigation",
+              "sourceIds": [
+                "organization-sse-home-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "数学",
+                  "url": "https://sse.cuhk.edu.cn/page/757",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "数学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "物理学",
+                  "url": "https://sse.cuhk.edu.cn/page/991",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "物理学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "化学",
+                  "url": "https://sse.cuhk.edu.cn/page/1700",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "化学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "材料科学与工程",
+                  "url": "https://sse.cuhk.edu.cn/page/748",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "材料科学与工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "能源科学与工程",
+                  "url": "https://sse.cuhk.edu.cn/page/931",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "能源科学与工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "计算机与信息工程",
+                  "url": "https://sse.cuhk.edu.cn/page/749",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "计算机与信息工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "生物医学工程",
+                  "url": "https://sse.cuhk.edu.cn/page/1323",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sse-home-20261029"
+                  ],
+                  "observedName": "生物医学工程",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "只核到学院给出的入口；学位、年度、开放状态和材料仍须到对应项目页确认，不能套用本科或授课型同名项目。"
+            }
+          ]
         },
         {
           "id": "cuhksz-3",
@@ -189911,14 +191745,160 @@ window.APP_CATALOG = {
           "name": "数据科学学院",
           "kind": "school",
           "url": "https://sds.cuhk.edu.cn/",
-          "entryBodyStatus": "access_failed",
-          "readMethod": null,
-          "sourceIds": [],
+          "entryBodyStatus": "body_read",
+          "readMethod": "anonymous_HTTP",
+          "sourceIds": [
+            "organization-sds-home-20261029"
+          ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
-          "staffEntries": [],
-          "accessNote": "匿名读取遇到TLS错误；本轮未读到正文，不能算已核完。"
+          "staffEntries": [
+            {
+              "label": "教职人员",
+              "url": "https://sds.cuhk.edu.cn/teacher-search",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-sds-home-20261029"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
+            },
+            {
+              "label": "兼职人员",
+              "url": "https://sds.cuhk.edu.cn/teacher-honorary",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-sds-home-20261029"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
+            }
+          ],
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；本轮未读到正文，不能算已核完。"
+          },
+          "bodySha256": "81dc490b5d738e9a08d22181f07fc94e96f8e8324ce7c3d6ccec0ce03bb2e5a7",
+          "retrievedUrl": "https://sds.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "organization-sds-home-20261029",
+              "organization-sds-fields-20261029"
+            ],
+            "summary": "官网按三个学科方向介绍学院，并单列学位项目。这些页面没有给出下设学系清单；三个方向不改称三个系，项目入口与正式申请要求分开。",
+            "organizationComplete": false,
+            "facultyComplete": false
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "学科方向（不是三个学系）",
+              "kind": "academic_subjects",
+              "sourceIds": [
+                "organization-sds-fields-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "计算机科学与技术",
+                  "url": null,
+                  "kind": "academic_subject",
+                  "sourceIds": [
+                    "organization-sds-fields-20261029"
+                  ],
+                  "observedName": "计算机科学与技术",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "统计学",
+                  "url": null,
+                  "kind": "academic_subject",
+                  "sourceIds": [
+                    "organization-sds-fields-20261029"
+                  ],
+                  "observedName": "统计学",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "数据科学与大数据技术",
+                  "url": null,
+                  "kind": "academic_subject",
+                  "sourceIds": [
+                    "organization-sds-fields-20261029"
+                  ],
+                  "observedName": "数据科学与大数据技术",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "保留官网学科分类；不据此判断导师资格或可申请人数。"
+            },
+            {
+              "title": "研究型硕博项目导航（不计作学系）",
+              "kind": "research_degree_navigation",
+              "sourceIds": [
+                "organization-sds-home-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "数据科学哲学硕士-博士",
+                  "url": "https://sds.cuhk.edu.cn/phd-programmes",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sds-home-20261029"
+                  ],
+                  "observedName": "数据科学哲学硕士-博士",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "计算机科学哲学硕士-博士",
+                  "url": "https://sds.cuhk.edu.cn/phd-programmes-CSE",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sds-home-20261029"
+                  ],
+                  "observedName": "计算机科学哲学硕士-博士",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "计算生物与医学信息学哲学硕士-博士",
+                  "url": "https://medpg.cuhk.edu.cn/node/109",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sds-home-20261029"
+                  ],
+                  "observedName": "计算生物与医学信息学哲学硕士-博士",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "流行病学和生物统计学硕士-博士",
+                  "url": "https://medpg.cuhk.edu.cn/node/108",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sds-home-20261029"
+                  ],
+                  "observedName": "流行病学和生物统计学硕士-博士",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "部分入口指向医学院；这是学院提供的导航，不据此宣称独立招生单位或当期开放。"
+            }
+          ]
         },
         {
           "id": "cuhksz-5",
@@ -189974,9 +191954,10 @@ window.APP_CATALOG = {
           "kind": "school",
           "url": "https://sai.cuhk.edu.cn/",
           "entryBodyStatus": "body_read",
-          "readMethod": "web_reader",
+          "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhksz-8"
+            "academic-map-cuhksz-8",
+            "organization-sai-home-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -190742,9 +192723,70 @@ window.APP_CATALOG = {
                   "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 }
               ]
+            },
+            {
+              "label": "教职人员",
+              "url": "https://sai.cuhk.edu.cn/zh-hans/teacher-search",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-sai-home-20261029"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
+            },
+            {
+              "label": "兼职人员",
+              "url": "https://sai.cuhk.edu.cn/zh-hans/taxonomy/term/176",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-sai-home-20261029"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
             }
           ],
-          "accessNote": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          },
+          "bodySha256": "0bb2fb04bc2fbd833a726676ac3c0f29cfe5254df60c885b44bb586653af6dbd",
+          "retrievedUrl": "https://sai.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "organization-sai-home-20261029",
+              "organization-sai-introduction-20261029"
+            ],
+            "summary": "已读学院简介和主页，所引页面未列下设学系清单。保留人工智能研究型硕博入口；课程知识、科研平台和人员类别不改称学系。",
+            "organizationComplete": false,
+            "facultyComplete": false
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "研究型硕博入口",
+              "kind": "research_degree_navigation",
+              "sourceIds": [
+                "organization-sai-home-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "人工智能哲学硕士-博士",
+                  "url": "https://sai.cuhk.edu.cn/zh-hans/node/35",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "organization-sai-home-20261029"
+                  ],
+                  "observedName": "人工智能哲学硕士-博士",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "这是一条所给官网入口，不能据此判断所有申请条件和当前名额。"
+            }
+          ]
         },
         {
           "id": "cuhksz-gs",
@@ -190823,7 +192865,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkustgz-1"
+            "academic-map-hkustgz-1",
+            "organization-gz-function-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -190841,7 +192884,14 @@ window.APP_CATALOG = {
               "bodySha256": "1815fb73efdce8bfa0283755f478544c2aaa3ff81f56e0abb48edea3240fc084",
               "retrievedUrl": "https://amat.hkust-gz.edu.cn/zh/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-function-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "地球与海洋大气科学",
@@ -190929,7 +192979,14 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-function-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "微电子",
@@ -190942,7 +192999,14 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "https://mics.hkust-gz.edu.cn/",
               "staffRoutes": [],
-              "failure": "HTTP Error 403: Forbidden"
+              "failure": "HTTP Error 403: Forbidden",
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-function-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "可持续能源与环境",
@@ -191030,7 +193094,14 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-function-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -192466,7 +194537,21 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "240db6573ddb61dde9f3f4804ce2d860c5b70a095e849f403a329d4a6236c488",
+          "retrievedUrl": "https://funh.hkust-gz.edu.cn/zh/?variant=zh-cn",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "organization-gz-function-20261029"
+            ],
+            "summary": "本页四个学域的名称和归属已逐项对上。所给链接与学域正文、完整师资及研究学位招生要求分别核查，不把学域数当作可申请导师数。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hkustgz-2",
@@ -192476,7 +194561,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkustgz-2"
+            "academic-map-hkustgz-2",
+            "organization-gz-information-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -192494,15 +194580,32 @@ window.APP_CATALOG = {
               "bodySha256": "64b1ec4d21d25a49ee64dab0b6445383b9309de41aead62a7e4879bddce5acc6",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/artificial-intelligence/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-information-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "数据科学与分析",
-              "url": null,
+              "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/data-science-and-analytics/?variant=zh-cn",
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "sourceIds": [
+                "organization-gz-information-20261029"
+              ],
+              "kind": "thrust",
+              "relationship": "listed_on_parent_page",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-information-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "计算媒体与艺术",
@@ -192517,18 +194620,49 @@ window.APP_CATALOG = {
               "bodySha256": "ddc94d8379027eae58a58ac75dc7ecb4b1c23a96b866e96f5f684a73bba0890b",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/computational-media-and-arts/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-information-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "物联网",
-              "url": null,
+              "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/internet-of-things/?variant=zh-cn",
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "sourceIds": [
+                "organization-gz-information-20261029"
+              ],
+              "kind": "thrust",
+              "relationship": "listed_on_parent_page",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-information-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "05d962f5d472a00dede7b21db3e87221dacf07226cb434b0c5d7562cdb146ef0",
+          "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "organization-gz-information-20261029"
+            ],
+            "summary": "本页四个学域的名称和归属已逐项对上。所给链接与学域正文、完整师资及研究学位招生要求分别核查，不把学域数当作可申请导师数。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hkustgz-3",
@@ -192538,18 +194672,30 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkustgz-3"
+            "academic-map-hkustgz-3",
+            "organization-gz-systems-reused-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [
             {
-              "name": "生物科学与生物医学工程",
-              "url": null,
+              "name": "生命科学与生物医学工程",
+              "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/bioscience-and-biomedical-engineering/?variant=zh-cn",
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "sourceIds": [
+                "organization-gz-systems-reused-20261029"
+              ],
+              "kind": "thrust",
+              "relationship": "listed_on_parent_page",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-systems-reused-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "previousListedName": "生物科学与生物医学工程"
             },
             {
               "name": "智能交通",
@@ -192564,7 +194710,14 @@ window.APP_CATALOG = {
               "bodySha256": "dafd7cf505e457c490db20a042b47a191d821012a1668e41875a6adc76a1f954",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-systems-reused-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "机器人与自主系统",
@@ -192579,7 +194732,14 @@ window.APP_CATALOG = {
               "bodySha256": "5b80e476b70d724fa99c96d1cf838a69d49cfcccad7665eb0be1d81bd53aa19f",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-systems-reused-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "智能制造",
@@ -192594,10 +194754,31 @@ window.APP_CATALOG = {
               "bodySha256": "d15a183039cab1b132eaafcd316cf7ea15469aa37e682eec027e8de30aa7e2c7",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-systems-reused-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "25ca7668e4515fe82ce9480eb5850def9310b3fc7c6342ea2879b72ee12c184c",
+          "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "organization-gz-systems-reused-20261029"
+            ],
+            "summary": "本页四个学域的名称和归属已逐项对上。所给链接与学域正文、完整师资及研究学位招生要求分别核查，不把学域数当作可申请导师数。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hkustgz-4",
@@ -192607,7 +194788,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkustgz-4"
+            "academic-map-hkustgz-4",
+            "organization-gz-society-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -192625,23 +194807,50 @@ window.APP_CATALOG = {
               "bodySha256": "e1c934a85201f329a909ed41b69f0d7780b3e644878ae0c41994c76fe750cca0",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/financial-technology/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-society-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "创新创业与公共政策",
-              "url": null,
+              "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/innovation-policy-and-entrepreneurship/?variant=zh-cn",
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "sourceIds": [
+                "organization-gz-society-20261029"
+              ],
+              "kind": "thrust",
+              "relationship": "listed_on_parent_page",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-society-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "城市治理与设计",
-              "url": null,
+              "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/urban-governance-and-design/?variant=zh-cn",
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "sourceIds": [
+                "organization-gz-society-20261029"
+              ],
+              "kind": "thrust",
+              "relationship": "listed_on_parent_page",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-society-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "碳中和与气候变化",
@@ -192656,25 +194865,183 @@ window.APP_CATALOG = {
               "bodySha256": "9165b1b660afbce5271092946e372ddee6ea35babd8584f92124247591fbeb91",
               "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/carbon-neutrality-and-climate-change/?variant=zh-cn",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "thrust",
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "organization-gz-society-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "f74eb2a0eea391735b26f0269d22ae471da76eb964ede1260d8f06b1e6e5f2d6",
+          "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/society-hub/?variant=zh-cn",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "organization-gz-society-20261029"
+            ],
+            "summary": "本页四个学域的名称和归属已逐项对上。所给链接与学域正文、完整师资及研究学位招生要求分别核查，不把学域数当作可申请导师数。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hkustgz-5",
           "name": "教育科学学院",
           "kind": "additional_school",
-          "url": "https://www.hkust-gz.edu.cn/zh/academics/education-innovation/college-of-education-sciences/?variant=zh-cn",
+          "url": "https://ces.hkust-gz.edu.cn/",
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkustgz-5"
+            "academic-map-hkustgz-5",
+            "organization-ces-home-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
-          "staffEntries": []
+          "children": [
+            {
+              "name": "认知科学基柱（Pillar of Cognitive Sciences）",
+              "url": null,
+              "kind": "education_pillar",
+              "relationship": "listed_on_parent_page",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "sourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "inventorySourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "observedName": "Pillar of Cognitive Sciences",
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "通识教育基柱（Pillar of General Education）",
+              "url": null,
+              "kind": "education_pillar",
+              "relationship": "listed_on_parent_page",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "sourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "inventorySourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "observedName": "Pillar of General Education",
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "语言教育基柱（Pillar of Language Education）",
+              "url": "https://ple.hkust-gz.edu.cn/",
+              "kind": "education_pillar",
+              "relationship": "listed_on_parent_page",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "sourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "inventorySourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "observedName": "Pillar of Language Education",
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "数理教育基柱（Pillar of STEM Education）",
+              "url": null,
+              "kind": "education_pillar",
+              "relationship": "listed_on_parent_page",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "sourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "inventorySourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "observedName": "Pillar of STEM Education",
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            }
+          ],
+          "staffEntries": [],
+          "bodySha256": "63c99c5074821c0555684df12057b1bc311482791bff6ef21747c1e2f405137b",
+          "retrievedUrl": "https://ces.hkust-gz.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "conflicting_scopes",
+            "sourceIds": [
+              "organization-ces-home-20261029",
+              "organization-gz-education-20261029"
+            ],
+            "summary": "学院主页列四个教育基柱及本科教学实验支持，共五个部门；校级介绍另列学院办公室，共六个。两种页面口径分别保留。这里的“基柱”是学院采用的教育领域划分，教学与行政支持不混作研究学系。",
+            "organizationComplete": false,
+            "facultyComplete": false
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "教学支持（不计作教育基柱）",
+              "kind": "teaching_support",
+              "sourceIds": [
+                "organization-ces-home-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "本科教学实验支持（UG Teaching Labs）",
+                  "url": "https://ugtl.hkust-gz.edu.cn/",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "organization-ces-home-20261029"
+                  ],
+                  "observedName": "UG Teaching Labs",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "教学实验支持不是新增研究学系，也不构成硕博招生承诺。"
+            },
+            {
+              "title": "校级介绍另列的行政部门",
+              "kind": "administrative_support",
+              "sourceIds": [
+                "organization-gz-education-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "教育科学学院办公室",
+                  "url": null,
+                  "kind": "administrative_support",
+                  "sourceIds": [
+                    "organization-gz-education-20261029"
+                  ],
+                  "observedName": "教育科学学院办公室",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "校级介绍列六部门，学院主页列五部门；原页与核查日都保留，不擅自认定哪页已废止。"
+            }
+          ]
         },
         {
           "id": "hkustgz-6",
@@ -192684,7 +195051,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkustgz-6"
+            "academic-map-hkustgz-6",
+            "organization-gz-future-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -192700,6 +195068,70 @@ window.APP_CATALOG = {
               "teacherProfilesTotal": null,
               "enumerationComplete": false,
               "profileLeads": []
+            }
+          ],
+          "bodySha256": "daee739551714107727ee66e6c55ed811215b613bd13f17538f73f24be844411",
+          "retrievedUrl": "https://cft.hkust-gz.edu.cn/#new_tab",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "components_only",
+            "sourceIds": [
+              "organization-gz-future-20261029",
+              "organization-cft-mission-20261029",
+              "organization-cft-structure-failed-20261029"
+            ],
+            "summary": "主页列红鸟硕士基地、未来技术实验室与红鸟创客空间三个组成部分，不把它们改称学系。行政架构页本次未读到，学院完整组织结构仍待核。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "unreadEntryUrl": "https://cft.hkust-gz.edu.cn/about/administration-structure/"
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "学院组成与设施（不是学系）",
+              "kind": "college_components",
+              "sourceIds": [
+                "organization-gz-future-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Base of Red Bird MPhil（红鸟硕士基地）",
+                  "url": null,
+                  "kind": "college_component",
+                  "sourceIds": [
+                    "organization-gz-future-20261029"
+                  ],
+                  "observedName": "Base of Red Bird MPhil",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "主页未给这一组成部分的独立网址，先从学院官网继续查。"
+                },
+                {
+                  "name": "未来技术实验室（Lab of Future Technology）",
+                  "url": "https://cft.hkust-gz.edu.cn/facilities-and-labs/lab-of-future-technology/",
+                  "kind": "college_component",
+                  "sourceIds": [
+                    "organization-gz-future-20261029"
+                  ],
+                  "observedName": "Lab of Future Technology",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "红鸟创客空间（Red Bird Maker Space）",
+                  "url": "https://cft.hkust-gz.edu.cn/facilities-and-labs/red-bird-maker-space/",
+                  "kind": "college_component",
+                  "sourceIds": [
+                    "organization-gz-future-20261029"
+                  ],
+                  "observedName": "Red Bird Maker Space",
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ],
+              "note": "保留主页原分类；行政架构与教师指导资格须另核。"
             }
           ]
         },
@@ -192757,5 +195189,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:c14b4c6262c0cc8343c9781b4be5302b44dce456512b7f094f6e3ad7c714eec3"
+  "snapshotId": "sha256:c7dd8f0e5aa834bda423a914121046c145fd0a9c2ccb7cc7697a368471faaf1e"
 };
