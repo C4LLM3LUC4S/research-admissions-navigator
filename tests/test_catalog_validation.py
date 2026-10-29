@@ -173,6 +173,20 @@ class AcademicMapChecks(unittest.TestCase):
     def setUp(self):
         self.catalog = builder.build_catalog()
 
+    def test_extra_college_entry_needs_its_actual_supplied_url(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'hku-6')
+        c = next(c for c in u['children'] if c.get('providedEntries'))
+        c['providedEntries'][0]['url'] = 'https://unobserved.example/dept'
+        with self.assertRaisesRegex(AssertionError, 'not supplied'):
+            builder.validate(self.catalog)
+
+    def test_current_list_spelling_does_not_replace_a_previous_read(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'polyu-4')
+        c = next(c for c in u['children'] if c.get('listedUrl'))
+        c['listedUrl'] = 'https://www.polyu.edu.hk/me/'
+        with self.assertRaisesRegex(AssertionError, 'original navigation'):
+            builder.validate(self.catalog)
+
     def test_subject_navigation_cannot_be_relabelled_a_department(self):
         u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'cuhksz-4')
         u['relatedNavigationGroups'][0]['entries'][0]['kind'] = 'department'

@@ -151173,6 +151173,966 @@
         "主页列出的组成部分不能替代尚未读到的行政架构图。"
       ],
       "httpStatus": 403
+    },
+    {
+      "id": "stem-college-hku-engineering-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/engineering",
+      "title": "港大校级工学院介绍 · 七个单位",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "4823b1139e4423f36aaa0fb39000ed975fa7609ed635616f32277d36a4e35166",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/engineering",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "本页列五个Department和两个School，共七项；材料与能源学系的Learn More指向工学院的Departments页。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://engg.hku.hk/",
+        "https://www.civil.hku.hk/",
+        "https://www.cds.hku.hk/",
+        "https://www.dase.hku.hk/",
+        "https://ece.hku.hk/",
+        "https://i-school.hku.hk/",
+        "https://engg.hku.hk/About-Us/Departments#scrollNav-7",
+        "https://mech.hku.hk/",
+        "https://www.civil.hku.hk/index.html",
+        "https://i-school.hku.hk/program",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ]
+    },
+    {
+      "id": "stem-college-hku-engineering-departments-20261029",
+      "url": "https://engg.hku.hk/About-Us/Departments",
+      "title": "港大工学院Departments/Schools · 八个条目",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "28921e322f3d91aa01a7f5b9266b6056b0bef7061a71e2803d0346fa5a134ccf",
+      "retrievedUrl": "https://engg.hku.hk/About-Us/Departments",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "本页列八个单位，其中生物医学工程学院由医、工、牙、理四Faculty共同设立；不重复计成新Faculty。",
+        "材料与能源学系给出mse.hku.hk独立官网；原无网址记录保留。",
+        "中央介绍与学院页的七/八范围并列，不据网页差异推定生效日期或招生名额。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://engg.hku.hk/",
+        "https://wellness.hku.hk",
+        "https://engg.hku.hk/Students-Support-Centre",
+        "https://hku.hk/",
+        "http://hkuportal.hku.hk",
+        "https://engg.hku.hk/About-Us/Departments",
+        "https://engg.hku.hk/About-Us",
+        "https://engg.hku.hk/About-Us/Message-from-the-Dean",
+        "https://engg.hku.hk/About-Us/Vision-and-Mission",
+        "https://engg.hku.hk/About-Us/History",
+        "https://engg.hku.hk/About-Us/History/List-of-Deans",
+        "https://engg.hku.hk/About-Us/Deans-Office",
+        "https://engg.hku.hk/About-Us/Academic-Staff",
+        "https://jobs.hku.hk/en/filter/?brand=faculty%20of%20engineering",
+        "https://engg.hku.hk/About-Us/Contact-Us",
+        "https://engg.hku.hk/Admissions",
+        "https://www.ugadmissions.engg.hku.hk/",
+        "https://ugadmissions.engg.hku.hk/discover-about-hku-engineering/",
+        "https://ugadmissions.engg.hku.hk/academics-overview/",
+        "https://ugadmissions.engg.hku.hk/apply-overview/",
+        "https://mscadmissions.engg.hku.hk/?utm_source=engg-site&utm_medium=Owned&utm_campaign=prospective-students",
+        "https://mscadmissions.engg.hku.hk/application/?utm_source=engg-site&utm_medium=Owned&utm_campaign=apply-now",
+        "https://mscadmissions.engg.hku.hk/programmes/?utm_source=engg-site&utm_medium=Owned&utm_campaign=programmes-offered",
+        "https://mscadmissions.engg.hku.hk/application/?utm_source=engg-site&utm_medium=Owned&utm_campaign=admissions-requirements",
+        "https://engg.hku.hk/Admissions/PhD-MPhil",
+        "https://engg.hku.hk/Admissions/PhD-MPhil/Application-Procedures",
+        "https://engg.hku.hk/Admissions/PhD-MPhil/Admission-Requirements",
+        "https://engg.hku.hk/Admissions/PhD-MPhil/Programme-Structure",
+        "https://engg.hku.hk/Admissions/PhD-MPhil/Scholarships-Financial-Assistance-and-Fees",
+        "https://engg.hku.hk/Admissions/PhD-MPhil/Postgraduate-Admissions-Advisors",
+        "https://engg.hku.hk/Admissions/PhD-MPhil/FAQ",
+        "https://engg.hku.hk/Teaching-Learning",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Student-Enrichment-Programmes",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Advising-Orientation-for-Freshmen",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Student-Support-Centre",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/HKU-Cambridge-Undergraduate-Recruitment-Scheme",
+        "https://tl.hku.hk",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Registration-for-FOCUS-Certification",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Student-Awards",
+        "https://engg.hku.hk/Teaching-Learning/MSc",
+        "https://engg.hku.hk/Teaching-Learning/MSc/Course-Selection",
+        "https://engg.hku.hk/Teaching-Learning/MSc/Regulations-and-Syllabuses",
+        "https://engg.hku.hk/Teaching-Learning/MSc/Programme-Structure-Duration",
+        "https://engg.hku.hk/Teaching-Learning/MSc/Fees",
+        "https://engg.hku.hk/Teaching-Learning/MSc/Student-Resources-Support",
+        "https://engg.hku.hk/Teaching-Learning/MSc/MSc-Student-Commons",
+        "https://engg.hku.hk/Teaching-Learning/MSc/Student-Enrichment-Activities",
+        "https://engg.hku.hk/Teaching-Learning/PhD-MPhil",
+        "https://engg.hku.hk/Teaching-Learning/PhD-MPhil/Fields-of-Study",
+        "https://engg.hku.hk/Teaching-Learning/PhD-MPhil/Global-Outreach-and-Exchange-Opportunities",
+        "https://engg.hku.hk/Teaching-Learning/PhD-MPhil/Student-Support-Centre",
+        "https://engg.hku.hk/Teaching-Learning/PhD-MPhil/Scholarships-and-Prizes",
+        "https://engg.hku.hk/Teaching-Learning/PhD-MPhil/Career-Prospects",
+        "https://engg.hku.hk/Research",
+        "https://engg.hku.hk/Research/Strategic-Research-Clusters",
+        "https://engg.hku.hk/Research/Departmental-Research-Focus-and-Facilities",
+        "https://engg.hku.hk/Research/Research-Centres-and-Institutes",
+        "https://engg.hku.hk/Research/Researcher-Page-Search",
+        "https://engg.hku.hk/Research/Research-News",
+        "https://engg.hku.hk/Research/Useful-Links",
+        "https://engg.hku.hk/Knowledge-Exchange",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2025-26",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2024-25",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2023-24",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2022-23",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2021-22",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2020-21",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2019-20",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2018-19",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2017-18",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2016-17",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2015-16",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2014-15",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2013-14",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2012-13",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2011-12",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2010-11",
+        "https://engg.hku.hk/Knowledge-Exchange/Impact-Projects/2009-10",
+        "https://engg.hku.hk/Knowledge-Exchange/Faculty-KE-Award",
+        "https://engg.hku.hk/Knowledge-Exchange/Search-of-Talents",
+        "http://www.ke.hku.hk/eng/",
+        "https://engg.hku.hk/News-Events",
+        "https://engg.hku.hk/News-Events/Upcoming-Events",
+        "https://engg.hku.hk/News-Events/News",
+        "https://engg.hku.hk/News-Events/Past-News-Events",
+        "https://engg.hku.hk/News-Events/Media-Coverage",
+        "https://engg.hku.hk/News-Events/Feature-Stories",
+        "https://www4.hku.hk/hkumcd/index.php/eng/unit/22_Faculty_of_Engineering.html",
+        "https://engg.hku.hk/Alumni-Friends",
+        "https://engg.hku.hk/Alumni-Friends/Alumni-Stories",
+        "https://engg.hku.hk/Alumni-Friends/Reunions-Homecomings",
+        "https://engg.hku.hk/Alumni-Friends/Giving",
+        "https://engg.hku.hk/Alumni-Friends/Giving/Ways-to-Give",
+        "http://www.alumni.hku.hk/hkueaa/",
+        "https://engg.hku.hk/Alumni-Friends/Contact-Update-Form",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes/BEng-X-MScEng-AIE",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes/BEng-Elite-Programme",
+        "https://www.civil.hku.hk/h4_pros_ug_beng.html",
+        "https://www.eee.hku.hk/study/undergraduate/",
+        "https://www.dase.hku.hk/teaching-and-learning/prospective-students/bachelor-of-engineering-in-data-and-systems-engineering",
+        "https://www.mech.hku.hk/undergraduate",
+        "https://www.cds.hku.hk/prospective-students/undergraduate/",
+        "https://sbme.hku.hk/programme",
+        "https://i-school.hku.hk/programmes/undergraduate/",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes/Double-Degree",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes/Major-Minor-Options",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes/Regulations-Syllabuses",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Academic-Programmes/Timetable",
+        "https://engg.hku.hk/Teaching-Learning/BEng-BASc/Student-Enrichment-Programmes/Faculty-Exchange-Programme",
+        "https://www.civil.hku.hk/wpan/about_professor_pan.html",
+        "http://www.civil.hku.hk/index.html",
+        "http://www.civil.hku.hk/h2_acstaff.html",
+        "http://www.civil.hku.hk/h4_studing_here.html",
+        "http://www.civil.hku.hk/h6_jobopen.html",
+        "https://www.cs.hku.hk/people/academic-staff/mayi",
+        "https://www.cds.hku.hk/",
+        "https://www.cds.hku.hk/about-cds/academic-staff/?_sft_division=computer-science",
+        "https://www.cs.hku.hk/teaching-and-learning",
+        "https://www.cds.hku.hk/about-cds/job-openings/",
+        "https://www.dase.hku.hk/people/n-xi",
+        "https://www.dase.hku.hk/",
+        "https://www.dase.hku.hk/people/academic-staff",
+        "https://www.dase.hku.hk/about-us/vacancies",
+        "https://www.eee.hku.hk/people/huangkb/",
+        "https://www.eee.hku.hk/",
+        "https://www.eee.hku.hk/people/",
+        "https://elink.eee.hku.hk",
+        "https://i-school.hku.hk/people/hso",
+        "https://i-school.hku.hk/",
+        "https://i-school.hku.hk/people",
+        "https://i-school.hku.hk/program",
+        "https://mech.hku.hk/academic-staff/zhi-cy/",
+        "https://mse.hku.hk/people/chunyizhi/",
+        "https://mse.hku.hk/",
+        "https://mse.hku.hk/msepeople/academic-staff/",
+        "https://mse.hku.hk/teaching-learning/tpg/",
+        "https://www.mech.hku.hk/academic-staff/Huang-MX",
+        "https://www.mech.hku.hk/",
+        "https://mech.hku.hk/professoriate_staff_directory/",
+        "https://mech.hku.hk/programme/",
+        "https://www.mech.hku.hk/vacancies",
+        "https://www.engineering.hku.hk/bmeengg/staff-members/prof-kevin-k-tsia/",
+        "https://sbme.hku.hk/",
+        "https://www.linkedin.com/school/hku-engineering/",
+        "https://www.facebook.com/engineering.hku",
+        "https://www.instagram.com/hku_engineering/",
+        "https://www.youtube.com/channel/UCLlPvbxkzXWCPEHMixVCc0A",
+        "https://engg.hku.hk/Privacy",
+        "https://engg.hku.hk/Terms"
+      ],
+      "listedNames": [
+        "Department of Civil Engineering",
+        "School of Computing and Data Science",
+        "Department of Data and Systems Engineering",
+        "Department of Electrical and Computer Engineering",
+        "School of Innovation",
+        "Department of Materials and Energy",
+        "Department of Mechanical Engineering",
+        "School of Biomedical Engineering"
+      ]
+    },
+    {
+      "id": "stem-college-cuhk-science-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/science.html",
+      "title": "港中文校级理学院介绍 · 六个学术单位",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "1c97bcababa1c9ec9be601ee8f2d70dc65f42ed7ac1e3ccc5543acf3967aa484",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/science.html",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "本页Departments/School列五系及生命科学学院，其他研究与教学项目另列。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "https://www.sci.cuhk.edu.hk/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=sci",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/science",
+        "http://www.chem.cuhk.edu.hk/",
+        "https://www.ees.cuhk.edu.hk/",
+        "http://www.cuhk.edu.hk/lifesciences",
+        "http://www.math.cuhk.edu.hk/",
+        "http://www.phy.cuhk.edu.hk/",
+        "http://www.sta.cuhk.edu.hk/",
+        "https://www.sci.cuhk.edu.hk/research/",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/cpse/",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ]
+    },
+    {
+      "id": "stem-college-cuhk-science-units-20261029",
+      "url": "https://www.sci.cuhk.edu.hk/academic/academic-units/",
+      "title": "港中文理学院Academic Units · 五系与一个School",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "e6ce721fea63679036052cce3ee91e61ed3f12d7b7f899c2bebb23e1a9588dc3",
+      "retrievedUrl": "https://www.sci.cuhk.edu.hk/academic/academic-units/",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "本页按学术单位列生命科学、化学、地球与环境、数学、物理、统计与数据科学六项；Natural Sciences Programme在导航中另列，不算新增学系。",
+        "保留官网原HTTP网址，不猜改HTTPS；未读取的目标不标已读。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://www.addtoany.com/share",
+        "https://www.facebook.com/CUHKScience/",
+        "https://www.instagram.com/CUHKScience/",
+        "https://www.linkedin.com/company/cuhkscience/",
+        "https://www.youtube.com/CUHKScienceFaculty",
+        "https://twitter.com/CUHKScience",
+        "https://www.sci.cuhk.edu.hk/academic/academic-units/",
+        "https://www.sci.cuhk.edu.hk/",
+        "https://www.sci.cuhk.edu.hk/zh-hant/academic/academic-units/",
+        "https://www.cuhk.edu.hk/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/",
+        "https://www.sci.cuhk.edu.hk/prospective-students-sitemap/",
+        "https://www.sci.cuhk.edu.hk/prospective-students/",
+        "https://www.sci.cuhk.edu.hk/current-students-sitemap/",
+        "https://www.sci.cuhk.edu.hk/current-students/",
+        "https://www.sci.cuhk.edu.hk/alumni/",
+        "https://www.sci.cuhk.edu.hk/make-a-gift/",
+        "https://www.sci.cuhk.edu.hk/faculty/overview/",
+        "https://www.sci.cuhk.edu.hk/faculty/overview/introduction/",
+        "https://www.sci.cuhk.edu.hk/faculty/overview/milestones/",
+        "https://www.sci.cuhk.edu.hk/faculty/overview/facts-and-figures/",
+        "https://www.sci.cuhk.edu.hk/faculty/deans-message/",
+        "https://www.sci.cuhk.edu.hk/faculty/people/deanery/",
+        "https://www.sci.cuhk.edu.hk/faculty/people/heads-of-academic-units/",
+        "https://www.sci.cuhk.edu.hk/faculty/people/honorary-professors/",
+        "https://www.sci.cuhk.edu.hk/faculty/people/administrative-staff/",
+        "https://www.sci.cuhk.edu.hk/faculty/faculty-board-and-academic-personnel-committee/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/overview/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/faculty/cuhk-awards/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/faculty/external-honours-awards/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/faculty/fellowship-of-professional-societies/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/student/cuhk-awards-student/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/student/external-awards-student/",
+        "https://www.sci.cuhk.edu.hk/faculty/diversity-and-inclusion/",
+        "https://www.sci.cuhk.edu.hk/faculty/contact-us/faculty-office/",
+        "https://www.sci.cuhk.edu.hk/faculty/contact-us/unit-key-offices/",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/programmes-offered/",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/science-technology-and-research-stream-stars/",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/curriculum/general-requirements/",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/curriculum/faculty-package/",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/curriculum/major-declaration-for-science-students/",
+        "http://rgsntl.rgs.cuhk.edu.hk/aqs_prd_applx/Public/Handbook/Default.aspx?id=2&tv=T&lang=en",
+        "http://rgsntl.rgs.cuhk.edu.hk/aqs_prd_applx/Public/tt_dsp_acad_prog.aspx",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/experiential-learning/overview/",
+        "https://www.sci.cuhk.edu.hk/academic/undergraduate-studies/experiential-learning/exchange/",
+        "https://coop.cuhk.edu.hk/",
+        "https://www.sci.cuhk.edu.hk/current-students/scholarships/",
+        "https://www.sci.cuhk.edu.hk/academic/postgraduate-studies/programmes-offered/",
+        "https://www.gs.cuhk.edu.hk/admissions/requirements",
+        "http://www.gs.cuhk.edu.hk/",
+        "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/scholarships",
+        "https://www.gs.cuhk.edu.hk/admissions/scholarships-fees/hkpfs",
+        "http://www.cuhk.edu.hk/english/teaching/academic-advisory-system.html",
+        "http://www.cuhk.edu.hk/policy/academichonesty/",
+        "https://www.sci.cuhk.edu.hk/teaching-and-learning/virtual-teaching-and-learning-vtl/",
+        "https://www.cuhk.edu.hk/clear/tdg/",
+        "https://www.sci.cuhk.edu.hk/research/faculty-strategic-research-areas/",
+        "https://www.sci.cuhk.edu.hk/research/research-features/research-highlights/",
+        "https://www.sci.cuhk.edu.hk/research/research-features/research-achievements/",
+        "https://www.sci.cuhk.edu.hk/research/research-funding/",
+        "https://www.sci.cuhk.edu.hk/research/projects-and-units/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/faculty-research-day/latest-event/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/faculty-research-day/previous-events/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/pg-research-day/latest-event/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/pg-research-day/previous-events/",
+        "https://www.sci.cuhk.edu.hk/research/ice3scn/overview/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/overview/",
+        "https://www.sci.cuhk.edu.hk/research/ice3scn/committee/",
+        "https://www.sci.cuhk.edu.hk/research/ice3scn/speakers/",
+        "https://www.cpr.cuhk.edu.hk/en/news-centre/experts-list/details/?search_category=faculty-of-science&search_keywords=",
+        "https://www.sci.cuhk.edu.hk/knowledge-transfer/impact-showcase/",
+        "https://www.sci.cuhk.edu.hk/knowledge-transfer/intellectual-property/",
+        "https://www.sci.cuhk.edu.hk/knowledge-transfer/media-coverage/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/highlights-and-news/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/events/upcoming-events/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/events/past-events/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/faces-of-cuhk-science/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/publications/e-newsletters/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/publications/faculty-publications/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/publications/programme-brochures/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/publications/sci-by-side/",
+        "https://www.sci.cuhk.edu.hk/news-and-events/photo-gallery/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/celebrations/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/event-highlights/anniversary-banquet/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/event-highlights/deans-cup/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/talks-and-lectures/distinguished-science-lecture-series/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/talks-and-lectures/dreamweavers/",
+        "https://www.sci.cuhk.edu.hk/60th-anniversary/talks-and-lectures/distinguished-alumni-lectures/",
+        "https://www.60.sci.cuhk.edu.hk/",
+        "https://60.cuhk.edu.hk/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/cpse/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/nobel-lectures/latest-event/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/nobel-lectures/previous-lectures/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/owl/latest-event/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/owl/remarks/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/owl/prof-lau/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/owl/previous-series/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/pst/",
+        "https://www.sci.cuhk.edu.hk/sayt/",
+        "http://www.summer.cuhk.edu.hk/si/",
+        "https://www.sci.cuhk.edu.hk/alumni/alumni-news/",
+        "https://www.sci.cuhk.edu.hk/alumni/alumni-associations/",
+        "https://www.sci.cuhk.edu.hk/alumni/science-faculty-distinguished-alumni-award/introduction/",
+        "https://www.sci.cuhk.edu.hk/alumni/science-faculty-distinguished-alumni-award/selection-committee/",
+        "https://www.sci.cuhk.edu.hk/alumni/science-faculty-distinguished-alumni-award/award-recipients/",
+        "https://www.sci.cuhk.edu.hk/alumni/outstanding-alumni-service-award/",
+        "https://www.sci.cuhk.edu.hk/alumni/sci-connect/introduction/",
+        "https://www.sci.cuhk.edu.hk/alumni/sci-connect/global-alumni-ambassadors/",
+        "https://www.sci.cuhk.edu.hk/faculty/contact-us/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/faculty-research-day/deans-remarks/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/faculty-research-day/invited-speakers/",
+        "https://www.sci.cuhk.edu.hk/research/seminars/pg-research-day/",
+        "https://www.sci.cuhk.edu.hk/knowledge-transfer/overview",
+        "https://www.sci.cuhk.edu.hk/news-and-events/publications/",
+        "https://www.sci.cuhk.edu.hk/academic/postgraduate-studies/programme-offered/",
+        "https://www.cuhk.edu.hk/clear/tdg/1619.html",
+        "https://www.sci.cuhk.edu.hk/academic/academic-honesty/",
+        "https://www.sci.cuhk.edu.hk/faculty/introduction/",
+        "https://www.sci.cuhk.edu.hk/faculty/people/",
+        "https://www.sci.cuhk.edu.hk/faculty/people/distinguished-professors/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/faculty/",
+        "https://www.sci.cuhk.edu.hk/faculty/honours-awards/student/",
+        "http://137.189.63.170/",
+        "https://www.sci.cuhk.edu.hk/academic/",
+        "http://www.cuhk.edu.hk/lifesciences/",
+        "http://www.cuhk.edu.hk/chem",
+        "https://www.ees.cuhk.edu.hk/",
+        "http://www.math.cuhk.edu.hk",
+        "http://www.phy.cuhk.edu.hk/",
+        "http://www.sta.cuhk.edu.hk",
+        "http://www.sci.cuhk.edu.hk/nsci",
+        "https://www.sci.cuhk.edu.hk/news-and-events/events/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/nobel-lectures/",
+        "https://www.sci.cuhk.edu.hk/science-for-youth/owl/",
+        "https://www.sci.cuhk.edu.hk/prospective-students/undergraduate-studies/",
+        "https://www.sci.cuhk.edu.hk/current-students/undergraduate-studies/information-for-new-students/",
+        "https://www.sci.cuhk.edu.hk/current-students/career-development/",
+        "https://mycuhk.sharepoint.com/sites/Faculty.SCI/SitePages/ScienceStudentPlatform.aspx",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "http://portal.cuhk.edu.hk/",
+        "https://www.hro.cuhk.edu.hk/",
+        "http://www.cuhk.edu.hk/english/disclaimer.html",
+        "http://www.cuhk.edu.hk/english/privacy.html",
+        "http://cloud.itsc.cuhk.edu.hk/enewsasp/app/web/74/subscribe.aspx?appid=74&lang=e",
+        "https://www.hro.cuhk.edu.hk/zh-tw/",
+        "https://www.cuhk.edu.hk/chinese/disclaimer.html",
+        "https://www.cuhk.edu.hk/chinese/privacy.html",
+        "https://www.facebook.com/cuhksayt",
+        "https://www.instagram.com/sayt_cuhk",
+        "https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.sci.cuhk.edu.hk%2Facademic%2Facademic-units",
+        "https://twitter.com/intent/tweet?text=Hey%2C+check+out+this+cool+site+I+found%3A+www.yourname.com+%23Topic+via%40my_twitter_name+http://https%3A%2F%2Fwww.sci.cuhk.edu.hk%2Facademic%2Facademic-units",
+        "https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fwww.sci.cuhk.edu.hk%2Facademic%2Facademic-units",
+        "https://follow.it/now",
+        "https://www.sci.cuhk.edu.hk/academic/academic-units/#content"
+      ]
+    },
+    {
+      "id": "stem-college-polyu-engineering-20261029",
+      "url": "https://www.polyu.edu.hk/feng/",
+      "title": "港理工工程学院主页 · 五学系导航",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "d5c5d76b3a802f89577e812e26f8a37f30252b226811be22a6fd2c80cedc8306",
+      "retrievedUrl": "https://www.polyu.edu.hk/feng/",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "主页按五学系列导航，研究设施和研究中心另列，不当新增学系。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/feng/#skip-start",
+        "https://www.polyu.edu.hk/feng/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/academicians/our-academicians/",
+        "https://www.polyu.edu.hk/research/",
+        "http://www.polyu.edu.hk/study",
+        "https://www.polyu.edu.hk/campus-map",
+        "https://www.polyu.edu.hk/aae/",
+        "https://www.polyu.edu.hk/best",
+        "https://www.polyu.edu.hk/eee",
+        "https://www.polyu.edu.hk/ise/",
+        "https://www.polyu.edu.hk/me/",
+        "https://www.polyu.edu.hk/u3dp",
+        "https://www.polyu.edu.hk/riam/",
+        "https://www.polyu.edu.hk/pri/",
+        "https://www.polyu.edu.hk/risa/",
+        "https://www.polyu.edu.hk/risports/",
+        "https://www.polyu.edu.hk/deepspaceex/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/feng/study/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/non-jupas-local-year-1-admissions/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/non-jupas-local-senior-year-admissions/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/jee/",
+        "https://www.polyu.edu.hk/feng/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/feng/study/research-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/feng/study/information-for-current-students-of-bachelors-degree-scheme-in-engineering-programme/",
+        "https://www.polyu.edu.hk/feng/experience-and-opportunities/student-exchange/",
+        "https://www.polyu.edu.hk/feng/experience-and-opportunities/scholarships/",
+        "https://www.polyu.edu.hk/feng/experience-and-opportunities/esec/",
+        "https://hkpolyuracing.com/",
+        "https://airoboticsclubpolyu.github.io/",
+        "https://www.polyu.edu.hk/feng/research/laboratories-and-research-centres/",
+        "https://www.polyu.edu.hk/feng/research/major-research-areas/",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/",
+        "https://www.polyu.edu.hk/feng/news-and-events/conferences-seminars-and-workshops/",
+        "https://www.polyu.edu.hk/feng/news-and-events/opaa/",
+        "https://www.polyu.edu.hk/feng/news-and-events/summer-programmes/",
+        "https://www.polyu.edu.hk/feng/news-and-events/3mt/",
+        "https://www.polyu.edu.hk/feng/news-and-events/idfyp/",
+        "https://www.polyu.edu.hk/feng/publications/",
+        "https://www.polyu.edu.hk/feng/about-feng/message-from-dean/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/vision-and-mission/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/world-rankings/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/people/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/",
+        "https://www.polyu.edu.hk/feng/about-feng/contact-us/",
+        "https://www.polyu.edu.hk/congregation",
+        "https://www.polyu.edu.hk/media/media-releases/2026/0421_third-round-of-raise-scheme/",
+        "https://www.polyu.edu.hk/media/media-releases/2026/0420_polyu-provides-global-stage-for-belt-and-road-advanced-programme-in-power-and-energy-2026/",
+        "https://www.polyu.edu.hk/ise/people/academic-staff/hc-man",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/2026/20260904-outstanding-alumni-award-of-polyu-faculty-of-engineering/",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/2026/20260526-clipping/",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/2026/20260515-clipping/",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/2026/20260422-third-round-of-raise-scheme/",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/2026/20260420-br-advanced-programme-in-power-and-energy-2026/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/2026/9/20260914-distinguished-lecture/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/2026/8/polyu-student-orientation-2026---eee-sy/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/2026/8/polyu-student-orientation-2026---eee/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/2026/8/polyu-student-orientation-2026---feng/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/2026/8/polyu-student-orientation-2026---bme/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/2026/8/polyu-student-orientation-2026---me/",
+        "http://www.polyu.edu.hk/aae",
+        "http://www.polyu.edu.hk/me",
+        "http://www.polyu.edu.hk/best",
+        "http://www.polyu.edu.hk/ise",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/feng/sitemap/",
+        "https://www.facebook.com/PolyU.FENG",
+        "https://www.youtube.com/PolyUFENG",
+        "https://weibo.com/polyufeng",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Belt and Road",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Events",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Giving to PolyU",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Exchange"
+      ]
+    },
+    {
+      "id": "stem-college-polyu-engineering-departments-20261029",
+      "url": "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/",
+      "title": "港理工工程学院Departments · 五系名单",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "d3f4f66915fc18a79e50209c69ca22554f2acb943c88cf2cd0e01f5c5a63c4e3",
+      "retrievedUrl": "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "本页正式列航空及航天、生物医学工程及运动科技、电机及电子、工业及系统、机械五系；不把研究设施或研究中心相加。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/#skip-start",
+        "https://www.polyu.edu.hk/feng/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/academicians/our-academicians/",
+        "https://www.polyu.edu.hk/research/",
+        "http://www.polyu.edu.hk/study",
+        "https://www.polyu.edu.hk/campus-map",
+        "https://www.polyu.edu.hk/aae/",
+        "https://www.polyu.edu.hk/best",
+        "https://www.polyu.edu.hk/eee",
+        "https://www.polyu.edu.hk/ise/",
+        "https://www.polyu.edu.hk/me/",
+        "https://www.polyu.edu.hk/u3dp",
+        "https://www.polyu.edu.hk/riam/",
+        "https://www.polyu.edu.hk/pri/",
+        "https://www.polyu.edu.hk/risa/",
+        "https://www.polyu.edu.hk/risports/",
+        "https://www.polyu.edu.hk/deepspaceex/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/feng/study/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/non-jupas-local-year-1-admissions/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/non-jupas-local-senior-year-admissions/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/feng/study/undergraduate-programmes/jee/",
+        "https://www.polyu.edu.hk/feng/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/feng/study/research-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/feng/study/information-for-current-students-of-bachelors-degree-scheme-in-engineering-programme/",
+        "https://www.polyu.edu.hk/feng/experience-and-opportunities/student-exchange/",
+        "https://www.polyu.edu.hk/feng/experience-and-opportunities/scholarships/",
+        "https://www.polyu.edu.hk/feng/experience-and-opportunities/esec/",
+        "https://hkpolyuracing.com/",
+        "https://airoboticsclubpolyu.github.io/",
+        "https://www.polyu.edu.hk/feng/research/laboratories-and-research-centres/",
+        "https://www.polyu.edu.hk/feng/research/major-research-areas/",
+        "https://www.polyu.edu.hk/feng/news-and-events/news/",
+        "https://www.polyu.edu.hk/feng/news-and-events/events/",
+        "https://www.polyu.edu.hk/feng/news-and-events/conferences-seminars-and-workshops/",
+        "https://www.polyu.edu.hk/feng/news-and-events/opaa/",
+        "https://www.polyu.edu.hk/feng/news-and-events/summer-programmes/",
+        "https://www.polyu.edu.hk/feng/news-and-events/3mt/",
+        "https://www.polyu.edu.hk/feng/news-and-events/idfyp/",
+        "https://www.polyu.edu.hk/feng/publications/",
+        "https://www.polyu.edu.hk/feng/about-feng/message-from-dean/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/vision-and-mission/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/world-rankings/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/people/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/",
+        "https://www.polyu.edu.hk/feng/about-feng/contact-us/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/aae/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/best/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/eee/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/ise/",
+        "https://www.polyu.edu.hk/feng/about-feng/feng-at-a-glance/departments/me/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/feng/sitemap/",
+        "https://www.facebook.com/PolyU.FENG",
+        "https://www.youtube.com/PolyUFENG",
+        "https://weibo.com/polyufeng",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Belt and Road",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Events",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Giving to PolyU",
+        "https://www.polyu.edu.hk/feng/search-result/?q=Exchange"
+      ]
+    },
+    {
+      "id": "stem-college-hkust-1-20261029",
+      "url": "https://science.hkust.edu.hk/",
+      "title": "港科大理学院主页 · 五个学术单位导航",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "1362bc5d6c5f668b1d8ac3291f1bbf70dbb3006df10b913c840eae81eec2736a",
+      "retrievedUrl": "https://science.hkust.edu.hk/",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "主页Academic Units列化学、生命科学、数学、海洋科学、物理；科研主题与研究单位另列。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/",
+        "https://science.hkust.edu.hk/zh-hant",
+        "https://science.hkust.edu.hk/zh-hans",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/news/hkust-researchers-redraw-boundary-between-phases-matter",
+        "https://science.hkust.edu.hk/news/hkust-chemists-develop-entangled-dual-site-migration-paradigm-organic-synthesis",
+        "https://science.hkust.edu.hk/news/hkust-appoints-dr-zhang-chaoyang-adjunct-professor",
+        "https://science.hkust.edu.hk/news/hkust-develops-new-biocompatible-chemical-reaction-advance-next-generation-anticancer-prodrugs",
+        "https://science.hkust.edu.hk/news/hkust-launches-next-generation-interactive-wavyocean-30-platform-connecting-research-and",
+        "https://science.hkust.edu.hk/events/ias-school-science-joint-lecture-shaping-tumor-cell-plasticity-and-therapy-resistance",
+        "https://science.hkust.edu.hk/events/ias-school-science-joint-lecture-regioselective-pyridine-c-h-functionalization-and-skeletal",
+        "https://science.hkust.edu.hk/events/ias-school-science-joint-lecture-journey-defect-science-and-engineering",
+        "https://sciencefocus.hkust.edu.hk/",
+        "https://riplus.radica.ust.hk/s/12d394e8/",
+        "https://science.hkust.edu.hk/research/hkust-researchers-redraw-boundary-between-phases-matter",
+        "https://science.hkust.edu.hk/research/hkust-chemists-develop-entangled-dual-site-migration-paradigm-organic-synthesis",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG"
+      ]
+    },
+    {
+      "id": "stem-college-hkust-science-units-20261029",
+      "url": "https://science.hkust.edu.hk/academic_units",
+      "title": "港科大理学院Academic Units · 四系与一个学部",
+      "checkedAt": "2026-10-29",
+      "bodySha256": "7731386c770da0849f4d1cc962b4b9266cf538bbdeb18e736fcc31517045d5f8",
+      "retrievedUrl": "https://science.hkust.edu.hk/academic_units",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "所引学院/校级页面的单位名单及提供的网址；不确认完整教师、指导资格或招生开放。",
+      "claims": [
+        "正文明确四个Department和Division of Life Science，不把生命科学改称系；材料化学等研究主题不当新增单位。"
+      ],
+      "knownIssues": [
+        "学院、学系、跨学院学校和项目不可混算；旧网址和读取失败保留，新网址只记录提供情况。"
+      ],
+      "discoveredLinks": [
+        "https://science.hkust.edu.hk/academic_units#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://science.hkust.edu.hk/contact-us",
+        "https://science.hkust.edu.hk/sitemap/prospective-students",
+        "https://hkust.edu.hk/student",
+        "https://alum.ust.hk/",
+        "https://hkust.edu.hk/",
+        "https://science.hkust.edu.hk/academic_units",
+        "https://science.hkust.edu.hk/zh-hant/academic_units",
+        "https://science.hkust.edu.hk/zh-hans/academic_units",
+        "https://science.hkust.edu.hk/about",
+        "https://science.hkust.edu.hk/about/the_school",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=msg_from_dean",
+        "https://science.hkust.edu.hk/about/the_school?jumpto=facts_and_figures",
+        "https://science.hkust.edu.hk/about/our_people",
+        "https://science.hkust.edu.hk/school_advisory_committee",
+        "https://science.hkust.edu.hk/academic_units/chemistry",
+        "https://science.hkust.edu.hk/academic_units/life_science",
+        "https://science.hkust.edu.hk/academic_units/mathematics",
+        "https://science.hkust.edu.hk/academic_units/ocean_science",
+        "https://science.hkust.edu.hk/academic_units/physics",
+        "https://science.hkust.edu.hk/academic_programs",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/about_ug/admissions",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/academic_advising",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/undergrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/taught_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/research_postgraduate",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/students_alumni_sharing",
+        "https://science.hkust.edu.hk/academic_programs/postgrad_prog/faq",
+        "https://science.hkust.edu.hk/academic_programs/qa",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_HKUST",
+        "https://science.hkust.edu.hk/academic_programs/qa_at_ssci",
+        "https://science.hkust.edu.hk/research",
+        "https://science.hkust.edu.hk/research/strengths_n_projects",
+        "https://science.hkust.edu.hk/research/schemes/neuroscience",
+        "https://science.hkust.edu.hk/research/schemes/stem-cell-research",
+        "https://science.hkust.edu.hk/research/schemes/materials_chemistry",
+        "https://science.hkust.edu.hk/research/schemes/environmental-chemistry",
+        "https://science.hkust.edu.hk/research/schemes/drug-synthesis-and-development",
+        "https://science.hkust.edu.hk/research/schemes/scientific_computing_and_data_science",
+        "https://science.hkust.edu.hk/research/schemes/wave_functional_materials",
+        "https://science.hkust.edu.hk/research/schemes/quantum-science",
+        "https://science.hkust.edu.hk/research/schemes/ocean_science_and_technology",
+        "https://science.hkust.edu.hk/research/research_units",
+        "https://science.hkust.edu.hk/research/scientific-breakthroughs-and-discoveries",
+        "https://science.hkust.edu.hk/research/interdisciplinary_collaboration",
+        "https://science.hkust.edu.hk/research/knowledge-transfer",
+        "https://science.hkust.edu.hk/news-center",
+        "https://science.hkust.edu.hk/events",
+        "https://science.hkust.edu.hk/publications",
+        "https://science.hkust.edu.hk/honors_and_awards",
+        "https://www.ust.hk",
+        "https://science.hkust.edu.hk/",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://science.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust/",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.youtube.com/user/hkust",
+        "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG"
+      ]
     }
   ],
   "funding": [
@@ -162388,7 +163348,8 @@
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-6"
+            "academic-map-hku-6",
+            "stem-college-hku-engineering-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -162426,7 +163387,15 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "observedName": "Department of Civil Engineering",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "School of Computing & Data Science",
@@ -162461,7 +163430,16 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "observedName": "School of Computing and Data Science",
+              "kind": "school",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-20261029",
+                "stem-college-hku-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Data and Systems Engineering",
@@ -162489,7 +163467,16 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "observedName": "Department of Data and Systems Engineering",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-20261029",
+                "stem-college-hku-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Electrical and Computer Engineering",
@@ -162502,7 +163489,28 @@
               "bodySha256": null,
               "retrievedUrl": "https://ece.hku.hk/",
               "staffRoutes": [],
-              "failure": "HTTP Error 403: Forbidden"
+              "failure": "HTTP Error 403: Forbidden",
+              "observedName": "Department of Electrical and Computer Engineering",
+              "kind": "department",
+              "providedEntries": [
+                {
+                  "label": "学院另给的官方入口",
+                  "url": "https://www.eee.hku.hk/",
+                  "sourceIds": [
+                    "stem-college-hku-engineering-departments-20261029"
+                  ],
+                  "bodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "note": "只确认学院给出了这个地址，本次没有读取新网页；原入口的读取状态另保留。"
+                }
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "School of Innovation",
@@ -162530,15 +163538,58 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "observedName": "School of Innovation",
+              "kind": "school",
+              "providedEntries": [
+                {
+                  "label": "学院另给的官方入口",
+                  "url": "https://i-school.hku.hk/",
+                  "sourceIds": [
+                    "stem-college-hku-engineering-departments-20261029"
+                  ],
+                  "bodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "note": "只确认学院给出了这个地址，本次没有读取新网页；原入口的读取状态另保留。"
+                }
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-20261029",
+                "stem-college-hku-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Materials and Energy",
-              "url": null,
+              "url": "https://mse.hku.hk/",
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "observedName": "Department of Materials and Energy",
+              "kind": "department",
+              "previousNavigation": {
+                "name": "Department of Materials and Energy",
+                "url": null,
+                "entryBodyStatus": "not_read",
+                "teacherProfilesTotal": null,
+                "teacherReviewStatus": "pending",
+                "relationship": "listed_on_parent_page",
+                "observedName": "Department of Materials and Energy",
+                "kind": "department"
+              },
+              "sourceIds": [
+                "stem-college-hku-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-departments-20261029"
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Mechanical Engineering",
@@ -162580,7 +163631,54 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "observedName": "Department of Mechanical Engineering",
+              "kind": "department",
+              "providedEntries": [
+                {
+                  "label": "学院另给的官方入口",
+                  "url": "https://www.mech.hku.hk/",
+                  "sourceIds": [
+                    "stem-college-hku-engineering-departments-20261029"
+                  ],
+                  "bodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "note": "只确认学院给出了这个地址，本次没有读取新网页；原入口的读取状态另保留。"
+                }
+              ],
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
+            },
+            {
+              "name": "School of Biomedical Engineering",
+              "url": "https://sbme.hku.hk/",
+              "kind": "school",
+              "relationship": "affiliated_school",
+              "entryBodyStatus": "not_read",
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "sourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "crossFacultyRelation": "joint_school",
+              "jointFaculties": [
+                "Medicine",
+                "Engineering",
+                "Dentistry",
+                "Science"
+              ],
+              "observedName": "School of Biomedical Engineering",
+              "inventorySourceIds": [
+                "stem-college-hku-engineering-departments-20261029"
+              ]
             }
           ],
           "staffEntries": [
@@ -165972,7 +167070,22 @@
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "4823b1139e4423f36aaa0fb39000ed975fa7609ed635616f32277d36a4e35166",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/engineering",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "conflicting_scopes",
+            "summary": "校级介绍列七项，学院Departments/Schools页列八项，后者还包括医、工、牙、理四学院共同设立的生物医学工程学院。两种范围并列；跨学院学校保留入口，不重复计成独立Faculty。材料与能源学系的独立官网已补；网址提供与正文读取仍分开。",
+            "sourceIds": [
+              "stem-college-hku-engineering-20261029",
+              "stem-college-hku-engineering-departments-20261029"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 8
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hku-7",
@@ -170576,7 +171689,8 @@
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-7"
+            "academic-map-cuhk-7",
+            "stem-college-cuhk-science-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -170631,7 +171745,14 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-cuhk-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Earth and Environmental Sciences",
@@ -170659,7 +171780,15 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-cuhk-science-20261029",
+                "stem-college-cuhk-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "School of Life Sciences",
@@ -170674,7 +171803,14 @@
               "bodySha256": "6217c315b6d43b2422345de75ce6076c00422b9758486ce725bea25ddaebf532",
               "retrievedUrl": "https://www.cuhk.edu.hk/lifesciences/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-cuhk-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Mathematics",
@@ -170687,7 +171823,14 @@
               "bodySha256": null,
               "retrievedUrl": "http://www.math.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-cuhk-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Physics",
@@ -170702,7 +171845,15 @@
               "bodySha256": "2aa09547f8ac3204b1de5e8d1738e01d4d1274f85821f12729d03f5e4cd98836",
               "retrievedUrl": "https://www.phy.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-cuhk-science-20261029",
+                "stem-college-cuhk-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Statistics and Data Science",
@@ -170742,10 +171893,32 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-cuhk-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "1c97bcababa1c9ec9be601ee8f2d70dc65f42ed7ac1e3ccc5543acf3967aa484",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/science.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "summary": "校级与学院Academic Units页的五个学系、一个生命科学学院已逐项对上。自然科学项目、研究中心与学术单位分开，官网原HTTP地址不猜改；完整人员类别、分页和研究学位要求仍待核。",
+            "sourceIds": [
+              "stem-college-cuhk-science-20261029",
+              "stem-college-cuhk-science-units-20261029"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 6
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhk-8",
@@ -171055,7 +172228,8 @@
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkust-1"
+            "academic-map-hkust-1",
+            "stem-college-hkust-1-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -171078,7 +172252,16 @@
                   "bodyStatus": "not_read",
                   "completeFacultyEnumeration": false
                 }
-              ]
+              ],
+              "observedName": "Department of Chemistry",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hkust-1-20261029",
+                "stem-college-hkust-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "生命科学学部",
@@ -171103,7 +172286,16 @@
                   "completeFacultyEnumeration": false,
                   "reviewNote": "原入口可能显示全校区，保留原地址；本入口已核实际筛选范围，不表示全部类别已整理完成。"
                 }
-              ]
+              ],
+              "observedName": "Division of Life Science",
+              "kind": "division",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hkust-1-20261029",
+                "stem-college-hkust-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "数学系",
@@ -171123,7 +172315,16 @@
                   "bodyStatus": "not_read",
                   "completeFacultyEnumeration": false
                 }
-              ]
+              ],
+              "observedName": "Department of Mathematics",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hkust-1-20261029",
+                "stem-college-hkust-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "海洋科学系",
@@ -171143,7 +172344,16 @@
                   "bodyStatus": "not_read",
                   "completeFacultyEnumeration": false
                 }
-              ]
+              ],
+              "observedName": "Department of Ocean Science",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hkust-1-20261029",
+                "stem-college-hkust-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "物理系",
@@ -171163,7 +172373,16 @@
                   "bodyStatus": "not_read",
                   "completeFacultyEnumeration": false
                 }
-              ]
+              ],
+              "observedName": "Department of Physics",
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-hkust-1-20261029",
+                "stem-college-hkust-science-units-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             }
           ],
           "staffEntries": [
@@ -175094,7 +176313,22 @@
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "1362bc5d6c5f668b1d8ac3291f1bbf70dbb3006df10b913c840eae81eec2736a",
+          "retrievedUrl": "https://science.hkust.edu.hk/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "summary": "主页与Academic Units正文的五个学术单位已逐项对上：化学、数学、海洋科学、物理为系，生命科学为学部。研究主题和研究中心另列；单位正文、完整师资和当期申请要求仍分别核查。",
+            "sourceIds": [
+              "stem-college-hkust-1-20261029",
+              "stem-college-hkust-science-units-20261029"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hkust-2",
@@ -182993,7 +184227,8 @@
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-4"
+            "academic-map-polyu-4",
+            "stem-college-polyu-engineering-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -183024,7 +184259,15 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-polyu-engineering-20261029",
+                "stem-college-polyu-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Biomedical Engineering and Sports Technology",
@@ -183052,7 +184295,16 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "listedUrl": "https://www.polyu.edu.hk/best",
+              "inventorySourceIds": [
+                "stem-college-polyu-engineering-20261029",
+                "stem-college-polyu-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Electrical and Electronic Engineering",
@@ -183092,7 +184344,16 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "listedUrl": "https://www.polyu.edu.hk/eee",
+              "inventorySourceIds": [
+                "stem-college-polyu-engineering-20261029",
+                "stem-college-polyu-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Industrial and Systems Engineering",
@@ -183120,7 +184381,15 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-polyu-engineering-20261029",
+                "stem-college-polyu-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             },
             {
               "name": "Department of Mechanical Engineering",
@@ -183160,10 +184429,33 @@
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "stem-college-polyu-engineering-20261029",
+                "stem-college-polyu-engineering-departments-20261029"
+              ],
+              "parentEvidenceStatus": "body_read"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "d5c5d76b3a802f89577e812e26f8a37f30252b226811be22a6fd2c80cedc8306",
+          "retrievedUrl": "https://www.polyu.edu.hk/feng/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "summary": "学院Departments页列出的五个学系已与主页逐项对上，研究设施、研究院和研究中心不计作学系。所列名称与链接不等于完整导师名单或当前招生承诺。",
+            "sourceIds": [
+              "stem-college-polyu-engineering-20261029",
+              "stem-college-polyu-engineering-departments-20261029"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-5",
@@ -195195,5 +196487,5 @@
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:402a0e3bc9494ceb1641db134c9dc0bae7486130b9c43d576be4bbb307541436"
+  "snapshotId": "sha256:7d1cecaafe9213e2fa9198fb9c7828c5c750be84d53da359c04b63b086f1a0e4"
 }
