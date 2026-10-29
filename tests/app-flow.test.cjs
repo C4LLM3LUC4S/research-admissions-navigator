@@ -563,3 +563,11 @@ test('college-first view separates matched list from unfinished departments and 
  const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const text=el('academic-coverage').textContent;
  assert.match(text,/先核清学院和下属院系/);assert.match(text,/研究学位名单共11个学术单位；研究生院另列/);assert.match(text,/包含创新学院/);assert.match(text,/学院名单：已逐项核对研究学位页/);assert.match(text,/下属院系：尚未核齐；教师：按院逐步核对/);assert.match(text,/没有列出，不代表这所学院没有学系/);assert.doesNotMatch(text,/全校教师已收齐/);assert.equal(h.networkCalls(),0);
 });
+
+test('child-unit reader sees affiliated schools and separate teaching entries without a false homepage read',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const science=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Science'));assert.ok(science);
+ assert.match(science.textContent,/五个直属学术单位和三个关联学校/);assert.match(science.textContent,/关联学校：/);assert.match(science.textContent,/已核名单与所给链接；单位正文待核/);assert.match(science.textContent,/School of Biological Sciences/);assert.match(science.textContent,/Department of Earth and Planetary Sciences/);
+ const targets=h.walk(science).filter(n=>n.tagName==='a').map(n=>n.href);assert.ok(targets.includes('https://www.cds.hku.hk/'));assert.ok(targets.includes('https://i-school.hku.hk/'));assert.ok(!targets.includes('https://www.scifac.hku.hk/prospective/tpg/about'));
+ h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');assert.match(el('academic-coverage').textContent,/其他教学项目与单位（不计作学部）/);assert.equal(h.networkCalls(),0);
+});

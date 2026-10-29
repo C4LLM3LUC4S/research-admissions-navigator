@@ -111,5 +111,6 @@
     "再逐院核齐下属学系/学域及其他正式学术划分",
     "最后逐单位完整师资类别/分页/个人主页/提供Links与对应研究学位要求"
   ],
-  "college_priority_receipt": "data/research/college-priority-20261029.json"
+  "college_priority_receipt": "data/research/college-priority-20261029.json",
+  "child_inventory_receipt": "data/research/child-unit-inventory-20261029.json"
 }

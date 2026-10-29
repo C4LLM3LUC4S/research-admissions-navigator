@@ -512,6 +512,14 @@ def build_catalog():
         overview["sourceIds"] = review["sourceIds"]
         if review.get("reportedCounts"):
             overview["reportedCounts"] = review["reportedCounts"]
+    child_inventory = load("child-unit-inventory-20261029.json")
+    catalog["sources"].extend(child_inventory["sources"])
+    for reviewed in child_inventory["units"]:
+        unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == reviewed["unitId"])
+        unit["children"] = reviewed["children"]
+        unit["childInventoryReview"] = {key: reviewed[key] for key in ("checkedAt", "sourceIds", "summary")}
+        unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
+        unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -759,6 +767,20 @@ def validate(catalog):
             if unit["entryBodyStatus"] == "body_read":
                 refs(unit["sourceIds"])
                 assert unit["readMethod"] in {"anonymous_HTTP", "web_reader"}
+            if "childInventoryReview" in unit:
+                child_review = unit["childInventoryReview"]
+                refs(child_review["sourceIds"])
+                assert child_review["status"] == "observed_parent_list_matched" and child_review["facultyComplete"] is False
+                assert child_review["observedChildren"] == len(unit["children"])
+                assert len({child["name"] for child in unit["children"]}) == len(unit["children"])
+                for child in unit["children"]:
+                    refs(child["sourceIds"])
+                    assert child["supervisionEligibility"] == child["availability"] == "unknown"
+                    assert any(child["url"] in sources[sid].get("discoveredLinks", []) for sid in child["sourceIds"]), "Child navigation must come from its actual parent evidence"
+                    if child["kind"] == "affiliated_school":
+                        assert child["relationship"] == "affiliated_school", "An affiliated School is not a direct department"
+                for entry in unit.get("relatedTeachingEntries", []):
+                    assert any(entry["url"] in sources[sid].get("discoveredLinks", []) for sid in child_review["sourceIds"])
             for entry in unit["staffEntries"]:
                 assert entry["enumerationComplete"] is False and entry["teacherProfilesTotal"] is None
                 if entry["entryBodyStatus"] == "body_read":
