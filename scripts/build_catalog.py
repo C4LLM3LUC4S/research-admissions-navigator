@@ -494,6 +494,13 @@ def build_catalog():
     catalog["faculty"].extend(cityu_ee["faculty"])
     catalog["directories"].extend(cityu_ee["directories"])
     catalog["programs"].extend(cityu_ee["programmes"])
+    polyu_cee = load("polyu-cee-census-20261029.json")
+    catalog["sources"].extend(polyu_cee["sources"])
+    catalog["faculty"].extend(polyu_cee["faculty"])
+    catalog["directories"].extend(polyu_cee["directories"])
+    catalog["programs"].extend(polyu_cee["programmes"])
+    construction = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "polyu-3")
+    construction["staffEntries"].extend(polyu_cee["staffEntries"])
     cityu_engineering = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cityu-4")
     cityu_engineering["staffEntries"].extend(cityu_ee["staffEntries"])
     access = load("entry-access-review-20261027.json")
@@ -539,6 +546,17 @@ def validate(catalog):
     sources = {s["id"]: s for s in catalog["sources"]}
     assert len(sources) == len(catalog["sources"]) and len(sources) >= 34
     for source in sources.values():
+        if source.get("navigationEvidence"):
+            navigation = source["navigationEvidence"]
+            assert navigation["kind"] == "html_meta_refresh"
+            original = sources.get(navigation["sourceId"])
+            assert original and original["evidenceLevel"] == "official_profile_redirect"
+            assert navigation["bodySha256"] == original["bodySha256"]
+            assert source["originalUrl"] == original["originalUrl"]
+            assert navigation["documentUrl"] == original["url"]
+            assert source["parentSourceId"] == original["parentSourceId"]
+            assert navigation["declaredTarget"] == source["url"]
+            assert source["url"] in original["discoveredLinks"], "A declared refresh cannot invent another target"
         if "readReceiptSha256" in source:
             validate_read_receipt(source)
         if source.get("bodySha256") == "d02032286070b4dd9d8fbd985a7bdca8af8edf52b89ff177db3bfcb2c8a9c43d":
