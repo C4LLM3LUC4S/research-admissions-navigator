@@ -571,3 +571,13 @@ test('child-unit reader sees affiliated schools and separate teaching entries wi
  const targets=h.walk(science).filter(n=>n.tagName==='a').map(n=>n.href);assert.ok(targets.includes('https://www.cds.hku.hk/'));assert.ok(targets.includes('https://i-school.hku.hk/'));assert.ok(!targets.includes('https://www.scifac.hku.hk/prospective/tpg/about'));
  h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');assert.match(el('academic-coverage').textContent,/其他教学项目与单位（不计作学部）/);assert.equal(h.networkCalls(),0);
 });
+
+test('scoped organization reader finds research degree links without invented departments',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhksz','MPhil',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('理工学院'));assert.ok(u);assert.match(u.textContent,/已读学院入口/);assert.doesNotMatch(u.textContent,/本轮未读到正文/);assert.match(u.textContent,/2026-10-26/);assert.match(u.textContent,/2026-10-29已读到本次入口正文/);assert.match(u.textContent,/尚未核到下设学系的完整清单/);assert.match(u.textContent,/科研领域（不是学系列表）/);assert.match(u.textContent,/研究型硕博项目导航（不计作学系）/);
+ const urls=h.walk(u).filter(n=>n.tagName==='a').map(n=>n.href);assert.ok(urls.includes('https://sse.cuhk.edu.cn/page/749'));assert.ok(!urls.some(u=>u.includes('ssemsc.')));assert.equal(h.networkCalls(),0);
+});
+test('scoped organization reader separates education pillars and conflicting support counts',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkustgz','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('教育科学学院'));assert.ok(u);assert.match(u.textContent,/共五个部门/);assert.match(u.textContent,/共六个/);assert.match(u.textContent,/教学支持/);assert.match(u.textContent,/校级介绍另列的行政部门/);assert.match(u.textContent,/Pillar of Cognitive Sciences/);assert.match(u.textContent,/所读页未给独立网址/);assert.equal(h.networkCalls(),0);
+});
