@@ -5,7 +5,7 @@
     "universities": 7,
     "programs": 40,
     "faculty": 1378,
-    "sources": 2446,
+    "sources": 2454,
     "funding": 1,
     "degreeRoutes": 66,
     "facultyByUniversity": {
@@ -34,7 +34,7 @@
       "cityu": 10
     },
     "academicUnitRows": 66,
-    "listedChildUnits": 221
+    "listedChildUnits": 222
   },
   "assertions": [
     "seven institution identities stay separate",

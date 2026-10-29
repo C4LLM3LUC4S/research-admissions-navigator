@@ -581,3 +581,7 @@ test('scoped organization reader separates education pillars and conflicting sup
  const h=harness(),el=id=>h.byId.get(id);h.select('hkustgz','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('教育科学学院'));assert.ok(u);assert.match(u.textContent,/共五个部门/);assert.match(u.textContent,/共六个/);assert.match(u.textContent,/教学支持/);assert.match(u.textContent,/校级介绍另列的行政部门/);assert.match(u.textContent,/Pillar of Cognitive Sciences/);assert.match(u.textContent,/所读页未给独立网址/);assert.equal(h.networkCalls(),0);
 });
+
+test('STEM college applicant finds material entry and supplied alternatives without erasing old failures',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Engineering'));assert.ok(u);assert.match(u.textContent,/七项|七个|七/);assert.match(u.textContent,/四学院|四学院共同|四/);assert.match(u.textContent,/关联学校：/);assert.match(u.textContent,/原入口的读取状态另保留/);const links=h.walk(u).filter(n=>n.tagName==='a');assert.ok(links.some(a=>a.href==='https://mse.hku.hk/'));assert.ok(links.some(a=>a.href==='https://www.eee.hku.hk/'&&a.textContent.includes('正文待核')));assert.equal(h.networkCalls(),0);
+});
