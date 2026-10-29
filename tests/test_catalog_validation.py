@@ -333,8 +333,10 @@ class AccessResponseChecks(unittest.TestCase):
         rows = [c for m in catalog['academicCoverage'] for u in m['units'] for c in u['children'] if c.get('responseKind') == 'access_challenge']
         self.assertEqual(len(rows), 20)
         self.assertTrue(all(c['entryBodyStatus'] == 'access_failed' and c['url'] and c['teacherProfilesTotal'] is None for c in rows))
-        sources = [s for s in catalog['sources'] if s['evidenceLevel'] == 'official_entry_access_failed']
+        old_ids = {sid for row in builder.load('entry-access-review-20261027.json')['entries'] for sid in row['sourceIds']}
+        sources = [s for s in catalog['sources'] if s['id'] in old_ids]
         self.assertEqual(len(sources), 5)
+        self.assertTrue(all(s['evidenceLevel'] == 'official_entry_access_failed' for s in sources))
         self.assertTrue(all(s['checkedAt'] == '2026-10-26' and s['classificationReviewedAt'] == '2026-10-27' for s in sources))
         self.assertEqual(catalog['academicEntryProgress']['knownAccessChallenges'], 20)
 
