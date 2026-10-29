@@ -2,6 +2,11 @@
   "primary_task": "逐校学院总表→逐院学系/学域→完整师资及分页→逐人官方主页与个人Links→对应研究型项目要求。七校都推进，不能只在一个系零散加人。",
   "priorities": [
     {
+      "id": "polyu-cee-followthrough",
+      "task": "七校理工继续轮换，保留CEE30份研究待核、9无URL、被拒外部档案及完整材料/英语尺度缺口。",
+      "acceptance": "不由课程、学历或岗位推研究/指导资格；博士广告、HKPFS步骤、旧费用与MPhil分开。"
+    },
+    {
       "id": "directory-research-followthrough",
       "task": "七校理工轮换：逐批核名录中未提供主页但已列研究的老师，补个人Links、身份对应及研究学位当期材料。",
       "acceptance": "只有实际研究原文与姓名绑定才进入检索；无网址不猜补，访问拒绝不绕过，Ray身份不模糊合并，MPhil不套博士年份。"

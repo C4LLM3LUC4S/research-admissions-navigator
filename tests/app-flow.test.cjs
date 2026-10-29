@@ -547,3 +547,14 @@ test('directory-only research uses its real evidence and restores a teacher and 
  await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
  const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/FENG/);assert.match(restored.byId.get('saved-faculty').textContent,/院系名录/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.match(restored.byId.get('tasks').textContent,/电机工程/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+
+test('CEE MPhil reader saves a teacher and current-year fee action without doctoral deadlines',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('polyu','MPhil',[]);el('research-query').value='PFAS';await el('profile-form').emit('input',{target:el('research-query')});const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Prof. Jinxia LIU'));assert.ok(card);await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');assert.doesNotMatch(el('results').textContent,/土木与环境工程：2027\/28 HKPFS博士申请/);const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='土木与环境工程研究学位'));assert.ok(p);assert.match(p.textContent,/当期申请时间待核/);assert.doesNotMatch(p.textContent,/HKPFS RGC初申请截止/);assert.match(p.textContent,/600/);await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/Jinxia LIU/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.match(restored.byId.get('tasks').textContent,/项目轮次待核/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
+
+test('CEE doctoral reader sees a scoped 2027 advertisement and both separate HKPFS steps',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('polyu','PhD',[]);el('research-query').value='超材料';await el('profile-form').emit('input',{target:el('research-query')});const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Prof. Kai ZHOU'));assert.ok(card);assert.match(card.textContent,/2027年秋季PhD招募/);assert.match(card.textContent,/不是MPhil/);
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='土木与环境工程：2027/28 HKPFS博士申请'));assert.ok(p);assert.match(p.textContent,/12:00/);assert.match(p.textContent,/23:59/);assert.match(p.textContent,/不是两个不同学位或两次大学缴费/);assert.equal(h.networkCalls(),0);
+});

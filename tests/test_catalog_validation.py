@@ -28,6 +28,18 @@ class SourceDateChecks(unittest.TestCase):
         with self.assertRaises(AssertionError):
             builder.validate(self.catalog)
 
+    def test_declared_html_refresh_cannot_change_its_recorded_target(self):
+        source = next(s for s in self.catalog['sources'] if s.get('navigationEvidence'))
+        source['navigationEvidence']['declaredTarget'] = 'https://unrelated.example/'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_declared_html_refresh_keeps_the_original_body_and_teacher(self):
+        source = next(s for s in self.catalog['sources'] if s.get('navigationEvidence'))
+        source['navigationEvidence']['bodySha256'] = '0' * 64
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
     def test_a_recorded_redirect_cannot_be_reassigned_to_another_teacher(self):
         f = next(f for f in self.catalog['faculty'] if f['id'] == 'cuhk-seem-01')
         link = f['extraLinks'][0]
