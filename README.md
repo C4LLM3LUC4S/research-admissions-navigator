@@ -2,7 +2,7 @@
 
 想申请研究型硕士或博士，却不知道从哪里查起？这个工具先帮你看清项目要求，找到值得进一步了解的老师，再把申请准备整理成能继续推进的清单。
 
-首批学校：港大、港中文、港科技、港理工、港城市、港中深、港科广。当前已整理1246份教师研究资料、61个官方院系目录入口（含官网公布的未来任职），涵盖计算机、AI、电子工程、控制和数据科学，并开始补数学、统计、金融、设计、环境及人文社科等方向。先看[覆盖说明](COVERAGE.md)了解哪些已读、哪些还没核全，再按[学院和学系清单](ACADEMIC_COVERAGE.md)继续找人。这是持续完善的早期alpha，个人资料留在本机；已整理人数不是全部导师、可以申请的人数上限或当前名额。
+首批学校：港大、港中文、港科技、港理工、港城市、港中深、港科广。当前已整理1311份教师研究资料、65个官方院系目录入口（含官网公布的未来任职），涵盖计算机、AI、电子工程、控制和数据科学，并开始补数学、统计、金融、设计、环境及人文社科等方向。先看[覆盖说明](COVERAGE.md)了解哪些已读、哪些还没核全，再按[学院和学系清单](ACADEMIC_COVERAGE.md)继续找人。这是持续完善的早期alpha，个人资料留在本机；已整理人数不是全部导师、可以申请的人数上限或当前名额。
 
 ## 打开方式
 
@@ -58,7 +58,7 @@ python -m unittest discover -s tests -p test_catalog_validation.py
 
 ## English
 
-An early alpha for research-degree applicants to explore official programme rules, faculty research and practical next steps, online or from an offline download. Current partial coverage includes 1108 faculty research records, 46 official directory entries and 34 programme/application routes across seven institutions. The academic map lists schools and departments still to review; these counts do not describe all potential supervisors. Some MPhil degrees belong to integrated MPhil-PhD schemes and are not standalone application routes; each card explains its own conditions. Concrete research keywords, follow-up tasks and portable backups help applicants continue investigating. Programme, degree, campus and intake remain separate. Research overlap does not establish recruitment availability or admission probability. Personal notes stay in the browser; there is no public experience-submission backend.
+An early alpha for research-degree applicants to explore official programme rules, faculty research and practical next steps, online or from an offline download. Current partial coverage includes 1311 faculty research records, 65 official directory entries and 38 programme/application routes across seven institutions. The academic map lists schools and departments still to review; these counts do not describe all potential supervisors. Some MPhil degrees belong to integrated MPhil-PhD schemes and are not standalone application routes; each card explains its own conditions. Concrete research keywords, follow-up tasks and portable backups help applicants continue investigating. Programme, degree, campus and intake remain separate. Research overlap does not establish recruitment availability or admission probability. Personal notes stay in the browser; there is no public experience-submission backend.
 
 
 先在“看院系目录”查看[七校学院与师资整理进度](ACADEMIC_COVERAGE.md)，再进入具体学院和下属学系。学校架构、待核个人页与已整理研究方向的人数分别显示，不把当前收录量当作全部老师。
@@ -69,3 +69,5 @@ An early alpha for research-degree applicants to explore official programme rule
 港科大理学院本批接续物理与纳米研究学位入口，并补充43份明确研究资料；学校总档案缺研究说明的条目会另核学系页。教学、研究、访问和荣休身份不自动证明可指导资格；个人网站未注明年度的正面或负面提示保留原范围。五个学系入口已列出，其他专业和系内其他人员分类仍在核查，不能把当前人数当全集。
 
 理工科资料继续优先补齐：逐校核理学院与工程学院，再沿学系的全部师资类别、分页和个人主页整理。数学系本批新增52份研究、4位沿用原编号；教学和附属等身份不当导师资格，未收录不等于不能申请。
+
+院系名录有研究介绍、但没有提供个人主页时，卡片会明确说明，并链接到该名录中的研究原文。可以照常检索、收藏和保存备份；指导资格、可申请学位和实时余位仍需核实。旧备份格式保持，含本次新增编号的备份请用本版或更新版打开；旧版没有这些资料，不能凭空恢复它们。

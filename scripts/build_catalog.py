@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-10-28"
+CHECKED = "2026-10-29"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -489,6 +489,13 @@ def build_catalog():
     catalog["programs"].extend(mechanical["programmes"])
     hku_engineering = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "hku-6")
     hku_engineering["staffEntries"].extend(mechanical["staffEntries"])
+    cityu_ee = load("cityu-ee-census-20261029.json")
+    catalog["sources"].extend(cityu_ee["sources"])
+    catalog["faculty"].extend(cityu_ee["faculty"])
+    catalog["directories"].extend(cityu_ee["directories"])
+    catalog["programs"].extend(cityu_ee["programmes"])
+    cityu_engineering = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cityu-4")
+    cityu_engineering["staffEntries"].extend(cityu_ee["staffEntries"])
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -607,7 +614,17 @@ def validate(catalog):
     for f in catalog["faculty"]:
         assert f["id"] not in faculty_ids
         faculty_ids.add(f["id"])
-        key = (f["universityId"], f["profileUrl"].rstrip("/").lower())
+        if f.get("recordKind") == "directory_research":
+            assert f["profileUrl"] is None, "Do not invent an unprovided individual profile URL"
+            sid = f["directoryEvidenceSourceId"]
+            assert sid in f["directorySourceIds"] and sid in f["sourceIds"]
+            directory = directory_by_source[sid]
+            assert directory["universityId"] == f["universityId"] and directory["url"] == sources[sid]["url"]
+            assert any(row.get("facultyId") == f["id"] and row["name"] == f["name"] for row in directory["census"].get("unlinkedEntries", [])), "Bind directory-only research to its actual named card"
+            key = (f["universityId"], "directory_research", sid, f["name"])
+        else:
+            assert isinstance(f.get("profileUrl"), str) and f["profileUrl"], "An individual profile needs its actual supplied URL"
+            key = (f["universityId"], f["profileUrl"].rstrip("/").lower())
         assert key not in profile_keys, "Duplicate official faculty profile"
         profile_keys.add(key)
         assert f["universityId"] in unis and f["topics"] and set(f["topics"]) <= set(TAGS)
@@ -680,6 +697,8 @@ def validate(catalog):
                 assert sum(census["pendingReasonCounts"].values()) == census["profilesFailed"]
             for row in census.get("unlinkedEntries", []):
                 assert row["name"] and row["reason"] and not row.get("profileUrl"), "Never invent an unprovided profile URL"
+                if row.get("facultyId"):
+                    assert row["facultyId"] in faculty_ids
     for fund in catalog["funding"]:
         refs(fund["sourceIds"])
         assert fund["degree"] == "PhD" and set(fund["universities"]) == {"hku", "cuhk", "hkust", "polyu", "cityu"}
