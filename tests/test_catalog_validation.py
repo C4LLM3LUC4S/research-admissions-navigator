@@ -173,6 +173,25 @@ class AcademicMapChecks(unittest.TestCase):
     def setUp(self):
         self.catalog = builder.build_catalog()
 
+    def test_child_link_not_supplied_by_actual_parent_is_rejected(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'hku-9')
+        u['children'][0]['url'] = 'https://unobserved.example/department'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_affiliated_school_cannot_be_relabelled_direct(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'hku-9')
+        c = next(c for c in u['children'] if c['kind'] == 'affiliated_school')
+        c['relationship'] = 'direct_academic_unit'
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_matched_child_list_cannot_assert_teacher_census(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'hkust-6')
+        u['childInventoryReview']['facultyComplete'] = True
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
     def test_college_scope_cannot_drop_the_academy_from_its_observed_list(self):
         m = next(m for m in self.catalog['academicCoverage'] if m['universityId'] == 'cityu')
         m['listReview']['academicUnitIds'].remove('cityu-innovation')
