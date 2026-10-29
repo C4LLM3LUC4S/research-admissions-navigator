@@ -191322,7 +191322,8 @@
                 "organization-sse-home-20261029"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             },
             {
               "label": "研究人员",
@@ -191332,7 +191333,8 @@
                 "organization-sse-home-20261029"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             }
           ],
           "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
@@ -191762,7 +191764,8 @@
                 "organization-sds-home-20261029"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             },
             {
               "label": "兼职人员",
@@ -191772,7 +191775,8 @@
                 "organization-sds-home-20261029"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             }
           ],
           "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
@@ -192732,7 +192736,8 @@
                 "organization-sai-home-20261029"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             },
             {
               "label": "兼职人员",
@@ -192742,7 +192747,8 @@
                 "organization-sai-home-20261029"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             }
           ],
           "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
@@ -195189,5 +195195,5 @@
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:c7dd8f0e5aa834bda423a914121046c145fd0a9c2ccb7cc7697a368471faaf1e"
+  "snapshotId": "sha256:402a0e3bc9494ceb1641db134c9dc0bae7486130b9c43d576be4bbb307541436"
 }

@@ -1823,7 +1823,8 @@
             "organization-sse-home-20261029"
           ],
           "enumerationComplete": false,
-          "teacherProfilesTotal": null
+          "teacherProfilesTotal": null,
+          "profileLeads": []
         },
         {
           "label": "研究人员",
@@ -1833,7 +1834,8 @@
             "organization-sse-home-20261029"
           ],
           "enumerationComplete": false,
-          "teacherProfilesTotal": null
+          "teacherProfilesTotal": null,
+          "profileLeads": []
         }
       ]
     },
@@ -1968,7 +1970,8 @@
             "organization-sds-home-20261029"
           ],
           "enumerationComplete": false,
-          "teacherProfilesTotal": null
+          "teacherProfilesTotal": null,
+          "profileLeads": []
         },
         {
           "label": "兼职人员",
@@ -1978,7 +1981,8 @@
             "organization-sds-home-20261029"
           ],
           "enumerationComplete": false,
-          "teacherProfilesTotal": null
+          "teacherProfilesTotal": null,
+          "profileLeads": []
         }
       ]
     },
@@ -2031,7 +2035,8 @@
             "organization-sai-home-20261029"
           ],
           "enumerationComplete": false,
-          "teacherProfilesTotal": null
+          "teacherProfilesTotal": null,
+          "profileLeads": []
         },
         {
           "label": "兼职人员",
@@ -2041,7 +2046,8 @@
             "organization-sai-home-20261029"
           ],
           "enumerationComplete": false,
-          "teacherProfilesTotal": null
+          "teacherProfilesTotal": null,
+          "profileLeads": []
         }
       ]
     },
