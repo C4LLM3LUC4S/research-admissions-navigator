@@ -155,7 +155,7 @@
   function showView(name) { if(!['explore','shortlist','sources','community'].includes(name))name='explore';document.querySelectorAll('.view').forEach(view=>{view.hidden=view.id!=='view-'+name;});document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===name)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(name==='shortlist')renderShortlist();history.replaceState(null,'','#'+name); }
   function renderCommunityPrograms() { const universityId=$('community-university').value;clear($('community-program'));$('community-program').append(new Option('请选择项目',''));C.programs.filter(p=>p.universityId===universityId).forEach(p=>$('community-program').append(new Option(p.name+' · '+p.degrees.join('/'),p.id))); }
   buildFilters();chooseMode(state.profile.researchQuery.trim()?'faculty':'programs');renderShortlist();renderSources();
-  $('data-stamp').append(node('strong','本版资料 · '+(C.checkedDate||'日期待核实')),node('span',C.sources.length+' 项来源 · 官网与教师自述分开标明'));
+  $('data-stamp').replaceChildren(node('strong','本版资料 · '+(C.checkedDate||'日期待核实')),node('span',C.sources.length+' 项来源 · 官网与教师自述分开标明'));
   $('faculty-coverage').textContent='本版已整理 '+C.faculty.length+' 份教师研究资料、'+(C.directories||[]).length+' 个官方院系目录。资料包含官网已公布的未来任职，具体时间看老师卡片；这不是导师总名单或可申请人数上限，未收录、未核完的部分可以从院系目录继续找。';
   document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));
   $('profile-form').addEventListener('input',event=>{readProfile();facultyLimit=24;if(event.target.id==='research-query')chooseMode('faculty');else renderResults();});$('profile-form').addEventListener('submit',event=>{event.preventDefault();readProfile();if(persist(true))notify('已保存在这个浏览器中。备份到文件后，才能换设备恢复。');});
