@@ -5,10 +5,10 @@ const L=require('../dist/logic.js'),C=JSON.parse(fs.readFileSync(path.join(__dir
 
 test('wide coverage is an evidence-linked faculty inventory, never a count of available places',()=>{
   assert.ok(C.faculty.length>=94);assert.equal(new Set(C.faculty.map(f=>f.id)).size,C.faculty.length);
-  assert.equal(new Set(C.faculty.map(f=>f.universityId+'|'+f.profileUrl.replace(/\/$/,''))).size,C.faculty.length);
+  assert.equal(new Set(C.faculty.map(f=>f.universityId+'|'+(f.recordKind==='directory_research'?f.directoryEvidenceSourceId+'|'+f.name:f.profileUrl.replace(/\/$/,'')))).size,C.faculty.length);
   for(const u of C.universities){assert.ok(C.faculty.filter(f=>f.universityId===u.id).length>=10,u.id);assert.ok(C.directories.filter(d=>d.universityId===u.id).length>=2,u.id);}
   const sources=new Set(C.sources.map(s=>s.id));
-  for(const f of C.faculty){assert.ok(f.researchKeywords.length);assert.ok(f.keywordSourceIds.every(id=>sources.has(id)));if(f.profileUrl.startsWith('http://')){assert.equal(L.observedProfileUrl(C,f.profileUrl,f.directorySourceIds),null);assert.ok(f.sourceIds.some(id=>C.sources.some(s=>s.id===id&&s.transportScope==='read_only_http_source_not_clickable')));}else assert.ok(L.observedProfileUrl(C,f.profileUrl,f.directorySourceIds));assert.notEqual(f.availability.state,'confirmed');}
+  for(const f of C.faculty){assert.ok(f.researchKeywords.length);assert.ok(f.keywordSourceIds.every(id=>sources.has(id)));if(f.recordKind==='directory_research'){assert.equal(f.profileUrl,null);assert.ok(L.directoryResearchSource(C,f));}else if(f.profileUrl.startsWith('http://')){assert.equal(L.observedProfileUrl(C,f.profileUrl,f.directorySourceIds),null);if(f.researchBasis==='official_directory'){assert.ok(f.keywordSourceIds.every(id=>f.directorySourceIds.includes(id)));assert.ok(C.directories.some(d=>d.universityId===f.universityId&&d.census?.entries.some(e=>e.profileUrl===f.profileUrl&&e.name===f.name)));}else assert.ok(f.sourceIds.some(id=>C.sources.some(s=>s.id===id&&s.transportScope==='read_only_http_source_not_clickable')));}else assert.ok(L.observedProfileUrl(C,f.profileUrl,f.directorySourceIds));assert.notEqual(f.availability.state,'confirmed');}
   for(const d of C.directories){assert.equal(d.coverageComplete,false);assert.ok(L.officialUrl(d.url));assert.ok(d.sourceIds.every(id=>sources.has(id)));}
 });
 
@@ -75,8 +75,8 @@ test('CUHK CSE keeps memorial, unlinked, non-HTTPS and certificate cases out of 
   const historic=census.entries.filter(e=>e.historicalMemorialEntry);assert.equal(historic.length,2);
   for(const entry of historic)assert.ok(!C.faculty.some(f=>f.profileUrl===entry.profileUrl));
   assert.ok(!pack.faculty.some(f=>f.profileUrl.startsWith('http:')));
-  assert.equal(C.faculty.find(f=>f.profileUrl.endsWith('/qi-dou/')).id,'wide-cuhk-qi-dou');
-  assert.equal(C.faculty.find(f=>f.profileUrl.endsWith('/sinno-jialin-pan/')).id,'CUHK-Sinno-Jialin-Pan');
+  assert.equal(C.faculty.find(f=>f.profileUrl?.endsWith('/qi-dou/')).id,'wide-cuhk-qi-dou');
+  assert.equal(C.faculty.find(f=>f.profileUrl?.endsWith('/sinno-jialin-pan/')).id,'CUHK-Sinno-Jialin-Pan');
 });
 
 test('an observed external directory profile grants only its exact safe link, not an outside-domain exception',()=>{
@@ -124,7 +124,7 @@ test('SAI exact official-parent Links retain unread shells and old affiliation c
   const links=faculty.flatMap(f=>f.extraLinks||[]).filter(l=>l.parentSourceId.startsWith('cuhksz-sai-profile-'));
   assert.equal(links.length,42);assert.equal(links.filter(l=>l.bodyStatus==='body_read').length,33);
   const orcid=links.find(l=>l.url.startsWith('https://orcid.org/'));assert.equal(orcid.bodyStatus,'not_read');
-  const david=faculty.find(f=>f.profileUrl.endsWith('/107'));assert.equal(L.facultyLinks(C,david).length,0);
+  const david=faculty.find(f=>f.profileUrl?.endsWith('/107'));assert.equal(L.facultyLinks(C,david).length,0);
   const actual=C.sources.find(s=>s.title.startsWith('ZHAO, Zhanzhan')&&s.evidenceLevel==='teacher_page_linked_from_official_profile');
   assert.ok(actual.knownIssues.some(x=>x.includes('博士后')&&x.includes('不同')));
 });
@@ -135,14 +135,14 @@ test('a teacher Fall notice is scoped evidence and generic Master never becomes 
   assert.deepEqual(wu.availability.degrees,['PhD']);assert.match(wu.availability.text,/未说明是否为MPhil/);
   const yang=C.faculty.find(f=>f.name==='LI, Yang');assert.deepEqual(yang.availability.degrees,['PhD','MPhil']);
   assert.equal(yang.availability.state,'advertised');assert.match(L.availabilityText(yang),/需进一步确认/);
-  assert.equal(C.faculty.find(f=>f.name==='LI, Ming'&&f.profileUrl.endsWith('/258')).availability.state,'unknown');
+  assert.equal(C.faculty.find(f=>f.name==='LI, Ming'&&f.profileUrl?.endsWith('/258')).availability.state,'unknown');
 });
 
 test('Chinese multimodal queries find the corresponding original English research terms',()=>{
   const base={...L.defaultProfile(C),universityIds:['cuhksz']};
   const multi=L.facultyFor(C,{...base,researchQuery:'多模态'});
-  assert.ok(multi.some(f=>f.profileUrl.endsWith('/258')));assert.ok(multi.some(f=>f.profileUrl.endsWith('/277')));
-  assert.ok(L.facultyFor(C,{...base,researchQuery:'多模态大模型'}).some(f=>f.profileUrl.endsWith('/277')));
+  assert.ok(multi.some(f=>f.profileUrl?.endsWith('/258')));assert.ok(multi.some(f=>f.profileUrl?.endsWith('/277')));
+  assert.ok(L.facultyFor(C,{...base,researchQuery:'多模态大模型'}).some(f=>f.profileUrl?.endsWith('/277')));
   assert.deepEqual(L.matchedResearchTerms({researchKeywords:['Speech Processing'],summary:'No multimodal work confirmed'},'多模态'),[]);
   assert.ok(multi.every(f=>L.matchedResearchTerms(f,'多模态').length));
 });

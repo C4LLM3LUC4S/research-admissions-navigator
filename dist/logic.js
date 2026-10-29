@@ -135,6 +135,16 @@
       return parent&&officialUrl(parent.url)&&(parent.discoveredLinks||[]).includes(url);
     })?safe:null;
   }
+  function directoryResearchSource(catalog,faculty) {
+    if(faculty.recordKind!=='directory_research'||faculty.profileUrl!==null)return null;
+    const id=faculty.directoryEvidenceSourceId;
+    if(!(faculty.sourceIds||[]).includes(id)||!(faculty.directorySourceIds||[]).includes(id))return null;
+    const source=catalog.sources.find(s=>s.id===id);
+    if(!source||!officialUrl(source.url))return null;
+    const directory=(catalog.directories||[]).find(d=>d.universityId===faculty.universityId&&d.url===source.url&&d.sourceIds.includes(id)&&
+      (d.census?.unlinkedEntries||[]).some(row=>row.facultyId===faculty.id&&row.name===faculty.name));
+    return directory?source:null;
+  }
   function cyclesFor(catalog) { return [...new Set([catalog.cycle,...catalog.programs.flatMap(p=>[p.cycle,...(p.deadlines||[]).map(d=>d.cycle)])].filter(Boolean))]; }
   function cycleLabel(value) { const spring=/^(\d{4}\/\d{2}) Spring$/.exec(value||'');return !value?'先看全部已核轮次':spring?(Number(spring[1].slice(0,4))+1)+'年春季（'+spring[1]+'学年）':value+'学年'; }
   function matchedTopics(faculty, interests) {
@@ -288,5 +298,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
+  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
 }));

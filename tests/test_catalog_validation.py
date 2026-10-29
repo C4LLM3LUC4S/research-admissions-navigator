@@ -13,6 +13,21 @@ spec.loader.exec_module(builder)
 
 
 class SourceDateChecks(unittest.TestCase):
+    def test_directory_research_must_keep_its_actual_named_card_and_null_url(self):
+        for key, value in [('name', 'Other person'), ('universityId', 'hku'), ('profileUrl', 'https://www.ee.cityu.edu.hk/'), ('sourceIds', [])]:
+            with self.subTest(key=key):
+                catalog = copy.deepcopy(self.catalog)
+                row = next(f for f in catalog['faculty'] if f['id'] == 'cityu-ee-39')
+                row[key] = value
+                with self.assertRaises(AssertionError):
+                    builder.validate(catalog)
+
+    def test_null_profile_without_directory_contract_is_rejected(self):
+        row = next(f for f in self.catalog['faculty'] if f['id'] == 'cityu-ee-39')
+        del row['recordKind']
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
     def test_a_recorded_redirect_cannot_be_reassigned_to_another_teacher(self):
         f = next(f for f in self.catalog['faculty'] if f['id'] == 'cuhk-seem-01')
         link = f['extraLinks'][0]
@@ -47,7 +62,7 @@ class SourceDateChecks(unittest.TestCase):
         rgc = [s for s in self.catalog['sources'] if s['id'] in {'rgc-hkpfs-2027', 'rgc-hkpfs-institutions'}]
         self.assertEqual(len(rgc), 2)
         self.assertTrue(all(s['checkedAt'] == '2026-10-26' for s in rgc))
-        self.assertEqual(self.catalog['checkedDate'], '2026-10-28')
+        self.assertEqual(self.catalog['checkedDate'], builder.CHECKED)
 
     def test_web_reader_receipt_cannot_be_relabeled_as_raw_http(self):
         row = next(s for s in self.catalog['sources'] if s['id'].startswith('cityu-dao-profile-'))

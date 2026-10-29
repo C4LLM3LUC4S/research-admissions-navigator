@@ -530,3 +530,14 @@ test('mechanical applicant finds graph control and restores a school-and-degree-
  await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
  const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/Gao, Zhan/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.match(restored.byId.get('tasks').textContent,/机械工程/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
 });
+
+
+test('directory-only research uses its real evidence and restores a teacher and unknown-year MPhil action',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);assert.match(el('saved-faculty').textContent,/读过研究说明和来源后再收藏/);h.select('cityu','MPhil',[]);el('research-query').value='光子集成';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Prof. FENG , Hanke'));assert.ok(card);assert.match(card.textContent,/个人主页未提供/);
+ assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.textContent==='看院系中的研究原文 ↗'&&n.href==='https://www.ee.cityu.edu.hk/people/academic_staff/faculty'));assert.ok(!h.walk(card).some(n=>n.tagName==='a'&&n.textContent==='看院系提供的老师主页 ↗'));
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='电机工程研究型硕士（招生年度待核）'));assert.ok(p);assert.match(p.textContent,/当期申请时间待核/);assert.match(p.textContent,/不是强制/);assert.match(p.textContent,/2023/);
+ await h.walk(p).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');await el('export-local').emit('click');
+ const raw=await h.downloads[0].blob.text(),restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/FENG/);assert.match(restored.byId.get('saved-faculty').textContent,/院系名录/);assert.match(restored.byId.get('tasks').textContent,/MPhil/);assert.match(restored.byId.get('tasks').textContent,/电机工程/);assert.equal(h.networkCalls(),0);assert.equal(restored.networkCalls(),0);
+});
