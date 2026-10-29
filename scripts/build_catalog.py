@@ -503,6 +503,15 @@ def build_catalog():
     construction["staffEntries"].extend(polyu_cee["staffEntries"])
     cityu_engineering = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cityu-4")
     cityu_engineering["staffEntries"].extend(cityu_ee["staffEntries"])
+    college_review = load("college-priority-20261029.json")
+    catalog["sources"].extend(college_review["sources"])
+    for review in college_review["reviews"]:
+        overview = next(m for m in catalog["academicCoverage"] if m["universityId"] == review["universityId"])
+        overview["listReview"] = review
+        overview["note"] = review["scopeNote"]
+        overview["sourceIds"] = review["sourceIds"]
+        if review.get("reportedCounts"):
+            overview["reportedCounts"] = review["reportedCounts"]
     access = load("entry-access-review-20261027.json")
     failed = {row["url"]: row for row in access["entries"]}
     corrected_sources = {sid for row in access["entries"] for sid in row["sourceIds"]}
@@ -727,6 +736,19 @@ def validate(catalog):
     for overview in maps:
         assert overview["coverageComplete"] is False
         refs(overview["sourceIds"])
+        review = overview["listReview"]
+        refs(review["sourceIds"])
+        assert review["universityId"] == overview["universityId"]
+        assert isinstance(review["summary"], str) and review["summary"].strip()
+        assert review["status"] in {"central_list_matched", "research_degree_list_matched"}
+        academic_ids = set(review["academicUnitIds"])
+        support_ids = set(review["supportUnitIds"])
+        assert len(academic_ids) == len(review["academicUnitIds"]) == review["academicUnitsListed"]
+        assert not academic_ids & support_ids
+        assert academic_ids | support_ids == {u["id"] for u in overview["units"]}, "Every listed unit needs a scoped classification"
+        assert support_ids == {u["id"] for u in overview["units"] if u["kind"] in {"graduate_school", "undergraduate_college"}}
+        assert review["departmentInventoryStatus"] == review["facultyInventoryStatus"] == "pending"
+        assert review["wholeUniversityHierarchyComplete"] is False, "A matched top-level list does not finish departments or teachers"
         for count in overview["reportedCounts"]:
             assert count["label"] and type(count["value"]) is int and count["value"] > 0
         for unit in overview["units"]:

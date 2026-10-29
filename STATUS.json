@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a18",
+  "version": "0.1.0a19",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-10-29",
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 1947,
+    "official_sources": 1954,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 68,
     "teacher_linked_sources": 461,
-    "total_sources": 2408,
+    "total_sources": 2415,
     "academic_unit_rows": 66,
     "listed_child_units": 190,
     "reviewed_new_profiles": 165,
@@ -189,7 +189,7 @@
     "港理工土木环境三类106角色卡、97实际主页和9无网址卡逐项保留，67有据研究、30研究待核；教师网站经实际提供的Links接续。常规研究学位与2027/28 HKPFS博士路线分开，MPhil不借用博士截止；当期申请费与旧学年学费分开。"
   ],
   "verification": {
-    "node_checks": 173,
+    "node_checks": 176,
     "python_source_date_checks": 3,
     "backup_schema_write": 3,
     "backup_schema_read": [
@@ -203,7 +203,7 @@
     "github_CI": "Current commit results are recorded in Actions; this source snapshot does not claim a future CI result.",
     "hosted_service": "GitHub Pages static entry; current deployment availability is checked separately from this source snapshot.",
     "web_entry": "https://c4llm3luc4s.github.io/research-admissions-navigator/",
-    "python_checks": 48
+    "python_checks": 50
   },
   "limitations": [
     "1378份研究资料、68目录仍非七校导师全集。土木环境106角色卡不当106名不同导师，97主页中30份研究仍待核，9卡无网址不猜补。",
@@ -215,7 +215,7 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "继续七校理工轮换；土木环境30待核研究、9无网址卡和被拒外部档案保留，补完整材料、最新英语尺度和明确指导资格，不绕访问拒绝。",
+  "next": "先核齐七校学院/学部/枢纽总表与下属学系学域，再逐单位完整师资类别/分页/个人主页/提供Links；已有教师和未公开候选保留。",
   "count_scope_notes": "observed_profile_links、profile_bodies_read及pending_research_review只统计学院图已列原主页线索；不是全校人口，也不含全部未链接卡片。各校具名计数保留各批范围。",
   "latest_coverage_batch": {
     "unit": "PolyU Civil and Environmental Engineering",
@@ -242,5 +242,12 @@
     "mainLinkOffsetAfter": 547.046875,
     "task": "MPhil2027/28biocatalysis→Cao→Chemistry material action→actual download→browser chooser restore→visible keyword keyboard toggle",
     "humanBenefit": "Not measured; CSS geometry is not human time saved"
+  },
+  "latest_structure_review": {
+    "receipt": "data/research/college-priority-20261029.json",
+    "academicUnitsListed": 60,
+    "supportUnitsListed": 6,
+    "allSevenHierarchiesComplete": false,
+    "facultyExpansionStage": "after_college_and_child_inventory"
   }
 }

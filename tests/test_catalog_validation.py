@@ -173,6 +173,18 @@ class AcademicMapChecks(unittest.TestCase):
     def setUp(self):
         self.catalog = builder.build_catalog()
 
+    def test_college_scope_cannot_drop_the_academy_from_its_observed_list(self):
+        m = next(m for m in self.catalog['academicCoverage'] if m['universityId'] == 'cityu')
+        m['listReview']['academicUnitIds'].remove('cityu-innovation')
+        m['listReview']['academicUnitsListed'] -= 1
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
+    def test_matching_a_college_list_cannot_claim_departments_are_complete(self):
+        self.catalog['academicCoverage'][0]['listReview']['wholeUniversityHierarchyComplete'] = True
+        with self.assertRaises(AssertionError):
+            builder.validate(self.catalog)
+
     def test_seven_school_maps_keep_typed_counts_and_separate_support_units(self):
         maps = {r['universityId']: r for r in self.catalog['academicCoverage']}
         self.assertEqual(len(maps), 7)

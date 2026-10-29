@@ -105,11 +105,13 @@
   function renderAcademicCoverage() {
     const target=$('academic-coverage');clear(target);target.hidden=mode!=='directories';
     if(target.hidden)return;
-    append(target,node('h2','先看全校的学院，再逐个找老师'),node('p','下面按学校列出已核到的学术架构。学院入口、教师名单、个人主页是三步；打开了学院页面，不代表这个学院的老师已经查完。','evidence-note'));
+    append(target,node('h2','先核清学院和下属院系，再逐院找老师'),node('p','先弄清学校有哪些学院、各院有哪些学系，再逐个查老师。下面分开记录这三步的进度；已收录的老师仍可查询，打开过学院页面不代表师资已经查完。','evidence-note'));
     const selected=state.profile.universityIds||[];
     (C.academicCoverage||[]).filter(row=>!selected.length||selected.includes(row.universityId)).forEach(row=>{
       const school=node('details',null,'school-coverage'),u=university(row.universityId);
-      append(school,node('summary',(u.short||u.name)+' · '+row.reportedCounts.map(c=>c.value+' '+c.label).join('；')),node('p',row.note,'evidence-note'));
+      const review=row.listReview;
+      append(school,node('summary',(u.short||u.name)+' · '+(review?review.summary:row.reportedCounts.map(c=>c.value+' '+c.label).join('；'))),node('p',row.note,'evidence-note'));
+      if(review)append(school,node('p','学院名单：'+(review.status==='research_degree_list_matched'?'已逐项核对研究学位页的名单；校级完整架构仍待核。':'已逐项核对所引校级名单。')+' 核查：'+review.checkedAt,'field-help'),node('p','下属院系：尚未核齐；教师：按院逐步核对。','field-help'),node('p',review.next,'field-help'),evidence(review.sourceIds));
       const list=node('div',null,'academic-unit-list');
       row.units.forEach(unit=>{
         const section=node('details',null,'academic-unit');
@@ -118,6 +120,7 @@
         append(section,node('summary',unit.name+' · '+status),node('p',supportUnit?'这个单位单独保留作申请或教学入口，不另外计成一个学科教师库。':'教师总人数尚未核实；逐人主页仍待整理。未收录不等于不能申请。','field-help'));
         if(unit.url)section.append(link('打开这个单位的官方入口 ↗',unit.url));
         if(unit.accessNote)section.append(node('p',unit.accessNote,'field-help'));
+        if(!supportUnit&&!unit.children.length)section.append(node('p','下属单位尚未核清。这里没有列出，不代表这所学院没有学系、学部或其他学术划分。','field-help'));
         if(unit.children.length){section.append(node('h4','先按这些下属单位继续查'));const children=node('ul');
           unit.children.forEach(child=>{const item=node('li'),stateText=child.entryBodyStatus==='body_read'?'已读学系/学域入口':child.entryBodyStatus==='access_failed'?'入口读取失败，待核':'入口待核';append(item,child.url?link(child.name+' ↗',child.retrievedUrl||child.url):node('span',child.name),node('span',' · '+stateText+'；逐人名单继续核查','field-help'));if(child.responseKind==='access_challenge')item.append(node('p','入口返回访问检查页，尚未读到院系正文；保留原链接，待正常访问后再核。','field-help'));if(child.url&&child.url.startsWith('http://'))item.append(node('div','官网原链接为 HTTP，已核到的实际跳转地址另行保留；不猜改地址：'+child.url,'field-help'));
             if((child.staffRoutes||[]).length){const routes=node('details',null,'source-details');routes.append(node('summary','继续看这个学系的人员导航'));child.staffRoutes.forEach(route=>{append(routes,link(route.label+' ↗',route.retrievedUrl||route.url),node('p',route.bodyStatus==='body_read'?'已读人员导航正文，完整名单和分页仍需逐项核对。':route.bodyStatus==='access_failed'?'本轮未读到正文，保留待核。':'导航入口待核。','field-help'));});item.append(routes);}if((child.sourceIds||[]).length)item.append(evidence(child.sourceIds));children.append(item);});section.append(children);}
