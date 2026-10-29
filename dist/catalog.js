@@ -146288,7 +146288,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-hku-20261029",
       "url": "https://www.hku.hk/en/academics/faculties",
-      "title": "hku · 学院与学术单位名单复核",
+      "title": "港大 · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -146460,7 +146460,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-cuhk-20261029",
       "url": "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
-      "title": "cuhk · 学院与学术单位名单复核",
+      "title": "港中文（香港） · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -146590,7 +146590,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-hkust-20261029",
       "url": "https://registry.hkust.edu.hk/resource-library/who-does-what",
-      "title": "hkust · 学院与学术单位名单复核",
+      "title": "港科大（香港） · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -146684,7 +146684,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-polyu-20261029",
       "url": "https://www.polyu.edu.hk/education/faculties-schools-departments/",
-      "title": "polyu · 学院与学术单位名单复核",
+      "title": "港理工 · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -146870,7 +146870,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-cityu-20261029",
       "url": "https://www.cb.cityu.edu.hk/en/pg/research-degree-programmes/research-areas",
-      "title": "cityu · 学院与学术单位名单复核",
+      "title": "港城大 · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -147038,7 +147038,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-cuhksz-20261029",
       "url": "https://www.cuhk.edu.cn/zh-hans/page/17430",
-      "title": "cuhksz · 学院与学术单位名单复核",
+      "title": "港中文（深圳） · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -147066,7 +147066,7 @@ window.APP_CATALOG = {
     {
       "id": "college-priority-hkustgz-20261029",
       "url": "https://www.hkust-gz.edu.cn/zh/academics/?variant=zh-cn",
-      "title": "hkustgz · 学院与学术单位名单复核",
+      "title": "港科大（广州） · 学院与学术单位名单复核",
       "checkedAt": "2026-10-29",
       "evidenceLevel": "official_structure_list_scoped",
       "scope": "只核对本页列出的一级学术单位；不认证下属学系、教师总数、指导资格或招生情况。",
@@ -162239,7 +162239,8 @@ window.APP_CATALOG = {
         "departmentInventoryStatus": "pending",
         "facultyInventoryStatus": "pending",
         "next": "先核商学院、法学院的学术分部，再补各Faculty实际下属School与学系；零个已列条目不等于没有下属单位。",
-        "wholeUniversityHierarchyComplete": false
+        "wholeUniversityHierarchyComplete": false,
+        "summary": "10个Faculty"
       }
     },
     {
@@ -166944,7 +166945,8 @@ window.APP_CATALOG = {
         "departmentInventoryStatus": "pending",
         "facultyInventoryStatus": "pending",
         "next": "继续致真学院及Other Academic Units入口，按八Faculty逐项核下属学系；住宿书院单列。",
-        "wholeUniversityHierarchyComplete": false
+        "wholeUniversityHierarchyComplete": false,
+        "summary": "8个Faculty、1所跨学科数学学院；研究生院另列"
       }
     },
     {
@@ -173823,7 +173825,8 @@ window.APP_CATALOG = {
         "departmentInventoryStatus": "pending",
         "facultyInventoryStatus": "pending",
         "next": "补商学院与跨学科学院下属单位；医学院的筹建、教学安排和实际研究学位入口分开。",
-        "wholeUniversityHierarchyComplete": false
+        "wholeUniversityHierarchyComplete": false,
+        "summary": "5所School、1个跨学科学院"
       }
     },
     {
@@ -181251,7 +181254,8 @@ window.APP_CATALOG = {
         "departmentInventoryStatus": "pending",
         "facultyInventoryStatus": "pending",
         "next": "对照校级总表补各Faculty下属学系，独立School内部学术单位仍须逐院核，不从页面未列推定没有。",
-        "wholeUniversityHierarchyComplete": false
+        "wholeUniversityHierarchyComplete": false,
+        "summary": "7个Faculty、3所独立School；研究生院和本科生院另列"
       }
     },
     {
@@ -183917,6 +183921,7 @@ window.APP_CATALOG = {
         "facultyInventoryStatus": "pending",
         "next": "先核研究学位名单中每个学院/学术单位的正式入口及28个已列学系；校级完整架构未核实的缺口继续保留。",
         "wholeUniversityHierarchyComplete": false,
+        "summary": "研究学位名单共11个学术单位；研究生院另列",
         "reportedCounts": [
           {
             "label": "研究学位页所列学院/学术单位（含创新学院）",
@@ -187928,7 +187933,8 @@ window.APP_CATALOG = {
         "departmentInventoryStatus": "pending",
         "facultyInventoryStatus": "pending",
         "next": "逐院核正式的学部、学科或其他内部学术划分，已有SME/HSS等材料保留，不把零个已列下属单位当作已收齐。",
-        "wholeUniversityHierarchyComplete": false
+        "wholeUniversityHierarchyComplete": false,
+        "summary": "8个学院；研究生院另列"
       }
     },
     {
@@ -189882,7 +189888,8 @@ window.APP_CATALOG = {
         "departmentInventoryStatus": "pending",
         "facultyInventoryStatus": "pending",
         "next": "先核四枢纽十六学域的名单和归属，再核教育科学学院、未来技术学院的内部学术单位。",
-        "wholeUniversityHierarchyComplete": false
+        "wholeUniversityHierarchyComplete": false,
+        "summary": "4个枢纽、2所学院；研究生院另列"
       }
     }
   ],
@@ -189895,5 +189902,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:5ef5b086c77e23d5bd9bb748362f9c637b0ca780c9328348cb8788d3e03fa82c"
+  "snapshotId": "sha256:0baa903e0ba3b9d12cdf0debd9331e409945152404b70615470cdf9073044e04"
 };

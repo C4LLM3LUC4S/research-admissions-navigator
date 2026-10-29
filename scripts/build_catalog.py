@@ -739,6 +739,7 @@ def validate(catalog):
         review = overview["listReview"]
         refs(review["sourceIds"])
         assert review["universityId"] == overview["universityId"]
+        assert isinstance(review["summary"], str) and review["summary"].strip()
         assert review["status"] in {"central_list_matched", "research_degree_list_matched"}
         academic_ids = set(review["academicUnitIds"])
         support_ids = set(review["supportUnitIds"])

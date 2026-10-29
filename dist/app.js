@@ -109,8 +109,8 @@
     const selected=state.profile.universityIds||[];
     (C.academicCoverage||[]).filter(row=>!selected.length||selected.includes(row.universityId)).forEach(row=>{
       const school=node('details',null,'school-coverage'),u=university(row.universityId);
-      append(school,node('summary',(u.short||u.name)+' · '+row.reportedCounts.map(c=>c.value+' '+c.label).join('；')),node('p',row.note,'evidence-note'));
       const review=row.listReview;
+      append(school,node('summary',(u.short||u.name)+' · '+(review?review.summary:row.reportedCounts.map(c=>c.value+' '+c.label).join('；'))),node('p',row.note,'evidence-note'));
       if(review)append(school,node('p','学院名单：'+(review.status==='research_degree_list_matched'?'已逐项核对研究学位页的名单；校级完整架构仍待核。':'已逐项核对所引校级名单。')+' 核查：'+review.checkedAt,'field-help'),node('p','下属院系：尚未核齐；教师：按院逐步核对。','field-help'),node('p',review.next,'field-help'),evidence(review.sourceIds));
       const list=node('div',null,'academic-unit-list');
       row.units.forEach(unit=>{
