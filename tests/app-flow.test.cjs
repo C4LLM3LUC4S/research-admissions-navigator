@@ -30,6 +30,7 @@ function harness(initialStorage,options={}) {
   }
   for(const value of ['MPhil','PhD']){const radio=new Element('input');radio.name='degree';radio.value=value;radio.checked=value==='MPhil';}
   for(const value of ['explore','shortlist','sources','community']){const button=new Element('button');button.dataset.view=value;}
+  if(options.initialLoadingNote)byId.get('data-stamp').textContent=options.initialLoadingNote;
   const body=new Element('body');
   function query(selector){if(selector==='.view')return [...byId.values()].filter(x=>x.className.split(' ').includes('view'));if(selector==='[data-view]')return all.filter(x=>x.dataset.view);const name=/^\[name=([^\]]+)\](:checked)?$/.exec(selector);if(name)return all.filter(x=>x.name===name[1]&&(!name[2]||x.checked));throw Error('Unsupported test selector '+selector);}
   let networkCalls=0;
@@ -43,6 +44,11 @@ function harness(initialStorage,options={}) {
   function select(university,degree,interests){query('[name=degree]').forEach(x=>{x.checked=x.value===degree;});query('[name=university]').forEach(x=>{x.checked=x.value===university;});query('[name=interest]').forEach(x=>{x.checked=interests.includes(x.value);});}
   return {byId,saved,downloads,button,select,walk,networkCalls:()=>networkCalls};
 }
+
+test('a ready catalogue replaces the initial waiting guide rather than retaining a false loading state',()=>{
+ const h=harness(undefined,{initialLoadingNote:'正在读取学校与研究资料；若学校一直没有出现，可下载完整离线包。'}),stamp=h.byId.get('data-stamp');
+ assert.match(stamp.textContent,/本版资料/);assert.match(stamp.textContent,new RegExp(C.sources.length+' 项来源'));assert.doesNotMatch(stamp.textContent,/正在读取|一直没有出现/);
+});
 
 test('access-check entries and source evidence never tell applicants institutional content was read',async()=>{
   const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
