@@ -1,8 +1,8 @@
 {
-  "version": "0.1.0a23",
+  "version": "0.1.0a24",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
-  "checked_date": "2026-10-29",
+  "checked_date": "2026-11-02",
   "working_name": "研向",
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2036,
+    "official_sources": 2046,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 68,
     "teacher_linked_sources": 461,
-    "total_sources": 2497,
+    "total_sources": 2507,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -262,14 +262,17 @@
     "collegeBatchReceipt": "data/research/college-batch-hierarchy-20261029.json",
     "collegeBatchScopedEntries": 31,
     "collegeBatchSources": 43,
-    "nestedAndRelatedNavigationEntries": 46
+    "nestedAndRelatedNavigationEntries": 46,
+    "scopeClarificationReceipt": "data/research/scope-clarifications-20261102.json",
+    "scopeClarificationUnits": 5,
+    "scopeClarificationSources": 10,
+    "reviewedNextStepLinks": 6
   },
   "current_hierarchy_validation": {
-    "sourceCheckedDate": "2026-10-29",
-    "reviewDate": "2026-11-02",
+    "sourceCheckedDate": "2026-11-02 for this pack only; earlier source dates preserved",
+    "actualCallbackChecks": "tests/app-flow.test.cjs",
     "completeSevenUniversities": false,
     "independentHumanUse": false,
-    "actualCallbackChecks": "tests/app-flow.test.cjs",
-    "browserThisChange": "Unavailable: supported CUA and Node REPL both failed to initialize (missing kernel assets). No new screenshot/layout/native-picker/download claim; permissions unchanged."
+    "browserThisChange": "CUA initialization failed before any browser action: missing kernel assets. Actual callback and restoration checked separately; no new visual/native-picker/browser-download claim."
   }
 }

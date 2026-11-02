@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-10-29"
+CHECKED = "2026-11-02"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -520,19 +520,24 @@ def build_catalog():
         unit["childInventoryReview"] = {key: reviewed[key] for key in ("checkedAt", "sourceIds", "summary")}
         unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
         unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
-    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json"):
+    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json"):
         organization = load(organization_path)
         catalog["sources"].extend(organization["sources"])
         organization_sources = {s["id"]: s for s in organization["sources"]}
         for reviewed in organization["units"]:
             unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == reviewed["unitId"])
             entry_source = organization_sources[reviewed["entrySourceId"]]
-            if unit.get("accessNote"):
-                unit["previousAccessNote"] = {"checkedAt": load("university-academic-map-20261026.json")["checkedAt"], "text": unit["accessNote"]}
-                unit["accessNote"] = reviewed["organizationReview"]["checkedAt"] + "已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。"
-            unit.update(entryBodyStatus="body_read", sourceIds=list(dict.fromkeys(unit["sourceIds"] + [entry_source["id"]])),
-                        url=entry_source["url"], readMethod="anonymous_HTTP", bodySha256=reviewed["entryBodySha256"], retrievedUrl=reviewed["retrievedUrl"],
-                        organizationReview=reviewed["organizationReview"], relatedNavigationGroups=reviewed["navigationGroups"])
+            if reviewed.get("updateEntry", True):
+                if unit.get("accessNote"):
+                    unit["previousAccessNote"] = {"checkedAt": load("university-academic-map-20261026.json")["checkedAt"], "text": unit["accessNote"]}
+                    unit["accessNote"] = reviewed["organizationReview"]["checkedAt"] + "已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。"
+                unit.update(entryBodyStatus="body_read", sourceIds=list(dict.fromkeys(unit["sourceIds"] + [entry_source["id"]])),
+                            url=entry_source["url"], readMethod="anonymous_HTTP", bodySha256=reviewed["entryBodySha256"], retrievedUrl=reviewed["retrievedUrl"])
+            if reviewed.get("preservePriorReview"):
+                unit["priorOrganizationReview"] = unit["organizationReview"]
+            unit.update(organizationReview=reviewed["organizationReview"], relatedNavigationGroups=reviewed["navigationGroups"])
+            if "reviewedNavigation" in reviewed:
+                unit["reviewedNavigation"] = reviewed["reviewedNavigation"]
             if "children" in reviewed:
                 unit["children"] = reviewed["children"]
             for entry in reviewed.get("staffEntries", []):
@@ -808,7 +813,8 @@ def validate(catalog):
                     assert org["listedChildren"] == len(unit["children"])
                 navigation_kinds = {"research_fields": {"research_field"}, "academic_subjects": {"academic_subject"}, "research_degree_navigation": {"research_degree_navigation"}, "teaching_support": {"teaching_support"}, "administrative_support": {"administrative_support"}, "college_components": {"college_component"},
                     "academic_subunits": {"department", "division", "centre", "unit", "department_or_programme"},
-                    "related_academic_units": {"other_academic_unit", "institute", "teaching_unit", "centre", "teaching_support", "research_field"}}
+                    "related_academic_units": {"other_academic_unit", "institute", "teaching_unit", "centre", "teaching_support", "research_field"},
+                    "research_organizations": {"centre", "research_lab", "institute"}}
                 for group in unit.get("relatedNavigationGroups", []):
                     assert group["kind"] in navigation_kinds and group["title"] and group["note"]
                     if group["kind"] == "academic_subunits":
@@ -844,6 +850,14 @@ def validate(catalog):
                         assert any(child.get("listedUrl", child["url"]) in sources[sid].get("discoveredLinks", []) for sid in child["inventorySourceIds"])
                     else:
                         assert any(child["observedName"] in sources[sid].get("listedNames", []) for sid in child["inventorySourceIds"])
+            for navigation in unit.get("reviewedNavigation", []):
+                assert navigation["label"] and navigation["scope"]
+                assert navigation["kind"] in {"training_scope", "research_directory", "college_scope", "document_entry", "research_admission_notice", "staff_directory"}
+                sid = navigation["sourceId"]
+                assert sid in unit["organizationReview"]["sourceIds"], "Reviewed action must retain its actual scope source"
+                source = sources[sid]
+                assert source["readMethod"] == "anonymous_HTTP" and source["url"].startswith("https://")
+                validate_read_receipt(source)
             for child in unit["children"]:
                 for extra in child.get("providedEntries", []):
                     assert extra["bodyStatus"] == "not_read", "Supplied entry is not a body-read receipt"
