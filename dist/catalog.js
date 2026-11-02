@@ -152133,6 +152133,4795 @@ window.APP_CATALOG = {
         "https://www.youtube.com/user/hkust",
         "https://science.hkust.edu.hk/profiles/ust/modules/custom/hkust_signature_affiliate/assets/images/wechat_qrcode.JPG"
       ]
+    },
+    {
+      "id": "college-batch-hku-1-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/architecture",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/architecture",
+      "bodySha256": "1e76b229fcfa20fad28a76ad610b098e0d7a11bfc1508c94f7003c20962fd911",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "学院页列三个学系，并在建筑学系介绍中另提园境建筑学部。保留上下层关系，不把学部漏掉，也不改成第四个并列学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "学院页列三个学系，并在建筑学系介绍中另提园境建筑学部。保留上下层关系，不把学部漏掉，也不改成第四个并列学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://www.arch.hku.hk/",
+        "https://www.arch.hku.hk/programmes_/arch/",
+        "https://www.arch.hku.hk/programmes_/rec/",
+        "https://www.arch.hku.hk/programmes_/upad/",
+        "https://www.arch.hku.hk/admissions/admission-by-programmes/",
+        "https://www.arch.hku.hk/event_/the-curious-maker-lo-pans-legacy-of-craft-and-invention-in-architecture/",
+        "https://www.arch.hku.hk/event_/master-of-science-in-digital-management-of-built-assets-mscdmba-ceo-talks-2026-autumn/",
+        "https://www.arch.hku.hk/event_/faculty-public-lecture-series-2026-27/",
+        "https://www.arch.hku.hk/event_/the-future-of-housing-in-hong-kong/",
+        "https://www.youtube.com/watch?v=auvEfqE1BeI",
+        "https://75arch.hku.hk/alumni-tree-planting-ceremony/",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": [
+        "Department of Architecture",
+        "Department of Real Estate and Construction",
+        "Department of Urban Planning and Design",
+        "Division of Landscape Architecture (DLA)"
+      ],
+      "academicParentBindings": [
+        {
+          "collegeUnitId": "hku-1",
+          "parentUnitName": "Department of Architecture"
+        }
+      ]
+    },
+    {
+      "id": "college-batch-hku-2-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/arts",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/arts",
+      "bodySha256": "193d4ec266e3b82be015de374cbc819d5f39821a1b85da10ced65be396ddab36",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "学院页列四所School和佛学研究中心；人文学院还下设七个教学研究单位，名称与课程须到其自身页面继续区分。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "学院页列四所School和佛学研究中心；人文学院还下设七个教学研究单位，名称与课程须到其自身页面继续区分。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://arts.hku.hk/",
+        "https://web.chinese.hku.hk/en/",
+        "https://english.hku.hk/",
+        "https://soh.hku.hk/",
+        "https://www.web.smlc.hku.hk/",
+        "https://www.buddhism.hku.hk/",
+        "https://arts.hku.hk/current-students/undergraduate",
+        "https://arts.hku.hk/admissions/taught-postgraduate-admissions/",
+        "https://arts.hku.hk/admissions/research-postgraduate-admissions/",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": [
+        "School of Chinese",
+        "School of English",
+        "School of Humanities",
+        "School of Modern Languages and Cultures",
+        "Centre of Buddhist Studies"
+      ]
+    },
+    {
+      "id": "college-batch-hku-4-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/dentistry",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/dentistry",
+      "bodySha256": "e1e2d8e5874d6b8f5a032ecf53a61b8c0406f97f1fdb0bf28c868af66815655f",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页列五个Division，保留原分类。专科领域、学部与教师名单分开，尚不能据此判断导师资格或余位。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页列五个Division，保留原分类。专科领域、学部与教师名单分开，尚不能据此判断导师资格或余位。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://facdent.hku.hk",
+        "https://facdent.hku.hk/about/organization-divisions.php#aos",
+        "https://facdent.hku.hk/division/omfs/",
+        "https://facdent.hku.hk/about/organization-divisions.php#paedo-ortho",
+        "https://facdent.hku.hk/division/perio/",
+        "https://facdent.hku.hk/about/organization-divisions.php#rds",
+        "https://facdent.hku.hk/learning/undergraduate.php",
+        "https://facdent.hku.hk/learning/taught-postgraduate.php",
+        "https://facdent.hku.hk/learning/research-postgraduate.php",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": [
+        "Applied Oral Sciences & Community Dental Care",
+        "Oral & Maxillofacial Surgery",
+        "Paediatric Dentistry & Orthodontics",
+        "Periodontology & Implant Dentistry",
+        "Restorative Dental Sciences"
+      ]
+    },
+    {
+      "id": "college-batch-hku-5-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/education",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/education",
+      "bodySha256": "e80eea86b05d153e1cec4b7979951a09a4df8b2e61fc9ff7887f13898608313d",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页列四个Academic Unit，不能统称四个学系。研究学位名称已经出现，但当期申请条件和指导资格仍要另查。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页列四个Academic Unit，不能统称四个学系。研究学位名称已经出现，但当期申请条件和指导资格仍要另查。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://web.edu.hku.hk/",
+        "https://web.edu.hku.hk/unit/language-and-literacy-education/introduction",
+        "https://web.edu.hku.hk/unit/human-communication-learning-and-development/introduction",
+        "https://web.edu.hku.hk/unit/mathematics-science-and-technology",
+        "https://web.edu.hku.hk/unit/social-contexts-and-policies-of-education",
+        "https://web.edu.hku.hk/programme/undergraduate",
+        "https://web.edu.hku.hk/programme/tpg",
+        "https://web.edu.hku.hk/programme/rpg",
+        "https://web.edu.hku.hk/news",
+        "https://web.edu.hku.hk/upcoming-events",
+        "https://web.edu.hku.hk/research",
+        "https://web.edu.hku.hk/knowledge-exchange",
+        "https://web.edu.hku.hk/giving-to-the-faculty",
+        "https://web.edu.hku.hk/page/detail/52157",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": [
+        "Language and Literacy Education (LALE)",
+        "Human Communication, Learning, and Development (HCLD)",
+        "Mathematics, Science, and Technology (MST)",
+        "Social Contexts and Policies of Education (SCAPE)"
+      ]
+    },
+    {
+      "id": "college-batch-hku-7-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/law",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/law",
+      "bodySha256": "53fd074e05158e06a4d06cd57b2763a1b7c350ec395581e24f2d452d1400643d",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "校级介绍与现时学院主页未提供完整学系名单；没有列出不等于没有，旧历史页也不能替代当前架构。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "校级介绍与现时学院主页未提供完整学系名单；没有列出不等于没有，旧历史页也不能替代当前架构。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://www.law.hku.hk/",
+        "https://www.law.hku.hk/prospective-students/ug-introduction/",
+        "https://llm.law.hku.hk/",
+        "https://jd.law.hku.hk/",
+        "https://www.ple.hku.hk/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-introduction/",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hku-8-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/medicine",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/medicine",
+      "bodySha256": "7dd41fa117dbe8c2e113cd967079c5f71cb536a4f152136999fef7317c95bc79",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "学院一级列六所School与药理及药剂学系；临床医学院还有下一层学系和单位。生物医学工程学院保留跨学院身份，不重复当作新Faculty。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "学院一级列六所School与药理及药剂学系；临床医学院还有下一层学系和单位。生物医学工程学院保留跨学院身份，不重复当作新Faculty。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://www.med.hku.hk/en/",
+        "https://www.sbms.hku.hk/",
+        "https://sbme.hku.hk/",
+        "https://scm.hku.hk/Views/Shared/English-Index.html",
+        "https://www.sclinmed.hku.hk/",
+        "https://nursing.hku.hk/",
+        "https://www.pharma.hku.hk/",
+        "https://sph.hku.hk/",
+        "https://www.sbms.hku.hk/study",
+        "https://sbme.hku.hk/programme",
+        "https://scm.hku.hk/Views/Programme/English-CourseIntro.html",
+        "https://www.sclinmed.hku.hk/en/Teaching-and-Learning",
+        "https://nursing.hku.hk/education",
+        "https://www.pharma.hku.hk/en/Prospective-Student/Why-HKU",
+        "https://sph.hku.hk/en/Teaching-and-Learning/Undergraduate",
+        "https://www.med.hku.hk/en/news",
+        "https://www.med.hku.hk/en/media/faculty-events",
+        "https://medium.com/hkumed/all?topic=hkumed-features",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": [
+        "School of Biomedical Sciences",
+        "School of Biomedical Engineering",
+        "School of Chinese Medicine",
+        "School of Clinical Medicine",
+        "School of Nursing",
+        "Department of Pharmacology and Pharmacy",
+        "School of Public Health"
+      ]
+    },
+    {
+      "id": "college-batch-hku-10-20261029",
+      "url": "https://www.hku.hk/en/academics/faculties/social-science",
+      "retrievedUrl": "https://www.hku.hk/en/academics/faculties/social-science",
+      "bodySha256": "9e4f2d2788aa452da1ac965955fb4a43442506e6095c0d57ead8d5f82a667b8f",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页列五个学系、两所School；未来媒体与治理政策单位保留School分类。设立年份不等于研究学位现时开放。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页列五个学系、两所School；未来媒体与治理政策单位保留School分类。设立年份不等于研究学位现时开放。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.hku.hk/en",
+        "https://www.hku.hk/en/search",
+        "https://www.hku.hk/en/about-hku",
+        "https://www.hku.hk/en/about-hku/vision-mission",
+        "https://www.hku.hk/en/about-hku/leadership-governance",
+        "https://www.hku.hk/en/about-hku/history",
+        "https://www.hku.hk/en/about-hku/publications",
+        "https://www.hku.hk/en/about-hku/university-identity",
+        "https://www.hku.hk/en/about-hku/policies",
+        "https://www.hku.hk/en/about-hku/university-today",
+        "https://esg.hku.hk/",
+        "https://presidentsoffice.hku.hk/",
+        "https://www.hku.hk/en/admission-aid",
+        "https://www.hku.hk/en/admission-aid/tuition-fee-scholarships",
+        "https://www.hku.hk/en/academics",
+        "https://www.hku.hk/en/academics/faculties",
+        "https://www.hku.hk/en/academics/programme-overview",
+        "https://www.hku.hk/en/research",
+        "https://www.hku.hk/en/research/centres-institutes",
+        "https://www.hku.hk/en/research/projects",
+        "https://rise.hku.hk/en",
+        "https://www.hku.hk/en/campus-life",
+        "https://www.hku.hk/en/campus-life/campus-facilities",
+        "https://www.hku.hk/en/campus-life/visit-hku",
+        "https://lead.hku.hk/en/",
+        "https://www.hku.hk/en/news-events/events",
+        "https://www.hku.hk/en/news-events/hku-in-the-media",
+        "https://www.hku.hk/en/prospective-students",
+        "https://www.hku.hk/en/current-students",
+        "https://www.hku.hk/en/parents",
+        "https://www.hku.hk/en/staff",
+        "https://www.alumni.hku.hk",
+        "https://giving.hku.hk/",
+        "https://hkuportal.hku.hk/",
+        "https://web.socsc.hku.hk/",
+        "https://geog.hku.hk/",
+        "https://ppa.hku.hk/",
+        "https://psychology.hku.hk/",
+        "https://web.socialwork.hku.hk/",
+        "https://sociology.hku.hk/",
+        "https://sgp.hku.hk/",
+        "https://hkums.hku.hk/",
+        "https://web.socsc.hku.hk/bachelor-programme-overview/",
+        "https://web.socsc.hku.hk/master-programme-overview/",
+        "https://web.socsc.hku.hk/mphil-phd/",
+        "https://web.socsc.hku.hk/school_news/distinguished-social-sciences-lecture-examines-ambition-and-fatigue-in-contemporary-china/",
+        "https://web.socsc.hku.hk/school_news/hku-research-reveals-unintended-climate-trade-off-clean-air-policies-intensify-urban-heat-island-in-humid-cities/",
+        "https://web.socsc.hku.hk/school_news/hku-and-lse-joint-study-reveals-global-migration-nearly-tripled-since-2000-outpacing-population-growth/",
+        "https://web.socsc.hku.hk/school_news/how-can-the-brain-manage-negative-emotions-in-real-life/",
+        "https://web.socsc.hku.hk/faculty-news/",
+        "https://www.alumni.hku.hk/",
+        "https://www.giving.hku.hk/",
+        "https://lead.hku.hk/",
+        "https://www.hr.hku.hk/career_opportunities/careers.html",
+        "https://www.hku.hk/en/contact-us",
+        "https://apps.apple.com/hk/app/the-university-of-hong-kong/id552371085",
+        "https://play.google.com/store/apps/details?id=hk.hku.its.hkuapp&hl=en",
+        "https://appgallery.huawei.com/app/detail?id=hk.hku.hkuapp",
+        "https://www.keynotes.hku.hk/subscribe/",
+        "https://www.facebook.com/hkuofficial/",
+        "https://twitter.com/HKUniversity",
+        "https://www.linkedin.com/school/universityofhongkong",
+        "https://www.instagram.com/hkuniversity/",
+        "https://www.youtube.com/user/abouthku",
+        "https://weibo.com/1874261175",
+        "https://space.bilibili.com/505052990",
+        "https://www.xiaohongshu.com/user/profile/5f967d110000000001008a03",
+        "https://www.hku.hk/en/web-accessibility",
+        "https://www.hku.hk/en/privacy-policy"
+      ],
+      "listedNames": [
+        "Department of Geography",
+        "Department of Politics and Public Administration",
+        "Department of Psychology",
+        "Department of Social Work and Social Administration",
+        "Department of Sociology",
+        "School of Governance and Policy",
+        "School of Future Media"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-1-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/arts.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/arts.html",
+      "bodySha256": "ea11c32801dad987e2662b5d08c6ad044e4485fec8c8764e3cfb4d291d7d8277",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "十一学系之外，官网另列中国研究中心、英语教学单位和雅礼中国语文研习所；教学与研究单位分开，不把所有条目都叫学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "十一学系之外，官网另列中国研究中心、英语教学单位和雅礼中国语文研习所；教学与研究单位分开，不把所有条目都叫学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "http://www.arts.cuhk.edu.hk/web/en-gb/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=arts",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/arts",
+        "https://www.arts.cuhk.edu.hk/~ant/en/",
+        "http://www.chi.cuhk.edu.hk/",
+        "http://www2.crs.cuhk.edu.hk/",
+        "http://www.eng.cuhk.edu.hk/",
+        "https://www.arts.cuhk.edu.hk/~fadept/",
+        "http://www.history.cuhk.edu.hk/",
+        "https://www.jas.cuhk.edu.hk/en/",
+        "https://ling.cuhk.edu.hk/",
+        "https://www.arts.cuhk.edu.hk/~music/",
+        "http://www.phil.arts.cuhk.edu.hk/",
+        "http://traserver.tra.cuhk.edu.hk/",
+        "http://www.ccs.cuhk.edu.hk",
+        "http://eltu.cuhk.edu.hk/",
+        "http://www.ycclc.cuhk.edu.hk/",
+        "http://www.arts.cuhk.edu.hk/web/research-centres-and-laboratories",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": [
+        "Department of Anthropology",
+        "Department of Chinese Language and Literature",
+        "Department of Cultural and Religious Studies",
+        "Department of English",
+        "Department of Fine Arts",
+        "Department of History",
+        "Department of Japanese Studies",
+        "Department of Linguistics and Modern Languages",
+        "Department of Music",
+        "Department of Philosophy",
+        "Department of Translation",
+        "Centre for China Studies",
+        "English Language Teaching Unit",
+        "Yale-China Chinese Language Academy"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-2-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+      "bodySha256": "cfb3de74f274fca6a51d21e70346a260df40180d70b858c4711d26e917c96b01",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "官网明确列两所School、四个学系，亚太工商研究所另列为Unit。原目录漏列的会计学院需补齐，不把研究所混入六个学术单位。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "官网明确列两所School、四个学系，亚太工商研究所另列为Unit。原目录漏列的会计学院需补齐，不把研究所混入六个学术单位。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "https://mba.cuhk.edu.hk/",
+        "https://www.emba.cuhk.edu.hk/",
+        "http://www.bschool.cuhk.edu.hk/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=ba",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/business-administration",
+        "https://www.bschool.cuhk.edu.hk/departments/accountancy/",
+        "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+        "https://www.bschool.cuhk.edu.hk/departments/finance/",
+        "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+        "https://www.bschool.cuhk.edu.hk/departments/management/",
+        "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+        "http://exed.bschool.cuhk.edu.hk/",
+        "https://www.bschool.cuhk.edu.hk/research-centres/",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "http://www.aacsb.edu/accreditation/",
+        "https://alumni.bschool.cuhk.edu.hk/",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": [
+        "The School of Accountancy",
+        "Department of Decisions, Operations and Technology",
+        "Department of Finance",
+        "School of Hotel and Tourism Management",
+        "Department of Management",
+        "Department of Marketing",
+        "The Asia-Pacific Institute of Business (APIB)"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-3-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/education.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/education.html",
+      "bodySha256": "a8116abdfe7251083312e7ef4af1fe57e1ede49fbada9394e073a3f7b9465208",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "官网列四个学系及体育部。体育部与体育运动科学系是不同单位，不能因名称相近合并。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "官网列四个学系及体育部。体育部与体育运动科学系是不同单位，不能因名称相近合并。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "http://www.fed.cuhk.edu.hk/en/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=edu",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/education",
+        "http://www.fed.cuhk.edu.hk/cri/",
+        "http://www.fed.cuhk.edu.hk/eap/",
+        "http://www.fed.cuhk.edu.hk/eps/",
+        "http://www.cuhk.edu.hk/spe/",
+        "http://www.peu.cuhk.edu.hk/en-gb/",
+        "http://www.fed.cuhk.edu.hk/en/researchcentre.html",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": [
+        "Department of Curriculum and Instruction",
+        "Department of Educational Administration and Policy",
+        "Department of Educational Psychology",
+        "Department of Sports Science and Physical Education",
+        "Physical Education Unit"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-4-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+      "bodySha256": "538e575c1ea4e75445cd3157b437fd9a01b6b03121b2c0e7f6fbcaa7c62a4623",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "六个学系名称已按正文逐项对上；保留官网提供的原HTTP地址。完整人员类别、分页、指导资格及申请条件仍另核。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "六个学系名称已按正文逐项对上；保留官网提供的原HTTP地址。完整人员类别、分页、指导资格及申请条件仍另核。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "http://www.erg.cuhk.edu.hk/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=eng",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/engineering",
+        "http://www.bme.cuhk.edu.hk/",
+        "http://www.cse.cuhk.edu.hk/",
+        "http://www.ee.cuhk.edu.hk/",
+        "http://www.ie.cuhk.edu.hk/",
+        "http://www.mae.cuhk.edu.hk/",
+        "http://www.se.cuhk.edu.hk/",
+        "http://www.erg.cuhk.edu.hk/erg/ResearchUnits",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": [
+        "Department of Biomedical Engineering",
+        "Department of Computer Science and Engineering",
+        "Department of Electronic Engineering",
+        "Department of Information Engineering",
+        "Department of Mechanical and Automation Engineering",
+        "Department of Systems Engineering and Engineering Management"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-5-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/law.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/law.html",
+      "bodySha256": "d6882088f63955e86861ded7329c0507440a7fc331caee75b0d2782fefa269e2",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页提供法学院与研究生课程入口，没有完整内部单位名单。先保留待核，不推断学院没有学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页提供法学院与研究生课程入口，没有完整内部单位名单。先保留待核，不推断学院没有学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "http://www.law.cuhk.edu.hk/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=law",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/law",
+        "http://www.law.cuhk.edu.hk/en/research/areas.php",
+        "http://www.law.cuhk.edu.hk/en/news/list.php",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-cuhk-6-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+      "bodySha256": "a59e03040128dd5733426f2d2d93471457ad38924c0aad32ac69bb4d83a2ace3",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页列十九个学系或School。旧目录中的十七项需要与当前名单逐项对照，补齐护理与公共卫生相关School，同时保留原条目及读取状态。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页列十九个学系或School。旧目录中的十七项需要与当前名单逐项对照，补齐护理与公共卫生相关School，同时保留原条目及读取状态。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "http://www.med.cuhk.edu.hk/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=med",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/medicine",
+        "http://www.cuhk.edu.hk/med/ans/",
+        "http://www.cuhk.edu.hk/med/acp/",
+        "http://www.sbs.cuhk.edu.hk/",
+        "http://www.cpy.cuhk.edu.hk/",
+        "http://www.scm.cuhk.edu.hk/en-gb/",
+        "http://www.clo.cuhk.edu.hk/",
+        "http://www.diir.cuhk.edu.hk/",
+        "http://www.mect.cuhk.edu.hk/",
+        "https://mic.cuhk.edu.hk/",
+        "http://www.nur.cuhk.edu.hk/",
+        "http://www.obg.cuhk.edu.hk/",
+        "http://www.ovs.cuhk.edu.hk/",
+        "http://www.ort.cuhk.edu.hk/",
+        "http://www.ent.cuhk.edu.hk/",
+        "http://www.pae.cuhk.edu.hk/",
+        "http://www.pharmacy.cuhk.edu.hk/",
+        "http://www.psychiatry.cuhk.edu.hk/",
+        "http://www.sphpc.cuhk.edu.hk/",
+        "http://www.surgery.cuhk.edu.hk/",
+        "https://research.med.cuhk.edu.hk/",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "http://www.cuhk.edu.hk/sphpc/cns/",
+        "http://www.jococ.org/en/",
+        "https://www.jccpa.org.hk/en/",
+        "https://www.med.cuhk.edu.hk/map/prince-of-wales-hospital",
+        "http://www.cuhk.edu.hk/med/shhcgg/",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": [
+        "Department of Anaesthesia and Intensive Care",
+        "Department of Anatomical and Cellular Pathology",
+        "School of Biomedical Sciences",
+        "Department of Chemical Pathology",
+        "School of Chinese Medicine",
+        "Department of Clinical Oncology",
+        "Department of Imaging and Interventional Radiology",
+        "Department of Medicine and Therapeutics",
+        "Department of Microbiology",
+        "The Nethersole School of Nursing",
+        "Department of Obstetrics and Gynaecology",
+        "Department of Ophthalmology and Visual Sciences",
+        "Department of Orthopaedics and Traumatology",
+        "Department of Otorhinolaryngology, Head and Neck Surgery",
+        "Department of Paediatrics",
+        "School of Pharmacy",
+        "Department of Psychiatry",
+        "The Jockey Club School of Public Health and Primary Care",
+        "Department of Surgery"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-8-20261029",
+      "url": "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+      "bodySha256": "04e776a453f8302a99507fd587ec52a3e5125b83f6ce311b04341f531f46a6fa",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页列五个学系与三所School；建筑、新闻传播、治理与政策科学保留各自School名称和分类。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页列五个学系与三所School；建筑、新闻传播、治理与政策科学保留各自School名称和分类。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/english/",
+        "http://portal.cuhk.edu.hk/",
+        "http://www.lib.cuhk.edu.hk/en",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html",
+        "https://www.cuhk.edu.hk/english/giving.html",
+        "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+        "https://www.gs.cuhk.edu.hk/admissions/",
+        "http://admission.cuhk.edu.hk/",
+        "https://www.res.cuhk.edu.hk/general-information/almanac/",
+        "https://factsfigures.cuhk.edu.hk/",
+        "http://www.itsc.cuhk.edu.hk/",
+        "https://kto.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/university-publication.html",
+        "https://blackboard.cuhk.edu.hk/",
+        "http://www.res.cuhk.edu.hk/en-gb/",
+        "https://cpdc.osa.cuhk.edu.hk/student/login",
+        "http://www.cuhk.edu.hk/o365",
+        "https://www.itsc.cuhk.edu.hk/en/service-status/",
+        "https://www.cuhk.edu.hk/english/campus/cuhk-campus-map.html",
+        "https://www.hro.cuhk.edu.hk/en-GB/career-opportunities",
+        "https://www.cuhk.edu.hk/english/campus/campus-transportation.html",
+        "https://souvenir.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/university/students.html",
+        "https://www.cuhk.edu.hk/english/university/employment.html",
+        "https://www.cuhk.edu.hk/english/university/cuhk-alumni.html",
+        "https://www.cuhk.edu.hk/english/university/press-release-events.html",
+        "https://www.cuhk.edu.hk/english/university/visitors.html",
+        "https://www.cuhk.edu.hk/english/aboutus/message.html",
+        "https://www.cuhk.edu.hk/english/aboutus/university-intro.html",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-shenzhen.html",
+        "https://www.cuhk.edu.hk/english/aboutus/mission.html",
+        "https://www.cuhk.edu.hk/english/aboutus/governance.html",
+        "https://cuhk2030.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/aboutus/cuhk-external-engagement.html",
+        "https://www.cuhk.edu.hk/english/aboutus/general-education.html",
+        "https://www.cuhk.edu.hk/english/aboutus/enrichment-programmes.html",
+        "http://www.cuhk.edu.hk/ugallery/en/zone-a.html",
+        "https://www.cuhk.edu.hk/english/cuhk-information.html?area=admin-services",
+        "https://cuhk.canto.global/v/CUHKVisuals/?utm_source=cuhk.edu.hk&utm_medium=sitelink&utm_campaign=home",
+        "https://www.cuhk.edu.hk/english/admissions/admissions.html",
+        "http://www.scs.cuhk.edu.hk/en",
+        "http://www.oal.cuhk.edu.hk",
+        "http://www.summer.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/college/system.html",
+        "https://www.cuhk.edu.hk/english/college/info.html",
+        "https://www.cuhk.edu.hk/english/college/chung-chi-college.html",
+        "https://www.cuhk.edu.hk/english/college/new-asia-college.html",
+        "https://www.cuhk.edu.hk/english/college/united-college.html",
+        "https://www.cuhk.edu.hk/english/college/shaw-college.html",
+        "https://www.cuhk.edu.hk/english/college/morningside-college.html",
+        "https://www.cuhk.edu.hk/english/college/shho-college.html",
+        "https://www.cuhk.edu.hk/english/college/c-w-chu-college.html",
+        "https://www.cuhk.edu.hk/english/college/wu-yee-sun-college.html",
+        "https://www.cuhk.edu.hk/english/college/lee-woo-sing-college.html",
+        "https://www.cuhk.edu.hk/english/faculties/faculty-graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/arts.html",
+        "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+        "https://www.cuhk.edu.hk/english/faculties/education.html",
+        "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+        "https://www.cuhk.edu.hk/english/faculties/law.html",
+        "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+        "https://www.cuhk.edu.hk/english/faculties/science.html",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.cuhk.edu.hk/english/faculties/graduate-school.html",
+        "https://www.cuhk.edu.hk/english/faculties/other-academic-units.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-quality.html",
+        "https://www.cuhk.edu.hk/english/teaching/senate-committee.html",
+        "https://www.cuhk.edu.hk/english/teaching/internal-quality-assurance.html",
+        "https://www.cuhk.edu.hk/english/teaching/university-curriculum.html",
+        "https://www.cuhk.edu.hk/english/teaching/cuhk-facilities.html",
+        "https://www.cuhk.edu.hk/english/teaching/teaching-supporting-units.html",
+        "https://www.cuhk.edu.hk/english/research/university-research.html",
+        "https://www.cuhk.edu.hk/english/research/innohk-centres.html",
+        "https://www.cuhk.edu.hk/english/research/cuhk-innovation-limited.html",
+        "https://www.cuhk.edu.hk/english/research/research-resources.html",
+        "https://research.cuhk.edu.hk/",
+        "https://www.cuhk.edu.hk/english/research/research-study.html",
+        "https://www.cuhk.edu.hk/english/research/excellence.html",
+        "https://www.cuhk.edu.hk/english/research/laboratory.html",
+        "https://www.cuhk.edu.hk/english/research/institutes.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/research-units.html",
+        "https://www.cuhk.edu.hk/english/research/institutes/joint-research-units.html",
+        "https://www.cuhk.edu.hk/english/campus/campus.html",
+        "https://www.cuhk.edu.hk/english/campus/sustainable-campus.html",
+        "https://www.cuhk.edu.hk/english/campus/accommodation.html",
+        "https://www.cuhk.edu.hk/english/campus/health-safety.html",
+        "https://www.cuhk.edu.hk/english/campus/campus-regulations.html",
+        "https://www.cuhk.edu.hk/english/index.html",
+        "https://socsc.cuhk.edu.hk/",
+        "http://admission.cuhk.edu.hk/programme-list.html?expand=soc",
+        "https://www.gs.cuhk.edu.hk/admissions/programme/social-science",
+        "http://www.arch.cuhk.edu.hk/",
+        "http://www.econ.cuhk.edu.hk/",
+        "http://www.grm.cuhk.edu.hk/",
+        "https://sgps.cuhk.edu.hk/",
+        "http://www.com.cuhk.edu.hk/",
+        "http://www.psy.cuhk.edu.hk/",
+        "http://www.cuhk.edu.hk/swk/",
+        "https://www.soc.cuhk.edu.hk",
+        "https://socsc.cuhk.edu.hk/research/research-units/",
+        "http://www.iso.cuhk.edu.hk/english/publications/calendar/",
+        "http://www.cuhk.edu.hk/oge/index_e.html",
+        "https://www.facebook.com/CUHKofficial ",
+        "https://www.youtube.com/user/CUHKchannel",
+        "https://www.instagram.com/thechineseuniversityofhongkong/",
+        "https://www.linkedin.com/school/13045 ",
+        "https://twitter.com/cuhkofficial",
+        "https://www.weibo.com/cuhkofficial",
+        "https://www.xiaohongshu.com/user/profile/64f6cdad00000000020110c9?xhsshare=CopyLink&appuid=641b0946000000001201173c&apptime=1695044808",
+        "https://namecard.xiaoyuzhoufm.com/lu7n9",
+        "https://open.spotify.com/show/033gnLlipLQCHYEIh8a9ay?si=0AxDaOxJT76FjvK9eKnMpQ&utm_source=copy-link",
+        "https://www.cuhk.edu.hk/english/contact.html",
+        "https://www.cuhk.edu.hk/english/site-information.html",
+        "https://www.cuhk.edu.hk/english/comment.html",
+        "https://www.cuhk.edu.hk/english/web-accessibility.html",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career-opportunities"
+      ],
+      "listedNames": [
+        "School of Architecture",
+        "Department of Economics",
+        "Department of Geography and Resource Management",
+        "School of Governance and Policy Science",
+        "School of Journalism and Communication",
+        "Department of Psychology",
+        "Department of Social Work",
+        "Department of Sociology"
+      ]
+    },
+    {
+      "id": "college-batch-cuhk-zhizhen-20261029",
+      "url": "https://www.zsims.cuhk.edu.hk/en/",
+      "retrievedUrl": "https://www.zsims.cuhk.edu.hk/en/",
+      "bodySha256": "98931d41a8e69fe3e3d85ac7d28fc09db75cd71c7df5a31c272effe7985eee87",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "首页说明学院设立背景并提供招生及学术导航，没有列出完整下属学系。不能把学术方向或招生导航直接写成学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "首页说明学院设立背景并提供招生及学术导航，没有列出完整下属学系。不能把学术方向或招生导航直接写成学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.zsims.cuhk.edu.hk/",
+        "https://www.zsims.cuhk.edu.hk/tc/",
+        "https://www.zsims.cuhk.edu.hk/en/#TOP",
+        "https://www.zsims.cuhk.edu.hk/en/?Home___About_us",
+        "https://www.zsims.cuhk.edu.hk/en/?Home___Admission",
+        "https://www.zsims.cuhk.edu.hk/en/?Home___Academics",
+        "https://www.zsims.cuhk.edu.hk/en/?Home___Important_Dates",
+        "https://www.zsims.cuhk.edu.hk/en/?Home___Scholarships",
+        "https://www.zsims.cuhk.edu.hk/en/?Home___Contact",
+        "https://www.zsims.cuhk.edu.hk/en/",
+        "https://www.zsims.cuhk.edu.hk/en/?sitemap",
+        "https://www.zsims.cuhk.edu.hk/en/#tplge_menuAnchor",
+        "https://www.zsims.cuhk.edu.hk/en/#tplge_newsAnchor",
+        "https://www.zsims.cuhk.edu.hk/en/#top"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hkust-2-20261029",
+      "url": "https://seng.hkust.edu.hk/",
+      "retrievedUrl": "https://seng.hkust.edu.hk/",
+      "bodySha256": "eb8f032210471fed758d68183acf6ef57c8007e4ead1f286d4e704ad1f8e544f",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "正式架构页列七个学系，另列六个中心或支持单位；两类分开。材料系保留在七系中，不能把十三条入口都当学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "正式架构页列七个学系，另列六个中心或支持单位；两类分开。材料系保留在七系中，不能把十三条入口都当学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://seng.hkust.edu.hk/#main-content",
+        "https://hkust.edu.hk/news",
+        "https://hkust.edu.hk/academics/list",
+        "https://hkust.edu.hk/lifehkust",
+        "http://library.ust.hk",
+        "https://hkust.edu.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://researchportal.hkust.edu.hk/en/organisations/school-of-engineering/persons/",
+        "https://hkust.edu.hk/about-hkust",
+        "https://www.facebook.com/hkustengineering",
+        "https://www.instagram.com/hkustengineering",
+        "https://www.linkedin.com/school/hkustengineering",
+        "https://www.youtube.com/user/sengpr",
+        "https://seng.hkust.edu.hk/sites/default/files/menu_icons/SENG_WeChat_QR_code.jpg",
+        "https://seng.hkust.edu.hk/prospective-students",
+        "https://seng.hkust.edu.hk/current-students",
+        "https://seng.hkust.edu.hk/alumni",
+        "https://seng.hkust.edu.hk/faculty-and-staff",
+        "https://seng.hkust.edu.hk/media",
+        "https://seng.hkust.edu.hk/",
+        "https://seng.hkust.edu.hk/zh-hant",
+        "https://seng.hkust.edu.hk/zh-hans",
+        "https://www.ust.hk",
+        "https://seng.hkust.edu.hk/academics/undergraduate",
+        "https://seng.hkust.edu.hk/academics/research-postgraduate",
+        "https://seng.hkust.edu.hk/academics/taught-postgraduate",
+        "https://sengexe.hkust.edu.hk/",
+        "https://ace.hkust.edu.hk/en",
+        "https://seng.hkust.edu.hk/faculty-and-research",
+        "https://seng.hkust.edu.hk/about/people/faculty",
+        "https://cbe.hkust.edu.hk/faculty",
+        "https://ce.hkust.edu.hk/people_list",
+        "https://cse.hkust.edu.hk/admin/people/faculty/",
+        "https://ece.hkust.edu.hk/people_list",
+        "https://ieda.ust.hk/eng/faculty.php?catid=5&sid=15",
+        "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+        "https://seng.hkust.edu.hk/faculty-recruitment",
+        "https://seng.hkust.edu.hk/faculty-and-research#strategic-research-areas",
+        "https://seng.hkust.edu.hk/faculty-and-research/research-infrastructure",
+        "https://seng.hkust.edu.hk/news",
+        "https://seng.hkust.edu.hk/news/listing?field_tailored_news_category=All",
+        "https://seng.hkust.edu.hk/feature-stories",
+        "https://seng.hkust.edu.hk/press-releases",
+        "https://seng.hkust.edu.hk/news/in-the-media",
+        "https://seng.hkust.edu.hk/news-and-media/publications",
+        "https://calendar.hkust.edu.hk/organizers/seng",
+        "https://seng.hkust.edu.hk/about/hkustengineering",
+        "https://seng.hkust.edu.hk/about/advisory-committee",
+        "https://seng.hkust.edu.hk/about/committees",
+        "https://seng.hkust.edu.hk/about/industry-engagement",
+        "https://seng.hkust.edu.hk/about/mission-and-vision",
+        "https://seng.hkust.edu.hk/about/meet-the-dean",
+        "https://seng.hkust.edu.hk/about/leadership",
+        "https://seng.hkust.edu.hk/about/departments-and-centers",
+        "https://seng.hkust.edu.hk/about/milestones",
+        "https://seng.hkust.edu.hk/about/rankings",
+        "https://seng.hkust.edu.hk/about/facts-and-figures",
+        "https://seng.hkust.edu.hk/about/awards/university-recognition",
+        "https://hkust.edu.hk/awards/all?keyword=Engineering",
+        "https://seng.hkust.edu.hk/about/awards/seng-research-excellence",
+        "https://seng.hkust.edu.hk/about/awards/seng-teaching-excellence",
+        "https://seng.hkust.edu.hk/about/our-People/admin-staff",
+        "https://seng.hkust.edu.hk/about/our-People/engineering-student-ambassadors",
+        "https://e2i.hkust.edu.hk/peer-mentoring-program",
+        "https://seng.hkust.edu.hk/about/entrepreneurship",
+        "https://hkustcareers.ust.hk/home",
+        "https://seng.hkust.edu.hk/about/contact",
+        "https://seng.hkust.edu.hk/sites/default/files/2026-10/Timetable_V2026_web_0.pdf",
+        "https://seng.hkust.edu.hk/alumni/distinguished-engineering-alumni-awards-2027",
+        "https://seng.hkust.edu.hk/news/20260721/prof-gao-yangs-high-flying-mission-advance-space-exploration",
+        "https://seng.hkust.edu.hk/news/20260708/hkust-secures-largest-share-rgc-strategic-topics-grant-drive-innovation-elderly-healthcare",
+        "https://seng.hkust.edu.hk/news/20260615/hkust-develops-worlds-first-ai-slide-free-pathology-imaging-system",
+        "https://risingstarsasia.org/",
+        "https://seng.hkust.edu.hk/news/20261023/hkust-engineering-develops-dynamic-integrated-interface-engineering-lithium-metal-batteries",
+        "https://seng.hkust.edu.hk/news/20261016/hkust-engineering-develops-embodied-robotic-arm-emarm-human-touch-sensing",
+        "https://seng.hkust.edu.hk/news/20261005/hkust-engineering-develops-self-sustaining-seawater-hydrogen-system",
+        "https://seng.hkust.edu.hk/news/20260930/hkust-engineering-develops-novel-cartilage-inspired-polymer-nanocoating-substantially-extend-battery-lifespan",
+        "https://seng.hkust.edu.hk/news/20260924/hkust-engineering-develops-breakthrough-liquid-metal-smart-patch-clinical-grade-home-cardiorespiratory-monitoring",
+        "https://seng.hkust.edu.hk/news/20260918/hkust-engineering-unveils-worlds-first-zero-degradation-elastocaloric-cooling-device-revolutionize-sustainable-refrigeration-technology",
+        "https://seng.hkust.edu.hk/news/20260918/hkust-engineering-develops-optimization-framework-autonomous-materials-experimentation-platforms",
+        "https://seng.hkust.edu.hk/news/20260901/hkust-engineering-charts-roadmap-agentic-7g-ai-powered-wireless-networks",
+        "https://seng.hkust.edu.hk/news/20260831/hkust-engineering-develops-one-pot-30-minute-high-sensitivity-home-testing",
+        "https://seng.hkust.edu.hk/news/20260827/hkust-engineering-study-reveals-inter-city-collaboration-emission-reduction-boosts-sustainability-performance",
+        "https://seng.hkust.edu.hk/news/20260804/hkust-engineering-pioneers-novel-water-purification-technology-selective-pollutant-polymerization",
+        "https://seng.hkust.edu.hk/news/20260730/hkust-develops-novel-ai-framework-enabling-efficient-collaboration-between-generalist-and-specialist-models-disease-diagnosis",
+        "https://seng.hkust.edu.hk/news/20260721/hkust-engineering-develops-ultra-robust-acoustic-chip-technology-advance-6g-and-satellite-communications",
+        "https://seng.hkust.edu.hk/news/20260717/hkust-engineering-improves-solar-cell-performance-and-durability-through-molecular-interface-engineering",
+        "https://seng.hkust.edu.hk/news/20260626/hkust-engineering-researchers-develop-genai-framework-misalignment-resistant-virtual-staining-accelerate-histopathology-workflows",
+        "https://seng.hkust.edu.hk/news/20260922/next-teaching-move-guiding-learners-ai-age",
+        "https://seng.hkust.edu.hk/news/20250401/igniting-innovation-and-entrepreneurship",
+        "https://seng.hkust.edu.hk/news/20240926/less-more-saving-manpower-traffic-control-while-improving-road-efficiency",
+        "https://seng.hkust.edu.hk/academics/undergraduate/exchange/inbound",
+        "https://pg.ust.hk/prospective-students/programs/short-term-study/pg-visiting-internship-students",
+        "https://seng.hkust.edu.hk/community-and-outreach",
+        "https://sfao.ust.hk/",
+        "https://counsel.ust.hk/",
+        "https://cbe.hkust.edu.hk/",
+        "http://www.ce.ust.hk",
+        "https://cse.hkust.edu.hk/",
+        "https://ece.hkust.edu.hk",
+        "https://ieda.ust.hk",
+        "https://mae.hkust.edu.hk",
+        "https://counsel.hkust.edu.hk/",
+        "https://cbe.ust.hk",
+        "https://www.cse.ust.hk",
+        "https://www.mae.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://seng.hkust.edu.hk/media#lpm02-13",
+        "https://library.ust.hk/",
+        "https://hkust.edu.hk/department",
+        "https://www.web-accessibility.hk/",
+        "https://seng.hkust.edu.hk/accessibility",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://seng.hkust.edu.hk/sitemap",
+        "https://mtpc.hkust.edu.hk/"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hkust-4-20261029",
+      "url": "https://shss.hkust.edu.hk/",
+      "retrievedUrl": "https://shss.hkust.edu.hk/",
+      "bodySha256": "aa5588f7798df462efb3849a5364616b3ca8bbde1cb7062411a00c755da9a9d2",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "首页列人文学部、社会科学部，另有语文教育中心及三个研究中心。研究中心不与两个学部混算。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "首页列人文学部、社会科学部，另有语文教育中心及三个研究中心。研究中心不与两个学部混算。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://shss.hkust.edu.hk/#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://shss.hkust.edu.hk/",
+        "https://shss.hkust.edu.hk/school/deans-welcome",
+        "https://shss.hkust.edu.hk/research/index",
+        "https://shss.hkust.edu.hk/research/awards_honors",
+        "https://shss.hkust.edu.hk/school/admin",
+        "https://shss.hkust.edu.hk/school/honorary_advisor",
+        "https://shss.hkust.edu.hk/teaching_learning/index",
+        "https://shss.hkust.edu.hk/teaching_learning/teaching_award",
+        "https://shss.hkust.edu.hk/teaching_learning/scholar",
+        "https://shss.hkust.edu.hk/school/school_advisory-committee",
+        "https://shss.hkust.edu.hk/general/contact",
+        "https://shss.hkust.edu.hk/ug",
+        "https://shss.hkust.edu.hk/ug/major/gcs",
+        "https://shss.hkust.edu.hk/ug/major/qsa",
+        "http://uce.ust.hk/",
+        "https://shss.hkust.edu.hk/global_experience/index",
+        "https://shss.hkust.edu.hk/ug/internship",
+        "https://shss.hkust.edu.hk/career_development/home",
+        "https://huma.hkust.edu.hk/teaching/pg/mphil",
+        "https://sosc.hkust.edu.hk/teaching_learning/mphil_social_science/",
+        "https://huma.hkust.edu.hk/teaching/pg/phd",
+        "https://sosc.hkust.edu.hk/teaching_learning/phd_social_science/",
+        "https://shss.hkust.edu.hk/tpg",
+        "https://shss.hkust.edu.hk/tpg/ccma/index",
+        "https://shss.hkust.edu.hk/tpg/maile/index",
+        "https://shss.hkust.edu.hk/tpg/mass/index",
+        "https://shss.hkust.edu.hk/tpg/mgcs/index",
+        "https://shss.hkust.edu.hk/global_experience/exchange_in",
+        "https://shss.hkust.edu.hk/global_experience/exchange_in_overview",
+        "https://shss.hkust.edu.hk/global_experience/exchange_out",
+        "https://shss.hkust.edu.hk/global_experience/faculty_program",
+        "https://shss.hkust.edu.hk/global_experience/faculty_visiting_scholar_program",
+        "https://shss.hkust.edu.hk/global_experience/dual-bachelors-degree",
+        "https://shss.hkust.edu.hk/global_experience/international_alliance",
+        "https://shss.hkust.edu.hk/divisions/index",
+        "https://shss.hkust.edu.hk/divisions/social_science",
+        "https://cle.hkust.edu.hk",
+        "https://ccl.hkust.edu.hk",
+        "https://schina.hkust.edu.hk",
+        "https://globalchinacenter.hkust.edu.hk/",
+        "https://shss.hkust.edu.hk/research/awards_grants",
+        "https://shss.hkust.edu.hk/research/awards_student_awards",
+        "https://shss.hkust.edu.hk/publications",
+        "https://shss.hkust.edu.hk/music_arts/index",
+        "https://shss.hkust.edu.hk/music_arts/people",
+        "https://cosmopolisfestival.hkust.edu.hk/",
+        "https://samusical.hkust.edu.hk/",
+        "https://creativewriting.hkust.edu.hk/",
+        "https://shss.hkust.edu.hk/news",
+        "https://shss.hkust.edu.hk/events",
+        "https://shss.hkust.edu.hk/school/newsletters",
+        "https://shss.hkust.edu.hk/public_media/index",
+        "https://shss.hkust.edu.hk/video_gallery",
+        "https://www.ust.hk",
+        "https://shss.hkust.edu.hk/news/prof-ping-li-has-been-appointed-honorary-professor-nanjing-drum-tower-hospital-affiliated",
+        "https://shss.hkust.edu.hk/news/category/news",
+        "https://shss.hkust.edu.hk/news/record-year-shss-six-faculty-members-named-2026-stanfordelsevier-top-2-scientists-list",
+        "https://shss.hkust.edu.hk/news/hkust-literary-award",
+        "https://shss.hkust.edu.hk/news/prof-stuart-gietel-basten-was-interviewed-phoenix-weekly-about-japans-ageing-society",
+        "https://shss.hkust.edu.hk/news/prof-ping-li-received-distinguished-scientific-research-output-award-humanities-and-social",
+        "https://shss.hkust.edu.hk/news/prof-lawrence-zhang-was-interviewed-current-digest-chinese-press",
+        "https://shss.hkust.edu.hk/news/preview-prof-yan-liankes-new-memoir-women-paris-review",
+        "https://shss.hkust.edu.hk/news/prof-jenny-hung-was-interviewed-buddhistdoor-fumenwang",
+        "https://shss.hkust.edu.hk/news/hkust-student-reaches-grand-final-international-public-speaking-competition",
+        "https://shss.hkust.edu.hk/news/wu-hung-yu-long-boundary-resonance-explores-art-music-and-creativity-age-ai",
+        "https://shss.hkust.edu.hk/news/shss-student-awarded-hkust-academic-achievement-medal-2026",
+        "https://shss.hkust.edu.hk/news/huma-phd-student-mr-chui-yin-tos-psycholinguistic-work-has-been-funded-language-learning",
+        "https://shss.hkust.edu.hk/events/rethinking-human-age-ai-perspectives-europe-and-sinophone-world",
+        "https://shss.hkust.edu.hk/events/hong-kong-film-archive-stories-treasure-hunting-25-years",
+        "https://shss.hkust.edu.hk/events/xiashangwenhuatansuodewentidian-key-issues-exploring-xia-shang-culture",
+        "https://shss.hkust.edu.hk/events/inaugural-shss-distinguished-lecture-series-methodology-novelty-corpus-linguistic-approach",
+        "https://shss.hkust.edu.hk/events/huma-seminar-antecedents-century-humiliation-shifting-western-and-japanese-views-mid-qing",
+        "https://shss.hkust.edu.hk/events/sosc-seminar-episodic-disembedding-parachute-lawyers-and-local-justice-china",
+        "https://shss.hkust.edu.hk/events/rengongzhinengshidaiyuyanjiaoyuzhedeshuzisuyangyuchuangxinyanjiu-digital-literacy-and",
+        "https://shss.hkust.edu.hk/events/sosc-seminar-fat-face-illusion-how-spatial-context-shapes-face-perception",
+        "https://shss.hkust.edu.hk/events/easy-hard-redistribution-adaptation-chinas-welfare-state-21st-century",
+        "https://shss.hkust.edu.hk/events/discovering-shangdi-huaxia",
+        "https://shss.hkust.edu.hk/events/empowering-l2-learners-genai-insights-motivation-and-ai-literacy-six-hong-kong-universities",
+        "https://shss.hkust.edu.hk/events/3d-spatial-vision-technology-and-its-cultural-applications",
+        "https://hkustprovost.hkust.edu.hk/star-faculty-professor-jin-wang",
+        "https://hkustprovost.hkust.edu.hk/star-faculty-professor-xiaolu-ma",
+        "https://shss.hkust.edu.hk/news/psymatters-2026",
+        "https://www.youtube.com/watch?v=JRsTpel--Wg",
+        "https://shss.hkust.edu.hk/node/1063",
+        "https://videochannel.ust.hk/watch?video=FF7FE2B08CBDF91E",
+        "https://videochannel.ust.hk/Watch?video=455AD917EC68CE8C",
+        "https://www.youtube.com/watch?v=VC5r4eZgfnU",
+        "https://www.youtube.com/watch?v=63VLgM6Sgv8",
+        "https://shss.hkust.edu.hk/blog/media/%E8%A7%80%E5%8F%A4%E8%AD%98%E4%BB%8A-%E6%AD%B7%E4%BB%A3%E5%8D%B0%E7%AB%A0%E5%8F%8A%E5%8D%B0%E8%AD%9C%E5%B1%95",
+        "https://shss.hkust.edu.hk/blog/media/%E6%8B%93%E9%82%8A%E6%AC%BE%E5%8F%8A%E9%88%90%E5%8D%B0%E7%A4%BA%E7%AF%84%E8%AC%9B%E5%BA%A7",
+        "https://huma.ust.hk/",
+        "https://sosc.hkust.edu.hk/",
+        "https://cle.hkust.edu.hk/",
+        "https://ccl.ust.hk",
+        "https://schina.hkust.edu.hk/",
+        "https://shss.hkust.edu.hk/prospective_students/index",
+        "https://shss.hkust.edu.hk/current_students/index",
+        "https://shss.hkust.edu.hk/alumni/index",
+        "https://hkustcareers.ust.hk/",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://shss.hkust.edu.hk/sitemap",
+        "https://www.facebook.com/hkust.shss",
+        "https://twitter.com/shsshkust",
+        "https://www.weibo.com/shsshkust",
+        "https://www.instagram.com/hkust",
+        "https://www.linkedin.com/school/hkust/",
+        "https://www.youtube.com/user/hkust"
+      ],
+      "listedNames": [
+        "Division of Humanities",
+        "Division of Social Science",
+        "Center for Language Education",
+        "Center for Chinese Linguistics",
+        "The South China Research Center",
+        "The Global China Center"
+      ]
+    },
+    {
+      "id": "college-batch-hkust-5-20261029",
+      "url": "https://medicine.hkust.edu.hk/",
+      "retrievedUrl": "https://medicine.hkust.edu.hk/",
+      "bodySha256": "bb47f2f2286048dcc6cd19649ecfa5706e5f1f041adb618399bb2139cdc45b01",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "首页和常见问题主要说明拟办医学教育及学士后入学MBBS。研究主题不等于已设学系，学士后入学也不等于研究型硕博招生。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "首页和常见问题主要说明拟办医学教育及学士后入学MBBS。研究主题不等于已设学系，学士后入学也不等于研究型硕博招生。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://medicine.hkust.edu.hk/",
+        "https://medicine.hkust.edu.hk/index.html",
+        "https://medicine.hkust.edu.hk/admissions.html",
+        "https://medicine.hkust.edu.hk/curriculum.html",
+        "https://medicine.hkust.edu.hk/faculty.html",
+        "https://medicine.hkust.edu.hk/facilities.html",
+        "https://hkust.edu.hk/news/listing",
+        "https://hkust.edu.hk/directory/academic-departments",
+        "https://hkust.edu.hk/life-ust",
+        "https://library.hkust.edu.hk/",
+        "https://hkust.edu.hk/visit",
+        "https://hkustcareers.hkust.edu.hk/",
+        "https://facultyprofiles.hkust.edu.hk/",
+        "https://hkust.edu.hk/about",
+        "https://www.mchk.org.hk/e_index.html",
+        "https://www.ha.org.hk/visitor/ha_index.asp",
+        "https://students-residents.aamc.org/about-mcat-exam/about-mcat-exam",
+        "https://gamsat.acer.org/",
+        "https://hkust.edu.hk/",
+        "https://dataprivacy.hkust.edu.hk/university-data-privacy-policy-statement/",
+        "https://www.facebook.com/hkust/",
+        "https://www.instagram.com/hkust",
+        "https://www.linkedin.com/school/hkust/?originalSubdomain=hk",
+        "https://www.youtube.com/HKUST",
+        "https://caringcompany.org.hk/en/",
+        "https://alum.hkust.edu.hk/sitemap",
+        "https://medicine.hkust.edu.hk/#Page-Top"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-1-20261029",
+      "url": "https://www.polyu.edu.hk/fb/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fb/",
+      "bodySha256": "a5c98edff871a3c7d3e149f0aef0636d51db19a99ef4fddfd0bda9c3bba3b683",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "本页列会计及金融学院、物流及航运学系、管理及市场学系；课程、研究新闻和专业博士不当作新增学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "本页列会计及金融学院、物流及航运学系、管理及市场学系；课程、研究新闻和专业博士不当作新增学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fb/#skip-start",
+        "https://www.polyu.edu.hk/fb/",
+        "https://www.polyu.edu.hk/af",
+        "https://www.polyu.edu.hk/lms",
+        "https://www.polyu.edu.hk/mm",
+        "https://www.polyu.edu.hk/fb/study/ug/",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/",
+        "https://www.polyu.edu.hk/fb/study/rpg/",
+        "https://www51.polyu.edu.hk/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fb/study/",
+        "https://www.polyu.edu.hk/fb/study/ug/bba-schemes/",
+        "https://www.polyu.edu.hk/fb/study/ug/minor/",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/scholarships-and-awards/ideas/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/scholarships-and-awards/fb-outstanding-hkdse-students-entry-scholarship/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/scholarships-and-awards/programme-based-scholarships/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/scholarships-and-awards/dean-list/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/student-exchange/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/fb-academy/",
+        "https://www.polyu.edu.hk/fb/experience-opportunities/business-club/",
+        "https://www.polyu.edu.hk/fb/research/",
+        "https://www.polyu.edu.hk/fb/research/#research_areas",
+        "https://www.polyu.edu.hk/fb/research/centres/",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/achievements/",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-grants/",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/",
+        "https://www.polyu.edu.hk/fb/research/knowledge-transfer-forum/",
+        "https://www.polyu.edu.hk/fb/news-events/media/",
+        "https://www.polyu.edu.hk/fb/news-events/photo-gallery/",
+        "https://www.polyu.edu.hk/fb/news-events/news/",
+        "https://www.polyu.edu.hk/fb/news-events/event/",
+        "https://www.polyu.edu.hk/fb/news-events/video-gallery/",
+        "https://www.polyu.edu.hk/fb/publications/fb-magazine/",
+        "https://www.polyu.edu.hk/fb/publications/e-bulletins/",
+        "https://www.polyu.edu.hk/fb/publications/programme-brochures/",
+        "https://www.polyu.edu.hk/fb/people/management-team/",
+        "https://www.polyu.edu.hk/fb/people/administrative-staff/",
+        "https://www.polyu.edu.hk/fb/people/alumni/",
+        "https://www.polyu.edu.hk/fb/people/alumni/alumni-stories/",
+        "https://www.polyu.edu.hk/fb/people/alumni/alumni-profile/",
+        "https://www.polyu.edu.hk/fb/people/alumni/giving/",
+        "https://www.polyu.edu.hk/fb/about/dean-message/",
+        "https://www.polyu.edu.hk/fb/about/faculty/",
+        "https://www.polyu.edu.hk/fb/about/faculty/#ranking",
+        "https://www.polyu.edu.hk/fb/about/faculty/#structure",
+        "https://www.polyu.edu.hk/fb/about/contact-us/",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/dba/admissions/#application",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/dba_cn/admissions/#application",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/dbai/admissions/#application",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/dbm/admissions/#application",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/dfintech/admissions/#application",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/awm/admissions/#application",
+        "https://www.polyu.edu.hk/fb/study/tpg-landing/tpg/bm/admissions/#application",
+        "https://www.polyu.edu.hk/fb/news-events/news/2026/31072026/",
+        "https://www.polyu.edu.hk/fb/news-events/news/2026/08102026/",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#articles",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-1",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-2",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-3",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-4",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-5",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-6",
+        "https://www.polyu.edu.hk/fb/research/research-excellence/research-highlights/#collapse-7",
+        "https://www.polyu.edu.hk/lms/-/media/department/lms/content/research/research-rankings/top-shipping-school-research-rankings/shipping-school-ranking-23-25.pdf",
+        "https://www.shanghairanking.com/rankings/gras/2026/AS0511",
+        "https://www.timeshighereducation.com/world-university-rankings/2026/subject-ranking/business-and-economics",
+        "https://jsom.utdallas.edu/the-utd-top-100-business-school-research-rankings/worldRankings#20212025",
+        "https://www.polyu.edu.hk/fb/news-events/news/2026/01092026/",
+        "https://www.polyu.edu.hk/fb/news-events/news/2026/02072026_tpg_apply/",
+        "https://www.polyu.edu.hk/fb/news-events/news/2026/18052026/",
+        "https://www.polyu.edu.hk/fb/news-events/event/2026/10/cic_summit/",
+        "https://www.polyu.edu.hk/fb/news-events/event/2026/11/star-forum/",
+        "https://www.polyu.edu.hk/fb/news-events/event/2026/11/sysbs-hbixpbs_competition/",
+        "https://www.polyu.edu.hk/fb/news-events/event/2026/11/rpg_infosem/",
+        "https://www.youtube.com/embed/-DJS1QABpT4",
+        "https://www.youtube.com/embed/_62BoS0Oa0Y",
+        "https://www.youtube.com/embed/zlwZFVDuLf8",
+        "https://www.youtube.com/embed/6xZ3ch12_TU",
+        "https://www.youtube.com/embed/n9-mOpichaY",
+        "https://www.youtube.com/embed/pBUA_ioh1ZQ",
+        "https://www.youtube.com/embed/0D8tfbCqJ4s",
+        "https://www.youtube.com/embed/zbfoJQlrMug",
+        "https://www.youtube.com/embed/FOI8r3u5qaQ",
+        "https://www.youtube.com/embed/1DMh3fjTWSY",
+        "https://www.youtube.com/embed/leEQPR4w1Fs",
+        "https://www.youtube.com/embed/M23q7mummss",
+        "https://www.youtube.com/embed/py_hbXrgZtE",
+        "https://www.youtube.com/embed/5YClGnpYF3M",
+        "https://www.youtube.com/embed/yA_A-In2eZA",
+        "http://www.polyu.edu.hk/study",
+        "https://www.polyu.edu.hk/en/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/fb/pics/",
+        "https://www.polyu.edu.hk/fb/copyright/",
+        "https://www.polyu.edu.hk/fb/sitemap/",
+        "https://www.facebook.com/PolyU.B.School",
+        "https://www.youtube.com/user/PolyUFB",
+        "https://www.instagram.com/pbs_polyu/",
+        "https://www.linkedin.com/company/faculty-of-business-the-hong-kong-polytechnic-university",
+        "https://twitter.com/PolyU_FB",
+        "https://weibo.com/u/7632792174",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fb/search-result/?q=Exchange",
+        "https://www.polyu.edu.hk/fb/search-result/?q=Scholarships",
+        "https://www.polyu.edu.hk/fb/search-result/?q=Knowledge Transfer",
+        "https://www.polyu.edu.hk/fb/search-result/?q=Research",
+        "https://www.polyu.edu.hk/fb/search-result/?q=Seminar",
+        "https://www.polyu.edu.hk/fb/search-result/?q=Webinar"
+      ],
+      "listedNames": [
+        "School of Accounting and Finance",
+        "Department of Logistics and Maritime Studies",
+        "Department of Management and Marketing"
+      ]
+    },
+    {
+      "id": "college-batch-polyu-2-20261029",
+      "url": "https://www.polyu.edu.hk/fcms/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fcms/",
+      "bodySha256": "4dc6f16ca41cb11e3d434d6e7aaf9ee6eadf37a416df7a9761bb725d3b1c23b3",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "正式Departments页列应用数学、计算学、数据科学及人工智能三系。同名导航有些指向活动或研究项目，要使用相应学系主入口。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "正式Departments页列应用数学、计算学、数据科学及人工智能三系。同名导航有些指向活动或研究项目，要使用相应学系主入口。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fcms/#skip-start",
+        "https://www.polyu.edu.hk/fcms/",
+        "https://www.polyu.edu.hk/fcms/intranet/current_students/student_intranet/",
+        "https://www.polyu.edu.hk/fcms/intranet/fcms_staff/staff_intranet/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/message-from-the-dean/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/vision-and-mission/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/world-rankings/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/departments/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/people/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/contact-us/",
+        "https://www.polyu.edu.hk/fcms/study/",
+        "https://www.polyu.edu.hk/fcms/study/ug/",
+        "https://www.polyu.edu.hk/fcms/study/tpg/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/prospective-students/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/current-students/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/news/",
+        "https://www.polyu.edu.hk/fcms/study/programme-leaflets/",
+        "https://www.polyu.edu.hk/fcms/experiential-learning-and-enrichment/non-local-learning-experience/",
+        "https://www.polyu.edu.hk/fcms/experiential-learning-and-enrichment/sponsorship/",
+        "https://www.polyu.edu.hk/ama/research-and-consultancy/research-outcomes/research-projects/",
+        "https://www.polyu.edu.hk/comp/research/external-research-grants/",
+        "https://www.polyu.edu.hk/dsai/research/research-projects/",
+        "https://www.polyu.edu.hk/fcms/research/laboratories-and-research-centres/",
+        "https://www.polyu.edu.hk/fcms/research/research-areas/",
+        "https://www.polyu.edu.hk/fcms/research/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis-2025/",
+        "https://www.polyu.edu.hk/fcms/research/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis-2026/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/staff/staff-awards-and-achievements/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/students/student-award/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/students/deans-honours-list/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/alumni/outstanding-alumni-award-2025/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/alumni/outstanding-alumni-award-of-polyu-faculty-of-computer-and-mathematical-sciences-fcms-2026/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/fcms-in-the-media/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/competition/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/fcms-ideation-funding-scheme/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/",
+        "https://www.polyu.edu.hk/ama/news-and-events/events/",
+        "https://www.polyu.edu.hk/comp/news-and-events/event/",
+        "https://www.polyu.edu.hk/dsai/news-and-events/events/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20261022_44-fcms-scholars/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20260917_top-in-hong-kong-again-in-ai-and-mathematics/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20260921_mou/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20260924_phd-graduate-won-polyu-phd-thesis-award-2026---outstanding-stem-category/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20260911_prof-daniel-luo-appointed-as-supervisor-for-the-hong-kong-scholars-program-2026/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20260909_prof-ajay-kumar-honoured-with-the-prestigious-2026-ieee-biometrics-council-leadership-award/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/2026/20260905_doctor-of-artificial-intelligence-dai-orientation/",
+        "https://www.youtube.com/embed/cHXzGD_U8ls?si=PDTkSEYgrGVQdINw\" title=\"YouTube video player\" frameborder=\"0\" ",
+        "https://www.youtube.com/embed/f-L1JHwwkbU?si=VGB5ubgXPHJVF-lE\" title=\"YouTube video player\" frameborder=\"0\" ",
+        "https://www.youtube.com/embed/tK-U-sa-agc?si=t13By0__F9w-CXsC\" title=\"YouTube video player\" frameborder=\"0\" ",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/2026/1/20261010_info-day-2026/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/2026/1/20260902_huawei-2027---polyu-campus-recruitment-talk-for-fcms-students/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/2026/1/20260704_polyu-young-minds-in-computer-and-mathematical-sciences-competition-2026-final-round/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/2026/1/polyu-young-minds-in-computer-and-mathematical-sciences-competition-2026-preliminary-round/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/2026/1/20260609_three-minute-thesis-competition-faculty-of-computer-and-mathematical-sciences/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/2026/1/jupas-admissions-qa-2026/",
+        "https://www.polyu.edu.hk/fcms/study/ug/cms/",
+        "https://www.polyu.edu.hk/ama/study/ug/amfa/",
+        "https://www.polyu.edu.hk/comp/study/ug-programmes/scheme-in-computing-and-ai/",
+        "https://www.polyu.edu.hk/dsai/study/ug/prospective-students/bsc-scheme-in-data-science-and-artificial-intelligence/",
+        "http://www.polyu.edu.hk/ama",
+        "http://www.polyu.edu.hk/comp",
+        "http://www.polyu.edu.hk/dsai",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fcms/sitemap/",
+        "https://www.facebook.com/profile.php?id=61578338503765",
+        "https://www.youtube.com/@HKPolyUFCMS",
+        "https://www.instagram.com/polyufcms/",
+        "https://www.linkedin.com/company/polyu-fcms/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-3-20261029",
+      "url": "https://www.polyu.edu.hk/fce/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fce/",
+      "bodySha256": "964168e5564dfc584f6095c38f8547a418090d2d51c363fbb5f55a6d7740e7da",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "正式架构页列五个学系，保留建筑、建筑环境及能源、土木及环境、建造管理及智能、土地测量及地理空间科学的当前名称。新旧网址分别记录，不猜重定向。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "正式架构页列五个学系，保留建筑、建筑环境及能源、土木及环境、建造管理及智能、土地测量及地理空间科学的当前名称。新旧网址分别记录，不猜重定向。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fce/#skip-start",
+        "https://www.polyu.edu.hk/fce/",
+        "https://www2.polyu.edu.hk/fce/Staff_internal/intranet/",
+        "https://www2.polyu.edu.hk/fce/student-internal/intranet/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fce/study/why-fce/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/non-jupas-applicants-year-1/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/non-jupas-applicants-senior-year/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/mainland-students/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/student-experiences/",
+        "https://www.polyu.edu.hk/fce/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/fce/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fce/study/programme-prospectus/",
+        "http://www51.polyu.edu.hk/eprospectus/",
+        "https://www.polyu.edu.hk/fce/scholarships-and-awards/",
+        "https://www.polyu.edu.hk/fce/research/research-focuses/",
+        "https://www.polyu.edu.hk/fce/research/focus-research-areas-of-departments/",
+        "https://www.polyu.edu.hk/fce/research/research-impacts/",
+        "https://www.polyu.edu.hk/fce/research/research-impacts/fce-impact-case-studies/",
+        "https://www.polyu.edu.hk/fce/research/chinese-national-engineering-research-centres/",
+        "https://www.polyu.edu.hk/fce/research/research-centres/",
+        "https://www.polyu.edu.hk/fce/research/university-research-facility-in-chemical-and-environmental-analysis/",
+        "https://www.polyu.edu.hk/fce/research/fce-research-brochure/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/fce-impact-case-studies/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/patents/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/awards/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/funded-projects-with-industry-partners/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/start-ups/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/",
+        "https://www.polyu.edu.hk/fce/news-and-events/fce-in-the-media/",
+        "https://www.polyu.edu.hk/fce/news-and-events/events/",
+        "https://www.polyu.edu.hk/fce/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/fce/news-and-events/build-a-smart-city-competition-2026/",
+        "https://www.polyu.edu.hk/fce/publication/fce-e-bulletin/",
+        "https://www.polyu.edu.hk/fce/publication/fce-videos/",
+        "https://www.polyu.edu.hk/fce/publication/fce-videos/fce-impact-case-studies/",
+        "https://www.polyu.edu.hk/fce/publication/newsletter-and-magazine/",
+        "https://www.polyu.edu.hk/fce/publication/other-publications/",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3DYPc3j4exgUm4L-Xcb1vPRPqkioGWd-xOiq6bU8IsX4NUMDNLUEJFVzFTMTRWV0xBSE83NE5LMDVLVi4u%26r535545b9bb374392a6761521dd8cff36%3D%2522%255B%255C%2522Register%2520for%2520FCE%2520Network%2520Membership%2520(https%253A%252F%252Fwww.polyu.edu.hk%252Ffce%252Ffce-community%252Ffce-smart-and-resilient-visionaries-network%252F)%25C2%25A0%25C2%25A0Join%2520a%2520vibrant%2520hub%2520for%2520community%2520engagement%2520and%2520collaboration%252C%2520connecting%2520current%2520FCE%2520students%252C%2520alumni%252C%2520industrial%2520partners%252C%2520academic%2520partners%252C%2520and%2520other%2520interested%2520parties.%2520Membership%2520is%2520open%2520to%2520all%2520and%2520free%2520of%2520charge.%255C%2522%252C%255C%2522Subscribe%2520to%2520FCE%2520Publications%25C2%25A0%25C2%25A0Receive%2520FCE%2520news%2520and%2520updates%252C%2520including%2520the%2520monthly%2520e%2520bulletin%2520and%2520annual%2520magazine.%255C%2522%255D%2522&data=05%7C02%7Cwk-karen.kwok%40polyu.edu.hk%7C494a533bb10a4d590e7008de7f52ba8e%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639088190488538752%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=DBhPhigYJxR8j4RFqj7FWyhQxFFszxlUEgSANxW3UHg%3D&reserved=0",
+        "https://www.polyu.edu.hk/alumni/connect/graduating-class_class-connector/",
+        "https://www.polyu.edu.hk/fce/fce-community/alumni-corner/outstanding-alumni-of-fce/",
+        "https://www.polyu.edu.hk/alumni/connect/local-associations/",
+        "https://www.polyu.edu.hk/alumni/privileges/polyu-alumni-ecard/",
+        "https://www.polyu.edu.hk/alumni/privileges/alumni-netid/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/fce-fund/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/fce-fund/give-now/",
+        "https://www.polyu.edu.hk/giving/priorities/research-and-innovation/endowed-professorship-scheme/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/endowed-professorship-scheme/endowed-professors-at-fce/",
+        "https://www.polyu.edu.hk/giving/priorities/research-and-innovation/endowed-young-scholar-scheme/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/endowed-young-scholars-scheme/endowed-young-scholars-at-fce/",
+        "https://www.polyu.edu.hk/fce/fce-community/fce-urban-intelligence-and-resilience-network/",
+        "https://www.polyu.edu.hk/fce/about-fce/deans-message/",
+        "https://www.polyu.edu.hk/fce/about-fce/vision-and-mission/",
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/people/",
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/departments/",
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/committees/",
+        "https://www.polyu.edu.hk/fce/about-fce/world-rankings/",
+        "https://www.polyu.edu.hk/fce/about-fce/contact-us/",
+        "https://www.polyu.edu.hk/fce/-/media/department/fce/publication/2026_deanslist.pdf?rev=7c25d7c0f0954f0cbf155f622622f127&hash=405C0B4A91FC6108417058B4CD16B360",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/2026/ebulletin-188-cs/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/2024/ebulletin-163-cs/",
+        "https://www.polyu.edu.hk/fce/publication/subscription/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/2026/ebulletin-191-cs/",
+        "https://www.polyu.edu.hk/fce/eBulletin/public/issue191/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/2026/ebulletin-190-cs/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/2026/ebulletin-189-cs/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/2026/outstanding-alumni-award-2026/",
+        "https://www.polyu.edu.hk/arch/",
+        "https://www.polyu.edu.hk/bse",
+        "https://www.polyu.edu.hk/cee/",
+        "https://www.polyu.edu.hk/bre/",
+        "https://www.polyu.edu.hk/lsgi",
+        "http://www.polyu.edu.hk/study",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fce/sitemap/",
+        "https://www.facebook.com/polyufce",
+        "https://www.youtube.com/channel/UCGhFmSw2a89i4dy8kNrRR_Q/videos",
+        "https://www.instagram.com/polyufce/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fce/search-result/?q=Competition",
+        "https://www.polyu.edu.hk/fce/search-result/?q=Events"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-5-20261029",
+      "url": "https://www.polyu.edu.hk/fhss/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fhss/",
+      "bodySha256": "206938ead5dd0ee2a3299b5ecf0930862c659868227e560c0a4204a521f5735d",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "正式单位页说明五个组成单位：三个学系、护理学院及眼科视光学院。学院与学系保留原分类，不能统称五系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "正式单位页说明五个组成单位：三个学系、护理学院及眼科视光学院。学院与学系保留原分类，不能统称五系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fhss/#skip-start",
+        "https://www.polyu.edu.hk/fhss/",
+        "https://www.polyu.edu.hk/fhss?sc_lang=tc",
+        "https://www.polyu.edu.hk/fhss?sc_lang=sc",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/spe/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/sw/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/mls/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/rad/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/ot/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/phy/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/nurses/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/opt/",
+        "https://www.polyu.edu.hk/fhss/study/undergraduate/",
+        "https://www.polyu.edu.hk/fhss/study/postgraduate/",
+        "https://www.polyu.edu.hk/fhss/study/current-students/",
+        "https://www.polyu.edu.hk/fhss/study/prospective-students/",
+        "https://www.polyu.edu.hk/fhss/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/fhss/research/research-direction-and-strategies/",
+        "https://www.polyu.edu.hk/fhss/research/research-impact/",
+        "https://www.polyu.edu.hk/fhss/research/ctu/",
+        "https://www.polyu.edu.hk/fhss/research/ctu/ppie/",
+        "https://www.polyu.edu.hk/fhss/research/opportunities-and-support/",
+        "https://www.polyu.edu.hk/fhss/research/seminars-workshops/",
+        "https://www.polyu.edu.hk/fhss/research/human-sub/",
+        "https://www.polyu.edu.hk/fhss/research/3mt/",
+        "https://www.polyu.edu.hk/fhss/research/ideation-funding-scheme/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/event-calendar/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/fhss-50th-anniversary/logo-design-competition/",
+        "https://www.polyu.edu.hk/fhss/publications/fhss-newsletter/",
+        "https://www.polyu.edu.hk/fhss/publications/other-publications/",
+        "https://www.polyu.edu.hk/fhss/about/deans-message/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/motto-vision-mission/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/services/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/international-awards/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/our-people/faculty-leadership/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/our-people/department-school-heads/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/our-people/faculty-office/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/alumni/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/facts-and-figures/",
+        "https://www.polyu.edu.hk/fhss/about/contactus/",
+        "https://www.polyu.edu.hk/fhss/about/support/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260820/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260813/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260804/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260730/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260709/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260707/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260617/",
+        "https://www.polyu.edu.hk/en/media/media-releases/2026/0115_polyu-visual-rehabilitation-programme-receives-donation-from-wu-jieh-yee-charitable-foundation/",
+        "https://www.polyu.edu.hk/apss/news-and-events/news/2026/apss-strengthens-academic-partnership-with-yonsei-university-and-engages-key-stakeholders-in-seoul/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20261012/",
+        "https://www.polyu.edu.hk/en/media/media-releases/2026/0902_polyu-and-hksi-sign-mou-to-jointly-advance-sports-and-musculoskeletal-physiotherapy/",
+        "https://www.polyu.edu.hk/apss/news-and-events/news/2026/apss-and-the-urban-renewal-authority-co-host-competition-to-empower-youth-in-social-innovation/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/2026/20260831/",
+        "https://www.polyu.edu.hk/en/media/media-releases/2026/0820_polyu-develops-hong-kong-s-first-screening-tool-to-detect-social-frailty-in-seniors/",
+        "https://www.polyu.edu.hk/fhss/-/media/department/fhss/content/publication/newsletter/39.pdf?rev=a1919741d83f41ed8e3b39c001549482&hash=5CF75250CE3F668120981B8421EDCD0D",
+        "https://www.polyu.edu.hk/fhss/news-and-events/event-calendar/2026/05/20260520/",
+        "https://www.polyu.edu.hk/fhss/-/media/department/fhss/content/home/deanlist/deanslist2425.pdf?rev=eb6d423f9b824367b993ffd65284685c&hash=AE22CE00F5F7CB2379C920416A8BA2B1",
+        "https://www.polyu.edu.hk/fhss/-/media/department/fhss/content/publication/newsletter/38.pdf?rev=aef99122c4414065a77925d9b7001539&hash=C487D37ABEF921C7629881DEC5DC91B2",
+        "https://www.polyu.edu.hk/fhss/-/media/department/fhss/content/publication/newsletter/37.pdf?rev=34fc30b50d2c4fadb11b42652d3958f6&hash=1A344E6A5C77108F2B86229CA4183C9C",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fhss/sitemap/",
+        "https://www.facebook.com/PolyU.FHSS",
+        "https://www.instagram.com/polyufhss/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-6-20261029",
+      "url": "https://www.polyu.edu.hk/en/fh/",
+      "retrievedUrl": "https://www.polyu.edu.hk/en/fh/",
+      "bodySha256": "e996f218f3ca970f23899cb3166d243bc84520756c479f992064c5ad6a22d489",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "架构页列三个学系和人工智能及人文学部，另列研究中心。保留当前名称和官网所给网址，与旧入口分别核查。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "架构页列三个学系和人工智能及人文学部，另列研究中心。保留当前名称和官网所给网址，与旧入口分别核查。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/en/fh/#skip-start",
+        "https://www.polyu.edu.hk/fh/about-fh/contact-us/",
+        "https://www.polyu.edu.hk/fh/",
+        "https://www.polyu.edu.hk/fh?sc_lang=tc",
+        "https://www.polyu.edu.hk/fh?sc_lang=sc",
+        "https://www.polyu.edu.hk/fh/intranet/student/",
+        "https://www.polyu.edu.hk/fh/intranet/staff/",
+        "https://www.polyu.edu.hk/fh/about-fh/fh-at-a-glance/",
+        "https://www.polyu.edu.hk/fh/about-fh/faculty-structure/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/programme-listing/",
+        "https://www.polyu.edu.hk/fh/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/fh/study/research-postgraduate-programmes_old/",
+        "https://www.polyu.edu.hk/fh/research/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/",
+        "https://www.polyu.edu.hk/fh/news-and-events/newsletter/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fh/study/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/non-jupas-applicants-year-1/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/non-jupas-applicants-senior-year/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/mainland-students/",
+        "https://www.polyu.edu.hk/fh/study/research-postgraduate-programmes/prospective-students/",
+        "https://www.polyu.edu.hk/fh/study/research-postgraduate-programmes/current-students/",
+        "https://www.polyu.edu.hk/fh/study/competitions-for-secondary-school-students/",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#student-exchange",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#NonLocalStudentStories",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#WIE",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#SL",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#scholarships",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#awards-achievements",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#graduates-employment",
+        "https://www.polyu.edu.hk/fh/research/fh-researchers/",
+        "https://www.polyu.edu.hk/fh/research/research-projects/",
+        "https://www.polyu.edu.hk/fh/research/laboratories-and-facilities/",
+        "https://www.polyu.edu.hk/fh/research/research-centres/",
+        "https://www.polyu.edu.hk/fh/research/research-areas/",
+        "https://www.polyu.edu.hk/fh/research/research-output/",
+        "https://www.polyu.edu.hk/fh/research/knowledge-transfer/",
+        "https://www.polyu.edu.hk/fh/research/research-into-learning-and-teaching/",
+        "https://www.polyu.edu.hk/fh/research/3mt/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/",
+        "https://www.polyu.edu.hk/fh/news-and-events/outstanding-alumni-award/",
+        "https://www.polyu.edu.hk/fh/news-and-events/staff-awards-and-achievements/",
+        "https://www.polyu.edu.hk/fh/news-and-events/video-gallery/",
+        "https://www.polyu.edu.hk/fh/news-and-events/distinguished-lectures-in-humanities/",
+        "https://www.polyu.edu.hk/fh/people/fh-leadership-team/",
+        "https://www.polyu.edu.hk/fh/people/fh-office-administrative-team/",
+        "https://www.polyu.edu.hk/fh/people/emeritus-honorary-and-adjunct-professors/",
+        "https://www.polyu.edu.hk/fh/people/departmental-academic-advisors-and-advisory-committees/",
+        "https://www.polyu.edu.hk/fh/chao-prize",
+        "https://www.polyu.edu.hk/fh/about-fh/message-from-the-dean/",
+        "https://www.polyu.edu.hk/fh/about-fh/world-partners-list/",
+        "https://www.polyu.edu.hk/fh/about-fh/vision-and-mission/",
+        "https://www.polyu.edu.hk/hro/careers/external_adv/",
+        "https://jobs.polyu.edu.hk/job_detail.php?job=250603011",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/nine-fh-scholars-ranked-among-worlds-top-2per-cent-most-cited-scientists-2026/",
+        "https://www.polyu.edu.hk/fh/study/taught-postgraduate-programmes/doctor-of-applied-language-sciences/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/2026-yuen-ren-chao-prize-in-language-science-announced/",
+        "https://www.polyu.edu.hk/fh/news-and-events/fh-new-directions-lecture-series/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/polyu-information-day-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-emmanuele-chersoni-awarded-french-national-research-agency/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-zhu-xinhua-receives-academic-advisor-appointment-from-singapore-minister-for-education/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/hklo-team-shines-at-the-23rd-international-linguistics-olympiad-with-5-awards/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/inauguration-ceremony-for-the-joint-laboratory-of-ailt-between-polyu-and-nwpu-successfully-held/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/fh-participates-in-polyu-summer-institute-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/outstanding-alumni-award-of-polyu-faculty-of-humanities-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/aih-phd-student-recognised-in-greater-bay-area-young-leaders-selection-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-huang-chu-ren-conferred-emeritus-professorship/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/lst-student-triumphs-in-the-4th-fh-three-minute-thesis-competition/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/polyu-arts-and-humanities-ranks-23rd-in-best-global-universities-by-subject-202627/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/call-for-nominations-outstanding-alumni-award-of-polyu-faculty-of-humanities-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-li-shaofeng-receives-iapll-distinguished-scholar-award/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/international-symposium-on-language-science-isls-2026-concludes-with-success/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-zhu-xinhua-advances-multimodal-reading-through-research-and-knowledge-transfer/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/polyu-presents-lifetime-achievement-and-early-career-contribution-awards/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/jupas-admissions-q-and-a-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-sun-xin-receives-the-polyu-yira-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-sun-xin-wins-early-career-research-excellence-award-at-arwa-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/fh-showcases-ai-and-humanities-research-at-polyu-homecoming-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/prof-hang-xing-participates-in-uk-hk-higher-education-arts-culture-network-workshop-in-london/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/polyu-linguistics-climbs-to-45th-in-qs-world-university-rankings-by-subject-2026/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/assistant-dean-prof-renia-lopez-on-learning-by-doing-in-a-genai-enabled-world/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/from-hklo-to-aplo-20-local-secondary-school-students-advance-to-aplo/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2026/appointment-of-prof-mcenery-as-chair-professor-of-corpus-linguistics-and-ai-for-the-humanities/",
+        "https://www.polyu.edu.hk/fh/news-and-events/video-gallery/#NewBooks",
+        "https://www.polyu.edu.hk/fh/study/hklo/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/11/fh_20261107/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/11/dlh_20261109/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/11/fh_chc__20261113/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/11/dlh_20261118/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/11/fh_lst__20261119/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/11/rcchc_20261113/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/10/rcchc_20261030/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/10/rcchc_20261015/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/10/lst_20261024/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/2026/10/rcchc_20261014/",
+        "https://www.polyu.edu.hk/fh/dals/",
+        "https://www.polyu.edu.hk/fh/docdrive/FH_Introduction2026.pdf",
+        "https://events.polyu.edu.hk/isls2026/main",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/2020/frequently-asked-questions-for-students/",
+        "https://www.polyu.edu.hk/en/fh/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fh/sitemap/",
+        "https://facebook.com/hkpolyu.humanities",
+        "https://www.youtube.com/@polyufacultyofhumanities/videos",
+        "https://www.instagram.com/polyufh/",
+        "https://www.linkedin.com/company/polyu-humanities",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Events",
+        "https://www.polyu.edu.hk/fh/search-result/?q=DALS",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Undergraduate Admission",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Postgraduate Admission",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Books Published",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Journal Papers"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-7-20261029",
+      "url": "https://www.polyu.edu.hk/fast/en/home/index.html",
+      "retrievedUrl": "https://www.polyu.edu.hk/fs/",
+      "bodySha256": "ece7946df87053a7fa9cf7e9910d95a1b5df1e5bae714ef9456516098e58ad20",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "架构页的四个学系用链接图片显示名称；名称来自HTML替代文字，网址来自对应链接。纯文本未显示不等于没有，尚未作图片视觉验收。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "架构页的四个学系用链接图片显示名称；名称来自HTML替代文字，网址来自对应链接。纯文本未显示不等于没有，尚未作图片视觉验收。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fs/#skip-start",
+        "https://www.polyu.edu.hk/fs/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/fs/study/",
+        "https://www.polyu.edu.hk/fs/publication/publication/",
+        "https://www.polyu.edu.hk/fs/research/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/",
+        "https://www.polyu.edu.hk/fs/news-and-events/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/fs/intranet/staff/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fs/study/undergraduate-programme/prospective-students/",
+        "https://www.polyu.edu.hk/fs/study/undergraduate-programme/current-students/",
+        "https://www.polyu.edu.hk/fs/study/taught-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fs/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fs/study/admission-requirement-and-application-method/undergraduate-admission/",
+        "https://www.polyu.edu.hk/fs/study/admission-requirement-and-application-method/postgraduate-admission/",
+        "https://www.polyu.edu.hk/fs/study/programme-brochure/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-exchange/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/internship-sponsorships-and-scholarships/sponsorship-for-internship-enhancement-programme/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/internship-sponsorships-and-scholarships/fs-professional-training-workshops/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/internship-sponsorships-and-scholarships/entry-scholarships/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/alumni/messages-from-alumni/",
+        "https://www.polyu.edu.hk/alumni/about-aado/",
+        "https://www.polyu.edu.hk/fs/research/our-researchers/by-department/",
+        "https://www.polyu.edu.hk/fs/research/research-centres/",
+        "https://www.polyu.edu.hk/fs/research/research-excellence/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/rgc-senior-research-fellow/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/research-impact-2022/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/research-insight-2021/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/polyu-snu-bilateral-workshop_202607/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/bilateral-workshop_20260401/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop-on-ai-x-science/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop-on-flexible-organic-and-perovskite-electronics/",
+        "https://www.polyu.edu.hk/fs/docdrive/FS_Symposium_20231110/index.html",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/workshop-information/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/programme/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/speakers/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/contact/",
+        "https://www.polyu.edu.hk/fs/docdrive/workshop_20220704/index.html",
+        "https://www.polyu.edu.hk/fast/docdrive/workshop_20220519/",
+        "https://www.polyu.edu.hk/fast/docdrive/workshop_20220323/",
+        "https://events.polyu.edu.hk/plcs2026/",
+        "https://www.polyu.edu.hk/fs/research/3mt/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-impact-cases/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-start-up-companies/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/collaborate-with-our-researchers/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-funded-projects-with-industry-partners/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-funded-projects-with-industry-partners/#Government",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-funded-projects-with-industry-partners/#KTEO",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/commercialization-and-patents/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/internship-opportunities-for-our-students/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/kt-areas-by-depts/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/",
+        "https://www.polyu.edu.hk/fs/news-and-events/video-corner/",
+        "https://www.polyu.edu.hk/fs/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/fs/news-and-events/outstanding-alumni-award-of-polyu-faculty-of-science/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-young-talents-competition/",
+        "https://www.polyu.edu.hk/fs/news-and-events/fite-seminar-series-videos/",
+        "https://www.polyu.edu.hk/fs/publication/e-newsletter/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/dean-message/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/vision-and-mission/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/faculty-structure/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/people/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/contact-us/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/top-2-of-scientists-worldwide-2026-by-stanford-university/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/faculty-awards-for-outstanding-achievement-2026/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/prof-benedict-lo-named-2025-mit-technology-review-innovators-under-35-china/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/prof-wang-lianzhou-awarded-rgc-theme-based-research-scheme-202627/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/prof-wong-wai-yeung-raymond-was-elected-as-the-fellow-of-the-chinese-chemical-society/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/the-presidents-awards-for-outstanding-achievement-2025/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2026/polyu-science-scholars-received-outstanding-scientific-research-output-awards-2025/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/2025/prof-wong-wai-yeung-raymond-was-elected-as-the-new-member-of-the-hong-kong-academy-of-sciences/",
+        "https://www.polyu.edu.hk/chem/",
+        "https://www.polyu.edu.hk/fsn/",
+        "https://www.polyu.edu.hk/ls/",
+        "https://www.polyu.edu.hk/pm/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/2026/polyu-science-develops-quantum-tunnelling-field-effect-transistor/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/2026/prof-kevin-kwok-introduces-nano-selenium-aquaculture-breakthrough-on-viutv/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/2026/prof-benedict-lo-on-challenges-of-commercialising-research/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/2026/polyu-science-researchers-leads-breakthroughs-in-breakthroughs-in-protein-based-data-storage/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/2026/polyu-science-showcases-at-asia-summit-on-global-health/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/2026/11/the-32nd-congregation-faculty-of-science/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/2026/10/polyu-science-research-seminar-series-on-30-oct-2026/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/2026/08/fs-workshop-on-research-grants-application-on-28-aug-2026/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/2026/08/liquid-crystal-conference-on-3-5-aug-2026/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/2026/08/nobel-laureate-distinguished-lecture-on-21-aug-2026/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/2026/07/polyu-snu-bilateral-workshop-20260715-16/",
+        "https://www.polyu.edu.hk/ls/study/undergraduate-programmes/bachelor-of-science-honours-scheme-in-biotechnology-and-chemical-technology-2027-28/",
+        "https://www.polyu.edu.hk/chem/study/undergraduate-programmes/bachelor-of-science-honours-in-chemical-technology-2026-27-intake-onwards/",
+        "https://www.polyu.edu.hk/fsn/study/undergraduate-programmes-list/bachelor-of-science-honours-scheme-in-food-science-and-nutrition/",
+        "https://www.polyu.edu.hk/pm/study/undergraduate-programmes/js3030-bsc-physics-x-aida-or-ie/",
+        "https://www.polyu.edu.hk/chem/study/taught-postgraduate-programmes/master-of-science-in-sustainable-technology-for-carbon-neutrality/",
+        "https://www.polyu.edu.hk/pm/study/taught-postgraduate-progromme/master-of-science-in-microelectronics-technology-and-materials/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/student-sharing/kamil-iagafarov/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/student-sharing/li-chung-pang/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/student-sharing/cheng-wai-yin/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/student-sharing/li-rutong/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/student-sharing/zhong-ren/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fs/sitemap/",
+        "https://www.facebook.com/PolyUScience/",
+        "https://www.youtube.com/channel/UCOFa1291eDijD0RObTwa9yg",
+        "https://www.instagram.com/polyuscience/",
+        "https://www.linkedin.com/company/polyuscience",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fs/search-result/?q=Events",
+        "https://www.polyu.edu.hk/fs/search-result/?q=Competition"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-8-20261029",
+      "url": "https://www.sd.polyu.edu.hk/en/",
+      "retrievedUrl": "https://www.polyu.edu.hk/sd/",
+      "bodySha256": "48338ef10b625d88f9c0eb850f5649950fbf24e8da7554ccceab4b3e3765937e",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "主页给出设计学院介绍与新闻，未列完整下属单位；合作学校或联合研究中心新闻不能直接改成学院的并列学系。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "主页给出设计学院介绍与新闻，未列完整下属单位；合作学校或联合研究中心新闻不能直接改成学院的并列学系。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/sd/#skip-start",
+        "https://www.polyu.edu.hk/sd/",
+        "https://www.polyu.edu.hk/sd/sitemap/",
+        "https://www.polyu.edu.hk/sd/school/contact-us/",
+        "https://www.polyu.edu.hk/sd/school/contact-us/#socialmedia",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/sd/study/study-at-polyu-design/",
+        "https://www.polyu.edu.hk/sd/study/admissions/downloads/",
+        "https://www.polyu.edu.hk/sd/students/useful-links-for-students/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/sd/school/deans-message/",
+        "https://www.polyu.edu.hk/sd/school/about-polyu-design/",
+        "https://www.polyu.edu.hk/sd/school/our-history/",
+        "https://www.polyu.edu.hk/sd/school/brand-guide/",
+        "https://www.polyu.edu.hk/sd/school/jockey-club-innovation-tower/",
+        "https://www.polyu.edu.hk/sd/school/facilities-and-resources/",
+        "https://www.polyu.edu.hk/sd/school/careers-at-polyu-design/",
+        "https://www.polyu.edu.hk/sd/study/admissions/",
+        "https://www.polyu.edu.hk/sd/study/ug/scheme-in-design/",
+        "https://www.polyu.edu.hk/sd/study/ug-sy/",
+        "https://www.polyu.edu.hk/sd/study/tpg/",
+        "https://www.polyu.edu.hk/sd/study/rpg/phd/",
+        "https://www.polyu.edu.hk/sd/study/scholarships/",
+        "https://www.polyu.edu.hk/sd/people/",
+        "https://www.polyu.edu.hk/sd/people/honorary-adjunct-and-visiting-appointees/",
+        "https://www.polyu.edu.hk/sd/people/academic-staff/",
+        "https://www.polyu.edu.hk/sd/people/administration-n-it/",
+        "https://www.polyu.edu.hk/sd/people/alumni-relations/",
+        "https://www.polyu.edu.hk/sd/people/deans-office/",
+        "https://www.polyu.edu.hk/sd/people/facilities-studios-n-workshops/",
+        "https://www.polyu.edu.hk/sd/people/global-and-industry-engagement/",
+        "https://www.polyu.edu.hk/sd/people/marketing-and-exhibitions/",
+        "https://www.polyu.edu.hk/sd/people/wie/",
+        "https://www.polyu.edu.hk/sd/students/student-stories/",
+        "https://www.polyu.edu.hk/sd/students/project-showcase/",
+        "https://www.polyu.edu.hk/sd/students/work-integrated-education/",
+        "https://www.polyu.edu.hk/sd/students/exchange-opportunities/",
+        "https://www2.polyu.edu.hk/sd/SD_all/student_website/usefullinks.php",
+        "https://www.polyu.edu.hk/sd/alumni/get-in-touch/",
+        "https://www.polyu.edu.hk/sd/alumni/alumni-award/",
+        "https://www.polyu.edu.hk/sd/alumni/our-alumni/",
+        "https://www.polyu.edu.hk/sd/alumni/make-a-gift/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/phone-strap/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/thermal-cup/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/magic-wrap/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/ott-book-set/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/pen/",
+        "https://www.polyu.edu.hk/sd/alumni/souvenirs/wallpaper/",
+        "https://www.polyu.edu.hk/sd/knowledge-transfer-n-collaboration/academic-collaborations/",
+        "https://www.polyu.edu.hk/sd/knowledge-transfer-n-collaboration/industry-partners/",
+        "https://www.polyu.edu.hk/sd/knowledge-transfer-n-collaboration/internship/",
+        "https://www.polyu.edu.hk/sd/knowledge-transfer-n-collaboration/cooperative-projects/",
+        "https://www.polyu.edu.hk/sd/knowledge-transfer-n-collaboration/li-ka-shing-design-and-innovation-centre/",
+        "https://www.polyu.edu.hk/sd/knowledge-transfer-n-collaboration/sdplus/",
+        "https://www.polyu.edu.hk/sd/research/research-centres-and-labs/",
+        "https://www.polyu.edu.hk/sd/research/impact-cases/",
+        "https://www.polyu.edu.hk/sd/research/funding-and-awards/",
+        "https://www.polyu.edu.hk/sd/research/selected-research-articles/",
+        "https://www.polyu.edu.hk/sd/research/research-collaborations/",
+        "https://www.polyu.edu.hk/sd/research/research-events/",
+        "https://www.polyu.edu.hk/sd/research/research-integrity/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/",
+        "https://www.polyu.edu.hk/sd/news-and-events/events/",
+        "https://2026.polyudesignshow.com/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/?year=&category=Books_n_Articles&keyword=",
+        "https://forms.office.com/r/rRnc19kAhU",
+        "https://www.polyu.edu.hk/sd/news-and-events/events/2026/11/10-12-phd-colloquium/",
+        "https://www.polyu.edu.hk/sd/news-and-events/events/2026/11/11-leadership-forum-on-translational-knowledge/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20261016-bosch-home-comfort-group-apac-win-red-dot/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260929-hit-polyu-collaboration/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260922-james-dyson-award-2026/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260909-mou-between-polyu-design-alibab-and-hkda/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260831-polyu-design-announces-outstanding-alumni-awards-2026-recipients/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260806---polyu-design-hatch-awards-2026-results/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260710-dnad-awards/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260420-polyu-design-signs-mou-with-ual/",
+        "https://www.polyu.edu.hk/sd/news-and-events/news/2026/20260505-polyu-social-design-students-win-gold-a-design-award/",
+        "https://www.polyu.edu.hk",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.facebook.com/PolyUDesign/",
+        "https://www.youtube.com/user/SDPolyU",
+        "https://www.instagram.com/polyudesign/",
+        "https://www.linkedin.com/in/polyudesign/",
+        "https://twitter.com/hkpolyudesign",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-9-20261029",
+      "url": "https://www.polyu.edu.hk/sft/",
+      "retrievedUrl": "https://www.polyu.edu.hk/sft/",
+      "bodySha256": "4274741df236fbd5c35b5f69acb4494f962e4769bc668f352542c77df7d7a4c4",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "主页提供人员、课程及研究学位入口，没有完整内部单位名单。奖学金介绍与MPhil/PhD名称不代表每位教师都有招生名额。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "主页提供人员、课程及研究学位入口，没有完整内部单位名单。奖学金介绍与MPhil/PhD名称不代表每位教师都有招生名额。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/sft/#skip-start",
+        "https://www.polyu.edu.hk/sft/",
+        "https://www.polyu.edu.hk/sft/about-sft/career-opportunities/",
+        "https://www38.polyu.edu.hk/eStudent/",
+        "https://www.polyu.edu.hk/sft/docdrive/_sso/staff/home/",
+        "https://www.polyu.edu.hk/sft/docdrive/_sso/student/home/index.html",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/career-services/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/giving/",
+        "https://www.lib.polyu.edu.hk/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/sft/about-sft/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/sft/about-sft/our-history/",
+        "https://www.polyu.edu.hk/sft/about-sft/vision-and-mission/",
+        "https://www.polyu.edu.hk/sft/about-sft/facilities/",
+        "https://www.polyu.edu.hk/sft/about-sft/the-fashion-gallery/",
+        "https://www.polyu.edu.hk/sft/about-sft/sft-store/",
+        "https://mintstudio.hk/en/about-us/",
+        "https://www.polyu.edu.hk/sft/about-sft/facts-and-figures/",
+        "https://www.polyu.edu.hk/sft/about-sft/contact-us/",
+        "https://www.polyu.edu.hk/sft/people/academic-staff/",
+        "https://www.polyu.edu.hk/sft/people/professor-of-practice/",
+        "https://www.polyu.edu.hk/sft/people/external-advisors/",
+        "https://www.polyu.edu.hk/sft/people/honorary-adjunct-professors/",
+        "https://www.polyu.edu.hk/sft/people/postdoc-fellows/",
+        "https://www.polyu.edu.hk/sft/people/visitingstaff/",
+        "https://www.polyu.edu.hk/sft/people/supporting-staff/",
+        "https://www.polyu.edu.hk/sft/admissions/",
+        "https://www.polyu.edu.hk/sft/admissions/programme-overview/",
+        "https://www.polyu.edu.hk/sft/admissions/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/sft/admissions/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/sft/admissions/undergraduate-programmes/non-jupas-applicants-year-1/",
+        "https://www.polyu.edu.hk/sft/admissions/undergraduate-programmes/non-jupas-applicants-senior-year/",
+        "https://www.polyu.edu.hk/sft/admissions/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/sft/admissions/undergraduate-programmes/mainland-students/",
+        "https://www.polyu.edu.hk/sft/admissions/fast-track-programme/",
+        "https://www.polyu.edu.hk/sft/admissions/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/sft/admissions/hong-kong-phd-fellowship-scheme/",
+        "https://www.polyu.edu.hk/sft/programme-information/",
+        "https://www.polyu.edu.hk/sft/programme-information/study-path/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/non-jupas-applicants-year-1/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/non-jupas-applicants-senior-year/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/mainland-students/",
+        "https://www.polyu.edu.hk/sft/programme-information/undergraduate-programmes/minor-in-fashion/",
+        "https://www.polyu.edu.hk/sft/programme-information/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/sft/programme-information/hong-kong-phd-fellowship-scheme/",
+        "https://www.polyu.edu.hk/sft/programme-information/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/sft/programme-information/subject-synopsis/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/academic-advising/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/general-university-requirements/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/scholarships/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/deans-honours-list/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/student-exchange-programme/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/student-exchange-programme/partner-institutions/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/student-exchange-programme/outbound-exchange/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/student-exchange-programme/inbound-exchange/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/student-exchange-programme/faqs/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/internship/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/internship/work-integrated-education-wie/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/internship/summer-internship/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/internship/internship-opportunities/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/local-international-competitions/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/fashion-shows-and-exhibitions/",
+        "https://www.polyu.edu.hk/sft/experience-and-opportunities/study-trips/",
+        "https://www.polyu.edu.hk/sft/news-and-events/events/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/",
+        "https://www.polyu.edu.hk/sft/news-and-events/sft-in-the-news/",
+        "https://www.polyu.edu.hk/sft/news-and-events/publications/",
+        "https://www.polyu.edu.hk/sft/news-and-events/e-newsletter/",
+        "https://www.polyu.edu.hk/sft/research/research-direction/",
+        "https://www.polyu.edu.hk/sft/research/recent-world-leading-publications/",
+        "https://www.polyu.edu.hk/sft/research/recent-patents-granted/",
+        "https://www.polyu.edu.hk/sft/industry-support/employer-services/",
+        "https://www.polyu.edu.hk/sft/industry-support/consultancy-services/",
+        "https://www.polyu.edu.hk/sft/industry-support/community-services/",
+        "https://www.polyu.edu.hk/sft/industry-support/customised-training-programme/",
+        "https://www.polyu.edu.hk/sft/news-and-events/events/2026/10/1009-dunhuang-exhibition/?sc_lang=en",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/1020-top-2/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/1013-info-day-2026/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0910-outstanding-polyu-alumni-award-of-sft-2026/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0706-fashion-show/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0708-fujian-study-tour/",
+        "https://www.polyu.edu.hk/sft/people/academic-staff/prof-erin-cho/",
+        "https://www.polyu.edu.hk/sft/admissions/taught-postgraduate-programmes/master-of-arts-in-fashion-design---fashion-practice/",
+        "https://www.polyu.edu.hk/sft/admissions/taught-postgraduate-programmes/master-of-arts-in-global-fashion-management/",
+        "https://www.polyu.edu.hk/sft/admissions/taught-postgraduate-programmes/msc-pgd-in-intelligent-wearable-technology/",
+        "https://www.polyu.edu.hk/sft/admissions/taught-postgraduate-programmes/ma-pgd-in-sustainable-fashion-and-innovation/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/1008-xu-bg-as-frsc/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/1005-bespoke-neochinese-attire/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/1002-millennium-fellows-2026/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0914-conductive-textile/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0914--atour-planet/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0911-bo-fang-receives-materials-scientist-award/",
+        "https://www.polyu.edu.hk/sft/news-and-events/news/2026/0907-msc-students-advance-intelligent-wearable-technology-translation/",
+        "https://forms.office.com/Pages/ResponsePage.aspx?id=YPc3j4exgUm4L-Xcb1vPRPW0J5kVzkRJqs1bFjer7OpUNFpHUE45Wk9BTDlVSDFOOVZVT0dPWUE4WS4u",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/sft/sitemap/",
+        "https://www.youtube.com/user/ITCPolyU",
+        "https://www.instagram.com/polyusft/",
+        "https://www.linkedin.com/company/institute-of-textiles-and-clothing-the-hong-kong-polytechnic-university",
+        "https://www.xiaohongshu.com/user/profile/5fbd3c27000000000101eeb0",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-polyu-10-20261029",
+      "url": "https://shtm.polyu.edu.hk/",
+      "retrievedUrl": "https://www.polyu.edu.hk/shtm/",
+      "bodySha256": "0e925a7868a82d814c7f6fac635545c562406650401b6a8e2eb27c4d7d6eb676",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "主页给出学术人员等入口，未列完整下属单位；酒店、旅游等主题和排名不当学系列表。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "主页给出学术人员等入口，未列完整下属单位；酒店、旅游等主题和排名不当学系列表。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/shtm/#skip-start",
+        "https://www.polyu.edu.hk/shtm/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/message-from-dean-of-school/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/world-class-hotel-and-tourism-school/",
+        "https://www.hotel-icon.com/about-the-hotel/a-hotel-unlike-any-other",
+        "https://www.polyu.edu.hk/shtm/about-shtm/mr-and-mrs-chan-chak-fu-building/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/gallery-of-honour/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/gallery-of-honour/inductees/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/tan-siu-lin-innovation-hub/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/student-hub/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/che-woo-lui-hotel-and-tourism-resource-centre/",
+        "https://www.bistro1979.com",
+        "https://www.polyu.edu.hk/shtm/about-shtm/vinoteca-lab/",
+        "https://www.fwa-shtm.online/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/shtm-souvenirs/",
+        "https://vrmedia.hk/SHTM/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/contact-us/",
+        "https://www.polyu.edu.hk/shtm/study/",
+        "https://www.polyu.edu.hk/shtm/study/undergraduate-programmes/undergraduate-programme/",
+        "https://www.polyu.edu.hk/shtm/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/shtm/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/shtm/study/mainland-china-programmes/",
+        "https://www.polyu.edu.hk/shtm/study/scholarships/introduction/",
+        "https://www.polyu.edu.hk/shtm/study/subject-syllabi/",
+        "https://www.polyu.edu.hk/shtm/people/",
+        "https://www.polyu.edu.hk/shtm/people/academic-staff/",
+        "https://www.polyu.edu.hk/shtm/people/administrative-staff/",
+        "https://www.polyu.edu.hk/shtm/people/research-staff-v2/",
+        "https://www2.polyu.edu.hk/htm/intranet/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/academic-advising-for-degree-students/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/academic-achievement-award/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/career-services/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/work-integrated-education-wie/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/student-exchange-programme/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/shtm-mentorship-programme/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/club-managers-association-shtm-student-chapter/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/esd-hk-shtm-student-chapter/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/hftp-hk-shtm-student-chapter/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/pata-hong-kong-shtm-student-chapter/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/shtm-event-society/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/shtm-students-association/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/the-bacchus-shtm-wine-society/introduction/",
+        "https://www.polyu.edu.hk/shtm/experience-and-opportunities/students-chapter-and-society/the-hospitality-student-club/introduction/",
+        "https://www.polyu.edu.hk/shtm/research-and-consultancies/",
+        "https://www.polyu.edu.hk/shtm/research-and-consultancies/hospitality-and-tourism-research-centre/introduction/",
+        "https://www.polyu.edu.hk/rcdtt",
+        "https://www.polyu.edu.hk/shtm/research-and-consultancies/shtm-journal-list/shtmjl/",
+        "https://www.shtm.com.hk/en/page/home-1-172",
+        "https://www.polyu.edu.hk/shtm/research-and-consultancies/tomorrow-guestrooms/introduction/",
+        "https://www.polyu.edu.hk/shtm/research-and-consultancies/research-horizons/",
+        "https://www.polyu.edu.hk/shtm/industry-and-alumni/",
+        "https://www.polyu.edu.hk/shtm/industry-and-alumni/executive-development-programme/introduction/",
+        "https://events.polyu.edu.hk/2027hkwinterschool/home",
+        "https://www.polyu.edu.hk/shtm/industry-and-alumni/shtm-alumni-association/introduction/",
+        "https://www.polyu.edu.hk/shtm/industry-and-alumni/outstanding-alumni-award-of-polyu-shtm/introduction/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/horizons-magazine/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/shtm-update/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/news/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/events/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/video-gallery/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/events/2026/12/impact2026/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/events/2026/12/usrc2026/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/events/2026/12/4th_oborot/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/events/2027/01/hkws2027/",
+        "https://www.polyu.edu.hk/shtm/news-and-events/news/2026/20260609_shtm-lifetime-achievement-award/",
+        "https://www.polyu.edu.hk/shtm/study/taught-postgraduate-programmes_v2/master-of-science-scheme-in-hospitality-and-tourism-management/mscpgd-in-artificial-intelligence-in-hospitality/",
+        "https://www.instagram.com/p/DeyITvJDVca/",
+        "https://www.linkedin.com/feed/update/urn:li:activity:7518604601626038272",
+        "https://www.facebook.com/share/p/1DwqwMuURK/",
+        "https://www.polyu.edu.hk/shtm/about-shtm/virtual-tour/",
+        "https://www.polyu.edu.hk/en/shtm/about-shtm/mr-and-mrs-chan-chak-fu-building",
+        "https://www.polyu.edu.hk/en/shtm/about-shtm/gallery-of-honour",
+        "https://www.polyu.edu.hk/en/shtm/about-shtm/tan-siu-lin-innovation-hub",
+        "https://www.polyu.edu.hk/en/shtm/about-shtm/che-woo-lui-hotel-and-tourism-resource-centre",
+        "https://www.polyu.edu.hk/en/shtm/about-shtm/bistro-1979",
+        "https://www.polyu.edu.hk/shtm/research-and-consultancies/shtm-icon-consultancy/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/shtm/sitemap/",
+        "https://www.facebook.com/PolyU.SHTM/",
+        "https://www.youtube.com/PolyUSHTM",
+        "https://www.instagram.com/polyushtm/",
+        "https://www.linkedin.com/company/school-of-hotel-and-tourism-management-at-the-hong-kong-polytechnic-university",
+        "https://twitter.com/PolyUSHTM",
+        "http://www.polyu.edu.hk/htm/wechat/",
+        "https://weibo.com/kayechon",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-cuhksz-1-20261029",
+      "url": "https://sme.cuhk.edu.cn/",
+      "retrievedUrl": "https://sme.cuhk.edu.cn/",
+      "bodySha256": "e812903235177431c050557120a3b13c0400a35f9809098c842067dcfeaed4e7",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "学院架构页按六个学术领域列负责人，另列管理团队与关联机构。领域不是六个正式学系；研究中心和博士专业也不混算。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "学院架构页按六个学术领域列负责人，另列管理团队与关联机构。领域不是六个正式学系；研究中心和博士专业也不混算。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "http://sfi.cuhk.edu.cn/",
+        "https://side.cuhk.edu.cn/",
+        "https://sme-alumni.cuhk.edu.cn/zh-hans/basic/657",
+        "https://www.cuhk.edu.cn",
+        "https://gptsme.com/",
+        "https://sme.cuhk.edu.cn/en",
+        "https://sme.cuhk.edu.cn/page/3357",
+        "https://sme.cuhk.edu.cn/page/3359",
+        "https://sme.cuhk.edu.cn/page/3360",
+        "https://sme.cuhk.edu.cn/page/35",
+        "https://sme.cuhk.edu.cn/page/3358",
+        "https://sfi.cuhk.edu.cn",
+        "https://sme.cuhk.edu.cn/page/532",
+        "https://sme.cuhk.edu.cn/node/3398",
+        "https://sme.cuhk.edu.cn/node/3396",
+        "https://sme.cuhk.edu.cn/node/3400",
+        "https://sme.cuhk.edu.cn/node/3401",
+        "https://sme.cuhk.edu.cn/node/3403",
+        "https://sme.cuhk.edu.cn/node/3404",
+        "https://sme.cuhk.edu.cn/node/3402",
+        "https://sme.cuhk.edu.cn/node/3399",
+        "https://sme.cuhk.edu.cn/node/3397",
+        "https://msfin.cuhk.edu.cn/",
+        "https://msecon.cuhk.edu.cn/",
+        "https://msacct.cuhk.edu.cn/",
+        "https://mscds.cuhk.edu.cn/",
+        "https://mscmkt.cuhk.edu.cn/",
+        "https://msimba.cuhk.edu.cn/",
+        "http://emscsclm.cuhk.edu.cn/",
+        "https://mbm.cuhk.edu.cn/",
+        "https://femba.cuhk.edu.cn/",
+        "https://sme.cuhk.edu.cn/node/1950",
+        "https://sme.cuhk.edu.cn/page/1958",
+        "https://sme.cuhk.edu.cn/page/1957",
+        "https://sme.cuhk.edu.cn/page/1959",
+        "https://sme.cuhk.edu.cn/page/2098",
+        "https://sme.cuhk.edu.cn/page/2107",
+        "https://sme.cuhk.edu.cn/page/3255",
+        "https://sme.cuhk.edu.cn/taxonomy/term/231",
+        "https://dba-side.cuhk.edu.cn",
+        "https://side.cuhk.edu.cn/zh-hans/cc",
+        "https://side.cuhk.edu.cn/zh-hans/page/305",
+        "https://sme.cuhk.edu.cn/taxonomy/term/66",
+        "https://sme.cuhk.edu.cn/page/608",
+        "https://sme.cuhk.edu.cn/node/3438",
+        "https://sme.cuhk.edu.cn/page/821",
+        "https://sme.cuhk.edu.cn/page/3394",
+        "https://sfi.cuhk.edu.cn/research-centers",
+        "https://sfi.cuhk.edu.cn/node/6001",
+        "https://sfi.cuhk.edu.cn/node/6003",
+        "https://sfi.cuhk.edu.cn/FinTech-and-Social-Finance",
+        "https://sfi.cuhk.edu.cn/node/6054",
+        "https://sfi.cuhk.edu.cn/node/6056",
+        "https://sfi.cuhk.edu.cn/node/6070",
+        "https://sfi.cuhk.edu.cn/node/6066",
+        "https://sfi.cuhk.edu.cn/node/6062",
+        "https://side.cuhk.edu.cn/en/node/209",
+        "https://side.cuhk.edu.cn/node/519",
+        "https://side.cuhk.edu.cn/zh-hans/node/221",
+        "https://side.cuhk.edu.cn/zh-hans/node/218",
+        "https://side.cuhk.edu.cn/zh-hans/node/219",
+        "https://side.cuhk.edu.cn/zh-hans/node/496",
+        "https://side.cuhk.edu.cn/zh-hans/node/216",
+        "https://side.cuhk.edu.cn/zh-hans/node/344",
+        "https://side.cuhk.edu.cn/node/548",
+        "https://side.cuhk.edu.cn/node/632",
+        "https://side.cuhk.edu.cn/node/217",
+        "https://side.cuhk.edu.cn/node/954",
+        "https://side.cuhk.edu.cn/node/1037",
+        "https://side.cuhk.edu.cn/node/1038",
+        "https://side.cuhk.edu.cn/node/1039",
+        "https://sme.cuhk.edu.cn/taxonomy/term/247",
+        "https://sme.cuhk.edu.cn/teacher-search",
+        "https://sme.cuhk.edu.cn/page/3492",
+        "https://sme.cuhk.edu.cn/page/56",
+        "https://sme.cuhk.edu.cn/page/3587",
+        "https://sme.cuhk.edu.cn/taxonomy/term/109",
+        "https://sme.cuhk.edu.cn/node/3567",
+        "https://sme.cuhk.edu.cn/page/1119",
+        "https://sme.cuhk.edu.cn/page/67",
+        "https://sme.cuhk.edu.cn/program-search",
+        "https://oal.cuhk.edu.cn/page/1520",
+        "https://sme.cuhk.edu.cn/taxonomy/term/219",
+        "https://sme-career.cuhk.edu.cn/",
+        "http://sme-alumni.cuhk.edu.cn/",
+        "https://sme.cuhk.edu.cn/taxonomy/term/1",
+        "https://sme.cuhk.edu.cn/taxonomy/term/243",
+        "https://sme.cuhk.edu.cn/article/3642",
+        "https://sme.cuhk.edu.cn/article/3436",
+        "https://sme.cuhk.edu.cn/sites/default/files/2026-03/Newsletter_Issue_6__New_logo_compressed.pdf",
+        "https://sme.cuhk.edu.cn/article/3414",
+        "https://book.yunzhan365.com/oplvo/zwna/mobile/index.html",
+        "https://sme.cuhk.edu.cn/article/3421",
+        "https://sme.cuhk.edu.cn/page/3339",
+        "https://sme.cuhk.edu.cn/node/3169",
+        "https://sme.cuhk.edu.cn/page/3345",
+        "https://sme.cuhk.edu.cn/node/555",
+        "https://sme.cuhk.edu.cn/article/3643",
+        "https://sme.cuhk.edu.cn/article/3641",
+        "https://sme.cuhk.edu.cn/article/3624",
+        "https://sme.cuhk.edu.cn/article/3422",
+        "https://sme.cuhk.edu.cn/article/3299",
+        "https://sme.cuhk.edu.cn/article/3288",
+        "https://space.bilibili.com/508832652?spm_id_from=333.337.search-card.all.click",
+        "https://www.youtube.com/@CUHKSZ-SME"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-cuhksz-5-20261029",
+      "url": "https://med.cuhk.edu.cn/",
+      "retrievedUrl": "https://med.cuhk.edu.cn/",
+      "bodySha256": "1acb708b19a1022a43e3f8ac94d6614dfb64ab0f73c6948a2f594ca31fa774aa",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "主页列专业及研究生导航，没有完整学系架构。学生赴外校读硕博的介绍不代表本院已经开放对应研究学位。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "主页列专业及研究生导航，没有完整学系架构。学生赴外校读硕博的介绍不代表本院已经开放对应研究学位。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/",
+        "https://medintra.cuhk.edu.cn",
+        "https://www.cuhk.edu.cn/zh-hans",
+        "https://med.cuhk.edu.cn/en",
+        "https://med.cuhk.edu.cn/page/103",
+        "https://med.cuhk.edu.cn/taxonomy/term/146",
+        "https://med.cuhk.edu.cn/page/999",
+        "https://med.cuhk.edu.cn/page/31",
+        "https://med.cuhk.edu.cn/teacher-search",
+        "https://med.cuhk.edu.cn/taxonomy/term/259",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B233%5D=233",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B236%5D=236",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B227%5D=227",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B157%5D=157",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B231%5D=231",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B165%5D=165",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B234%5D=234",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B228%5D=228",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B225%5D=225",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B161%5D=161",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B237%5D=237",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B226%5D=226",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B229%5D=229",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B162%5D=162",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B212%5D=212",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B215%5D=215",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B163%5D=163",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B216%5D=216",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B217%5D=217",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B269%5D=269",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B251%5D=251",
+        "https://med.cuhk.edu.cn/teacher-search?teacher_title%5B252%5D=252",
+        "https://med.cuhk.edu.cn/taxonomy/term/214",
+        "https://med.cuhk.edu.cn/taxonomy/term/181",
+        "https://med.cuhk.edu.cn/taxonomy/term/218",
+        "https://med.cuhk.edu.cn/taxonomy/term/223",
+        "https://medpg.cuhk.edu.cn/",
+        "https://med.cuhk.edu.cn/page/243",
+        "https://med.cuhk.edu.cn/page/244",
+        "https://med.cuhk.edu.cn/page/911",
+        "https://med.cuhk.edu.cn/taxonomy/term/201",
+        "https://med.cuhk.edu.cn/taxonomy/term/186",
+        "https://medpg.cuhk.edu.cn/taxonomy/term/146",
+        "https://med.cuhk.edu.cn/taxonomy/term/253",
+        "https://med.cuhk.edu.cn/taxonomy/term/220",
+        "https://www.cuhk.edu.cn/taxonomy/term/69",
+        "https://campusvr.cuhk.edu.cn/?scene_id=58114341",
+        "https://med.cuhk.edu.cn/page/487",
+        "https://med.cuhk.edu.cn/taxonomy/term/1",
+        "https://med.cuhk.edu.cn/taxonomy/term/183",
+        "https://med.cuhk.edu.cn/taxonomy/term/66",
+        "https://med.cuhk.edu.cn/page/1429",
+        "https://med.cuhk.edu.cn/joint-med-symposium",
+        "https://med.cuhk.edu.cn/iCUHKSZ-International-Summit",
+        "https://med.cuhk.edu.cn/taxonomy/term/266",
+        "https://med.cuhk.edu.cn/taxonomy/term/260",
+        "https://med.cuhk.edu.cn/taxonomy/term/261",
+        "https://med.cuhk.edu.cn/taxonomy/term/262",
+        "https://med.cuhk.edu.cn/taxonomy/term/263",
+        "https://med.cuhk.edu.cn/taxonomy/term/264",
+        "https://med.cuhk.edu.cn/taxonomy/term/265",
+        "https://med.cuhk.edu.cn/page/105",
+        "https://med.cuhk.edu.cn/page/106",
+        "https://med.cuhk.edu.cn/page/1474",
+        "https://med.cuhk.edu.cn/page/1472",
+        "https://med.cuhk.edu.cn/page/1473",
+        "https://med.cuhk.edu.cn/page/35",
+        "https://med.cuhk.edu.cn/page/345",
+        "https://lac.cuhk.edu.cn/",
+        "https://med.cuhk.edu.cn/page/772",
+        "https://med.cuhk.edu.cn/taxonomy/term/207",
+        "https://med.cuhk.edu.cn/page/836",
+        "https://med.cuhk.edu.cn/page/837",
+        "https://med.cuhk.edu.cn/page/838",
+        "https://med.cuhk.edu.cn/page/24",
+        "https://med.cuhk.edu.cn/page/22",
+        "https://med.cuhk.edu.cn/page/109",
+        "https://med.cuhk.edu.cn/page/711",
+        "https://med.cuhk.edu.cn/page/712",
+        "https://med.cuhk.edu.cn/page/713",
+        "https://med.cuhk.edu.cn/page/968",
+        "https://med.cuhk.edu.cn/page/969",
+        "https://med.cuhk.edu.cn/page/818",
+        "https://med.cuhk.edu.cn/page/828",
+        "https://med.cuhk.edu.cn/page/970",
+        "https://med.cuhk.edu.cn/page/1165",
+        "https://med.cuhk.edu.cn/page/1317",
+        "https://med.cuhk.edu.cn/page/456",
+        "https://med.cuhk.edu.cn/page/426",
+        "https://med.cuhk.edu.cn/page/425",
+        "https://med.cuhk.edu.cn/page/1226",
+        "https://med.cuhk.edu.cn/page/1276",
+        "https://med.cuhk.edu.cn/taxonomy/term/256",
+        "https://med.cuhk.edu.cn/taxonomy/term/171",
+        "https://med.cuhk.edu.cn/taxonomy/term/40",
+        "https://med.cuhk.edu.cn/article/1802",
+        "https://med.cuhk.edu.cn/article/1565",
+        "https://med.cuhk.edu.cn/article/1452",
+        "https://med.cuhk.edu.cn/article/872",
+        "https://med.cuhk.edu.cn/article/329",
+        "https://med.cuhk.edu.cn/article/44",
+        "http://med.cuhk.edu.cn/article/1852",
+        "http://med.cuhk.edu.cn/article/1849",
+        "http://med.cuhk.edu.cn/article/1844",
+        "http://med.cuhk.edu.cn/article/1842",
+        "https://med.cuhk.edu.cn/event/1857",
+        "https://med.cuhk.edu.cn/page/80",
+        "https://med.cuhk.edu.cn/page/497",
+        "https://med.cuhk.edu.cn/page/501",
+        "https://med.cuhk.edu.cn/page/502",
+        "https://med.cuhk.edu.cn/page/503",
+        "http://med.cuhk.edu.cn/article/1810",
+        "https://med.cuhk.edu.cn/page/112",
+        "https://med.cuhk.edu.cn/taxonomy/term/179",
+        "https://weibo.com/cuhkszmed",
+        "https://space.bilibili.com/1862246945?spm_id_from=333.337.search-card.all.click",
+        "https://www.linkedin.cn/incareer/company/%E9%A6%99%E6%B8%AF%E4%B8%AD%E6%96%87%E5%A4%A7%E5%AD%A6%EF%BC%88%E6%B7%B1%E5%9C%B3%EF%BC%89%E5%8C%BB%E5%AD%A6%E9%99%A2-cuhk-shenzhen-medicine?viewAsMember=true",
+        "https://www.facebook.com/CUHKSZMED",
+        "https://twitter.com/CUHKSZ_MED",
+        "https://med.cuhk.edu.cn",
+        "https://campusvr.cuhk.edu.cn/",
+        "https://szmc.cuhk.edu.cn",
+        "https://www.med.cuhk.edu.hk/",
+        "https://www.cuhk.edu.cn/zh-hans/page/114",
+        "https://admissions.cuhk.edu.cn",
+        "https://gs.cuhk.edu.cn"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-cuhksz-6-20261029",
+      "url": "https://music.cuhk.edu.cn/",
+      "retrievedUrl": "https://music.cuhk.edu.cn/",
+      "bodySha256": "46f9c4f41b36ffed7d18b9cc96fb55f1165f481f4648159d8f5aa00cb362f1a2",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "官网按五个学部提供独立入口：作曲指挥、钢琴与键盘、管弦乐、歌剧与声乐、音乐学。课程专业与学部结构分开。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "官网按五个学部提供独立入口：作曲指挥、钢琴与键盘、管弦乐、歌剧与声乐、音乐学。课程专业与学部结构分开。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.cn/",
+        "https://music.cuhk.edu.cn/en",
+        "https://music.cuhk.edu.cn/",
+        "https://music.cuhk.edu.cn/about-us",
+        "https://music.cuhk.edu.cn/introduction",
+        "https://music.cuhk.edu.cn/divisions/composition-and-conducting",
+        "https://music.cuhk.edu.cn/divisions/piano-and-keyboard",
+        "https://music.cuhk.edu.cn/divisions/strings-wind-brass-and-percussion",
+        "https://music.cuhk.edu.cn/divisions/opera-and-voice",
+        "https://music.cuhk.edu.cn/divisions/musicology",
+        "https://music.cuhk.edu.cn/milestone",
+        "https://music.cuhk.edu.cn/contact-us",
+        "https://music.cuhk.edu.cn/teacher-search",
+        "https://music.cuhk.edu.cn/people/leadership",
+        "https://music.cuhk.edu.cn/artistic-advisory-board",
+        "https://music.cuhk.edu.cn/page/25",
+        "https://music.cuhk.edu.cn/admission/announcements",
+        "https://music.cuhk.edu.cn/admission/programmes/undergraduate",
+        "https://music.cuhk.edu.cn/admission/programmes/taught-postgraduate",
+        "https://music.cuhk.edu.cn/admission/programmes/research-postgraduate",
+        "https://music.cuhk.edu.cn/page/26",
+        "https://music.cuhk.edu.cn/admission/application",
+        "https://music.cuhk.edu.cn/admission/resources-and-policies",
+        "https://music.cuhk.edu.cn/upcoming-events",
+        "https://music.cuhk.edu.cn/latest-news",
+        "https://music.cuhk.edu.cn/news",
+        "https://music.cuhk.edu.cn/academic-events",
+        "https://music.cuhk.edu.cn/campus-life",
+        "https://music.cuhk.edu.cn/stories",
+        "https://music.cuhk.edu.cn/publications",
+        "https://music.cuhk.edu.cn/international-cooperation/rncm",
+        "https://music.cuhk.edu.cn/international-cooperation/yst",
+        "https://music.cuhk.edu.cn/international-cooperation/die-hfm-nurnberg",
+        "https://music.cuhk.edu.cn/international-cooperation/mahidol-music",
+        "https://music.cuhk.edu.cn/international-cooperation/umkc-conservatory",
+        "https://music.cuhk.edu.cn/page/135",
+        "https://music.cuhk.edu.cn/page/137",
+        "https://music.cuhk.edu.cn/page/136",
+        "https://music.cuhk.edu.cn/page/818",
+        "https://music.cuhk.edu.cn/page/816",
+        "https://music.cuhk.edu.cn/taxonomy/term/146",
+        "https://music.cuhk.edu.cn/library",
+        "https://music.cuhk.edu.cn/library/about-us",
+        "https://music.cuhk.edu.cn/library/event-reviews",
+        "https://music.cuhk.edu.cn/library/resources",
+        "https://music.cuhk.edu.cn/library/osme",
+        "https://music.cuhk.edu.cn/library/e-resources",
+        "https://cuhksz.primo.exlibrisgroup.com.cn/discovery/account?vid=86CUHKSZ_INST%3A86CUHKSZ&section=overview&lang=en",
+        "https://music.cuhk.edu.cn/article/1255",
+        "https://music.cuhk.edu.cn/article/1252",
+        "https://music.cuhk.edu.cn/article/1235",
+        "https://music.cuhk.edu.cn/article/1237",
+        "https://music.cuhk.edu.cn/admission/programmes/bachelor",
+        "https://music.cuhk.edu.cn/admission/programmes/master",
+        "https://music.cuhk.edu.cn/admission/programmes/doctor",
+        "https://music.cuhk.edu.cn/article/1256",
+        "https://music.cuhk.edu.cn/article/1226",
+        "https://music.cuhk.edu.cn/article/1211",
+        "https://music.cuhk.edu.cn/stories/teachers-remarks-v-yuan-fangqixiong",
+        "https://music.cuhk.edu.cn/stories/teachers-remarks-v-chao-wang",
+        "https://weibo.com/u/7751846660",
+        "https://twitter.com/CuhkszM",
+        "https://www.instagram.com/cuhkszschoolofmusic/",
+        "https://space.bilibili.com/1686407870",
+        "https://www.facebook.com/cuhkszschoolofmusic",
+        "https://admissions.cuhk.edu.cn",
+        "https://gs.cuhk.edu.cn",
+        "https://library.cuhk.edu.cn/",
+        "https://music.cuhk.edu.cn",
+        "https://music.cuhk.edu.cn/taxonomy/term/147",
+        "https://music.cuhk.edu.cn/taxonomy/term/185"
+      ],
+      "listedNames": [
+        "作曲指挥学部",
+        "钢琴与键盘学部",
+        "管弦乐学部",
+        "歌剧与声乐学部",
+        "音乐学学部"
+      ]
+    },
+    {
+      "id": "college-batch-cuhksz-7-20261029",
+      "url": "https://spp.cuhk.edu.cn/",
+      "retrievedUrl": "https://spp.cuhk.edu.cn/",
+      "bodySha256": "ac2063f0bede1cce6abac81e6c500e6e7c7a95dba32deb98d79f2b55e7f53c11",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "学院说明研究生培养定位并列公共政策硕士、博士等项目，未列完整下属学系；关联研究院和项目名称不能替代学系架构。",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "学院说明研究生培养定位并列公共政策硕士、博士等项目，未列完整下属学系；关联研究院和项目名称不能替代学系架构。"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.cn/",
+        "https://spp.cuhk.edu.cn/en",
+        "https://spp.cuhk.edu.cn/",
+        "https://spp.cuhk.edu.cn/about-us",
+        "https://spp.cuhk.edu.cn/page/42",
+        "https://spp.cuhk.edu.cn/page/58",
+        "https://spp.cuhk.edu.cn/page/139",
+        "https://spp.cuhk.edu.cn/contact-us",
+        "https://spp.cuhk.edu.cn/node/36",
+        "https://spp.cuhk.edu.cn/node/59",
+        "https://spp.cuhk.edu.cn/node/133",
+        "https://spp.cuhk.edu.cn/node/134",
+        "https://spp.cuhk.edu.cn/node/143",
+        "https://spp.cuhk.edu.cn/taxonomy/term/148",
+        "https://spp.cuhk.edu.cn/taxonomy/term/167",
+        "https://spp.cuhk.edu.cn/teacher-search",
+        "https://spp.cuhk.edu.cn/page/60",
+        "https://spp.cuhk.edu.cn/taxonomy/term/1",
+        "https://spp.cuhk.edu.cn/taxonomy/term/3",
+        "https://spp.cuhk.edu.cn/taxonomy/term/66",
+        "https://spp.cuhk.edu.cn/taxonomy/term/169",
+        "https://spp.cuhk.edu.cn/taxonomy/term/105",
+        "https://spp.cuhk.edu.cn/taxonomy/term/168",
+        "https://spp.cuhk.edu.cn/node/55",
+        "https://spp.cuhk.edu.cn/page/61",
+        "https://spp.cuhk.edu.cn/taxonomy/term/173",
+        "https://jobs.cuhk.edu.cn/index?school=150",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/37",
+        "https://dpsite06.cuhk.edu.cn/spp-prod/article/67",
+        "https://dp-dashboard.cuhk.edu.cn/spp-prod/article/125",
+        "https://spp.cuhk.edu.cn/article/153",
+        "https://spp.cuhk.edu.cn/article/151",
+        "https://spp.cuhk.edu.cn/article/145",
+        "https://spp.cuhk.edu.cn/article/147",
+        "https://spp.cuhk.edu.cn/article/137",
+        "https://spp.cuhk.edu.cn/article/138",
+        "https://www.cuhk.edu.cn/zh-hans/taxonomy/term/447",
+        "https://www.cuhk.edu.cn/zh-hans"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hku-clinical-20261029",
+      "url": "https://www.sclinmed.hku.hk/",
+      "retrievedUrl": "https://www.sclinmed.hku.hk/",
+      "bodySha256": "50caee8a3119322a6249b3e572a43cd043d7a1a0b30ac9acf29ebbad73b3169a",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "School homepage supplies Departments and Units page",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "School homepage supplies Departments and Units page"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.sclinmed.hku.hk/en/",
+        "http://www.hku.hk/",
+        "https://www.med.hku.hk",
+        "https://www.sclinmed.hku.hk/en/About-Us/Message-from-the-Director",
+        "https://www.sclinmed.hku.hk/en/About-Us/Leadership",
+        "https://www.sclinmed.hku.hk/en/About-Us/Careers",
+        "https://www.sclinmed.hku.hk/en/About-Us/Contact-Us",
+        "https://www.sclinmed.hku.hk/en/Departments-and-Units",
+        "https://www.sclinmed.hku.hk/en/Teaching-and-Learning",
+        "https://www.sclinmed.hku.hk/en/Research",
+        "https://www.sclinmed.hku.hk/en/Knowledge-Exchange",
+        "https://hkuhs.med.hku.hk/en/",
+        "https://www.cnc.hku.hk/news-events/strokelecture2026",
+        "https://www.sclinmed.hku.hk/en/Knowledge-Exchange/2025/20260720school-news-School-of-Clinical-Medicine",
+        "https://www.med.hku.hk/en/careers",
+        "https://www.cnc.hku.hk/news-events/rthk-healthpedia",
+        "https://mrc.hku.hk/",
+        "https://www.sclinmed.hku.hk/en/Knowledge-Exchange/2025/20251112school-news-School-of-Clinical-Medicine",
+        "https://medium.com/hkumed/tagged/mentorship",
+        "https://www.med.hku.hk/en/teaching-and-learning/undergraduate-studies/programmes/mbbs",
+        "https://www.sclinmed.hku.hk/en/Teaching-and-Learning/Taught-Postgraduate",
+        "https://www.med.hku.hk/en/teaching-and-learning/postgraduate/rpg",
+        "https://www.surgery.hku.hk/en/News-And-Events/Upcoming-Events/Distinguished-Lectures",
+        "https://art40.obsgyn.hku.hk/",
+        "https://www.ortho.hku.hk/8th-a-r-hodgson-visiting-professorship-lecture/",
+        "https://www.sclinmed.hku.hk/en/Site-Map",
+        "https://www.facebook.com/HKUMed",
+        "https://www.youtube.com/channel/UCWp2llZdBTyQ8pZVnXDcNNg",
+        "https://www.linkedin.com/school/hkumed/mycompany/",
+        "https://x.com/hkumed",
+        "https://www.instagram.com/hkumed/"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hku-clinical-departments-20261029",
+      "url": "https://www.sclinmed.hku.hk/en/Departments-and-Units",
+      "retrievedUrl": "https://www.sclinmed.hku.hk/en/Departments-and-Units",
+      "bodySha256": "cb089b9b3ce76c671574a472b20eff1da757dad3147f967d30697fd3ab8f0547",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "17 unique listed items:14 departments,1 centre,2 units; repeated navigation is not double-counted",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "17 unique listed items:14 departments,1 centre,2 units; repeated navigation is not double-counted"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.sclinmed.hku.hk/en/",
+        "http://www.hku.hk/",
+        "https://www.med.hku.hk",
+        "https://www.sclinmed.hku.hk/en/About-Us/Message-from-the-Director",
+        "https://www.sclinmed.hku.hk/en/About-Us/Leadership",
+        "https://www.sclinmed.hku.hk/en/About-Us/Careers",
+        "https://www.sclinmed.hku.hk/en/About-Us/Contact-Us",
+        "https://www.sclinmed.hku.hk/en/Departments-and-Units",
+        "https://www.sclinmed.hku.hk/en/Teaching-and-Learning",
+        "https://www.sclinmed.hku.hk/en/Research",
+        "https://www.sclinmed.hku.hk/en/Knowledge-Exchange",
+        "https://hkuhs.med.hku.hk/en/",
+        "http://cancermed.med.hku.hk",
+        "http://ccmu.med.hku.hk/",
+        "https://www.anaesthesia.hku.hk/",
+        "http://oncology.med.hku.hk",
+        "https://radiology.med.hku.hk/",
+        "https://emed.med.hku.hk/",
+        "https://fmpc.hku.hk/",
+        "https://medic.hku.hk/",
+        "http://www.microbiology.hku.hk/",
+        "https://obsgyn.med.hku.hk/",
+        "https://ophthalmology.hku.hk/",
+        "https://www.ortho.hku.hk/",
+        "http://paed.hku.hk/",
+        "http://www.patho.hku.hk/",
+        "https://www.psychiatry.hku.hk/",
+        "http://www.surgery.hku.hk/",
+        "http://mehu.hku.hk/",
+        "https://www.sclinmed.hku.hk/en/Site-Map",
+        "https://www.facebook.com/HKUMed",
+        "https://www.youtube.com/channel/UCWp2llZdBTyQ8pZVnXDcNNg",
+        "https://www.linkedin.com/school/hkumed/mycompany/",
+        "https://x.com/hkumed",
+        "https://www.instagram.com/hkumed/"
+      ],
+      "listedNames": [
+        "Centre of Cancer Medicine",
+        "Critical Care Medicine Unit",
+        "Department of Anaesthesiology",
+        "Department of Clinical Oncology (Founding Member of Centre of Cancer Medicine)",
+        "Department of Diagnostic Radiology",
+        "Department of Emergency Medicine",
+        "Department of Family Medicine and Primary Care",
+        "Department of Medicine",
+        "Department of Microbiology",
+        "Department of Obstetrics and Gynaecology",
+        "Department of Ophthalmology",
+        "Department of Orthopaedics and Traumatology",
+        "Department of Paediatrics and Adolescent Medicine",
+        "Department of Pathology",
+        "Department of Psychiatry",
+        "Department of Surgery",
+        "Medical Ethics and Humanities Unit"
+      ],
+      "academicParentBindings": [
+        {
+          "collegeUnitId": "hku-8",
+          "parentUnitName": "School of Clinical Medicine"
+        }
+      ]
+    },
+    {
+      "id": "college-batch-hku-humanities-20261029",
+      "url": "https://soh.hku.hk/",
+      "retrievedUrl": "https://soh.hku.hk/",
+      "bodySha256": "42296bce69d9abf99c4a3e5acd7a2df267f9046d805bdf5455556122d2d745d3",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "Departments & Programmes supplied; nested beneath School of Humanities",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "Departments & Programmes supplied; nested beneath School of Humanities"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://soh.hku.hk/#content",
+        "https://www.hku.hk/",
+        "http://arts.hku.hk/",
+        "https://hkuportal.hku.hk/login.html",
+        "https://soh.hku.hk/",
+        "https://soh.hku.hk/about-us/",
+        "https://soh.hku.hk/welcome-message/",
+        "https://soh.hku.hk/staff/",
+        "https://soh.hku.hk/departments-programmes/",
+        "https://complit.hku.hk/",
+        "https://arthistory.hku.hk/",
+        "https://www.history.hku.hk/",
+        "https://linguistics.hku.hk/",
+        "http://www.music.hku.hk/",
+        "https://philosophy.hku.hk",
+        "https://genderstudies.hku.hk",
+        "https://soh.hku.hk/news/",
+        "https://soh.hku.hk/upcoming-events/",
+        "https://soh.hku.hk/past-events/",
+        "https://soh.hku.hk/early-career-convivium/",
+        "https://soh.hku.hk/early-career-convivium-events/",
+        "https://isdm.workspace.hku.hk/sites/soh/resources",
+        "https://soh.hku.hk/e-learning-resources/",
+        "https://soh.hku.hk/e-learning-resources/live-presentations/",
+        "https://soh.hku.hk/e-learning-resources/pre-recorded-lectures-presentations/",
+        "https://soh.hku.hk/e-learning-resources/using-powerpoint-to-create-slideshow-narration-type-lectures/",
+        "https://soh.hku.hk/e-learning-resources/experiential-learning/",
+        "https://soh.hku.hk/e-learning-resources/online-assessment/",
+        "https://soh.hku.hk/e-learning-resources/guidance-and-requirments/",
+        "https://soh.hku.hk/e-learning-resources/sources-of-support-at-hku/",
+        "https://internal.soh.hku.hk/pss",
+        "https://soh.hku.hk/selected-publications",
+        "https://soh.hku.hk/scholarships-prizes/",
+        "https://soh.hku.hk/internal/rpgs",
+        "https://internal.soh.hku.hk/faq",
+        "https://isdm.workspace.hku.hk/sites/soh/school-polices",
+        "https://soh.hku.hk/contact-us/",
+        "https://soh.hku.hk/author/sunnylcw/",
+        "https://urbanhistory.org/awardwinners22",
+        "https://ai-humanity.net/",
+        "https://history.hku.hk/prog_pg_ma.html",
+        "https://tl.hku.hk/2021/09/2021-ugc-teaching-award/",
+        "https://conceptlab-hongkong.net/",
+        "https://soh.hku.hk/ann-hui-winner-of-golden-lion-for-lifetime-achievement-at-the-77th-venice-international-film-festival/",
+        "https://soh.hku.hk/soh-online-teaching-and-learning-support-scheme/",
+        "https://soh.hku.hk/internal/pss",
+        "https://soh.hku.hk/online-teaching-soh-plug-and-play-mic-scheme/",
+        "https://sohhkuhk.kinsta.cloud/early-career-convivium/",
+        "https://sohhkuhk.kinsta.cloud/upcoming-events/",
+        "https://sohhkuhk.kinsta.cloud/about-us/",
+        "https://history.hku.hk/",
+        "https://sohhkuhk.kinsta.cloud/gender-studies/",
+        "https://complit.hku.hk/malcs/index.html",
+        "http://www.complit.hku.hk/malcs/index.html",
+        "https://linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/",
+        "https://www.linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/",
+        "https://arthistory.hku.hk/index.php/academic-programmes/master-of-arts-in-art-history/",
+        "https://soh.hku.hk/a-myriad-of-voices-student-documentary-film-on-linguistic-diversity-and-vitality-in-malaysia/",
+        "https://soh.hku.hk/category/department-of-linguistics/",
+        "https://soh.hku.hk/category/school-of-humanities/",
+        "https://sohhkuhk.kinsta.cloud/news/",
+        "https://soh.hku.hk/author/webadmin/",
+        "https://soh.hku.hk/publications/dwelling-in-the-world/",
+        "https://soh.hku.hk/wp/wp-content/uploads/2022/11/elizabethdwelling-book.jpg",
+        "https://soh.hku.hk/publications/foreign-banks-and-global-finance-in-modern-china/",
+        "https://soh.hku.hk/wp/wp-content/uploads/2022/09/Foreign-Banks-and-Global-Finance-in-Modern-China.jpg",
+        "https://soh.hku.hk/publications/how-to-be-a-dictator-the-cult-of-personality-in-the-twentieth-century/",
+        "https://soh.hku.hk/wp/wp-content/uploads/2019/12/2019_Frank_Dikotter_How_to_be_a_Dictator_r.jpg",
+        "https://sohhkuhk.kinsta.cloud/selected-publications/",
+        "http://www.maps.hku.hk/index.php?lang=en",
+        "https://sohhkuhk.kinsta.cloud/docs/hku_calendar_2020-21.pdf",
+        "https://hkucc1.hku.hk",
+        "http://arts.hku.hk/prospective-students",
+        "https://www.facebook.com/humanitieshongkonguniversity/",
+        "https://www.youtube.com/user/HKUSOH"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hku-humanities-units-20261029",
+      "url": "https://soh.hku.hk/departments-programmes/",
+      "retrievedUrl": "https://soh.hku.hk/departments-programmes/",
+      "bodySha256": "84f15e759ba7d66970343939fa1bc3b5c745d07760a9ac54922c7f6a3b366f10",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "7 named departments/programmes; keep Gender Studies as supplied and do not relabel every item as a department",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "7 named departments/programmes; keep Gender Studies as supplied and do not relabel every item as a department"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://soh.hku.hk/departments-programmes/#content",
+        "https://www.hku.hk/",
+        "http://arts.hku.hk/",
+        "https://hkuportal.hku.hk/login.html",
+        "https://soh.hku.hk/",
+        "https://soh.hku.hk/departments-programmes/",
+        "https://soh.hku.hk/about-us/",
+        "https://soh.hku.hk/welcome-message/",
+        "https://soh.hku.hk/staff/",
+        "https://complit.hku.hk/",
+        "https://arthistory.hku.hk/",
+        "https://www.history.hku.hk/",
+        "https://linguistics.hku.hk/",
+        "http://www.music.hku.hk/",
+        "https://philosophy.hku.hk",
+        "https://genderstudies.hku.hk",
+        "https://soh.hku.hk/news/",
+        "https://soh.hku.hk/upcoming-events/",
+        "https://soh.hku.hk/past-events/",
+        "https://soh.hku.hk/early-career-convivium/",
+        "https://soh.hku.hk/early-career-convivium-events/",
+        "https://isdm.workspace.hku.hk/sites/soh/resources",
+        "https://soh.hku.hk/e-learning-resources/",
+        "https://soh.hku.hk/e-learning-resources/live-presentations/",
+        "https://soh.hku.hk/e-learning-resources/pre-recorded-lectures-presentations/",
+        "https://soh.hku.hk/e-learning-resources/using-powerpoint-to-create-slideshow-narration-type-lectures/",
+        "https://soh.hku.hk/e-learning-resources/experiential-learning/",
+        "https://soh.hku.hk/e-learning-resources/online-assessment/",
+        "https://soh.hku.hk/e-learning-resources/guidance-and-requirments/",
+        "https://soh.hku.hk/e-learning-resources/sources-of-support-at-hku/",
+        "https://internal.soh.hku.hk/pss",
+        "https://soh.hku.hk/selected-publications",
+        "https://soh.hku.hk/scholarships-prizes/",
+        "https://soh.hku.hk/internal/rpgs",
+        "https://internal.soh.hku.hk/faq",
+        "https://isdm.workspace.hku.hk/sites/soh/school-polices",
+        "https://soh.hku.hk/contact-us/",
+        "https://soh.hku.hk/author/webadmin/",
+        "https://sohhkuhk.kinsta.cloud/early-career-convivium/",
+        "https://sohhkuhk.kinsta.cloud/upcoming-events/",
+        "https://sohhkuhk.kinsta.cloud/about-us/",
+        "https://history.hku.hk/",
+        "https://sohhkuhk.kinsta.cloud/gender-studies/",
+        "https://complit.hku.hk/malcs/index.html",
+        "http://www.complit.hku.hk/malcs/index.html",
+        "https://history.hku.hk/prog_pg_ma.html",
+        "https://linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/",
+        "https://www.linguistics.hku.hk/degree-programs/graduate/masters-programme-ma/",
+        "https://arthistory.hku.hk/index.php/academic-programmes/master-of-arts-in-art-history/",
+        "https://soh.hku.hk/a-myriad-of-voices-student-documentary-film-on-linguistic-diversity-and-vitality-in-malaysia/",
+        "https://soh.hku.hk/category/department-of-linguistics/",
+        "https://soh.hku.hk/ann-hui-winner-of-golden-lion-for-lifetime-achievement-at-the-77th-venice-international-film-festival/",
+        "https://soh.hku.hk/category/school-of-humanities/",
+        "https://soh.hku.hk/soh-online-teaching-and-learning-support-scheme/",
+        "https://sohhkuhk.kinsta.cloud/news/",
+        "https://soh.hku.hk/publications/dwelling-in-the-world/",
+        "https://soh.hku.hk/wp/wp-content/uploads/2022/11/elizabethdwelling-book.jpg",
+        "https://soh.hku.hk/publications/foreign-banks-and-global-finance-in-modern-china/",
+        "https://soh.hku.hk/wp/wp-content/uploads/2022/09/Foreign-Banks-and-Global-Finance-in-Modern-China.jpg",
+        "https://soh.hku.hk/publications/how-to-be-a-dictator-the-cult-of-personality-in-the-twentieth-century/",
+        "https://soh.hku.hk/wp/wp-content/uploads/2019/12/2019_Frank_Dikotter_How_to_be_a_Dictator_r.jpg",
+        "https://sohhkuhk.kinsta.cloud/selected-publications/",
+        "http://www.maps.hku.hk/index.php?lang=en",
+        "https://sohhkuhk.kinsta.cloud/docs/hku_calendar_2020-21.pdf",
+        "https://hkucc1.hku.hk",
+        "http://arts.hku.hk/prospective-students",
+        "https://www.facebook.com/humanitieshongkonguniversity/",
+        "https://www.youtube.com/user/HKUSOH"
+      ],
+      "listedNames": [
+        "Comparative Literature",
+        "Art History",
+        "History",
+        "Linguistics",
+        "Music",
+        "Philosophy",
+        "Gender Studies"
+      ],
+      "academicParentBindings": [
+        {
+          "collegeUnitId": "hku-2",
+          "parentUnitName": "School of Humanities"
+        }
+      ]
+    },
+    {
+      "id": "college-batch-hku-law-20261029",
+      "url": "https://www.law.hku.hk/",
+      "retrievedUrl": "https://www.law.hku.hk/",
+      "bodySha256": "938359b3a59941b5711fdecebe995f63af89d6c8eace3c1d2d855f57e1e7936c",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "Current homepage lists centres and navigation; no full current departments list established",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "Current homepage lists centres and navigation; no full current departments list established"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.law.hku.hk/",
+        "https://www.law.hku.hk/about-us/history/",
+        "https://www.law.hku.hk/about-us/deans-message/",
+        "https://aiifl.law.hku.hk",
+        "https://ccpl.law.hku.hk/",
+        "https://cils.law.hku.hk/",
+        "https://cmel.hku.hk/",
+        "https://lawtech.hku.hk/",
+        "https://ccl.law.hku.hk/",
+        "https://www.law.hku.hk/about-us/job-openings/",
+        "https://www.law.hku.hk/about-us/contact-us/",
+        "https://www.law.hku.hk/about-us/our-building/",
+        "https://www.law.hku.hk/about-us/law-anthem/",
+        "https://50.law.hku.hk",
+        "https://hku.au1.qualtrics.com/jfe/form/SV_00z83hY6a7GwgR0",
+        "https://www.law.hku.hk/news/des-voeux-chambers-cambridge-hku-visiting-fellowship-renewed/",
+        "https://video.law.hku.hk/category/browse/lecture/hku-boase-cohen-collins-criminal-law-lecture/",
+        "https://lecture.law.hku.hk/",
+        "https://www.law.hku.hk/academic-staff/",
+        "https://www.law.hku.hk/faculty/dean-and-faculty-office/",
+        "https://dm.law.hku.hk/",
+        "https://dm.law.hku.hk/timetables",
+        "https://course.law.hku.hk/",
+        "https://dm.law.hku.hk/intranet",
+        "http://moodle.hku.hk/",
+        "https://www.law.hku.hk/current-students/kcl/",
+        "https://www.law.hku.hk/current-students/unsw/",
+        "https://www.law.hku.hk/current-students/ucb/",
+        "https://www.law.hku.hk/current-students/ubc/",
+        "https://career.law.hku.hk/",
+        "https://moodle.hku.hk/course/view.php?id=133391",
+        "https://www.law.hku.hk/current-students/summer-programme/social-justice-summer-internship/",
+        "https://www.law.hku.hk/current-students/summer-programme/summer-programmes-in-china/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-introduction/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-partner-universities/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-scholarships-for-law-students/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-self-funding-visiting-student-scheme/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-application-forms/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-useful-information/",
+        "https://www.law.hku.hk/current-students/contact-details/",
+        "https://www.wellbeinginlaw.hku.hk/",
+        "https://www.law.hku.hk/research/introduction/",
+        "https://hub.hku.hk/simple-search?location=crisou&filterquery=ou00002&filtername=faculty&filtertype=authority",
+        "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalbrowse&journal_id=1759534",
+        "https://www.law.hku.hk/research/faculty-grants/",
+        "https://www.law.hku.hk/research/hku-law-outstanding-early-career-visiting-fellowship-scheme/",
+        "https://www.law.hku.hk/research/visiting-scholars-scheme/",
+        "https://www.law.hku.hk/research/hku-asean-academic-fellowship-scheme/",
+        "https://www.law.hku.hk/research/resources/",
+        "http://lib.hku.hk/lawlib/index.html",
+        "http://lib.hku.hk/",
+        "http://researchintegrity.law.hku.hk/",
+        "https://gce.law.hku.hk",
+        "https://www.law.hku.hk/experiential-learning-at-hku-law/",
+        "https://www.law.hku.hk/hk/",
+        "https://www.law.hku.hk/events/",
+        "https://www.law.hku.hk/press-releases/",
+        "https://www.law.hku.hk/events-media/faculty-in-the-news-2026/",
+        "https://newsletter.law.hku.hk/",
+        "https://video.law.hku.hk",
+        "https://www.law.hku.hk/prospective-students/ug-introduction/",
+        "https://www.law.hku.hk/prospective-students/ug-llb/",
+        "https://ug.hkubs.hku.hk/programme/bba-law-and-llb",
+        "https://ppa.hku.hk/undergraduate/bachelor-of-social-sciences-government-and-laws-bachelor-of-laws-bsocsc-gl-llb",
+        "http://arts.hku.hk/current-students/undergraduate/BALLB",
+        "https://www.scifac.hku.hk/prospective/ug/6858-bsc-and-llb",
+        "https://www.law.hku.hk/prospective-students/ug-faq/",
+        "https://www.law.hku.hk/HKU_LAW_UG_Prospectus_2027_Admission.html",
+        "https://www.law.hku.hk/events/hku-information-day-2026-for-undergraduate-admissions/",
+        "https://llm.law.hku.hk/",
+        "https://llm.law.hku.hk/embl",
+        "https://jd.law.hku.hk/",
+        "http://www.ple.hku.hk/pcll/",
+        "https://www.law.hku.hk/prospective-students/ug-double-master-degree-programme-with-peking-university/",
+        "https://www.law.hku.hk/prospective-students/ug-hku-pku-dual-degree-programme-in-law/",
+        "https://hkuucl.law.hku.hk",
+        "https://jd.law.hku.hk/applicants/penn-law-llm/",
+        "https://www.law.hku.hk/prospective-students/joint-legal-education-programme-with-the-peter-a-allard-school-of-law-at-ubc/",
+        "https://llm.law.hku.hk/llmhku-mlawuzh/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-introduction/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-major-research-area/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-guidelines-and-forms-for-current-students/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-phd-2/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-mphil-2/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-sjd-2/",
+        "https://www.law.hku.hk/research-postgraduate-students/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-rpg-graduates/",
+        "https://www.law.hku.hk/prospective-students/tuition-fees/",
+        "https://www.law.hku.hk/international-exchange-programmes/international-and-greater-china-partnerships/",
+        "https://www.law.hku.hk/international-exchange-programmes/international-exchange-programme-incoming-exchange-visiting-programme/",
+        "https://www.law.hku.hk/international-exchange-programmes/international-exchange-programme-visiting-prc-students/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/about-the-association/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/constitution/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/activities-and-events/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/law-mentorship-programme/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/annual-reports/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/membership-fees-application-form/",
+        "https://www.law.hku.hk/activity_event/hku-law-alumni-charity-limited/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/memory-lane/",
+        "https://www.law.hku.hk/wp-content/uploads/2024/12/HKULAA_souvenirs_2024.png",
+        "https://www.facebook.com/HKUADRLLMALUM/",
+        "https://eform.alumni.hku.hk/zend/form/online_contact_update#new_tab",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/introduction/",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/ke-awards/",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/research-consultancies/",
+        "https://www4.hku.hk/hkumcd/index.php/eng/unit/28_Faculty_of_Law.html",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/ke-initiatives/",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/continuing-legal-education/",
+        "https://www.andrewli.hku.hk/",
+        "https://www.law.hku.hk/experiential-learning/clinical-legal-education/",
+        "https://www.law.hku.hk/giving-to-hku-law/",
+        "https://www.law.hku.hk/news/gathering-for-hku-law-alumnishanghai/",
+        "https://congregation.law.hku.hk",
+        "https://newsletter.law.hku.hk/hku-law-alumni-choir-concert-2025-celebrating-love/",
+        "https://www.law.hku.hk/news/hku-law-55th-anniversary-thanksgiving-dinner/",
+        "https://www.law.hku.hk/news/professor-michael-ng-received-the-10th-outstanding-scientific-research-output-award-humanities-and-social-sciences-from-the-ministry-of-education-of-china/",
+        "https://www.law.hku.hk/news/clash-or-merger-of-two-systems-in-one-country-two-systems-common-law-and-civil-law-by-mr-ronny-tong-ka-wah-qc-sc-gbs-jp/",
+        "https://www.law.hku.hk/news/symposium-shaping-the-common-law/",
+        "https://www.law.hku.hk/news/good-news-and-updates-from-lite-labhku/",
+        "https://www.google.com/calendar/event?action=TEMPLATE&text=CCL Talk: What Does Law-Based Governance Mean When It Isn’t Only About Law? Grassroots Governance in Xi-Era China&dates=&details=&location=&trp=false&sprop=&sprop=name:",
+        "https://www.law.hku.hk/events/ccl-talk-20261029/",
+        "https://www.google.com/calendar/event?action=TEMPLATE&text=Insights from Regional and Global Dispute Resolution Practitioners&dates=&details=&location=LLM ADR Speaker Series - September 2026 - December 2026 via Zoom&trp=false&sprop=&sprop=name:",
+        "https://www.law.hku.hk/events/insights-from-regional-and-global-dispute-resolution-practitioners-2/",
+        "https://researchblog.law.hku.hk/",
+        "https://hub.hku.hk/simple-search?query=location.comm%3A12+&location=publication&rpp=25&sort_by=bi_sort_2_sort&order=desc",
+        "https://www.law.hku.hk/hklj/",
+        "https://aiifl.law.hku.hk/",
+        "https://www.ccl.law.hku.hk/",
+        "https://cpl.law.hku.hk/",
+        "https://www.law.hku.hk/about/contact/",
+        "https://www.instagram.com/hkulawfac/",
+        "https://www.facebook.com/HKULawFac/",
+        "https://twitter.com/HkuLaw",
+        "https://www.linkedin.com/school/hku-law",
+        "https://www.youtube.com/@hkufaclaw",
+        "https://www.law.hku.hk/wp-content/uploads/2024/08/qrcode_for_wechat.jpg",
+        "https://web.law.hku.hk/lawdept/authen.php",
+        "https://forms.office.com/r/LDmiua0g1E"
+      ],
+      "listedNames": []
+    },
+    {
+      "id": "college-batch-hkust-engineering-20261029",
+      "url": "https://seng.hkust.edu.hk/about/departments-and-centers",
+      "retrievedUrl": "https://seng.hkust.edu.hk/about/departments-and-centers",
+      "bodySha256": "cab62a43294de8c82c9adab4fc2db0aec6ebf8fed375096acb3c4e92caa787c1",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "7 departments and6 centers/units in distinct sections",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "7 departments and6 centers/units in distinct sections"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://seng.hkust.edu.hk/about/departments-and-centers#main-content",
+        "https://hkust.edu.hk/news",
+        "https://hkust.edu.hk/academics/list",
+        "https://hkust.edu.hk/lifehkust",
+        "http://library.ust.hk",
+        "https://hkust.edu.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://researchportal.hkust.edu.hk/en/organisations/school-of-engineering/persons/",
+        "https://hkust.edu.hk/about-hkust",
+        "https://www.facebook.com/hkustengineering",
+        "https://www.instagram.com/hkustengineering",
+        "https://www.linkedin.com/school/hkustengineering",
+        "https://www.youtube.com/user/sengpr",
+        "https://seng.hkust.edu.hk/sites/default/files/menu_icons/SENG_WeChat_QR_code.jpg",
+        "https://seng.hkust.edu.hk/prospective-students",
+        "https://seng.hkust.edu.hk/current-students",
+        "https://seng.hkust.edu.hk/alumni",
+        "https://seng.hkust.edu.hk/faculty-and-staff",
+        "https://seng.hkust.edu.hk/media",
+        "https://seng.hkust.edu.hk/about/departments-and-centers",
+        "https://seng.hkust.edu.hk/zh-hant/about/departments-and-centers",
+        "https://seng.hkust.edu.hk/zh-hans/about/departments-and-centers",
+        "https://www.ust.hk",
+        "https://seng.hkust.edu.hk/",
+        "https://seng.hkust.edu.hk/academics/undergraduate",
+        "https://seng.hkust.edu.hk/academics/research-postgraduate",
+        "https://seng.hkust.edu.hk/academics/taught-postgraduate",
+        "https://sengexe.hkust.edu.hk/",
+        "https://ace.hkust.edu.hk/en",
+        "https://seng.hkust.edu.hk/faculty-and-research",
+        "https://seng.hkust.edu.hk/about/people/faculty",
+        "https://cbe.hkust.edu.hk/faculty",
+        "https://ce.hkust.edu.hk/people_list",
+        "https://cse.hkust.edu.hk/admin/people/faculty/",
+        "https://ece.hkust.edu.hk/people_list",
+        "https://ieda.ust.hk/eng/faculty.php?catid=5&sid=15",
+        "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+        "https://seng.hkust.edu.hk/faculty-recruitment",
+        "https://seng.hkust.edu.hk/faculty-and-research#strategic-research-areas",
+        "https://seng.hkust.edu.hk/faculty-and-research/research-infrastructure",
+        "https://seng.hkust.edu.hk/news",
+        "https://seng.hkust.edu.hk/news/listing?field_tailored_news_category=All",
+        "https://seng.hkust.edu.hk/feature-stories",
+        "https://seng.hkust.edu.hk/press-releases",
+        "https://seng.hkust.edu.hk/news/in-the-media",
+        "https://seng.hkust.edu.hk/news-and-media/publications",
+        "https://calendar.hkust.edu.hk/organizers/seng",
+        "https://seng.hkust.edu.hk/about/hkustengineering",
+        "https://seng.hkust.edu.hk/about/advisory-committee",
+        "https://seng.hkust.edu.hk/about/committees",
+        "https://seng.hkust.edu.hk/about/industry-engagement",
+        "https://seng.hkust.edu.hk/about/mission-and-vision",
+        "https://seng.hkust.edu.hk/about/meet-the-dean",
+        "https://seng.hkust.edu.hk/about/leadership",
+        "https://seng.hkust.edu.hk/about/milestones",
+        "https://seng.hkust.edu.hk/about/rankings",
+        "https://seng.hkust.edu.hk/about/facts-and-figures",
+        "https://seng.hkust.edu.hk/about/awards/university-recognition",
+        "https://hkust.edu.hk/awards/all?keyword=Engineering",
+        "https://seng.hkust.edu.hk/about/awards/seng-research-excellence",
+        "https://seng.hkust.edu.hk/about/awards/seng-teaching-excellence",
+        "https://seng.hkust.edu.hk/about/our-People/admin-staff",
+        "https://seng.hkust.edu.hk/about/our-People/engineering-student-ambassadors",
+        "https://e2i.hkust.edu.hk/peer-mentoring-program",
+        "https://seng.hkust.edu.hk/about/entrepreneurship",
+        "https://hkustcareers.ust.hk/home",
+        "https://seng.hkust.edu.hk/about/contact",
+        "https://cbe.hkust.edu.hk/research/majoram",
+        "https://cbe.ust.hk",
+        "http://www.ce.ust.hk",
+        "https://www.ce.ust.hk",
+        "https://www.cse.ust.hk",
+        "https://ece.hkust.edu.hk",
+        "https://www.ieda.ust.hk",
+        "https://mae.hkust.edu.hk/en/home",
+        "http://abfye.ust.hk",
+        "http://e2i.ust.hk",
+        "https://seng.hkust.edu.hk/gce",
+        "https://seng.hkust.edu.hk/iei",
+        "https://sight2023.hkust.edu.hk/",
+        "https://ieda.ust.hk",
+        "https://www.mae.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://seng.hkust.edu.hk/media#lpm02-13",
+        "https://library.ust.hk/",
+        "https://hkust.edu.hk/department",
+        "https://www.web-accessibility.hk/",
+        "https://seng.hkust.edu.hk/accessibility",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://seng.hkust.edu.hk/sitemap",
+        "https://mtpc.hkust.edu.hk/"
+      ],
+      "listedNames": [
+        "Department of Chemical and Biological Engineering",
+        "Department of Civil and Environmental Engineering",
+        "Department of Computer Science and Engineering",
+        "Department of Electronic and Computer Engineering",
+        "Department of Industrial Engineering and Decision Analytics",
+        "Department of Mechanical and Aerospace Engineering",
+        "Department of Materials",
+        "Academy for Bright Future Young Engineers (ABFYE)",
+        "Academy for Continuing Education (ACE)",
+        "Center for Engineering Education Innovation (E2I)",
+        "Center for Global and Community Engagement (GCE)",
+        "Center for Industry Engagement and Internship (IEI)",
+        "Student Innovation for Global Health Technology (SIGHT)"
+      ]
+    },
+    {
+      "id": "college-batch-polyu-computing-maths-20261029",
+      "url": "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/departments/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/departments/",
+      "bodySha256": "968cf06a469fa4ad4e4914f8f256057df70f4a5c00ffb751b216e7c2132a3066",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "3 departments, separate research/event links vs main cards",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "3 departments, separate research/event links vs main cards"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/departments/#skip-start",
+        "https://www.polyu.edu.hk/fcms/",
+        "https://www.polyu.edu.hk/fcms/intranet/current_students/student_intranet/",
+        "https://www.polyu.edu.hk/fcms/intranet/fcms_staff/staff_intranet/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/message-from-the-dean/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/vision-and-mission/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/world-rankings/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/fcms-at-a-glance/departments/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/people/",
+        "https://www.polyu.edu.hk/fcms/about-fcms/contact-us/",
+        "https://www.polyu.edu.hk/fcms/study/",
+        "https://www.polyu.edu.hk/fcms/study/ug/",
+        "https://www.polyu.edu.hk/fcms/study/tpg/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/prospective-students/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/current-students/",
+        "https://www.polyu.edu.hk/fcms/study/research-postgraduate-programme/news/",
+        "https://www.polyu.edu.hk/fcms/study/programme-leaflets/",
+        "https://www.polyu.edu.hk/fcms/experiential-learning-and-enrichment/non-local-learning-experience/",
+        "https://www.polyu.edu.hk/fcms/experiential-learning-and-enrichment/sponsorship/",
+        "https://www.polyu.edu.hk/ama/research-and-consultancy/research-outcomes/research-projects/",
+        "https://www.polyu.edu.hk/comp/research/external-research-grants/",
+        "https://www.polyu.edu.hk/dsai/research/research-projects/",
+        "https://www.polyu.edu.hk/fcms/research/laboratories-and-research-centres/",
+        "https://www.polyu.edu.hk/fcms/research/research-areas/",
+        "https://www.polyu.edu.hk/fcms/research/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis-2025/",
+        "https://www.polyu.edu.hk/fcms/research/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis/polyu-faculty-of-computer-and-mathematical-sciences-three-minute-thesis-2026/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/staff/staff-awards-and-achievements/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/students/student-award/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/students/deans-honours-list/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/alumni/outstanding-alumni-award-2025/",
+        "https://www.polyu.edu.hk/fcms/award-and-honours/alumni/outstanding-alumni-award-of-polyu-faculty-of-computer-and-mathematical-sciences-fcms-2026/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/news_bak/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/fcms-in-the-media/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/competition/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/fcms-ideation-funding-scheme/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/events_bak/",
+        "https://www.polyu.edu.hk/ama/news-and-events/events/",
+        "https://www.polyu.edu.hk/comp/news-and-events/event/",
+        "https://www.polyu.edu.hk/dsai/news-and-events/events/",
+        "https://www.polyu.edu.hk/fcms/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/ama/?sc_lang=en",
+        "https://www.polyu.edu.hk/comp/",
+        "https://www.polyu.edu.hk/dsai/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fcms/sitemap/",
+        "https://www.facebook.com/profile.php?id=61578338503765",
+        "https://www.youtube.com/@HKPolyUFCMS",
+        "https://www.instagram.com/polyufcms/",
+        "https://www.linkedin.com/company/polyu-fcms/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": [
+        "Department of Applied Mathematics",
+        "Department of Computing",
+        "Department of Data Science and Artificial Intelligence"
+      ]
+    },
+    {
+      "id": "college-batch-polyu-construction-20261029",
+      "url": "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/departments/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/departments/",
+      "bodySha256": "8741606e1911f3567e81209d473ec22b5e3d46fb89c4a76a5f7d519987f23fa3",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "5 departments and actual provided new/legacy web addresses; no redirect inferred",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "5 departments and actual provided new/legacy web addresses; no redirect inferred"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/departments/#skip-start",
+        "https://www.polyu.edu.hk/fce/",
+        "https://www2.polyu.edu.hk/fce/Staff_internal/intranet/",
+        "https://www2.polyu.edu.hk/fce/student-internal/intranet/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fce/study/why-fce/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/non-jupas-applicants-year-1/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/non-jupas-applicants-senior-year/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/mainland-students/",
+        "https://www.polyu.edu.hk/fce/study/undergraduate-programmes/student-experiences/",
+        "https://www.polyu.edu.hk/fce/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/fce/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fce/study/programme-prospectus/",
+        "http://www51.polyu.edu.hk/eprospectus/",
+        "https://www.polyu.edu.hk/fce/scholarships-and-awards/",
+        "https://www.polyu.edu.hk/fce/research/research-focuses/",
+        "https://www.polyu.edu.hk/fce/research/focus-research-areas-of-departments/",
+        "https://www.polyu.edu.hk/fce/research/research-impacts/",
+        "https://www.polyu.edu.hk/fce/research/research-impacts/fce-impact-case-studies/",
+        "https://www.polyu.edu.hk/fce/research/chinese-national-engineering-research-centres/",
+        "https://www.polyu.edu.hk/fce/research/research-centres/",
+        "https://www.polyu.edu.hk/fce/research/university-research-facility-in-chemical-and-environmental-analysis/",
+        "https://www.polyu.edu.hk/fce/research/fce-research-brochure/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/fce-impact-case-studies/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/patents/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/awards/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/funded-projects-with-industry-partners/",
+        "https://www.polyu.edu.hk/fce/knowledge-transfer/start-ups/",
+        "https://www.polyu.edu.hk/fce/news-and-events/news/",
+        "https://www.polyu.edu.hk/fce/news-and-events/fce-in-the-media/",
+        "https://www.polyu.edu.hk/fce/news-and-events/events/",
+        "https://www.polyu.edu.hk/fce/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/fce/news-and-events/build-a-smart-city-competition-2026/",
+        "https://www.polyu.edu.hk/fce/publication/fce-e-bulletin/",
+        "https://www.polyu.edu.hk/fce/publication/fce-videos/",
+        "https://www.polyu.edu.hk/fce/publication/fce-videos/fce-impact-case-studies/",
+        "https://www.polyu.edu.hk/fce/publication/newsletter-and-magazine/",
+        "https://www.polyu.edu.hk/fce/publication/other-publications/",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fforms.office.com%2FPages%2FResponsePage.aspx%3Fid%3DYPc3j4exgUm4L-Xcb1vPRPqkioGWd-xOiq6bU8IsX4NUMDNLUEJFVzFTMTRWV0xBSE83NE5LMDVLVi4u%26r535545b9bb374392a6761521dd8cff36%3D%2522%255B%255C%2522Register%2520for%2520FCE%2520Network%2520Membership%2520(https%253A%252F%252Fwww.polyu.edu.hk%252Ffce%252Ffce-community%252Ffce-smart-and-resilient-visionaries-network%252F)%25C2%25A0%25C2%25A0Join%2520a%2520vibrant%2520hub%2520for%2520community%2520engagement%2520and%2520collaboration%252C%2520connecting%2520current%2520FCE%2520students%252C%2520alumni%252C%2520industrial%2520partners%252C%2520academic%2520partners%252C%2520and%2520other%2520interested%2520parties.%2520Membership%2520is%2520open%2520to%2520all%2520and%2520free%2520of%2520charge.%255C%2522%252C%255C%2522Subscribe%2520to%2520FCE%2520Publications%25C2%25A0%25C2%25A0Receive%2520FCE%2520news%2520and%2520updates%252C%2520including%2520the%2520monthly%2520e%2520bulletin%2520and%2520annual%2520magazine.%255C%2522%255D%2522&data=05%7C02%7Cwk-karen.kwok%40polyu.edu.hk%7C494a533bb10a4d590e7008de7f52ba8e%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C639088190488538752%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=DBhPhigYJxR8j4RFqj7FWyhQxFFszxlUEgSANxW3UHg%3D&reserved=0",
+        "https://www.polyu.edu.hk/alumni/connect/graduating-class_class-connector/",
+        "https://www.polyu.edu.hk/fce/fce-community/alumni-corner/outstanding-alumni-of-fce/",
+        "https://www.polyu.edu.hk/alumni/connect/local-associations/",
+        "https://www.polyu.edu.hk/alumni/privileges/polyu-alumni-ecard/",
+        "https://www.polyu.edu.hk/alumni/privileges/alumni-netid/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/fce-fund/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/fce-fund/give-now/",
+        "https://www.polyu.edu.hk/giving/priorities/research-and-innovation/endowed-professorship-scheme/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/endowed-professorship-scheme/endowed-professors-at-fce/",
+        "https://www.polyu.edu.hk/giving/priorities/research-and-innovation/endowed-young-scholar-scheme/",
+        "https://www.polyu.edu.hk/fce/fce-community/supporting-fce/endowed-young-scholars-scheme/endowed-young-scholars-at-fce/",
+        "https://www.polyu.edu.hk/fce/fce-community/fce-urban-intelligence-and-resilience-network/",
+        "https://www.polyu.edu.hk/fce/about-fce/deans-message/",
+        "https://www.polyu.edu.hk/fce/about-fce/vision-and-mission/",
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/people/",
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/departments/",
+        "https://www.polyu.edu.hk/fce/about-fce/faculty-structure/committees/",
+        "https://www.polyu.edu.hk/fce/about-fce/world-rankings/",
+        "https://www.polyu.edu.hk/fce/about-fce/contact-us/",
+        "https://www.polyu.edu.hk/arch/",
+        "https://www.polyu.edu.hk/beee/",
+        "https://www.polyu.edu.hk/cee",
+        "https://www.polyu.edu.hk/bre/",
+        "https://www.polyu.edu.hk/lsgi/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fce/sitemap/",
+        "https://www.facebook.com/polyufce",
+        "https://www.youtube.com/channel/UCGhFmSw2a89i4dy8kNrRR_Q/videos",
+        "https://www.instagram.com/polyufce/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fce/search-result/?q=Competition",
+        "https://www.polyu.edu.hk/fce/search-result/?q=Events"
+      ],
+      "listedNames": [
+        "Department of Architecture",
+        "Department of Building Environment and Energy Engineering",
+        "Department of Civil and Environmental Engineering",
+        "Department of Construction Management and Intelligence",
+        "Department of Land Surveying and Geospatial Science"
+      ]
+    },
+    {
+      "id": "college-batch-polyu-health-20261029",
+      "url": "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department/",
+      "bodySha256": "66ef90c959e7784ccf262d36417a0229d7213cd247c1fa0c788ecfd8517d9058",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "3 departments and2 schools",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "3 departments and2 schools"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department/#skip-start",
+        "https://www.polyu.edu.hk/fhss/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department?sc_lang=tc",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department?sc_lang=sc",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/spe/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/sw/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/mls/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/rad/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/ot/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/phy/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/nurses/",
+        "https://www.polyu.edu.hk/fhss/study/our_professions/opt/",
+        "https://www.polyu.edu.hk/fhss/study/undergraduate/",
+        "https://www.polyu.edu.hk/fhss/study/postgraduate/",
+        "https://www.polyu.edu.hk/fhss/study/current-students/",
+        "https://www.polyu.edu.hk/fhss/study/prospective-students/",
+        "https://www.polyu.edu.hk/fhss/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/fhss/research/research-direction-and-strategies/",
+        "https://www.polyu.edu.hk/fhss/research/research-impact/",
+        "https://www.polyu.edu.hk/fhss/research/ctu/",
+        "https://www.polyu.edu.hk/fhss/research/ctu/ppie/",
+        "https://www.polyu.edu.hk/fhss/research/opportunities-and-support/",
+        "https://www.polyu.edu.hk/fhss/research/seminars-workshops/",
+        "https://www.polyu.edu.hk/fhss/research/human-sub/",
+        "https://www.polyu.edu.hk/fhss/research/3mt/",
+        "https://www.polyu.edu.hk/fhss/research/ideation-funding-scheme/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/event-calendar/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/news-and-events/",
+        "https://www.polyu.edu.hk/fhss/news-and-events/fhss-50th-anniversary/logo-design-competition/",
+        "https://www.polyu.edu.hk/fhss/publications/fhss-newsletter/",
+        "https://www.polyu.edu.hk/fhss/publications/other-publications/",
+        "https://www.polyu.edu.hk/fhss/about/deans-message/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/motto-vision-mission/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/department/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/services/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/international-awards/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/our-people/faculty-leadership/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/our-people/department-school-heads/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/our-people/faculty-office/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/alumni/",
+        "https://www.polyu.edu.hk/fhss/about/fhss-at-a-glance/facts-and-figures/",
+        "https://www.polyu.edu.hk/fhss/about/contactus/",
+        "https://www.polyu.edu.hk/fhss/about/support/",
+        "https://www.polyu.edu.hk/apss/",
+        "http://www.polyu.edu.hk/hti",
+        "https://www.polyu.edu.hk/rs/",
+        "https://www.polyu.edu.hk/sn/",
+        "http://www.polyu.edu.hk/so",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fhss/sitemap/",
+        "https://www.facebook.com/PolyU.FHSS",
+        "https://www.instagram.com/polyufhss/",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch"
+      ],
+      "listedNames": [
+        "Department of Applied Social Sciences",
+        "Department of Health Technology and Informatics",
+        "Department of Rehabilitation Sciences",
+        "School of Nursing",
+        "School of Optometry"
+      ]
+    },
+    {
+      "id": "college-batch-polyu-humanities-20261029",
+      "url": "https://www.polyu.edu.hk/fh/about-fh/faculty-structure/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fh/about-fh/faculty-structure/",
+      "bodySha256": "70f4ec4f2924d7eb9fe4694fc792ddbca802647a910e5bb6debf61d721dfb6c1",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "3 departments and1 division; research centres separately listed",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "3 departments and1 division; research centres separately listed"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fh/about-fh/faculty-structure/#skip-start",
+        "https://www.polyu.edu.hk/fh/about-fh/contact-us/",
+        "https://www.polyu.edu.hk/fh/",
+        "https://www.polyu.edu.hk/fh/about-fh/faculty-structure?sc_lang=tc",
+        "https://www.polyu.edu.hk/fh/about-fh/faculty-structure?sc_lang=sc",
+        "https://www.polyu.edu.hk/fh/intranet/student/",
+        "https://www.polyu.edu.hk/fh/intranet/staff/",
+        "https://www.polyu.edu.hk/fh/about-fh/fh-at-a-glance/",
+        "https://www.polyu.edu.hk/fh/about-fh/faculty-structure/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/programme-listing/",
+        "https://www.polyu.edu.hk/fh/study/taught-postgraduate-programmes/",
+        "https://www.polyu.edu.hk/fh/study/research-postgraduate-programmes_old/",
+        "https://www.polyu.edu.hk/fh/research/",
+        "https://www.polyu.edu.hk/fh/news-and-events/event/",
+        "https://www.polyu.edu.hk/fh/news-and-events/newsletter/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fh/study/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/jupas-applicants/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/non-jupas-applicants-year-1/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/non-jupas-applicants-senior-year/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/international-students/",
+        "https://www.polyu.edu.hk/fh/study/undergraduate-programmes/mainland-students/",
+        "https://www.polyu.edu.hk/fh/study/research-postgraduate-programmes/prospective-students/",
+        "https://www.polyu.edu.hk/fh/study/research-postgraduate-programmes/current-students/",
+        "https://www.polyu.edu.hk/fh/study/competitions-for-secondary-school-students/",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#student-exchange",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#NonLocalStudentStories",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#WIE",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#SL",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#scholarships",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#awards-achievements",
+        "https://www.polyu.edu.hk/fh/experience-and-opportunities/#graduates-employment",
+        "https://www.polyu.edu.hk/fh/research/fh-researchers/",
+        "https://www.polyu.edu.hk/fh/research/research-projects/",
+        "https://www.polyu.edu.hk/fh/research/laboratories-and-facilities/",
+        "https://www.polyu.edu.hk/fh/research/research-centres/",
+        "https://www.polyu.edu.hk/fh/research/research-areas/",
+        "https://www.polyu.edu.hk/fh/research/research-output/",
+        "https://www.polyu.edu.hk/fh/research/knowledge-transfer/",
+        "https://www.polyu.edu.hk/fh/research/research-into-learning-and-teaching/",
+        "https://www.polyu.edu.hk/fh/research/3mt/",
+        "https://www.polyu.edu.hk/fh/news-and-events/news/",
+        "https://www.polyu.edu.hk/fh/news-and-events/outstanding-alumni-award/",
+        "https://www.polyu.edu.hk/fh/news-and-events/staff-awards-and-achievements/",
+        "https://www.polyu.edu.hk/fh/news-and-events/video-gallery/",
+        "https://www.polyu.edu.hk/fh/news-and-events/distinguished-lectures-in-humanities/",
+        "https://www.polyu.edu.hk/fh/people/fh-leadership-team/",
+        "https://www.polyu.edu.hk/fh/people/fh-office-administrative-team/",
+        "https://www.polyu.edu.hk/fh/people/emeritus-honorary-and-adjunct-professors/",
+        "https://www.polyu.edu.hk/fh/people/departmental-academic-advisors-and-advisory-committees/",
+        "https://www.polyu.edu.hk/fh/chao-prize",
+        "https://www.polyu.edu.hk/fh/about-fh/message-from-the-dean/",
+        "https://www.polyu.edu.hk/fh/about-fh/world-partners-list/",
+        "https://www.polyu.edu.hk/fh/about-fh/vision-and-mission/",
+        "https://www.polyu.edu.hk/hro/careers/external_adv/",
+        "https://jobs.polyu.edu.hk/job_detail.php?job=250603011",
+        "https://www.polyu.edu.hk/cc/zh_hk/",
+        "https://www.polyu.edu.hk/engl/",
+        "https://www.polyu.edu.hk/cbs/",
+        "https://www.polyu.edu.hk/aih/",
+        "http://www.ircahc.org/",
+        "https://www.polyu.edu.hk/rcchc/",
+        "https://www.polyu.edu.hk/cbs/rclcn/",
+        "http://rcpce.engl.polyu.edu.hk/rcpce/index.html",
+        "https://www.polyu.edu.hk/cbs/cts/en/",
+        "https://www.polyu.edu.hk/cbs/st/en",
+        "https://www.polyu.edu.hk/engl/people/academic-staff/prof-guangwei-hu/",
+        "https://www.polyu.edu.hk/engl/people/academic-staff/prof-william-dezheng-feng/",
+        "https://www.polyu.edu.hk/lst/people/academic-staff/ngai-sing-bik-cindy/",
+        "https://www.polyu.edu.hk/chc/people/academic-staff/dr-qing-pei/",
+        "https://research.polyu.edu.hk/en/persons/kanglong-liu",
+        "https://www.polyu.edu.hk/engl/people/academic-staff/prof-renia-lopez/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fh/sitemap/",
+        "https://facebook.com/hkpolyu.humanities",
+        "https://www.youtube.com/@polyufacultyofhumanities/videos",
+        "https://www.instagram.com/polyufh/",
+        "https://www.linkedin.com/company/polyu-humanities",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Events",
+        "https://www.polyu.edu.hk/fh/search-result/?q=DALS",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Undergraduate Admission",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Postgraduate Admission",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Books Published",
+        "https://www.polyu.edu.hk/fh/search-result/?q=Journal Papers"
+      ],
+      "listedNames": [
+        "Department of Chinese History and Culture",
+        "Department of English and Communication",
+        "Department of Language Science and Technology",
+        "Division of Artificial Intelligence and the Humanities"
+      ]
+    },
+    {
+      "id": "college-batch-polyu-science-20261029",
+      "url": "https://www.polyu.edu.hk/fs/about-the-faculty/faculty-structure/",
+      "retrievedUrl": "https://www.polyu.edu.hk/fs/about-the-faculty/faculty-structure/",
+      "bodySha256": "35792caccbffd87b4671ecb8aac965768161d21180f21efacd684b3be7c4968a",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "4 department names from HTML image alt with actual linked URLs",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "4 department names from HTML image alt with actual linked URLs"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/fs/about-the-faculty/faculty-structure/#skip-start",
+        "https://www.polyu.edu.hk/fs/",
+        "https://www.polyu.edu.hk/about-polyu/",
+        "https://www.polyu.edu.hk/campus-map/",
+        "https://www.polyu.edu.hk/atoz/",
+        "https://www.polyu.edu.hk/research/",
+        "https://www.polyu.edu.hk/prospective-students/",
+        "https://www.polyu.edu.hk/fs/study/",
+        "https://www.polyu.edu.hk/fs/publication/publication/",
+        "https://www.polyu.edu.hk/fs/research/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/",
+        "https://www.polyu.edu.hk/fs/news-and-events/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/",
+        "https://www.polyu.edu.hk/fs/intranet/staff/",
+        "https://www.polyu.edu.hk/en/",
+        "https://www.polyu.edu.hk/fs/study/undergraduate-programme/prospective-students/",
+        "https://www.polyu.edu.hk/fs/study/undergraduate-programme/current-students/",
+        "https://www.polyu.edu.hk/fs/study/taught-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fs/study/research-postgraduate-programme/",
+        "https://www.polyu.edu.hk/fs/study/admission-requirement-and-application-method/undergraduate-admission/",
+        "https://www.polyu.edu.hk/fs/study/admission-requirement-and-application-method/postgraduate-admission/",
+        "https://www.polyu.edu.hk/fs/study/programme-brochure/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-exchange/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/internship-sponsorships-and-scholarships/sponsorship-for-internship-enhancement-programme/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/internship-sponsorships-and-scholarships/fs-professional-training-workshops/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/internship-sponsorships-and-scholarships/entry-scholarships/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/student-achievements-and-awards/",
+        "https://www.polyu.edu.hk/fs/experience-and-opportunities/alumni/messages-from-alumni/",
+        "https://www.polyu.edu.hk/alumni/about-aado/",
+        "https://www.polyu.edu.hk/fs/research/our-researchers/by-department/",
+        "https://www.polyu.edu.hk/fs/research/research-centres/",
+        "https://www.polyu.edu.hk/fs/research/research-excellence/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/rgc-senior-research-fellow/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/research-impact-2022/",
+        "https://www.polyu.edu.hk/fs/research/research-videos/research-insight-2021/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/polyu-snu-bilateral-workshop_202607/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/bilateral-workshop_20260401/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop-on-ai-x-science/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop-on-flexible-organic-and-perovskite-electronics/",
+        "https://www.polyu.edu.hk/fs/docdrive/FS_Symposium_20231110/index.html",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/workshop-information/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/programme/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/speakers/",
+        "https://www.polyu.edu.hk/fs/research/symposium-and-workshop/workshop_20220919/contact/",
+        "https://www.polyu.edu.hk/fs/docdrive/workshop_20220704/index.html",
+        "https://www.polyu.edu.hk/fast/docdrive/workshop_20220519/",
+        "https://www.polyu.edu.hk/fast/docdrive/workshop_20220323/",
+        "https://events.polyu.edu.hk/plcs2026/",
+        "https://www.polyu.edu.hk/fs/research/3mt/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-impact-cases/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-start-up-companies/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/collaborate-with-our-researchers/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-funded-projects-with-industry-partners/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-funded-projects-with-industry-partners/#Government",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/polyu-science-funded-projects-with-industry-partners/#KTEO",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/commercialization-and-patents/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/internship-opportunities-for-our-students/",
+        "https://www.polyu.edu.hk/fs/knowledge-transfer/kt-areas-by-depts/",
+        "https://www.polyu.edu.hk/fs/news-and-events/events/",
+        "https://www.polyu.edu.hk/fs/news-and-events/awards-and-achievements/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-in-the-news/",
+        "https://www.polyu.edu.hk/fs/news-and-events/video-corner/",
+        "https://www.polyu.edu.hk/fs/news-and-events/photo-gallery/",
+        "https://www.polyu.edu.hk/fs/news-and-events/outstanding-alumni-award-of-polyu-faculty-of-science/",
+        "https://www.polyu.edu.hk/fs/news-and-events/polyu-science-young-talents-competition/",
+        "https://www.polyu.edu.hk/fs/news-and-events/fite-seminar-series-videos/",
+        "https://www.polyu.edu.hk/fs/publication/e-newsletter/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/dean-message/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/vision-and-mission/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/faculty-structure/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/people/",
+        "https://www.polyu.edu.hk/fs/about-the-faculty/contact-us/",
+        "https://www.polyu.edu.hk/chem/",
+        "https://www.polyu.edu.hk/fsn/",
+        "https://www.polyu.edu.hk/ls/",
+        "https://www.polyu.edu.hk/pm/",
+        "https://www.polyu.edu.hk/privacy-policy-statement/",
+        "https://www.polyu.edu.hk/terms-of-use/",
+        "https://www.polyu.edu.hk/accessibility/",
+        "https://www.polyu.edu.hk/fs/sitemap/",
+        "https://www.facebook.com/PolyUScience/",
+        "https://www.youtube.com/channel/UCOFa1291eDijD0RObTwa9yg",
+        "https://www.instagram.com/polyuscience/",
+        "https://www.linkedin.com/company/polyuscience",
+        "https://www.polyu.edu.hk/en/accessibility/",
+        "https://www.polyu.edu.hk/internalsearch",
+        "https://www.polyu.edu.hk/fs/search-result/?q=Events",
+        "https://www.polyu.edu.hk/fs/search-result/?q=Competition"
+      ],
+      "listedNames": [
+        "Department of Chemistry (CHEM)",
+        "Department of Food Science and Nutrition (FSN)",
+        "Department of Life Sciences (LS)",
+        "Department of Physics and Materials (PM)"
+      ]
+    },
+    {
+      "id": "college-batch-cuhksz-business-20261029",
+      "url": "https://sme.cuhk.edu.cn/page/3358",
+      "retrievedUrl": "https://sme.cuhk.edu.cn/page/3358",
+      "bodySha256": "7c921f237d2c2d30b358fa5f2365c23721e338eb94b6f2a2677b5e6cd3eb6c67",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_structure_list_scoped",
+      "readMethod": "anonymous_HTTP",
+      "title": "6 academic fields from field-lead roles, not departments",
+      "scope": "所引页面中的单位名称与提供的入口；不是全校收齐、教师资格、当期招生或实时余位的证明。",
+      "claims": [
+        "6 academic fields from field-lead roles, not departments"
+      ],
+      "knownIssues": [
+        "核查日不等于架构生效日；保留原页面范围、不同单位类型和未知信息。"
+      ],
+      "discoveredLinks": [
+        "http://sfi.cuhk.edu.cn/",
+        "https://side.cuhk.edu.cn/",
+        "https://sme-alumni.cuhk.edu.cn/zh-hans/basic/657",
+        "https://www.cuhk.edu.cn",
+        "https://gptsme.com/",
+        "https://sme.cuhk.edu.cn/en/page/3358",
+        "https://sme.cuhk.edu.cn/",
+        "https://sme.cuhk.edu.cn/page/3357",
+        "https://sme.cuhk.edu.cn/page/3359",
+        "https://sme.cuhk.edu.cn/page/3360",
+        "https://sme.cuhk.edu.cn/page/35",
+        "https://sme.cuhk.edu.cn/page/3358",
+        "https://sfi.cuhk.edu.cn",
+        "https://sme.cuhk.edu.cn/page/532",
+        "https://sme.cuhk.edu.cn/node/3398",
+        "https://sme.cuhk.edu.cn/node/3396",
+        "https://sme.cuhk.edu.cn/node/3400",
+        "https://sme.cuhk.edu.cn/node/3401",
+        "https://sme.cuhk.edu.cn/node/3403",
+        "https://sme.cuhk.edu.cn/node/3404",
+        "https://sme.cuhk.edu.cn/node/3402",
+        "https://sme.cuhk.edu.cn/node/3399",
+        "https://sme.cuhk.edu.cn/node/3397",
+        "https://msfin.cuhk.edu.cn/",
+        "https://msecon.cuhk.edu.cn/",
+        "https://msacct.cuhk.edu.cn/",
+        "https://mscds.cuhk.edu.cn/",
+        "https://mscmkt.cuhk.edu.cn/",
+        "https://msimba.cuhk.edu.cn/",
+        "http://emscsclm.cuhk.edu.cn/",
+        "https://mbm.cuhk.edu.cn/",
+        "https://femba.cuhk.edu.cn/",
+        "https://sme.cuhk.edu.cn/node/1950",
+        "https://sme.cuhk.edu.cn/page/1958",
+        "https://sme.cuhk.edu.cn/page/1957",
+        "https://sme.cuhk.edu.cn/page/1959",
+        "https://sme.cuhk.edu.cn/page/2098",
+        "https://sme.cuhk.edu.cn/page/2107",
+        "https://sme.cuhk.edu.cn/page/3255",
+        "https://sme.cuhk.edu.cn/taxonomy/term/231",
+        "https://dba-side.cuhk.edu.cn",
+        "https://side.cuhk.edu.cn/zh-hans/cc",
+        "https://side.cuhk.edu.cn/zh-hans/page/305",
+        "https://sme.cuhk.edu.cn/taxonomy/term/66",
+        "https://sme.cuhk.edu.cn/page/608",
+        "https://sme.cuhk.edu.cn/node/3438",
+        "https://sme.cuhk.edu.cn/page/821",
+        "https://sme.cuhk.edu.cn/page/3394",
+        "https://sfi.cuhk.edu.cn/research-centers",
+        "https://sfi.cuhk.edu.cn/node/6001",
+        "https://sfi.cuhk.edu.cn/node/6003",
+        "https://sfi.cuhk.edu.cn/FinTech-and-Social-Finance",
+        "https://sfi.cuhk.edu.cn/node/6054",
+        "https://sfi.cuhk.edu.cn/node/6056",
+        "https://sfi.cuhk.edu.cn/node/6070",
+        "https://sfi.cuhk.edu.cn/node/6066",
+        "https://sfi.cuhk.edu.cn/node/6062",
+        "https://side.cuhk.edu.cn/en/node/209",
+        "https://side.cuhk.edu.cn/node/519",
+        "https://side.cuhk.edu.cn/zh-hans/node/221",
+        "https://side.cuhk.edu.cn/zh-hans/node/218",
+        "https://side.cuhk.edu.cn/zh-hans/node/219",
+        "https://side.cuhk.edu.cn/zh-hans/node/496",
+        "https://side.cuhk.edu.cn/zh-hans/node/216",
+        "https://side.cuhk.edu.cn/zh-hans/node/344",
+        "https://side.cuhk.edu.cn/node/548",
+        "https://side.cuhk.edu.cn/node/632",
+        "https://side.cuhk.edu.cn/node/217",
+        "https://side.cuhk.edu.cn/node/954",
+        "https://side.cuhk.edu.cn/node/1037",
+        "https://side.cuhk.edu.cn/node/1038",
+        "https://side.cuhk.edu.cn/node/1039",
+        "https://sme.cuhk.edu.cn/taxonomy/term/247",
+        "https://sme.cuhk.edu.cn/teacher-search",
+        "https://sme.cuhk.edu.cn/page/3492",
+        "https://sme.cuhk.edu.cn/page/56",
+        "https://sme.cuhk.edu.cn/page/3587",
+        "https://sme.cuhk.edu.cn/taxonomy/term/109",
+        "https://sme.cuhk.edu.cn/node/3567",
+        "https://sme.cuhk.edu.cn/page/1119",
+        "https://sme.cuhk.edu.cn/page/67",
+        "https://sme.cuhk.edu.cn/program-search",
+        "https://oal.cuhk.edu.cn/page/1520",
+        "https://sme.cuhk.edu.cn/taxonomy/term/219",
+        "https://sme-career.cuhk.edu.cn/",
+        "http://sme-alumni.cuhk.edu.cn/",
+        "https://sme.cuhk.edu.cn/taxonomy/term/1",
+        "https://sme.cuhk.edu.cn/taxonomy/term/243",
+        "https://space.bilibili.com/508832652?spm_id_from=333.337.search-card.all.click",
+        "https://www.youtube.com/@CUHKSZ-SME"
+      ],
+      "listedNames": [
+        "经济学领域负责人",
+        "会计学领域负责人",
+        "金融学领域负责人",
+        "市场营销领域负责人",
+        "管理学领域负责人",
+        "信息系统与运营管理领域负责人"
+      ]
     }
   ],
   "funding": [
@@ -162997,7 +167786,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-1"
+            "academic-map-hku-1",
+            "college-batch-hku-1-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -163008,7 +167798,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Architecture",
+              "inventoryListing": {
+                "name": "Department of Architecture",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Real Estate and Construction",
@@ -163016,7 +167821,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Real Estate and Construction",
+              "inventoryListing": {
+                "name": "Department of Real Estate and Construction",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Urban Planning and Design",
@@ -163024,10 +167844,64 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Urban Planning and Design",
+              "inventoryListing": {
+                "name": "Department of Urban Planning and Design",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "1e76b229fcfa20fad28a76ad610b098e0d7a11bfc1508c94f7003c20962fd911",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/architecture",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hku-1-20261029"
+            ],
+            "summary": "学院页列三个学系，并在建筑学系介绍中另提园境建筑学部。保留上下层关系，不把学部漏掉，也不改成第四个并列学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 3
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "建筑学系介绍中的园境建筑学部",
+              "kind": "academic_subunits",
+              "parentUnitName": "Department of Architecture",
+              "note": "保留上层建筑学系，不作为第四个并列学系。",
+              "sourceIds": [
+                "college-batch-hku-1-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Division of Landscape Architecture (DLA)",
+                  "observedName": "Division of Landscape Architecture (DLA)",
+                  "url": null,
+                  "kind": "division",
+                  "sourceIds": [
+                    "college-batch-hku-1-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "所引页面未给可确定的独立入口；先从学院官网继续核查。"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "hku-2",
@@ -163037,7 +167911,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-2"
+            "academic-map-hku-2",
+            "college-batch-hku-2-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -163048,7 +167923,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Chinese",
+              "inventoryListing": {
+                "name": "School of Chinese",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of English",
@@ -163056,7 +167946,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of English",
+              "inventoryListing": {
+                "name": "School of English",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Humanities",
@@ -163064,7 +167969,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Humanities",
+              "inventoryListing": {
+                "name": "School of Humanities",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Modern Languages and Cultures",
@@ -163072,7 +167992,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Modern Languages and Cultures",
+              "inventoryListing": {
+                "name": "School of Modern Languages and Cultures",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Centre of Buddhist Studies",
@@ -163080,7 +168015,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "centre",
+              "observedName": "Centre of Buddhist Studies",
+              "inventoryListing": {
+                "name": "Centre of Buddhist Studies",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -163094,6 +168044,117 @@ window.APP_CATALOG = {
               "teacherProfilesTotal": null,
               "enumerationComplete": false,
               "profileLeads": []
+            }
+          ],
+          "bodySha256": "193d4ec266e3b82be015de374cbc819d5f39821a1b85da10ced65be396ddab36",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/arts",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hku-2-20261029",
+              "college-batch-hku-humanities-units-20261029"
+            ],
+            "summary": "学院页列四所School和佛学研究中心；人文学院还下设七个教学研究单位，名称与课程须到其自身页面继续区分。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "人文学院下的教学研究单位",
+              "kind": "academic_subunits",
+              "parentUnitName": "School of Humanities",
+              "note": "官网栏目为Departments & Programmes；性别研究等条目保留原类型，不统一改称学系。",
+              "sourceIds": [
+                "college-batch-hku-humanities-units-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Comparative Literature",
+                  "observedName": "Comparative Literature",
+                  "url": "https://complit.hku.hk/",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Art History",
+                  "observedName": "Art History",
+                  "url": "https://arthistory.hku.hk/",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "History",
+                  "observedName": "History",
+                  "url": "https://www.history.hku.hk/",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Linguistics",
+                  "observedName": "Linguistics",
+                  "url": "https://linguistics.hku.hk/",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Music",
+                  "observedName": "Music",
+                  "url": "http://www.music.hku.hk/",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Philosophy",
+                  "observedName": "Philosophy",
+                  "url": "https://philosophy.hku.hk",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Gender Studies",
+                  "observedName": "Gender Studies",
+                  "url": "https://genderstudies.hku.hk",
+                  "kind": "department_or_programme",
+                  "sourceIds": [
+                    "college-batch-hku-humanities-units-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
             }
           ]
         },
@@ -163234,7 +168295,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-4"
+            "academic-map-hku-4",
+            "college-batch-hku-4-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -163245,7 +168307,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "Applied Oral Sciences & Community Dental Care",
+              "inventoryListing": {
+                "name": "Applied Oral Sciences & Community Dental Care",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Oral & Maxillofacial Surgery",
@@ -163253,7 +168330,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "Oral & Maxillofacial Surgery",
+              "inventoryListing": {
+                "name": "Oral & Maxillofacial Surgery",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Paediatric Dentistry & Orthodontics",
@@ -163261,7 +168353,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "Paediatric Dentistry & Orthodontics",
+              "inventoryListing": {
+                "name": "Paediatric Dentistry & Orthodontics",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Periodontology & Implant Dentistry",
@@ -163269,7 +168376,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "Periodontology & Implant Dentistry",
+              "inventoryListing": {
+                "name": "Periodontology & Implant Dentistry",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Restorative Dental Sciences",
@@ -163277,10 +168399,39 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "Restorative Dental Sciences",
+              "inventoryListing": {
+                "name": "Restorative Dental Sciences",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "e1e2d8e5874d6b8f5a032ecf53a61b8c0406f97f1fdb0bf28c868af66815655f",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/dentistry",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hku-4-20261029"
+            ],
+            "summary": "本页列五个Division，保留原分类。专科领域、学部与教师名单分开，尚不能据此判断导师资格或余位。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hku-5",
@@ -163290,7 +168441,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-5"
+            "academic-map-hku-5",
+            "college-batch-hku-5-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -163301,7 +168453,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "academic_unit",
+              "observedName": "Language and Literacy Education (LALE)",
+              "inventoryListing": {
+                "name": "Language and Literacy Education (LALE)",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-5-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-5-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Human Communication, Learning, and Development (HCLD)",
@@ -163309,7 +168476,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "academic_unit",
+              "observedName": "Human Communication, Learning, and Development (HCLD)",
+              "inventoryListing": {
+                "name": "Human Communication, Learning, and Development (HCLD)",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-5-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-5-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Mathematics, Science, and Technology (MST)",
@@ -163317,7 +168499,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "academic_unit",
+              "observedName": "Mathematics, Science, and Technology (MST)",
+              "inventoryListing": {
+                "name": "Mathematics, Science, and Technology (MST)",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-5-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-5-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Social Contexts and Policies of Education (SCAPE)",
@@ -163325,7 +168522,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "academic_unit",
+              "observedName": "Social Contexts and Policies of Education (SCAPE)",
+              "inventoryListing": {
+                "name": "Social Contexts and Policies of Education (SCAPE)",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-5-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-5-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -163338,7 +168550,21 @@ window.APP_CATALOG = {
               "enumerationComplete": false,
               "profileLeads": []
             }
-          ]
+          ],
+          "bodySha256": "e80eea86b05d153e1cec4b7979951a09a4df8b2e61fc9ff7887f13898608313d",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/education",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hku-5-20261029"
+            ],
+            "summary": "本页列四个Academic Unit，不能统称四个学系。研究学位名称已经出现，但当期申请条件和指导资格仍要另查。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hku-6",
@@ -167095,12 +172321,27 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-7"
+            "academic-map-hku-7",
+            "college-batch-hku-7-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "53fd074e05158e06a4d06cd57b2763a1b7c350ec395581e24f2d452d1400643d",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/law",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-hku-7-20261029"
+            ],
+            "summary": "校级介绍与现时学院主页未提供完整学系名单；没有列出不等于没有，旧历史页也不能替代当前架构。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hku-8",
@@ -167110,7 +172351,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-8"
+            "academic-map-hku-8",
+            "college-batch-hku-8-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -167121,7 +172363,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Biomedical Sciences",
+              "inventoryListing": {
+                "name": "School of Biomedical Sciences",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Biomedical Engineering",
@@ -167129,7 +172386,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Biomedical Engineering",
+              "inventoryListing": {
+                "name": "School of Biomedical Engineering",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Chinese Medicine",
@@ -167137,7 +172409,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Chinese Medicine",
+              "inventoryListing": {
+                "name": "School of Chinese Medicine",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Clinical Medicine",
@@ -167145,7 +172432,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Clinical Medicine",
+              "inventoryListing": {
+                "name": "School of Clinical Medicine",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Nursing",
@@ -167153,7 +172455,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Nursing",
+              "inventoryListing": {
+                "name": "School of Nursing",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Pharmacology and Pharmacy",
@@ -167161,7 +172478,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Pharmacology and Pharmacy",
+              "inventoryListing": {
+                "name": "Department of Pharmacology and Pharmacy",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Public Health",
@@ -167169,7 +172501,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Public Health",
+              "inventoryListing": {
+                "name": "School of Public Health",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -167181,6 +172528,237 @@ window.APP_CATALOG = {
               "teacherProfilesTotal": null,
               "enumerationComplete": false,
               "profileLeads": []
+            }
+          ],
+          "bodySha256": "7dd41fa117dbe8c2e113cd967079c5f71cb536a4f152136999fef7317c95bc79",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/medicine",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hku-8-20261029",
+              "college-batch-hku-clinical-departments-20261029"
+            ],
+            "summary": "学院一级列六所School与药理及药剂学系；临床医学院还有下一层学系和单位。生物医学工程学院保留跨学院身份，不重复当作新Faculty。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 7
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "临床医学院下的学系和单位",
+              "kind": "academic_subunits",
+              "parentUnitName": "School of Clinical Medicine",
+              "note": "学院→临床医学院→学系/单位；保留层级，不能与医学院的七个一级条目并列相加。",
+              "sourceIds": [
+                "college-batch-hku-clinical-departments-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Centre of Cancer Medicine",
+                  "observedName": "Centre of Cancer Medicine",
+                  "url": "http://cancermed.med.hku.hk",
+                  "kind": "centre",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Critical Care Medicine Unit",
+                  "observedName": "Critical Care Medicine Unit",
+                  "url": "http://ccmu.med.hku.hk/",
+                  "kind": "unit",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Anaesthesiology",
+                  "observedName": "Department of Anaesthesiology",
+                  "url": "https://www.anaesthesia.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Clinical Oncology (Founding Member of Centre of Cancer Medicine)",
+                  "observedName": "Department of Clinical Oncology (Founding Member of Centre of Cancer Medicine)",
+                  "url": "http://oncology.med.hku.hk",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Diagnostic Radiology",
+                  "observedName": "Department of Diagnostic Radiology",
+                  "url": "https://radiology.med.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Emergency Medicine",
+                  "observedName": "Department of Emergency Medicine",
+                  "url": "https://emed.med.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Family Medicine and Primary Care",
+                  "observedName": "Department of Family Medicine and Primary Care",
+                  "url": "https://fmpc.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Medicine",
+                  "observedName": "Department of Medicine",
+                  "url": "https://medic.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Microbiology",
+                  "observedName": "Department of Microbiology",
+                  "url": "http://www.microbiology.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Obstetrics and Gynaecology",
+                  "observedName": "Department of Obstetrics and Gynaecology",
+                  "url": "https://obsgyn.med.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Ophthalmology",
+                  "observedName": "Department of Ophthalmology",
+                  "url": "https://ophthalmology.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Orthopaedics and Traumatology",
+                  "observedName": "Department of Orthopaedics and Traumatology",
+                  "url": "https://www.ortho.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Paediatrics and Adolescent Medicine",
+                  "observedName": "Department of Paediatrics and Adolescent Medicine",
+                  "url": "http://paed.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Pathology",
+                  "observedName": "Department of Pathology",
+                  "url": "http://www.patho.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Psychiatry",
+                  "observedName": "Department of Psychiatry",
+                  "url": "https://www.psychiatry.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Surgery",
+                  "observedName": "Department of Surgery",
+                  "url": "http://www.surgery.hku.hk/",
+                  "kind": "department",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Medical Ethics and Humanities Unit",
+                  "observedName": "Medical Ethics and Humanities Unit",
+                  "url": "http://mehu.hku.hk/",
+                  "kind": "unit",
+                  "sourceIds": [
+                    "college-batch-hku-clinical-departments-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
             }
           ]
         },
@@ -167340,7 +172918,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hku-10"
+            "academic-map-hku-10",
+            "college-batch-hku-10-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -167351,7 +172930,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Geography",
+              "inventoryListing": {
+                "name": "Department of Geography",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Politics and Public Administration",
@@ -167359,7 +172953,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Politics and Public Administration",
+              "inventoryListing": {
+                "name": "Department of Politics and Public Administration",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Psychology",
@@ -167367,7 +172976,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Psychology",
+              "inventoryListing": {
+                "name": "Department of Psychology",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Social Work and Social Administration",
@@ -167375,7 +172999,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Social Work and Social Administration",
+              "inventoryListing": {
+                "name": "Department of Social Work and Social Administration",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Sociology",
@@ -167383,7 +173022,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Sociology",
+              "inventoryListing": {
+                "name": "Department of Sociology",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Governance and Policy",
@@ -167391,7 +173045,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Governance and Policy",
+              "inventoryListing": {
+                "name": "School of Governance and Policy",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Future Media",
@@ -167399,10 +173068,39 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "School of Future Media",
+              "inventoryListing": {
+                "name": "School of Future Media",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hku-10-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hku-10-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "9e4f2d2788aa452da1ac965955fb4a43442506e6095c0d57ead8d5f82a667b8f",
+          "retrievedUrl": "https://www.hku.hk/en/academics/faculties/social-science",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hku-10-20261029"
+            ],
+            "summary": "本页列五个学系、两所School；未来媒体与治理政策单位保留School分类。设立年份不等于研究学位现时开放。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 7
+          },
+          "relatedNavigationGroups": []
         }
       ],
       "coverageComplete": false,
@@ -167466,7 +173164,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-1"
+            "academic-map-cuhk-1",
+            "college-batch-cuhk-1-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -167482,7 +173181,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "https://www.arts.cuhk.edu.hk/~ant/en/",
               "staffRoutes": [],
-              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+              "kind": "department",
+              "observedName": "Department of Anthropology",
+              "inventoryListing": {
+                "name": "Department of Anthropology",
+                "url": "https://www.arts.cuhk.edu.hk/~ant/en/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Chinese Language and Literature",
@@ -167510,7 +173224,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Chinese Language and Literature",
+              "inventoryListing": {
+                "name": "Department of Chinese Language and Literature",
+                "url": "http://www.chi.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Cultural and Religious Studies",
@@ -167538,7 +173267,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Cultural and Religious Studies",
+              "inventoryListing": {
+                "name": "Department of Cultural and Religious Studies",
+                "url": "http://www2.crs.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of English",
@@ -167566,7 +173310,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of English",
+              "inventoryListing": {
+                "name": "Department of English",
+                "url": "http://www.eng.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Fine Arts",
@@ -167579,7 +173338,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "https://www.arts.cuhk.edu.hk/~fadept/",
               "staffRoutes": [],
-              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+              "kind": "department",
+              "observedName": "Department of Fine Arts",
+              "inventoryListing": {
+                "name": "Department of Fine Arts",
+                "url": "https://www.arts.cuhk.edu.hk/~fadept/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of History",
@@ -167607,7 +173381,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of History",
+              "inventoryListing": {
+                "name": "Department of History",
+                "url": "http://www.history.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Japanese Studies",
@@ -167647,7 +173436,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Japanese Studies",
+              "inventoryListing": {
+                "name": "Department of Japanese Studies",
+                "url": "https://www.jas.cuhk.edu.hk/en/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Linguistics and Modern Languages",
@@ -167687,7 +173491,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Linguistics and Modern Languages",
+              "inventoryListing": {
+                "name": "Department of Linguistics and Modern Languages",
+                "url": "https://ling.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Music",
@@ -167700,7 +173519,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "https://www.arts.cuhk.edu.hk/~music/",
               "staffRoutes": [],
-              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+              "kind": "department",
+              "observedName": "Department of Music",
+              "inventoryListing": {
+                "name": "Department of Music",
+                "url": "https://www.arts.cuhk.edu.hk/~music/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Philosophy",
@@ -167740,7 +173574,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Philosophy",
+              "inventoryListing": {
+                "name": "Department of Philosophy",
+                "url": "http://www.phil.arts.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Translation",
@@ -167780,10 +173629,87 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Translation",
+              "inventoryListing": {
+                "name": "Department of Translation",
+                "url": "http://traserver.tra.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "ea11c32801dad987e2662b5d08c6ad044e4485fec8c8764e3cfb4d291d7d8277",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/arts.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhk-1-20261029"
+            ],
+            "summary": "十一学系之外，官网另列中国研究中心、英语教学单位和雅礼中国语文研习所；教学与研究单位分开，不把所有条目都叫学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 11
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "另列的中心与教学单位",
+              "kind": "related_academic_units",
+              "parentUnitName": null,
+              "note": "不与十一学系混算，也不据此认定都有研究型硕博招生。",
+              "sourceIds": [
+                "college-batch-cuhk-1-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Centre for China Studies",
+                  "observedName": "Centre for China Studies",
+                  "url": "http://www.ccs.cuhk.edu.hk",
+                  "kind": "other_academic_unit",
+                  "sourceIds": [
+                    "college-batch-cuhk-1-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "English Language Teaching Unit",
+                  "observedName": "English Language Teaching Unit",
+                  "url": "http://eltu.cuhk.edu.hk/",
+                  "kind": "other_academic_unit",
+                  "sourceIds": [
+                    "college-batch-cuhk-1-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Yale-China Chinese Language Academy",
+                  "observedName": "Yale-China Chinese Language Academy",
+                  "url": "http://www.ycclc.cuhk.edu.hk/",
+                  "kind": "other_academic_unit",
+                  "sourceIds": [
+                    "college-batch-cuhk-1-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "cuhk-2",
@@ -167793,7 +173719,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-2"
+            "academic-map-cuhk-2",
+            "college-batch-cuhk-2-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -167838,7 +173765,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Decisions, Operations and Technology",
+              "inventoryListing": {
+                "name": "Department of Decisions, Operations and Technology",
+                "url": "https://www.bschool.cuhk.edu.hk/departments/decisions-operations-and-technology/",
+                "sourceIds": [
+                  "college-batch-cuhk-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Finance",
@@ -167880,7 +173822,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Finance",
+              "inventoryListing": {
+                "name": "Department of Finance",
+                "url": "https://www.bschool.cuhk.edu.hk/departments/finance/",
+                "sourceIds": [
+                  "college-batch-cuhk-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Hotel and Tourism Management",
@@ -167922,7 +173879,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Hotel and Tourism Management",
+              "inventoryListing": {
+                "name": "School of Hotel and Tourism Management",
+                "url": "https://www.bschool.cuhk.edu.hk/departments/hotel-and-tourism-management/",
+                "sourceIds": [
+                  "college-batch-cuhk-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Management",
@@ -167964,7 +173936,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Management",
+              "inventoryListing": {
+                "name": "Department of Management",
+                "url": "https://www.bschool.cuhk.edu.hk/departments/management/",
+                "sourceIds": [
+                  "college-batch-cuhk-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Marketing",
@@ -168006,10 +173993,89 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Marketing",
+              "inventoryListing": {
+                "name": "Department of Marketing",
+                "url": "https://www.bschool.cuhk.edu.hk/departments/marketing/",
+                "sourceIds": [
+                  "college-batch-cuhk-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "The School of Accountancy",
+              "url": "https://www.bschool.cuhk.edu.hk/departments/accountancy/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "The School of Accountancy",
+              "inventoryListing": {
+                "name": "The School of Accountancy",
+                "url": "https://www.bschool.cuhk.edu.hk/departments/accountancy/",
+                "sourceIds": [
+                  "college-batch-cuhk-2-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "cfb3de74f274fca6a51d21e70346a260df40180d70b858c4711d26e917c96b01",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/business-administration.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhk-2-20261029"
+            ],
+            "summary": "官网明确列两所School、四个学系，亚太工商研究所另列为Unit。原目录漏列的会计学院需补齐，不把研究所混入六个学术单位。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 6
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "官网另列的Unit",
+              "kind": "related_academic_units",
+              "parentUnitName": null,
+              "note": "亚太工商研究所单列，不当作第七个学系或School。",
+              "sourceIds": [
+                "college-batch-cuhk-2-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "The Asia-Pacific Institute of Business (APIB)",
+                  "observedName": "The Asia-Pacific Institute of Business (APIB)",
+                  "url": "http://exed.bschool.cuhk.edu.hk/",
+                  "kind": "institute",
+                  "sourceIds": [
+                    "college-batch-cuhk-2-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "cuhk-3",
@@ -168019,7 +174085,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-3"
+            "academic-map-cuhk-3",
+            "college-batch-cuhk-3-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -168050,7 +174117,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Curriculum and Instruction",
+              "inventoryListing": {
+                "name": "Department of Curriculum and Instruction",
+                "url": "http://www.fed.cuhk.edu.hk/cri/",
+                "sourceIds": [
+                  "college-batch-cuhk-3-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-3-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Educational Administration and Policy",
@@ -168090,7 +174172,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Educational Administration and Policy",
+              "inventoryListing": {
+                "name": "Department of Educational Administration and Policy",
+                "url": "http://www.fed.cuhk.edu.hk/eap/",
+                "sourceIds": [
+                  "college-batch-cuhk-3-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-3-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Educational Psychology",
@@ -168103,7 +174200,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "http://www.fed.cuhk.edu.hk/eps/",
               "staffRoutes": [],
-              "failure": "HTTP Error 404: Not Found"
+              "failure": "HTTP Error 404: Not Found",
+              "kind": "department",
+              "observedName": "Department of Educational Psychology",
+              "inventoryListing": {
+                "name": "Department of Educational Psychology",
+                "url": "http://www.fed.cuhk.edu.hk/eps/",
+                "sourceIds": [
+                  "college-batch-cuhk-3-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-3-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Sports Science and Physical Education",
@@ -168118,10 +174230,63 @@ window.APP_CATALOG = {
               "bodySha256": "2f6f9fbc0583e6235b13ffce35a6858904a7ca892a2eef7e3157a1223725daf6",
               "retrievedUrl": "https://www.cuhk.edu.hk/spe/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Sports Science and Physical Education",
+              "inventoryListing": {
+                "name": "Department of Sports Science and Physical Education",
+                "url": "http://www.cuhk.edu.hk/spe/",
+                "sourceIds": [
+                  "college-batch-cuhk-3-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-3-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "a8116abdfe7251083312e7ef4af1fe57e1ede49fbada9394e073a3f7b9465208",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/education.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhk-3-20261029"
+            ],
+            "summary": "官网列四个学系及体育部。体育部与体育运动科学系是不同单位，不能因名称相近合并。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "官网另列的体育部",
+              "kind": "related_academic_units",
+              "parentUnitName": null,
+              "note": "体育部不是体育运动科学系的另一个名称。",
+              "sourceIds": [
+                "college-batch-cuhk-3-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Physical Education Unit",
+                  "observedName": "Physical Education Unit",
+                  "url": "http://www.peu.cuhk.edu.hk/en-gb/",
+                  "kind": "teaching_unit",
+                  "sourceIds": [
+                    "college-batch-cuhk-3-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "cuhk-4",
@@ -168131,7 +174296,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-4"
+            "academic-map-cuhk-4",
+            "college-batch-cuhk-4-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -168149,7 +174315,22 @@ window.APP_CATALOG = {
               "bodySha256": "a5ce7226d260e8c3546b3fa0e14c8cff75842624b7504ce3503aa7cb1c6221f2",
               "retrievedUrl": "https://www.bme.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Biomedical Engineering",
+              "inventoryListing": {
+                "name": "Department of Biomedical Engineering",
+                "url": "http://www.bme.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Computer Science and Engineering",
@@ -168162,7 +174343,22 @@ window.APP_CATALOG = {
               "bodySha256": "9730bfcfa5353d99b8237b52bc3daf0862a54ac7460595f14e02d4039097ee30",
               "retrievedUrl": "http://www.cse.cuhk.edu.hk/index.html/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Computer Science and Engineering",
+              "inventoryListing": {
+                "name": "Department of Computer Science and Engineering",
+                "url": "http://www.cse.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Electronic Engineering",
@@ -168196,7 +174392,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Electronic Engineering",
+              "inventoryListing": {
+                "name": "Department of Electronic Engineering",
+                "url": "http://www.ee.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Information Engineering",
@@ -168224,7 +174435,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Information Engineering",
+              "inventoryListing": {
+                "name": "Department of Information Engineering",
+                "url": "http://www.ie.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Mechanical and Automation Engineering",
@@ -168237,7 +174463,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "http://www.mae.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": "<urlopen error timed out>"
+              "failure": "<urlopen error timed out>",
+              "kind": "department",
+              "observedName": "Department of Mechanical and Automation Engineering",
+              "inventoryListing": {
+                "name": "Department of Mechanical and Automation Engineering",
+                "url": "http://www.mae.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Systems Engineering and Engineering Management",
@@ -168289,7 +174530,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Systems Engineering and Engineering Management",
+              "inventoryListing": {
+                "name": "Department of Systems Engineering and Engineering Management",
+                "url": "http://www.se.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -171272,7 +177528,21 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "538e575c1ea4e75445cd3157b437fd9a01b6b03121b2c0e7f6fbcaa7c62a4623",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/engineering.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhk-4-20261029"
+            ],
+            "summary": "六个学系名称已按正文逐项对上；保留官网提供的原HTTP地址。完整人员类别、分页、指导资格及申请条件仍另核。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 6
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhk-5",
@@ -171282,12 +177552,27 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-5"
+            "academic-map-cuhk-5",
+            "college-batch-cuhk-5-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "d6882088f63955e86861ded7329c0507440a7fc331caee75b0d2782fefa269e2",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/law.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-cuhk-5-20261029"
+            ],
+            "summary": "本页提供法学院与研究生课程入口，没有完整内部单位名单。先保留待核，不推断学院没有学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhk-6",
@@ -171297,7 +177582,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-6"
+            "academic-map-cuhk-6",
+            "college-batch-cuhk-6-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -171315,7 +177601,22 @@ window.APP_CATALOG = {
               "bodySha256": "66a708c3150fa75c9534b343ca7f8952b174a1d3fab3aa87bd4a24c82947622c",
               "retrievedUrl": "https://www.cuhk.edu.hk/med/ans/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Anaesthesia and Intensive Care",
+              "inventoryListing": {
+                "name": "Department of Anaesthesia and Intensive Care",
+                "url": "http://www.cuhk.edu.hk/med/ans/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Anatomical and Cellular Pathology",
@@ -171330,7 +177631,22 @@ window.APP_CATALOG = {
               "bodySha256": "14fc36d96089a759186ebf3beb34b9e27339a6ee3fde14d1b95ed8b061c8ab00",
               "retrievedUrl": "https://www.cuhk.edu.hk/med/acp/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Anatomical and Cellular Pathology",
+              "inventoryListing": {
+                "name": "Department of Anatomical and Cellular Pathology",
+                "url": "http://www.cuhk.edu.hk/med/acp/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Biomedical Sciences",
@@ -171382,7 +177698,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Biomedical Sciences",
+              "inventoryListing": {
+                "name": "School of Biomedical Sciences",
+                "url": "http://www.sbs.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Chemical Pathology",
@@ -171397,7 +177728,22 @@ window.APP_CATALOG = {
               "bodySha256": "436f9186484abfe03597d723be19a55612462e69b6749508e10e7029f09856ad",
               "retrievedUrl": "https://www.cuhk.edu.hk/med/cpy/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Chemical Pathology",
+              "inventoryListing": {
+                "name": "Department of Chemical Pathology",
+                "url": "http://www.cpy.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Chinese Medicine",
@@ -171425,7 +177771,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Chinese Medicine",
+              "inventoryListing": {
+                "name": "School of Chinese Medicine",
+                "url": "http://www.scm.cuhk.edu.hk/en-gb/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Clinical Oncology",
@@ -171440,7 +177801,22 @@ window.APP_CATALOG = {
               "bodySha256": "46221edd3400f64c9e1d30ed4d07b64ae54bf86dc02f34ef14d4b2b50532e3d7",
               "retrievedUrl": "https://www.clo.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Clinical Oncology",
+              "inventoryListing": {
+                "name": "Department of Clinical Oncology",
+                "url": "http://www.clo.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Imaging and Interventional Radiology",
@@ -171468,7 +177844,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Imaging and Interventional Radiology",
+              "inventoryListing": {
+                "name": "Department of Imaging and Interventional Radiology",
+                "url": "http://www.diir.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Medicine and Therapeutics",
@@ -171496,7 +177887,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Medicine and Therapeutics",
+              "inventoryListing": {
+                "name": "Department of Medicine and Therapeutics",
+                "url": "http://www.mect.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Microbiology",
@@ -171536,7 +177942,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Microbiology",
+              "inventoryListing": {
+                "name": "Department of Microbiology",
+                "url": "https://mic.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Obstetrics and Gynaecology",
@@ -171551,7 +177972,22 @@ window.APP_CATALOG = {
               "bodySha256": "b4ba71d5b3e394d0c3b0dffcdefd98507f5fddf669fb36cd07f9a1215314fa4f",
               "retrievedUrl": "https://www.obg.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Obstetrics and Gynaecology",
+              "inventoryListing": {
+                "name": "Department of Obstetrics and Gynaecology",
+                "url": "http://www.obg.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Ophthalmology and Visual Sciences",
@@ -171564,7 +178000,22 @@ window.APP_CATALOG = {
               "bodySha256": "7e932d8a9f036a48ad49a173c1fe8fddf98923e61154182977fa40974a7b1852",
               "retrievedUrl": "http://www.ovs.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Ophthalmology and Visual Sciences",
+              "inventoryListing": {
+                "name": "Department of Ophthalmology and Visual Sciences",
+                "url": "http://www.ovs.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Orthopaedics and Traumatology",
@@ -171579,7 +178030,22 @@ window.APP_CATALOG = {
               "bodySha256": "95f5b778f78a836ea4790881e6526a6e40609d48206a6b6df75dbc3e476ae9a0",
               "retrievedUrl": "https://www.ort.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Orthopaedics and Traumatology",
+              "inventoryListing": {
+                "name": "Department of Orthopaedics and Traumatology",
+                "url": "http://www.ort.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Otorhinolaryngology, Head and Neck Surgery",
@@ -171594,7 +178060,22 @@ window.APP_CATALOG = {
               "bodySha256": "8499f194dfa0b0880b90cc73c448a0e4911d1b72f3c6553074d8d722bf078598",
               "retrievedUrl": "https://www.ent.cuhk.edu.hk/Ent/en/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Otorhinolaryngology, Head and Neck Surgery",
+              "inventoryListing": {
+                "name": "Department of Otorhinolaryngology, Head and Neck Surgery",
+                "url": "http://www.ent.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Paediatrics",
@@ -171622,7 +178103,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Paediatrics",
+              "inventoryListing": {
+                "name": "Department of Paediatrics",
+                "url": "http://www.pae.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Pharmacy",
@@ -171635,7 +178131,22 @@ window.APP_CATALOG = {
               "bodySha256": "2653dbd5bd4ba3b92ecb88428665167f953df28c04913288299d5df5924002d6",
               "retrievedUrl": "http://www.pharmacy.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Pharmacy",
+              "inventoryListing": {
+                "name": "School of Pharmacy",
+                "url": "http://www.pharmacy.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Psychiatry",
@@ -171663,7 +178174,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Psychiatry",
+              "inventoryListing": {
+                "name": "Department of Psychiatry",
+                "url": "http://www.psychiatry.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Surgery",
@@ -171676,10 +178202,91 @@ window.APP_CATALOG = {
               "bodySha256": "557b5e9015b4963a130c7039e077b3ec0306d401b6ee13d631721d5d969d2917",
               "retrievedUrl": "http://www.surgery.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Surgery",
+              "inventoryListing": {
+                "name": "Department of Surgery",
+                "url": "http://www.surgery.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "The Nethersole School of Nursing",
+              "url": "http://www.nur.cuhk.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "The Nethersole School of Nursing",
+              "inventoryListing": {
+                "name": "The Nethersole School of Nursing",
+                "url": "http://www.nur.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "The Jockey Club School of Public Health and Primary Care",
+              "url": "http://www.sphpc.cuhk.edu.hk/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "school",
+              "observedName": "The Jockey Club School of Public Health and Primary Care",
+              "inventoryListing": {
+                "name": "The Jockey Club School of Public Health and Primary Care",
+                "url": "http://www.sphpc.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "a59e03040128dd5733426f2d2d93471457ad38924c0aad32ac69bb4d83a2ace3",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/medicine.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhk-6-20261029"
+            ],
+            "summary": "本页列十九个学系或School。旧目录中的十七项需要与当前名单逐项对照，补齐护理与公共卫生相关School，同时保留原条目及读取状态。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 19
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhk-7",
@@ -171928,7 +178535,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-8"
+            "academic-map-cuhk-8",
+            "college-batch-cuhk-8-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -171971,7 +178579,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Architecture",
+              "inventoryListing": {
+                "name": "School of Architecture",
+                "url": "http://www.arch.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Economics",
@@ -171999,7 +178622,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Economics",
+              "inventoryListing": {
+                "name": "Department of Economics",
+                "url": "http://www.econ.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Geography and Resource Management",
@@ -172039,7 +178677,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Geography and Resource Management",
+              "inventoryListing": {
+                "name": "Department of Geography and Resource Management",
+                "url": "http://www.grm.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Governance and Policy Science",
@@ -172052,7 +178705,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "https://sgps.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>"
+              "failure": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1000)>",
+              "kind": "school",
+              "observedName": "School of Governance and Policy Science",
+              "inventoryListing": {
+                "name": "School of Governance and Policy Science",
+                "url": "https://sgps.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Journalism and Communication",
@@ -172065,7 +178733,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "http://www.com.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": "HTTP Error 403: Forbidden"
+              "failure": "HTTP Error 403: Forbidden",
+              "kind": "school",
+              "observedName": "School of Journalism and Communication",
+              "inventoryListing": {
+                "name": "School of Journalism and Communication",
+                "url": "http://www.com.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Psychology",
@@ -172078,7 +178761,22 @@ window.APP_CATALOG = {
               "bodySha256": null,
               "retrievedUrl": "http://www.psy.cuhk.edu.hk/",
               "staffRoutes": [],
-              "failure": "<urlopen error no host given>"
+              "failure": "<urlopen error no host given>",
+              "kind": "department",
+              "observedName": "Department of Psychology",
+              "inventoryListing": {
+                "name": "Department of Psychology",
+                "url": "http://www.psy.cuhk.edu.hk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Social Work",
@@ -172093,7 +178791,22 @@ window.APP_CATALOG = {
               "bodySha256": "8a0d7fed19cee52f2914231d3c10de3c60ef096f9a996a5c72e377c716d1a1e9",
               "retrievedUrl": "https://www.cuhk.edu.hk/swk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Social Work",
+              "inventoryListing": {
+                "name": "Department of Social Work",
+                "url": "http://www.cuhk.edu.hk/swk/",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Sociology",
@@ -172133,26 +178846,74 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Sociology",
+              "inventoryListing": {
+                "name": "Department of Sociology",
+                "url": "https://www.soc.cuhk.edu.hk",
+                "sourceIds": [
+                  "college-batch-cuhk-8-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhk-8-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "04e776a453f8302a99507fd587ec52a3e5125b83f6ce311b04341f531f46a6fa",
+          "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/social-science.html",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhk-8-20261029"
+            ],
+            "summary": "本页列五个学系与三所School；建筑、新闻传播、治理与政策科学保留各自School名称和分类。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 8
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhk-zhizhen",
           "name": "Zhizhen School of Interdisciplinary Mathematical Sciences",
           "kind": "interdisciplinary_school",
           "url": "https://www.zsims.cuhk.edu.hk/en/",
-          "entryBodyStatus": "not_read",
-          "readMethod": null,
+          "entryBodyStatus": "body_read",
+          "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhk-structure"
+            "academic-map-cuhk-structure",
+            "college-batch-cuhk-zhizhen-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
           "staffEntries": [],
-          "accessNote": "本轮入口返回502，保留待核。"
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "本轮入口返回502，保留待核。"
+          },
+          "bodySha256": "98931d41a8e69fe3e3d85ac7d28fc09db75cd71c7df5a31c272effe7985eee87",
+          "retrievedUrl": "https://www.zsims.cuhk.edu.hk/en/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-cuhk-zhizhen-20261029"
+            ],
+            "summary": "首页说明学院设立背景并提供招生及学术导航，没有列出完整下属学系。不能把学术方向或招生导航直接写成学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhk-gs",
@@ -176339,7 +183100,8 @@ window.APP_CATALOG = {
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
             "academic-map-hkust-2",
-            "academic-map-hkust-engineering-departments"
+            "academic-map-hkust-engineering-departments",
+            "college-batch-hkust-2-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -176394,7 +183156,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Chemical and Biological Engineering",
+              "inventoryListing": {
+                "name": "Department of Chemical and Biological Engineering",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Civil and Environmental Engineering",
@@ -176434,7 +183211,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Civil and Environmental Engineering",
+              "inventoryListing": {
+                "name": "Department of Civil and Environmental Engineering",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Computer Science and Engineering",
@@ -176486,7 +183278,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Computer Science and Engineering",
+              "inventoryListing": {
+                "name": "Department of Computer Science and Engineering",
+                "url": "https://www.cse.ust.hk",
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.cse.ust.hk",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Electronic and Computer Engineering",
@@ -176521,7 +183341,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Electronic and Computer Engineering",
+              "inventoryListing": {
+                "name": "Department of Electronic and Computer Engineering",
+                "url": "https://ece.hkust.edu.hk",
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://ece.hkust.edu.hk",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Industrial Engineering and Decision Analytics",
@@ -176536,7 +183384,35 @@ window.APP_CATALOG = {
               "bodySha256": "ffe0084d22c10b35ad6409562a891a7ec8e47aecf045acfaab42113af51237dc",
               "retrievedUrl": "https://www.ieda.ust.hk/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Industrial Engineering and Decision Analytics",
+              "inventoryListing": {
+                "name": "Department of Industrial Engineering and Decision Analytics",
+                "url": "https://www.ieda.ust.hk",
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.ieda.ust.hk",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Mechanical and Aerospace Engineering",
@@ -176588,7 +183464,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Mechanical and Aerospace Engineering",
+              "inventoryListing": {
+                "name": "Department of Mechanical and Aerospace Engineering",
+                "url": "https://mae.hkust.edu.hk/en/home",
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://mae.hkust.edu.hk/en/home",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Materials",
@@ -176596,7 +183500,22 @@ window.APP_CATALOG = {
               "entryBodyStatus": "not_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
-              "relationship": "listed_on_parent_page"
+              "relationship": "listed_on_parent_page",
+              "kind": "department",
+              "observedName": "Department of Materials",
+              "inventoryListing": {
+                "name": "Department of Materials",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hkust-engineering-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -177779,6 +184698,105 @@ window.APP_CATALOG = {
                 }
               ]
             }
+          ],
+          "bodySha256": "eb8f032210471fed758d68183acf6ef57c8007e4ead1f286d4e704ad1f8e544f",
+          "retrievedUrl": "https://seng.hkust.edu.hk/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hkust-2-20261029",
+              "college-batch-hkust-engineering-20261029"
+            ],
+            "summary": "正式架构页列七个学系，另列六个中心或支持单位；两类分开。材料系保留在七系中，不能把十三条入口都当学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 7
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "另列的工程教育与支持单位",
+              "kind": "related_academic_units",
+              "parentUnitName": null,
+              "note": "六个中心或单位与七个学系分开。",
+              "sourceIds": [
+                "college-batch-hkust-engineering-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Academy for Bright Future Young Engineers (ABFYE)",
+                  "observedName": "Academy for Bright Future Young Engineers (ABFYE)",
+                  "url": "http://abfye.ust.hk",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Academy for Continuing Education (ACE)",
+                  "observedName": "Academy for Continuing Education (ACE)",
+                  "url": "https://ace.hkust.edu.hk/en",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Center for Engineering Education Innovation (E2I)",
+                  "observedName": "Center for Engineering Education Innovation (E2I)",
+                  "url": "http://e2i.ust.hk",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Center for Global and Community Engagement (GCE)",
+                  "observedName": "Center for Global and Community Engagement (GCE)",
+                  "url": "https://seng.hkust.edu.hk/gce",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Center for Industry Engagement and Internship (IEI)",
+                  "observedName": "Center for Industry Engagement and Internship (IEI)",
+                  "url": "https://seng.hkust.edu.hk/iei",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Student Innovation for Global Health Technology (SIGHT)",
+                  "observedName": "Student Innovation for Global Health Technology (SIGHT)",
+                  "url": "https://sight2023.hkust.edu.hk/",
+                  "kind": "teaching_support",
+                  "sourceIds": [
+                    "college-batch-hkust-engineering-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
           ]
         },
         {
@@ -177929,7 +184947,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkust-4"
+            "academic-map-hkust-4",
+            "college-batch-hkust-4-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -177967,7 +184986,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "division",
+              "observedName": "Division of Humanities",
+              "inventoryListing": {
+                "name": "Division of Humanities",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hkust-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Division of Social Science",
@@ -178002,10 +185036,102 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "division",
+              "observedName": "Division of Social Science",
+              "inventoryListing": {
+                "name": "Division of Social Science",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-hkust-4-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-hkust-4-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "aa5588f7798df462efb3849a5364616b3ca8bbde1cb7062411a00c755da9a9d2",
+          "retrievedUrl": "https://shss.hkust.edu.hk/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-hkust-4-20261029"
+            ],
+            "summary": "首页列人文学部、社会科学部，另有语文教育中心及三个研究中心。研究中心不与两个学部混算。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 2
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "另列的语文教育与研究中心",
+              "kind": "related_academic_units",
+              "parentUnitName": null,
+              "note": "语文教育中心与三个研究中心不当作额外学部或导师资格证明。",
+              "sourceIds": [
+                "college-batch-hkust-4-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "Center for Language Education",
+                  "observedName": "Center for Language Education",
+                  "url": null,
+                  "kind": "centre",
+                  "sourceIds": [
+                    "college-batch-hkust-4-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "所引页面未给可确定的独立入口；先从学院官网继续核查。"
+                },
+                {
+                  "name": "Center for Chinese Linguistics",
+                  "observedName": "Center for Chinese Linguistics",
+                  "url": null,
+                  "kind": "centre",
+                  "sourceIds": [
+                    "college-batch-hkust-4-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "所引页面未给可确定的独立入口；先从学院官网继续核查。"
+                },
+                {
+                  "name": "The South China Research Center",
+                  "observedName": "The South China Research Center",
+                  "url": null,
+                  "kind": "centre",
+                  "sourceIds": [
+                    "college-batch-hkust-4-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "所引页面未给可确定的独立入口；先从学院官网继续核查。"
+                },
+                {
+                  "name": "The Global China Center",
+                  "observedName": "The Global China Center",
+                  "url": "https://globalchinacenter.hkust.edu.hk/",
+                  "kind": "centre",
+                  "sourceIds": [
+                    "college-batch-hkust-4-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "hkust-5",
@@ -178015,7 +185141,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-hkust-5"
+            "academic-map-hkust-5",
+            "college-batch-hkust-5-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -178032,7 +185159,21 @@ window.APP_CATALOG = {
               "enumerationComplete": false,
               "profileLeads": []
             }
-          ]
+          ],
+          "bodySha256": "bb47f2f2286048dcc6cd19649ecfa5706e5f1f041adb618399bb2139cdc45b01",
+          "retrievedUrl": "https://medicine.hkust.edu.hk/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-hkust-5-20261029"
+            ],
+            "summary": "首页和常见问题主要说明拟办医学教育及学士后入学MBBS。研究主题不等于已设学系，学士后入学也不等于研究型硕博招生。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "hkust-6",
@@ -179377,7 +186518,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-1"
+            "academic-map-polyu-1",
+            "college-batch-polyu-1-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -179420,7 +186562,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Logistics and Maritime Studies",
+              "inventoryListing": {
+                "name": "Department of Logistics and Maritime Studies",
+                "url": "https://www.polyu.edu.hk/lms",
+                "sourceIds": [
+                  "college-batch-polyu-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/lms",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-1-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Management and Marketing",
@@ -179448,7 +186618,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Management and Marketing",
+              "inventoryListing": {
+                "name": "Department of Management and Marketing",
+                "url": "https://www.polyu.edu.hk/mm",
+                "sourceIds": [
+                  "college-batch-polyu-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/mm",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-1-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "School of Accounting and Finance",
@@ -179488,10 +186686,52 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Accounting and Finance",
+              "inventoryListing": {
+                "name": "School of Accounting and Finance",
+                "url": "https://www.polyu.edu.hk/af",
+                "sourceIds": [
+                  "college-batch-polyu-1-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-1-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/af",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-1-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "a5c98edff871a3c7d3e149f0aef0636d51db19a99ef4fddfd0bda9c3bba3b683",
+          "retrievedUrl": "https://www.polyu.edu.hk/fb/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-polyu-1-20261029"
+            ],
+            "summary": "本页列会计及金融学院、物流及航运学系、管理及市场学系；课程、研究新闻和专业博士不当作新增学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 3
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-2",
@@ -179501,7 +186741,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-2"
+            "academic-map-polyu-2",
+            "college-batch-polyu-2-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -179532,7 +186773,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Applied Mathematics",
+              "inventoryListing": {
+                "name": "Department of Applied Mathematics",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-computing-maths-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-computing-maths-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Computing",
@@ -179560,7 +186816,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Computing",
+              "inventoryListing": {
+                "name": "Department of Computing",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-computing-maths-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-computing-maths-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Data Science and Artificial Intelligence",
@@ -179588,7 +186859,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Data Science and Artificial Intelligence",
+              "inventoryListing": {
+                "name": "Department of Data Science and Artificial Intelligence",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-computing-maths-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-computing-maths-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
           "staffEntries": [
@@ -182312,7 +189598,22 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "4dc6f16ca41cb11e3d434d6e7aaf9ee6eadf37a416df7a9761bb725d3b1c23b3",
+          "retrievedUrl": "https://www.polyu.edu.hk/fcms/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-polyu-2-20261029",
+              "college-batch-polyu-computing-maths-20261029"
+            ],
+            "summary": "正式Departments页列应用数学、计算学、数据科学及人工智能三系。同名导航有些指向活动或研究项目，要使用相应学系主入口。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 3
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-3",
@@ -182322,7 +189623,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-3"
+            "academic-map-polyu-3",
+            "college-batch-polyu-3-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -182353,7 +189655,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Architecture",
+              "inventoryListing": {
+                "name": "Department of Architecture",
+                "url": "https://www.polyu.edu.hk/arch/",
+                "sourceIds": [
+                  "college-batch-polyu-construction-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-construction-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Building Environment and Energy Engineering",
@@ -182381,7 +189698,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Building Environment and Energy Engineering",
+              "inventoryListing": {
+                "name": "Department of Building Environment and Energy Engineering",
+                "url": "https://www.polyu.edu.hk/beee/",
+                "sourceIds": [
+                  "college-batch-polyu-construction-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-construction-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Civil and Environmental Engineering",
@@ -182421,7 +189753,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Civil and Environmental Engineering",
+              "inventoryListing": {
+                "name": "Department of Civil and Environmental Engineering",
+                "url": "https://www.polyu.edu.hk/cee",
+                "sourceIds": [
+                  "college-batch-polyu-construction-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-construction-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/cee",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-construction-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Construction Management and Intelligence",
@@ -182461,7 +189821,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Construction Management and Intelligence",
+              "inventoryListing": {
+                "name": "Department of Construction Management and Intelligence",
+                "url": "https://www.polyu.edu.hk/bre/",
+                "sourceIds": [
+                  "college-batch-polyu-construction-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-construction-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/bre/",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-construction-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of Land Surveying and Geospatial Science",
@@ -182489,7 +189877,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Land Surveying and Geospatial Science",
+              "inventoryListing": {
+                "name": "Department of Land Surveying and Geospatial Science",
+                "url": "https://www.polyu.edu.hk/lsgi/",
+                "sourceIds": [
+                  "college-batch-polyu-construction-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-construction-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/lsgi/",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-construction-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             }
           ],
           "staffEntries": [
@@ -184217,7 +191633,22 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "964168e5564dfc584f6095c38f8547a418090d2d51c363fbb5f55a6d7740e7da",
+          "retrievedUrl": "https://www.polyu.edu.hk/fce/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-polyu-3-20261029",
+              "college-batch-polyu-construction-20261029"
+            ],
+            "summary": "正式架构页列五个学系，保留建筑、建筑环境及能源、土木及环境、建造管理及智能、土地测量及地理空间科学的当前名称。新旧网址分别记录，不猜重定向。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-4",
@@ -184465,7 +191896,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-5"
+            "academic-map-polyu-5",
+            "college-batch-polyu-5-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -184496,7 +191928,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Applied Social Sciences",
+              "inventoryListing": {
+                "name": "Department of Applied Social Sciences",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-health-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-health-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Health Technology and Informatics",
@@ -184524,7 +191971,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Health Technology and Informatics",
+              "inventoryListing": {
+                "name": "Department of Health Technology and Informatics",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-health-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-health-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Rehabilitation Sciences",
@@ -184552,7 +192014,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Rehabilitation Sciences",
+              "inventoryListing": {
+                "name": "Department of Rehabilitation Sciences",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-health-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-health-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Nursing",
@@ -184567,7 +192044,22 @@ window.APP_CATALOG = {
               "bodySha256": "b2b3305a0196c70cae93f03ccf6101d458f2f2b9ebb0a10d952f1d485ce47a3e",
               "retrievedUrl": "https://www.polyu.edu.hk/sn/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Nursing",
+              "inventoryListing": {
+                "name": "School of Nursing",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-health-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-health-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "School of Optometry",
@@ -184595,10 +192087,40 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "school",
+              "observedName": "School of Optometry",
+              "inventoryListing": {
+                "name": "School of Optometry",
+                "url": null,
+                "sourceIds": [
+                  "college-batch-polyu-health-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-health-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "206938ead5dd0ee2a3299b5ecf0930862c659868227e560c0a4204a521f5735d",
+          "retrievedUrl": "https://www.polyu.edu.hk/fhss/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-polyu-5-20261029",
+              "college-batch-polyu-health-20261029"
+            ],
+            "summary": "正式单位页说明五个组成单位：三个学系、护理学院及眼科视光学院。学院与学系保留原分类，不能统称五系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-6",
@@ -184608,7 +192130,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-6"
+            "academic-map-polyu-6",
+            "college-batch-polyu-6-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -184626,7 +192149,35 @@ window.APP_CATALOG = {
               "bodySha256": "f0819f2597023c379a5db40bcdf743dbea8321aa0a203d019c6b0b497c1a0344",
               "retrievedUrl": "https://www.polyu.edu.hk/chc/",
               "staffRoutes": [],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Chinese History and Culture",
+              "inventoryListing": {
+                "name": "Department of Chinese History and Culture",
+                "url": "https://www.polyu.edu.hk/cc/zh_hk/",
+                "sourceIds": [
+                  "college-batch-polyu-humanities-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-humanities-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/cc/zh_hk/",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-humanities-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Department of English and Communication",
@@ -184666,7 +192217,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of English and Communication",
+              "inventoryListing": {
+                "name": "Department of English and Communication",
+                "url": "https://www.polyu.edu.hk/engl/",
+                "sourceIds": [
+                  "college-batch-polyu-humanities-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-humanities-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Language Science and Technology",
@@ -184694,7 +192260,35 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Language Science and Technology",
+              "inventoryListing": {
+                "name": "Department of Language Science and Technology",
+                "url": "https://www.polyu.edu.hk/cbs/",
+                "sourceIds": [
+                  "college-batch-polyu-humanities-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-humanities-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/cbs/",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-humanities-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             },
             {
               "name": "Division of Artificial Intelligence and the Humanities",
@@ -184722,10 +192316,40 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "division",
+              "observedName": "Division of Artificial Intelligence and the Humanities",
+              "inventoryListing": {
+                "name": "Division of Artificial Intelligence and the Humanities",
+                "url": "https://www.polyu.edu.hk/aih/",
+                "sourceIds": [
+                  "college-batch-polyu-humanities-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-humanities-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "e996f218f3ca970f23899cb3166d243bc84520756c479f992064c5ad6a22d489",
+          "retrievedUrl": "https://www.polyu.edu.hk/en/fh/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-polyu-6-20261029",
+              "college-batch-polyu-humanities-20261029"
+            ],
+            "summary": "架构页列三个学系和人工智能及人文学部，另列研究中心。保留当前名称和官网所给网址，与旧入口分别核查。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-7",
@@ -184735,7 +192359,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-7"
+            "academic-map-polyu-7",
+            "college-batch-polyu-7-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -184766,7 +192391,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Chemistry (CHEM)",
+              "inventoryListing": {
+                "name": "Department of Chemistry (CHEM)",
+                "url": "https://www.polyu.edu.hk/chem/",
+                "sourceIds": [
+                  "college-batch-polyu-science-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Food Science and Nutrition",
@@ -184794,7 +192434,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Food Science and Nutrition (FSN)",
+              "inventoryListing": {
+                "name": "Department of Food Science and Nutrition (FSN)",
+                "url": "https://www.polyu.edu.hk/fsn/",
+                "sourceIds": [
+                  "college-batch-polyu-science-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Life Sciences",
@@ -184822,7 +192477,22 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Life Sciences (LS)",
+              "inventoryListing": {
+                "name": "Department of Life Sciences (LS)",
+                "url": "https://www.polyu.edu.hk/ls/",
+                "sourceIds": [
+                  "college-batch-polyu-science-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Physics and Materials",
@@ -184850,10 +192520,53 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "observedName": "Department of Physics and Materials (PM)",
+              "inventoryListing": {
+                "name": "Department of Physics and Materials (PM)",
+                "url": "https://www.polyu.edu.hk/pm/",
+                "sourceIds": [
+                  "college-batch-polyu-science-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-polyu-science-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "url": "https://www.polyu.edu.hk/pm/",
+                  "label": "本次架构页提供的入口",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "college-batch-polyu-science-20261029"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这是本次页面提供的网址；原地址与原读取结果保留，未将新地址标成已经读过。"
+                }
+              ]
             }
           ],
-          "staffEntries": []
+          "staffEntries": [],
+          "bodySha256": "ece7946df87053a7fa9cf7e9910d95a1b5df1e5bae714ef9456516098e58ad20",
+          "retrievedUrl": "https://www.polyu.edu.hk/fs/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-polyu-7-20261029",
+              "college-batch-polyu-science-20261029"
+            ],
+            "summary": "架构页的四个学系用链接图片显示名称；名称来自HTML替代文字，网址来自对应链接。纯文本未显示不等于没有，尚未作图片视觉验收。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 4
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-8",
@@ -184863,7 +192576,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-8"
+            "academic-map-polyu-8",
+            "college-batch-polyu-8-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -185574,7 +193288,21 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "48338ef10b625d88f9c0eb850f5649950fbf24e8da7554ccceab4b3e3765937e",
+          "retrievedUrl": "https://www.polyu.edu.hk/sd/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-polyu-8-20261029"
+            ],
+            "summary": "主页给出设计学院介绍与新闻，未列完整下属单位；合作学校或联合研究中心新闻不能直接改成学院的并列学系。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-9",
@@ -185584,7 +193312,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-9"
+            "academic-map-polyu-9",
+            "college-batch-polyu-9-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -185723,7 +193452,21 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "4274741df236fbd5c35b5f69acb4494f962e4769bc668f352542c77df7d7a4c4",
+          "retrievedUrl": "https://www.polyu.edu.hk/sft/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-polyu-9-20261029"
+            ],
+            "summary": "主页提供人员、课程及研究学位入口，没有完整内部单位名单。奖学金介绍与MPhil/PhD名称不代表每位教师都有招生名额。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-10",
@@ -185733,7 +193476,8 @@ window.APP_CATALOG = {
           "entryBodyStatus": "body_read",
           "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-polyu-10"
+            "academic-map-polyu-10",
+            "college-batch-polyu-10-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -186763,7 +194507,21 @@ window.APP_CATALOG = {
                 }
               ]
             }
-          ]
+          ],
+          "bodySha256": "0e925a7868a82d814c7f6fac635545c562406650401b6a8e2eb27c4d7d6eb676",
+          "retrievedUrl": "https://www.polyu.edu.hk/shtm/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-polyu-10-20261029"
+            ],
+            "summary": "主页给出学术人员等入口，未列完整下属单位；酒店、旅游等主题和排名不当学系列表。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "polyu-gs",
@@ -189530,9 +197288,10 @@ window.APP_CATALOG = {
           "kind": "school",
           "url": "https://sme.cuhk.edu.cn/",
           "entryBodyStatus": "body_read",
-          "readMethod": "web_reader",
+          "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhksz-1"
+            "academic-map-cuhksz-1",
+            "college-batch-cuhksz-1-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
@@ -192590,7 +200349,116 @@ window.APP_CATALOG = {
               ]
             }
           ],
-          "accessNote": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          },
+          "bodySha256": "e812903235177431c050557120a3b13c0400a35f9809098c842067dcfeaed4e7",
+          "retrievedUrl": "https://sme.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-cuhksz-1-20261029",
+              "college-batch-cuhksz-business-20261029"
+            ],
+            "summary": "学院架构页按六个学术领域列负责人，另列管理团队与关联机构。领域不是六个正式学系；研究中心和博士专业也不混算。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "学院架构页列出的学术领域",
+              "kind": "related_academic_units",
+              "parentUnitName": null,
+              "note": "依据学术领域负责人栏目，不宣称已设六个学系。",
+              "sourceIds": [
+                "college-batch-cuhksz-business-20261029"
+              ],
+              "entries": [
+                {
+                  "name": "经济学领域",
+                  "observedName": "经济学领域负责人",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "college-batch-cuhksz-business-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "名称依据架构页“领域负责人”栏目整理；不是独立学系。"
+                },
+                {
+                  "name": "会计学领域",
+                  "observedName": "会计学领域负责人",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "college-batch-cuhksz-business-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "名称依据架构页“领域负责人”栏目整理；不是独立学系。"
+                },
+                {
+                  "name": "金融学领域",
+                  "observedName": "金融学领域负责人",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "college-batch-cuhksz-business-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "名称依据架构页“领域负责人”栏目整理；不是独立学系。"
+                },
+                {
+                  "name": "市场营销领域",
+                  "observedName": "市场营销领域负责人",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "college-batch-cuhksz-business-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "名称依据架构页“领域负责人”栏目整理；不是独立学系。"
+                },
+                {
+                  "name": "管理学领域",
+                  "observedName": "管理学领域负责人",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "college-batch-cuhksz-business-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "名称依据架构页“领域负责人”栏目整理；不是独立学系。"
+                },
+                {
+                  "name": "信息系统与运营管理领域",
+                  "observedName": "信息系统与运营管理领域负责人",
+                  "url": null,
+                  "kind": "research_field",
+                  "sourceIds": [
+                    "college-batch-cuhksz-business-20261029"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "名称依据架构页“领域负责人”栏目整理；不是独立学系。"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "cuhksz-2",
@@ -193202,15 +201070,34 @@ window.APP_CATALOG = {
           "kind": "school",
           "url": "https://med.cuhk.edu.cn/",
           "entryBodyStatus": "body_read",
-          "readMethod": "web_reader",
+          "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhksz-5"
+            "academic-map-cuhksz-5",
+            "college-batch-cuhksz-5-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
           "staffEntries": [],
-          "accessNote": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          },
+          "bodySha256": "1acb708b19a1022a43e3f8ac94d6614dfb64ab0f73c6948a2f594ca31fa774aa",
+          "retrievedUrl": "https://med.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-cuhksz-5-20261029"
+            ],
+            "summary": "主页列专业及研究生导航，没有完整学系架构。学生赴外校读硕博的介绍不代表本院已经开放对应研究学位。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhksz-6",
@@ -193218,15 +201105,165 @@ window.APP_CATALOG = {
           "kind": "school",
           "url": "https://music.cuhk.edu.cn/",
           "entryBodyStatus": "body_read",
-          "readMethod": "web_reader",
+          "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhksz-6"
+            "academic-map-cuhksz-6",
+            "college-batch-cuhksz-6-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
-          "children": [],
+          "children": [
+            {
+              "name": "作曲指挥学部",
+              "url": "https://music.cuhk.edu.cn/divisions/composition-and-conducting",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "作曲指挥学部",
+              "inventoryListing": {
+                "name": "作曲指挥学部",
+                "url": "https://music.cuhk.edu.cn/divisions/composition-and-conducting",
+                "sourceIds": [
+                  "college-batch-cuhksz-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "钢琴与键盘学部",
+              "url": "https://music.cuhk.edu.cn/divisions/piano-and-keyboard",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "钢琴与键盘学部",
+              "inventoryListing": {
+                "name": "钢琴与键盘学部",
+                "url": "https://music.cuhk.edu.cn/divisions/piano-and-keyboard",
+                "sourceIds": [
+                  "college-batch-cuhksz-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "管弦乐学部",
+              "url": "https://music.cuhk.edu.cn/divisions/strings-wind-brass-and-percussion",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "管弦乐学部",
+              "inventoryListing": {
+                "name": "管弦乐学部",
+                "url": "https://music.cuhk.edu.cn/divisions/strings-wind-brass-and-percussion",
+                "sourceIds": [
+                  "college-batch-cuhksz-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "歌剧与声乐学部",
+              "url": "https://music.cuhk.edu.cn/divisions/opera-and-voice",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "歌剧与声乐学部",
+              "inventoryListing": {
+                "name": "歌剧与声乐学部",
+                "url": "https://music.cuhk.edu.cn/divisions/opera-and-voice",
+                "sourceIds": [
+                  "college-batch-cuhksz-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            },
+            {
+              "name": "音乐学学部",
+              "url": "https://music.cuhk.edu.cn/divisions/musicology",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "teacherProfilesTotal": null,
+              "teacherReviewStatus": "pending",
+              "relationship": "listed_on_parent_page",
+              "kind": "division",
+              "observedName": "音乐学学部",
+              "inventoryListing": {
+                "name": "音乐学学部",
+                "url": "https://music.cuhk.edu.cn/divisions/musicology",
+                "sourceIds": [
+                  "college-batch-cuhksz-6-20261029"
+                ]
+              },
+              "inventorySourceIds": [
+                "college-batch-cuhksz-6-20261029"
+              ],
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
+            }
+          ],
           "staffEntries": [],
-          "accessNote": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          },
+          "bodySha256": "46f9c4f41b36ffed7d18b9cc96fb55f1165f481f4648159d8f5aa00cb362f1a2",
+          "retrievedUrl": "https://music.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "listed_children_matched",
+            "sourceIds": [
+              "college-batch-cuhksz-6-20261029"
+            ],
+            "summary": "官网按五个学部提供独立入口：作曲指挥、钢琴与键盘、管弦乐、歌剧与声乐、音乐学。课程专业与学部结构分开。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhksz-7",
@@ -193234,15 +201271,34 @@ window.APP_CATALOG = {
           "kind": "school",
           "url": "https://spp.cuhk.edu.cn/",
           "entryBodyStatus": "body_read",
-          "readMethod": "web_reader",
+          "readMethod": "anonymous_HTTP",
           "sourceIds": [
-            "academic-map-cuhksz-7"
+            "academic-map-cuhksz-7",
+            "college-batch-cuhksz-7-20261029"
           ],
           "teacherProfilesTotal": null,
           "teacherReviewStatus": "pending",
           "children": [],
           "staffEntries": [],
-          "accessNote": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
+          "previousAccessNote": {
+            "checkedAt": "2026-10-26",
+            "text": "匿名读取遇到TLS错误；已另由网页阅读工具读到正文。"
+          },
+          "bodySha256": "ac2063f0bede1cce6abac81e6c500e6e7c7a95dba32deb98d79f2b55e7f53c11",
+          "retrievedUrl": "https://spp.cuhk.edu.cn/",
+          "organizationReview": {
+            "checkedAt": "2026-10-29",
+            "status": "not_listed_in_reviewed_pages",
+            "sourceIds": [
+              "college-batch-cuhksz-7-20261029"
+            ],
+            "summary": "学院说明研究生培养定位并列公共政策硕士、博士等项目，未列完整下属学系；关联研究院和项目名称不能替代学系架构。",
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 0
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhksz-8",
@@ -196487,5 +204543,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:7d1cecaafe9213e2fa9198fb9c7828c5c750be84d53da359c04b63b086f1a0e4"
+  "snapshotId": "sha256:d11c2b26bf01e473ba6d9140b2dd0a99f93a7b419efc077817b639c777d0ae73"
 };
