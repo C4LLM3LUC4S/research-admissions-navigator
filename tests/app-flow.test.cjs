@@ -592,3 +592,13 @@ test('college hierarchy callback keeps clinical departments beneath their school
  assert.ok(med);const group=h.walk(med).find(n=>n.tagName==='details'&&n.children[0]?.textContent==='临床医学院下的学系和单位');assert.ok(group);assert.match(group.textContent,/所属上级：School of Clinical Medicine/);assert.match(group.textContent,/不与学院的一级单位混算/);assert.match(group.textContent,/单位正文、完整师资及招生信息仍待核/);assert.ok(h.walk(group).some(n=>n.tagName==='a'&&n.href==='https://www.psychiatry.hku.hk/'));assert.match(group.textContent,/Department of Surgery/);assert.match(group.textContent,/http:\/\/www.surgery.hku.hk\//);assert.ok(!h.walk(group).some(n=>n.tagName==='a'&&n.href?.includes('surgery.hku.hk')));
  const direct=med.children.find(n=>n.tagName==='ul');assert.equal(direct.children.length,7);assert.equal(group.children.find(n=>n.tagName==='ul').children.length,17);assert.equal(h.networkCalls(),0);
 });
+
+test('scope next-step callback warns about bachelor-to-PhD routes and opens only the scoped read page',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const math=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Zhizhen'));assert.ok(math);assert.match(math.textContent,/本科—博士贯通/);assert.match(math.textContent,/不能直接当作已有本科或硕士/);assert.match(math.textContent,/接下来可以这样查/);const action=h.walk(math).find(n=>n.tagName==='a'&&n.textContent.startsWith('先看课程面向哪些学生'));assert.equal(action.href,'https://www.zsims.cuhk.edu.hk/en/?Home___Academics');assert.equal(h.networkCalls(),0);
+});
+
+test('scope next-step callback retains a restored profile and separates research organisations from direct units',async()=>{
+ const first=harness(),el=id=>first.byId.get(id);first.select('polyu','PhD',[]);await el('profile-form').emit('input');await el('export-local').emit('click');const backup=await first.downloads.at(-1).blob.text();
+ const h=harness([['yanxiang-local-v1',backup]]),e=id=>h.byId.get(id);await e('show-directories').emit('click');const design=h.walk(e('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('School of Design'));assert.ok(design);assert.match(design.textContent,/研究中心、实验室与研究院（不是学系）/);assert.match(design.textContent,/RIDE|Research Institute of Design-driven Entrepreneurship/);assert.match(design.textContent,/2025年在读博士人数不当招生余位/);const links=h.walk(design).filter(n=>n.tagName==='a');assert.ok(links.some(n=>n.href==='https://www.polyu.edu.hk/sd/research/research-centres-and-labs/'));assert.equal(h.networkCalls(),0);
+});
