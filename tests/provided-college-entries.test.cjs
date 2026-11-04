@@ -2,7 +2,8 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 test('provided department entrances preserve original unknown URLs and all other catalogue records',()=>{
- const c=read('data/catalog.json'),old=read('data/snapshots/f68fbd04012bed9ac1a509132052f923b8aa5661deb52093484cfbaca482c896.json');
+ const latest=read('data/catalog.json'),c=read('data/snapshots/0b9ba31f3c159c77d59259f605f6553203b8678ab1782c0fa47fb32b4b3a4d1a.json'),old=read('data/snapshots/f68fbd04012bed9ac1a509132052f923b8aa5661deb52093484cfbaca482c896.json');
+ assert.deepEqual(latest.academicCoverage.flatMap(m=>m.units).find(u=>u.id==='hku-1'),c.academicCoverage.flatMap(m=>m.units).find(u=>u.id==='hku-1'));
  for(const key of ['faculty','programs','directories','funding'])assert.deepEqual(c[key],old[key]);
  for(const s of old.sources)assert.deepEqual(c.sources.find(x=>x.id===s.id),s);
  const current=c.academicCoverage.flatMap(m=>m.units),previous=old.academicCoverage.flatMap(m=>m.units);

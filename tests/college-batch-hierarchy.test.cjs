@@ -23,6 +23,6 @@ test('academic centres, support units and degree titles are never relabelled as 
 });
 test('new college scope preserves all previous people policies evidence and unmodified colleges',()=>{
  for(const key of ['faculty','programs','directories'])assert.deepEqual(C[key],old[key]);for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
- const changed=new Set([...P.units,...read('data/research/college-deep-scope-20261102.json').units].map(u=>u.unitId));for(const m of old.academicCoverage)for(const u of m.units)if(!changed.has(u.id))assert.deepEqual(unit(C,u.id),u);
+ const changed=new Set([...P.units,...read('data/research/college-deep-scope-20261102.json').units,...read('data/research/law-business-organization-20261105.json').units].map(u=>u.unitId));for(const m of old.academicCoverage)for(const u of m.units)if(!changed.has(u.id))assert.deepEqual(unit(C,u.id),u);
  assert.equal(P.units.length,31);assert.equal(P.sources.length,43);assert.equal(P.allSevenHierarchiesComplete,false);
 });
