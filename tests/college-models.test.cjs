@@ -8,5 +8,5 @@ test('unitary faculty model preserves all earlier facts and does not create miss
   for(const k of ['children','url','sourceIds','bodySha256','entryBodyStatus','staffEntries','priorOrganizationReview','relatedNavigationGroups'])assert.deepEqual(u[k],prior[k]);assert.deepEqual(u.organizationReviewHistory,[prior.organizationReview]);assert.deepEqual(u.reviewedNavigation.slice(0,-1),prior.reviewedNavigation);
   assert.equal(u.children.length,0);assert.equal(u.organizationReview.status,'unitary_faculty_department');assert.equal(u.organizationReview.organizationComplete,false);assert.equal(u.organizationReview.facultyComplete,false);assert.match(u.organizationReview.summary,/治理委员会/);
  }
- assert.equal(c.sources.length,old.sources.length+1);assert.equal(c.sources.at(-1).checkedAt,'2026-11-04');
+ const law=read('data/research/college-models-20261104.json');assert.equal(law.sources.length,1);assert.deepEqual(c.sources[old.sources.length],law.sources[0]);assert.equal(law.sources[0].checkedAt,'2026-11-04');
 });

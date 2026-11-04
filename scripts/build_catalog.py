@@ -571,6 +571,11 @@ def build_catalog():
         entries = child.setdefault("providedEntries", [])
         assert not any(e["url"] == supplied["entry"]["url"] for e in entries), "Duplicate supplied entrance"
         entries.append(supplied["entry"])
+    institutional = load("institution-references-20261104.json")
+    catalog["sources"].extend(institutional["sources"])
+    for reference in institutional["references"]:
+        overview = next(m for m in catalog["academicCoverage"] if m["universityId"] == reference["universityId"])
+        overview.setdefault("institutionalReferences", []).append(reference)
     return catalog
 
 
@@ -775,6 +780,25 @@ def validate(catalog):
     for overview in maps:
         assert overview["coverageComplete"] is False
         refs(overview["sourceIds"])
+        for reference in overview.get("institutionalReferences", []):
+            assert reference["universityId"] == overview["universityId"], "Institutional scope must retain its university"
+            assert reference["kind"] in {"mixed_academic_index", "quality_manual_introduction"}
+            assert reference["organizationComplete"] is reference["facultyComplete"] is False
+            assert reference["summary"] and reference["caution"] and reference["entryNote"]
+            refs([reference["sourceId"]])
+            source = sources[reference["sourceId"]]
+            assert source["checkedAt"] == reference["checkedAt"]
+            assert source["readMethod"] == "anonymous_HTTP"
+            validate_read_receipt(source)
+            seen_entries = set()
+            for entry in reference["entries"]:
+                assert entry["url"] in source["discoveredLinks"], "Institutional entry must be provided by its own source"
+                assert entry["url"] not in seen_entries
+                seen_entries.add(entry["url"])
+                assert entry["bodyStatus"] == "not_read", "A supplied link is not a body-read receipt"
+                assert entry["supervisionEligibility"] == entry["availability"] == "unknown"
+                allowed = {"department", "division"} if reference["kind"] == "mixed_academic_index" else {"manual_chapter"}
+                assert entry["kind"] in allowed, "Do not mix facilities, campuses or manual chapters with departments"
         review = overview["listReview"]
         refs(review["sourceIds"])
         assert review["universityId"] == overview["universityId"]

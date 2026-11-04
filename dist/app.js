@@ -112,6 +112,11 @@
       const review=row.listReview;
       append(school,node('summary',(u.short||u.name)+' · '+(review?review.summary:row.reportedCounts.map(c=>c.value+' '+c.label).join('；'))),node('p',row.note,'evidence-note'));
       if(review)append(school,node('p','学院名单：'+(review.status==='research_degree_list_matched'?'已逐项核对研究学位页的名单；校级完整架构仍待核。':'已逐项核对所引校级名单。')+' 核查：'+review.checkedAt,'field-help'),node('p','下属院系：尚未核齐；教师：按院逐步核对。','field-help'),node('p',review.next,'field-help'),evidence(review.sourceIds));
+      (row.institutionalReferences||[]).forEach(reference=>{
+        const panel=node('details',null,'source-details institutional-reference'),source=C.sources.find(s=>s.id===reference.sourceId);
+        append(panel,node('summary',reference.title),node('p',reference.summary,'evidence-note'),node('p',reference.caution,'evidence-note'),link('查看这份校级资料 ↗',source.url),node('p','介绍或名录正文核查：'+reference.checkedAt+'；下列入口正文待核。','field-help'),node('p',reference.entryNote,'field-help'));
+        const entries=node('ul');reference.entries.forEach(entry=>{const item=node('li');append(item,entry.url.startsWith('https://')?link(entry.name+' ↗',entry.url):node('span',entry.name),node('span',' · 正文待核','field-help'));if(entry.url.startsWith('http://'))item.append(node('p','官网原链接为 HTTP，保留原地址供核对，不猜改为 HTTPS：'+entry.url,'field-help'));entries.append(item);});append(panel,entries,evidence([reference.sourceId]));school.append(panel);
+      });
       const list=node('div',null,'academic-unit-list');
       row.units.forEach(unit=>{
         const section=node('details',null,'academic-unit');
