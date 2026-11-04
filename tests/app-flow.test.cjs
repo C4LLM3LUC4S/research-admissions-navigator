@@ -639,3 +639,14 @@ test('restored Guangzhou applicant sees seven unread manual chapters without mer
  const first=harness(),e=id=>first.byId.get(id);first.select('hkustgz','MPhil',[]);await e('profile-form').emit('input');await e('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();
  const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const r=h.walk(el('academic-coverage')).find(n=>n.className==='source-details institutional-reference');assert.ok(r);assert.match(r.textContent,/七个章节正文尚未读取/);assert.match(r.textContent,/不能据此合并香港与广州的申请要求/);assert.equal(r.children.find(n=>n.tagName==='ul').children.length,7);assert.equal(h.networkCalls(),0);
 });
+
+test('new unit follow-up explains undergraduate scope and exposes actual pending people routes',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const engineering=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Engineering'));assert.ok(engineering);
+ const sbme=h.walk(engineering).find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('BEng及本科招生'));assert.ok(sbme);assert.match(sbme.textContent,/不能据此生成MPhil\/PhD/);assert.ok(h.walk(sbme).some(n=>n.tagName==='a'&&n.href==='https://sbme.hku.hk/people'));assert.match(sbme.textContent,/目标正文待核/);assert.match(sbme.textContent,/原入口和原读取记录保留/);const supplied=h.walk(engineering).find(n=>n.className==='provided-college-entry'&&h.walk(n).some(a=>a.href==='https://i-school.hku.hk/'));assert.ok(supplied);assert.match(supplied.children[0].textContent,/已读单位正文/);assert.match(supplied.textContent,/查看此前的入口发现记录/);assert.equal(h.networkCalls(),0);
+});
+
+test('certificate failure stays explicit after restoring a Hong Kong applicant without losing earlier directory',async()=>{
+ const first=harness(),e=id=>first.byId.get(id);first.select('hkust','PhD',[]);await e('profile-form').emit('input');await e('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();
+ const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const fail=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('证书链验证'));assert.ok(fail);assert.match(fail.textContent,/尚未读到网页正文/);assert.match(fail.textContent,/不关闭验证或改用其他通道/);assert.ok(h.walk(el('academic-coverage')).some(n=>n.tagName==='a'&&n.href==='https://isom.hkust.edu.hk/'));assert.equal(h.networkCalls(),0);
+});
