@@ -14,6 +14,6 @@ test('research fields, undergraduate training, labs and institutes do not turn i
  for(const e of g.entries){assert.equal(e.entryBodyStatus,'not_read');assert.equal(e.availability,'unknown');assert.equal(e.supervisionEligibility,'unknown');}assert.equal(P.allSevenHierarchiesComplete,false);
 });
 test('reviewed next steps use exact read scope sources and leave the unread handbook PDF distinct',()=>{
- for(const p of P.units)for(const action of unit(C,p.unitId).reviewedNavigation){assert.ok(p.organizationReview.sourceIds.includes(action.sourceId));const s=C.sources.find(s=>s.id===action.sourceId);assert.equal(s.checkedAt,'2026-11-02');assert.match(s.bodySha256,/^[a-f0-9]{64}$/);}
+ for(const p of P.units)for(const action of p.reviewedNavigation){assert.ok(unit(C,p.unitId).reviewedNavigation.some(a=>JSON.stringify(a)===JSON.stringify(action)));assert.ok(p.organizationReview.sourceIds.includes(action.sourceId));const s=C.sources.find(s=>s.id===action.sourceId);assert.equal(s.checkedAt,'2026-11-02');assert.match(s.bodySha256,/^[a-f0-9]{64}$/);}
  const law=C.sources.find(s=>s.id==='scope-cuhk-law-faculty-20261102');assert.equal(law.originalUrl,'http://www.law.cuhk.edu.hk/');assert.equal(law.url,'https://www.law.cuhk.edu.hk/app/');assert.match(unit(C,'cuhksz-7').reviewedNavigation.find(a=>a.kind==='document_entry').scope,/未下载或解析/);assert.match(unit(C,'cuhk-5').reviewedNavigation[0].scope,/清算轮仅在有余位/);
 });

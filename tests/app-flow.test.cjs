@@ -623,3 +623,8 @@ test('architecture reader can follow all three supplied department entrances wit
  }
  assert.match(u.textContent,/原入口和原读取记录另行保留/);assert.equal(h.networkCalls(),0);
 });
+
+test('law applicant sees the official unitary model without a fabricated department or admission promise',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Law'));assert.ok(u);assert.match(u.textContent,/同时承担学院和教学部门/);assert.match(u.textContent,/下一步沿全院人员名录/);assert.match(u.textContent,/不能用来判断研究生录取/);assert.ok(h.walk(u).some(n=>n.tagName==='a'&&n.href==='https://www.law.cuhk.edu.hk/app/governance-structure/'));assert.equal(h.networkCalls(),0);
+});

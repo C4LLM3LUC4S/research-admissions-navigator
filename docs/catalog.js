@@ -1,6 +1,6 @@
 window.APP_CATALOG = {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-02",
+  "checkedDate": "2026-11-04",
   "cycle": "2027/28",
   "universities": [
     {
@@ -159321,6 +159321,112 @@ window.APP_CATALOG = {
         "https://www.youtube.com/@TheRedBirdMPhilProgram"
       ],
       "listedNames": []
+    },
+    {
+      "id": "organization-law-unitary-20261104",
+      "url": "https://www.law.cuhk.edu.hk/app/governance-structure/",
+      "originalUrl": "https://www.law.cuhk.edu.hk/app/governance-structure/",
+      "retrievedUrl": "https://www.law.cuhk.edu.hk/app/governance-structure/",
+      "title": "港中文法学院：学院与教学部门一体的组织方式",
+      "checkedAt": "2026-11-04",
+      "bodySha256": "d31143a5216f58002e31838614af3c65df00fa1685fffc1bb6c0794ebd2ce83e",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官方明确的学院组织方式及治理机构；不认证录取制度、导师资格、完整师资或实时余位。",
+      "claims": [
+        "学院同时承担faculty与teaching department职能，不据空的下属系列表推成漏收学系。"
+      ],
+      "knownIssues": [
+        "治理委员会不是研究生招生制度证据；完整人员和当期项目要求须分别核实。"
+      ],
+      "discoveredLinks": [
+        "https://www.law.cuhk.edu.hk/app/",
+        "https://www.law.cuhk.edu.hk/app/cuhklaw20/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/why-cuhk-law/",
+        "https://www.law.cuhk.edu.hk/app/governance-structure/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/bachelor-of-laws-llb/",
+        "https://www.law.cuhk.edu.hk/app/global-31-study-pathway/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/juris-doctor-jd/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/dual-llb-jd-degree-programme-jointly-offered-with-university-of-exeter-exeter/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/dual-double-degrees/dual-llb-jd-degree-programme-jointly-offered-with-the-dickson-poon-school-of-law-of-kings-college-london-kcl/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/dual-double-degrees/jd-mba-double-degree/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/dual-double-degrees/bba-jd-double-degree/",
+        "https://socsc.cuhk.edu.hk/diplomacy-and-international-studies/introduction/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/pcll/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/llm/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-laws-llm-in-ai-law/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-laws-llm-in-chinese-business-law/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-laws-llm-in-common-law/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-laws-llm-in-energy-and-environmental-law/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-laws-llm-in-International-economic-law/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-laws-llm-in-legal-history/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/master-of-philosophy-in-laws-mphil/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/doctor-of-philosophy-in-laws-phd/",
+        "https://www.law.cuhk.edu.hk/app/student-life/the-sir-tl-yang-society/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/mentors/",
+        "https://www.law.cuhk.edu.hk/app/student-life/mooting/",
+        "https://www.law.cuhk.edu.hk/app/student-life/exchange-programmes/",
+        "https://www.law.cuhk.edu.hk/app/student-life/study-abroad-programmes/",
+        "https://www.law.cuhk.edu.hk/app/student-life/student-societies/",
+        "https://www.law.cuhk.edu.hk/app/student-life/law-library/",
+        "https://www.law.cuhk.edu.hk/app/study-with-us/leap/",
+        "https://www.law.cuhk.edu.hk/app/people/",
+        "https://www.law.cuhk.edu.hk/app/deans-programme-directors/",
+        "https://www.law.cuhk.edu.hk/app/people/research-interest/",
+        "https://www.law.cuhk.edu.hk/app/honorary-professors-emeritus-professor/",
+        "https://www.law.cuhk.edu.hk/app/visiting-professors-part-time-teachers/",
+        "https://www.law.cuhk.edu.hk/app/part-time-teachers/",
+        "https://www.law.cuhk.edu.hk/app/administrative-2/",
+        "https://www.law.cuhk.edu.hk/app/teaching-support-staff/",
+        "https://www.law.cuhk.edu.hk/app/law-library-staff/",
+        "https://www.law.cuhk.edu.hk/app/research-students/",
+        "https://www.law.cuhk.edu.hk/app/research-excellence/",
+        "https://www.law.cuhk.edu.hk/app/impact/",
+        "https://www.law.cuhk.edu.hk/app/areas-projects/",
+        "https://www.law.cuhk.edu.hk/app/centre-for-comparative-and-transnational-law/",
+        "https://www.law.cuhk.edu.hk/app/areas-projects/clinds/",
+        "https://web.law.cuhk.edu.hk/ALHA",
+        "https://www.law.cuhk.edu.hk/app/cuhk-law-gba-seminar-series/",
+        "https://www.law.cuhk.edu.hk/app/cross-border-legal-issues-dialogue-seminar-series/",
+        "https://www.law.cuhk.edu.hk/app/greater-china-legal-history-seminar-series-2026-27/",
+        "https://www.law.cuhk.edu.hk/app/emerging-scholars-visiting-scheme/",
+        "https://www.law.cuhk.edu.hk/app/publications-presentations-2024-2025/",
+        "https://www.law.cuhk.edu.hk/app/grants-funds/",
+        "https://www.law.cuhk.edu.hk/app/awards-prizes/",
+        "https://www.law.cuhk.edu.hk/app/teaching-excellence/",
+        "https://www.law.cuhk.edu.hk/app/teaching-learning-at-cuhk-law/",
+        "https://www.law.cuhk.edu.hk/app/faculty-teaching-awards/",
+        "https://www.law.cuhk.edu.hk/app/new-venture-legal-team/",
+        "https://www.law.cuhk.edu.hk/app/conferences-seminars-2/",
+        "https://www.law.cuhk.edu.hk/app/20th-anniversary-law-masterclasses/",
+        "https://www.law.cuhk.edu.hk/app/junior-fellows-and-junior-scholars-programmes/",
+        "https://www.law.cuhk.edu.hk/app/student-careers/",
+        "https://www.law.cuhk.edu.hk/app/for-employers/",
+        "https://www.law.cuhk.edu.hk/en/student-careers/login.php",
+        "https://www.law.cuhk.edu.hk/app/alumni/",
+        "https://www.law.cuhk.edu.hk/app/mission-and-vision/",
+        "https://www.law.cuhk.edu.hk/app/locations-it-facilities/",
+        "https://www.law.cuhk.edu.hk/app/facts/",
+        "https://www.law.cuhk.edu.hk/app/figures-student-numbers/",
+        "https://www.law.cuhk.edu.hk/app/figures-student-mix/",
+        "https://www.law.cuhk.edu.hk/app/figures-complement/",
+        "https://www.law.cuhk.edu.hk/app/contact-us/",
+        "https://mycuhk.sharepoint.com/sites/Faculty.LAW/studentwebsite",
+        "https://gocuhk.sharepoint.com/sites/Faculty.LAW/staffwebsite/SitePages/Home.aspx",
+        "https://outlook.office365.com/",
+        "https://www.law.cuhk.edu.hk/app/job-vacancies",
+        "https://www.law.cuhk.edu.hk/donation/",
+        "http://www.cuhk.edu.hk/english/privacy.html",
+        "http://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.facebook.com/CUHKFacultyofLaw/",
+        "https://www.instagram.com/cuhkfacultyoflaw/",
+        "https://www.linkedin.com/school/cuhkfacultyoflaw/",
+        "https://www.law.cuhk.edu.hk/app/follow-us-on-wechat/",
+        "https://www.youtube.com/channel/UC4bwNL-trZQbid3EYLNa0IQ",
+        "https://www.cuhk.edu.hk/"
+      ],
+      "declaredOrganizationModel": "unitary_faculty_department"
     }
   ],
   "funding": [
@@ -180062,17 +180168,21 @@ window.APP_CATALOG = {
           "bodySha256": "d6882088f63955e86861ded7329c0507440a7fc331caee75b0d2782fefa269e2",
           "retrievedUrl": "https://www.cuhk.edu.hk/english/faculties/law.html",
           "organizationReview": {
-            "checkedAt": "2026-11-02",
-            "status": "not_listed_in_reviewed_pages",
-            "summary": "已读法学院现时官网、使命页及2027/28研究学位通知，未核到完整下属学系清单。MPhil/PhD通知供继续查申请，不能代替学院架构、导师资格或实时余位。",
+            "checkedAt": "2026-11-04",
+            "status": "unitary_faculty_department",
+            "summary": "官网明确：法学院同时承担学院和教学部门的职能。因此不另外补造下属学系；下一步沿全院人员名录核师资。治理委员会的组成不能用来判断研究生录取由谁决定，也不证明成员均有指导资格或招生名额。",
             "sourceIds": [
               "scope-cuhk-law-faculty-20261102",
               "scope-cuhk-law-mission-20261102",
-              "scope-cuhk-law-2027-notice-20261102"
+              "scope-cuhk-law-2027-notice-20261102",
+              "organization-law-unitary-20261104"
             ],
             "organizationComplete": false,
             "facultyComplete": false,
-            "listedChildren": 0
+            "listedChildren": 0,
+            "modelSourceIds": [
+              "organization-law-unitary-20261104"
+            ]
           },
           "relatedNavigationGroups": [],
           "priorOrganizationReview": {
@@ -180092,6 +180202,27 @@ window.APP_CATALOG = {
               "sourceId": "scope-cuhk-law-2027-notice-20261102",
               "scope": "MPhil与PhD、HKPFS与普通申请分开；清算轮仅在有余位时考虑，实际余位仍未知。",
               "kind": "research_admission_notice"
+            },
+            {
+              "label": "查看学院与教学部门一体的官方说明",
+              "sourceId": "organization-law-unitary-20261104",
+              "scope": "已读组织方式；全院师资、研究生招生规则与实时余位仍分别待核。",
+              "kind": "college_scope"
+            }
+          ],
+          "organizationReviewHistory": [
+            {
+              "checkedAt": "2026-11-02",
+              "status": "not_listed_in_reviewed_pages",
+              "summary": "已读法学院现时官网、使命页及2027/28研究学位通知，未核到完整下属学系清单。MPhil/PhD通知供继续查申请，不能代替学院架构、导师资格或实时余位。",
+              "sourceIds": [
+                "scope-cuhk-law-faculty-20261102",
+                "scope-cuhk-law-mission-20261102",
+                "scope-cuhk-law-2027-notice-20261102"
+              ],
+              "organizationComplete": false,
+              "facultyComplete": false,
+              "listedChildren": 0
             }
           ]
         },
@@ -207662,5 +207793,5 @@ window.APP_CATALOG = {
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:0b9ba31f3c159c77d59259f605f6553203b8678ab1782c0fa47fb32b4b3a4d1a"
+  "snapshotId": "sha256:7e45fcf7131521d5c8228c25abcbe3c61c683b8cbbd64dc3f0cccc02f2fc7e45"
 };
