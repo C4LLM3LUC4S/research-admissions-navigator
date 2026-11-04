@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a24",
+  "version": "0.1.0a25",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-02",
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2046,
+    "official_sources": 2054,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 68,
     "teacher_linked_sources": 461,
-    "total_sources": 2507,
+    "total_sources": 2515,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -266,13 +266,17 @@
     "scopeClarificationReceipt": "data/research/scope-clarifications-20261102.json",
     "scopeClarificationUnits": 5,
     "scopeClarificationSources": 10,
-    "reviewedNextStepLinks": 6
+    "reviewedNextStepLinks": 12,
+    "deepScopeReceipt": "data/research/college-deep-scope-20261102.json",
+    "deepScopeUnits": 5,
+    "deepScopeSources": 8
   },
   "current_hierarchy_validation": {
-    "sourceCheckedDate": "2026-11-02 for this pack only; earlier source dates preserved",
+    "sourceCheckedDate": "2026-11-02 for the new eight bodies only; earlier receipts unchanged",
     "actualCallbackChecks": "tests/app-flow.test.cjs",
     "completeSevenUniversities": false,
     "independentHumanUse": false,
-    "browserThisChange": "CUA initialization failed before any browser action: missing kernel assets. Actual callback and restoration checked separately; no new visual/native-picker/browser-download claim."
+    "browserThisChange": "Actual Edge college entry and keyboard task, 390px layout, newly saved backup file, normal browser file-chooser import at a blank localhost origin and reload persistence verified; native Windows dialog automation not tested.",
+    "browserCheckedAt": "2026-11-04"
   }
 }
