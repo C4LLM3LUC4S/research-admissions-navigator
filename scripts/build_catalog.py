@@ -563,6 +563,12 @@ def build_catalog():
     catalog["academicEntryProgress"].update(childBodiesRead=entry_progress["counts"]["childBodiesRead"]-len(failed),
                                           childFailures=entry_progress["counts"]["childFailures"]+len(failed),
                                           knownAccessChallenges=len(failed))
+    for supplied in load("provided-college-entries-20261104.json")["entries"]:
+        unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == supplied["unitId"])
+        child = next(c for c in unit["children"] if c["name"] == supplied["childName"])
+        entries = child.setdefault("providedEntries", [])
+        assert not any(e["url"] == supplied["entry"]["url"] for e in entries), "Duplicate supplied entrance"
+        entries.append(supplied["entry"])
     return catalog
 
 
