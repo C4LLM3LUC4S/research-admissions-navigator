@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2064,
+    "official_sources": 2066,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 68,
     "teacher_linked_sources": 461,
-    "total_sources": 2525,
+    "total_sources": 2527,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -283,5 +283,6 @@
     "Three provided architecture department entries",
     "Official CUHK Law unitary faculty/teaching-department model"
   ],
-  "release_scope_note": "汇集PR41至44的来源与导航改进；七校完整性与全部旧记录仍分别保留，实际公开文件另作验收。"
+  "release_scope_note": "汇集PR41至44的来源与导航改进；七校完整性与全部旧记录仍分别保留，实际公开文件另作验收。",
+  "unreleased_source_note": "港大法学院2024行政组织声明与城大商学院五个实际HTTPS入口并入维护源码；公开a26仍是原始发行字节。"
 }

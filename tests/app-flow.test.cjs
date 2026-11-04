@@ -650,3 +650,14 @@ test('certificate failure stays explicit after restoring a Hong Kong applicant w
  const first=harness(),e=id=>first.byId.get(id);first.select('hkust','PhD',[]);await e('profile-form').emit('input');await e('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();
  const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const fail=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('证书链验证'));assert.ok(fail);assert.match(fail.textContent,/尚未读到网页正文/);assert.match(fail.textContent,/不关闭验证或改用其他通道/);assert.ok(h.walk(el('academic-coverage')).some(n=>n.tagName==='a'&&n.href==='https://isom.hkust.edu.hk/'));assert.equal(h.networkCalls(),0);
 });
+
+test('law reader restores a dated administrative declaration without turning it into an admission rule',async()=>{
+ const first=harness(),f=id=>first.byId.get(id);first.select('hku','PhD',[]);await f('profile-form').emit('input');await f('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');
+ const law=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Law'));assert.ok(law);assert.match(law.textContent,/2024年9月1日/);assert.match(law.textContent,/教学安排保持不变/);assert.match(law.textContent,/不说明研究生录取由谁决定/);assert.ok(h.walk(law).some(n=>n.tagName==='a'&&n.href==='https://www.law.hku.hk/news/hku-law-as-a-unitary-faculty/'));assert.equal(h.networkCalls(),0);
+});
+
+test('business reader gets five actually supplied HTTPS department entrances and keeps failed original URLs',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const cb=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('College of Business'));assert.ok(cb);assert.match(cb.textContent,/六个学术系/);assert.match(cb.textContent,/原HTTP入口和读取记录保留/);
+ for(const slug of ['ac','ef','is','mgt','mkt']){const a=h.walk(cb).find(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/'+slug+'/');assert.ok(a);assert.match(a.textContent,/正文待核/);}
+ assert.ok(!h.walk(cb).some(n=>n.tagName==='a'&&n.href==='https://www.cityu.edu.hk/ac/'));assert.ok(h.walk(cb).some(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/en/people/faculty-directory'));assert.equal(h.networkCalls(),0);
+});

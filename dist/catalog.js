@@ -160404,6 +160404,264 @@ window.APP_CATALOG = {
         "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/?variant=zh-cn",
         "https://hkust-gz.edu.cn/"
       ]
+    },
+    {
+      "id": "organization-hku-law-unitary-20261104",
+      "url": "https://www.law.hku.hk/news/hku-law-as-a-unitary-faculty/",
+      "originalUrl": "https://www.law.hku.hk/news/hku-law-as-a-unitary-faculty/",
+      "retrievedUrl": "https://www.law.hku.hk/news/hku-law-as-a-unitary-faculty/",
+      "title": "港大法学院：2024年起统一行政组织的官方声明",
+      "checkedAt": "2026-11-04",
+      "publishedAt": "2024-09-01",
+      "bodySha256": "f2d6226f59f98db3a7052a2328f4d7eebaef506d030c86a1407a1637a3310116",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "declaredOrganizationModel": "unitary_faculty",
+      "declaredEffectiveFrom": "2024-09-01",
+      "declaredModelScope": "faculty_administration",
+      "scope": "2024年公布的行政统一安排；不是2026年新政策、完整学系或导师名单。",
+      "claims": [
+        "公告说明原法律学系与专业法律教育学系自2024年9月1日起统一，教学安排不变。"
+      ],
+      "knownIssues": [
+        "行政统一不等于导师制或委员会制录取，也不认证全部师资或名额。"
+      ],
+      "discoveredLinks": [
+        "https://www.law.hku.hk/about-us/history/",
+        "https://www.law.hku.hk/about-us/deans-message/",
+        "https://aiifl.law.hku.hk",
+        "https://ccpl.law.hku.hk/",
+        "https://cils.law.hku.hk/",
+        "https://cmel.hku.hk/",
+        "https://lawtech.hku.hk/",
+        "https://ccl.law.hku.hk/",
+        "https://www.law.hku.hk/about-us/job-openings/",
+        "https://www.law.hku.hk/about-us/contact-us/",
+        "https://www.law.hku.hk/about-us/our-building/",
+        "https://www.law.hku.hk/about-us/law-anthem/",
+        "https://50.law.hku.hk",
+        "https://hku.au1.qualtrics.com/jfe/form/SV_00z83hY6a7GwgR0",
+        "https://www.law.hku.hk/news/des-voeux-chambers-cambridge-hku-visiting-fellowship-renewed/",
+        "https://video.law.hku.hk/category/browse/lecture/hku-boase-cohen-collins-criminal-law-lecture/",
+        "https://lecture.law.hku.hk/",
+        "https://www.law.hku.hk/academic-staff/",
+        "https://www.law.hku.hk/faculty/dean-and-faculty-office/",
+        "https://dm.law.hku.hk/",
+        "https://dm.law.hku.hk/timetables",
+        "https://course.law.hku.hk/",
+        "https://dm.law.hku.hk/intranet",
+        "http://moodle.hku.hk/",
+        "https://www.law.hku.hk/current-students/kcl/",
+        "https://www.law.hku.hk/current-students/unsw/",
+        "https://www.law.hku.hk/current-students/ucb/",
+        "https://www.law.hku.hk/current-students/ubc/",
+        "https://career.law.hku.hk/",
+        "https://moodle.hku.hk/course/view.php?id=133391",
+        "https://www.law.hku.hk/current-students/summer-programme/social-justice-summer-internship/",
+        "https://www.law.hku.hk/current-students/summer-programme/summer-programmes-in-china/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-introduction/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-partner-universities/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-scholarships-for-law-students/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-self-funding-visiting-student-scheme/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-application-forms/",
+        "https://www.law.hku.hk/current-students/outgoing-exchange-programme-useful-information/",
+        "https://www.law.hku.hk/current-students/contact-details/",
+        "https://www.wellbeinginlaw.hku.hk/",
+        "https://www.law.hku.hk/research/introduction/",
+        "https://hub.hku.hk/simple-search?location=crisou&filterquery=ou00002&filtername=faculty&filtertype=authority",
+        "https://papers.ssrn.com/sol3/JELJOUR_Results.cfm?form_name=journalbrowse&journal_id=1759534",
+        "https://www.law.hku.hk/research/faculty-grants/",
+        "https://www.law.hku.hk/research/hku-law-outstanding-early-career-visiting-fellowship-scheme/",
+        "https://www.law.hku.hk/research/visiting-scholars-scheme/",
+        "https://www.law.hku.hk/research/hku-asean-academic-fellowship-scheme/",
+        "https://www.law.hku.hk/research/resources/",
+        "http://lib.hku.hk/lawlib/index.html",
+        "http://lib.hku.hk/",
+        "http://researchintegrity.law.hku.hk/",
+        "https://gce.law.hku.hk",
+        "https://www.law.hku.hk/experiential-learning-at-hku-law/",
+        "https://www.law.hku.hk/news/hku-law-as-a-unitary-faculty/",
+        "https://www.law.hku.hk/hk/news/hku-law-as-a-unitary-faculty/",
+        "https://www.law.hku.hk/events/",
+        "https://www.law.hku.hk/press-releases/",
+        "https://www.law.hku.hk/events-media/faculty-in-the-news-2026/",
+        "https://newsletter.law.hku.hk/",
+        "https://video.law.hku.hk",
+        "https://www.law.hku.hk/prospective-students/ug-introduction/",
+        "https://www.law.hku.hk/prospective-students/ug-llb/",
+        "https://ug.hkubs.hku.hk/programme/bba-law-and-llb",
+        "https://ppa.hku.hk/undergraduate/bachelor-of-social-sciences-government-and-laws-bachelor-of-laws-bsocsc-gl-llb",
+        "http://arts.hku.hk/current-students/undergraduate/BALLB",
+        "https://www.scifac.hku.hk/prospective/ug/6858-bsc-and-llb",
+        "https://www.law.hku.hk/prospective-students/ug-faq/",
+        "https://www.law.hku.hk/HKU_LAW_UG_Prospectus_2027_Admission.html",
+        "https://www.law.hku.hk/events/hku-information-day-2026-for-undergraduate-admissions/",
+        "https://llm.law.hku.hk/",
+        "https://llm.law.hku.hk/embl",
+        "https://jd.law.hku.hk/",
+        "http://www.ple.hku.hk/pcll/",
+        "https://www.law.hku.hk/prospective-students/ug-double-master-degree-programme-with-peking-university/",
+        "https://www.law.hku.hk/prospective-students/ug-hku-pku-dual-degree-programme-in-law/",
+        "https://hkuucl.law.hku.hk",
+        "https://jd.law.hku.hk/applicants/penn-law-llm/",
+        "https://www.law.hku.hk/prospective-students/joint-legal-education-programme-with-the-peter-a-allard-school-of-law-at-ubc/",
+        "https://llm.law.hku.hk/llmhku-mlawuzh/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-introduction/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-major-research-area/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-guidelines-and-forms-for-current-students/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-phd-2/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-mphil-2/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-sjd-2/",
+        "https://www.law.hku.hk/research-postgraduate-students/",
+        "https://www.law.hku.hk/prospective-students/research-programmes-rpg-graduates/",
+        "https://www.law.hku.hk/prospective-students/tuition-fees/",
+        "https://www.law.hku.hk/international-exchange-programmes/international-and-greater-china-partnerships/",
+        "https://www.law.hku.hk/international-exchange-programmes/international-exchange-programme-incoming-exchange-visiting-programme/",
+        "https://www.law.hku.hk/international-exchange-programmes/international-exchange-programme-visiting-prc-students/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/about-the-association/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/constitution/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/activities-and-events/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/law-mentorship-programme/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/annual-reports/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/membership-fees-application-form/",
+        "https://www.law.hku.hk/activity_event/hku-law-alumni-charity-limited/",
+        "https://www.law.hku.hk/alumni/hku-law-alumni-association/memory-lane/",
+        "https://www.facebook.com/HKUADRLLMALUM/",
+        "https://eform.alumni.hku.hk/zend/form/online_contact_update#new_tab",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/introduction/",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/ke-awards/",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/research-consultancies/",
+        "https://www4.hku.hk/hkumcd/index.php/eng/unit/28_Faculty_of_Law.html",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/ke-initiatives/",
+        "https://www.law.hku.hk/knowledge-exchange-and-impact/continuing-legal-education/",
+        "https://www.andrewli.hku.hk/",
+        "https://www.law.hku.hk/experiential-learning/clinical-legal-education/",
+        "https://www.law.hku.hk/giving-to-hku-law/",
+        "https://www.law.hku.hk/news/",
+        "https://www.instagram.com/hkulawfac/",
+        "https://www.facebook.com/HKULawFac/",
+        "https://twitter.com/HkuLaw",
+        "https://www.linkedin.com/school/hku-law",
+        "https://www.youtube.com/@hkufaclaw",
+        "https://www.law.hku.hk/wp-content/uploads/2024/08/qrcode_for_wechat.jpg",
+        "https://web.law.hku.hk/lawdept/authen.php",
+        "https://forms.office.com/r/LDmiua0g1E"
+      ]
+    },
+    {
+      "id": "organization-cityu-business-departments-20261104",
+      "url": "https://www.cb.cityu.edu.hk/en/about/departments",
+      "originalUrl": "https://www.cb.cityu.edu.hk/en/about/departments",
+      "retrievedUrl": "https://www.cb.cityu.edu.hk/en/about/departments",
+      "title": "城大商学院：六个学术系及官网入口",
+      "checkedAt": "2026-11-04",
+      "bodySha256": "4b5bab9a32cb331b650f31f0ad08b3f14438cb16c772c6d0192131b5a8856a75",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学院明确列出的六个academic departments；不是完整师资、指导资格或招生余位。",
+      "claims": [
+        "六个原始系名与现有学院下属名单逐项匹配，保留来源范围和已有记录。"
+      ],
+      "knownIssues": [
+        "目录给出的HTTPS系网址本次尚未读取；旧HTTP入口与失败记录保留。"
+      ],
+      "listedNames": [
+        "Accountancy",
+        "Decision Analytics & Operations",
+        "Economics & Finance",
+        "Information Systems",
+        "Management",
+        "Marketing"
+      ],
+      "observedDepartmentCards": [
+        {
+          "name": "Accountancy",
+          "url": "https://www.cb.cityu.edu.hk/ac/"
+        },
+        {
+          "name": "Decision Analytics & Operations",
+          "url": "https://www.cb.cityu.edu.hk/dao/"
+        },
+        {
+          "name": "Economics & Finance",
+          "url": "https://www.cb.cityu.edu.hk/ef/"
+        },
+        {
+          "name": "Information Systems",
+          "url": "https://www.cb.cityu.edu.hk/is/"
+        },
+        {
+          "name": "Management",
+          "url": "https://www.cb.cityu.edu.hk/mgt/"
+        },
+        {
+          "name": "Marketing",
+          "url": "https://www.cb.cityu.edu.hk/mkt/"
+        }
+      ],
+      "discoveredLinks": [
+        "https://www.cb.cityu.edu.hk/en",
+        "https://www.cb.cityu.edu.hk/en/about",
+        "https://www.cb.cityu.edu.hk/en/about/college-of-business",
+        "https://www.cb.cityu.edu.hk/en/about/deans-message",
+        "https://www.cb.cityu.edu.hk/en/about/misson",
+        "https://www.cb.cityu.edu.hk/en/about/assurance-of-learning",
+        "https://www.cb.cityu.edu.hk/en/about/accreditations-and-ranking",
+        "https://www.cb.cityu.edu.hk/en/about/advisory-boards",
+        "https://www.cb.cityu.edu.hk/en/about/departments",
+        "https://www.cb.cityu.edu.hk/en/about/learning-at-cb",
+        "https://www.cb.cityu.edu.hk/en/about/awards-and-recognition",
+        "https://www.cb.cityu.edu.hk/en/programmes",
+        "https://www.cb.cityu.edu.hk/en/programmes/undergraduate",
+        "https://www.cb.cityu.edu.hk/masters",
+        "https://www.cb.cityu.edu.hk/en/programmes/executive",
+        "https://www.cb.cityu.edu.hk/en/programmes/research",
+        "https://www.cb.cityu.edu.hk/execed/",
+        "https://www.cb.cityu.edu.hk/en/programmes/other-programmes",
+        "https://www.cb.cityu.edu.hk/en/programmes/scholarships",
+        "https://www.cb.cityu.edu.hk/en/programmes/all-programmes",
+        "https://www.cb.cityu.edu.hk/en/people",
+        "https://www.cb.cityu.edu.hk/en/people/leadership",
+        "https://www.cb.cityu.edu.hk/en/people/faculty-directory",
+        "https://www.cb.cityu.edu.hk/en/research",
+        "https://www.cb.cityu.edu.hk/cb2025/people-and-research/research-insights",
+        "https://www.cb.cityu.edu.hk/en/research/research-centres",
+        "https://www.cb.cityu.edu.hk/en/research/research-indices",
+        "https://www.cb.cityu.edu.hk/en/student-life",
+        "https://www.cb.cityu.edu.hk/en/student-life/study-abroad",
+        "https://www.cb.cityu.edu.hk/en/student-life/study-abroad/partner-universities",
+        "https://www.cb.cityu.edu.hk/en/student-life/activities",
+        "https://www.cb.cityu.edu.hk/en/student-life/careers",
+        "https://www.cb.cityu.edu.hk/en/alumni",
+        "https://www.cb.cityu.edu.hk/en/alumni/endowment",
+        "https://www.cb.cityu.edu.hk/en/news-and-events",
+        "https://www.cb.cityu.edu.hk/en/news-and-events/news",
+        "https://www.cb.cityu.edu.hk/cb2025/news-and-events/events",
+        "https://www.cb.cityu.edu.hk/en/news-and-events/videos",
+        "https://www.cb.cityu.edu.hk/cb2025/giving/1",
+        "https://www.cb.cityu.edu.hk/cb2025/giving/roll-of-donors",
+        "https://www.cityu.edu.hk",
+        "https://www.cb.cityu.edu.hk/people",
+        "https://www.cb.cityu.edu.hk/programmes",
+        "https://www.cb.cityu.edu.hk/news-and-events/news",
+        "https://www.cityu.edu.hk/cityusearch/?q=inurl:",
+        "https://www.cb.cityu.edu.hk/ac/",
+        "https://www.cb.cityu.edu.hk/dao/",
+        "https://www.cb.cityu.edu.hk/ef/",
+        "https://www.cb.cityu.edu.hk/is/",
+        "https://www.cb.cityu.edu.hk/mgt/",
+        "https://www.cb.cityu.edu.hk/mkt/",
+        "https://www.cityu.edu.hk/web/privacy",
+        "https://www.cityu.edu.hk/web/copyright",
+        "https://www.cityu.edu.hk/web/disclaimer",
+        "https://www.cityu.edu.hk/web/accessibility",
+        "https://www.linkedin.com/school/cityucb/",
+        "https://www.instagram.com/cityu_business",
+        "https://www.facebook.com/CityU.CB",
+        "https://www.youtube.com/@CBCityUHongKong",
+        "https://www.cb.cityu.edu.hk/-/media/project/cityuhk/academic/cb202603/icon/cityucb_wechat.jpg?rev=a9e7ac0aff0d4107b6cdb8d2e27c31d5&hash=6CE8B6D0468E2EFCBB12A1FA2725EA8E",
+        "https://www.xiaohongshu.com/user/profile/5caabb420000000016015748"
+      ]
     }
   ],
   "funding": [
@@ -175876,12 +176134,18 @@ window.APP_CATALOG = {
           "bodySha256": "53fd074e05158e06a4d06cd57b2763a1b7c350ec395581e24f2d452d1400643d",
           "retrievedUrl": "https://www.hku.hk/en/academics/faculties/law",
           "organizationReview": {
-            "checkedAt": "2026-11-02",
-            "status": "not_listed_in_reviewed_pages",
-            "summary": "已读全院Academic Staff导航，保留不同原始职位；未逐人核齐，也未据此证实完整下属学系。不能用现时人员导航或旧历史页代替完整组织架构。",
+            "checkedAt": "2026-11-04",
+            "status": "unitary_faculty",
+            "summary": "学院2024年9月1日的公告说明：原法律学系与专业法律教育学系统一为一体化学院，教学安排保持不变。旧资料中的双学系属于另一时期，不能直接补成当前下属名单；行政统一也不说明研究生录取由谁决定。完整师资、指导资格和名额仍需分别核实。",
             "sourceIds": [
-              "scope-hku-law-unit-categories-20261102"
+              "scope-hku-law-unit-categories-20261102",
+              "organization-hku-law-unitary-20261104"
             ],
+            "modelSourceIds": [
+              "organization-hku-law-unitary-20261104"
+            ],
+            "effectiveFrom": "2024-09-01",
+            "modelScope": "faculty_administration",
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 0
@@ -175904,6 +176168,25 @@ window.APP_CATALOG = {
               "sourceId": "scope-hku-law-unit-categories-20261102",
               "scope": "已读导航分类；不同职位不一概当成可申请导师，完整名单和逐人主页仍待核。",
               "kind": "staff_directory"
+            },
+            {
+              "label": "查看2024年起统一行政组织的官方声明",
+              "sourceId": "organization-hku-law-unitary-20261104",
+              "scope": "公告生效日为2024年9月1日，教学安排不变；不要把行政统一理解为研究生录取制度或当前名额。",
+              "kind": "college_scope"
+            }
+          ],
+          "organizationReviewHistory": [
+            {
+              "checkedAt": "2026-11-02",
+              "status": "not_listed_in_reviewed_pages",
+              "summary": "已读全院Academic Staff导航，保留不同原始职位；未逐人核齐，也未据此证实完整下属学系。不能用现时人员导航或旧历史页代替完整组织架构。",
+              "sourceIds": [
+                "scope-hku-law-unit-categories-20261102"
+              ],
+              "organizationComplete": false,
+              "facultyComplete": false,
+              "listedChildren": 0
             }
           ]
         },
@@ -199088,7 +199371,34 @@ window.APP_CATALOG = {
               "staffRoutes": [],
               "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
               "responseKind": "access_challenge",
-              "classificationReviewedAt": "2026-10-27"
+              "classificationReviewedAt": "2026-10-27",
+              "kind": "department",
+              "inventorySourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "inventoryListing": {
+                "name": "Accountancy",
+                "url": "https://www.cb.cityu.edu.hk/ac/",
+                "sourceIds": [
+                  "organization-cityu-business-departments-20261104"
+                ]
+              },
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院六系名单给出的系官网",
+                  "url": "https://www.cb.cityu.edu.hk/ac/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "organization-cityu-business-departments-20261104"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这条HTTPS网址由本次已读的学院六系名单实际提供；目标系正文尚未读取。保留旧HTTP入口和旧读取记录，不猜改原网址。"
+                }
+              ]
             },
             {
               "name": "Department of Decision Analytics and Operations",
@@ -199128,7 +199438,21 @@ window.APP_CATALOG = {
                   "completeFacultyEnumeration": false
                 }
               ],
-              "failure": null
+              "failure": null,
+              "kind": "department",
+              "inventorySourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "inventoryListing": {
+                "name": "Decision Analytics & Operations",
+                "url": "https://www.cb.cityu.edu.hk/dao/",
+                "sourceIds": [
+                  "organization-cityu-business-departments-20261104"
+                ]
+              },
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown"
             },
             {
               "name": "Department of Economics and Finance",
@@ -199143,7 +199467,34 @@ window.APP_CATALOG = {
               "staffRoutes": [],
               "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
               "responseKind": "access_challenge",
-              "classificationReviewedAt": "2026-10-27"
+              "classificationReviewedAt": "2026-10-27",
+              "kind": "department",
+              "inventorySourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "inventoryListing": {
+                "name": "Economics & Finance",
+                "url": "https://www.cb.cityu.edu.hk/ef/",
+                "sourceIds": [
+                  "organization-cityu-business-departments-20261104"
+                ]
+              },
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院六系名单给出的系官网",
+                  "url": "https://www.cb.cityu.edu.hk/ef/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "organization-cityu-business-departments-20261104"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这条HTTPS网址由本次已读的学院六系名单实际提供；目标系正文尚未读取。保留旧HTTP入口和旧读取记录，不猜改原网址。"
+                }
+              ]
             },
             {
               "name": "Department of Information Systems",
@@ -199158,7 +199509,34 @@ window.APP_CATALOG = {
               "staffRoutes": [],
               "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
               "responseKind": "access_challenge",
-              "classificationReviewedAt": "2026-10-27"
+              "classificationReviewedAt": "2026-10-27",
+              "kind": "department",
+              "inventorySourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "inventoryListing": {
+                "name": "Information Systems",
+                "url": "https://www.cb.cityu.edu.hk/is/",
+                "sourceIds": [
+                  "organization-cityu-business-departments-20261104"
+                ]
+              },
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院六系名单给出的系官网",
+                  "url": "https://www.cb.cityu.edu.hk/is/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "organization-cityu-business-departments-20261104"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这条HTTPS网址由本次已读的学院六系名单实际提供；目标系正文尚未读取。保留旧HTTP入口和旧读取记录，不猜改原网址。"
+                }
+              ]
             },
             {
               "name": "Department of Management",
@@ -199173,7 +199551,34 @@ window.APP_CATALOG = {
               "staffRoutes": [],
               "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
               "responseKind": "access_challenge",
-              "classificationReviewedAt": "2026-10-27"
+              "classificationReviewedAt": "2026-10-27",
+              "kind": "department",
+              "inventorySourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "inventoryListing": {
+                "name": "Management",
+                "url": "https://www.cb.cityu.edu.hk/mgt/",
+                "sourceIds": [
+                  "organization-cityu-business-departments-20261104"
+                ]
+              },
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院六系名单给出的系官网",
+                  "url": "https://www.cb.cityu.edu.hk/mgt/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "organization-cityu-business-departments-20261104"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这条HTTPS网址由本次已读的学院六系名单实际提供；目标系正文尚未读取。保留旧HTTP入口和旧读取记录，不猜改原网址。"
+                }
+              ]
             },
             {
               "name": "Department of Marketing",
@@ -199188,7 +199593,34 @@ window.APP_CATALOG = {
               "staffRoutes": [],
               "failure": "入口返回网站访问检查页，尚未读到院系正文；保留原链接待核，不以HTTP200计作正文。",
               "responseKind": "access_challenge",
-              "classificationReviewedAt": "2026-10-27"
+              "classificationReviewedAt": "2026-10-27",
+              "kind": "department",
+              "inventorySourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "inventoryListing": {
+                "name": "Marketing",
+                "url": "https://www.cb.cityu.edu.hk/mkt/",
+                "sourceIds": [
+                  "organization-cityu-business-departments-20261104"
+                ]
+              },
+              "parentEvidenceStatus": "body_read",
+              "supervisionEligibility": "unknown",
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院六系名单给出的系官网",
+                  "url": "https://www.cb.cityu.edu.hk/mkt/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "organization-cityu-business-departments-20261104"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "这条HTTPS网址由本次已读的学院六系名单实际提供；目标系正文尚未读取。保留旧HTTP入口和旧读取记录，不猜改原网址。"
+                }
+              ]
             }
           ],
           "staffEntries": [
@@ -200102,9 +200534,39 @@ window.APP_CATALOG = {
                   "receiptScope": "batched_tool_response"
                 }
               ]
+            },
+            {
+              "label": "学院提供的全院教师目录（目标正文待核）",
+              "url": "https://www.cb.cityu.edu.hk/en/people/faculty-directory",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "organization-cityu-business-departments-20261104"
+              ],
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null
             }
           ],
-          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。"
+          "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。",
+          "organizationReview": {
+            "checkedAt": "2026-11-04",
+            "status": "listed_children_matched",
+            "summary": "学院Departments页明确列出六个学术系，已与下方六个原有系名逐项对上。新页面实际给出的HTTPS网址另行接入；原HTTP入口和读取记录保留，不根据网址形式猜测新地址。学院委员会、全院人员与研究中心不混作下属学系或可申请导师。",
+            "sourceIds": [
+              "organization-cityu-business-departments-20261104"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 6
+          },
+          "relatedNavigationGroups": [],
+          "reviewedNavigation": [
+            {
+              "label": "查看学院明确列出的六个学术系",
+              "sourceId": "organization-cityu-business-departments-20261104",
+              "scope": "六个系名已与现有名单逐项匹配；所给系网站与全院人员入口尚未逐项读完，不代表导师名额。",
+              "kind": "college_scope"
+            }
+          ]
         },
         {
           "id": "cityu-3",
@@ -209286,5 +209748,5 @@ window.APP_CATALOG = {
       "facultyComplete": false
     }
   ],
-  "snapshotId": "sha256:ff5bacb8ebe0797ff06ed33e5b219381639cdd314acd20a934091fd2468815da"
+  "snapshotId": "sha256:8721ee54f25ede15f388f369ef3a3f8c304b55c72ed2570a68c24af0e5c780e7"
 };

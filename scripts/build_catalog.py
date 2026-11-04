@@ -520,9 +520,13 @@ def build_catalog():
         unit["childInventoryReview"] = {key: reviewed[key] for key in ("checkedAt", "sourceIds", "summary")}
         unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
         unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
-    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json"):
+    deferred_organization_sources = []
+    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json"):
         organization = load(organization_path)
-        catalog["sources"].extend(organization["sources"])
+        if organization.get("appendSourcesAfterExisting"):
+            deferred_organization_sources.extend(organization["sources"])
+        else:
+            catalog["sources"].extend(organization["sources"])
         organization_sources = {s["id"]: s for s in organization["sources"]}
         for reviewed in organization["units"]:
             unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == reviewed["unitId"])
@@ -565,12 +569,13 @@ def build_catalog():
     catalog["academicEntryProgress"].update(childBodiesRead=entry_progress["counts"]["childBodiesRead"]-len(failed),
                                           childFailures=entry_progress["counts"]["childFailures"]+len(failed),
                                           knownAccessChallenges=len(failed))
-    for supplied in load("provided-college-entries-20261104.json")["entries"]:
-        unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == supplied["unitId"])
-        child = next(c for c in unit["children"] if c["name"] == supplied["childName"])
-        entries = child.setdefault("providedEntries", [])
-        assert not any(e["url"] == supplied["entry"]["url"] for e in entries), "Duplicate supplied entrance"
-        entries.append(supplied["entry"])
+    for supplied_path in ("provided-college-entries-20261104.json", "law-business-organization-20261105.json"):
+        for supplied in load(supplied_path)["entries"]:
+            unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == supplied["unitId"])
+            child = next(c for c in unit["children"] if c["name"] == supplied["childName"])
+            entries = child.setdefault("providedEntries", [])
+            assert not any(e["url"] == supplied["entry"]["url"] for e in entries), "Duplicate supplied entrance"
+            entries.append(supplied["entry"])
     institutional = load("institution-references-20261104.json")
     catalog["sources"].extend(institutional["sources"])
     for reference in institutional["references"]:
@@ -579,6 +584,7 @@ def build_catalog():
     followups = load("unit-entry-followups-20261104.json")
     catalog["sources"].extend(followups["sources"])
     catalog["academicEntryFollowups"] = followups["entries"]
+    catalog["sources"].extend(deferred_organization_sources)
     return catalog
 
 
@@ -862,12 +868,16 @@ def validate(catalog):
             if "organizationReview" in unit:
                 org = unit["organizationReview"]
                 refs(org["sourceIds"])
-                assert org["status"] in {"not_listed_in_reviewed_pages", "listed_children_matched", "conflicting_scopes", "components_only", "unitary_faculty_department"}
+                assert org["status"] in {"not_listed_in_reviewed_pages", "listed_children_matched", "conflicting_scopes", "components_only", "unitary_faculty_department", "unitary_faculty"}
                 assert org["organizationComplete"] is org["facultyComplete"] is False, "A scoped structure review cannot finish the university or teacher census"
-                if org["status"] == "unitary_faculty_department":
+                if org["status"] in {"unitary_faculty_department", "unitary_faculty"}:
                     refs(org["modelSourceIds"])
                     assert set(org["modelSourceIds"]) <= set(org["sourceIds"])
-                    assert all(sources[sid].get("declaredOrganizationModel") == "unitary_faculty_department" for sid in org["modelSourceIds"]), "Unitary model requires its own explicit official source"
+                    assert org["modelSourceIds"] and all(sources[sid].get("declaredOrganizationModel") == org["status"] for sid in org["modelSourceIds"]), "Unitary model requires its own explicit official source"
+                    if org["status"] == "unitary_faculty":
+                        assert org["modelScope"] == "faculty_administration"
+                        assert re.fullmatch(r"\d{4}-\d{2}-\d{2}", org["effectiveFrom"])
+                        assert all(sources[sid].get("declaredEffectiveFrom") == org["effectiveFrom"] and sources[sid].get("declaredModelScope") == org["modelScope"] for sid in org["modelSourceIds"]), "Dated administrative model must retain its own effective date and scope"
                 if "listedChildren" in org:
                     assert org["listedChildren"] == len(unit["children"])
                 navigation_kinds = {"research_fields": {"research_field"}, "academic_subjects": {"academic_subject"}, "research_degree_navigation": {"research_degree_navigation"}, "teaching_support": {"teaching_support"}, "administrative_support": {"administrative_support"}, "college_components": {"college_component"},
