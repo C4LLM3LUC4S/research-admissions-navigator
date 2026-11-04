@@ -628,3 +628,14 @@ test('law applicant sees the official unitary model without a fabricated departm
  const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Law'));assert.ok(u);assert.match(u.textContent,/同时承担学院和教学部门/);assert.match(u.textContent,/下一步沿全院人员名录/);assert.match(u.textContent,/不能用来判断研究生录取/);assert.ok(h.walk(u).some(n=>n.tagName==='a'&&n.href==='https://www.law.cuhk.edu.hk/app/governance-structure/'));assert.equal(h.networkCalls(),0);
 });
+
+test('university cross-check keeps the mixed index outside college departments and labels supplied links',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const r=h.walk(el('academic-coverage')).find(n=>n.className==='source-details institutional-reference');assert.ok(r);assert.match(r.textContent,/16个Department和8个Division/);assert.match(r.textContent,/Materials/);assert.match(r.textContent,/不是|不把24条当作全校/);const items=r.children.find(n=>n.tagName==='ul');assert.equal(items.children.length,24);
+ assert.ok(h.walk(r).some(n=>n.tagName==='a'&&n.href==='https://cbe.hkust.edu.hk/'));assert.ok(!h.walk(r).some(n=>n.tagName==='a'&&n.href?.startsWith('http://')));assert.match(r.textContent,/此前的独立读取记录仍在对应学院中保留/);assert.equal(h.networkCalls(),0);
+});
+
+test('restored Guangzhou applicant sees seven unread manual chapters without merging campus admissions',async()=>{
+ const first=harness(),e=id=>first.byId.get(id);first.select('hkustgz','MPhil',[]);await e('profile-form').emit('input');await e('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();
+ const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const r=h.walk(el('academic-coverage')).find(n=>n.className==='source-details institutional-reference');assert.ok(r);assert.match(r.textContent,/七个章节正文尚未读取/);assert.match(r.textContent,/不能据此合并香港与广州的申请要求/);assert.equal(r.children.find(n=>n.tagName==='ul').children.length,7);assert.equal(h.networkCalls(),0);
+});

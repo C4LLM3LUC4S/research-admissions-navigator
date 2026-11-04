@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2055,
+    "official_sources": 2057,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 68,
     "teacher_linked_sources": 461,
-    "total_sources": 2516,
+    "total_sources": 2518,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -282,5 +282,6 @@
   "unreleased_changes": [
     "Three provided architecture department entries",
     "Official CUHK Law unitary faculty/teaching-department model"
-  ]
+  ],
+  "unreleased_source_note": "校级交叉目录与质量手册入口单列；原学院与教师记录保留，公开离线包仍为a25。"
 }
