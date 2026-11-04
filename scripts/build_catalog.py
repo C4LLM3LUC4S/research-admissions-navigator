@@ -576,6 +576,9 @@ def build_catalog():
     for reference in institutional["references"]:
         overview = next(m for m in catalog["academicCoverage"] if m["universityId"] == reference["universityId"])
         overview.setdefault("institutionalReferences", []).append(reference)
+    followups = load("unit-entry-followups-20261104.json")
+    catalog["sources"].extend(followups["sources"])
+    catalog["academicEntryFollowups"] = followups["entries"]
     return catalog
 
 
@@ -776,6 +779,26 @@ def validate(catalog):
         assert "cuhksz" not in fund["universities"] and "hkustgz" not in fund["universities"]
     maps = catalog.get("academicCoverage", [])
     assert len(maps) == len(unis) and {m["universityId"] for m in maps} == unis
+    child_urls = {child.get("url") for row in maps for unit in row["units"] for child in unit["children"]}
+    followed_urls = set()
+    for followup in catalog.get("academicEntryFollowups", []):
+        assert followup["url"] in child_urls and followup["url"] not in followed_urls
+        followed_urls.add(followup["url"])
+        assert followup["organizationComplete"] is followup["facultyComplete"] is False
+        if followup["bodyStatus"] == "read_failed":
+            assert followup["failureKind"] == "certificate_verification_failed" and not followup["sourceIds"]
+            assert "bodySha256" not in followup, "Failed handshake has no response body receipt"
+            continue
+        assert followup["bodyStatus"] == "body_read"
+        refs(followup["sourceIds"])
+        for sid in followup["sourceIds"]:
+            source = sources[sid]
+            validate_read_receipt(source)
+            assert source["originalUrl"] == followup["url"] and source["retrievedUrl"] == followup["retrievedUrl"], "Unit follow-up must bind its own original and actual URL"
+            assert source["bodySha256"] == followup["bodySha256"] and source["checkedAt"] == followup["checkedAt"], "Unit follow-up must retain its actual body and date"
+        for entry in followup["nextEntries"]:
+            assert entry["bodyStatus"] == "not_read" and entry["availability"] == entry["supervisionEligibility"] == "unknown"
+            assert any(entry["url"] in sources[sid]["discoveredLinks"] for sid in followup["sourceIds"]), "Next entry must be provided by the actual unit body"
     unit_ids = set()
     for overview in maps:
         assert overview["coverageComplete"] is False
