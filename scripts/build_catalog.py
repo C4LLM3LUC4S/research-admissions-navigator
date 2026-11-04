@@ -520,7 +520,7 @@ def build_catalog():
         unit["childInventoryReview"] = {key: reviewed[key] for key in ("checkedAt", "sourceIds", "summary")}
         unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
         unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
-    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json"):
+    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json"):
         organization = load(organization_path)
         catalog["sources"].extend(organization["sources"])
         organization_sources = {s["id"]: s for s in organization["sources"]}
@@ -813,7 +813,7 @@ def validate(catalog):
                     assert org["listedChildren"] == len(unit["children"])
                 navigation_kinds = {"research_fields": {"research_field"}, "academic_subjects": {"academic_subject"}, "research_degree_navigation": {"research_degree_navigation"}, "teaching_support": {"teaching_support"}, "administrative_support": {"administrative_support"}, "college_components": {"college_component"},
                     "academic_subunits": {"department", "division", "centre", "unit", "department_or_programme"},
-                    "related_academic_units": {"other_academic_unit", "institute", "teaching_unit", "centre", "teaching_support", "research_field"},
+                    "related_academic_units": {"other_academic_unit", "institute", "teaching_unit", "centre", "division", "teaching_support", "research_field"},
                     "research_organizations": {"centre", "research_lab", "institute"}}
                 for group in unit.get("relatedNavigationGroups", []):
                     assert group["kind"] in navigation_kinds and group["title"] and group["note"]
@@ -828,7 +828,16 @@ def validate(catalog):
                         assert entry["kind"] in navigation_kinds[group["kind"]]
                         if group["kind"] == "academic_subunits":
                             assert any({"collegeUnitId": unit["id"], "parentUnitName": group["parentUnitName"]} in sources[sid].get("academicParentBindings", []) for sid in entry["sourceIds"]), "Nested source must belong to this actual parent"
-                        assert entry["entryBodyStatus"] == "not_read" and entry["supervisionEligibility"] == entry["availability"] == "unknown"
+                        assert entry["entryBodyStatus"] in {"not_read", "body_read"}
+                        assert entry["supervisionEligibility"] == entry["availability"] == "unknown"
+                        if entry["entryBodyStatus"] == "body_read":
+                            assert entry.get("readMethod") == "anonymous_HTTP"
+                            validate_read_receipt(entry)
+                            assert any(sources[sid].get("bodySha256") == entry["bodySha256"]
+                                and sources[sid].get("readMethod") == "anonymous_HTTP"
+                                and sources[sid]["url"] == entry.get("retrievedUrl")
+                                and entry["url"] in {sources[sid]["url"], sources[sid].get("originalUrl")}
+                                for sid in entry["sourceIds"]), "Read unit entry needs its own exact target body, not its parent receipt"
                         if entry["url"] is not None:
                             assert any(entry["url"] in sources[sid].get("discoveredLinks", []) for sid in entry["sourceIds"])
                         else:

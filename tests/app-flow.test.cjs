@@ -602,3 +602,15 @@ test('scope next-step callback retains a restored profile and separates research
  const first=harness(),el=id=>first.byId.get(id);first.select('polyu','PhD',[]);await el('profile-form').emit('input');await el('export-local').emit('click');const backup=await first.downloads.at(-1).blob.text();
  const h=harness([['yanxiang-local-v1',backup]]),e=id=>h.byId.get(id);await e('show-directories').emit('click');const design=h.walk(e('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('School of Design'));assert.ok(design);assert.match(design.textContent,/研究中心、实验室与研究院（不是学系）/);assert.match(design.textContent,/RIDE|Research Institute of Design-driven Entrepreneurship/);assert.match(design.textContent,/2025年在读博士人数不当招生余位/);const links=h.walk(design).filter(n=>n.tagName==='a');assert.ok(links.some(n=>n.href==='https://www.polyu.edu.hk/sd/research/research-centres-and-labs/'));assert.equal(h.networkCalls(),0);
 });
+
+test('reviewed landscape entrance shows read scope without inventing a department parent',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Architecture'));assert.ok(u);
+ const group=h.walk(u).find(n=>n.tagName==='details'&&n.children[0]?.textContent.startsWith('园境建筑学部：'));assert.ok(group);assert.match(group.textContent,/已读到该单位入口/);assert.doesNotMatch(group.textContent,/单位正文、完整师资及招生信息仍待核/);assert.doesNotMatch(group.textContent,/所属上级：Department of Architecture/);
+ assert.ok(h.walk(group).some(n=>n.tagName==='a'&&n.href==='https://www.arch.hku.hk/departments-and-divisions/division-of-landscape-architecture/'));assert.match(group.textContent,/指导资格/);assert.equal(h.networkCalls(),0);
+});
+
+test('restored fashion applicant finds dated evidence and separate research organisations',async()=>{
+ const first=harness(),f=id=>first.byId.get(id);first.select('polyu','MPhil',[]);await f('profile-form').emit('input');await f('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();
+ const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('School of Fashion and Textiles'));assert.ok(u);assert.match(u.textContent,/三个研究范围（不是三个学系）/);assert.match(u.textContent,/2025年9月/);assert.match(u.textContent,/不是导师名额/);assert.match(u.textContent,/Research Hub/);assert.ok(h.walk(u).some(n=>n.tagName==='a'&&n.href==='https://www.polyu.edu.hk/sft/about-sft/facts-and-figures/'));assert.equal(h.networkCalls(),0);
+});

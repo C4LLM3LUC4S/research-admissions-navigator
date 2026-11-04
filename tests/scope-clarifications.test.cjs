@@ -6,7 +6,7 @@ const unit=(c,id)=>c.academicCoverage.flatMap(m=>m.units).find(u=>u.id===id);
 test('scope update preserves original entrance receipts, child identities, people, policies and all old evidence dates',()=>{
  for(const key of ['faculty','programs','directories'])assert.deepEqual(C[key],old[key]);for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
  for(const p of P.units){const u=unit(C,p.unitId),prior=unit(old,p.unitId);for(const key of ['url','retrievedUrl','sourceIds','bodySha256','readMethod','entryBodyStatus','children','staffEntries'])assert.deepEqual(u[key],prior[key],p.unitId+' '+key);assert.deepEqual(u.priorOrganizationReview,prior.organizationReview);}
- assert.equal(C.sources.length,old.sources.length+10);assert.equal(P.units.length,5);assert.equal(C.programs.length,40);assert.equal(C.academicCoverage.reduce((n,m)=>n+m.units.reduce((a,u)=>a+u.children.length,0),0),230);
+ for(const s of P.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);assert.ok(C.sources.length>=old.sources.length+P.sources.length);assert.equal(P.units.length,5);assert.equal(C.programs.length,40);assert.equal(C.academicCoverage.reduce((n,m)=>n+m.units.reduce((a,u)=>a+u.children.length,0),0),230);
 });
 test('research fields, undergraduate training, labs and institutes do not turn into departments or vacant places',()=>{
  const math=unit(C,'cuhk-zhizhen');assert.equal(math.children.length,0);assert.match(math.organizationReview.summary,/本科—博士贯通/);assert.equal(math.relatedNavigationGroups[0].entries.length,6);
