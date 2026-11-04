@@ -209065,7 +209065,7 @@ window.APP_CATALOG = {
         {
           "url": "https://mse.hku.hk/msepeople/academic-staff/",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的人员入口",
+          "label": "材料与能源系：学术人员名录",
           "sourceIds": [
             "unit-followup-entry-01-20261104"
           ],
@@ -209075,7 +209075,7 @@ window.APP_CATALOG = {
         {
           "url": "https://mse.hku.hk/about/",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的说明或项目入口",
+          "label": "材料与能源系：关于学系",
           "sourceIds": [
             "unit-followup-entry-01-20261104"
           ],
@@ -209085,7 +209085,7 @@ window.APP_CATALOG = {
         {
           "url": "https://mse.hku.hk/research/research-areas/",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的说明或项目入口",
+          "label": "材料与能源系：研究领域说明",
           "sourceIds": [
             "unit-followup-entry-01-20261104"
           ],
@@ -209110,7 +209110,7 @@ window.APP_CATALOG = {
         {
           "url": "https://sbme.hku.hk/people",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的人员入口",
+          "label": "生物医工学院：人员页",
           "sourceIds": [
             "unit-followup-entry-02-20261104"
           ],
@@ -209135,7 +209135,7 @@ window.APP_CATALOG = {
         {
           "url": "https://i-school.hku.hk/people/",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的人员入口",
+          "label": "创新学院：人员页",
           "sourceIds": [
             "unit-followup-entry-03-20261104"
           ],
@@ -209145,7 +209145,7 @@ window.APP_CATALOG = {
         {
           "url": "https://i-school.hku.hk/news-event/phd-mphil-info-day-2026/",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的说明或项目入口",
+          "label": "创新学院：2026年研究学位说明会新闻（不是当期要求）",
           "sourceIds": [
             "unit-followup-entry-03-20261104"
           ],
@@ -209184,7 +209184,7 @@ window.APP_CATALOG = {
         {
           "url": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2C",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的人员入口",
+          "label": "数据科学与分析：学域教授名录",
           "sourceIds": [
             "unit-followup-entry-06-20261104"
           ],
@@ -209194,7 +209194,7 @@ window.APP_CATALOG = {
         {
           "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的说明或项目入口",
+          "label": "研究生院：申请前的准备说明",
           "sourceIds": [
             "unit-followup-entry-06-20261104"
           ],
@@ -209219,7 +209219,7 @@ window.APP_CATALOG = {
         {
           "url": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2E",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的人员入口",
+          "label": "物联网：学域教授名录",
           "sourceIds": [
             "unit-followup-entry-07-20261104"
           ],
@@ -209229,7 +209229,7 @@ window.APP_CATALOG = {
         {
           "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的说明或项目入口",
+          "label": "研究生院：申请前的准备说明",
           "sourceIds": [
             "unit-followup-entry-07-20261104"
           ],
@@ -209254,7 +209254,7 @@ window.APP_CATALOG = {
         {
           "url": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2I",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的人员入口",
+          "label": "生命科学与生物医学工程：学域教授名录",
           "sourceIds": [
             "unit-followup-entry-08-20261104"
           ],
@@ -209264,7 +209264,7 @@ window.APP_CATALOG = {
         {
           "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application",
           "bodyStatus": "not_read",
-          "label": "继续查看官网提供的说明或项目入口",
+          "label": "研究生院：申请前的准备说明",
           "sourceIds": [
             "unit-followup-entry-08-20261104"
           ],
@@ -209286,5 +209286,5 @@ window.APP_CATALOG = {
       "facultyComplete": false
     }
   ],
-  "snapshotId": "sha256:bc0f31df56c60190cc03a1f1e1e544c55bcaed6949167d228f2944b1545fd8a4"
+  "snapshotId": "sha256:ff5bacb8ebe0797ff06ed33e5b219381639cdd314acd20a934091fd2468815da"
 };

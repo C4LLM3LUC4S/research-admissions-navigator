@@ -6,6 +6,6 @@ test('later unit reads retain all original structure, policies, people, and sour
  for(const k of ['academicCoverage','academicEntryProgress','faculty','programs','directories','funding'])assert.deepEqual(c[k],old[k]);
  assert.deepEqual(c.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(c.sources.slice(old.sources.length,old.sources.length+7),p.sources);assert.deepEqual(c.academicEntryFollowups,p.entries);
  assert.equal(p.sources.length,7);assert.equal(p.entries.length,8);const fail=p.entries.find(e=>e.bodyStatus==='read_failed');assert.equal(fail.url,'https://isom.hkust.edu.hk/');assert.equal(fail.bodySha256,undefined);assert.deepEqual(fail.sourceIds,[]);
- for(const r of p.entries){assert.equal(r.organizationComplete,false);assert.equal(r.facultyComplete,false);for(const e of r.nextEntries||[])assert.equal(e.bodyStatus,'not_read');}
+ for(const r of p.entries){assert.equal(r.organizationComplete,false);assert.equal(r.facultyComplete,false);const routes=r.nextEntries||[];assert.equal(new Set(routes.map(e=>e.label)).size,routes.length);for(const e of routes)assert.equal(e.bodyStatus,'not_read');}
  const sbme=p.entries.find(e=>e.url==='https://sbme.hku.hk/');assert.match(sbme.summary,/BEng及本科招生/);assert.match(sbme.summary,/不能据此生成MPhil\/PhD/);
 });
