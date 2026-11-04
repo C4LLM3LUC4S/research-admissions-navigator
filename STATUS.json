@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a25",
+  "version": "0.1.0a26",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-04",
@@ -283,5 +283,5 @@
     "Three provided architecture department entries",
     "Official CUHK Law unitary faculty/teaching-department model"
   ],
-  "unreleased_source_note": "校级交叉目录与质量手册入口单列；原学院与教师记录保留，公开离线包仍为a25。"
+  "release_scope_note": "汇集PR41至44的来源与导航改进；七校完整性与全部旧记录仍分别保留，实际公开文件另作验收。"
 }
