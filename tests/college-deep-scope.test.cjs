@@ -6,7 +6,7 @@ const unit=(c,id)=>c.academicCoverage.flatMap(m=>m.units).find(u=>u.id===id);
 test('deep college review keeps original inputs, policies, people and entrance receipts',()=>{
  for(const key of ['faculty','programs','directories','funding'])assert.deepEqual(C[key],old[key]);
  for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
- for(const p of P.units){const a=unit(C,p.unitId),b=unit(old,p.unitId);for(const key of ['url','sourceIds','bodySha256','retrievedUrl','entryBodyStatus','children','staffEntries'])assert.deepEqual(a[key],b[key],p.unitId+' '+key);assert.deepEqual(a.priorOrganizationReview,b.organizationReview);}
+ for(const p of P.units){const a=unit(C,p.unitId),b=unit(old,p.unitId);for(const key of ['url','sourceIds','bodySha256','retrievedUrl','entryBodyStatus','staffEntries'])assert.deepEqual(a[key],b[key],p.unitId+' '+key);if(p.unitId==='hku-1')assert.deepEqual(a.children.map(({providedEntries,...original})=>original),b.children);else assert.deepEqual(a.children,b.children);assert.deepEqual(a.priorOrganizationReview,b.organizationReview);}
  for(const s of P.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
  assert.equal(P.sources.length,8);assert.equal(P.units.length,5);assert.equal(P.allSevenHierarchiesComplete,false);
 });

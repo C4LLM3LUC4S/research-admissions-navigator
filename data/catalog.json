@@ -170212,7 +170212,20 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院官网列出的学系入口",
+                  "url": "https://www.arch.hku.hk/departments-and-divisions/department-of-architecture/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "deep-hku-architecture-ke-20261102"
+                  ],
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "note": "这条网址由已读的学院页面提供，目标学系正文尚未读取。原入口和原读取记录另行保留。"
+                }
+              ]
             },
             {
               "name": "Department of Real Estate and Construction",
@@ -170235,7 +170248,20 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院官网列出的学系入口",
+                  "url": "https://www.arch.hku.hk/departments-and-divisions/department-of-real-estate-and-construction/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "deep-hku-architecture-ke-20261102"
+                  ],
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "note": "这条网址由已读的学院页面提供，目标学系正文尚未读取。原入口和原读取记录另行保留。"
+                }
+              ]
             },
             {
               "name": "Department of Urban Planning and Design",
@@ -170258,7 +170284,20 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "providedEntries": [
+                {
+                  "label": "学院官网列出的学系入口",
+                  "url": "https://www.arch.hku.hk/departments-and-divisions/department-of-urban-planning-and-design/",
+                  "bodyStatus": "not_read",
+                  "sourceIds": [
+                    "deep-hku-architecture-ke-20261102"
+                  ],
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "note": "这条网址由已读的学院页面提供，目标学系正文尚未读取。原入口和原读取记录另行保留。"
+                }
+              ]
             }
           ],
           "staffEntries": [],
@@ -207623,5 +207662,5 @@
     "staffRouteFailures": 0,
     "knownAccessChallenges": 20
   },
-  "snapshotId": "sha256:f68fbd04012bed9ac1a509132052f923b8aa5661deb52093484cfbaca482c896"
+  "snapshotId": "sha256:0b9ba31f3c159c77d59259f605f6553203b8678ab1782c0fa47fb32b4b3a4d1a"
 }

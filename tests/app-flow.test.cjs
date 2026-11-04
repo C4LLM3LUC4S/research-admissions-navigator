@@ -614,3 +614,12 @@ test('restored fashion applicant finds dated evidence and separate research orga
  const first=harness(),f=id=>first.byId.get(id);first.select('polyu','MPhil',[]);await f('profile-form').emit('input');await f('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text();
  const h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('School of Fashion and Textiles'));assert.ok(u);assert.match(u.textContent,/三个研究范围（不是三个学系）/);assert.match(u.textContent,/2025年9月/);assert.match(u.textContent,/不是导师名额/);assert.match(u.textContent,/Research Hub/);assert.ok(h.walk(u).some(n=>n.tagName==='a'&&n.href==='https://www.polyu.edu.hk/sft/about-sft/facts-and-figures/'));assert.equal(h.networkCalls(),0);
 });
+
+test('architecture reader can follow all three supplied department entrances without false read status',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','MPhil',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Architecture'));assert.ok(u);
+ for(const slug of ['department-of-architecture','department-of-real-estate-and-construction','department-of-urban-planning-and-design']){
+  const a=h.walk(u).find(n=>n.tagName==='a'&&n.href==='https://www.arch.hku.hk/departments-and-divisions/'+slug+'/');assert.ok(a);assert.match(a.textContent,/正文待核/);
+ }
+ assert.match(u.textContent,/原入口和原读取记录另行保留/);assert.equal(h.networkCalls(),0);
+});
