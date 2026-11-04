@@ -3,6 +3,9 @@ from pathlib import Path
 spec=importlib.util.spec_from_file_location('law_business_builder',Path(__file__).resolve().parents[1]/'scripts/build_catalog.py')
 b=importlib.util.module_from_spec(spec);spec.loader.exec_module(b)
 class LawBusinessSources(unittest.TestCase):
+    def test_unread_staff_route_cannot_omit_its_observed_lead_list(self):
+        c=b.build_catalog();route=next(u for m in c['academicCoverage']for u in m['units']if u['id']=='cityu-2')['staffEntries'][-1];del route['profileLeads']
+        with self.assertRaisesRegex(AssertionError,'explicit observed-lead list'):b.validate(c)
     def test_hku_cannot_borrow_cuhk_unitary_model(self):
         c=b.build_catalog();org=next(u for m in c['academicCoverage']for u in m['units']if u['id']=='hku-7')['organizationReview'];other='organization-law-unitary-20261104';org['sourceIds'].append(other);org['modelSourceIds']=[other]
         with self.assertRaisesRegex(AssertionError,'own explicit official source'):b.validate(c)

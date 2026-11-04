@@ -944,9 +944,10 @@ def validate(catalog):
                     assert any(extra["url"] in sources[sid].get("discoveredLinks", []) for sid in extra["sourceIds"]), "Extra college entry not supplied by its source"
             for entry in unit["staffEntries"]:
                 assert entry["enumerationComplete"] is False and entry["teacherProfilesTotal"] is None
+                assert isinstance(entry.get("profileLeads"), list), "Staff navigation needs an explicit observed-lead list; unknown totals remain unknown"
                 if entry["entryBodyStatus"] == "body_read":
                     refs(entry["sourceIds"])
-                leads = entry.get("profileLeads", [])
+                leads = entry["profileLeads"]
                 assert len({lead["url"] for lead in leads}) == len(leads)
                 for lead in leads:
                     assert lead["observedOn"] == entry["url"] and lead["directoryLabel"]
