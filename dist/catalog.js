@@ -200543,7 +200543,8 @@ window.APP_CATALOG = {
                 "organization-cityu-business-departments-20261104"
               ],
               "enumerationComplete": false,
-              "teacherProfilesTotal": null
+              "teacherProfilesTotal": null,
+              "profileLeads": []
             }
           ],
           "accessNote": "学院名称和下属学系已在官方研究学位页面核到；独立学院/学系入口、完整教师名单和分页继续核查。",
@@ -209748,5 +209749,5 @@ window.APP_CATALOG = {
       "facultyComplete": false
     }
   ],
-  "snapshotId": "sha256:8721ee54f25ede15f388f369ef3a3f8c304b55c72ed2570a68c24af0e5c780e7"
+  "snapshotId": "sha256:dd78279bdcbfe0e6dd084d2e933bc90ba70fb76da7afd7ccf5c9d5660121549a"
 };
