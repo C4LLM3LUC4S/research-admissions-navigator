@@ -274,6 +274,19 @@
       seen.add(key);return {snapshotId:entry.snapshotId,checkedDate};
     });
   }
+  function sharedSchoolRead(catalog, universityId, child) {
+    if(!child||child.kind!=='affiliated_school'||child.relationship!=='affiliated_school'||child.entryBodyStatus!=='not_read'||!officialUrl(child.url))return null;
+    const school=(catalog.academicCoverage||[]).find(row=>row.universityId===universityId);
+    if(!school)return null;
+    for(const unit of school.units){
+      for(const donor of unit.children||[]){
+        if(donor===child||donor.kind!=='school'||donor.url!==child.url||donor.retrievedUrl!==child.url||donor.entryBodyStatus!=='body_read'||(donor.observedName||donor.name)!==child.name||!/^[a-f0-9]{64}$/.test(donor.bodySha256||''))continue;
+        const sources=(donor.sourceIds||[]).map(id=>catalog.sources.find(s=>s.id===id)).filter(s=>s&&s.url===child.url&&s.bodySha256===donor.bodySha256&&['official_verified_page_scoped','official_scoped_body_read'].includes(s.evidenceLevel)&&s.responseKind!=='access_challenge'&&/^\d{4}-\d\d-\d\d$/.test(s.checkedAt));
+        if(sources.length)return {sourceIds:sources.map(s=>s.id),checkedDates:[...new Set(sources.map(s=>s.checkedAt))],bodySha256:donor.bodySha256};
+      }
+    }
+    return null;
+  }
   function validatePortable(value, catalog) {
     if (!value || value.kind !== 'research-admissions-navigator-local' || ![1,2,3].includes(value.schemaVersion)) throw new Error('这不是当前版本可载入的完整研向备份。若来自更新版本，请用对应版本打开，并保留原文件。');
     if(value.schemaVersion>=2&&!Array.isArray(value.catalogHistory))throw new Error('这份备份缺少资料版本历史，请保留完整原文件。');
@@ -298,5 +311,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,validatePortable,parsePortable};
+  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,sharedSchoolRead,validatePortable,parsePortable};
 }));

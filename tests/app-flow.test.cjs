@@ -6,6 +6,12 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('shared school reader sees the old exact-page evidence and restores a followup without merging faculty or admission claims',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const science=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Science')),proof=h.walk(science).find(n=>n.className==='source-details shared-school-read');assert.ok(proof);assert.match(proof.textContent,/沿用2026-10-26的原网页记录/);assert.match(proof.textContent,/没有重新下载或改日期/);assert.match(proof.textContent,/完整师资、指导资格和当期余位仍需逐项核对/);assert.match(science.textContent,/关联学校：/);assert.doesNotMatch(proof.textContent,/核查 2026-11-05/);
+ const task='继续核对CDS对应研究学位；官网入口已读不代表老师有余位。';await el('profile-form').emit('submit');el('task-text').value=task;await el('task-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads.at(-1).blob.text();const fresh=harness(),fe=id=>fresh.byId.get(id);fe('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await fe('import-local').emit('change');await fe('show-directories').emit('click');assert.match(fe('academic-coverage').textContent,/同一官网已读/);assert.match(fe('tasks').textContent,/不代表老师有余位/);assert.equal(h.networkCalls()+fresh.networkCalls(),0);
+});
+
 test('STEM unit reader separates Materials announcements from applications and reuses old staff reads at their actual dates',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const note=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-scope-note');assert.ok(note);assert.match(note.textContent,/2027年开PhD和MSc、2028年开BEng/);assert.match(note.textContent,/不表示当前申请已开放/);assert.match(note.textContent,/三根研究支柱和两个技术平台/);assert.ok(h.walk(note).some(n=>n.href==='https://seng.hkust.edu.hk/node/10511'));
  h.select('polyu','PhD',[]);await el('profile-form').emit('input');const all=el('academic-coverage'),reviews=h.walk(all).filter(n=>n.className==='source-details unit-entry-followup'),ama=reviews.find(n=>n.textContent.includes('已沿原HTTP入口实际读到应用数学系主页'));assert.ok(ama);assert.match(ama.textContent,/已有2026-10-27的正文收据/);assert.match(ama.textContent,/没有重新下载/);assert.ok(h.walk(all).some(n=>n.tagName==='a'&&n.href==='https://www.polyu.edu.hk/pm/'));assert.match(all.textContent,/2026\/27，不能改成2027\/28/);assert.equal(h.networkCalls(),0);
@@ -594,10 +600,10 @@ test('college-first view separates matched list from unfinished departments and 
  assert.match(text,/先核清学院和下属院系/);assert.match(text,/研究学位名单共11个学术单位；研究生院另列/);assert.match(text,/包含创新学院/);assert.match(text,/学院名单：已逐项核对研究学位页/);assert.match(text,/下属院系：尚未核齐；教师：按院逐步核对/);assert.match(text,/没有列出，不代表这所学院没有学系/);assert.doesNotMatch(text,/全校教师已收齐/);assert.equal(h.networkCalls(),0);
 });
 
-test('child-unit reader sees affiliated schools and separate teaching entries without a false homepage read',async()=>{
+test('child-unit reader sees affiliated schools and separate teaching entries while an exact old homepage read remains scoped',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const science=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Science'));assert.ok(science);
- assert.match(science.textContent,/五个直属学术单位和三个关联学校/);assert.match(science.textContent,/关联学校：/);assert.match(science.textContent,/已核名单与所给链接；单位正文待核/);assert.match(science.textContent,/School of Biological Sciences/);assert.match(science.textContent,/Department of Earth and Planetary Sciences/);
+ assert.match(science.textContent,/五个直属学术单位和三个关联学校/);assert.match(science.textContent,/关联学校：/);assert.match(science.textContent,/同一官网已读，沿用原记录/);assert.match(science.textContent,/School of Biological Sciences/);assert.match(science.textContent,/Department of Earth and Planetary Sciences/);
  const targets=h.walk(science).filter(n=>n.tagName==='a').map(n=>n.href);assert.ok(targets.includes('https://www.cds.hku.hk/'));assert.ok(targets.includes('https://i-school.hku.hk/'));assert.ok(!targets.includes('https://www.scifac.hku.hk/prospective/tpg/about'));
  h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');assert.match(el('academic-coverage').textContent,/其他教学项目与单位（不计作学部）/);assert.equal(h.networkCalls(),0);
 });
