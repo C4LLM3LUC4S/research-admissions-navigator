@@ -1,0 +1,412 @@
+{
+  "checkedAt": "2026-11-05",
+  "sources": [
+    {
+      "id": "hkust-ais-amc-unit-20261105",
+      "title": "艺术与机器创造学部：单位范围与下一入口",
+      "url": "https://amc.hkust.edu.hk",
+      "originalUrl": "https://amc.hkust.edu.hk",
+      "retrievedUrl": "https://amc.hkust.edu.hk",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "598a957b9db201ab437bc4e85c1fce2bd0cbb7a53a659f64be8e7b56d114aa81",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学部首页正文、所列研究或教学范围与实际给出的人员/研究学位导航；目标名单和招生条件另核。",
+      "claims": [
+        "首页四个研究重点是方向，不是四个下属学系。MA、MFA宣传标2027/28秋季，MPhil / PhD标2026/27春季，两类学位与轮次不能混用；完整条件、截止时间和名额仍待核。"
+      ],
+      "knownIssues": [
+        "未列发布日期；首页宣传和研究主题不证明完整师资、当期余位或独立学系。"
+      ],
+      "discoveredLinks": [
+        "https://amc.hkust.edu.hk#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "https://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk",
+        "https://www.ust.hk/about",
+        "https://amc.hkust.edu.hk",
+        "https://amc.hkust.edu.hk/heads-message",
+        "https://amc.hkust.edu.hk/vision-missions-and-slogan",
+        "https://amc.hkust.edu.hk/facilties",
+        "https://amc.hkust.edu.hk/contact-us",
+        "https://amc.hkust.edu.hk/faculty",
+        "https://amc.hkust.edu.hk/staff",
+        "https://amc.hkust.edu.hk/alumni",
+        "https://amc.hkust.edu.hk/job-openings",
+        "https://amc.hkust.edu.hk/program-overview",
+        "https://amc.hkust.edu.hk/master-arts-ma-program-program-objective",
+        "https://amc.hkust.edu.hk/master-fine-arts-mfa-program-program-objective",
+        "https://amc.hkust.edu.hk/mphil-phd-program-program-objective",
+        "https://amc.hkust.edu.hk/postgraduate-courses",
+        "https://amc.hkust.edu.hk/amc-internship-program",
+        "https://amc.hkust.edu.hk/scholarships",
+        "https://amc.hkust.edu.hk/faq",
+        "https://amc.hkust.edu.hk/news",
+        "https://amc.hkust.edu.hk/events",
+        "https://amc.hkust.edu.hk/amc-signature-events",
+        "https://amc.hkust.edu.hk/publications",
+        "https://amc.hkust.edu.hk/animated-graphics",
+        "https://ais.hkust.edu.hk/",
+        "https://amc.hkust.edu.hk/vision-and-missions",
+        "mailto:amcgeneral@ust.hk",
+        "mailto:joinamc@ust.hk",
+        "mailto:amcma@ust.hk",
+        "mailto:amcrpg@ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement",
+        "https://amc.hkust.edu.hk/sitemap",
+        "https://mtpc.hkust.edu.hk"
+      ]
+    },
+    {
+      "id": "hkust-ais-emia-unit-20261105",
+      "title": "新兴跨学科学部：单位范围与下一入口",
+      "url": "https://emia.hkust.edu.hk/",
+      "originalUrl": "https://emia.hkust.edu.hk/",
+      "retrievedUrl": "https://emia.hkust.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "647a472e7263820982a2664aac2b0341ad5bdf4ad777ff1e3c584a9a9809ef21",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学部首页正文、所列研究或教学范围与实际给出的人员/研究学位导航；目标名单和招生条件另核。",
+      "claims": [
+        "官网介绍其为跨学科教育与研究的孵化及协调平台，不能按主题另造下属学系。人员和Research Postgraduate Program入口另列，目标正文、当期要求和指导资格继续待核。"
+      ],
+      "knownIssues": [
+        "未列发布日期；首页宣传和研究主题不证明完整师资、当期余位或独立学系。"
+      ],
+      "discoveredLinks": [
+        "https://emia.hkust.edu.hk/#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "https://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk",
+        "https://www.ust.hk/about",
+        "https://emia.hkust.edu.hk/",
+        "https://emia.hkust.edu.hk/roles-emia",
+        "https://emia.hkust.edu.hk/heads-message",
+        "https://emia.hkust.edu.hk/people",
+        "https://emia.hkust.edu.hk/welcome-alumni-community",
+        "https://emia.hkust.edu.hk/contact-us",
+        "https://emia.hkust.edu.hk/iim",
+        "https://emia.hkust.edu.hk/iip",
+        "https://emia.hkust.edu.hk/extended-majors",
+        "https://emia.hkust.edu.hk/courses-offered-emia",
+        "https://emia.hkust.edu.hk/news",
+        "https://ais.hkust.edu.hk/",
+        "mailto: emia@ust.hk",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement",
+        "https://mtpc.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-ais-isd-unit-20261105",
+      "title": "综合系统与设计学部：单位范围与下一入口",
+      "url": "https://isd.hkust.edu.hk/",
+      "originalUrl": "https://isd.hkust.edu.hk/",
+      "retrievedUrl": "https://isd.hkust.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "f36ca010f6b8109f66fbeedc438060c9e467f512473af522b8057453e89f5dcc",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学部首页正文、所列研究或教学范围与实际给出的人员/研究学位导航；目标名单和招生条件另核。",
+      "claims": [
+        "首页强调跨学科、项目实践及以学习者为中心的教学方式，不是下属学系名单。Faculty、Staff、课程和提前招生入口分开；毕业生名单不当在职师资，未标年度的提前招生链接不套作当期常规要求。"
+      ],
+      "knownIssues": [
+        "未列发布日期；首页宣传和研究主题不证明完整师资、当期余位或独立学系。"
+      ],
+      "discoveredLinks": [
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://ais.hkust.edu.hk/",
+        "https://isd.hkust.edu.hk/about-isd/#heads-message",
+        "https://isd.hkust.edu.hk/about-isd/#what-is-isd",
+        "https://isd.hkust.edu.hk/about-isd/#academics",
+        "https://isd.hkust.edu.hk/news/",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://dataprivacy.hkust.edu.hk/sitemap",
+        "https://isd.hkust.edu.hk/about-isd/#join-us",
+        "https://isd.hkust.edu.hk/people/?role=faculty&area=all&tag=regular",
+        "https://isd.hkust.edu.hk/people/?role=staff",
+        "https://isd.hkust.edu.hk/academics/#programs",
+        "https://isd.hkust.edu.hk/academics/internship/",
+        "https://isd.hkust.edu.hk/academics/facilities/",
+        "https://isd.hkust.edu.hk/academics/early-admission/",
+        "https://isd.hkust.edu.hk/news/?category=news",
+        "https://isd.hkust.edu.hk/news/?category=events",
+        "https://isd.hkust.edu.hk/news/?category=achievements",
+        "https://isd.hkust.edu.hk/student-life/?page=stud-comp",
+        "https://isd.hkust.edu.hk/student-life/?page=extra-act",
+        "https://isd.hkust.edu.hk/student-life/?page=intern",
+        "https://isd.hkust.edu.hk/student-life/?page=exchange",
+        "https://isd.hkust.edu.hk/student-life/?page=alumni",
+        "https://isd.hkust.edu.hk/student-life/?page=phd-grad",
+        "https://isd.hkust.edu.hk/student-life/?page=stud-proj",
+        "https://isd.hkust.edu.hk/research/",
+        "https://isd.hkust.edu.hk/collaborators/"
+      ]
+    },
+    {
+      "id": "hkust-ais-ppol-unit-20261105",
+      "title": "公共政策学部：单位范围与下一入口",
+      "url": "https://ppol.hkust.edu.hk/",
+      "originalUrl": "https://ppol.hkust.edu.hk/",
+      "retrievedUrl": "https://ppol.hkust.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "4dc81ab77c0d0457175f08df89e0e98a63978721121a0075b11235d13fed99d5",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学部首页正文、所列研究或教学范围与实际给出的人员/研究学位导航；目标名单和招生条件另核。",
+      "claims": [
+        "三个研究领域不是三个下属学系。正式教师、兼任访问及港科广关联教师分别列出，关联身份不自动变成广州校区的指导资格。MPP、MPM与MPhil / PhD要求不能混用；当期日期、要求和名额仍待核。"
+      ],
+      "knownIssues": [
+        "未列发布日期；首页宣传和研究主题不证明完整师资、当期余位或独立学系。"
+      ],
+      "discoveredLinks": [
+        "https://ppol.hkust.edu.hk/#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "https://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk",
+        "https://www.ust.hk/about",
+        "https://ppol.hkust.edu.hk/",
+        "https://ppol.hkust.edu.hk/message-acting-head",
+        "https://ppol.hkust.edu.hk/purpose-impact",
+        "https://ppol.hkust.edu.hk/peoples?people_type=Faculty",
+        "https://ppol.hkust.edu.hk/peoples?people_type=Adjunct/Visiting%20Faculty",
+        "https://ppol.hkust.edu.hk/peoples?people_type=HKUST%28GZ%29%20Affiliated%20Faculty",
+        "https://ppol.hkust.edu.hk/staff",
+        "https://ppol.hkust.edu.hk/peoples?people_type=MPhil/PhD%20Students",
+        "https://ppol.hkust.edu.hk/peoples?people_type=Research%20Graduates",
+        "https://ppol.hkust.edu.hk/our-programs",
+        "https://ppol.hkust.edu.hk/mpp-program-overview",
+        "https://ppol.hkust.edu.hk/mpp-program-details",
+        "https://ppol.hkust.edu.hk/mpp-dual-degree-program",
+        "https://ppol.hkust.edu.hk/mpp-student-profile",
+        "https://ppol.hkust.edu.hk/mpp-professional-development",
+        "https://ppol.hkust.edu.hk/mpp-job-placement-mpp-graduates",
+        "https://ppol.hkust.edu.hk/tuition-fees",
+        "https://ppol.hkust.edu.hk/mpp-scholarships",
+        "https://ppol.hkust.edu.hk/mpp-admission",
+        "https://ppol.hkust.edu.hk/student-advisory-program",
+        "https://ppol.hkust.edu.hk/mpm-program-overview",
+        "https://ppol.hkust.edu.hk/mpm-program-features",
+        "https://ppol.hkust.edu.hk/mpm-course-list",
+        "https://ppol.hkust.edu.hk/mpm-suggested-study-pattern",
+        "https://ppol.hkust.edu.hk/mpm-application-admission-requirements",
+        "https://ppol.hkust.edu.hk/mpm-tuition-fee",
+        "https://ppol.hkust.edu.hk/mpm-contact-us",
+        "https://ppol.hkust.edu.hk/mphil-phd-program-overview",
+        "https://ppol.hkust.edu.hk/mphil-phd-curriculum-courses",
+        "https://ppol.hkust.edu.hk/mphil-phd-program-requirements",
+        "https://ppol.hkust.edu.hk/mphil-mphil-phd-scholarshipstudentship",
+        "https://ppol.hkust.edu.hk/mphil-phd-application-procedure",
+        "https://ppol.hkust.edu.hk/MPhil_PhD_in_Public_Policy_Student_Sharing",
+        "https://ppol.hkust.edu.hk/undergraduate-courses",
+        "https://ppol.hkust.edu.hk/postgraduate-courses",
+        "https://ppol.hkust.edu.hk/research-projects",
+        "https://ppol.hkust.edu.hk/science-and-technology-innovation-policy",
+        "https://ppol.hkust.edu.hk/public-policy-and-governance-emerging-technologies",
+        "https://ppol.hkust.edu.hk/social-and-urban-policy",
+        "https://ppol.hkust.edu.hk/recent-publications",
+        "https://ppol.hkust.edu.hk/case-development-program-introduction",
+        "https://ppol.hkust.edu.hk/case-library-old",
+        "https://ppol.hkust.edu.hk/case-development-contact-us",
+        "https://ppol.hkust.edu.hk/news-announcements",
+        "https://ppol.hkust.edu.hk/press-release",
+        "https://ppol.hkust.edu.hk/booklets-page",
+        "https://ppol.hkust.edu.hk/videos-page",
+        "https://ppol.hkust.edu.hk/newsletters",
+        "https://ppol.hkust.edu.hk/public-policy-bulletins",
+        "https://ppol.hkust.edu.hk/events-seminars",
+        "https://ppol.hkust.edu.hk/conference-workshop",
+        "https://ppol.hkust.edu.hk/alumni-0",
+        "https://ppol.hkust.edu.hk/general-enquiry",
+        "https://ppol.hkust.edu.hk/access-ppol",
+        "https://ais.hkust.edu.hk/",
+        "https://ipp.hkust.edu.hk/",
+        "https://ppol.hkust.edu.hk/event/distinguished-lecture-china-asia-pacific-and-new-multilateralism-leading-through",
+        "https://ppol.hkust.edu.hk/event/ai-impacts-long-term-climate-targets",
+        "https://ppol.hkust.edu.hk/event/hong-kong-social-science-rpg-poster-conference",
+        "https://ppol.hkust.edu.hk/science-technology-and-innovation-policy",
+        "https://ppol.hkust.edu.hk/environmental-policy-and-sustainability",
+        "https://www.ust.hk/privacy-policy/",
+        "https://ppol.hkust.edu.hk/index.php/sitemap",
+        "https://ptc.ust.hk/",
+        "mailto:ppol@ust.hk"
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "url": "https://amc.hkust.edu.hk",
+      "retrievedUrl": "https://amc.hkust.edu.hk",
+      "checkedAt": "2026-11-05",
+      "bodyStatus": "body_read",
+      "bodySha256": "598a957b9db201ab437bc4e85c1fce2bd0cbb7a53a659f64be8e7b56d114aa81",
+      "sourceIds": [
+        "hkust-ais-amc-unit-20261105"
+      ],
+      "summary": "首页四个研究重点是方向，不是四个下属学系。MA、MFA宣传标2027/28秋季，MPhil / PhD标2026/27春季，两类学位与轮次不能混用；完整条件、截止时间和名额仍待核。",
+      "organizationComplete": false,
+      "facultyComplete": false,
+      "nextEntries": [
+        {
+          "label": "Faculty（目标正文待核）",
+          "url": "https://amc.hkust.edu.hk/faculty",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Staff（目标正文待核）",
+          "url": "https://amc.hkust.edu.hk/staff",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "MPhil / PhD Program（目标正文待核）",
+          "url": "https://amc.hkust.edu.hk/mphil-phd-program-program-objective",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        }
+      ]
+    },
+    {
+      "url": "https://emia.hkust.edu.hk/",
+      "retrievedUrl": "https://emia.hkust.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodyStatus": "body_read",
+      "bodySha256": "647a472e7263820982a2664aac2b0341ad5bdf4ad777ff1e3c584a9a9809ef21",
+      "sourceIds": [
+        "hkust-ais-emia-unit-20261105"
+      ],
+      "summary": "官网介绍其为跨学科教育与研究的孵化及协调平台，不能按主题另造下属学系。人员和Research Postgraduate Program入口另列，目标正文、当期要求和指导资格继续待核。",
+      "organizationComplete": false,
+      "facultyComplete": false,
+      "nextEntries": [
+        {
+          "label": "People（目标正文待核）",
+          "url": "https://emia.hkust.edu.hk/people",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Research Postgraduate Program（目标正文待核）",
+          "url": "https://emia.hkust.edu.hk/iip",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        }
+      ]
+    },
+    {
+      "url": "https://isd.hkust.edu.hk/",
+      "retrievedUrl": "https://isd.hkust.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodyStatus": "body_read",
+      "bodySha256": "f36ca010f6b8109f66fbeedc438060c9e467f512473af522b8057453e89f5dcc",
+      "sourceIds": [
+        "hkust-ais-isd-unit-20261105"
+      ],
+      "summary": "首页强调跨学科、项目实践及以学习者为中心的教学方式，不是下属学系名单。Faculty、Staff、课程和提前招生入口分开；毕业生名单不当在职师资，未标年度的提前招生链接不套作当期常规要求。",
+      "organizationComplete": false,
+      "facultyComplete": false,
+      "nextEntries": [
+        {
+          "label": "Faculty（目标正文待核）",
+          "url": "https://isd.hkust.edu.hk/people/?role=faculty&area=all&tag=regular",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Staff（目标正文待核）",
+          "url": "https://isd.hkust.edu.hk/people/?role=staff",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Programs（目标正文待核）",
+          "url": "https://isd.hkust.edu.hk/academics/#programs",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Early Admissions Scheme（目标正文待核）",
+          "url": "https://isd.hkust.edu.hk/academics/early-admission/",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        }
+      ]
+    },
+    {
+      "url": "https://ppol.hkust.edu.hk/",
+      "retrievedUrl": "https://ppol.hkust.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodyStatus": "body_read",
+      "bodySha256": "4dc81ab77c0d0457175f08df89e0e98a63978721121a0075b11235d13fed99d5",
+      "sourceIds": [
+        "hkust-ais-ppol-unit-20261105"
+      ],
+      "summary": "三个研究领域不是三个下属学系。正式教师、兼任访问及港科广关联教师分别列出，关联身份不自动变成广州校区的指导资格。MPP、MPM与MPhil / PhD要求不能混用；当期日期、要求和名额仍待核。",
+      "organizationComplete": false,
+      "facultyComplete": false,
+      "nextEntries": [
+        {
+          "label": "Faculty（目标正文待核）",
+          "url": "https://ppol.hkust.edu.hk/peoples?people_type=Faculty",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Adjunct/Visiting Faculty（目标正文待核）",
+          "url": "https://ppol.hkust.edu.hk/peoples?people_type=Adjunct/Visiting%20Faculty",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "HKUST(GZ) Affiliated Faculty（目标正文待核）",
+          "url": "https://ppol.hkust.edu.hk/peoples?people_type=HKUST%28GZ%29%20Affiliated%20Faculty",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        },
+        {
+          "label": "Program Requirements（目标正文待核）",
+          "url": "https://ppol.hkust.edu.hk/mphil-phd-program-requirements",
+          "bodyStatus": "not_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown"
+        }
+      ]
+    }
+  ],
+  "newFaculty": 0,
+  "allSevenHierarchiesComplete": false
+}

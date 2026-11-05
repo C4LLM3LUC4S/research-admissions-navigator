@@ -603,6 +603,9 @@ def build_catalog():
     architecture = load("hku-architecture-unit-entrances-20261105.json")
     catalog["sources"].extend(architecture["sources"])
     catalog["academicEntryFollowups"].extend(architecture["entries"])
+    ais = load("hkust-ais-unit-entrances-20261105.json")
+    catalog["sources"].extend(ais["sources"])
+    catalog["academicEntryFollowups"].extend(ais["entries"])
     return catalog
 
 
