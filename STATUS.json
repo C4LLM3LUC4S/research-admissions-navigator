@@ -243,7 +243,28 @@
     "mainLinkOffsetBefore": 711.3125,
     "mainLinkOffsetAfter": 547.046875,
     "task": "MPhil2027/28biocatalysis→Cao→Chemistry material action→actual download→browser chooser restore→visible keyword keyboard toggle",
-    "humanBenefit": "Not measured; CSS geometry is not human time saved"
+    "humanBenefit": "Not measured; CSS geometry is not human time saved",
+    "subject_sidebar_user_report": {
+      "date": "2026-11-05",
+      "reported": "User screenshots: clipped sidebar and too few visible subjects",
+      "scope": "All currently listed academic parents/children and original teacher research terms; not a complete seven-school census.",
+      "developerEdge": {
+        "viewportObserved": {
+          "width": 1912,
+          "height": 897
+        },
+        "sidebar": {
+          "clientHeight": 851,
+          "scrollHeight": 2372,
+          "keyboardEndScrollTop": 1521,
+          "bottomButtonTop": 810.5
+        },
+        "nativeResponsiveOverrideDidNotMatchRequestedSize": true,
+        "mobileChecked": false
+      },
+      "newSourceRecords": 0,
+      "newFaculty": 0
+    }
   },
   "latest_structure_review": {
     "receipt": "data/research/college-priority-20261029.json",
@@ -319,6 +340,7 @@
   "unreleased_changes": [
     "港理工四个单位的原HTTP入口接上真实主页；五份既有正文复用原日期。港科大材料系的设立与拟开课程，和当前申请条件分开说明。",
     "两处学院引用同一学校官网时，仅在名称、原网址、正文摘要和来源都对上时复用已读依据，保留原日期和关联学校关系。",
-    "港大建筑学院三个学系另给入口正文与九个下一入口分开标明；原HTTP地址、院系层级和当期招生未知项保留。"
+    "港大建筑学院三个学系另给入口正文与九个下一入口分开标明；原HTTP地址、院系层级和当期招生未知项保留。",
+    "修复宽屏固定侧栏展开后底部不可达；新增全部已列院系、原始研究词和方向分类的中英文搜索，院系直达展开、研究词重查七校，保留资料未收全提示。"
   ]
 }
