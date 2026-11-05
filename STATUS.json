@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2088,
+    "official_sources": 2094,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 72,
     "teacher_linked_sources": 461,
-    "total_sources": 2549,
+    "total_sources": 2555,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -280,15 +280,17 @@
     "browserCheckedAt": "2026-11-04",
     "latest_source_only_change": {
       "checkedAt": "2026-11-05",
-      "receipt": "data/research/cuhk-science-unit-entrances-20261105.json",
+      "receipt": "data/research/stem-unit-queue-20261105.json",
       "actualCallbackChecks": 1,
+      "negativeSourceChecks": 3,
       "newBrowserCheck": false,
-      "priorBrowserReceiptScopeUnchanged": true
+      "priorBrowserReceiptScopeUnchanged": true,
+      "reusedBrowserReceipt": "third-product-research/20261105/stem-unit-delivery/pause-handoff.json; unchanged Materials note actually expanded in Edge before pause, not a fresh browser run"
     },
     "a27_complete_callback_task": "tests/app-flow.test.cjs: science queue task; developer simulated DOM callbacks, not browser download or independent use"
   },
   "release_scope_note": "Includes reviewed college navigation maintenance after a26 and the two Science-unit queues. Partial coverage; actual public asset acceptance is recorded separately after publication.",
-  "unreleased_source_note": "No remaining committed source changes before the a27 release candidate. New sources retain actual dates and failed entrances remain explicit.",
+  "unreleased_source_note": "a27之后的维护候选新增六份单位或设立说明正文，公开a27仍保持原字节。既有来源、原日期及未核清事项均保留。",
   "released_changes_a27": [
     "港大法学院2024行政统一声明与城大商学院实给HTTPS入口",
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
@@ -298,5 +300,7 @@
     "港大理学院五个既列单位的入口、四个限定师资页及150张具名卡；数学页框架与失败的嵌入名单分开，个人网站未归类不写成没有网站",
     "港中文理学院四个单位正文、两个明示跳转与数学原入口403分别保留，不补造教师或申请要求"
   ],
-  "unreleased_changes": []
+  "unreleased_changes": [
+    "港理工四个单位的原HTTP入口接上真实主页；五份既有正文复用原日期。港科大材料系的设立与拟开课程，和当前申请条件分开说明。"
+  ]
 }

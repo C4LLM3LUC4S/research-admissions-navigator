@@ -3,6 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),old=read('data/snapshots/bffaadbbeb3998adbe2105d743059a872811bc33c3599a008c81d4bdbd8f6add.json'),P=read('data/research/cuhk-science-unit-entrances-20261105.json');
 test('CUHK Science entrances preserve all old sources, faculty, policies, structures, directories and first followups',()=>{
+ const C=read('data/snapshots/c0a3dd526c423dcddc3a1cca0ebbbc57ddfd15a7b8d6444fc40a13f2c3a63ac7.json');
  for(const k of Object.keys(old).filter(k=>!['sources','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[k],old[k]);
  assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length),P.sources);assert.deepEqual(C.academicEntryFollowups.slice(0,old.academicEntryFollowups.length),old.academicEntryFollowups);assert.deepEqual(C.academicEntryFollowups.slice(old.academicEntryFollowups.length),P.entries);
  assert.equal(P.sources.length,6);assert.equal(P.entries.length,5);assert.equal(P.newFaculty,0);assert.equal(P.allSevenHierarchiesComplete,false);
