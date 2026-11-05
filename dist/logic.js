@@ -274,6 +274,22 @@
       seen.add(key);return {snapshotId:entry.snapshotId,checkedDate};
     });
   }
+  function researchOptions(catalog) {
+    const options=INTERESTS.map(label=>({kind:'category',label,value:label})),terms=new Set();
+    catalog.faculty.forEach(f=>(f.researchKeywords?.length?f.researchKeywords:f.topics||[]).forEach(value=>{if(typeof value==='string'&&value.trim())terms.add(value.trim());}));
+    [...terms].sort((a,b)=>a.localeCompare(b,'zh-Hans')).forEach(value=>options.push({kind:'keyword',label:value,value}));
+    (catalog.academicCoverage||[]).forEach(row=>{const university=catalog.universities.find(u=>u.id===row.universityId);row.units.filter(u=>!['graduate_school','undergraduate_college'].includes(u.kind)).forEach(unit=>{
+      const prefix=(university.short||university.name)+' · '+unit.name;options.push({kind:'unit',label:prefix,universityId:row.universityId,unitId:unit.id});
+      (unit.children||[]).forEach(child=>options.push({kind:'unit',label:prefix+' · '+child.name,universityId:row.universityId,unitId:unit.id}));
+    });});
+    return options;
+  }
+  function searchResearchOptions(options,query,kind) {
+    const aliases=[['法学','law'],['医学','medicine'],['护理','nursing'],['公共卫生','public health'],['建筑','architecture'],['土木','civil'],['机械','mechanical'],['电子','electronic','electrical'],['计算机','computing','computer'],['商科','business'],['会计','accounting'],['管理','management'],['经济','economics'],['社会','social'],['人文','humanities'],['教育','education'],['数学','mathematics'],['统计','statistics'],['物理','physics'],['化学','chemistry'],['生命','life','biological'],['生物','bio'],['环境','environment'],['材料','materials'],['能源','energy'],['设计','design'],['音乐','music'],['艺术','arts'],['旅游','tourism','hotel'],['药学','pharmacy'],['兽医','veterinary'],['牙科','dentistry'],['心理','psychology'],['语言','language'],['传媒','media','journalism'],['地球','earth','planetary'],['城市','urban'],['房地产','real estate'],['哲学','philosophy'],['历史','history'],['金融','finance'],['地理','geography'],['控制','control'],['自动化','automation']];
+    const q=(query||'').normalize('NFKC').trim().toLocaleLowerCase('en-US'),needles=new Set([q]);
+    aliases.forEach(group=>{if(group.some(word=>word===q))group.forEach(word=>needles.add(word));});
+    return options.filter(item=>(!kind||item.kind===kind)&&(!q||[...needles].some(word=>item.label.normalize('NFKC').toLocaleLowerCase('en-US').includes(word))));
+  }
   function sharedSchoolRead(catalog, universityId, child) {
     if(!child||child.kind!=='affiliated_school'||child.relationship!=='affiliated_school'||child.entryBodyStatus!=='not_read'||!officialUrl(child.url))return null;
     const school=(catalog.academicCoverage||[]).find(row=>row.universityId===universityId);
@@ -311,5 +327,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,sharedSchoolRead,validatePortable,parsePortable};
+  return {INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
 }));
