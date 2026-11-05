@@ -12,6 +12,8 @@ test('three college lists retain their school and division types and original re
  const best=unit(C,'polyu-4').children.find(c=>c.name.includes('Sports Technology'));assert.equal(best.url,'https://www.polyu.edu.hk/best/');assert.equal(best.listedUrl,'https://www.polyu.edu.hk/best');assert.equal(best.entryBodyStatus,'body_read');assert.equal(best.bodySha256,unit(old,'polyu-4').children.find(c=>c.name===best.name).bodySha256);
 });
 test('STEM list review preserves every existing person policy directory source and other college',()=>{
+ // Freeze this historical patch proof; current preservation is checked against this exact baseline.
+ const C=read('data/snapshots/dd78279bdcbfe0e6dd084d2e933bc90ba70fb76da7afd7ccf5c9d5660121549a.json');
  for(const k of ['faculty','programs','directories'])assert.deepEqual(C[k],old[k]);for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);const later=read('data/research/college-batch-hierarchy-20261029.json');const changed=new Set([...P.units,...later.units,...read('data/research/college-deep-scope-20261102.json').units,...read('data/research/law-business-organization-20261105.json').units].map(u=>u.unitId));for(const m of old.academicCoverage)for(const u of m.units)if(!changed.has(u.id))assert.deepEqual(unit(C,u.id),u);
  assert.equal(P.units.length,4);assert.equal(P.sources.length,8);assert.equal(P.allSevenHierarchiesComplete,false);assert.ok(P.units.every(u=>u.organizationReview.organizationComplete===false&&u.organizationReview.facultyComplete===false));
 });

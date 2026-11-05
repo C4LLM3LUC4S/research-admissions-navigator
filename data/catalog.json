@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-04",
+  "checkedDate": "2026-11-05",
   "cycle": "2027/28",
   "universities": [
     {
@@ -160662,6 +160662,136 @@
         "https://www.cb.cityu.edu.hk/-/media/project/cityuhk/academic/cb202603/icon/cityucb_wechat.jpg?rev=a9e7ac0aff0d4107b6cdb8d2e27c31d5&hash=6CE8B6D0468E2EFCBB12A1FA2725EA8E",
         "https://www.xiaohongshu.com/user/profile/5caabb420000000016015748"
       ]
+    },
+    {
+      "id": "scope-hku-science-leaflet-20261105",
+      "url": "https://www.scifac.hku.hk/f/page/7141/23978/Science_Leaflet_RPG%202026-27.pdf",
+      "originalUrl": "https://www.scifac.hku.hk/f/page/7141/23978/Science_Leaflet_RPG%202026-27.pdf",
+      "retrievedUrl": "https://www.scifac.hku.hk/f/page/7141/23978/Science_Leaflet_RPG%202026-27.pdf",
+      "title": "港大理学院2026/27小册子：单位口径与跨学科研究机构",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "f37f110867292369243d5e278552d987dff161e681358e71d6f2e3332713f562",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学院自身的单位与培养介绍，不是完整师资、指导资格或招生余位。",
+      "claims": [
+        "第5页说明计算与数据科学学院由理、工两学院共同设立，列出三个下属系，并另列三项跨学科研究机构。"
+      ],
+      "knownIssues": [
+        "这份2026/27年度资料的数量标题与图示、已核网页的范围不完全一致；不据此补造第六个直属系或删除已有的关联学校。",
+        "小册子没有给图中各单位独立链接；不从简称猜网址。费用、资助与截止日期未纳入本次结构核查。"
+      ],
+      "discoveredLinks": [],
+      "academicYear": "2026/27",
+      "reviewedPages": [
+        5
+      ],
+      "academicParentBindings": [
+        {
+          "collegeUnitId": "hku-9",
+          "parentUnitName": "School of Computing and Data Science"
+        }
+      ],
+      "listedNames": [
+        "Computer Science",
+        "AI & Data Science",
+        "Statistics & Actuarial Science",
+        "Institute of Mathematical Research (IMR)",
+        "Laboratory for Space Research (LSR)",
+        "The Swire Institute of Marine Science (SWIMS)"
+      ]
+    },
+    {
+      "id": "scope-hkust-ais-dean-20261105",
+      "url": "https://ais.hkust.edu.hk/about-ais/deans-message",
+      "originalUrl": "https://ais.hkust.edu.hk/about-ais/deans-message",
+      "retrievedUrl": "https://ais.hkust.edu.hk/about-ais/deans-message",
+      "title": "港科大跨学科学院：五个学部及跨院任职说明",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "257946a8b3dc4b8165cec8766dd1d9e6bb062b2f796604f7bd891e2670b7d28c",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学院自身的单位与培养介绍，不是完整师资、指导资格或招生余位。",
+      "claims": [
+        "院长寄语明确说明五个学部，并提到与其他学系的联合任职；与已存五学部名单逐项对应。"
+      ],
+      "knownIssues": [
+        "2026年9月的学生数不是教师总数或招生余位；双学位与本科培养安排不当作额外学部。",
+        "所给研究生招生页面尚未读取，当期条件不能从本页推断。"
+      ],
+      "discoveredLinks": [
+        "https://ais.hkust.edu.hk/about-ais/deans-message#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://ais.hkust.edu.hk/contact-us/",
+        "https://ais.hkust.edu.hk/about-ais/deans-message",
+        "https://ais.hkust.edu.hk/about-ais/fast-facts",
+        "https://ais.hkust.edu.hk/about-ais/our-divisions-units",
+        "https://ais.hkust.edu.hk/about-ais/our-people",
+        "https://ais.hkust.edu.hk/about-ais/publications",
+        "https://ais.hkust.edu.hk/programs/undergraduate-programs",
+        "https://ais.hkust.edu.hk/programs/undergraduate/undergraduate-admission",
+        "https://ais.hkust.edu.hk/programs/undergraduate/admission/program-based-admission",
+        "https://ais.hkust.edu.hk/programs/undergraduate/admission/school-based-admission",
+        "https://ais.hkust.edu.hk/programs/undergraduate/undergraduate-scholarships",
+        "https://ais.hkust.edu.hk/programs/undergraduate/ais-courses-syllabi",
+        "https://ais.hkust.edu.hk/programs/postgraduate-programs",
+        "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission",
+        "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-scholarships",
+        "https://ais.hkust.edu.hk/programs/quality-assurance",
+        "https://ais.hkust.edu.hk/interdisciplinary-research",
+        "https://ais.hkust.edu.hk/interdisciplinary-research/research-and-impact",
+        "https://ais.hkust.edu.hk/interdisciplinary-research/institutes",
+        "https://ais.hkust.edu.hk/interdisciplinary-research/facilities",
+        "https://ais.hkust.edu.hk/life-ais",
+        "https://ais.hkust.edu.hk/life-ais/students-sharing",
+        "https://ais.hkust.edu.hk/life-ais/video-sharing",
+        "https://ais.hkust.edu.hk/life-ais/enrichment-programs",
+        "https://ais.hkust.edu.hk/life-ais/corporate-professional-development",
+        "https://ais.hkust.edu.hk/student-ambassador-program",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career/student-wellness-consultation",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career/recommended-useful-resources",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career/resources/wellness-relaxation",
+        "https://ais.hkust.edu.hk/whats-happening/news",
+        "https://ais.hkust.edu.hk/alumni-stories",
+        "https://ais.hkust.edu.hk/whats-happening/aismedia",
+        "https://ais.hkust.edu.hk/whats-happening/newsletters",
+        "https://ais.hkust.edu.hk/whats-happening/latest-events",
+        "https://www.ust.hk",
+        "https://ais.hkust.edu.hk/",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/outcome-based-education",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/curriculum-development-and-approval-process",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/feedback-stakeholder",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/program-monitoring-review",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/useful-information",
+        "https://ais.hkust.edu.hk/contact-us",
+        "https://ais.hkust.edu.hk/ais-intranet",
+        "https://gohkust.sharepoint.com/teams/IPOFacultyIntranet/",
+        "https://w5.ab.ust.hk/wsa/student",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://ais.hkust.edu.hk/sitemap",
+        "https://mtpc.ust.hk/",
+        "https://www.facebook.com/hkust.ais",
+        "https://www.instagram.com/hkust.ais/",
+        "https://linkedin.com/school/hkust-ais",
+        "https://youtube.com/@hkustais",
+        "https://ais.hkust.edu.hk/sites/default/files/AIS_WeChat_QR%20code.jpg",
+        "https://weibo.com/hkustipo"
+      ],
+      "listedNames": [
+        "Division of Environment and Sustainability",
+        "Division of Public Policy",
+        "Division of Emerging Interdisciplinary Areas",
+        "Division of Integrative Systems and Design",
+        "Division of Arts and Machine Creativity"
+      ]
     }
   ],
   "funding": [
@@ -176654,7 +176784,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "Department of Chemistry",
@@ -176669,7 +176802,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "Department of Earth and Planetary Sciences",
@@ -176684,7 +176820,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "Department of Mathematics",
@@ -176699,7 +176838,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "Department of Physics",
@@ -176714,7 +176856,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "School of Biomedical Engineering",
@@ -176729,7 +176874,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "School of Computing and Data Science",
@@ -176744,7 +176892,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             },
             {
               "name": "School of Innovation",
@@ -176759,7 +176910,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hku-science-departments-20261029"
+              ]
             }
           ],
           "staffEntries": [],
@@ -176774,7 +176928,127 @@
             "observedChildren": 8,
             "facultyComplete": false
           },
-          "relatedTeachingEntries": []
+          "relatedTeachingEntries": [],
+          "organizationReview": {
+            "checkedAt": "2026-11-05",
+            "status": "conflicting_scopes",
+            "summary": "已核网页列五个直属学术单位和三个关联学校；2026/27小册子的数量标题、图示与这个范围并不完全一致，因此保留两份来源，不按标题补造第六个直属系，也不删掉已有的关联学校。小册子另明确列出计算与数据科学学院下的三个系及三项跨学科研究机构，分别放在下方。完整院系与师资仍待核齐。",
+            "sourceIds": [
+              "child-units-hku-science-departments-20261029",
+              "child-units-hku-science-rpg-departments-20261029",
+              "scope-hku-science-leaflet-20261105"
+            ],
+            "sourceAcademicYear": "2026/27",
+            "datedSourceIds": [
+              "scope-hku-science-leaflet-20261105"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 8
+          },
+          "relatedNavigationGroups": [
+            {
+              "title": "计算与数据科学学院下的三个系（2026/27资料）",
+              "kind": "academic_subunits",
+              "parentUnitName": "School of Computing and Data Science",
+              "sourceIds": [
+                "scope-hku-science-leaflet-20261105"
+              ],
+              "note": "这是小册子第5页对关联学校内部的介绍，不与理学院一级单位混算。名称已读，独立入口与完整师资仍待核；不猜网址。",
+              "entries": [
+                {
+                  "name": "Department of Computer Science",
+                  "observedName": "Computer Science",
+                  "url": null,
+                  "kind": "department",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-science-leaflet-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of AI and Data Science",
+                  "observedName": "AI & Data Science",
+                  "url": null,
+                  "kind": "department",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-science-leaflet-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Statistics and Actuarial Science",
+                  "observedName": "Statistics & Actuarial Science",
+                  "url": null,
+                  "kind": "department",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-science-leaflet-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            },
+            {
+              "title": "跨学科研究机构（2026/27资料）",
+              "kind": "research_organizations",
+              "sourceIds": [
+                "scope-hku-science-leaflet-20261105"
+              ],
+              "note": "三项研究机构单独列出，不改称下属学系，也不直接当作申请项目或导师名额。",
+              "entries": [
+                {
+                  "name": "Institute of Mathematical Research (IMR)",
+                  "observedName": "Institute of Mathematical Research (IMR)",
+                  "url": null,
+                  "kind": "institute",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-science-leaflet-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Laboratory for Space Research (LSR)",
+                  "observedName": "Laboratory for Space Research (LSR)",
+                  "url": null,
+                  "kind": "research_lab",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-science-leaflet-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "The Swire Institute of Marine Science (SWIMS)",
+                  "observedName": "The Swire Institute of Marine Science (SWIMS)",
+                  "url": null,
+                  "kind": "institute",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-science-leaflet-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
+          ],
+          "reviewedNavigation": [
+            {
+              "label": "对照2026/27理学院小册子",
+              "sourceId": "scope-hku-science-leaflet-20261105",
+              "scope": "第5页是本次结构核查范围；资料年度不改成2027/28。申请、费用与资助须再核当期页面。",
+              "kind": "document_entry"
+            }
+          ]
         },
         {
           "id": "hku-10",
@@ -189222,7 +189496,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hkust-ais-20261029"
+              ]
             },
             {
               "name": "Division of Emerging Interdisciplinary Areas",
@@ -189237,7 +189514,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hkust-ais-20261029"
+              ]
             },
             {
               "name": "Division of Environment & Sustainability",
@@ -189252,7 +189532,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hkust-ais-20261029"
+              ]
             },
             {
               "name": "Division of Integrative Systems and Design",
@@ -189267,7 +189550,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hkust-ais-20261029"
+              ]
             },
             {
               "name": "Division of Public Policy",
@@ -189282,7 +189568,10 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "inventorySourceIds": [
+                "child-units-hkust-ais-20261029"
+              ]
             }
           ],
           "staffEntries": [
@@ -190474,6 +190763,27 @@
               "name": "Undergraduate Core Education",
               "url": "https://uce.ust.hk/cgi-bin/web/home/index.php",
               "kind": "programme_or_undergraduate_education"
+            }
+          ],
+          "organizationReview": {
+            "checkedAt": "2026-11-05",
+            "status": "listed_children_matched",
+            "summary": "院长寄语明确列出五个学部，已与原有名单逐项对应。联合任职不另外计一个学部，双学位与本科通识教育也不混入。页面另给研究生课程和招生入口，目标正文与当期要求仍待核；学生人数不当作教师人数或招生余位。",
+            "sourceIds": [
+              "child-units-hkust-ais-20261029",
+              "scope-hkust-ais-dean-20261105"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 5
+          },
+          "relatedNavigationGroups": [],
+          "reviewedNavigation": [
+            {
+              "label": "看五个学部与跨院任职的官方说明",
+              "sourceId": "scope-hkust-ais-dean-20261105",
+              "scope": "这是学院与人员组织介绍，不是五个学部已收全师资或正在招收新生的证明。",
+              "kind": "college_scope"
             }
           ]
         }
@@ -209749,5 +210059,5 @@
       "facultyComplete": false
     }
   ],
-  "snapshotId": "sha256:dd78279bdcbfe0e6dd084d2e933bc90ba70fb76da7afd7ccf5c9d5660121549a"
+  "snapshotId": "sha256:e1bb7aac6ebd59f1688cdd4a040304521d30b8a503747cda460ba0f4b902f19c"
 }
