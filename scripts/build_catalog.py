@@ -596,6 +596,10 @@ def build_catalog():
     cuhk_science = load("cuhk-science-unit-entrances-20261105.json")
     catalog["sources"].extend(cuhk_science["sources"])
     catalog["academicEntryFollowups"].extend(cuhk_science["entries"])
+    stem_queue = load("stem-unit-queue-20261105.json")
+    catalog["sources"].extend(stem_queue["sources"])
+    catalog["academicEntryFollowups"].extend(stem_queue["entries"])
+    catalog["academicUnitNotes"] = stem_queue["academicUnitNotes"]
     return catalog
 
 
@@ -845,7 +849,9 @@ def validate(catalog):
                 refs(entry["sourceIds"])
                 for sid in entry["sourceIds"]:
                     validate_read_receipt(sources[sid])
-                    assert sources[sid]["originalUrl"] == entry["url"]
+                    assert sources[sid].get("originalUrl", sources[sid]["url"]) == entry["url"]
+                    if "checkedAt" in entry:
+                        assert entry["checkedAt"] == sources[sid]["checkedAt"], "Reused body must retain its own original verification date"
                 if entry.get("directoryId"):
                     directory = next(d for d in catalog["directories"] if d["id"] == entry["directoryId"])
                     assert directory["sourceIds"] == entry["sourceIds"] and directory["url"] == entry["url"]
@@ -853,6 +859,20 @@ def validate(catalog):
                     failure = entry["embeddedRead"]
                     assert failure["bodyStatus"] == "read_failed" and failure["namesRead"] == 0 and failure["failureKind"] == "redirect_limit_exceeded"
                     assert any(failure["url"] in sources[sid]["discoveredLinks"] for sid in entry["sourceIds"])
+    parents = {u["id"]: u for overview in maps for u in overview["units"]}
+    for note in catalog.get("academicUnitNotes", []):
+        parent = parents[note["parentUnitId"]]
+        assert any(child["name"] == note["childName"] and child["url"] is None for child in parent["children"]), "A dated unit note must bind its original unlinked child; do not invent a homepage"
+        refs(note["sourceIds"])
+        assert all(sources[sid]["unitName"] == note["childName"] for sid in note["sourceIds"])
+        established = sources[note["establishmentSourceId"]]
+        announced = sources[note["announcementSourceId"]]
+        assert note["establishmentSourceId"] in note["sourceIds"] and note["announcementSourceId"] in note["sourceIds"]
+        assert note["establishedEffectiveAt"] == established["establishedEffectiveAt"]
+        assert note["publishedAt"] == announced["publishedAt"]
+        assert note["announcedProgrammes"] == announced["announcedProgrammes"], "Announcement must retain its own degrees and years without inventing MPhil or open admissions"
+        assert note["organizationComplete"] is note["facultyComplete"] is False
+        assert note["availability"] == note["supervisionEligibility"] == "unknown"
     unit_ids = set()
     for overview in maps:
         assert overview["coverageComplete"] is False

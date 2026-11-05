@@ -6,6 +6,11 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('STEM unit reader separates Materials announcements from applications and reuses old staff reads at their actual dates',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const note=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-scope-note');assert.ok(note);assert.match(note.textContent,/2027年开PhD和MSc、2028年开BEng/);assert.match(note.textContent,/不表示当前申请已开放/);assert.match(note.textContent,/三根研究支柱和两个技术平台/);assert.ok(h.walk(note).some(n=>n.href==='https://seng.hkust.edu.hk/node/10511'));
+ h.select('polyu','PhD',[]);await el('profile-form').emit('input');const all=el('academic-coverage'),reviews=h.walk(all).filter(n=>n.className==='source-details unit-entry-followup'),ama=reviews.find(n=>n.textContent.includes('已沿原HTTP入口实际读到应用数学系主页'));assert.ok(ama);assert.match(ama.textContent,/已有2026-10-27的正文收据/);assert.match(ama.textContent,/没有重新下载/);assert.ok(h.walk(all).some(n=>n.tagName==='a'&&n.href==='https://www.polyu.edu.hk/pm/'));assert.match(all.textContent,/2026\/27，不能改成2027\/28/);assert.equal(h.networkCalls(),0);
+});
+
 test('science queue task: inspect a unit, keep a concrete followup, export and recover into an empty environment',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const scope=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('查看生物科学学院人员页面'));assert.ok(scope);assert.match(scope.textContent,/本页已核对 48 张人员卡/);assert.match(scope.textContent,/暂未归类不等于没有个人主页/);assert.ok(h.walk(scope).some(n=>n.href==='https://tropicalconslab.com/'));
