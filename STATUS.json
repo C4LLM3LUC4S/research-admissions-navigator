@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0a27",
-  "stage": "experimental_offline_alpha_partial_coverage",
+  "version": "0.1.0a28",
+  "stage": "experimental_alpha28_candidate",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-05",
   "working_name": "研向",
@@ -333,8 +333,8 @@
       "envrStaticShellExcluded": true
     }
   },
-  "release_scope_note": "Includes reviewed college navigation maintenance after a26 and the two Science-unit queues. Partial coverage; actual public asset acceptance is recorded separately after publication.",
-  "unreleased_source_note": "a27之后的维护候选新增六份单位或设立说明正文，公开a27仍保持原字节。既有来源、原日期及未核清事项均保留。",
+  "release_scope_note": "Subject-search and scrollable-sidebar release with consolidated post-a27 unit entrances; partial seven-school coverage. Actual public assets accepted separately after publishing.",
+  "unreleased_source_note": "Alpha28 candidate includes the consolidated exact-source UI and unit updates. Published alpha27 stays unchanged; candidate is not public bytes.",
   "released_changes_a27": [
     "港大法学院2024行政统一声明与城大商学院实给HTTPS入口",
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
@@ -344,11 +344,12 @@
     "港大理学院五个既列单位的入口、四个限定师资页及150张具名卡；数学页框架与失败的嵌入名单分开，个人网站未归类不写成没有网站",
     "港中文理学院四个单位正文、两个明示跳转与数学原入口403分别保留，不补造教师或申请要求"
   ],
-  "unreleased_changes": [
+  "released_changes_a28": [
     "港理工四个单位的原HTTP入口接上真实主页；五份既有正文复用原日期。港科大材料系的设立与拟开课程，和当前申请条件分开说明。",
     "两处学院引用同一学校官网时，仅在名称、原网址、正文摘要和来源都对上时复用已读依据，保留原日期和关联学校关系。",
     "港大建筑学院三个学系另给入口正文与九个下一入口分开标明；原HTTP地址、院系层级和当期招生未知项保留。",
     "修复宽屏固定侧栏展开后底部不可达；新增全部已列院系、原始研究词和方向分类的中英文搜索，院系直达展开、研究词重查七校，保留资料未收全提示。",
-    "港科大跨学科学院四个学部首页与所给下一入口接入。AMC两种学位轮次、EMIA平台角色、ISD教学与人员分类、PPOL三研究主题与跨校关联身份分开；环境学部动态正文另留待接，不把静态空壳当完整导航。"
+    "港科大跨学科学院四个学部首页与所给下一入口接入。AMC两种学位轮次、EMIA平台角色、ISD教学与人员分类、PPOL三研究主题与跨校关联身份分开；环境学部动态正文另留待接，不把静态空壳当完整导航。",
+    "原目录已列下层单位、学科领域、研究机构和研究学位导航均进搜索索引，保留原分类和上下层关系。"
   ]
 }

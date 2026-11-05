@@ -8,8 +8,8 @@
   <link rel="stylesheet" href="styles.css?v=b75216002e5df080">
   <link rel="stylesheet" href="discovery.css?v=0403a87194e22c0c">
   <script defer src="catalog.js?v=ade5e3ff3331e833"></script>
-  <script defer src="logic.js?v=e94d79f653bb5e1c"></script>
-  <script defer src="app.js?v=af62d250637ad64e"></script>
+  <script defer src="logic.js?v=242eb2fd481846a6"></script>
+  <script defer src="app.js?v=1a845c6db68fbab7"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
@@ -36,7 +36,7 @@
             <label class="field-label" for="intake-cycle">想申请哪一轮？</label><select id="intake-cycle" name="cycle"></select><p class="field-help">只列已核到的轮次。没有列出，不代表学校不招生。</p>
             <fieldset><legend>学校和校区</legend><p class="field-help">香港、深圳、广州分别列出，申请规则不混用。</p><div id="university-filters" class="university-list"></div></fieldset>
             <label class="field-label" for="research-query">想研究什么？<span class="field-help">选填</span></label><input id="research-query" name="researchQuery" type="search" maxlength="160" placeholder="可输入任意研究词，或展开下方目录搜索"><p class="field-help">不限于示例或方向分类。用逗号分开几个研究词，在已整理的教师研究中查找；没有结果不代表该领域没有老师。</p>
-            <details id="subject-browser" class="profile-details subject-browser"><summary>搜索专业、院系和研究方向</summary><div class="details-body"><label class="field-label" for="subject-search">输入专业、院系或研究词</label><input id="subject-search" type="search" maxlength="160" placeholder="例如：法学、材料、建筑、control"><label class="field-label" for="subject-kind">查看范围</label><select id="subject-kind"><option value="">全部已整理内容</option><option value="category">方向分类</option><option value="unit">七校学院和下属院系</option><option value="keyword">教师研究原词</option></select><p class="field-help">可以搜索本版收录的学院、院系和教师研究词，七校资料仍在补齐。选研究词会在七校已整理资料中重新查找；选院系则打开对应目录。不代表老师有招生名额。</p><p id="subject-scope" class="field-help"></p><p id="subject-count" class="field-help" role="status" aria-live="polite"></p><div id="subject-options" class="subject-options"></div><button id="subject-more" type="button" class="button secondary full-width">显示更多</button></div></details>
+            <details id="subject-browser" class="profile-details subject-browser"><summary>搜索专业、院系和研究方向</summary><div class="details-body"><label class="field-label" for="subject-search">输入专业、院系或研究词</label><input id="subject-search" type="search" maxlength="160" placeholder="例如：法学、材料、建筑、control"><label class="field-label" for="subject-kind">查看范围</label><select id="subject-kind"><option value="">全部已整理内容</option><option value="category">方向分类</option><option value="unit">学院、院系与相关学科</option><option value="keyword">教师研究原词</option></select><p class="field-help">可以搜索本版收录的学院、院系和教师研究词，七校资料仍在补齐。选研究词会在七校已整理资料中重新查找；选院系则打开对应目录。不代表老师有招生名额。</p><p id="subject-scope" class="field-help"></p><p id="subject-count" class="field-help" role="status" aria-live="polite"></p><div id="subject-options" class="subject-options"></div><button id="subject-more" type="button" class="button secondary full-width">显示更多</button></div></details>
             <a class="button secondary full-width results-jump" id="results-jump" href="#results-panel">查看筛选结果</a>
             <details class="profile-details interest-details"><summary id="interest-summary">按方向再筛选（选填）</summary><div class="details-body"><fieldset><legend>感兴趣的方向</legend><p class="field-help">有具体问题时可以先用上面的关键词。方向筛选会进一步缩小范围，不代表导师有名额。</p><div id="interest-filters" class="interest-list"></div></fieldset></div></details>
             <details class="profile-details"><summary>补充自己的情况 <span>选填</span></summary><div class="details-body">
