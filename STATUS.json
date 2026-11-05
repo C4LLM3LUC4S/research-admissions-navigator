@@ -296,6 +296,13 @@
       "newBrowserCheck": true,
       "scope": "Exact same-school affiliated body evidence, not shared list pages, alias inference or complete faculty claims.",
       "browserScope": "Developer Edge localhost: exact final wording and original 2026-10-26 date expanded. No new download/native picker/mobile/human-use claim."
+    },
+    "architecture_entry_batch": {
+      "checkedAt": "2026-11-05",
+      "newSources": 3,
+      "newFaculty": 0,
+      "pendingNavigation": 9,
+      "allSevenHierarchiesComplete": false
     }
   },
   "release_scope_note": "Includes reviewed college navigation maintenance after a26 and the two Science-unit queues. Partial coverage; actual public asset acceptance is recorded separately after publication.",
@@ -311,6 +318,7 @@
   ],
   "unreleased_changes": [
     "港理工四个单位的原HTTP入口接上真实主页；五份既有正文复用原日期。港科大材料系的设立与拟开课程，和当前申请条件分开说明。",
-    "两处学院引用同一学校官网时，仅在名称、原网址、正文摘要和来源都对上时复用已读依据，保留原日期和关联学校关系。"
+    "两处学院引用同一学校官网时，仅在名称、原网址、正文摘要和来源都对上时复用已读依据，保留原日期和关联学校关系。",
+    "港大建筑学院三个学系另给入口正文与九个下一入口分开标明；原HTTP地址、院系层级和当期招生未知项保留。"
   ]
 }
