@@ -6,6 +6,25 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('applicant-first cards keep unknown contact, exact process and dated decisions available without repeated audit copy',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');const p=C.programs.find(p=>p.id==='hku-cs-rpg'),card=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent===p.name));assert.ok(card);const process=h.walk(card).find(x=>x.className==='source-details application-process');assert.ok(process);assert.ok(!process.open);assert.ok(process.textContent.includes(p.contact.text));assert.ok(process.textContent.includes(p.selection.text));assert.match(h.walk(card).find(x=>x.className==='contact-next-step').textContent,/要求待确认/);assert.match(card.textContent,/2026\/12\/01/);assert.doesNotMatch(el('faculty-coverage').textContent,/导师总名单|本版已整理/);assert.ok(!html.includes('不预测录取概率'));assert.ok(!html.includes('这里没有真实投稿计数'));
+ const original=new Set(p.contact.sourceIds.concat(p.selection.sourceIds).map(id=>C.sources.find(s=>s.id===id).url));for(const url of original)assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href===url));await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='加入准备清单 ＋').emit('click');assert.ok(h.walk(el('tasks')).some(n=>n.textContent.includes(p.name)));assert.equal(h.networkCalls(),0);
+});
+
+test('teacher cards keep honorary, retired and cross-institution identities outside closed details',async()=>{
+ const ids=['hku-mechanical-55','hku-mechanical-64','polyu-cee-005'],faculty=C.faculty.filter(f=>ids.includes(f.id)),h=harness(undefined,{catalog:{...C,faculty}}),el=id=>h.byId.get(id);
+ const visibleText=n=>n.hidden?'':n.tagName==='details'&&!n.open?(n.children.find(c=>c.tagName==='summary')?.textContent||''):n._text+n.children.map(visibleText).join('');
+ await el('show-faculty').emit('click');
+ for(const f of faculty){const card=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent===f.name));assert.ok(card,f.id);const text=visibleText(card);assert.ok(text.includes(f.directoryRole),f.id+' role is visible');assert.ok(text.includes(f.identityNote),f.id+' identity is visible');const details=h.walk(card).find(n=>n.className==='source-details appointment-details');assert.ok(details&&!details.open);}
+ assert.equal(h.networkCalls(),0);
+});
+
+test('deadline cards show each date once while retaining tentative batches, expired status and unknown times',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');const p=C.programs.find(p=>p.id==='cuhk-cse-rpg'),card=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent===p.name)),dates=h.walk(card).filter(n=>n.className.split(' ').includes('deadline'));assert.ok(dates.length>=5);
+ for(const date of dates){assert.doesNotMatch(date.children[0].textContent,/\d{4}-\d\d-\d\d/);assert.equal(date.children.filter(n=>n.tagName==='strong').length,1);assert.match(date.children.find(n=>n.tagName==='strong').textContent,/具体时间请核对原页|UTC\+8/);assert.doesNotMatch(date.textContent,/官网只写了日期/);}
+ assert.ok(dates.some(n=>n.textContent.includes('暂定')));assert.ok(dates.some(n=>n.className.includes('expired')&&n.textContent.includes('这个日期已过')));assert.equal(h.networkCalls(),0);
+});
+
 test('AIS reader sees scoped unit entrances, different AMC degree years and PPOL roles without marking the dynamic ENVR shell read',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const unit=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Academy of Interdisciplinary Studies')),reviews=h.walk(unit).filter(n=>n.className==='source-details unit-entry-followup');assert.equal(reviews.length,4);assert.match(unit.textContent,/MA、MFA.*2027\/28.*MPhil \/ PhD.*2026\/27/);assert.match(unit.textContent,/三个研究领域不是三个下属学系/);assert.match(unit.textContent,/关联身份不自动变成广州校区的指导资格/);assert.equal(h.networkCalls(),0);
 });
@@ -14,7 +33,7 @@ test('searchable subject browser opens the actual law college and saves a select
  const h=harness(),el=id=>h.byId.get(id);el('subject-search').value='法学';el('subject-kind').value='unit';await el('subject-search').emit('input');const law=h.walk(el('subject-options')).find(x=>x.tagName==='button'&&x.textContent==='港大 · Faculty of Law');assert.ok(law);await law.emit('click');assert.equal(el('show-directories').attributes['aria-pressed'],'true');const opened=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.open);assert.match(opened.textContent,/Faculty of Law/);assert.ok(opened.focusRequested);
  el('subject-search').value='Department of Surgery';await el('subject-search').emit('input');const surgery=h.walk(el('subject-options')).find(x=>x.tagName==='button'&&x.textContent.endsWith('Department of Surgery'));assert.ok(surgery);await surgery.emit('click');const nested=h.walk(el('academic-coverage')).find(x=>x.className==='source-details organization-navigation'&&x.open);assert.ok(nested);assert.match(nested.textContent,/School of Clinical Medicine/);assert.ok(nested.focusRequested);
  el('subject-search').value='Matrix optimization';el('subject-kind').value='keyword';await el('subject-search').emit('input');const term=h.walk(el('subject-options')).find(x=>x.tagName==='button'&&x.textContent==='Matrix optimization');assert.ok(term);await term.emit('click');assert.equal(el('research-query').value,'Matrix optimization');assert.equal(el('show-faculty').attributes['aria-pressed'],'true');await el('profile-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads.at(-1).blob.text(),fresh=harness(),fe=id=>fresh.byId.get(id);fe('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await fe('import-local').emit('change');assert.equal(fe('research-query').value,'Matrix optimization');assert.equal(h.networkCalls()+fresh.networkCalls(),0);
- el('subject-search').value='unlisted-domain-example';await el('subject-search').emit('input');assert.equal(el('subject-options').children.length,0);assert.match(el('subject-count').textContent,/没有找到时/);assert.equal(el('subject-more').hidden,true);
+ el('subject-search').value='unlisted-domain-example';await el('subject-search').emit('input');assert.equal(el('subject-options').children.length,0);assert.match(el('subject-count').textContent,/没有找到/);assert.equal(el('subject-more').hidden,true);
 });
 
 test('architecture reader follows supplied unit entries, keeps HTTP originals and restores a scoped admissions task',async()=>{
@@ -101,7 +120,7 @@ function harness(initialStorage,options={}) {
 
 test('a ready catalogue replaces the initial waiting guide rather than retaining a false loading state',()=>{
  const h=harness(undefined,{initialLoadingNote:'正在读取学校与研究资料；若学校一直没有出现，可下载完整离线包。'}),stamp=h.byId.get('data-stamp');
- assert.match(stamp.textContent,/本版资料/);assert.match(stamp.textContent,new RegExp(C.sources.length+' 项来源'));assert.doesNotMatch(stamp.textContent,/正在读取|一直没有出现/);
+ assert.match(stamp.textContent,/资料更新/);assert.match(stamp.textContent,new RegExp(C.checkedDate));assert.doesNotMatch(stamp.textContent,/正在读取|一直没有出现/);
 });
 
 test('access-check entries and source evidence never tell applicants institutional content was read',async()=>{
@@ -158,7 +177,7 @@ test('school structure is a separate scoped journey, without inventing faculty t
   assert.equal(schools.length,7);
   assert.equal(el('result-count').textContent,C.directories.length+' 个目录');
   assert.match(el('academic-coverage').textContent,/中央完整架构页(?:访问)?403/);
-  assert.match(el('academic-coverage').textContent,/不是.*学科教师库|不另外计成一个学科教师库/);
+  assert.match(el('academic-coverage').textContent,/申请或教学服务入口/);assert.ok(h.walk(el('academic-coverage')).filter(n=>n.className==='source-details unit-information').every(n=>!n.open));
   h.select('cuhksz','PhD',[]);await el('profile-form').emit('input');
   const selected=h.walk(el('academic-coverage')).filter(x=>x.className==='school-coverage');
   assert.equal(selected.length,1);assert.match(selected[0].textContent,/港中文（深圳）/);
@@ -233,7 +252,7 @@ test('a Function Hub applicant saves a scoped doctoral action and sees the separ
   const h=harness(),el=id=>h.byId.get(id);
   h.select('hkustgz','PhD',[]);await el('profile-form').emit('input');
   const card=el('results').children.find(c=>h.walk(c).some(x=>x.tagName==='h3'&&x.textContent.includes('微电子 PhD')));assert.ok(card);
-  assert.match(card.textContent,/国际申请者/);assert.match(card.textContent,/2027-06-15/);assert.match(card.textContent,/2027-07-15/);assert.match(card.textContent,/150/);
+  assert.match(card.textContent,/国际申请者/);assert.match(card.textContent,/2027\/06\/15 23:59（UTC\+8）/);assert.match(card.textContent,/2027\/07\/15 23:59（UTC\+8）/);assert.match(card.textContent,/150/);
   const nodes=h.walk(card),at=nodes.findIndex(n=>n.tagName==='h4'&&n.textContent==='英语分数和考试形式一起核对');assert.ok(at>=0);
   await nodes.slice(at+1).find(n=>n.tagName==='button').emit('click');await el('profile-form').emit('submit');await el('export-local').emit('click');
   const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.equal(backup.tasks.length,1);assert.match(backup.tasks[0].text,/微电子 PhD/);assert.ok(backup.sourceIds.includes('gz-central-requirements'));
@@ -299,12 +318,12 @@ test('actual callbacks show observed linked-profile status and complete director
   await el('show-faculty').emit('click');
   assert.match(el('results').textContent,/Xiaofang/);assert.match(el('results').textContent,/继续看个人主页/);
   const personal=h.walk(el('results')).find(x=>x.tagName==='a'&&x.href==='https://sites.google.com/view/xiaofang-zhou');assert.ok(personal);
-  assert.match(el('results').textContent,/不等于学校招生政策/);assert.match(el('results').textContent,/已读到正文/);
+  assert.match(el('results').textContent,/个人网站、课题组和研究档案/);assert.match(el('results').textContent,/已读到正文/);
   await h.button('results','加入跟进待办').emit('click');await el('export-local').emit('click');
   const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.ok(backup.tasks.some(x=>x.facultyId==='census-hkust-zxf'));
   await el('show-directories').emit('click');
   assert.match(el('results').textContent,/53 个不同主页：已读 38 个，15 个读取超时/);
-  assert.match(el('results').textContent,/逐人进度与待核主页/);assert.match(el('results').textContent,/本轮读取超时，待核/);
+  assert.match(el('results').textContent,/展开老师名单与资料详情/);assert.match(el('results').textContent,/本轮读取超时，待核/);
   const li=h.walk(el('results')).filter(x=>x.tagName==='li'&&/本轮已读正文|本轮读取超时/.test(x.textContent));assert.equal(li.length,53);
   assert.equal(h.networkCalls(),0);
 });
@@ -428,7 +447,7 @@ test('concrete research discovery follows the teacher to evidence, follow-up, di
   assert.equal(parsed.profile.researchQuery,'自然语言处理');assert.equal(parsed.tasks[0].facultyId,'wide-hkust-junxian-he');
   await pick('查这所学校的院系目录').emit('click');
   assert.equal(el('results').childElementCount,L.directoriesFor(C,parsed.profile).length);
-  assert.match(el('results').textContent,/不是该院系教师总人数/);
+  assert.match(el('results').textContent,/从院系官网查看老师、研究方向和个人主页/);
   await el('reset-local').emit('click');el('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await el('import-local').emit('change');
   assert.equal(el('research-query').value,'自然语言处理');assert.match(el('saved-faculty').textContent,/Junxian He/);
   const restarted=harness([...h.saved]);assert.equal(restarted.byId.get('research-query').value,'自然语言处理');
@@ -489,7 +508,7 @@ test('an undated research-degree route remains findable without pretending the s
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');
  const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='数据与系统工程研究学位'));assert.ok(card);
  const top=h.walk(card).find(n=>n.className==='card-topline');assert.match(top.textContent,/入学轮次待核/);assert.doesNotMatch(top.textContent,/2027/);
- assert.match(card.textContent,/不代表你所选轮次已经开放/);assert.match(card.textContent,/当期申请时间待核/);
+ assert.match(card.textContent,/入学年份未注明，请先查看项目当前招生安排/);assert.match(card.textContent,/当期申请时间待核/);
  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');
  assert.match(el('tasks').textContent,/计划2027\/28学年（项目轮次待核）/);
  await el('export-local').emit('click');const restored=harness([['yanxiang-local-v1',await h.downloads[0].blob.text()]]);
@@ -594,7 +613,7 @@ test('mechanical applicant finds graph control and restores a school-and-degree-
 
 test('directory-only research uses its real evidence and restores a teacher and unknown-year MPhil action',async()=>{
  const h=harness(),el=id=>h.byId.get(id);assert.match(el('saved-faculty').textContent,/读过研究说明和来源后再收藏/);h.select('cityu','MPhil',[]);el('research-query').value='光子集成';await el('profile-form').emit('input',{target:el('research-query')});
- const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Prof. FENG , Hanke'));assert.ok(card);assert.match(card.textContent,/个人主页未提供/);
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Prof. FENG , Hanke'));assert.ok(card);assert.match(card.textContent,/从院系名录了解研究内容/);
  assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.textContent==='看院系中的研究原文 ↗'&&n.href==='https://www.ee.cityu.edu.hk/people/academic_staff/faculty'));assert.ok(!h.walk(card).some(n=>n.tagName==='a'&&n.textContent==='看院系提供的老师主页 ↗'));
  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
  await el('show-programs').emit('click');const p=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='电机工程研究型硕士（招生年度待核）'));assert.ok(p);assert.match(p.textContent,/当期申请时间待核/);assert.match(p.textContent,/不是强制/);assert.match(p.textContent,/2023/);
@@ -615,7 +634,7 @@ test('CEE doctoral reader sees a scoped 2027 advertisement and both separate HKP
 
 test('college-first view separates matched list from unfinished departments and faculty',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const text=el('academic-coverage').textContent;
- assert.match(text,/先核清学院和下属院系/);assert.match(text,/研究学位名单共11个学术单位；研究生院另列/);assert.match(text,/包含创新学院/);assert.match(text,/学院名单：已逐项核对研究学位页/);assert.match(text,/下属院系：尚未核齐；教师：按院逐步核对/);assert.match(text,/没有列出，不代表这所学院没有学系/);assert.doesNotMatch(text,/全校教师已收齐/);assert.equal(h.networkCalls(),0);
+ assert.match(text,/按学院和院系找老师/);assert.match(text,/研究学位名单共11个学术单位；研究生院另列/);assert.match(text,/包含创新学院/);assert.match(text,/学院名单：已逐项核对研究学位页/);assert.match(text,/下属院系：尚未核齐；教师：按院逐步核对/);assert.match(text,/打开学院官网，查看下属单位和师资/);assert.doesNotMatch(text,/全校教师已收齐/);assert.equal(h.networkCalls(),0);
 });
 
 test('child-unit reader sees affiliated schools and separate teaching entries while an exact old homepage read remains scoped',async()=>{
@@ -729,7 +748,7 @@ test('interdisciplinary reader keeps five divisions separate from teaching progr
 });
 
 test('applicant can continue through three named current department links while the old unlinked brochure stays separate',async()=>{
- const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const u=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Science'));assert.ok(u);assert.match(u.textContent,/已整理的部分师资目录在下方/);assert.doesNotMatch(u.textContent,/逐人主页仍待整理/);
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const u=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Science'));assert.ok(u);assert.match(u.textContent,/从下方师资入口继续查看老师和研究方向/);assert.doesNotMatch(u.textContent,/逐人主页仍待整理/);
  const current=h.walk(u).find(n=>n.className==='source-details organization-navigation'&&n.children[0]?.textContent.includes('学院网页实给'));assert.ok(current);const items=current.children.find(n=>n.tagName==='ul');assert.equal(items.children.length,3);for(const url of ['https://ai.hku.hk/','https://www.cs.hku.hk/','https://saasweb.hku.hk/'])assert.ok(h.walk(items).some(n=>n.tagName==='a'&&n.href===url));assert.match(current.textContent,/单位正文、完整师资及招生信息仍待核/);const historical=h.walk(u).find(n=>n.className==='source-details organization-navigation'&&n.children[0]?.textContent.includes('三个系（2026/27'));assert.ok(historical);assert.ok(!h.walk(historical.children.find(n=>n.tagName==='ul')).some(n=>n.tagName==='a'));assert.equal(h.networkCalls(),0);
 });
 
