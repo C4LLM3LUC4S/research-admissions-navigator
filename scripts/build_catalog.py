@@ -600,6 +600,9 @@ def build_catalog():
     catalog["sources"].extend(stem_queue["sources"])
     catalog["academicEntryFollowups"].extend(stem_queue["entries"])
     catalog["academicUnitNotes"] = stem_queue["academicUnitNotes"]
+    architecture = load("hku-architecture-unit-entrances-20261105.json")
+    catalog["sources"].extend(architecture["sources"])
+    catalog["academicEntryFollowups"].extend(architecture["entries"])
     return catalog
 
 
@@ -812,6 +815,7 @@ def validate(catalog):
     maps = catalog.get("academicCoverage", [])
     assert len(maps) == len(unis) and {m["universityId"] for m in maps} == unis
     child_urls = {child.get("url") for row in maps for unit in row["units"] for child in unit["children"]}
+    child_urls.update(entry["url"] for row in maps for unit in row["units"] for child in unit["children"] for entry in child.get("providedEntries", []))
     followed_urls = set()
     for followup in catalog.get("academicEntryFollowups", []):
         assert followup["url"] in child_urls and followup["url"] not in followed_urls

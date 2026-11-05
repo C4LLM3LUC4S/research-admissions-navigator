@@ -6,6 +6,13 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('architecture reader follows supplied unit entries, keeps HTTP originals and restores a scoped admissions task',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const section=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Architecture')),routes=h.walk(section).filter(n=>n.className==='source-details provided-entry-routes');assert.equal(routes.length,3);assert.match(section.textContent,/学院另给入口正文已读/);assert.match(section.textContent,/官网原地址 http:\/\/www.arch.hku.hk\/people\/arch_staff\//);assert.match(section.textContent,/目标正文仍待核/);
+ const links=h.walk(section).filter(n=>n.tagName==='a').map(n=>n.href);assert.ok(links.includes('https://www.arch.hku.hk/people/upad-staff/'));assert.ok(links.includes('https://www.arch.hku.hk/programmes/arch/mphil-and-phd/admissions/'));assert.ok(!links.includes('https://www.arch.hku.hk/people/arch_staff/'));
+ const task='先核建筑学系研究学位当期要求，再检查人员类别；入口已读不代表有招生余位。';await el('profile-form').emit('submit');el('task-text').value=task;await el('task-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads.at(-1).blob.text(),fresh=harness(),fe=id=>fresh.byId.get(id);fe('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await fe('import-local').emit('change');const reopen=harness(fresh.saved);assert.match(reopen.byId.get('tasks').textContent,/入口已读不代表有招生余位/);assert.equal(h.networkCalls()+fresh.networkCalls()+reopen.networkCalls(),0);
+});
+
 test('shared school reader sees the old exact-page evidence and restores a followup without merging faculty or admission claims',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const science=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Science')),proof=h.walk(science).find(n=>n.className==='source-details shared-school-read');assert.ok(proof);assert.match(proof.textContent,/沿用2026-10-26的原网页记录/);assert.match(proof.textContent,/没有重新下载或改日期/);assert.match(proof.textContent,/完整师资、指导资格和当期余位仍需逐项核对/);assert.match(science.textContent,/关联学校：/);assert.doesNotMatch(proof.textContent,/核查 2026-11-05/);
@@ -655,7 +662,7 @@ test('architecture reader can follow all three supplied department entrances wit
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','MPhil',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const u=h.walk(el('academic-coverage')).find(n=>n.tagName==='details'&&n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('Faculty of Architecture'));assert.ok(u);
  for(const slug of ['department-of-architecture','department-of-real-estate-and-construction','department-of-urban-planning-and-design']){
-  const a=h.walk(u).find(n=>n.tagName==='a'&&n.href==='https://www.arch.hku.hk/departments-and-divisions/'+slug+'/');assert.ok(a);assert.match(a.textContent,/正文待核/);
+  const a=h.walk(u).find(n=>n.tagName==='a'&&n.href==='https://www.arch.hku.hk/departments-and-divisions/'+slug+'/');assert.ok(a);assert.match(a.textContent,/已读单位正文/);
  }
  assert.match(u.textContent,/原入口和原读取记录另行保留/);assert.equal(h.networkCalls(),0);
 });
@@ -694,7 +701,7 @@ test('law reader restores a dated administrative declaration without turning it 
 
 test('business reader gets five actually supplied HTTPS department entrances and keeps failed original URLs',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const cb=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('College of Business'));assert.ok(cb);assert.match(cb.textContent,/六个学术系/);assert.match(cb.textContent,/原HTTP入口和读取记录保留/);
- for(const slug of ['ac','ef','is','mgt','mkt']){const a=h.walk(cb).find(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/'+slug+'/');assert.ok(a);assert.match(a.textContent,/正文待核/);}
+ for(const slug of ['ac','ef','is','mgt','mkt']){const a=h.walk(cb).find(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/'+slug+'/');assert.ok(a);assert.match(a.textContent,/已读单位正文/);}
  assert.ok(!h.walk(cb).some(n=>n.tagName==='a'&&n.href==='https://www.cityu.edu.hk/ac/'));assert.ok(h.walk(cb).some(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/en/people/faculty-directory'));assert.equal(h.networkCalls(),0);
 });
 
