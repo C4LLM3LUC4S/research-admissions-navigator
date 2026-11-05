@@ -122,7 +122,7 @@
         const section=node('details',null,'academic-unit');
         const status=unit.entryBodyStatus==='body_read'?'已读学院入口':unit.entryBodyStatus==='access_failed'?'入口读取失败，待核':'入口待核';
         const supportUnit=['graduate_school','undergraduate_college'].includes(unit.kind);
-        append(section,node('summary',unit.name+' · '+status),node('p',supportUnit?'这个单位单独保留作申请或教学入口，不另外计成一个学科教师库。':'教师总人数尚未核实；逐人主页仍待整理。未收录不等于不能申请。','field-help'));
+        append(section,node('summary',unit.name+' · '+status),node('p',supportUnit?'这个单位单独保留作申请或教学入口，不另外计成一个学科教师库。':'教师总人数尚未核实；已整理的部分师资目录在下方，未覆盖的单位继续核查。未收录不等于不能申请。','field-help'));
         if(unit.url)section.append(link('打开这个单位的官方入口 ↗',unit.url));
         if(unit.accessNote)section.append(node('p',unit.accessNote,'field-help'));
         if(unit.childInventoryReview)append(section,node('p',unit.childInventoryReview.summary+' 名单依据核查：'+unit.childInventoryReview.checkedAt,'evidence-note'),evidence(unit.childInventoryReview.sourceIds));

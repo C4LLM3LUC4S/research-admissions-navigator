@@ -160792,6 +160792,240 @@
         "Division of Integrative Systems and Design",
         "Division of Arts and Machine Creativity"
       ]
+    },
+    {
+      "id": "scope-hku-cds-about-20261105",
+      "url": "https://www.cds.hku.hk/about/",
+      "originalUrl": "https://www.cds.hku.hk/about/",
+      "retrievedUrl": "https://www.cds.hku.hk/about/",
+      "title": "港大计算与数据科学学院给出的三个系官网",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "a056b8152951dead22d00142c0e26fd207ce3a3ffff658e210c84f9f5cfd2bb7",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "本页实际列出的院系或项目导航；不表示全部师资、资格或招生余位。",
+      "claims": [
+        "港大计算与数据科学学院给出的三个系官网"
+      ],
+      "knownIssues": [
+        "没有列当期完整材料、年度或余位；未知仍需回具体项目核对。",
+        "网页模板的占位文和导航重复不当作学术内容；三个系的目标正文尚未在本批读取。"
+      ],
+      "discoveredLinks": [
+        "https://www.cds.hku.hk",
+        "https://www.cds.hku.hk/about/",
+        "https://www.cds.hku.hk/about/introduction/",
+        "https://www.cds.hku.hk/about/directors-message/",
+        "https://www.cds.hku.hk/about/leadership-team/",
+        "https://www.cds.hku.hk/about/advisory-board/",
+        "https://www.cds.hku.hk/about/academic-staff/",
+        "https://www.cds.hku.hk/about/honorary-and-adjunct-staff/",
+        "https://www.cds.hku.hk/about/research-and-other-staff/",
+        "https://www.cds.hku.hk/about/administrative-staff/",
+        "https://www.cds.hku.hk/about/facilities-resources-2/",
+        "https://www.cds.hku.hk/about/job-openings/",
+        "https://sh.cds.hku.hk/",
+        "https://ai.hku.hk/",
+        "https://www.cs.hku.hk/",
+        "https://saasweb.hku.hk/",
+        "https://www.cds.hku.hk/prospective-students/undergraduate/",
+        "https://master.cds.hku.hk/",
+        "https://www.cds.hku.hk/prospective-students/postgraduate/#rpg",
+        "https://www.cds.hku.hk/prospective-students/scholarships/",
+        "https://www.cds.hku.hk/",
+        "https://www.cds.hku.hk/research-highlights/",
+        "https://www.cds.hku.hk/research-laboratories-and-centres/",
+        "https://www.cds.hku.hk/research-groups/",
+        "https://www.cds.hku.hk/awards/",
+        "https://www.cds.hku.hk/news/",
+        "https://www.cds.hku.hk/events/",
+        "https://aiblog.hku.hk/",
+        "https://www.cds.hku.hk/cds-in-media/",
+        "https://www.cds.hku.hk/social-media-channels/",
+        "https://www.cds.hku.hk/contact-us/",
+        "https://www.cds.hku.hk/alumni/",
+        "https://www.cds.hku.hk/about/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjYxMzkiLCJ0b2dnbGUiOnRydWV9",
+        "https://www.cds.hku.hk/about/#elementor-action%3Aaction%3Dpopup%3Aopen%26settings%3DeyJpZCI6IjYzMTkiLCJ0b2dnbGUiOmZhbHNlfQ%3D%3D",
+        "https://www.cds.hku.hk/about/#top",
+        "https://www.instagram.com/hku.cds/",
+        "https://www.linkedin.com/company/hkucds/",
+        "https://x.com/HKU_CDS",
+        "https://xhslink.cn/m/2im5AFAcJLx",
+        "https://www.youtube.com/@hkucds",
+        "https://www.cds.hku.hk/disclaimer/",
+        "https://www.cds.hku.hk/privacy-policy/",
+        "https://www.cds.hku.hk/sitemap/"
+      ],
+      "academicParentBindings": [
+        {
+          "collegeUnitId": "hku-9",
+          "parentUnitName": "School of Computing and Data Science"
+        }
+      ],
+      "listedNames": [
+        "Department of AI & Data Science",
+        "Department of Computer Science",
+        "Department of Statistics & Actuarial Science"
+      ],
+      "observedDepartmentCards": [
+        {
+          "name": "Department of AI & Data Science",
+          "url": "https://ai.hku.hk/"
+        },
+        {
+          "name": "Department of Computer Science",
+          "url": "https://www.cs.hku.hk/"
+        },
+        {
+          "name": "Department of Statistics & Actuarial Science",
+          "url": "https://saasweb.hku.hk/"
+        }
+      ]
+    },
+    {
+      "id": "scope-hkust-ais-programmes-20261105",
+      "url": "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission",
+      "originalUrl": "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission",
+      "retrievedUrl": "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission",
+      "title": "港科大跨学科学院：研究学位与授课项目分开列",
+      "checkedAt": "2026-11-05",
+      "bodySha256": "877b84e1464659f84092492c335e6cf3401422b63bfbd4161e1cedd884ad5420",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "本页实际列出的院系或项目导航；不表示全部师资、资格或招生余位。",
+      "claims": [
+        "港科大跨学科学院：研究学位与授课项目分开列"
+      ],
+      "knownIssues": [
+        "没有列当期完整材料、年度或余位；未知仍需回具体项目核对。",
+        "页面未写这些路线的招生年度或完整院系条件。TIE只列MPhil，不能补成PhD；下方授课型项目另列，不混入。"
+      ],
+      "discoveredLinks": [
+        "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission#main-content",
+        "https://www.ust.hk/news",
+        "https://www.ust.hk/academics/list",
+        "https://www.ust.hk/lifehkust",
+        "http://library.ust.hk/",
+        "https://www.ust.hk/map-directions",
+        "https://hkustcareers.ust.hk",
+        "https://facultyprofiles.ust.hk/",
+        "https://www.ust.hk/about",
+        "https://ais.hkust.edu.hk/contact-us/",
+        "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission",
+        "https://ais.hkust.edu.hk/about-ais/deans-message",
+        "https://ais.hkust.edu.hk/about-ais/fast-facts",
+        "https://ais.hkust.edu.hk/about-ais/our-divisions-units",
+        "https://ais.hkust.edu.hk/about-ais/our-people",
+        "https://ais.hkust.edu.hk/about-ais/publications",
+        "https://ais.hkust.edu.hk/programs/undergraduate-programs",
+        "https://ais.hkust.edu.hk/programs/undergraduate/undergraduate-admission",
+        "https://ais.hkust.edu.hk/programs/undergraduate/admission/program-based-admission",
+        "https://ais.hkust.edu.hk/programs/undergraduate/admission/school-based-admission",
+        "https://ais.hkust.edu.hk/programs/undergraduate/undergraduate-scholarships",
+        "https://ais.hkust.edu.hk/programs/undergraduate/ais-courses-syllabi",
+        "https://ais.hkust.edu.hk/programs/postgraduate-programs",
+        "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-scholarships",
+        "https://ais.hkust.edu.hk/programs/quality-assurance",
+        "https://ais.hkust.edu.hk/interdisciplinary-research",
+        "https://ais.hkust.edu.hk/interdisciplinary-research/research-and-impact",
+        "https://ais.hkust.edu.hk/interdisciplinary-research/institutes",
+        "https://ais.hkust.edu.hk/interdisciplinary-research/facilities",
+        "https://ais.hkust.edu.hk/life-ais",
+        "https://ais.hkust.edu.hk/life-ais/students-sharing",
+        "https://ais.hkust.edu.hk/life-ais/video-sharing",
+        "https://ais.hkust.edu.hk/life-ais/enrichment-programs",
+        "https://ais.hkust.edu.hk/life-ais/corporate-professional-development",
+        "https://ais.hkust.edu.hk/student-ambassador-program",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career/student-wellness-consultation",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career/recommended-useful-resources",
+        "https://ais.hkust.edu.hk/life-ais/student-wellness-career/resources/wellness-relaxation",
+        "https://ais.hkust.edu.hk/whats-happening/news",
+        "https://ais.hkust.edu.hk/alumni-stories",
+        "https://ais.hkust.edu.hk/whats-happening/aismedia",
+        "https://ais.hkust.edu.hk/whats-happening/newsletters",
+        "https://ais.hkust.edu.hk/whats-happening/latest-events",
+        "https://www.ust.hk",
+        "https://ais.hkust.edu.hk/",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/outcome-based-education",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/curriculum-development-and-approval-process",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/feedback-stakeholder",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/program-monitoring-review",
+        "https://ais.hkust.edu.hk/programs/quality-assurance/useful-information",
+        "https://ais.hkust.edu.hk/contact-us",
+        "https://ais.hkust.edu.hk/ais-intranet",
+        "https://gohkust.sharepoint.com/teams/IPOFacultyIntranet/",
+        "https://w5.ab.ust.hk/wsa/student",
+        "https://dataprivacy.ust.hk/university-data-privacy-policy-statement/",
+        "https://ais.hkust.edu.hk/sitemap",
+        "https://fytgs.hkust.edu.hk/",
+        "https://mtpc.ust.hk/",
+        "https://www.facebook.com/hkust.ais",
+        "https://www.instagram.com/hkust.ais/",
+        "https://linkedin.com/school/hkust-ais",
+        "https://youtube.com/@hkustais",
+        "https://ais.hkust.edu.hk/sites/default/files/AIS_WeChat_QR%20code.jpg",
+        "https://weibo.com/hkustipo"
+      ],
+      "listedNames": [
+        "Arts and Machine Creativity",
+        "Atmospheric Environmental Science",
+        "Environmental Science, Policy and Management",
+        "Individualized Interdisciplinary Program",
+        "Integrative Systems and Design",
+        "Public Policy",
+        "Technology Innovation and Entrepreneurship"
+      ],
+      "listedResearchDegrees": [
+        {
+          "name": "Arts and Machine Creativity",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "name": "Atmospheric Environmental Science",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "name": "Environmental Science, Policy and Management",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "name": "Individualized Interdisciplinary Program",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "name": "Integrative Systems and Design",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "name": "Public Policy",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ]
+        },
+        {
+          "name": "Technology Innovation and Entrepreneurship",
+          "degrees": [
+            "MPhil"
+          ]
+        }
+      ]
     }
   ],
   "funding": [
@@ -176932,11 +177166,12 @@
           "organizationReview": {
             "checkedAt": "2026-11-05",
             "status": "conflicting_scopes",
-            "summary": "已核网页列五个直属学术单位和三个关联学校；2026/27小册子的数量标题、图示与这个范围并不完全一致，因此保留两份来源，不按标题补造第六个直属系，也不删掉已有的关联学校。小册子另明确列出计算与数据科学学院下的三个系及三项跨学科研究机构，分别放在下方。完整院系与师资仍待核齐。",
+            "summary": "已核网页列五个直属学术单位和三个关联学校；2026/27小册子的数量标题、图示与这个范围并不完全一致，因此保留两份来源，不按标题补造第六个直属系，也不删掉已有的关联学校。小册子另明确列出计算与数据科学学院下的三个系及三项跨学科研究机构，分别放在下方。完整院系与师资仍待核齐。 本次另读计算与数据科学学院的About页，已接上其实际给出的三个系官网；原小册子的无链接记录保留作年度证据。",
             "sourceIds": [
               "child-units-hku-science-departments-20261029",
               "child-units-hku-science-rpg-departments-20261029",
-              "scope-hku-science-leaflet-20261105"
+              "scope-hku-science-leaflet-20261105",
+              "scope-hku-cds-about-20261105"
             ],
             "sourceAcademicYear": "2026/27",
             "datedSourceIds": [
@@ -176947,6 +177182,53 @@
             "listedChildren": 8
           },
           "relatedNavigationGroups": [
+            {
+              "title": "从这三个系官网继续查（学院网页实给）",
+              "kind": "academic_subunits",
+              "parentUnitName": "School of Computing and Data Science",
+              "sourceIds": [
+                "scope-hku-cds-about-20261105"
+              ],
+              "note": "网址来自学院About页的Departments栏；只说明入口已核到，不表示这三个系的完整师资或招生要求已核齐。原2026/27小册子说明仍在下方保留。",
+              "entries": [
+                {
+                  "name": "Department of AI & Data Science",
+                  "observedName": "Department of AI & Data Science",
+                  "url": "https://ai.hku.hk/",
+                  "kind": "department",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-cds-about-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Computer Science",
+                  "observedName": "Department of Computer Science",
+                  "url": "https://www.cs.hku.hk/",
+                  "kind": "department",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-cds-about-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Department of Statistics & Actuarial Science",
+                  "observedName": "Department of Statistics & Actuarial Science",
+                  "url": "https://saasweb.hku.hk/",
+                  "kind": "department",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hku-cds-about-20261105"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            },
             {
               "title": "计算与数据科学学院下的三个系（2026/27资料）",
               "kind": "academic_subunits",
@@ -177047,6 +177329,31 @@
               "sourceId": "scope-hku-science-leaflet-20261105",
               "scope": "第5页是本次结构核查范围；资料年度不改成2027/28。申请、费用与资助须再核当期页面。",
               "kind": "document_entry"
+            },
+            {
+              "label": "看三个系的当前官网入口依据",
+              "sourceId": "scope-hku-cds-about-20261105",
+              "kind": "college_scope",
+              "scope": "三个实际网址已接在下方；学院页中的研究生、授课项目和人员分类不混为下属学系。"
+            }
+          ],
+          "organizationReviewHistory": [
+            {
+              "checkedAt": "2026-11-05",
+              "status": "conflicting_scopes",
+              "summary": "已核网页列五个直属学术单位和三个关联学校；2026/27小册子的数量标题、图示与这个范围并不完全一致，因此保留两份来源，不按标题补造第六个直属系，也不删掉已有的关联学校。小册子另明确列出计算与数据科学学院下的三个系及三项跨学科研究机构，分别放在下方。完整院系与师资仍待核齐。",
+              "sourceIds": [
+                "child-units-hku-science-departments-20261029",
+                "child-units-hku-science-rpg-departments-20261029",
+                "scope-hku-science-leaflet-20261105"
+              ],
+              "sourceAcademicYear": "2026/27",
+              "datedSourceIds": [
+                "scope-hku-science-leaflet-20261105"
+              ],
+              "organizationComplete": false,
+              "facultyComplete": false,
+              "listedChildren": 8
             }
           ]
         },
@@ -190768,22 +191075,165 @@
           "organizationReview": {
             "checkedAt": "2026-11-05",
             "status": "listed_children_matched",
-            "summary": "院长寄语明确列出五个学部，已与原有名单逐项对应。联合任职不另外计一个学部，双学位与本科通识教育也不混入。页面另给研究生课程和招生入口，目标正文与当期要求仍待核；学生人数不当作教师人数或招生余位。",
+            "summary": "院长寄语明确列出五个学部，已与原有名单逐项对应。联合任职不另外计一个学部，双学位与本科通识教育也不混入。页面另给研究生课程和招生入口，目标正文与当期要求仍待核；学生人数不当作教师人数或招生余位。 另读研究生招生介绍，六项研究路线列MPhil/PhD，TIE只列MPhil；它们是项目，不是新增学部。",
             "sourceIds": [
               "child-units-hkust-ais-20261029",
-              "scope-hkust-ais-dean-20261105"
+              "scope-hkust-ais-dean-20261105",
+              "scope-hkust-ais-programmes-20261105"
             ],
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 5
           },
-          "relatedNavigationGroups": [],
+          "relatedNavigationGroups": [
+            {
+              "title": "学院本页列出的研究学位路线（年度待核）",
+              "kind": "research_degree_navigation",
+              "sourceIds": [
+                "scope-hkust-ais-programmes-20261105"
+              ],
+              "note": "六项列MPhil/PhD，技术创新与创业TIE只列MPhil。这里保留原项目名，不另造七个学部；申请年份、材料与完整要求须到具体项目核对。",
+              "entries": [
+                {
+                  "name": "MPhil / PhD · Arts and Machine Creativity",
+                  "observedName": "Arts and Machine Creativity",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil",
+                    "PhD"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "MPhil / PhD · Atmospheric Environmental Science",
+                  "observedName": "Atmospheric Environmental Science",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil",
+                    "PhD"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "MPhil / PhD · Environmental Science, Policy and Management",
+                  "observedName": "Environmental Science, Policy and Management",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil",
+                    "PhD"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "MPhil / PhD · Individualized Interdisciplinary Program",
+                  "observedName": "Individualized Interdisciplinary Program",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil",
+                    "PhD"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "MPhil / PhD · Integrative Systems and Design",
+                  "observedName": "Integrative Systems and Design",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil",
+                    "PhD"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "MPhil / PhD · Public Policy",
+                  "observedName": "Public Policy",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil",
+                    "PhD"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "MPhil · Technology Innovation and Entrepreneurship",
+                  "observedName": "Technology Innovation and Entrepreneurship",
+                  "url": null,
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "not_read",
+                  "sourceIds": [
+                    "scope-hkust-ais-programmes-20261105"
+                  ],
+                  "offeredDegrees": [
+                    "MPhil"
+                  ],
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
+            }
+          ],
           "reviewedNavigation": [
             {
               "label": "看五个学部与跨院任职的官方说明",
               "sourceId": "scope-hkust-ais-dean-20261105",
               "scope": "这是学院与人员组织介绍，不是五个学部已收全师资或正在招收新生的证明。",
               "kind": "college_scope"
+            },
+            {
+              "label": "核对研究学位与授课项目的分栏",
+              "sourceId": "scope-hkust-ais-programmes-20261105",
+              "kind": "training_scope",
+              "scope": "这是已读的项目种类导航，不是某一申请年度的开放、完整条件或名额证明。"
+            }
+          ],
+          "organizationReviewHistory": [
+            {
+              "checkedAt": "2026-11-05",
+              "status": "listed_children_matched",
+              "summary": "院长寄语明确列出五个学部，已与原有名单逐项对应。联合任职不另外计一个学部，双学位与本科通识教育也不混入。页面另给研究生课程和招生入口，目标正文与当期要求仍待核；学生人数不当作教师人数或招生余位。",
+              "sourceIds": [
+                "child-units-hkust-ais-20261029",
+                "scope-hkust-ais-dean-20261105"
+              ],
+              "organizationComplete": false,
+              "facultyComplete": false,
+              "listedChildren": 5
             }
           ]
         }
@@ -205886,7 +206336,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "ed2936eae10554a6390db1664b410f0bad4853523ea1b3ad3231e4e3f2e477a9",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1345"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1345",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-00-20261028"
+              ]
             },
             {
               "name": "中国研究学科部",
@@ -205903,7 +206356,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "b74992d2215f52b28798b54357649ca70398497be93ab6017a1adf5ae494b05b",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1349"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1349",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-01-20261028"
+              ]
             },
             {
               "name": "国情教育部",
@@ -205920,7 +206376,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "b005ccbcb47a7737992b2156adc03ba1de0379c4c852d9b38e0cff0d09ac7aa0",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1351"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1351",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-02-20261028"
+              ]
             },
             {
               "name": "计算社会科学学科部",
@@ -205937,7 +206396,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "919374d8274970a7a53e136b8ec60a592433b26d46a15a32aa084ed0b4321aff",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1350"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1350",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-03-20261028"
+              ]
             },
             {
               "name": "发展与治理学科部",
@@ -205954,7 +206416,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "ab412854f41afe1f2d81864429ee5ba9846ed1ea0b9de8a0430dbd21a31ce0d0",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/846"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/846",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-04-20261028"
+              ]
             },
             {
               "name": "通识教育学科部",
@@ -205971,7 +206436,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "33961cf3252b4feedbd70c9e436e13165fcac384a28e069bff53328eecbffe44",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1348"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1348",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-05-20261028"
+              ]
             },
             {
               "name": "全球与区域研究学科部",
@@ -205988,7 +206456,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "e0778f5a26587c5c614c81c4de13a6c4c62796d7eceff9b65fa28ba64e491da7",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/847"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/847",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-06-20261028"
+              ]
             },
             {
               "name": "跨文化交流学科部",
@@ -206005,7 +206476,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "ffbcef2f89d1edef6c8ed37683ca51e09911c5fc848037efb465ccfcb0c8e7ef",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1346"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1346",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-07-20261028"
+              ]
             },
             {
               "name": "语言教育学科部",
@@ -206022,7 +206496,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "82d1d325c884c2b0bb48ecdf2ff920307d51cbfdd0f589c5237d1f793a56ae88",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1347"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/1347",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-08-20261028"
+              ]
             },
             {
               "name": "体育部",
@@ -206039,7 +206516,10 @@
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "bodySha256": "a667bb3e87fa9e962609b096c1d5c33cad5bbaa4c4ae82ec66eba5da8b27ca6a",
-              "retrievedUrl": "https://hss.cuhk.edu.cn/page/841"
+              "retrievedUrl": "https://hss.cuhk.edu.cn/page/841",
+              "inventorySourceIds": [
+                "child-units-cuhksz-hss-09-20261028"
+              ]
             }
           ],
           "staffEntries": [],
@@ -206063,7 +206543,28 @@
             "observedChildren": 10,
             "facultyComplete": false
           },
-          "relatedTeachingEntries": []
+          "relatedTeachingEntries": [],
+          "organizationReview": {
+            "checkedAt": "2026-11-05",
+            "status": "listed_children_matched",
+            "summary": "复用2026年10月28日实际读取的十个学部入口及页面中的学部分类，已与现有十项逐一对上。其中含国情、语言、体育等教学部门，保留官网原称呼；不把十项都推成独立招收MPhil/PhD的学系。专业、学位项目及研究机构另查，来源原读取日期保持不变。",
+            "sourceIds": [
+              "child-units-cuhksz-hss-00-20261028",
+              "child-units-cuhksz-hss-01-20261028",
+              "child-units-cuhksz-hss-02-20261028",
+              "child-units-cuhksz-hss-03-20261028",
+              "child-units-cuhksz-hss-04-20261028",
+              "child-units-cuhksz-hss-05-20261028",
+              "child-units-cuhksz-hss-06-20261028",
+              "child-units-cuhksz-hss-07-20261028",
+              "child-units-cuhksz-hss-08-20261028",
+              "child-units-cuhksz-hss-09-20261028"
+            ],
+            "organizationComplete": false,
+            "facultyComplete": false,
+            "listedChildren": 10
+          },
+          "relatedNavigationGroups": []
         },
         {
           "id": "cuhksz-4",
@@ -210059,5 +210560,5 @@
       "facultyComplete": false
     }
   ],
-  "snapshotId": "sha256:e1bb7aac6ebd59f1688cdd4a040304521d30b8a503747cda460ba0f4b902f19c"
+  "snapshotId": "sha256:db656f4dbae0e45a8e47f1c1f1b664754dbdc7ac4085f3acc89516f3e0b96af8"
 }

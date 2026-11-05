@@ -521,13 +521,16 @@ def build_catalog():
         unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
         unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
     deferred_organization_sources = []
-    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json", "science-interdisciplinary-scopes-20261105.json"):
+    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json", "science-interdisciplinary-scopes-20261105.json", "college-links-programmes-20261105.json"):
         organization = load(organization_path)
         if organization.get("appendSourcesAfterExisting"):
             deferred_organization_sources.extend(organization["sources"])
         else:
             catalog["sources"].extend(organization["sources"])
-        organization_sources = {s["id"]: s for s in organization["sources"]}
+        reused_ids = set(organization.get("reusedSourceIds", []))
+        organization_sources = {s["id"]: s for s in catalog["sources"] if s["id"] in reused_ids}
+        assert set(organization_sources) == reused_ids, "Reused structure sources must already exist"
+        organization_sources.update({s["id"]: s for s in organization["sources"]})
         for reviewed in organization["units"]:
             unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == reviewed["unitId"])
             entry_source = organization_sources[reviewed["entrySourceId"]]
@@ -900,8 +903,15 @@ def validate(catalog):
                         refs(entry["sourceIds"])
                         assert set(entry["sourceIds"]) <= set(group["sourceIds"])
                         assert entry["kind"] in navigation_kinds[group["kind"]]
+                        if "offeredDegrees" in entry:
+                            assert group["kind"] == "research_degree_navigation"
+                            assert entry["offeredDegrees"] and set(entry["offeredDegrees"]) <= {"MPhil", "PhD"}
+                            assert any({"name": entry["observedName"], "degrees": entry["offeredDegrees"]} in sources[sid].get("listedResearchDegrees", []) for sid in entry["sourceIds"]), "Degree navigation must retain its own observed degree kinds"
                         if group["kind"] == "academic_subunits":
                             assert any({"collegeUnitId": unit["id"], "parentUnitName": group["parentUnitName"]} in sources[sid].get("academicParentBindings", []) for sid in entry["sourceIds"]), "Nested source must belong to this actual parent"
+                            named_lists = [sources[sid] for sid in entry["sourceIds"] if "observedDepartmentCards" in sources[sid]]
+                            if named_lists:
+                                assert any({"name": entry["observedName"], "url": entry["url"]} in source["observedDepartmentCards"] for source in named_lists), "Named department entrance must retain its observed name and URL pairing"
                         assert entry["entryBodyStatus"] in {"not_read", "body_read"}
                         assert entry["supervisionEligibility"] == entry["availability"] == "unknown"
                         if entry["entryBodyStatus"] == "body_read":

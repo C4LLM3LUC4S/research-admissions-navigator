@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2068,
+    "official_sources": 2070,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 68,
     "teacher_linked_sources": 461,
-    "total_sources": 2529,
+    "total_sources": 2531,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -280,7 +280,7 @@
     "browserCheckedAt": "2026-11-04",
     "latest_source_only_change": {
       "checkedAt": "2026-11-05",
-      "receipt": "data/research/science-interdisciplinary-scopes-20261105.json",
+      "receipt": "data/research/college-links-programmes-20261105.json",
       "actualCallbackChecks": 2,
       "negativeSourceChecks": 3,
       "newBrowserCheck": false,
@@ -290,8 +290,10 @@
   "unreleased_changes": [
     "港大法学院2024行政统一声明与城大商学院实给HTTPS入口",
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
-    "港科大跨学科学院五学部与跨院任职的独立说明"
+    "港科大跨学科学院五学部与跨院任职的独立说明",
+    "三个实给系网址、七项研究学位导航与十项既有学部的范围核对",
+    "院系卡片不再将已有部分师资一概写成尚未整理"
   ],
   "release_scope_note": "汇集PR41至44的来源与导航改进；七校完整性与全部旧记录仍分别保留，实际公开文件另作验收。",
-  "unreleased_source_note": "维护源码在公开a26之后再补4份组织来源；a26原附件与对应源码保留，不能用当前维护main冒充发行源码。"
+  "unreleased_source_note": "维护候选在公开a26之后新增实际读取的两份来源，并复用十份原日期的港中深学部正文；不重复下载或将旧来源改成新读取日。"
 }
