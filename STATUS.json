@@ -351,5 +351,16 @@
     "修复宽屏固定侧栏展开后底部不可达；新增全部已列院系、原始研究词和方向分类的中英文搜索，院系直达展开、研究词重查七校，保留资料未收全提示。",
     "港科大跨学科学院四个学部首页与所给下一入口接入。AMC两种学位轮次、EMIA平台角色、ISD教学与人员分类、PPOL三研究主题与跨校关联身份分开；环境学部动态正文另留待接，不把静态空壳当完整导航。",
     "原目录已列下层单位、学科领域、研究机构和研究学位导航均进搜索索引，保留原分类和上下层关系。"
-  ]
+  ],
+  "unreleased_changes": [
+    "首页和结果卡片优先显示申请者的下一步，完整申请流程、条件和来源按需展开。"
+  ],
+  "copy_navigation_review": {
+    "date": "2026-11-06",
+    "sourceCatalogueUnchanged": true,
+    "sourcePolicyAndMatchingLogicUnchanged": true,
+    "realUI": "pending: normal Windows Computer Use could not establish opened Edge URL; no further UI input or alternate channel",
+    "publicVersion": "0.1.0a28",
+    "published": false
+  }
 }

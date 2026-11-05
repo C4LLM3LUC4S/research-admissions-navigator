@@ -16,3 +16,5 @@ input[type=search]{width:100%;border:1px solid #d7dfd8;border-radius:7px;backgro
 .subject-browser summary{font-size:14px;font-weight:600}.subject-browser .details-body{margin-top:12px}.subject-options{display:grid;grid-template-columns:minmax(0,1fr);gap:5px;margin:12px 0}.subject-option{text-align:left;width:100%;white-space:normal;overflow-wrap:anywhere;border:1px solid var(--line);border-radius:7px;background:#f5f8f5;color:var(--ink);padding:8px 10px;font-size:12px;line-height:1.65}.subject-option:hover{border-color:var(--teal);background:var(--teal-soft)}.subject-kind{color:var(--muted);font-size:10px;margin:0 5px 7px}.subject-browser select{max-width:100%}
 
 .profile-panel:focus-visible{outline:3px solid #609f96;outline-offset:4px}
+
+.contact-next-step{font-size:14px;color:var(--teal);margin:12px 0}.application-process .question-grid{margin:12px 0}.application-process{border-top:1px solid var(--line);padding-top:10px}
