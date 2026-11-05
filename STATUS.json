@@ -287,7 +287,16 @@
       "priorBrowserReceiptScopeUnchanged": true,
       "reusedBrowserReceipt": "third-product-research/20261105/stem-unit-delivery/pause-handoff.json; unchanged Materials note actually expanded in Edge before pause, not a fresh browser run"
     },
-    "a27_complete_callback_task": "tests/app-flow.test.cjs: science queue task; developer simulated DOM callbacks, not browser download or independent use"
+    "a27_complete_callback_task": "tests/app-flow.test.cjs: science queue task; developer simulated DOM callbacks, not browser download or independent use",
+    "shared_school_read_fix": {
+      "checkedAt": "2026-11-05",
+      "tests": "tests/shared-school-read.test.cjs; tests/app-flow.test.cjs",
+      "newSources": 0,
+      "newFaculty": 0,
+      "newBrowserCheck": true,
+      "scope": "Exact same-school affiliated body evidence, not shared list pages, alias inference or complete faculty claims.",
+      "browserScope": "Developer Edge localhost: exact final wording and original 2026-10-26 date expanded. No new download/native picker/mobile/human-use claim."
+    }
   },
   "release_scope_note": "Includes reviewed college navigation maintenance after a26 and the two Science-unit queues. Partial coverage; actual public asset acceptance is recorded separately after publication.",
   "unreleased_source_note": "a27之后的维护候选新增六份单位或设立说明正文，公开a27仍保持原字节。既有来源、原日期及未核清事项均保留。",
@@ -301,6 +310,7 @@
     "港中文理学院四个单位正文、两个明示跳转与数学原入口403分别保留，不补造教师或申请要求"
   ],
   "unreleased_changes": [
-    "港理工四个单位的原HTTP入口接上真实主页；五份既有正文复用原日期。港科大材料系的设立与拟开课程，和当前申请条件分开说明。"
+    "港理工四个单位的原HTTP入口接上真实主页；五份既有正文复用原日期。港科大材料系的设立与拟开课程，和当前申请条件分开说明。",
+    "两处学院引用同一学校官网时，仅在名称、原网址、正文摘要和来源都对上时复用已读依据，保留原日期和关联学校关系。"
   ]
 }
