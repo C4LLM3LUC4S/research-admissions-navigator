@@ -10,7 +10,15 @@ test('STEM continuation keeps every prior source and record and reuses five date
 test('Architecture entrance batch preserves the full prior catalogue and adds only its declared sources and followups',()=>{
  const prior=read('data/snapshots/b65961778358e71b96b5343faba9466b26533700c7bd4bcebad9e90459e877f6.json'),p=read('data/research/hku-architecture-unit-entrances-20261105.json');
  for(const k of Object.keys(prior).filter(k=>!['sources','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[k],prior[k]);
- assert.deepEqual(C.sources,prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups,prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,3);assert.equal(p.entries.length,3);assert.equal(p.newFaculty,0);
+ assert.deepEqual(C.sources.slice(0,prior.sources.length+p.sources.length),prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups.slice(0,prior.academicEntryFollowups.length+p.entries.length),prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,3);assert.equal(p.entries.length,3);assert.equal(p.newFaculty,0);
+});
+
+test('AIS unit entrances preserve old hierarchy and sources and keep recruitment and unit completion unknown',()=>{
+ const prior=read('data/snapshots/eb43f4fc7178398726ee94255259835b2cb616d0c4cf03b637d0b16a47bfad58.json'),p=read('data/research/hkust-ais-unit-entrances-20261105.json');
+ for(const k of Object.keys(prior).filter(k=>!['sources','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[k],prior[k]);
+ assert.deepEqual(C.sources.slice(0,prior.sources.length+p.sources.length),prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups.slice(0,prior.academicEntryFollowups.length+p.entries.length),prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,4);assert.equal(p.newFaculty,0);
+ for(const entry of p.entries){assert.equal(entry.organizationComplete,false);assert.equal(entry.facultyComplete,false);for(const next of entry.nextEntries){assert.equal(next.availability,'unknown');assert.equal(next.supervisionEligibility,'unknown');}}
+ assert.match(p.entries.find(e=>e.url==='https://amc.hkust.edu.hk').summary,/MA、MFA.*2027\/28.*MPhil \/ PhD.*2026\/27/);assert.ok(!p.entries.some(e=>e.url==='https://envr.ust.hk/'));
 });
 test('actual old AP to PM navigation, dated announcements and unread recruitment do not become departments or positions',()=>{
  const pm=P.entries.find(e=>e.url==='http://www.polyu.edu.hk/ap');assert.equal(pm.retrievedUrl,'https://www.polyu.edu.hk/pm/');assert.match(pm.summary,/2027-2028 MPhil\/PhD/);const hti=P.entries.find(e=>e.url.includes('/hti/'));assert.match(hti.summary,/2026\/27.*不能改成2027\/28/);assert.match(hti.summary,/不当作四个下属学系/);
