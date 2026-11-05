@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2070,
+    "official_sources": 2082,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
-    "official_directory_entries": 68,
+    "official_directory_entries": 72,
     "teacher_linked_sources": 461,
-    "total_sources": 2531,
+    "total_sources": 2543,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -280,11 +280,12 @@
     "browserCheckedAt": "2026-11-04",
     "latest_source_only_change": {
       "checkedAt": "2026-11-05",
-      "receipt": "data/research/college-links-programmes-20261105.json",
-      "actualCallbackChecks": 2,
-      "negativeSourceChecks": 3,
-      "newBrowserCheck": false,
-      "priorBrowserReceiptScopeUnchanged": true
+      "receipt": "data/research/hku-science-unit-queue-20261105.json",
+      "actualCallbackChecks": 1,
+      "negativeSourceChecks": 4,
+      "newBrowserCheck": true,
+      "priorBrowserReceiptScopeUnchanged": true,
+      "browserScope": "Developer Edge desktop: five unit headings, biology final 48-card list and original roles, supplied websites and retained HTTP text, mathematics embedded failure. No external target navigation, new mobile, native picker or backup test."
     }
   },
   "unreleased_changes": [
@@ -292,8 +293,9 @@
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
     "港科大跨学科学院五学部与跨院任职的独立说明",
     "三个实给系网址、七项研究学位导航与十项既有学部的范围核对",
-    "院系卡片不再将已有部分师资一概写成尚未整理"
+    "院系卡片不再将已有部分师资一概写成尚未整理",
+    "港大理学院五个既列单位的入口、四个限定师资页及150张具名卡；数学页框架与失败的嵌入名单分开，个人网站未归类不写成没有网站"
   ],
   "release_scope_note": "汇集PR41至44的来源与导航改进；七校完整性与全部旧记录仍分别保留，实际公开文件另作验收。",
-  "unreleased_source_note": "维护候选在公开a26之后新增实际读取的两份来源，并复用十份原日期的港中深学部正文；不重复下载或将旧来源改成新读取日。"
+  "unreleased_source_note": "当前维护源码比公开a26另有院系核查与导航改进；本批新增12份原始正文或明确跳转收据、4个限定人员页目录。150张具名卡不计入1378份已整理研究资料，不推断全校或全院收齐。"
 }

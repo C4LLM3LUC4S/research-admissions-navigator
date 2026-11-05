@@ -16,6 +16,6 @@ test('divisions, teaching departments and academic areas retain their real categ
  assert.equal(P.allSevenHierarchiesComplete,false);
 });
 test('child navigation changes preserve every original teacher, programme, source and college identity',()=>{
- const old=read('data/snapshots/0baa903e0ba3b9d12cdf0debd9331e409945152404b70615470cdf9073044e04.json');for(const key of ['faculty','programs','directories'])assert.deepEqual(C[key],old[key]);for(const s of old.sources)assert.deepEqual(C.sources.find(r=>r.id===s.id),s);
+ const old=read('data/snapshots/0baa903e0ba3b9d12cdf0debd9331e409945152404b70615470cdf9073044e04.json');for(const key of ['faculty','programs','directories'])assert.deepEqual(key==='directories'?C[key].slice(0,old[key].length):C[key],old[key]);for(const s of old.sources)assert.deepEqual(C.sources.find(r=>r.id===s.id),s);
  assert.deepEqual(C.academicCoverage.map(m=>m.units.map(u=>u.id)),old.academicCoverage.map(m=>m.units.map(u=>u.id)));for(const m of C.academicCoverage)assert.equal(m.listReview.wholeUniversityHierarchyComplete,false);
 });

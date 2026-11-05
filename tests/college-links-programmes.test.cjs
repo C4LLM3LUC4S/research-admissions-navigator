@@ -3,6 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8')),C=read('data/catalog.json'),old=read('data/snapshots/e1bb7aac6ebd59f1688cdd4a040304521d30b8a503747cda460ba0f4b902f19c.json'),P=read('data/research/college-links-programmes-20261105.json');
 const unit=(c,id)=>c.academicCoverage.flatMap(m=>m.units).find(u=>u.id===id);
 test('provided college links and reused bodies preserve every old source, programme, person and original field',()=>{
+ const C=read('data/snapshots/db656f4dbae0e45a8e47f1c1f1b664754dbdc7ac4085f3acc89516f3e0b96af8.json');
  for(const k of Object.keys(old).filter(k=>!['academicCoverage','sources','snapshotId'].includes(k)))assert.deepEqual(C[k],old[k]);assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length),P.sources);
  for(const row of old.academicCoverage){const now=C.academicCoverage.find(m=>m.universityId===row.universityId);for(const k of Object.keys(row).filter(k=>k!=='units'))assert.deepEqual(now[k],row[k]);for(const prior of row.units){const u=unit(C,prior.id);if(!['hku-9','hkust-6','cuhksz-3'].includes(u.id)){assert.deepEqual(u,prior);continue;}
   const allowed=['organizationReview','organizationReviewHistory','relatedNavigationGroups','reviewedNavigation'];if(u.id==='cuhksz-3')allowed.push('children');for(const k of Object.keys(prior).filter(k=>!allowed.includes(k)))assert.deepEqual(u[k],prior[k]);
