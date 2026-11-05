@@ -281,6 +281,10 @@
     (catalog.academicCoverage||[]).forEach(row=>{const university=catalog.universities.find(u=>u.id===row.universityId);row.units.filter(u=>!['graduate_school','undergraduate_college'].includes(u.kind)).forEach(unit=>{
       const prefix=(university.short||university.name)+' · '+unit.name;options.push({kind:'unit',label:prefix,universityId:row.universityId,unitId:unit.id});
       (unit.children||[]).forEach(child=>options.push({kind:'unit',label:prefix+' · '+child.name,universityId:row.universityId,unitId:unit.id}));
+      (unit.relatedNavigationGroups||[]).filter(g=>!['teaching_support','administrative_support','college_components'].includes(g.kind)).forEach(group=>{
+        const scopeLabel=group.kind==='research_fields'?'研究领域（非学系）':group.kind==='research_degree_navigation'?'研究学位入口（非学系名单）':group.kind==='research_organizations'?'研究机构（非学系）':group.kind==='academic_subjects'?'学科条目（非学系名单）':'下层或关联学术单位';
+        group.entries.filter(e=>!['teaching_support','administrative_support'].includes(e.kind)).forEach(entry=>options.push({kind:'unit',label:prefix+' · '+(group.parentUnitName?group.parentUnitName+' · ':'')+entry.name,universityId:row.universityId,unitId:unit.id,groupTitle:group.title,scopeLabel}));
+      });
     });});
     return options;
   }
