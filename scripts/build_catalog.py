@@ -10,6 +10,7 @@ import re
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
+from urllib.parse import urljoin
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKED = "2026-11-05"
@@ -588,6 +589,10 @@ def build_catalog():
     catalog["sources"].extend(followups["sources"])
     catalog["academicEntryFollowups"] = followups["entries"]
     catalog["sources"].extend(deferred_organization_sources)
+    science_queue = load("hku-science-unit-queue-20261105.json")
+    catalog["sources"].extend(science_queue["sources"])
+    catalog["academicEntryFollowups"].extend(science_queue["entries"])
+    catalog["directories"].extend(science_queue["directories"])
     return catalog
 
 
@@ -769,6 +774,17 @@ def validate(catalog):
         refs(d["sourceIds"])
         if "census" in d:
             census = d["census"]
+            if "observedNamedCards" in d:
+                assert d["enumerationScope"] == "saved_body_cards_only"
+                observed = census["entries"] + census.get("unlinkedEntries", [])
+                assert d["observedNamedCards"] == len(observed), "Named-card count must exclude filters and navigation"
+                actual = [card for sid in d["sourceIds"] for card in sources[sid].get("observedStaffCards", [])]
+                projection = lambda row: {key: row[key] for key in ("name", "directoryPosition", "profileUrl", "providedLinks")}
+                assert sorted(map(projection, observed), key=lambda r: (r["name"], r["profileUrl"] or "")) == sorted(actual, key=lambda r: (r["name"], r["profileUrl"] or "")), "Every named card must retain its own observed identity, role and links"
+                for row in observed:
+                    for link in row["providedLinks"]:
+                        assert link["bodyStatus"] == "not_read"
+                        assert any(link["url"] in sources[sid]["discoveredLinks"] for sid in d["sourceIds"])
             assert census["observedTotal"] == len(census["entries"])
             assert len({e["profileUrl"] for e in census["entries"]}) == census["observedTotal"]
             assert sum(e["profileRead"] for e in census["entries"]) == census["profilesRead"]
@@ -805,9 +821,32 @@ def validate(catalog):
             validate_read_receipt(source)
             assert source["originalUrl"] == followup["url"] and source["retrievedUrl"] == followup["retrievedUrl"], "Unit follow-up must bind its own original and actual URL"
             assert source["bodySha256"] == followup["bodySha256"] and source["checkedAt"] == followup["checkedAt"], "Unit follow-up must retain its actual body and date"
+        chain = followup.get("unitNavigationChain", [])
+        if chain:
+            assert sources[chain[0]["sourceId"]]["originalUrl"] == followup["url"]
+            for index, hop in enumerate(chain):
+                stub = sources[hop["sourceId"]]
+                assert stub["evidenceLevel"] == "official_navigation_stub_read"
+                validate_read_receipt(stub)
+                assert hop["declaredTarget"] == stub["declaredTarget"] and hop["declaredTarget"] in stub["discoveredLinks"], "Unit refresh must use the page's actual declared target"
+                assert urljoin(stub["retrievedUrl"], hop["suppliedHref"]) == hop["declaredTarget"]
+                next_original = sources[chain[index+1]["sourceId"]]["originalUrl"] if index+1 < len(chain) else followup["retrievedUrl"]
+                assert hop["declaredTarget"] == next_original, "Unit refresh chain must retain every supplied hop"
         for entry in followup["nextEntries"]:
-            assert entry["bodyStatus"] == "not_read" and entry["availability"] == entry["supervisionEligibility"] == "unknown"
+            assert entry["bodyStatus"] in {"not_read", "body_read"} and entry["availability"] == entry["supervisionEligibility"] == "unknown"
             assert any(entry["url"] in sources[sid]["discoveredLinks"] for sid in followup["sourceIds"]), "Next entry must be provided by the actual unit body"
+            if entry["bodyStatus"] == "body_read":
+                refs(entry["sourceIds"])
+                for sid in entry["sourceIds"]:
+                    validate_read_receipt(sources[sid])
+                    assert sources[sid]["originalUrl"] == entry["url"]
+                if entry.get("directoryId"):
+                    directory = next(d for d in catalog["directories"] if d["id"] == entry["directoryId"])
+                    assert directory["sourceIds"] == entry["sourceIds"] and directory["url"] == entry["url"]
+                if entry.get("contentScope") == "embedded_directory_shell":
+                    failure = entry["embeddedRead"]
+                    assert failure["bodyStatus"] == "read_failed" and failure["namesRead"] == 0 and failure["failureKind"] == "redirect_limit_exceeded"
+                    assert any(failure["url"] in sources[sid]["discoveredLinks"] for sid in entry["sourceIds"])
     unit_ids = set()
     for overview in maps:
         assert overview["coverageComplete"] is False

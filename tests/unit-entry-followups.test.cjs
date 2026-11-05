@@ -3,7 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 test('later unit reads retain all original structure, policies, people, and source receipts',()=>{
  const latest=read('data/catalog.json'),c=read('data/snapshots/ff5bacb8ebe0797ff06ed33e5b219381639cdd314acd20a934091fd2468815da.json'),old=read('data/snapshots/a56e59194019b4005c46cc64d18f9e14aac964ab30cb76015da612eceb525785.json'),p=read('data/research/unit-entry-followups-20261104.json');
- assert.deepEqual(latest.academicEntryFollowups,c.academicEntryFollowups);
+ assert.deepEqual(latest.academicEntryFollowups.slice(0,c.academicEntryFollowups.length),c.academicEntryFollowups);
  for(const k of ['academicCoverage','academicEntryProgress','faculty','programs','directories','funding'])assert.deepEqual(c[k],old[k]);
  assert.deepEqual(c.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(c.sources.slice(old.sources.length,old.sources.length+7),p.sources);assert.deepEqual(c.academicEntryFollowups,p.entries);
  assert.equal(p.sources.length,7);assert.equal(p.entries.length,8);const fail=p.entries.find(e=>e.bodyStatus==='read_failed');assert.equal(fail.url,'https://isom.hkust.edu.hk/');assert.equal(fail.bodySha256,undefined);assert.deepEqual(fail.sourceIds,[]);
