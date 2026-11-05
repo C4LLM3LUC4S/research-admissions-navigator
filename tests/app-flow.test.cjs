@@ -701,7 +701,7 @@ test('law reader restores a dated administrative declaration without turning it 
 
 test('business reader gets five actually supplied HTTPS department entrances and keeps failed original URLs',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('cityu','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const cb=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('College of Business'));assert.ok(cb);assert.match(cb.textContent,/六个学术系/);assert.match(cb.textContent,/原HTTP入口和读取记录保留/);
- for(const slug of ['ac','ef','is','mgt','mkt']){const a=h.walk(cb).find(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/'+slug+'/');assert.ok(a);assert.match(a.textContent,/已读单位正文/);}
+ for(const slug of ['ac','ef','is','mgt','mkt']){const a=h.walk(cb).find(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/'+slug+'/');assert.ok(a);assert.match(a.textContent,/正文待核/);}
  assert.ok(!h.walk(cb).some(n=>n.tagName==='a'&&n.href==='https://www.cityu.edu.hk/ac/'));assert.ok(h.walk(cb).some(n=>n.tagName==='a'&&n.href==='https://www.cb.cityu.edu.hk/en/people/faculty-directory'));assert.equal(h.networkCalls(),0);
 });
 
