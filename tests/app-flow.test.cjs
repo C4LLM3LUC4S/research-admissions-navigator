@@ -6,6 +6,12 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('CUHK science applicant sees actual new targets, unread degree entrances and a refusal without an invented HTTPS destination',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const reviews=h.walk(el('academic-coverage')).filter(n=>n.className==='source-details unit-entry-followup'),life=reviews.find(n=>n.textContent.includes('生命科学学院旧入口明确跳转')),physics=reviews.find(n=>n.textContent.includes('物理系原入口通过页面明确给出的目标')),math=reviews.find(n=>n.textContent.includes('原数学系入口返回403'));
+ assert.ok(life&&physics&&math);assert.match(life.textContent,/六类研究主题与五个本科项目均不改称下属学系/);assert.ok(h.walk(el('academic-coverage')).some(n=>n.tagName==='a'&&n.href==='https://www.sls.cuhk.edu.hk/'));assert.ok(h.walk(physics).some(n=>n.tagName==='a'&&n.href==='https://app.phy.cuhk.edu.hk/teaching-staff/'));assert.match(physics.textContent,/目标正文待核/);assert.match(math.textContent,/未读到单位正文/);assert.match(math.textContent,/不改协议、换入口或浏览器重试/);assert.ok(!h.walk(math).some(n=>n.tagName==='a'));assert.equal(h.networkCalls(),0);
+});
+
 test('science-unit queue shows scoped names, supplied group sites and the unread embedded mathematics list separately',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const reviews=h.walk(el('academic-coverage')).filter(n=>n.className==='source-details unit-entry-followup');

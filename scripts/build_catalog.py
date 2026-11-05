@@ -593,6 +593,9 @@ def build_catalog():
     catalog["sources"].extend(science_queue["sources"])
     catalog["academicEntryFollowups"].extend(science_queue["entries"])
     catalog["directories"].extend(science_queue["directories"])
+    cuhk_science = load("cuhk-science-unit-entrances-20261105.json")
+    catalog["sources"].extend(cuhk_science["sources"])
+    catalog["academicEntryFollowups"].extend(cuhk_science["entries"])
     return catalog
 
 
@@ -811,7 +814,9 @@ def validate(catalog):
         followed_urls.add(followup["url"])
         assert followup["organizationComplete"] is followup["facultyComplete"] is False
         if followup["bodyStatus"] == "read_failed":
-            assert followup["failureKind"] == "certificate_verification_failed" and not followup["sourceIds"]
+            assert followup["failureKind"] in {"certificate_verification_failed", "http_403"} and not followup["sourceIds"]
+            if followup["failureKind"] == "http_403":
+                assert followup["httpStatus"] == 403 and followup["retrievedUrl"] is None
             assert "bodySha256" not in followup, "Failed handshake has no response body receipt"
             continue
         assert followup["bodyStatus"] == "body_read"
@@ -830,7 +835,8 @@ def validate(catalog):
                 validate_read_receipt(stub)
                 assert hop["declaredTarget"] == stub["declaredTarget"] and hop["declaredTarget"] in stub["discoveredLinks"], "Unit refresh must use the page's actual declared target"
                 assert urljoin(stub["retrievedUrl"], hop["suppliedHref"]) == hop["declaredTarget"]
-                next_original = sources[chain[index+1]["sourceId"]]["originalUrl"] if index+1 < len(chain) else followup["retrievedUrl"]
+                final_source = sources[followup["sourceIds"][0]]
+                next_original = sources[chain[index+1]["sourceId"]]["originalUrl"] if index+1 < len(chain) else final_source.get("requestedUrl", followup["retrievedUrl"])
                 assert hop["declaredTarget"] == next_original, "Unit refresh chain must retain every supplied hop"
         for entry in followup["nextEntries"]:
             assert entry["bodyStatus"] in {"not_read", "body_read"} and entry["availability"] == entry["supervisionEligibility"] == "unknown"

@@ -3,6 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),old=read('data/snapshots/db656f4dbae0e45a8e47f1c1f1b664754dbdc7ac4085f3acc89516f3e0b96af8.json'),P=read('data/research/hku-science-unit-queue-20261105.json');
 test('five existing science-unit followups append exact evidence without rewriting old schools, people, policies or sources',()=>{
+ const C=read('data/snapshots/bffaadbbeb3998adbe2105d743059a872811bc33c3599a008c81d4bdbd8f6add.json');
  for(const key of Object.keys(old).filter(k=>!['sources','directories','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[key],old[key]);
  for(const key of ['sources','directories','academicEntryFollowups']){assert.deepEqual(C[key].slice(0,old[key].length),old[key]);assert.deepEqual(C[key].slice(old[key].length),P[key==='academicEntryFollowups'?'entries':key]);}
  assert.equal(P.sources.length,12);assert.equal(P.entries.length,5);assert.equal(C.faculty.length,1378);assert.equal(P.newFaculty,0);assert.equal(P.allSevenHierarchiesComplete,false);
