@@ -1,5 +1,5 @@
 {
-  "version": "0.1.0a26",
+  "version": "0.1.0a27",
   "stage": "experimental_offline_alpha_partial_coverage",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-05",
@@ -284,9 +284,12 @@
       "actualCallbackChecks": 1,
       "newBrowserCheck": false,
       "priorBrowserReceiptScopeUnchanged": true
-    }
+    },
+    "a27_complete_callback_task": "tests/app-flow.test.cjs: science queue task; developer simulated DOM callbacks, not browser download or independent use"
   },
-  "unreleased_changes": [
+  "release_scope_note": "Includes reviewed college navigation maintenance after a26 and the two Science-unit queues. Partial coverage; actual public asset acceptance is recorded separately after publication.",
+  "unreleased_source_note": "No remaining committed source changes before the a27 release candidate. New sources retain actual dates and failed entrances remain explicit.",
+  "released_changes_a27": [
     "港大法学院2024行政统一声明与城大商学院实给HTTPS入口",
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
     "港科大跨学科学院五学部与跨院任职的独立说明",
@@ -295,6 +298,5 @@
     "港大理学院五个既列单位的入口、四个限定师资页及150张具名卡；数学页框架与失败的嵌入名单分开，个人网站未归类不写成没有网站",
     "港中文理学院四个单位正文、两个明示跳转与数学原入口403分别保留，不补造教师或申请要求"
   ],
-  "release_scope_note": "汇集PR41至44的来源与导航改进；七校完整性与全部旧记录仍分别保留，实际公开文件另作验收。",
-  "unreleased_source_note": "当前维护源码比公开a26另有院系核查与导航改进；本批新增12份原始正文或明确跳转收据、4个限定人员页目录。150张具名卡不计入1378份已整理研究资料，不推断全校或全院收齐。"
+  "unreleased_changes": []
 }

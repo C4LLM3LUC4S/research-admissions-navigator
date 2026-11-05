@@ -6,6 +6,14 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('science queue task: inspect a unit, keep a concrete followup, export and recover into an empty environment',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const scope=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('查看生物科学学院人员页面'));assert.ok(scope);assert.match(scope.textContent,/本页已核对 48 张人员卡/);assert.match(scope.textContent,/暂未归类不等于没有个人主页/);assert.ok(h.walk(scope).some(n=>n.href==='https://tropicalconslab.com/'));
+ const task='先核港大生物科学学院当前PhD要求，再读Timothy C. Bonebrake所给网站；未确认指导资格和余位。';await el('profile-form').emit('submit');el('task-text').value=task;await el('task-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads.at(-1).blob.text(),backup=L.parsePortable(raw,C);assert.equal(backup.tasks.length,1);assert.equal(backup.tasks[0].text,task);assert.equal(backup.catalogSnapshotId,C.snapshotId);assert.equal(backup.profile.degree,'PhD');assert.deepEqual(backup.profile.universityIds,['hku']);
+ const fresh=harness(),fe=id=>fresh.byId.get(id);assert.equal(fresh.saved.size,0);fe('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await fe('import-local').emit('change');assert.match(fe('notice').textContent,/已载入完整备份/);assert.match(fe('tasks').textContent,/Timothy C\. Bonebrake/);await fe('show-directories').emit('click');assert.match(fe('academic-coverage').textContent,/本页已核对 48 张人员卡/);
+ const reopened=harness(fresh.saved);assert.match(reopened.byId.get('tasks').textContent,/未确认指导资格和余位/);assert.equal(h.networkCalls()+fresh.networkCalls()+reopened.networkCalls(),0);
+});
+
 test('CUHK science applicant sees actual new targets, unread degree entrances and a refusal without an invented HTTPS destination',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
  const reviews=h.walk(el('academic-coverage')).filter(n=>n.className==='source-details unit-entry-followup'),life=reviews.find(n=>n.textContent.includes('生命科学学院旧入口明确跳转')),physics=reviews.find(n=>n.textContent.includes('物理系原入口通过页面明确给出的目标')),math=reviews.find(n=>n.textContent.includes('原数学系入口返回403'));
