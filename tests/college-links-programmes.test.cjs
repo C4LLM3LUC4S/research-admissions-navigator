@@ -1,0 +1,16 @@
+'use strict';
+const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
+const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8')),C=read('data/catalog.json'),old=read('data/snapshots/e1bb7aac6ebd59f1688cdd4a040304521d30b8a503747cda460ba0f4b902f19c.json'),P=read('data/research/college-links-programmes-20261105.json');
+const unit=(c,id)=>c.academicCoverage.flatMap(m=>m.units).find(u=>u.id===id);
+test('provided college links and reused bodies preserve every old source, programme, person and original field',()=>{
+ for(const k of Object.keys(old).filter(k=>!['academicCoverage','sources','snapshotId'].includes(k)))assert.deepEqual(C[k],old[k]);assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length),P.sources);
+ for(const row of old.academicCoverage){const now=C.academicCoverage.find(m=>m.universityId===row.universityId);for(const k of Object.keys(row).filter(k=>k!=='units'))assert.deepEqual(now[k],row[k]);for(const prior of row.units){const u=unit(C,prior.id);if(!['hku-9','hkust-6','cuhksz-3'].includes(u.id)){assert.deepEqual(u,prior);continue;}
+  const allowed=['organizationReview','organizationReviewHistory','relatedNavigationGroups','reviewedNavigation'];if(u.id==='cuhksz-3')allowed.push('children');for(const k of Object.keys(prior).filter(k=>!allowed.includes(k)))assert.deepEqual(u[k],prior[k]);
+  if(u.id==='cuhksz-3'){for(let i=0;i<prior.children.length;i++)for(const k of Object.keys(prior.children[i]))assert.deepEqual(u.children[i][k],prior.children[i][k]);}else{assert.deepEqual(u.organizationReviewHistory,[prior.organizationReview]);assert.deepEqual(u.reviewedNavigation.slice(0,-1),prior.reviewedNavigation);for(const g of prior.relatedNavigationGroups)assert.ok(u.relatedNavigationGroups.some(x=>JSON.stringify(x)===JSON.stringify(g)));}
+ }}
+});
+test('three actual department pairs, six dual degree labels and one MPhil-only route retain their precise scopes',()=>{
+ const science=unit(C,'hku-9'),g=science.relatedNavigationGroups[0];assert.equal(g.parentUnitName,'School of Computing and Data Science');assert.deepEqual(g.entries.map(({observedName,url})=>({name:observedName,url})),P.sources[0].observedDepartmentCards);assert.ok(g.entries.every(e=>e.entryBodyStatus==='not_read'&&e.availability==='unknown'));assert.equal(science.children.length,8);
+ const ais=unit(C,'hkust-6'),pg=ais.relatedNavigationGroups.find(g=>g.kind==='research_degree_navigation');assert.equal(ais.children.length,5);assert.equal(pg.entries.length,7);assert.equal(pg.entries.filter(e=>e.offeredDegrees.includes('PhD')).length,6);assert.deepEqual(pg.entries.at(-1).offeredDegrees,['MPhil']);assert.match(pg.entries.at(-1).name,/Technology Innovation/);assert.ok(pg.entries.every(e=>e.url===null));assert.match(pg.note,/年度|年份/);
+ const hss=unit(C,'cuhksz-3');assert.equal(hss.children.length,10);assert.equal(P.reusedSourceIds.length,10);assert.ok(P.reusedSourceIds.every(id=>C.sources.find(s=>s.id===id).checkedAt==='2026-10-28'));assert.match(hss.organizationReview.summary,/教学部门/);assert.equal(hss.organizationReview.organizationComplete,false);assert.equal(C.programs.length,40);assert.equal(C.faculty.length,1378);assert.equal(P.allSevenHierarchiesComplete,false);
+});
