@@ -1,9 +1,10 @@
 'use strict';
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
-const C=read('data/catalog.json'),old=read('data/snapshots/ff5bacb8ebe0797ff06ed33e5b219381639cdd314acd20a934091fd2468815da.json'),P=read('data/research/law-business-organization-20261105.json');
+const latest=read('data/catalog.json'),C=read('data/snapshots/dd78279bdcbfe0e6dd084d2e933bc90ba70fb76da7afd7ccf5c9d5660121549a.json'),old=read('data/snapshots/ff5bacb8ebe0797ff06ed33e5b219381639cdd314acd20a934091fd2468815da.json'),P=read('data/research/law-business-organization-20261105.json');
 const unit=(c,id)=>c.academicCoverage.flatMap(r=>r.units).find(u=>u.id===id);
 test('two scoped organization updates preserve every original input, source date and unrelated unit',()=>{
+ for(const id of ['hku-7','cityu-2'])assert.deepEqual(unit(latest,id),unit(C,id));
  for(const k of ['faculty','programs','directories','funding','academicEntryProgress','academicEntryFollowups'])assert.deepEqual(C[k],old[k]);assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length),P.sources);
  for(const row of C.academicCoverage){const prior=old.academicCoverage.find(r=>r.universityId===row.universityId);for(const k of Object.keys(prior).filter(k=>k!=='units'))assert.deepEqual(row[k],prior[k]);for(const u of row.units){const before=unit(old,u.id);if(!['hku-7','cityu-2'].includes(u.id)){assert.deepEqual(u,before);continue;}
   const allowed=u.id==='hku-7'?['organizationReview','organizationReviewHistory','reviewedNavigation']:['organizationReview','relatedNavigationGroups','reviewedNavigation','children','staffEntries'];for(const k of Object.keys(before).filter(k=>!allowed.includes(k)))assert.deepEqual(u[k],before[k]);

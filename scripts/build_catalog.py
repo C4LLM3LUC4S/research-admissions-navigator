@@ -12,7 +12,7 @@ from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-04"
+CHECKED = "2026-11-05"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -521,7 +521,7 @@ def build_catalog():
         unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
         unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
     deferred_organization_sources = []
-    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json"):
+    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json", "science-interdisciplinary-scopes-20261105.json"):
         organization = load(organization_path)
         if organization.get("appendSourcesAfterExisting"):
             deferred_organization_sources.extend(organization["sources"])
@@ -867,6 +867,11 @@ def validate(catalog):
                     assert any(entry["url"] in sources[sid].get("discoveredLinks", []) for sid in child_review["sourceIds"])
             if "organizationReview" in unit:
                 org = unit["organizationReview"]
+                if "sourceAcademicYear" in org:
+                    assert re.fullmatch(r"\d{4}/\d{2}", org["sourceAcademicYear"])
+                    refs(org["datedSourceIds"])
+                    assert org["datedSourceIds"] and set(org["datedSourceIds"]) <= set(org["sourceIds"])
+                    assert all(sources[sid].get("academicYear") == org["sourceAcademicYear"] for sid in org["datedSourceIds"]), "Dated organization scope must retain its own source academic year"
                 refs(org["sourceIds"])
                 assert org["status"] in {"not_listed_in_reviewed_pages", "listed_children_matched", "conflicting_scopes", "components_only", "unitary_faculty_department", "unitary_faculty"}
                 assert org["organizationComplete"] is org["facultyComplete"] is False, "A scoped structure review cannot finish the university or teacher census"
