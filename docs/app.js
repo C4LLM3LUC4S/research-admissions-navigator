@@ -150,7 +150,18 @@
               const source = C.sources.find(s => s.id === document.sourceId);
               const panel = node('details', null, 'source-details unit-related-document');
               append(panel, node('summary', document.title), node('p', document.summary, 'evidence-note'),
-                link('查看学部主任介绍 ↗', source.url));
+                link((document.linkLabel || '查看学部主任介绍') + ' ↗', source.url));
+              if (document.items?.length) {
+                const items = node('ul');
+                for (const entry of document.items) {
+                  const row = node('li');
+                  const label = entry.label + ' · ' + entry.observedLabel;
+                  if (entry.url?.startsWith('https://')) row.append(verifiedLink(label + ' ↗', entry.url));
+                  else row.append(node('span', label + (entry.url ? '（官网地址 ' + entry.url + '）' : '')));
+                  items.append(row);
+                }
+                panel.append(items);
+              }
               const links = node('ul');
               for (const entry of document.nextEntries) {
                 const route = node('li');
@@ -158,7 +169,8 @@
                   : node('span', entry.label + '（官网地址 ' + entry.url + '）', 'field-help'));
                 links.append(route);
               }
-              append(panel, links, evidence([source.id]));
+              if (links.childElementCount) panel.append(links);
+              panel.append(evidence([source.id]));
               item.append(panel);
             }
             if(sharedRead){const proof=node('details',null,'source-details shared-school-read');append(proof,node('summary','查看原网页的核查记录'),node('p','沿用'+sharedRead.checkedDates.join('、')+'的原网页记录，本次没有重新下载或改日期。这只说明读过该入口页，完整师资、指导资格和当期余位仍需逐项核对。原有关联学校关系及其记录保持分开。','field-help'),evidence(sharedRead.sourceIds));item.append(proof);}

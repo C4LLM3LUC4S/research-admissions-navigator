@@ -1,0 +1,172 @@
+{
+  "sources": [
+    {
+      "id": "cuhk-nursing-school-20261106",
+      "title": "那打素护理学院介绍",
+      "url": "https://www.nur.cuhk.edu.hk/about-us/our-school/",
+      "originalUrl": "https://www.nur.cuhk.edu.hk/about-us/our-school/",
+      "retrievedUrl": "https://www.nur.cuhk.edu.hk/about-us/our-school/",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系介绍或研究结构，限页面所列内容。",
+      "claims": [
+        "学院前身是港中文医学院于 1991 年设立的护理学系，2002 年起使用现名。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2d81a02070f0685764b5582430fb2d2e3e3bfbc478385cbe4045214f7f490948",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "cuhk-public-health-centres-20261106",
+      "title": "公共卫生及基层医疗研究中心",
+      "url": "https://sphpc.cuhk.edu.hk/our-centres/",
+      "originalUrl": "https://sphpc.cuhk.edu.hk/our-centres/",
+      "retrievedUrl": "https://sphpc.cuhk.edu.hk/our-centres/",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系介绍或研究结构，限页面所列内容。",
+      "claims": [
+        "学院列出 10 个合作研究中心，可按感兴趣的方向继续查看。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www2.ccrb.cuhk.edu.hk/web/",
+        "http://www.cgh.cuhk.edu.hk/",
+        "https://www.chbr.sphpc.cuhk.edu.hk/",
+        "https://www.chep.cuhk.edu.hk/en/",
+        "https://hspr.cuhk.edu.hk/",
+        "https://www.ccouc.ox.ac.uk/home",
+        "https://cuhkcmrt.cuhk.edu.hk/en-gb",
+        "https://www.jococ.org/en/index.php",
+        "https://www.shhoceid.cuhk.edu.hk/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "859fb3e69e52ff0cc3fe59e03687e0d807c224dd7f56ffbab11c5051a48bf948"
+    },
+    {
+      "id": "hkust-envr-research-themes-20261106",
+      "title": "环境及可持续发展学部研究主题",
+      "url": "https://envr.ust.hk/our-division/about-the-division.html",
+      "originalUrl": "https://envr.ust.hk/our-division/about-the-division.html",
+      "retrievedUrl": "https://envr.ust.hk/our-division/about-the-division.html",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系介绍或研究结构，限页面所列内容。",
+      "claims": [
+        "学部介绍列出三项研究主题。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "2d81a02070f0685764b5582430fb2d2e3e3bfbc478385cbe4045214f7f490948",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
+    }
+  ],
+  "documents": [
+    {
+      "parentUnitId": "cuhk-6",
+      "childUrl": "http://www.nur.cuhk.edu.hk/",
+      "sourceId": "cuhk-nursing-school-20261106",
+      "providedBySourceId": "cuhk-nursing-root-20261106",
+      "title": "那打素护理学院介绍",
+      "summary": "学院前身是港中文医学院于 1991 年设立的护理学系，2002 年起使用现名。",
+      "linkLabel": "打开官网原文",
+      "nextEntries": []
+    },
+    {
+      "parentUnitId": "cuhk-6",
+      "childUrl": "http://www.sphpc.cuhk.edu.hk/",
+      "sourceId": "cuhk-public-health-centres-20261106",
+      "providedBySourceId": "cuhk-public-health-root-20261106",
+      "title": "公共卫生及基层医疗研究中心",
+      "summary": "学院列出 10 个合作研究中心，可按感兴趣的方向继续查看。",
+      "linkLabel": "打开官网原文",
+      "nextEntries": [],
+      "itemKind": "research_centres",
+      "items": [
+        {
+          "label": "临床研究及生物统计中心",
+          "observedLabel": "Centre for Clinical Research and Biostatistics (CCRB)",
+          "url": "https://www2.ccrb.cuhk.edu.hk/web/"
+        },
+        {
+          "label": "全球卫生中心",
+          "observedLabel": "Centre for Global Health (CGH)",
+          "url": "http://www.cgh.cuhk.edu.hk/"
+        },
+        {
+          "label": "健康行为研究中心",
+          "observedLabel": "Centre for Health Behaviours Research (CHBR)",
+          "url": "https://www.chbr.sphpc.cuhk.edu.hk/"
+        },
+        {
+          "label": "健康教育及促进健康中心",
+          "observedLabel": "Centre for Health Education and Health Promotion (CHEHP)",
+          "url": "https://www.chep.cuhk.edu.hk/en/"
+        },
+        {
+          "label": "卫生体系与政策研究中心",
+          "observedLabel": "Centre for Health Systems and Policy Research (CHSPR)",
+          "url": "https://hspr.cuhk.edu.hk/"
+        },
+        {
+          "label": "职业与环境健康研究中心",
+          "observedLabel": "Centre for Occupational and Environmental Health Studies (COEHS)",
+          "url": null
+        },
+        {
+          "label": "牛津大学与港中文灾害及人道救援合作中心",
+          "observedLabel": "Collaborating Centre for Oxford University & CUHK for Disaster and Medical Humanitarian Response (CCOUC)",
+          "url": "https://www.ccouc.ox.ac.uk/home"
+        },
+        {
+          "label": "港中文 Thomas Jing 正念研究与培训中心",
+          "observedLabel": "CUHK Thomas Jing Centre for Mindfulness Research and Training (CUHKCMRT)",
+          "url": "https://cuhkcmrt.cuhk.edu.hk/en-gb"
+        },
+        {
+          "label": "赛马会骨质疏松护理及控制中心",
+          "observedLabel": "Jockey Club Centre for Osteoporosis Care and Control (JOCOC)",
+          "url": "https://www.jococ.org/en/index.php"
+        },
+        {
+          "label": "何善衡传染病研究中心",
+          "observedLabel": "S.H. Ho Research Centre for Infectious Diseases (RCID)",
+          "url": "https://www.shhoceid.cuhk.edu.hk/"
+        }
+      ]
+    },
+    {
+      "parentUnitId": "hkust-6",
+      "childUrl": "https://envr.ust.hk/",
+      "sourceId": "hkust-envr-research-themes-20261106",
+      "providedBySourceId": "hkust-envr-head-20261106",
+      "title": "环境及可持续发展学部研究主题",
+      "summary": "学部介绍列出三项研究主题。",
+      "linkLabel": "打开官网原文",
+      "nextEntries": [],
+      "itemKind": "research_themes",
+      "items": [
+        {
+          "label": "空气与健康",
+          "observedLabel": "Air and Health",
+          "url": null
+        },
+        {
+          "label": "气候适应与韧性",
+          "observedLabel": "Climate Adaptation and Resilience (CARE)",
+          "url": null
+        },
+        {
+          "label": "可持续金融与净零解决方案",
+          "observedLabel": "Sustainable Finance and Net Zero Solutions",
+          "url": null
+        }
+      ]
+    }
+  ]
+}
