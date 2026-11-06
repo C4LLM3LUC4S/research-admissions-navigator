@@ -29,6 +29,24 @@ test('AIS reader sees scoped unit entrances, different AMC degree years and PPOL
  const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');const unit=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.includes('Academy of Interdisciplinary Studies')),reviews=h.walk(unit).filter(n=>n.className==='source-details unit-entry-followup');assert.equal(reviews.length,4);assert.match(unit.textContent,/MA、MFA.*2027\/28.*MPhil \/ PhD.*2026\/27/);assert.match(unit.textContent,/三个研究领域不是三个下属学系/);assert.match(unit.textContent,/关联身份不自动变成广州校区的指导资格/);assert.equal(h.networkCalls(),0);
 });
 
+test('applicants can follow the nursing, public health and separate environment unit pages',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);
+ h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const nodes=h.walk(el('academic-coverage'));
+ const nursing=nodes.find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('护理学院官网列出六类人员'));
+ const publicHealth=nodes.find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('2027/28 公共卫生博士'));
+ assert.ok(nursing&&publicHealth);
+ assert.ok(h.walk(nursing).some(n=>n.href==='https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/mphil-phd-in-nursing/'));
+ assert.ok(h.walk(publicHealth).some(n=>n.href==='https://sphpc.cuhk.edu.hk/our-centres/'));
+ h.select('hkust','PhD',[]);await el('profile-form').emit('input');
+ const doc=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-related-document');
+ assert.ok(doc);
+ assert.ok(h.walk(doc).some(n=>n.href==='https://envr.ust.hk/our-division/message-from-division-head.html'));
+ assert.ok(h.walk(doc).some(n=>n.href==='https://envr.ust.hk/our-division/people/faculty-staff.html'));
+ assert.ok(!h.walk(doc).some(n=>n.href?.startsWith('http://')));
+ assert.equal(h.networkCalls(),0);
+});
+
 test('searchable subject browser opens the actual law college and saves a selected research term through empty restore',async()=>{
  const h=harness(),el=id=>h.byId.get(id);el('subject-search').value='法学';el('subject-kind').value='unit';await el('subject-search').emit('input');const law=h.walk(el('subject-options')).find(x=>x.tagName==='button'&&x.textContent==='港大 · 法律学院 · Faculty of Law');assert.ok(law);await law.emit('click');assert.equal(el('show-directories').attributes['aria-pressed'],'true');const opened=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.open);assert.match(opened.textContent,/Faculty of Law/);assert.ok(opened.focusRequested);
  el('subject-search').value='Department of Surgery';await el('subject-search').emit('input');const surgery=h.walk(el('subject-options')).find(x=>x.tagName==='button'&&x.textContent.endsWith('Department of Surgery'));assert.ok(surgery);await surgery.emit('click');const nested=h.walk(el('academic-coverage')).find(x=>x.className==='source-details organization-navigation'&&x.open);assert.ok(nested);assert.match(nested.textContent,/School of Clinical Medicine/);assert.ok(nested.focusRequested);

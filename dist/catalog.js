@@ -166301,6 +166301,254 @@ window.APP_CATALOG = {
         "https://ptc.ust.hk/",
         "mailto:ppol@ust.hk"
       ]
+    },
+    {
+      "id": "hkust-envr-head-20261106",
+      "title": "环境及可持续发展学部 · 学部主任介绍",
+      "url": "https://envr.ust.hk/our-division/message-from-division-head.html",
+      "originalUrl": "https://envr.ust.hk/our-division/message-from-division-head.html",
+      "retrievedUrl": "https://envr.ust.hk/our-division/message-from-division-head.html",
+      "checkedAt": "2026-11-05",
+      "checkedAtUTC": "2026-11-05T17:40:42.193303+00:00",
+      "bodySha256": "8948931448510a6e42d3389e421d6d649808e9242ff807e91c1ac05c195dcff9",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该页面的学院或学部介绍及其提供的导航入口",
+      "claims": [
+        "学部介绍列出环境与可持续发展的跨学科研究范围。可继续看学部介绍、师资和课程。"
+      ],
+      "knownIssues": [
+        "完整的院系结构、人员名录和当期申请要求仍需查看对应页面。"
+      ],
+      "redirects": [],
+      "discoveredLinks": [
+        "https://envr.ust.hk/our-division/message-from-division-head.html",
+        "https://envr.ust.hk/our-division/about-the-division.html",
+        "https://envr.ust.hk/our-division/people/faculty-staff.html",
+        "https://envr.ust.hk/our-division/biodiversity-nbs-hub.html",
+        "https://envr.ust.hk/our-division/faculty-openings.html",
+        "https://envr.ust.hk/our-division/internships.html",
+        "http://www.ust.hk",
+        "http://www.envr.ust.hk/our-division/about-the-division.html",
+        "http://www.envr.ust.hk/programs.html",
+        "http://www.envr.ust.hk/our-division/people/faculty-staff.html"
+      ]
+    },
+    {
+      "id": "cuhk-nursing-root-20261106",
+      "title": "那打素护理学院 · 学院官网",
+      "url": "https://www.nur.cuhk.edu.hk/",
+      "originalUrl": "http://www.nur.cuhk.edu.hk/",
+      "retrievedUrl": "https://www.nur.cuhk.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "checkedAtUTC": "2026-11-05T17:40:42.193303+00:00",
+      "bodySha256": "12cdd4c8f399e2e88ed96fadfbfc608ac2edc5e430d2ba18dc248f0e61976554",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该页面的学院或学部介绍及其提供的导航入口",
+      "claims": [
+        "护理学院官网列出六类人员，并把护理学研究型硕博与专业学位分开。2027/28 入学说明会列在首页，申请材料和截止时间请查项目页。"
+      ],
+      "knownIssues": [
+        "完整的院系结构、人员名录和当期申请要求仍需查看对应页面。"
+      ],
+      "redirects": [
+        {
+          "fromUrl": "http://www.nur.cuhk.edu.hk/",
+          "status": 301,
+          "toUrl": "https://www.nur.cuhk.edu.hk/"
+        }
+      ],
+      "discoveredLinks": [
+        "https://www.nur.cuhk.edu.hk/#content",
+        "https://www.nur.cuhk.edu.hk/",
+        "https://www.facebook.com/cuhknursing",
+        "https://www.instagram.com/cuhknursing/",
+        "https://twitter.com/cuhknursing",
+        "https://www.linkedin.com/school/cuhknursing/",
+        "https://www.youtube.com/@cuhknursingofficial",
+        "https://www.nur.cuhk.edu.hk/front-page-hk/",
+        "https://www.nur.cuhk.edu.hk/front-page-cn/",
+        "https://www.nur.cuhk.edu.hk/staff-intranet",
+        "https://www.nur.cuhk.edu.hk/mentors/",
+        "https://www.nur.cuhk.edu.hk/students/",
+        "https://www.nur.cuhk.edu.hk/alumni/",
+        "https://www.nur.cuhk.edu.hk/about-us/director-welcome-message/",
+        "https://www.nur.cuhk.edu.hk/about-us/our-school/",
+        "https://www.nur.cuhk.edu.hk/about-us/milestones/",
+        "https://www.nur.cuhk.edu.hk/about-us/contact-us/",
+        "https://www.nur.cuhk.edu.hk/people/professoriate-academic-staff/",
+        "https://www.nur.cuhk.edu.hk/people/professional-consultants/",
+        "https://www.nur.cuhk.edu.hk/people/lecturers/",
+        "https://www.nur.cuhk.edu.hk/people/adjunct-honorary-professors-scholars/",
+        "https://www.nur.cuhk.edu.hk/people/nurses-research-staff/",
+        "https://www.nur.cuhk.edu.hk/people/graduate-assistants/",
+        "https://www.nur.cuhk.edu.hk/education/undergraduate-programmes/bachelor-of-nursing/",
+        "https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/mphil-phd-in-nursing/",
+        "https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/doctor-of-nursing/",
+        "https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/master-of-nursing/",
+        "https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/master-of-nursing-science-pre-registration/",
+        "https://www.nur.cuhk.edu.hk/education/professional-programmes/professional-diploma-in-advanced-nursing-practice/",
+        "https://www.nur.cuhk.edu.hk/education/professional-programmes/professional-certificate-programme-in-advanced-nursing-practice/",
+        "https://www.nur.cuhk.edu.hk/education/scholarships-awards/",
+        "https://www.nur.cuhk.edu.hk/education/learning-support/",
+        "https://www.nur.cuhk.edu.hk/education/student-support-wellbeing/",
+        "https://www.nur.cuhk.edu.hk/research/research-theme-groups/cancer-and-palliative-care/",
+        "https://www.nur.cuhk.edu.hk/research/research-theme-groups/cardiovascular-metabolic-and-stroke-care/",
+        "https://www.nur.cuhk.edu.hk/research/research-theme-groups/ageing-behavioural-and-mental-wellness/",
+        "https://www.nur.cuhk.edu.hk/research/external-grants/",
+        "https://www.nur.cuhk.edu.hk/research/publications/",
+        "https://www.nur.cuhk.edu.hk/research/research-practice-centres/",
+        "https://www.nur.cuhk.edu.hk/global/partnerships/",
+        "https://www.nur.cuhk.edu.hk/global/academic-activities/",
+        "https://www.nur.cuhk.edu.hk/global/student-exchange/",
+        "https://www.nur.cuhk.edu.hk/awards/awards-staff/",
+        "https://www.nur.cuhk.edu.hk/awards/award-students/",
+        "https://www.nur.cuhk.edu.hk/awards/award-alumni/",
+        "https://www.nur.cuhk.edu.hk/news-events/events/",
+        "https://www.nur.cuhk.edu.hk/news-events/press-releases/",
+        "https://www.nur.cuhk.edu.hk/news-events/in-the-press/",
+        "https://www.nur.cuhk.edu.hk/news-events/school-publications/",
+        "https://www.nur.cuhk.edu.hk/alumni/cuhk-nursing-alumni-association/",
+        "https://www.nur.cuhk.edu.hk/alumni/role-models/",
+        "https://www.nur.cuhk.edu.hk/alumni/alumni-awards/",
+        "https://www.nur.cuhk.edu.hk/alumni/stay-connected/",
+        "https://alumni.cuhk.edu.hk/benefits/",
+        "https://www.linkedin.com/company/actuwise",
+        "https://www.nur.cuhk.edu.hk/community-health/together-we-fight-covid-19/",
+        "https://www.nur.cuhk.edu.hk/community-health/e-health-education/",
+        "https://www.nur.cuhk.edu.hk/giving/",
+        "https://www.nur.cuhk.edu.hk/events/ha-cuhk-nursing-evidence-based-practice-conference-2026/",
+        "https://www.facebook.com/cuhknursing/posts/pfbid0BdFSPxAfCfsPwAZBrTxxc1erDF8hnDHYwd15Ad2MWcQVYGcn83mjFbABSZDMoEiYl",
+        "https://www.shanghairanking.com/rankings/gras/2026/AS0404",
+        "https://8thpanpacificconf.nur.cuhk.edu.hk/index.php",
+        "https://www.facebook.com/reel/2753302351693911",
+        "https://www.facebook.com/cuhknursing/posts/pfbid0S8aUY5GcuL4TFv2ZJmB88CdC2uL6u1BBcgnFQW1No1tvUzzHyrTS9R99hkawFTQvl",
+        "https://www.facebook.com/cuhknursing/posts/pfbid0dELr23aJPZjgAdnhDwfr8Be4fzVrmcbJxoreQNG1g68pDT6q2qRM57dKrtrYpYAWl",
+        "https://www.facebook.com/reel/2938583129834134/?__cft__%5b0%5d=AZghViB1GZw2aZI42Jb2AAzzuyWKHMIayLumdrUcTSniHa19eP4n9ZRx0Y0ozyHZBXqN6c3xQ145B1KVWNhWXAjx7beUfNQdoodjZJhy0tFk6OtXcvCZIO1WRXBQWkP54t7NxUsIE3fggdaUuVnqJPGj35U6g_BP_YNkzl2Nd_mQ22hi0IJ9Pct1fXVEuF2ecWQtJG8&__tn__=%2CO%2CP-R",
+        "https://www.facebook.com/cuhknursing/posts/pfbid028PHTCQu9BHo3AtWQQ5sN2BNgvqHQ3kU2T3WwhmCRWVsWTngivK8C5w48eHR9uhsbl?__tn__=%2CO*F",
+        "https://www.cpr.cuhk.edu.hk/en/press/two-pioneering-cuhk-projects-secure-hk46-3-million-rgc-grant-leveraging-ai-and-biotechnology-to-address-population-ageing/",
+        "https://www.nur.cuhk.edu.hk/edm/202609-issue46/",
+        "https://www.nur.cuhk.edu.hk/research/research-theme-groups/",
+        "https://www.nur.cuhk.edu.hk/community-health/act-training-and-service/",
+        "https://cuhk.qualtrics.com/jfe/form/SV_6saE2SnxJPsGiO2",
+        "https://cloud.itsc.cuhk.edu.hk/webform/view.php?id=13739034",
+        "https://www.nur.cuhk.edu.hk/events/organ-donation-whatsapp-sticker-design-competition-2026/",
+        "https://cuhk.qualtrics.com/jfe/form/SV_dnAAZTLyPC3AYM6",
+        "mailto:nursing@cuhk.edu.hk",
+        "http://www.cuhk.edu.hk/english/index.html",
+        "https://www.nur.cuhk.edu.hk/accessibility/",
+        "https://www.nur.cuhk.edu.hk/privacy-policy/",
+        "https://www.nur.cuhk.edu.hk/disclaimer/"
+      ]
+    },
+    {
+      "id": "cuhk-public-health-root-20261106",
+      "title": "赛马会公共卫生及基层医疗学院 · 学院官网",
+      "url": "https://sphpc.cuhk.edu.hk/",
+      "originalUrl": "http://www.sphpc.cuhk.edu.hk/",
+      "retrievedUrl": "https://sphpc.cuhk.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "checkedAtUTC": "2026-11-05T17:40:42.194806+00:00",
+      "bodySha256": "d86fa67ca308d13f35878d12b79b8d0ec04bcb5f7f5921a78831f6af44e89ff0",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该页面的学院或学部介绍及其提供的导航入口",
+      "claims": [
+        "可从学院官网查看研究中心、学术人员及兼任和名誉人员。2027/28 公共卫生博士与香港博士研究生奖学金计划另有招生公告，具体材料和时间见公告。"
+      ],
+      "knownIssues": [
+        "完整的院系结构、人员名录和当期申请要求仍需查看对应页面。"
+      ],
+      "redirects": [
+        {
+          "fromUrl": "http://www.sphpc.cuhk.edu.hk/",
+          "status": 301,
+          "toUrl": "https://sphpc.cuhk.edu.hk/"
+        }
+      ],
+      "discoveredLinks": [
+        "https://sphpc.cuhk.edu.hk/#content",
+        "https://www.cuhk.edu.hk/chinese/index.html",
+        "https://www.med.cuhk.edu.hk/",
+        "https://gocuhk.sharepoint.com/sites/Faculty.MED.SPHPC",
+        "https://sphpc.cuhk.edu.hk/directors-message",
+        "https://sphpc.cuhk.edu.hk/directors-message/",
+        "https://sphpc.cuhk.edu.hk/vision-and-mission/",
+        "https://sphpc.cuhk.edu.hk/our-story/",
+        "https://sphpc.cuhk.edu.hk/our-centres/",
+        "https://sphpc.cuhk.edu.hk/career/",
+        "https://sphpc.cuhk.edu.hk/contact-us/",
+        "https://sphpc.cuhk.edu.hk/our-people/",
+        "https://sphpc.cuhk.edu.hk/academic-staff/",
+        "https://sphpc.cuhk.edu.hk/adjunct-and-honorary-staff/",
+        "https://sphpc.cuhk.edu.hk/students/",
+        "https://sphpc.cuhk.edu.hk/alumni/",
+        "https://sphpc.cuhk.edu.hk/quality-teaching/",
+        "https://sphpc.cuhk.edu.hk/aphea-accreditation/",
+        "https://sphpc.cuhk.edu.hk/bachelors-programme/",
+        "https://sphpc.cuhk.edu.hk/masters-programme/",
+        "https://sphpc.cuhk.edu.hk/rpg-programme/",
+        "https://sphpc.cuhk.edu.hk/medical-education/",
+        "https://sphpc.cuhk.edu.hk/others/",
+        "https://sphpc.cuhk.edu.hk/research-themes",
+        "https://sphpc.cuhk.edu.hk/research-themes/",
+        "https://sphpc.cuhk.edu.hk/primary-care-clinical-trial-unit/",
+        "https://sphpc.cuhk.edu.hk/featured-publications-awards/",
+        "https://sphpc.cuhk.edu.hk/awards/",
+        "https://sphpc.cuhk.edu.hk/community/",
+        "https://sphpc.cuhk.edu.hk/be-our-volunteer/",
+        "https://sphpc.cuhk.edu.hk/network",
+        "https://sphpc.cuhk.edu.hk/network/",
+        "https://sphpc.cuhk.edu.hk/student-exchange-and-practicum/",
+        "https://sphpc.cuhk.edu.hk/collaboration/",
+        "https://sphpc.cuhk.edu.hk/international-conferences/",
+        "https://sphpc.cuhk.edu.hk/category/news-events/",
+        "https://sphpc.cuhk.edu.hk/category/news-events/news/",
+        "https://sphpc.cuhk.edu.hk/category/news-events/events/",
+        "https://sphpc.cuhk.edu.hk/category/news-events/in-the-media/",
+        "https://sphpc.cuhk.edu.hk/",
+        "https://sphpc.cuhk.edu.hk/zh-hant/",
+        "https://sphpc.cuhk.edu.hk/zh-hans/",
+        "https://sphpc.cuhk.edu.hk/category/news-events/social-media-highlights/",
+        "https://www.facebook.com/public.health.cuhk/",
+        "https://hk.linkedin.com/school/public-health-hong-kong/",
+        "https://www.youtube.com/channel/UC0YEDWK_v8IaInOPwIGypQw",
+        "https://www.sphpc.cuhk.edu.hk/we-chat-contact",
+        "https://sphpc.cuhk.edu.hk/post/13-jcsphpc-researchers-rank-in-worlds-top-1-24-among-top-2-scientists/",
+        "https://sphpc.cuhk.edu.hk/post/apru-global-health-conference-2026-early-bird-registration-until-15-october/",
+        "https://sphpc.cuhk.edu.hk/post/phd-in-public-health-2027-28-opens/",
+        "https://sphpc.cuhk.edu.hk/post/over-200-regional-experts-convene-at-cuhk-to-examine-the-role-of-private-health-insurance-in-advancing-universal-health-coverage/",
+        "https://sphpc.cuhk.edu.hk/post/jcsphpc-awards-family-medicine-teachers-for-decades-of-dedication-and-teaching-excellence/",
+        "https://sphpc.cuhk.edu.hk/#Content-df6fb266aebf88c5eea6",
+        "https://sphpc.cuhk.edu.hk/#Content-382eaef6aebf88c5eea6",
+        "https://sphpc.cuhk.edu.hk/#Content-4c528b16aebf88c5eea6",
+        "https://sphpc.cuhk.edu.hk/#Content-a697cf26aebf88c5eea6",
+        "https://sphpc.cuhk.edu.hk/jcsphpc-doctoral-students-and-prof-hein-min-tun-honoured-with-amr-student-innovation-award/",
+        "https://sphpc.cuhk.edu.hk/prof-eliza-wong-led-chspr-project-wins-international-excellence-in-experience-of-care-award-at-pen-awards-2026/",
+        "https://sphpc.cuhk.edu.hk/13-jcsphpc-researchers-rank-in-worlds-top-1-24-among-top-2-scientists/",
+        "https://sphpc.cuhk.edu.hk/phd-in-public-health-2027-28-opens/",
+        "https://sphpc.cuhk.edu.hk/sphpc-thematic-research-webinar-series-nov2026/",
+        "https://sphpc.cuhk.edu.hk/seminar-building-the-portfolio-of-an-academic-division-in-the-us-healthcare-system-a-decade-of-program-development-in-pulmonary-allergy-and-critical-care-medicine-at-stanford/",
+        "https://sphpc.cuhk.edu.hk/seminar-primary-care-practice-based-research-how-to-engage-practices-and-clinicians/",
+        "https://sphpc.cuhk.edu.hk/c-a-r-e-photovoice-exhibition-my-heart-is-sinking/",
+        "https://www.tkww.hk/epaper/view/newsDetail/2114422895798259712.html",
+        "https://hongkongfp.com/2026/10/26/cost-barriers-leave-hong-kongs-low-income-elderly-shut-out-of-advance-medical-directives-despite-landmark-law/",
+        "https://www.hk01.com/%E5%B0%88%E4%B8%8A%E6%95%99%E8%82%B2/60397584/%E7%A0%94%E7%A9%B6%E6%8F%AD%E5%AD%B8%E7%94%9F%E5%AD%A4%E7%8D%A8%E6%AF%94%E4%BE%8B%E9%81%94%E5%9B%9B%E6%88%90-%E5%A4%A7%E5%AD%B8%E6%B4%BB%E5%8B%95%E6%B8%9B%E5%B0%91-%E6%95%99%E6%8E%88%E7%9B%BC%E5%A2%9E%E8%81%9A%E8%85%B3%E9%BB%9E%E5%BB%BA%E4%BF%A1%E4%BB%BB",
+        "https://www.youtube.com/watch?v=pM5MkLB8Zk8",
+        "https://sphpc.cuhk.edu.hk/#Content-9d1cd576aebf88c78830",
+        "https://sphpc.cuhk.edu.hk/#Content-0e298916aebf88c78830",
+        "https://sphpc.cuhk.edu.hk/#Content-021dd246aebf88c78830",
+        "https://sphpc.cuhk.edu.hk/#Content-36831166aebf88c78830",
+        "https://sphpc.cuhk.edu.hk/#Content-8ab2c176aebf88c78830",
+        "https://sphpc.cuhk.edu.hk/#Content-97cf4a56aebf88c78830",
+        "https://sphpc.cuhk.edu.hk/#Content-431b1cb6aebf88c78830",
+        "https://www.instagram.com/cuhk.sphpc",
+        "mailto:info_sphpc@cuhk.edu.hk",
+        "https://www.cuhk.edu.hk/english/privacy.html",
+        "https://www.cuhk.edu.hk/english/disclaimer.html",
+        "https://www.hro.cuhk.edu.hk/en-gb/career/career-opportunities"
+      ]
     }
   ],
   "funding": [
@@ -218422,6 +218670,156 @@ window.APP_CATALOG = {
           "supervisionEligibility": "unknown"
         }
       ]
+    },
+    {
+      "url": "http://www.nur.cuhk.edu.hk/",
+      "retrievedUrl": "https://www.nur.cuhk.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodyStatus": "body_read",
+      "bodySha256": "12cdd4c8f399e2e88ed96fadfbfc608ac2edc5e430d2ba18dc248f0e61976554",
+      "sourceIds": [
+        "cuhk-nursing-root-20261106"
+      ],
+      "summary": "护理学院官网列出六类人员，并把护理学研究型硕博与专业学位分开。2027/28 入学说明会列在首页，申请材料和截止时间请查项目页。",
+      "organizationComplete": false,
+      "facultyComplete": false,
+      "nextEntries": [
+        {
+          "label": "学院介绍",
+          "observedLabel": "Our School",
+          "url": "https://www.nur.cuhk.edu.hk/about-us/our-school/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "教授及学术人员",
+          "observedLabel": "Professoriate/Academic Staff",
+          "url": "https://www.nur.cuhk.edu.hk/people/professoriate-academic-staff/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "专业顾问",
+          "observedLabel": "Professional Consultants",
+          "url": "https://www.nur.cuhk.edu.hk/people/professional-consultants/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "讲师",
+          "observedLabel": "Lecturers",
+          "url": "https://www.nur.cuhk.edu.hk/people/lecturers/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "兼任与名誉教授及学者",
+          "observedLabel": "Adjunct/Honorary Professors/Scholars",
+          "url": "https://www.nur.cuhk.edu.hk/people/adjunct-honorary-professors-scholars/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "护士及研究人员",
+          "observedLabel": "Nurses & Research Staff",
+          "url": "https://www.nur.cuhk.edu.hk/people/nurses-research-staff/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "研究生助理",
+          "observedLabel": "Graduate Assistants",
+          "url": "https://www.nur.cuhk.edu.hk/people/graduate-assistants/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "护理学研究型硕博",
+          "observedLabel": "Master of Philosophy-Doctor of Philosophy in Nursing",
+          "url": "https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/mphil-phd-in-nursing/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        }
+      ]
+    },
+    {
+      "url": "http://www.sphpc.cuhk.edu.hk/",
+      "retrievedUrl": "https://sphpc.cuhk.edu.hk/",
+      "checkedAt": "2026-11-05",
+      "bodyStatus": "body_read",
+      "bodySha256": "d86fa67ca308d13f35878d12b79b8d0ec04bcb5f7f5921a78831f6af44e89ff0",
+      "sourceIds": [
+        "cuhk-public-health-root-20261106"
+      ],
+      "summary": "可从学院官网查看研究中心、学术人员及兼任和名誉人员。2027/28 公共卫生博士与香港博士研究生奖学金计划另有招生公告，具体材料和时间见公告。",
+      "organizationComplete": false,
+      "facultyComplete": false,
+      "nextEntries": [
+        {
+          "label": "研究中心",
+          "observedLabel": "Our Centres",
+          "url": "https://sphpc.cuhk.edu.hk/our-centres/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "学术人员",
+          "observedLabel": "Academic Staff",
+          "url": "https://sphpc.cuhk.edu.hk/academic-staff/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "兼任和名誉人员",
+          "observedLabel": "Adjunct and Honorary Staff",
+          "url": "https://sphpc.cuhk.edu.hk/adjunct-and-honorary-staff/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "研究型硕博",
+          "observedLabel": "Research Postgraduate (RPg) Programme",
+          "url": "https://sphpc.cuhk.edu.hk/rpg-programme/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "研究方向",
+          "observedLabel": "Research Themes",
+          "url": "https://sphpc.cuhk.edu.hk/research-themes/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "基层医疗临床试验组",
+          "observedLabel": "Primary Care Clinical Trial Unit",
+          "url": "https://sphpc.cuhk.edu.hk/primary-care-clinical-trial-unit/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "2027/28 公共卫生博士与奖学金招生公告",
+          "observedLabel": "PhD in Public Health 2027-28 & Hong Kong PhD Fellowship Scheme (HKPFS) – Open for Application",
+          "url": "https://sphpc.cuhk.edu.hk/phd-in-public-health-2027-28-opens/",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        }
+      ]
     }
   ],
   "academicUnitNotes": [
@@ -218459,5 +218857,56 @@ window.APP_CATALOG = {
       "facultyComplete": false
     }
   ],
-  "snapshotId": "sha256:484a754d62ec15746c775ea7816f4266dc2fea7004f39e3a11bc004b1cce66e5"
+  "academicChildDocuments": [
+    {
+      "parentUnitId": "hkust-6",
+      "childUrl": "https://envr.ust.hk/",
+      "sourceId": "hkust-envr-head-20261106",
+      "title": "环境及可持续发展学部介绍",
+      "summary": "学部介绍列出环境与可持续发展的跨学科研究范围。可继续看学部介绍、师资和课程。",
+      "nextEntries": [
+        {
+          "label": "学部介绍",
+          "observedLabel": "About the Division",
+          "url": "https://envr.ust.hk/our-division/about-the-division.html",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "人员名录",
+          "observedLabel": "People",
+          "url": "https://envr.ust.hk/our-division/people/faculty-staff.html",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "生物多样性与基于自然的解决方案中心",
+          "observedLabel": "Biodiversity & Nature-based Solutions Hub",
+          "url": "https://envr.ust.hk/our-division/biodiversity-nbs-hub.html",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "课程与学位",
+          "observedLabel": "our Programs page",
+          "url": "http://www.envr.ust.hk/programs.html",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        },
+        {
+          "label": "师资名录",
+          "observedLabel": "our Faculty page",
+          "url": "http://www.envr.ust.hk/our-division/people/faculty-staff.html",
+          "bodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown"
+        }
+      ]
+    }
+  ],
+  "snapshotId": "sha256:d2dd4163a28c897ce2096ffa11186d1d8ec6673969221ed493b83f08d69c9d83"
 };
