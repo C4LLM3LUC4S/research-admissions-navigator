@@ -100,6 +100,29 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('CUHK Shenzhen science projects distinguish term dates and degree requirements', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ const titles=['数学','物理学','化学','材料科学与工程','能源科学与工程'];
+ const project=title=>el('results').children.find(card=>h.walk(card).some(n=>n.tagName==='h3'&&n.textContent===title+'研究学位'));
+ h.select('cuhksz','MPhil',[]);
+ el('intake-cycle').value='2027/28';
+ await el('profile-form').emit('input');
+ for (const title of titles) {
+   const card=project(title);
+   assert.ok(card,title);
+   assert.match(card.textContent,/2027-05-31（具体时间请核对原页）/);
+   assert.match(card.textContent,/研究型硕士学历要求.*两份保密推荐信/);
+   assert.doesNotMatch(card.textContent,/博士学历要求|2026-10-15/);
+ }
+ h.select('cuhksz','PhD',[]);
+ el('intake-cycle').value='2026/27 Spring';
+ await el('profile-form').emit('input');
+ const energy=project('能源科学与工程');
+ assert.match(energy.textContent,/博士学历要求.*2026-10-15/);
+ assert.doesNotMatch(energy.textContent,/2027-05-31|研究型硕士学历要求/);
+ assert.equal(h.networkCalls(),0);
+});
+
 test('teacher cards keep honorary, retired and cross-institution identities outside closed details',async()=>{
  const ids=['hku-mechanical-55','hku-mechanical-64','polyu-cee-005'],faculty=C.faculty.filter(f=>ids.includes(f.id)),h=harness(undefined,{catalog:{...C,faculty}}),el=id=>h.byId.get(id);
  const visibleText=n=>n.hidden?'':n.tagName==='details'&&!n.open?(n.children.find(c=>c.tagName==='summary')?.textContent||''):n._text+n.children.map(visibleText).join('');

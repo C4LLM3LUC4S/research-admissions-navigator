@@ -1,0 +1,516 @@
+{
+  "sources": [
+    {
+      "id": "cuhksz-sse-mat-20261106",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/program/MAT",
+      "title": "数学研究型硕博 · 港中文（深圳）理工学院",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该专业原页列出的 2027/28 秋季、2026/27 春季与分学位申请条件。",
+      "claims": [
+        "2027/28 秋季网申期为 2026-09-01 至 2027-05-31。",
+        "2026/27 春季网申期为 2026-07-01 至 2026-10-15。",
+        "项目建议提前联系意向导师，网申需要两位推荐人提交保密推荐信。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "36c30b8ce061cfa2f88141a663db3376ac273963e7bf5a538cceb018a02cf95f"
+    },
+    {
+      "id": "cuhksz-sse-phy-20261106",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/program/PHY",
+      "title": "物理学研究型硕博 · 港中文（深圳）理工学院",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该专业原页列出的 2027/28 秋季、2026/27 春季与分学位申请条件。",
+      "claims": [
+        "2027/28 秋季网申期为 2026-09-01 至 2027-05-31。",
+        "2026/27 春季网申期为 2026-07-01 至 2026-10-15。",
+        "项目建议提前联系意向导师，网申需要两位推荐人提交保密推荐信。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "36c30b8ce061cfa2f88141a663db3376ac273963e7bf5a538cceb018a02cf95f"
+    },
+    {
+      "id": "cuhksz-sse-chm-20261106",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/program/CHM",
+      "title": "化学研究型硕博 · 港中文（深圳）理工学院",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该专业原页列出的 2027/28 秋季、2026/27 春季与分学位申请条件。",
+      "claims": [
+        "2027/28 秋季网申期为 2026-09-01 至 2027-05-31。",
+        "2026/27 春季网申期为 2026-07-01 至 2026-10-15。",
+        "项目建议提前联系意向导师，网申需要两位推荐人提交保密推荐信。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "58133b24032c958460db6bb9d73062fe086c0699a42002d5c1ff6fcae5411be3"
+    },
+    {
+      "id": "cuhksz-sse-mse-20261106",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/program/MSE",
+      "title": "材料科学与工程研究型硕博 · 港中文（深圳）理工学院",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该专业原页列出的 2027/28 秋季、2026/27 春季与分学位申请条件。",
+      "claims": [
+        "2027/28 秋季网申期为 2026-09-01 至 2027-05-31。",
+        "2026/27 春季网申期为 2026-07-01 至 2026-10-15。",
+        "项目建议提前联系意向导师，网申需要两位推荐人提交保密推荐信。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "58133b24032c958460db6bb9d73062fe086c0699a42002d5c1ff6fcae5411be3"
+    },
+    {
+      "id": "cuhksz-sse-ene-20261106",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/program/ENE",
+      "title": "能源科学与工程研究型硕博 · 港中文（深圳）理工学院",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该专业原页列出的 2027/28 秋季、2026/27 春季与分学位申请条件。",
+      "claims": [
+        "2027/28 秋季网申期为 2026-09-01 至 2027-05-31。",
+        "2026/27 春季网申期为 2026-07-01 至 2026-10-15。",
+        "项目建议提前联系意向导师，网申需要两位推荐人提交保密推荐信。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "58133b24032c958460db6bb9d73062fe086c0699a42002d5c1ff6fcae5411be3"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "cuhksz-sse-mat-rpg",
+      "universityId": "cuhksz",
+      "name": "数学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）理工学院，2027/28 学年秋季。可从计算数学、金融数学、代数、几何等方向了解研究。",
+      "entryUrl": "https://sse-mphil-phd.cuhk.edu.cn/program/MAT",
+      "contact": {
+        "status": "recommended",
+        "text": "项目建议提前联系意向导师。可从官网师资入口查看研究方向，再准备正式申请。",
+        "sourceIds": [
+          "cuhksz-sse-mat-20261106"
+        ]
+      },
+      "selection": {
+        "text": "学院会视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sse-mat-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "cycle": "2027/28",
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhksz-sse-mat-20261106"
+          ]
+        },
+        {
+          "label": "春季申请截止：2026-10-15（官网未说明具体时间）",
+          "date": "2026-10-15",
+          "at": null,
+          "degree": null,
+          "cycle": "2026/27 Spring",
+          "route": "春季申请",
+          "sourceIds": [
+            "cuhksz-sse-mat-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sse-mat-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究型硕士学历要求",
+          "text": "项目页列认可大学的二等荣誉学士、成绩不低于 B 的学士，或等同学士学位的资格。",
+          "action": "按官网核对学士学位及同等资格",
+          "sourceIds": [
+            "cuhksz-sse-mat-20261106"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "博士学历要求",
+          "text": "项目页列认可大学硕士学位，也接受二等荣誉或成绩不低于 B 的学士，以及等同荣誉学位的资格。",
+          "action": "核对硕士、本科直博或同等资格的适用条件",
+          "sourceIds": [
+            "cuhksz-sse-mat-20261106"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "两份保密推荐信",
+          "text": "填写两位推荐人的信息，由网申系统发送邀请。意向导师不作为推荐人。",
+          "action": "确认两位合适的推荐人并跟进系统邀请",
+          "sourceIds": [
+            "cuhksz-sse-mat-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sse-phy-rpg",
+      "universityId": "cuhksz",
+      "name": "物理学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）理工学院，2027/28 学年秋季。研究方向包括量子、凝聚态、光学与半导体等。",
+      "entryUrl": "https://sse-mphil-phd.cuhk.edu.cn/program/PHY",
+      "contact": {
+        "status": "recommended",
+        "text": "项目建议提前联系意向导师。可从官网师资入口查看研究方向，再准备正式申请。",
+        "sourceIds": [
+          "cuhksz-sse-phy-20261106"
+        ]
+      },
+      "selection": {
+        "text": "学院会视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sse-phy-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "cycle": "2027/28",
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhksz-sse-phy-20261106"
+          ]
+        },
+        {
+          "label": "春季申请截止：2026-10-15（官网未说明具体时间）",
+          "date": "2026-10-15",
+          "at": null,
+          "degree": null,
+          "cycle": "2026/27 Spring",
+          "route": "春季申请",
+          "sourceIds": [
+            "cuhksz-sse-phy-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sse-phy-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究型硕士学历要求",
+          "text": "项目页列认可大学的二等荣誉学士、成绩不低于 B 的学士，或等同学士学位的资格。",
+          "action": "按官网核对学士学位及同等资格",
+          "sourceIds": [
+            "cuhksz-sse-phy-20261106"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "博士学历要求",
+          "text": "项目页列认可大学硕士学位，也接受二等荣誉或成绩不低于 B 的学士，以及等同荣誉学位的资格。",
+          "action": "核对硕士、本科直博或同等资格的适用条件",
+          "sourceIds": [
+            "cuhksz-sse-phy-20261106"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "两份保密推荐信",
+          "text": "填写两位推荐人的信息，由网申系统发送邀请。意向导师不作为推荐人。",
+          "action": "确认两位合适的推荐人并跟进系统邀请",
+          "sourceIds": [
+            "cuhksz-sse-phy-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sse-chm-rpg",
+      "universityId": "cuhksz",
+      "name": "化学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）理工学院，2027/28 学年秋季。研究方向包括合成、催化、材料及化学生物学等。",
+      "entryUrl": "https://sse-mphil-phd.cuhk.edu.cn/program/CHM",
+      "contact": {
+        "status": "recommended",
+        "text": "项目建议提前联系意向导师。可从官网师资入口查看研究方向，再准备正式申请。",
+        "sourceIds": [
+          "cuhksz-sse-chm-20261106"
+        ]
+      },
+      "selection": {
+        "text": "学院会视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sse-chm-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "cycle": "2027/28",
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhksz-sse-chm-20261106"
+          ]
+        },
+        {
+          "label": "春季申请截止：2026-10-15（官网未说明具体时间）",
+          "date": "2026-10-15",
+          "at": null,
+          "degree": null,
+          "cycle": "2026/27 Spring",
+          "route": "春季申请",
+          "sourceIds": [
+            "cuhksz-sse-chm-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sse-chm-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究型硕士学历要求",
+          "text": "项目页列认可大学的二等荣誉学士、成绩不低于 B 的学士，或等同学士学位的资格。",
+          "action": "按官网核对学士学位及同等资格",
+          "sourceIds": [
+            "cuhksz-sse-chm-20261106"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "博士学历要求",
+          "text": "项目页列认可大学硕士学位，也接受二等荣誉或成绩不低于 B 的学士，以及等同荣誉学位的资格。",
+          "action": "核对硕士、本科直博或同等资格的适用条件",
+          "sourceIds": [
+            "cuhksz-sse-chm-20261106"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "两份保密推荐信",
+          "text": "填写两位推荐人的信息，由网申系统发送邀请。意向导师不作为推荐人。",
+          "action": "确认两位合适的推荐人并跟进系统邀请",
+          "sourceIds": [
+            "cuhksz-sse-chm-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sse-mse-rpg",
+      "universityId": "cuhksz",
+      "name": "材料科学与工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）理工学院，2027/28 学年秋季。可了解结构材料、功能材料、材料建模与能源材料等方向。",
+      "entryUrl": "https://sse-mphil-phd.cuhk.edu.cn/program/MSE",
+      "contact": {
+        "status": "recommended",
+        "text": "项目建议提前联系意向导师。可从官网师资入口查看研究方向，再准备正式申请。",
+        "sourceIds": [
+          "cuhksz-sse-mse-20261106"
+        ]
+      },
+      "selection": {
+        "text": "学院会视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sse-mse-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "cycle": "2027/28",
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhksz-sse-mse-20261106"
+          ]
+        },
+        {
+          "label": "春季申请截止：2026-10-15（官网未说明具体时间）",
+          "date": "2026-10-15",
+          "at": null,
+          "degree": null,
+          "cycle": "2026/27 Spring",
+          "route": "春季申请",
+          "sourceIds": [
+            "cuhksz-sse-mse-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sse-mse-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究型硕士学历要求",
+          "text": "项目页列认可大学的二等荣誉学士、成绩不低于 B 的学士，或等同学士学位的资格。",
+          "action": "按官网核对学士学位及同等资格",
+          "sourceIds": [
+            "cuhksz-sse-mse-20261106"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "博士学历要求",
+          "text": "项目页列认可大学硕士学位，也接受二等荣誉或成绩不低于 B 的学士，以及等同荣誉学位的资格。",
+          "action": "核对硕士、本科直博或同等资格的适用条件",
+          "sourceIds": [
+            "cuhksz-sse-mse-20261106"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "两份保密推荐信",
+          "text": "填写两位推荐人的信息，由网申系统发送邀请。意向导师不作为推荐人。",
+          "action": "确认两位合适的推荐人并跟进系统邀请",
+          "sourceIds": [
+            "cuhksz-sse-mse-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sse-ene-rpg",
+      "universityId": "cuhksz",
+      "name": "能源科学与工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）理工学院，2027/28 学年秋季。可了解清洁能源、智能能源系统与能源优化等方向。",
+      "entryUrl": "https://sse-mphil-phd.cuhk.edu.cn/program/ENE",
+      "contact": {
+        "status": "recommended",
+        "text": "项目建议提前联系意向导师。可从官网师资入口查看研究方向，再准备正式申请。",
+        "sourceIds": [
+          "cuhksz-sse-ene-20261106"
+        ]
+      },
+      "selection": {
+        "text": "学院会视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sse-ene-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "cycle": "2027/28",
+          "route": "常规申请",
+          "sourceIds": [
+            "cuhksz-sse-ene-20261106"
+          ]
+        },
+        {
+          "label": "春季申请截止：2026-10-15（官网未说明具体时间）",
+          "date": "2026-10-15",
+          "at": null,
+          "degree": null,
+          "cycle": "2026/27 Spring",
+          "route": "春季申请",
+          "sourceIds": [
+            "cuhksz-sse-ene-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sse-ene-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究型硕士学历要求",
+          "text": "项目页列认可大学的二等荣誉学士、成绩不低于 B 的学士，或等同学士学位的资格。",
+          "action": "按官网核对学士学位及同等资格",
+          "sourceIds": [
+            "cuhksz-sse-ene-20261106"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "博士学历要求",
+          "text": "项目页列认可大学硕士学位，也接受二等荣誉或成绩不低于 B 的学士，以及等同荣誉学位的资格。",
+          "action": "核对硕士、本科直博或同等资格的适用条件",
+          "sourceIds": [
+            "cuhksz-sse-ene-20261106"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "两份保密推荐信",
+          "text": "填写两位推荐人的信息，由网申系统发送邀请。意向导师不作为推荐人。",
+          "action": "确认两位合适的推荐人并跟进系统邀请",
+          "sourceIds": [
+            "cuhksz-sse-ene-20261106"
+          ]
+        }
+      ]
+    }
+  ]
+}
