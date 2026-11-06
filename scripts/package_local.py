@@ -39,23 +39,19 @@ catalog = json.loads(members["source/data/catalog.json"])
 version = json.loads(members["source/STATUS.json"])["version"]
 if not re.fullmatch(r"\d+\.\d+\.\d+(?:-local|a\d+)", version):
     raise ValueError("Use an explicit local prototype or alpha version")
-members["START_HERE.md"] = """# 研向：本地试用
+members["START_HERE.md"] = """# 打开研向
 
-先完整解压文件夹，再双击 app/index.html。无需注册，也不需要安装 Python、Node 或第三方库。
+完整解压后，双击 app/index.html 即可使用。
 
-先选学校、学位和入学轮次，再看项目要求或找研究交集。老师的方向相关，不等于当前有名额；没有列出的项目也不等于学校不招生。
+1. 选学校、学位和入学轮次。打开项目卡片，核对联系导师的安排、申请材料和日期。
+2. 在“搜索专业、院系和研究方向”中输入中文或英文名称。想了解老师的近期研究，可从卡片打开个人主页。
+3. 将老师和准备事项加入“我的清单”。在同一浏览器继续使用，或下载完整备份，换设备时再载入。
 
-在“我的清单”保存导师、待办和备份。下载按钮发起保存后，请自行核对文件是否实际保存。个人备注只在你选择保存时写入本机，不上传。
+已有格式 1、2 或 3 的备份，可以从“我的清单”载入。下载后请确认备份文件已保存。遇到导入错误时，保留原文件并按页面提示处理。
 
-以前原型保存的格式1、2备份仍可载入。本版导出格式3，请用随附本版或更新版本接着整理，避免旧程序丢掉研究关键词或资料版本历史。历史里只有已提供的版本线索，不是官网全文；旧材料和旧费用仍需重新核对。文件或本机写入出错时，当前清单会保留，请不要删改原备份后硬载入。
+申请前，打开项目官网核对当年的材料、费用和日期。source/ 保留本包对应的目录及来源，方便日后查证。
 
-有费用资料的项目，可展开“学费、申请费和资助分开看”。注意币种、每月/每年/每学年、适用轮次和资助条件；旧年度金额只作参考，不是个人已经获批的收入，也不代表完整生活预算。
-
-“找相关老师”可以填具体研究词；找不到时用“看院系目录”继续查。已整理人数不是可申请人数上限，项目要求还没有覆盖每个院系。“分享经历”当前只导出匿名草稿，不会公开提交；这里不是完整导师库、实时招生系统或录取预测。
-
-source/ 保存对应源码、原始整理记录、不可覆盖的数据快照和开发检查。备份标记资料版本；页面使用当前目录，旧政策应结合对应旧目录核对。
-
-这是早期alpha。也可打开公开网页 https://c4llm3luc4s.github.io/research-admissions-navigator/ ，但网页可能更新，旧政策请保留本包资料。个人清单按浏览器来源分开，换网页或设备请带上完整备份。实际验收范围见source/STATUS.json；代码检查、模拟DOM回调、真实浏览器操作分别记录，不代替独立真人反馈。
+网页入口 https://c4llm3luc4s.github.io/research-admissions-navigator/
 """.encode()
 info = {"version": version, "source_commit": source, "source_tree": git("rev-parse", "HEAD^{tree}").decode().strip(),
         "catalog_snapshot": catalog["snapshotId"], "publicly_deployed": None,
