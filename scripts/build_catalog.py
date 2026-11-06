@@ -632,6 +632,9 @@ def build_catalog():
     catalog["sources"].extend(cityu_report["sources"])
     cityu_overview = next(row for row in catalog["academicCoverage"] if row["universityId"] == "cityu")
     cityu_overview.setdefault("institutionalReferences", []).extend(cityu_report["references"])
+    sse_routes = load("cuhksz-sse-research-routes-20261106.json")
+    catalog["sources"].extend(sse_routes["sources"])
+    catalog["programs"].extend(sse_routes["programmes"])
     return catalog
 
 

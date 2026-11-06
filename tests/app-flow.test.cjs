@@ -100,6 +100,34 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('CUHK Shenzhen science projects distinguish term dates and degree requirements', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ const titles=['数学','物理学','化学','材料科学与工程','能源科学与工程'];
+ const project=title=>el('results').children.find(card=>h.walk(card).some(n=>n.tagName==='h3'&&n.textContent===title+'研究学位'));
+ h.select('cuhksz','MPhil',[]);
+ el('intake-cycle').value='2027/28';
+ await el('profile-form').emit('input');
+ for (const title of titles) {
+   const card=project(title);
+   assert.ok(card,title);
+   assert.match(card.textContent,/2027-05-31（具体时间请核对原页）/);
+   assert.match(card.textContent,/研究型硕士学历要求.*两份保密推荐信/);
+   assert.doesNotMatch(card.textContent,/博士学历要求|2026-10-15/);
+ }
+ const bme=project('生物医学工程');
+ assert.match(bme.textContent,/医学院项目页所列秋季截止2027-04-15/);
+ assert.match(bme.textContent,/理工学院总通知所列秋季截止2027-05-31/);
+ assert.ok(h.walk(bme).some(n=>n.href==='https://sse-mphil-phd.cuhk.edu.cn/en/article/304'));
+ assert.ok(h.walk(bme).some(n=>n.href==='https://medpg.cuhk.edu.cn/en/node/32'));
+ h.select('cuhksz','PhD',[]);
+ el('intake-cycle').value='2026/27 Spring';
+ await el('profile-form').emit('input');
+ const energy=project('能源科学与工程');
+ assert.match(energy.textContent,/博士学历要求.*2026-10-15/);
+ assert.doesNotMatch(energy.textContent,/2027-05-31|研究型硕士学历要求/);
+ assert.equal(h.networkCalls(),0);
+});
+
 test('teacher cards keep honorary, retired and cross-institution identities outside closed details',async()=>{
  const ids=['hku-mechanical-55','hku-mechanical-64','polyu-cee-005'],faculty=C.faculty.filter(f=>ids.includes(f.id)),h=harness(undefined,{catalog:{...C,faculty}}),el=id=>h.byId.get(id);
  const visibleText=n=>n.hidden?'':n.tagName==='details'&&!n.open?(n.children.find(c=>c.tagName==='summary')?.textContent||''):n._text+n.children.map(visibleText).join('');
@@ -479,7 +507,9 @@ test('a changed catalog is explained without erasing the saved application notes
 });
 
 test('the real intake selector changes the date rows and survives portable save and restore',async()=>{
-  const h=harness(),el=id=>h.byId.get(id);h.select('cuhksz','MPhil',[]);
+  const ids=new Set(['cuhksz-ai-rpg','cuhksz-sse-cie']);
+  const catalog={...C,programs:C.programs.filter(p=>ids.has(p.id))};
+  const h=harness(undefined,{catalog}),el=id=>h.byId.get(id);h.select('cuhksz','MPhil',[]);
   el('intake-cycle').value='2026/27 Spring';await el('profile-form').emit('input');
   assert.equal(el('results').childElementCount,2);
   assert.match(el('results').textContent,/2026-10-15/);assert.match(el('results').textContent,/2026-10-31/);
