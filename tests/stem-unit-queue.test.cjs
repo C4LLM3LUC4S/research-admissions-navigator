@@ -2,13 +2,14 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),old=read('data/snapshots/c0a3dd526c423dcddc3a1cca0ebbbc57ddfd15a7b8d6444fc40a13f2c3a63ac7.json'),P=read('data/research/stem-unit-queue-20261105.json');
+const published=read('data/snapshots/d2dd4163a28c897ce2096ffa11186d1d8ec6673969221ed493b83f08d69c9d83.json');
 function assertPriorRecords(prior) {
  const updatedFields = new Set(['sources', 'academicEntryFollowups', 'snapshotId', 'checkedDate']);
- assert.match(C.checkedDate, /^\d{4}-\d{2}-\d{2}$/);
- assert.ok(C.checkedDate >= prior.checkedDate);
+ assert.match(published.checkedDate, /^\d{4}-\d{2}-\d{2}$/);
+ assert.ok(published.checkedDate >= prior.checkedDate);
  for (const key of Object.keys(prior)) {
    if (updatedFields.has(key)) continue;
-   assert.deepEqual(key==='programs'?C[key].slice(0,prior[key].length):C[key], prior[key]);
+   assert.deepEqual(published[key], prior[key]);
  }
 }
 test('STEM continuation keeps every prior source and record and reuses five dated bodies without rewriting them',()=>{

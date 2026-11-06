@@ -622,6 +622,12 @@ def build_catalog():
     polyu_science = load("polyu-science-sept-2027-20261106.json")
     catalog["sources"].extend(polyu_science["sources"])
     catalog["programs"].extend(polyu_science["programmes"])
+    for name in ("cuhk-zhizhen-establishment-20261106.json", "hkust-medicine-scope-20261106.json"):
+        scope = load(name)
+        catalog["sources"].extend(scope["sources"])
+        unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == scope["unitId"])
+        unit["organizationReview"]["sourceIds"].extend(source["id"] for source in scope["sources"])
+        unit.setdefault("reviewedNavigation", []).extend(scope["reviewedNavigation"])
     return catalog
 
 
@@ -1070,7 +1076,10 @@ def validate(catalog):
                 sid = navigation["sourceId"]
                 assert sid in unit["organizationReview"]["sourceIds"], "Reviewed action must retain its actual scope source"
                 source = sources[sid]
-                assert source["readMethod"] == "anonymous_HTTP" and source["url"].startswith("https://")
+                assert source["url"].startswith("https://")
+                assert (source["readMethod"] == "anonymous_HTTP" or
+                        (source["readMethod"] == "web_reader" and "readReceiptSha256" in source
+                         and source["evidenceLevel"] == "official_scoped_body_read"))
                 validate_read_receipt(source)
             for child in unit["children"]:
                 for extra in child.get("providedEntries", []):

@@ -60,6 +60,30 @@ test('PolyU science projects keep scholarship references scoped and the Physics 
  assert.equal(h.networkCalls(),0);
 });
 
+test('Zhizhen and HKUST Medicine show training scope separately from current graduate programme search', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('cuhk','PhD',[]);
+ await el('profile-form').emit('input');
+ assert.doesNotMatch(el('results').textContent,/致真|贯通培养计划/);
+ await el('show-directories').emit('click');
+ const school=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&
+   n.children[0]?.textContent.includes('Zhizhen School'));
+ assert.ok(school);
+ assert.match(school.textContent,/2025 年 1 月批准成立/);
+ assert.match(school.textContent,/已有学位.*另查学院当期招生入口/);
+ assert.ok(h.walk(school).some(n=>n.tagName==='a'&&n.textContent.includes('八年贯通培养计划')&&n.href.endsWith('.pdf')));
+ h.select('hkust','PhD',[]);
+ await el('profile-form').emit('input');
+ const medicine=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&
+   n.children[0]?.textContent.includes('School of Medicine'));
+ assert.ok(medicine);
+ assert.match(medicine.textContent,/暂定约 2027 年中开放申请.*2028\/29 学年入学.*须获认证/);
+ assert.ok(h.walk(medicine).some(n=>n.href==='https://medicine.hkust.edu.hk/admissions.html'));
+ await el('show-programs').emit('click');
+ assert.doesNotMatch(el('results').textContent,/MBBS/);
+ assert.equal(h.networkCalls(),0);
+});
+
 test('teacher cards keep honorary, retired and cross-institution identities outside closed details',async()=>{
  const ids=['hku-mechanical-55','hku-mechanical-64','polyu-cee-005'],faculty=C.faculty.filter(f=>ids.includes(f.id)),h=harness(undefined,{catalog:{...C,faculty}}),el=id=>h.byId.get(id);
  const visibleText=n=>n.hidden?'':n.tagName==='details'&&!n.open?(n.children.find(c=>c.tagName==='summary')?.textContent||''):n._text+n.children.map(visibleText).join('');
