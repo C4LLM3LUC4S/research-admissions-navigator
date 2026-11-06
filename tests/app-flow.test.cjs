@@ -43,6 +43,23 @@ test('applicant-first cards keep unknown contact, exact process and dated decisi
  const original=new Set(p.contact.sourceIds.concat(p.selection.sourceIds).map(id=>C.sources.find(s=>s.id===id).url));for(const url of original)assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href===url));await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='加入准备清单 ＋').emit('click');assert.ok(h.walk(el('tasks')).some(n=>n.textContent.includes(p.name)));assert.equal(h.networkCalls(),0);
 });
 
+test('PolyU science projects keep scholarship references scoped and the Physics and Materials statement separate', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ const names=['化学研究学位','食品科学及营养学研究学位','生命科学研究学位','物理及材料科学研究学位'];
+ for (const degree of ['MPhil','PhD']) {
+   h.select('polyu',degree,[]);
+   await el('profile-form').emit('input');
+   for (const [index,name] of names.entries()) {
+     const card=el('results').children.find(card=>h.walk(card).some(n=>n.tagName==='h3'&&n.textContent===name));
+     assert.ok(card,name+' '+degree);
+     assert.match(card.textContent,/2027-05-31（具体时间请核对原页）/);
+     assert.match(card.textContent,/两份学术推荐报告列为奖学金申请要求/);
+     assert.equal(card.textContent.includes('个人陈述'),index===3);
+   }
+ }
+ assert.equal(h.networkCalls(),0);
+});
+
 test('teacher cards keep honorary, retired and cross-institution identities outside closed details',async()=>{
  const ids=['hku-mechanical-55','hku-mechanical-64','polyu-cee-005'],faculty=C.faculty.filter(f=>ids.includes(f.id)),h=harness(undefined,{catalog:{...C,faculty}}),el=id=>h.byId.get(id);
  const visibleText=n=>n.hidden?'':n.tagName==='details'&&!n.open?(n.children.find(c=>c.tagName==='summary')?.textContent||''):n._text+n.children.map(visibleText).join('');
