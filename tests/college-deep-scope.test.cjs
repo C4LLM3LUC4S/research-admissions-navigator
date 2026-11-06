@@ -4,7 +4,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),P=read('data/research/college-deep-scope-20261102.json'),old=read('data/snapshots/4b781419cd35517d1c1a73bab12eb7530b09a4308711759819ec776df331ba67.json');
 const unit=(c,id)=>c.academicCoverage.flatMap(m=>m.units).find(u=>u.id===id);
 test('deep college review keeps original inputs, policies, people and entrance receipts',()=>{
- for(const key of ['faculty','programs','directories','funding'])assert.deepEqual(key==='directories'?C[key].slice(0,old[key].length):C[key],old[key]);
+ for(const key of ['faculty','programs','directories','funding'])assert.deepEqual(['directories','programs'].includes(key)?C[key].slice(0,old[key].length):C[key],old[key]);
  for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
  for(const p of P.units){const a=unit(C,p.unitId),b=unit(old,p.unitId);for(const key of ['url','sourceIds','bodySha256','retrievedUrl','entryBodyStatus','staffEntries'])assert.deepEqual(a[key],b[key],p.unitId+' '+key);if(p.unitId==='hku-1')assert.deepEqual(a.children.map(({providedEntries,...original})=>original),b.children);else assert.deepEqual(a.children,b.children);assert.deepEqual(a.priorOrganizationReview,b.organizationReview);}
  for(const s of P.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);

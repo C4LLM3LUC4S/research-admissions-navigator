@@ -7,13 +7,14 @@ function assertPriorRecords(prior) {
  assert.match(C.checkedDate, /^\d{4}-\d{2}-\d{2}$/);
  assert.ok(C.checkedDate >= prior.checkedDate);
  for (const key of Object.keys(prior)) {
-   if (!updatedFields.has(key)) assert.deepEqual(C[key], prior[key]);
+   if (updatedFields.has(key)) continue;
+   assert.deepEqual(key==='programs'?C[key].slice(0,prior[key].length):C[key], prior[key]);
  }
 }
 test('STEM continuation keeps every prior source and record and reuses five dated bodies without rewriting them',()=>{
  assertPriorRecords(old);
  assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length,old.sources.length+P.sources.length),P.sources);assert.deepEqual(C.academicEntryFollowups.slice(0,old.academicEntryFollowups.length),old.academicEntryFollowups);assert.deepEqual(C.academicEntryFollowups.slice(old.academicEntryFollowups.length,old.academicEntryFollowups.length+P.entries.length),P.entries);assert.deepEqual(C.academicUnitNotes,P.academicUnitNotes);
- assert.equal(P.sources.length,6);assert.equal(P.entries.length,4);assert.equal(P.reusedSourceIds.length,5);for(const id of P.reusedSourceIds){const s=C.sources.find(s=>s.id===id);assert.equal(s.checkedAt,old.sources.find(x=>x.id===id).checkedAt);assert.ok(s.checkedAt<'2026-11-05');}assert.equal(C.faculty.length,1378);assert.equal(C.programs.length,40);
+ assert.equal(P.sources.length,6);assert.equal(P.entries.length,4);assert.equal(P.reusedSourceIds.length,5);for(const id of P.reusedSourceIds){const s=C.sources.find(s=>s.id===id);assert.equal(s.checkedAt,old.sources.find(x=>x.id===id).checkedAt);assert.ok(s.checkedAt<'2026-11-05');}assert.equal(C.faculty.length,1378);
 });
 
 test('Architecture entrance batch preserves the full prior catalogue and adds only its declared sources and followups',()=>{

@@ -6,6 +6,38 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('PolyU September applicant sees degree-specific routes and restores a material task with its source', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ const getCard=name=>el('results').children.find(card=>h.walk(card).some(n=>n.tagName==='h3'&&n.textContent===name));
+ h.select('polyu','MPhil',[]);
+ await el('profile-form').emit('input');
+ assert.ok(getCard('时装及纺织研究学位'));
+ assert.match(getCard('眼科视光学研究学位').textContent,/2027-04-30（具体时间请核对原页）/);
+ assert.equal(getCard('设计学博士'),undefined);
+ assert.equal(getCard('酒店及旅游业管理博士'),undefined);
+ h.select('polyu','PhD',[]);
+ await el('profile-form').emit('input');
+ assert.match(getCard('设计学博士').textContent,/全日制或兼读/);
+ const hotel=getCard('酒店及旅游业管理博士');
+ assert.match(hotel.textContent,/2027-01-15（具体时间请核对原页）/);
+ assert.match(hotel.textContent,/1,200–1,800 词/);
+ assert.match(hotel.textContent,/2026 年 1 月 21 日/);
+ assert.ok(h.walk(hotel).some(n=>n.tagName==='a'&&n.href==='https://www.polyu.edu.hk/study/pg/rpg/2027/shtm'));
+ const materials=h.walk(hotel).find(n=>n.children.some(child=>child.tagName==='h4'&&child.textContent==='研究计划和个人陈述'));
+ const start=materials.children.findIndex(n=>n.tagName==='h4'&&n.textContent==='研究计划和个人陈述');
+ await materials.children.slice(start+1).find(n=>n.tagName==='button').emit('click');
+ await el('export-local').emit('click');
+ const raw=await h.downloads.at(-1).blob.text(), backup=JSON.parse(raw);
+ assert.equal(backup.tasks[0].programId,'polyu-shtm-rpg-sept-2027');
+ assert.ok(backup.sourceIds.includes('polyu-shtm-sept-2027-20261106'));
+ const fresh=harness(), file=fresh.byId.get('import-local');
+ file.files=[{size:Buffer.byteLength(raw),text:async()=>raw}];
+ await file.emit('change');
+ const reopened=harness(fresh.saved);
+ assert.match(reopened.byId.get('tasks').textContent,/PhD.*分别核对两项材料的字数/);
+ assert.equal(h.networkCalls()+fresh.networkCalls()+reopened.networkCalls(),0);
+});
+
 test('applicant-first cards keep unknown contact, exact process and dated decisions available without repeated audit copy',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');const p=C.programs.find(p=>p.id==='hku-cs-rpg'),card=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent===p.name));assert.ok(card);const process=h.walk(card).find(x=>x.className==='source-details application-process');assert.ok(process);assert.ok(!process.open);assert.ok(process.textContent.includes(p.contact.text));assert.ok(process.textContent.includes(p.selection.text));assert.match(h.walk(card).find(x=>x.className==='contact-next-step').textContent,/要求待确认/);assert.match(card.textContent,/2026\/12\/01/);assert.doesNotMatch(el('faculty-coverage').textContent,/导师总名单|本版已整理/);assert.ok(!html.includes('不预测录取概率'));assert.ok(!html.includes('这里没有真实投稿计数'));
  const original=new Set(p.contact.sourceIds.concat(p.selection.sourceIds).map(id=>C.sources.find(s=>s.id===id).url));for(const url of original)assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href===url));await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='加入准备清单 ＋').emit('click');assert.ok(h.walk(el('tasks')).some(n=>n.textContent.includes(p.name)));assert.equal(h.networkCalls(),0);
