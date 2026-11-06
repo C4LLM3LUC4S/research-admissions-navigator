@@ -167374,6 +167374,24 @@ window.APP_CATALOG = {
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "e9cbb153166d23b1a4acf5b293cb5b1edc33c3c2524cbcca0baaf32b022c0301"
+    },
+    {
+      "id": "cityu-annual-report-2024-25-colleges-20261106",
+      "url": "https://www.cityu.edu.hk/annual-report/2024-25/assets/pdf/CityUAR_2025.pdf",
+      "title": "港城大 2024/25 年报：计算学院与生物医学学院",
+      "academicYear": "2024/25",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "校长报告与管治章节所列成立日期及计算学院下属学系。",
+      "claims": [
+        "计算学院自 2024 年 9 月 1 日成立，年报列出生物统计学系、计算机科学系和数据科学系。",
+        "生物医学学院自 2025 年 1 月 1 日成立。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a0a303e90c7564c3f7d117fa4aedc88d4fab3f6eaa32a473d2447052ba4bc5dd"
     }
   ],
   "funding": [
@@ -211012,7 +211030,22 @@ window.APP_CATALOG = {
             "value": 1
           }
         ]
-      }
+      },
+      "institutionalReferences": [
+        {
+          "universityId": "cityu",
+          "kind": "historical_annual_report",
+          "sourceId": "cityu-annual-report-2024-25-colleges-20261106",
+          "checkedAt": "2026-11-06",
+          "title": "2024/25 年报：计算学院与生物医学学院",
+          "summary": "年报记载，计算学院自 2024 年 9 月 1 日成立，下设生物统计学系、计算机科学系和数据科学系。生物医学学院自 2025 年 1 月 1 日成立。",
+          "caution": "生物医学学院在这两节年报中介绍的是研究方向；完整学系名单仍待核。",
+          "entryNote": "可从下方学院条目查找各系现有入口。",
+          "entries": [],
+          "organizationComplete": false,
+          "facultyComplete": false
+        }
+      ]
     },
     {
       "universityId": "cuhksz",
@@ -219910,5 +219943,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:bfa956c7fa02a241c42115d6bc5c4fdd975a575b28c01913b2dc9594eab0a8fe"
+  "snapshotId": "sha256:765e15cc9892e3c079ab78222531538e0a910b5089d2c9cdb380307e8b07ec4a"
 };
