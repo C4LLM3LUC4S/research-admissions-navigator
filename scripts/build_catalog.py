@@ -10,7 +10,7 @@ import re
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
-from urllib.parse import urljoin
+from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
 CHECKED = "2026-11-05"
@@ -606,6 +606,10 @@ def build_catalog():
     ais = load("hkust-ais-unit-entrances-20261105.json")
     catalog["sources"].extend(ais["sources"])
     catalog["academicEntryFollowups"].extend(ais["entries"])
+    medicine_and_environment = load("cuhk-medicine-envr-entrances-20261106.json")
+    catalog["sources"].extend(medicine_and_environment["sources"])
+    catalog["academicEntryFollowups"].extend(medicine_and_environment["entries"])
+    catalog["academicChildDocuments"] = [medicine_and_environment["childDocument"]]
     return catalog
 
 
@@ -867,6 +871,20 @@ def validate(catalog):
                     assert failure["bodyStatus"] == "read_failed" and failure["namesRead"] == 0 and failure["failureKind"] == "redirect_limit_exceeded"
                     assert any(failure["url"] in sources[sid]["discoveredLinks"] for sid in entry["sourceIds"])
     parents = {u["id"]: u for overview in maps for u in overview["units"]}
+    for document in catalog.get("academicChildDocuments", []):
+        parent = parents[document["parentUnitId"]]
+        child = next(child for child in parent["children"] if child["url"] == document["childUrl"])
+        source = sources[document["sourceId"]]
+        validate_read_receipt(source)
+        assert source["evidenceLevel"] == "official_scoped_body_read"
+        assert source["url"] == source["originalUrl"] == source["retrievedUrl"]
+        assert source["url"] != child["url"], "A related page must keep its own URL and body receipt"
+        assert urlsplit(source["url"]).netloc == urlsplit(child["url"]).netloc
+        assert child.get("bodySha256") != source["bodySha256"], "Do not substitute the separate document for the unit root"
+        for entry in document["nextEntries"]:
+            assert entry["url"] in source["discoveredLinks"]
+            assert entry["bodyStatus"] == "not_read"
+            assert entry["availability"] == entry["supervisionEligibility"] == "unknown"
     for note in catalog.get("academicUnitNotes", []):
         parent = parents[note["parentUnitId"]]
         assert any(child["name"] == note["childName"] and child["url"] is None for child in parent["children"]), "A dated unit note must bind its original unlinked child; do not invent a homepage"
