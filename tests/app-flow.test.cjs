@@ -84,6 +84,22 @@ test('Zhizhen and HKUST Medicine show training scope separately from current gra
  assert.equal(h.networkCalls(),0);
 });
 
+test('CityU annual report is a dated reference and preserves the scope of the current list', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('cityu','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ const nodes=h.walk(el('academic-coverage'));
+ const report=nodes.find(n=>n.className==='source-details institutional-reference'&&n.textContent.includes('2024/25 年报'));
+ assert.ok(report);
+ assert.match(report.textContent,/生物统计学系、计算机科学系和数据科学系/);
+ assert.match(report.textContent,/完整学系名单仍待核/);
+ assert.doesNotMatch(report.textContent,/下列入口正文待核/);
+ assert.ok(h.walk(report).some(n=>n.href==='https://www.cityu.edu.hk/annual-report/2024-25/assets/pdf/CityUAR_2025.pdf'));
+ assert.match(el('academic-coverage').textContent,/校级完整架构仍待核/);
+ assert.equal(h.networkCalls(),0);
+});
+
 test('teacher cards keep honorary, retired and cross-institution identities outside closed details',async()=>{
  const ids=['hku-mechanical-55','hku-mechanical-64','polyu-cee-005'],faculty=C.faculty.filter(f=>ids.includes(f.id)),h=harness(undefined,{catalog:{...C,faculty}}),el=id=>h.byId.get(id);
  const visibleText=n=>n.hidden?'':n.tagName==='details'&&!n.open?(n.children.find(c=>c.tagName==='summary')?.textContent||''):n._text+n.children.map(visibleText).join('');

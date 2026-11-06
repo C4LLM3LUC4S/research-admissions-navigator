@@ -628,6 +628,10 @@ def build_catalog():
         unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == scope["unitId"])
         unit["organizationReview"]["sourceIds"].extend(source["id"] for source in scope["sources"])
         unit.setdefault("reviewedNavigation", []).extend(scope["reviewedNavigation"])
+    cityu_report = load("cityu-annual-report-scope-20261106.json")
+    catalog["sources"].extend(cityu_report["sources"])
+    cityu_overview = next(row for row in catalog["academicCoverage"] if row["universityId"] == "cityu")
+    cityu_overview.setdefault("institutionalReferences", []).extend(cityu_report["references"])
     return catalog
 
 
@@ -941,13 +945,18 @@ def validate(catalog):
         refs(overview["sourceIds"])
         for reference in overview.get("institutionalReferences", []):
             assert reference["universityId"] == overview["universityId"], "Institutional scope must retain its university"
-            assert reference["kind"] in {"mixed_academic_index", "quality_manual_introduction"}
+            assert reference["kind"] in {"mixed_academic_index", "quality_manual_introduction", "historical_annual_report"}
             assert reference["organizationComplete"] is reference["facultyComplete"] is False
             assert reference["summary"] and reference["caution"] and reference["entryNote"]
             refs([reference["sourceId"]])
             source = sources[reference["sourceId"]]
             assert source["checkedAt"] == reference["checkedAt"]
-            assert source["readMethod"] == "anonymous_HTTP"
+            if reference["kind"] == "historical_annual_report":
+                assert source["readMethod"] == "web_reader" and "readReceiptSha256" in source
+                assert source["evidenceLevel"] == "official_scoped_body_read" and not reference["entries"]
+                assert re.fullmatch(r"\d{4}/\d{2}", source["academicYear"])
+            else:
+                assert source["readMethod"] == "anonymous_HTTP"
             validate_read_receipt(source)
             seen_entries = set()
             for entry in reference["entries"]:
