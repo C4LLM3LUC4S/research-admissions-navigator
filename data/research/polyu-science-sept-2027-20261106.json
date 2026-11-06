@@ -1,0 +1,319 @@
+{
+  "sources": [
+    {
+      "id": "polyu-chem-sept-2027-20261106",
+      "title": "港理工 · 化学研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/chem",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。化学系自 2026 年 7 月起由原应用生物及化学科技学系重组而成。",
+      "claims": [
+        "官网列 MPhil 和 PhD，常规申请截止日为 2027-05-31。",
+        "官网在奖学金申请项下列两份学术推荐报告。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "c773997b3dd11d235ec16673ae440e8709a4bf6663cbc97f3ae8d8183cd84f74"
+    },
+    {
+      "id": "polyu-fsn-sept-2027-20261106",
+      "title": "港理工 · 食品科学及营养学研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/fsn",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。方向包括食品安全、食品可持续性、营养与健康。",
+      "claims": [
+        "官网列 MPhil 和 PhD，常规申请截止日为 2027-05-31。",
+        "官网在奖学金申请项下列两份学术推荐报告。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "bdeaca5eaf37a65ff3b8669b91a11335f5c63bf423a42eeb685a1e428a9e8763"
+    },
+    {
+      "id": "polyu-ls-sept-2027-20261106",
+      "title": "港理工 · 生命科学研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/ls",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。生命科学系自 2026 年 7 月起由原应用生物及化学科技学系重组而成。",
+      "claims": [
+        "官网列 MPhil 和 PhD，常规申请截止日为 2027-05-31。",
+        "官网在奖学金申请项下列两份学术推荐报告。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "bdeaca5eaf37a65ff3b8669b91a11335f5c63bf423a42eeb685a1e428a9e8763"
+    },
+    {
+      "id": "polyu-pm-sept-2027-20261106",
+      "title": "港理工 · 物理及材料科学研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/pm",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。方向包括绿色能源、计算物理、纳米材料、光电子和量子器件。",
+      "claims": [
+        "官网列 MPhil 和 PhD，常规申请截止日为 2027-05-31。",
+        "官网在奖学金申请项下列两份学术推荐报告。",
+        "个人陈述另列为必交。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "bdeaca5eaf37a65ff3b8669b91a11335f5c63bf423a42eeb685a1e428a9e8763"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "polyu-chem-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "化学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。化学系自 2026 年 7 月起由原应用生物及化学科技学系重组而成。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/chem",
+      "contact": {
+        "status": "unknown",
+        "text": "研究方向可从化学系官网按主题查看。",
+        "sourceIds": [
+          "polyu-chem-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "具体审核流程可向院系查询。",
+        "sourceIds": [
+          "polyu-chem-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-chem-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-chem-sept-2027-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究计划、简历和学历材料",
+          "text": "研究计划须使用官网标准表，并提交简历、成绩单及学历证明。",
+          "action": "打开项目官网，下载研究计划表并准备简历和学历材料",
+          "sourceIds": [
+            "polyu-chem-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "奖学金申请的推荐报告",
+          "text": "这份项目页将两份学术推荐报告列为奖学金申请要求。常规申请的推荐材料请按网申清单核对。",
+          "action": "如果申请奖学金，联系两位学术推荐人",
+          "sourceIds": [
+            "polyu-chem-sept-2027-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-fsn-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "食品科学及营养学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。方向包括食品安全、食品可持续性、营养与健康。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/fsn",
+      "contact": {
+        "status": "unknown",
+        "text": "可按研究主题查看官网列出的老师。",
+        "sourceIds": [
+          "polyu-fsn-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "具体审核流程可向院系查询。",
+        "sourceIds": [
+          "polyu-fsn-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-fsn-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-fsn-sept-2027-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究计划、简历和学历材料",
+          "text": "研究计划须使用官网标准表，并提交简历、成绩单及学历证明。",
+          "action": "打开项目官网，下载研究计划表并准备简历和学历材料",
+          "sourceIds": [
+            "polyu-fsn-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "奖学金申请的推荐报告",
+          "text": "这份项目页将两份学术推荐报告列为奖学金申请要求。常规申请的推荐材料请按网申清单核对。",
+          "action": "如果申请奖学金，联系两位学术推荐人",
+          "sourceIds": [
+            "polyu-fsn-sept-2027-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-ls-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "生命科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。生命科学系自 2026 年 7 月起由原应用生物及化学科技学系重组而成。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/ls",
+      "contact": {
+        "status": "unknown",
+        "text": "可按研究主题查看官网列出的老师。",
+        "sourceIds": [
+          "polyu-ls-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "具体审核流程可向院系查询。",
+        "sourceIds": [
+          "polyu-ls-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-ls-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-ls-sept-2027-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究计划、简历和学历材料",
+          "text": "研究计划须使用官网标准表，并提交简历、成绩单及学历证明。",
+          "action": "打开项目官网，下载研究计划表并准备简历和学历材料",
+          "sourceIds": [
+            "polyu-ls-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "奖学金申请的推荐报告",
+          "text": "这份项目页将两份学术推荐报告列为奖学金申请要求。常规申请的推荐材料请按网申清单核对。",
+          "action": "如果申请奖学金，联系两位学术推荐人",
+          "sourceIds": [
+            "polyu-ls-sept-2027-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-pm-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "物理及材料科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。方向包括绿色能源、计算物理、纳米材料、光电子和量子器件。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/pm",
+      "contact": {
+        "status": "recommended",
+        "text": "官网建议联系方向合适的老师，讨论研究机会。",
+        "sourceIds": [
+          "polyu-pm-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "具体审核流程可向院系查询。",
+        "sourceIds": [
+          "polyu-pm-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-pm-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-pm-sept-2027-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "研究计划、简历和学历材料",
+          "text": "研究计划须使用官网标准表，并提交简历、成绩单及学历证明。",
+          "action": "打开项目官网，下载研究计划表并准备简历和学历材料",
+          "sourceIds": [
+            "polyu-pm-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "个人陈述",
+          "text": "物理及材料科学系将个人陈述列为必交材料。",
+          "action": "单独准备个人陈述",
+          "sourceIds": [
+            "polyu-pm-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "奖学金申请的推荐报告",
+          "text": "这份项目页将两份学术推荐报告列为奖学金申请要求。常规申请的推荐材料请按网申清单核对。",
+          "action": "如果申请奖学金，联系两位学术推荐人",
+          "sourceIds": [
+            "polyu-pm-sept-2027-20261106"
+          ]
+        }
+      ]
+    }
+  ]
+}
