@@ -114,6 +114,11 @@ test('CUHK Shenzhen science projects distinguish term dates and degree requireme
    assert.match(card.textContent,/研究型硕士学历要求.*两份保密推荐信/);
    assert.doesNotMatch(card.textContent,/博士学历要求|2026-10-15/);
  }
+ const bme=project('生物医学工程');
+ assert.match(bme.textContent,/医学院项目页所列秋季截止2027-04-15/);
+ assert.match(bme.textContent,/理工学院总通知所列秋季截止2027-05-31/);
+ assert.ok(h.walk(bme).some(n=>n.href==='https://sse-mphil-phd.cuhk.edu.cn/en/article/304'));
+ assert.ok(h.walk(bme).some(n=>n.href==='https://medpg.cuhk.edu.cn/en/node/32'));
  h.select('cuhksz','PhD',[]);
  el('intake-cycle').value='2026/27 Spring';
  await el('profile-form').emit('input');

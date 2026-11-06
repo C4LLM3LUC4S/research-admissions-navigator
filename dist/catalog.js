@@ -5686,6 +5686,71 @@ window.APP_CATALOG = {
       ]
     },
     {
+      "id": "cuhksz-sse-med-bme-rpg",
+      "universityId": "cuhksz",
+      "name": "生物医学工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027/28 学年秋季，理工学院与医学院联合开设。两份官方页面的申请日期不同，请先向项目确认适用的提交期限。",
+      "entryUrl": "https://medpg.cuhk.edu.cn/en/node/32",
+      "contact": {
+        "status": "unknown",
+        "text": "医学院项目页写明先联系导师，再在线提交。请通过联合项目确认具体申请步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      },
+      "selection": {
+        "text": "申请时请核对联合项目的流程和材料。",
+        "sourceIds": [
+          "cuhksz-sse-autumn-notice-20261106",
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "医学院项目页所列秋季截止：2027-04-15（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        },
+        {
+          "label": "理工学院总通知所列秋季截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-sse-autumn-notice-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sse-autumn-notice-20261106",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "requirements": [
+        {
+          "label": "先确认适用的申请窗口",
+          "text": "医学院项目页列 2026-09-30 至 2027-04-15，理工学院总通知列 2026-09-01 至 2027-05-31。请对照两份原文向联合项目确认。",
+          "action": "确认生物医学工程的实际截止日期和申请流程",
+          "sourceIds": [
+            "cuhksz-sse-autumn-notice-20261106",
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ]
+    },
+    {
       "id": "cuhksz-sse-mat-rpg",
       "universityId": "cuhksz",
       "name": "数学研究学位",
@@ -167814,6 +167879,44 @@ window.APP_CATALOG = {
       "readReceiptSha256": "a0a303e90c7564c3f7d117fa4aedc88d4fab3f6eaa32a473d2447052ba4bc5dd"
     },
     {
+      "id": "cuhksz-sse-autumn-notice-20261106",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/article/304",
+      "title": "港中深理工学院研究型硕博春秋招生总通知",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2026 年 9 月 8 日发布，列七个研究型硕博方向，包括与医学院联办的生物医学工程。",
+      "claims": [
+        "2027/28 秋季网申日期为 2026-09-01 至 2027-05-31。"
+      ],
+      "knownIssues": [
+        "两院对同一秋季入学所列网申日期不同。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "228d808ad3fd09ba0be58f9c45dc4d6dd94c1ddcbdd4f857a4c9b7cba9c523fd",
+      "publishedAt": "2026-09-08"
+    },
+    {
+      "id": "cuhksz-med-bme-autumn-20261106",
+      "url": "https://medpg.cuhk.edu.cn/en/node/32",
+      "title": "港中深医学院生物医学工程研究型硕博项目页",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年秋季的生物医学工程项目申请说明。",
+      "claims": [
+        "2027 年秋季网申日期为 2026-09-30 至 2027-04-15。",
+        "项目页先列联系导师，再列在线申请。"
+      ],
+      "knownIssues": [
+        "两院对同一秋季入学所列网申日期不同。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "228d808ad3fd09ba0be58f9c45dc4d6dd94c1ddcbdd4f857a4c9b7cba9c523fd"
+    },
+    {
       "id": "cuhksz-sse-mat-20261106",
       "url": "https://sse-mphil-phd.cuhk.edu.cn/program/MAT",
       "title": "数学研究型硕博 · 港中文（深圳）理工学院",
@@ -220453,5 +220556,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:a8b6901d9354ee1ba905be7e6358c1ad768a0080e449b335ca0ebaed57f6549c"
+  "snapshotId": "sha256:a222409770947264061f7aadaedb01599b3403ab9eb48bdc1f109f352d509b74"
 };
