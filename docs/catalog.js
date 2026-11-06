@@ -166952,6 +166952,63 @@ window.APP_CATALOG = {
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "4925d357aee0412fe3d94a9619bf1891634906ffe98891ac935895ef96da4612"
+    },
+    {
+      "id": "hku-mse-about-20261106",
+      "url": "https://mse.hku.hk/about/",
+      "originalUrl": "https://mse.hku.hk/about/",
+      "retrievedUrl": "https://mse.hku.hk/about/",
+      "title": "材料与能源系介绍",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学系介绍及成立年份。",
+      "claims": [
+        "材料与能源系成立于 2026 年，研究涉及先进材料、能源与可持续技术，以及未来制造。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "58b741d1cf0e8123339680b3dd7c7d657d777bc1553836351a2434a41a7b239c"
+    },
+    {
+      "id": "hku-mse-research-20261106",
+      "url": "https://mse.hku.hk/research/research-areas/",
+      "originalUrl": "https://mse.hku.hk/research/research-areas/",
+      "retrievedUrl": "https://mse.hku.hk/research/research-areas/",
+      "title": "材料与能源系研究方向",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "系官网列出的四类研究方向。",
+      "claims": [
+        "可按下面四个方向查找相关研究。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "58b741d1cf0e8123339680b3dd7c7d657d777bc1553836351a2434a41a7b239c"
+    },
+    {
+      "id": "hku-mse-rpg-20261106",
+      "url": "https://mse.hku.hk/teaching-learning/rpg/",
+      "originalUrl": "https://mse.hku.hk/teaching-learning/rpg/",
+      "retrievedUrl": "https://mse.hku.hk/teaching-learning/rpg/",
+      "title": "材料与能源系研究学位",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核对系官网研究学位入口，页面显示待更新。",
+      "claims": [
+        "系官网的研究学位页面暂未公布申请要求或截止日期。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "58b741d1cf0e8123339680b3dd7c7d657d777bc1553836351a2434a41a7b239c"
     }
   ],
   "funding": [
@@ -219410,7 +219467,60 @@ window.APP_CATALOG = {
           "url": null
         }
       ]
+    },
+    {
+      "parentUnitId": "hku-6",
+      "childUrl": "https://mse.hku.hk/",
+      "sourceId": "hku-mse-about-20261106",
+      "providedBySourceId": "unit-followup-entry-01-20261104",
+      "title": "材料与能源系介绍",
+      "summary": "材料与能源系成立于 2026 年，研究涉及先进材料、能源与可持续技术，以及未来制造。",
+      "linkLabel": "打开官网原文",
+      "nextEntries": []
+    },
+    {
+      "parentUnitId": "hku-6",
+      "childUrl": "https://mse.hku.hk/",
+      "sourceId": "hku-mse-research-20261106",
+      "providedBySourceId": "unit-followup-entry-01-20261104",
+      "title": "材料与能源系研究方向",
+      "summary": "可按下面四个方向查找相关研究。",
+      "linkLabel": "打开官网原文",
+      "nextEntries": [],
+      "itemKind": "research_themes",
+      "items": [
+        {
+          "label": "能源材料",
+          "observedLabel": "Energy Materials",
+          "url": null
+        },
+        {
+          "label": "人工智能辅助材料研究",
+          "observedLabel": "AI for Materials",
+          "url": null
+        },
+        {
+          "label": "先进制造",
+          "observedLabel": "Advanced Manufacturing",
+          "url": null
+        },
+        {
+          "label": "半导体与电子材料",
+          "observedLabel": "Semiconductor & Electronic Materials",
+          "url": null
+        }
+      ]
+    },
+    {
+      "parentUnitId": "hku-6",
+      "childUrl": "https://mse.hku.hk/",
+      "sourceId": "hku-mse-rpg-20261106",
+      "providedBySourceId": "unit-followup-entry-01-20261104",
+      "title": "材料与能源系研究学位",
+      "summary": "系官网的研究学位页面暂未公布申请要求或截止日期。",
+      "linkLabel": "查看系官网研究学位页",
+      "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:789b161a7cf3e10ae1c1796bf3574b65501175ad9b7f142d70fd2f6c645c7821"
+  "snapshotId": "sha256:3ab3080046e8a70d0629cccd6a1e34364d998bb6544f892b85c8d15a94d58c90"
 };

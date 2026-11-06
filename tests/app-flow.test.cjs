@@ -69,9 +69,10 @@ test('applicants can follow the nursing, public health and separate environment 
  const publicHealth=nodes.find(n=>n.className==='source-details unit-entry-followup'&&n.textContent.includes('2027/28 公共卫生博士'));
  assert.ok(nursing&&publicHealth);
  assert.ok(h.walk(nursing).some(n=>n.href==='https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/mphil-phd-in-nursing/'));
- assert.ok(h.walk(publicHealth).some(n=>n.href==='https://sphpc.cuhk.edu.hk/our-centres/'));
+ assert.ok(!h.walk(publicHealth).some(n=>n.href==='https://sphpc.cuhk.edu.hk/our-centres/'));
  const centres=nodes.find(n=>n.className==='source-details unit-related-document'&&n.textContent.includes('公共卫生及基层医疗研究中心'));
  assert.ok(centres);
+ assert.ok(h.walk(centres).some(n=>n.href==='https://sphpc.cuhk.edu.hk/our-centres/'));
  const rows=centres.children.find(n=>n.tagName==='ul').children;
  assert.equal(rows.length,10);
  assert.ok(rows.some(n=>n.textContent.includes('职业与环境健康研究中心')&&!h.walk(n).some(x=>x.href)));
@@ -85,6 +86,30 @@ test('applicants can follow the nursing, public health and separate environment 
  assert.ok(!h.walk(doc).some(n=>n.href?.startsWith('http://')));
  const themes=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-related-document'&&n.textContent.includes('空气与健康'));
  assert.equal(themes.children.find(n=>n.tagName==='ul').children.length,3);
+ assert.equal(h.networkCalls(),0);
+});
+
+test('HKU materials documents keep published research themes separate from an unfinished admissions page', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('hku','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ const children=h.walk(el('academic-coverage'));
+ const materials=children.find(n=>n.tagName==='li'&&n.children[0]?.href==='https://mse.hku.hk/');
+ assert.ok(materials);
+ const panels=materials.children.filter(n=>n.className==='source-details unit-related-document');
+ assert.equal(panels.length,3);
+ assert.match(panels[0].textContent,/成立于 2026 年/);
+ assert.deepEqual(panels[1].children.find(n=>n.tagName==='ul').children.map(n=>n.textContent),[
+   '能源材料 · Energy Materials', '人工智能辅助材料研究 · AI for Materials',
+   '先进制造 · Advanced Manufacturing', '半导体与电子材料 · Semiconductor & Electronic Materials'
+ ]);
+ assert.match(panels[2].textContent,/暂未公布申请要求或截止日期/);
+ assert.ok(h.walk(panels[2]).some(n=>n.href==='https://mse.hku.hk/teaching-learning/rpg/'));
+ const followup=materials.children.find(n=>n.className==='source-details unit-entry-followup');
+ assert.match(followup.textContent,/首页核查（2026-11-04）/);
+ assert.ok(h.walk(followup).some(n=>n.href==='https://mse.hku.hk/msepeople/academic-staff/'));
+ assert.ok(!h.walk(followup).some(n=>n.href==='https://mse.hku.hk/research/research-areas/'));
  assert.equal(h.networkCalls(),0);
 });
 

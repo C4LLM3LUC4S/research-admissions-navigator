@@ -145,9 +145,11 @@
         if(!supportUnit&&!unit.children.length&&!unit.organizationReview)section.append(node('p','可先打开学院官网，查看下属单位和师资。','field-help'));
         if(unit.children.length){section.append(node('h4','继续查看这些学术单位'));const children=node('ul');
           unit.children.forEach(child=>{const followup=(C.academicEntryFollowups||[]).find(r=>r.url===child.url),sharedRead=!followup?L.sharedSchoolRead(C,row.universityId,child):null,providedRead=(child.providedEntries||[]).some(e=>(C.academicEntryFollowups||[]).some(r=>r.url===e.url&&r.bodyStatus==='body_read')),childTarget=(followup&&followup.retrievedUrl)||child.retrievedUrl||child.url,item=node('li'),stateText=followup?(followup.bodyStatus==='body_read'?'已读单位正文':'本次入口读取失败，待核'):providedRead?'学院另给入口正文已读':sharedRead?'同一官网已读，沿用原记录':child.entryBodyStatus==='body_read'?'已读单位正文':child.entryBodyStatus==='access_failed'?'入口读取失败，待核':child.parentEvidenceStatus==='body_read'?(child.url?'已核名单与所给链接；单位正文待核':'已核名单；所读页未给独立网址；单位正文待核'):'入口待核';append(item,childTarget&&childTarget.startsWith('https://')?link(L.academicLabel(child.name)+' ↗',childTarget):academicTitle('span',child.name),node('details',null,'source-details child-entry-state'));const entryState=item.children[item.children.length-1];append(entryState,node('summary','资料更新'),node('p',stateText,'field-help'));if(child.relationship==='affiliated_school')append(item,node('span','关联学术单位','small-tag neutral'),node('details',null,'affiliation-details'));if(child.relationship==='affiliated_school')item.children[item.children.length-1].append(node('summary','查看关联关系'),node('p','关联学校：保留与本学院的关系，不算作它的直属学系。','field-help'));if(child.responseKind==='access_challenge')item.append(node('p','入口返回访问检查页，尚未读到院系正文；保留原链接，待正常访问后再核。','field-help'));if(child.url&&child.url.startsWith('http://'))item.append(node('div','官网原链接为 HTTP，原地址保留供核对：'+child.url,'field-help'));
+            const documentedUrls = new Set();
             for (const document of C.academicChildDocuments || []) {
               if (document.parentUnitId !== unit.id || document.childUrl !== child.url) continue;
               const source = C.sources.find(s => s.id === document.sourceId);
+              documentedUrls.add(source.url);
               const panel = node('details', null, 'source-details unit-related-document');
               append(panel, node('summary', document.title), node('p', document.summary, 'evidence-note'),
                 link((document.linkLabel || '查看学部主任介绍') + ' ↗', source.url));
@@ -175,7 +177,24 @@
             }
             if(sharedRead){const proof=node('details',null,'source-details shared-school-read');append(proof,node('summary','查看原网页的核查记录'),node('p','沿用'+sharedRead.checkedDates.join('、')+'的原网页记录，本次没有重新下载或改日期。这只说明读过该入口页，完整师资、指导资格和当期余位仍需逐项核对。原有关联学校关系及其记录保持分开。','field-help'),evidence(sharedRead.sourceIds));item.append(proof);}
             (C.academicUnitNotes||[]).filter(note=>note.parentUnitId===unit.id&&note.childName===child.name).forEach(note=>{const box=node('details',null,'source-details unit-scope-note');append(box,node('summary',note.title),node('p',note.summary,'evidence-note'),node('p','当期申请要求、完整师资、指导资格和实时余位仍待核对。','field-help'));note.sourceIds.forEach(id=>{const source=C.sources.find(s=>s.id===id);if(source)box.append(link(source.title+' ↗',source.url));});box.append(evidence(note.sourceIds));item.append(box);});
-            if(followup){const review=node('details',null,'source-details unit-entry-followup');append(review,node('summary','师资与研究学位入口'),node('p',followup.summary,'evidence-note'),node('p','原入口和原读取记录保留；这次核查不代表院系或完整师资已收齐。','field-help'));(followup.nextEntries||[]).forEach(entry=>{append(review,link(entry.label+' ↗',entry.url),node('p',entry.bodyStatus==='body_read'?(entry.readNote||'已读这一个入口页面；完整名单仍待核。'):'官网提供的入口，目标正文待核；指导资格和实时余位未知。','field-help'));if(entry.directoryId){const d=C.directories.find(d=>d.id===entry.directoryId);if(d)review.append(directoryCard(d));}});if(followup.sourceIds.length)review.append(evidence(followup.sourceIds));item.append(review);}
+            if (followup) {
+              const review = node('details', null, 'source-details unit-entry-followup');
+              const summary = documentedUrls.size ? '首页核查（' + followup.checkedAt + '）：' + followup.summary : followup.summary;
+              append(review, node('summary', '师资与研究学位入口'), node('p', summary, 'evidence-note'));
+              if (!documentedUrls.size) review.append(node('p', '原入口和原读取记录保留；这次核查不代表院系或完整师资已收齐。', 'field-help'));
+              for (const entry of followup.nextEntries || []) {
+                if (entry.bodyStatus === 'not_read' && documentedUrls.has(entry.url)) continue;
+                append(review, link(entry.label + ' ↗', entry.url),
+                  node('p', entry.bodyStatus === 'body_read' ? (entry.readNote || '已读这一个入口页面；完整名单仍待核。')
+                    : '官网提供的入口，目标正文待核；指导资格和实时余位未知。', 'field-help'));
+                if (entry.directoryId) {
+                  const directory = C.directories.find(d => d.id === entry.directoryId);
+                  if (directory) review.append(directoryCard(directory));
+                }
+              }
+              if (followup.sourceIds.length) review.append(evidence(followup.sourceIds));
+              item.append(review);
+            }
             (child.providedEntries||[]).forEach(entry=>{const later=(C.academicEntryFollowups||[]).find(r=>r.url===entry.url&&r.bodyStatus==='body_read'),status=later?'已读单位正文':'正文待核',extra=node('div',null,'provided-college-entry'),entryLink=link('打开学院另给的官网（'+status+'） ↗',entry.url);entryLink.setAttribute('aria-label',child.name+'：'+entry.label+'（'+status+'）');extra.append(entryLink);if(later){append(extra,node('p',later.summary+' 核查：'+later.checkedAt,'evidence-note'),evidence(later.sourceIds));if((later.nextEntries||[]).length){const routes=node('details',null,'source-details provided-entry-routes');routes.append(node('summary','继续看人员和研究学位入口'));later.nextEntries.forEach(route=>{append(routes,route.url.startsWith('https://')?link(route.label+' ↗',route.url):node('p',route.label+'：官网原地址 '+route.url,'field-help'),node('p',route.bodyStatus==='body_read'?(route.readNote||'已读这一个入口；完整名单和当期要求另核。'):'这是官网提供的下一入口，目标正文仍待核；指导资格和实时余位未知。','field-help'));});extra.append(routes);}const history=node('details',null,'source-details');append(history,node('summary','查看此前的入口发现记录'),node('p',entry.note,'field-help'),evidence(entry.sourceIds));extra.append(history);}else append(extra,node('p',entry.note,'field-help'),evidence(entry.sourceIds));item.append(extra);});
             if((child.staffRoutes||[]).length){const routes=node('details',null,'source-details');routes.append(node('summary','继续看这个单位的人员导航'));child.staffRoutes.forEach(route=>{append(routes,link(route.label+' ↗',route.retrievedUrl||route.url),node('p',route.bodyStatus==='body_read'?'已读人员导航正文，完整名单和分页仍需逐项核对。':route.bodyStatus==='access_failed'?'本轮未读到正文，保留待核。':'导航入口待核。','field-help'));});item.append(routes);}if((child.sourceIds||[]).length)item.append(evidence(child.sourceIds));children.append(item);});section.append(children);}
         if((unit.relatedTeachingEntries||[]).length){const related=node('details',null,'source-details'),entries=node('ul');related.append(node('summary','其他教学项目与单位（不计作学部）'));unit.relatedTeachingEntries.forEach(entry=>{const item=node('li');item.append(link(L.academicLabel(entry.name)+' ↗',entry.url));entries.append(item);});related.append(entries);section.append(related);}
