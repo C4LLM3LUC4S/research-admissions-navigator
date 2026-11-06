@@ -167322,6 +167322,58 @@
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "bdeaca5eaf37a65ff3b8669b91a11335f5c63bf423a42eeb685a1e428a9e8763"
+    },
+    {
+      "id": "cuhk-zhizhen-establishment-20261106",
+      "url": "https://www.cpr.cuhk.edu.hk/en/press/cuhk-hosts-chinese-new-year-media-gathering-and-announces-the-establishment-of-the-zhizhen-school-of-interdisciplinary-mathematical-sciences/",
+      "title": "港中文致真学院成立公告（2025 年）",
+      "checkedAt": "2026-11-06",
+      "publishedAt": "2025-02-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "港中文校方新闻，记载学院成立经过。",
+      "claims": [
+        "港中文校董会于 2025 年 1 月批准成立致真交叉数学科学学院，校方于 2 月 6 日公布。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a0d0e93555039ed30e9da88811c54e7c1628c3ea4e335987450d87f1d3a99d89"
+    },
+    {
+      "id": "cuhk-zhizhen-establishment-appendix-20261106",
+      "url": "https://www.cpr.cuhk.edu.hk/wp-content/uploads/newscentre/pressrelease/Zhizhen-School-of-Interdisciplinary-Mathematical-Sciences.pdf",
+      "title": "港中文致真学院成立时的培养计划（2025 年附件）",
+      "checkedAt": "2026-11-06",
+      "publishedAt": "2025-02-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2025 年校方成立公告附件，介绍当时规划的本科至博士贯通路线。",
+      "claims": [
+        "原计划为八年，包含三年数学基础、两年科研训练及三年博士阶段。",
+        "附件计划首届于 2025/26 入学。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a0d0e93555039ed30e9da88811c54e7c1628c3ea4e335987450d87f1d3a99d89"
+    },
+    {
+      "id": "hkust-medicine-mbbs-scope-20261106",
+      "url": "https://medicine.hkust.edu.hk/admissions.html",
+      "title": "港科大医学院 · 学士后医学课程申请",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "医学院官网的四年制学士后医学课程（MBBS）招生页。",
+      "claims": [
+        "官网暂定约 2027 年中开放申请，2028/29 学年入学。",
+        "课程开办须获香港医务委员会认证，时间安排仍可能调整。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e9cbb153166d23b1a4acf5b293cb5b1edc33c3c2524cbcca0baaf32b022c0301"
     }
   ],
   "funding": [
@@ -191464,7 +191516,9 @@
             "summary": "介绍页列六类研究范围，学术页介绍本科—博士贯通、联合本科及双主修；这些不是六个学系，也不能直接当作已有本科或硕士毕业生申请普通MPhil/PhD的入口。",
             "sourceIds": [
               "scope-zhizhen-about-20261102",
-              "scope-zhizhen-academics-20261102"
+              "scope-zhizhen-academics-20261102",
+              "cuhk-zhizhen-establishment-20261106",
+              "cuhk-zhizhen-establishment-appendix-20261106"
             ],
             "organizationComplete": false,
             "facultyComplete": false,
@@ -191576,6 +191630,18 @@
               "label": "先看课程面向哪些学生",
               "sourceId": "scope-zhizhen-academics-20261102",
               "scope": "本页介绍本科—博士贯通等培养路线；申请普通研究型硕博时，需另核独立研究学位入口和资格。",
+              "kind": "training_scope"
+            },
+            {
+              "label": "看校方成立公告（2025 年）",
+              "sourceId": "cuhk-zhizhen-establishment-20261106",
+              "scope": "港中文校董会在 2025 年 1 月批准成立致真学院，校方于 2 月 6 日公布。",
+              "kind": "college_scope"
+            },
+            {
+              "label": "看成立时公布的八年贯通培养计划",
+              "sourceId": "cuhk-zhizhen-establishment-appendix-20261106",
+              "scope": "附件描述从本科起步的原计划。已有学位、想单独申请研究型硕博的读者，可另查学院当期招生入口。",
               "kind": "training_scope"
             }
           ]
@@ -197831,14 +197897,23 @@
             "checkedAt": "2026-10-29",
             "status": "not_listed_in_reviewed_pages",
             "sourceIds": [
-              "college-batch-hkust-5-20261029"
+              "college-batch-hkust-5-20261029",
+              "hkust-medicine-mbbs-scope-20261106"
             ],
             "summary": "首页和常见问题主要说明拟办医学教育及学士后入学MBBS。研究主题不等于已设学系，学士后入学也不等于研究型硕博招生。",
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 0
           },
-          "relatedNavigationGroups": []
+          "relatedNavigationGroups": [],
+          "reviewedNavigation": [
+            {
+              "label": "查看学士后医学课程（MBBS）",
+              "sourceId": "hkust-medicine-mbbs-scope-20261106",
+              "scope": "这份招生页针对四年制医学学士课程。官网暂定约 2027 年中开放申请、2028/29 学年入学，课程开办须获认证。研究型硕博请另查相应项目页。",
+              "kind": "training_scope"
+            }
+          ]
         },
         {
           "id": "hkust-6",
@@ -219835,5 +219910,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:c7c14744f612dafeadc203966bf8c8d3b438fad04388a31ceb820118e74e70fb"
+  "snapshotId": "sha256:bfa956c7fa02a241c42115d6bc5c4fdd975a575b28c01913b2dc9594eab0a8fe"
 }

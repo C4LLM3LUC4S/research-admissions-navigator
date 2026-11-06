@@ -1,0 +1,54 @@
+{
+  "unitId": "cuhk-zhizhen",
+  "sources": [
+    {
+      "id": "cuhk-zhizhen-establishment-20261106",
+      "url": "https://www.cpr.cuhk.edu.hk/en/press/cuhk-hosts-chinese-new-year-media-gathering-and-announces-the-establishment-of-the-zhizhen-school-of-interdisciplinary-mathematical-sciences/",
+      "title": "港中文致真学院成立公告（2025 年）",
+      "checkedAt": "2026-11-06",
+      "publishedAt": "2025-02-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "港中文校方新闻，记载学院成立经过。",
+      "claims": [
+        "港中文校董会于 2025 年 1 月批准成立致真交叉数学科学学院，校方于 2 月 6 日公布。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a0d0e93555039ed30e9da88811c54e7c1628c3ea4e335987450d87f1d3a99d89"
+    },
+    {
+      "id": "cuhk-zhizhen-establishment-appendix-20261106",
+      "url": "https://www.cpr.cuhk.edu.hk/wp-content/uploads/newscentre/pressrelease/Zhizhen-School-of-Interdisciplinary-Mathematical-Sciences.pdf",
+      "title": "港中文致真学院成立时的培养计划（2025 年附件）",
+      "checkedAt": "2026-11-06",
+      "publishedAt": "2025-02-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2025 年校方成立公告附件，介绍当时规划的本科至博士贯通路线。",
+      "claims": [
+        "原计划为八年，包含三年数学基础、两年科研训练及三年博士阶段。",
+        "附件计划首届于 2025/26 入学。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a0d0e93555039ed30e9da88811c54e7c1628c3ea4e335987450d87f1d3a99d89"
+    }
+  ],
+  "reviewedNavigation": [
+    {
+      "label": "看校方成立公告（2025 年）",
+      "sourceId": "cuhk-zhizhen-establishment-20261106",
+      "scope": "港中文校董会在 2025 年 1 月批准成立致真学院，校方于 2 月 6 日公布。",
+      "kind": "college_scope"
+    },
+    {
+      "label": "看成立时公布的八年贯通培养计划",
+      "sourceId": "cuhk-zhizhen-establishment-appendix-20261106",
+      "scope": "附件描述从本科起步的原计划。已有学位、想单独申请研究型硕博的读者，可另查学院当期招生入口。",
+      "kind": "training_scope"
+    }
+  ]
+}

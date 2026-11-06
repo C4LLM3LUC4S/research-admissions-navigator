@@ -1,0 +1,30 @@
+{
+  "unitId": "hkust-5",
+  "sources": [
+    {
+      "id": "hkust-medicine-mbbs-scope-20261106",
+      "url": "https://medicine.hkust.edu.hk/admissions.html",
+      "title": "港科大医学院 · 学士后医学课程申请",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "医学院官网的四年制学士后医学课程（MBBS）招生页。",
+      "claims": [
+        "官网暂定约 2027 年中开放申请，2028/29 学年入学。",
+        "课程开办须获香港医务委员会认证，时间安排仍可能调整。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e9cbb153166d23b1a4acf5b293cb5b1edc33c3c2524cbcca0baaf32b022c0301"
+    }
+  ],
+  "reviewedNavigation": [
+    {
+      "label": "查看学士后医学课程（MBBS）",
+      "sourceId": "hkust-medicine-mbbs-scope-20261106",
+      "scope": "这份招生页针对四年制医学学士课程。官网暂定约 2027 年中开放申请、2028/29 学年入学，课程开办须获认证。研究型硕博请另查相应项目页。",
+      "kind": "training_scope"
+    }
+  ]
+}
