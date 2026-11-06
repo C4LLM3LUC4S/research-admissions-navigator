@@ -167861,6 +167861,26 @@ window.APP_CATALOG = {
       "readReceiptSha256": "e9cbb153166d23b1a4acf5b293cb5b1edc33c3c2524cbcca0baaf32b022c0301"
     },
     {
+      "id": "hkustgz-cft-establishment-20261106",
+      "url": "https://www.hkust-gz.edu.cn/zh/2023/03/16/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E6%AD%A3%E5%BC%8F%E6%88%90%E7%AB%8B/?variant=zh-hk",
+      "title": "港科广未来技术学院成立公告（2023 年）",
+      "publishedAt": "2023-03-16",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "成立时的组织归属、职责与三个组成部分。",
+      "claims": [
+        "成立公告将未来技术学院列为副校长（教学）办公室下的学术单位，负责红鸟研究型硕士项目。",
+        "公告列红鸟硕士学部、未来技术实验室和红鸟学创大教室三个组成部分。"
+      ],
+      "knownIssues": [
+        "此处沿用 2023 年公告的称谓。当期组织架构请查学院最新资料。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "c20a28f029b239693b401c1839a1005710bf5d31ceb65794b17c055b5ebbc269"
+    },
+    {
       "id": "cityu-annual-report-2024-25-colleges-20261106",
       "url": "https://www.cityu.edu.hk/annual-report/2024-25/assets/pdf/CityUAR_2025.pdf",
       "title": "港城大 2024/25 年报：计算学院与生物医学学院",
@@ -218905,7 +218925,8 @@ window.APP_CATALOG = {
             "status": "components_only",
             "summary": "院长寄语说明红鸟研究型硕士的跨学科培养和学术研究结合产业实践，不是下属学系清单或当期招生公告。原三个学院组成部分保留；原行政架构页未读到的记录也保留。",
             "sourceIds": [
-              "deep-cft-dean-message-20261102"
+              "deep-cft-dean-message-20261102",
+              "hkustgz-cft-establishment-20261106"
             ],
             "organizationComplete": false,
             "facultyComplete": false,
@@ -218979,6 +219000,12 @@ window.APP_CATALOG = {
               "sourceId": "deep-cft-dean-message-20261102",
               "scope": "这是院长寄语；当期申请条件、导师制度和实时余位仍需到招生页分别核实。",
               "kind": "training_scope"
+            },
+            {
+              "label": "查看未来技术学院成立公告（2023 年）",
+              "sourceId": "hkustgz-cft-establishment-20261106",
+              "scope": "校方当时列出红鸟硕士学部、未来技术实验室和红鸟学创大教室。下方另列现有学院资料使用的称谓。",
+              "kind": "college_scope"
             }
           ]
         },
@@ -220556,5 +220583,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:a222409770947264061f7aadaedb01599b3403ab9eb48bdc1f109f352d509b74"
+  "snapshotId": "sha256:ae65c6f49a14ca671378412ac8aa71f88f791787afda0570309f5747bec1da8e"
 };
