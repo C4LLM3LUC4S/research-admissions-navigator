@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0a28",
-  "stage": "experimental_alpha28_candidate",
+  "version": "0.1.0a29",
+  "stage": "experimental_alpha29_candidate",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-05",
   "working_name": "研向",
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 40,
     "degree_routes": 66,
     "faculty": 1378,
-    "official_sources": 2101,
+    "official_sources": 2071,
     "programmes_with_partial_requirements": 38,
     "requirement_items": 165,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 72,
     "teacher_linked_sources": 461,
-    "total_sources": 2562,
+    "total_sources": 2565,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -333,8 +333,8 @@
       "envrStaticShellExcluded": true
     }
   },
-  "release_scope_note": "Subject-search and scrollable-sidebar release with consolidated post-a27 unit entrances; partial seven-school coverage. Actual public assets accepted separately after publishing.",
-  "unreleased_source_note": "Alpha28 candidate includes the consolidated exact-source UI and unit updates. Published alpha27 stays unchanged; candidate is not public bytes.",
+  "release_scope_note": "中文院系导航、申请卡片简化及三份院系官网正文。实际公开附件和浏览器验收分别记录。",
+  "unreleased_source_note": "对应源码和资料快照随发行包提供。",
   "released_changes_a27": [
     "港大法学院2024行政统一声明与城大商学院实给HTTPS入口",
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
@@ -352,9 +352,6 @@
     "港科大跨学科学院四个学部首页与所给下一入口接入。AMC两种学位轮次、EMIA平台角色、ISD教学与人员分类、PPOL三研究主题与跨校关联身份分开；环境学部动态正文另留待接，不把静态空壳当完整导航。",
     "原目录已列下层单位、学科领域、研究机构和研究学位导航均进搜索索引，保留原分类和上下层关系。"
   ],
-  "unreleased_changes": [
-    "首页和结果卡片优先显示申请者的下一步，完整申请流程、条件和来源按需展开。"
-  ],
   "copy_navigation_review": {
     "date": "2026-11-06",
     "sourceCatalogueUnchanged": true,
@@ -362,5 +359,10 @@
     "realUI": "pending: normal Windows Computer Use could not establish opened Edge URL; no further UI input or alternate channel",
     "publicVersion": "0.1.0a28",
     "published": false
-  }
+  },
+  "released_changes_a29": [
+    "院系目录、师资卡片和专业搜索优先显示中文名称，并保留英文原名。",
+    "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
+    "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
+  ]
 }
