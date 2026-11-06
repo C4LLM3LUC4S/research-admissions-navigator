@@ -13,7 +13,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-05"
+CHECKED = "2026-11-06"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -610,6 +610,9 @@ def build_catalog():
     catalog["sources"].extend(medicine_and_environment["sources"])
     catalog["academicEntryFollowups"].extend(medicine_and_environment["entries"])
     catalog["academicChildDocuments"] = [medicine_and_environment["childDocument"]]
+    structures = load("medicine-environment-structure-20261106.json")
+    catalog["sources"].extend(structures["sources"])
+    catalog["academicChildDocuments"].extend(structures["documents"])
     return catalog
 
 
@@ -879,8 +882,27 @@ def validate(catalog):
         assert source["evidenceLevel"] == "official_scoped_body_read"
         assert source["url"] == source["originalUrl"] == source["retrievedUrl"]
         assert source["url"] != child["url"], "A related page must keep its own URL and body receipt"
-        assert urlsplit(source["url"]).netloc == urlsplit(child["url"]).netloc
-        assert child.get("bodySha256") != source["bodySha256"], "Do not substitute the separate document for the unit root"
+        if "providedBySourceId" in document:
+            provider_id = document["providedBySourceId"]
+            assert source["url"] in sources[provider_id]["discoveredLinks"]
+            assert any(provider_id in followup["sourceIds"] and followup["url"] == child["url"]
+                       for followup in catalog["academicEntryFollowups"]) or any(
+                           old["sourceId"] == provider_id and old["childUrl"] == child["url"]
+                           and old["parentUnitId"] == parent["id"]
+                           for old in catalog["academicChildDocuments"])
+        else:
+            assert urlsplit(source["url"]).netloc == urlsplit(child["url"]).netloc
+        if "bodySha256" in source:
+            assert child.get("bodySha256") != source["bodySha256"], "Do not substitute the separate document for the unit root"
+        if document.get("items"):
+            kind = document["itemKind"]
+            assert kind in {"research_centres", "research_themes"}
+            names = [item["observedLabel"] for item in document["items"]]
+            assert len(names) == len(set(names)) and all(names)
+            for item in document["items"]:
+                assert item["label"]
+                if item["url"] is not None:
+                    assert kind == "research_centres" and item["url"] in source["discoveredLinks"]
         for entry in document["nextEntries"]:
             assert entry["url"] in source["discoveredLinks"]
             assert entry["bodyStatus"] == "not_read"

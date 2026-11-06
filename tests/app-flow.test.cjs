@@ -38,12 +38,21 @@ test('applicants can follow the nursing, public health and separate environment 
  assert.ok(nursing&&publicHealth);
  assert.ok(h.walk(nursing).some(n=>n.href==='https://www.nur.cuhk.edu.hk/education/postgraduate-programmes/mphil-phd-in-nursing/'));
  assert.ok(h.walk(publicHealth).some(n=>n.href==='https://sphpc.cuhk.edu.hk/our-centres/'));
+ const centres=nodes.find(n=>n.className==='source-details unit-related-document'&&n.textContent.includes('公共卫生及基层医疗研究中心'));
+ assert.ok(centres);
+ const rows=centres.children.find(n=>n.tagName==='ul').children;
+ assert.equal(rows.length,10);
+ assert.ok(rows.some(n=>n.textContent.includes('职业与环境健康研究中心')&&!h.walk(n).some(x=>x.href)));
+ assert.ok(rows.some(n=>h.walk(n).some(x=>x.href==='https://www2.ccrb.cuhk.edu.hk/web/')));
+ assert.ok(nodes.some(n=>n.className==='source-details unit-related-document'&&n.textContent.includes('1991 年设立')));
  h.select('hkust','PhD',[]);await el('profile-form').emit('input');
  const doc=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-related-document');
  assert.ok(doc);
  assert.ok(h.walk(doc).some(n=>n.href==='https://envr.ust.hk/our-division/message-from-division-head.html'));
  assert.ok(h.walk(doc).some(n=>n.href==='https://envr.ust.hk/our-division/people/faculty-staff.html'));
  assert.ok(!h.walk(doc).some(n=>n.href?.startsWith('http://')));
+ const themes=h.walk(el('academic-coverage')).find(n=>n.className==='source-details unit-related-document'&&n.textContent.includes('空气与健康'));
+ assert.equal(themes.children.find(n=>n.tagName==='ul').children.length,3);
  assert.equal(h.networkCalls(),0);
 });
 
