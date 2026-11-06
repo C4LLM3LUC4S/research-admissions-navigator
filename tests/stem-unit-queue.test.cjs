@@ -2,20 +2,29 @@
 const test=require('node:test'),assert=require('node:assert/strict'),fs=require('node:fs'),path=require('node:path');
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),old=read('data/snapshots/c0a3dd526c423dcddc3a1cca0ebbbc57ddfd15a7b8d6444fc40a13f2c3a63ac7.json'),P=read('data/research/stem-unit-queue-20261105.json');
+function assertPriorRecords(prior) {
+ const updatedFields = new Set(['sources', 'academicEntryFollowups', 'snapshotId', 'checkedDate']);
+ assert.match(C.checkedDate, /^\d{4}-\d{2}-\d{2}$/);
+ assert.ok(C.checkedDate >= prior.checkedDate);
+ for (const key of Object.keys(prior)) {
+   if (!updatedFields.has(key)) assert.deepEqual(C[key], prior[key]);
+ }
+}
 test('STEM continuation keeps every prior source and record and reuses five dated bodies without rewriting them',()=>{
- for(const k of Object.keys(old).filter(k=>!['sources','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[k],old[k]);assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length,old.sources.length+P.sources.length),P.sources);assert.deepEqual(C.academicEntryFollowups.slice(0,old.academicEntryFollowups.length),old.academicEntryFollowups);assert.deepEqual(C.academicEntryFollowups.slice(old.academicEntryFollowups.length,old.academicEntryFollowups.length+P.entries.length),P.entries);assert.deepEqual(C.academicUnitNotes,P.academicUnitNotes);
+ assertPriorRecords(old);
+ assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length,old.sources.length+P.sources.length),P.sources);assert.deepEqual(C.academicEntryFollowups.slice(0,old.academicEntryFollowups.length),old.academicEntryFollowups);assert.deepEqual(C.academicEntryFollowups.slice(old.academicEntryFollowups.length,old.academicEntryFollowups.length+P.entries.length),P.entries);assert.deepEqual(C.academicUnitNotes,P.academicUnitNotes);
  assert.equal(P.sources.length,6);assert.equal(P.entries.length,4);assert.equal(P.reusedSourceIds.length,5);for(const id of P.reusedSourceIds){const s=C.sources.find(s=>s.id===id);assert.equal(s.checkedAt,old.sources.find(x=>x.id===id).checkedAt);assert.ok(s.checkedAt<'2026-11-05');}assert.equal(C.faculty.length,1378);assert.equal(C.programs.length,40);
 });
 
 test('Architecture entrance batch preserves the full prior catalogue and adds only its declared sources and followups',()=>{
  const prior=read('data/snapshots/b65961778358e71b96b5343faba9466b26533700c7bd4bcebad9e90459e877f6.json'),p=read('data/research/hku-architecture-unit-entrances-20261105.json');
- for(const k of Object.keys(prior).filter(k=>!['sources','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[k],prior[k]);
+ assertPriorRecords(prior);
  assert.deepEqual(C.sources.slice(0,prior.sources.length+p.sources.length),prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups.slice(0,prior.academicEntryFollowups.length+p.entries.length),prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,3);assert.equal(p.entries.length,3);assert.equal(p.newFaculty,0);
 });
 
 test('AIS unit entrances preserve old hierarchy and sources and keep recruitment and unit completion unknown',()=>{
  const prior=read('data/snapshots/eb43f4fc7178398726ee94255259835b2cb616d0c4cf03b637d0b16a47bfad58.json'),p=read('data/research/hkust-ais-unit-entrances-20261105.json');
- for(const k of Object.keys(prior).filter(k=>!['sources','academicEntryFollowups','snapshotId'].includes(k)))assert.deepEqual(C[k],prior[k]);
+ assertPriorRecords(prior);
  assert.deepEqual(C.sources.slice(0,prior.sources.length+p.sources.length),prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups.slice(0,prior.academicEntryFollowups.length+p.entries.length),prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,4);assert.equal(p.newFaculty,0);
  for(const entry of p.entries){assert.equal(entry.organizationComplete,false);assert.equal(entry.facultyComplete,false);for(const next of entry.nextEntries){assert.equal(next.availability,'unknown');assert.equal(next.supervisionEligibility,'unknown');}}
  assert.match(p.entries.find(e=>e.url==='https://amc.hkust.edu.hk').summary,/MA、MFA.*2027\/28.*MPhil \/ PhD.*2026\/27/);assert.ok(!p.entries.some(e=>e.url==='https://envr.ust.hk/'));
