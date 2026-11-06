@@ -616,6 +616,9 @@ def build_catalog():
     polyu_september = load("polyu-sept-2027-programmes-20261106.json")
     catalog["sources"].extend(polyu_september["sources"])
     catalog["programs"].extend(polyu_september["programmes"])
+    hku_materials = load("hku-materials-energy-20261106.json")
+    catalog["sources"].extend(hku_materials["sources"])
+    catalog["academicChildDocuments"].extend(hku_materials["documents"])
     return catalog
 
 
