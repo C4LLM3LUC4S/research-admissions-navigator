@@ -507,7 +507,9 @@ test('a changed catalog is explained without erasing the saved application notes
 });
 
 test('the real intake selector changes the date rows and survives portable save and restore',async()=>{
-  const h=harness(),el=id=>h.byId.get(id);h.select('cuhksz','MPhil',[]);
+  const ids=new Set(['cuhksz-ai-rpg','cuhksz-sse-cie']);
+  const catalog={...C,programs:C.programs.filter(p=>ids.has(p.id))};
+  const h=harness(undefined,{catalog}),el=id=>h.byId.get(id);h.select('cuhksz','MPhil',[]);
   el('intake-cycle').value='2026/27 Spring';await el('profile-form').emit('input');
   assert.equal(el('results').childElementCount,2);
   assert.match(el('results').textContent,/2026-10-15/);assert.match(el('results').textContent,/2026-10-31/);
