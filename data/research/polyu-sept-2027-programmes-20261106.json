@@ -1,0 +1,344 @@
+{
+  "sources": [
+    {
+      "id": "polyu-sft-sept-2027-20261106",
+      "title": "港理工 · 时装及纺织研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/sft",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。可了解服装技术、纺织材料、纺织化学与功能材料等研究方向。",
+      "claims": [
+        "官网列出 MPhil / PhD，常规申请截止日为 2027-05-31。",
+        "在研究计划表 GSB1A 第 1 项填写已确认或拟联系的主要导师姓名。可以先按方向找老师讨论。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "4f7e8aac207aff6db03802a303c2b2295207661262c12711ccff607b0af67ea1"
+    },
+    {
+      "id": "polyu-sd-sept-2027-20261106",
+      "title": "港理工 · 设计学博士 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/sd",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。研究方向包括智设计、福设计和善设计。",
+      "claims": [
+        "官网列出 PhD，常规申请截止日为 2027-05-31。",
+        "学院建议先联系方向合适的老师，听取对研究计划的意见。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "4f7e8aac207aff6db03802a303c2b2295207661262c12711ccff607b0af67ea1"
+    },
+    {
+      "id": "polyu-so-sept-2027-20261106",
+      "title": "港理工 · 眼科视光学研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/so",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制或兼读。可从近视或眼部老化两类研究方向入手。",
+      "claims": [
+        "官网列出 MPhil / PhD，常规申请截止日为 2027-04-30。",
+        "学院鼓励先和相关老师讨论研究计划。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "4925d357aee0412fe3d94a9619bf1891634906ffe98891ac935895ef96da4612"
+    },
+    {
+      "id": "polyu-shtm-sept-2027-20261106",
+      "title": "港理工 · 酒店及旅游业管理博士 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/shtm",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学，全日制。官网优先考虑智慧旅游、绩效管理、旅游预测及政策规划等研究主题。",
+      "claims": [
+        "官网列出 PhD，常规申请截止日为 2027-01-15。",
+        "可从官网的研究方向查看各老师的研究领域。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "4925d357aee0412fe3d94a9619bf1891634906ffe98891ac935895ef96da4612"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "polyu-sft-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "时装及纺织研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。可了解服装技术、纺织材料、纺织化学与功能材料等研究方向。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/sft",
+      "contact": {
+        "status": "recommended",
+        "text": "在研究计划表 GSB1A 第 1 项填写已确认或拟联系的主要导师姓名。可以先按方向找老师讨论。",
+        "sourceIds": [
+          "polyu-sft-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "项目页没有列出具体审核流程，可向学院查询。",
+        "sourceIds": [
+          "polyu-sft-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-sft-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-sft-sept-2027-20261106"
+      ],
+      "evidenceNote": "方向页列出的导师用于查找研究方向，招生名额请向学院确认。",
+      "requirements": [
+        {
+          "label": "研究计划",
+          "text": "使用官网的 GSB1A 标准表，填写已确认或拟联系的主要导师。",
+          "action": "打开原页下载研究计划表并填写导师信息",
+          "sourceIds": [
+            "polyu-sft-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "两份学术推荐报告",
+          "text": "推荐人须使用所属大学的官方邮箱提交。",
+          "action": "请两位学术推荐人确认可用的大学邮箱",
+          "sourceIds": [
+            "polyu-sft-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "简历、个人陈述和学历材料",
+          "text": "简历、个人陈述、成绩单及学历证明列为必交。",
+          "action": "准备简历、个人陈述和成绩单及学历证明",
+          "sourceIds": [
+            "polyu-sft-sept-2027-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-sd-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "设计学博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。研究方向包括智设计、福设计和善设计。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/sd",
+      "contact": {
+        "status": "recommended",
+        "text": "学院建议先联系方向合适的老师，听取对研究计划的意见。",
+        "sourceIds": [
+          "polyu-sd-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "官网说明，全日制博士申请会优先考虑申请香港博士研究生奖学金计划（HKPFS）的申请人。",
+        "sourceIds": [
+          "polyu-sd-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-sd-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-sd-sept-2027-20261106"
+      ],
+      "evidenceNote": "本条日期适用于官网所列 2027 年 9 月常规申请。",
+      "requirements": [
+        {
+          "label": "研究计划和两份学术推荐报告",
+          "text": "研究计划须使用标准表。官网同时要求两份学术推荐报告。",
+          "action": "打开原页下载研究计划表并联系两位推荐人",
+          "sourceIds": [
+            "polyu-sd-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "简历、个人陈述和学历材料",
+          "text": "简历、个人陈述、成绩单及学历证明列为必交。",
+          "action": "准备简历、个人陈述和成绩单及学历证明",
+          "sourceIds": [
+            "polyu-sd-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "未持认可英语授课学位者提交英语考试成绩。可用就读院校出具的正式文件证明授课语言。",
+          "action": "确认应提交英语成绩还是院校出具的授课语言证明",
+          "sourceIds": [
+            "polyu-sd-sept-2027-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-so-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "眼科视光学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。可从近视或眼部老化两类研究方向入手。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/so",
+      "contact": {
+        "status": "recommended",
+        "text": "学院鼓励先和相关老师讨论研究计划。",
+        "sourceIds": [
+          "polyu-so-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "项目页没有列出具体审核流程，可向学院查询。",
+        "sourceIds": [
+          "polyu-so-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-04-30（官网未说明具体时间）",
+          "date": "2027-04-30",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-so-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-so-sept-2027-20261106"
+      ],
+      "evidenceNote": "这是研究学位的申请页。",
+      "requirements": [
+        {
+          "label": "两份学术推荐报告",
+          "text": "请找了解你学业表现的学术推荐人。拟指导你的导师及非学术背景人士不适合作为推荐人。",
+          "action": "联系两位合适的学术推荐人",
+          "sourceIds": [
+            "polyu-so-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "研究计划、简历和学历材料",
+          "text": "研究计划须使用官网标准表，并提交简历、成绩单及学历证明。",
+          "action": "下载研究计划表并准备简历、成绩单及学历证明",
+          "sourceIds": [
+            "polyu-so-sept-2027-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-shtm-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "酒店及旅游业管理博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制。官网优先考虑智慧旅游、绩效管理、旅游预测及政策规划等研究主题。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/shtm",
+      "contact": {
+        "status": "unknown",
+        "text": "可从官网的研究方向查看各老师的研究领域。",
+        "sourceIds": [
+          "polyu-shtm-sept-2027-20261106"
+        ]
+      },
+      "selection": {
+        "text": "学院会看研究计划的质量及选题与方向的契合程度。",
+        "sourceIds": [
+          "polyu-shtm-sept-2027-20261106"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-01-15（官网未说明具体时间）",
+          "date": "2027-01-15",
+          "at": null,
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-shtm-sept-2027-20261106"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-shtm-sept-2027-20261106"
+      ],
+      "evidenceNote": "官网申请页列的是全日制博士。",
+      "requirements": [
+        {
+          "label": "学历和行业经验",
+          "text": "通常须有研究型硕士或同等资格及学士学位，至少一个学位须为酒店旅游管理或相关领域。通常须有至少两年工作经验，其中至少一年为行业或相关经验。学院可酌情考虑例外。硕士无论文研究部分的申请人须提供其他研究经历证明。",
+          "action": "逐项核对学历、行业经验和研究经历，查看官网的例外条件",
+          "sourceIds": [
+            "polyu-shtm-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "研究计划和个人陈述",
+          "text": "研究计划须使用标准表，1,200–1,800 词（不含参考文献）。个人陈述不超过 400 词。",
+          "action": "下载研究计划表，分别核对两项材料的字数",
+          "sourceIds": [
+            "polyu-shtm-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "推荐报告、简历和学历材料",
+          "text": "须提交两份学术推荐报告、简历、学位证书及正式成绩单。简历需写明各段工作经历的时间和性质。",
+          "action": "联系两位推荐人，准备简历和正式学历材料",
+          "sourceIds": [
+            "polyu-shtm-sept-2027-20261106"
+          ]
+        },
+        {
+          "label": "英语成绩和有效期",
+          "text": "未持认可英语授课学位者，雅思学术类总分至少 6.5、写作 6.0。托福 iBT 旧量表总分 92、写作 23；自 2026 年 1 月 21 日起参加考试，按新量表总分 5、写作 4.5。成绩有效期两年。",
+          "action": "按考试日期核对量表、写作分数和有效期",
+          "sourceIds": [
+            "polyu-shtm-sept-2027-20261106"
+          ]
+        }
+      ]
+    }
+  ]
+}

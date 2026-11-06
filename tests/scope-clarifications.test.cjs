@@ -4,9 +4,9 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),P=read('data/research/scope-clarifications-20261102.json'),old=read('data/snapshots/d11c2b26bf01e473ba6d9140b2dd0a99f93a7b419efc077817b639c777d0ae73.json');
 const unit=(c,id)=>c.academicCoverage.flatMap(m=>m.units).find(u=>u.id===id);
 test('scope update preserves original entrance receipts, child identities, people, policies and all old evidence dates',()=>{
- for(const key of ['faculty','programs','directories'])assert.deepEqual(key==='directories'?C[key].slice(0,old[key].length):C[key],old[key]);for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
+ for(const key of ['faculty','programs','directories'])assert.deepEqual(key==='faculty'?C[key]:C[key].slice(0,old[key].length),old[key]);for(const s of old.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);
  for(const p of P.units){const u=unit(C,p.unitId),prior=unit(old,p.unitId);for(const key of ['url','retrievedUrl','sourceIds','bodySha256','readMethod','entryBodyStatus','children','staffEntries'])assert.deepEqual(u[key],prior[key],p.unitId+' '+key);assert.deepEqual(u.priorOrganizationReview,prior.organizationReview);}
- for(const s of P.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);assert.ok(C.sources.length>=old.sources.length+P.sources.length);assert.equal(P.units.length,5);assert.equal(C.programs.length,40);assert.equal(C.academicCoverage.reduce((n,m)=>n+m.units.reduce((a,u)=>a+u.children.length,0),0),230);
+ for(const s of P.sources)assert.deepEqual(C.sources.find(x=>x.id===s.id),s);assert.ok(C.sources.length>=old.sources.length+P.sources.length);assert.equal(P.units.length,5);assert.equal(C.academicCoverage.reduce((n,m)=>n+m.units.reduce((a,u)=>a+u.children.length,0),0),230);
 });
 test('research fields, undergraduate training, labs and institutes do not turn into departments or vacant places',()=>{
  const math=unit(C,'cuhk-zhizhen');assert.equal(math.children.length,0);assert.match(math.organizationReview.summary,/本科—博士贯通/);assert.equal(math.relatedNavigationGroups[0].entries.length,6);

@@ -4,7 +4,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),P=read('data/research/college-priority-20261029.json');
 test('college review accounts for every academic and support node without changing teachers or policies',()=>{
  const old=read('data/snapshots/b03d222d05f9da8470eb26bcf4835c71cfe74a86b9c38c7530ae6b84a187c931.json');
- for(const key of ['faculty','programs'])assert.deepEqual(C[key],old[key]);
+ assert.deepEqual(C.faculty,old.faculty);assert.deepEqual(C.programs.slice(0,old.programs.length),old.programs);
  for(const row of old.sources)assert.deepEqual(C.sources.find(s=>s.id===row.id),row);
  assert.equal(P.reviews.length,7);assert.equal(P.reviews.reduce((n,r)=>n+r.academicUnitsListed,0),60);assert.equal(P.reviews.reduce((n,r)=>n+r.supportUnitIds.length,0),6);
  for(const r of P.reviews){assert.equal(r.wholeUniversityHierarchyComplete,false);assert.equal(r.departmentInventoryStatus,'pending');assert.equal(r.facultyInventoryStatus,'pending');}

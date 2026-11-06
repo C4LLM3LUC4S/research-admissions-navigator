@@ -613,6 +613,9 @@ def build_catalog():
     structures = load("medicine-environment-structure-20261106.json")
     catalog["sources"].extend(structures["sources"])
     catalog["academicChildDocuments"].extend(structures["documents"])
+    polyu_september = load("polyu-sept-2027-programmes-20261106.json")
+    catalog["sources"].extend(polyu_september["sources"])
+    catalog["programs"].extend(polyu_september["programmes"])
     return catalog
 
 
