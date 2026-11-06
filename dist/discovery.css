@@ -18,3 +18,5 @@ input[type=search]{width:100%;border:1px solid #d7dfd8;border-radius:7px;backgro
 .profile-panel:focus-visible{outline:3px solid #609f96;outline-offset:4px}
 
 .contact-next-step{font-size:14px;color:var(--teal);margin:12px 0}.application-process .question-grid{margin:12px 0}.application-process{border-top:1px solid var(--line);padding-top:10px}
+
+.academic-name-original{font-size:.88em;font-weight:400;color:var(--muted);overflow-wrap:anywhere}
