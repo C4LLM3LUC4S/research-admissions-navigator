@@ -180054,6 +180054,152 @@
       "parentSourceId": "cuhksz-sse-research-zhaojunhua-20261107",
       "originalUrl": "https://www.zhaojunhua.org/",
       "retrievedUrl": "https://www.zhaojunhua.org/"
+    },
+    {
+      "id": "gz-infh-ai-about-20261107",
+      "url": "https://infh.hkust-gz.edu.cn/zh/academics/ai/about-ai/",
+      "originalUrl": "https://infh.hkust-gz.edu.cn/zh/academics/ai/about-ai/",
+      "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/ai/about-ai/",
+      "title": "港科广人工智能学域介绍",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学域介绍及研究主题。",
+      "claims": [
+        "机器学习、计算机视觉、强化学习与具身智能。"
+      ],
+      "discoveredLinks": [
+        "https://infh.hkust-gz.edu.cn/zh/academics/ai/faculty-members/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707"
+    },
+    {
+      "id": "gz-infh-cma-about-20261107",
+      "url": "https://infh.hkust-gz.edu.cn/zh/academics/cma/about-cma/",
+      "originalUrl": "https://infh.hkust-gz.edu.cn/zh/academics/cma/about-cma/",
+      "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/cma/about-cma/",
+      "title": "港科广计算媒体与艺术学域介绍",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学域介绍及研究主题。",
+      "claims": [
+        "人机交互、生成艺术、数据可视化与计算机动画。"
+      ],
+      "discoveredLinks": [
+        "https://infh.hkust-gz.edu.cn/zh/academics/cma/faculty-members/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707"
+    },
+    {
+      "id": "gz-infh-dsa-about-20261107",
+      "url": "https://infh.hkust-gz.edu.cn/zh/academics/dsa/about-dsa/",
+      "originalUrl": "https://infh.hkust-gz.edu.cn/zh/academics/dsa/about-dsa/",
+      "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/dsa/about-dsa/",
+      "title": "港科广数据科学与分析学域介绍",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学域介绍及研究主题。",
+      "claims": [
+        "统计学习、数据驱动的机器学习与高性能数据分析。"
+      ],
+      "discoveredLinks": [
+        "https://infh.hkust-gz.edu.cn/zh/academics/dsa/faculty-members/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707"
+    },
+    {
+      "id": "gz-infh-iot-about-20261107",
+      "url": "https://infh.hkust-gz.edu.cn/zh/academics/iot/about-iot/",
+      "originalUrl": "https://infh.hkust-gz.edu.cn/zh/academics/iot/about-iot/",
+      "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/iot/about-iot/",
+      "title": "港科广物联网学域介绍",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学域介绍及研究主题。",
+      "claims": [
+        "通信与信号处理、感知与嵌入式系统、边缘计算和安全隐私。"
+      ],
+      "discoveredLinks": [
+        "https://infh.hkust-gz.edu.cn/zh/academics/iot/faculty-members/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707"
+    },
+    {
+      "id": "gz-infh-programmes-20261107",
+      "url": "https://infh.hkust-gz.edu.cn/zh/programs/",
+      "originalUrl": "https://infh.hkust-gz.edu.cn/zh/programs/",
+      "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/programs/",
+      "title": "港科广信息枢纽：学域与研究学位目录",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "信息枢纽列出的四个学域、研究型项目名称与官网入口。",
+      "claims": [
+        "枢纽分列人工智能、计算媒体与艺术、数据科学与分析和物联网。",
+        "项目总览把研究型项目与本科、授课型硕士分开。"
+      ],
+      "discoveredLinks": [
+        "https://infh.hkust-gz.edu.cn/zh/academics/ai/about-ai/",
+        "https://infh.hkust-gz.edu.cn/zh/academics/ai/faculty-members/",
+        "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=artificial-intelligence-27&yearOfEntry=2027%2F28",
+        "https://infh.hkust-gz.edu.cn/zh/academics/cma/about-cma/",
+        "https://infh.hkust-gz.edu.cn/zh/academics/cma/faculty-members/",
+        "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=computational-media-and-arts-27&yearOfEntry=2027%2F28",
+        "https://infh.hkust-gz.edu.cn/zh/academics/dsa/about-dsa/",
+        "https://infh.hkust-gz.edu.cn/zh/academics/dsa/faculty-members/",
+        "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=data-science-and-analytics-27&yearOfEntry=2027%2F28",
+        "https://infh.hkust-gz.edu.cn/zh/academics/iot/about-iot/",
+        "https://infh.hkust-gz.edu.cn/zh/academics/iot/faculty-members/",
+        "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=internet-of-things-27&yearOfEntry=2027%2F28"
+      ],
+      "knownIssues": [
+        "2027/28项目链接可到目录外壳，但未读到具体项目正文。不能据总览文字确定该年MPhil能否单独申请。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f657f88646e60390210ef64beb5ea654460087c296f7efb3af38124dfe9ff4ce"
+    },
+    {
+      "id": "cityu-sgs-handbook-unit-scope-20261107",
+      "url": "https://www.cityu.edu.hk/sgs/files/prospective/rpg/Admissions_Handbook.pdf",
+      "originalUrl": "https://www.cityu.edu.hk/sgs/files/prospective/rpg/Admissions_Handbook.pdf",
+      "retrievedUrl": "https://www.cityu.edu.hk/sgs/files/prospective/rpg/Admissions_Handbook.pdf",
+      "title": "港城大研究院申请手册：院系入口（2026年2月）",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "手册第3.1节所列研究学位院系网站。只用于确认该版手册列出的单位和链接。",
+      "claims": [
+        "手册将生物医学工程、生物医学科学和神经科学列在生物医学学院下。",
+        "手册所列28个学系名称与本站既有院系条目相符。"
+      ],
+      "discoveredLinks": [
+        "https://www.cityu.edu.hk/bme/",
+        "https://www.cityu.edu.hk/bms/",
+        "https://www.cityu.edu.hk/neuro/"
+      ],
+      "knownIssues": [
+        "手册中的申请时间不能用于2027/28；校级和学院实时总表未读取。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "542775cb04702f3dce0f7bb24eea3e893488a027fd4da251d540599b159e289d",
+      "publishedMonth": "2026-02"
     }
   ],
   "funding": [
@@ -227157,6 +227303,44 @@
           "entries": [],
           "organizationComplete": false,
           "facultyComplete": false
+        },
+        {
+          "universityId": "cityu",
+          "kind": "historical_admissions_handbook",
+          "sourceId": "cityu-sgs-handbook-unit-scope-20261107",
+          "checkedAt": "2026-11-07",
+          "title": "研究院手册：生物医学学院的三个学系",
+          "summary": "2026 年 2 月发布的研究院手册将生物医学工程、生物医学科学和神经科学列在生物医学学院下。",
+          "caution": "这是手册所列的研究学位院系入口。申请时间和材料请以当期招生页为准。",
+          "entryNote": "下方三个链接来自手册第 3.1 节。",
+          "entries": [
+            {
+              "name": "Department of Biomedical Engineering",
+              "url": "https://www.cityu.edu.hk/bme/",
+              "kind": "department",
+              "bodyStatus": "not_read",
+              "availability": "unknown",
+              "supervisionEligibility": "unknown"
+            },
+            {
+              "name": "Department of Biomedical Sciences",
+              "url": "https://www.cityu.edu.hk/bms/",
+              "kind": "department",
+              "bodyStatus": "not_read",
+              "availability": "unknown",
+              "supervisionEligibility": "unknown"
+            },
+            {
+              "name": "Department of Neuroscience",
+              "url": "https://www.cityu.edu.hk/neuro/",
+              "kind": "department",
+              "bodyStatus": "not_read",
+              "availability": "unknown",
+              "supervisionEligibility": "unknown"
+            }
+          ],
+          "organizationComplete": false,
+          "facultyComplete": false
         }
       ]
     },
@@ -235603,21 +235787,220 @@
               "availability": "unknown"
             }
           ],
-          "staffEntries": [],
+          "staffEntries": [
+            {
+              "label": "人工智能 · 教师名录",
+              "url": "https://infh.hkust-gz.edu.cn/zh/academics/ai/faculty-members/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "gz-infh-programmes-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "可打开学域名录查看。当前只核到目录入口，具名名单和分页待核。"
+            },
+            {
+              "label": "计算媒体与艺术 · 教师名录",
+              "url": "https://infh.hkust-gz.edu.cn/zh/academics/cma/faculty-members/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "gz-infh-programmes-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "可打开学域名录查看。当前只核到目录入口，具名名单和分页待核。"
+            },
+            {
+              "label": "数据科学与分析 · 教师名录",
+              "url": "https://infh.hkust-gz.edu.cn/zh/academics/dsa/faculty-members/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "gz-infh-programmes-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "可打开学域名录查看。当前只核到目录入口，具名名单和分页待核。"
+            },
+            {
+              "label": "物联网 · 教师名录",
+              "url": "https://infh.hkust-gz.edu.cn/zh/academics/iot/faculty-members/",
+              "entryBodyStatus": "not_read",
+              "sourceIds": [
+                "gz-infh-programmes-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "可打开学域名录查看。当前只核到目录入口，具名名单和分页待核。"
+            }
+          ],
           "bodySha256": "05d962f5d472a00dede7b21db3e87221dacf07226cb434b0c5d7562cdb146ef0",
           "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/?variant=zh-cn",
           "organizationReview": {
             "checkedAt": "2026-10-29",
             "status": "listed_children_matched",
             "sourceIds": [
-              "organization-gz-information-20261029"
+              "organization-gz-information-20261029",
+              "gz-infh-programmes-20261107",
+              "gz-infh-ai-about-20261107",
+              "gz-infh-cma-about-20261107",
+              "gz-infh-dsa-about-20261107",
+              "gz-infh-iot-about-20261107"
             ],
             "summary": "本页四个学域的名称和归属已逐项对上。所给链接与学域正文、完整师资及研究学位招生要求分别核查，不把学域数当作可申请导师数。",
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 4
           },
-          "relatedNavigationGroups": []
+          "relatedNavigationGroups": [
+            {
+              "kind": "college_components",
+              "title": "四个学域的官网介绍",
+              "note": "按学域了解研究方向，再到下方查看教师名录。",
+              "sourceIds": [
+                "gz-infh-programmes-20261107",
+                "gz-infh-ai-about-20261107",
+                "gz-infh-cma-about-20261107",
+                "gz-infh-dsa-about-20261107",
+                "gz-infh-iot-about-20261107"
+              ],
+              "entries": [
+                {
+                  "name": "人工智能学域",
+                  "kind": "college_component",
+                  "url": "https://infh.hkust-gz.edu.cn/zh/academics/ai/about-ai/",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107",
+                    "gz-infh-ai-about-20261107"
+                  ],
+                  "entryBodyStatus": "body_read",
+                  "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/ai/about-ai/",
+                  "note": "机器学习、计算机视觉、强化学习与具身智能。",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                },
+                {
+                  "name": "计算媒体与艺术学域",
+                  "kind": "college_component",
+                  "url": "https://infh.hkust-gz.edu.cn/zh/academics/cma/about-cma/",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107",
+                    "gz-infh-cma-about-20261107"
+                  ],
+                  "entryBodyStatus": "body_read",
+                  "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/cma/about-cma/",
+                  "note": "人机交互、生成艺术、数据可视化与计算机动画。",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                },
+                {
+                  "name": "数据科学与分析学域",
+                  "kind": "college_component",
+                  "url": "https://infh.hkust-gz.edu.cn/zh/academics/dsa/about-dsa/",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107",
+                    "gz-infh-dsa-about-20261107"
+                  ],
+                  "entryBodyStatus": "body_read",
+                  "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/dsa/about-dsa/",
+                  "note": "统计学习、数据驱动的机器学习与高性能数据分析。",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                },
+                {
+                  "name": "物联网学域",
+                  "kind": "college_component",
+                  "url": "https://infh.hkust-gz.edu.cn/zh/academics/iot/about-iot/",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107",
+                    "gz-infh-iot-about-20261107"
+                  ],
+                  "entryBodyStatus": "body_read",
+                  "retrievedUrl": "https://infh.hkust-gz.edu.cn/zh/academics/iot/about-iot/",
+                  "note": "通信与信号处理、感知与嵌入式系统、边缘计算和安全隐私。",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "f4cbbdeef1ec4455acc5cf0465cbd5a367384d81dcbf48edec8e4aec4535e707",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                }
+              ]
+            },
+            {
+              "kind": "research_degree_navigation",
+              "title": "各学域研究学位目录",
+              "note": "这些入口通往研究院目录。请在原页确认该学年开放的学位、材料和日期。",
+              "sourceIds": [
+                "gz-infh-programmes-20261107"
+              ],
+              "entries": [
+                {
+                  "name": "人工智能研究学位目录",
+                  "observedName": "人工智能哲学硕士/博士",
+                  "kind": "research_degree_navigation",
+                  "url": "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=artificial-intelligence-27&yearOfEntry=2027%2F28",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                },
+                {
+                  "name": "计算媒体与艺术研究学位目录",
+                  "observedName": "计算媒体与艺术哲学硕士/博士",
+                  "kind": "research_degree_navigation",
+                  "url": "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=computational-media-and-arts-27&yearOfEntry=2027%2F28",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                },
+                {
+                  "name": "数据科学与分析研究学位目录",
+                  "observedName": "数据科学与分析哲学硕士/博士",
+                  "kind": "research_degree_navigation",
+                  "url": "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=data-science-and-analytics-27&yearOfEntry=2027%2F28",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                },
+                {
+                  "name": "物联网研究学位目录",
+                  "observedName": "物联网哲学硕士/博士",
+                  "kind": "research_degree_navigation",
+                  "url": "https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program=internet-of-things-27&yearOfEntry=2027%2F28",
+                  "sourceIds": [
+                    "gz-infh-programmes-20261107"
+                  ],
+                  "entryBodyStatus": "not_read",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown"
+                }
+              ]
+            }
+          ]
         },
         {
           "id": "hkustgz-3",
@@ -238037,5 +238420,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:0b6a10b999a977ee242890ca4def09ab655d206ab9bd0cbab60213945302f82c"
+  "snapshotId": "sha256:475c8e05d4e3b03cedd9aac4a7715c3baca108a66afca79692ed4ba37d313317"
 }
