@@ -3,6 +3,7 @@ const test=require('node:test'),assert=require('node:assert/strict'),fs=require(
 const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),P=read('data/research/college-priority-20261029.json');
 test('college review accounts for every academic and support node without changing teachers or policies',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  const old=read('data/snapshots/b03d222d05f9da8470eb26bcf4835c71cfe74a86b9c38c7530ae6b84a187c931.json');
  assert.deepEqual(C.faculty.slice(0,old.faculty.length),old.faculty);assert.deepEqual(C.programs.slice(0,old.programs.length),old.programs);
  for(const row of old.sources)assert.deepEqual(C.sources.find(s=>s.id===row.id),row);

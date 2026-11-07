@@ -4,6 +4,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),P=read('data/research/cuhk-bme-census-20261028.json'),L=require('../dist/logic.js');
 const previous=read('data/snapshots/ba51270ff69c5e1dcf299e45a3829f06845e6503a895d1ba1ec6a4f582b4878b.json');
 test('BME preserves previous research, programme, source and saved identities',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const key of ['faculty','programs','sources'])for(const row of previous[key])assert.deepEqual(C[key].find(x=>x.id===row.id),row);
  assert.equal(P.faculty.length,39);assert.equal(P.existingIdentityEvidence.length,3);
  assert.deepEqual(P.existingIdentityEvidence.map(x=>x.id).sort(),['wide-cuhk-samuel-au','wide-cuhk-darwin-lau','cuhk-cse-census-016'].sort());

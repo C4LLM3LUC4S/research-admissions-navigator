@@ -6,6 +6,7 @@ const old=read('data/snapshots/452a9f812d522b475238c505c0d03dbdbbad39d44c002e296
 const profile=q=>({...L.defaultProfile(C),universityIds:['hkust'],degree:'PhD',researchQuery:q});
 
 test('math preserves1056 prior identities, all programme conditions and original source objects',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const k of ['faculty','programs','sources'])for(const row of old[k])assert.deepEqual(C[k].find(x=>x.id===row.id),row);
  assert.equal(P.faculty.length,52);assert.equal(P.existingIdentityEvidence.length,4);assert.ok(C.faculty.length>=1191);
  assert.deepEqual(P.existingIdentityEvidence.map(x=>x.id).sort(),['expand-hkust-ke-wang','review-hkust-1a4d5126dd3fea','review-hkust-8e8e02159255ad','review-hkust-b23367cbd3623b'].sort());

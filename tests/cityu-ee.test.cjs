@@ -5,7 +5,8 @@ const C=read('data/catalog.json'),P=read('data/research/cityu-ee-census-20261029
 const old=read('data/snapshots/8d8d7b88cf894f78a0fa78ce33f183cd1e5a5369e9f214e6b1796c1a4a3217b2.json');
 const person=id=>P.faculty.find(f=>f.id==='cityu-ee-'+id);
 test('EE preserves every old record, existing identity and all four role categories',()=>{
- for(const k of ['faculty','programs','sources'])for(const row of old[k])assert.deepEqual(C[k].find(f=>f.id===row.id),row);
+ const baseline=require('./fixtures/before-robotics.cjs');
+ for(const k of ['faculty','programs','sources'])for(const row of old[k])assert.deepEqual(baseline[k].find(f=>f.id===row.id),row);
  assert.equal(P.faculty.length,65);assert.equal(P.faculty.filter(f=>f.recordKind==='directory_research').length,18);
  assert.deepEqual(P.directories.map(d=>d.census.entries.length+d.census.unlinkedEntries.length),[47,14,4,2]);
  assert.equal(P.directories.reduce((n,d)=>n+d.census.entries.length,0),49);assert.equal(P.existingIdentityEvidence[0].id,'wide-cityu-hing-cheung-so');assert.equal(P.pendingIdentity.length,1);

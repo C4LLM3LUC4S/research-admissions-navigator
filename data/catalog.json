@@ -8749,12 +8749,30 @@
         "Trustworthy machine learning",
         "Cyber physical systems",
         "Robotic planning and control",
-        "Industrial automation"
+        "Industrial automation",
+        "控制系统",
+        "形式化方法",
+        "离散事件系统",
+        "博弈论",
+        "可信机器学习",
+        "强化学习",
+        "机器人与自主系统",
+        "信息物理系统",
+        "control systems",
+        "formal methods",
+        "discrete event systems",
+        "game theory",
+        "trustworthy machine learning",
+        "reinforcement learning",
+        "robotics and autonomous systems",
+        "cyber physical systems"
       ],
       "summary": "研究控制与决策、形式化方法和可信机器学习，并应用于机器人规划、自动驾驶及工业自动化。",
       "profileUrl": "https://personal.hkust-gz.edu.cn/jiyiding/",
       "sourceIds": [
-        "wide-hkustgz-yiding-ji-profile"
+        "wide-hkustgz-yiding-ji-profile",
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-66-20261029"
       ],
       "availability": {
         "state": "unknown",
@@ -8765,10 +8783,28 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkustgz-roas"
+        "wide-dir-hkustgz-roas",
+        "gz-roas-directory-20261029"
       ],
       "keywordSourceIds": [
-        "wide-hkustgz-yiding-ji-profile"
+        "wide-hkustgz-yiding-ji-profile",
+        "gz-roas-profile-66-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding",
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "extraLinks": [
+        {
+          "url": "https://personal.hkust-gz.edu.cn/jiyiding/",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-66-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "wide-hkustgz-yiding-ji-profile",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
       ]
     },
     {
@@ -8930,7 +8966,7 @@
       "universityId": "hkustgz",
       "name": "Jun Ma",
       "department": "Systems Hub / Robotics and Autonomous Systems Thrust",
-      "role": "Associate Professor；校内个人页列Associate Thrust Head",
+      "role": "代理学域主任；副教授 · Associate Professor",
       "topics": [
         "机器人与控制",
         "人工智能"
@@ -8938,12 +8974,25 @@
       "researchKeywords": [
         "Robotics",
         "Autonomous driving",
-        "Embodied AI"
+        "Embodied AI",
+        "机器人",
+        "自动驾驶",
+        "具身人工智能",
+        "运动规划与控制",
+        "优化",
+        "强化学习",
+        "Autonomous Driving",
+        "Motion Planning and Control",
+        "Optimization",
+        "Reinforcement Learning"
       ],
       "summary": "研究机器人、自动驾驶和具身智能，并任智能自动驾驶中心主任。",
       "profileUrl": "https://personal.hkust-gz.edu.cn/junma/people-page.html",
       "sourceIds": [
-        "wide-hkustgz-jun-ma-profile"
+        "wide-hkustgz-jun-ma-profile",
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-67-20261029",
+        "gz-roas-linked-67-20261029"
       ],
       "availability": {
         "state": "unknown",
@@ -8954,10 +9003,28 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkustgz-roas"
+        "wide-dir-hkustgz-roas",
+        "gz-roas-directory-20261029"
       ],
       "keywordSourceIds": [
-        "wide-hkustgz-jun-ma-profile"
+        "wide-hkustgz-jun-ma-profile",
+        "gz-roas-profile-67-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jun/eejma",
+      "directoryRole": "代理学域主任；副教授 · Associate Professor",
+      "identityNote": "学域目录列为代理学域主任；保留此前个人页及原收藏编号。",
+      "extraLinks": [
+        {
+          "url": "https://personal.hkust-gz.edu.cn/junma/index.html",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-67-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-roas-linked-67-20261029",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
       ]
     },
     {
@@ -8975,12 +9042,24 @@
         "Driving automation and traffic safety",
         "Motion sickness",
         "Mixed traffic",
-        "Driver monitoring systems"
+        "Driver monitoring systems",
+        "人因",
+        "人机交互",
+        "人与智能体交互",
+        "驾驶自动化",
+        "驾驶员状态估计",
+        "Human Factors",
+        "Human-Robot Interactions",
+        "Human-Agent Interactions",
+        "Driving Automation",
+        "Driver State Estimation"
       ],
       "summary": "研究机器人遥操作、人机交互、自动驾驶安全和驾驶员监测，关注人的状态与行为。",
       "profileUrl": "https://personal.hkust-gz.edu.cn/hedengbo/index.html",
       "sourceIds": [
-        "wide-hkustgz-dengbo-he-profile"
+        "wide-hkustgz-dengbo-he-profile",
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-58-20261029"
       ],
       "availability": {
         "state": "unknown",
@@ -8991,10 +9070,28 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkustgz-roas"
+        "wide-dir-hkustgz-roas",
+        "gz-roas-directory-20261029"
       ],
       "keywordSourceIds": [
-        "wide-hkustgz-dengbo-he-profile"
+        "wide-hkustgz-dengbo-he-profile",
+        "gz-roas-profile-58-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe",
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "extraLinks": [
+        {
+          "url": "https://personal.hkust-gz.edu.cn/hedengbo/index.html",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-58-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "wide-hkustgz-dengbo-he-profile",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
       ]
     },
     {
@@ -9427,12 +9524,21 @@
         "Generative AI and LLM",
         "Healthcare and wellbeing",
         "Accessibility",
-        "Digital cultural heritage"
+        "Digital cultural heritage",
+        "智能人机交互",
+        "人与机器人交互及社交机器人",
+        "人与人工智能协作",
+        "Intelligent Human-Computer Interaction",
+        "Human-Robot Interaction; Social Robots",
+        "Human-AI Collaboration"
       ],
       "summary": "研究人智协作与生成式AI，结合VR/AR用于健康、无障碍和数字文化遗产。",
       "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/tong-xin/",
       "sourceIds": [
-        "wide-hkustgz-xin-tong-profile"
+        "wide-hkustgz-xin-tong-profile",
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-435-20261029",
+        "gz-roas-linked-435-20261029"
       ],
       "availability": {
         "state": "unknown",
@@ -9443,10 +9549,28 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkustgz-cma"
+        "wide-dir-hkustgz-cma",
+        "gz-roas-directory-20261029"
       ],
       "keywordSourceIds": [
-        "wide-hkustgz-xin-tong-profile"
+        "wide-hkustgz-xin-tong-profile",
+        "gz-roas-profile-435-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-XIN/xint",
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "extraLinks": [
+        {
+          "url": "https://arklab-hkustgz.com/profile/xintong",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-435-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-roas-linked-435-20261029",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
       ]
     },
     {
@@ -25723,10 +25847,15 @@
         "Brain-inspired Computing",
         "Humanoid Robotics",
         "Embodied AI",
-        "Machining Learning and Deep Learning"
+        "Machining Learning and Deep Learning",
+        "类脑计算",
+        "人形机器人",
+        "具身人工智能",
+        "机器学习与深度学习"
       ],
       "keywordSourceIds": [
-        "gz-function-profile-97-20261027"
+        "gz-function-profile-97-20261027",
+        "gz-roas-profile-97-20261029"
       ],
       "topics": [
         "电子与集成电路",
@@ -25737,16 +25866,20 @@
       "sourceIds": [
         "gz-function-directory-20261027",
         "gz-function-profile-97-20261027",
-        "gz-function-linked-97-20261027"
+        "gz-function-linked-97-20261027",
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-97-20261029"
       ],
       "directorySourceIds": [
-        "gz-function-directory-20261027"
+        "gz-function-directory-20261027",
+        "gz-roas-directory-20261029"
       ],
       "academicUnitIds": [
-        "hkustgz-1"
+        "hkustgz-1",
+        "hkustgz-3"
       ],
-      "directoryRole": "Assistant Professor",
-      "identityNote": "这里列的是广州功能枢纽任职；香港的兼任不等于同一申请渠道。指导资格和当期名额还要另查。",
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
       "extraLinks": [
         {
           "url": "https://hclab-gz.github.io",
@@ -25764,7 +25897,8 @@
         "sourceIds": [
           "gz-function-profile-97-20261027"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Renjing/renjingxu"
     },
     {
       "id": "hkustgz-function-557",
@@ -81676,6 +81810,865 @@
         ]
       },
       "identityNote": "物理系名单所列身份：研究助理教授。"
+    },
+    {
+      "id": "hkustgz-roas-16",
+      "universityId": "hkustgz",
+      "name": "Ricky Shi-Wei LEE（李世玮）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shi-Wei/rickylee",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-16-20261029",
+        "gz-roas-linked-16-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-16-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "讲座教授 · Chair Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "电子封装",
+        "计算建模",
+        "微机电系统",
+        "Electronic packaging",
+        "Computational modeling",
+        "Microelectromechanical systems (MEMS)"
+      ],
+      "topics": [
+        "电子与集成电路"
+      ],
+      "summary": "研究方向包括电子封装、计算建模、微机电系统。",
+      "extraLinks": [
+        {
+          "url": "https://facultyprofiles.ust.hk/profiles.php?profile=ricky-shiwei-lee-rickylee",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-16-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-roas-linked-16-20261029",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-16-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-702",
+      "universityId": "hkustgz",
+      "name": "Jun YANG（杨俊）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jun/jy",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-702-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-702-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "教授 · Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "具身智能",
+        "视觉敏捷自主",
+        "仿生控制",
+        "安全关键控制",
+        "主动学习与推断",
+        "机器人与自动化",
+        "电力电子、电机与驱动",
+        "Embodied Intelligence",
+        "Visual Agile Autonomy",
+        "Bio-inspired Control",
+        "Safety-Critical Control",
+        "Active Learning and Inference",
+        "Robotics and Automation",
+        "Power Electronics, Machines, and Drives"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "电子与集成电路"
+      ],
+      "summary": "研究方向包括具身智能、视觉敏捷自主、仿生控制、安全关键控制。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-702-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-735",
+      "universityId": "hkustgz",
+      "name": "Fangqiang DING（丁方强）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Fangqiang/fangqiangd",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-735-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-735-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "物理人工智能智能体系统",
+        "长时程移动操作",
+        "多模态移动机器人",
+        "接触感知机器人学习",
+        "物理人工智能仿真",
+        "Agentic Physical AI Systems",
+        "Long-horizon Mobile Manipulation",
+        "Multimodal Mobile Robotics",
+        "Contact-aware Robot Learning",
+        "Physical AI Simulation"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "机器学习"
+      ],
+      "summary": "研究方向包括物理人工智能智能体系统、长时程移动操作、多模态移动机器人、接触感知机器人学习。",
+      "extraLinks": [
+        {
+          "url": "https://toytiny.github.io/",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-735-20261029",
+          "bodyStatus": "not_read",
+          "readNote": "此前读取超时；这是院系列出的原链接。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-735-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-396",
+      "universityId": "hkustgz",
+      "name": "Haoang LI（李昊昂）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-396-20261029",
+        "gz-roas-linked-396-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-396-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "具身人工智能（VLA及VLN）",
+        "三维计算机视觉",
+        "自动驾驶",
+        "Embodied AI (VLA and VLN)",
+        "3D Computer Vision",
+        "Autonomous Driving"
+      ],
+      "topics": [
+        "机器人与控制",
+        "计算机视觉",
+        "人工智能"
+      ],
+      "summary": "研究方向包括具身人工智能（VLA及VLN）、三维计算机视觉、自动驾驶。",
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/haoangli/homepage",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-396-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-roas-linked-396-20261029",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-396-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-420",
+      "universityId": "hkustgz",
+      "name": "Qiang NIE（聂强）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-420-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-420-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "机器人设计与控制",
+        "人机交互（行为理解、姿态估计、动作预测与协作）",
+        "从视频学习",
+        "多模态视觉模型",
+        "人工智能智能体",
+        "强化学习",
+        "Robot Design and Control",
+        "Human-Robot Interaction（including human behavior understanding, human pose estimation, human action prediction, human-robot cooperation）",
+        "Learning from Videos（Human Skill Learning/Human Behavior Imitation）",
+        "Multi-modal Vision Model（Perception, Understanding, Generation and Their Unified Model）",
+        "AI Agent",
+        "Reinforcement Learning"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人机交互",
+        "计算机视觉",
+        "机器学习"
+      ],
+      "summary": "研究方向包括机器人设计与控制、人机交互（行为理解、姿态估计、动作预测与协作）、从视频学习、多模态视觉模型。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-420-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-258",
+      "universityId": "hkustgz",
+      "name": "Jie SONG（宋杰）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-258-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-258-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "三维计算机视觉",
+        "重建",
+        "机器人",
+        "人机交互",
+        "仿真到现实迁移",
+        "3D computer vision",
+        "Reconstrucion",
+        "Robotics",
+        "Human-Robot interaction",
+        "Sim-to-Real"
+      ],
+      "topics": [
+        "机器人与控制",
+        "计算机视觉",
+        "人机交互"
+      ],
+      "summary": "研究方向包括三维计算机视觉、重建、机器人、人机交互。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-258-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-587",
+      "universityId": "hkustgz",
+      "name": "Ningxin SU（苏宁馨）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Ningxin/ningxinsu",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-587-20261029",
+        "gz-roas-linked-587-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-587-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "分布式机器学习",
+        "机器人操作",
+        "机器人世界模型",
+        "多机器人系统的通信与组网",
+        "Distributed Machine Learning",
+        "Robotic Manipulation",
+        "World Models for Robotics",
+        "Communication and Networking for Multi-Robot Systems"
+      ],
+      "topics": [
+        "机器人与控制",
+        "机器学习",
+        "网络与系统"
+      ],
+      "summary": "研究方向包括分布式机器学习、机器人操作、机器人世界模型、多机器人系统的通信与组网。",
+      "extraLinks": [
+        {
+          "url": "https://nebulis-lab.com/",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-587-20261029",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-roas-linked-587-20261029",
+          "readNote": "已读网站介绍；不同校区的职位和申请安排分别核对。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-587-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-371",
+      "universityId": "hkustgz",
+      "name": "Immihan Ceren YASA",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHANCEREN/cerenyasa",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-371-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-371-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "靶向治疗医用微型机器人",
+        "微尺度诊断系统",
+        "复杂细胞系统与生物混合机器人",
+        "即时检测设备",
+        "生物材料",
+        "Medical microrobotics for targeted therapy",
+        "Diagnostic microscale systems",
+        "Complex cellular systems and biohybrid robotics",
+        "Point-of-care devices",
+        "Biomaterials"
+      ],
+      "topics": [
+        "机器人与控制",
+        "生物医学与健康",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括靶向治疗医用微型机器人、微尺度诊断系统、复杂细胞系统与生物混合机器人、即时检测设备。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-371-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-372",
+      "universityId": "hkustgz",
+      "name": "Oncay YASA",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-372-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-372-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "生物混合机器人",
+        "软体机器人",
+        "微型机器人",
+        "机器人材料",
+        "Biohybrid Robotics",
+        "Soft Robotics",
+        "Microrobotics",
+        "Materials for Robotics"
+      ],
+      "topics": [
+        "机器人与控制",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括生物混合机器人、软体机器人、微型机器人、机器人材料。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-372-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-45",
+      "universityId": "hkustgz",
+      "name": "Huan YU（鱼欢）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-45-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-45-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "智能交通系统",
+        "控制系统",
+        "交通流建模与控制",
+        "网联与自动驾驶车辆混合交通",
+        "强化学习",
+        "Intelligient Transportation Systems",
+        "Control Systems",
+        "Traffic Flow Modeling and Control",
+        "Mix-autonomy Traffic with Connected and Automated Vehicles",
+        "Reinforcement Learning"
+      ],
+      "topics": [
+        "机器人与控制",
+        "机器学习"
+      ],
+      "summary": "研究方向包括智能交通系统、控制系统、交通流建模与控制、网联与自动驾驶车辆混合交通。",
+      "extraLinks": [
+        {
+          "url": "https://amslab.org",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-45-20261029",
+          "bodyStatus": "not_read",
+          "readNote": "此前读取超时；这是院系列出的原链接。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-45-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-109",
+      "universityId": "hkustgz",
+      "name": "Hang ZHAO（赵航）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-109-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-109-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "视觉语言动作模型应用中的机器人底层控制",
+        "足式机器人关节执行器设计与控制",
+        "人工智能辅助电机设计与控制",
+        "可再生能源智能电网",
+        "Low-level control of robots for VLA-model-based applications",
+        "Design and control of joint actuators for legged robots",
+        "AI for motor design and control",
+        "Smart grid with renewable energy"
+      ],
+      "topics": [
+        "机器人与控制",
+        "电子与集成电路",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括视觉语言动作模型应用中的机器人底层控制、足式机器人关节执行器设计与控制、人工智能辅助电机设计与控制、可再生能源智能电网。",
+      "extraLinks": [
+        {
+          "url": "https://amdt.hkust-gz.edu.cn/",
+          "label": "查看院系所给个人网站或研究档案",
+          "parentSourceId": "gz-roas-profile-109-20261029",
+          "bodyStatus": "not_read",
+          "readNote": "此前读取超时；这是院系列出的原链接。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-109-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-383",
+      "universityId": "hkustgz",
+      "name": "Wufan ZHAO（赵吴凡）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-383-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-383-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "三维城市感知与重建",
+        "多模态数据学习",
+        "空间智能与具身人工智能",
+        "面向可持续城市的地理人工智能",
+        "3D City Perception / Reconstruction",
+        "Multi-modal Data Learning",
+        "Spatial Intelligence and Embodied AI",
+        "GeoAI for Sustainable City"
+      ],
+      "topics": [
+        "机器人与控制",
+        "计算机视觉",
+        "人工智能"
+      ],
+      "summary": "研究方向包括三维城市感知与重建、多模态数据学习、空间智能与具身人工智能、面向可持续城市的地理人工智能。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-383-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-168",
+      "universityId": "hkustgz",
+      "name": "Xinhu ZHENG（郑心湖）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-168-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-168-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "这次学域目录新增该卡；此前档案列智能交通和物联网任职，申请时请核对实际所属项目。",
+      "researchKeywords": [
+        "自动驾驶",
+        "具身智能",
+        "多智能体系统",
+        "Autonomous Driving",
+        "Embodied Intelligence",
+        "Multi-Agent Systems"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能"
+      ],
+      "summary": "研究方向包括自动驾驶、具身智能、多智能体系统。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-168-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-64",
+      "universityId": "hkustgz",
+      "name": "Lei ZHU（朱磊）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-64-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-64-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "助理教授 · Assistant Professor",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "计算机视觉",
+        "计算摄影",
+        "图像视频复原",
+        "医学影像",
+        "深度学习",
+        "图像视频生成",
+        "人工智能安全应用",
+        "Computer Vision, Computational Photography, Image/Video Restoration, Medical Imaging, and Deep Learning",
+        "Image/video generation",
+        "AI-based security"
+      ],
+      "topics": [
+        "机器人与控制",
+        "计算机视觉",
+        "生物医学与健康",
+        "网络安全"
+      ],
+      "summary": "研究方向包括计算机视觉、计算摄影、图像视频复原、医学影像。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-64-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-353",
+      "universityId": "hkustgz",
+      "name": "Lujia WANG（王鲁佳）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-353-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-353-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "实践助理教授 · Assistant Professor of Practice",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "感知与不确定性建模",
+        "终身联邦学习",
+        "具身智能",
+        "电动垂直起降器、家用机器人与自动驾驶等应用",
+        "Perception and Uncertainty Modeling",
+        "Lifelong federated learning",
+        "Embodied intelligence",
+        "Technology applications in  Electric Vertical Take-off and Landing(EVToL), domestic robots, autonomous driving, and so on."
+      ],
+      "topics": [
+        "机器人与控制",
+        "机器学习",
+        "计算机视觉"
+      ],
+      "summary": "研究方向包括感知与不确定性建模、终身联邦学习、具身智能、电动垂直起降器、家用机器人与自动驾驶等应用。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-353-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-6",
+      "universityId": "hkustgz",
+      "name": "Jenny Jinni ZHOU（周晋妮）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Jinni/eejinni",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-6-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-6-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "实践助理教授 · Assistant Professor of Practice",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "新工科教育改革与创新创业教育",
+        "智能机器人系统、无人机与人形机器人",
+        "具身人工智能未来应用",
+        "New Engineering Education Transformation (NEET), especially for Innovation and Entrepreneurship Education",
+        "Intelligent Robot Systems, especially for Unmanned Aerial Vehicle (UAV) Systems and Humanoid Robots",
+        "Embodied AI for Future Applications"
+      ],
+      "topics": [
+        "机器人与控制",
+        "教育学",
+        "人工智能"
+      ],
+      "summary": "研究方向包括新工科教育改革与创新创业教育、智能机器人系统、无人机与人形机器人、具身人工智能未来应用。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-6-20261029"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-736",
+      "universityId": "hkustgz",
+      "name": "Zexin SUN（孙泽辛）",
+      "department": "系统枢纽 · 机器人与自主系统学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Zexin/zexinsun",
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-roas-profile-736-20261029"
+      ],
+      "keywordSourceIds": [
+        "gz-roas-profile-736-20261029"
+      ],
+      "directorySourceIds": [
+        "gz-roas-directory-20261029"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "directoryRole": "讲师 II · Lecturer II",
+      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "researchKeywords": [
+        "动力系统",
+        "控制理论",
+        "神经仿生网络",
+        "Dynamic Systems",
+        "Control Theory",
+        "Neuromimetic Networks"
+      ],
+      "topics": [
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "summary": "研究方向包括动力系统、控制理论、神经仿生网络。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请分别核对指导资格和当期接收安排。",
+        "sourceIds": [
+          "gz-roas-profile-736-20261029"
+        ]
+      }
     }
   ],
   "sources": [
@@ -176770,6 +177763,618 @@
         "普通 HTTP 采集遇证书链校验失败；此条依据为已实际返回正文的网页阅读收据，不冒充原始 HTTP 字节。"
       ],
       "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-directory-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+      "title": "港科广 · 机器人与自主系统师资名录",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "系统枢纽机器人与自主系统学域，官网目录脚本公开返回的卡片。",
+      "claims": [
+        "2026-10-29 保存的官方目录列 1 张代理学域主任卡和 23 张现列师资／顾问卡。",
+        "2026-11-07 浏览器实际复核 25 张卡；与原快照相比多列郑心湖。"
+      ],
+      "knownIssues": [
+        "清水湾顾问一栏只提供一般目录，不能由此判断顾问人数。此处也不代表指导资格或名额。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/getOfficialThrustList?affiliatedUnits=SYSTHUB&departmentPkCode=10011A10000000000H2M",
+      "bodySha256": "56929257a85e00092ffcef3a2aa5bc1183ce5769fa4849a6de29c54af75b3817",
+      "readMethod": "anonymous_public_directory_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jun/eejma",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shi-Wei/rickylee",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHI-BertramEmil/bertramshi",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jun/jy",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Qiang/qiangh",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Renjing/renjingxu",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Fangqiang/fangqiangd",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Ningxin/ningxinsu",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-XIN/xint",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHANCEREN/cerenyasa",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Jinni/eejinni",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Zexin/zexinsun",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DONG-Chencheng/leviccdong"
+      ]
+    },
+    {
+      "id": "gz-roas-linked-67-20261029",
+      "url": "https://personal.hkust-gz.edu.cn/junma/index.html",
+      "title": "Jun MA · 院系所给网站",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系所给网站的公开介绍，未用于判断本轮招生与名额。",
+      "claims": [
+        "港科广机器人运动规划与控制实验室介绍机器人及自动驾驶研究。"
+      ],
+      "knownIssues": [],
+      "originalUrl": "https://personal.hkust-gz.edu.cn/junma/index.html",
+      "retrievedUrl": "https://personal.hkust-gz.edu.cn/junma/index.html",
+      "parentSourceId": "gz-roas-profile-67-20261029",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6d0a3b595445407076421969b6e22374d01a1e7322e502278c82fe39c3ab9fde"
+    },
+    {
+      "id": "gz-roas-profile-67-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jun/eejma",
+      "title": "Jun MA · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Jun MA 为系统枢纽 · 机器人与自主系统学域的代理学域主任；副教授。",
+        "研究栏目提到机器人、自动驾驶、具身人工智能、运动规划与控制、优化、强化学习。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/67",
+      "bodySha256": "8e6e00c925d71cace5fd60411b9082edb5e9f3a1677d24f47aec30be67128133",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/junma/index.html"
+      ]
+    },
+    {
+      "id": "gz-roas-linked-16-20261029",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ricky-shiwei-lee-rickylee",
+      "title": "Ricky Shi-Wei LEE（李世玮） · 院系所给网站",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系所给网站的公开介绍，未用于判断本轮招生与名额。",
+      "claims": [
+        "香港校区教师档案提供李世玮的个人履历与研究背景；其职位口径与广州目录分开。"
+      ],
+      "knownIssues": [],
+      "originalUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ricky-shiwei-lee-rickylee",
+      "retrievedUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ricky-shiwei-lee-rickylee",
+      "parentSourceId": "gz-roas-profile-16-20261029",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "33e44937a289365febafaf6aee6a6441481e7eff53ba46eca9952c7046510af9"
+    },
+    {
+      "id": "gz-roas-profile-16-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shi-Wei/rickylee",
+      "title": "Ricky Shi-Wei LEE（李世玮） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Ricky Shi-Wei LEE（李世玮） 为系统枢纽 · 机器人与自主系统学域的讲座教授。",
+        "研究栏目提到电子封装、计算建模、微机电系统。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/16",
+      "bodySha256": "9ef670cc5a5e6d4f3e7f7a18fbb1759731e5b4e090d5010ad1baaeaecf2de566",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ricky-shiwei-lee-rickylee"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-760-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHI-BertramEmil/bertramshi",
+      "title": "Bertram Emil SHI（施毅明） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Bertram Emil SHI（施毅明） 为系统枢纽 · 机器人与自主系统学域的讲座教授。"
+      ],
+      "knownIssues": [
+        "所读研究栏目未提供文字，保留任职与原主页，不补写研究方向。",
+        "所给个人网站此前读取超时，未标作已读。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/760",
+      "bodySha256": "a6cbfda02185c7f2c22a581dbc8b926b794ff17a9620b2a14141e4c02472ff04",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=bertram-emil-shi-eebert"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-702-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jun/jy",
+      "title": "Jun YANG（杨俊） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Jun YANG（杨俊） 为系统枢纽 · 机器人与自主系统学域的教授。",
+        "研究栏目提到具身智能、视觉敏捷自主、仿生控制、安全关键控制、主动学习与推断、机器人与自动化、电力电子、电机与驱动。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/702",
+      "bodySha256": "642663c3269912290cd1137d73814fb5baab646a3c4463320990b0af16790726",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-579-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Qiang/qiangh",
+      "title": "Qiang HUANG（黄强） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Qiang HUANG（黄强） 为系统枢纽 · 机器人与自主系统学域的教授。"
+      ],
+      "knownIssues": [
+        "所读研究栏目未提供文字，保留任职与原主页，不补写研究方向。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/579",
+      "bodySha256": "c4bed25a33f7ae28e46741366358c5b7011b9f1a2c4b44040c18e19d2406b6e5",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-97-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Renjing/renjingxu",
+      "title": "Renjing XU（许人镜） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Renjing XU（许人镜） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到类脑计算、人形机器人、具身人工智能、机器学习与深度学习。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/97",
+      "bodySha256": "54353232c7af1c67cc6d69016fe0eedca7ea285513bc4924b3ce9014b5ef0799",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://hclab-gz.github.io"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-735-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Fangqiang/fangqiangd",
+      "title": "Fangqiang DING（丁方强） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Fangqiang DING（丁方强） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到物理人工智能智能体系统、长时程移动操作、多模态移动机器人、接触感知机器人学习、物理人工智能仿真。"
+      ],
+      "knownIssues": [
+        "所给个人网站此前读取超时，未标作已读。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/735",
+      "bodySha256": "646f2764bf7455d3e8d3b4382eaecafe5ef5ef87393a0aef524febc1f4ffc575",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://toytiny.github.io/"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-58-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe",
+      "title": "Dengbo HE（贺登博） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Dengbo HE（贺登博） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到人因、人机交互、人与智能体交互、驾驶自动化、驾驶员状态估计。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/58",
+      "bodySha256": "4a5878670b6d099e477fed696857fd4f565ae503a714d11d28b1d2379e9b9e99",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/hedengbo/index.html"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-66-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding",
+      "title": "Yiding JI（季一丁） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Yiding JI（季一丁） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到控制系统、形式化方法、离散事件系统、博弈论、可信机器学习、强化学习、机器人与自主系统、信息物理系统。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/66",
+      "bodySha256": "059197d3d7d7d7d7fb60e973e87baf89298b015cd5c4d4db8e89a0187c44a838",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/jiyiding/"
+      ]
+    },
+    {
+      "id": "gz-roas-linked-396-20261029",
+      "url": "https://sites.google.com/view/haoangli/homepage",
+      "title": "Haoang LI（李昊昂） · 院系所给网站",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系所给网站的公开介绍，未用于判断本轮招生与名额。",
+      "claims": [
+        "李昊昂个人网站说明三维视觉和机器人方向。"
+      ],
+      "knownIssues": [],
+      "originalUrl": "https://sites.google.com/view/haoangli/homepage",
+      "retrievedUrl": "https://sites.google.com/view/haoangli/homepage",
+      "parentSourceId": "gz-roas-profile-396-20261029",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e4c44c557c5fdd60c9f45f13bde50722d0d631c3313819ad9b1b6fff1cdb3722"
+    },
+    {
+      "id": "gz-roas-profile-396-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli",
+      "title": "Haoang LI（李昊昂） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Haoang LI（李昊昂） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到具身人工智能（VLA及VLN）、三维计算机视觉、自动驾驶。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/396",
+      "bodySha256": "b9f40cdcc26bd33568b894c0920585824dd762f1681fd89e47dcb15a15842feb",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://sites.google.com/view/haoangli/homepage"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-420-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie",
+      "title": "Qiang NIE（聂强） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Qiang NIE（聂强） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到机器人设计与控制、人机交互（行为理解、姿态估计、动作预测与协作）、从视频学习、多模态视觉模型、人工智能智能体、强化学习。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/420",
+      "bodySha256": "3fc80a51b58b33ea7d4c5a5b0156699af872c19e25b2630b41689efbca60b2b3",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-258-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas",
+      "title": "Jie SONG（宋杰） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Jie SONG（宋杰） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到三维计算机视觉、重建、机器人、人机交互、仿真到现实迁移。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/258",
+      "bodySha256": "86db1d9a23452197fc5044efc65f1a5ab0b4a0ae5f169b52660399c3447c9d6d",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-linked-587-20261029",
+      "url": "https://nebulis-lab.com/",
+      "title": "Ningxin SU（苏宁馨） · 院系所给网站",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系所给网站的公开介绍，未用于判断本轮招生与名额。",
+      "claims": [
+        "NEBULIS 实验室列苏宁馨为负责人，介绍分布式智能和机器人研究。"
+      ],
+      "knownIssues": [],
+      "originalUrl": "https://nebulis-lab.com/",
+      "retrievedUrl": "https://nebulis-lab.com/",
+      "parentSourceId": "gz-roas-profile-587-20261029",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "97376995a95cc620a6120f8dcfb4761b6dd151825bc8c711a8d919f3760d2f88"
+    },
+    {
+      "id": "gz-roas-profile-587-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Ningxin/ningxinsu",
+      "title": "Ningxin SU（苏宁馨） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Ningxin SU（苏宁馨） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到分布式机器学习、机器人操作、机器人世界模型、多机器人系统的通信与组网。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/587",
+      "bodySha256": "f6540ccb5b39c6dcc9e17a87c9622ebc0e0cdf92e64e74293b04e3d002a88658",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://nebulis-lab.com/"
+      ]
+    },
+    {
+      "id": "gz-roas-linked-435-20261029",
+      "url": "https://arklab-hkustgz.com/profile/xintong",
+      "title": "Xin TONG · 院系所给网站",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系所给网站的公开介绍，未用于判断本轮招生与名额。",
+      "claims": [
+        "ARK 实验室主页列 Xin Tong 为负责人，并列计算媒体与艺术学域任职。"
+      ],
+      "knownIssues": [],
+      "originalUrl": "https://arklab-hkustgz.com/profile/xintong",
+      "retrievedUrl": "https://arklab-hkustgz.com/profile/xintong",
+      "parentSourceId": "gz-roas-profile-435-20261029",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9f0235588fb3ca7266c8f311dc76ddb31c733f28d6f27e596195eadff3ced772"
+    },
+    {
+      "id": "gz-roas-profile-435-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-XIN/xint",
+      "title": "Xin TONG · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Xin TONG 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到智能人机交互、人与机器人交互及社交机器人、人与人工智能协作。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/435",
+      "bodySha256": "2a9840e417ed057fcbe65d3c25b7042442c276c173926779afd4ac13c1136499",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://arklab-hkustgz.com/profile/xintong"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-371-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHANCEREN/cerenyasa",
+      "title": "Immihan Ceren YASA · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Immihan Ceren YASA 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到靶向治疗医用微型机器人、微尺度诊断系统、复杂细胞系统与生物混合机器人、即时检测设备、生物材料。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/371",
+      "bodySha256": "07cd174e42228c5f85bafc74a40feadfbdfcb9d1f32646b53ef5faa7df48ce5a",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-372-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa",
+      "title": "Oncay YASA · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Oncay YASA 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到生物混合机器人、软体机器人、微型机器人、机器人材料。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/372",
+      "bodySha256": "db15dc614be8f117a218f198ee194c50e7cc79fce215918d0813eb23fc0aa84f",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-45-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu",
+      "title": "Huan YU（鱼欢） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Huan YU（鱼欢） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到智能交通系统、控制系统、交通流建模与控制、网联与自动驾驶车辆混合交通、强化学习。"
+      ],
+      "knownIssues": [
+        "所给个人网站此前读取超时，未标作已读。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/45",
+      "bodySha256": "b59153f96788707480b39dc0722d535c1d31627a800f7e6279b5dae49c0d5981",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://amslab.org"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-109-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao",
+      "title": "Hang ZHAO（赵航） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Hang ZHAO（赵航） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到视觉语言动作模型应用中的机器人底层控制、足式机器人关节执行器设计与控制、人工智能辅助电机设计与控制、可再生能源智能电网。"
+      ],
+      "knownIssues": [
+        "所给个人网站此前读取超时，未标作已读。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/109",
+      "bodySha256": "b08f2242ada2c46241c8698f758270928dd60711a44ba2dfddb12321c8d13980",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "https://amdt.hkust-gz.edu.cn/"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-383-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao",
+      "title": "Wufan ZHAO（赵吴凡） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Wufan ZHAO（赵吴凡） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到三维城市感知与重建、多模态数据学习、空间智能与具身人工智能、面向可持续城市的地理人工智能。"
+      ],
+      "knownIssues": [
+        "所给 HTTP 网站的存档只有应用壳，未读到研究正文；不猜替代地址。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/383",
+      "bodySha256": "7011a2f35a1070a2ba4a417d9e1343eb324e05f3c2f0f43664fbda069c6e2052",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": [
+        "http://www.ai4dcity.com/"
+      ]
+    },
+    {
+      "id": "gz-roas-profile-168-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng",
+      "title": "Xinhu ZHENG（郑心湖） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "2026-11-07 机器人与自主系统目录列郑心湖为助理教授；10 月 29 日留存档案列的是智能交通与物联网任职。",
+        "研究栏目提到自动驾驶、具身智能、多智能体系统。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/168",
+      "bodySha256": "34327482a954550440e862b06c31ac988dee5d7f70d78a20f80ceb84d16d58f6",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-64-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu",
+      "title": "Lei ZHU（朱磊） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Lei ZHU（朱磊） 为系统枢纽 · 机器人与自主系统学域的助理教授。",
+        "研究栏目提到计算机视觉、计算摄影、图像视频复原、医学影像、深度学习、图像视频生成、人工智能安全应用。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/64",
+      "bodySha256": "8df72296411c309851902900eec110d6f776fdd464b9041ed6495095d8f8de21",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-353-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj",
+      "title": "Lujia WANG（王鲁佳） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Lujia WANG（王鲁佳） 为系统枢纽 · 机器人与自主系统学域的实践助理教授。",
+        "研究栏目提到感知与不确定性建模、终身联邦学习、具身智能、电动垂直起降器、家用机器人与自动驾驶等应用。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/353",
+      "bodySha256": "20cb6269a8c9dfc589bf656827deb318aeefd8fd496a45dda394269345ee9333",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-6-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Jinni/eejinni",
+      "title": "Jenny Jinni ZHOU（周晋妮） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Jenny Jinni ZHOU（周晋妮） 为系统枢纽 · 机器人与自主系统学域的实践助理教授。",
+        "研究栏目提到新工科教育改革与创新创业教育、智能机器人系统、无人机与人形机器人、具身人工智能未来应用。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/6",
+      "bodySha256": "fc0a8171b164d37addd7660b68fea999a48eccc84bdbd3c95e05ec0a660f22f9",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-736-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Zexin/zexinsun",
+      "title": "Zexin SUN（孙泽辛） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Zexin SUN（孙泽辛） 为系统枢纽 · 机器人与自主系统学域的讲师 II。",
+        "研究栏目提到动力系统、控制理论、神经仿生网络。"
+      ],
+      "knownIssues": [],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/736",
+      "bodySha256": "a3ccfb3e699e6ca9a5631d433ab921e7098a3fb0ce861b663043696315a897fc",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-roas-profile-683-20261029",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DONG-Chencheng/leviccdong",
+      "title": "Chencheng DONG（董宸呈） · 港科广师资档案",
+      "checkedAt": "2026-10-29",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "广州机器人与自主系统学域任职及研究栏目。2026-11-07 核对页面显示。",
+      "claims": [
+        "校方公开档案列 Chencheng DONG（董宸呈） 为系统枢纽 · 机器人与自主系统学域的研究助理教授。"
+      ],
+      "knownIssues": [
+        "所读研究栏目未提供文字，保留任职与原主页，不补写研究方向。"
+      ],
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/683",
+      "bodySha256": "7dea6b6454befa3270cc465133c7a319f482b00a7fef1f6ed4ec0be1005ae19f",
+      "readMethod": "anonymous_public_profile_interface_from_official_page_script",
+      "discoveredLinks": []
+    },
+    {
+      "id": "gz-systems-application-guide-20261107",
+      "url": "https://sysh.hkust-gz.edu.cn/zh/academics/research-postgraduate-study/postgraduate-programs/admission-and-application/",
+      "title": "港科广系统枢纽 · 研究学位申请指南",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "系统枢纽研究学位申请流程；正文未注明单独轮次。",
+      "claims": [
+        "网申填写偏好的研究方向和／或教师；提交学术与经历材料，已有公开论文可附链接。",
+        "学域按学习或研究经历与研究计划筛选面试。机器人与自主系统博士列有单独咨询入口。"
+      ],
+      "knownIssues": [
+        "填写意向教师不等于必须提前取得导师同意。2027/28 学校通用日期见博士申请总入口；学域专项轮次、指导资格及余位另核。"
+      ],
+      "readMethod": "web_reader",
+      "readReceiptSha256": "8643be65d87f6c1d134753170bab44794187a03b2adaf9f57c08dfd5e906b166",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response"
     }
   ],
   "funding": [
@@ -190602,6 +192207,252 @@
             "profileRead": true,
             "reviewStatus": "body_read",
             "reviewNote": "研究门户任职与研究部分已读；既有教师编号复用。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-roas-census-20261107",
+      "universityId": "hkustgz",
+      "unit": "系统枢纽 · 机器人与自主系统学域",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+      "coverageComplete": false,
+      "sourceIds": [
+        "gz-roas-directory-20261029",
+        "gz-systems-application-guide-20261107"
+      ],
+      "applicationGuideSourceId": "gz-systems-application-guide-20261107",
+      "coverageNotes": "本批核对代理学域主任及现列师资／顾问 25 张卡。清水湾顾问一栏只提供一般入口，仍需另查。3 个档案保留任职，研究栏目没有文字。",
+      "census": {
+        "observedTotal": 25,
+        "profilesRead": 25,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "Jun MA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jun/eejma",
+            "directoryPosition": "代理学域主任；副教授 · Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理研究方向；沿用原收藏编号。",
+            "facultyId": "wide-hkustgz-jun-ma"
+          },
+          {
+            "name": "Ricky Shi-Wei LEE（李世玮）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shi-Wei/rickylee",
+            "directoryPosition": "讲座教授 · Chair Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-16"
+          },
+          {
+            "name": "Bertram Emil SHI（施毅明）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHI-BertramEmil/bertramshi",
+            "directoryPosition": "讲座教授 · Chair Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核任职；所读研究栏目没有文字。",
+            "facultyId": null
+          },
+          {
+            "name": "Jun YANG（杨俊）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jun/jy",
+            "directoryPosition": "教授 · Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-702"
+          },
+          {
+            "name": "Qiang HUANG（黄强）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Qiang/qiangh",
+            "directoryPosition": "教授 · Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核任职；所读研究栏目没有文字。",
+            "facultyId": null
+          },
+          {
+            "name": "Renjing XU（许人镜）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Renjing/renjingxu",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理研究方向；沿用原收藏编号。",
+            "facultyId": "hkustgz-function-97"
+          },
+          {
+            "name": "Fangqiang DING（丁方强）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Fangqiang/fangqiangd",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-735"
+          },
+          {
+            "name": "Dengbo HE（贺登博）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理研究方向；沿用原收藏编号。",
+            "facultyId": "wide-hkustgz-dengbo-he"
+          },
+          {
+            "name": "Yiding JI（季一丁）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理研究方向；沿用原收藏编号。",
+            "facultyId": "wide-hkustgz-yiding-ji"
+          },
+          {
+            "name": "Haoang LI（李昊昂）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-396"
+          },
+          {
+            "name": "Qiang NIE（聂强）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-420"
+          },
+          {
+            "name": "Jie SONG（宋杰）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-258"
+          },
+          {
+            "name": "Ningxin SU（苏宁馨）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Ningxin/ningxinsu",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-587"
+          },
+          {
+            "name": "Xin TONG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-XIN/xint",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理研究方向；沿用原收藏编号。",
+            "facultyId": "wide-hkustgz-xin-tong"
+          },
+          {
+            "name": "Immihan Ceren YASA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHANCEREN/cerenyasa",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-371"
+          },
+          {
+            "name": "Oncay YASA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-372"
+          },
+          {
+            "name": "Huan YU（鱼欢）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-45"
+          },
+          {
+            "name": "Hang ZHAO（赵航）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-109"
+          },
+          {
+            "name": "Wufan ZHAO（赵吴凡）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-383"
+          },
+          {
+            "name": "Xinhu ZHENG（郑心湖）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-168"
+          },
+          {
+            "name": "Lei ZHU（朱磊）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu",
+            "directoryPosition": "助理教授 · Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-64"
+          },
+          {
+            "name": "Lujia WANG（王鲁佳）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj",
+            "directoryPosition": "实践助理教授 · Assistant Professor of Practice",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-353"
+          },
+          {
+            "name": "Jenny Jinni ZHOU（周晋妮）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Jinni/eejinni",
+            "directoryPosition": "实践助理教授 · Assistant Professor of Practice",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-6"
+          },
+          {
+            "name": "Zexin SUN（孙泽辛）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Zexin/zexinsun",
+            "directoryPosition": "讲师 II · Lecturer II",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已整理官网研究方向。",
+            "facultyId": "hkustgz-roas-736"
+          },
+          {
+            "name": "Chencheng DONG（董宸呈）",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DONG-Chencheng/leviccdong",
+            "directoryPosition": "研究助理教授 · Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核任职；所读研究栏目没有文字。",
+            "facultyId": null
           }
         ]
       }
@@ -230527,21 +232378,368 @@
               "availability": "unknown"
             }
           ],
-          "staffEntries": [],
+          "staffEntries": [
+            {
+              "label": "机器人与自主系统 · 师资名录",
+              "url": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+              "entryBodyStatus": "body_read",
+              "enumerationComplete": false,
+              "teacherProfilesTotal": null,
+              "sourceIds": [
+                "gz-roas-directory-20261029"
+              ],
+              "profileLeads": [
+                {
+                  "name": "Jun MA",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/MA-Jun/eejma",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "代理学域主任；副教授 · Associate Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8e6e00c925d71cace5fd60411b9082edb5e9f3a1677d24f47aec30be67128133",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "wide-hkustgz-jun-ma",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理研究方向；沿用原收藏编号。"
+                },
+                {
+                  "name": "Ricky Shi-Wei LEE（李世玮）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LEE-Shi-Wei/rickylee",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "讲座教授 · Chair Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "9ef670cc5a5e6d4f3e7f7a18fbb1759731e5b4e090d5010ad1baaeaecf2de566",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-16",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Bertram Emil SHI（施毅明）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHI-BertramEmil/bertramshi",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "讲座教授 · Chair Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a6cbfda02185c7f2c22a581dbc8b926b794ff17a9620b2a14141e4c02472ff04",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "no_research_text_observed",
+                  "reviewNote": "已核任职；所读研究栏目没有文字。"
+                },
+                {
+                  "name": "Jun YANG（杨俊）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Jun/jy",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "教授 · Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "642663c3269912290cd1137d73814fb5baab646a3c4463320990b0af16790726",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-702",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Qiang HUANG（黄强）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Qiang/qiangh",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "教授 · Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c4bed25a33f7ae28e46741366358c5b7011b9f1a2c4b44040c18e19d2406b6e5",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "no_research_text_observed",
+                  "reviewNote": "已核任职；所读研究栏目没有文字。"
+                },
+                {
+                  "name": "Renjing XU（许人镜）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XU-Renjing/renjingxu",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "54353232c7af1c67cc6d69016fe0eedca7ea285513bc4924b3ce9014b5ef0799",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-function-97",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理研究方向；沿用原收藏编号。"
+                },
+                {
+                  "name": "Fangqiang DING（丁方强）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Fangqiang/fangqiangd",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "646f2764bf7455d3e8d3b4382eaecafe5ef5ef87393a0aef524febc1f4ffc575",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-735",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Dengbo HE（贺登博）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HE-Dengbo/dengbohe",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4a5878670b6d099e477fed696857fd4f565ae503a714d11d28b1d2379e9b9e99",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "wide-hkustgz-dengbo-he",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理研究方向；沿用原收藏编号。"
+                },
+                {
+                  "name": "Yiding JI（季一丁）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JI-Yiding/jiyiding",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "059197d3d7d7d7d7fb60e973e87baf89298b015cd5c4d4db8e89a0187c44a838",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "wide-hkustgz-yiding-ji",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理研究方向；沿用原收藏编号。"
+                },
+                {
+                  "name": "Haoang LI（李昊昂）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Haoang/haoangli",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b9f40cdcc26bd33568b894c0920585824dd762f1681fd89e47dcb15a15842feb",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-396",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Qiang NIE（聂强）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NIE-Qiang/qiangnie",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "3fc80a51b58b33ea7d4c5a5b0156699af872c19e25b2630b41689efbca60b2b3",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-420",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Jie SONG（宋杰）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SONG-Jie/jsongroas",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "86db1d9a23452197fc5044efc65f1a5ab0b4a0ae5f169b52660399c3447c9d6d",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-258",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Ningxin SU（苏宁馨）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SU-Ningxin/ningxinsu",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f6540ccb5b39c6dcc9e17a87c9622ebc0e0cdf92e64e74293b04e3d002a88658",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-587",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Xin TONG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TONG-XIN/xint",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2a9840e417ed057fcbe65d3c25b7042442c276c173926779afd4ac13c1136499",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "wide-hkustgz-xin-tong",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理研究方向；沿用原收藏编号。"
+                },
+                {
+                  "name": "Immihan Ceren YASA",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHANCEREN/cerenyasa",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "07cd174e42228c5f85bafc74a40feadfbdfcb9d1f32646b53ef5faa7df48ce5a",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-371",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Oncay YASA",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "db15dc614be8f117a218f198ee194c50e7cc79fce215918d0813eb23fc0aa84f",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-372",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Huan YU（鱼欢）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-Huan/huanyu",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b59153f96788707480b39dc0722d535c1d31627a800f7e6279b5dae49c0d5981",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-45",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Hang ZHAO（赵航）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Hang/hangzhao",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b08f2242ada2c46241c8698f758270928dd60711a44ba2dfddb12321c8d13980",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-109",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Wufan ZHAO（赵吴凡）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHAO-Wufan/wufanzhao",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7011a2f35a1070a2ba4a417d9e1343eb324e05f3c2f0f43664fbda069c6e2052",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-383",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Xinhu ZHENG（郑心湖）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "34327482a954550440e862b06c31ac988dee5d7f70d78a20f80ceb84d16d58f6",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-168",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Lei ZHU（朱磊）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "助理教授 · Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8df72296411c309851902900eec110d6f776fdd464b9041ed6495095d8f8de21",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-64",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Lujia WANG（王鲁佳）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Lujia/eewanglj",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "实践助理教授 · Assistant Professor of Practice",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "20cb6269a8c9dfc589bf656827deb318aeefd8fd496a45dda394269345ee9333",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-353",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Jenny Jinni ZHOU（周晋妮）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHOU-Jinni/eejinni",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "实践助理教授 · Assistant Professor of Practice",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "fc0a8171b164d37addd7660b68fea999a48eccc84bdbd3c95e05ec0a660f22f9",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Zexin SUN（孙泽辛）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SUN-Zexin/zexinsun",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "讲师 II · Lecturer II",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a3ccfb3e699e6ca9a5631d433ab921e7098a3fb0ce861b663043696315a897fc",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": "hkustgz-roas-736",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "已整理官网研究方向。"
+                },
+                {
+                  "name": "Chencheng DONG（董宸呈）",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DONG-Chencheng/leviccdong",
+                  "observedOn": "https://facultyprofiles.hkust-gz.edu.cn/thrust-faculties?code=10011A10000000000H2M",
+                  "directoryLabel": "研究助理教授 · Research Assistant Professor",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7dea6b6454befa3270cc465133c7a319f482b00a7fef1f6ed4ec0be1005ae19f",
+                  "availability": "unknown",
+                  "supervisionEligibility": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "no_research_text_observed",
+                  "reviewNote": "已核任职；所读研究栏目没有文字。"
+                }
+              ]
+            }
+          ],
           "bodySha256": "25ca7668e4515fe82ce9480eb5850def9310b3fc7c6342ea2879b72ee12c184c",
           "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/?variant=zh-cn",
           "organizationReview": {
             "checkedAt": "2026-10-29",
             "status": "listed_children_matched",
             "sourceIds": [
-              "organization-gz-systems-reused-20261029"
+              "organization-gz-systems-reused-20261029",
+              "gz-systems-application-guide-20261107"
             ],
             "summary": "本页四个学域的名称和归属已逐项对上。所给链接与学域正文、完整师资及研究学位招生要求分别核查，不把学域数当作可申请导师数。",
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 4
           },
-          "relatedNavigationGroups": []
+          "relatedNavigationGroups": [],
+          "reviewedNavigation": [
+            {
+              "label": "查系统枢纽研究学位申请指南",
+              "sourceId": "gz-systems-application-guide-20261107",
+              "kind": "research_admission_notice",
+              "scope": "网申填写偏好的研究方向或老师，材料及面试按系统枢纽指南准备；轮次看当期研究生院。"
+            }
+          ]
         },
         {
           "id": "hkustgz-4",
@@ -232498,5 +234696,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:1b08474fa6fc81e2dc042e7a8e9cffc39ce90febe530930289425f17e1cacf8c"
+  "snapshotId": "sha256:e4a453db59df82eb73db85dc523a5a89ca91eba74598c3aa0a444deba853018c"
 }

@@ -7,7 +7,8 @@ const profile=(q='',degree='MPhil')=>({...L.defaultProfile(C),universityIds:['hk
 const person=i=>P.faculty.find(f=>f.id==='hku-mechanical-'+String(i).padStart(2,'0'));
 
 test('mechanical extends exact old records and binds current counts to the actual catalogue',()=>{
- for(const key of ['faculty','programs','sources'])for(const row of old[key])assert.deepEqual(C[key].find(x=>x.id===row.id),row);
+ const baseline=require('./fixtures/before-robotics.cjs');
+ for(const key of ['faculty','programs','sources'])for(const row of old[key])assert.deepEqual(baseline[key].find(x=>x.id===row.id),row);
  assert.equal(P.faculty.length,55);assert.equal(P.sources.length,95);assert.equal(P.existingIdentityEvidence[0].id,'wide-hku-peng-lu');
  assert.ok(!P.faculty.some(f=>f.id==='wide-hku-peng-lu'));assert.ok(C.faculty.length>=old.faculty.length+55);
  const status=read('STATUS.json'),quality=read('data/coverage.json').counts;

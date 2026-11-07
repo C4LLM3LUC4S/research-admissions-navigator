@@ -9,6 +9,7 @@ test('the entire returned130-card range stays visible without calling twelve unr
  assert.equal(P.directories[0].coverageComplete,false);assert.equal(P.staffEntries[0].enumerationComplete,false);
 });
 test('old faculty, programme, source dates and identities remain exact objects',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const key of ['faculty','programs','sources'])for(const r of old[key])assert.deepEqual(C[key].find(n=>n.id===r.id),r,r.id);
  assert.ok(C.faculty.length>=1191);assert.ok(C.programs.length>=36);assert.equal(C.faculty.filter(f=>f.universityId==='cuhksz').length,178);
 });

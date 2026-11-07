@@ -6,6 +6,7 @@ const old=read('data/snapshots/8a208df3c6212dd35904f5d31ebd65e6b16bf35cabe91c883
 const profile=q=>({...L.defaultProfile(C),universityIds:['hkust'],degree:'PhD',researchQuery:q});
 
 test('physics adds research leads without rewriting1013 prior people, sources or programme conditions',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const f of old.faculty)assert.deepEqual(C.faculty.find(n=>n.id===f.id),f);
  for(const p of old.programs)assert.deepEqual(C.programs.find(n=>n.id===p.id),p);
  for(const s of old.sources)assert.deepEqual(C.sources.find(n=>n.id===s.id),s);

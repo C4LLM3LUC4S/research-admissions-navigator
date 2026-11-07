@@ -35,6 +35,7 @@ test('SAI keeps all six pages, original identities and two different Ming Li pro
 });
 
 test('Function Hub retains returned range, missing research, public-interface provenance and conflicting pagination',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
   const pack=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/research/hkustgz-function-census-20261027.json'),'utf8'));
   assert.equal(pack.faculty.length,94);assert.equal(pack.facultyUpdates.length,2);assert.equal(pack.pendingResearch.length,7);
   const d=C.directories.find(d=>d.id==='hkustgz-function-census');

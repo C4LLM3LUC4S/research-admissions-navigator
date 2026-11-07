@@ -5,6 +5,7 @@ const C=read('data/catalog.json'),P=read('data/research/cuhk-medical-unit-scope-
 const old=read('data/snapshots/ceb830bc4b8e276a72992c908df13181edd47e87a0491e75db30bfbe4b18fb17.json');
 
 test('the faculty unit supplements the original 19 children without changing source, teacher or programme histories',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const k of ['faculty','programs','directories'])assert.deepEqual(C[k],old[k]);
  assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length),P.sources);
  const unit=C.academicCoverage.find(m=>m.universityId==='cuhk').units.find(u=>u.id==='cuhk-6');

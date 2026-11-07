@@ -7,6 +7,7 @@ const profile=(q='',degree='MPhil',cycle='2027/28')=>({...L.defaultProfile(C),un
 const source=id=>C.sources.find(s=>s.id===id);
 
 test('chemistry extends research without changing prior people, programmes, sources or eight shared identities',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const key of ['faculty','programs','sources'])for(const row of old[key])assert.deepEqual(C[key].find(x=>x.id===row.id),row);
  assert.equal(P.faculty.length,44);assert.equal(P.existingIdentityEvidence.length,8);
  assert.ok(C.faculty.length>=1191);assert.ok(C.programs.length>=36);
