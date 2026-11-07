@@ -2,7 +2,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const before = require('../data/snapshots/623d0f0013958c8b985ad78bb55a8b3c2e77ad835343a47ea50f12786ad28e42.json');
-const after = require('../data/catalog.json');
+const after = require('../data/snapshots/d2ac868c05949351cd5d7a8a261280bafa6458830af7de00e9b21a9dbbcdfd0d.json');
 const update = require('../data/research/polyu-design-application-20261107.json');
 
 test('the School of Design application guidance keeps the 2027 route and every other applicant record', () => {

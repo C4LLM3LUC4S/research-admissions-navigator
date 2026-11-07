@@ -9778,12 +9778,18 @@ window.APP_CATALOG = {
         "System and control theory",
         "Optimization theory",
         "Manufacturing industry",
-        "Energy systems"
+        "Energy systems",
+        "控制理论",
+        "优化理论",
+        "能源系统",
+        "制造系统"
       ],
       "summary": "研究复杂网络系统的控制与优化，以及控制理论在制造和能源系统中的应用。",
       "profileUrl": "https://sse.cuhk.edu.cn/en/faculty/qiuli",
       "sourceIds": [
-        "wide-cuhksz-li-qiu-profile"
+        "wide-cuhksz-li-qiu-profile",
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-qiuli-20261107"
       ],
       "availability": {
         "state": "unknown",
@@ -9794,11 +9800,17 @@ window.APP_CATALOG = {
         ]
       },
       "directorySourceIds": [
-        "wide-dir-cuhksz-sse-ece"
+        "wide-dir-cuhksz-sse-ece",
+        "cuhksz-sse-staff-20261107-page-02"
       ],
       "keywordSourceIds": [
-        "wide-cuhksz-li-qiu-profile"
-      ]
+        "wide-cuhksz-li-qiu-profile",
+        "cuhksz-sse-research-qiuli-20261107"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/qiuli"
     },
     {
       "id": "wide-cuhksz-ruoyu-sun",
@@ -82679,6 +82691,691 @@ window.APP_CATALOG = {
         "text": "请分别核对指导资格和当期接收安排。",
         "sourceIds": [
           "gz-roas-profile-736-20261029"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-hncwong",
+      "universityId": "cuhksz",
+      "name": "黄乃正 · Henry N.C. Wong",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/hncwong",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-research-hncwong-20261107",
+        "cuhksz-sse-research-hncwong-20261107-linked"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-hncwong-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长学勤讲座教授",
+      "researchKeywords": [
+        "有机合成",
+        "天然与非天然分子",
+        "合成方法学"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "summary": "研究方向包括有机合成、天然与非天然分子、合成方法学。",
+      "extraLinks": [
+        {
+          "url": "https://chem.cuhk.edu.hk/people/academic-staff/wnc/",
+          "label": "查看本人主页所给网站",
+          "parentSourceId": "cuhksz-sse-research-hncwong-20261107",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-research-hncwong-20261107-linked"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-hncwong-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-puiyouhong",
+      "universityId": "cuhksz",
+      "name": "裴有康 · PUI, David You-Hong",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/puiyouhong",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-research-puiyouhong-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-puiyouhong-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长学勤讲座教授",
+      "researchKeywords": [
+        "气溶胶",
+        "纳米颗粒工程",
+        "颗粒仪器",
+        "过滤技术"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "化学工程"
+      ],
+      "summary": "研究方向包括气溶胶、纳米颗粒工程、颗粒仪器、过滤技术。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-puiyouhong-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-shuaizhigang",
+      "universityId": "cuhksz",
+      "name": "帅志刚 · SHUAI, Zhigang",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/shuaizhigang",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-research-shuaizhigang-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-shuaizhigang-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长学勤讲座教授",
+      "researchKeywords": [
+        "计算化学",
+        "凝聚态物理",
+        "密度矩阵重整化群",
+        "有机发光",
+        "电荷输运"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括计算化学、凝聚态物理、密度矩阵重整化群、有机发光、电荷输运。",
+      "extraLinks": [
+        {
+          "url": "http://www.shuaigroup.net/",
+          "label": "查看本人主页所给网站",
+          "parentSourceId": "cuhksz-sse-research-shuaizhigang-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "本人主页提供的是 HTTP 地址，可到本人主页查看。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-shuaizhigang-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-zhushiping",
+      "universityId": "cuhksz",
+      "name": "朱世平 · ZHU, Shiping",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/zhushiping",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-research-zhushiping-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-zhushiping-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长学勤讲座教授",
+      "researchKeywords": [
+        "高分子化工",
+        "聚合反应工程",
+        "烯烃聚合",
+        "高分子材料"
+      ],
+      "topics": [
+        "化学工程",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括高分子化工、聚合反应工程、烯烃聚合、高分子材料。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-zhushiping-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-huangjingsong",
+      "universityId": "cuhksz",
+      "name": "黄劲松 · HUANG, Jingsong",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/huangjingsong",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-huangjingsong-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-huangjingsong-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长讲座教授",
+      "researchKeywords": [
+        "李群表示论",
+        "非交换调和分析",
+        "量子数学"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究方向包括李群表示论、非交换调和分析、量子数学。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-huangjingsong-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-wangxiaoping",
+      "universityId": "cuhksz",
+      "name": "王筱平 · WANG, Xiaoping",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/wangxiaoping",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-wangxiaoping-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-wangxiaoping-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长讲座教授",
+      "researchKeywords": [
+        "多相流",
+        "界面建模",
+        "拓扑优化",
+        "微磁计算"
+      ],
+      "topics": [
+        "数学与统计",
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "summary": "研究方向包括多相流、界面建模、拓扑优化、微磁计算。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-wangxiaoping-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-niweiming",
+      "universityId": "cuhksz",
+      "name": "倪维明 · NI, Wei-Ming",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/niweiming",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-niweiming-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-niweiming-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长讲座教授",
+      "researchKeywords": [
+        "偏微分方程",
+        "数学与生物学"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究方向包括偏微分方程、数学与生物学。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-niweiming-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-tiowganong",
+      "universityId": "cuhksz",
+      "name": "王朝谚 · ONG, Tiow-Gan",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/tiowganong",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-tiowganong-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-tiowganong-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长讲座教授",
+      "researchKeywords": [
+        "有机金属化学",
+        "催化",
+        "化学键活化"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "summary": "研究方向包括有机金属化学、催化、化学键活化。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-tiowganong-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-wangxiangrong",
+      "universityId": "cuhksz",
+      "name": "王向荣 · WANG, Xiangrong",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/wangxiangrong",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-wangxiangrong-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-wangxiangrong-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长讲座教授",
+      "researchKeywords": [
+        "凝聚态理论",
+        "统计物理",
+        "自旋电子学",
+        "低维系统电子输运"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括凝聚态理论、统计物理、自旋电子学、低维系统电子输运。",
+      "extraLinks": [
+        {
+          "url": "https://repository.hkust.edu.hk/ir/AuthorProfile/wang-xiangrong",
+          "label": "查看本人主页所给网站",
+          "parentSourceId": "cuhksz-sse-research-wangxiangrong-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "该网站要求访问验证，未读取正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-wangxiangrong-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-wangxuefeng",
+      "universityId": "cuhksz",
+      "name": "王学锋 · WANG, Xuefeng",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/wangxuefeng",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-wangxuefeng-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-wangxuefeng-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "校长讲座教授",
+      "researchKeywords": [
+        "偏微分方程",
+        "整体分岔理论"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "summary": "研究方向包括偏微分方程、整体分岔理论。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-wangxuefeng-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-biwengang",
+      "universityId": "cuhksz",
+      "name": "毕文刚 · BI, Wengang",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/biwengang",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-biwengang-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-biwengang-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "教授",
+      "researchKeywords": [
+        "第三代半导体",
+        "二维纳米材料",
+        "微型发光二极管",
+        "显示器件"
+      ],
+      "topics": [
+        "电子与集成电路",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括第三代半导体、二维纳米材料、微型发光二极管、显示器件。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-biwengang-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-wongkamsing",
+      "universityId": "cuhksz",
+      "name": "黄锦圣 · WONG, Kam Sing",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/wongkamsing",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-research-wongkamsing-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-wongkamsing-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-02"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "教授",
+      "researchKeywords": [
+        "超表面",
+        "光子晶体",
+        "等离激元",
+        "非线性光学"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "summary": "研究方向包括超表面、光子晶体、等离激元、非线性光学。",
+      "extraLinks": [
+        {
+          "url": "https://repository.hkust.edu.hk/ir/AuthorProfile/wong-kam-sing",
+          "label": "查看本人主页所给网站",
+          "parentSourceId": "cuhksz-sse-research-wongkamsing-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "该网站要求访问验证，未读取正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-wongkamsing-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-daigomiyajima",
+      "universityId": "cuhksz",
+      "name": "宮島大吾 · Daigo Miyajima",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/daigomiyajima",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-03",
+        "cuhksz-sse-research-daigomiyajima-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-daigomiyajima-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-03"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "教授",
+      "researchKeywords": [
+        "材料科学",
+        "超分子化学",
+        "分子自组装"
+      ],
+      "topics": [
+        "材料与能源",
+        "物理与化学"
+      ],
+      "summary": "研究方向包括材料科学、超分子化学、分子自组装。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-daigomiyajima-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-xiaobowen",
+      "universityId": "cuhksz",
+      "name": "肖博文 · Bo-Wen Xiao",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/xiaobowen",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-03",
+        "cuhksz-sse-research-xiaobowen-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-xiaobowen-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-03"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "教授",
+      "researchKeywords": [
+        "理论物理",
+        "高能核物理",
+        "量子色动力学"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "summary": "研究方向包括理论物理、高能核物理、量子色动力学。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-xiaobowen-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-xujie",
+      "universityId": "cuhksz",
+      "name": "许杰 · XU, Jie",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/xujie",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-03",
+        "cuhksz-sse-research-xujie-20261107"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-xujie-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-03"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "教授",
+      "researchKeywords": [
+        "无线通信",
+        "边缘计算",
+        "通感一体化",
+        "无人机通信"
+      ],
+      "topics": [
+        "网络与系统",
+        "电子与集成电路"
+      ],
+      "summary": "研究方向包括无线通信、边缘计算、通感一体化、无人机通信。",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-xujie-20261107"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-zhaojunhua",
+      "universityId": "cuhksz",
+      "name": "赵俊华 · ZHAO, Junhua",
+      "department": "理工学院",
+      "profileUrl": "https://myweb.cuhk.edu.cn/zhaojunhua",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-03",
+        "cuhksz-sse-research-zhaojunhua-20261107",
+        "cuhksz-sse-research-zhaojunhua-20261107-linked"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-research-zhaojunhua-20261107"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-03"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "directoryRole": "教授",
+      "researchKeywords": [
+        "电力系统分析",
+        "智能电网",
+        "电力市场",
+        "人工智能"
+      ],
+      "topics": [
+        "材料与能源",
+        "人工智能"
+      ],
+      "summary": "研究方向包括电力系统分析、智能电网、电力市场、人工智能。",
+      "extraLinks": [
+        {
+          "url": "https://www.zhaojunhua.org/",
+          "label": "查看本人主页所给网站",
+          "parentSourceId": "cuhksz-sse-research-zhaojunhua-20261107",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-research-zhaojunhua-20261107-linked"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目，确认指导资格和招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-research-zhaojunhua-20261107"
         ]
       }
     }
@@ -179041,6 +179738,322 @@ window.APP_CATALOG = {
         "https://www.polyu.edu.hk/en/gs/current-students/student-forms/",
         "https://www.polyu.edu.hk/study/pg/rpg/2027/sd"
       ]
+    },
+    {
+      "id": "cuhksz-sse-research-hncwong-20261107",
+      "url": "https://myweb.cuhk.edu.cn/hncwong",
+      "title": "黄乃正 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：有机合成、天然与非天然分子、合成方法学。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "25922648b4a03c63c67b42421b7e126878e9a058905f3d9f298941f8ba15b218",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": [
+        "https://chem.cuhk.edu.hk/people/academic-staff/wnc/"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-research-hncwong-20261107-linked",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/wnc/",
+      "title": "黄乃正 · 本人主页所给网站",
+      "checkedAt": "2026-11-07",
+      "scope": "官网提供的补充研究与身份来源",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "香港中文大学化学系另列荣休教授与研究教授，两项均自 2018 年起；请与深圳任职分开看。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "273d620c589e355b286e21895fbfa4d9a41d39cf95efb0a322a0d05ee0e1807d",
+      "parentSourceId": "cuhksz-sse-research-hncwong-20261107",
+      "originalUrl": "https://chem.cuhk.edu.hk/people/academic-staff/wnc/",
+      "retrievedUrl": "https://chem.cuhk.edu.hk/people/academic-staff/wnc/"
+    },
+    {
+      "id": "cuhksz-sse-research-puiyouhong-20261107",
+      "url": "https://myweb.cuhk.edu.cn/puiyouhong",
+      "title": "裴有康 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：气溶胶、纳米颗粒工程、颗粒仪器、过滤技术。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "8d2aca4e82cef32399965ff561bdb8c92ebbdcc1496e02cd017a28106868904c",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-shuaizhigang-20261107",
+      "url": "https://myweb.cuhk.edu.cn/shuaizhigang",
+      "title": "帅志刚 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：计算化学、凝聚态物理、密度矩阵重整化群、有机发光、电荷输运。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "972431d8503ea7498b682ccdfe9186c431d8f76507a80024368ac958c74f5c01",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": [
+        "http://www.shuaigroup.net/"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-research-zhushiping-20261107",
+      "url": "https://myweb.cuhk.edu.cn/zhushiping",
+      "title": "朱世平 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：高分子化工、聚合反应工程、烯烃聚合、高分子材料。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "ea56747db8e5eebb3b7afded7bdd76172daa043773fcb35499b9edc22b7c2328",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-huangjingsong-20261107",
+      "url": "https://myweb.cuhk.edu.cn/huangjingsong",
+      "title": "黄劲松 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：李群表示论、非交换调和分析、量子数学。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "4c6875e79d22463a6c1fcc43b1c65560ed003f074c04f7f160a1f0239bf151b5",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-qiuli-20261107",
+      "url": "https://myweb.cuhk.edu.cn/qiuli",
+      "title": "丘立 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：控制理论、优化理论、能源系统、制造系统。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "d7cbfc5d3edb60286d5557ef68bdd273537de5303591189aac41bf37af9ae08b",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-wangxiaoping-20261107",
+      "url": "https://myweb.cuhk.edu.cn/wangxiaoping",
+      "title": "王筱平 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：多相流、界面建模、拓扑优化、微磁计算。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "21afe8c8904d48ea8dd3af48454252edc63fdfbe90636da5566c906f76a3a7c9",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-niweiming-20261107",
+      "url": "https://myweb.cuhk.edu.cn/niweiming",
+      "title": "倪维明 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：偏微分方程、数学与生物学。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "a5fbf607c0d5bbed3fb587601a9b7716dfff4d4edb3d5fd6799169ed88d055e9",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-tiowganong-20261107",
+      "url": "https://myweb.cuhk.edu.cn/tiowganong",
+      "title": "王朝谚 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：有机金属化学、催化、化学键活化。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "785ca9b7970b02283ee6b9bbc2dfa7f9afa5af7d76e1c11d286f674126ea9913",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-wangxiangrong-20261107",
+      "url": "https://myweb.cuhk.edu.cn/wangxiangrong",
+      "title": "王向荣 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：凝聚态理论、统计物理、自旋电子学、低维系统电子输运。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "70cabaadf89a68be90aef2742bb5bf719869791c1c74572a36436de18245c3ad",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": [
+        "https://repository.hkust.edu.hk/ir/AuthorProfile/wang-xiangrong"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-research-wangxuefeng-20261107",
+      "url": "https://myweb.cuhk.edu.cn/wangxuefeng",
+      "title": "王学锋 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：偏微分方程、整体分岔理论。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "6fabeb05145e1d0bebafb82fd5f13e563c842d71492324665dd35179050e8eb6",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-biwengang-20261107",
+      "url": "https://myweb.cuhk.edu.cn/biwengang",
+      "title": "毕文刚 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：第三代半导体、二维纳米材料、微型发光二极管、显示器件。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "da9ab51cac56332e3daf30ae6ad6660f2a3c22a54ad074bdd4eb241153341cd9",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-wongkamsing-20261107",
+      "url": "https://myweb.cuhk.edu.cn/wongkamsing",
+      "title": "黄锦圣 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：超表面、光子晶体、等离激元、非线性光学。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "cdb2c748cd5a5e29e02371511f6f4f6bc0ea1cdcfa2ec9b4c54b4586b3d69fba",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-02",
+      "discoveredLinks": [
+        "https://repository.hkust.edu.hk/ir/AuthorProfile/wong-kam-sing"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-research-daigomiyajima-20261107",
+      "url": "https://myweb.cuhk.edu.cn/daigomiyajima",
+      "title": "宮島大吾 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：材料科学、超分子化学、分子自组装。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "47ebbf7e6976a691304c4ab0dd0309cbeacefcf0b19a993b1bb0258cd60b64b4",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-03",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-xiaobowen-20261107",
+      "url": "https://myweb.cuhk.edu.cn/xiaobowen",
+      "title": "肖博文 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：理论物理、高能核物理、量子色动力学。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "6a0cdc37e60deaf989612b89ca1d9516b1199e85b1d387b2dccbc9d5e01b49c7",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-03",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-xujie-20261107",
+      "url": "https://myweb.cuhk.edu.cn/xujie",
+      "title": "许杰 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：无线通信、边缘计算、通感一体化、无人机通信。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "e99abe4fceef6f3ba6138ab6168fdc7b006d4713e20be8cd7051de90ac5ec316",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-03",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-research-zhaojunhua-20261107",
+      "url": "https://myweb.cuhk.edu.cn/zhaojunhua",
+      "title": "赵俊华 · 港中深理工学院本人档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人主页的研究正文；岗位参照对应学院名录页。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向：电力系统分析、智能电网、电力市场、人工智能。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "e9cdbbc6418ef8c32f4e21bf1cf07fc4edab240d65b5a434d2e1ed0e3c757d02",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-03",
+      "discoveredLinks": [
+        "https://www.zhaojunhua.org/"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-research-zhaojunhua-20261107-linked",
+      "url": "https://www.zhaojunhua.org/",
+      "title": "赵俊华 · 本人主页所给网站",
+      "checkedAt": "2026-11-07",
+      "scope": "官网提供的补充研究与身份来源",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "实验室主页列智能电网、电力市场、低碳转型和人工智能研究。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8f9b76d5864e2fe5bdef692bc1c75740c1710b376a8c7560edce9fa8c9b8f8b8",
+      "parentSourceId": "cuhksz-sse-research-zhaojunhua-20261107",
+      "originalUrl": "https://www.zhaojunhua.org/",
+      "retrievedUrl": "https://www.zhaojunhua.org/"
     }
   ],
   "funding": [
@@ -229438,9 +230451,12 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/hncwong",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
                   "directoryLabel": "校长学勤讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-hncwong",
+                  "bodySha256": "25922648b4a03c63c67b42421b7e126878e9a058905f3d9f298941f8ba15b218",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "罗智泉",
@@ -229456,18 +230472,24 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/puiyouhong",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
                   "directoryLabel": "校长学勤讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-puiyouhong",
+                  "bodySha256": "8d2aca4e82cef32399965ff561bdb8c92ebbdcc1496e02cd017a28106868904c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "帅志刚",
                   "url": "https://myweb.cuhk.edu.cn/shuaizhigang",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
                   "directoryLabel": "校长学勤讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-shuaizhigang",
+                  "bodySha256": "972431d8503ea7498b682ccdfe9186c431d8f76507a80024368ac958c74f5c01",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "唐本忠",
@@ -229492,72 +230514,96 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/zhushiping",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
                   "directoryLabel": "校长学勤讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-zhushiping",
+                  "bodySha256": "ea56747db8e5eebb3b7afded7bdd76172daa043773fcb35499b9edc22b7c2328",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "黄劲松",
                   "url": "https://myweb.cuhk.edu.cn/huangjingsong",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-huangjingsong",
+                  "bodySha256": "4c6875e79d22463a6c1fcc43b1c65560ed003f074c04f7f160a1f0239bf151b5",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "倪维明",
                   "url": "https://myweb.cuhk.edu.cn/niweiming",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-niweiming",
+                  "bodySha256": "a5fbf607c0d5bbed3fb587601a9b7716dfff4d4edb3d5fd6799169ed88d055e9",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "丘立",
                   "url": "https://myweb.cuhk.edu.cn/qiuli",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "wide-cuhksz-li-qiu",
+                  "bodySha256": "d7cbfc5d3edb60286d5557ef68bdd273537de5303591189aac41bf37af9ae08b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "王朝谚",
                   "url": "https://myweb.cuhk.edu.cn/tiowganong",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-tiowganong",
+                  "bodySha256": "785ca9b7970b02283ee6b9bbc2dfa7f9afa5af7d76e1c11d286f674126ea9913",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "王向荣",
                   "url": "https://myweb.cuhk.edu.cn/wangxiangrong",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-wangxiangrong",
+                  "bodySha256": "70cabaadf89a68be90aef2742bb5bf719869791c1c74572a36436de18245c3ad",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "王筱平",
                   "url": "https://myweb.cuhk.edu.cn/wangxiaoping",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-wangxiaoping",
+                  "bodySha256": "21afe8c8904d48ea8dd3af48454252edc63fdfbe90636da5566c906f76a3a7c9",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "王学锋",
                   "url": "https://myweb.cuhk.edu.cn/wangxuefeng",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "校长讲座教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-wangxuefeng",
+                  "bodySha256": "6fabeb05145e1d0bebafb82fd5f13e563c842d71492324665dd35179050e8eb6",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "徐扬生",
@@ -229573,18 +230619,24 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/biwengang",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-biwengang",
+                  "bodySha256": "da9ab51cac56332e3daf30ae6ad6660f2a3c22a54ad074bdd4eb241153341cd9",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "黄锦圣",
                   "url": "https://myweb.cuhk.edu.cn/wongkamsing",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
                   "directoryLabel": "教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-wongkamsing",
+                  "bodySha256": "cdb2c748cd5a5e29e02371511f6f4f6bc0ea1cdcfa2ec9b4c54b4586b3d69fba",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "Ayman Kachmar",
@@ -229600,9 +230652,12 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/daigomiyajima",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
                   "directoryLabel": "教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-daigomiyajima",
+                  "bodySha256": "47ebbf7e6976a691304c4ab0dd0309cbeacefcf0b19a993b1bb0258cd60b64b4",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "潘兴斌",
@@ -229618,18 +230673,24 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/xiaobowen",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
                   "directoryLabel": "教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-xiaobowen",
+                  "bodySha256": "6a0cdc37e60deaf989612b89ca1d9516b1199e85b1d387b2dccbc9d5e01b49c7",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "许杰",
                   "url": "https://myweb.cuhk.edu.cn/xujie",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
                   "directoryLabel": "教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-xujie",
+                  "bodySha256": "e99abe4fceef6f3ba6138ab6168fdc7b006d4713e20be8cd7051de90ac5ec316",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "叶涛",
@@ -229654,9 +230715,12 @@ window.APP_CATALOG = {
                   "url": "https://myweb.cuhk.edu.cn/zhaojunhua",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
                   "directoryLabel": "教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-zhaojunhua",
+                  "bodySha256": "e9cdbbc6418ef8c32f4e21bf1cf07fc4edab240d65b5a434d2e1ed0e3c757d02",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "周艳",
@@ -236973,5 +238037,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:d2ac868c05949351cd5d7a8a261280bafa6458830af7de00e9b21a9dbbcdfd0d"
+  "snapshotId": "sha256:0b6a10b999a977ee242890ca4def09ab655d206ab9bd0cbab60213945302f82c"
 };
