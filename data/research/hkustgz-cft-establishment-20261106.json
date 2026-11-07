@@ -1,0 +1,33 @@
+{
+  "unitId": "hkustgz-6",
+  "sources": [
+    {
+      "id": "hkustgz-cft-establishment-20261106",
+      "url": "https://www.hkust-gz.edu.cn/zh/2023/03/16/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E6%AD%A3%E5%BC%8F%E6%88%90%E7%AB%8B/?variant=zh-hk",
+      "title": "港科广未来技术学院成立公告（2023 年）",
+      "publishedAt": "2023-03-16",
+      "checkedAt": "2026-11-06",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "成立时的组织归属、职责与三个组成部分。",
+      "claims": [
+        "成立公告将未来技术学院列为副校长（教学）办公室下的学术单位，负责红鸟研究型硕士项目。",
+        "公告列红鸟硕士学部、未来技术实验室和红鸟学创大教室三个组成部分。"
+      ],
+      "knownIssues": [
+        "此处沿用 2023 年公告的称谓。当期组织架构请查学院最新资料。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "c20a28f029b239693b401c1839a1005710bf5d31ceb65794b17c055b5ebbc269"
+    }
+  ],
+  "reviewedNavigation": [
+    {
+      "label": "查看未来技术学院成立公告（2023 年）",
+      "sourceId": "hkustgz-cft-establishment-20261106",
+      "scope": "校方当时列出红鸟硕士学部、未来技术实验室和红鸟学创大教室。下方另列现有学院资料使用的称谓。",
+      "kind": "college_scope"
+    }
+  ]
+}
