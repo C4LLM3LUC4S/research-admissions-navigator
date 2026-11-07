@@ -22,3 +22,12 @@ input[type=search]{width:100%;border:1px solid #d7dfd8;border-radius:7px;backgro
 .academic-name-original{font-size:.88em;font-weight:400;color:var(--muted);overflow-wrap:anywhere}
 
 .source-search{max-width:36rem;margin:0 0 16px}.source-search .field-help{margin:6px 0 0}.source-more{margin-top:18px}
+.startup-projects{padding:1.5rem;border:1px solid #dbe3db;border-radius:18px;background:#fffefa;margin-bottom:1.5rem}
+.startup-projects h2{font-size:1.25rem;margin:0 0 .6rem}
+.startup-projects p{line-height:1.7;margin:.5rem 0 1rem}
+.startup-school-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:.7rem;margin-bottom:1rem}
+.startup-school-grid details{border:1px solid #dbe3db;border-radius:10px;padding:.85rem}
+.startup-school-grid summary{cursor:pointer;font-weight:600}
+.startup-school-grid ul{padding-left:1.2rem;margin-bottom:0}
+.startup-school-grid li{margin:.8rem 0;line-height:1.6}
+.startup-school-grid small{display:block;color:#576976}
