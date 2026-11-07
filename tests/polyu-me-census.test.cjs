@@ -19,7 +19,7 @@ test('ME additions preserve every prior source, teacher, programme, directory an
   }
  }
  for(const school of prior.academicCoverage){
-  const now=C.academicCoverage.find(row=>row.universityId===school.universityId);
+  const now=baseline.academicCoverage.find(row=>row.universityId===school.universityId);
   for(const unit of school.units){
    const current=now.units.find(row=>row.id===unit.id);
    assert.deepEqual(current.children,unit.children);

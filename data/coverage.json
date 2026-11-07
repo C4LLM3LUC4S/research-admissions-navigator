@@ -5,7 +5,7 @@
     "universities": 7,
     "programs": 55,
     "faculty": 1504,
-    "sources": 2766,
+    "sources": 2784,
     "funding": 1,
     "degreeRoutes": 94,
     "facultyByUniversity": {
@@ -23,13 +23,13 @@
     "requirementItems": 205,
     "programsWithFinances": 29,
     "financeItems": 50,
-    "officialDirectories": 77,
+    "officialDirectories": 78,
     "directoriesByUniversity": {
       "hku": 19,
       "cuhk": 10,
       "hkust": 14,
       "hkustgz": 8,
-      "cuhksz": 5,
+      "cuhksz": 6,
       "polyu": 11,
       "cityu": 10
     },

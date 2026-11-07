@@ -2,7 +2,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const before = require('./fixtures/before-robotics.cjs');
-const after = require('../data/catalog.json');
+const after = require('../data/snapshots/e4a453db59df82eb73db85dc523a5a89ca91eba74598c3aa0a444deba853018c.json');
 const pack = require('../data/research/hkustgz-roas-census-20261107.json');
 
 test('robotics evidence updates five saved identities and preserves every unrelated catalogue record', () => {
