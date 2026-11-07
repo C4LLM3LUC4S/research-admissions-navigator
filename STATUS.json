@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a31",
-  "stage": "post_alpha31_official_unit_route_evidence",
+  "stage": "post_alpha31_application_degree_filter",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-07",
   "working_name": "研向",
@@ -8,7 +8,7 @@
   "counts": {
     "universities": 7,
     "programme_or_route_cards": 55,
-    "degree_routes": 94,
+    "degree_routes": 92,
     "faculty": 1520,
     "official_sources": 2316,
     "programmes_with_partial_requirements": 53,

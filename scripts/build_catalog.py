@@ -9,7 +9,7 @@ from html import escape
 import json
 import re
 from collections import Counter
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
@@ -271,6 +271,7 @@ def build_catalog():
     catalog["faculty"].extend(extended["faculty"])
     catalog["directories"].extend(extended["directories"])
     quantitative = load("quantitative-programmes-20261026.json")
+    catalog["directApplicationRoutes"] = quantitative["directApplicationRoutes"]
     catalog["sources"].extend(quantitative["sources"])
     catalog["programs"].extend(quantitative["programs"])
     census = load("hkust-cse-census-20261026.json")
@@ -746,12 +747,24 @@ def validate_read_receipt(record):
         assert re.fullmatch("[a-f0-9]{64}", record["bodySha256"])
 
 
+def application_degrees(catalog, program):
+    route = catalog.get("directApplicationRoutes", {}).get(program["id"])
+    return route["degrees"] if route and route["cycle"] == program["cycle"] else program["degrees"]
+
+
 def validate(catalog):
     assert catalog["schemaVersion"] == 1 and catalog["checkedDate"] == CHECKED
     unis = {u["id"] for u in catalog["universities"]}
     assert unis == {"hku", "cuhk", "hkust", "polyu", "cityu", "cuhksz", "hkustgz"}
     sources = {s["id"]: s for s in catalog["sources"]}
     assert len(sources) == len(catalog["sources"]) and len(sources) >= 34
+    programmes = {p["id"]: p for p in catalog["programs"]}
+    for pid, route in catalog.get("directApplicationRoutes", {}).items():
+        programme = programmes[pid]
+        assert route["cycle"] == programme["cycle"]
+        assert route["degrees"] and set(route["degrees"]) < set(programme["degrees"])
+        assert route["sourceId"] in programme["sourceIds"] and route["sourceId"] in sources
+        assert date.fromisoformat(sources[route["sourceId"]]["checkedAt"]) <= date.fromisoformat(route["checkedAt"]) <= date.fromisoformat(CHECKED)
     for source in sources.values():
         if source.get("navigationEvidence"):
             navigation = source["navigationEvidence"]
@@ -1254,7 +1267,7 @@ def validate(catalog):
                     if route["bodyStatus"] == "body_read" and route.get("retrievedUrl", "").startswith("https://"):
                         refs(route["sourceIds"])
     counts = {"universities": len(unis), "programs": len(catalog["programs"]), "faculty": len(catalog["faculty"]), "sources": len(sources),
-        "funding": len(catalog["funding"]), "degreeRoutes": sum(len(p["degrees"]) for p in catalog["programs"]),
+        "funding": len(catalog["funding"]), "degreeRoutes": sum(len(application_degrees(catalog, p)) for p in catalog["programs"]),
         "facultyByUniversity": dict(Counter(f["universityId"] for f in catalog["faculty"])),
         "unknownRecruitment": sum(f["availability"]["state"] == "unknown" for f in catalog["faculty"]),
         "dateOnlyDeadlines": sum(d["at"] is None for p in catalog["programs"] for d in p["deadlines"]),
@@ -1297,7 +1310,7 @@ def startup_project_html(catalog):
                 '<li><a target="_blank" rel="noopener noreferrer" data-project-id="'
                 + escape(project["id"], quote=True) + '" href="' + escape(url, quote=True) + '">'
                 + escape(project["name"]) + ' ↗</a><small>'
-                + escape(" / ".join(project["degrees"]) + " · " + cycle) + '</small></li>'
+                + escape(" / ".join(application_degrees(catalog, project)) + " · " + cycle) + '</small></li>'
             )
         groups.append('<details><summary>' + escape(school["short"])
                       + '</summary><ul>' + "".join(projects) + '</ul></details>')
