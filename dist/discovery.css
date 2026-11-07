@@ -20,3 +20,5 @@ input[type=search]{width:100%;border:1px solid #d7dfd8;border-radius:7px;backgro
 .contact-next-step{font-size:14px;color:var(--teal);margin:12px 0}.application-process .question-grid{margin:12px 0}.application-process{border-top:1px solid var(--line);padding-top:10px}
 
 .academic-name-original{font-size:.88em;font-weight:400;color:var(--muted);overflow-wrap:anywhere}
+
+.source-search{max-width:36rem;margin:0 0 16px}.source-search .field-help{margin:6px 0 0}.source-more{margin-top:18px}

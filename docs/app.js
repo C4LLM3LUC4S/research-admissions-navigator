@@ -271,13 +271,42 @@
     const tasks=$('tasks');clear(tasks);state.tasks.forEach(t=>{const li=node('li'),label=node('label'),input=node('input');input.type='checkbox';input.checked=t.done;const span=node('span',t.text,t.done?'done':'');input.addEventListener('change',()=>{t.done=input.checked;persist(false);renderShortlist();});append(label,input,span);append(li,label,button('移除',()=>{state.tasks=state.tasks.filter(x=>x.id!==t.id);persist(false);renderShortlist();},'remove-button'));tasks.append(li);});if(!state.tasks.length)tasks.append(node('li','还没有待办。可以从项目卡片加入，或写一件自己的小事。','field-help'));
     const history=$('catalog-history');clear(history);const versions=state.catalogHistory||[];$('catalog-history-panel').hidden=!versions.length;versions.forEach(entry=>history.append(node('li','核查日期：'+(entry.checkedDate||'未知')+' · '+(entry.snapshotId?entry.snapshotId:'当时未注明资料摘要'))));
   }
-  function renderSources() { const list=$('source-list');C.sources.forEach(s=>{const card=node('article',null,'source-card');append(card,node('p',(s.evidenceLevel==='official_entry_access_failed'?'官方入口（未读到正文）':s.evidenceLevel==='teacher_page_linked_from_official_profile'?'教师个人网站（院系提供链接）':'官方资料')+' · 核查 '+(s.checkedAt||'日期未知'),'source-meta'),node('h2',s.title),node('p','适用范围：'+(s.scope||'待核实')));const claims=node('ul');(s.claims||[]).forEach(text=>claims.append(node('li',text)));card.append(claims);(s.knownIssues||[]).forEach(text=>card.append(node('p','待留意：'+text,'evidence-note')));card.append(verifiedLink('打开原始来源 ↗',L.sourceUrl(C,s)));list.append(card);}); }
-  function showView(name) { if(!['explore','shortlist','sources','community'].includes(name))name='explore';document.querySelectorAll('.view').forEach(view=>{view.hidden=view.id!=='view-'+name;});document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===name)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(name==='shortlist')renderShortlist();history.replaceState(null,'','#'+name); }
+  const sourcePageSize=36;
+  let sourceIndex,sourceMatches=[],sourcesShown=0;
+  const sourceKind=s=>s.evidenceLevel==='official_entry_access_failed'?'官方入口（未读到正文）':s.evidenceLevel==='teacher_page_linked_from_official_profile'?'教师个人网站（院系提供链接）':'官方资料';
+  const sourceSearchKey=text=>text.normalize('NFKC').toLowerCase();
+  function appendSourcePage(focusFirst=false) {
+    const list=$('source-list'),page=sourceMatches.slice(sourcesShown,sourcesShown+sourcePageSize);
+    let firstTitle;
+    page.forEach(s=>{
+      const card=node('article',null,'source-card'),title=node('h2',s.title),claims=node('ul');
+      if(!firstTitle)firstTitle=title;
+      append(card,node('p',sourceKind(s)+' · 核查 '+(s.checkedAt||'日期未知'),'source-meta'),title,node('p','适用范围：'+(s.scope||'待核实')));
+      (s.claims||[]).forEach(text=>claims.append(node('li',text)));
+      card.append(claims);
+      (s.knownIssues||[]).forEach(text=>card.append(node('p','待留意：'+text,'evidence-note')));
+      card.append(verifiedLink('打开原始来源 ↗',L.sourceUrl(C,s)));
+      list.append(card);
+    });
+    sourcesShown+=page.length;
+    $('source-count').textContent=sourceMatches.length?'显示 '+sourcesShown+' / '+sourceMatches.length+' 条来源':'没有匹配的来源。试试学校、项目或老师的名称。';
+    $('show-more-sources').hidden=sourcesShown>=sourceMatches.length;
+    if(focusFirst&&firstTitle){firstTitle.setAttribute('tabindex','-1');firstTitle.focus();}
+  }
+  function filterSources() {
+    if(!sourceIndex)sourceIndex=C.sources.map(s=>[s,sourceSearchKey([s.title,s.scope,s.url,s.checkedAt,sourceKind(s),...(s.claims||[])].filter(Boolean).join(' '))]);
+    const terms=sourceSearchKey($('source-query').value).trim().split(/[\s,，]+/).filter(Boolean);
+    sourceMatches=sourceIndex.filter(([,key])=>terms.every(term=>key.includes(term))).map(([source])=>source);
+    sourcesShown=0;clear($('source-list'));appendSourcePage();
+  }
+  function showView(name) { if(!['explore','shortlist','sources','community'].includes(name))name='explore';document.querySelectorAll('.view').forEach(view=>{view.hidden=view.id!=='view-'+name;});document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===name)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(name==='shortlist')renderShortlist();if(name==='sources'&&!sourceIndex)filterSources();history.replaceState(null,'','#'+name); }
   function renderCommunityPrograms() { const universityId=$('community-university').value;clear($('community-program'));$('community-program').append(new Option('请选择项目',''));C.programs.filter(p=>p.universityId===universityId).forEach(p=>$('community-program').append(new Option(p.name+' · '+p.degrees.join('/'),p.id))); }
-  buildFilters();chooseMode(state.profile.researchQuery.trim()?'faculty':'programs');renderShortlist();renderSources();
+  buildFilters();chooseMode(state.profile.researchQuery.trim()?'faculty':'programs');renderShortlist();
   $('data-stamp').replaceChildren(node('strong','资料更新 · '+(C.checkedDate||'日期待更新')),node('span','申请前可打开项目官网确认最新安排'));
   $('faculty-coverage').textContent='先查项目要求，再比较老师的研究方向。想按专业查找时，展开左侧的“搜索专业、院系和研究方向”。';
   document.querySelectorAll('[data-view]').forEach(b=>b.addEventListener('click',()=>showView(b.dataset.view)));
+  $('source-query').addEventListener('input',filterSources);
+  $('show-more-sources').addEventListener('click',()=>appendSourcePage(true));
   $('profile-form').addEventListener('input',event=>{readProfile();facultyLimit=24;if(event.target.id==='research-query')chooseMode('faculty');else renderResults();});$('profile-form').addEventListener('submit',event=>{event.preventDefault();readProfile();if(persist(true))notify('已保存在这个浏览器中。备份到文件后，才能换设备恢复。');});
   [['show-programs','programs'],['show-faculty','faculty'],['show-directories','directories']].forEach(([id,value])=>$(id).addEventListener('click',()=>chooseMode(value)));
   $('show-more-faculty').addEventListener('click',()=>{const previous=facultyLimit;facultyLimit+=24;renderResults();if(resultCards[previous])resultCards[previous].focus();});
