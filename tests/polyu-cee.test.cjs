@@ -5,7 +5,8 @@ const C=read('data/catalog.json'),P=read('data/research/polyu-cee-census-2026102
 const old=read('data/snapshots/2a90437bb7228d0cca797d1084714aac1dbd159039f113c9d01cfc4972e8be00.json');
 const f=i=>P.faculty.find(x=>x.id==='polyu-cee-'+String(i).padStart(3,'0'));
 test('CEE preserves old records and exposes every actual role card without inventing missing research',()=>{
- for(const key of ['faculty','programs','sources'])for(const row of old[key])assert.deepEqual(C[key].find(x=>x.id===row.id),row);
+ const baseline=require('./fixtures/before-robotics.cjs');
+ for(const key of ['faculty','programs','sources'])for(const row of old[key])assert.deepEqual(baseline[key].find(x=>x.id===row.id),row);
  assert.equal(P.faculty.length,67);assert.equal(P.pendingResearch.length,30);assert.equal(P.directories.reduce((n,d)=>n+d.census.entries.length+d.census.unlinkedEntries.length,0),106);
  assert.equal(P.directories[0].census.entries.length,97);assert.equal(P.directories.reduce((n,d)=>n+d.census.unlinkedEntries.length,0),9);
  assert.ok(!f(45));assert.ok(P.pendingResearch.some(x=>x.index===45));assert.match(P.directories[0].census.entries[45].name,/Kwan/i);

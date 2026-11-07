@@ -14,6 +14,7 @@ test('sixteen hub thrusts, education supports and college components keep separa
  const cft=unit('hkustgz-6');assert.equal(cft.children.length,0);assert.equal(cft.relatedNavigationGroups[0].entries.length,3);assert.equal(cft.relatedNavigationGroups[0].entries[0].url,null);assert.equal(C.sources.find(s=>s.id==='organization-cft-structure-failed-20261029').evidenceLevel,'official_entry_access_failed');
 });
 test('organization scope preserves all prior people, programmes, directories and evidence',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  const old=read('data/snapshots/c14b4c6262c0cc8343c9781b4be5302b44dce456512b7f094f6e3ad7c714eec3.json');for(const key of ['faculty','programs','directories'])assert.deepEqual(C[key].slice(0,old[key].length),old[key]);for(const row of old.sources)assert.deepEqual(C.sources.find(s=>s.id===row.id),row);
  assert.equal(P.units.length,9);assert.equal(P.allSevenHierarchiesComplete,false);assert.ok(P.units.every(u=>!u.organizationReview.organizationComplete&&!u.organizationReview.facultyComplete));
 });

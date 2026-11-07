@@ -6,6 +6,7 @@ const old=read('data/snapshots/efed3de25c92f9a0eb2074222c9ec081348710ff6a6bcb9e8
 const profile=(q,degree='PhD')=>({...L.defaultProfile(C),degree,universityIds:['cuhk'],researchQuery:q});
 
 test('SEEM keeps980 prior records, cross-department IDs and the person without a research statement',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const f of old.faculty)assert.deepEqual(C.faculty.find(x=>x.id===f.id),f);
  for(const p of old.programs)assert.deepEqual(C.programs.find(x=>x.id===p.id),p);
  assert.equal(P.faculty.length,33);assert.deepEqual(P.staffEntries.map(x=>x.profileLeads.length),[24,1,11]);

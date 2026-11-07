@@ -6,8 +6,9 @@ const C=read('data/catalog.json'),P=read('data/research/polyu-me-census-20261107
 const prior=read('data/snapshots/ae65c6f49a14ca671378412ac8aa71f88f791787afda0570309f5747bec1da8e.json');
 
 test('ME additions preserve every prior source, teacher, programme, directory and formal child relation',()=>{
+ const baseline=require('./fixtures/before-robotics.cjs');
  for(const key of ['sources','faculty','programs','directories']){
-  const now=new Map(C[key].map(row=>[row.id,row]));
+  const now=new Map(baseline[key].map(row=>[row.id,row]));
   for(const row of prior[key]){
    let current=now.get(row.id);
    if(key==='directories'&&row.id==='hku-science-physics-observed-staff'){

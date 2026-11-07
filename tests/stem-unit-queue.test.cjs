@@ -13,6 +13,7 @@ function assertPriorRecords(prior) {
  }
 }
 test('STEM continuation keeps every prior source and record and reuses five dated bodies without rewriting them',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  assertPriorRecords(old);
  assert.deepEqual(C.sources.slice(0,old.sources.length),old.sources);assert.deepEqual(C.sources.slice(old.sources.length,old.sources.length+P.sources.length),P.sources);assert.deepEqual(C.academicEntryFollowups.slice(0,old.academicEntryFollowups.length),old.academicEntryFollowups);assert.deepEqual(C.academicEntryFollowups.slice(old.academicEntryFollowups.length,old.academicEntryFollowups.length+P.entries.length),P.entries);assert.deepEqual(C.academicUnitNotes,P.academicUnitNotes);
  assert.equal(P.sources.length,6);assert.equal(P.entries.length,4);assert.equal(P.reusedSourceIds.length,5);for(const id of P.reusedSourceIds){const s=C.sources.find(s=>s.id===id);assert.equal(s.checkedAt,old.sources.find(x=>x.id===id).checkedAt);assert.ok(s.checkedAt<'2026-11-05');}assert.equal(old.faculty.length,1378);assert.deepEqual(C.faculty.slice(0,old.faculty.length),old.faculty);

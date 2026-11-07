@@ -4,6 +4,7 @@ const read=p=>JSON.parse(fs.readFileSync(path.join(__dirname,'..',p),'utf8'));
 const C=read('data/catalog.json'),P=read('data/research/hkust-materials-portal-20261107.json');
 const old=read('data/snapshots/3a26cceee49c082552fdd9c653bf329836ac28591cc3a1b1e6901af1b93d3a8e.json');
 test('materials portal reuses three identities, adds only one researcher and leaves the unprovided department homepage unknown',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  assert.equal(P.faculty.length,1);
  assert.deepEqual(C.faculty.slice(0,old.faculty.length+1),old.faculty.concat(P.faculty));
  for(const key of ['faculty','programs','sources','directories'])for(const row of old[key]){

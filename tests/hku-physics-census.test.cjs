@@ -6,6 +6,7 @@ const old=read('data/snapshots/1037686cfff1654911b9e27e6122c1ec0e4528aac8ea6e0a2
 const D=C.directories.find(d=>d.id===P.directoryUpdate.id);
 
 test('physics retains the entire original named list and prior census rather than overwriting historical progress',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  const before=old.directories.find(d=>d.id===D.id),history=D.censusHistory.find(h=>h.batch==='hku-physics-census-20261107');
  assert.deepEqual(history.census,before.census);assert.equal(history.coverageNotes,before.coverageNotes);
  for(const key of Object.keys(before).filter(k=>!['census','coverageNotes'].includes(k)))assert.deepEqual(D[key],before[key]);

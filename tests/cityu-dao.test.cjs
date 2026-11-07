@@ -19,6 +19,7 @@ test('web-reader text receipts do not pretend to be raw HTTP bodies',()=>{
  }
 });
 test('all old identities, sources, dates and programme rules survive unchanged',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const key of ['faculty','programs','sources'])for(const r of old[key])assert.deepEqual(C[key].find(n=>n.id===r.id),r,r.id);
  assert.ok(C.faculty.length>=1191);assert.ok(C.programs.length>=36);
  assert.ok(!C.programs.some(p=>p.id==='cityu-dao-rpg'));

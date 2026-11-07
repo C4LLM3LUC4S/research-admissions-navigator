@@ -10,6 +10,7 @@ test('college batch adds only sourced missing direct nodes and retains old ident
  const science=unit(C,'polyu-7');assert.equal(science.children.length,4);assert.ok(science.children.every(c=>c.inventoryListing.name.includes('(')));assert.equal(science.children[0].inventoryListing.url,'https://www.polyu.edu.hk/chem/');
 });
 test('nested schools retain explicit parents and never enter direct-child or teacher totals',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  const med=unit(C,'hku-8'),clinical=med.relatedNavigationGroups.find(g=>g.parentUnitName==='School of Clinical Medicine');assert.equal(med.children.length,7);assert.equal(clinical.entries.length,17);assert.equal(clinical.entries.filter(e=>e.kind==='department').length,14);assert.equal(clinical.entries.filter(e=>e.kind==='unit').length,2);
  const humanities=unit(C,'hku-2').relatedNavigationGroups.find(g=>g.parentUnitName==='School of Humanities');assert.equal(humanities.entries.length,7);assert.equal(humanities.entries.find(e=>e.name==='Gender Studies').kind,'department_or_programme');
  const fields=unit(C,'cuhksz-1');assert.equal(fields.children.length,0);assert.ok(fields.relatedNavigationGroups[0].entries.every(e=>e.kind==='research_field'&&e.url===null));

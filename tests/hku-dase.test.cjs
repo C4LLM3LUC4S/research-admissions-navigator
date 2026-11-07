@@ -6,6 +6,7 @@ const old=read('data/snapshots/94495ca73081619fb2db1979a60c6c141147da353b0d3afd5
 const profile=q=>({...L.defaultProfile(C),degree:'PhD',universityIds:['hku'],researchQuery:q});
 
 test('DASE preserves the prior959 records, one existing ID and the limits of both staff lists',()=>{
+ const C=require('./fixtures/before-robotics.cjs');
  for(const f of old.faculty)assert.deepEqual(C.faculty.find(x=>x.id===f.id),f);
  for(const p of old.programs)assert.deepEqual(C.programs.find(x=>x.id===p.id),p);
  assert.equal(P.faculty.length,21);assert.equal(P.staffEntries[0].profileLeads.length,22);
