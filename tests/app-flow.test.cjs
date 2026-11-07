@@ -526,6 +526,31 @@ test('an applicant sees a source identity conflict before saving a medical-image
   const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);assert.match(restored.byId.get('saved-faculty').textContent,/Colin S. C. Tsang/);assert.match(restored.byId.get('saved-faculty').textContent,/没有确认与Colin Tsang的关系/);assert.equal(h.networkCalls(),0);
 });
 
+test('Shenzhen SSE directory keeps official page numbers and only builds people when requested',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('cuhksz','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
+  const unit=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent==='理工学院');
+  assert.ok(unit);
+  assert.ok(h.walk(unit).some(n=>n.href==='https://sse.cuhk.edu.cn/teacher-search'));
+  assert.ok(!h.walk(unit).some(n=>n.href==='https://sse.cuhk.edu.cn/taxonomy/term/158'));
+  const disclosure=h.walk(unit).find(n=>n.tagName==='details'&&n.children[0]?.textContent==='按官网页码浏览 172 个主页');
+  assert.equal(disclosure.childElementCount,1);
+  disclosure.open=true;await disclosure.emit('toggle');
+  const pages=disclosure.children.slice(1);
+  assert.equal(pages.length,18);
+  assert.ok(pages.every(page=>page.childElementCount===1));
+  const pack=require('../data/research/cuhksz-sse-staff-20261107.json');
+  for(const index of [0,17]){
+    const page=pages[index],url=pack.sources[index].url;
+    page.open=true;await page.emit('toggle');
+    const links=h.walk(page).filter(n=>n.tagName==='a').map(n=>n.href);
+    assert.deepEqual(links,[...pack.staffEntry.profileLeads.filter(lead=>lead.observedOn===url).map(lead=>lead.url),url]);
+  }
+  disclosure.open=false;await disclosure.emit('toggle');disclosure.open=true;await disclosure.emit('toggle');
+  assert.equal(disclosure.childElementCount,19);
+  assert.equal(h.networkCalls(),0);
+});
+
 test('directory progress gives actual names and precise pending reasons without fake links or current-supervisor claims',async()=>{
   const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');
   assert.match(el('results').textContent,/76 个主页：69 个已读，7 个待核/);assert.match(el('results').textContent,/Martin Ding Fat Wong/);assert.match(el('results').textContent,/In Memoriam/);assert.match(el('results').textContent,/证书校验失败/);assert.doesNotMatch(el('results').textContent,/7 个读取超时/);

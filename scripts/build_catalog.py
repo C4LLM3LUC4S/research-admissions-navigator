@@ -692,6 +692,14 @@ def build_catalog():
     systems["staffEntries"].append(robotics["staffEntry"])
     systems["organizationReview"]["sourceIds"].extend(route["sourceId"] for route in robotics["reviewedNavigation"])
     systems.setdefault("reviewedNavigation", []).extend(robotics["reviewedNavigation"])
+    sse_staff = load("cuhksz-sse-staff-20261107.json")
+    catalog["sources"].extend(sse_staff["sources"])
+    catalog["directories"].append(sse_staff["directory"])
+    sse = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == sse_staff["unitId"])
+    old_staff = sse["staffEntries"]
+    assert {entry["url"] for entry in old_staff} == {sse_staff["staffEntry"]["url"], sse_staff["nonStaffEntryUrl"]}
+    # The second old entry is a doctoral student list, not an additional staff roster.
+    sse["staffEntries"] = [sse_staff["staffEntry"]]
     return catalog
 
 
@@ -1170,8 +1178,28 @@ def validate(catalog):
                     refs(entry["sourceIds"])
                 leads = entry["profileLeads"]
                 assert len({lead["url"] for lead in leads}) == len(leads)
+                page_ids = entry.get("pageSourceIds")
+                if page_ids is not None:
+                    assert entry["entryBodyStatus"] == "body_read" and entry["scopeNote"]
+                    assert page_ids and len(page_ids) == len(set(page_ids))
+                    assert set(page_ids) <= set(entry["sourceIds"])
+                    pages = [sources[sid] for sid in page_ids]
+                    assert pages[0]["url"] == entry["url"]
+                    for page in pages:
+                        assert page["evidenceLevel"] == "official_scoped_body_read"
+                        assert page["readMethod"] == "anonymous_HTTP" and re.fullmatch("[a-f0-9]{64}", page["bodySha256"])
+                    for left, right in zip(pages, pages[1:]):
+                        assert right["url"] in left["discoveredLinks"], "Roster pagination must come from the previous page"
+                    sources_by_page = {page["url"]: page for page in pages}
+                else:
+                    sources_by_page = {}
                 for lead in leads:
-                    assert lead["observedOn"] == entry["url"] and lead["directoryLabel"]
+                    assert lead["directoryLabel"]
+                    if page_ids is not None:
+                        assert lead["observedOn"] in sources_by_page
+                        assert lead["url"] in sources_by_page[lead["observedOn"]]["discoveredLinks"], "Profile must be supplied by its own roster page"
+                    else:
+                        assert lead["observedOn"] == entry["url"]
                     assert lead["profileBodyStatus"] in {"not_read", "body_read", "access_failed"} and lead["supervisionEligibility"] == lead["availability"] == "unknown"
                     if lead["profileBodyStatus"] == "body_read":
                         validate_read_receipt(lead)

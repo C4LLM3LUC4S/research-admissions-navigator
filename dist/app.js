@@ -218,8 +218,38 @@
             if((child.staffRoutes||[]).length){const routes=node('details',null,'source-details');routes.append(node('summary','继续看这个单位的人员导航'));child.staffRoutes.forEach(route=>{append(routes,link(route.label+' ↗',route.retrievedUrl||route.url),node('p',route.bodyStatus==='body_read'?'已读人员导航正文，完整名单和分页仍需逐项核对。':route.bodyStatus==='access_failed'?'本轮未读到正文，保留待核。':'导航入口待核。','field-help'));});item.append(routes);}if((child.sourceIds||[]).length)item.append(evidence(child.sourceIds));children.append(item);});section.append(children);}
         if((unit.relatedTeachingEntries||[]).length){const related=node('details',null,'source-details'),entries=node('ul');related.append(node('summary','其他教学项目与单位（不计作学部）'));unit.relatedTeachingEntries.forEach(entry=>{const item=node('li');item.append(link(L.academicLabel(entry.name)+' ↗',entry.url));entries.append(item);});related.append(entries);section.append(related);}
         (unit.relatedNavigationGroups||[]).forEach(group=>{const related=node('details',null,'source-details organization-navigation'),entries=node('ul');if(unit.id===coverageTarget&&group.title===coverageGroupTarget){related.open=true;related.setAttribute('tabindex','-1');coverageTargetElement=related;}append(related,node('summary',group.title));if(group.parentUnitName)related.append(node('p','所属上级：'+L.academicLabel(group.parentUnitName)+'。以下单位保留在这个上级之下，不与学院的一级单位混算。','evidence-note'));related.append(node('p',group.note,'field-help'));group.entries.forEach(entry=>{const item=node('li');item.append(entry.url&&entry.url.startsWith('https://')?link(L.academicLabel(entry.name)+' ↗',entry.url):academicTitle('span',entry.name));if(entry.url&&entry.url.startsWith('http://'))item.append(node('p','官网原链接为 HTTP，保留地址供核对，不猜改为 HTTPS：'+entry.url,'field-help'));if(['academic_subunits','related_academic_units','research_organizations'].includes(group.kind))item.append(node('p',entry.entryBodyStatus==='body_read'?'已读到该单位入口；完整师资、指导资格与招生信息仍待核。':'已核到名称'+(entry.url?'和所给链接':'')+'；单位正文、完整师资及招生信息仍待核。','field-help'));if(entry.note)item.append(node('p',entry.note,'field-help'));entries.append(item);});append(related,entries,evidence(group.sourceIds));section.append(related);});
-        if(unit.staffEntries.length){section.append(node('h4','已发现的人员或学院导航'));unit.staffEntries.forEach(entry=>{append(section,link(entry.label+' ↗',entry.url),node('p',entry.entryBodyStatus==='body_read'?'已读导航正文；完整教师名单及分页仍待核。':entry.entryBodyStatus==='access_failed'?'本轮没能读到导航正文，保留待核。':'尚未读到导航正文。','field-help'));
-          if((entry.profileLeads||[]).length){const pending=node('details',null,'source-details'),read=entry.profileLeads.filter(p=>p.profileBodyStatus==='body_read').length,reviewed=entry.profileLeads.filter(p=>p.facultyId).length;append(pending,node('summary','展开 '+entry.profileLeads.length+' 个目录主页 · 已读 '+read+'，研究信息已整理 '+reviewed),node('p','保留目录中的实践、教学、兼任或荣休等原职位。已读正文与研究信息已整理分开标明；都不代表已确认研究生指导资格或名额。','field-help'));const names=node('ul');entry.profileLeads.forEach(lead=>{const li=node('li');append(li,observedProfileLink((lead.name||lead.directoryLabel)+' ↗',lead.url,entry.sourceIds),node('span',' · '+(lead.reviewNote||(lead.facultyId?'研究信息已整理':lead.profileBodyStatus==='body_read'?'正文已读，研究信息待补':'主页待核')),'field-help'));names.append(li);});pending.append(names);section.append(pending);}
+        if(unit.staffEntries.length){section.append(node('h4','人员目录'));unit.staffEntries.forEach(entry=>{append(section,link(entry.label+' ↗',entry.url),node('p',entry.scopeNote||(entry.entryBodyStatus==='body_read'?'已读目录，完整名单还需核对。':entry.entryBodyStatus==='access_failed'?'暂时读不到目录，可试着打开官网。':'可先打开官网查看。'),'field-help'));
+          if((entry.profileLeads||[]).length){
+            const pending=node('details',null,'source-details'),read=entry.profileLeads.filter(p=>p.profileBodyStatus==='body_read').length,reviewed=entry.profileLeads.filter(p=>p.facultyId).length;
+            if(!entry.pageSourceIds){
+              append(pending,node('summary','展开 '+entry.profileLeads.length+' 个目录主页 · 已读 '+read+'，研究信息已整理 '+reviewed),node('p','保留目录中的实践、教学、兼任或荣休等原职位。已读正文与研究信息已整理分开标明；都不代表已确认研究生指导资格或名额。','field-help'));
+              const names=node('ul');
+              entry.profileLeads.forEach(lead=>{const li=node('li');append(li,observedProfileLink((lead.name||lead.directoryLabel)+' ↗',lead.url,entry.sourceIds),node('span',' · '+(lead.reviewNote||(lead.facultyId?'研究信息已整理':lead.profileBodyStatus==='body_read'?'正文已读，研究信息待补':'主页待核')),'field-help'));names.append(li);});
+              pending.append(names);
+            }else{
+              pending.append(node('summary','按官网页码浏览 '+entry.profileLeads.length+' 个主页'));
+              pending.addEventListener('toggle',()=>{
+                if(!pending.open||pending.childElementCount>1)return;
+                const rosterPages=entry.pageSourceIds.map(id=>C.sources.find(source=>source.id===id));
+                rosterPages.forEach((page,index)=>{
+                  const roster=node('details',null,'source-details');
+                  roster.append(node('summary','第 '+(index+1)+' 页'));
+                  roster.addEventListener('toggle',()=>{
+                    if(!roster.open||roster.childElementCount>1)return;
+                    const names=node('ul');
+                    for(const lead of entry.profileLeads.filter(person=>person.observedOn===page.url)){
+                      const person=node('li');
+                      append(person,observedProfileLink(lead.name+' ↗',lead.url,[page.id]),node('span',' · '+lead.directoryLabel,'field-help'));
+                      names.append(person);
+                    }
+                    append(roster,names,verifiedLink('打开官网第 '+(index+1)+' 页 ↗',L.sourceUrl(C,page)));
+                  });
+                  pending.append(roster);
+                });
+              });
+            }
+            section.append(pending);
+          }
         });}
         else if(!supportUnit)section.append(node('p','还需要从这个单位继续找完整师资目录，再逐个打开教师主页。','field-help'));
         if(unit.sourceIds.length)section.append(evidence(unit.sourceIds));list.append(section);

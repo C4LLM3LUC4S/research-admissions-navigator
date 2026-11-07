@@ -178375,6 +178375,639 @@ window.APP_CATALOG = {
       "readReceiptSha256": "8643be65d87f6c1d134753170bab44794187a03b2adaf9f57c08dfd5e906b166",
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response"
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-01",
+      "url": "https://sse.cuhk.edu.cn/teacher-search",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search",
+      "title": "港中深理工学院 · 教职人员第 1 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2274ffe02f4db6acef19d5f8fab6ab705ecb3b6bfcbeaba01d36871b0f2a512d",
+      "discoveredLinks": [
+        "https://jianwei.cuhk.edu.cn/",
+        "https://myweb.cuhk.edu.cn/conniechang",
+        "https://myweb.cuhk.edu.cn/cuishuguang",
+        "https://myweb.cuhk.edu.cn/hncwong",
+        "https://myweb.cuhk.edu.cn/luozhiquan",
+        "https://myweb.cuhk.edu.cn/puiyouhong",
+        "https://myweb.cuhk.edu.cn/shuaizhigang",
+        "https://myweb.cuhk.edu.cn/tangbenzhong",
+        "https://myweb.cuhk.edu.cn/tongshukyin",
+        "https://myweb.cuhk.edu.cn/zhushiping",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=1",
+        "https://sse.cuhk.edu.cn/teacher-search?page=2",
+        "https://sse.cuhk.edu.cn/teacher-search?page=3",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 1 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-02",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+      "title": "港中深理工学院 · 教职人员第 2 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fb67c525d4769b2dd1e8e691487a8f3b0f28363d46e059b7cad0301151282314",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/huangjingsong",
+        "https://myweb.cuhk.edu.cn/niweiming",
+        "https://myweb.cuhk.edu.cn/qiuli",
+        "https://myweb.cuhk.edu.cn/tiowganong",
+        "https://myweb.cuhk.edu.cn/wangxiangrong",
+        "https://myweb.cuhk.edu.cn/wangxiaoping",
+        "https://myweb.cuhk.edu.cn/wangxuefeng",
+        "https://myweb.cuhk.edu.cn/xuyangsheng",
+        "https://myweb.cuhk.edu.cn/biwengang",
+        "https://myweb.cuhk.edu.cn/wongkamsing",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=1",
+        "https://sse.cuhk.edu.cn/teacher-search?page=2",
+        "https://sse.cuhk.edu.cn/teacher-search?page=3",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 2 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-03",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+      "title": "港中深理工学院 · 教职人员第 3 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1b92c004aa24732bb9a54dfd11f7ccfe8ee13234282b12f09ac6454138cddda4",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/aymankachmar",
+        "https://myweb.cuhk.edu.cn/daigomiyajima",
+        "https://myweb.cuhk.edu.cn/panxingbin",
+        "https://myweb.cuhk.edu.cn/xiaobowen",
+        "https://myweb.cuhk.edu.cn/xujie",
+        "https://myweb.cuhk.edu.cn/taoye",
+        "https://myweb.cuhk.edu.cn/mzhang",
+        "https://myweb.cuhk.edu.cn/zhaojunhua",
+        "https://mypage.cuhk.edu.cn/academics/aspin/",
+        "https://myweb.cuhk.edu.cn/zhujun",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=1",
+        "https://sse.cuhk.edu.cn/teacher-search?page=2",
+        "https://sse.cuhk.edu.cn/teacher-search?page=3",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 3 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-04",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+      "title": "港中深理工学院 · 教职人员第 4 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "95103c9e8c7965d4e97901943a02a55726c2ab4c492c583c7f6bb547c780d391",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/juntingc",
+        "https://myweb.cuhk.edu.cn/ycdong",
+        "https://myweb.cuhk.edu.cn/hanxiaoguang",
+        "https://myweb.cuhk.edu.cn/hedongdong",
+        "https://myweb.cuhk.edu.cn/houyong",
+        "https://myweb.cuhk.edu.cn/danielwong",
+        "https://myweb.cuhk.edu.cn/ruihuang",
+        "https://mypage.cuhk.edu.cn/academics/lizhen/",
+        "https://myweb.cuhk.edu.cn/tllam",
+        "https://mypage.cuhk.edu.cn/academics/simonpun/index.html",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=2",
+        "https://sse.cuhk.edu.cn/teacher-search?page=1",
+        "https://sse.cuhk.edu.cn/teacher-search?page=3",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=6",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 4 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-05",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+      "title": "港中深理工学院 · 教职人员第 5 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "758d3f9c5179fa8f2a0221beeb0e26e8804074671473f40635b4551f5fa4312d",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/xspeng",
+        "https://myweb.cuhk.edu.cn/shenkaiming",
+        "https://mypage.cuhk.edu.cn/academics/wkshum/",
+        "https://mypage.cuhk.edu.cn/academics/wangdong/",
+        "https://myweb.cuhk.edu.cn/lwang",
+        "https://mypage.cuhk.edu.cn/academics/wuliang/",
+        "https://myweb.cuhk.edu.cn/yangshenghao",
+        "https://mypage.cuhk.edu.cn/academics/yiyin/",
+        "https://myweb.cuhk.edu.cn/yujiangfan",
+        "https://myweb.cuhk.edu.cn/zhanggongqiu",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=3",
+        "https://sse.cuhk.edu.cn/teacher-search?page=2",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=6",
+        "https://sse.cuhk.edu.cn/teacher-search?page=7",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 5 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-06",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+      "title": "港中深理工学院 · 教职人员第 6 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1cdb7123737af60688e0a3c0ad631bb17ef91549177786ad91befd2309f7256f",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/zhangjianhui",
+        "https://myweb.cuhk.edu.cn/qizhang",
+        "https://sse.cuhk.edu.cn/faculty/zhangzhaoyu",
+        "https://myweb.cuhk.edu.cn/zhengqingbin",
+        "https://myweb.cuhk.edu.cn/randiazmi",
+        "https://mypage.cuhk.edu.cn/academics/caidifeng/",
+        "https://myweb.cuhk.edu.cn/caozhongyuan",
+        "https://myweb.cuhk.edu.cn/fchen/Home/Index",
+        "https://myweb.cuhk.edu.cn/chenhongyi",
+        "https://myweb.cuhk.edu.cn/chentiankai",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=3",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=6",
+        "https://sse.cuhk.edu.cn/teacher-search?page=7",
+        "https://sse.cuhk.edu.cn/teacher-search?page=8",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 6 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-07",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+      "title": "港中深理工学院 · 教职人员第 7 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "db546e1e3e5c67429b233ca66a82d6c25aaa8c095cb38030645827f594f08d07",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/chentianyang",
+        "https://mypage.cuhk.edu.cn/academics/chentinghuan/",
+        "https://myweb.cuhk.edu.cn/chenxiaomeng",
+        "https://myweb.cuhk.edu.cn/chenyuan",
+        "https://myweb.cuhk.edu.cn/chenzhongxin",
+        "https://mypage.cuhk.edu.cn/academics/chenztan/",
+        "https://mypage.cuhk.edu.cn/academics/bycui/#home",
+        "https://myweb.cuhk.edu.cn/duanjunming",
+        "https://myweb.cuhk.edu.cn/sanjibghosh",
+        "https://myweb.cuhk.edu.cn/gongshihua",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=4",
+        "https://sse.cuhk.edu.cn/teacher-search?page=6",
+        "https://sse.cuhk.edu.cn/teacher-search?page=7",
+        "https://sse.cuhk.edu.cn/teacher-search?page=8",
+        "https://sse.cuhk.edu.cn/teacher-search?page=9",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 7 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-08",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+      "title": "港中深理工学院 · 教职人员第 8 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e10f72003a13844a8464dbf47e665060ff34c9003cc20b3f9d1bd247e5fa538a",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/guanjun",
+        "https://myweb.cuhk.edu.cn/guobaiwei",
+        "https://myweb.cuhk.edu.cn/jidongxu",
+        "https://myweb.cuhk.edu.cn/jixiaoqiang",
+        "https://myweb.cuhk.edu.cn/jiyao",
+        "https://myweb.cuhk.edu.cn/jiangyan",
+        "https://myweb.cuhk.edu.cn/jingtian/Home/Index",
+        "https://myweb.cuhk.edu.cn/jinyuhua",
+        "https://myweb.cuhk.edu.cn/ceju/Home/Index",
+        "https://myweb.cuhk.edu.cn/kezhihai",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=6",
+        "https://sse.cuhk.edu.cn/teacher-search?page=5",
+        "https://sse.cuhk.edu.cn/teacher-search?page=7",
+        "https://sse.cuhk.edu.cn/teacher-search?page=8",
+        "https://sse.cuhk.edu.cn/teacher-search?page=9",
+        "https://sse.cuhk.edu.cn/teacher-search?page=10",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 8 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-09",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+      "title": "港中深理工学院 · 教职人员第 9 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "568301976ecf6eababee705875084daf61b11262e4df5bc0273672d4a4b6d92f",
+      "discoveredLinks": [
+        "https://mypage.cuhk.edu.cn/leishunbo",
+        "https://myweb.cuhk.edu.cn/lihuaiguang/",
+        "https://myweb.cuhk.edu.cn/lijianbin",
+        "https://myweb.cuhk.edu.cn/liqingyu",
+        "https://myweb.cuhk.edu.cn/liweitang",
+        "https://myweb.cuhk.edu.cn/liyingtian",
+        "https://myweb.cuhk.edu.cn/lizg",
+        "https://myweb.cuhk.edu.cn/leecheukyin",
+        "https://myweb.cuhk.edu.cn/linhesheng",
+        "https://myweb.cuhk.edu.cn/linxun/Home/Index",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=7",
+        "https://sse.cuhk.edu.cn/teacher-search?page=6",
+        "https://sse.cuhk.edu.cn/teacher-search?page=8",
+        "https://sse.cuhk.edu.cn/teacher-search?page=9",
+        "https://sse.cuhk.edu.cn/teacher-search?page=10",
+        "https://sse.cuhk.edu.cn/teacher-search?page=11",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 9 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-10",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+      "title": "港中深理工学院 · 教职人员第 10 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "67c47577d4155fd6392c3fed7b68a413ad40679db142116ea0f3968fc352bcd6",
+      "discoveredLinks": [
+        "https://mypage.cuhk.edu.cn/academics/liujunyi",
+        "https://mypage.cuhk.edu.cn/academics/liuxun/index.html",
+        "https://myweb.cuhk.edu.cn/liuyang",
+        "https://myweb.cuhk.edu.cn/luocaihua",
+        "https://myweb.cuhk.edu.cn/daluo",
+        "https://mypage.cuhk.edu.cn/academics/luoyuan/index.htm",
+        "https://mypage.cuhk.edu.cn/academics/ppiersanti/",
+        "https://myweb.cuhk.edu.cn/jonghopark/Home/Index",
+        "https://myweb.cuhk.edu.cn/qianqi",
+        "https://myweb.cuhk.edu.cn/zijieqiu",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=8",
+        "https://sse.cuhk.edu.cn/teacher-search?page=7",
+        "https://sse.cuhk.edu.cn/teacher-search?page=9",
+        "https://sse.cuhk.edu.cn/teacher-search?page=10",
+        "https://sse.cuhk.edu.cn/teacher-search?page=11",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 10 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-11",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+      "title": "港中深理工学院 · 教职人员第 11 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3789677bf4825e2c7978690385a289fe19a13383968dbd7723e7e2e5d893bbc9",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/quanchaoyu",
+        "https://myweb.cuhk.edu.cn/sunzhenglong/",
+        "https://myweb.cuhk.edu.cn/tangxiaoying",
+        "https://mypage.cuhk.edu.cn/academics/wangfangxin/",
+        "https://myweb.cuhk.edu.cn/wangxing",
+        "https://myweb.cuhk.edu.cn/wuchenye",
+        "https://myweb.cuhk.edu.cn/xiebiye",
+        "https://myweb.cuhk.edu.cn/yanjun",
+        "https://myweb.cuhk.edu.cn/yangxianjin/Home/Index",
+        "https://yegroup.cuhk.edu.cn",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=9",
+        "https://sse.cuhk.edu.cn/teacher-search?page=8",
+        "https://sse.cuhk.edu.cn/teacher-search?page=10",
+        "https://sse.cuhk.edu.cn/teacher-search?page=11",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 11 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-12",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+      "title": "港中深理工学院 · 教职人员第 12 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a32057756aaef4ee1fb97f8b775b8db332695f0965ae5b446c35801f86119857",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/ynyou",
+        "https://myweb.cuhk.edu.cn/yuanfengyi",
+        "https://myweb.cuhk.edu.cn/zhangdaquan",
+        "https://myweb.cuhk.edu.cn/zhangjianquan",
+        "https://myweb.cuhk.edu.cn/zhangmingjian",
+        "https://myweb.cuhk.edu.cn/yaojingzhang",
+        "https://mypage.cuhk.edu.cn/academics/zhaoyuxuan/",
+        "https://myweb.cuhk.edu.cn/zhaozheng",
+        "https://myweb.cuhk.edu.cn/zhengyue",
+        "https://myweb.cuhk.edu.cn/zhoukai",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=10",
+        "https://sse.cuhk.edu.cn/teacher-search?page=9",
+        "https://sse.cuhk.edu.cn/teacher-search?page=11",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 12 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-13",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+      "title": "港中深理工学院 · 教职人员第 13 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1f03d731060f579652a5d21ca4234550b98cc2496b8b78d5d1743e2caec547b9",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/fxzhong",
+        "https://myweb.cuhk.edu.cn/zhuhe",
+        "https://myweb.cuhk.edu.cn/zhuyuzhe/Home/Index",
+        "https://myweb.cuhk.edu.cn/zhuoxiaolu",
+        "https://sse.cuhk.edu.cn/faculty/wenfushuan",
+        "https://myweb.cuhk.edu.cn/fuzhanghua",
+        "https://myweb.cuhk.edu.cn/cmsun",
+        "https://myweb.cuhk.edu.cn/zhangaidong",
+        "https://myweb.cuhk.edu.cn/yichen",
+        "https://myweb.cuhk.edu.cn/sajidimran",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=11",
+        "https://sse.cuhk.edu.cn/teacher-search?page=10",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=15",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 13 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-14",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+      "title": "港中深理工学院 · 教职人员第 14 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5ed2e366e6a052e1336bae226397bbb07c233038a046747a87539abefb309f7f",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/leilei",
+        "https://myweb.cuhk.edu.cn/liqun",
+        "https://myweb.cuhk.edu.cn/mengliliu/Home/Index###",
+        "https://myweb.cuhk.edu.cn/jinkeren",
+        "https://myweb.cuhk.edu.cn/tuwenguang",
+        "https://myweb.cuhk.edu.cn/tinawang",
+        "https://myweb.cuhk.edu.cn/wujiabin",
+        "https://myweb.cuhk.edu.cn/xuyanqing",
+        "https://myweb.cuhk.edu.cn/zhangzezhong",
+        "https://myweb.cuhk.edu.cn/kinleylam",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=11",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=15",
+        "https://sse.cuhk.edu.cn/teacher-search?page=16",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 14 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-15",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+      "title": "港中深理工学院 · 教职人员第 15 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f73e707530028347397fdf201476a32fd3629a709e8bd363f6a020b31a3bdba1",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/linghan",
+        "https://myweb.cuhk.edu.cn/cenluyu",
+        "https://myweb.cuhk.edu.cn/chenzhe",
+        "https://myweb.cuhk.edu.cn/jinyuecui",
+        "https://sse.cuhk.edu.cn/faculty/AlfioQuarteroni",
+        "https://sse.cuhk.edu.cn/faculty/chenyongqin",
+        "https://sse.cuhk.edu.cn/faculty/caixiaoqiang",
+        "https://sse.cuhk.edu.cn/faculty/huanghsienda",
+        "https://sse.cuhk.edu.cn/faculty/takeokanade",
+        "https://myweb.cuhk.edu.cn/lixuejin",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=15",
+        "https://sse.cuhk.edu.cn/teacher-search?page=16",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 15 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-16",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+      "title": "港中深理工学院 · 教职人员第 16 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0e35da87375ce2b441f7ea6323bc64b15cf08626b0cade53b044146e093926aa",
+      "discoveredLinks": [
+        "https://sse.cuhk.edu.cn/faculty/lichenzhong",
+        "https://sse.cuhk.edu.cn/faculty/liuguozhen",
+        "https://myweb.cuhk.edu.cn/leungwingpor",
+        "https://sse.cuhk.edu.cn/faculty/bradnelson",
+        "https://sse.cuhk.edu.cn/faculty/ouyangwanli",
+        "https://sse.cuhk.edu.cn/faculty/tongshilu",
+        "https://sse.cuhk.edu.cn/faculty/nghangleung",
+        "https://sse.cuhk.edu.cn/faculty/yuguangjun",
+        "https://sse.cuhk.edu.cn/faculty/chengshiuyuen",
+        "https://sse.cuhk.edu.cn/faculty/zhubaoting",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=15",
+        "https://sse.cuhk.edu.cn/teacher-search?page=16",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 16 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-17",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+      "title": "港中深理工学院 · 教职人员第 17 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "40fea78eab4f179ff10128e0a05aced1a98f84d1763f7e88952961eaf3f865af",
+      "discoveredLinks": [
+        "https://sse.cuhk.edu.cn/faculty/zhoushaohua",
+        "https://myweb.cuhk.edu.cn/hhqian",
+        "https://sse.cuhk.edu.cn/faculty/yubei",
+        "https://sse.cuhk.edu.cn/faculty/parvejalam",
+        "https://sse.cuhk.edu.cn/faculty/chiangyingchih",
+        "https://sse.cuhk.edu.cn/faculty/gaoyuan",
+        "https://sse.cuhk.edu.cn/faculty/hujunjie",
+        "https://sse.cuhk.edu.cn/faculty/jidong",
+        "https://sse.cuhk.edu.cn/faculty/wangwenjin",
+        "https://sse.cuhk.edu.cn/faculty/wangxiaopu",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=15",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=16",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 17 页列有 10 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107-page-18",
+      "url": "https://sse.cuhk.edu.cn/teacher-search?page=17",
+      "originalUrl": "https://sse.cuhk.edu.cn/teacher-search?page=17",
+      "retrievedUrl": "https://sse.cuhk.edu.cn/teacher-search?page=17",
+      "title": "港中深理工学院 · 教职人员第 18 页",
+      "checkedAt": "2026-11-07",
+      "scope": "理工学院官网默认教职人员列表，未选职位或研究领域筛选。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "99455a88d2b63e0756890fe0b3b4ac3cf3a0209fd565c04d9b29a71e659229b9",
+      "discoveredLinks": [
+        "https://sse.cuhk.edu.cn/faculty/LeeTony",
+        "https://myweb.cuhk.edu.cn/clementleung",
+        "https://sse.cuhk.edu.cn/teacher-search?page=0",
+        "https://sse.cuhk.edu.cn/teacher-search?page=16",
+        "https://sse.cuhk.edu.cn/teacher-search?page=12",
+        "https://sse.cuhk.edu.cn/teacher-search?page=13",
+        "https://sse.cuhk.edu.cn/teacher-search?page=14",
+        "https://sse.cuhk.edu.cn/teacher-search?page=15",
+        "https://sse.cuhk.edu.cn/teacher-search?page=17"
+      ],
+      "claims": [
+        "默认列表第 18 页列有 2 张人员卡，保留官网所给姓名、职位和主页入口。"
+      ],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -192456,6 +193089,34 @@ window.APP_CATALOG = {
           }
         ]
       }
+    },
+    {
+      "id": "cuhksz-sse-staff-20261107",
+      "universityId": "cuhksz",
+      "unit": "理工学院",
+      "url": "https://sse.cuhk.edu.cn/teacher-search",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-staff-20261107-page-02",
+        "cuhksz-sse-staff-20261107-page-03",
+        "cuhksz-sse-staff-20261107-page-04",
+        "cuhksz-sse-staff-20261107-page-05",
+        "cuhksz-sse-staff-20261107-page-06",
+        "cuhksz-sse-staff-20261107-page-07",
+        "cuhksz-sse-staff-20261107-page-08",
+        "cuhksz-sse-staff-20261107-page-09",
+        "cuhksz-sse-staff-20261107-page-10",
+        "cuhksz-sse-staff-20261107-page-11",
+        "cuhksz-sse-staff-20261107-page-12",
+        "cuhksz-sse-staff-20261107-page-13",
+        "cuhksz-sse-staff-20261107-page-14",
+        "cuhksz-sse-staff-20261107-page-15",
+        "cuhksz-sse-staff-20261107-page-16",
+        "cuhksz-sse-staff-20261107-page-17",
+        "cuhksz-sse-staff-20261107-page-18"
+      ],
+      "coverageNotes": "可打开官网，按职位或研究领域筛选。这里保留默认名录的 18 页人员入口。"
     }
   ],
   "academicCoverage": [
@@ -228658,26 +229319,1602 @@ window.APP_CATALOG = {
           "children": [],
           "staffEntries": [
             {
-              "label": "教职人员",
+              "label": "理工学院教职人员",
               "url": "https://sse.cuhk.edu.cn/teacher-search",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "sourceIds": [
-                "organization-sse-home-20261029"
+                "cuhksz-sse-staff-20261107-page-01",
+                "cuhksz-sse-staff-20261107-page-02",
+                "cuhksz-sse-staff-20261107-page-03",
+                "cuhksz-sse-staff-20261107-page-04",
+                "cuhksz-sse-staff-20261107-page-05",
+                "cuhksz-sse-staff-20261107-page-06",
+                "cuhksz-sse-staff-20261107-page-07",
+                "cuhksz-sse-staff-20261107-page-08",
+                "cuhksz-sse-staff-20261107-page-09",
+                "cuhksz-sse-staff-20261107-page-10",
+                "cuhksz-sse-staff-20261107-page-11",
+                "cuhksz-sse-staff-20261107-page-12",
+                "cuhksz-sse-staff-20261107-page-13",
+                "cuhksz-sse-staff-20261107-page-14",
+                "cuhksz-sse-staff-20261107-page-15",
+                "cuhksz-sse-staff-20261107-page-16",
+                "cuhksz-sse-staff-20261107-page-17",
+                "cuhksz-sse-staff-20261107-page-18"
+              ],
+              "scopeNote": "可按官网名录查看 18 页、172 张人员卡，里面也有客座、教学和荣休人员。想确认能否指导研究生，请查对应项目。",
+              "pageSourceIds": [
+                "cuhksz-sse-staff-20261107-page-01",
+                "cuhksz-sse-staff-20261107-page-02",
+                "cuhksz-sse-staff-20261107-page-03",
+                "cuhksz-sse-staff-20261107-page-04",
+                "cuhksz-sse-staff-20261107-page-05",
+                "cuhksz-sse-staff-20261107-page-06",
+                "cuhksz-sse-staff-20261107-page-07",
+                "cuhksz-sse-staff-20261107-page-08",
+                "cuhksz-sse-staff-20261107-page-09",
+                "cuhksz-sse-staff-20261107-page-10",
+                "cuhksz-sse-staff-20261107-page-11",
+                "cuhksz-sse-staff-20261107-page-12",
+                "cuhksz-sse-staff-20261107-page-13",
+                "cuhksz-sse-staff-20261107-page-14",
+                "cuhksz-sse-staff-20261107-page-15",
+                "cuhksz-sse-staff-20261107-page-16",
+                "cuhksz-sse-staff-20261107-page-17",
+                "cuhksz-sse-staff-20261107-page-18"
               ],
               "enumerationComplete": false,
               "teacherProfilesTotal": null,
-              "profileLeads": []
-            },
-            {
-              "label": "研究人员",
-              "url": "https://sse.cuhk.edu.cn/taxonomy/term/158",
-              "entryBodyStatus": "not_read",
-              "sourceIds": [
-                "organization-sse-home-20261029"
-              ],
-              "enumerationComplete": false,
-              "teacherProfilesTotal": null,
-              "profileLeads": []
+              "profileLeads": [
+                {
+                  "name": "黄建伟",
+                  "url": "https://jianwei.cuhk.edu.cn/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "常瑞华",
+                  "url": "https://myweb.cuhk.edu.cn/conniechang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "崔曙光",
+                  "url": "https://myweb.cuhk.edu.cn/cuishuguang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "黄乃正",
+                  "url": "https://myweb.cuhk.edu.cn/hncwong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "罗智泉",
+                  "url": "https://myweb.cuhk.edu.cn/luozhiquan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "裴有康",
+                  "url": "https://myweb.cuhk.edu.cn/puiyouhong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "帅志刚",
+                  "url": "https://myweb.cuhk.edu.cn/shuaizhigang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "唐本忠",
+                  "url": "https://myweb.cuhk.edu.cn/tangbenzhong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "唐叔贤",
+                  "url": "https://myweb.cuhk.edu.cn/tongshukyin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "朱世平",
+                  "url": "https://myweb.cuhk.edu.cn/zhushiping",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search",
+                  "directoryLabel": "校长学勤讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "黄劲松",
+                  "url": "https://myweb.cuhk.edu.cn/huangjingsong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "倪维明",
+                  "url": "https://myweb.cuhk.edu.cn/niweiming",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "丘立",
+                  "url": "https://myweb.cuhk.edu.cn/qiuli",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王朝谚",
+                  "url": "https://myweb.cuhk.edu.cn/tiowganong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王向荣",
+                  "url": "https://myweb.cuhk.edu.cn/wangxiangrong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王筱平",
+                  "url": "https://myweb.cuhk.edu.cn/wangxiaoping",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王学锋",
+                  "url": "https://myweb.cuhk.edu.cn/wangxuefeng",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "徐扬生",
+                  "url": "https://myweb.cuhk.edu.cn/xuyangsheng",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "校长讲座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "毕文刚",
+                  "url": "https://myweb.cuhk.edu.cn/biwengang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "黄锦圣",
+                  "url": "https://myweb.cuhk.edu.cn/wongkamsing",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=1",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Ayman Kachmar",
+                  "url": "https://myweb.cuhk.edu.cn/aymankachmar",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "宮島大吾",
+                  "url": "https://myweb.cuhk.edu.cn/daigomiyajima",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "潘兴斌",
+                  "url": "https://myweb.cuhk.edu.cn/panxingbin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "肖博文",
+                  "url": "https://myweb.cuhk.edu.cn/xiaobowen",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "许杰",
+                  "url": "https://myweb.cuhk.edu.cn/xujie",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "叶涛",
+                  "url": "https://myweb.cuhk.edu.cn/taoye",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张敏",
+                  "url": "https://myweb.cuhk.edu.cn/mzhang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "赵俊华",
+                  "url": "https://myweb.cuhk.edu.cn/zhaojunhua",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "周艳",
+                  "url": "https://mypage.cuhk.edu.cn/academics/aspin/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "朱军",
+                  "url": "https://myweb.cuhk.edu.cn/zhujun",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=2",
+                  "directoryLabel": "教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈俊挺",
+                  "url": "https://myweb.cuhk.edu.cn/juntingc",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Charlie Y. DONG",
+                  "url": "https://myweb.cuhk.edu.cn/ycdong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "韩晓光",
+                  "url": "https://myweb.cuhk.edu.cn/hanxiaoguang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "贺冬冬",
+                  "url": "https://myweb.cuhk.edu.cn/hedongdong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "侯勇",
+                  "url": "https://myweb.cuhk.edu.cn/houyong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "黄家裕",
+                  "url": "https://myweb.cuhk.edu.cn/danielwong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "黄锐",
+                  "url": "https://myweb.cuhk.edu.cn/ruihuang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李镇",
+                  "url": "https://mypage.cuhk.edu.cn/academics/lizhen/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "林天麟",
+                  "url": "https://myweb.cuhk.edu.cn/tllam",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "潘文安",
+                  "url": "https://mypage.cuhk.edu.cn/academics/simonpun/index.html",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=3",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "彭小水",
+                  "url": "https://myweb.cuhk.edu.cn/xspeng",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "沈闓明",
+                  "url": "https://myweb.cuhk.edu.cn/shenkaiming",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "沈颖祺",
+                  "url": "https://mypage.cuhk.edu.cn/academics/wkshum/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王东",
+                  "url": "https://mypage.cuhk.edu.cn/academics/wangdong/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王璐",
+                  "url": "https://myweb.cuhk.edu.cn/lwang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "吴亮",
+                  "url": "https://mypage.cuhk.edu.cn/academics/wuliang/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "杨升浩",
+                  "url": "https://myweb.cuhk.edu.cn/yangshenghao",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "尹伊",
+                  "url": "https://mypage.cuhk.edu.cn/academics/yiyin/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "俞江帆",
+                  "url": "https://myweb.cuhk.edu.cn/yujiangfan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张功球",
+                  "url": "https://myweb.cuhk.edu.cn/zhanggongqiu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=4",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张建辉",
+                  "url": "https://myweb.cuhk.edu.cn/zhangjianhui",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张祺",
+                  "url": "https://myweb.cuhk.edu.cn/qizhang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张昭宇",
+                  "url": "https://sse.cuhk.edu.cn/faculty/zhangzhaoyu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "郑庆彬",
+                  "url": "https://myweb.cuhk.edu.cn/zhengqingbin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Randi Azmi",
+                  "url": "https://myweb.cuhk.edu.cn/randiazmi",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "蔡地丰",
+                  "url": "https://mypage.cuhk.edu.cn/academics/caidifeng/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "曹中原",
+                  "url": "https://myweb.cuhk.edu.cn/caozhongyuan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈峰",
+                  "url": "https://myweb.cuhk.edu.cn/fchen/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈鸿毅",
+                  "url": "https://myweb.cuhk.edu.cn/chenhongyi",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈添锴",
+                  "url": "https://myweb.cuhk.edu.cn/chentiankai",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈天阳",
+                  "url": "https://myweb.cuhk.edu.cn/chentianyang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈廷欢",
+                  "url": "https://mypage.cuhk.edu.cn/academics/chentinghuan/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈筱萌",
+                  "url": "https://myweb.cuhk.edu.cn/chenxiaomeng",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈元",
+                  "url": "https://myweb.cuhk.edu.cn/chenyuan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈仲欣",
+                  "url": "https://myweb.cuhk.edu.cn/chenzhongxin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈梓坍",
+                  "url": "https://mypage.cuhk.edu.cn/academics/chenztan/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "崔冰宇",
+                  "url": "https://mypage.cuhk.edu.cn/academics/bycui/#home",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "段俊明",
+                  "url": "https://myweb.cuhk.edu.cn/duanjunming",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Sanjib GHOSH",
+                  "url": "https://myweb.cuhk.edu.cn/sanjibghosh",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "龚世华",
+                  "url": "https://myweb.cuhk.edu.cn/gongshihua",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=6",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "管君",
+                  "url": "https://myweb.cuhk.edu.cn/guanjun",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "郭佰威",
+                  "url": "https://myweb.cuhk.edu.cn/guobaiwei",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "纪冬旭",
+                  "url": "https://myweb.cuhk.edu.cn/jidongxu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "冀晓强",
+                  "url": "https://myweb.cuhk.edu.cn/jixiaoqiang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "姬尧",
+                  "url": "https://myweb.cuhk.edu.cn/jiyao",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "江彦",
+                  "url": "https://myweb.cuhk.edu.cn/jiangyan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "景添",
+                  "url": "https://myweb.cuhk.edu.cn/jingtian/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "靳羽华",
+                  "url": "https://myweb.cuhk.edu.cn/jinyuhua",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "鞠策",
+                  "url": "https://myweb.cuhk.edu.cn/ceju/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "柯志海",
+                  "url": "https://myweb.cuhk.edu.cn/kezhihai",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=7",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "雷顺波",
+                  "url": "https://mypage.cuhk.edu.cn/leishunbo",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李怀光",
+                  "url": "https://myweb.cuhk.edu.cn/lihuaiguang/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李健斌",
+                  "url": "https://myweb.cuhk.edu.cn/lijianbin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李清玉",
+                  "url": "https://myweb.cuhk.edu.cn/liqingyu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李维唐",
+                  "url": "https://myweb.cuhk.edu.cn/liweitang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李英田",
+                  "url": "https://myweb.cuhk.edu.cn/liyingtian",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李志刚",
+                  "url": "https://myweb.cuhk.edu.cn/lizg",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李卓彦",
+                  "url": "https://myweb.cuhk.edu.cn/leecheukyin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "林和生",
+                  "url": "https://myweb.cuhk.edu.cn/linhesheng",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "林汛",
+                  "url": "https://myweb.cuhk.edu.cn/linxun/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=8",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "刘隽懿",
+                  "url": "https://mypage.cuhk.edu.cn/academics/liujunyi",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "刘寻",
+                  "url": "https://mypage.cuhk.edu.cn/academics/liuxun/index.html",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "刘杨",
+                  "url": "https://myweb.cuhk.edu.cn/liuyang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "罗才华",
+                  "url": "https://myweb.cuhk.edu.cn/luocaihua",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "罗达",
+                  "url": "https://myweb.cuhk.edu.cn/daluo",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "罗元",
+                  "url": "https://mypage.cuhk.edu.cn/academics/luoyuan/index.htm",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Paolo PIERSANTI",
+                  "url": "https://mypage.cuhk.edu.cn/academics/ppiersanti/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "朴鐘浩",
+                  "url": "https://myweb.cuhk.edu.cn/jonghopark/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "钱琦",
+                  "url": "https://myweb.cuhk.edu.cn/qianqi",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "丘子杰",
+                  "url": "https://myweb.cuhk.edu.cn/zijieqiu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=9",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "权超禹",
+                  "url": "https://myweb.cuhk.edu.cn/quanchaoyu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "孙正隆",
+                  "url": "https://myweb.cuhk.edu.cn/sunzhenglong/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "唐晓莹",
+                  "url": "https://myweb.cuhk.edu.cn/tangxiaoying",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王方鑫",
+                  "url": "https://mypage.cuhk.edu.cn/academics/wangfangxin/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王星",
+                  "url": "https://myweb.cuhk.edu.cn/wangxing",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "吴辰晔",
+                  "url": "https://myweb.cuhk.edu.cn/wuchenye",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "解碧野",
+                  "url": "https://myweb.cuhk.edu.cn/xiebiye",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "颜骏",
+                  "url": "https://myweb.cuhk.edu.cn/yanjun",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "杨先津",
+                  "url": "https://myweb.cuhk.edu.cn/yangxianjin/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "叶靖强",
+                  "url": "https://yegroup.cuhk.edu.cn",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "游宇宁",
+                  "url": "https://myweb.cuhk.edu.cn/ynyou",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "袁冯毅",
+                  "url": "https://myweb.cuhk.edu.cn/yuanfengyi",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张大全",
+                  "url": "https://myweb.cuhk.edu.cn/zhangdaquan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张健全",
+                  "url": "https://myweb.cuhk.edu.cn/zhangjianquan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张明建",
+                  "url": "https://myweb.cuhk.edu.cn/zhangmingjian",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张瑶晶",
+                  "url": "https://myweb.cuhk.edu.cn/yaojingzhang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "赵宇轩",
+                  "url": "https://mypage.cuhk.edu.cn/academics/zhaoyuxuan/",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "赵征",
+                  "url": "https://myweb.cuhk.edu.cn/zhaozheng",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "郑月",
+                  "url": "https://myweb.cuhk.edu.cn/zhengyue",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "周凯",
+                  "url": "https://myweb.cuhk.edu.cn/zhoukai",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=11",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "钟仿洵",
+                  "url": "https://myweb.cuhk.edu.cn/fxzhong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "朱贺",
+                  "url": "https://myweb.cuhk.edu.cn/zhuhe",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "朱聿哲",
+                  "url": "https://myweb.cuhk.edu.cn/zhuyuzhe/Home/Index",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "卓晓璐",
+                  "url": "https://myweb.cuhk.edu.cn/zhuoxiaolu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "文福拴",
+                  "url": "https://sse.cuhk.edu.cn/faculty/wenfushuan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "研究教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "付樟华",
+                  "url": "https://myweb.cuhk.edu.cn/fuzhanghua",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "研究副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "孙彩明",
+                  "url": "https://myweb.cuhk.edu.cn/cmsun",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "研究副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张爱东",
+                  "url": "https://myweb.cuhk.edu.cn/zhangaidong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "研究副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈怿",
+                  "url": "https://myweb.cuhk.edu.cn/yichen",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Sajid IMRAN",
+                  "url": "https://myweb.cuhk.edu.cn/sajidimran",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=12",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "雷垒",
+                  "url": "https://myweb.cuhk.edu.cn/leilei",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李群",
+                  "url": "https://myweb.cuhk.edu.cn/liqun",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "刘梦丽",
+                  "url": "https://myweb.cuhk.edu.cn/mengliliu/Home/Index###",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "任金科",
+                  "url": "https://myweb.cuhk.edu.cn/jinkeren",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "涂文广",
+                  "url": "https://myweb.cuhk.edu.cn/tuwenguang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王廷瑄",
+                  "url": "https://myweb.cuhk.edu.cn/tinawang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "吴佳宾",
+                  "url": "https://myweb.cuhk.edu.cn/wujiabin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "徐彦卿",
+                  "url": "https://myweb.cuhk.edu.cn/xuyanqing",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "张泽中",
+                  "url": "https://myweb.cuhk.edu.cn/zhangzezhong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "研究助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "林立德",
+                  "url": "https://myweb.cuhk.edu.cn/kinleylam",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=13",
+                  "directoryLabel": "副教授（教学）",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "凌晗",
+                  "url": "https://myweb.cuhk.edu.cn/linghan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "助理教授（教学）",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "岑璐宇",
+                  "url": "https://myweb.cuhk.edu.cn/cenluyu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "讲师",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈哲",
+                  "url": "https://myweb.cuhk.edu.cn/chenzhe",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "讲师",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "崔金月",
+                  "url": "https://myweb.cuhk.edu.cn/jinyuecui",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "讲师",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Alfio Quarteroni",
+                  "url": "https://sse.cuhk.edu.cn/faculty/AlfioQuarteroni",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "特聘教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "陈永勤",
+                  "url": "https://sse.cuhk.edu.cn/faculty/chenyongqin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "蔡小强",
+                  "url": "https://sse.cuhk.edu.cn/faculty/caixiaoqiang",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "黄宪达",
+                  "url": "https://sse.cuhk.edu.cn/faculty/huanghsienda",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "TAKEO KANADE",
+                  "url": "https://sse.cuhk.edu.cn/faculty/takeokanade",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李学金",
+                  "url": "https://myweb.cuhk.edu.cn/lixuejin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=14",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李晨钟",
+                  "url": "https://sse.cuhk.edu.cn/faculty/lichenzhong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "刘国珍",
+                  "url": "https://sse.cuhk.edu.cn/faculty/liuguozhen",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "梁永波",
+                  "url": "https://myweb.cuhk.edu.cn/leungwingpor",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Bradley J. Nelson",
+                  "url": "https://sse.cuhk.edu.cn/faculty/bradnelson",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "欧阳万里",
+                  "url": "https://sse.cuhk.edu.cn/faculty/ouyangwanli",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "佟世璐",
+                  "url": "https://sse.cuhk.edu.cn/faculty/tongshilu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "吴恒亮",
+                  "url": "https://sse.cuhk.edu.cn/faculty/nghangleung",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "于广军",
+                  "url": "https://sse.cuhk.edu.cn/faculty/yuguangjun",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "郑绍远",
+                  "url": "https://sse.cuhk.edu.cn/faculty/chengshiuyuen",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "朱宝亭",
+                  "url": "https://sse.cuhk.edu.cn/faculty/zhubaoting",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=15",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "周少华",
+                  "url": "https://sse.cuhk.edu.cn/faculty/zhoushaohua",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "钱辉环",
+                  "url": "https://myweb.cuhk.edu.cn/hhqian",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "余备",
+                  "url": "https://sse.cuhk.edu.cn/faculty/yubei",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座副教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "Parvej Alam",
+                  "url": "https://sse.cuhk.edu.cn/faculty/parvejalam",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "江瑛芝",
+                  "url": "https://sse.cuhk.edu.cn/faculty/chiangyingchih",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "高源",
+                  "url": "https://sse.cuhk.edu.cn/faculty/gaoyuan",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "胡君杰",
+                  "url": "https://sse.cuhk.edu.cn/faculty/hujunjie",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "冀东",
+                  "url": "https://sse.cuhk.edu.cn/faculty/jidong",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "汪文锦",
+                  "url": "https://sse.cuhk.edu.cn/faculty/wangwenjin",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "王潇朴",
+                  "url": "https://sse.cuhk.edu.cn/faculty/wangxiaopu",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=16",
+                  "directoryLabel": "客座助理教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "李东",
+                  "url": "https://sse.cuhk.edu.cn/faculty/LeeTony",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=17",
+                  "directoryLabel": "荣休教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                },
+                {
+                  "name": "梁灏锵",
+                  "url": "https://myweb.cuhk.edu.cn/clementleung",
+                  "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=17",
+                  "directoryLabel": "荣休教授",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown"
+                }
+              ]
             }
           ],
           "accessNote": "2026-10-29已读到本次入口正文；2026-10-26的读取问题另作历史保留，不代表本次仍读取失败。",
@@ -234696,5 +236933,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:e4a453db59df82eb73db85dc523a5a89ca91eba74598c3aa0a444deba853018c"
+  "snapshotId": "sha256:623d0f0013958c8b985ad78bb55a8b3c2e77ad835343a47ea50f12786ad28e42"
 };
