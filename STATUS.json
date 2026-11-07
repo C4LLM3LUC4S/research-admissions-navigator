@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0a29",
-  "stage": "post_alpha29_website_update",
+  "version": "0.1.0a30",
+  "stage": "alpha30_release_source",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-07",
   "working_name": "研向",
@@ -377,5 +377,10 @@
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
   "current_catalogue_snapshot": "sha256:3a26cceee49c082552fdd9c653bf329836ac28591cc3a1b1e6901af1b93d3a8e",
-  "latest_data_batch": "data/research/polyu-me-census-20261107.json"
+  "latest_data_batch": "data/research/polyu-me-census-20261107.json",
+  "changes_in_this_version": [
+    "机械工程系已列人员、任职和研究资料可按方向查看。",
+    "补齐一批 2027/28 当期研究学位与申请材料入口。",
+    "新项目要求可加入待办，并随完整备份保存和恢复。"
+  ]
 }
