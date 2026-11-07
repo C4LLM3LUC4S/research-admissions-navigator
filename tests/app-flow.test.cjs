@@ -6,6 +6,25 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('physics applicant searches quantum information and restores the chosen teacher and follow-up with original evidence',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);
+ el('research-query').value='量子信息理论';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(x=>x.tagName==='h3'&&x.textContent==='Prof. Giulio Chiribella'));
+ assert.ok(card);assert.match(card.textContent,/跨系任职/);
+ assert.ok(h.walk(card).some(x=>x.tagName==='a'&&x.href==='https://www.cs.hku.hk/index.php/people/academic-staff/giulio'));
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('加入跟进待办')).emit('click');
+ await el('profile-form').emit('submit');await el('export-local').emit('click');
+ const raw=await h.downloads.at(-1).blob.text(),before=JSON.parse(raw),fresh=harness();
+ fresh.byId.get('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];
+ await fresh.byId.get('import-local').emit('change');await fresh.byId.get('export-local').emit('click');
+ const restored=JSON.parse(await fresh.downloads.at(-1).blob.text());
+ assert.deepEqual(restored.shortlist,['hku-physics-02']);assert.deepEqual(restored.tasks,before.tasks);
+ assert.equal(restored.profile.researchQuery,'量子信息理论');
+ assert.ok(restored.sourceIds.includes('hku-physics-linked-35ce2b89a5af-20261107'));
+ assert.equal(h.networkCalls()+fresh.networkCalls(),0);
+});
+
 test('mechanical applicant reads the current route and restores its research-plan task in a blank environment',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('polyu','MPhil',[]);
  el('research-query').value='机械工程';await el('profile-form').emit('input',{target:el('research-query')});
