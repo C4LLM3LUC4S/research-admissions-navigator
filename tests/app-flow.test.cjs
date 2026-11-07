@@ -6,6 +6,28 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('mechanical applicant reads the current route and restores its research-plan task in a blank environment',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('polyu','MPhil',[]);
+ el('research-query').value='机械工程';await el('profile-form').emit('input');
+ const p=C.programs.find(p=>p.id==='polyu-me-rpg-sept-2027');
+ const card=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent===p.name));
+ assert.ok(card);assert.match(card.textContent,/2027-05-31（具体时间请核对原页）/);
+ assert.match(card.textContent,/全年接受申请.*具体截止日/);
+ const nodes=h.walk(card),heading=nodes.find(n=>n.tagName==='h4'&&n.textContent==='标准格式研究计划');
+ assert.ok(heading);
+ const block=nodes.find(n=>n.children.includes(heading));
+ const offset=block.children.indexOf(heading);
+ await block.children.slice(offset+1).find(n=>n.tagName==='button').emit('click');
+ await el('export-local').emit('click');const raw=await h.downloads.at(-1).blob.text();
+ const saved=JSON.parse(raw);assert.equal(saved.tasks[0].programId,p.id);
+ assert.ok(saved.sourceIds.includes('polyu-me-sept-2027-20261107'));
+ const fresh=harness(),file=fresh.byId.get('import-local');file.files=[{size:Buffer.byteLength(raw),text:async()=>raw}];
+ await file.emit('change');await fresh.byId.get('export-local').emit('click');
+ const restored=JSON.parse(await fresh.downloads.at(-1).blob.text());
+ assert.deepEqual(restored.tasks,saved.tasks);assert.deepEqual(restored.profile,saved.profile);
+ assert.equal(h.networkCalls()+fresh.networkCalls(),0);
+});
+
 test('PolyU September applicant sees degree-specific routes and restores a material task with its source', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  const getCard=name=>el('results').children.find(card=>h.walk(card).some(n=>n.tagName==='h3'&&n.textContent===name));
