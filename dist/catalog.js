@@ -1,6 +1,6 @@
 window.APP_CATALOG = {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-06",
+  "checkedDate": "2026-11-07",
   "cycle": "2027/28",
   "universities": [
     {
@@ -6166,6 +6166,75 @@ window.APP_CATALOG = {
           "action": "确认两位合适的推荐人并跟进系统邀请",
           "sourceIds": [
             "cuhksz-sse-ene-20261106"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-me-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "机械工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，全日制或兼读。方向包括航空航天、能源与环境、制造材料与力学、机器人与控制、声学与振动、热流体与燃烧。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/me",
+      "contact": {
+        "status": "recommended",
+        "text": "建议提交申请前联系潜在导师，并在申请中填写意向导师。",
+        "sourceIds": [
+          "polyu-me-sept-2027-20261107"
+        ]
+      },
+      "selection": {
+        "text": "项目页未列具体评审步骤，可先与潜在导师讨论研究计划。",
+        "sourceIds": [
+          "polyu-me-sept-2027-20261107"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-me-sept-2027-20261107"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-me-sept-2027-20261107",
+        "polyu-me-rpg-overview-20261107"
+      ],
+      "evidenceNote": "院系概览写全年接受申请；2027 年 9 月入学请按本项目页的具体截止日准备。",
+      "requirements": [
+        {
+          "label": "两份学术推荐报告",
+          "text": "选择熟悉学术表现的推荐人；拟申请的导师及非学术背景人士不适合作为学术推荐人。HKPFS 推荐报告另有提交期限。",
+          "action": "联系两位学术推荐人并核对提交期限",
+          "sourceIds": [
+            "polyu-me-sept-2027-20261107"
+          ]
+        },
+        {
+          "label": "简历、个人陈述和学历材料",
+          "text": "简历、个人陈述、成绩单及学历证明列为必交；雇主推荐信为选交。",
+          "action": "准备简历、个人陈述和学历材料",
+          "sourceIds": [
+            "polyu-me-sept-2027-20261107"
+          ]
+        },
+        {
+          "label": "标准格式研究计划",
+          "text": "研究计划须使用项目官网提供的标准表格。",
+          "action": "下载标准研究计划表并准备研究计划",
+          "sourceIds": [
+            "polyu-me-sept-2027-20261107"
           ]
         }
       ]
@@ -75912,6 +75981,2780 @@ window.APP_CATALOG = {
           "polyu-cee-directory-0-20261029"
         ]
       }
+    },
+    {
+      "id": "polyu-me-su-zhong-qing-prof",
+      "name": "Prof. SU Zhongqing 蘇眾慶",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+      "directoryRole": "Head and Chair Professor of Intelligent Structures and Systems",
+      "summary": "研究超声、波传播与结构健康监测，关注传感器、无损检测、智能材料和先进复合材料。",
+      "researchKeywords": [
+        "超声",
+        "结构健康监测",
+        "无损检测",
+        "Ultrasonics",
+        "Structural health monitoring (SHM)",
+        "Wave propagation",
+        "Sensors",
+        "Non-destructive evaluation",
+        "Smart materials and advanced composites"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-04a32fa62f45e165-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-11b8745eee02a5ef-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-04a32fa62f45e165-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/zhongqing-su",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-04a32fa62f45e165-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/researchgrp/shm/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-04a32fa62f45e165-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-11b8745eee02a5ef-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-04a32fa62f45e165-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-tang-hui-prof",
+      "name": "Prof. TANG Hui 唐輝",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+      "directoryRole": "Associate Head (Research) and Professor",
+      "summary": "研究空气与水动力学、主动流动控制、流固耦合和多相流。",
+      "researchKeywords": [
+        "空气动力学",
+        "主动流动控制",
+        "多相流",
+        "Aerodynamics",
+        "Hydrodynamics",
+        "Active flow control",
+        "Fluid-structure Interaction",
+        "Multiphase flow"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "polyu-me-db21dc2ed6769a39-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-db21dc2ed6769a39-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/hui-tang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-db21dc2ed6769a39-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-db21dc2ed6769a39-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-ruan-haihui-prof",
+      "name": "Prof. RUAN Haihui 阮海輝",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+      "directoryRole": "Associate Head (Teaching & Learning) and Associate Professor",
+      "summary": "研究固体力学、塑性与本构建模，关注非晶和纳米材料以及冲击、碰撞和耐撞性。",
+      "researchKeywords": [
+        "固体力学",
+        "本构建模",
+        "非晶材料",
+        "耐撞性",
+        "Solid Mechanics",
+        "Plasticity",
+        "Constitutive modeling",
+        "Amorphous Materials",
+        "Nanomaterials",
+        "Impact",
+        "Collision and Crashworthiness"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-9ab0b62c555c062e-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-b9c31f4480ac9cd1-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9ab0b62c555c062e-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/haihui-ruan",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-9ab0b62c555c062e-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://hhlab.weebly.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-9ab0b62c555c062e-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-b9c31f4480ac9cd1-20261107"
+        }
+      ],
+      "availability": {
+        "state": "advertised",
+        "cycle": null,
+        "degrees": [
+          "PhD"
+        ],
+        "text": "实验室主页提到博士和研究人员机会，方向为材料、设计优化及微制造；没有注明入学年。",
+        "sourceIds": [
+          "polyu-me-b9c31f4480ac9cd1-20261107"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "研究组招募说明",
+          "text": "实验室主页提到博士和研究人员机会，方向为材料、设计优化及微制造；没有注明入学年。",
+          "sourceIds": [
+            "polyu-me-b9c31f4480ac9cd1-20261107"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-me-christopher-chao-prof",
+      "name": "Prof. CHAO Yu Hang, Christopher 趙汝恒",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+      "directoryRole": "Senior Vice President (Research and Innovation), Chair Professor of Thermal and Environmental Engineering",
+      "summary": "研究室内气溶胶与污染物传输、太阳能及余热制冷、辐射冷却、纳米流体传热和燃烧。",
+      "researchKeywords": [
+        "气溶胶",
+        "辐射冷却",
+        "传热",
+        "燃烧",
+        "Aerosol and gaseous contaminant transport in indoor environments",
+        "Solar and waste heat driven cooling and refrigeration system",
+        "Passive radiative cooling",
+        "Nanofluid heat transfer",
+        "Bio inspired heat transfer",
+        "Fire dynamics and combustion"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "环境与可持续发展",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-e2fb19a58a19a920-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-e2fb19a58a19a920-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yu-hang-christopher-chao",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-e2fb19a58a19a920-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-e2fb19a58a19a920-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-cheng-li-prof",
+      "name": "Prof. CHENG Li 成利",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+      "directoryRole": "Chair Professor of Mechanical Engineering",
+      "summary": "研究噪声与振动控制、流固耦合、损伤检测及智能材料和结构。",
+      "researchKeywords": [
+        "噪声与振动控制",
+        "流固耦合",
+        "损伤检测",
+        "Noise and vibration control",
+        "Fluid-structure interaction",
+        "Damage detection and smart material/structure/products"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-d5a03004a9da9a5f-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-d5a03004a9da9a5f-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/li-cheng",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-d5a03004a9da9a5f-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-d5a03004a9da9a5f-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-fu-ming-wang-prof",
+      "name": "Prof. FU Mingwang 傅銘旺",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+      "directoryRole": "Associate Director of Research Institute for Advanced Manufacturing, Chair Professor of Advanced Manufacturing",
+      "summary": "研究产品设计、数值建模、制造与金属成形，以及微尺度力学、损伤和断裂。",
+      "researchKeywords": [
+        "金属成形",
+        "微尺度力学",
+        "损伤与断裂",
+        "产品设计",
+        "Product design and development",
+        "Numerical modelling and simulation",
+        "Manufacturing and metal forming",
+        "Size effect based micro-mechanics",
+        "Damage and fracture in manufacturing and product service"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源",
+        "设计与创意"
+      ],
+      "sourceIds": [
+        "polyu-me-1847ad12ba0fa345-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-1847ad12ba0fa345-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/mingwang-fu",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-1847ad12ba0fa345-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-1847ad12ba0fa345-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-wang-liqiu-prof",
+      "name": "Prof.  WANG Liqiu 王立秋",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+      "directoryRole": "Director of PolyU-Zibo Technology and Innovation Research Institute, Otto Poon Charitable Foundation Professor in Smart and Sustainable Energy, Chair Professor of Thermal-Fluid and Energy Engineering",
+      "summary": "研究仿生与微流控工程、柔软与智能制造、软材料以及热流体和能源。",
+      "researchKeywords": [
+        "微流控",
+        "智能制造",
+        "软材料",
+        "热流体",
+        "Nature-inspired and microfluidics-enabled engineering",
+        "Soft and smart manufacturing",
+        "Soft materials",
+        "Thermal-fluids",
+        "Energy"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-2ce890021da3bfe7-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-2ce890021da3bfe7-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/liqiu-wang-2",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-2ce890021da3bfe7-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-2ce890021da3bfe7-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-wang-quan-prof",
+      "name": "Prof. WANG Quan 王泉",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+      "directoryRole": "Chair Professor of Energy Harvesting and Engineering Structures",
+      "summary": "研究工程结构、能量采集、结构健康监测、智能材料和纳米技术。",
+      "researchKeywords": [
+        "能量采集",
+        "结构健康监测",
+        "智能材料",
+        "Engineering Structures",
+        "Energy Harvesting",
+        "Structural Health Monitoring",
+        "Smart Materials",
+        "Nanotechnology"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-efa8c9fba0340139-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-efa8c9fba0340139-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/quan-wang/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-efa8c9fba0340139-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-efa8c9fba0340139-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-wang-zuankai-prof",
+      "name": "Prof. WANG Zuankai 王鑽開",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+      "directoryRole": "Associate Vice President (Research), Dean of Graduate School, Kuok Group Professor in Nature-Inspired Engineering, Chair Professor of Nature-Inspired Engineering",
+      "summary": "研究仿生表面与材料、增材制造、能量采集、流体力学、软物质及界面。",
+      "researchKeywords": [
+        "仿生表面",
+        "增材制造",
+        "能量采集",
+        "界面",
+        "Nature-inspired surfaces and materials",
+        "additive manufacturing",
+        "energy harvesting",
+        "fluid dynamics",
+        "soft matter",
+        "interfaces and surfaces"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-b49c8763fc2e3851-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-44be5a03a829cfc6-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-b49c8763fc2e3851-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/zuankai-wang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-b49c8763fc2e3851-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://wangzuankai.wixsite.com/wanglab",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-b49c8763fc2e3851-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-44be5a03a829cfc6-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-b49c8763fc2e3851-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-xu-zhenghe-prof",
+      "name": "Prof. XU Zhenghe 徐政和",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+      "directoryRole": "Chair Professor of Interfacial Sciences and Engineering of Materials",
+      "summary": "研究界面科学与工程、矿物加工与物理分离，关注功能材料、可再生能源和材料回收。",
+      "researchKeywords": [
+        "界面科学",
+        "矿物加工",
+        "功能材料",
+        "材料回收",
+        "Interfacial Science and Engineering",
+        "Mineral Processing",
+        "Oil Sands Extraction",
+        "Functional Materials",
+        "Physical Separation",
+        "Renewable Energy",
+        "Environmental Technology and Materials Recycling"
+      ],
+      "topics": [
+        "材料与能源",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-1ce77a6945a43a20-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-1ce77a6945a43a20-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/zhenghe-xu/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-1ce77a6945a43a20-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-1ce77a6945a43a20-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-zhang-dan-prof",
+      "name": "Prof. ZHANG Dan 張丹",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+      "directoryRole": "Director of PolyU-Nanjing Technology and Innovation Research Institute, Chair Professor of Intelligent Robotics and Automation",
+      "summary": "研究机器人机构设计与优化、可重构机器人、微纳操作及康复机器人，也关注空中、水下和人形机器人。",
+      "researchKeywords": [
+        "可重构机器人",
+        "微纳操作",
+        "康复机器人",
+        "人形机器人",
+        "Synthesis and Optimization of Manipulator Mechanisms",
+        "Generalized Parallel Mechanisms Research",
+        "Reconfigurable Robots",
+        "Micro/Nano Manipulation and MEMS Devices (e.g., Sensors)",
+        "Smart Biomedical Instruments (e.g., Exoskeleton Robots and Rehabilitation Robotics)",
+        "AI/robotics/autonomous systems",
+        "Aerial and Underwater Robotics",
+        "New Developments for Humanoid Robots",
+        "Machine learning/Deep learning/Machine Vision for Robotics"
+      ],
+      "topics": [
+        "机器人与控制",
+        "机器学习",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "polyu-me-abde58966061b239-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-abde58966061b239-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/dan-zhang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-abde58966061b239-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-abde58966061b239-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-an-liang-prof",
+      "name": "Prof. AN Liang 安亮",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+      "directoryRole": "Associate Dean (Global Engagement) of Faculty of Engineering, Professor",
+      "summary": "研究热流体、能量转换与储存技术以及先进材料。",
+      "researchKeywords": [
+        "热流体",
+        "能量转换",
+        "储能",
+        "先进材料",
+        "Thermofluid",
+        "Energy conversion and storage technologies",
+        "Advanced materials"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-1a3d7ab573b0d582-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-1a3d7ab573b0d582-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/liang-an ",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-1a3d7ab573b0d582-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-1a3d7ab573b0d582-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-yu-hongyu-prof",
+      "name": "Prof. YU Hongyu 于宏宇",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+      "directoryRole": "Executive Director of PolyU Aerospace Research Academy, Professor",
+      "summary": "研究空间探索、微机电系统、机器人、传感器和感知系统。",
+      "researchKeywords": [
+        "空间探索",
+        "微机电系统",
+        "机器人",
+        "感知系统",
+        "Space exploration",
+        "Microelectromechanical systems (MEMS)",
+        "Robotics",
+        "Sensors and sensing systems"
+      ],
+      "topics": [
+        "机器人与控制",
+        "电子与集成电路",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-00595af67885d107-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-00595af67885d107-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/hongyu-yu",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-00595af67885d107-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-00595af67885d107-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-zheng-guang-ping-prof",
+      "name": "Prof. ZHENG Guangping 鄭廣平",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+      "directoryRole": "Professor",
+      "summary": "研究计算材料科学、纳米材料的力学性能，以及纳米材料在能量转换与储存中的应用。",
+      "researchKeywords": [
+        "计算材料科学",
+        "纳米材料",
+        "能量转换与储存",
+        "Computational materials science",
+        "Mechanical properties of nanomaterials",
+        "Applications of nanomaterials in energy conversion and storage"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-2868ea0dd38152ba-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-2868ea0dd38152ba-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/guangping-zheng",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-2868ea0dd38152ba-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-2868ea0dd38152ba-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-choy-yat-sze-prof",
+      "name": "Prof. CHOY Yat Sze 蔡逸思",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究声致振动、管道及环境噪声控制、建筑与室内声学，以及声源识别和产品音质。",
+      "researchKeywords": [
+        "环境噪声控制",
+        "声源识别",
+        "建筑声学",
+        "声景",
+        "Sound induced vibration",
+        "Duct noise control",
+        "Building and room acoustics",
+        "Environmental noise measurement and control",
+        "Aeroacoustics",
+        "Sound Sources identification",
+        "Sound quality of product and its assessment",
+        "Soundscape study, planning and design"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-5b41c91b758eaa29-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-5b41c91b758eaa29-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yat-sze-choy",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-5b41c91b758eaa29-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-5b41c91b758eaa29-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-jiao-zengbao-prof",
+      "name": "Prof. JIAO Zengbao 焦增寶",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究先进结构材料、高强钢与合金、高温合金、纳米结构金属和材料加工。",
+      "researchKeywords": [
+        "高强钢",
+        "高温合金",
+        "纳米结构金属",
+        "材料加工",
+        "Advanced structural materials",
+        "High-strength steels & alloys",
+        "High-temperature superalloys",
+        "Nanostructured metals & alloys",
+        "Innovative material processing"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-7ecfcf5ea261ae4e-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-c258d102afa675c3-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-7ecfcf5ea261ae4e-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/zengbao-jiao",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-7ecfcf5ea261ae4e-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "http://www.zbjiao.hk/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-7ecfcf5ea261ae4e-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-c258d102afa675c3-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-7ecfcf5ea261ae4e-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-leung-chi-kin-randolph-prof",
+      "name": "Prof. LEUNG Chi Kin, Randolph 梁志堅",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究计算气动声学、风机空气动力学、流致声与结构振动，以及压缩机和系统设计。",
+      "researchKeywords": [
+        "计算气动声学",
+        "风机空气动力学",
+        "流致声",
+        "结构振动",
+        "Computational aeroacoustics and gas dynamics",
+        "Wind turbine aerodynamics",
+        "Flow-induced sound and structural vibration",
+        "Aviation science",
+        "HVAC compressor and system design",
+        "Product sound and vibration quality"
+      ],
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-7490c1841c8f7380-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-7490c1841c8f7380-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/chi-kin-randolph-leung",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-7490c1841c8f7380-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-7490c1841c8f7380-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-li-mengying-prof",
+      "name": "Prof. LI Mengying 李夢穎",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究能源气象与太阳能预测，将物理模型和机器学习用于太阳能系统、制冷、制氢和海水淡化。",
+      "researchKeywords": [
+        "太阳能预测",
+        "能源气象",
+        "辐射冷却",
+        "太阳能海水淡化",
+        "Energy meteorology",
+        "Physics and machine learning based solar forecasting",
+        "Solar-based poly-generation system design and control",
+        "Radiative heat transfer",
+        "High temperature electrolysis",
+        "Radiative cooling",
+        "Solar desalination"
+      ],
+      "topics": [
+        "材料与能源",
+        "机器学习",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-88a21389f26cb205-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-87361ca29196e496-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-88a21389f26cb205-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/mengying-li",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-88a21389f26cb205-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "http://www.li-realab.info/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-88a21389f26cb205-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-87361ca29196e496-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-88a21389f26cb205-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-zhang-xiao-prof",
+      "name": "Prof. ZHANG Xiao 張曉",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究电催化、碳捕集与转化、电化学反应器、膜电极组件和二维纳米材料。",
+      "researchKeywords": [
+        "电催化",
+        "碳捕集与转化",
+        "电化学反应器",
+        "二维材料",
+        "Electrocatalysis",
+        "Carbon capture and conversion",
+        "Electrochemical reactor design",
+        "Membrane electrode assembly",
+        "2D nanomaterials"
+      ],
+      "topics": [
+        "材料与能源",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-293a7abe70b485fb-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-293a7abe70b485fb-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/xiao-zhang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-293a7abe70b485fb-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-293a7abe70b485fb-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-cheng-song-prof",
+      "name": "Prof. CHENG Song 成松",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究气相反应动力学、真实流体及低碳氧化化学，结合不确定性量化、优化和机器学习。",
+      "researchKeywords": [
+        "化学反应动力学",
+        "低碳氧化",
+        "不确定性量化",
+        "机器学习",
+        "Gas Phase Chemical Kinetics",
+        "Real-Fluid Oxidation Chemistry",
+        "Low-Carbon Oxidation Chemistry",
+        "Uncertainty Quantification and Optimization",
+        "Optimal Decision Making",
+        "Machine Learning"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "机器学习",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "polyu-me-ce07722e012daf17-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-4ea7abd13a7dfd87-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-ce07722e012daf17-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/song-cheng",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-ce07722e012daf17-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "http://uhpc-lab.org/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-ce07722e012daf17-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-4ea7abd13a7dfd87-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-ce07722e012daf17-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-du-huifeng-prof",
+      "name": "Prof. DU Huifeng 杜匯豐",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+      "directoryRole": "Assistant Professor, Presidential Young Scholar",
+      "summary": "研究固体力学、表面工程、数值模拟、增材制造和结构化材料，也关注室内空气质量与污染物传输。",
+      "researchKeywords": [
+        "固体力学",
+        "表面工程",
+        "增材制造",
+        "污染物传输",
+        "Solid Mechanics",
+        "Surface Engineering",
+        "Numerical Modeling and Simulation",
+        "Additive Manufacturing",
+        "Architected Materials",
+        "Indoor Air Quality and Contaminant Transport"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-ce3909211311e8b8-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-a3ba3e05a285360b-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-ce3909211311e8b8-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/huifeng-du",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-ce3909211311e8b8-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://huifengdu.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-ce3909211311e8b8-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-a3ba3e05a285360b-20261107"
+        }
+      ],
+      "availability": {
+        "state": "advertised",
+        "cycle": null,
+        "degrees": [
+          "PhD"
+        ],
+        "text": "个人主页提到博士、博士后和研究助理机会，并鼓励申请 HKPFS 或理工校长博士奖学金；没有注明入学年。",
+        "sourceIds": [
+          "polyu-me-a3ba3e05a285360b-20261107"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "研究组招募说明",
+          "text": "个人主页提到博士、博士后和研究助理机会，并鼓励申请 HKPFS 或理工校长博士奖学金；没有注明入学年。",
+          "sourceIds": [
+            "polyu-me-a3ba3e05a285360b-20261107"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-me-li-tianyi-prof",
+      "name": "Prof. LI Tianyi 李天一",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究湍流、流体力学中的人工智能、计算流体力学和地球物理流体力学。",
+      "researchKeywords": [
+        "湍流",
+        "人工智能流体力学",
+        "计算流体力学",
+        "地球物理流体力学",
+        "Turbulence",
+        "Artificial intelligence for fluid mechanics",
+        "Computational fluid dynamics",
+        "Geophysical fluid dynamics"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "polyu-me-b9ac976f5b051046-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-83b39f2fe0953aba-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-b9ac976f5b051046-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/tianyi-li/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-b9ac976f5b051046-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://tianyili-92.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-b9ac976f5b051046-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-83b39f2fe0953aba-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-b9ac976f5b051046-20261107"
+        ]
+      },
+      "identityNote": "院系主页列助理教授；个人网站仍写 2026 年将加入理工，可联系核对最新任职。",
+      "applicationNotes": [
+        {
+          "kind": "page_conflict",
+          "label": "两处任职介绍的更新不同步",
+          "text": "院系主页列助理教授；个人网站仍写 2026 年将加入理工，可联系核对最新任职。",
+          "sourceIds": [
+            "polyu-me-b9ac976f5b051046-20261107",
+            "polyu-me-83b39f2fe0953aba-20261107"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-me-ma-yuan-prof",
+      "name": "Prof. MA Yuan 馬源",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究触觉、人机机械界面、可穿戴电子的传感与驱动、摩擦学和多物理建模。",
+      "researchKeywords": [
+        "触觉",
+        "人机机械界面",
+        "可穿戴传感器",
+        "摩擦学",
+        "Haptics",
+        "human-machine mechanical interface",
+        "sensors and actuators for wearable electronics",
+        "tribology",
+        "cross-scale and multi-physics modeling",
+        "application of artificial intelligence"
+      ],
+      "topics": [
+        "人机交互",
+        "机器人与控制",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "polyu-me-a0b96b6cde97b4f0-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-4f83fca09ae8b0a4-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-a0b96b6cde97b4f0-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yuan-ma",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-a0b96b6cde97b4f0-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://ihmmi.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-a0b96b6cde97b4f0-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-4f83fca09ae8b0a4-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-a0b96b6cde97b4f0-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-wu-maochun-prof",
+      "name": "Prof. WU Maochun 巫茂春",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究电化学储能与转换、先进电池材料，以及热量和质量传递。",
+      "researchKeywords": [
+        "电化学储能",
+        "电池材料",
+        "传热传质",
+        "Electrochemical energy storage and conversion",
+        "Advanced battery materials",
+        "Heat and mass transfer"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-400450a8523e0281-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-fdb77176a55b6548-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-400450a8523e0281-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/maochun-wu",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-400450a8523e0281-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://www.x-mol.com/groups/wu_maochun",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-400450a8523e0281-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-fdb77176a55b6548-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-400450a8523e0281-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-xu-shengduo-prof",
+      "name": "Prof. XU Shengduo 許聲多",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+      "directoryRole": "Assistant Professor, Presidential Young Scholar",
+      "summary": "研究热电材料及器件，以及多模态可穿戴智能传感器。",
+      "researchKeywords": [
+        "热电材料",
+        "热电器件",
+        "可穿戴智能传感器",
+        "Thermoelectric materials and devices",
+        "Multi-modal wearable smart sensors"
+      ],
+      "topics": [
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "polyu-me-11079cf83974f4c3-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-11079cf83974f4c3-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/shengduo-xu/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-11079cf83974f4c3-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://www.xu-lacts.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-11079cf83974f4c3-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原站返回 403，本次未读取正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-11079cf83974f4c3-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-yu-xiang-prof",
+      "name": "Prof. YU Xiang 余翔",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究振动声学、声学超材料、噪声与振动控制，兼顾功能材料、听觉感知和主动降噪。",
+      "researchKeywords": [
+        "振动声学",
+        "声学超材料",
+        "主动降噪",
+        "声学黑洞",
+        "Vibro-acoustic modelling",
+        "Acoustic metamaterial",
+        "Noise and vibration control",
+        "Advanced functional material",
+        "Lattice structure and porous material",
+        "Hearing and auditory perception",
+        "Active noise cancellation",
+        "Smart actuator",
+        "Acoustic black hole"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-79e1cd37b7489e74-20261107",
+        "polyu-me-directory-saved-20261026",
+        "polyu-me-b9cbad0671d951df-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-79e1cd37b7489e74-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/xiang-yu-2",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-79e1cd37b7489e74-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        },
+        {
+          "url": "https://sites.google.com/view/acousticlab",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-79e1cd37b7489e74-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读主页中的研究或任职介绍。",
+          "sourceId": "polyu-me-b9cbad0671d951df-20261107"
+        }
+      ],
+      "availability": {
+        "state": "advertised",
+        "cycle": null,
+        "degrees": [
+          "PhD"
+        ],
+        "text": "实验室主页提到博士和研究助理机会，并列声学材料、可穿戴器件及人工智能等方向；没有注明入学年。",
+        "sourceIds": [
+          "polyu-me-b9cbad0671d951df-20261107"
+        ]
+      },
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "研究组招募说明",
+          "text": "实验室主页提到博士和研究助理机会，并列声学材料、可穿戴器件及人工智能等方向；没有注明入学年。",
+          "sourceIds": [
+            "polyu-me-b9cbad0671d951df-20261107"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-me-zhang-baoping-prof",
+      "name": "Prof. ZHANG Baoping 張寶萍",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究仿生材料与界面、膜材料、集水与太阳能海水淡化、储能及界面流体力学。",
+      "researchKeywords": [
+        "仿生材料",
+        "膜材料",
+        "太阳能海水淡化",
+        "界面流体力学",
+        "Nature-inspired materials and interfaces",
+        "Membranes",
+        "Water harvesting/solar desalination",
+        "Energy harvesting and storage",
+        "Heat and mass transfer",
+        "Interfacial fluid dynamics"
+      ],
+      "topics": [
+        "材料与能源",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-b65700f96a88b001-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-b65700f96a88b001-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/baoping-zhang/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-b65700f96a88b001-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-b65700f96a88b001-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-zhang-yiyuan-prof",
+      "name": "Prof. ZHANG Yiyuan 張藝媛",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究流体结构化、柔软与智能制造、增材制造、微流控、柔性电子和非线性优化。",
+      "researchKeywords": [
+        "流体结构化",
+        "智能制造",
+        "微流控",
+        "柔性电子",
+        "Structuring of Fluids",
+        "Soft and Smart Manufacturing",
+        "Additive Manufacturing",
+        "Microfluidics",
+        "3D Manipulation of Fluids",
+        "Flexible Electronics",
+        "Nonlinear Computation and Optimization"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "sourceIds": [
+        "polyu-me-e6003b8972912f9e-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-e6003b8972912f9e-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yiyuan-zhang",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-e6003b8972912f9e-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-e6003b8972912f9e-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-fu-yiqiang-dr",
+      "name": "Dr FU Yiqiang 符毅强",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究振动能量采集、波浪能转换、软体机器人、非线性及摩擦诱发振动。",
+      "researchKeywords": [
+        "振动能量采集",
+        "波浪能转换",
+        "软体机器人",
+        "非线性振动",
+        "Vibration energy harvesting",
+        "Wave energy conversion",
+        "Soft robotics",
+        "Nonlinear vibration",
+        "Friction-induced vibration",
+        "Vibro-impact systems"
+      ],
+      "topics": [
+        "材料与能源",
+        "机器人与控制",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-1f8311e6028e92fd-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-1f8311e6028e92fd-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/yiqiang-fu",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-1f8311e6028e92fd-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-1f8311e6028e92fd-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-wang-lin-dr",
+      "name": "Dr WANG Lin 王林",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究广义与可重构并联机构、空中机器人、灵巧手、康复与可穿戴机器人及多机器人系统。",
+      "researchKeywords": [
+        "可重构并联机构",
+        "灵巧手",
+        "康复机器人",
+        "具身智能",
+        "Generalized and Reconfigurable Parallel Mechanisms",
+        "Mechanical Intelligence, Aerial Robotic Systems",
+        "Dexterous Hands",
+        "Rehabilitation and Wearable Robotics",
+        "Embodied AI and Multi-Robot Systems"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "polyu-me-3347d5be91e2ba3b-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-3347d5be91e2ba3b-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/lin-wang/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-3347d5be91e2ba3b-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-3347d5be91e2ba3b-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-yang-lei-dr",
+      "name": "Dr YANG Lei 楊磊",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究材料力学、冲击动力学、本构建模和行星防御。",
+      "researchKeywords": [
+        "材料力学",
+        "冲击动力学",
+        "本构建模",
+        "行星防御",
+        "Mechanics of materials",
+        "Impact dynamics",
+        "Constitutive modeling",
+        "Planetary defense"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-4d74c51b67002cc6-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-4d74c51b67002cc6-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/lei-yang-3/",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-me-4d74c51b67002cc6-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-4d74c51b67002cc6-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-tam-wai-yin-eunice-dr",
+      "name": "Dr TAM Wai Yin, Eunice 譚慧賢",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+      "directoryRole": "Senior Lecturer",
+      "summary": "专长包括复合材料应用与制造，以及碳纳米管和聚合物纳米复合材料结构。",
+      "researchKeywords": [
+        "复合材料制造",
+        "纳米复合材料",
+        "碳纳米管",
+        "Composite and application",
+        "Composite manufacturing",
+        "Nanocomposite (carbon nanotube/polymer) structure"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-88b8e1ece62faa00-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-88b8e1ece62faa00-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-88b8e1ece62faa00-20261107"
+        ]
+      },
+      "identityNote": "院系列为教学岗位，可先从研究学位页查看潜在导师。"
+    },
+    {
+      "id": "polyu-me-tang-elsa-ir",
+      "name": "Ir TANG Wai Fong, Elsa 鄧慧芳",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+      "directoryRole": "Senior Instructor",
+      "summary": "专长包括计算机辅助设计与工程、产品设计管理、科学计算和供应链管理。",
+      "researchKeywords": [
+        "计算机辅助设计",
+        "产品设计",
+        "科学计算",
+        "供应链管理",
+        "Computer aided design",
+        "Computer aided engineering",
+        "Product design and management",
+        "Basic scientific computing",
+        "Supply chain management"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "设计与创意",
+        "经济与管理"
+      ],
+      "sourceIds": [
+        "polyu-me-7a5647a4371fd9df-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-7a5647a4371fd9df-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-7a5647a4371fd9df-20261107"
+        ]
+      },
+      "identityNote": "院系列为教学岗位，可先从研究学位页查看潜在导师。"
+    },
+    {
+      "id": "polyu-me-tong-yu-chee-dr",
+      "name": "Dr TONG Yu Chee 唐宇池",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+      "directoryRole": "Teaching Fellow",
+      "summary": "专长包括微型电动出行设计、嵌入式系统、控制理论、航空系统和结构可靠性。",
+      "researchKeywords": [
+        "嵌入式系统",
+        "控制理论",
+        "航空系统",
+        "结构可靠性",
+        "Micro e-Mobility Design",
+        "Embedded Systems",
+        "Control Theory",
+        "Aviation Systems",
+        "Structural Risk and Reliability Methods",
+        "Fatigue and Fracture Mechanics",
+        "Aircraft Structural Design",
+        "Aircraft Structural Integrity and Aircraft Design"
+      ],
+      "topics": [
+        "机器人与控制",
+        "电子与集成电路",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-464c02119ed193fb-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-464c02119ed193fb-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-464c02119ed193fb-20261107"
+        ]
+      },
+      "identityNote": "院系列为教学岗位，可先从研究学位页查看潜在导师。"
+    },
+    {
+      "id": "polyu-me-xu-nan-nathan-dr",
+      "name": "Dr XU Nan, Nathan 徐楠",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+      "directoryRole": "Teaching Fellow",
+      "summary": "专长包括物联网、电源管理集成电路、嵌入式系统、机器人和设计思维。",
+      "researchKeywords": [
+        "物联网",
+        "电源管理集成电路",
+        "嵌入式系统",
+        "机器人",
+        "Internet of Things (IoT)",
+        "Power Management Integrated Circuit",
+        "Embedded System",
+        "Robotics",
+        "Design Thinking",
+        "Innovation & Entrepreneurship"
+      ],
+      "topics": [
+        "电子与集成电路",
+        "机器人与控制",
+        "设计与创意"
+      ],
+      "sourceIds": [
+        "polyu-me-194b9e4baadd74a0-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-194b9e4baadd74a0-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [
+        {
+          "url": "https://www.linkedin.com/in/nathan-tsui/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-me-194b9e4baadd74a0-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "可打开继续了解。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-194b9e4baadd74a0-20261107"
+        ]
+      },
+      "identityNote": "院系列为教学岗位，可先从研究学位页查看潜在导师。"
+    },
+    {
+      "id": "polyu-me-huo-xiaoyu-dr",
+      "name": "Dr HUO Xiaoyu 霍小雨",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/",
+      "directoryRole": "Instructor",
+      "summary": "专长包括能量转换与储存、电化学系统、液流电池和燃料电池。",
+      "researchKeywords": [
+        "能量转换与储存",
+        "电化学系统",
+        "液流电池",
+        "燃料电池",
+        "Energy Conversion and Storage Technologies",
+        "Electrochemical Systems",
+        "Redox Flow Batteries",
+        "Fuel Cells"
+      ],
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-a2b50f4a9a8cc600-20261107",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-a2b50f4a9a8cc600-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-a2b50f4a9a8cc600-20261107"
+        ]
+      },
+      "identityNote": "院系列为教学岗位，可先从研究学位页查看潜在导师。"
+    },
+    {
+      "id": "polyu-me-mai-yiu-wing",
+      "name": "Mai, Yiu Wing",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/mai-yiu-wing-prof/",
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/mai-yiu-wing-prof/",
+      "directoryRole": "Distinguished Chair Professor of Composites Science and Engineering",
+      "identityNote": "理工主页列复合材料科学与工程杰出讲座教授；港大另有名誉教授任职记录。",
+      "summary": "研究先进复合材料和断裂力学，关注材料制造、性能与工程应用；提供的个人档案列港理工任职。",
+      "researchKeywords": [
+        "先进复合材料和断裂力学，关注材料制造、性能与工程应用；提供的个人档案列港理工任职",
+        "复合材料",
+        "断裂力学"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-mech-profile-63-20261029",
+        "polyu-me-directory-saved-20261026"
+      ],
+      "keywordSourceIds": [
+        "hku-mech-profile-63-20261029"
+      ],
+      "directorySourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "该角色对所选学位的指导资格、当前接收和实时余位需另核。",
+        "sourceIds": [
+          "hku-mech-profile-63-20261029"
+        ]
+      },
+      "applicationNotes": []
+    },
+    {
+      "id": "polyu-me-so-ronald-ming-cho-prof",
+      "name": "Prof. SO, Ronald Ming Cho 蘇銘祖",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+      "directoryRole": "荣休教授",
+      "identityNote": "院系列为荣休教授。",
+      "summary": "研究湍流建模、流固耦合、流致振动和气动声学模拟。",
+      "researchKeywords": [
+        "湍流建模",
+        "流固耦合",
+        "气动声学"
+      ],
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-1538fcc684f780c2-20261107",
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-1538fcc684f780c2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-tong-timothy-w-prof",
+      "name": "Prof. TONG Timothy W. 唐偉章",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+      "directoryRole": "荣休教授",
+      "identityNote": "院系列为荣休教授。",
+      "summary": "研究辐射传热计算、多孔介质传热、节能、隔热系统和航天热控制。",
+      "researchKeywords": [
+        "辐射传热",
+        "多孔介质",
+        "热控制"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-7cf2be897e2da2f3-20261107",
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-7cf2be897e2da2f3-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-chen-guohua-prof",
+      "name": "Prof. CHEN Guohua 陳國華",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+      "directoryRole": "兼任教授",
+      "identityNote": "院系列为兼任教授。",
+      "summary": "研究储能电极材料、能源与环境电化学技术，以及高价值产品干燥。",
+      "researchKeywords": [
+        "储能电极",
+        "电化学",
+        "干燥"
+      ],
+      "topics": [
+        "材料与能源",
+        "环境与可持续发展"
+      ],
+      "sourceIds": [
+        "polyu-me-20a6a394fd37667a-20261107",
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-20a6a394fd37667a-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-poon-chi-kin-lawrence-prof",
+      "name": "Prof. POON Chi Kin, Lawrence 潘志健",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+      "directoryRole": "兼任教授",
+      "identityNote": "院系列为兼任教授。",
+      "summary": "研究新能源汽车、自动驾驶技术、智慧出行与车联网，也涉及机器人和汽车碰撞分析。",
+      "researchKeywords": [
+        "新能源汽车",
+        "智慧出行",
+        "车联网",
+        "汽车碰撞分析"
+      ],
+      "topics": [
+        "机器人与控制",
+        "材料与能源",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "polyu-me-194d0d2c09a96e3d-20261107",
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-194d0d2c09a96e3d-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-sze-wai-pan-banting-prof",
+      "name": "Prof. SZE Wai Pan, Banting 施偉斌",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/",
+      "directoryRole": "兼任教授",
+      "identityNote": "院系列为兼任教授。",
+      "summary": "专长为创业、工程创新和机械工程。",
+      "researchKeywords": [
+        "创业",
+        "工程创新",
+        "机械工程"
+      ],
+      "topics": [
+        "经济与管理",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-11482d64bb378b8b-20261107",
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-11482d64bb378b8b-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "scoped_profile_or_provided_site",
+      "profileBodyStatus": "body_read",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-adrian-bejan",
+      "name": "Prof. Adrian BEJAN",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 工程科学讲座教授",
+      "identityNote": "院系列为近年访问学者 · 工程科学讲座教授。",
+      "summary": "研究热力学、传热及自然演化中的构形定律。",
+      "researchKeywords": [
+        "热力学",
+        "传热",
+        "构形定律"
+      ],
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-cheng-ping",
+      "name": "Prof. CHENG Ping 鄭平",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 机械工程讲座教授",
+      "identityNote": "院系列为近年访问学者 · 机械工程讲座教授。",
+      "summary": "研究微尺度和多孔介质传热、输运现象介观模拟及辐射气体动力学。",
+      "researchKeywords": [
+        "微尺度传热",
+        "多孔介质",
+        "介观模拟"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-chen-zhongwei",
+      "name": "Prof. CHEN Zhongwei",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 清洁能源先进材料讲座教授",
+      "identityNote": "院系列为近年访问学者 · 清洁能源先进材料讲座教授。",
+      "summary": "研究纳米材料、电化学和电催化，涉及燃料电池、多类电池与电化学传感器。",
+      "researchKeywords": [
+        "电催化",
+        "燃料电池",
+        "电池材料",
+        "电化学传感器"
+      ],
+      "topics": [
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-gao-huajian",
+      "name": "Prof. GAO Huajian",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 机械工程讲座教授",
+      "identityNote": "院系列为近年访问学者 · 机械工程讲座教授。",
+      "summary": "研究固体力学、纳米力学和生物力学。",
+      "researchKeywords": [
+        "固体力学",
+        "纳米力学",
+        "生物力学"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-lau-kenneth-ka-shun",
+      "name": "Prof. LAU Kenneth Ka Shun",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 访问教授",
+      "identityNote": "院系列为近年访问学者 · 访问教授。",
+      "summary": "研究聚合物薄膜与器件、能量捕集与储存、纳米材料、表面界面工程和化学气相沉积。",
+      "researchKeywords": [
+        "聚合物薄膜",
+        "纳米材料",
+        "表面界面工程",
+        "化学气相沉积"
+      ],
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-sylvie-lorente",
+      "name": "Prof. Sylvie LORENTE",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 工程访问讲座教授",
+      "identityNote": "院系列为近年访问学者 · 工程访问讲座教授。",
+      "summary": "研究带输运网络的材料、构形理论、流体力学、多孔介质和传热传质。",
+      "researchKeywords": [
+        "构形理论",
+        "流体力学",
+        "多孔介质",
+        "传热传质"
+      ],
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-xu-qiang",
+      "name": "Prof. XU Qiang",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 材料科学与工程杰出名誉教授",
+      "identityNote": "院系列为近年访问学者 · 材料科学与工程杰出名誉教授。",
+      "summary": "研究材料化学、储能与转换、多孔材料、催化、电池、超级电容器和储氢。",
+      "researchKeywords": [
+        "多孔材料",
+        "催化",
+        "超级电容器",
+        "储氢"
+      ],
+      "topics": [
+        "材料与能源",
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "polyu-me-zhang-tong-yi",
+      "name": "Prof. ZHANG Tong-Yi 張統一",
+      "universityId": "polyu",
+      "department": "机械工程系",
+      "profileUrl": null,
+      "directoryRole": "近年访问学者 · 机械工程讲座教授",
+      "identityNote": "院系列为近年访问学者 · 机械工程讲座教授。",
+      "summary": "研究材料科学与工程以及固体力学。",
+      "researchKeywords": [
+        "材料科学与工程",
+        "固体力学"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "keywordSourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "directorySourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "researchBasis": "named_directory_research",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "polyu-me-9af1e7550452aff2-20261107"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
     }
   ],
   "sources": [
@@ -168025,6 +170868,1337 @@ window.APP_CATALOG = {
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "58133b24032c958460db6bb9d73062fe086c0699a42002d5c1ff6fcae5411be3"
+    },
+    {
+      "id": "polyu-me-04a32fa62f45e165-20261107",
+      "title": "Prof. SU Zhongqing 蘇眾慶 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c1ab1a16e1e3247b0e47d447abe3ced0c243d2846fa4ab501f6ae90a505c62fc",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究超声、波传播与结构健康监测，关注传感器、无损检测、智能材料和先进复合材料。",
+        "Head and Chair Professor of Intelligent Structures and Systems"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/zhongqing-su",
+        "https://www.polyu.edu.hk/researchgrp/shm/",
+        "http://orcid.org/0000-0003-1524-0026",
+        "https://www.scopus.com/authid/detail.uri?authorId=57217497997"
+      ]
+    },
+    {
+      "id": "polyu-me-db21dc2ed6769a39-20261107",
+      "title": "Prof. TANG Hui 唐輝 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4a5413a069c2d0fffb69e2b049aae90a0b1ef0afb4e3e1aada4d2f07ab232f4c",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究空气与水动力学、主动流动控制、流固耦合和多相流。",
+        "Associate Head (Research) and Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/hui-tang",
+        "http://orcid.org/0000-0002-6774-507X",
+        "https://www.scopus.com/authid/detail.uri?authorId=57216712371",
+        "https://scholar.google.com.hk/citations?user=QCzhNNgAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-9ab0b62c555c062e-20261107",
+      "title": "Prof. RUAN Haihui 阮海輝 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ec481e0eb03a98ec48b18264f89850a3fcb525a0040d5c5c95152d79a7ea86a7",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究固体力学、塑性与本构建模，关注非晶和纳米材料以及冲击、碰撞和耐撞性。",
+        "Associate Head (Teaching & Learning) and Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/haihui-ruan",
+        "https://hhlab.weebly.com/",
+        "http://orcid.org/0000-0002-9233-8820",
+        "https://www.scopus.com/authid/detail.uri?authorId=7103113458"
+      ]
+    },
+    {
+      "id": "polyu-me-e2fb19a58a19a920-20261107",
+      "title": "Prof. CHAO Yu Hang, Christopher 趙汝恒 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7f1281533a071c66d0e073c706cc27fbb9744e104a8e67b895386d65d72d96e0",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究室内气溶胶与污染物传输、太阳能及余热制冷、辐射冷却、纳米流体传热和燃烧。",
+        "Senior Vice President (Research and Innovation), Chair Professor of Thermal and Environmental Engineering"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/yu-hang-christopher-chao",
+        "http://orcid.org/0000-0002-2974-0403",
+        "https://www.scopus.com/authid/detail.uri?authorId=7403320307"
+      ]
+    },
+    {
+      "id": "polyu-me-d5a03004a9da9a5f-20261107",
+      "title": "Prof. CHENG Li 成利 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5c226161c19104b40d8afd952da968c64caf6bfbf84b3a4330c9360f27ab32ac",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究噪声与振动控制、流固耦合、损伤检测及智能材料和结构。",
+        "Chair Professor of Mechanical Engineering"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/li-cheng",
+        "http://orcid.org/0000-0001-6110-8099",
+        "https://www.scopus.com/authid/detail.uri?authorId=7403337597"
+      ]
+    },
+    {
+      "id": "polyu-me-1847ad12ba0fa345-20261107",
+      "title": "Prof. FU Mingwang 傅銘旺 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "70ad0088951a632baadabe59b969578d7453b1fb0f528a5d1b308887eddea241",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究产品设计、数值建模、制造与金属成形，以及微尺度力学、损伤和断裂。",
+        "Associate Director of Research Institute for Advanced Manufacturing, Chair Professor of Advanced Manufacturing"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/mingwang-fu",
+        "http://orcid.org/0000-0002-0409-9701",
+        "https://www.scopus.com/authid/detail.uri?authorId=36955267100"
+      ]
+    },
+    {
+      "id": "polyu-me-2ce890021da3bfe7-20261107",
+      "title": "Prof.  WANG Liqiu 王立秋 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "26d8262e18652a41114b781fee7268915134a34025e1331d5cc9fac45a92143b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究仿生与微流控工程、柔软与智能制造、软材料以及热流体和能源。",
+        "Director of PolyU-Zibo Technology and Innovation Research Institute, Otto Poon Charitable Foundation Professor in Smart and Sustainable Energy, Chair Professor of Thermal-Fluid and Energy Engineering"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/liqiu-wang-2",
+        "http://orcid.org/0000-0002-6514-4211",
+        "https://www.scopus.com/authid/detail.uri?authorId=35235288500",
+        "https://scholar.google.com.hk/citations?user=uDnn9zEAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "polyu-me-efa8c9fba0340139-20261107",
+      "title": "Prof. WANG Quan 王泉 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bda7c2bca9cb8380da942de3a8089a981566b6622782e111ec116fc5e803dd0d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究工程结构、能量采集、结构健康监测、智能材料和纳米技术。",
+        "Chair Professor of Energy Harvesting and Engineering Structures"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/quan-wang/",
+        "http://orcid.org/0000-0002-9808-5035",
+        "https://www.scopus.com/authid/detail.uri?authorId=55893067400",
+        "https://scholar.google.com.hk/citations?user=MSHB3NAAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-b49c8763fc2e3851-20261107",
+      "title": "Prof. WANG Zuankai 王鑽開 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6099d20b116020a2f16e4115f71c9934c7cac6d625b86e5a2c4ab4933f654b9b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究仿生表面与材料、增材制造、能量采集、流体力学、软物质及界面。",
+        "Associate Vice President (Research), Dean of Graduate School, Kuok Group Professor in Nature-Inspired Engineering, Chair Professor of Nature-Inspired Engineering"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/zuankai-wang",
+        "https://wangzuankai.wixsite.com/wanglab",
+        "http://orcid.org/0000-0002-3510-1122",
+        "https://www.scopus.com/authid/detail.uri?authorId=15027868200"
+      ]
+    },
+    {
+      "id": "polyu-me-1ce77a6945a43a20-20261107",
+      "title": "Prof. XU Zhenghe 徐政和 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1ea06820f3d967a0da69753fda204ad9a5ff47af69aa7cde71bf3ee1c69c2094",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究界面科学与工程、矿物加工与物理分离，关注功能材料、可再生能源和材料回收。",
+        "Chair Professor of Interfacial Sciences and Engineering of Materials"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/zhenghe-xu/",
+        "http://orcid.org/0000-0001-8118-1920",
+        "https://www.scopus.com/authid/detail.uri?authorId=57221182460",
+        "https://scholar.google.com.hk/citations?user=imtJ_IEAAAAJ&hl"
+      ]
+    },
+    {
+      "id": "polyu-me-abde58966061b239-20261107",
+      "title": "Prof. ZHANG Dan 張丹 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1d720f8c475f6a113c50e5add9c0f86a41f78a72d213f1efa7ee01878afa1771",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究机器人机构设计与优化、可重构机器人、微纳操作及康复机器人，也关注空中、水下和人形机器人。",
+        "Director of PolyU-Nanjing Technology and Innovation Research Institute, Chair Professor of Intelligent Robotics and Automation"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/dan-zhang",
+        "http://orcid.org/0000-0002-7295-4837",
+        "https://www.scopus.com/authid/detail.uri?authorId=58846287300",
+        "https://scholar.google.com.hk/citations?user=hgXRiG8AAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "polyu-me-1a3d7ab573b0d582-20261107",
+      "title": "Prof. AN Liang 安亮 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "80feaa9a4be7217a18be3d149187f2c73cca7afeea77b99a7dd888d22fd427c5",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究热流体、能量转换与储存技术以及先进材料。",
+        "Associate Dean (Global Engagement) of Faculty of Engineering, Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/liang-an ",
+        "http://orcid.org/0000-0002-8742-576X",
+        "https://www.scopus.com/authid/detail.uri?authorId=35797956800"
+      ]
+    },
+    {
+      "id": "polyu-me-00595af67885d107-20261107",
+      "title": "Prof. YU Hongyu 于宏宇 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b6fa2acaa8932676ef8b8a56cb75504639205849dbf7a4f8ef1cb7e9b3941b0b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究空间探索、微机电系统、机器人、传感器和感知系统。",
+        "Executive Director of PolyU Aerospace Research Academy, Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/hongyu-yu",
+        "http://orcid.org/0000-0002-6899-9346",
+        "https://www.scopus.com/authid/detail.uri?authorId=8982289700",
+        "https://scholar.google.com.hk/citations?user=hKhP06sAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-2868ea0dd38152ba-20261107",
+      "title": "Prof. ZHENG Guangping 鄭廣平 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0be831a8abf8a745cc23d0c8eda5030444d1eb8ab2ce415b6e745fb07c4b8e7c",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究计算材料科学、纳米材料的力学性能，以及纳米材料在能量转换与储存中的应用。",
+        "Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/guangping-zheng",
+        "http://orcid.org/0000-0003-3445-0547",
+        "https://www.scopus.com/authid/detail.uri?authorId=13309928700"
+      ]
+    },
+    {
+      "id": "polyu-me-5b41c91b758eaa29-20261107",
+      "title": "Prof. CHOY Yat Sze 蔡逸思 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4280fcc68cef7d83bf9f0a3e5f044b380bdad9e00690e4cdd7021f3f89b0f75d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究声致振动、管道及环境噪声控制、建筑与室内声学，以及声源识别和产品音质。",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/yat-sze-choy",
+        "http://orcid.org/0000-0003-3623-1639",
+        "https://www.scopus.com/authid/detail.uri?authorId=7004920275"
+      ]
+    },
+    {
+      "id": "polyu-me-7ecfcf5ea261ae4e-20261107",
+      "title": "Prof. JIAO Zengbao 焦增寶 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "32900b54180de88a04e24431c92d390394918efeae618304ca58e73dfb050e37",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究先进结构材料、高强钢与合金、高温合金、纳米结构金属和材料加工。",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/zengbao-jiao",
+        "http://www.zbjiao.hk/",
+        "http://orcid.org/0000-0002-0556-6869",
+        "https://www.scopus.com/authid/detail.uri?authorId=26648307100"
+      ]
+    },
+    {
+      "id": "polyu-me-7490c1841c8f7380-20261107",
+      "title": "Prof. LEUNG Chi Kin, Randolph 梁志堅 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "17c1f6ee2b22c4e3181d407e7dddcbb3a274fe623f8ba500c4fb4125940ec728",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究计算气动声学、风机空气动力学、流致声与结构振动，以及压缩机和系统设计。",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/chi-kin-randolph-leung",
+        "http://orcid.org/0000-0002-4316-2590",
+        "https://www.scopus.com/authid/detail.uri?authorId=55485123900"
+      ]
+    },
+    {
+      "id": "polyu-me-88a21389f26cb205-20261107",
+      "title": "Prof. LI Mengying 李夢穎 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "67a342e4d444d03169bd3e09564e3fc9f3a956d169abb003832f4013b8044540",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究能源气象与太阳能预测，将物理模型和机器学习用于太阳能系统、制冷、制氢和海水淡化。",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/mengying-li",
+        "http://www.li-realab.info/",
+        "http://orcid.org/0000-0003-1651-4324",
+        "https://www.scopus.com/authid/detail.uri?authorId=56518435200"
+      ]
+    },
+    {
+      "id": "polyu-me-293a7abe70b485fb-20261107",
+      "title": "Prof. ZHANG Xiao 張曉 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c0273159c65638106add772ed4fa67b1218feffbfdd94a74d5c3e91be41c0eb6",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究电催化、碳捕集与转化、电化学反应器、膜电极组件和二维纳米材料。",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/xiao-zhang",
+        "http://orcid.org/0000-0002-4780-2161",
+        "https://www.scopus.com/authid/detail.uri?authorId=57352608200"
+      ]
+    },
+    {
+      "id": "polyu-me-ce07722e012daf17-20261107",
+      "title": "Prof. CHENG Song 成松 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "17b1e1dbda52c90402c66c7ca2a960d31416613918f2015a4d9236c13c680f9f",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究气相反应动力学、真实流体及低碳氧化化学，结合不确定性量化、优化和机器学习。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/song-cheng",
+        "http://uhpc-lab.org/",
+        "http://orcid.org/0000-0001-6494-8659",
+        "https://www.scopus.com/authid/detail.uri?authorId=57191472281",
+        "https://scholar.google.com.hk/citations?user=2D87jpMAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-ce3909211311e8b8-20261107",
+      "title": "Prof. DU Huifeng 杜匯豐 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3554a213a415b1cbf9f86993350f08f5b112c7fd7cdad073ebb932bdc7c2a242",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究固体力学、表面工程、数值模拟、增材制造和结构化材料，也关注室内空气质量与污染物传输。",
+        "Assistant Professor, Presidential Young Scholar"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/huifeng-du",
+        "https://huifengdu.github.io/",
+        "http://orcid.org/0000-0001-6281-4120",
+        "https://www.scopus.com/authid/detail.uri?authorId=57200242614",
+        "https://scholar.google.com.hk/citations?user=y4qcbrcAAAAJ&hl"
+      ]
+    },
+    {
+      "id": "polyu-me-b9ac976f5b051046-20261107",
+      "title": "Prof. LI Tianyi 李天一 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "26175c42efc40559b449cf35e8a1817ed0f9086567f2955d221e33f0a01a3c20",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究湍流、流体力学中的人工智能、计算流体力学和地球物理流体力学。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/tianyi-li/",
+        "https://tianyili-92.github.io/",
+        "http://orcid.org/0000-0002-1057-8565",
+        "https://scholar.google.com.hk/citations?user=nDmMAe0AAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-a0b96b6cde97b4f0-20261107",
+      "title": "Prof. MA Yuan 馬源 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "519f68f62e577f36dba94faacf9fc4572f0a2e063f5587b88839b606dc4f3284",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究触觉、人机机械界面、可穿戴电子的传感与驱动、摩擦学和多物理建模。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/yuan-ma",
+        "https://ihmmi.com/",
+        "http://orcid.org/0000-0002-4794-5496",
+        "https://www.scopus.com/authid/detail.uri?authorId=57215733684"
+      ]
+    },
+    {
+      "id": "polyu-me-400450a8523e0281-20261107",
+      "title": "Prof. WU Maochun 巫茂春 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9d7a071883ef82cebfbbd3a9ef38e1a38d51448753d727c8b18b8233325c3941",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究电化学储能与转换、先进电池材料，以及热量和质量传递。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/maochun-wu",
+        "https://www.x-mol.com/groups/wu_maochun",
+        "http://orcid.org/0000-0002-8255-7827",
+        "https://www.scopus.com/authid/detail.uri?authorId=56402135200",
+        "https://scholar.google.com.hk/citations?user=BAzvdEoAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-11079cf83974f4c3-20261107",
+      "title": "Prof. XU Shengduo 許聲多 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ddcf577df9f20540c6609d378a0545fbc0a222098222cd109b0fdb5acdd672fa",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究热电材料及器件，以及多模态可穿戴智能传感器。",
+        "Assistant Professor, Presidential Young Scholar"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/shengduo-xu/",
+        "https://www.xu-lacts.com/",
+        "http://orcid.org/0000-0002-6029-0797",
+        "https://www.scopus.com/authid/detail.uri?authorId=57205505468"
+      ]
+    },
+    {
+      "id": "polyu-me-79e1cd37b7489e74-20261107",
+      "title": "Prof. YU Xiang 余翔 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0678a2ee92ce2d3d2cc028870463f829571946b8f946e535213979979528f711",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究振动声学、声学超材料、噪声与振动控制，兼顾功能材料、听觉感知和主动降噪。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/xiang-yu-2",
+        "https://sites.google.com/view/acousticlab",
+        "http://orcid.org/0000-0002-9514-9515",
+        "https://www.scopus.com/authid/detail.uri?authorId=56088714900",
+        "https://scholar.google.com.hk/citations?user=tBDygVgAAAAJ&hl"
+      ]
+    },
+    {
+      "id": "polyu-me-b65700f96a88b001-20261107",
+      "title": "Prof. ZHANG Baoping 張寶萍 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bada2bf6884e67c3be389ab671ab2d8c61a7fe98b4d8d316dcf8f0e6b9551244",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究仿生材料与界面、膜材料、集水与太阳能海水淡化、储能及界面流体力学。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/baoping-zhang/",
+        "http://orcid.org/0000-0002-8101-7538",
+        "https://www.scopus.com/authid/detail.uri?authorId=57208217981",
+        "https://scholar.google.com.hk/citations?user=FbqCeAQAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "polyu-me-e6003b8972912f9e-20261107",
+      "title": "Prof. ZHANG Yiyuan 張藝媛 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7c0641a5b4a221f6ec92cfb0e0e1647a8f880e50aaeeef44ffbac21a187e7b44",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究流体结构化、柔软与智能制造、增材制造、微流控、柔性电子和非线性优化。",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/yiyuan-zhang",
+        "http://orcid.org/0000-0003-1968-3836",
+        "https://www.scopus.com/authid/detail.uri?authorId=58747372200",
+        "https://scholar.google.com.hk/citations?user=BUKVmcsAAAAJ&hl=zh-CN"
+      ]
+    },
+    {
+      "id": "polyu-me-1f8311e6028e92fd-20261107",
+      "title": "Dr FU Yiqiang 符毅强 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dedab838275ca5a25149b9f17303535434277de7e38c440b98382486e3fbe88c",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究振动能量采集、波浪能转换、软体机器人、非线性及摩擦诱发振动。",
+        "Research Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/yiqiang-fu",
+        "http://orcid.org/0000-0003-3775-1660",
+        "https://www.scopus.com/authid/detail.uri?authorId=57201091957"
+      ]
+    },
+    {
+      "id": "polyu-me-3347d5be91e2ba3b-20261107",
+      "title": "Dr WANG Lin 王林 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "695286351a33a288b0beadd05cf1dab45484f21911284eec9dfb60ce68e49b75",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究广义与可重构并联机构、空中机器人、灵巧手、康复与可穿戴机器人及多机器人系统。",
+        "Research Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/lin-wang/",
+        "http://orcid.org/0009-0006-9507-3756",
+        "https://www.scopus.com/authid/detail.uri?authorId=57211490546"
+      ]
+    },
+    {
+      "id": "polyu-me-4d74c51b67002cc6-20261107",
+      "title": "Dr YANG Lei 楊磊 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b890b14776ac1d8c2ac8b2969b2ae45cf8591ae20861a67303c46723f7fd0d7e",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究材料力学、冲击动力学、本构建模和行星防御。",
+        "Research Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://research.polyu.edu.hk/en/persons/lei-yang-3/",
+        "https://www.scopus.com/authid/detail.uri?authorId=57203976033",
+        "https://scholar.google.com.hk/citations?user=2YNd78oAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-88b8e1ece62faa00-20261107",
+      "title": "Dr TAM Wai Yin, Eunice 譚慧賢 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "56c3a278e490a5fd853018cc3c6fd03359fbff833127ec5b06c026f65f9a85e2",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "专长包括复合材料应用与制造，以及碳纳米管和聚合物纳米复合材料结构。",
+        "Senior Lecturer"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "http://orcid.org/0000-0002-5239-9928",
+        "https://www.scopus.com/authid/detail.uri?authorId=36961688600"
+      ]
+    },
+    {
+      "id": "polyu-me-7a5647a4371fd9df-20261107",
+      "title": "Ir TANG Wai Fong, Elsa 鄧慧芳 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "91c004578a8e72e59efb4c058bfceedbb134b000db5e456dc173f1ec6120e38e",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "专长包括计算机辅助设计与工程、产品设计管理、科学计算和供应链管理。",
+        "Senior Instructor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/"
+      ]
+    },
+    {
+      "id": "polyu-me-464c02119ed193fb-20261107",
+      "title": "Dr TONG Yu Chee 唐宇池 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "184adb05a4b044810e160c3ff1f6768744ec86ce1799dba725d2504bfd5a43ac",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "专长包括微型电动出行设计、嵌入式系统、控制理论、航空系统和结构可靠性。",
+        "Teaching Fellow"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/"
+      ]
+    },
+    {
+      "id": "polyu-me-194b9e4baadd74a0-20261107",
+      "title": "Dr XU Nan, Nathan 徐楠 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "679e41c5bca8c7689cbdf55258f3bbed0dee7a0c85b924e19a0d671fb9bc6c1b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "专长包括物联网、电源管理集成电路、嵌入式系统、机器人和设计思维。",
+        "Teaching Fellow"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.linkedin.com/in/nathan-tsui/",
+        "http://orcid.org/0000-0001-6543-9055",
+        "https://scholar.google.com.hk/citations?user=h_RJx4AAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-a2b50f4a9a8cc600-20261107",
+      "title": "Dr HUO Xiaoyu 霍小雨 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5567a89a94ba581a62fe1c65206c7dc22e363d5f5c46009a8c789d21f6ed554d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "专长包括能量转换与储存、电化学系统、液流电池和燃料电池。",
+        "Instructor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://scholar.google.com.hk/citations?user=OuQl0eoAAAAJ"
+      ]
+    },
+    {
+      "id": "polyu-me-359f4ff1a9706d15-20261107",
+      "title": "Academic Advisor & Advisory Committee | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/academic-advisor-and-advisory-committee/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-advisor-and-advisory-committee/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-advisor-and-advisory-committee/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ae1fd9ba064c02991419428861e9ccd05c38424b1d435327e49fcbe28f4b885a",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "页面分开学术顾问的任期和咨询委员会成员，包含校外、校内与学生角色。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/"
+      ]
+    },
+    {
+      "id": "polyu-me-9af1e7550452aff2-20261107",
+      "title": "Emeritus Professor, Visiting & Adjunct Staff | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "46351c90a37eec73a19815eed5168a128ea91c0d138d404c9d179d3f1e8456f7",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "名单将荣休、兼任与近年访问学者分列。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/#skip-start",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/"
+      ]
+    },
+    {
+      "id": "polyu-me-11b8745eee02a5ef-20261107",
+      "title": "Su Research Group",
+      "url": "https://www.polyu.edu.hk/researchgrp/shm/",
+      "originalUrl": "https://www.polyu.edu.hk/researchgrp/shm/",
+      "retrievedUrl": "https://www.polyu.edu.hk/researchgrp/shm/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "64329aebdb268e165b9b6078556267f18adcc7ea76e648b56aa42cceda2905d8",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/researchgrp/shm/index.html#content5-a",
+        "http://www.springer.com/engineering/book/978-1-84882-783-7",
+        "https://www.morebooks.de/store/gb/book/elastic-wave-based-damage-detection-using-active-sensor-network/isbn/978-3-639-04567-3",
+        "http://scholar.google.com.hk/citations?user=k_a3FB0AAAAJ&hl=en",
+        "https://www.youtube.com/channel/UCANVp-KGXweQMZwiylxRI1g"
+      ],
+      "parentSourceId": "polyu-me-04a32fa62f45e165-20261107"
+    },
+    {
+      "id": "polyu-me-b9c31f4480ac9cd1-20261107",
+      "title": "HH Lab of Mechanics and Materials - Home",
+      "url": "https://hhlab.weebly.com/",
+      "originalUrl": "https://hhlab.weebly.com/",
+      "retrievedUrl": "https://hhlab.weebly.com/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cbe1b5addc9fb427b9e3c0f646b55a651a58a194e63be8c1ef00fa44652e4578",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://hhlab.weebly.com/research.html",
+        "https://hhlab.weebly.com/people.html",
+        "https://hhlab.weebly.com/contact.html"
+      ],
+      "parentSourceId": "polyu-me-9ab0b62c555c062e-20261107"
+    },
+    {
+      "id": "polyu-me-44be5a03a829cfc6-20261107",
+      "title": "Zuankai Wang's Group",
+      "url": "https://www.nature-polyinspiration.com/",
+      "originalUrl": "https://wangzuankai.wixsite.com/wanglab",
+      "retrievedUrl": "https://www.nature-polyinspiration.com/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "056a3eeb4065487f750287eb230511544e030852e411ccb6d6c66ef2b3ee2804",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "polyu-me-b49c8763fc2e3851-20261107"
+    },
+    {
+      "id": "polyu-me-c258d102afa675c3-20261107",
+      "title": "Advanced Structural Materials Group at PolyU",
+      "url": "http://www.zbjiao.hk/",
+      "originalUrl": "http://www.zbjiao.hk/",
+      "retrievedUrl": "http://www.zbjiao.hk/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "057f4faa26df8312f3991f974ed73536b4911fbaaadd30876244d15633c56d82",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.zbjiao.hk/research.html",
+        "http://www.zbjiao.hk/people.html",
+        "http://www.zbjiao.hk/openings.html"
+      ],
+      "parentSourceId": "polyu-me-7ecfcf5ea261ae4e-20261107",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "polyu-me-87361ca29196e496-20261107",
+      "title": "Renewable Energy Advancement Lab",
+      "url": "https://www.li-realab.info/",
+      "originalUrl": "http://www.li-realab.info/",
+      "retrievedUrl": "https://www.li-realab.info/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "30d568847c24bbd105e5ee8e6093c3a2464df0a5a2d3aa29bd3237a645936142",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.li-realab.info/publication/pv-environment/xin-2027-pv-cle/",
+        "https://www.li-realab.info/post/2026.05-yinghao-rgc-fellow/",
+        "https://www.li-realab.info/post/2025.12-50th-paper/",
+        "https://www.li-realab.info/post/2025.11-xinran-xin-me-contest/",
+        "https://www.li-realab.info/post/2025.02-rise-project/",
+        "https://www.li-realab.info/post/2024.11-yuying-me-competition/",
+        "https://www.li-realab.info/post/2024.08-zhaojian-prsc/",
+        "https://www.li-realab.info/post/2024.05-nc-paper/",
+        "https://www.li-realab.info/post/2023.11-nan-me-competition/",
+        "https://www.li-realab.info/post/2023.03-zhaojian-me-competition/",
+        "https://www.li-realab.info/post/2023.01-ycrf-project/",
+        "https://www.li-realab.info/post/2022-ecs-project/",
+        "https://www.li-realab.info/post/2022.01-shanlin-me-competition/"
+      ],
+      "parentSourceId": "polyu-me-88a21389f26cb205-20261107"
+    },
+    {
+      "id": "polyu-me-4ea7abd13a7dfd87-20261107",
+      "title": "UHPC Lab – UHPC Lab",
+      "url": "http://uhpc-lab.org/",
+      "originalUrl": "http://uhpc-lab.org/",
+      "retrievedUrl": "http://uhpc-lab.org/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1212f25fc914f345fe25b39d7bbe2971310c3b12ce65b07a27fa1f3506e582a0",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://uhpc-lab.org/openings/"
+      ],
+      "parentSourceId": "polyu-me-ce07722e012daf17-20261107",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "polyu-me-a3ba3e05a285360b-20261107",
+      "title": " Huifeng Du ",
+      "url": "https://huifengdu.github.io/",
+      "originalUrl": "https://huifengdu.github.io/",
+      "retrievedUrl": "https://huifengdu.github.io/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fb5429be744f5ea6bf614140a21f1eaed526cdf431ce27388200803c7b011664",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "polyu-me-ce3909211311e8b8-20261107"
+    },
+    {
+      "id": "polyu-me-83b39f2fe0953aba-20261107",
+      "title": " Tianyi Li ",
+      "url": "https://tianyili-92.github.io/",
+      "originalUrl": "https://tianyili-92.github.io/",
+      "retrievedUrl": "https://tianyili-92.github.io/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1e5d6163912fe12b5bb848a4e31a9d04f3d4c368797a1016451113a6adbcba53",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "polyu-me-b9ac976f5b051046-20261107"
+    },
+    {
+      "id": "polyu-me-4f83fca09ae8b0a4-20261107",
+      "title": "IHMMI",
+      "url": "https://ihmmi.com/",
+      "originalUrl": "https://ihmmi.com/",
+      "retrievedUrl": "https://ihmmi.com/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dffb6401132e6bdbf8fd1fbfb8eb8d74990ed4beb09418fb406a3c15b0b2f5df",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://ihmmi.com/en/Research",
+        "https://ihmmi.com/en/Opening",
+        "https://ihmmi.com/en/Contact"
+      ],
+      "parentSourceId": "polyu-me-a0b96b6cde97b4f0-20261107"
+    },
+    {
+      "id": "polyu-me-fdb77176a55b6548-20261107",
+      "title": "\r\n香港理工大学电化学储能课题组\r\n",
+      "url": "https://www.x-mol.com/groups/wu_maochun",
+      "originalUrl": "https://www.x-mol.com/groups/wu_maochun",
+      "retrievedUrl": "https://www.x-mol.com/groups/wu_maochun",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9890c813ba1f253710f5d6a538b28bfde01ab02ff0b3cfadc416e2b48c286228",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.x-mol.com/groups/wu_maochun/news/129556",
+        "https://www.x-mol.com/groups/wu_maochun/news/121731"
+      ],
+      "parentSourceId": "polyu-me-400450a8523e0281-20261107"
+    },
+    {
+      "id": "polyu-me-b9cbad0671d951df-20261107",
+      "title": "Dr. Yu Xiang's lab",
+      "url": "https://sites.google.com/view/acousticlab",
+      "originalUrl": "https://sites.google.com/view/acousticlab",
+      "retrievedUrl": "https://sites.google.com/view/acousticlab",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5234797afc02b6ab049f8300493971f07cfb9b2043a7b433bbe91684231126f0",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "官网所链接的个人或研究组主页，已读取研究或任职介绍。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/acousticlab/research-interests"
+      ],
+      "parentSourceId": "polyu-me-79e1cd37b7489e74-20261107"
+    },
+    {
+      "id": "polyu-me-1538fcc684f780c2-20261107",
+      "title": "SO, Ronald Ming Cho 蘇銘祖 (Prof.) | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7a6ba9572896355103a1e8ddc812a941b1e0c509e73dc55a43578f14afa04a4a",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究湍流建模、流固耦合、流致振动和气动声学模拟。",
+        "荣休教授"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/#skip-start",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+        "https://www.polyu.edu.hk/en/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/so-ronald-ming-cho-prof-my-journey"
+      ]
+    },
+    {
+      "id": "polyu-me-7cf2be897e2da2f3-20261107",
+      "title": "Prof. TONG Timothy W. 唐偉章 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "551f97b3f70eb6c391ce325679b0ff2eadd77f3effe51f22622952211db80a0b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究辐射传热计算、多孔介质传热、节能、隔热系统和航天热控制。",
+        "荣休教授"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/#skip-start",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/"
+      ]
+    },
+    {
+      "id": "polyu-me-20a6a394fd37667a-20261107",
+      "title": "Prof. CHEN Guohua 陳國華 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2061e2d0692081381c0aaa058250bdc3b7f15c18306debe563e6d635cc12e26d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究储能电极材料、能源与环境电化学技术，以及高价值产品干燥。",
+        "兼任教授"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/#skip-start",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+        "http://orcid.org/0000-0001-8912-543X",
+        "https://www.scopus.com/authid/detail.uri?authorId=57109501100"
+      ]
+    },
+    {
+      "id": "polyu-me-194d0d2c09a96e3d-20261107",
+      "title": "Prof. POON Chi Kin, Lawrence 潘志健 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c6a8cf73e7a89dfe807dc027c8cfecc05b61ff30ca14fba9367ec1cdfcc6887b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "研究新能源汽车、自动驾驶技术、智慧出行与车联网，也涉及机器人和汽车碰撞分析。",
+        "兼任教授"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/#skip-start",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/"
+      ]
+    },
+    {
+      "id": "polyu-me-11482d64bb378b8b-20261107",
+      "title": "Prof. SZE Wai Pan, Banting 施偉斌 | Department of Mechanical Engineering",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b647fb3fe671ce41c595f9eeb25ec98729c32564614baee69b1c9e0045bdd07c",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的研究、任职或人员分类。",
+      "claims": [
+        "专长为创业、工程创新和机械工程。",
+        "兼任教授"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/#skip-start",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+        "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/"
+      ]
+    },
+    {
+      "id": "polyu-me-rpg-overview-20261107",
+      "title": "机械工程系 · 研究型硕博与潜在导师方向",
+      "url": "https://www.polyu.edu.hk/me/study/research-postgraduate-programme/mphil-phd-in-mechanical-engineering/",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系研究学位介绍",
+      "claims": [
+        "按研究方向查看潜在导师；申请前建议联系意向导师。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f4d6bdfb60d41ad4da6a97d22a96256c16f0c93e71e27088b3ce61532db8e183"
+    },
+    {
+      "id": "polyu-me-sept-2027-20261107",
+      "title": "机械工程研究学位 · 2027 年 9 月入学",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/me",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月 MPhil / PhD，全日制与兼读。",
+      "claims": [
+        "按研究方向查看潜在导师；申请前建议联系意向导师。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "152c925cc9087a544f3c4a0171acebbfd54266f6309b5406925a481db04f99fd"
+    },
+    {
+      "id": "polyu-me-directory-saved-20261026",
+      "title": "机械工程系 · 已保存的学术与教学人员名单",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+      "originalUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+      "retrievedUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+      "checkedAt": "2026-10-26",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "584c30dc706e7c5a73de84cbde095e6200a1944533f6dc92ece4634cf8e4dd4d",
+      "evidenceLevel": "official_directory_body_read",
+      "scope": "复用 2026-10-26 实读名录及已保存的链接，不代表重新核查当日名单。",
+      "claims": [
+        "此份已保存名单给出 40 个学术与教学人员主页链接。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/mai-yiu-wing-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/chu-kar-hang-henry-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+        "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/"
+      ],
+      "reusedFromSourceId": "entry-read-staff-route-4ecaea5b32e31116"
     }
   ],
   "funding": [
@@ -180630,6 +184804,481 @@ window.APP_CATALOG = {
       "observedNamedCards": 8,
       "enumerationScope": "saved_body_cards_only",
       "identityNotes": []
+    },
+    {
+      "id": "polyu-me-academic-census",
+      "universityId": "polyu",
+      "unit": "机械工程系 · 学术与教学人员",
+      "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+      "sourceIds": [
+        "polyu-me-directory-saved-20261026"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "已保存的名单列 40 个主页：35 位学术及研究助理教授、5 位教学人员。可展开逐人查看；个人来源保留各自核查日期。",
+      "census": {
+        "observedTotal": 40,
+        "profilesRead": 40,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "Prof. SU Zhongqing 蘇眾慶",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+            "directoryPosition": "Head and Chair Professor of Intelligent Structures and Systems",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. TANG Hui 唐輝",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+            "directoryPosition": "Associate Head (Research) and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. RUAN Haihui 阮海輝",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+            "directoryPosition": "Associate Head (Teaching & Learning) and Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. CHAO Yu Hang, Christopher 趙汝恒",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+            "directoryPosition": "Senior Vice President (Research and Innovation), Chair Professor of Thermal and Environmental Engineering",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. CHENG Li 成利",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+            "directoryPosition": "Chair Professor of Mechanical Engineering",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. FU Mingwang 傅銘旺",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+            "directoryPosition": "Associate Director of Research Institute for Advanced Manufacturing, Chair Professor of Advanced Manufacturing",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof.  WANG Liqiu 王立秋",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+            "directoryPosition": "Director of PolyU-Zibo Technology and Innovation Research Institute, Otto Poon Charitable Foundation Professor in Smart and Sustainable Energy, Chair Professor of Thermal-Fluid and Energy Engineering",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. WANG Quan 王泉",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+            "directoryPosition": "Chair Professor of Energy Harvesting and Engineering Structures",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. WANG Zuankai 王鑽開",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+            "directoryPosition": "Associate Vice President (Research), Dean of Graduate School, Kuok Group Professor in Nature-Inspired Engineering, Chair Professor of Nature-Inspired Engineering",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. XU Zhenghe 徐政和",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+            "directoryPosition": "Chair Professor of Interfacial Sciences and Engineering of Materials",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. ZHANG Dan 張丹",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+            "directoryPosition": "Director of PolyU-Nanjing Technology and Innovation Research Institute, Chair Professor of Intelligent Robotics and Automation",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. AN Liang 安亮",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+            "directoryPosition": "Associate Dean (Global Engagement) of Faculty of Engineering, Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. YU Hongyu 于宏宇",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+            "directoryPosition": "Executive Director of PolyU Aerospace Research Academy, Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. ZHENG Guangping 鄭廣平",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. CHOY Yat Sze 蔡逸思",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. JIAO Zengbao 焦增寶",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. LEUNG Chi Kin, Randolph 梁志堅",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. LI Mengying 李夢穎",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. ZHANG Xiao 張曉",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. CHENG Song 成松",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. DU Huifeng 杜匯豐",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+            "directoryPosition": "Assistant Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. LI Tianyi 李天一",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. MA Yuan 馬源",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. WU Maochun 巫茂春",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. XU Shengduo 許聲多",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+            "directoryPosition": "Assistant Professor, Presidential Young Scholar",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. YU Xiang 余翔",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. ZHANG Baoping 張寶萍",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Prof. ZHANG Yiyuan 張藝媛",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr FU Yiqiang 符毅强",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr WANG Lin 王林",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr YANG Lei 楊磊",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr TAM Wai Yin, Eunice 譚慧賢",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+            "directoryPosition": "Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Ir TANG Wai Fong, Elsa 鄧慧芳",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+            "directoryPosition": "Senior Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr TONG Yu Chee 唐宇池",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+            "directoryPosition": "Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr XU Nan, Nathan 徐楠",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+            "directoryPosition": "Teaching Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Dr HUO Xiaoyu 霍小雨",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/",
+            "directoryPosition": "Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究与任职已分别整理。"
+          },
+          {
+            "name": "Mai, Yiu Wing",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/mai-yiu-wing-prof/",
+            "directoryPosition": "Distinguished Chair Professor of Composites Science and Engineering",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "复用已有个人来源，保留原核查日期。"
+          },
+          {
+            "name": "Henry Kar Hang Chu",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/chu-kar-hang-henry-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "复用已有个人来源，保留原核查日期。"
+          },
+          {
+            "name": "David Navarro",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/david-navarro-alarcon-prof/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "复用已有个人来源，保留原核查日期。"
+          },
+          {
+            "name": "Yifu Tao Ethan",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tao-yifu-ethan-prof/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "复用已有个人来源，保留原核查日期。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-honorary-census",
+      "universityId": "polyu",
+      "unit": "机械工程系 · 荣休、兼任及近年访问学者",
+      "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+      "sourceIds": [
+        "polyu-me-9af1e7550452aff2-20261107"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "本页列 2 位荣休教授、3 位兼任教授和 8 位近年访问学者。后者是访问历史，不能按当前在岗名单使用。",
+      "census": {
+        "observedTotal": 5,
+        "profilesRead": 5,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "Prof. SO, Ronald Ming Cho 蘇銘祖",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+            "directoryPosition": "荣休教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "保留原人员类别。"
+          },
+          {
+            "name": "Prof. TONG Timothy W. 唐偉章",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+            "directoryPosition": "荣休教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "保留原人员类别。"
+          },
+          {
+            "name": "Prof. CHEN Guohua 陳國華",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+            "directoryPosition": "兼任教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "保留原人员类别。"
+          },
+          {
+            "name": "Prof. POON Chi Kin, Lawrence 潘志健",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+            "directoryPosition": "兼任教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "保留原人员类别。"
+          },
+          {
+            "name": "Prof. SZE Wai Pan, Banting 施偉斌",
+            "profileUrl": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/",
+            "directoryPosition": "兼任教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "保留原人员类别。"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Prof. Adrian BEJAN",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 工程科学讲座教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-adrian-bejan",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. CHENG Ping 鄭平",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 机械工程讲座教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-cheng-ping",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. CHEN Zhongwei",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 清洁能源先进材料讲座教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-chen-zhongwei",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. GAO Huajian",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 机械工程讲座教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-gao-huajian",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. LAU Kenneth Ka Shun",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 访问教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-lau-kenneth-ka-shun",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. Sylvie LORENTE",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 工程访问讲座教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-sylvie-lorente",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. XU Qiang",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 材料科学与工程杰出名誉教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-xu-qiang",
+            "researchReviewStatus": "directory_research_reviewed"
+          },
+          {
+            "name": "Prof. ZHANG Tong-Yi 張統一",
+            "profileUrl": null,
+            "directoryPosition": "近年访问学者 · 机械工程讲座教授",
+            "reason": "这张人员卡未提供个人主页。",
+            "facultyId": "polyu-me-zhang-tong-yi",
+            "researchReviewStatus": "directory_research_reviewed"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-me-advisory",
+      "universityId": "polyu",
+      "unit": "机械工程系 · 学术顾问与咨询委员会",
+      "url": "https://www.polyu.edu.hk/me/people/academic-advisor-and-advisory-committee/",
+      "sourceIds": [
+        "polyu-me-359f4ff1a9706d15-20261107"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "本页包括外部学术顾问的任期，以及业界、校内和学生委员。查顾问与委员会组成时使用。"
     }
   ],
   "academicCoverage": [
@@ -205649,7 +210298,716 @@ window.APP_CATALOG = {
               "parentEvidenceStatus": "body_read"
             }
           ],
-          "staffEntries": [],
+          "staffEntries": [
+            {
+              "label": "机械工程系 · 学术与教学人员",
+              "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-me-directory-saved-20261026"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. SU Zhongqing 蘇眾慶",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/su-zhong-qing-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-su-zhong-qing-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "c1ab1a16e1e3247b0e47d447abe3ced0c243d2846fa4ab501f6ae90a505c62fc",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. TANG Hui 唐輝",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-hui-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-tang-hui-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "4a5413a069c2d0fffb69e2b049aae90a0b1ef0afb4e3e1aada4d2f07ab232f4c",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. RUAN Haihui 阮海輝",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ruan-haihui-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-ruan-haihui-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "ec481e0eb03a98ec48b18264f89850a3fcb525a0040d5c5c95152d79a7ea86a7",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHAO Yu Hang, Christopher 趙汝恒",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/christopher-chao-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-christopher-chao-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "7f1281533a071c66d0e073c706cc27fbb9744e104a8e67b895386d65d72d96e0",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHENG Li 成利",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-li-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-cheng-li-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "5c226161c19104b40d8afd952da968c64caf6bfbf84b3a4330c9360f27ab32ac",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. FU Mingwang 傅銘旺",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-ming-wang-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-fu-ming-wang-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "70ad0088951a632baadabe59b969578d7453b1fb0f528a5d1b308887eddea241",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof.  WANG Liqiu 王立秋",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-liqiu-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-wang-liqiu-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "26d8262e18652a41114b781fee7268915134a34025e1331d5cc9fac45a92143b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WANG Quan 王泉",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-quan-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-wang-quan-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "bda7c2bca9cb8380da942de3a8089a981566b6622782e111ec116fc5e803dd0d",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WANG Zuankai 王鑽開",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-zuankai-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-wang-zuankai-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "6099d20b116020a2f16e4115f71c9934c7cac6d625b86e5a2c4ab4933f654b9b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. XU Zhenghe 徐政和",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-zhenghe-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-xu-zhenghe-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "1ea06820f3d967a0da69753fda204ad9a5ff47af69aa7cde71bf3ee1c69c2094",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. ZHANG Dan 張丹",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-dan-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-zhang-dan-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "1d720f8c475f6a113c50e5add9c0f86a41f78a72d213f1efa7ee01878afa1771",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. AN Liang 安亮",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/an-liang-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-an-liang-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "80feaa9a4be7217a18be3d149187f2c73cca7afeea77b99a7dd888d22fd427c5",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. YU Hongyu 于宏宇",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-hongyu-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-yu-hongyu-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "b6fa2acaa8932676ef8b8a56cb75504639205849dbf7a4f8ef1cb7e9b3941b0b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. ZHENG Guangping 鄭廣平",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zheng-guang-ping-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-zheng-guang-ping-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "0be831a8abf8a745cc23d0c8eda5030444d1eb8ab2ce415b6e745fb07c4b8e7c",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHOY Yat Sze 蔡逸思",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/choy-yat-sze-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-choy-yat-sze-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "4280fcc68cef7d83bf9f0a3e5f044b380bdad9e00690e4cdd7021f3f89b0f75d",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. JIAO Zengbao 焦增寶",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/jiao-zengbao-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-jiao-zengbao-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "32900b54180de88a04e24431c92d390394918efeae618304ca58e73dfb050e37",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LEUNG Chi Kin, Randolph 梁志堅",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/leung-chi-kin-randolph-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-leung-chi-kin-randolph-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "17c1f6ee2b22c4e3181d407e7dddcbb3a274fe623f8ba500c4fb4125940ec728",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LI Mengying 李夢穎",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-mengying-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-li-mengying-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "67a342e4d444d03169bd3e09564e3fc9f3a956d169abb003832f4013b8044540",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. ZHANG Xiao 張曉",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-xiao-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-zhang-xiao-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "c0273159c65638106add772ed4fa67b1218feffbfdd94a74d5c3e91be41c0eb6",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHENG Song 成松",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/cheng-song-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-cheng-song-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "17b1e1dbda52c90402c66c7ca2a960d31416613918f2015a4d9236c13c680f9f",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. DU Huifeng 杜匯豐",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/du-huifeng-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-du-huifeng-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "3554a213a415b1cbf9f86993350f08f5b112c7fd7cdad073ebb932bdc7c2a242",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. LI Tianyi 李天一",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/li-tianyi-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-li-tianyi-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "26175c42efc40559b449cf35e8a1817ed0f9086567f2955d221e33f0a01a3c20",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. MA Yuan 馬源",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/ma-yuan-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-ma-yuan-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "519f68f62e577f36dba94faacf9fc4572f0a2e063f5587b88839b606dc4f3284",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. WU Maochun 巫茂春",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wu-maochun-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-wu-maochun-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "9d7a071883ef82cebfbbd3a9ef38e1a38d51448753d727c8b18b8233325c3941",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. XU Shengduo 許聲多",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-shengduo-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-xu-shengduo-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "ddcf577df9f20540c6609d378a0545fbc0a222098222cd109b0fdb5acdd672fa",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. YU Xiang 余翔",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yu-xiang-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-yu-xiang-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "0678a2ee92ce2d3d2cc028870463f829571946b8f946e535213979979528f711",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. ZHANG Baoping 張寶萍",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-baoping-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-zhang-baoping-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "bada2bf6884e67c3be389ab671ab2d8c61a7fe98b4d8d316dcf8f0e6b9551244",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. ZHANG Yiyuan 張藝媛",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/zhang-yiyuan-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-zhang-yiyuan-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "7c0641a5b4a221f6ec92cfb0e0e1647a8f880e50aaeeef44ffbac21a187e7b44",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr FU Yiqiang 符毅强",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/fu-yiqiang-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-fu-yiqiang-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "dedab838275ca5a25149b9f17303535434277de7e38c440b98382486e3fbe88c",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr WANG Lin 王林",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/wang-lin-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-wang-lin-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "695286351a33a288b0beadd05cf1dab45484f21911284eec9dfb60ce68e49b75",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr YANG Lei 楊磊",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/yang-lei-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-yang-lei-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "b890b14776ac1d8c2ac8b2969b2ae45cf8591ae20861a67303c46723f7fd0d7e",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr TAM Wai Yin, Eunice 譚慧賢",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tam-wai-yin-eunice-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-tam-wai-yin-eunice-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "56c3a278e490a5fd853018cc3c6fd03359fbff833127ec5b06c026f65f9a85e2",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Ir TANG Wai Fong, Elsa 鄧慧芳",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tang-elsa-ir/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-tang-elsa-ir",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "91c004578a8e72e59efb4c058bfceedbb134b000db5e456dc173f1ec6120e38e",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr TONG Yu Chee 唐宇池",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/tong-yu-chee-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-tong-yu-chee-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "184adb05a4b044810e160c3ff1f6768744ec86ce1799dba725d2504bfd5a43ac",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr XU Nan, Nathan 徐楠",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/xu-nan-nathan-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-xu-nan-nathan-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "679e41c5bca8c7689cbdf55258f3bbed0dee7a0c85b924e19a0d671fb9bc6c1b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Dr HUO Xiaoyu 霍小雨",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-huo-xiaoyu-dr",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "5567a89a94ba581a62fe1c65206c7dc22e363d5f5c46009a8c789d21f6ed554d",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Mai, Yiu Wing",
+                  "url": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/mai-yiu-wing-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/academic-teaching-staff/",
+                  "directoryLabel": "机械工程系",
+                  "directorySourceIds": [
+                    "polyu-me-directory-saved-20261026"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-mai-yiu-wing",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "de566c2fdaca8d16f71b8070caea07e171924155e9b666d8340ea95c0f68e9fd",
+                  "readMethod": "anonymous_HTTP",
+                  "reviewNote": "个人来源原核查日 2026-10-28；没有重新下载。"
+                }
+              ]
+            },
+            {
+              "label": "机械工程系 · 荣休、兼任及近年访问学者",
+              "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-me-9af1e7550452aff2-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. SO, Ronald Ming Cho 蘇銘祖",
+                  "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/so-ronald-ming-cho-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+                  "directoryLabel": "机械工程系 · 荣休、兼任和近年访问",
+                  "directorySourceIds": [
+                    "polyu-me-9af1e7550452aff2-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-so-ronald-ming-cho-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "7a6ba9572896355103a1e8ddc812a941b1e0c509e73dc55a43578f14afa04a4a",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. TONG Timothy W. 唐偉章",
+                  "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/tong-timothy-w-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+                  "directoryLabel": "机械工程系 · 荣休、兼任和近年访问",
+                  "directorySourceIds": [
+                    "polyu-me-9af1e7550452aff2-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-tong-timothy-w-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "551f97b3f70eb6c391ce325679b0ff2eadd77f3effe51f22622952211db80a0b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. CHEN Guohua 陳國華",
+                  "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/chen-guohua-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+                  "directoryLabel": "机械工程系 · 荣休、兼任和近年访问",
+                  "directorySourceIds": [
+                    "polyu-me-9af1e7550452aff2-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-chen-guohua-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "2061e2d0692081381c0aaa058250bdc3b7f15c18306debe563e6d635cc12e26d",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. POON Chi Kin, Lawrence 潘志健",
+                  "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/poon-chi-kin-lawrence-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+                  "directoryLabel": "机械工程系 · 荣休、兼任和近年访问",
+                  "directorySourceIds": [
+                    "polyu-me-9af1e7550452aff2-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-poon-chi-kin-lawrence-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "c6a8cf73e7a89dfe807dc027c8cfecc05b61ff30ca14fba9367ec1cdfcc6887b",
+                  "readMethod": "anonymous_HTTP"
+                },
+                {
+                  "name": "Prof. SZE Wai Pan, Banting 施偉斌",
+                  "url": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/sze-wai-pan-banting-prof/",
+                  "observedOn": "https://www.polyu.edu.hk/me/people/emeritus-visiting-adjunct-staff/",
+                  "directoryLabel": "机械工程系 · 荣休、兼任和近年访问",
+                  "directorySourceIds": [
+                    "polyu-me-9af1e7550452aff2-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "polyu-me-sze-wai-pan-banting-prof",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "bodySha256": "b647fb3fe671ce41c595f9eeb25ec98729c32564614baee69b1c9e0045bdd07c",
+                  "readMethod": "anonymous_HTTP"
+                }
+              ]
+            },
+            {
+              "label": "机械工程系 · 学术顾问与咨询委员会",
+              "url": "https://www.polyu.edu.hk/me/people/academic-advisor-and-advisory-committee/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-me-359f4ff1a9706d15-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": []
+            }
+          ],
           "bodySha256": "d5c5d76b3a802f89577e812e26f8a37f30252b226811be22a6fd2c80cedc8306",
           "retrievedUrl": "https://www.polyu.edu.hk/feng/",
           "organizationReview": {
@@ -220583,5 +225941,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:ae65c6f49a14ca671378412ac8aa71f88f791787afda0570309f5747bec1da8e"
+  "snapshotId": "sha256:3a26cceee49c082552fdd9c653bf329836ac28591cc3a1b1e6901af1b93d3a8e"
 };

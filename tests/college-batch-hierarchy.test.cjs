@@ -13,7 +13,7 @@ test('nested schools retain explicit parents and never enter direct-child or tea
  const med=unit(C,'hku-8'),clinical=med.relatedNavigationGroups.find(g=>g.parentUnitName==='School of Clinical Medicine');assert.equal(med.children.length,7);assert.equal(clinical.entries.length,17);assert.equal(clinical.entries.filter(e=>e.kind==='department').length,14);assert.equal(clinical.entries.filter(e=>e.kind==='unit').length,2);
  const humanities=unit(C,'hku-2').relatedNavigationGroups.find(g=>g.parentUnitName==='School of Humanities');assert.equal(humanities.entries.length,7);assert.equal(humanities.entries.find(e=>e.name==='Gender Studies').kind,'department_or_programme');
  const fields=unit(C,'cuhksz-1');assert.equal(fields.children.length,0);assert.ok(fields.relatedNavigationGroups[0].entries.every(e=>e.kind==='research_field'&&e.url===null));
- assert.equal(C.academicCoverage.reduce((n,m)=>n+m.units.reduce((a,u)=>a+u.children.length,0),0),230);assert.equal(C.faculty.length,1378);
+ assert.equal(C.academicCoverage.reduce((n,m)=>n+m.units.reduce((a,u)=>a+u.children.length,0),0),230);assert.equal(old.faculty.length,1378);assert.deepEqual(C.faculty.slice(0,old.faculty.length),old.faculty);
 });
 test('academic centres, support units and degree titles are never relabelled as departments or availability',()=>{
  const art=unit(C,'cuhk-1');assert.equal(art.children.length,11);assert.equal(art.relatedNavigationGroups[0].entries.length,3);
