@@ -6,6 +6,40 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('robotics applicant can keep reading evidence after bookmarking and restore a follow-up in a blank session',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkustgz','PhD',[]);
+ el('research-query').value='多机器人系统';await el('profile-form').emit('input',{target:el('research-query')});
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent.includes('Ningxin SU')));
+ assert.ok(card);
+ const proof=h.walk(card).find(n=>n.tagName==='details'&&n.children[0].textContent==='看依据与适用范围');
+ proof.open=true;
+ const bookmark=h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单'));
+ await bookmark.emit('click');
+ assert.ok(el('results').children.includes(card),'bookmarking must not replace the card or remove keyboard focus');
+ assert.equal(proof.open,true);
+ assert.match(bookmark.textContent,/已在清单/);
+ assert.match(el('notice').textContent,/已放入/);
+ await h.button('saved-faculty','移除').emit('click');
+ assert.ok(el('results').children.includes(card));
+ assert.match(bookmark.textContent,/放入我的清单/);
+ await bookmark.emit('click');
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='加入跟进待办').emit('click');
+ await el('show-directories').emit('click');
+ const directory=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent==='系统枢纽 · 机器人与自主系统学域'));
+ assert.ok(directory);
+ assert.match(directory.textContent,/25 个主页：25 个已读/);
+ assert.ok(h.walk(directory).some(n=>n.tagName==='a'&&n.textContent.includes('研究学位申请指南')&&n.href.includes('/admission-and-application/')));
+ await el('export-local').emit('click');
+ const raw=await h.downloads.at(-1).blob.text(),fresh=harness();
+ const file=fresh.byId.get('import-local');file.files=[{size:Buffer.byteLength(raw),text:async()=>raw}];
+ await file.emit('change');await fresh.byId.get('export-local').emit('click');
+ const restored=JSON.parse(await fresh.downloads.at(-1).blob.text());
+ assert.deepEqual(restored.shortlist,['hkustgz-roas-587']);
+ assert.equal(restored.tasks[0].facultyId,'hkustgz-roas-587');
+ assert.ok(restored.sourceIds.includes('gz-roas-profile-587-20261029'));
+ assert.equal(h.networkCalls()+fresh.networkCalls(),0);
+});
+
 test('medical applicant finds the separately listed emergency unit in Chinese and can open its actual official research page',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);
  await el('profile-form').emit('input');await el('show-directories').emit('click');

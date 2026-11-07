@@ -671,6 +671,27 @@ def build_catalog():
     unit["organizationReview"]["sourceIds"].extend(s["id"] for s in medicine["sources"])
     unit.setdefault("relatedNavigationGroups", []).append(medicine["navigationGroup"])
     unit.setdefault("reviewedNavigation", []).extend(medicine["reviewedNavigation"])
+    robotics = load("hkustgz-roas-census-20261107.json")
+    catalog["sources"].extend(robotics["sources"])
+    faculty_by_id = {f["id"]: f for f in catalog["faculty"]}
+    for update in robotics["facultyUpdates"]:
+        faculty = faculty_by_id[update["id"]]
+        assert faculty["universityId"] == "hkustgz", "Keep campus records separate"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            faculty[field] = list(dict.fromkeys(faculty.get(field, []) + update[field]))
+        for field in ("reviewedProfileUrl", "directoryRole", "identityNote", "role"):
+            if update[field]:
+                faculty[field] = update[field]
+        links = faculty.setdefault("extraLinks", [])
+        for link in update["extraLinks"]:
+            if not any(old["url"] == link["url"] for old in links):
+                links.append(link)
+    catalog["faculty"].extend(robotics["faculty"])
+    catalog["directories"].append(robotics["directory"])
+    systems = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == robotics["unitId"])
+    systems["staffEntries"].append(robotics["staffEntry"])
+    systems["organizationReview"]["sourceIds"].extend(route["sourceId"] for route in robotics["reviewedNavigation"])
+    systems.setdefault("reviewedNavigation", []).extend(robotics["reviewedNavigation"])
     return catalog
 
 
@@ -850,6 +871,11 @@ def validate(catalog):
         directory_ids.add(d["id"])
         assert d["unit"] and d["url"].startswith("https://") and d["coverageComplete"] is False
         refs(d["sourceIds"])
+        if "applicationGuideSourceId" in d:
+            guide_id = d["applicationGuideSourceId"]
+            assert guide_id in d["sourceIds"], "An application guide must be one of the directory's sources"
+            assert sources[guide_id]["evidenceLevel"] == "official_scoped_body_read"
+            validate_read_receipt(sources[guide_id])
         if "census" in d:
             census = d["census"]
             if "observedNamedCards" in d:
