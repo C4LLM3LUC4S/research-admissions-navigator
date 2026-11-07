@@ -723,6 +723,13 @@ def build_catalog():
     lead_by_url = {lead["url"]: lead for lead in sse["staffEntries"][0]["profileLeads"]}
     for update in sse_stem["leadUpdates"]:
         lead_by_url[update["url"]].update(update)
+    unit_routes = load("official-unit-route-evidence-20261107.json")
+    catalog["sources"].extend(unit_routes["sources"])
+    information = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == "hkustgz-2")
+    information["organizationReview"]["sourceIds"].extend(unit_routes["information"]["organizationSourceIds"])
+    information["relatedNavigationGroups"].extend(unit_routes["information"]["navigationGroups"])
+    information["staffEntries"].extend(unit_routes["information"]["staffEntries"])
+    cityu_overview["institutionalReferences"].append(unit_routes["cityuReference"])
     return catalog
 
 
@@ -1041,7 +1048,7 @@ def validate(catalog):
         refs(overview["sourceIds"])
         for reference in overview.get("institutionalReferences", []):
             assert reference["universityId"] == overview["universityId"], "Institutional scope must retain its university"
-            assert reference["kind"] in {"mixed_academic_index", "quality_manual_introduction", "historical_annual_report"}
+            assert reference["kind"] in {"mixed_academic_index", "quality_manual_introduction", "historical_annual_report", "historical_admissions_handbook"}
             assert reference["organizationComplete"] is reference["facultyComplete"] is False
             assert reference["summary"] and reference["caution"] and reference["entryNote"]
             refs([reference["sourceId"]])
@@ -1051,6 +1058,9 @@ def validate(catalog):
                 assert source["readMethod"] == "web_reader" and "readReceiptSha256" in source
                 assert source["evidenceLevel"] == "official_scoped_body_read" and not reference["entries"]
                 assert re.fullmatch(r"\d{4}/\d{2}", source["academicYear"])
+            elif reference["kind"] == "historical_admissions_handbook":
+                assert source["readMethod"] == "web_reader" and source["evidenceLevel"] == "official_scoped_body_read"
+                assert re.fullmatch(r"\d{4}-\d{2}", source["publishedMonth"])
             else:
                 assert source["readMethod"] == "anonymous_HTTP"
             validate_read_receipt(source)
@@ -1061,7 +1071,7 @@ def validate(catalog):
                 seen_entries.add(entry["url"])
                 assert entry["bodyStatus"] == "not_read", "A supplied link is not a body-read receipt"
                 assert entry["supervisionEligibility"] == entry["availability"] == "unknown"
-                allowed = {"department", "division"} if reference["kind"] == "mixed_academic_index" else {"manual_chapter"}
+                allowed = {"department", "division"} if reference["kind"] in {"mixed_academic_index", "historical_admissions_handbook"} else {"manual_chapter"}
                 assert entry["kind"] in allowed, "Do not mix facilities, campuses or manual chapters with departments"
         review = overview["listReview"]
         refs(review["sourceIds"])

@@ -187,6 +187,35 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('official unit entry points distinguish staff and degree links from verified admissions', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('hkustgz','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ const unit=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.includes('信息枢纽'));
+ assert.ok(unit);
+ const links=h.walk(unit).filter(n=>n.tagName==='a').map(n=>n.href);
+ for(const [slug, programme] of [['ai','artificial-intelligence'],['cma','computational-media-and-arts'],['dsa','data-science-and-analytics'],['iot','internet-of-things']]){
+  assert.ok(links.includes('https://infh.hkust-gz.edu.cn/zh/academics/'+slug+'/about-'+slug+'/'));
+  assert.ok(links.includes('https://infh.hkust-gz.edu.cn/zh/academics/'+slug+'/faculty-members/'));
+  assert.ok(links.includes('https://fytgs.hkust-gz.edu.cn/postgraduate-programs/postgraduate-program-catalog?program='+programme+'-27&yearOfEntry=2027%2F28'));
+ }
+ assert.match(unit.textContent,/具名名单和分页待核/);
+ await el('show-programs').emit('click');
+ assert.doesNotMatch(el('results').textContent,/各学域研究学位目录/);
+
+ h.select('cityu','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ const reference=h.walk(el('academic-coverage')).find(n=>n.className==='source-details institutional-reference'&&n.textContent.includes('2026 年 2 月'));
+ assert.ok(reference);
+ const departments=h.walk(reference.children.find(n=>n.tagName==='ul')).filter(n=>n.tagName==='a').map(n=>n.href);
+ assert.deepEqual(departments,['https://www.cityu.edu.hk/bme/','https://www.cityu.edu.hk/bms/','https://www.cityu.edu.hk/neuro/']);
+ assert.match(reference.textContent,/下列入口正文待核/);
+ assert.match(el('academic-coverage').textContent,/校级完整架构仍待核/);
+ assert.equal(h.networkCalls(),0);
+});
+
 test('CUHK Shenzhen science projects distinguish term dates and degree requirements', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  const titles=['数学','物理学','化学','材料科学与工程','能源科学与工程'];
