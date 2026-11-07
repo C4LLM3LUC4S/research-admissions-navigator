@@ -700,6 +700,15 @@ def build_catalog():
     assert {entry["url"] for entry in old_staff} == {sse_staff["staffEntry"]["url"], sse_staff["nonStaffEntryUrl"]}
     # The second old entry is a doctoral student list, not an additional staff roster.
     sse["staffEntries"] = [sse_staff["staffEntry"]]
+    design = load("polyu-design-application-20261107.json")
+    catalog["sources"].append(design["source"])
+    design_unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == design["unitId"])
+    design_unit["organizationReview"]["sourceIds"].append(design["source"]["id"])
+    design_unit.setdefault("reviewedNavigation", []).append(design["navigation"])
+    design_program = next(p for p in catalog["programs"] if p["id"] == design["programId"])
+    design_program["sourceIds"].append(design["source"]["id"])
+    assert design_program["requirements"][0]["label"] == design["requirementUpdates"][1]["label"]
+    design_program["requirements"][:1] = design["requirementUpdates"]
     return catalog
 
 

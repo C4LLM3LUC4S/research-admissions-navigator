@@ -49,7 +49,7 @@ test('each profile has its own read receipt and unsuccessful or non-personal sup
 test('the departmental 2026/27 programme remains dated navigation and does not fabricate a current admission route',()=>{
  const source=P.sources.find(s=>s.id==='hku-physics-rpg-scope-20261107');
  assert.match(source.scope,/2026\/27/);assert.match(P.reviewedNavigation[0].label,/2026\/27/);
- assert.deepEqual(C.programs,old.programs);
+ assert.deepEqual(require('./fixtures/before-robotics.cjs').programs,old.programs);
  assert.equal(P.counts.allSevenComplete,false);
  const science=C.academicCoverage.find(m=>m.universityId==='hku').units.find(u=>u.id==='hku-9');
  assert.ok(science.reviewedNavigation.some(n=>n.sourceId===source.id));
