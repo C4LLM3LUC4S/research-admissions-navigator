@@ -651,6 +651,20 @@ def build_catalog():
     engineering["organizationReview"]["sourceIds"].append(materials["sources"][0]["id"])
     engineering.setdefault("reviewedNavigation", []).extend(materials["reviewedNavigation"])
     engineering["staffEntries"].extend(materials["staffEntries"])
+    physics = load("hku-physics-census-20261107.json")
+    catalog["sources"].extend(physics["sources"])
+    catalog["faculty"].extend(physics["faculty"])
+    directory = next(d for d in catalog["directories"] if d["id"] == physics["directoryUpdate"]["id"])
+    assert directory["census"] == physics["directoryUpdate"]["priorCensus"]
+    directory.setdefault("censusHistory", []).append({
+        "batch": "hku-physics-census-20261107",
+        "census": directory["census"], "coverageNotes": directory["coverageNotes"]})
+    directory["census"] = physics["directoryUpdate"]["census"]
+    directory["coverageNotes"] = physics["directoryUpdate"]["coverageNotes"]
+    science = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == physics["unitId"])
+    science["staffEntries"].append(physics["staffEntry"])
+    science["organizationReview"]["sourceIds"].append("hku-physics-rpg-scope-20261107")
+    science.setdefault("reviewedNavigation", []).extend(physics["reviewedNavigation"])
     return catalog
 
 

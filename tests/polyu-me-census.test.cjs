@@ -8,7 +8,14 @@ const prior=read('data/snapshots/ae65c6f49a14ca671378412ac8aa71f88f791787afda057
 test('ME additions preserve every prior source, teacher, programme, directory and formal child relation',()=>{
  for(const key of ['sources','faculty','programs','directories']){
   const now=new Map(C[key].map(row=>[row.id,row]));
-  for(const row of prior[key])assert.deepEqual(now.get(row.id),row,`${key}: ${row.id}`);
+  for(const row of prior[key]){
+   let current=now.get(row.id);
+   if(key==='directories'&&row.id==='hku-science-physics-observed-staff'){
+    const history=current.censusHistory.find(h=>h.batch==='hku-physics-census-20261107');
+    current={...current,census:history.census,coverageNotes:history.coverageNotes};delete current.censusHistory;
+   }
+   assert.deepEqual(current,row,`${key}: ${row.id}`);
+  }
  }
  for(const school of prior.academicCoverage){
   const now=C.academicCoverage.find(row=>row.universityId===school.universityId);

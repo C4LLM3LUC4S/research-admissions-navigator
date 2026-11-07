@@ -78796,6 +78796,2886 @@ window.APP_CATALOG = {
           "hkust-materials-profile-antonio-facchetti-20261107"
         ]
       }
+    },
+    {
+      "id": "hku-physics-00",
+      "name": "Prof. Hoi Fung Chau",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子密钥分发、后量子密码、量子信息处理速度极限。",
+      "topics": [
+        "物理与化学",
+        "网络安全",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "量子密钥分发",
+        "后量子密码",
+        "量子信息处理速度极限"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-00-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-00-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00669",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-00-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-00-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-02",
+      "name": "Prof. Giulio Chiribella",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor (by courtesy)",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子信息理论、量子网络、量子力学的信息论基础。",
+      "topics": [
+        "物理与化学",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "量子信息理论",
+        "量子网络",
+        "量子力学的信息论基础"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-02-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-35ce2b89a5af-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-linked-35ce2b89a5af-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.cs.hku.hk/index.php/people/academic-staff/giulio",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-02-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-35ce2b89a5af-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-02-20261107"
+        ]
+      },
+      "identityNote": "物理系为跨系任职；所给主页另列计算机科学系教授。"
+    },
+    {
+      "id": "hku-physics-03",
+      "name": "Dr. Fung Kiu Chow",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Assistant Lecturer",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究计算物理、经济物理。",
+      "topics": [
+        "物理与化学",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "计算物理",
+        "经济物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-03-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-03-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：教学岗位。"
+    },
+    {
+      "id": "hku-physics-04",
+      "name": "Prof. Xiaodong Cui",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Chair of Condensed Matter Physics, Associate Head",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究半导体自旋与谷物理、二维晶体光学性质。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "半导体自旋与谷物理",
+        "二维晶体光学性质"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-04-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-08f9e545d967-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-04-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://www.physics.hku.hk/~cui",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-04-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-08f9e545d967-20261107"
+        },
+        {
+          "url": "http://hub.hku.hk/rp/rp00689",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-04-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-04-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-05",
+      "name": "Prof. Lixin Dai",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究黑洞吸积盘与喷流、潮汐瓦解事件、高能天体物理、引力波。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "黑洞吸积盘与喷流",
+        "潮汐瓦解事件",
+        "高能天体物理",
+        "引力波"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-05-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-9838e881fe91-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-05-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.physics.hku.hk/~janedai/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-05-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-9838e881fe91-20261107"
+        },
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02540",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-05-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-05-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-06",
+      "name": "Prof. Sir Andre Geim",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Chair Professor, 2010 Nobel Prize in Physics",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究石墨烯、二维材料、范德华异质结构、分子与质子输运。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "石墨烯",
+        "二维材料",
+        "范德华异质结构",
+        "分子与质子输运"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-06-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-06-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-06-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-07",
+      "name": "Prof. Dong-Keun Ki",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究低维量子输运、纳米电子器件、二维材料、范德华异质结构。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "低维量子输运",
+        "纳米电子器件",
+        "二维材料",
+        "范德华异质结构"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-07-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-f456f72f29a0-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-07-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.physics.hku.hk/~dkkilab/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-07-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-f456f72f29a0-20261107"
+        },
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02444",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-07-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-07-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-08",
+      "name": "Prof. Ferenc Krausz",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Chair of Laser Physics, 2023 Nobel Laureate in Physics",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究超快激光、量子光学、阿秒物理。",
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "超快激光",
+        "量子光学",
+        "阿秒物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-08-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-08-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-09",
+      "name": "Prof. Jenny Hiu Ching Lee",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究实验核物理、核子关联、核壳结构演化、伽马与贝塔衰变谱学。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "实验核物理",
+        "核子关联",
+        "核壳结构演化",
+        "伽马与贝塔衰变谱学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-09-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://www.physics.hku.hk/~nuclear/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-09-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "空白页面，未核到研究介绍。"
+        },
+        {
+          "url": "http://hub.hku.hk/rp/rp01902",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-09-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-09-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-10",
+      "name": "Dr. Kai Ming Lee",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Lecturer",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究数学物理、量子场论、广义相对论。",
+      "topics": [
+        "物理与化学",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "数学物理",
+        "量子场论",
+        "广义相对论"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-10-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp01471",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-10-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-10-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：教学岗位。"
+    },
+    {
+      "id": "hku-physics-11",
+      "name": "Prof. Man Hoi Lee",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct with Department of Physics",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究行星形成与动力学演化、轨道共振、行星系统数值模拟。",
+      "topics": [
+        "物理与化学",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "行星形成与动力学演化",
+        "轨道共振",
+        "行星系统数值模拟"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-11-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-e436f2d8f903-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-linked-e436f2d8f903-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.earthsciences.hku.hk/people/academic_staff/11",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-11-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-e436f2d8f903-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-11-20261107"
+        ]
+      },
+      "identityNote": "物理系为兼任；所给主页列地球科学系教授。"
+    },
+    {
+      "id": "hku-physics-12",
+      "name": "Prof. Jeremy Jin Leong Lim",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究恒星形成、恒星活动、星系、射电干涉测量。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "恒星形成",
+        "恒星活动",
+        "星系",
+        "射电干涉测量"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-12-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.physics.hku.hk/people/academic/352",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-12-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "该链接返回全系名单，未作为个人研究主页。"
+        },
+        {
+          "url": "http://hub.hku.hk/rp/rp00745",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-12-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-12-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-13",
+      "name": "Prof. Francis Chi Chung Ling",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究半导体缺陷、半导体光电性质、载流子输运、正电子湮灭谱学。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "半导体缺陷",
+        "半导体光电性质",
+        "载流子输运",
+        "正电子湮灭谱学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-13-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.physics.hku.hk/people/academic/353",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-13-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "该链接返回全系名单，未作为个人研究主页。"
+        },
+        {
+          "url": "http://hub.hku.hk/rp/rp00747",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-13-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-13-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-14",
+      "name": "Prof. Tran Trung Luu",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究超快光学、强场激光物理、阿秒科学。",
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "超快光学",
+        "强场激光物理",
+        "阿秒科学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-14-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-5c991d6d9f53-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.physics.hku.hk/~ttluu/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-14-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-5c991d6d9f53-20261107"
+        },
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02589",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-14-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-14-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-15",
+      "name": "Prof. Zi Yang Meng",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子多体系统、量子材料、量子纠缠、大规模数值模拟。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "量子多体系统",
+        "量子材料",
+        "量子纠缠",
+        "大规模数值模拟"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-15-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-15-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://quantummc.xyz/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-15-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "返回博客首页，未用首页文章推定个人研究。"
+        },
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02524",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-15-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-15-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-16",
+      "name": "Prof. Stephen Chi Yung Ng",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究中子星、脉冲星、超新星遗迹、极端引力与电磁环境。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "中子星",
+        "脉冲星",
+        "超新星遗迹",
+        "极端引力与电磁环境"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-16-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-938128cbe332-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-16-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://astro.physics.hku.hk/~ncy/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-16-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-938128cbe332-20261107"
+        },
+        {
+          "url": "http://hub.hku.hk/rp/rp01706",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-16-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-16-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-17",
+      "name": "Dr. Jason Chun Shing Pun",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Principal Lecturer",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究超新星与遗迹、宇宙射线、中微子物理、光污染。",
+      "topics": [
+        "物理与化学",
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "超新星与遗迹",
+        "宇宙射线",
+        "中微子物理",
+        "光污染"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-17-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-17-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00772",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-17-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-17-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：教学岗位。"
+    },
+    {
+      "id": "hku-physics-18",
+      "name": "Prof. Shunqing Shen",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Chair of Condensed Matter Physics",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究半导体自旋输运、拓扑绝缘体。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "半导体自旋输运",
+        "拓扑绝缘体"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-18-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00775",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-18-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-18-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-19",
+      "name": "Prof. Yanjun Tu",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究实验高能物理、大型强子对撞机、新物理寻找、标准模型测量。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "实验高能物理",
+        "大型强子对撞机",
+        "新物理寻找",
+        "标准模型测量"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-19-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp01971",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-19-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-19-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-20",
+      "name": "Prof. Zhong Wan",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子材料工程、纳米器件、低温量子输运。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "量子材料工程",
+        "纳米器件",
+        "低温量子输运"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-20-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-eafaaf4ab2e2-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-20-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/hku-wan-lab",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-20-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-eafaaf4ab2e2-20261107"
+        },
+        {
+          "url": "https://hub.hku.hk/cris/rp/rp03486",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-20-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-20-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-21",
+      "name": "Prof. Chenjie Wang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究拓扑物态、强关联体系、介观量子输运、非平衡统计力学。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "拓扑物态",
+        "强关联体系",
+        "介观量子输运",
+        "非平衡统计力学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-21-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02502",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-21-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-21-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-22",
+      "name": "Prof. Yihan Wang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究时域与多信使天体物理、伽马射线暴、黑洞吸积、引力波源。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "时域与多信使天体物理",
+        "伽马射线暴",
+        "黑洞吸积",
+        "引力波源"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-22-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-bc9ce39d3bfc-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-22-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://yihanwangastro.github.io/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-22-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-bc9ce39d3bfc-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-22-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-23",
+      "name": "Prof. Maohai Xie",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究分子束外延、表面表征、扫描隧道显微镜、二维量子材料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "分子束外延",
+        "表面表征",
+        "扫描隧道显微镜",
+        "二维量子材料"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-23-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-23-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00818",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-23-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-23-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-24",
+      "name": "Prof. Yi Yang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Assistant Professor, HKU-100 Scholar, Belinda Hung Outstanding Young Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究光学物理、纳米光子学、光与材料相互作用、自由电子光学。",
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "光学物理",
+        "纳米光子学",
+        "光与材料相互作用",
+        "自由电子光学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-24-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-5e20c5d185a6-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-24-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.yiyg.hku.hk/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-24-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-5e20c5d185a6-20261107"
+        },
+        {
+          "url": "https://hub.hku.hk/cris/rp/rp02970",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-24-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-24-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-25",
+      "name": "Prof. Wang Yao",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Chair of Physics, FAPS, FOSA",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究二维量子材料、自旋与赝自旋、凝聚态物理、光学物理。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "二维量子材料",
+        "自旋与赝自旋",
+        "凝聚态物理",
+        "光学物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-25-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-25-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00827",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-25-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-25-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-27",
+      "name": "Prof. Bing Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Chair of Astrophysics, Global STEM Scholar",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究理论与高能天体物理、多信使天体物理、黑洞与中子星、天体暂现源。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "理论与高能天体物理",
+        "多信使天体物理",
+        "黑洞与中子星",
+        "天体暂现源"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-27-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-27-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-28",
+      "name": "Prof. Binzheng Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor (by courtesy)",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究行星磁层、空间天气、磁流体力学、高阶数值算法。",
+      "topics": [
+        "物理与化学",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "行星磁层",
+        "空间天气",
+        "磁流体力学",
+        "高阶数值算法"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-28-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-1e291dff556c-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-linked-1e291dff556c-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://www.earthsciences.hku.hk/people/academic_staff/63",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-28-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-1e291dff556c-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-28-20261107"
+        ]
+      },
+      "identityNote": "物理系为跨系任职；所给主页列地球科学系副教授。"
+    },
+    {
+      "id": "hku-physics-29",
+      "name": "Prof. Shizhong Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Associate Head",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究超冷原子气体、量子多体物理、低温输运。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "超冷原子气体",
+        "量子多体物理",
+        "低温输运"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-29-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-29-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp01661",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-29-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-29-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-30",
+      "name": "Prof. Shuang Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Professor, Chair of Photonics, FOSA, FAPS, Interim Head",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究超材料、拓扑光子学、超表面、纳米光子学。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "超材料",
+        "拓扑光子学",
+        "超表面",
+        "纳米光子学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-30-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02759",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-30-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-30-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-31",
+      "name": "Prof. Xiang Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Chair Professor, President",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究材料物理、光学物理、低维量子体系。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "材料物理",
+        "光学物理",
+        "低维量子体系"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-31-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-50368e9c9ef9-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://xlab.hku.hk/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-31-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-50368e9c9ef9-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-31-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-32",
+      "name": "Prof. Zhendong Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究超冷离子、光学腔、离子与量子简并气体、超冷化学反应。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "超冷离子",
+        "光学腔",
+        "离子与量子简并气体",
+        "超冷化学反应"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-32-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-32-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-32-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-33",
+      "name": "Prof. Yuxin Zhao",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Associate Professor, HKU-100 Scholar",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究代数表示、拓扑学、凝聚态物理。",
+      "topics": [
+        "物理与化学",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "代数表示",
+        "拓扑学",
+        "凝聚态物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-33-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://hub.hku.hk/cris/rp/rp02231",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-33-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-33-20261107"
+        ]
+      }
+    },
+    {
+      "id": "hku-physics-34",
+      "name": "Prof. Kwong Sang Cheng",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Emeritus Professor, FAPS",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究理论天体物理、中子星、脉冲星、伽马射线暴。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "理论天体物理",
+        "中子星",
+        "脉冲星",
+        "伽马射线暴"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-34-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-34-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：荣休教授。"
+    },
+    {
+      "id": "hku-physics-35",
+      "name": "Prof. Jian Wang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Emeritus Professor, FAPS",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子输运理论、自旋电子学、纳米电子学。",
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "量子输运理论",
+        "自旋电子学",
+        "纳米电子学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-35-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://web.hku.hk/~jianwang/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-35-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接读取失败，未改地址重试。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-35-20261107"
+        ]
+      },
+      "identityNote": "本条为荣休教授角色。名录中的另一张同名卡片另行保留。"
+    },
+    {
+      "id": "hku-physics-36",
+      "name": "Prof. Zidan Wang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Emeritus Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究拓扑量子物理、量子计算与信息、凝聚态与冷原子物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "拓扑量子物理",
+        "量子计算与信息",
+        "凝聚态与冷原子物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-36-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-36-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：荣休教授。"
+    },
+    {
+      "id": "hku-physics-37",
+      "name": "Prof. Gang Chen",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究理论凝聚态物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "理论凝聚态物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-37-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/cris/rp/rp02491",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-37-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-37-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：名誉任职。"
+    },
+    {
+      "id": "hku-physics-38",
+      "name": "Prof. Aleksandra B. Djurišić",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究卤化物钙钛矿光电子、金属氧化物纳米材料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "卤化物钙钛矿光电子",
+        "金属氧化物纳米材料"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-38-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00690",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-38-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-38-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：名誉任职。"
+    },
+    {
+      "id": "hku-physics-39",
+      "name": "Prof. Donglai Feng",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究强关联电子体系、电子结构、高温超导、拓扑材料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "强关联电子体系",
+        "电子结构",
+        "高温超导",
+        "拓扑材料"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-39-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-355e9a0bb45b-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://quantum-materials.ustc.edu.cn",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-39-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-355e9a0bb45b-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-39-20261107"
+        ]
+      },
+      "identityNote": "物理系名单列名誉教授；所给研究组页面属于中国科学技术大学。"
+    },
+    {
+      "id": "hku-physics-40",
+      "name": "Prof. Teruya Ishihara",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究非线性光学、层状半导体、超材料与超表面。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "非线性光学",
+        "层状半导体",
+        "超材料与超表面"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-40-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-40-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-40-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：名誉任职。"
+    },
+    {
+      "id": "hku-physics-41",
+      "name": "Prof. Yuri Kivshar",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Distinguished Visiting Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究非线性光子学、光孤子、超材料、纳米光子学。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "非线性光子学",
+        "光孤子",
+        "超材料",
+        "纳米光子学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-41-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-41-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-41-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：访问任职。"
+    },
+    {
+      "id": "hku-physics-43",
+      "name": "Prof. Jian Wang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子输运理论、自旋电子学、纳米电子学。",
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "量子输运理论",
+        "自旋电子学",
+        "纳米电子学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-43-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-43-20261107"
+        ]
+      },
+      "identityNote": "本条为名誉教授角色。名录中的另一张同名卡片另行保留。"
+    },
+    {
+      "id": "hku-physics-44",
+      "name": "Prof. Zhigang Wu",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Visiting Associate Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究冷原子物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "冷原子物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-44-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-44-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：访问任职。"
+    },
+    {
+      "id": "hku-physics-45",
+      "name": "Prof. Shijie Xu",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究半导体纳米结构、非线性光学、超快现象、单量子点成像。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "半导体纳米结构",
+        "非线性光学",
+        "超快现象",
+        "单量子点成像"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-45-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00821",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-45-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-45-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：名誉任职。"
+    },
+    {
+      "id": "hku-physics-46",
+      "name": "Prof. Fuchun Zhang",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Visiting Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究理论凝聚态物理、强关联电子体系、高温超导。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "理论凝聚态物理",
+        "强关联电子体系",
+        "高温超导"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-46-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "http://hub.hku.hk/rp/rp00840",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-46-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-46-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：访问任职。"
+    },
+    {
+      "id": "hku-physics-47",
+      "name": "Prof. Yang Liu",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究实验高能粒子物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "实验高能粒子物理"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-47-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-47-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：名誉任职。"
+    },
+    {
+      "id": "hku-physics-48",
+      "name": "Prof. Alan Man Ching Ng",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Honorary Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究金属氧化物材料、纳米结构制备、光电与表面性质、环境应用。",
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "金属氧化物材料",
+        "纳米结构制备",
+        "光电与表面性质",
+        "环境应用"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-48-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-48-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：名誉任职。"
+    },
+    {
+      "id": "hku-physics-49",
+      "name": "Mr. Yuk Sing Lui",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究热带气旋、气候变化。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "热带气旋",
+        "气候变化"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-49-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-49-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：兼任任职。"
+    },
+    {
+      "id": "hku-physics-50",
+      "name": "Dr. Po Leung",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究机器学习、计算机视觉、天文统计、金融机器学习、生物信息学。",
+      "topics": [
+        "机器学习",
+        "计算机视觉",
+        "数学与统计",
+        "金融与精算",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "机器学习",
+        "计算机视觉",
+        "天文统计",
+        "金融机器学习",
+        "生物信息学"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-50-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-a37430343028-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/site/alexpleung/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-50-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-a37430343028-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-50-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：兼任任职。"
+    },
+    {
+      "id": "hku-physics-51",
+      "name": "Dr. Yanchang Lin",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究实验物理、应用核科学与技术。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "实验物理",
+        "应用核科学与技术"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-51-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-51-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：兼任任职。"
+    },
+    {
+      "id": "hku-physics-52",
+      "name": "Dr. Chu Wing So",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究光污染。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "光污染"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-52-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-52-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：兼任任职。"
+    },
+    {
+      "id": "hku-physics-53",
+      "name": "Mr. Wai Po Tse",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究气候学、气候变化。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "气候学",
+        "气候变化"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-53-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-53-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：兼任任职。"
+    },
+    {
+      "id": "hku-physics-56",
+      "name": "Mr. Wai Kin Wong",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Adjunct Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究天气预报。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "天气预报"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-56-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-56-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：兼任任职。"
+    },
+    {
+      "id": "hku-physics-57",
+      "name": "Dr. Yuanda Liao",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究量子多体物理、量子相变、量子蒙特卡洛、强关联费米子体系。",
+      "topics": [
+        "物理与化学",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "量子多体物理",
+        "量子相变",
+        "量子蒙特卡洛",
+        "强关联费米子体系"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-57-20261107",
+        "hku-science-physics-staff-20261105",
+        "hku-physics-linked-04b0992078f8-20261107"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-57-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://quantummc.xyz/yuanda-liao/",
+          "label": "任职或研究主页",
+          "parentSourceId": "hku-physics-profile-57-20261107",
+          "bodyStatus": "body_read",
+          "readNote": "已读其中研究或任职介绍；校外页面的申请信息保留各自机构范围。",
+          "sourceId": "hku-physics-linked-04b0992078f8-20261107"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-57-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：研究助理教授。"
+    },
+    {
+      "id": "hku-physics-58",
+      "name": "Dr. Zuzhang Lin",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究光与物质相互作用、低维材料、第一性原理、分数量子反常霍尔效应。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "光与物质相互作用",
+        "低维材料",
+        "第一性原理",
+        "分数量子反常霍尔效应"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-58-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-58-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-58-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：研究助理教授。"
+    },
+    {
+      "id": "hku-physics-59",
+      "name": "Dr. Luca Pizzimento",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究粒子探测器、气体探测器、前端电子学、高能物理实验技术。",
+      "topics": [
+        "物理与化学",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "粒子探测器",
+        "气体探测器",
+        "前端电子学",
+        "高能物理实验技术"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-59-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-59-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://repository.hku.hk/cris/rp/rp03111",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-59-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接读取失败，未改地址重试。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-59-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：研究助理教授。"
+    },
+    {
+      "id": "hku-physics-60",
+      "name": "Dr. Wenbin Rui",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究拓扑物态、非厄米物理、超导。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "拓扑物态",
+        "非厄米物理",
+        "超导"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-60-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-60-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-60-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：研究助理教授。"
+    },
+    {
+      "id": "hku-physics-61",
+      "name": "Dr. Yipu Xia",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究二维材料生长、分子束外延、扫描隧道显微镜、一维电子体系。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "二维材料生长",
+        "分子束外延",
+        "扫描隧道显微镜",
+        "一维电子体系"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-61-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-61-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [
+        {
+          "url": "https://hub.hku.hk/cris/rp/rp03243",
+          "label": "HKU Researcher Page",
+          "parentSourceId": "hku-physics-profile-61-20261107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403，没有读取研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-61-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：研究助理教授。"
+    },
+    {
+      "id": "hku-physics-62",
+      "name": "Dr. Dawei Zhai",
+      "universityId": "hku",
+      "department": "物理系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究二维材料、摩尔超晶格、应变调控、拓扑与输运性质。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "二维材料",
+        "摩尔超晶格",
+        "应变调控",
+        "拓扑与输运性质"
+      ],
+      "sourceIds": [
+        "hku-physics-profile-62-20261107",
+        "hku-science-physics-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-physics-profile-62-20261107"
+      ],
+      "directorySourceIds": [
+        "hku-science-physics-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "profileBodyStatus": "body_read",
+      "researchBasis": "scoped_profile_or_named_directory",
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向对应项目或老师确认。",
+        "sourceIds": [
+          "hku-physics-profile-62-20261107"
+        ]
+      },
+      "identityNote": "物理系名单所列身份：研究助理教授。"
     }
   ],
   "sources": [
@@ -172334,6 +175214,1515 @@ window.APP_CATALOG = {
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "6482c92288b436795f35016123a8d9276c1dd9f9ac7350c580b301e6ecf22cb4",
       "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-00-20261107",
+      "title": "Prof. Hoi Fung Chau | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6f073b031e983820b0772590efc69b0afe4132f3e614168c7a49a675cd3a6377",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor",
+        "研究量子密钥分发、后量子密码、量子信息处理速度极限。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00669"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-01-20261107",
+      "title": "Prof. Guanhua Chen | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/gh_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/gh_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/gh_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2790003d89a3b2676a9a3a5e0d3facc109543e5e53cfc4cd42e3d8e9f65f8abb",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://yangtze.hku.hk/home/index.php"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-02-20261107",
+      "title": "Prof. Giulio Chiribella | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c50e13d55757dfaa9f27734b5925e7df231a52ee5993f80b4b095e4126af38ed",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor (by courtesy)",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.cs.hku.hk/index.php/people/academic-staff/giulio"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-03-20261107",
+      "title": "Dr. Fung Kiu Chow | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2e97137ba9f0db281f265c7c48deab598c459c8a066f909c0f43d4a43f3b291b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Assistant Lecturer",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-04-20261107",
+      "title": "Prof. Xiaodong Cui | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c4f43c0d969a3aaec726f80b615cac31275f3a96f459c48b3576c66bcd4e2d7",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Chair of Condensed Matter Physics, Associate Head",
+        "研究半导体自旋与谷物理、二维晶体光学性质。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.physics.hku.hk/~cui",
+        "http://hub.hku.hk/rp/rp00689"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-05-20261107",
+      "title": "Prof. Lixin Dai | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a1f318ee4c64fb9397bfe827f0d57fdad6c88f48d028334a2890a3b4b29c162d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "研究黑洞吸积盘与喷流、潮汐瓦解事件、高能天体物理、引力波。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.physics.hku.hk/~janedai/",
+        "http://hub.hku.hk/cris/rp/rp02540"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-06-20261107",
+      "title": "Prof. Sir Andre Geim | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5f8792f654955367ea5dde060cdb1de637158d053006316725d04b631cc9686d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Chair Professor, 2010 Nobel Prize in Physics",
+        "研究石墨烯、二维材料、范德华异质结构、分子与质子输运。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-07-20261107",
+      "title": "Prof. Dong-Keun Ki | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1aecb365a48dc690b715de67d09011c69fe3fd484662542d99407ca0204d3564",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "研究低维量子输运、纳米电子器件、二维材料、范德华异质结构。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.physics.hku.hk/~dkkilab/",
+        "http://hub.hku.hk/cris/rp/rp02444"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-08-20261107",
+      "title": "Prof. Ferenc Krausz | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "449996ee315bf9289eea0fb05e1d6c4c253c7eace29c2d059cb1350e05cc5088",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Chair of Laser Physics, 2023 Nobel Laureate in Physics",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-09-20261107",
+      "title": "Prof. Jenny Hiu Ching Lee | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7d86f25d60916b3acae778b52c14f3e845fbc1257dcc14acb852707e3ff998ab",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.physics.hku.hk/~nuclear/",
+        "http://hub.hku.hk/rp/rp01902"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-10-20261107",
+      "title": "Dr. Kai Ming Lee | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b282d53a38f0147057f51898a45735bcf042b05f976e731b49e48de390019d98",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Lecturer",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp01471"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-11-20261107",
+      "title": "Prof. Man Hoi Lee | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "192798199027ca7269ef1108d33204551621f70088b66e9c9c1b84457f9e9665",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct with Department of Physics",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/academic_staff/11"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-12-20261107",
+      "title": "Prof. Jeremy Jin Leong Lim | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a7a25561593332fe09786efc8e9adf0cddb216131d4c2694973b40f617acffb4",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.physics.hku.hk/people/academic/352",
+        "http://hub.hku.hk/rp/rp00745"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-13-20261107",
+      "title": "Prof. Francis Chi Chung Ling | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4c74807344fbabed22fe002b5141c5493deb974619394e5598402702f21c5c5b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.physics.hku.hk/people/academic/353",
+        "http://hub.hku.hk/rp/rp00747"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-14-20261107",
+      "title": "Prof. Tran Trung Luu | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8015e5b06a6a066a5722b98f7ac0c9fb6aa0b55480cc0abf1ced0fd3a32479ec",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.physics.hku.hk/~ttluu/",
+        "http://hub.hku.hk/cris/rp/rp02589"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-15-20261107",
+      "title": "Prof. Zi Yang Meng | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7d5b5e687da1f1aa48d2aa9b8da3b80a788b4c305e55f2fe491e789f8a1a5786",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor",
+        "研究量子多体系统、量子材料、量子纠缠、大规模数值模拟。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://quantummc.xyz/",
+        "http://hub.hku.hk/cris/rp/rp02524"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-16-20261107",
+      "title": "Prof. Stephen Chi Yung Ng | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7c1c115002e791ac3d078c2be9c486caf71e612dc3e21918a17afe052ab648c0",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "研究中子星、脉冲星、超新星遗迹、极端引力与电磁环境。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://astro.physics.hku.hk/~ncy/",
+        "http://hub.hku.hk/rp/rp01706"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-17-20261107",
+      "title": "Dr. Jason Chun Shing Pun | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "02a81a80f0f96e3415181803bd9fef6a9e2fa58eec1306c18dbcdee93d173c52",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Principal Lecturer",
+        "研究超新星与遗迹、宇宙射线、中微子物理、光污染。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00772"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-18-20261107",
+      "title": "Prof. Shunqing Shen | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0b53aed5b11676f382319df16f91d5112feef3abc4de1f75120f990172b67f98",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Chair of Condensed Matter Physics",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00775"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-19-20261107",
+      "title": "Prof. Yanjun Tu | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cc5437d49f6578cd683ed7c5ad48f047244d28721f144c747f25f71445db9449",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/cris/rp/rp01971"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-20-20261107",
+      "title": "Prof. Zhong Wan | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0f628827ad8b818a3369da25dc2476ae2e33ad8315c9783d97f682cb6102c7bd",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Assistant Professor",
+        "研究量子材料工程、纳米器件、低温量子输运。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/hku-wan-lab",
+        "https://hub.hku.hk/cris/rp/rp03486"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-21-20261107",
+      "title": "Prof. Chenjie Wang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f85828cd5961329649a4ddc4ed1d078a0a8eccb8344a4122a0234b88134ee9af",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/cris/rp/rp02502"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-22-20261107",
+      "title": "Prof. Yihan Wang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cb6c10ea1237a26bfea0be252578cc6e8c764bc03e7247439446159bfb13ed84",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Assistant Professor",
+        "研究时域与多信使天体物理、伽马射线暴、黑洞吸积、引力波源。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://yihanwangastro.github.io/"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-23-20261107",
+      "title": "Prof. Maohai Xie | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f9da5769281be35b24f25eebbd3ef20fcfb7a21ee45915727de00ca47371b809",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor",
+        "研究分子束外延、表面表征、扫描隧道显微镜、二维量子材料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00818"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-24-20261107",
+      "title": "Prof. Yi Yang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "015c95e3d72d19c2480512a64bd453afb553a9681d57ddacd4cc6e1ba788ccf0",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Assistant Professor, HKU-100 Scholar, Belinda Hung Outstanding Young Professor",
+        "研究光学物理、纳米光子学、光与材料相互作用、自由电子光学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.yiyg.hku.hk/",
+        "https://hub.hku.hk/cris/rp/rp02970"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-25-20261107",
+      "title": "Prof. Wang Yao | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "21ba691e199c8d6e744e9e32f6fa703c0ab4b4129e2f5524da4bd3a31de70f07",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Chair of Physics, FAPS, FOSA",
+        "研究二维量子材料、自旋与赝自旋、凝聚态物理、光学物理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00827"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-26-20261107",
+      "title": "Prof. Xiaobo Yin | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xb_yin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xb_yin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xb_yin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ee4161f0a984b9f92d8ae3bf66e2e927b04f089cf0b7cce46196e7ab6590283c",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.mech.hku.hk/academic-staff/Yin-X.B."
+      ]
+    },
+    {
+      "id": "hku-physics-profile-27-20261107",
+      "title": "Prof. Bing Zhang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "00122edee3395ed9cd8b55b010588aa0e262d5659bd01369827312bd10de429a",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Chair of Astrophysics, Global STEM Scholar",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-28-20261107",
+      "title": "Prof. Binzheng Zhang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "437ec0b82a9a0b0e7f8131c5be91292f6d36cf984288035f83b0786b9b18c60b",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor (by courtesy)",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/academic_staff/63"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-29-20261107",
+      "title": "Prof. Shizhong Zhang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c8734a680479f9ab15efdf469d83652bfdd191d3832be21bf2233e8b03de93c5",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Associate Head",
+        "研究超冷原子气体、量子多体物理、低温输运。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp01661"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-30-20261107",
+      "title": "Prof. Shuang Zhang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "38f73e1d5c3277032c8904cedea87aa0cedadf43aad94778b2287fef30b83315",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Professor, Chair of Photonics, FOSA, FAPS, Interim Head",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/cris/rp/rp02759"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-31-20261107",
+      "title": "Prof. Xiang Zhang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e559324fd56e4817f444655275f8b0d2dd6d3d35488391ff337292c5166b6f8c",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Chair Professor, President",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://xlab.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-32-20261107",
+      "title": "Prof. Zhendong Zhang | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "01ab82feca5348a73e75e593ea3362af75be7d69cbdd5486ec119d54220be405",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Assistant Professor",
+        "研究超冷离子、光学腔、离子与量子简并气体、超冷化学反应。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-33-20261107",
+      "title": "Prof. Yuxin Zhao | Teaching Staff | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "65f5480617177792d64e32dd1e88fd5359bb132ef5d0b21f1cae1029a9740bf3",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Associate Professor, HKU-100 Scholar",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://hub.hku.hk/cris/rp/rp02231"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-34-20261107",
+      "title": "Prof. Kwong Sang Cheng | Emeritus  Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "82077f26f3e87c4fbe8c2d5e03553070d52b9a7d75e19cc943c5a0e1d308a2e1",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Emeritus Professor, FAPS",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-35-20261107",
+      "title": "Prof. Jian Wang | Emeritus  Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f44d10197417a6aec3e67ef602f439c03f866595d0dcf7c6f4ac2f791b9f646a",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Emeritus Professor, FAPS",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://web.hku.hk/~jianwang/"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-36-20261107",
+      "title": "Prof. Zidan Wang | Emeritus  Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2c41533475538de562491dfa172b342a114b4205c866434af9b4c8a8e357a4f8",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Emeritus Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-37-20261107",
+      "title": "Prof. Gang Chen | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "67f6b12fd7147a43c6e111096760b00fa40e9d75bce657566e33289fa1ffe70f",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/cris/rp/rp02491"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-38-20261107",
+      "title": "Prof. Aleksandra B. Djurišić | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "55b08325df429a25056a675ead1d9697ff97090bccbfe40f159ada652bff42c9",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00690"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-39-20261107",
+      "title": "Prof. Donglai Feng | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "349da7380eed5312bb9d0bda847a52759b5aef3263fa9fe1aa1dd5051bb53899",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://quantum-materials.ustc.edu.cn"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-40-20261107",
+      "title": "Prof. Teruya Ishihara | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7551348159a98f43fb272efe00cf6c7ded157157467550fc34f112022df411f1",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Professor",
+        "研究非线性光学、层状半导体、超材料与超表面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-41-20261107",
+      "title": "Prof. Yuri Kivshar | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "724f9b2662c66a49706dcd094541dafcd8edff37d8c116e2d7c16e39c24a3f7e",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Distinguished Visiting Professor",
+        "研究非线性光子学、光孤子、超材料、纳米光子学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-42-20261107",
+      "title": "Prof. Enge Wang | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/eg_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/eg_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/eg_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2e3cf006a5dad6c314d1c4cb85962b400628eb7421947432fe3af862bb29f5fe",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://english.iop.cas.cn/pe/?t=detail&id=300"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-43-20261107",
+      "title": "Prof. Jian Wang | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a78d70065495441178eb99dae8acb017191031ef62cf64b5837be19d9357c682",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-44-20261107",
+      "title": "Prof. Zhigang Wu | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "297015941fbe0886202ea1009b16ae1bf9b00a55c0e601908f7a992be5ef86db",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Visiting Associate Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-45-20261107",
+      "title": "Prof. Shijie Xu | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "708f524ebee48fa903ac50b43cf74223d8ed2428817962f43fd6ca31c9bbdb29",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00821"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-46-20261107",
+      "title": "Prof. Fuchun Zhang | Honorary/ Visiting / Visiting Research Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0d4b74cf64bb2a1031d787643f15ef5c9663a7642783d308a135c627eed7f83f",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Visiting Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://hub.hku.hk/rp/rp00840"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-47-20261107",
+      "title": "Prof. Yang Liu | Honorary Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "91040b20495eb7afb04b95d7021be2104ed7a9776b1e7dd5de76f4f0531da682",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-48-20261107",
+      "title": "Prof. Alan Man Ching Ng | Honorary Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0edb3097c176c6580eb88ee706aea6e2dca92fd39587c45d29235bfb3f4b85f8",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Honorary Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-49-20261107",
+      "title": "Mr. Yuk Sing Lui | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "80bea12450085f4f3450c901682fb64ecfbdbced3accebdb3fac30170a0f773d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-50-20261107",
+      "title": "Dr. Po Leung | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "075ea7071f3d7739dfb83f14ff1192061b30743061863a45c31aae1be6335d39",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/site/alexpleung/"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-51-20261107",
+      "title": "Dr. Yanchang Lin | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7e7d9335b92e7b5de8cb1bed05fcfe705d8ebd702aaa82e0083211d5739efcfa",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-52-20261107",
+      "title": "Dr. Chu Wing So | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d40da1a4679e0131e94c7984a8b63f2de9f0b9f28ca087c1c39930e50a73a6bc",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-53-20261107",
+      "title": "Mr. Wai Po Tse | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6c33e191c68661ec414f584a4a64dff1487434bc64ed2e22fba8cbcba3a05822",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-54-20261107",
+      "title": "Dr. Tomoki Wada | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wada/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wada/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wada/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d9b8e6dce611ec5cafa1c17df6b3f5ca88bb6ef0dfd45b486312cb342553ce6d",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-55-20261107",
+      "title": "Dr. Dongyi Wang | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/dy_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/dy_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/dy_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f99b02e9ccc2d0458187e508937db699d2117f2960d4e6b73dfc23178d2834bb",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-56-20261107",
+      "title": "Mr. Wai Kin Wong | Adjunct/ Visiting Scholars | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0723250c41c15de1b4f41dca91da7278e42afa3691f0bc384116be9648e5271f",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Adjunct Assistant Professor",
+        "个人页未列研究段落；研究依据另见所引名单或实际提供页面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-57-20261107",
+      "title": "Dr. Yuanda Liao | Research Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "96f6c474a82541a9b9cfc045af263ebeb5bc0d56b290969c421bfec444f7563a",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Research Assistant Professor",
+        "研究量子多体物理、量子相变、量子蒙特卡洛、强关联费米子体系。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://quantummc.xyz/yuanda-liao/"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-58-20261107",
+      "title": "Dr. Zuzhang Lin | Research Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8044b9d407b01e5d3ffa25e18b00e5ee6381ff13dd36818585f2ffe2c6ac5c21",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Research Assistant Professor",
+        "研究光与物质相互作用、低维材料、第一性原理、分数量子反常霍尔效应。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-59-20261107",
+      "title": "Dr. Luca Pizzimento | Research Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "79ad22bae248343d640ae0e4abe4cc1a399519113e382905eddb0fdad79cf0bb",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Research Assistant Professor",
+        "研究粒子探测器、气体探测器、前端电子学、高能物理实验技术。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://repository.hku.hk/cris/rp/rp03111"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-60-20261107",
+      "title": "Dr. Wenbin Rui | Research Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6c0c7386aefc0d0149ab64f72344f09f47ac1937269bbc142e4181c7e193d222",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Research Assistant Professor",
+        "研究拓扑物态、非厄米物理、超导。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-profile-61-20261107",
+      "title": "Dr. Yipu Xia | Research Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fff66f1c7878b990095b736d6231cb9952f1ce02b59f2502f34e06ce91c06f5a",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Research Assistant Professor",
+        "研究二维材料生长、分子束外延、扫描隧道显微镜、一维电子体系。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://hub.hku.hk/cris/rp/rp03243"
+      ]
+    },
+    {
+      "id": "hku-physics-profile-62-20261107",
+      "title": "Dr. Dawei Zhai | Research Assistant Professors | Academic Staff | People | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "originalUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "retrievedUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "aaec6c1897a924b2a2d6d867f86d5a01da1397608f9339375f5735a65b7d61c4",
+      "evidenceLevel": "official_profile_body_read",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "Research Assistant Professor",
+        "研究二维材料、摩尔超晶格、应变调控、拓扑与输运性质。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-physics-linked-35ce2b89a5af-20261107",
+      "title": "Chiribella, Giulio - HKU CDS Computer Science",
+      "url": "https://www.cs.hku.hk/people/academic-staff/giulio/",
+      "originalUrl": "https://www.cs.hku.hk/index.php/people/academic-staff/giulio",
+      "retrievedUrl": "https://www.cs.hku.hk/people/academic-staff/giulio/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e78835f8989e3979c04e58d9e87626094524e8afa8d7d1613d08b77551564496",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-02-20261107"
+    },
+    {
+      "id": "hku-physics-linked-08f9e545d967-20261107",
+      "title": "CUI Lab",
+      "url": "https://www.physics.hku.hk/~cui/",
+      "originalUrl": "http://www.physics.hku.hk/~cui",
+      "retrievedUrl": "https://www.physics.hku.hk/~cui/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "918c099fd4d6b038fef3ffd1c45d17d4c1fab0e436368964e578711c6313439c",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-04-20261107"
+    },
+    {
+      "id": "hku-physics-linked-9838e881fe91-20261107",
+      "title": "Jane Lixin Dai 戴麗心 | Jane Lixin Dai",
+      "url": "https://www.physics.hku.hk/~janedai/",
+      "originalUrl": "https://www.physics.hku.hk/~janedai/",
+      "retrievedUrl": "https://www.physics.hku.hk/~janedai/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ca851c68cc9942e9cc1170351d8ffbf484be92cbc257db984ab518bbacded223",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-05-20261107"
+    },
+    {
+      "id": "hku-physics-linked-f456f72f29a0-20261107",
+      "title": "QDL-Home",
+      "url": "https://www.physics.hku.hk/~dkkilab/",
+      "originalUrl": "https://www.physics.hku.hk/~dkkilab/",
+      "retrievedUrl": "https://www.physics.hku.hk/~dkkilab/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b6c59fa24e2eb3f08ddbb28d6d6e2cedeec865b23a5b091290466389795b1dfa",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-07-20261107"
+    },
+    {
+      "id": "hku-physics-linked-e436f2d8f903-20261107",
+      "title": "Prof. Lee, Man Hoi | Academic Staff | People | The University of Hong Kong",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/11",
+      "originalUrl": "https://www.earthsciences.hku.hk/people/academic_staff/11",
+      "retrievedUrl": "https://www.earthsciences.hku.hk/people/academic_staff/11",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "10f6962a845a673e756018286df03f9de91ee53d3a664626bc1fb583637187b7",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-11-20261107"
+    },
+    {
+      "id": "hku-physics-linked-5c991d6d9f53-20261107",
+      "title": "Ultrafast Optics and Attosecond Science",
+      "url": "https://www.physics.hku.hk/~ttluu/",
+      "originalUrl": "https://www.physics.hku.hk/~ttluu/",
+      "retrievedUrl": "https://www.physics.hku.hk/~ttluu/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6f7ce569123e5e15aff99c63d17ae9b0a45ce653a5779031ad0b59831aac4624",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-14-20261107"
+    },
+    {
+      "id": "hku-physics-linked-938128cbe332-20261107",
+      "title": "Stephen C.-Y. Ng",
+      "url": "https://astro.physics.hku.hk/~ncy/",
+      "originalUrl": "https://astro.physics.hku.hk/~ncy/",
+      "retrievedUrl": "https://astro.physics.hku.hk/~ncy/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0880cfee3486d8bf9e122e7626b254c221cb0df21417d25cfaadf1821f11233b",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-16-20261107"
+    },
+    {
+      "id": "hku-physics-linked-eafaaf4ab2e2-20261107",
+      "title": "HKU Wan Lab",
+      "url": "https://sites.google.com/view/hku-wan-lab",
+      "originalUrl": "https://sites.google.com/view/hku-wan-lab",
+      "retrievedUrl": "https://sites.google.com/view/hku-wan-lab",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0efdaa9249fa791d11bd8b837420a57fce148dc9f15b4aa77ba1c96f7866ce44",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-20-20261107"
+    },
+    {
+      "id": "hku-physics-linked-bc9ce39d3bfc-20261107",
+      "title": "Yihan Wang (王艺涵)",
+      "url": "https://yihanwangastro.github.io/",
+      "originalUrl": "https://yihanwangastro.github.io/",
+      "retrievedUrl": "https://yihanwangastro.github.io/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ffe1f005a20b1f5fdf2eb1072a13418d618668ee08ea4fa2600910a701e070aa",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-22-20261107"
+    },
+    {
+      "id": "hku-physics-linked-5e20c5d185a6-20261107",
+      "title": "Home | Yang Group@HKU Phys",
+      "url": "https://yiyg.hku.hk/",
+      "originalUrl": "https://www.yiyg.hku.hk/",
+      "retrievedUrl": "https://yiyg.hku.hk/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "763e8719affe1a1b86315575d3f59dbefc3a8e0350690cbe0f1cf4cca88af960",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-24-20261107"
+    },
+    {
+      "id": "hku-physics-linked-1e291dff556c-20261107",
+      "title": "Prof. Zhang, Binzheng | Academic Staff | People | The University of Hong Kong",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/63",
+      "originalUrl": "https://www.earthsciences.hku.hk/people/academic_staff/63",
+      "retrievedUrl": "https://www.earthsciences.hku.hk/people/academic_staff/63",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ba44dbd327bd233213bfc42f3df98a2e61b2132b3954e932fdff237b99dd5d67",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-28-20261107"
+    },
+    {
+      "id": "hku-physics-linked-50368e9c9ef9-20261107",
+      "title": "Zhang Lab | HKU",
+      "url": "https://xlab.hku.hk/",
+      "originalUrl": "https://xlab.hku.hk/",
+      "retrievedUrl": "https://xlab.hku.hk/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "286c9253956289dc4148a0532a8211a549727e24d79b140b089e2f837a615173",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-31-20261107"
+    },
+    {
+      "id": "hku-physics-linked-355e9a0bb45b-20261107",
+      "title": "中国科学技术大学 - 复杂量子材料及其微结构研究组",
+      "url": "http://quantum-materials.ustc.edu.cn/main.htm",
+      "originalUrl": "http://quantum-materials.ustc.edu.cn",
+      "retrievedUrl": "http://quantum-materials.ustc.edu.cn/main.htm",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "001bc2137ddc0adedc8d0d588d63ab6489f9882a221a23f91acb3aa5f7989c69",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-39-20261107",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hku-physics-linked-a37430343028-20261107",
+      "title": "Alex P. Leung",
+      "url": "https://sites.google.com/site/alexpleung/",
+      "originalUrl": "https://sites.google.com/site/alexpleung/",
+      "retrievedUrl": "https://sites.google.com/site/alexpleung/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a98c6b7af695a72973d864746480e4e33411c936546550ab81be060a9cffc9db",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-50-20261107"
+    },
+    {
+      "id": "hku-physics-linked-04b0992078f8-20261107",
+      "title": "Yuan Da Liao – Quantum Many-Body & Numerics",
+      "url": "https://quantummc.xyz/yuanda-liao/",
+      "originalUrl": "https://quantummc.xyz/yuanda-liao/",
+      "retrievedUrl": "https://quantummc.xyz/yuanda-liao/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e9c6022db658fdeb9255ea35976d51bd73de07539ce9fb3f4139980aa5b1c6f7",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "本页的任职或明确研究介绍。",
+      "claims": [
+        "已读本页所列身份或研究段落。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hku-physics-profile-57-20261107"
+    },
+    {
+      "id": "hku-physics-rpg-scope-20261107",
+      "title": "Research Postgraduate Program | For Prospective Students | Graduate Studies | Department of Physics, The University of Hong Kong",
+      "url": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/research_postgraduate_program/",
+      "originalUrl": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/research_postgraduate_program/",
+      "retrievedUrl": "https://www.physics.hku.hk/graduate_studies/for_prospective_students/research_postgraduate_program/",
+      "checkedAt": "2026-11-07",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd0fcbfa0b01eb06c5e72cf54a0afad9da7a0d378920989d3a0951b3b686b19d",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系所列 2026/27 年研究型硕博介绍，保留原学年。",
+      "claims": [
+        "该页所列研究项目适用于 2026/27 学年，鼓励直接联系拟申请的导师。",
+        "页面把天文天体物理、原子光学量子、实验凝聚态材料、理论计算凝聚态、实验核与粒子物理分为研究组。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -184248,581 +188637,701 @@ window.APP_CATALOG = {
         "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53"
       ],
       "coverageComplete": false,
-      "coverageNotes": "已读这一个页面中的63个姓名及原职位，保留教学、研究、荣休或访问身份。其他类别与逐人网站继续待核；不是全单位教师总数、指导资格或招生余位。",
+      "coverageNotes": "已保存名录共 63 张人员卡，原主页全部读取。研究、教学、兼任、荣休及访问身份分别保留；两份研究介绍待核，访问博士后及附属研究员留在名录分类中。",
       "census": {
         "observedTotal": 63,
-        "profilesRead": 0,
-        "profilesFailed": 63,
-        "pendingReasonCounts": {
-          "not_read": 63
-        },
+        "profilesRead": 63,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
         "entries": [
           {
             "name": "Prof. Hoi Fung Chau",
             "directoryPosition": "Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-00",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Guanhua Chen",
             "directoryPosition": "Adjunct with Department of Physics",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/gh_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读身份；个人研究介绍仍待核。",
+            "researchReviewStatus": "research_pending"
           },
           {
             "name": "Prof. Giulio Chiribella",
             "directoryPosition": "Professor (by courtesy)",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-02",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Fung Kiu Chow",
             "directoryPosition": "Assistant Lecturer",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-03",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Xiaodong Cui",
             "directoryPosition": "Professor, Chair of Condensed Matter Physics, Associate Head",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-04",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Lixin Dai",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-05",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Sir Andre Geim",
             "directoryPosition": "Chair Professor, 2010 Nobel Prize in Physics",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-06",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Dong-Keun Ki",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-07",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Ferenc Krausz",
             "directoryPosition": "Professor, Chair of Laser Physics, 2023 Nobel Laureate in Physics",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-08",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Jenny Hiu Ching Lee",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-09",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Kai Ming Lee",
             "directoryPosition": "Lecturer",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-10",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Man Hoi Lee",
             "directoryPosition": "Adjunct with Department of Physics",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-11",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Jeremy Jin Leong Lim",
             "directoryPosition": "Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-12",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Francis Chi Chung Ling",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-13",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Tran Trung Luu",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-14",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Zi Yang Meng",
             "directoryPosition": "Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-15",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Stephen Chi Yung Ng",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-16",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Jason Chun Shing Pun",
             "directoryPosition": "Principal Lecturer",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-17",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Shunqing Shen",
             "directoryPosition": "Professor, Chair of Condensed Matter Physics",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-18",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Yanjun Tu",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-19",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Zhong Wan",
             "directoryPosition": "Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-20",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Chenjie Wang",
             "directoryPosition": "Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-21",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Yihan Wang",
             "directoryPosition": "Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-22",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Maohai Xie",
             "directoryPosition": "Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-23",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Yi Yang",
             "directoryPosition": "Assistant Professor, HKU-100 Scholar, Belinda Hung Outstanding Young Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-24",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Wang Yao",
             "directoryPosition": "Professor, Chair of Physics, FAPS, FOSA",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-25",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Xiaobo Yin",
             "directoryPosition": "Chair Professor (by courtesy)",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xb_yin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "复用已有机械工程研究记录；物理系保留 by courtesy 任职。所给旧机械网址返回失败，没有换地址重试。",
+            "facultyId": "hku-mechanical-24",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Bing Zhang",
             "directoryPosition": "Professor, Chair of Astrophysics, Global STEM Scholar",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-27",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Binzheng Zhang",
             "directoryPosition": "Associate Professor (by courtesy)",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-28",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Shizhong Zhang",
             "directoryPosition": "Professor, Associate Head",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-29",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Shuang Zhang",
             "directoryPosition": "Professor, Chair of Photonics, FOSA, FAPS, Interim Head",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-30",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Xiang Zhang",
             "directoryPosition": "Chair Professor, President",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-31",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Zhendong Zhang",
             "directoryPosition": "Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-32",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Yuxin Zhao",
             "directoryPosition": "Associate Professor, HKU-100 Scholar",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-33",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Kwong Sang Cheng",
             "directoryPosition": "Emeritus Professor, FAPS",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-34",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Jian Wang",
             "directoryPosition": "Emeritus Professor, FAPS",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-35",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Zidan Wang",
             "directoryPosition": "Emeritus Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-36",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Gang Chen",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-37",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Aleksandra B. Djurišić",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-38",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Donglai Feng",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-39",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Teruya Ishihara",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-40",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Yuri Kivshar",
             "directoryPosition": "Distinguished Visiting Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-41",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Enge Wang",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/eg_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读身份；个人研究介绍仍待核。",
+            "researchReviewStatus": "research_pending"
           },
           {
             "name": "Prof. Jian Wang",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-43",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Zhigang Wu",
             "directoryPosition": "Visiting Associate Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-44",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Shijie Xu",
             "directoryPosition": "Honorary Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-45",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Fuchun Zhang",
             "directoryPosition": "Visiting Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-46",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Yang Liu",
             "directoryPosition": "Honorary Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-47",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Prof. Alan Man Ching Ng",
             "directoryPosition": "Honorary Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-48",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Mr. Yuk Sing Lui",
             "directoryPosition": "Adjunct Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-49",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Po Leung",
             "directoryPosition": "Adjunct Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-50",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Yanchang Lin",
             "directoryPosition": "Adjunct Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-51",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Chu Wing So",
             "directoryPosition": "Adjunct Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-52",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Mr. Wai Po Tse",
             "directoryPosition": "Adjunct Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-53",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Tomoki Wada",
             "directoryPosition": "Visiting Postdoctoral Fellow",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wada/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "访问博士后或附属研究员身份保留在本分类中。",
+            "researchReviewStatus": "research_role_not_teacher_card"
           },
           {
             "name": "Dr. Dongyi Wang",
             "directoryPosition": "Adjunct Research Associate",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/dy_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "访问博士后或附属研究员身份保留在本分类中。",
+            "researchReviewStatus": "research_role_not_teacher_card"
           },
           {
             "name": "Mr. Wai Kin Wong",
             "directoryPosition": "Adjunct Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-56",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Yuanda Liao",
             "directoryPosition": "Research Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-57",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Zuzhang Lin",
             "directoryPosition": "Research Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-58",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Luca Pizzimento",
             "directoryPosition": "Research Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-59",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Wenbin Rui",
             "directoryPosition": "Research Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-60",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Yipu Xia",
             "directoryPosition": "Research Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-61",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           },
           {
             "name": "Dr. Dawei Zhai",
             "directoryPosition": "Research Assistant Professor",
             "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
             "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。",
+            "facultyId": "hku-physics-62",
+            "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
           }
         ],
         "unlinkedEntries": []
@@ -184831,6 +189340,590 @@ window.APP_CATALOG = {
       "enumerationScope": "saved_body_cards_only",
       "identityNotes": [
         "Prof. Jian Wang"
+      ],
+      "censusHistory": [
+        {
+          "batch": "hku-physics-census-20261107",
+          "census": {
+            "observedTotal": 63,
+            "profilesRead": 0,
+            "profilesFailed": 63,
+            "pendingReasonCounts": {
+              "not_read": 63
+            },
+            "entries": [
+              {
+                "name": "Prof. Hoi Fung Chau",
+                "directoryPosition": "Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Guanhua Chen",
+                "directoryPosition": "Adjunct with Department of Physics",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/gh_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Giulio Chiribella",
+                "directoryPosition": "Professor (by courtesy)",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Fung Kiu Chow",
+                "directoryPosition": "Assistant Lecturer",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Xiaodong Cui",
+                "directoryPosition": "Professor, Chair of Condensed Matter Physics, Associate Head",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Lixin Dai",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Sir Andre Geim",
+                "directoryPosition": "Chair Professor, 2010 Nobel Prize in Physics",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Dong-Keun Ki",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Ferenc Krausz",
+                "directoryPosition": "Professor, Chair of Laser Physics, 2023 Nobel Laureate in Physics",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Jenny Hiu Ching Lee",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Kai Ming Lee",
+                "directoryPosition": "Lecturer",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Man Hoi Lee",
+                "directoryPosition": "Adjunct with Department of Physics",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Jeremy Jin Leong Lim",
+                "directoryPosition": "Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Francis Chi Chung Ling",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Tran Trung Luu",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Zi Yang Meng",
+                "directoryPosition": "Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Stephen Chi Yung Ng",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Jason Chun Shing Pun",
+                "directoryPosition": "Principal Lecturer",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Shunqing Shen",
+                "directoryPosition": "Professor, Chair of Condensed Matter Physics",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Yanjun Tu",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Zhong Wan",
+                "directoryPosition": "Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Chenjie Wang",
+                "directoryPosition": "Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Yihan Wang",
+                "directoryPosition": "Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Maohai Xie",
+                "directoryPosition": "Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Yi Yang",
+                "directoryPosition": "Assistant Professor, HKU-100 Scholar, Belinda Hung Outstanding Young Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Wang Yao",
+                "directoryPosition": "Professor, Chair of Physics, FAPS, FOSA",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Xiaobo Yin",
+                "directoryPosition": "Chair Professor (by courtesy)",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xb_yin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Bing Zhang",
+                "directoryPosition": "Professor, Chair of Astrophysics, Global STEM Scholar",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Binzheng Zhang",
+                "directoryPosition": "Associate Professor (by courtesy)",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Shizhong Zhang",
+                "directoryPosition": "Professor, Associate Head",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Shuang Zhang",
+                "directoryPosition": "Professor, Chair of Photonics, FOSA, FAPS, Interim Head",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Xiang Zhang",
+                "directoryPosition": "Chair Professor, President",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Zhendong Zhang",
+                "directoryPosition": "Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Yuxin Zhao",
+                "directoryPosition": "Associate Professor, HKU-100 Scholar",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Kwong Sang Cheng",
+                "directoryPosition": "Emeritus Professor, FAPS",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Jian Wang",
+                "directoryPosition": "Emeritus Professor, FAPS",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Zidan Wang",
+                "directoryPosition": "Emeritus Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Gang Chen",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Aleksandra B. Djurišić",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Donglai Feng",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Teruya Ishihara",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Yuri Kivshar",
+                "directoryPosition": "Distinguished Visiting Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Enge Wang",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/eg_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Jian Wang",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Zhigang Wu",
+                "directoryPosition": "Visiting Associate Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Shijie Xu",
+                "directoryPosition": "Honorary Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Fuchun Zhang",
+                "directoryPosition": "Visiting Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Yang Liu",
+                "directoryPosition": "Honorary Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Prof. Alan Man Ching Ng",
+                "directoryPosition": "Honorary Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Mr. Yuk Sing Lui",
+                "directoryPosition": "Adjunct Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Po Leung",
+                "directoryPosition": "Adjunct Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Yanchang Lin",
+                "directoryPosition": "Adjunct Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Chu Wing So",
+                "directoryPosition": "Adjunct Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Mr. Wai Po Tse",
+                "directoryPosition": "Adjunct Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Tomoki Wada",
+                "directoryPosition": "Visiting Postdoctoral Fellow",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wada/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Dongyi Wang",
+                "directoryPosition": "Adjunct Research Associate",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/dy_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Mr. Wai Kin Wong",
+                "directoryPosition": "Adjunct Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Yuanda Liao",
+                "directoryPosition": "Research Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Zuzhang Lin",
+                "directoryPosition": "Research Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Luca Pizzimento",
+                "directoryPosition": "Research Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Wenbin Rui",
+                "directoryPosition": "Research Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Yipu Xia",
+                "directoryPosition": "Research Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              },
+              {
+                "name": "Dr. Dawei Zhai",
+                "directoryPosition": "Research Assistant Professor",
+                "profileUrl": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                "providedLinks": [],
+                "profileRead": false,
+                "reviewStatus": "not_read",
+                "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+              }
+            ],
+            "unlinkedEntries": []
+          },
+          "coverageNotes": "已读这一个页面中的63个姓名及原职位，保留教学、研究、荣休或访问身份。其他类别与逐人网站继续待核；不是全单位教师总数、指导资格或招生余位。"
+        }
       ]
     },
     {
@@ -190751,7 +195844,1091 @@ window.APP_CATALOG = {
               ]
             }
           ],
-          "staffEntries": [],
+          "staffEntries": [
+            {
+              "label": "物理系 · 学术与其他已列人员",
+              "url": "https://www.physics.hku.hk/people/academic_staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "hku-science-physics-staff-20261105"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. Hoi Fung Chau",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/hf_chau/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6f073b031e983820b0772590efc69b0afe4132f3e614168c7a49a675cd3a6377",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-00",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Guanhua Chen",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/gh_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2790003d89a3b2676a9a3a5e0d3facc109543e5e53cfc4cd42e3d8e9f65f8abb",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "research_pending",
+                  "reviewNote": "已读身份；个人研究介绍仍待核。"
+                },
+                {
+                  "name": "Prof. Giulio Chiribella",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/g_chiribella/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c50e13d55757dfaa9f27734b5925e7df231a52ee5993f80b4b095e4126af38ed",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-02",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Fung Kiu Chow",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fk_chow/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2e97137ba9f0db281f265c7c48deab598c459c8a066f909c0f43d4a43f3b291b",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-03",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Xiaodong Cui",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xd_cui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8c4f43c0d969a3aaec726f80b615cac31275f3a96f459c48b3576c66bcd4e2d7",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-04",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Lixin Dai",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/lx_dai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a1f318ee4c64fb9397bfe827f0d57fdad6c88f48d028334a2890a3b4b29c162d",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-05",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Sir Andre Geim",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/a_geim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "5f8792f654955367ea5dde060cdb1de637158d053006316725d04b631cc9686d",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-06",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Dong-Keun Ki",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/dk_ki/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1aecb365a48dc690b715de67d09011c69fe3fd484662542d99407ca0204d3564",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-07",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Ferenc Krausz",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/f_krausz/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "449996ee315bf9289eea0fb05e1d6c4c253c7eace29c2d059cb1350e05cc5088",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-08",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Jenny Hiu Ching Lee",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jhc_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7d86f25d60916b3acae778b52c14f3e845fbc1257dcc14acb852707e3ff998ab",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-09",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Kai Ming Lee",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/km_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "b282d53a38f0147057f51898a45735bcf042b05f976e731b49e48de390019d98",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-10",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Man Hoi Lee",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_lee/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "192798199027ca7269ef1108d33204551621f70088b66e9c9c1b84457f9e9665",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-11",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Jeremy Jin Leong Lim",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jjl_lim/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a7a25561593332fe09786efc8e9adf0cddb216131d4c2694973b40f617acffb4",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-12",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Francis Chi Chung Ling",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/fcc_ling/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "4c74807344fbabed22fe002b5141c5493deb974619394e5598402702f21c5c5b",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-13",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Tran Trung Luu",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/tt_luu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8015e5b06a6a066a5722b98f7ac0c9fb6aa0b55480cc0abf1ced0fd3a32479ec",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-14",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Zi Yang Meng",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zy_meng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7d5b5e687da1f1aa48d2aa9b8da3b80a788b4c305e55f2fe491e789f8a1a5786",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-15",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Stephen Chi Yung Ng",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/scy_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7c1c115002e791ac3d078c2be9c486caf71e612dc3e21918a17afe052ab648c0",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-16",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Jason Chun Shing Pun",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/jcs_pun/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "02a81a80f0f96e3415181803bd9fef6a9e2fa58eec1306c18dbcdee93d173c52",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-17",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Shunqing Shen",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sq_shen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0b53aed5b11676f382319df16f91d5112feef3abc4de1f75120f990172b67f98",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-18",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Yanjun Tu",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yj_tu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "cc5437d49f6578cd683ed7c5ad48f047244d28721f144c747f25f71445db9449",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-19",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Zhong Wan",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/z_wan/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0f628827ad8b818a3369da25dc2476ae2e33ad8315c9783d97f682cb6102c7bd",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-20",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Chenjie Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/cj_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f85828cd5961329649a4ddc4ed1d078a0a8eccb8344a4122a0234b88134ee9af",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-21",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Yihan Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yh_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "cb6c10ea1237a26bfea0be252578cc6e8c764bc03e7247439446159bfb13ed84",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-22",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Maohai Xie",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/mh_xie/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f9da5769281be35b24f25eebbd3ef20fcfb7a21ee45915727de00ca47371b809",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-23",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Yi Yang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/y_yang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "015c95e3d72d19c2480512a64bd453afb553a9681d57ddacd4cc6e1ba788ccf0",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-24",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Wang Yao",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/w_yao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "21ba691e199c8d6e744e9e32f6fa703c0ab4b4129e2f5524da4bd3a31de70f07",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-25",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Xiaobo Yin",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/xb_yin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ee4161f0a984b9f92d8ae3bf66e2e927b04f089cf0b7cce46196e7ab6590283c",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-mechanical-24",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "复用已有机械工程研究记录；物理系保留 by courtesy 任职。所给旧机械网址返回失败，没有换地址重试。"
+                },
+                {
+                  "name": "Prof. Bing Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/b_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "00122edee3395ed9cd8b55b010588aa0e262d5659bd01369827312bd10de429a",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-27",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Binzheng Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/bz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "437ec0b82a9a0b0e7f8131c5be91292f6d36cf984288035f83b0786b9b18c60b",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-28",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Shizhong Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/sz_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c8734a680479f9ab15efdf469d83652bfdd191d3832be21bf2233e8b03de93c5",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-29",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Shuang Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/s_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "38f73e1d5c3277032c8904cedea87aa0cedadf43aad94778b2287fef30b83315",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-30",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Xiang Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/x_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e559324fd56e4817f444655275f8b0d2dd6d3d35488391ff337292c5166b6f8c",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-31",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Zhendong Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/zd_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "01ab82feca5348a73e75e593ea3362af75be7d69cbdd5486ec119d54220be405",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-32",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Yuxin Zhao",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/teaching_staff/yx_zhao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "65f5480617177792d64e32dd1e88fd5359bb132ef5d0b21f1cae1029a9740bf3",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-33",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Kwong Sang Cheng",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/ks_cheng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "82077f26f3e87c4fbe8c2d5e03553070d52b9a7d75e19cc943c5a0e1d308a2e1",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-34",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Jian Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f44d10197417a6aec3e67ef602f439c03f866595d0dcf7c6f4ac2f791b9f646a",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-35",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Zidan Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/emeritus__professors/zd_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2c41533475538de562491dfa172b342a114b4205c866434af9b4c8a8e357a4f8",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-36",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Gang Chen",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/g_chen/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "67f6b12fd7147a43c6e111096760b00fa40e9d75bce657566e33289fa1ffe70f",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-37",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Aleksandra B. Djurišić",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/ab_djurisic/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "55b08325df429a25056a675ead1d9697ff97090bccbfe40f159ada652bff42c9",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-38",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Donglai Feng",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/dl_feng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "349da7380eed5312bb9d0bda847a52759b5aef3263fa9fe1aa1dd5051bb53899",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-39",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Teruya Ishihara",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/t_ishihara/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7551348159a98f43fb272efe00cf6c7ded157157467550fc34f112022df411f1",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-40",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Yuri Kivshar",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/y_kivshar/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "724f9b2662c66a49706dcd094541dafcd8edff37d8c116e2d7c16e39c24a3f7e",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-41",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Enge Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/eg_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2e3cf006a5dad6c314d1c4cb85962b400628eb7421947432fe3af862bb29f5fe",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "research_pending",
+                  "reviewNote": "已读身份；个人研究介绍仍待核。"
+                },
+                {
+                  "name": "Prof. Jian Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/j_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "a78d70065495441178eb99dae8acb017191031ef62cf64b5837be19d9357c682",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-43",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Zhigang Wu",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/z_wu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "297015941fbe0886202ea1009b16ae1bf9b00a55c0e601908f7a992be5ef86db",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-44",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Shijie Xu",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/sj_xu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "708f524ebee48fa903ac50b43cf74223d8ed2428817962f43fd6ca31c9bbdb29",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-45",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Fuchun Zhang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_visiting__visiting_research_professors/fc_zhang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0d4b74cf64bb2a1031d787643f15ef5c9663a7642783d308a135c627eed7f83f",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-46",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Yang Liu",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/yang_liu/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "91040b20495eb7afb04b95d7021be2104ed7a9776b1e7dd5de76f4f0531da682",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-47",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Prof. Alan Man Ching Ng",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/honorary_assistant_professors/amc_ng/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0edb3097c176c6580eb88ee706aea6e2dca92fd39587c45d29235bfb3f4b85f8",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-48",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Mr. Yuk Sing Lui",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yslui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "80bea12450085f4f3450c901682fb64ecfbdbced3accebdb3fac30170a0f773d",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-49",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Po Leung",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/p_leung/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "075ea7071f3d7739dfb83f14ff1192061b30743061863a45c31aae1be6335d39",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-50",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Yanchang Lin",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/yc_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7e7d9335b92e7b5de8cb1bed05fcfe705d8ebd702aaa82e0083211d5739efcfa",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-51",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Chu Wing So",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/cw_so/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d40da1a4679e0131e94c7984a8b63f2de9f0b9f28ca087c1c39930e50a73a6bc",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-52",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Mr. Wai Po Tse",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wp_tse/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6c33e191c68661ec414f584a4a64dff1487434bc64ed2e22fba8cbcba3a05822",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-53",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Tomoki Wada",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wada/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d9b8e6dce611ec5cafa1c17df6b3f5ca88bb6ef0dfd45b486312cb342553ce6d",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "research_role_not_teacher_card",
+                  "reviewNote": "访问博士后或附属研究员身份保留在本分类中。"
+                },
+                {
+                  "name": "Dr. Dongyi Wang",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/dy_wang/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f99b02e9ccc2d0458187e508937db699d2117f2960d4e6b73dfc23178d2834bb",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": null,
+                  "researchReviewStatus": "research_role_not_teacher_card",
+                  "reviewNote": "访问博士后或附属研究员身份保留在本分类中。"
+                },
+                {
+                  "name": "Mr. Wai Kin Wong",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/adjunct_visiting_scholars/wk_wong/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "0723250c41c15de1b4f41dca91da7278e42afa3691f0bc384116be9648e5271f",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-56",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Yuanda Liao",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yd_liao/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "96f6c474a82541a9b9cfc045af263ebeb5bc0d56b290969c421bfec444f7563a",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-57",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Zuzhang Lin",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/zz_lin/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8044b9d407b01e5d3ffa25e18b00e5ee6381ff13dd36818585f2ffe2c6ac5c21",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-58",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Luca Pizzimento",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/l_pizzimento/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "79ad22bae248343d640ae0e4abe4cc1a399519113e382905eddb0fdad79cf0bb",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-59",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Wenbin Rui",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/wb_rui/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6c0c7386aefc0d0149ab64f72344f09f47ac1937269bbc142e4181c7e193d222",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-60",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Yipu Xia",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/yp_xia/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "fff66f1c7878b990095b736d6231cb9952f1ce02b59f2502f34e06ce91c06f5a",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-61",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                },
+                {
+                  "name": "Dr. Dawei Zhai",
+                  "url": "https://www.physics.hku.hk/people/academic_staff/research_assistant_professors/dw_zhai/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+                  "observedOn": "https://www.physics.hku.hk/people/academic_staff/",
+                  "directoryLabel": "物理系 · 已列人员分类",
+                  "directorySourceIds": [
+                    "hku-science-physics-staff-20261105"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "aaec6c1897a924b2a2d6d867f86d5a01da1397608f9339375f5735a65b7d61c4",
+                  "readMethod": "anonymous_HTTP",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hku-physics-62",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "个人页身份已读；研究依据与原任职分类分别保留。"
+                }
+              ]
+            }
+          ],
           "childInventoryReview": {
             "checkedAt": "2026-10-29",
             "sourceIds": [
@@ -190772,7 +196949,8 @@ window.APP_CATALOG = {
               "child-units-hku-science-departments-20261029",
               "child-units-hku-science-rpg-departments-20261029",
               "scope-hku-science-leaflet-20261105",
-              "scope-hku-cds-about-20261105"
+              "scope-hku-cds-about-20261105",
+              "hku-physics-rpg-scope-20261107"
             ],
             "sourceAcademicYear": "2026/27",
             "datedSourceIds": [
@@ -190936,6 +197114,12 @@ window.APP_CATALOG = {
               "sourceId": "scope-hku-cds-about-20261105",
               "kind": "college_scope",
               "scope": "三个实际网址已接在下方；学院页中的研究生、授课项目和人员分类不混为下属学系。"
+            },
+            {
+              "label": "查看物理系研究学位介绍（2026/27）",
+              "kind": "research_admission_notice",
+              "sourceId": "hku-physics-rpg-scope-20261107",
+              "scope": "院系这页介绍的是 2026/27 学年，列五个研究组并建议联系潜在导师。新一轮要求和资助请从当期项目查看。"
             }
           ],
           "organizationReviewHistory": [
@@ -226220,5 +232404,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:1037686cfff1654911b9e27e6122c1ec0e4528aac8ea6e0a237d78a358e1d0ca"
+  "snapshotId": "sha256:ceb830bc4b8e276a72992c908df13181edd47e87a0491e75db30bfbe4b18fb17"
 };
