@@ -6,6 +6,16 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('medical applicant finds the separately listed emergency unit in Chinese and can open its actual official research page',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('cuhk','PhD',[]);
+ await el('profile-form').emit('input');await el('show-directories').emit('click');
+ const unit=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.includes('Faculty of Medicine'));
+ assert.ok(unit);const group=h.walk(unit).find(n=>n.className==='source-details organization-navigation'&&n.children[0]?.textContent==='院方另列的教研单位');
+ assert.ok(group);assert.match(group.textContent,/急症医学教研单位/);assert.match(group.textContent,/19 项/);
+ assert.match(group.textContent,/授课课程/);assert.ok(h.walk(group).some(n=>n.tagName==='a'&&n.href==='https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit'));
+ assert.equal(h.networkCalls(),0);
+});
+
 test('physics applicant searches quantum information and restores the chosen teacher and follow-up with original evidence',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);
  el('research-query').value='量子信息理论';await el('profile-form').emit('input',{target:el('research-query')});
