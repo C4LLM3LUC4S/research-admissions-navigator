@@ -15,7 +15,9 @@ test('ME additions preserve every prior source, teacher, programme, directory an
   for(const unit of school.units){
    const current=now.units.find(row=>row.id===unit.id);
    assert.deepEqual(current.children,unit.children);
-   assert.deepEqual(current.organizationReview,unit.organizationReview);
+   for(const [key,value] of Object.entries(unit.organizationReview||{})){
+    assert.deepEqual(key==='sourceIds'?current.organizationReview[key].slice(0,value.length):current.organizationReview[key],value);
+   }
    assert.deepEqual(current.staffEntries.slice(0,unit.staffEntries.length),unit.staffEntries);
   }
  }

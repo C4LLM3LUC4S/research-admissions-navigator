@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a30",
-  "stage": "alpha30_release_source",
+  "stage": "post_alpha30_website_update",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-07",
   "working_name": "研向",
@@ -9,24 +9,24 @@
     "universities": 7,
     "programme_or_route_cards": 55,
     "degree_routes": 94,
-    "faculty": 1428,
-    "official_sources": 2176,
+    "faculty": 1429,
+    "official_sources": 2181,
     "programmes_with_partial_requirements": 53,
     "requirement_items": 205,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
-    "official_directory_entries": 75,
+    "official_directory_entries": 76,
     "teacher_linked_sources": 472,
-    "total_sources": 2648,
+    "total_sources": 2653,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
     "reviewed_existing_updates": 5,
-    "profile_bodies_read": 1462,
+    "profile_bodies_read": 1466,
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
     "cityu_deferred_profiles": 4,
-    "observed_profile_links": 1592,
+    "observed_profile_links": 1596,
     "pending_research_review": 230,
     "sai_directory_pages": 6,
     "sai_profiles": 53,
@@ -139,6 +139,12 @@
       "unprovidedVisitorURLs": 8,
       "providedPersonalLinksRead": 11,
       "providedPersonal403": 1
+    },
+    "hkust_materials_portal": {
+      "observedProfiles": 4,
+      "newResearchRecords": 1,
+      "reusedExistingIDs": 3,
+      "wholeDepartmentComplete": false
     }
   },
   "implemented": [
@@ -376,8 +382,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:3a26cceee49c082552fdd9c653bf329836ac28591cc3a1b1e6901af1b93d3a8e",
-  "latest_data_batch": "data/research/polyu-me-census-20261107.json",
+  "current_catalogue_snapshot": "sha256:1037686cfff1654911b9e27e6122c1ec0e4528aac8ea6e0a237d78a358e1d0ca",
+  "latest_data_batch": "data/research/hkust-materials-portal-20261107.json",
   "changes_in_this_version": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",

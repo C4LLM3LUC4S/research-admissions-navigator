@@ -78755,6 +78755,47 @@
       },
       "recordKind": "directory_research",
       "directoryEvidenceSourceId": "polyu-me-9af1e7550452aff2-20261107"
+    },
+    {
+      "id": "hkust-materials-antonio-facchetti",
+      "name": "Antonio FACCHETTI",
+      "universityId": "hkust",
+      "department": "材料系",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/antonio-facchetti/",
+      "directoryRole": "Chair Professor; Dr William M W Mong Professor of Nanotechnology",
+      "summary": "研究印刷、柔性及可拉伸生物电子、有机和薄膜光伏、金属氧化物电子、储能聚合物、传感器和电光材料。",
+      "researchKeywords": [
+        "柔性生物电子",
+        "薄膜光伏",
+        "储能聚合物",
+        "电光材料"
+      ],
+      "topics": [
+        "材料与能源",
+        "电子与集成电路",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hkust-materials-profile-antonio-facchetti-20261107",
+        "hkust-materials-portal-20261107"
+      ],
+      "keywordSourceIds": [
+        "hkust-materials-profile-antonio-facchetti-20261107"
+      ],
+      "directorySourceIds": [
+        "hkust-materials-portal-20261107"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前接收安排请向项目或老师确认。",
+        "sourceIds": [
+          "hkust-materials-profile-antonio-facchetti-20261107"
+        ]
+      }
     }
   ],
   "sources": [
@@ -172199,6 +172240,100 @@
         "https://www.polyu.edu.hk/me/people/academic-teaching-staff/huo-xiaoyu-dr/"
       ],
       "reusedFromSourceId": "entry-read-staff-route-4ecaea5b32e31116"
+    },
+    {
+      "id": "hkust-materials-portal-20261107",
+      "url": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+      "checkedAt": "2026-11-07",
+      "title": "港科大材料系 · 官方研究门户",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官方研究门户中的任职与明确研究介绍。",
+      "claims": [
+        "门户将材料系列于工学院下，本页列四份成员档案。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "53effc1c176359441873ca8896fbb8d4bc91b7fc21a2519ada655b723add6cda",
+      "discoveredLinks": [
+        "https://researchportal.hkust.edu.hk/en/persons/antonio-facchetti/",
+        "https://researchportal.hkust.edu.hk/en/persons/yang-xiang/",
+        "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+        "https://researchportal.hkust.edu.hk/en/persons/yuanyuan-zhou/"
+      ]
+    },
+    {
+      "id": "hkust-materials-profile-antonio-facchetti-20261107",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/antonio-facchetti/",
+      "checkedAt": "2026-11-07",
+      "title": "Antonio FACCHETTI · 任职与研究",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官方研究门户中的任职与明确研究介绍。",
+      "claims": [
+        "Chair Professor; Dr William M W Mong Professor of Nanotechnology",
+        "研究印刷、柔性及可拉伸生物电子、有机和薄膜光伏、金属氧化物电子、储能聚合物、传感器和电光材料。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "6135f369ecdf8f4a02cda2fe9feb03d511c83a5fac5b81b21c803749d3940c6f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-materials-profile-yang-xiang-20261107",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yang-xiang/",
+      "checkedAt": "2026-11-07",
+      "title": "Yang XIANG（項陽） · 任职与研究",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官方研究门户中的任职与明确研究介绍。",
+      "claims": [
+        "Professor, Department of Materials; Professor, Department of Mathematics",
+        "研究材料科学建模与模拟、数据与图像科学、机器学习、偏微分方程和数值分析。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "6135f369ecdf8f4a02cda2fe9feb03d511c83a5fac5b81b21c803749d3940c6f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-materials-profile-kuanming-yao-20261107",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+      "checkedAt": "2026-11-07",
+      "title": "Kuanming YAO（姚寬明） · 任职与研究",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官方研究门户中的任职与明确研究介绍。",
+      "claims": [
+        "Assistant Professor, Department of Materials; Assistant Professor, Division of Integrative Systems and Design",
+        "研究机器人、生物电子、感知界面和人机交互。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "6135f369ecdf8f4a02cda2fe9feb03d511c83a5fac5b81b21c803749d3940c6f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-materials-profile-yuanyuan-zhou-20261107",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/yuanyuan-zhou/",
+      "checkedAt": "2026-11-07",
+      "title": "Yuanyuan ZHOU（周圓圓） · 任职与研究",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官方研究门户中的任职与明确研究介绍。",
+      "claims": [
+        "Acting Head and Professor, Department of Materials; Professor, Department of Chemical and Biological Engineering",
+        "研究钙钛矿半导体、多模态高时空分辨表征，以及半导体高通量合成与筛选。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "6482c92288b436795f35016123a8d9276c1dd9f9ac7350c580b301e6ecf22cb4",
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -185279,6 +185414,57 @@
       ],
       "coverageComplete": false,
       "coverageNotes": "本页包括外部学术顾问的任期，以及业界、校内和学生委员。查顾问与委员会组成时使用。"
+    },
+    {
+      "id": "hkust-materials-portal",
+      "universityId": "hkust",
+      "unit": "材料系 · 官方研究门户的已列成员",
+      "url": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+      "sourceIds": [
+        "hkust-materials-portal-20261107"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "本页列四份档案，并列数学、跨学科系统设计及化工的联合任职。它是研究门户的已列范围，完整师资以材料系正式名单为准。",
+      "census": {
+        "observedTotal": 4,
+        "profilesRead": 4,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "Antonio FACCHETTI",
+            "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/antonio-facchetti/",
+            "directoryPosition": "Chair Professor; Dr William M W Mong Professor of Nanotechnology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究门户任职与研究部分已读；既有教师编号复用。"
+          },
+          {
+            "name": "Yang XIANG（項陽）",
+            "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yang-xiang/",
+            "directoryPosition": "Professor, Department of Materials; Professor, Department of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究门户任职与研究部分已读；既有教师编号复用。"
+          },
+          {
+            "name": "Kuanming YAO（姚寬明）",
+            "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+            "directoryPosition": "Assistant Professor, Department of Materials; Assistant Professor, Division of Integrative Systems and Design",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究门户任职与研究部分已读；既有教师编号复用。"
+          },
+          {
+            "name": "Yuanyuan ZHOU（周圓圓）",
+            "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/yuanyuan-zhou/",
+            "directoryPosition": "Acting Head and Professor, Department of Materials; Professor, Department of Chemical and Biological Engineering",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究门户任职与研究部分已读；既有教师编号复用。"
+          }
+        ]
+      }
     }
   ],
   "academicCoverage": [
@@ -202728,6 +202914,90 @@
                   "researchReviewStatus": "pending"
                 }
               ]
+            },
+            {
+              "label": "材料系 · 官方研究门户的已列成员",
+              "url": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "hkust-materials-portal-20261107"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Antonio FACCHETTI",
+                  "url": "https://researchportal.hkust.edu.hk/en/persons/antonio-facchetti/",
+                  "observedOn": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+                  "directoryLabel": "材料系 · 官方研究门户",
+                  "directorySourceIds": [
+                    "hkust-materials-portal-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-materials-antonio-facchetti",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "6135f369ecdf8f4a02cda2fe9feb03d511c83a5fac5b81b21c803749d3940c6f"
+                },
+                {
+                  "name": "Yang XIANG（項陽）",
+                  "url": "https://researchportal.hkust.edu.hk/en/persons/yang-xiang/",
+                  "observedOn": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+                  "directoryLabel": "材料系 · 官方研究门户",
+                  "directorySourceIds": [
+                    "hkust-materials-portal-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-math-44",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "6135f369ecdf8f4a02cda2fe9feb03d511c83a5fac5b81b21c803749d3940c6f"
+                },
+                {
+                  "name": "Kuanming YAO（姚寬明）",
+                  "url": "https://researchportal.hkust.edu.hk/en/persons/kuanming-yao/",
+                  "observedOn": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+                  "directoryLabel": "材料系 · 官方研究门户",
+                  "directorySourceIds": [
+                    "hkust-materials-portal-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "review-hkust-6bc3e91fa5943e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "6135f369ecdf8f4a02cda2fe9feb03d511c83a5fac5b81b21c803749d3940c6f"
+                },
+                {
+                  "name": "Yuanyuan ZHOU（周圓圓）",
+                  "url": "https://researchportal.hkust.edu.hk/en/persons/yuanyuan-zhou/",
+                  "observedOn": "https://researchportal.hkust.edu.hk/en/organisations/department-of-materials/",
+                  "directoryLabel": "材料系 · 官方研究门户",
+                  "directorySourceIds": [
+                    "hkust-materials-portal-20261107"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "facultyId": "hkust-cbe-47336498acd858",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "6482c92288b436795f35016123a8d9276c1dd9f9ac7350c580b301e6ecf22cb4"
+                }
+              ]
             }
           ],
           "bodySha256": "eb8f032210471fed758d68183acf6ef57c8007e4ead1f286d4e704ad1f8e544f",
@@ -202737,7 +203007,8 @@
             "status": "listed_children_matched",
             "sourceIds": [
               "college-batch-hkust-2-20261029",
-              "college-batch-hkust-engineering-20261029"
+              "college-batch-hkust-engineering-20261029",
+              "hkust-materials-portal-20261107"
             ],
             "summary": "正式架构页列七个学系，另列六个中心或支持单位；两类分开。材料系保留在七系中，不能把十三条入口都当学系。",
             "organizationComplete": false,
@@ -202827,6 +203098,14 @@
                   "availability": "unknown"
                 }
               ]
+            }
+          ],
+          "reviewedNavigation": [
+            {
+              "label": "查看材料系的研究档案与已列成员",
+              "kind": "research_directory",
+              "sourceId": "hkust-materials-portal-20261107",
+              "scope": "官方研究门户本页列四份档案，包含跨系任职。可从这里读研究介绍；具体学位和当期申请入口另核。"
             }
           ]
         },
@@ -225941,5 +226220,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:3a26cceee49c082552fdd9c653bf329836ac28591cc3a1b1e6901af1b93d3a8e"
+  "snapshotId": "sha256:1037686cfff1654911b9e27e6122c1ec0e4528aac8ea6e0a237d78a358e1d0ca"
 }

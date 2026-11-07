@@ -643,6 +643,14 @@ def build_catalog():
     catalog["programs"].extend(polyu_me["programmes"])
     engineering = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == "polyu-4")
     engineering["staffEntries"].extend(polyu_me["staffEntries"])
+    materials = load("hkust-materials-portal-20261107.json")
+    catalog["sources"].extend(materials["sources"])
+    catalog["faculty"].extend(materials["faculty"])
+    catalog["directories"].extend(materials["directories"])
+    engineering = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == materials["unitId"])
+    engineering["organizationReview"]["sourceIds"].append(materials["sources"][0]["id"])
+    engineering.setdefault("reviewedNavigation", []).extend(materials["reviewedNavigation"])
+    engineering["staffEntries"].extend(materials["staffEntries"])
     return catalog
 
 
