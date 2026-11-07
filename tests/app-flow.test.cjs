@@ -8,7 +8,9 @@ const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
 test('mechanical applicant reads the current route and restores its research-plan task in a blank environment',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('polyu','MPhil',[]);
- el('research-query').value='机械工程';await el('profile-form').emit('input');
+ el('research-query').value='机械工程';await el('profile-form').emit('input',{target:el('research-query')});
+ assert.equal(el('show-faculty').attributes['aria-pressed'],'true');
+ await el('show-programs').emit('click');
  const p=C.programs.find(p=>p.id==='polyu-me-rpg-sept-2027');
  const card=el('results').children.find(n=>h.walk(n).some(x=>x.tagName==='h3'&&x.textContent===p.name));
  assert.ok(card);assert.match(card.textContent,/2027-05-31（具体时间请核对原页）/);
