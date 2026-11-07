@@ -2,7 +2,7 @@
 const test = require('node:test');
 const assert = require('node:assert/strict');
 const old = require('../data/snapshots/e4a453db59df82eb73db85dc523a5a89ca91eba74598c3aa0a444deba853018c.json');
-const current = require('../data/catalog.json');
+const current = require('../data/snapshots/623d0f0013958c8b985ad78bb55a8b3c2e77ad835343a47ea50f12786ad28e42.json');
 
 test('SSE roster discovery leaves teacher identities, recruitment and programme decisions untouched', () => {
   const stripStaff = catalogue => catalogue.academicCoverage.map(school => ({

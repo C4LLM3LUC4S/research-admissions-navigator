@@ -526,6 +526,26 @@ test('an applicant sees a source identity conflict before saving a medical-image
   const restored=harness([['yanxiang-local-v1',JSON.stringify(backup)]]);assert.match(restored.byId.get('saved-faculty').textContent,/Colin S. C. Tsang/);assert.match(restored.byId.get('saved-faculty').textContent,/没有确认与Colin Tsang的关系/);assert.equal(h.networkCalls(),0);
 });
 
+test('a PolyU design applicant can find the official chief-supervisor list and keep the action in a backup',async()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('polyu','PhD',[]);await el('profile-form').emit('input');
+  const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='设计学博士'));
+  assert.ok(card);
+  assert.match(card.textContent,/2027-05-31|2027\/05\/31/);
+  const nodes=h.walk(card),at=nodes.findIndex(n=>n.tagName==='h4'&&n.textContent==='先从主导师名单找人');
+  assert.ok(at>=0);
+  assert.match(card.textContent,/5,000 英文词/);
+  assert.ok(nodes.some(n=>n.href==='https://www.polyu.edu.hk/sd/study/rpg/phd/application/'));
+  assert.ok(nodes.some(n=>n.href==='https://www.polyu.edu.hk/en/gs/current-students/student-forms/'));
+  await nodes.slice(at).find(n=>n.tagName==='button').emit('click');
+  await el('profile-form').emit('submit');await el('export-local').emit('click');
+  const raw=await h.downloads.at(-1).blob.text(), fresh=harness(), fe=id=>fresh.byId.get(id);
+  fe('import-local').files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await fe('import-local').emit('change');
+  assert.match(fe('tasks').textContent,/在设计学院主导师名单中选出研究方向合适的老师/);
+  assert.equal(L.parsePortable(raw,C).tasks[0].programId,'polyu-sd-rpg-sept-2027');
+  assert.equal(h.networkCalls()+fresh.networkCalls(),0);
+});
+
 test('Shenzhen SSE directory keeps official page numbers and only builds people when requested',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   h.select('cuhksz','PhD',[]);await el('profile-form').emit('input');await el('show-directories').emit('click');

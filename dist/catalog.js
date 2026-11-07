@@ -5276,16 +5276,28 @@ window.APP_CATALOG = {
         }
       ],
       "sourceIds": [
-        "polyu-sd-sept-2027-20261106"
+        "polyu-sd-sept-2027-20261106",
+        "polyu-design-doctoral-application-20261107"
       ],
       "evidenceNote": "本条日期适用于官网所列 2027 年 9 月常规申请。",
       "requirements": [
         {
-          "label": "研究计划和两份学术推荐报告",
-          "text": "研究计划须使用标准表。官网同时要求两份学术推荐报告。",
-          "action": "打开原页下载研究计划表并联系两位推荐人",
+          "label": "先从主导师名单找人",
+          "text": "设计学院建议申请前先联系方向合适的老师。打开官网的 Eligible Chief Supervisors 名单，找到老师后，可先讨论研究计划。最终导师由学院安排。",
+          "action": "在设计学院主导师名单中选出研究方向合适的老师",
+          "url": "https://www.polyu.edu.hk/sd/study/rpg/phd/application/",
           "sourceIds": [
-            "polyu-sd-sept-2027-20261106"
+            "polyu-design-doctoral-application-20261107"
+          ]
+        },
+        {
+          "label": "研究计划和两份学术推荐报告",
+          "text": "用 GSB/1A 表写研究计划，正文不超过 5,000 英文词，参考文献不计。计划需与学院至少一个研究主题关联，说明 36 个月工作安排，并按表格请拟任主导师认可。另需两位学术推荐人提交报告。",
+          "action": "下载 GSB/1A 研究计划表，并联系两位学术推荐人",
+          "url": "https://www.polyu.edu.hk/en/gs/current-students/student-forms/",
+          "sourceIds": [
+            "polyu-sd-sept-2027-20261106",
+            "polyu-design-doctoral-application-20261107"
           ]
         },
         {
@@ -179008,6 +179020,27 @@ window.APP_CATALOG = {
         "默认列表第 18 页列有 2 张人员卡，保留官网所给姓名、职位和主页入口。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "polyu-design-doctoral-application-20261107",
+      "url": "https://www.polyu.edu.hk/sd/study/rpg/phd/application/",
+      "title": "港理工设计学院 · 博士申请与主导师名单",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "eb5afa62b31cecc12ee239c65dcad07b59895795b8786a1c2eb91c80b2dad96c",
+      "scope": "设计学院 PhD 申请细则，含主导师名单和表格。常规申请日期另见 2027 年 9 月简章。",
+      "claims": [
+        "学院单列 31 位可担任主导师的人员，建议申请人先联系合适人选；学院研究委员会仍可安排其他具资格的导师。",
+        "学院要求用 GSB/1A 准备研究计划，正文不超过 5,000 英文词（参考文献不计），表格列出拟任主导师认可及 36 个月工作计划。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/en/gs/current-students/student-forms/",
+        "https://www.polyu.edu.hk/study/pg/rpg/2027/sd"
+      ]
     }
   ],
   "funding": [
@@ -221502,7 +221535,8 @@ window.APP_CATALOG = {
             "summary": "学院介绍与研究名录已核对。名录列三个研究中心，Research Labs栏目列八项，其中RIDE原名为研究院。研究机构与学系分开；2025年在读博士人数不当招生余位。",
             "sourceIds": [
               "scope-polyu-design-about-20261102",
-              "scope-polyu-design-centres-20261102"
+              "scope-polyu-design-centres-20261102",
+              "polyu-design-doctoral-application-20261107"
             ],
             "organizationComplete": false,
             "facultyComplete": false,
@@ -221680,6 +221714,12 @@ window.APP_CATALOG = {
               "sourceId": "scope-polyu-design-centres-20261102",
               "scope": "已读名录；各机构主页和完整人员仍分别待核。",
               "kind": "research_directory"
+            },
+            {
+              "kind": "research_admission_notice",
+              "label": "查看设计学博士申请和主导师名单",
+              "scope": "申请设计学博士时，可先从这份名单找适合联系的老师。",
+              "sourceId": "polyu-design-doctoral-application-20261107"
             }
           ]
         },
@@ -236933,5 +236973,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:623d0f0013958c8b985ad78bb55a8b3c2e77ad835343a47ea50f12786ad28e42"
+  "snapshotId": "sha256:d2ac868c05949351cd5d7a8a261280bafa6458830af7de00e9b21a9dbbcdfd0d"
 };
