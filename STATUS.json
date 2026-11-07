@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0a30",
-  "stage": "post_alpha30_website_update",
+  "version": "0.1.0a31",
+  "stage": "alpha31_release_source",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-07",
   "working_name": "研向",
@@ -403,9 +403,14 @@
   ],
   "current_catalogue_snapshot": "sha256:e4a453db59df82eb73db85dc523a5a89ca91eba74598c3aa0a444deba853018c",
   "latest_data_batch": "data/research/hkustgz-roas-census-20261107.json",
-  "changes_in_this_version": [
+  "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",
     "新项目要求可加入待办，并随完整备份保存和恢复。"
+  ],
+  "changes_in_this_version": [
+    "补充港大物理系和港科广机器人与自主系统研究档案，保留原收藏编号。",
+    "新增港中文急症医学教研单位及港科大材料科学与工程系相关入口。",
+    "信息来源可按关键词搜索和分批浏览；收藏老师时保留展开的依据。"
   ]
 }
