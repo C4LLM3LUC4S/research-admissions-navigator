@@ -665,6 +665,12 @@ def build_catalog():
     science["staffEntries"].append(physics["staffEntry"])
     science["organizationReview"]["sourceIds"].append("hku-physics-rpg-scope-20261107")
     science.setdefault("reviewedNavigation", []).extend(physics["reviewedNavigation"])
+    medicine = load("cuhk-medical-unit-scope-20261107.json")
+    catalog["sources"].extend(medicine["sources"])
+    unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == medicine["unitId"])
+    unit["organizationReview"]["sourceIds"].extend(s["id"] for s in medicine["sources"])
+    unit.setdefault("relatedNavigationGroups", []).append(medicine["navigationGroup"])
+    unit.setdefault("reviewedNavigation", []).extend(medicine["reviewedNavigation"])
     return catalog
 
 
@@ -1084,10 +1090,12 @@ def validate(catalog):
                         assert entry["entryBodyStatus"] in {"not_read", "body_read"}
                         assert entry["supervisionEligibility"] == entry["availability"] == "unknown"
                         if entry["entryBodyStatus"] == "body_read":
-                            assert entry.get("readMethod") == "anonymous_HTTP"
+                            assert entry.get("readMethod") in {"anonymous_HTTP", "web_reader"}
                             validate_read_receipt(entry)
-                            assert any(sources[sid].get("bodySha256") == entry["bodySha256"]
-                                and sources[sid].get("readMethod") == "anonymous_HTTP"
+                            receipt_key = "readReceiptSha256" if "readReceiptSha256" in entry else "bodySha256"
+                            assert (entry["readMethod"] == "web_reader") == (receipt_key == "readReceiptSha256"), "Web text and HTTP bytes need different receipt kinds"
+                            assert any(sources[sid].get(receipt_key) == entry[receipt_key]
+                                and sources[sid].get("readMethod") == entry["readMethod"]
                                 and sources[sid]["url"] == entry.get("retrievedUrl")
                                 and entry["url"] in {sources[sid]["url"], sources[sid].get("originalUrl")}
                                 for sid in entry["sourceIds"]), "Read unit entry needs its own exact target body, not its parent receipt"

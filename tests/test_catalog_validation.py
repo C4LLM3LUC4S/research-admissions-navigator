@@ -13,6 +13,28 @@ spec.loader.exec_module(builder)
 
 
 class SourceDateChecks(unittest.TestCase):
+    def test_web_read_unit_cannot_borrow_its_parent_list_receipt(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'cuhk-6')
+        entry = u['relatedNavigationGroups'][-1]['entries'][0]
+        parent = next(s for s in self.catalog['sources'] if s['id'] == 'cuhk-medical-unit-list-20261107')
+        entry['readReceiptSha256'] = parent['readReceiptSha256']
+        with self.assertRaisesRegex(AssertionError, 'own exact target body'):
+            builder.validate(self.catalog)
+
+    def test_web_text_cannot_be_relabelled_as_raw_unit_bytes(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'cuhk-6')
+        entry = u['relatedNavigationGroups'][-1]['entries'][0]
+        entry['bodySha256'] = entry['readReceiptSha256']
+        with self.assertRaisesRegex(AssertionError, 'raw HTTP body'):
+            builder.validate(self.catalog)
+
+    def test_unit_read_receipt_cannot_move_to_a_different_page(self):
+        u = next(u for m in self.catalog['academicCoverage'] for u in m['units'] if u['id'] == 'cuhk-6')
+        entry = u['relatedNavigationGroups'][-1]['entries'][0]
+        entry['retrievedUrl'] = 'https://unrelated.example/unit'
+        with self.assertRaisesRegex(AssertionError, 'own exact target body'):
+            builder.validate(self.catalog)
+
     def test_directory_research_must_keep_its_actual_named_card_and_null_url(self):
         for key, value in [('name', 'Other person'), ('universityId', 'hku'), ('profileUrl', 'https://www.ee.cityu.edu.hk/'), ('sourceIds', [])]:
             with self.subTest(key=key):

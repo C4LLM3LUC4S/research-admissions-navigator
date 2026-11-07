@@ -10,14 +10,14 @@
     "programme_or_route_cards": 55,
     "degree_routes": 94,
     "faculty": 1487,
-    "official_sources": 2245,
+    "official_sources": 2247,
     "programmes_with_partial_requirements": 53,
     "requirement_items": 205,
     "programmes_with_partial_finances": 29,
     "finance_items": 50,
     "official_directory_entries": 76,
     "teacher_linked_sources": 487,
-    "total_sources": 2732,
+    "total_sources": 2734,
     "academic_unit_rows": 66,
     "listed_child_units": 230,
     "reviewed_new_profiles": 165,
@@ -362,7 +362,7 @@
     }
   },
   "release_scope_note": "中文院系导航、申请卡片简化及三份院系官网正文。实际公开附件和浏览器验收分别记录。",
-  "unreleased_source_note": "当前网页资料含发行后新增的港科大材料门户及港大物理系人员核查；a30 离线包保持发行时的资料。",
+  "unreleased_source_note": "当前网页资料含发行后新增的港科大材料门户、港大物理系人员核查和港中文医学院补充单位；a30 离线包保持发行时的资料。",
   "released_changes_a27": [
     "港大法学院2024行政统一声明与城大商学院实给HTTPS入口",
     "港大2026/27理学院小册子口径差异、三个下层系与三项研究机构",
@@ -393,8 +393,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:ceb830bc4b8e276a72992c908df13181edd47e87a0491e75db30bfbe4b18fb17",
-  "latest_data_batch": "data/research/hku-physics-census-20261107.json",
+  "current_catalogue_snapshot": "sha256:1b08474fa6fc81e2dc042e7a8e9cffc39ce90febe530930289425f17e1cacf8c",
+  "latest_data_batch": "data/research/cuhk-medical-unit-scope-20261107.json",
   "changes_in_this_version": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",

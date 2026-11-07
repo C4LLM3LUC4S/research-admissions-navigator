@@ -176723,6 +176723,53 @@
       ],
       "knownIssues": [],
       "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-medical-unit-list-20261107",
+      "url": "https://med.cuhk.edu.hk/about-us/schools-departments-and-unit",
+      "originalUrl": "https://med.cuhk.edu.hk/about-us/schools-departments-and-unit",
+      "retrievedUrl": "https://med.cuhk.edu.hk/about-us/schools-departments-and-unit",
+      "title": "港中文医学院：School、学系与教研单位分类",
+      "checkedAt": "2026-11-07",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "bb1abd4c4b97d974636c79a88460bee3571a1a9fc79ecbeba0044b5e923dd66f",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "院方此页分列 5 个 School、14 个 Department，另列 Accident and Emergency Medicine Academic Unit。",
+        "校级既有页面的 19 项名单保留原范围，不将新增分类合并成全校统一总数。"
+      ],
+      "scope": "医学院自身页面所列分类与单位介绍，保留与校级页面的范围差异。",
+      "knownIssues": [
+        "普通 HTTP 采集遇证书链校验失败；此条依据为已实际返回正文的网页阅读收据，不冒充原始 HTTP 字节。"
+      ],
+      "discoveredLinks": [
+        "https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit"
+      ]
+    },
+    {
+      "id": "cuhk-emergency-academic-unit-20261107",
+      "url": "https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit",
+      "originalUrl": "https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit",
+      "retrievedUrl": "https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit",
+      "title": "港中文急症医学教研单位：研究与人员介绍",
+      "checkedAt": "2026-11-07",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "55e72967d9e1e036696da6a9d9304555b8cae5618fbbbfbcc07820a8323a4473",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "本单位成立于 1995 年，介绍急症医学、心血管与主动脉疾病、严重创伤及复苏照护研究。",
+        "本页所列 PEC 文凭与理学硕士不能当作 MPhil/PhD 研究学位申请入口。",
+        "本页所列两名学术人员及其跨单位任职保留在本页，不推定完整师资或当前招生。"
+      ],
+      "scope": "医学院自身页面所列分类与单位介绍，保留与校级页面的范围差异。",
+      "knownIssues": [
+        "普通 HTTP 采集遇证书链校验失败；此条依据为已实际返回正文的网页阅读收据，不冒充原始 HTTP 字节。"
+      ],
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -202557,14 +202604,61 @@
             "checkedAt": "2026-10-29",
             "status": "listed_children_matched",
             "sourceIds": [
-              "college-batch-cuhk-6-20261029"
+              "college-batch-cuhk-6-20261029",
+              "cuhk-medical-unit-list-20261107",
+              "cuhk-emergency-academic-unit-20261107"
             ],
             "summary": "本页列十九个学系或School。旧目录中的十七项需要与当前名单逐项对照，补齐护理与公共卫生相关School，同时保留原条目及读取状态。",
             "organizationComplete": false,
             "facultyComplete": false,
             "listedChildren": 19
           },
-          "relatedNavigationGroups": []
+          "relatedNavigationGroups": [
+            {
+              "kind": "related_academic_units",
+              "title": "院方另列的教研单位",
+              "note": "医学院自己的分类页另列下方教研单位。原校级页的 19 项学系与 School 名单保留在上方，分别查看即可。",
+              "sourceIds": [
+                "cuhk-medical-unit-list-20261107",
+                "cuhk-emergency-academic-unit-20261107"
+              ],
+              "entries": [
+                {
+                  "name": "Accident and Emergency Medicine Academic Unit",
+                  "observedName": "Accident and Emergency Medicine Academic Unit",
+                  "kind": "teaching_unit",
+                  "url": "https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit",
+                  "sourceIds": [
+                    "cuhk-medical-unit-list-20261107",
+                    "cuhk-emergency-academic-unit-20261107"
+                  ],
+                  "entryBodyStatus": "body_read",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "55e72967d9e1e036696da6a9d9304555b8cae5618fbbbfbcc07820a8323a4473",
+                  "retrievedUrl": "https://www.med.cuhk.edu.hk/about-us/schools-departments-and-unit/accident-and-emergency-medicine-academic-unit",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "研究包括急症医学、严重创伤与复苏照护。本页介绍的 PEC 文凭及理学硕士另属授课课程；想申请研究型硕博，请继续查对应项目。"
+                }
+              ]
+            }
+          ],
+          "reviewedNavigation": [
+            {
+              "label": "查看医学院的 School、学系与教研单位分类",
+              "kind": "college_scope",
+              "sourceId": "cuhk-medical-unit-list-20261107",
+              "scope": "院方页面按 5 个 School、14 个学系和 1 个教研单位分类，可继续打开各单位介绍。"
+            },
+            {
+              "label": "查看急症医学教研单位的研究与人员",
+              "kind": "college_scope",
+              "sourceId": "cuhk-emergency-academic-unit-20261107",
+              "scope": "先看研究主题和任职，再从对应研究型项目核申请要求。此页的 PEC 文凭、理学硕士与 MPhil/PhD 分开。"
+            }
+          ]
         },
         {
           "id": "cuhk-7",
@@ -232404,5 +232498,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:ceb830bc4b8e276a72992c908df13181edd47e87a0491e75db30bfbe4b18fb17"
+  "snapshotId": "sha256:1b08474fa6fc81e2dc042e7a8e9cffc39ce90febe530930289425f17e1cacf8c"
 }

@@ -134,6 +134,7 @@
     "Department of Mechanical and Automation Engineering": "机械与自动化工程学系",
     "Department of Systems Engineering and Engineering Management": "系统工程与工程管理学系",
     "Faculty of Medicine": "医学院",
+    "Accident and Emergency Medicine Academic Unit": "急症医学教研单位",
     "Department of Anaesthesia and Intensive Care": "麻醉及深切治疗学系",
     "Department of Anatomical and Cellular Pathology": "解剖及细胞病理学系",
     "Department of Chemical Pathology": "化学病理学系",
