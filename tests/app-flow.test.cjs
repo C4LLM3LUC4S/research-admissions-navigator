@@ -371,7 +371,8 @@ function harness(initialStorage,options={}) {
   const walk=(element)=>[element,...element.children.flatMap(walk)];
   const button=(parent,text)=>{const found=walk(byId.get(parent)).find(x=>x.tagName==='button'&&x.textContent.includes(text));assert.ok(found,text);return found;};
   function select(university,degree,interests){query('[name=degree]').forEach(x=>{x.checked=x.value===degree;});query('[name=university]').forEach(x=>{x.checked=x.value===university;});query('[name=interest]').forEach(x=>{x.checked=interests.includes(x.value);});}
-  return {byId,saved,downloads,button,select,walk,networkCalls:()=>networkCalls};
+  const openView=name=>query('[data-view]').find(n=>n.dataset.view===name).emit('click');
+  return {byId,saved,downloads,button,select,walk,openView,networkCalls:()=>networkCalls};
 }
 
 test('a ready catalogue replaces the initial waiting guide rather than retaining a false loading state',()=>{
@@ -384,8 +385,36 @@ test('access-check entries and source evidence never tell applicants institution
   assert.match(el('academic-coverage').textContent,/入口返回访问检查页，尚未读到院系正文/);
   const bios=h.walk(el('academic-coverage')).find(n=>n.tagName==='li'&&n.children.some(c=>c.textContent==='生物统计学系 · Department of Biostatistics ↗'));
   assert.ok(bios);assert.doesNotMatch(bios.textContent,/已读学系\/学域入口/);assert.match(bios.textContent,/入口读取失败/);
+  await h.openView('sources');
+  el('source-query').value='未读到正文 2026-10-26';await el('source-query').emit('input');
   const cards=el('source-list').children.filter(c=>c.children.some(n=>n.textContent==='官方入口（未读到正文） · 核查 2026-10-26'));
   assert.equal(cards.length,5);assert.ok(cards.every(c=>!c.textContent.includes('已读取入口正文')));assert.equal(h.networkCalls(),0);
+});
+
+test('source search finds the robotics guide without rendering thousands of cards on the application page',async()=>{
+  const h=harness(),el=id=>h.byId.get(id),list=el('source-list'),query=el('source-query');
+  assert.equal(list.childElementCount,0);
+  await h.openView('sources');
+  assert.equal(list.childElementCount,36);
+  assert.match(el('source-count').textContent,new RegExp('36 / '+C.sources.length));
+  const first=list.children[0];
+  await el('show-more-sources').emit('click');
+  assert.equal(list.childElementCount,72);
+  assert.equal(list.children[0],first);
+  assert.ok(list.children[36].children.find(n=>n.tagName==='h2').focusRequested);
+  query.value='港科广 系统枢纽 申请指南';await query.emit('input');
+  const url='https://sysh.hkust-gz.edu.cn/zh/academics/research-postgraduate-study/postgraduate-programs/admission-and-application/';
+  const guide=list.children.find(card=>h.walk(card).some(n=>n.href===url));
+  assert.ok(guide);
+  await h.openView('shortlist');await h.openView('sources');
+  assert.ok(list.children.includes(guide));
+  query.value='完全没有的来源___';await query.emit('input');
+  assert.equal(list.childElementCount,0);
+  assert.equal(el('show-more-sources').hidden,true);
+  assert.match(el('source-count').textContent,/没有匹配/);
+  query.value='';await query.emit('input');
+  assert.equal(list.childElementCount,36);
+  assert.equal(h.networkCalls(),0);
 });
 
 test('collapsed direction filters reveal active saved choices and remain clearable after backup restore',async()=>{
@@ -519,7 +548,7 @@ test('a Function Hub applicant saves a scoped doctoral action and sees the separ
 test('actual catalog callbacks: filter, inspect evidence, keep tasks/faculty, save, reject bad replacement, restore and export a private draft',async()=>{
   const h=harness(),el=id=>h.byId.get(id);
   assert.ok(el('results').childElementCount>0);
-  assert.equal(el('source-list').childElementCount,C.sources.length);
+  assert.equal(el('source-list').childElementCount,0);
   h.select('hkustgz','MPhil',['机器学习']);
   el('gpa-note').value='<script>这只是合成测试备注</script>';
   await el('profile-form').emit('input');

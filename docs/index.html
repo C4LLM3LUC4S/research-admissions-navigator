@@ -6,10 +6,10 @@
   <meta name="color-scheme" content="light">
   <title>研向 · 看清要求，找到方向</title>
   <link rel="stylesheet" href="styles.css?v=b75216002e5df080">
-  <link rel="stylesheet" href="discovery.css?v=bf2972d25c000d61">
+  <link rel="stylesheet" href="discovery.css?v=f722f723de567968">
   <script defer src="catalog.js?v=95817e59a53ac918"></script>
   <script defer src="logic.js?v=43866c2e0eaa4673"></script>
-  <script defer src="app.js?v=a51c7d87eba4f919"></script>
+  <script defer src="app.js?v=ee19015e6e81f463"></script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">跳到主要内容</a>
@@ -67,7 +67,13 @@
     </section>
     <section id="view-sources" class="view" hidden>
       <div class="page-heading"><div><p class="eyebrow">CHECK THE ORIGINAL</p><h1>每条信息，都留一个出处。</h1><p class="subtitle">按项目和入学轮次找到原网页，确认申请细节与最新安排。</p></div></div>
+      <div class="source-search">
+        <label for="source-query" class="field-label">搜索来源</label>
+        <input id="source-query" type="text" maxlength="160" placeholder="例如：机器人、2027/28，或输入网址">
+        <p id="source-count" class="field-help" role="status"></p>
+      </div>
       <div id="source-list" class="source-list"></div>
+      <button id="show-more-sources" class="button secondary source-more" type="button" hidden>显示更多来源</button>
     </section>
     <section id="view-community" class="view" hidden>
       <div class="page-heading"><div><p class="eyebrow">EXPERIENCE, WITH CONTEXT</p><h1>把申请经历整理下来。</h1><p class="subtitle">按学校、项目和轮次记录进展，下载一份匿名草稿留作参考。</p></div></div>
