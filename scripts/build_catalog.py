@@ -709,6 +709,19 @@ def build_catalog():
     design_program["sourceIds"].append(design["source"]["id"])
     assert design_program["requirements"][0]["label"] == design["requirementUpdates"][1]["label"]
     design_program["requirements"][:1] = design["requirementUpdates"]
+    sse_stem = load("cuhksz-sse-stem-20261107.json")
+    assert sse_stem["unitId"] == sse["id"]
+    catalog["sources"].extend(sse_stem["sources"])
+    for update in sse_stem["facultyUpdates"]:
+        original = faculty_by_id[update["id"]]
+        assert original["universityId"] == "cuhksz", "Keep campus records separate"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    catalog["faculty"].extend(sse_stem["faculty"])
+    lead_by_url = {lead["url"]: lead for lead in sse["staffEntries"][0]["profileLeads"]}
+    for update in sse_stem["leadUpdates"]:
+        lead_by_url[update["url"]].update(update)
     return catalog
 
 
