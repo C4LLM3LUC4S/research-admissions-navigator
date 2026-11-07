@@ -194311,6 +194311,24 @@ window.APP_CATALOG = {
       "coverageNotes": "可打开官网，按职位或研究领域筛选。这里保留默认名录的 18 页人员入口。"
     }
   ],
+  "directApplicationRoutes": {
+    "hkust-fina-rpg": {
+      "cycle": "2027/28",
+      "degrees": [
+        "PhD"
+      ],
+      "sourceId": "hkust-fina-2027",
+      "checkedAt": "2026-11-07"
+    },
+    "hkust-is-rpg": {
+      "cycle": "2027/28",
+      "degrees": [
+        "PhD"
+      ],
+      "sourceId": "hkust-is-2027",
+      "checkedAt": "2026-11-07"
+    }
+  },
   "academicCoverage": [
     {
       "universityId": "hku",
@@ -238420,5 +238438,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:475c8e05d4e3b03cedd9aac4a7715c3baca108a66afca79692ed4ba37d313317"
+  "snapshotId": "sha256:4fea2434990a56744359467630bb11a322c5b3032556cbe6d65647b70ef1231d"
 };

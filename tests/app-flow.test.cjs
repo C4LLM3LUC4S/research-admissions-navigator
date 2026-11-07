@@ -6,6 +6,24 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('standalone MPhil applicants do not see the two PhD-only integrated routes as options',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);
+ const names=C.programs.filter(p=>['hkust-fina-rpg','hkust-is-rpg'].includes(p.id)).map(p=>p.name);
+ assert.equal(names.length,2);
+ const cards=()=>el('results').children.filter(card=>h.walk(card).some(n=>n.tagName==='h3'&&names.includes(n.textContent)));
+ h.select('hkust','MPhil',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');
+ assert.equal(cards().length,0);
+ assert.match(el('results').textContent,/计算机科学与工程/);
+ h.select('hkust','PhD',[]);await el('profile-form').emit('input');
+ assert.equal(cards().length,2);
+ for(const card of cards()){
+   const badge=h.walk(card).find(n=>n.className==='degree-line');
+   assert.equal(badge.textContent,'PhD · 博士');
+   assert.match(card.textContent,/网申须选PhD/);
+ }
+ assert.equal(h.networkCalls(),0);
+});
+
 test('robotics applicant can keep reading evidence after bookmarking and restore a follow-up in a blank session',async()=>{
  const h=harness(),el=id=>h.byId.get(id);h.select('hkustgz','PhD',[]);
  el('research-query').value='多机器人系统';await el('profile-form').emit('input',{target:el('research-query')});

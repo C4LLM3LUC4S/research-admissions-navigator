@@ -457,8 +457,12 @@
     return interests.filter(tag => INTERESTS.includes(tag) && (faculty.topics||[]).some(topic=>
       INTERESTS.includes(topic)?topic===tag:KEYWORDS[INTERESTS.indexOf(tag)].test(topic)));
   }
+  function applicationDegrees(catalog, program) {
+    const route = (catalog.directApplicationRoutes || {})[program.id];
+    return route && route.cycle === program.cycle ? route.degrees : (program.degrees || []);
+  }
   function programsFor(catalog, profile) {
-    return catalog.programs.filter(p => (p.degrees || []).includes(profile.degree) &&
+    return catalog.programs.filter(p => applicationDegrees(catalog, p).includes(profile.degree) &&
       (!profile.universityIds.length || profile.universityIds.includes(p.universityId)) &&
       (!profile.cycle || p.cycleVerified===false || p.cycle===profile.cycle || (p.deadlines||[]).some(d=>d.cycle===profile.cycle&&(!d.degree||d.degree===profile.degree))));
   }
@@ -637,5 +641,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {academicChineseName,academicLabel,INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
+  return {academicChineseName,academicLabel,INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,applicationDegrees,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
 }));

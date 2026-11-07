@@ -1,5 +1,9 @@
 {
   "checkedDate": "2026-10-26",
+  "directApplicationRoutes": {
+    "hkust-fina-rpg": {"cycle": "2027/28", "degrees": ["PhD"], "sourceId": "hkust-fina-2027", "checkedAt": "2026-11-07"},
+    "hkust-is-rpg": {"cycle": "2027/28", "degrees": ["PhD"], "sourceId": "hkust-is-2027", "checkedAt": "2026-11-07"}
+  },
   "sources": [
     {
       "id": "hkust-math-2027",
