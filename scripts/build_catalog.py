@@ -5,6 +5,7 @@ both existing outputs against the source packs without rewriting any file.
 """
 import argparse
 import hashlib
+from html import escape
 import json
 import re
 from collections import Counter
@@ -1268,6 +1269,37 @@ def asset_versioned_html(html, assets):
     return html
 
 
+def startup_project_html(catalog):
+    sources = {source["id"]: source for source in catalog["sources"]}
+    groups = []
+    for school in catalog["universities"]:
+        projects = []
+        for project in catalog["programs"]:
+            if project["universityId"] != school["id"]:
+                continue
+            url = project.get("entryUrl") or next(
+                sources[sid]["url"] for sid in project["sourceIds"]
+                if sources[sid]["url"].startswith("https://")
+            )
+            assert url.startswith("https://")
+            cycle = "入学轮次待核" if project.get("cycleVerified") is False else project["cycle"]
+            projects.append(
+                '<li><a target="_blank" rel="noopener noreferrer" data-project-id="'
+                + escape(project["id"], quote=True) + '" href="' + escape(url, quote=True) + '">'
+                + escape(project["name"]) + ' ↗</a><small>'
+                + escape(" / ".join(project["degrees"]) + " · " + cycle) + '</small></li>'
+            )
+        groups.append('<details><summary>' + escape(school["short"])
+                      + '</summary><ul>' + "".join(projects) + '</ul></details>')
+    return (
+        '<section id="startup-projects" class="startup-projects" aria-labelledby="startup-project-title">'
+        '<h2 id="startup-project-title">按学校查看项目官网</h2>'
+        '<p>选择学校，先查看学位、材料和申请时间。教师检索与清单正在载入。</p>'
+        '<div class="startup-school-grid">' + "".join(groups) + '</div>'
+        '<a href="./index.html#explore">重新载入完整页面</a></section>'
+    )
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
@@ -1284,7 +1316,14 @@ def main():
     assets = {name: (js.encode("utf-8") if name == "catalog.js" else (ROOT / "dist" / name).read_bytes())
               for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css")}
     index = ROOT / "dist/index.html"
-    outputs[index] = asset_versioned_html(index.read_text(encoding="utf-8"), assets)
+    html = index.read_text(encoding="utf-8")
+    html, count = re.subn(
+        r"<!-- STARTUP_PROJECTS_START -->.*?<!-- STARTUP_PROJECTS_END -->",
+        "<!-- STARTUP_PROJECTS_START -->\n" + startup_project_html(catalog)
+        + "\n<!-- STARTUP_PROJECTS_END -->", html, flags=re.S,
+    )
+    assert count == 1
+    outputs[index] = asset_versioned_html(html, assets)
     # GitHub Pages serves this generated mirror; --check prevents it drifting from the offline page.
     outputs.update({ROOT / "docs" / name: content.decode("utf-8") for name, content in assets.items()})
     outputs[ROOT / "docs/index.html"] = outputs[index]

@@ -18,7 +18,7 @@
   let noticeTimer;
   function notify(message,error) { const box=$('notice');box.textContent=message;box.classList.toggle('error',!!error);box.hidden=false;clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>{box.hidden=true;},9500); }
   if (!L || !C || C.schemaVersion!==1 || !['universities','programs','faculty','sources'].every(k=>Array.isArray(C[k]))) {
-    document.querySelectorAll('.view').forEach(v=>{v.hidden=true;});$('startup-error').hidden=false;$('startup-error').textContent='资料文件还没有完整载入。请保留整个文件夹，确认 catalog.js、logic.js 和 app.js 与本页放在一起，再重新打开。';return;
+    $('startup-error').hidden=false;$('startup-error').textContent='完整资料暂时没能载入。可以先按学校打开项目官网，或重新载入完整页面。';return;
   }
   let state={profile:L.defaultProfile(C),shortlist:[],tasks:[],sourceIds:[]},savedProfile=L.defaultProfile(C),mode='programs',facultyLimit=24,resultCards=[];
   const resultBookmarkButtons=new Map();
@@ -349,4 +349,8 @@
   $('community-university').append(new Option('请选择学校 / 校区',''));C.universities.forEach(u=>$('community-university').append(new Option(u.name+' · '+u.region,u.id)));$('community-university').addEventListener('change',renderCommunityPrograms);renderCommunityPrograms();$('community-cycle').value=C.cycle||'';
   $('community-form').addEventListener('submit',event=>{event.preventDefault();if(!$('community-consent').checked)return;const uid=$('community-university').value,pid=$('community-program').value;if(!C.programs.some(p=>p.id===pid&&p.universityId===uid)){notify('请先选对应学校的项目。',true);return;}const draft={kind:'anonymous-community-draft',schemaVersion:1,publiclySubmitted:false,consentToLocalExport:true,universityId:uid,programId:pid,cycle:$('community-cycle').value.trim(),outcome:$('community-outcome').value,notes:$('community-notes').value.trim(),scope:'个人匿名经历草稿，非官方要求，不用于计算录取率。'};download('研向-匿名经历草稿.json',draft);notify('已发起草稿下载，可在浏览器下载列表中查看。');});
   showView(location.hash.slice(1));
+  $('explore-workspace').hidden=false;
+  $('faculty-coverage').hidden=false;
+  const quickProjects=$('startup-projects');
+  if(!quickProjects.contains?.(document.activeElement))quickProjects.hidden=true;
 }());
