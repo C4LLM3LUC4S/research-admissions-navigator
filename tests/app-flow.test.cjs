@@ -205,6 +205,22 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('CUHK life sciences separates teaching and honorary records from research search', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('cuhk','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ assert.match(el('results').textContent,/生命科学学院.*学术人员/);
+ assert.match(el('results').textContent,/生命科学学院.*荣休、兼任与礼聘/);
+ const people=C.faculty.filter(p=>p.id.startsWith('cuhk-sls-20261108-'));
+ assert.equal(people.length,37);
+ assert.ok(people.every(p=>!p.directoryRole.includes('Lecturer')&&p.availability.state==='unknown'));
+ const au=people.find(p=>p.name.includes('Shannon'));
+ el('research-query').value=au.researchKeywords[0];
+ await el('profile-form').emit('input',{target:el('research-query')});
+ assert.ok(h.walk(el('results')).some(n=>n.href===au.profileUrl));
+});
+
 test('HKU chemistry preserves the memorial card and links research search to the departmental roster', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  h.select('hku','PhD',[]);
