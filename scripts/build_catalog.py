@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-08"
+CHECKED = "2026-11-09"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -760,6 +760,10 @@ def build_catalog():
             entry.update(bodyStatus="body_read", sourceIds=directory["sourceIds"], directoryId=directory["id"])
         elif entry["url"] == life_sciences["unitGuideUrl"]:
             entry.update(bodyStatus="body_read", sourceIds=[life_sciences["unitGuideSourceId"]])
+    physics_materials = load("polyu-pm-20261109.json")
+    catalog["sources"].extend(physics_materials["sources"])
+    catalog["faculty"].extend(physics_materials["faculty"])
+    catalog["directories"].extend(physics_materials["directories"])
     return catalog
 
 

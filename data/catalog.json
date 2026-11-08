@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-08",
+  "checkedDate": "2026-11-09",
   "cycle": "2027/28",
   "universities": [
     {
@@ -86324,6 +86324,747 @@
         "text": "请向学院确认指导资格和当期接收安排。",
         "sourceIds": [
           "cuhk-sls-20261108-zhai-liting-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-jh-hao",
+      "name": "Prof Jianhua HAO",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-jh-hao/",
+      "directoryRole": "Head(PM), ADoWHRI & Chair Professor of Materials Physics and Devices",
+      "summary": "研究方向包括：功能薄膜；二维层状材料与异质结构；发光材料及其光子和生物医学应用。",
+      "researchKeywords": [
+        "功能薄膜",
+        "二维层状材料与异质结构",
+        "发光材料及其光子和生物医学应用"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-jh-hao-profile",
+        "polyu-pm-20261109-academic",
+        "polyu-pm-20261109-hao-group"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-hao-group"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给研究入口",
+          "url": "https://pm.polyu.edu.hk/apjhhao/",
+          "parentSourceId": "polyu-pm-20261109-academic",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-pm-20261109-hao-group"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-jh-hao-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-xuming-zhang",
+      "name": "Prof Xuming ZHANG",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-xuming-zhang/",
+      "directoryRole": "Associate Head & Professor",
+      "summary": "研究方向包括：Microfluidics；Optofluidics；Artificial photosynthesis；Biomimetics。",
+      "researchKeywords": [
+        "Microfluidics",
+        "Optofluidics",
+        "Artificial photosynthesis",
+        "Biomimetics",
+        "Micro-/nano-optics"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-xuming-zhang-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-xuming-zhang-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给研究入口",
+          "url": "https://pm.polyu.edu.hk/apzhang/",
+          "parentSourceId": "polyu-pm-20261109-academic",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-xuming-zhang-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-daniel-sp-lau",
+      "name": "Prof Daniel S.P. LAU",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-daniel-sp-lau/",
+      "directoryRole": "ADoPRI & Chair Professor of Nanomaterials",
+      "summary": "研究方向包括：Two-dimensional (2D) materials: graphene, graphene oxide, MoS2, SnS etc.；Optoelectronic properties of graphene quantum dots；Strain engineering in 2D materials。",
+      "researchKeywords": [
+        "Two-dimensional (2D) materials: graphene, graphene oxide, MoS2, SnS etc.",
+        "Optoelectronic properties of graphene quantum dots",
+        "Strain engineering in 2D materials"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-daniel-sp-lau-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-daniel-sp-lau-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给研究入口",
+          "url": "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/prof-lau-sp.pdf?rev=00e80ee543d143afa834d719b35dc0ef&hash=6B556F9C6B5CB0E1951ED3B0F9D2EA6D",
+          "parentSourceId": "polyu-pm-20261109-academic",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-daniel-sp-lau-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-tom-wu",
+      "name": "Prof Tom Tao WU",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-tom-wu/",
+      "directoryRole": "Chair Professor of Frontier Materials",
+      "summary": "研究方向包括：Halide perovskite nanomaterials；Epitaxial thin films of frontier materials；Functional mixed-dimensional heterostructures；Electronics, iontronics, and optoelectronics。",
+      "researchKeywords": [
+        "Halide perovskite nanomaterials",
+        "Epitaxial thin films of frontier materials",
+        "Functional mixed-dimensional heterostructures",
+        "Electronics, iontronics, and optoelectronics"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-tom-wu-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-tom-wu-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给研究入口",
+          "url": "https://pm.polyu.edu.hk/taowu/group/index.html",
+          "parentSourceId": "polyu-pm-20261109-academic",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-tom-wu-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yang-shengyuan",
+      "name": "Prof Shengyuan YANG",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-shengyuan/",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括：Condensed Matter Theory；Topological States of Matter；2D Materials；Transport Theory。",
+      "researchKeywords": [
+        "Condensed Matter Theory",
+        "Topological States of Matter",
+        "2D Materials",
+        "Transport Theory",
+        "Spintronics",
+        "Valleytronics",
+        "Nonlinear Responses",
+        "First-Principles Calculations"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-yang-shengyuan-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-yang-shengyuan-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-yang-shengyuan-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yu-siu-fung",
+      "name": "Prof Siu Fung YU",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yu-siu-fung/",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括：Realization of ZnO random laser diodes and carbon-based lasers.；Analysis, design and fabrication of nanophotonics devices.；Analysis and design of semiconductor microcavity lasers.；Design and fabrication of perovskite based upconversion lasers.。",
+      "researchKeywords": [
+        "Realization of ZnO random laser diodes and carbon-based lasers.",
+        "Analysis, design and fabrication of nanophotonics devices.",
+        "Analysis and design of semiconductor microcavity lasers.",
+        "Design and fabrication of perovskite based upconversion lasers."
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-yu-siu-fung-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-yu-siu-fung-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给研究入口",
+          "url": "https://pm.polyu.edu.hk/apsfyu/",
+          "parentSourceId": "polyu-pm-20261109-academic",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-yu-siu-fung-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-leng-kai",
+      "name": "Prof Kathy Kai LENG",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-leng-kai/",
+      "directoryRole": "Assistant Dean (FS) & Associate Professor",
+      "summary": "研究方向包括：2D materials and device applications；Molecularly thin 2D hybrid perovskites and their micro & nano device fabrications；2D heterostructure studies (Molecularly thin 2D perovskite / TMDs / Graphene)；Strain induced phenomena in soft molecularly thin perovskites and other 2D materials。",
+      "researchKeywords": [
+        "2D materials and device applications",
+        "Molecularly thin 2D hybrid perovskites and their micro & nano device fabrications",
+        "2D heterostructure studies (Molecularly thin 2D perovskite / TMDs / Graphene)",
+        "Strain induced phenomena in soft molecularly thin perovskites and other 2D materials",
+        "Spintronics study in 2D hybrid perovskites (Rashba effect and it coupled Ferroelectricity)"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-leng-kai-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-leng-kai-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-leng-kai-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-molly-meng-jung-li",
+      "name": "Prof Molly Mengjung LI",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-molly-meng-jung-li/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括：Heterogeneous catalysis；Nanocatalysts；Renewable fuel production；Chemical hydrogen storage。",
+      "researchKeywords": [
+        "Heterogeneous catalysis",
+        "Nanocatalysts",
+        "Renewable fuel production",
+        "Chemical hydrogen storage"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-molly-meng-jung-li-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-molly-meng-jung-li-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-molly-meng-jung-li-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yang-ming",
+      "name": "Prof Ming YANG",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-ming/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括：2D materials；Electrochemical/photo-catalysts；High-throughput first-principle calculations/experiments；Perovskite oxide interface。",
+      "researchKeywords": [
+        "2D materials",
+        "Electrochemical/photo-catalysts",
+        "High-throughput first-principle calculations/experiments",
+        "Perovskite oxide interface",
+        "Physical vapor deposition",
+        "Machine-learning accelerated materials innovation"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-yang-ming-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-yang-ming-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-yang-ming-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-lai-zhuangchai",
+      "name": "Prof Zhuangchai LAI",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-lai-zhuangchai/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括：Controlled synthesis；Characterization of novel 2D materials。",
+      "researchKeywords": [
+        "Controlled synthesis",
+        "Characterization of novel 2D materials"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-lai-zhuangchai-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-lai-zhuangchai-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-lai-zhuangchai-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-su-jie",
+      "name": "Prof Jie SU",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-su-jie/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括：Scanning Probe Microscopy/Spectroscopy；AI-assisted SPM；Atomic Manipulation；On-surface Fabrication。",
+      "researchKeywords": [
+        "Scanning Probe Microscopy/Spectroscopy",
+        "AI-assisted SPM",
+        "Atomic Manipulation",
+        "On-surface Fabrication",
+        "Low-dimensional Materials"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-su-jie-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-su-jie-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-su-jie-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-chao-ye",
+      "name": "Prof Chao YE",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-chao-ye/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括：Energy Materials；Battery Recycling。",
+      "researchKeywords": [
+        "Energy Materials",
+        "Battery Recycling"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-chao-ye-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-chao-ye-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-chao-ye-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-wang-yong",
+      "name": "Prof Yong WANG",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-wang-yong/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括：Computational Physics；Materials Design；AI for Science；Phase Transition Theory。",
+      "researchKeywords": [
+        "Computational Physics",
+        "Materials Design",
+        "AI for Science",
+        "Phase Transition Theory",
+        "Interface Phenomena"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-wang-yong-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-wang-yong-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-wang-yong-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yin-jun",
+      "name": "Prof Jun YIN",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yin-jun/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括：First-Principles Calculations；Nonadiabatic Molecular Dynamics；Perovskite Materials；Photophysical Processes。",
+      "researchKeywords": [
+        "First-Principles Calculations",
+        "Nonadiabatic Molecular Dynamics",
+        "Perovskite Materials",
+        "Photophysical Processes",
+        "Polaron and Exciton, Surfaces and Interfaces",
+        "Machine Learning in Materials Science"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-prof-yin-jun-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-prof-yin-jun-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-prof-yin-jun-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-dr-teng-ma",
+      "name": "Dr Teng MA",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-teng-ma/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究方向包括：Two-dimensional (2D) materials and device applications；Chemical vapor deposition of 2D materials and their heterostructures；2D ferroelectrics；Non-linear Hall effect of 2D materials。",
+      "researchKeywords": [
+        "Two-dimensional (2D) materials and device applications",
+        "Chemical vapor deposition of 2D materials and their heterostructures",
+        "2D ferroelectrics",
+        "Non-linear Hall effect of 2D materials"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-dr-teng-ma-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-dr-teng-ma-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-dr-teng-ma-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-dr-lok-wing-wong",
+      "name": "Dr Lok Wing WONG",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-lok-wing-wong/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究方向包括：Transmission Electron Microscopy；Low-Dimensional Materials；Electron Dose Sensitive Materials。",
+      "researchKeywords": [
+        "Transmission Electron Microscopy",
+        "Low-Dimensional Materials",
+        "Electron Dose Sensitive Materials"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-dr-lok-wing-wong-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-dr-lok-wing-wong-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-dr-lok-wing-wong-profile"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-dr-zehan-wu",
+      "name": "Dr Zehan WU",
+      "universityId": "polyu",
+      "department": "物理及材料科学系",
+      "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-zehan-wu/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究方向包括：Beyond-CMOS Transistors and Architecture；Microelectronics and Device Physics；Two-Dimensional Materials；van der Waals Heterostructures。",
+      "researchKeywords": [
+        "Beyond-CMOS Transistors and Architecture",
+        "Microelectronics and Device Physics",
+        "Two-Dimensional Materials",
+        "van der Waals Heterostructures",
+        "Wafer-Scale Fabrication and Vertical Integration",
+        "Large-scale IC on next-generation semiconductors"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-pm-20261109-dr-zehan-wu-profile",
+        "polyu-pm-20261109-academic"
+      ],
+      "directorySourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-pm-20261109-dr-zehan-wu-profile"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向院系确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "polyu-pm-20261109-dr-zehan-wu-profile"
         ]
       }
     }
@@ -184160,6 +184901,432 @@
       ],
       "readMethod": "anonymous_HTTP",
       "bodySha256": "c2592f6ebe8ed1c42ce0047e32eb73ebe1013fb1246c6f32656c48b0cf4be8d1"
+    },
+    {
+      "id": "polyu-pm-20261109-may-intake",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/20263/pm",
+      "title": "物理及材料科学 · 2027 年 5 月入学",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该页列 MPhil 与 PhD。2027 年 5 月入学申请截至 2027 年 1 月 31 日。研究计划须用标准表，另提交个人陈述和学历材料。此日期对应 5 月轮次。",
+      "claims": [
+        "该页列 MPhil 与 PhD。2027 年 5 月入学申请截至 2027 年 1 月 31 日。研究计划须用标准表，另提交个人陈述和学历材料。此日期对应 5 月轮次。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6de26e48cdb15db93c9e3a6000cfb143a63961eaaf58bd2c3f84616034e61768"
+    },
+    {
+      "id": "polyu-pm-20261109-academic",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/",
+      "title": "港理工物理及材料科学系 · 学术人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "当前院系分类页实际列 31 张人员卡。",
+      "claims": [
+        "当前院系分类页实际列 31 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://pm.polyu.edu.hk/apafyan/",
+        "https://pm.polyu.edu.hk/apahthua/",
+        "https://pm.polyu.edu.hk/apjhhao/",
+        "https://pm.polyu.edu.hk/apsfyu/",
+        "https://pm.polyu.edu.hk/apshchoy/",
+        "https://pm.polyu.edu.hk/apytsang/",
+        "https://pm.polyu.edu.hk/apzhang/",
+        "https://pm.polyu.edu.hk/taowu/group/index.html",
+        "https://pm.polyu.edu.hk/ychai/",
+        "https://www.polyu.edu.hk/ap/profile/apleung/Introduction.html",
+        "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/dr-zhu-y.pdf?rev=baf921295abb42b291d42bc2862b77f9&hash=F7F4DCCFD16E45E3BAFC5143F616806B",
+        "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/prof-dai-jy.pdf?rev=e3a7fe991b3e4fd2a42cc6b8d06e2b54&hash=6CAB4B630AA62E248719A92617053849",
+        "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/prof-lau-sp.pdf?rev=00e80ee543d143afa834d719b35dc0ef&hash=6B556F9C6B5CB0E1951ED3B0F9D2EA6D",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/dr-choy-siu-hong/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/dr-lok-wing-wong/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/dr-michael-kwok-lung-jim/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/dr-teng-ma/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/dr-zehan-wu/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-benedict-tsz-woon-lo/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-biao-zhang/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-cai-songhua/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-chao-ye/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-daniel-sp-lau/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-dennis-cw-leung/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-feng-yan/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-h-huang/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-jh-hao/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-ji-yan-dai/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-lai-zhuangchai/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-leng-kai/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-mingjie-li/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-molly-meng-jung-li/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-su-jie/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-tom-wu/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-wang-yong/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-xuming-zhang/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-chai/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-ming/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-shengyuan/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-ye-zhu/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yin-jun/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yu-siu-fung/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yuen-hong-tsang/",
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-zhao-jiong/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e156e6a044959677b93f5ca516875e5194c88c44d65ae922d6e4bb238b4e0785",
+      "teacherLinksByProfile": {
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-jh-hao/": [
+          "https://pm.polyu.edu.hk/apjhhao/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-xuming-zhang/": [
+          "https://pm.polyu.edu.hk/apzhang/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yuen-hong-tsang/": [
+          "https://pm.polyu.edu.hk/apytsang/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-chai/": [
+          "https://pm.polyu.edu.hk/ychai/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-daniel-sp-lau/": [
+          "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/prof-lau-sp.pdf?rev=00e80ee543d143afa834d719b35dc0ef&hash=6B556F9C6B5CB0E1951ED3B0F9D2EA6D"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-tom-wu/": [
+          "https://pm.polyu.edu.hk/taowu/group/index.html"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-feng-yan/": [
+          "https://pm.polyu.edu.hk/apafyan/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-ji-yan-dai/": [
+          "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/prof-dai-jy.pdf?rev=e3a7fe991b3e4fd2a42cc6b8d06e2b54&hash=6CAB4B630AA62E248719A92617053849"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-h-huang/": [
+          "https://pm.polyu.edu.hk/apahthua/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-dennis-cw-leung/": [
+          "https://www.polyu.edu.hk/ap/profile/apleung/Introduction.html"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yu-siu-fung/": [
+          "https://pm.polyu.edu.hk/apsfyu/"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/prof-ye-zhu/": [
+          "https://www.polyu.edu.hk/pm/-/media/department/pm/content/people/profile/dr-zhu-y.pdf?rev=baf921295abb42b291d42bc2862b77f9&hash=F7F4DCCFD16E45E3BAFC5143F616806B"
+        ],
+        "https://www.polyu.edu.hk/pm/people/academic-staff/dr-choy-siu-hong/": [
+          "https://pm.polyu.edu.hk/apshchoy/"
+        ]
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-hao-group",
+      "url": "https://pm.polyu.edu.hk/apjhhao/",
+      "title": "郝建华课题组",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "课题组主页列功能薄膜、二维层状材料、异质结构以及光子和生物医学发光应用。",
+      "claims": [
+        "课题组主页列功能薄膜、二维层状材料、异质结构以及光子和生物医学发光应用。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-pm-20261109-prof-jh-hao-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-jh-hao/",
+      "title": "Prof Jianhua HAO · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4dc24ef9dedaa3db492ff3a2e8c10ed32110878b3e9c8fc943f919767819fac8"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-xuming-zhang-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-xuming-zhang/",
+      "title": "Prof Xuming ZHANG · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b62d03e1db08003c6b819d23aff95fb1e5f92d5861cb5c0b8c55044da01c6dc8"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-daniel-sp-lau-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-daniel-sp-lau/",
+      "title": "Prof Daniel S.P. LAU · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "58b175209b62f025aef06102d3360935adc5752d6e27ef2b7f70e2ae650d6956"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-tom-wu-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-tom-wu/",
+      "title": "Prof Tom Tao WU · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "392e2f453ee5b7f4efbf3e26afe2f418bd6307183805ea029e0ffcdf98ec205c"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yang-shengyuan-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-shengyuan/",
+      "title": "Prof Shengyuan YANG · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7dbfb3e1fa6c82a61bebfee63b7f8ee3d485fac80f27910046a13ea9ac861cf7"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yu-siu-fung-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yu-siu-fung/",
+      "title": "Prof Siu Fung YU · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "95d2415792a5749d8a9840ffd7275c8d1e71d5a09e5dbc1a092f45a220197339"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-leng-kai-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-leng-kai/",
+      "title": "Prof Kathy Kai LENG · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "52ead4138b337f70347a9751f82b4cbaf66828ce923b60d5012ce9cb8a5bcc98"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-molly-meng-jung-li-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-molly-meng-jung-li/",
+      "title": "Prof Molly Mengjung LI · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bce857fd2af690ffc25811a699c600465a5f16ea4703df7b67a2bb4e459620b3"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yang-ming-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-ming/",
+      "title": "Prof Ming YANG · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "12f408286b494c9abb0472631e1ae5e102100ccef6c74813d0bbd4011c3d6ac7"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-lai-zhuangchai-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-lai-zhuangchai/",
+      "title": "Prof Zhuangchai LAI · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "76f629d685dbe9c0f9aa93986ff9e1b4b9b1bc3c95272c19e605b8c97a2ef084"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-su-jie-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-su-jie/",
+      "title": "Prof Jie SU · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c6bfd45880ae5b5207b57a65245d2a8e97e315ab0746dd506ecfb14103f4f6a0"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-chao-ye-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-chao-ye/",
+      "title": "Prof Chao YE · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8cda6508d76ec8085417c3d97b702ee8138ee64f0add32f2e325d7a90f89e4b"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-wang-yong-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-wang-yong/",
+      "title": "Prof Yong WANG · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "42cfe74e499521a04c7c093dbda72f149a38e83b053e472c9bc7daeae9de8d2f"
+    },
+    {
+      "id": "polyu-pm-20261109-prof-yin-jun-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yin-jun/",
+      "title": "Prof Jun YIN · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "218cde4e97b16528adee5181574d921ea0c4cdb62f1092c3f2c3fbf02c066f01"
+    },
+    {
+      "id": "polyu-pm-20261109-dr-teng-ma-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-teng-ma/",
+      "title": "Dr Teng MA · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d40e6d521cad3e9cb1b8e58050cac7f25718584ac9fe898307f061ee31be7f55"
+    },
+    {
+      "id": "polyu-pm-20261109-dr-lok-wing-wong-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-lok-wing-wong/",
+      "title": "Dr Lok Wing WONG · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd1dc138675e944f2e176e214440ee459f60892802369d5b04025f2d81fc9f71"
+    },
+    {
+      "id": "polyu-pm-20261109-dr-zehan-wu-profile",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-zehan-wu/",
+      "title": "Dr Zehan WU · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核本人身份及院系列示任职。",
+      "claims": [
+        "已核本人身份及院系列示任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7eba8111d377908c3478c7f9b654a52bd4077d26169892487b12e09b443caebb"
+    },
+    {
+      "id": "polyu-pm-20261109-support",
+      "url": "https://www.polyu.edu.hk/pm/people/support-staff/",
+      "title": "港理工物理及材料科学系 · 支援人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "当前院系分类页实际列 13 张人员卡。",
+      "claims": [
+        "当前院系分类页实际列 13 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/pm/people/support-staff/mr-li-yun-kuen/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "49371b2df1fdf2aab3484d45465fa0c2f58a91bc0614ffab3bbaa179f171480f",
+      "teacherLinksByProfile": {}
+    },
+    {
+      "id": "polyu-pm-20261109-appointments",
+      "url": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/",
+      "title": "港理工物理及材料科学系 · 兼任、荣誉与访问人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "当前院系分类页实际列 7 张人员卡。",
+      "claims": [
+        "当前院系分类页实际列 7 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/a_ernest-lo/",
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/a_ziyang-gao/",
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/chhowalla-manish/",
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/dermot-michael-ohare/",
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/ren-gen-xiong/",
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/yuan-yao/",
+        "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/yuda-zhao/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a2cd3bacf2ef2fe2542c9445d7075b6fd11c0ef89297b981d71aeb7ff8dc7c29",
+      "teacherLinksByProfile": {}
     }
   ],
   "funding": [
@@ -199060,6 +200227,484 @@
         "pendingReasonCounts": {
           "not_read": 13
         }
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-academic-directory",
+      "universityId": "polyu",
+      "unit": "物理及材料科学系 · 学术人员",
+      "url": "https://www.polyu.edu.hk/pm/people/academic-staff/",
+      "sourceIds": [
+        "polyu-pm-20261109-academic"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 31 张卡；指导资格与实时余位待核。",
+      "census": {
+        "entries": [
+          {
+            "name": "Prof Jianhua HAO",
+            "directoryPosition": "Head(PM), ADoWHRI & Chair Professor of Materials Physics and Devices",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-jh-hao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-jh-hao"
+          },
+          {
+            "name": "Prof Xuming ZHANG",
+            "directoryPosition": "Associate Head & Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-xuming-zhang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-xuming-zhang"
+          },
+          {
+            "name": "Prof Yuen Hong TSANG",
+            "directoryPosition": "Associate Head & Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yuen-hong-tsang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Yang CHAI",
+            "directoryPosition": "Associate Vice President (Education Innovation), DoRIAIoT, DoUMF & Chair Professor of Semiconductor Physics",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-chai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Daniel S.P. LAU",
+            "directoryPosition": "ADoPRI & Chair Professor of Nanomaterials",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-daniel-sp-lau/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-daniel-sp-lau"
+          },
+          {
+            "name": "Prof Tom Tao WU",
+            "directoryPosition": "Chair Professor of Frontier Materials",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-tom-wu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-tom-wu"
+          },
+          {
+            "name": "Prof Feng YAN",
+            "directoryPosition": "Associate Dean (FS), ADoRI-IWEAR & Chair Professor of Organic Electronics",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-feng-yan/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Jiyan DAI",
+            "directoryPosition": "Assoc. Dean of Students & Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-ji-yan-dai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Haitao HUANG",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-h-huang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Dennis C.W. LEUNG",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-dennis-cw-leung/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Shengyuan YANG",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-shengyuan/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-yang-shengyuan"
+          },
+          {
+            "name": "Prof Siu Fung YU",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yu-siu-fung/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-yu-siu-fung"
+          },
+          {
+            "name": "Prof Jiong ZHAO",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-zhao-jiong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Kathy Kai LENG",
+            "directoryPosition": "Assistant Dean (FS) & Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-leng-kai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-leng-kai"
+          },
+          {
+            "name": "Prof Molly Mengjung LI",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-molly-meng-jung-li/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-molly-meng-jung-li"
+          },
+          {
+            "name": "Prof Mingjie LI",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-mingjie-li/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Benedict Tsz-woon LO",
+            "directoryPosition": "Assoc. Head (CHEM) & Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-benedict-tsz-woon-lo/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Ming YANG",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yang-ming/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-yang-ming"
+          },
+          {
+            "name": "Prof Biao ZHANG",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-biao-zhang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Ye ZHU",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-ye-zhu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Songhua CAI",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-cai-songhua/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究主题待核院系所给入口。"
+          },
+          {
+            "name": "Prof Zhuangchai LAI",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-lai-zhuangchai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-lai-zhuangchai"
+          },
+          {
+            "name": "Prof Jie SU",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-su-jie/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-su-jie"
+          },
+          {
+            "name": "Prof Chao YE",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-chao-ye/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-chao-ye"
+          },
+          {
+            "name": "Prof Yong WANG",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-wang-yong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-wang-yong"
+          },
+          {
+            "name": "Prof Jun YIN",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/prof-yin-jun/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-prof-yin-jun"
+          },
+          {
+            "name": "Dr Teng MA",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-teng-ma/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-dr-teng-ma"
+          },
+          {
+            "name": "Dr Lok Wing WONG",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-lok-wing-wong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-dr-lok-wing-wong"
+          },
+          {
+            "name": "Dr Zehan WU",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-zehan-wu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究主题已收录。",
+            "facultyId": "polyu-pm-20261109-dr-zehan-wu"
+          },
+          {
+            "name": "Dr Siu Hong CHOY",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-choy-siu-hong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Kwok Lung JIM",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/academic-staff/dr-michael-kwok-lung-jim/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 31,
+        "profilesRead": 31,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      },
+      "reviewSourceIds": [
+        "polyu-pm-20261109-may-intake",
+        "polyu-pm-sept-2027-20261106"
+      ]
+    },
+    {
+      "id": "polyu-pm-20261109-support-directory",
+      "universityId": "polyu",
+      "unit": "物理及材料科学系 · 支援人员",
+      "url": "https://www.polyu.edu.hk/pm/people/support-staff/",
+      "sourceIds": [
+        "polyu-pm-20261109-support"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 13 张卡；指导资格与实时余位待核。",
+      "census": {
+        "entries": [
+          {
+            "name": "Mr LI Yun Kuen",
+            "directoryPosition": "Office Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/support-staff/mr-li-yun-kuen/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Ms Titus AU",
+            "profileUrl": null,
+            "directoryPosition": "Assistant Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Ms Cecilia CHAN",
+            "profileUrl": null,
+            "directoryPosition": "Clerk",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Mr CHAN Tsz Lam",
+            "profileUrl": null,
+            "directoryPosition": "Technician",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Mr CHENG Wang Fai, Raymond",
+            "profileUrl": null,
+            "directoryPosition": "Scientific Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Ms Yonnie CHEUNG",
+            "profileUrl": null,
+            "directoryPosition": "Senior Executive Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Miss Florence LAM",
+            "profileUrl": null,
+            "directoryPosition": "Executive Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Mr LAM Kwan Ho, Vincent",
+            "profileUrl": null,
+            "directoryPosition": "Information Technology Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Dr PANG Sin Yi, Cindy",
+            "profileUrl": null,
+            "directoryPosition": "Scientific Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Dr WONG Hon Fai, Pai",
+            "profileUrl": null,
+            "directoryPosition": "Senior Scientific Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Ms Mandy WONG",
+            "profileUrl": null,
+            "directoryPosition": "Assistant Marketing Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Ms Tiffany WONG",
+            "profileUrl": null,
+            "directoryPosition": "Executive Officer",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          },
+          {
+            "name": "Ms Vivian WONG",
+            "profileUrl": null,
+            "directoryPosition": "Executive Assistant",
+            "providedLinks": [],
+            "reason": "院系名录未给个人页。"
+          }
+        ],
+        "observedTotal": 1,
+        "profilesRead": 1,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "polyu-pm-20261109-appointments-directory",
+      "universityId": "polyu",
+      "unit": "物理及材料科学系 · 兼任、荣誉与访问人员",
+      "url": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/",
+      "sourceIds": [
+        "polyu-pm-20261109-appointments"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 7 张卡；指导资格与实时余位待核。",
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. Ziyang GAO",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/a_ziyang-gao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Ernest S.Y. LO",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/a_ernest-lo/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Manish CHHOWALLA",
+            "directoryPosition": "Distinguished Visiting Chair Professor of 2D Materials",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/chhowalla-manish/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Dermot Michael O’HARE",
+            "directoryPosition": "Visiting Chair Professor of Organometallic and Materials Chemistry",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/dermot-michael-ohare/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Ren-Gen XIONG",
+            "directoryPosition": "Distinguished Visiting Chair Professor of Molecular Ferroelectrics",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/ren-gen-xiong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Yuda ZHAO",
+            "directoryPosition": "Visiting Professor",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/yuda-zhao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Yuan YAO",
+            "directoryPosition": "Visiting Lecturer (Part-time)",
+            "profileUrl": "https://www.polyu.edu.hk/pm/people/visiting-adjunct-staff/yuan-yao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 7,
+        "profilesRead": 7,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
       }
     }
   ],
@@ -243354,5 +244999,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:96ef759721bd22480171002b9461ac4a3bc08d403c43abe59c6f9fb359bf0238"
+  "snapshotId": "sha256:ca486283412d417ddbf76c52407300cbc96e61a8b17854651a0c0c4436177a29"
 }

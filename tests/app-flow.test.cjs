@@ -205,6 +205,22 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('PolyU physics and materials binds searchable research to the supplied profile and preserves intake scope', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('polyu','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ assert.match(el('results').textContent,/物理及材料科学系.*支援人员/);
+ assert.match(el('results').textContent,/物理及材料科学系.*兼任、荣誉与访问人员/);
+ const may=C.sources.find(s=>s.id==='polyu-pm-20261109-may-intake');
+ assert.match(may.claims[0],/2027 年 1 月 31 日/);
+ const september=C.programs.find(p=>p.id==='polyu-pm-rpg-sept-2027');
+ assert.equal(september.deadlines[0].date,'2027-05-31');
+ el('research-query').value='功能薄膜';
+ await el('profile-form').emit('input',{target:el('research-query')});
+ assert.ok(h.walk(el('results')).some(n=>n.href==='https://pm.polyu.edu.hk/apjhhao/'));
+});
+
 test('CUHK life sciences separates teaching and honorary records from research search', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  h.select('cuhk','PhD',[]);
