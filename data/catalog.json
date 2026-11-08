@@ -84692,6 +84692,1640 @@
           "hku-science-chemistry-staff-20261105"
         ]
       }
+    },
+    {
+      "id": "cuhk-sls-20261108-chan-ho-yin-edwin",
+      "name": "Chan, Ho Yin Edwin 陳浩然",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chan-ho-yin-edwin/",
+      "directoryRole": "Director",
+      "summary": "研究方向：Human disease modelling；Cellular, genetic and biochemical analyses of RNA and protein toxicity in neurological diseases；Therapeutic intervention of neurological diseases。",
+      "researchKeywords": [
+        "Human disease modelling",
+        "Cellular, genetic and biochemical analyses of RNA and protein toxicity in neurological diseases",
+        "Therapeutic intervention of neurological diseases",
+        "Inhibitor that combats neurodegenerative diseases [Video]"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-chan-ho-yin-edwin-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-chan-ho-yin-edwin-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.bch.cuhk.edu.hk/LDR/LDR_edwinchan.html",
+          "parentSourceId": "cuhk-sls-20261108-chan-ho-yin-edwin-profile",
+          "bodyStatus": "not_read"
+        },
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.bch.cuhk.edu.hk/LDR/LDR_news.html",
+          "parentSourceId": "cuhk-sls-20261108-chan-ho-yin-edwin-profile",
+          "bodyStatus": "not_read"
+        },
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.bch.cuhk.edu.hk/LDR/LDR_publication.asp",
+          "parentSourceId": "cuhk-sls-20261108-chan-ho-yin-edwin-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-chan-ho-yin-edwin-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-au-wing-ngor-shannon",
+      "name": "Au, Wing Ngor Shannon 區詠娥",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/au-wing-ngor-shannon/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Structure-function studies of macromolecular assemblies associated to bacterial virulence；Design and development of molecular stabilizers for metabolic enzymes。",
+      "researchKeywords": [
+        "Structure-function studies of macromolecular assemblies associated to bacterial virulence",
+        "Design and development of molecular stabilizers for metabolic enzymes"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-au-wing-ngor-shannon-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-au-wing-ngor-shannon-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-au-wing-ngor-shannon-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-chan-ting-fung",
+      "name": "Chan, Ting Fung 陳廷峰",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chan-ting-fung/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：RNomics and bioinformatics in biological processes and diseases；Technology and algorithm development for genomics and transcriptomics。",
+      "researchKeywords": [
+        "RNomics and bioinformatics in biological processes and diseases",
+        "Technology and algorithm development for genomics and transcriptomics"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-chan-ting-fung-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-chan-ting-fung-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.hkbic.cuhk.edu.hk/",
+          "parentSourceId": "cuhk-sls-20261108-chan-ting-fung-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-chan-ting-fung-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-hui-ho-lam-jerome",
+      "name": "Hui, Ho Lam Jerome 許浩霖",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/hui-ho-lam-jerome/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Arthropod and insect biology, Cnidarians, Invertebrates, Animal-plant interactions；Sesquiterpenoid hormones, microRNAs；Marine biotechnology, Molecular ecology and conservation of biodiversity。",
+      "researchKeywords": [
+        "Arthropod and insect biology, Cnidarians, Invertebrates, Animal-plant interactions",
+        "Sesquiterpenoid hormones, microRNAs",
+        "Marine biotechnology, Molecular ecology and conservation of biodiversity",
+        "Evolutionary biology, Genomics"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-hui-ho-lam-jerome-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-hui-ho-lam-jerome-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://sites.google.com/site/huijerome/",
+          "parentSourceId": "cuhk-sls-20261108-hui-ho-lam-jerome-profile",
+          "bodyStatus": "not_read"
+        },
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://biodiversity.sls.cuhk.edu.hk/ebphk/",
+          "parentSourceId": "cuhk-sls-20261108-hui-ho-lam-jerome-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-hui-ho-lam-jerome-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-jiang-liwen",
+      "name": "Jiang, Liwen 姜里文",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/jiang-liwen/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Plant Cell and Molecular Biology；Protein Targeting and Trafficking in Plant Cells；Organelle Biogenesis and Function in Plants。",
+      "researchKeywords": [
+        "Plant Cell and Molecular Biology",
+        "Protein Targeting and Trafficking in Plant Cells",
+        "Organelle Biogenesis and Function in Plants",
+        "Plant Bioreactors for Pharmaceutical Proteins"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-jiang-liwen-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-jiang-liwen-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.cuhk.edu.hk/centre/iCell/",
+          "parentSourceId": "cuhk-sls-20261108-jiang-liwen-profile",
+          "bodyStatus": "not_read"
+        },
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.cuhk.edu.hk/centre/ccdb/",
+          "parentSourceId": "cuhk-sls-20261108-jiang-liwen-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-jiang-liwen-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-kang-byung-ho",
+      "name": "Kang, Byung Ho 姜秉昊",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kang-byung-ho/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Plant Cell Biology；3D electron microscopy。",
+      "researchKeywords": [
+        "Plant Cell Biology",
+        "3D electron microscopy"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-kang-byung-ho-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-kang-byung-ho-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-kang-byung-ho-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-kwan-kin-ming",
+      "name": "Kwan, Kin Ming 關健明",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kwan-kin-ming/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Genetic manipulation by transgenic and gene knockout technology；Study of Organogenesis using mouse as model organism；Neural development and neuronal cell biology。",
+      "researchKeywords": [
+        "Genetic manipulation by transgenic and gene knockout technology",
+        "Study of Organogenesis using mouse as model organism",
+        "Neural development and neuronal cell biology",
+        "Stem cell research"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-kwan-kin-ming-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-kwan-kin-ming-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://profkmkwanlab.lbmkyi1.workers.dev",
+          "parentSourceId": "cuhk-sls-20261108-kwan-kin-ming-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-kwan-kin-ming-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-lam-hon-ming",
+      "name": "Lam, Hon Ming 林漢明",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lam-hon-ming/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Climate-smart and sustainable agriculture；Plant and agricultural biotechnology；Genomic studies on crop-environment interaction。",
+      "researchKeywords": [
+        "Climate-smart and sustainable agriculture",
+        "Plant and agricultural biotechnology",
+        "Genomic studies on crop-environment interaction"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-lam-hon-ming-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-lam-hon-ming-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://137.189.43.137:8080/Publications/HML-publications.htm",
+          "parentSourceId": "cuhk-sls-20261108-lam-hon-ming-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-lam-hon-ming-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-lau-kwok-fai",
+      "name": "Lau, Kwok Fai 劉國輝",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lau-kwok-fai/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Amyloid precursor protein interacting proteins in Alzheimer’s disease and neurodegenerative disorders；Amyloid precursor protein and its interacting proteins in neurodevelopment；Protein Kinases in neurodegenerative disorders。",
+      "researchKeywords": [
+        "Amyloid precursor protein interacting proteins in Alzheimer’s disease and neurodegenerative disorders",
+        "Amyloid precursor protein and its interacting proteins in neurodevelopment",
+        "Protein Kinases in neurodegenerative disorders"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-lau-kwok-fai-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-lau-kwok-fai-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-lau-kwok-fai-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-luo-haiwei",
+      "name": "Luo, Haiwei 羅海偉",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/luo-haiwei/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Microbial therapy for marine organisms；Endosymbiotic bacteria – marine host interaction；Genome evolution of marine bacterioplankton。",
+      "researchKeywords": [
+        "Microbial therapy for marine organisms",
+        "Endosymbiotic bacteria – marine host interaction",
+        "Genome evolution of marine bacterioplankton",
+        "Molecular clock and bacteria deep evolution",
+        "Terrestrial nitrogen-fixing bacteria"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-luo-haiwei-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-luo-haiwei-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.luolab.net",
+          "parentSourceId": "cuhk-sls-20261108-luo-haiwei-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-luo-haiwei-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-tsang-suk-ying-faye",
+      "name": "Tsang, Suk Ying Faye 曾淑瑩",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tsang-suk-ying-faye/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Mechanisms for maintaining the self-renewal and pluripotent characteristics of pluripotent stem cells.；Mechanisms controlling the differentiation and maturation of pluripotent stem cell-derived cardiomyocytes.；Mechanisms of automaticity of pluripotent stem cell-derived cardiomyocytes.。",
+      "researchKeywords": [
+        "Mechanisms for maintaining the self-renewal and pluripotent characteristics of pluripotent stem cells.",
+        "Mechanisms controlling the differentiation and maturation of pluripotent stem cell-derived cardiomyocytes.",
+        "Mechanisms of automaticity of pluripotent stem cell-derived cardiomyocytes.",
+        "Ion channels and cardiovascular physiology.",
+        "Adult stem cells and cancer stem cells."
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-tsang-suk-ying-faye-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-tsang-suk-ying-faye-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-tsang-suk-ying-faye-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-wong-kam-bo",
+      "name": "Wong, Kam Bo 黃錦波",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wong-kam-bo/",
+      "directoryRole": "Professor",
+      "summary": "研究方向：Using structural biology (NMR, X-ray crystallography and cryo-EM) to understand the molecular mechanism of life；The maturation pathway of urease；Vacuolar sorting in plant cells。",
+      "researchKeywords": [
+        "Using structural biology (NMR, X-ray crystallography and cryo-EM) to understand the molecular mechanism of life",
+        "The maturation pathway of urease",
+        "Vacuolar sorting in plant cells",
+        "Protein Engineering, Design, Simulation and Modelling"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-wong-kam-bo-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-wong-kam-bo-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://kbwongcuhk.wordpress.com",
+          "parentSourceId": "cuhk-sls-20261108-wong-kam-bo-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-wong-kam-bo-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-chen-sijie",
+      "name": "Chen, Sijie 陳斯杰",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chen-sijie/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Fluorescent probes for bioimaging；Fluorescent probes for biosensing；Fluorescent probes for diagnosis and therapy。",
+      "researchKeywords": [
+        "Fluorescent probes for bioimaging",
+        "Fluorescent probes for biosensing",
+        "Fluorescent probes for diagnosis and therapy",
+        "Super-resolution imaging",
+        "Fluorescence lifetime imaging"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-chen-sijie-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-chen-sijie-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-chen-sijie-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-chow-hei-man-kim",
+      "name": "Chow, Hei Man Kim 周熙文",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chow-hei-man-kim/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Metabolic changes in Alzheimer’s disease and related dementia；Neuronal senescence and brain aging。",
+      "researchKeywords": [
+        "Metabolic changes in Alzheimer’s disease and related dementia",
+        "Neuronal senescence and brain aging"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-chow-hei-man-kim-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-chow-hei-man-kim-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://orcid.org/0000-0003-1203-2096",
+          "parentSourceId": "cuhk-sls-20261108-chow-hei-man-kim-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-chow-hei-man-kim-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-guo-dianjing",
+      "name": "Guo, Dianjing 郭殿京",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/guo-dianjing/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Genomics and bioinformatics；Systems biology；Plant stress response。",
+      "researchKeywords": [
+        "Genomics and bioinformatics",
+        "Systems biology",
+        "Plant stress response",
+        "Plant secondary metabolism and trichome function"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-guo-dianjing-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-guo-dianjing-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-guo-dianjing-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-ngo-chi-ki-jacky",
+      "name": "Ngo, Chi Ki Jacky 敖志祺",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/ngo-chi-ki-jacky/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Target-based discovery and development of inhibitors for molecular targets in cancers and neurodegenerative diseases; and investigation of the structures and mechanisms of the inhibitors.。",
+      "researchKeywords": [
+        "Target-based discovery and development of inhibitors for molecular targets in cancers and neurodegenerative diseases; and investigation of the structures and mechanisms of the inhibitors."
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-ngo-chi-ki-jacky-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-ngo-chi-ki-jacky-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-ngo-chi-ki-jacky-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-pittman-michael",
+      "name": "Pittman, Michael 文嘉棋",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/pittman-michael/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Dinosaur-to-bird transition – feathered dinosaur anatomy, systematics, biology and evolution especially soft anatomy, early flight development, feeding, diet and ecology；Other dinosaur biology and evolution；Lagerstätten & fossilised soft tissues – imaging, geochemistry and palaeobiology。",
+      "researchKeywords": [
+        "Dinosaur-to-bird transition – feathered dinosaur anatomy, systematics, biology and evolution especially soft anatomy, early flight development, feeding, diet and ecology",
+        "Other dinosaur biology and evolution",
+        "Lagerstätten & fossilised soft tissues – imaging, geochemistry and palaeobiology"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-pittman-michael-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-pittman-michael-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.palaeopittman.com/",
+          "parentSourceId": "cuhk-sls-20261108-pittman-michael-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-pittman-michael-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-tsang-ling-ming",
+      "name": "Tsang, Ling Ming 曾令銘",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tsang-ling-ming/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Phylogeny and genome evolution of crustaceans；Molecular ecology of marine invertebrates；Marine biodiversity, biogeography and conservation。",
+      "researchKeywords": [
+        "Phylogeny and genome evolution of crustaceans",
+        "Molecular ecology of marine invertebrates",
+        "Marine biodiversity, biogeography and conservation"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-tsang-ling-ming-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-tsang-ling-ming-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.mmeelab.com/",
+          "parentSourceId": "cuhk-sls-20261108-tsang-ling-ming-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-tsang-ling-ming-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-tsui-tsz-ki-martin",
+      "name": "Tsui, Tsz Ki Martin 徐子祺",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tsui-tsz-ki-martin/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Environmental pollution；Ecosystem biogeochemistry；Stable isotope applications。",
+      "researchKeywords": [
+        "Environmental pollution",
+        "Ecosystem biogeochemistry",
+        "Stable isotope applications",
+        "Environmental molecular applications",
+        "Environmental human health"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-tsui-tsz-ki-martin-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-tsui-tsz-ki-martin-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://sites.google.com/view/cuhk-hg-group/home",
+          "parentSourceId": "cuhk-sls-20261108-tsui-tsz-ki-martin-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-tsui-tsz-ki-martin-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-wong-wing-tak-jack",
+      "name": "Wong, Wing Tak Jack 黃永德",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wong-wing-tak-jack/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Vascular and metabolic biology；Stem cell biology；Cardiovascular regeneration。",
+      "researchKeywords": [
+        "Vascular and metabolic biology",
+        "Stem cell biology",
+        "Cardiovascular regeneration"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-wong-wing-tak-jack-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-wong-wing-tak-jack-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.cuhk.edu.hk/lifesciences/jackwonglab",
+          "parentSourceId": "cuhk-sls-20261108-wong-wing-tak-jack-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-wong-wing-tak-jack-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-zhong-silin",
+      "name": "Zhong, Silin 鍾思林",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhong-silin/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Epigenetics and genomics；Hormone signaling network；Fruit ripening。",
+      "researchKeywords": [
+        "Epigenetics and genomics",
+        "Hormone signaling network",
+        "Fruit ripening",
+        "Sequencing technology"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-zhong-silin-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-zhong-silin-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.epigenome.cuhk.edu.hk/",
+          "parentSourceId": "cuhk-sls-20261108-zhong-silin-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-zhong-silin-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-zhuang-xiaohong",
+      "name": "Zhuang, Xiaohong 庄小紅",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhuang-xiaohong/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向：Autophagosome formation in plants and green algae；Selective autophagy in plant stress response；Mitochondrial dynamics and quality control。",
+      "researchKeywords": [
+        "Autophagosome formation in plants and green algae",
+        "Selective autophagy in plant stress response",
+        "Mitochondrial dynamics and quality control",
+        "Lipid transport and membrane biology"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-zhuang-xiaohong-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-zhuang-xiaohong-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://sites.google.com/view/zhuang-lab/home",
+          "parentSourceId": "cuhk-sls-20261108-zhuang-xiaohong-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-zhuang-xiaohong-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-chen-zhefan-stephen",
+      "name": "Chen, Zhefan Stephen 陳哲凡",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chen-zhefan-stephen/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Therapeutic development of amyotrophic lateral sclerosis；Neurobiology of primary cilium and its role in human neurological disorders；Human stem cells and their neuronal derivatives。",
+      "researchKeywords": [
+        "Therapeutic development of amyotrophic lateral sclerosis",
+        "Neurobiology of primary cilium and its role in human neurological disorders",
+        "Human stem cells and their neuronal derivatives"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-chen-zhefan-stephen-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-chen-zhefan-stephen-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://sites.google.com/view/stephenchenlab/home",
+          "parentSourceId": "cuhk-sls-20261108-chen-zhefan-stephen-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-chen-zhefan-stephen-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-chui-pui-yi-apple",
+      "name": "Chui, Pui Yi Apple 崔佩怡",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chui-pui-yi-apple/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Impact of climate change on marginal coral communities；Interventions that might increase coral resilience；Coral restoration。",
+      "researchKeywords": [
+        "Impact of climate change on marginal coral communities",
+        "Interventions that might increase coral resilience",
+        "Coral restoration"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-chui-pui-yi-apple-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-chui-pui-yi-apple-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.coralacademy.hk/",
+          "parentSourceId": "cuhk-sls-20261108-chui-pui-yi-apple-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-chui-pui-yi-apple-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-cui-guoxin",
+      "name": "Cui, Guoxin 崔國新",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/cui-guoxin/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Cnidarian-dinoflagellate symbiosis;；Host-microbe interaction, molecular dialogue, and metabolic coordination;；Single-cell, spatial transcriptomics, and multi-omics integration;。",
+      "researchKeywords": [
+        "Cnidarian-dinoflagellate symbiosis;",
+        "Host-microbe interaction, molecular dialogue, and metabolic coordination;",
+        "Single-cell, spatial transcriptomics, and multi-omics integration;",
+        "Environmental stress, climate change, and coral reef ecology"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-cui-guoxin-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-cui-guoxin-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-cui-guoxin-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-li-cheng",
+      "name": "Li, Cheng 李成",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/li-cheng/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Starch structure-function relationships；Carbohydrates and health；Cereal chemistry and processing。",
+      "researchKeywords": [
+        "Starch structure-function relationships",
+        "Carbohydrates and health",
+        "Cereal chemistry and processing"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-li-cheng-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-li-cheng-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-li-cheng-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-liang-zizhen",
+      "name": "Liang, Zizhen 梁子臻",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/liang-zizhen/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：The biogenesis, organization, and function of organelles within plant cells.；Uses advanced electron microscopy, including (cryo)-ET, CLEM, and volume EM, to uncover organelle architecture and molecular organization in plants.。",
+      "researchKeywords": [
+        "The biogenesis, organization, and function of organelles within plant cells.",
+        "Uses advanced electron microscopy, including (cryo)-ET, CLEM, and volume EM, to uncover organelle architecture and molecular organization in plants."
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-liang-zizhen-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-liang-zizhen-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-liang-zizhen-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-mcilroy-shelby-e",
+      "name": "Mcilroy, Shelby E. 麥瑞比",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/mcilroy-shelby-e/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Ecology and Evolution of Coral Symbioses；The Impact of Anthropogenic Change on Marine Biodiversity。",
+      "researchKeywords": [
+        "Ecology and Evolution of Coral Symbioses",
+        "The Impact of Anthropogenic Change on Marine Biodiversity"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-mcilroy-shelby-e-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-mcilroy-shelby-e-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.shelbymcilroy.com",
+          "parentSourceId": "cuhk-sls-20261108-mcilroy-shelby-e-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-mcilroy-shelby-e-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-thibodeau-benoit",
+      "name": "Thibodeau, Benoit",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/thibodeau-benoit/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Ocean Biogeochemical Dynamics；Stable Isotope Geochemistry；Anthropogenic impacts。",
+      "researchKeywords": [
+        "Ocean Biogeochemical Dynamics",
+        "Stable Isotope Geochemistry",
+        "Anthropogenic impacts",
+        "Paleoceanography & paleoclimate"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-thibodeau-benoit-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-thibodeau-benoit-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://thibodeau-biogeochemistry.rf.gd/",
+          "parentSourceId": "cuhk-sls-20261108-thibodeau-benoit-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-thibodeau-benoit-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-wang-guanqun",
+      "name": "Wang, Guanqun 王冠群",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wang-guanqun/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Transcriptional regulation mediated by RNA modifications for the crop improvement under environmental stresses；RNA modifications in regulation of crop hybrid vigor；Rice domestications in the epigenetic level。",
+      "researchKeywords": [
+        "Transcriptional regulation mediated by RNA modifications for the crop improvement under environmental stresses",
+        "RNA modifications in regulation of crop hybrid vigor",
+        "Rice domestications in the epigenetic level",
+        "New strategy using synthetic biology and RNA biology for crop breeding"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-wang-guanqun-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-wang-guanqun-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-wang-guanqun-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-zhang-congyan",
+      "name": "Zhang, Congyan 張聰研",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhang-congyan/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Cell-cell communication；Open-ended membrane tubular connections between cells；Communication in tissue and tumor microenvironment。",
+      "researchKeywords": [
+        "Cell-cell communication",
+        "Open-ended membrane tubular connections between cells",
+        "Communication in tissue and tumor microenvironment"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-zhang-congyan-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-zhang-congyan-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.labxing.com/zhang-labatcuhk",
+          "parentSourceId": "cuhk-sls-20261108-zhang-congyan-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-zhang-congyan-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-zhao-yanyan",
+      "name": "Zhao, Yanyan 趙豔豔",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhao-yanyan/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向：Chaperonin-assisted protein folding mechanisms;；Allosteric conformational dynamics of chaperonins in maintaining proteostasis;；Drug development targeting protein-folding pathways for cancer therapy。",
+      "researchKeywords": [
+        "Chaperonin-assisted protein folding mechanisms;",
+        "Allosteric conformational dynamics of chaperonins in maintaining proteostasis;",
+        "Drug development targeting protein-folding pathways for cancer therapy"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-zhao-yanyan-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-zhao-yanyan-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "https://www.yzhao-lab.com",
+          "parentSourceId": "cuhk-sls-20261108-zhao-yanyan-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-zhao-yanyan-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-cheung-chi-keung-peter",
+      "name": "Cheung, Chi Keung Peter 張志強",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/cheung-chi-keung-peter/",
+      "directoryRole": "Research Professor",
+      "summary": "研究方向：Structure-function of cell wall polysaccharides；Bioactive carbohydrates from mushroom and edible fungi；Chemical properties and biological functions of beta-glucans。",
+      "researchKeywords": [
+        "Structure-function of cell wall polysaccharides",
+        "Bioactive carbohydrates from mushroom and edible fungi",
+        "Chemical properties and biological functions of beta-glucans",
+        "Prebiotics, probiotics and gut microbiome",
+        "Polysaccharides as nano complexing agent for targeted drug delivery"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-cheung-chi-keung-peter-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-cheung-chi-keung-peter-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人页所给研究网站",
+          "url": "http://www.cuhk.edu.hk/lifesciences/aboutus/people/CCK.html",
+          "parentSourceId": "cuhk-sls-20261108-cheung-chi-keung-peter-profile",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-cheung-chi-keung-peter-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-shaw-pang-chui",
+      "name": "Shaw, Pang Chui 邵鵬柱",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/shaw-pang-chui/",
+      "directoryRole": "Research Professor",
+      "summary": "研究方向：Structure-function studies of proteins；Authentication, quality control and pharmacological studies of herbal material。",
+      "researchKeywords": [
+        "Structure-function studies of proteins",
+        "Authentication, quality control and pharmacological studies of herbal material"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-shaw-pang-chui-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-shaw-pang-chui-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-shaw-pang-chui-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-cheng-kaihao",
+      "name": "Cheng, Kaihao 程愷豪",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/cheng-kaihao/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究方向：Spectral biology in coastal health and food security；Precision agriculture and plant physiology；Ecological remote sensing。",
+      "researchKeywords": [
+        "Spectral biology in coastal health and food security",
+        "Precision agriculture and plant physiology",
+        "Ecological remote sensing",
+        "Coastal algal blooms and fecal pollution"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-cheng-kaihao-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-cheng-kaihao-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-cheng-kaihao-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-lao-xiangzhou",
+      "name": "Lao, Xiangzhou 勞祥周",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lao-xiangzhou/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究方向：Fluorescence microscopy；Fluorescent materials；Optical Instrumentation。",
+      "researchKeywords": [
+        "Fluorescence microscopy",
+        "Fluorescent materials",
+        "Optical Instrumentation",
+        "Sub-cellular Structures and Dynamics"
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-lao-xiangzhou-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-lao-xiangzhou-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-lao-xiangzhou-profile"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-sls-20261108-zhai-liting",
+      "name": "Zhai, Liting 翟麗婷",
+      "universityId": "cuhk",
+      "department": "生命科学学院",
+      "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhai-liting/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究方向：Structure-function study (using X-ray crystallography and Cryo-EM) of the molecular mechanism in bacteria and plant.；Structural and functional study of suppressors of free1 in plant.。",
+      "researchKeywords": [
+        "Structure-function study (using X-ray crystallography and Cryo-EM) of the molecular mechanism in bacteria and plant.",
+        "Structural and functional study of suppressors of free1 in plant."
+      ],
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "cuhk-sls-20261108-zhai-liting-profile",
+        "cuhk-sls-20261108-academic"
+      ],
+      "directorySourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-sls-20261108-zhai-liting-profile"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhk-sls-20261108-zhai-liting-profile"
+        ]
+      }
     }
   ],
   "sources": [
@@ -181763,6 +183397,769 @@
       ],
       "knownIssues": [],
       "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-sls-20261108-graduate",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science",
+      "title": "港中文研究院 · 理学院项目",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "列生命科学学院所辖研究型路线，按项目核各自要求与期限。",
+      "claims": [
+        "列生命科学学院所辖研究型路线，按项目核各自要求与期限。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-biochemistry",
+        "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-biology"
+      ]
+    },
+    {
+      "id": "cuhk-sls-20261108-biochemistry",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-biochemistry",
+      "title": "生物化学 MPhil/PhD · 研究院",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该路线研究院正文已核。申请条件、轮次与费用请查看本项目原页。",
+      "claims": [
+        "该路线研究院正文已核。申请条件、轮次与费用请查看本项目原页。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-sls-20261108-biology",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-biology",
+      "title": "生物学 MPhil/PhD · 研究院",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该路线研究院正文已核。申请条件、轮次与费用请查看本项目原页。",
+      "claims": [
+        "该路线研究院正文已核。申请条件、轮次与费用请查看本项目原页。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-sls-20261108-guide",
+      "url": "https://www.sls.cuhk.edu.hk/education/postgraduate/programmes-and-admissions/",
+      "title": "生命科学学院 · 研究生项目与申请",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学院页分列研究型与授课型研究生项目，并提供研究院理学院目录入口。",
+      "claims": [
+        "学院页分列研究型与授课型研究生项目，并提供研究院理学院目录入口。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.gs.cuhk.edu.hk/admissions/programme/science"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5477b992a17eadc4c8c5722f6a15813970058573b699507afc4217b5df12642a"
+    },
+    {
+      "id": "cuhk-sls-20261108-academic",
+      "url": "https://www.sls.cuhk.edu.hk/people/academic-staff/",
+      "title": "港中文生命科学学院 · 学术人员名录",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官网本页列 49 张人员卡。重叠类别按原姓名和原网址保留。",
+      "claims": [
+        "官网本页列 49 张人员卡。重叠类别按原姓名和原网址保留。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.sls.cuhk.edu.hk/profile/au-wing-ngor-shannon/",
+        "https://www.sls.cuhk.edu.hk/profile/chan-ho-yin-edwin/",
+        "https://www.sls.cuhk.edu.hk/profile/chan-ting-fung/",
+        "https://www.sls.cuhk.edu.hk/profile/chen-sijie/",
+        "https://www.sls.cuhk.edu.hk/profile/chen-zhefan-stephen/",
+        "https://www.sls.cuhk.edu.hk/profile/cheng-kaihao/",
+        "https://www.sls.cuhk.edu.hk/profile/cheung-chi-keung-peter/",
+        "https://www.sls.cuhk.edu.hk/profile/chiu-chi-ming-lawrence/",
+        "https://www.sls.cuhk.edu.hk/profile/chow-hei-man-kim/",
+        "https://www.sls.cuhk.edu.hk/profile/chui-pui-yi-apple/",
+        "https://www.sls.cuhk.edu.hk/profile/cui-guoxin/",
+        "https://www.sls.cuhk.edu.hk/profile/guo-dianjing/",
+        "https://www.sls.cuhk.edu.hk/profile/hui-ho-lam-jerome/",
+        "https://www.sls.cuhk.edu.hk/profile/jiang-liwen/",
+        "https://www.sls.cuhk.edu.hk/profile/kang-byung-ho/",
+        "https://www.sls.cuhk.edu.hk/profile/koon-chun-alex/",
+        "https://www.sls.cuhk.edu.hk/profile/kwan-kin-ming/",
+        "https://www.sls.cuhk.edu.hk/profile/kwek-erika/",
+        "https://www.sls.cuhk.edu.hk/profile/lam-hon-ming/",
+        "https://www.sls.cuhk.edu.hk/profile/lao-xiangzhou/",
+        "https://www.sls.cuhk.edu.hk/profile/lau-kwok-fai/",
+        "https://www.sls.cuhk.edu.hk/profile/law-man-suet-michelle/",
+        "https://www.sls.cuhk.edu.hk/profile/li-cheng/",
+        "https://www.sls.cuhk.edu.hk/profile/li-yuk-man-charis/",
+        "https://www.sls.cuhk.edu.hk/profile/liang-zizhen/",
+        "https://www.sls.cuhk.edu.hk/profile/lo-fai-hang/",
+        "https://www.sls.cuhk.edu.hk/profile/luo-haiwei/",
+        "https://www.sls.cuhk.edu.hk/profile/mcilroy-shelby-e/",
+        "https://www.sls.cuhk.edu.hk/profile/ngai-hung-kui/",
+        "https://www.sls.cuhk.edu.hk/profile/ngo-chi-ki-jacky/",
+        "https://www.sls.cuhk.edu.hk/profile/pittman-michael/",
+        "https://www.sls.cuhk.edu.hk/profile/shaw-pang-chui/",
+        "https://www.sls.cuhk.edu.hk/profile/sin-man-ching-daisy/",
+        "https://www.sls.cuhk.edu.hk/profile/siow-lam-nina/",
+        "https://www.sls.cuhk.edu.hk/profile/tang-ming-chak-alvin/",
+        "https://www.sls.cuhk.edu.hk/profile/thibodeau-benoit/",
+        "https://www.sls.cuhk.edu.hk/profile/tsang-ling-ming/",
+        "https://www.sls.cuhk.edu.hk/profile/tsang-suk-ying-faye/",
+        "https://www.sls.cuhk.edu.hk/profile/tsui-tsz-ki-martin/",
+        "https://www.sls.cuhk.edu.hk/profile/wang-guanqun/",
+        "https://www.sls.cuhk.edu.hk/profile/wong-kam-bo/",
+        "https://www.sls.cuhk.edu.hk/profile/wong-wing-tak-jack/",
+        "https://www.sls.cuhk.edu.hk/profile/yam-kwan-mei/",
+        "https://www.sls.cuhk.edu.hk/profile/yip-pui-sze-peggy/",
+        "https://www.sls.cuhk.edu.hk/profile/zhai-liting/",
+        "https://www.sls.cuhk.edu.hk/profile/zhang-congyan/",
+        "https://www.sls.cuhk.edu.hk/profile/zhao-yanyan/",
+        "https://www.sls.cuhk.edu.hk/profile/zhong-silin/",
+        "https://www.sls.cuhk.edu.hk/profile/zhuang-xiaohong/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6d0ad01bf737e788fdee9232cafcf466dad1948736d7f514422e04ab82a47427"
+    },
+    {
+      "id": "cuhk-sls-20261108-chan-ho-yin-edwin-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/chan-ho-yin-edwin/",
+      "title": "Chan, Ho Yin Edwin 陳浩然 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.bch.cuhk.edu.hk/LDR/LDR_edwinchan.html",
+        "http://www.bch.cuhk.edu.hk/LDR/LDR_news.html",
+        "https://www.bch.cuhk.edu.hk/LDR/LDR_publication.asp"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a7ac68a0587a3caf5486fc391266b0f888e1f6ecce8dbb68bf8d6d9691e5be3b"
+    },
+    {
+      "id": "cuhk-sls-20261108-au-wing-ngor-shannon-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/au-wing-ngor-shannon/",
+      "title": "Au, Wing Ngor Shannon 區詠娥 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "408d29fb6bba3cf1049bd2163c6cb955393722fa744bd8d63d6e144366312933"
+    },
+    {
+      "id": "cuhk-sls-20261108-chan-ting-fung-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/chan-ting-fung/",
+      "title": "Chan, Ting Fung 陳廷峰 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.hkbic.cuhk.edu.hk/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c5a4f3bcc66f4e326d1514817f7d6e38a31d11574382eaf5ac2268bc805831da"
+    },
+    {
+      "id": "cuhk-sls-20261108-hui-ho-lam-jerome-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/hui-ho-lam-jerome/",
+      "title": "Hui, Ho Lam Jerome 許浩霖 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://sites.google.com/site/huijerome/",
+        "http://biodiversity.sls.cuhk.edu.hk/ebphk/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f4287c92ae217854a745b80ccec401ef18cd5de8798f21ce68ac5ad371a1b8f3"
+    },
+    {
+      "id": "cuhk-sls-20261108-jiang-liwen-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/jiang-liwen/",
+      "title": "Jiang, Liwen 姜里文 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/centre/iCell/",
+        "http://www.cuhk.edu.hk/centre/ccdb/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6fc970d890fc386caca75f66b771f7ae68aa331b31ee192401d23e69c93fb824"
+    },
+    {
+      "id": "cuhk-sls-20261108-kang-byung-ho-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/kang-byung-ho/",
+      "title": "Kang, Byung Ho 姜秉昊 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "04e9909a42e48db9356b051043d8cb821f87be71d55698c333459c8942d2b435"
+    },
+    {
+      "id": "cuhk-sls-20261108-kwan-kin-ming-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/kwan-kin-ming/",
+      "title": "Kwan, Kin Ming 關健明 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://profkmkwanlab.lbmkyi1.workers.dev"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4666c92221132a9e083beec971de2bea03794e7af46b4751419adb394f100419"
+    },
+    {
+      "id": "cuhk-sls-20261108-lam-hon-ming-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/lam-hon-ming/",
+      "title": "Lam, Hon Ming 林漢明 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://137.189.43.137:8080/Publications/HML-publications.htm"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d4d531305d6823628efa95a5f7dae14e51f61adb94089ea84e1b2fde8e5c366a"
+    },
+    {
+      "id": "cuhk-sls-20261108-lau-kwok-fai-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/lau-kwok-fai/",
+      "title": "Lau, Kwok Fai 劉國輝 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "eeb93a765c45c75583a21f0118498f1a61916b30ac807708a88544a56910085b"
+    },
+    {
+      "id": "cuhk-sls-20261108-luo-haiwei-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/luo-haiwei/",
+      "title": "Luo, Haiwei 羅海偉 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.luolab.net"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "122081a08ec4918158a57f422f8a680f1448ed16a8c3d0fd1b1cba277c6fe614"
+    },
+    {
+      "id": "cuhk-sls-20261108-tsang-suk-ying-faye-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/tsang-suk-ying-faye/",
+      "title": "Tsang, Suk Ying Faye 曾淑瑩 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "41b6b495854f936d0b3d7822819b90360952b078bd9da4646196307faeffd9ba"
+    },
+    {
+      "id": "cuhk-sls-20261108-wong-kam-bo-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/wong-kam-bo/",
+      "title": "Wong, Kam Bo 黃錦波 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://kbwongcuhk.wordpress.com"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c066fc1e472d7e540ef57a408f64f6414e76d69d76c27030e146e15c80311f86"
+    },
+    {
+      "id": "cuhk-sls-20261108-chen-sijie-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/chen-sijie/",
+      "title": "Chen, Sijie 陳斯杰 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e030a0f77d8c552a58230d4cd98b47f080c47003e99f9737f7b1060fcadb1e95"
+    },
+    {
+      "id": "cuhk-sls-20261108-chow-hei-man-kim-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/chow-hei-man-kim/",
+      "title": "Chow, Hei Man Kim 周熙文 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://orcid.org/0000-0003-1203-2096"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b24cc5f952047b7ff7f3cfd9000ce179636c26086cfcb13fd99ea578b5479469"
+    },
+    {
+      "id": "cuhk-sls-20261108-guo-dianjing-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/guo-dianjing/",
+      "title": "Guo, Dianjing 郭殿京 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0705bf9c927cd541aa0080b03e3074b8eb383e647324177152715e29927215af"
+    },
+    {
+      "id": "cuhk-sls-20261108-ngo-chi-ki-jacky-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/ngo-chi-ki-jacky/",
+      "title": "Ngo, Chi Ki Jacky 敖志祺 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "609255ad34d6f6f6abf7e24c3e2b3440230e9b3c85b8aad8b2fc69baf2a7b36c"
+    },
+    {
+      "id": "cuhk-sls-20261108-pittman-michael-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/pittman-michael/",
+      "title": "Pittman, Michael 文嘉棋 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.palaeopittman.com/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e8d073a8a697034bc1ebd2c3ef96c038b91036a0f5b9113b323e4b53a4e7ef03"
+    },
+    {
+      "id": "cuhk-sls-20261108-tsang-ling-ming-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/tsang-ling-ming/",
+      "title": "Tsang, Ling Ming 曾令銘 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.mmeelab.com/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ac92ee3843c3aa46b9175cc919454eb8d1ddc57a64a7d7999b160ceb4b1e6d78"
+    },
+    {
+      "id": "cuhk-sls-20261108-tsui-tsz-ki-martin-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/tsui-tsz-ki-martin/",
+      "title": "Tsui, Tsz Ki Martin 徐子祺 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/cuhk-hg-group/home"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e54978ec64c61fb5214469c3289ebd43b3192e2eba54da96f1005b14d7cbdcc5"
+    },
+    {
+      "id": "cuhk-sls-20261108-wong-wing-tak-jack-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/wong-wing-tak-jack/",
+      "title": "Wong, Wing Tak Jack 黃永德 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/lifesciences/jackwonglab"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "acf0cc528e5f971d72ba2b84df036dda243d4aeb21e8436f13a507cb5ff4a44b"
+    },
+    {
+      "id": "cuhk-sls-20261108-zhong-silin-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/zhong-silin/",
+      "title": "Zhong, Silin 鍾思林 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.epigenome.cuhk.edu.hk/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f769276cbd0a3a19ea1b2422a36b888cc97f04aaee27451144bf38559687d6cc"
+    },
+    {
+      "id": "cuhk-sls-20261108-zhuang-xiaohong-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/zhuang-xiaohong/",
+      "title": "Zhuang, Xiaohong 庄小紅 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/zhuang-lab/home"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3a7512152187e49a9581d30c3f73a17e89bd018e1c37aa0e275cf56e984d0f52"
+    },
+    {
+      "id": "cuhk-sls-20261108-chen-zhefan-stephen-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/chen-zhefan-stephen/",
+      "title": "Chen, Zhefan Stephen 陳哲凡 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/stephenchenlab/home"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "04ef8551ef3ef8f697dff4ec53f21fac720e1179c913582812050503cc018e41"
+    },
+    {
+      "id": "cuhk-sls-20261108-chui-pui-yi-apple-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/chui-pui-yi-apple/",
+      "title": "Chui, Pui Yi Apple 崔佩怡 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.coralacademy.hk/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d4327691f287678d551de94945cd39390ccb871b6c82a58957293d40bbc4154f"
+    },
+    {
+      "id": "cuhk-sls-20261108-cui-guoxin-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/cui-guoxin/",
+      "title": "Cui, Guoxin 崔國新 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8a47583a30ccd0cea65667f64eb706132e22e0b87afd168535193cb050697e41"
+    },
+    {
+      "id": "cuhk-sls-20261108-li-cheng-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/li-cheng/",
+      "title": "Li, Cheng 李成 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3a9c076795802937135269301a1eafad15dc5448a71a9f7afd5b78cf875ab411"
+    },
+    {
+      "id": "cuhk-sls-20261108-liang-zizhen-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/liang-zizhen/",
+      "title": "Liang, Zizhen 梁子臻 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "508eab03526881eddaf964b71477f4c085152a6b2586a9dd7321f5f91a559cdc"
+    },
+    {
+      "id": "cuhk-sls-20261108-mcilroy-shelby-e-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/mcilroy-shelby-e/",
+      "title": "Mcilroy, Shelby E. 麥瑞比 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.shelbymcilroy.com"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5f3c204aa61471627723c99a80decd46aa930a1e5815ea4b10d9e76b2c127dde"
+    },
+    {
+      "id": "cuhk-sls-20261108-thibodeau-benoit-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/thibodeau-benoit/",
+      "title": "Thibodeau, Benoit · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://thibodeau-biogeochemistry.rf.gd/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7f6caa0f19ab947491cff467fdf53d71c6c798a8f77483c904c436f27e6ba8b6"
+    },
+    {
+      "id": "cuhk-sls-20261108-wang-guanqun-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/wang-guanqun/",
+      "title": "Wang, Guanqun 王冠群 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "31daf56a43b31b905a66b7f1a77b45f05c7ff6a0aa69dc6d8af858b99c35fd98"
+    },
+    {
+      "id": "cuhk-sls-20261108-zhang-congyan-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/zhang-congyan/",
+      "title": "Zhang, Congyan 張聰研 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.labxing.com/zhang-labatcuhk"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3c51f11bd39690d0c6b88bbe8ffe9ad017b50d57ff352cae56fdf81c8cedc34d"
+    },
+    {
+      "id": "cuhk-sls-20261108-zhao-yanyan-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/zhao-yanyan/",
+      "title": "Zhao, Yanyan 趙豔豔 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.yzhao-lab.com"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3f3bbd4c5bd5a4e5a4794b5450a3ca9228360cbf533ce73c624324f3a4e85fe3"
+    },
+    {
+      "id": "cuhk-sls-20261108-cheung-chi-keung-peter-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/cheung-chi-keung-peter/",
+      "title": "Cheung, Chi Keung Peter 張志強 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/lifesciences/aboutus/people/CCK.html"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e0d16411b0d0b047b771a6aa5b532b4e2b99f65786e7e24c17c59ced30ed90c4"
+    },
+    {
+      "id": "cuhk-sls-20261108-shaw-pang-chui-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/shaw-pang-chui/",
+      "title": "Shaw, Pang Chui 邵鵬柱 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0d4979837feaa1182a6c413e87eb51b178c062227620e05290c7219a8eee7fbe"
+    },
+    {
+      "id": "cuhk-sls-20261108-cheng-kaihao-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/cheng-kaihao/",
+      "title": "Cheng, Kaihao 程愷豪 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "50fc11eee1576f7ae74d8e7d9238218480403fc28965228535d7707794bdd0a1"
+    },
+    {
+      "id": "cuhk-sls-20261108-lao-xiangzhou-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/lao-xiangzhou/",
+      "title": "Lao, Xiangzhou 勞祥周 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ee0acd1ab2151c9e2ec0d6956cdca390558ed2ca195e1c4ab661900c1933658e"
+    },
+    {
+      "id": "cuhk-sls-20261108-zhai-liting-profile",
+      "url": "https://www.sls.cuhk.edu.hk/profile/zhai-liting/",
+      "title": "Zhai, Liting 翟麗婷 · 学院个人主页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "已核姓名与研究方向。当前指导资格和余位待核。",
+      "claims": [
+        "已核姓名与研究方向。当前指导资格和余位待核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "699b5b5d0649d88cb6f9cfebad4c90b199e5e5b22ff29c3dc4d7537b986f7956"
+    },
+    {
+      "id": "cuhk-sls-20261108-appointments",
+      "url": "https://www.sls.cuhk.edu.hk/people/honorary-and-emeritus-professors/",
+      "title": "港中文生命科学学院 · 荣休、兼任与礼聘名录",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "官网本页列 34 张人员卡。重叠类别按原姓名和原网址保留。",
+      "claims": [
+        "官网本页列 34 张人员卡。重叠类别按原姓名和原网址保留。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.vitargent.com/our_team/xueping-chen/",
+        "https://biol.hkbu.edu.hk/?page_id=7232",
+        "https://chem.cuhk.edu.hk/people/academic-staff/xj/",
+        "https://nutrigeneai.com/our-team/",
+        "https://people.unisa.edu.au/Laura.Falkenberg",
+        "https://www.bme.cuhk.edu.hk/jchchoi/index.php",
+        "https://www.bme.cuhk.edu.hk/new/duanp.php",
+        "https://www.cityu.edu.hk/bms/profile/yuhuang.htm",
+        "https://www.cuhk.edu.hk/med/cpy/Research/ChunKwokWong.htm",
+        "https://www.kitchanlaw.com/",
+        "https://www.med.cuhk.edu.hk/staff/dr-ko-ho-owen",
+        "https://www.sls.cuhk.edu.hk/profile/chen-zhenyu/",
+        "https://www.sls.cuhk.edu.hk/profile/chu-ka-hou/",
+        "https://www.sls.cuhk.edu.hk/profile/chu-lee-man/",
+        "https://www.sls.cuhk.edu.hk/profile/fong-wing-ping/",
+        "https://www.sls.cuhk.edu.hk/profile/kong-siu-kai/",
+        "https://www.sls.cuhk.edu.hk/profile/kwan-hoi-shan/",
+        "https://www.sls.cuhk.edu.hk/profile/wong-po-keung/",
+        "https://www3.sbs.cuhk.edu.hk/en/our_people/prof-tsui-kwok-wing-stephen/",
+        "https://www3.sbs.cuhk.edu.hk/en/our_people/prof-yao-xiao-qiang/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c2592f6ebe8ed1c42ce0047e32eb73ebe1013fb1246c6f32656c48b0cf4be8d1"
     }
   ],
   "funding": [
@@ -195935,6 +198332,735 @@
         "cuhksz-sse-staff-20261107-page-18"
       ],
       "coverageNotes": "可打开官网，按职位或研究领域筛选。这里保留默认名录的 18 页人员入口。"
+    },
+    {
+      "id": "cuhk-sls-20261108-academic-directory",
+      "universityId": "cuhk",
+      "unit": "生命科学学院 · 学术人员",
+      "url": "https://www.sls.cuhk.edu.hk/people/academic-staff/",
+      "sourceIds": [
+        "cuhk-sls-20261108-academic"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "官网本页 49 张卡，合并同页重复任职后为 49 条。学术、研究、教学与荣休等身份按原页区分。",
+      "census": {
+        "entries": [
+          {
+            "name": "Chan, Ho Yin Edwin 陳浩然",
+            "directoryPosition": "Director",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chan-ho-yin-edwin/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-chan-ho-yin-edwin"
+          },
+          {
+            "name": "Au, Wing Ngor Shannon 區詠娥",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/au-wing-ngor-shannon/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-au-wing-ngor-shannon"
+          },
+          {
+            "name": "Chan, Ting Fung 陳廷峰",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chan-ting-fung/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-chan-ting-fung"
+          },
+          {
+            "name": "Hui, Ho Lam Jerome 許浩霖",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/hui-ho-lam-jerome/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-hui-ho-lam-jerome"
+          },
+          {
+            "name": "Jiang, Liwen 姜里文",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/jiang-liwen/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-jiang-liwen"
+          },
+          {
+            "name": "Kang, Byung Ho 姜秉昊",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kang-byung-ho/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-kang-byung-ho"
+          },
+          {
+            "name": "Kwan, Kin Ming 關健明",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kwan-kin-ming/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-kwan-kin-ming"
+          },
+          {
+            "name": "Lam, Hon Ming 林漢明",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lam-hon-ming/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-lam-hon-ming"
+          },
+          {
+            "name": "Lau, Kwok Fai 劉國輝",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lau-kwok-fai/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-lau-kwok-fai"
+          },
+          {
+            "name": "Luo, Haiwei 羅海偉",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/luo-haiwei/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-luo-haiwei"
+          },
+          {
+            "name": "Tsang, Suk Ying Faye 曾淑瑩",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tsang-suk-ying-faye/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-tsang-suk-ying-faye"
+          },
+          {
+            "name": "Wong, Kam Bo 黃錦波",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wong-kam-bo/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-wong-kam-bo"
+          },
+          {
+            "name": "Chen, Sijie 陳斯杰",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chen-sijie/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-chen-sijie"
+          },
+          {
+            "name": "Chow, Hei Man Kim 周熙文",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chow-hei-man-kim/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-chow-hei-man-kim"
+          },
+          {
+            "name": "Guo, Dianjing 郭殿京",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/guo-dianjing/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-guo-dianjing"
+          },
+          {
+            "name": "Ngo, Chi Ki Jacky 敖志祺",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/ngo-chi-ki-jacky/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-ngo-chi-ki-jacky"
+          },
+          {
+            "name": "Pittman, Michael 文嘉棋",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/pittman-michael/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-pittman-michael"
+          },
+          {
+            "name": "Tsang, Ling Ming 曾令銘",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tsang-ling-ming/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-tsang-ling-ming"
+          },
+          {
+            "name": "Tsui, Tsz Ki Martin 徐子祺",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tsui-tsz-ki-martin/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-tsui-tsz-ki-martin"
+          },
+          {
+            "name": "Wong, Wing Tak Jack 黃永德",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wong-wing-tak-jack/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-wong-wing-tak-jack"
+          },
+          {
+            "name": "Zhong, Silin 鍾思林",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhong-silin/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-zhong-silin"
+          },
+          {
+            "name": "Zhuang, Xiaohong 庄小紅",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhuang-xiaohong/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-zhuang-xiaohong"
+          },
+          {
+            "name": "Chen, Zhefan Stephen 陳哲凡",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chen-zhefan-stephen/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-chen-zhefan-stephen"
+          },
+          {
+            "name": "Chui, Pui Yi Apple 崔佩怡",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chui-pui-yi-apple/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-chui-pui-yi-apple"
+          },
+          {
+            "name": "Cui, Guoxin 崔國新",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/cui-guoxin/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-cui-guoxin"
+          },
+          {
+            "name": "Li, Cheng 李成",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/li-cheng/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-li-cheng"
+          },
+          {
+            "name": "Liang, Zizhen 梁子臻",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/liang-zizhen/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-liang-zizhen"
+          },
+          {
+            "name": "Mcilroy, Shelby E. 麥瑞比",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/mcilroy-shelby-e/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-mcilroy-shelby-e"
+          },
+          {
+            "name": "Thibodeau, Benoit",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/thibodeau-benoit/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-thibodeau-benoit"
+          },
+          {
+            "name": "Wang, Guanqun 王冠群",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wang-guanqun/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-wang-guanqun"
+          },
+          {
+            "name": "Zhang, Congyan 張聰研",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhang-congyan/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-zhang-congyan"
+          },
+          {
+            "name": "Zhao, Yanyan 趙豔豔",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhao-yanyan/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-zhao-yanyan"
+          },
+          {
+            "name": "Cheung, Chi Keung Peter 張志強",
+            "directoryPosition": "Research Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/cheung-chi-keung-peter/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-cheung-chi-keung-peter"
+          },
+          {
+            "name": "Shaw, Pang Chui 邵鵬柱",
+            "directoryPosition": "Research Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/shaw-pang-chui/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-shaw-pang-chui"
+          },
+          {
+            "name": "Cheng, Kaihao 程愷豪",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/cheng-kaihao/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-cheng-kaihao"
+          },
+          {
+            "name": "Lao, Xiangzhou 勞祥周",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lao-xiangzhou/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-lao-xiangzhou"
+          },
+          {
+            "name": "Zhai, Liting 翟麗婷",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/zhai-liting/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "研究方向已收录。",
+            "facultyId": "cuhk-sls-20261108-zhai-liting"
+          },
+          {
+            "name": "Chiu, Chi Ming Lawrence 招志明",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chiu-chi-ming-lawrence/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Koon, Chun Alex 管進",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/koon-chun-alex/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Kwek, Erika",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kwek-erika/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Law, Man Suet Michelle 羅文雪",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/law-man-suet-michelle/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Li, Yuk Man Charis 李毓雯",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/li-yuk-man-charis/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Lo, Fai Hang 羅輝恒",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/lo-fai-hang/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Ngai, Hung Kui 魏雄鉅",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/ngai-hung-kui/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Siow, Lam Nina 蕭琳",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/siow-lam-nina/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Tang, Ming-chak Alvin 鄧銘澤",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/tang-ming-chak-alvin/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Yam, Kwan Mei 任君美",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/yam-kwan-mei/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Yip, Pui Sze Peggy 葉珮詩",
+            "directoryPosition": "Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/yip-pui-sze-peggy/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Sin, Man Ching Daisy 冼雯菁",
+            "directoryPosition": "Assistant Lecturer",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/sin-man-ching-daisy/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 49,
+        "profilesRead": 49,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      },
+      "reviewSourceIds": [
+        "cuhk-sls-20261108-guide",
+        "cuhk-sls-20261108-graduate",
+        "cuhk-sls-20261108-biochemistry",
+        "cuhk-sls-20261108-biology"
+      ]
+    },
+    {
+      "id": "cuhk-sls-20261108-appointments-directory",
+      "universityId": "cuhk",
+      "unit": "生命科学学院 · 荣休、兼任与礼聘",
+      "url": "https://www.sls.cuhk.edu.hk/people/honorary-and-emeritus-professors/",
+      "sourceIds": [
+        "cuhk-sls-20261108-appointments"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "官网本页 34 张卡，合并同页重复任职后为 33 条。学术、研究、教学与荣休等身份按原页区分。",
+      "census": {
+        "entries": [
+          {
+            "name": "Chen, Zhenyu 陳振宇",
+            "directoryPosition": "Emeritus Professor / Adjunct Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chen-zhenyu/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Chu, Ka Hou 朱嘉濠",
+            "directoryPosition": "Emeritus Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chu-ka-hou/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Fong, Wing Ping 方永平",
+            "directoryPosition": "Emeritus Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/fong-wing-ping/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Kong, Siu Kai 江紹佳",
+            "directoryPosition": "Emeritus Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kong-siu-kai/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Kwan, Hoi Shan 關海山",
+            "directoryPosition": "Emeritus Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/kwan-hoi-shan/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Wong, Po Keung 王保強",
+            "directoryPosition": "Emeritus Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/wong-po-keung/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Huang, Yu 黃聿",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": "https://www.cityu.edu.hk/bms/profile/yuhuang.htm",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Zhang, Jianhua 張建華",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": "https://biol.hkbu.edu.hk/?page_id=7232",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Chan, Wai Kit Albert 陳偉傑",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileUrl": "https://www.kitchanlaw.com/",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Chu, Lee Man 朱利民",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileUrl": "https://www.sls.cuhk.edu.hk/profile/chu-lee-man/",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "reviewNote": "已核本人档案。"
+          },
+          {
+            "name": "Chen, Xueping 陳雪平",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileUrl": "http://www.vitargent.com/our_team/xueping-chen/",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Falkenberg, Laura",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileUrl": "https://people.unisa.edu.au/Laura.Falkenberg",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Wong, Bill 王標",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileUrl": "https://nutrigeneai.com/our-team/",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Choi, Chung Hang, Jonathan 蔡宗衡",
+            "directoryPosition": "Professor (By courtesy)",
+            "profileUrl": "https://www.bme.cuhk.edu.hk/jchchoi/index.php",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。已有档案线索：cuhk-bme-04"
+          },
+          {
+            "name": "Duan, Liting 段麗婷",
+            "directoryPosition": "Professor (By courtesy)",
+            "profileUrl": "https://www.bme.cuhk.edu.hk/new/duanp.php",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。已有档案线索：cuhk-bme-05"
+          },
+          {
+            "name": "Tsui, Kwok Wing Stephen 徐國榮",
+            "directoryPosition": "Professor (By courtesy)",
+            "profileUrl": "https://www3.sbs.cuhk.edu.hk/en/our_people/prof-tsui-kwok-wing-stephen/",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Wong, Chun Kwok 黃振國",
+            "directoryPosition": "Professor (By courtesy)",
+            "profileUrl": "https://www.cuhk.edu.hk/med/cpy/Research/ChunKwokWong.htm",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Xia, Jiang 夏江",
+            "directoryPosition": "Professor (By courtesy)",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/xj/",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Yao, Xiaoqiang 姚曉強",
+            "directoryPosition": "Professor (By courtesy)",
+            "profileUrl": "https://www3.sbs.cuhk.edu.hk/en/our_people/prof-yao-xiao-qiang/",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          },
+          {
+            "name": "Ko, Ho 高浩",
+            "directoryPosition": "Associate Professor (By courtesy)",
+            "profileUrl": "https://www.med.cuhk.edu.hk/staff/dr-ko-ho-owen",
+            "reviewStatus": "not_read",
+            "profileRead": false,
+            "reviewNote": "名录所给站外入口，正文待核。"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Chang, Shu Ting 張樹庭",
+            "profileUrl": null,
+            "directoryPosition": "Emeritus Professor",
+            "providedLinks": [],
+            "reason": "(1995 - 2026)"
+          },
+          {
+            "name": "Ho, Kwok Keung Walter 何國強",
+            "profileUrl": null,
+            "directoryPosition": "Emeritus Professor",
+            "providedLinks": [],
+            "reason": "院方名录未提供个人页。"
+          },
+          {
+            "name": "Leung, Kwok Nam 梁國南",
+            "profileUrl": null,
+            "directoryPosition": "Emeritus Professor",
+            "providedLinks": [],
+            "reason": "院方名录未提供个人页。"
+          },
+          {
+            "name": "Sun, Samuel Sai Ming 辛世文",
+            "profileUrl": null,
+            "directoryPosition": "Emeritus Professor",
+            "providedLinks": [],
+            "reason": "院方名录未提供个人页。"
+          },
+          {
+            "name": "Woo, Ying Shiu Norman 胡應劭",
+            "profileUrl": null,
+            "directoryPosition": "Emeritus Professor",
+            "providedLinks": [],
+            "reason": "院方名录未提供个人页。"
+          },
+          {
+            "name": "Kong, Siu Kai 江紹佳",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Professor",
+            "providedLinks": [],
+            "reason": "Emeritus Professor, School of Life Sciences, CUHK"
+          },
+          {
+            "name": "Lee, Shing Yip Joe 李成業",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Professor",
+            "providedLinks": [],
+            "reason": "Retired Professor, School of Life Sciences, CUHK"
+          },
+          {
+            "name": "Ng, Tzi Bun 吳子斌",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Professor",
+            "providedLinks": [],
+            "reason": "Retired Professor, School of Biomedical Sciences, CUHK"
+          },
+          {
+            "name": "Wong, Bing Lou 黃炳鏐",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Professor",
+            "providedLinks": [],
+            "reason": "Chief Technology Officer, New A Innovation Ltd."
+          },
+          {
+            "name": "Chung, Hau Yin Anthony 鍾厚賢",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Associate Professor",
+            "providedLinks": [],
+            "reason": "院方名录未提供个人页。"
+          },
+          {
+            "name": "Wan, Chi Cheong David 溫志昌",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Associate Professor",
+            "providedLinks": [],
+            "reason": "School of Biomedical Sciences"
+          },
+          {
+            "name": "Liu, Jianing Jenny 劉佳凝",
+            "profileUrl": null,
+            "directoryPosition": "Adjunct Assistant Professor",
+            "providedLinks": [],
+            "reason": "Founder and Managing Partner of Mount Auburn Consulting Ltd"
+          },
+          {
+            "name": "Lau, Victor 劉楚儒",
+            "profileUrl": null,
+            "directoryPosition": "Assistant Professor (By courtesy)",
+            "providedLinks": [],
+            "reason": "Head of Venture Acceleration, Social Innovation, Knowledge Transfer Office, CUHK"
+          }
+        ],
+        "observedTotal": 20,
+        "profilesRead": 7,
+        "profilesFailed": 13,
+        "pendingReasonCounts": {
+          "not_read": 13
+        }
+      }
     }
   ],
   "directApplicationRoutes": {
@@ -239244,23 +242370,34 @@
         {
           "label": "学术人员",
           "url": "https://www.sls.cuhk.edu.hk/people/academic-staff/",
-          "bodyStatus": "not_read",
+          "bodyStatus": "body_read",
           "availability": "unknown",
-          "supervisionEligibility": "unknown"
+          "supervisionEligibility": "unknown",
+          "sourceIds": [
+            "cuhk-sls-20261108-academic"
+          ],
+          "directoryId": "cuhk-sls-20261108-academic-directory"
         },
         {
           "label": "荣誉与荣休教授",
           "url": "https://www.sls.cuhk.edu.hk/people/honorary-and-emeritus-professors/",
-          "bodyStatus": "not_read",
+          "bodyStatus": "body_read",
           "availability": "unknown",
-          "supervisionEligibility": "unknown"
+          "supervisionEligibility": "unknown",
+          "sourceIds": [
+            "cuhk-sls-20261108-appointments"
+          ],
+          "directoryId": "cuhk-sls-20261108-appointments-directory"
         },
         {
           "label": "研究生项目与申请（研究型和授课型须再区分）",
           "url": "https://www.sls.cuhk.edu.hk/education/postgraduate/programmes-and-admissions/",
-          "bodyStatus": "not_read",
+          "bodyStatus": "body_read",
           "availability": "unknown",
-          "supervisionEligibility": "unknown"
+          "supervisionEligibility": "unknown",
+          "sourceIds": [
+            "cuhk-sls-20261108-guide"
+          ]
         }
       ],
       "unitNavigationChain": [
@@ -240217,5 +243354,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:efdaba0ceeb53b142da3008ddd0f975bc4e835c051af462598e13bae43b01864"
+  "snapshotId": "sha256:96ef759721bd22480171002b9461ac4a3bc08d403c43abe59c6f9fb359bf0238"
 }

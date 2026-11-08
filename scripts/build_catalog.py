@@ -748,6 +748,18 @@ def build_catalog():
     chemistry_source = hku_chemistry["faculty"][0]["directoryEvidenceSourceId"]
     existing["sourceIds"].append(chemistry_source)
     existing["academicUnitIds"] = list(dict.fromkeys(existing.get("academicUnitIds", []) + ["hku-9"]))
+    life_sciences = load("cuhk-life-sciences-20261108.json")
+    catalog["sources"].extend(life_sciences["sources"])
+    catalog["faculty"].extend(life_sciences["faculty"])
+    catalog["directories"].extend(life_sciences["directories"])
+    life_unit = next(e for e in catalog["academicEntryFollowups"] if e["url"] == "http://www.cuhk.edu.hk/lifesciences")
+    directories_by_url = {d["url"]: d for d in life_sciences["directories"]}
+    for entry in life_unit["nextEntries"]:
+        if entry["url"] in directories_by_url:
+            directory = directories_by_url[entry["url"]]
+            entry.update(bodyStatus="body_read", sourceIds=directory["sourceIds"], directoryId=directory["id"])
+        elif entry["url"] == life_sciences["unitGuideUrl"]:
+            entry.update(bodyStatus="body_read", sourceIds=[life_sciences["unitGuideSourceId"]])
     return catalog
 
 
