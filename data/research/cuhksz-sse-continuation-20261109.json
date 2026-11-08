@@ -1,0 +1,379 @@
+{
+  "unitId": "cuhksz-2",
+  "sources": [
+    {
+      "id": "cuhksz-sse-continuation-jianwei-huang",
+      "url": "https://jianwei.cuhk.edu.cn/",
+      "title": "黄建伟 · 港中深理工学院名录所列档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人档案研究正文；院内岗位参照所列理工学院名录。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向包括网络智能。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "a4bb08231dec3a6c0511b72868cdc5264bcdede827c3adf5f37e6523b23ced67",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": [
+        "https://jianwei.cuhk.edu.cn/research.html"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-continuation-conniechang",
+      "url": "https://myweb.cuhk.edu.cn/conniechang",
+      "title": "常瑞华 · 港中深理工学院名录所列档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人档案研究正文；院内岗位参照所列理工学院名录。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向包括微纳机电系统、纳米光电子器件、微系统与材料。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "9ac7888b3af16cb6ed5d6f11b5a8582da16c7d5add862ab0e910b6b09bc957e2",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/conniechang/Home/ResearchDirection"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-continuation-cuishuguang",
+      "url": "https://myweb.cuhk.edu.cn/cuishuguang",
+      "title": "崔曙光 · 港中深理工学院名录所列档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人档案研究正文；院内岗位参照所列理工学院名录。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向包括人工智能与通信网络融合。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "98217d7ce43db604a773d05b9398238f05719d692cb3f623e5c2a4437d38501a",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-continuation-luozhiquan",
+      "url": "https://myweb.cuhk.edu.cn/luozhiquan",
+      "title": "罗智泉 · 港中深理工学院名录所列档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人档案研究正文；院内岗位参照所列理工学院名录。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向包括大数据分析的优化方法、信号处理中的计算复杂性、数字通信。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "7e7c7005eef3546fa95931be0f0a33ede43199c13949d73ed8ffb4704cbcbce3",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": [
+        "https://tomluo123.github.io/"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-continuation-tangbenzhong",
+      "url": "https://myweb.cuhk.edu.cn/tangbenzhong",
+      "title": "唐本忠 · 港中深理工学院名录所列档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人档案研究正文；院内岗位参照所列理工学院名录。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向包括材料科学、高分子化学、生物医学诊疗、聚集诱导发光。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "0e49606bcfb366de1dfc734bb6b1c023eea474b37c8c2b223ea3236a6a9109d3",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": [
+        "https://www.x-mol.com/groups/tang-benzhong-cuhksz"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-continuation-tongshukyin",
+      "url": "https://myweb.cuhk.edu.cn/tongshukyin",
+      "title": "唐叔贤 · 港中深理工学院名录所列档案",
+      "checkedAt": "2026-11-07",
+      "scope": "本人档案研究正文；院内岗位参照所列理工学院名录。",
+      "evidenceLevel": "official_faculty_research_profile",
+      "claims": [
+        "研究方向包括材料表面科学与技术、低能电子衍射、光电子衍射。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "456284b91409e59f8facd19093db4dace6378dbbfe7f5e59d9fe3b6635c64838",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
+      "discoveredLinks": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "cuhksz-sse-jianwei-huang",
+      "name": "黄建伟 · Jianwei Huang",
+      "department": "理工学院",
+      "universityId": "cuhksz",
+      "profileUrl": "https://jianwei.cuhk.edu.cn/",
+      "directoryRole": "校长讲座教授",
+      "summary": "研究方向包括网络智能。",
+      "topics": [
+        "网络与系统",
+        "人工智能"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://jianwei.cuhk.edu.cn/research.html",
+          "label": "本人档案所给研究入口",
+          "parentSourceId": "cuhksz-sse-continuation-jianwei-huang",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhksz-sse-continuation-jianwei-huang"
+        ]
+      },
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-continuation-jianwei-huang"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-continuation-jianwei-huang"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "researchKeywords": [
+        "网络智能"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-conniechang",
+      "name": "常瑞华 · Connie Chang-Hasnain",
+      "department": "理工学院",
+      "universityId": "cuhksz",
+      "profileUrl": "https://myweb.cuhk.edu.cn/conniechang",
+      "directoryRole": "校长学勤讲座教授",
+      "summary": "研究方向包括微纳机电系统、纳米光电子器件、微系统与材料。",
+      "topics": [
+        "电子与集成电路",
+        "材料与能源"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://myweb.cuhk.edu.cn/conniechang/Home/ResearchDirection",
+          "label": "本人档案所给研究入口",
+          "parentSourceId": "cuhksz-sse-continuation-conniechang",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhksz-sse-continuation-conniechang"
+        ]
+      },
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-continuation-conniechang"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-continuation-conniechang"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "researchKeywords": [
+        "微纳机电系统",
+        "纳米光电子器件",
+        "微系统与材料"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-tangbenzhong",
+      "name": "唐本忠 · Ben Zhong Tang",
+      "department": "理工学院",
+      "universityId": "cuhksz",
+      "profileUrl": "https://myweb.cuhk.edu.cn/tangbenzhong",
+      "directoryRole": "校长学勤讲座教授",
+      "summary": "研究方向包括材料科学、高分子化学、生物医学诊疗、聚集诱导发光。",
+      "topics": [
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.x-mol.com/groups/tang-benzhong-cuhksz",
+          "label": "本人档案所给研究入口",
+          "parentSourceId": "cuhksz-sse-continuation-tangbenzhong",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhksz-sse-continuation-tangbenzhong"
+        ]
+      },
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-continuation-tangbenzhong"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-continuation-tangbenzhong"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "researchKeywords": [
+        "材料科学",
+        "高分子化学",
+        "生物医学诊疗",
+        "聚集诱导发光"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-tongshukyin",
+      "name": "唐叔贤 · Shuk Yin David Tong",
+      "department": "理工学院",
+      "universityId": "cuhksz",
+      "profileUrl": "https://myweb.cuhk.edu.cn/tongshukyin",
+      "directoryRole": "校长学勤讲座教授",
+      "summary": "研究方向包括材料表面科学与技术、低能电子衍射、光电子衍射。",
+      "topics": [
+        "材料与能源",
+        "物理与化学"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学院确认指导资格和当期接收安排。",
+        "sourceIds": [
+          "cuhksz-sse-continuation-tongshukyin"
+        ]
+      },
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-continuation-tongshukyin"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-continuation-tongshukyin"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "researchKeywords": [
+        "材料表面科学与技术",
+        "低能电子衍射",
+        "光电子衍射"
+      ]
+    }
+  ],
+  "facultyUpdates": [
+    {
+      "id": "cuhksz-cui",
+      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/cuishuguang",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-continuation-cuishuguang"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-continuation-cuishuguang"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "researchKeywords": [
+        "人工智能与通信网络融合"
+      ]
+    },
+    {
+      "id": "wide-cuhksz-zhiquan-tom-luo",
+      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/luozhiquan",
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sse-continuation-luozhiquan"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-continuation-luozhiquan"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-01"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "researchKeywords": [
+        "大数据分析的优化方法",
+        "信号处理中的计算复杂性",
+        "数字通信"
+      ]
+    }
+  ],
+  "leadUpdates": [
+    {
+      "url": "https://jianwei.cuhk.edu.cn/",
+      "facultyId": "cuhksz-sse-jianwei-huang",
+      "profileBodyStatus": "body_read",
+      "bodySha256": "a4bb08231dec3a6c0511b72868cdc5264bcdede827c3adf5f37e6523b23ced67",
+      "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+    },
+    {
+      "url": "https://myweb.cuhk.edu.cn/conniechang",
+      "facultyId": "cuhksz-sse-conniechang",
+      "profileBodyStatus": "body_read",
+      "bodySha256": "9ac7888b3af16cb6ed5d6f11b5a8582da16c7d5add862ab0e910b6b09bc957e2",
+      "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+    },
+    {
+      "url": "https://myweb.cuhk.edu.cn/cuishuguang",
+      "facultyId": "cuhksz-cui",
+      "profileBodyStatus": "body_read",
+      "bodySha256": "98217d7ce43db604a773d05b9398238f05719d692cb3f623e5c2a4437d38501a",
+      "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+    },
+    {
+      "url": "https://myweb.cuhk.edu.cn/luozhiquan",
+      "facultyId": "wide-cuhksz-zhiquan-tom-luo",
+      "profileBodyStatus": "body_read",
+      "bodySha256": "7e7c7005eef3546fa95931be0f0a33ede43199c13949d73ed8ffb4704cbcbce3",
+      "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+    },
+    {
+      "url": "https://myweb.cuhk.edu.cn/tangbenzhong",
+      "facultyId": "cuhksz-sse-tangbenzhong",
+      "profileBodyStatus": "body_read",
+      "bodySha256": "0e49606bcfb366de1dfc734bb6b1c023eea474b37c8c2b223ea3236a6a9109d3",
+      "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+    },
+    {
+      "url": "https://myweb.cuhk.edu.cn/tongshukyin",
+      "facultyId": "cuhksz-sse-tongshukyin",
+      "profileBodyStatus": "body_read",
+      "bodySha256": "456284b91409e59f8facd19093db4dace6378dbbfe7f5e59d9fe3b6635c64838",
+      "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+    }
+  ]
+}

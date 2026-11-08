@@ -205,6 +205,17 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('CUHK-Shenzhen continuation exposes reviewed research and preserves existing identifiers', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('cuhksz','PhD',[]);
+ el('research-query').value='聚集诱导发光';
+ await el('profile-form').emit('input',{target:el('research-query')});
+ assert.match(el('results').textContent,/唐本忠/);
+ assert.ok(h.walk(el('results')).some(n=>n.href==='https://myweb.cuhk.edu.cn/tangbenzhong'));
+ assert.equal(C.faculty.find(f=>f.id==='cuhksz-cui').profileUrl,'https://sse.cuhk.edu.cn/en/faculty/cuishuguang');
+ assert.equal(C.faculty.find(f=>f.id==='wide-cuhksz-zhiquan-tom-luo').reviewedProfileUrl,'https://myweb.cuhk.edu.cn/luozhiquan');
+});
+
 test('PolyU physics and materials binds searchable research to the supplied profile and preserves intake scope', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  h.select('polyu','PhD',[]);

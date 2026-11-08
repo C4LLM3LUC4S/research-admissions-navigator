@@ -764,6 +764,17 @@ def build_catalog():
     catalog["sources"].extend(physics_materials["sources"])
     catalog["faculty"].extend(physics_materials["faculty"])
     catalog["directories"].extend(physics_materials["directories"])
+    sse_continuation = load("cuhksz-sse-continuation-20261109.json")
+    catalog["sources"].extend(sse_continuation["sources"])
+    catalog["faculty"].extend(sse_continuation["faculty"])
+    for update in sse_continuation["facultyUpdates"]:
+        original = faculty_by_id[update["id"]]
+        assert original["universityId"] == "cuhksz"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    for update in sse_continuation["leadUpdates"]:
+        lead_by_url[update["url"]].update(update)
     return catalog
 
 
