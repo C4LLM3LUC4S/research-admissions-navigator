@@ -1,0 +1,1390 @@
+{
+  "directoryId": "hku-science-chemistry-observed-staff",
+  "sources": [
+    {
+      "id": "hku-chemistry-guo-group-20261108",
+      "url": "https://zxguo.hku.hk/",
+      "checkedAt": "2026-11-08",
+      "title": "郭正曉课题组",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "化学系名录提供的课题组首页",
+      "claims": [
+        "课题组公开研究涉及材料化学与电催化。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-chemistry-research-category-20261108",
+      "url": "https://chemistry.hku.hk/people/research_staff/",
+      "checkedAt": "2026-11-08",
+      "title": "研究人员名录",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "系内研究人员另列；本批研究方向检索依据学术人员名录。",
+      "claims": [
+        "系内研究人员另列；本批研究方向检索依据学术人员名录。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-chemistry-professional-category-20261108",
+      "url": "https://chemistry.hku.hk/people/administration/",
+      "checkedAt": "2026-11-08",
+      "title": "专业服务人员名录",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "系内专业服务人员另列。",
+      "claims": [
+        "系内专业服务人员另列。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hku-chemistry-roster-01",
+      "name": "Professor Xiaoyu LI 李笑宇",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括药物发现、分子探针、DNA 编码化合物库。",
+      "researchKeywords": [
+        "药物发现",
+        "分子探针",
+        "DNA 编码化合物库"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-02",
+      "name": "Professor Chi-Ming CHE 支志明",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Chair Professor",
+      "summary": "研究方向包括无机与有机合成、绿色氧化、发光材料。",
+      "researchKeywords": [
+        "无机与有机合成",
+        "绿色氧化",
+        "发光材料"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-05",
+      "name": "Professor Hongzhe SUN 孫紅哲",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Chair Professor",
+      "summary": "研究方向包括生物传感器、抗生素、金属蛋白质组学。",
+      "researchKeywords": [
+        "生物传感器",
+        "抗生素",
+        "金属蛋白质组学"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-06",
+      "name": "Professor Vivian Wing-Wah YAM 任詠華",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Chair Professor",
+      "summary": "研究方向包括超分子组装、发光、太阳能材料。",
+      "researchKeywords": [
+        "超分子组装",
+        "发光",
+        "太阳能材料"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-07",
+      "name": "Professor David Lee PHILLIPS 裴達偉",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Chair Professor",
+      "summary": "研究方向包括时间分辨光谱、反应中间体、光氧化还原。",
+      "researchKeywords": [
+        "时间分辨光谱",
+        "反应中间体",
+        "光氧化还原"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-08",
+      "name": "Professor Guanhua CHEN 陳冠華",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括理论与计算化学、材料科学。",
+      "researchKeywords": [
+        "理论与计算化学",
+        "材料科学"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-09",
+      "name": "Professor Zheng Xiao GUO 郭正曉",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括材料化学、电催化。",
+      "researchKeywords": [
+        "材料化学",
+        "电催化"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105",
+        "hku-chemistry-guo-group-20261108"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105",
+        "hku-chemistry-guo-group-20261108"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-10",
+      "name": "Professor Xuechen LI 李學臣",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Chair Professor",
+      "summary": "研究方向包括蛋白质化学合成、糖生物学、蛋白质偶联。",
+      "researchKeywords": [
+        "蛋白质化学合成",
+        "糖生物学",
+        "蛋白质偶联"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-11",
+      "name": "Professor Pauline CHIU 趙寶貽",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括天然产物全合成、合成方法学、催化。",
+      "researchKeywords": [
+        "天然产物全合成",
+        "合成方法学",
+        "催化"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-12",
+      "name": "Professor Xiang David LI 李祥",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括蛋白质相互作用、表观遗传、化学蛋白质组学。",
+      "researchKeywords": [
+        "蛋白质相互作用",
+        "表观遗传",
+        "化学蛋白质组学"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-13",
+      "name": "Professor Jinyao TANG 唐晋堯",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括软材料、活性物质物理、纳米材料。",
+      "researchKeywords": [
+        "软材料",
+        "活性物质物理",
+        "纳米材料"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-14",
+      "name": "Professor Ho Yu AU-YEUNG 歐陽灝宇",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括超分子化学、机械互锁分子、分子机器。",
+      "researchKeywords": [
+        "超分子化学",
+        "机械互锁分子",
+        "分子机器"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-15",
+      "name": "Professor Ivan Keung CHU 朱强",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括质谱、离子化学、蛋白质氧化。",
+      "researchKeywords": [
+        "质谱",
+        "离子化学",
+        "蛋白质氧化"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-16",
+      "name": "Professor Renhao DONG 董人豪",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括二维电子材料、金属有机框架、共价有机框架。",
+      "researchKeywords": [
+        "二维电子材料",
+        "金属有机框架",
+        "共价有机框架"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-17",
+      "name": "Professor Jian HE 何健",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括催化、金属有机框架、光化学。",
+      "researchKeywords": [
+        "催化",
+        "金属有机框架",
+        "光化学"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-18",
+      "name": "Professor Zhongxing HUANG 黃重行",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括合成方法学、绿色化学、可再生能源转化。",
+      "researchKeywords": [
+        "合成方法学",
+        "绿色化学",
+        "可再生能源转化"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-19",
+      "name": "Professor Haibo JIANG 蔣海波",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括成像、代谢、细胞生物学。",
+      "researchKeywords": [
+        "成像",
+        "代谢",
+        "细胞生物学"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-20",
+      "name": "Professor Philip Yong-Xin LI 李泳新",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括天然产物、合成生物学、微生物群。",
+      "researchKeywords": [
+        "天然产物",
+        "合成生物学",
+        "微生物群"
+      ],
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-21",
+      "name": "Professor Junzhi LIU 劉俊治",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括有机合成、高分子化学、有机电子器件。",
+      "researchKeywords": [
+        "有机合成",
+        "高分子化学",
+        "有机电子器件"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-22",
+      "name": "Professor Kou OKURO 大黒 耕",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括超分子化学、生物材料、软材料。",
+      "researchKeywords": [
+        "超分子化学",
+        "生物材料",
+        "软材料"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-23",
+      "name": "Professor Patrick Henry TOY",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括化学合成、催化。",
+      "researchKeywords": [
+        "化学合成",
+        "催化"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-24",
+      "name": "Professor Edmund Chun Ming TSE 謝俊銘",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括电催化、仿生界面、自组装材料。",
+      "researchKeywords": [
+        "电催化",
+        "仿生界面",
+        "自组装材料"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-25",
+      "name": "Professor Yufeng WANG 王宇鋒",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括软材料、高分子、胶体与自组装。",
+      "researchKeywords": [
+        "软材料",
+        "高分子",
+        "胶体与自组装"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-26",
+      "name": "Professor Jun YANG 楊軍",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括量子化学、电子结构、计算建模。",
+      "researchKeywords": [
+        "量子化学",
+        "电子结构",
+        "计算建模"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-27",
+      "name": "Professor Aspen Xiaoyang CHEN",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括有机合成、超分子化学、催化。",
+      "researchKeywords": [
+        "有机合成",
+        "超分子化学",
+        "催化"
+      ],
+      "topics": [
+        "物理与化学"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-28",
+      "name": "Professor Shuaifeng Hu 胡帅锋",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括晶态金属卤化物、分子自组装、表面与溶液化学。",
+      "researchKeywords": [
+        "晶态金属卤化物",
+        "分子自组装",
+        "表面与溶液化学"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-29",
+      "name": "Professor Seungkyu LEE",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括金属有机框架、共价有机框架、储氢。",
+      "researchKeywords": [
+        "金属有机框架",
+        "共价有机框架",
+        "储氢"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-30",
+      "name": "Professor Ai-Min LI 厲愛民",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括绿色合成、电解质与电极界面、能源储存。",
+      "researchKeywords": [
+        "绿色合成",
+        "电解质与电极界面",
+        "能源储存"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    },
+    {
+      "id": "hku-chemistry-roster-31",
+      "name": "Professor Ying LI 李瑛",
+      "universityId": "hku",
+      "department": "化学系",
+      "profileUrl": null,
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hku-science-chemistry-staff-20261105",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括RNA 定位、RNA 修饰、RNA 与蛋白质相互作用。",
+      "researchKeywords": [
+        "RNA 定位",
+        "RNA 修饰",
+        "RNA 与蛋白质相互作用"
+      ],
+      "topics": [
+        "物理与化学",
+        "材料与能源",
+        "生物医学与健康"
+      ],
+      "sourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "directorySourceIds": [
+        "hku-science-chemistry-staff-20261105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向化学系确认指导资格与当期接收安排。",
+        "sourceIds": [
+          "hku-science-chemistry-staff-20261105"
+        ]
+      }
+    }
+  ],
+  "directoryUpdates": [
+    {
+      "name": "Professor Xiaoyu LI 李笑宇",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-01"
+    },
+    {
+      "name": "Professor Chi-Ming CHE 支志明",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-02"
+    },
+    {
+      "name": "Professor Hongjie DAI 戴宏杰",
+      "reason": "与机械工程目录的戴宏杰为同一档案，沿用原编号。",
+      "groupLinkReview": "课题组正文已核"
+    },
+    {
+      "name": "Professor Sir Fraser STODDART (R.I.P.)",
+      "reason": "官网保留的纪念档案。"
+    },
+    {
+      "name": "Professor Hongzhe SUN 孫紅哲",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "链接访问受限或失败，研究方向来自院系名录",
+      "facultyId": "hku-chemistry-roster-05"
+    },
+    {
+      "name": "Professor Vivian Wing-Wah YAM 任詠華",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-06"
+    },
+    {
+      "name": "Professor David Lee PHILLIPS 裴達偉",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-07"
+    },
+    {
+      "name": "Professor Guanhua CHEN 陳冠華",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-08"
+    },
+    {
+      "name": "Professor Zheng Xiao GUO 郭正曉",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-09"
+    },
+    {
+      "name": "Professor Xuechen LI 李學臣",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "仅见简短入口或跳转说明",
+      "facultyId": "hku-chemistry-roster-10"
+    },
+    {
+      "name": "Professor Pauline CHIU 趙寶貽",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "链接访问受限或失败，研究方向来自院系名录",
+      "facultyId": "hku-chemistry-roster-11"
+    },
+    {
+      "name": "Professor Xiang David LI 李祥",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-12"
+    },
+    {
+      "name": "Professor Jinyao TANG 唐晋堯",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-13"
+    },
+    {
+      "name": "Professor Ho Yu AU-YEUNG 歐陽灝宇",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-14"
+    },
+    {
+      "name": "Professor Ivan Keung CHU 朱强",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "仅见简短入口或跳转说明",
+      "facultyId": "hku-chemistry-roster-15"
+    },
+    {
+      "name": "Professor Renhao DONG 董人豪",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "原址为 HTTP，保留地址",
+      "facultyId": "hku-chemistry-roster-16"
+    },
+    {
+      "name": "Professor Jian HE 何健",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-17"
+    },
+    {
+      "name": "Professor Zhongxing HUANG 黃重行",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-18"
+    },
+    {
+      "name": "Professor Haibo JIANG 蔣海波",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-19"
+    },
+    {
+      "name": "Professor Philip Yong-Xin LI 李泳新",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "链接访问受限或失败，研究方向来自院系名录",
+      "facultyId": "hku-chemistry-roster-20"
+    },
+    {
+      "name": "Professor Junzhi LIU 劉俊治",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-21"
+    },
+    {
+      "name": "Professor Kou OKURO 大黒 耕",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-22"
+    },
+    {
+      "name": "Professor Patrick Henry TOY",
+      "reason": "已按系内名录核对研究方向。",
+      "facultyId": "hku-chemistry-roster-23"
+    },
+    {
+      "name": "Professor Edmund Chun Ming TSE 謝俊銘",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "链接访问受限或失败，研究方向来自院系名录",
+      "facultyId": "hku-chemistry-roster-24"
+    },
+    {
+      "name": "Professor Yufeng WANG 王宇鋒",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "原址为 HTTP，保留地址",
+      "facultyId": "hku-chemistry-roster-25"
+    },
+    {
+      "name": "Professor Jun YANG 楊軍",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "原址为 HTTP，保留地址",
+      "facultyId": "hku-chemistry-roster-26"
+    },
+    {
+      "name": "Professor Aspen Xiaoyang CHEN",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-27"
+    },
+    {
+      "name": "Professor Shuaifeng Hu 胡帅锋",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-28"
+    },
+    {
+      "name": "Professor Seungkyu LEE",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "原址为 HTTP，保留地址",
+      "facultyId": "hku-chemistry-roster-29"
+    },
+    {
+      "name": "Professor Ai-Min LI 厲愛民",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-30"
+    },
+    {
+      "name": "Professor Ying LI 李瑛",
+      "reason": "已按系内名录核对研究方向。",
+      "groupLinkReview": "课题组正文已核",
+      "facultyId": "hku-chemistry-roster-31"
+    }
+  ],
+  "existingFacultyId": "hku-mechanical-28"
+}

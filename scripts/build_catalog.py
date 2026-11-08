@@ -736,6 +736,18 @@ def build_catalog():
     catalog["faculty"].extend(cma["faculty"])
     information["staffEntries"].append(cma["staffEntry"])
     information["relatedNavigationGroups"].append(cma["navigationGroup"])
+    hku_chemistry = load("hku-chemistry-roster-20261108.json")
+    catalog["sources"].extend(hku_chemistry["sources"])
+    catalog["faculty"].extend(hku_chemistry["faculty"])
+    chemistry_directory = next(d for d in catalog["directories"] if d["id"] == hku_chemistry["directoryId"])
+    chemistry_directory["reviewSourceIds"] = [s["id"] for s in hku_chemistry["sources"]]
+    updates = {r["name"]: r for r in hku_chemistry["directoryUpdates"]}
+    for card in chemistry_directory["census"]["unlinkedEntries"]:
+        card.update(updates[card["name"]])
+    existing = next(f for f in catalog["faculty"] if f["id"] == hku_chemistry["existingFacultyId"])
+    chemistry_source = hku_chemistry["faculty"][0]["directoryEvidenceSourceId"]
+    existing["sourceIds"].append(chemistry_source)
+    existing["academicUnitIds"] = list(dict.fromkeys(existing.get("academicUnitIds", []) + ["hku-9"]))
     return catalog
 
 
@@ -927,6 +939,8 @@ def validate(catalog):
         directory_ids.add(d["id"])
         assert d["unit"] and d["url"].startswith("https://") and d["coverageComplete"] is False
         refs(d["sourceIds"])
+        if d.get("reviewSourceIds"):
+            refs(d["reviewSourceIds"])
         if "applicationGuideSourceId" in d:
             guide_id = d["applicationGuideSourceId"]
             assert guide_id in d["sourceIds"], "An application guide must be one of the directory's sources"
