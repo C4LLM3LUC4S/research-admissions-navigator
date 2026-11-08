@@ -1,0 +1,522 @@
+{
+  "sources": [
+    {
+      "id": "gz-cma-reviewed-margaret-minsky",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/margaret-minsky/",
+      "title": "Margaret Minsky · 港科广计算媒体与艺术",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "Margaret Minsky · 港科广计算媒体与艺术",
+      "claims": [
+        "官网列为访问教授，研究涉及触觉交互、电子织物、身体动作与学习。"
+      ],
+      "discoveredLinks": [
+        "https://mminsky.com/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4"
+    },
+    {
+      "id": "gz-cma-reviewed-pei-man-james-she",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/pei-man-james-she/",
+      "title": "James She · 港科广计算媒体与艺术",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "James She · 港科广计算媒体与艺术",
+      "claims": [
+        "官网列为副教授，研究涉及人工智能艺术、数字文化遗产、多媒体与社交计算。"
+      ],
+      "discoveredLinks": [
+        "https://cyphymedia.com/aiart/james/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4"
+    },
+    {
+      "id": "gz-cma-reviewed-hai-ning-liang",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+      "title": "Hai-Ning Liang · 港科广计算媒体与艺术",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "Hai-Ning Liang · 港科广计算媒体与艺术",
+      "claims": [
+        "官网列为副教授，研究涉及人机交互、扩展现实、游戏。"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4"
+    },
+    {
+      "id": "gz-cma-reviewed-clea-von-chamier-waite",
+      "url": "https://cma.hkust-gz.edu.cn/faculty-regular/clea-von-chamier-waite/",
+      "title": "Clea von Chamier-Waite · 港科广计算媒体与艺术",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "Clea von Chamier-Waite · 港科广计算媒体与艺术",
+      "claims": [
+        "官网列为副教授，研究涉及沉浸式影像、科学艺术、身体感知交互。"
+      ],
+      "discoveredLinks": [
+        "https://ecasa.hkust-gz.edu.cn/"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4"
+    },
+    {
+      "id": "gz-cma-reviewed-timeline",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+      "title": "研究生院 2027/28 秋季时间表",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究生院 2027/28 秋季时间表",
+      "claims": [
+        "校级 PhD 截止时间为国际申请人 2027 年 6 月 15 日、中国申请人 7 月 15 日，均为北京时间 23:59。项目安排请向学域确认。红鸟 MPhil 另见未来技术学院。"
+      ],
+      "discoveredLinks": [
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+    },
+    {
+      "id": "gz-cma-reviewed-requirements",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+      "title": "研究生院通用学历和英语要求",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究生院通用学历和英语要求",
+      "claims": [
+        "博士申请须有表现优异的认可学士学位，或满足官网所列研究生阶段学习经历。雅思学术类总分至少 6.5、各项至少 5.5，托福分数按考试日期区分。豁免条件见原页。"
+      ],
+      "discoveredLinks": [
+        "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+    },
+    {
+      "id": "gz-cma-reviewed-group",
+      "url": "https://ecasa.hkust-gz.edu.cn/apply.html",
+      "title": "ECaSA 课题组联系材料",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "ECaSA 课题组联系材料",
+      "claims": [
+        "课题组列兴趣陈述、简历、作品集、研究陈述与写作样本。适用于联系该组，学域当期材料待核。"
+      ],
+      "discoveredLinks": [
+        "https://ecasa.hkust-gz.edu.cn/apply.html"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+    },
+    {
+      "id": "gz-cma-reviewed-historical",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-4",
+      "title": "研究生院 2025/26 历史项目页",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究生院 2025/26 历史项目页",
+      "claims": [
+        "此页标注 2025/26。当期项目目录的正文未能读取，具体申请材料与费用待核。"
+      ],
+      "discoveredLinks": [
+        "https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-4"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+    },
+    {
+      "id": "gz-cma-roster-20261107",
+      "url": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+      "title": "计算媒体与艺术学域 Regular Faculty 分类名录",
+      "checkedAt": "2026-11-07",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "仅此分类页及所给档案链接",
+      "claims": [
+        "名录中的具体职位以个人档案为准。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://cma.hkust-gz.edu.cn/faculty-regular/margaret-minsky/",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/pei-man-james-she/",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+        "https://cma.hkust-gz.edu.cn/faculty-regular/clea-von-chamier-waite/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "652cba1f9716e4e08e7a7495ff967dc718f6a83bd2f37dd063c41b369900889d"
+    },
+    {
+      "id": "gz-cma-reviewed-pei-man-james-she-linked",
+      "url": "https://cyphymedia.com/aiart/james/",
+      "originalUrl": "https://cyphymedia.com/aiart/james/",
+      "retrievedUrl": "https://cyphymedia.com/aiart/james/",
+      "title": "James She · 官网所给研究链接",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网个人页提供的研究或课题组链接",
+      "claims": [
+        "可查看项目或研究组介绍。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "gz-cma-reviewed-pei-man-james-she",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "632ed0e63e8abc36b963e84e8ec58450e9dd48fc01a2595e5be4f78771bf9931"
+    },
+    {
+      "id": "gz-cma-reviewed-clea-von-chamier-waite-linked",
+      "url": "https://ecasa.hkust-gz.edu.cn/index.html",
+      "originalUrl": "https://ecasa.hkust-gz.edu.cn/",
+      "retrievedUrl": "https://ecasa.hkust-gz.edu.cn/index.html",
+      "title": "Clea von Chamier-Waite · 官网所给研究链接",
+      "checkedAt": "2026-11-08",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "官网个人页提供的研究或课题组链接",
+      "claims": [
+        "可查看项目或研究组介绍。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "gz-cma-reviewed-clea-von-chamier-waite",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "632ed0e63e8abc36b963e84e8ec58450e9dd48fc01a2595e5be4f78771bf9931"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "gz-cma-reviewed-pei-man-james-she",
+      "name": "James She",
+      "universityId": "hkustgz",
+      "department": "计算媒体与艺术学域",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/pei-man-james-she/",
+      "directoryRole": "副教授",
+      "summary": "官网列为副教授，研究涉及人工智能艺术、数字文化遗产、多媒体与社交计算。",
+      "researchKeywords": [
+        "人工智能艺术",
+        "数字文化遗产",
+        "多媒体与社交计算"
+      ],
+      "topics": [
+        "人工智能",
+        "设计与创意"
+      ],
+      "sourceIds": [
+        "gz-cma-reviewed-pei-man-james-she",
+        "wide-dir-hkustgz-cma",
+        "gz-cma-reviewed-pei-man-james-she-linked"
+      ],
+      "keywordSourceIds": [
+        "gz-cma-reviewed-pei-man-james-she"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学域或老师确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "gz-cma-reviewed-pei-man-james-she"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://cyphymedia.com/aiart/james/",
+          "label": "个人项目或课题组",
+          "parentSourceId": "gz-cma-reviewed-pei-man-james-she",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-cma-reviewed-pei-man-james-she-linked",
+          "kind": "personal_website"
+        }
+      ]
+    },
+    {
+      "id": "gz-cma-reviewed-hai-ning-liang",
+      "name": "Hai-Ning Liang",
+      "universityId": "hkustgz",
+      "department": "计算媒体与艺术学域",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+      "directoryRole": "副教授",
+      "summary": "官网列为副教授，研究涉及人机交互、扩展现实、游戏。",
+      "researchKeywords": [
+        "人机交互",
+        "扩展现实",
+        "游戏"
+      ],
+      "topics": [
+        "人机交互",
+        "计算机图形学"
+      ],
+      "sourceIds": [
+        "gz-cma-reviewed-hai-ning-liang",
+        "wide-dir-hkustgz-cma"
+      ],
+      "keywordSourceIds": [
+        "gz-cma-reviewed-hai-ning-liang"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学域或老师确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "gz-cma-reviewed-hai-ning-liang"
+        ]
+      }
+    },
+    {
+      "id": "gz-cma-reviewed-clea-von-chamier-waite",
+      "name": "Clea von Chamier-Waite",
+      "universityId": "hkustgz",
+      "department": "计算媒体与艺术学域",
+      "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/clea-von-chamier-waite/",
+      "directoryRole": "副教授",
+      "summary": "官网列为副教授，研究涉及沉浸式影像、科学艺术、身体感知交互。",
+      "researchKeywords": [
+        "沉浸式影像",
+        "科学艺术",
+        "身体感知交互"
+      ],
+      "topics": [
+        "人机交互",
+        "设计与创意"
+      ],
+      "sourceIds": [
+        "gz-cma-reviewed-clea-von-chamier-waite",
+        "wide-dir-hkustgz-cma",
+        "gz-cma-reviewed-group",
+        "gz-cma-reviewed-clea-von-chamier-waite-linked"
+      ],
+      "keywordSourceIds": [
+        "gz-cma-reviewed-clea-von-chamier-waite"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hkustgz-cma"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请向学域或老师确认指导资格及当期接收安排。",
+        "sourceIds": [
+          "gz-cma-reviewed-clea-von-chamier-waite"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://ecasa.hkust-gz.edu.cn/",
+          "label": "个人项目或课题组",
+          "parentSourceId": "gz-cma-reviewed-clea-von-chamier-waite",
+          "bodyStatus": "body_read",
+          "sourceId": "gz-cma-reviewed-clea-von-chamier-waite-linked",
+          "kind": "personal_website"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "联系 ECaSA 课题组",
+          "text": "课题组列兴趣陈述、简历、作品集、研究陈述与写作样本。适用于联系该组，学域当期材料待核。",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "gz-cma-reviewed-group"
+          ]
+        }
+      ]
+    }
+  ],
+  "staffEntry": {
+    "label": "计算媒体与艺术 · 已核四份教师主页",
+    "url": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+    "sourceIds": [
+      "gz-cma-roster-20261107"
+    ],
+    "entryBodyStatus": "body_read",
+    "enumerationComplete": false,
+    "teacherProfilesTotal": null,
+    "scopeNote": "三位副教授可按研究方向查找，访问教授保留在人员名录。",
+    "profileLeads": [
+      {
+        "name": "Margaret Minsky",
+        "url": "https://cma.hkust-gz.edu.cn/faculty-regular/margaret-minsky/",
+        "directoryLabel": "访问教授",
+        "observedOn": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4",
+        "reviewNote": "访问教授。触觉交互、电子织物、身体动作与学习。"
+      },
+      {
+        "name": "James She",
+        "url": "https://cma.hkust-gz.edu.cn/faculty-regular/pei-man-james-she/",
+        "directoryLabel": "副教授",
+        "observedOn": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4",
+        "facultyId": "gz-cma-reviewed-pei-man-james-she",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Hai-Ning Liang",
+        "url": "https://cma.hkust-gz.edu.cn/faculty-regular/hai-ning-liang/",
+        "directoryLabel": "副教授",
+        "observedOn": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4",
+        "facultyId": "gz-cma-reviewed-hai-ning-liang",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Clea von Chamier-Waite",
+        "url": "https://cma.hkust-gz.edu.cn/faculty-regular/clea-von-chamier-waite/",
+        "directoryLabel": "副教授",
+        "observedOn": "https://cma.hkust-gz.edu.cn/tag/faculty-regular/",
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "b201a7391fc48b852e76b0925b29201619605119bf4a5bea2556c6707d406dc4",
+        "facultyId": "gz-cma-reviewed-clea-von-chamier-waite",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      }
+    ]
+  },
+  "navigationGroup": {
+    "kind": "research_degree_navigation",
+    "title": "计算媒体与艺术 · 研究学位申请资料",
+    "note": "先查研究生院通用要求，再按申请年度确认学域要求和课题组安排。",
+    "sourceIds": [
+      "gz-cma-reviewed-timeline",
+      "gz-cma-reviewed-requirements",
+      "gz-cma-reviewed-group",
+      "gz-cma-reviewed-historical"
+    ],
+    "entries": [
+      {
+        "name": "研究生院 2027/28 秋季时间表",
+        "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+        "retrievedUrl": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+        "kind": "research_degree_navigation",
+        "sourceIds": [
+          "gz-cma-reviewed-timeline"
+        ],
+        "note": "校级 PhD 截止时间为国际申请人 2027 年 6 月 15 日、中国申请人 7 月 15 日，均为北京时间 23:59。项目安排请向学域确认。红鸟 MPhil 另见未来技术学院。",
+        "entryBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+      },
+      {
+        "name": "研究生院通用学历和英语要求",
+        "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+        "retrievedUrl": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-requirements",
+        "kind": "research_degree_navigation",
+        "sourceIds": [
+          "gz-cma-reviewed-requirements"
+        ],
+        "note": "博士申请须有表现优异的认可学士学位，或满足官网所列研究生阶段学习经历。雅思学术类总分至少 6.5、各项至少 5.5，托福分数按考试日期区分。豁免条件见原页。",
+        "entryBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+      },
+      {
+        "name": "ECaSA 课题组联系材料",
+        "url": "https://ecasa.hkust-gz.edu.cn/apply.html",
+        "retrievedUrl": "https://ecasa.hkust-gz.edu.cn/apply.html",
+        "kind": "research_degree_navigation",
+        "sourceIds": [
+          "gz-cma-reviewed-group"
+        ],
+        "note": "课题组列兴趣陈述、简历、作品集、研究陈述与写作样本。适用于联系该组，学域当期材料待核。",
+        "entryBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+      },
+      {
+        "name": "研究生院 2025/26 历史项目页",
+        "url": "https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-4",
+        "retrievedUrl": "https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-4",
+        "kind": "research_degree_navigation",
+        "sourceIds": [
+          "gz-cma-reviewed-historical"
+        ],
+        "note": "此页标注 2025/26。当期项目目录的正文未能读取，具体申请材料与费用待核。",
+        "entryBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+      }
+    ]
+  }
+}

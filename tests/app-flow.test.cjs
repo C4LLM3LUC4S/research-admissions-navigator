@@ -205,6 +205,23 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('CMA shows reviewed appointments and separates university admissions from lab materials', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('hkustgz','PhD',[]);
+ await el('profile-form').emit('input');
+ await el('show-directories').emit('click');
+ const unit=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.includes('信息枢纽'));
+ assert.match(unit.textContent,/Margaret Minsky.*访问教授/);
+ assert.match(unit.textContent,/2027 年 6 月 15 日.*7 月 15 日/);
+ assert.match(unit.textContent,/适用于联系该组/);
+ assert.ok(h.walk(unit).some(n=>n.href==='https://ecasa.hkust-gz.edu.cn/apply.html'));
+ el('research-query').value='沉浸式影像';
+ await el('profile-form').emit('input',{target:el('research-query')});
+ assert.match(el('results').textContent,/Clea von Chamier-Waite/);
+ assert.ok(h.walk(el('results')).some(n=>n.href==='https://ecasa.hkust-gz.edu.cn/'));
+ assert.doesNotMatch(el('results').textContent,/Margaret Minsky/);
+});
+
 test('official unit entry points distinguish staff and degree links from verified admissions', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  h.select('hkustgz','PhD',[]);
