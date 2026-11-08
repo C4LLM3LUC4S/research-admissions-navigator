@@ -20,12 +20,14 @@ test('STEM continuation keeps every prior source and record and reuses five date
 });
 
 test('Architecture entrance batch preserves the full prior catalogue and adds only its declared sources and followups',()=>{
+ const C=read('data/snapshots/efdaba0ceeb53b142da3008ddd0f975bc4e835c051af462598e13bae43b01864.json');
  const prior=read('data/snapshots/b65961778358e71b96b5343faba9466b26533700c7bd4bcebad9e90459e877f6.json'),p=read('data/research/hku-architecture-unit-entrances-20261105.json');
  assertPriorRecords(prior);
  assert.deepEqual(C.sources.slice(0,prior.sources.length+p.sources.length),prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups.slice(0,prior.academicEntryFollowups.length+p.entries.length),prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,3);assert.equal(p.entries.length,3);assert.equal(p.newFaculty,0);
 });
 
 test('AIS unit entrances preserve old hierarchy and sources and keep recruitment and unit completion unknown',()=>{
+ const C=read('data/snapshots/efdaba0ceeb53b142da3008ddd0f975bc4e835c051af462598e13bae43b01864.json');
  const prior=read('data/snapshots/eb43f4fc7178398726ee94255259835b2cb616d0c4cf03b637d0b16a47bfad58.json'),p=read('data/research/hkust-ais-unit-entrances-20261105.json');
  assertPriorRecords(prior);
  assert.deepEqual(C.sources.slice(0,prior.sources.length+p.sources.length),prior.sources.concat(p.sources));assert.deepEqual(C.academicEntryFollowups.slice(0,prior.academicEntryFollowups.length+p.entries.length),prior.academicEntryFollowups.concat(p.entries));assert.equal(p.sources.length,4);assert.equal(p.newFaculty,0);
