@@ -205,6 +205,20 @@ test('CityU annual report is a dated reference and preserves the scope of the cu
  assert.equal(h.networkCalls(),0);
 });
 
+test('HKU chemistry preserves the memorial card and links research search to the departmental roster', async () => {
+ const h=harness(), el=id=>h.byId.get(id);
+ h.select('hku','PhD',[]);
+ await el('profile-form').emit('input');
+ el('research-query').value='机械互锁分子';
+ await el('profile-form').emit('input',{target:el('research-query')});
+ assert.match(el('results').textContent,/AU-YEUNG/);
+ assert.ok(h.walk(el('results')).some(n=>n.href==='https://chemistry.hku.hk/people/academic_staff_research/'));
+ assert.equal(C.faculty.filter(f=>f.universityId==='hku'&&/Hongjie.*Dai|Dai.*Hongjie/i.test(f.name)).length,1);
+ const directory=C.directories.find(d=>d.id===C.faculty.find(f=>f.name.includes('AU-YEUNG')).directoryEvidenceSourceId || d.sourceIds.includes('hku-science-chemistry-staff-20261105'));
+ assert.match(directory.census.unlinkedEntries.find(r=>r.name.includes('STODDART')).reason,/纪念/);
+ assert.ok(!C.faculty.some(f=>f.name.includes('STODDART')));
+});
+
 test('CMA shows reviewed appointments and separates university admissions from lab materials', async () => {
  const h=harness(), el=id=>h.byId.get(id);
  h.select('hkustgz','PhD',[]);
