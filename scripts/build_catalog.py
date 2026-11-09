@@ -813,6 +813,49 @@ def build_catalog():
                               "cycle": "2027/28", "condition": "项目页所列申请费"}]}],
     )
     catalog["programs"].append(ieda_programme)
+
+    chemistry = load("cuhk-chemistry-20261109.json")
+    catalog["sources"].extend(chemistry["sources"])
+    catalog["faculty"].extend(chemistry["faculty"])
+    catalog["directories"].extend(chemistry["directories"])
+    chemistry_unit = next(e for e in catalog["academicEntryFollowups"] if e["url"] == "http://www.chem.cuhk.edu.hk/")
+    chemistry_directories = {d["url"]: d for d in chemistry["directories"]}
+    for entry in chemistry_unit["nextEntries"]:
+        directory = chemistry_directories.get(entry["url"])
+        if directory:
+            entry.update(bodyStatus="body_read", sourceIds=directory["sourceIds"], directoryId=directory["id"])
+        elif entry["url"] == "https://chem.cuhk.edu.hk/postgraduate/mphil-phd/":
+            entry.update(bodyStatus="body_read", sourceIds=["cuhk-chemistry-20261109-department-programme"])
+    support_directory = chemistry["directories"][2]
+    chemistry_unit["nextEntries"].append({
+        "label": "支援人员", "url": support_directory["url"], "bodyStatus": "body_read",
+        "sourceIds": support_directory["sourceIds"], "directoryId": support_directory["id"],
+        "availability": "unknown", "supervisionEligibility": "unknown",
+    })
+
+    chemistry_gs = ["cuhk-chemistry-20261109-graduate-school"]
+    chemistry_sources = chemistry_gs + ["cuhk-chemistry-20261109-department-programme"]
+    chemistry_programme = program(
+        "cuhk-chemistry-rpg", "cuhk", "化学研究学位", ["MPhil", "PhD"],
+        "港中文香港校本部，2027/28 学年。方向包括分析与环境化学、无机、有机、物理、化学生物学与材料科学。",
+        "unknown", "可先通过化学系目录了解课题组。", chemistry_sources,
+        "清理轮只在有学额时审理。", chemistry_gs,
+        [deadline("主轮截止", "2026-12-01", chemistry_gs),
+         deadline("清理轮截止（如仍有学额）", "2027-03-31", chemistry_gs)],
+        chemistry_sources, "常规轮日期取自研究院化学项目页。学系页提供研究方向及培养要求。")
+    chemistry_programme.update(
+        entryUrl="https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-chemistry",
+        requirements=[
+            {"label": "专业背景", "text": "申请人须主修化学或相关学科，并满足研究院的通用入学要求。",
+             "action": "在研究院项目页打开通用入学要求，核对学位及英语证明。", "sourceIds": chemistry_gs},
+        ],
+        finances=[{"id": "cuhk-chemistry-tuition", "kind": "tuition", "label": "学费",
+                   "text": "2027/28 学年每年 49,500 港元，全日制和兼读相同。",
+                   "action": "符合本地全日制研究生身份时，可在项目页查看学费豁免。", "sourceIds": chemistry_sources,
+                   "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                              "cycle": "2027/28", "condition": "全日制与兼读"}]}],
+    )
+    catalog["programs"].append(chemistry_programme)
     return catalog
 
 

@@ -6385,6 +6385,94 @@ window.APP_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "cuhk-chemistry-rpg",
+      "universityId": "cuhk",
+      "name": "化学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文香港校本部，2027/28 学年。方向包括分析与环境化学、无机、有机、物理、化学生物学与材料科学。",
+      "contact": {
+        "status": "unknown",
+        "text": "可先通过化学系目录了解课题组。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school",
+          "cuhk-chemistry-20261109-department-programme"
+        ]
+      },
+      "selection": {
+        "text": "清理轮只在有学额时审理。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-graduate-school"
+          ]
+        },
+        {
+          "label": "清理轮截止（如仍有学额）：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-graduate-school"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-graduate-school",
+        "cuhk-chemistry-20261109-department-programme"
+      ],
+      "evidenceNote": "常规轮日期取自研究院化学项目页。学系页提供研究方向及培养要求。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-chemistry",
+      "requirements": [
+        {
+          "label": "专业背景",
+          "text": "申请人须主修化学或相关学科，并满足研究院的通用入学要求。",
+          "action": "在研究院项目页打开通用入学要求，核对学位及英语证明。",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-graduate-school"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-chemistry-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年每年 49,500 港元，全日制和兼读相同。",
+          "action": "符合本地全日制研究生身份时，可在项目页查看学费豁免。",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-graduate-school",
+            "cuhk-chemistry-20261109-department-programme"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制与兼读"
+            }
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -88603,6 +88691,1197 @@ window.APP_CATALOG = {
         "text": "可先看学系的研究学位申请页。",
         "sourceIds": [
           "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-kfy",
+      "name": "Professor KWONG Fuk Yee, Michael（鄺福兒教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/kfy/",
+      "summary": "研究有机合成、金属有机化学、过渡金属催化、交叉偶联。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "有机合成",
+        "金属有机化学",
+        "过渡金属催化",
+        "交叉偶联",
+        "Organic synthesis",
+        "Organometallic chemistry",
+        "Cross-coupling"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-01",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-01"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-01"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "http://www.cuhk.edu.hk/research/fykwong/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-01",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-01"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-hzf",
+      "name": "Professor HUANG, Zhifeng （黄陟峰教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/hzf/",
+      "summary": "研究手性纳米材料、手性等离激元、表面增强手性光谱、生物传感。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "手性纳米材料",
+        "手性等离激元",
+        "表面增强手性光谱",
+        "生物传感",
+        "Chiral nanoparticles",
+        "Chiroplasmonics",
+        "Biosensing"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-02",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-02"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-02"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://huanggroupcuhk.org",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-02",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-02"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-mq",
+      "name": "Professor MIAO, Qian（繆謙教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/mq/",
+      "summary": "研究多环芳香分子、有机半导体、超分子化学。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "多环芳香分子",
+        "有机半导体",
+        "超分子化学",
+        "Polycyclic aromatic molecules",
+        "Organic semiconductors",
+        "Supramolecular chemistry"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-03",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-03"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-03"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://www.cuhk.edu.hk/research/MiaoGroup/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-03",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-03"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-nkp",
+      "name": "Professor NG, Kee Pui Dennis（吳基培教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/nkp/",
+      "summary": "研究功能染料、酞菁与氟硼二吡咯、超分子化学与生物医学应用。",
+      "topics": [
+        "物理与化学",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "功能染料",
+        "酞菁与氟硼二吡咯",
+        "超分子化学与生物医学应用",
+        "Functional dyes",
+        "Phthalocyanines",
+        "Boron dipyrromethene"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-04",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-04"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-nt",
+      "name": "Professor NGAI, To （魏濤教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/nt/",
+      "summary": "研究胶体、界面与软物质，涉及颗粒稳定乳液和微流变。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "胶体",
+        "界面与软物质，涉及颗粒稳定乳液和微流变",
+        "Colloids",
+        "Soft materials",
+        "Pickering emulsions",
+        "Microrheology"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-05",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-04",
+        "cuhk-chemistry-20261109-group-05"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-05"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "http://www.cuhk.edu.hk/research/NgaiToGroup/index.html",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-05",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-04"
+        },
+        {
+          "label": "课题组主页",
+          "url": "http://www.cuhk.edu.hk/research/NgaiToGroup/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-05",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-05"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-css",
+      "name": "Professor SONG, Chunshan （宋春山教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/css/",
+      "summary": "研究能源与燃料催化、二氧化碳捕集和转化。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "能源与燃料催化",
+        "二氧化碳捕集和转化",
+        "Catalysis",
+        "Carbon capture",
+        "CO2 conversion"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-06",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-06"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-06"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "http://www.cuhkcssong.com",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-06",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-06"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-xj",
+      "name": "Professor XIA, Jiang（夏江教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/xj/",
+      "summary": "研究化学生物学与合成生物学。",
+      "topics": [
+        "物理与化学",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "化学生物学与合成生物学",
+        "Chemical biology",
+        "Synthetic biology"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-08",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-07"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-group-07"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "http://www.xialab.hk",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-08",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-07"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-yyy",
+      "name": "Professor YEUNG, Ying Yeung （楊英洋教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/yyy/",
+      "summary": "研究有机合成、有机催化、不对称卤化和多组分合成。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "有机合成",
+        "有机催化",
+        "不对称卤化和多组分合成",
+        "Organic synthesis",
+        "Organocatalysis",
+        "Asymmetric halogenation"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-09",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-09"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-lhk",
+      "name": "Professor LEE, Hung Kay（李鴻基教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Associate Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lhk/",
+      "summary": "研究氨基金属配合物的合成与反应、金属蛋白活性位点模拟。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "氨基金属配合物的合成与反应",
+        "金属蛋白活性位点模拟",
+        "Amidometal complexes",
+        "Metalloproteins"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-12",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-12"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-lhw",
+      "name": "Prof. LI, Hung Wing (李紅榮教授)",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Associate Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lhw/",
+      "summary": "研究荧光显微、生物分子相互作用与生物标志物检测。",
+      "topics": [
+        "物理与化学",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "荧光显微",
+        "生物分子相互作用与生物标志物检测",
+        "Fluorescence microscopy",
+        "Biomolecular interactions",
+        "Biomarker sensing"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-13",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-09"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-13"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://hwliresearch.org/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-13",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-09"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-oleksandr-savateev",
+      "name": "Professor SAVATIEIEV, Oleksandr",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Associate Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/oleksandr-savateev/",
+      "summary": "研究氮化碳光催化、有机合成、光充电半导体与数据驱动研究。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "氮化碳光催化",
+        "有机合成",
+        "光充电半导体与数据驱动研究",
+        "Carbon nitride photocatalysis",
+        "Photocharged semiconductors",
+        "Organic synthesis"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-14",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-10"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-14"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://savateevgroup.com",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-14",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-10"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-tyl",
+      "name": "Professor TSE, Ying Lung Steve（謝應龍教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Associate Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/tyl/",
+      "summary": "研究界面体系的计算化学、力场与神经网络势、热力学和动力学。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "界面体系的计算化学",
+        "力场与神经网络势",
+        "热力学和动力学",
+        "Computational chemistry",
+        "Force fields",
+        "Neural network potentials"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-15",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-11"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-15"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "http://www.tsegroup.hk/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-15",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-11"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-tc",
+      "name": "Professor TSUI, Chit Gavin（徐哲教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Associate Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/tc/",
+      "summary": "研究有机氟化学、金属有机化学、均相催化与不对称合成。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "有机氟化学",
+        "金属有机化学",
+        "均相催化与不对称合成",
+        "Organofluorine chemistry",
+        "Homogeneous catalysis",
+        "Asymmetric synthesis"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-16",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-12"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-16"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://www.tsuigroup.org/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-16",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-12"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-wy",
+      "name": "Professor WANG, Ying（王莹教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Associate Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/wy/",
+      "summary": "研究电化学、电催化、电解槽工程与碳转化。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "电化学",
+        "电催化",
+        "电解槽工程与碳转化",
+        "Electrochemistry",
+        "Electrocatalysis",
+        "Electrolyzer engineering"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-17",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-13"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-17"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "http://ywanggroup.com/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-17",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-13"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-cy",
+      "name": "Professor CHEN, Ye（陳也教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/cy/",
+      "summary": "研究无机纳米材料的湿化学合成及其在催化和清洁能源中的应用。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "无机纳米材料的湿化学合成及其在催化和清洁能源中的应用",
+        "Inorganic nanomaterials",
+        "Wet-chemical synthesis",
+        "Clean energy"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-18",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-14"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-18"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://www.chengroupcuhk.org/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-18",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-14"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-lhr",
+      "name": "Professor LYU, Hairong（呂海荣教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lhr/",
+      "summary": "研究主族元素化学、光电催化、有机硼试剂与功能材料。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "主族元素化学",
+        "光电催化",
+        "有机硼试剂与功能材料",
+        "Main group chemistry",
+        "Organoboron compounds",
+        "Photocatalysis"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-19",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-15"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-19"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://www.lyugroup.org/",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-19",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-15"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-wqy",
+      "name": "Professor WAN, Qingyun（万晴云教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/wqy/",
+      "summary": "研究分子材料的设计及其在电子、光电子器件中的应用。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "分子材料的设计及其在电子",
+        "光电子器件中的应用",
+        "Molecular materials",
+        "Optoelectronics"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-20",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-16"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-20"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://qywan9.wixsite.com/group",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-20",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-16"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-zxl",
+      "name": "Professor ZHANG, Xinglong（章興龍教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/zxl/",
+      "summary": "研究计算催化机理、小分子活化、不对称催化与机器学习。",
+      "topics": [
+        "物理与化学",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "计算催化机理",
+        "小分子活化",
+        "不对称催化与机器学习",
+        "Computational chemistry",
+        "Catalysis",
+        "Machine learning"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-21",
+        "cuhk-chemistry-20261109-academic",
+        "cuhk-chemistry-20261109-group-17"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-21"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "课题组主页",
+          "url": "https://xinglong-zhang.github.io",
+          "parentSourceId": "cuhk-chemistry-20261109-profile-21",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-chemistry-20261109-group-17"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-ccw-2",
+      "name": "Professor CHEUNG, Chi Wai （張志偉教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/ccw-2/",
+      "summary": "研究有机合成、非贵金属催化、光催化和化学键活化。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "有机合成",
+        "非贵金属催化",
+        "光催化和化学键活化",
+        "Base metal catalysis",
+        "Photocatalysis",
+        "Bond activation"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-81",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-81"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-lq",
+      "name": "Professor LU, Qian（廬千教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lq/",
+      "summary": "研究等离子体催化、水电解与可充电电池催化剂。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "等离子体催化",
+        "水电解与可充电电池催化剂",
+        "Plasma catalysis",
+        "Water electrolysis",
+        "Rechargeable batteries"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-82",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-82"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-gy",
+      "name": "Professor GUO, Yue（郭月教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/gy/",
+      "summary": "研究化学气相沉积碳材料、高能量密度电池膜和低维电催化材料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "化学气相沉积碳材料",
+        "高能量密度电池膜和低维电催化材料",
+        "Chemical vapor deposition",
+        "Battery membranes",
+        "Electrocatalysis"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-83",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-83"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-yl",
+      "name": "Professor YANG, Lin （楊琳教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/yl/",
+      "summary": "研究三维功能纳米薄膜、手性纳米等离激元与增强手性光谱。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "三维功能纳米薄膜",
+        "手性纳米等离激元与增强手性光谱",
+        "Nanofunctional thin films",
+        "Chiral nanoplasmonics",
+        "Chiroptical spectroscopy"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-84",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-84"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-kmh",
+      "name": "Professor KWOK, Man Hin Patrick（郭文軒教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/kmh/",
+      "summary": "研究响应性软胶体的界面动力学与颗粒稳定乳液。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "响应性软胶体的界面动力学与颗粒稳定乳液",
+        "Stimuli-responsive soft colloids",
+        "Pickering emulsions"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-85",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-85"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-zk",
+      "name": "Professor ZHANG, Kun（張坤教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/zk/",
+      "summary": "研究RNA 与蛋白相互作用、RNA 二级结构和靶向化学工具。",
+      "topics": [
+        "物理与化学",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "RNA 与蛋白相互作用",
+        "RNA 二级结构和靶向化学工具",
+        "RNA–protein interactions",
+        "G-quadruplex",
+        "Aptamers"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-86",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-86"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-lyj",
+      "name": "Professor LI, Yujun（李玉軍教授）",
+      "universityId": "cuhk",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professors",
+      "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lyj/",
+      "summary": "研究硼自由基、有机硼化合物及电催化有机合成。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "硼自由基",
+        "有机硼化合物及电催化有机合成",
+        "Boron radicals",
+        "Organoboron compounds",
+        "Electrocatalytic organic synthesis"
+      ],
+      "sourceIds": [
+        "cuhk-chemistry-20261109-profile-87",
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "cuhk-chemistry-20261109-profile-87"
+      ],
+      "directorySourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看化学研究学位的申请要求。",
+        "sourceIds": [
+          "cuhk-chemistry-20261109-graduate-school"
         ]
       }
     }
@@ -187969,6 +189248,1418 @@ window.APP_CATALOG = {
       "parentSourceId": "hkust-ieda-20261109-profile-31",
       "originalUrl": "https://tiabs.zju.edu.cn/tiabsen/2025/1030/c85291a3100180/page.htm",
       "retrievedUrl": "https://tiabs.zju.edu.cn/tiabsen/2025/1030/c85291a3100180/page.htm"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-department-programme",
+      "url": "https://chem.cuhk.edu.hk/postgraduate/mphil-phd/",
+      "title": "港中文化学系 MPhil–PhD",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "学系分别说明 MPhil 与 PhD 的修读及研究要求，列分析与环境化学、无机、有机、物理、化学生物及材料科学，并请申请者到研究院查当期日期。"
+      ],
+      "scope": "学系分别说明 MPhil 与 PhD 的修读及研究要求，列分析与环境化学、无机、有机、物理、化学生物及材料科学，并请申请者到研究院查当期日期。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a3b71b4a7fe9a0049380f13de5bb3bb40412813f6deae9a5901a146c42d26d47",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-graduate-school",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-chemistry",
+      "title": "港中文研究院化学 MPhil–PhD · 2027/28",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "化学或相关学科背景，另须满足研究院通用条件；常规主轮为 2026 年 12 月 1 日，有余位时补录至 2027 年 3 月 31 日。2027/28 学费为每年 49,500 港元。"
+      ],
+      "scope": "化学或相关学科背景，另须满足研究院通用条件；常规主轮为 2026 年 12 月 1 日，有余位时补录至 2027 年 3 月 31 日。2027/28 学费为每年 49,500 港元。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "4af48308edf3cab9f63696851f8b7c9b440f450e6758610f1b4b5c451bb5b318",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-academic",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/",
+      "title": "港中文化学系 · 学术人员",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "官网此分类页列 34 张人员卡。"
+      ],
+      "scope": "官网此分类页列 34 张人员卡。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "48ff35e70f7be16c5b3b3e3271e6c63defcd0578237fae96dd380e5321ddc3e5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/kfy/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/hzf/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/mq/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/nkp/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/nt/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/css/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/wnc/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/xj/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/yyy/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/ycm/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/xzw/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/lhk/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/lhw/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/oleksandr-savateev/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/tyl/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/tc/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/wy/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/cy/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/lhr/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/wqy/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/zxl/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/ccw-2/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/lq/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/gy/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/yl/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/kmh/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/zk/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/lyj/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/mkw/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/ctw/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/cys/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/ckl/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/hck/",
+        "https://wp.chem.cuhk.edu.hk/people/academic-staff/lcm/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-01",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/kfy/",
+      "title": "Professor KWONG Fuk Yee, Michael（鄺福兒教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括有机合成、金属有机化学、过渡金属催化、交叉偶联。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "6c95eef6f4c289cfece26874f525905f99931b2b5186408c55b6b96b8852e2c6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/research/fykwong/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-01",
+      "url": "https://www.cuhk.edu.hk/research/fykwong/",
+      "title": "Professor KWONG Fuk Yee, Michael（鄺福兒教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组介绍定制催化剂和交叉偶联研究。"
+      ],
+      "scope": "课题组介绍定制催化剂和交叉偶联研究。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "f2c6a9a38245774bb0bc178c670363b6f95d53d133c8d32f2edac3a97f4b2ee7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-01",
+      "originalUrl": "http://www.cuhk.edu.hk/research/fykwong/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/research/fykwong/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-02",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/hzf/",
+      "title": "Professor HUANG, Zhifeng （黄陟峰教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括手性纳米材料、手性等离激元、表面增强手性光谱、生物传感。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "796dc246399de2f088514e0ac24a3d04ec4fb70375168c546e8ba47dc8af972a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://huanggroupcuhk.org"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-02",
+      "url": "https://huanggroupcuhk.org",
+      "title": "Professor HUANG, Zhifeng （黄陟峰教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列功能纳米材料研究及设备。"
+      ],
+      "scope": "课题组列功能纳米材料研究及设备。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "f7f6b05ee75c54b223e617cc8e7d7c6532f40507a2b553712934b540b8b4bc1e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-02",
+      "originalUrl": "https://huanggroupcuhk.org",
+      "retrievedUrl": "https://huanggroupcuhk.org"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-03",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/mq/",
+      "title": "Professor MIAO, Qian（繆謙教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括多环芳香分子、有机半导体、超分子化学。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "78f94fefeae78e5b879050428698e9e29c8b5dec12df4715ab60970d1c2bd5c7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/research/MiaoGroup/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-03",
+      "url": "https://www.cuhk.edu.hk/research/MiaoGroup/",
+      "title": "Professor MIAO, Qian（繆謙教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列有机化学、π 共轭体系和有机器件。"
+      ],
+      "scope": "课题组列有机化学、π 共轭体系和有机器件。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "6d559a82267b4725f10606b3a8ec8ee56ff79fd079acdd2cb20fac45588fd8e6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-03",
+      "originalUrl": "https://www.cuhk.edu.hk/research/MiaoGroup/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/research/MiaoGroup/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-04",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/nkp/",
+      "title": "Professor NG, Kee Pui Dennis（吳基培教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括功能染料、酞菁与氟硼二吡咯、超分子化学与生物医学应用。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "eb0fc0db877e94816981d76c6c9488ebfa077dab66aeb9a27f863a609c119af8",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-05",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/nt/",
+      "title": "Professor NGAI, To （魏濤教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括胶体、界面与软物质，涉及颗粒稳定乳液和微流变。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "ff5e40baa506c5db938fbcb8377b26a5057f3baa690c35357d85a2d2b0b7c69e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/research/NgaiToGroup/index.html",
+        "http://www.cuhk.edu.hk/research/NgaiToGroup/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-04",
+      "url": "https://www.cuhk.edu.hk/research/NgaiToGroup/index.html",
+      "title": "Professor NGAI, To （魏濤教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组首页列人员与研究入口。"
+      ],
+      "scope": "课题组首页列人员与研究入口。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "c04d735ea66dc65347cc03ca214a3b562a5ee108f88ae7af904a3e2daf560849",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-05",
+      "originalUrl": "http://www.cuhk.edu.hk/research/NgaiToGroup/index.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/research/NgaiToGroup/index.html"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-05",
+      "url": "https://www.cuhk.edu.hk/research/NgaiToGroup/",
+      "title": "Professor NGAI, To （魏濤教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组同站另一官网所给入口列人员与研究。"
+      ],
+      "scope": "课题组同站另一官网所给入口列人员与研究。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "c04d735ea66dc65347cc03ca214a3b562a5ee108f88ae7af904a3e2daf560849",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-05",
+      "originalUrl": "http://www.cuhk.edu.hk/research/NgaiToGroup/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/research/NgaiToGroup/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-06",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/css/",
+      "title": "Professor SONG, Chunshan （宋春山教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括能源与燃料催化、二氧化碳捕集和转化。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "825259d3ab05d0ed7effb41216376c8e49a84fc406e4b4a2de89f2ecc8798004",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.cuhkcssong.com"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-06",
+      "url": "https://www.cuhkcssong.com/",
+      "title": "Professor SONG, Chunshan （宋春山教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列催化、能源和先进材料的研究入口。"
+      ],
+      "scope": "课题组列催化、能源和先进材料的研究入口。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "5fc10c192cf4028c9664420440fde2475175862982e9224cc8a0b4aa560a9867",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-06",
+      "originalUrl": "http://www.cuhkcssong.com",
+      "retrievedUrl": "https://www.cuhkcssong.com/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-07",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/wnc/",
+      "title": "Professor WONG, Nai Ching Henry（黃乃正教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "学术名单列 Professors；个人页列荣休教授及研究教授。"
+      ],
+      "scope": "学术名单列 Professors；个人页列荣休教授及研究教授。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "dfb847bd01303aa35a298448bd0e0182555c88c499d792d3121749bd0c089c47",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-08",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/xj/",
+      "title": "Professor XIA, Jiang（夏江教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "9983b76ff4a8570c879ad515566acce899af497703ebe70427dcf3ea4d8eb333",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.xialab.hk"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-07",
+      "url": "https://xialab.hk/",
+      "title": "Professor XIA, Jiang（夏江教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组首页说明研究化学生物学和合成生物学。"
+      ],
+      "scope": "课题组首页说明研究化学生物学和合成生物学。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "1447b0900650edc4f8f8ff63fc9352f74fabb0e64ea49e376e481ad283427371",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-08",
+      "originalUrl": "http://www.xialab.hk",
+      "retrievedUrl": "https://xialab.hk/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-09",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/yyy/",
+      "title": "Professor YEUNG, Ying Yeung （楊英洋教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括有机合成、有机催化、不对称卤化和多组分合成。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "aa2dfe38cd098ab11e01deec5afd5e9b8b755942dcde60aca765880dfc946ca6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-10",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/ycm/",
+      "title": "Professor YU, Chai Mei Jimmy（余濟美教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "学术名单列 Professors；个人页列荣休教授及研究教授。"
+      ],
+      "scope": "学术名单列 Professors；个人页列荣休教授及研究教授。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "1c2b74017f98633dba4b639f28249c6035842d9167ef8fc0c5f91eaf302fdf9a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/research/jimyu/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-08",
+      "url": "https://www.cuhk.edu.hk/research/jimyu/",
+      "title": "Professor YU, Chai Mei Jimmy（余濟美教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组旧首页列研究方向、成果与设施。"
+      ],
+      "scope": "课题组旧首页列研究方向、成果与设施。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "be81d415c91fee516a9a11af89ad19676e531ab02c6897518f22c17a15f86275",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-10",
+      "originalUrl": "http://www.cuhk.edu.hk/research/jimyu/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/research/jimyu/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-12",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/lhk/",
+      "title": "Professor LEE, Hung Kay（李鴻基教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括氨基金属配合物的合成与反应、金属蛋白活性位点模拟。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "8a359b7744461d6c51cfac0877686506d394aedd4dd44bb1eaf4a35f8b870f8b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-13",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/lhw/",
+      "title": "Prof. LI, Hung Wing (李紅榮教授) · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括荧光显微、生物分子相互作用与生物标志物检测。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "0ffac821df9e18ea449f0320cb4c53491d7c60ee86dae30fa88999377c11b80a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://hwliresearch.org/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-09",
+      "url": "https://hwliresearch.org/",
+      "title": "Prof. LI, Hung Wing (李紅榮教授) · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组说明用荧光手段研究生物分子相互作用和标志物。"
+      ],
+      "scope": "课题组说明用荧光手段研究生物分子相互作用和标志物。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "713421ed5f51cadfb427f201e9a16e07ed3ffc40f6d166fa781d81257f0600bf",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-13",
+      "originalUrl": "https://hwliresearch.org/",
+      "retrievedUrl": "https://hwliresearch.org/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-14",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/oleksandr-savateev/",
+      "title": "Professor SAVATIEIEV, Oleksandr · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括氮化碳光催化、有机合成、光充电半导体与数据驱动研究。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "52dc790394ec64bf7f9f9d44aa61b061cd5673d3de34e8c3559a41174ac9a413",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://savateevgroup.com"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-10",
+      "url": "https://savateevgroup.com",
+      "title": "Professor SAVATIEIEV, Oleksandr · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列成员、论文和研究成果。"
+      ],
+      "scope": "课题组列成员、论文和研究成果。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "8d3f444a3744975d6f2d844b1f80a21244f95f5d51da24f1b6a99e28a3eb64e6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-14",
+      "originalUrl": "https://savateevgroup.com",
+      "retrievedUrl": "https://savateevgroup.com"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-15",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/tyl/",
+      "title": "Professor TSE, Ying Lung Steve（謝應龍教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括界面体系的计算化学、力场与神经网络势、热力学和动力学。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "ddb6f03c0bbf224e2b998476a42ac3b4ca2e827fcfb9714df938d69321b4b609",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.tsegroup.hk/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-11",
+      "url": "https://www.tsegroup.hk/",
+      "title": "Professor TSE, Ying Lung Steve（謝應龍教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列复杂界面的力场和神经网络势研究。"
+      ],
+      "scope": "课题组列复杂界面的力场和神经网络势研究。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "3ee85390ae4b9bbcb124cef04c347b5190c6a4b38b7b4da68dde149fbd4816fb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-15",
+      "originalUrl": "http://www.tsegroup.hk/",
+      "retrievedUrl": "https://www.tsegroup.hk/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-16",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/tc/",
+      "title": "Professor TSUI, Chit Gavin（徐哲教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括有机氟化学、金属有机化学、均相催化与不对称合成。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "67f431994f95eb1b9590d177cef94638e9f79ee4f28abfc9a65423f4a1bb9204",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.tsuigroup.org/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-12",
+      "url": "https://tsuigroup.org/",
+      "title": "Professor TSUI, Chit Gavin（徐哲教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列催化与合成。"
+      ],
+      "scope": "课题组列催化与合成。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "837d3c259eab005879accddc72b09d4b57876f2500fdf5f8601b6e310e67ea87",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-16",
+      "originalUrl": "https://www.tsuigroup.org/",
+      "retrievedUrl": "https://tsuigroup.org/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-17",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/wy/",
+      "title": "Professor WANG, Ying（王莹教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括电化学、电催化、电解槽工程与碳转化。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "2d3a1c94dd90541cc9f8e560c520e174366f2b55cd4a66c5c27de5497c18b25b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://ywanggroup.com/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-13",
+      "url": "http://ywanggroup.com/",
+      "title": "Professor WANG, Ying（王莹教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列电化学及研究入口。"
+      ],
+      "scope": "课题组列电化学及研究入口。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "ba5b1fdfe934703f0aa3295f3fc6292ce9bc56b6c8d025f08f0c38e939a5011e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-17",
+      "originalUrl": "http://ywanggroup.com/",
+      "retrievedUrl": "http://ywanggroup.com/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-18",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/cy/",
+      "title": "Professor CHEN, Ye（陳也教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括无机纳米材料的湿化学合成及其在催化和清洁能源中的应用。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "48399ec8a408ed426f2708f2676042fd407b35c767f7cf732de3f3a88274537b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.chengroupcuhk.org/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-14",
+      "url": "https://chengroupcuhk.org/",
+      "title": "Professor CHEN, Ye（陳也教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列纳米材料合成及研究入口。"
+      ],
+      "scope": "课题组列纳米材料合成及研究入口。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "6025e0600fc9ad44e20deca063527e5bd263c0368194455b6c66ac5b1b42c903",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-18",
+      "originalUrl": "https://www.chengroupcuhk.org/",
+      "retrievedUrl": "https://chengroupcuhk.org/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-19",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/lhr/",
+      "title": "Professor LYU, Hairong（呂海荣教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括主族元素化学、光电催化、有机硼试剂与功能材料。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "1608a4aaca90bf95d4ecc0640aa0f50bde63ba503ad4c24315a39ba56af7fd35",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.lyugroup.org/"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-15",
+      "url": "https://www.lyugroup.org/",
+      "title": "Professor LYU, Hairong（呂海荣教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列研究、人员和论文入口。"
+      ],
+      "scope": "课题组列研究、人员和论文入口。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "8643638b5a4d0414b5d6ab19fa277a98ab3c87609321385af693860dacb46cc2",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-19",
+      "originalUrl": "https://www.lyugroup.org/",
+      "retrievedUrl": "https://www.lyugroup.org/"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-20",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/wqy/",
+      "title": "Professor WAN, Qingyun（万晴云教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括分子材料的设计及其在电子、光电子器件中的应用。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a745c3ea4e4156b067fc57ff5e09d540fabf16c82e1058ff1aeab76088c33236",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://qywan9.wixsite.com/group"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-16",
+      "url": "https://qywan9.wixsite.com/group",
+      "title": "Professor WAN, Qingyun（万晴云教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "课题组列新分子材料和光电子应用。"
+      ],
+      "scope": "课题组列新分子材料和光电子应用。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "310aaa04b48174d3cac8d0a98a560e9d051b9d2fdb0ec9c1770fdc400fd481c7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-20",
+      "originalUrl": "https://qywan9.wixsite.com/group",
+      "retrievedUrl": "https://qywan9.wixsite.com/group"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-21",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/zxl/",
+      "title": "Professor ZHANG, Xinglong（章興龍教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括计算催化机理、小分子活化、不对称催化与机器学习。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "9e3176506255fb3a570a20f2ec9ffed413cf5f7c74a2dfac21fca538fdd9ad83",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://xinglong-zhang.github.io"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-17",
+      "url": "https://xinglong-zhang.github.io",
+      "title": "Professor ZHANG, Xinglong（章興龍教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "个人课题组页说明港中文计算化学方向。"
+      ],
+      "scope": "个人课题组页说明港中文计算化学方向。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "0b30cf03197184bc42a45f4b926fdc0936e764cc482359876c35741364ed6664",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-21",
+      "originalUrl": "https://xinglong-zhang.github.io",
+      "retrievedUrl": "https://xinglong-zhang.github.io"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-81",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/ccw-2/",
+      "title": "Professor CHEUNG, Chi Wai （張志偉教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括有机合成、非贵金属催化、光催化和化学键活化。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "16fb033b47733e0e2ed30da8dcb7724097b81f1d4d6312b7a82746481abdf005",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-82",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/lq/",
+      "title": "Professor LU, Qian（廬千教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括等离子体催化、水电解与可充电电池催化剂。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "8184c95e88a442f75aadef389cb09304a3da4e7697d7c88eec37d667ab94c22b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-83",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/gy/",
+      "title": "Professor GUO, Yue（郭月教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括化学气相沉积碳材料、高能量密度电池膜和低维电催化材料。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "ce1d5b604f5247069079f014496186fb10d437eaf3aac55a67b679207b2208cd",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-84",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/yl/",
+      "title": "Professor YANG, Lin （楊琳教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括三维功能纳米薄膜、手性纳米等离激元与增强手性光谱。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "96ad11bf7cbc46552157d5d56b42848d516ecee9bb95f35007cd57ab851e093c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-85",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/kmh/",
+      "title": "Professor KWOK, Man Hin Patrick（郭文軒教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括响应性软胶体的界面动力学与颗粒稳定乳液。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "d82ec1cee29048632aa6fb06266c5a5b8a54665835d438cc516ee7c16c17b18d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-86",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/zk/",
+      "title": "Professor ZHANG, Kun（張坤教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括RNA 与蛋白相互作用、RNA 二级结构和靶向化学工具。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "9401cd7bccf45fc642298f7fec84f763c83a48969be83beb9a833f77abb9f846",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-87",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/lyj/",
+      "title": "Professor LI, Yujun（李玉軍教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。",
+        "研究方向包括硼自由基、有机硼化合物及电催化有机合成。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "268040fbc45588f58e92292f48bd24faed126c53caef8c33722809d3ac69777b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-22",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/mkw/",
+      "title": "Dr. MAK, Kin Wah Kendrew（麥建華博士） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "b13b90ede98f88f934f63f68acb5cc963766433b23f9e7c491767e55441f0213",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-23",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/ctw/",
+      "title": "Professor CHAN, Tak Wah Dominic（陳德華教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "学术名单列 Senior Lecturer，荣誉名单及个人页也列荣休教授。"
+      ],
+      "scope": "学术名单列 Senior Lecturer，荣誉名单及个人页也列荣休教授。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "069de799cb70e247fba3f1f216f76e5ad89348d24bdccc0eb955090f8b73979e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-24",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/cys/",
+      "title": "Dr. CHEUNG, Yu San（張羽伸博士） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "97c63687a07d17849de6f07900915efe1777d705eafab901cd50dce337dd6c0e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-25",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/ckl/",
+      "title": "Dr. CHAN, Ka Long Donald （陳家朗博士） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "c5e8abd3af084da1dfa9289d1ad0781d93323043d94b8cf5197341b933cfc741",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-26",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/hck/",
+      "title": "Dr. HAU, Chun Kit Sam（侯俊傑博士） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "c2bffa1a7bfd3062c86a07ed203992fc0a82db3891df78fecb402c8796e47fb6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-27",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/lcm/",
+      "title": "Dr. LO, Chui Man Cat（盧翠雯博士） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "e020aafdef3cf72e7674aea960b7ad8841a38a9e508051af4128a1c21ac9bd2e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-honorary",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/",
+      "title": "港中文化学系 · 荣誉、荣休与兼任人员",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "官网此分类页列 33 张人员卡。"
+      ],
+      "scope": "官网此分类页列 33 张人员卡。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a9001818f47319e8b53ce3ffbb35d00f4bae2714df468dd08b659d86450ce0de",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/csi/",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/cks/",
+        "https://chem.cuhk.edu.hk/people/academic-staff/ctw/",
+        "https://wp.me/Pc0wf8-4a",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/chf/",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/lzf/",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/mcw/",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/tsw/",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/wc/",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/xzw/",
+        "https://www.cuhk.edu.hk/med/cpy/Research/DennisLo.htm",
+        "https://dcp.ustc.edu.cn/2013/1208/c4477a39678/page.htm",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/ctl/",
+        "https://www.chem.pku.edu.cn/en/faculty/researchareas/chemogy/94939.htm",
+        "https://chembioins.sjtu.edu.cn/info/1071/1393.htm",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/ktt/",
+        "https://sioc.cas.cn/sourcedb/cn/team/ys/200906/t20090621_6770736.html",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/skm/",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/tsc/",
+        "https://chem.xmu.edu.cn/en/info/1010/1788.htm",
+        "https://wp.me/Pc0wf8-4OU",
+        "https://wp.chem.cuhk.edu.hk/people/honorary-staff/wys/",
+        "https://chem.yale.edu/people/e-chui-ying-yan",
+        "https://www.jlu.edu.cn/info/1155/44855.htm",
+        "https://people.ucas.ac.cn/~jczhao",
+        "https://www.eng.mcmaster.ca/chemeng/faculty/dr-shiping-zhu/",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/cky/",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/lwy/",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/mto/",
+        "https://sse.cuhk.edu.cn/en/faculty/pengxiaoshui",
+        "https://chem.cuhk.edu.hk/people/honorary-staff/stp-2/",
+        "https://sse.cuhk.edu.cn/en/faculty/kezhihai"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-28",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/csi/",
+      "title": "Professor Sunney Ignatius CHAN（陳長謙教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "30c817926016bdaa8c40b17e832ade4685cfc0534e2271ce3fa2e74d557ddb62",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-29",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/cks/",
+      "title": "Professor CHAN, Kin Shing（陳建成教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "0e8ee1b1edb5dfac7379c4fb5888d173717cf9ffe60651a4c15e4aa6eb8f054c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-30",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/ctw/",
+      "title": "Professor CHAN, Tak Wah Dominic（陳德華教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "学术名单列 Senior Lecturer，荣誉名单及个人页也列荣休教授。"
+      ],
+      "scope": "学术名单列 Senior Lecturer，荣誉名单及个人页也列荣休教授。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "069de799cb70e247fba3f1f216f76e5ad89348d24bdccc0eb955090f8b73979e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-32",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/chf/",
+      "title": "Professor CHOW, Hak Fun（周克勳教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "d9df788cfbbeab1de0788fd6c79dea14effa52ca7b5022353e6024fba8bee1bb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/research/hfchow/HFC_NewWeb/Home.htm"
+      ]
+    },
+    {
+      "id": "cuhk-chemistry-20261109-group-18",
+      "url": "https://www.cuhk.edu.hk/research/hfchow/HFC_NewWeb/Home.htm",
+      "title": "Professor CHOW, Hak Fun（周克勳教授） · 院系所给研究网站",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "荣休教授旧课题组主页列研究、论文与成员入口。"
+      ],
+      "scope": "荣休教授旧课题组主页列研究、论文与成员入口。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "93fc70a79e03d49379520983cd8273370bb4fa6ba42921737579f31544517c63",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-profile-32",
+      "originalUrl": "http://www.cuhk.edu.hk/research/hfchow/HFC_NewWeb/Home.htm",
+      "retrievedUrl": "https://www.cuhk.edu.hk/research/hfchow/HFC_NewWeb/Home.htm"
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-33",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/lzf/",
+      "title": "Professor LIU, Zhi Feng（劉志鋒教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "296322954165f9ad5e080b44c242264ea20295deeafd3d640f9a0d2605dbe1d3",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-34",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/mcw/",
+      "title": "Professor MAK, Chung Wai Thomas（麥松威教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "3b1a6588e7be6a73f9cee192f98ca242f9a5a619409bb866428bf5c82fc3bfdb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-35",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/tsw/",
+      "title": "Professor TAM, Sheung Wai（譚尚渭教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "bacbd9d0d82e64440cdb9ef5bba74e8de08e3a9bcfd823cb257d153ffde4596b",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-36",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/wc/",
+      "title": "Professor WU, Chi（吳奇教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "00cb4a66478df04d7b2dc598c3ccdd2f63844fc2ac2ccf5acbe5de5cf2a26a7f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-37",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/xzw/",
+      "title": "Professor XIE, Zuowei （謝作偉教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "学术名录旧档案返回 404；荣誉名录另列可读的本人荣休档案。"
+      ],
+      "scope": "学术名录旧档案返回 404；荣誉名录另列可读的本人荣休档案。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "98374ec5492f05f8695b8c5885db5054c843d79e7ae174e48b21dc90941006e2",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-38",
+      "url": "https://www.cuhk.edu.hk/med/cpy/Research/DennisLo.htm",
+      "title": "Prof. LO, Yuk Ming Dennis盧煜明教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "f923cf9deb26bb687de085269afb49fe8218eff3c9baf2a6f85334bc2ae7034f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-39",
+      "url": "https://dcp.ustc.edu.cn/2013/1208/c4477a39678/page.htm",
+      "title": "Prof. BAO, Xinhe包信和教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "090df4e9469d805d7c7d2e6017c22caf46d061c7e837ef09dbf02c357df4a06c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-40",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/ctl/",
+      "title": "Professor CHAN, Tze Lock（陳子樂教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "438bead0573ed1d21be83bfb726efa707c999d562d5ff67cf233bada754a8273",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-42",
+      "url": "https://chembioins.sjtu.edu.cn/info/1071/1393.htm",
+      "title": "Prof. FAN, Chunhai樊春海教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "3d3b208e385f6e234a3568fff6aecc97449d2aafbce35554a58c741c940b1a8d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-43",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/ktt/",
+      "title": "Professor KAM, Tat Ting（甘達庭教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "6c1d183419142a6f1881d2ccc54b50aa14e0b1547232b3548ed42039552c4ef9",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-45",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/skm/",
+      "title": "Professor SHING, Kung Ming Tony（成公明教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "6e71bfd639b08d78e57b9a3526ae8f0108394c968c61ef3674bf3b307b22ed8f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-46",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/tsc/",
+      "title": "Professor TAM, Shuk Ching Elaine （譚淑貞教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "03001080af4b4b373572a0ad3f112cb3ba6d09ff2a35829815717054c6aa4d8d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-47",
+      "url": "https://chem.xmu.edu.cn/en/info/1010/1788.htm",
+      "title": "Prof. TIAN, Zhongqun田中群教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "1d9284474fb3aa17eba4b62e12d5485c4d9abeb6e5943ea48c7659fd5852a410",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-48",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/wsm/",
+      "title": "Professor Terence WAN, See Ming · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "2dd4eba8cd0f5fcca2ccd487fc65b84117cb1f54a8a7142e254acc9fc562eaca",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-49",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/wys/",
+      "title": "Professor WONG, Yau Shing（王友成教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "66f1988b1e7ae363a6cc113a6038489639a7bbc3bd5e73a9815e782576edad4d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-51",
+      "url": "https://www.jlu.edu.cn/info/1155/44855.htm",
+      "title": "Prof. ZHANG, Xi張希教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "507a960d231ac21ee810c095149131c400451ca9d62f9a457fe3d59d39ce2646",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-52",
+      "url": "https://people.ucas.ac.cn/~jczhao",
+      "title": "Prof. ZHAO, Jincai趙進才教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "2ba896a054d07e901a236134f6efcf809ba8efa8f7cd144880956350c8cfdbc7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-53",
+      "url": "https://www.eng.mcmaster.ca/chemeng/faculty/dr-shiping-zhu/",
+      "title": "Prof. ZHU, Shiping朱世平教授 · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "f82652886d9132c8129a4099eadcf410b0d314a3a6bec2df73e2bdf95e402dfb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-54",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/cky/",
+      "title": "Prof. CHUI, Kuk Ying · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "1aa7da5f565c3e26e3fbb2fc57c8b6e4b35548177b33297b64a5f3d6f2422a9a",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-55",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/lwy/",
+      "title": "Professor Wai Yin William LO · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "6b2c5cb9249380022a525b7aa8e9e2991c9f2eeaab11fba1fe9049eb7a02ed27",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-56",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/mto/",
+      "title": "Prof. MAN, Tim On（文添安教授） · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "99aa501e87114c9c239b519869b7d232026d669040502d890555512e00a726fb",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-profile-58",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/stp-2/",
+      "title": "Prof. SZE, Tung Po Eric (史東甫教授) · 个人档案",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "已读人员档案，分类以院系名录为准。"
+      ],
+      "scope": "已读人员档案，分类以院系名录为准。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "15721fcab24abb047f005d95b9a21574ffbe8a26ed5bb2c00812a04e201ec2ce",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-chemistry-20261109-support",
+      "url": "https://chem.cuhk.edu.hk/people/supporting-staff/",
+      "title": "港中文化学系 · 支援人员",
+      "checkedAt": "2026-11-09",
+      "claims": [
+        "官网此分类页列 23 张人员卡。"
+      ],
+      "scope": "官网此分类页列 23 张人员卡。",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "6ca0686d8f3734d28c2ef29b84b3b1811d719b18317fced781744baa82af68d7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -203766,6 +206457,880 @@ window.APP_CATALOG = {
             "profileUrl": null,
             "reason": "人员名录未提供个人档案。",
             "providedLinks": []
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-academic-directory",
+      "universityId": "cuhk",
+      "unit": "化学系 · 学术人员",
+      "url": "https://chem.cuhk.edu.hk/people/academic-staff/",
+      "sourceIds": [
+        "cuhk-chemistry-20261109-academic"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "官网此分类页列 34 张人员卡。",
+      "reviewSourceIds": [
+        "cuhk-chemistry-20261109-department-programme",
+        "cuhk-chemistry-20261109-graduate-school",
+        "cuhk-chemistry-20261109-profile-01",
+        "cuhk-chemistry-20261109-group-01",
+        "cuhk-chemistry-20261109-profile-02",
+        "cuhk-chemistry-20261109-group-02",
+        "cuhk-chemistry-20261109-profile-03",
+        "cuhk-chemistry-20261109-group-03",
+        "cuhk-chemistry-20261109-profile-04",
+        "cuhk-chemistry-20261109-profile-05",
+        "cuhk-chemistry-20261109-group-04",
+        "cuhk-chemistry-20261109-group-05",
+        "cuhk-chemistry-20261109-profile-06",
+        "cuhk-chemistry-20261109-group-06",
+        "cuhk-chemistry-20261109-profile-07",
+        "cuhk-chemistry-20261109-profile-08",
+        "cuhk-chemistry-20261109-group-07",
+        "cuhk-chemistry-20261109-profile-09",
+        "cuhk-chemistry-20261109-profile-10",
+        "cuhk-chemistry-20261109-group-08",
+        "cuhk-chemistry-20261109-profile-12",
+        "cuhk-chemistry-20261109-profile-13",
+        "cuhk-chemistry-20261109-group-09",
+        "cuhk-chemistry-20261109-profile-14",
+        "cuhk-chemistry-20261109-group-10",
+        "cuhk-chemistry-20261109-profile-15",
+        "cuhk-chemistry-20261109-group-11",
+        "cuhk-chemistry-20261109-profile-16",
+        "cuhk-chemistry-20261109-group-12",
+        "cuhk-chemistry-20261109-profile-17",
+        "cuhk-chemistry-20261109-group-13",
+        "cuhk-chemistry-20261109-profile-18",
+        "cuhk-chemistry-20261109-group-14",
+        "cuhk-chemistry-20261109-profile-19",
+        "cuhk-chemistry-20261109-group-15",
+        "cuhk-chemistry-20261109-profile-20",
+        "cuhk-chemistry-20261109-group-16",
+        "cuhk-chemistry-20261109-profile-21",
+        "cuhk-chemistry-20261109-group-17",
+        "cuhk-chemistry-20261109-profile-81",
+        "cuhk-chemistry-20261109-profile-82",
+        "cuhk-chemistry-20261109-profile-83",
+        "cuhk-chemistry-20261109-profile-84",
+        "cuhk-chemistry-20261109-profile-85",
+        "cuhk-chemistry-20261109-profile-86",
+        "cuhk-chemistry-20261109-profile-87",
+        "cuhk-chemistry-20261109-profile-22",
+        "cuhk-chemistry-20261109-profile-23",
+        "cuhk-chemistry-20261109-profile-24",
+        "cuhk-chemistry-20261109-profile-25",
+        "cuhk-chemistry-20261109-profile-26",
+        "cuhk-chemistry-20261109-profile-27"
+      ],
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. KWONG, Fuk Yee鄺福兒教授Department Chairman",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/kfy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：有机合成、金属有机化学、过渡金属催化、交叉偶联。",
+            "facultyId": "cuhk-chemistry-20261109-kfy"
+          },
+          {
+            "name": "Prof. HUANG, Zhifeng 黃陟峰教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/hzf/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：手性纳米材料、手性等离激元、表面增强手性光谱、生物传感。",
+            "facultyId": "cuhk-chemistry-20261109-hzf"
+          },
+          {
+            "name": "Prof. MIAO, Qian繆謙教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/mq/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：多环芳香分子、有机半导体、超分子化学。",
+            "facultyId": "cuhk-chemistry-20261109-mq"
+          },
+          {
+            "name": "Prof. NG, Kee Pui Dennis吳基培教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/nkp/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：功能染料、酞菁与氟硼二吡咯、超分子化学与生物医学应用。",
+            "facultyId": "cuhk-chemistry-20261109-nkp"
+          },
+          {
+            "name": "Prof. NGAI, To魏濤教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/nt/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：胶体、界面与软物质，涉及颗粒稳定乳液和微流变。",
+            "facultyId": "cuhk-chemistry-20261109-nt"
+          },
+          {
+            "name": "Prof. SONG, Chunshan宋春山教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/css/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：能源与燃料催化、二氧化碳捕集和转化。",
+            "facultyId": "cuhk-chemistry-20261109-css"
+          },
+          {
+            "name": "Prof. WONG, Nai Ching Henry黃乃正教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/wnc/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "学术名单列 Professors；个人页列荣休教授及研究教授。"
+          },
+          {
+            "name": "Prof. XIA, Jiang 夏江教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/xj/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：化学生物学与合成生物学。",
+            "facultyId": "cuhk-chemistry-20261109-xj"
+          },
+          {
+            "name": "Prof. YEUNG, Ying Yeung楊英洋教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/yyy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：有机合成、有机催化、不对称卤化和多组分合成。",
+            "facultyId": "cuhk-chemistry-20261109-yyy"
+          },
+          {
+            "name": "Prof. YU, Chai Mei Jimmy 余濟美教授",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/ycm/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "学术名单列 Professors；个人页列荣休教授及研究教授。"
+          },
+          {
+            "name": "Prof. XIE, Zuowei 謝作偉教授Choh-Ming Li Professor of Chemistry",
+            "directoryPosition": "Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/xzw/",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "学术名录旧档案返回 404；荣誉名录另列可读的本人荣休档案。"
+          },
+          {
+            "name": "Prof. LEE, Hung Kay 李鴻基教授",
+            "directoryPosition": "Associate Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/lhk/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：氨基金属配合物的合成与反应、金属蛋白活性位点模拟。",
+            "facultyId": "cuhk-chemistry-20261109-lhk"
+          },
+          {
+            "name": "Prof. LI, Hung Wing 李紅榮教授",
+            "directoryPosition": "Associate Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/lhw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：荧光显微、生物分子相互作用与生物标志物检测。",
+            "facultyId": "cuhk-chemistry-20261109-lhw"
+          },
+          {
+            "name": "Prof. SAVATIEIEV, Oleksandr",
+            "directoryPosition": "Associate Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/oleksandr-savateev/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：氮化碳光催化、有机合成、光充电半导体与数据驱动研究。",
+            "facultyId": "cuhk-chemistry-20261109-oleksandr-savateev"
+          },
+          {
+            "name": "Prof. TSE, Ying Lung Steve 謝應龍教授",
+            "directoryPosition": "Associate Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/tyl/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：界面体系的计算化学、力场与神经网络势、热力学和动力学。",
+            "facultyId": "cuhk-chemistry-20261109-tyl"
+          },
+          {
+            "name": "Prof. TSUI, Chit Gavin徐哲教授",
+            "directoryPosition": "Associate Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/tc/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：有机氟化学、金属有机化学、均相催化与不对称合成。",
+            "facultyId": "cuhk-chemistry-20261109-tc"
+          },
+          {
+            "name": "Prof. WANG, Ying 王莹教授",
+            "directoryPosition": "Associate Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/wy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：电化学、电催化、电解槽工程与碳转化。",
+            "facultyId": "cuhk-chemistry-20261109-wy"
+          },
+          {
+            "name": "Prof. CHEN, Ye 陳也教授",
+            "directoryPosition": "Assistant Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/cy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：无机纳米材料的湿化学合成及其在催化和清洁能源中的应用。",
+            "facultyId": "cuhk-chemistry-20261109-cy"
+          },
+          {
+            "name": "Prof. LYU, Hairong 呂海荣教授",
+            "directoryPosition": "Assistant Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/lhr/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：主族元素化学、光电催化、有机硼试剂与功能材料。",
+            "facultyId": "cuhk-chemistry-20261109-lhr"
+          },
+          {
+            "name": "Prof. WAN, Qingyun 万晴云教授",
+            "directoryPosition": "Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/wqy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：分子材料的设计及其在电子、光电子器件中的应用。",
+            "facultyId": "cuhk-chemistry-20261109-wqy"
+          },
+          {
+            "name": "Prof. ZHANG, Xinglong 章興龍教授",
+            "directoryPosition": "Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/zxl/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：计算催化机理、小分子活化、不对称催化与机器学习。",
+            "facultyId": "cuhk-chemistry-20261109-zxl"
+          },
+          {
+            "name": "Prof. CHEUNG, Chi Wai張志偉教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/ccw-2/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：有机合成、非贵金属催化、光催化和化学键活化。",
+            "facultyId": "cuhk-chemistry-20261109-ccw-2"
+          },
+          {
+            "name": "Prof. LU, Qian盧千教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lq/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：等离子体催化、水电解与可充电电池催化剂。",
+            "facultyId": "cuhk-chemistry-20261109-lq"
+          },
+          {
+            "name": "Prof. GUO, Yue郭月教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/gy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：化学气相沉积碳材料、高能量密度电池膜和低维电催化材料。",
+            "facultyId": "cuhk-chemistry-20261109-gy"
+          },
+          {
+            "name": "Prof. YANG, Lin楊琳教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/yl/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：三维功能纳米薄膜、手性纳米等离激元与增强手性光谱。",
+            "facultyId": "cuhk-chemistry-20261109-yl"
+          },
+          {
+            "name": "Prof. KWOK, Man Hin Patrick郭文軒教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/kmh/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：响应性软胶体的界面动力学与颗粒稳定乳液。",
+            "facultyId": "cuhk-chemistry-20261109-kmh"
+          },
+          {
+            "name": "Prof. ZHANG, Kun張坤教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/zk/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：RNA 与蛋白相互作用、RNA 二级结构和靶向化学工具。",
+            "facultyId": "cuhk-chemistry-20261109-zk"
+          },
+          {
+            "name": "Prof. LI, Yujun李玉軍教授",
+            "directoryPosition": "Research Assistant Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/lyj/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：硼自由基、有机硼化合物及电催化有机合成。",
+            "facultyId": "cuhk-chemistry-20261109-lyj"
+          },
+          {
+            "name": "Dr. MAK, Kin Wah Kendrew 麥建華博士",
+            "directoryPosition": "Principal Lecturer",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/mkw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. CHAN, Tak Wah Dominic陳德華教授",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/ctw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "学术名单列 Senior Lecturer，荣誉名单及个人页也列荣休教授。"
+          },
+          {
+            "name": "Dr. CHEUNG, Yu San 張羽伸博士",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/cys/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Dr. CHAN, Ka Long Donald 陳家朗博士",
+            "directoryPosition": "Lecturers",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/ckl/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Dr. HAU, Chun Kit Sam 侯俊傑博士",
+            "directoryPosition": "Lecturers",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/hck/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Dr. LO, Chui Man Cat盧翠雯博士",
+            "directoryPosition": "Lecturers",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/academic-staff/lcm/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 34,
+        "profilesRead": 33,
+        "profilesFailed": 1,
+        "pendingReasonCounts": {
+          "access_failed": 1
+        }
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-honorary-directory",
+      "universityId": "cuhk",
+      "unit": "化学系 · 荣誉、荣休与兼任人员",
+      "url": "https://chem.cuhk.edu.hk/people/honorary-staff/",
+      "sourceIds": [
+        "cuhk-chemistry-20261109-honorary"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "官网此分类页列 33 张人员卡。",
+      "reviewSourceIds": [
+        "cuhk-chemistry-20261109-department-programme",
+        "cuhk-chemistry-20261109-graduate-school",
+        "cuhk-chemistry-20261109-profile-28",
+        "cuhk-chemistry-20261109-profile-29",
+        "cuhk-chemistry-20261109-profile-30",
+        "cuhk-chemistry-20261109-profile-32",
+        "cuhk-chemistry-20261109-group-18",
+        "cuhk-chemistry-20261109-profile-33",
+        "cuhk-chemistry-20261109-profile-34",
+        "cuhk-chemistry-20261109-profile-35",
+        "cuhk-chemistry-20261109-profile-36",
+        "cuhk-chemistry-20261109-profile-37",
+        "cuhk-chemistry-20261109-profile-38",
+        "cuhk-chemistry-20261109-profile-39",
+        "cuhk-chemistry-20261109-profile-40",
+        "cuhk-chemistry-20261109-profile-42",
+        "cuhk-chemistry-20261109-profile-43",
+        "cuhk-chemistry-20261109-profile-45",
+        "cuhk-chemistry-20261109-profile-46",
+        "cuhk-chemistry-20261109-profile-47",
+        "cuhk-chemistry-20261109-profile-48",
+        "cuhk-chemistry-20261109-profile-49",
+        "cuhk-chemistry-20261109-profile-51",
+        "cuhk-chemistry-20261109-profile-52",
+        "cuhk-chemistry-20261109-profile-53",
+        "cuhk-chemistry-20261109-profile-54",
+        "cuhk-chemistry-20261109-profile-55",
+        "cuhk-chemistry-20261109-profile-56",
+        "cuhk-chemistry-20261109-profile-58"
+      ],
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. CHAN, Sunney Ignatius陳長謙教授",
+            "directoryPosition": "Honorary Professor of Chemistry",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/csi/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. CHAN, Kin Shing陳建成教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/cks/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. CHAN, Dominic Tak Wah陳德華教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/academic-staff/ctw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "学术名单列 Senior Lecturer，荣誉名单及个人页也列荣休教授。"
+          },
+          {
+            "name": "Professor CHOW, Hak Fun 周克勳教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/chf/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Professor LIU, Zhi Feng劉志鋒教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/lzf/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. MAK, Thomas Chung Wai 麥松威教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/mcw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. TAM, Sheung Wai譚尚渭教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/tsw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. WU, Chi吳奇教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/wc/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. XIE, Zuowei謝作偉教授",
+            "directoryPosition": "Emeritus Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/xzw/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "学术名录旧档案返回 404；荣誉名录另列可读的本人荣休档案。"
+          },
+          {
+            "name": "Prof. LO, Yuk Ming Dennis盧煜明教授",
+            "directoryPosition": "Professors by Courtesy",
+            "profileUrl": "https://www.cuhk.edu.hk/med/cpy/Research/DennisLo.htm",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. BAO, Xinhe包信和教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://dcp.ustc.edu.cn/2013/1208/c4477a39678/page.htm",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. CHAN, Tze Lock 陳子樂教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/ctl/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. CHEN, Xing陳興教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://www.chem.pku.edu.cn/en/faculty/researchareas/chemogy/94939.htm",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "原入口 TLS 握手或证书校验失败。"
+          },
+          {
+            "name": "Prof. FAN, Chunhai樊春海教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://chembioins.sjtu.edu.cn/info/1071/1393.htm",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. KAM, Tat Ting甘達庭教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/ktt/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. MA, Shengming麻生明教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://sioc.cas.cn/sourcedb/cn/team/ys/200906/t20090621_6770736.html",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "原入口 HTTP 404。"
+          },
+          {
+            "name": "Prof. SHING, Kung Ming Tony成公明教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/skm/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. TAM, Shuk Ching Elaine譚淑貞教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/tsc/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. TIAN, Zhongqun田中群教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://chem.xmu.edu.cn/en/info/1010/1788.htm",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. WAN, See Ming, Terence溫思明教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://wp.me/Pc0wf8-4OU",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. WONG, Yau Shing王友成教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://wp.chem.cuhk.edu.hk/people/honorary-staff/wys/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. YAN, C.Y. Elsa殷翠瑩教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://chem.yale.edu/people/e-chui-ying-yan",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "原入口 HTTP 404。"
+          },
+          {
+            "name": "Prof. ZHANG, Xi張希教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://www.jlu.edu.cn/info/1155/44855.htm",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. ZHAO, Jincai趙進才教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://people.ucas.ac.cn/~jczhao",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. ZHU, Shiping朱世平教授",
+            "directoryPosition": "Adjunct Professors",
+            "profileUrl": "https://www.eng.mcmaster.ca/chemeng/faculty/dr-shiping-zhu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. Chui Kuk Ying徐菊英教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/cky/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. LO, Wai Yin William盧偉賢教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/lwy/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. Man Tim On文添安教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/mto/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. PENG, Xiaoshui彭小水教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": "https://sse.cuhk.edu.cn/en/faculty/pengxiaoshui",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "原入口 TLS 握手或证书校验失败。"
+          },
+          {
+            "name": "Prof. SZE, Tung Po Eric史東甫教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": "https://chem.cuhk.edu.hk/people/honorary-staff/stp-2/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核对。"
+          },
+          {
+            "name": "Prof. KE, Zhihai柯志海教授",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileUrl": "https://sse.cuhk.edu.cn/en/faculty/kezhihai",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "原入口 TLS 握手或证书校验失败。"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Prof. Kwok Wai Him郭偉謙教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Prof. Tam Tin Lok Timothy譚天樂教授",
+            "directoryPosition": "Adjunct Associate Professors",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          }
+        ],
+        "observedTotal": 31,
+        "profilesRead": 26,
+        "profilesFailed": 5,
+        "pendingReasonCounts": {
+          "access_failed": 5
+        }
+      }
+    },
+    {
+      "id": "cuhk-chemistry-20261109-support-directory",
+      "universityId": "cuhk",
+      "unit": "化学系 · 支援人员",
+      "url": "https://chem.cuhk.edu.hk/people/supporting-staff/",
+      "sourceIds": [
+        "cuhk-chemistry-20261109-support"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "官网此分类页列 23 张人员卡。",
+      "reviewSourceIds": [
+        "cuhk-chemistry-20261109-department-programme",
+        "cuhk-chemistry-20261109-graduate-school"
+      ],
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Ms. WONG, Chun Wai Felicia王臻慧Executive Officer I",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. CHANG, Ka Ka Cathy鄭嘉嘉Project Coordinator II(MSc in Accreditation Chemistry)",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. LIU, Ka Man Kaman廖嘉敏Project Coordinator II",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. NG, Chi Ying Jeannie吳梓楹Project Coordinator II",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. YEUNG, Wai Teng Kenix楊慧婷Project Coordinator II",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. CHAU, Shuk Fan Alvis周淑芬General Clerk II",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. NG, Cheuk Hei Max吳逴晞General Clerk II",
+            "directoryPosition": "Administrative Staff",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Dr. NG, Chun Fai吳振輝博士",
+            "directoryPosition": "Scientific Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. WONG, Wai Hong黃惠康",
+            "directoryPosition": "Laboratory Technologist",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. LIN, Chun Wah連振華",
+            "directoryPosition": "Senior Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. WOO, Ka Fai吳加輝",
+            "directoryPosition": "Senior Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. CHAN, Hoi Shan Bella陳海珊",
+            "directoryPosition": "Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. KWONG, Kai Yu Albert鄺啟裕",
+            "directoryPosition": "Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. LI, Lok Yin Larry 李樂賢",
+            "directoryPosition": "Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. NG, Hau Yan Sarah吳巧恩",
+            "directoryPosition": "Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. WONG, Yiu Leung Vincent黃耀良",
+            "directoryPosition": "Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. YUE, Kwok Wan余國雲",
+            "directoryPosition": "Technicians",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. NGO, Tak Sang柯德生(Glass Blowing Workshop)",
+            "directoryPosition": "Probationary Technician",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. TSUI, Wing Yan Pamela徐永欣",
+            "directoryPosition": "Teaching Assistant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. CHICK, Siu Yin Calvin戚兆賢",
+            "directoryPosition": "Laboratory Assistants",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Mr. TANG, Wai Keung Alvin鄧偉強",
+            "directoryPosition": "Laboratory Assistants",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. YEUNG, Mui Fan Ami楊梅芬",
+            "directoryPosition": "Laboratory Assistants",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
+          },
+          {
+            "name": "Ms. KUANG, Xueai Suey鄺雪愛",
+            "directoryPosition": "Laboratory Attendant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "此分类页未提供个人档案链接。"
           }
         ],
         "observedTotal": 0,
@@ -247064,21 +250629,43 @@ window.APP_CATALOG = {
         {
           "label": "学术人员",
           "url": "https://chem.cuhk.edu.hk/people/academic-staff/",
-          "bodyStatus": "not_read",
+          "bodyStatus": "body_read",
           "availability": "unknown",
-          "supervisionEligibility": "unknown"
+          "supervisionEligibility": "unknown",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-academic"
+          ],
+          "directoryId": "cuhk-chemistry-20261109-academic-directory"
         },
         {
           "label": "荣誉人员",
           "url": "https://chem.cuhk.edu.hk/people/honorary-staff/",
-          "bodyStatus": "not_read",
+          "bodyStatus": "body_read",
           "availability": "unknown",
-          "supervisionEligibility": "unknown"
+          "supervisionEligibility": "unknown",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-honorary"
+          ],
+          "directoryId": "cuhk-chemistry-20261109-honorary-directory"
         },
         {
           "label": "MPhil-PhD研究学位",
           "url": "https://chem.cuhk.edu.hk/postgraduate/mphil-phd/",
-          "bodyStatus": "not_read",
+          "bodyStatus": "body_read",
+          "availability": "unknown",
+          "supervisionEligibility": "unknown",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-department-programme"
+          ]
+        },
+        {
+          "label": "支援人员",
+          "url": "https://chem.cuhk.edu.hk/people/supporting-staff/",
+          "bodyStatus": "body_read",
+          "sourceIds": [
+            "cuhk-chemistry-20261109-support"
+          ],
+          "directoryId": "cuhk-chemistry-20261109-support-directory",
           "availability": "unknown",
           "supervisionEligibility": "unknown"
         }
@@ -248084,5 +251671,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:22d6d0ef67d71c76d46685b046073209da7dceb3c8576f89b9fee74c0d5f6c0e"
+  "snapshotId": "sha256:604179a23799dfdfcfca5fce6e4c4f84eed6d4874af2ef18d5cb0763b7992eb0"
 };
