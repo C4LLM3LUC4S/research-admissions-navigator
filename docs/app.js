@@ -114,8 +114,26 @@
       const bottom=node('div',null,'card-bottom');append(bottom,f.recordKind==='directory_research'?(directoryEvidence?link('看院系中的研究原文 ↗',directoryEvidence.url):node('span','研究原页仍待核实','field-help')):observedProfileLink('看院系提供的老师主页 ↗',f.profileUrl,f.directorySourceIds),bookmark);card.append(bottom);
     if(f.directoryRole||f.identityNote||(f.availability||{}).text){const identity=node('details',null,'source-details appointment-details');identity.append(node('summary','任职与招生说明'));if(f.role&&f.directoryRole&&f.directoryRole!==f.role)identity.append(node('p','官网职位：'+f.directoryRole,'scope-text'));if(f.identityNote&&generalIdentityNotes.has(f.identityNote))identity.append(node('p',f.identityNote,'field-help'));if((f.availability||{}).text)identity.append(node('p',f.availability.text,'field-help'));if(f.reviewedProfileUrl&&f.reviewedProfileUrl!==f.profileUrl)identity.append(link('查看官方研究档案 ↗',f.reviewedProfileUrl));card.append(identity);}
     const related=L.facultyLinks(C,f);
-    if(related.length){const more=node('details',null,'source-details');more.append(node('summary','继续看个人主页与研究档案'));more.append(node('p','继续查看老师的个人网站、课题组和研究档案。','evidence-note'));related.forEach(item=>{append(more,item.linkIssue?node('span',item.label+'（原链接有误，待核）'):verifiedLink(item.label+' ↗',item.url),node('p',item.readNote||(item.bodyStatus==='body_read'?'已读到正文；具体名额仍需另行确认。':'已核到院系提供这个链接，正文还没整理；可以先打开继续看。'),'field-help'));});card.append(more);}
-    if((f.applicationNotes||[]).length){const notes=node('details',null,'source-details');notes.append(node('summary','导师名单、老师自述与适用范围'));notes.append(node('p','院系名单、老师个人说法和学校要求分开看。这里保留具体范围，仍需回原页核对当期安排。','evidence-note'));f.applicationNotes.forEach(item=>{append(notes,node('h4',item.label),node('p',item.text));if(item.degrees&&!item.degrees.includes(state.profile.degree))notes.append(node('p','这条说明没有覆盖当前选择的'+state.profile.degree+'，不能据此推定该学位的接收或资助。','field-help'));notes.append(evidence(item.sourceIds));});card.append(notes);}
+    if(related.length){
+      const more=node('details',null,'source-details');
+      more.append(node('summary','个人网站与课题组'));
+      related.forEach(item=>{
+        more.append(item.linkIssue?node('span',item.label+'（原链接有误，待核）'):verifiedLink(item.label+' ↗',item.url));
+        if(item.readNote)more.append(node('p',item.readNote,'field-help'));
+      });
+      card.append(more);
+    }
+    if((f.applicationNotes||[]).length){
+      const notes=node('details',null,'source-details');
+      const directionsOnly=f.applicationNotes.every(item=>item.kind==='official_supervisor_list');
+      notes.append(node('summary',directionsOnly?'研究学位指导方向':'导师与申请说明'));
+      f.applicationNotes.forEach(item=>{
+        append(notes,node('h4',item.label),node('p',item.text));
+        if(item.degrees&&!item.degrees.includes(state.profile.degree))notes.append(node('p','本条适用于 '+item.degrees.join('、')+'。','field-help'));
+        notes.append(evidence(item.sourceIds));
+      });
+      card.append(notes);
+    }
     const actions=node('div',null,'faculty-actions');append(actions,button('加入跟进待办',()=>taskForFaculty(f),'button secondary'),button('查这所学校的院系目录',()=>{state.profile.universityIds=[f.universityId];populateProfile();chooseMode('directories');showView('explore');},'button text-button'));card.append(actions);card.append(node('p','联系前，先确认这位老师对应的项目与入学轮次。','field-help'));
     card.append(evidence([...(f.sourceIds||[]),...(f.keywordSourceIds||[]),...((f.availability||{}).sourceIds||[])],'研究方向、任职和招生说明的原网页见下方。'));return card;
   }

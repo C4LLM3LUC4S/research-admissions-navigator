@@ -5491,7 +5491,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-chem-sept-2027-20261106"
+        "polyu-chem-sept-2027-20261106",
+        "polyu-chemistry-20261109-sept-supervisors",
+        "polyu-chemistry-20261109-department-programme"
       ],
       "requirements": [
         {
@@ -91104,6 +91106,2691 @@
         "text": "可先了解学域的研究学位安排。",
         "sourceIds": [
           "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-yung-ka-fu",
+      "name": "Prof. Yung Ka-fu, Joseph",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Interim Head(CHEM), Assoc. Dean(FS), DoUCEA & Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yung-ka-fu/",
+      "summary": "研究无机纳米材料、电化学、催化和可再生能源。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "无机纳米材料",
+        "电化学",
+        "催化和可再生能源",
+        "Inorganic Materials",
+        "Nanotechnology",
+        "Electronichemistry",
+        "Catalysis",
+        "Renewable Energy",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-yung-ka-fu",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-yung-ka-fu",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-wong-wing-tak",
+      "name": "Prof. Wong Wing-tak",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Deputy President and Provost & Chair Professor of Chemical Technology",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wing-tak/",
+      "summary": "研究纳米诊疗、镧系化学、分子探针与晶体结构。",
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "纳米诊疗",
+        "镧系化学",
+        "分子探针与晶体结构",
+        "Nanotheranostics",
+        "Cancer Therapy",
+        "Lanthanide Chemistry",
+        "Molecular Probe",
+        "X-Ray Crystallography",
+        "先进纳米材料",
+        "化学传感与成像"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-wong-wing-tak",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-wong-wing-tak",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、化学传感与成像。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-zheng-zijian",
+      "name": "Prof. Zheng Zijian",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Vice President (Knowledge Transfer), ADoRI-IWEAR, ADoUMF & Chair Professor of Soft Materials and Devices",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zheng-zijian/",
+      "summary": "研究可穿戴电子、纳米技术和材料表面结构调控。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "可穿戴电子",
+        "纳米技术和材料表面结构调控",
+        "Wearable Electronics",
+        "Nanotechnology",
+        "Chemistry and Materials Sciences",
+        "Controlling Surface Architechtures",
+        "先进纳米材料",
+        "高分子科学",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-zheng-zijian",
+        "polyu-chemistry-20261109-linked-prof-zheng-zijian",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-zheng-zijian",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://www.polyu.edu.hk/researchgrp/zzheng/",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-zheng-zijian",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-prof-zheng-zijian"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、高分子科学、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-wong-wai-yeung-raymond",
+      "name": "Prof. Wong Wai-yeung, Raymond",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Dean(FS), ADoRISE, Clarea Au Professor in Energy & Chair Professor of Chemical Technology",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wai-yeung-raymond/",
+      "summary": "研究无机与金属有机合成、有机电子、能源材料和传感。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "无机与金属有机合成",
+        "有机电子",
+        "能源材料和传感",
+        "Inorganic and Organometallic Syntheses",
+        "Materials Chemistry",
+        "Organic Electronics",
+        "Nanomaterials",
+        "Energy Materials",
+        "Chemo- and Biosensing",
+        "先进纳米材料",
+        "高分子科学",
+        "化学传感与成像",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-wong-wai-yeung-raymond",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-wong-wai-yeung-raymond",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、高分子科学、化学传感与成像、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-liu-dong-sheng",
+      "name": "Prof. Liu Dongsheng",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Chair Professor of Polymer Science and Chemical Biology",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-liu-dong-sheng/",
+      "summary": "研究核酸自组装、化学修饰、水凝胶与组织工程。",
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "核酸自组装",
+        "化学修饰",
+        "水凝胶与组织工程",
+        "DNA",
+        "RNA",
+        "Self-Assembly",
+        "Chemical Modification",
+        "Hydrogel",
+        "Tissue Engineering",
+        "先进纳米材料",
+        "高分子科学"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-liu-dong-sheng",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-liu-dong-sheng",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、高分子科学。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-wang-lianzhou",
+      "name": "Prof. Wang Lianzhou",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Chair Professor of Energy Materials (Global STEM Professorship Scheme)",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wang-lianzhou/",
+      "summary": "研究半导体纳米材料、太阳燃料、人工光合作用与储能。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "半导体纳米材料",
+        "太阳燃料",
+        "人工光合作用与储能",
+        "Semiconductor Nanomaterials",
+        "Renewable Energy Technologies",
+        "Solar Fuels",
+        "Greenhouse Gas Conversion",
+        "Artificial Photosynthesis",
+        "Eco-friendly Solar Cells",
+        "Rechargeable Batteries",
+        "Integrated Energy Conversion and Storage",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-wang-lianzhou",
+        "polyu-chemistry-20261109-linked-prof-wang-lianzhou",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-wang-lianzhou",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://www.polyu-wanglab.hk/",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-wang-lianzhou",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-prof-wang-lianzhou"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-leung-kc-franco",
+      "name": "Prof. Leung King-chi, Franco",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assoc. Head (CHEM) & Associate Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-leung-kc-franco/",
+      "summary": "研究超分子组装、分子机器、软体机器人材料与生物材料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "超分子组装",
+        "分子机器",
+        "软体机器人材料与生物材料",
+        "Supramolecular Assembly",
+        "Molecular Machinery",
+        "Soft Robotic Material",
+        "Biomedical Material",
+        "Supramolecular Dynamics",
+        "先进纳米材料",
+        "高分子科学"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-leung-kc-franco",
+        "polyu-chemistry-20261109-linked-prof-leung-kc-franco",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-leung-kc-franco",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "http://francokingchileung.com/",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-leung-kc-franco",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-prof-leung-kc-franco"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、高分子科学。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-lo-tw-benedict",
+      "name": "Prof. Lo Tsz-woon, Benedict",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assoc. Head (CHEM) & Associate Professor (Presidential Young Scholar)",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lo-tw-benedict/",
+      "summary": "研究催化、功能材料、同步辐射及中子表征。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "催化",
+        "功能材料",
+        "同步辐射及中子表征",
+        "Catalysis",
+        "Functional Materials",
+        "Synchrotron and Neutron Diffraction and Scattering",
+        "Structure-reactivity Functions",
+        "In situ and operando techniques",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-lo-tw-benedict",
+        "polyu-chemistry-20261109-linked-prof-lo-tw-benedict",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-lo-tw-benedict",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://benlogroup.wordpress.com",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-lo-tw-benedict",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-prof-lo-tw-benedict"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-so-chau-ming",
+      "name": "Prof. So Chau-ming",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assoc. Head (CHEM) & Associate Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-so-chau-ming/",
+      "summary": "研究配体合成、选择性催化与有机合成。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "配体合成",
+        "选择性催化与有机合成",
+        "New Ligand Syntheses",
+        "Site- and Chemo-selective Catalysis",
+        "Asymmetric Catalysis",
+        "Pharmaceuticals and Functional Materials Synthesis",
+        "Organic Chemistry",
+        "先进纳米材料",
+        "人工智能驱动的绿色化学与催化"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-so-chau-ming",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-so-chau-ming",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、人工智能驱动的绿色化学与催化。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-law-ga-lai",
+      "name": "Prof. Ga-lai Law",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Wong Ying Ying Professor in Lanthanide Chemistry & Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-law-ga-lai/",
+      "summary": "研究镧系化学、分子探针、发光材料和分子诊疗。",
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "镧系化学",
+        "分子探针",
+        "发光材料和分子诊疗",
+        "Lanthanide Chemistry",
+        "Molecular Probe/Imaging",
+        "Lanthanide Supramolecular Assemblies",
+        "New Functional Lanthanide Luminescent Materials",
+        "Molecular/Nanotheranostics",
+        "Photophysical Properties of Elements such as CPL",
+        "先进纳米材料",
+        "化学传感与成像",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-law-ga-lai",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-law-ga-lai",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、化学传感与成像、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-lawrence-yoon-suk-lee",
+      "name": "Prof. Lawrence Yoon Suk Lee",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lawrence-yoon-suk-lee/",
+      "summary": "研究电化学、光电催化、金属离子电池及电解槽。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "电化学",
+        "光电催化",
+        "金属离子电池及电解槽",
+        "Electrochemistry",
+        "Nanochemistry",
+        "Photo-electrocatalysis",
+        "Metal-ion Batteries",
+        "Water Electrolyzer",
+        "Fuel Cell",
+        "Upcycling Waste Batteries",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-lawrence-yoon-suk-lee",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-lawrence-yoon-suk-lee",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-pauline-p-li",
+      "name": "Prof. Li Pei",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-pauline-p-li/",
+      "summary": "研究高分子化学、纳米材料和功能材料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "高分子化学",
+        "纳米材料和功能材料",
+        "Polymer Chemistry",
+        "Nanomaterials and Their Applications",
+        "Functional Materials"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-pauline-p-li"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-pauline-p-li"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-michael-yu",
+      "name": "Prof. Yu Wing-yiu, Michael",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-michael-yu/",
+      "summary": "研究催化、有机合成、金属有机化学和对映选择性反应。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "催化",
+        "有机合成",
+        "金属有机化学和对映选择性反应",
+        "Catalysis",
+        "Organic Synthesis",
+        "Organometallic Chemistry",
+        "Enantioselective Reactions",
+        "人工智能驱动的绿色化学与催化"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-michael-yu",
+        "polyu-chemistry-20261109-linked-prof-michael-yu",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-michael-yu",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://wyyugroup.wixsite.com/michael-yu",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-michael-yu",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-prof-michael-yu"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-zhu-xunjin",
+      "name": "Prof. Zhu Xun-jin",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zhu-xunjin/",
+      "summary": "研究卟啉、共价有机框架、光电催化与金属离子电池。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "卟啉",
+        "共价有机框架",
+        "光电催化与金属离子电池",
+        "Porphyrin Chemistry",
+        "Covalent Organic Frameworks",
+        "Photocatalysis",
+        "Electrocatalysis",
+        "Metal Ion Battery",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-zhu-xunjin",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-zhu-xunjin",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-chen-di",
+      "name": "Prof. Chen Di",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Associate Professor (Presidential Young Scholar)",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-chen-di/",
+      "summary": "研究表界面反应、电催化、原位表征与高温燃料电池。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "表界面反应",
+        "电催化",
+        "原位表征与高温燃料电池",
+        "Surface and Interface Reactions",
+        "Electrocatalysis",
+        "Operando Characterization",
+        "Functional Oxides",
+        "High-Temperature Fuel Cells"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-chen-di"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-chen-di"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-ho-cheuk-lam",
+      "name": "Prof. Ho Cheuk-lam",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ho-cheuk-lam/",
+      "summary": "研究光催化、光伏、光电材料与纳米图案化。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "光催化",
+        "光伏",
+        "光电材料与纳米图案化",
+        "Photocatalysis",
+        "Photovoltaics",
+        "Optoelectronics",
+        "Nanomaterials and Patterning",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-ho-cheuk-lam",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-ho-cheuk-lam",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-han-suting",
+      "name": "Prof. Han Suting",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-han-suting/",
+      "summary": "研究有机电子、存储器件、神经形态与传感内计算。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "有机电子",
+        "存储器件",
+        "神经形态与传感内计算",
+        "Organic Electronics",
+        "Memory Devices (Flash & Memristor)",
+        "Neuromorphic Computing, In-Sensor Computing for Artificial Intelligence",
+        "化学传感与成像",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-han-suting",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-han-suting",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：化学传感与成像、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-ge-jingjie",
+      "name": "Prof. Ge Jingjie",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ge-jingjie/",
+      "summary": "研究纳米材料、纳米酶、催化与能源应用。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "纳米材料",
+        "纳米酶",
+        "催化与能源应用",
+        "Nanomaterials",
+        "Nanozymes",
+        "Catalysis",
+        "Energy",
+        "先进纳米材料",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-ge-jingjie",
+        "polyu-chemistry-20261109-linked-prof-ge-jingjie",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-ge-jingjie",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://jingjiegegroup.wixsite.com/mysite",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-ge-jingjie",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-prof-ge-jingjie"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、人工智能驱动的绿色化学与催化、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-tian-tian",
+      "name": "Prof. Tian Tian",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tian-tian/",
+      "summary": "研究金属有机框架、功能多孔材料与二氧化碳还原。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "金属有机框架",
+        "功能多孔材料与二氧化碳还原",
+        "Metal-organic Framework",
+        "Functional Porous Materials",
+        "Nanomaterials",
+        "Carbon Dioxide Reduction",
+        "先进纳米材料",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-tian-tian",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-tian-tian",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-xu-linli",
+      "name": "Prof. Xu Linli",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-xu-linli/",
+      "summary": "研究高分子加工、热管理、碳转化与可持续燃料。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "高分子加工",
+        "热管理",
+        "碳转化与可持续燃料",
+        "Functional Nanomaterials",
+        "Polymer Materials",
+        "Polymer Processing",
+        "Theraml Management",
+        "Carbon Conversion",
+        "Sustainable Fuels",
+        "Optoelectromagnetic",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-xu-linli",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-xu-linli",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-prof-yu-han",
+      "name": "Prof. Yu Han",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yu-han/",
+      "summary": "研究高分子与有机化学、有机电子及太阳能电池。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "高分子与有机化学",
+        "有机电子及太阳能电池",
+        "Polymer Chemistry",
+        "Organic Chemistry",
+        "Material Chemistry",
+        "Organic Electronics",
+        "Organic Solar Cells",
+        "Perovskite Solar Cells",
+        "Renewable Energy",
+        "Photo Conversional Applications",
+        "高分子科学",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-prof-yu-han",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-yu-han",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://www.researchgate.net/profile/Han-Yu-15?ev=hdr_xprf",
+          "parentSourceId": "polyu-chemistry-20261109-profile-prof-yu-han",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：高分子科学、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-bodedla-govardhana-babu",
+      "name": "Dr Bodedla Govardhana Babu",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-bodedla-govardhana-babu/",
+      "summary": "研究水分解、过氧化氢制备、二氧化碳还原与污染物降解。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "水分解",
+        "过氧化氢制备",
+        "二氧化碳还原与污染物降解",
+        "Water Splitting",
+        "H₂O₂ Production",
+        "CO₂ Reduction",
+        "Degradation of Organic Pollutants",
+        "Organic Transformations",
+        "高分子科学",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-bodedla-govardhana-babu",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-bodedla-govardhana-babu",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：高分子科学、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-chau-ho-fai",
+      "name": "Dr Chau Ho-fai, Antony",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chau-ho-fai/",
+      "summary": "研究抗癌诊疗、噬菌体工程与分子成像。",
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "抗癌诊疗",
+        "噬菌体工程与分子成像",
+        "Anti-cancer Theranostic Agent",
+        "Bacteriophage Engineering",
+        "Molecular Imaging",
+        "先进纳米材料",
+        "化学传感与成像"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-chau-ho-fai",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-chau-ho-fai",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、化学传感与成像。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-chen-tianxiang",
+      "name": "Dr Chen Tianxiang",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chen-tianxiang/",
+      "summary": "研究学位项目页将这位老师列在人工智能驱动的绿色化学与催化方向。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "人工智能驱动的绿色化学与催化"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-chen-tianxiang",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-li-guangchao",
+      "name": "Dr Li Guangchao",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-guangchao/",
+      "summary": "研究多孔与功能材料、固态核磁、同步辐射和中子表征。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "多孔与功能材料",
+        "固态核磁",
+        "同步辐射和中子表征",
+        "Porous and Functional Materials",
+        "CO2 Reduction with Green Ammonia",
+        "Solid State NMR Application",
+        "Synchrotron and Neutron Techniques",
+        "人工智能驱动的绿色化学与催化"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-li-guangchao",
+        "polyu-chemistry-20261109-linked-dr-li-guangchao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-li-guangchao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://lilabpolyu.wordpress.com/",
+          "parentSourceId": "polyu-chemistry-20261109-profile-dr-li-guangchao",
+          "bodyStatus": "body_read",
+          "sourceId": "polyu-chemistry-20261109-linked-dr-li-guangchao"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-li-hefei",
+      "name": "Dr Li Hefei",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-hefei/",
+      "summary": "研究二氧化碳和一氧化碳电解、界面工程与串联催化。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "二氧化碳和一氧化碳电解",
+        "界面工程与串联催化",
+        "CO₂",
+        "CO Electrolysis",
+        "Interface Engineering",
+        "Electrolyzer Design",
+        "Tandem Catalysis"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-li-hefei"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-li-hefei"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-liang-wenhao",
+      "name": "Dr Liang Wenhao",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-liang-wenhao/",
+      "summary": "研究可充电电池、太阳能电池与光电催化。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "可充电电池",
+        "太阳能电池与光电催化",
+        "Rechargeable Battery",
+        "Solar Cell",
+        "Photoelectrocatalysis",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-liang-wenhao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-liang-wenhao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-lin-cong",
+      "name": "Dr Lin Cong",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lin-cong/",
+      "summary": "研究能源催化、结构与性能关系、晶体表征。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "能源催化",
+        "结构与性能关系",
+        "晶体表征",
+        "Catalysis and Energy",
+        "Structure Understanding",
+        "Structure-Performance Correlations",
+        "X-Ray/Electron Crystallography",
+        "Advanced Characterizations",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-lin-cong",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-lin-cong",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系提供的个人或研究网站",
+          "url": "https://www.researchgate.net/profile/Cong-Lin-3",
+          "parentSourceId": "polyu-chemistry-20261109-profile-dr-lin-cong",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-song-jiajun",
+      "name": "Dr Song Jiajun",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-song-jiajun/",
+      "summary": "研究混合离子电子导体、二维框架和有机电化学晶体管。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "混合离子电子导体",
+        "二维框架和有机电化学晶体管",
+        "Mixed ionic–electronic conductors",
+        "2D metal–organic frameworks",
+        "2D covalent organic frameworks",
+        "Organic electrochemical transistors",
+        "Bioelectronics",
+        "Neuromorphic electronics",
+        "高分子科学",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-song-jiajun",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-song-jiajun",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：高分子科学、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-sun-zelin",
+      "name": "Dr Sun Zelin",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-sun-zelin/",
+      "summary": "研究热电材料、有机金属聚合物与热电转换。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "热电材料",
+        "有机金属聚合物与热电转换",
+        "Thermoelectric Materials",
+        "Organometallic Polymer",
+        "Small-molecule Material",
+        "Thermoelectric Generator",
+        "TE conversion Efficiency",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-sun-zelin",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-sun-zelin",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-wang-kai",
+      "name": "Dr Wang Kai",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-kai/",
+      "summary": "研究压电催化、光催化、钙钛矿氧化物与解聚。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "压电催化",
+        "光催化",
+        "钙钛矿氧化物与解聚",
+        "Piezocatalysis",
+        "Photocatalysis",
+        "Perovskite Oxides",
+        "Depolymerization",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-wang-kai",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-wang-kai",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-wang-tao",
+      "name": "Dr Wang Tao",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-tao/",
+      "summary": "研究热活化延迟荧光、有机发光二极管和溶液加工。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "热活化延迟荧光",
+        "有机发光二极管和溶液加工",
+        "Thermally Activated Delayed Fluorescence",
+        "Multi-resonance",
+        "Organic Light-emitting Diode",
+        "Polymer",
+        "Solution-processing",
+        "高分子科学",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-wang-tao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-wang-tao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：高分子科学、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      },
+      "identityNote": "化学系王涛是从事有机发光研究的研究助理教授，与土木及环境工程学系的大气环境讲座教授为不同个人档案。"
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-wang-yang",
+      "name": "Dr Wang Yang",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yang/",
+      "summary": "研究量子点、共价有机框架、光电化学催化与碳还原。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "量子点",
+        "共价有机框架",
+        "光电化学催化与碳还原",
+        "Quantum Dots",
+        "Covalent Organic Frameworks",
+        "Photo/electrochemical Catalysis",
+        "Carbon Dioxide Reduction",
+        "High-value-added Reactions of Small Molecules",
+        "高分子科学",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-wang-yang",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-wang-yang",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：高分子科学、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-wang-yidi",
+      "name": "Dr Wang Yidi",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yidi/",
+      "summary": "研究光电催化、金属与共价有机框架及钙钛矿纳米晶。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "光电催化",
+        "金属与共价有机框架及钙钛矿纳米晶",
+        "Photo/Electrocatalysis",
+        "Metal/Covalent Organic Frameworks",
+        "Perovskite Nanocrystals",
+        "Carbon Dioxide Reduction",
+        "Energy Storage and Conversion",
+        "人工智能驱动的绿色化学与催化",
+        "高分子科学",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-wang-yidi",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-wang-yidi",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、高分子科学、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-xie-chen",
+      "name": "Dr Xie Chen",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-xie-chen/",
+      "summary": "研究镧系材料、放射动力疗法、光谱化学与药物研发。",
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "镧系材料",
+        "放射动力疗法",
+        "光谱化学与药物研发",
+        "Lanthanide Materials",
+        "Radiodynamic Therapy",
+        "Spectroscopic Chemistry",
+        "Drug Development",
+        "先进纳米材料",
+        "化学传感与成像"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-xie-chen",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-xie-chen",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、化学传感与成像。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-zhang-miao",
+      "name": "Dr Zhang Miao",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-miao/",
+      "summary": "研究有机光电、金属配合物、三重态激子和太阳能转换。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "有机光电",
+        "金属配合物",
+        "三重态激子和太阳能转换",
+        "Organic Photoelectrics",
+        "Metal Complex",
+        "Organic Polymer",
+        "Triplet Exciton",
+        "Solar Energy Conversion",
+        "Photovoltaics",
+        "Solar Evaporator",
+        "Organic Memristor",
+        "高分子科学",
+        "储能与能量转换技术",
+        "光子与光电材料"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-zhang-miao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-zhang-miao",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：高分子科学、储能与能量转换技术、光子与光电材料。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-zhang-xinyuan",
+      "name": "Dr Zhang Xinyuan",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-xinyuan/",
+      "summary": "研究学位项目页将这位老师列在先进纳米材料、高分子科学方向。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "先进纳米材料",
+        "高分子科学"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-zhang-xinyuan",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：先进纳米材料、高分子科学。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-zhang-yufei",
+      "name": "Dr Zhang Yufei",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-yufei/",
+      "summary": "研究柔性电子、智能穿戴、电子纺织品与超分子聚合物。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "柔性电子",
+        "智能穿戴",
+        "电子纺织品与超分子聚合物",
+        "Soft Electronics",
+        "Smart Wearables",
+        "Electronic Textiles",
+        "Electronic Skin",
+        "Nanofibrous Materials",
+        "Supramolecular Polymers",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-zhang-yufei",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-zhang-yufei",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-dr-zhou-junhua",
+      "name": "Dr Zhou Junhua",
+      "universityId": "polyu",
+      "department": "化学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhou-junhua/",
+      "summary": "研究高电压锂金属电池、锂硫电池、固态电池与表征。",
+      "topics": [
+        "物理与化学",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "高电压锂金属电池",
+        "锂硫电池",
+        "固态电池与表征",
+        "High-voltage Li Metal Battery",
+        "Li-S Battery",
+        "Solid-state Battery",
+        "Advanced Characterization Techniques",
+        "人工智能驱动的绿色化学与催化",
+        "储能与能量转换技术"
+      ],
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic",
+        "polyu-chemistry-20261109-profile-dr-zhou-junhua",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "directorySourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-zhou-junhua",
+        "polyu-chemistry-20261109-sept-supervisors"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "2027 年 9 月项目页所列方向",
+          "text": "项目在以下方向列出这位老师：人工智能驱动的绿色化学与催化、储能与能量转换技术。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-chemistry-20261109-sept-supervisors"
+          ],
+          "mentionedIntakes": [
+            {
+              "cycle": "2027/28",
+              "intake": "2027 Fall"
+            }
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
+        "sourceIds": [
+          "polyu-chemistry-20261109-sept-supervisors"
         ]
       }
     }
@@ -192844,6 +195531,1590 @@
       "bodySha256": "eb37213750a4eb6b8a096e7ffcdb851c70bf88e4550041445df7e8b30f346e9c",
       "discoveredLinks": [],
       "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/495"
+    },
+    {
+      "id": "polyu-chemistry-20261109-sept-supervisors",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/chem",
+      "title": "港理工化学 · 2027 年 9 月研究学位与指导教师分组",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027 年 9 月入学的 MPhil 和 PhD 项目页在六个主题下列 Supervisor，经同一人员跨主题去重后为 36 位。项目页所列指导教师与实际接收安排分开。",
+      "claims": [
+        "2027 年 9 月入学的 MPhil 和 PhD 项目页在六个主题下列 Supervisor，经同一人员跨主题去重后为 36 位。项目页所列指导教师与实际接收安排分开。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/study/pg/rpg/2027/chem"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5047f449578cf147889bf581a7e230064965e71397c294adaf9255e7182bbb2f"
+    },
+    {
+      "id": "polyu-chemistry-20261109-department-programme",
+      "url": "https://www.polyu.edu.hk/chem/study/research-postgraduate-programme/research-postgraduate-programme/",
+      "title": "港理工化学系 · 研究学位",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学系说明 MPhil、PhD、研究生资助与研究训练，申请与费用按研究院项目页核对。",
+      "claims": [
+        "学系说明 MPhil、PhD、研究生资助与研究训练，申请与费用按研究院项目页核对。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "87f6be78fa312c026de387252ffb245425d1b196f6191b42e66e343be2f5420c"
+    },
+    {
+      "id": "polyu-chemistry-20261109-academic",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/",
+      "title": "港理工化学系 · 学术人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系当前分类页列 45 张人员卡。",
+      "claims": [
+        "院系当前分类页列 45 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yung-ka-fu/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wing-tak/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zheng-zijian/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wai-yeung-raymond/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-liu-dong-sheng/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wang-lianzhou/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-leung-kc-franco/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lo-tw-benedict/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-so-chau-ming/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-law-ga-lai/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lawrence-yoon-suk-lee/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-pauline-p-li/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-michael-yu/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zhu-xunjin/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-chen-di/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ho-cheuk-lam/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-han-suting/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ge-jingjie/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tian-tian/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-xu-linli/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yu-han/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-bodedla-govardhana-babu/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chau-ho-fai/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chen-tianxiang/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-guangchao/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-hefei/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-liang-wenhao/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lin-cong/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-song-jiajun/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-sun-zelin/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-huimin/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-kai/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-tao/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yang/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yidi/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-xie-chen/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-miao/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-xinyuan/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-yufei/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhou-junhua/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-cheung-kwong-chak/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lam-kim-hung/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-choi-koon-kay/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tang-wai-tong-gary/",
+        "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wang-wah/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dd5b31bdf38c3a2075cca70efa9fb9aa53c375f2d3ae21d239ac6b1b53a497b6"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-yung-ka-fu",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yung-ka-fu/",
+      "title": "Prof. Yung Ka-fu, Joseph · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Interim Head(CHEM), Assoc. Dean(FS), DoUCEA & Professor。研究方向包括无机纳米材料、电化学、催化和可再生能源。",
+      "claims": [
+        "院系列示任职：Interim Head(CHEM), Assoc. Dean(FS), DoUCEA & Professor。研究方向包括无机纳米材料、电化学、催化和可再生能源。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fcf86285ffafdb1fa1e0261b24c8327a5a25d2e6e4f90553f20008f35720142e"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-wong-wing-tak",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wing-tak/",
+      "title": "Prof. Wong Wing-tak · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Deputy President and Provost & Chair Professor of Chemical Technology。研究方向包括纳米诊疗、镧系化学、分子探针与晶体结构。",
+      "claims": [
+        "院系列示任职：Deputy President and Provost & Chair Professor of Chemical Technology。研究方向包括纳米诊疗、镧系化学、分子探针与晶体结构。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f578c7f2d77adea9808b7e08934743e59a0dfb9ae64f66003561a7cc984bf554"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-zheng-zijian",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zheng-zijian/",
+      "title": "Prof. Zheng Zijian · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Vice President (Knowledge Transfer), ADoRI-IWEAR, ADoUMF & Chair Professor of Soft Materials and Devices。研究方向包括可穿戴电子、纳米技术和材料表面结构调控。",
+      "claims": [
+        "院系列示任职：Vice President (Knowledge Transfer), ADoRI-IWEAR, ADoUMF & Chair Professor of Soft Materials and Devices。研究方向包括可穿戴电子、纳米技术和材料表面结构调控。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/researchgrp/zzheng/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1e440fa01c2e442c7c355cd845bbe24fe1448a2f72bc4440fc88e6b7bdc5b1a8"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-prof-zheng-zijian",
+      "url": "https://www.polyu.edu.hk/researchgrp/zzheng/",
+      "title": "Prof. Zheng Zijian · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组介绍郑子剑的研究、成员及研究成果。",
+      "claims": [
+        "课题组介绍郑子剑的研究、成员及研究成果。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0030b94b0b721ddc177a48dc49db3c47f1bc90b2b244e4c86b99edae3bfbb0d7",
+      "parentSourceId": "polyu-chemistry-20261109-profile-prof-zheng-zijian",
+      "originalUrl": "https://www.polyu.edu.hk/researchgrp/zzheng/",
+      "retrievedUrl": "https://www.polyu.edu.hk/researchgrp/zzheng/"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-wong-wai-yeung-raymond",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wai-yeung-raymond/",
+      "title": "Prof. Wong Wai-yeung, Raymond · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Dean(FS), ADoRISE, Clarea Au Professor in Energy & Chair Professor of Chemical Technology。研究方向包括无机与金属有机合成、有机电子、能源材料和传感。",
+      "claims": [
+        "院系列示任职：Dean(FS), ADoRISE, Clarea Au Professor in Energy & Chair Professor of Chemical Technology。研究方向包括无机与金属有机合成、有机电子、能源材料和传感。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "60fac47aeab4d01b090b428b7719ddaa1aa7e0343736aaa537be382d246bdc15"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-liu-dong-sheng",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-liu-dong-sheng/",
+      "title": "Prof. Liu Dongsheng · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Chair Professor of Polymer Science and Chemical Biology。研究方向包括核酸自组装、化学修饰、水凝胶与组织工程。",
+      "claims": [
+        "院系列示任职：Chair Professor of Polymer Science and Chemical Biology。研究方向包括核酸自组装、化学修饰、水凝胶与组织工程。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ce7b702e6697ef76557063cf03ff83b4a2beb4f92b7fe61fb781739809509162"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-wang-lianzhou",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wang-lianzhou/",
+      "title": "Prof. Wang Lianzhou · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Chair Professor of Energy Materials (Global STEM Professorship Scheme)。研究方向包括半导体纳米材料、太阳燃料、人工光合作用与储能。",
+      "claims": [
+        "院系列示任职：Chair Professor of Energy Materials (Global STEM Professorship Scheme)。研究方向包括半导体纳米材料、太阳燃料、人工光合作用与储能。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu-wanglab.hk/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1474d8147d0b16d5e82ce2e461b87e3356b534c159f74f22c4b170198d7422d0"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-prof-wang-lianzhou",
+      "url": "https://www.polyu-wanglab.hk/",
+      "title": "Prof. Wang Lianzhou · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组介绍人工光合作用及科研项目。",
+      "claims": [
+        "课题组介绍人工光合作用及科研项目。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dced738b171c6a91c465ce9dfe0b52832bcf39fd71528631c69208656b60db10",
+      "parentSourceId": "polyu-chemistry-20261109-profile-prof-wang-lianzhou",
+      "originalUrl": "https://www.polyu-wanglab.hk/",
+      "retrievedUrl": "https://www.polyu-wanglab.hk/"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-leung-kc-franco",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-leung-kc-franco/",
+      "title": "Prof. Leung King-chi, Franco · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assoc. Head (CHEM) & Associate Professor。研究方向包括超分子组装、分子机器、软体机器人材料与生物材料。",
+      "claims": [
+        "院系列示任职：Assoc. Head (CHEM) & Associate Professor。研究方向包括超分子组装、分子机器、软体机器人材料与生物材料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://francokingchileung.com/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8201094145f76d2230e57af9778e45470e66b0e5496a202fbed703cf03bd8935"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-prof-leung-kc-franco",
+      "url": "https://francokingchileung.com/",
+      "title": "Prof. Leung King-chi, Franco · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组网站列超分子材料相关研究。",
+      "claims": [
+        "课题组网站列超分子材料相关研究。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3ecfcbb34ea985786c3ff8ec67904aa2318785acbe4e207509cfbccbdf6859b3",
+      "parentSourceId": "polyu-chemistry-20261109-profile-prof-leung-kc-franco",
+      "originalUrl": "http://francokingchileung.com/",
+      "retrievedUrl": "https://francokingchileung.com/"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-lo-tw-benedict",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lo-tw-benedict/",
+      "title": "Prof. Lo Tsz-woon, Benedict · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assoc. Head (CHEM) & Associate Professor (Presidential Young Scholar)。研究方向包括催化、功能材料、同步辐射及中子表征。",
+      "claims": [
+        "院系列示任职：Assoc. Head (CHEM) & Associate Professor (Presidential Young Scholar)。研究方向包括催化、功能材料、同步辐射及中子表征。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://benlogroup.wordpress.com"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "587bdaf022439673f248c40177bec1781bd092b2f45602a234aac4d59a19e6fe"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-prof-lo-tw-benedict",
+      "url": "https://benlogroup.wordpress.com",
+      "title": "Prof. Lo Tsz-woon, Benedict · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组列固态化学、催化研究及成员。",
+      "claims": [
+        "课题组列固态化学、催化研究及成员。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "65dd68c2d88654cfded5427708eeb32d56c65e8f976105e616ebbeb04e908e18",
+      "parentSourceId": "polyu-chemistry-20261109-profile-prof-lo-tw-benedict",
+      "originalUrl": "https://benlogroup.wordpress.com",
+      "retrievedUrl": "https://benlogroup.wordpress.com"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-so-chau-ming",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-so-chau-ming/",
+      "title": "Prof. So Chau-ming · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assoc. Head (CHEM) & Associate Professor。研究方向包括配体合成、选择性催化与有机合成。",
+      "claims": [
+        "院系列示任职：Assoc. Head (CHEM) & Associate Professor。研究方向包括配体合成、选择性催化与有机合成。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "26acd23579282e7c2af957c60c2850877bc02bd41581a1378fdce312bff164a5"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-law-ga-lai",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-law-ga-lai/",
+      "title": "Prof. Ga-lai Law · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Wong Ying Ying Professor in Lanthanide Chemistry & Professor。研究方向包括镧系化学、分子探针、发光材料和分子诊疗。",
+      "claims": [
+        "院系列示任职：Wong Ying Ying Professor in Lanthanide Chemistry & Professor。研究方向包括镧系化学、分子探针、发光材料和分子诊疗。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4f3619888f90825fa197fe030cd809f8cd5ff445e39f3db486642623a317b251"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-lawrence-yoon-suk-lee",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lawrence-yoon-suk-lee/",
+      "title": "Prof. Lawrence Yoon Suk Lee · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor。研究方向包括电化学、光电催化、金属离子电池及电解槽。",
+      "claims": [
+        "院系列示任职：Professor。研究方向包括电化学、光电催化、金属离子电池及电解槽。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "256b0c28c9649bc36fbfe6863c9f681dd226d884c52f064406beec03c223cdbc"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-pauline-p-li",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-pauline-p-li/",
+      "title": "Prof. Li Pei · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor。研究方向包括高分子化学、纳米材料和功能材料。",
+      "claims": [
+        "院系列示任职：Professor。研究方向包括高分子化学、纳米材料和功能材料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "025e8bf7d58d4b4000ab4c5ad3a37ca44d637d463e849524a1657d47a5aedc60"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-michael-yu",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-michael-yu/",
+      "title": "Prof. Yu Wing-yiu, Michael · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor。研究方向包括催化、有机合成、金属有机化学和对映选择性反应。",
+      "claims": [
+        "院系列示任职：Professor。研究方向包括催化、有机合成、金属有机化学和对映选择性反应。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://wyyugroup.wixsite.com/michael-yu"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "03e3fa770ac8121c42f0928da3c728c7670bd71baee4a265ca16beede5cfea74"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-prof-michael-yu",
+      "url": "https://wyyugroup.wixsite.com/michael-yu",
+      "title": "Prof. Yu Wing-yiu, Michael · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "个人课题组页列研究、论文和组员。",
+      "claims": [
+        "个人课题组页列研究、论文和组员。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3964f0a4080f6c10e04b9380259b32c6d400ba80d91c990a5ba52cc3b69c49d0",
+      "parentSourceId": "polyu-chemistry-20261109-profile-prof-michael-yu",
+      "originalUrl": "https://wyyugroup.wixsite.com/michael-yu",
+      "retrievedUrl": "https://wyyugroup.wixsite.com/michael-yu"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-zhu-xunjin",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zhu-xunjin/",
+      "title": "Prof. Zhu Xun-jin · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor。研究方向包括卟啉、共价有机框架、光电催化与金属离子电池。",
+      "claims": [
+        "院系列示任职：Professor。研究方向包括卟啉、共价有机框架、光电催化与金属离子电池。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bf535bcbe1e7bd5ec2ffb348b28b15d3a1a9130d9b248a642f273fe18306e266"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-chen-di",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-chen-di/",
+      "title": "Prof. Chen Di · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Associate Professor (Presidential Young Scholar)。研究方向包括表界面反应、电催化、原位表征与高温燃料电池。",
+      "claims": [
+        "院系列示任职：Associate Professor (Presidential Young Scholar)。研究方向包括表界面反应、电催化、原位表征与高温燃料电池。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2c80dcc982b87a75374d83f5c243af2141fc619898ca50880d32b309c8be284f"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-ho-cheuk-lam",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ho-cheuk-lam/",
+      "title": "Prof. Ho Cheuk-lam · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Associate Professor。研究方向包括光催化、光伏、光电材料与纳米图案化。",
+      "claims": [
+        "院系列示任职：Associate Professor。研究方向包括光催化、光伏、光电材料与纳米图案化。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a38c628b1382bf7163ecf5d1a9e6871d62519e4056278650d4b8056984d2cc61"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-han-suting",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-han-suting/",
+      "title": "Prof. Han Suting · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Associate Professor。研究方向包括有机电子、存储器件、神经形态与传感内计算。",
+      "claims": [
+        "院系列示任职：Associate Professor。研究方向包括有机电子、存储器件、神经形态与传感内计算。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9712451dddf1049451a5d6d157b3818a8e4a2a19c9b345b05f942a03c790d9a2"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-ge-jingjie",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ge-jingjie/",
+      "title": "Prof. Ge Jingjie · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Professor。研究方向包括纳米材料、纳米酶、催化与能源应用。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究方向包括纳米材料、纳米酶、催化与能源应用。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://jingjiegegroup.wixsite.com/mysite"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "24f4fa73ec22b96a4609868d1b368620ccdd0fd677b9b0eb64d0c0274e91edb1"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-prof-ge-jingjie",
+      "url": "https://jingjiegegroup.wixsite.com/mysite",
+      "title": "Prof. Ge Jingjie · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组介绍纳米催化、纳米材料和纳米酶。",
+      "claims": [
+        "课题组介绍纳米催化、纳米材料和纳米酶。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8863d72e337304c6e32df03162005a934ceea82ec97fdff0698eaba786f7b890",
+      "parentSourceId": "polyu-chemistry-20261109-profile-prof-ge-jingjie",
+      "originalUrl": "https://jingjiegegroup.wixsite.com/mysite",
+      "retrievedUrl": "https://jingjiegegroup.wixsite.com/mysite"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-tian-tian",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tian-tian/",
+      "title": "Prof. Tian Tian · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Professor。研究方向包括金属有机框架、功能多孔材料与二氧化碳还原。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究方向包括金属有机框架、功能多孔材料与二氧化碳还原。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3823e8fc78fd58efe996e4df9966c8ac51b051bcbe77e07358c7d622f7e8724f"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-xu-linli",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-xu-linli/",
+      "title": "Prof. Xu Linli · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Professor。研究方向包括高分子加工、热管理、碳转化与可持续燃料。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究方向包括高分子加工、热管理、碳转化与可持续燃料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "868cd361b0144b3f7e2dbf6d99e9f322e9b08ad6937939238eea3dfbf060eeeb"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-yu-han",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yu-han/",
+      "title": "Prof. Yu Han · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Professor。研究方向包括高分子与有机化学、有机电子及太阳能电池。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究方向包括高分子与有机化学、有机电子及太阳能电池。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.researchgate.net/profile/Han-Yu-15?ev=hdr_xprf"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "eed06ef561e6cb095f2c5110e38975f891930417acd036aebb10fbf1a6e38f40"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-bodedla-govardhana-babu",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-bodedla-govardhana-babu/",
+      "title": "Dr Bodedla Govardhana Babu · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括水分解、过氧化氢制备、二氧化碳还原与污染物降解。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括水分解、过氧化氢制备、二氧化碳还原与污染物降解。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3edba8ee3ab05133c2270c1ef532a951f52d06731daa45298fa5937025145669"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-chau-ho-fai",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chau-ho-fai/",
+      "title": "Dr Chau Ho-fai, Antony · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括抗癌诊疗、噬菌体工程与分子成像。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括抗癌诊疗、噬菌体工程与分子成像。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2215320bbe74326f71e0d1215f7d38ddc1c04c178ad67db15a6635ed3467d635"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-chen-tianxiang",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chen-tianxiang/",
+      "title": "Dr Chen Tianxiang · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f84a514b12814485ac036eadb84b4f78926f640630ae9521b34be11178b475cf"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-li-guangchao",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-guangchao/",
+      "title": "Dr Li Guangchao · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括多孔与功能材料、固态核磁、同步辐射和中子表征。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括多孔与功能材料、固态核磁、同步辐射和中子表征。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://lilabpolyu.wordpress.com/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "610624580a501f08973aa904b35f6815e9984488d95043bbd3168ff03a426ecd"
+    },
+    {
+      "id": "polyu-chemistry-20261109-linked-dr-li-guangchao",
+      "url": "https://lilabpolyu.wordpress.com/",
+      "title": "Dr Li Guangchao · 院系所给网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组介绍多孔与功能材料的表征及催化应用。",
+      "claims": [
+        "课题组介绍多孔与功能材料的表征及催化应用。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5d06e66d0574788c07927a4bc8b2093261885ee2e933b1f5f5fe0cd3163baf19",
+      "parentSourceId": "polyu-chemistry-20261109-profile-dr-li-guangchao",
+      "originalUrl": "https://lilabpolyu.wordpress.com/",
+      "retrievedUrl": "https://lilabpolyu.wordpress.com/"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-li-hefei",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-hefei/",
+      "title": "Dr Li Hefei · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括二氧化碳和一氧化碳电解、界面工程与串联催化。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括二氧化碳和一氧化碳电解、界面工程与串联催化。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bc98e49dc7a638c8575de31c851671a64d24e534a4cb34eb00b6d297dfdeef31"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-liang-wenhao",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-liang-wenhao/",
+      "title": "Dr Liang Wenhao · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括可充电电池、太阳能电池与光电催化。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括可充电电池、太阳能电池与光电催化。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd5b9b09d8b6e2abeed39d368ef83ec634e9f65999188b01b467ea54352c9476"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-lin-cong",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lin-cong/",
+      "title": "Dr Lin Cong · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括能源催化、结构与性能关系、晶体表征。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括能源催化、结构与性能关系、晶体表征。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.researchgate.net/profile/Cong-Lin-3"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "171703de7d8b8551f39d62e494220d7ce218058b6e9b5560df45a7d3b21a0371"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-song-jiajun",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-song-jiajun/",
+      "title": "Dr Song Jiajun · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括混合离子电子导体、二维框架和有机电化学晶体管。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括混合离子电子导体、二维框架和有机电化学晶体管。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e1fbcbc47d3c75a2016d71b3a2d8a0cfefd8b901bfa336557bfd3c5b2748dd90"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-sun-zelin",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-sun-zelin/",
+      "title": "Dr Sun Zelin · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括热电材料、有机金属聚合物与热电转换。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括热电材料、有机金属聚合物与热电转换。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "578180872b284d4533d43aad07ab0a3edbae4584a435e57e9f08041dc11e93f5"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-wang-huimin",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-huimin/",
+      "title": "Dr Wang Huimin · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0f9559ec5df61a4d285895a267c9ca26093a5e40ed21ec2a71b18646f5f78e4b"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-wang-kai",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-kai/",
+      "title": "Dr Wang Kai · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括压电催化、光催化、钙钛矿氧化物与解聚。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括压电催化、光催化、钙钛矿氧化物与解聚。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "64f4c26a878bdffbb0a9bc862cbca35d81619f4dfc0bf2392af1de18e5b5514b"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-wang-tao",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-tao/",
+      "title": "Dr Wang Tao · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括热活化延迟荧光、有机发光二极管和溶液加工。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括热活化延迟荧光、有机发光二极管和溶液加工。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7c4d3069c7221f4583b157aaec92c9b4a004621ab86ebf6234077a00c050fd06"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-wang-yang",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yang/",
+      "title": "Dr Wang Yang · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括量子点、共价有机框架、光电化学催化与碳还原。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括量子点、共价有机框架、光电化学催化与碳还原。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "35ea22cd9cf92e8532debf87c34dfb73e1c4a61b9bef8e78b228754217ed5511"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-wang-yidi",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yidi/",
+      "title": "Dr Wang Yidi · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括光电催化、金属与共价有机框架及钙钛矿纳米晶。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括光电催化、金属与共价有机框架及钙钛矿纳米晶。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5df653b99d74412b7056cfd342ad53e30f8c9d92568e2d616b5123f3d431241d"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-xie-chen",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-xie-chen/",
+      "title": "Dr Xie Chen · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括镧系材料、放射动力疗法、光谱化学与药物研发。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括镧系材料、放射动力疗法、光谱化学与药物研发。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c43339258db5c7ef61797162b8d29d73f86826d863ac88630fde06927bdf59db"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-zhang-miao",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-miao/",
+      "title": "Dr Zhang Miao · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括有机光电、金属配合物、三重态激子和太阳能转换。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括有机光电、金属配合物、三重态激子和太阳能转换。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c8b3107208f8487f92ce4213cca7b5e037d1c918e0d0e8fe2333df125abbe5ca"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-zhang-xinyuan",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-xinyuan/",
+      "title": "Dr Zhang Xinyuan · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "54a6bf7d181a213c532d2851dfa9ce6498f8c62c5e7eb68688d23d945d11bea3"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-zhang-yufei",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-yufei/",
+      "title": "Dr Zhang Yufei · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括柔性电子、智能穿戴、电子纺织品与超分子聚合物。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括柔性电子、智能穿戴、电子纺织品与超分子聚合物。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5b6408ba4551e35fc04f4f2e5a80be57a22a89b70553e4a1a786321cd4a37fab"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-zhou-junhua",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhou-junhua/",
+      "title": "Dr Zhou Junhua · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Research Assistant Professor。研究方向包括高电压锂金属电池、锂硫电池、固态电池与表征。",
+      "claims": [
+        "院系列示任职：Research Assistant Professor。研究方向包括高电压锂金属电池、锂硫电池、固态电池与表征。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6ea4b33f83e494f3a0f6384172067ff5e815498212a025f4e94e3384d560bf36"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-cheung-kwong-chak",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-cheung-kwong-chak/",
+      "title": "Dr Cheung Kwong-chak, Gary · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Senior Lecturer。",
+      "claims": [
+        "院系列示任职：Senior Lecturer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "24ba5ddb8fadae0b24c84c714f483f730a7281743d542495f920f62da2986a19"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-lam-kim-hung",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lam-kim-hung/",
+      "title": "Dr Lam Kim-hung · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Senior Lecturer。",
+      "claims": [
+        "院系列示任职：Senior Lecturer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f29ca5ddc882d3988a81a24960d4a49eccd37d161eaf8413bdd7c4bfc5ef0cbf"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-choi-koon-kay",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-choi-koon-kay/",
+      "title": "Prof. Choi Koon-kay · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor of Practice (Chemistry)。",
+      "claims": [
+        "院系列示任职：Professor of Practice (Chemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "addfb60aa7f07fbd9002a8c70952c85f1f022aeca6008a1c9fe96a47db4681dd"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-tang-wai-tong-gary",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tang-wai-tong-gary/",
+      "title": "Prof. Tang Wai-tong, Gary · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor of Practice (Chemistry)。",
+      "claims": [
+        "院系列示任职：Professor of Practice (Chemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0fb381d5493363dfd4c4e039ff4f51f06497a625ae06ec532b978ee325f1902e"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-wong-wang-wah",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wang-wah/",
+      "title": "Prof. Wong Wang-wah · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Professor of Practice (Quality Assurance, Testing and Certification)。",
+      "claims": [
+        "院系列示任职：Professor of Practice (Quality Assurance, Testing and Certification)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "65c2a0eda77d092dfa6dd0714a1078850cc05da4096d46fedc013a4a39c1485f"
+    },
+    {
+      "id": "polyu-chemistry-20261109-appointments",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/",
+      "title": "港理工化学系 · 荣休、兼任与访问人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系当前分类页列 14 张人员卡。",
+      "claims": [
+        "院系当前分类页列 14 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-ky-wong/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-zhang-hanyue/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/cheung-chun-wai-ray/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/fok-manson/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/ho-emmie-ngai-man/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/jean-claude-georges/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-peter-anthony-tanner/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/chan-tak-hang-bill/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-federico-rosei/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-richard-compton/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/tang-chiu-chung/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-nobuhiro-handa/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-shigeo-horie/",
+        "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-sun-xiaoming/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2a8f2630e9893dd0b7c9ffb34805ae9f9c39059ec631bc407799f93e11e933ea"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-ky-wong",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-ky-wong/",
+      "title": "Prof. Wong Kwok-yin · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Emeritus Professor of Chemical Technology。",
+      "claims": [
+        "院系列示任职：Emeritus Professor of Chemical Technology。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b2a318eb21933409b27e5ef3de54cac432c1ceab9b5c0ee94c0c4b7071308a26"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-zhang-hanyue",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-zhang-hanyue/",
+      "title": "Prof. Zhang Hanyue · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Adjunct Associate Professor (Inorganic Chemistry)。",
+      "claims": [
+        "院系列示任职：Adjunct Associate Professor (Inorganic Chemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d8c84c57ba2658a4bb0fda82f6689feee8ab6e9ffb03b9b7a4534fbcd118e6fa"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-cheung-chun-wai-ray",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/cheung-chun-wai-ray/",
+      "title": "Prof. Cheung Chun-wai, Ray · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Adjunct Professor (Chemical Engineering)。",
+      "claims": [
+        "院系列示任职：Adjunct Professor (Chemical Engineering)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6ad7e00e14e2b66890984f624603e58d67a54ee8ac2827599314b392ffe61fee"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-fok-manson",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/fok-manson/",
+      "title": "Prof. Fok Manson · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Adjunct Professor (Chemical Science)。",
+      "claims": [
+        "院系列示任职：Adjunct Professor (Chemical Science)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b95e553451b7e1f98a99b2d1d59dec447409dd1fad922b2858dccde6f335c5f5"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-ho-emmie-ngai-man",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/ho-emmie-ngai-man/",
+      "title": "Prof. Ho Emmie Ngai-man · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Adjunct Professor (Analytical Chemistry and Toxicology)。",
+      "claims": [
+        "院系列示任职：Adjunct Professor (Analytical Chemistry and Toxicology)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2f234bccd3eca8ace684b87334deb7ff4710c6d36a70671747dc2fa9e4dc823d"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-jean-claude-georges",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/jean-claude-georges/",
+      "title": "Prof. Jean-Claude Georges Bünzli · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Adjunct Professor (Lanthanide-based Luminescent Materials and Bioprobes)。",
+      "claims": [
+        "院系列示任职：Adjunct Professor (Lanthanide-based Luminescent Materials and Bioprobes)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c1c52cd22da25246e6c917bee4406613c7f54099a90f53befa9086e18ef89bb8"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-peter-anthony-tanner",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-peter-anthony-tanner/",
+      "title": "Prof. Peter Anthony Tanner · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Adjunct Professor (Lanthanide Spectroscopy)。",
+      "claims": [
+        "院系列示任职：Adjunct Professor (Lanthanide Spectroscopy)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ef0b1840f1a546f77f2b02a1fcb782eb48f6504c856d8c178e49724857939f51"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-chan-tak-hang-bill",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/chan-tak-hang-bill/",
+      "title": "Prof. Chan Tak-hang, Bill · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Chair Professor (Organic Chemistry)。",
+      "claims": [
+        "院系列示任职：Visiting Chair Professor (Organic Chemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "16775c86a72e1ddaf175c8f3021691354817ac33f7e0f88d5c48b00239bed861"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-federico-rosei",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-federico-rosei/",
+      "title": "Prof. Federico Rosei · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Chair Professor (Materials Science/Chemistry)。",
+      "claims": [
+        "院系列示任职：Visiting Chair Professor (Materials Science/Chemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1bac12fd1d9b1e6afdf0d00d9f57fc3dcde1d903e06c5b06646b44517a5e07f3"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-richard-compton",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-richard-compton/",
+      "title": "Prof. Richard Compton · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Chair Professor (Electrochemistry)。",
+      "claims": [
+        "院系列示任职：Visiting Chair Professor (Electrochemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f2bb86699112eb81bfb045d33d679e4198f8d939eccf12beb0b08ec7e2b23684"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-tang-chiu-chung",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/tang-chiu-chung/",
+      "title": "Prof. Tang Chiu Chung · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Professor (Solid-state chemistry)。",
+      "claims": [
+        "院系列示任职：Visiting Professor (Solid-state chemistry)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "672165d4f9bef42593c1552ca6e5b5d04743961805f924719f6f61942110300d"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-nobuhiro-handa",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-nobuhiro-handa/",
+      "title": "Prof. Nobuhiro Handa · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Professor (Vascular Anatomy, Heart Surgery)。",
+      "claims": [
+        "院系列示任职：Visiting Professor (Vascular Anatomy, Heart Surgery)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d1d647d607a002cf379f1fc3ab2e218d2d972d2f099f3ae802b19373519e38a8"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-shigeo-horie",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-shigeo-horie/",
+      "title": "Prof. Shigeo Horie · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Professor (Urological Surgery, Robotic Surgery)。",
+      "claims": [
+        "院系列示任职：Visiting Professor (Urological Surgery, Robotic Surgery)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a0557676154bcca8e8574bc30e8c45e6975647190a88048f20802ad44cbeeb80"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-prof-sun-xiaoming",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-sun-xiaoming/",
+      "title": "Prof. Sun Xiaoming · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Visiting Professor (Energy and Nanocatalysis)。",
+      "claims": [
+        "院系列示任职：Visiting Professor (Energy and Nanocatalysis)。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ef437b21dcde7e96e8b8556addaae064ef7cce7d48b34a09394abcaaacaab798"
+    },
+    {
+      "id": "polyu-chemistry-20261109-scientific",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/",
+      "title": "港理工化学系 · 科研支援人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系当前分类页列 6 张人员卡。",
+      "claims": [
+        "院系当前分类页列 6 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-chan-fortune/",
+        "https://www.polyu.edu.hk/chem/people/scientific-officers/miss-karen-gu/",
+        "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-au-chi-ming-daivd/",
+        "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-chan-king-hong-vincent/",
+        "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-tan-huiqi-vicky/",
+        "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-yuen-on-ying/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5239594a2830a1ecfab11b0de53911ef652fb4ae7e7d2d54cd7b11abebfc6916"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-chan-fortune",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-chan-fortune/",
+      "title": "Dr Chan Chun-ming, Fortune · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Senior Scientific Officer。",
+      "claims": [
+        "院系列示任职：Senior Scientific Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3df42866224e8ed61915d7571b5ba4a7707dd367daa167c1b94a97a53f60f4d2"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-karen-gu",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/miss-karen-gu/",
+      "title": "Dr Gu Yanjuan, Karen · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Senior Scientific Officer。",
+      "claims": [
+        "院系列示任职：Senior Scientific Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e17b712aa2166241336942a1f5b97b11de5f080bd8ca5cc3088471fd78bfe783"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-au-chi-ming-daivd",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-au-chi-ming-daivd/",
+      "title": "Dr Au Chi-ming, David · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Scientific Officer。",
+      "claims": [
+        "院系列示任职：Scientific Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d7a56724d8ad58828f87c399fdde02d999cb3c2c2eb1ca1d0cdac2e90045f1e3"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-chan-king-hong-vincent",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-chan-king-hong-vincent/",
+      "title": "Dr Chan King-hong, Vincent · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Scientific Officer。",
+      "claims": [
+        "院系列示任职：Scientific Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3741358e24dd1e064dc5b72254f3a63ab1f3af59998e9f499b29e5bb8e29182c"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-tan-huiqi-vicky",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-tan-huiqi-vicky/",
+      "title": "Dr Tan Huiqi, Vicky · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Scientific Officer。",
+      "claims": [
+        "院系列示任职：Scientific Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e0bc3aee58543d38623f824b8cc13c647fe7b8ed8c7eae58ba2e05b6344242ca"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-dr-yuen-on-ying",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-yuen-on-ying/",
+      "title": "Dr Yuen On-ying · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Scientific Officer。",
+      "claims": [
+        "院系列示任职：Scientific Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b4e50c1c36f2884d18823632d7ec9e83627de80fc0e944a3b00dbf12a990bb85"
+    },
+    {
+      "id": "polyu-chemistry-20261109-technical",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/",
+      "title": "港理工化学系 · 技术人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系当前分类页列 7 张人员卡。",
+      "claims": [
+        "院系当前分类页列 7 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/chem/people/technical-staff/mr-roy-chan/",
+        "https://www.polyu.edu.hk/chem/people/technical-staff/mr-tony-chung/",
+        "https://www.polyu.edu.hk/chem/people/technical-staff/ms-candy-luk/",
+        "https://www.polyu.edu.hk/chem/people/technical-staff/miss-yeung-man-yu/",
+        "https://www.polyu.edu.hk/chem/people/technical-staff/mr-chan-arnold/",
+        "https://www.polyu.edu.hk/chem/people/technical-staff/mr-brandon-chan/",
+        "https://www.polyu.edu.hk/chem/people/technical-staff/mr-ricky-wong/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d96163fcba5c8655b6858ba85c53b1b35666c107abc2965bcd71223f0ce27dca"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-mr-roy-chan",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-roy-chan/",
+      "title": "Mr. Chan Chi-ho, Roy · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Senior Technical Officer。",
+      "claims": [
+        "院系列示任职：Senior Technical Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "97a105f474296b897870ac61a1d26d16f35eb9734aa1a1e855a8adff42c2d58f"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-mr-tony-chung",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-tony-chung/",
+      "title": "Mr. Chung Yuk-fai, Tony · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Technical Officer。",
+      "claims": [
+        "院系列示任职：Assistant Technical Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5dee606f0d61a1586fed2185fa7bf30b8760baf14538748cb498b7629b7a568f"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-ms-candy-luk",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/ms-candy-luk/",
+      "title": "Ms. Luk Hoi-wai, Candy · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Technical Officer。",
+      "claims": [
+        "院系列示任职：Assistant Technical Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f553d68c2e974193395bd6928cd5dfc34ed9b72c1982c6b46d1e332b3414ee4a"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-yeung-man-yu",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/miss-yeung-man-yu/",
+      "title": "Miss Yeung Man-yu · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Technical Officer。",
+      "claims": [
+        "院系列示任职：Assistant Technical Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bccffb76fa281ef5843351134144c669e2e785c48fcc454627d63fde448a4fb2"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-mr-chan-arnold",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-chan-arnold/",
+      "title": "Mr. Chan Arnold · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Technical Assistant。",
+      "claims": [
+        "院系列示任职：Technical Assistant。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c3db48946e7a5d1bbe97070bb6e11eaced7676137b16307b49782b113edd6656"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-mr-brandon-chan",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-brandon-chan/",
+      "title": "Mr Chan Man-tik, Brandon · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Technical Assistant。",
+      "claims": [
+        "院系列示任职：Technical Assistant。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fd81d5e1da6aa81aace3f2dc4536e34ccc8d06a499dadb54ed0d9a9013d929d4"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-mr-ricky-wong",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-ricky-wong/",
+      "title": "Mr. Wong Chung-ping, Ricky · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Technical Assistant。",
+      "claims": [
+        "院系列示任职：Technical Assistant。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "92e6a79f80458320e206f2e32b628f3a423fe0fedf0191f1464474fee310d9b2"
+    },
+    {
+      "id": "polyu-chemistry-20261109-administrative",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/",
+      "title": "港理工化学系 · 行政人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系当前分类页列 11 张人员卡。",
+      "claims": [
+        "院系当前分类页列 11 张人员卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-ng-wan-yin-eva/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-kiko-lam/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-ivy-xie/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-elaine-yip/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-peggy-kwok/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-yeung-ngar-wing-bonita/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/mr-colin-wong/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-lam-yu-ting-kat/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-zoe-yu/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-carol-tsang/",
+        "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-hon-wei-ming/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ff82090849807bfe07e5ab268764dc464124bb6059ee989f6c3b442008b17a15"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-ms-ng-wan-yin-eva",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-ng-wan-yin-eva/",
+      "title": "Ms. Ng Wan-yin, Eva · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Senior Executive Officer。",
+      "claims": [
+        "院系列示任职：Senior Executive Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "579f897af2460b07ea41d74df79985f49aad3a6438bfad1d58434312e9f12795"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-ms-kiko-lam",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-kiko-lam/",
+      "title": "Ms. Lam Sau Chun, Kiko · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Executive Officer。",
+      "claims": [
+        "院系列示任职：Executive Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "041ad86a6a8f13d8b81e00c667fd480f417361372ffdd2f7528983a923ce903c"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-ms-ivy-xie",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-ivy-xie/",
+      "title": "Ms. Xie Jia-lin, Ivy · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Executive Officer。",
+      "claims": [
+        "院系列示任职：Executive Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cb03311e735db404c4cc3757d8d6f88f07f679759035edd6228e98ce50f03116"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-elaine-yip",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-elaine-yip/",
+      "title": "Miss Yip Yin-ling, Elaine · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Executive Officer。",
+      "claims": [
+        "院系列示任职：Executive Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "be0e945dd0331b9005b47aae90a0d4a21e921b786217461bd74664ebe9623a8b"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-peggy-kwok",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-peggy-kwok/",
+      "title": "Ms. Kwok Fung-yee, Peggy · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Executive Officer。",
+      "claims": [
+        "院系列示任职：Assistant Executive Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "49a07aae1529a35fa41a7b32ede6b63cc03dc0b4b492719c47b2f63b7fad6066"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-yeung-ngar-wing-bonita",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-yeung-ngar-wing-bonita/",
+      "title": "Miss Yeung Ngar-Wing, Bonita · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Executive Officer。",
+      "claims": [
+        "院系列示任职：Assistant Executive Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5c9a04b1763005159605306210701242372028cbf63cbc8eb21ded57d9074f14"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-mr-colin-wong",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/mr-colin-wong/",
+      "title": "Mr. Wong Chin-wa, Colin · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Assistant Information Technology Officer。",
+      "claims": [
+        "院系列示任职：Assistant Information Technology Officer。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d36d90401578eadd49a1abad77322bdcfe69f5fe8b3a8f0f64d9e3368d32b100"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-lam-yu-ting-kat",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-lam-yu-ting-kat/",
+      "title": "Miss Lam Yu-ting, Kat · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Executive Assistant。",
+      "claims": [
+        "院系列示任职：Executive Assistant。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0059fa567830cfe3ab6a883b032f2fd60790b5d5ce7f8189568e95fff7c0052c"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-ms-zoe-yu",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-zoe-yu/",
+      "title": "Ms. Yu Lan-ching, Zoe · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Executive Assistant。",
+      "claims": [
+        "院系列示任职：Executive Assistant。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2be5e747142b47bf574042031fa71bd30833b0eead4e995e17ac8bb829003ed7"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-carol-tsang",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-carol-tsang/",
+      "title": "Ms. Tsang Sau-fung, Carol · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Clerical Officer II。",
+      "claims": [
+        "院系列示任职：Clerical Officer II。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "af73e3fbd8629751a75c2842fe48c96ff7872f2be676dc2aa5847a7576733ed2"
+    },
+    {
+      "id": "polyu-chemistry-20261109-profile-miss-hon-wei-ming",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-hon-wei-ming/",
+      "title": "Ms. Hon Wei-ming · 院系档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "院系列示任职：Administrative Assistant。",
+      "claims": [
+        "院系列示任职：Administrative Assistant。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "af83142bca1b79adf9b4204da6b3e04e95a814e8add8e5342bac583a7be7d310"
     }
   ],
   "funding": [
@@ -209922,6 +214193,911 @@
         ],
         "observedTotal": 0,
         "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-academic-directory",
+      "universityId": "polyu",
+      "unit": "化学系 · 学术人员",
+      "url": "https://www.polyu.edu.hk/chem/people/academic-staff/",
+      "sourceIds": [
+        "polyu-chemistry-20261109-academic"
+      ],
+      "reviewSourceIds": [
+        "polyu-chemistry-20261109-sept-supervisors",
+        "polyu-chemistry-20261109-department-programme",
+        "polyu-chemistry-20261109-profile-prof-yung-ka-fu",
+        "polyu-chemistry-20261109-profile-prof-wong-wing-tak",
+        "polyu-chemistry-20261109-profile-prof-zheng-zijian",
+        "polyu-chemistry-20261109-linked-prof-zheng-zijian",
+        "polyu-chemistry-20261109-profile-prof-wong-wai-yeung-raymond",
+        "polyu-chemistry-20261109-profile-prof-liu-dong-sheng",
+        "polyu-chemistry-20261109-profile-prof-wang-lianzhou",
+        "polyu-chemistry-20261109-linked-prof-wang-lianzhou",
+        "polyu-chemistry-20261109-profile-prof-leung-kc-franco",
+        "polyu-chemistry-20261109-linked-prof-leung-kc-franco",
+        "polyu-chemistry-20261109-profile-prof-lo-tw-benedict",
+        "polyu-chemistry-20261109-linked-prof-lo-tw-benedict",
+        "polyu-chemistry-20261109-profile-prof-so-chau-ming",
+        "polyu-chemistry-20261109-profile-prof-law-ga-lai",
+        "polyu-chemistry-20261109-profile-prof-lawrence-yoon-suk-lee",
+        "polyu-chemistry-20261109-profile-prof-pauline-p-li",
+        "polyu-chemistry-20261109-profile-prof-michael-yu",
+        "polyu-chemistry-20261109-linked-prof-michael-yu",
+        "polyu-chemistry-20261109-profile-prof-zhu-xunjin",
+        "polyu-chemistry-20261109-profile-prof-chen-di",
+        "polyu-chemistry-20261109-profile-prof-ho-cheuk-lam",
+        "polyu-chemistry-20261109-profile-prof-han-suting",
+        "polyu-chemistry-20261109-profile-prof-ge-jingjie",
+        "polyu-chemistry-20261109-linked-prof-ge-jingjie",
+        "polyu-chemistry-20261109-profile-prof-tian-tian",
+        "polyu-chemistry-20261109-profile-prof-xu-linli",
+        "polyu-chemistry-20261109-profile-prof-yu-han",
+        "polyu-chemistry-20261109-profile-dr-bodedla-govardhana-babu",
+        "polyu-chemistry-20261109-profile-dr-chau-ho-fai",
+        "polyu-chemistry-20261109-profile-dr-chen-tianxiang",
+        "polyu-chemistry-20261109-profile-dr-li-guangchao",
+        "polyu-chemistry-20261109-linked-dr-li-guangchao",
+        "polyu-chemistry-20261109-profile-dr-li-hefei",
+        "polyu-chemistry-20261109-profile-dr-liang-wenhao",
+        "polyu-chemistry-20261109-profile-dr-lin-cong",
+        "polyu-chemistry-20261109-profile-dr-song-jiajun",
+        "polyu-chemistry-20261109-profile-dr-sun-zelin",
+        "polyu-chemistry-20261109-profile-dr-wang-huimin",
+        "polyu-chemistry-20261109-profile-dr-wang-kai",
+        "polyu-chemistry-20261109-profile-dr-wang-tao",
+        "polyu-chemistry-20261109-profile-dr-wang-yang",
+        "polyu-chemistry-20261109-profile-dr-wang-yidi",
+        "polyu-chemistry-20261109-profile-dr-xie-chen",
+        "polyu-chemistry-20261109-profile-dr-zhang-miao",
+        "polyu-chemistry-20261109-profile-dr-zhang-xinyuan",
+        "polyu-chemistry-20261109-profile-dr-zhang-yufei",
+        "polyu-chemistry-20261109-profile-dr-zhou-junhua",
+        "polyu-chemistry-20261109-profile-dr-cheung-kwong-chak",
+        "polyu-chemistry-20261109-profile-dr-lam-kim-hung",
+        "polyu-chemistry-20261109-profile-prof-choi-koon-kay",
+        "polyu-chemistry-20261109-profile-prof-tang-wai-tong-gary",
+        "polyu-chemistry-20261109-profile-prof-wong-wang-wah"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 45 张人员卡。",
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. Yung Ka-fu, Joseph",
+            "directoryPosition": "Interim Head(CHEM), Assoc. Dean(FS), DoUCEA & Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yung-ka-fu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：无机纳米材料、电化学、催化和可再生能源。",
+            "facultyId": "polyu-chemistry-20261109-prof-yung-ka-fu"
+          },
+          {
+            "name": "Prof. Wong Wing-tak",
+            "directoryPosition": "Deputy President and Provost & Chair Professor of Chemical Technology",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wing-tak/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：纳米诊疗、镧系化学、分子探针与晶体结构。",
+            "facultyId": "polyu-chemistry-20261109-prof-wong-wing-tak"
+          },
+          {
+            "name": "Prof. Zheng Zijian",
+            "directoryPosition": "Vice President (Knowledge Transfer), ADoRI-IWEAR, ADoUMF & Chair Professor of Soft Materials and Devices",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zheng-zijian/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：可穿戴电子、纳米技术和材料表面结构调控。",
+            "facultyId": "polyu-chemistry-20261109-prof-zheng-zijian"
+          },
+          {
+            "name": "Prof. Wong Wai-yeung, Raymond",
+            "directoryPosition": "Dean(FS), ADoRISE, Clarea Au Professor in Energy & Chair Professor of Chemical Technology",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wai-yeung-raymond/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：无机与金属有机合成、有机电子、能源材料和传感。",
+            "facultyId": "polyu-chemistry-20261109-prof-wong-wai-yeung-raymond"
+          },
+          {
+            "name": "Prof. Liu Dongsheng",
+            "directoryPosition": "Chair Professor of Polymer Science and Chemical Biology",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-liu-dong-sheng/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：核酸自组装、化学修饰、水凝胶与组织工程。",
+            "facultyId": "polyu-chemistry-20261109-prof-liu-dong-sheng"
+          },
+          {
+            "name": "Prof. Wang Lianzhou",
+            "directoryPosition": "Chair Professor of Energy Materials (Global STEM Professorship Scheme)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wang-lianzhou/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：半导体纳米材料、太阳燃料、人工光合作用与储能。",
+            "facultyId": "polyu-chemistry-20261109-prof-wang-lianzhou"
+          },
+          {
+            "name": "Prof. Leung King-chi, Franco",
+            "directoryPosition": "Assoc. Head (CHEM) & Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-leung-kc-franco/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：超分子组装、分子机器、软体机器人材料与生物材料。",
+            "facultyId": "polyu-chemistry-20261109-prof-leung-kc-franco"
+          },
+          {
+            "name": "Prof. Lo Tsz-woon, Benedict",
+            "directoryPosition": "Assoc. Head (CHEM) & Associate Professor (Presidential Young Scholar)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lo-tw-benedict/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：催化、功能材料、同步辐射及中子表征。",
+            "facultyId": "polyu-chemistry-20261109-prof-lo-tw-benedict"
+          },
+          {
+            "name": "Prof. So Chau-ming",
+            "directoryPosition": "Assoc. Head (CHEM) & Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-so-chau-ming/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：配体合成、选择性催化与有机合成。",
+            "facultyId": "polyu-chemistry-20261109-prof-so-chau-ming"
+          },
+          {
+            "name": "Prof. Ga-lai Law",
+            "directoryPosition": "Wong Ying Ying Professor in Lanthanide Chemistry & Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-law-ga-lai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：镧系化学、分子探针、发光材料和分子诊疗。",
+            "facultyId": "polyu-chemistry-20261109-prof-law-ga-lai"
+          },
+          {
+            "name": "Prof. Lawrence Yoon Suk Lee",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-lawrence-yoon-suk-lee/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：电化学、光电催化、金属离子电池及电解槽。",
+            "facultyId": "polyu-chemistry-20261109-prof-lawrence-yoon-suk-lee"
+          },
+          {
+            "name": "Prof. Li Pei",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-pauline-p-li/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：高分子化学、纳米材料和功能材料。",
+            "facultyId": "polyu-chemistry-20261109-prof-pauline-p-li"
+          },
+          {
+            "name": "Prof. Yu Wing-yiu, Michael",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-michael-yu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：催化、有机合成、金属有机化学和对映选择性反应。",
+            "facultyId": "polyu-chemistry-20261109-prof-michael-yu"
+          },
+          {
+            "name": "Prof. Zhu Xun-jin",
+            "directoryPosition": "Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-zhu-xunjin/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：卟啉、共价有机框架、光电催化与金属离子电池。",
+            "facultyId": "polyu-chemistry-20261109-prof-zhu-xunjin"
+          },
+          {
+            "name": "Prof. Chen Di",
+            "directoryPosition": "Associate Professor (Presidential Young Scholar)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-chen-di/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：表界面反应、电催化、原位表征与高温燃料电池。",
+            "facultyId": "polyu-chemistry-20261109-prof-chen-di"
+          },
+          {
+            "name": "Prof. Ho Cheuk-lam",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ho-cheuk-lam/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：光催化、光伏、光电材料与纳米图案化。",
+            "facultyId": "polyu-chemistry-20261109-prof-ho-cheuk-lam"
+          },
+          {
+            "name": "Prof. Han Suting",
+            "directoryPosition": "Associate Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-han-suting/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：有机电子、存储器件、神经形态与传感内计算。",
+            "facultyId": "polyu-chemistry-20261109-prof-han-suting"
+          },
+          {
+            "name": "Prof. Ge Jingjie",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-ge-jingjie/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：纳米材料、纳米酶、催化与能源应用。",
+            "facultyId": "polyu-chemistry-20261109-prof-ge-jingjie"
+          },
+          {
+            "name": "Prof. Tian Tian",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tian-tian/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：金属有机框架、功能多孔材料与二氧化碳还原。",
+            "facultyId": "polyu-chemistry-20261109-prof-tian-tian"
+          },
+          {
+            "name": "Prof. Xu Linli",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-xu-linli/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：高分子加工、热管理、碳转化与可持续燃料。",
+            "facultyId": "polyu-chemistry-20261109-prof-xu-linli"
+          },
+          {
+            "name": "Prof. Yu Han",
+            "directoryPosition": "Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-yu-han/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：高分子与有机化学、有机电子及太阳能电池。",
+            "facultyId": "polyu-chemistry-20261109-prof-yu-han"
+          },
+          {
+            "name": "Dr Bodedla Govardhana Babu",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-bodedla-govardhana-babu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：水分解、过氧化氢制备、二氧化碳还原与污染物降解。",
+            "facultyId": "polyu-chemistry-20261109-dr-bodedla-govardhana-babu"
+          },
+          {
+            "name": "Dr Chau Ho-fai, Antony",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chau-ho-fai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：抗癌诊疗、噬菌体工程与分子成像。",
+            "facultyId": "polyu-chemistry-20261109-dr-chau-ho-fai"
+          },
+          {
+            "name": "Dr Chen Tianxiang",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-chen-tianxiang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "项目页所列分组：人工智能驱动的绿色化学与催化。",
+            "facultyId": "polyu-chemistry-20261109-dr-chen-tianxiang"
+          },
+          {
+            "name": "Dr Li Guangchao",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-guangchao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：多孔与功能材料、固态核磁、同步辐射和中子表征。",
+            "facultyId": "polyu-chemistry-20261109-dr-li-guangchao"
+          },
+          {
+            "name": "Dr Li Hefei",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-li-hefei/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：二氧化碳和一氧化碳电解、界面工程与串联催化。",
+            "facultyId": "polyu-chemistry-20261109-dr-li-hefei"
+          },
+          {
+            "name": "Dr Liang Wenhao",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-liang-wenhao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：可充电电池、太阳能电池与光电催化。",
+            "facultyId": "polyu-chemistry-20261109-dr-liang-wenhao"
+          },
+          {
+            "name": "Dr Lin Cong",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lin-cong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：能源催化、结构与性能关系、晶体表征。",
+            "facultyId": "polyu-chemistry-20261109-dr-lin-cong"
+          },
+          {
+            "name": "Dr Song Jiajun",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-song-jiajun/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：混合离子电子导体、二维框架和有机电化学晶体管。",
+            "facultyId": "polyu-chemistry-20261109-dr-song-jiajun"
+          },
+          {
+            "name": "Dr Sun Zelin",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-sun-zelin/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：热电材料、有机金属聚合物与热电转换。",
+            "facultyId": "polyu-chemistry-20261109-dr-sun-zelin"
+          },
+          {
+            "name": "Dr Wang Huimin",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-huimin/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Wang Kai",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-kai/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：压电催化、光催化、钙钛矿氧化物与解聚。",
+            "facultyId": "polyu-chemistry-20261109-dr-wang-kai"
+          },
+          {
+            "name": "Dr Wang Tao",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-tao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：热活化延迟荧光、有机发光二极管和溶液加工。此档案对应化学系研究助理教授。",
+            "facultyId": "polyu-chemistry-20261109-dr-wang-tao"
+          },
+          {
+            "name": "Dr Wang Yang",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：量子点、共价有机框架、光电化学催化与碳还原。",
+            "facultyId": "polyu-chemistry-20261109-dr-wang-yang"
+          },
+          {
+            "name": "Dr Wang Yidi",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-wang-yidi/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：光电催化、金属与共价有机框架及钙钛矿纳米晶。",
+            "facultyId": "polyu-chemistry-20261109-dr-wang-yidi"
+          },
+          {
+            "name": "Dr Xie Chen",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-xie-chen/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：镧系材料、放射动力疗法、光谱化学与药物研发。",
+            "facultyId": "polyu-chemistry-20261109-dr-xie-chen"
+          },
+          {
+            "name": "Dr Zhang Miao",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-miao/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：有机光电、金属配合物、三重态激子和太阳能转换。",
+            "facultyId": "polyu-chemistry-20261109-dr-zhang-miao"
+          },
+          {
+            "name": "Dr Zhang Xinyuan",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-xinyuan/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "项目页所列分组：先进纳米材料、高分子科学。",
+            "facultyId": "polyu-chemistry-20261109-dr-zhang-xinyuan"
+          },
+          {
+            "name": "Dr Zhang Yufei",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhang-yufei/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：柔性电子、智能穿戴、电子纺织品与超分子聚合物。",
+            "facultyId": "polyu-chemistry-20261109-dr-zhang-yufei"
+          },
+          {
+            "name": "Dr Zhou Junhua",
+            "directoryPosition": "Research Assistant Professor",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-zhou-junhua/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：高电压锂金属电池、锂硫电池、固态电池与表征。",
+            "facultyId": "polyu-chemistry-20261109-dr-zhou-junhua"
+          },
+          {
+            "name": "Dr Cheung Kwong-chak, Gary",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-cheung-kwong-chak/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Lam Kim-hung",
+            "directoryPosition": "Senior Lecturer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/dr-lam-kim-hung/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Choi Koon-kay",
+            "directoryPosition": "Professor of Practice (Chemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-choi-koon-kay/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Tang Wai-tong, Gary",
+            "directoryPosition": "Professor of Practice (Chemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-tang-wai-tong-gary/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Wong Wang-wah",
+            "directoryPosition": "Professor of Practice (Quality Assurance, Testing and Certification)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/academic-staff/prof-wong-wang-wah/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 45,
+        "profilesRead": 45,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-appointments-directory",
+      "universityId": "polyu",
+      "unit": "化学系 · 荣休、兼任与访问人员",
+      "url": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/",
+      "sourceIds": [
+        "polyu-chemistry-20261109-appointments"
+      ],
+      "reviewSourceIds": [
+        "polyu-chemistry-20261109-profile-prof-ky-wong",
+        "polyu-chemistry-20261109-profile-prof-zhang-hanyue",
+        "polyu-chemistry-20261109-profile-cheung-chun-wai-ray",
+        "polyu-chemistry-20261109-profile-fok-manson",
+        "polyu-chemistry-20261109-profile-ho-emmie-ngai-man",
+        "polyu-chemistry-20261109-profile-jean-claude-georges",
+        "polyu-chemistry-20261109-profile-prof-peter-anthony-tanner",
+        "polyu-chemistry-20261109-profile-chan-tak-hang-bill",
+        "polyu-chemistry-20261109-profile-prof-federico-rosei",
+        "polyu-chemistry-20261109-profile-prof-richard-compton",
+        "polyu-chemistry-20261109-profile-tang-chiu-chung",
+        "polyu-chemistry-20261109-profile-prof-nobuhiro-handa",
+        "polyu-chemistry-20261109-profile-prof-shigeo-horie",
+        "polyu-chemistry-20261109-profile-prof-sun-xiaoming"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 14 张人员卡。",
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. Wong Kwok-yin",
+            "directoryPosition": "Emeritus Professor of Chemical Technology",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-ky-wong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Zhang Hanyue",
+            "directoryPosition": "Adjunct Associate Professor (Inorganic Chemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-zhang-hanyue/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Cheung Chun-wai, Ray",
+            "directoryPosition": "Adjunct Professor (Chemical Engineering)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/cheung-chun-wai-ray/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Fok Manson",
+            "directoryPosition": "Adjunct Professor (Chemical Science)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/fok-manson/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Ho Emmie Ngai-man",
+            "directoryPosition": "Adjunct Professor (Analytical Chemistry and Toxicology)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/ho-emmie-ngai-man/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Jean-Claude Georges Bünzli",
+            "directoryPosition": "Adjunct Professor (Lanthanide-based Luminescent Materials and Bioprobes)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/jean-claude-georges/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Peter Anthony Tanner",
+            "directoryPosition": "Adjunct Professor (Lanthanide Spectroscopy)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-peter-anthony-tanner/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Chan Tak-hang, Bill",
+            "directoryPosition": "Visiting Chair Professor (Organic Chemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/chan-tak-hang-bill/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Federico Rosei",
+            "directoryPosition": "Visiting Chair Professor (Materials Science/Chemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-federico-rosei/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Richard Compton",
+            "directoryPosition": "Visiting Chair Professor (Electrochemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-richard-compton/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Tang Chiu Chung",
+            "directoryPosition": "Visiting Professor (Solid-state chemistry)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/tang-chiu-chung/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Nobuhiro Handa",
+            "directoryPosition": "Visiting Professor (Vascular Anatomy, Heart Surgery)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-nobuhiro-handa/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Shigeo Horie",
+            "directoryPosition": "Visiting Professor (Urological Surgery, Robotic Surgery)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-shigeo-horie/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Prof. Sun Xiaoming",
+            "directoryPosition": "Visiting Professor (Energy and Nanocatalysis)",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/emeritus-adjunct-and-visiting-staff/prof-sun-xiaoming/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 14,
+        "profilesRead": 14,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-scientific-directory",
+      "universityId": "polyu",
+      "unit": "化学系 · 科研支援人员",
+      "url": "https://www.polyu.edu.hk/chem/people/scientific-officers/",
+      "sourceIds": [
+        "polyu-chemistry-20261109-scientific"
+      ],
+      "reviewSourceIds": [
+        "polyu-chemistry-20261109-profile-dr-chan-fortune",
+        "polyu-chemistry-20261109-profile-miss-karen-gu",
+        "polyu-chemistry-20261109-profile-dr-au-chi-ming-daivd",
+        "polyu-chemistry-20261109-profile-dr-chan-king-hong-vincent",
+        "polyu-chemistry-20261109-profile-dr-tan-huiqi-vicky",
+        "polyu-chemistry-20261109-profile-dr-yuen-on-ying"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 6 张人员卡。",
+      "census": {
+        "entries": [
+          {
+            "name": "Dr Chan Chun-ming, Fortune",
+            "directoryPosition": "Senior Scientific Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-chan-fortune/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Gu Yanjuan, Karen",
+            "directoryPosition": "Senior Scientific Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/scientific-officers/miss-karen-gu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Au Chi-ming, David",
+            "directoryPosition": "Scientific Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-au-chi-ming-daivd/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Chan King-hong, Vincent",
+            "directoryPosition": "Scientific Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-chan-king-hong-vincent/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Tan Huiqi, Vicky",
+            "directoryPosition": "Scientific Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-tan-huiqi-vicky/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Dr Yuen On-ying",
+            "directoryPosition": "Scientific Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/scientific-officers/dr-yuen-on-ying/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 6,
+        "profilesRead": 6,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-technical-directory",
+      "universityId": "polyu",
+      "unit": "化学系 · 技术人员",
+      "url": "https://www.polyu.edu.hk/chem/people/technical-staff/",
+      "sourceIds": [
+        "polyu-chemistry-20261109-technical"
+      ],
+      "reviewSourceIds": [
+        "polyu-chemistry-20261109-profile-mr-roy-chan",
+        "polyu-chemistry-20261109-profile-mr-tony-chung",
+        "polyu-chemistry-20261109-profile-ms-candy-luk",
+        "polyu-chemistry-20261109-profile-miss-yeung-man-yu",
+        "polyu-chemistry-20261109-profile-mr-chan-arnold",
+        "polyu-chemistry-20261109-profile-mr-brandon-chan",
+        "polyu-chemistry-20261109-profile-mr-ricky-wong"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 7 张人员卡。",
+      "census": {
+        "entries": [
+          {
+            "name": "Mr. Chan Chi-ho, Roy",
+            "directoryPosition": "Senior Technical Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-roy-chan/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Mr. Chung Yuk-fai, Tony",
+            "directoryPosition": "Assistant Technical Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-tony-chung/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Luk Hoi-wai, Candy",
+            "directoryPosition": "Assistant Technical Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/ms-candy-luk/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Miss Yeung Man-yu",
+            "directoryPosition": "Assistant Technical Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/miss-yeung-man-yu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Mr. Chan Arnold",
+            "directoryPosition": "Technical Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-chan-arnold/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Mr Chan Man-tik, Brandon",
+            "directoryPosition": "Technical Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-brandon-chan/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Mr. Wong Chung-ping, Ricky",
+            "directoryPosition": "Technical Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/technical-staff/mr-ricky-wong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 7,
+        "profilesRead": 7,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "polyu-chemistry-20261109-administrative-directory",
+      "universityId": "polyu",
+      "unit": "化学系 · 行政人员",
+      "url": "https://www.polyu.edu.hk/chem/people/administrative-staff/",
+      "sourceIds": [
+        "polyu-chemistry-20261109-administrative"
+      ],
+      "reviewSourceIds": [
+        "polyu-chemistry-20261109-profile-ms-ng-wan-yin-eva",
+        "polyu-chemistry-20261109-profile-ms-kiko-lam",
+        "polyu-chemistry-20261109-profile-ms-ivy-xie",
+        "polyu-chemistry-20261109-profile-miss-elaine-yip",
+        "polyu-chemistry-20261109-profile-miss-peggy-kwok",
+        "polyu-chemistry-20261109-profile-miss-yeung-ngar-wing-bonita",
+        "polyu-chemistry-20261109-profile-mr-colin-wong",
+        "polyu-chemistry-20261109-profile-miss-lam-yu-ting-kat",
+        "polyu-chemistry-20261109-profile-ms-zoe-yu",
+        "polyu-chemistry-20261109-profile-miss-carol-tsang",
+        "polyu-chemistry-20261109-profile-miss-hon-wei-ming"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系此分类页列 11 张人员卡。",
+      "census": {
+        "entries": [
+          {
+            "name": "Ms. Ng Wan-yin, Eva",
+            "directoryPosition": "Senior Executive Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-ng-wan-yin-eva/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Lam Sau Chun, Kiko",
+            "directoryPosition": "Executive Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-kiko-lam/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Xie Jia-lin, Ivy",
+            "directoryPosition": "Executive Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-ivy-xie/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Miss Yip Yin-ling, Elaine",
+            "directoryPosition": "Executive Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-elaine-yip/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Kwok Fung-yee, Peggy",
+            "directoryPosition": "Assistant Executive Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-peggy-kwok/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Miss Yeung Ngar-Wing, Bonita",
+            "directoryPosition": "Assistant Executive Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-yeung-ngar-wing-bonita/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Mr. Wong Chin-wa, Colin",
+            "directoryPosition": "Assistant Information Technology Officer",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/mr-colin-wong/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Miss Lam Yu-ting, Kat",
+            "directoryPosition": "Executive Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-lam-yu-ting-kat/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Yu Lan-ching, Zoe",
+            "directoryPosition": "Executive Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/ms-zoe-yu/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Tsang Sau-fung, Carol",
+            "directoryPosition": "Clerical Officer II",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-carol-tsang/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Ms. Hon Wei-ming",
+            "directoryPosition": "Administrative Assistant",
+            "profileUrl": "https://www.polyu.edu.hk/chem/people/administrative-staff/miss-hon-wei-ming/",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 11,
+        "profilesRead": 11,
         "profilesFailed": 0,
         "pendingReasonCounts": {}
       }
@@ -254301,5 +259477,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:bf4d530ce22dc46660cd7cc7bc7770c4c475c0c63edbd54db1e10d145f2f5d71"
+  "snapshotId": "sha256:7139cc75e29fc80e81b8a230c7fab9328b0d38d5b5380929d92a388cb4968ed3"
 }

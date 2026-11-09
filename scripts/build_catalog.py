@@ -870,6 +870,14 @@ def build_catalog():
         known_links = {link["url"] for link in original.get("extraLinks", [])}
         original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
         original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    polyu_chemistry = load("polyu-chemistry-20261109.json")
+    catalog["sources"].extend(polyu_chemistry["sources"])
+    catalog["faculty"].extend(polyu_chemistry["faculty"])
+    catalog["directories"].extend(polyu_chemistry["directories"])
+    polyu_chemistry_programme = next(p for p in catalog["programs"] if p["id"] == "polyu-chem-rpg-sept-2027")
+    polyu_chemistry_programme["sourceIds"].extend([
+        "polyu-chemistry-20261109-sept-supervisors", "polyu-chemistry-20261109-department-programme",
+    ])
     return catalog
 
 
