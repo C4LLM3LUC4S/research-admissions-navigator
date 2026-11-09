@@ -957,6 +957,33 @@ def build_catalog():
     catalog["sources"].extend(med_faculty["sources"])
     catalog["faculty"].extend(med_faculty["faculty"])
     catalog["directories"].extend(med_faculty["directories"])
+    math = load("hku-math-20261109.json")
+    catalog["sources"].extend(math["sources"])
+    catalog["faculty"].extend(math["faculty"])
+    catalog["directories"].extend(math["directories"])
+    for update in math["facultyUpdates"]:
+        original = faculty_by_id[update["id"]]
+        assert original["universityId"] == "hku"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    math_areas = ["hku-math-20261109-graduate-areas"]
+    math_apply = ["hku-math-20261109-science-apply"]
+    math_faq = ["hku-math-20261109-science-faq"]
+    math_programme = program(
+        "hku-math-rpg", "hku", "数学研究学位", ["MPhil", "PhD"],
+        "香港大学理学院数学系。可从数论、几何、概率、优化与科学计算等方向了解课题。",
+        "recommended", "理学院建议先联系意向导师，讨论研究计划。", math_apply,
+        "在港大研究院申请系统选择数学系，按理学院清单准备材料。", math_areas + math_apply,
+        [deadline("校级主轮截止", "2026-12-01", hku_period, clock="23:59"),
+         deadline("校级第一轮补录截止（视余位）", "2027-04-30", hku_period, clock="23:59"),
+         deadline("校级第二轮补录截止（视余位）", "2027-08-31", hku_period, clock="23:59")],
+        math_areas + math_apply + math_faq + hku_period,
+        "日期来自研究院 2027/28 校级安排。系网站所列 2023/24 日期已过。")
+    math_programme.update(entryUrl="https://www.scifac.hku.hk/rpg/apply", requirements=[{
+        "label": "申请材料", "text": "准备成绩单、学历证明、研究兴趣陈述或研究计划，以及校方要求的推荐材料。",
+        "action": "查看理学院材料清单，再与意向导师讨论研究计划。", "sourceIds": math_apply + math_faq}])
+    catalog["programs"].append(math_programme)
     return catalog
 
 
