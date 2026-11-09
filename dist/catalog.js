@@ -190415,11 +190415,14 @@ window.APP_CATALOG = {
         "已读人员档案，分类以院系名录为准。"
       ],
       "scope": "已读人员档案，分类以院系名录为准。",
-      "evidenceLevel": "official_scoped_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "knownIssues": [],
       "bodySha256": "090df4e9469d805d7c7d2e6017c22caf46d061c7e837ef09dbf02c357df4a06c",
       "readMethod": "anonymous_HTTP",
-      "discoveredLinks": []
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-honorary",
+      "originalUrl": "https://dcp.ustc.edu.cn/2013/1208/c4477a39678/page.htm",
+      "retrievedUrl": "https://dcp.ustc.edu.cn/2013/1208/c4477a39678/page.htm"
     },
     {
       "id": "cuhk-chemistry-20261109-profile-40",
@@ -190445,11 +190448,14 @@ window.APP_CATALOG = {
         "已读人员档案，分类以院系名录为准。"
       ],
       "scope": "已读人员档案，分类以院系名录为准。",
-      "evidenceLevel": "official_scoped_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "knownIssues": [],
       "bodySha256": "3d3b208e385f6e234a3568fff6aecc97449d2aafbce35554a58c741c940b1a8d",
       "readMethod": "anonymous_HTTP",
-      "discoveredLinks": []
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-honorary",
+      "originalUrl": "https://chembioins.sjtu.edu.cn/info/1071/1393.htm",
+      "retrievedUrl": "https://chembioins.sjtu.edu.cn/info/1071/1393.htm"
     },
     {
       "id": "cuhk-chemistry-20261109-profile-43",
@@ -190505,11 +190511,14 @@ window.APP_CATALOG = {
         "已读人员档案，分类以院系名录为准。"
       ],
       "scope": "已读人员档案，分类以院系名录为准。",
-      "evidenceLevel": "official_scoped_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "knownIssues": [],
       "bodySha256": "1d9284474fb3aa17eba4b62e12d5485c4d9abeb6e5943ea48c7659fd5852a410",
       "readMethod": "anonymous_HTTP",
-      "discoveredLinks": []
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-honorary",
+      "originalUrl": "https://chem.xmu.edu.cn/en/info/1010/1788.htm",
+      "retrievedUrl": "https://chem.xmu.edu.cn/en/info/1010/1788.htm"
     },
     {
       "id": "cuhk-chemistry-20261109-profile-48",
@@ -190550,11 +190559,14 @@ window.APP_CATALOG = {
         "已读人员档案，分类以院系名录为准。"
       ],
       "scope": "已读人员档案，分类以院系名录为准。",
-      "evidenceLevel": "official_scoped_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "knownIssues": [],
       "bodySha256": "507a960d231ac21ee810c095149131c400451ca9d62f9a457fe3d59d39ce2646",
       "readMethod": "anonymous_HTTP",
-      "discoveredLinks": []
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-honorary",
+      "originalUrl": "https://www.jlu.edu.cn/info/1155/44855.htm",
+      "retrievedUrl": "https://www.jlu.edu.cn/info/1155/44855.htm"
     },
     {
       "id": "cuhk-chemistry-20261109-profile-52",
@@ -190565,11 +190577,14 @@ window.APP_CATALOG = {
         "已读人员档案，分类以院系名录为准。"
       ],
       "scope": "已读人员档案，分类以院系名录为准。",
-      "evidenceLevel": "official_scoped_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "knownIssues": [],
       "bodySha256": "2ba896a054d07e901a236134f6efcf809ba8efa8f7cd144880956350c8cfdbc7",
       "readMethod": "anonymous_HTTP",
-      "discoveredLinks": []
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-honorary",
+      "originalUrl": "https://people.ucas.ac.cn/~jczhao",
+      "retrievedUrl": "https://people.ucas.ac.cn/~jczhao"
     },
     {
       "id": "cuhk-chemistry-20261109-profile-53",
@@ -190580,11 +190595,14 @@ window.APP_CATALOG = {
         "已读人员档案，分类以院系名录为准。"
       ],
       "scope": "已读人员档案，分类以院系名录为准。",
-      "evidenceLevel": "official_scoped_body_read",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
       "knownIssues": [],
       "bodySha256": "f82652886d9132c8129a4099eadcf410b0d314a3a6bec2df73e2bdf95e402dfb",
       "readMethod": "anonymous_HTTP",
-      "discoveredLinks": []
+      "discoveredLinks": [],
+      "parentSourceId": "cuhk-chemistry-20261109-honorary",
+      "originalUrl": "https://www.eng.mcmaster.ca/chemeng/faculty/dr-shiping-zhu/",
+      "retrievedUrl": "https://www.eng.mcmaster.ca/chemeng/faculty/dr-shiping-zhu/"
     },
     {
       "id": "cuhk-chemistry-20261109-profile-54",
@@ -251671,5 +251689,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:604179a23799dfdfcfca5fce6e4c4f84eed6d4874af2ef18d5cb0763b7992eb0"
+  "snapshotId": "sha256:3562729c9c88fc31bc1425a46cd04ba76ad399c85a06e90aece8b555cbf9209f"
 };
