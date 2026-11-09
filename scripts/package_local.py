@@ -39,6 +39,10 @@ catalog = json.loads(members["source/data/catalog.json"])
 version = json.loads(members["source/STATUS.json"])["version"]
 if not re.fullmatch(r"\d+\.\d+\.\d+(?:-local|a\d+)", version):
     raise ValueError("Use an explicit local prototype or alpha version")
+if not version.endswith("-local"):
+    release_notes = f"source/releases/v{version}.md"
+    if not members.get(release_notes, b"").strip():
+        raise ValueError(f"Commit non-empty release notes at releases/v{version}.md before packaging")
 members["START_HERE.md"] = """# 打开研向
 
 完整解压后，双击 app/index.html 即可使用。
