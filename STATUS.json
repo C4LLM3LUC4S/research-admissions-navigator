@@ -1,6 +1,6 @@
 {
-  "version": "0.1.0a33",
-  "stage": "post_alpha33_cuhksz_medicine",
+  "version": "0.1.0a34",
+  "stage": "alpha34_cuhksz_medicine_faculty",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-09",
   "working_name": "研向",
@@ -9,15 +9,15 @@
     "universities": 7,
     "programme_or_route_cards": 65,
     "degree_routes": 114,
-    "faculty": 1792,
-    "official_sources": 2802,
+    "faculty": 1841,
+    "official_sources": 2865,
     "programmes_with_partial_requirements": 63,
     "requirement_items": 231,
     "programmes_with_partial_finances": 38,
     "finance_items": 64,
-    "official_directory_entries": 101,
-    "teacher_linked_sources": 702,
-    "total_sources": 3504,
+    "official_directory_entries": 102,
+    "teacher_linked_sources": 708,
+    "total_sources": 3573,
     "academic_unit_rows": 66,
     "listed_child_units": 233,
     "reviewed_new_profiles": 165,
@@ -211,7 +211,9 @@
     "hkust_civl_links_pending": 14,
     "cuhksz_med_roster_entries": 139,
     "cuhksz_med_profile_headings_matched": 139,
-    "cuhksz_med_faculty_records_added": 0
+    "cuhksz_med_faculty_records_added": 49,
+    "cuhksz_med_project_identity_entries": 50,
+    "cuhksz_med_project_profile_failed": 1
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -300,7 +302,7 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "港中深医学院逐人研究语义、导师身份与个人链接继续核对。七校按院系与师资顺序补缺。",
+  "next": "按医学院现有名录继续核对未整理的研究方向及所给链接，保留项目指导范围。",
   "count_scope_notes": "observed_profile_links、profile_bodies_read及pending_research_review只统计学院图已列原主页线索；不是全校人口，也不含全部未链接卡片。各校具名计数保留各批范围。",
   "latest_coverage_batch": {
     "unit": "PolyU Civil and Environmental Engineering",
@@ -448,8 +450,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:abecda556b8a025d76ede00bf197632d09bc592ff7f84deee5db9c8c5d32b9f0",
-  "latest_data_batch": "data/research/cuhksz-med-organization-routes-20261109.json",
+  "current_catalogue_snapshot": "sha256:6a56503a1548e7e2fc814ac92669df4508de88d4e2ac5231b9bc52dffa32a4a4",
+  "latest_data_batch": "data/research/cuhksz-med-faculty-20261109.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",

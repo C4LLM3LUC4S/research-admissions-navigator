@@ -98572,6 +98572,3019 @@ window.APP_CATALOG = {
           "hkust-civl-20261109-admission"
         ]
       }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-38",
+      "name": "叶德全",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/38",
+      "directoryRole": "校长讲座教授、教授",
+      "summary": "研究药理学与免疫学。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "药理学",
+        "免疫学"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-38",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-pharmacology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-38"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "药理学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-117",
+      "name": "朱宝亭",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/117",
+      "directoryRole": "校长讲座教授、教授",
+      "summary": "研究分子药理与药物作用机制，涉及抗癌药物、神经退行性疾病和记忆机制。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "分子药理学和药物作用的机理",
+        "预防和治疗癌症的药物",
+        "退化性疾病（如阿尔茨海默氏病",
+        "帕金森氏病）",
+        "分子化学机理",
+        "记忆和认知的分子机理"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-117",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-pharmacology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-117"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "药理学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-120",
+      "name": "黄宪达",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/120",
+      "directoryRole": "校长讲座教授、教授",
+      "summary": "研究生物信息学、基因组学和生物数据库，应用包括药物设计、基因检测和精准医疗。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "基因组学",
+        "生物数据库",
+        "药物设计",
+        "生物信息",
+        "基因体学",
+        "智能生医科技（药物设计",
+        "基因检测",
+        "精准医疗）"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-120",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-biomedinfo"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-120"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或学术链接",
+          "url": "https://scholar.google.com/citations?hl=en&user=dj4nF7IAAAAJ",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-120",
+          "bodyStatus": "not_read",
+          "readNote": "学术档案读取失败。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-122",
+      "name": "雷湧",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/122",
+      "directoryRole": "助理教授",
+      "summary": "研究表观遗传学和表观基因组编辑。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "表观基因组编辑",
+        "表观遗传学"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-122",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-122"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-159",
+      "name": "李丛磊",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/159",
+      "directoryRole": "助理教授",
+      "summary": "研究 B 细胞抗体生成、宿主与微生物的相互作用、肠道免疫及 DNA 损伤修复。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "B细胞抗体生成",
+        "宿主-微生物相互作用",
+        "肠道免疫",
+        "DNA损伤与修复"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-159",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-159"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-165",
+      "name": "HIRAO, Hajime",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/165",
+      "directoryRole": "教授",
+      "summary": "研究计算化学与计算生物学，关注细胞色素 P450 和药物代谢。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "计算化学",
+        "计算生物学",
+        "细胞色素 P450",
+        "药物代谢"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-165",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-biomedinfo"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-165"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-166",
+      "name": "刘国珍",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/166",
+      "directoryRole": "教授",
+      "summary": "研究生物传感器、微流控芯片、柔性可穿戴器件、3D 打印和体外诊断。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "柔性电子",
+        "微流控",
+        "体外诊断",
+        "生物医学工程",
+        "生物传感器",
+        "微流控生物芯片",
+        "柔性可穿戴器件",
+        "3D打印",
+        "智能纳米颗粒及医疗器械"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-166",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-166"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或学术链接",
+          "url": "https://scholar.google.com.au/citations?user=xms_zr0AAAAJ&hl=en",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-166",
+          "bodyStatus": "not_read",
+          "readNote": "学术档案读取失败。"
+        },
+        {
+          "label": "所给个人或学术链接",
+          "url": "https://www.x-mol.com/groups/liu_guozhen",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-166",
+          "bodyStatus": "not_read",
+          "readNote": "课题组页返回 HTTP 429。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-168",
+      "name": "成贵娟",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/168",
+      "directoryRole": "副教授",
+      "summary": "研究计算化学和计算生物学，涉及酶催化、反应机理、药物设计与生物合成。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "计算化学和生物学",
+        "酶催化和有机反应机理研究",
+        "药物设计",
+        "生物合成"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-168",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-biomedinfo"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-168"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-170",
+      "name": "STJEPANOVIC, Goran",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/170",
+      "directoryRole": "副教授",
+      "summary": "研究膜生物化学、生物物理和结构生物学。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "膜生物化学",
+        "生物物理学和结构生物学"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-170",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-170"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或学术链接",
+          "url": "http://www.researcherid.com/rid/A-7902-2010",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-170",
+          "bodyStatus": "not_read",
+          "readNote": "研究者档案读取失败。"
+        },
+        {
+          "label": "所给个人或学术链接",
+          "url": "https://orcid.org/0000-0002-4841-9949",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-170",
+          "bodyStatus": "not_read",
+          "readNote": "只返回应用外壳，未取得研究者正文。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-171",
+      "name": "竺立哲",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/171",
+      "directoryRole": "副教授",
+      "summary": "研究生物分子模拟，结合机器学习与增强采样，应用于基因编辑酶和药物设计。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "计算生物学",
+        "生物大分子模拟",
+        "分子精细设计",
+        "增强采样与机器学习的融合",
+        "新型采样算法开发",
+        "基因编辑酶理性设计",
+        "药物特异性设计"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-171",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-biomedinfo"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-171"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-172",
+      "name": "杜洋",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/172",
+      "directoryRole": "副教授",
+      "summary": "研究 G 蛋白偶联受体、信号转导、结构药理学与基于结构的药物设计。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "G蛋白偶联受体",
+        "受体生物学",
+        "信号转导",
+        "结构药理学",
+        "基于结构的药物设计"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-172",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-03",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-172"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-173",
+      "name": "胡红丽",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/173",
+      "directoryRole": "副教授",
+      "summary": "利用冷冻电镜研究膜蛋白和 G 蛋白偶联受体的结构与功能，关注药物筛选。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "基于冷冻电子显微镜的结构生物学",
+        "膜蛋白结构与功能",
+        "G蛋白偶联受体结构及功能",
+        "药物筛选"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-173",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-173"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-177",
+      "name": "赵永娟",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/177",
+      "directoryRole": "副教授",
+      "summary": "研究 cADPR 信号机制及相关药物开发，关注天然免疫、肠道发育与神经退变。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "cADPR信号机制与药物开发",
+        "相关的功能体系：天然免疫",
+        "肠道发育",
+        "神经退变"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-177",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-03",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-177"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或学术链接",
+          "url": "https://scholar.google.com/citations?user=V3x9K3wAAAAJ&hl=zh-TW",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-177",
+          "bodyStatus": "not_read",
+          "readNote": "学术档案返回 HTTP 429。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-182",
+      "name": "陈吉航",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/182",
+      "directoryRole": "助理教授",
+      "summary": "研究中药和天然药物的药理作用与药效物质。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "中药",
+        "天然药物药理与药效物质研究"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-182",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-pharmacology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-182"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "药理学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-319",
+      "name": "NELSON, Edmund Anthony Severn (Tony)",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/319",
+      "directoryRole": "教授（临床）",
+      "summary": "研究儿科疫苗、腹泻和呼吸道疾病监测、儿童生长、母乳喂养与婴儿猝死综合征。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "轮状病毒",
+        "流感和其他疫苗",
+        "腹泻和呼吸道疾病监测",
+        "肥胖和儿童生长",
+        "促进母乳喂养",
+        "婴儿猝死综合征"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-319",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-319"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-327",
+      "name": "杜鹃",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/327",
+      "directoryRole": "副教授",
+      "summary": "研究钙信号与细胞外囊泡分泌，探索囊泡递药、疾病标志物和精准诊疗。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "细胞外囊泡",
+        "外泌体",
+        "药物递送",
+        "主要基于头颈癌",
+        "结直肠癌",
+        "呼吸与血管系统疾病等开展以下研究：1）钙信号与肿瘤细胞外囊泡分泌机制",
+        "2）外泌体及囊泡靶向载药在疾病精准治疗中的应用",
+        "3）基于外泌体与多组学联合分析的疾病诊疗标记物筛选",
+        "4）聚集诱导发光分子等化学分子与材料在抗菌",
+        "抗肿瘤治疗中的应用"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-327",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-327"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-722",
+      "name": "王冠宇",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/722",
+      "directoryRole": "副教授",
+      "summary": "研究定量与合成生物学、生物信息学、生物复杂性和生物医学工程。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物医学工程",
+        "物理",
+        "定量及合成生物",
+        "生物信息及计算生物",
+        "生物复杂性及理论生物"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-722",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-03",
+        "cuhksz-med-bme-autumn-20261106",
+        "cuhksz-med-faculty-20261109-personal-link-722"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-722"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究机构链接",
+          "url": "https://myweb.cuhk.edu.cn/wangguanyu",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-722",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-med-faculty-20261109-personal-link-722"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-732",
+      "name": "贺益盛",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/732",
+      "directoryRole": "校长青年学者、助理教授",
+      "summary": "研究药物与食品安全、药代动力学、药物性肝损伤、毒理学和临床生物标志物。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "药物/食品安全",
+        "药物代谢动力学",
+        "天然产物/环境分子",
+        "化疗药物",
+        "生物材料和细胞疗法的安全性研究与评价",
+        "临床可用的分子标志物",
+        "肠 - 肝轴",
+        "脑 - 肝轴"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-732",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-pharmacology",
+        "cuhksz-med-faculty-20261109-personal-link-732"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-732"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究机构链接",
+          "url": "https://myweb.cuhk.edu.cn/heyisheng",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-732",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-med-faculty-20261109-personal-link-732"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "药理学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-733",
+      "name": "王勇斐",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/733",
+      "directoryRole": "助理教授",
+      "summary": "研究系统性红斑狼疮等自身免疫病的遗传学和多组学，涉及药物靶点筛选与药物重定位。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物信息学与遗传学",
+        "自身免疫性疾病（系统性红斑狼疮）",
+        "多组学数据分析",
+        "药物靶标筛选与药物重定位（“老药新用”）",
+        "遗传检测"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-733",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-biomedinfo"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-733"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-737",
+      "name": "蒋成",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/737",
+      "directoryRole": "助理教授",
+      "summary": "研究细胞外囊泡、神经退行性疾病、液体活检、生物传感与生物标志物开发。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "细胞外囊泡",
+        "液体活检",
+        "帕金森病生物标志物",
+        "神经退行性疾病",
+        "生物传感器件",
+        "上游生物标志物开发方法学"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-737",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-bme-autumn-20261106",
+        "cuhksz-med-faculty-20261109-personal-link-737"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-737"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究机构链接",
+          "url": "https://myweb.cuhk.edu.cn/jiangcheng",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-737",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-med-faculty-20261109-personal-link-737"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-739",
+      "name": "崔小林",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/739",
+      "directoryRole": "助理教授",
+      "summary": "研究生物制造、干细胞和无细胞治疗、组织工程与再生医学。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物制造",
+        "干细胞与无细胞治疗",
+        "组织工程与再生医学",
+        "软骨与骨组织工程",
+        "心肌组织工程"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-739",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-739"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-740",
+      "name": "王任直",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/740",
+      "directoryRole": "校长讲座教授、教授",
+      "summary": "研究神经系统疾病数据库、脑肿瘤诊疗靶点，以及多组学、医学图像和人工智能在神经系统疾病中的应用。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "神经系统疾病智能化数据库（中台）的设计",
+        "建立",
+        "资料收集",
+        "数据分析和应用",
+        "多组学技术在神经系统疾病发病机制研究中的应用",
+        "脑肿瘤诊断和治疗靶点的研究",
+        "人工智能技术在神经系统疾病诊断和治疗中的作用",
+        "医学图像后处理技术在脑认知障碍疾病中的应用",
+        "脑肿瘤智能化辅助诊疗决策系统的建立",
+        "脑血管病智能化辅助诊疗决策系统的建立",
+        "透明脑+神经导航+机器人设备的研发和应用",
+        "智能化康复设备和机器人研发和应用"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-740",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-740"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-743",
+      "name": "林顺潮",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/743",
+      "directoryRole": "教授（临床）",
+      "summary": "研究白内障、青光眼、近视防控、眼表和视网膜疾病及眼科新药。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "白内障",
+        "青光眼",
+        "近视防治",
+        "干眼及角膜",
+        "黄斑及视网膜疾病",
+        "针灸及中药",
+        "转化及新药治疗眼疾研发"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-743",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-20261109-clinical",
+        "cuhksz-med-faculty-20261109-personal-link-743"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-743"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究机构链接",
+          "url": "https://www.pieri.ac.cn/",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-743",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-med-faculty-20261109-personal-link-743"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-792",
+      "name": "于广军",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/792",
+      "directoryRole": "校长讲座教授、教授（临床）",
+      "summary": "研究医疗大数据、互联网医疗与智慧医院，以及高危儿管理和多动症医教结合。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "医疗大数据",
+        "互联网医疗和智慧医院",
+        "高危儿管理",
+        "多动症医教结合等方向"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-792",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biomedinfo",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-792"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biomedinfo",
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-824",
+      "name": "郭景慧",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/824",
+      "directoryRole": "助理教授",
+      "summary": "研究离子通道在生殖与内分泌系统中的功能，开发光和超声调控工具。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "离子通道在生殖及内分泌系统中的生理功能研究",
+        "离子通道光",
+        "超声调控相关工具的开发及在内分泌",
+        "免疫以及神经系统中的应用"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-824",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-824"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-829",
+      "name": "邹和群",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/829",
+      "directoryRole": "教授",
+      "summary": "研究肾脏病的发病机制，并探索细胞外囊泡、液体活检和慢病分子诊断。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "肾小球疾病",
+        "小管间质肾病及移植肾病发病机制",
+        "细胞外襄泡（EVs）研究与糖尿病及肾脏病液体活检技术",
+        "主要慢病（NCDs）分子诊断模型及AI技术应用。"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-829",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-829"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-869",
+      "name": "郭雪",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/869",
+      "directoryRole": "助理教授",
+      "summary": "研究疾病相关蛋白的结构及其构象变化如何调控功能。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "聚焦蛋白质结构和构象变化对其功能的调控",
+        "致力于研究疾病相关蛋白的工作机制"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-869",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-869"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-957",
+      "name": "宋扬",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/957",
+      "directoryRole": "助理教授",
+      "summary": "研究临床方法学、循证决策和指南制定，包括癌症筛查及辅助生殖。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物医学研究",
+        "临床指南制订",
+        "及临床研究方法学",
+        "临床证据整合",
+        "评估",
+        "及转化",
+        "循证临床决策（癌症的筛查和预防",
+        "辅助生殖技术的临床决策等）"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-957",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-957"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-976",
+      "name": "李昭廷",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/976",
+      "directoryRole": "校长青年学者、助理教授",
+      "summary": "研究细胞治疗、生物制剂、药物递送与免疫治疗。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "细胞治疗",
+        "药物递送",
+        "免疫治疗",
+        "生物制剂"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-976",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-pharmacology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-976"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或学术链接",
+          "url": "https://www.zhaotingli.com",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-976",
+          "bodyStatus": "not_read",
+          "readNote": "个人站正文未能读取。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "药理学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-981",
+      "name": "李晨钟",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/981",
+      "directoryRole": "校长学勤讲座教授、教授",
+      "summary": "研究生物芯片、生物传感器、微流控、脑机接口和器官芯片。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物医疗器械",
+        "生物光电子学",
+        "分析化学",
+        "BioMEMS",
+        "生物物理学和中西医理疗康复",
+        "重点是生物芯片的开发",
+        "包括微流空芯片",
+        "脑机接口",
+        "便携/穿戴式生物传感器",
+        "IVD/POCT",
+        "数字医疗",
+        "类器官/器官芯片和纳米探针"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-981",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-981"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-982",
+      "name": "张舵",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/982",
+      "directoryRole": "助理教授",
+      "summary": "研究生物制造、多功能水凝胶器件和组织工程。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物制造",
+        "水凝胶多功能器件",
+        "组织工程"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-982",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-982"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-998",
+      "name": "尹玉新",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/998",
+      "directoryRole": "校长讲座教授、教授",
+      "summary": "研究 PTEN 在肿瘤和代谢中的作用，以及肿瘤免疫、遗传病诊断和医学人工智能。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "病理学抗癌基因PTEN家族在肿瘤和代谢中的作用",
+        "肿瘤免疫的机制研究及肿瘤免疫治疗",
+        "人工智能在医学诊断的应用",
+        "遗传病的机制研究及早期诊断",
+        "脑认知与记忆的机制研究"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-998",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-998"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1062",
+      "name": "陈世雄",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1062",
+      "directoryRole": "副教授",
+      "summary": "研究脑电和肌电传感、可穿戴系统、深度学习信号分析与神经系统疾病早期诊断。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "脑电",
+        "肌电",
+        "可穿戴传感",
+        "深度学习",
+        "神经电生理信号（脑电EEG和肌电EMG）技术的新型传感",
+        "可穿戴系统开发和临床转化",
+        "基于数学算法和深度学习模型的电生理信号处理及其在神经系统疾病早期诊断中的应用。"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1062",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-03",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1062"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1118",
+      "name": "孙昊",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1118",
+      "directoryRole": "教授",
+      "summary": "研究基因组学和高通量测序数据分析，包括无创产前诊断、癌症早筛和非编码 RNA 的调控。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "无创产前诊断",
+        "癌症早筛",
+        "非编码RNA",
+        "高通量测序",
+        "生物信息学",
+        "基因组学",
+        "非侵入性产前诊断和癌症早期诊断",
+        "非编码RNA的发现及其在肌肉干细胞中的转录调控机理研究",
+        "高通量测序数据分析",
+        "基于测序数据的分子疾病诊断方法研发",
+        "相关生物信息学算法",
+        "软件和数据库的开发"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1118",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-biomedinfo"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1118"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "计算生物与医学信息学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology",
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1166",
+      "name": "萧桂仪",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1166",
+      "directoryRole": "副教授（临床）",
+      "summary": "研究胎儿和儿科喉科学、微创喉手术、内镜耳科及儿科医疗公平。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "胎儿和儿科喉科学",
+        "微创性喉手术",
+        "内窥镜耳科手术",
+        "社会不平等对儿科医疗的影响",
+        "新科术应用改善医学教育"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1166",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1166"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1182",
+      "name": "徐志豪",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1182",
+      "directoryRole": "校长讲座教授、教授（临床）",
+      "summary": "研究区域麻醉、神经阻滞、超声引导技术、气道管理与神经刺激器械。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "区域麻醉",
+        "神经阻滞麻醉",
+        "超声引导技术",
+        "高级气道管理",
+        "儿科麻醉",
+        "心脏区域麻醉",
+        "医疗器械设计",
+        "神经刺激"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1182",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-20261109-clinical",
+        "cuhksz-med-bme-autumn-20261106"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1182"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物医学工程 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical",
+          "cuhksz-med-bme-autumn-20261106"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1411",
+      "name": "金仙真",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1411",
+      "directoryRole": "助理教授",
+      "summary": "研究分子诊断和蛋白质工程，开发诊断平台、分裂蛋白系统与组学工具。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "分子药剂学",
+        "分子诊断",
+        "诊断平台",
+        "生物医学工程",
+        "蛋白质工程",
+        "二元/三元分裂蛋白系统",
+        "组学技术开发"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1411",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-pharmacology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1411"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "药理学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1574",
+      "name": "章杰",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1574",
+      "directoryRole": "助理教授（临床）",
+      "summary": "研究青少年抑郁障碍，以及新技术在医学教育和临床诊疗中的应用。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "青少年抑郁障碍",
+        "医学教育和临床诊疗的新技术应用"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1574",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1574"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1575",
+      "name": "张敬法",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1575",
+      "directoryRole": "教授",
+      "summary": "研究糖尿病视网膜病变、年龄相关性黄斑变性等眼底疾病的发病机制与治疗。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "糖尿病视网膜病变和年龄相关性黄斑变性等眼底疾病的发病机制和治疗研究"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1575",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-03",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1575"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1592",
+      "name": "穆婧",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1592",
+      "directoryRole": "助理教授",
+      "summary": "研究纳米材料的生物效应、医学成像及荧光手术导航。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "纳米医学",
+        "生物医学成像",
+        "荧光手术导航",
+        "纳米生物学效应",
+        "荧光术中导航"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1592",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-faculty-20261109-personal-link-1592"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1592"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究机构链接",
+          "url": "https://myweb.cuhk.edu.cn/mujing",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-1592",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-med-faculty-20261109-personal-link-1592"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1593",
+      "name": "丁典",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1593",
+      "directoryRole": "助理教授",
+      "summary": "以结构生物学研究蛋白质功能与致病机制，并应用于药物筛选。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "基于结构生物学的蛋白质功能解析",
+        "致病机制研究与药物筛选应用"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1593",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1593"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1594",
+      "name": "曹冰",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1594",
+      "directoryRole": "助理教授",
+      "summary": "结合系统神经科学、神经解剖和电生理，研究认知功能与慢性疼痛。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "综合系统神经科学",
+        "神经解剖和电生理等多种前沿技术手段",
+        "致力于探索认知功能以及慢性疼痛的神经和分子机制并加以改善"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1594",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-20261109-biology"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1594"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "生物科学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1598",
+      "name": "章桂喜",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1598",
+      "directoryRole": "副教授（临床）",
+      "summary": "研究创伤救治与区域创伤系统、创伤风险的空间分析、胃肠肿瘤和微创外科。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "创伤可预防性死亡",
+        "地理空间分析",
+        "创伤复苏单元设计",
+        "创伤中心发展",
+        "创伤培训和教育",
+        "区域性创伤系统发展",
+        "创伤与急重症外科",
+        "外科重症监护",
+        "胃癌",
+        "结直肠癌",
+        "内镜手术",
+        "腹腔镜手术",
+        "机器人胃肠手术"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1598",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1598"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1669",
+      "name": "尹昕",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1669",
+      "directoryRole": "助理教授",
+      "summary": "研究慢性病流行病学、女性生殖健康、营养、基因与环境交互作用和多组学。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "流行病学",
+        "女性生殖健康",
+        "多组学",
+        "慢性病流行病学",
+        "营养学",
+        "基因-环境交互作用",
+        "多组学分析"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1669",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-07",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical",
+        "cuhksz-med-faculty-20261109-personal-link-1669"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1669"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究机构链接",
+          "url": "https://myweb.cuhk.edu.cn/yinxin/",
+          "parentSourceId": "cuhksz-med-faculty-20261109-profile-1669",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-med-faculty-20261109-personal-link-1669"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1703",
+      "name": "林康广",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1703",
+      "directoryRole": "教授（临床）",
+      "summary": "研究抑郁症和双相障碍的机制、计算精神病学、神经影像及非药物干预。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "计算精神病学",
+        "神经影像",
+        "情绪障碍",
+        "情绪障碍机制",
+        "人工智能与精神健康",
+        "非药物干预",
+        "健康行为科学",
+        "抑郁症",
+        "双相障碍",
+        "预防性干预",
+        "精准精神健康",
+        "神经影像学",
+        "临床转化与治疗"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1703",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1703"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1756",
+      "name": "张家迪",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1756",
+      "directoryRole": "助理教授（临床）",
+      "summary": "研究人畜共患病、抗菌素耐药性、登革病毒、噬菌体和智能检验医学。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "人畜共患病",
+        "抗菌素耐药性",
+        "登革病毒",
+        "噬菌体",
+        "人工智能在检验医学中的应用"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1756",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-07",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1756"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1792",
+      "name": "高会智",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1792",
+      "directoryRole": "助理教授",
+      "summary": "研究传染病流行病学、健康行为、人口老龄化及健康不平等。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "传染病流行病学",
+        "社会行为改变",
+        "人口健康与老龄化",
+        "健康不平等"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1792",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-07",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1792"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1794",
+      "name": "彭绵",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1794",
+      "directoryRole": "助理教授（临床）",
+      "summary": "研究脓毒症中的肠–肺轴及模拟医学教育。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "脓毒症肠-肺轴",
+        "模拟医学教育"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1794",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-07",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1794"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-1823",
+      "name": "周治国",
+      "universityId": "cuhksz",
+      "department": "医学院",
+      "academicUnitIds": [
+        "cuhksz-5"
+      ],
+      "profileUrl": "https://med.cuhk.edu.cn/teacher/1823",
+      "directoryRole": "副教授",
+      "summary": "研究可靠人工智能及其在临床医学中的应用。",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "可靠人工智能",
+        "临床人工智能",
+        "临床医学人工智能"
+      ],
+      "sourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1823",
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-clinical"
+      ],
+      "directorySourceIds": [
+        "cuhksz-med-20261109-faculty"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-1823"
+      ],
+      "extraLinks": [],
+      "applicationNotes": [
+        {
+          "kind": "official_supervisor_list",
+          "label": "流行病学和生物统计学 · 项目导师名单",
+          "text": "见该项目的导师介绍及申请步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "kind": "official_supervisor_list",
+          "label": "临床医学 · 研究导师",
+          "text": "见项目页的研究导师表。临床实践导师另见附属医院名单。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可从对应项目页查看联系导师与网申步骤。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi",
+          "cuhksz-med-20261109-clinical"
+        ]
+      }
     }
   ],
   "sources": [
@@ -207613,6 +210626,1232 @@ window.APP_CATALOG = {
       "parentSourceId": "hkust-civl-20261109-profile-ran-yin-yinran",
       "originalUrl": "https://seng.hkust.edu.hk/about/people/faculty/ran-yin",
       "retrievedUrl": "https://seng.hkust.edu.hk/about/people/faculty/ran-yin"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-02",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=1",
+      "title": "医学院 · 教职人员名录第 2 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fddb71a8f9bc99cf75ce50592166ffe3fe083410492407240dbd33a0b0b1d306",
+      "scope": "医学院教职人员名录第 2 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 2 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/740",
+        "https://med.cuhk.edu.cn/teacher/829",
+        "https://med.cuhk.edu.cn/teacher/981",
+        "https://med.cuhk.edu.cn/teacher/121",
+        "https://med.cuhk.edu.cn/teacher/927",
+        "https://med.cuhk.edu.cn/teacher/166",
+        "https://med.cuhk.edu.cn/teacher/165",
+        "https://med.cuhk.edu.cn/teacher/1118",
+        "https://med.cuhk.edu.cn/teacher/1703",
+        "https://med.cuhk.edu.cn/teacher/743"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-03",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=2",
+      "title": "医学院 · 教职人员名录第 3 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "64bd48cfbb2a7eba2aa7a708af753928dafc27d2e7b9701282a8ea02b6b3f860",
+      "scope": "医学院教职人员名录第 3 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 3 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1838",
+        "https://med.cuhk.edu.cn/teacher/1846",
+        "https://med.cuhk.edu.cn/teacher/1262",
+        "https://med.cuhk.edu.cn/teacher/1836",
+        "https://med.cuhk.edu.cn/teacher/1575",
+        "https://med.cuhk.edu.cn/teacher/172",
+        "https://med.cuhk.edu.cn/teacher/164",
+        "https://med.cuhk.edu.cn/teacher/177",
+        "https://med.cuhk.edu.cn/teacher/722",
+        "https://med.cuhk.edu.cn/teacher/1062"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-04",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=3",
+      "title": "医学院 · 教职人员名录第 4 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8a15cd9b00382cb15e2c244c44238ec88cdeec12121107e878a73b3a4e03d42c",
+      "scope": "医学院教职人员名录第 4 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 4 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/327",
+        "https://med.cuhk.edu.cn/teacher/168",
+        "https://med.cuhk.edu.cn/teacher/171",
+        "https://med.cuhk.edu.cn/teacher/1598",
+        "https://med.cuhk.edu.cn/teacher/170",
+        "https://med.cuhk.edu.cn/teacher/173",
+        "https://med.cuhk.edu.cn/teacher/1166",
+        "https://med.cuhk.edu.cn/teacher/1823",
+        "https://med.cuhk.edu.cn/teacher/181",
+        "https://med.cuhk.edu.cn/teacher/719"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-05",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=4",
+      "title": "医学院 · 教职人员名录第 5 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c937f0181ab2425bd64225c5d32c4a33bc4b18a3f8f83009650dc539e7376b69",
+      "scope": "医学院教职人员名录第 5 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 5 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1604",
+        "https://med.cuhk.edu.cn/teacher/175",
+        "https://med.cuhk.edu.cn/teacher/122",
+        "https://med.cuhk.edu.cn/teacher/182",
+        "https://med.cuhk.edu.cn/teacher/159",
+        "https://med.cuhk.edu.cn/teacher/737",
+        "https://med.cuhk.edu.cn/teacher/739",
+        "https://med.cuhk.edu.cn/teacher/733",
+        "https://med.cuhk.edu.cn/teacher/824"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-06",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=5",
+      "title": "医学院 · 教职人员名录第 6 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b049dbe4964c6bd8e58c364db801e62218c6db03c5f444712dc0d6b0bc5eb83a",
+      "scope": "医学院教职人员名录第 6 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 6 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/869",
+        "https://med.cuhk.edu.cn/teacher/957",
+        "https://med.cuhk.edu.cn/teacher/982",
+        "https://med.cuhk.edu.cn/teacher/1411",
+        "https://med.cuhk.edu.cn/teacher/1218",
+        "https://med.cuhk.edu.cn/teacher/1574",
+        "https://med.cuhk.edu.cn/teacher/1592",
+        "https://med.cuhk.edu.cn/teacher/1593",
+        "https://med.cuhk.edu.cn/teacher/1594"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-07",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=6",
+      "title": "医学院 · 教职人员名录第 7 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e136e22837c05f10409e2427787eff2e5f759b535d09ce320c2b9dd305ea2c7a",
+      "scope": "医学院教职人员名录第 7 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 7 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1669",
+        "https://med.cuhk.edu.cn/teacher/1756",
+        "https://med.cuhk.edu.cn/teacher/1762",
+        "https://med.cuhk.edu.cn/teacher/1792",
+        "https://med.cuhk.edu.cn/teacher/1794",
+        "https://med.cuhk.edu.cn/teacher/1829",
+        "https://med.cuhk.edu.cn/teacher/1837",
+        "https://med.cuhk.edu.cn/teacher/1854",
+        "https://med.cuhk.edu.cn/teacher/1858",
+        "https://med.cuhk.edu.cn/teacher/183"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-08",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=7",
+      "title": "医学院 · 教职人员名录第 8 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "952c7358c58b10fa5ee6cf01227ede8ed5f1fa05b65fded0da53bc4021c73773",
+      "scope": "医学院教职人员名录第 8 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 8 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/833",
+        "https://med.cuhk.edu.cn/teacher/956",
+        "https://med.cuhk.edu.cn/teacher/977",
+        "https://med.cuhk.edu.cn/teacher/741",
+        "https://med.cuhk.edu.cn/teacher/1083",
+        "https://med.cuhk.edu.cn/teacher/1321",
+        "https://med.cuhk.edu.cn/teacher/1442",
+        "https://med.cuhk.edu.cn/teacher/1477",
+        "https://med.cuhk.edu.cn/teacher/1612",
+        "https://med.cuhk.edu.cn/teacher/1658"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-09",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=8",
+      "title": "医学院 · 教职人员名录第 9 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "365af7df6dae8721c2fe125a92f50097d2ad4f8b941830df3813f4ea74127d7b",
+      "scope": "医学院教职人员名录第 9 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 9 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1394",
+        "https://med.cuhk.edu.cn/teacher/1860",
+        "https://med.cuhk.edu.cn/teacher/137",
+        "https://med.cuhk.edu.cn/teacher/371",
+        "https://med.cuhk.edu.cn/teacher/372",
+        "https://med.cuhk.edu.cn/teacher/373",
+        "https://med.cuhk.edu.cn/teacher/374",
+        "https://med.cuhk.edu.cn/teacher/376",
+        "https://med.cuhk.edu.cn/teacher/375",
+        "https://med.cuhk.edu.cn/teacher/184"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-10",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=9",
+      "title": "医学院 · 教职人员名录第 10 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9086338231b44be86ed3f48e58dcd7cbab45ec3776b99e47bb2a29b5f12abcfb",
+      "scope": "医学院教职人员名录第 10 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 10 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1331",
+        "https://med.cuhk.edu.cn/teacher/124",
+        "https://med.cuhk.edu.cn/teacher/227",
+        "https://med.cuhk.edu.cn/teacher/125",
+        "https://med.cuhk.edu.cn/teacher/980",
+        "https://med.cuhk.edu.cn/teacher/710",
+        "https://med.cuhk.edu.cn/teacher/228",
+        "https://med.cuhk.edu.cn/teacher/186",
+        "https://med.cuhk.edu.cn/teacher/127",
+        "https://med.cuhk.edu.cn/teacher/128"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-11",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=10",
+      "title": "医学院 · 教职人员名录第 11 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "38db478f63592ee8041a7c0ccffc534630de1a52ce3ce5329c1646f535bebb46",
+      "scope": "医学院教职人员名录第 11 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 11 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/129",
+        "https://med.cuhk.edu.cn/teacher/130",
+        "https://med.cuhk.edu.cn/teacher/131",
+        "https://med.cuhk.edu.cn/teacher/132",
+        "https://med.cuhk.edu.cn/teacher/189",
+        "https://med.cuhk.edu.cn/teacher/1329",
+        "https://med.cuhk.edu.cn/teacher/1443",
+        "https://med.cuhk.edu.cn/teacher/194",
+        "https://med.cuhk.edu.cn/teacher/190",
+        "https://med.cuhk.edu.cn/teacher/191"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-12",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=11",
+      "title": "医学院 · 教职人员名录第 12 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bafc09dbf1c120db36b8be85a3c21108b4d89a0ca50b6f3d4d73b395f53533d8",
+      "scope": "医学院教职人员名录第 12 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 12 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/193",
+        "https://med.cuhk.edu.cn/teacher/195",
+        "https://med.cuhk.edu.cn/teacher/1828",
+        "https://med.cuhk.edu.cn/teacher/1330",
+        "https://med.cuhk.edu.cn/teacher/1384",
+        "https://med.cuhk.edu.cn/teacher/1373",
+        "https://med.cuhk.edu.cn/teacher/1386",
+        "https://med.cuhk.edu.cn/teacher/1387",
+        "https://med.cuhk.edu.cn/teacher/1393",
+        "https://med.cuhk.edu.cn/teacher/1398"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-13",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=12",
+      "title": "医学院 · 教职人员名录第 13 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7244ee7c53c904069d347777befd30d30113118240c69d943114f0dcdbd2162e",
+      "scope": "医学院教职人员名录第 13 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 13 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1399",
+        "https://med.cuhk.edu.cn/teacher/1374",
+        "https://med.cuhk.edu.cn/teacher/1375",
+        "https://med.cuhk.edu.cn/teacher/1376",
+        "https://med.cuhk.edu.cn/teacher/1377",
+        "https://med.cuhk.edu.cn/teacher/1378",
+        "https://med.cuhk.edu.cn/teacher/1383",
+        "https://med.cuhk.edu.cn/teacher/1385",
+        "https://med.cuhk.edu.cn/teacher/1388",
+        "https://med.cuhk.edu.cn/teacher/1389"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-14",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=13",
+      "title": "医学院 · 教职人员名录第 14 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "41d5750c36825d1b5959dd873f8169f63c9702e0797fc8c47bf4938c550c90d5",
+      "scope": "医学院教职人员名录第 14 页，共核对 10 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 14 页，共核对 10 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1390",
+        "https://med.cuhk.edu.cn/teacher/1391",
+        "https://med.cuhk.edu.cn/teacher/1392",
+        "https://med.cuhk.edu.cn/teacher/1395",
+        "https://med.cuhk.edu.cn/teacher/1396",
+        "https://med.cuhk.edu.cn/teacher/1397",
+        "https://med.cuhk.edu.cn/teacher/1400",
+        "https://med.cuhk.edu.cn/teacher/1401",
+        "https://med.cuhk.edu.cn/teacher/1403",
+        "https://med.cuhk.edu.cn/teacher/1402"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-roster-page-15",
+      "url": "https://med.cuhk.edu.cn/teacher-search?page=14",
+      "title": "医学院 · 教职人员名录第 15 页",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9c27a66f67607d2a22b4233f09519e4e0841cf12646d715d5f96a97b798c543d",
+      "scope": "医学院教职人员名录第 15 页，共核对 1 张公开卡。",
+      "claims": [
+        "医学院教职人员名录第 15 页，共核对 1 张公开卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://med.cuhk.edu.cn/teacher/1404"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-38",
+      "url": "https://med.cuhk.edu.cn/teacher/38",
+      "title": "叶德全 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f09a380b5b6c8da1a75ebf0753d238c5d343b5814a8ebe94867734c0896b0d36",
+      "claims": [
+        "研究药理学与免疫学。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-117",
+      "url": "https://med.cuhk.edu.cn/teacher/117",
+      "title": "朱宝亭 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "29681495273a53d473d1ec9d7ae2b603b5da384fe0f6d518d2cbaf1f50af8efd",
+      "claims": [
+        "研究分子药理与药物作用机制，涉及抗癌药物、神经退行性疾病和记忆机制。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-120",
+      "url": "https://med.cuhk.edu.cn/teacher/120",
+      "title": "黄宪达 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3972b43f0219ae47e05bf7cf41606c12c9f73ab293d789ec2b2a7c2a775879f2",
+      "claims": [
+        "研究生物信息学、基因组学和生物数据库，应用包括药物设计、基因检测和精准医疗。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?hl=en&user=dj4nF7IAAAAJ"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-122",
+      "url": "https://med.cuhk.edu.cn/teacher/122",
+      "title": "雷湧 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8a596823a717db4005c1ebcd0e4275e04f6822b7177561816b84b5f1034cfa2c",
+      "claims": [
+        "研究表观遗传学和表观基因组编辑。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-159",
+      "url": "https://med.cuhk.edu.cn/teacher/159",
+      "title": "李丛磊 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ac546f6d8c7216b8a467f482b5c4feb0268b48131010e14beafca3de231f57be",
+      "claims": [
+        "研究 B 细胞抗体生成、宿主与微生物的相互作用、肠道免疫及 DNA 损伤修复。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-165",
+      "url": "https://med.cuhk.edu.cn/teacher/165",
+      "title": "HIRAO, Hajime · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd72e5dbce7d260a3d34fa209c45c234d8e0118018209ad15e7de36072f5468b",
+      "claims": [
+        "研究计算化学与计算生物学，关注细胞色素 P450 和药物代谢。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-166",
+      "url": "https://med.cuhk.edu.cn/teacher/166",
+      "title": "刘国珍 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "84e305e8c133112481e2b57228b1048aba3cff16f81878a5ac3742be99ce8f98",
+      "claims": [
+        "研究生物传感器、微流控芯片、柔性可穿戴器件、3D 打印和体外诊断。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.com.au/citations?user=xms_zr0AAAAJ&hl=en",
+        "https://www.x-mol.com/groups/liu_guozhen"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-168",
+      "url": "https://med.cuhk.edu.cn/teacher/168",
+      "title": "成贵娟 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a60806d92831e16490c149a05f6ce5ad0410840b53b06c756586c379c7e21c1c",
+      "claims": [
+        "研究计算化学和计算生物学，涉及酶催化、反应机理、药物设计与生物合成。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-170",
+      "url": "https://med.cuhk.edu.cn/teacher/170",
+      "title": "STJEPANOVIC, Goran · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "31e19b89991f76702c6f681713738d1faf6e48cb8ccc91216867ad3deb1e6159",
+      "claims": [
+        "研究膜生物化学、生物物理和结构生物学。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.researcherid.com/rid/A-7902-2010",
+        "https://orcid.org/0000-0002-4841-9949"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-171",
+      "url": "https://med.cuhk.edu.cn/teacher/171",
+      "title": "竺立哲 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b29e8a1456efec49a3e30332274cab78e0d2e3bda93c3165695eaebe40c98ac3",
+      "claims": [
+        "研究生物分子模拟，结合机器学习与增强采样，应用于基因编辑酶和药物设计。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-172",
+      "url": "https://med.cuhk.edu.cn/teacher/172",
+      "title": "杜洋 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "da10e92858d99e2dbcba4e9af86881c2cc7fb235512d579e7ed746bc7b5f1a30",
+      "claims": [
+        "研究 G 蛋白偶联受体、信号转导、结构药理学与基于结构的药物设计。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-173",
+      "url": "https://med.cuhk.edu.cn/teacher/173",
+      "title": "胡红丽 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "15e24466bbb8a35fcf58d3f5949e0f11f8c07b6f74ad865b02922cb17a6e1a0b",
+      "claims": [
+        "利用冷冻电镜研究膜蛋白和 G 蛋白偶联受体的结构与功能，关注药物筛选。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-177",
+      "url": "https://med.cuhk.edu.cn/teacher/177",
+      "title": "赵永娟 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "293a052357b23676fffe8f8627015432e05d14b5028d61e291f6c92ab3a7d109",
+      "claims": [
+        "研究 cADPR 信号机制及相关药物开发，关注天然免疫、肠道发育与神经退变。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=V3x9K3wAAAAJ&hl=zh-TW"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-182",
+      "url": "https://med.cuhk.edu.cn/teacher/182",
+      "title": "陈吉航 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4baf37880fc981b6d7af8c6bbda69cc6cb0a64c589b2fc17b9180e4f78d62d6b",
+      "claims": [
+        "研究中药和天然药物的药理作用与药效物质。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-319",
+      "url": "https://med.cuhk.edu.cn/teacher/319",
+      "title": "NELSON, Edmund Anthony Severn (Tony) · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "33fae5395becbe34eed3c6466fd9b75e1e65f75b66a0f0bb9227139a73106b86",
+      "claims": [
+        "研究儿科疫苗、腹泻和呼吸道疾病监测、儿童生长、母乳喂养与婴儿猝死综合征。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-327",
+      "url": "https://med.cuhk.edu.cn/teacher/327",
+      "title": "杜鹃 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "df32068c09bfd4301e88e9f7662f97a9de38e9929f2818d54c05a924667e26db",
+      "claims": [
+        "研究钙信号与细胞外囊泡分泌，探索囊泡递药、疾病标志物和精准诊疗。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-722",
+      "url": "https://med.cuhk.edu.cn/teacher/722",
+      "title": "王冠宇 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "96fd15e213f0f97908af6f48307c49a487deff805c0e8c5b1675dc31d8e1f5a5",
+      "claims": [
+        "研究定量与合成生物学、生物信息学、生物复杂性和生物医学工程。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/wangguanyu"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-personal-link-722",
+      "url": "https://myweb.cuhk.edu.cn/wangguanyu",
+      "originalUrl": "https://myweb.cuhk.edu.cn/wangguanyu",
+      "retrievedUrl": "https://myweb.cuhk.edu.cn/wangguanyu",
+      "parentSourceId": "cuhksz-med-faculty-20261109-profile-722",
+      "title": "王冠宇 · 本人档案所给链接",
+      "checkedAt": "2026-11-09",
+      "scope": "个人站介绍复杂疾病的系统分析、生物实验和数学建模。",
+      "claims": [
+        "个人站介绍复杂疾病的系统分析、生物实验和数学建模。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "knownIssues": [],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "162cbbdf4cab90483c18b30620014b1d280c0b39afce5f73f9460dc70e1a28ba"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-732",
+      "url": "https://med.cuhk.edu.cn/teacher/732",
+      "title": "贺益盛 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3b99ed8c79c85829012091eea92f4f72273fa04b12ac083aebd87d3d038c38b3",
+      "claims": [
+        "研究药物与食品安全、药代动力学、药物性肝损伤、毒理学和临床生物标志物。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/heyisheng"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-personal-link-732",
+      "url": "https://myweb.cuhk.edu.cn/heyisheng",
+      "originalUrl": "https://myweb.cuhk.edu.cn/heyisheng",
+      "retrievedUrl": "https://myweb.cuhk.edu.cn/heyisheng",
+      "parentSourceId": "cuhksz-med-faculty-20261109-profile-732",
+      "title": "贺益盛 · 本人档案所给链接",
+      "checkedAt": "2026-11-09",
+      "scope": "个人站列药物性肝损伤、毒理和生物标志物研究。",
+      "claims": [
+        "个人站列药物性肝损伤、毒理和生物标志物研究。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "knownIssues": [],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "0dbcb44b89e3508c941ae2a8bb3a985e3f796ddffb220857d2a3cd3eb444d07e"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-733",
+      "url": "https://med.cuhk.edu.cn/teacher/733",
+      "title": "王勇斐 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7c6a8e29b2493a717dc7f3b83462125c4cd37ba1128f48a26a66441e62c7c918",
+      "claims": [
+        "研究系统性红斑狼疮等自身免疫病的遗传学和多组学，涉及药物靶点筛选与药物重定位。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-737",
+      "url": "https://med.cuhk.edu.cn/teacher/737",
+      "title": "蒋成 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b5c1bf0e67c9b0f9d7239b75be89059979503e577bef55e1f775cdb92a4c80c8",
+      "claims": [
+        "研究细胞外囊泡、神经退行性疾病、液体活检、生物传感与生物标志物开发。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/jiangcheng"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-personal-link-737",
+      "url": "https://myweb.cuhk.edu.cn/jiangcheng",
+      "originalUrl": "https://myweb.cuhk.edu.cn/jiangcheng",
+      "retrievedUrl": "https://myweb.cuhk.edu.cn/jiangcheng",
+      "parentSourceId": "cuhksz-med-faculty-20261109-profile-737",
+      "title": "蒋成 · 本人档案所给链接",
+      "checkedAt": "2026-11-09",
+      "scope": "课题组页列柔性电子、可穿戴器件和信号处理方向，所列招募未注明入学期。",
+      "claims": [
+        "课题组页列柔性电子、可穿戴器件和信号处理方向，所列招募未注明入学期。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "knownIssues": [],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "88013706f4228566391184c7432dd1158693e8f302b2153ec21f40ffff301d00"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-739",
+      "url": "https://med.cuhk.edu.cn/teacher/739",
+      "title": "崔小林 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "168aded54bb78424b838810b7b82806a939aa743b540c672d6fa2226e172bef1",
+      "claims": [
+        "研究生物制造、干细胞和无细胞治疗、组织工程与再生医学。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-740",
+      "url": "https://med.cuhk.edu.cn/teacher/740",
+      "title": "王任直 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f26377f50e70b1795598a229457fafb7d0f4164901647ee8617bdb8985087155",
+      "claims": [
+        "研究神经系统疾病数据库、脑肿瘤诊疗靶点，以及多组学、医学图像和人工智能在神经系统疾病中的应用。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-743",
+      "url": "https://med.cuhk.edu.cn/teacher/743",
+      "title": "林顺潮 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c8fcae9f1a887818beb54aba0467143f1962acc98a15b438bc83c8e454b2a16f",
+      "claims": [
+        "研究白内障、青光眼、近视防控、眼表和视网膜疾病及眼科新药。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.pieri.ac.cn/"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-personal-link-743",
+      "url": "https://www.pieri.ac.cn/",
+      "originalUrl": "https://www.pieri.ac.cn/",
+      "retrievedUrl": "https://www.pieri.ac.cn/",
+      "parentSourceId": "cuhksz-med-faculty-20261109-profile-743",
+      "title": "林顺潮 · 本人档案所给链接",
+      "checkedAt": "2026-11-09",
+      "scope": "所给链接为眼科研究所，介绍基础与临床眼科研究平台。",
+      "claims": [
+        "所给链接为眼科研究所，介绍基础与临床眼科研究平台。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "knownIssues": [],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "7ce147f2c0b5043ddf041936238449c5fb1c12773d933b85129b4cc464c92d8c"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-792",
+      "url": "https://med.cuhk.edu.cn/teacher/792",
+      "title": "于广军 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3ff95b0a6db982c1e187e6cea82121f7713ac9d8291b68ddcede8f502417eeb6",
+      "claims": [
+        "研究医疗大数据、互联网医疗与智慧医院，以及高危儿管理和多动症医教结合。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-824",
+      "url": "https://med.cuhk.edu.cn/teacher/824",
+      "title": "郭景慧 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "533d856e5947f5658b0abc7972e0a76c815d440c9f505ef06bb8fb08be8556c1",
+      "claims": [
+        "研究离子通道在生殖与内分泌系统中的功能，开发光和超声调控工具。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-829",
+      "url": "https://med.cuhk.edu.cn/teacher/829",
+      "title": "邹和群 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "29c541692166a400a99e21b9a8a8d71a3d2ef90c3d51e56b6f328eaa785929b8",
+      "claims": [
+        "研究肾脏病的发病机制，并探索细胞外囊泡、液体活检和慢病分子诊断。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-869",
+      "url": "https://med.cuhk.edu.cn/teacher/869",
+      "title": "郭雪 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "62e7a0ac43ec4930045461fb0970e58c710334d6f959aabdfb8e451677bbacea",
+      "claims": [
+        "研究疾病相关蛋白的结构及其构象变化如何调控功能。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-957",
+      "url": "https://med.cuhk.edu.cn/teacher/957",
+      "title": "宋扬 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e5d3189cb39b108549bc288ceced574c4c793fa8c9ba9bb364c588dbaeee5ad7",
+      "claims": [
+        "研究临床方法学、循证决策和指南制定，包括癌症筛查及辅助生殖。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-976",
+      "url": "https://med.cuhk.edu.cn/teacher/976",
+      "title": "李昭廷 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e69065f9d50f738aa1bd2cf698acb960d5be775526cdae4260e7ad8b188f4d4d",
+      "claims": [
+        "研究细胞治疗、生物制剂、药物递送与免疫治疗。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.zhaotingli.com"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-981",
+      "url": "https://med.cuhk.edu.cn/teacher/981",
+      "title": "李晨钟 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6acebb8ce361505ae484c45a00bf7da89f119908c3ae3c8a006d208c911f3a35",
+      "claims": [
+        "研究生物芯片、生物传感器、微流控、脑机接口和器官芯片。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-982",
+      "url": "https://med.cuhk.edu.cn/teacher/982",
+      "title": "张舵 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e55bcab19adf61a24f99e8ed111e26df650fd952c11a38dbad643dcb62f4bbaf",
+      "claims": [
+        "研究生物制造、多功能水凝胶器件和组织工程。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-998",
+      "url": "https://med.cuhk.edu.cn/teacher/998",
+      "title": "尹玉新 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d2190f4c6ee111a1db349b528d579c9a3d2d18a6604b29f4540fd197e2fda451",
+      "claims": [
+        "研究 PTEN 在肿瘤和代谢中的作用，以及肿瘤免疫、遗传病诊断和医学人工智能。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1062",
+      "url": "https://med.cuhk.edu.cn/teacher/1062",
+      "title": "陈世雄 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a63702beae7579c8a790d8c9b8bc2137c8a9830e86ccaf55c415b9134e856283",
+      "claims": [
+        "研究脑电和肌电传感、可穿戴系统、深度学习信号分析与神经系统疾病早期诊断。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1118",
+      "url": "https://med.cuhk.edu.cn/teacher/1118",
+      "title": "孙昊 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0e9398679f78f52a4474f138b0e5f227aa8c86e06a04a42fcbb8b12928c2ee0f",
+      "claims": [
+        "研究基因组学和高通量测序数据分析，包括无创产前诊断、癌症早筛和非编码 RNA 的调控。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1166",
+      "url": "https://med.cuhk.edu.cn/teacher/1166",
+      "title": "萧桂仪 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8a9844834cba28666cb3acfcbe5421e328de0bab606884352af6bccd6b8dcb7c",
+      "claims": [
+        "研究胎儿和儿科喉科学、微创喉手术、内镜耳科及儿科医疗公平。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1182",
+      "url": "https://med.cuhk.edu.cn/teacher/1182",
+      "title": "徐志豪 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e90720844b9f936efd750669f0779e815d2ba3aeb212132272ec2fde0c684838",
+      "claims": [
+        "研究区域麻醉、神经阻滞、超声引导技术、气道管理与神经刺激器械。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1411",
+      "url": "https://med.cuhk.edu.cn/teacher/1411",
+      "title": "金仙真 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4a8c7beba24b6c9532d57737a5c94c3f83f66884cc598fbd71a10d592efd6618",
+      "claims": [
+        "研究分子诊断和蛋白质工程，开发诊断平台、分裂蛋白系统与组学工具。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1574",
+      "url": "https://med.cuhk.edu.cn/teacher/1574",
+      "title": "章杰 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7055fe31f0620de5fc6b29e10075287b70e74b05ff0959fa32c56a4f05c81f75",
+      "claims": [
+        "研究青少年抑郁障碍，以及新技术在医学教育和临床诊疗中的应用。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1575",
+      "url": "https://med.cuhk.edu.cn/teacher/1575",
+      "title": "张敬法 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c64c91b17d531beed8a1ddfe538e79488c91cc039cf4cc692c25183ee624f94f",
+      "claims": [
+        "研究糖尿病视网膜病变、年龄相关性黄斑变性等眼底疾病的发病机制与治疗。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1592",
+      "url": "https://med.cuhk.edu.cn/teacher/1592",
+      "title": "穆婧 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "662d722fbc31decfad40e299c74859dacb8f24cf1978e2981865715fb72788cf",
+      "claims": [
+        "研究纳米材料的生物效应、医学成像及荧光手术导航。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/mujing"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-personal-link-1592",
+      "url": "https://myweb.cuhk.edu.cn/mujing",
+      "originalUrl": "https://myweb.cuhk.edu.cn/mujing",
+      "retrievedUrl": "https://myweb.cuhk.edu.cn/mujing",
+      "parentSourceId": "cuhksz-med-faculty-20261109-profile-1592",
+      "title": "穆婧 · 本人档案所给链接",
+      "checkedAt": "2026-11-09",
+      "scope": "个人站确认医学院任职，并列纳米医学与分子成像研究。",
+      "claims": [
+        "个人站确认医学院任职，并列纳米医学与分子成像研究。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "knownIssues": [],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a8ec3f9e48077d9a82b0bf100345f7981ffd5494d58f09800e63921a1869067d"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1593",
+      "url": "https://med.cuhk.edu.cn/teacher/1593",
+      "title": "丁典 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "89c8ab6db5d57f55184a0dfb56f66d741257ef7fce75564d0fed5ec72bcd8523",
+      "claims": [
+        "以结构生物学研究蛋白质功能与致病机制，并应用于药物筛选。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1594",
+      "url": "https://med.cuhk.edu.cn/teacher/1594",
+      "title": "曹冰 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "778b5b5561722e22d1235a5fd144cd6fa1030cdd11c2482df6845d7f4f247b92",
+      "claims": [
+        "结合系统神经科学、神经解剖和电生理，研究认知功能与慢性疼痛。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1598",
+      "url": "https://med.cuhk.edu.cn/teacher/1598",
+      "title": "章桂喜 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dc73bc6e431e482ba2f59ba31da65974adc30ca3df77b7ed4e6640432644c71a",
+      "claims": [
+        "研究创伤救治与区域创伤系统、创伤风险的空间分析、胃肠肿瘤和微创外科。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1669",
+      "url": "https://med.cuhk.edu.cn/teacher/1669",
+      "title": "尹昕 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f7dc788653c3eed60b80792873e015d950603931c6fb2742e5cce338ac1f9165",
+      "claims": [
+        "研究慢性病流行病学、女性生殖健康、营养、基因与环境交互作用和多组学。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://myweb.cuhk.edu.cn/yinxin/"
+      ]
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-personal-link-1669",
+      "url": "https://myweb.cuhk.edu.cn/yinxin/",
+      "originalUrl": "https://myweb.cuhk.edu.cn/yinxin/",
+      "retrievedUrl": "https://myweb.cuhk.edu.cn/yinxin/",
+      "parentSourceId": "cuhksz-med-faculty-20261109-profile-1669",
+      "title": "尹昕 · 本人档案所给链接",
+      "checkedAt": "2026-11-09",
+      "scope": "个人站介绍生命历程中的女性健康及生殖健康与慢性病风险。",
+      "claims": [
+        "个人站介绍生命历程中的女性健康及生殖健康与慢性病风险。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "knownIssues": [],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "61c561e68d9d71e44f71a0461a29732bdf424f6d6308d2e79bc0230a68f8b410"
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1703",
+      "url": "https://med.cuhk.edu.cn/teacher/1703",
+      "title": "林康广 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6c159903ba7d73e9d0dabf7fa3c8e2b6cd78cb0879351f43a04d1f2923460a95",
+      "claims": [
+        "研究抑郁症和双相障碍的机制、计算精神病学、神经影像及非药物干预。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1756",
+      "url": "https://med.cuhk.edu.cn/teacher/1756",
+      "title": "张家迪 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "16302fe7399ff18afceaeef248a7b8a75614b4b9c7179d712f1caadbf523934e",
+      "claims": [
+        "研究人畜共患病、抗菌素耐药性、登革病毒、噬菌体和智能检验医学。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1792",
+      "url": "https://med.cuhk.edu.cn/teacher/1792",
+      "title": "高会智 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e4bcf5087271dfcf7eae6033f71cc99881a3fb0968a33ff63fc558a49e3b5e50",
+      "claims": [
+        "研究传染病流行病学、健康行为、人口老龄化及健康不平等。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1794",
+      "url": "https://med.cuhk.edu.cn/teacher/1794",
+      "title": "彭绵 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "13c5fa204c2b2feadad542cd5972a139b0e8b1b5a685ed841d9a4f23525a4db3",
+      "claims": [
+        "研究脓毒症中的肠–肺轴及模拟医学教育。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-profile-1823",
+      "url": "https://med.cuhk.edu.cn/teacher/1823",
+      "title": "周治国 · 医学院个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6eb7220676b5cf0f1880d6184dc17eb4cb1fe8022af6c48665b9dcb00abca90f",
+      "claims": [
+        "研究可靠人工智能及其在临床医学中的应用。"
+      ],
+      "scope": "医学院个人档案所列任职和研究领域。",
+      "knownIssues": [],
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -227692,6 +231931,1267 @@ window.APP_CATALOG = {
         ],
         "observedTotal": 0,
         "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "cuhksz-med-faculty-20261109-directory",
+      "universityId": "cuhksz",
+      "unit": "医学院 · 教职人员名录",
+      "url": "https://med.cuhk.edu.cn/teacher-search",
+      "sourceIds": [
+        "cuhksz-med-20261109-faculty",
+        "cuhksz-med-faculty-20261109-roster-page-02",
+        "cuhksz-med-faculty-20261109-roster-page-03",
+        "cuhksz-med-faculty-20261109-roster-page-04",
+        "cuhksz-med-faculty-20261109-roster-page-05",
+        "cuhksz-med-faculty-20261109-roster-page-06",
+        "cuhksz-med-faculty-20261109-roster-page-07",
+        "cuhksz-med-faculty-20261109-roster-page-08",
+        "cuhksz-med-faculty-20261109-roster-page-09",
+        "cuhksz-med-faculty-20261109-roster-page-10",
+        "cuhksz-med-faculty-20261109-roster-page-11",
+        "cuhksz-med-faculty-20261109-roster-page-12",
+        "cuhksz-med-faculty-20261109-roster-page-13",
+        "cuhksz-med-faculty-20261109-roster-page-14",
+        "cuhksz-med-faculty-20261109-roster-page-15"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "官网教职人员名录共 15 页，含临床、教学、访问和客座等任职。研究学位指导名单按项目查看。",
+      "reviewSourceIds": [
+        "cuhksz-med-faculty-20261109-profile-38",
+        "cuhksz-med-faculty-20261109-profile-117",
+        "cuhksz-med-faculty-20261109-profile-120",
+        "cuhksz-med-faculty-20261109-profile-122",
+        "cuhksz-med-faculty-20261109-profile-159",
+        "cuhksz-med-faculty-20261109-profile-165",
+        "cuhksz-med-faculty-20261109-profile-166",
+        "cuhksz-med-faculty-20261109-profile-168",
+        "cuhksz-med-faculty-20261109-profile-170",
+        "cuhksz-med-faculty-20261109-profile-171",
+        "cuhksz-med-faculty-20261109-profile-172",
+        "cuhksz-med-faculty-20261109-profile-173",
+        "cuhksz-med-faculty-20261109-profile-177",
+        "cuhksz-med-faculty-20261109-profile-182",
+        "cuhksz-med-faculty-20261109-profile-319",
+        "cuhksz-med-faculty-20261109-profile-327",
+        "cuhksz-med-faculty-20261109-profile-722",
+        "cuhksz-med-faculty-20261109-profile-732",
+        "cuhksz-med-faculty-20261109-profile-733",
+        "cuhksz-med-faculty-20261109-profile-737",
+        "cuhksz-med-faculty-20261109-profile-739",
+        "cuhksz-med-faculty-20261109-profile-740",
+        "cuhksz-med-faculty-20261109-profile-743",
+        "cuhksz-med-faculty-20261109-profile-792",
+        "cuhksz-med-faculty-20261109-profile-824",
+        "cuhksz-med-faculty-20261109-profile-829",
+        "cuhksz-med-faculty-20261109-profile-869",
+        "cuhksz-med-faculty-20261109-profile-957",
+        "cuhksz-med-faculty-20261109-profile-976",
+        "cuhksz-med-faculty-20261109-profile-981",
+        "cuhksz-med-faculty-20261109-profile-982",
+        "cuhksz-med-faculty-20261109-profile-998",
+        "cuhksz-med-faculty-20261109-profile-1062",
+        "cuhksz-med-faculty-20261109-profile-1118",
+        "cuhksz-med-faculty-20261109-profile-1166",
+        "cuhksz-med-faculty-20261109-profile-1182",
+        "cuhksz-med-faculty-20261109-profile-1411",
+        "cuhksz-med-faculty-20261109-profile-1574",
+        "cuhksz-med-faculty-20261109-profile-1575",
+        "cuhksz-med-faculty-20261109-profile-1592",
+        "cuhksz-med-faculty-20261109-profile-1593",
+        "cuhksz-med-faculty-20261109-profile-1594",
+        "cuhksz-med-faculty-20261109-profile-1598",
+        "cuhksz-med-faculty-20261109-profile-1669",
+        "cuhksz-med-faculty-20261109-profile-1703",
+        "cuhksz-med-faculty-20261109-profile-1756",
+        "cuhksz-med-faculty-20261109-profile-1792",
+        "cuhksz-med-faculty-20261109-profile-1794",
+        "cuhksz-med-faculty-20261109-profile-1823"
+      ],
+      "census": {
+        "entries": [
+          {
+            "name": "WARSHEL, Arieh",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/110",
+            "directoryPosition": "访问教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "KOBILKA, Brian",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/113",
+            "directoryPosition": "访问教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "赵伟仁，JP",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1859",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "叶德全",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/38",
+            "directoryPosition": "校长讲座教授、教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究药理学与免疫学。",
+            "facultyId": "cuhksz-med-faculty-20261109-38"
+          },
+          {
+            "name": "徐志豪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1182",
+            "directoryPosition": "校长讲座教授、教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究区域麻醉、神经阻滞、超声引导技术、气道管理与神经刺激器械。",
+            "facultyId": "cuhksz-med-faculty-20261109-1182"
+          },
+          {
+            "name": "尹玉新",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/998",
+            "directoryPosition": "校长讲座教授、教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究 PTEN 在肿瘤和代谢中的作用，以及肿瘤免疫、遗传病诊断和医学人工智能。",
+            "facultyId": "cuhksz-med-faculty-20261109-998"
+          },
+          {
+            "name": "黄宪达",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/120",
+            "directoryPosition": "校长讲座教授、教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究生物信息学、基因组学和生物数据库，应用包括药物设计、基因检测和精准医疗。",
+            "facultyId": "cuhksz-med-faculty-20261109-120"
+          },
+          {
+            "name": "于广军",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/792",
+            "directoryPosition": "校长讲座教授、教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究医疗大数据、互联网医疗与智慧医院，以及高危儿管理和多动症医教结合。",
+            "facultyId": "cuhksz-med-faculty-20261109-792"
+          },
+          {
+            "name": "朱宝亭",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/117",
+            "directoryPosition": "校长讲座教授、教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究分子药理与药物作用机制，涉及抗癌药物、神经退行性疾病和记忆机制。",
+            "facultyId": "cuhksz-med-faculty-20261109-117"
+          },
+          {
+            "name": "NELSON, Edmund Anthony Severn (Tony)",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/319",
+            "directoryPosition": "教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究儿科疫苗、腹泻和呼吸道疾病监测、儿童生长、母乳喂养与婴儿猝死综合征。",
+            "facultyId": "cuhksz-med-faculty-20261109-319"
+          },
+          {
+            "name": "王任直",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/740",
+            "directoryPosition": "校长讲座教授、教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究神经系统疾病数据库、脑肿瘤诊疗靶点，以及多组学、医学图像和人工智能在神经系统疾病中的应用。",
+            "facultyId": "cuhksz-med-faculty-20261109-740"
+          },
+          {
+            "name": "邹和群",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/829",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究肾脏病的发病机制，并探索细胞外囊泡、液体活检和慢病分子诊断。",
+            "facultyId": "cuhksz-med-faculty-20261109-829"
+          },
+          {
+            "name": "李晨钟",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/981",
+            "directoryPosition": "校长学勤讲座教授、教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究生物芯片、生物传感器、微流控、脑机接口和器官芯片。",
+            "facultyId": "cuhksz-med-faculty-20261109-981"
+          },
+          {
+            "name": "陈学进",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/121",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "陈浩伟",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/927",
+            "directoryPosition": "校长讲座教授、教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "刘国珍",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/166",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究生物传感器、微流控芯片、柔性可穿戴器件、3D 打印和体外诊断。",
+            "facultyId": "cuhksz-med-faculty-20261109-166"
+          },
+          {
+            "name": "HIRAO, Hajime",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/165",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究计算化学与计算生物学，关注细胞色素 P450 和药物代谢。",
+            "facultyId": "cuhksz-med-faculty-20261109-165"
+          },
+          {
+            "name": "孙昊",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1118",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究基因组学和高通量测序数据分析，包括无创产前诊断、癌症早筛和非编码 RNA 的调控。",
+            "facultyId": "cuhksz-med-faculty-20261109-1118"
+          },
+          {
+            "name": "林康广",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1703",
+            "directoryPosition": "教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究抑郁症和双相障碍的机制、计算精神病学、神经影像及非药物干预。",
+            "facultyId": "cuhksz-med-faculty-20261109-1703"
+          },
+          {
+            "name": "林顺潮",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/743",
+            "directoryPosition": "教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究白内障、青光眼、近视防控、眼表和视网膜疾病及眼科新药。",
+            "facultyId": "cuhksz-med-faculty-20261109-743"
+          },
+          {
+            "name": "TOMLINSON, Brian（汤宁信）",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1838",
+            "directoryPosition": "教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "ACKERMAN, Lani Kay",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1846",
+            "directoryPosition": "教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张铭",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1262",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "沙鸥",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1836",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张敬法",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1575",
+            "directoryPosition": "教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究糖尿病视网膜病变、年龄相关性黄斑变性等眼底疾病的发病机制与治疗。",
+            "facultyId": "cuhksz-med-faculty-20261109-1575"
+          },
+          {
+            "name": "杜洋",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/172",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究 G 蛋白偶联受体、信号转导、结构药理学与基于结构的药物设计。",
+            "facultyId": "cuhksz-med-faculty-20261109-172"
+          },
+          {
+            "name": "陈刚",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/164",
+            "directoryPosition": "副教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "赵永娟",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/177",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究 cADPR 信号机制及相关药物开发，关注天然免疫、肠道发育与神经退变。",
+            "facultyId": "cuhksz-med-faculty-20261109-177"
+          },
+          {
+            "name": "王冠宇",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/722",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究定量与合成生物学、生物信息学、生物复杂性和生物医学工程。",
+            "facultyId": "cuhksz-med-faculty-20261109-722"
+          },
+          {
+            "name": "陈世雄",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1062",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究脑电和肌电传感、可穿戴系统、深度学习信号分析与神经系统疾病早期诊断。",
+            "facultyId": "cuhksz-med-faculty-20261109-1062"
+          },
+          {
+            "name": "杜鹃",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/327",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究钙信号与细胞外囊泡分泌，探索囊泡递药、疾病标志物和精准诊疗。",
+            "facultyId": "cuhksz-med-faculty-20261109-327"
+          },
+          {
+            "name": "成贵娟",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/168",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究计算化学和计算生物学，涉及酶催化、反应机理、药物设计与生物合成。",
+            "facultyId": "cuhksz-med-faculty-20261109-168"
+          },
+          {
+            "name": "竺立哲",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/171",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究生物分子模拟，结合机器学习与增强采样，应用于基因编辑酶和药物设计。",
+            "facultyId": "cuhksz-med-faculty-20261109-171"
+          },
+          {
+            "name": "章桂喜",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1598",
+            "directoryPosition": "副教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究创伤救治与区域创伤系统、创伤风险的空间分析、胃肠肿瘤和微创外科。",
+            "facultyId": "cuhksz-med-faculty-20261109-1598"
+          },
+          {
+            "name": "STJEPANOVIC, Goran",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/170",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究膜生物化学、生物物理和结构生物学。",
+            "facultyId": "cuhksz-med-faculty-20261109-170"
+          },
+          {
+            "name": "胡红丽",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/173",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "利用冷冻电镜研究膜蛋白和 G 蛋白偶联受体的结构与功能，关注药物筛选。",
+            "facultyId": "cuhksz-med-faculty-20261109-173"
+          },
+          {
+            "name": "萧桂仪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1166",
+            "directoryPosition": "副教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究胎儿和儿科喉科学、微创喉手术、内镜耳科及儿科医疗公平。",
+            "facultyId": "cuhksz-med-faculty-20261109-1166"
+          },
+          {
+            "name": "周治国",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1823",
+            "directoryPosition": "副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究可靠人工智能及其在临床医学中的应用。",
+            "facultyId": "cuhksz-med-faculty-20261109-1823"
+          },
+          {
+            "name": "白芸",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/181",
+            "directoryPosition": "副教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "陈卫",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/719",
+            "directoryPosition": "副教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "TAN, Patrick Y.",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1604",
+            "directoryPosition": "副教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王攀",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/175",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "雷湧",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/122",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究表观遗传学和表观基因组编辑。",
+            "facultyId": "cuhksz-med-faculty-20261109-122"
+          },
+          {
+            "name": "陈吉航",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/182",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究中药和天然药物的药理作用与药效物质。",
+            "facultyId": "cuhksz-med-faculty-20261109-182"
+          },
+          {
+            "name": "李丛磊",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/159",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究 B 细胞抗体生成、宿主与微生物的相互作用、肠道免疫及 DNA 损伤修复。",
+            "facultyId": "cuhksz-med-faculty-20261109-159"
+          },
+          {
+            "name": "蒋成",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/737",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究细胞外囊泡、神经退行性疾病、液体活检、生物传感与生物标志物开发。",
+            "facultyId": "cuhksz-med-faculty-20261109-737"
+          },
+          {
+            "name": "崔小林",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/739",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究生物制造、干细胞和无细胞治疗、组织工程与再生医学。",
+            "facultyId": "cuhksz-med-faculty-20261109-739"
+          },
+          {
+            "name": "王勇斐",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/733",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究系统性红斑狼疮等自身免疫病的遗传学和多组学，涉及药物靶点筛选与药物重定位。",
+            "facultyId": "cuhksz-med-faculty-20261109-733"
+          },
+          {
+            "name": "郭景慧",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/824",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究离子通道在生殖与内分泌系统中的功能，开发光和超声调控工具。",
+            "facultyId": "cuhksz-med-faculty-20261109-824"
+          },
+          {
+            "name": "郭雪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/869",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究疾病相关蛋白的结构及其构象变化如何调控功能。",
+            "facultyId": "cuhksz-med-faculty-20261109-869"
+          },
+          {
+            "name": "宋扬",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/957",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究临床方法学、循证决策和指南制定，包括癌症筛查及辅助生殖。",
+            "facultyId": "cuhksz-med-faculty-20261109-957"
+          },
+          {
+            "name": "张舵",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/982",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究生物制造、多功能水凝胶器件和组织工程。",
+            "facultyId": "cuhksz-med-faculty-20261109-982"
+          },
+          {
+            "name": "金仙真",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1411",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究分子诊断和蛋白质工程，开发诊断平台、分裂蛋白系统与组学工具。",
+            "facultyId": "cuhksz-med-faculty-20261109-1411"
+          },
+          {
+            "name": "徐俊勤",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1218",
+            "directoryPosition": "助理教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "章杰",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1574",
+            "directoryPosition": "助理教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究青少年抑郁障碍，以及新技术在医学教育和临床诊疗中的应用。",
+            "facultyId": "cuhksz-med-faculty-20261109-1574"
+          },
+          {
+            "name": "穆婧",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1592",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究纳米材料的生物效应、医学成像及荧光手术导航。",
+            "facultyId": "cuhksz-med-faculty-20261109-1592"
+          },
+          {
+            "name": "丁典",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1593",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "以结构生物学研究蛋白质功能与致病机制，并应用于药物筛选。",
+            "facultyId": "cuhksz-med-faculty-20261109-1593"
+          },
+          {
+            "name": "曹冰",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1594",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "结合系统神经科学、神经解剖和电生理，研究认知功能与慢性疼痛。",
+            "facultyId": "cuhksz-med-faculty-20261109-1594"
+          },
+          {
+            "name": "尹昕",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1669",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究慢性病流行病学、女性生殖健康、营养、基因与环境交互作用和多组学。",
+            "facultyId": "cuhksz-med-faculty-20261109-1669"
+          },
+          {
+            "name": "张家迪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1756",
+            "directoryPosition": "助理教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究人畜共患病、抗菌素耐药性、登革病毒、噬菌体和智能检验医学。",
+            "facultyId": "cuhksz-med-faculty-20261109-1756"
+          },
+          {
+            "name": "邱俊豪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1762",
+            "directoryPosition": "助理教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "高会智",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1792",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究传染病流行病学、健康行为、人口老龄化及健康不平等。",
+            "facultyId": "cuhksz-med-faculty-20261109-1792"
+          },
+          {
+            "name": "彭绵",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1794",
+            "directoryPosition": "助理教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究脓毒症中的肠–肺轴及模拟医学教育。",
+            "facultyId": "cuhksz-med-faculty-20261109-1794"
+          },
+          {
+            "name": "孙培真",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1829",
+            "directoryPosition": "助理教授（临床）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "何国栋",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1837",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张姜",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1854",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "李志坚",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1858",
+            "directoryPosition": "助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "杨洲",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/183",
+            "directoryPosition": "助理教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "SHAKYA, Anjana",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/833",
+            "directoryPosition": "助理教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "孙睿",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/956",
+            "directoryPosition": "助理教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王霞",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/977",
+            "directoryPosition": "助理教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "余轶婧",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/741",
+            "directoryPosition": "助理教授（教学）",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "平质",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1083",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "刘隽燕",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1321",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "谢思聪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1442",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "PRABHU, Sumedha Nitin",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1477",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "李艺茵",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1612",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "刘美慧",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1658",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "吾布力卡斯木·吾拉木",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1394",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "GALYMZHAN, Kuatbay",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1860",
+            "directoryPosition": "讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "郑仲煊",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/137",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "CHERIAN, Meena Nathan",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/371",
+            "directoryPosition": "国际客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "黄念慈",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/372",
+            "directoryPosition": "国际客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "ORSER, Beverley Anne",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/373",
+            "directoryPosition": "国际客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "SHERNAN, Stanton Keith",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/374",
+            "directoryPosition": "国际客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "MARTIN, Janet",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/376",
+            "directoryPosition": "国际客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "CHAN, Teresa",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/375",
+            "directoryPosition": "国际客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "唐本忠",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/184",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王维民",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1331",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "余学清",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/124",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张政",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/227",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "吴一龙",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/125",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "杨重光",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/980",
+            "directoryPosition": "客座教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "BAEG, Gyeong Hun",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/710",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王明锋",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/228",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张昭宇",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/186",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "吴松",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/127",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王丽娟",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/128",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "庄建",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/129",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "钟文昭",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/130",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "刘再毅",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/131",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "高永波",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/132",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "邹畅",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/189",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "林文楚",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1329",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "黄锐",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1443",
+            "directoryPosition": "客座副教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "韩晓光",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/194",
+            "directoryPosition": "客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "孙正隆",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/190",
+            "directoryPosition": "客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "俞江帆",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/191",
+            "directoryPosition": "客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "李镇",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/193",
+            "directoryPosition": "客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "赵征",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/195",
+            "directoryPosition": "客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王本友",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1828",
+            "directoryPosition": "客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "郑剑",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1330",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "李星智",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1384",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "毕莹",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1373",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "梁小燕",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1386",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "罗昌霞",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1387",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "王明华",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1393",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "余雪涛",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1398",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张洪军",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1399",
+            "directoryPosition": "临床客座助理教授",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "陈兰春",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1374",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "陈文波",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1375",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "郭共景",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1376",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "黄玉仪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1377",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "蒋奕",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1378",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "李瑾",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1383",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "李云春",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1385",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "邱钰婷",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1388",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "邵雷",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1389",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "沈育丽",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1390",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "谭琪",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1391",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "汪宏斌",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1392",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "吴碧荔",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1395",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "吴珊",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1396",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "余丽琴",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1397",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "张静",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1400",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "钟凌",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1401",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "朱秋宇",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1403",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "周星辰",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1402",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          },
+          {
+            "name": "庄哲",
+            "profileUrl": "https://med.cuhk.edu.cn/teacher/1404",
+            "directoryPosition": "临床客座讲师",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页已保存，研究方向待整理。"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "贺益盛",
+            "directoryPosition": "助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "facultyId": "cuhksz-med-faculty-20261109-732",
+            "reason": "名录仅列姓名。个人页见研究学位项目的导师名单。"
+          },
+          {
+            "name": "李昭廷",
+            "directoryPosition": "助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "facultyId": "cuhksz-med-faculty-20261109-976",
+            "reason": "名录仅列姓名。个人页见研究学位项目的导师名单。"
+          }
+        ],
+        "observedTotal": 139,
+        "profilesRead": 139,
         "profilesFailed": 0,
         "pendingReasonCounts": {}
       }
@@ -272143,5 +277643,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:abecda556b8a025d76ede00bf197632d09bc592ff7f84deee5db9c8c5d32b9f0"
+  "snapshotId": "sha256:6a56503a1548e7e2fc814ac92669df4508de88d4e2ac5231b9bc52dffa32a4a4"
 };
