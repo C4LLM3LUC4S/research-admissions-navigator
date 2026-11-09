@@ -6494,9 +6494,9 @@ window.APP_CATALOG = {
         ]
       },
       "selection": {
-        "text": "研究院列主轮与两轮补录；补录须有学额。",
+        "text": "可向学系确认审核安排。",
         "sourceIds": [
-          "HKU-CENTRAL-PERIOD"
+          "hku-earth-20261109-apply"
         ]
       },
       "deadlines": [
@@ -263154,5 +263154,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:3c93ab7eebad7c7d37e04ddbb2d071c5fd6b409292efb23edc592d0174accdd8"
+  "snapshotId": "sha256:695d5d96ebf23a9637eb5e41b3199bfbb0e727ca84e391528d0fe4b5ed4a225d"
 };

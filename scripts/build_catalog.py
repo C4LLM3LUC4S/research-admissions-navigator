@@ -899,7 +899,7 @@ def build_catalog():
         "hku-earth-rpg", "hku", "地球与行星科学研究学位", ["MPhil", "PhD"],
         "港大地球与行星科学系。可了解地球演化、气候、行星与太空、地质及水文等方向。",
         "required", "提交申请前须联系意向导师，讨论课题和接收安排。", earth_application,
-        "研究院列主轮与两轮补录；补录须有学额。", hku_period,
+        "可向学系确认审核安排。", earth_application,
         [deadline("校级主轮截止", "2026-12-01", hku_period, clock="23:59"),
          deadline("校级第一轮补录截止", "2027-04-30", hku_period, clock="23:59"),
          deadline("校级第二轮补录截止", "2027-08-31", hku_period, clock="23:59")],
