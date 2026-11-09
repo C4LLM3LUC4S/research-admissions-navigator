@@ -6250,6 +6250,141 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hkust-ieda-rpg",
+      "universityId": "hkust",
+      "name": "工业工程及决策分析研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港科大香港校区，设全日制及兼读。2027 年 9 月秋季和 2 月春季分列。",
+      "contact": {
+        "status": "unknown",
+        "text": "可先在学系目录了解老师的研究方向。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      },
+      "selection": {
+        "text": "官网列明滚动审理。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季非本地申请截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        },
+        {
+          "label": "秋季本地申请截止：2027-07-15（官网未说明具体时间）",
+          "date": "2027-07-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        },
+        {
+          "label": "春季非本地申请截止：2026-11-01（官网未说明具体时间）",
+          "date": "2026-11-01",
+          "at": null,
+          "degree": null,
+          "route": "春季申请",
+          "cycle": "2026/27 Spring",
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        },
+        {
+          "label": "春季本地申请截止：2026-12-15（官网未说明具体时间）",
+          "date": "2026-12-15",
+          "at": null,
+          "degree": null,
+          "route": "春季申请",
+          "cycle": "2026/27 Spring",
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-ieda-20261109-programme"
+      ],
+      "evidenceNote": "2027/28 项目页也列上一学年春季（2027 年 2 月入学）；春秋截止日期分别适用。",
+      "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ieda",
+      "researchKeywords": [
+        "工业工程",
+        "决策分析",
+        "运筹学",
+        "Industrial Engineering",
+        "Decision Analytics",
+        "IEDA",
+        "Operations Research"
+      ],
+      "requirements": [
+        {
+          "label": "MPhil 学历要求",
+          "text": "认可院校的学士学位，或认可的同等学历。",
+          "degrees": [
+            "MPhil"
+          ],
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        },
+        {
+          "label": "PhD 学历要求",
+          "text": "认可院校的学士学位且表现优异，或有至少一年全日制或两年兼读的合格研究生阶段学习经历。",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "雅思学术类总分至少 6.5，单项至少 5.5。TOEFL iBT 在 2026 年 1 月 21 日前考试为至少 80 分，当天起为至少 4.5 分。须单次达标，不接受居家考试。第一语言为英语，或学士及同等学历的授课语言为英语，可免交上述成绩。",
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-ieda-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每份申请 180 港元。",
+          "action": "提交网上申请时查看缴费步骤。",
+          "sourceIds": [
+            "hkust-ieda-20261109-programme"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "项目页所列申请费"
+            }
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -16139,23 +16274,32 @@
       "researchKeywords": [
         "Architectural geometry",
         "Computer-aided design and manufacturing (CAD/CAM)",
-        "Rapid prototyping"
+        "Rapid prototyping",
+        "制造过程的 CAD/CAM 集成",
+        "快速成型与建筑几何",
+        "CAD/CAM integration for Manufacturing Processes",
+        "Rapid Prototyping"
       ],
       "keywordSourceIds": [
-        "review-profile-5d0ee48397f62b"
+        "review-profile-5d0ee48397f62b",
+        "hkust-ieda-20261109-profile-11"
       ],
       "sourceIds": [
-        "review-profile-5d0ee48397f62b"
+        "review-profile-5d0ee48397f62b",
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-11",
+        "hkust-ieda-20261109-linked-10"
       ],
       "topics": [
         "土木与机械工程"
       ],
       "academicUnitIds": [
-        "hkust-6"
+        "hkust-6",
+        "hkust-2"
       ],
       "directoryRole": "Ajay JONEJA Professor Emeritus",
       "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
-      "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/ajay-joneja/",
+      "reviewedProfileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=4",
       "universityId": "hkust",
       "name": "Ajay JONEJA",
       "department": "Academy of Interdisciplinary Studies 公开目录列示（含联合与附属任职）",
@@ -16168,7 +16312,19 @@
         "sourceIds": [
           "review-profile-5d0ee48397f62b"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.ieda.ust.hk/dfaculty/ajay",
+          "parentSourceId": "hkust-ieda-20261109-profile-11",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-10"
+        }
+      ]
     },
     {
       "id": "review-hkust-e272f4e5ccead7",
@@ -58576,13 +58732,20 @@
       "universityId": "hkust",
       "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
       "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
-      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kani-chen-makchen",
+      "reviewedProfileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=40",
       "directoryRole": "Professor, Department of Mathematics Professor, Department of Industrial Engineering and Decision Analytics Program Director of MSc in Financial Mathematics Co-Director of Risk Management and Business Intelligence Program",
       "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
       "summary": "研究生存分析、经验过程、随机建模与金融统计。",
       "researchKeywords": [
         "生存分析、经验过程、随机建模与金融统计",
-        "Survival analysis Empirical processes Stochastic modeling Financial statistics"
+        "Survival analysis Empirical processes Stochastic modeling Financial statistics",
+        "生存分析",
+        "经验过程",
+        "随机建模与金融统计",
+        "Survival analysis",
+        "empirical processes",
+        "stochastic modeling",
+        "financial statistics"
       ],
       "topics": [
         "数学与统计",
@@ -58595,20 +58758,26 @@
         "math-directory-2-20261028",
         "math-directory-3-20261028",
         "math-directory-4-20261028",
-        "math-personal-02-20261028"
+        "math-personal-02-20261028",
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-02",
+        "hkust-ieda-20261109-linked-02"
       ],
       "keywordSourceIds": [
-        "math-profile-02-20261028"
+        "math-profile-02-20261028",
+        "hkust-ieda-20261109-profile-02"
       ],
       "directorySourceIds": [
         "math-directory-0-20261028",
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-ieda-20261109-roster"
       ],
       "academicUnitIds": [
-        "hkust-1"
+        "hkust-1",
+        "hkust-2"
       ],
       "extraLinks": [
         {
@@ -58618,6 +58787,13 @@
           "bodyStatus": "body_read",
           "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
           "sourceId": "math-personal-02-20261028"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/",
+          "parentSourceId": "hkust-ieda-20261109-profile-02",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-02"
         }
       ],
       "availability": {
@@ -61337,13 +61513,19 @@
       "universityId": "hkust",
       "department": "数学系（理学院名录范围，含联合任职与教学/研究岗位）",
       "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
-      "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiheng-zhang-jiheng",
+      "reviewedProfileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=16",
       "directoryRole": "Head and Professor, Department of Industrial Engineering and Decision Analytics Professor, Department of Mathematics",
       "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
       "summary": "研究运筹学与应用概率。",
       "researchKeywords": [
         "运筹学与应用概率",
-        "Operations research Applied probability"
+        "Operations research Applied probability",
+        "应用概率",
+        "随机建模与优化",
+        "数值方法和算法",
+        "Applied Probability",
+        "Stochastic Modeling and Optimization",
+        "Numerical Methods and Algorithm"
       ],
       "topics": [
         "数学与统计"
@@ -61355,20 +61537,26 @@
         "math-directory-2-20261028",
         "math-directory-3-20261028",
         "math-directory-4-20261028",
-        "math-personal-55-20261028"
+        "math-personal-55-20261028",
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-01",
+        "hkust-ieda-20261109-linked-01"
       ],
       "keywordSourceIds": [
-        "math-profile-55-20261028"
+        "math-profile-55-20261028",
+        "hkust-ieda-20261109-profile-01"
       ],
       "directorySourceIds": [
         "math-directory-0-20261028",
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-ieda-20261109-roster"
       ],
       "academicUnitIds": [
-        "hkust-1"
+        "hkust-1",
+        "hkust-2"
       ],
       "extraLinks": [
         {
@@ -61378,6 +61566,13 @@
           "bodyStatus": "body_read",
           "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
           "sourceId": "math-personal-55-20261028"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://epi-one.github.io/#home",
+          "parentSourceId": "hkust-ieda-20261109-profile-01",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-01"
         }
       ],
       "availability": {
@@ -87266,6 +87461,1150 @@
         "低能电子衍射",
         "光电子衍射"
       ]
+    },
+    {
+      "id": "hkust-ieda-20261109-41",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-03"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-03"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "随机模型",
+        "数据驱动决策与实证运营管理",
+        "Stochastic models",
+        "data-driven decision making",
+        "and empirical operations management"
+      ],
+      "extraLinks": [],
+      "name": "Yi CHEN (陳懿)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=41",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究随机模型、数据驱动决策与实证运营管理。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-12",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-04"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-04"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "网络经济学",
+        "企业社会责任运营",
+        "运营与营销的交叉问题及供应链管理",
+        "Network economics",
+        "Socially responsible operations",
+        "Operations-Marketing interface",
+        "Supply chain management"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://imchen.people.ust.hk/",
+          "parentSourceId": "hkust-ieda-20261109-profile-04",
+          "bodyStatus": "not_read",
+          "readNote": "证书校验失败，正文待核。"
+        }
+      ],
+      "name": "Ying-Ju CHEN (陳瀅儒)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=12",
+      "directoryRole": "Crown Worldwide Professor of Business；Chair Professor",
+      "summary": "研究网络经济学、企业社会责任运营、运营与营销的交叉问题及供应链管理。",
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-48",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-05",
+        "hkust-ieda-20261109-linked-04"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-05"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "运筹学",
+        "机制设计",
+        "信息设计与在线算法",
+        "Operations Research",
+        "Mechanism Design",
+        "Information Design",
+        "Online Algorithms",
+        "Online Learning"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://www.ydfeng.us/",
+          "parentSourceId": "hkust-ieda-20261109-profile-05",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-04"
+        }
+      ],
+      "name": "Yiding FENG (馮逸丁)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=48",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究运筹学、机制设计、信息设计与在线算法。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-28",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-06"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-06"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "生产与库存管理",
+        "供应链竞争",
+        "合同与信息共享",
+        "Production and inventory management",
+        "Supply chain competition",
+        "Contracting and information sharing in supply chains"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://isom.hkust.edu.hk/faculty-and-staff/directory/imayha",
+          "parentSourceId": "hkust-ieda-20261109-profile-06",
+          "bodyStatus": "not_read",
+          "readNote": "证书校验失败，正文待核。"
+        }
+      ],
+      "name": "Albert Y. HA",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=28",
+      "directoryRole": "Wei Lun Foundation Professor of Business；Chair Professor",
+      "summary": "研究生产与库存管理、供应链竞争、合同与信息共享。",
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-50",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-07",
+        "hkust-ieda-20261109-linked-06"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-07"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "应用概率",
+        "排队论与强化学习",
+        "Applied probability",
+        "queueing theory",
+        "and reinforcement learning"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://lucyhuodongyan.github.io/",
+          "parentSourceId": "hkust-ieda-20261109-profile-07",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-06"
+        }
+      ],
+      "name": "Dongyan (Lucy) HUO (霍冬琰)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=50",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究应用概率、排队论与强化学习。",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-43",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-08",
+        "hkust-ieda-20261109-linked-07"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-08"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "随机与在线优化，应用于库存",
+        "收益管理和机制设计",
+        "Stochastic optimization and online optimization problems",
+        "with applications in supply chain management",
+        "revenue management",
+        "inventory management",
+        "and mechanism design"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://jiashuo3.github.io/",
+          "parentSourceId": "hkust-ieda-20261109-profile-08",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-07"
+        }
+      ],
+      "name": "Jiashuo JIANG (姜嘉碩)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=43",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究随机与在线优化，应用于库存、收益管理和机制设计。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-51",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-09",
+        "hkust-ieda-20261109-linked-08"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-09"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "研究不确定条件下的决策方法与算法",
+        "Developing new methods or algorithms for decision-making under uncertainty"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://sites.google.com/view/nanjiangor",
+          "parentSourceId": "hkust-ieda-20261109-profile-09",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-08"
+        }
+      ],
+      "name": "Nan JIANG (江楠)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=51",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究研究不确定条件下的决策方法与算法。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-36",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-10",
+        "hkust-ieda-20261109-linked-09"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-10"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "金融工程",
+        "金融科技",
+        "公司金融与随机建模",
+        "Financial engineering and FinTech",
+        "corporate finance",
+        "macroeconomic policy",
+        "applied probability",
+        "and stochastic modelling"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://finweijiang.weebly.com/",
+          "parentSourceId": "hkust-ieda-20261109-profile-10",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-09"
+        }
+      ],
+      "name": "Wei JIANG (蔣為)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=36",
+      "directoryRole": "Associate Professor；PG Coordinator",
+      "summary": "研究金融工程、金融科技、公司金融与随机建模。",
+      "topics": [
+        "理论与优化",
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-44",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-12"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-12"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "搜索",
+        "推荐系统",
+        "广告与平台运营",
+        "Substantive: Online Search",
+        "Advertising",
+        "Loyalty Programs",
+        "Recommendation System",
+        "User Generated Content",
+        "Social Network",
+        "Pricing",
+        "Product Recalls",
+        "Product Assortments",
+        "Supply Chain",
+        "Behavioral Economics",
+        "Big Data Analytics",
+        "Blockchain Methodological: Topic Modeling",
+        "Natural Language Processing",
+        "Machine Learning",
+        "Deep/Graph Neural Networks",
+        "Bayesian Methods",
+        "Causal Inference",
+        "Lab/Field Experiments"
+      ],
+      "extraLinks": [],
+      "name": "Jia LIU (劉佳)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=44",
+      "directoryRole": "Associate Professor",
+      "summary": "研究搜索、推荐系统、广告与平台运营。",
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-13",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-13"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-13"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "收益管理与定价",
+        "运营中的顾客行为",
+        "物流与供应链管理",
+        "Revenue management and pricing",
+        "marketing-operations interface",
+        "customer behavior in operations management",
+        "logistics and supply chain management"
+      ],
+      "extraLinks": [],
+      "name": "Qian LIU (劉倩)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=13",
+      "directoryRole": "Professor；Director, MSc EEM Program",
+      "summary": "研究收益管理与定价、运营中的顾客行为、物流与供应链管理。",
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-52",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-14",
+        "hkust-ieda-20261109-linked-11"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-14"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "双层",
+        "极小极大",
+        "随机与分布式优化算法",
+        "Algorithm design and analysis for bilevel",
+        "minimax",
+        "stochastic",
+        "distributed",
+        "and online optimization Applications for data science",
+        "AI/machine learning",
+        "healthcare",
+        "and decision-making under uncertainty"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://sanyoumei.github.io/",
+          "parentSourceId": "hkust-ieda-20261109-profile-14",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-11"
+        }
+      ],
+      "name": "Sanyou MEI (梅三友)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=52",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究双层、极小极大、随机与分布式优化算法。",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-37",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-15",
+        "hkust-ieda-20261109-linked-12"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-15"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "金融计量",
+        "金融风险管理",
+        "优化与信号处理",
+        "Big data",
+        "financial econometrics",
+        "financial risk management",
+        "optimization",
+        "signal processing"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.danielppalomar.com",
+          "parentSourceId": "hkust-ieda-20261109-profile-15",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-12"
+        }
+      ],
+      "name": "Daniel PEREZ PALOMAR (鋒西龍)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=37",
+      "directoryRole": "Professor",
+      "summary": "研究金融计量、金融风险管理、优化与信号处理。",
+      "topics": [
+        "理论与优化",
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-22",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-16",
+        "hkust-ieda-20261109-linked-13"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-16"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "鲁棒优化",
+        "医疗运营",
+        "交通与不确定条件下的目标决策",
+        "Robust optimization",
+        "Healthcare operations",
+        "Transportation",
+        "Project management",
+        "Target-based decision making under uncertainty"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://jinqi-ust.github.io",
+          "parentSourceId": "hkust-ieda-20261109-profile-16",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-13"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://ieda.ust.hk/eng/read_file.php?file=files%2Fstaff%2Fcv%2F1789437181_cv.pdf&hash=4ddb1372f617522c4d647388d131d9b99ba18e54204b08c6d7f70d04a3cbaa45",
+          "parentSourceId": "hkust-ieda-20261109-profile-16",
+          "bodyStatus": "not_read",
+          "readNote": "官网附件返回 HTTP 500。"
+        }
+      ],
+      "name": "Jin QI (戚瑾)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=22",
+      "directoryRole": "Associate Professor；Associate Director of Center for Aging Science",
+      "summary": "研究鲁棒优化、医疗运营、交通与不确定条件下的目标决策。",
+      "topics": [
+        "理论与优化",
+        "生物医学与健康"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-5",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-17",
+        "hkust-ieda-20261109-linked-15"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-17"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "生产排程",
+        "库存控制",
+        "物流与供应链的建模优化",
+        "Modeling and optimization with applications in production scheduling",
+        "inventory control",
+        "logistics",
+        "and supply chain management"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://ieemqi.people.ust.hk",
+          "parentSourceId": "hkust-ieda-20261109-profile-17",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-15"
+        }
+      ],
+      "name": "Xiangtong QI (齊向彤)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=5",
+      "directoryRole": "Professor",
+      "summary": "研究生产排程、库存控制、物流与供应链的建模优化。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-46",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-19"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-19"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "应用概率与仿真",
+        "市场实验",
+        "最优传输及分布鲁棒性",
+        "Applied probability and simulation",
+        "Experimentation design in marketplaces",
+        "Solving large scale operations problems",
+        "Optimal transport",
+        "Distributional robustness"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://niansi.people.ust.hk/",
+          "parentSourceId": "hkust-ieda-20261109-profile-19",
+          "bodyStatus": "not_read",
+          "readNote": "证书校验失败，正文待核。"
+        }
+      ],
+      "name": "Nian SI (司念)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=46",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究应用概率与仿真、市场实验、最优传输及分布鲁棒性。",
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-6",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-20",
+        "hkust-ieda-20261109-linked-17"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-20"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "视觉与听觉的计算人因工程",
+        "仿生信号处理",
+        "smart hearing aids and 360 Virtual Reality systems"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.ieda.ust.hk/dfaculty/so",
+          "parentSourceId": "hkust-ieda-20261109-profile-20",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-17"
+        }
+      ],
+      "name": "Richard H. Y. SO (蘇孝宇)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=6",
+      "directoryRole": "Professor",
+      "summary": "研究视觉与听觉的计算人因工程、仿生信号处理。",
+      "topics": [
+        "人机交互",
+        "理论与优化",
+        "生物医学与健康"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-1",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-21",
+        "hkust-ieda-20261109-linked-18"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-21"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "质量工程",
+        "统计过程控制与工业数据分析",
+        "Quality Engineering and Management",
+        "Statistical Process Control (SPC)",
+        "Monitoring",
+        "and Diagnosis",
+        "Industrial Statistics and Data Analytics",
+        "Help Solve World's Problems Using Quality and Innovation"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.ieda.ust.hk/dfaculty/tsung",
+          "parentSourceId": "hkust-ieda-20261109-profile-21",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-18"
+        }
+      ],
+      "name": "Fugee TSUNG (宗福季)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=1",
+      "directoryRole": "Chair Professor；Associate Director of HKUST-HKPC Joint Research Lab for Industrial AI and Robotics",
+      "summary": "研究质量工程、统计过程控制与工业数据分析。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-32",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-22",
+        "hkust-ieda-20261109-linked-19"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-22"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "服务运营",
+        "捆绑定价",
+        "搜索与供应链管理",
+        "Service Operations",
+        "Bundling",
+        "Search",
+        "Supply Chain Management"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://allenwu.people.ust.hk",
+          "parentSourceId": "hkust-ieda-20261109-profile-22",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-19"
+        }
+      ],
+      "name": "Chenguang (Allen) WU (吳晨光)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=32",
+      "directoryRole": "Associate Professor",
+      "summary": "研究服务运营、捆绑定价、搜索与供应链管理。",
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-47",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-23",
+        "hkust-ieda-20261109-linked-20"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-23"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "可再生能源运营",
+        "能源商品交易与电力市场设计",
+        "Energy-related challenges in the business sector",
+        "including renewable energy operations",
+        "energy commodity trading",
+        "and electricity market design"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://sites.google.com/view/boyang-om/home",
+          "parentSourceId": "hkust-ieda-20261109-profile-23",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-20"
+        }
+      ],
+      "name": "Bo YANG (楊博)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=47",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究可再生能源运营、能源商品交易与电力市场设计。",
+      "topics": [
+        "材料与能源",
+        "理论与优化",
+        "经济与管理"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-34",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-24"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-24"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "排队论",
+        "应用概率",
+        "性能分析与服务系统设计",
+        "Queueing Theory",
+        "Applied Probability",
+        "Performance Analysis",
+        "Service Systems Design"
+      ],
+      "extraLinks": [],
+      "name": "Wei YOU (尤為)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=34",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究排队论、应用概率、性能分析与服务系统设计。",
+      "topics": [
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-45",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-25",
+        "hkust-ieda-20261109-linked-21"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-25"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "AI 仿真",
+        "强化学习",
+        "随机优化与服务运营",
+        "AI Simulation",
+        "Reinforcement Learning",
+        "Stochastic Optimization",
+        "Service Operations Management",
+        "FinTech"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://xiaoweiz.github.io/",
+          "parentSourceId": "hkust-ieda-20261109-profile-25",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-21"
+        }
+      ],
+      "name": "Xiaowei ZHANG (張曉煒)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=45",
+      "directoryRole": "Associate Professor；UG Coordinator",
+      "summary": "研究AI 仿真、强化学习、随机优化与服务运营。",
+      "topics": [
+        "机器学习",
+        "理论与优化",
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-53",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster",
+        "hkust-ieda-20261109-profile-26",
+        "hkust-ieda-20261109-linked-22"
+      ],
+      "directorySourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-ieda-20261109-profile-26"
+      ],
+      "academicUnitIds": [
+        "hkust-2"
+      ],
+      "researchKeywords": [
+        "大语言模型推理优化",
+        "排程",
+        "排队与在线学习",
+        "Optimization for LLM Inference",
+        "Mathematical Modeling",
+        "Scheduling and Queueing",
+        "Online Learning and Optimization Theory",
+        "Online Resource Allocation",
+        "Experimental Design",
+        "Probability Theory"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://sites.google.com/view/zijiezhou/",
+          "parentSourceId": "hkust-ieda-20261109-profile-26",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-ieda-20261109-linked-22"
+        }
+      ],
+      "name": "Zijie ZHOU (周子杰)",
+      "universityId": "hkust",
+      "department": "工业工程及决策分析学系",
+      "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=53",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究大语言模型推理优化、排程、排队与在线学习。",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看学系的研究学位申请页。",
+        "sourceIds": [
+          "hkust-ieda-20261109-programme"
+        ]
+      }
     }
   ],
   "sources": [
@@ -185630,6 +186969,1006 @@
       "readMethod": "anonymous_HTTP",
       "parentSourceId": "cuhksz-sse-staff-20261107-page-01",
       "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-roster",
+      "url": "https://ieda.ust.hk/eng/faculty.php?catid=5&sid=15",
+      "title": "港科大工业工程及决策分析学系人员目录",
+      "scope": "页面同列 Faculty 26 人及荣休教授 5 人，全部 31 个个人档案链接均已核对。",
+      "claims": [
+        "页面同列 Faculty 26 人及荣休教授 5 人，全部 31 个个人档案链接均已核对。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "eaf423a519ac32808cfd6ea3b4b26d98446be9b64e260e957c1f2fefe9d2611c",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=16",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=40",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=41",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=12",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=48",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=28",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=50",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=43",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=51",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=36",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=4",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=44",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=13",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=52",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=37",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=22",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=5",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=19",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=46",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=6",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=1",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=32",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=47",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=34",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=45",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=53",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=23",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=2",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=3",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=10",
+        "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=7"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-staff",
+      "url": "https://ieda.ust.hk/eng/staff.php?catid=5&sid=16",
+      "title": "港科大工业工程及决策分析学系支援人员",
+      "scope": "行政 8 人，研究支援 2 人，技术支援 2 人。",
+      "claims": [
+        "行政 8 人，研究支援 2 人，技术支援 2 人。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5cefaad8a7cf7c9c0c300ba418f02484dd9da8d79e0a95a45d7e958a1908ce07",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-programme",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ieda",
+      "title": "港科大工业工程及决策分析研究学位 2027/28",
+      "scope": "该页列工业工程及决策分析 MPhil 与 PhD 的学历、英语、申请费和申请日期。2027 年 9 月与 2027 年 2 月分别列出本地与非本地截止日期。",
+      "claims": [
+        "该页列工业工程及决策分析 MPhil 与 PhD 的学历、英语、申请费和申请日期。2027 年 9 月与 2027 年 2 月分别列出本地与非本地截止日期。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0ece98dda7ad7864268a00a578fc2cfb00265731cb2be778391f1f9f475505cf",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-01",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=16",
+      "title": "Jiheng ZHANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Head & Professor；Affiliate Professor, Financial Technology Thrust, HKUST (Guangzhou)。研究主题包括应用概率、随机建模与优化、数值方法和算法。",
+      "claims": [
+        "院系列示任职：Head & Professor；Affiliate Professor, Financial Technology Thrust, HKUST (Guangzhou)。研究主题包括应用概率、随机建模与优化、数值方法和算法。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "aaa1a2116eb57c72cb1007f8f5bd5dcac220a9bf006d20edacf6b61efbe2c8ac",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://epi-one.github.io/#home"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-01",
+      "url": "https://epi-one.github.io/#home",
+      "title": "Jiheng ZHANG · 院系所给链接",
+      "scope": "EPI-One 实验室介绍面向 AI 系统的排队模型、随机方法与优化。",
+      "claims": [
+        "EPI-One 实验室介绍面向 AI 系统的排队模型、随机方法与优化。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "09b9426d85f0c03df62b21910e760b649eb64926d844e84b28fa6910a969c324",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-01",
+      "originalUrl": "https://epi-one.github.io/#home",
+      "retrievedUrl": "https://epi-one.github.io/#home"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-02",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=40",
+      "title": "Kani CHEN · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor。研究主题包括生存分析、经验过程、随机建模与金融统计。",
+      "claims": [
+        "院系列示任职：Professor。研究主题包括生存分析、经验过程、随机建模与金融统计。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "062f75d106c6ceff44f6c83f80c696501e850d0cbfb9476ea82a5aa77db2f1d7",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-02",
+      "url": "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/",
+      "title": "Kani CHEN · 院系所给链接",
+      "scope": "数学系同名档案列统计方向及任职。",
+      "claims": [
+        "数学系同名档案列统计方向及任职。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bd61e1378381afe234629660a4f32155ff9d5470f2a069671f368f5d74dec73f",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-02",
+      "originalUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/",
+      "retrievedUrl": "https://www.math.hkust.edu.hk/people/faculty/profile/makchen/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-03",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=41",
+      "title": "Yi CHEN · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括随机模型、数据驱动决策与实证运营管理。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括随机模型、数据驱动决策与实证运营管理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "737a70bf854247fdc36e56896563ad8b4e17b2858058780d6ef3444a228aafac",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-04",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=12",
+      "title": "Ying-Ju CHEN · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Crown Worldwide Professor of Business；Chair Professor。研究主题包括网络经济学、企业社会责任运营、运营与营销的交叉问题及供应链管理。",
+      "claims": [
+        "院系列示任职：Crown Worldwide Professor of Business；Chair Professor。研究主题包括网络经济学、企业社会责任运营、运营与营销的交叉问题及供应链管理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cfe12305250b6d4e1d1d24818b79c45da027f7c546a37089806e64fe6ec0bf6d",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://imchen.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-05",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=48",
+      "title": "Yiding FENG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括运筹学、机制设计、信息设计与在线算法。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括运筹学、机制设计、信息设计与在线算法。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f4d324429eca65084c659654b981b42e438d36648345bde744fd468caf75baeb",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.ydfeng.us/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-04",
+      "url": "https://www.ydfeng.us/",
+      "title": "Yiding FENG · 院系所给链接",
+      "scope": "个人主页列港科大 IEDA 任职，并提供论文入口。",
+      "claims": [
+        "个人主页列港科大 IEDA 任职，并提供论文入口。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1f746c2d966e9252568000889f6082d3aa13bac2274e0b382b76c8fafb187aab",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-05",
+      "originalUrl": "https://www.ydfeng.us/",
+      "retrievedUrl": "https://www.ydfeng.us/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-06",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=28",
+      "title": "Albert Y. HA · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Wei Lun Foundation Professor of Business；Chair Professor。研究主题包括生产与库存管理、供应链竞争、合同与信息共享。",
+      "claims": [
+        "院系列示任职：Wei Lun Foundation Professor of Business；Chair Professor。研究主题包括生产与库存管理、供应链竞争、合同与信息共享。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "983ee14de8db58e4794900a28b7048ba833ae2c7e24293d950bc7f992928ab87",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://isom.hkust.edu.hk/faculty-and-staff/directory/imayha"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-07",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=50",
+      "title": "Dongyan (Lucy) HUO · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括应用概率、排队论与强化学习。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括应用概率、排队论与强化学习。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0df8f5bd593fca66a1b0637d8557817d6772f4f51d8caab6249e457b0d9f290d",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://lucyhuodongyan.github.io/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-06",
+      "url": "https://lucyhuodongyan.github.io/",
+      "title": "Dongyan (Lucy) HUO · 院系所给链接",
+      "scope": "个人主页列港科大任职及应用概率、排队研究。",
+      "claims": [
+        "个人主页列港科大任职及应用概率、排队研究。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "883af1220893fd03bff3952ec8575c2f66fe535b7da8a0124285ce661823b69a",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-07",
+      "originalUrl": "https://lucyhuodongyan.github.io/",
+      "retrievedUrl": "https://lucyhuodongyan.github.io/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-08",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=43",
+      "title": "Jiashuo JIANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括随机与在线优化，应用于库存、收益管理和机制设计。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括随机与在线优化，应用于库存、收益管理和机制设计。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6bb5951611a5e757dcf8ecef6fad251e6ec159668802f0aaa12648605fa85940",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://jiashuo3.github.io/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-07",
+      "url": "https://jiashuo3.github.io/",
+      "title": "Jiashuo JIANG · 院系所给链接",
+      "scope": "个人主页列港科大 IEDA 任职及运筹优化研究。",
+      "claims": [
+        "个人主页列港科大 IEDA 任职及运筹优化研究。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "62cf44c754721d4776786b27765d0e0a90a332bb98b808d2d49c44dde8aceb0b",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-08",
+      "originalUrl": "https://jiashuo3.github.io/",
+      "retrievedUrl": "https://jiashuo3.github.io/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-09",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=51",
+      "title": "Nan JIANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括研究不确定条件下的决策方法与算法。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括研究不确定条件下的决策方法与算法。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "88d7d03351f4bdb83cca0123e78702b1722da7b3bd37ab6f85c6f2507e57ff9d",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/nanjiangor"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-08",
+      "url": "https://sites.google.com/view/nanjiangor",
+      "title": "Nan JIANG · 院系所给链接",
+      "scope": "个人主页列港科大 IEDA 任职及研究和学生入口。",
+      "claims": [
+        "个人主页列港科大 IEDA 任职及研究和学生入口。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "828ef491f6b12f0257f3f0b24f7d914f4e34aa12ba9ccc8f5cdf13d80979d1d4",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-09",
+      "originalUrl": "https://sites.google.com/view/nanjiangor",
+      "retrievedUrl": "https://sites.google.com/view/nanjiangor"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-10",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=36",
+      "title": "Wei JIANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Associate Professor；PG Coordinator。研究主题包括金融工程、金融科技、公司金融与随机建模。",
+      "claims": [
+        "院系列示任职：Associate Professor；PG Coordinator。研究主题包括金融工程、金融科技、公司金融与随机建模。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "efac3ba11c76ee9aa572d1ae168a0efba4de9b5b4020502dee25357d34ca2fb8",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://finweijiang.weebly.com/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-09",
+      "url": "https://finweijiang.weebly.com/",
+      "title": "Wei JIANG · 院系所给链接",
+      "scope": "个人主页列公司金融、金融科技及随机建模。",
+      "claims": [
+        "个人主页列公司金融、金融科技及随机建模。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "984c9cc9a0dca36891bf2821ffe58b30f1f4c0d63a10f7282f62ec30e9b03fe8",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-10",
+      "originalUrl": "https://finweijiang.weebly.com/",
+      "retrievedUrl": "https://finweijiang.weebly.com/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-11",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=4",
+      "title": "Ajay JONEJA · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor。研究主题包括制造过程的 CAD/CAM 集成、快速成型与建筑几何。",
+      "claims": [
+        "院系列示任职：Professor。研究主题包括制造过程的 CAD/CAM 集成、快速成型与建筑几何。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d426559b16247add98bff5277a7f23078e9227b55c17c6a44d8b4c5a7cf82873",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.ieda.ust.hk/dfaculty/ajay"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-10",
+      "url": "http://www.ieda.ust.hk/dfaculty/ajay/",
+      "title": "Ajay JONEJA · 院系所给链接",
+      "scope": "个人履历列港科大 IEDA 任职与制造相关研究。",
+      "claims": [
+        "个人履历列港科大 IEDA 任职与制造相关研究。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6a69eb901fdddb153b248d632655dcf53f889a0ce6c20e2d44746a2d72f9f466",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-11",
+      "originalUrl": "http://www.ieda.ust.hk/dfaculty/ajay",
+      "retrievedUrl": "http://www.ieda.ust.hk/dfaculty/ajay/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-12",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=44",
+      "title": "Jia LIU · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Associate Professor。研究主题包括搜索、推荐系统、广告与平台运营。",
+      "claims": [
+        "院系列示任职：Associate Professor。研究主题包括搜索、推荐系统、广告与平台运营。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f0c12ef8f6bd0dba0ffe763eac4cebe68317d7f7c41d3f7db9e6f922ceda566d",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-13",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=13",
+      "title": "Qian LIU · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor；Director, MSc EEM Program。研究主题包括收益管理与定价、运营中的顾客行为、物流与供应链管理。",
+      "claims": [
+        "院系列示任职：Professor；Director, MSc EEM Program。研究主题包括收益管理与定价、运营中的顾客行为、物流与供应链管理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "548791151f65ee6faaaf048e55e58258e36e6b3be4d30f910215f05e4fd627f1",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-14",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=52",
+      "title": "Sanyou MEI · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括双层、极小极大、随机与分布式优化算法。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括双层、极小极大、随机与分布式优化算法。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c8e709871ce5236920230ca3ac0986d67aff874f8e87bc2df5ec58ea4abeb45",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sanyoumei.github.io/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-11",
+      "url": "https://sanyoumei.github.io/",
+      "title": "Sanyou MEI · 院系所给链接",
+      "scope": "个人主页列港科大 IEDA 任职及研究入口。",
+      "claims": [
+        "个人主页列港科大 IEDA 任职及研究入口。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c323c1d1dd7a53ee2b87eaed8f74144d1fc1afb031609195c1ac2306c782f8b8",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-14",
+      "originalUrl": "https://sanyoumei.github.io/",
+      "retrievedUrl": "https://sanyoumei.github.io/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-15",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=37",
+      "title": "Daniel PEREZ PALOMAR · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor。研究主题包括金融计量、金融风险管理、优化与信号处理。",
+      "claims": [
+        "院系列示任职：Professor。研究主题包括金融计量、金融风险管理、优化与信号处理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "95d82ebc8c7f474466c48138d375e1d152d5bff9f14e00e7588393e3b6f30818",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.danielppalomar.com"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-12",
+      "url": "https://www.danielppalomar.com/",
+      "title": "Daniel PEREZ PALOMAR · 院系所给链接",
+      "scope": "个人主页列优化研究、课题组和教学资料。",
+      "claims": [
+        "个人主页列优化研究、课题组和教学资料。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f3128d2f72989eb4d19f0bf2ed094f0f88ca2a13d9b20ae27b785d0fcde4a58e",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-15",
+      "originalUrl": "http://www.danielppalomar.com",
+      "retrievedUrl": "https://www.danielppalomar.com/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-16",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=22",
+      "title": "Jin QI · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Associate Professor；Associate Director of Center for Aging Science。研究主题包括鲁棒优化、医疗运营、交通与不确定条件下的目标决策。",
+      "claims": [
+        "院系列示任职：Associate Professor；Associate Director of Center for Aging Science。研究主题包括鲁棒优化、医疗运营、交通与不确定条件下的目标决策。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0e014eb42583929887fa26281a1ad8ee3cfd2a792b6a24481f47d71691a4affa",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://jinqi-ust.github.io",
+        "https://ieda.ust.hk/eng/read_file.php?file=files%2Fstaff%2Fcv%2F1789437181_cv.pdf&hash=4ddb1372f617522c4d647388d131d9b99ba18e54204b08c6d7f70d04a3cbaa45"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-13",
+      "url": "https://jinqi-ust.github.io",
+      "title": "Jin QI · 院系所给链接",
+      "scope": "个人主页列鲁棒优化与不确定性决策研究。",
+      "claims": [
+        "个人主页列鲁棒优化与不确定性决策研究。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8f2dc8d6f94156267acae640a43253426b91dacbfe545e84bf316f2588b725c8",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-16",
+      "originalUrl": "https://jinqi-ust.github.io",
+      "retrievedUrl": "https://jinqi-ust.github.io"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-17",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=5",
+      "title": "Xiangtong QI · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor。研究主题包括生产排程、库存控制、物流与供应链的建模优化。",
+      "claims": [
+        "院系列示任职：Professor。研究主题包括生产排程、库存控制、物流与供应链的建模优化。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1518b42b27557897664f9de83f818955724e0d9c905d397f5a7db827d624c5dd",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://ieemqi.people.ust.hk"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-15",
+      "url": "http://ieemqi.people.ust.hk",
+      "title": "Xiangtong QI · 院系所给链接",
+      "scope": "个人主页列港科大任职、研究和教学入口，使用旧院系名称。",
+      "claims": [
+        "个人主页列港科大任职、研究和教学入口，使用旧院系名称。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5436bc44b009aee09407f3a28cba7ee56ce56a9d8a469925d315f1a9b570437c",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-17",
+      "originalUrl": "http://ieemqi.people.ust.hk",
+      "retrievedUrl": "http://ieemqi.people.ust.hk",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-18",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=19",
+      "title": "Xuan (Ada) QIU · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor of Engineering Education。研究主题包括数据驱动优化、多模式交通与交通物联网。",
+      "claims": [
+        "院系列示任职：Assistant Professor of Engineering Education。研究主题包括数据驱动优化、多模式交通与交通物联网。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2363e07551a51fd27f3e068968ab6c97550cd73e795dd7696a0fc0b9862a3607",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-19",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=46",
+      "title": "Nian SI · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括应用概率与仿真、市场实验、最优传输及分布鲁棒性。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括应用概率与仿真、市场实验、最优传输及分布鲁棒性。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c1fa3a9d1d36a75cb14a9839157e8e6697abfc4cce391c1a52330cc7e43cf787",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://niansi.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-20",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=6",
+      "title": "Richard H. Y. SO · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor。研究主题包括视觉与听觉的计算人因工程、仿生信号处理。",
+      "claims": [
+        "院系列示任职：Professor。研究主题包括视觉与听觉的计算人因工程、仿生信号处理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e5b048e0a3b43862fb280c58970419f2d2a9a6be928f1f9e0163353d5b8653dd",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.ieda.ust.hk/dfaculty/so"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-17",
+      "url": "http://www.ieda.ust.hk/dfaculty/so/",
+      "title": "Richard H. Y. SO · 院系所给链接",
+      "scope": "旧个人主页列计算人因工程和音视频感知主题。",
+      "claims": [
+        "旧个人主页列计算人因工程和音视频感知主题。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2961396d821ead930bd8a1ea59616da0a02e5f6c109955a2db77e1a077853729",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-20",
+      "originalUrl": "http://www.ieda.ust.hk/dfaculty/so",
+      "retrievedUrl": "http://www.ieda.ust.hk/dfaculty/so/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-21",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=1",
+      "title": "Fugee TSUNG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Chair Professor；Associate Director of HKUST-HKPC Joint Research Lab for Industrial AI and Robotics。研究主题包括质量工程、统计过程控制与工业数据分析。",
+      "claims": [
+        "院系列示任职：Chair Professor；Associate Director of HKUST-HKPC Joint Research Lab for Industrial AI and Robotics。研究主题包括质量工程、统计过程控制与工业数据分析。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4d992c5f0efa48a1fa3109eac5552420398eee1f05366b69b56c12e7e9fecdbc",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.ieda.ust.hk/dfaculty/tsung"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-18",
+      "url": "http://www.ieda.ust.hk/dfaculty/tsung/",
+      "title": "Fugee TSUNG · 院系所给链接",
+      "scope": "个人主页介绍质量、分析与创新研究。",
+      "claims": [
+        "个人主页介绍质量、分析与创新研究。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4eb9c7400d06e539330aebbf89e119d24ce3fec914b82a3059e833464e51dc2b",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-21",
+      "originalUrl": "http://www.ieda.ust.hk/dfaculty/tsung",
+      "retrievedUrl": "http://www.ieda.ust.hk/dfaculty/tsung/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-22",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=32",
+      "title": "Chenguang (Allen) WU · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Associate Professor。研究主题包括服务运营、捆绑定价、搜索与供应链管理。",
+      "claims": [
+        "院系列示任职：Associate Professor。研究主题包括服务运营、捆绑定价、搜索与供应链管理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9727fe4cc4c979d7a25e366fde652d94458ba6979b9898fabdda248bd68101c3",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://allenwu.people.ust.hk"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-19",
+      "url": "http://allenwu.people.ust.hk",
+      "title": "Chenguang (Allen) WU · 院系所给链接",
+      "scope": "个人主页列服务运营、捆绑销售、搜索和供应链。",
+      "claims": [
+        "个人主页列服务运营、捆绑销售、搜索和供应链。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "854cd4d8db68afb3ea40f70a41bb1393e93bfde5ca4c8903c8c9da9c3051bb4b",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-22",
+      "originalUrl": "http://allenwu.people.ust.hk",
+      "retrievedUrl": "http://allenwu.people.ust.hk",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-23",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=47",
+      "title": "Bo YANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括可再生能源运营、能源商品交易与电力市场设计。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括可再生能源运营、能源商品交易与电力市场设计。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "77af13e62b1698dca62422972ac398473a93f63381be8fc918c75ea4e99fcb0f",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/boyang-om/home"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-20",
+      "url": "https://sites.google.com/view/boyang-om/home",
+      "title": "Bo YANG · 院系所给链接",
+      "scope": "个人主页列能源相关运营研究及研究入口。",
+      "claims": [
+        "个人主页列能源相关运营研究及研究入口。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a012b41a9dddc76ba7daacb8b36a4be77019c7eda8857ca25e3ddfcaf1ccdc59",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-23",
+      "originalUrl": "https://sites.google.com/view/boyang-om/home",
+      "retrievedUrl": "https://sites.google.com/view/boyang-om/home"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-24",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=34",
+      "title": "Wei YOU · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括排队论、应用概率、性能分析与服务系统设计。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括排队论、应用概率、性能分析与服务系统设计。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1e9e607b4879067a8c974db88528f760fa322533f872180fbfc21151a9669a9f",
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-25",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=45",
+      "title": "Xiaowei ZHANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Associate Professor；UG Coordinator。研究主题包括AI 仿真、强化学习、随机优化与服务运营。",
+      "claims": [
+        "院系列示任职：Associate Professor；UG Coordinator。研究主题包括AI 仿真、强化学习、随机优化与服务运营。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c82d16997d645e6a6d456605ccca01eb67b5820fc9ffe35cc6bc8704f05437cf",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://xiaoweiz.github.io/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-21",
+      "url": "https://xiaoweiz.github.io/",
+      "title": "Xiaowei ZHANG · 院系所给链接",
+      "scope": "个人主页列港科大 IEDA 与经济学系任职及研究成果。",
+      "claims": [
+        "个人主页列港科大 IEDA 与经济学系任职及研究成果。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fc630ace112a3264856b0eadc8d32c7efb4aeaf3480900b960ee59aa241e9631",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-25",
+      "originalUrl": "https://xiaoweiz.github.io/",
+      "retrievedUrl": "https://xiaoweiz.github.io/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-26",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=53",
+      "title": "Zijie ZHOU · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Assistant Professor。研究主题包括大语言模型推理优化、排程、排队与在线学习。",
+      "claims": [
+        "院系列示任职：Assistant Professor。研究主题包括大语言模型推理优化、排程、排队与在线学习。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "72e446a2e822542e7d7b9e15430077b58ddabbdb29beefa79fbe5b57c1c47d42",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/zijiezhou/"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-22",
+      "url": "https://sites.google.com/view/zijiezhou/",
+      "title": "Zijie ZHOU · 院系所给链接",
+      "scope": "个人主页列港科大 IEDA 任职、研究和学生入口。",
+      "claims": [
+        "个人主页列港科大 IEDA 任职、研究和学生入口。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "89ce07a12b23a3137bc4c987476f0f0bf99490aaf0211854d879778e1bf9159e",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-26",
+      "originalUrl": "https://sites.google.com/view/zijiezhou/",
+      "retrievedUrl": "https://sites.google.com/view/zijiezhou/"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-27",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=23",
+      "title": "Guillermo GALLEGO · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor Emeritus。研究主题包括动态定价、收益优化与库存理论。",
+      "claims": [
+        "院系列示任职：Professor Emeritus。研究主题包括动态定价、收益优化与库存理论。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ce076f245ef70fb16b3d4642007acfdfa6f86fccd0b0bc753bce8c2debd614d5",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.ieda.ust.hk/dfaculty/ggallego",
+        "https://ieda.ust.hk/eng/read_file.php?file=files%2Fstaff%2Fcv%2F1503905587_cv.pdf&hash=5bf134d016260c85da77975c4a1e7bd8346fd9e0829829116a2e4aaa6f9e2b0a"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-23",
+      "url": "http://www.ieda.ust.hk/dfaculty/ggallego/",
+      "title": "Guillermo GALLEGO · 院系所给链接",
+      "scope": "旧院系个人页列历史系主任和讲座教授身份，当前院系目录列为荣休。",
+      "claims": [
+        "旧院系个人页列历史系主任和讲座教授身份，当前院系目录列为荣休。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9e083679e1303aa64497ef764f03b6492119af9c3dc5726fa9564671bf367aed",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-27",
+      "originalUrl": "http://www.ieda.ust.hk/dfaculty/ggallego",
+      "retrievedUrl": "http://www.ieda.ust.hk/dfaculty/ggallego/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-28",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=2",
+      "title": "Ravindra S. GOONETILLEKE · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor Emeritus。研究主题包括创新与以人为本的设计。",
+      "claims": [
+        "院系列示任职：Professor Emeritus。研究主题包括创新与以人为本的设计。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1b67fc4fea11aa324774b8f9dd7a85ae74b9766063dc065c5b075c76e5d0f9f7",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.ieda.ust.hk/dfaculty/ravi"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-25",
+      "url": "http://www.ieda.ust.hk/dfaculty/ravi/",
+      "title": "Ravindra S. GOONETILLEKE · 院系所给链接",
+      "scope": "旧个人主页列 Human Performance Laboratory 历史身份，当前院系目录列为荣休。",
+      "claims": [
+        "旧个人主页列 Human Performance Laboratory 历史身份，当前院系目录列为荣休。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "241b8093567fcba054bce72c41e287c27309f1b84c2f82fa7a745bfbdcc2a849",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-28",
+      "originalUrl": "http://www.ieda.ust.hk/dfaculty/ravi",
+      "retrievedUrl": "http://www.ieda.ust.hk/dfaculty/ravi/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-29",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=3",
+      "title": "Chung-Yee LEE · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor Emeritus。研究主题包括物流与供应链、排程与库存。",
+      "claims": [
+        "院系列示任职：Professor Emeritus。研究主题包括物流与供应链、排程与库存。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f3f25ea2ac07cee91f949c5fb19f49e8779ef13fc5ce3c0deaa2750365c55cd3",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://ieda.ust.hk/eng/read_file.php?file=files%2Fstaff%2Fcv%2F1606710202_cv.pdf&hash=91252008141d889573a0871e35fefab045a91622e4e478868ce704a43ae1b263"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-30",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=10",
+      "title": "Neville Ka-Shek LEE · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Associate Professor Emeritus。研究主题包括精密制造、机械对准与装配。",
+      "claims": [
+        "院系列示任职：Associate Professor Emeritus。研究主题包括精密制造、机械对准与装配。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "51af746311c2b4086440b44bcc107ffb4b6956004955f543acc6e4a2ccd3061d",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.ieda.ust.hk/dfaculty/lee"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-27",
+      "url": "http://www.ieda.ust.hk/dfaculty/lee/",
+      "title": "Neville Ka-Shek LEE · 院系所给链接",
+      "scope": "旧个人主页注明 2001 年更新并列历史职称，当前院系目录列为荣休。",
+      "claims": [
+        "旧个人主页注明 2001 年更新并列历史职称，当前院系目录列为荣休。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "06be2715e66ed8aa32439de4de591971fbb3af80b4ec4273843006a416a9fc23",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-30",
+      "originalUrl": "http://www.ieda.ust.hk/dfaculty/lee",
+      "retrievedUrl": "http://www.ieda.ust.hk/dfaculty/lee/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-ieda-20261109-profile-31",
+      "url": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=7",
+      "title": "Rachel Q. ZHANG · 港科大 IEDA 个人档案",
+      "scope": "院系列示任职：Professor Emeritus。研究主题包括区块链运营、运筹学与供应链管理。",
+      "claims": [
+        "院系列示任职：Professor Emeritus。研究主题包括区块链运营、运筹学与供应链管理。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e17b81a2be5aa467120f404ab09c01c575b84b5b13926cc90a28249b03893dec",
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://tiabs.zju.edu.cn/tiabsen/2025/1030/c85291a3100180/page.htm"
+      ]
+    },
+    {
+      "id": "hkust-ieda-20261109-linked-28",
+      "url": "https://tiabs.zju.edu.cn/tiabsen/2025/1030/c85291a3100180/page.htm",
+      "title": "Rachel Q. ZHANG · 院系所给链接",
+      "scope": "浙江大学 2025 年介绍列浙江大学任职，港科大院系目录同时列为荣休。",
+      "claims": [
+        "浙江大学 2025 年介绍列浙江大学任职，港科大院系目录同时列为荣休。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "be84014556f1bad1fb34533d4e92ebfd83343a1c8f9d7fa0c7ffa1e94c298a84",
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-ieda-20261109-profile-31",
+      "originalUrl": "https://tiabs.zju.edu.cn/tiabsen/2025/1030/c85291a3100180/page.htm",
+      "retrievedUrl": "https://tiabs.zju.edu.cn/tiabsen/2025/1030/c85291a3100180/page.htm"
     }
   ],
   "funding": [
@@ -201006,6 +203345,431 @@
         "unlinkedEntries": [],
         "observedTotal": 7,
         "profilesRead": 7,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-roster-directory",
+      "universityId": "hkust",
+      "unit": "工业工程及决策分析学系 · 学术人员与荣休教授",
+      "url": "https://ieda.ust.hk/eng/faculty.php?catid=5&sid=15",
+      "sourceIds": [
+        "hkust-ieda-20261109-roster"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系名录列 26 位 Faculty、5 位荣休教授。",
+      "reviewSourceIds": [
+        "hkust-ieda-20261109-programme",
+        "hkust-ieda-20261109-linked-01",
+        "hkust-ieda-20261109-linked-02",
+        "hkust-ieda-20261109-linked-04",
+        "hkust-ieda-20261109-linked-06",
+        "hkust-ieda-20261109-linked-07",
+        "hkust-ieda-20261109-linked-08",
+        "hkust-ieda-20261109-linked-09",
+        "hkust-ieda-20261109-linked-10",
+        "hkust-ieda-20261109-linked-11",
+        "hkust-ieda-20261109-linked-12",
+        "hkust-ieda-20261109-linked-13",
+        "hkust-ieda-20261109-linked-15",
+        "hkust-ieda-20261109-linked-17",
+        "hkust-ieda-20261109-linked-18",
+        "hkust-ieda-20261109-linked-19",
+        "hkust-ieda-20261109-linked-20",
+        "hkust-ieda-20261109-linked-21",
+        "hkust-ieda-20261109-linked-22",
+        "hkust-ieda-20261109-linked-23",
+        "hkust-ieda-20261109-linked-25",
+        "hkust-ieda-20261109-linked-27",
+        "hkust-ieda-20261109-linked-28"
+      ],
+      "census": {
+        "entries": [
+          {
+            "name": "Jiheng ZHANG",
+            "directoryPosition": "Faculty · Head & Professor；Affiliate Professor, Financial Technology Thrust, HKUST (Guangzhou)",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=16",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：应用概率、随机建模与优化、数值方法和算法。",
+            "facultyId": "hkust-math-55"
+          },
+          {
+            "name": "Kani CHEN",
+            "directoryPosition": "Faculty · Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=40",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：生存分析、经验过程、随机建模与金融统计。",
+            "facultyId": "hkust-math-02"
+          },
+          {
+            "name": "Yi CHEN",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=41",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：随机模型、数据驱动决策与实证运营管理。",
+            "facultyId": "hkust-ieda-20261109-41"
+          },
+          {
+            "name": "Ying-Ju CHEN",
+            "directoryPosition": "Faculty · Crown Worldwide Professor of Business；Chair Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=12",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：网络经济学、企业社会责任运营、运营与营销的交叉问题及供应链管理。",
+            "facultyId": "hkust-ieda-20261109-12"
+          },
+          {
+            "name": "Yiding FENG",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=48",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：运筹学、机制设计、信息设计与在线算法。",
+            "facultyId": "hkust-ieda-20261109-48"
+          },
+          {
+            "name": "Albert Y. HA",
+            "directoryPosition": "Faculty · Wei Lun Foundation Professor of Business；Chair Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=28",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：生产与库存管理、供应链竞争、合同与信息共享。",
+            "facultyId": "hkust-ieda-20261109-28"
+          },
+          {
+            "name": "Dongyan (Lucy) HUO",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=50",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：应用概率、排队论与强化学习。",
+            "facultyId": "hkust-ieda-20261109-50"
+          },
+          {
+            "name": "Jiashuo JIANG",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=43",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：随机与在线优化，应用于库存、收益管理和机制设计。",
+            "facultyId": "hkust-ieda-20261109-43"
+          },
+          {
+            "name": "Nan JIANG",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=51",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：研究不确定条件下的决策方法与算法。",
+            "facultyId": "hkust-ieda-20261109-51"
+          },
+          {
+            "name": "Wei JIANG",
+            "directoryPosition": "Faculty · Associate Professor；PG Coordinator",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=36",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：金融工程、金融科技、公司金融与随机建模。",
+            "facultyId": "hkust-ieda-20261109-36"
+          },
+          {
+            "name": "Ajay JONEJA",
+            "directoryPosition": "Faculty · Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=4",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：制造过程的 CAD/CAM 集成、快速成型与建筑几何。",
+            "facultyId": "review-hkust-5d0ee48397f62b"
+          },
+          {
+            "name": "Jia LIU",
+            "directoryPosition": "Faculty · Associate Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=44",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：搜索、推荐系统、广告与平台运营。",
+            "facultyId": "hkust-ieda-20261109-44"
+          },
+          {
+            "name": "Qian LIU",
+            "directoryPosition": "Faculty · Professor；Director, MSc EEM Program",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=13",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：收益管理与定价、运营中的顾客行为、物流与供应链管理。",
+            "facultyId": "hkust-ieda-20261109-13"
+          },
+          {
+            "name": "Sanyou MEI",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=52",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：双层、极小极大、随机与分布式优化算法。",
+            "facultyId": "hkust-ieda-20261109-52"
+          },
+          {
+            "name": "Daniel PEREZ PALOMAR",
+            "directoryPosition": "Faculty · Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=37",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：金融计量、金融风险管理、优化与信号处理。",
+            "facultyId": "hkust-ieda-20261109-37"
+          },
+          {
+            "name": "Jin QI",
+            "directoryPosition": "Faculty · Associate Professor；Associate Director of Center for Aging Science",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=22",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：鲁棒优化、医疗运营、交通与不确定条件下的目标决策。",
+            "facultyId": "hkust-ieda-20261109-22"
+          },
+          {
+            "name": "Xiangtong QI",
+            "directoryPosition": "Faculty · Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=5",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：生产排程、库存控制、物流与供应链的建模优化。",
+            "facultyId": "hkust-ieda-20261109-5"
+          },
+          {
+            "name": "Xuan (Ada) QIU",
+            "directoryPosition": "Faculty · Assistant Professor of Engineering Education",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=19",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：数据驱动优化、多模式交通与交通物联网。"
+          },
+          {
+            "name": "Nian SI",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=46",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：应用概率与仿真、市场实验、最优传输及分布鲁棒性。",
+            "facultyId": "hkust-ieda-20261109-46"
+          },
+          {
+            "name": "Richard H. Y. SO",
+            "directoryPosition": "Faculty · Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=6",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：视觉与听觉的计算人因工程、仿生信号处理。",
+            "facultyId": "hkust-ieda-20261109-6"
+          },
+          {
+            "name": "Fugee TSUNG",
+            "directoryPosition": "Faculty · Chair Professor；Associate Director of HKUST-HKPC Joint Research Lab for Industrial AI and Robotics",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=1",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：质量工程、统计过程控制与工业数据分析。",
+            "facultyId": "hkust-ieda-20261109-1"
+          },
+          {
+            "name": "Chenguang (Allen) WU",
+            "directoryPosition": "Faculty · Associate Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=32",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：服务运营、捆绑定价、搜索与供应链管理。",
+            "facultyId": "hkust-ieda-20261109-32"
+          },
+          {
+            "name": "Bo YANG",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=47",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：可再生能源运营、能源商品交易与电力市场设计。",
+            "facultyId": "hkust-ieda-20261109-47"
+          },
+          {
+            "name": "Wei YOU",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=34",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：排队论、应用概率、性能分析与服务系统设计。",
+            "facultyId": "hkust-ieda-20261109-34"
+          },
+          {
+            "name": "Xiaowei ZHANG",
+            "directoryPosition": "Faculty · Associate Professor；UG Coordinator",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=45",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：AI 仿真、强化学习、随机优化与服务运营。",
+            "facultyId": "hkust-ieda-20261109-45"
+          },
+          {
+            "name": "Zijie ZHOU",
+            "directoryPosition": "Faculty · Assistant Professor",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=53",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：大语言模型推理优化、排程、排队与在线学习。",
+            "facultyId": "hkust-ieda-20261109-53"
+          },
+          {
+            "name": "Guillermo GALLEGO",
+            "directoryPosition": "Professor Emeritus · Professor Emeritus",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=23",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：动态定价、收益优化与库存理论。"
+          },
+          {
+            "name": "Ravindra S. GOONETILLEKE",
+            "directoryPosition": "Professor Emeritus · Professor Emeritus",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=2",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：创新与以人为本的设计。"
+          },
+          {
+            "name": "Chung-Yee LEE",
+            "directoryPosition": "Professor Emeritus · Professor Emeritus",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=3",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：物流与供应链、排程与库存。"
+          },
+          {
+            "name": "Neville Ka-Shek LEE",
+            "directoryPosition": "Professor Emeritus · Associate Professor Emeritus",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=10",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：精密制造、机械对准与装配。"
+          },
+          {
+            "name": "Rachel Q. ZHANG",
+            "directoryPosition": "Professor Emeritus · Professor Emeritus",
+            "profileUrl": "https://ieda.ust.hk/eng/faculty-staff.php?catid=5&sid=15&id=7",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究方向：区块链运营、运筹学与供应链管理。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 31,
+        "profilesRead": 31,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hkust-ieda-20261109-staff-directory",
+      "universityId": "hkust",
+      "unit": "工业工程及决策分析学系 · 行政、研究及技术支援",
+      "url": "https://ieda.ust.hk/eng/staff.php?catid=5&sid=16",
+      "sourceIds": [
+        "hkust-ieda-20261109-staff"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "包括行政 8 人、研究支援 2 人、技术支援 2 人。",
+      "reviewSourceIds": [
+        "hkust-ieda-20261109-programme"
+      ],
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Ms Winnie CHOY",
+            "directoryPosition": "Administration · Senior Manager",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Maggie TUNG",
+            "directoryPosition": "Administration · Associate Manager",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Esther HO",
+            "directoryPosition": "Administration · Departmental Secretary",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Carol CHEUNG",
+            "directoryPosition": "Administration · Officer (Administration)",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Winnie LAM",
+            "directoryPosition": "Administration · Officer (Administration)",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Joyce CHAN",
+            "directoryPosition": "Administration · Assistant Officer (Administration)",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Fona WONG",
+            "directoryPosition": "Administration · Assistant Officer (Administration)",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Sarah COOK",
+            "directoryPosition": "Administration · Communication Tutor",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Hannah RAN",
+            "directoryPosition": "Research · Officer",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Mr Shelton LIU",
+            "directoryPosition": "Research · Research Assistant",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Mr Denil CHAN",
+            "directoryPosition": "Technical Support · Assistant IT Manager",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          },
+          {
+            "name": "Ms Peggy MAK",
+            "directoryPosition": "Technical Support · Technical Officer",
+            "profileUrl": null,
+            "reason": "人员名录未提供个人档案。",
+            "providedLinks": []
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
         "profilesFailed": 0,
         "pendingReasonCounts": {}
       }
@@ -245320,5 +248084,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:aa2f11aff42e7a4c426b7112f35266c0c95752caa59aaa67d742665b2f51c0b2"
+  "snapshotId": "sha256:22d6d0ef67d71c76d46685b046073209da7dceb3c8576f89b9fee74c0d5f6c0e"
 }
