@@ -1,0 +1,798 @@
+{
+  "reusedSourceIds": [
+    "college-batch-cuhksz-5-20261029"
+  ],
+  "appendSourcesAfterExisting": true,
+  "sources": [
+    {
+      "id": "cuhksz-med-20261109-clinical-division",
+      "title": "医学院 · 临床医学学科部与学系任职",
+      "url": "https://med.cuhk.edu.cn/teacher/1182",
+      "checkedAt": "2026-11-09",
+      "scope": "学院档案列临床医学学科部与麻醉学、危重护理和疼痛医学系的负责人信息。",
+      "claims": [
+        "学院档案列临床医学学科部与麻醉学、危重护理和疼痛医学系的负责人信息。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e90720844b9f936efd750669f0779e815d2ba3aeb212132272ec2fde0c684838",
+      "knownIssues": [],
+      "listedNames": [
+        "临床医学学科部",
+        "麻醉学、危重护理和疼痛医学系"
+      ]
+    },
+    {
+      "id": "cuhksz-med-20261109-biomedical-division",
+      "title": "医学院 · 生物医学健康科学学科部任职",
+      "url": "https://med.cuhk.edu.cn/teacher/998",
+      "checkedAt": "2026-11-09",
+      "scope": "学院档案列生物医学健康科学学科部的负责人信息。",
+      "claims": [
+        "学院档案列生物医学健康科学学科部的负责人信息。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d2190f4c6ee111a1db349b528d579c9a3d2d18a6604b29f4540fd197e2fda451",
+      "knownIssues": [],
+      "listedNames": [
+        "生物医学健康科学学科部"
+      ]
+    },
+    {
+      "id": "cuhksz-med-20261109-committee-chart",
+      "title": "医学院 · 委员会架构图",
+      "url": "https://med.cuhk.edu.cn/page/784",
+      "checkedAt": "2026-11-09",
+      "scope": "图列临床与基础医学学系主任委员会，以及教育、科研、人力与行政分支。",
+      "claims": [
+        "图列临床与基础医学学系主任委员会，以及教育、科研、人力与行政分支。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "20bac457945a4ee0cf363ca88a35e79b860cfe18dc4add89da4b12cc9360cb1b",
+      "knownIssues": [],
+      "linkedImageSha256": "4b1ce80e5aaf8b55949430ceb5c1341235bf779d2518ec940b48f63f92e04a19"
+    },
+    {
+      "id": "cuhksz-med-20261109-intake",
+      "title": "医学院 · 2027/28 秋季研究学位申请概览",
+      "url": "https://medpg.cuhk.edu.cn/page/112",
+      "checkedAt": "2026-11-09",
+      "scope": "列六项研究学位的申请轮次、通用学历与语言要求，以及申请材料。",
+      "claims": [
+        "列六项研究学位的申请轮次、通用学历与语言要求，以及申请材料。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6f9b5db5990783db663f49adef4354774c364b9336a21d37697646a3c11191d6",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-faculty",
+      "title": "医学院 · 教职人员名录",
+      "url": "https://med.cuhk.edu.cn/teacher-search",
+      "checkedAt": "2026-11-09",
+      "scope": "可按职称和学术领域筛选。核对的 15 页包含 139 个不同个人主页入口。",
+      "claims": [
+        "可按职称和学术领域筛选。核对的 15 页包含 139 个不同个人主页入口。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8d65221d92dbce8548b2e481684598625f121f25a6e5333783be1653715969f5",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-clinical-annex",
+      "title": "附属第二医院 · 临床医学研究学位临床导师",
+      "url": "https://medpg.cuhk.edu.cn/medpg-prod/sites/default/files/inline-files/Annex%20I%EF%BC%9AList%20of%20Clinical%20Supervisors%20The%20Second%20Affliated%20Hospital%2C%20CUHK-Shenzhen.pdf",
+      "checkedAt": "2026-11-09",
+      "scope": "附件列 15 名临床导师，8 名列硕士及博士，7 名仅列硕士。用于双导师安排中的临床指导。",
+      "claims": [
+        "附件列 15 名临床导师，8 名列硕士及博士，7 名仅列硕士。用于双导师安排中的临床指导。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b52967b4e4b50250f43362d617c24053b5aa99ca778219d7fd31f81832150db1",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-biology",
+      "title": "医学院 · 生物科学 MPhil/PhD",
+      "url": "https://medpg.cuhk.edu.cn/node/25",
+      "checkedAt": "2026-11-09",
+      "scope": "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。生物化学、细胞生物学、免疫、神经生物学、遗传学与计算生物学等。",
+      "claims": [
+        "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。生物化学、细胞生物学、免疫、神经生物学、遗传学与计算生物学等。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "da9ec248157aea40a36075421521abbed63e34ce0e1ef6bdcd5fe1a9cd5ae9af",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-biomedinfo",
+      "title": "医学院 · 计算生物与医学信息学 MPhil/PhD",
+      "url": "https://medpg.cuhk.edu.cn/node/109",
+      "checkedAt": "2026-11-09",
+      "scope": "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。医学院与数据科学学院合办，方向包括计算建模、生物信息算法与医学数据分析。",
+      "claims": [
+        "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。医学院与数据科学学院合办，方向包括计算建模、生物信息算法与医学数据分析。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "29682a9f151510ffdd9a3fc31cee6a78e69ccdac8f8f185413de82fe0ed28854",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-pharmacology",
+      "title": "医学院 · 药理学 MPhil/PhD",
+      "url": "https://medpg.cuhk.edu.cn/node/110",
+      "checkedAt": "2026-11-09",
+      "scope": "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。关注药物作用机制、疾病治疗与药物开发。",
+      "claims": [
+        "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。关注药物作用机制、疾病治疗与药物开发。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "01ee8501502e3a946367abf6fc9657ad46b1653dad8e064845fa673faf244d33",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-epi",
+      "title": "医学院 · 流行病学和生物统计学 MPhil/PhD",
+      "url": "https://medpg.cuhk.edu.cn/en/node/108",
+      "checkedAt": "2026-11-09",
+      "scope": "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。可从人群健康研究和生物统计方法了解课题。",
+      "claims": [
+        "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。可从人群健康研究和生物统计方法了解课题。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c2a1a816a8f0eb206564e0f6e449bbc69b7cf3a521e6f8d8c3598df306a5c537",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-med-20261109-clinical",
+      "title": "医学院 · 临床医学 MPhil/PhD",
+      "url": "https://medpg.cuhk.edu.cn/en/node/117",
+      "checkedAt": "2026-11-09",
+      "scope": "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。采用双导师制，由研究导师指导研究与论文，附属医院临床导师指导临床实践。",
+      "claims": [
+        "2027 年秋季申请自 2026 年 9 月 30 日至 2027 年 4 月 15 日。项目列先联系导师、申请费和学费。采用双导师制，由研究导师指导研究与论文，附属医院临床导师指导临床实践。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ab02c3b485a34870443f36c9e9d5213def58e09ec290dbc5c83efc2c486daaf2",
+      "knownIssues": []
+    }
+  ],
+  "units": [
+    {
+      "unitId": "cuhksz-5",
+      "entrySourceId": "college-batch-cuhksz-5-20261029",
+      "updateEntry": false,
+      "preservePriorReview": true,
+      "children": [
+        {
+          "name": "临床医学学科部",
+          "observedName": "临床医学学科部",
+          "kind": "division",
+          "url": null,
+          "inventorySourceIds": [
+            "cuhksz-med-20261109-clinical-division"
+          ],
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "entryBodyStatus": "not_read",
+          "teacherProfilesTotal": null,
+          "teacherReviewStatus": "pending"
+        },
+        {
+          "name": "生物医学健康科学学科部",
+          "observedName": "生物医学健康科学学科部",
+          "kind": "division",
+          "url": null,
+          "inventorySourceIds": [
+            "cuhksz-med-20261109-biomedical-division"
+          ],
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "entryBodyStatus": "not_read",
+          "teacherProfilesTotal": null,
+          "teacherReviewStatus": "pending"
+        },
+        {
+          "name": "麻醉学、危重护理和疼痛医学系",
+          "observedName": "麻醉学、危重护理和疼痛医学系",
+          "kind": "department",
+          "url": null,
+          "inventorySourceIds": [
+            "cuhksz-med-20261109-clinical-division"
+          ],
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "entryBodyStatus": "not_read",
+          "teacherProfilesTotal": null,
+          "teacherReviewStatus": "pending"
+        }
+      ],
+      "navigationGroups": [],
+      "organizationReview": {
+        "checkedAt": "2026-11-09",
+        "status": "components_only",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical-division",
+          "cuhksz-med-20261109-biomedical-division",
+          "cuhksz-med-20261109-committee-chart",
+          "cuhksz-med-20261109-faculty",
+          "cuhksz-med-20261109-intake"
+        ],
+        "summary": "学院公开档案可确认两学科部及一项具名学系。委员会图列治理分工，完整学系名单仍待核。",
+        "organizationComplete": false,
+        "facultyComplete": false,
+        "listedChildren": 3
+      },
+      "reviewedNavigation": [
+        {
+          "kind": "staff_directory",
+          "sourceId": "cuhksz-med-20261109-faculty",
+          "label": "按职称或学术领域找老师",
+          "scope": "打开医学院教职人员名录，查看任职、研究方向与个人档案。"
+        },
+        {
+          "kind": "research_admission_notice",
+          "sourceId": "cuhksz-med-20261109-intake",
+          "label": "查看医学院研究学位申请",
+          "scope": "查看六项研究学位的申请日期、学历要求与材料清单。"
+        }
+      ]
+    }
+  ],
+  "programmes": [
+    {
+      "id": "cuhksz-med-biology-rpg",
+      "universityId": "cuhksz",
+      "name": "生物科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）医学院，2027 年秋季入学。生物化学、细胞生物学、免疫、神经生物学、遗传学与计算生物学等。",
+      "entryUrl": "https://medpg.cuhk.edu.cn/node/25",
+      "contact": {
+        "status": "required",
+        "text": "先联系意向导师，再提交网申。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      },
+      "selection": {
+        "text": "按项目原页提交网上申请，入学注册时核查原件。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biology"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年秋季申请截止（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-med-20261109-biology",
+        "cuhksz-med-20261109-intake"
+      ],
+      "requirements": [
+        {
+          "label": "学历要求",
+          "text": "MPhil 通常要求认可院校的学士学位达到二等荣誉或 B 等，或具同等专业资格。PhD 也接受认可院校的硕士学位。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "可用符合条件的英语授课学位或英语成绩。TOEFL iBT 为 79/120 或 4.5/6，雅思学术类为 6.5。认可考试、成绩有效期及证明见项目页。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ]
+        },
+        {
+          "label": "网申材料",
+          "text": "准备学历或在读证明、盖章成绩单、英语证明、简历、英文个人陈述及两位推荐人信息。",
+          "sourceIds": [
+            "cuhksz-med-20261109-intake"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-med-biology-rpg-application_fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每份申请 600 元人民币。",
+          "action": "在网申系统确认缴费步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-med-biology-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027 年起，MPhil 和 PhD 每年 162,000 元人民币。",
+          "action": "查看项目的收费和资助说明。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biology"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-med-biomedinfo-rpg",
+      "universityId": "cuhksz",
+      "name": "计算生物与医学信息学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）医学院，2027 年秋季入学。医学院与数据科学学院合办，方向包括计算建模、生物信息算法与医学数据分析。",
+      "entryUrl": "https://medpg.cuhk.edu.cn/node/109",
+      "contact": {
+        "status": "required",
+        "text": "先联系意向导师，再提交网申。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      },
+      "selection": {
+        "text": "按项目原页提交网上申请，入学注册时核查原件。",
+        "sourceIds": [
+          "cuhksz-med-20261109-biomedinfo"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年秋季申请截止（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-med-20261109-biomedinfo",
+        "cuhksz-med-20261109-intake"
+      ],
+      "requirements": [
+        {
+          "label": "学历要求",
+          "text": "MPhil 通常要求认可院校的学士学位达到二等荣誉或 B 等，或具同等专业资格。PhD 也接受认可院校的硕士学位。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "可用符合条件的英语授课学位或英语成绩。TOEFL iBT 为 79/120 或 4.5/6，雅思学术类为 6.5。认可考试、成绩有效期及证明见项目页。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ]
+        },
+        {
+          "label": "网申材料",
+          "text": "准备学历或在读证明、盖章成绩单、英语证明、简历、英文个人陈述及两位推荐人信息。",
+          "sourceIds": [
+            "cuhksz-med-20261109-intake"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-med-biomedinfo-rpg-application_fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每份申请 600 元人民币。",
+          "action": "在网申系统确认缴费步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-med-biomedinfo-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027 年起，MPhil 和 PhD 每年 162,000 元人民币。",
+          "action": "查看项目的收费和资助说明。",
+          "sourceIds": [
+            "cuhksz-med-20261109-biomedinfo"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-med-pharmacology-rpg",
+      "universityId": "cuhksz",
+      "name": "药理学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）医学院，2027 年秋季入学。关注药物作用机制、疾病治疗与药物开发。",
+      "entryUrl": "https://medpg.cuhk.edu.cn/node/110",
+      "contact": {
+        "status": "required",
+        "text": "先联系意向导师，再提交网申。",
+        "sourceIds": [
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      },
+      "selection": {
+        "text": "按项目原页提交网上申请，入学注册时核查原件。",
+        "sourceIds": [
+          "cuhksz-med-20261109-pharmacology"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年秋季申请截止（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-med-20261109-pharmacology",
+        "cuhksz-med-20261109-intake"
+      ],
+      "requirements": [
+        {
+          "label": "学历要求",
+          "text": "MPhil 通常要求认可院校的学士学位达到二等荣誉或 B 等，或具同等专业资格。PhD 也接受认可院校的硕士学位。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "可用符合条件的英语授课学位或英语成绩。TOEFL iBT 为 79/120 或 4.5/6，雅思学术类为 6.5。认可考试、成绩有效期及证明见项目页。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ]
+        },
+        {
+          "label": "网申材料",
+          "text": "准备学历或在读证明、盖章成绩单、英语证明、简历、英文个人陈述及两位推荐人信息。",
+          "sourceIds": [
+            "cuhksz-med-20261109-intake"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-med-pharmacology-rpg-application_fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每份申请 600 元人民币。",
+          "action": "在网申系统确认缴费步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-med-pharmacology-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027 年起，MPhil 和 PhD 每年 162,000 元人民币。",
+          "action": "查看项目的收费和资助说明。",
+          "sourceIds": [
+            "cuhksz-med-20261109-pharmacology"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-med-epi-rpg",
+      "universityId": "cuhksz",
+      "name": "流行病学和生物统计学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）医学院，2027 年秋季入学。可从人群健康研究和生物统计方法了解课题。",
+      "entryUrl": "https://medpg.cuhk.edu.cn/en/node/108",
+      "contact": {
+        "status": "required",
+        "text": "先联系意向导师，再提交网申。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi"
+        ]
+      },
+      "selection": {
+        "text": "按项目原页提交网上申请，入学注册时核查原件。",
+        "sourceIds": [
+          "cuhksz-med-20261109-epi"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年秋季申请截止（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-med-20261109-epi",
+        "cuhksz-med-20261109-intake"
+      ],
+      "requirements": [
+        {
+          "label": "学历要求",
+          "text": "MPhil 通常要求认可院校的学士学位达到二等荣誉或 B 等，或具同等专业资格。PhD 也接受认可院校的硕士学位。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "可用符合条件的英语授课学位或英语成绩。TOEFL iBT 为 79/120 或 4.5/6，雅思学术类为 6.5。认可考试、成绩有效期及证明见项目页。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ]
+        },
+        {
+          "label": "网申材料",
+          "text": "准备学历或在读证明、盖章成绩单、英语证明、简历、英文个人陈述及两位推荐人信息。",
+          "sourceIds": [
+            "cuhksz-med-20261109-intake"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-med-epi-rpg-application_fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每份申请 600 元人民币。",
+          "action": "在网申系统确认缴费步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-med-epi-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027 年起，MPhil 和 PhD 每年 162,000 元人民币。",
+          "action": "查看项目的收费和资助说明。",
+          "sourceIds": [
+            "cuhksz-med-20261109-epi"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-med-clinical-rpg",
+      "universityId": "cuhksz",
+      "name": "临床医学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）医学院，2027 年秋季入学。采用双导师制，由研究导师指导研究与论文，附属医院临床导师指导临床实践。",
+      "entryUrl": "https://medpg.cuhk.edu.cn/en/node/117",
+      "contact": {
+        "status": "required",
+        "text": "先联系意向导师，再提交网申。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      },
+      "selection": {
+        "text": "按项目原页提交网上申请，入学注册时核查原件。",
+        "sourceIds": [
+          "cuhksz-med-20261109-clinical"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年秋季申请截止（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-med-20261109-clinical",
+        "cuhksz-med-20261109-intake",
+        "cuhksz-med-20261109-clinical-annex"
+      ],
+      "requirements": [
+        {
+          "label": "学历要求",
+          "text": "MPhil 通常要求认可院校的学士学位达到二等荣誉或 B 等，或具同等专业资格。PhD 也接受认可院校的硕士学位。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "可用符合条件的英语授课学位或英语成绩。TOEFL iBT 为 79/120 或 4.5/6，雅思学术类为 6.5。认可考试、成绩有效期及证明见项目页。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ]
+        },
+        {
+          "label": "网申材料",
+          "text": "准备学历或在读证明、盖章成绩单、英语证明、简历、英文个人陈述及两位推荐人信息。",
+          "sourceIds": [
+            "cuhksz-med-20261109-intake"
+          ]
+        },
+        {
+          "label": "研究导师与临床导师",
+          "text": "先查项目页的研究导师表和附属医院临床导师表。临床导师表按硕士、博士分别标注；配对按研究方向和训练安排确定。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical",
+            "cuhksz-med-20261109-clinical-annex"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-med-clinical-rpg-application_fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每份申请 600 元人民币。",
+          "action": "在网申系统确认缴费步骤。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-med-clinical-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027 年起，MPhil 和 PhD 每年 162,000 元人民币。",
+          "action": "查看项目的收费和资助说明。",
+          "sourceIds": [
+            "cuhksz-med-20261109-clinical"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "2027 年秋季项目说明"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
