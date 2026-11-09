@@ -6475,6 +6475,81 @@ window.APP_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "hku-earth-rpg",
+      "universityId": "hku",
+      "name": "地球与行星科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港大地球与行星科学系。可了解地球演化、气候、行星与太空、地质及水文等方向。",
+      "contact": {
+        "status": "required",
+        "text": "提交申请前须联系意向导师，讨论课题和接收安排。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      },
+      "selection": {
+        "text": "研究院列主轮与两轮补录；补录须有学额。",
+        "sourceIds": [
+          "HKU-CENTRAL-PERIOD"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "校级主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第一轮补录截止：2027-04-30 23:59（UTC+8）",
+          "date": "2027-04-30",
+          "at": "2027-04-30T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第二轮补录截止：2027-08-31 23:59（UTC+8）",
+          "date": "2027-08-31",
+          "at": "2027-08-31T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hku-earth-20261109-apply",
+        "HKU-CENTRAL-PERIOD"
+      ],
+      "evidenceNote": "轮次为港大研究院的校级安排。联系导师与研究计划要求来自学系。",
+      "entryUrl": "https://www.earthsciences.hku.hk/education/postgraduate_students/research_postgraduates/how_to_apply/",
+      "requirements": [
+        {
+          "label": "研究计划",
+          "text": "随申请提交研究计划，说明研究重点与开展研究的能力。",
+          "action": "先与意向导师讨论课题，再准备研究计划。",
+          "sourceIds": [
+            "hku-earth-20261109-apply"
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -31440,16 +31515,20 @@ window.APP_CATALOG = {
       "name": "Peng Gong",
       "department": "港大师资名录所列任职；具体研究单位看原页",
       "profileUrl": "https://presidentsoffice.hku.hk/leadership/professor-peng-gong",
-      "reviewedProfileUrl": "https://presidentsoffice.hku.hk/leadership/professor-peng-gong",
+      "reviewedProfileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/3/?back=af3a6f1ace1fc32210286eb66ab8ef53",
       "directoryRole": "Chair Professor (by courtesy)",
       "identityNote": "名录列为by courtesy任职，不能把管理职务或礼聘身份当作接收承诺。",
       "researchKeywords": [
         "urbanization and health",
         "global environmental change",
-        "environmentally-related infectious diseases"
+        "environmentally-related infectious diseases",
+        "城市化与健康",
+        "全球环境变化遥感和传染病环境建模",
+        "Global Sustainability & Remote Sensing"
       ],
       "keywordSourceIds": [
-        "hku-cds-profile-027-20261027"
+        "hku-cds-profile-027-20261027",
+        "hku-earth-20261109-academic-profile-3"
       ],
       "topics": [
         "生物医学与健康",
@@ -31458,15 +31537,31 @@ window.APP_CATALOG = {
       "summary": "关注城市化与健康、全球环境变化监测，以及环境相关传染病的建模。",
       "sourceIds": [
         "hku-cds-directory-observed-20261026",
-        "hku-cds-profile-027-20261027"
+        "hku-cds-profile-027-20261027",
+        "hku-earth-20261109-academic-profile-3",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-01"
       ],
       "directorySourceIds": [
-        "hku-cds-directory-observed-20261026"
+        "hku-cds-directory-observed-20261026",
+        "hku-science-earth-staff-20261105"
       ],
       "academicUnitIds": [
-        "hku-6"
+        "hku-6",
+        "hku-9"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://www.geog.hku.hk/p-gong",
+          "parentSourceId": "hku-earth-20261109-academic-profile-3",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-01"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -93791,6 +93886,1335 @@ window.APP_CATALOG = {
         "text": "可查看学系个人页与 2027 年 9 月研究学位申请要求。",
         "sourceIds": [
           "polyu-chemistry-20261109-sept-supervisors"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-7",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-7",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-02"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-7"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "变质岩石学",
+        "前寒武纪地质及行星地质",
+        "Metamorphic Petrology, Precambrian Geology & Planetary Geology"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://scholar.google.com/citations?user=5gfMg_0AAAAJ&hl=en",
+          "parentSourceId": "hku-earth-20261109-academic-profile-7",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-02"
+        }
+      ],
+      "name": "Prof. Zhao, Guochun",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Mok Sau-King Professor, Professor, Chair of Earth Sciences, Academician (Member) of the Chinese Academy of Science (CAS), World Academy of Science (TWAS) for the Advancement of Science in Developing Countries, and Hong Kong Academy of Sciences (HKAS)",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/7/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究变质岩石学、前寒武纪地质及行星地质。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-125",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-125",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-125"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "太阳系起源与演化",
+        "宇宙化学与高精度同位素分析",
+        "Planetary Science, Cosmochemistry & Geochemistry"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://www.originscollective.org/",
+          "parentSourceId": "hku-earth-20261109-academic-profile-125",
+          "bodyStatus": "not_read",
+          "readNote": "页面只返回标题，正文未能核对。"
+        }
+      ],
+      "name": "Prof. Dauphas, Nicolas",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor, Chair of Cosmochemistry, Member of the National Academy of Sciences.",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/125/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究太阳系起源与演化、宇宙化学与高精度同位素分析。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-4",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-4",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-06"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-4"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "水文地质",
+        "地下水与海岸水文",
+        "Hydrogeology"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://www.researchgate.net/profile/Jiu_Jiao",
+          "parentSourceId": "hku-earth-20261109-academic-profile-4",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://dev-earthsciences.hku.hk/f/upload/1023/Jimmy_Jiao_CV.doc",
+          "parentSourceId": "hku-earth-20261109-academic-profile-4",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://hydrogeology.hku.hk/",
+          "parentSourceId": "hku-earth-20261109-academic-profile-4",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-06"
+        }
+      ],
+      "name": "Prof. Jiao, Jimmy",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/4/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究水文地质、地下水与海岸水文。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-11",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-11",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-07"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-11"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星与卫星的形成",
+        "动力学及系外行星系统",
+        "Formation and Dynamics of Planetary Systems"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://scholar.google.com.hk/citations?user=b8aFqoYAAAAJ&hl=zh-TW&oi=ao",
+          "parentSourceId": "hku-earth-20261109-academic-profile-11",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-07"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://orcid.org/0000-0003-1930-5683",
+          "parentSourceId": "hku-earth-20261109-academic-profile-11",
+          "bodyStatus": "not_read",
+          "readNote": "网页需要 JavaScript，当前返回无个人正文。"
+        }
+      ],
+      "name": "Prof. Lee, Man Hoi",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/11/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究行星与卫星的形成、动力学及系外行星系统。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-10",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-10",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-09"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-10"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "天体生物学",
+        "早期生物圈的矿物记录",
+        "Astrobiology"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://scholar.google.com/citations?user=WQGmJWYAAAAJ",
+          "parentSourceId": "hku-earth-20261109-academic-profile-10",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-09"
+        },
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.astrobiology.hk",
+          "parentSourceId": "hku-earth-20261109-academic-profile-10",
+          "bodyStatus": "not_read",
+          "readNote": "原链接连接失败。"
+        }
+      ],
+      "name": "Prof. Li, YiLiang",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/10/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究天体生物学、早期生物圈的矿物记录。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-1",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-1",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-1"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "古气候重建与气候演化",
+        "Palaeoclimatology"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Liu, Zhonghui",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor Interim Head of Department",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/1/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究古气候重建与气候演化。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-89",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-89",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-89"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星遥感",
+        "行星地质及黏土矿物",
+        "Remote sensing, Planetary Geology and Clay Mineralogy"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.clays.space",
+          "parentSourceId": "hku-earth-20261109-academic-profile-89",
+          "bodyStatus": "not_read",
+          "readNote": "原链接连接失败。"
+        }
+      ],
+      "name": "Prof. Michalski, Joseph",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/89/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "summary": "研究行星遥感、行星地质及黏土矿物。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-77",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-77",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-12"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-77"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "工程地质",
+        "岩石力学与地下工程",
+        "Engineering Geology, Rock Mechanics, Underground Engineering"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://scholar.google.com.hk/citations?user=j_BFCYsAAAAJ&hl=e",
+          "parentSourceId": "hku-earth-20261109-academic-profile-77",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-12"
+        }
+      ],
+      "name": "Prof. Wong, Louis N.Y.",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "ProfessorAssociate Head (Research)Programme Director, MSc in the Field of Applied Geosciences",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/77/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究工程地质、岩石力学与地下工程。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-6",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-6",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-13"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-6"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "构造地质",
+        "早期陆壳演化与行星构造",
+        "Structural Geology, Geodynamics, Planetary Tectonics"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://scholar.google.com/citations?hl=en&user=DQ9gdkEAAAAJ",
+          "parentSourceId": "hku-earth-20261109-academic-profile-6",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-13"
+        }
+      ],
+      "name": "Prof. Zhang, Jian",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/6/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究构造地质、早期陆壳演化与行星构造。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-9",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-9",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-9"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "水溶液地球化学",
+        "前生物化学与光谱方法",
+        "Physical Geochemistry"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Lemke, Kono",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/9/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究水溶液地球化学、前生物化学与光谱方法。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-95",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-95",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-14"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-95"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "沉积地质与地球系统",
+        "生物圈的协同演化",
+        "Sedimentary Geology, Earth Systems Evolution"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.sedgeo-earthevo.com",
+          "parentSourceId": "hku-earth-20261109-academic-profile-95",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-14"
+        }
+      ],
+      "name": "Prof. McKenzie, Ryan",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/95/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究沉积地质与地球系统、生物圈的协同演化。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-75",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-75",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-75"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "海岸过程",
+        "海平面变化与古风暴记录",
+        "Coastal processes, Sea-level change, Environmental change & Climate change"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Khan, Nicole",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/75/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究海岸过程、海平面变化与古风暴记录。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-76",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-76",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-76"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星空间科学",
+        "磁重联与行星磁层",
+        "Planetary Space Sciences & Explorations"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Yao, Zhonghua",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/76/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究行星空间科学、磁重联与行星磁层。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-63",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-63",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-15"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-63"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星磁层",
+        "空间等离子体及数值模型",
+        "Planetary and Geospace Environment, Space Plasma Physics"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "http://www.binzh.net",
+          "parentSourceId": "hku-earth-20261109-academic-profile-63",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-15"
+        }
+      ],
+      "name": "Prof. Zhang, Binzheng",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Associate Professor (Associate Professor, by courtesy, Department of Physics)",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/63/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究行星磁层、空间等离子体及数值模型。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-131",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-131",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-16"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-131"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "地球系统地球化学及类地行星的演化与宜居性",
+        "Earth-system & Geochemistry"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://meng-guo.com/",
+          "parentSourceId": "hku-earth-20261109-academic-profile-131",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-16"
+        }
+      ],
+      "name": "Prof. Guo, Meng",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/131/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究地球系统地球化学及类地行星的演化与宜居性。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-68",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-68",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-17"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-68"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "火山学",
+        "火成岩石学与行星挥发分循环",
+        "Volcanology, Igneous Petrology, Planetary geology"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://weiranli.wixsite.com/alex",
+          "parentSourceId": "hku-earth-20261109-academic-profile-68",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-17"
+        }
+      ],
+      "name": "Prof. Li, Weiran",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Assistant Professor/Museum Curator",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/68/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究火山学、火成岩石学与行星挥发分循环。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-62",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-62",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-62"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "早期火星地质",
+        "含水环境和反射光谱",
+        "The geology of early Mars, Reflectance spectroscopy"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Liu Jiacheng",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/62/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究早期火星地质、含水环境和反射光谱。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-67",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-67",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-18"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-67"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "地震干涉",
+        "海洋与城市地震学",
+        "地下结构成像",
+        "Seismic interferometry, Marine & urban seismology, Geophysics"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://liuxinscer.github.io",
+          "parentSourceId": "hku-earth-20261109-academic-profile-67",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-18"
+        }
+      ],
+      "name": "Prof. Liu, Xin",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/67/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究地震干涉、海洋与城市地震学、地下结构成像。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-118",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-118",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-118"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "全球变化与海洋遥感",
+        "海色和海洋生态",
+        "Global change & remote sensing & ocean color, Marine ecology"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://sites.google.com/view/mengqiu-wang",
+          "parentSourceId": "hku-earth-20261109-academic-profile-118",
+          "bodyStatus": "not_read",
+          "readNote": "原入口转入登录页，正文未能核对。"
+        }
+      ],
+      "name": "Prof. Wang, Mengqiu",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/118/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究全球变化与海洋遥感、海色和海洋生态。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-110",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-110",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-110"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "气候变化",
+        "热带气旋和极端天气风险",
+        "Climate Change, Tropical Cyclone, Climate Risk Assessment"
+      ],
+      "extraLinks": [],
+      "name": "Prof. Xi, Dazhi",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/110/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究气候变化、热带气旋和极端天气风险。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-105",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-105",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-20"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-105"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星磁层",
+        "电离层电动力学与空间天气",
+        "Space physics & planetary electrodynamics"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://cjjvince.github.io/",
+          "parentSourceId": "hku-earth-20261109-academic-profile-105",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-20"
+        }
+      ],
+      "name": "Dr. Chen, Junjie",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/105/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究行星磁层、电离层电动力学与空间天气。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-61",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-61",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-61"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "地下水",
+        "水文",
+        "湖泊与海洋生物地球化学",
+        "Hydrogeology, Hydrology, Limnology, Oceanography & Biogeochemistry"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Luo, Xin",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/61/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究地下水、水文、湖泊与海洋生物地球化学。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-114",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-114",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-linked-21"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-114"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "月球火山与行星地质",
+        "月球探测",
+        "Lunar Science and Exploration, Planetary Geology"
+      ],
+      "extraLinks": [
+        {
+          "label": "院系所给个人或研究资料",
+          "url": "https://yuqiqian.com",
+          "parentSourceId": "hku-earth-20261109-academic-profile-114",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-earth-20261109-linked-21"
+        }
+      ],
+      "name": "Dr. Qian, Yuqi",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/114/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究月球火山与行星地质、月球探测。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-111",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-111",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-111"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星空间等离子体波及其物理过程",
+        "Space plasma waves & Planetary Sciences"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Teng, Shangchun",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/111/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究行星空间等离子体波及其物理过程。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-121",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-121",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-121"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "行星地质",
+        "稳定同位素地球化学与构造演化",
+        "Planetary Geology"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Wang, Xiangsong",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/121/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究行星地质、稳定同位素地球化学与构造演化。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-132",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-132",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-132"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "早期地球",
+        "太古宙陆壳起源及地球化学",
+        "Early Earth & Geochemistry"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Zhao, Dingyi",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/132/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究早期地球、太古宙陆壳起源及地球化学。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
+        ]
+      }
+    },
+    {
+      "id": "hku-earth-20261109-115",
+      "sourceIds": [
+        "hku-earth-20261109-academic-profile-115",
+        "hku-science-earth-staff-20261105",
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3"
+      ],
+      "directorySourceIds": [
+        "hku-science-earth-staff-20261105"
+      ],
+      "keywordSourceIds": [
+        "hku-earth-20261109-academic-profile-115"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "造山过程",
+        "地壳生长和俯冲动力学",
+        "Planetary Geology"
+      ],
+      "extraLinks": [],
+      "name": "Dr. Zhu, Yanlin",
+      "universityId": "hku",
+      "department": "地球与行星科学系",
+      "directoryRole": "Research Assistant Professor",
+      "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/115/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "summary": "研究造山过程、地壳生长和俯冲动力学。",
+      "topics": [
+        "环境与可持续发展",
+        "物理与化学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "申请前可按学系要求联系意向导师讨论课题。",
+        "sourceIds": [
+          "hku-earth-20261109-apply"
         ]
       }
     }
@@ -197115,6 +198539,1469 @@ window.APP_CATALOG = {
       "discoveredLinks": [],
       "readMethod": "anonymous_HTTP",
       "bodySha256": "af83142bca1b79adf9b4204da6b3e04e95a814e8add8e5342bac583a7be7d310"
+    },
+    {
+      "id": "hku-earth-20261109-apply",
+      "url": "https://www.earthsciences.hku.hk/education/postgraduate_students/research_postgraduates/how_to_apply/",
+      "title": "港大地球与行星科学系 · 申请研究学位",
+      "claims": [
+        "提交申请前须联系意向导师讨论课题，申请须附研究计划。院系页将申请轮次和通用要求指向港大研究院。"
+      ],
+      "scope": "提交申请前须联系意向导师讨论课题，申请须附研究计划。院系页将申请轮次和通用要求指向港大研究院。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9ff13f8938718257332afb0dbaaa830b9a6c26880608db1cb367e25731b5fdc5",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/education/postgraduate_students/research_postgraduates/how_to_apply/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-page-0",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/",
+      "title": "地球与行星科学系 · 研究人员第 1 页",
+      "claims": [
+        "官网名录该页列 8 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 8 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "157fab11aafc2d12ce6c6405c8d5dc0648a0e56d62a06d3b2ba16b4576d52caf",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/research_staff/40/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/15/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/45/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/30/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/34/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/29/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/13/?back=875a8616f72560f9277e5d9bc868ee7d",
+        "https://www.earthsciences.hku.hk/people/research_staff/44/?back=875a8616f72560f9277e5d9bc868ee7d"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-page-1",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff_ajax/",
+      "title": "地球与行星科学系 · 学术人员第 2 页",
+      "claims": [
+        "官网名录该页列 8 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 8 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "33540f40a8cc22294089b5a19082977ca63a748ed26ff51409602178c96cb2f7",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/academic_staff/77/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/6/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/9/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/95/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/75/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/76/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/63/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/131/?back=07f5ded7e70fa2be574db14dc869bdc9"
+      ],
+      "knownIssues": [],
+      "publicRequest": {
+        "method": "POST",
+        "page": 1
+      }
+    },
+    {
+      "id": "hku-earth-20261109-academic-page-2",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff_ajax/",
+      "title": "地球与行星科学系 · 学术人员第 3 页",
+      "claims": [
+        "官网名录该页列 8 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 8 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "989accf80d40c203bc7622054e1aa55d6d0fed4bf0c50c829a311fed8fab0ef8",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/academic_staff/68/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/62/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/67/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/118/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/110/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/105/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/61/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/114/?back=07f5ded7e70fa2be574db14dc869bdc9"
+      ],
+      "knownIssues": [],
+      "publicRequest": {
+        "method": "POST",
+        "page": 2
+      }
+    },
+    {
+      "id": "hku-earth-20261109-academic-page-3",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff_ajax/",
+      "title": "地球与行星科学系 · 学术人员第 4 页",
+      "claims": [
+        "官网名录该页列 8 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 8 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fe2f1e86b209135d8f37b233e3ecf10d34ef4aae1693a233aa26c1c77d6b0303",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/academic_staff/111/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/121/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/132/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/115/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/69/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/57/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/58/?back=07f5ded7e70fa2be574db14dc869bdc9",
+        "https://www.earthsciences.hku.hk/people/academic_staff/130/?back=07f5ded7e70fa2be574db14dc869bdc9"
+      ],
+      "knownIssues": [],
+      "publicRequest": {
+        "method": "POST",
+        "page": 3
+      }
+    },
+    {
+      "id": "hku-earth-20261109-research-page-1",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff_ajax/",
+      "title": "地球与行星科学系 · 研究人员第 2 页",
+      "claims": [
+        "官网名录该页列 8 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 8 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "746e860d30ac7538b31197879f3adfc7a51a78a8275f2ef38142465dc8a240f5",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/research_staff/47/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/19/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/38/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/52/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/46/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/22/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/42/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/51/?back=d3785202457b1180060fa866aa73d334"
+      ],
+      "knownIssues": [],
+      "publicRequest": {
+        "method": "POST",
+        "page": 1
+      }
+    },
+    {
+      "id": "hku-earth-20261109-research-page-2",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff_ajax/",
+      "title": "地球与行星科学系 · 研究人员第 3 页",
+      "claims": [
+        "官网名录该页列 8 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 8 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8091d81e457224a912a6412b14f924d20e96ade600a01642c2d7fbb3cea6efc6",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/research_staff/48/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/28/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/37/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/26/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/35/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/4/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/33/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/31/?back=d3785202457b1180060fa866aa73d334"
+      ],
+      "knownIssues": [],
+      "publicRequest": {
+        "method": "POST",
+        "page": 2
+      }
+    },
+    {
+      "id": "hku-earth-20261109-research-page-3",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff_ajax/",
+      "title": "地球与行星科学系 · 研究人员第 4 页",
+      "claims": [
+        "官网名录该页列 4 个个人档案入口。"
+      ],
+      "scope": "官网名录该页列 4 个个人档案入口。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b2e21ecde8b0abc453891e5c7455d5c96a77a9d5684da1b46113fd47a7d6168f",
+      "discoveredLinks": [
+        "https://www.earthsciences.hku.hk/people/research_staff/27/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/50/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/18/?back=d3785202457b1180060fa866aa73d334",
+        "https://www.earthsciences.hku.hk/people/research_staff/2/?back=d3785202457b1180060fa866aa73d334"
+      ],
+      "knownIssues": [],
+      "publicRequest": {
+        "method": "POST",
+        "page": 3
+      }
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-3",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/3/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Gong, Peng · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括城市化与健康、全球环境变化遥感和传染病环境建模。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括城市化与健康、全球环境变化遥感和传染病环境建模。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8f79e8fcca84b362d5a667cfcde0be9e0e7b41328253135527348eb2aa5d9a7",
+      "discoveredLinks": [
+        "https://www.geog.hku.hk/p-gong"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-01",
+      "url": "https://geog.hku.hk/p-gong",
+      "title": "Prof. Gong, Peng · 院系所给链接",
+      "claims": [
+        "港大地理系同名人员页列地理与全球环境研究。"
+      ],
+      "scope": "港大地理系同名人员页列地理与全球环境研究。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2bc1318074166669cfcfbd6354cf4e196458397ed46400fbf3018e233e29cf78",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-3",
+      "originalUrl": "https://www.geog.hku.hk/p-gong",
+      "retrievedUrl": "https://geog.hku.hk/p-gong"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-7",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/7/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Zhao, Guochun · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括变质岩石学、前寒武纪地质及行星地质。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括变质岩石学、前寒武纪地质及行星地质。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "689cdb2f2ad99872cca4a5c9111c91b0a04e275e26ece22a68610d67ac5f4d1f",
+      "discoveredLinks": [
+        "http://scholar.google.com/citations?user=5gfMg_0AAAAJ&hl=en"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-02",
+      "url": "https://scholar.google.com/citations?user=5gfMg_0AAAAJ&hl=en",
+      "title": "Prof. Zhao, Guochun · 院系所给链接",
+      "claims": [
+        "学术档案显示本人姓名及成果条目。部分统计组件未加载。"
+      ],
+      "scope": "学术档案显示本人姓名及成果条目。部分统计组件未加载。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "be136d45c6d6e9e5c01f316f7f166f856f8d97fb80fb619530559569d1aa9c85",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-7",
+      "originalUrl": "http://scholar.google.com/citations?user=5gfMg_0AAAAJ&hl=en",
+      "retrievedUrl": "https://scholar.google.com/citations?user=5gfMg_0AAAAJ&hl=en"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-125",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/125/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Dauphas, Nicolas · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括太阳系起源与演化、宇宙化学与高精度同位素分析。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括太阳系起源与演化、宇宙化学与高精度同位素分析。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "69d14b01837477cc6ae386d1526da1a5bff21b650772be6a5d1f265e58a1168d",
+      "discoveredLinks": [
+        "https://www.originscollective.org/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-4",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/4/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Jiao, Jimmy · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括水文地质、地下水与海岸水文。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括水文地质、地下水与海岸水文。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "74a408574ecdd8b68a0c20fe8112b931189bd66f24054f8f0e3e8d9f732d3ca0",
+      "discoveredLinks": [
+        "https://www.researchgate.net/profile/Jiu_Jiao",
+        "https://dev-earthsciences.hku.hk/f/upload/1023/Jimmy_Jiao_CV.doc",
+        "https://hydrogeology.hku.hk/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-06",
+      "url": "https://hydrogeology.hku.hk/",
+      "title": "Prof. Jiao, Jimmy · 院系所给链接",
+      "claims": [
+        "港大水文地质课题组主页列地下水研究、成果及仪器。"
+      ],
+      "scope": "港大水文地质课题组主页列地下水研究、成果及仪器。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "47cc133005b54fe1c2de0664fc72eca3a233fde8169a49cc7b11dd9437f21bd4",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-4",
+      "originalUrl": "https://hydrogeology.hku.hk/",
+      "retrievedUrl": "https://hydrogeology.hku.hk/"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-11",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/11/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Lee, Man Hoi · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星与卫星的形成、动力学及系外行星系统。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星与卫星的形成、动力学及系外行星系统。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9e1633dc68c3d183bc55052734827238df16d64165fead2f93f6a9b2e18d863f",
+      "discoveredLinks": [
+        "https://scholar.google.com.hk/citations?user=b8aFqoYAAAAJ&hl=zh-TW&oi=ao",
+        "https://orcid.org/0000-0003-1930-5683"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-07",
+      "url": "https://scholar.google.com.hk/citations?user=b8aFqoYAAAAJ&hl=zh-TW&oi=ao",
+      "title": "Prof. Lee, Man Hoi · 院系所给链接",
+      "claims": [
+        "学术档案显示本人姓名及成果条目。部分统计组件未加载。"
+      ],
+      "scope": "学术档案显示本人姓名及成果条目。部分统计组件未加载。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4855629ef34911dd32ba977dca786f32be823a606ecbaad2f296ec444d821e20",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-11",
+      "originalUrl": "https://scholar.google.com.hk/citations?user=b8aFqoYAAAAJ&hl=zh-TW&oi=ao",
+      "retrievedUrl": "https://scholar.google.com.hk/citations?user=b8aFqoYAAAAJ&hl=zh-TW&oi=ao"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-10",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/10/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Li, YiLiang · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括天体生物学、早期生物圈的矿物记录。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括天体生物学、早期生物圈的矿物记录。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "75e2f7656948918ec3dd45504ca016f3b8ecba7cb74c82a68632d79c3d2445f2",
+      "discoveredLinks": [
+        "http://scholar.google.com/citations?user=WQGmJWYAAAAJ",
+        "http://www.astrobiology.hk"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-09",
+      "url": "https://scholar.google.com/citations?user=WQGmJWYAAAAJ",
+      "title": "Prof. Li, YiLiang · 院系所给链接",
+      "claims": [
+        "学术档案显示本人姓名及成果条目。部分统计组件未加载。"
+      ],
+      "scope": "学术档案显示本人姓名及成果条目。部分统计组件未加载。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "37e30327a7a64741cff2efa77eb57ef0ad529772e7821c3b07d928c1c08564da",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-10",
+      "originalUrl": "http://scholar.google.com/citations?user=WQGmJWYAAAAJ",
+      "retrievedUrl": "https://scholar.google.com/citations?user=WQGmJWYAAAAJ"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-1",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/1/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Liu, Zhonghui · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括古气候重建与气候演化。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括古气候重建与气候演化。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "31171057dd7ff525e6561f63f45bb1db030f24e15d08de47a0b863d6c44c18ee",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-89",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/89/?back=af3a6f1ace1fc32210286eb66ab8ef53",
+      "title": "Prof. Michalski, Joseph · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星遥感、行星地质及黏土矿物。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星遥感、行星地质及黏土矿物。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6c0dbad700e0b60c3aa398bf23d8a202da3721f59d82306e5f47223ee26bf7cd",
+      "discoveredLinks": [
+        "http://www.clays.space"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-77",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/77/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Wong, Louis N.Y. · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括工程地质、岩石力学与地下工程。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括工程地质、岩石力学与地下工程。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "59f2d510c2ad8bb6032738c2c1fc6da1a42918d9cc5fdb54597bb2712020936d",
+      "discoveredLinks": [
+        "https://scholar.google.com.hk/citations?user=j_BFCYsAAAAJ&hl=e"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-12",
+      "url": "https://scholar.google.com.hk/citations?user=j_BFCYsAAAAJ&hl=e",
+      "title": "Prof. Wong, Louis N.Y. · 院系所给链接",
+      "claims": [
+        "学术档案显示本人姓名及成果条目。部分统计组件未加载。"
+      ],
+      "scope": "学术档案显示本人姓名及成果条目。部分统计组件未加载。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3cc4106b5a0199e9c38162efb4061ba4306ab1f81628bba209dc6e0eabfb5558",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-77",
+      "originalUrl": "https://scholar.google.com.hk/citations?user=j_BFCYsAAAAJ&hl=e",
+      "retrievedUrl": "https://scholar.google.com.hk/citations?user=j_BFCYsAAAAJ&hl=e"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-6",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/6/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Zhang, Jian · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括构造地质、早期陆壳演化与行星构造。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括构造地质、早期陆壳演化与行星构造。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7c396d4b1d55598972ca3473e449a8cf70af2071fb56d051fd797fe055a6fcc4",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?hl=en&user=DQ9gdkEAAAAJ"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-13",
+      "url": "https://scholar.google.com/citations?hl=en&user=DQ9gdkEAAAAJ",
+      "title": "Prof. Zhang, Jian · 院系所给链接",
+      "claims": [
+        "学术档案显示本人姓名及成果条目。部分统计组件未加载。"
+      ],
+      "scope": "学术档案显示本人姓名及成果条目。部分统计组件未加载。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "23e1b4e81294cf0e1514bc81c50d8937cebd3fcf360e71171e907329785d5830",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-6",
+      "originalUrl": "https://scholar.google.com/citations?hl=en&user=DQ9gdkEAAAAJ",
+      "retrievedUrl": "https://scholar.google.com/citations?hl=en&user=DQ9gdkEAAAAJ"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-9",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/9/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Lemke, Kono · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括水溶液地球化学、前生物化学与光谱方法。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括水溶液地球化学、前生物化学与光谱方法。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ec352781d4a64888783ee7577e2fea9535cba95119b20efe4ff7b325fc4ce1c1",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-95",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/95/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. McKenzie, Ryan · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括沉积地质与地球系统、生物圈的协同演化。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括沉积地质与地球系统、生物圈的协同演化。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5ad01a3da80ca22d409526b3e2e285e75795630316a8819db3cc5b38d58b552d",
+      "discoveredLinks": [
+        "http://www.sedgeo-earthevo.com"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-14",
+      "url": "https://www.sedgeo-earthevo.com/",
+      "title": "Prof. McKenzie, Ryan · 院系所给链接",
+      "claims": [
+        "课题组主页列沉积地质及地球系统演化。"
+      ],
+      "scope": "课题组主页列沉积地质及地球系统演化。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "aabc82da9452e090e9084356d46118dd6288cee3f064806c4ea145fb7b2ec9ca",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-95",
+      "originalUrl": "http://www.sedgeo-earthevo.com",
+      "retrievedUrl": "https://www.sedgeo-earthevo.com/"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-75",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/75/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Khan, Nicole · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括海岸过程、海平面变化与古风暴记录。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括海岸过程、海平面变化与古风暴记录。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3e9a4032d6963d82f801f8abb1c8b65991f132f04260938455c9fe3e08b031ef",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-76",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/76/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Yao, Zhonghua · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星空间科学、磁重联与行星磁层。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星空间科学、磁重联与行星磁层。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4936c8993cc1b93c57999d7b7fb367e21f8560ab574b9aa45e53801157bcae2b",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-63",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/63/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Zhang, Binzheng · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星磁层、空间等离子体及数值模型。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星磁层、空间等离子体及数值模型。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5227ea1b88682489823c959872bea0eb23051edd3bbcef5f6c273967954595d2",
+      "discoveredLinks": [
+        "http://www.binzh.net"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-15",
+      "url": "https://www.binzh.net/",
+      "title": "Prof. Zhang, Binzheng · 院系所给链接",
+      "claims": [
+        "课题组主页列行星空间环境建模与团队研究。"
+      ],
+      "scope": "课题组主页列行星空间环境建模与团队研究。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2c00a792d50dad9e87def8a8d7fab6059d83a792dc9ff3083f8b5a9ef5edde15",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-63",
+      "originalUrl": "http://www.binzh.net",
+      "retrievedUrl": "https://www.binzh.net/"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-131",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/131/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Guo, Meng · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括地球系统地球化学及类地行星的演化与宜居性。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括地球系统地球化学及类地行星的演化与宜居性。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bab45e992e2ab4e597db47db90c69e3a9c0b66af63dd54ba2797b54db58bea43",
+      "discoveredLinks": [
+        "https://meng-guo.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-16",
+      "url": "https://meng-guo.com/",
+      "title": "Prof. Guo, Meng · 院系所给链接",
+      "claims": [
+        "个人主页列港大任职及行星演化与宜居性研究。"
+      ],
+      "scope": "个人主页列港大任职及行星演化与宜居性研究。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0059ac0c92661c29c9a9445f64aa06dcac2693e3d1343f7d695d16d0fe05a647",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-131",
+      "originalUrl": "https://meng-guo.com/",
+      "retrievedUrl": "https://meng-guo.com/"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-68",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/68/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Li, Weiran · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括火山学、火成岩石学与行星挥发分循环。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括火山学、火成岩石学与行星挥发分循环。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d93ad00e2a8a7f4333dd671cfe47738038803ac09cc7333da3be557d5edd5b71",
+      "discoveredLinks": [
+        "https://weiranli.wixsite.com/alex"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-17",
+      "url": "https://weiranli.wixsite.com/alex",
+      "title": "Prof. Li, Weiran · 院系所给链接",
+      "claims": [
+        "课题组网站列火山岩石学研究、团队及设备。"
+      ],
+      "scope": "课题组网站列火山岩石学研究、团队及设备。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d5bc4482536ecbac504548817a191cdc5b6a2e1c8080a4e87780cf4bf2e545c3",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-68",
+      "originalUrl": "https://weiranli.wixsite.com/alex",
+      "retrievedUrl": "https://weiranli.wixsite.com/alex"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-62",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/62/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Liu Jiacheng · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括早期火星地质、含水环境和反射光谱。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括早期火星地质、含水环境和反射光谱。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9fbc8913afede14604e592c085e6944b308f0fcfde7400010f8950cbf365c9bf",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-67",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/67/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Liu, Xin · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括地震干涉、海洋与城市地震学、地下结构成像。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括地震干涉、海洋与城市地震学、地下结构成像。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "12ecf14c49f4b5d14d80bc542448a3ecd82c69ac241964383729c66ecc2bf336",
+      "discoveredLinks": [
+        "https://liuxinscer.github.io"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-18",
+      "url": "https://liuxinscer.github.io",
+      "title": "Prof. Liu, Xin · 院系所给链接",
+      "claims": [
+        "个人主页列港大地震学团队及地震干涉、断层成像研究。"
+      ],
+      "scope": "个人主页列港大地震学团队及地震干涉、断层成像研究。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6ca5a36c22d98aa3c2f247f07083abeb1f77f44b33c5f4fa95436114674811f2",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-67",
+      "originalUrl": "https://liuxinscer.github.io",
+      "retrievedUrl": "https://liuxinscer.github.io"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-118",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/118/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Wang, Mengqiu · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括全球变化与海洋遥感、海色和海洋生态。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括全球变化与海洋遥感、海色和海洋生态。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c59d8f0d602910574459f67f903d4f1f936a4a32b7756a55841c65a5e1ece5b4",
+      "discoveredLinks": [
+        "https://sites.google.com/view/mengqiu-wang"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-110",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/110/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Xi, Dazhi · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括气候变化、热带气旋和极端天气风险。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括气候变化、热带气旋和极端天气风险。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "99b5667e0f4e0534ccdbce459f03660686c7349c4378e39057f916f368ef84e2",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-105",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/105/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Chen, Junjie · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星磁层、电离层电动力学与空间天气。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星磁层、电离层电动力学与空间天气。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed0d794a49baf654a7a7c5d706b61f4245e4771795ad484a26e0d57772125442",
+      "discoveredLinks": [
+        "https://cjjvince.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-20",
+      "url": "https://cjjvince.github.io/",
+      "title": "Dr. Chen, Junjie · 院系所给链接",
+      "claims": [
+        "个人主页列行星空间物理研究、项目与公开成果。"
+      ],
+      "scope": "个人主页列行星空间物理研究、项目与公开成果。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cf0576d16919dd0165e39a5ca4349640feee996beac2d11f76122de94b1941cd",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-105",
+      "originalUrl": "https://cjjvince.github.io/",
+      "retrievedUrl": "https://cjjvince.github.io/"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-61",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/61/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Luo, Xin · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括地下水、水文、湖泊与海洋生物地球化学。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括地下水、水文、湖泊与海洋生物地球化学。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c57e8a9dafe3bcf429ec2a7e6d4affafabfccf0d2bebbac812ae075ec45f63a8",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-114",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/114/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Qian, Yuqi · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括月球火山与行星地质、月球探测。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括月球火山与行星地质、月球探测。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5155b826052ef6c07b3bcd52f474b4578a2f91e11ea0ba6d6190c7e59c5bade1",
+      "discoveredLinks": [
+        "https://yuqiqian.com"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-21",
+      "url": "https://yuqiqian.com",
+      "title": "Dr. Qian, Yuqi · 院系所给链接",
+      "claims": [
+        "个人网站介绍月球科学和探测研究。"
+      ],
+      "scope": "个人网站介绍月球科学和探测研究。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b1e8d3c508f02ec5afc3c6e0f5671971d2e17a39dab04dc759ed3ec352d1a397",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-114",
+      "originalUrl": "https://yuqiqian.com",
+      "retrievedUrl": "https://yuqiqian.com"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-111",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/111/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Teng, Shangchun · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星空间等离子体波及其物理过程。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星空间等离子体波及其物理过程。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dad30d0b115d0b600a0713b7d7c1cb0f6872cf8e44a8ad3b0d6190e2a6e86169",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-121",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/121/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Wang, Xiangsong · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括行星地质、稳定同位素地球化学与构造演化。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括行星地质、稳定同位素地球化学与构造演化。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4f03f216eabb38cdc86749b559d5494f4028cc4787d014ebe19f882a42040993",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-132",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/132/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Zhao, Dingyi · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括早期地球、太古宙陆壳起源及地球化学。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括早期地球、太古宙陆壳起源及地球化学。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cc4bb128a41dd0fcfce0207f8fd86324dc9e80b6cf8430c0e8cf1dc23d77a249",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-115",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/115/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Zhu, Yanlin · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。研究方向包括造山过程、地壳生长和俯冲动力学。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。研究方向包括造山过程、地壳生长和俯冲动力学。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b0493737538c7c3ef5db9ac423fe742a1ab9507ebe70bbbc310a743f6c68c752",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-69",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/69/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Not, Christelle · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1f9b4aad7c1ec0755d217ff6d26ee6a46c039e002785212f177e4d45f73ccd1d",
+      "discoveredLinks": [
+        "http://web.hku.hk/~bthib/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-57",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/57/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Dr. Cheung, Man Ching · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a8a448c13a5b1188f7f301fafb5cb906deb46cc32a351c52cdc5e584aa8e36cd",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-58",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/58/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof. Malone, Andrew · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "40b08b39152108290cc29dd0a311b21e368dde17aa26e4df0805ef111e68fc7f",
+      "discoveredLinks": [
+        "http://goo.gl/DJ03Ru",
+        "https://www.earthsciences.hku.hk/upload/academic_staff/58/self/665451823ed06.docx"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-linked-24",
+      "url": "https://www.earthsciences.hku.hk/upload/academic_staff/58/self/665451823ed06.docx",
+      "title": "Prof. Malone, Andrew · 院系所给链接",
+      "claims": [
+        "院系提供的履历列 Andrew Malone 的教育、资格和院系兼任身份。"
+      ],
+      "scope": "院系提供的履历列 Andrew Malone 的教育、资格和院系兼任身份。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5c6a73f17e154c365368dfd49d546b69b0500239407da12c239fc373dec42d82",
+      "discoveredLinks": [],
+      "knownIssues": [],
+      "parentSourceId": "hku-earth-20261109-academic-profile-58",
+      "originalUrl": "https://www.earthsciences.hku.hk/upload/academic_staff/58/self/665451823ed06.docx",
+      "retrievedUrl": "https://www.earthsciences.hku.hk/upload/academic_staff/58/self/665451823ed06.docx"
+    },
+    {
+      "id": "hku-earth-20261109-academic-profile-130",
+      "url": "https://www.earthsciences.hku.hk/people/academic_staff/130/?back=07f5ded7e70fa2be574db14dc869bdc9",
+      "title": "Prof Chan, Lung Sang · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8cdc6c9ea464a0fb5623d4ed67e5d2c6fc39d221c834f862bf5b3e857f6f38a8",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-40",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/40/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Cawood, Ian · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bd434374fff38392a6e7da32869fb47eee9f5d78cba867bf3db950d0235ac449",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-15",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/15/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Chang, Ruihong · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f4d4f7618f91e464e95aa28ecef2dee59a4bc208973b2403a6b8ccc8a1c2050a",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-45",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/45/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Chen, Houbin · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ec14ee2412758836c7109fe9f59a8dc793d6e1c4fe44a80c5943b750c4f4e2d4",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-30",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/30/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Chen Jianan · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0a6f96dfe9d7a40b48048ed0d854dc1cbf79002863145eeecf9e5d2bb0e8ac4f",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-34",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/34/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Chen, Zhaopeng · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5e7477a203c50afb1d9945de58b6b1aef0e78a1b8da8c1b3379a8ae51f2a52af",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-29",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/29/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Cui Duo · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7f29057fe9aeaac59e2dbc9661a680cea802e52c562f44e946dd49dc45ba9311",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-13",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/13/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Cui, Xing · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3761add10eca5d68f52fe49fdda5e8461cdaff02fe7f8e307ff1b9201b70ed5f",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-44",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/44/?back=875a8616f72560f9277e5d9bc868ee7d",
+      "title": "Dr. Gao, Yajie · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "244c5c7afd6273a379db97c0520fe4dd5f62b6ec6673be19c1def6a62c36498f",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-47",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/47/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Gu, Yi-Fei · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9b279ee6f9990b613f5b693e45c4d41c5c3ef5dde75c808367ccf0519847e981",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-19",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/19/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Jiang, Jiawei · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d29eb69c8aa0a365397ca24975f46df575d135f74943158d21aae00137e80fd5",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-38",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/38/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Liu, Jiahui · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "55419a5facbe8ee2fa88a7562a1243318be81e0d62f914280c074df1298d7b07",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-52",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/52/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. LIU, Zihan · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "08503c747ea8aeb9ab8cee1e072df8bda47f91df1245a7d041e0c75860fdb688",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-46",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/46/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Luo, Manhua · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "53a4aa4cd09ba3d1dda183687f64b441dcba305a5f69f497c872e0b437507c6f",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-22",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/22/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Phua, Marcus · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f889f0fe46f3987726cafc94e43ce1594e4db055c2ef16ed345aadb9a3a66111",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-42",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/42/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Pang Xuan · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "68cd3f711d8669a424232e4b199a56436ce1b3637cf8a9b52772800fab59442c",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-51",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/51/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. WANG, WENYU · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "54572ecab283cf8adc01f5933957fe355732cced2fbc5959b1fbb583e302c169",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-48",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/48/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Wang Yao · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4ec87dfd71bba91dff472508521eb48fafe886d1311db7aa80f4da777201881d",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-28",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/28/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Wang, Zhaonan · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1b3400576f8f42e42ba2fd488df417b488cb5c80eb103777e0fd587541b0800d",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-37",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/37/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Wang, Xiao · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0339eae96cc7d33ae1c917ab58989dfecf597bcfe2326e277067268c440a6007",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-26",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/26/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Wu, Qihang · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8eb2e4db04f7070d35351c04fe4311df5e320d85c4537cd3ecfa849db0f5d036",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-35",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/35/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Yan, Peilong · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6ea062e9a78c4b16cedc241e221cdbb7f6a379affdf8338c2c9e114a996f2111",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-4",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/4/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Ye, Binlong · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ebf2333166ef4296c6fbf4d825839e6124bd66d36204f8bbd3ef9fc75618c12c",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-33",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/33/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Xiao, Ming · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "86ee441638f093b0b101a76f73c59e084cd339dbb07a6d5582aaad72dc6000ce",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-31",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/31/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Zhan Chuanjun · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9861167dd5b08ee07aac15604972805e22df99417656db38a4ca348dda87cba8",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-27",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/27/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Zhang, Lingyu · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6f55fcd7cf0a8f65b4ebfa0826ee9eb783a66d1d278beb3c1613be5ea85b6010",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-50",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/50/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. ZHANG, Wen · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "61d11edb8dad94f4e677cc60662cd3ee31286d9362a1215329a993fc87b6be4c",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-18",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/18/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Zhao, Kai · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "38aa505ef1003355e8e362aec949296045deb9ba8a28c69a653e2f31228afd42",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-research-profile-2",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/2/?back=d3785202457b1180060fa866aa73d334",
+      "title": "Dr. Zuo, Jiawei · 院系个人页",
+      "claims": [
+        "已核个人页列示身份与研究内容。"
+      ],
+      "scope": "已核个人页列示身份与研究内容。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "36c069bfe6934192d0a0ff2fa54c4b8bb9ff0827889330f5a50b6dce2271b229",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-appointments",
+      "url": "https://www.earthsciences.hku.hk/people/emeritus_and_honorary_appointments/",
+      "title": "地球与行星科学系 · 荣休、荣誉与兼任",
+      "claims": [
+        "此页列 11 张人员卡。"
+      ],
+      "scope": "此页列 11 张人员卡。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "91f266f14b44498a5c3fa7d84d2eb0030530294dab67f0bdfc2683426606f52c",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-visiting",
+      "url": "https://www.earthsciences.hku.hk/people/visiting_professors/",
+      "title": "地球与行星科学系 · 访问教授",
+      "claims": [
+        "本次所读访问教授分类表只有表头。"
+      ],
+      "scope": "本次所读访问教授分类表只有表头。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3a0ce401f1b911614b27d9f603780b5149c8b0b12885c1f3ff574e27459986cb",
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-earth-20261109-support",
+      "url": "https://www.earthsciences.hku.hk/people/support_staff/",
+      "title": "地球与行星科学系 · 支援人员",
+      "claims": [
+        "此页列 18 张人员卡。"
+      ],
+      "scope": "此页列 18 张人员卡。",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1bbff5e6786c8e7a1f8044f5d4d3d74cbcd128b73fefc768117281e92f507705",
+      "discoveredLinks": [],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -210384,109 +213271,359 @@ window.APP_CATALOG = {
     {
       "id": "hku-science-earth-observed-staff",
       "universityId": "hku",
-      "unit": "地球与行星科学系 · 当前指定人员页",
+      "unit": "地球与行星科学系 · 学术人员",
       "url": "https://www.earthsciences.hku.hk/people/academic_staff/",
       "sourceIds": [
         "hku-science-earth-staff-20261105"
       ],
-      "profileLinksObserved": [
-        "https://www.earthsciences.hku.hk/people/academic_staff/3/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/7/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/125/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/4/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/11/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/10/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/1/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-        "https://www.earthsciences.hku.hk/people/academic_staff/89/?back=af3a6f1ace1fc32210286eb66ab8ef53"
+      "reviewSourceIds": [
+        "hku-earth-20261109-academic-page-1",
+        "hku-earth-20261109-academic-page-2",
+        "hku-earth-20261109-academic-page-3",
+        "hku-earth-20261109-apply",
+        "hku-earth-20261109-academic-profile-3",
+        "hku-earth-20261109-linked-01",
+        "hku-earth-20261109-academic-profile-7",
+        "hku-earth-20261109-linked-02",
+        "hku-earth-20261109-academic-profile-125",
+        "hku-earth-20261109-academic-profile-4",
+        "hku-earth-20261109-linked-06",
+        "hku-earth-20261109-academic-profile-11",
+        "hku-earth-20261109-linked-07",
+        "hku-earth-20261109-academic-profile-10",
+        "hku-earth-20261109-linked-09",
+        "hku-earth-20261109-academic-profile-1",
+        "hku-earth-20261109-academic-profile-89",
+        "hku-earth-20261109-academic-profile-77",
+        "hku-earth-20261109-linked-12",
+        "hku-earth-20261109-academic-profile-6",
+        "hku-earth-20261109-linked-13",
+        "hku-earth-20261109-academic-profile-9",
+        "hku-earth-20261109-academic-profile-95",
+        "hku-earth-20261109-linked-14",
+        "hku-earth-20261109-academic-profile-75",
+        "hku-earth-20261109-academic-profile-76",
+        "hku-earth-20261109-academic-profile-63",
+        "hku-earth-20261109-linked-15",
+        "hku-earth-20261109-academic-profile-131",
+        "hku-earth-20261109-linked-16",
+        "hku-earth-20261109-academic-profile-68",
+        "hku-earth-20261109-linked-17",
+        "hku-earth-20261109-academic-profile-62",
+        "hku-earth-20261109-academic-profile-67",
+        "hku-earth-20261109-linked-18",
+        "hku-earth-20261109-academic-profile-118",
+        "hku-earth-20261109-academic-profile-110",
+        "hku-earth-20261109-academic-profile-105",
+        "hku-earth-20261109-linked-20",
+        "hku-earth-20261109-academic-profile-61",
+        "hku-earth-20261109-academic-profile-114",
+        "hku-earth-20261109-linked-21",
+        "hku-earth-20261109-academic-profile-111",
+        "hku-earth-20261109-academic-profile-121",
+        "hku-earth-20261109-academic-profile-132",
+        "hku-earth-20261109-academic-profile-115",
+        "hku-earth-20261109-academic-profile-69",
+        "hku-earth-20261109-academic-profile-57",
+        "hku-earth-20261109-academic-profile-58",
+        "hku-earth-20261109-linked-24",
+        "hku-earth-20261109-academic-profile-130"
       ],
       "coverageComplete": false,
-      "coverageNotes": "已读这一个页面中的8个姓名及原职位，保留教学、研究、荣休或访问身份。其他类别与逐人网站继续待核；不是全单位教师总数、指导资格或招生余位。",
+      "coverageNotes": "核对官网列出的 4 页，共 32 张人员卡。",
       "census": {
-        "observedTotal": 8,
-        "profilesRead": 0,
-        "profilesFailed": 8,
-        "pendingReasonCounts": {
-          "not_read": 8
-        },
         "entries": [
           {
             "name": "Prof. Gong, Peng",
-            "directoryPosition": "Professor, Chair of Global Sustainability Vice-President and Pro-Vice-Chancellor (Academic Development)",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/3/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor, Chair of Global Sustainability Vice-President and Pro-Vice-Chancellor (Academic Development)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "城市化与健康、全球环境变化遥感和传染病环境建模。",
+            "facultyId": "hku-cds-census-027"
           },
           {
             "name": "Prof. Zhao, Guochun",
-            "directoryPosition": "Mok Sau-King Professor, Professor, Chair of Earth Sciences, Academician (Member) of the Chinese Academy of Science (CAS), World Academy of Science (TWAS) for the Advancement of Science in Developing Countries, and Hong Kong Academy of Sciences (HKAS)",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/7/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Mok Sau-King Professor, Professor, Chair of Earth Sciences, Academician (Member) of the Chinese Academy of Science (CAS), World Academy of Science (TWAS) for the Advancement of Science in Developing Countries, and Hong Kong Academy of Sciences (HKAS)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "变质岩石学、前寒武纪地质及行星地质。",
+            "facultyId": "hku-earth-20261109-7"
           },
           {
             "name": "Prof. Dauphas, Nicolas",
-            "directoryPosition": "Professor, Chair of Cosmochemistry, Member of the National Academy of Sciences.",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/125/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor, Chair of Cosmochemistry, Member of the National Academy of Sciences.",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "太阳系起源与演化、宇宙化学与高精度同位素分析。",
+            "facultyId": "hku-earth-20261109-125"
           },
           {
             "name": "Prof. Jiao, Jimmy",
-            "directoryPosition": "Professor",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/4/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "水文地质、地下水与海岸水文。",
+            "facultyId": "hku-earth-20261109-4"
           },
           {
             "name": "Prof. Lee, Man Hoi",
-            "directoryPosition": "Professor",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/11/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星与卫星的形成、动力学及系外行星系统。",
+            "facultyId": "hku-earth-20261109-11"
           },
           {
             "name": "Prof. Li, YiLiang",
-            "directoryPosition": "Professor",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/10/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "天体生物学、早期生物圈的矿物记录。",
+            "facultyId": "hku-earth-20261109-10"
           },
           {
             "name": "Prof. Liu, Zhonghui",
-            "directoryPosition": "Professor Interim Head of Department",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/1/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor Interim Head of Department",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "古气候重建与气候演化。",
+            "facultyId": "hku-earth-20261109-1"
           },
           {
             "name": "Prof. Michalski, Joseph",
-            "directoryPosition": "Professor",
             "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/89/?back=af3a6f1ace1fc32210286eb66ab8ef53",
-            "providedLinks": [],
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "官网已列姓名和职位；个人主页正文待核。"
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星遥感、行星地质及黏土矿物。",
+            "facultyId": "hku-earth-20261109-89"
+          },
+          {
+            "name": "Prof. Wong, Louis N.Y.",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/77/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "ProfessorAssociate Head (Research)Programme Director, MSc in the Field of Applied Geosciences",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "工程地质、岩石力学与地下工程。",
+            "facultyId": "hku-earth-20261109-77"
+          },
+          {
+            "name": "Prof. Zhang, Jian",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/6/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "构造地质、早期陆壳演化与行星构造。",
+            "facultyId": "hku-earth-20261109-6"
+          },
+          {
+            "name": "Prof. Lemke, Kono",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/9/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "水溶液地球化学、前生物化学与光谱方法。",
+            "facultyId": "hku-earth-20261109-9"
+          },
+          {
+            "name": "Prof. McKenzie, Ryan",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/95/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "沉积地质与地球系统、生物圈的协同演化。",
+            "facultyId": "hku-earth-20261109-95"
+          },
+          {
+            "name": "Prof. Khan, Nicole",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/75/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "海岸过程、海平面变化与古风暴记录。",
+            "facultyId": "hku-earth-20261109-75"
+          },
+          {
+            "name": "Prof. Yao, Zhonghua",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/76/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星空间科学、磁重联与行星磁层。",
+            "facultyId": "hku-earth-20261109-76"
+          },
+          {
+            "name": "Prof. Zhang, Binzheng",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/63/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Associate Professor (Associate Professor, by courtesy, Department of Physics)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星磁层、空间等离子体及数值模型。",
+            "facultyId": "hku-earth-20261109-63"
+          },
+          {
+            "name": "Prof. Guo, Meng",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/131/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "地球系统地球化学及类地行星的演化与宜居性。",
+            "facultyId": "hku-earth-20261109-131"
+          },
+          {
+            "name": "Prof. Li, Weiran",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/68/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Professor/Museum Curator",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "火山学、火成岩石学与行星挥发分循环。",
+            "facultyId": "hku-earth-20261109-68"
+          },
+          {
+            "name": "Prof. Liu Jiacheng",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/62/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "早期火星地质、含水环境和反射光谱。",
+            "facultyId": "hku-earth-20261109-62"
+          },
+          {
+            "name": "Prof. Liu, Xin",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/67/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "地震干涉、海洋与城市地震学、地下结构成像。",
+            "facultyId": "hku-earth-20261109-67"
+          },
+          {
+            "name": "Prof. Wang, Mengqiu",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/118/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "全球变化与海洋遥感、海色和海洋生态。",
+            "facultyId": "hku-earth-20261109-118"
+          },
+          {
+            "name": "Prof. Xi, Dazhi",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/110/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "气候变化、热带气旋和极端天气风险。",
+            "facultyId": "hku-earth-20261109-110"
+          },
+          {
+            "name": "Dr. Chen, Junjie",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/105/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星磁层、电离层电动力学与空间天气。",
+            "facultyId": "hku-earth-20261109-105"
+          },
+          {
+            "name": "Dr. Luo, Xin",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/61/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "地下水、水文、湖泊与海洋生物地球化学。",
+            "facultyId": "hku-earth-20261109-61"
+          },
+          {
+            "name": "Dr. Qian, Yuqi",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/114/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "月球火山与行星地质、月球探测。",
+            "facultyId": "hku-earth-20261109-114"
+          },
+          {
+            "name": "Dr. Teng, Shangchun",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/111/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星空间等离子体波及其物理过程。",
+            "facultyId": "hku-earth-20261109-111"
+          },
+          {
+            "name": "Dr. Wang, Xiangsong",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/121/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "行星地质、稳定同位素地球化学与构造演化。",
+            "facultyId": "hku-earth-20261109-121"
+          },
+          {
+            "name": "Dr. Zhao, Dingyi",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/132/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "早期地球、太古宙陆壳起源及地球化学。",
+            "facultyId": "hku-earth-20261109-132"
+          },
+          {
+            "name": "Dr. Zhu, Yanlin",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/115/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "造山过程、地壳生长和俯冲动力学。",
+            "facultyId": "hku-earth-20261109-115"
+          },
+          {
+            "name": "Dr. Not, Christelle",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/69/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Cheung, Man Ching",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/57/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Prof. Malone, Andrew",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/58/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Adjunct Professor/MSc Admissions Tutor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Prof Chan, Lung Sang",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/academic_staff/130/?back=07f5ded7e70fa2be574db14dc869bdc9",
+            "directoryPosition": "Honorary Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
           }
         ],
-        "unlinkedEntries": []
-      },
-      "observedNamedCards": 8,
-      "enumerationScope": "saved_body_cards_only",
-      "identityNotes": []
+        "unlinkedEntries": [],
+        "observedTotal": 32,
+        "profilesRead": 32,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
     },
     {
       "id": "polyu-me-academic-census",
@@ -215098,6 +218235,546 @@ window.APP_CATALOG = {
         "unlinkedEntries": [],
         "observedTotal": 11,
         "profilesRead": 11,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-earth-20261109-research-directory",
+      "universityId": "hku",
+      "unit": "地球与行星科学系 · 研究人员",
+      "url": "https://www.earthsciences.hku.hk/people/research_staff/",
+      "sourceIds": [
+        "hku-earth-20261109-research-page-0"
+      ],
+      "reviewSourceIds": [
+        "hku-earth-20261109-research-page-1",
+        "hku-earth-20261109-research-page-2",
+        "hku-earth-20261109-research-page-3",
+        "hku-earth-20261109-apply",
+        "hku-earth-20261109-research-profile-40",
+        "hku-earth-20261109-research-profile-15",
+        "hku-earth-20261109-research-profile-45",
+        "hku-earth-20261109-research-profile-30",
+        "hku-earth-20261109-research-profile-34",
+        "hku-earth-20261109-research-profile-29",
+        "hku-earth-20261109-research-profile-13",
+        "hku-earth-20261109-research-profile-44",
+        "hku-earth-20261109-research-profile-47",
+        "hku-earth-20261109-research-profile-19",
+        "hku-earth-20261109-research-profile-38",
+        "hku-earth-20261109-research-profile-52",
+        "hku-earth-20261109-research-profile-46",
+        "hku-earth-20261109-research-profile-22",
+        "hku-earth-20261109-research-profile-42",
+        "hku-earth-20261109-research-profile-51",
+        "hku-earth-20261109-research-profile-48",
+        "hku-earth-20261109-research-profile-28",
+        "hku-earth-20261109-research-profile-37",
+        "hku-earth-20261109-research-profile-26",
+        "hku-earth-20261109-research-profile-35",
+        "hku-earth-20261109-research-profile-4",
+        "hku-earth-20261109-research-profile-33",
+        "hku-earth-20261109-research-profile-31",
+        "hku-earth-20261109-research-profile-27",
+        "hku-earth-20261109-research-profile-50",
+        "hku-earth-20261109-research-profile-18",
+        "hku-earth-20261109-research-profile-2"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "核对官网列出的 4 页，共 28 张人员卡。",
+      "census": {
+        "entries": [
+          {
+            "name": "Dr. Cawood, Ian",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/40/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Structural and Metamorphic Geology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Chang, Ruihong",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/15/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Research Assistant I · Tectonic Evolution of Early Earth",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Chen, Houbin",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/45/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Supereruptions, Volcanic-Plutonic Connections",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Chen Jianan",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/30/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Climate and weather extremes",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Chen, Zhaopeng",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/34/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Data science for understanding the solar system",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Cui Duo",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/29/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Astrobiology, Regional methane emission inventories",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Cui, Xing",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/13/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Geochemistry",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Gao, Yajie",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/44/?back=875a8616f72560f9277e5d9bc868ee7d",
+            "directoryPosition": "Postdoctoral Fellow · Experimental Petrology and Geochemistry",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Gu, Yi-Fei",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/47/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Explainable AI for Paleo Sea-Level Dynamics, Marine Ecology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Jiang, Jiawei",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/19/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Paleoclimatology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Liu, Jiahui",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/38/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Metamorphic geology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. LIU, Zihan",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/52/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Rock Mechanics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Luo, Manhua",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/46/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Hydrogeology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Phua, Marcus",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/22/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Eruptive histories and mechanisms of explosive subduction zone volcanism",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Pang Xuan",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/42/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Urban hydrological modelling, climate change",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. WANG, WENYU",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/51/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Elemental and isotopic geochemistry，Petrology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Wang Yao",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/48/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Biogeochemistry & Hydrology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Wang, Zhaonan",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/28/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Rock Mechanics and Engineering Geology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Wang, Xiao",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/37/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Magmatic evolution of early Earth",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Wu, Qihang",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/26/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Structural geology, numerical modelling",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Yan, Peilong",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/35/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Geophysics, Computational Geodynamics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Ye, Binlong",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/4/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Martian geology & dynamic habitability",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Xiao, Ming",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/33/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Research Assistant I · Geochemistry, Isotope Geochemistry, Metallogeny",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Zhan Chuanjun",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/31/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Hydrogeology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Zhang, Lingyu",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/27/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Early Earth & Geochemistry",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. ZHANG, Wen",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/50/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Precambrian Geology & Planetary Geology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Zhao, Kai",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/18/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Rock Mechanics & Engineering Geology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          },
+          {
+            "name": "Dr. Zuo, Jiawei",
+            "profileUrl": "https://www.earthsciences.hku.hk/people/research_staff/2/?back=d3785202457b1180060fa866aa73d334",
+            "directoryPosition": "Postdoctoral Fellow · Early Earth; Tectonics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 28,
+        "profilesRead": 28,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-earth-20261109-appointments-directory",
+      "universityId": "hku",
+      "unit": "地球与行星科学系 · 荣休、荣誉与兼任",
+      "url": "https://www.earthsciences.hku.hk/people/emeritus_and_honorary_appointments/",
+      "sourceIds": [
+        "hku-earth-20261109-appointments"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "此页列 11 张人员卡。",
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Professor Malpas, John",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Sun, Min",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Aitchison, J.C",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Chan, Lung Sang",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Cherry, J. A.",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Hencher, Steve",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Martin, R. P.",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Professor Zhou, Mei-Fu",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ir. Chung, Wai Keung Philip",
+            "directoryPosition": "Honorary Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Dr. Tang, Lai Kwan Denise",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Dr. Ng, Wai-Pan Samuel",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-earth-20261109-visiting-directory",
+      "universityId": "hku",
+      "unit": "地球与行星科学系 · 访问教授",
+      "url": "https://www.earthsciences.hku.hk/people/visiting_professors/",
+      "sourceIds": [
+        "hku-earth-20261109-visiting"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "此页列 0 张人员卡。",
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [],
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-earth-20261109-support-directory",
+      "universityId": "hku",
+      "unit": "地球与行星科学系 · 支援人员",
+      "url": "https://www.earthsciences.hku.hk/people/support_staff/",
+      "sourceIds": [
+        "hku-earth-20261109-support"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "此页列 18 张人员卡。",
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Ms. Cheung, Kennex",
+            "directoryPosition": "Admin. Manager",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ms. Kam, Marine",
+            "directoryPosition": "Clerk I",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Miss Wong, Crystal",
+            "directoryPosition": "Senior Executive Assistant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ms. Yeung, Elke",
+            "directoryPosition": "Executive Assistant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Miss Zhang, Bella",
+            "directoryPosition": "Executive Assistant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ms. Ko, Joanne",
+            "directoryPosition": "Office Attendent",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Dr. Chung, Diane",
+            "directoryPosition": "Technical Manager",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Miss Chiu, Lily",
+            "directoryPosition": "Senior Technical Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Dr. Clarke, Christian",
+            "directoryPosition": "Senior Technical Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ms. Wong, Holly",
+            "directoryPosition": "Senior Technical Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Mr. Ho, Eddie",
+            "directoryPosition": "Technical Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ms. Liu, Jili",
+            "directoryPosition": "Technical Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Mr. Lam, Terence",
+            "directoryPosition": "I.T. Officer",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Mr. Lau, Charlie",
+            "directoryPosition": "Laboratory Assistant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Mr. Wong, Wing",
+            "directoryPosition": "Laboratory Assistant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Ms. Sze, Vivien",
+            "directoryPosition": "Lab Attendant",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Prof. Li, Weiran",
+            "directoryPosition": "Assistant Professor/Curator",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          },
+          {
+            "name": "Dr. Cheung, Man Ching",
+            "directoryPosition": "Research Assistant/Assistant Curator",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "分类表提供任职；个人档案入口尚未核到。"
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
         "profilesFailed": 0,
         "pendingReasonCounts": {}
       }
@@ -259477,5 +263154,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:7139cc75e29fc80e81b8a230c7fab9328b0d38d5b5380929d92a388cb4968ed3"
+  "snapshotId": "sha256:3c93ab7eebad7c7d37e04ddbb2d071c5fd6b409292efb23edc592d0174accdd8"
 };
