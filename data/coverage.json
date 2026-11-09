@@ -4,8 +4,8 @@
   "counts": {
     "universities": 7,
     "programs": 65,
-    "faculty": 1792,
-    "sources": 3504,
+    "faculty": 1841,
+    "sources": 3573,
     "funding": 1,
     "degreeRoutes": 112,
     "facultyByUniversity": {
@@ -15,21 +15,21 @@
       "hkustgz": 150,
       "polyu": 407,
       "cityu": 137,
-      "cuhksz": 198
+      "cuhksz": 247
     },
-    "unknownRecruitment": 1783,
+    "unknownRecruitment": 1832,
     "dateOnlyDeadlines": 86,
     "programsWithRequirements": 63,
     "requirementItems": 231,
     "programsWithFinances": 38,
     "financeItems": 64,
-    "officialDirectories": 101,
+    "officialDirectories": 102,
     "directoriesByUniversity": {
       "hku": 23,
       "cuhk": 15,
       "hkust": 18,
       "hkustgz": 10,
-      "cuhksz": 6,
+      "cuhksz": 7,
       "polyu": 19,
       "cityu": 10
     },

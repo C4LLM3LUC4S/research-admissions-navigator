@@ -953,6 +953,10 @@ def build_catalog():
                                   "cycle": "2027/28", "condition": "项目页所列申请费"}]}],
         )
         catalog["programs"].append(civil_programme)
+    med_faculty = load("cuhksz-med-faculty-20261109.json")
+    catalog["sources"].extend(med_faculty["sources"])
+    catalog["faculty"].extend(med_faculty["faculty"])
+    catalog["directories"].extend(med_faculty["directories"])
     return catalog
 
 

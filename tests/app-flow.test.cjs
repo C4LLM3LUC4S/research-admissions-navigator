@@ -1218,3 +1218,33 @@ test('Earth and Planetary Sciences shows the required contact step before the ap
   assert.match(card.textContent,/提交申请前须联系意向导师/);
   assert.match(card.textContent,/研究计划/);
 });
+
+test('Shenzhen medicine applicant keeps project evidence and restores a teacher follow-up', async () => {
+  const h = harness();
+  const el = id => h.byId.get(id);
+  h.select('cuhksz', 'PhD', []);
+  el('research-query').value = '女性生殖健康';
+  await el('profile-form').emit('input', {target: el('research-query')});
+  const card = el('results').children.find(item =>
+    h.walk(item).some(node => node.tagName === 'h3' && node.textContent === '尹昕'));
+  assert.ok(card);
+  assert.match(card.textContent, /临床医学 · 研究导师/);
+  assert.match(card.textContent, /流行病学和生物统计学 · 项目导师名单/);
+  assert.ok(h.walk(card).some(node => node.href === 'https://medpg.cuhk.edu.cn/en/node/117'));
+  assert.ok(h.walk(card).some(node => node.href === 'https://myweb.cuhk.edu.cn/yinxin/'));
+  await h.walk(card).find(node => node.tagName === 'button' && node.textContent.includes('放入我的清单')).emit('click');
+  await h.walk(card).find(node => node.tagName === 'button' && node.textContent === '加入跟进待办').emit('click');
+  await el('export-local').emit('click');
+
+  const raw = await h.downloads.at(-1).blob.text();
+  const blank = harness();
+  const file = blank.byId.get('import-local');
+  file.files = [{size: Buffer.byteLength(raw), text: async () => raw}];
+  await file.emit('change');
+  await blank.byId.get('export-local').emit('click');
+  const restored = JSON.parse(await blank.downloads.at(-1).blob.text());
+  assert.deepEqual(restored.shortlist, ['cuhksz-med-faculty-20261109-1669']);
+  assert.equal(restored.tasks[0].facultyId, 'cuhksz-med-faculty-20261109-1669');
+  assert.ok(restored.sourceIds.includes('cuhksz-med-20261109-clinical'));
+  assert.equal(h.networkCalls() + blank.networkCalls(), 0);
+});
