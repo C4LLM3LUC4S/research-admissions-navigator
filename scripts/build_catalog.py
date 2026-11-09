@@ -856,6 +856,20 @@ def build_catalog():
                               "cycle": "2027/28", "condition": "全日制与兼读"}]}],
     )
     catalog["programs"].append(chemistry_programme)
+
+    iot = load("hkustgz-iot-20261109.json")
+    catalog["sources"].extend(iot["sources"])
+    catalog["faculty"].extend(iot["faculty"])
+    catalog["directories"].extend(iot["directories"])
+    information["relatedNavigationGroups"].append(iot["navigationGroup"])
+    for update in iot["facultyUpdates"]:
+        original = next(f for f in catalog["faculty"] if f["id"] == update["id"])
+        assert original["universityId"] == "hkustgz"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
     return catalog
 
 

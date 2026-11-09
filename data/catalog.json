@@ -6902,14 +6902,27 @@
         "multi-agent autonomous systems",
         "AI theory",
         "networking",
-        "game theory"
+        "game theory",
+        "人在回路人工智能",
+        "分布式机器学习",
+        "网络博弈与网络经济学",
+        "Human-in-the-loop AI",
+        "Distributed machine learning",
+        "Computer networking",
+        "Algorithmic game theory",
+        "Network Economics"
       ],
       "keywordSourceIds": [
-        "gz-lingjie-duan"
+        "gz-lingjie-duan",
+        "hkustgz-iot-20261109-profile-592"
       ],
       "profileUrl": "https://personal.hkust-gz.edu.cn/lingjieduan/phd-openings/",
       "sourceIds": [
-        "gz-lingjie-duan"
+        "gz-lingjie-duan",
+        "hkustgz-iot-20261109-profile-592",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-592"
       ],
       "availability": {
         "state": "advertised",
@@ -6918,7 +6931,23 @@
         "sourceIds": [
           "gz-lingjie-duan"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://personal.hkust-gz.edu.cn/lingjieduan/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-592",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-592"
+        }
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=592"
     },
     {
       "id": "polyu-cao",
@@ -9739,12 +9768,27 @@
         "Human-AI interaction",
         "VR/AR/MR interactive systems",
         "Learning and education",
-        "Aging and accessibility"
+        "Aging and accessibility",
+        "以人为中心的人工智能",
+        "人机协作与多智能体交互",
+        "Human-Centered AI",
+        "Human-AI Collaboration (for Education, Learning, Collaboration, Creativity Support)",
+        "Multi-Agent Interactive System Design (for Education, Learning, Collaboration, Creativity Support)",
+        "Human-Robot Interaction (e.g., companion robot)",
+        "Accessible Computing (novel assistive technology design for older adults and people with disabilities)",
+        "Multi-Sensory (e.g., haptic, olfactory) interaction design",
+        "Virtual Reality (VR) / Augmented Reality (AR) / Mixed Reality (MR)",
+        "Mobile, Wearable, and Ubiquitous computing techniques and applications",
+        "Human-Computer Interaction (HCI)"
       ],
       "summary": "研究人机与人智交互，以及VR/AR/MR交互系统，用于教育、老龄化和无障碍场景。",
       "profileUrl": "https://cma.hkust-gz.edu.cn/faculty-regular/mingming-fan-3/",
       "sourceIds": [
-        "wide-hkustgz-mingming-fan-profile"
+        "wide-hkustgz-mingming-fan-profile",
+        "hkustgz-iot-20261109-profile-33",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-33"
       ],
       "availability": {
         "state": "unknown",
@@ -9755,11 +9799,26 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkustgz-cma"
+        "wide-dir-hkustgz-cma",
+        "hkustgz-iot-20261109-directory"
       ],
       "keywordSourceIds": [
-        "wide-hkustgz-mingming-fan-profile"
-      ]
+        "wide-hkustgz-mingming-fan-profile",
+        "hkustgz-iot-20261109-profile-33"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://www.mingmingfan.com",
+          "parentSourceId": "hkustgz-iot-20261109-profile-33",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-33"
+        }
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=33"
     },
     {
       "id": "wide-hkustgz-xin-tong",
@@ -82467,16 +82526,22 @@
       "sourceIds": [
         "gz-roas-directory-20261029",
         "gz-roas-profile-587-20261029",
-        "gz-roas-linked-587-20261029"
+        "gz-roas-linked-587-20261029",
+        "hkustgz-iot-20261109-profile-587",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
       ],
       "keywordSourceIds": [
-        "gz-roas-profile-587-20261029"
+        "gz-roas-profile-587-20261029",
+        "hkustgz-iot-20261109-profile-587"
       ],
       "directorySourceIds": [
-        "gz-roas-directory-20261029"
+        "gz-roas-directory-20261029",
+        "hkustgz-iot-20261109-directory"
       ],
       "academicUnitIds": [
-        "hkustgz-3"
+        "hkustgz-3",
+        "hkustgz-2"
       ],
       "directoryRole": "助理教授 · Assistant Professor",
       "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
@@ -82488,7 +82553,8 @@
         "Distributed Machine Learning",
         "Robotic Manipulation",
         "World Models for Robotics",
-        "Communication and Networking for Multi-Robot Systems"
+        "Communication and Networking for Multi-Robot Systems",
+        "机器人操作与多机器人通信"
       ],
       "topics": [
         "机器人与控制",
@@ -82513,7 +82579,8 @@
         "sourceIds": [
           "gz-roas-profile-587-20261029"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=587"
     },
     {
       "id": "hkustgz-roas-371",
@@ -82776,16 +82843,22 @@
       "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHENG-Xinhu/xinhuzheng",
       "sourceIds": [
         "gz-roas-directory-20261029",
-        "gz-roas-profile-168-20261029"
+        "gz-roas-profile-168-20261029",
+        "hkustgz-iot-20261109-profile-168",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
       ],
       "keywordSourceIds": [
-        "gz-roas-profile-168-20261029"
+        "gz-roas-profile-168-20261029",
+        "hkustgz-iot-20261109-profile-168"
       ],
       "directorySourceIds": [
-        "gz-roas-directory-20261029"
+        "gz-roas-directory-20261029",
+        "hkustgz-iot-20261109-directory"
       ],
       "academicUnitIds": [
-        "hkustgz-3"
+        "hkustgz-3",
+        "hkustgz-2"
       ],
       "directoryRole": "助理教授 · Assistant Professor",
       "identityNote": "这次学域目录新增该卡；此前档案列智能交通和物联网任职，申请时请核对实际所属项目。",
@@ -82795,7 +82868,8 @@
         "多智能体系统",
         "Autonomous Driving",
         "Embodied Intelligence",
-        "Multi-Agent Systems"
+        "Multi-Agent Systems",
+        "具身智能与多智能体系统"
       ],
       "topics": [
         "机器人与控制",
@@ -82810,7 +82884,8 @@
         "sourceIds": [
           "gz-roas-profile-168-20261029"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=168"
     },
     {
       "id": "hkustgz-roas-64",
@@ -89882,6 +89957,1153 @@
         "text": "可先看化学研究学位的申请要求。",
         "sourceIds": [
           "cuhk-chemistry-20261109-graduate-school"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-126",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-126",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-126"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-126"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "多实体智能",
+        "通感信息处理与无线通信",
+        "Multi-entity intelligence with applications to transportation and energy systems",
+        "Synergy of communications, sensing, and information processing",
+        "Theory and applications of wireless communications and networking"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://personal.hkust-gz.edu.cn/lqyang/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-126",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-126"
+        }
+      ],
+      "name": "Liuqing YANG（杨柳青）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "合聘 · Chair Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=126",
+      "summary": "研究多实体智能、通感信息处理与无线通信。",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-9",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-9",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-9"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-9"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "智能电网",
+        "无线网络",
+        "云和边缘计算",
+        "Smart grids",
+        "Networking",
+        "Wireless networking",
+        "Cloud/Edge computing"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "http://c2e.ece.ust.hk/main/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-9",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-9"
+        }
+      ],
+      "name": "Hin Kwok TSANG（曾宪国）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Thrust Head、Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=9",
+      "summary": "研究智能电网、无线网络、云和边缘计算。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-475",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-475",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-475"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "无线人工智能",
+        "分布式机器学习",
+        "通感融合与 6G",
+        "AI for Wireless",
+        "Distributed Machine Learning",
+        "Mobile Edge Computing",
+        "Joint Communications and Sensing",
+        "6G and Beyond Networks"
+      ],
+      "extraLinks": [],
+      "name": "Xudong WANG（王旭东）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=475",
+      "summary": "研究无线人工智能、分布式机器学习、通感融合与 6G。",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-144",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-144",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-144"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-144"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "物联网",
+        "无线通信",
+        "移动与泛在计算",
+        "工业网络",
+        "Internet of Things",
+        "Wireless Networks",
+        "Wireless Communication",
+        "Mobile and Ubiquitous Computing",
+        "Pervasive Computing",
+        "Big Data",
+        "Smart e-Health",
+        "Industrial Networks"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://kaishun-wu.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-144",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-144"
+        }
+      ],
+      "name": "Kaishun WU（伍楷舜）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "合聘 · Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=144",
+      "summary": "研究物联网、无线通信、移动与泛在计算、工业网络。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-146",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-146",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-146"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-146"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "无线通信与信号处理",
+        "优化和学习",
+        "通感算控融合",
+        "Theory and applications of optimization and learning",
+        "AI+wireless communications, networking, and signal processing",
+        "Integrated communications, sensing, computing, and control",
+        "Distributed learning and inference",
+        "Dynamic programming and deep reinforcement learning",
+        "IoT systems and communications",
+        "Mobile edge caching and computing",
+        "Video transmission"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://personal.hkust-gz.edu.cn/yingcui/index.html",
+          "parentSourceId": "hkustgz-iot-20261109-profile-146",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-146"
+        }
+      ],
+      "name": "Ying CUI（崔颖）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Associate Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=146",
+      "summary": "研究无线通信与信号处理、优化和学习、通感算控融合。",
+      "topics": [
+        "网络与系统",
+        "机器学习",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-267",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-267",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-267"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "低功耗无线网状网络",
+        "室内定位",
+        "传感融合与集群机器人",
+        "Low-Power Wireless Mesh Networks",
+        "Indoor Wireless Localization",
+        "Sensor Fusion",
+        "Swarm Robotics/Intelligence"
+      ],
+      "extraLinks": [],
+      "name": "Tengfei CHANG（常腾飞）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=267",
+      "summary": "研究低功耗无线网状网络、室内定位、传感融合与集群机器人。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-321",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-321",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-321"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-321"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "高效边缘与嵌入式 AI",
+        "面向人的智能系统与感知安全",
+        "Efficient Edge/Embedded AI System",
+        "Human‑Centered AI System",
+        "Intent‑driven System Operation and Management",
+        "Sensing and Perception Security/Privacy",
+        "AIoT (Artificial Intelligence of Things)"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://www.chenhuangxun.com/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-321",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-321"
+        }
+      ],
+      "name": "Huangxun CHEN（陈煌栒）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=321",
+      "summary": "研究高效边缘与嵌入式 AI、面向人的智能系统与感知安全。",
+      "topics": [
+        "网络与系统",
+        "机器学习",
+        "网络安全"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-464",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-464",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-464"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-464"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "机器遗忘",
+        "多智能体协调",
+        "物联网及网络经济学",
+        "Artificial intelligence: machine unlearning, multi-agent coordination and game, LLM, diffusion model",
+        "Network system: Internet of Things (IoT), sharing platform",
+        "Network economics: data trading, LLM mechanism design"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://ningningding.com/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-464",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-464"
+        }
+      ],
+      "name": "Ningning DING（丁宁宁）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "合聘 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=464",
+      "summary": "研究机器遗忘、多智能体协调、物联网及网络经济学。",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-493",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-493",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-493"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "人机交互",
+        "无障碍",
+        "虚拟及增强现实与老年用户",
+        "Human-computer interaction",
+        "Accessibility",
+        "VR/AR",
+        "Older adults"
+      ],
+      "extraLinks": [],
+      "name": "RACHEL FRANZ",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "合聘 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=493",
+      "summary": "研究人机交互、无障碍、虚拟及增强现实与老年用户。",
+      "topics": [
+        "人机交互"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-391",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-391",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-391"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-391"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "高效物理层传输",
+        "阵列信号处理与多模态感知通信",
+        "Hardware-efficient PHY transmission",
+        "High-dimensional array signal processing",
+        "Multi-modality sensing-aided communication",
+        "AI-empowered wireless system optimization"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://sites.google.com/view/shijian-gao",
+          "parentSourceId": "hkustgz-iot-20261109-profile-391",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-391"
+        }
+      ],
+      "name": "Shijian GAO（高诗简）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=391",
+      "summary": "研究高效物理层传输、阵列信号处理与多模态感知通信。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-102",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-102",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-102"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "无线通信信号处理",
+        "信道估计与跟踪",
+        "阵列信号处理",
+        "Signal processing for wireless communications",
+        "Channel estimation and channel tracking",
+        "Array signal processing for communications and localization",
+        "Stochastic signal process and optimization",
+        "Target detection recognition, localization and tracking (Radar and Sonar)"
+      ],
+      "extraLinks": [],
+      "name": "Zijun GONG（巩紫君）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=102",
+      "summary": "研究无线通信信号处理、信道估计与跟踪、阵列信号处理。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-594",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-594",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-594"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "信息论",
+        "机器学习",
+        "统计学习与可信人工智能",
+        "Information theory",
+        "Machine learning",
+        "Statistical learning",
+        "Trustworthy AI"
+      ],
+      "extraLinks": [],
+      "name": "Haiyun HE（何海韵）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=594",
+      "summary": "研究信息论、机器学习、统计学习与可信人工智能。",
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-659",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-659",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-659"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "可穿戴人工智能",
+        "传感大模型",
+        "泛在计算与具身智能",
+        "Human-centered AI",
+        "Wearable AI & Large Sensor Model",
+        "Ubiquitous Computing",
+        "Embodied AI",
+        "Smart City"
+      ],
+      "extraLinks": [],
+      "name": "Zhiqing HONG（洪枝青）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=659",
+      "summary": "研究可穿戴人工智能、传感大模型、泛在计算与具身智能。",
+      "topics": [
+        "机器学习",
+        "人机交互"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-235",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-235",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-235"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "振动能量采集",
+        "声弹性超材料",
+        "结构健康监测",
+        "Vibration energy harvesting",
+        "Acoustic-elastic metamaterials",
+        "Smart materials and structures",
+        "Nonlinear dynamics and vibration",
+        "Structural health monitoring"
+      ],
+      "extraLinks": [],
+      "name": "Guobiao HU（胡国标）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=235",
+      "summary": "研究振动能量采集、声弹性超材料、结构健康监测。",
+      "topics": [
+        "材料与能源"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-733",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-733",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-733"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "通感融合",
+        "边缘人工智能",
+        "沉浸式通信与网络智能",
+        "Integrated sensing and communications",
+        "Edge AI",
+        "Immersive communications",
+        "Network intelligence"
+      ],
+      "extraLinks": [],
+      "name": "Shisheng HU（胡仕生）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=733",
+      "summary": "研究通感融合、边缘人工智能、沉浸式通信与网络智能。",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-156",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-156",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-156"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-156"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "科学机器学习",
+        "物理信息机器学习与基础设施监测",
+        "Scientific machine learning; Physics-informed machine learning",
+        "Deep learning for engineered systems",
+        "Computer vision-based infrastructural monitoring; Advanced sensing technologies",
+        "IoT applications in civil infrastructure",
+        "Structural health monitoring"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://zlaidyn.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-156",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-156"
+        }
+      ],
+      "name": "Zhilu LAI（赖志路）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=156",
+      "summary": "研究科学机器学习、物理信息机器学习与基础设施监测。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-533",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-533",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-533"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "无线通信",
+        "多址接入",
+        "可重构智能表面及天线",
+        "Wireless communications",
+        "Advanced multiple access techniques",
+        "Reconfigurable intelligent surfaces",
+        "Reconfigurable antenna systems"
+      ],
+      "extraLinks": [],
+      "name": "Hongyu LI（李宏宇）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=533",
+      "summary": "研究无线通信、多址接入、可重构智能表面及天线。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-636",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-636",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-636"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-636"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "人工智能安全与隐私",
+        "嵌入式与信息物理系统安全",
+        "AI Security and Privacy",
+        "Embedded and CPS Security",
+        "Hardware Security"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://sense-lab-security.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-636",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-636"
+        }
+      ],
+      "name": "Yan LONG（龙颜）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=636",
+      "summary": "研究人工智能安全与隐私、嵌入式与信息物理系统安全。",
+      "topics": [
+        "网络安全"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-307",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-307",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-307"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-307"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "区块链与去中心化金融",
+        "Blockchain",
+        "Decentralized Finance"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://xuechao2.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-307",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-307"
+        }
+      ],
+      "name": "Xuechao WANG（王雪超）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "合聘 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=307",
+      "summary": "研究区块链与去中心化金融。",
+      "topics": [
+        "金融与精算"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-95",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-95",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-95"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "边缘学习与推理",
+        "联邦学习",
+        "移动边缘计算与定位通信",
+        "Edge Learning/Inference",
+        "Federated Learning",
+        "Mobile Edge Computing",
+        "Simultaneous Localization and Communication"
+      ],
+      "extraLinks": [],
+      "name": "Hong XING（邢泓）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=95",
+      "summary": "研究边缘学习与推理、联邦学习、移动边缘计算与定位通信。",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-691",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-691",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-691"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-691"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "非接触式感知",
+        "通感融合",
+        "柔性生物电子与边缘计算",
+        "Non-contact Sensing",
+        "Integrated Sensing and Communication",
+        "Flexible Bioelectronics",
+        "Edge Computing",
+        "Biomedical Device Fabrication and Integration"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://xy-zinc.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-691",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-691"
+        }
+      ],
+      "name": "Xin YANG（杨锌）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=691",
+      "summary": "研究非接触式感知、通感融合、柔性生物电子与边缘计算。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-377",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-377",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-377"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-377"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "强化学习",
+        "多智能体系统",
+        "边缘智能与数字孪生",
+        "Reinforcement Learning and MARL",
+        "Multi-agent System",
+        "Edge Intelligence",
+        "Digital Twin"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://jiadong-yu.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-377",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-377"
+        }
+      ],
+      "name": "Jiadong YU（于佳冬）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=377",
+      "summary": "研究强化学习、多智能体系统、边缘智能与数字孪生。",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-706",
+      "sourceIds": [
+        "hkustgz-iot-20261109-profile-706",
+        "hkustgz-iot-20261109-directory",
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-website-706"
+      ],
+      "directorySourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-iot-20261109-profile-706"
+      ],
+      "academicUnitIds": [
+        "hkustgz-2"
+      ],
+      "researchKeywords": [
+        "系统与控制",
+        "机器学习",
+        "可持续能源系统与大模型对齐",
+        "Systems & Control",
+        "Machine Learning",
+        "Sustainable Energy Systems",
+        "LLM Alignment & Interpretability",
+        "AI Data Centers"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://yuanzh21.github.io/",
+          "parentSourceId": "hkustgz-iot-20261109-profile-706",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-iot-20261109-website-706"
+        }
+      ],
+      "name": "Zhenyi YUAN（袁臻毅）",
+      "universityId": "hkustgz",
+      "department": "物联网学域",
+      "directoryRole": "全职 · Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=706",
+      "summary": "研究系统与控制、机器学习、可持续能源系统与大模型对齐。",
+      "topics": [
+        "机器学习",
+        "材料与能源"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先了解学域的研究学位安排。",
+        "sourceIds": [
+          "hkustgz-iot-20261109-programme-2026-27"
         ]
       }
     }
@@ -190678,6 +191900,950 @@
       "bodySha256": "6ca0686d8f3734d28c2ef29b84b3b1811d719b18317fced781744baa82af68d7",
       "readMethod": "anonymous_HTTP",
       "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-iot-20261109-directory",
+      "url": "https://iott.hkust-gz.edu.cn/people/p_faculty/",
+      "title": "港科大（广州）物联网学域 · 教师名录",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "官方目录页面分全职、合聘、访问与客座标签；同页调用的公开目录返回 32 张卡。标签配置与返回名单有差异。"
+      ],
+      "scope": "官方目录页面分全职、合聘、访问与客座标签；同页调用的公开目录返回 32 张卡。标签配置与返回名单有差异。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c41ee30aa49c6ee7fe205507f94d1c37a4624763c996e637f11ce70bc55c5296",
+      "discoveredLinks": [
+        "https://iott.hkust-gz.edu.cn/wp-json/hkust-gz/people?languageType=en&size=99999&pages=1&facultyType=GZ%2CAPA%2CCCA&excludeJobTypes=Visiting&dataSourcesCodes=OUTSIDE_NC&departmentPkCode=10011A10000000000H2E",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=126",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=592",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=9",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=475",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=144",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=146",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=33",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=267",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=321",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=464",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=493",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=391",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=102",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=594",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=659",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=235",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=733",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=156",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=533",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=636",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=587",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=307",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=752",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=95",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=691",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=377",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=706",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=168",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=646",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=684",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=294",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=495"
+      ]
+    },
+    {
+      "id": "hkustgz-iot-20261109-directory-data",
+      "url": "https://iott.hkust-gz.edu.cn/wp-json/hkust-gz/people?languageType=en&size=99999&pages=1&facultyType=GZ%2CAPA%2CCCA&excludeJobTypes=Visiting&dataSourcesCodes=OUTSIDE_NC&departmentPkCode=10011A10000000000H2E",
+      "title": "港科大（广州）物联网学域 · 公开目录数据",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "原目录脚本公开请求返回 32 条。按页面原有规则，20 条匹配全职、8 条匹配合聘、1 条匹配访问、1 条匹配客座，2 条仅出现在全部名单。分类配置中另有 11 个匹配词未匹配到卡。"
+      ],
+      "scope": "原目录脚本公开请求返回 32 条。按页面原有规则，20 条匹配全职、8 条匹配合聘、1 条匹配访问、1 条匹配客座，2 条仅出现在全部名单。分类配置中另有 11 个匹配词未匹配到卡。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c53a161e8748084ba462d4e60b63a0e86a59510dfcd4f5c50dc2bcc92832fc7f",
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=126",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=592",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=9",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=475",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=144",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=146",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=33",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=267",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=321",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=464",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=493",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=391",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=102",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=594",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=659",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=235",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=733",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=156",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=533",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=636",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=587",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=307",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=752",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=95",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=691",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=377",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=706",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=168",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=646",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=684",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=294",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=495"
+      ]
+    },
+    {
+      "id": "hkustgz-iot-20261109-staff",
+      "url": "https://iott.hkust-gz.edu.cn/people/p_staff/",
+      "title": "港科大（广州）物联网学域 · 行政人员",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "学域官网支援页列 4 位人员及其分工。"
+      ],
+      "scope": "学域官网支援页列 4 位人员及其分工。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "253b4f76c21ab157c864710cbbfb1fa6a958703141199690596214c19302925a",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-iot-20261109-programme-2026-27",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/2026-27/information-hub-2026-27/internet-of-things-5",
+      "title": "港科大（广州）物联网研究学位 · 2026/27 项目目录",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "目录列 2026/27 MPhil 与 PhD、全日制与兼读，以及研究生院通用入学要求。2027/28 学域具体安排须核当期目录。"
+      ],
+      "scope": "目录列 2026/27 MPhil 与 PhD、全日制与兼读，以及研究生院通用入学要求。2027/28 学域具体安排须核当期目录。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5de65b26fbd915cd88e89350e182f90b7a9c03fe58304c1ba25ca8e2ce5f324b",
+      "discoveredLinks": [
+        "https://fytgs.hkust-gz.edu.cn/programs/2026-27/information-hub-2026-27/internet-of-things-5"
+      ]
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-126",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=126",
+      "title": "Liuqing YANG（杨柳青） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Chair Professor。研究主题包括多实体智能、通感信息处理与无线通信。"
+      ],
+      "scope": "个人档案列物联网学域任职：Chair Professor。研究主题包括多实体智能、通感信息处理与无线通信。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "159e23bad9edf67a10e13a1e4b8f079e4cf307e8ae3d27604e3f7b11a2d99f61",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/lqyang/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/126"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-126",
+      "url": "https://personal.hkust-gz.edu.cn/lqyang/",
+      "title": "Liuqing YANG（杨柳青） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列智能交通任职及研究入口，物联网任职来自官方个人档案。"
+      ],
+      "scope": "个人页列智能交通任职及研究入口，物联网任职来自官方个人档案。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "de64fa54be86e266a1841f84693db9f83b3bf3b908ba43688cf898ea01c3309b",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-126",
+      "originalUrl": "https://personal.hkust-gz.edu.cn/lqyang/",
+      "retrievedUrl": "https://personal.hkust-gz.edu.cn/lqyang/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-592",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=592",
+      "title": "Lingjie DUAN（段凌杰） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Professor。研究主题包括人在回路人工智能、分布式机器学习、网络博弈与网络经济学。"
+      ],
+      "scope": "个人档案列物联网学域任职：Professor。研究主题包括人在回路人工智能、分布式机器学习、网络博弈与网络经济学。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "5ff7964aada8c20ea1a3e9a9ebddb1cfdc5bec5e392da04d87f68a62675f9588",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/lingjieduan/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/592"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-592",
+      "url": "https://personal.hkust-gz.edu.cn/lingjieduan/",
+      "title": "Lingjie DUAN（段凌杰） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列物联网与人工智能任职以及课题组入口。"
+      ],
+      "scope": "个人页列物联网与人工智能任职以及课题组入口。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d884cd463976a2ed5215bbbf8d0232131944317ad6af45162039b6ace71435df",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-592",
+      "originalUrl": "https://personal.hkust-gz.edu.cn/lingjieduan/",
+      "retrievedUrl": "https://personal.hkust-gz.edu.cn/lingjieduan/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-9",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=9",
+      "title": "Hin Kwok TSANG（曾宪国） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Thrust Head、Professor。研究主题包括智能电网、无线网络、云和边缘计算。"
+      ],
+      "scope": "个人档案列物联网学域任职：Thrust Head、Professor。研究主题包括智能电网、无线网络、云和边缘计算。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "e13865acb85bf850ab24690f94cdda0b612ec0f0c4233c92b6c14f8ea100ed53",
+      "discoveredLinks": [
+        "http://c2e.ece.ust.hk/main/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/9"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-9",
+      "url": "http://c2e.ece.ust.hk/main/",
+      "title": "Hin Kwok TSANG（曾宪国） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "所给链接为香港校区 C2E 课题组主页，历史关系与广州当前任职分开记录。"
+      ],
+      "scope": "所给链接为香港校区 C2E 课题组主页，历史关系与广州当前任职分开记录。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fefd2683144135252b551d5f61f48071abd7a65c8e41b312d66f5171e7e8a3bb",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-9",
+      "originalUrl": "http://c2e.ece.ust.hk/main/",
+      "retrievedUrl": "http://c2e.ece.ust.hk/main/",
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-475",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=475",
+      "title": "Xudong WANG（王旭东） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Professor。研究主题包括无线人工智能、分布式机器学习、通感融合与 6G。"
+      ],
+      "scope": "个人档案列物联网学域任职：Professor。研究主题包括无线人工智能、分布式机器学习、通感融合与 6G。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "1deaeb51f216efd3a4cd53e445ad15b35d8722b6a63ab1d5b4556169d0855720",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/475"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-144",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=144",
+      "title": "Kaishun WU（伍楷舜） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Professor。研究主题包括物联网、无线通信、移动与泛在计算、工业网络。"
+      ],
+      "scope": "个人档案列物联网学域任职：Professor。研究主题包括物联网、无线通信、移动与泛在计算、工业网络。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "1a3e04a8cf5085c74d0aac44386b773d3a3c5c2adb1f9095c46bef2dc8540380",
+      "discoveredLinks": [
+        "https://kaishun-wu.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/144"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-144",
+      "url": "https://kaishun-wu.github.io/",
+      "title": "Kaishun WU（伍楷舜） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列港科大广州研究任职与课题组入口。"
+      ],
+      "scope": "个人页列港科大广州研究任职与课题组入口。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0874f3da0d282da00c818da24f33654a2ff98a6315a4fb09230548f02ce740fb",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-144",
+      "originalUrl": "https://kaishun-wu.github.io/",
+      "retrievedUrl": "https://kaishun-wu.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-146",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=146",
+      "title": "Ying CUI（崔颖） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Associate Professor。研究主题包括无线通信与信号处理、优化和学习、通感算控融合。"
+      ],
+      "scope": "个人档案列物联网学域任职：Associate Professor。研究主题包括无线通信与信号处理、优化和学习、通感算控融合。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "2b7dd024974057bb7a3d1c65c56e0c192eb4c0c21cab111578a0ac6270489dc9",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/yingcui/index.html"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/146"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-146",
+      "url": "https://personal.hkust-gz.edu.cn/yingcui/index.html",
+      "title": "Ying CUI（崔颖） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列物联网学域任职与研究入口。"
+      ],
+      "scope": "个人页列物联网学域任职与研究入口。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e6cd7a62978ed3b02b72fc72d016b16d1e673c735ed77c5f3bfb1e5d5bb23506",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-146",
+      "originalUrl": "https://personal.hkust-gz.edu.cn/yingcui/index.html",
+      "retrievedUrl": "https://personal.hkust-gz.edu.cn/yingcui/index.html"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-33",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=33",
+      "title": "Mingming FAN（范明明） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Associate Professor。研究主题包括以人为中心的人工智能、人机协作与多智能体交互。"
+      ],
+      "scope": "个人档案列物联网学域任职：Associate Professor。研究主题包括以人为中心的人工智能、人机协作与多智能体交互。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "e1c9cbdcc0531d54efe7c52cfaf64c9c377978545b743657d068448059771f96",
+      "discoveredLinks": [
+        "https://www.mingmingfan.com"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/33"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-33",
+      "url": "https://www.mingmingfan.com",
+      "title": "Mingming FAN（范明明） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列计算媒体与艺术及物联网两个学域的任职。"
+      ],
+      "scope": "个人页列计算媒体与艺术及物联网两个学域的任职。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c5f714f04aca86909a6162a2f97c187b0e7954130fef1376bc0368bc28f1ee6d",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-33",
+      "originalUrl": "https://www.mingmingfan.com",
+      "retrievedUrl": "https://www.mingmingfan.com"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-267",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=267",
+      "title": "Tengfei CHANG（常腾飞） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括低功耗无线网状网络、室内定位、传感融合与集群机器人。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括低功耗无线网状网络、室内定位、传感融合与集群机器人。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "c3fe7b9a8d5cbb61c6d3d5caecf7890000d6fb169a1e12fd71aa94ce2bb74fe9",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/267"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-321",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=321",
+      "title": "Huangxun CHEN（陈煌栒） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括高效边缘与嵌入式 AI、面向人的智能系统与感知安全。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括高效边缘与嵌入式 AI、面向人的智能系统与感知安全。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "8652eaf6f184718b043b26e7a61271774268746320fba0689618f4f886ee6364",
+      "discoveredLinks": [
+        "https://www.chenhuangxun.com/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/321"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-321",
+      "url": "https://www.chenhuangxun.com/",
+      "title": "Huangxun CHEN（陈煌栒） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列港科大广州任职和研究组入口。"
+      ],
+      "scope": "个人页列港科大广州任职和研究组入口。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f7489137b6632f73be976213ff62e75e856b33eeac0264c207ab335f3695f76e",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-321",
+      "originalUrl": "https://www.chenhuangxun.com/",
+      "retrievedUrl": "https://www.chenhuangxun.com/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-464",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=464",
+      "title": "Ningning DING（丁宁宁） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括机器遗忘、多智能体协调、物联网及网络经济学。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括机器遗忘、多智能体协调、物联网及网络经济学。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "5c7082910aed1892176be26913f234f95429f7fbdd9ead0ee1475dc9afe6d023",
+      "discoveredLinks": [
+        "https://ningningding.com/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/464"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-464",
+      "url": "https://ningningding.com/",
+      "title": "Ningning DING（丁宁宁） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列数据科学与分析及物联网两个学域任职。"
+      ],
+      "scope": "个人页列数据科学与分析及物联网两个学域任职。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6d1d70f716ab864e861ff54141be9d9004d242fb7486175e8431ff4532f04bdb",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-464",
+      "originalUrl": "https://ningningding.com/",
+      "retrievedUrl": "https://ningningding.com/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-493",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=493",
+      "title": "RACHEL FRANZ · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括人机交互、无障碍、虚拟及增强现实与老年用户。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括人机交互、无障碍、虚拟及增强现实与老年用户。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "67cfc4f42f2e55c679fcee2507a0006dcaac69904bc5fb98a9e0d6c730a65aa8",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/493"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-391",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=391",
+      "title": "Shijian GAO（高诗简） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括高效物理层传输、阵列信号处理与多模态感知通信。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括高效物理层传输、阵列信号处理与多模态感知通信。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "a79f37090615561c1271afd4baba31d2c80fa1cd599c0d026a3dec1f98f946ca",
+      "discoveredLinks": [
+        "https://sites.google.com/view/shijian-gao"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/391"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-391",
+      "url": "https://sites.google.com/view/shijian-gao",
+      "title": "Shijian GAO（高诗简） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人网站列成果、经历及课题组入口。"
+      ],
+      "scope": "个人网站列成果、经历及课题组入口。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "07a294816ef25d81882383d91f8c19c2da48c2208ac7e86d5c7c3542fe939e4b",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-391",
+      "originalUrl": "https://sites.google.com/view/shijian-gao",
+      "retrievedUrl": "https://sites.google.com/view/shijian-gao"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-102",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=102",
+      "title": "Zijun GONG（巩紫君） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括无线通信信号处理、信道估计与跟踪、阵列信号处理。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括无线通信信号处理、信道估计与跟踪、阵列信号处理。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "51a7310a9ac4430a6c58cbe2f6070b4d1118b37df716e2de9f1acfb381609c8d",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/102"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-594",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=594",
+      "title": "Haiyun HE（何海韵） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括信息论、机器学习、统计学习与可信人工智能。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括信息论、机器学习、统计学习与可信人工智能。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "a4c5fb6efc434fb6a0728b0d362a33fd9e1cfeba348c0c2e2416f4283f21a518",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/594"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-659",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=659",
+      "title": "Zhiqing HONG（洪枝青） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括可穿戴人工智能、传感大模型、泛在计算与具身智能。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括可穿戴人工智能、传感大模型、泛在计算与具身智能。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "35ba85a1984da853af50794db36c5424752aab6d83fd8e36400d003a4a0b34ff",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/659"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-235",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=235",
+      "title": "Guobiao HU（胡国标） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括振动能量采集、声弹性超材料、结构健康监测。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括振动能量采集、声弹性超材料、结构健康监测。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "c2b2f0364157209e3823f5068a9ce0b873951d06477b52693df57b147793fdd6",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/235"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-733",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=733",
+      "title": "Shisheng HU（胡仕生） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括通感融合、边缘人工智能、沉浸式通信与网络智能。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括通感融合、边缘人工智能、沉浸式通信与网络智能。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "b540f06c7c6be94b1bac8bb79bc716ab67631282d131533968eedaf6f82eee78",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/733"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-156",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=156",
+      "title": "Zhilu LAI（赖志路） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括科学机器学习、物理信息机器学习与基础设施监测。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括科学机器学习、物理信息机器学习与基础设施监测。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "12bbc0200fe98e3af59defa70ec1a6bcdfb8b4de587ab00703ff14a3a05ac16c",
+      "discoveredLinks": [
+        "https://zlaidyn.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/156"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-156",
+      "url": "https://zlaidyn.github.io/",
+      "title": "Zhilu LAI（赖志路） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "课题组列学习与动力学感知方向。"
+      ],
+      "scope": "课题组列学习与动力学感知方向。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "de8b1b125571df74c55ced8d7830900da89eab6052b160fca6b99d429d032357",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-156",
+      "originalUrl": "https://zlaidyn.github.io/",
+      "retrievedUrl": "https://zlaidyn.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-533",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=533",
+      "title": "Hongyu LI（李宏宇） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括无线通信、多址接入、可重构智能表面及天线。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括无线通信、多址接入、可重构智能表面及天线。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "13adf3dcd14246ba4cfb90e0dc7d1b5af89238a529de1cbe58ed178bf4cdfec0",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/533"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-636",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=636",
+      "title": "Yan LONG（龙颜） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括人工智能安全与隐私、嵌入式与信息物理系统安全。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括人工智能安全与隐私、嵌入式与信息物理系统安全。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "9e1d5c7948f7443290acf092eebd2722f81e3b55446fd22076540aaaf3055ced",
+      "discoveredLinks": [
+        "https://sense-lab-security.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/636"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-636",
+      "url": "https://sense-lab-security.github.io/",
+      "title": "Yan LONG（龙颜） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "课题组列系统、硬件和人工智能安全研究。"
+      ],
+      "scope": "课题组列系统、硬件和人工智能安全研究。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d18bfaf4f2196bf156491e48a942aeea7c1322ecb3f7a87a2376617c3948a6a5",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-636",
+      "originalUrl": "https://sense-lab-security.github.io/",
+      "retrievedUrl": "https://sense-lab-security.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-587",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=587",
+      "title": "Ningxin SU（苏宁馨） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括分布式机器学习、机器人操作与多机器人通信。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括分布式机器学习、机器人操作与多机器人通信。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "0def381c2068b54120c48b906f435781ddfa8fc0d450d837b859cbe1e6e06750",
+      "discoveredLinks": [
+        "https://nebulis-lab.com/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/587"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-307",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=307",
+      "title": "Xuechao WANG（王雪超） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括区块链与去中心化金融。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括区块链与去中心化金融。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "2a1ee6ff47cf7d1d0d8262d71a83a6807b51513474817b4f4819d27c0fe66f3e",
+      "discoveredLinks": [
+        "https://xuechao2.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/307"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-307",
+      "url": "https://xuechao2.github.io/",
+      "title": "Xuechao WANG（王雪超） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列金融科技与物联网两项任职。"
+      ],
+      "scope": "个人页列金融科技与物联网两项任职。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "850fcf8d98cce4a91d44b66dbd96e3f023fb783ab758a604fba596f61b72c5ea",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-307",
+      "originalUrl": "https://xuechao2.github.io/",
+      "retrievedUrl": "https://xuechao2.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-752",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=752",
+      "title": "Yixin WU（吴怡欣） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "ffa02ee18a5f9255eddd8bd27d9d0ce9a8512b77569dd0fe82062af5fa8c1abe",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/752"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-95",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=95",
+      "title": "Hong XING（邢泓） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括边缘学习与推理、联邦学习、移动边缘计算与定位通信。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括边缘学习与推理、联邦学习、移动边缘计算与定位通信。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "35a81b7e6cf987c1ecb8a675405309b1882a9aee412f69f486104f8b38047265",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/95"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-691",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=691",
+      "title": "Xin YANG（杨锌） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括非接触式感知、通感融合、柔性生物电子与边缘计算。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括非接触式感知、通感融合、柔性生物电子与边缘计算。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "e699c0a31ea3964ccc70b8058d3694ed1dadeb066379175958b54922f14b1a1a",
+      "discoveredLinks": [
+        "https://xy-zinc.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/691"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-691",
+      "url": "https://xy-zinc.github.io/",
+      "title": "Xin YANG（杨锌） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列港科大广州任职及研究入口。"
+      ],
+      "scope": "个人页列港科大广州任职及研究入口。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9b73369298746315dcc34e21a79d7236ab21d25227337c7a95e8240e8ea3c3c7",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-691",
+      "originalUrl": "https://xy-zinc.github.io/",
+      "retrievedUrl": "https://xy-zinc.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-377",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=377",
+      "title": "Jiadong YU（于佳冬） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括强化学习、多智能体系统、边缘智能与数字孪生。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括强化学习、多智能体系统、边缘智能与数字孪生。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "71ad2199a28d0d7c4c20067e81b646d863db2b36e55caa33844d8812218d84d7",
+      "discoveredLinks": [
+        "https://jiadong-yu.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/377"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-377",
+      "url": "https://jiadong-yu.github.io/",
+      "title": "Jiadong YU（于佳冬） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列物联网与人工智能学域任职。"
+      ],
+      "scope": "个人页列物联网与人工智能学域任职。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "27ad992b08ab1c5fcf5cfdcee4c0bb5e2f1621ca6327c7f5f416ca710976c716",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-377",
+      "originalUrl": "https://jiadong-yu.github.io/",
+      "retrievedUrl": "https://jiadong-yu.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-706",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=706",
+      "title": "Zhenyi YUAN（袁臻毅） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括系统与控制、机器学习、可持续能源系统与大模型对齐。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括系统与控制、机器学习、可持续能源系统与大模型对齐。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "4e9b23558ba92c86797638ccc8f4aaa137d98b2698b9ed311c90ef3e58e7964d",
+      "discoveredLinks": [
+        "https://yuanzh21.github.io/"
+      ],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/706"
+    },
+    {
+      "id": "hkustgz-iot-20261109-website-706",
+      "url": "https://yuanzh21.github.io/",
+      "title": "Zhenyi YUAN（袁臻毅） · 个人或课题组网站",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "个人页列物联网学域任职及 COLAS Lab。"
+      ],
+      "scope": "个人页列物联网学域任职及 COLAS Lab。",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7e9c2c853165fa1cb7aef29efe4a86ed5408f40e0501e0d9d8f31a91fb0c5fba",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-iot-20261109-profile-706",
+      "originalUrl": "https://yuanzh21.github.io/",
+      "retrievedUrl": "https://yuanzh21.github.io/"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-168",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=168",
+      "title": "Xinhu ZHENG（郑心湖） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。研究主题包括自动驾驶、具身智能与多智能体系统。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。研究主题包括自动驾驶、具身智能与多智能体系统。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "534562eddd7da83797e916c8c78bf88274cb6048ff1f62ebc68b39649c530aeb",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/168"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-646",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=646",
+      "title": "QIUSHI ZHOU · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Assistant Professor。"
+      ],
+      "scope": "个人档案列物联网学域任职：Assistant Professor。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "5aa188c3c84b97b551d63e7be18bdecf68909a14e8a3a477f73444fb47186d0d",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/646"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-684",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=684",
+      "title": "VICTOR ON-KWOK LI（李安国） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Advisor to the President。"
+      ],
+      "scope": "个人档案列物联网学域任职：Advisor to the President。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "fe5f80a58a2f6599de5da0f7913c066bc769b59d588e423e336b98169ef957ff",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/684"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-294",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=294",
+      "title": "Yang YANG（杨旸） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Adjunct Professor。"
+      ],
+      "scope": "个人档案列物联网学域任职：Adjunct Professor。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "ba32e2df46f8627b32319fdef7e6cb4f44aefc28df42ef8be6c60c97f36d44ce",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/294"
+    },
+    {
+      "id": "hkustgz-iot-20261109-profile-495",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=495",
+      "title": "Guobin SHEN（沈国斌） · 公开个人档案",
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "claims": [
+        "个人档案列物联网学域任职：Professor of Practice。"
+      ],
+      "scope": "个人档案列物联网学域任职：Professor of Practice。",
+      "knownIssues": [],
+      "readMethod": "anonymous_public_profile_interface",
+      "bodySha256": "eb37213750a4eb6b8a096e7ffcdb851c70bf88e4550041445df7e8b30f346e9c",
+      "discoveredLinks": [],
+      "retrievedDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/495"
     }
   ],
   "funding": [
@@ -207349,6 +209515,409 @@
             "profileUrl": null,
             "providedLinks": [],
             "reason": "此分类页未提供个人档案链接。"
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-directory-listing",
+      "universityId": "hkustgz",
+      "unit": "物联网学域 · 学术人员",
+      "url": "https://iott.hkust-gz.edu.cn/people/p_faculty/",
+      "sourceIds": [
+        "hkustgz-iot-20261109-directory"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "公开目录返回 32 张卡。部分分类名单中的名字未返回，另有两张卡仅见于全部名单。",
+      "reviewSourceIds": [
+        "hkustgz-iot-20261109-directory-data",
+        "hkustgz-iot-20261109-programme-2026-27",
+        "hkustgz-iot-20261109-profile-126",
+        "hkustgz-iot-20261109-website-126",
+        "hkustgz-iot-20261109-profile-592",
+        "hkustgz-iot-20261109-website-592",
+        "hkustgz-iot-20261109-profile-9",
+        "hkustgz-iot-20261109-website-9",
+        "hkustgz-iot-20261109-profile-475",
+        "hkustgz-iot-20261109-profile-144",
+        "hkustgz-iot-20261109-website-144",
+        "hkustgz-iot-20261109-profile-146",
+        "hkustgz-iot-20261109-website-146",
+        "hkustgz-iot-20261109-profile-33",
+        "hkustgz-iot-20261109-website-33",
+        "hkustgz-iot-20261109-profile-267",
+        "hkustgz-iot-20261109-profile-321",
+        "hkustgz-iot-20261109-website-321",
+        "hkustgz-iot-20261109-profile-464",
+        "hkustgz-iot-20261109-website-464",
+        "hkustgz-iot-20261109-profile-493",
+        "hkustgz-iot-20261109-profile-391",
+        "hkustgz-iot-20261109-website-391",
+        "hkustgz-iot-20261109-profile-102",
+        "hkustgz-iot-20261109-profile-594",
+        "hkustgz-iot-20261109-profile-659",
+        "hkustgz-iot-20261109-profile-235",
+        "hkustgz-iot-20261109-profile-733",
+        "hkustgz-iot-20261109-profile-156",
+        "hkustgz-iot-20261109-website-156",
+        "hkustgz-iot-20261109-profile-533",
+        "hkustgz-iot-20261109-profile-636",
+        "hkustgz-iot-20261109-website-636",
+        "hkustgz-iot-20261109-profile-587",
+        "hkustgz-iot-20261109-profile-307",
+        "hkustgz-iot-20261109-website-307",
+        "hkustgz-iot-20261109-profile-752",
+        "hkustgz-iot-20261109-profile-95",
+        "hkustgz-iot-20261109-profile-691",
+        "hkustgz-iot-20261109-website-691",
+        "hkustgz-iot-20261109-profile-377",
+        "hkustgz-iot-20261109-website-377",
+        "hkustgz-iot-20261109-profile-706",
+        "hkustgz-iot-20261109-website-706",
+        "hkustgz-iot-20261109-profile-168",
+        "hkustgz-iot-20261109-profile-646",
+        "hkustgz-iot-20261109-profile-684",
+        "hkustgz-iot-20261109-profile-294",
+        "hkustgz-iot-20261109-profile-495"
+      ],
+      "census": {
+        "entries": [
+          {
+            "name": "Liuqing YANG（杨柳青）",
+            "directoryPosition": "合聘 · Chair Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=126",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "多实体智能、通感信息处理与无线通信。",
+            "facultyId": "hkustgz-iot-20261109-126"
+          },
+          {
+            "name": "Lingjie DUAN（段凌杰）",
+            "directoryPosition": "全职 · Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=592",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "人在回路人工智能、分布式机器学习、网络博弈与网络经济学。",
+            "facultyId": "lingjie-duan"
+          },
+          {
+            "name": "Hin Kwok TSANG（曾宪国）",
+            "directoryPosition": "全职 · Thrust Head、Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=9",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "智能电网、无线网络、云和边缘计算。",
+            "facultyId": "hkustgz-iot-20261109-9"
+          },
+          {
+            "name": "Xudong WANG（王旭东）",
+            "directoryPosition": "全职 · Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=475",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "无线人工智能、分布式机器学习、通感融合与 6G。",
+            "facultyId": "hkustgz-iot-20261109-475"
+          },
+          {
+            "name": "Kaishun WU（伍楷舜）",
+            "directoryPosition": "合聘 · Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=144",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "物联网、无线通信、移动与泛在计算、工业网络。",
+            "facultyId": "hkustgz-iot-20261109-144"
+          },
+          {
+            "name": "Ying CUI（崔颖）",
+            "directoryPosition": "全职 · Associate Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=146",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "无线通信与信号处理、优化和学习、通感算控融合。",
+            "facultyId": "hkustgz-iot-20261109-146"
+          },
+          {
+            "name": "Mingming FAN（范明明）",
+            "directoryPosition": "合聘 · Associate Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=33",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "以人为中心的人工智能、人机协作与多智能体交互。",
+            "facultyId": "wide-hkustgz-mingming-fan"
+          },
+          {
+            "name": "Tengfei CHANG（常腾飞）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=267",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "低功耗无线网状网络、室内定位、传感融合与集群机器人。",
+            "facultyId": "hkustgz-iot-20261109-267"
+          },
+          {
+            "name": "Huangxun CHEN（陈煌栒）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=321",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "高效边缘与嵌入式 AI、面向人的智能系统与感知安全。",
+            "facultyId": "hkustgz-iot-20261109-321"
+          },
+          {
+            "name": "Ningning DING（丁宁宁）",
+            "directoryPosition": "合聘 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=464",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "机器遗忘、多智能体协调、物联网及网络经济学。",
+            "facultyId": "hkustgz-iot-20261109-464"
+          },
+          {
+            "name": "RACHEL FRANZ",
+            "directoryPosition": "合聘 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=493",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "人机交互、无障碍、虚拟及增强现实与老年用户。",
+            "facultyId": "hkustgz-iot-20261109-493"
+          },
+          {
+            "name": "Shijian GAO（高诗简）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=391",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "高效物理层传输、阵列信号处理与多模态感知通信。",
+            "facultyId": "hkustgz-iot-20261109-391"
+          },
+          {
+            "name": "Zijun GONG（巩紫君）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=102",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "无线通信信号处理、信道估计与跟踪、阵列信号处理。",
+            "facultyId": "hkustgz-iot-20261109-102"
+          },
+          {
+            "name": "Haiyun HE（何海韵）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=594",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "信息论、机器学习、统计学习与可信人工智能。",
+            "facultyId": "hkustgz-iot-20261109-594"
+          },
+          {
+            "name": "Zhiqing HONG（洪枝青）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=659",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "可穿戴人工智能、传感大模型、泛在计算与具身智能。",
+            "facultyId": "hkustgz-iot-20261109-659"
+          },
+          {
+            "name": "Guobiao HU（胡国标）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=235",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "振动能量采集、声弹性超材料、结构健康监测。",
+            "facultyId": "hkustgz-iot-20261109-235"
+          },
+          {
+            "name": "Shisheng HU（胡仕生）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=733",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "通感融合、边缘人工智能、沉浸式通信与网络智能。",
+            "facultyId": "hkustgz-iot-20261109-733"
+          },
+          {
+            "name": "Zhilu LAI（赖志路）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=156",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "科学机器学习、物理信息机器学习与基础设施监测。",
+            "facultyId": "hkustgz-iot-20261109-156"
+          },
+          {
+            "name": "Hongyu LI（李宏宇）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=533",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "无线通信、多址接入、可重构智能表面及天线。",
+            "facultyId": "hkustgz-iot-20261109-533"
+          },
+          {
+            "name": "Yan LONG（龙颜）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=636",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "人工智能安全与隐私、嵌入式与信息物理系统安全。",
+            "facultyId": "hkustgz-iot-20261109-636"
+          },
+          {
+            "name": "Ningxin SU（苏宁馨）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=587",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "分布式机器学习、机器人操作与多机器人通信。",
+            "facultyId": "hkustgz-roas-587"
+          },
+          {
+            "name": "Xuechao WANG（王雪超）",
+            "directoryPosition": "合聘 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=307",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "区块链与去中心化金融。",
+            "facultyId": "hkustgz-iot-20261109-307"
+          },
+          {
+            "name": "Yixin WU（吴怡欣）",
+            "directoryPosition": "全部名单 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=752",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Hong XING（邢泓）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=95",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "边缘学习与推理、联邦学习、移动边缘计算与定位通信。",
+            "facultyId": "hkustgz-iot-20261109-95"
+          },
+          {
+            "name": "Xin YANG（杨锌）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=691",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "非接触式感知、通感融合、柔性生物电子与边缘计算。",
+            "facultyId": "hkustgz-iot-20261109-691"
+          },
+          {
+            "name": "Jiadong YU（于佳冬）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=377",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "强化学习、多智能体系统、边缘智能与数字孪生。",
+            "facultyId": "hkustgz-iot-20261109-377"
+          },
+          {
+            "name": "Zhenyi YUAN（袁臻毅）",
+            "directoryPosition": "全职 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=706",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "系统与控制、机器学习、可持续能源系统与大模型对齐。",
+            "facultyId": "hkustgz-iot-20261109-706"
+          },
+          {
+            "name": "Xinhu ZHENG（郑心湖）",
+            "directoryPosition": "合聘 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=168",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "自动驾驶、具身智能与多智能体系统。",
+            "facultyId": "hkustgz-roas-168"
+          },
+          {
+            "name": "QIUSHI ZHOU",
+            "directoryPosition": "合聘 · Assistant Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=646",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核，研究方向栏未列条目。"
+          },
+          {
+            "name": "VICTOR ON-KWOK LI（李安国）",
+            "directoryPosition": "访问 · Advisor to the President",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=684",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Yang YANG（杨旸）",
+            "directoryPosition": "客座 · Adjunct Professor",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=294",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          },
+          {
+            "name": "Guobin SHEN（沈国斌）",
+            "directoryPosition": "全部名单 · Professor of Practice",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/?id=495",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "本人档案已核。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 32,
+        "profilesRead": 32,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hkustgz-iot-20261109-staff-listing",
+      "universityId": "hkustgz",
+      "unit": "物联网学域 · 行政人员",
+      "url": "https://iott.hkust-gz.edu.cn/people/p_staff/",
+      "sourceIds": [
+        "hkustgz-iot-20261109-staff"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "学域支援页列 4 位行政人员及分工。",
+      "reviewSourceIds": [],
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Sarah Yingying QIN",
+            "profileUrl": null,
+            "directoryPosition": "Academic Personnel Administration, Faculty Recruitment Support, Talent Schemes",
+            "reason": "学域页面未提供个人档案链接。",
+            "providedLinks": []
+          },
+          {
+            "name": "Jenny Lijuan YUAN",
+            "profileUrl": null,
+            "directoryPosition": "PG Program Administration, PG Student Affairs, Administrative Affairs",
+            "reason": "学域页面未提供个人档案链接。",
+            "providedLinks": []
+          },
+          {
+            "name": "Constance Huiwen TAN",
+            "profileUrl": null,
+            "directoryPosition": "Communications and Promotion Affairs, Industry Collaboration",
+            "reason": "学域页面未提供个人档案链接。",
+            "providedLinks": []
+          },
+          {
+            "name": "Claire Ziying ZENG",
+            "profileUrl": null,
+            "directoryPosition": "Research Project Management, RA Management, UG Program Administration",
+            "reason": "学域页面未提供个人档案链接。",
+            "providedLinks": []
           }
         ],
         "observedTotal": 0,
@@ -249235,6 +251804,49 @@
                   "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
                 }
               ]
+            },
+            {
+              "kind": "research_degree_navigation",
+              "title": "物联网学域 · 研究学位申请资料",
+              "note": "研究生院发布校级 PhD 申请日程，学域 2027/28 专属目录待确认。",
+              "sourceIds": [
+                "hkustgz-iot-20261109-programme-2026-27",
+                "gz-cma-reviewed-timeline"
+              ],
+              "entries": [
+                {
+                  "name": "研究生院 2026/27 物联网项目目录",
+                  "url": "https://fytgs.hkust-gz.edu.cn/programs/2026-27/information-hub-2026-27/internet-of-things-5",
+                  "retrievedUrl": "https://fytgs.hkust-gz.edu.cn/programs/2026-27/information-hub-2026-27/internet-of-things-5",
+                  "kind": "research_degree_navigation",
+                  "entryBodyStatus": "body_read",
+                  "sourceIds": [
+                    "hkustgz-iot-20261109-programme-2026-27"
+                  ],
+                  "readMethod": "anonymous_HTTP",
+                  "bodySha256": "5de65b26fbd915cd88e89350e182f90b7a9c03fe58304c1ba25ca8e2ce5f324b",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "note": "列 2026/27 学年的研究学位及培养要求。"
+                },
+                {
+                  "name": "研究生院 2027/28 秋季时间表",
+                  "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+                  "retrievedUrl": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/admission-timeline",
+                  "kind": "research_degree_navigation",
+                  "sourceIds": [
+                    "gz-cma-reviewed-timeline"
+                  ],
+                  "note": "校级 PhD 截止时间为国际申请人 2027 年 6 月 15 日、中国申请人 7 月 15 日，均为北京时间 23:59。项目安排请向学域确认。红鸟 MPhil 另见未来技术学院。",
+                  "entryBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "3045dc613623fbf5183e34c3b55f5bd807793851b78209e3c3031a1b474e0553"
+                }
+              ]
             }
           ]
         },
@@ -251689,5 +254301,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:3562729c9c88fc31bc1425a46cd04ba76ad399c85a06e90aece8b555cbf9209f"
+  "snapshotId": "sha256:bf4d530ce22dc46660cd7cc7bc7770c4c475c0c63edbd54db1e10d145f2f5d71"
 }
