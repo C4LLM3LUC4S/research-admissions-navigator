@@ -17,7 +17,7 @@ test('HKU keeps the92 observed original links, failures, alternate DU link and13
 });
 
 test('the18 RPG names are positive directory evidence, never a real-time place or automatic exclusion rule',()=>{
-  const rows=C.faculty.filter(f=>(f.applicationNotes||[]).some(n=>n.kind==='official_supervisor_list'));
+  const rows=C.faculty.filter(f=>f.universityId==='hku'&&(f.applicationNotes||[]).some(n=>n.kind==='official_supervisor_list'));
   assert.equal(rows.length,18);
   for(const f of rows){assert.equal(f.availability.state,'unknown');assert.match(f.applicationNotes[0].text,/不是当期余位清单/);}
   const lecturer=C.faculty.find(f=>f.id==='hku-cds-census-013');assert.match(lecturer.directoryRole,/Lecturer/);assert.equal(lecturer.availability.state,'unknown');

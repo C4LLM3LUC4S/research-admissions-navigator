@@ -763,13 +763,13 @@ test('a malformed saved record is retained rather than overwritten on startup',(
   assert.ok(h.byId.get('results').childElementCount>0);
 });
 
-test('actual callbacks show observed linked-profile status and complete directory progress, then preserve follow-up in a backup',async()=>{
+test('actual callbacks show verified profile links and complete directory progress, then preserve follow-up in a backup',async()=>{
   const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);
   el('research-query').value='时空数据库, Spatiotemporal';await el('profile-form').emit('input');
   await el('show-faculty').emit('click');
-  assert.match(el('results').textContent,/Xiaofang/);assert.match(el('results').textContent,/继续看个人主页/);
+  assert.match(el('results').textContent,/Xiaofang/);assert.match(el('results').textContent,/个人网站与课题组/);
   const personal=h.walk(el('results')).find(x=>x.tagName==='a'&&x.href==='https://sites.google.com/view/xiaofang-zhou');assert.ok(personal);
-  assert.match(el('results').textContent,/个人网站、课题组和研究档案/);assert.match(el('results').textContent,/已读到正文/);
+  assert.match(personal.textContent,/个人主页/);assert.match(el('results').textContent,/校方研究档案/);
   await h.button('results','加入跟进待办').emit('click');await el('export-local').emit('click');
   const backup=L.parsePortable(await h.downloads[0].blob.text(),C);assert.ok(backup.tasks.some(x=>x.facultyId==='census-hkust-zxf'));
   await el('show-directories').emit('click');
@@ -911,11 +911,11 @@ test('teacher PhD statements stay separate from the selected MPhil and remain sc
   const h=harness(),el=id=>h.byId.get(id);h.select('hku','MPhil',[]);el('research-query').value='Medical Image Processing';
   await el('profile-form').emit('input',{target:el('research-query')});
   const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Liangqiong Qu'));assert.ok(card);
-  assert.match(card.textContent,/2027春季和秋季/);assert.match(card.textContent,/没有覆盖当前选择的MPhil/);
+  assert.match(card.textContent,/2027春季和秋季/);assert.match(card.textContent,/本条适用于 PhD/);
   await h.walk(card).find(n=>n.tagName==='button'&&n.textContent.includes('放入我的清单')).emit('click');
   await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='加入跟进待办').emit('click');
   await el('profile-form').emit('submit');await el('export-local').emit('click');const raw=await h.downloads[0].blob.text();
-  const restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/没有覆盖当前选择的MPhil/);assert.match(restored.byId.get('tasks').textContent,/MPhil.*Liangqiong Qu/);assert.equal(h.networkCalls(),0);
+  const restored=harness([['yanxiang-local-v1',raw]]);assert.match(restored.byId.get('saved-faculty').textContent,/本条适用于 PhD/);assert.match(restored.byId.get('tasks').textContent,/MPhil.*Liangqiong Qu/);assert.equal(h.networkCalls(),0);
 });
 
 test('no fully funded position is not rendered as no admissions and does not inject personal GPA preferences',async()=>{
