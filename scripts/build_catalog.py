@@ -351,8 +351,8 @@ def build_catalog():
     programme.setdefault("finances", []).extend(update["finances"])
     programme["evidenceNote"] = update["evidenceNote"]
     programme["contact"]["sourceIds"].append(update["applicationSourceId"])
-    for deadline in programme["deadlines"]:
-        deadline["sourceIds"].append(update["applicationSourceId"])
+    for entry_deadline in programme["deadlines"]:
+        entry_deadline["sourceIds"].append(update["applicationSourceId"])
     gz = load("hkustgz-function-census-20261027.json")
     catalog["sources"].extend(gz["sources"])
     catalog["faculty"].extend(gz["faculty"])
@@ -775,6 +775,44 @@ def build_catalog():
         original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
     for update in sse_continuation["leadUpdates"]:
         lead_by_url[update["url"]].update(update)
+    ieda = load("hkust-ieda-20261109.json")
+    catalog["sources"].extend(ieda["sources"])
+    catalog["faculty"].extend(ieda["faculty"])
+    catalog["directories"].extend(ieda["directories"])
+    for update in ieda["facultyUpdates"]:
+        original = faculty_by_id[update["id"]]
+        assert original["universityId"] == "hkust"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+
+    ieda_source = ["hkust-ieda-20261109-programme"]
+    ieda_programme = program(
+        "hkust-ieda-rpg", "hkust", "工业工程及决策分析研究学位", ["MPhil", "PhD"],
+        "港科大香港校区，设全日制及兼读。2027 年 9 月秋季和 2 月春季分列。",
+        "unknown", "可先在学系目录了解老师的研究方向。", ieda_source,
+        "官网列明滚动审理。", ieda_source,
+        [deadline("秋季非本地申请截止", "2027-06-01", ieda_source),
+         deadline("秋季本地申请截止", "2027-07-15", ieda_source),
+         deadline("春季非本地申请截止", "2026-11-01", ieda_source, route="春季申请", cycle="2026/27 Spring"),
+         deadline("春季本地申请截止", "2026-12-15", ieda_source, route="春季申请", cycle="2026/27 Spring")],
+        ieda_source, "2027/28 项目页也列上一学年春季（2027 年 2 月入学）；春秋截止日期分别适用。")
+    ieda_programme.update(
+        entryUrl="https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ieda",
+        researchKeywords=["工业工程", "决策分析", "运筹学", "Industrial Engineering", "Decision Analytics", "IEDA", "Operations Research"],
+        requirements=[
+            {"label": "MPhil 学历要求", "text": "认可院校的学士学位，或认可的同等学历。", "degrees": ["MPhil"], "sourceIds": ieda_source},
+            {"label": "PhD 学历要求", "text": "认可院校的学士学位且表现优异，或有至少一年全日制或两年兼读的合格研究生阶段学习经历。", "degrees": ["PhD"], "sourceIds": ieda_source},
+            {"label": "英语要求", "text": "雅思学术类总分至少 6.5，单项至少 5.5。TOEFL iBT 在 2026 年 1 月 21 日前考试为至少 80 分，当天起为至少 4.5 分。须单次达标，不接受居家考试。第一语言为英语，或学士及同等学历的授课语言为英语，可免交上述成绩。", "sourceIds": ieda_source},
+        ],
+        finances=[{"id": "hkust-ieda-application-fee", "kind": "application_fee", "label": "申请费",
+                   "text": "每份申请 180 港元。", "action": "提交网上申请时查看缴费步骤。", "sourceIds": ieda_source,
+                   "rates": [{"value": 180, "currency": "HKD", "unit": "application", "basis": "academic_year",
+                              "cycle": "2027/28", "condition": "项目页所列申请费"}]}],
+    )
+    catalog["programs"].append(ieda_programme)
     return catalog
 
 
