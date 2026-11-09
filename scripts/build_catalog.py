@@ -524,7 +524,7 @@ def build_catalog():
         unit["childInventoryReview"].update(status="observed_parent_list_matched", observedChildren=len(reviewed["children"]), facultyComplete=False)
         unit["relatedTeachingEntries"] = reviewed["relatedEntries"]
     deferred_organization_sources = []
-    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json", "science-interdisciplinary-scopes-20261105.json", "college-links-programmes-20261105.json"):
+    for organization_path in ("organization-scope-20261029.json", "stem-college-structure-20261029.json", "college-batch-hierarchy-20261029.json", "scope-clarifications-20261102.json", "college-deep-scope-20261102.json", "college-models-20261104.json", "law-business-organization-20261105.json", "science-interdisciplinary-scopes-20261105.json", "college-links-programmes-20261105.json", "cuhksz-med-organization-routes-20261109.json"):
         organization = load(organization_path)
         if organization.get("appendSourcesAfterExisting"):
             deferred_organization_sources.extend(organization["sources"])
@@ -638,6 +638,7 @@ def build_catalog():
     sse_routes = load("cuhksz-sse-research-routes-20261106.json")
     catalog["sources"].extend(sse_routes["sources"])
     catalog["programs"].extend(sse_routes["programmes"])
+    catalog["programs"].extend(load("cuhksz-med-organization-routes-20261109.json")["programmes"])
     polyu_me = load("polyu-me-census-20261107.json")
     catalog["sources"].extend(polyu_me["sources"])
     catalog["faculty"].extend(polyu_me["faculty"])

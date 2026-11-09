@@ -1,25 +1,25 @@
 {
   "version": "0.1.0a33",
-  "stage": "post_alpha33_hkust_civl",
+  "stage": "post_alpha33_cuhksz_medicine",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-09",
   "working_name": "研向",
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 60,
-    "degree_routes": 102,
+    "programme_or_route_cards": 65,
+    "degree_routes": 114,
     "faculty": 1792,
-    "official_sources": 2791,
-    "programmes_with_partial_requirements": 58,
-    "requirement_items": 215,
-    "programmes_with_partial_finances": 33,
-    "finance_items": 54,
+    "official_sources": 2802,
+    "programmes_with_partial_requirements": 63,
+    "requirement_items": 231,
+    "programmes_with_partial_finances": 38,
+    "finance_items": 64,
     "official_directory_entries": 101,
     "teacher_linked_sources": 702,
-    "total_sources": 3493,
+    "total_sources": 3504,
     "academic_unit_rows": 66,
-    "listed_child_units": 230,
+    "listed_child_units": 233,
     "reviewed_new_profiles": 165,
     "reviewed_existing_updates": 5,
     "profile_bodies_read": 1581,
@@ -208,7 +208,10 @@
     "hkust_civl_new": 46,
     "hkust_civl_existing_updates": 5,
     "hkust_civl_links_read": 122,
-    "hkust_civl_links_pending": 14
+    "hkust_civl_links_pending": 14,
+    "cuhksz_med_roster_entries": 139,
+    "cuhksz_med_profile_headings_matched": 139,
+    "cuhksz_med_faculty_records_added": 0
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -297,7 +300,7 @@
     "实际浏览器操作是开发者走查，不能当独立真人反馈或录取收益。",
     "功能枢纽目录公开接口的分页标志矛盾，103条只代表本次返回范围；7份无研究栏目继续待核。"
   ],
-  "next": "继续核齐七校学院及下属院系：优先理工缺口，明确直属/关联和实际给出的入口，之后再按院完成教师名录。",
+  "next": "港中深医学院逐人研究语义、导师身份与个人链接继续核对。七校按院系与师资顺序补缺。",
   "count_scope_notes": "observed_profile_links、profile_bodies_read及pending_research_review只统计学院图已列原主页线索；不是全校人口，也不含全部未链接卡片。各校具名计数保留各批范围。",
   "latest_coverage_batch": {
     "unit": "PolyU Civil and Environmental Engineering",
@@ -445,8 +448,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:aa2f11aff42e7a4c426b7112f35266c0c95752caa59aaa67d742665b2f51c0b2",
-  "latest_data_batch": "data/research/cuhksz-sse-continuation-20261109.json",
+  "current_catalogue_snapshot": "sha256:abecda556b8a025d76ede00bf197632d09bc592ff7f84deee5db9c8c5d32b9f0",
+  "latest_data_batch": "data/research/cuhksz-med-organization-routes-20261109.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",
