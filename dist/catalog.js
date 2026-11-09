@@ -7324,6 +7324,85 @@ window.APP_CATALOG = {
           ]
         }
       ]
+    },
+    {
+      "id": "hku-math-rpg",
+      "universityId": "hku",
+      "name": "数学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港大学理学院数学系。可从数论、几何、概率、优化与科学计算等方向了解课题。",
+      "contact": {
+        "status": "recommended",
+        "text": "理学院建议先联系意向导师，讨论研究计划。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      },
+      "selection": {
+        "text": "在港大研究院申请系统选择数学系，按理学院清单准备材料。",
+        "sourceIds": [
+          "hku-math-20261109-graduate-areas",
+          "hku-math-20261109-science-apply"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "校级主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第一轮补录截止（视余位）：2027-04-30 23:59（UTC+8）",
+          "date": "2027-04-30",
+          "at": "2027-04-30T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第二轮补录截止（视余位）：2027-08-31 23:59（UTC+8）",
+          "date": "2027-08-31",
+          "at": "2027-08-31T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hku-math-20261109-graduate-areas",
+        "hku-math-20261109-science-apply",
+        "hku-math-20261109-science-faq",
+        "HKU-CENTRAL-PERIOD"
+      ],
+      "evidenceNote": "日期来自研究院 2027/28 校级安排。系网站所列 2023/24 日期已过。",
+      "entryUrl": "https://www.scifac.hku.hk/rpg/apply",
+      "requirements": [
+        {
+          "label": "申请材料",
+          "text": "准备成绩单、学历证明、研究兴趣陈述或研究计划，以及校方要求的推荐材料。",
+          "action": "查看理学院材料清单，再与意向导师讨论研究计划。",
+          "sourceIds": [
+            "hku-math-20261109-science-apply",
+            "hku-math-20261109-science-faq"
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -33889,15 +33968,21 @@ window.APP_CATALOG = {
       "name": "Yang Wang",
       "department": "港大师资名录所列任职；具体研究单位看原页",
       "profileUrl": "https://www.presidentsoffice.hku.hk/leadership/professor-yang-wang",
-      "reviewedProfileUrl": "https://www.presidentsoffice.hku.hk/leadership/professor-yang-wang",
+      "reviewedProfileUrl": "https://www.scifac.hku.hk/people/wang-yang",
       "directoryRole": "Chair Professor",
       "identityNote": "这是名录所列身份；是否能指导你所选的研究学位、目前是否接收，仍要分别核对。",
       "researchKeywords": [
         "pure mathematics",
-        "interdisciplinary applications"
+        "interdisciplinary applications",
+        "应用调和分析",
+        "机器学习",
+        "平铺",
+        "分形几何",
+        "区块链"
       ],
       "keywordSourceIds": [
-        "hku-cds-profile-063-20261027"
+        "hku-cds-profile-063-20261027",
+        "hku-math-20261109-profile-wang-yang"
       ],
       "topics": [
         "理论与优化",
@@ -33906,13 +33991,17 @@ window.APP_CATALOG = {
       "summary": "研究纯数学及其跨学科应用；校内管理职务不等于某个项目的接收承诺。",
       "sourceIds": [
         "hku-cds-directory-observed-20261026",
-        "hku-cds-profile-063-20261027"
+        "hku-cds-profile-063-20261027",
+        "hku-math-20261109-profile-wang-yang",
+        "hku-math-20261109-science-directory"
       ],
       "directorySourceIds": [
-        "hku-cds-directory-observed-20261026"
+        "hku-cds-directory-observed-20261026",
+        "hku-math-20261109-science-directory"
       ],
       "academicUnitIds": [
-        "hku-6"
+        "hku-6",
+        "hku-9"
       ],
       "extraLinks": [],
       "availability": {
@@ -101583,6 +101672,1178 @@ window.APP_CATALOG = {
         "sourceIds": [
           "cuhksz-med-20261109-epi",
           "cuhksz-med-20261109-clinical"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-bao-zhigang",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-bao-zhigang"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "概率论",
+        "统计物理",
+        "高维统计"
+      ],
+      "extraLinks": [],
+      "id": "hku-math-20261109-bao-zhigang",
+      "name": "Professor BAO, Zhigang 鮑志剛",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/bao-zhigang",
+      "directoryRole": "Associate Professor",
+      "summary": "研究概率论、统计物理、高维统计。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-chan-kei-yuen",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-chan-kei-yuen"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "分支律",
+        "Gan–Gross–Prasad 问题",
+        "一般线性群",
+        "仿射 Hecke 代数"
+      ],
+      "extraLinks": [],
+      "id": "hku-math-20261109-chan-kei-yuen",
+      "name": "Professor CHAN, Kei Yuen 陳佳源",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/chan-kei-yuen",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究分支律、Gan–Gross–Prasad 问题、一般线性群、仿射 Hecke 代数。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-ching-wai-ki",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-ching-wai-ki"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "数学建模",
+        "布尔网络",
+        "金融风险和医疗服务系统"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.wkc",
+          "parentSourceId": "hku-math-20261109-profile-ching-wai-ki",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-ching-wai-ki",
+      "name": "Professor CHING, Wai Ki 程瑋琪",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/ching-wai-ki",
+      "directoryRole": "Professor",
+      "summary": "研究数学建模、布尔网络、金融风险和医疗服务系统。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-han-guangyue",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-han-guangyue"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "编码理论",
+        "信息论"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.ghan",
+          "parentSourceId": "hku-math-20261109-profile-han-guangyue",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-han-guangyue",
+      "name": "Professor HAN, Guangyue 韓光躍",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/han-guangyue",
+      "directoryRole": "Interim Head and Professor",
+      "summary": "研究编码理论、信息论。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-he-xuhua",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-he-xuhua"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "算术几何",
+        "代数群",
+        "表示论"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.xuhuahe",
+          "parentSourceId": "hku-math-20261109-profile-he-xuhua",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-he-xuhua",
+      "name": "Professor HE, Xuhua 何旭華",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/he-xuhua",
+      "directoryRole": "Professor, Chair of Mathematics",
+      "summary": "研究算术几何、代数群、表示论。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-hua-zheng",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-hua-zheng"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "代数几何",
+        "导出范畴",
+        "环面簇",
+        "Calabi–Yau 流形"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.huazheng",
+          "parentSourceId": "hku-math-20261109-profile-hua-zheng",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-hua-zheng",
+      "name": "Professor HUA, Zheng 華諍",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/hua-zheng",
+      "directoryRole": "Associate Professor",
+      "summary": "研究代数几何、导出范畴、环面簇、Calabi–Yau 流形。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-huang-kuang",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-huang-kuang"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "数学建模",
+        "科学计算",
+        "非局部模型",
+        "双曲守恒律与交通流"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.khmath",
+          "parentSourceId": "hku-math-20261109-profile-huang-kuang",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-huang-kuang",
+      "name": "Professor HUANG, Kuang 黃曠",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/huang-kuang",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究数学建模、科学计算、非局部模型、双曲守恒律与交通流。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-hui-chun-yin",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-hui-chun-yin"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "伽罗瓦表示",
+        "代数数论",
+        "算术几何"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.chhui",
+          "parentSourceId": "hku-math-20261109-profile-hui-chun-yin",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-hui-chun-yin",
+      "name": "Professor HUI, Chun Yin 許俊彥",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/hui-chun-yin",
+      "directoryRole": "Associate Professor",
+      "summary": "研究伽罗瓦表示、代数数论、算术几何。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-kane-benjamin-robert",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-kane-benjamin-robert"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "数论",
+        "组合数学",
+        "模形式与自守形式"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.bkane",
+          "parentSourceId": "hku-math-20261109-profile-kane-benjamin-robert",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-kane-benjamin-robert",
+      "name": "Professor KANE, Benjamin Robert 李温福",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/kane-benjamin-robert",
+      "directoryRole": "Associate Dean (Teaching & Learning) and Professor",
+      "summary": "研究数论、组合数学、模形式与自守形式。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-lau-yuk-kam",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-lau-yuk-kam"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "解析数论",
+        "黎曼 ζ 函数",
+        "Hecke 特征值与 L 函数"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.yklau",
+          "parentSourceId": "hku-math-20261109-profile-lau-yuk-kam",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-lau-yuk-kam",
+      "name": "Professor LAU, Yuk Kam 劉旭金",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/lau-yuk-kam",
+      "directoryRole": "Professor",
+      "summary": "研究解析数论、黎曼 ζ 函数、Hecke 特征值与 L 函数。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-lei-yunwen",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-lei-yunwen"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "机器学习",
+        "学习理论",
+        "随机优化"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.leiyw",
+          "parentSourceId": "hku-math-20261109-profile-lei-yunwen",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-lei-yunwen",
+      "name": "Professor LEI, Yunwen 雷雲文",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/lei-yunwen",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究机器学习、学习理论、随机优化。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-li-guanglian",
+        "hku-math-20261109-science-directory",
+        "hku-math-20261109-personal-supplied-15"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-li-guanglian"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "均匀化",
+        "多尺度有限元",
+        "模型降阶",
+        "高维数值方法"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.lotusli",
+          "parentSourceId": "hku-math-20261109-profile-li-guanglian",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        },
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://sites.google.com/site/lotusli0707/research?authuser=0",
+          "parentSourceId": "hku-math-20261109-profile-li-guanglian",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-math-20261109-personal-supplied-15"
+        }
+      ],
+      "id": "hku-math-20261109-li-guanglian",
+      "name": "Professor LI, Guanglian 李光蓮",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/li-guanglian",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究均匀化、多尺度有限元、模型降阶、高维数值方法。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-lu-jianghua",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-lu-jianghua"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "全正性",
+        "丛代数",
+        "泊松几何",
+        "李理论"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.jhlu",
+          "parentSourceId": "hku-math-20261109-profile-lu-jianghua",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-lu-jianghua",
+      "name": "Professor LU, Jiang-Hua 路江華",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/lu-jianghua",
+      "directoryRole": "Professor",
+      "summary": "研究全正性、丛代数、泊松几何、李理论。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-mok-ngaiming",
+        "hku-math-20261109-science-directory",
+        "hku-math-20261109-personal-supplied-18"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-mok-ngaiming"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "多复变函数",
+        "复微分几何",
+        "代数几何",
+        "函数超越理论"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.nmok",
+          "parentSourceId": "hku-math-20261109-profile-mok-ngaiming",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        },
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/~nmok/",
+          "parentSourceId": "hku-math-20261109-profile-mok-ngaiming",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-math-20261109-personal-supplied-18"
+        }
+      ],
+      "id": "hku-math-20261109-mok-ngaiming",
+      "name": "Professor MOK, Ngaiming 莫毅明",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/mok-ngaiming",
+      "directoryRole": "Edmund and Peggy Tse Professor in Mathematics & Professor: Chair of Mathematics",
+      "summary": "研究多复变函数、复微分几何、代数几何、函数超越理论。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-ng-tuen-wai",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-ng-tuen-wai"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "几何函数论",
+        "Nevanlinna 理论",
+        "复微分和函数方程"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.ntw",
+          "parentSourceId": "hku-math-20261109-profile-ng-tuen-wai",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-ng-tuen-wai",
+      "name": "Professor NG, Tuen Wai 吳端偉",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/ng-tuen-wai",
+      "directoryRole": "Professor",
+      "summary": "研究几何函数论、Nevanlinna 理论、复微分和函数方程。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-nolin-pierre",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-nolin-pierre"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "概率论",
+        "随机过程",
+        "统计力学"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.nolin",
+          "parentSourceId": "hku-math-20261109-profile-nolin-pierre",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-nolin-pierre",
+      "name": "Professor NOLIN, Pierre",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/nolin-pierre",
+      "directoryRole": "Professor",
+      "summary": "研究概率论、随机过程、统计力学。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-qian-wei",
+        "hku-math-20261109-science-directory",
+        "hku-math-20261109-personal-supplied-22"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-qian-wei"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "概率论",
+        "随机几何",
+        "数学物理",
+        "复分析"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://qian.perso.math.cnrs.fr/",
+          "parentSourceId": "hku-math-20261109-profile-qian-wei",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-math-20261109-personal-supplied-22"
+        }
+      ],
+      "id": "hku-math-20261109-qian-wei",
+      "name": "Professor QIAN, Wei 錢瑋",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/qian-wei",
+      "directoryRole": "Associate Professor",
+      "summary": "研究概率论、随机几何、数学物理、复分析。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-vu-van-ha",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-vu-van-ha"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "组合数学",
+        "概率论",
+        "随机矩阵",
+        "谱算法"
+      ],
+      "extraLinks": [],
+      "id": "hku-math-20261109-vu-van-ha",
+      "name": "Professor VU, Van Ha",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/vu-van-ha",
+      "directoryRole": "Professor, Chair of Mathematics",
+      "summary": "研究组合数学、概率论、随机矩阵、谱算法。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-wong-mo-dick",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-wong-mo-dick"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "概率论",
+        "数学物理",
+        "多重分形",
+        "概率数论"
+      ],
+      "extraLinks": [],
+      "id": "hku-math-20261109-wong-mo-dick",
+      "name": "Professor WONG, Mo Dick 王武迪",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/wong-mo-dick",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究概率论、数学物理、多重分形、概率数论。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-xie-yue",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-xie-yue"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "非凸与随机优化",
+        "算子分裂",
+        "计算最优传输",
+        "机器学习"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.yxie",
+          "parentSourceId": "hku-math-20261109-profile-xie-yue",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-xie-yue",
+      "name": "Dr. XIE, Yue 謝悅",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/xie-yue",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究非凸与随机优化、算子分裂、计算最优传输、机器学习。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-ye-jinhe",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-ye-jinhe"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "模型论",
+        "数理逻辑",
+        "代数几何",
+        "非阿基米德几何"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.jinheye",
+          "parentSourceId": "hku-math-20261109-profile-ye-jinhe",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-ye-jinhe",
+      "name": "Professor YE, Jinhe 叶謹赫",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/ye-jinhe",
+      "directoryRole": "Assistant Professor ",
+      "summary": "研究模型论、数理逻辑、代数几何、非阿基米德几何。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-yuan-xiaoming",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-yuan-xiaoming"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "凸优化",
+        "最优控制",
+        "科学机器学习",
+        "大规模一阶方法"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.xmyuan",
+          "parentSourceId": "hku-math-20261109-profile-yuan-xiaoming",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-yuan-xiaoming",
+      "name": "Professor YUAN, Xiaoming 袁曉明",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/yuan-xiaoming",
+      "directoryRole": "Professor",
+      "summary": "研究凸优化、最优控制、科学机器学习、大规模一阶方法。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-zang-wenan",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-zang-wenan"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "组合优化",
+        "整数规划",
+        "图论",
+        "匹配与算法设计"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.wzang",
+          "parentSourceId": "hku-math-20261109-profile-zang-wenan",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-zang-wenan",
+      "name": "Professor ZANG, Wenan 臧文安",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/zang-wenan",
+      "directoryRole": "Professor, Chair of Mathematics",
+      "summary": "研究组合优化、整数规划、图论、匹配与算法设计。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-zhang-xin",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-zhang-xin"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "数论",
+        "动力系统"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "https://hkumath.hku.hk/MathWWW/people.php?faculty.xzhang",
+          "parentSourceId": "hku-math-20261109-profile-zhang-xin",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-zhang-xin",
+      "name": "Professor ZHANG, Xin 張欣",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/zhang-xin",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究数论、动力系统。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "sourceIds": [
+        "hku-math-20261109-profile-zhang-zhiwen",
+        "hku-math-20261109-science-directory"
+      ],
+      "directorySourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "keywordSourceIds": [
+        "hku-math-20261109-profile-zhang-zhiwen"
+      ],
+      "academicUnitIds": [
+        "hku-9"
+      ],
+      "researchKeywords": [
+        "随机计算",
+        "不确定性量化",
+        "偏微分方程数值方法",
+        "多尺度均匀化"
+      ],
+      "extraLinks": [
+        {
+          "label": "所给个人或研究主页",
+          "url": "http://hkumath.hku.hk/MathWWW/people.php?faculty.zhangzw",
+          "parentSourceId": "hku-math-20261109-profile-zhang-zhiwen",
+          "bodyStatus": "not_read",
+          "readNote": "原链接发生重定向循环。"
+        }
+      ],
+      "id": "hku-math-20261109-zhang-zhiwen",
+      "name": "Professor ZHANG, Zhiwen 張智文",
+      "universityId": "hku",
+      "department": "数学系",
+      "profileUrl": "https://www.scifac.hku.hk/people/zhang-zhiwen",
+      "directoryRole": "Associate Head (Research) and Associate Professor",
+      "summary": "研究随机计算、不确定性量化、偏微分方程数值方法、多尺度均匀化。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
+        "sourceIds": [
+          "hku-math-20261109-science-apply"
         ]
       }
     }
@@ -211852,6 +213113,839 @@ window.APP_CATALOG = {
       "scope": "医学院个人档案所列任职和研究领域。",
       "knownIssues": [],
       "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-science-directory",
+      "url": "https://www.scifac.hku.hk/people/a-z/department-of-mathematics",
+      "title": "港大理学院 · 数学系教师目录",
+      "checkedAt": "2026-11-09",
+      "scope": "理学院索引列 38 张数学系教师卡，含教学、荣誉与科研任职。",
+      "claims": [
+        "理学院索引列 38 张数学系教师卡，含教学、荣誉与科研任职。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8162d44b31beba275d5f90d6cd2634b97bd69e0bb111393420e93fa5f06fee85",
+      "discoveredLinks": [
+        "https://www.scifac.hku.hk/people/bao-zhigang",
+        "https://www.scifac.hku.hk/people/bhat-vindya",
+        "https://www.scifac.hku.hk/people/chan-kei-yuen",
+        "https://www.scifac.hku.hk/people/chan-yat-ming",
+        "https://www.scifac.hku.hk/people/cheung-wing-sum",
+        "https://www.scifac.hku.hk/people/ching-tak-wing",
+        "https://www.scifac.hku.hk/people/ching-wai-ki",
+        "https://www.scifac.hku.hk/people/han-guangyue",
+        "https://www.scifac.hku.hk/people/he-xuhua",
+        "https://www.scifac.hku.hk/people/hua-zheng",
+        "https://www.scifac.hku.hk/people/huang-kuang",
+        "https://www.scifac.hku.hk/people/hui-chun-yin",
+        "https://www.scifac.hku.hk/people/kane-benjamin-robert",
+        "https://www.scifac.hku.hk/people/lai-lexiao",
+        "https://www.scifac.hku.hk/people/lau-yuk-kam",
+        "https://www.scifac.hku.hk/people/law-ka-ho",
+        "https://www.scifac.hku.hk/people/lei-yunwen",
+        "https://www.scifac.hku.hk/people/li-dong",
+        "https://www.scifac.hku.hk/people/li-guanglian",
+        "https://www.scifac.hku.hk/people/lu-jianghua",
+        "https://www.scifac.hku.hk/people/mok-ngaiming",
+        "https://www.scifac.hku.hk/people/ng-tuen-wai",
+        "https://www.scifac.hku.hk/people/ngo-bao-chau",
+        "https://www.scifac.hku.hk/people/nolin-pierre",
+        "https://www.scifac.hku.hk/people/qian-wei",
+        "https://www.scifac.hku.hk/people/atsushi-suzuki",
+        "https://www.scifac.hku.hk/people/tsang-chiu-yin",
+        "https://www.scifac.hku.hk/people/tsang-fai-lung",
+        "https://www.scifac.hku.hk/people/vu-van-ha",
+        "https://www.scifac.hku.hk/people/wang-yang",
+        "https://www.scifac.hku.hk/people/wong-mo-dick",
+        "https://www.scifac.hku.hk/people/xie-yue",
+        "https://www.scifac.hku.hk/people/ye-jinhe",
+        "https://www.scifac.hku.hk/people/yuan-xiaoming",
+        "https://www.scifac.hku.hk/people/zang-wenan",
+        "https://www.scifac.hku.hk/people/zhang-haiyu",
+        "https://www.scifac.hku.hk/people/zhang-xin",
+        "https://www.scifac.hku.hk/people/zhang-zhiwen"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-graduate-areas",
+      "url": "https://gradsch.hku.hk/prospective_students/research_areas",
+      "title": "港大 · 研究院的研究领域总表在理学院区列数学系",
+      "checkedAt": "2026-11-09",
+      "scope": "研究院的研究领域总表在理学院区列数学系。",
+      "claims": [
+        "研究院的研究领域总表在理学院区列数学系。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "3df40b6a320282bb632086da62139d7a6a2f85e929e7f6ba7e554cd80945faf1"
+    },
+    {
+      "id": "hku-math-20261109-science-apply",
+      "url": "https://www.scifac.hku.hk/rpg/apply",
+      "title": "港大 · 理学院申请准备",
+      "checkedAt": "2026-11-09",
+      "scope": "理学院申请准备，包括查看要求、联系意向导师、准备研究计划和推荐。",
+      "claims": [
+        "理学院申请准备，包括查看要求、联系意向导师、准备研究计划和推荐。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "173f6edf539cb356a898405dc099bf8d6c256cad0af52e60a3c80259f8383e53"
+    },
+    {
+      "id": "hku-math-20261109-science-faq",
+      "url": "https://www.scifac.hku.hk/rpg/faq",
+      "title": "港大 · 理学院的材料清单含研究兴趣陈述或研究计划、成绩单及学位证明",
+      "checkedAt": "2026-11-09",
+      "scope": "理学院的材料清单含研究兴趣陈述或研究计划、成绩单及学位证明。",
+      "claims": [
+        "理学院的材料清单含研究兴趣陈述或研究计划、成绩单及学位证明。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "9855561ec4636611197b47c744911531df3c6ebd6a92511dadba7c582a7e0246"
+    },
+    {
+      "id": "hku-math-20261109-old-application",
+      "url": "https://hkumath.hku.hk/web/prospective/p-pg-admission.php",
+      "title": "港大数学系 · 2023/24 申请页",
+      "checkedAt": "2026-11-09",
+      "scope": "系网页所列申请期为 2023/24。可了解以往流程，当期轮次见研究院。",
+      "claims": [
+        "系网页所列申请期为 2023/24。可了解以往流程，当期轮次见研究院。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d32e0a261252a79584a58660272dde4a994776bf54de0babdc63b9f2b0c96289"
+    },
+    {
+      "id": "hku-math-20261109-profile-bao-zhigang",
+      "url": "https://www.scifac.hku.hk/people/bao-zhigang",
+      "title": "Professor BAO, Zhigang 鮑志剛 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究概率论、统计物理、高维统计。",
+      "claims": [
+        "研究概率论、统计物理、高维统计。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "98ef48e6451786e5089fefb6c6ffdf2512b66ce068014a405a44f6bd62bcfd9c",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-bhat-vindya",
+      "url": "https://www.scifac.hku.hk/people/bhat-vindya",
+      "title": "Dr. BHAT, Vindya · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "ec3e2a9ca1a8056b3dfe9418dd7b879a18eb6be4e7a876016775f1b1274c1ae9",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-chan-kei-yuen",
+      "url": "https://www.scifac.hku.hk/people/chan-kei-yuen",
+      "title": "Professor CHAN, Kei Yuen 陳佳源 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究分支律、Gan–Gross–Prasad 问题、一般线性群、仿射 Hecke 代数。",
+      "claims": [
+        "研究分支律、Gan–Gross–Prasad 问题、一般线性群、仿射 Hecke 代数。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "ac1b668c594842157be1e767832f6651b7e0ecf65eb70ca051c3fa1d238cc8c9",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-chan-yat-ming",
+      "url": "https://www.scifac.hku.hk/people/chan-yat-ming",
+      "title": "Dr. CHAN, Yat Ming 陳一鳴 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "bdedfa6e8b9e4360e351afa7da954c093b8afa7ec45a5c47da27871e619f7c63",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-cheung-wing-sum",
+      "url": "https://www.scifac.hku.hk/people/cheung-wing-sum",
+      "title": "Professor CHEUNG, Wing Sum 張榮森 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "03ba27ebbe47b54391a72e09cd3470b707471b4510f0ced6e50417db607917fa",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.wscheung"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-ching-tak-wing",
+      "url": "https://www.scifac.hku.hk/people/ching-tak-wing",
+      "title": "Dr. CHING, Tak Wing 程德永 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0ca98dcccf16037c3f1c0cbdf02c4de5417a33890fa23da114da71cf89f5e0e6",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.lmtching"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-ching-wai-ki",
+      "url": "https://www.scifac.hku.hk/people/ching-wai-ki",
+      "title": "Professor CHING, Wai Ki 程瑋琪 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究数学建模、布尔网络、金融风险和医疗服务系统。",
+      "claims": [
+        "研究数学建模、布尔网络、金融风险和医疗服务系统。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5c71f8639ee0066a194f54db62a176d37751746a73d9b16ebc2ac3b3080752d8",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.wkc"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-han-guangyue",
+      "url": "https://www.scifac.hku.hk/people/han-guangyue",
+      "title": "Professor HAN, Guangyue 韓光躍 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究编码理论、信息论。",
+      "claims": [
+        "研究编码理论、信息论。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9c10e7ab2c82e5ff5d38e37b9027b4b920e87240388691f32356f60974ac17bf",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.ghan"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-he-xuhua",
+      "url": "https://www.scifac.hku.hk/people/he-xuhua",
+      "title": "Professor HE, Xuhua 何旭華 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究算术几何、代数群、表示论。",
+      "claims": [
+        "研究算术几何、代数群、表示论。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c61e4d9ae7799e474eee78568455e33885495481ca2f82c3f07739181e88bb3",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.xuhuahe"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-hua-zheng",
+      "url": "https://www.scifac.hku.hk/people/hua-zheng",
+      "title": "Professor HUA, Zheng 華諍 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究代数几何、导出范畴、环面簇、Calabi–Yau 流形。",
+      "claims": [
+        "研究代数几何、导出范畴、环面簇、Calabi–Yau 流形。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a6e67d733ea0573f5dc8098c356d764750eaa93629024d2ea076b5ae60c4837a",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.huazheng"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-huang-kuang",
+      "url": "https://www.scifac.hku.hk/people/huang-kuang",
+      "title": "Professor HUANG, Kuang 黃曠 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究数学建模、科学计算、非局部模型、双曲守恒律与交通流。",
+      "claims": [
+        "研究数学建模、科学计算、非局部模型、双曲守恒律与交通流。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "14b700a281d57f93556b480087cd061ba01aa67cb592acf321cae312904adc3a",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.khmath"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-hui-chun-yin",
+      "url": "https://www.scifac.hku.hk/people/hui-chun-yin",
+      "title": "Professor HUI, Chun Yin 許俊彥 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究伽罗瓦表示、代数数论、算术几何。",
+      "claims": [
+        "研究伽罗瓦表示、代数数论、算术几何。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dc877ff2dbe04c0eb50440cae3c38ed864d4846f5a0978c779f591b6c8c22c83",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.chhui"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-kane-benjamin-robert",
+      "url": "https://www.scifac.hku.hk/people/kane-benjamin-robert",
+      "title": "Professor KANE, Benjamin Robert 李温福 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究数论、组合数学、模形式与自守形式。",
+      "claims": [
+        "研究数论、组合数学、模形式与自守形式。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d5445368f864c375804cd56b0d3551513d0ab5b1d1876a739d7bd5a70da9dd00",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.bkane"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-lai-lexiao",
+      "url": "https://www.scifac.hku.hk/people/lai-lexiao",
+      "title": "Professor LAI, Lexiao 賴樂瀟 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c8895717e73c9bc15e5ec710e4f37088f82c847d6b90553bc9e946878ca6a12e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-lau-yuk-kam",
+      "url": "https://www.scifac.hku.hk/people/lau-yuk-kam",
+      "title": "Professor LAU, Yuk Kam 劉旭金 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究解析数论、黎曼 ζ 函数、Hecke 特征值与 L 函数。",
+      "claims": [
+        "研究解析数论、黎曼 ζ 函数、Hecke 特征值与 L 函数。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "97a1ea0073d11626a4c2b49937a0c12f7f80c2b2e751db1ba83bf3b9cfcc6d33",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.yklau"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-law-ka-ho",
+      "url": "https://www.scifac.hku.hk/people/law-ka-ho",
+      "title": "Professor LAW, Ka Ho 羅家豪 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "16755216f874d0d7dea34f28cf956965e9b91876985478fdd9665730eb0dd16a",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.lawkaho"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-lei-yunwen",
+      "url": "https://www.scifac.hku.hk/people/lei-yunwen",
+      "title": "Professor LEI, Yunwen 雷雲文 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究机器学习、学习理论、随机优化。",
+      "claims": [
+        "研究机器学习、学习理论、随机优化。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "12448eb20eba58ef6c48024e5dfadda51734c129809d1b16f3bbcc71e876c06e",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.leiyw"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-li-dong",
+      "url": "https://www.scifac.hku.hk/people/li-dong",
+      "title": "Professor LI, Dong 李棟 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a5535ef554b449c780a217510646e7fbcd54a1bf024221260da102ef9a2fa56e",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.dl"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-li-guanglian",
+      "url": "https://www.scifac.hku.hk/people/li-guanglian",
+      "title": "Professor LI, Guanglian 李光蓮 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究均匀化、多尺度有限元、模型降阶、高维数值方法。",
+      "claims": [
+        "研究均匀化、多尺度有限元、模型降阶、高维数值方法。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1df8e7e3b1bdd23a74be8b1069cddd153e3717f649142fee93cc2b0c08fa2d65",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.lotusli",
+        "https://sites.google.com/site/lotusli0707/research?authuser=0"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-personal-supplied-15",
+      "url": "https://sites.google.com/site/lotusli0707/research?authuser=0",
+      "title": "Professor LI, Guanglian 李光蓮 · 所给研究主页",
+      "checkedAt": "2026-11-09",
+      "scope": "个人研究页列多尺度有限元、均匀化与高维数值计算。",
+      "claims": [
+        "个人研究页列多尺度有限元、均匀化与高维数值计算。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "11456b07f83bcd1206159d58c9db07670437eb60accd62084272f9d73d4049bf",
+      "originalUrl": "https://sites.google.com/site/lotusli0707/research?authuser=0",
+      "retrievedUrl": "https://sites.google.com/site/lotusli0707/research?authuser=0",
+      "parentSourceId": "hku-math-20261109-profile-li-guanglian"
+    },
+    {
+      "id": "hku-math-20261109-profile-lu-jianghua",
+      "url": "https://www.scifac.hku.hk/people/lu-jianghua",
+      "title": "Professor LU, Jiang-Hua 路江華 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究全正性、丛代数、泊松几何、李理论。",
+      "claims": [
+        "研究全正性、丛代数、泊松几何、李理论。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bd1a238afae5fd50de9147be2356655e120752d3aa53a41c4e7e846374f7e9a4",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.jhlu"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-mok-ngaiming",
+      "url": "https://www.scifac.hku.hk/people/mok-ngaiming",
+      "title": "Professor MOK, Ngaiming 莫毅明 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究多复变函数、复微分几何、代数几何、函数超越理论。",
+      "claims": [
+        "研究多复变函数、复微分几何、代数几何、函数超越理论。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f4f669fb1a5ca5ec50bad5c1b3ddf089e26e8bd4c408a6fc487cce4227246750",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.nmok",
+        "http://hkumath.hku.hk/~nmok/"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-personal-supplied-18",
+      "url": "https://hkumath.hku.hk/~nmok/",
+      "title": "Professor MOK, Ngaiming 莫毅明 · 所给研究主页",
+      "checkedAt": "2026-11-09",
+      "scope": "个人主页列多复变、复微分几何和代数几何。",
+      "claims": [
+        "个人主页列多复变、复微分几何和代数几何。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1473f1322735dc0acb66e749bf5a6e4132fa0b3846b952b416528af27f982189",
+      "originalUrl": "http://hkumath.hku.hk/~nmok/",
+      "retrievedUrl": "https://hkumath.hku.hk/~nmok/",
+      "parentSourceId": "hku-math-20261109-profile-mok-ngaiming"
+    },
+    {
+      "id": "hku-math-20261109-profile-ng-tuen-wai",
+      "url": "https://www.scifac.hku.hk/people/ng-tuen-wai",
+      "title": "Professor NG, Tuen Wai 吳端偉 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究几何函数论、Nevanlinna 理论、复微分和函数方程。",
+      "claims": [
+        "研究几何函数论、Nevanlinna 理论、复微分和函数方程。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "23b7e225d0c4757a60834d435bd034d97f577bd7b9c4d8790e779d74cc8ad4b1",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.ntw"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-ngo-bao-chau",
+      "url": "https://www.scifac.hku.hk/people/ngo-bao-chau",
+      "title": "Professor NGO, Bao Chau · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e8ed982a8f1fba7537f67acb46afe7375cc47c83e6ace3d1353d1f3509f0f98f",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.bcngo"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-nolin-pierre",
+      "url": "https://www.scifac.hku.hk/people/nolin-pierre",
+      "title": "Professor NOLIN, Pierre · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究概率论、随机过程、统计力学。",
+      "claims": [
+        "研究概率论、随机过程、统计力学。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd942a8fa7d72cf55747d1a2c899a4bc501e9f1f3572cac837d65a3f99713c05",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.nolin"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-qian-wei",
+      "url": "https://www.scifac.hku.hk/people/qian-wei",
+      "title": "Professor QIAN, Wei 錢瑋 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究概率论、随机几何、数学物理、复分析。",
+      "claims": [
+        "研究概率论、随机几何、数学物理、复分析。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "63d9802a91d79ed9f0976d6814c187cbdb8307a64c0a17c54de80939166fac6b",
+      "discoveredLinks": [
+        "https://qian.perso.math.cnrs.fr/"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-personal-supplied-22",
+      "url": "https://qian.perso.math.cnrs.fr/",
+      "title": "Professor QIAN, Wei 錢瑋 · 所给研究主页",
+      "checkedAt": "2026-11-09",
+      "scope": "个人主页列概率与数学物理研究，重点为随机二维几何。",
+      "claims": [
+        "个人主页列概率与数学物理研究，重点为随机二维几何。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "92a3d9be269e643a6ab1ce92a8edbe08bfa1baddebef2c8a8e35f92c8a3cedc0",
+      "originalUrl": "https://qian.perso.math.cnrs.fr/",
+      "retrievedUrl": "https://qian.perso.math.cnrs.fr/",
+      "parentSourceId": "hku-math-20261109-profile-qian-wei"
+    },
+    {
+      "id": "hku-math-20261109-profile-atsushi-suzuki",
+      "url": "https://www.scifac.hku.hk/people/atsushi-suzuki",
+      "title": "Professor SUZUKI, Atsushi 鈴木惇 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "12155d23ef424a89057f43dc872fd494bda1b6c78353cdf37f94e7b313c8d32f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-tsang-chiu-yin",
+      "url": "https://www.scifac.hku.hk/people/tsang-chiu-yin",
+      "title": "Dr. TSANG, Chiu Yin 曾超賢 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f8d5c431e9df50f50ca74ba3747911adfbbf67617527d6a3cb841427ba2c0b97",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.cytsang"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-tsang-fai-lung",
+      "url": "https://www.scifac.hku.hk/people/tsang-fai-lung",
+      "title": "Dr. TSANG, Fai Lung 曾飛龍 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "79318ba2de5402099934421f27c4d85c30fbf2d58bbb15a14e0fa482a01ca1d6",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.flt"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-vu-van-ha",
+      "url": "https://www.scifac.hku.hk/people/vu-van-ha",
+      "title": "Professor VU, Van Ha · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究组合数学、概率论、随机矩阵、谱算法。",
+      "claims": [
+        "研究组合数学、概率论、随机矩阵、谱算法。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3cd06abf870f6fae77c5b796c85a86b800b10a4ac80a5f94d683932a8614f4d3",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-wang-yang",
+      "url": "https://www.scifac.hku.hk/people/wang-yang",
+      "title": "Professor WANG, Yang 汪揚 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究应用调和分析、机器学习、平铺、分形几何、区块链。",
+      "claims": [
+        "研究应用调和分析、机器学习、平铺、分形几何、区块链。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "641ed8ec1a8a209591de7b67e37b725892de87dcb8dd334380ba616746ccf17a",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-wong-mo-dick",
+      "url": "https://www.scifac.hku.hk/people/wong-mo-dick",
+      "title": "Professor WONG, Mo Dick 王武迪 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究概率论、数学物理、多重分形、概率数论。",
+      "claims": [
+        "研究概率论、数学物理、多重分形、概率数论。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c0d2f325be45177f979968448a2e2acdcf356ef2c76ced0887b64f4bb0b6a75e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-math-20261109-profile-xie-yue",
+      "url": "https://www.scifac.hku.hk/people/xie-yue",
+      "title": "Dr. XIE, Yue 謝悅 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究非凸与随机优化、算子分裂、计算最优传输、机器学习。",
+      "claims": [
+        "研究非凸与随机优化、算子分裂、计算最优传输、机器学习。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e1791b4df934e5460c5493097693b8aec89740c25ada191b4dd3720c04684fc2",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.yxie"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-ye-jinhe",
+      "url": "https://www.scifac.hku.hk/people/ye-jinhe",
+      "title": "Professor YE, Jinhe 叶謹赫 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究模型论、数理逻辑、代数几何、非阿基米德几何。",
+      "claims": [
+        "研究模型论、数理逻辑、代数几何、非阿基米德几何。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d239155eb8154d98d844f575367d22f436bc7ccc6fd9384321ab8310e2f116c7",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.jinheye"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-yuan-xiaoming",
+      "url": "https://www.scifac.hku.hk/people/yuan-xiaoming",
+      "title": "Professor YUAN, Xiaoming 袁曉明 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究凸优化、最优控制、科学机器学习、大规模一阶方法。",
+      "claims": [
+        "研究凸优化、最优控制、科学机器学习、大规模一阶方法。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8275c7b4998e26b9a12655a06bbe5262bf0fcd60870d087616407f2804aae971",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.xmyuan"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-zang-wenan",
+      "url": "https://www.scifac.hku.hk/people/zang-wenan",
+      "title": "Professor ZANG, Wenan 臧文安 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究组合优化、整数规划、图论、匹配与算法设计。",
+      "claims": [
+        "研究组合优化、整数规划、图论、匹配与算法设计。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "453970f91ad050dfb2e4493bbf728543b199e02be644a8b317f5b9dce75c6965",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.wzang"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-zhang-haiyu",
+      "url": "https://www.scifac.hku.hk/people/zhang-haiyu",
+      "title": "Dr. ZHANG, Haiyu 張海愉 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "个人页的任职已核对。",
+      "claims": [
+        "个人页的任职已核对。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1ad54c4d2560872d88b88d666816710c8622e8fb338661170259e5b899b4920d",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.hyzhang"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-zhang-xin",
+      "url": "https://www.scifac.hku.hk/people/zhang-xin",
+      "title": "Professor ZHANG, Xin 張欣 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究数论、动力系统。",
+      "claims": [
+        "研究数论、动力系统。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "52f32f664a0186439714478075b970bd293a653eee3fb39e9084e53520143e38",
+      "discoveredLinks": [
+        "https://hkumath.hku.hk/MathWWW/people.php?faculty.xzhang"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-profile-zhang-zhiwen",
+      "url": "https://www.scifac.hku.hk/people/zhang-zhiwen",
+      "title": "Professor ZHANG, Zhiwen 張智文 · 理学院档案",
+      "checkedAt": "2026-11-09",
+      "scope": "研究随机计算、不确定性量化、偏微分方程数值方法、多尺度均匀化。",
+      "claims": [
+        "研究随机计算、不确定性量化、偏微分方程数值方法、多尺度均匀化。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ab197eb9dd434934cb291824922326a3fbe59279e8af2b21d6f7a35b979b2201",
+      "discoveredLinks": [
+        "http://hkumath.hku.hk/MathWWW/people.php?faculty.zhangzw"
+      ]
+    },
+    {
+      "id": "hku-math-20261109-retired",
+      "url": "https://hkumath.hku.hk/MathWWW/people.php?rfaculty",
+      "title": "港大数学系 · 荣休与退休",
+      "checkedAt": "2026-11-09",
+      "scope": "学系名录列 19 张荣休与退休任职卡，并列原期限。",
+      "claims": [
+        "学系名录列 19 张荣休与退休任职卡，并列原期限。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cf66c4532717c3e787083682937b6fb672e081020269e0cc021c4cb0a63b3809"
+    },
+    {
+      "id": "hku-math-20261109-visiting",
+      "url": "https://hkumath.hku.hk/MathWWW/people.php?vhprofessor",
+      "title": "港大数学系 · 访问与荣誉",
+      "checkedAt": "2026-11-09",
+      "scope": "学系名录列 20 张访问与荣誉任职卡，并列原期限。",
+      "claims": [
+        "学系名录列 20 张访问与荣誉任职卡，并列原期限。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9403fbe9ac1b4e4835d4cec1840eebd323dfd22aeb6d387bee7dd6e0ff36636b"
     }
   ],
   "funding": [
@@ -233192,6 +235286,709 @@ window.APP_CATALOG = {
         ],
         "observedTotal": 139,
         "profilesRead": 139,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-math-20261109-faculty",
+      "universityId": "hku",
+      "unit": "数学系 · 理学院教师目录",
+      "url": "https://www.scifac.hku.hk/people/a-z/department-of-mathematics",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hku-math-20261109-science-directory"
+      ],
+      "reviewSourceIds": [
+        "hku-math-20261109-profile-bao-zhigang",
+        "hku-math-20261109-profile-bhat-vindya",
+        "hku-math-20261109-profile-chan-kei-yuen",
+        "hku-math-20261109-profile-chan-yat-ming",
+        "hku-math-20261109-profile-cheung-wing-sum",
+        "hku-math-20261109-profile-ching-tak-wing",
+        "hku-math-20261109-profile-ching-wai-ki",
+        "hku-math-20261109-profile-han-guangyue",
+        "hku-math-20261109-profile-he-xuhua",
+        "hku-math-20261109-profile-hua-zheng",
+        "hku-math-20261109-profile-huang-kuang",
+        "hku-math-20261109-profile-hui-chun-yin",
+        "hku-math-20261109-profile-kane-benjamin-robert",
+        "hku-math-20261109-profile-lai-lexiao",
+        "hku-math-20261109-profile-lau-yuk-kam",
+        "hku-math-20261109-profile-law-ka-ho",
+        "hku-math-20261109-profile-lei-yunwen",
+        "hku-math-20261109-profile-li-dong",
+        "hku-math-20261109-profile-li-guanglian",
+        "hku-math-20261109-profile-lu-jianghua",
+        "hku-math-20261109-profile-mok-ngaiming",
+        "hku-math-20261109-profile-ng-tuen-wai",
+        "hku-math-20261109-profile-ngo-bao-chau",
+        "hku-math-20261109-profile-nolin-pierre",
+        "hku-math-20261109-profile-qian-wei",
+        "hku-math-20261109-profile-atsushi-suzuki",
+        "hku-math-20261109-profile-tsang-chiu-yin",
+        "hku-math-20261109-profile-tsang-fai-lung",
+        "hku-math-20261109-profile-vu-van-ha",
+        "hku-math-20261109-profile-wang-yang",
+        "hku-math-20261109-profile-wong-mo-dick",
+        "hku-math-20261109-profile-xie-yue",
+        "hku-math-20261109-profile-ye-jinhe",
+        "hku-math-20261109-profile-yuan-xiaoming",
+        "hku-math-20261109-profile-zang-wenan",
+        "hku-math-20261109-profile-zhang-haiyu",
+        "hku-math-20261109-profile-zhang-xin",
+        "hku-math-20261109-profile-zhang-zhiwen"
+      ],
+      "coverageNotes": "收录理学院公开索引所列的数学系任职。学系嵌入名录仍有读取缺口。",
+      "census": {
+        "entries": [
+          {
+            "name": "Professor BAO, Zhigang 鮑志剛",
+            "profileUrl": "https://www.scifac.hku.hk/people/bao-zhigang",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究概率论、统计物理、高维统计。",
+            "facultyId": "hku-math-20261109-bao-zhigang"
+          },
+          {
+            "name": "Dr. BHAT, Vindya",
+            "profileUrl": "https://www.scifac.hku.hk/people/bhat-vindya",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor CHAN, Kei Yuen 陳佳源",
+            "profileUrl": "https://www.scifac.hku.hk/people/chan-kei-yuen",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究分支律、Gan–Gross–Prasad 问题、一般线性群、仿射 Hecke 代数。",
+            "facultyId": "hku-math-20261109-chan-kei-yuen"
+          },
+          {
+            "name": "Dr. CHAN, Yat Ming 陳一鳴",
+            "profileUrl": "https://www.scifac.hku.hk/people/chan-yat-ming",
+            "directoryPosition": "Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor CHEUNG, Wing Sum 張榮森",
+            "profileUrl": "https://www.scifac.hku.hk/people/cheung-wing-sum",
+            "directoryPosition": "Director of Undergraduate Admissions and Honorary Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Dr. CHING, Tak Wing 程德永",
+            "profileUrl": "https://www.scifac.hku.hk/people/ching-tak-wing",
+            "directoryPosition": "Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor CHING, Wai Ki 程瑋琪",
+            "profileUrl": "https://www.scifac.hku.hk/people/ching-wai-ki",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究数学建模、布尔网络、金融风险和医疗服务系统。",
+            "facultyId": "hku-math-20261109-ching-wai-ki"
+          },
+          {
+            "name": "Professor HAN, Guangyue 韓光躍",
+            "profileUrl": "https://www.scifac.hku.hk/people/han-guangyue",
+            "directoryPosition": "Interim Head and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究编码理论、信息论。",
+            "facultyId": "hku-math-20261109-han-guangyue"
+          },
+          {
+            "name": "Professor HE, Xuhua 何旭華",
+            "profileUrl": "https://www.scifac.hku.hk/people/he-xuhua",
+            "directoryPosition": "Professor, Chair of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究算术几何、代数群、表示论。",
+            "facultyId": "hku-math-20261109-he-xuhua"
+          },
+          {
+            "name": "Professor HUA, Zheng 華諍",
+            "profileUrl": "https://www.scifac.hku.hk/people/hua-zheng",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究代数几何、导出范畴、环面簇、Calabi–Yau 流形。",
+            "facultyId": "hku-math-20261109-hua-zheng"
+          },
+          {
+            "name": "Professor HUANG, Kuang 黃曠",
+            "profileUrl": "https://www.scifac.hku.hk/people/huang-kuang",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究数学建模、科学计算、非局部模型、双曲守恒律与交通流。",
+            "facultyId": "hku-math-20261109-huang-kuang"
+          },
+          {
+            "name": "Professor HUI, Chun Yin 許俊彥",
+            "profileUrl": "https://www.scifac.hku.hk/people/hui-chun-yin",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究伽罗瓦表示、代数数论、算术几何。",
+            "facultyId": "hku-math-20261109-hui-chun-yin"
+          },
+          {
+            "name": "Professor KANE, Benjamin Robert 李温福",
+            "profileUrl": "https://www.scifac.hku.hk/people/kane-benjamin-robert",
+            "directoryPosition": "Associate Dean (Teaching & Learning) and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究数论、组合数学、模形式与自守形式。",
+            "facultyId": "hku-math-20261109-kane-benjamin-robert"
+          },
+          {
+            "name": "Professor LAI, Lexiao 賴樂瀟",
+            "profileUrl": "https://www.scifac.hku.hk/people/lai-lexiao",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor LAU, Yuk Kam 劉旭金",
+            "profileUrl": "https://www.scifac.hku.hk/people/lau-yuk-kam",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究解析数论、黎曼 ζ 函数、Hecke 特征值与 L 函数。",
+            "facultyId": "hku-math-20261109-lau-yuk-kam"
+          },
+          {
+            "name": "Professor LAW, Ka Ho 羅家豪",
+            "profileUrl": "https://www.scifac.hku.hk/people/law-ka-ho",
+            "directoryPosition": "Associate Head (Teaching & Learning) and Senior Lecturer (Associate Professor of Teaching)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor LEI, Yunwen 雷雲文",
+            "profileUrl": "https://www.scifac.hku.hk/people/lei-yunwen",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究机器学习、学习理论、随机优化。",
+            "facultyId": "hku-math-20261109-lei-yunwen"
+          },
+          {
+            "name": "Professor LI, Dong 李棟",
+            "profileUrl": "https://www.scifac.hku.hk/people/li-dong",
+            "directoryPosition": "Professor, Chair of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor LI, Guanglian 李光蓮",
+            "profileUrl": "https://www.scifac.hku.hk/people/li-guanglian",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究均匀化、多尺度有限元、模型降阶、高维数值方法。",
+            "facultyId": "hku-math-20261109-li-guanglian"
+          },
+          {
+            "name": "Professor LU, Jiang-Hua 路江華",
+            "profileUrl": "https://www.scifac.hku.hk/people/lu-jianghua",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究全正性、丛代数、泊松几何、李理论。",
+            "facultyId": "hku-math-20261109-lu-jianghua"
+          },
+          {
+            "name": "Professor MOK, Ngaiming 莫毅明",
+            "profileUrl": "https://www.scifac.hku.hk/people/mok-ngaiming",
+            "directoryPosition": "Edmund and Peggy Tse Professor in Mathematics & Professor: Chair of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究多复变函数、复微分几何、代数几何、函数超越理论。",
+            "facultyId": "hku-math-20261109-mok-ngaiming"
+          },
+          {
+            "name": "Professor NG, Tuen Wai 吳端偉",
+            "profileUrl": "https://www.scifac.hku.hk/people/ng-tuen-wai",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究几何函数论、Nevanlinna 理论、复微分和函数方程。",
+            "facultyId": "hku-math-20261109-ng-tuen-wai"
+          },
+          {
+            "name": "Professor NGO, Bao Chau",
+            "profileUrl": "https://www.scifac.hku.hk/people/ngo-bao-chau",
+            "directoryPosition": "Professor, Chair of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor NOLIN, Pierre",
+            "profileUrl": "https://www.scifac.hku.hk/people/nolin-pierre",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究概率论、随机过程、统计力学。",
+            "facultyId": "hku-math-20261109-nolin-pierre"
+          },
+          {
+            "name": "Professor QIAN, Wei 錢瑋",
+            "profileUrl": "https://www.scifac.hku.hk/people/qian-wei",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究概率论、随机几何、数学物理、复分析。",
+            "facultyId": "hku-math-20261109-qian-wei"
+          },
+          {
+            "name": "Professor SUZUKI, Atsushi 鈴木惇",
+            "profileUrl": "https://www.scifac.hku.hk/people/atsushi-suzuki",
+            "directoryPosition": "Assistant Professor ",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Dr. TSANG, Chiu Yin 曾超賢",
+            "profileUrl": "https://www.scifac.hku.hk/people/tsang-chiu-yin",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Dr. TSANG, Fai Lung 曾飛龍",
+            "profileUrl": "https://www.scifac.hku.hk/people/tsang-fai-lung",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor VU, Van Ha",
+            "profileUrl": "https://www.scifac.hku.hk/people/vu-van-ha",
+            "directoryPosition": "Professor, Chair of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究组合数学、概率论、随机矩阵、谱算法。",
+            "facultyId": "hku-math-20261109-vu-van-ha"
+          },
+          {
+            "name": "Professor WANG, Yang 汪揚",
+            "profileUrl": "https://www.scifac.hku.hk/people/wang-yang",
+            "directoryPosition": "Vice-President and Pro-Vice-Chancellor (Institutional Advancement) and Professor, Chair of Mathematics, Computing and Data Science",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究应用调和分析、机器学习、平铺、分形几何、区块链。",
+            "facultyId": "hku-cds-census-063"
+          },
+          {
+            "name": "Professor WONG, Mo Dick 王武迪",
+            "profileUrl": "https://www.scifac.hku.hk/people/wong-mo-dick",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究概率论、数学物理、多重分形、概率数论。",
+            "facultyId": "hku-math-20261109-wong-mo-dick"
+          },
+          {
+            "name": "Dr. XIE, Yue 謝悅",
+            "profileUrl": "https://www.scifac.hku.hk/people/xie-yue",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究非凸与随机优化、算子分裂、计算最优传输、机器学习。",
+            "facultyId": "hku-math-20261109-xie-yue"
+          },
+          {
+            "name": "Professor YE, Jinhe 叶謹赫",
+            "profileUrl": "https://www.scifac.hku.hk/people/ye-jinhe",
+            "directoryPosition": "Assistant Professor ",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究模型论、数理逻辑、代数几何、非阿基米德几何。",
+            "facultyId": "hku-math-20261109-ye-jinhe"
+          },
+          {
+            "name": "Professor YUAN, Xiaoming 袁曉明",
+            "profileUrl": "https://www.scifac.hku.hk/people/yuan-xiaoming",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究凸优化、最优控制、科学机器学习、大规模一阶方法。",
+            "facultyId": "hku-math-20261109-yuan-xiaoming"
+          },
+          {
+            "name": "Professor ZANG, Wenan 臧文安",
+            "profileUrl": "https://www.scifac.hku.hk/people/zang-wenan",
+            "directoryPosition": "Professor, Chair of Mathematics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究组合优化、整数规划、图论、匹配与算法设计。",
+            "facultyId": "hku-math-20261109-zang-wenan"
+          },
+          {
+            "name": "Dr. ZHANG, Haiyu 張海愉",
+            "profileUrl": "https://www.scifac.hku.hk/people/zhang-haiyu",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人页的任职已核对。"
+          },
+          {
+            "name": "Professor ZHANG, Xin 張欣",
+            "profileUrl": "https://www.scifac.hku.hk/people/zhang-xin",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究数论、动力系统。",
+            "facultyId": "hku-math-20261109-zhang-xin"
+          },
+          {
+            "name": "Professor ZHANG, Zhiwen 張智文",
+            "profileUrl": "https://www.scifac.hku.hk/people/zhang-zhiwen",
+            "directoryPosition": "Associate Head (Research) and Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "研究随机计算、不确定性量化、偏微分方程数值方法、多尺度均匀化。",
+            "facultyId": "hku-math-20261109-zhang-zhiwen"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 38,
+        "profilesRead": 38,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-math-20261109-retired-directory",
+      "universityId": "hku",
+      "unit": "数学系 · 荣休与退休",
+      "url": "https://hkumath.hku.hk/MathWWW/people.php?rfaculty",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hku-math-20261109-retired"
+      ],
+      "coverageNotes": "以原表任职期限为准。",
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Dr. Jor Ting CHAN",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1990 - 2020"
+          },
+          {
+            "name": "Dr. Siu Pang YUNG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1991 - 2020"
+          },
+          {
+            "name": "Prof. Kai Man TSANG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1985 - 2019"
+          },
+          {
+            "name": "Prof. Sydney Chun Keung CHU",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1978 - 2015"
+          },
+          {
+            "name": "Dr. Nam Kiu TSING",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1993 - 2015"
+          },
+          {
+            "name": "Prof. Jie-tai YU",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1994 - 2015"
+          },
+          {
+            "name": "Dr. Philip Pit Wang WONG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1981 - 2014"
+          },
+          {
+            "name": "Prof. Man Keung SIU",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1975 - 2005"
+          },
+          {
+            "name": "Dr. Stephen Choi Lai CHAN",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1968 - 2002"
+          },
+          {
+            "name": "Dr. Kai Yuen CHAN",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1967 - 2000"
+          },
+          {
+            "name": "Prof. Ming Chit LIU",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1971 - 2000"
+          },
+          {
+            "name": "Prof. Yik Hoi AU-YEUNG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1968 - 1998"
+          },
+          {
+            "name": "Mr. Te Hwai YAO",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1962 - 1996"
+          },
+          {
+            "name": "Dr. Kam Tim LEUNG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1960 - 1995"
+          },
+          {
+            "name": "Dr. Yim Ming WONG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1966 - 1992"
+          },
+          {
+            "name": "Prof. Alan John ELLIS",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1981 - 1991"
+          },
+          {
+            "name": "Dr. Doris Lai-chue CHEN",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1960 - 1985"
+          },
+          {
+            "name": "Prof. Yung Ming CHEN",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1958 - 1984"
+          },
+          {
+            "name": "Mr. Samuel Szu Hsun YOUNG",
+            "profileUrl": null,
+            "directoryPosition": "荣休或退休",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1968 - 1975"
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "hku-math-20261109-visiting-directory",
+      "universityId": "hku",
+      "unit": "数学系 · 访问与荣誉",
+      "url": "https://hkumath.hku.hk/MathWWW/people.php?vhprofessor",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hku-math-20261109-visiting"
+      ],
+      "coverageNotes": "以原表任职期限为准。",
+      "census": {
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Prof. Bernhard KELLER",
+            "profileUrl": null,
+            "directoryPosition": "访问任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2023.09.01 - 2026.08.31"
+          },
+          {
+            "name": "Prof. Y.T. SIU",
+            "profileUrl": null,
+            "directoryPosition": "访问任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2014.09.14 - 2016.08.31"
+          },
+          {
+            "name": "Prof. E.I. ZELMANOV",
+            "profileUrl": null,
+            "directoryPosition": "访问任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1999.01.01 - 2014.12.31"
+          },
+          {
+            "name": "Prof. T.L. LAI",
+            "profileUrl": null,
+            "directoryPosition": "访问任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 -"
+          },
+          {
+            "name": "Prof. Tak Kwong WONG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2026.05.01 - 2028.04.30"
+          },
+          {
+            "name": "Prof. W.S. CHEUNG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2022.07.01 - 2027.06.30"
+          },
+          {
+            "name": "Prof. R.M.J. CONTE",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2020.05.01 - 2028.04.30 2015.01.01 - 2019.12.31"
+          },
+          {
+            "name": "Prof. N.J. ZABARAS",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2020.05.01 - 2024.04.30 2018.03.01 - 2020.02.29"
+          },
+          {
+            "name": "Prof. K.M. TSANG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2019.07.01 - 2027.06.30"
+          },
+          {
+            "name": "Prof. Stephen S.T. YAU",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2018.05.01 - 2028.04.30"
+          },
+          {
+            "name": "Prof. Sydney C.K. CHU",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2015.12.01 - 2027.11.30"
+          },
+          {
+            "name": "Dr. N.K. TSING",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2015.04.15 - 2023.04.14"
+          },
+          {
+            "name": "Dr. J.Z. HUANG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2007.09.01 - 2011.12.31"
+          },
+          {
+            "name": "Prof. K.P. NG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2005.09.01 - 2014.08.31"
+          },
+          {
+            "name": "Prof. M.K. SIU",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2005.07.01 - 2027.06.30"
+          },
+          {
+            "name": "Dr. James S.W. WONG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2004.09.01 - 2016.08.31"
+          },
+          {
+            "name": "Prof. C.K. LI",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2002.06.01 - 2017.08.31"
+          },
+          {
+            "name": "Prof. M.C. LIU",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2001.07.01 - 2016.06.30"
+          },
+          {
+            "name": "Dr. K.Y. CHAN",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 2000.07.01 - 2016.06.30"
+          },
+          {
+            "name": "Prof. Y.H. AU-YEUNG",
+            "profileUrl": null,
+            "directoryPosition": "荣誉任职",
+            "providedLinks": [],
+            "reason": "原表任职或服务期限 1998.07.01 - 2016.06.30"
+          }
+        ],
+        "observedTotal": 0,
+        "profilesRead": 0,
         "profilesFailed": 0,
         "pendingReasonCounts": {}
       }
@@ -277643,5 +280440,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:6a56503a1548e7e2fc814ac92669df4508de88d4e2ac5231b9bc52dffa32a4a4"
+  "snapshotId": "sha256:2fe42cf21a261bea5cffd17b5d649f9772fb5ec0a3ae402af8572c1eee4a03a3"
 };
