@@ -910,6 +910,48 @@ def build_catalog():
                        "action": "先与意向导师讨论课题，再准备研究计划。", "sourceIds": earth_application}],
     )
     catalog["programs"].append(earth_programme)
+    civl = load("hkust-civl-20261109.json")
+    catalog["sources"].extend(civl["sources"])
+    catalog["faculty"].extend(civl["faculty"])
+    catalog["directories"].extend(civl["directories"])
+    for update in civl["facultyUpdates"]:
+        original = faculty_by_id[update["id"]]
+        assert original["universityId"] == "hkust"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+
+    civl_admission = ["hkust-civl-20261109-admission"]
+    civil_routes = [
+        ("civl", "土木工程", "可申请能源技术、纳米技术或科学计算培养方向，网申时选择对应项目选项。"),
+        ("evng", "环境工程", "可了解水与废水处理、废物回收、污染土地修复、空气质量和可持续能源。"),
+    ]
+    for code, subject, detail in civil_routes:
+        civil_source = ["hkust-civl-20261109-" + code]
+        civil_programme = program(
+            "hkust-" + code + "-rpg", "hkust", subject + "研究学位", ["MPhil", "PhD"],
+            "港科大香港校区，设全日制与兼读。" + detail,
+            "unknown", "网申时填写意向研究方向或教师。", civl_admission,
+            "学系根据学习或研究背景及研究计划选出面试人选，申请滚动审理。", civl_admission + civil_source,
+            [deadline("秋季非本地申请截止", "2027-06-01", civil_source),
+             deadline("秋季本地申请截止", "2027-07-15", civil_source),
+             deadline("春季非本地申请截止", "2026-11-01", civil_source, route="春季申请", cycle="2026/27 Spring"),
+             deadline("春季本地申请截止", "2026-12-15", civil_source, route="春季申请", cycle="2026/27 Spring")],
+            civil_source + civl_admission, "项目页分别列 2027 年 9 月与 2 月入学，非本地兼读限制见原页。")
+        civil_programme.update(
+            entryUrl="https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-" + code,
+            requirements=[
+                {"label": "专业背景", "text": "学系通常要求土木工程、环境工程或相关领域的学士背景，并有良好的学业表现。", "sourceIds": civl_admission},
+                {"label": "英语要求", "text": "雅思学术类总分至少 6.5，单项至少 5.5。TOEFL iBT 在 2026 年 1 月 21 日前考试至少 80 分，当天起至少 4.5 分。须单次达标，不接受居家考试，豁免条件见项目页。", "sourceIds": civil_source},
+            ],
+            finances=[{"id": "hkust-" + code + "-application-fee", "kind": "application_fee", "label": "申请费",
+                       "text": "每份申请 180 港元。", "action": "提交网申时查看缴费步骤。", "sourceIds": civil_source,
+                       "rates": [{"value": 180, "currency": "HKD", "unit": "application", "basis": "academic_year",
+                                  "cycle": "2027/28", "condition": "项目页所列申请费"}]}],
+        )
+        catalog["programs"].append(civil_programme)
     return catalog
 
 
