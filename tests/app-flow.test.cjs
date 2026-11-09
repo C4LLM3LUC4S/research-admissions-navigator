@@ -1209,3 +1209,12 @@ test('undated AIS degree navigation and reused Shenzhen teaching units remain co
  const first=harness(),f=id=>first.byId.get(id);first.select('hkust','PhD',[]);await f('profile-form').emit('input');await f('show-directories').emit('click');const ais=first.walk(f('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.includes('Academy of Interdisciplinary Studies'));assert.ok(ais);const group=first.walk(ais).find(n=>n.className==='source-details organization-navigation'&&n.children[0]?.textContent.includes('研究学位路线'));assert.ok(group);assert.match(group.textContent,/年度待核/);assert.match(group.textContent,/TIE只列MPhil/);const items=group.children.find(n=>n.tagName==='ul');assert.equal(items.children.length,7);assert.match(items.children.at(-1).textContent,/科技创新与创业研究型硕士 · MPhil · Technology/);assert.doesNotMatch(items.children.at(-1).textContent,/PhD/);
  first.select('cuhksz','PhD',[]);await f('profile-form').emit('input');await f('export-local').emit('click');const raw=await first.downloads.at(-1).blob.text(),h=harness([['yanxiang-local-v1',raw]]),el=id=>h.byId.get(id);await el('show-directories').emit('click');const hss=h.walk(el('academic-coverage')).find(n=>n.className==='academic-unit'&&n.children[0]?.textContent.startsWith('人文社科学院'));assert.ok(hss);assert.match(hss.textContent,/2026年10月28日/);assert.match(hss.textContent,/国情、语言、体育等教学部门/);assert.match(hss.textContent,/不把十项都推成独立招收MPhil\/PhD/);assert.equal(first.networkCalls()+h.networkCalls(),0);
 });
+
+test('Earth and Planetary Sciences shows the required contact step before the application',()=>{
+  const h=harness(),el=id=>h.byId.get(id);
+  h.select('hku','MPhil',[]);
+  const card=h.walk(el('results')).find(node=>node.tagName==='article'&&node.textContent.includes('地球与行星科学研究学位'));
+  assert.ok(card);
+  assert.match(card.textContent,/提交申请前须联系意向导师/);
+  assert.match(card.textContent,/研究计划/);
+});

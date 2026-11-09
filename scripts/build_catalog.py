@@ -878,6 +878,38 @@ def build_catalog():
     polyu_chemistry_programme["sourceIds"].extend([
         "polyu-chemistry-20261109-sept-supervisors", "polyu-chemistry-20261109-department-programme",
     ])
+    earth = load("hku-earth-20261109.json")
+    catalog["sources"].extend(earth["sources"])
+    catalog["faculty"].extend(earth["faculty"])
+    earth_directory = next(d for d in catalog["directories"] if d["id"] == earth["directories"][0]["id"])
+    earth_directory.clear()
+    earth_directory.update(earth["directories"][0])
+    catalog["directories"].extend(earth["directories"][1:])
+    for update in earth["facultyUpdates"]:
+        original = next(f for f in catalog["faculty"] if f["id"] == update["id"])
+        assert original["universityId"] == "hku"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        original.setdefault("extraLinks", []).extend(update["extraLinks"])
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+
+    earth_application = ["hku-earth-20261109-apply"]
+    hku_period = ["HKU-CENTRAL-PERIOD"]
+    earth_programme = program(
+        "hku-earth-rpg", "hku", "地球与行星科学研究学位", ["MPhil", "PhD"],
+        "港大地球与行星科学系。可了解地球演化、气候、行星与太空、地质及水文等方向。",
+        "required", "提交申请前须联系意向导师，讨论课题和接收安排。", earth_application,
+        "可向学系确认审核安排。", earth_application,
+        [deadline("校级主轮截止", "2026-12-01", hku_period, clock="23:59"),
+         deadline("校级第一轮补录截止", "2027-04-30", hku_period, clock="23:59"),
+         deadline("校级第二轮补录截止", "2027-08-31", hku_period, clock="23:59")],
+        earth_application + hku_period, "轮次为港大研究院的校级安排。联系导师与研究计划要求来自学系。")
+    earth_programme.update(
+        entryUrl="https://www.earthsciences.hku.hk/education/postgraduate_students/research_postgraduates/how_to_apply/",
+        requirements=[{"label": "研究计划", "text": "随申请提交研究计划，说明研究重点与开展研究的能力。",
+                       "action": "先与意向导师讨论课题，再准备研究计划。", "sourceIds": earth_application}],
+    )
+    catalog["programs"].append(earth_programme)
     return catalog
 
 
