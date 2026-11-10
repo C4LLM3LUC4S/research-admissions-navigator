@@ -780,7 +780,9 @@ test('a malformed saved record is retained rather than overwritten on startup',(
 });
 
 test('actual callbacks show verified profile links and complete directory progress, then preserve follow-up in a backup',async()=>{
-  const h=harness(),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);
+  const catalog={...C,directories:C.directories.filter(d=>d.id==='census-hkust-cse-regular')};
+  assert.equal(catalog.directories.length,1);
+  const h=harness(undefined,{catalog}),el=id=>h.byId.get(id);h.select('hkust','PhD',[]);
   el('research-query').value='时空数据库, Spatiotemporal';await el('profile-form').emit('input');
   await el('show-faculty').emit('click');
   assert.match(el('results').textContent,/Xiaofang/);assert.match(el('results').textContent,/个人网站与课题组/);
