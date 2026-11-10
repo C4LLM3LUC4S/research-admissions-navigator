@@ -111840,7 +111840,8 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "cuhk-physics-20261111-teaching-staff-goh-swee-kuan",
-        "cuhk-physics-20261111-teaching-staff"
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-goh-swee-kuan"
       ],
       "directorySourceIds": [
         "cuhk-physics-20261111-teaching-staff"
@@ -111848,7 +111849,15 @@ window.APP_CATALOG = {
       "keywordSourceIds": [
         "cuhk-physics-20261111-teaching-staff-goh-swee-kuan"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "label": "个人或研究组网站",
+          "url": "http://www.phy.cuhk.edu.hk/skgoh/",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-goh-swee-kuan",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-goh-swee-kuan"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -112037,7 +112046,8 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "cuhk-physics-20261111-teaching-staff-tian-lan",
-        "cuhk-physics-20261111-teaching-staff"
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-tian-lan"
       ],
       "directorySourceIds": [
         "cuhk-physics-20261111-teaching-staff"
@@ -112045,7 +112055,15 @@ window.APP_CATALOG = {
       "keywordSourceIds": [
         "cuhk-physics-20261111-teaching-staff-tian-lan"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "label": "个人或研究组网站",
+          "url": "https://lantyn.github.io/",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-tian-lan",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-tian-lan"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -112721,7 +112739,8 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "cuhk-physics-20261111-teaching-staff-xu-lei",
-        "cuhk-physics-20261111-teaching-staff"
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-xu-lei"
       ],
       "directorySourceIds": [
         "cuhk-physics-20261111-teaching-staff"
@@ -112729,7 +112748,15 @@ window.APP_CATALOG = {
       "keywordSourceIds": [
         "cuhk-physics-20261111-teaching-staff-xu-lei"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "label": "个人或研究组网站",
+          "url": "http://www.phy.cuhk.edu.hk/~xulei/homepage/",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-xu-lei",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-xu-lei"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -230186,7 +230213,9 @@ window.APP_CATALOG = {
       "evidenceLevel": "official_scoped_body_read",
       "readMethod": "anonymous_HTTP",
       "bodySha256": "e5f69be9f08d4f567d093092cbbf61156f05a36f7e74bba94d3cebca872b88ca",
-      "discoveredLinks": []
+      "discoveredLinks": [
+        "http://www.phy.cuhk.edu.hk/skgoh/"
+      ]
     },
     {
       "id": "cuhk-physics-20261111-teaching-staff-gu-zhengcheng",
@@ -230278,7 +230307,9 @@ window.APP_CATALOG = {
       "evidenceLevel": "official_scoped_body_read",
       "readMethod": "anonymous_HTTP",
       "bodySha256": "6d062e3cc0cbcc17b072155027ab2fd458e94b506fd0155747f06f9b235cfe77",
-      "discoveredLinks": []
+      "discoveredLinks": [
+        "https://lantyn.github.io/"
+      ]
     },
     {
       "id": "cuhk-physics-20261111-teaching-staff-leung-po-kin",
@@ -230548,7 +230579,9 @@ window.APP_CATALOG = {
       "evidenceLevel": "official_scoped_body_read",
       "readMethod": "anonymous_HTTP",
       "bodySha256": "f39b7db0d8ca48860d71a7db94837a620b8e4d1deb6e0b5062cd2265b2c9119d",
-      "discoveredLinks": []
+      "discoveredLinks": [
+        "http://www.phy.cuhk.edu.hk/~xulei/homepage/"
+      ]
     },
     {
       "id": "cuhk-physics-20261111-teaching-staff-xue-haoran",
@@ -230999,6 +231032,83 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "0ae329ae628d62082ce2fe300348ca82e0ffe9239b59698f3a7c0625b41d8ef4",
       "parentSourceId": "cuhk-physics-20261111-teaching-staff-hu-chen"
+    },
+    {
+      "id": "cuhk-physics-20261111-research-staff",
+      "url": "https://app.phy.cuhk.edu.hk/research-staff/",
+      "title": "港中文物理系 · research-staff",
+      "claims": [
+        "研究人员名录69项，含博士后、研究助理、研究助理员和项目统筹等岗位，不等同研究指导名单。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c4655a5a75a484427177514137ca0b6c8d154674fd46d75ce082b58dd6a6c95"
+    },
+    {
+      "id": "cuhk-physics-20261111-supporting-staff",
+      "url": "https://app.phy.cuhk.edu.hk/supporting-staff/",
+      "title": "港中文物理系 · supporting-staff",
+      "claims": [
+        "支援名录23项，其中9项行政、14项技术岗位，不等同研究指导名单。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7a66d76c5bdad958316a11c5ef98da3005e173018898a1ad4d488e5329e039af"
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-goh-swee-kuan",
+      "url": "https://www.phy.cuhk.edu.hk/skgoh/",
+      "originalUrl": "http://www.phy.cuhk.edu.hk/skgoh/",
+      "retrievedUrl": "https://www.phy.cuhk.edu.hk/skgoh/",
+      "title": "GOH Swee Kuan 吳瑞權 · 个人或研究组网站",
+      "claims": [
+        "首页研究组身份与研究概览；不代表其全部子页面已读。"
+      ],
+      "scope": "首页研究组身份与研究概览；不代表其全部子页面已读。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0d4e9b7ab50bfbd6183cffbc7eb45e6ae30556f80c6660951507d77cc3f8e912",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-goh-swee-kuan"
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-tian-lan",
+      "url": "https://lantyn.github.io/",
+      "originalUrl": "https://lantyn.github.io/",
+      "retrievedUrl": "https://lantyn.github.io/",
+      "title": "LAN Tian 蘭天 · 个人或研究组网站",
+      "claims": [
+        "首页个人简介确认港中文助理教授与凝聚态、范畴论研究；论文列表未逐项审核。"
+      ],
+      "scope": "首页个人简介确认港中文助理教授与凝聚态、范畴论研究；论文列表未逐项审核。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "78d62ef1fbe36a70d2bf07de9e3e9e775ecc94a0a17d292b5827b0e8d45933b9",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-tian-lan"
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-xu-lei",
+      "url": "https://www.phy.cuhk.edu.hk/~xulei/homepage/",
+      "originalUrl": "http://www.phy.cuhk.edu.hk/~xulei/homepage/",
+      "retrievedUrl": "https://www.phy.cuhk.edu.hk/~xulei/homepage/",
+      "title": "XU Lei 徐磊 · 个人或研究组网站",
+      "claims": [
+        "首页研究组身份与研究概览；不代表其全部子页面已读。"
+      ],
+      "scope": "首页研究组身份与研究概览；不代表其全部子页面已读。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9f2e1dad4123328d1e4903dcc1d148e1441527e85d1ec999359f192b9299b52d",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-xu-lei"
     }
   ],
   "funding": [
@@ -256724,235 +256834,274 @@ window.APP_CATALOG = {
             "name": "CHAN Tsang Keung 陳增強",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chan-tsang-keung/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "CHEN Yuguang 陳昱光",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chen-yuguang/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Research Assistant Professor"
           },
           {
             "name": "CHENG Hok Chuen 鄭學全",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/cheng-hok-chuen/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Lecturer"
           },
           {
             "name": "CHING Shuk Chi Emily 程淑姿",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/emily-s-c-ching/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "CHU Ming Chung 朱明中",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chu-ming-chung/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Choh-Ming Li Professor of Physics"
           },
           {
             "name": "DUNG On Yu 董安儒",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/dung-on-yu/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Lecturer"
           },
           {
             "name": "Luis Roberto FLORES-CASTILLO",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/luis-roberto-flores-castillo/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "GOH Swee Kuan 吳瑞權",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/goh-swee-kuan/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "GU Zhengcheng 顧正澄",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/gu-zhengcheng/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "Otto A. HANNUKSELA",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/otto-a-hannuksela/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "HU Chen 胡晨",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/hu-chen/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "HUI Pak Ming 許伯銘",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/hui-pak-ming/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor (Teaching)"
           },
           {
             "name": "LAI Yu Hang Marco 賴裕衡",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/marco-y-h-lai/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Lecturer"
           },
           {
             "name": "LAN Tian 蘭天",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/tian-lan/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "LEUNG Po Kin 梁寶建  Senior",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/leung-po-kin/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Senior Lecturer"
           },
           {
             "name": "Li Hua-bai 李華白",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-hua-bai/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "LI Quan 李泉",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-quan/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "LI Yufan 李禹帆",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-yufan/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "LIN Lap Ming 練立明  Senior",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/lin-lap-ming/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Senior Lecturer"
           },
           {
             "name": "LIU Renbao 劉仁保",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-renbao/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Choh-Ming Li Professor of Physics"
           },
           {
             "name": "LIU Runze 劉潤澤",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-runze/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Research Assistant Professor"
           },
           {
             "name": "LU Xinhui 路新慧",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/lu-xinhui/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "NG Chun Yu Kenny 吳震宇  Associate",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/kenny-c-y-ng/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor"
           },
           {
             "name": "ONG Hock Chun Daniel 王福俊",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/daniel-h-c-ong/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "SUN Rongyang 孫榕陽",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/sun-rongyang/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Research Assistant Professor"
           },
           {
             "name": "TONG Shiu Sing 湯兆昇  Principal",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/tong-shiu-sing/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Principal Lecturer"
           },
           {
             "name": "WANG Dajun 王大軍",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-dajun/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "WANG Jianfang 王建方",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-jianfang/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor and Chair"
           },
           {
             "name": "WANG Qisi 王奇思",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-qisi/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "WANG Yi 王一",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-yi/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "WU Yilin 吳藝林",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wu-yilin/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "XU Lei 徐磊",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/xu-lei/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor"
           },
           {
             "name": "XUE Haoran 薛昊冉",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/xue-haoran/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "YAN Renbin 嚴人斌",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-renbin/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor and Global STEM Scholar"
           },
           {
             "name": "YAN Yangqian 嚴楊千",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-yangqian/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor"
           },
           {
             "name": "YIP Long Sang Kenny 葉朗生",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yip-long-sang/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Lecturer"
           },
           {
             "name": "ZHANG Hengkai 張恒愷",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhang-hengkai/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Research Assistant Professor"
           },
           {
             "name": "ZHAO Jiarui 趙家瑞",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhao-jiarui/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Research Assistant Professor"
           },
           {
             "name": "ZHU Junyi 朱駿宜  Associate",
             "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhu-junyi/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor"
           }
         ]
       }
@@ -256997,115 +257146,632 @@ window.APP_CATALOG = {
             "name": "Juan CALDERON BUSTILLO",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/juan-calderon-bustillo/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Assistant Professor"
           },
           {
             "name": "CHEN Fong Ching 陳方正",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/chen-fong-ching/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Honorary Professor"
           },
           {
             "name": "HUI Pak Ming 許 伯 銘",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/hui-pak-ming/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Emeritus Professor"
           },
           {
             "name": "LAU W. M. Leo 劉煥明",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/lau-w-m-leo/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Visiting Professor"
           },
           {
             "name": "LEUNG Pui Tang 梁培燈",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-pui-tang/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "LEUNG Wing Mo 梁榮武",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-wing-mo/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "LI Ping Wah 李炳華",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/li-ping-wah/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "LIN Hai Qing 林海青",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/lin-hai-qing/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "Dickon H. L. NG 吳恒亮",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/dickon-h-l-ng/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "SUEN Wai Mo 孫緯武",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/suen-wai-mo/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Honorary Professor"
           },
           {
             "name": "WONG H. K. Roger 黃可傑",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/wong-h-k-roger/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Honorary Research Associate"
           },
           {
             "name": "WU Kinwah 胡建華",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/wu-kinwah/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "XIA Keqing 夏克青",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/xia-keqing/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Emeritus Professor"
           },
           {
             "name": "XIAO Xudong 肖旭東",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/xiao-xudong/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor and Emeritus Professor"
           },
           {
             "name": "YANG Sen 楊森",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/yang-sen/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Associate Professor"
           },
           {
             "name": "YOUNG C. Charles 楊重凱",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/young-c-charles/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "YOUNG Kenneth 楊綱凱",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/young-kenneth/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Emeritus Professor"
           },
           {
             "name": "ZHOU Xin 周昕",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/zhou-xin/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Adjunct Professor"
           },
           {
             "name": "ZHU Shiyao 朱詩堯",
             "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/zhu-shiyao/",
             "profileRead": true,
-            "reviewStatus": "body_read"
+            "reviewStatus": "body_read",
+            "directoryPosition": "Honorary Professor"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-research-staff-directory",
+      "universityId": "cuhk",
+      "unit": "物理系 · 研究人员",
+      "url": "https://app.phy.cuhk.edu.hk/research-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-physics-20261111-research-staff"
+      ],
+      "coverageNotes": "按原岗位区分，人员表未给独立个人页，不补造。",
+      "census": {
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "CAO Wenyu",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHAN Kar Kee",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHAN Lai Wun",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHEN Chong",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHEN Jiangzhi",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHEN Qingjiu",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHEN Xinyu",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHEN Zhen",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHENG Zhuo",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHUNG Chit Tik",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "GAO Weichao",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "GOU Yitao",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "GU Jiayu",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "GUO Shuaiwei",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "HU Xitao",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "HUI Chit Ho",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "JIA Weizhen",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "JIANG Chaoran",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LAI Yin Pui",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LEE Kai Bong",
+            "directoryPosition": "Project Coordinator",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LEUNG Hin Kwong",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LI Tao",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LI Tianjie",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LI Wenhao",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LI Yisen",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LIU Chao",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LIU Tingzhi",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LIU Ye",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LIU Yuan",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LIU Yujun",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LYU Weitao",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "MA Zexuan",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "NIE Haoran",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "PANG Chun Wai",
+            "directoryPosition": "Project Coordinator",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "Paul MARTENS",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "PEI Hongyu",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "PENG Shiyu",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "QI Yajing",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LANGE Samuel Charles",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "SHEN Ruichang",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "SIU Greta Hiu Lam",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "Souvik JANA",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "SUN Li",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "TAN Jian",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "TIAN Yu",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "TSUI Tsz Chung",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WANG Haoxin",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WANG Pengcheng",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WANG Wenyan",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WANG Zheyu",
+            "directoryPosition": "Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WONG Ho Kit",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WU Muwei",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WU Weijiang",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WU Ze",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "XIA Wei",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "XIAO Dawu",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YANG Dongyue",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YANG Peng",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YE Weicheng",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YIP Ka Long",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YUAN Shibo",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YUE Zhengyuan",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZENG Guangquan",
+            "directoryPosition": "Research Associate",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZENG Zhaoyi",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZHANG Yi",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZHAO Simiao",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZHENG Hao",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZHOU Guoliang",
+            "directoryPosition": "Postdoctoral Fellow",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZHOU Haijun",
+            "directoryPosition": "Junior Research Assistant",
+            "reason": "原表未给个人主页"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-supporting-staff-directory",
+      "universityId": "cuhk",
+      "unit": "物理系 · 行政及技术支援",
+      "url": "https://app.phy.cuhk.edu.hk/supporting-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-physics-20261111-supporting-staff"
+      ],
+      "coverageNotes": "按原岗位区分，人员表未给独立个人页，不补造。",
+      "census": {
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "CHAN Yee Mei Stephanie",
+            "directoryPosition": "Executive Officer",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHAN Hoi Yee Catherine",
+            "directoryPosition": "General Clerk",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "HO Pui Yee",
+            "directoryPosition": "General Clerk",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LAI Shan Shan Iris",
+            "directoryPosition": "General Clerk",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "SIU Ka Man Carman",
+            "directoryPosition": "Project Coordinator",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "SUN Lan Fong Florence",
+            "directoryPosition": "General Clerk",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "TANG Siu Yin Mandy",
+            "directoryPosition": "General Clerk",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "XU Yue Anna",
+            "directoryPosition": "Project Coordinator",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "ZHOU Fangtao",
+            "directoryPosition": "Project Coordinator",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHAN Mou Wai Jason",
+            "directoryPosition": "Computer Officer",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHAO Wai Kit Edward",
+            "directoryPosition": "Senior Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHAN Chi Hang",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "CHUNG Kam Hung Jack",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "IU Kwan Sai Phoebe",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LAI Chun Hei Gary",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LAI Ka Hei",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "LI Biu Wa",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "TAN Guoming",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "TSE Wan Ho",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WONG Man Keung Gary",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WONG Yuk Chung",
+            "directoryPosition": "Assistant Computer Officer",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "WU Chun Chi",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
+          },
+          {
+            "name": "YEUNG Man Hau",
+            "directoryPosition": "Technician",
+            "reason": "原表未给个人主页"
           }
         ]
       }
@@ -301557,5 +302223,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:6fe3ddcc55362c05df834933428c99823ea7151ff5518f3d6632de857cbccda0"
+  "snapshotId": "sha256:c5f1f9eabc1597dac34c7d9e113bab79535fad3aec8483e0d025e86feb1cffee"
 };
