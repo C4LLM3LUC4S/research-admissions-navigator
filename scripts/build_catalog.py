@@ -1026,6 +1026,43 @@ def build_catalog():
                               "cycle": "2027/28", "condition": "全日制与兼读"}]}],
     )
     catalog["programs"].append(ees_programme)
+
+    beee = load("polyu-beee-20261110.json")
+    catalog["sources"].extend(beee["sources"])
+    catalog["faculty"].extend(beee["faculty"])
+    catalog["directories"].extend(beee["directories"])
+    for update in beee["facultyUpdates"]:
+        original = next(row for row in catalog["faculty"] if row["id"] == update["id"])
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+        original["identityNote"] = "港理工建筑环境及能源工程学系个人页列明主聘于该系，同时在化学系任职。"
+
+    beee_page = ["polyu-beee-20261110-programme"]
+    beee_finder = ["polyu-beee-20261110-finder"]
+    beee_procedure = ["polyu-beee-20261110-procedure"]
+    beee_eligibility = ["polyu-beee-20261110-eligibility"]
+    beee_programme = program(
+        "polyu-beee-rpg-sept-2027", "polyu", "建筑环境及能源工程研究学位", ["MPhil", "PhD"],
+        "2027 年 9 月入学，可全日制或兼读。研究方向包括建筑与环境、建筑能源、安全与韧性、建筑电气及设施管理。",
+        "recommended", "按校方流程，提交前联系意向导师。提交后把申请编号告知拟任主导师。", beee_procedure + beee_page,
+        "网申前核对所有已申报学历的证明。提交后留意补件通知。", beee_page,
+        [deadline("学系申请截止", "2027-04-11", beee_page + beee_finder)],
+        beee_page + beee_finder + beee_eligibility + beee_procedure + ["polyu-beee-20261110-period"],
+        "项目页与校级项目查询均列 4 月 11 日，学系说明逾期不予考虑。")
+    beee_programme.update(entryUrl="https://www.polyu.edu.hk/study/pg/rpg/2027/beee", requirements=[
+        {"label": "MPhil 学历要求", "text": "须持获认可大学颁发的二等荣誉或以上学士学位，或同等资格。",
+         "degrees": ["MPhil"], "sourceIds": beee_eligibility},
+        {"label": "博士学历要求", "text": "全日制三年或兼读六年路线通常要求学士和研究型硕士或同等资格。全日制四年或兼读八年路线通常接受硕士加学士，或一等荣誉学士或同等资格。",
+         "degrees": ["PhD"], "sourceIds": beee_eligibility},
+        {"label": "研究计划与推荐材料", "text": "用 GSB/1A 表格准备研究计划，并安排两份学术推荐报告。推荐人须用大学或机构邮箱。",
+         "action": "下载 GSB/1A，联系两位合适的学术推荐人。", "sourceIds": beee_page},
+        {"label": "学历证明与英语材料", "text": "提交各段高等教育的官方成绩单和相应证明。若无认可大学的英语授课学位，校级门槛为学术类雅思总分 6.5 或托福网考 80。项目页要求考试结果在两年有效期内。",
+         "action": "核对成绩单和英语证明，按项目页准备适用于自己的材料。", "sourceIds": beee_page + beee_eligibility},
+    ])
+    catalog["programs"].append(beee_programme)
     return catalog
 
 
