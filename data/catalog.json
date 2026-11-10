@@ -7865,6 +7865,98 @@
           ]
         }
       ]
+    },
+    {
+      "id": "hkust-mes-rpg-2027",
+      "universityId": "hkust",
+      "name": "海洋环境科学 MPhil/PhD",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港校区，2027/28秋季。方向包括海洋生态、海洋学与海洋技术；全日制和兼读分开核对。",
+      "contact": {
+        "status": "unknown",
+        "text": "先查看项目要求与相关教师研究方向。",
+        "sourceIds": [
+          "hkust-oces-20261111-programme"
+        ]
+      },
+      "selection": {
+        "text": "MPhil须具认可学士或同等资格；PhD可凭表现优异学士，或满足原页规定的研究生学习经历申请。",
+        "sourceIds": [
+          "hkust-oces-20261111-programme"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "秋季非本地申请截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkust-oces-20261111-programme"
+          ]
+        },
+        {
+          "label": "秋季本地申请截止：2027-07-15（官网未说明具体时间）",
+          "date": "2027-07-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkust-oces-20261111-programme"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-programme"
+      ],
+      "evidenceNote": "研究学位与联合博士培养分开；不套用授课型项目或广州校区要求。",
+      "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-mes",
+      "requirements": [
+        {
+          "label": "学历背景",
+          "text": "MPhil须具认可学士或同等资格。PhD须具表现优异学士，或已完成至少一年全日制或两年兼读研究生学习并表现合格。",
+          "action": "对照研究院原页核对学历条件。",
+          "sourceIds": [
+            "hkust-oces-20261111-programme"
+          ]
+        },
+        {
+          "label": "语言成绩",
+          "text": "IELTS学术类总分6.5、各项5.5。TOEFL iBT在2026年1月21日前考试须80分，此日起须4.5分。须单次成绩，不接受居家考试；英语母语或英语授课学士豁免另核。",
+          "action": "按实际考试日期和考试类型核对，不自行换算。",
+          "sourceIds": [
+            "hkust-oces-20261111-programme"
+          ]
+        },
+        {
+          "label": "兼读与身份",
+          "text": "本地与非本地的截止日期分别列出；持学生签证或入境许可的非本地学生不能在香港修读兼读研究学位。",
+          "action": "按签证身份与修读模式核对申请安排。",
+          "sourceIds": [
+            "hkust-oces-20261111-programme"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-mes-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究学位申请费180港元。",
+          "action": "在正式系统查看付款安排。",
+          "sourceIds": [
+            "hkust-oces-20261111-programme"
+          ],
+          "rates": []
+        }
+      ]
     }
   ],
   "faculty": [
@@ -15367,13 +15459,22 @@
         "Computational fluid dynamics",
         "Physical oceanography",
         "Ocean circulation and ecosystem",
-        "Regional Climate Change Modelling"
+        "Regional Climate Change Modelling",
+        "海洋环流",
+        "海洋生态系统",
+        "数值模拟",
+        "Ocean circulation and ecosystem modeling Computational fluid dynamics Physical oceanography Ocean circulation and ecosystem Regional climate change modeling"
       ],
       "keywordSourceIds": [
-        "review-profile-8e8e02159255ad"
+        "review-profile-8e8e02159255ad",
+        "hkust-oces-20261111-profile-jianping-gan-magan",
+        "hkust-oces-20261111-roster"
       ],
       "sourceIds": [
-        "review-profile-8e8e02159255ad"
+        "review-profile-8e8e02159255ad",
+        "hkust-oces-20261111-profile-jianping-gan-magan",
+        "hkust-oces-20261111-roster",
+        "math-personal-11-20261028"
       ],
       "topics": [
         "环境与可持续发展",
@@ -15398,7 +15499,19 @@
         "sourceIds": [
           "review-profile-8e8e02159255ad"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://www.math.hkust.edu.hk/people/faculty/profile/magan/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "math-personal-11-20261028"
+        }
+      ]
     },
     {
       "id": "review-hkust-974099ba22b899",
@@ -15407,17 +15520,25 @@
         "Tropical meteorology",
         "Climate Variability and Climate Change",
         "水资源与环境流体力学",
-        "Water Resources and Environmental Fluid Mechanics"
+        "Water Resources and Environmental Fluid Mechanics",
+        "气候变化",
+        "热带气象",
+        "遥感",
+        "Remote sensing Tropical meteorology Climate variability and climate change"
       ],
       "keywordSourceIds": [
         "review-profile-974099ba22b899",
-        "hkust-civl-20261109-profile-hui-su-suhui"
+        "hkust-civl-20261109-profile-hui-su-suhui",
+        "hkust-oces-20261111-profile-hui-su-cehsu",
+        "hkust-oces-20261111-roster"
       ],
       "sourceIds": [
         "review-profile-974099ba22b899",
         "hkust-civl-20261109-profile-hui-su-suhui",
         "hkust-civl-20261109-roster",
-        "hkust-civl-20261109-link-020"
+        "hkust-civl-20261109-link-020",
+        "hkust-oces-20261111-profile-hui-su-cehsu",
+        "hkust-oces-20261111-roster"
       ],
       "topics": [
         "环境与可持续发展",
@@ -15444,7 +15565,8 @@
         ]
       },
       "directorySourceIds": [
-        "hkust-civl-20261109-roster"
+        "hkust-civl-20261109-roster",
+        "hkust-oces-20261111-roster"
       ],
       "extraLinks": [
         {
@@ -15460,6 +15582,13 @@
           "parentSourceId": "hkust-civl-20261109-profile-hui-su-suhui",
           "bodyStatus": "body_read",
           "sourceId": "hkust-civl-20261109-link-020"
+        },
+        {
+          "label": "个人或课题组网站",
+          "url": "https://ce.hkust.edu.hk/people/hui-su-suhui",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-civl-20261109-profile-hui-su-suhui"
         }
       ]
     },
@@ -17699,13 +17828,21 @@
         "Computer vision",
         "Computer graphics",
         "Computational Design",
-        "Computer-aided design and manufacturing (CAD/CAM)"
+        "Computer-aided design and manufacturing (CAD/CAM)",
+        "三维视觉",
+        "计算设计",
+        "海洋人工智能",
+        "Computer vision Computer graphics Computational design Computer-aided design and manufacturing (CAD / CAM)"
       ],
       "keywordSourceIds": [
-        "review-profile-76920cc8e5717e"
+        "review-profile-76920cc8e5717e",
+        "hkust-oces-20261111-profile-sai-kit-yeung-saikit",
+        "hkust-oces-20261111-roster"
       ],
       "sourceIds": [
-        "review-profile-76920cc8e5717e"
+        "review-profile-76920cc8e5717e",
+        "hkust-oces-20261111-profile-sai-kit-yeung-saikit",
+        "hkust-oces-20261111-roster"
       ],
       "topics": [
         "土木与机械工程",
@@ -17731,7 +17868,18 @@
         "sourceIds": [
           "review-profile-76920cc8e5717e"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://www.saikit.org/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "not_read"
+        }
+      ]
     },
     {
       "id": "review-hkust-091353d961719b",
@@ -61812,7 +61960,10 @@
       "summary": "研究物理海洋学、流体力学、应用与计算数学，以及全球气候变化。",
       "researchKeywords": [
         "物理海洋学、流体力学、应用与计算数学，以及全球气候变化",
-        "Physical oceanography Fluid mechanics Applied mathematics Global climate change Computational mathematics"
+        "Physical oceanography Fluid mechanics Applied mathematics Global climate change Computational mathematics",
+        "地球物理流体",
+        "海洋数值模拟",
+        "数据同化"
       ],
       "topics": [
         "数学与统计",
@@ -61826,17 +61977,22 @@
         "math-directory-2-20261028",
         "math-directory-3-20261028",
         "math-directory-4-20261028",
-        "math-personal-28-20261028"
+        "math-personal-28-20261028",
+        "hkust-oces-20261111-profile-julian-mak-jclmak",
+        "hkust-oces-20261111-roster"
       ],
       "keywordSourceIds": [
-        "math-profile-28-20261028"
+        "math-profile-28-20261028",
+        "hkust-oces-20261111-profile-julian-mak-jclmak",
+        "hkust-oces-20261111-roster"
       ],
       "directorySourceIds": [
         "math-directory-0-20261028",
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-oces-20261111-roster"
       ],
       "academicUnitIds": [
         "hkust-1"
@@ -61848,6 +62004,13 @@
           "parentSourceId": "math-profile-28-20261028",
           "bodyStatus": "body_read",
           "readNote": "实际返回正文和原HTTP入口分别记录；页面身份、研究和申请年度仍需分开核。",
+          "sourceId": "math-personal-28-20261028"
+        },
+        {
+          "label": "个人或课题组网站",
+          "url": "https://julianmak.github.io/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
           "sourceId": "math-personal-28-20261028"
         }
       ],
@@ -62901,7 +63064,10 @@
       "summary": "研究统计机器学习与应用统计。",
       "researchKeywords": [
         "统计机器学习与应用统计",
-        "Statistical machine learning Applied statistics"
+        "Statistical machine learning Applied statistics",
+        "统计机器学习",
+        "经验贝叶斯",
+        "统计遗传学"
       ],
       "topics": [
         "数学与统计",
@@ -62914,17 +63080,23 @@
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-oces-20261111-profile-can-yang-macyang",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-5"
       ],
       "keywordSourceIds": [
-        "math-profile-49-20261028"
+        "math-profile-49-20261028",
+        "hkust-oces-20261111-profile-can-yang-macyang",
+        "hkust-oces-20261111-roster"
       ],
       "directorySourceIds": [
         "math-directory-0-20261028",
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-oces-20261111-roster"
       ],
       "academicUnitIds": [
         "hkust-1"
@@ -62936,6 +63108,13 @@
           "parentSourceId": "math-profile-49-20261028",
           "bodyStatus": "not_read",
           "readNote": "官网原入口保留；本轮未读到可核正文或访问失败，不猜改地址。"
+        },
+        {
+          "label": "个人或课题组网站",
+          "url": "https://sites.google.com/site/eeyangc/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-5"
         }
       ],
       "availability": {
@@ -97538,20 +97717,29 @@
       "sourceIds": [
         "hkust-civl-20261109-profile-mengqian-lu-lumengqian",
         "hkust-civl-20261109-roster",
-        "hkust-civl-20261109-link-033"
+        "hkust-civl-20261109-link-033",
+        "hkust-oces-20261111-profile-mengqian-lu-cemlu",
+        "hkust-oces-20261111-roster"
       ],
       "directorySourceIds": [
-        "hkust-civl-20261109-roster"
+        "hkust-civl-20261109-roster",
+        "hkust-oces-20261111-roster"
       ],
       "keywordSourceIds": [
-        "hkust-civl-20261109-profile-mengqian-lu-lumengqian"
+        "hkust-civl-20261109-profile-mengqian-lu-lumengqian",
+        "hkust-oces-20261111-profile-mengqian-lu-cemlu",
+        "hkust-oces-20261111-roster"
       ],
       "academicUnitIds": [
         "hkust-2"
       ],
       "researchKeywords": [
         "水资源与环境流体力学",
-        "Water Resources and Environmental Fluid Mechanics"
+        "Water Resources and Environmental Fluid Mechanics",
+        "大气河流",
+        "水文气象极端事件",
+        "水资源",
+        "Hydrometeorological extremes Climate change and variability Monsoons Water resources system analysis and management Atmospheric rivers"
       ],
       "extraLinks": [
         {
@@ -113315,6 +113503,700 @@
         "text": "查看个人研究方向及项目申请要求。",
         "sourceIds": [
           "cuhk-physics-20261111-honorary-staff-zhou-xin"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-peiyuan-qian-boqianpy",
+      "universityId": "hkust",
+      "name": "Peiyuan QIAN",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=peiyuan-qian-boqianpy",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=peiyuan-qian-boqianpy",
+      "directoryRole": "David von Hansemann Professor of Science; Chair Professor",
+      "summary": "研究深海共生、组学、海洋天然产物。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "深海共生",
+        "组学",
+        "海洋天然产物",
+        "Omics of deep-sea marine invertebrates Marine molecular ecology Marine nature products (genome mining-based)"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-peiyuan-qian-boqianpy",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-1"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-peiyuan-qian-boqianpy",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://qianlab.hkust.edu.hk/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-1"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-peiyuan-qian-boqianpy"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-fumin-zhang-eefumin",
+      "universityId": "hkust",
+      "name": "Fumin ZHANG",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=fumin-zhang-eefumin",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fumin-zhang-eefumin",
+      "directoryRole": "Chair Professor",
+      "summary": "研究海洋机器人、自主系统、移动传感网络。",
+      "topics": [
+        "环境与可持续发展",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "海洋机器人",
+        "自主系统",
+        "移动传感网络",
+        "Marine robotics and autonomous systems Mobile sensor and actuator networks Bio-inspired distributed active perception Human-autonomy interaction and integration"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-fumin-zhang-eefumin",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-3"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-fumin-zhang-eefumin",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://fumin-home.hkust.edu.hk/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-3"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-fumin-zhang-eefumin"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-qinglu-zeng-zeng",
+      "universityId": "hkust",
+      "name": "Qinglu ZENG",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qinglu-zeng-zeng",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qinglu-zeng-zeng",
+      "directoryRole": "Professor",
+      "summary": "研究海洋细菌、噬菌体、环境适应。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "海洋细菌",
+        "噬菌体",
+        "环境适应",
+        "Cyanobacteria Virology Marine bacteria Environmental microbiology Marine microbial ecology"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-qinglu-zeng-zeng",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-7"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-qinglu-zeng-zeng",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://zenglab.hkust.edu.hk/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-7"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-qinglu-zeng-zeng"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-stanley-chun-kwan-lau-scklau",
+      "universityId": "hkust",
+      "name": "Stanley Chun Kwan LAU",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau",
+      "directoryRole": "Associate Professor",
+      "summary": "研究海洋微生物生态、抗生素抗性基因、污染溯源。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "海洋微生物生态",
+        "抗生素抗性基因",
+        "污染溯源",
+        "Marine bacteria Environmental microbiology Marine pollution Marine microbial ecology"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-stanley-chun-kwan-lau-scklau",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-stanley-chun-kwan-lau-scklau",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau#researchinterest",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-stanley-chun-kwan-lau-scklau"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-jiying-li-jiyingli",
+      "universityId": "hkust",
+      "name": "Jiying LI",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiying-li-jiyingli",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiying-li-jiyingli",
+      "directoryRole": "Associate Professor",
+      "summary": "研究水体生物地球化学、沉积物早期成岩、营养循环。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "水体生物地球化学",
+        "沉积物早期成岩",
+        "营养循环",
+        "Aquatic biogeochemistry Sediment early diagenesis Limnology and oceanography Environmental microbiology Global climate change"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-jiying-li-jiyingli",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-9"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-jiying-li-jiyingli",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://jiyingli.github.io/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-9"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-jiying-li-jiyingli"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-yan-wang-yanwang",
+      "universityId": "hkust",
+      "name": "Yan WANG",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yan-wang-yanwang",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yan-wang-yanwang",
+      "directoryRole": "Associate Professor",
+      "summary": "研究海洋湍流、涡流相互作用、海洋模式。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "海洋湍流",
+        "涡流相互作用",
+        "海洋模式",
+        "Geophysical fluid dynamics Physical oceanography Turbulence Computational fluid dynamics Nonlinear dynamics"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-yan-wang-yanwang",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-11"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-yan-wang-yanwang",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://yanwanghkust.github.io",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-11"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-yan-wang-yanwang"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-charmaine-yung-ccmyung",
+      "universityId": "hkust",
+      "name": "Charmaine Cheuk Man YUNG",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=charmaine-yung-ccmyung",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=charmaine-yung-ccmyung",
+      "directoryRole": "Associate Professor",
+      "summary": "研究微生物海洋学、藻类病毒、全球变化。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "微生物海洋学",
+        "藻类病毒",
+        "全球变化",
+        "Biological oceanography Marine microbial ecology Viral ecology Picophytoplankton Global climate change"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-charmaine-yung-ccmyung",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-charmaine-yung-ccmyung",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://www.charmaineyung.com/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-charmaine-yung-ccmyung"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-ding-he-dinghe",
+      "universityId": "hkust",
+      "name": "Ding HE",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ding-he-dinghe",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ding-he-dinghe",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究有机地球化学、碳循环、稳定同位素。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "有机地球化学",
+        "碳循环",
+        "稳定同位素",
+        "Ocean science Organic Geochemistry Marine environment Marine chemical ecology Marine pollution"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-ding-he-dinghe",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-13"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-ding-he-dinghe",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://hkustdinghe.github.io/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-13"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-ding-he-dinghe"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-masayuki-ushio-ushio",
+      "universityId": "hkust",
+      "name": "Masayuki USHIO",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=masayuki-ushio-ushio",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=masayuki-ushio-ushio",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究环境DNA、群落动态、统计建模。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "环境DNA",
+        "群落动态",
+        "统计建模",
+        "Biodiversity Marine ecology Fishing and fisheries science and management Microbial food web dynamics Machine learning"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-masayuki-ushio-ushio",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-14"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-masayuki-ushio-ushio",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://ong8181.github.io/ushio-ecolab/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-14"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-masayuki-ushio-ushio"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-longjun-wu-longjunwu",
+      "universityId": "hkust",
+      "name": "Longjun WU",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=longjun-wu-longjunwu",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=longjun-wu-longjunwu",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究海洋动物进化、生态基因组学、深海适应。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "海洋动物进化",
+        "生态基因组学",
+        "深海适应",
+        "Evolutionary biology Evo-devo Macroevolution Ecology Marine biology Bioinformatics"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-longjun-wu-longjunwu",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-longjun-wu-longjunwu",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://longjunwulab.org/index.html",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-longjun-wu-longjunwu"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-alex-wyatt-wyatt",
+      "universityId": "hkust",
+      "name": "Alex S.J. WYATT",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=alex-wyatt-wyatt",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=alex-wyatt-wyatt",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究海洋生态、同位素生态、生态系统修复。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "海洋生态",
+        "同位素生态",
+        "生态系统修复",
+        "Marine ecology Ocean science Marine biogeochemistry Isotope ecology Environmental engineering"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-alex-wyatt-wyatt",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-alex-wyatt-wyatt",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "http://www.alexsjwyatt.com/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-alex-wyatt-wyatt"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-qiong-zhang-qiongz",
+      "universityId": "hkust",
+      "name": "Qiong ZHANG",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qiong-zhang-qiongz",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qiong-zhang-qiongz",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究微量金属、生物地球化学、微生物组学。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "微量金属",
+        "生物地球化学",
+        "微生物组学",
+        "Global change biology Marine chemical ecology Ocean science Marine genomics and proteomics"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-qiong-zhang-qiongz",
+        "hkust-oces-20261111-roster",
+        "hkust-oces-20261111-linked-17"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-qiong-zhang-qiongz",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [
+        {
+          "label": "个人或课题组网站",
+          "url": "https://joanqzhang.github.io/",
+          "parentSourceId": "hkust-oces-20261111-roster",
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-oces-20261111-linked-17"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-qiong-zhang-qiongz"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-cindy-ka-sin-lam-envscindy",
+      "universityId": "hkust",
+      "name": "Cindy Ka Sin LAM",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=cindy-ka-sin-lam-envscindy",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=cindy-ka-sin-lam-envscindy",
+      "directoryRole": "Assistant Professor of Science Education",
+      "summary": "研究海洋幼体、生物膜、海洋保护与教学。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "海洋幼体",
+        "生物膜",
+        "海洋保护与教学",
+        "Larval biology Marine chemical ecology Marine conservation"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-cindy-ka-sin-lam-envscindy",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-cindy-ka-sin-lam-envscindy",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-cindy-ka-sin-lam-envscindy"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-sin-ting-cynthia-yau-cynthiastyau",
+      "universityId": "hkust",
+      "name": "Cynthia Sin Ting Yau",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=sin-ting-cynthia-yau-cynthiastyau",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sin-ting-cynthia-yau-cynthiastyau",
+      "directoryRole": "Assistant Professor of Science Education",
+      "summary": "研究生物多样性、海洋浮游生物、海洋保护。",
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "生物多样性",
+        "海洋浮游生物",
+        "海洋保护",
+        "Biodiversity Marine ecology Marine environment Marine plankton ecology Marine conservation"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-sin-ting-cynthia-yau-cynthiastyau",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-sin-ting-cynthia-yau-cynthiastyau",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-sin-ting-cynthia-yau-cynthiastyau"
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-shui-yee-leung-envsveronica",
+      "universityId": "hkust",
+      "name": "Shui-yee LEUNG",
+      "department": "海洋科学系",
+      "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shui-yee-leung-envsveronica",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shui-yee-leung-envsveronica",
+      "directoryRole": "Lecturer",
+      "summary": "研究食品微生物、食品安全、水源性病原体。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "researchKeywords": [
+        "食品微生物",
+        "食品安全",
+        "水源性病原体",
+        "Microbiology Environmental microbiology Virology Public health"
+      ],
+      "sourceIds": [
+        "hkust-oces-20261111-profile-shui-yee-leung-envsveronica",
+        "hkust-oces-20261111-roster"
+      ],
+      "directorySourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "keywordSourceIds": [
+        "hkust-oces-20261111-profile-shui-yee-leung-envsveronica",
+        "hkust-oces-20261111-roster"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "先了解研究方向与研究学位申请要求。",
+        "sourceIds": [
+          "hkust-oces-20261111-profile-shui-yee-leung-envsveronica"
         ]
       }
     }
@@ -231109,6 +231991,612 @@
       "readMethod": "anonymous_HTTP",
       "bodySha256": "9f2e1dad4123328d1e4903dcc1d148e1441527e85d1ec999359f192b9299b52d",
       "parentSourceId": "cuhk-physics-20261111-teaching-staff-xu-lei"
+    },
+    {
+      "id": "hkust-oces-20261111-roster",
+      "url": "https://oces.hkust.edu.hk/research-faculty-teaching-staff",
+      "title": "港科大海洋科学 · roster",
+      "scope": "学系列18张Research Faculty与3张Teaching Faculty卡。与理学院另列的研究助理教授范围不同，不作为全岗位总数。",
+      "claims": [
+        "学系列18张Research Faculty与3张Teaching Faculty卡。与理学院另列的研究助理教授范围不同，不作为全岗位总数。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6c39565750e07aac571196de5f95a913568ee78726083dee174db8ebd5ce8dde",
+      "discoveredLinks": [
+        "https://www.math.hkust.edu.hk/people/faculty/profile/magan/",
+        "https://qianlab.hkust.edu.hk/",
+        "https://ce.hkust.edu.hk/people/hui-su-suhui",
+        "https://fumin-home.hkust.edu.hk/",
+        "https://cemlu.people.ust.hk/",
+        "https://sites.google.com/site/eeyangc/",
+        "https://www.saikit.org/",
+        "https://zenglab.hkust.edu.hk/",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau#researchinterest",
+        "https://jiyingli.github.io/",
+        "https://julianmak.github.io/",
+        "https://yanwanghkust.github.io",
+        "https://www.charmaineyung.com/",
+        "https://hkustdinghe.github.io/",
+        "https://ong8181.github.io/ushio-ecolab/",
+        "https://longjunwulab.org/index.html",
+        "http://www.alexsjwyatt.com/",
+        "https://joanqzhang.github.io/"
+      ],
+      "teacherLinksByProfile": {
+        "https://researchportal.hkust.edu.hk/en/persons/jianping-gan/": [
+          "https://www.math.hkust.edu.hk/people/faculty/profile/magan/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=peiyuan-qian-boqianpy": [
+          "https://qianlab.hkust.edu.hk/"
+        ],
+        "https://researchportal.hkust.edu.hk/en/persons/hui-su/": [
+          "https://ce.hkust.edu.hk/people/hui-su-suhui"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=fumin-zhang-eefumin": [
+          "https://fumin-home.hkust.edu.hk/"
+        ],
+        "https://ce.hkust.edu.hk/people/mengqian-lu-lumengqian": [
+          "https://cemlu.people.ust.hk/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang": [
+          "https://sites.google.com/site/eeyangc/"
+        ],
+        "https://researchportal.hkust.edu.hk/en/persons/sai-kit-yeung/": [
+          "https://www.saikit.org/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=qinglu-zeng-zeng": [
+          "https://zenglab.hkust.edu.hk/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau": [
+          "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau#researchinterest"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=jiying-li-jiyingli": [
+          "https://jiyingli.github.io/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak": [
+          "https://julianmak.github.io/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=yan-wang-yanwang": [
+          "https://yanwanghkust.github.io"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=charmaine-yung-ccmyung": [
+          "https://www.charmaineyung.com/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ding-he-dinghe": [
+          "https://hkustdinghe.github.io/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=masayuki-ushio-ushio": [
+          "https://ong8181.github.io/ushio-ecolab/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=longjun-wu-longjunwu": [
+          "https://longjunwulab.org/index.html"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=alex-wyatt-wyatt": [
+          "http://www.alexsjwyatt.com/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=qiong-zhang-qiongz": [
+          "https://joanqzhang.github.io/"
+        ],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=cindy-ka-sin-lam-envscindy": [],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=sin-ting-cynthia-yau-cynthiastyau": [],
+        "https://facultyprofiles.ust.hk/profiles.php?profile=shui-yee-leung-envsveronica": []
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-profile-jianping-gan-magan",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jianping-gan-magan",
+      "title": "港科大海洋科学 · profile-jianping-gan-magan",
+      "scope": "已保存官网个人页的身份与Research Interest段：Ocean circulation and ecosystem modeling Computational fluid dynamics Physical oceanography Ocean circulation and ecosystem Regional climate change modeling",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Ocean circulation and ecosystem modeling Computational fluid dynamics Physical oceanography Ocean circulation and ecosystem Regional climate change modeling"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e63564456766b02451274d5ff7242ca3dacf0791b3d2a4cfd5d91750b88dbd36",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:24.147676+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-peiyuan-qian-boqianpy",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=peiyuan-qian-boqianpy",
+      "title": "港科大海洋科学 · profile-peiyuan-qian-boqianpy",
+      "scope": "已保存官网个人页的身份与Research Interest段：Omics of deep-sea marine invertebrates Marine molecular ecology Marine nature products (genome mining-based)",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Omics of deep-sea marine invertebrates Marine molecular ecology Marine nature products (genome mining-based)"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cbf6c8cc99cb6b4d9966c12b9da7ac622c40551586c6bf296f1f903752c1a78f",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:04.083571+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-1",
+      "url": "https://qianlab.hkust.edu.hk/",
+      "title": "港科大海洋科学 · linked-1",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "867013eb6aebb0884927d7f81f0fb587042f1489603a8bb567ab13b2059930aa",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://qianlab.hkust.edu.hk/",
+      "retrievedUrl": "https://qianlab.hkust.edu.hk/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-hui-su-cehsu",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hui-su-cehsu",
+      "title": "港科大海洋科学 · profile-hui-su-cehsu",
+      "scope": "已保存官网个人页的身份与Research Interest段：Remote sensing Tropical meteorology Climate variability and climate change",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Remote sensing Tropical meteorology Climate variability and climate change"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "235f313d72e88983710f67a2b6179f28ed99844bb8386989f7c9935ef4d3dd23",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:58.643686+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-fumin-zhang-eefumin",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fumin-zhang-eefumin",
+      "title": "港科大海洋科学 · profile-fumin-zhang-eefumin",
+      "scope": "已保存官网个人页的身份与Research Interest段：Marine robotics and autonomous systems Mobile sensor and actuator networks Bio-inspired distributed active perception Human-autonomy interaction and integration",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Marine robotics and autonomous systems Mobile sensor and actuator networks Bio-inspired distributed active perception Human-autonomy interaction and integration"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "91cf9aad20651a94cdb40f9baf94e5499257ef8d3bef226295e6d1a41c213115",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:04.953414+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-3",
+      "url": "https://fumin-home.hkust.edu.hk/",
+      "title": "港科大海洋科学 · linked-3",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "618570f8c59655f6743a19ec247bc435e22803a84be781604efffb29857c9a63",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://fumin-home.hkust.edu.hk/",
+      "retrievedUrl": "https://fumin-home.hkust.edu.hk/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-mengqian-lu-cemlu",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=mengqian-lu-cemlu",
+      "title": "港科大海洋科学 · profile-mengqian-lu-cemlu",
+      "scope": "已保存官网个人页的身份与Research Interest段：Hydrometeorological extremes Climate change and variability Monsoons Water resources system analysis and management Atmospheric rivers",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Hydrometeorological extremes Climate change and variability Monsoons Water resources system analysis and management Atmospheric rivers"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "423bc4b390c669a631cd75becdb6c2d9fee92413a43b276b527c35cd519393f0",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:57.226133+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-can-yang-macyang",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=can-yang-macyang",
+      "title": "港科大海洋科学 · profile-can-yang-macyang",
+      "scope": "已保存官网个人页的身份与Research Interest段：Statistical machine learning Applied statistics",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Statistical machine learning Applied statistics"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "61fbab121d3df3f9c0314aa66e3aa0359ef70fa13af4810d17d62ad137946e11",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:42.083772+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-5",
+      "url": "https://sites.google.com/site/eeyangc/",
+      "title": "港科大海洋科学 · linked-5",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "00e18f9bdc7f143cec0cb8a965d2af05356dce0c2e2d2d3b44fdebdee52a0276",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://sites.google.com/site/eeyangc/",
+      "retrievedUrl": "https://sites.google.com/site/eeyangc/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-sai-kit-yeung-saikit",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sai-kit-yeung-saikit",
+      "title": "港科大海洋科学 · profile-sai-kit-yeung-saikit",
+      "scope": "已保存官网个人页的身份与Research Interest段：Computer vision Computer graphics Computational design Computer-aided design and manufacturing (CAD / CAM)",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Computer vision Computer graphics Computational design Computer-aided design and manufacturing (CAD / CAM)"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fe8c3aa4b9baeeada90dfb65c45955e328cd4788130bde4f48bf9c09021a5ff2",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:03.703909+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-qinglu-zeng-zeng",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qinglu-zeng-zeng",
+      "title": "港科大海洋科学 · profile-qinglu-zeng-zeng",
+      "scope": "已保存官网个人页的身份与Research Interest段：Cyanobacteria Virology Marine bacteria Environmental microbiology Marine microbial ecology",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Cyanobacteria Virology Marine bacteria Environmental microbiology Marine microbial ecology"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "67cb431af61054eaba5efd22e6aca72e516d1efa00b2168d08ca35d55840a02f",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:18.250374+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-7",
+      "url": "https://zenglab.hkust.edu.hk/",
+      "title": "港科大海洋科学 · linked-7",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8fca14a2bb298b559911bf08d9245d01be2a2a8ecb8283137900496f69a4fdc5",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://zenglab.hkust.edu.hk/",
+      "retrievedUrl": "https://zenglab.hkust.edu.hk/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-stanley-chun-kwan-lau-scklau",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau",
+      "title": "港科大海洋科学 · profile-stanley-chun-kwan-lau-scklau",
+      "scope": "已保存官网个人页的身份与Research Interest段：Marine bacteria Environmental microbiology Marine pollution Marine microbial ecology",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Marine bacteria Environmental microbiology Marine pollution Marine microbial ecology"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dd44cab00754078bf0957a4b0afef0a7b7b223a75f61de600b0963582525d3ee",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:11:53.223579+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-jiying-li-jiyingli",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=jiying-li-jiyingli",
+      "title": "港科大海洋科学 · profile-jiying-li-jiyingli",
+      "scope": "已保存官网个人页的身份与Research Interest段：Aquatic biogeochemistry Sediment early diagenesis Limnology and oceanography Environmental microbiology Global climate change",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Aquatic biogeochemistry Sediment early diagenesis Limnology and oceanography Environmental microbiology Global climate change"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6cb03583518a873eef5fa5b54053f0db6de36dc7efde8c536d5c26c71a9cfda0",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:57.225075+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-9",
+      "url": "https://jiyingli.github.io/",
+      "title": "港科大海洋科学 · linked-9",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ff94f44dfb620ea03d2f730208a6c8fd56c0871a946bf41e6b8e0bff6d03fa36",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://jiyingli.github.io/",
+      "retrievedUrl": "https://jiyingli.github.io/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-julian-mak-jclmak",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=julian-mak-jclmak",
+      "title": "港科大海洋科学 · profile-julian-mak-jclmak",
+      "scope": "已保存官网个人页的身份与Research Interest段：Physical oceanography Fluid mechanics Applied mathematics Global climate change Computational mathematics",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Physical oceanography Fluid mechanics Applied mathematics Global climate change Computational mathematics"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ab6da5236ccaf97685ab00c5ddb99261d21e65d441c04a7fefcfbbf22758f1f4",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:32.232578+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-yan-wang-yanwang",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yan-wang-yanwang",
+      "title": "港科大海洋科学 · profile-yan-wang-yanwang",
+      "scope": "已保存官网个人页的身份与Research Interest段：Geophysical fluid dynamics Physical oceanography Turbulence Computational fluid dynamics Nonlinear dynamics",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Geophysical fluid dynamics Physical oceanography Turbulence Computational fluid dynamics Nonlinear dynamics"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3cd9b409bd4a780454da4c8f3398509dee9e6ff966a6643598facc396ced15e8",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:59.648111+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-11",
+      "url": "https://yanwanghkust.github.io",
+      "title": "港科大海洋科学 · linked-11",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1a404e9830322d1efc1050feb08986160f68974c926865a44c40389edb7bd3ec",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://yanwanghkust.github.io",
+      "retrievedUrl": "https://yanwanghkust.github.io"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-charmaine-yung-ccmyung",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=charmaine-yung-ccmyung",
+      "title": "港科大海洋科学 · profile-charmaine-yung-ccmyung",
+      "scope": "已保存官网个人页的身份与Research Interest段：Biological oceanography Marine microbial ecology Viral ecology Picophytoplankton Global climate change",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Biological oceanography Marine microbial ecology Viral ecology Picophytoplankton Global climate change"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6daa3b0593fb28011cc21cabafc5c0c5c9be4f4d47d42b6e12199461468808b0",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:03.825249+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-ding-he-dinghe",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ding-he-dinghe",
+      "title": "港科大海洋科学 · profile-ding-he-dinghe",
+      "scope": "已保存官网个人页的身份与Research Interest段：Ocean science Organic Geochemistry Marine environment Marine chemical ecology Marine pollution",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Ocean science Organic Geochemistry Marine environment Marine chemical ecology Marine pollution"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "284d9c6624977bfd0b5fdcdcaa83e4f1a628502801ca70e33d2b5d27ffdc017f",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:49.535905+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-13",
+      "url": "https://hkustdinghe.github.io/",
+      "title": "港科大海洋科学 · linked-13",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "97d10dc911a147e1849608780cf3ec79ce40e4a776855c55ddda3ccf77f87e9f",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://hkustdinghe.github.io/",
+      "retrievedUrl": "https://hkustdinghe.github.io/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-masayuki-ushio-ushio",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=masayuki-ushio-ushio",
+      "title": "港科大海洋科学 · profile-masayuki-ushio-ushio",
+      "scope": "已保存官网个人页的身份与Research Interest段：Biodiversity Marine ecology Fishing and fisheries science and management Microbial food web dynamics Machine learning",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Biodiversity Marine ecology Fishing and fisheries science and management Microbial food web dynamics Machine learning"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "38f4b42e7a299ac8d78247c7dd1ed9c4c3e56a287a9de120e242ad889b055f57",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:59.341774+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-14",
+      "url": "https://ong8181.github.io/ushio-ecolab/",
+      "title": "港科大海洋科学 · linked-14",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bf0ac0da37103c01b35d00b6c1cfd5fdf63124c815608376bcf8f0f1045461ee",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://ong8181.github.io/ushio-ecolab/",
+      "retrievedUrl": "https://ong8181.github.io/ushio-ecolab/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-longjun-wu-longjunwu",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=longjun-wu-longjunwu",
+      "title": "港科大海洋科学 · profile-longjun-wu-longjunwu",
+      "scope": "已保存官网个人页的身份与Research Interest段：Evolutionary biology Evo-devo Macroevolution Ecology Marine biology Bioinformatics",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Evolutionary biology Evo-devo Macroevolution Ecology Marine biology Bioinformatics"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3e78a18d8200fd82c9832373a7e7985fc3191f88f9992cb7c68a67544c3160d1",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:00.353528+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-alex-wyatt-wyatt",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=alex-wyatt-wyatt",
+      "title": "港科大海洋科学 · profile-alex-wyatt-wyatt",
+      "scope": "已保存官网个人页的身份与Research Interest段：Marine ecology Ocean science Marine biogeochemistry Isotope ecology Environmental engineering",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Marine ecology Ocean science Marine biogeochemistry Isotope ecology Environmental engineering"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4b459b305c380721616f5f8ee7d7e4304970349ce6aab720f017215c0b5abdbc",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:00.755310+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-qiong-zhang-qiongz",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qiong-zhang-qiongz",
+      "title": "港科大海洋科学 · profile-qiong-zhang-qiongz",
+      "scope": "已保存官网个人页的身份与Research Interest段：Global change biology Marine chemical ecology Ocean science Marine genomics and proteomics",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Global change biology Marine chemical ecology Ocean science Marine genomics and proteomics"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9133d5bf2c4e6875f3f260b92b936ffd10444440a1076dd30b632c78afb56ed2",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:04.387670+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-linked-17",
+      "url": "https://joanqzhang.github.io/",
+      "title": "港科大海洋科学 · linked-17",
+      "scope": "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。",
+      "claims": [
+        "所给研究站点首页的身份或研究概览已读；不包括全部下属页面。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "953613d0cad9e9651f7c03406788a693161972df49a7a1a2eaf6afc2a46fd597",
+      "discoveredLinks": [],
+      "parentSourceId": "hkust-oces-20261111-roster",
+      "originalUrl": "https://joanqzhang.github.io/",
+      "retrievedUrl": "https://joanqzhang.github.io/"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-cindy-ka-sin-lam-envscindy",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=cindy-ka-sin-lam-envscindy",
+      "title": "港科大海洋科学 · profile-cindy-ka-sin-lam-envscindy",
+      "scope": "已保存官网个人页的身份与Research Interest段：Larval biology Marine chemical ecology Marine conservation",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Larval biology Marine chemical ecology Marine conservation"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c1fd7d1dccad20e40df076ef3f43c54d3487e7acbb2a949bf77df30e8f4b95db",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:55.336929+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-sin-ting-cynthia-yau-cynthiastyau",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sin-ting-cynthia-yau-cynthiastyau",
+      "title": "港科大海洋科学 · profile-sin-ting-cynthia-yau-cynthiastyau",
+      "scope": "已保存官网个人页的身份与Research Interest段：Biodiversity Marine ecology Marine environment Marine plankton ecology Marine conservation",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Biodiversity Marine ecology Marine environment Marine plankton ecology Marine conservation"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2aab840ce7dc8f4c80ff1d81aa6b2403fe4b3b577b17393e0a7c22ae66f9a27d",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:13:01.491481+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-profile-shui-yee-leung-envsveronica",
+      "url": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=shui-yee-leung-envsveronica",
+      "title": "港科大海洋科学 · profile-shui-yee-leung-envsveronica",
+      "scope": "已保存官网个人页的身份与Research Interest段：Microbiology Environmental microbiology Virology Public health",
+      "claims": [
+        "已保存官网个人页的身份与Research Interest段：Microbiology Environmental microbiology Virology Public health"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e68a46c470e2fd8883b6d7da9f5bb8a99f7f66ddad5e055c41cc2e402b5a2436",
+      "discoveredLinks": [],
+      "capturedAt": "2026-10-28T11:12:56.307541+00:00"
+    },
+    {
+      "id": "hkust-oces-20261111-programme",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-mes",
+      "title": "港科大海洋科学 · programme",
+      "scope": "2027/28海洋环境科学MPhil/PhD的入学学历、语言、申请费、常规截止和博士HKPFS；与2026/27春季分开。",
+      "claims": [
+        "2027/28海洋环境科学MPhil/PhD的入学学历、语言、申请费、常规截止和博士HKPFS；与2026/27春季分开。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ee6e2cde76698df7dca708093817e1e6bca530e4f56e7e9e120af1a4042436ad",
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -257772,6 +259260,215 @@
             "name": "YEUNG Man Hau",
             "directoryPosition": "Technician",
             "reason": "原表未给个人主页"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkust-oces-20261111-roster-directory",
+      "universityId": "hkust",
+      "unit": "海洋科学系 · 研究与教学人员",
+      "url": "https://oces.hkust.edu.hk/research-faculty-teaching-staff",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hkust-oces-20261111-roster"
+      ],
+      "reviewSourceIds": [
+        "hkust-oces-20261111-profile-jianping-gan-magan",
+        "hkust-oces-20261111-profile-peiyuan-qian-boqianpy",
+        "hkust-oces-20261111-profile-hui-su-cehsu",
+        "hkust-oces-20261111-profile-fumin-zhang-eefumin",
+        "hkust-oces-20261111-profile-mengqian-lu-cemlu",
+        "hkust-oces-20261111-profile-can-yang-macyang",
+        "hkust-oces-20261111-profile-sai-kit-yeung-saikit",
+        "hkust-oces-20261111-profile-qinglu-zeng-zeng",
+        "hkust-oces-20261111-profile-stanley-chun-kwan-lau-scklau",
+        "hkust-oces-20261111-profile-jiying-li-jiyingli",
+        "hkust-oces-20261111-profile-julian-mak-jclmak",
+        "hkust-oces-20261111-profile-yan-wang-yanwang",
+        "hkust-oces-20261111-profile-charmaine-yung-ccmyung",
+        "hkust-oces-20261111-profile-ding-he-dinghe",
+        "hkust-oces-20261111-profile-masayuki-ushio-ushio",
+        "hkust-oces-20261111-profile-longjun-wu-longjunwu",
+        "hkust-oces-20261111-profile-alex-wyatt-wyatt",
+        "hkust-oces-20261111-profile-qiong-zhang-qiongz",
+        "hkust-oces-20261111-profile-cindy-ka-sin-lam-envscindy",
+        "hkust-oces-20261111-profile-sin-ting-cynthia-yau-cynthiastyau",
+        "hkust-oces-20261111-profile-shui-yee-leung-envsveronica"
+      ],
+      "coverageNotes": "学系Research与Teaching两类；理学院另列RAP仍待比较，不把21卡当完整指导名单。",
+      "census": {
+        "observedTotal": 21,
+        "profilesRead": 21,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Jianping GAN",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jianping-gan-magan",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Head and Chair Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Peiyuan QIAN",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=peiyuan-qian-boqianpy",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "David von Hansemann Professor of Science; Chair Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Hui SU",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=hui-su-cehsu",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Chair Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Fumin ZHANG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=fumin-zhang-eefumin",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Chair Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Mengqian LU",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=mengqian-lu-cemlu",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Can YANG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=can-yang-macyang",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Sai Kit YEUNG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=sai-kit-yeung-saikit",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Qinglu ZENG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qinglu-zeng-zeng",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Stanley Chun Kwan LAU",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=stanley-chun-kwan-lau-scklau",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Jiying LI",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=jiying-li-jiyingli",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Julian MAK",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=julian-mak-jclmak",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Yan WANG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=yan-wang-yanwang",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Charmaine Cheuk Man YUNG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=charmaine-yung-ccmyung",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Associate Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Ding HE",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=ding-he-dinghe",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Masayuki USHIO",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=masayuki-ushio-ushio",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Longjun WU",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=longjun-wu-longjunwu",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Alex S.J. WYATT",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=alex-wyatt-wyatt",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Qiong ZHANG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qiong-zhang-qiongz",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "category": "Research Faculty"
+          },
+          {
+            "name": "Cindy Ka Sin LAM",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=cindy-ka-sin-lam-envscindy",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor of Science Education",
+            "category": "Teaching Faculty"
+          },
+          {
+            "name": "Cynthia Sin Ting Yau",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=sin-ting-cynthia-yau-cynthiastyau",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor of Science Education",
+            "category": "Teaching Faculty"
+          },
+          {
+            "name": "Shui-yee LEUNG",
+            "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=shui-yee-leung-envsveronica",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Lecturer",
+            "category": "Teaching Faculty"
           }
         ]
       }
@@ -302223,5 +303920,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:c5f1f9eabc1597dac34c7d9e113bab79535fad3aec8483e0d025e86feb1cffee"
+  "snapshotId": "sha256:e0e1d04940441edd550eee8d3e16752d2248935e37e800cdb4b21860c918b1ff"
 }
