@@ -1104,6 +1104,10 @@ def build_catalog():
     dsa_faculty = load("hkustgz-dsa-20261110.json")
     catalog["sources"].extend(dsa_faculty["sources"])
     catalog["faculty"].extend(dsa_faculty["faculty"])
+    for reviewed_directory in dsa_faculty["directories"]:
+        original_directory = next(row for row in catalog["directories"] if row["id"] == reviewed_directory["id"])
+        original_directory.clear()
+        original_directory.update(reviewed_directory)
     for update in dsa_faculty["facultyUpdates"]:
         original = next(row for row in catalog["faculty"] if row["id"] == update["id"])
         for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
