@@ -1,0 +1,93 @@
+{
+  "sources": [
+    {
+      "id": "hkust-life-science-programme-20261111",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-lifs",
+      "title": "生命科学研究学位 · 2027/28项目目录",
+      "checkedAt": "2026-11-11",
+      "academicYear": "2027/28",
+      "scope": "已读学位、申请资格、语言、费用、身份与秋春日期。",
+      "claims": [
+        "MPhil认可学士；PhD优秀学士或达规定的研究生学习经历。",
+        "2027/28秋季非本地6月1日、本地7月15日；不捏造时刻。",
+        "2026/27春季非本地11月1日已过，本地12月15日；不是2027/28春季。",
+        "申请费180港元；TOEFL考试日期区分80与4.5。"
+      ],
+      "knownIssues": [
+        "项目页协调人仍称Jiguang WANG副教授，与人员页教授不同，不修改个人当前岗位。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "6d31ebdf3edb32a770dfa731bda8f0d83f923fdfb73f55dae1e06715d7606c97"
+    },
+    {
+      "id": "hkust-life-science-admission-20261111",
+      "url": "https://life-sci.hkust.edu.hk/postgraduate/admission/",
+      "title": "生命科学研究学位 · 学部申请材料说明",
+      "checkedAt": "2026-11-11",
+      "academicYear": null,
+      "scope": "已读学部学历背景与材料说明；未标招生年。",
+      "claims": [
+        "学部另列平均成绩3或同等资格；两封学术推荐信。",
+        "身份文件、成绩与学位、评分制度、语言证明及推荐人。"
+      ],
+      "knownIssues": [
+        "学部未标年页仍写TOEFL80；考试日期门槛按2027/28年度目录，不把旧概括覆盖新标度。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "6d31ebdf3edb32a770dfa731bda8f0d83f923fdfb73f55dae1e06715d7606c97"
+    }
+  ],
+  "programId": "hkust-life-science-rpg-2027",
+  "degrees": [
+    "MPhil",
+    "PhD"
+  ],
+  "cycle": "2027/28",
+  "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-lifs",
+  "contactStatus": "unknown",
+  "degreeRequirements": {
+    "MPhil": "认可学士或获准同等资格",
+    "PhD": "表现优异的认可学士，或至少一年全日制/两年兼读研究生学习并表现合格"
+  },
+  "english": {
+    "IELTS": "6.5，各项5.5",
+    "TOEFL_iBT_before_2026_01_21": 80,
+    "TOEFL_iBT_from_2026_01_21": 4.5,
+    "singleAttempt": true,
+    "atHomeAccepted": false,
+    "exemptions": [
+      "英语母语",
+      "英语授课学士或同等资格"
+    ]
+  },
+  "deadlines": [
+    {
+      "cycle": "2027/28",
+      "label": "秋季非本地截止",
+      "date": "2027-06-01",
+      "at": null
+    },
+    {
+      "cycle": "2027/28",
+      "label": "秋季本地截止",
+      "date": "2027-07-15",
+      "at": null
+    }
+  ],
+  "springScope": {
+    "cycle": "2026/27 Spring",
+    "nonlocal": "2026-11-01",
+    "local": "2026-12-15",
+    "separateFromFall": true
+  },
+  "applicationFeeHKD": 180,
+  "partTimeNote": "持学生签证或入境许可的非本地学生不能在香港修读兼读研究学位。",
+  "materialsSourceId": "hkust-life-science-admission-20261111",
+  "integrated": false
+}
