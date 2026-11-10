@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_cuhk_physics",
+  "stage": "post_alpha34_cuhk_physics_role_completion",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 71,
     "degree_routes": 123,
     "faculty": 2038,
-    "official_sources": 3219,
+    "official_sources": 3221,
     "programmes_with_partial_requirements": 68,
     "requirement_items": 246,
     "programmes_with_partial_finances": 40,
     "finance_items": 67,
-    "official_directory_entries": 122,
-    "teacher_linked_sources": 772,
-    "total_sources": 3991,
+    "official_directory_entries": 124,
+    "teacher_linked_sources": 775,
+    "total_sources": 3996,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -486,5 +486,5 @@
     "新增港中文急症医学教研单位及港科大材料科学与工程系相关入口。",
     "信息来源可按关键词搜索和分批浏览；收藏老师时保留展开的依据。"
   ],
-  "catalogue_snapshot": "sha256:6fe3ddcc55362c05df834933428c99823ea7151ff5518f3d6632de857cbccda0"
+  "catalogue_snapshot": "sha256:c5f1f9eabc1597dac34c7d9e113bab79535fad3aec8483e0d025e86feb1cffee"
 }
