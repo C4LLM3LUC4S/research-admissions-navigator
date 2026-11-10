@@ -1,23 +1,23 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_cuhk_physics_role_completion",
+  "stage": "post_alpha34_hkust_ocean_science",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 71,
-    "degree_routes": 123,
-    "faculty": 2038,
-    "official_sources": 3221,
-    "programmes_with_partial_requirements": 68,
-    "requirement_items": 246,
-    "programmes_with_partial_finances": 40,
-    "finance_items": 67,
-    "official_directory_entries": 124,
-    "teacher_linked_sources": 775,
-    "total_sources": 3996,
+    "programme_or_route_cards": 72,
+    "degree_routes": 125,
+    "faculty": 2053,
+    "official_sources": 3244,
+    "programmes_with_partial_requirements": 69,
+    "requirement_items": 249,
+    "programmes_with_partial_finances": 41,
+    "finance_items": 68,
+    "official_directory_entries": 125,
+    "teacher_linked_sources": 784,
+    "total_sources": 4028,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -486,5 +486,5 @@
     "新增港中文急症医学教研单位及港科大材料科学与工程系相关入口。",
     "信息来源可按关键词搜索和分批浏览；收藏老师时保留展开的依据。"
   ],
-  "catalogue_snapshot": "sha256:c5f1f9eabc1597dac34c7d9e113bab79535fad3aec8483e0d025e86feb1cffee"
+  "catalogue_snapshot": "sha256:e0e1d04940441edd550eee8d3e16752d2248935e37e800cdb4b21860c918b1ff"
 }

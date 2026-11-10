@@ -1152,6 +1152,29 @@ def build_catalog():
         {"id":"cuhk-physics-tuition", "kind":"tuition", "label":"学费", "text":"2027/28 学年全日制 MPhil/PhD 每年49,500港元。", "action":"查看项目学费与资助说明。", "sourceIds":phys_sources, "rates":[{"value":49500,"currency":"HKD","unit":"academic_year","basis":"academic_year","cycle":"2027/28","condition":"全日制 MPhil/PhD"}]},
         {"id":"cuhk-physics-application-fee", "kind":"application_fee", "label":"申请费", "rates":[], "text":"申请费500港元。", "action":"在正式申请系统核对付款安排。", "sourceIds":phys_sources}]
     catalog["programs"].append(phys)
+    ocean = load("hkust-oces-20261111.json")
+    for section in ("sources", "faculty", "directories"):
+        catalog[section].extend(ocean[section])
+    for update in ocean["facultyUpdates"]:
+        original = next(f for f in catalog["faculty"] if f["id"] == update["id"])
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known)
+    ocean_sources = ["hkust-oces-20261111-programme"]
+    mes = program("hkust-mes-rpg-2027", "hkust", "海洋环境科学 MPhil/PhD", ["MPhil", "PhD"],
+        "香港校区，2027/28秋季。方向包括海洋生态、海洋学与海洋技术；全日制和兼读分开核对。",
+        "unknown", "先查看项目要求与相关教师研究方向。", ocean_sources,
+        "MPhil须具认可学士或同等资格；PhD可凭表现优异学士，或满足原页规定的研究生学习经历申请。", ocean_sources,
+        [deadline("秋季非本地申请截止", "2027-06-01", ocean_sources),
+         deadline("秋季本地申请截止", "2027-07-15", ocean_sources)],
+        ocean_sources, "研究学位与联合博士培养分开；不套用授课型项目或广州校区要求。")
+    mes.update(entryUrl="https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-mes", requirements=[
+        {"label":"学历背景", "text":"MPhil须具认可学士或同等资格。PhD须具表现优异学士，或已完成至少一年全日制或两年兼读研究生学习并表现合格。", "action":"对照研究院原页核对学历条件。", "sourceIds":ocean_sources},
+        {"label":"语言成绩", "text":"IELTS学术类总分6.5、各项5.5。TOEFL iBT在2026年1月21日前考试须80分，此日起须4.5分。须单次成绩，不接受居家考试；英语母语或英语授课学士豁免另核。", "action":"按实际考试日期和考试类型核对，不自行换算。", "sourceIds":ocean_sources},
+        {"label":"兼读与身份", "text":"本地与非本地的截止日期分别列出；持学生签证或入境许可的非本地学生不能在香港修读兼读研究学位。", "action":"按签证身份与修读模式核对申请安排。", "sourceIds":ocean_sources}],
+        finances=[{"id":"hkust-mes-application-fee", "kind":"application_fee", "label":"申请费", "text":"研究学位申请费180港元。", "action":"在正式系统查看付款安排。", "sourceIds":ocean_sources, "rates":[]}])
+    catalog["programs"].append(mes)
     return catalog
 
 
