@@ -1115,6 +1115,22 @@ def build_catalog():
         known_links = {link["url"] for link in original.get("extraLinks", [])}
         original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
         original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    civil_hku = load("hku-civil-20261110.json")
+    catalog["sources"].extend(civil_hku["sources"])
+    catalog["faculty"].extend(civil_hku["faculty"])
+    catalog["directories"].extend(civil_hku["directories"])
+    civil_department = ["hku-civil-20261110-programme"]
+    civil_programme = program(
+        "hku-civil-rpg-2027", "hku", "土木工程研究学位", ["MPhil", "PhD"],
+        "香港大学土木工程学系。可从建造管理、岩土、结构、交通、水与环境五类方向了解研究。",
+        "unknown", "可先从学系名录查看研究方向，再核对研究院申请步骤。", civil_department,
+        "在港大研究院申请系统核对学历、语言及材料要求。", civil_department,
+        [deadline("校级主轮截止", "2026-12-01", ["HKU-CENTRAL-PERIOD"], clock="23:59"),
+         deadline("校级第一轮补录截止（视余位）", "2027-04-30", ["HKU-CENTRAL-PERIOD"], clock="23:59"),
+         deadline("校级第二轮补录截止（视余位）", "2027-08-31", ["HKU-CENTRAL-PERIOD"], clock="23:59")],
+        civil_department + ["HKU-CENTRAL-PERIOD"], "研究路线来自学系介绍，2027/28 日期来自研究院校级申请时间表。")
+    civil_programme["entryUrl"] = "https://www.civil.hku.hk/h4_pros_pg_MPhil_PhD.html"
+    catalog["programs"].append(civil_programme)
     return catalog
 
 
