@@ -1282,3 +1282,27 @@ test('CUHK earth sciences keeps doctoral materials scoped and restores a program
   assert.ok(restored.sourceIds.includes('cuhk-ees-20261110-graduate-school'));
   assert.equal(h.networkCalls() + blank.networkCalls(), 0);
 });
+
+test('PolyU building energy uses the department deadline and degree-specific entry requirements', async () => {
+  const h = harness();
+  const el = id => h.byId.get(id);
+  const programme = () => el('results').children.find(card =>
+    h.walk(card).some(node => node.tagName === 'h3' && node.textContent === '建筑环境及能源工程研究学位'));
+
+  h.select('polyu', 'MPhil', []);
+  await el('profile-form').emit('input');
+  await el('show-programs').emit('click');
+  const mphil = programme();
+  assert.match(mphil.textContent, /2027-04-11/);
+  assert.match(mphil.textContent, /MPhil 学历要求|二等荣誉/);
+  assert.match(mphil.textContent, /GSB\/1A/);
+  assert.doesNotMatch(mphil.textContent, /博士学历要求|2027-05-31/);
+
+  h.select('polyu', 'PhD', []);
+  await el('profile-form').emit('input');
+  const phd = programme();
+  assert.match(phd.textContent, /博士学历要求|一等荣誉/);
+  assert.doesNotMatch(phd.textContent, /MPhil 学历要求/);
+  assert.ok(h.walk(phd).some(node => node.href === 'https://www.polyu.edu.hk/study/pg/rpg/2027/beee'));
+  assert.equal(h.networkCalls(), 0);
+});
