@@ -1063,6 +1063,44 @@ def build_catalog():
          "action": "核对成绩单和英语证明，按项目页准备适用于自己的材料。", "sourceIds": beee_page + beee_eligibility},
     ])
     catalog["programs"].append(beee_programme)
+
+    dsa_sources = [
+        ("gz-dsa-regular", "https://dsa.hkust-gz.edu.cn/people/faculty/regular/",
+         "港科广数据科学与分析 · 常规师资", "学域页面提供 36 个具名个人入口。", "45f454eb5f1a85cfdd668a171549629a9aae6135ed239ee7a390492669780933"),
+        ("gz-dsa-adjunct", "https://dsa.hkust-gz.edu.cn/people/faculty/adjunct/",
+         "港科广数据科学与分析 · 兼任与实践任职", "学域另列六项兼任及实践任职。", "49ed02baa9e31b35668ee93a51f202e485d70d49bd52d731884f5cc0a75662d6"),
+        ("gz-dsa-phd", "https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/09/DSA-Brochure-202606.pdf",
+         "港科广数据科学与分析 · 2027/28 博士手册", "博士栏列学历与英语要求，全日制四年、非全日制六年。", "be0632603bd3f036e861b3886cdeb9112a62f990e7bd99b552716866a818ad22"),
+        ("gz-dsa-mphil", "https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/",
+         "港科广数据科学与分析 · MPhil 项目入口", "项目页链接至未来技术学院红鸟硕士入口。", "5effd0439b838fdfcd8d2b771a4e49fec228029379702970d0c7bf46d50786ee"),
+    ]
+    for sid, url, title, claim, digest in dsa_sources:
+        catalog["sources"].append(dict(id=sid, url=url, title=title, checkedAt=CHECKED,
+            evidenceLevel="official_scoped_body_read", scope=claim, claims=[claim], knownIssues=[],
+            readMethod="anonymous_HTTP", bodySha256=digest))
+    for sid, url, title, _, _ in dsa_sources[:2]:
+        catalog["directories"].append(dict(id=sid + "-directory", universityId="hkustgz", unit=title, url=url,
+            coverageComplete=False, sourceIds=[sid], coverageNotes="从学域官网按任职类别浏览个人入口。"))
+
+    dsa_phd = ["gz-dsa-phd"]
+    dsa = program("hkustgz-dsa-phd-2027", "hkustgz", "数据科学与分析博士", ["PhD"],
+        "港科大（广州）2027/28 秋季。全日制四年，非全日制六年。",
+        "unknown", "可从学域师资页了解研究方向，并按学域最新申请指引准备。", dsa_phd,
+        "按研究生院流程在申请系统递交，申请滚动审理。", ["gz-timeline"],
+        [deadline("国际申请者校级截止", "2027-06-15", ["gz-timeline"], clock="23:59", degree="PhD"),
+         deadline("中国申请者校级截止", "2027-07-15", ["gz-timeline"], clock="23:59", degree="PhD")],
+        dsa_phd + ["gz-timeline"], "学历及英语要求来自学域博士手册。截止日期来自研究生院校级时间表。")
+    dsa.update(entryUrl="https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/",
+        requirements=[
+            {"label": "学历要求", "text": "须具有获认可院校颁授的学士学位且成绩优异，或具有至少一年全日制或两年非全日制的研究生学习经历，并能证明表现合格。", "sourceIds": dsa_phd},
+            {"label": "英语要求", "text": "学术类雅思总分至少 6.5，单项至少 5.5。托福网考按考试日期分档，2026 年 1 月 21 日前至少 80 分，当日起至少 4.5 分。其他成绩选项见博士手册。", "sourceIds": dsa_phd},
+        ])
+    catalog["programs"].append(dsa)
+    rbm = next(row for row in catalog["programs"] if row["id"] == "hkust-gz-rbm")
+    rbm["sourceIds"].append("gz-dsa-mphil")
+    rbm.setdefault("requirements", []).append({"label": "对数据科学与分析感兴趣",
+        "text": "学域 MPhil 页面链接至红鸟硕士。申请时在系统选择 MPhil (General)，入学后再按红鸟项目安排探索研究方向并确定学域。",
+        "sourceIds": ["gz-dsa-mphil", "gz-redbird"]})
     return catalog
 
 
