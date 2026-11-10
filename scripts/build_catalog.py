@@ -1786,7 +1786,7 @@ def main():
     outputs = {ROOT / "data/catalog.json": encoded, ROOT / "dist/catalog.js": js,
                ROOT / "data/coverage.json": json.dumps(quality, ensure_ascii=False, indent=2) + "\n",
                ROOT / "data/snapshots" / (identity + ".json"): encoded}
-    assets = {name: (js.encode("utf-8") if name == "catalog.js" else (ROOT / "dist" / name).read_bytes())
+    assets = {name: (js.encode("utf-8") if name == "catalog.js" else (ROOT / "dist" / name).read_text(encoding="utf-8").encode("utf-8"))
               for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css")}
     index = ROOT / "dist/index.html"
     html = index.read_text(encoding="utf-8")
