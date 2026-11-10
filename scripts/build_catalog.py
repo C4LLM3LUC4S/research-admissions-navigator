@@ -1237,6 +1237,18 @@ def build_catalog():
         directory = next(d for d in catalog["directories"] if d["id"] == update["id"])
         card = next(row for row in directory["census"]["entries"] if row["profileUrl"] == update["profileUrl"])
         card.update({key: value for key, value in update.items() if key not in {"id", "profileUrl"}})
+    sse_completion = load("cuhksz-sse-completion-20261111.json")
+    catalog["sources"].extend(sse_completion["sources"])
+    catalog["faculty"].extend(sse_completion["faculty"])
+    people = {f["id"]: f for f in catalog["faculty"]}
+    for update in sse_completion["facultyUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords"):
+            person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
+        known = {link["url"] for link in person.get("extraLinks", [])}
+        person.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known)
+    for update in sse_completion["leadUpdates"]:
+        lead_by_url[update["url"]].update(update)
     return catalog
 
 
