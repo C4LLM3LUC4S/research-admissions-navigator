@@ -776,6 +776,19 @@ def build_catalog():
         original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
     for update in sse_continuation["leadUpdates"]:
         lead_by_url[update["url"]].update(update)
+    sse_roles = load("cuhksz-sse-roles-20261111.json")
+    catalog["sources"].extend(sse_roles["sources"])
+    catalog["faculty"].extend(sse_roles["faculty"])
+    for update in sse_roles["facultyUpdates"]:
+        original = faculty_by_id[update["id"]]
+        assert original["universityId"] == "cuhksz"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    for update in sse_roles["leadUpdates"]:
+        lead_by_url[update["url"]].update(update)
     ieda = load("hkust-ieda-20261109.json")
     catalog["sources"].extend(ieda["sources"])
     catalog["faculty"].extend(ieda["faculty"])
