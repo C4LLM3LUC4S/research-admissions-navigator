@@ -442,7 +442,7 @@
     })?safe:null;
   }
   function facultyLinkSections(items) {
-    const generic=new Set(['个人页所给链接','个人主页或课题组','个人或实验室网站','查看本人主页所给网站']);
+    const generic=new Set(['个人页所给链接','个人页提供的链接','个人主页或课题组','个人或实验室网站','查看本人主页所给网站','Personal Website','Personal Homepage','个人网站或研究档案','个人或研究组主页','个人或课题组网站','官网提供的个人或实验室主页','个人网站与研究资料','个人或学系研究主页','院系所给个人或研究资料','院系提供的个人网站或研究主页']);
     const archives=/^(scholar\.google\.|researchgate\.net$|scopus\.com$|orcid\.org$|publons\.com$|webofscience\.|research\.polyu\.edu\.hk$)/;
     const publications=/(^|\.)(doi\.org|arxiv\.org|sciencedirect\.com|nature\.com|springer\.com|wiley\.com|mdpi\.com|frontiersin\.org|elsevier\.com|digitalcommonsdata\.com)$/;
     const decorated=items.map((item,index)=>{
@@ -462,7 +462,8 @@
       return {...item,label,index,archive:archives.test(host)||publications.test(host)};
     });
     // Keep every supplied URL; prioritize readable homepages before long reference lists.
-    const ordered=[...decorated.filter(x=>!x.archive&&x.bodyStatus==='body_read'),...decorated.filter(x=>!x.archive&&x.bodyStatus!=='body_read'),...decorated.filter(x=>x.archive)];
+    const candidates=decorated.filter(x=>x.kind!=='shared_navigation');
+    const ordered=[...candidates.filter(x=>!x.archive&&x.bodyStatus==='body_read'),...candidates.filter(x=>!x.archive&&x.bodyStatus!=='body_read'),...candidates.filter(x=>x.archive)];
     const primary=ordered.slice(0,6),chosen=new Set(primary.map(x=>x.index));
     return {primary,more:decorated.filter(x=>!chosen.has(x.index))};
   }

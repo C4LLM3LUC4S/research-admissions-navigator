@@ -116,8 +116,8 @@
     const related=L.facultyLinks(C,f);
     if(related.length){
       const more=node('details',null,'source-details');
-      more.append(node('summary','个人网站与课题组'));
       const sections=L.facultyLinkSections(related);
+      more.append(node('summary',sections.primary.length?'个人网站与课题组':'原网页中的其他链接'));
       const appendLinks=(parent,items)=>{
         const list=node('ul',null,'faculty-link-list');
         items.forEach(item=>{
@@ -128,7 +128,7 @@
         });
         parent.append(list);
       };
-      appendLinks(more,sections.primary);
+      if(sections.primary.length)appendLinks(more,sections.primary);
       if(sections.more.length){
         const references=node('details',null,'source-details faculty-more-links');
         references.append(node('summary','更多原页链接（'+sections.more.length+'）'));

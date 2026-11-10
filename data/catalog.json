@@ -108799,7 +108799,7 @@
           "url": "https://tommyweipolyu.weebly.com/",
           "parentSourceId": "polyu-beee-20261110-profile-04",
           "bodyStatus": "not_read",
-          "readNote": "本轮读取工具未取得页面正文。"
+          "readNote": "网页阅读通道无法访问该网址，未读取目标正文。"
         },
         {
           "label": "个人页所给链接",
@@ -109796,7 +109796,13 @@
       "id": "polyu-beee-20261110-professor-you-ruoyu",
       "researchKeywords": [
         "室内空气质量",
-        "建筑室内环境"
+        "建筑室内环境",
+        "城市微气候",
+        "建筑环境人工智能",
+        "飞机客舱环境",
+        "污染源反演",
+        "城市风场",
+        "个性化通风"
       ],
       "extraLinks": [
         {
@@ -109809,7 +109815,8 @@
           "label": "个人页所给链接",
           "url": "https://youruoyu.wixsite.com/home",
           "parentSourceId": "polyu-beee-20261110-profile-23",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "research-links-20261111-you-home"
         },
         {
           "label": "个人页所给链接",
@@ -109834,25 +109841,54 @@
           "url": "http://youruoyu.wixsite.com/home",
           "parentSourceId": "polyu-beee-20261110-profile-23",
           "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://youruoyu.wixsite.com/home/research/urban-microclimate",
+          "label": "城市微气候研究",
+          "parentSourceId": "research-links-20261111-you-home",
+          "sourceId": "research-links-20261111-you-urban",
+          "bodyStatus": "body_read"
+        },
+        {
+          "url": "https://youruoyu.wixsite.com/home/ai-for-built-environments",
+          "label": "建筑环境与人工智能",
+          "parentSourceId": "research-links-20261111-you-home",
+          "sourceId": "research-links-20261111-you-ai",
+          "bodyStatus": "body_read"
+        },
+        {
+          "url": "https://youruoyu.wixsite.com/home/research/aircraft-cabin-environment",
+          "label": "飞机客舱环境研究",
+          "parentSourceId": "research-links-20261111-you-home",
+          "sourceId": "research-links-20261111-you-cabin",
+          "bodyStatus": "body_read"
         }
       ],
       "sourceIds": [
         "polyu-beee-20261110-profile-23",
         "polyu-beee-20261110-academic-staff",
-        "polyu-beee-20261110-programme"
+        "polyu-beee-20261110-programme",
+        "research-links-20261111-you-home",
+        "research-links-20261111-you-urban",
+        "research-links-20261111-you-ai",
+        "research-links-20261111-you-cabin"
       ],
       "directorySourceIds": [
         "polyu-beee-20261110-academic-staff"
       ],
       "keywordSourceIds": [
-        "polyu-beee-20261110-profile-23"
+        "polyu-beee-20261110-profile-23",
+        "research-links-20261111-you-home",
+        "research-links-20261111-you-urban",
+        "research-links-20261111-you-ai",
+        "research-links-20261111-you-cabin"
       ],
       "name": "Professor You Ruoyu",
       "universityId": "polyu",
       "department": "建筑环境及能源工程学系",
       "profileUrl": "https://www.polyu.edu.hk/beee/people/academic-staff/professor-you-ruoyu/",
       "directoryRole": "Associate Professor",
-      "summary": "研究方向包括室内空气质量、建筑室内环境。 2027 年 9 月项目页在建筑与环境方向列出此人。",
+      "summary": "研究城市微气候、建筑环境中的人工智能，以及飞机客舱通风与空气质量。",
       "topics": [
         "土木与机械工程",
         "环境与可持续发展"
@@ -109864,7 +109900,8 @@
         "sourceIds": [
           "polyu-beee-20261110-profile-23"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://youruoyu.wixsite.com/home"
     },
     {
       "id": "polyu-beee-20261110-professor-du-liangfen",
@@ -109943,7 +109980,8 @@
           "label": "个人页所给链接",
           "url": "https://chokurei.github.io/eies-lab-site/",
           "parentSourceId": "polyu-beee-20261110-profile-25",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "网页阅读通道无法访问该网址，未读取目标正文。"
         },
         {
           "label": "个人页所给链接",
@@ -110176,7 +110214,14 @@
         "火灾建模",
         "材料热行为",
         "计算流体力学",
-        "电池热管理"
+        "电池热管理",
+        "火灾调查",
+        "阻燃材料",
+        "分子动力学",
+        "聚合物热解",
+        "电池热失控",
+        "电池浸没冷却",
+        "相变材料"
       ],
       "extraLinks": [
         {
@@ -110189,7 +110234,8 @@
           "label": "个人页所给链接",
           "url": "https://www.acyyuen.com/",
           "parentSourceId": "polyu-beee-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "research-links-20261111-yuen-home"
         },
         {
           "label": "个人页所给链接",
@@ -110231,7 +110277,8 @@
           "label": "个人页所给链接",
           "url": "https://www.acyyuen.com/phd-opportunities",
           "parentSourceId": "polyu-beee-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "research-links-20261111-yuen-phd"
         },
         {
           "label": "个人页所给链接",
@@ -110327,7 +110374,8 @@
           "label": "个人页所给链接",
           "url": "https://www.acyyuen.com/molecular-dynamics",
           "parentSourceId": "polyu-beee-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "research-links-20261111-yuen-md"
         },
         {
           "label": "个人页所给链接",
@@ -110351,7 +110399,8 @@
           "label": "个人页所给链接",
           "url": "https://www.acyyuen.com/btms",
           "parentSourceId": "polyu-beee-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "research-links-20261111-yuen-btms"
         },
         {
           "label": "个人页所给链接",
@@ -110723,20 +110772,28 @@
       "sourceIds": [
         "polyu-beee-20261110-profile-30",
         "polyu-beee-20261110-academic-staff",
-        "polyu-beee-20261110-programme"
+        "polyu-beee-20261110-programme",
+        "research-links-20261111-yuen-home",
+        "research-links-20261111-yuen-phd",
+        "research-links-20261111-yuen-md",
+        "research-links-20261111-yuen-btms"
       ],
       "directorySourceIds": [
         "polyu-beee-20261110-academic-staff"
       ],
       "keywordSourceIds": [
-        "polyu-beee-20261110-profile-30"
+        "polyu-beee-20261110-profile-30",
+        "research-links-20261111-yuen-home",
+        "research-links-20261111-yuen-phd",
+        "research-links-20261111-yuen-md",
+        "research-links-20261111-yuen-btms"
       ],
       "name": "Ir Professor Yuen Anthony Chun Yin",
       "universityId": "polyu",
       "department": "建筑环境及能源工程学系",
       "profileUrl": "https://www.polyu.edu.hk/beee/people/academic-staff/ir-professor-yuen-anthony-chun-yin/",
       "directoryRole": "Assistant Professor, Presidential Young Scholar (2022 - 2025)",
-      "summary": "研究方向包括火灾建模、材料热行为、计算流体力学、电池热管理。 2027 年 9 月项目页在建筑安全与韧性方向列出此人。",
+      "summary": "研究火灾调查与阻燃材料，结合分子动力学、计算流体力学和机器学习研究聚合物热解及电池热管理。",
       "topics": [
         "土木与机械工程",
         "环境与可持续发展"
@@ -112660,28 +112717,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -112721,28 +112782,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -112782,28 +112847,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -112851,28 +112920,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -112925,28 +112998,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -112991,28 +113068,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -113052,28 +113133,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113128,28 +113213,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113195,28 +113284,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113265,28 +113358,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -113327,28 +113424,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113397,28 +113498,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113465,28 +113570,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113539,28 +113648,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113613,28 +113726,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113688,28 +113805,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113762,28 +113883,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113836,28 +113961,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -113911,28 +114040,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -113973,28 +114106,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -114035,28 +114172,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114103,28 +114244,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114173,28 +114318,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114242,28 +114391,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -114304,28 +114457,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -114366,28 +114523,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114436,28 +114597,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114510,28 +114675,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114580,28 +114749,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114647,28 +114820,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114714,28 +114891,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114781,28 +114962,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114847,28 +115032,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114914,28 +115103,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -114980,28 +115173,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115046,28 +115243,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115113,28 +115314,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115181,28 +115386,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115249,28 +115458,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115317,28 +115530,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115384,28 +115601,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115453,28 +115674,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115551,28 +115776,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115619,28 +115848,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
           "label": "个人页提供的链接",
@@ -115688,28 +115921,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -115750,28 +115987,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -115811,28 +116052,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -115873,28 +116118,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -115935,28 +116184,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -115996,28 +116249,32 @@
       ],
       "extraLinks": [
         {
-          "label": "个人页提供的链接",
+          "label": "明德工程",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "院系常用链接",
           "url": "https://www.civil.hku.hk/h8v1_links.html",
           "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "本科课程导航",
           "url": "https://www.civil.hku.hk/h5v2_undergraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         },
         {
-          "label": "个人页提供的链接",
+          "label": "研究生课程导航",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
           "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "kind": "shared_navigation"
         }
       ],
       "sourceIds": [
@@ -120046,6 +120303,49 @@
         "滤波器设计与调谐中的人工智能"
       ],
       "extraLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-446",
+      "universityId": "hkustgz",
+      "name": "Ting Chuen PONG · 庞鼎全",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PONG-TINGCHUEN/tcpong#new_tab",
+      "reviewedProfileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/tcpong",
+      "directoryRole": "Professor · 数据科学与分析学域联合任职",
+      "identityNote": "广州公开档案列副校长及学域教授；香港计算机系另列荣休教授。",
+      "topics": [
+        "计算机视觉",
+        "人工智能",
+        "教育学"
+      ],
+      "researchKeywords": [
+        "多媒体计算",
+        "电子学习",
+        "计算机视觉",
+        "图像处理",
+        "人工智能"
+      ],
+      "summary": "研究多媒体计算、电子学习、计算机视觉、图像处理和人工智能。",
+      "sourceIds": [
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-profile-446",
+        "research-links-20261111-pong"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "research-links-20261111-pong"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目的指导资格与招生安排。",
+        "sourceIds": [
+          "research-links-20261111-pong"
+        ]
+      }
     }
   ],
   "sources": [
@@ -241535,6 +241835,185 @@
       "bodySha256": "a2e91e6002640f704f9e7c447cb7c45b7e64a6f1b4a0fde9c6d1848a62004011",
       "readMethod": "saved_linked_body_semantic_review",
       "parentSourceId": "cuhksz-sse-roles-20261111-zhuhe"
+    },
+    {
+      "id": "research-links-20261111-you-home",
+      "url": "https://youruoyu.wixsite.com/home",
+      "title": "尤若于课题组 · 首页",
+      "checkedAt": "2026-11-11",
+      "scope": "本人页列港理工副教授身份，研究城市微气候、建筑环境人工智能及飞机客舱环境。",
+      "claims": [
+        "本人页列港理工副教授身份，研究城市微气候、建筑环境人工智能及飞机客舱环境。"
+      ],
+      "knownIssues": [
+        "未标年度的博士招募说明不确认2027/28余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b752944c7b6d5f9b7031d17afd40785106486ebb288e48782d83aba43d147303",
+      "discoveredLinks": [
+        "https://youruoyu.wixsite.com/home/research/urban-microclimate",
+        "https://youruoyu.wixsite.com/home/ai-for-built-environments",
+        "https://youruoyu.wixsite.com/home/research/aircraft-cabin-environment"
+      ],
+      "parentSourceId": "polyu-beee-20261110-profile-23",
+      "originalUrl": "https://youruoyu.wixsite.com/home",
+      "retrievedUrl": "https://youruoyu.wixsite.com/home"
+    },
+    {
+      "id": "research-links-20261111-you-urban",
+      "url": "https://youruoyu.wixsite.com/home/research/urban-microclimate",
+      "title": "尤若于课题组 · 城市微气候研究",
+      "checkedAt": "2026-11-11",
+      "scope": "研究页列2023—2025年城市风场、街谷污染扩散及CFD建模工作，只核该页介绍，不声称另读期刊原文。",
+      "claims": [
+        "研究页列2023—2025年城市风场、街谷污染扩散及CFD建模工作，只核该页介绍，不声称另读期刊原文。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2cf2c985c9310e3c66d29b39d502589c234abc366f0f94568f5a8082b64b3c8d",
+      "parentSourceId": "research-links-20261111-you-home",
+      "originalUrl": "https://youruoyu.wixsite.com/home/research/urban-microclimate",
+      "retrievedUrl": "https://youruoyu.wixsite.com/home/research/urban-microclimate"
+    },
+    {
+      "id": "research-links-20261111-you-ai",
+      "url": "https://youruoyu.wixsite.com/home/ai-for-built-environments",
+      "title": "尤若于课题组 · 建筑环境与人工智能",
+      "checkedAt": "2026-11-11",
+      "scope": "研究页介绍以深度学习替代模型、神经网络湍流建模及物理模型研究城市风场与污染源反演。",
+      "claims": [
+        "研究页介绍以深度学习替代模型、神经网络湍流建模及物理模型研究城市风场与污染源反演。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "4121dc5ddddd7a2f89fcf5a2e3320ae374fe35d60626186a4ca0a120993c7290",
+      "parentSourceId": "research-links-20261111-you-home",
+      "originalUrl": "https://youruoyu.wixsite.com/home/ai-for-built-environments",
+      "retrievedUrl": "https://youruoyu.wixsite.com/home/ai-for-built-environments"
+    },
+    {
+      "id": "research-links-20261111-you-cabin",
+      "url": "https://youruoyu.wixsite.com/home/research/aircraft-cabin-environment",
+      "title": "尤若于课题组 · 飞机客舱环境研究",
+      "checkedAt": "2026-11-11",
+      "scope": "研究页介绍飞机客舱送风、个性化通风及结合CFD与贝叶斯优化的空气传播暴露研究。",
+      "claims": [
+        "研究页介绍飞机客舱送风、个性化通风及结合CFD与贝叶斯优化的空气传播暴露研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "4121dc5ddddd7a2f89fcf5a2e3320ae374fe35d60626186a4ca0a120993c7290",
+      "parentSourceId": "research-links-20261111-you-home",
+      "originalUrl": "https://youruoyu.wixsite.com/home/research/aircraft-cabin-environment",
+      "retrievedUrl": "https://youruoyu.wixsite.com/home/research/aircraft-cabin-environment"
+    },
+    {
+      "id": "research-links-20261111-yuen-home",
+      "url": "https://www.acyyuen.com/",
+      "title": "Anthony Yuen课题组 · 首页",
+      "checkedAt": "2026-11-11",
+      "scope": "课题组介绍火灾调查、阻燃材料、计算材料合成、火灾防护和电池热失控建模。",
+      "claims": [
+        "课题组介绍火灾调查、阻燃材料、计算材料合成、火灾防护和电池热失控建模。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b752944c7b6d5f9b7031d17afd40785106486ebb288e48782d83aba43d147303",
+      "parentSourceId": "polyu-beee-20261110-profile-30",
+      "originalUrl": "https://www.acyyuen.com/",
+      "retrievedUrl": "https://www.acyyuen.com/"
+    },
+    {
+      "id": "research-links-20261111-yuen-phd",
+      "url": "https://www.acyyuen.com/phd-opportunities",
+      "title": "Anthony Yuen课题组 · 博士课题",
+      "checkedAt": "2026-11-11",
+      "scope": "页面列CFD、分子动力学、动力学算法及阻燃材料相关博士课题，含2025和2024项目分类。",
+      "claims": [
+        "页面列CFD、分子动力学、动力学算法及阻燃材料相关博士课题，含2025和2024项目分类。"
+      ],
+      "knownIssues": [
+        "课题按2024和2025分类，未确认2027/28招募或实时余位；不替代校级申请条件。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b752944c7b6d5f9b7031d17afd40785106486ebb288e48782d83aba43d147303",
+      "parentSourceId": "polyu-beee-20261110-profile-30",
+      "originalUrl": "https://www.acyyuen.com/phd-opportunities",
+      "retrievedUrl": "https://www.acyyuen.com/phd-opportunities"
+    },
+    {
+      "id": "research-links-20261111-yuen-md",
+      "url": "https://www.acyyuen.com/molecular-dynamics",
+      "title": "Anthony Yuen课题组 · 分子动力学",
+      "checkedAt": "2026-11-11",
+      "scope": "页面介绍ReaxFF分子动力学用于聚合物阻燃涂层、热解与成炭机理研究。",
+      "claims": [
+        "页面介绍ReaxFF分子动力学用于聚合物阻燃涂层、热解与成炭机理研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2cf2c985c9310e3c66d29b39d502589c234abc366f0f94568f5a8082b64b3c8d",
+      "parentSourceId": "polyu-beee-20261110-profile-30",
+      "originalUrl": "https://www.acyyuen.com/molecular-dynamics",
+      "retrievedUrl": "https://www.acyyuen.com/molecular-dynamics"
+    },
+    {
+      "id": "research-links-20261111-yuen-btms",
+      "url": "https://www.acyyuen.com/btms",
+      "title": "Anthony Yuen课题组 · 电池热管理",
+      "checkedAt": "2026-11-11",
+      "scope": "页面介绍电池浸没冷却、相变材料、分子动力学与CFD/神经网络结合的热管理研究。",
+      "claims": [
+        "页面介绍电池浸没冷却、相变材料、分子动力学与CFD/神经网络结合的热管理研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2cf2c985c9310e3c66d29b39d502589c234abc366f0f94568f5a8082b64b3c8d",
+      "parentSourceId": "polyu-beee-20261110-profile-30",
+      "originalUrl": "https://www.acyyuen.com/btms",
+      "retrievedUrl": "https://www.acyyuen.com/btms"
+    },
+    {
+      "id": "research-links-20261111-pong",
+      "url": "https://cse.hkust.edu.hk/admin/people/faculty/profile/tcpong",
+      "title": "庞鼎全 · 港科大计算机系官方研究档案",
+      "checkedAt": "2026-11-11",
+      "scope": "计算机系页列多媒体计算、电子学习、计算机视觉、图像处理和人工智能。香港任职为荣休教授；该页同时注明自2024年7月8日起任广州副校长。",
+      "claims": [
+        "计算机系页列多媒体计算、电子学习、计算机视觉、图像处理和人工智能。香港任职为荣休教授；该页同时注明自2024年7月8日起任广州副校长。"
+      ],
+      "knownIssues": [
+        "网页末标更新于2024年7月8日；广州学域任职另据已读广州公开档案，不将香港荣休身份替代广州任职。"
+      ],
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2cf2c985c9310e3c66d29b39d502589c234abc366f0f94568f5a8082b64b3c8d"
     }
   ],
   "funding": [
@@ -265334,7 +265813,8 @@
             "directoryPosition": "常规师资",
             "profileRead": true,
             "reviewStatus": "body_read",
-            "reviewNote": "个人公开资料已读，未列研究词。"
+            "reviewNote": "广州公开任职已读；研究方向另据香港计算机系官方个人页，两个校区任职分开。",
+            "facultyId": "hkustgz-dsa-20261110-446"
           },
           {
             "name": "Lei CHEN",
@@ -313333,5 +313813,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:fa862806ceef2beb479330ee2a96b4322e0f19e1130fa60c002d39d56e06a846"
+  "snapshotId": "sha256:2a22358fa62d3dde4ea7991ed458e261ceae2c31dab425d82cac48e8074b3d54"
 }

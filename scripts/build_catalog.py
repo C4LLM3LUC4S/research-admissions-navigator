@@ -1214,6 +1214,29 @@ def build_catalog():
         link.update({k: v for k, v in update.items() if k != "facultyId"})
         if update.get("sourceId"):
             person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + [update["sourceId"]]))
+    research_links = load("research-links-20261111.json")
+    catalog["sources"].extend(research_links["sources"])
+    catalog["faculty"].extend(research_links["faculty"])
+    people = {f["id"]: f for f in catalog["faculty"]}
+    for update in research_links["facultyUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords"):
+            person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
+        person["summary"] = update["summary"]
+        if update.get("reviewedProfileUrl"):
+            person["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+        known = {link["url"] for link in person.get("extraLinks", [])}
+        person.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known)
+    for update in research_links["linkUpdates"] + research_links["navigationLinks"]:
+        person = people[update["facultyId"]]
+        link = next(link for link in person["extraLinks"] if link["url"] == update["url"])
+        link.update({key: value for key, value in update.items() if key != "facultyId"})
+        if update.get("sourceId"):
+            person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + [update["sourceId"]]))
+    for update in research_links["directoryUpdates"]:
+        directory = next(d for d in catalog["directories"] if d["id"] == update["id"])
+        card = next(row for row in directory["census"]["entries"] if row["profileUrl"] == update["profileUrl"])
+        card.update({key: value for key, value in update.items() if key not in {"id", "profileUrl"}})
     return catalog
 
 
