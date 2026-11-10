@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_sse_remaining_profiles_and_websites",
+  "stage": "post_alpha34_life_science_role_categories",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 72,
     "degree_routes": 125,
     "faculty": 2187,
-    "official_sources": 3407,
+    "official_sources": 3408,
     "programmes_with_partial_requirements": 69,
     "requirement_items": 249,
     "programmes_with_partial_finances": 41,
     "finance_items": 68,
-    "official_directory_entries": 125,
+    "official_directory_entries": 126,
     "teacher_linked_sources": 821,
-    "total_sources": 4228,
+    "total_sources": 4229,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -32,8 +32,8 @@
     "cityu_new_profiles": 23,
     "cityu_existing_updates": 5,
     "cityu_deferred_profiles": 4,
-    "observed_profile_links": 1860,
-    "pending_research_review": 239,
+    "observed_profile_links": 1929,
+    "pending_research_review": 308,
     "gz_robotics": {
       "current_observed_cards": 25,
       "profiles_read": 25,
@@ -484,7 +484,7 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:90d9ec05f7dd8e40a41a59354c9793d2e9f237f3831b6f465c7836f6d7f2daa8",
+  "current_catalogue_snapshot": "sha256:3417b5f646745dc53433c435ae0813b7e8704cd2023b070d03e610669ce5b6b2",
   "latest_data_batch": "data/research/hku-civil-20261110.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
@@ -508,5 +508,14 @@
     "provided_website_field_edges": 20,
     "self_references_not_duplicated": 7,
     "notes": "岗位卡数不是导师总数；原始空壳与独立研究来源分开保存。"
+  },
+  "hkust_life_science_20261111": {
+    "division_category_cards": 69,
+    "categories": 7,
+    "school_filter_cards": 63,
+    "school_filter_distinct_profiles": 62,
+    "school_duplicate": "Wenqing GAO",
+    "individual_division_profiles_read_in_this_batch": 0,
+    "scope": "学部与理学院名录分别保存；个人正文复用候选继续核对，未当新增研究记录。"
   }
 }

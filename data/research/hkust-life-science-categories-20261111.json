@@ -1,0 +1,1785 @@
+{
+  "source": {
+    "id": "hkust-life-science-division-roster-20261111",
+    "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+    "title": "港科大生命科学部 · 分类别人员名录",
+    "checkedAt": "2026-11-11",
+    "capturedAt": "2026-11-10T22:43:51.848884+00:00",
+    "scope": "学部官网7类69张具名人员卡；分别保留常规、教学支援与关联人员。理学院筛选页63卡62个主页另存，不相加为导师数。",
+    "claims": [
+      "各类别及其具名个人页链接实际读取；研究主题不是下属学系。"
+    ],
+    "knownIssues": [
+      "学部首页35名全职的概括数字、学部69卡及理学院62主页口径不同，未用任何一项推断导师总数。"
+    ],
+    "evidenceLevel": "official_scoped_body_read",
+    "readMethod": "anonymous_HTTP",
+    "bodySha256": "4e6657d493c229b0305b25c7b5a1fcf46f44bff386dd330bc7fbac9a28b27c5c",
+    "discoveredLinks": [
+      "https://life-sci.hkust.edu.hk/team/guojun-bu/",
+      "https://life-sci.hkust.edu.hk/team/tom-hiu-tung-cheung/",
+      "https://life-sci.hkust.edu.hk/team/robert-k-m-ko/",
+      "https://life-sci.hkust.edu.hk/team/nancy-yuk-yu-ip/",
+      "https://life-sci.hkust.edu.hk/team/randy-y-c-poon/",
+      "https://life-sci.hkust.edu.hk/team/karl-wah-keung-tsim/",
+      "https://life-sci.hkust.edu.hk/team/yung-hou-wong/",
+      "https://life-sci.hkust.edu.hk/team/david-k-banfield/",
+      "https://life-sci.hkust.edu.hk/team/prof-king-lau-chow/",
+      "https://life-sci.hkust.edu.hk/team/yusong-guo/",
+      "https://life-sci.hkust.edu.hk/team/pingbo-huang/",
+      "https://life-sci.hkust.edu.hk/team/kai-liu/",
+      "https://life-sci.hkust.edu.hk/team/ho-yi-mak/",
+      "https://life-sci.hkust.edu.hk/team/jiguang-wang/",
+      "https://life-sci.hkust.edu.hk/team/zhenguo-wu/",
+      "https://life-sci.hkust.edu.hk/team/guang-zhu/",
+      "https://life-sci.hkust.edu.hk/team/kenny-k-chung/",
+      "https://life-sci.hkust.edu.hk/team/shangyu-dang/",
+      "https://life-sci.hkust.edu.hk/team/yukinori-hirano/",
+      "https://life-sci.hkust.edu.hk/team/toyotaka-ishibashi/",
+      "https://life-sci.hkust.edu.hk/team/danny-chi-yeu-leung/",
+      "https://life-sci.hkust.edu.hk/team/chun-liang/",
+      "https://life-sci.hkust.edu.hk/team/hyokeun-park/",
+      "https://life-sci.hkust.edu.hk/team/tuan-anh-nguyen/",
+      "https://life-sci.hkust.edu.hk/team/angela-ruohao-wu/",
+      "https://life-sci.hkust.edu.hk/team/yan-yan/",
+      "https://life-sci.hkust.edu.hk/team/yuanliang-zhai/",
+      "https://life-sci.hkust.edu.hk/team/jieqiong-gao/",
+      "https://life-sci.hkust.edu.hk/team/wenqing-gao/",
+      "https://life-sci.hkust.edu.hk/team/yi-liao/",
+      "https://life-sci.hkust.edu.hk/team/yimiao/",
+      "https://life-sci.hkust.edu.hk/team/lan-wang/",
+      "https://life-sci.hkust.edu.hk/team/jie-wang/",
+      "https://life-sci.hkust.edu.hk/team/zhen-liu/",
+      "https://life-sci.hkust.edu.hk/team/li-sheng-zhang/",
+      "https://life-sci.hkust.edu.hk/team/aftab-amin/",
+      "https://life-sci.hkust.edu.hk/team/ice-w-p-ko/",
+      "https://life-sci.hkust.edu.hk/team/philip-y-lam/",
+      "https://life-sci.hkust.edu.hk/team/dr-rocky-law/",
+      "https://life-sci.hkust.edu.hk/team/nicki-yh-leung/",
+      "https://life-sci.hkust.edu.hk/team/amy-laam-li/",
+      "https://life-sci.hkust.edu.hk/team/meredith-d-sun/",
+      "https://life-sci.hkust.edu.hk/team/sunny-tam/",
+      "https://life-sci.hkust.edu.hk/team/jessica-ce-mun-tang/",
+      "https://life-sci.hkust.edu.hk/team/yu-chung-tse/",
+      "https://life-sci.hkust.edu.hk/team/hannah-zihan-xu/",
+      "https://life-sci.hkust.edu.hk/team/chaya-yuen/",
+      "https://life-sci.hkust.edu.hk/team/donald-c-chang/",
+      "https://life-sci.hkust.edu.hk/team/hao-chen/",
+      "https://life-sci.hkust.edu.hk/team/lingluo-chu/",
+      "https://life-sci.hkust.edu.hk/team/becki-yi-kuang/",
+      "https://life-sci.hkust.edu.hk/team/jianan-qu/",
+      "https://life-sci.hkust.edu.hk/team/kwong-hung-keith-lau/",
+      "https://life-sci.hkust.edu.hk/team/stanley-c-k-lau/",
+      "https://life-sci.hkust.edu.hk/team/ning-li/",
+      "https://life-sci.hkust.edu.hk/team/chi-ming-lee/",
+      "https://life-sci.hkust.edu.hk/team/andrew-l-miller/",
+      "https://life-sci.hkust.edu.hk/team/pei-yuan-qian/",
+      "https://life-sci.hkust.edu.hk/team/robert-z-qi/",
+      "https://life-sci.hkust.edu.hk/team/bik-kwoon-yeung-tye/",
+      "https://life-sci.hkust.edu.hk/team/zilong-wen/",
+      "https://life-sci.hkust.edu.hk/team/tin-yum-wong/",
+      "https://life-sci.hkust.edu.hk/team/wan-keung-r-wong/",
+      "https://life-sci.hkust.edu.hk/team/jun-wu/",
+      "https://life-sci.hkust.edu.hk/team/jun-xia/",
+      "https://life-sci.hkust.edu.hk/team/hong-xue/",
+      "https://life-sci.hkust.edu.hk/team/qinglu-zeng/",
+      "https://life-sci.hkust.edu.hk/team/xian-zhang/",
+      "https://life-sci.hkust.edu.hk/team/mingjie-zhang/"
+    ]
+  },
+  "directory": {
+    "id": "hkust-life-science-division-20261111",
+    "universityId": "hkust",
+    "unit": "生命科学部 · 师资与教学支援名录",
+    "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+    "coverageComplete": false,
+    "sourceIds": [
+      "hkust-life-science-division-roster-20261111"
+    ],
+    "coverageNotes": "按常规、教学支援与关联师资浏览，打开个人页了解研究。",
+    "census": {
+      "observedTotal": 69,
+      "profilesRead": 0,
+      "profilesFailed": 69,
+      "pendingReasonCounts": {
+        "not_read": 69
+      },
+      "entries": [
+        {
+          "name": "Guojun BU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/guojun-bu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "部主任与副主任",
+          "category": "部主任与副主任"
+        },
+        {
+          "name": "Tom Hiu Tung CHEUNG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/tom-hiu-tung-cheung/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "部主任与副主任",
+          "category": "部主任与副主任"
+        },
+        {
+          "name": "Robert K.M. KO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/robert-k-m-ko/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "部主任与副主任",
+          "category": "部主任与副主任"
+        },
+        {
+          "name": "Nancy Yuk-Yu IP",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/nancy-yuk-yu-ip/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "讲座教授",
+          "category": "讲座教授"
+        },
+        {
+          "name": "Randy Y.C. POON",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/randy-y-c-poon/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "讲座教授",
+          "category": "讲座教授"
+        },
+        {
+          "name": "Karl Wah-Keung TSIM",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/karl-wah-keung-tsim/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "讲座教授",
+          "category": "讲座教授"
+        },
+        {
+          "name": "Yung Hou WONG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yung-hou-wong/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "讲座教授",
+          "category": "讲座教授"
+        },
+        {
+          "name": "David K. BANFIELD",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/david-k-banfield/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "King-Lau CHOW",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/prof-king-lau-chow/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Yusong GUO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yusong-guo/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Pingbo HUANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/pingbo-huang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Kai LIU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/kai-liu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Ho Yi MAK",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/ho-yi-mak/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Jiguang WANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jiguang-wang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Zhenguo WU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/zhenguo-wu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Guang ZHU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/guang-zhu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教授",
+          "category": "教授"
+        },
+        {
+          "name": "Kenny K. CHUNG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/kenny-k-chung/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Shangyu DANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/shangyu-dang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Yukinori HIRANO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yukinori-hirano/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Toyotaka ISHIBASHI",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/toyotaka-ishibashi/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Danny Chi Yeu LEUNG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/danny-chi-yeu-leung/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Chun LIANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/chun-liang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Hyokeun PARK",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/hyokeun-park/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Tuan Anh NGUYEN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/tuan-anh-nguyen/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Angela Ruohao WU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/angela-ruohao-wu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Yan YAN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yan-yan/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Yuanliang ZHAI",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yuanliang-zhai/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "副教授",
+          "category": "副教授"
+        },
+        {
+          "name": "Jieqiong GAO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jieqiong-gao/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Wenqing GAO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/wenqing-gao/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Yi LIAO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yi-liao/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Yi MIAO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yimiao/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Lan WANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/lan-wang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Jie WANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jie-wang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Zhen LIU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/zhen-liu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Li-Sheng ZHANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/li-sheng-zhang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "助理教授",
+          "category": "助理教授"
+        },
+        {
+          "name": "Aftab AMIN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/aftab-amin/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Ice W P KO",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/ice-w-p-ko/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Philip Y. LAM",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/philip-y-lam/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Rocky LAW",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/dr-rocky-law/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Nicki YH LEUNG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/nicki-yh-leung/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Amy Laam LI",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/amy-laam-li/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Meredith D. SUN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/meredith-d-sun/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Sunny TAM",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/sunny-tam/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Jessica Ce Mun TANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jessica-ce-mun-tang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Yu Chung TSE",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/yu-chung-tse/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Hannah Zihan XU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/hannah-zihan-xu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Chaya YUEN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/chaya-yuen/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "教学与教学支援人员",
+          "category": "教学与教学支援人员"
+        },
+        {
+          "name": "Donald C. CHANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/donald-c-chang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Hao CHEN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/hao-chen/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Lingluo CHU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/lingluo-chu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Becki Yi KUANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/becki-yi-kuang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Jianan QU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jianan-qu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Kwong Hung Keith LAU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/kwong-hung-keith-lau/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Stanley C K LAU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/stanley-c-k-lau/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Ning LI",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/ning-li/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Chi Ming LEE",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/chi-ming-lee/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Andrew L. MILLER",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/andrew-l-miller/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Pei-Yuan QIAN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/pei-yuan-qian/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Robert Z. QI",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/robert-z-qi/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Bik-Kwoon YEUNG TYE",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/bik-kwoon-yeung-tye/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Zilong WEN",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/zilong-wen/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Joseph Tin Yum WONG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/tin-yum-wong/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Wan-Keung R. WONG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/wan-keung-r-wong/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Jun WU",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jun-wu/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Jun XIA",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/jun-xia/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Hannah H XUE",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/hong-xue/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Qinglu ZENG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/qinglu-zeng/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Xian ZHANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/xian-zhang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        },
+        {
+          "name": "Mingjie ZHANG",
+          "profileUrl": "https://life-sci.hkust.edu.hk/team/mingjie-zhang/",
+          "profileRead": false,
+          "reviewStatus": "not_read",
+          "directoryPosition": "关联师资",
+          "category": "关联师资"
+        }
+      ]
+    }
+  },
+  "parentUnitId": "hkust-1",
+  "staffEntries": [
+    {
+      "label": "生命科学部 · 部主任与副主任",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Guojun BU",
+          "url": "https://life-sci.hkust.edu.hk/team/guojun-bu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 部主任与副主任",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Tom Hiu Tung CHEUNG",
+          "url": "https://life-sci.hkust.edu.hk/team/tom-hiu-tung-cheung/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 部主任与副主任",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Robert K.M. KO",
+          "url": "https://life-sci.hkust.edu.hk/team/robert-k-m-ko/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 部主任与副主任",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    },
+    {
+      "label": "生命科学部 · 讲座教授",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Nancy Yuk-Yu IP",
+          "url": "https://life-sci.hkust.edu.hk/team/nancy-yuk-yu-ip/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 讲座教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Randy Y.C. POON",
+          "url": "https://life-sci.hkust.edu.hk/team/randy-y-c-poon/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 讲座教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Karl Wah-Keung TSIM",
+          "url": "https://life-sci.hkust.edu.hk/team/karl-wah-keung-tsim/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 讲座教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yung Hou WONG",
+          "url": "https://life-sci.hkust.edu.hk/team/yung-hou-wong/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 讲座教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    },
+    {
+      "label": "生命科学部 · 教授",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "David K. BANFIELD",
+          "url": "https://life-sci.hkust.edu.hk/team/david-k-banfield/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "King-Lau CHOW",
+          "url": "https://life-sci.hkust.edu.hk/team/prof-king-lau-chow/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yusong GUO",
+          "url": "https://life-sci.hkust.edu.hk/team/yusong-guo/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Pingbo HUANG",
+          "url": "https://life-sci.hkust.edu.hk/team/pingbo-huang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Kai LIU",
+          "url": "https://life-sci.hkust.edu.hk/team/kai-liu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Ho Yi MAK",
+          "url": "https://life-sci.hkust.edu.hk/team/ho-yi-mak/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Jiguang WANG",
+          "url": "https://life-sci.hkust.edu.hk/team/jiguang-wang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Zhenguo WU",
+          "url": "https://life-sci.hkust.edu.hk/team/zhenguo-wu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Guang ZHU",
+          "url": "https://life-sci.hkust.edu.hk/team/guang-zhu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    },
+    {
+      "label": "生命科学部 · 副教授",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Kenny K. CHUNG",
+          "url": "https://life-sci.hkust.edu.hk/team/kenny-k-chung/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Shangyu DANG",
+          "url": "https://life-sci.hkust.edu.hk/team/shangyu-dang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yukinori HIRANO",
+          "url": "https://life-sci.hkust.edu.hk/team/yukinori-hirano/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Toyotaka ISHIBASHI",
+          "url": "https://life-sci.hkust.edu.hk/team/toyotaka-ishibashi/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Danny Chi Yeu LEUNG",
+          "url": "https://life-sci.hkust.edu.hk/team/danny-chi-yeu-leung/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Chun LIANG",
+          "url": "https://life-sci.hkust.edu.hk/team/chun-liang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Hyokeun PARK",
+          "url": "https://life-sci.hkust.edu.hk/team/hyokeun-park/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Tuan Anh NGUYEN",
+          "url": "https://life-sci.hkust.edu.hk/team/tuan-anh-nguyen/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Angela Ruohao WU",
+          "url": "https://life-sci.hkust.edu.hk/team/angela-ruohao-wu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yan YAN",
+          "url": "https://life-sci.hkust.edu.hk/team/yan-yan/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yuanliang ZHAI",
+          "url": "https://life-sci.hkust.edu.hk/team/yuanliang-zhai/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 副教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    },
+    {
+      "label": "生命科学部 · 助理教授",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Jieqiong GAO",
+          "url": "https://life-sci.hkust.edu.hk/team/jieqiong-gao/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Wenqing GAO",
+          "url": "https://life-sci.hkust.edu.hk/team/wenqing-gao/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yi LIAO",
+          "url": "https://life-sci.hkust.edu.hk/team/yi-liao/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yi MIAO",
+          "url": "https://life-sci.hkust.edu.hk/team/yimiao/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Lan WANG",
+          "url": "https://life-sci.hkust.edu.hk/team/lan-wang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Jie WANG",
+          "url": "https://life-sci.hkust.edu.hk/team/jie-wang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Zhen LIU",
+          "url": "https://life-sci.hkust.edu.hk/team/zhen-liu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Li-Sheng ZHANG",
+          "url": "https://life-sci.hkust.edu.hk/team/li-sheng-zhang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 助理教授",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    },
+    {
+      "label": "生命科学部 · 教学与教学支援人员",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Aftab AMIN",
+          "url": "https://life-sci.hkust.edu.hk/team/aftab-amin/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Ice W P KO",
+          "url": "https://life-sci.hkust.edu.hk/team/ice-w-p-ko/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Philip Y. LAM",
+          "url": "https://life-sci.hkust.edu.hk/team/philip-y-lam/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Rocky LAW",
+          "url": "https://life-sci.hkust.edu.hk/team/dr-rocky-law/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Nicki YH LEUNG",
+          "url": "https://life-sci.hkust.edu.hk/team/nicki-yh-leung/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Amy Laam LI",
+          "url": "https://life-sci.hkust.edu.hk/team/amy-laam-li/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Meredith D. SUN",
+          "url": "https://life-sci.hkust.edu.hk/team/meredith-d-sun/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Sunny TAM",
+          "url": "https://life-sci.hkust.edu.hk/team/sunny-tam/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Jessica Ce Mun TANG",
+          "url": "https://life-sci.hkust.edu.hk/team/jessica-ce-mun-tang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Yu Chung TSE",
+          "url": "https://life-sci.hkust.edu.hk/team/yu-chung-tse/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Hannah Zihan XU",
+          "url": "https://life-sci.hkust.edu.hk/team/hannah-zihan-xu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Chaya YUEN",
+          "url": "https://life-sci.hkust.edu.hk/team/chaya-yuen/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 教学与教学支援人员",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    },
+    {
+      "label": "生命科学部 · 关联师资",
+      "url": "https://life-sci.hkust.edu.hk/faculty-members/",
+      "entryBodyStatus": "body_read",
+      "sourceIds": [
+        "hkust-life-science-division-roster-20261111"
+      ],
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Donald C. CHANG",
+          "url": "https://life-sci.hkust.edu.hk/team/donald-c-chang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Hao CHEN",
+          "url": "https://life-sci.hkust.edu.hk/team/hao-chen/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Lingluo CHU",
+          "url": "https://life-sci.hkust.edu.hk/team/lingluo-chu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Becki Yi KUANG",
+          "url": "https://life-sci.hkust.edu.hk/team/becki-yi-kuang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Jianan QU",
+          "url": "https://life-sci.hkust.edu.hk/team/jianan-qu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Kwong Hung Keith LAU",
+          "url": "https://life-sci.hkust.edu.hk/team/kwong-hung-keith-lau/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Stanley C K LAU",
+          "url": "https://life-sci.hkust.edu.hk/team/stanley-c-k-lau/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Ning LI",
+          "url": "https://life-sci.hkust.edu.hk/team/ning-li/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Chi Ming LEE",
+          "url": "https://life-sci.hkust.edu.hk/team/chi-ming-lee/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Andrew L. MILLER",
+          "url": "https://life-sci.hkust.edu.hk/team/andrew-l-miller/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Pei-Yuan QIAN",
+          "url": "https://life-sci.hkust.edu.hk/team/pei-yuan-qian/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Robert Z. QI",
+          "url": "https://life-sci.hkust.edu.hk/team/robert-z-qi/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Bik-Kwoon YEUNG TYE",
+          "url": "https://life-sci.hkust.edu.hk/team/bik-kwoon-yeung-tye/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Zilong WEN",
+          "url": "https://life-sci.hkust.edu.hk/team/zilong-wen/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Joseph Tin Yum WONG",
+          "url": "https://life-sci.hkust.edu.hk/team/tin-yum-wong/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Wan-Keung R. WONG",
+          "url": "https://life-sci.hkust.edu.hk/team/wan-keung-r-wong/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Jun WU",
+          "url": "https://life-sci.hkust.edu.hk/team/jun-wu/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Jun XIA",
+          "url": "https://life-sci.hkust.edu.hk/team/jun-xia/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Hannah H XUE",
+          "url": "https://life-sci.hkust.edu.hk/team/hong-xue/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Qinglu ZENG",
+          "url": "https://life-sci.hkust.edu.hk/team/qinglu-zeng/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Xian ZHANG",
+          "url": "https://life-sci.hkust.edu.hk/team/xian-zhang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        },
+        {
+          "name": "Mingjie ZHANG",
+          "url": "https://life-sci.hkust.edu.hk/team/mingjie-zhang/",
+          "observedOn": "https://life-sci.hkust.edu.hk/faculty-members/",
+          "directoryLabel": "生命科学部 · 关联师资",
+          "directorySourceIds": [
+            "hkust-life-science-division-roster-20261111"
+          ],
+          "profileBodyStatus": "not_read",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "facultyId": null,
+          "researchReviewStatus": "research_pending",
+          "reviewNote": "所给学部个人页待逐人核对；理学院旧个人正文与稳定编号另列核对队列。"
+        }
+      ]
+    }
+  ]
+}
