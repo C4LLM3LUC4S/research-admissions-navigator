@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-10"
+CHECKED = "2026-11-11"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -1131,6 +1131,27 @@ def build_catalog():
         civil_department + ["HKU-CENTRAL-PERIOD"], "研究路线来自学系介绍，2027/28 日期来自研究院校级申请时间表。")
     civil_programme["entryUrl"] = "https://www.civil.hku.hk/h4_pros_pg_MPhil_PhD.html"
     catalog["programs"].append(civil_programme)
+    physics_cuhk = load("cuhk-physics-20261111.json")
+    for section in ("sources", "faculty", "directories"):
+        catalog[section].extend(physics_cuhk[section])
+    phys_sources = ["cuhk-physics-20261111-programme"]
+    phys = program(
+        "cuhk-physics-rpg-2027", "cuhk", "物理学 MPhil/PhD", ["MPhil", "PhD"],
+        "2027/28 学年，全日制。申请时可按偏好填写最多五个研究项目编号。",
+        "recommended", "选择项目之前，建议联系相关教师了解研究和课题组。", phys_sources,
+        "MPhil 申请者须具物理或相关学士学位；PhD 可凭相关学士或硕士申请。", phys_sources,
+        [deadline("主轮截止", "2026-12-01", phys_sources), deadline("清理轮截止（视余位）", "2027-03-31", phys_sources)],
+        phys_sources, "常规轮与已结束的提前申请流程分别核对。")
+    phys["entryUrl"] = "https://app.phy.cuhk.edu.hk/postgraduate-admissions/mphil-phd-in-physics/"
+    phys["requirements"] = [
+        {"label":"学历与成绩", "text":"相关专业学位；学系给出典型主修 GPA 3.2/4.0 或二等一级荣誉学位，具体资格以项目评审为准。", "action":"对照学系和研究院的学历与语言条件。", "sourceIds":phys_sources},
+        {"label":"材料与项目选择", "text":"上传成绩单及评分说明、学位或学籍证明、身份证明、简历、个人或研究陈述。按偏好填写最多五个项目编号。语言成绩如适用，须在2027年4月1日前补交。", "action":"按原页清单准备并上传文件。", "sourceIds":phys_sources},
+        {"label":"MPhil 推荐与面试", "text":"提供两位推荐人，由系统邀请在线推荐；入围者由相关教师安排面试。", "action":"提前安排两位推荐人。", "degrees":["MPhil"], "sourceIds":phys_sources},
+        {"label":"PhD 推荐与考试", "text":"提供三位推荐人；入围者获邀参加2026年12月或2027年2月的入学考试。GRE学科成绩为选交。", "action":"提前安排三位推荐人并留意考试邀请。", "degrees":["PhD"], "sourceIds":phys_sources}]
+    phys["finances"] = [
+        {"id":"cuhk-physics-tuition", "kind":"tuition", "label":"学费", "text":"2027/28 学年全日制 MPhil/PhD 每年49,500港元。", "action":"查看项目学费与资助说明。", "sourceIds":phys_sources, "rates":[{"value":49500,"currency":"HKD","unit":"academic_year","basis":"academic_year","cycle":"2027/28","condition":"全日制 MPhil/PhD"}]},
+        {"id":"cuhk-physics-application-fee", "kind":"application_fee", "label":"申请费", "rates":[], "text":"申请费500港元。", "action":"在正式申请系统核对付款安排。", "sourceIds":phys_sources}]
+    catalog["programs"].append(phys)
     return catalog
 
 

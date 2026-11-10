@@ -1,23 +1,23 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_hku_civil_rosters",
+  "stage": "post_alpha34_cuhk_physics",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
-  "checked_date": "2026-11-10",
+  "checked_date": "2026-11-11",
   "working_name": "研向",
   "scope": "七校研究型硕博申请导航；逐校列学院与学系，整理部分教师研究方向及项目要求，持续扩充专业。不是完整导师库。",
   "counts": {
     "universities": 7,
-    "programme_or_route_cards": 70,
-    "degree_routes": 121,
-    "faculty": 1992,
-    "official_sources": 3158,
-    "programmes_with_partial_requirements": 67,
-    "requirement_items": 242,
-    "programmes_with_partial_finances": 39,
-    "finance_items": 65,
-    "official_directory_entries": 120,
+    "programme_or_route_cards": 71,
+    "degree_routes": 123,
+    "faculty": 2038,
+    "official_sources": 3219,
+    "programmes_with_partial_requirements": 68,
+    "requirement_items": 246,
+    "programmes_with_partial_finances": 40,
+    "finance_items": 67,
+    "official_directory_entries": 122,
     "teacher_linked_sources": 770,
-    "total_sources": 3928,
+    "total_sources": 3989,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -485,5 +485,6 @@
     "补充港大物理系和港科广机器人与自主系统研究档案，保留原收藏编号。",
     "新增港中文急症医学教研单位及港科大材料科学与工程系相关入口。",
     "信息来源可按关键词搜索和分批浏览；收藏老师时保留展开的依据。"
-  ]
+  ],
+  "catalogue_snapshot": "sha256:d9ff3323f173402ad7295307d5d04786cd1a2b48d938f62fdebc8522cd6943f4"
 }
