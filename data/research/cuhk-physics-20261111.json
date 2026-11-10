@@ -1,0 +1,3154 @@
+{
+  "sources": [
+    {
+      "id": "cuhk-physics-20261111-teaching-staff",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/",
+      "title": "港中文物理系 · teaching-staff",
+      "claims": [
+        "名录原有身份与具名个人页；不等同指导资格。"
+      ],
+      "scope": "名录原有身份与具名个人页；不等同指导资格。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "190bb4a8f76828b1f93ed623caafd9c6a778f1578165b3c8c56f93c3e7580428",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-chan-tsang-keung",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/chan-tsang-keung/",
+      "title": "港中文物理系 · teaching-staff-chan-tsang-keung",
+      "claims": [
+        "个人页身份与研究段。Simulation in astronomy, numerical methods, cosmological galaxy simulation, radiative transfer, dark matter, cosmic ray, compact object"
+      ],
+      "scope": "个人页身份与研究段。Simulation in astronomy, numerical methods, cosmological galaxy simulation, radiative transfer, dark matter, cosmic ray, compact object",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d7574872b156dec2708bf8c2b98a240bb2facf955af17354a65db45443838555",
+      "discoveredLinks": [
+        "https://tsangkeungchan.com"
+      ]
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-chen-yuguang",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/chen-yuguang/",
+      "title": "港中文物理系 · teaching-staff-chen-yuguang",
+      "claims": [
+        "个人页身份与研究段。Galaxy Evolution Interstellar Medium, Circumgalactic Medium List of"
+      ],
+      "scope": "个人页身份与研究段。Galaxy Evolution Interstellar Medium, Circumgalactic Medium List of",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "69fbf856a0514a67aa7858cdb84521cf254ac6e5be5f443b346ed3d772b01d9d",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-cheng-hok-chuen",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/cheng-hok-chuen/",
+      "title": "港中文物理系 · teaching-staff-cheng-hok-chuen",
+      "claims": [
+        "个人页身份与研究段。Experimental High-Energy Physics (Higgs boson property measurement, beyond the Standard Model search, hyperon physics, spin physics) (ATLAS Collaboration Website [ https://atlas.cern ]) Interdisciplinary Research (QML/ML applications in HEP and other areas)"
+      ],
+      "scope": "个人页身份与研究段。Experimental High-Energy Physics (Higgs boson property measurement, beyond the Standard Model search, hyperon physics, spin physics) (ATLAS Collaboration Website [ https://atlas.cern ]) Interdisciplinary Research (QML/ML applications in HEP and other areas)",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a4aea1be4771d55f129c7986ce9ea84d00b884ef9c6088958c896753895285bb",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-emily-s-c-ching",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/emily-s-c-ching/",
+      "title": "港中文物理系 · teaching-staff-emily-s-c-ching",
+      "claims": [
+        "个人页身份与研究段。Turbulent thermal convection and turbulent double diffusive convection Scaling and statistics in fluid turbulence Effect of polymers in turbulence Collective dynamics of neuronal networks Reconstructing networks from dynamics"
+      ],
+      "scope": "个人页身份与研究段。Turbulent thermal convection and turbulent double diffusive convection Scaling and statistics in fluid turbulence Effect of polymers in turbulence Collective dynamics of neuronal networks Reconstructing networks from dynamics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7e51ecb9fffff8f76052e8e2b479588c4e6ee2a29b29676857af291641d90802",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-chu-ming-chung",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/chu-ming-chung/",
+      "title": "港中文物理系 · teaching-staff-chu-ming-chung",
+      "claims": [
+        "个人页身份与研究段。Dark Matter Astrophysics and Cosmology Cosmic Microwave Background Radiation Neutrino Oscillations (Daya Bay and Aberdeen Tunnel experiments) Experimental Particle Physics ( Link to ATLAS, CERN )"
+      ],
+      "scope": "个人页身份与研究段。Dark Matter Astrophysics and Cosmology Cosmic Microwave Background Radiation Neutrino Oscillations (Daya Bay and Aberdeen Tunnel experiments) Experimental Particle Physics ( Link to ATLAS, CERN )",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6e60a6c5e235dcc9b918f21b38d30f9f1db4dc1dfc4bcfd60fbd97f9e336ace2",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-dung-on-yu",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/dung-on-yu/",
+      "title": "港中文物理系 · teaching-staff-dung-on-yu",
+      "claims": [
+        "个人页身份与研究段。Complex (adaptive) systems. Complexity science (incl. natural and social systems). Physics of social systems. Interdisciplinary and transdisciplinary collaboration (incl. also social science and humanities); what are inter-/multi-/trans-disciplinarity? see e.g. Utrecht University website Wicked problems (energy transition, hydrogen issue. Rethink H"
+      ],
+      "scope": "个人页身份与研究段。Complex (adaptive) systems. Complexity science (incl. natural and social systems). Physics of social systems. Interdisciplinary and transdisciplinary collaboration (incl. also social science and humanities); what are inter-/multi-/trans-disciplinarity? see e.g. Utrecht University website Wicked problems (energy transition, hydrogen issue. Rethink H",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8bd0db948af7ad43ab427048760f12a4d010344a61bd66c8c5e71754c2a15e6b",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-luis-roberto-flores-castillo",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/luis-roberto-flores-castillo/",
+      "title": "港中文物理系 · teaching-staff-luis-roberto-flores-castillo",
+      "claims": [
+        "个人页身份与研究段。Measurement of the properties of the Higgs boson Searches for dark matter particles Searches for new high-mass particles ( Link to the website of the ATLAS collaboration )"
+      ],
+      "scope": "个人页身份与研究段。Measurement of the properties of the Higgs boson Searches for dark matter particles Searches for new high-mass particles ( Link to the website of the ATLAS collaboration )",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "eef1c57326d2c11047da289e5f647a1f1f408325445bf6d97b6bb5dfb710dea6",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-goh-swee-kuan",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/goh-swee-kuan/",
+      "title": "港中文物理系 · teaching-staff-goh-swee-kuan",
+      "claims": [
+        "个人页身份与研究段。High pressure studies of strongly correlated electron systems Fermi surface mapping via the de Haas-van Alphen effect"
+      ],
+      "scope": "个人页身份与研究段。High pressure studies of strongly correlated electron systems Fermi surface mapping via the de Haas-van Alphen effect",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e5f69be9f08d4f567d093092cbbf61156f05a36f7e74bba94d3cebca872b88ca",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-gu-zhengcheng",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/gu-zhengcheng/",
+      "title": "港中文物理系 · teaching-staff-gu-zhengcheng",
+      "claims": [
+        "个人页身份与研究段。Entanglement renormalization and deep learning. Classification of topological phases in interacting bosonic and fermionic systems. Tensor network simulation for two dimensional strongly correlated systems, e.g., frustrated magnets and Hubbard model. Unification of mass mixing phenomena in quark and lepton sectors. Predictions on leptonic CP violati"
+      ],
+      "scope": "个人页身份与研究段。Entanglement renormalization and deep learning. Classification of topological phases in interacting bosonic and fermionic systems. Tensor network simulation for two dimensional strongly correlated systems, e.g., frustrated magnets and Hubbard model. Unification of mass mixing phenomena in quark and lepton sectors. Predictions on leptonic CP violati",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ecf4e485e9443548874d63cddc244f00c4b9f2592986c42f475b3de091d72bcb",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-otto-a-hannuksela",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/otto-a-hannuksela/",
+      "title": "港中文物理系 · teaching-staff-otto-a-hannuksela",
+      "claims": [
+        "个人页身份与研究段。Gravitational-wave physics"
+      ],
+      "scope": "个人页身份与研究段。Gravitational-wave physics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b1dbc3d8af6efd97128c583b17fa3db6438fc89e0fe62bb9e423ff4ac30ba629",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-hu-chen",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/hu-chen/",
+      "title": "港中文物理系 · teaching-staff-hu-chen",
+      "claims": [
+        "个人页身份与研究段。Theoretical & computational condensed matter physics Excited states, topological physics & many-body correlation 2D quantum materials Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Theoretical & computational condensed matter physics Excited states, topological physics & many-body correlation 2D quantum materials Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "81daaddc0116b69c3270b934f25e8897913969eeff21154db21b826527a5977d",
+      "discoveredLinks": [
+        "https://www.chen-hu.com/"
+      ]
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-hui-pak-ming",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/hui-pak-ming/",
+      "title": "港中文物理系 · teaching-staff-hui-pak-ming",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "270ab93cb6d1f645b66eaa4c9dfdbd7ddc601d20149a4d18306edb63d987cbbf",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-marco-y-h-lai",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/marco-y-h-lai/",
+      "title": "港中文物理系 · teaching-staff-marco-y-h-lai",
+      "claims": [
+        "个人页身份与研究段。Optical Physics Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Optical Physics Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "71416da9aef4d1b5a6d153920b95cd0570545d05b12d525b8da857e158ba8f55",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-tian-lan",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/tian-lan/",
+      "title": "港中文物理系 · teaching-staff-tian-lan",
+      "claims": [
+        "个人页身份与研究段。Mathematical framework for topological phases of matter Higher categorical structures of symmetry, quantum phases and phase transitions Exactly solvable models for topological phases and quantum computation Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Mathematical framework for topological phases of matter Higher categorical structures of symmetry, quantum phases and phase transitions Exactly solvable models for topological phases and quantum computation Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6d062e3cc0cbcc17b072155027ab2fd458e94b506fd0155747f06f9b235cfe77",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-leung-po-kin",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/leung-po-kin/",
+      "title": "港中文物理系 · teaching-staff-leung-po-kin",
+      "claims": [
+        "个人页身份与研究段。Astrophysics Compact Objects Radiative Transfer Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Astrophysics Compact Objects Radiative Transfer Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "275e51b4894a23b0e30fea091f6f2f6b0261eae72211ed9e33036a002d1cf361",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-li-hua-bai",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/li-hua-bai/",
+      "title": "港中文物理系 · teaching-staff-li-hua-bai",
+      "claims": [
+        "个人页身份与研究段。Star formation Interstellar medium turbulence and magnetic fields Astronomical instrumentation Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Star formation Interstellar medium turbulence and magnetic fields Astronomical instrumentation Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "47c88b19cc6c931d5f6797624e0f79cae170a0092de9b73420293c1b501352d8",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-li-quan",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/li-quan/",
+      "title": "港中文物理系 · teaching-staff-li-quan",
+      "claims": [
+        "个人页身份与研究段。Quantum sensing for condensed matter physics, bio-medicine, and energy applications Developing quantum sensors and protocols to study intriguing problems in condensed matter physics, bio-medicine, and energy devices. Energy storage materials In situ and ex situ characterization of battery materials and processes Nano-bio interfaces Nanovaccine deve"
+      ],
+      "scope": "个人页身份与研究段。Quantum sensing for condensed matter physics, bio-medicine, and energy applications Developing quantum sensors and protocols to study intriguing problems in condensed matter physics, bio-medicine, and energy devices. Energy storage materials In situ and ex situ characterization of battery materials and processes Nano-bio interfaces Nanovaccine deve",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9ebaba633b472eb2c2d1e8b583dbe05ebf3a86409af3db7765e108c962cf5d25",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-li-yufan",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/li-yufan/",
+      "title": "港中文物理系 · teaching-staff-li-yufan",
+      "claims": [
+        "个人页身份与研究段。Magnetic, spin and topological phenomena in quantum materials and their heterostructures Quantum phenomena in nanodevices and nanostructures Unconventional pairing states of superconductivity Emergent functions of thin films and interfaces Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Magnetic, spin and topological phenomena in quantum materials and their heterostructures Quantum phenomena in nanodevices and nanostructures Unconventional pairing states of superconductivity Emergent functions of thin films and interfaces Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "604841c9a3c0a0ee67784a4f13109a2165ecdfe6675aefeb0d3f800c25b53601",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-lin-lap-ming",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/lin-lap-ming/",
+      "title": "港中文物理系 · teaching-staff-lin-lap-ming",
+      "claims": [
+        "个人页身份与研究段。Relativistic astrophysics Gravitational-wave sources Numerical relativity Recent"
+      ],
+      "scope": "个人页身份与研究段。Relativistic astrophysics Gravitational-wave sources Numerical relativity Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "386b24b6e5fd6722a13bd201898c1515d7556f7ec7d0dffa7434edd515e23332",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-liu-renbao",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-renbao/",
+      "title": "港中文物理系 · teaching-staff-liu-renbao",
+      "claims": [
+        "个人页身份与研究段。Physics for implementing quantum computation in solid-state systems Spin dynamics in semiconductors; electron spin decoherence in nuclear spin baths Quantum optics and nonlinear optical spectroscopy of mesoscopic systems Magnetic nanometrology, magnetic resonance spectroscopy"
+      ],
+      "scope": "个人页身份与研究段。Physics for implementing quantum computation in solid-state systems Spin dynamics in semiconductors; electron spin decoherence in nuclear spin baths Quantum optics and nonlinear optical spectroscopy of mesoscopic systems Magnetic nanometrology, magnetic resonance spectroscopy",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b83b775ab7327742c584a6b58c29dae670e77ed6deea077e4737431d9cee6139",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-liu-runze",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-runze/",
+      "title": "港中文物理系 · teaching-staff-liu-runze",
+      "claims": [
+        "个人页身份与研究段。Photonic quantum information, including exotic quantum states, computation, and networks Single quantum dots, especially those based on III-V semiconductor materials Molecular beam epitaxy Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Photonic quantum information, including exotic quantum states, computation, and networks Single quantum dots, especially those based on III-V semiconductor materials Molecular beam epitaxy Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dbf84e7c4931b38412b5675d9908edb412ceafde5f31e21ab84489b2d6a2b720",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-lu-xinhui",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/lu-xinhui/",
+      "title": "港中文物理系 · teaching-staff-lu-xinhui",
+      "claims": [
+        "个人页身份与研究段。Materials science and experimental soft condensed matter physics X-ray and neutron scattering Organic solar cells Perovskite optoelectronics"
+      ],
+      "scope": "个人页身份与研究段。Materials science and experimental soft condensed matter physics X-ray and neutron scattering Organic solar cells Perovskite optoelectronics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3b2f83720051deda124af6bf4d5736bd1de3a62915688f279be3cbead0c8c2c1",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-kenny-c-y-ng",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/kenny-c-y-ng/",
+      "title": "港中文物理系 · teaching-staff-kenny-c-y-ng",
+      "claims": [
+        "个人页身份与研究段。Astro-particle physics Dark matter"
+      ],
+      "scope": "个人页身份与研究段。Astro-particle physics Dark matter",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd94919ebef32fc46f2f52a1e21a06f55c52743bc7b9ca638b69843540e553e5",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-daniel-h-c-ong",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/daniel-h-c-ong/",
+      "title": "港中文物理系 · teaching-staff-daniel-h-c-ong",
+      "claims": [
+        "个人页身份与研究段。Semiconductor physics Thin film science Random Laser"
+      ],
+      "scope": "个人页身份与研究段。Semiconductor physics Thin film science Random Laser",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "56254839ec76d628e022bd38ca2f3d7dde64ff6aa36dae6bc4bd52833f90ee4a",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-sun-rongyang",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/sun-rongyang/",
+      "title": "港中文物理系 · teaching-staff-sun-rongyang",
+      "claims": [
+        "个人页身份与研究段。Quantum many-body physics; Quantum simulation/computing; Tensor network methods; Condensed matter physics; Strongly correlated electron systems; High-performance computing; Parallel computing; Quantum machine learning Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Quantum many-body physics; Quantum simulation/computing; Tensor network methods; Condensed matter physics; Strongly correlated electron systems; High-performance computing; Parallel computing; Quantum machine learning Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "06160b440ce55113fbbfccea5083c6852ade5aeabcb42cea9de1831622e17b6c",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-tong-shiu-sing",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/tong-shiu-sing/",
+      "title": "港中文物理系 · teaching-staff-tong-shiu-sing",
+      "claims": [
+        "个人页身份与研究段。Physics, Astronomy, and Science Education New Energy and Sustainability Education Electrospinning, Nanofibre, Biodegradable Materials Eigenfunction Expansion in Open Wave Systems"
+      ],
+      "scope": "个人页身份与研究段。Physics, Astronomy, and Science Education New Energy and Sustainability Education Electrospinning, Nanofibre, Biodegradable Materials Eigenfunction Expansion in Open Wave Systems",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d79a8f645308e75bf2bf72439661da4a5d147c5fa87860cc732e526d3324da4d",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-wang-dajun",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-dajun/",
+      "title": "港中文物理系 · teaching-staff-wang-dajun",
+      "claims": [
+        "个人页身份与研究段。Ultracold polar molecules Bose-Einstein condensate and quantum degenerate Fermi gas High resolution spectroscopy Femotosecond frequency comb and ultra-stable lasers Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Ultracold polar molecules Bose-Einstein condensate and quantum degenerate Fermi gas High resolution spectroscopy Femotosecond frequency comb and ultra-stable lasers Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ad4b36e1d9ea1c9139f63be80e658c96936168cb2c676e577e3be4f7a3a419c8",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-wang-jianfang",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-jianfang/",
+      "title": "港中文物理系 · teaching-staff-wang-jianfang",
+      "claims": [
+        "个人页身份与研究段。Plasmonics Nanophotonics Nanomaterials Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Plasmonics Nanophotonics Nanomaterials Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "da46d5fcd0088fcbaf07258dec01bcc1d65b02053cfd7b439fd9affb0fd79503",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-wang-qisi",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-qisi/",
+      "title": "港中文物理系 · teaching-staff-wang-qisi",
+      "claims": [
+        "个人页身份与研究段。Unconventional superconductivity, quantum magnetism and correlated electron physics X-ray and neutron scattering of elementary excitations and phase transitions in quantum matter Crystal growth of novel materials Prize and Award United College Dr. and Mrs. Joseph W. N. Cheung Research Excellence Award 2026 Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Unconventional superconductivity, quantum magnetism and correlated electron physics X-ray and neutron scattering of elementary excitations and phase transitions in quantum matter Crystal growth of novel materials Prize and Award United College Dr. and Mrs. Joseph W. N. Cheung Research Excellence Award 2026 Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cf9d2a32b8d5f4ceae18aa80d36bdccaae5206c7a46b312ab81d0c67e3bbed1f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-wang-yi",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-yi/",
+      "title": "港中文物理系 · teaching-staff-wang-yi",
+      "claims": [
+        "个人页身份与研究段。Computational biophysics: Molecular simulations of protein conformations and dynamics Interactions of small molecules and nanoparticles with lipid membranes Structural and dynamic properties of hydrogels and coacervates Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Computational biophysics: Molecular simulations of protein conformations and dynamics Interactions of small molecules and nanoparticles with lipid membranes Structural and dynamic properties of hydrogels and coacervates Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4bda30754d1a07850141119f31f2efd88d0059ad61c89f0dfe3dc893a9093a37",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-wu-yilin",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/wu-yilin/",
+      "title": "港中文物理系 · teaching-staff-wu-yilin",
+      "claims": [
+        "个人页身份与研究段。Physics of living matter and quantitative biology: Collective motion and self-organization of living active matter Growth dynamics of general living matter Bacterial motility in complex environments Population dynamics, pattern formation and cell-environment interactions in natural and synthetic multicellular systems"
+      ],
+      "scope": "个人页身份与研究段。Physics of living matter and quantitative biology: Collective motion and self-organization of living active matter Growth dynamics of general living matter Bacterial motility in complex environments Population dynamics, pattern formation and cell-environment interactions in natural and synthetic multicellular systems",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f76d4ef5a99a125269bad39774f5267fa232ecb114b6d457ab97cfd8b279d0ee",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-xu-lei",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/xu-lei/",
+      "title": "港中文物理系 · teaching-staff-xu-lei",
+      "claims": [
+        "个人页身份与研究段。Soft Condensed Matter Experiment Fluid Mechanics (liquid drop splash, liquid-solid impact, fingering instability) Complex Fluids (colloidal glass, colloidal crystallization, drying of complex fluids)"
+      ],
+      "scope": "个人页身份与研究段。Soft Condensed Matter Experiment Fluid Mechanics (liquid drop splash, liquid-solid impact, fingering instability) Complex Fluids (colloidal glass, colloidal crystallization, drying of complex fluids)",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f39b7db0d8ca48860d71a7db94837a620b8e4d1deb6e0b5062cd2265b2c9119d",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-xue-haoran",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/xue-haoran/",
+      "title": "港中文物理系 · teaching-staff-xue-haoran",
+      "claims": [
+        "个人页身份与研究段。Topological photonics Topological acoustics Non-Hermitian physics"
+      ],
+      "scope": "个人页身份与研究段。Topological photonics Topological acoustics Non-Hermitian physics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d8be5e966020acbcf4893a351a4af4817298c9bc4b511ad5065203f5915689c8",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-yan-renbin",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-renbin/",
+      "title": "港中文物理系 · teaching-staff-yan-renbin",
+      "claims": [
+        "个人页身份与研究段。Astronomical Instrumentation Interstellar Medium Galaxy Evolution"
+      ],
+      "scope": "个人页身份与研究段。Astronomical Instrumentation Interstellar Medium Galaxy Evolution",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f49ac11a2b4e791f9f4b6de03b0f19fede22e5d99b913fafab6d664a84434804",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-yan-yangqian",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-yangqian/",
+      "title": "港中文物理系 · teaching-staff-yan-yangqian",
+      "claims": [
+        "个人页身份与研究段。Quantum gases: Theory of ultracold atoms and molecules Topological quantum matters Non-hermitian physics and open quantum systems Strongly correlated few- and many-body systems Quantum simulation"
+      ],
+      "scope": "个人页身份与研究段。Quantum gases: Theory of ultracold atoms and molecules Topological quantum matters Non-hermitian physics and open quantum systems Strongly correlated few- and many-body systems Quantum simulation",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5f7cdca14cf80d92ee7c07192ef02b1d1dcb58dacd01f6d0eb189a5cfb709945",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-yip-long-sang",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/yip-long-sang/",
+      "title": "港中文物理系 · teaching-staff-yip-long-sang",
+      "claims": [
+        "个人页身份与研究段。Phononic crystals Perturbation methods Theoretical Physics"
+      ],
+      "scope": "个人页身份与研究段。Phononic crystals Perturbation methods Theoretical Physics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "83dc82f58c5bc23aa9bae59af827d88068506aa986c180f6d5e4f1b4563f975e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-zhang-hengkai",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/zhang-hengkai/",
+      "title": "港中文物理系 · teaching-staff-zhang-hengkai",
+      "claims": [
+        "个人页身份与研究段。Perovskite optoelectronics"
+      ],
+      "scope": "个人页身份与研究段。Perovskite optoelectronics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "50829f699ebabe8b88eb9f90772e2b2d124deb3c76d5abd67230cf3bd12f6f12",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-zhao-jiarui",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/zhao-jiarui/",
+      "title": "港中文物理系 · teaching-staff-zhao-jiarui",
+      "claims": [
+        "个人页身份与研究段。Quantum entanglement entropies and negativities Quantum many body systems with long-range interactions Deconfined quantum critical points Quantum Monte Carlo methods and Tensor Network techniques Generalized symmetry Mixed states physics Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Quantum entanglement entropies and negativities Quantum many body systems with long-range interactions Deconfined quantum critical points Quantum Monte Carlo methods and Tensor Network techniques Generalized symmetry Mixed states physics Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a83e0afb0da1e5003cf58d14979a2f9dff804e7e0d13065079de7125857e161e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-zhu-junyi",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/zhu-junyi/",
+      "title": "港中文物理系 · teaching-staff-zhu-junyi",
+      "claims": [
+        "个人页身份与研究段。Semiconductor defects and doping Electronic properties of solids Surface and interface phenomena Using first principles and molecular dynamics approaches Elastic theory modeling."
+      ],
+      "scope": "个人页身份与研究段。Semiconductor defects and doping Electronic properties of solids Surface and interface phenomena Using first principles and molecular dynamics approaches Elastic theory modeling.",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8c8e345ef1b21ff23ed8c2c9da64ad53e7b3b886d38b74f367d8c307dd5b1a31",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/",
+      "title": "港中文物理系 · honorary-staff",
+      "claims": [
+        "名录原有身份与具名个人页；不等同指导资格。"
+      ],
+      "scope": "名录原有身份与具名个人页；不等同指导资格。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b25cbcc1a888a390237a8ac6f93c8675c1214817e77cbd1b38f76fa1e869288a",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-juan-calderon-bustillo",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/juan-calderon-bustillo/",
+      "title": "港中文物理系 · honorary-staff-juan-calderon-bustillo",
+      "claims": [
+        "个人页身份与研究段。Gravitational-wave Astronomy Gravitational-wave searches Black Hole Spectroscopy Tests of General Relativity Cosmology with binary neutron stars"
+      ],
+      "scope": "个人页身份与研究段。Gravitational-wave Astronomy Gravitational-wave searches Black Hole Spectroscopy Tests of General Relativity Cosmology with binary neutron stars",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "851de95aa0a1050e82f684ee3ebcfdbee473b62456e66dc8d833ea4bdbe3f37f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-chen-fong-ching",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/chen-fong-ching/",
+      "title": "港中文物理系 · honorary-staff-chen-fong-ching",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dab971fe6066476b7b703dd6ff5b2522b060505cb9e3b6a18abed2f3e4724f99",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-hui-pak-ming",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/hui-pak-ming/",
+      "title": "港中文物理系 · honorary-staff-hui-pak-ming",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "270ab93cb6d1f645b66eaa4c9dfdbd7ddc601d20149a4d18306edb63d987cbbf",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-lau-w-m-leo",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/lau-w-m-leo/",
+      "title": "港中文物理系 · honorary-staff-lau-w-m-leo",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c3fc11335763c273247082a62d4c9c179e190a9762b4416420813911b6f01c74",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-leung-pui-tang",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-pui-tang/",
+      "title": "港中文物理系 · honorary-staff-leung-pui-tang",
+      "claims": [
+        "个人页身份与研究段。Quasinormal modes of open systems Quantum optics Sonoluminescence"
+      ],
+      "scope": "个人页身份与研究段。Quasinormal modes of open systems Quantum optics Sonoluminescence",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f141853758536f45dc4a193168ef3de4d80851c409299f800f007198f0ba4429",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-leung-wing-mo",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-wing-mo/",
+      "title": "港中文物理系 · honorary-staff-leung-wing-mo",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "964fb2997fca9aa3998b9bb0e71535acd579c90e3a74f540ad0b117c2f188ad8",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-li-ping-wah",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/li-ping-wah/",
+      "title": "港中文物理系 · honorary-staff-li-ping-wah",
+      "claims": [
+        "个人页身份与研究段。and Experiences Tropical Cyclone Forecasting – Numerical Weather Prediction and AI Modelling Climate Change, Extreme Weather, Sustainability and Habitability Nonlinear Physics and Complex Systems Nowcasting, Weather Forecasting and Predictability AI/ML in Meteorology Atmospheric Remote Sensing – weather radar, satellite, GPS Cloud Electrification a"
+      ],
+      "scope": "个人页身份与研究段。and Experiences Tropical Cyclone Forecasting – Numerical Weather Prediction and AI Modelling Climate Change, Extreme Weather, Sustainability and Habitability Nonlinear Physics and Complex Systems Nowcasting, Weather Forecasting and Predictability AI/ML in Meteorology Atmospheric Remote Sensing – weather radar, satellite, GPS Cloud Electrification a",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f38467451487b445c027e39c50f7abb118b2bced686e7c668deb6e9c61a038d5",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-lin-hai-qing",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/lin-hai-qing/",
+      "title": "港中文物理系 · honorary-staff-lin-hai-qing",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8d41832092fe16bf48a16116270e317158fb38b03785c8e4ed3130e401de2b57",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-dickon-h-l-ng",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/dickon-h-l-ng/",
+      "title": "港中文物理系 · honorary-staff-dickon-h-l-ng",
+      "claims": [
+        "个人页身份与研究段。Composite materials Biomorphic materials Photocatalysis Energy materials"
+      ],
+      "scope": "个人页身份与研究段。Composite materials Biomorphic materials Photocatalysis Energy materials",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "28d730b552fe57c8273144a4fe1449a5afe41dab6f6d58d1e903cdc52255e36e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-suen-wai-mo",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/suen-wai-mo/",
+      "title": "港中文物理系 · honorary-staff-suen-wai-mo",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cb88f87d0caf0f5c3b84b5f1daa3258cbeb52ead0f00d807a1b5c87cc87c19cb",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-wong-h-k-roger",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/wong-h-k-roger/",
+      "title": "港中文物理系 · honorary-staff-wong-h-k-roger",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ef78f454155199754bd5b803be870320c03f82f73958890cf4f0776ece871d37",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-wu-kinwah",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/wu-kinwah/",
+      "title": "港中文物理系 · honorary-staff-wu-kinwah",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ee7e54b47108e4383d73800e63386fc3b57cb38fdcd8b92633a34ef8d1e35933",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-xia-keqing",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/xia-keqing/",
+      "title": "港中文物理系 · honorary-staff-xia-keqing",
+      "claims": [
+        "个人页身份与研究段。Fluid Turbulence Complex Fluids"
+      ],
+      "scope": "个人页身份与研究段。Fluid Turbulence Complex Fluids",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6b2b20a96532ee7dd21fdda73f8683a04c4496fb8d1d017cd16b807bc5e12490",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-xiao-xudong",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/xiao-xudong/",
+      "title": "港中文物理系 · honorary-staff-xiao-xudong",
+      "claims": [
+        "个人页身份与研究段。Solar Cell Research Laboratory Surface diffusion, Nanotribology study using atomic force microscopy, Novel properties of nanostructures and materials, Scanning tunneling microscopy Details"
+      ],
+      "scope": "个人页身份与研究段。Solar Cell Research Laboratory Surface diffusion, Nanotribology study using atomic force microscopy, Novel properties of nanostructures and materials, Scanning tunneling microscopy Details",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "666424cb321a114a336d99d5312617a3a665c4eb9bdb67f1b008db14e7faf890",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-yang-sen",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/yang-sen/",
+      "title": "港中文物理系 · honorary-staff-yang-sen",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2d08861ac42873e1d5a232a3bbe7d72fe7d751040fc54c39f9be61ab78c21cb7",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-young-c-charles",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/young-c-charles/",
+      "title": "港中文物理系 · honorary-staff-young-c-charles",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5f900d8b34339d9311eedd11ff3d6e6ec0a42f77b0728cf5bc1c4cd292558f9e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-young-kenneth",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/young-kenneth/",
+      "title": "港中文物理系 · honorary-staff-young-kenneth",
+      "claims": [
+        "个人页身份与研究段。Theoretical Physics"
+      ],
+      "scope": "个人页身份与研究段。Theoretical Physics",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f98163bd7584b14fced8222881ae5661cd25e65f52b6683f800f0904aed1ad84",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-zhou-xin",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/zhou-xin/",
+      "title": "港中文物理系 · honorary-staff-zhou-xin",
+      "claims": [
+        "个人页身份与研究段。Theoretical Soft matter & Biophysics Statistical Physics Computational Physics Selected Recent"
+      ],
+      "scope": "个人页身份与研究段。Theoretical Soft matter & Biophysics Statistical Physics Computational Physics Selected Recent",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9691b215b35de4d2cec80fe27f059df723710d4e2a0e52defa56b5d18ac53a8c",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-zhu-shiyao",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/zhu-shiyao/",
+      "title": "港中文物理系 · honorary-staff-zhu-shiyao",
+      "claims": [
+        "个人页身份与研究段。未找到独立研究方向段，保留名录。"
+      ],
+      "scope": "个人页身份与研究段。未找到独立研究方向段，保留名录。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "65b4076692ffa84687bb583aadb5d522e89b7654d2f169e11cff9768417002e0",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-programme",
+      "url": "https://app.phy.cuhk.edu.hk/postgraduate-admissions/mphil-phd-in-physics/",
+      "title": "港中文物理系 · programme",
+      "claims": [
+        "2027/28 物理 MPhil 与 PhD 学历、典型成绩、材料、推荐人、考试、日期及费用；已排除 HTML 注释内旧提前申请流程。"
+      ],
+      "scope": "2027/28 物理 MPhil 与 PhD 学历、典型成绩、材料、推荐人、考试、日期及费用；已排除 HTML 注释内旧提前申请流程。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "11bacc0606cf3b15efdd238a1e83a81bd326a531020932d3d3d61352aa764e51",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-chan-tsang-keung",
+      "url": "https://tsangkeungchan.com",
+      "title": "Personal Website",
+      "claims": [
+        "个人站说明港中文任职及宇宙、恒星、星系、暗物质数值模拟。"
+      ],
+      "scope": "个人站说明港中文任职及宇宙、恒星、星系、暗物质数值模拟。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "98a38bcba3944829d36a76e5ea0e8170c4f989d9d0531ec2984e5488d0d67e33",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-chan-tsang-keung"
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-hu-chen",
+      "url": "https://www.chen-hu.com/",
+      "title": "Group website",
+      "claims": [
+        "课题组研究计算材料科学、理论凝聚态与量子材料的第一性原理方法。"
+      ],
+      "scope": "课题组研究计算材料科学、理论凝聚态与量子材料的第一性原理方法。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0ae329ae628d62082ce2fe300348ca82e0ffe9239b59698f3a7c0625b41d8ef4",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-hu-chen"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "cuhk-physics-20261111-chan-tsang-keung",
+      "universityId": "cuhk",
+      "name": "CHAN Tsang Keung 陳增強",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chan-tsang-keung/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究天体数值模拟、星系形成、暗物质与宇宙射线。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "天体数值模拟",
+        "星系形成",
+        "暗物质与宇宙射线",
+        "Simulation in astronomy",
+        "numerical methods",
+        "cosmological galaxy simulation",
+        "radiative transfer",
+        "dark matter",
+        "cosmic ray",
+        "compact object"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chan-tsang-keung",
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-chan-tsang-keung"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chan-tsang-keung"
+      ],
+      "extraLinks": [
+        {
+          "label": "Personal Website",
+          "url": "https://tsangkeungchan.com",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-chan-tsang-keung",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-chan-tsang-keung"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-chan-tsang-keung"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-chen-yuguang",
+      "universityId": "cuhk",
+      "name": "CHEN Yuguang 陳昱光",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chen-yuguang/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究星系演化、星际与星系周介质。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "星系演化",
+        "星际与星系周介质",
+        "Galaxy Evolution Interstellar Medium",
+        "Circumgalactic Medium List of"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chen-yuguang",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chen-yuguang"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-chen-yuguang"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-cheng-hok-chuen",
+      "universityId": "cuhk",
+      "name": "CHENG Hok Chuen 鄭學全",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/cheng-hok-chuen/",
+      "directoryRole": "Lecturer",
+      "summary": "研究实验高能物理、希格斯玻色子与机器学习应用。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "实验高能物理",
+        "希格斯玻色子与机器学习应用",
+        "Experimental High-Energy Physics (Higgs boson property measurement",
+        "beyond the Standard Model search",
+        "hyperon physics",
+        "spin physics) (ATLAS Collaboration Website [ https://atlas.cern ]) Interdisciplinary Research (QML/ML applications in HEP and other areas)"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-cheng-hok-chuen",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-cheng-hok-chuen"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-cheng-hok-chuen"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-emily-s-c-ching",
+      "universityId": "cuhk",
+      "name": "CHING Shuk Chi Emily 程淑姿",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/emily-s-c-ching/",
+      "directoryRole": "Professor",
+      "summary": "研究湍流、热对流、神经网络集体动力学。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "湍流",
+        "热对流",
+        "神经网络集体动力学",
+        "Turbulent thermal convection and turbulent double diffusive convection Scaling and statistics in fluid turbulence Effect of polymers in turbulence Collective dynamics of neuronal networks Re"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-emily-s-c-ching",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-emily-s-c-ching"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-emily-s-c-ching"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-chu-ming-chung",
+      "universityId": "cuhk",
+      "name": "CHU Ming Chung 朱明中",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chu-ming-chung/",
+      "directoryRole": "Choh-Ming Li Professor of Physics",
+      "summary": "研究暗物质、宇宙学、宇宙微波背景与中微子。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "暗物质",
+        "宇宙学",
+        "宇宙微波背景与中微子",
+        "Dark Matter Astrophysics and Cosmology Cosmic Microwave Background Radiation Neutrino Oscillations (Daya Bay and Aberdeen Tunnel experiments) Experimental Particle Physics ( Link to ATLAS",
+        "CERN )"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chu-ming-chung",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chu-ming-chung"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-chu-ming-chung"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-dung-on-yu",
+      "universityId": "cuhk",
+      "name": "DUNG On Yu 董安儒",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/dung-on-yu/",
+      "directoryRole": "Lecturer",
+      "summary": "研究复杂系统、跨学科研究、流体动力学与水电解。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "复杂系统",
+        "跨学科研究",
+        "流体动力学与水电解",
+        "Complex (adaptive) systems",
+        "Complexity science (incl. natural and social systems)",
+        "Physics of social systems",
+        "Interdisciplinary and transdisciplinary collaboration (incl. also social science and humanities)",
+        "what are inter-/multi-/trans-disciplinarity? see e.g",
+        "Utrecht University website Wicked problems (energy transition",
+        "hydrogen issue",
+        "Rethink Hydrogen project at Utrecht University Bridging physics to other disciplines"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-dung-on-yu",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-dung-on-yu"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-dung-on-yu"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-luis-roberto-flores-castillo",
+      "universityId": "cuhk",
+      "name": "Luis Roberto FLORES-CASTILLO",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/luis-roberto-flores-castillo/",
+      "directoryRole": "Professor",
+      "summary": "研究希格斯玻色子性质、暗物质及高质量新粒子搜索。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "希格斯玻色子性质",
+        "暗物质及高质量新粒子搜索",
+        "Measurement of the properties of the Higgs boson Searches for dark matter particles Searches for new high-mass particles ( Link to the website of the ATLAS collaboration )"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-luis-roberto-flores-castillo",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-luis-roberto-flores-castillo"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-luis-roberto-flores-castillo"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-goh-swee-kuan",
+      "universityId": "cuhk",
+      "name": "GOH Swee Kuan 吳瑞權",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/goh-swee-kuan/",
+      "directoryRole": "Professor",
+      "summary": "研究强关联电子体系的高压研究与费米面。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "强关联电子体系的高压研究与费米面",
+        "High pressure studies of strongly correlated electron systems Fermi surface mapping via the de Haas-van Alphen effect"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-goh-swee-kuan",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-goh-swee-kuan"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-goh-swee-kuan"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-gu-zhengcheng",
+      "universityId": "cuhk",
+      "name": "GU Zhengcheng 顧正澄",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/gu-zhengcheng/",
+      "directoryRole": "Professor",
+      "summary": "研究拓扑物态、张量网络、强关联体系与基本粒子理论。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "拓扑物态",
+        "张量网络",
+        "强关联体系与基本粒子理论",
+        "Entanglement renormalization and deep learning",
+        "Classification of topological phases in interacting bosonic and fermionic systems",
+        "Tensor network simulation for two dimensional strongly correlated systems",
+        "e.g",
+        "frustrated magnets and Hubbard model",
+        "Unification of mass mixing phenomena in quark and lepton sectors",
+        "Predictions on leptonic CP violation angle and absolute neutrino mass",
+        "Topological aspects of fundamental particles and unification of three generations"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-gu-zhengcheng",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-gu-zhengcheng"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-gu-zhengcheng"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-otto-a-hannuksela",
+      "universityId": "cuhk",
+      "name": "Otto A. HANNUKSELA",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/otto-a-hannuksela/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究引力波物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "引力波物理",
+        "Gravitational-wave physics"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-otto-a-hannuksela",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-otto-a-hannuksela"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-otto-a-hannuksela"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-hu-chen",
+      "universityId": "cuhk",
+      "name": "HU Chen 胡晨",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/hu-chen/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究理论与计算凝聚态物理、二维量子材料。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "理论与计算凝聚态物理",
+        "二维量子材料",
+        "Theoretical & computational condensed matter physics Excited states",
+        "topological physics & many-body correlation 2D quantum materials Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-hu-chen",
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-hu-chen"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-hu-chen"
+      ],
+      "extraLinks": [
+        {
+          "label": "Group website",
+          "url": "https://www.chen-hu.com/",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-hu-chen",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-hu-chen"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-hu-chen"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-marco-y-h-lai",
+      "universityId": "cuhk",
+      "name": "LAI Yu Hang Marco 賴裕衡",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/marco-y-h-lai/",
+      "directoryRole": "Lecturer",
+      "summary": "研究光学物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "光学物理",
+        "Optical Physics Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-marco-y-h-lai",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-marco-y-h-lai"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-marco-y-h-lai"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-tian-lan",
+      "universityId": "cuhk",
+      "name": "LAN Tian 蘭天",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/tian-lan/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究拓扑物态的数学框架、广义对称性与量子计算。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "拓扑物态的数学框架",
+        "广义对称性与量子计算",
+        "Mathematical framework for topological phases of matter Higher categorical structures of symmetry",
+        "quantum phases and phase transitions Exactly solvable models for topological phases and quantum computation Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-tian-lan",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-tian-lan"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-tian-lan"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-leung-po-kin",
+      "universityId": "cuhk",
+      "name": "LEUNG Po Kin 梁寶建  Senior",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/leung-po-kin/",
+      "directoryRole": "Lecturer",
+      "summary": "研究天体物理、致密天体与辐射转移。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "天体物理",
+        "致密天体与辐射转移",
+        "Astrophysics Compact Objects Radiative Transfer Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-leung-po-kin",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-leung-po-kin"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-leung-po-kin"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-li-hua-bai",
+      "universityId": "cuhk",
+      "name": "Li Hua-bai 李華白",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-hua-bai/",
+      "directoryRole": "Professor",
+      "summary": "研究恒星形成、星际介质湍流与磁场、天文仪器。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "恒星形成",
+        "星际介质湍流与磁场",
+        "天文仪器",
+        "Star formation Interstellar medium turbulence and magnetic fields Astronomical instrumentation Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-li-hua-bai",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-li-hua-bai"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-li-hua-bai"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-li-quan",
+      "universityId": "cuhk",
+      "name": "LI Quan 李泉",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-quan/",
+      "directoryRole": "Professor",
+      "summary": "研究量子传感、储能材料与纳米生物界面。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "量子传感",
+        "储能材料与纳米生物界面",
+        "Quantum sensing for condensed matter physics",
+        "bio-medicine",
+        "and energy applications Developing quantum sensors and protocols to study intriguing problems in condensed matter physics",
+        "and energy devices",
+        "Energy storage materials In situ and ex situ characterization of battery materials and processes Nano-bio interfaces Nanovaccine development for cancer therapeutics and autoimmune diseases"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-li-quan",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-li-quan"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-li-quan"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-li-yufan",
+      "universityId": "cuhk",
+      "name": "LI Yufan 李禹帆",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-yufan/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究量子材料中的磁性、自旋、拓扑现象及超导。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "量子材料中的磁性",
+        "自旋",
+        "拓扑现象及超导",
+        "Magnetic",
+        "spin and topological phenomena in quantum materials and their heterostructures Quantum phenomena in nanodevices and nanostructures Unconventional pairing states of superconductivity Emergent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-li-yufan",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-li-yufan"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-li-yufan"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-lin-lap-ming",
+      "universityId": "cuhk",
+      "name": "LIN Lap Ming 練立明  Senior",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/lin-lap-ming/",
+      "directoryRole": "Lecturer",
+      "summary": "研究相对论天体物理、引力波源与数值相对论。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "相对论天体物理",
+        "引力波源与数值相对论",
+        "Relativistic astrophysics Gravitational-wave sources Numerical relativity Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-lin-lap-ming",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-lin-lap-ming"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-lin-lap-ming"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-liu-renbao",
+      "universityId": "cuhk",
+      "name": "LIU Renbao 劉仁保",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-renbao/",
+      "directoryRole": "Choh-Ming Li Professor of Physics",
+      "summary": "研究固态量子计算、自旋动力学、量子光学与磁测量。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "固态量子计算",
+        "自旋动力学",
+        "量子光学与磁测量",
+        "Physics for implementing quantum computation in solid-state systems Spin dynamics in semiconductors",
+        "electron spin decoherence in nuclear spin baths Quantum optics and nonlinear optical spectroscopy of mesoscopic systems Magnetic nanometrology",
+        "magnetic resonance spectroscopy"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-liu-renbao",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-liu-renbao"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-liu-renbao"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-liu-runze",
+      "universityId": "cuhk",
+      "name": "LIU Runze 劉潤澤",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-runze/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究光子量子信息、量子点与分子束外延。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "光子量子信息",
+        "量子点与分子束外延",
+        "Photonic quantum information",
+        "including exotic quantum states",
+        "computation",
+        "and networks Single quantum dots",
+        "especially those based on III-V semiconductor materials Molecular beam epitaxy Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-liu-runze",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-liu-runze"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-liu-runze"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-lu-xinhui",
+      "universityId": "cuhk",
+      "name": "LU Xinhui 路新慧",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/lu-xinhui/",
+      "directoryRole": "Professor",
+      "summary": "研究软凝聚态、散射表征、有机太阳能电池与钙钛矿光电子。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "软凝聚态",
+        "散射表征",
+        "有机太阳能电池与钙钛矿光电子",
+        "Materials science and experimental soft condensed matter physics X-ray and neutron scattering Organic solar cells Perovskite optoelectronics"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-lu-xinhui",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-lu-xinhui"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-lu-xinhui"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-kenny-c-y-ng",
+      "universityId": "cuhk",
+      "name": "NG Chun Yu Kenny 吳震宇  Associate",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/kenny-c-y-ng/",
+      "directoryRole": "Professor",
+      "summary": "研究天体粒子物理与暗物质。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "天体粒子物理与暗物质",
+        "Astro-particle physics Dark matter"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-kenny-c-y-ng",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-kenny-c-y-ng"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-kenny-c-y-ng"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-daniel-h-c-ong",
+      "universityId": "cuhk",
+      "name": "ONG Hock Chun Daniel 王福俊",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/daniel-h-c-ong/",
+      "directoryRole": "Professor",
+      "summary": "研究半导体物理、薄膜与随机激光。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "半导体物理",
+        "薄膜与随机激光",
+        "Semiconductor physics Thin film science Random Laser"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-daniel-h-c-ong",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-daniel-h-c-ong"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-daniel-h-c-ong"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-sun-rongyang",
+      "universityId": "cuhk",
+      "name": "SUN Rongyang 孫榕陽",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/sun-rongyang/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究量子多体、量子模拟、张量网络与高性能计算。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "量子多体",
+        "量子模拟",
+        "张量网络与高性能计算",
+        "Quantum many-body physics",
+        "Quantum simulation/computing",
+        "Tensor network methods",
+        "Condensed matter physics",
+        "Strongly correlated electron systems",
+        "High-performance computing",
+        "Parallel computing",
+        "Quantum machine learning Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-sun-rongyang",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-sun-rongyang"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-sun-rongyang"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-tong-shiu-sing",
+      "universityId": "cuhk",
+      "name": "TONG Shiu Sing 湯兆昇  Principal",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/tong-shiu-sing/",
+      "directoryRole": "Lecturer",
+      "summary": "研究物理与天文教育、新能源与可持续教育、纳米纤维。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "物理与天文教育",
+        "新能源与可持续教育",
+        "纳米纤维",
+        "Physics",
+        "Astronomy",
+        "and Science Education New Energy and Sustainability Education Electrospinning",
+        "Nanofibre",
+        "Biodegradable Materials Eigenfunction Expansion in Open Wave Systems"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-tong-shiu-sing",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-tong-shiu-sing"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-tong-shiu-sing"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-wang-dajun",
+      "universityId": "cuhk",
+      "name": "WANG Dajun 王大軍",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-dajun/",
+      "directoryRole": "Professor",
+      "summary": "研究超冷极性分子、量子简并气体与高分辨光谱。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "超冷极性分子",
+        "量子简并气体与高分辨光谱",
+        "Ultracold polar molecules Bose-Einstein condensate and quantum degenerate Fermi gas High resolution spectroscopy Femotosecond frequency comb and ultra-stable lasers Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-dajun",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-dajun"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-wang-dajun"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-wang-jianfang",
+      "universityId": "cuhk",
+      "name": "WANG Jianfang 王建方",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-jianfang/",
+      "directoryRole": "Professor and Chair",
+      "summary": "研究等离激元、纳米光子学与纳米材料。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "等离激元",
+        "纳米光子学与纳米材料",
+        "Plasmonics Nanophotonics Nanomaterials Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-jianfang",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-jianfang"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-wang-jianfang"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-wang-qisi",
+      "universityId": "cuhk",
+      "name": "WANG Qisi 王奇思",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-qisi/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究非常规超导、量子磁性及关联电子体系。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "非常规超导",
+        "量子磁性及关联电子体系",
+        "Unconventional superconductivity",
+        "quantum magnetism and correlated electron physics X-ray and neutron scattering of elementary excitations and phase transitions in quantum matter Crystal growth of novel materials Prize and A",
+        "Joseph W",
+        "Cheung Research Excellence Award 2026 Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-qisi",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-qisi"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-wang-qisi"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-wang-yi",
+      "universityId": "cuhk",
+      "name": "WANG Yi 王一",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-yi/",
+      "directoryRole": "Professor",
+      "summary": "研究计算生物物理、蛋白质动力学与软物质分子模拟。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "计算生物物理",
+        "蛋白质动力学与软物质分子模拟",
+        "Computational biophysics: Molecular simulations of protein conformations and dynamics Interactions of small molecules and nanoparticles with lipid membranes Structural and dynamic properties"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-yi",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wang-yi"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-wang-yi"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-wu-yilin",
+      "universityId": "cuhk",
+      "name": "WU Yilin 吳藝林",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wu-yilin/",
+      "directoryRole": "Professor",
+      "summary": "研究活性物质、集体运动、自组织与定量生物学。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "活性物质",
+        "集体运动",
+        "自组织与定量生物学",
+        "Physics of living matter and quantitative biology: Collective motion and self-organization of living active matter Growth dynamics of general living matter Bacterial motility in complex envi",
+        "pattern formation and cell-environment interactions in natural and synthetic multicellular systems"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wu-yilin",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-wu-yilin"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-wu-yilin"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-xu-lei",
+      "universityId": "cuhk",
+      "name": "XU Lei 徐磊",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/xu-lei/",
+      "directoryRole": "Professor",
+      "summary": "研究软凝聚态实验、流体力学与复杂流体。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "软凝聚态实验",
+        "流体力学与复杂流体",
+        "Soft Condensed Matter Experiment Fluid Mechanics (liquid drop splash",
+        "liquid-solid impact",
+        "fingering instability) Complex Fluids (colloidal glass",
+        "colloidal crystallization",
+        "drying of complex fluids)"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-xu-lei",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-xu-lei"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-xu-lei"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-xue-haoran",
+      "universityId": "cuhk",
+      "name": "XUE Haoran 薛昊冉",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/xue-haoran/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究拓扑光子学、拓扑声学与非厄米物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "拓扑光子学",
+        "拓扑声学与非厄米物理",
+        "Topological photonics Topological acoustics Non-Hermitian physics"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-xue-haoran",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-xue-haoran"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-xue-haoran"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-yan-renbin",
+      "universityId": "cuhk",
+      "name": "YAN Renbin 嚴人斌",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-renbin/",
+      "directoryRole": "Professor and Global STEM Scholar",
+      "summary": "研究天文仪器、星际介质与星系演化。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "天文仪器",
+        "星际介质与星系演化",
+        "Astronomical Instrumentation Interstellar Medium Galaxy Evolution"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-yan-renbin",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-yan-renbin"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-yan-renbin"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-yan-yangqian",
+      "universityId": "cuhk",
+      "name": "YAN Yangqian 嚴楊千",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-yangqian/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究超冷量子气体、拓扑物态、开放量子体系与量子模拟。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "超冷量子气体",
+        "拓扑物态",
+        "开放量子体系与量子模拟",
+        "Quantum gases: Theory of ultracold atoms and molecules Topological quantum matters Non-hermitian physics and open quantum systems Strongly correlated few- and many-body systems Quantum simul"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-yan-yangqian",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-yan-yangqian"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-yan-yangqian"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-yip-long-sang",
+      "universityId": "cuhk",
+      "name": "YIP Long Sang Kenny 葉朗生",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yip-long-sang/",
+      "directoryRole": "Lecturer",
+      "summary": "研究声子晶体、微扰方法与理论物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "声子晶体",
+        "微扰方法与理论物理",
+        "Phononic crystals Perturbation methods Theoretical Physics"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-yip-long-sang",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-yip-long-sang"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-yip-long-sang"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-zhang-hengkai",
+      "universityId": "cuhk",
+      "name": "ZHANG Hengkai 張恒愷",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhang-hengkai/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究钙钛矿光电子。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "钙钛矿光电子",
+        "Perovskite optoelectronics"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-zhang-hengkai",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-zhang-hengkai"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-zhang-hengkai"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-zhao-jiarui",
+      "universityId": "cuhk",
+      "name": "ZHAO Jiarui 趙家瑞",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhao-jiarui/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究量子纠缠、长程相互作用、量子临界与蒙特卡洛方法。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "量子纠缠",
+        "长程相互作用",
+        "量子临界与蒙特卡洛方法",
+        "Quantum entanglement entropies and negativities Quantum many body systems with long-range interactions Deconfined quantum critical points Quantum Monte Carlo methods and Tensor Network techn"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-zhao-jiarui",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-zhao-jiarui"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-zhao-jiarui"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-zhu-junyi",
+      "universityId": "cuhk",
+      "name": "ZHU Junyi 朱駿宜  Associate",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhu-junyi/",
+      "directoryRole": "Professor",
+      "summary": "研究半导体缺陷、固体电子结构、表面界面与第一性原理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "半导体缺陷",
+        "固体电子结构",
+        "表面界面与第一性原理",
+        "Semiconductor defects and doping Electronic properties of solids Surface and interface phenomena Using first principles and molecular dynamics approaches Elastic theory modeling"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff-zhu-junyi",
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-zhu-junyi"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-teaching-staff-zhu-junyi"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-juan-calderon-bustillo",
+      "universityId": "cuhk",
+      "name": "Juan CALDERON BUSTILLO",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/juan-calderon-bustillo/",
+      "directoryRole": "Adjunct Assistant Professor",
+      "summary": "研究引力波天文学、黑洞光谱与广义相对论检验。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "引力波天文学",
+        "黑洞光谱与广义相对论检验",
+        "Gravitational-wave Astronomy Gravitational-wave searches Black Hole Spectroscopy Tests of General Relativity Cosmology with binary neutron stars"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-juan-calderon-bustillo",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-juan-calderon-bustillo"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-juan-calderon-bustillo"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-leung-pui-tang",
+      "universityId": "cuhk",
+      "name": "LEUNG Pui Tang 梁培燈",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-pui-tang/",
+      "directoryRole": "Adjunct Professor",
+      "summary": "研究开放体系准正模、量子光学与声致发光。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "开放体系准正模",
+        "量子光学与声致发光",
+        "Quasinormal modes of open systems Quantum optics Sonoluminescence"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-leung-pui-tang",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-leung-pui-tang"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-leung-pui-tang"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-li-ping-wah",
+      "universityId": "cuhk",
+      "name": "LI Ping Wah 李炳華",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/li-ping-wah/",
+      "directoryRole": "Adjunct Professor",
+      "summary": "研究热带气旋、数值天气预报、气象人工智能与极端天气。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "热带气旋",
+        "数值天气预报",
+        "气象人工智能与极端天气",
+        "and Experiences Tropical Cyclone Forecasting – Numerical Weather Prediction and AI Modelling Climate Change",
+        "Extreme Weather",
+        "Sustainability and Habitability Nonlinear Physics and Complex Systems Nowcasting",
+        "Weather Forecasting and Predictability AI/ML in Meteorology Atmospheric Remote Sensing – weather radar",
+        "satellite",
+        "GPS Cloud Electrification and Lightning Forecast Aviation Meteorology Biometeorology Broadcasting Meteorology Currently"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-li-ping-wah",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-li-ping-wah"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-li-ping-wah"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-dickon-h-l-ng",
+      "universityId": "cuhk",
+      "name": "Dickon H. L. NG 吳恒亮",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/dickon-h-l-ng/",
+      "directoryRole": "Adjunct Professor",
+      "summary": "研究复合材料、生物形态材料、光催化与能源材料。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "复合材料",
+        "生物形态材料",
+        "光催化与能源材料",
+        "Composite materials Biomorphic materials Photocatalysis Energy materials"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-dickon-h-l-ng",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-dickon-h-l-ng"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-dickon-h-l-ng"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-xia-keqing",
+      "universityId": "cuhk",
+      "name": "XIA Keqing 夏克青",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/xia-keqing/",
+      "directoryRole": "Emeritus Professor",
+      "summary": "研究流体湍流与复杂流体。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "流体湍流与复杂流体",
+        "Fluid Turbulence Complex Fluids"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-xia-keqing",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-xia-keqing"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-xia-keqing"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-xiao-xudong",
+      "universityId": "cuhk",
+      "name": "XIAO Xudong 肖旭東",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/xiao-xudong/",
+      "directoryRole": "Adjunct Professor and Emeritus Professor",
+      "summary": "研究太阳能电池、表面扩散、纳米摩擦与纳米结构。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "太阳能电池",
+        "表面扩散",
+        "纳米摩擦与纳米结构",
+        "Solar Cell Research Laboratory Surface diffusion",
+        "Nanotribology study using atomic force microscopy",
+        "Novel properties of nanostructures and materials",
+        "Scanning tunneling microscopy Details"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-xiao-xudong",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-xiao-xudong"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-xiao-xudong"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-young-kenneth",
+      "universityId": "cuhk",
+      "name": "YOUNG Kenneth 楊綱凱",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/young-kenneth/",
+      "directoryRole": "Emeritus Professor",
+      "summary": "研究理论物理与开放体系波动。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "理论物理与开放体系波动",
+        "Theoretical Physics"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-young-kenneth",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-young-kenneth"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-young-kenneth"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-zhou-xin",
+      "universityId": "cuhk",
+      "name": "ZHOU Xin 周昕",
+      "department": "物理系",
+      "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/zhou-xin/",
+      "directoryRole": "Adjunct Professor",
+      "summary": "研究理论软物质、生物物理、统计与计算物理。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "理论软物质",
+        "生物物理",
+        "统计与计算物理",
+        "Theoretical Soft matter & Biophysics Statistical Physics Computational Physics Selected Recent"
+      ],
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff-zhou-xin",
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "directorySourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "keywordSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-zhou-xin"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看个人研究方向及项目申请要求。",
+        "sourceIds": [
+          "cuhk-physics-20261111-honorary-staff-zhou-xin"
+        ]
+      }
+    }
+  ],
+  "directories": [
+    {
+      "id": "cuhk-physics-20261111-teaching-staff-directory",
+      "universityId": "cuhk",
+      "unit": "物理系 · 教学人员",
+      "url": "https://app.phy.cuhk.edu.hk/teaching-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-physics-20261111-teaching-staff"
+      ],
+      "reviewSourceIds": [
+        "cuhk-physics-20261111-teaching-staff-chan-tsang-keung",
+        "cuhk-physics-20261111-teaching-staff-chen-yuguang",
+        "cuhk-physics-20261111-teaching-staff-cheng-hok-chuen",
+        "cuhk-physics-20261111-teaching-staff-emily-s-c-ching",
+        "cuhk-physics-20261111-teaching-staff-chu-ming-chung",
+        "cuhk-physics-20261111-teaching-staff-dung-on-yu",
+        "cuhk-physics-20261111-teaching-staff-luis-roberto-flores-castillo",
+        "cuhk-physics-20261111-teaching-staff-goh-swee-kuan",
+        "cuhk-physics-20261111-teaching-staff-gu-zhengcheng",
+        "cuhk-physics-20261111-teaching-staff-otto-a-hannuksela",
+        "cuhk-physics-20261111-teaching-staff-hu-chen",
+        "cuhk-physics-20261111-teaching-staff-hui-pak-ming",
+        "cuhk-physics-20261111-teaching-staff-marco-y-h-lai",
+        "cuhk-physics-20261111-teaching-staff-tian-lan",
+        "cuhk-physics-20261111-teaching-staff-leung-po-kin",
+        "cuhk-physics-20261111-teaching-staff-li-hua-bai",
+        "cuhk-physics-20261111-teaching-staff-li-quan",
+        "cuhk-physics-20261111-teaching-staff-li-yufan",
+        "cuhk-physics-20261111-teaching-staff-lin-lap-ming",
+        "cuhk-physics-20261111-teaching-staff-liu-renbao",
+        "cuhk-physics-20261111-teaching-staff-liu-runze",
+        "cuhk-physics-20261111-teaching-staff-lu-xinhui",
+        "cuhk-physics-20261111-teaching-staff-kenny-c-y-ng",
+        "cuhk-physics-20261111-teaching-staff-daniel-h-c-ong",
+        "cuhk-physics-20261111-teaching-staff-sun-rongyang",
+        "cuhk-physics-20261111-teaching-staff-tong-shiu-sing",
+        "cuhk-physics-20261111-teaching-staff-wang-dajun",
+        "cuhk-physics-20261111-teaching-staff-wang-jianfang",
+        "cuhk-physics-20261111-teaching-staff-wang-qisi",
+        "cuhk-physics-20261111-teaching-staff-wang-yi",
+        "cuhk-physics-20261111-teaching-staff-wu-yilin",
+        "cuhk-physics-20261111-teaching-staff-xu-lei",
+        "cuhk-physics-20261111-teaching-staff-xue-haoran",
+        "cuhk-physics-20261111-teaching-staff-yan-renbin",
+        "cuhk-physics-20261111-teaching-staff-yan-yangqian",
+        "cuhk-physics-20261111-teaching-staff-yip-long-sang",
+        "cuhk-physics-20261111-teaching-staff-zhang-hengkai",
+        "cuhk-physics-20261111-teaching-staff-zhao-jiarui",
+        "cuhk-physics-20261111-teaching-staff-zhu-junyi"
+      ],
+      "coverageNotes": "保留原有角色，个人及课题组链接继续核对。",
+      "census": {
+        "observedTotal": 39,
+        "profilesRead": 39,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "CHAN Tsang Keung 陳增強",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chan-tsang-keung/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "CHEN Yuguang 陳昱光",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chen-yuguang/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "CHENG Hok Chuen 鄭學全",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/cheng-hok-chuen/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "CHING Shuk Chi Emily 程淑姿",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/emily-s-c-ching/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "CHU Ming Chung 朱明中",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/chu-ming-chung/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "DUNG On Yu 董安儒",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/dung-on-yu/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "Luis Roberto FLORES-CASTILLO",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/luis-roberto-flores-castillo/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "GOH Swee Kuan 吳瑞權",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/goh-swee-kuan/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "GU Zhengcheng 顧正澄",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/gu-zhengcheng/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "Otto A. HANNUKSELA",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/otto-a-hannuksela/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "HU Chen 胡晨",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/hu-chen/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "HUI Pak Ming 許伯銘",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/hui-pak-ming/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LAI Yu Hang Marco 賴裕衡",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/marco-y-h-lai/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LAN Tian 蘭天",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/tian-lan/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LEUNG Po Kin 梁寶建  Senior",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/leung-po-kin/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "Li Hua-bai 李華白",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-hua-bai/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LI Quan 李泉",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-quan/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LI Yufan 李禹帆",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/li-yufan/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LIN Lap Ming 練立明  Senior",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/lin-lap-ming/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LIU Renbao 劉仁保",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-renbao/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LIU Runze 劉潤澤",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/liu-runze/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LU Xinhui 路新慧",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/lu-xinhui/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "NG Chun Yu Kenny 吳震宇  Associate",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/kenny-c-y-ng/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "ONG Hock Chun Daniel 王福俊",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/daniel-h-c-ong/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "SUN Rongyang 孫榕陽",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/sun-rongyang/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "TONG Shiu Sing 湯兆昇  Principal",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/tong-shiu-sing/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WANG Dajun 王大軍",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-dajun/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WANG Jianfang 王建方",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-jianfang/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WANG Qisi 王奇思",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-qisi/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WANG Yi 王一",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wang-yi/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WU Yilin 吳藝林",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/wu-yilin/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "XU Lei 徐磊",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/xu-lei/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "XUE Haoran 薛昊冉",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/xue-haoran/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "YAN Renbin 嚴人斌",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-renbin/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "YAN Yangqian 嚴楊千",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yan-yangqian/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "YIP Long Sang Kenny 葉朗生",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/yip-long-sang/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "ZHANG Hengkai 張恒愷",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhang-hengkai/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "ZHAO Jiarui 趙家瑞",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhao-jiarui/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "ZHU Junyi 朱駿宜  Associate",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/teaching-staff/zhu-junyi/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuhk-physics-20261111-honorary-staff-directory",
+      "universityId": "cuhk",
+      "unit": "物理系 · 荣誉、兼任与荣休人员",
+      "url": "https://app.phy.cuhk.edu.hk/honorary-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-physics-20261111-honorary-staff"
+      ],
+      "reviewSourceIds": [
+        "cuhk-physics-20261111-honorary-staff-juan-calderon-bustillo",
+        "cuhk-physics-20261111-honorary-staff-chen-fong-ching",
+        "cuhk-physics-20261111-honorary-staff-hui-pak-ming",
+        "cuhk-physics-20261111-honorary-staff-lau-w-m-leo",
+        "cuhk-physics-20261111-honorary-staff-leung-pui-tang",
+        "cuhk-physics-20261111-honorary-staff-leung-wing-mo",
+        "cuhk-physics-20261111-honorary-staff-li-ping-wah",
+        "cuhk-physics-20261111-honorary-staff-lin-hai-qing",
+        "cuhk-physics-20261111-honorary-staff-dickon-h-l-ng",
+        "cuhk-physics-20261111-honorary-staff-suen-wai-mo",
+        "cuhk-physics-20261111-honorary-staff-wong-h-k-roger",
+        "cuhk-physics-20261111-honorary-staff-wu-kinwah",
+        "cuhk-physics-20261111-honorary-staff-xia-keqing",
+        "cuhk-physics-20261111-honorary-staff-xiao-xudong",
+        "cuhk-physics-20261111-honorary-staff-yang-sen",
+        "cuhk-physics-20261111-honorary-staff-young-c-charles",
+        "cuhk-physics-20261111-honorary-staff-young-kenneth",
+        "cuhk-physics-20261111-honorary-staff-zhou-xin",
+        "cuhk-physics-20261111-honorary-staff-zhu-shiyao"
+      ],
+      "coverageNotes": "保留原有角色，个人及课题组链接继续核对。",
+      "census": {
+        "observedTotal": 19,
+        "profilesRead": 19,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Juan CALDERON BUSTILLO",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/juan-calderon-bustillo/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "CHEN Fong Ching 陳方正",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/chen-fong-ching/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "HUI Pak Ming 許 伯 銘",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/hui-pak-ming/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LAU W. M. Leo 劉煥明",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/lau-w-m-leo/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LEUNG Pui Tang 梁培燈",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-pui-tang/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LEUNG Wing Mo 梁榮武",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/leung-wing-mo/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LI Ping Wah 李炳華",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/li-ping-wah/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "LIN Hai Qing 林海青",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/lin-hai-qing/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "Dickon H. L. NG 吳恒亮",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/dickon-h-l-ng/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "SUEN Wai Mo 孫緯武",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/suen-wai-mo/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WONG H. K. Roger 黃可傑",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/wong-h-k-roger/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "WU Kinwah 胡建華",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/wu-kinwah/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "XIA Keqing 夏克青",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/xia-keqing/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "XIAO Xudong 肖旭東",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/xiao-xudong/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "YANG Sen 楊森",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/yang-sen/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "YOUNG C. Charles 楊重凱",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/young-c-charles/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "YOUNG Kenneth 楊綱凱",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/young-kenneth/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "ZHOU Xin 周昕",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/zhou-xin/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          },
+          {
+            "name": "ZHU Shiyao 朱詩堯",
+            "profileUrl": "https://app.phy.cuhk.edu.hk/honorary-staff/zhu-shiyao/",
+            "profileRead": true,
+            "reviewStatus": "body_read"
+          }
+        ]
+      }
+    }
+  ]
+}
