@@ -1101,6 +1101,16 @@ def build_catalog():
     rbm.setdefault("requirements", []).append({"label": "对数据科学与分析感兴趣",
         "text": "学域 MPhil 页面链接至红鸟硕士。申请时在系统选择 MPhil (General)，入学后再按红鸟项目安排探索研究方向并确定学域。",
         "sourceIds": ["gz-dsa-mphil", "gz-redbird"]})
+    dsa_faculty = load("hkustgz-dsa-20261110.json")
+    catalog["sources"].extend(dsa_faculty["sources"])
+    catalog["faculty"].extend(dsa_faculty["faculty"])
+    for update in dsa_faculty["facultyUpdates"]:
+        original = next(row for row in catalog["faculty"] if row["id"] == update["id"])
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
     return catalog
 
 
