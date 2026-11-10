@@ -175,6 +175,12 @@
         const supportUnit=['graduate_school','undergraduate_college'].includes(unit.kind);
         const unitInfo=node('details',null,'source-details unit-information');append(section,academicTitle('summary',unit.name));append(unitInfo,node('summary','学院信息与来源'),node('p',status,'field-help'),node('p',supportUnit?'申请或教学服务入口。':'可从下方师资入口继续查看老师和研究方向。','field-help'));section.append(unitInfo);
         if(unit.url)section.append(link('打开这个单位的官方入口 ↗',unit.url));
+        if(unit.researchPlatforms){
+          const platforms=unit.researchPlatforms,panel=node('details',null,'source-details research-platforms'),items=node('ul');
+          panel.append(node('summary',platforms.title+'（'+platforms.items.length+'）'));
+          platforms.items.forEach(platform=>{const item=node('li');append(item,node('strong',platform.name),node('span',' · '+platform.teacher,'field-help'));items.append(item);});
+          append(panel,items,link('查看'+platforms.pageLabel+' ↗',platforms.pageUrl),evidence([platforms.sourceId]));section.append(panel);
+        }
         if(unit.accessNote)unitInfo.append(node('p',unit.accessNote,'field-help'));
         if(unit.childInventoryReview)append(unitInfo,node('p',unit.childInventoryReview.summary+' 名单依据核查：'+unit.childInventoryReview.checkedAt,'evidence-note'),evidence(unit.childInventoryReview.sourceIds));
         if(unit.organizationReview)append(unitInfo,node('p',unit.organizationReview.summary+' 核查：'+unit.organizationReview.checkedAt,'evidence-note'),evidence(unit.organizationReview.sourceIds));

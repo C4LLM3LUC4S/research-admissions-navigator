@@ -1324,3 +1324,17 @@ test('PolyU building energy uses the department deadline and degree-specific ent
   assert.ok(h.walk(phd).some(node => node.href === 'https://www.polyu.edu.hk/study/pg/rpg/2027/beee'));
   assert.equal(h.networkCalls(), 0);
 });
+
+
+test('SSE research platforms stay separate from departments and expose the source page',async()=>{
+  const unit=C.academicCoverage.find(row=>row.universityId==='cuhksz').units.find(row=>row.id==='cuhksz-2');
+  assert.deepEqual(unit.children,[]);
+  assert.equal(unit.researchPlatforms.relationship,'listed_research_platform_not_department');
+  const h=harness(),el=id=>h.byId.get(id);h.select('cuhksz','PhD',[]);
+  await el('show-directories').emit('click');
+  const panel=h.walk(el('academic-coverage')).find(x=>x.tagName==='details'&&x.children.some(c=>c.tagName==='summary'&&c.textContent==='研究院与科研平台（7）'));
+  assert.ok(panel);assert.equal(panel.children.find(x=>x.tagName==='ul').children.length,7);
+  assert.match(panel.textContent,/深圳市大数据研究院/);
+  assert.ok(h.walk(panel).some(x=>x.tagName==='a'&&x.href===unit.researchPlatforms.pageUrl));
+  assert.equal(h.networkCalls(),0);
+});
