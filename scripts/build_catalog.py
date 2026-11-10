@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-09"
+CHECKED = "2026-11-10"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -984,6 +984,48 @@ def build_catalog():
         "label": "申请材料", "text": "准备成绩单、学历证明、研究兴趣陈述或研究计划，以及校方要求的推荐材料。",
         "action": "查看理学院材料清单，再与意向导师讨论研究计划。", "sourceIds": math_apply + math_faq}])
     catalog["programs"].append(math_programme)
+    ees = load("cuhk-ees-20261110.json")
+    catalog["sources"].extend(ees["sources"])
+    catalog["faculty"].extend(ees["faculty"])
+    catalog["directories"].extend(ees["directories"])
+    for update in ees["facultyUpdates"]:
+        original = next(row for row in catalog["faculty"] if row["id"] == update["id"])
+        assert original["universityId"] == "cuhk"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+        original["identityNote"] = "。".join(filter(None, [original.get("identityNote", "").rstrip("。"), update["additionalAppointment"]])) + "。"
+
+    ees_school = ["cuhk-ees-20261110-graduate-school"]
+    ees_department = ["cuhk-ees-20261110-department-programme"]
+    ees_sources = ees_school + ees_department
+    ees_programme = program(
+        "cuhk-ees-rpg", "cuhk", "地球与环境科学研究学位", ["MPhil", "PhD"],
+        "港中文香港校本部，2027/28 学年。研究方向包括大气与气候、生物地球化学、大地测量和地震学。",
+        "unknown", "可从学系师资名录了解研究方向，再到项目页核对申请流程。", ees_department,
+        "学系通常从 2026 年 12 月 2 日前后开始审理。学系说明，常规截止后提交的申请可能无法获考虑资助。", ees_department,
+        [deadline("常规申请截止", "2027-01-31", ees_sources),
+         deadline("HKPFS 学校完整申请截止", "2026-12-01", ees_school, clock="23:59", degree="PhD", route="HKPFS学校申请")],
+        ees_sources, "常规日期、博士 HKPFS 路线及学费来自 2027/28 研究院项目页，并与学系页核对。")
+    ees_programme.update(
+        entryUrl="https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-earth-and-environmental-sciences",
+        requirements=[
+            {"label": "专业背景", "text": "须主修理科、工程或相关学科，并满足研究院通用要求。",
+             "action": "从研究院项目页核对学历与语言要求。", "sourceIds": ees_school},
+            {"label": "成绩单与推荐信", "text": "学系列明官方成绩单和三封保密推荐信。请核对学系的送件方式与送达日期。",
+             "action": "按学系清单安排成绩单与推荐信。", "sourceIds": ees_department},
+            {"label": "博士申请材料", "text": "博士申请者还须提交个人陈述和研究计划。个人陈述需写明拟研究的领域和问题。",
+             "action": "准备博士申请的个人陈述与研究计划。", "degrees": ["PhD"], "sourceIds": ees_department},
+        ],
+        finances=[{"id": "cuhk-ees-tuition", "kind": "tuition", "label": "学费",
+                   "text": "2027/28 学年每年 49,500 港元，全日制和兼读相同。",
+                   "action": "在研究院项目页查看学费说明。", "sourceIds": ees_school,
+                   "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                              "cycle": "2027/28", "condition": "全日制与兼读"}]}],
+    )
+    catalog["programs"].append(ees_programme)
     return catalog
 
 

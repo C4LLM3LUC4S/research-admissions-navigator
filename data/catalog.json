@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-09",
+  "checkedDate": "2026-11-10",
   "cycle": "2027/28",
   "universities": [
     {
@@ -7400,6 +7400,112 @@
           "sourceIds": [
             "hku-math-20261109-science-apply",
             "hku-math-20261109-science-faq"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhk-ees-rpg",
+      "universityId": "cuhk",
+      "name": "地球与环境科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文香港校本部，2027/28 学年。研究方向包括大气与气候、生物地球化学、大地测量和地震学。",
+      "contact": {
+        "status": "unknown",
+        "text": "可从学系师资名录了解研究方向，再到项目页核对申请流程。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      },
+      "selection": {
+        "text": "学系通常从 2026 年 12 月 2 日前后开始审理。学系说明，常规截止后提交的申请可能无法获考虑资助。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "常规申请截止：2027-01-31（官网未说明具体时间）",
+          "date": "2027-01-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-ees-20261110-graduate-school",
+            "cuhk-ees-20261110-department-programme"
+          ]
+        },
+        {
+          "label": "HKPFS 学校完整申请截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS学校申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-ees-20261110-graduate-school"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-graduate-school",
+        "cuhk-ees-20261110-department-programme"
+      ],
+      "evidenceNote": "常规日期、博士 HKPFS 路线及学费来自 2027/28 研究院项目页，并与学系页核对。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-earth-and-environmental-sciences",
+      "requirements": [
+        {
+          "label": "专业背景",
+          "text": "须主修理科、工程或相关学科，并满足研究院通用要求。",
+          "action": "从研究院项目页核对学历与语言要求。",
+          "sourceIds": [
+            "cuhk-ees-20261110-graduate-school"
+          ]
+        },
+        {
+          "label": "成绩单与推荐信",
+          "text": "学系列明官方成绩单和三封保密推荐信。请核对学系的送件方式与送达日期。",
+          "action": "按学系清单安排成绩单与推荐信。",
+          "sourceIds": [
+            "cuhk-ees-20261110-department-programme"
+          ]
+        },
+        {
+          "label": "博士申请材料",
+          "text": "博士申请者还须提交个人陈述和研究计划。个人陈述需写明拟研究的领域和问题。",
+          "action": "准备博士申请的个人陈述与研究计划。",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "cuhk-ees-20261110-department-programme"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-ees-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年每年 49,500 港元，全日制和兼读相同。",
+          "action": "在研究院项目页查看学费说明。",
+          "sourceIds": [
+            "cuhk-ees-20261110-graduate-school"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制与兼读"
+            }
           ]
         }
       ]
@@ -86596,20 +86702,28 @@
         "Endosymbiotic bacteria – marine host interaction",
         "Genome evolution of marine bacterioplankton",
         "Molecular clock and bacteria deep evolution",
-        "Terrestrial nitrogen-fixing bacteria"
+        "Terrestrial nitrogen-fixing bacteria",
+        "海洋微生物生态与演化",
+        "海洋细菌基因组",
+        "固氮微生物"
       ],
       "topics": [
         "生命科学与生物工程"
       ],
       "sourceIds": [
         "cuhk-sls-20261108-luo-haiwei-profile",
-        "cuhk-sls-20261108-academic"
+        "cuhk-sls-20261108-academic",
+        "cuhk-ees-20261110-profile-luo-haiwei",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-10-luo-haiwei"
       ],
       "directorySourceIds": [
-        "cuhk-sls-20261108-academic"
+        "cuhk-sls-20261108-academic",
+        "cuhk-ees-20261110-roster"
       ],
       "keywordSourceIds": [
-        "cuhk-sls-20261108-luo-haiwei-profile"
+        "cuhk-sls-20261108-luo-haiwei-profile",
+        "cuhk-ees-20261110-profile-luo-haiwei"
       ],
       "academicUnitIds": [
         "cuhk-7"
@@ -86620,6 +86734,20 @@
           "url": "http://www.luolab.net",
           "parentSourceId": "cuhk-sls-20261108-luo-haiwei-profile",
           "bodyStatus": "not_read"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://www.sls.cuhk.edu.hk/profile/luo-haiwei/",
+          "parentSourceId": "cuhk-ees-20261110-profile-luo-haiwei",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-sls-20261108-luo-haiwei-profile"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://www.luolab.net/",
+          "parentSourceId": "cuhk-ees-20261110-profile-luo-haiwei",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-10-luo-haiwei"
         }
       ],
       "availability": {
@@ -86629,7 +86757,9 @@
         "sourceIds": [
           "cuhk-sls-20261108-luo-haiwei-profile"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://www.ees.cuhk.edu.hk/staff/luo-haiwei/",
+      "identityNote": "地球与环境科学系 · 生命科学学院联合任职。"
     },
     {
       "id": "cuhk-sls-20261108-tsang-suk-ying-faye",
@@ -86987,20 +87117,28 @@
         "Ecosystem biogeochemistry",
         "Stable isotope applications",
         "Environmental molecular applications",
-        "Environmental human health"
+        "Environmental human health",
+        "环境污染",
+        "生态毒理",
+        "生态系统生物地球化学",
+        "稳定同位素"
       ],
       "topics": [
         "生命科学与生物工程"
       ],
       "sourceIds": [
         "cuhk-sls-20261108-tsui-tsz-ki-martin-profile",
-        "cuhk-sls-20261108-academic"
+        "cuhk-sls-20261108-academic",
+        "cuhk-ees-20261110-profile-martin-tsz-ki-tsui",
+        "cuhk-ees-20261110-roster"
       ],
       "directorySourceIds": [
-        "cuhk-sls-20261108-academic"
+        "cuhk-sls-20261108-academic",
+        "cuhk-ees-20261110-roster"
       ],
       "keywordSourceIds": [
-        "cuhk-sls-20261108-tsui-tsz-ki-martin-profile"
+        "cuhk-sls-20261108-tsui-tsz-ki-martin-profile",
+        "cuhk-ees-20261110-profile-martin-tsz-ki-tsui"
       ],
       "academicUnitIds": [
         "cuhk-7"
@@ -87011,6 +87149,13 @@
           "url": "https://sites.google.com/view/cuhk-hg-group/home",
           "parentSourceId": "cuhk-sls-20261108-tsui-tsz-ki-martin-profile",
           "bodyStatus": "not_read"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://sites.google.com/view/cuhk-hg-group/home/people/tsuis-full-cv",
+          "parentSourceId": "cuhk-ees-20261110-profile-martin-tsz-ki-tsui",
+          "bodyStatus": "not_read",
+          "readNote": "本轮未取得可核对正文。"
         }
       ],
       "availability": {
@@ -87020,7 +87165,9 @@
         "sourceIds": [
           "cuhk-sls-20261108-tsui-tsz-ki-martin-profile"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://www.ees.cuhk.edu.hk/staff/martin-tsz-ki-tsui/",
+      "identityNote": "地球与环境科学系 · 生命科学学院联合任职。"
     },
     {
       "id": "cuhk-sls-20261108-wong-wing-tak-jack",
@@ -87428,20 +87575,27 @@
         "Ocean Biogeochemical Dynamics",
         "Stable Isotope Geochemistry",
         "Anthropogenic impacts",
-        "Paleoceanography & paleoclimate"
+        "Paleoceanography & paleoclimate",
+        "海洋生物地球化学",
+        "稳定同位素",
+        "古海洋与古气候"
       ],
       "topics": [
         "生命科学与生物工程"
       ],
       "sourceIds": [
         "cuhk-sls-20261108-thibodeau-benoit-profile",
-        "cuhk-sls-20261108-academic"
+        "cuhk-sls-20261108-academic",
+        "cuhk-ees-20261110-profile-benoit-thibodeau",
+        "cuhk-ees-20261110-roster"
       ],
       "directorySourceIds": [
-        "cuhk-sls-20261108-academic"
+        "cuhk-sls-20261108-academic",
+        "cuhk-ees-20261110-roster"
       ],
       "keywordSourceIds": [
-        "cuhk-sls-20261108-thibodeau-benoit-profile"
+        "cuhk-sls-20261108-thibodeau-benoit-profile",
+        "cuhk-ees-20261110-profile-benoit-thibodeau"
       ],
       "academicUnitIds": [
         "cuhk-7"
@@ -87452,6 +87606,13 @@
           "url": "http://thibodeau-biogeochemistry.rf.gd/",
           "parentSourceId": "cuhk-sls-20261108-thibodeau-benoit-profile",
           "bodyStatus": "not_read"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://thibodeau-biogeochemistry.rf.gd/",
+          "parentSourceId": "cuhk-ees-20261110-profile-benoit-thibodeau",
+          "bodyStatus": "not_read",
+          "readNote": "本轮未取得可核对正文。"
         }
       ],
       "availability": {
@@ -87461,7 +87622,9 @@
         "sourceIds": [
           "cuhk-sls-20261108-thibodeau-benoit-profile"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://www.ees.cuhk.edu.hk/staff/benoit-thibodeau/",
+      "identityNote": "地球与环境科学系 · 个人页列联合任职。"
     },
     {
       "id": "cuhk-sls-20261108-wang-guanqun",
@@ -102844,6 +103007,669 @@
         "text": "可先查看个人主页和港大理学院的研究学位申请步骤。",
         "sourceIds": [
           "hku-math-20261109-science-apply"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-tai-pui-kuen-amos",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "大气化学与物理",
+        "生态气候学",
+        "大气与生物圈相互作用",
+        "空气污染与可持续农业"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-01-prof-tai-pui-kuen-amos"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://www.cuhk.edu.hk/sci/essc/tgabi/research.html",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-02-prof-tai-pui-kuen-amos"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-01-prof-tai-pui-kuen-amos",
+        "cuhk-ees-20261110-linked-02-prof-tai-pui-kuen-amos"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos"
+      ],
+      "name": "Prof. TAI Pui Kuen Amos",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-tai-pui-kuen-amos/",
+      "directoryRole": "Professor / Deputy Chair (Education)",
+      "summary": "研究大气化学与物理、生态气候学、大气与生物圈相互作用、空气污染与可持续农业。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-chan-man-nin",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "气溶胶化学",
+        "有机硫化合物氧化",
+        "二次有机气溶胶"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://scholar.google.com/citations?user=7HqvmRwAAAAJ&hl=en",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-chan-man-nin",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-03-prof-chan-man-nin"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-chan-man-nin",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-03-prof-chan-man-nin"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-chan-man-nin"
+      ],
+      "name": "Prof. CHAN Man Nin",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chan-man-nin/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究气溶胶化学、有机硫化合物氧化、二次有机气溶胶。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-tam-chi-yung-francis",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "大气动力学",
+        "区域气候",
+        "极端降雨归因",
+        "复合洪水"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://atmosphericdynamicsgroup.github.io/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-tam-chi-yung-francis",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-04-prof-tam-chi-yung-francis"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-tam-chi-yung-francis",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-04-prof-tam-chi-yung-francis"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-tam-chi-yung-francis"
+      ],
+      "name": "Prof. TAM Chi Yung Francis",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-tam-chi-yung-francis/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究大气动力学、区域气候、极端降雨归因、复合洪水。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-zhai-shixian",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "大气化学",
+        "空气质量",
+        "气候变化",
+        "大气成分遥感与建模"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://scholar.google.com/citations?user=R_sr1SQAAAAJ&hl=en",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-zhai-shixian",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-05-prof-zhai-shixian"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-zhai-shixian",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-05-prof-zhai-shixian"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-zhai-shixian"
+      ],
+      "name": "Prof. ZHAI Shixian",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhai-shixian/",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究大气化学、空气质量、气候变化、大气成分遥感与建模。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-liu-xueying-shirley",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "空气质量",
+        "大气化学",
+        "大气与生物圈相互作用",
+        "食物与环境健康"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://scholar.google.com/citations?user=54WeDVsAAAAJ&hl=en",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-xueying-shirley",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-06-prof-liu-xueying-shirley"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://orcid.org/0000-0002-5582-5347",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-xueying-shirley",
+          "bodyStatus": "not_read",
+          "readNote": "只取得 ORCID 应用外壳。"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-liu-xueying-shirley",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-06-prof-liu-xueying-shirley"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-liu-xueying-shirley"
+      ],
+      "name": "Prof. LIU Xueying",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-liu-xueying-shirley/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究空气质量、大气化学、大气与生物圈相互作用、食物与环境健康。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-chow-tat-shing-alex",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "城市生物地球化学",
+        "水源水质",
+        "饮用水处理",
+        "生态系统服务"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://www.iwater.earth/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-chow-tat-shing-alex",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-08-prof-chow-tat-shing-alex"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-chow-tat-shing-alex",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-08-prof-chow-tat-shing-alex"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-chow-tat-shing-alex"
+      ],
+      "name": "Prof. CHOW Tat Shing Alex",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chow-tat-shing-alex/",
+      "directoryRole": "Chairman & Professor",
+      "summary": "研究城市生物地球化学、水源水质、饮用水处理、生态系统服务。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-du-penghui",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "水环境化学",
+        "新兴污染物",
+        "溶解有机质",
+        "量子化学与数据科学"
+      ],
+      "extraLinks": [],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-du-penghui",
+        "cuhk-ees-20261110-roster"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-du-penghui"
+      ],
+      "name": "Prof. DU Penghui",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-du-penghui/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究水环境化学、新兴污染物、溶解有机质、量子化学与数据科学。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-yang-hong-feng",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "地震学",
+        "震源物理",
+        "诱发地震",
+        "断层带成像"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "http://www.cuhk.edu.hk/sci/essc/yang/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-14-prof-yang-hong-feng"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://www.cuhk.edu.hk/sci/essc/yang/publications/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-15-prof-yang-hong-feng"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-14-prof-yang-hong-feng",
+        "cuhk-ees-20261110-linked-15-prof-yang-hong-feng"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-yang-hong-feng"
+      ],
+      "name": "Prof. YANG Hongfeng",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-yang-hong-feng/",
+      "directoryRole": "Professor / Deputy Chair (Research) / Head of Graduate Division of Earth and Environmental Sciences",
+      "summary": "研究地震学、震源物理、诱发地震、断层带成像。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-liu-lin",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "冰冻圈地球物理",
+        "大地测量",
+        "近地表地球物理",
+        "遥感与深度学习"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://cryocuhk.github.io/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-lin",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-16-prof-liu-lin"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://cryocuhk.github.io/publications",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-lin",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-17-prof-liu-lin"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://scholar.google.com.hk/citations?user=5VBaQTIAAAAJ&hl=en",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-lin",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-18-prof-liu-lin"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-liu-lin",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-16-prof-liu-lin",
+        "cuhk-ees-20261110-linked-17-prof-liu-lin",
+        "cuhk-ees-20261110-linked-18-prof-liu-lin"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-liu-lin"
+      ],
+      "name": "Prof. LIU Lin",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-liu-lin/",
+      "directoryRole": "Professor",
+      "summary": "研究冰冻圈地球物理、大地测量、近地表地球物理、遥感与深度学习。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-tan-yen-joe",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "海洋地球物理",
+        "火山地震学",
+        "地震过程",
+        "环境地震学"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://tanyenjoe.com/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-tan-yen-joe",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-19-prof-tan-yen-joe"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-tan-yen-joe",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-19-prof-tan-yen-joe"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-tan-yen-joe"
+      ],
+      "name": "Prof. TAN Yen Joe",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-tan-yen-joe/",
+      "directoryRole": "Associate Professor",
+      "summary": "研究海洋地球物理、火山地震学、地震过程、环境地震学。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-zhan-yan",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "岩石圈形变",
+        "火山地球物理",
+        "岩浆动力学",
+        "地壳过程数值模拟"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://geoyanzhan.org/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-zhan-yan",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-20-prof-zhan-yan"
+        },
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "http://geoyanzhan.org",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-zhan-yan",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-ees-20261110-linked-21-prof-zhan-yan"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-zhan-yan",
+        "cuhk-ees-20261110-roster",
+        "cuhk-ees-20261110-linked-20-prof-zhan-yan",
+        "cuhk-ees-20261110-linked-21-prof-zhan-yan"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-zhan-yan"
+      ],
+      "name": "Prof. ZHAN Yan",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhan-yan/",
+      "directoryRole": "Ng Yin Ying Assistant Professor of Geophysics",
+      "summary": "研究岩石圈形变、火山地球物理、岩浆动力学、地壳过程数值模拟。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-xu-mijian",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "地震反演",
+        "全波形反演",
+        "走时层析成像",
+        "地震波模拟"
+      ],
+      "extraLinks": [
+        {
+          "label": "官网所给个人或研究链接",
+          "url": "https://home.xumijian.me/",
+          "parentSourceId": "cuhk-ees-20261110-profile-prof-xu-mijian",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-xu-mijian",
+        "cuhk-ees-20261110-roster"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-xu-mijian"
+      ],
+      "name": "Prof. XU Mijian",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-xu-mijian/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究地震反演、全波形反演、走时层析成像、地震波模拟。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-prof-zhang-zhen",
+      "academicUnitIds": [
+        "cuhk-7"
+      ],
+      "researchKeywords": [
+        "环境地震学",
+        "滑坡与泥石流",
+        "冰湖溃决洪水"
+      ],
+      "extraLinks": [],
+      "sourceIds": [
+        "cuhk-ees-20261110-profile-prof-zhang-zhen",
+        "cuhk-ees-20261110-roster"
+      ],
+      "directorySourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ees-20261110-profile-prof-zhang-zhen"
+      ],
+      "name": "Prof. ZHANG Zhen",
+      "universityId": "cuhk",
+      "department": "地球与环境科学系",
+      "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhang-zhen/",
+      "directoryRole": "Research Assistant Professor",
+      "summary": "研究环境地震学、滑坡与泥石流、冰湖溃决洪水。",
+      "topics": [
+        "环境与可持续发展"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看课题和项目申请要求。",
+        "sourceIds": [
+          "cuhk-ees-20261110-department-programme"
         ]
       }
     }
@@ -213946,6 +214772,1760 @@
       "knownIssues": [],
       "readMethod": "anonymous_HTTP",
       "bodySha256": "9403fbe9ac1b4e4835d4cec1840eebd323dfd22aeb6d387bee7dd6e0ff36636b"
+    },
+    {
+      "id": "cuhk-ees-20261110-department-programme",
+      "url": "https://www.ees.cuhk.edu.hk/programme/postgraduate-programmes/postgraduate-programme/",
+      "title": "港中文地球与环境科学系 · 申请材料",
+      "scope": "项目申请正文列专业背景、推荐信、成绩单，以及博士申请者的个人陈述和研究计划；常规申请日期与 HKPFS 分列。",
+      "claims": [
+        "项目申请正文列专业背景、推荐信、成绩单，以及博士申请者的个人陈述和研究计划；常规申请日期与 HKPFS 分列。"
+      ],
+      "checkedAt": "2026-11-09",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "d256bc739b06e11a7a6158a46fb7ffe1497ef5df2f3518a53d5ac34249fe84df"
+    },
+    {
+      "id": "cuhk-ees-20261110-graduate-school",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-earth-and-environmental-sciences",
+      "title": "港中文研究院 · 地球与环境科学 MPhil/PhD",
+      "scope": "研究院正式 EES 项目页：MPhil、PhD；常规 2027-01-31，博士 HKPFS 的 RGC 初申与校内递交分开；学费每年 HK$49,500。",
+      "claims": [
+        "研究院正式 EES 项目页：MPhil、PhD；常规 2027-01-31，博士 HKPFS 的 RGC 初申与校内递交分开；学费每年 HK$49,500。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "3107d320b2082f26a8bc239c70826c1e58570906df783545b5356f6c1304900b"
+    },
+    {
+      "id": "cuhk-ees-20261110-roster",
+      "url": "https://www.ees.cuhk.edu.hk/people/faculty-and-supporting-staff/",
+      "title": "港中文地球与环境科学系 · 师资及支援人员",
+      "scope": "本次公开页面列 52 张师资及支援人员卡，含 45 个个人页入口。",
+      "claims": [
+        "本次公开页面列 52 张师资及支援人员卡，含 45 个个人页入口。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9917ff988dd216c127061439dddac93d38590f9043b7b5a24fc52bb8b73bb7e1",
+      "discoveredLinks": [
+        "https://www.ees.cuhk.edu.hk/staff/prof-tai-pui-kuen-amos/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-chan-man-nin/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-tam-chi-yung-francis/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-zhai-shixian/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-liu-xueying-shirley/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-chow-tat-shing-alex/",
+        "https://www.ees.cuhk.edu.hk/staff/luo-haiwei/",
+        "https://www.ees.cuhk.edu.hk/staff/martin-tsz-ki-tsui/",
+        "https://www.ees.cuhk.edu.hk/staff/benoit-thibodeau/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-du-penghui/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-yang-hong-feng/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-liu-lin/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-tan-yen-joe/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-zhan-yan/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-xu-mijian/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-zhang-zhen/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-tam-pui-yuk-tammy/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-au-yeung-yee-man-andie/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-li-kwan-kit-ronald/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-ng-tsin-hung-leo/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-zhang-li/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-chen-manjia/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-huang-lingcao/",
+        "https://www.ees.cuhk.edu.hk/staff/abbas-aqeel/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-cao-yiwen/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-chang-man-hei-jeffrey/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-chen-zhaoliang/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-dai-qili/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-fan-chengyan/",
+        "https://www.ees.cuhk.edu.hk/staff/lai-donger/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-luo-lina/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-joshua-pi/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-wang-ziyan/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-yuan-tiangang/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-zhang-jiewen/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-zhou-hao/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-zhou-jiangcheng/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-zhu-juan/",
+        "https://www.ees.cuhk.edu.hk/staff/zi-jinping/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-xie-jingchun/",
+        "https://www.ees.cuhk.edu.hk/staff/mr-lam-chak-hay-hayden/",
+        "https://www.ees.cuhk.edu.hk/staff/miss-so-wing-kwan-mandy/",
+        "https://www.ees.cuhk.edu.hk/staff/miss-chen-yufei/",
+        "https://www.ees.cuhk.edu.hk/staff/miss-lau-mo-yin/",
+        "https://www.ees.cuhk.edu.hk/staff/mr-wong-hok-fong/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-honorary",
+      "url": "https://www.ees.cuhk.edu.hk/people/honorary-staff/",
+      "title": "港中文地球与环境科学系 · 荣誉任职",
+      "scope": "本次公开页面列 17 张荣誉任职卡，含 17 个个人页入口。",
+      "claims": [
+        "本次公开页面列 17 张荣誉任职卡，含 17 个个人页入口。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "109b3e3712692eaebe43b8f1e03b1a164d5707a9b5ae672308f1a5ee9d79e86a",
+      "discoveredLinks": [
+        "https://www.ees.cuhk.edu.hk/staff/prof-chan-johnny-chung-leung/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-chau-kam-tim/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-leung-wing-mo/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-ng-wai-pan-samuel/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-tang-lai-kwan-denise/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-alex-lo/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-wong-wing-yee-rebecca/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-christina-cheung/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-chung-ming-kei-jake/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-wong-teng-fong/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-cheng-chuen-hon-arthur/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-lee-shing-yip-joe/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-yao-huajian/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-ho-kin-fai/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-lam-hon-ming/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-lai-yuk-fo-derrick/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-meng-fanbao/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-advisory",
+      "url": "https://www.ees.cuhk.edu.hk/people/advisory-committee/",
+      "title": "港中文地球与环境科学系 · 顾问委员会",
+      "scope": "本次公开页面列 10 张顾问委员会卡，含 10 个个人页入口。",
+      "claims": [
+        "本次公开页面列 10 张顾问委员会卡，含 10 个个人页入口。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d876802c866c8d0fb657e716443d13989c487e260cff4c2f979323bd1988e6fa",
+      "discoveredLinks": [
+        "https://www.ees.cuhk.edu.hk/staff/dr-raymond-cheung-wai-man-jp/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-jim-chu-chun-wa/",
+        "https://www.ees.cuhk.edu.hk/staff/dr-jackie-ng-wai-yin/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-alexis-lau-kai-hon/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-kenneth-leung/",
+        "https://www.ees.cuhk.edu.hk/staff/prof-zhao-guochun/",
+        "https://www.ees.cuhk.edu.hk/staff/mr-freeman-cheung/",
+        "https://www.ees.cuhk.edu.hk/staff/mr-jesse-tam/",
+        "https://www.ees.cuhk.edu.hk/staff/mr-bien-wong-chun-cheung/",
+        "https://www.ees.cuhk.edu.hk/staff/mr-wong-kam-sing-gbs-jp/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-tai-pui-kuen-amos/",
+      "title": "Prof. TAI Pui Kuen Amos · 地球与环境科学系",
+      "scope": "研究大气化学与物理、生态气候学、大气与生物圈相互作用、空气污染与可持续农业。",
+      "claims": [
+        "研究大气化学与物理、生态气候学、大气与生物圈相互作用、空气污染与可持续农业。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "68beca0e9c44f6be81c3d474a33ad0bd61d07b939d20a02c0079f8cadcd6328d",
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+        "https://www.cuhk.edu.hk/sci/essc/tgabi/research.html"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-01-prof-tai-pui-kuen-amos",
+      "url": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+      "title": "Prof. TAI Pui Kuen Amos · 官网所给链接",
+      "scope": "课题组主页介绍大气与生物圈相互作用研究。",
+      "claims": [
+        "课题组主页介绍大气与生物圈相互作用研究。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "20738b0ba56e468eb5759517bb79999f07b0c44b341a28356b430d8754a52be1",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/"
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-02-prof-tai-pui-kuen-amos",
+      "url": "https://www.cuhk.edu.hk/sci/essc/tgabi/research.html",
+      "title": "Prof. TAI Pui Kuen Amos · 官网所给链接",
+      "scope": "课题组研究与发表记录。",
+      "claims": [
+        "课题组研究与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d2d976464a9c69db5fecd6371015467e78f027487e428d055dc7165c70ea6046",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/research.html",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/research.html"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-chan-man-nin",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-chan-man-nin/",
+      "title": "Prof. CHAN Man Nin · 地球与环境科学系",
+      "scope": "研究气溶胶化学、有机硫化合物氧化、二次有机气溶胶。",
+      "claims": [
+        "研究气溶胶化学、有机硫化合物氧化、二次有机气溶胶。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ca90901fce289d75d8a9b7f49a358c0d8b8c1785d7a66cfac47730fa0721822b",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=7HqvmRwAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-03-prof-chan-man-nin",
+      "url": "https://scholar.google.com/citations?user=7HqvmRwAAAAJ&hl=en",
+      "title": "Prof. CHAN Man Nin · 官网所给链接",
+      "scope": "陈文年的学术资料与发表记录。",
+      "claims": [
+        "陈文年的学术资料与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a563a3b850c8597cf9d008b045b3c1e63aab32154b67991568725b4f413eda3f",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-chan-man-nin",
+      "originalUrl": "https://scholar.google.com/citations?user=7HqvmRwAAAAJ&hl=en",
+      "retrievedUrl": "https://scholar.google.com/citations?user=7HqvmRwAAAAJ&hl=en"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-tam-chi-yung-francis",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-tam-chi-yung-francis/",
+      "title": "Prof. TAM Chi Yung Francis · 地球与环境科学系",
+      "scope": "研究大气动力学、区域气候、极端降雨归因、复合洪水。",
+      "claims": [
+        "研究大气动力学、区域气候、极端降雨归因、复合洪水。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9b546ed7ed32b89e322e0cd55192a90dbf607fd66696bbe61a6565035e84ca9d",
+      "discoveredLinks": [
+        "https://atmosphericdynamicsgroup.github.io/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-04-prof-tam-chi-yung-francis",
+      "url": "https://atmosphericdynamicsgroup.github.io/",
+      "title": "Prof. TAM Chi Yung Francis · 官网所给链接",
+      "scope": "港中文大气动力学组，含研究方向与发表。",
+      "claims": [
+        "港中文大气动力学组，含研究方向与发表。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "91437b417150ed1fc489e2a3fe3ee4e57381d22d7c3fcbf36de40d0d8b01460d",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-tam-chi-yung-francis",
+      "originalUrl": "https://atmosphericdynamicsgroup.github.io/",
+      "retrievedUrl": "https://atmosphericdynamicsgroup.github.io/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-zhai-shixian",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-zhai-shixian/",
+      "title": "Prof. ZHAI Shixian · 地球与环境科学系",
+      "scope": "研究大气化学、空气质量、气候变化、大气成分遥感与建模。",
+      "claims": [
+        "研究大气化学、空气质量、气候变化、大气成分遥感与建模。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d91ec0afeb9bdb343377f380f4e8f2ef129641a17418d3959dafdbd35c7ed193",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=R_sr1SQAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-05-prof-zhai-shixian",
+      "url": "https://scholar.google.com/citations?user=R_sr1SQAAAAJ&hl=en",
+      "title": "Prof. ZHAI Shixian · 官网所给链接",
+      "scope": "翟世贤的学术资料与发表记录。",
+      "claims": [
+        "翟世贤的学术资料与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c07b40ca0cba0783a1eeafb981fd82f7a6597486c1c57a8aadaa2d3fdec04da9",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-zhai-shixian",
+      "originalUrl": "https://scholar.google.com/citations?user=R_sr1SQAAAAJ&hl=en",
+      "retrievedUrl": "https://scholar.google.com/citations?user=R_sr1SQAAAAJ&hl=en"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-liu-xueying-shirley",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-liu-xueying-shirley/",
+      "title": "Prof. LIU Xueying · 地球与环境科学系",
+      "scope": "研究空气质量、大气化学、大气与生物圈相互作用、食物与环境健康。",
+      "claims": [
+        "研究空气质量、大气化学、大气与生物圈相互作用、食物与环境健康。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "59efbb225e5c34330469d94ce4d922a4cdad5f557961c6e7e63c79d173c8d5f8",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=54WeDVsAAAAJ&hl=en",
+        "https://orcid.org/0000-0002-5582-5347"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-06-prof-liu-xueying-shirley",
+      "url": "https://scholar.google.com/citations?user=54WeDVsAAAAJ&hl=en",
+      "title": "Prof. LIU Xueying · 官网所给链接",
+      "scope": "刘雪颖的学术资料与发表记录。",
+      "claims": [
+        "刘雪颖的学术资料与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd290817afac98edc42b6bb9b3462c4ca41b61b9978154e8cb1458b2972e9781",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-xueying-shirley",
+      "originalUrl": "https://scholar.google.com/citations?user=54WeDVsAAAAJ&hl=en",
+      "retrievedUrl": "https://scholar.google.com/citations?user=54WeDVsAAAAJ&hl=en"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-chow-tat-shing-alex",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-chow-tat-shing-alex/",
+      "title": "Prof. CHOW Tat Shing Alex · 地球与环境科学系",
+      "scope": "研究城市生物地球化学、水源水质、饮用水处理、生态系统服务。",
+      "claims": [
+        "研究城市生物地球化学、水源水质、饮用水处理、生态系统服务。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "89e0d4a19fe7c771571a527512f1f5152f49a4fc2400860f670dbc514202113e",
+      "discoveredLinks": [
+        "https://www.iwater.earth/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-08-prof-chow-tat-shing-alex",
+      "url": "https://www.iwater.earth/",
+      "title": "Prof. CHOW Tat Shing Alex · 官网所给链接",
+      "scope": "ATOM 水环境研究组，含溶解有机质与水环境方向。",
+      "claims": [
+        "ATOM 水环境研究组，含溶解有机质与水环境方向。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ebf4037dbe675aaf7a2b8c348a29379dfff57c83a03f5037c2e5ae2fd3075b49",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-chow-tat-shing-alex",
+      "originalUrl": "https://www.iwater.earth/",
+      "retrievedUrl": "https://www.iwater.earth/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-luo-haiwei",
+      "url": "https://www.ees.cuhk.edu.hk/staff/luo-haiwei/",
+      "title": "Prof. LUO Haiwei · 地球与环境科学系",
+      "scope": "研究海洋微生物生态与演化、海洋细菌基因组、固氮微生物。",
+      "claims": [
+        "研究海洋微生物生态与演化、海洋细菌基因组、固氮微生物。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bf1f25b7304d14df47f04a931932c6d5ce5b1b0e560cf5b6d2455c65ed244053",
+      "discoveredLinks": [
+        "https://www.sls.cuhk.edu.hk/profile/luo-haiwei/",
+        "https://www.luolab.net/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-10-luo-haiwei",
+      "url": "https://www.luolab.net/",
+      "title": "Prof. LUO Haiwei · 官网所给链接",
+      "scope": "罗海伟课题组，介绍微生物演化与生态。",
+      "claims": [
+        "罗海伟课题组，介绍微生物演化与生态。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a74697183bb4b1371796200cf5968727170018880e29f806bce888d73b2f62a8",
+      "parentSourceId": "cuhk-ees-20261110-profile-luo-haiwei",
+      "originalUrl": "https://www.luolab.net/",
+      "retrievedUrl": "https://www.luolab.net/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-martin-tsz-ki-tsui",
+      "url": "https://www.ees.cuhk.edu.hk/staff/martin-tsz-ki-tsui/",
+      "title": "Prof. TSUI Tsz Ki Martin · 地球与环境科学系",
+      "scope": "研究环境污染、生态毒理、生态系统生物地球化学、稳定同位素。",
+      "claims": [
+        "研究环境污染、生态毒理、生态系统生物地球化学、稳定同位素。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5f0979d35c42d55cb9b9457ee0d706ddeef951e12590ad1e91ddcb4e69e6ff71",
+      "discoveredLinks": [
+        "https://sites.google.com/view/cuhk-hg-group/home/people/tsuis-full-cv",
+        "https://sites.google.com/view/cuhk-hg-group/home"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-benoit-thibodeau",
+      "url": "https://www.ees.cuhk.edu.hk/staff/benoit-thibodeau/",
+      "title": "Prof. THIBODEAU Benoit · 地球与环境科学系",
+      "scope": "研究海洋生物地球化学、稳定同位素、古海洋与古气候。",
+      "claims": [
+        "研究海洋生物地球化学、稳定同位素、古海洋与古气候。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e2b3ff4f6491c401952b08a988744dc47c7970b58a8172c2726723d2ea9f9730",
+      "discoveredLinks": [
+        "https://thibodeau-biogeochemistry.rf.gd/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-du-penghui",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-du-penghui/",
+      "title": "Prof. DU Penghui · 地球与环境科学系",
+      "scope": "研究水环境化学、新兴污染物、溶解有机质、量子化学与数据科学。",
+      "claims": [
+        "研究水环境化学、新兴污染物、溶解有机质、量子化学与数据科学。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e02cb6c281bf002d85811c0e70d8716cb6e43c6b50d79665715cec16ac1de75f",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-yang-hong-feng/",
+      "title": "Prof. YANG Hongfeng · 地球与环境科学系",
+      "scope": "研究地震学、震源物理、诱发地震、断层带成像。",
+      "claims": [
+        "研究地震学、震源物理、诱发地震、断层带成像。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ebd110355503a4e5cb92930f4727fa902b201fb0ca5e612866b6964a31c46cd0",
+      "discoveredLinks": [
+        "http://www.cuhk.edu.hk/sci/essc/yang/",
+        "https://www.cuhk.edu.hk/sci/essc/yang/publications/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-14-prof-yang-hong-feng",
+      "url": "https://www.cuhk.edu.hk/sci/essc/yang/",
+      "title": "Prof. YANG Hongfeng · 官网所给链接",
+      "scope": "杨宏峰的地震学课题组主页。",
+      "claims": [
+        "杨宏峰的地震学课题组主页。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8a97b232ef93ca2655411fbe19952168167a0593ced94ecd0f04dabf3c57092",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+      "originalUrl": "http://www.cuhk.edu.hk/sci/essc/yang/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/yang/"
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-15-prof-yang-hong-feng",
+      "url": "https://www.cuhk.edu.hk/sci/essc/yang/publications/",
+      "title": "Prof. YANG Hongfeng · 官网所给链接",
+      "scope": "杨宏峰课题组发表记录。",
+      "claims": [
+        "杨宏峰课题组发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ca4ef06b3d7571d5942d95fdf628a715b8d72f67df75bc7b7261033a66c2b188",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/yang/publications/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/yang/publications/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-liu-lin",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-liu-lin/",
+      "title": "Prof. LIU Lin · 地球与环境科学系",
+      "scope": "研究冰冻圈地球物理、大地测量、近地表地球物理、遥感与深度学习。",
+      "claims": [
+        "研究冰冻圈地球物理、大地测量、近地表地球物理、遥感与深度学习。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "54bf479773abaca65d76e8b0ec0c58b22009951df93df7746a4d940ef6b2eb4c",
+      "discoveredLinks": [
+        "https://cryocuhk.github.io/",
+        "https://cryocuhk.github.io/publications",
+        "https://scholar.google.com.hk/citations?user=5VBaQTIAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-16-prof-liu-lin",
+      "url": "https://cryocuhk.github.io/",
+      "title": "Prof. LIU Lin · 官网所给链接",
+      "scope": "港中文冰冻圈课题组，列冰川、冻土、地球物理和机器学习方向。",
+      "claims": [
+        "港中文冰冻圈课题组，列冰川、冻土、地球物理和机器学习方向。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "99830198be087549ceae3b392662b355fa881b3c751ef799e39a482bee0d0054",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-lin",
+      "originalUrl": "https://cryocuhk.github.io/",
+      "retrievedUrl": "https://cryocuhk.github.io/"
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-17-prof-liu-lin",
+      "url": "https://cryocuhk.github.io/publications/",
+      "title": "Prof. LIU Lin · 官网所给链接",
+      "scope": "冰冻圈课题组发表记录。",
+      "claims": [
+        "冰冻圈课题组发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e8f4fbe02ada55ce48c43051a1d1caf8a43731d0936b51a782379116218a6281",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-lin",
+      "originalUrl": "https://cryocuhk.github.io/publications",
+      "retrievedUrl": "https://cryocuhk.github.io/publications/"
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-18-prof-liu-lin",
+      "url": "https://scholar.google.com.hk/citations?user=5VBaQTIAAAAJ&hl=en",
+      "title": "Prof. LIU Lin · 官网所给链接",
+      "scope": "刘琳的学术资料与发表记录。",
+      "claims": [
+        "刘琳的学术资料与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2f4ac72c7dd2806ecbfefec45b1fb7a6f25360e1ab2e7b21f8d0823842a7da1e",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-liu-lin",
+      "originalUrl": "https://scholar.google.com.hk/citations?user=5VBaQTIAAAAJ&hl=en",
+      "retrievedUrl": "https://scholar.google.com.hk/citations?user=5VBaQTIAAAAJ&hl=en"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-tan-yen-joe",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-tan-yen-joe/",
+      "title": "Prof. TAN Yen Joe · 地球与环境科学系",
+      "scope": "研究海洋地球物理、火山地震学、地震过程、环境地震学。",
+      "claims": [
+        "研究海洋地球物理、火山地震学、地震过程、环境地震学。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d37778312d89aedfec20013b29b2af5201ffbe4715e365d79653f1936a61ca60",
+      "discoveredLinks": [
+        "https://tanyenjoe.com/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-19-prof-tan-yen-joe",
+      "url": "https://tanyenjoe.com/",
+      "title": "Prof. TAN Yen Joe · 官网所给链接",
+      "scope": "陈衍佐个人站，列港中文任职及海洋地球物理等方向。",
+      "claims": [
+        "陈衍佐个人站，列港中文任职及海洋地球物理等方向。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "62b2f8573880793b1c02b3cec638c1fcffbffe667f50c085b90522c08f51de6b",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-tan-yen-joe",
+      "originalUrl": "https://tanyenjoe.com/",
+      "retrievedUrl": "https://tanyenjoe.com/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-zhan-yan",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-zhan-yan/",
+      "title": "Prof. ZHAN Yan · 地球与环境科学系",
+      "scope": "研究岩石圈形变、火山地球物理、岩浆动力学、地壳过程数值模拟。",
+      "claims": [
+        "研究岩石圈形变、火山地球物理、岩浆动力学、地壳过程数值模拟。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "421c6e79d4cc3a965f20be77b3f01ca8b7d98c45610c2bea21c8be04605af198",
+      "discoveredLinks": [
+        "https://geoyanzhan.org/",
+        "http://geoyanzhan.org"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-20-prof-zhan-yan",
+      "url": "https://geoyanzhan.org/",
+      "title": "Prof. ZHAN Yan · 官网所给链接",
+      "scope": "詹彦个人站，列港中文任职、火山和地球物理方向。",
+      "claims": [
+        "詹彦个人站，列港中文任职、火山和地球物理方向。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6e6ece9ef9de36bec48b4f800148a4bc1d058b92604d1862ee9727a7b139bd4d",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-zhan-yan",
+      "originalUrl": "https://geoyanzhan.org/",
+      "retrievedUrl": "https://geoyanzhan.org/"
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-21-prof-zhan-yan",
+      "url": "https://geoyanzhan.org/",
+      "title": "Prof. ZHAN Yan · 官网所给链接",
+      "scope": "詹彦个人站的旧链接跳到 HTTPS 原站。",
+      "claims": [
+        "詹彦个人站的旧链接跳到 HTTPS 原站。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1c0942cfa09330e6c05878cea5dce815b09ca36bb52483053e3024d186b05894",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-zhan-yan",
+      "originalUrl": "http://geoyanzhan.org",
+      "retrievedUrl": "https://geoyanzhan.org/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-xu-mijian",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-xu-mijian/",
+      "title": "Prof. XU Mijian · 地球与环境科学系",
+      "scope": "研究地震反演、全波形反演、走时层析成像、地震波模拟。",
+      "claims": [
+        "研究地震反演、全波形反演、走时层析成像、地震波模拟。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b90011e41d4df8479a902a9dd8e981faa867e63d67f4ee2651a52d6940d6a69a",
+      "discoveredLinks": [
+        "https://home.xumijian.me/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-zhang-zhen",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-zhang-zhen/",
+      "title": "Prof. ZHANG Zhen · 地球与环境科学系",
+      "scope": "研究环境地震学、滑坡与泥石流、冰湖溃决洪水。",
+      "claims": [
+        "研究环境地震学、滑坡与泥石流、冰湖溃决洪水。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a99afc289330c9d8ab66258fd0425d1e42031cf3b095320e5d99ff9bc5543ff0",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-tam-pui-yuk-tammy",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-tam-pui-yuk-tammy/",
+      "title": "Dr. TAM Pui Yuk Tammy · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cd13c61eb8885a363d5aac398df02efb16786c4d24edc0cb85f5f4480bb9cdb7",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-au-yeung-yee-man-andie",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-au-yeung-yee-man-andie/",
+      "title": "Dr. AU-YEUNG Yee Man Andie · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "99164e1e5ad3f1f2cb6857df9f869adb0e46975b10c8a3d006a4ffe4616c014d",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-li-kwan-kit-ronald",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-li-kwan-kit-ronald/",
+      "title": "Dr. LI Kwan Kit Ronald · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6f1854bc74663312c101d68c7fa57558ccf01073af243f6748f047322020889c",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-ng-tsin-hung-leo",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-ng-tsin-hung-leo/",
+      "title": "Dr. NG Tsin Hung Leo · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b0e85580b7cd2ef52f53286ced20ec9ac1c1e2391d7fa21dcf2f7cb04f37edad",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-zhang-li",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-zhang-li/",
+      "title": "Dr. ZHANG Li · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b3e49471ab58bd14bf08616b42ba2d7af92e3d40efeeb0a23c3d603f266474da",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-chen-manjia",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-chen-manjia/",
+      "title": "Dr. CHEN Manjia · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "78974ad64487b2796225c3075568906770133e1f9b8468e28588ae9031500042",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-huang-lingcao",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-huang-lingcao/",
+      "title": "Dr. HUANG Lingcao · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e2c3c3f6cde6c37a330bdccefcc110dbf43d8bfc8fb45226ed21db52f3de9fd7",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=ZrcK0hIAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-23-dr-huang-lingcao",
+      "url": "https://scholar.google.com/citations?user=ZrcK0hIAAAAJ&hl=en",
+      "title": "Dr. HUANG Lingcao · 官网所给链接",
+      "scope": "黄凌超的学术资料与发表记录。",
+      "claims": [
+        "黄凌超的学术资料与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4961fb300337873e04636c52fb1761fe0dc4ab340ab6cec452bcdd3305f71dfa",
+      "parentSourceId": "cuhk-ees-20261110-profile-dr-huang-lingcao",
+      "originalUrl": "https://scholar.google.com/citations?user=ZrcK0hIAAAAJ&hl=en",
+      "retrievedUrl": "https://scholar.google.com/citations?user=ZrcK0hIAAAAJ&hl=en"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-abbas-aqeel",
+      "url": "https://www.ees.cuhk.edu.hk/staff/abbas-aqeel/",
+      "title": "Dr. ABBAS Aqeel · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ba80fcacbafa5ddf280c99dfac5b4950f94eb0abef822568d842440b9e64fab2",
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/sci/essc/yang/",
+        "https://aqeel-magsi.github.io/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-24-abbas-aqeel",
+      "url": "https://www.cuhk.edu.hk/sci/essc/yang/",
+      "title": "Dr. ABBAS Aqeel · 官网所给链接",
+      "scope": "杨宏峰的地震学课题组主页。",
+      "claims": [
+        "杨宏峰的地震学课题组主页。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8a97b232ef93ca2655411fbe19952168167a0593ced94ecd0f04dabf3c57092",
+      "parentSourceId": "cuhk-ees-20261110-profile-abbas-aqeel",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/yang/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/yang/"
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-25-abbas-aqeel",
+      "url": "https://aqeel-magsi.github.io/",
+      "title": "Dr. ABBAS Aqeel · 官网所给链接",
+      "scope": "Aqeel Abbas 个人页，列博士后任职及研究。",
+      "claims": [
+        "Aqeel Abbas 个人页，列博士后任职及研究。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0532907578baddf40729ac5cbb87ae69e90058e52f7c65c80bf0cf55bdd81d60",
+      "parentSourceId": "cuhk-ees-20261110-profile-abbas-aqeel",
+      "originalUrl": "https://aqeel-magsi.github.io/",
+      "retrievedUrl": "https://aqeel-magsi.github.io/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-cao-yiwen",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-cao-yiwen/",
+      "title": "Dr. CAO Yiwen · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5766217a90d3b78e3c7d19148ebb567710d292f2c7909e1507a15fc03ba1f518",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-chang-man-hei-jeffrey",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-chang-man-hei-jeffrey/",
+      "title": "Dr. CHANG Man Hei Jeffrey · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b22b74bae1bce530b10b8fd6b67549cc6d26e07f80bc1c31067bedddc23ba3f6",
+      "discoveredLinks": [
+        "https://atmosphericdynamicsgroup.github.io/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-04-dr-chang-man-hei-jeffrey",
+      "url": "https://atmosphericdynamicsgroup.github.io/",
+      "title": "Dr. CHANG Man Hei Jeffrey · 官网所给链接",
+      "scope": "港中文大气动力学组，含研究方向与发表。",
+      "claims": [
+        "港中文大气动力学组，含研究方向与发表。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "91437b417150ed1fc489e2a3fe3ee4e57381d22d7c3fcbf36de40d0d8b01460d",
+      "parentSourceId": "cuhk-ees-20261110-profile-dr-chang-man-hei-jeffrey",
+      "originalUrl": "https://atmosphericdynamicsgroup.github.io/",
+      "retrievedUrl": "https://atmosphericdynamicsgroup.github.io/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-chen-zhaoliang",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-chen-zhaoliang/",
+      "title": "Dr. CHEN Zhaoliang · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e64038ec710c729014bbdde18880e1e8fa6e0d9f5419110b9e3f62921c5e816c",
+      "discoveredLinks": [
+        "https://www.iwater.earth/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-08-dr-chen-zhaoliang",
+      "url": "https://www.iwater.earth/",
+      "title": "Dr. CHEN Zhaoliang · 官网所给链接",
+      "scope": "ATOM 水环境研究组，含溶解有机质与水环境方向。",
+      "claims": [
+        "ATOM 水环境研究组，含溶解有机质与水环境方向。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ebf4037dbe675aaf7a2b8c348a29379dfff57c83a03f5037c2e5ae2fd3075b49",
+      "parentSourceId": "cuhk-ees-20261110-profile-dr-chen-zhaoliang",
+      "originalUrl": "https://www.iwater.earth/",
+      "retrievedUrl": "https://www.iwater.earth/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-dai-qili",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-dai-qili/",
+      "title": "Dr. DAI Qili · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c42976434dc5daff0ecaccf96b0a91fbf74dad3acd598b090c133da1cd1f4ce8",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-fan-chengyan",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-fan-chengyan/",
+      "title": "Dr. FAN Chengyan · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "802a70fd7711bd063fbaae26c75ff78ce789b6dfe9a11dfc7814bcc419ea45e4",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-lai-donger",
+      "url": "https://www.ees.cuhk.edu.hk/staff/lai-donger/",
+      "title": "Dr. LAI Donger · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2b2d7335636af40c3f2e926d884badb9a3d6a555c2f8677dbee5ea7ddb421b91",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-luo-lina",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-luo-lina/",
+      "title": "Dr. LUO Lina · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e2a5cc9fe7851f4a5323e7fffe8d593c7b3bfa1fecd9c5b1c7051c0c802eeadb",
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/sci/essc/tgabi/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-01-dr-luo-lina",
+      "url": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+      "title": "Dr. LUO Lina · 官网所给链接",
+      "scope": "课题组主页介绍大气与生物圈相互作用研究。",
+      "claims": [
+        "课题组主页介绍大气与生物圈相互作用研究。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "20738b0ba56e468eb5759517bb79999f07b0c44b341a28356b430d8754a52be1",
+      "parentSourceId": "cuhk-ees-20261110-profile-dr-luo-lina",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-joshua-pi",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-joshua-pi/",
+      "title": "Dr. PI Joshua · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "80fe1d85f0c1bee3e0c15fe965bde987ed96ab8a9a213665b05295b04377174e",
+      "discoveredLinks": [
+        "https://thibodeau-biogeochemistry.rf.gd/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-wang-ziyan",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-wang-ziyan/",
+      "title": "Dr. WANG Ziyan · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "90d4db82b29ecdf375e506f43aa4fbfaef0b15c63601d2e79b9cdcc1a5630d10",
+      "discoveredLinks": [
+        "https://thibodeau-biogeochemistry.rf.gd/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-yuan-tiangang",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-yuan-tiangang/",
+      "title": "Dr. YUAN Tiangang · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e2c1864365a89cb4cf257b50d0582eddaaf512b8ae10ca4d4f8a5164219d1bd6",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-zhang-jiewen",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-zhang-jiewen/",
+      "title": "Dr. ZHANG Jiewen · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4943cc66d51eb9d3bce669557d33f82224c2e71bf300a2f1a8e5e20fca6d5642",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-zhou-hao",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-zhou-hao/",
+      "title": "Dr. ZHOU Hao · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8ef3903bf6d233a3aeb58281ee13bdb040af7741165ae760a88b3ea47860ae83",
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/sci/essc/tgabi/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-01-dr-zhou-hao",
+      "url": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+      "title": "Dr. ZHOU Hao · 官网所给链接",
+      "scope": "课题组主页介绍大气与生物圈相互作用研究。",
+      "claims": [
+        "课题组主页介绍大气与生物圈相互作用研究。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "20738b0ba56e468eb5759517bb79999f07b0c44b341a28356b430d8754a52be1",
+      "parentSourceId": "cuhk-ees-20261110-profile-dr-zhou-hao",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/tgabi/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-zhou-jiangcheng",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-zhou-jiangcheng/",
+      "title": "Dr. ZHOU Jiangcheng · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "64770dcd7607ba46320708c0ef0ed8b887e3be4b63b08fa764a00babfa855381",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-zhu-juan",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-zhu-juan/",
+      "title": "Dr. ZHU Juan · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ae99d86ab8816c6bca4f8757747d197407d05d99a34a76e769672900ec02a670",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-zi-jinping",
+      "url": "https://www.ees.cuhk.edu.hk/staff/zi-jinping/",
+      "title": "Dr. ZI Jinping · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d74cbb6d4f9fb839eb4ed5b3d567b03e092523723418a4e05dc77e6096327402",
+      "discoveredLinks": [
+        "https://www.cuhk.edu.hk/sci/essc/yang/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-24-zi-jinping",
+      "url": "https://www.cuhk.edu.hk/sci/essc/yang/",
+      "title": "Dr. ZI Jinping · 官网所给链接",
+      "scope": "杨宏峰的地震学课题组主页。",
+      "claims": [
+        "杨宏峰的地震学课题组主页。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b8a97b232ef93ca2655411fbe19952168167a0593ced94ecd0f04dabf3c57092",
+      "parentSourceId": "cuhk-ees-20261110-profile-zi-jinping",
+      "originalUrl": "https://www.cuhk.edu.hk/sci/essc/yang/",
+      "retrievedUrl": "https://www.cuhk.edu.hk/sci/essc/yang/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-xie-jingchun",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-xie-jingchun/",
+      "title": "Dr. XIE Jingchun · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "08452a8668a638bfda01bc396439d0e82d501ed13b599f5bc3b17afe70d476e0",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-mr-lam-chak-hay-hayden",
+      "url": "https://www.ees.cuhk.edu.hk/staff/mr-lam-chak-hay-hayden/",
+      "title": "Mr. LAM Chak Hay Hayden · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b5b9348a48703c18466396afd31ba97f25231306562fe776dad1bed4b8164f70",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-miss-so-wing-kwan-mandy",
+      "url": "https://www.ees.cuhk.edu.hk/staff/miss-so-wing-kwan-mandy/",
+      "title": "Miss SO Wing Kwan Mandy · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "22cd760416d13bac8fdae7162e46956cccf0c0a730ad231de9c59363aa8e42da",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-miss-chen-yufei",
+      "url": "https://www.ees.cuhk.edu.hk/staff/miss-chen-yufei/",
+      "title": "Miss CHEN Yufei · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "799c5aae16ba12baed90e2fd31f2ecc56ff1e8587333c765f1cf985435c16402",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-miss-lau-mo-yin",
+      "url": "https://www.ees.cuhk.edu.hk/staff/miss-lau-mo-yin/",
+      "title": "Miss LAU Mo Yin · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3f6ef6ebc060673f2ab9c09c5668b5bbd97c69d38846c1c44056af1e24b2fdd3",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-mr-wong-hok-fong",
+      "url": "https://www.ees.cuhk.edu.hk/staff/mr-wong-hok-fong/",
+      "title": "Mr. WONG Hok Fong · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0e9cfdbfb41973871afd02ca56911fc43d78ff1ecdfe9c2bea551a6ab7f7f0df",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-chan-johnny-chung-leung",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-chan-johnny-chung-leung/",
+      "title": "Prof. CHAN Chung Leung Johnny · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "adf6d05f22b6135988d042eeb92e8a73aa96700b82f19115b80b9b3febaa77a3",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-chau-kam-tim",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-chau-kam-tim/",
+      "title": "Prof. CHAU Kam Tim · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a172eb7e37fa5cf79df96221c089908423eee7ef7ec28df68b82936f8939fd3a",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-leung-wing-mo",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-leung-wing-mo/",
+      "title": "Prof. LEUNG Wing Mo · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4ab451c41148e15bfa94c9dfc556882967d208fea83c36f3dbfd22458ceb82b8",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-ng-wai-pan-samuel",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-ng-wai-pan-samuel/",
+      "title": "Dr. NG Wai Pan Samuel · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5b37f4d31802902e96bba1b2bd91bf730813ee27539ad40c74bffdee1d285bca",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-tang-lai-kwan-denise",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-tang-lai-kwan-denise/",
+      "title": "Dr. TANG Lai Kwan Denise · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "065b01311493c038680dde5ed2e78650384ed093250060a2489f802738eb55b6",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-alex-lo",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-alex-lo/",
+      "title": "Prof. Alex LO · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "624ace4c7d87bd047c5cb5c97627c24b915e698e2fefd3fbce4364c3c02d377e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-wong-wing-yee-rebecca",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-wong-wing-yee-rebecca/",
+      "title": "Prof. WONG Wing Yee Rebecca · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "63c2ce05a49b8bdfbeb5738ef457acb60661cb9faa3bec9a9795bc179c876652",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-christina-cheung",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-christina-cheung/",
+      "title": "Prof. Christina CHEUNG · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "994a60b69d1ba941c4a7f546bf7a98d7d6d6c197e0369b4eb2674c54215c7cf5",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-chung-ming-kei-jake",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-chung-ming-kei-jake/",
+      "title": "Prof. CHUNG Ming Kei Jake · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "411b4dbd48f0413cc679adbea4576fab23d8816f42181ae735cdde794c3e5a6f",
+      "discoveredLinks": [
+        "https://www.jakechunggroup.org"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-26-prof-chung-ming-kei-jake",
+      "url": "https://www.jakechunggroup.org/",
+      "title": "Prof. CHUNG Ming Kei Jake · 官网所给链接",
+      "scope": "Chung 课题组，介绍暴露组学研究。",
+      "claims": [
+        "Chung 课题组，介绍暴露组学研究。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f97cce17e4248865ec3daef5e1e4f072b2d0c982de5ba9b23cb4137d17f263a9",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-chung-ming-kei-jake",
+      "originalUrl": "https://www.jakechunggroup.org",
+      "retrievedUrl": "https://www.jakechunggroup.org/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-wong-teng-fong",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-wong-teng-fong/",
+      "title": "Prof. WONG Teng Fong · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "49497341268e94c0a15e6a683b5e8e4da2ddf54e2817027f73fd1266f798aa71",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=kea3HkIAAAAJ&hl=en&oi=ao"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-27-prof-wong-teng-fong",
+      "url": "https://scholar.google.com/citations?user=kea3HkIAAAAJ&hl=en&oi=ao",
+      "title": "Prof. WONG Teng Fong · 官网所给链接",
+      "scope": "黄腾丰的学术资料与发表记录。",
+      "claims": [
+        "黄腾丰的学术资料与发表记录。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e57c7cce82ebdd6ed81d3c4bbece4319e59f8ec60417ce2a625a6881c3432787",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-wong-teng-fong",
+      "originalUrl": "https://scholar.google.com/citations?user=kea3HkIAAAAJ&hl=en&oi=ao",
+      "retrievedUrl": "https://scholar.google.com/citations?user=kea3HkIAAAAJ&hl=en&oi=ao"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-cheng-chuen-hon-arthur",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-cheng-chuen-hon-arthur/",
+      "title": "Prof. CHENG Chuen Hon Arthur · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "efe59206b3232555a0adcba916ac632858fc6348f7c2b13b6a62025004ecc1dd",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-lee-shing-yip-joe",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-lee-shing-yip-joe/",
+      "title": "Prof. LEE Shing Yip Joe · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e68f4d9ff3fb0253a303640759e38c10179da58c236ceeee3c178dc5160410fe",
+      "discoveredLinks": [
+        "https://www.joesylee.org/"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-linked-28-prof-lee-shing-yip-joe",
+      "url": "https://www.joesylee.org/",
+      "title": "Prof. LEE Shing Yip Joe · 官网所给链接",
+      "scope": "Joe Shing Yip Lee 的个人研究页，含红树林生态研究。",
+      "claims": [
+        "Joe Shing Yip Lee 的个人研究页，含红树林生态研究。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "20384046dbf3f08776736b18c3db08f014e33fc74426debde25c4b316d4fffb1",
+      "parentSourceId": "cuhk-ees-20261110-profile-prof-lee-shing-yip-joe",
+      "originalUrl": "https://www.joesylee.org/",
+      "retrievedUrl": "https://www.joesylee.org/"
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-yao-huajian",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-yao-huajian/",
+      "title": "Prof. YAO Huajian · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "45540440a96ca72f7843c4043bd0038dc67e8d4d15f9be94183e2e5a4973d5ac",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-ho-kin-fai",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-ho-kin-fai/",
+      "title": "Prof. HO Kin Fai · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c96346557fb165fc8ccc55926d8fd9ad6e33b0eaba38f99a565e4f7e6ef8f1a4",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-lam-hon-ming",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-lam-hon-ming/",
+      "title": "Prof. LAM Hon Ming · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "005c9334274137430f1090abe0af35c80f3635546e081cbbbeed370ef8ba3fe6",
+      "discoveredLinks": [
+        "https://www.sls.cuhk.edu.hk/index.php/faculty-and-staff/teaching-staff/26-sls/faculty-and-staff/teaching-staff/57-professor-lam-hon-ming"
+      ]
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-lai-yuk-fo-derrick",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-lai-yuk-fo-derrick/",
+      "title": "Prof. LAI Yuk Fo Derrick · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a413bb55aa473fac1e76120e0f1e640cfc48c97b97cfc7f44d5b135a016496ec",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-meng-fanbao",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-meng-fanbao/",
+      "title": "Dr. MENG Fanbao · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "83cf4336003df5a2559a2713b895cc9727341e8c7fbd6d0020e2063790b089f6",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-raymond-cheung-wai-man-jp",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-raymond-cheung-wai-man-jp/",
+      "title": "Dr. Raymond CHEUNG Wai Man, JP · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "678ec32a8178b4b7ef6ef349d9018f5be1ecc62cf5d3f97f6bf3cfa29c1b4591",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-jim-chu-chun-wa",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-jim-chu-chun-wa/",
+      "title": "Dr. Jim CHU Chun Wa · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3edf5c6dbaf05b3c6ef4b3af30ad8d339b5359aa09157e3a442d09480d53fdab",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-dr-jackie-ng-wai-yin",
+      "url": "https://www.ees.cuhk.edu.hk/staff/dr-jackie-ng-wai-yin/",
+      "title": "Dr. Jackie NG Wai Yin · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c93d6c2547a6d4f9aa147585c5fa64222e4fddf5f12f4441cad21ae821db41ad",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-alexis-lau-kai-hon",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-alexis-lau-kai-hon/",
+      "title": "Prof. Alexis LAU Kai Hon · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6943398e79355f8770f062267d32b3bb04c6130693b61235c7711455da85e7c4",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-kenneth-leung",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-kenneth-leung/",
+      "title": "Prof. Kenneth LEUNG · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c8f684f0f5fb4127c3c7bd44bdb327138982df61340b8de0905f04f7860a24e2",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-prof-zhao-guochun",
+      "url": "https://www.ees.cuhk.edu.hk/staff/prof-zhao-guochun/",
+      "title": "Prof. ZHAO Guochun · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "81617c5a405e0e2c2e66664803a699b35874c4e48dfae4ce38327d2d3513be81",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-mr-freeman-cheung",
+      "url": "https://www.ees.cuhk.edu.hk/staff/mr-freeman-cheung/",
+      "title": "Mr. Freeman CHEUNG · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "228b9d110e69492963ffc63ed1660dd6cc783da5057cacf820105d254fb837b3",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-mr-jesse-tam",
+      "url": "https://www.ees.cuhk.edu.hk/staff/mr-jesse-tam/",
+      "title": "Mr. Jesse TAM · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "022cb54059c88817fbe98360a1be41059544330abb198ebbe688ff4b1e60bb9c",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-mr-bien-wong-chun-cheung",
+      "url": "https://www.ees.cuhk.edu.hk/staff/mr-bien-wong-chun-cheung/",
+      "title": "Mr. Bien WONG Chun-cheung · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "769d057a3ebdaf35b0274da758e78d7504fee10a511580d03296c85b57abbe33",
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ees-20261110-profile-mr-wong-kam-sing-gbs-jp",
+      "url": "https://www.ees.cuhk.edu.hk/staff/mr-wong-kam-sing-gbs-jp/",
+      "title": "Prof. WONG Kam Sing, GBS, JP · 地球与环境科学系",
+      "scope": "个人档案身份和原名录类别已核对。",
+      "claims": [
+        "个人档案身份和原名录类别已核对。"
+      ],
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1247e71e03721be8b5c81f95b87ae1a0b554066416c574b0440b18f4af18807e",
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -235989,6 +238569,786 @@
         ],
         "observedTotal": 0,
         "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-roster-directory",
+      "universityId": "cuhk",
+      "unit": "地球与环境科学系 · 师资及支援人员",
+      "url": "https://www.ees.cuhk.edu.hk/people/faculty-and-supporting-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-ees-20261110-roster"
+      ],
+      "reviewSourceIds": [
+        "cuhk-ees-20261110-profile-prof-tai-pui-kuen-amos",
+        "cuhk-ees-20261110-profile-prof-chan-man-nin",
+        "cuhk-ees-20261110-profile-prof-tam-chi-yung-francis",
+        "cuhk-ees-20261110-profile-prof-zhai-shixian",
+        "cuhk-ees-20261110-profile-prof-liu-xueying-shirley",
+        "cuhk-ees-20261110-profile-prof-chow-tat-shing-alex",
+        "cuhk-ees-20261110-profile-luo-haiwei",
+        "cuhk-ees-20261110-profile-martin-tsz-ki-tsui",
+        "cuhk-ees-20261110-profile-benoit-thibodeau",
+        "cuhk-ees-20261110-profile-prof-du-penghui",
+        "cuhk-ees-20261110-profile-prof-yang-hong-feng",
+        "cuhk-ees-20261110-profile-prof-liu-lin",
+        "cuhk-ees-20261110-profile-prof-tan-yen-joe",
+        "cuhk-ees-20261110-profile-prof-zhan-yan",
+        "cuhk-ees-20261110-profile-prof-xu-mijian",
+        "cuhk-ees-20261110-profile-prof-zhang-zhen",
+        "cuhk-ees-20261110-profile-dr-tam-pui-yuk-tammy",
+        "cuhk-ees-20261110-profile-dr-au-yeung-yee-man-andie",
+        "cuhk-ees-20261110-profile-dr-li-kwan-kit-ronald",
+        "cuhk-ees-20261110-profile-dr-ng-tsin-hung-leo",
+        "cuhk-ees-20261110-profile-dr-zhang-li",
+        "cuhk-ees-20261110-profile-dr-chen-manjia",
+        "cuhk-ees-20261110-profile-dr-huang-lingcao",
+        "cuhk-ees-20261110-profile-abbas-aqeel",
+        "cuhk-ees-20261110-profile-dr-cao-yiwen",
+        "cuhk-ees-20261110-profile-dr-chang-man-hei-jeffrey",
+        "cuhk-ees-20261110-profile-dr-chen-zhaoliang",
+        "cuhk-ees-20261110-profile-dr-dai-qili",
+        "cuhk-ees-20261110-profile-dr-fan-chengyan",
+        "cuhk-ees-20261110-profile-lai-donger",
+        "cuhk-ees-20261110-profile-dr-luo-lina",
+        "cuhk-ees-20261110-profile-dr-joshua-pi",
+        "cuhk-ees-20261110-profile-dr-wang-ziyan",
+        "cuhk-ees-20261110-profile-dr-yuan-tiangang",
+        "cuhk-ees-20261110-profile-dr-zhang-jiewen",
+        "cuhk-ees-20261110-profile-dr-zhou-hao",
+        "cuhk-ees-20261110-profile-dr-zhou-jiangcheng",
+        "cuhk-ees-20261110-profile-dr-zhu-juan",
+        "cuhk-ees-20261110-profile-zi-jinping",
+        "cuhk-ees-20261110-profile-dr-xie-jingchun",
+        "cuhk-ees-20261110-profile-mr-lam-chak-hay-hayden",
+        "cuhk-ees-20261110-profile-miss-so-wing-kwan-mandy",
+        "cuhk-ees-20261110-profile-miss-chen-yufei",
+        "cuhk-ees-20261110-profile-miss-lau-mo-yin",
+        "cuhk-ees-20261110-profile-mr-wong-hok-fong"
+      ],
+      "coverageNotes": "保留原名录的任职分类。项目指导资格请对照各项目要求。",
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. TAI Pui Kuen Amos",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-tai-pui-kuen-amos/",
+            "directoryPosition": "Professor / Deputy Chair (Education)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Atmospheric Science · 研究大气化学与物理、生态气候学、大气与生物圈相互作用、空气污染与可持续农业。",
+            "facultyId": "cuhk-ees-20261110-prof-tai-pui-kuen-amos"
+          },
+          {
+            "name": "Prof. CHAN Man Nin",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chan-man-nin/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Atmospheric Science · 研究气溶胶化学、有机硫化合物氧化、二次有机气溶胶。",
+            "facultyId": "cuhk-ees-20261110-prof-chan-man-nin"
+          },
+          {
+            "name": "Prof. TAM Chi Yung Francis",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-tam-chi-yung-francis/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Atmospheric Science · 研究大气动力学、区域气候、极端降雨归因、复合洪水。",
+            "facultyId": "cuhk-ees-20261110-prof-tam-chi-yung-francis"
+          },
+          {
+            "name": "Prof. ZHAI Shixian",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhai-shixian/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Atmospheric Science · 研究大气化学、空气质量、气候变化、大气成分遥感与建模。",
+            "facultyId": "cuhk-ees-20261110-prof-zhai-shixian"
+          },
+          {
+            "name": "Prof. LIU Xueying",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-liu-xueying-shirley/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Atmospheric Science · 研究空气质量、大气化学、大气与生物圈相互作用、食物与环境健康。",
+            "facultyId": "cuhk-ees-20261110-prof-liu-xueying-shirley"
+          },
+          {
+            "name": "Prof. CHOW Tat Shing Alex",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chow-tat-shing-alex/",
+            "directoryPosition": "Chairman & Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Biogeoscience · 研究城市生物地球化学、水源水质、饮用水处理、生态系统服务。",
+            "facultyId": "cuhk-ees-20261110-prof-chow-tat-shing-alex"
+          },
+          {
+            "name": "Prof. LUO Haiwei",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/luo-haiwei/",
+            "directoryPosition": "Professor (Joint Appointment with SLS)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Biogeoscience · 研究海洋微生物生态与演化、海洋细菌基因组、固氮微生物。",
+            "facultyId": "cuhk-sls-20261108-luo-haiwei"
+          },
+          {
+            "name": "Prof. TSUI Tsz Ki Martin",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/martin-tsz-ki-tsui/",
+            "directoryPosition": "Associate Professor (Joint Appointment with SLS)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Biogeoscience · 研究环境污染、生态毒理、生态系统生物地球化学、稳定同位素。",
+            "facultyId": "cuhk-sls-20261108-tsui-tsz-ki-martin"
+          },
+          {
+            "name": "Prof. THIBODEAU Benoit",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/benoit-thibodeau/",
+            "directoryPosition": "Assistant Professor (Joint Appointment)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Biogeoscience · 研究海洋生物地球化学、稳定同位素、古海洋与古气候。",
+            "facultyId": "cuhk-sls-20261108-thibodeau-benoit"
+          },
+          {
+            "name": "Prof. DU Penghui",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-du-penghui/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Biogeoscience · 研究水环境化学、新兴污染物、溶解有机质、量子化学与数据科学。",
+            "facultyId": "cuhk-ees-20261110-prof-du-penghui"
+          },
+          {
+            "name": "Prof. YANG Hongfeng",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-yang-hong-feng/",
+            "directoryPosition": "Professor / Deputy Chair (Research) / Head of Graduate Division of Earth and Environmental Sciences",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Geophysical Science · 研究地震学、震源物理、诱发地震、断层带成像。",
+            "facultyId": "cuhk-ees-20261110-prof-yang-hong-feng"
+          },
+          {
+            "name": "Prof. LIU Lin",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-liu-lin/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Geophysical Science · 研究冰冻圈地球物理、大地测量、近地表地球物理、遥感与深度学习。",
+            "facultyId": "cuhk-ees-20261110-prof-liu-lin"
+          },
+          {
+            "name": "Prof. TAN Yen Joe",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-tan-yen-joe/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Geophysical Science · 研究海洋地球物理、火山地震学、地震过程、环境地震学。",
+            "facultyId": "cuhk-ees-20261110-prof-tan-yen-joe"
+          },
+          {
+            "name": "Prof. ZHAN Yan",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhan-yan/",
+            "directoryPosition": "Ng Yin Ying Assistant Professor of Geophysics",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Geophysical Science · 研究岩石圈形变、火山地球物理、岩浆动力学、地壳过程数值模拟。",
+            "facultyId": "cuhk-ees-20261110-prof-zhan-yan"
+          },
+          {
+            "name": "Prof. XU Mijian",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-xu-mijian/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Geophysical Science · 研究地震反演、全波形反演、走时层析成像、地震波模拟。",
+            "facultyId": "cuhk-ees-20261110-prof-xu-mijian"
+          },
+          {
+            "name": "Prof. ZHANG Zhen",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhang-zhen/",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Professors · Geophysical Science · 研究环境地震学、滑坡与泥石流、冰湖溃决洪水。",
+            "facultyId": "cuhk-ees-20261110-prof-zhang-zhen"
+          },
+          {
+            "name": "Dr. TAM Pui Yuk Tammy",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-tam-pui-yuk-tammy/",
+            "directoryPosition": "Senior Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Lecturers · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. AU-YEUNG Yee Man Andie",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-au-yeung-yee-man-andie/",
+            "directoryPosition": "Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Lecturers · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. LI Kwan Kit Ronald",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-li-kwan-kit-ronald/",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Lecturers · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. NG Tsin Hung Leo",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-ng-tsin-hung-leo/",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Lecturers · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ZHANG Li",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-zhang-li/",
+            "directoryPosition": "Assistant Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Lecturers · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. CHEN Manjia",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-chen-manjia/",
+            "directoryPosition": "Research Associate (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. HUANG Lingcao",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-huang-lingcao/",
+            "directoryPosition": "Research Associate",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ABBAS Aqeel",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/abbas-aqeel/",
+            "directoryPosition": "Postdoctoral Fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. CAO Yiwen",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-cao-yiwen/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. CHANG Man Hei Jeffrey",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-chang-man-hei-jeffrey/",
+            "directoryPosition": "JC STEM Early Career Research Fellow (Postdoctoral Fellow)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. CHEN Zhaoliang",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-chen-zhaoliang/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. DAI Qili",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-dai-qili/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. FAN Chengyan",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-fan-chengyan/",
+            "directoryPosition": "Postdoctoral Fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. LAI Donger",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/lai-donger/",
+            "directoryPosition": "Postdoctoral Fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. LUO Lina",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-luo-lina/",
+            "directoryPosition": "Postdoctoral Fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. PI Joshua",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-joshua-pi/",
+            "directoryPosition": "Postdoctoral Research Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. WANG Ziyan",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-wang-ziyan/",
+            "directoryPosition": "Postdoctoral fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. YUAN Tiangang",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-yuan-tiangang/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ZHANG Jiewen",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-zhang-jiewen/",
+            "directoryPosition": "Postdoctoral Fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ZHOU Hao",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-zhou-hao/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ZHOU Jiangcheng",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-zhou-jiangcheng/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ZHU Juan",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-zhu-juan/",
+            "directoryPosition": "Postdoctoral Fellow",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. ZI Jinping",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/zi-jinping/",
+            "directoryPosition": "Postdoctoral Fellow (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Visiting Scholar and Postdoc · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. XIE Jingchun",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-xie-jingchun/",
+            "directoryPosition": "Research Assistant",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Supporting Staff · Research and Teaching support staff · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Mr. LAM Chak Hay Hayden",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/mr-lam-chak-hay-hayden/",
+            "directoryPosition": "Research Assistant (Honorary)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Supporting Staff · Research and Teaching support staff · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Miss SO Wing Kwan Mandy",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/miss-so-wing-kwan-mandy/",
+            "directoryPosition": "Research Assistant",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Supporting Staff · Research and Teaching support staff · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Miss CHEN Yufei",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/miss-chen-yufei/",
+            "directoryPosition": "Junior Research Assistant",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Supporting Staff · Research and Teaching support staff · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Miss LAU Mo Yin",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/miss-lau-mo-yin/",
+            "directoryPosition": "Junior Research Assistant",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Supporting Staff · Research and Teaching support staff · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Mr. WONG Hok Fong",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/mr-wong-hok-fong/",
+            "directoryPosition": "Junior Research Assistant",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Supporting Staff · Research and Teaching support staff · 个人档案身份和原名录类别已核对。"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Ms. CHEUK Wing Yu Sally",
+            "profileUrl": null,
+            "directoryPosition": "Executive Officer",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          },
+          {
+            "name": "Miss LAU Hei Tung Joanne",
+            "profileUrl": null,
+            "directoryPosition": "Project Coordinator",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          },
+          {
+            "name": "Miss CHAN Pui Fun Joyce",
+            "profileUrl": null,
+            "directoryPosition": "General Clerk",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          },
+          {
+            "name": "Ms. LEUNG Hoi Yi Jiffy",
+            "profileUrl": null,
+            "directoryPosition": "General Clerk",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          },
+          {
+            "name": "Mr. CHEUNG Chi Choi Brian",
+            "profileUrl": null,
+            "directoryPosition": "Project Assistant",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          },
+          {
+            "name": "Mr. CHOI Kwun Chung Eric",
+            "profileUrl": null,
+            "directoryPosition": "Technician (IT and General Technical)",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          },
+          {
+            "name": "Miss HUI Nga Man Carmen",
+            "profileUrl": null,
+            "directoryPosition": "Technician (Laboratory)",
+            "providedLinks": [],
+            "reason": "名录列姓名与职位，未提供单独个人页。"
+          }
+        ],
+        "observedTotal": 45,
+        "profilesRead": 45,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-honorary-directory",
+      "universityId": "cuhk",
+      "unit": "地球与环境科学系 · 荣誉任职",
+      "url": "https://www.ees.cuhk.edu.hk/people/honorary-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-ees-20261110-honorary"
+      ],
+      "reviewSourceIds": [
+        "cuhk-ees-20261110-profile-prof-chan-johnny-chung-leung",
+        "cuhk-ees-20261110-profile-prof-chau-kam-tim",
+        "cuhk-ees-20261110-profile-prof-leung-wing-mo",
+        "cuhk-ees-20261110-profile-dr-ng-wai-pan-samuel",
+        "cuhk-ees-20261110-profile-dr-tang-lai-kwan-denise",
+        "cuhk-ees-20261110-profile-prof-alex-lo",
+        "cuhk-ees-20261110-profile-prof-wong-wing-yee-rebecca",
+        "cuhk-ees-20261110-profile-prof-christina-cheung",
+        "cuhk-ees-20261110-profile-prof-chung-ming-kei-jake",
+        "cuhk-ees-20261110-profile-prof-wong-teng-fong",
+        "cuhk-ees-20261110-profile-prof-cheng-chuen-hon-arthur",
+        "cuhk-ees-20261110-profile-prof-lee-shing-yip-joe",
+        "cuhk-ees-20261110-profile-prof-yao-huajian",
+        "cuhk-ees-20261110-profile-prof-ho-kin-fai",
+        "cuhk-ees-20261110-profile-prof-lam-hon-ming",
+        "cuhk-ees-20261110-profile-prof-lai-yuk-fo-derrick",
+        "cuhk-ees-20261110-profile-dr-meng-fanbao"
+      ],
+      "coverageNotes": "保留原名录的任职分类。项目指导资格请对照各项目要求。",
+      "census": {
+        "entries": [
+          {
+            "name": "Prof. CHAN Chung Leung Johnny",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chan-johnny-chung-leung/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Education Development & Instructional Support Specialists · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. CHAU Kam Tim",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chau-kam-tim/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Education Development & Instructional Support Specialists · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. LEUNG Wing Mo",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-leung-wing-mo/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Education Development & Instructional Support Specialists · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. NG Wai Pan Samuel",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-ng-wai-pan-samuel/",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Education Development & Instructional Support Specialists · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. TANG Lai Kwan Denise",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-tang-lai-kwan-denise/",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Education Development & Instructional Support Specialists · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. Alex LO",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-alex-lo/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Environmental Policy, Regulatory, Economics & Conservation · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. WONG Wing Yee Rebecca",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-wong-wing-yee-rebecca/",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Environmental Policy, Regulatory, Economics & Conservation · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. Christina CHEUNG",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-christina-cheung/",
+            "directoryPosition": "Assistant Professor (by Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Environmental Policy, Regulatory, Economics & Conservation · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. CHUNG Ming Kei Jake",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-chung-ming-kei-jake/",
+            "directoryPosition": "Assistant Professor (by Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Environmental Policy, Regulatory, Economics & Conservation · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. WONG Teng Fong",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-wong-teng-fong/",
+            "directoryPosition": "Emeritus Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. CHENG Chuen Hon Arthur",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-cheng-chuen-hon-arthur/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. LEE Shing Yip Joe",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-lee-shing-yip-joe/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. YAO Huajian",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-yao-huajian/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. HO Kin Fai",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-ho-kin-fai/",
+            "directoryPosition": "Professor (by Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. LAM Hon Ming",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-lam-hon-ming/",
+            "directoryPosition": "Professor (by Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. LAI Yuk Fo Derrick",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-lai-yuk-fo-derrick/",
+            "directoryPosition": "Associate Professor (by Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. MENG Fanbao",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-meng-fanbao/",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Technology Innovation, Collaboration & Partnership · 个人档案身份和原名录类别已核对。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 17,
+        "profilesRead": 17,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {}
+      }
+    },
+    {
+      "id": "cuhk-ees-20261110-advisory-directory",
+      "universityId": "cuhk",
+      "unit": "地球与环境科学系 · 顾问委员会",
+      "url": "https://www.ees.cuhk.edu.hk/people/advisory-committee/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "cuhk-ees-20261110-advisory"
+      ],
+      "reviewSourceIds": [
+        "cuhk-ees-20261110-profile-dr-raymond-cheung-wai-man-jp",
+        "cuhk-ees-20261110-profile-dr-jim-chu-chun-wa",
+        "cuhk-ees-20261110-profile-dr-jackie-ng-wai-yin",
+        "cuhk-ees-20261110-profile-prof-alexis-lau-kai-hon",
+        "cuhk-ees-20261110-profile-prof-kenneth-leung",
+        "cuhk-ees-20261110-profile-prof-zhao-guochun",
+        "cuhk-ees-20261110-profile-mr-freeman-cheung",
+        "cuhk-ees-20261110-profile-mr-jesse-tam",
+        "cuhk-ees-20261110-profile-mr-bien-wong-chun-cheung",
+        "cuhk-ees-20261110-profile-mr-wong-kam-sing-gbs-jp"
+      ],
+      "coverageNotes": "保留原名录的任职分类。项目指导资格请对照各项目要求。",
+      "census": {
+        "entries": [
+          {
+            "name": "Dr. Raymond CHEUNG Wai Man, JP",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-raymond-cheung-wai-man-jp/",
+            "directoryPosition": "Head Geotechnical Engineering Office Civil Engineering and Development Department (CEDD)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Government · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. Jim CHU Chun Wa",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-jim-chu-chun-wa/",
+            "directoryPosition": "Assistant Director (Fisheries and Marine Conservation) Fisheries and Marine Conservation Branch Agriculture, Fisheries and Conservation Department",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Government · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Dr. Jackie NG Wai Yin",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/dr-jackie-ng-wai-yin/",
+            "directoryPosition": "Principal Environmental Protection Officer (Corporate Affairs) Environmental Protection Department",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Government · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. Alexis LAU Kai Hon",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-alexis-lau-kai-hon/",
+            "directoryPosition": "Head and Chair Professor Division of Environment and Sustainability The Hong Kong University of Science and Technology",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Academic · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. Kenneth LEUNG",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-kenneth-leung/",
+            "directoryPosition": "Director and Chair Professor State Key Laboratory of Marine Environmental Health City University of Hong Kong",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Academic · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. ZHAO Guochun",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/prof-zhao-guochun/",
+            "directoryPosition": "Mok Sau-King Professor & Professor, Chair of Earth Sciences Department of Earth and Planetary Sciences The University of Hong Kong",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Academic · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Mr. Freeman CHEUNG",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/mr-freeman-cheung/",
+            "directoryPosition": "President Hong Kong Institute of Qualified Environmental Professionals (HKIQEP)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Industry and Civil Society · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Mr. Jesse TAM",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/mr-jesse-tam/",
+            "directoryPosition": "Chair The Hong Kong Regional Group The Geological Society",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Industry and Civil Society · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Mr. Bien WONG Chun-cheung",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/mr-bien-wong-chun-cheung/",
+            "directoryPosition": "Assistant General Manager - Group ESG The Hong Kong and China Gas Company Limited",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Industry and Civil Society · 个人档案身份和原名录类别已核对。"
+          },
+          {
+            "name": "Prof. WONG Kam Sing, GBS, JP",
+            "profileUrl": "https://www.ees.cuhk.edu.hk/staff/mr-wong-kam-sing-gbs-jp/",
+            "directoryPosition": "Chairman Wu Zhi Qiao (Bridge to China) Charitable Foundation",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "Members · Industry and Civil Society · 个人档案身份和原名录类别已核对。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 10,
+        "profilesRead": 10,
         "profilesFailed": 0,
         "pendingReasonCounts": {}
       }
@@ -280440,5 +283800,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:2fe42cf21a261bea5cffd17b5d649f9772fb5ec0a3ae402af8572c1eee4a03a3"
+  "snapshotId": "sha256:becc9e3607b86b04d30f743f8e1e66bc890e73f53238da09bbe5e0ed9770d7c4"
 }
