@@ -1192,6 +1192,28 @@ def build_catalog():
     catalog["sources"].append(sse_platforms["source"])
     sse_unit = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == sse_platforms["parentUnitId"])
     sse_unit["researchPlatforms"] = {key: value for key, value in sse_platforms.items() if key not in {"source", "parentUnitId"}}
+    sse_remaining = load("cuhksz-sse-remaining-20261111.json")
+    catalog["sources"].extend(sse_remaining["sources"])
+    catalog["faculty"].extend(sse_remaining["faculty"])
+    for update in sse_remaining["facultyUpdates"]:
+        original = next(f for f in catalog["faculty"] if f["id"] == update["id"])
+        assert original["universityId"] == "cuhksz"
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "academicUnitIds", "researchKeywords"):
+            original[field] = list(dict.fromkeys(original.get(field, []) + update[field]))
+        known_links = {link["url"] for link in original.get("extraLinks", [])}
+        original.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known_links)
+        original["reviewedProfileUrl"] = update["reviewedProfileUrl"]
+    for update in sse_remaining["leadUpdates"]:
+        lead_by_url[update["url"]].update(update)
+    sse_labs = load("cuhksz-sse-labs-20261111.json")
+    catalog["sources"].extend(sse_labs["sources"])
+    current_faculty = {f["id"]: f for f in catalog["faculty"]}
+    for update in sse_labs["linkUpdates"]:
+        person = current_faculty[update["facultyId"]]
+        link = next(link for link in person["extraLinks"] if link["url"] == update["url"])
+        link.update({k: v for k, v in update.items() if k != "facultyId"})
+        if update.get("sourceId"):
+            person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + [update["sourceId"]]))
     return catalog
 
 

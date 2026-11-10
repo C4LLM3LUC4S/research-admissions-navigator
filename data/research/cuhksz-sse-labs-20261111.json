@@ -1,0 +1,693 @@
+{
+  "sources": [
+    {
+      "id": "cuhksz-sse-linked-20261111-3",
+      "url": "https://shhyang.github.io/",
+      "originalUrl": "https://shhyang.github.io/",
+      "retrievedUrl": "https://shhyang.github.io/",
+      "title": "杨升浩 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:19.653240+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "杨升浩本人页列信息论与编码、量子信息与计算和人工智能理论及系统。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "691e67d377fbbc1694c7a851a7cb17a91764ebeb530525ee01d0e2bed40776f8",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-yangshenghao"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-5",
+      "url": "https://zhyuancao.github.io/",
+      "originalUrl": "https://zhyuancao.github.io/",
+      "retrievedUrl": "https://zhyuancao.github.io/",
+      "title": "曹中原 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:22.844874+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "曹中原本人页列数学金融、随机分析、平均场博弈与控制，侧重异质模型及金融和人工智能应用。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "988fa4c3ecc18797e5ec4b0669b18396fa0c68462bb641b5f27c502d09bc1f1a",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-caozhongyuan"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-9",
+      "url": "https://sites.google.com/view/qlmgroup/home",
+      "originalUrl": "https://sites.google.com/view/qlmgroup/home",
+      "retrievedUrl": "https://sites.google.com/view/qlmgroup/home",
+      "title": "Sanjib GHOSH · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:18.054375+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "课题组列量子人工智能、强光与物质相互作用、半导体微腔、量子计算、单光子发射和非平衡动力学。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "e1469bac61adca94f4042aaeaacf7c810f3d63b08102603cb4d8f8674c966f03",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-sanjibghosh"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-10",
+      "url": "https://www.jun-guan.com/",
+      "originalUrl": "https://www.jun-guan.com/",
+      "retrievedUrl": "https://www.jun-guan.com/",
+      "title": "管君 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:32.705185+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "管君课题组研究混合纳米光子结构、纳米尺度光与物质相互作用和多功能激光器。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "3255682291220f9a55e263962be298ad25f5381b8e371a2b0ba834f8c1d1491a",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-guanjun"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-11",
+      "url": "https://odetojsmith.github.io/",
+      "originalUrl": "https://odetojsmith.github.io/",
+      "retrievedUrl": "https://odetojsmith.github.io/",
+      "title": "郭佰威 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:33.914329+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "郭佰威本人页列控制理论、数学优化、机器学习及机器人形态与控制协同设计。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "f1e8fa1110be042a1ffc01851bc4482fb1f4d2e1a83c07443c399d8e3e8cf62e",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-guobaiwei"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-12",
+      "url": "https://ultra-jin.com/",
+      "originalUrl": "https://ultra-jin.com/",
+      "retrievedUrl": "https://ultra-jin.com/",
+      "title": "靳羽华 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:33.935878+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "靳羽华本人页注明已加入港中深，研究人机交互、光学工程及个性化制造；旧页标题仍提MIT。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "71e14f6f4303b8c57e9de90ba2ce3315534053966b27ce39461b5538435b757a",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-jinyuhua"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-13",
+      "url": "https://sites.google.com/view/ceju/home",
+      "originalUrl": "https://sites.google.com/view/ceju/home",
+      "retrievedUrl": "https://sites.google.com/view/ceju/home",
+      "title": "鞠策 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:20.631078+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "鞠策本人页注明2026年8月加入港中深，研究面向脑机接口和神经人工智能的几何人工智能。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "53186339c24379aa14e19a28d67f76c6b845a9a2e6c9fb5dbaa48b3245686b42",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-ceju"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-14",
+      "url": "https://lqycrystal.github.io/qingyuli.github.io/",
+      "originalUrl": "https://lqycrystal.github.io/qingyuli.github.io/",
+      "retrievedUrl": "https://lqycrystal.github.io/qingyuli.github.io/",
+      "title": "李清玉 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:34.520844+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "李清玉本人页列人工智能与遥感，研究智慧城市、能源分析、气候变化及灾害管理。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。",
+        "本人页提2027年秋CIE MPhil/PhD意向申请；仍需按大学和项目规则申请。"
+      ],
+      "bodySha256": "a139b289f17a1e9b1c3f97055904c4a71c77d6a688a6d17367726ae6439f0166",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-liqingyu"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-15",
+      "url": "https://weitangligroup.com/",
+      "originalUrl": "https://weitangligroup.com/",
+      "retrievedUrl": "https://weitangligroup.com/",
+      "title": "李维唐 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:35.609681+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "李维唐课题组研究理论化学、量子计算、机器学习和张量网络，用于化学、材料及生物分子模拟。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "47617a2fb54479c275b1d7939b9e80aa37ea37eb5084e0108f5c7166d4cc77fd",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-liweitang"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-16",
+      "url": "https://yang-liu16.github.io/",
+      "originalUrl": "https://yang-liu16.github.io/",
+      "retrievedUrl": "https://yang-liu16.github.io/",
+      "title": "刘杨 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:36.713944+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "刘杨本人页列金融数学、精算、运筹、应用概率及风险敏感强化学习。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "8ff8af2fc5e2c98826d2eb1a7d13b7cfa1e92e161248c267374d5791ccbbf4c3",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-liuyang"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-17",
+      "url": "https://sites.google.com/site/chluonus/",
+      "originalUrl": "https://sites.google.com/site/chluonus/",
+      "retrievedUrl": "https://sites.google.com/site/chluonus/",
+      "title": "罗才华 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:23.629130+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "罗才华本人页确认港中深助理教授身份；本次仅核首页身份，不将未打开Research栏目视为已读。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "a7653b064cf33a6658997c5716c75e4706321000e76de023edaabf9d64e0ff54",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-luocaihua"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-18",
+      "url": "https://sites.google.com/view/jonghopark",
+      "originalUrl": "https://sites.google.com/view/jonghopark",
+      "retrievedUrl": "https://sites.google.com/view/jonghopark",
+      "title": "朴鐘浩 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:26.350900+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "朴鐘浩本人页列优化多层方法、科学机器学习、计算力学数值方法及动力系统数据驱动方法。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "598ff445be80052a168f6eadb6cb38026d0a5576bd01eb0669bc3a45e391fe3c",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-jonghopark"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-19",
+      "url": "https://sites.google.com/view/qianlab/",
+      "originalUrl": "https://sites.google.com/view/qianlab/",
+      "retrievedUrl": "https://sites.google.com/view/qianlab/",
+      "title": "钱琦 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:29.092190+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "钱琦课题组研究低温量子输运、量子材料及器件，侧重有机与无机混合系统。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "887edbec694d9ba19b03dede1a404a2e5309bfa824960c7c26c6ddd682290b59",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-qianqi"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-20",
+      "url": "https://sites.google.com/site/quanchaoyu/home",
+      "originalUrl": "https://sites.google.com/site/quanchaoyu/home",
+      "retrievedUrl": "https://sites.google.com/site/quanchaoyu/home",
+      "title": "权超禹 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:31.332884+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "权超禹本人页列偏微分方程高阶稳定数值方法及量子化学中的数学方法，页面注明2026年6月8日更新。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "62e5f734d9f407eb5f4345c091d917afbf06e90b25289c8136aed8f03b6b854a",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-quanchaoyu"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-21",
+      "url": "https://xiaoyingtang-cuhk.github.io/zh/index.html",
+      "originalUrl": "https://xiaoyingtang-cuhk.github.io/zh/index.html",
+      "retrievedUrl": "https://xiaoyingtang-cuhk.github.io/zh/index.html",
+      "title": "唐晓莹 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:38.882037+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "唐晓莹T-Lab首页列大模型、电动汽车充电优化及联邦学习三类方向。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "5ed8afa985fba5216006bd66fd4859abb4cb57f33042f6172d7123b7f7d3d698",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-tangxiaoying"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-23",
+      "url": "https://yyou1996.github.io",
+      "originalUrl": "https://yyou1996.github.io",
+      "retrievedUrl": "https://yyou1996.github.io",
+      "title": "游宇宁 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:41.587586+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "游宇宁本人页列生命科学人工智能实验室及模拟生命系统和跨物种相互作用的模型研究。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "c6737b4d67831108c37fcbdc1820a85f6edbabea594fd1c55a062dbfa4e462a7",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-ynyou"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-24",
+      "url": "https://fy-yuan.github.io/",
+      "originalUrl": "https://fy-yuan.github.io/",
+      "retrievedUrl": "https://fy-yuan.github.io/",
+      "title": "袁冯毅 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:42.953672+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "袁冯毅本人页列带粗糙共同噪声的平均场博弈与控制、生成模型、金融随机控制及动态决策时间不一致性。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "ec3234b27d119c333bf22ac04300aa06d205541abd4e87a5110d3646c9bdf34e",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-yuanfengyi"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-27",
+      "url": "https://fxzhong.github.io/",
+      "originalUrl": "https://fxzhong.github.io/",
+      "retrievedUrl": "https://fxzhong.github.io/",
+      "title": "钟仿洵 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:44.812584+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "钟仿洵本人页列手术与康复机器人自主系统、复杂环境规划控制及基于学习的三维感知。"
+      ],
+      "knownIssues": [
+        "首页的未标年度招募或名额陈述不确认当期余位。"
+      ],
+      "bodySha256": "b6e53b4af4a814196c7378276dbca05bec7be4e7db497b51d0389d1c148e9966",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-fxzhong"
+    },
+    {
+      "id": "cuhksz-sse-linked-20261111-28",
+      "url": "https://polysz.cuhk.edu.cn",
+      "originalUrl": "https://polysz.cuhk.edu.cn",
+      "retrievedUrl": "https://polysz.cuhk.edu.cn",
+      "title": "朱贺 · 官网所给研究网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-07T08:23:29.204911+00:00",
+      "scope": "保存首页的身份、研究介绍或课题组范围；未逐项核论文、费用和实时余位。",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "claims": [
+        "先进材料实验室首页列高性能、功能集成及智能聚合物复合材料，团队带头人为朱世平；不是朱贺个人职称或指导资格证明。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "a2e91e6002640f704f9e7c447cb7c45b7e64a6f1b4a0fde9c6d1848a62004011",
+      "readMethod": "saved_linked_body_semantic_review",
+      "parentSourceId": "cuhksz-sse-roles-20261111-zhuhe"
+    }
+  ],
+  "linkUpdates": [
+    {
+      "facultyId": "cuhksz-sse-zhujun",
+      "url": "http://junzhu.chem8.org/",
+      "bodyStatus": "not_read",
+      "readNote": "官网提供HTTP地址，未读取目标正文。"
+    },
+    {
+      "facultyId": "cuhksz-sse-juntingc",
+      "url": "http://chenjunting.org/",
+      "bodyStatus": "not_read",
+      "readNote": "官网提供HTTP地址，未读取目标正文。"
+    },
+    {
+      "facultyId": "cuhksz-sse-hanxiaoguang",
+      "url": "https://gaplab.cuhk.edu.cn/",
+      "bodyStatus": "not_read",
+      "readNote": "保存正文仅提示启用JavaScript，未读到课题正文。"
+    },
+    {
+      "facultyId": "cuhksz-sse-yangshenghao",
+      "url": "https://shhyang.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-3"
+    },
+    {
+      "facultyId": "cuhksz-sse-qizhang",
+      "url": "https://polysz.cuhk.edu.cn/",
+      "bodyStatus": "not_read",
+      "readNote": "原地址连接失败，保留该次失败。"
+    },
+    {
+      "facultyId": "cuhksz-sse-caozhongyuan",
+      "url": "https://zhyuancao.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-5"
+    },
+    {
+      "facultyId": "cuhksz-sse-chentianyang",
+      "url": "https://orcid.org/0000-0003-3142-8176",
+      "bodyStatus": "not_read",
+      "readNote": "ORCID索引未读取，个人研究依据仍在校方页。"
+    },
+    {
+      "facultyId": "cuhksz-sse-chenzhongxin",
+      "url": "http://www.catalysis-cuhksz.com/",
+      "bodyStatus": "not_read",
+      "readNote": "官网提供HTTP地址，未读取目标正文。"
+    },
+    {
+      "facultyId": "cuhksz-sse-duanjunming",
+      "url": "https://junmingduan.github.io/",
+      "bodyStatus": "not_read",
+      "readNote": "原地址连接失败，保留该次失败。"
+    },
+    {
+      "facultyId": "cuhksz-sse-sanjibghosh",
+      "url": "https://sites.google.com/view/qlmgroup/home",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-9"
+    },
+    {
+      "facultyId": "cuhksz-sse-guanjun",
+      "url": "https://www.jun-guan.com/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-10"
+    },
+    {
+      "facultyId": "cuhksz-sse-guobaiwei",
+      "url": "https://odetojsmith.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-11"
+    },
+    {
+      "facultyId": "cuhksz-sse-jinyuhua",
+      "url": "https://ultra-jin.com/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-12"
+    },
+    {
+      "facultyId": "cuhksz-sse-ceju",
+      "url": "https://sites.google.com/view/ceju/home",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-13"
+    },
+    {
+      "facultyId": "cuhksz-sse-liqingyu",
+      "url": "https://lqycrystal.github.io/qingyuli.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-14"
+    },
+    {
+      "facultyId": "cuhksz-sse-liweitang",
+      "url": "https://weitangligroup.com/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-15"
+    },
+    {
+      "facultyId": "cuhksz-sse-liuyang",
+      "url": "https://yang-liu16.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-16"
+    },
+    {
+      "facultyId": "cuhksz-sse-luocaihua",
+      "url": "https://sites.google.com/site/chluonus/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-17"
+    },
+    {
+      "facultyId": "cuhksz-sse-jonghopark",
+      "url": "https://sites.google.com/view/jonghopark",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-18"
+    },
+    {
+      "facultyId": "cuhksz-sse-qianqi",
+      "url": "https://sites.google.com/view/qianlab/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-19"
+    },
+    {
+      "facultyId": "cuhksz-sse-quanchaoyu",
+      "url": "https://sites.google.com/site/quanchaoyu/home",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-20"
+    },
+    {
+      "facultyId": "cuhksz-sse-tangxiaoying",
+      "url": "https://xiaoyingtang-cuhk.github.io/zh/index.html",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-21"
+    },
+    {
+      "facultyId": "cuhksz-sse-yanjun",
+      "url": "https://www.yan-jun.com/",
+      "bodyStatus": "not_read",
+      "readNote": "保存正文仅有导航，尚无可核研究内容。"
+    },
+    {
+      "facultyId": "cuhksz-sse-ynyou",
+      "url": "https://yyou1996.github.io",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-23"
+    },
+    {
+      "facultyId": "cuhksz-sse-yuanfengyi",
+      "url": "https://fy-yuan.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-24"
+    },
+    {
+      "facultyId": "cuhksz-sse-zhangjianquan",
+      "url": "https://www.x-mol.com/groups/zhang_jianquan",
+      "bodyStatus": "not_read",
+      "readNote": "原目标访问被拒，未改用其他入口绕过。"
+    },
+    {
+      "facultyId": "cuhksz-sse-zhaozheng",
+      "url": "https://www.x-mol.com/groups/zhao_zheng/people/17259",
+      "bodyStatus": "not_read",
+      "readNote": "原目标访问被拒，未改用其他入口绕过。"
+    },
+    {
+      "facultyId": "cuhksz-sse-fxzhong",
+      "url": "https://fxzhong.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-27"
+    },
+    {
+      "facultyId": "cuhksz-sse-zhuhe",
+      "url": "https://polysz.cuhk.edu.cn",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sse-linked-20261111-28"
+    },
+    {
+      "facultyId": "cuhksz-sse-tuwenguang",
+      "url": "https://webofscience.clarivate.cn/wos/author/record/AAS-9006-2021",
+      "bodyStatus": "not_read",
+      "readNote": "引文索引未读取，研究依据仍在校方页。"
+    },
+    {
+      "facultyId": "cuhksz-sai-116",
+      "url": "https://www.imlyu.com/",
+      "bodyStatus": "not_read",
+      "readNote": "保存正文只有Home，未读到研究内容。"
+    },
+    {
+      "facultyId": "cuhksz-xiaoqiang-ji",
+      "url": "https://cnd-lab.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "cuhksz-sai-linked-175-20261027",
+      "readNote": "复用2026年10月27日已核实验室首页，未重复下载。"
+    }
+  ],
+  "reviewed": [
+    {
+      "url": "https://shhyang.github.io/",
+      "bodySha256": "691e67d377fbbc1694c7a851a7cb17a91764ebeb530525ee01d0e2bed40776f8",
+      "readAtUTC": "2026-11-10T21:53:25.264781+00:00",
+      "claim": "杨升浩本人页列信息论与编码、量子信息与计算和人工智能理论及系统。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://zhyuancao.github.io/",
+      "bodySha256": "988fa4c3ecc18797e5ec4b0669b18396fa0c68462bb641b5f27c502d09bc1f1a",
+      "readAtUTC": "2026-11-10T21:53:25.264781+00:00",
+      "claim": "曹中原本人页列数学金融、随机分析、平均场博弈与控制，侧重异质模型及金融和人工智能应用。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://sites.google.com/view/qlmgroup/home",
+      "bodySha256": "e1469bac61adca94f4042aaeaacf7c810f3d63b08102603cb4d8f8674c966f03",
+      "readAtUTC": "2026-11-10T21:53:25.265785+00:00",
+      "claim": "课题组列量子人工智能、强光与物质相互作用、半导体微腔、量子计算、单光子发射和非平衡动力学。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://www.jun-guan.com/",
+      "bodySha256": "3255682291220f9a55e263962be298ad25f5381b8e371a2b0ba834f8c1d1491a",
+      "readAtUTC": "2026-11-10T21:53:25.265785+00:00",
+      "claim": "管君课题组研究混合纳米光子结构、纳米尺度光与物质相互作用和多功能激光器。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://odetojsmith.github.io/",
+      "bodySha256": "f1e8fa1110be042a1ffc01851bc4482fb1f4d2e1a83c07443c399d8e3e8cf62e",
+      "readAtUTC": "2026-11-10T21:53:25.265785+00:00",
+      "claim": "郭佰威本人页列控制理论、数学优化、机器学习及机器人形态与控制协同设计。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://ultra-jin.com/",
+      "bodySha256": "71e14f6f4303b8c57e9de90ba2ce3315534053966b27ce39461b5538435b757a",
+      "readAtUTC": "2026-11-10T21:53:25.266812+00:00",
+      "claim": "靳羽华本人页注明已加入港中深，研究人机交互、光学工程及个性化制造；旧页标题仍提MIT。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://sites.google.com/view/ceju/home",
+      "bodySha256": "53186339c24379aa14e19a28d67f76c6b845a9a2e6c9fb5dbaa48b3245686b42",
+      "readAtUTC": "2026-11-10T21:53:25.266812+00:00",
+      "claim": "鞠策本人页注明2026年8月加入港中深，研究面向脑机接口和神经人工智能的几何人工智能。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://lqycrystal.github.io/qingyuli.github.io/",
+      "bodySha256": "a139b289f17a1e9b1c3f97055904c4a71c77d6a688a6d17367726ae6439f0166",
+      "readAtUTC": "2026-11-10T21:53:25.266812+00:00",
+      "claim": "李清玉本人页列人工智能与遥感，研究智慧城市、能源分析、气候变化及灾害管理。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://weitangligroup.com/",
+      "bodySha256": "47617a2fb54479c275b1d7939b9e80aa37ea37eb5084e0108f5c7166d4cc77fd",
+      "readAtUTC": "2026-11-10T21:53:25.266812+00:00",
+      "claim": "李维唐课题组研究理论化学、量子计算、机器学习和张量网络，用于化学、材料及生物分子模拟。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://yang-liu16.github.io/",
+      "bodySha256": "8ff8af2fc5e2c98826d2eb1a7d13b7cfa1e92e161248c267374d5791ccbbf4c3",
+      "readAtUTC": "2026-11-10T21:53:25.267816+00:00",
+      "claim": "刘杨本人页列金融数学、精算、运筹、应用概率及风险敏感强化学习。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://sites.google.com/site/chluonus/",
+      "bodySha256": "a7653b064cf33a6658997c5716c75e4706321000e76de023edaabf9d64e0ff54",
+      "readAtUTC": "2026-11-10T21:53:25.267816+00:00",
+      "claim": "罗才华本人页确认港中深助理教授身份；本次仅核首页身份，不将未打开Research栏目视为已读。",
+      "scope": "identity_only"
+    },
+    {
+      "url": "https://sites.google.com/view/jonghopark",
+      "bodySha256": "598ff445be80052a168f6eadb6cb38026d0a5576bd01eb0669bc3a45e391fe3c",
+      "readAtUTC": "2026-11-10T21:53:25.267816+00:00",
+      "claim": "朴鐘浩本人页列优化多层方法、科学机器学习、计算力学数值方法及动力系统数据驱动方法。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://sites.google.com/view/qianlab/",
+      "bodySha256": "887edbec694d9ba19b03dede1a404a2e5309bfa824960c7c26c6ddd682290b59",
+      "readAtUTC": "2026-11-10T21:53:25.268821+00:00",
+      "claim": "钱琦课题组研究低温量子输运、量子材料及器件，侧重有机与无机混合系统。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://sites.google.com/site/quanchaoyu/home",
+      "bodySha256": "62e5f734d9f407eb5f4345c091d917afbf06e90b25289c8136aed8f03b6b854a",
+      "readAtUTC": "2026-11-10T21:53:25.268821+00:00",
+      "claim": "权超禹本人页列偏微分方程高阶稳定数值方法及量子化学中的数学方法，页面注明2026年6月8日更新。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://xiaoyingtang-cuhk.github.io/zh/index.html",
+      "bodySha256": "5ed8afa985fba5216006bd66fd4859abb4cb57f33042f6172d7123b7f7d3d698",
+      "readAtUTC": "2026-11-10T21:53:25.268821+00:00",
+      "claim": "唐晓莹T-Lab首页列大模型、电动汽车充电优化及联邦学习三类方向。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://yyou1996.github.io",
+      "bodySha256": "c6737b4d67831108c37fcbdc1820a85f6edbabea594fd1c55a062dbfa4e462a7",
+      "readAtUTC": "2026-11-10T21:53:25.268821+00:00",
+      "claim": "游宇宁本人页列生命科学人工智能实验室及模拟生命系统和跨物种相互作用的模型研究。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://fy-yuan.github.io/",
+      "bodySha256": "ec3234b27d119c333bf22ac04300aa06d205541abd4e87a5110d3646c9bdf34e",
+      "readAtUTC": "2026-11-10T21:53:25.269824+00:00",
+      "claim": "袁冯毅本人页列带粗糙共同噪声的平均场博弈与控制、生成模型、金融随机控制及动态决策时间不一致性。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://fxzhong.github.io/",
+      "bodySha256": "b6e53b4af4a814196c7378276dbca05bec7be4e7db497b51d0389d1c148e9966",
+      "readAtUTC": "2026-11-10T21:53:25.269824+00:00",
+      "claim": "钟仿洵本人页列手术与康复机器人自主系统、复杂环境规划控制及基于学习的三维感知。",
+      "scope": "home_identity_and_research_scope"
+    },
+    {
+      "url": "https://polysz.cuhk.edu.cn",
+      "bodySha256": "a2e91e6002640f704f9e7c447cb7c45b7e64a6f1b4a0fde9c6d1848a62004011",
+      "readAtUTC": "2026-11-10T21:53:25.269824+00:00",
+      "claim": "先进材料实验室首页列高性能、功能集成及智能聚合物复合材料，团队带头人为朱世平；不是朱贺个人职称或指导资格证明。",
+      "scope": "home_identity_and_research_scope"
+    }
+  ]
+}
