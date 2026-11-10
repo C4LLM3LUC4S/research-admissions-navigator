@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_sse_research_platforms",
+  "stage": "post_alpha34_sse_role_research_review",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
@@ -9,15 +9,15 @@
     "universities": 7,
     "programme_or_route_cards": 72,
     "degree_routes": 125,
-    "faculty": 2053,
-    "official_sources": 3245,
+    "faculty": 2147,
+    "official_sources": 3346,
     "programmes_with_partial_requirements": 69,
     "requirement_items": 249,
     "programmes_with_partial_finances": 41,
     "finance_items": 68,
     "official_directory_entries": 125,
     "teacher_linked_sources": 784,
-    "total_sources": 4029,
+    "total_sources": 4130,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -237,7 +237,11 @@
     "hku_civil_honorary_cards": 33,
     "hku_civil_postdoc_cards": 67,
     "hku_civil_linked_profiles": 57,
-    "hku_civil_verified_personal_scopes": 55
+    "hku_civil_verified_personal_scopes": 55,
+    "cuhksz_sse_role_batch_new": 94,
+    "cuhksz_sse_role_batch_existing": 7,
+    "cuhksz_sse_role_batch_profiles_read": 101,
+    "cuhksz_sse_role_batch_links_pending": 32
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -474,7 +478,7 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:1059b1b5e1db9f37031399a8a2878b639ebe2ee3f172043e3052bb1732c0e84d",
+  "current_catalogue_snapshot": "sha256:fa266b3dc881136edf32a587fdadfe43eda7c1fe11d4a2be72fde29b2bed9cae",
   "latest_data_batch": "data/research/hku-civil-20261110.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
