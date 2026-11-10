@@ -1248,3 +1248,37 @@ test('Shenzhen medicine applicant keeps project evidence and restores a teacher 
   assert.ok(restored.sourceIds.includes('cuhksz-med-20261109-clinical'));
   assert.equal(h.networkCalls() + blank.networkCalls(), 0);
 });
+
+test('CUHK earth sciences keeps doctoral materials scoped and restores a programme task', async () => {
+  const h = harness();
+  const el = id => h.byId.get(id);
+  const programme = () => el('results').children.find(card =>
+    h.walk(card).some(node => node.tagName === 'h3' && node.textContent === '地球与环境科学研究学位'));
+
+  h.select('cuhk', 'MPhil', []);
+  await el('profile-form').emit('input');
+  await el('show-programs').emit('click');
+  assert.ok(programme());
+  assert.match(programme().textContent, /2027-01-31/);
+  assert.doesNotMatch(programme().textContent, /博士申请材料|HKPFS 学校完整申请截止/);
+
+  h.select('cuhk', 'PhD', []);
+  await el('profile-form').emit('input');
+  const card = programme();
+  assert.match(card.textContent, /博士申请材料|个人陈述/);
+  assert.match(card.textContent, /HKPFS 学校完整申请截止/);
+  assert.ok(h.walk(card).some(node => node.href === 'https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-earth-and-environmental-sciences'));
+  await h.walk(card).find(node => node.tagName === 'button' && node.textContent.includes('加入准备清单')).emit('click');
+  await el('export-local').emit('click');
+
+  const raw = await h.downloads.at(-1).blob.text();
+  const blank = harness();
+  const file = blank.byId.get('import-local');
+  file.files = [{size: Buffer.byteLength(raw), text: async () => raw}];
+  await file.emit('change');
+  await blank.byId.get('export-local').emit('click');
+  const restored = JSON.parse(await blank.downloads.at(-1).blob.text());
+  assert.equal(restored.tasks[0].programId, 'cuhk-ees-rpg');
+  assert.ok(restored.sourceIds.includes('cuhk-ees-20261110-graduate-school'));
+  assert.equal(h.networkCalls() + blank.networkCalls(), 0);
+});
