@@ -675,7 +675,8 @@ window.APP_CATALOG = {
       "sourceIds": [
         "gz-redbird",
         "gz-central-requirements",
-        "gz-scholarships-fees"
+        "gz-scholarships-fees",
+        "gz-dsa-mphil"
       ],
       "evidenceNote": "仅红鸟硕士规则，不代表广州所有博士或学域。",
       "requirements": [
@@ -693,6 +694,14 @@ window.APP_CATALOG = {
           "text": "全日制学生自动纳入研究生助学金（PGS）考虑，无须另外申请。是否获批、覆盖多久以及实际学费，要看正式通知和当期说明；资助不等于免学费。",
           "action": "核对红鸟硕士PGS考虑方式、正式资助条件与需缴学费",
           "sourceIds": [
+            "gz-redbird"
+          ]
+        },
+        {
+          "label": "对数据科学与分析感兴趣",
+          "text": "学域 MPhil 页面链接至红鸟硕士。申请时在系统选择 MPhil (General)，入学后再按红鸟项目安排探索研究方向并确定学域。",
+          "sourceIds": [
+            "gz-dsa-mphil",
             "gz-redbird"
           ]
         }
@@ -7593,6 +7602,75 @@ window.APP_CATALOG = {
           "sourceIds": [
             "polyu-beee-20261110-programme",
             "polyu-beee-20261110-eligibility"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-phd-2027",
+      "universityId": "hkustgz",
+      "name": "数据科学与分析博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港科大（广州）2027/28 秋季。全日制四年，非全日制六年。",
+      "contact": {
+        "status": "unknown",
+        "text": "可从学域师资页了解研究方向，并按学域最新申请指引准备。",
+        "sourceIds": [
+          "gz-dsa-phd"
+        ]
+      },
+      "selection": {
+        "text": "按研究生院流程在申请系统递交，申请滚动审理。",
+        "sourceIds": [
+          "gz-timeline"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "gz-dsa-phd",
+        "gz-timeline"
+      ],
+      "evidenceNote": "学历及英语要求来自学域博士手册。截止日期来自研究生院校级时间表。",
+      "entryUrl": "https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/",
+      "requirements": [
+        {
+          "label": "学历要求",
+          "text": "须具有获认可院校颁授的学士学位且成绩优异，或具有至少一年全日制或两年非全日制的研究生学习经历，并能证明表现合格。",
+          "sourceIds": [
+            "gz-dsa-phd"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "学术类雅思总分至少 6.5，单项至少 5.5。托福网考按考试日期分档，2026 年 1 月 21 日前至少 80 分，当日起至少 4.5 分。其他成绩选项见博士手册。",
+          "sourceIds": [
+            "gz-dsa-phd"
           ]
         }
       ]
@@ -220773,6 +220851,62 @@ window.APP_CATALOG = {
       "knownIssues": [],
       "bodySha256": "1f6eba65d7abb698d35d11f1cf1e98d15a5fb7476bbcc4ff0a57c9dfeca5284c",
       "readMethod": "anonymous_HTTP"
+    },
+    {
+      "id": "gz-dsa-regular",
+      "url": "https://dsa.hkust-gz.edu.cn/people/faculty/regular/",
+      "title": "港科广数据科学与分析 · 常规师资",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学域页面提供 36 个具名个人入口。",
+      "claims": [
+        "学域页面提供 36 个具名个人入口。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "45f454eb5f1a85cfdd668a171549629a9aae6135ed239ee7a390492669780933"
+    },
+    {
+      "id": "gz-dsa-adjunct",
+      "url": "https://dsa.hkust-gz.edu.cn/people/faculty/adjunct/",
+      "title": "港科广数据科学与分析 · 兼任与实践任职",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学域另列六项兼任及实践任职。",
+      "claims": [
+        "学域另列六项兼任及实践任职。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "49ed02baa9e31b35668ee93a51f202e485d70d49bd52d731884f5cc0a75662d6"
+    },
+    {
+      "id": "gz-dsa-phd",
+      "url": "https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/09/DSA-Brochure-202606.pdf",
+      "title": "港科广数据科学与分析 · 2027/28 博士手册",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "博士栏列学历与英语要求，全日制四年、非全日制六年。",
+      "claims": [
+        "博士栏列学历与英语要求，全日制四年、非全日制六年。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "be0632603bd3f036e861b3886cdeb9112a62f990e7bd99b552716866a818ad22"
+    },
+    {
+      "id": "gz-dsa-mphil",
+      "url": "https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/mphil-in-data-science-and-analytics/",
+      "title": "港科广数据科学与分析 · MPhil 项目入口",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "项目页链接至未来技术学院红鸟硕士入口。",
+      "claims": [
+        "项目页链接至未来技术学院红鸟硕士入口。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5effd0439b838fdfcd8d2b771a4e49fec228029379702970d0c7bf46d50786ee"
     }
   ],
   "funding": [
@@ -244537,6 +244671,28 @@ window.APP_CATALOG = {
         "curatedProfiles": 0,
         "checkedAt": "2026-11-10"
       }
+    },
+    {
+      "id": "gz-dsa-regular-directory",
+      "universityId": "hkustgz",
+      "unit": "港科广数据科学与分析 · 常规师资",
+      "url": "https://dsa.hkust-gz.edu.cn/people/faculty/regular/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "gz-dsa-regular"
+      ],
+      "coverageNotes": "从学域官网按任职类别浏览个人入口。"
+    },
+    {
+      "id": "gz-dsa-adjunct-directory",
+      "universityId": "hkustgz",
+      "unit": "港科广数据科学与分析 · 兼任与实践任职",
+      "url": "https://dsa.hkust-gz.edu.cn/people/faculty/adjunct/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "gz-dsa-adjunct"
+      ],
+      "coverageNotes": "从学域官网按任职类别浏览个人入口。"
     }
   ],
   "directApplicationRoutes": {
@@ -288985,5 +289141,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:96bdec2face91e9173aea78a03b45e33b45703439b4e3df722b33199e5204170"
+  "snapshotId": "sha256:8aedfec02197ad65302191bf28ff5f10002967baf36478a9d78424fb331cd961"
 };
