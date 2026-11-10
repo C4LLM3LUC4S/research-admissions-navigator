@@ -6,6 +6,27 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('a shared department navbar is not presented as the teacher personal homepage',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);el('research-query').value='模块化建筑';
+ await el('profile-form').emit('input');await el('show-faculty').emit('click');
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Professor Y. BAI'));assert.ok(card);
+ assert.ok(!h.walk(card).some(n=>n.tagName==='summary'&&n.textContent==='个人网站与课题组'));
+ const other=h.walk(card).find(n=>n.tagName==='details'&&n.children[0]?.textContent==='原网页中的其他链接');assert.ok(other);
+ assert.match(other.textContent,/本科课程导航/);assert.match(other.textContent,/研究生课程导航/);
+ assert.equal(h.walk(other).filter(n=>n.tagName==='a').length,4);
+ assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href===C.faculty.find(f=>f.id==='hku-civil-20261110-01').profileUrl));
+});
+
+test('Pong research is discoverable while Hong Kong emeritus status stays separate from the Guangzhou role',async()=>{
+ const h=harness(),el=id=>h.byId.get(id);h.select('hkustgz','PhD',[]);el('research-query').value='电子学习';
+ await el('profile-form').emit('input');await el('show-faculty').emit('click');
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='Ting Chuen PONG · 庞鼎全'));assert.ok(card);
+ assert.match(card.textContent,/香港计算机系另列荣休教授/);
+ assert.ok(h.walk(card).some(n=>n.tagName==='a'&&n.href==='https://cse.hkust.edu.hk/admin/people/faculty/profile/tcpong'));
+ const person=C.faculty.find(f=>f.id==='hkustgz-dsa-20261110-446');assert.equal(person.universityId,'hkustgz');assert.equal(person.availability.state,'unknown');
+ assert.ok(!C.faculty.some(f=>f.id==='hkustgz-dsa-20261110-744'));
+});
+
 test('an applicant can distinguish a lab homepage from a long supplied reference list without losing any link or saved teacher',async()=>{
  const person=C.faculty.find(f=>f.id==='polyu-beee-20261110-ir-professor-yuen-anthony-chun-yin');
  const supplied=L.facultyLinks(C,person),h=harness(),el=id=>h.byId.get(id);
