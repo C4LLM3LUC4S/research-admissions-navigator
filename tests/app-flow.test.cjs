@@ -6,6 +6,22 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('DSA research search opens the supplied human profile and preserves stable saved identities', async () => {
+  const h = harness();
+  const el = id => h.byId.get(id);
+  h.select('hkustgz', 'PhD', []);
+  el('research-query').value = '向量数据库';
+  await el('profile-form').emit('input', {target: el('research-query')});
+  const card = el('results').children.find(item => h.walk(item).some(node =>
+    node.tagName === 'h3' && node.textContent === 'JEFFREY XU YU'));
+  assert.ok(card);
+  const profile = h.walk(card).find(node => node.tagName === 'a' && node.textContent.includes('看院系提供的老师主页'));
+  assert.equal(profile.href, 'https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu#new_tab');
+  assert.ok(C.faculty.some(person => person.id === 'wide-hkustgz-lei-chen'));
+  assert.ok(C.faculty.some(person => person.id === 'hkustgz-dsa-20261110-qiong-luo'));
+  assert.equal(h.networkCalls(), 0);
+});
+
 test('standalone MPhil applicants do not see the two PhD-only integrated routes as options',async()=>{
  const h=harness(),el=id=>h.byId.get(id);
  const names=C.programs.filter(p=>['hkust-fina-rpg','hkust-is-rpg'].includes(p.id)).map(p=>p.name);

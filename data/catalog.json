@@ -106572,7 +106572,7 @@
       "universityId": "hkustgz",
       "name": "Lionel Ming-Shuan NI",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/13",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni#new_tab",
       "summary": "研究大数据、高性能计算、移动计算与无线网络。",
       "topics": [
         "网络与系统"
@@ -106584,7 +106584,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-13"
         ]
-      }
+      },
+      "directoryRole": "Chair Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/13"
     },
     {
       "id": "hkustgz-dsa-20261110-17",
@@ -106620,7 +106622,7 @@
       "universityId": "hkustgz",
       "name": "Fu-Gee TSUNG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/17",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season#new_tab",
       "summary": "研究工业大数据、统计过程监控、质量工程。",
       "topics": [
         "数学与统计"
@@ -106632,7 +106634,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-17"
         ]
-      }
+      },
+      "directoryRole": "Chair Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/17"
     },
     {
       "id": "hkustgz-dsa-20261110-51",
@@ -106668,7 +106672,7 @@
       "universityId": "hkustgz",
       "name": "Xiaowen CHU",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/51",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu#new_tab",
       "summary": "研究GPU计算、分布式与联邦学习、自动驾驶视觉。",
       "topics": [
         "机器学习"
@@ -106680,7 +106684,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-51"
         ]
-      }
+      },
+      "directoryRole": "Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/51"
     },
     {
       "id": "hkustgz-dsa-20261110-35",
@@ -106716,7 +106722,7 @@
       "universityId": "hkustgz",
       "name": "Wei WANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/35",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs#new_tab",
       "summary": "研究数据库与人工智能、大语言模型、科学智能。",
       "topics": [
         "机器学习"
@@ -106728,7 +106734,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-35"
         ]
-      }
+      },
+      "directoryRole": "Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/35"
     },
     {
       "id": "hkustgz-dsa-20261110-617",
@@ -106755,7 +106763,7 @@
       "universityId": "hkustgz",
       "name": "JEFFREY XU YU",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/617",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu#new_tab",
       "summary": "研究图算法与图系统、图神经网络、向量数据库。",
       "topics": [
         "机器学习"
@@ -106767,7 +106775,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-617"
         ]
-      }
+      },
+      "directoryRole": "Thrust Head · Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/617"
     },
     {
       "id": "hkustgz-dsa-20261110-107",
@@ -106802,7 +106812,7 @@
       "universityId": "hkustgz",
       "name": "Sung Hun KIM",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/107",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim#new_tab",
       "summary": "研究软件仓库挖掘、程序静态分析与动态分析、软件故障识别。",
       "topics": [
         "软件工程与编程语言"
@@ -106814,7 +106824,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-107"
         ]
-      }
+      },
+      "directoryRole": "Associate Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/107"
     },
     {
       "id": "hkustgz-dsa-20261110-37",
@@ -106849,7 +106861,7 @@
       "universityId": "hkustgz",
       "name": "Jia LI",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/37",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee#new_tab",
       "summary": "研究图学习、异常检测、药物发现与科学智能。",
       "topics": [
         "机器学习"
@@ -106861,7 +106873,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-37"
         ]
-      }
+      },
+      "directoryRole": "Associate Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/37"
     },
     {
       "id": "hkustgz-dsa-20261110-36",
@@ -106897,7 +106911,7 @@
       "universityId": "hkustgz",
       "name": "Jing TANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/36",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang#new_tab",
       "summary": "研究大数据管理、社交网络与图分析、区块链。",
       "topics": [
         "机器学习"
@@ -106909,7 +106923,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-36"
         ]
-      }
+      },
+      "directoryRole": "Associate Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/36"
     },
     {
       "id": "hkustgz-dsa-20261110-297",
@@ -106944,7 +106960,7 @@
       "universityId": "hkustgz",
       "name": "Nan TANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/297",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang#new_tab",
       "summary": "研究数据中心人工智能、检索增强生成、数据准备。",
       "topics": [
         "机器学习"
@@ -106956,7 +106972,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-297"
         ]
-      }
+      },
+      "directoryRole": "Associate Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/297"
     },
     {
       "id": "hkustgz-dsa-20261110-59",
@@ -106992,7 +107010,7 @@
       "universityId": "hkustgz",
       "name": "Wei ZENG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/59",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng#new_tab",
       "summary": "研究可视化、可视分析、生成式人工智能、虚拟与增强现实。",
       "topics": [
         "计算机图形学"
@@ -107004,7 +107022,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-59"
         ]
-      }
+      },
+      "directoryRole": "Associate Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/59"
     },
     {
       "id": "hkustgz-dsa-20261110-450",
@@ -107037,7 +107057,7 @@
       "universityId": "hkustgz",
       "name": "Zishuo DING",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/450",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding#new_tab",
       "summary": "研究自然语言处理与软件工程、大规模软件性能。",
       "topics": [
         "软件工程与编程语言"
@@ -107049,7 +107069,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-450"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/450"
     },
     {
       "id": "hkustgz-dsa-20261110-11",
@@ -107084,7 +107106,7 @@
       "universityId": "hkustgz",
       "name": "Juan DU",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/11",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu#new_tab",
       "summary": "研究工业数据分析、制造系统信息学、质量改进。",
       "topics": [
         "机器学习"
@@ -107096,7 +107118,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-11"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/11"
     },
     {
       "id": "hkustgz-dsa-20261110-574",
@@ -107123,7 +107147,7 @@
       "universityId": "hkustgz",
       "name": "Huayi DUAN",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/574",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan#new_tab",
       "summary": "研究网络安全、数据安全、可信系统与人工智能。",
       "topics": [
         "网络安全"
@@ -107135,7 +107159,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-574"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/574"
     },
     {
       "id": "hkustgz-dsa-20261110-526",
@@ -107162,7 +107188,7 @@
       "universityId": "hkustgz",
       "name": "Zhijiang GUO",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/526",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo#new_tab",
       "summary": "研究大语言模型、智能体、自然语言处理。",
       "topics": [
         "机器学习"
@@ -107174,7 +107200,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-526"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/526"
     },
     {
       "id": "hkustgz-dsa-20261110-703",
@@ -107202,7 +107230,7 @@
       "universityId": "hkustgz",
       "name": "Yuwen HUANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/703",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yuwen/yuwenhuang#new_tab",
       "summary": "研究图模型、量子信息、多项式几何、信息论。",
       "topics": [
         "数学与统计"
@@ -107214,7 +107242,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-703"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/703"
     },
     {
       "id": "hkustgz-dsa-20261110-718",
@@ -107239,7 +107269,7 @@
       "universityId": "hkustgz",
       "name": "Tianyuan JIN",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/718",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIN-Tianyuan/tianyuanjin#new_tab",
       "summary": "研究在线学习、强化学习、大语言模型加速。",
       "topics": [
         "机器学习"
@@ -107251,7 +107281,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-718"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/718"
     },
     {
       "id": "hkustgz-dsa-20261110-104",
@@ -107289,7 +107321,7 @@
       "universityId": "hkustgz",
       "name": "Lei LI",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/104",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli#new_tab",
       "summary": "研究空间数据库、图学习、分布式数据库、智能交通。",
       "topics": [
         "数据库与数据系统"
@@ -107301,7 +107333,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-104"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/104"
     },
     {
       "id": "hkustgz-dsa-20261110-288",
@@ -107338,7 +107372,7 @@
       "universityId": "hkustgz",
       "name": "Yuxuan LIANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/288",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang#new_tab",
       "summary": "研究时空数据挖掘、时空基础模型、城市计算。",
       "topics": [
         "机器学习"
@@ -107350,7 +107384,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-288"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/288"
     },
     {
       "id": "hkustgz-dsa-20261110-451",
@@ -107383,7 +107419,7 @@
       "universityId": "hkustgz",
       "name": "Shangqi LU",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/451",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu#new_tab",
       "summary": "研究数据库查询处理、向量数据库。",
       "topics": [
         "数据库与数据系统"
@@ -107395,7 +107431,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-451"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/451"
     },
     {
       "id": "hkustgz-dsa-20261110-301",
@@ -107430,7 +107468,7 @@
       "universityId": "hkustgz",
       "name": "Yuyu LUO",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/301",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo#new_tab",
       "summary": "研究智能数据分析、数据中心人工智能、大模型智能体。",
       "topics": [
         "机器学习"
@@ -107442,7 +107480,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-301"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/301"
     },
     {
       "id": "hkustgz-dsa-20261110-427",
@@ -107478,7 +107518,7 @@
       "universityId": "hkustgz",
       "name": "Guoming TANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/427",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang#new_tab",
       "summary": "研究可持续计算、云边缘计算、计算机网络。",
       "topics": [
         "网络与系统"
@@ -107490,7 +107530,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-427"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/427"
     },
     {
       "id": "hkustgz-dsa-20261110-498",
@@ -107518,7 +107560,7 @@
       "universityId": "hkustgz",
       "name": "Jiaheng WEI",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/498",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei#new_tab",
       "summary": "研究弱监督学习、大模型数据生成、稳健训练。",
       "topics": [
         "机器学习"
@@ -107530,7 +107572,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-498"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/498"
     },
     {
       "id": "hkustgz-dsa-20261110-120",
@@ -107570,7 +107614,7 @@
       "universityId": "hkustgz",
       "name": "Zeyi WEN",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/120",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi#new_tab",
       "summary": "研究大模型训练与推理、机器学习系统、智能体存储系统。",
       "topics": [
         "机器学习"
@@ -107582,7 +107626,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-120"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/120"
     },
     {
       "id": "hkustgz-dsa-20261110-589",
@@ -107608,7 +107654,7 @@
       "universityId": "hkustgz",
       "name": "Jun XIA",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/589",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia#new_tab",
       "summary": "研究智能体、自进化人工智能、生命科学智能。",
       "topics": [
         "机器学习"
@@ -107620,7 +107666,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-589"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/589"
     },
     {
       "id": "hkustgz-dsa-20261110-428",
@@ -107647,7 +107695,7 @@
       "universityId": "hkustgz",
       "name": "Zeke XIE",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/428",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie#new_tab",
       "summary": "研究生成式人工智能、智能体、大模型训练与理论。",
       "topics": [
         "机器学习"
@@ -107659,7 +107707,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-428"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/428"
     },
     {
       "id": "hkustgz-dsa-20261110-452",
@@ -107696,7 +107746,7 @@
       "universityId": "hkustgz",
       "name": "Weikai YANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/452",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang#new_tab",
       "summary": "研究人工智能可视化、人机协作、弱监督与主动学习。",
       "topics": [
         "机器学习"
@@ -107708,7 +107758,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-452"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/452"
     },
     {
       "id": "hkustgz-dsa-20261110-380",
@@ -107745,7 +107797,7 @@
       "universityId": "hkustgz",
       "name": "Yanlin ZHANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/380",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang#new_tab",
       "summary": "研究计算生物学、海洋基因组学、沉浸式数据可视化。",
       "topics": [
         "机器学习"
@@ -107757,7 +107809,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-380"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/380"
     },
     {
       "id": "hkustgz-dsa-20261110-436",
@@ -107793,7 +107847,7 @@
       "universityId": "hkustgz",
       "name": "Yongqi ZHANG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/436",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang#new_tab",
       "summary": "研究关系图学习、大模型推理、自动机器学习。",
       "topics": [
         "机器学习"
@@ -107805,7 +107859,9 @@
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-436"
         ]
-      }
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/436"
     },
     {
       "id": "hkustgz-dsa-20261110-453",
@@ -107840,7 +107896,7 @@
       "universityId": "hkustgz",
       "name": "Zixin ZHONG",
       "department": "数据科学与分析学域",
-      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/453",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong#new_tab",
       "summary": "研究强化学习、在线学习、多臂老虎机。",
       "topics": [
         "机器学习"
@@ -107851,6 +107907,48 @@
         "text": "可先看研究课题和学域申请要求。",
         "sourceIds": [
           "hkustgz-dsa-20261110-profile-453"
+        ]
+      },
+      "directoryRole": "Assistant Professor",
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/453"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-qiong-luo",
+      "universityId": "hkustgz",
+      "name": "Qiong LUO",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://cse.hkust.edu.hk/~luo/",
+      "summary": "研究大数据系统、并行与分布式系统，以及现代硬件上的数据管理和 GPU 数据分析。",
+      "identityNote": "个人主页列明港科大香港计算机系任职，同时在广州数据科学与分析学域联合任职。",
+      "directoryRole": "Professor · 联合任职",
+      "topics": [
+        "数据库与数据系统",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "大数据系统",
+        "并行与分布式系统",
+        "GPU 数据分析",
+        "科学数据处理"
+      ],
+      "sourceIds": [
+        "hkustgz-dsa-20261110-qiong-homepage",
+        "hkustgz-dsa-20261110-hpml-lab",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-qiong-homepage"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先查看研究方向及对应项目要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-qiong-homepage"
         ]
       }
     }
@@ -223126,6 +223224,72 @@
       "bodySha256": "2238c9bb055c839a47666a793d86625b1549374164f7d55966873685fb33d44c",
       "readMethod": "anonymous_HTTP",
       "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-446",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/446",
+      "title": "TING CHUEN PONG · 公开个人资料",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "任职已核，个人公开资料未列研究词。",
+      "claims": [
+        "任职已核，个人公开资料未列研究词。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2d8505d9eaaeedcd8ac0e1ef22b94731c2f6ccac0cf3522dd257cc5128e4a5ac"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-744",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/744",
+      "title": "Lorraine Yuxin ZHANG · 公开个人资料",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "任职已核，个人公开资料未列研究词。",
+      "claims": [
+        "任职已核，个人公开资料未列研究词。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed70cf89d1445dd466d08c6139992ecb82c55f6199ed2fbefc908122a4462f2f"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-hpml-lab",
+      "url": "https://dsa.hkust-gz.edu.cn/research/labs-institutes/high-performance-machine-learning-laboratory/",
+      "title": "港科广高性能机器学习研究室",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究室成员包括罗琼，并提供其个人研究主页。",
+      "claims": [
+        "研究室成员包括罗琼，并提供其个人研究主页。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a951eafbfa4ca1a288c4f2c3f0f2f2de07f3614f1e94759e162d1321325900c6",
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~luo/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-qiong-homepage",
+      "url": "https://cse.hkust.edu.hk/~luo/",
+      "title": "Qiong Luo · 个人研究主页",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "姓名、两校区联合任职、大数据系统、并行分布式系统、GPU数据分析。",
+      "claims": [
+        "姓名、两校区联合任职、大数据系统、并行分布式系统、GPU数据分析。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "60b25e0d44544d6a739e900400016168d127d01417c13781320ce42f16fe23f1",
+      "parentSourceId": "hkustgz-dsa-20261110-hpml-lab",
+      "originalUrl": "https://cse.hkust.edu.hk/~luo/",
+      "retrievedUrl": "https://cse.hkust.edu.hk/~luo/"
     }
   ],
   "funding": [
@@ -246900,7 +247064,304 @@
       "sourceIds": [
         "gz-dsa-regular"
       ],
-      "coverageNotes": "从学域官网按任职类别浏览个人入口。"
+      "coverageNotes": "按学域常规与兼任页面分列。任职与所选学位指导资格、当期余位分别核对。",
+      "census": {
+        "entries": [
+          {
+            "name": "Jeffrey Xu YU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YU-JEFFREYXU/jeffreyxuyu#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Lionel Ming-Shuan NI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/NI-LionelMing-Shuan/ni#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Ting Chuen PONG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/PONG-TINGCHUEN/tcpong#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人公开资料已读，未列研究词。"
+          },
+          {
+            "name": "Lei CHEN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHEN-Lei/leichen#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Kaishun WU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WU-Kaishun/wuks#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Wei WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Wei/weiwcs#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Nan TANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Nan/nantang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Xiaowen CHU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/CHU-Xiaowen/xwchu#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Fugee TSUNG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TSUNG-Fu-Gee/season#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Qiong LUO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Qiong/luo#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "原入口数据未返回，已读学域课题组提供的个人研究主页核对联合任职。"
+          },
+          {
+            "name": "Sung Hun KIM",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/KIM-SungHun/hunkim#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Jia LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Jia/jialee#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Jing TANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Jing/jingtang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Wei ZENG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZENG-Wei/weizeng#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Zishuo DING",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Zishuo/zishuoding#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Ningning DING",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DING-Ningning/ningningding#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Huayi DUAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DUAN-Huayi/huayiduan#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Juan DU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/DU-Juan/juandu#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Tianyuan JIN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/JIN-Tianyuan/tianyuanjin#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Zhijiang GUO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/GUO-Zhijiang/zhijiangguo#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Yuwen HUANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/HUANG-Yuwen/yuwenhuang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Lei LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LI-Lei/thorli#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Yuxuan LIANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIANG-Yuxuan/yuxuanliang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Shangqi LU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LU-Shangqi/shangqilu#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Yuyu LUO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LUO-Yuyu/yuyuluo#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Guoming TANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/TANG-Guoming/guomingtang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Jiaheng WEI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEI-Jiaheng/jiahengwei#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Zeyi WEN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WEN-Zeyi/wenzeyi#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Jun XIA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIA-Jun/junxia#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Zeke XIE",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/XIE-Zeke/zekexie#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Weikai YANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YANG-Weikai/weikaiyang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Yanlin ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yanlin/yanlinzhang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Yongqi ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yongqi/yongqizhang#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Zixin ZHONG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHONG-Zixin/zixinzhong#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Lei ZHU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "任职及研究来自已保存的公开个人资料正文。"
+          },
+          {
+            "name": "Lorraine Yuxin ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Yuxin/yuxinz#new_tab",
+            "directoryPosition": "常规师资",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "个人公开资料已读，未列研究词。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 36,
+        "profilesRead": 36,
+        "profilesFailed": 0,
+        "checkedAt": "2026-11-10"
+      }
     },
     {
       "id": "gz-dsa-adjunct-directory",
@@ -246911,7 +247372,64 @@
       "sourceIds": [
         "gz-dsa-adjunct"
       ],
-      "coverageNotes": "从学域官网按任职类别浏览个人入口。"
+      "coverageNotes": "按学域常规与兼任页面分列。任职与所选学位指导资格、当期余位分别核对。",
+      "census": {
+        "entries": [
+          {
+            "name": "Jiangchuan LIU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/LIU-Jiangchuan/153#new_tab",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+          },
+          {
+            "name": "Chen ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang#new_tab",
+            "directoryPosition": "Associate Professor of Practice",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+          },
+          {
+            "name": "Dian ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Dian/336#new_tab",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+          },
+          {
+            "name": "Haodi ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Haodi/368#new_tab",
+            "directoryPosition": "Adjunct Assistant Professor",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+          },
+          {
+            "name": "Foster Jia ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-FosterJia/fosterjzhang#new_tab",
+            "directoryPosition": "Associate Professor of Practice",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+          },
+          {
+            "name": "Gang WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Gang/354#new_tab",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+          }
+        ],
+        "unlinkedEntries": [],
+        "observedTotal": 6,
+        "profilesRead": 0,
+        "profilesFailed": 6,
+        "checkedAt": "2026-11-10"
+      }
     }
   ],
   "directApplicationRoutes": {
@@ -291360,5 +291878,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:87b91caddea81b136346650013e60fb655f001a9139b77168a0eaf88abddd6cc"
+  "snapshotId": "sha256:e0827155d59f8b908d962a8a8267cf6b3513624a5a17f7589c05ae5ac4fce696"
 }
