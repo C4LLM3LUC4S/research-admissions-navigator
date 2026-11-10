@@ -11510,14 +11510,22 @@
         "博弈论",
         "网络化控制系统",
         "网络安全与隐私",
-        "机器学习"
+        "机器学习",
+        "分布式优化",
+        "多智能体系统",
+        "非合作博弈",
+        "差分隐私",
+        "拜占庭鲁棒性",
+        "联邦学习"
       ],
       "summary": "研究分布式优化与学习、博弈论，以及可信高效的多智能体算法。",
       "profileUrl": "https://myweb.cuhk.edu.cn/chenxiaomeng/",
       "sourceIds": [
         "wide-cuhksz-xiaomeng-chen-profile",
         "cuhksz-sse-staff-20261107-page-07",
-        "cuhksz-sse-recovered-20261111-chenxiaomeng"
+        "cuhksz-sse-recovered-20261111-chenxiaomeng",
+        "cuhksz-sse-completion-field-wide-cuhksz-xiaomeng-chen",
+        "cuhksz-sse-completion-site-wide-cuhksz-xiaomeng-chen"
       ],
       "availability": {
         "state": "unknown",
@@ -11534,12 +11542,22 @@
       "keywordSourceIds": [
         "wide-cuhksz-xiaomeng-chen-profile",
         "cuhksz-sse-staff-20261107-page-07",
-        "cuhksz-sse-recovered-20261111-chenxiaomeng"
+        "cuhksz-sse-recovered-20261111-chenxiaomeng",
+        "cuhksz-sse-completion-field-wide-cuhksz-xiaomeng-chen",
+        "cuhksz-sse-completion-site-wide-cuhksz-xiaomeng-chen"
       ],
       "academicUnitIds": [
         "cuhksz-2"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://xiaomengchen-home.github.io/",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-wide-cuhksz-xiaomeng-chen",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-completion-site-wide-cuhksz-xiaomeng-chen"
+        }
+      ],
       "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/chenxiaomeng"
     },
     {
@@ -24385,7 +24403,9 @@
         "cuhksz-sai-profile-174-20261027",
         "cuhksz-sai-linked-174-20261027",
         "cuhksz-sse-staff-20261107-page-11",
-        "cuhksz-sse-roles-20261111-sunzhenglong"
+        "cuhksz-sse-roles-20261111-sunzhenglong",
+        "cuhksz-sse-completion-field-cuhksz-sai-174",
+        "cuhksz-sse-completion-site-cuhksz-sai-174"
       ],
       "directorySourceIds": [
         "cuhksz-sai-page-5-20261027",
@@ -24404,6 +24424,13 @@
           "parentSourceId": "cuhksz-sai-profile-174-20261027",
           "bodyStatus": "body_read",
           "sourceId": "cuhksz-sai-linked-174-20261027"
+        },
+        {
+          "url": "https://sites.google.com/site/sunkurt/",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sai-174",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-completion-site-cuhksz-sai-174"
         }
       ],
       "availability": {
@@ -24639,12 +24666,19 @@
         "High Energy Nuclear Physics",
         "物理与机器学习",
         "科学研究中的人工智能",
-        "高能核物理"
+        "高能核物理",
+        "科学人工智能",
+        "深度学习",
+        "重离子碰撞",
+        "格点量子场论",
+        "可再生能源"
       ],
       "keywordSourceIds": [
         "cuhksz-sai-profile-176-20261027",
         "cuhksz-sse-staff-20261107-page-12",
-        "cuhksz-sse-roles-20261111-zhoukai"
+        "cuhksz-sse-roles-20261111-zhoukai",
+        "cuhksz-sse-completion-field-cuhksz-sai-176",
+        "cuhksz-sse-completion-site-cuhksz-sai-176"
       ],
       "topics": [
         "人工智能",
@@ -24655,7 +24689,9 @@
         "cuhksz-sai-page-5-20261027",
         "cuhksz-sai-profile-176-20261027",
         "cuhksz-sse-staff-20261107-page-12",
-        "cuhksz-sse-roles-20261111-zhoukai"
+        "cuhksz-sse-roles-20261111-zhoukai",
+        "cuhksz-sse-completion-field-cuhksz-sai-176",
+        "cuhksz-sse-completion-site-cuhksz-sai-176"
       ],
       "directorySourceIds": [
         "cuhksz-sai-page-5-20261027",
@@ -24674,6 +24710,13 @@
           "parentSourceId": "cuhksz-sai-profile-176-20261027",
           "bodyStatus": "not_read",
           "readFailure": "Error: No readable identity/research body or access screen"
+        },
+        {
+          "url": "https://fias.institute/en/research/theoretical-sciences/research-groups/kai-zhou/",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sai-176",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-completion-site-cuhksz-sai-176"
         }
       ],
       "availability": {
@@ -89759,7 +89802,15 @@
         "机器学习"
       ],
       "summary": "研究膜分离技术、水处理和脱盐、能源应用、人工智能、机器学习。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://scholar.google.com.hk/citations?user=18GZ6EsAAAAJ&hl=en&oi=ao",
+          "label": "学术索引",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-ycdong",
+          "bodyStatus": "not_read",
+          "readNote": "学术索引入口保留，不用索引替代研究正文。"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -89770,7 +89821,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-04",
-        "cuhksz-sse-roles-20261111-ycdong"
+        "cuhksz-sse-roles-20261111-ycdong",
+        "cuhksz-sse-completion-field-cuhksz-sse-ycdong"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-04"
@@ -89936,7 +89988,15 @@
         "数学与统计"
       ],
       "summary": "研究李群及李代数的表示论。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://kdwong.github.io",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-danielwong",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-completion-site-cuhksz-sse-danielwong"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -89947,20 +90007,26 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-04",
-        "cuhksz-sse-roles-20261111-danielwong"
+        "cuhksz-sse-roles-20261111-danielwong",
+        "cuhksz-sse-completion-field-cuhksz-sse-danielwong",
+        "cuhksz-sse-completion-site-cuhksz-sse-danielwong"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-04"
       ],
       "keywordSourceIds": [
         "cuhksz-sse-staff-20261107-page-04",
-        "cuhksz-sse-roles-20261111-danielwong"
+        "cuhksz-sse-roles-20261111-danielwong",
+        "cuhksz-sse-completion-field-cuhksz-sse-danielwong",
+        "cuhksz-sse-completion-site-cuhksz-sse-danielwong"
       ],
       "academicUnitIds": [
         "cuhksz-2"
       ],
       "researchKeywords": [
-        "李群及李代数的表示论"
+        "李群及李代数的表示论",
+        "约化李群",
+        "表示论"
       ]
     },
     {
@@ -90061,7 +90127,15 @@
         "材料与能源"
       ],
       "summary": "研究光热催化。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://scholar.google.ca/citations?user=_bXVsa4AAAAJ&hl=en",
+          "label": "学术索引",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-lwang",
+          "bodyStatus": "not_read",
+          "readNote": "学术索引入口保留，不用索引替代研究正文。"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -90072,7 +90146,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-05",
-        "cuhksz-sse-roles-20261111-lwang"
+        "cuhksz-sse-roles-20261111-lwang",
+        "cuhksz-sse-completion-field-cuhksz-sse-lwang"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-05"
@@ -90152,7 +90227,15 @@
         "机器学习"
       ],
       "summary": "研究金融数学，金融工程，机器学习。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://scholar.google.com/citations?user=kpno4dIAAAAJ&hl=en",
+          "label": "学术索引",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-zhanggongqiu",
+          "bodyStatus": "not_read",
+          "readNote": "学术索引入口保留，不用索引替代研究正文。"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -90163,7 +90246,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-05",
-        "cuhksz-sse-roles-20261111-zhanggongqiu"
+        "cuhksz-sse-roles-20261111-zhanggongqiu",
+        "cuhksz-sse-completion-field-cuhksz-sse-zhanggongqiu"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-05"
@@ -91409,7 +91493,15 @@
         "生物医学与健康"
       ],
       "summary": "研究软体机器人与医疗机器人。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://scholar.google.com/citations?user=1nJ5_boAAAAJ&hl=en",
+          "label": "学术索引",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-liyingtian",
+          "bodyStatus": "not_read",
+          "readNote": "学术索引入口保留，不用索引替代研究正文。"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -91420,7 +91512,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-09",
-        "cuhksz-sse-roles-20261111-liyingtian"
+        "cuhksz-sse-roles-20261111-liyingtian",
+        "cuhksz-sse-completion-field-cuhksz-sse-liyingtian"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-09"
@@ -92010,7 +92103,15 @@
         "物理与化学"
       ],
       "summary": "研究理论物理、高能粒子物理、宇宙学。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://inspirehep.net/authors/1701348?ui-citation-summary=true",
+          "label": "学术索引",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-wangxing",
+          "bodyStatus": "not_read",
+          "readNote": "学术索引入口保留，不用索引替代研究正文。"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -92021,7 +92122,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-11",
-        "cuhksz-sse-roles-20261111-wangxing"
+        "cuhksz-sse-roles-20261111-wangxing",
+        "cuhksz-sse-completion-field-cuhksz-sse-wangxing"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-11"
@@ -92050,7 +92152,15 @@
         "材料与能源"
       ],
       "summary": "研究智能能源系统。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "http://www.wuchenye.cn",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-wuchenye",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-completion-site-cuhksz-sse-wuchenye"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -92061,20 +92171,29 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-11",
-        "cuhksz-sse-roles-20261111-wuchenye"
+        "cuhksz-sse-roles-20261111-wuchenye",
+        "cuhksz-sse-completion-field-cuhksz-sse-wuchenye",
+        "cuhksz-sse-completion-site-cuhksz-sse-wuchenye"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-11"
       ],
       "keywordSourceIds": [
         "cuhksz-sse-staff-20261107-page-11",
-        "cuhksz-sse-roles-20261111-wuchenye"
+        "cuhksz-sse-roles-20261111-wuchenye",
+        "cuhksz-sse-completion-field-cuhksz-sse-wuchenye",
+        "cuhksz-sse-completion-site-cuhksz-sse-wuchenye"
       ],
       "academicUnitIds": [
         "cuhksz-2"
       ],
       "researchKeywords": [
-        "智能能源系统"
+        "智能能源系统",
+        "电网运行",
+        "智能电表隐私",
+        "鲁棒调度",
+        "电力市场",
+        "强化学习"
       ]
     },
     {
@@ -92656,6 +92775,13 @@
           "bodyStatus": "body_read",
           "readNote": "主页提供的链接，研究正文待核。",
           "sourceId": "cuhksz-sse-linked-20261111-28"
+        },
+        {
+          "url": "https://polysz.cuhk.edu.cn/en",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-zhuhe",
+          "bodyStatus": "not_read",
+          "readNote": "本次网页阅读返回502；未将响应当研究正文。"
         }
       ],
       "availability": {
@@ -92669,7 +92795,8 @@
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-13",
         "cuhksz-sse-roles-20261111-zhuhe",
-        "cuhksz-sse-linked-20261111-28"
+        "cuhksz-sse-linked-20261111-28",
+        "cuhksz-sse-completion-field-cuhksz-sse-zhuhe"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-13"
@@ -92780,7 +92907,15 @@
         "机器学习"
       ],
       "summary": "研究运筹优化、机器学习、多机器人系统。",
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "url": "https://scholar.google.com/citations?hl=en&user=65jnWj0AAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "学术索引",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-fuzhanghua",
+          "bodyStatus": "not_read",
+          "readNote": "学术索引入口保留，不用索引替代研究正文。"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -92791,7 +92926,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-13",
-        "cuhksz-sse-roles-20261111-fuzhanghua"
+        "cuhksz-sse-roles-20261111-fuzhanghua",
+        "cuhksz-sse-completion-field-cuhksz-sse-fuzhanghua"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-13"
@@ -120153,14 +120289,20 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-03",
-        "cuhksz-sse-recovered-20261111-mzhang"
+        "cuhksz-sse-recovered-20261111-mzhang",
+        "cuhksz-sse-completion-field-cuhksz-sse-mzhang",
+        "cuhksz-sse-completion-site-cuhksz-sse-mzhang",
+        "cuhksz-sse-completion-nel-research"
       ],
       "directorySourceIds": [
         "cuhksz-sse-staff-20261107-page-03"
       ],
       "keywordSourceIds": [
         "cuhksz-sse-staff-20261107-page-03",
-        "cuhksz-sse-recovered-20261111-mzhang"
+        "cuhksz-sse-recovered-20261111-mzhang",
+        "cuhksz-sse-completion-field-cuhksz-sse-mzhang",
+        "cuhksz-sse-completion-site-cuhksz-sse-mzhang",
+        "cuhksz-sse-completion-nel-research"
       ],
       "academicUnitIds": [
         "cuhksz-2"
@@ -120172,9 +120314,21 @@
         "薄膜晶体管",
         "纳米电子",
         "生物电子",
-        "先进显示"
+        "先进显示",
+        "可拉伸电子",
+        "神经突触器件",
+        "生物电子集成",
+        "可穿戴器件"
       ],
-      "extraLinks": []
+      "extraLinks": [
+        {
+          "url": "https://mypage.cuhk.edu.cn/academics/mzhang/index.html",
+          "label": "个人主页或课题组",
+          "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-mzhang",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhksz-sse-completion-site-cuhksz-sse-mzhang"
+        }
+      ]
     },
     {
       "id": "cuhksz-sse-lizhen",
@@ -120344,6 +120498,170 @@
         "text": "查看对应项目的指导资格与招生安排。",
         "sourceIds": [
           "research-links-20261111-pong"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-wkshum",
+      "universityId": "cuhksz",
+      "name": "沈颖祺",
+      "department": "理工学院",
+      "profileUrl": "https://sse.cuhk.edu.cn/faculty/wingkishum",
+      "directoryRole": "副教授",
+      "summary": "研究信息与编码理论，运用代数、组合数学、概率和数论解决分布式存储与无线网络调度问题。",
+      "topics": [
+        "网络与系统",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "信息论",
+        "编码理论",
+        "分布式存储",
+        "无线网络调度"
+      ],
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-05",
+        "cuhksz-sse-completion-wkshum"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-05"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-completion-wkshum"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://mypage.cuhk.edu.cn/academics/wkshum/",
+          "label": "原个人网站",
+          "parentSourceId": "cuhksz-sse-completion-wkshum",
+          "bodyStatus": "not_read",
+          "readNote": "原响应仅有out，没有个人研究正文。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目的指导资格与招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-completion-wkshum"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-caidifeng",
+      "universityId": "cuhksz",
+      "name": "蔡地丰",
+      "department": "理工学院",
+      "profileUrl": "https://mypage.cuhk.edu.cn/academics/caidifeng/",
+      "directoryRole": "助理教授",
+      "summary": "研究科学计算中的快速算法、降维与不确定性量化，结合机器学习处理高维数据和分布学习问题。",
+      "topics": [
+        "理论与优化",
+        "机器学习",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "数值方法",
+        "降维",
+        "机器学习",
+        "不确定性量化",
+        "层次数据压缩",
+        "物理信息分布学习"
+      ],
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-06",
+        "cuhksz-sse-completion-caidifeng",
+        "cuhksz-sse-completion-caidifeng-research"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-06"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-completion-caidifeng",
+        "cuhksz-sse-completion-caidifeng-research"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://mypage.cuhk.edu.cn/academics/caidifeng/research.html",
+          "label": "研究方向",
+          "parentSourceId": "cuhksz-sse-completion-caidifeng",
+          "sourceId": "cuhksz-sse-completion-caidifeng-research",
+          "bodyStatus": "body_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目的指导资格与招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-completion-caidifeng"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sse-jingqiangye",
+      "universityId": "cuhksz",
+      "name": "叶靖强",
+      "department": "理工学院",
+      "profileUrl": "https://yegroup.cuhk.edu.cn",
+      "directoryRole": "助理教授",
+      "summary": "研究暗物质与中微子探测，包括XENONnT及RELICS实验中的液氙探测技术。",
+      "topics": [
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "粒子物理实验",
+        "粒子天体物理",
+        "暗物质",
+        "中微子",
+        "液氙探测器",
+        "相干弹性中微子核散射"
+      ],
+      "sourceIds": [
+        "cuhksz-sse-staff-20261107-page-11",
+        "cuhksz-sse-completion-jingqiangye",
+        "cuhksz-sse-completion-jingqiangye-0",
+        "cuhksz-sse-completion-jingqiangye-1"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sse-staff-20261107-page-11"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sse-completion-jingqiangye",
+        "cuhksz-sse-completion-jingqiangye-0",
+        "cuhksz-sse-completion-jingqiangye-1"
+      ],
+      "academicUnitIds": [
+        "cuhksz-2"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yegroup-cuhksz.org/people/",
+          "label": "课题组成员",
+          "parentSourceId": "cuhksz-sse-completion-jingqiangye",
+          "sourceId": "cuhksz-sse-completion-jingqiangye-0",
+          "bodyStatus": "body_read"
+        },
+        {
+          "url": "https://yegroup-cuhksz.org/research/",
+          "label": "研究方向",
+          "parentSourceId": "cuhksz-sse-completion-jingqiangye",
+          "sourceId": "cuhksz-sse-completion-jingqiangye-1",
+          "bodyStatus": "body_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看对应项目的指导资格与招生安排。",
+        "sourceIds": [
+          "cuhksz-sse-completion-jingqiangye"
         ]
       }
     }
@@ -242014,6 +242332,514 @@
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "2cf2c985c9310e3c66d29b39d502589c234abc366f0f94568f5a8082b64b3c8d"
+    },
+    {
+      "id": "cuhksz-sse-completion-wkshum",
+      "url": "https://sse.cuhk.edu.cn/faculty/wingkishum",
+      "title": "沈颖祺 · 学院个人页",
+      "checkedAt": "2026-11-11",
+      "scope": "研究信息与编码理论，运用代数、组合数学、概率和数论解决分布式存储与无线网络调度问题。",
+      "claims": [
+        "研究信息与编码理论，运用代数、组合数学、概率和数论解决分布式存储与无线网络调度问题。"
+      ],
+      "knownIssues": [
+        "原个人网站仅返回out；研究身份依据学院具名个人页。"
+      ],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://mypage.cuhk.edu.cn/academics/wkshum/"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "258ed0c5890e44b59132903d7d966618e9cb815be11d089656d99f8a6e817008"
+    },
+    {
+      "id": "cuhksz-sse-completion-caidifeng",
+      "url": "https://mypage.cuhk.edu.cn/academics/caidifeng/",
+      "title": "蔡地丰 · 原个人主页",
+      "checkedAt": "2026-11-11",
+      "scope": "已读身份或课题组首页；研究内容另据所给栏目。",
+      "claims": [
+        "已读身份或课题组首页；研究内容另据所给栏目。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://mypage.cuhk.edu.cn/academics/caidifeng/research.html"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "2672ffd923582316115b77fe9281372d038ab04fd7c94eadf2d6527103587d9f",
+      "capturedAt": "2026-11-07T08:12:39.982613+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-caidifeng-research",
+      "url": "https://mypage.cuhk.edu.cn/academics/caidifeng/research.html",
+      "title": "蔡地丰 · 研究栏目",
+      "checkedAt": "2026-11-11",
+      "scope": "研究科学计算中的快速算法、降维与不确定性量化，结合机器学习处理高维数据和分布学习问题。",
+      "claims": [
+        "研究科学计算中的快速算法、降维与不确定性量化，结合机器学习处理高维数据和分布学习问题。"
+      ],
+      "knownIssues": [
+        "主页招募说明未标招生年度，不确认2027/28余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "335e028bd01ea5f73a5554aceaf518cd0e1b829d5eb5d456d363973f3ab35983",
+      "parentSourceId": "cuhksz-sse-completion-caidifeng",
+      "originalUrl": "https://mypage.cuhk.edu.cn/academics/caidifeng/research.html",
+      "retrievedUrl": "https://mypage.cuhk.edu.cn/academics/caidifeng/research.html"
+    },
+    {
+      "id": "cuhksz-sse-completion-jingqiangye",
+      "url": "https://yegroup.cuhk.edu.cn",
+      "title": "叶靖强 · 原个人主页",
+      "checkedAt": "2026-11-11",
+      "scope": "已读身份或课题组首页；研究内容另据所给栏目。",
+      "claims": [
+        "已读身份或课题组首页；研究内容另据所给栏目。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://yegroup-cuhksz.org/people/",
+        "https://yegroup-cuhksz.org/research/"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "30a661f4bea0ff49ebd979e127f2a30c881af7679235c0ffe7bfc8a41832c71b",
+      "capturedAt": "2026-11-07T08:12:09.324176+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-jingqiangye-0",
+      "url": "https://yegroup.cuhk.edu.cn/people/",
+      "title": "叶靖强课题组 · 成员",
+      "checkedAt": "2026-11-11",
+      "scope": "成员页具名叶靖强为负责人；研究页介绍XENONnT暗物质和RELICS反应堆中微子实验。",
+      "claims": [
+        "成员页具名叶靖强为负责人；研究页介绍XENONnT暗物质和RELICS反应堆中微子实验。"
+      ],
+      "knownIssues": [
+        "RELICS位置与实验方案按该页描述，不推断当前建设进度或招生余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "755ffc0e805144b012452b435cd15d027f3510944619cf184463e7339a62b85e",
+      "parentSourceId": "cuhksz-sse-completion-jingqiangye",
+      "originalUrl": "https://yegroup-cuhksz.org/people/",
+      "retrievedUrl": "https://yegroup.cuhk.edu.cn/people/"
+    },
+    {
+      "id": "cuhksz-sse-completion-jingqiangye-1",
+      "url": "https://yegroup.cuhk.edu.cn/research/",
+      "title": "叶靖强课题组 · 研究",
+      "checkedAt": "2026-11-11",
+      "scope": "成员页具名叶靖强为负责人；研究页介绍XENONnT暗物质和RELICS反应堆中微子实验。",
+      "claims": [
+        "成员页具名叶靖强为负责人；研究页介绍XENONnT暗物质和RELICS反应堆中微子实验。"
+      ],
+      "knownIssues": [
+        "RELICS位置与实验方案按该页描述，不推断当前建设进度或招生余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "82e4603f7efa119b7763e0f2100a77fd42b9dbdd97dfff15d3104b7ebb107090",
+      "parentSourceId": "cuhksz-sse-completion-jingqiangye",
+      "originalUrl": "https://yegroup-cuhksz.org/research/",
+      "retrievedUrl": "https://yegroup.cuhk.edu.cn/research/"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-mzhang",
+      "url": "https://myweb.cuhk.edu.cn/mzhang",
+      "title": "张敏 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://mypage.cuhk.edu.cn/academics/mzhang/index.html"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "8e2919a7578a6bc58e2d3609ff35568a80bf1a05607f9b33561898c163bace0f",
+      "capturedAt": "2026-11-07T08:24:09.275931+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-site-cuhksz-sse-mzhang",
+      "url": "https://mypage.cuhk.edu.cn/academics/mzhang/index.html",
+      "title": "张敏 · 所给研究网站",
+      "checkedAt": "2026-11-11",
+      "scope": "纳米电子与柔性电子实验室首页；研究栏目另列柔性/可拉伸电子、神经突触器件、生物电子集成、可穿戴器件与先进显示。",
+      "claims": [
+        "纳米电子与柔性电子实验室首页；研究栏目另列柔性/可拉伸电子、神经突触器件、生物电子集成、可穿戴器件与先进显示。"
+      ],
+      "knownIssues": [
+        "不同网站职称与院内岗位分开保存；未标年度的招募文字不确认当期余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [
+        "https://mypage.cuhk.edu.cn/academics/mzhang/research.html"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a78e785f5fa36e43ba225ce0ccebdbb85d785b4f9e2e8bdb0156fb51de76e289",
+      "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-mzhang",
+      "originalUrl": "https://mypage.cuhk.edu.cn/academics/mzhang/index.html",
+      "retrievedUrl": "https://mypage.cuhk.edu.cn/academics/mzhang/index.html"
+    },
+    {
+      "id": "cuhksz-sse-completion-nel-research",
+      "url": "https://mypage.cuhk.edu.cn/academics/mzhang/research.html",
+      "title": "张敏课题组 · 研究方向",
+      "checkedAt": "2026-11-11",
+      "scope": "纳米电子与柔性电子实验室首页；研究栏目另列柔性/可拉伸电子、神经突触器件、生物电子集成、可穿戴器件与先进显示。",
+      "claims": [
+        "纳米电子与柔性电子实验室首页；研究栏目另列柔性/可拉伸电子、神经突触器件、生物电子集成、可穿戴器件与先进显示。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b8f8fd86047f66b4a4d3683757bfc4f6f224169cb97f32c9b62e9bdde7c0f54d",
+      "parentSourceId": "cuhksz-sse-completion-site-cuhksz-sse-mzhang",
+      "originalUrl": "https://mypage.cuhk.edu.cn/academics/mzhang/research.html",
+      "retrievedUrl": "https://mypage.cuhk.edu.cn/academics/mzhang/research.html"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-ycdong",
+      "url": "https://myweb.cuhk.edu.cn/ycdong",
+      "title": "Charlie Y. DONG · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://scholar.google.com.hk/citations?user=18GZ6EsAAAAJ&hl=en&oi=ao"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "418f62dd9da5d2cf363a02f7325b2247281a463946342367a100dd830df93f76",
+      "capturedAt": "2026-11-07T08:14:16.518682+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-danielwong",
+      "url": "https://myweb.cuhk.edu.cn/danielwong",
+      "title": "黄家裕 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://kdwong.github.io"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "64b8cd5f7a081e742e4e6c50a9ee72780a76a4895ad845e4cdf8da8503a57125",
+      "capturedAt": "2026-11-07T08:14:32.794605+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-site-cuhksz-sse-danielwong",
+      "url": "https://kdwong.github.io",
+      "title": "黄家裕 · 所给研究网站",
+      "checkedAt": "2026-11-11",
+      "scope": "本人页列港中深副教授；研究约化李群的表示论。",
+      "claims": [
+        "本人页列港中深副教授；研究约化李群的表示论。"
+      ],
+      "knownIssues": [
+        "不同网站职称与院内岗位分开保存；未标年度的招募文字不确认当期余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a78e785f5fa36e43ba225ce0ccebdbb85d785b4f9e2e8bdb0156fb51de76e289",
+      "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-danielwong",
+      "originalUrl": "https://kdwong.github.io",
+      "retrievedUrl": "https://kdwong.github.io"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-lwang",
+      "url": "https://myweb.cuhk.edu.cn/lwang",
+      "title": "王璐 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://scholar.google.ca/citations?user=_bXVsa4AAAAJ&hl=en"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "43ad8eb41e883baca32e4b473c08b20c3127ba9455e99393a790ab7be4053ac4",
+      "capturedAt": "2026-11-07T08:14:55.361043+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-zhanggongqiu",
+      "url": "https://myweb.cuhk.edu.cn/zhanggongqiu",
+      "title": "张功球 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=kpno4dIAAAAJ&hl=en"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "c634f7b8b85798571ccd600347c1453e4785caa1e5c3d50dfef9549be477ec7f",
+      "capturedAt": "2026-11-07T08:15:09.168114+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-wide-cuhksz-xiaomeng-chen",
+      "url": "https://myweb.cuhk.edu.cn/chenxiaomeng",
+      "title": "陈筱萌 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://xiaomengchen-home.github.io/"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "54c67f22c4d379969ef0a98390343855210d7156521155bae6cd802131261ee9",
+      "capturedAt": "2026-11-07T08:15:54.383517+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-site-wide-cuhksz-xiaomeng-chen",
+      "url": "https://xiaomengchen-home.github.io/",
+      "title": "陈筱萌 · 所给研究网站",
+      "checkedAt": "2026-11-11",
+      "scope": "本人页列港中深理工学院助理教授，研究去中心化多智能体系统中的分布式优化、非合作博弈、隐私与鲁棒性。",
+      "claims": [
+        "本人页列港中深理工学院助理教授，研究去中心化多智能体系统中的分布式优化、非合作博弈、隐私与鲁棒性。"
+      ],
+      "knownIssues": [
+        "不同网站职称与院内岗位分开保存；未标年度的招募文字不确认当期余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a78e785f5fa36e43ba225ce0ccebdbb85d785b4f9e2e8bdb0156fb51de76e289",
+      "parentSourceId": "cuhksz-sse-completion-field-wide-cuhksz-xiaomeng-chen",
+      "originalUrl": "https://xiaomengchen-home.github.io/",
+      "retrievedUrl": "https://xiaomengchen-home.github.io/"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-liyingtian",
+      "url": "https://myweb.cuhk.edu.cn/liyingtian",
+      "title": "李英田 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=1nJ5_boAAAAJ&hl=en"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "7ae5dd67c03945930cd201c3b8728cb86bde79941da79a03fadfcf39ffeae816",
+      "capturedAt": "2026-11-07T08:17:00.224437+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sai-174",
+      "url": "https://myweb.cuhk.edu.cn/sunzhenglong/",
+      "title": "孙正隆 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://sites.google.com/site/sunkurt/"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "a3ff59c3d37931e8b9258d0ed4d7a7aacdbc8a57441819f91d73183e5314d304",
+      "capturedAt": "2026-11-07T08:17:41.241189+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-site-cuhksz-sai-174",
+      "url": "https://sites.google.com/site/sunkurt/",
+      "title": "孙正隆 · 所给研究网站",
+      "checkedAt": "2026-11-11",
+      "scope": "课题组首页具名孙正隆与港中深理工学院，列2026年学生和医疗机器人论文动态。只核首页，不从学生名单推断新一轮余位。",
+      "claims": [
+        "课题组首页具名孙正隆与港中深理工学院，列2026年学生和医疗机器人论文动态。只核首页，不从学生名单推断新一轮余位。"
+      ],
+      "knownIssues": [
+        "不同网站职称与院内岗位分开保存；未标年度的招募文字不确认当期余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a78e785f5fa36e43ba225ce0ccebdbb85d785b4f9e2e8bdb0156fb51de76e289",
+      "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sai-174",
+      "originalUrl": "https://sites.google.com/site/sunkurt/",
+      "retrievedUrl": "https://sites.google.com/site/sunkurt/"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-wangxing",
+      "url": "https://myweb.cuhk.edu.cn/wangxing",
+      "title": "王星 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://inspirehep.net/authors/1701348?ui-citation-summary=true"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "ed8a33ba1ffd2e0dfe4907d930c87351a85ec97fcae8928393ae9757c7f05efb",
+      "capturedAt": "2026-11-07T08:17:50.796281+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-wuchenye",
+      "url": "https://myweb.cuhk.edu.cn/wuchenye",
+      "title": "吴辰晔 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "http://www.wuchenye.cn"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "2626832a8319eecbfd9c53426c7ac75d5411ebc9cc4dc3f19fa791b63dc15a18",
+      "capturedAt": "2026-11-07T08:17:54.462628+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-site-cuhksz-sse-wuchenye",
+      "url": "https://www.wuchenye.cn/",
+      "title": "吴辰晔 · 所给研究网站",
+      "checkedAt": "2026-11-11",
+      "scope": "本人页列港中深助理教授，研究电网运行、智能电表隐私、鲁棒调度、电力市场与强化学习。",
+      "claims": [
+        "本人页列港中深助理教授，研究电网运行、智能电表隐私、鲁棒调度、电力市场与强化学习。"
+      ],
+      "knownIssues": [
+        "不同网站职称与院内岗位分开保存；未标年度的招募文字不确认当期余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a78e785f5fa36e43ba225ce0ccebdbb85d785b4f9e2e8bdb0156fb51de76e289",
+      "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sse-wuchenye",
+      "originalUrl": "http://www.wuchenye.cn",
+      "retrievedUrl": "https://www.wuchenye.cn/"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sai-176",
+      "url": "https://myweb.cuhk.edu.cn/zhoukai",
+      "title": "周凯 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://fias.institute/en/research/theoretical-sciences/research-groups/kai-zhou/"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "19037fd334b86167e5ace4e143868a146dbf46e560ee290a8d7c5c00294b825f",
+      "capturedAt": "2026-11-07T08:18:49.128103+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-site-cuhksz-sai-176",
+      "url": "https://fias.institute/en/research/theoretical-sciences/research-groups/kai-zhou/",
+      "title": "周凯 · 所给研究网站",
+      "checkedAt": "2026-11-11",
+      "scope": "FIAS Deepthinkers课题组介绍人工智能与科学交叉，列深度学习在重离子碰撞、格点量子场论、地震学与可再生能源中的应用。FIAS团队与港中深岗位分别记录。",
+      "claims": [
+        "FIAS Deepthinkers课题组介绍人工智能与科学交叉，列深度学习在重离子碰撞、格点量子场论、地震学与可再生能源中的应用。FIAS团队与港中深岗位分别记录。"
+      ],
+      "knownIssues": [
+        "不同网站职称与院内岗位分开保存；未标年度的招募文字不确认当期余位。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "a78e785f5fa36e43ba225ce0ccebdbb85d785b4f9e2e8bdb0156fb51de76e289",
+      "parentSourceId": "cuhksz-sse-completion-field-cuhksz-sai-176",
+      "originalUrl": "https://fias.institute/en/research/theoretical-sciences/research-groups/kai-zhou/",
+      "retrievedUrl": "https://fias.institute/en/research/theoretical-sciences/research-groups/kai-zhou/"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-zhuhe",
+      "url": "https://myweb.cuhk.edu.cn/zhuhe",
+      "title": "朱贺 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://polysz.cuhk.edu.cn/en"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "1ca9ec5ddc0f3f59bc7b2d5ad62c90aa67c3d778d7c8ba5beafd8ce3381f5943",
+      "capturedAt": "2026-11-07T08:18:54.692807+00:00"
+    },
+    {
+      "id": "cuhksz-sse-completion-field-cuhksz-sse-fuzhanghua",
+      "url": "https://myweb.cuhk.edu.cn/fuzhanghua",
+      "title": "付樟华 · Personal Website字段",
+      "checkedAt": "2026-11-11",
+      "scope": "复核已保存个人页中的Personal Website字段，保留原始href。",
+      "claims": [
+        "复核已保存个人页中的Personal Website字段，保留原始href。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?hl=en&user=65jnWj0AAAAJ&view_op=list_works&sortby=pubdate"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "a07ef20dc4094cd63a7f28743d378dbceb45018ee7e9312a8fd7f2170951b5d1",
+      "capturedAt": "2026-11-07T08:19:02.844102+00:00"
     }
   ],
   "funding": [
@@ -305713,7 +306539,10 @@
                   "directoryLabel": "副教授",
                   "profileBodyStatus": "not_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-wkshum",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readNote": "已关联具名研究档案；原主页和实际研究来源分别保存。"
                 },
                 {
                   "name": "王东",
@@ -305864,9 +306693,13 @@
                   "url": "https://mypage.cuhk.edu.cn/academics/caidifeng/",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=5",
                   "directoryLabel": "助理教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-caidifeng",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readNote": "已关联具名研究档案；原主页和实际研究来源分别保存。",
+                  "bodySha256": "2672ffd923582316115b77fe9281372d038ab04fd7c94eadf2d6527103587d9f"
                 },
                 {
                   "name": "曹中原",
@@ -306509,9 +307342,13 @@
                   "url": "https://yegroup.cuhk.edu.cn",
                   "observedOn": "https://sse.cuhk.edu.cn/teacher-search?page=10",
                   "directoryLabel": "助理教授",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "facultyId": "cuhksz-sse-jingqiangye",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "readNote": "已关联具名研究档案；原主页和实际研究来源分别保存。",
+                  "bodySha256": "30a661f4bea0ff49ebd979e127f2a30c881af7679235c0ffe7bfc8a41832c71b"
                 },
                 {
                   "name": "游宇宁",
@@ -313813,5 +314650,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:2a22358fa62d3dde4ea7991ed458e261ceae2c31dab425d82cac48e8074b3d54"
+  "snapshotId": "sha256:90d9ec05f7dd8e40a41a59354c9793d2e9f237f3831b6f465c7836f6d7f2daa8"
 }
