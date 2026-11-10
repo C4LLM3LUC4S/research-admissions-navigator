@@ -111565,7 +111565,8 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "cuhk-physics-20261111-teaching-staff-chan-tsang-keung",
-        "cuhk-physics-20261111-teaching-staff"
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-chan-tsang-keung"
       ],
       "directorySourceIds": [
         "cuhk-physics-20261111-teaching-staff"
@@ -111573,7 +111574,15 @@ window.APP_CATALOG = {
       "keywordSourceIds": [
         "cuhk-physics-20261111-teaching-staff-chan-tsang-keung"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "label": "Personal Website",
+          "url": "https://tsangkeungchan.com",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-chan-tsang-keung",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-chan-tsang-keung"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -111947,7 +111956,8 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "cuhk-physics-20261111-teaching-staff-hu-chen",
-        "cuhk-physics-20261111-teaching-staff"
+        "cuhk-physics-20261111-teaching-staff",
+        "cuhk-physics-20261111-linked-hu-chen"
       ],
       "directorySourceIds": [
         "cuhk-physics-20261111-teaching-staff"
@@ -111955,7 +111965,15 @@ window.APP_CATALOG = {
       "keywordSourceIds": [
         "cuhk-physics-20261111-teaching-staff-hu-chen"
       ],
-      "extraLinks": [],
+      "extraLinks": [
+        {
+          "label": "Group website",
+          "url": "https://www.chen-hu.com/",
+          "parentSourceId": "cuhk-physics-20261111-teaching-staff-hu-chen",
+          "bodyStatus": "body_read",
+          "sourceId": "cuhk-physics-20261111-linked-hu-chen"
+        }
+      ],
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -230061,7 +230079,9 @@ window.APP_CATALOG = {
       "evidenceLevel": "official_scoped_body_read",
       "readMethod": "anonymous_HTTP",
       "bodySha256": "d7574872b156dec2708bf8c2b98a240bb2facf955af17354a65db45443838555",
-      "discoveredLinks": []
+      "discoveredLinks": [
+        "https://tsangkeungchan.com"
+      ]
     },
     {
       "id": "cuhk-physics-20261111-teaching-staff-chen-yuguang",
@@ -230211,7 +230231,9 @@ window.APP_CATALOG = {
       "evidenceLevel": "official_scoped_body_read",
       "readMethod": "anonymous_HTTP",
       "bodySha256": "81daaddc0116b69c3270b934f25e8897913969eeff21154db21b826527a5977d",
-      "discoveredLinks": []
+      "discoveredLinks": [
+        "https://www.chen-hu.com/"
+      ]
     },
     {
       "id": "cuhk-physics-20261111-teaching-staff-hui-pak-ming",
@@ -230947,6 +230969,36 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "11bacc0606cf3b15efdd238a1e83a81bd326a531020932d3d3d61352aa764e51",
       "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-chan-tsang-keung",
+      "url": "https://tsangkeungchan.com",
+      "title": "Personal Website",
+      "claims": [
+        "个人站说明港中文任职及宇宙、恒星、星系、暗物质数值模拟。"
+      ],
+      "scope": "个人站说明港中文任职及宇宙、恒星、星系、暗物质数值模拟。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "98a38bcba3944829d36a76e5ea0e8170c4f989d9d0531ec2984e5488d0d67e33",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-chan-tsang-keung"
+    },
+    {
+      "id": "cuhk-physics-20261111-linked-hu-chen",
+      "url": "https://www.chen-hu.com/",
+      "title": "Group website",
+      "claims": [
+        "课题组研究计算材料科学、理论凝聚态与量子材料的第一性原理方法。"
+      ],
+      "scope": "课题组研究计算材料科学、理论凝聚态与量子材料的第一性原理方法。",
+      "checkedAt": "2026-11-11",
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0ae329ae628d62082ce2fe300348ca82e0ffe9239b59698f3a7c0625b41d8ef4",
+      "parentSourceId": "cuhk-physics-20261111-teaching-staff-hu-chen"
     }
   ],
   "funding": [
@@ -301505,5 +301557,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:d9ff3323f173402ad7295307d5d04786cd1a2b48d938f62fdebc8522cd6943f4"
+  "snapshotId": "sha256:6fe3ddcc55362c05df834933428c99823ea7151ff5518f3d6632de857cbccda0"
 };
