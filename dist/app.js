@@ -117,10 +117,23 @@
     if(related.length){
       const more=node('details',null,'source-details');
       more.append(node('summary','个人网站与课题组'));
-      related.forEach(item=>{
-        more.append(item.linkIssue?node('span',item.label+'（原链接有误，待核）'):verifiedLink(item.label+' ↗',item.url));
-        if(item.readNote)more.append(node('p',item.readNote,'field-help'));
-      });
+      const sections=L.facultyLinkSections(related);
+      const appendLinks=(parent,items)=>{
+        const list=node('ul',null,'faculty-link-list');
+        items.forEach(item=>{
+          const row=node('li');
+          row.append(item.linkIssue?node('span',item.label+'（原链接有误，待核）'):verifiedLink(item.label+' ↗',item.url));
+          if(item.readNote)row.append(node('p',item.readNote,'field-help'));
+          list.append(row);
+        });
+        parent.append(list);
+      };
+      appendLinks(more,sections.primary);
+      if(sections.more.length){
+        const references=node('details',null,'source-details faculty-more-links');
+        references.append(node('summary','更多原页链接（'+sections.more.length+'）'));
+        appendLinks(references,sections.more);more.append(references);
+      }
       card.append(more);
     }
     if((f.applicationNotes||[]).length){

@@ -6,6 +6,30 @@ const C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'
 const html=fs.readFileSync(path.join(__dirname,'../dist/index.html'),'utf8');
 const script=fs.readFileSync(path.join(__dirname,'../dist/app.js'),'utf8');
 
+test('an applicant can distinguish a lab homepage from a long supplied reference list without losing any link or saved teacher',async()=>{
+ const person=C.faculty.find(f=>f.id==='polyu-beee-20261110-ir-professor-yuen-anthony-chun-yin');
+ const supplied=L.facultyLinks(C,person),h=harness(),el=id=>h.byId.get(id);
+ assert.ok(supplied.length>60);
+ h.select('polyu','PhD',[]);el('research-query').value='电池热管理';
+ await el('profile-form').emit('input',{target:el('research-query')});await el('show-faculty').emit('click');
+ const card=el('results').children.find(item=>h.walk(item).some(n=>n.tagName==='h3'&&n.textContent===person.name));assert.ok(card);
+ const websites=h.walk(card).find(n=>n.tagName==='details'&&n.children[0]?.textContent==='个人网站与课题组');assert.ok(websites);
+ const first=websites.children.find(n=>n.className==='faculty-link-list');assert.ok(first.children.length<=6);
+ assert.ok(h.walk(first).some(n=>n.tagName==='a'&&n.href==='https://www.acyyuen.com/'));
+ const rest=websites.children.find(n=>n.className==='source-details faculty-more-links');assert.ok(rest&&!rest.open);
+ const links=h.walk(websites).filter(n=>n.tagName==='a');assert.equal(links.length,supplied.length);
+ assert.deepEqual(new Set(links.map(n=>n.href)),new Set(supplied.map(l=>l.url)));
+ assert.ok(!links.some(n=>n.textContent==='个人页所给链接 ↗'));
+ assert.match(rest.textContent,/sciencedirect\.com/);
+ await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='放入我的清单 ＋').emit('click');
+ await el('export-local').emit('click');const raw=await h.downloads.at(-1).blob.text(),fresh=harness();
+ const input=fresh.byId.get('import-local');input.files=[{size:Buffer.byteLength(raw),text:async()=>raw}];await input.emit('change');
+ await fresh.byId.get('show-faculty').emit('click');
+ assert.match(fresh.byId.get('results').textContent,/Ir Professor Yuen Anthony Chun Yin/);
+ await fresh.byId.get('export-local').emit('click');assert.ok(JSON.parse(await fresh.downloads.at(-1).blob.text()).shortlist.includes(person.id));
+ assert.equal(h.networkCalls()+fresh.networkCalls(),0);
+});
+
 test('DSA research search opens the supplied human profile and preserves stable saved identities', async () => {
   const h = harness();
   const el = id => h.byId.get(id);

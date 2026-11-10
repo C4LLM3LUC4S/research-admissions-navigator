@@ -441,6 +441,31 @@
       return parent&&officialUrl(parent.url)&&(parent.discoveredLinks||[]).includes(url);
     })?safe:null;
   }
+  function facultyLinkSections(items) {
+    const generic=new Set(['个人页所给链接','个人主页或课题组','个人或实验室网站','查看本人主页所给网站']);
+    const archives=/^(scholar\.google\.|researchgate\.net$|scopus\.com$|orcid\.org$|publons\.com$|webofscience\.|research\.polyu\.edu\.hk$)/;
+    const publications=/(^|\.)(doi\.org|arxiv\.org|sciencedirect\.com|nature\.com|springer\.com|wiley\.com|mdpi\.com|frontiersin\.org|elsevier\.com|digitalcommonsdata\.com)$/;
+    const decorated=items.map((item,index)=>{
+      const url=new URL(item.url),host=url.hostname.replace(/^www\./,''),last=url.pathname.split('/').filter(Boolean).at(-1)||'';
+      let label=item.label;
+      if(!label||generic.has(label)){
+        if(host.startsWith('scholar.google.'))label='Google Scholar';
+        else if(host==='research.polyu.edu.hk')label='港理工研究档案';
+        else if(host==='scopus.com')label='Scopus';
+        else if(host==='researchgate.net')label='ResearchGate';
+        else if(host==='orcid.org')label='ORCID';
+        else {
+          let tail;try{tail=decodeURIComponent(last);}catch(_){tail=last;}
+          label=host+((last&&!/^index\.(html?|php)$/i.test(last))?' · '+(tail.length>48?tail.slice(0,45)+'…':tail):'');
+        }
+      }
+      return {...item,label,index,archive:archives.test(host)||publications.test(host)};
+    });
+    // Keep every supplied URL; prioritize readable homepages before long reference lists.
+    const ordered=[...decorated.filter(x=>!x.archive&&x.bodyStatus==='body_read'),...decorated.filter(x=>!x.archive&&x.bodyStatus!=='body_read'),...decorated.filter(x=>x.archive)];
+    const primary=ordered.slice(0,6),chosen=new Set(primary.map(x=>x.index));
+    return {primary,more:decorated.filter(x=>!chosen.has(x.index))};
+  }
   function directoryResearchSource(catalog,faculty) {
     if(faculty.recordKind!=='directory_research'||faculty.profileUrl!==null)return null;
     const id=faculty.directoryEvidenceSourceId;
@@ -641,5 +666,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {academicChineseName,academicLabel,INTERESTS,officialUrl,sourceUrl,facultyLinks,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,applicationDegrees,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
+  return {academicChineseName,academicLabel,INTERESTS,officialUrl,sourceUrl,facultyLinks,facultyLinkSections,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,applicationDegrees,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
 }));
