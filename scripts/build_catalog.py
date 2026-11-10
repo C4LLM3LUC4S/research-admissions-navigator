@@ -1254,6 +1254,25 @@ def build_catalog():
     catalog["directories"].append(life_categories["directory"])
     science = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == life_categories["parentUnitId"])
     science["staffEntries"].extend(life_categories["staffEntries"])
+    life_programme = load("hkust-life-science-programme-20261111.json")
+    catalog["sources"].extend(life_programme["sources"])
+    life_refs = [life_programme["sources"][0]["id"]]
+    materials_refs = [life_programme["sources"][1]["id"]]
+    life = program(life_programme["programId"], "hkust", "生命科学 MPhil/PhD", ["MPhil", "PhD"],
+        "香港校区，2027/28秋季。可了解神经科学、癌症、细胞与发育生物学、结构生物学等方向。", "unknown",
+        "先查看项目要求与相关教师研究方向。", life_refs,
+        "MPhil须具认可学士或同等资格；PhD可凭表现优异学士，或满足规定的研究生学习经历申请。", life_refs,
+        [deadline("秋季非本地申请截止", "2027-06-01", life_refs), deadline("秋季本地申请截止", "2027-07-15", life_refs)],
+        life_refs, "分子医学、科学计算是培养方向；联合博士路线另看对应项目。")
+    life.update(entryUrl=life_programme["entryUrl"], requirements=[
+        {"label":"MPhil学历条件", "degrees":["MPhil"], "text":"须具认可院校学士学位或获准的同等资格。", "action":"对照自己的学历准备成绩单与学位证明。", "sourceIds":life_refs},
+        {"label":"PhD学历条件", "degrees":["PhD"], "text":"须具表现优异的认可学士，或已完成至少一年全日制或两年兼读研究生学习并表现合格。", "action":"按实际学历路径核对博士申请条件。", "sourceIds":life_refs},
+        {"label":"语言成绩", "text":"IELTS学术类总分6.5、各项5.5。TOEFL iBT在2026年1月21日前考试须80分，此日起须4.5分。须单次成绩，不接受居家考试；英语母语或英语授课学士的豁免另看原页。", "action":"按考试日期与类型核对成绩要求。", "sourceIds":life_refs},
+        {"label":"申请材料", "text":"准备身份文件、成绩单与学位证明、院校评分制度、语言证明，以及两封学术推荐信。学部未标年说明另列平均成绩3或同等资格。", "action":"在当期申请系统核对材料格式并安排推荐人。", "sourceIds":materials_refs},
+        {"label":"兼读与身份", "text":"持学生签证或入境许可的非本地学生不能在香港修读兼读研究学位。", "action":"按签证身份选择修读模式。", "sourceIds":life_refs}],
+        finances=[{"id":"hkust-life-science-application-fee", "kind":"application_fee", "label":"申请费", "text":"研究学位申请费180港元。", "action":"在正式申请系统查看付款安排。", "sourceIds":life_refs, "rates":[]}])
+    life["sourceIds"] = life_refs + materials_refs
+    catalog["programs"].append(life)
     return catalog
 
 
