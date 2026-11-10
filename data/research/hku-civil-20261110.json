@@ -1297,6 +1297,129 @@
       "evidenceLevel": "official_scoped_body_read",
       "readMethod": "anonymous_HTTP",
       "bodySha256": "f424a68b624d8f60a048e0071c100f387dad1727163b7822531daf34692aae1d"
+    },
+    {
+      "id": "hku-civil-20261110-group-08",
+      "url": "https://www.civil.hku.hk/maychui/",
+      "title": "Professor T.F. May CHUI · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "May Chui 的个人站列港大任职、生态水文和可持续排水研究。",
+      "claims": [
+        "May Chui 的个人站列港大任职、生态水文和可持续排水研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a4a8ca30f77bbd5f2e1fec0a9e21691c774b3913b92e72014f8ce8875f0d0ca9",
+      "parentSourceId": "hku-civil-20261110-profile-07",
+      "originalUrl": "https://www.civil.hku.hk/maychui/",
+      "retrievedUrl": "https://www.civil.hku.hk/maychui/"
+    },
+    {
+      "id": "hku-civil-20261110-group-03",
+      "url": "https://sites.google.com/view/haoranduan/",
+      "title": "Professor H.R. DUAN · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "Haoran Duan 的个人站介绍港大任职及污水处理生物技术研究。",
+      "claims": [
+        "Haoran Duan 的个人站介绍港大任职及污水处理生物技术研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1fc7b53689335046231d04f7a413fcd2f43a0e4ddd8f48ea17bc69c1faef478d",
+      "parentSourceId": "hku-civil-20261110-profile-09",
+      "originalUrl": "https://sites.google.com/view/haoranduan/",
+      "retrievedUrl": "https://sites.google.com/view/haoranduan/"
+    },
+    {
+      "id": "hku-civil-20261110-group-05",
+      "url": "https://sites.google.com/view/kejintao",
+      "title": "Professor J.T. KE · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "Jintao Ke 的个人站列港大任职，并提示此站已停止维护。",
+      "claims": [
+        "Jintao Ke 的个人站列港大任职，并提示此站已停止维护。"
+      ],
+      "knownIssues": [
+        "页面明确提示停止维护，最新研究与任职应查看其提供的新站及学系官网。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9505a0404eaa3a341a92d590f63a019c0bb5323f058cc522c5838cc1f6c3b7f7",
+      "parentSourceId": "hku-civil-20261110-profile-11",
+      "originalUrl": "https://sites.google.com/view/kejintao",
+      "retrievedUrl": "https://sites.google.com/view/kejintao"
+    },
+    {
+      "id": "hku-civil-20261110-group-04",
+      "url": "https://sites.google.com/view/jiaji",
+      "title": "Professor J.J. Wang · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "Jiaji Wang 的个人站介绍结构工程与机器学习研究，并有 2027 年博士招募文字。",
+      "claims": [
+        "Jiaji Wang 的个人站介绍结构工程与机器学习研究，并有 2027 年博士招募文字。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a23536cc6723e116a8c87ec9b6dddbf1d9bf8d791291ff94849d3f7f63bdf9d9",
+      "parentSourceId": "hku-civil-20261110-profile-20",
+      "originalUrl": "https://sites.google.com/view/jiaji",
+      "retrievedUrl": "https://sites.google.com/view/jiaji"
+    },
+    {
+      "id": "hku-civil-20261110-group-13",
+      "url": "https://yougeyxt.github.io/",
+      "title": "Professor X.T. YAN · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "Xintao Yan 的个人站介绍自动驾驶研究，任职文字仍列密歇根大学博士后。",
+      "claims": [
+        "Xintao Yan 的个人站介绍自动驾驶研究，任职文字仍列密歇根大学博士后。"
+      ],
+      "knownIssues": [
+        "该个人站仍列密歇根大学博士后，港大学系名录及个人页列助理教授，任职依据分开保留。"
+      ],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c8f3cfc8b28bbfe260f35af6e3301342bcb155b4ebf6c3ef5b0f3633103e44e9",
+      "parentSourceId": "hku-civil-20261110-profile-24",
+      "originalUrl": "https://yougeyxt.github.io/",
+      "retrievedUrl": "https://yougeyxt.github.io/"
+    },
+    {
+      "id": "hku-civil-20261110-group-02",
+      "url": "https://jamescheng21.github.io/",
+      "title": "Professor S. Zhan · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "Sicheng Zhan 的个人站列港大土木工程任职，以及城市能源系统和数字孪生研究。",
+      "claims": [
+        "Sicheng Zhan 的个人站列港大土木工程任职，以及城市能源系统和数字孪生研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4a0a376f04f97ceb0136b6f342ba2c57559246cd2bbefe2c63cf4ae6120f1b45",
+      "parentSourceId": "hku-civil-20261110-profile-28",
+      "originalUrl": "https://jamescheng21.github.io/",
+      "retrievedUrl": "https://jamescheng21.github.io/"
+    },
+    {
+      "id": "hku-civil-20261110-group-12",
+      "url": "https://yangzhao16.github.io/",
+      "title": "Professor Y. Zhao · 所给研究链接",
+      "checkedAt": "2026-11-10",
+      "scope": "Yang Zhao 的个人站介绍计算岩土力学、多物理场及港大土木工程任职。",
+      "claims": [
+        "Yang Zhao 的个人站介绍计算岩土力学、多物理场及港大土木工程任职。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "34df51b5c5a30cd4169c0023bb138d003f502cdc3441a0d9d6811266d2ad6b13",
+      "parentSourceId": "hku-civil-20261110-profile-30",
+      "originalUrl": "https://yangzhao16.github.io/",
+      "retrievedUrl": "https://yangzhao16.github.io/"
     }
   ],
   "faculty": [
@@ -1467,7 +1590,8 @@
           "label": "个人页提供的链接",
           "url": "https://www.chan-takming.com/",
           "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 406。"
         }
       ],
       "sourceIds": [
@@ -1736,7 +1860,8 @@
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/maychui/",
           "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-08"
         },
         {
           "label": "个人页提供的链接",
@@ -1747,7 +1872,8 @@
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-07",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-08"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -1877,12 +2003,14 @@
           "label": "个人页提供的链接",
           "url": "https://sites.google.com/view/haoranduan/",
           "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-03"
         }
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-09",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-03"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -2007,12 +2135,14 @@
           "label": "个人页提供的链接",
           "url": "https://sites.google.com/view/kejintao",
           "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-05"
         }
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-11",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-05"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -2075,7 +2205,8 @@
           "label": "个人页提供的链接",
           "url": "https://cicubelab.civil.hku.hk/",
           "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
         }
       ],
       "sourceIds": [
@@ -2290,7 +2421,8 @@
           "label": "个人页提供的链接",
           "url": "https://www.kshih.civil.hku.hk/",
           "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 429。"
         },
         {
           "label": "个人页提供的链接",
@@ -2512,7 +2644,8 @@
           "label": "个人页提供的链接",
           "url": "https://sites.google.com/view/jiaji",
           "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-04"
         },
         {
           "label": "个人页提供的链接",
@@ -2523,7 +2656,8 @@
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-20",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-04"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -2777,12 +2911,14 @@
           "label": "个人页提供的链接",
           "url": "https://yougeyxt.github.io/",
           "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-13"
         }
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-24",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-13"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -2845,7 +2981,8 @@
           "label": "个人页提供的链接",
           "url": "https://www.junyang.hku.hk/",
           "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 429。"
         }
       ],
       "sourceIds": [
@@ -3037,12 +3174,14 @@
           "label": "个人页提供的链接",
           "url": "https://jamescheng21.github.io/",
           "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-02"
         }
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-28",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-02"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -3105,7 +3244,8 @@
           "label": "个人页提供的链接",
           "url": "https://smile.hku.hk/",
           "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "只取得标题外壳，未读到可核的研究介绍。"
         },
         {
           "label": "个人页提供的链接",
@@ -3178,12 +3318,14 @@
           "label": "个人页提供的链接",
           "url": "https://yangzhao16.github.io/",
           "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hku-civil-20261110-group-12"
         }
       ],
       "sourceIds": [
         "hku-civil-20261110-profile-30",
-        "hku-civil-20261110-h2_acstaff"
+        "hku-civil-20261110-h2_acstaff",
+        "hku-civil-20261110-group-12"
       ],
       "directorySourceIds": [
         "hku-civil-20261110-h2_acstaff"
@@ -4119,7 +4261,8 @@
           "label": "个人页提供的链接",
           "url": "https://www.membest.hku.hk",
           "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 429。"
         },
         {
           "label": "个人页提供的链接",

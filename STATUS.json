@@ -16,8 +16,8 @@
     "programmes_with_partial_finances": 39,
     "finance_items": 65,
     "official_directory_entries": 120,
-    "teacher_linked_sources": 763,
-    "total_sources": 3921,
+    "teacher_linked_sources": 770,
+    "total_sources": 3928,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -474,7 +474,7 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:d008daa1e84e1cfba0d284ed59412df75f0ac21bdcbb1bf4066904f4bd71332f",
+  "current_catalogue_snapshot": "sha256:1059b1b5e1db9f37031399a8a2878b639ebe2ee3f172043e3052bb1732c0e84d",
   "latest_data_batch": "data/research/hku-civil-20261110.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
