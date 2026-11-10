@@ -108036,24 +108036,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-01",
           "bodyStatus": "not_read"
@@ -108073,36 +108055,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-01",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-01",
           "bodyStatus": "not_read"
         }
@@ -108145,24 +108097,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-02",
           "bodyStatus": "not_read"
@@ -108182,36 +108116,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-02",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-02",
           "bodyStatus": "not_read"
         }
@@ -108254,24 +108158,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-03",
           "bodyStatus": "not_read"
@@ -108291,36 +108177,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-03",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-03",
           "bodyStatus": "not_read"
         },
@@ -108370,24 +108226,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-04",
           "bodyStatus": "not_read"
@@ -108407,36 +108245,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-04",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-04",
           "bodyStatus": "not_read"
         },
@@ -108492,24 +108300,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-05",
           "bodyStatus": "not_read"
@@ -108529,36 +108319,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-05",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-05",
           "bodyStatus": "not_read"
         },
@@ -108606,24 +108366,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-06",
           "bodyStatus": "not_read"
@@ -108643,36 +108385,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-06",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-06",
           "bodyStatus": "not_read"
         }
@@ -108715,24 +108427,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-07",
           "bodyStatus": "not_read"
@@ -108752,36 +108446,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-07",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-07",
           "bodyStatus": "not_read"
         },
@@ -108837,24 +108501,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-08",
           "bodyStatus": "not_read"
@@ -108874,36 +108520,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-08",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-08",
           "bodyStatus": "not_read"
         },
@@ -108952,24 +108568,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-09",
           "bodyStatus": "not_read"
@@ -108989,36 +108587,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-09",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-09",
           "bodyStatus": "not_read"
         },
@@ -109068,24 +108636,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-10",
           "bodyStatus": "not_read"
@@ -109105,36 +108655,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-10",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-10",
           "bodyStatus": "not_read"
         }
@@ -109178,24 +108698,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-11",
           "bodyStatus": "not_read"
@@ -109215,36 +108717,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-11",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-11",
           "bodyStatus": "not_read"
         },
@@ -109294,24 +108766,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-14",
           "bodyStatus": "not_read"
@@ -109331,36 +108785,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-14",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-14",
           "bodyStatus": "not_read"
         },
@@ -109409,24 +108833,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-15",
           "bodyStatus": "not_read"
@@ -109446,36 +108852,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-15",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-15",
           "bodyStatus": "not_read"
         },
@@ -109531,24 +108907,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-16",
           "bodyStatus": "not_read"
@@ -109568,36 +108926,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-16",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-16",
           "bodyStatus": "not_read"
         },
@@ -109653,24 +108981,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-17",
           "bodyStatus": "not_read"
@@ -109690,36 +109000,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-17",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-17",
           "bodyStatus": "not_read"
         },
@@ -109775,24 +109055,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-18",
           "bodyStatus": "not_read"
@@ -109812,36 +109074,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-18",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-18",
           "bodyStatus": "not_read"
         },
@@ -109897,24 +109129,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-19",
           "bodyStatus": "not_read"
@@ -109934,36 +109148,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-19",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-19",
           "bodyStatus": "not_read"
         },
@@ -110019,24 +109203,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-20",
           "bodyStatus": "not_read"
@@ -110056,36 +109222,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-20",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-20",
           "bodyStatus": "not_read"
         },
@@ -110140,24 +109276,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-21",
           "bodyStatus": "not_read"
@@ -110177,36 +109295,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-21",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-21",
           "bodyStatus": "not_read"
         }
@@ -110250,24 +109338,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-22",
           "bodyStatus": "not_read"
@@ -110287,36 +109357,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-22",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-22",
           "bodyStatus": "not_read"
         }
@@ -110360,24 +109400,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-23",
           "bodyStatus": "not_read"
@@ -110397,36 +109419,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-23",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-23",
           "bodyStatus": "not_read"
         },
@@ -110476,24 +109468,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-24",
           "bodyStatus": "not_read"
@@ -110513,36 +109487,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-24",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-24",
           "bodyStatus": "not_read"
         },
@@ -110592,24 +109536,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-25",
           "bodyStatus": "not_read"
@@ -110629,36 +109555,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-25",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-25",
           "bodyStatus": "not_read"
         },
@@ -110708,24 +109604,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-26",
           "bodyStatus": "not_read"
@@ -110745,36 +109623,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-26",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-26",
           "bodyStatus": "not_read"
         }
@@ -110818,24 +109666,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-27",
           "bodyStatus": "not_read"
@@ -110855,36 +109685,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-27",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-27",
           "bodyStatus": "not_read"
         }
@@ -110928,24 +109728,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-28",
           "bodyStatus": "not_read"
@@ -110965,36 +109747,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-28",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-28",
           "bodyStatus": "not_read"
         },
@@ -111044,24 +109796,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-29",
           "bodyStatus": "not_read"
@@ -111081,36 +109815,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-29",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-29",
           "bodyStatus": "not_read"
         },
@@ -111165,24 +109869,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-30",
           "bodyStatus": "not_read"
@@ -111202,36 +109888,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-30",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-30",
           "bodyStatus": "not_read"
         },
@@ -111281,24 +109937,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-31",
           "bodyStatus": "not_read"
@@ -111318,36 +109956,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-31",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-31",
           "bodyStatus": "not_read"
         },
@@ -111396,24 +110004,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-32",
           "bodyStatus": "not_read"
@@ -111433,36 +110023,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-32",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-32",
           "bodyStatus": "not_read"
         },
@@ -111511,24 +110071,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-33",
           "bodyStatus": "not_read"
@@ -111548,36 +110090,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-33",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-33",
           "bodyStatus": "not_read"
         },
@@ -111626,24 +110138,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-34",
           "bodyStatus": "not_read"
@@ -111663,36 +110157,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-34",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-34",
           "bodyStatus": "not_read"
         },
@@ -111740,24 +110204,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-35",
           "bodyStatus": "not_read"
@@ -111777,36 +110223,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-35",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-35",
           "bodyStatus": "not_read"
         },
@@ -111855,24 +110271,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-36",
           "bodyStatus": "not_read"
@@ -111892,36 +110290,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-36",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-36",
           "bodyStatus": "not_read"
         },
@@ -111969,24 +110337,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-37",
           "bodyStatus": "not_read"
@@ -112006,36 +110356,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-37",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-37",
           "bodyStatus": "not_read"
         },
@@ -112083,24 +110403,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-38",
           "bodyStatus": "not_read"
@@ -112120,36 +110422,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-38",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-38",
           "bodyStatus": "not_read"
         },
@@ -112198,24 +110470,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-39",
           "bodyStatus": "not_read"
@@ -112235,36 +110489,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-39",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-39",
           "bodyStatus": "not_read"
         },
@@ -112314,24 +110538,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-40",
           "bodyStatus": "not_read"
@@ -112351,36 +110557,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-40",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-40",
           "bodyStatus": "not_read"
         },
@@ -112430,24 +110606,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-41",
           "bodyStatus": "not_read"
@@ -112467,36 +110625,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-41",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-41",
           "bodyStatus": "not_read"
         },
@@ -112546,24 +110674,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-42",
           "bodyStatus": "not_read"
@@ -112583,36 +110693,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-42",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-42",
           "bodyStatus": "not_read"
         },
@@ -112661,24 +110741,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-43",
           "bodyStatus": "not_read"
@@ -112698,36 +110760,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-43",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-43",
           "bodyStatus": "not_read"
         },
@@ -112778,24 +110810,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-44",
           "bodyStatus": "not_read"
@@ -112815,36 +110829,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-44",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-44",
           "bodyStatus": "not_read"
         },
@@ -112923,24 +110907,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-45",
           "bodyStatus": "not_read"
@@ -112960,36 +110926,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-45",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-45",
           "bodyStatus": "not_read"
         },
@@ -113039,24 +110975,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-47",
           "bodyStatus": "not_read"
@@ -113076,36 +110994,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-47",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-47",
           "bodyStatus": "not_read"
         },
@@ -113156,24 +111044,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-49",
           "bodyStatus": "not_read"
@@ -113193,36 +111063,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-49",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-49",
           "bodyStatus": "not_read"
         }
@@ -113266,24 +111106,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-51",
           "bodyStatus": "not_read"
@@ -113303,36 +111125,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-51",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-51",
           "bodyStatus": "not_read"
         }
@@ -113375,24 +111167,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-52",
           "bodyStatus": "not_read"
@@ -113412,36 +111186,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-52",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-52",
           "bodyStatus": "not_read"
         }
@@ -113485,24 +111229,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-53",
           "bodyStatus": "not_read"
@@ -113522,36 +111248,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-53",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-53",
           "bodyStatus": "not_read"
         }
@@ -113595,24 +111291,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-54",
           "bodyStatus": "not_read"
@@ -113632,36 +111310,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-54",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-54",
           "bodyStatus": "not_read"
         }
@@ -113704,24 +111352,6 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "label": "个人页提供的链接",
-          "url": "https://www.facebook.com/CivE.HKU/",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "http://engg.hku.hk/home/index.htm",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/mingde/",
           "parentSourceId": "hku-civil-20261110-profile-55",
           "bodyStatus": "not_read"
@@ -113741,36 +111371,6 @@ window.APP_CATALOG = {
         {
           "label": "个人页提供的链接",
           "url": "https://www.civil.hku.hk/h5v3_postgraduate.html",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/civil_intranet/index.html",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_deptnews.html",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_publications.html",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_events_main.html",
-          "parentSourceId": "hku-civil-20261110-profile-55",
-          "bodyStatus": "not_read"
-        },
-        {
-          "label": "个人页提供的链接",
-          "url": "https://www.civil.hku.hk/h6_jobopen.html",
           "parentSourceId": "hku-civil-20261110-profile-55",
           "bodyStatus": "not_read"
         }
@@ -229297,18 +226897,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "6d60fce9bdc802b1c714b6b633332a08752e23474039d609524d24eae8d9ec88",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -229325,18 +226917,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "33eaa379ecb2bb0ad95370e8ce252522a0bd91151c5519c7dd8124bdf67a9e72",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -229353,18 +226937,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "9c485a5b203423aaa977e2cca7a9607942c9feee98db0ef3d5b0b3f77152a113",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.chan-takming.com/"
       ]
     },
@@ -229382,18 +226958,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "ade748aa84a44f45fc143d3b21d60befc5cef8a3f2168483122a08ef9cee1050",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=L23J_IQAAAAJ&hl=zh-CN",
         "https://hub.hku.hk/cris/rp/rp00098"
       ]
@@ -229412,18 +226980,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "71cf74f04a1883dee442df2afbd99d636a09d61096683dd0f5c276a2b27e0ebc",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://hub.hku.hk/cris/rp/rp02778"
       ]
     },
@@ -229441,18 +227001,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "f210695f68bb8b3838ab05b8caee6b396c956ed7d90b5a76db0ad968bceaedfc",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -229469,18 +227021,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "16615a25d8fac7c9012139637615555974f61ea20797228d41b1bbefb02a8174",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/maychui/",
         "http://hub.hku.hk/cris/rp/rp01696"
       ]
@@ -229499,18 +227043,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "742b1ba20fe1196274d047b1b453ea7d56c99c4e9e2ab9fcf0eacf326545a3ff",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=AslQP70AAAAJ&hl=en"
       ]
     },
@@ -229528,18 +227064,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "d16d1074e62536446449cf9cbcbab8edef670434b67ab95b315d0aacfb3c4989",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://sites.google.com/view/haoranduan/"
       ]
     },
@@ -229557,18 +227085,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "537ead15533e2e68e4893f09ec62ca542d2c13c04c5c8921424a9699a0eadb2d",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -229585,18 +227105,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "a002303344ebbdb53d655be77cc5de03891eaf14ec6774d13eca356454f3aad5",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://sites.google.com/view/kejintao"
       ]
     },
@@ -229642,18 +227154,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "8b4754efa2fd87d5daa611385578fd52f7af07783acde66b6a01521774db67ca",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://cicubelab.civil.hku.hk/"
       ]
     },
@@ -229671,18 +227175,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "dd88074eb73c481f1d9eff21d4da81ca7f1f0786ce59cfdd9c662cbb9c477bd4",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/sergio/",
         "http://hub.hku.hk/cris/rp/rp01872"
       ]
@@ -229701,18 +227197,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "e27e151150d06efeb7e2f42e76b1edd86fc41a30b77ad2b68789fabcc9cbf740",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/wpan/",
         "http://hub.hku.hk/cris/rp/rp01621"
       ]
@@ -229731,18 +227219,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "0681962da30ef1de044910c37d99443709b1c7be4b29de00612c7179b3c5a1a7",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.kshih.civil.hku.hk/",
         "http://hub.hku.hk/cris/rp/rp00167"
       ]
@@ -229761,18 +227241,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "5284883dbe94663bb4b4ddec10b2ee629446cbfdccdc80f9e2385f9f379b4315",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/klsu/",
         "http://hub.hku.hk/cris/rp/rp00072"
       ]
@@ -229791,18 +227263,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "193886f31261a85d9f94acc5387abc25e3c5e86cd1505e0d2c979863b9875b3b",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/ceszeto/",
         "http://hub.hku.hk/cris/rp/rp01377"
       ]
@@ -229821,18 +227285,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "182144ddab7bde07b1e9d96ebf5c0f0c0661a0da703259195ffa05a9f00e85d3",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://sites.google.com/view/jiaji",
         "https://www.mdpi.com/journal/buildings/special_issues/2JV6FX5685"
       ]
@@ -229851,18 +227307,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "987707e5050e7cf8137ee8bcd0cffd6e2012c9496e73cfdfcd1014bd2df59bec",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -229879,18 +227327,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "da7096e5f81f52a44776e0f517c258e373d3d3392b1e48dd961e724c0e859a1d",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -229907,18 +227347,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "f6591f8288c6364be09452ffa7704676630740b36951e4163de29a2bb72c225a",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/scwong/"
       ]
     },
@@ -229936,18 +227368,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "dc2491b152e5c55b8a9bf78275a6444b695ef7956717043296399db9dc53ef67",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://yougeyxt.github.io/"
       ]
     },
@@ -229965,18 +227389,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "acffe4f70f57b467f7d36c486be2c9de8a41808d58db3c03dbc60467122f9813",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.junyang.hku.hk/"
       ]
     },
@@ -229994,18 +227410,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "fe4e5c680aee9f5a4d04085410c83fef5d76af6cfa250b9671815108f6e2e1a9",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230022,18 +227430,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "03006cc22bfa3818fe971a449bac831fb40b6dd537c87f107e74d78a8abdf13e",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230050,18 +227450,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "09a6bfe794cea6405802039f2642c92d75ba4ec4ed4431a29e8de2aedc4a94a2",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://jamescheng21.github.io/"
       ]
     },
@@ -230079,18 +227471,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "070ad444d66788fcaa8d05741c9d6900699ab7ff62368f0546fcaf7c4c4e668e",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://smile.hku.hk/",
         "http://hub.hku.hk/cris/rp/rp00211"
       ]
@@ -230109,18 +227493,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "cf71711dd70bb86bdb231c1d5a223a150fa3c352372b17b0b77c11eda189e8d5",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://yangzhao16.github.io/"
       ]
     },
@@ -230138,18 +227514,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "2f3bdea115474b22aab7dfcdabb6e53518a4a928571f4a829c390a3c381ca815",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=PRcJfx8AAAAJ&hl=zh-CN"
       ]
     },
@@ -230167,18 +227535,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "c6bbb2f07b7929906ee65b4781a03676d6189850298b4ae787da332c4c974608",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com.hk/citations?user=Z33oPJ8AAAAJ&hl=en&oi=ao"
       ]
     },
@@ -230196,18 +227556,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "7d2c5b1ebb86ea6312fbc48d0c3aeafe2fd70f8cb5501b42400ae22e05ffc1ec",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=bUdXEPMAAAAJ&hl=en"
       ]
     },
@@ -230225,18 +227577,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "df2d9a27be5d1348bccedb45e090e1298e854a2b92528ea13ead7cad1ed2253e",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=W8D9uevFJpAC&hl=en&oi=ao"
       ]
     },
@@ -230254,18 +227598,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "971c07bbdf0180cfb987593daf0e138e6f26efa02a7b829a6baa5f4d56170436",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com.hk/citations?user=iOktfNQAAAAJ&hl=zh-CN"
       ]
     },
@@ -230283,18 +227619,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "f232badd813f186fd8c568acfb35f71d5480f1e90a8abb1df9aba3622d87384c",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=hGCLohQAAAAJ&hl=zh-CN"
       ]
     },
@@ -230312,18 +227640,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "d1c6346847a993bc44741e964746d6e4098671e31d369b4d71ec7f78056ae15e",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com.hk/citations?user=fQIGdRcAAAAJ"
       ]
     },
@@ -230341,18 +227661,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "1f925fef0a112a2a889b056cf525230557114e25f0df97076f73ae1252fb6e00",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.scopus.com/authid/detail.uri?authorId=57209536627"
       ]
     },
@@ -230370,18 +227682,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "d3bd6cc4820fb86137ed2c921bbe5d44b3cc9ea98050079f6c074ec2c4d1aa07",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=ySEtkZQAAAAJ&hl"
       ]
     },
@@ -230399,18 +227703,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "b9a4e03f75e9124caa6209591f38c96376f3a6159f8f447a6556b320a566ef28",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=8P2oGFwAAAAJ&hl=zh-CN&oi=ao"
       ]
     },
@@ -230428,18 +227724,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "cbb6fe31b377e097ac0f0d683fdea061e28885189822c76c59a496d26b893251",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=na2tookAAAAJ&hl=zh-TW&oi=ao"
       ]
     },
@@ -230457,18 +227745,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "840195aee60f4d6aca9cf002b1f50c9b9e0fce7cc49c727c5aa53197dec0fcc3",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.researchgate.net/profile/Yang_Zhang389"
       ]
     },
@@ -230486,18 +227766,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "a80e1bc3feea659e8a799af62c77744905272c3bb9ef075dc3dbe9bfa0bd5b1e",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com.sg/citations?user=kgIeiskAAAAJ&hl=en"
       ]
     },
@@ -230515,18 +227787,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "a2304b6236216818b926f25c5d2e576dbe519a1986dc89016b1d4deb814c2ec2",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.membest.hku.hk",
         "https://www.nature.com/articles/s41467-025-67678-5",
         "https://www.science.org/doi/10.1126/sciadv.adv6646",
@@ -230549,18 +227813,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "945aa5dd7659694dde0ba17f88d3d7e9ab1360b49a83c80e804f641040b51b4a",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://scholar.google.com/citations?user=eRjXhdUAAAAJ&hl=en&oi=ao"
       ]
     },
@@ -230578,18 +227834,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "b490a7643b20122399e3abbfd3087e05b2771d2a4df10a18c05154332268ee1b",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
         "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html",
         "https://www.civil.hku.hk/hrechef/"
       ]
     },
@@ -230621,18 +227869,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "c2a7fed2d4c767630125f4137145c97618370d438f315dbf85a64ced50b649ac",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230663,18 +227903,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "0527ac9c780999170808e5847bb53778271022031ec723bc5b9d7499cffb741c",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230691,18 +227923,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "b5a5859425ff9c0110ce860e54f7984230ffa7d1199f0035d782064bc4ac3199",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230719,18 +227943,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "a8c1d0d3a66a59e17e9d0717ba1cd34b3353e0f795922b8b8e35aa56732a2486",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230747,18 +227963,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "e44b3396edff7b4b1513acb643f1a9a9c985a6c1ab03397e4675d3012983fb9e",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -230775,18 +227983,10 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "4e0627b6eb60aaa7e1c94d24ce38563e40cd189b4f4ad4c3f5d3eeb660e02ce7",
       "discoveredLinks": [
-        "https://www.facebook.com/CivE.HKU/",
-        "http://engg.hku.hk/home/index.htm",
-        "https://www.civil.hku.hk/civil_intranet/",
         "https://www.civil.hku.hk/mingde/",
         "https://www.civil.hku.hk/h8v1_links.html",
         "https://www.civil.hku.hk/h5v2_undergraduate.html",
-        "https://www.civil.hku.hk/h5v3_postgraduate.html",
-        "https://www.civil.hku.hk/civil_intranet/index.html",
-        "https://www.civil.hku.hk/h6_deptnews.html",
-        "https://www.civil.hku.hk/h6_publications.html",
-        "https://www.civil.hku.hk/h6_events_main.html",
-        "https://www.civil.hku.hk/h6_jobopen.html"
+        "https://www.civil.hku.hk/h5v3_postgraduate.html"
       ]
     },
     {
@@ -300942,5 +298142,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:2fb76b2326a50a55609db76122c0169cec4d866f74b89e136c02c4a64d7f470e"
+  "snapshotId": "sha256:d008daa1e84e1cfba0d284ed59412df75f0ac21bdcbb1bf4066904f4bd71332f"
 };
