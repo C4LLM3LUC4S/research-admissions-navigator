@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_hkustgz_dsa_admissions",
+  "stage": "post_alpha34_hkustgz_dsa_faculty",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-10",
   "working_name": "研向",
@@ -9,15 +9,15 @@
     "universities": 7,
     "programme_or_route_cards": 69,
     "degree_routes": 119,
-    "faculty": 1912,
-    "official_sources": 3059,
+    "faculty": 1941,
+    "official_sources": 3092,
     "programmes_with_partial_requirements": 67,
     "requirement_items": 242,
     "programmes_with_partial_finances": 39,
     "finance_items": 65,
     "official_directory_entries": 114,
-    "teacher_linked_sources": 743,
-    "total_sources": 3802,
+    "teacher_linked_sources": 762,
+    "total_sources": 3854,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -226,7 +226,10 @@
     "cuhk_ees_profiles_read": 72,
     "cuhk_ees_new_faculty": 13,
     "cuhk_ees_reused_ids": 3,
-    "cuhk_ees_observed_cards": 79
+    "cuhk_ees_observed_cards": 79,
+    "hkustgz_dsa_new": 29,
+    "hkustgz_dsa_existing": 4,
+    "hkustgz_dsa_profiles_read": 35
   },
   "implemented": [
     "项目/学位/办学实体筛选",
@@ -463,8 +466,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:8aedfec02197ad65302191bf28ff5f10002967baf36478a9d78424fb331cd961",
-  "latest_data_batch": "scripts/build_catalog.py",
+  "current_catalogue_snapshot": "sha256:87b91caddea81b136346650013e60fb655f001a9139b77168a0eaf88abddd6cc",
+  "latest_data_batch": "data/research/hkustgz-dsa-20261110.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",

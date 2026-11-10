@@ -10299,12 +10299,20 @@
         "Data-driven AI",
         "Knowledge graphs",
         "Crowdsourcing",
-        "Spatiotemporal data"
+        "Spatiotemporal data",
+        "Data-driven machine learning",
+        "Crowdsourcing-based data processing",
+        "Uncertain and probabilistic databases",
+        "Web information management",
+        "Multimedia systems"
       ],
       "summary": "研究数据管理和数据库系统，涉及数据驱动AI、知识图谱、众包与时空数据。",
       "profileUrl": "https://personal.hkust-gz.edu.cn/Chenlei/",
       "sourceIds": [
-        "wide-hkustgz-lei-chen-profile"
+        "wide-hkustgz-lei-chen-profile",
+        "hkustgz-dsa-20261110-profile-20",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-20"
       ],
       "availability": {
         "state": "unknown",
@@ -10315,11 +10323,23 @@
         ]
       },
       "directorySourceIds": [
-        "wide-dir-hkustgz-ai"
+        "wide-dir-hkustgz-ai",
+        "gz-dsa-regular"
       ],
       "keywordSourceIds": [
-        "wide-hkustgz-lei-chen-profile"
-      ]
+        "wide-hkustgz-lei-chen-profile",
+        "hkustgz-dsa-20261110-profile-20"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://personal.hkust-gz.edu.cn/Chenlei/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-20",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-20"
+        }
+      ],
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/20"
     },
     {
       "id": "wide-cuhksz-haizhou-li",
@@ -84261,13 +84281,17 @@
       "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHU-Lei/leizhu",
       "sourceIds": [
         "gz-roas-directory-20261029",
-        "gz-roas-profile-64-20261029"
+        "gz-roas-profile-64-20261029",
+        "hkustgz-dsa-20261110-profile-64",
+        "gz-dsa-regular"
       ],
       "keywordSourceIds": [
-        "gz-roas-profile-64-20261029"
+        "gz-roas-profile-64-20261029",
+        "hkustgz-dsa-20261110-profile-64"
       ],
       "directorySourceIds": [
-        "gz-roas-directory-20261029"
+        "gz-roas-directory-20261029",
+        "gz-dsa-regular"
       ],
       "academicUnitIds": [
         "hkustgz-3"
@@ -84301,7 +84325,8 @@
         "sourceIds": [
           "gz-roas-profile-64-20261029"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/64"
     },
     {
       "id": "hkustgz-roas-353",
@@ -91540,13 +91565,18 @@
         "hkustgz-iot-20261109-profile-144",
         "hkustgz-iot-20261109-directory",
         "hkustgz-iot-20261109-directory-data",
-        "hkustgz-iot-20261109-website-144"
+        "hkustgz-iot-20261109-website-144",
+        "hkustgz-dsa-20261110-profile-144",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-144"
       ],
       "directorySourceIds": [
-        "hkustgz-iot-20261109-directory"
+        "hkustgz-iot-20261109-directory",
+        "gz-dsa-regular"
       ],
       "keywordSourceIds": [
-        "hkustgz-iot-20261109-profile-144"
+        "hkustgz-iot-20261109-profile-144",
+        "hkustgz-dsa-20261110-profile-144"
       ],
       "academicUnitIds": [
         "hkustgz-2"
@@ -91590,7 +91620,8 @@
         "sourceIds": [
           "hkustgz-iot-20261109-programme-2026-27"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/144"
     },
     {
       "id": "hkustgz-iot-20261109-146",
@@ -91756,13 +91787,18 @@
         "hkustgz-iot-20261109-profile-464",
         "hkustgz-iot-20261109-directory",
         "hkustgz-iot-20261109-directory-data",
-        "hkustgz-iot-20261109-website-464"
+        "hkustgz-iot-20261109-website-464",
+        "hkustgz-dsa-20261110-profile-464",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-464"
       ],
       "directorySourceIds": [
-        "hkustgz-iot-20261109-directory"
+        "hkustgz-iot-20261109-directory",
+        "gz-dsa-regular"
       ],
       "keywordSourceIds": [
-        "hkustgz-iot-20261109-profile-464"
+        "hkustgz-iot-20261109-profile-464",
+        "hkustgz-dsa-20261110-profile-464"
       ],
       "academicUnitIds": [
         "hkustgz-2"
@@ -91801,7 +91837,8 @@
         "sourceIds": [
           "hkustgz-iot-20261109-programme-2026-27"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/464"
     },
     {
       "id": "hkustgz-iot-20261109-493",
@@ -106498,6 +106535,1322 @@
         "text": "可先看研究方向与项目要求。",
         "sourceIds": [
           "polyu-beee-20261110-profile-52"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-13",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-13",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-13"
+      ],
+      "researchKeywords": [
+        "大数据",
+        "高性能计算",
+        "移动计算与无线网络",
+        "Big data",
+        "High-performance computing",
+        "Internet technologies",
+        "Mobile computing",
+        "Wireless networking",
+        "Intelligent computing"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://president.hkust-gz.edu.cn/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-13",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Lionel Ming-Shuan NI",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/13",
+      "summary": "研究大数据、高性能计算、移动计算与无线网络。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-13"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-17",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-17",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-17"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-17"
+      ],
+      "researchKeywords": [
+        "工业大数据",
+        "统计过程监控",
+        "质量工程",
+        "Industrial big data",
+        "Data Analytics",
+        "Statistical process control and monitoring",
+        "Quality engineering and management"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.ieda.ust.hk/dfaculty/tsung/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-17",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-17"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Fu-Gee TSUNG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/17",
+      "summary": "研究工业大数据、统计过程监控、质量工程。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-17"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-51",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-51",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-51"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-51"
+      ],
+      "researchKeywords": [
+        "GPU计算",
+        "分布式与联邦学习",
+        "自动驾驶视觉",
+        "GPU computing",
+        "Distributed machine learning systems (including federated learning)",
+        "Computer vision for autonomous vehicles",
+        "Vehicular networks"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/chuxiaowen/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-51",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-51"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Xiaowen CHU",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/51",
+      "summary": "研究GPU计算、分布式与联邦学习、自动驾驶视觉。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-51"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-35",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-35",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-35"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-35"
+      ],
+      "researchKeywords": [
+        "数据库与人工智能",
+        "大语言模型",
+        "科学智能",
+        "Integration of database and artificial intelligence technologies",
+        "Large Language Models",
+        "Deep Learning and Artificial Intelligence",
+        "AI for Science; AI for Education"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://wei-wang.net",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-35",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-35"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Wei WANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/35",
+      "summary": "研究数据库与人工智能、大语言模型、科学智能。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-35"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-617",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-617",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-617"
+      ],
+      "researchKeywords": [
+        "图算法与图系统",
+        "图神经网络",
+        "向量数据库",
+        "Graph algorithms and systems",
+        "Graph neural networks",
+        "Vector databases",
+        "AI-powered database systems"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "JEFFREY XU YU",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/617",
+      "summary": "研究图算法与图系统、图神经网络、向量数据库。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-617"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-107",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-107",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-107"
+      ],
+      "researchKeywords": [
+        "软件仓库挖掘",
+        "程序静态分析与动态分析",
+        "软件故障识别",
+        "Programmer productivity",
+        "Identifying faults in program development or in deployed programs by mining software repositories",
+        "Source code (static analysis)",
+        "Program execution (dynamic analysis)"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~hunkim/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-107",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Sung Hun KIM",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/107",
+      "summary": "研究软件仓库挖掘、程序静态分析与动态分析、软件故障识别。",
+      "topics": [
+        "软件工程与编程语言"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-107"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-37",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-37",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-37"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-37"
+      ],
+      "researchKeywords": [
+        "图学习",
+        "异常检测",
+        "药物发现与科学智能",
+        "Graph Learning, e.g., Hierarchical Graph Neural Networks, Deconvolutional Networks on graph",
+        "Data Mining, e.g., anomaly detection",
+        "AI for Science, e.g., drug discovery, healthcare"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/lijia",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-37",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-37"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Jia LI",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/37",
+      "summary": "研究图学习、异常检测、药物发现与科学智能。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-37"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-36",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-36",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-36"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-36"
+      ],
+      "researchKeywords": [
+        "大数据管理",
+        "社交网络与图分析",
+        "区块链",
+        "Big Data Management and Analytics",
+        "Social Network and Graph Analysis",
+        "Machine Learning",
+        "Blockchains"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/jtang",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-36",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-36"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Jing TANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/36",
+      "summary": "研究大数据管理、社交网络与图分析、区块链。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-36"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-297",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-297",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-297"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-297"
+      ],
+      "researchKeywords": [
+        "数据中心人工智能",
+        "检索增强生成",
+        "数据准备",
+        "Data-Centric AI",
+        "Retrieval-Augmented Generation for High-fidelity Reasoning of Large Language Models",
+        "AI for Data Preparation"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://nantang.github.io/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-297",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-297"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Nan TANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/297",
+      "summary": "研究数据中心人工智能、检索增强生成、数据准备。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-297"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-59",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-59",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-59"
+      ],
+      "researchKeywords": [
+        "可视化",
+        "可视分析",
+        "生成式人工智能",
+        "虚拟与增强现实",
+        "Visualization",
+        "Visual Analytics",
+        "AIGC",
+        "VR/AR"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zeng-wei.com",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-59",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Wei ZENG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/59",
+      "summary": "研究可视化、可视分析、生成式人工智能、虚拟与增强现实。",
+      "topics": [
+        "计算机图形学"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-59"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-450",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-450",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-450"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-450"
+      ],
+      "researchKeywords": [
+        "自然语言处理与软件工程",
+        "大规模软件性能",
+        "Optimizing natural language processing techniques for software engineering",
+        "Software performance engineering for large-scale systems"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://personal.hkust-gz.edu.cn/ding/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-450",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-450"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Zishuo DING",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/450",
+      "summary": "研究自然语言处理与软件工程、大规模软件性能。",
+      "topics": [
+        "软件工程与编程语言"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-450"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-11",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-11",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-11"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-11"
+      ],
+      "researchKeywords": [
+        "工业数据分析",
+        "制造系统信息学",
+        "质量改进",
+        "Knowledge-infused data science for quality improvement",
+        "Industrial data analytics and machine learning",
+        "System informatics and control for manufacturing applications"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/juandu/home",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-11",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-11"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Juan DU",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/11",
+      "summary": "研究工业数据分析、制造系统信息学、质量改进。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-11"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-574",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-574",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-574"
+      ],
+      "researchKeywords": [
+        "网络安全",
+        "数据安全",
+        "可信系统与人工智能",
+        "Network Security",
+        "Data Security",
+        "Trustworthy Systems",
+        "Trustworthy AI"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Huayi DUAN",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/574",
+      "summary": "研究网络安全、数据安全、可信系统与人工智能。",
+      "topics": [
+        "网络安全"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-574"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-526",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-526",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-526"
+      ],
+      "researchKeywords": [
+        "大语言模型",
+        "智能体",
+        "自然语言处理",
+        "Large Language Models",
+        "Agentic AI",
+        "Natural Language Processing",
+        "Machine Learning"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Zhijiang GUO",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/526",
+      "summary": "研究大语言模型、智能体、自然语言处理。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-526"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-703",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-703",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-703"
+      ],
+      "researchKeywords": [
+        "图模型",
+        "量子信息",
+        "多项式几何",
+        "信息论",
+        "Graphical models",
+        "Quantum information processing",
+        "Geometry of polynomials",
+        "Information theory"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Yuwen HUANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/703",
+      "summary": "研究图模型、量子信息、多项式几何、信息论。",
+      "topics": [
+        "数学与统计"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-703"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-718",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-718",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-718"
+      ],
+      "researchKeywords": [
+        "在线学习",
+        "强化学习",
+        "大语言模型加速",
+        "Online Learning, Bandits, and Reinforcement Learning",
+        "Large Language Model Acceleration and Optimization"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Tianyuan JIN",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/718",
+      "summary": "研究在线学习、强化学习、大语言模型加速。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-718"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-104",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-104",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-104"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-104"
+      ],
+      "researchKeywords": [
+        "空间数据库",
+        "图学习",
+        "分布式数据库",
+        "智能交通",
+        "Spatial Database Management",
+        "Graph",
+        "Machine Learning",
+        "Distributed Database",
+        "Intelligent Transportation"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/leili",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-104",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-104"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Lei LI",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/104",
+      "summary": "研究空间数据库、图学习、分布式数据库、智能交通。",
+      "topics": [
+        "数据库与数据系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-104"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-288",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-288",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-288"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-288"
+      ],
+      "researchKeywords": [
+        "时空数据挖掘",
+        "时空基础模型",
+        "城市计算",
+        "Spatio-Temporal Data Mining",
+        "Spatio-Temporal Foundation Models",
+        "World Models",
+        "Urban Computing",
+        "AI for Time Series"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yuxuanliang.com/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-288",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-288"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Yuxuan LIANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/288",
+      "summary": "研究时空数据挖掘、时空基础模型、城市计算。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-288"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-451",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-451",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-451"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-451"
+      ],
+      "researchKeywords": [
+        "数据库查询处理",
+        "向量数据库",
+        "Database Query Processing",
+        "Vector Databases"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://shangqilu.github.io/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-451",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-451"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Shangqi LU",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/451",
+      "summary": "研究数据库查询处理、向量数据库。",
+      "topics": [
+        "数据库与数据系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-451"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-301",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-301",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-301"
+      ],
+      "researchKeywords": [
+        "智能数据分析",
+        "数据中心人工智能",
+        "大模型智能体",
+        "DATA+AI",
+        "AI-driven Data Analytics",
+        "Data-centric Artificial Intelligence",
+        "LLM Agents",
+        "Database System"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://luoyuyu.vip/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-301",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Yuyu LUO",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/301",
+      "summary": "研究智能数据分析、数据中心人工智能、大模型智能体。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-301"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-427",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-427",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-427"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-427"
+      ],
+      "researchKeywords": [
+        "可持续计算",
+        "云边缘计算",
+        "计算机网络",
+        "Sustainble Computing",
+        "Cloud/Edge Computing",
+        "Applied AI/ML",
+        "Computer Networks"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://guomingtang.github.io/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-427",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-427"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Guoming TANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/427",
+      "summary": "研究可持续计算、云边缘计算、计算机网络。",
+      "topics": [
+        "网络与系统"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-427"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-498",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-498",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-498"
+      ],
+      "researchKeywords": [
+        "弱监督学习",
+        "大模型数据生成",
+        "稳健训练",
+        "Weakly Supervised Learning",
+        "High-Quality Data Generation in LLM",
+        "AI-Assisted Data Curation and Quality Evaluation",
+        "Robust LLM Training and Fine-Tuning",
+        "LLM Ethics (Unlearning, Watermarking, Jailbreaking)"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Jiaheng WEI",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/498",
+      "summary": "研究弱监督学习、大模型数据生成、稳健训练。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-498"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-120",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-120",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-120"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-120"
+      ],
+      "researchKeywords": [
+        "大模型训练与推理",
+        "机器学习系统",
+        "智能体存储系统",
+        "Efficient Large Language Model (LLM) Fine-Tuning",
+        "Efficient Large Language Model (LLM) Training",
+        "Efficient Large Language Model (LLM) Inference",
+        "Serving/Memory Systems for AI Agents",
+        "Machine Learning Systems (MLSys)",
+        "Hyper-Parameter Optimization (HPO)",
+        "Automatic Machine Learning (AutoML)",
+        "High-Performance Computing (HPC)"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zeyiwen.github.io/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-120",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-120"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Zeyi WEN",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/120",
+      "summary": "研究大模型训练与推理、机器学习系统、智能体存储系统。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-120"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-589",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-589",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-589"
+      ],
+      "researchKeywords": [
+        "智能体",
+        "自进化人工智能",
+        "生命科学智能",
+        "AI Agent",
+        "Self-evolving AI",
+        "AI for Life Science"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Jun XIA",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/589",
+      "summary": "研究智能体、自进化人工智能、生命科学智能。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-589"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-428",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-428",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-428"
+      ],
+      "researchKeywords": [
+        "生成式人工智能",
+        "智能体",
+        "大模型训练与理论",
+        "Generative AI",
+        "Agentic AI",
+        "LLM Training and Infra",
+        "AI and AGI Theory"
+      ],
+      "extraLinks": [],
+      "universityId": "hkustgz",
+      "name": "Zeke XIE",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/428",
+      "summary": "研究生成式人工智能、智能体、大模型训练与理论。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-428"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-452",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-452",
+        "gz-dsa-regular"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-452"
+      ],
+      "researchKeywords": [
+        "人工智能可视化",
+        "人机协作",
+        "弱监督与主动学习",
+        "VIS4AI",
+        "AI4VIS",
+        "Human-AI collaboration",
+        "Weakly-supervised learning",
+        "Active learning",
+        "Statistical learning and optimization"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://vicayang.cc",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-452",
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回 HTTP 403。"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Weikai YANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/452",
+      "summary": "研究人工智能可视化、人机协作、弱监督与主动学习。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-452"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-380",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-380",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-380"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-380"
+      ],
+      "researchKeywords": [
+        "计算生物学",
+        "海洋基因组学",
+        "沉浸式数据可视化",
+        "Computational biology",
+        "AI for Science",
+        "Marine genomics",
+        "Immersive data visualization",
+        "Genetics and Evolution"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zhyanlin.github.io/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-380",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-380"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Yanlin ZHANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/380",
+      "summary": "研究计算生物学、海洋基因组学、沉浸式数据可视化。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-380"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-436",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-436",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-436"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-436"
+      ],
+      "researchKeywords": [
+        "关系图学习",
+        "大模型推理",
+        "自动机器学习",
+        "Machine learning on relational graphs",
+        "Reasoning on large language models",
+        "Automated machine learning",
+        "Graph + Science"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://yzhangee.github.io/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-436",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-436"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Yongqi ZHANG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/436",
+      "summary": "研究关系图学习、大模型推理、自动机器学习。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-436"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-20261110-453",
+      "sourceIds": [
+        "hkustgz-dsa-20261110-profile-453",
+        "gz-dsa-regular",
+        "hkustgz-dsa-20261110-site-453"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-regular"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-20261110-profile-453"
+      ],
+      "researchKeywords": [
+        "强化学习",
+        "在线学习",
+        "多臂老虎机",
+        "Reinforcement Learning",
+        "Online Learning",
+        "Multi-armed Bandits"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://zixinzh.github.io/homepage/",
+          "label": "个人或课题组网站",
+          "parentSourceId": "hkustgz-dsa-20261110-profile-453",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-dsa-20261110-site-453"
+        }
+      ],
+      "universityId": "hkustgz",
+      "name": "Zixin ZHONG",
+      "department": "数据科学与分析学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/453",
+      "summary": "研究强化学习、在线学习、多臂老虎机。",
+      "topics": [
+        "机器学习"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "可先看研究课题和学域申请要求。",
+        "sourceIds": [
+          "hkustgz-dsa-20261110-profile-453"
         ]
       }
     }
@@ -220907,6 +222260,872 @@
       "knownIssues": [],
       "readMethod": "anonymous_HTTP",
       "bodySha256": "5effd0439b838fdfcd8d2b771a4e49fec228029379702970d0c7bf46d50786ee"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-20",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/20",
+      "title": "Lei CHEN · 港科广公开个人资料",
+      "claims": [
+        "研究方向见教师公开档案。"
+      ],
+      "scope": "研究方向见教师公开档案。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "8a51d33974fcb1ed178678d3ba6a1cccbaea3cad5e3fd4ca90afe5938297b3bd",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/Chenlei/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-20",
+      "url": "https://personal.hkust-gz.edu.cn/Chenlei/",
+      "title": "Lei CHEN · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "70d68fbe131fb0631280b3f18c7af286793881d14589be41aabd9da6f46ccdb6",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-20",
+      "originalUrl": "https://personal.hkust-gz.edu.cn/Chenlei/",
+      "retrievedUrl": "https://personal.hkust-gz.edu.cn/Chenlei/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-13",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/13",
+      "title": "Lionel Ming-Shuan NI · 港科广公开个人资料",
+      "claims": [
+        "研究大数据、高性能计算、移动计算与无线网络。"
+      ],
+      "scope": "研究大数据、高性能计算、移动计算与无线网络。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "39dd12776978b2399748b5a857bee4fea113ed8f3fe732ae5a2f2fdf415271b5",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://president.hkust-gz.edu.cn/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-17",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/17",
+      "title": "Fu-Gee TSUNG · 港科广公开个人资料",
+      "claims": [
+        "研究工业大数据、统计过程监控、质量工程。"
+      ],
+      "scope": "研究工业大数据、统计过程监控、质量工程。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "43a65aef0f17403cb0e2f35505e06d661bab6bb10c226eb1da44b7381bc0a0e6",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.ieda.ust.hk/dfaculty/tsung/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-17",
+      "url": "https://www.ieda.ust.hk/dfaculty/tsung/",
+      "title": "Fu-Gee TSUNG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "4eb9c7400d06e539330aebbf89e119d24ce3fec914b82a3059e833464e51dc2b",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-17",
+      "originalUrl": "https://www.ieda.ust.hk/dfaculty/tsung/",
+      "retrievedUrl": "https://www.ieda.ust.hk/dfaculty/tsung/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-51",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/51",
+      "title": "Xiaowen CHU · 港科广公开个人资料",
+      "claims": [
+        "研究GPU计算、分布式与联邦学习、自动驾驶视觉。"
+      ],
+      "scope": "研究GPU计算、分布式与联邦学习、自动驾驶视觉。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "5fac522398ed55f12b4d48be51f84eaec48e91b9753c1eb6f2d0a510d28afcc7",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/chuxiaowen/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-51",
+      "url": "https://sites.google.com/view/chuxiaowen/",
+      "title": "Xiaowen CHU · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "d1a495c6e43121f3234890f5ec27c5a730dc35f15c7120f84ac8dfc737daa678",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-51",
+      "originalUrl": "https://sites.google.com/view/chuxiaowen/",
+      "retrievedUrl": "https://sites.google.com/view/chuxiaowen/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-35",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/35",
+      "title": "Wei WANG · 港科广公开个人资料",
+      "claims": [
+        "研究数据库与人工智能、大语言模型、科学智能。"
+      ],
+      "scope": "研究数据库与人工智能、大语言模型、科学智能。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "753327b20e64993b5c9298b04dfdc2cba1b201f47da94ad45c211dc1b6daa831",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "http://wei-wang.net"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-35",
+      "url": "https://dbwangwei.github.io/",
+      "title": "Wei WANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "dac5663df0187afbb2b22c6d5523b886dfdcac1cad406272943febee1bcaf6bc",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-35",
+      "originalUrl": "http://wei-wang.net",
+      "retrievedUrl": "https://dbwangwei.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-144",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/144",
+      "title": "Kaishun WU · 港科广公开个人资料",
+      "claims": [
+        "研究方向见教师公开档案。"
+      ],
+      "scope": "研究方向见教师公开档案。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "fc8bc7f9237c32921d2ae21875c8fd667ecd9362b7b76bfe2e67417de1d9b13e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://kaishun-wu.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-144",
+      "url": "https://kaishun-wu.github.io/",
+      "title": "Kaishun WU · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "0874f3da0d282da00c818da24f33654a2ff98a6315a4fb09230548f02ce740fb",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-144",
+      "originalUrl": "https://kaishun-wu.github.io/",
+      "retrievedUrl": "https://kaishun-wu.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-617",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/617",
+      "title": "JEFFREY XU YU · 港科广公开个人资料",
+      "claims": [
+        "研究图算法与图系统、图神经网络、向量数据库。"
+      ],
+      "scope": "研究图算法与图系统、图神经网络、向量数据库。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "500a56ffec35d203f547270d0a8d1fb06004177e1df41f51dd69c040997ac853",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-107",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/107",
+      "title": "Sung Hun KIM · 港科广公开个人资料",
+      "claims": [
+        "研究软件仓库挖掘、程序静态分析与动态分析、软件故障识别。"
+      ],
+      "scope": "研究软件仓库挖掘、程序静态分析与动态分析、软件故障识别。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "1596af33c4fb02513bfcc17604ea86b4a6a414e42e37489991faec4d2cf6b01e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~hunkim/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-37",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/37",
+      "title": "Jia LI · 港科广公开个人资料",
+      "claims": [
+        "研究图学习、异常检测、药物发现与科学智能。"
+      ],
+      "scope": "研究图学习、异常检测、药物发现与科学智能。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "0006816d9040768a62c147e42af7ef5bb54bbdf6fa2f875aefc29818393b19da",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/lijia"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-37",
+      "url": "https://sites.google.com/view/lijia",
+      "title": "Jia LI · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "76aba7cf2275e630ed541f1191625772874beb1bb38178b66587e4be817e1661",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-37",
+      "originalUrl": "https://sites.google.com/view/lijia",
+      "retrievedUrl": "https://sites.google.com/view/lijia"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-36",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/36",
+      "title": "Jing TANG · 港科广公开个人资料",
+      "claims": [
+        "研究大数据管理、社交网络与图分析、区块链。"
+      ],
+      "scope": "研究大数据管理、社交网络与图分析、区块链。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "13fa3a06f38874771fdbe2b29f63fff1f058dc698ea8be42da6735152b676b60",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/jtang"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-36",
+      "url": "https://sites.google.com/view/jtang",
+      "title": "Jing TANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "5ef001de59daa973bf04d4bb59be4b9bc824db5df4179c69387bf3364068d32f",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-36",
+      "originalUrl": "https://sites.google.com/view/jtang",
+      "retrievedUrl": "https://sites.google.com/view/jtang"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-297",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/297",
+      "title": "Nan TANG · 港科广公开个人资料",
+      "claims": [
+        "研究数据中心人工智能、检索增强生成、数据准备。"
+      ],
+      "scope": "研究数据中心人工智能、检索增强生成、数据准备。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "6e619271ed5a7c5b8c784d404506b52377d2188f5660b5c7f10a5f23697a98ef",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://nantang.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-297",
+      "url": "https://nantang.github.io/",
+      "title": "Nan TANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "1319017b4c624740b0e9f33f34f1258c9b6449b22c2c486817da197d65422e23",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-297",
+      "originalUrl": "https://nantang.github.io/",
+      "retrievedUrl": "https://nantang.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-59",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/59",
+      "title": "Wei ZENG · 港科广公开个人资料",
+      "claims": [
+        "研究可视化、可视分析、生成式人工智能、虚拟与增强现实。"
+      ],
+      "scope": "研究可视化、可视分析、生成式人工智能、虚拟与增强现实。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "7fbbeee8fae734e39fd5a4646702cc542fabc7a42a6fe84fbabe402ae81eedea",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://zeng-wei.com"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-464",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/464",
+      "title": "Ningning DING · 港科广公开个人资料",
+      "claims": [
+        "研究方向见教师公开档案。"
+      ],
+      "scope": "研究方向见教师公开档案。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "30a7d967f30748e67bd6c761ce7823a7250cad4f2425b34c7d7fc8855b447329",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://ningningding.com/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-464",
+      "url": "https://ningningding.com/",
+      "title": "Ningning DING · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "6d1d70f716ab864e861ff54141be9d9004d242fb7486175e8431ff4532f04bdb",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-464",
+      "originalUrl": "https://ningningding.com/",
+      "retrievedUrl": "https://ningningding.com/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-450",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/450",
+      "title": "Zishuo DING · 港科广公开个人资料",
+      "claims": [
+        "研究自然语言处理与软件工程、大规模软件性能。"
+      ],
+      "scope": "研究自然语言处理与软件工程、大规模软件性能。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "5e0b7fae7ccc9c951d851a7694a158caaa7c39204e22f84ade2069271ca99480",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/ding/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-450",
+      "url": "https://personal.hkust-gz.edu.cn/ding/",
+      "title": "Zishuo DING · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "78a837d91bef44850c5b168cefa71ba10f0d9372a40241fcb2b384e0a6d04721",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-450",
+      "originalUrl": "https://personal.hkust-gz.edu.cn/ding/",
+      "retrievedUrl": "https://personal.hkust-gz.edu.cn/ding/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-11",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/11",
+      "title": "Juan DU · 港科广公开个人资料",
+      "claims": [
+        "研究工业数据分析、制造系统信息学、质量改进。"
+      ],
+      "scope": "研究工业数据分析、制造系统信息学、质量改进。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a82779e29131a0f514a377cf731bf5e370a66a93fb264bd16e1e6879a956bd62",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/juandu/home"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-11",
+      "url": "https://sites.google.com/view/juandu/home",
+      "title": "Juan DU · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "54909eb9d7fd1a3d0d5c2a649aee568faaed328a2de2e7eaddd2c49bf524f2bd",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-11",
+      "originalUrl": "https://sites.google.com/view/juandu/home",
+      "retrievedUrl": "https://sites.google.com/view/juandu/home"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-574",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/574",
+      "title": "Huayi DUAN · 港科广公开个人资料",
+      "claims": [
+        "研究网络安全、数据安全、可信系统与人工智能。"
+      ],
+      "scope": "研究网络安全、数据安全、可信系统与人工智能。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "17d45f6de8635f60cc8ddb7630f0656fd9aa63c39dfb426c17b8a09c7dca2d14",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-526",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/526",
+      "title": "Zhijiang GUO · 港科广公开个人资料",
+      "claims": [
+        "研究大语言模型、智能体、自然语言处理。"
+      ],
+      "scope": "研究大语言模型、智能体、自然语言处理。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "1944e3fb2d0d13a9280fd347f6e7e889f6e34efa8703384958c703d79338e753",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-703",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/703",
+      "title": "Yuwen HUANG · 港科广公开个人资料",
+      "claims": [
+        "研究图模型、量子信息、多项式几何、信息论。"
+      ],
+      "scope": "研究图模型、量子信息、多项式几何、信息论。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "067cb54e54ba7af87431092dcc6614a1b1ffaabc85a6e93fa024718cd1fb9fd0",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-718",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/718",
+      "title": "Tianyuan JIN · 港科广公开个人资料",
+      "claims": [
+        "研究在线学习、强化学习、大语言模型加速。"
+      ],
+      "scope": "研究在线学习、强化学习、大语言模型加速。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "bf9876fbf71957913b468035c140e87c419758cff19f510f5baa6a579b7a8a66",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-104",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/104",
+      "title": "Lei LI · 港科广公开个人资料",
+      "claims": [
+        "研究空间数据库、图学习、分布式数据库、智能交通。"
+      ],
+      "scope": "研究空间数据库、图学习、分布式数据库、智能交通。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "b5dcc5461a4e49bc357ce124a984466ee08d804c7aa8b9f672c17a8d8a77da62",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://sites.google.com/view/leili"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-104",
+      "url": "https://sites.google.com/view/leili",
+      "title": "Lei LI · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "f8db0c2e1a10ce5a60197249065a8a73f3be7c2cbbc4fd65d2d20ddca3bf79dd",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-104",
+      "originalUrl": "https://sites.google.com/view/leili",
+      "retrievedUrl": "https://sites.google.com/view/leili"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-288",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/288",
+      "title": "Yuxuan LIANG · 港科广公开个人资料",
+      "claims": [
+        "研究时空数据挖掘、时空基础模型、城市计算。"
+      ],
+      "scope": "研究时空数据挖掘、时空基础模型、城市计算。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a1e3a1ceea8d2c57521296f7e48ec6be1a92f28b0d615461f816d8a4c4604fe1",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://yuxuanliang.com/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-288",
+      "url": "https://yuxuanliang.com/",
+      "title": "Yuxuan LIANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "b1a13c7833b635efc360847dfae8d23cf60d6a73f20f810985042ecb00e82174",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-288",
+      "originalUrl": "https://yuxuanliang.com/",
+      "retrievedUrl": "https://yuxuanliang.com/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-451",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/451",
+      "title": "Shangqi LU · 港科广公开个人资料",
+      "claims": [
+        "研究数据库查询处理、向量数据库。"
+      ],
+      "scope": "研究数据库查询处理、向量数据库。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "c9b132ef63e0c2555355dfe3188c3386471b4712cffd0891da5fcaa96305a40d",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://shangqilu.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-451",
+      "url": "https://shangqilu.github.io/",
+      "title": "Shangqi LU · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "4e6992f048190e9e748223f75565baf29eb51293fcd8cffd383f04a44784cdeb",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-451",
+      "originalUrl": "https://shangqilu.github.io/",
+      "retrievedUrl": "https://shangqilu.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-301",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/301",
+      "title": "Yuyu LUO · 港科广公开个人资料",
+      "claims": [
+        "研究智能数据分析、数据中心人工智能、大模型智能体。"
+      ],
+      "scope": "研究智能数据分析、数据中心人工智能、大模型智能体。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "25b663dd0ef95a0cd82e1bac2599bbd3dc8e0b5795c9f0252e6563de5847f95f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://luoyuyu.vip/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-427",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/427",
+      "title": "Guoming TANG · 港科广公开个人资料",
+      "claims": [
+        "研究可持续计算、云边缘计算、计算机网络。"
+      ],
+      "scope": "研究可持续计算、云边缘计算、计算机网络。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "475624b20b110b943764f239f0fee37d2748d90a1dfe73049336321d191e3a34",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://guomingtang.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-427",
+      "url": "https://guomingtang.github.io/",
+      "title": "Guoming TANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "7176dfb0d8ab42c3493764896679d63aece27b82bcbd61e18b685757c138b46d",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-427",
+      "originalUrl": "https://guomingtang.github.io/",
+      "retrievedUrl": "https://guomingtang.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-498",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/498",
+      "title": "Jiaheng WEI · 港科广公开个人资料",
+      "claims": [
+        "研究弱监督学习、大模型数据生成、稳健训练。"
+      ],
+      "scope": "研究弱监督学习、大模型数据生成、稳健训练。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "164723eb3d6c29d324bda2b9ede6cd4ef3425bfd91328b9b8fca5e9e9b285a55",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-120",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/120",
+      "title": "Zeyi WEN · 港科广公开个人资料",
+      "claims": [
+        "研究大模型训练与推理、机器学习系统、智能体存储系统。"
+      ],
+      "scope": "研究大模型训练与推理、机器学习系统、智能体存储系统。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "339b0336f8ae0578d5cd0ecccadc6222792f1f7879c2016f7371f3d9f4bad60e",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://zeyiwen.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-120",
+      "url": "https://zeyiwen.github.io/",
+      "title": "Zeyi WEN · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "2d6d29e5d7436626126de195eb707bfc46b64ed34fdb53901750417cc9dcd5a3",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-120",
+      "originalUrl": "https://zeyiwen.github.io/",
+      "retrievedUrl": "https://zeyiwen.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-589",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/589",
+      "title": "Jun XIA · 港科广公开个人资料",
+      "claims": [
+        "研究智能体、自进化人工智能、生命科学智能。"
+      ],
+      "scope": "研究智能体、自进化人工智能、生命科学智能。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a2e0607562e09541773eda8a29112a7778bb54e7798afee5fbe706cade568356",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-428",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/428",
+      "title": "Zeke XIE · 港科广公开个人资料",
+      "claims": [
+        "研究生成式人工智能、智能体、大模型训练与理论。"
+      ],
+      "scope": "研究生成式人工智能、智能体、大模型训练与理论。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "69385b478e6272d63c77ae760190611266ad87c9abd795654381cb24a74479fe",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-452",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/452",
+      "title": "Weikai YANG · 港科广公开个人资料",
+      "claims": [
+        "研究人工智能可视化、人机协作、弱监督与主动学习。"
+      ],
+      "scope": "研究人工智能可视化、人机协作、弱监督与主动学习。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "b9b474fc1ea34caf70ce72f8172f9b1014dc714f05ce684d81288e5992cb9f36",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://vicayang.cc"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-380",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/380",
+      "title": "Yanlin ZHANG · 港科广公开个人资料",
+      "claims": [
+        "研究计算生物学、海洋基因组学、沉浸式数据可视化。"
+      ],
+      "scope": "研究计算生物学、海洋基因组学、沉浸式数据可视化。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "a85a06e6a7b1e5e05fb6ae44fc4375eeec081596168cfd638c062a2b87124dd3",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://zhyanlin.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-380",
+      "url": "https://zhyanlin.github.io/",
+      "title": "Yanlin ZHANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "14bff883676077035af4374865ab0155392d3471a3e12ab6d9a9bc292cf42d07",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-380",
+      "originalUrl": "https://zhyanlin.github.io/",
+      "retrievedUrl": "https://zhyanlin.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-436",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/436",
+      "title": "Yongqi ZHANG · 港科广公开个人资料",
+      "claims": [
+        "研究关系图学习、大模型推理、自动机器学习。"
+      ],
+      "scope": "研究关系图学习、大模型推理、自动机器学习。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "2752f583fcec6686b973372d52dce36adf8ec2a7fd7fdfe2fd128e2fb859f2c3",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://yzhangee.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-436",
+      "url": "https://yzhangee.github.io/",
+      "title": "Yongqi ZHANG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "7e97734dd4d87c551b899915a10d7593082df83fff49d720dc7c2b91d2d32ed7",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-436",
+      "originalUrl": "https://yzhangee.github.io/",
+      "retrievedUrl": "https://yzhangee.github.io/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-453",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/453",
+      "title": "Zixin ZHONG · 港科广公开个人资料",
+      "claims": [
+        "研究强化学习、在线学习、多臂老虎机。"
+      ],
+      "scope": "研究强化学习、在线学习、多臂老虎机。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "9554c61cdeb842a4802deb4617e261c3a9721fdd358808ddc54b444d1459ed74",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://zixinzh.github.io/homepage/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-20261110-site-453",
+      "url": "https://zixinzh.github.io/homepage/",
+      "title": "Zixin ZHONG · 个人研究站点",
+      "claims": [
+        "已核对个人站点的姓名、任职或研究介绍。"
+      ],
+      "scope": "已核对个人站点的姓名、任职或研究介绍。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "knownIssues": [],
+      "bodySha256": "9bc0c4faa7d9a2e2956a5cdbaf3cc4f295489933345266e8d20a9df8e62e80a7",
+      "readMethod": "anonymous_HTTP",
+      "parentSourceId": "hkustgz-dsa-20261110-profile-453",
+      "originalUrl": "https://zixinzh.github.io/homepage/",
+      "retrievedUrl": "https://zixinzh.github.io/homepage/"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-profile-64",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/64",
+      "title": "Lei ZHU · 港科广公开个人资料",
+      "claims": [
+        "研究方向见教师公开档案。"
+      ],
+      "scope": "研究方向见教师公开档案。",
+      "checkedAt": "2026-11-10",
+      "evidenceLevel": "official_scoped_body_read",
+      "knownIssues": [],
+      "bodySha256": "2238c9bb055c839a47666a793d86625b1549374164f7d55966873685fb33d44c",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
     }
   ],
   "funding": [
@@ -289141,5 +291360,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:8aedfec02197ad65302191bf28ff5f10002967baf36478a9d78424fb331cd961"
+  "snapshotId": "sha256:87b91caddea81b136346650013e60fb655f001a9139b77168a0eaf88abddd6cc"
 }
