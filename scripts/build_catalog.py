@@ -1249,6 +1249,11 @@ def build_catalog():
         person.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known)
     for update in sse_completion["leadUpdates"]:
         lead_by_url[update["url"]].update(update)
+    life_categories = load("hkust-life-science-categories-20261111.json")
+    catalog["sources"].append(life_categories["source"])
+    catalog["directories"].append(life_categories["directory"])
+    science = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == life_categories["parentUnitId"])
+    science["staffEntries"].extend(life_categories["staffEntries"])
     return catalog
 
 
