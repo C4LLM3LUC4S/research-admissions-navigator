@@ -1175,6 +1175,10 @@ def build_catalog():
         {"label":"兼读与身份", "text":"本地与非本地的截止日期分别列出；持学生签证或入境许可的非本地学生不能在香港修读兼读研究学位。", "action":"按签证身份与修读模式核对申请安排。", "sourceIds":ocean_sources}],
         finances=[{"id":"hkust-mes-application-fee", "kind":"application_fee", "label":"申请费", "text":"研究学位申请费180港元。", "action":"在正式系统查看付款安排。", "sourceIds":ocean_sources, "rates":[]}])
     catalog["programs"].append(mes)
+    sse_platforms = load("cuhksz-sse-platforms-20261111.json")
+    catalog["sources"].append(sse_platforms["source"])
+    sse_unit = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == sse_platforms["parentUnitId"])
+    sse_unit["researchPlatforms"] = {key: value for key, value in sse_platforms.items() if key not in {"source", "parentUnitId"}}
     return catalog
 
 

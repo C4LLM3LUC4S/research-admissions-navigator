@@ -232597,6 +232597,29 @@ window.APP_CATALOG = {
       "readMethod": "anonymous_HTTP",
       "bodySha256": "ee6e2cde76698df7dca708093817e1e6bca530e4f56e7e9e120af1a4042436ad",
       "discoveredLinks": []
+    },
+    {
+      "id": "cuhksz-sse-platforms-20261111",
+      "url": "https://sse.cuhk.edu.cn/sites/default/files/2026-06/%E7%90%86%E5%B7%A5%E6%8B%9B%E7%94%9F%E6%89%8B%E5%86%8C20260616-%E5%8D%95%E9%A1%B5%E7%94%B5%E5%AD%90%E7%89%88%E7%BD%91%E7%AB%9920mb.pdf",
+      "title": "港中文深圳理工学院手册 · 研究平台",
+      "scope": "仅核PDF物理第48页（印刷46页）的7个研究院名称与对应列名教师；不把科研平台当独立学系。",
+      "claims": [
+        "手册Research Institute栏列出7个研究院名称及对应教师。"
+      ],
+      "checkedAt": "2026-11-11",
+      "knownIssues": [
+        "官网路径和文件名含2026年6月，PDF元数据创建于2026年8月13日；这里只记录文件实际列名，不外推组织隶属或招生资格。"
+      ],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0b609e2580eddbce1481eb5d220ef03d0caf2f6a55a43cde5f4477d2251a4665",
+      "documentPages": 66,
+      "reviewedPhysicalPages": [
+        48
+      ],
+      "reviewedPrintedPages": [
+        "46"
+      ]
     }
   ],
   "funding": [
@@ -297600,7 +297623,44 @@ window.APP_CATALOG = {
               ],
               "note": "只核到学院给出的入口；学位、年度、开放状态和材料仍须到对应项目页确认，不能套用本科或授课型同名项目。"
             }
-          ]
+          ],
+          "researchPlatforms": {
+            "title": "研究院与科研平台",
+            "sourceId": "cuhksz-sse-platforms-20261111",
+            "pageLabel": "学院手册第46页",
+            "pageUrl": "https://sse.cuhk.edu.cn/sites/default/files/2026-06/%E7%90%86%E5%B7%A5%E6%8B%9B%E7%94%9F%E6%89%8B%E5%86%8C20260616-%E5%8D%95%E9%A1%B5%E7%94%B5%E5%AD%90%E7%89%88%E7%BD%91%E7%AB%9920mb.pdf#page=48",
+            "relationship": "listed_research_platform_not_department",
+            "items": [
+              {
+                "name": "深圳市人工智能与机器人研究院",
+                "teacher": "徐扬生"
+              },
+              {
+                "name": "香港中文大学（深圳）机器人与智能制造研究院",
+                "teacher": "徐扬生"
+              },
+              {
+                "name": "深圳市大数据研究院",
+                "teacher": "罗智泉"
+              },
+              {
+                "name": "深圳分子聚集体科学与工程研究院",
+                "teacher": "唐本忠"
+              },
+              {
+                "name": "深圳先进高分子材料研究院",
+                "teacher": "朱世平"
+              },
+              {
+                "name": "未来智联网络研究院",
+                "teacher": "崔曙光"
+              },
+              {
+                "name": "香港中文大学（深圳）大湾区国际碳中和研究院",
+                "teacher": "唐叔贤"
+              }
+            ]
+          }
         },
         {
           "id": "cuhksz-3",
@@ -303920,5 +303980,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:e0e1d04940441edd550eee8d3e16752d2248935e37e800cdb4b21860c918b1ff"
+  "snapshotId": "sha256:c400dbe76f8406d35137e263ec46fec8a7b2b932e5434e31c05663762d9f4684"
 };

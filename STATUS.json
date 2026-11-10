@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_hkust_ocean_science",
+  "stage": "post_alpha34_sse_research_platforms",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
@@ -10,14 +10,14 @@
     "programme_or_route_cards": 72,
     "degree_routes": 125,
     "faculty": 2053,
-    "official_sources": 3244,
+    "official_sources": 3245,
     "programmes_with_partial_requirements": 69,
     "requirement_items": 249,
     "programmes_with_partial_finances": 41,
     "finance_items": 68,
     "official_directory_entries": 125,
     "teacher_linked_sources": 784,
-    "total_sources": 4028,
+    "total_sources": 4029,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -486,5 +486,5 @@
     "新增港中文急症医学教研单位及港科大材料科学与工程系相关入口。",
     "信息来源可按关键词搜索和分批浏览；收藏老师时保留展开的依据。"
   ],
-  "catalogue_snapshot": "sha256:e0e1d04940441edd550eee8d3e16752d2248935e37e800cdb4b21860c918b1ff"
+  "catalogue_snapshot": "sha256:c400dbe76f8406d35137e263ec46fec8a7b2b932e5434e31c05663762d9f4684"
 }
