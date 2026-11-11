@@ -1,0 +1,4291 @@
+{
+  "sources": [
+    {
+      "id": "hkustgz-intr-roster-20261111",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+      "title": "港科大（广州）智能交通学域 · 人员目录",
+      "checkedAt": "2026-11-11",
+      "scope": "学域与校级公开名单均列出32个编号，包含主任及目录所列各类任职。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2ba8f9bbe31946c5c45540c68adaff34247cd300a4e7dc11513d113f0f566b94",
+      "publicDataUrl": "https://sysh.hkust-gz.edu.cn/wp-json/university/v1/getOfficialThrustList?departmentPkCode=10011A10000000000H2K",
+      "comparisonDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/getOfficialThrustList?affiliatedUnits=SYSTHUB&departmentPkCode=10011A10000000000H2K",
+      "comparisonBodySha256": "f6d6d31b6cdffa7a05a6cb71dc01a93eb30163067078300f76c71e49cfe27f7b",
+      "claims": [
+        "学域与校级公开名单均列出32个编号，包含主任及目录所列各类任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=126",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=750",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=690",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=67",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=401",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=680",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=515",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=58",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=103",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=156",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=396",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=104",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=441",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=288",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=458",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=590",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=602",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=745",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=661",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=38",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=705",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=320",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=45",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=168",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=465",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=653",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=112",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=251",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=330",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=755",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=686",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=668"
+      ]
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-126",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=126",
+      "title": "Liuqing YANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:12.482105+00:00",
+      "bodySha256": "17f8fff16850ef6094fb1d29024e5f49f2300a7ef43303c5f78ee36758e2831f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/126",
+      "claims": [
+        "智能交通学域名录列为Thrust Head / Chair Professor。",
+        "多智能体智能",
+        "交通与能源系统",
+        "通信感知融合",
+        "信息处理"
+      ],
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/lqyang/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-750",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=750",
+      "title": "QIANG MENG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:15.606782+00:00",
+      "bodySha256": "18cc26e5a6623c676ac1b5b65383c79c3ada05457ea6ccee16aef72f10f82ed0",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/750",
+      "claims": [
+        "智能交通学域名录列为Chair Professor。"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "该页缺可独立整理的当前研究方向。"
+      ]
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-690",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=690",
+      "title": "Yu HAN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:19.283873+00:00",
+      "bodySha256": "d8fe344bbe947c611d7d50b1e7e89bfbbbd347c978ea4e2ad050989cd077f7d2",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/690",
+      "claims": [
+        "智能交通学域名录列为Associate Professor。",
+        "自主无人机运行",
+        "空地一体交通",
+        "交通控制"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-67",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=67",
+      "title": "Jun MA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:21.115986+00:00",
+      "bodySha256": "8e6e00c925d71cace5fd60411b9082edb5e9f3a1677d24f47aec30be67128133",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/67",
+      "claims": [
+        "智能交通学域名录列为Associate Professor。",
+        "机器人",
+        "自动驾驶",
+        "具身智能",
+        "运动规划与控制",
+        "强化学习"
+      ],
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/junma/index.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-401",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=401",
+      "title": "Yutao YUE · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:23.925975+00:00",
+      "bodySha256": "664b5a73c37a8dd6cfde0e467c75c1a293c347faab03220fc9fc68cd0d3742b8",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/401",
+      "claims": [
+        "智能交通学域名录列为Associate Professor。",
+        "基础模型",
+        "智能体系统",
+        "多模态情感智能",
+        "具身智能"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-680",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=680",
+      "title": "Rongqing ZHANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:27.756984+00:00",
+      "bodySha256": "b5819eb8306a29339bac3319582ada03580d28b590dc533ef60cec9b4bfd7e4b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/680",
+      "claims": [
+        "智能交通学域名录列为Associate Professor。",
+        "低空智能组网",
+        "网络化具身智能",
+        "多智能体协同感知"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-515",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=515",
+      "title": "Changhao CHEN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:33.755948+00:00",
+      "bodySha256": "c1c5af3233be8d5e36ba0d785813f06732ac540a3145c0ba3b6099a56a0ced3d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/515",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "具身智能",
+        "开放世界空间感知",
+        "自主导航与操控",
+        "即时定位与地图构建"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-58",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=58",
+      "title": "Dengbo HE · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:55.921853+00:00",
+      "bodySha256": "4a5878670b6d099e477fed696857fd4f565ae503a714d11d28b1d2379e9b9e99",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/58",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "人因工程",
+        "人机交互",
+        "自动驾驶",
+        "驾驶员状态估计"
+      ],
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/hedengbo/index.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-103",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=103",
+      "title": "Shuai JIA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:57.953330+00:00",
+      "bodySha256": "3af160477cfcacf5bc74f69de608894f8ad4aa3b11fe32c471e224d74b9c5646",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/103",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "数据驱动建模与优化",
+        "多式联运",
+        "物流系统",
+        "决策支持"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-156",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=156",
+      "title": "Zhilu LAI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:01.209258+00:00",
+      "bodySha256": "78abf1147b68e9e7283ee8c2d79f992cd782754d783e4db1481360fff3009761",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/156",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "科学机器学习",
+        "物理信息机器学习",
+        "基础设施视觉监测"
+      ],
+      "discoveredLinks": [
+        "https://zlaidyn.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-396",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=396",
+      "title": "Haoang LI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:02.503599+00:00",
+      "bodySha256": "b9f40cdcc26bd33568b894c0920585824dd762f1681fd89e47dcb15a15842feb",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/396",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "具身智能",
+        "三维计算机视觉",
+        "自动驾驶"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/haoangli/homepage"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-104",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=104",
+      "title": "Lei LI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:10.248420+00:00",
+      "bodySha256": "d10ea55302843b95b5ceca7e4164270a48195a220cad2307fb922981a33d9763",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/104",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "空间数据库",
+        "图数据",
+        "分布式数据库",
+        "智能交通"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/leili"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-441",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=441",
+      "title": "Qiumeng LI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:11.611287+00:00",
+      "bodySha256": "0d01a0269b31f98e302dd05018c70fb193bb0119618ce35b3a1580f0ae150ea9",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/441",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "计算城市科学",
+        "地理人工智能",
+        "人类出行",
+        "空间认知"
+      ],
+      "discoveredLinks": [
+        "https://qiumengl.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-288",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=288",
+      "title": "Yuxuan LIANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:12.743305+00:00",
+      "bodySha256": "c5328b98c0ee205585376b0e16a4cef0fe5a3c1efe3cab751adbf39eca881e97",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/288",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "时空数据挖掘",
+        "时空基础模型",
+        "世界模型",
+        "城市计算",
+        "时间序列"
+      ],
+      "discoveredLinks": [
+        "https://yuxuanliang.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-458",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=458",
+      "title": "Zhidan LIU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:19.508020+00:00",
+      "bodySha256": "00f5d73bb02f2fe514a3e22b3e12fe0377999b497e1aab900602a8191bd2d77e",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/458",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "人工智能物联网",
+        "移动与边缘智能",
+        "以人为中心的感知",
+        "智慧出行"
+      ],
+      "discoveredLinks": [
+        "https://liuzhidan.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-590",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=590",
+      "title": "Benedict Jun MA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:31.557328+00:00",
+      "bodySha256": "8120e6c913de630ead75077fa66917a92a7d1be2b2138e2541e30c91205c542b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/590",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "自动化仓储",
+        "空地协同物流",
+        "人机协作",
+        "人机集体智能"
+      ],
+      "discoveredLinks": [
+        "https://benedictjunma.github.io"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-602",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=602",
+      "title": "Ke MA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:35.214418+00:00",
+      "bodySha256": "8c53e95d0f86072f11e4cef7e766abb1c602e29111f6f3ea92b600174dc500e0",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/602",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "自动驾驶",
+        "智能网联汽车",
+        "端到端学习"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-745",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=745",
+      "title": "Bizhao PANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:35.339291+00:00",
+      "bodySha256": "d00d0ac444820267f214717b4191c6b552ccf8a8173e1521dde1c187dc690507",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/745",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "不确定性下的预测与优化",
+        "人机协同",
+        "多智能体协调",
+        "安全关键系统"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-661",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=661",
+      "title": "Si QIAO · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:40.221740+00:00",
+      "bodySha256": "4c234d5e65313ddd3c1cd8022dfd981a38a73c9cdeea70a2b13255f498c84806",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/661",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "社会空间不平等",
+        "时空数据感知",
+        "感知意图与行为建模",
+        "智能交通"
+      ],
+      "discoveredLinks": [
+        "https://si-lab.city/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-38",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=38",
+      "title": "Xiaotong SUN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:42.219662+00:00",
+      "bodySha256": "8384149a28c30c36394e15fea25ab5a9a1d66505acf9b34ab9e02a6da791f18d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/38",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "交通系统建模",
+        "交通资源配置与定价",
+        "混合交通运行"
+      ],
+      "discoveredLinks": [
+        "https://modes-hkustgz.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-705",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=705",
+      "title": "Jiawei WANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:46.996873+00:00",
+      "bodySha256": "e9f8603feeefcbcacbf1b8717689838bfb45e1acdc830fe04efbb0da5b28000a",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/705",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "智能交通",
+        "强化学习",
+        "生成式人工智能",
+        "人类出行"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-320",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=320",
+      "title": "Jia YAN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:53.427830+00:00",
+      "bodySha256": "e19256731d8e1a76dc82b3215ea2614f665aed582367028ca3a96f92610c12c5",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/320",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "移动边缘计算",
+        "边缘智能",
+        "差分隐私联邦学习",
+        "车联网"
+      ],
+      "discoveredLinks": [
+        "https://jasonjiayan.github.io/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-45",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=45",
+      "title": "Huan YU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:54.470208+00:00",
+      "bodySha256": "b59153f96788707480b39dc0722d535c1d31627a800f7e6279b5dae49c0d5981",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/45",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "智能交通系统",
+        "交通流建模与控制",
+        "混合自动化交通",
+        "强化学习"
+      ],
+      "discoveredLinks": [
+        "https://amslab.org"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-168",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=168",
+      "title": "Xinhu ZHENG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:38:57.937318+00:00",
+      "bodySha256": "34327482a954550440e862b06c31ac988dee5d7f70d78a20f80ceb84d16d58f6",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/168",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "自动驾驶",
+        "具身智能",
+        "多智能体系统"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-465",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=465",
+      "title": "Bingzhuo ZHONG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:02.376083+00:00",
+      "bodySha256": "a0c70499791a3324595ab371ca52f7f94aa320fdb2adb6305e075f18f8be2d89",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/465",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor。",
+        "具身智能安全",
+        "信息物理系统验证与控制",
+        "低空人工智能"
+      ],
+      "discoveredLinks": [
+        "https://sss-cpslab.cn/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-653",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=653",
+      "title": "ZHENG LUO · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T04:15:15.692527+00:00",
+      "bodySha256": "6531d0d6c5e5df784ed29aca840e91dd29a4f38bbb296ad22181399306b2476b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人页研究方向、实务教职与红鸟项目教学",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/653",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor of Practice。",
+        "城市空中交通",
+        "无人机物流",
+        "混合交通人因与安全",
+        "交通决策支持",
+        "交通可达性与韧性"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-112",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=112",
+      "title": "Quanke SU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:09.384633+00:00",
+      "bodySha256": "f76f440ae8d8902517a29f365972c759a1bfa9570bd9a58476ff37536514b928",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/112",
+      "claims": [
+        "智能交通学域名录列为Professor of Practice。",
+        "跨海工程",
+        "桥梁与隧道工程",
+        "交通基础设施数字化"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-251",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=251",
+      "title": "Zongxian SU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:10.015823+00:00",
+      "bodySha256": "172fa75dfe249d714bae7c1b34fd082d2e59bdb6e4ae5ed33338d13a787d593d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/251",
+      "claims": [
+        "智能交通学域名录列为Professor of Practice。",
+        "胶囊管道货运",
+        "水下隧道工程",
+        "智能建造"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-330",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=330",
+      "title": "Wenxun HU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T04:15:15.693528+00:00",
+      "bodySha256": "64fc9e6cf43582875a40820850dd503c1200424e1965e7ca7dfc2d466ba73630",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人页研究方向及红鸟教育项目介绍",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/330",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor of Practice。",
+        "智能交通系统",
+        "智慧城市",
+        "城市空中交通",
+        "情绪智力",
+        "AI辅助正念干预"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-755",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=755",
+      "title": "Chris Yang YU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:22.542346+00:00",
+      "bodySha256": "f90cc2d3ea4390ca0791ec40a23a1f4bc98c6a1d3ba8db5955cb558f58880f01",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/755",
+      "claims": [
+        "智能交通学域名录列为Assistant Professor of Practice。"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "该页缺可独立整理的当前研究方向。"
+      ]
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-686",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=686",
+      "title": "Xiaobo QU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:30.272512+00:00",
+      "bodySha256": "65a3b22c5341348752872d0a413d01d31a66562bac6b77a3454305149c0bf6f8",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/686",
+      "claims": [
+        "智能交通学域名录列为Adjunct Professor。"
+      ],
+      "discoveredLinks": [
+        "https://www.svm.tsinghua.edu.cn/essay/80/1920.html"
+      ],
+      "knownIssues": [
+        "该页缺可独立整理的当前研究方向。"
+      ]
+    },
+    {
+      "id": "hkustgz-intr-profile-20261111-668",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=668",
+      "title": "Jianhua TANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:35.114949+00:00",
+      "bodySha256": "35eaf912f246c4a7edf4bb1eb68cf37d046e32f10d84a4712473abcba8f99854",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人简介所列研究方向及兼任身份",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/668",
+      "claims": [
+        "智能交通学域名录列为Adjunct Associate Professor。",
+        "无线通信",
+        "边缘智能",
+        "低空网络",
+        "AI-RAN"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-roster-20261111",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+      "title": "港科大（广州）智能制造学域 · 人员目录",
+      "checkedAt": "2026-11-11",
+      "scope": "学域与校级公开名单均列出19个编号，包含主任及目录所列各类任职。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2612d4b6312d2c1023b467bc35e29fa50a0f4ded363e6de668aa8ed82b2fbe2e",
+      "publicDataUrl": "https://sysh.hkust-gz.edu.cn/wp-json/university/v1/getOfficialThrustList?departmentPkCode=10011A10000000000H2O",
+      "comparisonDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/getOfficialThrustList?affiliatedUnits=SYSTHUB&departmentPkCode=10011A10000000000H2O",
+      "comparisonBodySha256": "bffb7f57c9559a3364d8cc3d547da7937a10e1d67aff3b344968b09bad467d4f",
+      "claims": [
+        "学域与校级公开名单均列出19个编号，包含主任及目录所列各类任职。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=142",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=16",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=12",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=286",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=665",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=116",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=52",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=114",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=247",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=626",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=11",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=426",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=512",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=404",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=65",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=352",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=654",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=117"
+      ]
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-142",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=142",
+      "title": "Kai TANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:24.090363+00:00",
+      "bodySha256": "5279c3b408ddc7651b8f03103d956188217f6ec44cf148934601fe554bc6c1a8",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/142",
+      "claims": [
+        "智能制造学域名录列为Thrust Head / Professor。",
+        "计算机辅助设计与制造",
+        "多轴加工",
+        "多轴增材制造",
+        "混合制造"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-16",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=16",
+      "title": "Ricky Shi-Wei LEE · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:39:35.826046+00:00",
+      "bodySha256": "9ef670cc5a5e6d4f3e7f7a18fbb1759731e5b4e090d5010ad1baaeaecf2de566",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/16",
+      "claims": [
+        "智能制造学域名录列为Chair Professor。",
+        "电子封装",
+        "计算建模",
+        "微机电系统"
+      ],
+      "discoveredLinks": [
+        "https://facultyprofiles.ust.hk/profiles.php?profile=ricky-shiwei-lee-rickylee"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-12",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=12",
+      "title": "Jingshen WU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:25.261732+00:00",
+      "bodySha256": "041c3bd85ed9ce64d1676458bc0b0d9f1da7083d34dc906265eebc4d44dac24c",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/12",
+      "claims": [
+        "智能制造学域名录列为Professor。"
+      ],
+      "discoveredLinks": [
+        "https://seng.ust.hk/about/people/faculty/jingshen-wu"
+      ],
+      "knownIssues": [
+        "该页缺可独立整理的当前研究方向。"
+      ]
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-286",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=286",
+      "title": "Pengcheng HU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:27.337712+00:00",
+      "bodySha256": "c8bf5e622e9da1cdb279f37bac5c37e12fbb3f72c6b2994b85f38305c543b45c",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/286",
+      "claims": [
+        "智能制造学域名录列为Associate Professor。",
+        "智能数控加工",
+        "机器人制造",
+        "多轴刀具路径优化",
+        "增减材混合制造"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-665",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=665",
+      "title": "SHANE MIGUEL JOHNSON · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:29.076650+00:00",
+      "bodySha256": "894f8fedb42535c8f967ec17345b8c3a28b9390f82b26d9ec2a1b3e3dda2a679",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/665",
+      "claims": [
+        "智能制造学域名录列为Associate Professor。",
+        "可重构制造",
+        "复合材料制造",
+        "无模芯纤维缠绕",
+        "结构优化"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-116",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=116",
+      "title": "Yunda WANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:37.045933+00:00",
+      "bodySha256": "04cd813a77a8761f7c70c073f85999a8db64bb8183a5467798c2453d2d59237f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/116",
+      "claims": [
+        "智能制造学域名录列为Associate Professor。",
+        "微机电系统",
+        "微系统集成"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-52",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=52",
+      "title": "Yi CAI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:37.408381+00:00",
+      "bodySha256": "85a2646921f6ea0aa94956a0a85d71658f75569ab753cd16522bdd64befd1293",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/52",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "增材制造",
+        "先进制造机器人",
+        "数字孪生"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/hkust-gz-yicai/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-114",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=114",
+      "title": "Mojun CHEN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:44.290376+00:00",
+      "bodySha256": "c4eada963fac7589a5b17c90a10b733353d8cccfc8b6ec8aa4cb27fb40d8049c",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/114",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "微纳三维打印",
+        "光电子",
+        "微纳机器人",
+        "可穿戴器件"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-247",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=247",
+      "title": "Huachen CUI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:56.773367+00:00",
+      "bodySha256": "78d9eeb7fc7bd432fcc011c0d4b2bada9058b73ba50e62c4090fce2cbfa234fb",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/247",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "增材制造",
+        "多功能材料",
+        "机器人与自主系统"
+      ],
+      "discoveredLinks": [
+        "https://www.huachencui.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-626",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=626",
+      "title": "Rushi DAI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:41:57.144500+00:00",
+      "bodySha256": "3eeb7257c937a1d2f933dba8ab915432a41fe0530d426cbbb66eec15b8d5f648",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/626",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "智能设计与建造机器人",
+        "人工智能驱动数字孪生",
+        "人机交互",
+        "健康辅助技术"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-11",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=11",
+      "title": "Juan DU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:01.523348+00:00",
+      "bodySha256": "fdc18b23f681554c844f465e3ba307ddab78bd8cc31b1440a8534d174ff75a55",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/11",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "质量改进数据科学",
+        "工业数据分析",
+        "制造系统信息学与控制"
+      ],
+      "discoveredLinks": [
+        "https://sites.google.com/view/juandu/home"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-426",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=426",
+      "title": "Daqiang GUO · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:01.904393+00:00",
+      "bodySha256": "40d124e5ad9e47498e422fbd311b82edd69848f3877c4192ab7baa9868569a48",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/426",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "自主生产系统",
+        "人机协同制造"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-512",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=512",
+      "title": "Shiyuan LIU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:07.978625+00:00",
+      "bodySha256": "ed466bd988cabae37d05b5eaa73b847c128488911a537eb499df9d85d34008d6",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/512",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "功能陶瓷薄膜",
+        "可拉伸电子",
+        "软体机器人",
+        "超声供能"
+      ],
+      "discoveredLinks": [
+        "https://www.liusylab.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-376",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+      "title": "Wenyu WANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:51.935226+00:00",
+      "bodySha256": "d668de31bbfc2d41a1e5fe8c7a4ebb25f1a1f1e686fc23250a2f8bc9974ad985",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/376",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "软材料自适应打印",
+        "电子皮肤",
+        "智能可穿戴",
+        "生物制造"
+      ],
+      "discoveredLinks": [
+        "https://wang-andy.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-404",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=404",
+      "title": "Liang YUE · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:19.723997+00:00",
+      "bodySha256": "b1ff8fdaa84c2c25d3738d6d8fc76d65b0aa2d556c7cecd31600f544f9ba095f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/404",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "多功能高分子材料",
+        "响应性材料",
+        "可变形结构",
+        "四维打印"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-65",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=65",
+      "title": "Kaihao ZHANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:24.690429+00:00",
+      "bodySha256": "c43bfcaa5b95eb82682aac51086f1243a6215fe14866bf4fe6058d00da78c69d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/65",
+      "claims": [
+        "智能制造学域名录列为Assistant Professor。",
+        "增材制造",
+        "金属基复合材料",
+        "激光制造",
+        "材料合成"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-352",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=352",
+      "title": "Dong LU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:26.650219+00:00",
+      "bodySha256": "d77ad9d4017c5477d86bf2266ccd4a820215c5fdef73d8c4cc56a7467c52adeb",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/352",
+      "claims": [
+        "智能制造学域名录列为Associate Professor of Practice。",
+        "工程项目教育",
+        "人工智能辅助微系统封装",
+        "失效分析"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-654",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=654",
+      "title": "Guoxiong QIU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:31.968761+00:00",
+      "bodySha256": "c3250aa67622653b1ef7be5312030e5710dadcb333ce62ef28b81309a6754c03",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人简介所列语言教育研究；现为讲师",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/654",
+      "claims": [
+        "智能制造学域名录列为Lecturer II。",
+        "英语授课",
+        "学术英语",
+        "专门用途英语",
+        "生成式人工智能与语言教育"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-smmg-profile-20261111-117",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=117",
+      "title": "Man CHAN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:34.726408+00:00",
+      "bodySha256": "ff7a347f19e05b2223f7731a621f8a08f719c6545e773e3749743241c7b3407e",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "个人身份、任职与研究方向栏",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/117",
+      "claims": [
+        "智能制造学域名录列为Professor of Practice。",
+        "碳纤维材料与结构设计",
+        "机电系统",
+        "超声振动系统"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hkustgz-intr-690",
+      "universityId": "hkustgz",
+      "name": "Yu HAN",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=690",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括自主无人机运行、空地一体交通、交通控制。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-690"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-690"
+      ],
+      "researchKeywords": [
+        "自主无人机运行",
+        "空地一体交通",
+        "交通控制"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-690"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-401",
+      "universityId": "hkustgz",
+      "name": "Yutao YUE",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=401",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括基础模型、智能体系统、多模态情感智能、具身智能。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-401"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-401"
+      ],
+      "researchKeywords": [
+        "基础模型",
+        "智能体系统",
+        "多模态情感智能",
+        "具身智能"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-401"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-680",
+      "universityId": "hkustgz",
+      "name": "Rongqing ZHANG",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=680",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括低空智能组网、网络化具身智能、多智能体协同感知。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-680"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-680"
+      ],
+      "researchKeywords": [
+        "低空智能组网",
+        "网络化具身智能",
+        "多智能体协同感知"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-680"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-515",
+      "universityId": "hkustgz",
+      "name": "Changhao CHEN",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=515",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括具身智能、开放世界空间感知、自主导航与操控、即时定位与地图构建。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-515"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-515"
+      ],
+      "researchKeywords": [
+        "具身智能",
+        "开放世界空间感知",
+        "自主导航与操控",
+        "即时定位与地图构建"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-515"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-103",
+      "universityId": "hkustgz",
+      "name": "Shuai JIA",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=103",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括数据驱动建模与优化、多式联运、物流系统、决策支持。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-103"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-103"
+      ],
+      "researchKeywords": [
+        "数据驱动建模与优化",
+        "多式联运",
+        "物流系统",
+        "决策支持"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-103"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-441",
+      "universityId": "hkustgz",
+      "name": "Qiumeng LI",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=441",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括计算城市科学、地理人工智能、人类出行、空间认知。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-441"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-441"
+      ],
+      "researchKeywords": [
+        "计算城市科学",
+        "地理人工智能",
+        "人类出行",
+        "空间认知"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://qiumengl.github.io/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-441",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-441"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-458",
+      "universityId": "hkustgz",
+      "name": "Zhidan LIU",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=458",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括人工智能物联网、移动与边缘智能、以人为中心的感知、智慧出行。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-458"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-458"
+      ],
+      "researchKeywords": [
+        "人工智能物联网",
+        "移动与边缘智能",
+        "以人为中心的感知",
+        "智慧出行"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://liuzhidan.github.io/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-458",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-458"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-590",
+      "universityId": "hkustgz",
+      "name": "Benedict Jun MA",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=590",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括自动化仓储、空地协同物流、人机协作、人机集体智能。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-590"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-590"
+      ],
+      "researchKeywords": [
+        "自动化仓储",
+        "空地协同物流",
+        "人机协作",
+        "人机集体智能"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://benedictjunma.github.io",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-590",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-590"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-602",
+      "universityId": "hkustgz",
+      "name": "Ke MA",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=602",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括自动驾驶、智能网联汽车、端到端学习。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-602"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-602"
+      ],
+      "researchKeywords": [
+        "自动驾驶",
+        "智能网联汽车",
+        "端到端学习"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-602"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-745",
+      "universityId": "hkustgz",
+      "name": "Bizhao PANG",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=745",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括不确定性下的预测与优化、人机协同、多智能体协调、安全关键系统。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-745"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-745"
+      ],
+      "researchKeywords": [
+        "不确定性下的预测与优化",
+        "人机协同",
+        "多智能体协调",
+        "安全关键系统"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-745"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-661",
+      "universityId": "hkustgz",
+      "name": "Si QIAO",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=661",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括社会空间不平等、时空数据感知、感知意图与行为建模、智能交通。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-661"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-661"
+      ],
+      "researchKeywords": [
+        "社会空间不平等",
+        "时空数据感知",
+        "感知意图与行为建模",
+        "智能交通"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://si-lab.city/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-661",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-661"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-38",
+      "universityId": "hkustgz",
+      "name": "Xiaotong SUN",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=38",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括交通系统建模、交通资源配置与定价、混合交通运行。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-38"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-38"
+      ],
+      "researchKeywords": [
+        "交通系统建模",
+        "交通资源配置与定价",
+        "混合交通运行"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://modes-hkustgz.github.io/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-38",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-38"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-705",
+      "universityId": "hkustgz",
+      "name": "Jiawei WANG",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=705",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括智能交通、强化学习、生成式人工智能、人类出行。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-705"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-705"
+      ],
+      "researchKeywords": [
+        "智能交通",
+        "强化学习",
+        "生成式人工智能",
+        "人类出行"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-705"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-320",
+      "universityId": "hkustgz",
+      "name": "Jia YAN",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=320",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括移动边缘计算、边缘智能、差分隐私联邦学习、车联网。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-320"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-320"
+      ],
+      "researchKeywords": [
+        "移动边缘计算",
+        "边缘智能",
+        "差分隐私联邦学习",
+        "车联网"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://jasonjiayan.github.io/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-320",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-320"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-465",
+      "universityId": "hkustgz",
+      "name": "Bingzhuo ZHONG",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=465",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括具身智能安全、信息物理系统验证与控制、低空人工智能。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-465"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-465"
+      ],
+      "researchKeywords": [
+        "具身智能安全",
+        "信息物理系统验证与控制",
+        "低空人工智能"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sss-cpslab.cn/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-intr-profile-20261111-465",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-465"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-653",
+      "universityId": "hkustgz",
+      "name": "ZHENG LUO",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=653",
+      "directoryRole": "Assistant Professor of Practice",
+      "summary": "研究方向包括城市空中交通、无人机物流、混合交通人因与安全、交通决策支持、交通可达性与韧性。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-653"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-653"
+      ],
+      "researchKeywords": [
+        "城市空中交通",
+        "无人机物流",
+        "混合交通人因与安全",
+        "交通决策支持",
+        "交通可达性与韧性"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-653"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-112",
+      "universityId": "hkustgz",
+      "name": "Quanke SU",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=112",
+      "directoryRole": "Professor of Practice",
+      "summary": "研究方向包括跨海工程、桥梁与隧道工程、交通基础设施数字化。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-112"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-112"
+      ],
+      "researchKeywords": [
+        "跨海工程",
+        "桥梁与隧道工程",
+        "交通基础设施数字化"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-112"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-251",
+      "universityId": "hkustgz",
+      "name": "Zongxian SU",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=251",
+      "directoryRole": "Professor of Practice",
+      "summary": "研究方向包括胶囊管道货运、水下隧道工程、智能建造。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-251"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-251"
+      ],
+      "researchKeywords": [
+        "胶囊管道货运",
+        "水下隧道工程",
+        "智能建造"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-251"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-330",
+      "universityId": "hkustgz",
+      "name": "Wenxun HU",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=330",
+      "directoryRole": "Assistant Professor of Practice",
+      "summary": "研究方向包括智能交通系统、智慧城市、城市空中交通和情绪智力。个人简介另列红鸟教育项目中的AI辅助正念干预。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-330"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-330"
+      ],
+      "researchKeywords": [
+        "智能交通系统",
+        "智慧城市",
+        "城市空中交通",
+        "情绪智力",
+        "AI辅助正念干预"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-330"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-intr-668",
+      "universityId": "hkustgz",
+      "name": "Jianhua TANG",
+      "department": "智能交通学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=668",
+      "directoryRole": "Adjunct Associate Professor",
+      "summary": "研究方向包括无线通信、边缘智能、低空网络、AI-RAN。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-profile-20261111-668"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-668"
+      ],
+      "researchKeywords": [
+        "无线通信",
+        "边缘智能",
+        "低空网络",
+        "AI-RAN"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-668"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-142",
+      "universityId": "hkustgz",
+      "name": "Kai TANG",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=142",
+      "directoryRole": "Thrust Head / Professor",
+      "summary": "研究方向包括计算机辅助设计与制造、多轴加工、多轴增材制造、混合制造。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-142"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-142"
+      ],
+      "researchKeywords": [
+        "计算机辅助设计与制造",
+        "多轴加工",
+        "多轴增材制造",
+        "混合制造"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-142"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-286",
+      "universityId": "hkustgz",
+      "name": "Pengcheng HU",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=286",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括智能数控加工、机器人制造、多轴刀具路径优化、增减材混合制造。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-286"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-286"
+      ],
+      "researchKeywords": [
+        "智能数控加工",
+        "机器人制造",
+        "多轴刀具路径优化",
+        "增减材混合制造"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-286"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-665",
+      "universityId": "hkustgz",
+      "name": "SHANE MIGUEL JOHNSON",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=665",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括可重构制造、复合材料制造、无模芯纤维缠绕、结构优化。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-665"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-665"
+      ],
+      "researchKeywords": [
+        "可重构制造",
+        "复合材料制造",
+        "无模芯纤维缠绕",
+        "结构优化"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-665"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-116",
+      "universityId": "hkustgz",
+      "name": "Yunda WANG",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=116",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括微机电系统、微系统集成。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-116"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-116"
+      ],
+      "researchKeywords": [
+        "微机电系统",
+        "微系统集成"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-116"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-52",
+      "universityId": "hkustgz",
+      "name": "Yi CAI",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=52",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括增材制造、先进制造机器人、数字孪生。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-52"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-52"
+      ],
+      "researchKeywords": [
+        "增材制造",
+        "先进制造机器人",
+        "数字孪生"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/hkust-gz-yicai/home",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-smmg-profile-20261111-52",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-52"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-114",
+      "universityId": "hkustgz",
+      "name": "Mojun CHEN",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=114",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括微纳三维打印、光电子、微纳机器人、可穿戴器件。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-114"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-114"
+      ],
+      "researchKeywords": [
+        "微纳三维打印",
+        "光电子",
+        "微纳机器人",
+        "可穿戴器件"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-114"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-247",
+      "universityId": "hkustgz",
+      "name": "Huachen CUI",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=247",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括增材制造、多功能材料、机器人与自主系统。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-247"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-247"
+      ],
+      "researchKeywords": [
+        "增材制造",
+        "多功能材料",
+        "机器人与自主系统"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.huachencui.com/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-smmg-profile-20261111-247",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-247"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-626",
+      "universityId": "hkustgz",
+      "name": "Rushi DAI",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=626",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括智能设计与建造机器人、人工智能驱动数字孪生、人机交互、健康辅助技术。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-626"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-626"
+      ],
+      "researchKeywords": [
+        "智能设计与建造机器人",
+        "人工智能驱动数字孪生",
+        "人机交互",
+        "健康辅助技术"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-626"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-426",
+      "universityId": "hkustgz",
+      "name": "Daqiang GUO",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=426",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括自主生产系统、人机协同制造。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-426"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-426"
+      ],
+      "researchKeywords": [
+        "自主生产系统",
+        "人机协同制造"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-426"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-512",
+      "universityId": "hkustgz",
+      "name": "Shiyuan LIU",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=512",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括功能陶瓷薄膜、可拉伸电子、软体机器人、超声供能。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-512"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-512"
+      ],
+      "researchKeywords": [
+        "功能陶瓷薄膜",
+        "可拉伸电子",
+        "软体机器人",
+        "超声供能"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.liusylab.com/",
+          "label": "个人页所给链接",
+          "parentSourceId": "hkustgz-smmg-profile-20261111-512",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-512"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-404",
+      "universityId": "hkustgz",
+      "name": "Liang YUE",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=404",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括多功能高分子材料、响应性材料、可变形结构、四维打印。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-404"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-404"
+      ],
+      "researchKeywords": [
+        "多功能高分子材料",
+        "响应性材料",
+        "可变形结构",
+        "四维打印"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-404"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-65",
+      "universityId": "hkustgz",
+      "name": "Kaihao ZHANG",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=65",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括增材制造、金属基复合材料、激光制造、材料合成。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-65"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-65"
+      ],
+      "researchKeywords": [
+        "增材制造",
+        "金属基复合材料",
+        "激光制造",
+        "材料合成"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-65"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-352",
+      "universityId": "hkustgz",
+      "name": "Dong LU",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=352",
+      "directoryRole": "Associate Professor of Practice",
+      "summary": "研究方向包括工程项目教育、人工智能辅助微系统封装、失效分析。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-352"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-352"
+      ],
+      "researchKeywords": [
+        "工程项目教育",
+        "人工智能辅助微系统封装",
+        "失效分析"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-352"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-654",
+      "universityId": "hkustgz",
+      "name": "Guoxiong QIU",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=654",
+      "directoryRole": "Lecturer II",
+      "summary": "现为讲师，研究英语授课、学术与专门用途英语，以及生成式人工智能在语言教育中的应用。",
+      "topics": [
+        "教育学"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-654"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-654"
+      ],
+      "researchKeywords": [
+        "英语授课",
+        "学术英语",
+        "专门用途英语",
+        "生成式人工智能与语言教育"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-654"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-117",
+      "universityId": "hkustgz",
+      "name": "Man CHAN",
+      "department": "智能制造学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=117",
+      "directoryRole": "Professor of Practice",
+      "summary": "研究方向包括碳纤维材料与结构设计、机电系统、超声振动系统。",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-profile-20261111-117"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-117"
+      ],
+      "researchKeywords": [
+        "碳纤维材料与结构设计",
+        "机电系统",
+        "超声振动系统"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-117"
+        ]
+      }
+    }
+  ],
+  "facultyUpdates": [
+    {
+      "id": "hkustgz-iot-20261109-126",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-126",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-126"
+      ],
+      "researchKeywords": [
+        "多智能体智能",
+        "交通与能源系统",
+        "通信感知融合",
+        "信息处理"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Thrust Head / Chair Professor。"
+    },
+    {
+      "id": "wide-hkustgz-jun-ma",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-67",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-67"
+      ],
+      "researchKeywords": [
+        "机器人",
+        "自动驾驶",
+        "具身智能",
+        "运动规划与控制",
+        "强化学习"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Associate Professor。"
+    },
+    {
+      "id": "wide-hkustgz-dengbo-he",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-58",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-58"
+      ],
+      "researchKeywords": [
+        "人因工程",
+        "人机交互",
+        "自动驾驶",
+        "驾驶员状态估计"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-iot-20261109-156",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-156",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-156"
+      ],
+      "researchKeywords": [
+        "科学机器学习",
+        "物理信息机器学习",
+        "基础设施视觉监测"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-roas-396",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-396",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-396"
+      ],
+      "researchKeywords": [
+        "具身智能",
+        "三维计算机视觉",
+        "自动驾驶"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-104",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-104",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-104"
+      ],
+      "researchKeywords": [
+        "空间数据库",
+        "图数据",
+        "分布式数据库",
+        "智能交通"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-288",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-288",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-288"
+      ],
+      "researchKeywords": [
+        "时空数据挖掘",
+        "时空基础模型",
+        "世界模型",
+        "城市计算",
+        "时间序列"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-roas-45",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-45",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-45"
+      ],
+      "researchKeywords": [
+        "智能交通系统",
+        "交通流建模与控制",
+        "混合自动化交通",
+        "强化学习"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-roas-168",
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-168",
+        "hkustgz-intr-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-profile-20261111-168"
+      ],
+      "researchKeywords": [
+        "自动驾驶",
+        "具身智能",
+        "多智能体系统"
+      ],
+      "additionalIdentityNote": "广州智能交通学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-roas-16",
+      "sourceIds": [
+        "hkustgz-smmg-profile-20261111-16",
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-16"
+      ],
+      "researchKeywords": [
+        "电子封装",
+        "计算建模",
+        "微机电系统"
+      ],
+      "additionalIdentityNote": "广州智能制造学域名录另列任职为Chair Professor。"
+    },
+    {
+      "id": "hkustgz-dsa-20261110-11",
+      "sourceIds": [
+        "hkustgz-smmg-profile-20261111-11",
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-11"
+      ],
+      "researchKeywords": [
+        "质量改进数据科学",
+        "工业数据分析",
+        "制造系统信息学与控制"
+      ],
+      "additionalIdentityNote": "广州智能制造学域名录另列任职为Assistant Professor。"
+    },
+    {
+      "id": "hkustgz-bsbe-376",
+      "sourceIds": [
+        "hkustgz-smmg-profile-20261111-376",
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-profile-20261111-376"
+      ],
+      "researchKeywords": [
+        "软材料自适应打印",
+        "电子皮肤",
+        "智能可穿戴",
+        "生物制造"
+      ],
+      "additionalIdentityNote": "广州智能制造学域名录另列任职为Assistant Professor。"
+    }
+  ],
+  "directories": [
+    {
+      "id": "hkustgz-intr-roster-20261111-directory",
+      "universityId": "hkustgz",
+      "unit": "智能交通学域 · 人员目录",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "reviewSourceIds": [
+        "hkustgz-intr-profile-20261111-126",
+        "hkustgz-intr-profile-20261111-750",
+        "hkustgz-intr-profile-20261111-690",
+        "hkustgz-intr-profile-20261111-67",
+        "hkustgz-intr-profile-20261111-401",
+        "hkustgz-intr-profile-20261111-680",
+        "hkustgz-intr-profile-20261111-515",
+        "hkustgz-intr-profile-20261111-58",
+        "hkustgz-intr-profile-20261111-103",
+        "hkustgz-intr-profile-20261111-156",
+        "hkustgz-intr-profile-20261111-396",
+        "hkustgz-intr-profile-20261111-104",
+        "hkustgz-intr-profile-20261111-441",
+        "hkustgz-intr-profile-20261111-288",
+        "hkustgz-intr-profile-20261111-458",
+        "hkustgz-intr-profile-20261111-590",
+        "hkustgz-intr-profile-20261111-602",
+        "hkustgz-intr-profile-20261111-745",
+        "hkustgz-intr-profile-20261111-661",
+        "hkustgz-intr-profile-20261111-38",
+        "hkustgz-intr-profile-20261111-705",
+        "hkustgz-intr-profile-20261111-320",
+        "hkustgz-intr-profile-20261111-45",
+        "hkustgz-intr-profile-20261111-168",
+        "hkustgz-intr-profile-20261111-465",
+        "hkustgz-intr-profile-20261111-653",
+        "hkustgz-intr-profile-20261111-112",
+        "hkustgz-intr-profile-20261111-251",
+        "hkustgz-intr-profile-20261111-330",
+        "hkustgz-intr-profile-20261111-755",
+        "hkustgz-intr-profile-20261111-686",
+        "hkustgz-intr-profile-20261111-668"
+      ],
+      "coverageNotes": "学域与校级公开名单均列出32个编号，包含主任及目录所列各类任职。",
+      "census": {
+        "observedTotal": 32,
+        "profilesRead": 32,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Liuqing YANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=126",
+            "directoryPosition": "Thrust Head / Chair Professor",
+            "category": "学域主任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-iot-20261109-126"
+          },
+          {
+            "name": "QIANG MENG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=750",
+            "directoryPosition": "Chair Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Yu HAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=690",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-690"
+          },
+          {
+            "name": "Jun MA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=67",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "wide-hkustgz-jun-ma"
+          },
+          {
+            "name": "Yutao YUE",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=401",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-401"
+          },
+          {
+            "name": "Rongqing ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=680",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-680"
+          },
+          {
+            "name": "Changhao CHEN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=515",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-515"
+          },
+          {
+            "name": "Dengbo HE",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=58",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "wide-hkustgz-dengbo-he"
+          },
+          {
+            "name": "Shuai JIA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=103",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-103"
+          },
+          {
+            "name": "Zhilu LAI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=156",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-iot-20261109-156"
+          },
+          {
+            "name": "Haoang LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=396",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-roas-396"
+          },
+          {
+            "name": "Lei LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=104",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-dsa-20261110-104"
+          },
+          {
+            "name": "Qiumeng LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=441",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-441"
+          },
+          {
+            "name": "Yuxuan LIANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=288",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-dsa-20261110-288"
+          },
+          {
+            "name": "Zhidan LIU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=458",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-458"
+          },
+          {
+            "name": "Benedict Jun MA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=590",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-590"
+          },
+          {
+            "name": "Ke MA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=602",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-602"
+          },
+          {
+            "name": "Bizhao PANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=745",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-745"
+          },
+          {
+            "name": "Si QIAO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=661",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-661"
+          },
+          {
+            "name": "Xiaotong SUN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=38",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-38"
+          },
+          {
+            "name": "Jiawei WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=705",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-705"
+          },
+          {
+            "name": "Jia YAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=320",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-320"
+          },
+          {
+            "name": "Huan YU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=45",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-roas-45"
+          },
+          {
+            "name": "Xinhu ZHENG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=168",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-roas-168"
+          },
+          {
+            "name": "Bingzhuo ZHONG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=465",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-465"
+          },
+          {
+            "name": "ZHENG LUO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=653",
+            "directoryPosition": "Assistant Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-653"
+          },
+          {
+            "name": "Quanke SU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=112",
+            "directoryPosition": "Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-112"
+          },
+          {
+            "name": "Zongxian SU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=251",
+            "directoryPosition": "Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-251"
+          },
+          {
+            "name": "Wenxun HU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=330",
+            "directoryPosition": "Assistant Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-330"
+          },
+          {
+            "name": "Chris Yang YU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=755",
+            "directoryPosition": "Assistant Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Xiaobo QU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=686",
+            "directoryPosition": "Adjunct Professor",
+            "category": "兼任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Jianhua TANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=668",
+            "directoryPosition": "Adjunct Associate Professor",
+            "category": "兼任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-intr-668"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-smmg-roster-20261111-directory",
+      "universityId": "hkustgz",
+      "unit": "智能制造学域 · 人员目录",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "reviewSourceIds": [
+        "hkustgz-smmg-profile-20261111-142",
+        "hkustgz-smmg-profile-20261111-16",
+        "hkustgz-smmg-profile-20261111-12",
+        "hkustgz-smmg-profile-20261111-286",
+        "hkustgz-smmg-profile-20261111-665",
+        "hkustgz-smmg-profile-20261111-116",
+        "hkustgz-smmg-profile-20261111-52",
+        "hkustgz-smmg-profile-20261111-114",
+        "hkustgz-smmg-profile-20261111-247",
+        "hkustgz-smmg-profile-20261111-626",
+        "hkustgz-smmg-profile-20261111-11",
+        "hkustgz-smmg-profile-20261111-426",
+        "hkustgz-smmg-profile-20261111-512",
+        "hkustgz-smmg-profile-20261111-376",
+        "hkustgz-smmg-profile-20261111-404",
+        "hkustgz-smmg-profile-20261111-65",
+        "hkustgz-smmg-profile-20261111-352",
+        "hkustgz-smmg-profile-20261111-654",
+        "hkustgz-smmg-profile-20261111-117"
+      ],
+      "coverageNotes": "学域与校级公开名单均列出19个编号，包含主任及目录所列各类任职。",
+      "census": {
+        "observedTotal": 19,
+        "profilesRead": 19,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Kai TANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=142",
+            "directoryPosition": "Thrust Head / Professor",
+            "category": "学域主任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-142"
+          },
+          {
+            "name": "Ricky Shi-Wei LEE",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=16",
+            "directoryPosition": "Chair Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-roas-16"
+          },
+          {
+            "name": "Jingshen WU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=12",
+            "directoryPosition": "Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Pengcheng HU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=286",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-286"
+          },
+          {
+            "name": "SHANE MIGUEL JOHNSON",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=665",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-665"
+          },
+          {
+            "name": "Yunda WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=116",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-116"
+          },
+          {
+            "name": "Yi CAI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=52",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-52"
+          },
+          {
+            "name": "Mojun CHEN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=114",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-114"
+          },
+          {
+            "name": "Huachen CUI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=247",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-247"
+          },
+          {
+            "name": "Rushi DAI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=626",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-626"
+          },
+          {
+            "name": "Juan DU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=11",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-dsa-20261110-11"
+          },
+          {
+            "name": "Daqiang GUO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=426",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-426"
+          },
+          {
+            "name": "Shiyuan LIU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=512",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-512"
+          },
+          {
+            "name": "Wenyu WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-376"
+          },
+          {
+            "name": "Liang YUE",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=404",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-404"
+          },
+          {
+            "name": "Kaihao ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=65",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-65"
+          },
+          {
+            "name": "Dong LU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=352",
+            "directoryPosition": "Associate Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-352"
+          },
+          {
+            "name": "Guoxiong QIU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=654",
+            "directoryPosition": "Lecturer II",
+            "category": "教学",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-654"
+          },
+          {
+            "name": "Man CHAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=117",
+            "directoryPosition": "Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-smmg-117"
+          }
+        ]
+      }
+    }
+  ],
+  "staffEntries": [
+    {
+      "label": "智能交通学域 · 学域主任",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Liuqing YANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=126",
+          "directoryLabel": "学域主任",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "17f8fff16850ef6094fb1d29024e5f49f2300a7ef43303c5f78ee36758e2831f",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-iot-20261109-126",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "智能交通学域 · 常规",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "QIANG MENG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=750",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "18cc26e5a6623c676ac1b5b65383c79c3ada05457ea6ccee16aef72f10f82ed0",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ]
+        },
+        {
+          "name": "Yu HAN",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=690",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "d8fe344bbe947c611d7d50b1e7e89bfbbbd347c978ea4e2ad050989cd077f7d2",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-690",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Jun MA",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=67",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "8e6e00c925d71cace5fd60411b9082edb5e9f3a1677d24f47aec30be67128133",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "wide-hkustgz-jun-ma",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Yutao YUE",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=401",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "664b5a73c37a8dd6cfde0e467c75c1a293c347faab03220fc9fc68cd0d3742b8",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-401",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Rongqing ZHANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=680",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "b5819eb8306a29339bac3319582ada03580d28b590dc533ef60cec9b4bfd7e4b",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-680",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Changhao CHEN",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=515",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "c1c5af3233be8d5e36ba0d785813f06732ac540a3145c0ba3b6099a56a0ced3d",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-515",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Dengbo HE",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=58",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "4a5878670b6d099e477fed696857fd4f565ae503a714d11d28b1d2379e9b9e99",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "wide-hkustgz-dengbo-he",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Shuai JIA",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=103",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "3af160477cfcacf5bc74f69de608894f8ad4aa3b11fe32c471e224d74b9c5646",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-103",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Zhilu LAI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=156",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "78abf1147b68e9e7283ee8c2d79f992cd782754d783e4db1481360fff3009761",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-iot-20261109-156",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Haoang LI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=396",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "b9f40cdcc26bd33568b894c0920585824dd762f1681fd89e47dcb15a15842feb",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-roas-396",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Lei LI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=104",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "d10ea55302843b95b5ceca7e4164270a48195a220cad2307fb922981a33d9763",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-dsa-20261110-104",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Qiumeng LI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=441",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "0d01a0269b31f98e302dd05018c70fb193bb0119618ce35b3a1580f0ae150ea9",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-441",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Yuxuan LIANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=288",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "c5328b98c0ee205585376b0e16a4cef0fe5a3c1efe3cab751adbf39eca881e97",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-dsa-20261110-288",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Zhidan LIU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=458",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "00f5d73bb02f2fe514a3e22b3e12fe0377999b497e1aab900602a8191bd2d77e",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-458",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Benedict Jun MA",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=590",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "8120e6c913de630ead75077fa66917a92a7d1be2b2138e2541e30c91205c542b",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-590",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Ke MA",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=602",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "8c53e95d0f86072f11e4cef7e766abb1c602e29111f6f3ea92b600174dc500e0",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-602",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Bizhao PANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=745",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "d00d0ac444820267f214717b4191c6b552ccf8a8173e1521dde1c187dc690507",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-745",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Si QIAO",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=661",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "4c234d5e65313ddd3c1cd8022dfd981a38a73c9cdeea70a2b13255f498c84806",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-661",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Xiaotong SUN",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=38",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "8384149a28c30c36394e15fea25ab5a9a1d66505acf9b34ab9e02a6da791f18d",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-38",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Jiawei WANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=705",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "e9f8603feeefcbcacbf1b8717689838bfb45e1acdc830fe04efbb0da5b28000a",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-705",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Jia YAN",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=320",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "e19256731d8e1a76dc82b3215ea2614f665aed582367028ca3a96f92610c12c5",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-320",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Huan YU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=45",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "b59153f96788707480b39dc0722d535c1d31627a800f7e6279b5dae49c0d5981",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-roas-45",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Xinhu ZHENG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=168",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "34327482a954550440e862b06c31ac988dee5d7f70d78a20f80ceb84d16d58f6",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-roas-168",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Bingzhuo ZHONG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=465",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "a0c70499791a3324595ab371ca52f7f94aa320fdb2adb6305e075f18f8be2d89",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-465",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "智能交通学域 · 实践",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "ZHENG LUO",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=653",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "6531d0d6c5e5df784ed29aca840e91dd29a4f38bbb296ad22181399306b2476b",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-653",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Quanke SU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=112",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "f76f440ae8d8902517a29f365972c759a1bfa9570bd9a58476ff37536514b928",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-112",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Zongxian SU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=251",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "172fa75dfe249d714bae7c1b34fd082d2e59bdb6e4ae5ed33338d13a787d593d",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-251",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Wenxun HU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=330",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "64fc9e6cf43582875a40820850dd503c1200424e1965e7ca7dfc2d466ba73630",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-330",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Chris Yang YU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=755",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "f90cc2d3ea4390ca0791ec40a23a1f4bc98c6a1d3ba8db5955cb558f58880f01",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ]
+        }
+      ]
+    },
+    {
+      "label": "智能交通学域 · 兼任",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Xiaobo QU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=686",
+          "directoryLabel": "兼任",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "65a3b22c5341348752872d0a413d01d31a66562bac6b77a3454305149c0bf6f8",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ]
+        },
+        {
+          "name": "Jianhua TANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=668",
+          "directoryLabel": "兼任",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/intr/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "35eaf912f246c4a7edf4bb1eb68cf37d046e32f10d84a4712473abcba8f99854",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-intr-roster-20261111"
+          ],
+          "facultyId": "hkustgz-intr-668",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "智能制造学域 · 学域主任",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Kai TANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=142",
+          "directoryLabel": "学域主任",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "5279c3b408ddc7651b8f03103d956188217f6ec44cf148934601fe554bc6c1a8",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-142",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "智能制造学域 · 常规",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Ricky Shi-Wei LEE",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=16",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "9ef670cc5a5e6d4f3e7f7a18fbb1759731e5b4e090d5010ad1baaeaecf2de566",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-roas-16",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Jingshen WU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=12",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "041c3bd85ed9ce64d1676458bc0b0d9f1da7083d34dc906265eebc4d44dac24c",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ]
+        },
+        {
+          "name": "Pengcheng HU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=286",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "c8bf5e622e9da1cdb279f37bac5c37e12fbb3f72c6b2994b85f38305c543b45c",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-286",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "SHANE MIGUEL JOHNSON",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=665",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "894f8fedb42535c8f967ec17345b8c3a28b9390f82b26d9ec2a1b3e3dda2a679",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-665",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Yunda WANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=116",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "04cd813a77a8761f7c70c073f85999a8db64bb8183a5467798c2453d2d59237f",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-116",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Yi CAI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=52",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "85a2646921f6ea0aa94956a0a85d71658f75569ab753cd16522bdd64befd1293",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-52",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Mojun CHEN",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=114",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "c4eada963fac7589a5b17c90a10b733353d8cccfc8b6ec8aa4cb27fb40d8049c",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-114",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Huachen CUI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=247",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "78d9eeb7fc7bd432fcc011c0d4b2bada9058b73ba50e62c4090fce2cbfa234fb",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-247",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Rushi DAI",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=626",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "3eeb7257c937a1d2f933dba8ab915432a41fe0530d426cbbb66eec15b8d5f648",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-626",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Juan DU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=11",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "fdc18b23f681554c844f465e3ba307ddab78bd8cc31b1440a8534d174ff75a55",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-dsa-20261110-11",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Daqiang GUO",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=426",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "40d124e5ad9e47498e422fbd311b82edd69848f3877c4192ab7baa9868569a48",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-426",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Shiyuan LIU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=512",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "ed466bd988cabae37d05b5eaa73b847c128488911a537eb499df9d85d34008d6",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-512",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Wenyu WANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "d668de31bbfc2d41a1e5fe8c7a4ebb25f1a1f1e686fc23250a2f8bc9974ad985",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-bsbe-376",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Liang YUE",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=404",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "b1ff8fdaa84c2c25d3738d6d8fc76d65b0aa2d556c7cecd31600f544f9ba095f",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-404",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Kaihao ZHANG",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=65",
+          "directoryLabel": "常规",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "c43bfcaa5b95eb82682aac51086f1243a6215fe14866bf4fe6058d00da78c69d",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-65",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "智能制造学域 · 实践",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Dong LU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=352",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "d77ad9d4017c5477d86bf2266ccd4a820215c5fdef73d8c4cc56a7467c52adeb",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-352",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        },
+        {
+          "name": "Man CHAN",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=117",
+          "directoryLabel": "实践",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "ff7a347f19e05b2223f7731a621f8a08f719c6545e773e3749743241c7b3407e",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-117",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    },
+    {
+      "label": "智能制造学域 · 教学",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+      "sourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "entryBodyStatus": "body_read",
+      "teacherProfilesTotal": null,
+      "enumerationComplete": false,
+      "profileLeads": [
+        {
+          "name": "Guoxiong QIU",
+          "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=654",
+          "directoryLabel": "教学",
+          "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/smmg/faculty-profile/",
+          "profileBodyStatus": "body_read",
+          "bodySha256": "c3250aa67622653b1ef7be5312030e5710dadcb333ce62ef28b81309a6754c03",
+          "supervisionEligibility": "unknown",
+          "availability": "unknown",
+          "directorySourceIds": [
+            "hkustgz-smmg-roster-20261111"
+          ],
+          "facultyId": "hkustgz-smmg-654",
+          "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+        }
+      ]
+    }
+  ]
+}

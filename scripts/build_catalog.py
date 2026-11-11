@@ -1381,6 +1381,15 @@ def build_catalog():
              "sourceIds": route_refs if fee["kind"] == "application_fee" else fee["sourceIds"]}
             for fee in bsbe_program["finances"]])
         catalog["programs"].append(route_program)
+    systems_rosters = load("hkustgz-intr-smmg-rosters-20261111.json")
+    for field in ("sources", "faculty", "directories"):
+        catalog[field].extend(systems_rosters[field])
+    systems["staffEntries"].extend(systems_rosters["staffEntries"])
+    for update in systems_rosters["facultyUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
+            person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
+        person["identityNote"] = " ".join(filter(None, (person.get("identityNote"), update["additionalIdentityNote"])))
     return catalog
 
 
