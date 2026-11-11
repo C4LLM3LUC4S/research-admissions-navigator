@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_gz_intr_smmg_profiles",
+  "stage": "post_alpha34_gz_intr_smmg_reviewed_links",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
@@ -16,8 +16,8 @@
     "programmes_with_partial_finances": 46,
     "finance_items": 77,
     "official_directory_entries": 129,
-    "teacher_linked_sources": 828,
-    "total_sources": 4459,
+    "teacher_linked_sources": 838,
+    "total_sources": 4469,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
