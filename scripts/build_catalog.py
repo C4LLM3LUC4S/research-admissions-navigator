@@ -1254,6 +1254,32 @@ def build_catalog():
     catalog["directories"].append(life_categories["directory"])
     science = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == life_categories["parentUnitId"])
     science["staffEntries"].extend(life_categories["staffEntries"])
+    life_research = load("hkust-life-science-research-20261111.json")
+    catalog["sources"].extend(life_research["sources"])
+    catalog["faculty"].extend(life_research["faculty"])
+    people = {person["id"]: person for person in catalog["faculty"]}
+    for update in life_research["facultyUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "keywordSourceIds", "researchKeywords"):
+            person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
+    life_leads = {lead["url"]: lead for entry in life_categories["staffEntries"] for lead in entry["profileLeads"]}
+    life_census = life_categories["directory"]["census"]
+    life_cards = {card["profileUrl"]: card for card in life_census["entries"]}
+    reviewed_sources = []
+    for update in life_research["rosterUpdates"]:
+        lead = life_leads[update["url"]]
+        card = life_cards[update["url"]]
+        if update.get("facultyId"):
+            lead.update(facultyId=update["facultyId"], researchReviewStatus="research_excerpt_and_directory_role_reviewed")
+            card["facultyId"] = update["facultyId"]
+        if update.get("profileSourceId"):
+            lead.update(profileBodyStatus="body_read", bodySha256=update["bodySha256"])
+            card.update(profileRead=True, reviewStatus="body_read")
+            reviewed_sources.append(update["profileSourceId"])
+    life_census["profilesRead"] = len(reviewed_sources)
+    life_census["profilesFailed"] = life_census["observedTotal"] - len(reviewed_sources)
+    life_census["pendingReasonCounts"] = {"not_read": life_census["profilesFailed"]}
+    life_categories["directory"]["reviewSourceIds"] = reviewed_sources
     life_programme = load("hkust-life-science-programme-20261111.json")
     catalog["sources"].extend(life_programme["sources"])
     life_refs = [life_programme["sources"][0]["id"]]
