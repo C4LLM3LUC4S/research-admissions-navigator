@@ -1975,6 +1975,30 @@ def startup_project_html(catalog):
     )
 
 
+def browser_catalog(catalog):
+    """Keep link provenance used by the app without transferring archival navigation."""
+    referenced = set()
+
+    def collect(value):
+        if isinstance(value, dict):
+            for key, item in value.items():
+                if key != "discoveredLinks":
+                    collect(item)
+        elif isinstance(value, list):
+            for item in value:
+                collect(item)
+        elif isinstance(value, str):
+            referenced.add(value)
+
+    collect(catalog)
+    sources = [
+        {**source, "discoveredLinks": [url for url in source["discoveredLinks"] if url in referenced]}
+        if "discoveredLinks" in source else source
+        for source in catalog["sources"]
+    ]
+    return {**catalog, "sources": sources}
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
@@ -1984,7 +2008,9 @@ def main():
     catalog["snapshotId"] = "sha256:" + identity
     quality = validate(catalog)
     encoded = json.dumps(catalog, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
-    js = "window.APP_CATALOG = " + encoded.rstrip() + ";\n"
+    js = "window.APP_CATALOG = " + json.dumps(
+        browser_catalog(catalog), ensure_ascii=False, separators=(",", ":"), allow_nan=False
+    ) + ";\n"
     outputs = {ROOT / "data/catalog.json": encoded, ROOT / "dist/catalog.js": js,
                ROOT / "data/coverage.json": json.dumps(quality, ensure_ascii=False, indent=2) + "\n",
                ROOT / "data/snapshots" / (identity + ".json"): encoded}
