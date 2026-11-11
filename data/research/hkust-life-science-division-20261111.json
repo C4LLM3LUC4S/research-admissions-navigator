@@ -1,0 +1,1786 @@
+{
+  "sources": [
+    {
+      "id": "hkust-life-division-20261111-guojun-bu",
+      "url": "https://life-sci.hkust.edu.hk/team/guojun-bu/",
+      "title": "Guojun BU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:22.298967+00:00",
+      "bodySha256": "9bf2fdfc9be4f2852e09c43863751accaaff9dad10a3b67bf15b5d770ad6e40d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "DIVISION HEAD / ASSOCIATE HEAD",
+        "Lo Ka Chung Charitable Foundation Professor of Science",
+        "APOE4",
+        "阿尔茨海默病",
+        "APOE2"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-tom-hiu-tung-cheung",
+      "url": "https://life-sci.hkust.edu.hk/team/tom-hiu-tung-cheung/",
+      "title": "Tom Hiu Tung CHEUNG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:22.298967+00:00",
+      "bodySha256": "05cec0425d64ead3622e039a7f27b4e7c45771197918ceba10837ab28556e408",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "DIVISION HEAD / ASSOCIATE HEAD",
+        "S H Ho Professor of Life Science",
+        "干细胞静息与激活",
+        "干细胞自我更新"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://cheunglab.ust.hk/",
+        "https://scholar.google.com/citations?hl=en&user=WtsX8AsAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-robert-k-m-ko",
+      "url": "https://life-sci.hkust.edu.hk/team/robert-k-m-ko/",
+      "title": "Robert K.M. KO · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:22.298967+00:00",
+      "bodySha256": "73333b4103ecbb010eacfdbd85998d409a6a9e8ef93f191d1c52991174e815cb",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "DIVISION HEAD / ASSOCIATE HEAD",
+        "Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://rk-lab.ust.hk/",
+        "http://repository.ust.hk/ir/AuthorProfile/ko-robert-k-m"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-nancy-yuk-yu-ip",
+      "url": "https://life-sci.hkust.edu.hk/team/nancy-yuk-yu-ip/",
+      "title": "Nancy Yuk-Yu IP · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:26.604202+00:00",
+      "bodySha256": "640ed1409893b10a10d827f6ee831287afd54dc066335b23bdb7a2d4fd7788ed",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "CHAIR PROFESSORS",
+        "The Morningside Professor of Life Science / Chair Professor",
+        "神经发育",
+        "神经营养因子",
+        "阿尔茨海默病"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://iplab.ust.hk",
+        "http://repository.ust.hk/ir/AuthorProfile/ip-nancy-y-y"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-randy-y-c-poon",
+      "url": "https://life-sci.hkust.edu.hk/team/randy-y-c-poon/",
+      "title": "Randy Y.C. POON · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:27.201103+00:00",
+      "bodySha256": "cfab170b87b3b97c49d81f20c5eb909ddf76b6bb56e2792e08257a3e878d8cae",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "CHAIR PROFESSORS",
+        "Chair Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.poonlab.org/",
+        "https://scholar.google.com.hk/citations?hl=en&user=UgRv_agAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-karl-wah-keung-tsim",
+      "url": "https://life-sci.hkust.edu.hk/team/karl-wah-keung-tsim/",
+      "title": "Karl Wah-Keung TSIM · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:27.504363+00:00",
+      "bodySha256": "dfb7a343598d8c7cfced9a5aadf25f1f054eeabe11e09209eaf87cc6d4c1c16f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "CHAIR PROFESSORS",
+        "Chair Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://karltsim.ust.hk/",
+        "http://repository.ust.hk/ir/AuthorProfile/tsim-karl-w-k"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yung-hou-wong",
+      "url": "https://life-sci.hkust.edu.hk/team/yung-hou-wong/",
+      "title": "Yung Hou WONG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:28.118806+00:00",
+      "bodySha256": "26b55a60df883412ed7f01e1703bab5aae60b7766824f309b03967e1613bfc3f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "CHAIR PROFESSORS",
+        "Chair Professor Dean of Science Director of Biotechnology Research Institute Co-Director of Molecular Neuroscience Center",
+        "G蛋白偶联受体",
+        "细胞信号"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/wong-yung-hou"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-david-k-banfield",
+      "url": "https://life-sci.hkust.edu.hk/team/david-k-banfield/",
+      "title": "David K. BANFIELD · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:29.294718+00:00",
+      "bodySha256": "f2de7fb4de25bd69bd579ddcf201d88f76bca3f5de851e3646c372b602c93a20",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "PROFESSORS",
+        "Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/banfield-david-k"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-prof-king-lau-chow",
+      "url": "https://life-sci.hkust.edu.hk/team/prof-king-lau-chow/",
+      "title": "King-Lau CHOW · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:29.944717+00:00",
+      "bodySha256": "cf7843e4646a0d59d60106ae724db59bb6b38cd86dcdfd615cea62f053235efd",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Professor",
+        "形态发生",
+        "化学感知",
+        "秀丽隐杆线虫"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/chow-king-lau"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yusong-guo",
+      "url": "https://life-sci.hkust.edu.hk/team/yusong-guo/",
+      "title": "Yusong GUO · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:30.455392+00:00",
+      "bodySha256": "8d0ed162085575d027d38bed9962d6826158873cc9d990e15712f7975562e483",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Professor",
+        "分泌通路",
+        "受体膜运输"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/guolabust",
+        "http://repository.ust.hk/ir/AuthorProfile/guo-yusong"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-pingbo-huang",
+      "url": "https://life-sci.hkust.edu.hk/team/pingbo-huang/",
+      "title": "Pingbo HUANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:30.691441+00:00",
+      "bodySha256": "5c7d91d5767527c9922c55c172836c4a5bd2ae0c0512a4ed68d3ff19d5ee997b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "PROFESSORS",
+        "Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/huang-pingbo"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-kai-liu",
+      "url": "https://life-sci.hkust.edu.hk/team/kai-liu/",
+      "title": "Kai LIU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:31.852272+00:00",
+      "bodySha256": "28c784ec8441a524f07929a11814f24b8986666cb69a1c8594c62a88b38e0067",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Cheng Professor of Science"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.kai-liu-lab.com/",
+        "http://repository.ust.hk/ir/AuthorProfile/liu-kai",
+        "https://scholar.google.com/citations?user=UpQudVQAAAAJ"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-ho-yi-mak",
+      "url": "https://life-sci.hkust.edu.hk/team/ho-yi-mak/",
+      "title": "Ho Yi MAK · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:31.874702+00:00",
+      "bodySha256": "eb16b39e17a1a7d0848162228fd70461a035981bc809bfd7647c4bc4da6f50ec",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Professor",
+        "脂滴",
+        "脂肪代谢"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://maklab.ust.hk/",
+        "http://repository.ust.hk/ir/AuthorProfile/mak-ho-yi"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-jiguang-wang",
+      "url": "https://life-sci.hkust.edu.hk/team/jiguang-wang/",
+      "title": "Jiguang WANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:32.847874+00:00",
+      "bodySha256": "560bdcf1c0e3c0348beeff49470ea8f1b33590322c23285db142b3fd050aa297",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Professor",
+        "颅内肿瘤",
+        "血管畸形",
+        "功能基因组学"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://wang-lab.ust.hk/",
+        "https://scholar.google.com/citations?hl=en&user=OIWfp-QAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-zhenguo-wu",
+      "url": "https://life-sci.hkust.edu.hk/team/zhenguo-wu/",
+      "title": "Zhenguo WU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:33.092597+00:00",
+      "bodySha256": "b80c65cb987581505e657381e8812a28c3d3cf302a31051a16ea0fb6b90c10f5",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://wzglab.hkust.edu.hk/",
+        "http://repository.ust.hk/ir/AuthorProfile/wu-zhenguo"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-guang-zhu",
+      "url": "https://life-sci.hkust.edu.hk/team/guang-zhu/",
+      "title": "Guang ZHU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:33.642702+00:00",
+      "bodySha256": "505da4ee5d622ed52f7b057be36c288bb37faa226190b0d7e2d7f43cceb9b0ea",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "PROFESSORS",
+        "Professor",
+        "核磁共振波谱",
+        "生物物理"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://fengrui.wixsite.com/gzhulab/",
+        "https://scholar.google.com/citations?hl=en&user=7CGcNJ0AAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-shangyu-dang",
+      "url": "https://life-sci.hkust.edu.hk/team/shangyu-dang/",
+      "title": "Shangyu DANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:34.562975+00:00",
+      "bodySha256": "7f6d31b524f8649ba9a336dee0658c16e1bec2f0e49da32f47d48968fa666b5b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "膜蛋白",
+        "冷冻电镜",
+        "冷冻电子断层成像"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://dang-lab.hkust.edu.hk",
+        "https://repository.hkust.edu.hk/ir/AuthorProfile/dang-shangyu"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yukinori-hirano",
+      "url": "https://life-sci.hkust.edu.hk/team/yukinori-hirano/",
+      "title": "Yukinori HIRANO · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:34.765577+00:00",
+      "bodySha256": "39325c5c817ee862f9acab6f3cfe7a7cf775a18340ff445a4e9552b29e328345",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "记忆",
+        "光遗传学",
+        "衰老"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://yukinori7676.wixsite.com/website",
+        "https://scholar.google.co.jp/citations?user=aShbWDcAAAAJ&hl=ja"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-danny-chi-yeu-leung",
+      "url": "https://life-sci.hkust.edu.hk/team/danny-chi-yeu-leung/",
+      "title": "Danny Chi Yeu LEUNG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:35.317852+00:00",
+      "bodySha256": "799254b4f9916fb5b68be416f66725798e218a911b956c00c480cabdfd1527e6",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "非编码序列",
+        "顺式调控元件"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://leunglab.ust.hk",
+        "http://repository.ust.hk/ir/AuthorProfile/leung-danny-chi-yeu"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-chun-liang",
+      "url": "https://life-sci.hkust.edu.hk/team/chun-liang/",
+      "title": "Chun LIANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:37.751693+00:00",
+      "bodySha256": "a69134535df7287a4547c44ea4c17af34ec7c4415db2f579796a319cf55af83d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/liang-chun"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-hyokeun-park",
+      "url": "https://life-sci.hkust.edu.hk/team/hyokeun-park/",
+      "title": "Hyokeun PARK · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:38.129194+00:00",
+      "bodySha256": "c18223dbf490ee1e244b1faa0d8a221085055a79b229007f062e386808ba3206",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "突触囊泡",
+        "神经递质"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://parklab.ust.hk/",
+        "https://repository.hkust.edu.hk/ir/AuthorProfile/park-hyo-keun"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-tuan-anh-nguyen",
+      "url": "https://life-sci.hkust.edu.hk/team/tuan-anh-nguyen/",
+      "title": "Tuan Anh NGUYEN · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:39.225894+00:00",
+      "bodySha256": "f9fda0e581768be0acf57b05107d860bd6390df8ab154e6b5fb4a04d29123ec4",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "微小RNA",
+        "转录后调控"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/nguyen-tuan-anh"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-angela-ruohao-wu",
+      "url": "https://life-sci.hkust.edu.hk/team/angela-ruohao-wu/",
+      "title": "Angela Ruohao WU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:39.852879+00:00",
+      "bodySha256": "ce2df7302631464355fac7186d37ab15d283707974cbd6bce79746fe5b86b207",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "单细胞转录组",
+        "基因编辑"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://angelawulab.ust.hk",
+        "https://scholar.google.com/citations?hl=en&user=OcKN8aIAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yan-yan",
+      "url": "https://life-sci.hkust.edu.hk/team/yan-yan/",
+      "title": "Yan YAN · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:42.678609+00:00",
+      "bodySha256": "77c94cba0e04a47d17001653fad5b8d4d0669ce3586a6039923996a3456d5ad4",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "Associate Professor",
+        "组织形态发生",
+        "定量生物学"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.yanlab.ust.hk",
+        "https://scholar.google.com.hk/citations?hl=en&user=-1n_vjgAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yuanliang-zhai",
+      "url": "https://life-sci.hkust.edu.hk/team/yuanliang-zhai/",
+      "title": "Yuanliang ZHAI · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:42.965134+00:00",
+      "bodySha256": "2cc50e20f0bf59af4b63fc22151345fbf84bff53df26b724977c7c165705e08a",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSOCIATE PROFESSORS",
+        "染色质复制"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://zhai95.wixsite.com/mysite-1",
+        "https://scholar.google.com/citations?hl=en&user=6_vkSxQAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-wenqing-gao",
+      "url": "https://life-sci.hkust.edu.hk/team/wenqing-gao/",
+      "title": "Wenqing GAO · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:43.506857+00:00",
+      "bodySha256": "cb7bf4aa011e58a0bd831d40ea7e2ed29a0ceff68b87a0d8e99fa88d05cf3b67",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "神经免疫学",
+        "免疫工程"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?hl=zh-CN&user=q0HYNzwAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yi-liao",
+      "url": "https://life-sci.hkust.edu.hk/team/yi-liao/",
+      "title": "Yi LIAO · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:45.857109+00:00",
+      "bodySha256": "ce07a542508d112c629979aff5460cee3fbbb3a08179347e495a815dcf047e1c",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "Assistant Professor",
+        "微生物系统生物学",
+        "细菌表型异质性"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://liaolab-qbio.com"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-yimiao",
+      "url": "https://life-sci.hkust.edu.hk/team/yimiao/",
+      "title": "Yi MIAO · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:46.383759+00:00",
+      "bodySha256": "f9ef2f7099f3b11cf1f1e77a27c5c03e8a891b2e3e087d76417bd3da49b83c21",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "细胞间通讯",
+        "配体与受体相互作用"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.yimiaolab.com",
+        "https://scholar.google.com/citations?user=Rspedx8AAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-lan-wang",
+      "url": "https://life-sci.hkust.edu.hk/team/lan-wang/",
+      "title": "Lan WANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:46.587728+00:00",
+      "bodySha256": "7f269d6819e19a50a1ad81207304bd6798b6048eed3f8ecf419e4fd061b1d0eb",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "Assistant Professor",
+        "线粒体质量控制"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.lanwanglab.com/",
+        "https://scholar.google.com/citations?user=zgdYOj8AAAAJ&hl=en&oi=sra"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-jie-wang",
+      "url": "https://life-sci.hkust.edu.hk/team/jie-wang/",
+      "title": "Jie WANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:51.654293+00:00",
+      "bodySha256": "ea19a6d5cfaa0653c976b6e6f94ae27f41cb58487fe06648a5bc9d1abc2a9ffe",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "胶质细胞与神经元相互作用",
+        "神经可塑性"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://orcid.org/0000-0002-3530-5029"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-zhen-liu",
+      "url": "https://life-sci.hkust.edu.hk/team/zhen-liu/",
+      "title": "Zhen LIU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:51.923808+00:00",
+      "bodySha256": "27e217aee8d7d6855de6a7fad2eccee565f21ab673dc653c7b274b90bf369a86",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "Assistant Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.zhenliulaboratory.com",
+        "https://scholar.google.com/citations?user=1GlcxM4AAAAJ&hl=en&oi=sra"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-li-sheng-zhang",
+      "url": "https://life-sci.hkust.edu.hk/team/li-sheng-zhang/",
+      "title": "Li-Sheng ZHANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:53.150246+00:00",
+      "bodySha256": "b217ec38914df27d5b5ceec6ca21fe765a5083d4fee5a251e8a47fa8c4331335",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "ASSISTANT PROFESSORS",
+        "Assistant Professor",
+        "RNA修饰",
+        "表观转录组",
+        "非编码RNA"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://zhang-group-hkust.com/",
+        "https://scholar.google.com/citations?user=YMZv4UAAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-aftab-amin",
+      "url": "https://life-sci.hkust.edu.hk/team/aftab-amin/",
+      "title": "Aftab AMIN · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:55.223268+00:00",
+      "bodySha256": "f55adabf92e8976af3032c891c336ea689f788ba9febd916a35b19bf113ec367",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Lecturer"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-philip-y-lam",
+      "url": "https://life-sci.hkust.edu.hk/team/philip-y-lam/",
+      "title": "Philip Y. LAM · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:55.955631+00:00",
+      "bodySha256": "1774f0b2b128704f372a5b8d39d40599f7295f3ca26b44a282608f392f55940b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Lecturer"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-dr-rocky-law",
+      "url": "https://life-sci.hkust.edu.hk/team/dr-rocky-law/",
+      "title": "Rocky LAW · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:56.924278+00:00",
+      "bodySha256": "d81bf0bb862606b1d39da234518200dd689a8da9fc8fb159579acd9be1ccd324",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-nicki-yh-leung",
+      "url": "https://life-sci.hkust.edu.hk/team/nicki-yh-leung/",
+      "title": "Nicki YH LEUNG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:58.947219+00:00",
+      "bodySha256": "3e6e882d3ef092d81bab75d3fdbce56845ee034e154dc8fcabd4c665ed159002",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-amy-laam-li",
+      "url": "https://life-sci.hkust.edu.hk/team/amy-laam-li/",
+      "title": "Amy Laam LI · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:42:58.972570+00:00",
+      "bodySha256": "01a039cf1fa3ec1bba4ec317cfb0c273f18a70988dad6338ee8908464aeb4cc0",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Lecturer II"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-meredith-d-sun",
+      "url": "https://life-sci.hkust.edu.hk/team/meredith-d-sun/",
+      "title": "Meredith D. SUN · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:00.625966+00:00",
+      "bodySha256": "089d636cd178467b680e45c0538aeea17ba1d0c53344cf16c4a93895362ff976",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Lecturer II"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-sunny-tam",
+      "url": "https://life-sci.hkust.edu.hk/team/sunny-tam/",
+      "title": "Sunny TAM · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:00.818339+00:00",
+      "bodySha256": "b2ec4b462049a142216ca7dcce4d7eae45448365a8f6adfef144ed616bcca830",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Professor of Practice / Senior Lecturer"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-jessica-ce-mun-tang",
+      "url": "https://life-sci.hkust.edu.hk/team/jessica-ce-mun-tang/",
+      "title": "Jessica Ce Mun TANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:01.933562+00:00",
+      "bodySha256": "bc089dd99b5c94ca2c1647a99cdc78d1259fe799fd2f5af93960787c38a18f46",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Lecturer"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-yu-chung-tse",
+      "url": "https://life-sci.hkust.edu.hk/team/yu-chung-tse/",
+      "title": "Yu Chung TSE · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:02.056627+00:00",
+      "bodySha256": "810bfa298ceabb3a6ae2c089ca579b84fb4317fcb12315a37abd3194a530aea3",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "TEACHING FACULTY / TEACHING SUPPORT STAFF",
+        "Senior Lecturer"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-life-division-20261111-hao-chen",
+      "url": "https://life-sci.hkust.edu.hk/team/hao-chen/",
+      "title": "Hao CHEN · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:03.474339+00:00",
+      "bodySha256": "52c1cb08a1ce86337b0262c65ee04a787b6458ecedd8fbaf554c2139d6318cfa",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "AFFILIATED FACULTY",
+        "Assistant Professor",
+        "可信人工智能",
+        "医疗人工智能"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://cse.hkust.edu.hk/~jhc/",
+        "https://repository.hkust.edu.hk/ir/AuthorProfile/chen-hao",
+        "http://scholar.google.com/citations?user=Z_t5DjwAAAAJ"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-becki-yi-kuang",
+      "url": "https://life-sci.hkust.edu.hk/team/becki-yi-kuang/",
+      "title": "Becki Yi KUANG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:04.624819+00:00",
+      "bodySha256": "cd5cddc1a4bfbd454a969cc15472380f46d0bdf79884fde97cb6ec8bd25c397f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "AFFILIATED FACULTY"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?user=lOKGlxAAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-jianan-qu",
+      "url": "https://life-sci.hkust.edu.hk/team/jianan-qu/",
+      "title": "Jianan QU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:05.514233+00:00",
+      "bodySha256": "3498f750a32cb6f274438abd99a89b2c5dffe0bc4321f3e819fedcfb78e6ef8c",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "AFFILIATED FACULTY",
+        "光子学",
+        "生物医学工程"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://qulab.netlify.app/",
+        "https://scholar.google.com/citations?user=7nl_4-sAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-stanley-c-k-lau",
+      "url": "https://life-sci.hkust.edu.hk/team/stanley-c-k-lau/",
+      "title": "Stanley C K LAU · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:05.770909+00:00",
+      "bodySha256": "81d1bca8d693ea22ee187ce77402345166ef81fb581d6ef475ee751910698c00",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名和已列任职字段",
+      "claims": [
+        "AFFILIATED FACULTY",
+        "Associate Professor"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://repository.ust.hk/ir/AuthorProfile/lau-stanley-c-k"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-pei-yuan-qian",
+      "url": "https://life-sci.hkust.edu.hk/team/pei-yuan-qian/",
+      "title": "Pei-Yuan QIAN · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:06.825387+00:00",
+      "bodySha256": "80894b16af753b9e68df32643fb25a7a571bcae6b99e277ce9e7b2423b99588b",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "AFFILIATED FACULTY",
+        "David von Hansemann Professor of Science / Chair Professor",
+        "生物膜",
+        "幼体附着",
+        "海洋微生物生态"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://www.qian.ust.hk/",
+        "http://repository.ust.hk/ir/AuthorProfile/qian-peiyuan"
+      ]
+    },
+    {
+      "id": "hkust-life-division-20261111-qinglu-zeng",
+      "url": "https://life-sci.hkust.edu.hk/team/qinglu-zeng/",
+      "title": "Qinglu ZENG · 生命科学部个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:43:06.868380+00:00",
+      "bodySha256": "775ba671d2570e39d4cb5601f2392e94908f45c45aadce5f18429c482b173204",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "学部个人页的姓名、任职字段与研究介绍节选",
+      "claims": [
+        "AFFILIATED FACULTY",
+        "Professor",
+        "噬菌体",
+        "原绿球藻",
+        "海洋微生物生态"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://zenglab.hkust.edu.hk/",
+        "https://scholar.google.com.hk/citations?hl=en&user=O_XpJkMAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/guojun-bu/",
+      "facultyId": "hkust-life-guojun-bu-gbu",
+      "sourceId": "hkust-life-division-20261111-guojun-bu",
+      "bodySha256": "9bf2fdfc9be4f2852e09c43863751accaaff9dad10a3b67bf15b5d770ad6e40d",
+      "researchKeywords": [
+        "APOE4",
+        "阿尔茨海默病",
+        "APOE2"
+      ],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/tom-hiu-tung-cheung/",
+      "facultyId": "hkust-life-tom-cheung-tcheung",
+      "sourceId": "hkust-life-division-20261111-tom-hiu-tung-cheung",
+      "bodySha256": "05cec0425d64ead3622e039a7f27b4e7c45771197918ceba10837ab28556e408",
+      "researchKeywords": [
+        "干细胞静息与激活",
+        "干细胞自我更新"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://cheunglab.ust.hk/",
+          "label": "cheunglab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?hl=en&user=WtsX8AsAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/robert-k-m-ko/",
+      "facultyId": "hkust-life-robert-kam-ming-ko-bcrko",
+      "sourceId": "hkust-life-division-20261111-robert-k-m-ko",
+      "bodySha256": "73333b4103ecbb010eacfdbd85998d409a6a9e8ef93f191d1c52991174e815cb",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "https://rk-lab.ust.hk/",
+          "label": "rk-lab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/ko-robert-k-m",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/nancy-yuk-yu-ip/",
+      "facultyId": "hkust-life-nancy-yukyu-ip-boip",
+      "sourceId": "hkust-life-division-20261111-nancy-yuk-yu-ip",
+      "bodySha256": "640ed1409893b10a10d827f6ee831287afd54dc066335b23bdb7a2d4fd7788ed",
+      "researchKeywords": [
+        "神经发育",
+        "神经营养因子",
+        "阿尔茨海默病"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://iplab.ust.hk",
+          "label": "iplab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/ip-nancy-y-y",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/randy-y-c-poon/",
+      "facultyId": "hkust-life-randy-yat-choi-poon-rycpoon",
+      "sourceId": "hkust-life-division-20261111-randy-y-c-poon",
+      "bodySha256": "cfab170b87b3b97c49d81f20c5eb909ddf76b6bb56e2792e08257a3e878d8cae",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "https://www.poonlab.org/",
+          "label": "poonlab.org",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com.hk/citations?hl=en&user=UgRv_agAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/karl-wah-keung-tsim/",
+      "facultyId": "review-hkust-a26ec8d0ffcee7",
+      "sourceId": "hkust-life-division-20261111-karl-wah-keung-tsim",
+      "bodySha256": "dfb7a343598d8c7cfced9a5aadf25f1f054eeabe11e09209eaf87cc6d4c1c16f",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "http://karltsim.ust.hk/",
+          "label": "karltsim.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/tsim-karl-w-k",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yung-hou-wong/",
+      "facultyId": "hkust-life-yung-hou-wong-boyung",
+      "sourceId": "hkust-life-division-20261111-yung-hou-wong",
+      "bodySha256": "26b55a60df883412ed7f01e1703bab5aae60b7766824f309b03967e1613bfc3f",
+      "researchKeywords": [
+        "G蛋白偶联受体",
+        "细胞信号"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/wong-yung-hou",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/david-k-banfield/",
+      "facultyId": "hkust-life-david-karl-banfield-bodkb",
+      "sourceId": "hkust-life-division-20261111-david-k-banfield",
+      "bodySha256": "f2de7fb4de25bd69bd579ddcf201d88f76bca3f5de851e3646c372b602c93a20",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/banfield-david-k",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/prof-king-lau-chow/",
+      "facultyId": "review-hkust-a9e7c044251e12",
+      "sourceId": "hkust-life-division-20261111-prof-king-lau-chow",
+      "bodySha256": "cf7843e4646a0d59d60106ae724db59bb6b38cd86dcdfd615cea62f053235efd",
+      "researchKeywords": [
+        "形态发生",
+        "化学感知",
+        "秀丽隐杆线虫"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/chow-king-lau",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yusong-guo/",
+      "facultyId": "hkust-life-yusong-guo-guoyusong",
+      "sourceId": "hkust-life-division-20261111-yusong-guo",
+      "bodySha256": "8d0ed162085575d027d38bed9962d6826158873cc9d990e15712f7975562e483",
+      "researchKeywords": [
+        "分泌通路",
+        "受体膜运输"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://sites.google.com/view/guolabust",
+          "label": "sites.google.com/view/guolabust",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/guo-yusong",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/pingbo-huang/",
+      "facultyId": "hkust-life-pingbo-huang-bohuangp",
+      "sourceId": "hkust-life-division-20261111-pingbo-huang",
+      "bodySha256": "5c7d91d5767527c9922c55c172836c4a5bd2ae0c0512a4ed68d3ff19d5ee997b",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/huang-pingbo",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/kai-liu/",
+      "facultyId": "hkust-cbe-849bcc84df97ee",
+      "sourceId": "hkust-life-division-20261111-kai-liu",
+      "bodySha256": "28c784ec8441a524f07929a11814f24b8986666cb69a1c8594c62a88b38e0067",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "https://www.kai-liu-lab.com/",
+          "label": "www.kai-liu-lab.com",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/liu-kai",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=UpQudVQAAAAJ",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/ho-yi-mak/",
+      "facultyId": "hkust-life-ho-yi-mak-hym",
+      "sourceId": "hkust-life-division-20261111-ho-yi-mak",
+      "bodySha256": "eb16b39e17a1a7d0848162228fd70461a035981bc809bfd7647c4bc4da6f50ec",
+      "researchKeywords": [
+        "脂滴",
+        "脂肪代谢"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://maklab.ust.hk/",
+          "label": "maklab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/mak-ho-yi",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/jiguang-wang/",
+      "facultyId": "hkust-cbe-512b6805292c48",
+      "sourceId": "hkust-life-division-20261111-jiguang-wang",
+      "bodySha256": "560bdcf1c0e3c0348beeff49470ea8f1b33590322c23285db142b3fd050aa297",
+      "researchKeywords": [
+        "颅内肿瘤",
+        "血管畸形",
+        "功能基因组学"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://wang-lab.ust.hk/",
+          "label": "wang-lab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?hl=en&user=OIWfp-QAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/zhenguo-wu/",
+      "facultyId": "hkust-life-zhenguo-wu-bczgwu",
+      "sourceId": "hkust-life-division-20261111-zhenguo-wu",
+      "bodySha256": "b80c65cb987581505e657381e8812a28c3d3cf302a31051a16ea0fb6b90c10f5",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "https://wzglab.hkust.edu.hk/",
+          "label": "wzglab.hkust.edu.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/wu-zhenguo",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/guang-zhu/",
+      "facultyId": "hkust-life-guang-zhu-gzhu",
+      "sourceId": "hkust-life-division-20261111-guang-zhu",
+      "bodySha256": "505da4ee5d622ed52f7b057be36c288bb37faa226190b0d7e2d7f43cceb9b0ea",
+      "researchKeywords": [
+        "核磁共振波谱",
+        "生物物理"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://fengrui.wixsite.com/gzhulab/",
+          "label": "Homepage",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?hl=en&user=7CGcNJ0AAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/shangyu-dang/",
+      "facultyId": "hkust-life-shangyu-dang-sdang",
+      "sourceId": "hkust-life-division-20261111-shangyu-dang",
+      "bodySha256": "7f6d31b524f8649ba9a336dee0658c16e1bec2f0e49da32f47d48968fa666b5b",
+      "researchKeywords": [
+        "膜蛋白",
+        "冷冻电镜",
+        "冷冻电子断层成像"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://dang-lab.hkust.edu.hk",
+          "label": "dang-lab.hkust.edu.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://repository.hkust.edu.hk/ir/AuthorProfile/dang-shangyu",
+          "label": "HKUST Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yukinori-hirano/",
+      "facultyId": "review-hkust-b1f40aebb9e0ca",
+      "sourceId": "hkust-life-division-20261111-yukinori-hirano",
+      "bodySha256": "39325c5c817ee862f9acab6f3cfe7a7cf775a18340ff445a4e9552b29e328345",
+      "researchKeywords": [
+        "记忆",
+        "光遗传学",
+        "衰老"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://yukinori7676.wixsite.com/website",
+          "label": "yukinori7676.wixsite.com",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.co.jp/citations?user=aShbWDcAAAAJ&hl=ja",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/danny-chi-yeu-leung/",
+      "facultyId": "hkust-life-danny-chi-yeu-leung-dcyleung",
+      "sourceId": "hkust-life-division-20261111-danny-chi-yeu-leung",
+      "bodySha256": "799254b4f9916fb5b68be416f66725798e218a911b956c00c480cabdfd1527e6",
+      "researchKeywords": [
+        "非编码序列",
+        "顺式调控元件"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://leunglab.ust.hk",
+          "label": "leunglab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/leung-danny-chi-yeu",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/chun-liang/",
+      "facultyId": "hkust-life-chun-liang-bccliang",
+      "sourceId": "hkust-life-division-20261111-chun-liang",
+      "bodySha256": "a69134535df7287a4547c44ea4c17af34ec7c4415db2f579796a319cf55af83d",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/liang-chun",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/hyokeun-park/",
+      "facultyId": "hkust-physics-25",
+      "sourceId": "hkust-life-division-20261111-hyokeun-park",
+      "bodySha256": "c18223dbf490ee1e244b1faa0d8a221085055a79b229007f062e386808ba3206",
+      "researchKeywords": [
+        "突触囊泡",
+        "神经递质"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://parklab.ust.hk/",
+          "label": "parklab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://repository.hkust.edu.hk/ir/AuthorProfile/park-hyo-keun",
+          "label": "HKUST SPD",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/tuan-anh-nguyen/",
+      "facultyId": "hkust-life-tuan-anh-nguyen-tuananh",
+      "sourceId": "hkust-life-division-20261111-tuan-anh-nguyen",
+      "bodySha256": "f9fda0e581768be0acf57b05107d860bd6390df8ab154e6b5fb4a04d29123ec4",
+      "researchKeywords": [
+        "微小RNA",
+        "转录后调控"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/nguyen-tuan-anh",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/angela-ruohao-wu/",
+      "facultyId": "hkust-cbe-6627212dabff05",
+      "sourceId": "hkust-life-division-20261111-angela-ruohao-wu",
+      "bodySha256": "ce2df7302631464355fac7186d37ab15d283707974cbd6bce79746fe5b86b207",
+      "researchKeywords": [
+        "单细胞转录组",
+        "基因编辑"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://angelawulab.ust.hk",
+          "label": "angelawulab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?hl=en&user=OcKN8aIAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yan-yan/",
+      "facultyId": "hkust-life-yan-yan-yany",
+      "sourceId": "hkust-life-division-20261111-yan-yan",
+      "bodySha256": "77c94cba0e04a47d17001653fad5b8d4d0669ce3586a6039923996a3456d5ad4",
+      "researchKeywords": [
+        "组织形态发生",
+        "定量生物学"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://www.yanlab.ust.hk",
+          "label": "www.yanlab.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com.hk/citations?hl=en&user=-1n_vjgAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yuanliang-zhai/",
+      "facultyId": "hkust-life-yuanliang-zhai-zhai",
+      "sourceId": "hkust-life-division-20261111-yuanliang-zhai",
+      "bodySha256": "2cc50e20f0bf59af4b63fc22151345fbf84bff53df26b724977c7c165705e08a",
+      "researchKeywords": [
+        "染色质复制"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://zhai95.wixsite.com/mysite-1",
+          "label": "https://zhai95.wixsite.com/mysite-1",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?hl=en&user=6_vkSxQAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/wenqing-gao/",
+      "facultyId": "hkust-life-wenqing-gao-gaowq",
+      "sourceId": "hkust-life-division-20261111-wenqing-gao",
+      "bodySha256": "cb7bf4aa011e58a0bd831d40ea7e2ed29a0ceff68b87a0d8e99fa88d05cf3b67",
+      "researchKeywords": [
+        "神经免疫学",
+        "免疫工程"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://scholar.google.com/citations?hl=zh-CN&user=q0HYNzwAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yi-liao/",
+      "facultyId": "hkust-life-yi-liao-liaoy",
+      "sourceId": "hkust-life-division-20261111-yi-liao",
+      "bodySha256": "ce07a542508d112c629979aff5460cee3fbbb3a08179347e495a815dcf047e1c",
+      "researchKeywords": [
+        "微生物系统生物学",
+        "细菌表型异质性"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://liaolab-qbio.com",
+          "label": "Liao Research Group Website",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yimiao/",
+      "facultyId": "hkust-life-yi-miao-yimiao",
+      "sourceId": "hkust-life-division-20261111-yimiao",
+      "bodySha256": "f9ef2f7099f3b11cf1f1e77a27c5c03e8a891b2e3e087d76417bd3da49b83c21",
+      "researchKeywords": [
+        "细胞间通讯",
+        "配体与受体相互作用"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://www.yimiaolab.com",
+          "label": "www.yimiaolab.com",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=Rspedx8AAAAJ&hl=en",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/lan-wang/",
+      "facultyId": "hkust-life-lan-wang-lanwang",
+      "sourceId": "hkust-life-division-20261111-lan-wang",
+      "bodySha256": "7f269d6819e19a50a1ad81207304bd6798b6048eed3f8ecf419e4fd061b1d0eb",
+      "researchKeywords": [
+        "线粒体质量控制"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://www.lanwanglab.com/",
+          "label": "www.lanwanglab.com",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=zgdYOj8AAAAJ&hl=en&oi=sra",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/jie-wang/",
+      "facultyId": "hkust-life-jie-wang-jvwang",
+      "sourceId": "hkust-life-division-20261111-jie-wang",
+      "bodySha256": "ea19a6d5cfaa0653c976b6e6f94ae27f41cb58487fe06648a5bc9d1abc2a9ffe",
+      "researchKeywords": [
+        "胶质细胞与神经元相互作用",
+        "神经可塑性"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://orcid.org/0000-0002-3530-5029",
+          "label": "ORCiD",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/zhen-liu/",
+      "facultyId": "hkust-life-zhen-liu-zhenliu",
+      "sourceId": "hkust-life-division-20261111-zhen-liu",
+      "bodySha256": "27e217aee8d7d6855de6a7fad2eccee565f21ab673dc653c7b274b90bf369a86",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "https://www.zhenliulaboratory.com",
+          "label": "www.zhenliulaboratory.com",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=1GlcxM4AAAAJ&hl=en&oi=sra",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/li-sheng-zhang/",
+      "facultyId": "hkust-chemistry-40",
+      "sourceId": "hkust-life-division-20261111-li-sheng-zhang",
+      "bodySha256": "b217ec38914df27d5b5ceec6ca21fe765a5083d4fee5a251e8a47fa8c4331335",
+      "researchKeywords": [
+        "RNA修饰",
+        "表观转录组",
+        "非编码RNA"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://zhang-group-hkust.com/",
+          "label": "https://zhang-group-hkust.com/",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=YMZv4UAAAAAJ&hl=en",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/aftab-amin/",
+      "facultyId": "hkust-life-aftab-amin-aftabamin",
+      "sourceId": "hkust-life-division-20261111-aftab-amin",
+      "bodySha256": "f55adabf92e8976af3032c891c336ea689f788ba9febd916a35b19bf113ec367",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/philip-y-lam/",
+      "facultyId": "hkust-life-yeung-lam-ylam",
+      "sourceId": "hkust-life-division-20261111-philip-y-lam",
+      "bodySha256": "1774f0b2b128704f372a5b8d39d40599f7295f3ca26b44a282608f392f55940b",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/dr-rocky-law/",
+      "facultyId": "hkust-life-chau-sing-rocky-law-drrockylaw",
+      "sourceId": "hkust-life-division-20261111-dr-rocky-law",
+      "bodySha256": "d81bf0bb862606b1d39da234518200dd689a8da9fc8fb159579acd9be1ccd324",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/nicki-yh-leung/",
+      "facultyId": "hkust-life-yat-hin-nicki-leung-nickileung",
+      "sourceId": "hkust-life-division-20261111-nicki-yh-leung",
+      "bodySha256": "3e6e882d3ef092d81bab75d3fdbce56845ee034e154dc8fcabd4c665ed159002",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/amy-laam-li/",
+      "facultyId": "hkust-life-laam-li-amylaamli",
+      "sourceId": "hkust-life-division-20261111-amy-laam-li",
+      "bodySha256": "01a039cf1fa3ec1bba4ec317cfb0c273f18a70988dad6338ee8908464aeb4cc0",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/meredith-d-sun/",
+      "facultyId": "hkust-life-meredith-dan-sun-sund",
+      "sourceId": "hkust-life-division-20261111-meredith-d-sun",
+      "bodySha256": "089d636cd178467b680e45c0538aeea17ba1d0c53344cf16c4a93895362ff976",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/sunny-tam/",
+      "facultyId": "hkust-life-sunny-tam-sunwtam",
+      "sourceId": "hkust-life-division-20261111-sunny-tam",
+      "bodySha256": "b2ec4b462049a142216ca7dcce4d7eae45448365a8f6adfef144ed616bcca830",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/jessica-ce-mun-tang/",
+      "facultyId": "hkust-life-jessica-ce-mun-tang-bocemun",
+      "sourceId": "hkust-life-division-20261111-jessica-ce-mun-tang",
+      "bodySha256": "bc089dd99b5c94ca2c1647a99cdc78d1259fe799fd2f5af93960787c38a18f46",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/yu-chung-tse/",
+      "facultyId": "hkust-life-yu-chung-tse-yuchungtse",
+      "sourceId": "hkust-life-division-20261111-yu-chung-tse",
+      "bodySha256": "810bfa298ceabb3a6ae2c089ca579b84fb4317fcb12315a37abd3194a530aea3",
+      "researchKeywords": [],
+      "providedLinks": []
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/hao-chen/",
+      "facultyId": "wide-hkust-hao-chen",
+      "sourceId": "hkust-life-division-20261111-hao-chen",
+      "bodySha256": "52c1cb08a1ce86337b0262c65ee04a787b6458ecedd8fbaf554c2139d6318cfa",
+      "researchKeywords": [
+        "可信人工智能",
+        "医疗人工智能"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://cse.hkust.edu.hk/~jhc/",
+          "label": "cse.hkust.edu.hk/~jhc/",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://repository.hkust.edu.hk/ir/AuthorProfile/chen-hao",
+          "label": "HKUST Scholar",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://scholar.google.com/citations?user=Z_t5DjwAAAAJ",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/becki-yi-kuang/",
+      "facultyId": "hkust-cbe-418f1fd7b00357",
+      "sourceId": "hkust-life-division-20261111-becki-yi-kuang",
+      "bodySha256": "cd5cddc1a4bfbd454a969cc15472380f46d0bdf79884fde97cb6ec8bd25c397f",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "https://scholar.google.com/citations?user=lOKGlxAAAAAJ&hl=en",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/jianan-qu/",
+      "facultyId": "hkust-life-jianan-qu-eequ",
+      "sourceId": "hkust-life-division-20261111-jianan-qu",
+      "bodySha256": "3498f750a32cb6f274438abd99a89b2c5dffe0bc4321f3e819fedcfb78e6ef8c",
+      "researchKeywords": [
+        "光子学",
+        "生物医学工程"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://qulab.netlify.app/",
+          "label": "https://qulab.netlify.app/",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=7nl_4-sAAAAJ&hl=en",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/stanley-c-k-lau/",
+      "facultyId": "hkust-oces-20261111-stanley-chun-kwan-lau-scklau",
+      "sourceId": "hkust-life-division-20261111-stanley-c-k-lau",
+      "bodySha256": "81d1bca8d693ea22ee187ce77402345166ef81fb581d6ef475ee751910698c00",
+      "researchKeywords": [],
+      "providedLinks": [
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/lau-stanley-c-k",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/pei-yuan-qian/",
+      "facultyId": "hkust-oces-20261111-peiyuan-qian-boqianpy",
+      "sourceId": "hkust-life-division-20261111-pei-yuan-qian",
+      "bodySha256": "80894b16af753b9e68df32643fb25a7a571bcae6b99e277ce9e7b2423b99588b",
+      "researchKeywords": [
+        "生物膜",
+        "幼体附着",
+        "海洋微生物生态"
+      ],
+      "providedLinks": [
+        {
+          "url": "http://www.qian.ust.hk/",
+          "label": "www.qian.ust.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://repository.ust.hk/ir/AuthorProfile/qian-peiyuan",
+          "label": "HKUST Scholarly",
+          "bodyStatus": "not_read"
+        }
+      ]
+    },
+    {
+      "url": "https://life-sci.hkust.edu.hk/team/qinglu-zeng/",
+      "facultyId": "hkust-oces-20261111-qinglu-zeng-zeng",
+      "sourceId": "hkust-life-division-20261111-qinglu-zeng",
+      "bodySha256": "775ba671d2570e39d4cb5601f2392e94908f45c45aadce5f18429c482b173204",
+      "researchKeywords": [
+        "噬菌体",
+        "原绿球藻",
+        "海洋微生物生态"
+      ],
+      "providedLinks": [
+        {
+          "url": "https://zenglab.hkust.edu.hk/",
+          "label": "zenglab.hkust.edu.hk",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com.hk/citations?hl=en&user=O_XpJkMAAAAJ&view_op=list_works&sortby=pubdate",
+          "label": "Google Scholar",
+          "bodyStatus": "not_read"
+        }
+      ]
+    }
+  ]
+}

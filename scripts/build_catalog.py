@@ -1276,6 +1276,19 @@ def build_catalog():
             lead.update(profileBodyStatus="body_read", bodySha256=update["bodySha256"])
             card.update(profileRead=True, reviewStatus="body_read")
             reviewed_sources.append(update["profileSourceId"])
+    life_division = load("hkust-life-science-division-20261111.json")
+    catalog["sources"].extend(life_division["sources"])
+    for update in life_division["updates"]:
+        url, faculty_id, source_id = update["url"], update["facultyId"], update["sourceId"]
+        person = people[faculty_id]
+        person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + [source_id]))
+        if update["researchKeywords"]:
+            person["keywordSourceIds"] = list(dict.fromkeys(person.get("keywordSourceIds", []) + [source_id]))
+            person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + update["researchKeywords"]))
+        life_leads[url].update(facultyId=faculty_id, researchReviewStatus="research_excerpt_and_directory_role_reviewed",
+                               profileBodyStatus="body_read", bodySha256=update["bodySha256"])
+        life_cards[url].update(facultyId=faculty_id, profileRead=True, reviewStatus="body_read")
+        reviewed_sources.append(source_id)
     life_census["profilesRead"] = len(reviewed_sources)
     life_census["profilesFailed"] = life_census["observedTotal"] - len(reviewed_sources)
     life_census["pendingReasonCounts"] = {"not_read": life_census["profilesFailed"]}
