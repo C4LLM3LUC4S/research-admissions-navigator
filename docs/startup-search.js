@@ -7,7 +7,14 @@
   const status=document.getElementById('startup-search-status');
   const results=document.getElementById('startup-search-results');
   const more=document.getElementById('startup-search-more');
-  let matches=[], shown=0;
+  let matches=[], shown=0, searched=false, catalogUnavailable=false;
+  function showStatus() {
+    const details=catalogUnavailable?'完整资料暂时无法载入。':'详细资料和清单正在载入。';
+    if(!searched)status.textContent=catalogUnavailable?details:'';
+    else status.textContent=matches.length
+      ? '找到 '+matches.length+' 位老师。'+details
+      : '没有匹配的研究关键词，可以试试其他中英文词。';
+  }
   function appendResults() {
     for(const [name, school, profileUrl, terms] of matches.slice(shown, shown+12)){
       const item=document.createElement('li');
@@ -29,6 +36,7 @@
   form.addEventListener('submit',event=>{
     event.preventDefault();
     const query=input.value.trim();
+    searched=Boolean(query);
     results.replaceChildren();
     matches=[];
     shown=0;
@@ -38,11 +46,14 @@
         if(terms.length)matches.push([name, school, profileUrl, terms]);
       }
     }
-    status.textContent=query
-      ? (matches.length?'找到 '+matches.length+' 位老师。详细资料和清单正在载入。':'没有匹配的研究关键词，可以试试其他中英文词。')
-      : '请输入想了解的研究关键词。';
+    if(query)showStatus();
+    else status.textContent='请输入想了解的研究关键词。';
     appendResults();
   });
   more.addEventListener('click',appendResults);
+  form.addEventListener('catalog-unavailable',()=>{
+    catalogUnavailable=true;
+    showStatus();
+  });
   form.hidden=false;
 }());
