@@ -1399,6 +1399,49 @@ def build_catalog():
                     (link["url"], link["parentSourceId"]) == (update["url"], update["parentSourceId"]))
         link.update(bodyStatus=update["bodyStatus"], sourceId=update["sourceId"], readNote=update["readNote"])
         person["sourceIds"].append(update["sourceId"])
+
+    eee = load("polyu-eee-20261111.json")
+    for field in ("sources", "faculty", "directories"):
+        catalog[field].extend(eee[field])
+    engineering = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == "polyu-4")
+    engineering.setdefault("staffEntries", []).extend(eee["staffEntries"])
+    for update in eee["stableDirectoryUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "directorySourceIds"):
+            person[field] = list(dict.fromkeys(person.get(field, []) + [update["directoryId"]]))
+    eee_page = ["polyu-eee-20261111-programme"]
+    eee_fee = ["polyu-eee-20261111-fee"]
+    eee_tuition = ["polyu-eee-20261111-tuition"]
+    eee_programme = program(
+        "polyu-eee-rpg-sept-2027", "polyu", "电机及电子工程研究学位", ["MPhil", "PhD"],
+        "2027 年 9 月入学，可全日制或兼读。方向涵盖通信与信息安全、光子器件、电力能源、智能出行、微电子与量子、人工智能与机器人。",
+        "recommended", "先联系研究方向相符的意向导师，再准备网申。", beee_procedure + eee_page,
+        "准备研究计划、个人陈述及学历证明，并安排两位学术推荐人。", eee_page,
+        [deadline("学系申请截止", "2027-05-31", eee_page)],
+        eee_page + beee_eligibility + beee_procedure + eee_fee + eee_tuition,
+        "日期适用于 2027 年 9 月 MPhil 和 PhD。HKPFS 另有申请安排。")
+    eee_programme.update(
+        entryUrl="https://www.polyu.edu.hk/study/pg/rpg/2027/eee",
+        requirements=beee_programme["requirements"][:2] + [
+            {"label": "申请材料", "text": "提交简历、个人陈述、研究计划、各段学历和成绩证明，以及两份学术推荐。拟任导师不能作为学术推荐人。",
+             "action": "联系两位熟悉你学术表现的推荐人，核对院校邮箱及材料。", "sourceIds": eee_page},
+            {"label": "英语证明", "text": "没有获认可的英语授课学位时，校级要求学术类雅思总分 6.5 或托福网考 80，成绩两年内有效。",
+             "sourceIds": beee_eligibility},
+        ],
+        finances=[
+            {"id": "polyu-eee-application-fee", "kind": "application_fee", "label": "申请费",
+             "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+             "action": "在校方网申系统核对缴费。", "sourceIds": eee_fee,
+             "rates": [{"value": 600, "currency": "HKD", "unit": "application", "basis": "intake",
+                        "cycle": "2027/28", "condition": "MPhil / PhD"}]},
+            {"id": "polyu-eee-tuition", "kind": "tuition", "label": "学费",
+             "text": "2027/28 全日制无助学金每年 99,000 港元。有助学金的全日制或兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+             "action": "按录取及资助条件核对学费和注册费。", "sourceIds": eee_tuition,
+             "rates": [{"value": value, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                        "cycle": "2027/28", "condition": condition}
+                       for value, condition in [(99000, "全日制无助学金"), (49500, "全日制有助学金或兼读")]]},
+        ])
+    catalog["programs"].append(eee_programme)
     return catalog
 
 

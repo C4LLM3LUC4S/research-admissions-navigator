@@ -8532,6 +8532,140 @@
           "rates": []
         }
       ]
+    },
+    {
+      "id": "polyu-eee-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "电机及电子工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027 年 9 月入学，可全日制或兼读。方向涵盖通信与信息安全、光子器件、电力能源、智能出行、微电子与量子、人工智能与机器人。",
+      "contact": {
+        "status": "recommended",
+        "text": "先联系研究方向相符的意向导师，再准备网申。",
+        "sourceIds": [
+          "polyu-beee-20261110-procedure",
+          "polyu-eee-20261111-programme"
+        ]
+      },
+      "selection": {
+        "text": "准备研究计划、个人陈述及学历证明，并安排两位学术推荐人。",
+        "sourceIds": [
+          "polyu-eee-20261111-programme"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "学系申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-eee-20261111-programme"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-programme",
+        "polyu-beee-20261110-eligibility",
+        "polyu-beee-20261110-procedure",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
+      ],
+      "evidenceNote": "日期适用于 2027 年 9 月 MPhil 和 PhD。HKPFS 另有申请安排。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/eee",
+      "requirements": [
+        {
+          "label": "MPhil 学历要求",
+          "text": "须持获认可大学颁发的二等荣誉或以上学士学位，或同等资格。",
+          "degrees": [
+            "MPhil"
+          ],
+          "sourceIds": [
+            "polyu-beee-20261110-eligibility"
+          ]
+        },
+        {
+          "label": "博士学历要求",
+          "text": "全日制三年或兼读六年路线通常要求学士和研究型硕士或同等资格。全日制四年或兼读八年路线通常接受硕士加学士，或一等荣誉学士或同等资格。",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "polyu-beee-20261110-eligibility"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "提交简历、个人陈述、研究计划、各段学历和成绩证明，以及两份学术推荐。拟任导师不能作为学术推荐人。",
+          "action": "联系两位熟悉你学术表现的推荐人，核对院校邮箱及材料。",
+          "sourceIds": [
+            "polyu-eee-20261111-programme"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "没有获认可的英语授课学位时，校级要求学术类雅思总分 6.5 或托福网考 80，成绩两年内有效。",
+          "sourceIds": [
+            "polyu-beee-20261110-eligibility"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-eee-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "MPhil / PhD"
+            }
+          ]
+        },
+        {
+          "id": "polyu-eee-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元。有助学金的全日制或兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按录取及资助条件核对学费和注册费。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金或兼读"
+            }
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -12801,10 +12935,12 @@
       "summary": "官方个人页列出人脸识别、图像与视频处理及计算机视觉。",
       "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
       "sourceIds": [
-        "wide-polyu-kin-man-lam-profile"
+        "wide-polyu-kin-man-lam-profile",
+        "polyu-eee-20261111-academic"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-eee"
+        "wide-dir-polyu-eee",
+        "polyu-eee-20261111-academic"
       ],
       "availability": {
         "state": "unknown",
@@ -12838,10 +12974,12 @@
       "summary": "官方个人页列出数据隐私、物联网与网络安全、对抗机器学习、移动及时空数据库。",
       "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/",
       "sourceIds": [
-        "wide-polyu-haibo-hu-profile"
+        "wide-polyu-haibo-hu-profile",
+        "polyu-eee-20261111-academic"
       ],
       "directorySourceIds": [
-        "wide-dir-polyu-eee"
+        "wide-dir-polyu-eee",
+        "polyu-eee-20261111-academic"
       ],
       "availability": {
         "state": "unknown",
@@ -126564,6 +126702,876 @@
         "text": "查看项目的指导安排。",
         "sourceIds": [
           "hkustgz-smmg-profile-20261111-117"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-chung-chi-yung",
+      "universityId": "polyu",
+      "name": "Prof. CHUNG Chi-yung",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Head of Department and Chair Professor of Power Systems Engineering",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chi-yung/",
+      "summary": "研究方向包括智能电网、微电网、可再生能源、电力系统稳定与控制、电动车充电。",
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-chung-chi-yung"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-chung-chi-yung"
+      ],
+      "researchKeywords": [
+        "智能电网",
+        "微电网",
+        "可再生能源",
+        "电力系统稳定与控制",
+        "电动车充电"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/c84c37a5-da13-4aee-8f83-68080581fb6f",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chung-chi-yung",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/eee/docdrive/cy.chung/index.html",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chung-chi-yung",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-6607-2240",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chung-chi-yung",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=7403613419",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chung-chi-yung",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/rcgm/",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chung-chi-yung",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-chung-chi-yung"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-chau-kwok-tong",
+      "universityId": "polyu",
+      "name": "Prof. CHAU Kwok-Tong",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Chair Professor of Electrical Energy Engineering",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-kwok-tong/",
+      "summary": "研究方向包括电动与混合动力汽车、可再生能源系统、电力电子、电机驱动。",
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-chau-kwok-tong"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-chau-kwok-tong"
+      ],
+      "researchKeywords": [
+        "电动与混合动力汽车",
+        "可再生能源系统",
+        "电力电子",
+        "电机驱动"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/8551e1a7-7ecf-486c-8017-4384716a7b9d",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chau-kwok-tong",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-1620-9688",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chau-kwok-tong",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=7202674641",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chau-kwok-tong",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://scholar.google.com/citations?user=5wptXfQAAAAJ&hl=en",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chau-kwok-tong",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-chau-kwok-tong"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-li-gang",
+      "universityId": "polyu",
+      "name": "Prof. LI Gang",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Sir Sze-yuen Chung Professor in Renewable Energy; Chair Professor of Energy Conversion Technology",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-gang/",
+      "summary": "研究方向包括有机半导体、钙钛矿半导体、薄膜光电器件、太阳能电池、光电探测器。",
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-li-gang"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-li-gang"
+      ],
+      "researchKeywords": [
+        "有机半导体",
+        "钙钛矿半导体",
+        "薄膜光电器件",
+        "太阳能电池",
+        "光电探测器"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/42af39f7-c993-47d9-b9c9-eb70355ad919",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-li-gang",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://staff.eie.polyu.edu.hk/gangli/",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-li-gang",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-8399-7771",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-li-gang",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56321423200",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-li-gang",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-li-gang"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-lu-chao",
+      "universityId": "polyu",
+      "name": "Prof. LU Chao",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Chair Professor of Fiber Optics",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lu-chao/",
+      "summary": "研究方向包括光通信系统、光通信网络、光纤器件、光纤传感。",
+      "topics": [
+        "网络与系统"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-lu-chao"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-lu-chao"
+      ],
+      "researchKeywords": [
+        "光通信系统",
+        "光通信网络",
+        "光纤器件",
+        "光纤传感"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/45a3be65-445c-4df8-8405-e13cb61cccd8",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lu-chao",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.eie.polyu.edu.hk/~enluchao",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lu-chao",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-9469-6672",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lu-chao",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57199466237",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lu-chao",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-lu-chao"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-tam-hwa-yaw",
+      "universityId": "polyu",
+      "name": "Prof. TAM Hwa-yaw",
+      "department": "电机及电子工程学系",
+      "directoryRole": "ADoPRI, ADoUMF & Chair Professor of Photonics",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tam-hwa-yaw/",
+      "summary": "研究方向包括光纤制备、光纤传感、铁路监测、智能建筑。",
+      "topics": [
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-tam-hwa-yaw"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-tam-hwa-yaw"
+      ],
+      "researchKeywords": [
+        "光纤制备",
+        "光纤传感",
+        "铁路监测",
+        "智能建筑"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/006dfc06-2f3c-49c8-9895-9c3a2927ebcc",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-tam-hwa-yaw",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-8441-4846",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-tam-hwa-yaw",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=33768110700",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-tam-hwa-yaw",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-tam-hwa-yaw"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-yu-changyuan",
+      "universityId": "polyu",
+      "name": "Prof. YU Changyuan",
+      "department": "电机及电子工程学系",
+      "directoryRole": "DoJJRI & Chair Professor of Photonic Information System",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yu-changyuan/",
+      "summary": "研究方向包括光子器件、光纤通信、光纤传感、生物医学仪器。",
+      "topics": [
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-yu-changyuan"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-yu-changyuan"
+      ],
+      "researchKeywords": [
+        "光子器件",
+        "光纤通信",
+        "光纤传感",
+        "生物医学仪器"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/d2ec9233-8a8a-4112-9849-5ff4850b4827",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-yu-changyuan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.eie.polyu.edu.hk/~cyuanyu",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-yu-changyuan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-3185-0441",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-yu-changyuan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57190397484",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-yu-changyuan",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-yu-changyuan"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-bu-siqi",
+      "universityId": "polyu",
+      "name": "Prof. BU Siqi",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor and Associate Head (Research)",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-bu-siqi/",
+      "summary": "研究方向包括电力系统稳定、可再生能源并网、智能电网、交通电气化。",
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-bu-siqi"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-bu-siqi"
+      ],
+      "researchKeywords": [
+        "电力系统稳定",
+        "可再生能源并网",
+        "智能电网",
+        "交通电气化"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/c8ef4226-9855-4f20-8151-288252a8b741",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-bu-siqi",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-1047-2568",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-bu-siqi",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=59299579400",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-bu-siqi",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-bu-siqi"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-lau-cm-francis",
+      "universityId": "polyu",
+      "name": "Prof. LAU Chung-Ming, Francis",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-cm-francis/",
+      "summary": "研究方向包括信道编码、协作网络、无线传感网络、混沌数字通信。",
+      "topics": [
+        "网络与系统"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-lau-cm-francis"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-lau-cm-francis"
+      ],
+      "researchKeywords": [
+        "信道编码",
+        "协作网络",
+        "无线传感网络",
+        "混沌数字通信"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/eb039721-0045-48eb-ac98-9ec08eab8524",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-cm-francis",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.eie.polyu.edu.hk/~encmlau",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-cm-francis",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-8279-0899",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-cm-francis",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57313950500",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-cm-francis",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-lau-cm-francis"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-lau-pak-tao-alan",
+      "universityId": "polyu",
+      "name": "Prof. LAU Pak-tao Alan",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor and Associate Dean (College of Undergraduate Studies)",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-pak-tao-alan/",
+      "summary": "研究方向包括相干光纤通信、多模光纤通信、通信信号处理。",
+      "topics": [
+        "网络与系统"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-lau-pak-tao-alan"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-lau-pak-tao-alan"
+      ],
+      "researchKeywords": [
+        "相干光纤通信",
+        "多模光纤通信",
+        "通信信号处理"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/fb5a774d-aed9-4841-91b0-bda1f7af7222",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-pak-tao-alan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.alanptlau.net/",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-pak-tao-alan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-0463-5057",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-pak-tao-alan",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=31967728700",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-lau-pak-tao-alan",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-lau-pak-tao-alan"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-niu-shuang-xia",
+      "universityId": "polyu",
+      "name": "Prof. NIU Shuang-xia",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-niu-shuang-xia/",
+      "summary": "研究方向包括电动车技术、可再生能源系统、电机与驱动、电力电子、应用电磁学。",
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-niu-shuang-xia"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-niu-shuang-xia"
+      ],
+      "researchKeywords": [
+        "电动车技术",
+        "可再生能源系统",
+        "电机与驱动",
+        "电力电子",
+        "应用电磁学"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/6b6c6904-2a77-4512-9f48-84f5acbbbce0",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-niu-shuang-xia",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-5934-616X",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-niu-shuang-xia",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=22135506800",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-niu-shuang-xia",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-niu-shuang-xia"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-or-siu-wing-derek",
+      "universityId": "polyu",
+      "name": "Prof. OR Siu-wing Derek",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-or-siu-wing-derek/",
+      "summary": "研究方向包括多功能智能材料、传感与驱动、能量转换、结构完整性。",
+      "topics": [
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-or-siu-wing-derek"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-or-siu-wing-derek"
+      ],
+      "researchKeywords": [
+        "多功能智能材料",
+        "传感与驱动",
+        "能量转换",
+        "结构完整性"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/777351d8-44f1-404c-9aee-febf5cb09669",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-or-siu-wing-derek",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-2536-5658",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-or-siu-wing-derek",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=43461991500",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-or-siu-wing-derek",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://publons.com/researcher/AAC-3122-2021",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-or-siu-wing-derek",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-or-siu-wing-derek"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-zhang-a-ping",
+      "universityId": "polyu",
+      "name": "Prof. ZHANG A-ping",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-a-ping/",
+      "summary": "研究方向包括光学微纳制造、光纤器件、微纳光子传感、生物芯片。",
+      "topics": [
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-zhang-a-ping"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-zhang-a-ping"
+      ],
+      "researchKeywords": [
+        "光学微纳制造",
+        "光纤器件",
+        "微纳光子传感",
+        "生物芯片"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/8e84e795-967c-41f7-ab4b-447dfa022b09",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-zhang-a-ping",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.polyu.edu.hk/researchgrp/azhang/index.htm",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-zhang-a-ping",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-2469-5225",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-zhang-a-ping",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=7402772899",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-zhang-a-ping",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-zhang-a-ping"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-zhao-haitao",
+      "universityId": "polyu",
+      "name": "Prof. ZHAO Haitao",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhao-haitao/",
+      "summary": "研究方向包括材料智能制造、制造机器人、人机信息物理系统、人工智能。",
+      "topics": [
+        "机器人与控制"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-zhao-haitao"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-zhao-haitao"
+      ],
+      "researchKeywords": [
+        "材料智能制造",
+        "制造机器人",
+        "人机信息物理系统",
+        "人工智能"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://orcid.org/0000-0002-2448-8448",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-zhao-haitao",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=55588908200",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-zhao-haitao",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-zhao-haitao"
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-chen-zhong",
+      "universityId": "polyu",
+      "name": "Prof. CHEN Zhong",
+      "department": "电机及电子工程学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-zhong/",
+      "summary": "研究方向包括碳化硅 CMOS、高压器件、半导体可靠性、静电放电防护。",
+      "topics": [
+        "电子与集成电路"
+      ],
+      "sourceIds": [
+        "polyu-eee-20261111-academic",
+        "polyu-eee-20261111-profile-chen-zhong"
+      ],
+      "directorySourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "keywordSourceIds": [
+        "polyu-eee-20261111-profile-chen-zhong"
+      ],
+      "researchKeywords": [
+        "碳化硅 CMOS",
+        "高压器件",
+        "半导体可靠性",
+        "静电放电防护"
+      ],
+      "academicUnitIds": [
+        "polyu-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/bde89bd9-a0ec-4080-8041-4f96f9602023",
+          "label": "个人页所给链接",
+          "parentSourceId": "polyu-eee-20261111-profile-chen-zhong",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "polyu-eee-20261111-profile-chen-zhong"
         ]
       }
     }
@@ -253699,6 +254707,567 @@
       "originalUrl": "https://www.liusylab.com/",
       "retrievedUrl": "https://www.liusylab.com/",
       "discoveredLinks": []
+    },
+    {
+      "id": "polyu-eee-20261111-academic",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+      "title": "港理工电机及电子工程 · 学术与教学人员",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该学系本页列86个岗位卡，范围为系主任、讲座教授、常规学术、研究助理教授及教学岗位。当前页面未提供分页链接。",
+      "claims": [
+        "该学系本页列86个岗位卡，范围为系主任、讲座教授、常规学术、研究助理教授及教学岗位。当前页面未提供分页链接。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chi-yung/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chan-ching-chuen/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-kwok-tong/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-jin-wei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-gang/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-ai-qun/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lu-chao/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tam-hwa-yaw/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yu-changyuan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhu-ziqiang/",
+        "https://www.polyu.edu.hk/eee/people/professor-of-practice/prof-lee-kang-kuen/",
+        "https://www.polyu.edu.hk/eee/people/professor-of-practice/ir-prof-sit-wing-hang-alfred/",
+        "https://www.polyu.edu.hk/eee/people/professor-of-practice/ir-prof-dr-yiu-hing-leung/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-bu-siqi/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-lap-pui/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chin-shin-edward/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-cm-francis/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-pak-tao-alan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-wei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-niu-shuang-xia/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-or-siu-wing-derek/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-xu-zhao/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-a-ping/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhao-haitao/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-cai-hong-helen/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chan-yui-lam/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-wen/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-zhong/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chin-lip-ket/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-gu-weihua/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-ho-ivan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-law-ngai-fong-bonnie/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lee-kong-aik/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-liang/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-loo-ka-hong/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-wang-qin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-ye-qingqing/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-huang-dongmei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-shuangqi/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-yuan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lin-wei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-wei-lucian/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-luo-wei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-mao-yingling/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-rossi-luca/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-su-daiqin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tan-bendong/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-wang-zhixun/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-xu-wanghuai/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yang-guang/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-shuowen/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-yi/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zheng-yifeng/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhong-kangping/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhou-xinyu/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-bao-haihong/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chen-feibei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chen-wenbin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-cui-jingxian/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-fan-wenbo/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-jiang-mingyuan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-li-sijin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-li-zilin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liang-zipeng/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junxu/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-kuan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-ren-zhiwei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-tian-jinpeng/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-hui/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-wei/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-yi/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-xiao-yaxin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-xu-haolun/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-yan-yaxi/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-yu-hao/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhang-youqian/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhang-zeqing/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhu-ziqing/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chan-ka-wing-kevin/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-lai-pauli/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liang-hui-wen-rebecca/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/mr-lau-ivan/",
+        "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/mr-pang-chun-yu-richard/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d1015b0b4608bc6f92d58bc29b502a59bceed193b39ae785ab286fb9626d6851"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-chung-chi-yung",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chi-yung/",
+      "title": "Prof. CHUNG Chi-yung · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "智能电网",
+        "微电网",
+        "可再生能源",
+        "电力系统稳定与控制",
+        "电动车充电"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/c84c37a5-da13-4aee-8f83-68080581fb6f",
+        "https://www.polyu.edu.hk/eee/docdrive/cy.chung/index.html",
+        "http://orcid.org/0000-0001-6607-2240",
+        "https://www.scopus.com/authid/detail.uri?authorId=7403613419",
+        "https://www.polyu.edu.hk/rcgm/"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "2f3f071e0a8c46e1b5eb01f0b8b19e30b41d09da44ff44d0a7dd9db9339a6f2f",
+      "capturedAt": "2026-11-11T09:11:57.571064+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-chau-kwok-tong",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-kwok-tong/",
+      "title": "Prof. CHAU Kwok-Tong · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "电动与混合动力汽车",
+        "可再生能源系统",
+        "电力电子",
+        "电机驱动"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/8551e1a7-7ecf-486c-8017-4384716a7b9d",
+        "http://orcid.org/0000-0003-1620-9688",
+        "https://www.scopus.com/authid/detail.uri?authorId=7202674641",
+        "https://scholar.google.com/citations?user=5wptXfQAAAAJ&hl=en"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "392bf49cb9d854090fefa91ce3e2964b0987d7e5c2a0ceab40a056c6dc52346c",
+      "capturedAt": "2026-11-11T09:11:57.623041+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-li-gang",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-gang/",
+      "title": "Prof. LI Gang · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "有机半导体",
+        "钙钛矿半导体",
+        "薄膜光电器件",
+        "太阳能电池",
+        "光电探测器"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/42af39f7-c993-47d9-b9c9-eb70355ad919",
+        "https://staff.eie.polyu.edu.hk/gangli/",
+        "http://orcid.org/0000-0001-8399-7771",
+        "https://www.scopus.com/authid/detail.uri?authorId=56321423200"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "e7511d013d4c38dbcb2666bc6b3d477c7dc13ed809eb1605c0da97c014236580",
+      "capturedAt": "2026-11-11T09:11:57.118325+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-lu-chao",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lu-chao/",
+      "title": "Prof. LU Chao · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "光通信系统",
+        "光通信网络",
+        "光纤器件",
+        "光纤传感"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/45a3be65-445c-4df8-8405-e13cb61cccd8",
+        "https://www.eie.polyu.edu.hk/~enluchao",
+        "http://orcid.org/0000-0002-9469-6672",
+        "https://www.scopus.com/authid/detail.uri?authorId=57199466237"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "e9c110cc6dc2e45af0016b49706c9d57e0cdc8af89599d8fd0ce43d738b9a7e1",
+      "capturedAt": "2026-11-11T09:11:58.616289+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-tam-hwa-yaw",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tam-hwa-yaw/",
+      "title": "Prof. TAM Hwa-yaw · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "光纤制备",
+        "光纤传感",
+        "铁路监测",
+        "智能建筑"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/006dfc06-2f3c-49c8-9895-9c3a2927ebcc",
+        "http://orcid.org/0000-0002-8441-4846",
+        "https://www.scopus.com/authid/detail.uri?authorId=33768110700"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "b6a89fbd88cf997212fd2e1ddfe36ea7a6f54dc85d421dde35cddc66012793f1",
+      "capturedAt": "2026-11-11T09:11:58.313733+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-yu-changyuan",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yu-changyuan/",
+      "title": "Prof. YU Changyuan · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "光子器件",
+        "光纤通信",
+        "光纤传感",
+        "生物医学仪器"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/d2ec9233-8a8a-4112-9849-5ff4850b4827",
+        "https://www.eie.polyu.edu.hk/~cyuanyu",
+        "http://orcid.org/0000-0002-3185-0441",
+        "https://www.scopus.com/authid/detail.uri?authorId=57190397484"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "3751490249f8d5554699b65a71c20da96097e1d48883cc469cc198d4c988d42e",
+      "capturedAt": "2026-11-11T09:11:58.533665+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-bu-siqi",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-bu-siqi/",
+      "title": "Prof. BU Siqi · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "电力系统稳定",
+        "可再生能源并网",
+        "智能电网",
+        "交通电气化"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/c8ef4226-9855-4f20-8151-288252a8b741",
+        "http://orcid.org/0000-0002-1047-2568",
+        "https://www.scopus.com/authid/detail.uri?authorId=59299579400"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "cfaa489c881a5840fe7aa341be7a9744f363bb60f98242a7448aa41a40b4ed98",
+      "capturedAt": "2026-11-11T09:11:59.487168+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-lau-cm-francis",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-cm-francis/",
+      "title": "Prof. LAU Chung-Ming, Francis · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "信道编码",
+        "协作网络",
+        "无线传感网络",
+        "混沌数字通信"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/eb039721-0045-48eb-ac98-9ec08eab8524",
+        "https://www.eie.polyu.edu.hk/~encmlau",
+        "http://orcid.org/0000-0002-8279-0899",
+        "https://www.scopus.com/authid/detail.uri?authorId=57313950500"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "e21b3d959e3a45cf7e3761196e8e9c4d98669382664376beecdaef641527c07b",
+      "capturedAt": "2026-11-11T09:11:59.833263+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-lau-pak-tao-alan",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-pak-tao-alan/",
+      "title": "Prof. LAU Pak-tao Alan · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "相干光纤通信",
+        "多模光纤通信",
+        "通信信号处理"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/fb5a774d-aed9-4841-91b0-bda1f7af7222",
+        "https://www.alanptlau.net/",
+        "http://orcid.org/0000-0003-0463-5057",
+        "https://www.scopus.com/authid/detail.uri?authorId=31967728700"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "68304e14f7362f12fc6efe15a7d1593204b5caf65abcb42e3ef665344b9d41fd",
+      "capturedAt": "2026-11-11T09:12:03.150794+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-niu-shuang-xia",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-niu-shuang-xia/",
+      "title": "Prof. NIU Shuang-xia · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "电动车技术",
+        "可再生能源系统",
+        "电机与驱动",
+        "电力电子",
+        "应用电磁学"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/6b6c6904-2a77-4512-9f48-84f5acbbbce0",
+        "http://orcid.org/0000-0001-5934-616X",
+        "https://www.scopus.com/authid/detail.uri?authorId=22135506800"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "7bfa7d58cbac9db822c8e6a36ea9525b338b2efbee34731243b26b19cb1c36e1",
+      "capturedAt": "2026-11-11T09:12:01.299427+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-or-siu-wing-derek",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-or-siu-wing-derek/",
+      "title": "Prof. OR Siu-wing Derek · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "多功能智能材料",
+        "传感与驱动",
+        "能量转换",
+        "结构完整性"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/777351d8-44f1-404c-9aee-febf5cb09669",
+        "http://orcid.org/0000-0003-2536-5658",
+        "https://www.scopus.com/authid/detail.uri?authorId=43461991500",
+        "https://publons.com/researcher/AAC-3122-2021"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "d337944398766d16229198abf144578aec25e60744d252b0fc3265d8970ca5ad",
+      "capturedAt": "2026-11-11T09:12:01.280967+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-zhang-a-ping",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-a-ping/",
+      "title": "Prof. ZHANG A-ping · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "光学微纳制造",
+        "光纤器件",
+        "微纳光子传感",
+        "生物芯片"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/8e84e795-967c-41f7-ab4b-447dfa022b09",
+        "https://www.polyu.edu.hk/researchgrp/azhang/index.htm",
+        "http://orcid.org/0000-0003-2469-5225",
+        "https://www.scopus.com/authid/detail.uri?authorId=7402772899"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "dd97aa2a11b22ed2e7fd05d294d7614d0edda6f14718c07c3bcabfef9554cbed",
+      "capturedAt": "2026-11-11T09:12:02.871499+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-zhao-haitao",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhao-haitao/",
+      "title": "Prof. ZHAO Haitao · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "材料智能制造",
+        "制造机器人",
+        "人机信息物理系统",
+        "人工智能"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://orcid.org/0000-0002-2448-8448",
+        "https://www.scopus.com/authid/detail.uri?authorId=55588908200"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "7ee11e74bf6287076b93f71780df955d64b63a20434038f4ee5fe26d27d5e1cd",
+      "capturedAt": "2026-11-11T09:12:01.851122+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-profile-chen-zhong",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-zhong/",
+      "title": "Prof. CHEN Zhong · 学系个人档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "个人介绍及研究方向段落",
+      "claims": [
+        "碳化硅 CMOS",
+        "高压器件",
+        "半导体可靠性",
+        "静电放电防护"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/bde89bd9-a0ec-4080-8041-4f96f9602023"
+      ],
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "0538b1879bf063e7633fbf8d32e4a6f7936a0a0841fb1ff853ce441736092149",
+      "capturedAt": "2026-11-11T09:12:03.167140+00:00"
+    },
+    {
+      "id": "polyu-eee-20261111-affiliated",
+      "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+      "title": "港理工电机及电子工程 · 荣休、兼任、荣誉及访问人员",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该学系本页列12个岗位卡，范围为荣誉、荣休、兼任及访问。当前页面未提供分页链接。",
+      "claims": [
+        "该学系本页列12个岗位卡，范围为荣誉、荣休、兼任及访问。当前页面未提供分页链接。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-alex-wai/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-chan-ching-ho-philip/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-wong-joshua/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-siu-wc/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-woo-chung-ho/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-ho-wing-ip/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-alan-lam/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-liu-xiang/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-lock-hong-kee/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-tan-chee-keong/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/dr-mung-wai-yin-steve/",
+        "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/dr-fung-yu-fai/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9fa5709fb36a3a63633c3549acc4acaf767f65a50d76942aa89c65fa73d3a37d"
+    },
+    {
+      "id": "polyu-eee-20261111-support",
+      "url": "https://www.polyu.edu.hk/eee/people/supporting-staff/",
+      "title": "港理工电机及电子工程 · 行政与技术支援人员",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "该学系本页列35个岗位卡，范围为行政及技术支援。当前页面未提供分页链接。",
+      "claims": [
+        "该学系本页列35个岗位卡，范围为行政及技术支援。当前页面未提供分页链接。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-serine-au/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-helen-fung/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-cathy-wong/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-yang-lu-jasmine/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-iris-yeung/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/carol-yuen/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-chan-cheuk-kei-celia/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-lau-hoi-wai-cherry/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/cathy-lee/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-li-yee-ling-elaine/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/miss-erica-lui/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/rebecca-o/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-eunice-tsang/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-jessica-tse/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-kammy-wong/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-yu-king-man-michelle/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-mak-sze-lam-karen/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/mr-shum-ah-yin-anthony/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-wong-lok-yi-stephanie/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/ms-wen-jiajun-wendy/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/mr-bd-ng-cheuk-hin/",
+        "https://www.polyu.edu.hk/eee/people/supporting-staff/mr-ray-tse/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/dr-patrick-fong/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/dr-michael-liu/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/raymond-ng/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/ryan-yau/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/dr-zhang-xiaodong/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/dr-x-cheng/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/cheuk-chi-ming/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/dr-hl-ho/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/wl-hui/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/hayward-wong/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/samson-lui/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/nick-wong/",
+        "https://www.polyu.edu.hk/eee/people/technical-staff/jack-cheung/"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b5305f541d67d06714427a2c600eb241d80161867f8669502132c61720aeebe4"
+    },
+    {
+      "id": "polyu-eee-20261111-programme",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/eee",
+      "title": "港理工电机及电子工程 · 2027 年 9 月研究学位",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "MPhil 和 PhD 均可全日制或兼读，学系截止 2027-05-31；列六个研究方向及五类申请材料。",
+      "claims": [
+        "MPhil 和 PhD 均可全日制或兼读，学系截止 2027-05-31；列六个研究方向及五类申请材料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "11b210a4e12b92aef86a1ef20e1c0f23f7cd7926bbe074961b2a4c449f37148b"
+    },
+    {
+      "id": "polyu-eee-20261111-fee",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate-application-fee",
+      "title": "港理工 · 校级研究学位申请费",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027/28 入学申请费 600 港元，在网申提交时支付。",
+      "claims": [
+        "2027/28 入学申请费 600 港元，在网申提交时支付。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "27f77da5b99ccd164c0d852d9836353851ca5b5e99b9a3304fa221e0e2ba904c"
+    },
+    {
+      "id": "polyu-eee-20261111-tuition",
+      "url": "https://www.polyu.edu.hk/study/pg/research-postgraduate/tuition-fee-and-registration-fee-rpg",
+      "title": "港理工 · 校级研究学位学费及注册费",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027/28 全日制无助学金每年 99,000 港元；有助学金或兼读每年 49,500 港元。录取后注册费另有缴付与抵扣安排。",
+      "claims": [
+        "2027/28 全日制无助学金每年 99,000 港元；有助学金或兼读每年 49,500 港元。录取后注册费另有缴付与抵扣安排。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "27f77da5b99ccd164c0d852d9836353851ca5b5e99b9a3304fa221e0e2ba904c"
     }
   ],
   "funding": [
@@ -282153,6 +283722,954 @@
           }
         ]
       }
+    },
+    {
+      "id": "polyu-eee-20261111-academic-directory",
+      "universityId": "polyu",
+      "unit": "电机及电子工程学系 · 学术与教学人员",
+      "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "polyu-eee-20261111-academic"
+      ],
+      "coverageNotes": "该学系本页列86个岗位卡，范围为系主任、讲座教授、常规学术、研究助理教授及教学岗位。当前页面未提供分页链接。",
+      "reviewSourceIds": [
+        "polyu-eee-20261111-profile-chung-chi-yung",
+        "polyu-eee-20261111-profile-chau-kwok-tong",
+        "polyu-eee-20261111-profile-li-gang",
+        "polyu-eee-20261111-profile-lu-chao",
+        "polyu-eee-20261111-profile-tam-hwa-yaw",
+        "polyu-eee-20261111-profile-yu-changyuan",
+        "polyu-eee-20261111-profile-bu-siqi",
+        "polyu-eee-20261111-profile-lau-cm-francis",
+        "polyu-eee-20261111-profile-lau-pak-tao-alan",
+        "polyu-eee-20261111-profile-niu-shuang-xia",
+        "polyu-eee-20261111-profile-or-siu-wing-derek",
+        "polyu-eee-20261111-profile-zhang-a-ping",
+        "polyu-eee-20261111-profile-zhao-haitao",
+        "polyu-eee-20261111-profile-chen-zhong"
+      ],
+      "census": {
+        "observedTotal": 86,
+        "profilesRead": 14,
+        "profilesFailed": 72,
+        "entries": [
+          {
+            "name": "Prof. CHUNG Chi-yung",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chi-yung/",
+            "directoryPosition": "Head of Department and Chair Professor of Power Systems Engineering",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-chung-chi-yung"
+          },
+          {
+            "name": "Ir Prof. CHAN Ching-chuen, GBS",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chan-ching-chuen/",
+            "directoryPosition": "Distinguished Chair Professor of Electric Vehicles and Smart Energy",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. CHAU Kwok-Tong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-kwok-tong/",
+            "directoryPosition": "Chair Professor of Electrical Energy Engineering",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-chau-kwok-tong"
+          },
+          {
+            "name": "Prof. JIN Wei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-jin-wei/",
+            "directoryPosition": "ADoPRI & Chair Professor of Photonic Instrumentation",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LI Gang",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-gang/",
+            "directoryPosition": "Sir Sze-yuen Chung Professor in Renewable Energy; Chair Professor of Energy Conversion Technology",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-li-gang"
+          },
+          {
+            "name": "Prof. LIU Ai-Qun",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-ai-qun/",
+            "directoryPosition": "Chair Professor of Quantum Engineering and Science (under the Global STEM Professorship Scheme)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LU Chao",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lu-chao/",
+            "directoryPosition": "Chair Professor of Fiber Optics",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-lu-chao"
+          },
+          {
+            "name": "Prof. TAM Hwa-yaw",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tam-hwa-yaw/",
+            "directoryPosition": "ADoPRI, ADoUMF & Chair Professor of Photonics",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-tam-hwa-yaw"
+          },
+          {
+            "name": "Prof. YU Changyuan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yu-changyuan/",
+            "directoryPosition": "DoJJRI & Chair Professor of Photonic Information System",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-yu-changyuan"
+          },
+          {
+            "name": "Prof. ZHU Zi-Qiang",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhu-ziqiang/",
+            "directoryPosition": "Chair Professor of Electrical Machines and Control Systems",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LEE Kang-kuen",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/professor-of-practice/prof-lee-kang-kuen/",
+            "directoryPosition": "Professor of Practice (Transportation)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Ir Prof. SIT Wing-hang Alfred, GBS, JP",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/professor-of-practice/ir-prof-sit-wing-hang-alfred/",
+            "directoryPosition": "Professor of Practice (Electrical Engineering)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Ir Prof Dr YIU Hing Leung",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/professor-of-practice/ir-prof-dr-yiu-hing-leung/",
+            "directoryPosition": "Professor of Practice (Microelectronics, networking and computing, innovation and technology entrepreneurship)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. BU Siqi",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-bu-siqi/",
+            "directoryPosition": "Professor and Associate Head (Research)",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-bu-siqi"
+          },
+          {
+            "name": "Prof. CHAU Lap-Pui",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-lap-pui/",
+            "directoryPosition": "Professor, Global STEM Scholar (under the Global STEM Professorship Scheme)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. CHUNG Chin-shin Edward",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chin-shin-edward/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. HU Haibo",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/",
+            "directoryPosition": "Professor and Associate Head (Learning and Teaching)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "facultyId": "wide-polyu-haibo-hu",
+            "reviewNote": "沿用已有研究档案"
+          },
+          {
+            "name": "Prof. LAM Kin-Man, Kenneth",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "facultyId": "wide-polyu-kin-man-lam",
+            "reviewNote": "沿用已有研究档案"
+          },
+          {
+            "name": "Prof. LAU Chung-Ming, Francis",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-cm-francis/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-lau-cm-francis"
+          },
+          {
+            "name": "Prof. LAU Pak-tao Alan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-pak-tao-alan/",
+            "directoryPosition": "Professor and Associate Dean (College of Undergraduate Studies)",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-lau-pak-tao-alan"
+          },
+          {
+            "name": "Prof. LIU Wei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-wei/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. NIU Shuang-xia",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-niu-shuang-xia/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-niu-shuang-xia"
+          },
+          {
+            "name": "Prof. OR Siu-wing Derek",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-or-siu-wing-derek/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-or-siu-wing-derek"
+          },
+          {
+            "name": "Prof. XU Zhao",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-xu-zhao/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ZHANG A-ping",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-a-ping/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-zhang-a-ping"
+          },
+          {
+            "name": "Prof. ZHAO Haitao",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhao-haitao/",
+            "directoryPosition": "Professor",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-zhao-haitao"
+          },
+          {
+            "name": "Prof. CAI Hong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-cai-hong-helen/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. CHAN Yui-Lam",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chan-yui-lam/",
+            "directoryPosition": "Associate Professor and Associate Head (Promotions and Global Relations)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. CHEN Wen",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-wen/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. CHEN Zhong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-zhong/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-eee-chen-zhong"
+          },
+          {
+            "name": "Prof. CHIN Lip Ket",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chin-lip-ket/",
+            "directoryPosition": "Associate Professor and Associate Director of Research Institute for Quantum Technology",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. GU Weihua",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-gu-weihua/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. HO Wang-Hei, Ivan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-ho-ivan/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LAW Ngai-Fong, Bonnie",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-law-ngai-fong-bonnie/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LEE Kong Aik",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lee-kong-aik/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LIU Liang",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-liang/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LOO Ka-Hong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-loo-ka-hong/",
+            "directoryPosition": "Associate Professor and Assistant Dean (External Engagement)",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. WANG Qin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-wang-qin/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. YE Qingqing",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-ye-qingqing/",
+            "directoryPosition": "Associate Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. HUANG Dongmei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-huang-dongmei/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LI Shuangqi",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-shuangqi/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LI Yuan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-yuan/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LIN Wei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lin-wei/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LIU Wei Lucian",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-wei-lucian/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LUO Wei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-luo-wei/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. MAO Yingling",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-mao-yingling/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ROSSI Luca",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-rossi-luca/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. SU Daiqin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-su-daiqin/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. TAN Bendong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tan-bendong/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. WANG Zhixun",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-wang-zhixun/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. XU Wanghuai",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-xu-wanghuai/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. YANG Guang",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yang-guang/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ZHANG Shuowen",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-shuowen/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ZHANG Yi",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-yi/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ZHENG Yifeng",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zheng-yifeng/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ZHONG Kangping",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhong-kangping/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. ZHOU Xinyu",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhou-xinyu/",
+            "directoryPosition": "Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr BAO Haihong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-bao-haihong/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr CHEN Feibei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chen-feibei/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr CHEN Wenbin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chen-wenbin/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr CUI Jingxian",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-cui-jingxian/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr FAN Wenbo",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-fan-wenbo/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr JIANG Mingyuan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-jiang-mingyuan/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LI Sijin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-li-sijin/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LI Zilin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-li-zilin/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LIANG Zipeng",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liang-zipeng/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LIU Junwei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LIU Junxu",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junxu/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LIU Kuan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-kuan/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr REN Zhiwei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-ren-zhiwei/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr TIAN Jinpeng",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-tian-jinpeng/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr WANG Hui",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-hui/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr WANG Wei",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-wei/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr WANG Yi",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-yi/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr XIAO Yaxin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-xiao-yaxin/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr XU Haolun",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-xu-haolun/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr YAN Yaxi",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-yan-yaxi/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr YU Hao",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-yu-hao/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr ZHANG Youqian",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhang-youqian/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr ZHANG Zeqing",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhang-zeqing/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr ZHU Ziqing",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhu-ziqing/",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr CHAN Ka-wing Kevin",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chan-ka-wing-kevin/",
+            "directoryPosition": "Senior Lecturer",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LAI Po-Yan, Pauli",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-lai-pauli/",
+            "directoryPosition": "Senior Lecturer",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr LIANG Hui-wen Rebecca",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liang-hui-wen-rebecca/",
+            "directoryPosition": "Lecturer",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Mr LAU Chun-Fai, Ivan",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/mr-lau-ivan/",
+            "directoryPosition": "Instructor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Mr PANG Chun-Yu, Richard",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/mr-pang-chun-yu-richard/",
+            "directoryPosition": "Instructor",
+            "category": "学术与教学人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-20261111-affiliated-directory",
+      "universityId": "polyu",
+      "unit": "电机及电子工程学系 · 荣休、兼任、荣誉及访问人员",
+      "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "polyu-eee-20261111-affiliated"
+      ],
+      "coverageNotes": "该学系本页列12个岗位卡，范围为荣誉、荣休、兼任及访问。当前页面未提供分页链接。",
+      "reviewSourceIds": [],
+      "census": {
+        "observedTotal": 12,
+        "profilesRead": 0,
+        "profilesFailed": 12,
+        "entries": [
+          {
+            "name": "Ir Prof. WAI Ping-Kong, Alexander",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-alex-wai/",
+            "directoryPosition": "Distinguished Honorary Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. CHAN Ching-Ho, Philip",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-chan-ching-ho-philip/",
+            "directoryPosition": "Emeritus Professor (Electrical and Electronic Engineering)",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. WONG Sook-Leung, Joshua",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-wong-joshua/",
+            "directoryPosition": "Emeritus Professor (Former VP of PolyU)",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. SIU Wan-Chi",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-siu-wc/",
+            "directoryPosition": "Emeritus Professor (Information Engineering)",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. WOO Chung-Ho",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-woo-chung-ho/",
+            "directoryPosition": "Emeritus Professor (Former Chair Professor of Solid-State Electronics)",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Ir Prof. HO Wing Ip",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-ho-wing-ip/",
+            "directoryPosition": "Adjunct Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Ir Prof. Alan LAM, JP",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-alan-lam/",
+            "directoryPosition": "Adjunct Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LIU Xiang",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-liu-xiang/",
+            "directoryPosition": "Adjunct Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. LOCK Hong Kee",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-lock-hong-kee/",
+            "directoryPosition": "Adjunct Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Prof. Tan Chee Keong",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-tan-chee-keong/",
+            "directoryPosition": "Adjunct Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr MUNG Wai-Yin, Steve",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/dr-mung-wai-yin-steve/",
+            "directoryPosition": "Adjunct Associate Professor",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          },
+          {
+            "name": "Dr FUNG Yu-fai",
+            "profileUrl": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/dr-fung-yu-fai/",
+            "directoryPosition": "Visiting Lecturer",
+            "category": "荣休、兼任、荣誉及访问人员",
+            "profileRead": false,
+            "reviewStatus": "not_read",
+            "reviewNote": "学系名录已读，个人研究资料待核"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-eee-20261111-support-directory",
+      "universityId": "polyu",
+      "unit": "电机及电子工程学系 · 行政与技术支援人员",
+      "url": "https://www.polyu.edu.hk/eee/people/supporting-staff/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "polyu-eee-20261111-support"
+      ],
+      "coverageNotes": "该学系本页列35个岗位卡，范围为行政及技术支援。当前页面未提供分页链接。"
     }
   ],
   "directApplicationRoutes": {
@@ -310317,6 +312834,1265 @@
               "teacherProfilesTotal": null,
               "enumerationComplete": false,
               "profileLeads": []
+            },
+            {
+              "label": "电机及电子工程学系 · 学术与教学人员",
+              "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+              "sourceIds": [
+                "polyu-eee-20261111-academic"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Prof. CHUNG Chi-yung",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chi-yung/",
+                  "directoryLabel": "Head of Department and Chair Professor of Power Systems Engineering",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-chung-chi-yung",
+                  "bodySha256": "2f3f071e0a8c46e1b5eb01f0b8b19e30b41d09da44ff44d0a7dd9db9339a6f2f",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Ir Prof. CHAN Ching-chuen, GBS",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chan-ching-chuen/",
+                  "directoryLabel": "Distinguished Chair Professor of Electric Vehicles and Smart Energy",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. CHAU Kwok-Tong",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-kwok-tong/",
+                  "directoryLabel": "Chair Professor of Electrical Energy Engineering",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-chau-kwok-tong",
+                  "bodySha256": "392bf49cb9d854090fefa91ce3e2964b0987d7e5c2a0ceab40a056c6dc52346c",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. JIN Wei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-jin-wei/",
+                  "directoryLabel": "ADoPRI & Chair Professor of Photonic Instrumentation",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LI Gang",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-gang/",
+                  "directoryLabel": "Sir Sze-yuen Chung Professor in Renewable Energy; Chair Professor of Energy Conversion Technology",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-li-gang",
+                  "bodySha256": "e7511d013d4c38dbcb2666bc6b3d477c7dc13ed809eb1605c0da97c014236580",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. LIU Ai-Qun",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-ai-qun/",
+                  "directoryLabel": "Chair Professor of Quantum Engineering and Science (under the Global STEM Professorship Scheme)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LU Chao",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lu-chao/",
+                  "directoryLabel": "Chair Professor of Fiber Optics",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-lu-chao",
+                  "bodySha256": "e9c110cc6dc2e45af0016b49706c9d57e0cdc8af89599d8fd0ce43d738b9a7e1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. TAM Hwa-yaw",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tam-hwa-yaw/",
+                  "directoryLabel": "ADoPRI, ADoUMF & Chair Professor of Photonics",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-tam-hwa-yaw",
+                  "bodySha256": "b6a89fbd88cf997212fd2e1ddfe36ea7a6f54dc85d421dde35cddc66012793f1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. YU Changyuan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yu-changyuan/",
+                  "directoryLabel": "DoJJRI & Chair Professor of Photonic Information System",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-yu-changyuan",
+                  "bodySha256": "3751490249f8d5554699b65a71c20da96097e1d48883cc469cc198d4c988d42e",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. ZHU Zi-Qiang",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhu-ziqiang/",
+                  "directoryLabel": "Chair Professor of Electrical Machines and Control Systems",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LEE Kang-kuen",
+                  "url": "https://www.polyu.edu.hk/eee/people/professor-of-practice/prof-lee-kang-kuen/",
+                  "directoryLabel": "Professor of Practice (Transportation)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Ir Prof. SIT Wing-hang Alfred, GBS, JP",
+                  "url": "https://www.polyu.edu.hk/eee/people/professor-of-practice/ir-prof-sit-wing-hang-alfred/",
+                  "directoryLabel": "Professor of Practice (Electrical Engineering)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Ir Prof Dr YIU Hing Leung",
+                  "url": "https://www.polyu.edu.hk/eee/people/professor-of-practice/ir-prof-dr-yiu-hing-leung/",
+                  "directoryLabel": "Professor of Practice (Microelectronics, networking and computing, innovation and technology entrepreneurship)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. BU Siqi",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-bu-siqi/",
+                  "directoryLabel": "Professor and Associate Head (Research)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-bu-siqi",
+                  "bodySha256": "cfaa489c881a5840fe7aa341be7a9744f363bb60f98242a7448aa41a40b4ed98",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. CHAU Lap-Pui",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chau-lap-pui/",
+                  "directoryLabel": "Professor, Global STEM Scholar (under the Global STEM Professorship Scheme)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. CHUNG Chin-shin Edward",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chung-chin-shin-edward/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. HU Haibo",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-hu-haibo/",
+                  "directoryLabel": "Professor and Associate Head (Learning and Teaching)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "wide-polyu-haibo-hu",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "沿用已核对的同一官网档案"
+                },
+                {
+                  "name": "Prof. LAM Kin-Man, Kenneth",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lam-kin-man-kenneth/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "wide-polyu-kin-man-lam",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed",
+                  "reviewNote": "沿用已核对的同一官网档案"
+                },
+                {
+                  "name": "Prof. LAU Chung-Ming, Francis",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-cm-francis/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-lau-cm-francis",
+                  "bodySha256": "e21b3d959e3a45cf7e3761196e8e9c4d98669382664376beecdaef641527c07b",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. LAU Pak-tao Alan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lau-pak-tao-alan/",
+                  "directoryLabel": "Professor and Associate Dean (College of Undergraduate Studies)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-lau-pak-tao-alan",
+                  "bodySha256": "68304e14f7362f12fc6efe15a7d1593204b5caf65abcb42e3ef665344b9d41fd",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. LIU Wei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-wei/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. NIU Shuang-xia",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-niu-shuang-xia/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-niu-shuang-xia",
+                  "bodySha256": "7bfa7d58cbac9db822c8e6a36ea9525b338b2efbee34731243b26b19cb1c36e1",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. OR Siu-wing Derek",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-or-siu-wing-derek/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-or-siu-wing-derek",
+                  "bodySha256": "d337944398766d16229198abf144578aec25e60744d252b0fc3265d8970ca5ad",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. XU Zhao",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-xu-zhao/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ZHANG A-ping",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-a-ping/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-zhang-a-ping",
+                  "bodySha256": "dd97aa2a11b22ed2e7fd05d294d7614d0edda6f14718c07c3bcabfef9554cbed",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. ZHAO Haitao",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhao-haitao/",
+                  "directoryLabel": "Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-zhao-haitao",
+                  "bodySha256": "7ee11e74bf6287076b93f71780df955d64b63a20434038f4ee5fe26d27d5e1cd",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. CAI Hong",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-cai-hong-helen/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. CHAN Yui-Lam",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chan-yui-lam/",
+                  "directoryLabel": "Associate Professor and Associate Head (Promotions and Global Relations)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. CHEN Wen",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-wen/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. CHEN Zhong",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chen-zhong/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ],
+                  "facultyId": "polyu-eee-chen-zhong",
+                  "bodySha256": "0538b1879bf063e7633fbf8d32e4a6f7936a0a0841fb1ff853ce441736092149",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Prof. CHIN Lip Ket",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-chin-lip-ket/",
+                  "directoryLabel": "Associate Professor and Associate Director of Research Institute for Quantum Technology",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. GU Weihua",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-gu-weihua/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. HO Wang-Hei, Ivan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-ho-ivan/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LAW Ngai-Fong, Bonnie",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-law-ngai-fong-bonnie/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LEE Kong Aik",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lee-kong-aik/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LIU Liang",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-liang/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LOO Ka-Hong",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-loo-ka-hong/",
+                  "directoryLabel": "Associate Professor and Assistant Dean (External Engagement)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. WANG Qin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-wang-qin/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. YE Qingqing",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-ye-qingqing/",
+                  "directoryLabel": "Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. HUANG Dongmei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-huang-dongmei/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LI Shuangqi",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-shuangqi/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LI Yuan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-li-yuan/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LIN Wei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-lin-wei/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LIU Wei Lucian",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-liu-wei-lucian/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. LUO Wei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-luo-wei/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. MAO Yingling",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-mao-yingling/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ROSSI Luca",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-rossi-luca/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. SU Daiqin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-su-daiqin/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. TAN Bendong",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-tan-bendong/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. WANG Zhixun",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-wang-zhixun/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. XU Wanghuai",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-xu-wanghuai/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. YANG Guang",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-yang-guang/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ZHANG Shuowen",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-shuowen/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ZHANG Yi",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhang-yi/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ZHENG Yifeng",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zheng-yifeng/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ZHONG Kangping",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhong-kangping/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Prof. ZHOU Xinyu",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/prof-zhou-xinyu/",
+                  "directoryLabel": "Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr BAO Haihong",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-bao-haihong/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr CHEN Feibei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chen-feibei/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr CHEN Wenbin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chen-wenbin/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr CUI Jingxian",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-cui-jingxian/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr FAN Wenbo",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-fan-wenbo/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr JIANG Mingyuan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-jiang-mingyuan/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LI Sijin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-li-sijin/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LI Zilin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-li-zilin/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LIANG Zipeng",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liang-zipeng/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LIU Junwei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junwei/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LIU Junxu",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-junxu/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LIU Kuan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liu-kuan/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr REN Zhiwei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-ren-zhiwei/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr TIAN Jinpeng",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-tian-jinpeng/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr WANG Hui",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-hui/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr WANG Wei",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-wei/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr WANG Yi",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-wang-yi/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr XIAO Yaxin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-xiao-yaxin/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr XU Haolun",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-xu-haolun/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr YAN Yaxi",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-yan-yaxi/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr YU Hao",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-yu-hao/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr ZHANG Youqian",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhang-youqian/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr ZHANG Zeqing",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhang-zeqing/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr ZHU Ziqing",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-zhu-ziqing/",
+                  "directoryLabel": "Research Assistant Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr CHAN Ka-wing Kevin",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-chan-ka-wing-kevin/",
+                  "directoryLabel": "Senior Lecturer",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LAI Po-Yan, Pauli",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-lai-pauli/",
+                  "directoryLabel": "Senior Lecturer",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Dr LIANG Hui-wen Rebecca",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/dr-liang-hui-wen-rebecca/",
+                  "directoryLabel": "Lecturer",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Mr LAU Chun-Fai, Ivan",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/mr-lau-ivan/",
+                  "directoryLabel": "Instructor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                },
+                {
+                  "name": "Mr PANG Chun-Yu, Richard",
+                  "url": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/mr-pang-chun-yu-richard/",
+                  "directoryLabel": "Instructor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/academic-staff-and-teaching-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-academic"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "电机及电子工程学系 · 荣休、兼任、荣誉及访问人员",
+              "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+              "sourceIds": [
+                "polyu-eee-20261111-affiliated"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Ir Prof. WAI Ping-Kong, Alexander",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-alex-wai/",
+                  "directoryLabel": "Distinguished Honorary Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. CHAN Ching-Ho, Philip",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-chan-ching-ho-philip/",
+                  "directoryLabel": "Emeritus Professor (Electrical and Electronic Engineering)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. WONG Sook-Leung, Joshua",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-wong-joshua/",
+                  "directoryLabel": "Emeritus Professor (Former VP of PolyU)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. SIU Wan-Chi",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-siu-wc/",
+                  "directoryLabel": "Emeritus Professor (Information Engineering)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. WOO Chung-Ho",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-woo-chung-ho/",
+                  "directoryLabel": "Emeritus Professor (Former Chair Professor of Solid-State Electronics)",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Ir Prof. HO Wing Ip",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-ho-wing-ip/",
+                  "directoryLabel": "Adjunct Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Ir Prof. Alan LAM, JP",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-alan-lam/",
+                  "directoryLabel": "Adjunct Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. LIU Xiang",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-liu-xiang/",
+                  "directoryLabel": "Adjunct Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. LOCK Hong Kee",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-lock-hong-kee/",
+                  "directoryLabel": "Adjunct Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Prof. Tan Chee Keong",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/prof-tan-chee-keong/",
+                  "directoryLabel": "Adjunct Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Dr MUNG Wai-Yin, Steve",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/dr-mung-wai-yin-steve/",
+                  "directoryLabel": "Adjunct Associate Professor",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                },
+                {
+                  "name": "Dr FUNG Yu-fai",
+                  "url": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/dr-fung-yu-fai/",
+                  "directoryLabel": "Visiting Lecturer",
+                  "observedOn": "https://www.polyu.edu.hk/eee/people/distinguished-honorary-emeritus-adjunct-and-visiting-staff/",
+                  "profileBodyStatus": "not_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "polyu-eee-20261111-affiliated"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "电机及电子工程学系 · 行政与技术支援人员",
+              "url": "https://www.polyu.edu.hk/eee/people/supporting-staff/",
+              "sourceIds": [
+                "polyu-eee-20261111-support"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": []
             }
           ],
           "bodySha256": "d5c5d76b3a802f89577e812e26f8a37f30252b226811be22a6fd2c80cedc8306",
@@ -329642,5 +333418,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:9456df76ce416ddbad9fb061ad753c431f19f2118e248451eee29e96d5e5fc49"
+  "snapshotId": "sha256:134c7294b3504758552f1a615f14725486ba4b824ba223e4f5cb4d347d11ed1d"
 }
