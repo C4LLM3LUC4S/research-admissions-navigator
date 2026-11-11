@@ -1494,6 +1494,48 @@ def build_catalog():
                         "cycle": "2027/28", "condition": "所有修读模式"}]},
         ])
     catalog["programs"].append(cuhk_ee_programme)
+    ie = load("cuhk-ie-20261111.json")
+    catalog["sources"].extend(ie["sources"])
+    catalog["faculty"].extend(ie["faculty"])
+    catalog["directories"].append(ie["directory"])
+    ie_parent = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == "cuhk-4")
+    ie_parent.setdefault("staffEntries", []).extend(ie["staffEntries"])
+    for update in ie["facultyUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
+            person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
+        person["identityNote"] = " ".join(filter(None, (person.get("identityNote"), update["identityNote"])))
+    ie_page = ["cuhk-ie-20261111-programme"]
+    ie_admission = ["cuhk-ie-20261111-admission"]
+    ie_programme = program(
+        "cuhk-ie-rpg-2027", "cuhk", "信息工程研究学位", ["MPhil", "PhD"],
+        "2027/28 香港校区。方向涵盖人工智能与多媒体、网络安全、信息论与编码、互联网、光通信及无线通信。",
+        "unknown", "先核对项目要求和研究方向。导师及资助安排须与学系确认。", ie_admission,
+        "两页研究或目的陈述，以及列明研究项目和成果的简历。可能安排面试。", ie_page,
+        [deadline("主轮截止（建议11月15日前提交）", "2026-12-01", ie_page + ie_admission),
+         deadline("补录截止（视学额）", "2027-03-31", ie_page + ie_admission)],
+        ie_page + ie_admission + ee_general + ee_fees,
+        "11月15日是学系希望收到申请及开始审阅的时间，主轮正式截止为12月1日。")
+    ie_programme.update(
+        entryUrl="https://www.ie.cuhk.edu.hk/programmes/mphil-phd-in-information-engineering/admission-to-mphil-phd/",
+        requirements=[
+            {"label": "学历与专业", "text": "通常须计算机、信息、电子或相关工程和理科的二等荣誉学士，或荣誉课程学士平均成绩 B 或以上，或同等资格。预计本学年毕业者可获有条件录取。",
+             "sourceIds": ie_admission},
+            {"label": "研究陈述与简历", "text": "所有申请均交两页研究或目的陈述，并在简历列明研究领域、研究项目和发表成果。",
+             "sourceIds": ie_page + ie_admission},
+            {"label": "博士推荐报告", "degrees": ["PhD"], "text": "全日制研究博士须邀请至少三位推荐人完成保密推荐报告。",
+             "sourceIds": ie_admission},
+            {"label": "硕士推荐报告", "degrees": ["MPhil"], "text": "安排两位推荐人完成保密推荐报告。",
+             "sourceIds": ie_admission},
+            {"label": "学历材料与提交", "text": "网申上传完整成绩单、评分制度、学历及身份等证明。学系另要求发送材料电子副本，并邮寄指定原件。",
+             "action": "按学系清单检查扫描件、原件、密封及内地学历核验要求。", "sourceIds": ie_admission},
+            {"label": "英语证明", "text": "研究院认可英语授课学位及其他英语能力途径。学术类雅思 6.5，托福 79/120 或 4.5/6，成绩两年有效。",
+             "sourceIds": ee_general},
+        ],
+        finances=[{**fee, "id": fee["id"].replace("cuhk-ee-", "cuhk-ie-"),
+                   "sourceIds": ie_page + ee_fees if fee["kind"] == "tuition" else ee_fees}
+                  for fee in cuhk_ee_programme["finances"]])
+    catalog["programs"].append(ie_programme)
     return catalog
 
 
