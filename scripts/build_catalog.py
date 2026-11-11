@@ -1351,6 +1351,36 @@ def build_catalog():
                    "text": "2027/28起，获研究生助学金的全日制研究生每学年人民币6万元，自费每学年人民币15万元。",
                    "action": "按录取及资助安排核对学费。", "sourceIds": ["gz-scholarships-fees"], "rates": []}])
     catalog["programs"].append(bsbe_program)
+    systems_followup = load("hkustgz-systems-routes-and-labs-20261111.json")
+    catalog["sources"].extend(systems_followup["sources"])
+    catalog["faculty"].extend(systems_followup["faculty"])
+    people.update({person["id"]: person for person in bsbe["faculty"] + systems_followup["faculty"]})
+    for update in systems_followup["facultyUpdates"]:
+        person = people[update["id"]]
+        person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + update["sourceIds"]))
+        if update["researchKeywords"]:
+            for field, values in (("researchKeywords", update["researchKeywords"]), ("keywordSourceIds", update["sourceIds"])):
+                person[field] = list(dict.fromkeys(person.get(field, []) + values))
+    for update in systems_followup["linkUpdates"]:
+        person = people[update["facultyId"]]
+        link = next(link for link in person["extraLinks"] if link["url"] == update["url"])
+        link.update({key: value for key, value in update.items() if key != "facultyId"})
+    goto = systems_followup["rosterUpdate"]
+    next(card for card in bsbe["directory"]["census"]["entries"] if card["profileUrl"] == goto["url"])["facultyId"] = goto["facultyId"]
+    lead = next(lead for entry in bsbe["staffEntries"] for lead in entry["profileLeads"] if lead["url"] == goto["url"])
+    lead.update(facultyId=goto["facultyId"], researchReviewStatus="research_excerpt_and_directory_role_reviewed")
+    lead.pop("reviewNote", None)
+    for route in systems_followup["routes"]:
+        route_refs = [route["sourceId"]]
+        route_id = route["id"]
+        route_program = program(route_id, "hkustgz", route["name"], ["PhD"], route["scope"], "unknown",
+            bsbe_program["contact"]["text"], route_refs, bsbe_program["selection"]["text"], route_refs,
+            bsbe_program["deadlines"], route_refs + bsbe_program["sourceIds"][1:], bsbe_program["evidenceNote"])
+        route_program.update(entryUrl=bsbe_program["entryUrl"], requirements=bsbe_program["requirements"], finances=[
+            {**fee, "id": f"{route_id}-{fee['kind'].replace('_', '-')}",
+             "sourceIds": route_refs if fee["kind"] == "application_fee" else fee["sourceIds"]}
+            for fee in bsbe_program["finances"]])
+        catalog["programs"].append(route_program)
     return catalog
 
 

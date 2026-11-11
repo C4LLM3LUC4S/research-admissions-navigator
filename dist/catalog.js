@@ -8187,6 +8187,351 @@ window.APP_CATALOG = {
           "rates": []
         }
       ]
+    },
+    {
+      "id": "hkustgz-intr-phd-2027",
+      "universityId": "hkustgz",
+      "name": "智能交通博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州校区，2027/28秋季。研究方向包括交通大数据、共享出行、网联自动驾驶与城市轨道运营。",
+      "contact": {
+        "status": "unknown",
+        "text": "可先查看学域师资和研究方向，再准备申请材料。",
+        "sourceIds": [
+          "hkustgz-intr-phd-source-2027"
+        ]
+      },
+      "selection": {
+        "text": "按博士项目在研究生院系统递交。研究型硕士从红鸟硕士 MPhil (General) 入口申请。",
+        "sourceIds": [
+          "hkustgz-intr-phd-source-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-intr-phd-source-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学位及申请入口见2027/28项目目录，材料和截止日期见广州研究生院。",
+      "entryUrl": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或有至少一年全日制或两年非全日制的合格研究生学习经历。",
+          "action": "按所走的学历路径准备证明。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "学术类雅思总分6.5、各项5.5。托福网考在2026年1月21日前考试须80分，当日起须4.5分。须单次成绩，居家考试不获接受。英语母语及英语授课学历豁免见原页。",
+          "action": "按考试日期核对分数与豁免条件。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "准备身份证明、完整高等教育成绩与学历文件、评分制度、语言证明、研究计划及过往研究经历。校级说明列2至5位推荐人。",
+          "action": "对照申请系统检查项目表格与推荐人要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-intr-phd-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "申请费人民币150元。",
+          "action": "在正式申请系统核对支付安排。",
+          "sourceIds": [
+            "hkustgz-intr-phd-source-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "2027/28博士申请"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-intr-phd-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28起，获研究生助学金的全日制研究生每学年人民币6万元，自费每学年人民币15万元。",
+          "action": "按录取及资助安排核对学费。",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-roas-phd-2027",
+      "universityId": "hkustgz",
+      "name": "机器人与自主系统博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州校区，2027/28秋季。研究方向包括机器人设计与控制、传感、信号处理及机器学习。",
+      "contact": {
+        "status": "unknown",
+        "text": "可先查看学域师资和研究方向，再准备申请材料。",
+        "sourceIds": [
+          "hkustgz-roas-phd-source-2027"
+        ]
+      },
+      "selection": {
+        "text": "按博士项目在研究生院系统递交。研究型硕士从红鸟硕士 MPhil (General) 入口申请。",
+        "sourceIds": [
+          "hkustgz-roas-phd-source-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-roas-phd-source-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学位及申请入口见2027/28项目目录，材料和截止日期见广州研究生院。",
+      "entryUrl": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或有至少一年全日制或两年非全日制的合格研究生学习经历。",
+          "action": "按所走的学历路径准备证明。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "学术类雅思总分6.5、各项5.5。托福网考在2026年1月21日前考试须80分，当日起须4.5分。须单次成绩，居家考试不获接受。英语母语及英语授课学历豁免见原页。",
+          "action": "按考试日期核对分数与豁免条件。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "准备身份证明、完整高等教育成绩与学历文件、评分制度、语言证明、研究计划及过往研究经历。校级说明列2至5位推荐人。",
+          "action": "对照申请系统检查项目表格与推荐人要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-roas-phd-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "申请费人民币150元。",
+          "action": "在正式申请系统核对支付安排。",
+          "sourceIds": [
+            "hkustgz-roas-phd-source-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "2027/28博士申请"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-roas-phd-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28起，获研究生助学金的全日制研究生每学年人民币6万元，自费每学年人民币15万元。",
+          "action": "按录取及资助安排核对学费。",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-smmg-phd-2027",
+      "universityId": "hkustgz",
+      "name": "智能制造博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州校区，2027/28秋季。研究方向包括制造系统设计、实时生产数据与产品制造。",
+      "contact": {
+        "status": "unknown",
+        "text": "可先查看学域师资和研究方向，再准备申请材料。",
+        "sourceIds": [
+          "hkustgz-smmg-phd-source-2027"
+        ]
+      },
+      "selection": {
+        "text": "按博士项目在研究生院系统递交。研究型硕士从红鸟硕士 MPhil (General) 入口申请。",
+        "sourceIds": [
+          "hkustgz-smmg-phd-source-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-phd-source-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学位及申请入口见2027/28项目目录，材料和截止日期见广州研究生院。",
+      "entryUrl": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或有至少一年全日制或两年非全日制的合格研究生学习经历。",
+          "action": "按所走的学历路径准备证明。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "学术类雅思总分6.5、各项5.5。托福网考在2026年1月21日前考试须80分，当日起须4.5分。须单次成绩，居家考试不获接受。英语母语及英语授课学历豁免见原页。",
+          "action": "按考试日期核对分数与豁免条件。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "准备身份证明、完整高等教育成绩与学历文件、评分制度、语言证明、研究计划及过往研究经历。校级说明列2至5位推荐人。",
+          "action": "对照申请系统检查项目表格与推荐人要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-smmg-phd-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "申请费人民币150元。",
+          "action": "在正式申请系统核对支付安排。",
+          "sourceIds": [
+            "hkustgz-smmg-phd-source-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "2027/28博士申请"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-smmg-phd-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28起，获研究生助学金的全日制研究生每学年人民币6万元，自费每学年人民币15万元。",
+          "action": "按录取及资助安排核对学费。",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": []
+        }
+      ]
     }
   ],
   "faculty": [
@@ -123970,7 +124315,8 @@ window.APP_CATALOG = {
           "url": "https://lab.rjmart.cn/10060/8FE9C1D797634E6C",
           "label": "个人网站",
           "parentSourceId": "hkustgz-bsbe-profile-20261111-125",
-          "bodyStatus": "not_read"
+          "bodyStatus": "not_read",
+          "readNote": "原链接返回页面，正文仍待核。"
         }
       ],
       "availability": {
@@ -124075,7 +124421,8 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkustgz-bsbe-roster-20261111",
-        "hkustgz-bsbe-profile-20261111-312"
+        "hkustgz-bsbe-profile-20261111-312",
+        "hkustgz-bsbe-link-lin"
       ],
       "directorySourceIds": [
         "hkustgz-bsbe-roster-20261111"
@@ -124095,9 +124442,11 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "url": "https://julie-lin-lab.github.io/index.html",
-          "label": "个人网站",
+          "label": "Lin Lab",
           "parentSourceId": "hkustgz-bsbe-profile-20261111-312",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-bsbe-link-lin",
+          "readNote": "首页列神经元RNA代谢实验室名称及港科大广州归属。"
         }
       ],
       "availability": {
@@ -124122,20 +124471,25 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkustgz-bsbe-roster-20261111",
-        "hkustgz-bsbe-profile-20261111-162"
+        "hkustgz-bsbe-profile-20261111-162",
+        "hkustgz-bsbe-link-liu"
       ],
       "directorySourceIds": [
         "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "hkustgz-bsbe-profile-20261111-162"
+        "hkustgz-bsbe-profile-20261111-162",
+        "hkustgz-bsbe-link-liu"
       ],
       "researchKeywords": [
         "系统神经科学",
         "神经解码",
         "空间导航",
         "睡眠",
-        "海马"
+        "海马",
+        "视觉皮层",
+        "在体电生理",
+        "神经编码"
       ],
       "academicUnitIds": [
         "hkustgz-3"
@@ -124143,9 +124497,11 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "url": "https://kefeilab.hkust-gz.edu.cn/",
-          "label": "个人网站",
+          "label": "神经编码与解码实验室",
           "parentSourceId": "hkustgz-bsbe-profile-20261111-162",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-bsbe-link-liu",
+          "readNote": "研究视觉与海马神经群体活动，通过电生理和成像研究空间导航及学习记忆。"
         }
       ],
       "availability": {
@@ -124170,19 +124526,28 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkustgz-bsbe-roster-20261111",
-        "hkustgz-bsbe-profile-20261111-276"
+        "hkustgz-bsbe-profile-20261111-276",
+        "hkustgz-bsbe-link-lu",
+        "hkustgz-bsbe-lu-research"
       ],
       "directorySourceIds": [
         "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "hkustgz-bsbe-profile-20261111-276"
+        "hkustgz-bsbe-profile-20261111-276",
+        "hkustgz-bsbe-link-lu",
+        "hkustgz-bsbe-lu-research"
       ],
       "researchKeywords": [
         "蛋白质工程",
         "合成生物学",
         "环境工程",
-        "人工智能辅助生物工程"
+        "人工智能辅助生物工程",
+        "酶工程",
+        "微生物工程",
+        "塑料生物降解",
+        "工业酶工程",
+        "双链RNA"
       ],
       "academicUnitIds": [
         "hkustgz-3"
@@ -124190,9 +124555,11 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "url": "https://lulab.hkust-gz.edu.cn/",
-          "label": "个人网站",
+          "label": "Lu Lab",
           "parentSourceId": "hkustgz-bsbe-profile-20261111-276",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-bsbe-link-lu",
+          "readNote": "首页介绍通过微生物及酶工程研究环境、健康和工业问题。"
         }
       ],
       "availability": {
@@ -124257,19 +124624,23 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkustgz-bsbe-roster-20261111",
-        "hkustgz-bsbe-profile-20261111-468"
+        "hkustgz-bsbe-profile-20261111-468",
+        "hkustgz-bsbe-link-shen"
       ],
       "directorySourceIds": [
         "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "hkustgz-bsbe-profile-20261111-468"
+        "hkustgz-bsbe-profile-20261111-468",
+        "hkustgz-bsbe-link-shen"
       ],
       "researchKeywords": [
         "记忆编码",
         "神经元与胶质细胞互作",
         "突触可塑性",
-        "衰老"
+        "衰老",
+        "小胶质细胞",
+        "记忆存储"
       ],
       "academicUnitIds": [
         "hkustgz-3"
@@ -124277,9 +124648,11 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "url": "https://biri.hkust-gz.edu.cn/zh/2024/09/05/yang-shen/",
-          "label": "个人网站",
+          "label": "沈阳 · 研究所个人页",
           "parentSourceId": "hkustgz-bsbe-profile-20261111-468",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-bsbe-link-shen",
+          "readNote": "研究记忆编码、神经元与小胶质细胞相互作用、衰老与神经退行性疾病。"
         }
       ],
       "availability": {
@@ -124423,19 +124796,24 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkustgz-bsbe-roster-20261111",
-        "hkustgz-bsbe-profile-20261111-376"
+        "hkustgz-bsbe-profile-20261111-376",
+        "hkustgz-bsbe-link-wang"
       ],
       "directorySourceIds": [
         "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "hkustgz-bsbe-profile-20261111-376"
+        "hkustgz-bsbe-profile-20261111-376",
+        "hkustgz-bsbe-link-wang"
       ],
       "researchKeywords": [
         "软材料打印",
         "电子皮肤",
         "智能可穿戴",
-        "生物电子"
+        "生物电子",
+        "自适应3D打印",
+        "体外生物电子",
+        "仿生结构"
       ],
       "academicUnitIds": [
         "hkustgz-3"
@@ -124443,9 +124821,11 @@ window.APP_CATALOG = {
       "extraLinks": [
         {
           "url": "https://wang-andy.com/",
-          "label": "个人网站",
+          "label": "王文宇课题组",
           "parentSourceId": "hkustgz-bsbe-profile-20261111-376",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-bsbe-link-wang",
+          "readNote": "研究用自适应3D打印构建贴肤传感、体外生物电子与仿生结构。"
         }
       ],
       "availability": {
@@ -124573,6 +124953,58 @@ window.APP_CATALOG = {
         "text": "查看项目的指导安排。",
         "sourceIds": [
           "hkustgz-bsbe-profile-20261111-326"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-620",
+      "universityId": "hkustgz",
+      "name": "Akihiro GOTO",
+      "department": "生命科学与生物医学工程学域",
+      "directoryRole": "Assistant Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=620",
+      "reviewedProfileUrl": "https://biri.hkust-gz.edu.cn/2026/02/04/akihiro-goto/",
+      "summary": "研究突触可塑性和记忆巩固，关注睡眠中的神经活动如何影响学习。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "突触可塑性",
+        "学习与记忆",
+        "记忆巩固",
+        "神经成像"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-620",
+        "hkustgz-bsbe-goto-biri",
+        "hkustgz-bsbe-goto-lab"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-goto-biri",
+        "hkustgz-bsbe-goto-lab"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://biri.hkust-gz.edu.cn/team/akihiro-goto-lab/",
+          "label": "Goto Lab",
+          "parentSourceId": "hkustgz-bsbe-goto-biri",
+          "sourceId": "hkustgz-bsbe-goto-lab",
+          "bodyStatus": "body_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-goto-biri"
         ]
       }
     }
@@ -250109,6 +250541,233 @@ window.APP_CATALOG = {
         "https://robertqilab.hkust-gz.edu.cn/"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "hkustgz-intr-phd-source-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 智能交通",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Systems Hub / intelligent-transportation-27",
+      "claims": [
+        "博士按学域申请，MPhil入口为红鸟硕士。申请费人民币150元。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "intelligent-transportation-27",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/intelligent-transportation/"
+      ]
+    },
+    {
+      "id": "hkustgz-roas-phd-source-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 机器人与自主系统",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Systems Hub / robotics-and-autonomous-systems-27",
+      "claims": [
+        "博士按学域申请，MPhil入口为红鸟硕士。申请费人民币150元。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "robotics-and-autonomous-systems-27",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/robotics-and-autonomous-systems/"
+      ]
+    },
+    {
+      "id": "hkustgz-smmg-phd-source-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 智能制造",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Systems Hub / smart-manufacturing-27-1",
+      "claims": [
+        "博士按学域申请，MPhil入口为红鸟硕士。申请费人民币150元。"
+      ],
+      "knownIssues": [],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "smart-manufacturing-27-1",
+      "yearOfEntry": "2027/28",
+      "discoveredLinks": [
+        "https://cft.hkust-gz.edu.cn/rbm-program/admission/",
+        "https://www.hkust-gz.edu.cn/academics/hubs-and-thrust-areas/systems-hub/smart-manufacturing/"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-link-lin",
+      "url": "https://julie-lin-lab.github.io/index.html",
+      "title": "Lin Lab",
+      "checkedAt": "2026-11-11",
+      "scope": "首页列神经元RNA代谢实验室名称及港科大广州归属。",
+      "claims": [
+        "首页列神经元RNA代谢实验室名称及港科大广州归属。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e99915c8fd4893a16bf4961f82cec4218f6d21c5de6f5b8687a6b38b1d49d3a9",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-bsbe-profile-20261111-312",
+      "originalUrl": "https://julie-lin-lab.github.io/index.html",
+      "retrievedUrl": "https://julie-lin-lab.github.io/index.html"
+    },
+    {
+      "id": "hkustgz-bsbe-link-liu",
+      "url": "https://kefeilab.hkust-gz.edu.cn/",
+      "title": "神经编码与解码实验室",
+      "checkedAt": "2026-11-11",
+      "scope": "研究视觉与海马神经群体活动，通过电生理和成像研究空间导航及学习记忆。",
+      "claims": [
+        "研究视觉与海马神经群体活动，通过电生理和成像研究空间导航及学习记忆。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e99915c8fd4893a16bf4961f82cec4218f6d21c5de6f5b8687a6b38b1d49d3a9",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-bsbe-profile-20261111-162",
+      "originalUrl": "https://kefeilab.hkust-gz.edu.cn/",
+      "retrievedUrl": "https://kefeilab.hkust-gz.edu.cn/"
+    },
+    {
+      "id": "hkustgz-bsbe-link-lu",
+      "url": "https://lulab.hkust-gz.edu.cn/",
+      "title": "Lu Lab",
+      "checkedAt": "2026-11-11",
+      "scope": "首页介绍通过微生物及酶工程研究环境、健康和工业问题。",
+      "claims": [
+        "首页介绍通过微生物及酶工程研究环境、健康和工业问题。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e99915c8fd4893a16bf4961f82cec4218f6d21c5de6f5b8687a6b38b1d49d3a9",
+      "discoveredLinks": [
+        "https://lulab.hkust-gz.edu.cn/research/"
+      ],
+      "parentSourceId": "hkustgz-bsbe-profile-20261111-276",
+      "originalUrl": "https://lulab.hkust-gz.edu.cn/",
+      "retrievedUrl": "https://lulab.hkust-gz.edu.cn/"
+    },
+    {
+      "id": "hkustgz-bsbe-lu-research",
+      "url": "https://lulab.hkust-gz.edu.cn/research/",
+      "title": "Lu Lab · 研究方向",
+      "checkedAt": "2026-11-11",
+      "scope": "研究塑料生物降解、工业酶工程及基于双链RNA的蚊虫控制。",
+      "claims": [
+        "研究塑料生物降解、工业酶工程及基于双链RNA的蚊虫控制。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "25fbd171bf856f34ae8a3f8ccb9ca6f4ac1a6c94e57b488cf5cdf024e61cb09d",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-bsbe-link-lu",
+      "originalUrl": "https://lulab.hkust-gz.edu.cn/research/",
+      "retrievedUrl": "https://lulab.hkust-gz.edu.cn/research/"
+    },
+    {
+      "id": "hkustgz-bsbe-link-shen",
+      "url": "https://biri.hkust-gz.edu.cn/zh/2024/09/05/yang-shen/",
+      "title": "沈阳 · 研究所个人页",
+      "checkedAt": "2026-11-11",
+      "scope": "研究记忆编码、神经元与小胶质细胞相互作用、衰老与神经退行性疾病。",
+      "claims": [
+        "研究记忆编码、神经元与小胶质细胞相互作用、衰老与神经退行性疾病。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e99915c8fd4893a16bf4961f82cec4218f6d21c5de6f5b8687a6b38b1d49d3a9",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-bsbe-profile-20261111-468",
+      "originalUrl": "https://biri.hkust-gz.edu.cn/zh/2024/09/05/yang-shen/",
+      "retrievedUrl": "https://biri.hkust-gz.edu.cn/zh/2024/09/05/yang-shen/"
+    },
+    {
+      "id": "hkustgz-bsbe-link-wang",
+      "url": "https://wang-andy.com/",
+      "title": "王文宇课题组",
+      "checkedAt": "2026-11-11",
+      "scope": "研究用自适应3D打印构建贴肤传感、体外生物电子与仿生结构。",
+      "claims": [
+        "研究用自适应3D打印构建贴肤传感、体外生物电子与仿生结构。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e99915c8fd4893a16bf4961f82cec4218f6d21c5de6f5b8687a6b38b1d49d3a9",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-bsbe-profile-20261111-376",
+      "originalUrl": "https://wang-andy.com/",
+      "retrievedUrl": "https://wang-andy.com/"
+    },
+    {
+      "id": "hkustgz-bsbe-goto-biri",
+      "url": "https://biri.hkust-gz.edu.cn/2026/02/04/akihiro-goto/",
+      "title": "Akihiro Goto · 研究所个人页",
+      "checkedAt": "2026-11-11",
+      "scope": "广州BSBE及脑与智能研究所助理教授，研究突触可塑性、学习与记忆。",
+      "claims": [
+        "广州BSBE及脑与智能研究所助理教授，研究突触可塑性、学习与记忆。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "e99915c8fd4893a16bf4961f82cec4218f6d21c5de6f5b8687a6b38b1d49d3a9",
+      "discoveredLinks": [
+        "https://biri.hkust-gz.edu.cn/team/akihiro-goto-lab/"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-goto-lab",
+      "url": "https://biri.hkust-gz.edu.cn/team/akihiro-goto-lab/",
+      "title": "Goto Lab · 研究方向",
+      "checkedAt": "2026-11-11",
+      "scope": "以分子生物学、成像及系统神经科学研究突触重塑与睡眠中的记忆巩固。",
+      "claims": [
+        "以分子生物学、成像及系统神经科学研究突触重塑与睡眠中的记忆巩固。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "25fbd171bf856f34ae8a3f8ccb9ca6f4ac1a6c94e57b488cf5cdf024e61cb09d",
+      "discoveredLinks": [],
+      "parentSourceId": "hkustgz-bsbe-goto-biri",
+      "originalUrl": "https://biri.hkust-gz.edu.cn/team/akihiro-goto-lab/",
+      "retrievedUrl": "https://biri.hkust-gz.edu.cn/team/akihiro-goto-lab/"
     }
   ],
   "funding": [
@@ -277801,7 +278460,8 @@ window.APP_CATALOG = {
             "category": "常规",
             "profileRead": true,
             "reviewStatus": "body_read",
-            "reviewNote": "已核对身份，研究方向待补"
+            "reviewNote": "已核对身份，研究方向待补",
+            "facultyId": "hkustgz-bsbe-620"
           },
           {
             "name": "Xiaomeng LI",
@@ -322232,7 +322892,9 @@ window.APP_CATALOG = {
                   "availability": "unknown",
                   "directorySourceIds": [
                     "hkustgz-bsbe-roster-20261111"
-                  ]
+                  ],
+                  "facultyId": "hkustgz-bsbe-620",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "Xiaomeng LI",
@@ -324646,5 +325308,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:4c6ea153628c04b89402bbbed8e7e0a5821bdbf58e442d05759431c0d9900163"
+  "snapshotId": "sha256:6b7dc2ecb451b0fdd796155b3855bc11ebe5cc45c85f101bb3f38e7e437401e4"
 };
