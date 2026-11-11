@@ -1,0 +1,185 @@
+{
+  "sources": [
+    {
+      "id": "hkust-amc-research-ef70dfef9397cd-home",
+      "title": "Hongbo FU · 个人研究主页",
+      "url": "http://hongbofu.people.ust.hk/",
+      "originalUrl": "http://hongbofu.people.ust.hk/",
+      "retrievedUrl": "http://hongbofu.people.ust.hk/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c2ba64526c3fbb63713fd3afa026b9cfa3d464b456be69c5e2f71c7a72eaf2eb",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "review-profile-ef70dfef9397cd",
+      "scope": "身份、任职与研究方向的可见正文。",
+      "claims": [
+        "主页列 AMC 为主聘，并列香港 EMIA/CSE 与广州 CMA 联合任职。保留校区。"
+      ],
+      "knownIssues": [],
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-amc-research-17817c50844e08-home",
+      "title": "Wenhan LUO · 个人研究主页",
+      "url": "https://whluo.github.io/",
+      "originalUrl": "http://whluo.github.io/",
+      "retrievedUrl": "https://whluo.github.io/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d9cc97e2d9770f04299f811d9495793472c44d69a5f612c0dc025675fbe1d4d8",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "review-profile-17817c50844e08",
+      "scope": "身份、任职与研究方向的可见正文。",
+      "claims": [
+        "主页香港校区副教授，研究图像视频生成与恢复，列 C4G。2027 春秋博士为滚动审阅并视资助，当前余位未知。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-research-999995dfbce824-home",
+      "title": "Fangneng ZHAN · 个人研究主页",
+      "url": "https://fnzhan.com/",
+      "originalUrl": "http://fnzhan.com",
+      "retrievedUrl": "https://fnzhan.com/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a4fd21f766c42e16c3abf972ac5dc926c39328709b682b9317077629a512d3fd",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "review-profile-999995dfbce824",
+      "scope": "身份、任职与研究方向的可见正文。",
+      "claims": [
+        "个人页确认港科大助理教授与 World Mind Lab 负责人，研究世界模型、机器人和物理智能体，2027 春秋博士招募声明保留范围。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://worldmind-lab.com/"
+      ]
+    },
+    {
+      "id": "hkust-amc-research-999995dfbce824-lab",
+      "title": "Fangneng ZHAN · World Mind Lab",
+      "url": "https://worldmind-lab.com/",
+      "originalUrl": "https://worldmind-lab.com/",
+      "retrievedUrl": "https://worldmind-lab.com/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d1eef30c0dfe5dbf89171a34dc936de2deba5e422eb836c75b9ba4cea69adf00",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "hkust-amc-research-999995dfbce824-home",
+      "scope": "身份、任职与研究方向的可见正文。",
+      "claims": [
+        "实验室列负责人 AMC 与 EMIA 任职、三维多模态世界模型、机器人及物理智能体。春秋合计招募数字为页面声明，实时余位未知。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-research-0e0a1dab883003-home",
+      "title": "Anyi RAO · 个人研究主页",
+      "url": "http://anyirao.com/",
+      "originalUrl": "http://anyirao.github.io/",
+      "retrievedUrl": "http://anyirao.com/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a5ef202fbd45760a9132230159628723d7d9f5e5670f284cc41cff0be2309e83",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "review-profile-0e0a1dab883003",
+      "scope": "身份、任职与研究方向的可见正文。",
+      "claims": [
+        "香港 AMC/CSE/EMIA 及广州 CMA 联合任职，带领 Multimedia Creativity Lab，研究人机协作、生成与智能体和世界模型。2027 招募声明不推出余位。"
+      ],
+      "knownIssues": [],
+      "transportScope": "read_only_http_source_not_clickable"
+    },
+    {
+      "id": "hkust-amc-research-620e24b961d936-home",
+      "title": "Harry YANG · 个人研究主页",
+      "url": "http://hyang.org/",
+      "originalUrl": "http://hyang.org/",
+      "retrievedUrl": "http://hyang.org/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bade6580f936a37efdc6f7f1d502d3b1fe521899d899608f69481d828010ef5d",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "review-profile-620e24b961d936",
+      "scope": "身份、任职与研究方向的可见正文。",
+      "claims": [
+        "自述港科大 AMC 助理教授，研究图像和视频生成。"
+      ],
+      "knownIssues": [],
+      "transportScope": "read_only_http_source_not_clickable"
+    }
+  ],
+  "updates": [
+    {
+      "id": "review-hkust-ef70dfef9397cd",
+      "parentSourceId": "review-profile-ef70dfef9397cd",
+      "sourceIds": [
+        "hkust-amc-research-ef70dfef9397cd-home"
+      ],
+      "link": {
+        "label": "个人研究主页",
+        "url": "http://hongbofu.people.ust.hk/",
+        "parentSourceId": "review-profile-ef70dfef9397cd",
+        "bodyStatus": "body_read",
+        "sourceId": "hkust-amc-research-ef70dfef9397cd-home"
+      }
+    },
+    {
+      "id": "review-hkust-17817c50844e08",
+      "parentSourceId": "review-profile-17817c50844e08",
+      "sourceIds": [
+        "hkust-amc-research-17817c50844e08-home"
+      ],
+      "link": {
+        "label": "个人研究主页",
+        "url": "http://whluo.github.io/",
+        "parentSourceId": "review-profile-17817c50844e08",
+        "bodyStatus": "body_read",
+        "sourceId": "hkust-amc-research-17817c50844e08-home"
+      }
+    },
+    {
+      "id": "review-hkust-999995dfbce824",
+      "parentSourceId": "review-profile-999995dfbce824",
+      "sourceIds": [
+        "hkust-amc-research-999995dfbce824-home",
+        "hkust-amc-research-999995dfbce824-lab"
+      ],
+      "link": {
+        "label": "个人研究主页",
+        "url": "http://fnzhan.com",
+        "parentSourceId": "review-profile-999995dfbce824",
+        "bodyStatus": "body_read",
+        "sourceId": "hkust-amc-research-999995dfbce824-home"
+      }
+    },
+    {
+      "id": "review-hkust-0e0a1dab883003",
+      "parentSourceId": "review-profile-0e0a1dab883003",
+      "sourceIds": [
+        "hkust-amc-research-0e0a1dab883003-home"
+      ],
+      "link": {
+        "label": "个人研究主页",
+        "url": "http://anyirao.github.io/",
+        "parentSourceId": "review-profile-0e0a1dab883003",
+        "bodyStatus": "body_read",
+        "sourceId": "hkust-amc-research-0e0a1dab883003-home"
+      }
+    },
+    {
+      "id": "review-hkust-620e24b961d936",
+      "parentSourceId": "review-profile-620e24b961d936",
+      "sourceIds": [
+        "hkust-amc-research-620e24b961d936-home"
+      ],
+      "link": {
+        "label": "个人研究主页",
+        "url": "http://hyang.org/",
+        "parentSourceId": "review-profile-620e24b961d936",
+        "bodyStatus": "body_read",
+        "sourceId": "hkust-amc-research-620e24b961d936-home"
+      }
+    }
+  ]
+}
