@@ -1312,6 +1312,45 @@ def build_catalog():
         finances=[{"id":"hkust-life-science-application-fee", "kind":"application_fee", "label":"申请费", "text":"研究学位申请费180港元。", "action":"在正式申请系统查看付款安排。", "sourceIds":life_refs, "rates":[]}])
     life["sourceIds"] = life_refs + materials_refs
     catalog["programs"].append(life)
+    bsbe = load("hkustgz-bsbe-20261111.json")
+    catalog["sources"].extend(bsbe["sources"])
+    catalog["faculty"].extend(bsbe["faculty"])
+    catalog["directories"].append(bsbe["directory"])
+    systems = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == "hkustgz-3")
+    systems["staffEntries"].extend(bsbe["staffEntries"])
+    next(child for child in systems["children"] if child["name"] == "生命科学与生物医学工程").update(bsbe["childUpdate"])
+    for update in bsbe["facultyUpdates"]:
+        person = people[update["id"]]
+        for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
+            if field in update:
+                person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
+        person["identityNote"] = update["identityNote"]
+    bsbe_ref = ["hkustgz-bsbe-phd-source-2027"]
+    gz_requirements = ["gz-central-requirements"]
+    gz_dates = ["gz-timeline"]
+    bsbe_program = program("hkustgz-bsbe-phd-2027", "hkustgz", "生命科学与生物医学工程博士", ["PhD"],
+        "广州校区，2027/28秋季。研究方向包括组织工程、分子与细胞生物学、精准医学和生物信息学。", "unknown",
+        "可先查看学域师资和研究方向，再准备申请材料。", bsbe_ref,
+        "按博士项目在研究生院系统递交。研究型硕士从红鸟硕士 MPhil (General) 入口申请。", bsbe_ref,
+        [deadline("国际申请者校级截止", "2027-06-15", gz_dates, clock="23:59", degree="PhD"),
+         deadline("中国申请者校级截止", "2027-07-15", gz_dates, clock="23:59", degree="PhD")],
+        bsbe_ref + gz_dates + gz_requirements + ["hkustgz-bsbe-materials-20261111", "gz-scholarships-fees"],
+        "学位及申请入口见2027/28项目目录，材料和截止日期见广州研究生院。")
+    bsbe_program.update(entryUrl="https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog", requirements=[
+        {"label": "博士学历", "text": "认可学士且表现优异，或有至少一年全日制或两年非全日制的合格研究生学习经历。",
+         "action": "按所走的学历路径准备证明。", "sourceIds": gz_requirements},
+        {"label": "英语成绩", "text": "学术类雅思总分6.5、各项5.5。托福网考在2026年1月21日前考试须80分，当日起须4.5分。须单次成绩，居家考试不获接受。英语母语及英语授课学历豁免见原页。",
+         "action": "按考试日期核对分数与豁免条件。", "sourceIds": gz_requirements},
+        {"label": "申请材料", "text": "准备身份证明、完整高等教育成绩与学历文件、评分制度、语言证明、研究计划及过往研究经历。校级说明列2至5位推荐人。",
+         "action": "对照申请系统检查项目表格与推荐人要求。", "sourceIds": ["hkustgz-bsbe-materials-20261111"]}],
+        finances=[{"id": "hkustgz-bsbe-phd-application-fee", "kind": "application_fee", "label": "申请费",
+                   "text": "申请费人民币150元。", "action": "在正式申请系统核对支付安排。",
+                   "sourceIds": bsbe_ref, "rates": [{"value": 150, "currency": "CNY", "unit": "application", "basis": "intake",
+                                                    "cycle": "2027/28", "condition": "2027/28博士申请"}]},
+                  {"id": "hkustgz-bsbe-phd-tuition", "kind": "tuition", "label": "学费",
+                   "text": "2027/28起，获研究生助学金的全日制研究生每学年人民币6万元，自费每学年人民币15万元。",
+                   "action": "按录取及资助安排核对学费。", "sourceIds": ["gz-scholarships-fees"], "rates": []}])
+    catalog["programs"].append(bsbe_program)
     return catalog
 
 
