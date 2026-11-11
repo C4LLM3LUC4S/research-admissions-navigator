@@ -1,0 +1,291 @@
+{
+  "sources": [
+    {
+      "id": "hkust-amc-roster-20261111",
+      "url": "https://amc.hkust.edu.hk/faculty",
+      "title": "港科大艺术与机器创造学部师资名录",
+      "checkedAt": "2026-11-11",
+      "bodySha256": "770d16f6a1b84e2839cdf7b690d7c6c638eed31838b239679162a054d104edb3",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学部名录的任职分类及各卡研究主题。",
+      "claims": [
+        "可见 11 张常规、13 张联合任职及 6 张兼任岗位卡。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hongbo-fu-hongbofu",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wenhan-luo-whluo",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kosmas-giannoutakis-kosmas",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=timothy-markham-page-hmtpage",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=anyi-rao-anyirao",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wei-xue-weixue",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=harry-yang-yangharry",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fangneng-zhan-fnzhan",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yonggang-zhang-zhangyg",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=vennes-sau-wai-cheng-vennescheng",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=li-li-lillyli",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+        "https://amc.hkust.edu.hk/people/detail/qifeng-chen",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=437",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHE-PEIMANJAMES/jamespmshe",
+        "https://amc.hkust.edu.hk/people/detail/clea-von-chamier-waite",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sirui-han-siruihan",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yuan-liu-yuanly",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Zeyu/zeyuwang",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ziqi-wang-ziqiw",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YIP-DavidKeiMan/daveyip",
+        "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=daniel-chun-djychun",
+        "https://amc.hkust.edu.hk/people/detail/xiaowei-chen",
+        "https://amc.hkust.edu.hk/people/detail/jun-fei",
+        "https://amc.hkust.edu.hk/people/detail/stanley-tong-tangjili",
+        "https://amc.hkust.edu.hk/people/detail/zhang-ga"
+      ]
+    },
+    {
+      "id": "hkust-amc-adjunct-xiaowei-chen-profile",
+      "url": "https://amc.hkust.edu.hk/people/detail/xiaowei-chen",
+      "title": "Xiaowei CHEN · 学部个人页",
+      "checkedAt": "2026-11-11",
+      "bodySha256": "563f39c8f39d86aa5da82681be08d5edd660afd9afb45a11dd9c734234ffbe73",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "可见姓名、兼任任职及研究类别。",
+      "claims": [
+        "学部个人页列为兼任教授。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-adjunct-jun-fei-profile",
+      "url": "https://amc.hkust.edu.hk/people/detail/jun-fei",
+      "title": "Jun FEI · 学部个人页",
+      "checkedAt": "2026-11-11",
+      "bodySha256": "03595aa02064e143dfe04a82a70c363b2bf8b1e1a3cc587a408a804b6b95af19",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "可见姓名、兼任任职及研究类别。",
+      "claims": [
+        "学部个人页列为兼任教授。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-adjunct-stanley-tong-tangjili-profile",
+      "url": "https://amc.hkust.edu.hk/people/detail/stanley-tong-tangjili",
+      "title": "Stanley TONG · 学部个人页",
+      "checkedAt": "2026-11-11",
+      "bodySha256": "9f0e1b55d2b8b55ada89e21546009e5754aaf0aa7ac45201fa8534dc3ae99d92",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "可见姓名、兼任任职及研究类别。",
+      "claims": [
+        "学部个人页列为兼任教授。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-adjunct-zhang-ga-profile",
+      "url": "https://amc.hkust.edu.hk/people/detail/zhang-ga",
+      "title": "Ga ZHANG · 学部个人页",
+      "checkedAt": "2026-11-11",
+      "bodySha256": "1d6928d3db8496b1adb1f35153bf4fa534f6a5c242a8dd18bd3fa1e7a23f2926",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "可见姓名、兼任任职及研究类别。",
+      "claims": [
+        "学部个人页列为兼任教授。"
+      ],
+      "knownIssues": [
+        "个人页类别为 Machine-assisted art practice，学部名录类别为 Art management。两处并存，待确认。"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hkust-amc-adjunct-xiaowei-chen",
+      "universityId": "hkust",
+      "name": "Xiaowei CHEN",
+      "department": "艺术与机器创造学部",
+      "profileUrl": "https://amc.hkust.edu.hk/people/detail/xiaowei-chen",
+      "directoryRole": "Adjunct Professor",
+      "summary": "学部名录所列方向包括声乐与歌剧、音乐产业、跨文化表演。",
+      "topics": [
+        "设计与创意"
+      ],
+      "researchKeywords": [
+        "声乐与歌剧",
+        "音乐产业",
+        "跨文化表演",
+        "Soprano Vocal Arts & Opera Interpretation",
+        "Music Economy & Cultural Industry Management",
+        "Cross-Cultural Communication & Performing Arts Strategy",
+        "Public Welfare & Philanthropic Arts Projects"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111",
+        "hkust-amc-adjunct-xiaowei-chen-profile"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "联系前先核对项目当期指导安排。",
+        "sourceIds": [
+          "hkust-amc-adjunct-xiaowei-chen-profile"
+        ]
+      }
+    },
+    {
+      "id": "hkust-amc-adjunct-jun-fei",
+      "universityId": "hkust",
+      "name": "Jun FEI",
+      "department": "艺术与机器创造学部",
+      "profileUrl": "https://amc.hkust.edu.hk/people/detail/jun-fei",
+      "directoryRole": "Adjunct Professor",
+      "summary": "学部名录所列方向包括人工智能艺术、沉浸式媒体、互动艺术、艺术科技教育。",
+      "topics": [
+        "设计与创意"
+      ],
+      "researchKeywords": [
+        "人工智能艺术",
+        "沉浸式媒体",
+        "互动艺术",
+        "艺术科技教育",
+        "AI Art",
+        "Immersive Media",
+        "Hybrid Environments",
+        "Interactive Art",
+        "Art-Technology Education"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111",
+        "hkust-amc-adjunct-jun-fei-profile"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "联系前先核对项目当期指导安排。",
+        "sourceIds": [
+          "hkust-amc-adjunct-jun-fei-profile"
+        ]
+      }
+    },
+    {
+      "id": "hkust-amc-adjunct-stanley-tong-tangjili",
+      "universityId": "hkust",
+      "name": "Stanley TONG",
+      "department": "艺术与机器创造学部",
+      "profileUrl": "https://amc.hkust.edu.hk/people/detail/stanley-tong-tangjili",
+      "directoryRole": "Adjunct Professor",
+      "summary": "学部名录所列方向包括电影产业、剧本创作、生成式人工智能、真人与 AI 混合电影。",
+      "topics": [
+        "设计与创意"
+      ],
+      "researchKeywords": [
+        "电影产业",
+        "剧本创作",
+        "生成式人工智能",
+        "真人与 AI 混合电影",
+        "Film Industry",
+        "Screenplay",
+        "AI-Generated Content",
+        "Live-Action-AI Hybrid Films"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111",
+        "hkust-amc-adjunct-stanley-tong-tangjili-profile"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "联系前先核对项目当期指导安排。",
+        "sourceIds": [
+          "hkust-amc-adjunct-stanley-tong-tangjili-profile"
+        ]
+      }
+    },
+    {
+      "id": "hkust-amc-adjunct-zhang-ga",
+      "universityId": "hkust",
+      "name": "Ga ZHANG",
+      "department": "艺术与机器创造学部",
+      "profileUrl": "https://amc.hkust.edu.hk/people/detail/zhang-ga",
+      "directoryRole": "Adjunct Professor",
+      "summary": "学部名录所列方向包括媒体艺术、生态哲学、后人类研究、策展实践。",
+      "topics": [
+        "设计与创意"
+      ],
+      "researchKeywords": [
+        "媒体艺术",
+        "生态哲学",
+        "后人类研究",
+        "策展实践",
+        "Media Art",
+        "Ecosophy and Posthumanity",
+        "Curatorial Practice"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111",
+        "hkust-amc-adjunct-zhang-ga-profile"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "联系前先核对项目当期指导安排。",
+        "sourceIds": [
+          "hkust-amc-adjunct-zhang-ga-profile"
+        ]
+      }
+    }
+  ],
+  "directories": [
+    {
+      "id": "hkust-amc-directory-20261111",
+      "universityId": "hkust",
+      "unit": "艺术与机器创造学部 · 师资",
+      "url": "https://amc.hkust.edu.hk/faculty",
+      "sourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "reviewSourceIds": [
+        "hkust-amc-adjunct-xiaowei-chen-profile",
+        "hkust-amc-adjunct-jun-fei-profile",
+        "hkust-amc-adjunct-stanley-tong-tangjili-profile",
+        "hkust-amc-adjunct-zhang-ga-profile"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "学部名录可按常规、联合任职和兼任查找。"
+    }
+  ]
+}
