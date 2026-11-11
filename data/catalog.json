@@ -120517,6 +120517,157 @@
       }
     },
     {
+      "id": "hkust-amc-directory-dashiel-carrera",
+      "name": "Dashiel CARRERA",
+      "universityId": "hkust",
+      "department": "艺术与机器创造学部",
+      "profileUrl": null,
+      "directoryRole": "Regular · Assistant Professor",
+      "summary": "学部名录所列方向包括人机协作、大语言模型与写作、声音媒体。",
+      "researchKeywords": [
+        "人机协作",
+        "大语言模型与写作",
+        "声音媒体",
+        "Human-AI interaction",
+        "LLMs and Writing",
+        "AI Disclosure",
+        "Sound-based Media",
+        "Cross-genre Literature",
+        "New Media Literature",
+        "Literary Modernism",
+        "Metaphors for AI",
+        "Creative Agency",
+        "Defamiliarization"
+      ],
+      "topics": [
+        "人机交互"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "researchBasis": "official_directory",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "按项目当期安排核对指导与接收。",
+        "sourceIds": [
+          "hkust-amc-roster-20261111"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hkust-amc-roster-20261111"
+    },
+    {
+      "id": "hkust-amc-directory-jon-mccormack",
+      "name": "Jon McCormack",
+      "universityId": "hkust",
+      "department": "艺术与机器创造学部",
+      "profileUrl": null,
+      "directoryRole": "Adjunct · Adjunct Professor",
+      "summary": "学部名录所列方向包括计算创造力、生成艺术、计算机音乐、人工生命。",
+      "researchKeywords": [
+        "计算创造力",
+        "生成艺术",
+        "计算机音乐",
+        "人工生命",
+        "Computational Creativity",
+        "Human-Machine Interfaces",
+        "Tangible Interfaces",
+        "Cybernetic Systems",
+        "Agent-based Modelling",
+        "Visualisation and Virtual Environments",
+        "Electronic Media Art",
+        "Evolutionary Music and Art",
+        "Artificial Life",
+        "Computer Music",
+        "Generative Systems"
+      ],
+      "topics": [
+        "设计与创意"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "researchBasis": "official_directory",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "按项目当期安排核对指导与接收。",
+        "sourceIds": [
+          "hkust-amc-roster-20261111"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hkust-amc-roster-20261111"
+    },
+    {
+      "id": "hkust-amc-directory-yingqing-xu",
+      "name": "Yingqing XU",
+      "universityId": "hkust",
+      "department": "艺术与机器创造学部",
+      "profileUrl": null,
+      "directoryRole": "Adjunct · Adjunct Professor",
+      "summary": "学部名录所列方向包括用户体验设计、自然人机界面、沉浸式交互、数字遗产。",
+      "researchKeywords": [
+        "用户体验设计",
+        "自然人机界面",
+        "沉浸式交互",
+        "数字遗产",
+        "User Experience Design",
+        "Natural User Interface",
+        "Immersive Perception and Interaction",
+        "Tangible Perception and Interaction",
+        "E-heritage"
+      ],
+      "topics": [
+        "人机交互"
+      ],
+      "sourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "researchBasis": "official_directory",
+      "profileBodyStatus": "not_provided",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "按项目当期安排核对指导与接收。",
+        "sourceIds": [
+          "hkust-amc-roster-20261111"
+        ]
+      },
+      "recordKind": "directory_research",
+      "directoryEvidenceSourceId": "hkust-amc-roster-20261111"
+    },
+    {
       "id": "cuhksz-sse-aspin",
       "universityId": "cuhksz",
       "name": "周艳",
@@ -290253,7 +290404,229 @@
         "hkust-amc-adjunct-zhang-ga-profile"
       ],
       "coverageComplete": false,
-      "coverageNotes": "学部名录可按常规、联合任职和兼任查找。"
+      "coverageNotes": "学部名录可按常规、联合任职和兼任查找。",
+      "census": {
+        "observedTotal": 26,
+        "profilesRead": 4,
+        "profilesFailed": 22,
+        "entries": [
+          {
+            "name": "Hongbo FU",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hongbo-fu-hongbofu",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Wenhan LUO",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wenhan-luo-whluo",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Kosmas GIANNOUTAKIS",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=kosmas-giannoutakis-kosmas",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "access_failed"
+          },
+          {
+            "name": "Timothy Markham PAGE",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=timothy-markham-page-hmtpage",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Anyi RAO",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=anyi-rao-anyirao",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Wei XUE",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wei-xue-weixue",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Harry YANG",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=harry-yang-yangharry",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Fangneng ZHAN",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fangneng-zhan-fnzhan",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Yonggang ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yonggang-zhang-zhangyg",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Vennes CHENG",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=vennes-sau-wai-cheng-vennescheng",
+            "directoryPosition": "Regular",
+            "profileRead": false,
+            "reviewStatus": "access_failed"
+          },
+          {
+            "name": "Li LI",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=li-li-lillyli",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Ping TAN",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ping-tan-pingtan",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Qifeng CHEN",
+            "profileUrl": "https://amc.hkust.edu.hk/people/detail/qifeng-chen",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Hai Ning LIANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=437",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "James SHE",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/SHE-PEIMANJAMES/jamespmshe",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Clea VON CHAMIER-WAITE",
+            "profileUrl": "https://amc.hkust.edu.hk/people/detail/clea-von-chamier-waite",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Sirui HAN",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=sirui-han-siruihan",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Yuan LIU",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=yuan-liu-yuanly",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Zeyu WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/WANG-Zeyu/zeyuwang",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Ziqi WANG",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=ziqi-wang-ziqiw",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "David Kei Man YIP",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YIP-DavidKeiMan/daveyip",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Daniel CHUN",
+            "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=daniel-chun-djychun",
+            "directoryPosition": "Joint Appointment",
+            "profileRead": false,
+            "reviewStatus": "not_read"
+          },
+          {
+            "name": "Xiaowei CHEN",
+            "profileUrl": "https://amc.hkust.edu.hk/people/detail/xiaowei-chen",
+            "directoryPosition": "Adjunct",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-amc-adjunct-xiaowei-chen"
+          },
+          {
+            "name": "Jun FEI",
+            "profileUrl": "https://amc.hkust.edu.hk/people/detail/jun-fei",
+            "directoryPosition": "Adjunct",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-amc-adjunct-jun-fei"
+          },
+          {
+            "name": "Stanley TONG",
+            "profileUrl": "https://amc.hkust.edu.hk/people/detail/stanley-tong-tangjili",
+            "directoryPosition": "Adjunct",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-amc-adjunct-stanley-tong-tangjili"
+          },
+          {
+            "name": "Ga ZHANG",
+            "profileUrl": "https://amc.hkust.edu.hk/people/detail/zhang-ga",
+            "directoryPosition": "Adjunct",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-amc-adjunct-zhang-ga"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Dashiel CARRERA",
+            "directoryPosition": "Regular · Assistant Professor",
+            "profileUrl": null,
+            "reason": "学部名录未给逐人主页。",
+            "facultyId": "hkust-amc-directory-dashiel-carrera"
+          },
+          {
+            "name": "Jon McCormack",
+            "directoryPosition": "Adjunct · Adjunct Professor",
+            "profileUrl": null,
+            "reason": "学部名录未给逐人主页。",
+            "facultyId": "hkust-amc-directory-jon-mccormack"
+          },
+          {
+            "name": "Yingqing XU",
+            "directoryPosition": "Adjunct · Adjunct Professor",
+            "profileUrl": null,
+            "reason": "学部名录未给逐人主页。",
+            "facultyId": "hkust-amc-directory-yingqing-xu"
+          },
+          {
+            "name": "Yinghao XU",
+            "directoryPosition": "Joint Appointment",
+            "profileUrl": null,
+            "reason": "学部名录未给逐人主页；既有身份关联待核。"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-life-science-division-20261111",
@@ -342955,5 +343328,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:92461947f9c16f1c50526934cc301cec4c31e27c37ce78dde21606b8d9e8a0a0"
+  "snapshotId": "sha256:c923cd10819b8a253c9c92339eb6de5ee476238e9aebcfd07120c36353ab3ef5"
 }
