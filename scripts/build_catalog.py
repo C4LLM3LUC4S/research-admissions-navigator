@@ -1188,6 +1188,30 @@ def build_catalog():
         {"label":"兼读与身份", "text":"本地与非本地的截止日期分别列出；持学生签证或入境许可的非本地学生不能在香港修读兼读研究学位。", "action":"按签证身份与修读模式核对申请安排。", "sourceIds":ocean_sources}],
         finances=[{"id":"hkust-mes-application-fee", "kind":"application_fee", "label":"申请费", "text":"研究学位申请费180港元。", "action":"在正式系统查看付款安排。", "sourceIds":ocean_sources, "rates":[]}])
     catalog["programs"].append(mes)
+    amc = load("hkust-amc-admissions-20261111.json")
+    catalog["sources"].extend(amc["sources"])
+    amc_source = ["hkust-amc-2027-catalog"]
+    amc_fee_source = ["hkust-amc-2027-tuition"]
+    amc_contact_sources = amc_source + ["hkust-amc-2027-division"]
+    amc_program = program(
+        "hkust-amc-rpg-2027", "hkust", "艺术与机器创造力 MPhil/PhD", ["MPhil", "PhD"],
+        "香港校区，2027/28 秋季。研究方向包括机器创造力、机器辅助艺术实践、艺术管理和批判研究。",
+        "recommended", "建议先联系相关老师讨论书面研究计划。课程目录建议由学部教师担任主导师，学部旧页另列书面同意步骤，请向项目确认本轮流程。",
+        amc_contact_sources, "滚动审理。按申请学位核对学历条件，准备书面研究计划。", amc_source,
+        [deadline("秋季常规申请截止（本地及非本地）", "2027-06-01", amc_source),
+         deadline("HKPFS 第一步：研究资助局", "2026-12-01", amc_source, clock="12:00", degree="PhD", route="HKPFS"),
+         deadline("HKPFS 第二步：港科大", "2026-12-01", amc_source, clock="23:59", degree="PhD", route="HKPFS")],
+        amc_contact_sources, "学部旧页使用 2025/26 截止日期，当前日期和要求见 2027/28 课程目录。")
+    amc_program.update(entryUrl="https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-amc", requirements=[
+        {"label": "MPhil 学历", "text": "认可院校的学士学位或获认可的同等资格。", "action": "按 MPhil 条件核对学历。", "sourceIds": amc_source},
+        {"label": "PhD 学历", "text": "认可院校的学士学位及优异成绩，或至少一年全日制、两年兼读的研究生阶段合格学习经历。", "action": "按 PhD 条件准备成绩或研究生学习证明。", "sourceIds": amc_source},
+        {"label": "语言成绩", "text": "IELTS 学术类总分 6.5、各项 5.5。TOEFL iBT 在 2026 年 1 月 21 日前考试须 80 分，自该日起须 4.5 分。须单次成绩，居家考试不受理。英语母语或英语授课学士可按原页核对豁免。", "action": "核对考试日期、类型和豁免条件。", "sourceIds": amc_source},
+        {"label": "研究计划与导师组", "text": "须提交书面研究计划。课程目录建议申请前组建至少两位不同学术背景教师的导师组，主导师来自该学部。", "action": "拟好研究计划，向项目核对导师同意书的提交要求。", "sourceIds": amc_contact_sources},
+        {"label": "兼读资格", "text": "持香港学生签证或入境许可的非本地申请人不能在香港修读兼读研究学位。", "action": "按签证类别核对修读方式。", "sourceIds": amc_source}], finances=[
+        {"id": "hkust-amc-application-fee", "kind": "application_fee", "label": "申请费", "text": "180 港元。", "action": "在申请系统核对付款。", "sourceIds": amc_source, "rates": []},
+        {"id": "hkust-amc-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年全日制与兼读研究学位均为每年 49,500 港元。", "action": "查看教务处学费说明。", "sourceIds": amc_fee_source,
+         "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": "2027/28", "condition": "全日制或兼读"}]}])
+    catalog["programs"].append(amc_program)
     sse_platforms = load("cuhksz-sse-platforms-20261111.json")
     catalog["sources"].append(sse_platforms["source"])
     sse_unit = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == sse_platforms["parentUnitId"])
