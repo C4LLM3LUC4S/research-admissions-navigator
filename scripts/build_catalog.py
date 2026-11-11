@@ -1216,6 +1216,9 @@ def build_catalog():
     catalog["sources"].extend(amc_adjunct["sources"])
     catalog["faculty"].extend(amc_adjunct["faculty"])
     catalog["directories"].extend(amc_adjunct["directories"])
+    amc_unlinked = load("hkust-amc-unlinked-20261112.json")
+    catalog["faculty"].extend(amc_unlinked["faculty"])
+    amc_adjunct["directories"][0]["census"] = amc_unlinked["census"]
     amc_research_links = load("hkust-amc-research-links-20261112.json")
     catalog["sources"].extend(amc_research_links["sources"])
     for update in amc_research_links["updates"]:
