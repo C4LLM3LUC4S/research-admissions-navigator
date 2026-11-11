@@ -8072,6 +8072,121 @@ window.APP_CATALOG = {
           "rates": []
         }
       ]
+    },
+    {
+      "id": "hkustgz-bsbe-phd-2027",
+      "universityId": "hkustgz",
+      "name": "生命科学与生物医学工程博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "广州校区，2027/28秋季。研究方向包括组织工程、分子与细胞生物学、精准医学和生物信息学。",
+      "contact": {
+        "status": "unknown",
+        "text": "可先查看学域师资和研究方向，再准备申请材料。",
+        "sourceIds": [
+          "hkustgz-bsbe-phd-source-2027"
+        ]
+      },
+      "selection": {
+        "text": "按博士项目在研究生院系统递交。研究型硕士从红鸟硕士 MPhil (General) 入口申请。",
+        "sourceIds": [
+          "hkustgz-bsbe-phd-source-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-phd-source-2027",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学位及申请入口见2027/28项目目录，材料和截止日期见广州研究生院。",
+      "entryUrl": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或有至少一年全日制或两年非全日制的合格研究生学习经历。",
+          "action": "按所走的学历路径准备证明。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "学术类雅思总分6.5、各项5.5。托福网考在2026年1月21日前考试须80分，当日起须4.5分。须单次成绩，居家考试不获接受。英语母语及英语授课学历豁免见原页。",
+          "action": "按考试日期核对分数与豁免条件。",
+          "sourceIds": [
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "准备身份证明、完整高等教育成绩与学历文件、评分制度、语言证明、研究计划及过往研究经历。校级说明列2至5位推荐人。",
+          "action": "对照申请系统检查项目表格与推荐人要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-bsbe-phd-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "申请费人民币150元。",
+          "action": "在正式申请系统核对支付安排。",
+          "sourceIds": [
+            "hkustgz-bsbe-phd-source-2027"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "2027/28博士申请"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-bsbe-phd-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28起，获研究生助学金的全日制研究生每学年人民币6万元，自费每学年人民币15万元。",
+          "action": "按录取及资助安排核对学费。",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": []
+        }
+      ]
     }
   ],
   "faculty": [
@@ -27680,10 +27795,15 @@ window.APP_CATALOG = {
         "Exposure biomarker identification and human exposome",
         "Associations and mechanisms between exposure and health",
         "Interaction between air pollution and climate change on health",
-        "Al-assisted toxicology and exposure risk assessment"
+        "Al-assisted toxicology and exposure risk assessment",
+        "暴露生物标志物",
+        "人类暴露组",
+        "空气污染与健康",
+        "计算毒理学"
       ],
       "keywordSourceIds": [
-        "gz-function-profile-707-20261027"
+        "gz-function-profile-707-20261027",
+        "hkustgz-bsbe-profile-20261111-707"
       ],
       "topics": [
         "生物医学与健康",
@@ -27691,16 +27811,19 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "gz-function-directory-20261027",
-        "gz-function-profile-707-20261027"
+        "gz-function-profile-707-20261027",
+        "hkustgz-bsbe-profile-20261111-707",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "directorySourceIds": [
-        "gz-function-directory-20261027"
+        "gz-function-directory-20261027",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "academicUnitIds": [
         "hkustgz-1"
       ],
       "directoryRole": "Assistant Professor",
-      "identityNote": "这里列的是广州功能枢纽任职；香港的兼任不等于同一申请渠道。指导资格和当期名额还要另查。",
+      "identityNote": "广州生命科学与生物医学工程学域目录另列任职为Assistant Professor。",
       "extraLinks": [],
       "summary": "可先从生物医学与健康、环境与可持续发展了解；下方保留官网研究词和原始依据。",
       "availability": {
@@ -29185,10 +29308,14 @@ window.APP_CATALOG = {
       "researchKeywords": [
         "The transport and fate of infectious microbes in the indoor environment",
         "Novel hazards control technologies",
-        "Optimization of health care service delivery efficiency through engagement of new technologies"
+        "Optimization of health care service delivery efficiency through engagement of new technologies",
+        "室内微生物传播",
+        "健康危害控制",
+        "医疗服务效率"
       ],
       "keywordSourceIds": [
-        "gz-function-profile-254-20261027"
+        "gz-function-profile-254-20261027",
+        "hkustgz-bsbe-profile-20261111-254"
       ],
       "topics": [
         "生物医学与健康",
@@ -29196,16 +29323,19 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "gz-function-directory-20261027",
-        "gz-function-profile-254-20261027"
+        "gz-function-profile-254-20261027",
+        "hkustgz-bsbe-profile-20261111-254",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "directorySourceIds": [
-        "gz-function-directory-20261027"
+        "gz-function-directory-20261027",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "academicUnitIds": [
         "hkustgz-1"
       ],
       "directoryRole": "Adjunct Professor",
-      "identityNote": "这里列的是广州功能枢纽任职；香港的兼任不等于同一申请渠道。指导资格和当期名额还要另查。",
+      "identityNote": "广州生命科学与生物医学工程学域目录另列任职为Adjunct Professor。",
       "extraLinks": [],
       "summary": "可先从生物医学与健康、环境与可持续发展了解；下方保留官网研究词和原始依据。",
       "availability": {
@@ -84700,19 +84830,23 @@ window.APP_CATALOG = {
       "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-IMMIHANCEREN/cerenyasa",
       "sourceIds": [
         "gz-roas-directory-20261029",
-        "gz-roas-profile-371-20261029"
+        "gz-roas-profile-371-20261029",
+        "hkustgz-bsbe-profile-20261111-371",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "gz-roas-profile-371-20261029"
+        "gz-roas-profile-371-20261029",
+        "hkustgz-bsbe-profile-20261111-371"
       ],
       "directorySourceIds": [
-        "gz-roas-directory-20261029"
+        "gz-roas-directory-20261029",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "academicUnitIds": [
         "hkustgz-3"
       ],
       "directoryRole": "助理教授 · Assistant Professor",
-      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "identityNote": "广州生命科学与生物医学工程学域目录另列任职为Assistant Professor。",
       "researchKeywords": [
         "靶向治疗医用微型机器人",
         "微尺度诊断系统",
@@ -84723,7 +84857,11 @@ window.APP_CATALOG = {
         "Diagnostic microscale systems",
         "Complex cellular systems and biohybrid robotics",
         "Point-of-care devices",
-        "Biomaterials"
+        "Biomaterials",
+        "医用微型机器人",
+        "靶向治疗",
+        "生物混合机器人",
+        "即时检测"
       ],
       "topics": [
         "机器人与控制",
@@ -84749,19 +84887,23 @@ window.APP_CATALOG = {
       "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/YASA-ONCAY/oncayyasa",
       "sourceIds": [
         "gz-roas-directory-20261029",
-        "gz-roas-profile-372-20261029"
+        "gz-roas-profile-372-20261029",
+        "hkustgz-bsbe-profile-20261111-372",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "gz-roas-profile-372-20261029"
+        "gz-roas-profile-372-20261029",
+        "hkustgz-bsbe-profile-20261111-372"
       ],
       "directorySourceIds": [
-        "gz-roas-directory-20261029"
+        "gz-roas-directory-20261029",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "academicUnitIds": [
         "hkustgz-3"
       ],
       "directoryRole": "助理教授 · Assistant Professor",
-      "identityNote": "此处记录广州学域任职。所读师资名录没有确认你所选学位的指导资格或名额。",
+      "identityNote": "广州生命科学与生物医学工程学域目录另列任职为Assistant Professor。",
       "researchKeywords": [
         "生物混合机器人",
         "软体机器人",
@@ -123278,16 +123420,23 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkust-life-research-division-robert-z-qi",
-        "hkust-life-science-division-roster-20261111"
+        "hkust-life-science-division-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-105",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "hkust-life-research-division-robert-z-qi"
+        "hkust-life-research-division-robert-z-qi",
+        "hkustgz-bsbe-profile-20261111-105"
       ],
       "researchKeywords": [
         "微管组织",
         "中心体",
         "细胞增殖",
-        "细胞迁移"
+        "细胞迁移",
+        "细胞骨架动力学",
+        "细胞生物学",
+        "肿瘤",
+        "分子与细胞神经科学"
       ],
       "directorySourceIds": [
         "hkust-life-science-division-roster-20261111"
@@ -123316,7 +123465,8 @@ window.APP_CATALOG = {
         "sourceIds": [
           "hkust-life-research-division-robert-z-qi"
         ]
-      }
+      },
+      "identityNote": "广州生命科学与生物医学工程学域主任及教授，香港生命科学部列为兼任教授。"
     },
     {
       "id": "hkust-life-division-bik-kwoon-yeung-tye",
@@ -123529,10 +123679,13 @@ window.APP_CATALOG = {
       ],
       "sourceIds": [
         "hkust-life-research-division-jun-xia",
-        "hkust-life-science-division-roster-20261111"
+        "hkust-life-science-division-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-54",
+        "hkustgz-bsbe-roster-20261111"
       ],
       "keywordSourceIds": [
-        "hkust-life-research-division-jun-xia"
+        "hkust-life-research-division-jun-xia",
+        "hkustgz-bsbe-profile-20261111-54"
       ],
       "researchKeywords": [
         "突触组织",
@@ -123560,7 +123713,8 @@ window.APP_CATALOG = {
         "sourceIds": [
           "hkust-life-research-division-jun-xia"
         ]
-      }
+      },
+      "identityNote": "广州生命科学与生物医学工程学域教授，香港生命科学部同时列为关联师资。"
     },
     {
       "id": "hkust-life-division-hong-xue",
@@ -123658,6 +123812,767 @@ window.APP_CATALOG = {
         "text": "查看项目的指导安排。",
         "sourceIds": [
           "hkust-life-research-division-mingjie-zhang"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-650",
+      "universityId": "hkustgz",
+      "name": "Zhenglong GU",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=650",
+      "directoryRole": "Professor",
+      "summary": "研究方向包括线粒体功能、线粒体DNA突变、衰老、单细胞。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-650"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-650"
+      ],
+      "researchKeywords": [
+        "线粒体功能",
+        "线粒体DNA突变",
+        "衰老",
+        "单细胞"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-650"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-133",
+      "universityId": "hkustgz",
+      "name": "Jun WU",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=133",
+      "directoryRole": "Associate Professor",
+      "summary": "研究方向包括生物材料、药物递送、组织工程、诊疗一体化、干细胞。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-133"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-133"
+      ],
+      "researchKeywords": [
+        "生物材料",
+        "药物递送",
+        "组织工程",
+        "诊疗一体化",
+        "干细胞"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-133"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-664",
+      "universityId": "hkustgz",
+      "name": "Qingquan CHEN",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=664",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括噬菌体治疗、抗菌药物耐药性、生物工程药物递送。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-664"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-664"
+      ],
+      "researchKeywords": [
+        "噬菌体治疗",
+        "抗菌药物耐药性",
+        "生物工程药物递送"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-664"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-125",
+      "universityId": "hkustgz",
+      "name": "Lingluo CHU",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=125",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括染色体结构与动态、染色体不稳定性、先天免疫、细胞动态。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-125"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-125"
+      ],
+      "researchKeywords": [
+        "染色体结构与动态",
+        "染色体不稳定性",
+        "先天免疫",
+        "细胞动态"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://lab.rjmart.cn/10060/8FE9C1D797634E6C",
+          "label": "个人网站",
+          "parentSourceId": "hkustgz-bsbe-profile-20261111-125",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-125"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-319",
+      "universityId": "hkustgz",
+      "name": "Xiaomeng LI",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=319",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括化学生物学、表观遗传学、组蛋白翻译后修饰、定量蛋白质组学。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-319"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-319"
+      ],
+      "researchKeywords": [
+        "化学生物学",
+        "表观遗传学",
+        "组蛋白翻译后修饰",
+        "定量蛋白质组学"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-319"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-308",
+      "universityId": "hkustgz",
+      "name": "Zhuoyi LIANG",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=308",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括神经科学、免疫学、基因组不稳定性、神经退行性疾病。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-308"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-308"
+      ],
+      "researchKeywords": [
+        "神经科学",
+        "免疫学",
+        "基因组不稳定性",
+        "神经退行性疾病"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-308"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-312",
+      "universityId": "hkustgz",
+      "name": "Julie Qiaojin LIN",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=312",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括分子神经科学、RNA生物学、脑芯片、神经信号解码。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-312"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-312"
+      ],
+      "researchKeywords": [
+        "分子神经科学",
+        "RNA生物学",
+        "脑芯片",
+        "神经信号解码"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://julie-lin-lab.github.io/index.html",
+          "label": "个人网站",
+          "parentSourceId": "hkustgz-bsbe-profile-20261111-312",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-312"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-162",
+      "universityId": "hkustgz",
+      "name": "Kefei LIU",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=162",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括系统神经科学、神经解码、空间导航、睡眠、海马。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-162"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-162"
+      ],
+      "researchKeywords": [
+        "系统神经科学",
+        "神经解码",
+        "空间导航",
+        "睡眠",
+        "海马"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://kefeilab.hkust-gz.edu.cn/",
+          "label": "个人网站",
+          "parentSourceId": "hkustgz-bsbe-profile-20261111-162",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-162"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-276",
+      "universityId": "hkustgz",
+      "name": "Hongyuan LU",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=276",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括蛋白质工程、合成生物学、环境工程、人工智能辅助生物工程。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-276"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-276"
+      ],
+      "researchKeywords": [
+        "蛋白质工程",
+        "合成生物学",
+        "环境工程",
+        "人工智能辅助生物工程"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://lulab.hkust-gz.edu.cn/",
+          "label": "个人网站",
+          "parentSourceId": "hkustgz-bsbe-profile-20261111-276",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-276"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-570",
+      "universityId": "hkustgz",
+      "name": "Cuiping PAN",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=570",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括遗传与表观遗传机制、免疫调控网络、组学分析、精准医学。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-570"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-570"
+      ],
+      "researchKeywords": [
+        "遗传与表观遗传机制",
+        "免疫调控网络",
+        "组学分析",
+        "精准医学"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-570"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-468",
+      "universityId": "hkustgz",
+      "name": "Yang SHEN",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=468",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括记忆编码、神经元与胶质细胞互作、突触可塑性、衰老。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-468"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-468"
+      ],
+      "researchKeywords": [
+        "记忆编码",
+        "神经元与胶质细胞互作",
+        "突触可塑性",
+        "衰老"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://biri.hkust-gz.edu.cn/zh/2024/09/05/yang-shen/",
+          "label": "个人网站",
+          "parentSourceId": "hkustgz-bsbe-profile-20261111-468",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-468"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-640",
+      "universityId": "hkustgz",
+      "name": "Jianfeng SUN",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=640",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括分子相互作用、计算基因组学、结构变异、长读长单细胞测序。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-640"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-640"
+      ],
+      "researchKeywords": [
+        "分子相互作用",
+        "计算基因组学",
+        "结构变异",
+        "长读长单细胞测序"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-640"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-296",
+      "universityId": "hkustgz",
+      "name": "Li TAO",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=296",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括神经细胞生物学、神经元形态发生、神经传递、衰老。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-296"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-296"
+      ],
+      "researchKeywords": [
+        "神经细胞生物学",
+        "神经元形态发生",
+        "神经传递",
+        "衰老"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-296"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-689",
+      "universityId": "hkustgz",
+      "name": "Min TIAN",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=689",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括神经退行性疾病、神经血管损伤与修复、转录组学。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-689"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-689"
+      ],
+      "researchKeywords": [
+        "神经退行性疾病",
+        "神经血管损伤与修复",
+        "转录组学"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-689"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-376",
+      "universityId": "hkustgz",
+      "name": "Wenyu WANG",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括软材料打印、电子皮肤、智能可穿戴、生物电子。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-376"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-376"
+      ],
+      "researchKeywords": [
+        "软材料打印",
+        "电子皮肤",
+        "智能可穿戴",
+        "生物电子"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://wang-andy.com/",
+          "label": "个人网站",
+          "parentSourceId": "hkustgz-bsbe-profile-20261111-376",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-376"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-351",
+      "universityId": "hkustgz",
+      "name": "Cheng ZHANG",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=351",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括微生物与免疫、酶工程、RNA可编程技术、RNA疗法、结构生物学。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-351"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-351"
+      ],
+      "researchKeywords": [
+        "微生物与免疫",
+        "酶工程",
+        "RNA可编程技术",
+        "RNA疗法",
+        "结构生物学"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-351"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-110",
+      "universityId": "hkustgz",
+      "name": "Xian ZHANG",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=110",
+      "directoryRole": "Assistant Professor",
+      "summary": "研究方向包括神经环路、适应性行为、发声、精神障碍。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-110"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-110"
+      ],
+      "researchKeywords": [
+        "神经环路",
+        "适应性行为",
+        "发声",
+        "精神障碍"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-110"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-bsbe-326",
+      "universityId": "hkustgz",
+      "name": "Miaojun HUANG",
+      "department": "生命科学与生物医学工程学域",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=326",
+      "directoryRole": "Assistant Professor of Practice",
+      "summary": "研究方向包括高等教育创新、生物医学开发与应用。",
+      "topics": [
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111",
+        "hkustgz-bsbe-profile-20261111-326"
+      ],
+      "directorySourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-bsbe-profile-20261111-326"
+      ],
+      "researchKeywords": [
+        "高等教育创新",
+        "生物医学开发与应用"
+      ],
+      "academicUnitIds": [
+        "hkustgz-3"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "查看项目的指导安排。",
+        "sourceIds": [
+          "hkustgz-bsbe-profile-20261111-326"
         ]
       }
     }
@@ -248459,6 +249374,741 @@ window.APP_CATALOG = {
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "6d31ebdf3edb32a770dfa731bda8f0d83f923fdfb73f55dae1e06715d7606c97"
+    },
+    {
+      "id": "hkustgz-bsbe-unit-20261111",
+      "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/bioscience-and-biomedical-engineering/?variant=zh-cn",
+      "title": "系统枢纽 · 生命科学与生物医学工程学域",
+      "checkedAt": "2026-11-11",
+      "bodySha256": "ef83cc37368722951ef6133ee493b99f98e9dba6e88c02965495ccfa8c3633b5",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "正式学域、研究方向及教授和招生入口",
+      "claims": [
+        "正式学域隶属系统枢纽。研究范围含神经科学、干细胞、合成生物学、组织工程、生物材料和计算生物学。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-roster-20261111",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+      "title": "港科大（广州）生命科学与生物医学工程学域 · 人员目录",
+      "checkedAt": "2026-11-11",
+      "scope": "官网学域与枢纽两处公开入口均返回学域主任及29项师资，含常规、实践、研究、访问和兼任。",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e965237d255f7762e1b17952adf159ee3a608f227c052ed2b6f4a9ed557150f6",
+      "publicDataUrl": "https://sysh.hkust-gz.edu.cn/wp-json/university/v1/getOfficialThrustList?departmentPkCode=10011A10000000000H2I",
+      "comparisonDataUrl": "https://sysh.hkust-gz.edu.cn/wp-json/university/v1/getOfficialThrustList?departmentPkCode=10011A10000000000H2I&orderBy=lastName&languageType=en&facultyType=GZ&dataSourcesCodes=OUTSIDE_NC&excludeJobTypes=Visiting&size=100000&pages=1",
+      "comparisonBodySha256": "e965237d255f7762e1b17952adf159ee3a608f227c052ed2b6f4a9ed557150f6",
+      "claims": [
+        "官网学域与枢纽两处公开入口均返回学域主任及29项师资，含常规、实践、研究、访问和兼任。"
+      ],
+      "knownIssues": [
+        "两处入口返回同一组编号。名录范围以接口当次返回为准。"
+      ],
+      "discoveredLinks": [
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=650",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=54",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=763",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=133",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=664",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=125",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=620",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=319",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=308",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=312",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=162",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=276",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=570",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=707",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=468",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=640",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=296",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=689",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=371",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=372",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=351",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=110",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=326",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=429",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=597",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=254",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=552",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=553",
+        "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=105"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-phd-source-2027",
+      "url": "https://pcc.hkust-gz.edu.cn/postgraduate/program-catalog",
+      "title": "港科大（广州）2027/28项目目录 · 生命科学与生物医学工程",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-27",
+      "evidenceLevel": "official_programme_current_cycle",
+      "scope": "2027/28 / Systems Hub / bioscience-and-biomedical-engineering-27",
+      "claims": [
+        "博士按学域申请。MPhil学位所列申请入口为红鸟硕士。申请费人民币150元。"
+      ],
+      "knownIssues": [
+        "2026年7月招生开放日与2024/25旧项目页另属不同范围。"
+      ],
+      "readMethod": "anonymous_public_programme_interface_from_official_catalogue_script",
+      "publicDataUrl": "https://pcc.hkust-gz.edu.cn/api/pg-program-periods/catalog",
+      "httpBodySha256": "b64006e65ea9d8e001609bae348be84cb288bbe853331a9b00cbf3402d511109",
+      "recordId": "bioscience-and-biomedical-engineering-27",
+      "yearOfEntry": "2027/28"
+    },
+    {
+      "id": "hkustgz-bsbe-materials-20261111",
+      "url": "https://fytgs.hkust-gz.edu.cn/admissions/before-submitting-an-application/documents-required",
+      "title": "港科大（广州）研究生院 · 申请材料",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29",
+      "bodySha256": "3b673e65085ba42fd3b5c17e3d0add92aa7cef8f4aa91bd5e113d2e3f0fec203",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "校级申请材料及研究学位补充材料",
+      "claims": [
+        "身份、成绩与学位材料、评分制度及语言证明。研究学位另填研究计划与经历，提名2至5名推荐人。"
+      ],
+      "knownIssues": [
+        "具体表格与项目要求以网申显示为准。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-650",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=650",
+      "title": "Zhenglong GU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:35:50.067662+00:00",
+      "bodySha256": "5e7f7bf03dae612c7802713412c32778e3813f87e25a7f73ad4d4a9f69cd2a86",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/650",
+      "claims": [
+        "Professor",
+        "线粒体功能",
+        "线粒体DNA突变",
+        "衰老",
+        "单细胞"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-54",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=54",
+      "title": "Jun XIA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:35:50.068809+00:00",
+      "bodySha256": "00e3822fdafb08570159c231de80595bb059c8a61f2b122d5403a989d33a7147",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/54",
+      "claims": [
+        "Professor",
+        "蛋白运输",
+        "突触传递"
+      ],
+      "discoveredLinks": [
+        "https://life-sci.hkust.edu.hk/team/jun-xia/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-763",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=763",
+      "title": "Yang LI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:52:55.089437+00:00",
+      "bodySha256": "1fbe7d0ebd09e3951ff4ac73ded9d5ee0d50ffe5243181cbdba19682b7c223d6",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/763",
+      "claims": [
+        "Associate Professor"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究栏目待补。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-133",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=133",
+      "title": "Jun WU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:35:55.725275+00:00",
+      "bodySha256": "700d2a6857b7de4c41e246b888258e0ae71c17fcf182496f435653b75f4d19a1",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/133",
+      "claims": [
+        "Associate Professor",
+        "生物材料",
+        "药物递送",
+        "组织工程",
+        "诊疗一体化",
+        "干细胞"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-664",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=664",
+      "title": "Qingquan CHEN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:35:58.245195+00:00",
+      "bodySha256": "5b2f1b1f6f2bdbddadf9b9cf88ea006eadaedd8b314c28e0dc8053cb76861e05",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/664",
+      "claims": [
+        "Assistant Professor",
+        "噬菌体治疗",
+        "抗菌药物耐药性",
+        "生物工程药物递送"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究方向来自个人简介。招募文字未标轮次，申请状态待核。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-125",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=125",
+      "title": "Lingluo CHU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:02.051878+00:00",
+      "bodySha256": "ea1ab329d2706ad2f0bd042cbc8c5fc069bb755b79c216ea7e22aaebc1fc6264",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/125",
+      "claims": [
+        "Assistant Professor",
+        "染色体结构与动态",
+        "染色体不稳定性",
+        "先天免疫",
+        "细胞动态"
+      ],
+      "discoveredLinks": [
+        "https://lab.rjmart.cn/10060/8FE9C1D797634E6C"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-620",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=620",
+      "title": "AKIHIRO GOTO · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:05.538735+00:00",
+      "bodySha256": "d9047d37fe1d6d812e9a168d4d6095164e3ec6bfa5bcfde3139278dba33be9ca",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/620",
+      "claims": [
+        "Assistant Professor"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究栏目待补。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-319",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=319",
+      "title": "Xiaomeng LI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:08.188426+00:00",
+      "bodySha256": "752b83d66be2edc3a05eb1b02bfa228920723d7d11780148817c23a12817df7d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/319",
+      "claims": [
+        "Assistant Professor",
+        "化学生物学",
+        "表观遗传学",
+        "组蛋白翻译后修饰",
+        "定量蛋白质组学"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-308",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=308",
+      "title": "Zhuoyi LIANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:11.797411+00:00",
+      "bodySha256": "d641f4ee4781d8cfeb86265a7584a26d611f91668d5e1ac4ce90fc48b0187140",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/308",
+      "claims": [
+        "Assistant Professor",
+        "神经科学",
+        "免疫学",
+        "基因组不稳定性",
+        "神经退行性疾病"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-312",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=312",
+      "title": "Julie Qiaojin LIN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:15.689943+00:00",
+      "bodySha256": "16a89136e9de6482bd377d10aa3b397f6cd666a52cb7c436a9b82b2dfa6775a3",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/312",
+      "claims": [
+        "Assistant Professor",
+        "分子神经科学",
+        "RNA生物学",
+        "脑芯片",
+        "神经信号解码"
+      ],
+      "discoveredLinks": [
+        "https://julie-lin-lab.github.io/index.html"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-162",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=162",
+      "title": "Kefei LIU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:18.364157+00:00",
+      "bodySha256": "5410a2384cbff156164c929186ac656369ab6b2f4eda7def5f07cab0988bfd83",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/162",
+      "claims": [
+        "Assistant Professor",
+        "系统神经科学",
+        "神经解码",
+        "空间导航",
+        "睡眠",
+        "海马"
+      ],
+      "discoveredLinks": [
+        "https://kefeilab.hkust-gz.edu.cn/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-276",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=276",
+      "title": "Hongyuan LU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:20.122339+00:00",
+      "bodySha256": "926a795a9435120bb936a3b501b52fc219103ca92c0bbf572f174440f4028452",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/276",
+      "claims": [
+        "Assistant Professor",
+        "蛋白质工程",
+        "合成生物学",
+        "环境工程",
+        "人工智能辅助生物工程"
+      ],
+      "discoveredLinks": [
+        "https://lulab.hkust-gz.edu.cn/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-570",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=570",
+      "title": "Cuiping PAN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:21.826607+00:00",
+      "bodySha256": "dccd0cd7dfd8bfeccef518f658a528a6124e33803e031eac4e056a4a8bf1d621",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/570",
+      "claims": [
+        "Assistant Professor",
+        "遗传与表观遗传机制",
+        "免疫调控网络",
+        "组学分析",
+        "精准医学"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-707",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=707",
+      "title": "Bo PENG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T03:53:01.783773+00:00",
+      "bodySha256": "435e4d8b6eb868e8368d297526b88f3f5690d574da6533b508e9aa7759562ee6",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/707",
+      "claims": [
+        "Assistant Professor",
+        "暴露生物标志物",
+        "人类暴露组",
+        "空气污染与健康",
+        "计算毒理学"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-468",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=468",
+      "title": "Yang SHEN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:42.826696+00:00",
+      "bodySha256": "11754b6c52e87377365bfa3804b1ed3f4473f20095906ea899ea0cf8fa442d7a",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/468",
+      "claims": [
+        "Assistant Professor",
+        "记忆编码",
+        "神经元与胶质细胞互作",
+        "突触可塑性",
+        "衰老"
+      ],
+      "discoveredLinks": [
+        "https://biri.hkust-gz.edu.cn/zh/2024/09/05/yang-shen/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-640",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=640",
+      "title": "Jianfeng SUN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:47.082495+00:00",
+      "bodySha256": "f435301b9d90ed3c2de093c65ef06a24490d6d9cbcfc7e6620bf5b4d4c0f06b4",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/640",
+      "claims": [
+        "Assistant Professor",
+        "分子相互作用",
+        "计算基因组学",
+        "结构变异",
+        "长读长单细胞测序"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-296",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=296",
+      "title": "Li TAO · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:47.889881+00:00",
+      "bodySha256": "2770822fb6dd7bf8b2fd72d8fe5f978f2edd3d2fbcbb208ca614a6a838fb27ec",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/296",
+      "claims": [
+        "Assistant Professor",
+        "神经细胞生物学",
+        "神经元形态发生",
+        "神经传递",
+        "衰老"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-689",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=689",
+      "title": "Min TIAN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:50.008140+00:00",
+      "bodySha256": "e1b7f42cb79214a54f759cff9ba8fe408694eac16c8f40d9188f7cd035a47922",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/689",
+      "claims": [
+        "Assistant Professor",
+        "神经退行性疾病",
+        "神经血管损伤与修复",
+        "转录组学"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-376",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+      "title": "Wenyu WANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:51.935226+00:00",
+      "bodySha256": "d668de31bbfc2d41a1e5fe8c7a4ebb25f1a1f1e686fc23250a2f8bc9974ad985",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/376",
+      "claims": [
+        "Assistant Professor",
+        "软材料打印",
+        "电子皮肤",
+        "智能可穿戴",
+        "生物电子"
+      ],
+      "discoveredLinks": [
+        "https://wang-andy.com/"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-371",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=371",
+      "title": "IMMIHAN CEREN YASA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:53.032094+00:00",
+      "bodySha256": "07cd174e42228c5f85bafc74a40feadfbdfcb9d1f32646b53ef5faa7df48ce5a",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/371",
+      "claims": [
+        "Assistant Professor",
+        "医用微型机器人",
+        "靶向治疗",
+        "生物混合机器人",
+        "即时检测"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-372",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=372",
+      "title": "ONCAY YASA · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:53.486554+00:00",
+      "bodySha256": "db15dc614be8f117a218f198ee194c50e7cc79fce215918d0813eb23fc0aa84f",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/372",
+      "claims": [
+        "Assistant Professor",
+        "生物混合机器人",
+        "软体机器人",
+        "微型机器人",
+        "机器人材料"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-351",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=351",
+      "title": "Cheng ZHANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:56.488639+00:00",
+      "bodySha256": "17e4a869851f46481664c1a91fda0a16c7fa06ee9a46682b9e2fcd6d71744133",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/351",
+      "claims": [
+        "Assistant Professor",
+        "微生物与免疫",
+        "酶工程",
+        "RNA可编程技术",
+        "RNA疗法",
+        "结构生物学"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-110",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=110",
+      "title": "Xian ZHANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:59.250271+00:00",
+      "bodySha256": "c6f1c1a9a1e6e0574a4bbc06aa7a649e7c5d6e16b614f7c9dda80bac21a6e21e",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/110",
+      "claims": [
+        "Assistant Professor",
+        "神经环路",
+        "适应性行为",
+        "发声",
+        "精神障碍"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-326",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=326",
+      "title": "Miaojun HUANG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:36:59.731012+00:00",
+      "bodySha256": "07943b48dbc629700906016020484005c9ef436328c60c4693b2bb8e80dad626",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/326",
+      "claims": [
+        "Assistant Professor of Practice",
+        "高等教育创新",
+        "生物医学开发与应用"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-429",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=429",
+      "title": "Shiqin YU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:01.351835+00:00",
+      "bodySha256": "6551e65b0b8bca23460037ab60c387bb346b8fc87ed9c04b61371436537d6c5e",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/429",
+      "claims": [
+        "Research Assistant Professor"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究栏目待补。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-597",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=597",
+      "title": "Ping Fung WONG · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:03.912266+00:00",
+      "bodySha256": "8cd3081b737ff55cfc78bc183bee6050b44eb7e80c12225910e2c281a5d62b99",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/597",
+      "claims": [
+        "Visiting Scholar"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究栏目待补。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-254",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=254",
+      "title": "Joseph Kai Cho KWAN · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:04.355414+00:00",
+      "bodySha256": "7703cfff22eb44fe2950f78325a39e0dadbac59cd9f2ea27d3aa0d509be742be",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/254",
+      "claims": [
+        "Adjunct Professor",
+        "室内微生物传播",
+        "健康危害控制",
+        "医疗服务效率"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-552",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=552",
+      "title": "Xiaojian WU · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:08.863469+00:00",
+      "bodySha256": "727b35b8bb03fa4005d4c7291c03afa9681f41e18e6ae8446c51eb804b06122d",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/552",
+      "claims": [
+        "Adjunct Professor"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究栏目待补。"
+      ]
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-553",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=553",
+      "title": "Feng GAO · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:37:12.366603+00:00",
+      "bodySha256": "5525ae1e7aeee3206e7f7a64f9dbbff23fc7bf8f3163ccef794d7ccb4b8e5202",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/553",
+      "claims": [
+        "Adjunct Associate Professor"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": [
+        "研究栏目待补。"
+      ],
+      "providedWebsiteText": "fenggaolab.org"
+    },
+    {
+      "id": "hkustgz-bsbe-profile-20261111-105",
+      "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=105",
+      "title": "Robert Zhong QI · 广州公开个人档案",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:35:50.067662+00:00",
+      "bodySha256": "14f3e410923f1646275ce15f80d2a3f6a4ec215848ee6f75c793dc7a2cfcf789",
+      "readMethod": "saved_official_body_semantic_review",
+      "evidenceLevel": "official_faculty_research_profile",
+      "scope": "姓名、广州任职与个人页研究栏目",
+      "publicDataUrl": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/105",
+      "claims": [
+        "Thrust Head / Professor",
+        "细胞骨架动力学",
+        "细胞生物学",
+        "肿瘤",
+        "分子与细胞神经科学"
+      ],
+      "discoveredLinks": [
+        "https://robertqilab.hkust-gz.edu.cn/"
+      ],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -276042,6 +277692,326 @@ window.APP_CATALOG = {
         "hkust-life-division-20261111-pei-yuan-qian",
         "hkust-life-division-20261111-qinglu-zeng"
       ]
+    },
+    {
+      "id": "hkustgz-bsbe-roster-directory-20261111",
+      "universityId": "hkustgz",
+      "unit": "生命科学与生物医学工程学域 · 人员目录",
+      "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+      "coverageComplete": false,
+      "sourceIds": [
+        "hkustgz-bsbe-roster-20261111"
+      ],
+      "reviewSourceIds": [
+        "hkustgz-bsbe-profile-20261111-650",
+        "hkustgz-bsbe-profile-20261111-54",
+        "hkustgz-bsbe-profile-20261111-763",
+        "hkustgz-bsbe-profile-20261111-133",
+        "hkustgz-bsbe-profile-20261111-664",
+        "hkustgz-bsbe-profile-20261111-125",
+        "hkustgz-bsbe-profile-20261111-620",
+        "hkustgz-bsbe-profile-20261111-319",
+        "hkustgz-bsbe-profile-20261111-308",
+        "hkustgz-bsbe-profile-20261111-312",
+        "hkustgz-bsbe-profile-20261111-162",
+        "hkustgz-bsbe-profile-20261111-276",
+        "hkustgz-bsbe-profile-20261111-570",
+        "hkustgz-bsbe-profile-20261111-707",
+        "hkustgz-bsbe-profile-20261111-468",
+        "hkustgz-bsbe-profile-20261111-640",
+        "hkustgz-bsbe-profile-20261111-296",
+        "hkustgz-bsbe-profile-20261111-689",
+        "hkustgz-bsbe-profile-20261111-376",
+        "hkustgz-bsbe-profile-20261111-371",
+        "hkustgz-bsbe-profile-20261111-372",
+        "hkustgz-bsbe-profile-20261111-351",
+        "hkustgz-bsbe-profile-20261111-110",
+        "hkustgz-bsbe-profile-20261111-326",
+        "hkustgz-bsbe-profile-20261111-429",
+        "hkustgz-bsbe-profile-20261111-597",
+        "hkustgz-bsbe-profile-20261111-254",
+        "hkustgz-bsbe-profile-20261111-552",
+        "hkustgz-bsbe-profile-20261111-553",
+        "hkustgz-bsbe-profile-20261111-105"
+      ],
+      "coverageNotes": "官网学域与枢纽两处公开入口均返回学域主任及29项师资，含常规、实践、研究、访问和兼任。",
+      "census": {
+        "observedTotal": 30,
+        "profilesRead": 30,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Zhenglong GU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=650",
+            "directoryPosition": "Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-650"
+          },
+          {
+            "name": "Jun XIA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=54",
+            "directoryPosition": "Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-life-division-jun-xia"
+          },
+          {
+            "name": "Yang LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=763",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Jun WU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=133",
+            "directoryPosition": "Associate Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-133"
+          },
+          {
+            "name": "Qingquan CHEN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=664",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-664"
+          },
+          {
+            "name": "Lingluo CHU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=125",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-125"
+          },
+          {
+            "name": "AKIHIRO GOTO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=620",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Xiaomeng LI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=319",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-319"
+          },
+          {
+            "name": "Zhuoyi LIANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=308",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-308"
+          },
+          {
+            "name": "Julie Qiaojin LIN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=312",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-312"
+          },
+          {
+            "name": "Kefei LIU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=162",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-162"
+          },
+          {
+            "name": "Hongyuan LU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=276",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-276"
+          },
+          {
+            "name": "Cuiping PAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=570",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-570"
+          },
+          {
+            "name": "Bo PENG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=707",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-function-707"
+          },
+          {
+            "name": "Yang SHEN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=468",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-468"
+          },
+          {
+            "name": "Jianfeng SUN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=640",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-640"
+          },
+          {
+            "name": "Li TAO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=296",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-296"
+          },
+          {
+            "name": "Min TIAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=689",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-689"
+          },
+          {
+            "name": "Wenyu WANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-376"
+          },
+          {
+            "name": "IMMIHAN CEREN YASA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=371",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-roas-371"
+          },
+          {
+            "name": "ONCAY YASA",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=372",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-roas-372"
+          },
+          {
+            "name": "Cheng ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=351",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-351"
+          },
+          {
+            "name": "Xian ZHANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=110",
+            "directoryPosition": "Assistant Professor",
+            "category": "常规",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-110"
+          },
+          {
+            "name": "Miaojun HUANG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=326",
+            "directoryPosition": "Assistant Professor of Practice",
+            "category": "实践",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-bsbe-326"
+          },
+          {
+            "name": "Shiqin YU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=429",
+            "directoryPosition": "Research Assistant Professor",
+            "category": "研究",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Ping Fung WONG",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=597",
+            "directoryPosition": "Visiting Scholar",
+            "category": "访问",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Joseph Kai Cho KWAN",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=254",
+            "directoryPosition": "Adjunct Professor",
+            "category": "兼任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkustgz-function-254"
+          },
+          {
+            "name": "Xiaojian WU",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=552",
+            "directoryPosition": "Adjunct Professor",
+            "category": "兼任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Feng GAO",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=553",
+            "directoryPosition": "Adjunct Associate Professor",
+            "category": "兼任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核对身份，研究方向待补"
+          },
+          {
+            "name": "Robert Zhong QI",
+            "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=105",
+            "directoryPosition": "Thrust Head / Professor",
+            "category": "学域主任",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-life-division-robert-z-qi"
+          }
+        ]
+      }
     }
   ],
   "directApplicationRoutes": {
@@ -319730,11 +321700,11 @@ window.APP_CATALOG = {
             {
               "name": "生命科学与生物医学工程",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/bioscience-and-biomedical-engineering/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "organization-gz-systems-reused-20261029"
+                "hkustgz-bsbe-unit-20261111"
               ],
               "kind": "thrust",
               "relationship": "listed_on_parent_page",
@@ -319744,7 +321714,9 @@ window.APP_CATALOG = {
               ],
               "supervisionEligibility": "unknown",
               "availability": "unknown",
-              "previousListedName": "生物科学与生物医学工程"
+              "previousListedName": "生物科学与生物医学工程",
+              "bodySha256": "ef83cc37368722951ef6133ee493b99f98e9dba6e88c02965495ccfa8c3633b5",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/systems-hub/bioscience-and-biomedical-engineering/?variant=zh-cn"
             },
             {
               "name": "智能交通",
@@ -320148,6 +322120,516 @@ window.APP_CATALOG = {
                   "facultyId": null,
                   "researchReviewStatus": "no_research_text_observed",
                   "reviewNote": "已核任职；所读研究栏目没有文字。"
+                }
+              ]
+            },
+            {
+              "label": "生命科学与生物医学工程学域 · 常规",
+              "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+              "sourceIds": [
+                "hkustgz-bsbe-roster-20261111"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Zhenglong GU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=650",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "5e7f7bf03dae612c7802713412c32778e3813f87e25a7f73ad4d4a9f69cd2a86",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-650",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Jun XIA",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=54",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "00e3822fdafb08570159c231de80595bb059c8a61f2b122d5403a989d33a7147",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkust-life-division-jun-xia",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Yang LI",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=763",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "1fbe7d0ebd09e3951ff4ac73ded9d5ee0d50ffe5243181cbdba19682b7c223d6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ]
+                },
+                {
+                  "name": "Jun WU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=133",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "700d2a6857b7de4c41e246b888258e0ae71c17fcf182496f435653b75f4d19a1",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-133",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Qingquan CHEN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=664",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "5b2f1b1f6f2bdbddadf9b9cf88ea006eadaedd8b314c28e0dc8053cb76861e05",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-664",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Lingluo CHU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=125",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "ea1ab329d2706ad2f0bd042cbc8c5fc069bb755b79c216ea7e22aaebc1fc6264",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-125",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "AKIHIRO GOTO",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=620",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d9047d37fe1d6d812e9a168d4d6095164e3ec6bfa5bcfde3139278dba33be9ca",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ]
+                },
+                {
+                  "name": "Xiaomeng LI",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=319",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "752b83d66be2edc3a05eb1b02bfa228920723d7d11780148817c23a12817df7d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-319",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Zhuoyi LIANG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=308",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d641f4ee4781d8cfeb86265a7584a26d611f91668d5e1ac4ce90fc48b0187140",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-308",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Julie Qiaojin LIN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=312",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "16a89136e9de6482bd377d10aa3b397f6cd666a52cb7c436a9b82b2dfa6775a3",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-312",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Kefei LIU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=162",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "5410a2384cbff156164c929186ac656369ab6b2f4eda7def5f07cab0988bfd83",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-162",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Hongyuan LU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=276",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "926a795a9435120bb936a3b501b52fc219103ca92c0bbf572f174440f4028452",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-276",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Cuiping PAN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=570",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "dccd0cd7dfd8bfeccef518f658a528a6124e33803e031eac4e056a4a8bf1d621",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-570",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Bo PENG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=707",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "435e4d8b6eb868e8368d297526b88f3f5690d574da6533b508e9aa7759562ee6",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-function-707",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Yang SHEN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=468",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "11754b6c52e87377365bfa3804b1ed3f4473f20095906ea899ea0cf8fa442d7a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-468",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Jianfeng SUN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=640",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "f435301b9d90ed3c2de093c65ef06a24490d6d9cbcfc7e6620bf5b4d4c0f06b4",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-640",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Li TAO",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=296",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "2770822fb6dd7bf8b2fd72d8fe5f978f2edd3d2fbcbb208ca614a6a838fb27ec",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-296",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Min TIAN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=689",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "e1b7f42cb79214a54f759cff9ba8fe408694eac16c8f40d9188f7cd035a47922",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-689",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Wenyu WANG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=376",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "d668de31bbfc2d41a1e5fe8c7a4ebb25f1a1f1e686fc23250a2f8bc9974ad985",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-376",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "IMMIHAN CEREN YASA",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=371",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "07cd174e42228c5f85bafc74a40feadfbdfcb9d1f32646b53ef5faa7df48ce5a",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-roas-371",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "ONCAY YASA",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=372",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "db15dc614be8f117a218f198ee194c50e7cc79fce215918d0813eb23fc0aa84f",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-roas-372",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Cheng ZHANG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=351",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "17e4a869851f46481664c1a91fda0a16c7fa06ee9a46682b9e2fcd6d71744133",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-351",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Xian ZHANG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=110",
+                  "directoryLabel": "常规",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "c6f1c1a9a1e6e0574a4bbc06aa7a649e7c5d6e16b614f7c9dda80bac21a6e21e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-110",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                }
+              ]
+            },
+            {
+              "label": "生命科学与生物医学工程学域 · 实践",
+              "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+              "sourceIds": [
+                "hkustgz-bsbe-roster-20261111"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Miaojun HUANG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=326",
+                  "directoryLabel": "实践",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "07943b48dbc629700906016020484005c9ef436328c60c4693b2bb8e80dad626",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-bsbe-326",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                }
+              ]
+            },
+            {
+              "label": "生命科学与生物医学工程学域 · 研究",
+              "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+              "sourceIds": [
+                "hkustgz-bsbe-roster-20261111"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Shiqin YU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=429",
+                  "directoryLabel": "研究",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "6551e65b0b8bca23460037ab60c387bb346b8fc87ed9c04b61371436537d6c5e",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "生命科学与生物医学工程学域 · 访问",
+              "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+              "sourceIds": [
+                "hkustgz-bsbe-roster-20261111"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Ping Fung WONG",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=597",
+                  "directoryLabel": "访问",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "8cd3081b737ff55cfc78bc183bee6050b44eb7e80c12225910e2c281a5d62b99",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "生命科学与生物医学工程学域 · 兼任",
+              "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+              "sourceIds": [
+                "hkustgz-bsbe-roster-20261111"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Joseph Kai Cho KWAN",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=254",
+                  "directoryLabel": "兼任",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "7703cfff22eb44fe2950f78325a39e0dadbac59cd9f2ea27d3aa0d509be742be",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkustgz-function-254",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+                },
+                {
+                  "name": "Xiaojian WU",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=552",
+                  "directoryLabel": "兼任",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "727b35b8bb03fa4005d4c7291c03afa9681f41e18e6ae8446c51eb804b06122d",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ]
+                },
+                {
+                  "name": "Feng GAO",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=553",
+                  "directoryLabel": "兼任",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "5525ae1e7aeee3206e7f7a64f9dbbff23fc7bf8f3163ccef794d7ccb4b8e5202",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ]
+                }
+              ]
+            },
+            {
+              "label": "生命科学与生物医学工程学域 · 学域主任",
+              "url": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+              "sourceIds": [
+                "hkustgz-bsbe-roster-20261111"
+              ],
+              "entryBodyStatus": "body_read",
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "name": "Robert Zhong QI",
+                  "url": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=105",
+                  "directoryLabel": "学域主任",
+                  "observedOn": "https://sysh.hkust-gz.edu.cn/thrust-areas/bsbe/faculty-profile/",
+                  "profileBodyStatus": "body_read",
+                  "bodySha256": "14f3e410923f1646275ce15f80d2a3f6a4ec215848ee6f75c793dc7a2cfcf789",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "directorySourceIds": [
+                    "hkustgz-bsbe-roster-20261111"
+                  ],
+                  "facultyId": "hkust-life-division-robert-z-qi",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 }
               ]
             }
@@ -322164,5 +324646,5 @@ window.APP_CATALOG = {
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:1017d2df8253cdbcc5b105bbe3ed66c24ff13c9a33af6053eb9fd669b911dd6b"
+  "snapshotId": "sha256:4c6ea153628c04b89402bbbed8e7e0a5821bdbf58e442d05759431c0d9900163"
 };
