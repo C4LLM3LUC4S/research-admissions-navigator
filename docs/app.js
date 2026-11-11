@@ -18,7 +18,14 @@
   let noticeTimer;
   function notify(message,error) { const box=$('notice');box.textContent=message;box.classList.toggle('error',!!error);box.hidden=false;clearTimeout(noticeTimer);noticeTimer=setTimeout(()=>{box.hidden=true;},9500); }
   if (!L || !C || C.schemaVersion!==1 || !['universities','programs','faculty','sources'].every(k=>Array.isArray(C[k]))) {
-    $('startup-error').hidden=false;$('startup-error').textContent='完整资料暂时没能载入。可以先按学校打开项目官网，或重新载入完整页面。';return;
+    const quickSearch=$('startup-search');
+    const searchAvailable=quickSearch && !quickSearch.hidden;
+    if(searchAvailable)quickSearch.dispatchEvent(new Event('catalog-unavailable'));
+    $('startup-error').hidden=false;
+    $('startup-error').textContent=searchAvailable
+      ? '完整资料暂时没能载入。仍可搜索研究关键词或打开项目官网。'
+      : '完整资料暂时没能载入。可以先按学校打开项目官网，或重新载入完整页面。';
+    return;
   }
   let state={profile:L.defaultProfile(C),shortlist:[],tasks:[],sourceIds:[]},savedProfile=L.defaultProfile(C),mode='programs',facultyLimit=24,resultCards=[];
   const resultBookmarkButtons=new Map();
