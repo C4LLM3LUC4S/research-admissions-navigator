@@ -1,0 +1,46 @@
+{
+  "sources": [
+    {
+      "id": "hkust-amc-2027-catalog",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-amc",
+      "title": "港科大艺术与机器创造力 2027/28 课程目录",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "bodySha256": "4e2f3e4c88b250231a56e066a2c5647588941328a12569a80568c70714b6e574",
+      "scope": "香港校区 MPhil/PhD 当期入学、学历与语言、研究计划、申请费。",
+      "claims": [
+        "2027/28 秋季本地与非本地常规申请均于 2027 年 6 月 1 日截止，滚动审理。",
+        "书面研究计划是申请材料。目录建议申请前组建跨背景导师组，由学部教师担任主导师。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-2027-tuition",
+      "url": "https://registry.hkust.edu.hk/sites/default/files/2025-08/RPG_Tuition_adjustment%20details_Aug25.pdf",
+      "title": "港科大教务处研究学位学费调整",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "bodySha256": "0c07ab214bd163b85c47b66dae1f3dd7463c9b66f615248b4faf840b90728022",
+      "scope": "2025/26 至 2027/28 全日制及兼读研究学位学费。",
+      "claims": [
+        "2027/28 学年每年 49,500 港元。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-amc-2027-division",
+      "url": "https://amc.hkust.edu.hk/mphil-phd-program-application-admission-requirement",
+      "title": "艺术与机器创造学部申请说明（旧年度）",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "bodySha256": "f4466f359246845018181912814da1198d52eea2b3131e64ab18d7cadcf208d5",
+      "scope": "旧年度页面的申请步骤与导师组措辞。",
+      "claims": [
+        "旧页流程列出两位导师及书面同意。"
+      ],
+      "knownIssues": [
+        "旧页截止日属于 2025/26。导师组流程措辞与 2027/28 课程目录的建议措辞不同。"
+      ]
+    }
+  ]
+}
