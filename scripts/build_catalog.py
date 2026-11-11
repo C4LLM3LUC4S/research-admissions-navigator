@@ -1987,7 +1987,14 @@ def startup_project_html(catalog):
     return (
         '<section id="startup-projects" class="startup-projects" aria-labelledby="startup-project-title">'
         '<h2 id="startup-project-title">按学校查看项目官网</h2>'
-        '<p>选择学校，先查看学位、材料和申请时间。教师检索与清单正在载入。</p>'
+        '<p>选择学校，先查看学位、材料和申请时间。</p>'
+        '<form id="startup-search" hidden>'
+        '<label for="startup-research-query">按研究关键词找老师</label>'
+        '<input id="startup-research-query" type="search" maxlength="160" placeholder="例如：机器人、APOE4">'
+        '<button class="button secondary" type="submit">搜索</button>'
+        '<p id="startup-search-status" role="status"></p><ul id="startup-search-results"></ul>'
+        '<button id="startup-search-more" class="button secondary" type="button" hidden>显示更多</button>'
+        '</form>'
         '<div class="startup-school-grid">' + "".join(groups) + '</div>'
         '<a href="./index.html#explore">重新载入完整页面</a></section>'
     )
@@ -2029,11 +2036,21 @@ def main():
     js = "window.APP_CATALOG = " + json.dumps(
         browser_catalog(catalog), ensure_ascii=False, separators=(",", ":"), allow_nan=False
     ) + ";\n"
+    search_index = {
+        "schools": {school["id"]: school["short"] for school in catalog["universities"]},
+        "faculty": [[person["name"], person["universityId"], person["profileUrl"],
+                     person["researchKeywords"]] for person in catalog["faculty"]],
+    }
+    index_js = "window.APP_FACULTY_INDEX = " + json.dumps(
+        search_index, ensure_ascii=False, separators=(",", ":"), allow_nan=False
+    ) + ";\n"
     outputs = {ROOT / "data/catalog.json": encoded, ROOT / "dist/catalog.js": js,
+               ROOT / "dist/faculty-index.js": index_js,
                ROOT / "data/coverage.json": json.dumps(quality, ensure_ascii=False, indent=2) + "\n",
                ROOT / "data/snapshots" / (identity + ".json"): encoded}
     assets = {name: (js.encode("utf-8") if name == "catalog.js" else (ROOT / "dist" / name).read_text(encoding="utf-8").encode("utf-8"))
-              for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css")}
+              for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css", "startup-search.js")}
+    assets["faculty-index.js"] = index_js.encode("utf-8")
     index = ROOT / "dist/index.html"
     html = index.read_text(encoding="utf-8")
     html, count = re.subn(

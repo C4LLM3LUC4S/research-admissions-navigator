@@ -368,6 +368,9 @@
   }
   function showView(name) { if(!['explore','shortlist','sources','community'].includes(name))name='explore';document.querySelectorAll('.view').forEach(view=>{view.hidden=view.id!=='view-'+name;});document.querySelectorAll('[data-view]').forEach(b=>{if(b.dataset.view===name)b.setAttribute('aria-current','page');else b.removeAttribute('aria-current');});if(name==='shortlist')renderShortlist();if(name==='sources'&&!sourceIndex)filterSources();history.replaceState(null,'','#'+name); }
   function renderCommunityPrograms() { const universityId=$('community-university').value;clear($('community-program'));$('community-program').append(new Option('请选择项目',''));C.programs.filter(p=>p.universityId===universityId).forEach(p=>$('community-program').append(new Option(p.name+' · '+L.applicationDegrees(C,p).join('/'),p.id))); }
+  const startupSearch=$('startup-search'), startupQuery=$('startup-research-query');
+  const moveSearchFocus=startupSearch?.contains?.(document.activeElement);
+  if(startupQuery?.value.trim())state.profile.researchQuery=startupQuery.value;
   buildFilters();chooseMode(state.profile.researchQuery.trim()?'faculty':'programs');renderShortlist();
   $('data-stamp').replaceChildren(node('strong','资料更新 · '+(C.checkedDate||'日期待更新')),node('span','申请前可打开项目官网确认最新安排'));
   $('faculty-coverage').textContent='先查项目要求，再比较老师的研究方向。想按专业查找时，展开左侧的“搜索专业、院系和研究方向”。';
@@ -388,6 +391,8 @@
   showView(location.hash.slice(1));
   $('explore-workspace').hidden=false;
   $('faculty-coverage').hidden=false;
+  if(moveSearchFocus && !$('view-explore').hidden)$('research-query').focus();
+  if(startupSearch)startupSearch.hidden=true;
   const quickProjects=$('startup-projects');
   if(!quickProjects.contains?.(document.activeElement))quickProjects.hidden=true;
 }());
