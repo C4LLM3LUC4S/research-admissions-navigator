@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_hkust_amc_adjunct",
+  "stage": "post_alpha34_hkust_amc_research_links",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-11",
   "working_name": "研向",
@@ -16,8 +16,8 @@
     "programmes_with_partial_finances": 50,
     "finance_items": 85,
     "official_directory_entries": 134,
-    "teacher_linked_sources": 838,
-    "total_sources": 4595,
+    "teacher_linked_sources": 844,
+    "total_sources": 4601,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -484,8 +484,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:676375cdaf08db0218dcd3594c4d34872002cf5ee0b53eb5c69398fa36dc1f62",
-  "latest_data_batch": "data/research/hkust-amc-adjunct-20261112.json",
+  "current_catalogue_snapshot": "sha256:92461947f9c16f1c50526934cc301cec4c31e27c37ce78dde21606b8d9e8a0a0",
+  "latest_data_batch": "data/research/hkust-amc-research-links-20261112.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",

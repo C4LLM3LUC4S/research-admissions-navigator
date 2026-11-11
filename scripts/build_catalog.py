@@ -1216,6 +1216,16 @@ def build_catalog():
     catalog["sources"].extend(amc_adjunct["sources"])
     catalog["faculty"].extend(amc_adjunct["faculty"])
     catalog["directories"].extend(amc_adjunct["directories"])
+    amc_research_links = load("hkust-amc-research-links-20261112.json")
+    catalog["sources"].extend(amc_research_links["sources"])
+    for update in amc_research_links["updates"]:
+        teacher = next(row for row in catalog["faculty"] if row["id"] == update["id"])
+        parent = next(row for row in catalog["sources"] if row["id"] == update["parentSourceId"])
+        assert parent["id"] in teacher["sourceIds"] and parent["url"] == teacher["profileUrl"]
+        link = update["link"]
+        parent.setdefault("discoveredLinks", []).append(link["url"])
+        teacher["sourceIds"].extend(update["sourceIds"])
+        teacher.setdefault("extraLinks", []).append(link)
     sse_platforms = load("cuhksz-sse-platforms-20261111.json")
     catalog["sources"].append(sse_platforms["source"])
     sse_unit = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == sse_platforms["parentUnitId"])
