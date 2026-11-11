@@ -1390,6 +1390,15 @@ def build_catalog():
         for field in ("sourceIds", "directorySourceIds", "keywordSourceIds", "researchKeywords"):
             person[field] = list(dict.fromkeys(person.get(field, []) + update[field]))
         person["identityNote"] = " ".join(filter(None, (person.get("identityNote"), update["additionalIdentityNote"])))
+    reviewed_links = load("hkustgz-intr-smmg-reviewed-links-20261111.json")
+    catalog["sources"].extend(reviewed_links["sources"])
+    new_systems_people = {person["id"]: person for person in systems_rosters["faculty"]}
+    for update in reviewed_links["linkUpdates"]:
+        person = new_systems_people[update["facultyId"]]
+        link = next(link for link in person["extraLinks"] if
+                    (link["url"], link["parentSourceId"]) == (update["url"], update["parentSourceId"]))
+        link.update(bodyStatus=update["bodyStatus"], sourceId=update["sourceId"], readNote=update["readNote"])
+        person["sourceIds"].append(update["sourceId"])
     return catalog
 
 

@@ -1,0 +1,276 @@
+{
+  "sources": [
+    {
+      "id": "hkustgz-intr-441-research-site-20261111",
+      "url": "https://qiumengl.github.io/",
+      "title": "Qiumeng Li · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:20.081532+00:00",
+      "scope": "个人站介绍城市计算、地理AI、出行行为模拟及街景感知，另列城市治理与设计和智能交通联合任职。",
+      "claims": [
+        "个人站介绍城市计算、地理AI、出行行为模拟及街景感知，另列城市治理与设计和智能交通联合任职。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "e33e129ccf03b8ee46bd3cb3525acf831ba6bc2c219d1ff82c5831f186ede56e",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-441",
+      "originalUrl": "https://qiumengl.github.io/",
+      "retrievedUrl": "https://qiumengl.github.io/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-intr-458-research-site-20261111",
+      "url": "https://liuzhidan.github.io/",
+      "title": "Zhidan Liu · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:40.554670+00:00",
+      "scope": "个人站确认广州智能交通、人工智能及香港跨校区关联，具体任职与各校区原名录分开。",
+      "claims": [
+        "个人站确认广州智能交通、人工智能及香港跨校区关联，具体任职与各校区原名录分开。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "53054adf59af63163daeb7062b23a8f22da94c156711be88489439acf3fdeea9",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-458",
+      "originalUrl": "https://liuzhidan.github.io/",
+      "retrievedUrl": "https://liuzhidan.github.io/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-intr-590-research-site-20261111",
+      "url": "https://benedictjunma.github.io",
+      "title": "Benedict Jun Ma · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:45.811179+00:00",
+      "scope": "个人站确认智能交通及智慧物流与供应链实验室，研究智能仓储、人机协同和人机集体智能。无年度的招募文字不推定当前有名额。",
+      "claims": [
+        "个人站确认智能交通及智慧物流与供应链实验室，研究智能仓储、人机协同和人机集体智能。无年度的招募文字不推定当前有名额。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "9bc75d941235449a88337f1b629bc33666f65fb4b81ea8cf2bdb4622ac6eaf54",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-590",
+      "originalUrl": "https://benedictjunma.github.io",
+      "retrievedUrl": "https://benedictjunma.github.io",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-intr-661-research-site-20261111",
+      "url": "https://si-lab.city/",
+      "title": "Si Qiao · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:42:52.243424+00:00",
+      "scope": "实验室正文和动态确认 Si Qiao，介绍时空数据、出行和城市治理，以及智能交通与城市治理设计任职。",
+      "claims": [
+        "实验室正文和动态确认 Si Qiao，介绍时空数据、出行和城市治理，以及智能交通与城市治理设计任职。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "9c1abd00413eb61fafcb917e322f0bc1d31c0d90a5dff7a3dd1686b0f850db16",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-661",
+      "originalUrl": "https://si-lab.city/",
+      "retrievedUrl": "https://si-lab.city/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-intr-38-research-site-20261111",
+      "url": "https://modes-hkustgz.github.io/",
+      "title": "Xiaotong Sun · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:43:01.690746+00:00",
+      "scope": "MODES实验室介绍负责人为 Xiaotong Sun，用优化、博弈论和AI研究多式联运规划、运营及监管。",
+      "claims": [
+        "MODES实验室介绍负责人为 Xiaotong Sun，用优化、博弈论和AI研究多式联运规划、运营及监管。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "625da14a38f148488a574d1974a03aee2d151a93551802e67a87b7cb007ada56",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-38",
+      "originalUrl": "https://modes-hkustgz.github.io/",
+      "retrievedUrl": "https://modes-hkustgz.github.io/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-intr-320-research-site-20261111",
+      "url": "https://jasonjiayan.github.io/",
+      "title": "Jia Yan · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:43:09.009413+00:00",
+      "scope": "个人主页确认智能交通学域职务及个人身份；研究方向仍以已有原站研究栏目为依据。",
+      "claims": [
+        "个人主页确认智能交通学域职务及个人身份；研究方向仍以已有原站研究栏目为依据。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "f78dc225e2f3ec4c64b649faee855ce652cc883c130b8513233ad3a2aa5dcf72",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-320",
+      "originalUrl": "https://jasonjiayan.github.io/",
+      "retrievedUrl": "https://jasonjiayan.github.io/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-intr-465-research-site-20261111",
+      "url": "https://sss-cpslab.cn/",
+      "title": "Bingzhuo Zhong · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:43:40.855409+00:00",
+      "scope": "安全与智能信息物理系统实验室正文列 Bingzhuo Zhong，研究具身智能安全、信息物理系统验证与控制。",
+      "claims": [
+        "安全与智能信息物理系统实验室正文列 Bingzhuo Zhong，研究具身智能安全、信息物理系统验证与控制。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "53e32db9828a139d961961dbdddd8d0e54eba9369f7d15797d4d45da2604a3ac",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-intr-profile-20261111-465",
+      "originalUrl": "https://sss-cpslab.cn/",
+      "retrievedUrl": "https://sss-cpslab.cn/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-smmg-52-research-site-20261111",
+      "url": "https://sites.google.com/view/hkust-gz-yicai/home",
+      "title": "Yi Cai · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:46:52.633016+00:00",
+      "scope": "个人站确认广州智能制造及香港校区关联。站点列实验室及团队名称，未标年的招募信息不改申请状态。",
+      "claims": [
+        "个人站确认广州智能制造及香港校区关联。站点列实验室及团队名称，未标年的招募信息不改申请状态。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "4a69be1b616f7f29dc6a8eca6370faa665fdcdb0c8c5f1709d93ed6e6f0d8557",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-smmg-profile-20261111-52",
+      "originalUrl": "https://sites.google.com/view/hkust-gz-yicai/home",
+      "retrievedUrl": "https://sites.google.com/view/hkust-gz-yicai/home",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-smmg-247-research-site-20261111",
+      "url": "https://www.huachencui.com/",
+      "title": "Huachen Cui · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:46:58.108996+00:00",
+      "scope": "ROME3D实验室确认负责人，研究先进增材制造、机器人与医疗器械制造、超材料及封装。",
+      "claims": [
+        "ROME3D实验室确认负责人，研究先进增材制造、机器人与医疗器械制造、超材料及封装。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "a91e33dd368da26dce8ef3aa39b66bbd534f6725a2907d62593b040e4cb9c9a2",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-smmg-profile-20261111-247",
+      "originalUrl": "https://www.huachencui.com/",
+      "retrievedUrl": "https://www.huachencui.com/",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkustgz-smmg-512-research-site-20261111",
+      "url": "https://www.liusylab.com/",
+      "title": "Shiyuan Liu · 个人或课题组网站",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-10-29T08:47:19.181375+00:00",
+      "scope": "APEXLab确认负责人，介绍材料界面、医用电子及产业应用。未标年的招募信息不改申请状态。",
+      "claims": [
+        "APEXLab确认负责人，介绍材料界面、医用电子及产业应用。未标年的招募信息不改申请状态。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "af9e7bf99ad8a7bac9b1fb35f76d48039e80a270444ebf0abdb595abe8f17d41",
+      "readMethod": "saved_official_body_semantic_review",
+      "parentSourceId": "hkustgz-smmg-profile-20261111-512",
+      "originalUrl": "https://www.liusylab.com/",
+      "retrievedUrl": "https://www.liusylab.com/",
+      "discoveredLinks": []
+    }
+  ],
+  "linkUpdates": [
+    {
+      "facultyId": "hkustgz-intr-441",
+      "url": "https://qiumengl.github.io/",
+      "parentSourceId": "hkustgz-intr-profile-20261111-441",
+      "sourceId": "hkustgz-intr-441-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "个人站介绍城市计算、地理AI、出行行为模拟及街景感知，另列城市治理与设计和智能交通联合任职。"
+    },
+    {
+      "facultyId": "hkustgz-intr-458",
+      "url": "https://liuzhidan.github.io/",
+      "parentSourceId": "hkustgz-intr-profile-20261111-458",
+      "sourceId": "hkustgz-intr-458-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "个人站确认广州智能交通、人工智能及香港跨校区关联，具体任职与各校区原名录分开。"
+    },
+    {
+      "facultyId": "hkustgz-intr-590",
+      "url": "https://benedictjunma.github.io",
+      "parentSourceId": "hkustgz-intr-profile-20261111-590",
+      "sourceId": "hkustgz-intr-590-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "个人站确认智能交通及智慧物流与供应链实验室，研究智能仓储、人机协同和人机集体智能。无年度的招募文字不推定当前有名额。"
+    },
+    {
+      "facultyId": "hkustgz-intr-661",
+      "url": "https://si-lab.city/",
+      "parentSourceId": "hkustgz-intr-profile-20261111-661",
+      "sourceId": "hkustgz-intr-661-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "实验室正文和动态确认 Si Qiao，介绍时空数据、出行和城市治理，以及智能交通与城市治理设计任职。"
+    },
+    {
+      "facultyId": "hkustgz-intr-38",
+      "url": "https://modes-hkustgz.github.io/",
+      "parentSourceId": "hkustgz-intr-profile-20261111-38",
+      "sourceId": "hkustgz-intr-38-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "MODES实验室介绍负责人为 Xiaotong Sun，用优化、博弈论和AI研究多式联运规划、运营及监管。"
+    },
+    {
+      "facultyId": "hkustgz-intr-320",
+      "url": "https://jasonjiayan.github.io/",
+      "parentSourceId": "hkustgz-intr-profile-20261111-320",
+      "sourceId": "hkustgz-intr-320-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "个人主页确认智能交通学域职务及个人身份；研究方向仍以已有原站研究栏目为依据。"
+    },
+    {
+      "facultyId": "hkustgz-intr-465",
+      "url": "https://sss-cpslab.cn/",
+      "parentSourceId": "hkustgz-intr-profile-20261111-465",
+      "sourceId": "hkustgz-intr-465-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "安全与智能信息物理系统实验室正文列 Bingzhuo Zhong，研究具身智能安全、信息物理系统验证与控制。"
+    },
+    {
+      "facultyId": "hkustgz-smmg-52",
+      "url": "https://sites.google.com/view/hkust-gz-yicai/home",
+      "parentSourceId": "hkustgz-smmg-profile-20261111-52",
+      "sourceId": "hkustgz-smmg-52-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "个人站确认广州智能制造及香港校区关联。站点列实验室及团队名称，未标年的招募信息不改申请状态。"
+    },
+    {
+      "facultyId": "hkustgz-smmg-247",
+      "url": "https://www.huachencui.com/",
+      "parentSourceId": "hkustgz-smmg-profile-20261111-247",
+      "sourceId": "hkustgz-smmg-247-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "ROME3D实验室确认负责人，研究先进增材制造、机器人与医疗器械制造、超材料及封装。"
+    },
+    {
+      "facultyId": "hkustgz-smmg-512",
+      "url": "https://www.liusylab.com/",
+      "parentSourceId": "hkustgz-smmg-profile-20261111-512",
+      "sourceId": "hkustgz-smmg-512-research-site-20261111",
+      "bodyStatus": "body_read",
+      "readNote": "APEXLab确认负责人，介绍材料界面、医用电子及产业应用。未标年的招募信息不改申请状态。"
+    }
+  ]
+}
