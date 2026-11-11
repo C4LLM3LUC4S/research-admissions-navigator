@@ -1,0 +1,38 @@
+{
+  "sources": [
+    {
+      "id": "cuhk-ee-20261111-programme",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-electronic-engineering",
+      "title": "港中文电子工程 · 2027/28 MPhil-PhD",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed6e8eb82e6ec6805e12c207c118830631cb13533af9cf9e97dbffc819bc0759",
+      "scope": "香港校区电子工程研究学位的2027/28申请轮次、专业背景及项目材料。",
+      "claims": [
+        "主轮2026-12-01；2027-03-31补录轮视学额而定。",
+        "博士申请另需约600至800英文词研究或目的陈述；非香港大学毕业生获强烈建议提交GRE General。"
+      ],
+      "knownIssues": [
+        "学系招生与师资入口本次分别遇到超时和证书验证失败；额外要求及师资范围待核。"
+      ]
+    },
+    {
+      "id": "cuhk-ee-20261111-eligibility",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+      "title": "港中文研究院 · 学历与英语要求",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "ec9e811a320023f4de100c13ad1085fb1af46c1567926a01f6bff4fda49e3ff4",
+      "scope": "MPhil 与 MPhil-PhD 课程内博士方向的校级学历要求，以及英语能力认可方式。",
+      "claims": [
+        "博士方向可按认可硕士、获认可的荣誉学士或同等资格申请；MPhil按荣誉学士或同等资格。",
+        "英语途径含英语授课学位、学术类雅思6.5及托福79/120或4.5/6等。"
+      ],
+      "knownIssues": []
+    }
+  ]
+}

@@ -8666,6 +8666,157 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cuhk-ee-rpg-2027",
+      "universityId": "cuhk",
+      "name": "电子工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "2027/28 香港校区。可探索机器人与感知、多媒体与信号处理、集成电路与系统、固态电子与光子学。",
+      "contact": {
+        "status": "unknown",
+        "text": "先看项目材料和研究组方向，再向学系核对联系导师的安排。",
+        "sourceIds": [
+          "cuhk-ee-20261111-programme"
+        ]
+      },
+      "selection": {
+        "text": "准备简历、研究成果材料及相关证明。博士申请另需英文研究或目的陈述。",
+        "sourceIds": [
+          "cuhk-ee-20261111-programme"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "主轮申请截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-ee-20261111-programme"
+          ]
+        },
+        {
+          "label": "补录轮截止（视学额）：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-ee-20261111-programme"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-ee-20261111-programme",
+        "cuhk-ee-20261111-eligibility",
+        "cuhk-gs-fees"
+      ],
+      "evidenceNote": "补录视学额安排。申请博士奖学金 HKPFS 请分别核对 RGC 和中大两项提交时间。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-electronic-engineering",
+      "requirements": [
+        {
+          "label": "MPhil 学历要求",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "通常须持认可院校二等荣誉或以上学士，或认可荣誉课程学士平均成绩 B 或以上，或同等资格。",
+          "sourceIds": [
+            "cuhk-ee-20261111-eligibility"
+          ]
+        },
+        {
+          "label": "博士方向学历要求",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "可凭认可硕士申请，也可按研究院列出的荣誉学士、B 或以上成绩或同等专业资格路线申请。",
+          "sourceIds": [
+            "cuhk-ee-20261111-eligibility"
+          ]
+        },
+        {
+          "label": "专业背景与 GRE",
+          "text": "通常为电子工程、计算机工程、含电子方向的物理或相关专业。学系强烈建议非香港大学毕业生提交 GRE General。",
+          "sourceIds": [
+            "cuhk-ee-20261111-programme"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "提交简历、研究成果清单或相关资料，以及奖项与其他证明（如适用）。",
+          "sourceIds": [
+            "cuhk-ee-20261111-programme"
+          ]
+        },
+        {
+          "label": "博士研究陈述",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "另交约 600 至 800 英文词的研究或目的陈述。",
+          "sourceIds": [
+            "cuhk-ee-20261111-programme"
+          ]
+        },
+        {
+          "label": "英语要求",
+          "text": "可用符合要求的英语授课学位或认可成绩。学术类雅思 6.5，托福 79/120 或 4.5/6；雅思和托福成绩有效期为两年，其他认可路径见研究院。",
+          "sourceIds": [
+            "cuhk-ee-20261111-eligibility"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-ee-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "每个项目申请费为 500 港元。",
+          "action": "在研究院网申核对费用及缴费安排。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "MPhil / PhD"
+            }
+          ]
+        },
+        {
+          "id": "cuhk-ee-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学费为每年 49,500 港元，适用于全日制和兼读。",
+          "action": "打开研究院费用页核对学费和适用的减免。",
+          "sourceIds": [
+            "cuhk-ee-20261111-programme",
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "所有修读模式"
+            }
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -259497,6 +259648,40 @@
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "27f77da5b99ccd164c0d852d9836353851ca5b5e99b9a3304fa221e0e2ba904c"
+    },
+    {
+      "id": "cuhk-ee-20261111-programme",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-electronic-engineering",
+      "title": "港中文电子工程 · 2027/28 MPhil-PhD",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed6e8eb82e6ec6805e12c207c118830631cb13533af9cf9e97dbffc819bc0759",
+      "scope": "香港校区电子工程研究学位的2027/28申请轮次、专业背景及项目材料。",
+      "claims": [
+        "主轮2026-12-01；2027-03-31补录轮视学额而定。",
+        "博士申请另需约600至800英文词研究或目的陈述；非香港大学毕业生获强烈建议提交GRE General。"
+      ],
+      "knownIssues": [
+        "学系招生与师资入口本次分别遇到超时和证书验证失败；额外要求及师资范围待核。"
+      ]
+    },
+    {
+      "id": "cuhk-ee-20261111-eligibility",
+      "url": "https://www.gs.cuhk.edu.hk/admissions/requirements",
+      "title": "港中文研究院 · 学历与英语要求",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "ec9e811a320023f4de100c13ad1085fb1af46c1567926a01f6bff4fda49e3ff4",
+      "scope": "MPhil 与 MPhil-PhD 课程内博士方向的校级学历要求，以及英语能力认可方式。",
+      "claims": [
+        "博士方向可按认可硕士、获认可的荣誉学士或同等资格申请；MPhil按荣誉学士或同等资格。",
+        "英语途径含英语授课学位、学术类雅思6.5及托福79/120或4.5/6等。"
+      ],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -337864,5 +338049,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:1a025b66734bc74919dc16bda9e3911de205d7df3f9677e511bc12609760be1c"
+  "snapshotId": "sha256:546bbb7ab9e0d0b64e51217c1a7fe0040cd08b56c927d86987e723d99d795366"
 }
