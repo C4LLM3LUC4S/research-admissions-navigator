@@ -1212,6 +1212,10 @@ def build_catalog():
         {"id": "hkust-amc-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年全日制与兼读研究学位均为每年 49,500 港元。", "action": "查看教务处学费说明。", "sourceIds": amc_fee_source,
          "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": "2027/28", "condition": "全日制或兼读"}]}])
     catalog["programs"].append(amc_program)
+    amc_adjunct = load("hkust-amc-adjunct-20261112.json")
+    catalog["sources"].extend(amc_adjunct["sources"])
+    catalog["faculty"].extend(amc_adjunct["faculty"])
+    catalog["directories"].extend(amc_adjunct["directories"])
     sse_platforms = load("cuhksz-sse-platforms-20261111.json")
     catalog["sources"].append(sse_platforms["source"])
     sse_unit = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == sse_platforms["parentUnitId"])
