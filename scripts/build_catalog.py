@@ -1409,6 +1409,14 @@ def build_catalog():
         person = people[update["id"]]
         for field in ("sourceIds", "directorySourceIds"):
             person[field] = list(dict.fromkeys(person.get(field, []) + [update["directoryId"]]))
+    for update in eee["stableResearchUpdates"]:
+        person = people[update["id"]]
+        person["sourceIds"].append(update["profileSourceId"])
+        person["keywordSourceIds"].append(update["profileSourceId"])
+        person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + update["terms"]))
+        person["academicUnitIds"] = list(dict.fromkeys(person.get("academicUnitIds", []) + ["polyu-4"]))
+        eee_note = "电机及电子工程学系名录另列此档案。该学系个人页与数据科学及人工智能学系档案共享同一个 PolyU Scholars Hub 个人入口。"
+        person["identityNote"] = " ".join(filter(None, (person.get("identityNote"), eee_note)))
     eee_page = ["polyu-eee-20261111-programme"]
     eee_fee = ["polyu-eee-20261111-fee"]
     eee_tuition = ["polyu-eee-20261111-tuition"]
