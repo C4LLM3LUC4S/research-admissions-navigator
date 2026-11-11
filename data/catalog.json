@@ -130931,7 +130931,7 @@
       "universityId": "cuhk",
       "name": "CHAN Chun Kit, Calvin",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "ProfessorVice-Chairman (Undergraduate)",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chan-chun-kit-calvin/",
       "summary": "研究方向包括光通信、光网络、波分复用无源光网络、光信号处理、光物理层安全。",
       "topics": [
@@ -130979,7 +130979,7 @@
       "universityId": "cuhk",
       "name": "CHEN He, Henry",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chen-he-henry/",
       "summary": "研究方向包括低延迟无线网络、智能无线感知、实时机器人系统。",
       "topics": [
@@ -131025,7 +131025,7 @@
       "universityId": "cuhk",
       "name": "CHEN Hongkai",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Research Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chen-hongkai/",
       "summary": "研究方向包括物联网、信息物理系统、泛在感知、智慧健康、形式化控制。",
       "topics": [
@@ -131073,7 +131073,7 @@
       "universityId": "cuhk",
       "name": "CHEN Lian Kuan",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Research Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chen-lian-kuan/",
       "summary": "研究方向包括光无线通信、水下光通信、光调制与信号处理、光网络优化、生物光子学。",
       "topics": [
@@ -131133,7 +131133,7 @@
       "universityId": "cuhk",
       "name": "CHOW Sze Ming, Sherman",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chow-sze-ming-sherman/",
       "summary": "研究方向包括密码学、分布式系统安全、隐私增强技术、隐私保护数据分析。",
       "topics": [
@@ -131222,7 +131222,7 @@
       "universityId": "cuhk",
       "name": "FEI Ben",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Research Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/fei-ben/",
       "summary": "研究方向包括生成模型、多尺度建模、科学人工智能、世界模型、三维计算机视觉。",
       "topics": [
@@ -131270,7 +131270,7 @@
       "universityId": "cuhk",
       "name": "GOHARI Amin",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Vice-Chancellor Associate Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/gohari-amin/",
       "summary": "研究方向包括信息论、分子通信、量子信息论、博弈论。",
       "topics": [
@@ -131310,7 +131310,7 @@
       "universityId": "cuhk",
       "name": "LAU Wing Cheong",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Professor Vice-Chairman (Graduate)",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lau-wing-cheong/",
       "summary": "研究方向包括云计算资源管理、图神经网络、在线学习、网络安全、系统性能分析。",
       "topics": [
@@ -131438,11 +131438,64 @@
       }
     },
     {
+      "id": "cuhk-ie-lee-yiu-bun-jack",
+      "universityId": "cuhk",
+      "name": "LEE Yiu Bun, Jack",
+      "department": "信息工程学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lee-yiu-bun-jack/",
+      "summary": "研究方向包括多媒体通信系统、移动通信、互联网协议、自适应视频流。",
+      "topics": [
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "多媒体通信系统",
+        "移动通信",
+        "互联网协议",
+        "自适应视频流"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-lee-yiu-bun-jack"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-lee-yiu-bun-jack"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://www.ie.cuhk.edu.hk/faculty/yblee2",
+          "label": "个人页所给链接",
+          "parentSourceId": "cuhk-ie-profile-20261111-lee-yiu-bun-jack",
+          "bodyStatus": "not_read"
+        },
+        {
+          "url": "http://www.mclab.org",
+          "label": "个人页所给链接",
+          "parentSourceId": "cuhk-ie-profile-20261111-lee-yiu-bun-jack",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-lee-yiu-bun-jack"
+        ]
+      }
+    },
+    {
       "id": "cuhk-ie-li-cheuk-ting",
       "universityId": "cuhk",
       "name": "LI Cheuk Ting",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Associate Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/li-cheuk-ting/",
       "summary": "研究方向包括有限码长信息论、网络信息论、信道模拟、自动定理证明、不可判定问题。",
       "topics": [
@@ -131490,7 +131543,7 @@
       "universityId": "cuhk",
       "name": "LIEW Soung Chang",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Choh-Ming Li Professor of Information Engineering 卓敏信息工程學教授 Co-Director, Institute of Network Coding",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/",
       "summary": "研究方向包括无线通信与网络、互联网协议、多媒体通信、宽带网络、分组交换。",
       "topics": [
@@ -131552,11 +131605,59 @@
       }
     },
     {
+      "id": "cuhk-ie-lin-dahua",
+      "universityId": "cuhk",
+      "name": "LIN Dahua",
+      "department": "信息工程学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lin-dahua/",
+      "summary": "研究方向包括机器学习、数据科学、计算机视觉、概率模型、图像与文本理解。",
+      "topics": [
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "机器学习",
+        "数据科学",
+        "计算机视觉",
+        "概率模型",
+        "图像与文本理解"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-lin-dahua"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-lin-dahua"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://dahualin.org/",
+          "label": "个人页所给链接",
+          "parentSourceId": "cuhk-ie-profile-20261111-lin-dahua",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-lin-dahua"
+        ]
+      }
+    },
+    {
       "id": "cuhk-ie-lin-xiaojun",
       "universityId": "cuhk",
       "name": "LIN Xiaojun",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Professor Global STEM Scholar",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lin-xiaojun/",
       "summary": "研究方向包括随机网络优化、排队论、在线算法、机器学习泛化、智能电网。",
       "topics": [
@@ -131600,11 +131701,144 @@
       }
     },
     {
+      "id": "cuhk-ie-lok-tat-ming",
+      "universityId": "cuhk",
+      "name": "LOK Tat Ming",
+      "department": "信息工程学系",
+      "directoryRole": "Associate Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lok-tat-ming/",
+      "summary": "研究方向包括通信理论、通信网络、通信信号处理、无线系统。",
+      "topics": [
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "通信理论",
+        "通信网络",
+        "通信信号处理",
+        "无线系统"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-lok-tat-ming"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-lok-tat-ming"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://staff.ie.cuhk.edu.hk/~tmlok/",
+          "label": "个人页所给链接",
+          "parentSourceId": "cuhk-ie-profile-20261111-lok-tat-ming",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-lok-tat-ming"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ie-ma-pui-kit-jack",
+      "universityId": "cuhk",
+      "name": "MA Pui Kit, Jack",
+      "department": "信息工程学系",
+      "directoryRole": "Lecturer",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/ma-pui-kit-jack/",
+      "summary": "研究方向包括匿名凭证、隐私保护机器学习、安全多方计算。",
+      "topics": [
+        "网络安全"
+      ],
+      "researchKeywords": [
+        "匿名凭证",
+        "隐私保护机器学习",
+        "安全多方计算"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-ma-pui-kit-jack"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-ma-pui-kit-jack"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-ma-pui-kit-jack"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ie-nair-chandra",
+      "universityId": "cuhk",
+      "name": "NAIR Chandra",
+      "department": "信息工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/nair-chandra/",
+      "summary": "研究方向包括组合与非凸优化、多用户信息论、容量域、信息不等式。",
+      "topics": [
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "组合与非凸优化",
+        "多用户信息论",
+        "容量域",
+        "信息不等式"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-nair-chandra"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-nair-chandra"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://chandra.ie.cuhk.edu.hk/",
+          "label": "个人页所给链接",
+          "parentSourceId": "cuhk-ie-profile-20261111-nair-chandra",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-nair-chandra"
+        ]
+      }
+    },
+    {
       "id": "cuhk-ie-ouyang-wanli",
       "universityId": "cuhk",
       "name": "OUYANG Wanli",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Professor Global STEM Scholar",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/ouyang-wanli/",
       "summary": "研究方向包括科学人工智能、计算机视觉、模式识别、机器学习。",
       "topics": [
@@ -131647,11 +131881,59 @@
       }
     },
     {
+      "id": "cuhk-ie-vontobel-pascal-olivier",
+      "universityId": "cuhk",
+      "name": "VONTOBEL Pascal Olivier",
+      "department": "信息工程学系",
+      "directoryRole": "Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/vontobel-pascal-olivier/",
+      "summary": "研究方向包括信息论与编码、量子信息处理、数据科学、通信、信号处理。",
+      "topics": [
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "信息论与编码",
+        "量子信息处理",
+        "数据科学",
+        "通信",
+        "信号处理"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-vontobel-pascal-olivier"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-vontobel-pascal-olivier"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [
+        {
+          "url": "http://sites.google.com/site/pascalvontobel/",
+          "label": "个人页所给链接",
+          "parentSourceId": "cuhk-ie-profile-20261111-vontobel-pascal-olivier",
+          "bodyStatus": "not_read"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-vontobel-pascal-olivier"
+        ]
+      }
+    },
+    {
       "id": "cuhk-ie-xue-diwen",
       "universityId": "cuhk",
       "name": "XUE Diwen",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/xue-diwen/",
       "summary": "研究方向包括互联网安全测量、流量分析与混淆、隐私增强技术、网络协议安全、网页智能体安全。",
       "topics": [
@@ -131699,7 +131981,7 @@
       "universityId": "cuhk",
       "name": "XUE Tianfan",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Vice Chancellor Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/xue-tianfan/",
       "summary": "研究方向包括计算摄影、智能相机、图像与视频处理、三维重建。",
       "topics": [
@@ -131746,7 +132028,7 @@
       "universityId": "cuhk",
       "name": "YAN Wenjing",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Research Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yan-wenjing/",
       "summary": "研究方向包括优化与学习理论、鲁棒学习、通信高效分布式学习、通信信号处理。",
       "topics": [
@@ -131793,7 +132075,7 @@
       "universityId": "cuhk",
       "name": "YAN Zhenyu",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yan-zhenyu/",
       "summary": "研究方向包括人工智能物联网、移动计算、边缘计算、信息物理系统、物联网安全与隐私。",
       "topics": [
@@ -131841,7 +132123,7 @@
       "universityId": "cuhk",
       "name": "YEUNG Wai Ho, Raymond",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Choh-Ming Li Professor of Information Engineering 卓敏信息工程學講座教授 Co-Director, Institute of Network Coding",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yeung-wai-ho-raymond/",
       "summary": "研究方向包括信息论、网络编码。",
       "topics": [
@@ -132008,11 +132290,51 @@
       }
     },
     {
+      "id": "cuhk-ie-yin-ho-fai-hoover",
+      "universityId": "cuhk",
+      "name": "YIN Ho Fai, Hoover",
+      "department": "信息工程学系",
+      "directoryRole": "Lecturer",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yin-ho-fai-hoover/",
+      "summary": "研究方向包括批量网络编码、计算机与网络系统、组合数学、编码理论。",
+      "topics": [
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "批量网络编码",
+        "计算机与网络系统",
+        "组合数学",
+        "编码理论"
+      ],
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-profile-20261111-yin-ho-fai-hoover"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-profile-20261111-yin-ho-fai-hoover"
+      ],
+      "academicUnitIds": [
+        "cuhk-4"
+      ],
+      "extraLinks": [],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "请查看项目的指导安排。",
+        "sourceIds": [
+          "cuhk-ie-profile-20261111-yin-ho-fai-hoover"
+        ]
+      }
+    },
+    {
       "id": "cuhk-ie-yip-kit-sang-danny",
       "universityId": "cuhk",
       "name": "YIP Kit Sang, Danny",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Lecturer",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yip-kit-sang-danny/",
       "summary": "研究方向包括生物信息学。",
       "topics": [
@@ -132049,7 +132371,7 @@
       "universityId": "cuhk",
       "name": "YUE Xiangyu",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Assistant Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yue-xiangyu/",
       "summary": "研究方向包括机器学习、计算机视觉、迁移学习、标签高效学习。",
       "topics": [
@@ -132089,7 +132411,7 @@
       "universityId": "cuhk",
       "name": "ZHANG Kehuan",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhang-kehuan/",
       "summary": "研究方向包括网络与系统安全、网页安全、云计算安全、医疗设备安全、工业控制系统安全。",
       "topics": [
@@ -132137,7 +132459,7 @@
       "universityId": "cuhk",
       "name": "ZHANG Yingjun, Angela",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhang-yingjun-angela/",
       "summary": "研究方向包括6G无线通信、通信系统优化、通信信号处理、移动边缘计算、边缘人工智能。",
       "topics": [
@@ -132185,7 +132507,7 @@
       "universityId": "cuhk",
       "name": "ZHAO Changhong",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Associate Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhao-changhong/",
       "summary": "研究方向包括复杂系统、优化、控制。",
       "topics": [
@@ -132243,7 +132565,7 @@
       "universityId": "cuhk",
       "name": "ZHOU Yajin",
       "department": "信息工程学系",
-      "directoryRole": "Faculty Members",
+      "directoryRole": "Associate Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhou-yajin/",
       "summary": "研究方向包括区块链系统安全、加密货币犯罪调查、人工智能系统安全、系统安全人工智能。",
       "topics": [
@@ -132320,7 +132642,7 @@
       "universityId": "cuhk",
       "name": "LEE Tong, Tony",
       "department": "信息工程学系",
-      "directoryRole": "Emeritus Professors",
+      "directoryRole": "Emeritus Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lee-tong-tony/",
       "summary": "研究方向包括分组交换、流量控制、性能评估、组播、排队论、光交换。",
       "topics": [
@@ -132369,7 +132691,7 @@
       "universityId": "cuhk",
       "name": "LI Shuo Yen, Robert",
       "department": "信息工程学系",
-      "directoryRole": "Emeritus Professors",
+      "directoryRole": "Emeritus Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/li-shuo-yen-robert/",
       "summary": "研究方向包括网络编码、交换理论、随机过程、抽象数学工程应用。",
       "topics": [
@@ -132416,7 +132738,7 @@
       "universityId": "cuhk",
       "name": "CHAN Yuen Yan, Rosanna",
       "department": "信息工程学系",
-      "directoryRole": "Adjunct Professors",
+      "directoryRole": "Adjunct Associate Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/",
       "summary": "研究方向包括社会信息学、社会大数据、人机交互、人本通信、工程教育。",
       "topics": [
@@ -132470,7 +132792,7 @@
       "universityId": "cuhk",
       "name": "CHAU Sze Yiu",
       "department": "信息工程学系",
-      "directoryRole": "Adjunct Professors",
+      "directoryRole": "Adjunct Associate Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chau-sze-yiu/",
       "summary": "研究方向包括网络安全协议、嵌入式系统安全、密码工程、形式化验证。",
       "topics": [
@@ -132565,7 +132887,7 @@
       "universityId": "cuhk",
       "name": "HAYASHI Masahito",
       "department": "信息工程学系",
-      "directoryRole": "Adjunct Professors",
+      "directoryRole": "Adjunct Professor",
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/hayashi-masahito/",
       "summary": "研究方向包括量子信息、信息论、统计推断、马尔可夫过程、信息论安全。",
       "topics": [
@@ -261645,7 +261967,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "15caefea129d05e636b39d104c2b9e4c7a5526900f7f6fea3749233a0ac6b0c7",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Optical Communications, Systems and Networks Optical Metro/Access Network Architectures Enabling Technologies and Networking Applications of Wavelength Division Multiplexed Passive Optical Networks All-Optical Signal Processing and Conditioning of High Speed Optical Signals Performance Monitoring of Optical Systems & Networks Physical-Layer Security of Optical Transmission Systems Optical Network Planning and Optimization"
       ],
@@ -261663,7 +261985,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "8e091caa76dd56ea2177e0ec3b4cdd8df36cc46f18adcf1c87e3ab5f10b44d0b",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Low-latency wireless networking Intelligent wireless sensing And their applications in real-time robotic and AI systems"
       ],
@@ -261681,7 +262003,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "6ad88e9610c19ae8576c004640b751762e43c0f7ebc1affd89640c8942d3c96d",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Internet-of-Things/Cyber-Physical Systems Ubiquitous sensing systems Smart health Smart cities Formal methods for system formulation and control"
       ],
@@ -261699,7 +262021,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "584be31cf6cb04d0f0bfd4b83a40d4676e1f0de807ee7f6ffd03e33ed54d5ae2",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Optical Wireless Communications (OWC) Underwater & Water-air OWC Advanced Modulation Formats and Signal Processing Next-Generation Access Networks Optical Performance Monitoring and Management Network Optimization Biophotonics"
       ],
@@ -261719,7 +262041,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "205a50fc28f2eacf9d96abf1ae18bada6dbae3df3ca73e5337d8cd5762b9a1f8",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Cryptography Distributed System Security Privacy-Enhancing Technologies Privacy-Preserving Big Data Analytics"
       ],
@@ -261744,7 +262066,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "b62181a9de9fe8b4e458ba35644b43f84297fa3d57f9ac63c0e07c6d8bb5f752",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Generative Models Multi-scale Modelling AI for Science/Embodied AI for Science World Model 3D Computer Vision"
       ],
@@ -261762,7 +262084,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "e8a0c20136751278d291d5819f47155d6e7f1af539723d7a18b4a07ce9e98f16",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Classical information theory Molecular Communication Quantum information theory Game theory"
       ],
@@ -261778,7 +262100,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "dae4adb6fce6fd3aa9a8e0539ecfda1073b011ce39421757c7dbb21b41472e76",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Resource Management for Cloud Computing and Big Data Systems Graph Neural Networks, Online Learning Algorithms and their Applications Network / System Security and Privacy Networking Systems and Protocols System Modeling and Performance Analysis"
       ],
@@ -261802,6 +262124,25 @@
       ]
     },
     {
+      "id": "cuhk-ie-profile-20261111-lee-yiu-bun-jack",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/lee-yiu-bun-jack/",
+      "title": "LEE Yiu Bun, Jack · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:18.289016+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "45f5b486fc09270cb81df4c2117106a2540ccbfb5e8de9135d850fdade23866d",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括多媒体通信系统、移动通信、互联网协议、自适应视频流。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.ie.cuhk.edu.hk/faculty/yblee2",
+        "http://www.mclab.org"
+      ]
+    },
+    {
       "id": "cuhk-ie-profile-20261111-li-cheuk-ting",
       "url": "https://www.ie.cuhk.edu.hk/faculty/li-cheuk-ting/",
       "title": "LI Cheuk Ting · 信息工程个人页",
@@ -261810,7 +262151,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "13d5a3acd665b95da5df29d5e15ad8bfca01e2bce79fe87508f2eb354940aa39",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Finite-blocklength information theory Network information theory Channel simulation Automated theorem proving Undecidable problems"
       ],
@@ -261828,7 +262169,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "99fc38ca442d72315352e8ef9c4d1e66331f68db9547f1775eb287d6d040956e",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Wireless Communications and Networking Internet Protocols and Applications Multimedia Communications Broadband Communications Networks Packet Switch Design and Performance Analysis"
       ],
@@ -261841,6 +262182,24 @@
       ]
     },
     {
+      "id": "cuhk-ie-profile-20261111-lin-dahua",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/lin-dahua/",
+      "title": "LIN Dahua · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:18.873647+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "cd527615f0876d1bda3c631a1376a4927d513f3f8f28623274002ab40991d498",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括机器学习、数据科学、计算机视觉、概率模型、图像与文本理解。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://dahualin.org/"
+      ]
+    },
+    {
       "id": "cuhk-ie-profile-20261111-lin-xiaojun",
       "url": "https://www.ie.cuhk.edu.hk/faculty/lin-xiaojun/",
       "title": "LIN Xiaojun · 信息工程个人页",
@@ -261849,13 +262208,65 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "32754ba35dd911ce80e3dc13571c9509ea973834fc83dcfa715b630848eae408",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Performance analysis, control and optimization of large and complex networked systems, including both wireless/wireline communication networks and power systems. Stochastic network optimization, queueing theory, large-deviations delay analysis, competitive online algorithms. Machine learning, generalization bounds, overparameterized neural networks, student-teacher learning, graph matching, online learning. Smart grid, power-system operations under renewable uncertainty, robust and efficient multi-stage decisions under uncertainty."
       ],
       "knownIssues": [],
       "discoveredLinks": [
         "https://staff.ie.cuhk.edu.hk/~xjlin/"
+      ]
+    },
+    {
+      "id": "cuhk-ie-profile-20261111-lok-tat-ming",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/lok-tat-ming/",
+      "title": "LOK Tat Ming · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:19.256658+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "30b2ee36dd31f735ff0c3dfba99f1922abedc0bbf651ae1e0227f6237843bb66",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括通信理论、通信网络、通信信号处理、无线系统。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://staff.ie.cuhk.edu.hk/~tmlok/"
+      ]
+    },
+    {
+      "id": "cuhk-ie-profile-20261111-ma-pui-kit-jack",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/ma-pui-kit-jack/",
+      "title": "MA Pui Kit, Jack · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:19.255055+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "84979b25868543f99b8a8b22f97c830c6e81d8c19ad1e097a71d1a1a9b6601ba",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括匿名凭证、隐私保护机器学习、安全多方计算。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-ie-profile-20261111-nair-chandra",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/nair-chandra/",
+      "title": "NAIR Chandra · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:19.302923+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "f48c3ef723c55abd0c17c4d5953cf4d49819c94e5ebcffb43563eb42814e6eca",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括组合与非凸优化、多用户信息论、容量域、信息不等式。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://chandra.ie.cuhk.edu.hk/"
       ]
     },
     {
@@ -261867,13 +262278,31 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "864645422f0cd5a99e524c9381edc517548f09e5c7a26a99e3dd285ff464baeb",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "AI for Science Computer Vision Pattern recognition Machine learning"
       ],
       "knownIssues": [],
       "discoveredLinks": [
         "https://wlouyang.github.io/"
+      ]
+    },
+    {
+      "id": "cuhk-ie-profile-20261111-vontobel-pascal-olivier",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/vontobel-pascal-olivier/",
+      "title": "VONTOBEL Pascal Olivier · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:20.198671+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "737199c0c6cfd5e53b68aae90d761fd20648c54acd1a359976b60d0c1bb5ad05",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括信息论与编码、量子信息处理、数据科学、通信、信号处理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://sites.google.com/site/pascalvontobel/"
       ]
     },
     {
@@ -261885,7 +262314,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "32197571a97599cb113747e618c89f6f28952e9bab483995009fff3b79388f62",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Mobile health systems Smart buildings and homes Mobile and wearable systems Real-time environmental monitoring (aquatic resources, earthquakes, volcanoes) Low-power wireless systems and security (NFC/Bluetooth/NB-IoT)"
       ],
@@ -261903,7 +262332,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "be899791c4f34f295c153271d78b05131b1606a435b20ec61427f65011e83824",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Security-focused Internet Measurement Traffic Analysis & Obfuscation Privacy-Enhancing Technologies Security of Network Protocols Web Agent Security Mis/DisInformation"
       ],
@@ -261921,7 +262350,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "d1e526edbed4534febbf68a8bc5ba755fd1e6a80b74f4592a96a453f5c5ce69d",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Learning-based computational photography Smart camera system Image and video processing 3D reconstruction and analysis"
       ],
@@ -261939,7 +262368,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "faf3074f1cf5d3f0b839f4a5cfdf437520a967bcf9b64cb22c2f881e1222cea6",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Optimization and learning theory Robust and adaptive learning Communication-efficient distributed learning Signal processing in communication and networking systems AI and machine learning for communication and networking systems"
       ],
@@ -261957,7 +262386,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "93e9c3f5aab488a2db67080a9da047c9125b57232a93b98ab7eee542df62c517",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Artificial Intelligence of Things (AIoT) Systems Mobile Computing Edge Computing Cyber-Physical Systems Security and Privacy in AIoT Systems"
       ],
@@ -261975,7 +262404,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "9306d7b52d4268d6fc72eb9d43761efcc9375afe4a292fd4512e0a858455888e",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Information Theory, Network Coding"
       ],
@@ -262006,6 +262435,22 @@
       ]
     },
     {
+      "id": "cuhk-ie-profile-20261111-yin-ho-fai-hoover",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/yin-ho-fai-hoover/",
+      "title": "YIN Ho Fai, Hoover · 信息工程个人页",
+      "checkedAt": "2026-11-11",
+      "capturedAt": "2026-11-11T11:49:21.386973+00:00",
+      "evidenceLevel": "official_faculty_research_profile",
+      "readMethod": "saved_official_body_semantic_review",
+      "bodySha256": "a194abecbd7e1abbc441eacba3face5558fc2a0552f3ecbf2270e1826b2dd957",
+      "scope": "Faculty Members名录下的个人简介中的研究方向",
+      "claims": [
+        "研究方向包括批量网络编码、计算机与网络系统、组合数学、编码理论。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
       "id": "cuhk-ie-profile-20261111-yip-kit-sang-danny",
       "url": "https://www.ie.cuhk.edu.hk/faculty/yip-kit-sang-danny/",
       "title": "YIP Kit Sang, Danny · 信息工程个人页",
@@ -262014,7 +262459,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "1b270de32f7897367c2b47a29eea020386408c7a8ccf08233f3ae0af7b3e221c",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Bioinformatics"
       ],
@@ -262030,7 +262475,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "f11c0b50ecefe0c8ac246a33bd5753709d641f73eef417de003b8fb38e7a84a5",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Machine Learning Computer Vision Transfer Learning Label-Efficient Learning"
       ],
@@ -262046,7 +262491,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "571c3d9b847f38af5bcc95aa32e3251262c4a1eb133b9044492e45ad85b2120e",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "etwork and system security Web security, Cloud computing security, smart phones security Medical device security, smart grid security, ICS (Industrial control system) security"
       ],
@@ -262064,7 +262509,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "ff1ccfae095d8b840df355adde924f51bb7b5163df09984503d4d9f2c12a3c60",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "6G Wireless Communications Application of convex and non-convex optimization in communication system design Signal processing in communication and networking systems AI and machine learning for communication and networking systems Mobile edge computing and mobile edge AI"
       ],
@@ -262082,7 +262527,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "2504f0f32422563ad21c49b75c246a6fdbf7fecbfe79349ac9615988bf704dd3",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Complex systems Optimization Control"
       ],
@@ -262102,7 +262547,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "7d7ed24ace0e3a67660741cbefca80d4b5c41533407d0639a6e3aa531767048b",
-      "scope": "Faculty Members名录下的个人页研究方向",
+      "scope": "Faculty Members名录下的个人页研究方向栏",
       "claims": [
         "Blockchain System and Security Cryptocurrency Crime Investigation Anti-money Laundering of Cryptocurrency Security Infrastructure for AI Systems AI for System Security"
       ],
@@ -262125,7 +262570,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "42d0d64a4a0a80aff7e52a4afaf672de4f97fcf81fc35634dcafa563011c7ef4",
-      "scope": "Emeritus Professors名录下的个人页研究方向",
+      "scope": "Emeritus Professors名录下的个人页研究方向栏",
       "claims": [
         "Fast Packet Switching Traffic Management and Control Performance Evaluation Multicasting Quality of Service Queueing Theory Optical switch design Multi-rate packet switching"
       ],
@@ -262143,7 +262588,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "565372d77dd98745aaec991167b339aea9fade40fdf5db3d83cdf61f42f51182",
-      "scope": "Emeritus Professors名录下的个人页研究方向",
+      "scope": "Emeritus Professors名录下的个人页研究方向栏",
       "claims": [
         "Network coding Switching theory & switching system Stochastic processes Engineering applications of abstract mathematics"
       ],
@@ -262161,7 +262606,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "59a5412f151d5d31fef657142f9e2126a3274c21fed719b03f99ca7ab0f13e64",
-      "scope": "Emeritus Professors名录下的个人页研究方向",
+      "scope": "Emeritus Professors名录下的个人页研究方向栏",
       "claims": [
         "Wireless Communication: Power Control; protocol sequences and their applications Information-based Control Nonlinear filtering"
       ],
@@ -262179,7 +262624,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "a44cad7c58b30a2b8ce80da25acbe4e4061f37ef53c610b16d6d73e405a81d9c",
-      "scope": "Faculty (by Courtesy)名录下的个人页研究方向",
+      "scope": "Faculty (by Courtesy)名录下的个人页研究方向栏",
       "claims": [
         "Dependable storage systems Dependable network measurement and stream processing"
       ],
@@ -262198,7 +262643,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "f64dc1635751cdd1e22c10d2b6cacfa808b93e1c2f4df0ea2c3d2704ee48e1fa",
-      "scope": "Adjunct Professors名录下的个人页研究方向",
+      "scope": "Adjunct Professors名录下的个人页研究方向栏",
       "claims": [
         "Social Informatics (Analytics, Social Big Data, Small Data, Social Epistemology, Phenomenology) Human-Information Interaction (Human-Computer Interaction, Human Centric Communication, Research Methods in HII) Others: Learning Sciences, Humanitarian Technology, Engineering Education"
       ],
@@ -262217,7 +262662,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "042e2eb44cef7a716dcea688f88baee3e63af9860dadfd3bb42fad9503089f94",
-      "scope": "Adjunct Professors名录下的个人页研究方向",
+      "scope": "Adjunct Professors名录下的个人页研究方向栏",
       "claims": [
         "Network Security Protocol Implementations Embedded System Security Crypto. Engineering Formal Verification"
       ],
@@ -262235,7 +262680,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "f18992cef5f73fc9dd64d147af123ac9a88d6f5d801dd29d82a39a98d522e3c6",
-      "scope": "Adjunct Professors名录下的个人页研究方向",
+      "scope": "Adjunct Professors名录下的个人页研究方向栏",
       "claims": [
         "Entrepreneurship Venture Development Technology Commercialization Innovation and Business Modelling Marketing Corporate Governance and Corporate Social Responsibility (CG & CSR) Sustainability ESG Experiential Learning in Business Education"
       ],
@@ -262253,7 +262698,7 @@
       "evidenceLevel": "official_faculty_research_profile",
       "readMethod": "saved_official_body_semantic_review",
       "bodySha256": "6285b4d8c2f3926cf0002755956e22e0819bb8a9287625fcdaa88dcb0f7094e3",
-      "scope": "Adjunct Professors名录下的个人页研究方向",
+      "scope": "Adjunct Professors名录下的个人页研究方向栏",
       "claims": [
         "Quantum Information Information Theory Statistical Inference Markovian Process Information-theoretic Security"
       ],
@@ -291767,16 +292212,23 @@
         "cuhk-ie-profile-20261111-fei-ben",
         "cuhk-ie-profile-20261111-gohari-amin",
         "cuhk-ie-profile-20261111-lau-wing-cheong",
+        "cuhk-ie-profile-20261111-lee-yiu-bun-jack",
         "cuhk-ie-profile-20261111-li-cheuk-ting",
         "cuhk-ie-profile-20261111-liew-soung-chang",
+        "cuhk-ie-profile-20261111-lin-dahua",
         "cuhk-ie-profile-20261111-lin-xiaojun",
+        "cuhk-ie-profile-20261111-lok-tat-ming",
+        "cuhk-ie-profile-20261111-ma-pui-kit-jack",
+        "cuhk-ie-profile-20261111-nair-chandra",
         "cuhk-ie-profile-20261111-ouyang-wanli",
+        "cuhk-ie-profile-20261111-vontobel-pascal-olivier",
         "cuhk-ie-profile-20261111-xing-guoliang",
         "cuhk-ie-profile-20261111-xue-diwen",
         "cuhk-ie-profile-20261111-xue-tianfan",
         "cuhk-ie-profile-20261111-yan-wenjing",
         "cuhk-ie-profile-20261111-yan-zhenyu",
         "cuhk-ie-profile-20261111-yeung-wai-ho-raymond",
+        "cuhk-ie-profile-20261111-yin-ho-fai-hoover",
         "cuhk-ie-profile-20261111-yip-kit-sang-danny",
         "cuhk-ie-profile-20261111-yue-xiangyu",
         "cuhk-ie-profile-20261111-zhang-kehuan",
@@ -291796,13 +292248,13 @@
       "coverageNotes": "按可见常规、荣休、关联、兼任及纪念栏查找。",
       "census": {
         "observedTotal": 54,
-        "profilesRead": 32,
-        "profilesFailed": 22,
+        "profilesRead": 39,
+        "profilesFailed": 15,
         "entries": [
           {
             "name": "CHAN Chun Kit, Calvin",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chan-chun-kit-calvin/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "ProfessorVice-Chairman (Undergraduate)",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291811,7 +292263,7 @@
           {
             "name": "CHEN He, Henry",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chen-he-henry/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291820,7 +292272,7 @@
           {
             "name": "CHEN Hongkai",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chen-hongkai/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Research Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291829,7 +292281,7 @@
           {
             "name": "CHEN Lian Kuan",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chen-lian-kuan/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Research Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291838,7 +292290,7 @@
           {
             "name": "CHOW Sze Ming, Sherman",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chow-sze-ming-sherman/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291847,7 +292299,7 @@
           {
             "name": "FEI Ben",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/fei-ben/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Research Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291856,7 +292308,7 @@
           {
             "name": "GOHARI Amin",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/gohari-amin/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Vice-Chancellor Associate Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291865,7 +292317,7 @@
           {
             "name": "LAU Wing Cheong",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lau-wing-cheong/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor Vice-Chairman (Graduate)",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291874,16 +292326,16 @@
           {
             "name": "LEE Yiu Bun, Jack",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lee-yiu-bun-jack/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Associate Professor",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-lee-yiu-bun-jack"
           },
           {
             "name": "LI Cheuk Ting",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/li-cheuk-ting/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Associate Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291892,7 +292344,7 @@
           {
             "name": "LIEW Soung Chang",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Choh-Ming Li Professor of Information Engineering 卓敏信息工程學教授 Co-Director, Institute of Network Coding",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291901,16 +292353,16 @@
           {
             "name": "LIN Dahua",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lin-dahua/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Associate Professor",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-lin-dahua"
           },
           {
             "name": "LIN Xiaojun",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lin-xiaojun/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor Global STEM Scholar",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291919,34 +292371,34 @@
           {
             "name": "LOK Tat Ming",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lok-tat-ming/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Associate Professor",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-lok-tat-ming"
           },
           {
             "name": "MA Pui Kit, Jack",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/ma-pui-kit-jack/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Lecturer",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-ma-pui-kit-jack"
           },
           {
             "name": "NAIR Chandra",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/nair-chandra/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-nair-chandra"
           },
           {
             "name": "OUYANG Wanli",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/ouyang-wanli/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor Global STEM Scholar",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291955,16 +292407,16 @@
           {
             "name": "VONTOBEL Pascal Olivier",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/vontobel-pascal-olivier/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-vontobel-pascal-olivier"
           },
           {
             "name": "XING Guoliang",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/xing-guoliang/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor Chairman And Graduate Division Head",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291973,7 +292425,7 @@
           {
             "name": "XUE Diwen",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/xue-diwen/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291982,7 +292434,7 @@
           {
             "name": "XUE Tianfan",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/xue-tianfan/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Vice Chancellor Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -291991,7 +292443,7 @@
           {
             "name": "YAN Wenjing",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yan-wenjing/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Research Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292000,7 +292452,7 @@
           {
             "name": "YAN Zhenyu",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yan-zhenyu/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292009,7 +292461,7 @@
           {
             "name": "YEUNG Wai Ho, Raymond",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yeung-wai-ho-raymond/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Choh-Ming Li Professor of Information Engineering 卓敏信息工程學講座教授 Co-Director, Institute of Network Coding",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292018,16 +292470,16 @@
           {
             "name": "YIN Ho Fai, Hoover",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yin-ho-fai-hoover/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Lecturer",
             "category": "Faculty Members",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "cuhk-ie-yin-ho-fai-hoover"
           },
           {
             "name": "YIP Kit Sang, Danny",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yip-kit-sang-danny/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Lecturer",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292036,7 +292488,7 @@
           {
             "name": "YUE Xiangyu",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yue-xiangyu/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Assistant Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292045,7 +292497,7 @@
           {
             "name": "ZHANG Kehuan",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhang-kehuan/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292054,7 +292506,7 @@
           {
             "name": "ZHANG Yingjun, Angela",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhang-yingjun-angela/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292063,7 +292515,7 @@
           {
             "name": "ZHAO Changhong",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhao-changhong/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Associate Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292072,7 +292524,7 @@
           {
             "name": "ZHOU Yajin",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/zhou-yajin/",
-            "directoryPosition": "Faculty Members",
+            "directoryPosition": "Associate Professor",
             "category": "Faculty Members",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292090,7 +292542,7 @@
           {
             "name": "LEE Tong, Tony",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lee-tong-tony/",
-            "directoryPosition": "Emeritus Professors",
+            "directoryPosition": "Emeritus Professor",
             "category": "Emeritus Professors",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292099,7 +292551,7 @@
           {
             "name": "LI Shuo Yen, Robert",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/li-shuo-yen-robert/",
-            "directoryPosition": "Emeritus Professors",
+            "directoryPosition": "Emeritus Professor",
             "category": "Emeritus Professors",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292108,7 +292560,7 @@
           {
             "name": "WONG Wing Shing",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/wong-wing-shing/",
-            "directoryPosition": "Emeritus Professors",
+            "directoryPosition": "Emeritus Professor",
             "category": "Emeritus Professors",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292126,7 +292578,7 @@
           {
             "name": "LEE Pak Ching, Patrick",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lee-pak-ching-patrick/",
-            "directoryPosition": "Faculty (by Courtesy)",
+            "directoryPosition": "Professor (by courtesy)",
             "category": "Faculty (by Courtesy)",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292144,7 +292596,7 @@
           {
             "name": "CHAN Yuen Yan, Rosanna",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/",
-            "directoryPosition": "Adjunct Professors",
+            "directoryPosition": "Adjunct Associate Professor",
             "category": "Adjunct Professors",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292153,7 +292605,7 @@
           {
             "name": "CHAU Sze Yiu",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chau-sze-yiu/",
-            "directoryPosition": "Adjunct Professors",
+            "directoryPosition": "Adjunct Associate Professor",
             "category": "Adjunct Professors",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292180,7 +292632,7 @@
           {
             "name": "HAYASHI Masahito",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/hayashi-masahito/",
-            "directoryPosition": "Adjunct Professors",
+            "directoryPosition": "Adjunct Professor",
             "category": "Adjunct Professors",
             "profileRead": true,
             "reviewStatus": "body_read",
@@ -292192,7 +292644,7 @@
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
             "profileRead": false,
-            "reviewStatus": "not_read",
+            "reviewStatus": "access_failed",
             "reviewNote": "个人研究资料待核"
           },
           {
@@ -292201,7 +292653,7 @@
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
             "profileRead": false,
-            "reviewStatus": "not_read",
+            "reviewStatus": "access_failed",
             "reviewNote": "个人研究资料待核"
           },
           {
@@ -303520,7 +303972,7 @@
                 {
                   "name": "CHAN Chun Kit, Calvin",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chan-chun-kit-calvin/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · ProfessorVice-Chairman (Undergraduate)",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303532,7 +303984,7 @@
                 {
                   "name": "CHEN He, Henry",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chen-he-henry/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303544,7 +303996,7 @@
                 {
                   "name": "CHEN Hongkai",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chen-hongkai/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Research Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303556,7 +304008,7 @@
                 {
                   "name": "CHEN Lian Kuan",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chen-lian-kuan/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Research Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303568,7 +304020,7 @@
                 {
                   "name": "CHOW Sze Ming, Sherman",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chow-sze-ming-sherman/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303580,7 +304032,7 @@
                 {
                   "name": "FEI Ben",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/fei-ben/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Research Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303592,7 +304044,7 @@
                 {
                   "name": "GOHARI Amin",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/gohari-amin/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Vice-Chancellor Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303604,7 +304056,7 @@
                 {
                   "name": "LAU Wing Cheong",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lau-wing-cheong/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor Vice-Chairman (Graduate)",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303616,16 +304068,19 @@
                 {
                   "name": "LEE Yiu Bun, Jack",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lee-yiu-bun-jack/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "45f5b486fc09270cb81df4c2117106a2540ccbfb5e8de9135d850fdade23866d",
+                  "facultyId": "cuhk-ie-lee-yiu-bun-jack",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "LI Cheuk Ting",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/li-cheuk-ting/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303637,7 +304092,7 @@
                 {
                   "name": "LIEW Soung Chang",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/liew-soung-chang/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Choh-Ming Li Professor of Information Engineering 卓敏信息工程學教授 Co-Director, Institute of Network Coding",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303649,16 +304104,19 @@
                 {
                   "name": "LIN Dahua",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lin-dahua/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "cd527615f0876d1bda3c631a1376a4927d513f3f8f28623274002ab40991d498",
+                  "facultyId": "cuhk-ie-lin-dahua",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "LIN Xiaojun",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lin-xiaojun/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor Global STEM Scholar",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303670,34 +304128,43 @@
                 {
                   "name": "LOK Tat Ming",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lok-tat-ming/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "30b2ee36dd31f735ff0c3dfba99f1922abedc0bbf651ae1e0227f6237843bb66",
+                  "facultyId": "cuhk-ie-lok-tat-ming",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "MA Pui Kit, Jack",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/ma-pui-kit-jack/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Lecturer",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "84979b25868543f99b8a8b22f97c830c6e81d8c19ad1e097a71d1a1a9b6601ba",
+                  "facultyId": "cuhk-ie-ma-pui-kit-jack",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "NAIR Chandra",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/nair-chandra/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "f48c3ef723c55abd0c17c4d5953cf4d49819c94e5ebcffb43563eb42814e6eca",
+                  "facultyId": "cuhk-ie-nair-chandra",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "OUYANG Wanli",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/ouyang-wanli/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor Global STEM Scholar",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303709,16 +304176,19 @@
                 {
                   "name": "VONTOBEL Pascal Olivier",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/vontobel-pascal-olivier/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "737199c0c6cfd5e53b68aae90d761fd20648c54acd1a359976b60d0c1bb5ad05",
+                  "facultyId": "cuhk-ie-vontobel-pascal-olivier",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "XING Guoliang",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/xing-guoliang/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor Chairman And Graduate Division Head",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303730,7 +304200,7 @@
                 {
                   "name": "XUE Diwen",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/xue-diwen/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303742,7 +304212,7 @@
                 {
                   "name": "XUE Tianfan",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/xue-tianfan/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Vice Chancellor Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303754,7 +304224,7 @@
                 {
                   "name": "YAN Wenjing",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/yan-wenjing/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Research Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303766,7 +304236,7 @@
                 {
                   "name": "YAN Zhenyu",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/yan-zhenyu/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303778,7 +304248,7 @@
                 {
                   "name": "YEUNG Wai Ho, Raymond",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/yeung-wai-ho-raymond/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Choh-Ming Li Professor of Information Engineering 卓敏信息工程學講座教授 Co-Director, Institute of Network Coding",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303790,16 +304260,19 @@
                 {
                   "name": "YIN Ho Fai, Hoover",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/yin-ho-fai-hoover/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Lecturer",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "bodySha256": "a194abecbd7e1abbc441eacba3face5558fc2a0552f3ecbf2270e1826b2dd957",
+                  "facultyId": "cuhk-ie-yin-ho-fai-hoover",
+                  "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
                 },
                 {
                   "name": "YIP Kit Sang, Danny",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/yip-kit-sang-danny/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Lecturer",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303811,7 +304284,7 @@
                 {
                   "name": "YUE Xiangyu",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/yue-xiangyu/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Assistant Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303823,7 +304296,7 @@
                 {
                   "name": "ZHANG Kehuan",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/zhang-kehuan/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303835,7 +304308,7 @@
                 {
                   "name": "ZHANG Yingjun, Angela",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/zhang-yingjun-angela/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303847,7 +304320,7 @@
                 {
                   "name": "ZHAO Changhong",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/zhao-changhong/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303859,7 +304332,7 @@
                 {
                   "name": "ZHOU Yajin",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/zhou-yajin/",
-                  "directoryLabel": "Faculty Members",
+                  "directoryLabel": "Faculty Members · Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303892,7 +304365,7 @@
                 {
                   "name": "LEE Tong, Tony",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lee-tong-tony/",
-                  "directoryLabel": "Emeritus Professors",
+                  "directoryLabel": "Emeritus Professors · Emeritus Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303904,7 +304377,7 @@
                 {
                   "name": "LI Shuo Yen, Robert",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/li-shuo-yen-robert/",
-                  "directoryLabel": "Emeritus Professors",
+                  "directoryLabel": "Emeritus Professors · Emeritus Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303916,7 +304389,7 @@
                 {
                   "name": "WONG Wing Shing",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/wong-wing-shing/",
-                  "directoryLabel": "Emeritus Professors",
+                  "directoryLabel": "Emeritus Professors · Emeritus Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303949,7 +304422,7 @@
                 {
                   "name": "LEE Pak Ching, Patrick",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/lee-pak-ching-patrick/",
-                  "directoryLabel": "Faculty (by Courtesy)",
+                  "directoryLabel": "Faculty (by Courtesy) · Professor (by courtesy)",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303982,7 +304455,7 @@
                 {
                   "name": "CHAN Yuen Yan, Rosanna",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chan-yuen-yan-rosanna/",
-                  "directoryLabel": "Adjunct Professors",
+                  "directoryLabel": "Adjunct Professors · Adjunct Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -303994,7 +304467,7 @@
                 {
                   "name": "CHAU Sze Yiu",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/chau-sze-yiu/",
-                  "directoryLabel": "Adjunct Professors",
+                  "directoryLabel": "Adjunct Professors · Adjunct Associate Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -304006,7 +304479,7 @@
                 {
                   "name": "CHOI Wai Shan, Tina",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/choi-tina/",
-                  "directoryLabel": "Adjunct Professors",
+                  "directoryLabel": "Adjunct Professors · Adjunct Professors",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -304027,7 +304500,7 @@
                 {
                   "name": "HAYASHI Masahito",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/hayashi-masahito/",
-                  "directoryLabel": "Adjunct Professors",
+                  "directoryLabel": "Adjunct Professors · Adjunct Professor",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
                   "profileBodyStatus": "body_read",
                   "supervisionEligibility": "unknown",
@@ -304041,18 +304514,20 @@
                   "url": "https://www.ie.cuhk.edu.hk/faculty/hsing-russell/",
                   "directoryLabel": "Adjunct Professors",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "access_failed",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "reviewNote": "HTTP Error 403: Forbidden"
                 },
                 {
                   "name": "HUANG Jianwei",
                   "url": "https://www.ie.cuhk.edu.hk/faculty/huang-jianwei/",
                   "directoryLabel": "Adjunct Professors",
                   "observedOn": "https://www.ie.cuhk.edu.hk/faculty/",
-                  "profileBodyStatus": "not_read",
+                  "profileBodyStatus": "access_failed",
                   "supervisionEligibility": "unknown",
-                  "availability": "unknown"
+                  "availability": "unknown",
+                  "reviewNote": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1000)>"
                 },
                 {
                   "name": "LO Wai Shun",
@@ -341839,5 +342314,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:5c33f5b0437fa41eef02291a1a4bc521723fe3a99d34632adae487ee4aeb64b0"
+  "snapshotId": "sha256:34bf66af6d8e74f5aa7b9d06501ce724ada98593c827dfed0ee9aae69f314b48"
 }
