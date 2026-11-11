@@ -1450,6 +1450,50 @@ def build_catalog():
                        for value, condition in [(99000, "全日制无助学金"), (49500, "全日制有助学金或兼读")]]},
         ])
     catalog["programs"].append(eee_programme)
+    cuhk_ee = load("cuhk-ee-20261111.json")
+    catalog["sources"].extend(cuhk_ee["sources"])
+    ee_page = ["cuhk-ee-20261111-programme"]
+    ee_general = ["cuhk-ee-20261111-eligibility"]
+    ee_fees = ["cuhk-gs-fees"]
+    cuhk_ee_programme = program(
+        "cuhk-ee-rpg-2027", "cuhk", "电子工程研究学位", ["MPhil", "PhD"],
+        "2027/28 香港校区。可探索机器人与感知、多媒体与信号处理、集成电路与系统、固态电子与光子学。",
+        "unknown", "先看项目材料和研究组方向，再向学系核对联系导师的安排。", ee_page,
+        "准备简历、研究成果材料及相关证明。博士申请另需英文研究或目的陈述。", ee_page,
+        [deadline("主轮申请截止", "2026-12-01", ee_page),
+         deadline("补录轮截止（视学额）", "2027-03-31", ee_page)],
+        ee_page + ee_general + ee_fees,
+        "补录视学额安排。申请博士奖学金 HKPFS 请分别核对 RGC 和中大两项提交时间。")
+    cuhk_ee_programme.update(
+        entryUrl="https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-electronic-engineering",
+        requirements=[
+            {"label": "MPhil 学历要求", "degrees": ["MPhil"],
+             "text": "通常须持认可院校二等荣誉或以上学士，或认可荣誉课程学士平均成绩 B 或以上，或同等资格。",
+             "sourceIds": ee_general},
+            {"label": "博士方向学历要求", "degrees": ["PhD"],
+             "text": "可凭认可硕士申请，也可按研究院列出的荣誉学士、B 或以上成绩或同等专业资格路线申请。",
+             "sourceIds": ee_general},
+            {"label": "专业背景与 GRE", "text": "通常为电子工程、计算机工程、含电子方向的物理或相关专业。学系强烈建议非香港大学毕业生提交 GRE General。",
+             "sourceIds": ee_page},
+            {"label": "申请材料", "text": "提交简历、研究成果清单或相关资料，以及奖项与其他证明（如适用）。",
+             "sourceIds": ee_page},
+            {"label": "博士研究陈述", "degrees": ["PhD"], "text": "另交约 600 至 800 英文词的研究或目的陈述。",
+             "sourceIds": ee_page},
+            {"label": "英语要求", "text": "可用符合要求的英语授课学位或认可成绩。学术类雅思 6.5，托福 79/120 或 4.5/6；雅思和托福成绩有效期为两年，其他认可路径见研究院。",
+             "sourceIds": ee_general},
+        ],
+        finances=[
+            {"id": "cuhk-ee-application-fee", "kind": "application_fee", "label": "申请费",
+             "text": "每个项目申请费为 500 港元。", "action": "在研究院网申核对费用及缴费安排。", "sourceIds": ee_fees,
+             "rates": [{"value": 500, "currency": "HKD", "unit": "application", "basis": "intake",
+                        "cycle": "2027/28", "condition": "MPhil / PhD"}]},
+            {"id": "cuhk-ee-tuition", "kind": "tuition", "label": "学费",
+             "text": "2027/28 学费为每年 49,500 港元，适用于全日制和兼读。",
+             "action": "打开研究院费用页核对学费和适用的减免。", "sourceIds": ee_page + ee_fees,
+             "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                        "cycle": "2027/28", "condition": "所有修读模式"}]},
+        ])
+    catalog["programs"].append(cuhk_ee_programme)
     return catalog
 
 
