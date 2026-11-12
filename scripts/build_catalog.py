@@ -1219,6 +1219,21 @@ def build_catalog():
     amc_unlinked = load("hkust-amc-unlinked-20261112.json")
     catalog["faculty"].extend(amc_unlinked["faculty"])
     amc_adjunct["directories"][0]["census"] = amc_unlinked["census"]
+    amc_yinghao = load("hkust-amc-yinghao-20261112.json")
+    teacher = next(row for row in catalog["faculty"] if row["id"] == amc_yinghao["facultyId"])
+    assert teacher["universityId"] == "hkust"
+    card = next(row for row in amc_unlinked["census"]["unlinkedEntries"] if row["name"] == amc_yinghao["directoryName"])
+    card.update(facultyId=teacher["id"], reason="学部名录未给逐人主页。已关联同一老师的计算机科学与工程学系档案。")
+    directory_source = amc_adjunct["directories"][0]["sourceIds"][0]
+    teacher["sourceIds"].append(directory_source)
+    teacher.setdefault("directorySourceIds", []).append(directory_source)
+    teacher.setdefault("academicUnitIds", []).append("hkust-6")
+    teacher["directoryRole"] = "艺术与机器创造学部 · 联合任职"
+    home, lab = amc_yinghao["sources"]
+    catalog["sources"].extend((home, lab))
+    teacher["sourceIds"].extend((home["id"], lab["id"]))
+    link = next(row for row in teacher["extraLinks"] if row["url"] == home["originalUrl"] and row["parentSourceId"] == home["parentSourceId"])
+    link.update(bodyStatus="body_read", sourceId=home["id"])
     amc_research_links = load("hkust-amc-research-links-20261112.json")
     catalog["sources"].extend(amc_research_links["sources"])
     for update in amc_research_links["updates"]:

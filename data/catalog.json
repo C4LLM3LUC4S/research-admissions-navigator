@@ -16135,17 +16135,22 @@
       ],
       "profileUrl": "https://cse.hkust.edu.hk/admin/people/faculty/profile/justimyhxu",
       "sourceIds": [
-        "census-hkust-cse-profile-justimyhxu"
+        "census-hkust-cse-profile-justimyhxu",
+        "hkust-amc-roster-20261111",
+        "hkust-yinghao-home-20261111",
+        "hkust-yinghao-lab-20261111"
       ],
       "directorySourceIds": [
-        "census-hkust-cse-regular"
+        "census-hkust-cse-regular",
+        "hkust-amc-roster-20261111"
       ],
       "extraLinks": [
         {
           "url": "http://justimyhxu.github.io/",
           "label": "个人主页",
           "parentSourceId": "census-hkust-cse-profile-justimyhxu",
-          "bodyStatus": "not_read"
+          "bodyStatus": "body_read",
+          "sourceId": "hkust-yinghao-home-20261111"
         },
         {
           "url": "https://researchportal.hkust.edu.hk/en/persons/yinghao-xu/",
@@ -16161,7 +16166,11 @@
           "census-hkust-cse-profile-justimyhxu"
         ],
         "text": "暂未核实这轮是否接收学生，请按对应项目和学位继续确认。"
-      }
+      },
+      "academicUnitIds": [
+        "hkust-6"
+      ],
+      "directoryRole": "艺术与机器创造学部 · 联合任职"
     },
     {
       "id": "census-hkust-biyuan",
@@ -253890,6 +253899,43 @@
       ]
     },
     {
+      "id": "hkust-yinghao-home-20261111",
+      "title": "徐英豪 · 个人主页",
+      "url": "https://justimyhxu.github.io/",
+      "originalUrl": "http://justimyhxu.github.io/",
+      "retrievedUrl": "https://justimyhxu.github.io/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "aa261041c8480809d632a87319f4e424690ab852ba46e9cf8427890e549b265e",
+      "parentSourceId": "census-hkust-cse-profile-justimyhxu",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "研究方向与任职的可见正文。",
+      "claims": [
+        "主页列香港校区 CSE 助理教授，链接 Xu Lab，方向为三维视觉、生成与具身 AI；一般邀请未标学位或学年。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://hkust-xulab.com/"
+      ]
+    },
+    {
+      "id": "hkust-yinghao-lab-20261111",
+      "title": "徐英豪 · Xu Lab",
+      "url": "https://hkust-xulab.com/",
+      "originalUrl": "https://hkust-xulab.com/",
+      "retrievedUrl": "https://hkust-xulab.com/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f3bcedc5f6ae198af7bcf9efc5303a58ddfe5d879a4b5b043be48205adcd9b81",
+      "parentSourceId": "hkust-yinghao-home-20261111",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "研究方向与任职的可见正文。",
+      "claims": [
+        "实验室页列港科大 CSE、负责人徐英豪、三维视觉、生成和具身 AI；当前余位未知。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "hkust-amc-research-ef70dfef9397cd-home",
       "title": "Hongbo FU · 个人研究主页",
       "url": "http://hongbofu.people.ust.hk/",
@@ -290623,7 +290669,8 @@
             "name": "Yinghao XU",
             "directoryPosition": "Joint Appointment",
             "profileUrl": null,
-            "reason": "学部名录未给逐人主页；既有身份关联待核。"
+            "reason": "学部名录未给逐人主页。已关联同一老师的计算机科学与工程学系档案。",
+            "facultyId": "census-hkust-justimyhxu"
           }
         ]
       }
@@ -343328,5 +343375,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:c923cd10819b8a253c9c92339eb6de5ee476238e9aebcfd07120c36353ab3ef5"
+  "snapshotId": "sha256:2faa87933dad128ae1a79573a847ea780b5c5da1f093c5d44e7e0b5bca1ef1eb"
 }
