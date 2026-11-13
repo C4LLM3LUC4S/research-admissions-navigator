@@ -1,0 +1,43 @@
+{
+  "facultyId": "census-hkust-justimyhxu",
+  "directoryName": "Yinghao XU",
+  "sources": [
+    {
+      "id": "hkust-yinghao-home-20261111",
+      "title": "徐英豪 · 个人主页",
+      "url": "https://justimyhxu.github.io/",
+      "originalUrl": "http://justimyhxu.github.io/",
+      "retrievedUrl": "https://justimyhxu.github.io/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "aa261041c8480809d632a87319f4e424690ab852ba46e9cf8427890e549b265e",
+      "parentSourceId": "census-hkust-cse-profile-justimyhxu",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "研究方向与任职的可见正文。",
+      "claims": [
+        "主页列香港校区 CSE 助理教授，链接 Xu Lab，方向为三维视觉、生成与具身 AI；一般邀请未标学位或学年。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://hkust-xulab.com/"
+      ]
+    },
+    {
+      "id": "hkust-yinghao-lab-20261111",
+      "title": "徐英豪 · Xu Lab",
+      "url": "https://hkust-xulab.com/",
+      "originalUrl": "https://hkust-xulab.com/",
+      "retrievedUrl": "https://hkust-xulab.com/",
+      "checkedAt": "2026-11-11",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f3bcedc5f6ae198af7bcf9efc5303a58ddfe5d879a4b5b043be48205adcd9b81",
+      "parentSourceId": "hkust-yinghao-home-20261111",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "研究方向与任职的可见正文。",
+      "claims": [
+        "实验室页列港科大 CSE、负责人徐英豪、三维视觉、生成和具身 AI；当前余位未知。"
+      ],
+      "knownIssues": []
+    }
+  ]
+}
