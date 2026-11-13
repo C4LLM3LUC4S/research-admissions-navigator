@@ -1219,6 +1219,17 @@ def build_catalog():
     amc_unlinked = load("hkust-amc-unlinked-20261112.json")
     catalog["faculty"].extend(amc_unlinked["faculty"])
     amc_adjunct["directories"][0]["census"] = amc_unlinked["census"]
+    amc_appointments = load("hkust-amc-appointments-20261113.json")
+    for update in amc_appointments["updates"]:
+        teacher = next(row for row in catalog["faculty"] if row["id"] == update["id"])
+        assert teacher["universityId"] == "hkust"
+        card = next(row for row in amc_unlinked["census"]["entries"] if row["profileUrl"] == update["directoryProfileUrl"])
+        assert card["name"] == update["name"]
+        card["facultyId"] = teacher["id"]
+        teacher["sourceIds"] = list(dict.fromkeys(teacher["sourceIds"] + [update["sourceId"]]))
+        teacher["directorySourceIds"] = list(dict.fromkeys(teacher.get("directorySourceIds", []) + [update["sourceId"]]))
+        teacher["academicUnitIds"] = list(dict.fromkeys(teacher.get("academicUnitIds", []) + ["hkust-6"]))
+        teacher["directoryRole"] = update["directoryRole"]
     amc_yinghao = load("hkust-amc-yinghao-20261112.json")
     teacher = next(row for row in catalog["faculty"] if row["id"] == amc_yinghao["facultyId"])
     assert teacher["universityId"] == "hkust"
