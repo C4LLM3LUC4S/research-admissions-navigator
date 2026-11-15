@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-11"
+CHECKED = "2026-11-15"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -1088,7 +1088,7 @@ def build_catalog():
          "港科广数据科学与分析 · MPhil 项目入口", "项目页链接至未来技术学院红鸟硕士入口。", "5effd0439b838fdfcd8d2b771a4e49fec228029379702970d0c7bf46d50786ee"),
     ]
     for sid, url, title, claim, digest in dsa_sources:
-        catalog["sources"].append(dict(id=sid, url=url, title=title, checkedAt=CHECKED,
+        catalog["sources"].append(dict(id=sid, url=url, title=title, checkedAt="2026-11-11",
             evidenceLevel="official_scoped_body_read", scope=claim, claims=[claim], knownIssues=[],
             readMethod="anonymous_HTTP", bodySha256=digest))
     for sid, url, title, _, _ in dsa_sources[:2]:
@@ -1316,6 +1316,20 @@ def build_catalog():
         person.setdefault("extraLinks", []).extend(link for link in update["extraLinks"] if link["url"] not in known)
     for update in sse_completion["leadUpdates"]:
         lead_by_url[update["url"]].update(update)
+    duan_links = load("cuhksz-duan-research-links-20261115.json")
+    person = people[duan_links["facultyId"]]
+    assert person["universityId"] == "cuhksz"
+    home, openings = duan_links["sources"]
+    person["reviewedProfileUrl"] = home["url"]
+    catalog["sources"].extend(duan_links["sources"])
+    person["sourceIds"].extend([home["id"], openings["id"]])
+    person["keywordSourceIds"].append(home["id"])
+    person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + duan_links["researchKeywords"]))
+    link = next(item for item in person["extraLinks"] if item["url"] == home["url"])
+    link.update(bodyStatus="body_read", sourceId=home["id"], readNote="此前连接失败；2026-11-15已读取目标正文。")
+    person["extraLinks"].append({"url": openings["url"], "label": "课题组招募说明",
+                                 "parentSourceId": home["id"], "sourceId": openings["id"], "bodyStatus": "body_read"})
+    person.setdefault("applicationNotes", []).append(duan_links["applicationNote"])
     life_categories = load("hkust-life-science-categories-20261111.json")
     catalog["sources"].append(life_categories["source"])
     catalog["directories"].append(life_categories["directory"])

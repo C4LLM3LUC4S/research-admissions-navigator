@@ -1,0 +1,66 @@
+{
+  "facultyId": "cuhksz-sse-duanjunming",
+  "sources": [
+    {
+      "id": "cuhksz-sse-duan-home-20261115",
+      "title": "段俊明 · 课题组研究主页",
+      "url": "https://junmingduan.github.io/",
+      "originalUrl": "https://junmingduan.github.io/",
+      "retrievedUrl": "https://junmingduan.github.io/",
+      "checkedAt": "2026-11-15",
+      "capturedAt": "2026-11-15T15:06:50.021078+00:00",
+      "readMethod": "anonymous_HTTP_and_visible_body_review",
+      "bodySha256": "f992e154e6bead8b9d620793473b5e85458d3ab26196424fa18ffba5a3226c56",
+      "parentSourceId": "cuhksz-sse-roles-20261111-duanjunming",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "主页研究概述、院校身份和所给招募链接。",
+      "claims": [
+        "主页明确为港中深理工学院段俊明课题组；研究流体问题数值计算、保结构高阶算法和数据驱动降阶建模。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://junmingduan.github.io/openings/"
+      ]
+    },
+    {
+      "id": "cuhksz-sse-duan-openings-20261115",
+      "title": "段俊明 · 课题组招募说明",
+      "url": "https://junmingduan.github.io/openings/",
+      "originalUrl": "https://junmingduan.github.io/openings/",
+      "retrievedUrl": "https://junmingduan.github.io/openings/",
+      "checkedAt": "2026-11-15",
+      "capturedAt": "2026-11-15T15:06:51.479567+00:00",
+      "readMethod": "anonymous_HTTP_and_visible_body_review",
+      "bodySha256": "8996f4e3f4fd7d3dd83e10768b3252ab8e11fdca4199b19d4a15cf5c3c672d67",
+      "parentSourceId": "cuhksz-sse-duan-home-20261115",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "未注明招生年度的博士及博士后招募；不替代当期项目要求。",
+      "claims": [
+        "建议发送简历和动机信，博士申请仍须提交学校项目申请。"
+      ],
+      "knownIssues": [
+        "页面未标招生年度，不作为2027/28余位或资助承诺。",
+        "中英文对推荐人联系方式适用申请者范围不同，须向本人确认。"
+      ]
+    }
+  ],
+  "researchKeywords": [
+    "双曲型偏微分方程",
+    "高阶保结构数值方法",
+    "熵稳定方法",
+    "物理约束保持方法",
+    "移动网格方法",
+    "数据驱动降阶建模"
+  ],
+  "applicationNote": {
+    "kind": "teacher_statement",
+    "label": "课题组招募说明（未注明年度）",
+    "degrees": [
+      "PhD"
+    ],
+    "text": "可先向老师提供简历和动机信，博士入学仍须提交学校项目申请。页面未注明招生年度，当前余位与资助请另行确认；推荐人材料范围也请向老师核对。",
+    "sourceIds": [
+      "cuhksz-sse-duan-openings-20261115"
+    ]
+  }
+}
