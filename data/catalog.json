@@ -18485,6 +18485,7 @@
       ],
       "sourceIds": [
         "review-profile-ef70dfef9397cd",
+        "hkust-amc-roster-20261111",
         "hkust-amc-research-ef70dfef9397cd-home"
       ],
       "topics": [
@@ -18495,7 +18496,7 @@
       "academicUnitIds": [
         "hkust-6"
       ],
-      "directoryRole": "FU Hongbo Professor (Joint Appointment)",
+      "directoryRole": "艺术与机器创造学部 · 常规任职",
       "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/hongbo-fu/",
       "universityId": "hkust",
@@ -18511,6 +18512,9 @@
           "review-profile-ef70dfef9397cd"
         ]
       },
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
       "extraLinks": [
         {
           "label": "个人研究主页",
@@ -18574,6 +18578,7 @@
       ],
       "sourceIds": [
         "review-profile-17817c50844e08",
+        "hkust-amc-roster-20261111",
         "hkust-amc-research-17817c50844e08-home"
       ],
       "topics": [
@@ -18583,7 +18588,7 @@
       "academicUnitIds": [
         "hkust-6"
       ],
-      "directoryRole": "LUO Wenhan Associate Professor (Joint Appointment)",
+      "directoryRole": "艺术与机器创造学部 · 常规任职",
       "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenhan-luo/",
       "universityId": "hkust",
@@ -18599,6 +18604,9 @@
           "review-profile-17817c50844e08"
         ]
       },
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
       "extraLinks": [
         {
           "label": "个人研究主页",
@@ -18750,6 +18758,7 @@
       ],
       "sourceIds": [
         "review-profile-0e0a1dab883003",
+        "hkust-amc-roster-20261111",
         "hkust-amc-research-0e0a1dab883003-home"
       ],
       "topics": [
@@ -18762,7 +18771,7 @@
       "academicUnitIds": [
         "hkust-6"
       ],
-      "directoryRole": "RAO Anyi Assistant Professor (Joint Appointment)",
+      "directoryRole": "艺术与机器创造学部 · 常规任职",
       "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/anyi-rao/",
       "universityId": "hkust",
@@ -18778,6 +18787,9 @@
           "review-profile-0e0a1dab883003"
         ]
       },
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
       "extraLinks": [
         {
           "label": "个人研究主页",
@@ -20057,6 +20069,7 @@
       ],
       "sourceIds": [
         "review-profile-620e24b961d936",
+        "hkust-amc-roster-20261111",
         "hkust-amc-research-620e24b961d936-home"
       ],
       "topics": [
@@ -20068,7 +20081,7 @@
       "academicUnitIds": [
         "hkust-6"
       ],
-      "directoryRole": "Harry YANG Assistant Professor",
+      "directoryRole": "艺术与机器创造学部 · 常规任职",
       "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/harry-yang/",
       "universityId": "hkust",
@@ -20084,6 +20097,9 @@
           "review-profile-620e24b961d936"
         ]
       },
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
       "extraLinks": [
         {
           "label": "个人研究主页",
@@ -20105,6 +20121,7 @@
       ],
       "sourceIds": [
         "review-profile-999995dfbce824",
+        "hkust-amc-roster-20261111",
         "hkust-amc-research-999995dfbce824-home",
         "hkust-amc-research-999995dfbce824-lab"
       ],
@@ -20115,7 +20132,7 @@
       "academicUnitIds": [
         "hkust-6"
       ],
-      "directoryRole": "ZHAN Fangneng Assistant Professor",
+      "directoryRole": "艺术与机器创造学部 · 常规任职",
       "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/fangneng-zhan/",
       "universityId": "hkust",
@@ -20131,6 +20148,9 @@
           "review-profile-999995dfbce824"
         ]
       },
+      "directorySourceIds": [
+        "hkust-amc-roster-20261111"
+      ],
       "extraLinks": [
         {
           "label": "个人研究主页",
@@ -290461,14 +290481,16 @@
             "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=hongbo-fu-hongbofu",
             "directoryPosition": "Regular",
             "profileRead": false,
-            "reviewStatus": "not_read"
+            "reviewStatus": "not_read",
+            "facultyId": "review-hkust-ef70dfef9397cd"
           },
           {
             "name": "Wenhan LUO",
             "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=wenhan-luo-whluo",
             "directoryPosition": "Regular",
             "profileRead": false,
-            "reviewStatus": "not_read"
+            "reviewStatus": "not_read",
+            "facultyId": "review-hkust-17817c50844e08"
           },
           {
             "name": "Kosmas GIANNOUTAKIS",
@@ -290489,7 +290511,8 @@
             "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=anyi-rao-anyirao",
             "directoryPosition": "Regular",
             "profileRead": false,
-            "reviewStatus": "not_read"
+            "reviewStatus": "not_read",
+            "facultyId": "review-hkust-0e0a1dab883003"
           },
           {
             "name": "Wei XUE",
@@ -290503,14 +290526,16 @@
             "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=harry-yang-yangharry",
             "directoryPosition": "Regular",
             "profileRead": false,
-            "reviewStatus": "not_read"
+            "reviewStatus": "not_read",
+            "facultyId": "review-hkust-620e24b961d936"
           },
           {
             "name": "Fangneng ZHAN",
             "profileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=fangneng-zhan-fnzhan",
             "directoryPosition": "Regular",
             "profileRead": false,
-            "reviewStatus": "not_read"
+            "reviewStatus": "not_read",
+            "facultyId": "review-hkust-999995dfbce824"
           },
           {
             "name": "Yonggang ZHANG",
@@ -343375,5 +343400,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:2faa87933dad128ae1a79573a847ea780b5c5da1f093c5d44e7e0b5bca1ef1eb"
+  "snapshotId": "sha256:702a0799e531670b24e6e6b9f546152d1f2436a6deb1564563f0a3f8eb4df9ab"
 }
