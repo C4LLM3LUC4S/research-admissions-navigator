@@ -2228,6 +2228,40 @@ def browser_catalog(catalog):
     return {**catalog, "sources": sources}
 
 
+def browser_catalog_script(catalog):
+    """Share repeated string values without changing any browser record or evidence."""
+    counts = Counter()
+
+    def count_strings(value):
+        if isinstance(value, str):
+            counts[value] += 1
+        elif isinstance(value, list):
+            for item in value:
+                count_strings(item)
+        elif isinstance(value, dict):
+            for item in value.values():
+                count_strings(item)
+
+    count_strings(catalog)
+    strings = [value for value, count in counts.items()
+               if count > 1 and len(value.encode("utf-8")) > 24]
+    indices = {value: index for index, value in enumerate(strings)}
+
+    def encode(value):
+        if isinstance(value, str) and value in indices:
+            return "s[" + str(indices[value]) + "]"
+        if isinstance(value, list):
+            return "[" + ",".join(encode(item) for item in value) + "]"
+        if isinstance(value, dict):
+            return "{" + ",".join(json.dumps(key, ensure_ascii=False) + ":" + encode(item)
+                                  for key, item in value.items()) + "}"
+        return json.dumps(value, ensure_ascii=False, separators=(",", ":"), allow_nan=False)
+
+    return ("window.APP_CATALOG = (() => {const s="
+            + json.dumps(strings, ensure_ascii=False, separators=(",", ":"), allow_nan=False)
+            + ";return " + encode(catalog) + ";})();\n")
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
@@ -2237,9 +2271,7 @@ def main():
     catalog["snapshotId"] = "sha256:" + identity
     quality = validate(catalog)
     encoded = json.dumps(catalog, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
-    js = "window.APP_CATALOG = " + json.dumps(
-        browser_catalog(catalog), ensure_ascii=False, separators=(",", ":"), allow_nan=False
-    ) + ";\n"
+    js = browser_catalog_script(browser_catalog(catalog))
     search_index = {
         "schools": {school["id"]: school["short"] for school in catalog["universities"]},
         "faculty": [[person["name"], person["universityId"], person["profileUrl"],

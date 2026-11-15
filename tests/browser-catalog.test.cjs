@@ -3,6 +3,7 @@ const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const path = require('node:path');
 const vm = require('node:vm');
+const {gzipSync} = require('node:zlib');
 const canonical = require('../data/catalog.json');
 const logic = require('../dist/logic.js');
 
@@ -10,6 +11,12 @@ const context = {window: {}};
 const script = fs.readFileSync(path.join(__dirname, '../dist/catalog.js'), 'utf8');
 vm.runInNewContext(script, context);
 const browser = JSON.parse(JSON.stringify(context.window.APP_CATALOG));
+
+test('shared strings reduce the actual compressed browser payload', () => {
+  const plain = 'window.APP_CATALOG = ' + JSON.stringify(browser) + ';\n';
+  assert.ok(Buffer.byteLength(script) < Buffer.byteLength(plain) * 0.7);
+  assert.ok(gzipSync(script).length < gzipSync(plain).length * 0.9);
+});
 
 test('browser data keeps application records and the canonical snapshot identity', () => {
   const {sources: canonicalSources, ...canonicalRecords} = canonical;
