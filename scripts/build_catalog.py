@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-15"
+CHECKED = "2026-11-16"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -1631,6 +1631,31 @@ def build_catalog():
         person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + update["researchKeywords"]))
         link.update(bodyStatus="body_read", sourceId=source["id"],
                     readNote="原HTTP地址已核读正文，可从校方个人页核对。")
+    physics_admissions = load("hkust-physics-nsnt-20261116.json")
+    for update in physics_admissions["programmes"]:
+        route = next(row for row in catalog["programs"] if row["id"] == update["id"])
+        source = update["source"]
+        catalog["sources"].append(source)
+        refs = [source["id"]]
+        route.update(cycle=CYCLE, cycleVerified=True, entryUrl=source["url"],
+                     scope="香港校区，2027/28 秋季。全日制或兼读；持学生签证或入境许可的非本地学生不可兼读。",
+                     evidenceNote="校方目录另列 2026/27 春季，日期不适用于本卡。博士奖学金申请另有步骤。")
+        route["sourceIds"] = refs + route["sourceIds"] + [update["tuitionSourceId"]]
+        route["deadlines"] = [deadline("秋季非本地申请截止", "2027-06-01", refs),
+                             deadline("秋季本地申请截止", "2027-07-15", refs)]
+        route["requirements"] = [
+            {"label": "MPhil 学历", "text": "认可院校学士学位或认可的同等资格。", "action": "准备学位与成绩证明。", "sourceIds": refs, "degrees": ["MPhil"]},
+            {"label": "PhD 学历", "text": "认可院校学士学位及优秀成绩，或证明全日制至少一年、兼读至少两年的研究生阶段学习达到要求。", "action": "按自己的学历路径核对证明。", "sourceIds": refs, "degrees": ["PhD"]},
+            {"label": "英语", "text": "学术 IELTS 总分 6.5、各单项至少 5.5；TOEFL iBT 在 2026 年 1 月 21 日前考试为 80，自当天起为 4.5。学校还列纸笔考试及豁免条件。", "action": "核对考试日期、单次成绩和授课语言证据；不接受居家考试。", "sourceIds": refs},
+        ] + route["requirements"][-1:]
+        if update["hasScientificComputation"]:
+            route["requirements"].append({"label": "科学计算方向", "text": "该方向须在网申中选择对应选项。", "action": "申请时确认选择的是物理科学计算方向。", "sourceIds": refs})
+        route["finances"].extend([
+            {"id": route["id"] + "-application-fee", "kind": "application_fee", "label": "申请费", "text": "180 港元。", "action": "在申请系统核对付款。", "sourceIds": refs,
+             "rates": [{"value": 180, "currency": "HKD", "unit": "application", "basis": "intake", "cycle": CYCLE, "condition": "申请时缴付"}]},
+            {"id": route["id"] + "-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。", "action": "按入学年份查看教务处收费说明。", "sourceIds": [update["tuitionSourceId"]],
+             "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": "全日制或兼读"}]},
+        ])
     return catalog
 
 

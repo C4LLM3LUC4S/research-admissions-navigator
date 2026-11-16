@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-15",
+  "checkedDate": "2026-11-16",
   "cycle": "2027/28",
   "universities": [
     {
@@ -4280,9 +4280,9 @@
         "MPhil",
         "PhD"
       ],
-      "cycle": null,
-      "cycleVerified": false,
-      "scope": "本轮读到的学系介绍未标明完整招生年度；物理与相关纳米研究学位入口分别保留。与授课型MSc分开，具体轮次和申请窗口请回当前正式系统确认。",
+      "cycle": "2027/28",
+      "cycleVerified": true,
+      "scope": "香港校区，2027/28 秋季。全日制或兼读；持学生签证或入境许可的非本地学生不可兼读。",
       "contact": {
         "status": "unknown",
         "text": "所读系页未明确要求所有申请者先取得导师承诺；个人网站的邀请不能替代项目正式要求。",
@@ -4296,28 +4296,67 @@
           "physics-admissions-20261028"
         ]
       },
-      "deadlines": [],
-      "sourceIds": [
-        "physics-mphil-20261028",
-        "physics-phd-20261028",
-        "physics-admissions-20261028"
-      ],
-      "evidenceNote": "网页核查日不是招生年度。入学后课程、资格考和论文答辩不当成申请前已完成要求。未确认年度、截止时钟、费率、推荐信数量或实时资助。",
-      "requirements": [
+      "deadlines": [
         {
-          "label": "学科背景与相关专业",
-          "text": "系页一般要求良好的物理或相关专业荣誉学位；纳米项目还说明物理或相关背景。本科直博与其他路径须对照所选学位的当期正式要求，产品不代判资格。",
-          "action": "准备学位、成绩与学科背景，先回正式项目逐项核。",
+          "label": "秋季非本地申请截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
           "sourceIds": [
-            "physics-admissions-20261028"
+            "hkust-physics-rpg-catalog-2027"
           ]
         },
         {
-          "label": "英语证明按学校条件核",
-          "text": "系页对非英语第一语言、且学位授课语言非英语等情况指向学校英语要求；本轮未把具体分数或豁免条件补成统一门槛。",
-          "action": "核对授课语言证明、认可考试与当期学校要求，豁免须由学校确认。",
+          "label": "秋季本地申请截止：2027-07-15（官网未说明具体时间）",
+          "date": "2027-07-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
           "sourceIds": [
-            "physics-admissions-20261028"
+            "hkust-physics-rpg-catalog-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-physics-rpg-catalog-2027",
+        "physics-mphil-20261028",
+        "physics-phd-20261028",
+        "physics-admissions-20261028",
+        "hkust-amc-2027-tuition"
+      ],
+      "evidenceNote": "校方目录另列 2026/27 春季，日期不适用于本卡。博士奖学金申请另有步骤。",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "text": "认可院校学士学位或认可的同等资格。",
+          "action": "准备学位与成绩证明。",
+          "sourceIds": [
+            "hkust-physics-rpg-catalog-2027"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "text": "认可院校学士学位及优秀成绩，或证明全日制至少一年、兼读至少两年的研究生阶段学习达到要求。",
+          "action": "按自己的学历路径核对证明。",
+          "sourceIds": [
+            "hkust-physics-rpg-catalog-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "英语",
+          "text": "学术 IELTS 总分 6.5、各单项至少 5.5；TOEFL iBT 在 2026 年 1 月 21 日前考试为 80，自当天起为 4.5。学校还列纸笔考试及豁免条件。",
+          "action": "核对考试日期、单次成绩和授课语言证据；不接受居家考试。",
+          "sourceIds": [
+            "hkust-physics-rpg-catalog-2027"
           ]
         },
         {
@@ -4327,6 +4366,14 @@
           "sourceIds": [
             "physics-mphil-20261028",
             "physics-phd-20261028"
+          ]
+        },
+        {
+          "label": "科学计算方向",
+          "text": "该方向须在网申中选择对应选项。",
+          "action": "申请时确认选择的是物理科学计算方向。",
+          "sourceIds": [
+            "hkust-physics-rpg-catalog-2027"
           ]
         }
       ],
@@ -4341,8 +4388,49 @@
             "physics-admissions-20261028"
           ],
           "rates": []
+        },
+        {
+          "id": "hkust-physics-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "180 港元。",
+          "action": "在申请系统核对付款。",
+          "sourceIds": [
+            "hkust-physics-rpg-catalog-2027"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "hkust-physics-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。",
+          "action": "按入学年份查看教务处收费说明。",
+          "sourceIds": [
+            "hkust-amc-2027-tuition"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制或兼读"
+            }
+          ]
         }
-      ]
+      ],
+      "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-phys"
     },
     {
       "id": "hkust-nano-rpg",
@@ -4352,9 +4440,9 @@
         "MPhil",
         "PhD"
       ],
-      "cycle": null,
-      "cycleVerified": false,
-      "scope": "本轮读到的学系介绍未标明完整招生年度；物理与相关纳米研究学位入口分别保留。与授课型MSc分开，具体轮次和申请窗口请回当前正式系统确认。",
+      "cycle": "2027/28",
+      "cycleVerified": true,
+      "scope": "香港校区，2027/28 秋季。全日制或兼读；持学生签证或入境许可的非本地学生不可兼读。",
       "contact": {
         "status": "unknown",
         "text": "所读系页未明确要求所有申请者先取得导师承诺；个人网站的邀请不能替代项目正式要求。",
@@ -4368,28 +4456,66 @@
           "physics-admissions-20261028"
         ]
       },
-      "deadlines": [],
-      "sourceIds": [
-        "physics-nano-20261028",
-        "physics-admissions-20261028"
-      ],
-      "evidenceNote": "网页核查日不是招生年度。入学后课程、资格考和论文答辩不当成申请前已完成要求。未确认年度、截止时钟、费率、推荐信数量或实时资助。",
-      "requirements": [
+      "deadlines": [
         {
-          "label": "学科背景与相关专业",
-          "text": "系页一般要求良好的物理或相关专业荣誉学位；纳米项目还说明物理或相关背景。本科直博与其他路径须对照所选学位的当期正式要求，产品不代判资格。",
-          "action": "准备学位、成绩与学科背景，先回正式项目逐项核。",
+          "label": "秋季非本地申请截止：2027-06-01（官网未说明具体时间）",
+          "date": "2027-06-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
           "sourceIds": [
-            "physics-admissions-20261028",
-            "physics-nano-20261028"
+            "hkust-nano-rpg-catalog-2027"
           ]
         },
         {
-          "label": "英语证明按学校条件核",
-          "text": "系页对非英语第一语言、且学位授课语言非英语等情况指向学校英语要求；本轮未把具体分数或豁免条件补成统一门槛。",
-          "action": "核对授课语言证明、认可考试与当期学校要求，豁免须由学校确认。",
+          "label": "秋季本地申请截止：2027-07-15（官网未说明具体时间）",
+          "date": "2027-07-15",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
           "sourceIds": [
-            "physics-admissions-20261028"
+            "hkust-nano-rpg-catalog-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkust-nano-rpg-catalog-2027",
+        "physics-nano-20261028",
+        "physics-admissions-20261028",
+        "hkust-amc-2027-tuition"
+      ],
+      "evidenceNote": "校方目录另列 2026/27 春季，日期不适用于本卡。博士奖学金申请另有步骤。",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "text": "认可院校学士学位或认可的同等资格。",
+          "action": "准备学位与成绩证明。",
+          "sourceIds": [
+            "hkust-nano-rpg-catalog-2027"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "text": "认可院校学士学位及优秀成绩，或证明全日制至少一年、兼读至少两年的研究生阶段学习达到要求。",
+          "action": "按自己的学历路径核对证明。",
+          "sourceIds": [
+            "hkust-nano-rpg-catalog-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "英语",
+          "text": "学术 IELTS 总分 6.5、各单项至少 5.5；TOEFL iBT 在 2026 年 1 月 21 日前考试为 80，自当天起为 4.5。学校还列纸笔考试及豁免条件。",
+          "action": "核对考试日期、单次成绩和授课语言证据；不接受居家考试。",
+          "sourceIds": [
+            "hkust-nano-rpg-catalog-2027"
           ]
         },
         {
@@ -4412,8 +4538,49 @@
             "physics-admissions-20261028"
           ],
           "rates": []
+        },
+        {
+          "id": "hkust-nano-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "180 港元。",
+          "action": "在申请系统核对付款。",
+          "sourceIds": [
+            "hkust-nano-rpg-catalog-2027"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "hkust-nano-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。",
+          "action": "按入学年份查看教务处收费说明。",
+          "sourceIds": [
+            "hkust-amc-2027-tuition"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制或兼读"
+            }
+          ]
         }
-      ]
+      ],
+      "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-nsnt"
     },
     {
       "id": "cuhk-bme-rpg",
@@ -263733,6 +263900,42 @@
       "knownIssues": [
         "页面提供博士招募及校方项目链接，未注明年份；不套用当期资助或保证余位。"
       ]
+    },
+    {
+      "id": "hkust-physics-rpg-catalog-2027",
+      "title": "港科大物理 2027/28 项目目录",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-phys",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:35:12.946383+00:00",
+      "bodySha256": "ea91b0bb6afe5f9e8644675b1d4edb896f5a5c32e42c2235c3e6273ff735c301",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港校区 2027/28 秋季研究学位；另列 2026/27 春季。",
+      "claims": [
+        "MPhil 和 PhD 分列学历要求，适用同一语言条件。",
+        "秋季非本地 2027-06-01、本地 2027-07-15，滚动审理；申请费 180 港元。"
+      ],
+      "knownIssues": [
+        "学系联系、完整申请材料及当期个人资助须另核。"
+      ]
+    },
+    {
+      "id": "hkust-nano-rpg-catalog-2027",
+      "title": "港科大纳米科学与技术 2027/28 项目目录",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-nsnt",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:35:13.259001+00:00",
+      "bodySha256": "a55c0880c1dc1a7b1d9e7413f89af70b533bdce6036eef1a791da2d2538cbdc0",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港校区 2027/28 秋季研究学位；另列 2026/27 春季。",
+      "claims": [
+        "MPhil 和 PhD 分列学历要求，适用同一语言条件。",
+        "秋季非本地 2027-06-01、本地 2027-07-15，滚动审理；申请费 180 港元。"
+      ],
+      "knownIssues": [
+        "学系联系、完整申请材料及当期个人资助须另核。"
+      ]
     }
   ],
   "funding": [
@@ -343555,5 +343758,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:d80c1bb51de69e8046383ca140258009ba6943badbe9c8b192ce2a44f2e0de0d"
+  "snapshotId": "sha256:c2091855219daca7b05dcb44d12466e194804359c708f5003f0b4cf67011938f"
 }
