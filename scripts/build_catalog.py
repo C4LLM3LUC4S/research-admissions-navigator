@@ -1656,6 +1656,29 @@ def build_catalog():
             {"id": route["id"] + "-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。", "action": "按入学年份查看教务处收费说明。", "sourceIds": [update["tuitionSourceId"]],
              "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": "全日制或兼读"}]},
         ])
+    cee = load("polyu-cee-20261116.json")
+    route = next(row for row in catalog["programs"] if row["id"] == cee["programId"])
+    source = cee["sources"][0]
+    catalog["sources"].append(source)
+    refs = [source["id"]]
+    tuition_refs = ["polyu-eee-20261111-tuition"]
+    requirements_refs = ["polyu-rpg-requirements"]
+    route.update(cycle=cee["cycle"], cycleVerified=True, entryUrl=source["url"],
+                 scope="香港校区土木及环境工程学系，2027 年 9 月常规研究学位，全日制或兼读。",
+                 evidenceNote="一月、五月只受理导师提出的个别申请；九月常规截止不适用于博士奖学金申请。")
+    route["sourceIds"] = refs + route["sourceIds"] + tuition_refs + requirements_refs
+    route["contact"].update(text="建议先联系潜在导师，有意向人选可在网申填写姓名。",
+                            sourceIds=refs + route["contact"]["sourceIds"])
+    route["deadlines"] = [deadline("2027 年 9 月入学截止", "2027-05-31", refs)]
+    for item in route["requirements"][:3]:
+        item["sourceIds"] = list(dict.fromkeys(item["sourceIds"] + requirements_refs))
+    route["requirements"][3] = {"label": "推荐、研究计划和学历文件", "text": "需两份学术推荐报告、使用指定表格的研究计划，以及已有学位及成绩证明。", "action": "从项目页打开研究计划表，并安排两位学术推荐人。", "sourceIds": refs}
+    route["finances"][1].update(label="学费按学习模式和助学金核",
+        text="2027/28 全日制无助学金每年 99,000 港元；全日制有助学金或兼读每年 49,500 港元。接受录取后另缴注册费 15,000 港元，可抵学费。个人资助和豁免以批准为准。",
+        sourceIds=tuition_refs + route["finances"][1]["sourceIds"])
+    route["finances"][1]["rates"].extend(
+        {"value": value, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": condition}
+        for value, condition in [(99000, "全日制无助学金"), (49500, "全日制有助学金"), (49500, "兼读")])
     return catalog
 
 

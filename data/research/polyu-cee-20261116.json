@@ -1,0 +1,23 @@
+{
+  "programId": "polyu-cee-rpg-route",
+  "cycle": "2027/28",
+  "sources": [
+    {
+      "id": "polyu-cee-2027-programme",
+      "title": "港理工土木及环境工程 2027/28 项目目录",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/cee",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:43:18.173324+00:00",
+      "bodySha256": "d4daa8e387148c4912ded2a9ee5735bead242af64630370fb44b012a692e4084",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027年9月入学，常规MPhil/PhD",
+      "claims": [
+        "MPhil与PhD均可全日制或兼读，2027-05-31，仅注明日期。强烈建议申请前联系意向导师并在申请表写其姓名，不写成必须。需两份学术推荐、指定表格的研究计划、全部已有学位成绩及证书。校方研究主题按项目页面记录。"
+      ],
+      "knownIssues": [
+        "项目页研究主题中的 Supervisor 只是该条研究对应的当期页面名单，不据此判断所有师资、个人当前指导资格或实际余位。"
+      ]
+    }
+  ]
+}

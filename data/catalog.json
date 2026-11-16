@@ -5119,14 +5119,15 @@
         "MPhil",
         "PhD"
       ],
-      "cycle": null,
-      "cycleVerified": false,
-      "scope": "港理工香港CEE常规研究学位介绍，未标明确招生年；HKPFS另列2027/28博士路线，不套授课MSc或其他系规则。",
-      "entryUrl": "https://www.polyu.edu.hk/cee/prospective-students/research-postgraduate-programme/admission-requirement/",
+      "cycle": "2027/28",
+      "cycleVerified": true,
+      "scope": "香港校区土木及环境工程学系，2027 年 9 月常规研究学位，全日制或兼读。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/cee",
       "contact": {
         "status": "recommended",
-        "text": "九月入学页面强烈建议申请前联系潜在导师；一月、五月只按导师请求受理个人申请。具体学位、年份和是否另有安排仍需确认，不把建议写成统一事前接收要求。",
+        "text": "建议先联系潜在导师，有意向人选可在网申填写姓名。",
         "sourceIds": [
+          "polyu-cee-2027-programme",
           "polyu-cee-rpg-2-20261029"
         ]
       },
@@ -5137,12 +5138,27 @@
           "polyu-cee-rpg-2-20261029"
         ]
       },
-      "deadlines": [],
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-cee-2027-programme"
+          ]
+        }
+      ],
       "sourceIds": [
+        "polyu-cee-2027-programme",
         "polyu-cee-rpg-0-20261029",
         "polyu-cee-rpg-1-20261029",
         "polyu-cee-rpg-2-20261029",
-        "polyu-cee-rpg-3-20261029"
+        "polyu-cee-rpg-3-20261029",
+        "polyu-eee-20261111-tuition",
+        "polyu-rpg-requirements"
       ],
       "requirements": [
         {
@@ -5150,7 +5166,8 @@
           "text": "系页参考要求为认可大学二等荣誉或以上本科学位，或同等资格。是否符合由项目判断，不自动换算GPA。",
           "action": "保留原学位和成绩单，核目标MPhil当期资格",
           "sourceIds": [
-            "polyu-cee-rpg-1-20261029"
+            "polyu-cee-rpg-1-20261029",
+            "polyu-rpg-requirements"
           ],
           "degrees": [
             "MPhil"
@@ -5161,7 +5178,8 @@
           "text": "三年制通常要求研究型硕士或同等资格及本科；四年制通常要求硕士加本科，或一等荣誉本科。例外由学校判断，不把教师偏好替代正式要求。",
           "action": "确认自己对应哪条博士资格路径",
           "sourceIds": [
-            "polyu-cee-rpg-1-20261029"
+            "polyu-cee-rpg-1-20261029",
+            "polyu-rpg-requirements"
           ],
           "degrees": [
             "PhD"
@@ -5172,15 +5190,16 @@
           "text": "本系页列雅思6.5、旧尺度托福iBT80及两年有效，适用于未持认可英语授课学位者。这里没有核到新托福尺度的本系对应值，须回研究院核当期要求，不套用其他学校的分数。",
           "action": "核考试日期、尺度、有效期及是否适用豁免",
           "sourceIds": [
-            "polyu-cee-rpg-1-20261029"
+            "polyu-cee-rpg-1-20261029",
+            "polyu-rpg-requirements"
           ]
         },
         {
-          "label": "常规轮次和完整材料仍需核对",
-          "text": "通用时间表未注明完整年份，只说不同方案的截止可能不同。一月、五月的个人申请需导师请求，HKPFS不适用这些轮次。研究计划格式、推荐数量及完整材料仍需查正式系统。",
-          "action": "向正式项目核所选轮次及完整材料清单",
+          "label": "推荐、研究计划和学历文件",
+          "text": "需两份学术推荐报告、使用指定表格的研究计划，以及已有学位及成绩证明。",
+          "action": "从项目页打开研究计划表，并安排两位学术推荐人。",
           "sourceIds": [
-            "polyu-cee-rpg-2-20261029"
+            "polyu-cee-2027-programme"
           ]
         },
         {
@@ -5238,10 +5257,11 @@
         {
           "id": "polyu-cee-tuition-reference",
           "kind": "tuition",
-          "label": "旧学年学费只作参考",
-          "text": "本页学费与注册费标2026/27。2027/28学费、个人资助和适用豁免未完整核清，不能把旧金额当当期预算；博士奖学金不直接套MPhil。",
+          "label": "学费按学习模式和助学金核",
+          "text": "2027/28 全日制无助学金每年 99,000 港元；全日制有助学金或兼读每年 49,500 港元。接受录取后另缴注册费 15,000 港元，可抵学费。个人资助和豁免以批准为准。",
           "action": "核目标学年学费、个人资助与豁免条件",
           "sourceIds": [
+            "polyu-eee-20261111-tuition",
             "polyu-cee-rpg-3-20261029"
           ],
           "rates": [
@@ -5260,10 +5280,35 @@
               "basis": "academic_year",
               "cycle": "2026/27",
               "condition": "全日制有津贴或兼读，按本页条件分别核对"
+            },
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
             }
           ]
         }
-      ]
+      ],
+      "evidenceNote": "一月、五月只受理导师提出的个别申请；九月常规截止不适用于博士奖学金申请。"
     },
     {
       "id": "polyu-cee-hkpfs-2027",
@@ -263936,6 +263981,23 @@
       "knownIssues": [
         "学系联系、完整申请材料及当期个人资助须另核。"
       ]
+    },
+    {
+      "id": "polyu-cee-2027-programme",
+      "title": "港理工土木及环境工程 2027/28 项目目录",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/cee",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:43:18.173324+00:00",
+      "bodySha256": "d4daa8e387148c4912ded2a9ee5735bead242af64630370fb44b012a692e4084",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027年9月入学，常规MPhil/PhD",
+      "claims": [
+        "MPhil与PhD均可全日制或兼读，2027-05-31，仅注明日期。强烈建议申请前联系意向导师并在申请表写其姓名，不写成必须。需两份学术推荐、指定表格的研究计划、全部已有学位成绩及证书。校方研究主题按项目页面记录。"
+      ],
+      "knownIssues": [
+        "项目页研究主题中的 Supervisor 只是该条研究对应的当期页面名单，不据此判断所有师资、个人当前指导资格或实际余位。"
+      ]
     }
   ],
   "funding": [
@@ -343758,5 +343820,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:c2091855219daca7b05dcb44d12466e194804359c708f5003f0b4cf67011938f"
+  "snapshotId": "sha256:64f11d6de7fd2dd5e190cdbda13af3c4abc0f20a3fc56ad68fc884be41d575bb"
 }
