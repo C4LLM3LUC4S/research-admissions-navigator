@@ -1,0 +1,23 @@
+{
+  "programmeId": "hkust-iip-rpg-2027",
+  "source": {
+    "id": "hkust-iip-2027-catalogue",
+    "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-iip",
+    "title": "港科大 · 跨学科自选研究项目 2027/28 课程目录",
+    "checkedAt": "2026-11-16",
+    "evidenceLevel": "official_scoped_body_read",
+    "scope": "香港校区，新兴跨学科领域学部开设，2027/28 秋季 MPhil 及 PhD。",
+    "claims": [
+      "书面研究计划及至少两位跨领域导师，须指定主导师。",
+      "2027/28 秋季本地和非本地截止均为 2027-06-01，滚动审理。",
+      "目录列申请费 180 港元。"
+    ],
+    "knownIssues": [
+      "页面另列 2026/27 春季轮次。持学生签证或入境许可的非本地学生不可兼读。"
+    ],
+    "readMethod": "web_reader",
+    "receiptKind": "web_reader_returned_text",
+    "receiptScope": "batched_tool_response",
+    "readReceiptSha256": "2677dd3300a1225495a14fb1d0a6cb2617de81d383d07c8ec704f3c9c3af93fd"
+  }
+}
