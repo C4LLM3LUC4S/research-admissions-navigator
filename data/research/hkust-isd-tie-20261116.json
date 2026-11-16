@@ -1,0 +1,121 @@
+{
+  "sources": [
+    {
+      "id": "hkust-isd-2027-catalogue",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-isd",
+      "title": "港科大综合系统与设计 2027/28 课程目录",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港校区研究硕博秋季常规申请。",
+      "claims": [
+        "本地须于 2027-07-15、非本地须于 2027-06-01 前完成该轮申请，申请费为180港元。",
+        "研究型硕士和博士学历分列，并列英语成绩及豁免要求。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "b8d88a6267c41b4227cf9c994cc16ad3a73e93dbec65ceed1c8c4ffbac0e5800"
+    },
+    {
+      "id": "hkust-tie-2027-catalogue",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-tie",
+      "title": "港科大科技创新创业 2027/28 课程目录",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港校区，科技创新创业全日制研究型硕士。",
+      "claims": [
+        "本地截止 2027-07-15，非本地截止 2027-06-01，申请费180港元。",
+        "培养包括团队开发和个人论文答辩。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f3793168dda63bc834ac00a41bf20c282817a73925c62fda0bc94d82e2d77e5b"
+    },
+    {
+      "id": "hkust-isd-2027-department",
+      "url": "https://isd.hkust.edu.hk/academics/early-admission/",
+      "title": "港科大综合系统与设计学部 2027 秋季招生信息",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "提前轮、常规秋季轮与待公布春季轮。",
+      "claims": [
+        "2026-08-15 为提前轮截止，常规秋季本地与非本地日期与课程目录一致。"
+      ],
+      "knownIssues": [
+        "学部页列47,000港元学费，与教务处2027/28学年49,500港元表不同。"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "f3793168dda63bc834ac00a41bf20c282817a73925c62fda0bc94d82e2d77e5b"
+    },
+    {
+      "id": "hkust-ais-2027-isd-tie-types",
+      "url": "https://ais.hkust.edu.hk/programs/postgraduate/postgraduate-admission",
+      "title": "港科大跨学科学院研究生招生项目类别",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港校区跨学科学院研究生项目分类。",
+      "claims": [
+        "研究项目分别列综合系统与设计MPhil/PhD和科技创新创业MPhil。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "1185e289d36c576b95635dca87003a8477a898f06016d690524d91c65b719cc2"
+    },
+    {
+      "id": "hkust-tie-2027-studentship",
+      "url": "https://isd.hkust.edu.hk/academics/mphil-in-tie/",
+      "title": "港科大科技创新创业学部项目与资助说明",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学部对科技创新创业MPhil培养和资助的说明。",
+      "claims": [
+        "获录取并符合条件的MPhil学生通常可获得研究生助学金，具体按研究院规则。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "1185e289d36c576b95635dca87003a8477a898f06016d690524d91c65b719cc2"
+    }
+  ],
+  "programmes": [
+    {
+      "id": "hkust-isd-rpg-2027",
+      "name": "综合系统与设计研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "scope": "香港校区综合系统与设计学部，2027/28 秋季，全日制或兼读。",
+      "catalogue": "hkust-isd-2027-catalogue",
+      "extraSources": [
+        "hkust-isd-2027-department"
+      ],
+      "note": "提前轮已结束。持学生签证或入境许可的非本地学生不可兼读。",
+      "tuitionNote": "教务处 2027/28 学年列每年 49,500 港元。学部招生页列 47,000 港元，预算请按教务处学年表核对。",
+      "studyCondition": "全日制或兼读"
+    },
+    {
+      "id": "hkust-tie-mphil-2027",
+      "name": "科技创新创业研究型硕士",
+      "degrees": [
+        "MPhil"
+      ],
+      "scope": "香港校区综合系统与设计学部，2027/28 秋季，两年全日制。",
+      "catalogue": "hkust-tie-2027-catalogue",
+      "extraSources": [
+        "hkust-tie-2027-studentship"
+      ],
+      "note": "课程包含团队产品或服务开发、个人论文与答辩。",
+      "tuitionNote": "教务处 2027/28 学年研究学位全日制费率为每年 49,500 港元。",
+      "studyCondition": "全日制"
+    }
+  ]
+}

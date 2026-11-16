@@ -1790,6 +1790,61 @@ def build_catalog():
                     "basis": "academic_year", "cycle": CYCLE, "condition": "全日制或兼读"}]},
     ]
     catalog["programs"].append(iip_route)
+    isd_tie = load("hkust-isd-tie-20261116.json")
+    catalog["sources"].extend(isd_tie["sources"])
+    programme_sources = {source["id"]: source for source in isd_tie["sources"]}
+    classification = "hkust-ais-2027-isd-tie-types"
+    for update in isd_tie["programmes"]:
+        pid = update["id"]
+        source = programme_sources[update["catalogue"]]
+        refs = [source["id"]]
+        extra = update["extraSources"]
+        dates = [
+            deadline("秋季非本地申请截止", "2027-06-01", refs),
+            deadline("秋季本地申请截止", "2027-07-15", refs),
+        ]
+        if "PhD" in update["degrees"]:
+            dates.extend([
+                deadline("博士奖学金 RGC 网上初步申请截止", "2026-12-01", refs, clock="12:00", degree="PhD", route="HKPFS"),
+                deadline("博士奖学金港科大网申截止", "2026-12-01", refs, clock="23:59", degree="PhD", route="HKPFS"),
+            ])
+        route = program(
+            pid, "hkust", update["name"], update["degrees"], update["scope"],
+            "unknown", "请查看项目网申及学部说明，确认本轮是否须提前联系导师。", refs,
+            "按课程目录列出的入学条件申请，由学校审核。", refs, dates,
+            refs + extra + [classification, tuition_source], update["note"],
+        )
+        route["entryUrl"] = source["url"]
+        route["requirements"] = [
+            {"label": "MPhil 学历", "text": "认可院校学士学位或认可的同等资格。",
+             "action": "准备学位与成绩证明。", "sourceIds": refs, "degrees": ["MPhil"]},
+            {"label": "英语", "text": "学术 IELTS 总分 6.5、各项至少 5.5；TOEFL iBT 在 2026 年 1 月 21 日前为 80，自该日起为 4.5。以单次成绩为准。",
+             "action": "按考试日期、授课语言和校方豁免条件核对证明。", "sourceIds": refs},
+        ]
+        if "PhD" in update["degrees"]:
+            route["requirements"].append(
+                {"label": "PhD 学历", "text": "认可院校学士学位及优秀成绩，或至少一年全日制或两年兼读的合格研究生阶段学习。",
+                 "action": "按申请路径准备学历证明。", "sourceIds": refs, "degrees": ["PhD"]}
+            )
+        route["finances"] = [
+            {"id": pid + "-application-fee", "kind": "application_fee",
+             "label": "申请费", "text": "180 港元。", "action": "提交前在申请系统核对付款。",
+             "sourceIds": refs,
+             "rates": [{"value": 180, "currency": "HKD", "unit": "application",
+                        "basis": "intake", "cycle": CYCLE, "condition": "提交申请时缴付"}]},
+            {"id": pid + "-tuition", "kind": "tuition",
+             "label": "学费", "text": update["tuitionNote"], "action": "查看教务处当前学年收费表。",
+             "sourceIds": [tuition_source] + (extra if "PhD" in update["degrees"] else []),
+             "rates": [{"value": tuition, "currency": "HKD", "unit": "academic_year",
+                        "basis": "academic_year", "cycle": CYCLE, "condition": update["studyCondition"]}]},
+        ]
+        if update["degrees"] == ["MPhil"]:
+            route["finances"].append(
+                {"id": pid + "-studentship", "kind": "studentship", "label": "研究生助学金",
+                 "text": "学部说明获录取并符合资格的 MPhil 学生通常可获助学金，资格和发放以校方文件为准。",
+                 "action": "在研究院资助说明和录取文件中核对个人资格。", "sourceIds": extra, "rates": []}
+            )
+        catalog["programs"].append(route)
     return catalog
 
 
