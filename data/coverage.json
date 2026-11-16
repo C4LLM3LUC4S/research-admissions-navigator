@@ -5,7 +5,7 @@
     "universities": 7,
     "programs": 84,
     "faculty": 2414,
-    "sources": 4625,
+    "sources": 4631,
     "funding": 1,
     "degreeRoutes": 144,
     "facultyByUniversity": {
@@ -21,8 +21,8 @@
     "dateOnlyDeadlines": 110,
     "programsWithRequirements": 83,
     "requirementItems": 309,
-    "programsWithFinances": 71,
-    "financeItems": 132,
+    "programsWithFinances": 77,
+    "financeItems": 144,
     "officialDirectories": 134,
     "directoriesByUniversity": {
       "hku": 32,

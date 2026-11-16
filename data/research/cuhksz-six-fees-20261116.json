@@ -1,0 +1,124 @@
+{
+  "programmes": [
+    {
+      "programId": "cuhksz-sse-mat-rpg",
+      "source": {
+        "id": "cuhksz-mat-2027-fees",
+        "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/MAT",
+        "title": "港中深 · 数学 2027 研究学位费用",
+        "checkedAt": "2026-11-16",
+        "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+        "claims": [
+          "项目页列从2027年起学费每年人民币162000元。",
+          "申请费人民币600元，缴费后不退。"
+        ],
+        "knownIssues": [],
+        "evidenceLevel": "official_scoped_body_read",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+      }
+    },
+    {
+      "programId": "cuhksz-sse-phy-rpg",
+      "source": {
+        "id": "cuhksz-phy-2027-fees",
+        "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/PHY",
+        "title": "港中深 · 物理学 2027 研究学位费用",
+        "checkedAt": "2026-11-16",
+        "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+        "claims": [
+          "项目页列从2027年起学费每年人民币162000元。",
+          "申请费人民币600元，缴费后不退。"
+        ],
+        "knownIssues": [],
+        "evidenceLevel": "official_scoped_body_read",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+      }
+    },
+    {
+      "programId": "cuhksz-sse-chm-rpg",
+      "source": {
+        "id": "cuhksz-chm-2027-fees",
+        "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CHM",
+        "title": "港中深 · 化学 2027 研究学位费用",
+        "checkedAt": "2026-11-16",
+        "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+        "claims": [
+          "项目页列从2027年起学费每年人民币162000元。",
+          "申请费人民币600元，缴费后不退。"
+        ],
+        "knownIssues": [],
+        "evidenceLevel": "official_scoped_body_read",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+      }
+    },
+    {
+      "programId": "cuhksz-sse-mse-rpg",
+      "source": {
+        "id": "cuhksz-mse-2027-fees",
+        "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/MSE",
+        "title": "港中深 · 材料科学与工程 2027 研究学位费用",
+        "checkedAt": "2026-11-16",
+        "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+        "claims": [
+          "项目页列从2027年起学费每年人民币162000元。",
+          "申请费人民币600元，缴费后不退。"
+        ],
+        "knownIssues": [],
+        "evidenceLevel": "official_scoped_body_read",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+      }
+    },
+    {
+      "programId": "cuhksz-sse-ene-rpg",
+      "source": {
+        "id": "cuhksz-ene-2027-fees",
+        "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/ENE",
+        "title": "港中深 · 能源科学与工程 2027 研究学位费用",
+        "checkedAt": "2026-11-16",
+        "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+        "claims": [
+          "项目页列从2027年起学费每年人民币162000元。",
+          "申请费人民币600元，缴费后不退。"
+        ],
+        "knownIssues": [],
+        "evidenceLevel": "official_scoped_body_read",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+      }
+    },
+    {
+      "programId": "cuhksz-sse-med-bme-rpg",
+      "source": {
+        "id": "cuhksz-bme-2027-fees",
+        "url": "https://medpg.cuhk.edu.cn/en/node/32",
+        "title": "港中深 · 生物医学工程 2027 研究学位费用",
+        "checkedAt": "2026-11-16",
+        "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+        "claims": [
+          "项目页列从2027年起学费每年人民币162000元。",
+          "申请费人民币600元，缴费后不退。"
+        ],
+        "knownIssues": [],
+        "evidenceLevel": "official_scoped_body_read",
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+      }
+    }
+  ]
+}

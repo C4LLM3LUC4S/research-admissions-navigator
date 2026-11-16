@@ -1874,6 +1874,26 @@ def build_catalog():
                         "cycle": CYCLE, "condition": condition} for amount, condition in tuition_rates]},
         ]
         route["sourceIds"] = list(dict.fromkeys(route["sourceIds"] + polyu_fee_refs + polyu_tuition_refs))
+    shenzhen_fees = load("cuhksz-six-fees-20261116.json")
+    for update in shenzhen_fees["programmes"]:
+        route = next(row for row in catalog["programs"] if row["id"] == update["programId"])
+        assert route["cycle"] == CYCLE and not route.get("finances"), route["id"]
+        source = update["source"]
+        catalog["sources"].append(source)
+        refs = [source["id"]]
+        route["sourceIds"].extend(refs)
+        route["finances"] = [
+            {"id": route["id"] + "-application-fee", "kind": "application_fee", "label": "申请费",
+             "text": "人民币 600 元，缴费后不退。",
+             "action": "在项目网申系统核对付款金额。", "sourceIds": refs,
+             "rates": [{"value": 600, "currency": "CNY", "unit": "application",
+                        "basis": "intake", "cycle": CYCLE, "condition": "提交申请"}]},
+            {"id": route["id"] + "-tuition", "kind": "tuition", "label": "学费",
+             "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+             "action": "按录取年份和个人奖学金结果核对实际缴费。", "sourceIds": refs,
+             "rates": [{"value": 162000, "currency": "CNY", "unit": "academic_year",
+                        "basis": "academic_year", "cycle": CYCLE, "condition": "奖学金减免前"}]},
+        ]
     return catalog
 
 
