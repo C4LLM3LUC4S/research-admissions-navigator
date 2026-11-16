@@ -1679,6 +1679,33 @@ def build_catalog():
     route["finances"][1]["rates"].extend(
         {"value": value, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": condition}
         for value, condition in [(99000, "全日制无助学金"), (49500, "全日制有助学金"), (49500, "兼读")])
+    dase = load("hku-dase-admissions-20261116.json")
+    route = next(row for row in catalog["programs"] if row["id"] == dase["programId"])
+    catalog["sources"].extend(dase["sources"])
+    area_source, proposal_source, mphil_source, phd3_source, phd4_source, fees_source = (source["id"] for source in dase["sources"])
+    periods = [area_source, "HKU-CENTRAL-PERIOD"]
+    language = ["hku-central-language"]
+    route.update(cycle=CYCLE, cycleVerified=True,
+                 scope="香港大学工学院数据与系统工程学系，2027/28 研究型硕博，时间采用研究院校级轮次。",
+                 evidenceNote="院系可能提前审理。两轮补录仅在主轮后仍有余位时考虑，不能视为当前有余位。")
+    route["sourceIds"] = list(dict.fromkeys(periods + [proposal_source, mphil_source, phd3_source, phd4_source, fees_source] + language + route["sourceIds"]))
+    route["deadlines"] = [
+        deadline("校级主轮截止", "2026-12-01", periods, clock="23:59"),
+        deadline("校级第一轮补录截止（视余位）", "2027-04-30", periods, clock="23:59"),
+        deadline("校级第二轮补录截止（视余位）", "2027-08-31", periods, clock="23:59"),
+    ]
+    route["requirements"][:1] = [
+        {"label": "MPhil 学历", "text": "校级要求为认可大学的荣誉学士或同等资格。", "action": "检查学位证明与同等资格说明。", "sourceIds": [mphil_source], "degrees": ["MPhil"]},
+        {"label": "PhD 学历", "text": "三年制通常要求荣誉学士及研究型硕士或同等资格；四年制可凭荣誉学士加授课型硕士（或同等资格），也可凭一等荣誉学士或同等资格。", "action": "按申请学制准备学历与成绩证明。", "sourceIds": [phd3_source, phd4_source], "degrees": ["PhD"]},
+        {"label": "工学院研究计划", "text": "按研究院工学院栏准备研究计划，完整材料与学历条件见申请系统。", "action": "打开工学院研究计划表，准备题目、问题和方法。", "sourceIds": [proposal_source], "url": next(s["url"] for s in dase["sources"] if s["id"] == proposal_source)},
+        {"label": "语言成绩", "text": "适用英语证明要求时，IELTS Academic 总分至少 6.5、各项至少 6；TOEFL iBT 2026 年 1 月 21 日前至少 85，从该日开始至少 4.5。两年内一次考试，按校方要求由考试机构送分。", "action": "核考试日期、成绩有效期及送分要求。", "sourceIds": language},
+    ]
+    route["finances"] = [
+        {"id": "hku-dase-2027-application-fee", "kind": "application_fee", "label": "申请费", "text": "研究院费用页现列 780 港元，由网申系统收取。", "action": "提交前核对网申实际金额。", "sourceIds": [fees_source],
+         "rates": [{"value": 780, "currency": "HKD", "unit": "application", "basis": "page_reference", "cycle": None, "condition": "校级费用页当前列示"}]},
+        {"id": "hku-dase-2027-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。", "action": "按学年、学习模式及资格核算学费。", "sourceIds": [fees_source],
+         "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": "全日制"}]},
+    ]
     return catalog
 
 
