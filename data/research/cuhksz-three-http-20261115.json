@@ -1,0 +1,96 @@
+{
+  "updates": [
+    {
+      "facultyId": "cuhksz-sse-zhujun",
+      "source": {
+        "id": "cuhksz-sse-http-zhu-home-20261115",
+        "title": "朱军 · ZHU, Jun · 官网所给课题组网站",
+        "url": "http://junzhu.chem8.org/",
+        "originalUrl": "http://junzhu.chem8.org/",
+        "retrievedUrl": "http://junzhu.chem8.org/",
+        "checkedAt": "2026-11-15",
+        "capturedAt": "2026-11-15T15:12:28.103925+00:00",
+        "readMethod": "anonymous_HTTP",
+        "bodySha256": "f0be4cba11fad2170d6fbe5a764cad53df78e64b0b6710062c5e5ab80db4f2e3",
+        "parentSourceId": "cuhksz-sse-roles-20261111-zhujun",
+        "evidenceLevel": "teacher_page_linked_from_official_profile",
+        "transportScope": "read_only_http_source_not_clickable",
+        "scope": "主页身份与研究概述；不含完整成员名单或当期余位核验。",
+        "claims": [
+          "物理有机化学；以量子计算研究有机/金属有机体系的结构、成键和机理。"
+        ],
+        "knownIssues": [
+          "主页标题列港中深朱军课题组；成员描述有旧统计，不更新成员或余位。"
+        ]
+      },
+      "linkUrl": "http://junzhu.chem8.org/",
+      "researchKeywords": [
+        "物理有机化学",
+        "分子成键",
+        "有机金属反应机理"
+      ]
+    },
+    {
+      "facultyId": "cuhksz-sse-juntingc",
+      "source": {
+        "id": "cuhksz-sse-http-chen-home-20261115",
+        "title": "陈俊挺 · CHEN, Junting · 官网所给课题组网站",
+        "url": "http://chenjunting.org/",
+        "originalUrl": "http://chenjunting.org/",
+        "retrievedUrl": "http://chenjunting.org/",
+        "checkedAt": "2026-11-15",
+        "capturedAt": "2026-11-15T15:12:01.964771+00:00",
+        "readMethod": "anonymous_HTTP",
+        "bodySha256": "59e0de2f90414e22badee2769da569ac3e6996cf2ba0bb2eaab94d989f680378",
+        "parentSourceId": "cuhksz-sse-roles-20261111-juntingc",
+        "evidenceLevel": "teacher_page_linked_from_official_profile",
+        "transportScope": "read_only_http_source_not_clickable",
+        "scope": "主页身份与研究概述；不含完整成员名单或当期余位核验。",
+        "claims": [
+          "无线通信、感知与定位的信号处理、优化和机器学习；无线电地图、大模型、低轨通信、语义通信和多模态车辆感知。"
+        ],
+        "knownIssues": [
+          "主页列港中深理工学院副教授、未来网络智能研究院；未核指导资格或余位。"
+        ]
+      },
+      "linkUrl": "http://chenjunting.org/",
+      "researchKeywords": [
+        "无线电地图",
+        "低轨卫星通信",
+        "预测式语义通信",
+        "多模态车辆感知"
+      ]
+    },
+    {
+      "facultyId": "cuhksz-sse-chenzhongxin",
+      "source": {
+        "id": "cuhksz-sse-http-catalysis-home-20261115",
+        "title": "陈仲欣 · CHEN, Zhongxin · 官网所给课题组网站",
+        "url": "http://www.catalysis-cuhksz.com/",
+        "originalUrl": "http://www.catalysis-cuhksz.com/",
+        "retrievedUrl": "http://www.catalysis-cuhksz.com/",
+        "checkedAt": "2026-11-15",
+        "capturedAt": "2026-11-15T15:12:05.306135+00:00",
+        "readMethod": "anonymous_HTTP",
+        "bodySha256": "9f671782e84cf2e75fc50cbcfb2f8678dc3ffa77886d08abdc6fb987e7ec1b21",
+        "parentSourceId": "cuhksz-sse-roles-20261111-chenzhongxin",
+        "evidenceLevel": "teacher_page_linked_from_official_profile",
+        "transportScope": "read_only_http_source_not_clickable",
+        "scope": "主页身份与研究概述；不含完整成员名单或当期余位核验。",
+        "claims": [
+          "单原子催化、连续流催化与电化学、二维材料、药物合成、计算流体力学和原位谱学。"
+        ],
+        "knownIssues": [
+          "页面提供博士招募及校方项目链接，未注明年份；不套用当期资助或保证余位。"
+        ]
+      },
+      "linkUrl": "http://www.catalysis-cuhksz.com/",
+      "researchKeywords": [
+        "单原子催化",
+        "连续流催化",
+        "原位谱学",
+        "二维催化"
+      ]
+    }
+  ]
+}
