@@ -1,0 +1,21 @@
+{
+  "stableId": "cityu-ee-phd-route",
+  "scope": "可先入库已有当期博士卡的院系资格、语言与常规材料；不预测接受或面试。",
+  "claims": [
+    {
+      "label": "博士学历",
+      "text": "认可大学一等荣誉学士或同等资格、硕士或同等资格，或城大在读MPhil获准转博士候选。",
+      "sourceId": "cityu-ee-rpg-admissions-20261029"
+    },
+    {
+      "label": "语言",
+      "text": "授课语言不是英语的申请人：IELTS 6.5 或一次 iBT 在2026-01-21之前79、从该日起4.5，均须两年内且提交时有效。CET6 490只按系页明确例外审理，HKPFS不接受CET作证明。",
+      "sourceId": "cityu-ee-rpg-admissions-20261029"
+    },
+    {
+      "label": "研究方向与申请材料",
+      "text": "网申须填写研究方向，鼓励提前联系但非强制；按在线清单提交材料。完整博士普通材料不要套用HKPFS特定步骤。",
+      "sourceId": "cityu-ee-rpg-application-20261029"
+    }
+  ]
+}

@@ -1239,9 +1239,47 @@
         }
       ],
       "sourceIds": [
-        "cityu-ee"
+        "cityu-ee",
+        "cityu-steps",
+        "cityu-ee-rpg-admissions-20261029",
+        "cityu-ee-rpg-application-20261029"
       ],
-      "evidenceNote": "中央主域曾403；用可读官方步骤与院系页核对，院系独立日程仍需确认。"
+      "evidenceNote": "中央主域曾403；用可读官方步骤与院系页核对，院系独立日程仍需确认。",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可大学一等荣誉学士或同等资格、硕士或同等资格，或城大在读MPhil获准转博士候选。",
+          "action": "选择自己的学历路径并准备相应证明。",
+          "sourceIds": [
+            "cityu-ee-rpg-admissions-20261029"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "语言",
+          "text": "授课语言不是英语的申请人：IELTS 6.5 或一次 iBT 在2026-01-21之前79、从该日起4.5，均须两年内且提交时有效。CET6 490只按系页明确例外审理，HKPFS不接受CET作证明。",
+          "action": "核考试日、送分有效期和语言要求。",
+          "sourceIds": [
+            "cityu-ee-rpg-admissions-20261029"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "研究方向与申请材料",
+          "text": "网申须填写研究方向，鼓励提前联系但非强制；按在线清单提交材料。完整博士普通材料不要套用HKPFS特定步骤。",
+          "action": "按网申材料清单提交，填写感兴趣的研究领域。",
+          "sourceIds": [
+            "cityu-ee-rpg-application-20261029"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
     },
     {
       "id": "cuhksz-sse-cie",
@@ -344120,5 +344158,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:667b5486dc810fe0046cf8710195d0bf1a5fd672cf32c5aace2a46566922957d"
+  "snapshotId": "sha256:2758055abf5acf365790644c40c822b38e33074c03000b0ad01ada0d27afa25c"
 }
