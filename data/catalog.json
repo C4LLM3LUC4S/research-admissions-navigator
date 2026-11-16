@@ -6773,7 +6773,8 @@
       ],
       "sourceIds": [
         "cuhksz-sse-autumn-notice-20261106",
-        "cuhksz-med-bme-autumn-20261106"
+        "cuhksz-med-bme-autumn-20261106",
+        "cuhksz-bme-2027-fees"
       ],
       "requirements": [
         {
@@ -6783,6 +6784,48 @@
           "sourceIds": [
             "cuhksz-sse-autumn-notice-20261106",
             "cuhksz-med-bme-autumn-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sse-med-bme-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "人民币 600 元，缴费后不退。",
+          "action": "在项目网申系统核对付款金额。",
+          "sourceIds": [
+            "cuhksz-bme-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sse-med-bme-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+          "action": "按录取年份和个人奖学金结果核对实际缴费。",
+          "sourceIds": [
+            "cuhksz-bme-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "奖学金减免前"
+            }
           ]
         }
       ]
@@ -6836,7 +6879,8 @@
         }
       ],
       "sourceIds": [
-        "cuhksz-sse-mat-20261106"
+        "cuhksz-sse-mat-20261106",
+        "cuhksz-mat-2027-fees"
       ],
       "requirements": [
         {
@@ -6867,6 +6911,48 @@
           "action": "确认两位合适的推荐人并跟进系统邀请",
           "sourceIds": [
             "cuhksz-sse-mat-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sse-mat-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "人民币 600 元，缴费后不退。",
+          "action": "在项目网申系统核对付款金额。",
+          "sourceIds": [
+            "cuhksz-mat-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sse-mat-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+          "action": "按录取年份和个人奖学金结果核对实际缴费。",
+          "sourceIds": [
+            "cuhksz-mat-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "奖学金减免前"
+            }
           ]
         }
       ]
@@ -6920,7 +7006,8 @@
         }
       ],
       "sourceIds": [
-        "cuhksz-sse-phy-20261106"
+        "cuhksz-sse-phy-20261106",
+        "cuhksz-phy-2027-fees"
       ],
       "requirements": [
         {
@@ -6951,6 +7038,48 @@
           "action": "确认两位合适的推荐人并跟进系统邀请",
           "sourceIds": [
             "cuhksz-sse-phy-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sse-phy-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "人民币 600 元，缴费后不退。",
+          "action": "在项目网申系统核对付款金额。",
+          "sourceIds": [
+            "cuhksz-phy-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sse-phy-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+          "action": "按录取年份和个人奖学金结果核对实际缴费。",
+          "sourceIds": [
+            "cuhksz-phy-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "奖学金减免前"
+            }
           ]
         }
       ]
@@ -7004,7 +7133,8 @@
         }
       ],
       "sourceIds": [
-        "cuhksz-sse-chm-20261106"
+        "cuhksz-sse-chm-20261106",
+        "cuhksz-chm-2027-fees"
       ],
       "requirements": [
         {
@@ -7035,6 +7165,48 @@
           "action": "确认两位合适的推荐人并跟进系统邀请",
           "sourceIds": [
             "cuhksz-sse-chm-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sse-chm-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "人民币 600 元，缴费后不退。",
+          "action": "在项目网申系统核对付款金额。",
+          "sourceIds": [
+            "cuhksz-chm-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sse-chm-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+          "action": "按录取年份和个人奖学金结果核对实际缴费。",
+          "sourceIds": [
+            "cuhksz-chm-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "奖学金减免前"
+            }
           ]
         }
       ]
@@ -7088,7 +7260,8 @@
         }
       ],
       "sourceIds": [
-        "cuhksz-sse-mse-20261106"
+        "cuhksz-sse-mse-20261106",
+        "cuhksz-mse-2027-fees"
       ],
       "requirements": [
         {
@@ -7119,6 +7292,48 @@
           "action": "确认两位合适的推荐人并跟进系统邀请",
           "sourceIds": [
             "cuhksz-sse-mse-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sse-mse-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "人民币 600 元，缴费后不退。",
+          "action": "在项目网申系统核对付款金额。",
+          "sourceIds": [
+            "cuhksz-mse-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sse-mse-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+          "action": "按录取年份和个人奖学金结果核对实际缴费。",
+          "sourceIds": [
+            "cuhksz-mse-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "奖学金减免前"
+            }
           ]
         }
       ]
@@ -7172,7 +7387,8 @@
         }
       ],
       "sourceIds": [
-        "cuhksz-sse-ene-20261106"
+        "cuhksz-sse-ene-20261106",
+        "cuhksz-ene-2027-fees"
       ],
       "requirements": [
         {
@@ -7203,6 +7419,48 @@
           "action": "确认两位合适的推荐人并跟进系统邀请",
           "sourceIds": [
             "cuhksz-sse-ene-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sse-ene-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "人民币 600 元，缴费后不退。",
+          "action": "在项目网申系统核对付款金额。",
+          "sourceIds": [
+            "cuhksz-ene-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sse-ene-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "项目页列从 2027 年起，研究型硕士及博士学费每年人民币 162,000 元。",
+          "action": "按录取年份和个人奖学金结果核对实际缴费。",
+          "sourceIds": [
+            "cuhksz-ene-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "奖学金减免前"
+            }
           ]
         }
       ]
@@ -265731,6 +265989,108 @@
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "1185e289d36c576b95635dca87003a8477a898f06016d690524d91c65b719cc2"
+    },
+    {
+      "id": "cuhksz-mat-2027-fees",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/MAT",
+      "title": "港中深 · 数学 2027 研究学位费用",
+      "checkedAt": "2026-11-16",
+      "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+      "claims": [
+        "项目页列从2027年起学费每年人民币162000元。",
+        "申请费人民币600元，缴费后不退。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+    },
+    {
+      "id": "cuhksz-phy-2027-fees",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/PHY",
+      "title": "港中深 · 物理学 2027 研究学位费用",
+      "checkedAt": "2026-11-16",
+      "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+      "claims": [
+        "项目页列从2027年起学费每年人民币162000元。",
+        "申请费人民币600元，缴费后不退。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+    },
+    {
+      "id": "cuhksz-chm-2027-fees",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/CHM",
+      "title": "港中深 · 化学 2027 研究学位费用",
+      "checkedAt": "2026-11-16",
+      "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+      "claims": [
+        "项目页列从2027年起学费每年人民币162000元。",
+        "申请费人民币600元，缴费后不退。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+    },
+    {
+      "id": "cuhksz-mse-2027-fees",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/MSE",
+      "title": "港中深 · 材料科学与工程 2027 研究学位费用",
+      "checkedAt": "2026-11-16",
+      "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+      "claims": [
+        "项目页列从2027年起学费每年人民币162000元。",
+        "申请费人民币600元，缴费后不退。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+    },
+    {
+      "id": "cuhksz-ene-2027-fees",
+      "url": "https://sse-mphil-phd.cuhk.edu.cn/en/program/ENE",
+      "title": "港中深 · 能源科学与工程 2027 研究学位费用",
+      "checkedAt": "2026-11-16",
+      "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+      "claims": [
+        "项目页列从2027年起学费每年人民币162000元。",
+        "申请费人民币600元，缴费后不退。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+    },
+    {
+      "id": "cuhksz-bme-2027-fees",
+      "url": "https://medpg.cuhk.edu.cn/en/node/32",
+      "title": "港中深 · 生物医学工程 2027 研究学位费用",
+      "checkedAt": "2026-11-16",
+      "scope": "从2027年起适用的MPhil/PhD学费及申请费。",
+      "claims": [
+        "项目页列从2027年起学费每年人民币162000元。",
+        "申请费人民币600元，缴费后不退。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
     }
   ],
   "funding": [
@@ -345553,5 +345913,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:766fabf76b0db1882bca4dc024c81f462d122b5d698155582418fda5096c52cc"
+  "snapshotId": "sha256:bc89358f8481762628bd8b72568d5d2c2155100bd34911e9050663faa7a50c75"
 }
