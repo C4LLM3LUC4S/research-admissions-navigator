@@ -5760,7 +5760,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-sft-sept-2027-20261106"
+        "polyu-sft-sept-2027-20261106",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "evidenceNote": "方向页列出的导师用于查找研究方向，招生名额请向学院确认。",
       "requirements": [
@@ -5786,6 +5788,64 @@
           "action": "准备简历、个人陈述和成绩单及学历证明",
           "sourceIds": [
             "polyu-sft-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-sft-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-sft-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -5828,7 +5888,9 @@
       ],
       "sourceIds": [
         "polyu-sd-sept-2027-20261106",
-        "polyu-design-doctoral-application-20261107"
+        "polyu-design-doctoral-application-20261107",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "evidenceNote": "本条日期适用于官网所列 2027 年 9 月常规申请。",
       "requirements": [
@@ -5865,6 +5927,64 @@
           "action": "确认应提交英语成绩还是院校出具的授课语言证明",
           "sourceIds": [
             "polyu-sd-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-sd-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-sd-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -5907,7 +6027,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-so-sept-2027-20261106"
+        "polyu-so-sept-2027-20261106",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "evidenceNote": "这是研究学位的申请页。",
       "requirements": [
@@ -5925,6 +6047,64 @@
           "action": "下载研究计划表并准备简历、成绩单及学历证明",
           "sourceIds": [
             "polyu-so-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-so-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-so-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -5966,7 +6146,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-shtm-sept-2027-20261106"
+        "polyu-shtm-sept-2027-20261106",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "evidenceNote": "官网申请页列的是全日制博士。",
       "requirements": [
@@ -6000,6 +6182,56 @@
           "action": "按考试日期核对量表、写作分数和有效期",
           "sourceIds": [
             "polyu-shtm-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-shtm-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-shtm-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            }
           ]
         }
       ]
@@ -6044,7 +6276,9 @@
       "sourceIds": [
         "polyu-chem-sept-2027-20261106",
         "polyu-chemistry-20261109-sept-supervisors",
-        "polyu-chemistry-20261109-department-programme"
+        "polyu-chemistry-20261109-department-programme",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "requirements": [
         {
@@ -6061,6 +6295,64 @@
           "action": "如果申请奖学金，联系两位学术推荐人",
           "sourceIds": [
             "polyu-chem-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-chem-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-chem-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -6103,7 +6395,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-fsn-sept-2027-20261106"
+        "polyu-fsn-sept-2027-20261106",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "requirements": [
         {
@@ -6120,6 +6414,64 @@
           "action": "如果申请奖学金，联系两位学术推荐人",
           "sourceIds": [
             "polyu-fsn-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-fsn-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-fsn-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -6162,7 +6514,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-ls-sept-2027-20261106"
+        "polyu-ls-sept-2027-20261106",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "requirements": [
         {
@@ -6179,6 +6533,64 @@
           "action": "如果申请奖学金，联系两位学术推荐人",
           "sourceIds": [
             "polyu-ls-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-ls-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-ls-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -6221,7 +6633,9 @@
         }
       ],
       "sourceIds": [
-        "polyu-pm-sept-2027-20261106"
+        "polyu-pm-sept-2027-20261106",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "requirements": [
         {
@@ -6246,6 +6660,64 @@
           "action": "如果申请奖学金，联系两位学术推荐人",
           "sourceIds": [
             "polyu-pm-sept-2027-20261106"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-pm-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-pm-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -7318,7 +7790,9 @@
       ],
       "sourceIds": [
         "polyu-me-sept-2027-20261107",
-        "polyu-me-rpg-overview-20261107"
+        "polyu-me-rpg-overview-20261107",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "evidenceNote": "院系概览写全年接受申请；2027 年 9 月入学请按本项目页的具体截止日准备。",
       "requirements": [
@@ -7344,6 +7818,64 @@
           "action": "下载标准研究计划表并准备研究计划",
           "sourceIds": [
             "polyu-me-sept-2027-20261107"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-me-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-me-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -8190,7 +8722,9 @@
         "polyu-beee-20261110-finder",
         "polyu-beee-20261110-eligibility",
         "polyu-beee-20261110-procedure",
-        "polyu-beee-20261110-period"
+        "polyu-beee-20261110-period",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
       ],
       "evidenceNote": "项目页与校级项目查询均列 4 月 11 日，学系说明逾期不予考虑。",
       "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/beee",
@@ -8230,6 +8764,64 @@
           "sourceIds": [
             "polyu-beee-20261110-programme",
             "polyu-beee-20261110-eligibility"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-beee-rpg-sept-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+          "action": "在校方网申系统核对缴费。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "polyu-beee-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。兼读每年 49,500 港元。录取后另有注册费及抵扣安排。",
+          "action": "按学习模式、资助结果及录取通知核对费用。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ],
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
           ]
         }
       ]
@@ -344961,5 +345553,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:db5ba03fad584edf622cea79f574e39d49425b45b6ff4fb3cc9ee868d118e341"
+  "snapshotId": "sha256:766fabf76b0db1882bca4dc024c81f462d122b5d698155582418fda5096c52cc"
 }
