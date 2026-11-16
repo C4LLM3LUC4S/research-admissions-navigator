@@ -5,7 +5,7 @@
     "universities": 7,
     "programs": 81,
     "faculty": 2414,
-    "sources": 4610,
+    "sources": 4611,
     "funding": 1,
     "degreeRoutes": 139,
     "facultyByUniversity": {
@@ -18,7 +18,7 @@
       "cuhksz": 380
     },
     "unknownRecruitment": 2405,
-    "dateOnlyDeadlines": 104,
+    "dateOnlyDeadlines": 105,
     "programsWithRequirements": 78,
     "requirementItems": 290,
     "programsWithFinances": 50,
