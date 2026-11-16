@@ -4398,7 +4398,16 @@
           "sourceIds": [
             "hkust-physics-rpg-catalog-2027"
           ],
-          "rates": []
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "申请时缴付"
+            }
+          ]
         },
         {
           "id": "hkust-physics-rpg-tuition",
@@ -4539,7 +4548,16 @@
           "sourceIds": [
             "hkust-nano-rpg-catalog-2027"
           ],
-          "rates": []
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "申请时缴付"
+            }
+          ]
         },
         {
           "id": "hkust-nano-rpg-tuition",
@@ -343740,5 +343758,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:b72608513bde50bde0f6edd7b6ecf63923e0a14d42425ae2075cfcd8aa5a4bba"
+  "snapshotId": "sha256:c2091855219daca7b05dcb44d12466e194804359c708f5003f0b4cf67011938f"
 }

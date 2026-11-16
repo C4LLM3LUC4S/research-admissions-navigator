@@ -1651,7 +1651,8 @@ def build_catalog():
         if update["hasScientificComputation"]:
             route["requirements"].append({"label": "科学计算方向", "text": "该方向须在网申中选择对应选项。", "action": "申请时确认选择的是物理科学计算方向。", "sourceIds": refs})
         route["finances"].extend([
-            {"id": route["id"] + "-application-fee", "kind": "application_fee", "label": "申请费", "text": "180 港元。", "action": "在申请系统核对付款。", "sourceIds": refs, "rates": []},
+            {"id": route["id"] + "-application-fee", "kind": "application_fee", "label": "申请费", "text": "180 港元。", "action": "在申请系统核对付款。", "sourceIds": refs,
+             "rates": [{"value": 180, "currency": "HKD", "unit": "application", "basis": "intake", "cycle": CYCLE, "condition": "申请时缴付"}]},
             {"id": route["id"] + "-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。", "action": "按入学年份查看教务处收费说明。", "sourceIds": [update["tuitionSourceId"]],
              "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": "全日制或兼读"}]},
         ])
