@@ -1754,6 +1754,42 @@ def build_catalog():
             for item in hku_common_finances
         ]
         programme["sourceIds"] = list(dict.fromkeys(programme["sourceIds"] + [fees_source]))
+    iip = load("hkust-iip-rpg-20261116.json")
+    iip_source = iip["source"]
+    catalog["sources"].append(iip_source)
+    refs = [iip_source["id"]]
+    iip_route = program(
+        iip["programmeId"], "hkust", "跨学科自选研究学位", ["MPhil", "PhD"],
+        "香港校区新兴跨学科领域学部，2027/28 秋季研究学位。",
+        "required", "申请前组建至少两位不同研究领域的导师，并指定主导师。", refs,
+        "提交拟定的研究领域和课程方案，由项目主任及相关委员会审议。", refs,
+        [deadline("秋季本地及非本地申请截止", "2027-06-01", refs)], refs + [tuition_source],
+        "项目滚动审理。持学生签证或入境许可的非本地学生不可兼读。",
+    )
+    iip_route["entryUrl"] = iip_source["url"]
+    iip_route["requirements"] = [
+        {"label": "书面研究计划", "text": "阐明为何需要跨学科研究、拟定的研究领域和课程方案。",
+         "action": "与导师组拟定研究计划并在网申提交。", "sourceIds": refs},
+        {"label": "MPhil 学历", "text": "认可院校学士学位或认可的同等资格。",
+         "action": "准备学位与成绩证明。", "sourceIds": refs, "degrees": ["MPhil"]},
+        {"label": "PhD 学历", "text": "认可院校学士学位及优秀成绩，或至少一年全日制或两年兼读的合格研究生阶段学习。",
+         "action": "按申请路径准备学历证明。", "sourceIds": refs, "degrees": ["PhD"]},
+        {"label": "英语", "text": "学术 IELTS 总分 6.5、各项至少 5.5；TOEFL iBT 在 2026 年 1 月 21 日前为 80，自该日起为 4.5。以单次成绩为准。",
+         "action": "按考试日期和授课语言核对成绩及豁免条件。", "sourceIds": refs},
+    ]
+    iip_route["finances"] = [
+        {"id": iip_route["id"] + "-application-fee", "kind": "application_fee",
+         "label": "申请费", "text": "180 港元。", "action": "提交前在申请系统核对付款。",
+         "sourceIds": refs,
+         "rates": [{"value": 180, "currency": "HKD", "unit": "application",
+                    "basis": "intake", "cycle": CYCLE, "condition": "提交申请时缴付"}]},
+        {"id": iip_route["id"] + "-tuition", "kind": "tuition",
+         "label": "学费", "text": f"2027/28 学年每年 {tuition:,} 港元，适用于全日制及兼读研究学位。",
+         "action": "按学年核对港科大教务处收费说明。", "sourceIds": [tuition_source],
+         "rates": [{"value": tuition, "currency": "HKD", "unit": "academic_year",
+                    "basis": "academic_year", "cycle": CYCLE, "condition": "全日制或兼读"}]},
+    ]
+    catalog["programs"].append(iip_route)
     return catalog
 
 
