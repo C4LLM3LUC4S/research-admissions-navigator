@@ -1,0 +1,97 @@
+{
+  "programId": "hku-dase-rpg",
+  "sources": [
+    {
+      "id": "hku-dase-2027-areas",
+      "title": "港大研究院 · 数据与系统工程招生单位",
+      "url": "https://gradsch.hku.hk/prospective_students/research_areas",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:49:37.846450+00:00",
+      "bodySha256": "4bca914ae1c029c2fce717c86d54f9256ed57376acb6446db0a163d471e38208",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港大学工学院；校级院系和材料分工。",
+      "claims": [
+        "研究院招生单位列表在工学院下以 # 标注数据与系统工程学系可招研究生。"
+      ],
+      "knownIssues": [
+        "未见学系独立提前截止；校方可能提前审理。"
+      ]
+    },
+    {
+      "id": "hku-dase-2027-research-proposal",
+      "title": "港大研究院 · 工学院研究计划",
+      "url": "https://gradsch.hku.hk/prospective_students/application/supporting_docum/requirements_of_the_faculty_and_programme",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:49:37.846450+00:00",
+      "bodySha256": "edb1a44b5eb0b0c8bb1ad5e0e0cc612c06a8ec951523458891fac3a3d91940bf",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "香港大学工学院；校级院系和材料分工。",
+      "claims": [
+        "工学院申请人须按研究院所列指引提交研究计划。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-dase-2027-mphil",
+      "title": "港大 · MPhil 入学学历",
+      "url": "https://gradsch.hku.hk/sites/default/files/content/3_prospective_students/application/admission_requirement/admission_requirement_01_0.png",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:53:22.108058+00:00",
+      "bodySha256": "60c3413a5a9aecff833b5062b9ce4061ee138e235a1f80be1bf435b0d3e545bc",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究院校级要求，专业另有要求时以专业为准。",
+      "claims": [
+        "认可大学的荣誉学士或同等资格。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-dase-2027-phd-3",
+      "title": "港大 · 三年制 PhD 入学学历",
+      "url": "https://gradsch.hku.hk/sites/default/files/content/3_prospective_students/application/admission_requirement/admission_requirement_02_0.png",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:53:22.109059+00:00",
+      "bodySha256": "02d43000a0cfa5e3bf50552cc6d02f764801c62873526e02229a8099919335c8",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究院校级要求，专业另有要求时以专业为准。",
+      "claims": [
+        "认可大学的荣誉学士和研究型硕士，或同等资格。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-dase-2027-phd-4",
+      "title": "港大 · 四年制 PhD 入学学历",
+      "url": "https://gradsch.hku.hk/sites/default/files/content/3_prospective_students/application/admission_requirement/admission_requirement_03_0.png",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:53:22.109059+00:00",
+      "bodySha256": "1c653c3217e8d82225a2ffb523cac11557a0faeff002c8bd869b32970b1f2d70",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究院校级要求，专业另有要求时以专业为准。",
+      "claims": [
+        "认可大学的荣誉学士和授课型硕士、同等资格，或认可大学的一等荣誉学士或同等资格。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-dase-2027-fees",
+      "title": "港大 · 研究院费用",
+      "url": "https://gradsch.hku.hk/prospective_students/fees_scholarships_and_financial_support/fees",
+      "checkedAt": "2026-11-16",
+      "capturedAt": "2026-11-16T10:53:22.109059+00:00",
+      "bodySha256": "c81313b13b48dcd37e629618bafd88637ac84c8732937d5835951507b4bf481d",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "研究院校级要求，专业另有要求时以专业为准。",
+      "claims": [
+        "申请费 780 港元。2027/28 全日制每年 49,500 港元；本页兼读金额列在 2026/27 表内，不能直接套用。"
+      ],
+      "knownIssues": []
+    }
+  ]
+}

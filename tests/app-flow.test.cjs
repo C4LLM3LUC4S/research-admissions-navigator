@@ -1021,8 +1021,8 @@ test('SME actual callbacks connect a research query, directory-only personal lin
 });
 
 test('an undated research-degree route remains findable without pretending the selected intake is verified',async()=>{
- const h=harness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');
- const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='数据与系统工程研究学位'));assert.ok(card);
+ const h=harness(),el=id=>h.byId.get(id);h.select('cityu','MPhil',[]);await el('profile-form').emit('input');await el('show-programs').emit('click');
+ const card=el('results').children.find(c=>h.walk(c).some(n=>n.tagName==='h3'&&n.textContent==='电机工程研究型硕士（招生年度待核）'));assert.ok(card);
  const top=h.walk(card).find(n=>n.className==='card-topline');assert.match(top.textContent,/入学轮次待核/);assert.doesNotMatch(top.textContent,/2027/);
  assert.match(card.textContent,/入学年份未注明，请先查看项目当前招生安排/);assert.match(card.textContent,/当期申请时间待核/);
  await h.walk(card).find(n=>n.tagName==='button'&&n.textContent==='把这一步加入待办 ＋').emit('click');
