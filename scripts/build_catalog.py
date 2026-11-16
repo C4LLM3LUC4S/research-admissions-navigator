@@ -1694,18 +1694,27 @@ def build_catalog():
         deadline("校级第一轮补录截止（视余位）", "2027-04-30", periods, clock="23:59"),
         deadline("校级第二轮补录截止（视余位）", "2027-08-31", periods, clock="23:59"),
     ]
-    route["requirements"][:1] = [
+    hku_engineering_requirements = [
         {"label": "MPhil 学历", "text": "校级要求为认可大学的荣誉学士或同等资格。", "action": "检查学位证明与同等资格说明。", "sourceIds": [mphil_source], "degrees": ["MPhil"]},
         {"label": "PhD 学历", "text": "三年制通常要求荣誉学士及研究型硕士或同等资格；四年制可凭荣誉学士加授课型硕士（或同等资格），也可凭一等荣誉学士或同等资格。", "action": "按申请学制准备学历与成绩证明。", "sourceIds": [phd3_source, phd4_source], "degrees": ["PhD"]},
         {"label": "工学院研究计划", "text": "按研究院工学院栏准备研究计划，完整材料与学历条件见申请系统。", "action": "打开工学院研究计划表，准备题目、问题和方法。", "sourceIds": [proposal_source], "url": next(s["url"] for s in dase["sources"] if s["id"] == proposal_source)},
         {"label": "语言成绩", "text": "适用英语证明要求时，IELTS Academic 总分至少 6.5、各项至少 6；TOEFL iBT 2026 年 1 月 21 日前至少 85，从该日开始至少 4.5。两年内一次考试，按校方要求由考试机构送分。", "action": "核考试日期、成绩有效期及送分要求。", "sourceIds": language},
     ]
-    route["finances"] = [
+    route["requirements"][:1] = hku_engineering_requirements
+    hku_common_finances = [
         {"id": "hku-dase-2027-application-fee", "kind": "application_fee", "label": "申请费", "text": "研究院费用页现列 780 港元，由网申系统收取。", "action": "提交前核对网申实际金额。", "sourceIds": [fees_source],
          "rates": [{"value": 780, "currency": "HKD", "unit": "application", "basis": "page_reference", "cycle": None, "condition": "校级费用页当前列示"}]},
         {"id": "hku-dase-2027-tuition", "kind": "tuition", "label": "学费", "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。", "action": "按学年、学习模式及资格核算学费。", "sourceIds": [fees_source],
          "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "basis": "academic_year", "cycle": CYCLE, "condition": "全日制"}]},
     ]
+    route["finances"] = hku_common_finances
+    # Civil explicitly refers applicants to the graduate school.
+    civil = next(row for row in catalog["programs"] if row["id"] == "hku-civil-rpg-2027")
+    civil["requirements"] = list(hku_engineering_requirements)
+    civil["finances"] = [{**item, "id": item["id"].replace("hku-dase-", "hku-civil-")}
+                         for item in hku_common_finances]
+    civil["sourceIds"] = list(dict.fromkeys(civil["sourceIds"]
+        + [ref for item in civil["requirements"] + civil["finances"] for ref in item["sourceIds"]]))
     return catalog
 
 
