@@ -1,0 +1,50 @@
+{
+  "programmes": [
+    {
+      "id": "hkust-physics-rpg",
+      "source": {
+        "id": "hkust-physics-rpg-catalog-2027",
+        "title": "港科大物理 2027/28 项目目录",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-phys",
+        "checkedAt": "2026-11-16",
+        "capturedAt": "2026-11-16T10:35:12.946383+00:00",
+        "bodySha256": "ea91b0bb6afe5f9e8644675b1d4edb896f5a5c32e42c2235c3e6273ff735c301",
+        "readMethod": "anonymous_HTTP",
+        "evidenceLevel": "official_scoped_body_read",
+        "scope": "香港校区 2027/28 秋季研究学位；另列 2026/27 春季。",
+        "claims": [
+          "MPhil 和 PhD 分列学历要求，适用同一语言条件。",
+          "秋季非本地 2027-06-01、本地 2027-07-15，滚动审理；申请费 180 港元。"
+        ],
+        "knownIssues": [
+          "学系联系、完整申请材料及当期个人资助须另核。"
+        ]
+      },
+      "tuitionSourceId": "hkust-amc-2027-tuition",
+      "hasScientificComputation": true
+    },
+    {
+      "id": "hkust-nano-rpg",
+      "source": {
+        "id": "hkust-nano-rpg-catalog-2027",
+        "title": "港科大纳米科学与技术 2027/28 项目目录",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-nsnt",
+        "checkedAt": "2026-11-16",
+        "capturedAt": "2026-11-16T10:35:13.259001+00:00",
+        "bodySha256": "a55c0880c1dc1a7b1d9e7413f89af70b533bdce6036eef1a791da2d2538cbdc0",
+        "readMethod": "anonymous_HTTP",
+        "evidenceLevel": "official_scoped_body_read",
+        "scope": "香港校区 2027/28 秋季研究学位；另列 2026/27 春季。",
+        "claims": [
+          "MPhil 和 PhD 分列学历要求，适用同一语言条件。",
+          "秋季非本地 2027-06-01、本地 2027-07-15，滚动审理；申请费 180 港元。"
+        ],
+        "knownIssues": [
+          "学系联系、完整申请材料及当期个人资助须另核。"
+        ]
+      },
+      "tuitionSourceId": "hkust-amc-2027-tuition",
+      "hasScientificComputation": false
+    }
+  ]
+}
