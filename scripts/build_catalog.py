@@ -1723,6 +1723,27 @@ def build_catalog():
                              for item, action in zip(cityu_ee["claims"], actions, strict=True)]
     route["sourceIds"] = list(dict.fromkeys(route["sourceIds"] + ["cityu-steps"]
         + [item["sourceId"] for item in cityu_ee["claims"]]))
+    engineering_fees = load("hkust-cse-ece-fees-20261116.json")
+    tuition_source = engineering_fees["tuitionSourceId"]
+    tuition = engineering_fees["tuition"]
+    for update in engineering_fees["programmes"]:
+        route = next(row for row in catalog["programs"] if row["id"] == update["programId"])
+        fee_source = update["source"]
+        catalog["sources"].append(fee_source)
+        route["sourceIds"].extend([fee_source["id"], tuition_source])
+        application_fee = update["applicationFee"]
+        route.setdefault("finances", []).extend([
+            {"id": route["id"] + "-application-fee", "kind": "application_fee",
+             "label": "申请费", "text": f"{application_fee:,} 港元。", "action": "提交前在申请系统核对付款。",
+             "sourceIds": [fee_source["id"]],
+             "rates": [{"value": application_fee, "currency": "HKD", "unit": "application",
+                        "basis": "intake", "cycle": route["cycle"], "condition": "提交申请时缴付"}]},
+            {"id": route["id"] + "-tuition", "kind": "tuition",
+             "label": "学费", "text": f"2027/28 学年每年 {tuition:,} 港元，适用于全日制及兼读研究学位。",
+             "action": "按学年核对港科大教务处收费说明。", "sourceIds": [tuition_source],
+             "rates": [{"value": tuition, "currency": "HKD", "unit": "academic_year",
+                        "basis": "academic_year", "cycle": route["cycle"], "condition": "全日制或兼读"}]},
+        ])
     return catalog
 
 
