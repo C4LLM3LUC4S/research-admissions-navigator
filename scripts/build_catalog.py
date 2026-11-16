@@ -1894,6 +1894,29 @@ def build_catalog():
              "rates": [{"value": 162000, "currency": "CNY", "unit": "academic_year",
                         "basis": "academic_year", "cycle": CYCLE, "condition": "奖学金减免前"}]},
         ]
+    stats = next(row for row in catalog["programs"] if row["id"] == "cuhk-statistics-rpg")
+    assert not stats.get("finances")
+    stats["finances"] = [
+        {"id": "cuhk-statistics-2027-tuition", "kind": "tuition", "label": "学费",
+         "text": "研究院收费表列 2027/28 学年研究学位学费每年 49,500 港元。个人学费豁免以资格和批准为准。",
+         "action": "按入学学年及个人资格核对研究院收费表。", "sourceIds": ["cuhk-gs-fees"],
+         "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year",
+                    "basis": "academic_year", "cycle": CYCLE, "condition": "研究型学位"}]},
+        {"id": "cuhk-statistics-application-fee", "kind": "application_fee", "label": "申请费",
+         "text": "研究院费用页列每项目 500 港元，页面未单独标明这项费用的入学轮次。",
+         "action": "提交前核对网申系统当前金额。", "sourceIds": ["cuhk-gs-fees"],
+         "rates": [{"value": 500, "currency": "HKD", "unit": "application",
+                    "basis": "page_reference", "cycle": None, "condition": "每项目"}]},
+    ]
+    stats["sourceIds"] = list(dict.fromkeys(stats["sourceIds"] + ["cuhk-gs-fees"]))
+    dsa = next(row for row in catalog["programs"] if row["id"] == "hkustgz-dsa-phd-2027")
+    assert not dsa.get("finances")
+    central = next(row for row in catalog["programs"] if row["id"] == "hkust-gz-phd-entry")
+    dsa["finances"] = [
+        {**item, "id": f'{dsa["id"]}-{item["kind"].replace("_", "-")}'}
+        for item in central["finances"]
+    ]
+    dsa["sourceIds"] = list(dict.fromkeys(dsa["sourceIds"] + ["gz-scholarships-fees"]))
     return catalog
 
 

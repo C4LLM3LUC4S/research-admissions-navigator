@@ -2073,7 +2073,8 @@
         }
       ],
       "sourceIds": [
-        "cuhk-statistics-2027"
+        "cuhk-statistics-2027",
+        "cuhk-gs-fees"
       ],
       "evidenceNote": "统计系自己的说明；旧纸本操作需核当期研究院。",
       "requirements": [
@@ -2091,6 +2092,48 @@
           "action": "正式提交后，按统计系原页核导师意向表是否适用",
           "sourceIds": [
             "cuhk-statistics-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-statistics-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "研究院收费表列 2027/28 学年研究学位学费每年 49,500 港元。个人学费豁免以资格和批准为准。",
+          "action": "按入学学年及个人资格核对研究院收费表。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "研究型学位"
+            }
+          ]
+        },
+        {
+          "id": "cuhk-statistics-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页列每项目 500 港元，页面未单独标明这项费用的入学轮次。",
+          "action": "提交前核对网申系统当前金额。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "每项目"
+            }
           ]
         }
       ]
@@ -9132,7 +9175,8 @@
       ],
       "sourceIds": [
         "gz-dsa-phd",
-        "gz-timeline"
+        "gz-timeline",
+        "gz-scholarships-fees"
       ],
       "evidenceNote": "学历及英语要求来自学域博士手册。截止日期来自研究生院校级时间表。",
       "entryUrl": "https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/",
@@ -9149,6 +9193,87 @@
           "text": "学术类雅思总分至少 6.5，单项至少 5.5。托福网考按考试日期分档，2026 年 1 月 21 日前至少 80 分，当日起至少 4.5 分。其他成绩选项见博士手册。",
           "sourceIds": [
             "gz-dsa-phd"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-dsa-phd-2027-tuition",
+          "kind": "tuition",
+          "label": "有PGS与自费分开看",
+          "text": "2027/28起，有PGS的全日制研究型新生适用单独学费；自费价格另列。先确定正式资助条件，再确认哪档费用与你有关，不把参考金额自动相减。",
+          "action": "核对广州博士正式资助情况、入学轮次与实际学费档位",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 60000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "有PGS的全日制研究型新生"
+            },
+            {
+              "value": 40000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "页面原PGS学费行，未独立标明入学轮次；不直接当所选春季费用"
+            },
+            {
+              "value": 150000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "自费研究型学位；该行未独立标明入学轮次"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-dsa-phd-2027-studentship",
+          "kind": "studentship",
+          "degrees": [
+            "PhD"
+          ],
+          "label": "博士PGS按月列，不当全年总额",
+          "text": "广州研究院页列全日制博士PGS最多四年，另有条款。此处保留月额，不换算成人工承诺、保证年收入或净费用。",
+          "action": "核对广州博士PGS月额、最长年限、持续条件与正式资助结果",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 15000,
+              "currency": "CNY",
+              "unit": "month",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "全日制PhD，最多四年；金额行未独立注明入学轮次"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-dsa-phd-2027-application-fee",
+          "kind": "application_fee",
+          "label": "研究型申请费另核",
+          "text": "这项费用针对研究型项目，不是授课型项目、访学或学费。付款前核所选学域的完整说明。",
+          "action": "核对广州博士所选学域申请费与付款要求",
+          "sourceIds": [
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 150,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "研究型项目；该行未独立注明入学轮次"
+            }
           ]
         }
       ]
@@ -345913,5 +346038,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:bc89358f8481762628bd8b72568d5d2c2155100bd34911e9050663faa7a50c75"
+  "snapshotId": "sha256:0829c5cef84e44d923a0332743332cdb19ff7131da0f99c3dc903498c38be7ce"
 }
