@@ -13,8 +13,8 @@
     "official_sources": 3768,
     "programmes_with_partial_requirements": 80,
     "requirement_items": 300,
-    "programmes_with_partial_finances": 54,
-    "finance_items": 97,
+    "programmes_with_partial_finances": 58,
+    "finance_items": 105,
     "official_directory_entries": 134,
     "teacher_linked_sources": 851,
     "total_sources": 4619,
@@ -484,7 +484,7 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:d7613dba2b26d88d8f3a478e8359ebff3d6ca902e7d18e3500d178bf3442dab8",
+  "current_catalogue_snapshot": "sha256:91f9838e34b82ea0e0a18ad22296567eed57f50b5447fd931fc35598c4b09a34",
   "latest_data_batch": "data/research/hkust-cse-ece-fees-20261116.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",

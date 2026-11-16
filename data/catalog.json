@@ -123,7 +123,8 @@
         "HKU-PROGRAMMES",
         "HKU-CENTRAL-PERIOD",
         "hku-phd-qualification",
-        "hku-central-language"
+        "hku-central-language",
+        "hku-dase-2027-fees"
       ],
       "evidenceNote": "中央日期已核；导师要求按具体常规项目再确认。",
       "requirements": [
@@ -144,6 +145,48 @@
           "action": "核对港大CS的英语证明路径、总分/单项、考试形式、有效期和正式送分",
           "sourceIds": [
             "hku-central-language"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hku-cs-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页现列 780 港元，由网申系统收取。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 780,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "校级费用页当前列示"
+            }
+          ]
+        },
+        {
+          "id": "hku-cs-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
           ]
         }
       ]
@@ -5237,7 +5280,8 @@
         "hku-mech-central-programmes-20261029",
         "hku-mech-central-application_period-20261029",
         "hku-mech-central-how_to_apply-20261029",
-        "hku-central-language"
+        "hku-central-language",
+        "hku-dase-2027-fees"
       ],
       "requirements": [
         {
@@ -5286,7 +5330,49 @@
           ]
         }
       ],
-      "evidenceNote": "七类名录、个人网站、校级2027/28轮次与旧2023–24系内招生册分别保存；未核实时余位、完整材料或委员会/导师权重。"
+      "evidenceNote": "七类名录、个人网站、校级2027/28轮次与旧2023–24系内招生册分别保存；未核实时余位、完整材料或委员会/导师权重。",
+      "finances": [
+        {
+          "id": "hku-mechanical-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页现列 780 港元，由网申系统收取。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 780,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "校级费用页当前列示"
+            }
+          ]
+        },
+        {
+          "id": "hku-mechanical-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cityu-ee-mphil-route",
@@ -7545,7 +7631,8 @@
       ],
       "sourceIds": [
         "hku-earth-20261109-apply",
-        "HKU-CENTRAL-PERIOD"
+        "HKU-CENTRAL-PERIOD",
+        "hku-dase-2027-fees"
       ],
       "evidenceNote": "轮次为港大研究院的校级安排。联系导师与研究计划要求来自学系。",
       "entryUrl": "https://www.earthsciences.hku.hk/education/postgraduate_students/research_postgraduates/how_to_apply/",
@@ -7556,6 +7643,48 @@
           "action": "先与意向导师讨论课题，再准备研究计划。",
           "sourceIds": [
             "hku-earth-20261109-apply"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hku-earth-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页现列 780 港元，由网申系统收取。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 780,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "校级费用页当前列示"
+            }
+          ]
+        },
+        {
+          "id": "hku-earth-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
           ]
         }
       ]
@@ -7853,7 +7982,8 @@
         "hku-math-20261109-graduate-areas",
         "hku-math-20261109-science-apply",
         "hku-math-20261109-science-faq",
-        "HKU-CENTRAL-PERIOD"
+        "HKU-CENTRAL-PERIOD",
+        "hku-dase-2027-fees"
       ],
       "evidenceNote": "日期来自研究院 2027/28 校级安排。系网站所列 2023/24 日期已过。",
       "entryUrl": "https://www.scifac.hku.hk/rpg/apply",
@@ -7865,6 +7995,48 @@
           "sourceIds": [
             "hku-math-20261109-science-apply",
             "hku-math-20261109-science-faq"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hku-math-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页现列 780 港元，由网申系统收取。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 780,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "校级费用页当前列示"
+            }
+          ]
+        },
+        {
+          "id": "hku-math-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
           ]
         }
       ]
@@ -344278,5 +344450,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:d7613dba2b26d88d8f3a478e8359ebff3d6ca902e7d18e3500d178bf3442dab8"
+  "snapshotId": "sha256:91f9838e34b82ea0e0a18ad22296567eed57f50b5447fd931fc35598c4b09a34"
 }

@@ -1744,6 +1744,16 @@ def build_catalog():
              "rates": [{"value": tuition, "currency": "HKD", "unit": "academic_year",
                         "basis": "academic_year", "cycle": route["cycle"], "condition": "全日制或兼读"}]},
         ])
+    # These HKU cards cover regular admissions. The closed CDS early round has its own scope.
+    hku_fee_programs = ("hku-cs-rpg", "hku-mechanical-rpg", "hku-earth-rpg", "hku-math-rpg")
+    for program_id in hku_fee_programs:
+        programme = next(row for row in catalog["programs"] if row["id"] == program_id)
+        assert programme["cycle"] == CYCLE and not programme.get("finances"), program_id
+        programme["finances"] = [
+            {**item, "id": f'{program_id}-{item["kind"].replace("_", "-")}'}
+            for item in hku_common_finances
+        ]
+        programme["sourceIds"] = list(dict.fromkeys(programme["sourceIds"] + [fees_source]))
     return catalog
 
 
