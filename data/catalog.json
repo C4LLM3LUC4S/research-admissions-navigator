@@ -8065,10 +8065,100 @@
       ],
       "sourceIds": [
         "hku-civil-20261110-programme",
-        "HKU-CENTRAL-PERIOD"
+        "HKU-CENTRAL-PERIOD",
+        "hku-dase-2027-mphil",
+        "hku-dase-2027-phd-3",
+        "hku-dase-2027-phd-4",
+        "hku-dase-2027-research-proposal",
+        "hku-central-language",
+        "hku-dase-2027-fees"
       ],
       "evidenceNote": "研究路线来自学系介绍，2027/28 日期来自研究院校级申请时间表。",
-      "entryUrl": "https://www.civil.hku.hk/h4_pros_pg_MPhil_PhD.html"
+      "entryUrl": "https://www.civil.hku.hk/h4_pros_pg_MPhil_PhD.html",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "text": "校级要求为认可大学的荣誉学士或同等资格。",
+          "action": "检查学位证明与同等资格说明。",
+          "sourceIds": [
+            "hku-dase-2027-mphil"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "text": "三年制通常要求荣誉学士及研究型硕士或同等资格；四年制可凭荣誉学士加授课型硕士（或同等资格），也可凭一等荣誉学士或同等资格。",
+          "action": "按申请学制准备学历与成绩证明。",
+          "sourceIds": [
+            "hku-dase-2027-phd-3",
+            "hku-dase-2027-phd-4"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "工学院研究计划",
+          "text": "按研究院工学院栏准备研究计划，完整材料与学历条件见申请系统。",
+          "action": "打开工学院研究计划表，准备题目、问题和方法。",
+          "sourceIds": [
+            "hku-dase-2027-research-proposal"
+          ],
+          "url": "https://gradsch.hku.hk/prospective_students/application/supporting_docum/requirements_of_the_faculty_and_programme"
+        },
+        {
+          "label": "语言成绩",
+          "text": "适用英语证明要求时，IELTS Academic 总分至少 6.5、各项至少 6；TOEFL iBT 2026 年 1 月 21 日前至少 85，从该日开始至少 4.5。两年内一次考试，按校方要求由考试机构送分。",
+          "action": "核考试日期、成绩有效期及送分要求。",
+          "sourceIds": [
+            "hku-central-language"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hku-civil-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页现列 780 港元，由网申系统收取。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 780,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "校级费用页当前列示"
+            }
+          ]
+        },
+        {
+          "id": "hku-civil-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "cuhk-physics-rpg-2027",
@@ -344030,5 +344120,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:4446a40dcc1dcc677d80169f17db7d52f48618a2f1d1a3dbad8a7eef415e11fb"
+  "snapshotId": "sha256:667b5486dc810fe0046cf8710195d0bf1a5fd672cf32c5aace2a46566922957d"
 }
