@@ -1,0 +1,46 @@
+{
+  "programmes": [
+    {
+      "programId": "hkust-hk-cse-rpg",
+      "applicationFee": 180,
+      "source": {
+        "id": "hkust-cse-2027-fee",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+        "title": "港科大 · 计算机科学与工程 2027/28 项目目录申请费",
+        "checkedAt": "2026-11-16",
+        "evidenceLevel": "official_scoped_body_read",
+        "scope": "港科大香港校区 2027/28 秋季常规 MPhil/PhD 申请费。",
+        "claims": [
+          "项目目录列申请费 180 港元。"
+        ],
+        "knownIssues": [],
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "56767c73b46a52d8ab90824689fe5ed9d568e91002302dc5e2400b52b2a96f2c"
+      }
+    },
+    {
+      "programId": "hkust-hk-ece-rpg",
+      "applicationFee": 180,
+      "source": {
+        "id": "hkust-ece-2027-fee",
+        "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+        "title": "港科大 · 电子与计算机工程 2027/28 项目目录申请费",
+        "checkedAt": "2026-11-16",
+        "evidenceLevel": "official_scoped_body_read",
+        "scope": "港科大香港校区 2027/28 秋季常规 MPhil/PhD 申请费。",
+        "claims": [
+          "项目目录列申请费 180 港元。"
+        ],
+        "knownIssues": [],
+        "readMethod": "web_reader",
+        "receiptKind": "web_reader_returned_text",
+        "receiptScope": "batched_tool_response",
+        "readReceiptSha256": "56767c73b46a52d8ab90824689fe5ed9d568e91002302dc5e2400b52b2a96f2c"
+      }
+    }
+  ],
+  "tuitionSourceId": "hkust-amc-2027-tuition",
+  "tuition": 49500
+}

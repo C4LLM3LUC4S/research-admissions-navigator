@@ -493,7 +493,9 @@
       ],
       "sourceIds": [
         "hk-cse-2027",
-        "hk-engineering-faq"
+        "hk-engineering-faq",
+        "hkust-cse-2027-fee",
+        "hkust-amc-2027-tuition"
       ],
       "evidenceNote": "使用工学院通用指引时保留院系差异；春季截止不能替代秋季截止。",
       "requirements": [
@@ -525,6 +527,48 @@
           "action": "核对港科大香港本项目英语总分、单项、考试日期/形式和可用替代证明",
           "sourceIds": [
             "hk-cse-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-hk-cse-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "180 港元。",
+          "action": "提交前在申请系统核对付款。",
+          "sourceIds": [
+            "hkust-cse-2027-fee"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "hkust-hk-cse-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。",
+          "action": "按学年核对港科大教务处收费说明。",
+          "sourceIds": [
+            "hkust-amc-2027-tuition"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制或兼读"
+            }
           ]
         }
       ]
@@ -601,7 +645,9 @@
       ],
       "sourceIds": [
         "hk-ece-2027",
-        "hk-engineering-faq"
+        "hk-engineering-faq",
+        "hkust-ece-2027-fee",
+        "hkust-amc-2027-tuition"
       ],
       "evidenceNote": "使用工学院通用指引时保留院系差异；春季截止不能替代秋季截止。",
       "requirements": [
@@ -633,6 +679,48 @@
           "action": "核对港科大香港本项目英语总分、单项、考试日期/形式和可用替代证明",
           "sourceIds": [
             "hk-ece-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkust-hk-ece-rpg-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "180 港元。",
+          "action": "提交前在申请系统核对付款。",
+          "sourceIds": [
+            "hkust-ece-2027-fee"
+          ],
+          "rates": [
+            {
+              "value": 180,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "提交申请时缴付"
+            }
+          ]
+        },
+        {
+          "id": "hkust-hk-ece-rpg-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年每年 49,500 港元，适用于全日制及兼读研究学位。",
+          "action": "按学年核对港科大教务处收费说明。",
+          "sourceIds": [
+            "hkust-amc-2027-tuition"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制或兼读"
+            }
           ]
         }
       ]
@@ -264336,6 +264424,38 @@
         "申请费 780 港元。2027/28 全日制每年 49,500 港元；本页兼读金额列在 2026/27 表内，不能直接套用。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "hkust-cse-2027-fee",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
+      "title": "港科大 · 计算机科学与工程 2027/28 项目目录申请费",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "港科大香港校区 2027/28 秋季常规 MPhil/PhD 申请费。",
+      "claims": [
+        "项目目录列申请费 180 港元。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "56767c73b46a52d8ab90824689fe5ed9d568e91002302dc5e2400b52b2a96f2c"
+    },
+    {
+      "id": "hkust-ece-2027-fee",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-ece",
+      "title": "港科大 · 电子与计算机工程 2027/28 项目目录申请费",
+      "checkedAt": "2026-11-16",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "港科大香港校区 2027/28 秋季常规 MPhil/PhD 申请费。",
+      "claims": [
+        "项目目录列申请费 180 港元。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "56767c73b46a52d8ab90824689fe5ed9d568e91002302dc5e2400b52b2a96f2c"
     }
   ],
   "funding": [
@@ -344158,5 +344278,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:2758055abf5acf365790644c40c822b38e33074c03000b0ad01ada0d27afa25c"
+  "snapshotId": "sha256:d7613dba2b26d88d8f3a478e8359ebff3d6ca902e7d18e3500d178bf3442dab8"
 }
