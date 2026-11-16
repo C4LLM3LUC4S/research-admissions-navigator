@@ -1845,6 +1845,35 @@ def build_catalog():
                  "action": "在研究院资助说明和录取文件中核对个人资格。", "sourceIds": extra, "rates": []}
             )
         catalog["programs"].append(route)
+    # The official study pages list which modes each September route offers.
+    polyu_fee_modes = {
+        "sft": True, "sd": True, "so": True, "shtm": False, "chem": True,
+        "fsn": True, "ls": True, "pm": True, "me": True, "beee": True,
+    }
+    polyu_fee_refs = ["polyu-eee-20261111-fee"]
+    polyu_tuition_refs = ["polyu-eee-20261111-tuition"]
+    for code, has_part_time in polyu_fee_modes.items():
+        pid = f"polyu-{code}-rpg-sept-2027"
+        route = next(row for row in catalog["programs"] if row["id"] == pid)
+        assert route["cycle"] == CYCLE and not route.get("finances"), pid
+        tuition_rates = [(99000, "全日制无助学金"), (49500, "全日制有助学金")]
+        tuition_text = "2027/28 全日制无助学金每年 99,000 港元，有助学金每年 49,500 港元。"
+        if has_part_time:
+            tuition_rates.append((49500, "兼读"))
+            tuition_text += "兼读每年 49,500 港元。"
+        route["finances"] = [
+            {"id": pid + "-application-fee", "kind": "application_fee", "label": "申请费",
+             "text": "2027/28 申请费为 600 港元，提交网申时支付。",
+             "action": "在校方网申系统核对缴费。", "sourceIds": polyu_fee_refs,
+             "rates": [{"value": 600, "currency": "HKD", "unit": "application",
+                        "basis": "intake", "cycle": CYCLE, "condition": "提交申请时缴付"}]},
+            {"id": pid + "-tuition", "kind": "tuition", "label": "学费",
+             "text": tuition_text + "录取后另有注册费及抵扣安排。",
+             "action": "按学习模式、资助结果及录取通知核对费用。", "sourceIds": polyu_tuition_refs,
+             "rates": [{"value": amount, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                        "cycle": CYCLE, "condition": condition} for amount, condition in tuition_rates]},
+        ]
+        route["sourceIds"] = list(dict.fromkeys(route["sourceIds"] + polyu_fee_refs + polyu_tuition_refs))
     return catalog
 
 
