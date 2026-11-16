@@ -1,6 +1,6 @@
 {
   "version": "0.1.0a34",
-  "stage": "post_alpha34_cuhksz_duan_research_links",
+  "stage": "post_alpha34_cuhksz_three_http_research",
   "public_repository": "https://github.com/C4LLM3LUC4S/research-admissions-navigator",
   "checked_date": "2026-11-15",
   "working_name": "研向",
@@ -16,8 +16,8 @@
     "programmes_with_partial_finances": 50,
     "finance_items": 85,
     "official_directory_entries": 134,
-    "teacher_linked_sources": 848,
-    "total_sources": 4605,
+    "teacher_linked_sources": 851,
+    "total_sources": 4608,
     "polyu_beee_roster_cards": 99,
     "polyu_beee_profiles_read": 59,
     "polyu_beee_new_faculty": 33,
@@ -484,8 +484,8 @@
     "项目卡片直接显示下一步和截止日期，具体申请流程、材料、资助和来源可展开查看。",
     "港中文护理及公共卫生学院接上官网入口。港科大环境及可持续发展学部增加学部主任介绍。"
   ],
-  "current_catalogue_snapshot": "sha256:791c3f105684110a27d849861a8779b2ab0c8ffa918d2ef610681cc0a943de01",
-  "latest_data_batch": "data/research/cuhksz-duan-research-links-20261115.json",
+  "current_catalogue_snapshot": "sha256:d80c1bb51de69e8046383ca140258009ba6943badbe9c8b192ce2a44f2e0de0d",
+  "latest_data_batch": "data/research/cuhksz-three-http-20261115.json",
   "released_changes_a30": [
     "机械工程系已列人员、任职和研究资料可按方向查看。",
     "补齐一批 2027/28 当期研究学位与申请材料入口。",

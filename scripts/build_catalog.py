@@ -1617,6 +1617,20 @@ def build_catalog():
                    "sourceIds": ie_page + ee_fees if fee["kind"] == "tuition" else ee_fees}
                   for fee in cuhk_ee_programme["finances"]])
     catalog["programs"].append(ie_programme)
+    http_research = load("cuhksz-three-http-20261115.json")
+    for update in http_research["updates"]:
+        person = next(row for row in catalog["faculty"] if row["id"] == update["facultyId"])
+        assert person["universityId"] == "cuhksz"
+        source = update["source"]
+        link = next(row for row in person["extraLinks"] if row["url"] == update["linkUrl"]
+                    and row["parentSourceId"] == source["parentSourceId"])
+        assert link["bodyStatus"] == "not_read"
+        catalog["sources"].append(source)
+        person["sourceIds"].append(source["id"])
+        person["keywordSourceIds"].append(source["id"])
+        person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + update["researchKeywords"]))
+        link.update(bodyStatus="body_read", sourceId=source["id"],
+                    readNote="原HTTP地址已核读正文，可从校方个人页核对。")
     return catalog
 
 
