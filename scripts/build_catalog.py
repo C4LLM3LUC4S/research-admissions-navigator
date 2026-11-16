@@ -1715,6 +1715,14 @@ def build_catalog():
                          for item in hku_common_finances]
     civil["sourceIds"] = list(dict.fromkeys(civil["sourceIds"]
         + [ref for item in civil["requirements"] + civil["finances"] for ref in item["sourceIds"]]))
+    cityu_ee = load("cityu-ee-phd-requirements-20261116.json")
+    route = next(row for row in catalog["programs"] if row["id"] == cityu_ee["stableId"])
+    actions = ("选择自己的学历路径并准备相应证明。", "核考试日、送分有效期和语言要求。", "按网申材料清单提交，填写感兴趣的研究领域。")
+    route["requirements"] = [{"label": item["label"], "text": item["text"], "action": action,
+                              "sourceIds": [item["sourceId"]], "degrees": ["PhD"]}
+                             for item, action in zip(cityu_ee["claims"], actions, strict=True)]
+    route["sourceIds"] = list(dict.fromkeys(route["sourceIds"] + ["cityu-steps"]
+        + [item["sourceId"] for item in cityu_ee["claims"]]))
     return catalog
 
 
