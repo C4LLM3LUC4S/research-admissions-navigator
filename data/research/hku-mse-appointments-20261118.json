@@ -1,0 +1,596 @@
+{
+  "sources": [
+    {
+      "id": "hku-mse-chunyizhi-profile-20261118",
+      "url": "https://mse.hku.hk/people/chunyizhi/",
+      "title": "Chunyi ZHI · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "材料与能源学系署理系主任，与机械工程学系联合任职。",
+      "claims": [
+        "水系电池、锂离子电池与人工智能辅助能源材料研究。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.comfortablenergy.net/"
+      ]
+    },
+    {
+      "id": "hku-mse-chunyizhi-group-20261118",
+      "url": "https://www.comfortablenergy.net/",
+      "originalUrl": "https://www.comfortablenergy.net/",
+      "retrievedUrl": "https://www.comfortablenergy.net/",
+      "parentSourceId": "hku-mse-chunyizhi-profile-20261118",
+      "title": "能源材料与电池课题组",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-ghchen-profile-20261118",
+      "url": "https://mse.hku.hk/people/ghchen/",
+      "title": "Guanhua CHEN · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "化学系任职，材料与能源学系礼聘。",
+      "claims": [
+        "研究开放量子体系的第一性原理方法及材料与器件模拟。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://yangtze.hku.hk/v2/home"
+      ]
+    },
+    {
+      "id": "hku-mse-ghchen-group-20261118",
+      "url": "https://yangtze.hku.hk/v2/home",
+      "originalUrl": "https://yangtze.hku.hk/v2/home",
+      "retrievedUrl": "https://yangtze.hku.hk/v2/home",
+      "parentSourceId": "hku-mse-ghchen-profile-20261118",
+      "title": "理论与计算化学课题组",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-zxguo-profile-20261118",
+      "url": "https://mse.hku.hk/people/zxguo/",
+      "title": "Zheng Xiao GUO · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "化学系任职，材料与能源学系礼聘。",
+      "claims": [
+        "研究纳米材料、催化剂合成与模拟，以及热、电化学和光电化学催化。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://zxguo.hku.hk/prof-guo"
+      ]
+    },
+    {
+      "id": "hku-mse-zxguo-group-20261118",
+      "url": "https://zxguo.hku.hk/prof-guo/",
+      "originalUrl": "https://zxguo.hku.hk/prof-guo",
+      "retrievedUrl": "https://zxguo.hku.hk/prof-guo/",
+      "parentSourceId": "hku-mse-zxguo-profile-20261118",
+      "title": "郭正晓课题组",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-mxhuang-profile-20261118",
+      "url": "https://mse.hku.hk/people/mxhuang/",
+      "title": "Mingxi HUANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "机械工程学系任职，材料与能源学系礼聘。新个人页标题写 Mingxi，机械工程学系原档案使用 Mingxin。",
+      "claims": [
+        "研究金属合金相变、绿氢用不锈钢及半导体散热。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://meweb.hku.hk/mxhuang/"
+      ]
+    },
+    {
+      "id": "hku-mse-mxhuang-group-20261118",
+      "url": "https://meweb.hku.hk/mxhuang/",
+      "originalUrl": "https://meweb.hku.hk/mxhuang/",
+      "retrievedUrl": "https://meweb.hku.hk/mxhuang/",
+      "parentSourceId": "hku-mse-mxhuang-profile-20261118",
+      "title": "先进合金课题组",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-ylu1-profile-20261118",
+      "url": "https://mse.hku.hk/people/ylu1/",
+      "title": "Yang LU · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "机械工程学系任职，材料与能源学系礼聘。",
+      "claims": [
+        "研究微纳力学、纳米制造、力学超材料与金刚石半导体。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-mse-dsrolovitz-profile-20261118",
+      "url": "https://mse.hku.hk/people/dsrolovitz/",
+      "title": "David SROLOVITZ · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "工程学院院长，与机械工程学系和材料与能源学系联合任职。",
+      "claims": [
+        "研究计算材料科学、微结构演化及先进材料设计。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-mse-jinyao-profile-20261118",
+      "url": "https://mse.hku.hk/people/jinyao/",
+      "title": "Jinyao TANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "化学系任职，材料与能源学系礼聘。",
+      "claims": [
+        "研究纳米机器人、人工纳米马达与能源纳米材料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://tanglab.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-mse-jinyao-group-20261118",
+      "url": "https://tanglab.hku.hk/",
+      "originalUrl": "https://tanglab.hku.hk/",
+      "retrievedUrl": "https://tanglab.hku.hk/",
+      "parentSourceId": "hku-mse-jinyao-profile-20261118",
+      "title": "活性材料与纳米科学课题组",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-yaowang-profile-20261118",
+      "url": "https://mse.hku.hk/people/yaowang/",
+      "title": "Wang YAO · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "物理系任职，材料与能源学系礼聘。",
+      "claims": [
+        "个人页介绍凝聚态物理研究背景。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-mse-xbyin-profile-20261118",
+      "url": "https://mse.hku.hk/people/xbyin/",
+      "title": "Xiaobo YIN · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "机械工程学系任职，材料与能源学系礼聘。",
+      "claims": [
+        "研究传热、能源技术、超材料和纳米制造。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-mse-shuzhang-profile-20261118",
+      "url": "https://mse.hku.hk/people/shuzhang/",
+      "title": "Shuang ZHANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "物理系及电机电子工程学系任职，材料与能源学系礼聘。",
+      "claims": [
+        "研究光与物质相互作用、超材料、拓扑光子学及非线性光学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-mse-xiangzhang-profile-20261118",
+      "url": "https://mse.hku.hk/people/xiangzhang/",
+      "title": "Xiang ZHANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "校方材料与能源学系名录列为讲座教授。",
+      "claims": [
+        "个人页介绍材料科学、纳米研究及 XLab。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://xlab.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-mse-xiangzhang-group-20261118",
+      "url": "https://xlab.hku.hk/",
+      "originalUrl": "https://xlab.hku.hk/",
+      "retrievedUrl": "https://xlab.hku.hk/",
+      "parentSourceId": "hku-mse-xiangzhang-profile-20261118",
+      "title": "张翔实验室",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-hwchoi-profile-20261118",
+      "url": "https://mse.hku.hk/people/hwchoi/",
+      "title": "Anthony CHOI · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "电机与电子工程领域教授，材料与能源学系礼聘。",
+      "claims": [
+        "研究氮化镓器件、固态照明、纳米光子学和光学材料加工。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://eee.hku.hk/~hwchoi"
+      ]
+    },
+    {
+      "id": "hku-mse-hwchoi-group-20261118",
+      "url": "https://web.ece.hku.hk/~hwchoi/",
+      "originalUrl": "https://eee.hku.hk/~hwchoi",
+      "retrievedUrl": "https://web.ece.hku.hk/~hwchoi/",
+      "parentSourceId": "hku-mse-hwchoi-profile-20261118",
+      "title": "半导体照明与显示实验室",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-zqchu-profile-20261118",
+      "url": "https://mse.hku.hk/people/zqchu/",
+      "title": "Zhiqin CHU · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "电机与电子工程领域副教授，材料与能源学系礼聘。",
+      "claims": [
+        "研究化学气相沉积金刚石、氮空位色心、量子传感与金刚石半导体。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://zqchu-diamond.hku.hk/"
+      ]
+    },
+    {
+      "id": "hku-mse-zqchu-group-20261118",
+      "url": "https://zqchu-diamond.hku.hk/",
+      "originalUrl": "https://zqchu-diamond.hku.hk/",
+      "retrievedUrl": "https://zqchu-diamond.hku.hk/",
+      "parentSourceId": "hku-mse-zqchu-profile-20261118",
+      "title": "港大金刚石实验室",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-nicxfang-profile-20261118",
+      "url": "https://mse.hku.hk/people/nicxfang/",
+      "title": "Nicholas FANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "机械工程学系讲座教授，材料与能源学系礼聘。",
+      "claims": [
+        "研究纳米器件及波功能材料的先进制造，涉及能量转换、通信和生物医学成像。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://nicxfang.github.io/"
+      ]
+    },
+    {
+      "id": "hku-mse-nicxfang-group-20261118",
+      "url": "https://nicxfang.github.io/",
+      "originalUrl": "https://nicxfang.github.io/",
+      "retrievedUrl": "https://nicxfang.github.io/",
+      "parentSourceId": "hku-mse-nicxfang-profile-20261118",
+      "title": "Nicholas Fang 课题组",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "学系个人页提供的课题组或实验室入口。",
+      "claims": [
+        "页面列出对应课题组及其研究背景，供申请者继续了解。"
+      ],
+      "knownIssues": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hku-mse-hwchoi",
+      "universityId": "hku",
+      "name": "Anthony CHOI",
+      "department": "电机电子工程学系",
+      "profileUrl": "https://mse.hku.hk/people/hwchoi/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/hwchoi/",
+      "directoryRole": "材料与能源学系礼聘",
+      "identityNote": "电机与电子工程领域教授，材料与能源学系礼聘。",
+      "summary": "研究氮化镓器件、固态照明、纳米光子学和光学材料加工。",
+      "researchKeywords": [
+        "氮化镓",
+        "固态照明",
+        "纳米光子学",
+        "gallium nitride"
+      ],
+      "topics": [
+        "电子与集成电路",
+        "材料与能源"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-hwchoi-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-hwchoi-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-hwchoi-group-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-hwchoi-profile-20261118"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://eee.hku.hk/~hwchoi",
+          "label": "半导体照明与显示实验室",
+          "parentSourceId": "hku-mse-hwchoi-profile-20261118",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-mse-hwchoi-group-20261118",
+          "readNote": "已读课题组页面，适用范围见来源。"
+        }
+      ]
+    },
+    {
+      "id": "hku-mse-zqchu",
+      "universityId": "hku",
+      "name": "Zhiqin CHU",
+      "department": "电机电子工程学系",
+      "profileUrl": "https://mse.hku.hk/people/zqchu/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/zqchu/",
+      "directoryRole": "材料与能源学系礼聘",
+      "identityNote": "电机与电子工程领域副教授，材料与能源学系礼聘。",
+      "summary": "研究化学气相沉积金刚石、氮空位色心、量子传感与金刚石半导体。",
+      "researchKeywords": [
+        "金刚石半导体",
+        "氮空位色心",
+        "量子传感",
+        "quantum sensing"
+      ],
+      "topics": [
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-zqchu-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-zqchu-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-zqchu-group-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-zqchu-profile-20261118"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://zqchu-diamond.hku.hk/",
+          "label": "港大金刚石实验室",
+          "parentSourceId": "hku-mse-zqchu-profile-20261118",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-mse-zqchu-group-20261118",
+          "readNote": "已读课题组页面，适用范围见来源。"
+        }
+      ]
+    },
+    {
+      "id": "hku-mse-nicxfang",
+      "universityId": "hku",
+      "name": "Nicholas FANG",
+      "department": "机械工程学系",
+      "profileUrl": "https://mse.hku.hk/people/nicxfang/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/nicxfang/",
+      "directoryRole": "材料与能源学系礼聘",
+      "identityNote": "机械工程学系讲座教授，材料与能源学系礼聘。",
+      "summary": "研究纳米器件及波功能材料的先进制造，涉及能量转换、通信和生物医学成像。",
+      "researchKeywords": [
+        "纳米器件",
+        "先进制造",
+        "波功能材料",
+        "advanced manufacturing"
+      ],
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-nicxfang-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-nicxfang-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-nicxfang-group-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-nicxfang-profile-20261118"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://nicxfang.github.io/",
+          "label": "Nicholas Fang 课题组",
+          "parentSourceId": "hku-mse-nicxfang-profile-20261118",
+          "bodyStatus": "body_read",
+          "sourceId": "hku-mse-nicxfang-group-20261118",
+          "readNote": "已读课题组页面，适用范围见来源。"
+        }
+      ]
+    }
+  ],
+  "existingUpdates": [
+    {
+      "id": "hku-mechanical-32",
+      "sourceIds": [
+        "hku-mse-chunyizhi-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-chunyizhi-group-20261118"
+      ],
+      "identityNote": "材料与能源学系署理系主任，与机械工程学系联合任职。"
+    },
+    {
+      "id": "hku-chemistry-roster-08",
+      "sourceIds": [
+        "hku-mse-ghchen-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-ghchen-group-20261118"
+      ],
+      "identityNote": "化学系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-chemistry-roster-09",
+      "sourceIds": [
+        "hku-mse-zxguo-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-zxguo-group-20261118"
+      ],
+      "identityNote": "化学系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-mechanical-07",
+      "sourceIds": [
+        "hku-mse-mxhuang-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-mxhuang-group-20261118"
+      ],
+      "identityNote": "机械工程学系任职，材料与能源学系礼聘。新个人页标题写 Mingxi，机械工程学系原档案使用 Mingxin。"
+    },
+    {
+      "id": "hku-mechanical-16",
+      "sourceIds": [
+        "hku-mse-ylu1-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "identityNote": "机械工程学系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-mechanical-30",
+      "sourceIds": [
+        "hku-mse-dsrolovitz-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "identityNote": "工程学院院长，与机械工程学系和材料与能源学系联合任职。"
+    },
+    {
+      "id": "hku-chemistry-roster-13",
+      "sourceIds": [
+        "hku-mse-jinyao-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-jinyao-group-20261118"
+      ],
+      "identityNote": "化学系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-physics-25",
+      "sourceIds": [
+        "hku-mse-yaowang-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "identityNote": "物理系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-mechanical-24",
+      "sourceIds": [
+        "hku-mse-xbyin-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "identityNote": "机械工程学系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-physics-30",
+      "sourceIds": [
+        "hku-mse-shuzhang-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "identityNote": "物理系及电机电子工程学系任职，材料与能源学系礼聘。"
+    },
+    {
+      "id": "hku-physics-31",
+      "sourceIds": [
+        "hku-mse-xiangzhang-profile-20261118",
+        "hku-mse-academic-staff-20261118",
+        "hku-mse-xiangzhang-group-20261118"
+      ],
+      "identityNote": "校方材料与能源学系名录列为讲座教授。"
+    }
+  ]
+}

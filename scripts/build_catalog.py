@@ -1989,6 +1989,15 @@ def build_catalog():
                     "basis": "intake", "cycle": CYCLE, "condition": "HKPFS获奖者"}]},
     ]
     catalog["programs"].append(cityu_ds)
+    mse_appointments = load("hku-mse-appointments-20261118.json")
+    catalog["sources"].extend(mse_appointments["sources"])
+    faculty_by_id = {person["id"]: person for person in catalog["faculty"]}
+    for update in mse_appointments["existingUpdates"]:
+        person = faculty_by_id[update["id"]]
+        person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + update["sourceIds"]))
+        person["academicUnitIds"] = list(dict.fromkeys(person.get("academicUnitIds", []) + ["hku-6"]))
+        person["identityNote"] = " ".join(filter(None, (person.get("identityNote"), update["identityNote"])))
+    catalog["faculty"].extend(mse_appointments["faculty"])
     return catalog
 
 
