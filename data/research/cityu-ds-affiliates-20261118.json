@@ -200,18 +200,20 @@
       }
     }
   ],
-  "existingUpdate": {
-    "id": "cityu-dao-gufeng",
-    "sourceIds": [
-      "cityu-ds-affiliate-members-20261118",
-      "cityu-ds-affiliate-feng-20261118"
-    ],
-    "directorySourceIds": [
-      "cityu-ds-affiliate-members-20261118"
-    ],
-    "academicUnitIds": [
-      "cityu-3"
-    ],
-    "identityNote": "商学院正职，另列数据科学学系附属成员。申请前请向项目核对指导安排与当期余位。"
-  }
+  "existingUpdates": [
+    {
+      "id": "cityu-dao-gufeng",
+      "sourceIds": [
+        "cityu-ds-affiliate-members-20261118",
+        "cityu-ds-affiliate-feng-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "identityNote": "商学院正职，另列数据科学学系附属成员。申请前请向项目核对指导安排与当期余位。"
+    }
+  ]
 }

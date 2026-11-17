@@ -51864,13 +51864,17 @@
       "universityId": "cityu",
       "sourceIds": [
         "cityu-dao-profile-jingyuhe-20261028",
-        "cityu-dao-directory-regular-20261028"
+        "cityu-dao-directory-regular-20261028",
+        "cityu-ds-affiliate-jingyu-he-20261118",
+        "cityu-ds-affiliate-members-20261118"
       ],
       "directorySourceIds": [
-        "cityu-dao-directory-regular-20261028"
+        "cityu-dao-directory-regular-20261028",
+        "cityu-ds-affiliate-members-20261118"
       ],
       "academicUnitIds": [
-        "cityu-2"
+        "cityu-2",
+        "cityu-3"
       ],
       "extraLinks": [
         {
@@ -51886,7 +51890,7 @@
       "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=jingyuhe",
       "directoryRole": "正职",
       "department": "决策分析与运营学系 · 正职",
-      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "identityNote": "商学院正职，另列数据科学学系附属成员。商学院个人页列副教授，附属名录仍列助理教授。",
       "summary": "研究金融领域的机器学习、实证资产定价和贝叶斯统计。",
       "researchKeywords": [
         "machine learning in finance",
@@ -53359,6 +53363,184 @@
         "text": "向项目核对本轮指导安排和余位。",
         "sourceIds": [
           "cityu-ds-affiliate-dapeng-wu-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-yanzhi-li",
+      "universityId": "cityu",
+      "name": "Yanzhi David LI（李彥志）",
+      "department": "决策分析与运营学系、市场营销学系",
+      "profileUrl": "https://www.cb.cityu.edu.hk/staff/yanzhili/",
+      "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/staff/yanzhili/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "商学院个人页列两个学系的教授任职及数据科学学系附属任职。学系名录仍列营销系主任，个人页注明该任职在 2026 年结束。",
+      "summary": "研究数据驱动的定价、商品组合及运营与营销决策。",
+      "researchKeywords": [
+        "商业分析",
+        "定价",
+        "供应链管理",
+        "运营与营销",
+        "data-driven pricing",
+        "assortment planning"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-yanzhi-li-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-yanzhi-li-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-2",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-yanzhi-li-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-siyang-gao",
+      "universityId": "cityu",
+      "name": "Siyang GAO（高思陽）",
+      "department": "系统工程学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/siyangao/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/siyangao/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "城大研究门户列系统工程学系教授兼副系主任、数据科学学系附属教授。",
+      "summary": "研究仿真优化、大规模优化及放射治疗规划。",
+      "researchKeywords": [
+        "仿真优化",
+        "大规模优化",
+        "放射治疗规划",
+        "simulation optimization"
+      ],
+      "topics": [
+        "理论与优化",
+        "生物医学与健康"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-siyang-gao-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-siyang-gao-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-4",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-siyang-gao-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-jun-li",
+      "universityId": "cityu",
+      "name": "Jun LI（李俊）",
+      "department": "传染病与公共卫生学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/junli53/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/junli53/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "城大研究门户列传染病与公共卫生学系及数据科学学系附属任职。个人页含课题组申请说明，适用轮次与余位待确认。",
+      "summary": "研究环境及疾病相关微生物组、微生物互作和基于人工智能的疾病预测。",
+      "researchKeywords": [
+        "微生物组",
+        "微生物互作",
+        "疾病预测",
+        "机器学习",
+        "microbiome",
+        "disease prediction"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-jun-li-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-jun-li-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-7",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-jun-li-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-xiang-zhou",
+      "universityId": "cityu",
+      "name": "Xiang ZHOU（周翔）",
+      "department": "数学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/xizhou/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/xizhou/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "城大研究门户列数学系副教授及数据科学学系附属任职。",
+      "summary": "研究随机系统的稀有跃迁、生成建模、随机算法和科学机器学习。",
+      "researchKeywords": [
+        "随机系统稀有跃迁",
+        "生成建模",
+        "随机算法",
+        "科学机器学习",
+        "rare transition events",
+        "stochastic algorithms"
+      ],
+      "topics": [
+        "数学与统计",
+        "机器学习"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-xiang-zhou-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-xiang-zhou-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-6",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-xiang-zhou-20261118"
         ]
       }
     },
@@ -164613,6 +164795,74 @@
         "主要研究为实证资产定价和金融科技，使用机器学习、贝叶斯统计和金融计量方法。"
       ],
       "knownIssues": [],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-yanzhi-li-20261118",
+      "url": "https://www.cb.cityu.edu.hk/staff/yanzhili/",
+      "title": "Yanzhi David LI（李彥志） · 城大个人档案",
+      "scope": "商学院个人页列两个学系的教授任职及数据科学学系附属任职。学系名录仍列营销系主任，个人页注明该任职在 2026 年结束。",
+      "claims": [
+        "研究数据驱动的定价、商品组合及运营与营销决策。"
+      ],
+      "knownIssues": [],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-siyang-gao-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/siyangao/",
+      "title": "Siyang GAO（高思陽） · 城大个人档案",
+      "scope": "城大研究门户列系统工程学系教授兼副系主任、数据科学学系附属教授。",
+      "claims": [
+        "研究仿真优化、大规模优化及放射治疗规划。"
+      ],
+      "knownIssues": [
+        "学系名录所链接的原个人页返回 403；研究门户列教授，学系名录列副教授。"
+      ],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-jun-li-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/junli53/",
+      "title": "Jun LI（李俊） · 城大个人档案",
+      "scope": "城大研究门户列传染病与公共卫生学系及数据科学学系附属任职。个人页含课题组申请说明，适用轮次与余位待确认。",
+      "claims": [
+        "研究环境及疾病相关微生物组、微生物互作和基于人工智能的疾病预测。"
+      ],
+      "knownIssues": [
+        "学系名录所链接的原个人页返回 403；个人页课题组条件适用范围须向项目确认。"
+      ],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-xiang-zhou-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/xizhou/",
+      "title": "Xiang ZHOU（周翔） · 城大个人档案",
+      "scope": "城大研究门户列数学系副教授及数据科学学系附属任职。",
+      "claims": [
+        "研究随机系统的稀有跃迁、生成建模、随机算法和科学机器学习。"
+      ],
+      "knownIssues": [
+        "学系名录所链接的原个人页返回 403；研究门户另给个人主页，跳转后未读到正文。"
+      ],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-jingyu-he-20261118",
+      "url": "https://www.cb.cityu.edu.hk/staff/jingyuhe/",
+      "title": "何靖宇 · 城大商学院个人页",
+      "scope": "商学院职位与研究说明；数据科学学系附属名录链接到该页。",
+      "claims": [
+        "商学院个人档案列副教授，研究金融领域机器学习、资产定价和贝叶斯统计。"
+      ],
+      "knownIssues": [
+        "数据科学学系附属名录仍列助理教授，保留两处职称口径。"
+      ],
       "checkedAt": "2026-11-17",
       "evidenceLevel": "official_verified_page_scoped"
     },
@@ -346576,5 +346826,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:6ec80b2dc5f92f107efde60b1f08165ec50f1ca587ff6f428d401d23cf9c4731"
+  "snapshotId": "sha256:197de34a9a2fc5b5069f082a8296e68cef301df000d55a3e4ec52e70fad020b7"
 }
