@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-16",
+  "checkedDate": "2026-11-17",
   "cycle": "2027/28",
   "universities": [
     {
@@ -5736,7 +5736,9 @@
         "polyu-cee-rpg-0-20261029",
         "polyu-cee-rpg-1-20261029",
         "polyu-cee-rpg-2-20261029",
-        "polyu-cee-rpg-3-20261029"
+        "polyu-cee-rpg-3-20261029",
+        "polyu-gs-hkpfs-2027-package",
+        "polyu-eee-20261111-fee"
       ],
       "requirements": [
         {
@@ -5761,6 +5763,59 @@
           "action": "核正式系统的申请费收据和奖学金通知",
           "sourceIds": [
             "polyu-cee-rpg-3-20261029"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-cee-hkpfs-2027-application-fee",
+          "kind": "application_fee",
+          "label": "港理工网申申请费",
+          "text": "港理工研究生院列 2027/28 申请费为 600 港元，在提交校方网申时支付。",
+          "action": "在港理工网申系统核对付款。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "港理工研究学位网申"
+            }
+          ]
+        },
+        {
+          "id": "polyu-cee-hkpfs-2027-tuition",
+          "kind": "tuition",
+          "label": "获奖后的学费豁免",
+          "text": "港理工 2027/28 HKPFS 获奖者在正常修读期内可享学费豁免。",
+          "action": "按录取及奖学金通知核对豁免。",
+          "sourceIds": [
+            "polyu-gs-hkpfs-2027-package"
+          ],
+          "rates": []
+        },
+        {
+          "id": "polyu-cee-hkpfs-2027-studentship",
+          "kind": "studentship",
+          "label": "获奖后的津贴",
+          "text": "港理工研究生院列 HKPFS 获奖者每年津贴 344,400 港元，适用于正常修读期。",
+          "action": "按正式获奖通知核对津贴安排。",
+          "sourceIds": [
+            "polyu-gs-hkpfs-2027-package"
+          ],
+          "rates": [
+            {
+              "value": 344400,
+              "currency": "HKD",
+              "unit": "year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "HKPFS获奖者"
+            }
           ]
         }
       ]
@@ -266216,6 +266271,22 @@
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "2933c50152f667c625de531b5a8e83c7d686b9f32de10f9c4ea1c71e04fe2400"
+    },
+    {
+      "id": "polyu-gs-hkpfs-2027-package",
+      "url": "https://www.polyu.edu.hk/gs/prospective-students/hkpfs/",
+      "title": "港理工研究院 · 2027/28 港博奖学金",
+      "checkedAt": "2026-11-17",
+      "scope": "港理工2027/28 HKPFS获奖者正常修读期的待遇。",
+      "claims": [
+        "获奖者每年津贴344,400港元，并有学费豁免。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "official_scoped_body_read",
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "00d9911b18e2123a476c359ce80fc4ba3b4a33b1b61ea55dc821581b383b443d"
     }
   ],
   "funding": [
@@ -346038,5 +346109,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:0829c5cef84e44d923a0332743332cdb19ff7131da0f99c3dc903498c38be7ce"
+  "snapshotId": "sha256:2703f8307a34a8614d1c439c6dbb95a9232a183daad3d3f04c83311e9b4ec802"
 }

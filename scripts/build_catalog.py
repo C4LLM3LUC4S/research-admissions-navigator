@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-16"
+CHECKED = "2026-11-17"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -1917,6 +1917,27 @@ def build_catalog():
         for item in central["finances"]
     ]
     dsa["sourceIds"] = list(dict.fromkeys(dsa["sourceIds"] + ["gz-scholarships-fees"]))
+    fellowship_source = load("polyu-cee-hkpfs-finances-20261117.json")
+    catalog["sources"].append(fellowship_source)
+    cee_fellowship = next(row for row in catalog["programs"] if row["id"] == "polyu-cee-hkpfs-2027")
+    refs = [fellowship_source["id"]]
+    fee_refs = ["polyu-eee-20261111-fee"]
+    cee_fellowship["sourceIds"].extend(refs + fee_refs)
+    cee_fellowship["finances"] = [
+        {"id": "polyu-cee-hkpfs-2027-application-fee", "kind": "application_fee",
+         "label": "港理工网申申请费", "text": "港理工研究生院列 2027/28 申请费为 600 港元，在提交校方网申时支付。",
+         "action": "在港理工网申系统核对付款。", "sourceIds": fee_refs,
+         "rates": [{"value": 600, "currency": "HKD", "unit": "application",
+                    "basis": "intake", "cycle": CYCLE, "condition": "港理工研究学位网申"}]},
+        {"id": "polyu-cee-hkpfs-2027-tuition", "kind": "tuition",
+         "label": "获奖后的学费豁免", "text": "港理工 2027/28 HKPFS 获奖者在正常修读期内可享学费豁免。",
+         "action": "按录取及奖学金通知核对豁免。", "sourceIds": refs, "rates": []},
+        {"id": "polyu-cee-hkpfs-2027-studentship", "kind": "studentship",
+         "label": "获奖后的津贴", "text": "港理工研究生院列 HKPFS 获奖者每年津贴 344,400 港元，适用于正常修读期。",
+         "action": "按正式获奖通知核对津贴安排。", "sourceIds": refs,
+         "rates": [{"value": 344400, "currency": "HKD", "unit": "year",
+                    "basis": "intake", "cycle": CYCLE, "condition": "HKPFS获奖者"}]},
+    ]
     return catalog
 
 
