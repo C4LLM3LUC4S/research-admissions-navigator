@@ -12,6 +12,8 @@ test('faculty search accepts names and exact research terms without mixing their
   assert.ok(L.facultySearch('吳大鵬').matchesName(person.name));
   assert.equal(L.facultySearch('peng WU').matchesName(person.name),false);
   assert.ok(L.facultySearch('SIGNAL PROCESSING').matchedTerms(person).includes('signal processing'));
+  const hku={...profile,universityIds:['hku'],researchQuery:'Chunyi Zhi'};
+  assert.deepEqual(L.facultyFor(C,hku).map(row=>row.id),['hku-mechanical-32']);
 });
 
 test('wide coverage is an evidence-linked faculty inventory, never a count of available places',()=>{
