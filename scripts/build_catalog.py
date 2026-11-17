@@ -440,11 +440,11 @@ def build_catalog():
     catalog["faculty"].extend(dao["faculty"])
     catalog["directories"].extend(dao["directories"])
     for filename in ("cityu-ds-affiliates-20261118.json", "cityu-ds-more-affiliates-20261118.json",
-                     "cityu-ds-systems-affiliations-20261118.json"):
-        ds_affiliates = load(filename)
-        catalog["sources"].extend(ds_affiliates["sources"])
-        catalog["faculty"].extend(ds_affiliates["faculty"])
-        for update in ds_affiliates["existingUpdates"]:
+                     "cityu-ds-systems-affiliations-20261118.json", "cityu-ds-research-faculty-20261118.json"):
+        ds_staff = load(filename)
+        catalog["sources"].extend(ds_staff["sources"])
+        catalog["faculty"].extend(ds_staff["faculty"])
+        for update in ds_staff["existingUpdates"]:
             person = next(row for row in dao["faculty"] if row["id"] == update["id"])
             for field in ("sourceIds", "directorySourceIds", "academicUnitIds"):
                 person[field] = list(dict.fromkeys(person[field] + update[field]))
