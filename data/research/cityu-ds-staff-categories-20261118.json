@@ -1,0 +1,149 @@
+{
+  "sources": [
+    {
+      "id": "cityu-ds-people-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people",
+      "title": "港城大数据科学学系 · 人员分类总览",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列人员分类总览",
+      "claims": [
+        "总览列出学术人员、研究教授、访问、实务、兼任、附属、荣誉、讲师、行政、技术和博士生等入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-research-professors-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/research-professors",
+      "title": "港城大数据科学学系 · 研究教授分类",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列研究教授分类",
+      "claims": [
+        "入口区分全球研究助理教授与研究助理教授。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-global-research-assistant-professors-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/research-professors/global-research-assistant-professors",
+      "title": "港城大数据科学学系 · 全球研究助理教授",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列全球研究助理教授",
+      "claims": [
+        "正文列研究岗位、研究兴趣与部分个人主页。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-research-assistant-professors-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/research-professors/research-assistant-professors",
+      "title": "港城大数据科学学系 · 研究助理教授",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列研究助理教授",
+      "claims": [
+        "正文列研究岗位和研究兴趣，部分条目提供个人主页。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-distinguished-visiting-professors-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/distinguished-visiting-professors",
+      "title": "港城大数据科学学系 · 杰出访问教授",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列杰出访问教授",
+      "claims": [
+        "名录包含环境健康和人工智能研究背景。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-professor-practice-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/professor-practice",
+      "title": "港城大数据科学学系 · 实务教授",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列实务教授",
+      "claims": [
+        "正文介绍实务教授及其专业经历。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-adjunct-professors-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/adjunct-professors",
+      "title": "港城大数据科学学系 · 兼任教授",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列兼任教授",
+      "claims": [
+        "正文列学术界与业界两类兼任岗位及研究兴趣。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-affiliate-members-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/affiliate-members",
+      "title": "港城大数据科学学系 · 附属成员",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列附属成员",
+      "claims": [
+        "正文提供附属身份及成员在不同学系的主要职位。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-honorary-professors-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/honorary-professors",
+      "title": "港城大数据科学学系 · 荣誉教授",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列荣誉教授",
+      "claims": [
+        "正文列荣誉教授的外部职位及研究兴趣。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-lecturers-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/lecturers",
+      "title": "港城大数据科学学系 · 讲师",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列讲师",
+      "claims": [
+        "正文列讲师和部分研究兴趣。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-administrative-staff-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/administrative-staff",
+      "title": "港城大数据科学学系 · 行政人员",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列行政人员",
+      "claims": [
+        "正文列行政岗位及其事务分工。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-it-technical-staff-20261118",
+      "url": "https://www.ds.cityu.edu.hk/people/it-technical-staff",
+      "title": "港城大数据科学学系 · 技术支援人员",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系官网所列技术支援人员",
+      "claims": [
+        "正文列信息技术支援岗位。"
+      ],
+      "knownIssues": []
+    }
+  ],
+  "coverageNotes": "学术人员页已有逐人核对记录。可从分类总览查看研究、访问、实务、兼任、附属、荣誉及讲师名录，也可找到行政与技术支援入口。逐人主页、课题组和当期指导资格仍在核查。"
+}
