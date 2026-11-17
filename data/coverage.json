@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "checkedDate": "2026-11-16",
+  "checkedDate": "2026-11-17",
   "counts": {
     "universities": 7,
     "programs": 84,
     "faculty": 2414,
-    "sources": 4631,
+    "sources": 4632,
     "funding": 1,
     "degreeRoutes": 144,
     "facultyByUniversity": {
@@ -21,8 +21,8 @@
     "dateOnlyDeadlines": 110,
     "programsWithRequirements": 83,
     "requirementItems": 309,
-    "programsWithFinances": 79,
-    "financeItems": 149,
+    "programsWithFinances": 80,
+    "financeItems": 152,
     "officialDirectories": 134,
     "directoriesByUniversity": {
       "hku": 32,
