@@ -1,0 +1,20 @@
+{
+  "id": "cityu-ds-phd-2027-catalogue",
+  "url": "https://www.ds.cityu.edu.hk/programmes/postgraduate-programmes/phd-programme-data-science",
+  "title": "港城大数据科学学系 · 博士申请",
+  "checkedAt": "2026-11-17",
+  "scope": "数据科学博士申请、2027/28博士奖学金、材料及英语。",
+  "claims": [
+    "本项目仅考虑博士申请，系页列博士学历及语言要求，并要求两封学术推荐。",
+    "2027/28 HKPFS 获奖者月津贴28,700港元。"
+  ],
+  "knownIssues": [
+    "学费表标为2026/27，当前学年费用待核。",
+    "系页时间表为图片，本批只采用可核文字的校级主轮。"
+  ],
+  "evidenceLevel": "official_scoped_body_read",
+  "readMethod": "web_reader",
+  "receiptKind": "web_reader_returned_text",
+  "receiptScope": "batched_tool_response",
+  "readReceiptSha256": "273544cf6fe19d533dc31c3e049a66b8745f013e5ec8388a041cc45bba8cd7a1"
+}
