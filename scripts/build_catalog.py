@@ -2569,7 +2569,7 @@ def startup_project_html(catalog):
         '<h2 id="startup-project-title">按学校查看项目官网</h2>'
         '<p>选择学校，先查看学位、材料和申请时间。</p>'
         '<form id="startup-search" hidden>'
-        '<label for="startup-research-query">按研究关键词找老师</label>'
+        '<label for="startup-research-query">按姓名或研究关键词找老师</label>'
         '<input id="startup-research-query" type="search" maxlength="160" placeholder="例如：机器人、APOE4">'
         '<button class="button secondary" type="submit">搜索</button>'
         '<p id="startup-search-status" role="status"></p><ul id="startup-search-results"></ul>'

@@ -13,7 +13,7 @@
     if(!searched)status.textContent=catalogUnavailable?details:'';
     else status.textContent=matches.length
       ? '找到 '+matches.length+' 位老师。'+details
-      : '没有匹配的研究关键词，可以试试其他中英文词。';
+      : '没有找到匹配的老师，可以换个姓名写法或研究词。';
   }
   function appendResults() {
     for(const [name, school, profileUrl, terms] of matches.slice(shown, shown+12)){
@@ -27,7 +27,8 @@
         anchor.rel='noopener noreferrer';
         item.append(anchor);
       }else item.append(name);
-      item.append(' · '+index.schools[school]+' · '+terms.slice(0, 4).join('、'));
+      item.append(' · '+index.schools[school]);
+      if(terms.length)item.append(' · '+terms.slice(0, 4).join('、'));
       results.append(item);
     }
     shown=results.children.length;
@@ -41,13 +42,14 @@
     matches=[];
     shown=0;
     if(query){
+      const search=logic.facultySearch(query);
       for(const [name, school, profileUrl, researchKeywords] of index.faculty){
-        const terms=logic.matchedResearchTerms({researchKeywords},query);
-        if(terms.length)matches.push([name, school, profileUrl, terms]);
+        const terms=search.matchedTerms({researchKeywords});
+        if(terms.length || search.matchesName(name))matches.push([name, school, profileUrl, terms]);
       }
     }
     if(query)showStatus();
-    else status.textContent='请输入想了解的研究关键词。';
+    else status.textContent='请输入老师姓名或研究关键词。';
     appendResults();
   });
   more.addEventListener('click',appendResults);
