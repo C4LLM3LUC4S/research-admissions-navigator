@@ -229489,6 +229489,45 @@
       "readReceiptSha256": "a0d0e93555039ed30e9da88811c54e7c1628c3ea4e335987450d87f1d3a99d89"
     },
     {
+      "id": "cuhk-zhizhen-2027-admission-20261118",
+      "url": "https://www.zsims.cuhk.edu.hk/en/?Home___Admission",
+      "originalUrl": "https://www.zsims.cuhk.edu.hk/en/?Home___Admission",
+      "retrievedUrl": "https://www.zsims.cuhk.edu.hk/en/?Home___Admission",
+      "title": "致真学院 2027/28 贯通项目招生",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027/28 数学科学学士—博士贯通项目。",
+      "claims": [
+        "本科起步的数学科学学士—博士贯通项目，需通过学院笔试及面试。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "81a0836d1e94bb4dc8a4b3572f2b817abe09eb2f78c361ae7336d2233d18c83f",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://www.zsims.cuhk.edu.hk/en/?Home___Important_Dates",
+        "https://cloud.itsc.cuhk.edu.hk/webform/view.php?id=13742391"
+      ]
+    },
+    {
+      "id": "cuhk-zhizhen-2027-dates-20261118",
+      "url": "https://www.zsims.cuhk.edu.hk/en/?Home___Important_Dates",
+      "originalUrl": "https://www.zsims.cuhk.edu.hk/en/?Home___Important_Dates",
+      "retrievedUrl": "https://www.zsims.cuhk.edu.hk/en/?Home___Important_Dates",
+      "title": "致真学院 2027/28 贯通项目日程",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "2027/28 数学科学学士—博士贯通项目。",
+      "claims": [
+        "入学考试报名截止 2026 年 11 月 8 日；学院安排 12 月 5–6 日笔试及 2027 年 1 月 16–17 日面试。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "59c034421f7b61c7a2092d486dba3a9fbdb195f73ef704e74f452d17549f0147",
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": [
+        "https://cloud.itsc.cuhk.edu.hk/webform/view.php?id=13742391%20"
+      ]
+    },
+    {
       "id": "hkust-medicine-mbbs-scope-20261106",
       "url": "https://medicine.hkust.edu.hk/admissions.html",
       "title": "港科大医学院 · 学士后医学课程申请",
@@ -311973,7 +312012,9 @@
               "scope-zhizhen-about-20261102",
               "scope-zhizhen-academics-20261102",
               "cuhk-zhizhen-establishment-20261106",
-              "cuhk-zhizhen-establishment-appendix-20261106"
+              "cuhk-zhizhen-establishment-appendix-20261106",
+              "cuhk-zhizhen-2027-admission-20261118",
+              "cuhk-zhizhen-2027-dates-20261118"
             ],
             "organizationComplete": false,
             "facultyComplete": false,
@@ -312097,6 +312138,18 @@
               "label": "看成立时公布的八年贯通培养计划",
               "sourceId": "cuhk-zhizhen-establishment-appendix-20261106",
               "scope": "附件描述从本科起步的原计划。已有学位、想单独申请研究型硕博的读者，可另查学院当期招生入口。",
+              "kind": "training_scope"
+            },
+            {
+              "label": "致真学院 2027/28 贯通项目招生",
+              "sourceId": "cuhk-zhizhen-2027-admission-20261118",
+              "scope": "本科起步的数学科学学士—博士贯通项目，需通过学院笔试及面试。",
+              "kind": "training_scope"
+            },
+            {
+              "label": "致真学院 2027/28 贯通项目日程",
+              "sourceId": "cuhk-zhizhen-2027-dates-20261118",
+              "scope": "入学考试报名截止 2026 年 11 月 8 日；学院安排 12 月 5–6 日笔试及 2027 年 1 月 16–17 日面试。",
               "kind": "training_scope"
             }
           ]
@@ -348189,5 +348242,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:c47f713aa51dc70cfa6fe18f42e21909d4f094507104bb63d510d93ddb85ea84"
+  "snapshotId": "sha256:c46c078772cccdf9f5f80ffbaf2030aa789017e664dc6763197329786d97259d"
 }
