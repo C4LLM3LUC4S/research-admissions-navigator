@@ -1,0 +1,185 @@
+{
+  "sources": [
+    {
+      "id": "cityu-ds-min-xie-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/minxie/",
+      "title": "Min XIE（謝旻） · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "城大研究门户列系统工程学系讲座教授与数据科学学系附属任职。个人页提供联系途径，适用轮次与余位待确认。",
+      "claims": [
+        "研究系统和软件可靠性、质量管理及应用统计。"
+      ],
+      "knownIssues": [
+        "学系名录所链接的原个人页返回 403，研究方向采用独立的城大研究门户正文。"
+      ]
+    },
+    {
+      "id": "cityu-ds-chuangyin-dang-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/mecdang/",
+      "title": "Chuangyin DANG（党創寅） · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "城大研究门户列系统工程学系教授及数据科学学系附属任职。学系名录另列系主任，研究门户未列此项职务。",
+      "claims": [
+        "研究博弈论、数学优化及其在系统建模和经济金融中的应用。"
+      ],
+      "knownIssues": [
+        "学系名录所链接的原个人页返回 403，研究方向采用独立的城大研究门户正文。"
+      ]
+    },
+    {
+      "id": "cityu-ds-kwai-sang-chin-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/mekschin/",
+      "title": "Kwai Sang CHIN（錢桂生） · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "城大研究门户列数据科学和系统工程两系兼任教授。",
+      "claims": [
+        "研究质量系统、决策支持与产品设计。"
+      ],
+      "knownIssues": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "cityu-ds-min-xie",
+      "universityId": "cityu",
+      "name": "Min XIE（謝旻）",
+      "department": "系统工程学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/minxie/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/minxie/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "城大研究门户列系统工程学系讲座教授与数据科学学系附属任职。个人页提供联系途径，适用轮次与余位待确认。",
+      "summary": "研究系统和软件可靠性、质量管理及应用统计。",
+      "researchKeywords": [
+        "可靠性工程",
+        "软件可靠性",
+        "质量管理",
+        "应用统计",
+        "reliability engineering",
+        "software reliability"
+      ],
+      "topics": [
+        "数学与统计",
+        "软件工程与编程语言"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-min-xie-profile-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-min-xie-profile-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-4",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-min-xie-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-chuangyin-dang",
+      "universityId": "cityu",
+      "name": "Chuangyin DANG（党創寅）",
+      "department": "系统工程学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/mecdang/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/mecdang/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "城大研究门户列系统工程学系教授及数据科学学系附属任职。学系名录另列系主任，研究门户未列此项职务。",
+      "summary": "研究博弈论、数学优化及其在系统建模和经济金融中的应用。",
+      "researchKeywords": [
+        "博弈论",
+        "数学优化",
+        "系统建模",
+        "计算经济学",
+        "game theory",
+        "mathematical optimization"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-chuangyin-dang-profile-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-chuangyin-dang-profile-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-4",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-chuangyin-dang-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-kwai-sang-chin",
+      "universityId": "cityu",
+      "name": "Kwai Sang CHIN（錢桂生）",
+      "department": "系统工程学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/mekschin/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/mekschin/",
+      "directoryRole": "数据科学学系兼任教授",
+      "identityNote": "城大研究门户列数据科学和系统工程两系兼任教授。",
+      "summary": "研究质量系统、决策支持与产品设计。",
+      "researchKeywords": [
+        "质量系统",
+        "决策支持系统",
+        "产品设计",
+        "运营管理",
+        "quality systems",
+        "decision support systems"
+      ],
+      "topics": [
+        "理论与优化",
+        "经济与管理"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-kwai-sang-chin-profile-20261118",
+        "cityu-ds-adjunct-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-kwai-sang-chin-profile-20261118",
+        "cityu-ds-adjunct-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-adjunct-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-4",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-kwai-sang-chin-profile-20261118"
+        ]
+      }
+    }
+  ],
+  "existingUpdates": []
+}

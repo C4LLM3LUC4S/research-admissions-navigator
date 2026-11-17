@@ -439,7 +439,8 @@ def build_catalog():
     catalog["sources"].extend(dao["sources"])
     catalog["faculty"].extend(dao["faculty"])
     catalog["directories"].extend(dao["directories"])
-    for filename in ("cityu-ds-affiliates-20261118.json", "cityu-ds-more-affiliates-20261118.json"):
+    for filename in ("cityu-ds-affiliates-20261118.json", "cityu-ds-more-affiliates-20261118.json",
+                     "cityu-ds-systems-affiliations-20261118.json"):
         ds_affiliates = load(filename)
         catalog["sources"].extend(ds_affiliates["sources"])
         catalog["faculty"].extend(ds_affiliates["faculty"])
