@@ -53683,6 +53683,272 @@
       }
     },
     {
+      "id": "cityu-ds-rap-xinke-li",
+      "universityId": "cityu",
+      "name": "Xinke LI（李欣科）",
+      "department": "数据科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/xinkeli/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/xinkeli/",
+      "directoryRole": "全球研究助理教授",
+      "identityNote": "港城大数据科学学系名录列全球研究助理教授，城大研究门户列个人任职。",
+      "summary": "研究三维视觉、几何深度学习、可信人工智能和生物医学应用。",
+      "researchKeywords": [
+        "三维计算机视觉",
+        "几何深度学习",
+        "可信人工智能",
+        "生物医学人工智能",
+        "3D computer vision"
+      ],
+      "topics": [
+        "计算机视觉",
+        "人工智能",
+        "生物医学与健康"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-rap-xinke-li-profile-20261118",
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-rap-xinke-li-profile-20261118",
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-rap-xinke-li-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-rap-xingyu-guo",
+      "universityId": "cityu",
+      "name": "Xingyu GUO（郭星宇）",
+      "department": "数据科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/xingyguo/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/xingyguo/",
+      "directoryRole": "全球研究助理教授",
+      "identityNote": "港城大数据科学学系名录列全球研究助理教授，城大研究门户列个人任职。",
+      "summary": "以材料信息学与机器学习研究电池材料设计。",
+      "researchKeywords": [
+        "材料信息学",
+        "电池材料设计",
+        "机器学习",
+        "materials informatics"
+      ],
+      "topics": [
+        "材料与能源",
+        "机器学习"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-rap-xingyu-guo-profile-20261118",
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-rap-xingyu-guo-profile-20261118",
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-rap-xingyu-guo-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-rap-yang-qian",
+      "universityId": "cityu",
+      "name": "Yang QIAN",
+      "department": "数据科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/yangqian/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/yangqian/",
+      "directoryRole": "全球研究助理教授",
+      "identityNote": "港城大数据科学学系名录列全球研究助理教授，城大研究门户列个人任职。",
+      "summary": "研究量子机器学习、深度学习和分布式优化。",
+      "researchKeywords": [
+        "量子机器学习",
+        "深度学习",
+        "分布式优化",
+        "quantum machine learning",
+        "distributed optimization"
+      ],
+      "topics": [
+        "机器学习",
+        "理论与优化"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-rap-yang-qian-profile-20261118",
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-rap-yang-qian-profile-20261118",
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-global-research-assistant-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-rap-yang-qian-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-rap-enming-liang",
+      "universityId": "cityu",
+      "name": "Enming LIANG",
+      "department": "数据科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/eliang4/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/eliang4/",
+      "directoryRole": "研究助理教授",
+      "identityNote": "港城大数据科学学系名录列研究助理教授，城大研究门户列个人任职。",
+      "summary": "将人工智能用于优化、生成式决策、智能能源和交通系统。",
+      "researchKeywords": [
+        "优化中的人工智能",
+        "生成式决策",
+        "智能能源系统",
+        "智能交通",
+        "intelligent transportation systems"
+      ],
+      "topics": [
+        "人工智能",
+        "理论与优化",
+        "材料与能源"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-rap-enming-liang-profile-20261118",
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-rap-enming-liang-profile-20261118",
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-rap-enming-liang-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-rap-zhenling-mo",
+      "universityId": "cityu",
+      "name": "Zhenling MO",
+      "department": "数据科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/zhenlmo2/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/zhenlmo2/",
+      "directoryRole": "研究助理教授",
+      "identityNote": "港城大数据科学学系名录列研究助理教授，城大研究门户列个人任职。",
+      "summary": "研究因果机器学习、模型泛化、机械信号处理与故障诊断。",
+      "researchKeywords": [
+        "因果机器学习",
+        "模型泛化",
+        "机械信号处理",
+        "故障诊断与预后",
+        "causal machine learning"
+      ],
+      "topics": [
+        "机器学习",
+        "土木与机械工程"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-rap-zhenling-mo-profile-20261118",
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-rap-zhenling-mo-profile-20261118",
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-rap-zhenling-mo-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-rap-shaohang-xu",
+      "universityId": "cityu",
+      "name": "Shaohang XU",
+      "department": "数据科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/shaohanxu2/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/shaohanxu2/",
+      "directoryRole": "研究助理教授",
+      "identityNote": "港城大数据科学学系名录列研究助理教授，城大研究门户列个人任职。",
+      "summary": "学系列机器人与具身智能；城大研究门户列四足机器人导航与运动规划相关工作。",
+      "researchKeywords": [
+        "机器人",
+        "具身智能",
+        "四足机器人导航",
+        "运动规划",
+        "embodied AI",
+        "motion planning"
+      ],
+      "topics": [
+        "机器人与控制",
+        "人工智能"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-rap-shaohang-xu-profile-20261118",
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-rap-shaohang-xu-profile-20261118",
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-research-assistant-professors-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-rap-shaohang-xu-profile-20261118"
+        ]
+      }
+    },
+    {
       "id": "cuhksz-sme-2abfd52e2bb63f",
       "universityId": "cuhksz",
       "sourceIds": [
@@ -165041,6 +165307,78 @@
       "scope": "城大研究门户列数据科学和系统工程两系兼任教授。",
       "claims": [
         "研究质量系统、决策支持与产品设计。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-rap-xinke-li-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/xinkeli/",
+      "title": "Xinke LI（李欣科） · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港城大数据科学学系名录列全球研究助理教授，城大研究门户列个人任职。",
+      "claims": [
+        "研究三维视觉、几何深度学习、可信人工智能和生物医学应用。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-rap-xingyu-guo-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/xingyguo/",
+      "title": "Xingyu GUO（郭星宇） · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港城大数据科学学系名录列全球研究助理教授，城大研究门户列个人任职。",
+      "claims": [
+        "以材料信息学与机器学习研究电池材料设计。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-rap-yang-qian-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/yangqian/",
+      "title": "Yang QIAN · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港城大数据科学学系名录列全球研究助理教授，城大研究门户列个人任职。",
+      "claims": [
+        "研究量子机器学习、深度学习和分布式优化。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-rap-enming-liang-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/eliang4/",
+      "title": "Enming LIANG · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港城大数据科学学系名录列研究助理教授，城大研究门户列个人任职。",
+      "claims": [
+        "将人工智能用于优化、生成式决策、智能能源和交通系统。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-rap-zhenling-mo-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/zhenlmo2/",
+      "title": "Zhenling MO · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港城大数据科学学系名录列研究助理教授，城大研究门户列个人任职。",
+      "claims": [
+        "研究因果机器学习、模型泛化、机械信号处理与故障诊断。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cityu-ds-rap-shaohang-xu-profile-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/shaohanxu2/",
+      "title": "Shaohang XU · 城大研究门户",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港城大数据科学学系名录列研究助理教授，城大研究门户列个人任职。",
+      "claims": [
+        "学系列机器人与具身智能；城大研究门户列四足机器人导航与运动规划相关工作。"
       ],
       "knownIssues": []
     },
@@ -347004,5 +347342,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:a4dc4686e1904407fa8ea7505546c7e80b0783e1a6c69f856297003d19bb4423"
+  "snapshotId": "sha256:8a323c35501369dac2424ba4fe9b25917c6751f737e822be16f99fe83d3c90d5"
 }

@@ -4,8 +4,8 @@
   "counts": {
     "universities": 7,
     "programs": 85,
-    "faculty": 2424,
-    "sources": 4658,
+    "faculty": 2430,
+    "sources": 4664,
     "funding": 1,
     "degreeRoutes": 145,
     "facultyByUniversity": {
@@ -14,10 +14,10 @@
       "hkust": 500,
       "hkustgz": 235,
       "polyu": 507,
-      "cityu": 147,
+      "cityu": 153,
       "cuhksz": 380
     },
-    "unknownRecruitment": 2415,
+    "unknownRecruitment": 2421,
     "dateOnlyDeadlines": 110,
     "programsWithRequirements": 84,
     "requirementItems": 312,
