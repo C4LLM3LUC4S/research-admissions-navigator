@@ -493,23 +493,40 @@
       (!profile.cycle || p.cycleVerified===false || p.cycle===profile.cycle || (p.deadlines||[]).some(d=>d.cycle===profile.cycle&&(!d.degree||d.degree===profile.degree))));
   }
   function facultyFor(catalog, profile) {
+    const search = facultySearch(profile.researchQuery);
     return catalog.faculty.filter(f => (!profile.universityIds.length || profile.universityIds.includes(f.universityId)) &&
       (!profile.interests.length || matchedTopics(f, profile.interests).length) &&
-      (!profile.researchQuery?.trim() || matchedResearchTerms(f,profile.researchQuery).length));
+      (!profile.researchQuery?.trim() || search.matchesName(f.name) || search.matchedTerms(f).length));
   }
-  function matchedResearchTerms(faculty,query) {
-    if(typeof query!=='string'||!query.trim())return [];
+  function facultySearch(query) {
     const normalize=text=>text.normalize('NFKC').toLocaleLowerCase('en-US').trim();
-    const queries=[...new Set(query.split(/[,，、;；\n]+/).map(normalize).filter(Boolean))];
-    const terms=faculty.researchKeywords?.length?faculty.researchKeywords:(faculty.topics||[]);
-    const includes=(term,needle)=>{
+    const queries=[...new Set((typeof query==='string'?query:'').split(/[,，、;；\n]+/).map(normalize).filter(Boolean))];
+    const matcher=needle=>{
       if(/^[a-z0-9\s+.\-]+$/i.test(needle)){
         const escaped=needle.replace(/[.*+?^${}()|[\]\\]/g,'\\$&').replace(/\s+/g,'\\s+');
-        return new RegExp('(^|[^a-z0-9])'+escaped+'(?=$|[^a-z0-9])','i').test(term);
+        const expression=new RegExp('(^|[^a-z0-9])'+escaped+'(?=$|[^a-z0-9])','i');
+        return term=>expression.test(term);
       }
-      return term.includes(needle);
+      return term=>term.includes(needle);
     };
-    return terms.filter(term=>queries.some(q=>{const aliases=RESEARCH_ALIASES.find(group=>group.includes(q))||[q];return aliases.some(alias=>includes(normalize(term),alias));}));
+    const nameMatchers=queries.filter(q=>q.length>=2).map(matcher);
+    const topicMatchers=queries.flatMap(q=>(RESEARCH_ALIASES.find(group=>group.includes(q))||[q]).map(matcher));
+    return {
+      matchesName(name) {
+        return typeof name==='string' && nameMatchers.some(matches=>matches(normalize(name)));
+      },
+      matchedTerms(faculty) {
+        if(!topicMatchers.length)return [];
+        const terms=faculty.researchKeywords?.length?faculty.researchKeywords:(faculty.topics||[]);
+        return terms.filter(term=>{
+          const normalized=normalize(term);
+          return topicMatchers.some(matches=>matches(normalized));
+        });
+      }
+    };
+  }
+  function matchedResearchTerms(faculty,query) {
+    return facultySearch(query).matchedTerms(faculty);
   }
   function directoriesFor(catalog,profile) { return (catalog.directories||[]).filter(d=>!profile.universityIds.length||profile.universityIds.includes(d.universityId)); }
   function reviewedForDirectory(catalog,directory) { return catalog.faculty.filter(f=>(f.directorySourceIds||[]).some(id=>directory.sourceIds.includes(id))).length; }
@@ -667,5 +684,5 @@
     let value;try { value=JSON.parse(raw); } catch (_) { throw new Error('JSON 文件不完整或格式有误，请换回完整备份。'); }
     return validatePortable(value,catalog);
   }
-  return {academicChineseName,academicLabel,INTERESTS,officialUrl,sourceUrl,facultyLinks,facultyLinkSections,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,applicationDegrees,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
+  return {academicChineseName,academicLabel,INTERESTS,officialUrl,sourceUrl,facultyLinks,facultyLinkSections,observedProfileUrl,directoryResearchSource,defaultProfile,cyclesFor,cycleLabel,matchedTopics,matchedResearchTerms,facultySearch,applicationDegrees,programsFor,facultyFor,directoriesFor,reviewedForDirectory,requirementsFor,financesFor,financeRates,financeRateText,preparationNote,deadlineState,isHongKongUniversity,fundingFor,deadlinesFor,availabilityText,portable,researchOptions,searchResearchOptions,sharedSchoolRead,validatePortable,parsePortable};
 }));

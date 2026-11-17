@@ -3,6 +3,17 @@ const test=require('node:test'),assert=require('node:assert/strict');
 const fs=require('node:fs'),path=require('node:path');
 const L=require('../dist/logic.js'),C=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));
 
+test('faculty search accepts names and exact research terms without mixing their evidence',()=>{
+  const profile={...L.defaultProfile(),universityIds:['cityu'],researchQuery:'Dapeng WU'};
+  const [person,...others]=L.facultyFor(C,profile);
+  assert.equal(person.id,'cityu-ds-affiliate-dapeng-wu');
+  assert.equal(others.length,0);
+  assert.deepEqual(L.matchedResearchTerms(person,profile.researchQuery),[]);
+  assert.ok(L.facultySearch('吳大鵬').matchesName(person.name));
+  assert.equal(L.facultySearch('peng WU').matchesName(person.name),false);
+  assert.ok(L.facultySearch('SIGNAL PROCESSING').matchedTerms(person).includes('signal processing'));
+});
+
 test('wide coverage is an evidence-linked faculty inventory, never a count of available places',()=>{
   assert.ok(C.faculty.length>=94);assert.equal(new Set(C.faculty.map(f=>f.id)).size,C.faculty.length);
   assert.equal(new Set(C.faculty.map(f=>f.universityId+'|'+(f.recordKind==='directory_research'?f.directoryEvidenceSourceId+'|'+f.name:f.profileUrl.replace(/\/$/,'')))).size,C.faculty.length);
