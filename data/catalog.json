@@ -51797,13 +51797,17 @@
       "sourceIds": [
         "cityu-dao-profile-gufeng-20261028",
         "cityu-dao-directory-regular-20261028",
-        "cityu-dao-linked-gufeng-20261028"
+        "cityu-dao-linked-gufeng-20261028",
+        "cityu-ds-affiliate-members-20261118",
+        "cityu-ds-affiliate-feng-20261118"
       ],
       "directorySourceIds": [
-        "cityu-dao-directory-regular-20261028"
+        "cityu-dao-directory-regular-20261028",
+        "cityu-ds-affiliate-members-20261118"
       ],
       "academicUnitIds": [
-        "cityu-2"
+        "cityu-2",
+        "cityu-3"
       ],
       "extraLinks": [
         {
@@ -51820,7 +51824,7 @@
       "reviewedProfileUrl": "https://www.cb.cityu.edu.hk/en/cb2025/people-and-research/people/people-details?eid=gufeng",
       "directoryRole": "正职",
       "department": "决策分析与运营学系 · 正职",
-      "identityNote": "按官网本次名录分类整理研究资料。教学、助教、兼任与访问身份均不等于已确认MPhil或PhD指导资格。",
+      "identityNote": "商学院正职，另列数据科学学系附属成员。申请前请向项目核对指导安排与当期余位。",
       "summary": "研究资产定价与金融科技中的实证问题，使用机器学习、生成式人工智能、贝叶斯统计和金融计量方法。",
       "researchKeywords": [
         "asset pricing",
@@ -53220,6 +53224,141 @@
         "text": "尚未确认所选学位的指导资格、当前是否接收及余位；对应项目的当期要求也需另核。",
         "sourceIds": [
           "cityu-dao-profile-yingtan-20261028"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-alan-wan",
+      "universityId": "cityu",
+      "name": "Tze-Kin Alan WAN（溫子堅）",
+      "department": "决策分析与运营学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/msawan/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/msawan/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "研究门户列决策分析与运营学系讲座教授，兼列数据科学与生物统计两系附属任职。",
+      "summary": "研究模型平均、半参数建模，以及缺失或删失数据下的统计推断。",
+      "researchKeywords": [
+        "模型平均与选择",
+        "半参数模型",
+        "分位数回归",
+        "quantile regression"
+      ],
+      "topics": [
+        "数学与统计"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-alan-wan-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-alan-wan-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-2",
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-alan-wan-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-yuguang-fang",
+      "universityId": "cityu",
+      "name": "Yuguang FANG（方玉光）",
+      "department": "计算机科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/yugufang/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/yugufang/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "计算机科学学系物联网讲座教授。数据科学学系名录列为附属成员，另有校方智慧城市实验室项目。",
+      "summary": "研究无线与移动边缘网络，以及物联网和无线网络中的机器学习。",
+      "researchKeywords": [
+        "无线网络",
+        "移动边缘计算",
+        "物联网",
+        "联邦学习",
+        "wireless networks",
+        "federated learning"
+      ],
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-yuguang-fang-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-yuguang-fang-20261118",
+        "cityu-ds-affiliate-members-20261118",
+        "cityu-ds-affiliate-fang-smart-city-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-yuguang-fang-20261118"
+        ]
+      }
+    },
+    {
+      "id": "cityu-ds-affiliate-dapeng-wu",
+      "universityId": "cityu",
+      "name": "Dapeng WU（吳大鵬）",
+      "department": "计算机科学学系",
+      "profileUrl": "https://scholars.cityu.edu.hk/en/persons/dapengwu/",
+      "reviewedProfileUrl": "https://scholars.cityu.edu.hk/en/persons/dapengwu/",
+      "directoryRole": "数据科学学系附属成员",
+      "identityNote": "研究门户列计算机科学学系讲座教授和数据科学学系附属任职。校方个人页显示接收博士生意向，适用轮次与实时余位待确认。",
+      "summary": "研究复杂网络、机器学习、无线通信及信号处理。",
+      "researchKeywords": [
+        "网络科学",
+        "复杂系统",
+        "机器学习",
+        "无线通信",
+        "信号处理",
+        "network science",
+        "signal processing"
+      ],
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "keywordSourceIds": [
+        "cityu-ds-affiliate-dapeng-wu-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "sourceIds": [
+        "cityu-ds-affiliate-dapeng-wu-20261118",
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "directorySourceIds": [
+        "cityu-ds-affiliate-members-20261118"
+      ],
+      "academicUnitIds": [
+        "cityu-3"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "cityu-ds-affiliate-dapeng-wu-20261118"
         ]
       }
     },
@@ -164414,6 +164553,68 @@
         "摘要对应已保存的网页读取工具文本，不是原始HTTP响应正文摘要。",
         "当期中央招生页未读到，原制托福及历史数字不自动转为新年度规则。"
       ]
+    },
+    {
+      "id": "cityu-ds-affiliate-alan-wan-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/msawan/",
+      "title": "Tze-Kin Alan WAN（溫子堅） · 城大研究门户",
+      "scope": "研究门户列决策分析与运营学系讲座教授，兼列数据科学与生物统计两系附属任职。",
+      "claims": [
+        "研究模型平均、半参数建模，以及缺失或删失数据下的统计推断。"
+      ],
+      "knownIssues": [],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-yuguang-fang-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/yugufang/",
+      "title": "Yuguang FANG（方玉光） · 城大研究门户",
+      "scope": "计算机科学学系物联网讲座教授。数据科学学系名录列为附属成员，另有校方智慧城市实验室项目。",
+      "claims": [
+        "研究无线与移动边缘网络，以及物联网和无线网络中的机器学习。"
+      ],
+      "knownIssues": [],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-dapeng-wu-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/persons/dapengwu/",
+      "title": "Dapeng WU（吳大鵬） · 城大研究门户",
+      "scope": "研究门户列计算机科学学系讲座教授和数据科学学系附属任职。校方个人页显示接收博士生意向，适用轮次与实时余位待确认。",
+      "claims": [
+        "研究复杂网络、机器学习、无线通信及信号处理。"
+      ],
+      "knownIssues": [
+        "个人主页入口当前只读到框架提示，研究方向采用研究门户正文。"
+      ],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-fang-smart-city-20261118",
+      "url": "https://scholars.cityu.edu.hk/en/projects/jc-stem-lab-of-smart-city/",
+      "title": "方玉光 · 智慧城市实验室项目",
+      "scope": "城大研究门户实验室项目记录",
+      "claims": [
+        "项目记录列方玉光为首席研究员。"
+      ],
+      "knownIssues": [],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "cityu-ds-affiliate-feng-20261118",
+      "url": "https://www.cb.cityu.edu.hk/staff/gufeng/",
+      "title": "冯冠豪 · 城大商学院个人页",
+      "scope": "商学院主要任职和研究方向；数据科学系附属名录直接链接至此页。",
+      "claims": [
+        "主要研究为实证资产定价和金融科技，使用机器学习、贝叶斯统计和金融计量方法。"
+      ],
+      "knownIssues": [],
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped"
     },
     {
       "id": "cuhksz-sme-directory-20261028",
@@ -346375,5 +346576,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:9892b8e8f20864521e2d9d2ab7aa2cc5bbfb2bb69729c66c701f4a74da46b220"
+  "snapshotId": "sha256:6ec80b2dc5f92f107efde60b1f08165ec50f1ca587ff6f428d401d23cf9c4731"
 }

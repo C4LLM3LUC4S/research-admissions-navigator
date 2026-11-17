@@ -439,6 +439,14 @@ def build_catalog():
     catalog["sources"].extend(dao["sources"])
     catalog["faculty"].extend(dao["faculty"])
     catalog["directories"].extend(dao["directories"])
+    ds_affiliates = load("cityu-ds-affiliates-20261118.json")
+    catalog["sources"].extend(ds_affiliates["sources"])
+    catalog["faculty"].extend(ds_affiliates["faculty"])
+    update = ds_affiliates["existingUpdate"]
+    person = next(row for row in dao["faculty"] if row["id"] == update["id"])
+    for field in ("sourceIds", "directorySourceIds", "academicUnitIds"):
+        person[field] = list(dict.fromkeys(person[field] + update[field]))
+    person["identityNote"] = update["identityNote"]
     unit = next(u for m in catalog["academicCoverage"] for u in m["units"] if u["id"] == "cityu-2")
     unit["staffEntries"].extend(dao["staffEntries"])
     sme = load("cuhksz-sme-census-20261028.json")
