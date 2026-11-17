@@ -1,0 +1,319 @@
+{
+  "sources": [
+    {
+      "id": "hku-mse-academic-staff-20261118",
+      "url": "https://mse.hku.hk/msepeople/academic-staff/",
+      "originalUrl": "https://mse.hku.hk/msepeople/academic-staff/",
+      "retrievedUrl": "https://mse.hku.hk/msepeople/academic-staff/",
+      "title": "港大材料与能源学系 · 学术人员名录",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "在同一学系页面核到的两类学术人员。",
+      "claims": [
+        "页面列 15 项教授团队岗位记录和 3 项研究助理教授记录；教授团队包括联合任职与礼聘身份。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://mse.hku.hk/people/chunyizhi/",
+        "https://mse.hku.hk/people/hwchoi/",
+        "https://mse.hku.hk/people/dsrolovitz/",
+        "https://mse.hku.hk/people/yongwang/",
+        "https://mse.hku.hk/people/peijie/",
+        "https://mse.hku.hk/people/huwenda/",
+        "https://mse.hku.hk/people/ruizhang/",
+        "https://mse.hku.hk/people/ghchen/",
+        "https://mse.hku.hk/people/zqchu/",
+        "https://mse.hku.hk/people/nicxfang/",
+        "https://mse.hku.hk/people/zxguo/",
+        "https://mse.hku.hk/people/mxhuang/",
+        "https://mse.hku.hk/people/ylu1/",
+        "https://mse.hku.hk/people/jinyao/",
+        "https://mse.hku.hk/people/yaowang/",
+        "https://mse.hku.hk/people/xbyin/",
+        "https://mse.hku.hk/people/shuzhang/",
+        "https://mse.hku.hk/people/xiangzhang/"
+      ],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "1e619ba6f76cab9d4a7744f45d3373c3bcbfa8220cea7ce1e3644cc973779440"
+    },
+    {
+      "id": "hku-mse-establishment-20261118",
+      "url": "https://mse.hku.hk/20260812-1/",
+      "originalUrl": "https://mse.hku.hk/20260812-1/",
+      "retrievedUrl": "https://mse.hku.hk/20260812-1/",
+      "title": "港大材料与能源学系 · 成立公告",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学院下设学系的成立日与培养范围。",
+      "claims": [
+        "港大工程学院下属材料与能源学系于 2026 年 8 月 1 日成立，拟开展研究型硕士和博士培养。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "1e619ba6f76cab9d4a7744f45d3373c3bcbfa8220cea7ce1e3644cc973779440"
+    },
+    {
+      "id": "hku-mse-support-staff-20261118",
+      "url": "https://mse.hku.hk/msepeople/support-staff/",
+      "originalUrl": "https://mse.hku.hk/msepeople/support-staff/",
+      "retrievedUrl": "https://mse.hku.hk/msepeople/support-staff/",
+      "title": "港大材料与能源学系 · 支援人员",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "学系官网支援人员目录。",
+      "claims": [
+        "行政与支援人员有独立目录。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [],
+      "readMethod": "web_reader",
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "ce0673d858545ec601bd4e19d0e9df9382ee31276a9f1f0cf1138c403c7b45a1"
+    },
+    {
+      "id": "hku-mse-peijie-han-profile-20261118",
+      "url": "https://mse.hku.hk/people/peijie/",
+      "title": "Peijie HAN · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系个人页列身份及研究介绍。",
+      "claims": [
+        "研究清洁能源与可持续化学转化中的多相催化、界面反应机理和活性位点。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-wenda-hu-profile-20261118",
+      "url": "https://mse.hku.hk/people/huwenda/",
+      "title": "Wenda HU · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系个人页列身份及研究介绍。",
+      "claims": [
+        "研究环境催化、生物质转化和单原子催化剂。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-rui-zhang-profile-20261118",
+      "url": "https://mse.hku.hk/people/ruizhang/",
+      "title": "Rui ZHANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系个人页列身份及研究介绍。",
+      "claims": [
+        "研究多相催化、二氧化碳加氢、生物质转化和反应器设计。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-yong-wang-profile-20261118",
+      "url": "https://mse.hku.hk/people/yongwang/",
+      "title": "Yong WANG · 港大材料与能源学系",
+      "checkedAt": "2026-11-17",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系个人页列身份及研究介绍。",
+      "claims": [
+        "研究催化剂和反应工程，提高含碳原料转化为燃料和化学品的原子与能源效率。"
+      ],
+      "knownIssues": []
+    }
+  ],
+  "directory": {
+    "id": "hku-mse-academic-staff",
+    "universityId": "hku",
+    "unit": "材料与能源学系 / Materials and Energy",
+    "url": "https://mse.hku.hk/msepeople/academic-staff/",
+    "sourceIds": [
+      "hku-mse-academic-staff-20261118"
+    ],
+    "reviewSourceIds": [
+      "hku-mse-establishment-20261118",
+      "hku-mse-support-staff-20261118",
+      "hku-mse-rpg-20261106"
+    ],
+    "coverageComplete": false,
+    "coverageNotes": "学术人员名录列教授团队及研究助理教授，也标明联合任职和礼聘身份。支援人员有独立名录。研究学位专页目前尚待更新。"
+  },
+  "rootUrl": "https://mse.hku.hk/",
+  "faculty": [
+    {
+      "id": "hku-mse-peijie-han",
+      "name": "Peijie HAN",
+      "universityId": "hku",
+      "department": "材料与能源学系",
+      "profileUrl": "https://mse.hku.hk/people/peijie/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/peijie/",
+      "directoryRole": "研究助理教授",
+      "identityNote": "按材料与能源学系官网个人页所列任职。",
+      "summary": "研究清洁能源与可持续化学转化中的多相催化、界面反应机理和活性位点。",
+      "researchKeywords": [
+        "多相催化",
+        "催化反应机理",
+        "清洁能源",
+        "heterogeneous catalysis",
+        "反应动力学"
+      ],
+      "topics": [
+        "化学工程",
+        "材料与能源"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-peijie-han-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-peijie-han-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-peijie-han-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "hku-mse-wenda-hu",
+      "name": "Wenda HU",
+      "universityId": "hku",
+      "department": "材料与能源学系",
+      "profileUrl": "https://mse.hku.hk/people/huwenda/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/huwenda/",
+      "directoryRole": "研究助理教授",
+      "identityNote": "按材料与能源学系官网个人页所列任职。",
+      "summary": "研究环境催化、生物质转化和单原子催化剂。",
+      "researchKeywords": [
+        "环境催化",
+        "生物质转化",
+        "单原子催化",
+        "environmental catalysis"
+      ],
+      "topics": [
+        "化学工程",
+        "环境与可持续发展"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-wenda-hu-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-wenda-hu-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-wenda-hu-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "hku-mse-rui-zhang",
+      "name": "Rui ZHANG",
+      "universityId": "hku",
+      "department": "材料与能源学系",
+      "profileUrl": "https://mse.hku.hk/people/ruizhang/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/ruizhang/",
+      "directoryRole": "研究助理教授",
+      "identityNote": "按材料与能源学系官网个人页所列任职。",
+      "summary": "研究多相催化、二氧化碳加氢、生物质转化和反应器设计。",
+      "researchKeywords": [
+        "多相催化",
+        "费托合成",
+        "二氧化碳加氢",
+        "生物质转化",
+        "催化反应器"
+      ],
+      "topics": [
+        "化学工程",
+        "材料与能源"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-rui-zhang-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-rui-zhang-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-rui-zhang-profile-20261118"
+        ]
+      }
+    },
+    {
+      "id": "hku-mse-yong-wang",
+      "name": "Yong WANG",
+      "universityId": "hku",
+      "department": "材料与能源学系",
+      "profileUrl": "https://mse.hku.hk/people/yongwang/",
+      "reviewedProfileUrl": "https://mse.hku.hk/people/yongwang/",
+      "directoryRole": "可持续催化讲座教授",
+      "identityNote": "按材料与能源学系官网个人页所列任职。",
+      "summary": "研究催化剂和反应工程，提高含碳原料转化为燃料和化学品的原子与能源效率。",
+      "researchKeywords": [
+        "催化材料",
+        "反应工程",
+        "生物质转化",
+        "二氧化碳转化",
+        "catalysis",
+        "reaction engineering"
+      ],
+      "topics": [
+        "化学工程",
+        "材料与能源"
+      ],
+      "keywordSourceIds": [
+        "hku-mse-yong-wang-profile-20261118"
+      ],
+      "sourceIds": [
+        "hku-mse-yong-wang-profile-20261118",
+        "hku-mse-academic-staff-20261118"
+      ],
+      "directorySourceIds": [
+        "hku-mse-academic-staff-20261118"
+      ],
+      "academicUnitIds": [
+        "hku-6"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "向项目核对本轮指导安排和余位。",
+        "sourceIds": [
+          "hku-mse-yong-wang-profile-20261118"
+        ]
+      }
+    }
+  ]
+}
