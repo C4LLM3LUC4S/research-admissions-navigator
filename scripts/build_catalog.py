@@ -329,7 +329,10 @@ def build_catalog():
         old.update(directoryRole=update["directoryRole"], identityNote=update["identityNote"])
     directory = next(d for d in catalog["directories"] if d["id"] == cityu["directoryUpdate"]["id"])
     directory["sourceIds"].extend(cityu["directoryUpdate"]["sourceIds"])
-    directory["coverageNotes"] = cityu["directoryUpdate"]["coverageNotes"]
+    cityu_ds_categories = load("cityu-ds-staff-categories-20261118.json")
+    catalog["sources"].extend(cityu_ds_categories["sources"])
+    directory["sourceIds"].extend(source["id"] for source in cityu_ds_categories["sources"])
+    directory["coverageNotes"] = cityu_ds_categories["coverageNotes"]
     sai = load("cuhksz-sai-census-20261027.json")
     catalog["sources"].extend(sai["sources"])
     catalog["faculty"].extend(sai["faculty"])
