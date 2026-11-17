@@ -1938,6 +1938,36 @@ def build_catalog():
          "rates": [{"value": 344400, "currency": "HKD", "unit": "year",
                     "basis": "intake", "cycle": CYCLE, "condition": "HKPFS获奖者"}]},
     ]
+    ds_source = load("cityu-ds-phd-20261117.json")
+    catalog["sources"].append(ds_source)
+    refs = [ds_source["id"]]
+    periods = ["cityu-steps"]
+    cityu_ds = program(
+        "cityu-ds-phd-2027", "cityu", "数据科学博士", ["PhD"],
+        "香港城市大学数据科学学系，2027/28 博士申请。",
+        "unknown", "从学系主页和申请系统核对本轮联系导师的要求。", refs,
+        "通过初选者获邀面试。", refs,
+        [deadline("校级主轮截止", "2026-12-01", periods, clock="23:59", degree="PhD")],
+        refs + periods,
+        "校级主轮后视余位受理。学系网站列有HKPFS说明，费用表仍标2026/27。"
+    )
+    cityu_ds["entryUrl"] = ds_source["url"]
+    cityu_ds["requirements"] = [
+        {"label": "PhD 学历", "text": "认可大学研究学位、硕士学位或一等荣誉学士及等同资格；也接受符合条件的城大在读MPhil申请转博。",
+         "action": "按本人学历路径准备成绩、学位及相关证明。", "sourceIds": refs},
+        {"label": "语言成绩", "text": "适用英语证明时，IELTS 总分至少 6.5；TOEFL iBT 在 2026 年 1 月 21 日前为 79，自该日起为 4.5。成绩在提交时须处于两年有效期内。",
+         "action": "按考试日期核对成绩要求及适用的语言证明。", "sourceIds": refs},
+        {"label": "材料与推荐", "text": "提交学术成绩与学历文件，并安排两位学术推荐人。涉及内地学历时按项目页核对学历验证材料。",
+         "action": "核对推荐和中英文材料，再提交网申。", "sourceIds": refs},
+    ]
+    cityu_ds["finances"] = [
+        {"id": "cityu-ds-phd-2027-hkpfs", "kind": "studentship", "label": "HKPFS 获奖后津贴",
+         "text": "2027/28 HKPFS 获奖者每月津贴 28,700 港元。个人资助及适用时长以正式通知为准。",
+         "action": "核对奖学金步骤及获奖通知。", "sourceIds": refs,
+         "rates": [{"value": 28700, "currency": "HKD", "unit": "month",
+                    "basis": "intake", "cycle": CYCLE, "condition": "HKPFS获奖者"}]},
+    ]
+    catalog["programs"].append(cityu_ds)
     return catalog
 
 
