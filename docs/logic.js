@@ -513,7 +513,15 @@
     const topicMatchers=queries.flatMap(q=>(RESEARCH_ALIASES.find(group=>group.includes(q))||[q]).map(matcher));
     return {
       matchesName(name) {
-        return typeof name==='string' && nameMatchers.some(matches=>matches(normalize(name)));
+        if(typeof name!=='string'||!nameMatchers.length)return false;
+        const canonical=normalize(name);
+        if(nameMatchers.some(matches=>matches(canonical)))return true;
+        // Some official directories give names as “Family, Given”.
+        if(!canonical.includes(','))return false;
+        const parts=canonical.split(',').map(part=>part.trim());
+        if(parts.length!==2||!parts[0]||!parts[1])return false;
+        const givenFirst=parts[1]+' '+parts[0];
+        return nameMatchers.some(matches=>matches(givenFirst));
       },
       matchedTerms(faculty) {
         if(!topicMatchers.length)return [];
