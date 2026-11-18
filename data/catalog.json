@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-17",
+  "checkedDate": "2026-11-19",
   "cycle": "2027/28",
   "universities": [
     {
@@ -11189,7 +11189,10 @@
         "hkust-tie-2027-catalogue",
         "hkust-tie-2027-studentship",
         "hkust-ais-2027-isd-tie-types",
-        "hkust-amc-2027-tuition"
+        "hkust-amc-2027-tuition",
+        "hkust-tie-2027-department-20261119",
+        "hkust-tie-2027-sop-20261119",
+        "hkust-tie-2027-materials-20261119"
       ],
       "evidenceNote": "课程包含团队产品或服务开发、个人论文与答辩。",
       "entryUrl": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-tie",
@@ -11211,6 +11214,24 @@
           "action": "按考试日期、授课语言和校方豁免条件核对证明。",
           "sourceIds": [
             "hkust-tie-2027-catalogue"
+          ]
+        },
+        {
+          "label": "材料",
+          "text": "身份证明、完整高等教育成绩与学位、评分制度、英语证明、研究计划与研究经历。另提交 TIE 专用陈述。",
+          "action": "按项目与申请系统逐项准备。",
+          "sourceIds": [
+            "hkust-tie-2027-materials-20261119"
+          ]
+        },
+        {
+          "label": "TIE专用陈述",
+          "text": "使用项目模板，创业问题及方案最多100词、申请动机最多150词，相关经历每个项目最多100词。",
+          "action": "下载模板填写后上传网申系统。",
+          "url": "https://isd.hkust.edu.hk/resources/TIE_statement_of_purpose.docx",
+          "sourceIds": [
+            "hkust-tie-2027-sop-20261119",
+            "hkust-tie-2027-department-20261119"
           ]
         }
       ],
@@ -268377,6 +268398,42 @@
         "页面列出对应课题组及其研究背景，供申请者继续了解。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "hkust-tie-2027-department-20261119",
+      "url": "https://isd.hkust.edu.hk/academics/mphil-in-tie/",
+      "title": "港科大 TIE 学部项目页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "团队原型与个人论文，以及专用申请陈述模板入口。",
+      "claims": [
+        "团队原型与个人论文，以及专用申请陈述模板入口。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-tie-2027-sop-20261119",
+      "url": "https://isd.hkust.edu.hk/resources/TIE_statement_of_purpose.docx",
+      "title": "港科大 TIE 申请陈述模板",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "创业问题和方案100词，申请动机150词，每项项目经历100词。",
+      "claims": [
+        "创业问题和方案100词，申请动机150词，每项项目经历100词。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-tie-2027-materials-20261119",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/documents-required",
+      "title": "港科大研究生院申请材料",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "身份证明、学历成绩、评分制度、语言及研究计划。TIE须额外指定格式材料。",
+      "claims": [
+        "身份证明、学历成绩、评分制度、语言及研究计划。TIE须额外指定格式材料。"
+      ],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -348242,5 +348299,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:c46c078772cccdf9f5f80ffbaf2030aa789017e664dc6763197329786d97259d"
+  "snapshotId": "sha256:ce37504192b76b0d0d16481402f71fd526268528b6014b7cf9060fd367326d31"
 }
