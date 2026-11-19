@@ -549,6 +549,7 @@ function harness(initialStorage,options={}) {
   class TestFormData {get(name){return query('[name='+name+']:checked')[0]?.value||null;}}
   const context={window:{APP_LOGIC:L,APP_CATALOG:options.catalog||C},document:{getElementById:id=>{assert.ok(byId.has(id),id);return byId.get(id);},createElement:tag=>new Element(tag),querySelectorAll:query,body},localStorage:{getItem:key=>saved.get(key)||null,setItem:(key,value)=>{if(options.storageWriteFails)throw Error('synthetic storage failure');saved.set(key,value);},removeItem:key=>saved.delete(key)},structuredClone,Intl,Date,Math,Blob,URL:TestURL,FormData:TestFormData,Option:function(label,value){const option=new Element('option');option.textContent=label;option.value=value;return option;},history:{replaceState(){}},location:{hash:''},setTimeout:()=>1,clearTimeout(){},console,fetch(){networkCalls++;throw Error('No outbound network allowed in this local task');}};
   // This is a hang guard, not a startup-speed requirement; locale cold starts vary on shared runners.
+  Object.assign(context.window,options.window||{});
   vm.runInNewContext(script,context,{timeout:10000});
   const walk=(element)=>[element,...element.children.flatMap(walk)];
   const button=(parent,text)=>{const found=walk(byId.get(parent)).find(x=>x.tagName==='button'&&x.textContent.includes(text));assert.ok(found,text);return found;};
@@ -1382,4 +1383,34 @@ test('SSE research platforms stay separate from departments and expose the sourc
   assert.match(panel.textContent,/深圳市大数据研究院/);
   assert.ok(h.walk(panel).some(x=>x.tagName==='a'&&x.href===unit.researchPlatforms.pageUrl));
   assert.equal(h.networkCalls(),0);
+});
+function lazyHarness(){
+ const catalog=structuredClone(C),loaded=new Set(),requests=[];
+ for(const field of ['faculty','directories','academicCoverage'])catalog[field]=[];
+ const state={APP_LOADED_SCHOOLS:loaded,APP_FACULTY_INDEX:{faculty:C.faculty.map(f=>[f.name,f.universityId,f.profileUrl,f.researchKeywords])}};
+ state.APP_LOAD_SCHOOLS=ids=>new Promise((resolve,reject)=>{requests.push({ids,resolve(){ids.forEach(id=>loaded.add(id));for(const field of ['faculty','directories','academicCoverage'])catalog[field]=C[field].filter(row=>loaded.has(row.universityId));resolve(catalog);},reject});});
+ state.APP_LOAD_ALL=()=>state.APP_LOAD_SCHOOLS(C.universities.map(u=>u.id));
+ return {...harness(null,{catalog,window:state}),requests,catalog};
+}
+const flushLoads=async()=>{await Promise.resolve();await Promise.resolve();await Promise.resolve();};
+test('programme reading stays usable while a teacher school loads and stale searches never replace the selected view',async()=>{
+ const h=lazyHarness(),el=id=>h.byId.get(id);assert.match(el('result-count').textContent,/项目路线/);assert.equal(h.requests.length,0);
+ el('research-query').value='APOE4';await el('profile-form').emit('input',{target:el('research-query')});
+ assert.deepEqual([...h.requests[0].ids],['hkust']);assert.match(el('result-count').textContent,/正在读取/);
+ await el('show-programs').emit('click');assert.match(el('result-count').textContent,/项目路线/);
+ h.requests[0].resolve();await flushLoads();assert.match(el('result-count').textContent,/项目路线/);
+ await el('show-faculty').emit('click');assert.match(el('results').textContent,/Guojun BU/);
+});
+test('school load failures keep a retry action and never show an empty match as a completed search',async()=>{
+ const h=lazyHarness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-faculty').emit('click');
+ h.requests[0].reject(Error('模拟下载失败'));await flushLoads();assert.match(el('result-count').textContent,/暂未载入/);
+ await h.button('results','重试读取').emit('click');h.requests[1].resolve();await flushLoads();assert.match(el('result-count').textContent,/362/);
+});
+test('cross-school backup import loads the complete ID set before replacing or exporting any state',async()=>{
+ const h=lazyHarness(),el=id=>h.byId.get(id),savedIds=[C.faculty.find(f=>f.universityId==='hku').id,C.faculty.find(f=>f.universityId==='hkustgz').id];
+ const backup=L.portable(C,{profile:L.defaultProfile(C),shortlist:savedIds,tasks:[],sourceIds:savedIds.flatMap(id=>C.faculty.find(f=>f.id===id).sourceIds)});
+ const raw=JSON.stringify(backup),input=el('import-local');input.files=[{size:raw.length,text:async()=>raw}];
+ const importing=input.emit('change');await flushLoads();assert.equal(h.saved.size,0);assert.equal(h.requests[0].ids.length,7);
+ h.requests[0].resolve();await importing;await el('export-local').emit('click');
+ const restored=JSON.parse(await h.downloads.at(-1).blob.text());assert.deepEqual(restored.shortlist,savedIds);assert.deepEqual(restored.sourceIds,backup.sourceIds);
 });
