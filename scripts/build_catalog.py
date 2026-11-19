@@ -2049,6 +2049,19 @@ def build_catalog():
                                               "url": category["url"], "entryBodyStatus": "body_read",
                                               "sourceIds": [category["sourceId"]], "teacherProfilesTotal": None,
                                               "enumerationComplete": False, "profileLeads": []})
+    fsn_links = load("polyu-fsn-links-20261119.json")
+    catalog["sources"].extend(fsn_links["sources"])
+    for update in fsn_links["updates"]:
+        person = next(row for row in catalog["faculty"] if row["id"] == update["facultyId"])
+        link = next(row for row in person["extraLinks"] if row["url"] == update["url"])
+        link.update(bodyStatus=update["bodyStatus"], readNote=update["readNote"])
+        if update["bodyStatus"] == "body_read":
+            link["sourceId"] = update["sourceId"]
+            person["sourceIds"].extend(update["sourceIds"])
+        if update.get("applicationNote"):
+            person.setdefault("applicationNotes", []).append(update["applicationNote"])
+        for field in ["researchKeywords", "keywordSourceIds"]:
+            person[field] = list(dict.fromkeys(person[field] + update.get(field, [])))
     return catalog
 
 

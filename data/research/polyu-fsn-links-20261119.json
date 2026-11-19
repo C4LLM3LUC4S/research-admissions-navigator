@@ -1,0 +1,253 @@
+{
+  "sources": [
+    {
+      "id": "polyu-fsn-lai-lab-20261119",
+      "url": "https://nathanaellch.wixsite.com/nathanael-lai-s-lab",
+      "title": "Nathanael Lai课题组",
+      "parentSourceId": "polyu-fsn-dr-lai-chun-him-nathanael-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "开发食品或代谢物材料，用于骨骼和血管健康及食品产业可持续材料。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ],
+      "discoveredLinks": [
+        "https://nathanaellch.wixsite.com/nathanael-lai-s-lab/our-team"
+      ]
+    },
+    {
+      "id": "polyu-fsn-lai-pi-20261119",
+      "url": "https://nathanaellch.wixsite.com/nathanael-lai-s-lab/our-team",
+      "title": "Nathanael Lai课题组 · 负责人",
+      "parentSourceId": "polyu-fsn-lai-lab-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "PI为Lai Chun Him, Nathanael；只核负责人段落，不收录学生信息。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-fang-meal-20261119",
+      "url": "https://www.seafoodmeal.today/",
+      "title": "James Kar-Hei Fang · 海洋生态及水产养殖实验室",
+      "parentSourceId": "polyu-fsn-prof-fang-karhei-james-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "海洋生态及水产养殖实验室在港理工及海洋污染国家重点实验室开展跨学科研究。",
+        "方向为海产品营养与污染、微塑料、养殖技术和海洋生态保护。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ],
+      "discoveredLinks": [
+        "https://www.seafoodmeal.today/leader"
+      ]
+    },
+    {
+      "id": "polyu-fsn-fang-leader-20261119",
+      "url": "https://www.seafoodmeal.today/leader",
+      "title": "海洋生态及水产养殖实验室 · 负责人",
+      "parentSourceId": "polyu-fsn-fang-meal-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "负责人为James Kar-Hei Fang，现列港理工食品科学及营养学系副教授。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-zhong-bfm-20261119",
+      "url": "https://yuyue0221.github.io/BFM-lab.github.io/",
+      "title": "Yuyue Zhong · BFM实验室",
+      "parentSourceId": "polyu-fsn-dr-zhong-yuyue-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "港理工FSN跨学科团队融合纳米材料、仿生光学与功能营养。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ],
+      "discoveredLinks": [
+        "https://yuyue0221.github.io/BFM-lab.github.io/research/"
+      ]
+    },
+    {
+      "id": "polyu-fsn-zhong-research-20261119",
+      "url": "https://yuyue0221.github.io/BFM-lab.github.io/research/",
+      "title": "BFM实验室 · 研究主题",
+      "parentSourceId": "polyu-fsn-zhong-bfm-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "导电水凝胶、结构色材料、生物功能材料、纳米酶、治疗药理及新型生物材料。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-zhao-lab-20261119",
+      "url": "https://drdaisyzhaogroup.wixsite.com/dr-daisyzhao",
+      "title": "Daisy Zhao Danyue · 天然产物和营养代谢组学实验室",
+      "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "天然产物和营养代谢组学课题组，研究植物成分与肠道菌群、代谢病、益生元/益生菌及精准营养。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ],
+      "discoveredLinks": [
+        "https://drdaisyzhaogroup.wixsite.com/dr-daisyzhao/about-5"
+      ]
+    },
+    {
+      "id": "polyu-fsn-zhao-pi-20261119",
+      "url": "https://drdaisyzhaogroup.wixsite.com/dr-daisyzhao/about-5",
+      "title": "Daisy Zhao Danyue课题组 · 负责人",
+      "parentSourceId": "polyu-fsn-zhao-lab-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "所给课题组入口的研究概述或负责人段落，不收录学生信息。",
+      "claims": [
+        "负责人Daisy Zhao Danyue，2026年起列港理工FSN副教授，与系页一致。"
+      ],
+      "knownIssues": [
+        "课题组研究不代表当前指导资格、招募或余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-zhang-researchgate-20261119",
+      "url": "https://www.researchgate.net/profile/Fang-Zhang-27",
+      "title": "Fang Zhang · 系页所给外部研究档案",
+      "parentSourceId": "polyu-fsn-dr-zhang-fang-20261119",
+      "checkedAt": "2026-11-19",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "只用作所给链接身份差异，不从论文表增补研究或推断跨校任职。",
+      "claims": [
+        "官网给出的ResearchGate仍列福州大学，附Waterloo经历。与港理工系页任职有差异，可能未同步更新，尚不判定哪段外部任职现行。"
+      ],
+      "knownIssues": [
+        "外部页面机构仍列福州大学，与港理工系页不同；不据此推定当前跨校任职或否定系页身份。"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "facultyId": "polyu-fsn-dr-cheng-wai-yin-nano",
+      "url": "https://nanocwy.wixsite.com/chronolab",
+      "bodyStatus": "not_read",
+      "readNote": "2026-11-19读取工具未取得目标正文，保留官网原链接待核。"
+    },
+    {
+      "facultyId": "polyu-fsn-dr-lai-chun-him-nathanael",
+      "url": "https://nathanaellch.wixsite.com/nathanael-lai-s-lab",
+      "bodyStatus": "body_read",
+      "sourceId": "polyu-fsn-lai-lab-20261119",
+      "sourceIds": [
+        "polyu-fsn-lai-lab-20261119",
+        "polyu-fsn-lai-pi-20261119"
+      ],
+      "readNote": "已核读所给站点的研究概述及相关研究或负责人段落，招生资格与余位另核。"
+    },
+    {
+      "facultyId": "polyu-fsn-prof-fang-karhei-james",
+      "url": "https://www.seafoodmeal.today/",
+      "bodyStatus": "body_read",
+      "sourceId": "polyu-fsn-fang-meal-20261119",
+      "sourceIds": [
+        "polyu-fsn-fang-meal-20261119",
+        "polyu-fsn-fang-leader-20261119"
+      ],
+      "readNote": "已核读所给站点的研究概述及相关研究或负责人段落，招生资格与余位另核。"
+    },
+    {
+      "facultyId": "polyu-fsn-dr-zhong-yuyue",
+      "url": "https://yuyue0221.github.io/BFM-lab.github.io/",
+      "bodyStatus": "body_read",
+      "sourceId": "polyu-fsn-zhong-bfm-20261119",
+      "sourceIds": [
+        "polyu-fsn-zhong-bfm-20261119",
+        "polyu-fsn-zhong-research-20261119"
+      ],
+      "readNote": "已核读所给站点的研究概述及相关研究或负责人段落，招生资格与余位另核。",
+      "researchKeywords": [
+        "Conductive Hydrogels",
+        "Structural Color Materials",
+        "Bio-functional Materials",
+        "Nanozymes"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-zhong-research-20261119"
+      ]
+    },
+    {
+      "facultyId": "polyu-fsn-prof-gan-renyou",
+      "url": "https://www.x-mol.com/groups/rygan?lang=en ",
+      "bodyStatus": "not_read",
+      "readNote": "2026-11-19读取工具未取得目标正文，保留官网原链接待核。"
+    },
+    {
+      "facultyId": "polyu-fsn-prof-zhao-danyue-daisy",
+      "url": "https://drdaisyzhaogroup.wixsite.com/dr-daisyzhao",
+      "bodyStatus": "body_read",
+      "sourceId": "polyu-fsn-zhao-lab-20261119",
+      "sourceIds": [
+        "polyu-fsn-zhao-lab-20261119",
+        "polyu-fsn-zhao-pi-20261119"
+      ],
+      "readNote": "已核读所给站点的研究概述及相关研究或负责人段落，招生资格与余位另核。"
+    },
+    {
+      "facultyId": "polyu-fsn-prof-zhu-yuyan",
+      "url": "https://yyzhulab.wordpress.com/",
+      "bodyStatus": "not_read",
+      "readNote": "2026-11-19读取工具未取得目标正文，保留官网原链接待核。"
+    },
+    {
+      "facultyId": "polyu-fsn-dr-zhang-fang",
+      "url": "https://www.researchgate.net/profile/Fang-Zhang-27",
+      "bodyStatus": "body_read",
+      "sourceId": "polyu-fsn-zhang-researchgate-20261119",
+      "sourceIds": [
+        "polyu-fsn-zhang-researchgate-20261119"
+      ],
+      "readNote": "已读外部档案，但机构仍列福州大学，与系页不同；保留身份差异，未据此改写本卡任职。",
+      "applicationNote": {
+        "kind": "page_conflict",
+        "label": "所给外部档案的任职有差异",
+        "text": "系页所给ResearchGate仍列福州大学，本卡任职按港理工系页保留。外部档案是否已同步更新尚未确认，不据此推定当前跨校任职。",
+        "sourceIds": [
+          "polyu-fsn-zhang-researchgate-20261119",
+          "polyu-fsn-dr-zhang-fang-20261119"
+        ]
+      }
+    }
+  ]
+}
