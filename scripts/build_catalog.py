@@ -2013,6 +2013,23 @@ def build_catalog():
     home_link = next(link for link in person["extraLinks"] if link["url"] == chu["sources"][0]["url"])
     home_link.update(bodyStatus="body_read", sourceId="gz-chu-home-20261119",
                      readNote="已核读主页、研究方向页及负责人身份段落；当期招募与余位仍未知。")
+    provided_sites = load("gz-provided-sites-20261119.json")
+    catalog["sources"].extend(provided_sites["sources"])
+    site_sources = {source["id"]: source for source in provided_sites["sources"]}
+    for update in provided_sites["updates"]:
+        person = next(row for row in catalog["faculty"] if row["id"] == update["id"])
+        person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + update["sourceIds"]))
+        person["keywordSourceIds"] = list(dict.fromkeys(person["keywordSourceIds"] + update["keywordSourceIds"]))
+        person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + update["researchKeywords"]))
+        person["summary"] = update["summary"]
+        person.setdefault("applicationNotes", []).extend(update.get("applicationNotes", []))
+        source = site_sources[update["homeSourceId"]]
+        link = next(row for row in person["extraLinks"] if row["url"] == source["url"])
+        link.update(bodyStatus="body_read", sourceId=source["id"],
+                    readNote="已读取所给主页及其迁移或研究链接；研究和未注明年份的招募分别核对。")
+    han = next(row for row in catalog["faculty"] if row["id"] == "hkustgz-function-183")
+    next(link for link in han["extraLinks"] if link["url"] == "https://weihan.people.ust.hk/")["readNote"] = \
+        "2026-11-19两次读取均超时，未读到正文；保留原链接待核。"
     return catalog
 
 
