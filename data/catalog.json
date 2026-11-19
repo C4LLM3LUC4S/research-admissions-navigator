@@ -29569,10 +29569,19 @@
         "Structure-Function Relationship",
         "Multi-scale Modelling of Biomolecules",
         "4D Genome",
-        "Protein Design"
+        "Protein Design",
+        "Protein Folding",
+        "Intrinsically Disordered Proteins",
+        "Protein-DNA Binding",
+        "Allostery",
+        "Energy Landscapes",
+        "Nonequilibrium Cell Fate Transitions",
+        "Enzyme-mediated Plastic Degradation",
+        "PET Hydrolases"
       ],
       "keywordSourceIds": [
-        "gz-function-profile-151-20261027"
+        "gz-function-profile-151-20261027",
+        "gz-chu-research-20261119"
       ],
       "topics": [
         "生物医学与健康",
@@ -29580,7 +29589,10 @@
       ],
       "sourceIds": [
         "gz-function-directory-20261027",
-        "gz-function-profile-151-20261027"
+        "gz-function-profile-151-20261027",
+        "gz-chu-home-20261119",
+        "gz-chu-research-20261119",
+        "gz-chu-pi-20261119"
       ],
       "directorySourceIds": [
         "gz-function-directory-20261027"
@@ -29595,11 +29607,12 @@
           "url": "https://personal.hkust-gz.edu.cn/xiakunchu/",
           "label": "官方资料提供的个人网站或实验室",
           "parentSourceId": "gz-function-profile-151-20261027",
-          "bodyStatus": "not_read",
-          "readNote": "本轮未取得可核实正文；保留官网给出的原链接，不改写地址或绕过访问限制。"
+          "bodyStatus": "body_read",
+          "readNote": "已核读主页、研究方向页及负责人身份段落；当期招募与余位仍未知。",
+          "sourceId": "gz-chu-home-20261119"
         }
       ],
-      "summary": "可先从生物医学与健康、物理与化学了解；下方保留官网研究词和原始依据。",
+      "summary": "研究理论与计算生物物理，利用统计物理、能量景观与多尺度建模理解蛋白质结构和功能、四维基因组及细胞命运转变，也研究酶介导的塑料降解。",
       "availability": {
         "state": "unknown",
         "cycle": null,
@@ -268434,6 +268447,53 @@
         "身份证明、学历成绩、评分制度、语言及研究计划。TIE须额外指定格式材料。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "gz-chu-home-20261119",
+      "url": "https://personal.hkust-gz.edu.cn/xiakunchu/",
+      "title": "楚夏昆 · 理论与计算生物物理课题组",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-function-profile-151-20261027",
+      "scope": "官网个人页提供的课题组主页，研究概述及下属链接。",
+      "claims": [
+        "以能量景观、统计物理、多尺度建模及非平衡理论研究生物分子的结构、动力学与功能。"
+      ],
+      "knownIssues": [
+        "本次研究正文核读不确认当期指导资格、招募或余位。"
+      ],
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/xiakunchu/research/index.html",
+        "https://personal.hkust-gz.edu.cn/xiakunchu/people/index.html"
+      ]
+    },
+    {
+      "id": "gz-chu-research-20261119",
+      "url": "https://personal.hkust-gz.edu.cn/xiakunchu/research/index.html",
+      "title": "楚夏昆课题组 · 研究方向",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-chu-home-20261119",
+      "scope": "课题组研究页三个主题的可见正文，不含招生承诺。",
+      "claims": [
+        "生物分子的结构、动力学及功能，包括蛋白质折叠、无序蛋白识别、蛋白质与DNA结合、变构及多结构域运动。",
+        "四维基因组组织，研究细胞周期和细胞命运转变中的染色体构象、非平衡转变及能量景观。",
+        "酶介导的塑料降解，以分子模型及景观分析研究PET水解酶的稳定性、柔性与功能。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "gz-chu-pi-20261119",
+      "url": "https://personal.hkust-gz.edu.cn/xiakunchu/people/index.html",
+      "title": "楚夏昆课题组 · 负责人身份",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-chu-home-20261119",
+      "scope": "仅核读负责人段落及返回校方个人页的链接，不收录学生信息。",
+      "claims": [
+        "负责人列为楚夏昆，港科大广州功能枢纽先进材料学域助理教授，与原档案身份一致。"
+      ],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -348299,5 +348359,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:ce37504192b76b0d0d16481402f71fd526268528b6014b7cf9060fd367326d31"
+  "snapshotId": "sha256:e942f543c401fdafe5a28a4db2c96f584ae271626cdfedc6929e7ae08f2195ad"
 }
