@@ -2003,6 +2003,16 @@ def build_catalog():
     tie_program = next(row for row in catalog["programs"] if row["id"] == "hkust-tie-mphil-2027")
     tie_program["requirements"].extend(tie["requirements"])
     tie_program["sourceIds"].extend(source["id"] for source in tie["sources"])
+    chu = load("gz-chu-research-20261119.json")
+    catalog["sources"].extend(chu["sources"])
+    person = next(row for row in catalog["faculty"] if row["id"] == chu["facultyId"])
+    person["sourceIds"].extend(source["id"] for source in chu["sources"])
+    person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + chu["researchKeywords"]))
+    person["keywordSourceIds"].append("gz-chu-research-20261119")
+    person["summary"] = chu["summary"]
+    home_link = next(link for link in person["extraLinks"] if link["url"] == chu["sources"][0]["url"])
+    home_link.update(bodyStatus="body_read", sourceId="gz-chu-home-20261119",
+                     readNote="已核读主页、研究方向页及负责人身份段落；当期招募与余位仍未知。")
     return catalog
 
 
@@ -2724,6 +2734,7 @@ def main():
         search_index, ensure_ascii=False, separators=(",", ":"), allow_nan=False
     ) + ";\n"
     outputs = {ROOT / "data/catalog.json": encoded, ROOT / "dist/catalog.js": js,
+               ROOT / "docs/catalog.js": js,
                ROOT / "dist/faculty-index.js": index_js,
                ROOT / "data/coverage.json": json.dumps(quality, ensure_ascii=False, indent=2) + "\n",
                ROOT / "data/snapshots" / (identity + ".json"): encoded}
