@@ -2762,7 +2762,7 @@ def main():
     search_index = {
         "schools": {school["id"]: school["short"] for school in catalog["universities"]},
         "faculty": [[person["name"], person["universityId"], person["profileUrl"],
-                     person["researchKeywords"]] for person in catalog["faculty"]],
+                     person["researchKeywords"], person["id"]] for person in catalog["faculty"]],
     }
     index_js = "window.APP_FACULTY_INDEX = " + json.dumps(
         search_index, ensure_ascii=False, separators=(",", ":"), allow_nan=False

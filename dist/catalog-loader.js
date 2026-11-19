@@ -46,10 +46,23 @@
   window.APP_LOADED_SCHOOLS = loaded;
   window.APP_LOAD_SCHOOLS = keys => Promise.all([...new Set(keys)].map(load)).then(() => base);
   window.APP_LOAD_ALL = () => window.APP_LOAD_SCHOOLS(manifest.map(row => row.key));
-  // Validate existing portable records only after the complete ID set is ready.
-  let saved = false;
-  try { saved = !!localStorage.getItem('yanxiang-local-v1'); } catch (_) {}
-  window.APP_CATALOG_READY = (saved ? window.APP_LOAD_ALL() : Promise.resolve(base)).then(() => {
+  async function prepareSavedRecords() {
+    let raw;
+    try { raw = localStorage.getItem('yanxiang-local-v1'); } catch (_) {}
+    if (!raw || raw.length > 1024*1024) return;
+    let saved;
+    try { saved = JSON.parse(raw); } catch (_) { return; }
+    if (!saved || !Array.isArray(saved.shortlist) || !Array.isArray(saved.tasks) || !Array.isArray(saved.sourceIds)) return;
+    const ids = [...saved.shortlist,...saved.tasks.map(task => task?.facultyId).filter(Boolean)];
+    const schoolsById = new Map((window.APP_FACULTY_INDEX?.faculty || []).map(row => [row[4],row[1]]));
+    // Unknown/older IDs must reach the existing full-catalogue validator. Never
+    // discard an unresolved record merely to make startup appear successful.
+    if (ids.some(id => !schoolsById.has(id))) { await window.APP_LOAD_ALL();return; }
+    await window.APP_LOAD_SCHOOLS(ids.map(id => schoolsById.get(id)));
+    const available = new Set(base.sources.map(source => source.id));
+    if (saved.sourceIds.some(id => !available.has(id))) await window.APP_LOAD_ALL();
+  }
+  window.APP_CATALOG_READY = prepareSavedRecords().then(() => {
     window.APP_CATALOG = base;return base;
   });
   window.APP_CATALOG_READY.catch(() => {});
