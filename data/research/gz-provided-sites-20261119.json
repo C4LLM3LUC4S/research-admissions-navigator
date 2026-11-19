@@ -1,0 +1,233 @@
+{
+  "sources": [
+    {
+      "id": "gz-jhuang-home-20261119",
+      "url": "https://seejhuang.people.ust.hk/",
+      "title": "黄加强 · 智能电池实验室",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-function-profile-100-20261027",
+      "scope": "官网个人页所给课题组主页的研究概述及机构信息。",
+      "claims": [
+        "智能电池实验室研究电池、传感器与人工智能的交叉。",
+        "页面机构信息列港科广功能枢纽可持续能源与环境学域。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://seejhuang.people.ust.hk/research/"
+      ]
+    },
+    {
+      "id": "gz-jhuang-research-entry-20261119",
+      "url": "https://seejhuang.people.ust.hk/research/",
+      "title": "智能电池实验室 · 研究页入口",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-jhuang-home-20261119",
+      "scope": "已读取返回的页面文字，仅标题、页脚和机构信息。",
+      "claims": [
+        "页面标题为Research，返回文字未提供具体研究主题。"
+      ],
+      "knownIssues": [
+        "返回文字没有具体研究介绍，图像内容尚未核实，不据此扩展研究细节。"
+      ]
+    },
+    {
+      "id": "gz-shijulin-move-20261119",
+      "url": "https://shijulin.github.io/",
+      "title": "林仕居 · 原主页迁移提示",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-function-profile-520-20261027",
+      "scope": "旧主页实际返回的迁移提示与所给目标链接。",
+      "claims": [
+        "旧主页提示前往个人新站。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://personal.hkust-gz.edu.cn/shijulin/"
+      ]
+    },
+    {
+      "id": "gz-shijulin-home-20261119",
+      "url": "https://personal.hkust-gz.edu.cn/shijulin/",
+      "title": "林仕居 · 个人新站",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-shijulin-move-20261119",
+      "scope": "负责人身份、电子设计自动化研究、所列论文主题及未标年份的招募邀请。",
+      "claims": [
+        "微电子学域助理教授，研究电子设计自动化。",
+        "所列论文研究包括GPU加速布线、逻辑优化和静态时序分析。",
+        "页面一般邀请MPhil及PhD学生，未注明招生年和具体余位。"
+      ],
+      "knownIssues": [
+        "论文年份不作为招募轮次；一般邀请不证明2027/28仍有余位。"
+      ]
+    },
+    {
+      "id": "gz-jinguoliu-move-20261119",
+      "url": "https://giggleliu.github.io/",
+      "title": "刘金国 · 原主页迁移提示",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-function-profile-165-20261027",
+      "scope": "原主页所给课题组迁移链接。",
+      "claims": [
+        "原主页提示迁移至课题组新站。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.jinguo-group.science/"
+      ]
+    },
+    {
+      "id": "gz-jinguoliu-home-20261119",
+      "url": "https://www.jinguo-group.science/",
+      "title": "刘金国 · 课题组新站",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-jinguoliu-move-20261119",
+      "scope": "课题组研究概述、广州机构信息和所给下属链接。",
+      "claims": [
+        "港科广课题组研究量子计算、张量网络和计算复杂性，并开发开源科学计算软件。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.jinguo-group.science/research/",
+        "https://www.jinguo-group.science/people/",
+        "https://www.jinguo-group.science/join/"
+      ]
+    },
+    {
+      "id": "gz-jinguoliu-research-20261119",
+      "url": "https://www.jinguo-group.science/research/",
+      "title": "刘金国课题组 · 研究方向",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-jinguoliu-home-20261119",
+      "scope": "研究页的张量网络、量子计算、计算复杂性和科学计算主题。",
+      "claims": [
+        "张量收缩优化、组合优化问题及概率图模型推断。",
+        "量子算法设计与模拟、张量网络量子纠错和中性原子量子算法。",
+        "计算复杂性、问题归约、数值方法自动微分及Julia开源软件。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "gz-jinguoliu-pi-20261119",
+      "url": "https://www.jinguo-group.science/people/",
+      "title": "刘金国课题组 · 负责人身份",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-jinguoliu-home-20261119",
+      "scope": "仅核读负责人段落，不收录学生信息。",
+      "claims": [
+        "负责人为刘金国，港科广先进材料学域及量子科学与技术中心助理教授。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "gz-jinguoliu-join-20261119",
+      "url": "https://www.jinguo-group.science/join/",
+      "title": "刘金国课题组 · 招募说明",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "gz-jinguoliu-home-20261119",
+      "scope": "未注明招生年度的博士与科研助理招募，课题组流程与校级规则分开。",
+      "claims": [
+        "页面一般招募博士与科研助理，并描述与香港清水湾戴希课题组的合作。",
+        "申请者向课题组提供简历、成绩单和已有论文，合适者参加面试。",
+        "量子力学为所列背景要求，编程等为加分背景。"
+      ],
+      "knownIssues": [
+        "未注明2027/28；全年审阅和招满为止不证明实时余位，也不代表MPhil招募。",
+        "组内申请步骤不代替校方网申；本页语言分数应另与研究生院当期要求核对。"
+      ]
+    }
+  ],
+  "updates": [
+    {
+      "id": "hkustgz-function-100",
+      "homeSourceId": "gz-jhuang-home-20261119",
+      "sourceIds": [
+        "gz-jhuang-home-20261119",
+        "gz-jhuang-research-entry-20261119"
+      ],
+      "keywordSourceIds": [
+        "gz-jhuang-home-20261119"
+      ],
+      "researchKeywords": [],
+      "summary": "研究电池、传感器与人工智能的交叉，可从电池传感、数据驱动诊断及电化学储能了解智能电池实验室。"
+    },
+    {
+      "id": "hkustgz-function-520",
+      "homeSourceId": "gz-shijulin-move-20261119",
+      "sourceIds": [
+        "gz-shijulin-move-20261119",
+        "gz-shijulin-home-20261119"
+      ],
+      "keywordSourceIds": [
+        "gz-shijulin-home-20261119"
+      ],
+      "researchKeywords": [
+        "Electronic Design Automation",
+        "GPU-Accelerated Global Routing",
+        "Logic Optimization",
+        "Static Timing Analysis"
+      ],
+      "summary": "研究电子设计自动化，方向包括GPU加速布线、逻辑优化及静态时序分析。",
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "未注明年份的硕博招募说明",
+          "text": "个人新站一般邀请MPhil和PhD学生研究电子设计自动化，未注明招生年及余位。请另核对应项目的当期申请要求。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "gz-shijulin-home-20261119"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-function-165",
+      "homeSourceId": "gz-jinguoliu-move-20261119",
+      "sourceIds": [
+        "gz-jinguoliu-move-20261119",
+        "gz-jinguoliu-home-20261119",
+        "gz-jinguoliu-research-20261119",
+        "gz-jinguoliu-pi-20261119",
+        "gz-jinguoliu-join-20261119"
+      ],
+      "keywordSourceIds": [
+        "gz-jinguoliu-research-20261119"
+      ],
+      "researchKeywords": [
+        "Tensor-network Decoders",
+        "Quantum Error Correction",
+        "Neutral-atom Quantum Algorithms",
+        "Computational Complexity",
+        "Problem Reductions",
+        "Automatic Differentiation",
+        "Julia"
+      ],
+      "summary": "研究量子计算、张量网络与计算复杂性，包括量子纠错、组合优化、概率推断及科学计算软件。",
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "未注明年份的博士招募说明",
+          "text": "课题组招募页谈及博士和科研助理，未注明2027/28及具体余位。与香港课题组的合作不改变本档案的广州归属；组内材料及面试另于校方网申。",
+          "degrees": [
+            "PhD"
+          ],
+          "sourceIds": [
+            "gz-jinguoliu-join-20261119"
+          ]
+        }
+      ]
+    }
+  ]
+}
