@@ -2683,21 +2683,39 @@ def school_catalog_scripts(catalog):
 
     def collect(value, school):
         if isinstance(value, str) and value in source_ids:
-            owners.setdefault(value, school)
+            schools = owners.setdefault(value, set())
+            changed = school not in schools
+            schools.add(school)
+            return changed
         elif isinstance(value, dict):
-            for item in value.values():
-                collect(item, school)
+            return sum(collect(item, school) for item in value.values()) > 0
         elif isinstance(value, list):
-            for item in value:
-                collect(item, school)
+            return sum(collect(item, school) for item in value) > 0
+        return False
 
     for field in fields[:-1]:
         for index, record in enumerate(catalog[field]):
             school = record["universityId"]
             parts[school][field].append([index, record])
             collect(record, school)
+    base = {key: value for key, value in catalog.items() if key not in fields}
+    collect(base, "base")
+    # Each independently loaded school needs the complete source closure, including
+    # a linked source's own parent. Shared references may occur in several files.
+    for _ in range(len(catalog["sources"])):
+        changed = False
+        for source in catalog["sources"]:
+            for school in list(owners.get(source["id"], set())):
+                changed |= collect(source, school)
+        if not changed:
+            break
+    base["sources"] = []
     for index, source in enumerate(catalog["sources"]):
-        parts[owners.get(source["id"], "shared")]["sources"].append([index, source])
+        schools = owners.get(source["id"], {"shared"})
+        if "base" in schools:
+            base["sources"].append([index, source])
+        for school in schools - {"base"}:
+            parts[school]["sources"].append([index, source])
     result = {}
     manifest = []
     for school, records in parts.items():
@@ -2707,9 +2725,8 @@ def school_catalog_scripts(catalog):
         name = "catalog-" + school + ".js"
         result[name] = content
         manifest.append({"key": school, "url": name + "?v=" + hashlib.sha256(content.encode()).hexdigest()[:16]})
-    base = {key: value for key, value in catalog.items() if key not in fields}
     result["catalog-loader.js"] = (ROOT / "scripts/catalog-loader.js").read_text(encoding="utf-8").replace(
-        "/* CATALOG_BASE */", json.dumps(base, ensure_ascii=False, separators=(",", ":"))
+        "/* CATALOG_BASE */", browser_catalog_script(base).removeprefix("window.APP_CATALOG = ").strip().removesuffix(";")
     ).replace("/* CATALOG_MANIFEST */", json.dumps(manifest, separators=(",", ":")))
     return result
 

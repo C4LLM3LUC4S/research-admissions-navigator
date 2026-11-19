@@ -304,7 +304,38 @@
     target.append(node('p','也可以从下方师资目录直接查看老师。','evidence-note'));
   }
   function renderFunding() { const items=L.fundingFor(C,state.profile);$('funding-results').hidden=!items.length;clear($('funding-cards'));items.forEach(f=>{const box=node('article',null,'funding-card');append(box,node('h3',f.title),node('p',f.note||'资格和资助结果以官方审核为准，不是自动获奖。'));box.append(deadlineCard({label:'相关申请日期',at:f.deadline,cycle:f.cycle},state.profile.cycle));box.append(evidence(f.sourceIds));$('funding-cards').append(box);}); }
+  let resultSequence=0;
+  function neededSchools() {
+    if(mode==='programs')return [];
+    if(state.profile.universityIds.length)return state.profile.universityIds;
+    const index=window.APP_FACULTY_INDEX;
+    if(mode==='faculty'&&state.profile.researchQuery.trim()&&index){
+      const search=L.facultySearch(state.profile.researchQuery);
+      return [...new Set(index.faculty.filter(row=>search.matchesName(row[0])||search.matchedTerms({researchKeywords:row[3]}).length).map(row=>row[1]))];
+    }
+    return C.universities.map(u=>u.id);
+  }
   function renderResults() {
+    const sequence=++resultSequence,schools=neededSchools();
+    if(window.APP_LOAD_SCHOOLS&&schools.some(id=>!window.APP_LOADED_SCHOOLS.has(id))){
+      clear($('results'));resultCards=[];resultBookmarkButtons.clear();
+      $('result-count').textContent='正在读取所选学校资料…';
+      $('results-jump').textContent='查看筛选结果';$('show-more-faculty').hidden=true;
+      $('results').append(node('p','正在读取老师与院系资料，项目要求可随时查看。','field-help'));
+      window.APP_LOAD_SCHOOLS(schools).then(()=>{
+        sourceIndex=null;
+        if(sequence!==resultSequence)return;
+        subjectOptions=L.researchOptions(C);renderSubjectOptions();renderLoadedResults();
+      }).catch(error=>{
+        if(sequence!==resultSequence)return;
+        clear($('results'));$('result-count').textContent='资料暂未载入';
+        append($('results'),node('p',error.message),button('重试读取',renderResults));
+      });
+      return;
+    }
+    renderLoadedResults();
+  }
+  function renderLoadedResults() {
     const target=$('results');clear(target);resultCards=[];resultBookmarkButtons.clear();const items=mode==='programs'?L.programsFor(C,state.profile):mode==='directories'?L.directoriesFor(C,state.profile):L.facultyFor(C,state.profile);
     $('result-count').textContent=mode==='faculty'?'找到 '+items.length+' 位老师（已整理研究方向）':items.length+(mode==='directories'?' 个目录':' 条项目路线');$('results-jump').textContent='查看筛选结果（'+items.length+'）';
     $('filter-note').textContent=mode==='programs'?'按学校、学位和入学轮次查看项目，再把材料和日期加入清单。':mode==='directories'?'选学院，再打开相关院系和师资目录。':'按研究词找老师，打开主页了解近期工作，再加入自己的清单。';
@@ -315,7 +346,7 @@
   }
   function chooseMode(value) { mode=value;facultyLimit=24;[['show-programs','programs'],['show-faculty','faculty'],['show-directories','directories']].forEach(([id,target])=>$(id).setAttribute('aria-pressed',String(mode===target)));renderResults(); }
   let subjectLimit=12,coverageTarget=null,coverageGroupTarget=null,coverageTargetElement=null;
-  const subjectOptions=L.researchOptions(C);
+  let subjectOptions=L.researchOptions(C);
   function renderSubjectOptions() {
     const results=L.searchResearchOptions(subjectOptions,$('subject-search').value,$('subject-kind').value),target=$('subject-options');clear(target);
     $('subject-scope').textContent='可输入中文关键词或官网英文名，也可切换查看范围。';
@@ -333,6 +364,12 @@
     $('subject-more').hidden=results.length<=subjectLimit;
   }
   $('subject-search').addEventListener('input',()=>{subjectLimit=12;renderSubjectOptions();});
+  $('subject-search').closest?.('details')?.addEventListener('toggle',async event=>{
+    if(!event.target.open||!window.APP_LOAD_ALL)return;
+    $('subject-count').textContent='正在读取七校专业与院系目录…';
+    try{await window.APP_LOAD_ALL();sourceIndex=null;subjectOptions=L.researchOptions(C);renderSubjectOptions();}
+    catch(error){$('subject-count').textContent=error.message+' 关闭后重新展开可重试。';}
+  });
   $('subject-search').addEventListener('keydown',event=>{if(event.key==='Enter')event.preventDefault();});
   $('subject-kind').addEventListener('change',()=>{subjectLimit=12;renderSubjectOptions();});
   $('subject-more').addEventListener('click',()=>{subjectLimit+=24;renderSubjectOptions();});
@@ -369,6 +406,10 @@
     if(focusFirst&&firstTitle){firstTitle.setAttribute('tabindex','-1');firstTitle.focus();}
   }
   function filterSources() {
+    if(window.APP_LOAD_ALL&&!window.APP_ALL_SCHOOLS_READY){
+      $('source-count').textContent='正在读取完整来源目录…';
+      window.APP_LOAD_ALL().then(()=>{sourceIndex=null;filterSources();}).catch(error=>{$('source-count').textContent=error.message;});return;
+    }
     if(!sourceIndex)sourceIndex=C.sources.map(s=>[s,sourceSearchKey([s.title,s.scope,s.url,s.checkedAt,sourceKind(s),...(s.claims||[])].filter(Boolean).join(' '))]);
     const terms=sourceSearchKey($('source-query').value).trim().split(/[\s,，]+/).filter(Boolean);
     sourceMatches=sourceIndex.filter(([,key])=>terms.every(term=>key.includes(term))).map(([source])=>source);
@@ -392,7 +433,7 @@
   $('task-form').addEventListener('submit',event=>{event.preventDefault();const text=$('task-text').value.trim();if(!text)return;if(state.tasks.length>=200){notify('待办已到 200 条，请先整理现有清单。',true);return;}state.tasks.push({id:'task-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7),text,done:false,programId:null,facultyId:null});persist(false);$('task-text').value='';renderShortlist();});
   $('export-local').addEventListener('click',()=>{try{download('研向-完整备份.json',L.portable(C,{...state,sourceIds:sourceIdsForState()}));notify('已请求浏览器保存备份，请核对文件是否实际保存。');}catch(e){notify(e.message,true);}});
   let importSequence=0;
-  $('import-local').addEventListener('change',async event=>{const sequence=++importSequence,file=event.target.files[0];if(!file)return;try{if(file.size>1024*1024)throw new Error('备份超过 1 MiB，请保留原文件。');const next=L.parsePortable(await file.text(),C),prepared=L.portable(C,next);if(sequence!==importSequence)return;localStorage.setItem(KEY,JSON.stringify(prepared));state=prepared;savedProfile=structuredClone(prepared.profile);populateProfile();if(state.profile.researchQuery.trim())chooseMode('faculty');else renderResults();renderShortlist();notify(next.catalogSnapshotId&&next.catalogSnapshotId===C.snapshotId?'已载入完整备份。原文件没有修改，来源编号也已核对。':'已载入你的清单，并保留旧资料版本信息。页面显示当前资料，请重新核对政策。');}catch(e){if(sequence===importSequence)notify('没有替换当前清单：'+e.message,true);}finally{if(sequence===importSequence)event.target.value='';}});
+  $('import-local').addEventListener('change',async event=>{const sequence=++importSequence,file=event.target.files[0];if(!file)return;try{if(file.size>1024*1024)throw new Error('备份超过 1 MiB，请保留原文件。');const contents=await file.text();if(window.APP_LOAD_ALL){notify('正在核对备份中的学校、老师和来源编号…');await window.APP_LOAD_ALL();sourceIndex=null;subjectOptions=L.researchOptions(C);renderSubjectOptions();}const next=L.parsePortable(contents,C),prepared=L.portable(C,next);if(sequence!==importSequence)return;localStorage.setItem(KEY,JSON.stringify(prepared));state=prepared;savedProfile=structuredClone(prepared.profile);populateProfile();if(state.profile.researchQuery.trim())chooseMode('faculty');else renderResults();renderShortlist();notify(next.catalogSnapshotId&&next.catalogSnapshotId===C.snapshotId?'已载入完整备份。原文件没有修改，来源编号也已核对。':'已载入你的清单，并保留旧资料版本信息。页面显示当前资料，请重新核对政策。');}catch(e){if(sequence===importSequence)notify('没有替换当前清单：'+e.message,true);}finally{if(sequence===importSequence)event.target.value='';}});
   $('reset-local').addEventListener('click',()=>{try{localStorage.removeItem(KEY);state={profile:L.defaultProfile(C),shortlist:[],tasks:[],sourceIds:[]};savedProfile=L.defaultProfile(C);populateProfile();renderResults();renderShortlist();notify('已清空这个浏览器的记录。你下载的文件不会被删除。');}catch(e){notify('本机记录暂时无法清空：'+e.message,true);}});
   $('community-university').append(new Option('请选择学校 / 校区',''));C.universities.forEach(u=>$('community-university').append(new Option(u.name+' · '+u.region,u.id)));$('community-university').addEventListener('change',renderCommunityPrograms);renderCommunityPrograms();$('community-cycle').value=C.cycle||'';
   $('community-form').addEventListener('submit',event=>{event.preventDefault();if(!$('community-consent').checked)return;const uid=$('community-university').value,pid=$('community-program').value;if(!C.programs.some(p=>p.id===pid&&p.universityId===uid)){notify('请先选对应学校的项目。',true);return;}const draft={kind:'anonymous-community-draft',schemaVersion:1,publiclySubmitted:false,consentToLocalExport:true,universityId:uid,programId:pid,cycle:$('community-cycle').value.trim(),outcome:$('community-outcome').value,notes:$('community-notes').value.trim(),scope:'个人匿名经历草稿，非官方要求，不用于计算录取率。'};download('研向-匿名经历草稿.json',draft);notify('已发起草稿下载，可在浏览器下载列表中查看。');});
