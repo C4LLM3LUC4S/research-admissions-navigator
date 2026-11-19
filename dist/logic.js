@@ -388,6 +388,13 @@
     ['图检索增强生成','图rag','graph retrieval-augmented generation','graph rag'],
     ['超大规模集成电路','vlsi'],
     ['合成生物学','synthetic biology'],['生物信息学','bioinformatics'],
+    ['食品安全','food safety'],
+    ['肠道菌群','肠道微生物组','gut microbiota','gut microbiome'],
+    ['益生菌','probiotic','probiotics'],['益生元','prebiotic','prebiotics'],['合生元','synbiotic','synbiotics'],
+    ['功能食品','functional food','functional foods'],['营养','营养学','nutrition','nutritional'],
+    ['营养流行病学','nutritional epidemiology','nutrition epidemiology','nutritional and life-course epidemiology'],
+    ['精准营养','precision nutrition'],['微塑料','microplastic','microplastics'],
+    ['抗菌耐药','抗微生物耐药性','细菌耐药','antimicrobial resistance','bacterial amr'],
     ['过程控制','process control'],['电催化','electrocatalysis'],
     ['膜技术','membrane technology','membrane technologies'],
     ['可穿戴电子','wearable electronics'],['科学智能','ai辅助科学研究','ai for science']
