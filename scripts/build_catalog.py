@@ -2030,6 +2030,25 @@ def build_catalog():
     han = next(row for row in catalog["faculty"] if row["id"] == "hkustgz-function-183")
     next(link for link in han["extraLinks"] if link["url"] == "https://weihan.people.ust.hk/")["readNote"] = \
         "2026-11-19两次读取均超时，未读到正文；保留原链接待核。"
+    fsn = load("polyu-fsn-faculty-20261119.json")
+    catalog["sources"].extend(fsn["sources"])
+    catalog["faculty"].extend(fsn["faculty"])
+    catalog["directories"].append(fsn["directory"])
+    regular = next(source for source in catalog["sources"] if source["id"] == fsn["regularSourceId"])
+    regular["discoveredLinks"] = list(dict.fromkeys(regular.get("discoveredLinks", []) + fsn["regularLinks"] +
+                                                   [row["url"] for row in fsn["categories"]]))
+    fsn_parent = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == "polyu-7")
+    staff_entry = next((entry for entry in fsn_parent["staffEntries"] if entry["url"] == fsn["academicStaffEntry"]["url"]), None)
+    if staff_entry is None:
+        fsn_parent["staffEntries"].append(fsn["academicStaffEntry"])
+    else:
+        staff_entry.update(fsn["academicStaffEntry"])
+    for category in fsn["categories"]:
+        if not any(entry["url"] == category["url"] for entry in fsn_parent["staffEntries"]):
+            fsn_parent["staffEntries"].append({"label": "食品科学及营养学系 · " + category["label"],
+                                              "url": category["url"], "entryBodyStatus": "body_read",
+                                              "sourceIds": [category["sourceId"]], "teacherProfilesTotal": None,
+                                              "enumerationComplete": False, "profileLeads": []})
     return catalog
 
 

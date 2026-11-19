@@ -1,0 +1,4144 @@
+{
+  "sources": [
+    {
+      "id": "polyu-fsn-prof-chen-sheng-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-sheng/",
+      "title": "Prof. Chen Sheng · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Head (FSN), Director of RIM & Chair Professor of Microbiology。",
+        "研究细菌耐药、毒力和耐受性，结合基因组等方法开发抗菌药、疫苗及单克隆抗体疗法。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c87381956c8eb01c8cc0ab90845a9aa288374a0efbf210b4d8754814bbe4ad73",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/3181ce8a-348b-49c6-8b3a-e4c565a3845d",
+        "http://orcid.org/0000-0003-3526-7808",
+        "https://www.scopus.com/authid/detail.uri?authorId=56148872100"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-wong-mankin-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mankin/",
+      "title": "Prof. Wong Man-kin · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Dean (FS) & Professor。",
+        "以合成化学研究化学、生物化学及食品安全，方向包括催化、生物偶联和分子成像。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fea9a10e6f3a3e6415b289f746ad1861d370f1e74be87617e00a060b5608bc58",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/2aedc475-8364-403c-8754-891614be11a4",
+        "http://orcid.org/0000-0003-1574-6860",
+        "https://www.scopus.com/authid/detail.uri?authorId=7403908449"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-chiou-jiachi-amber-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chiou-jiachi-amber/",
+      "title": "Prof. Chiou Jiachi, Amber · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Head (FSN), Associate Director of RiFood & Associate Professor。",
+        "研究肠道微生物组与健康，关注益生元、益生菌和合生元、母乳及婴儿早期营养。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4beb6e8dbb7082b28aa53fa1cda2d4df572629285a7e3533e7b472cd9b0bd8ab",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/8380bbe1-0d50-4dc8-9fcf-da72d19b94b2",
+        "http://orcid.org/0000-0001-8306-1826",
+        "https://www.scopus.com/authid/detail.uri?authorId=56317933300"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-kwok-winghin-kevin-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-kwok-winghin-kevin/",
+      "title": "Prof. Kwok Wing-hin, Kevin · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Head (FSN), Associate Director of RiFood & Associate Professor。",
+        "研究食品与环境毒理，分析混合污染物的危害通路，也开发改善养殖鱼免疫、品质和可持续性的技术。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a336d0994e03591bdcb41279e30f12e6d051f40609e32d144173b6833d1bdd39",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f4b89ec2-62de-44d4-b6e0-b5ef445f79e8",
+        "http://orcid.org/0000-0003-3264-134X",
+        "https://www.scopus.com/authid/detail.uri?authorId=59036243100"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-lee-mingyuen-simon-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lee-mingyuen-simon/",
+      "title": "Prof. Lee Ming-yuen, Simon · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Cally Kwong Mei Wan Professor in Biomedical Sciences and Chinese Medicine Innovation, Chair Professor of Biomedical Sciences, Director of RCOcean, and Associate Director of WXRI。",
+        "研究天然产物与中药新药、神经退行性疾病及神经保护机制，结合多组学与转化医学开发治疗和营养策略。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2a75d3e4d8f14b132e5c6fd35d69bdf880746bb4a3613841be78f189b92f9623",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f6a62433-9213-4608-80be-0a1fd1fb677d",
+        "http://orcid.org/0000-0002-3966-6569",
+        "https://www.scopus.com/authid/detail.uri?authorId=57867785700"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-wong-kahing-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-kahing/",
+      "title": "Prof. Wong Ka-hing · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Director of RiFood, Assoicate Director of JJRI & Professor。",
+        "研究天然生物资源功能食品、食品组学与可持续性，以及未来食品产业的智能技术。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0e0f8a5b281fecdbface1bd9ce209ab7f29a0d06e95e0252d164544db74cfa42",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/138bcdd0-46bf-4b8d-b738-ec94343729ab",
+        "http://orcid.org/0000-0003-0286-4921",
+        "https://www.scopus.com/authid/detail.uri?authorId=57227363600"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-wong-mansau-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mansau/",
+      "title": "Prof. Wong Man-sau · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Director of RCMI & Professor。",
+        "研究膳食因子、植物化学物质及中药对骨骼肌肉健康的作用，关注骨质疏松、肌少症及年龄相关疾病。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "94c95c0122323ded50536a3f14d7e60d7dee9c53263dd1c02c61a8010355a221",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/47e89e32-fbfe-409c-9cdd-631a607c6e4c",
+        "http://orcid.org/0000-0002-0729-8618",
+        "https://www.scopus.com/authid/detail.uri?authorId=57218480096"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-zhou-xiaohui-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhou-xiaohui/",
+      "title": "Prof. Zhou Xiaohui · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Professor。",
+        "研究宿主与病原相互作用及耐药机制，开发食品来源的抗感染活性材料，涉及人工智能识别抗菌物。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0c344e81a1a1fe5668ecbeadc085758551f20870e292333479e797f40f24134d",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/26c61ec9-49ac-4fd7-9ca8-493aeb70c4c8",
+        "http://orcid.org/0000-0003-3205-4743",
+        "https://www.scopus.com/authid/detail.uri?authorId=23394297900",
+        "https://scholar.google.com.hk/citations?user=https://scholar.google.com/citations?user=3JMeaYoAAAAJ&hl=zh-CN"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-fang-karhei-james-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-fang-karhei-james/",
+      "title": "Prof. Fang Kar-hei, James · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Director of Research Postgraduate Studies, Associate Director of RCOcean & Associate Professor。",
+        "研究海产品营养与污染、微塑料、海洋养殖技术及珊瑚礁生态修复，关注海洋健康与海产品可持续性。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3b6561b1ba9651a99393ea97a5b6949339895637ad56d6e541c3be5fd39b3d23",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/4afe0501-dd23-4fe1-8829-f1145330ce52",
+        "https://www.seafoodmeal.today/",
+        "http://orcid.org/0000-0002-2969-7978",
+        "https://www.scopus.com/authid/detail.uri?authorId=24168119000"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-xia-xiaodong-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-xia-xiaodong/",
+      "title": "Prof. Xia Xiaodong · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Professor。",
+        "研究食品和肠道中的有益及有害微生物，探索食源病原控制、肠道菌群、免疫与下一代益生菌。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2e1f610e479af258c7a9aa03cb2fd31b47ed068466f4f164901ab8f08ab1b6c5",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/42f8b1b4-d9f8-4b7d-a820-d3a19dcc0bb2",
+        "http://orcid.org/0000-0002-6336-2661",
+        "https://www.scopus.com/authid/detail.uri?authorId=36850836100"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhao-danyue-daisy/",
+      "title": "Prof. Zhao Danyue, Daisy · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Professor。",
+        "研究活性植物成分与肠道菌群的相互作用，结合代谢组学和质谱探索疾病管理及精准营养。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "46bf1799feb40b94f2867d8a0ff34b8eeafc6616fcaee9b8896208beca453b9b",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/5512a1d8-0fc4-4ba3-8a29-4d7fc86d724a",
+        "https://drdaisyzhaogroup.wixsite.com/dr-daisyzhao",
+        "http://orcid.org/0000-0002-1365-1748",
+        "https://www.scopus.com/authid/detail.uri?authorId=56074353700",
+        "https://www.sciencedirect.com/science/article/pii/S0308814626011416",
+        "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.77454",
+        "https://www.sciencedirect.com/science/article/pii/S0924224425003723",
+        "https://www.sciopen.com/article/10.26599/FSHW.2025.9250836",
+        "https://pubs.acs.org/doi/10.1021/acs.analchem.4c03222 ",
+        "https://doi.org/10.1016/j.tifs.2024.104622 ",
+        "https://doi.org/10.1016/j.foodchem.2024.141371",
+        "https://doi.org/10.1016/j.foodchem.2023.137953",
+        "https://pubs.acs.org/doi/10.1021/acs.jafc.3c08910",
+        "https://doi.org/10.1111/1541-4337.13268",
+        "https://doi.org/10.1016/j.foodchem.2022.134644"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-zhu-yuyan-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhu-yuyan/",
+      "title": "Prof. Zhu Yuyan · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Professor。",
+        "研究功能食品成分及营养素改善脂质代谢失调，关注脂肪组织、胆固醇代谢和肥胖相关代谢综合征。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "975fde35d8d0119ffd479e80d920d620148be5890e78a3acf80ec498b9ba6b52",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f7c55e1c-4d1d-478a-b556-0a5df3d36af6",
+        "https://yyzhulab.wordpress.com/",
+        "http://orcid.org/0000-0002-2928-6167",
+        "https://www.scopus.com/authid/detail.uri?authorId=56768279000",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0022227524001858%23abs0010&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926504306%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cE4C9PUAKZDVl%2F3umIDAR%2Fx2jW%2BztCF%2Fqg95YJOcfrs%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0092867424009000&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926550447%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=FcYENg0%2BujLGrxAgu4LOaQW6BkfD3U1m1qjCfTUZQNA%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fabs%2Fpii%2FS0924224423002042&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926565745%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2FlBcigiGHCU8bVsWdMg7lSL3zIYViO4EtUDtvXu6OgI%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1002%2Fadfm.202207096&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926581449%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=7hRXxVpHp0lSADRkqaSPm0TepxeIBmMFLZGuPkI%2Bz7w%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0304389422014911%3Fdgcid%3Dauthor&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926596731%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ltZ9ns0dqpBBtxyCigasnGAAOHTM7RU5qtw9GB5q%2F48%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0955286322000699&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926657579%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=8TPS9g7vL5A7PqfKRTEBVJkxjQl%2BK%2BK5I5nxmEJdnxc%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS002604952100161X%3Fvia%253Dihub&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926679048%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=JpzENnveQ0Dz9%2Fo%2BNIDQavVBAUxWqOl2qyMoWqC6Qp8%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.pnas.org%2Fdoi%2F10.1073%2Fpnas.2022874118%3Furl_ver%3DZ39.88-2003%26rfr_id%3Dori%3Arid%3Acrossref.org%26rfr_dat%3Dcr_pub%2520%25200pubmed&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926692552%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mvA66tT%2Fuk87YQRCtX0djq9CAV6gPZ05uNjWQKMkRg0%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2Ffull%2F10.1002%2Feom2.12049&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926705595%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3%2BEYtkTI%2FTfTiOHobUY9Ly25iYFa1qCkgOryui6oYMg%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.jlr.org%2Farticle%2FS0022-2275(20)33117-5%2Ffulltext&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926716859%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=FB19hK3aJFm4b5bOyA6wFY8RQUxShHAT5D5MLZbVcTc%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC5860675%2F&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926729766%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2FfcIP4VDiOsQMiIbf4H2HTeQ2O6Tzo7SKCdOdrlUUgo%3D&reserved=0",
+        "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1756464615002455&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926745942%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=4u9ev4Gfh7%2BvQEP%2BRpjSTDy7T%2FpYOTNn7CZrZ%2BA4jnU%3D&reserved=0"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-chen-xu-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-xu/",
+      "title": "Prof. Chen Xu · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Assistant Professor。",
+        "研究心代谢疾病的流行病学、机制与生活方式干预，特别关注代谢功能障碍相关脂肪性肝病。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7f3f2a2faa3a8511f71b254e9400421ea2121184651c25edb151f7538b2f583e",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/074949c3-ce29-43c5-9b96-28c0072c62c9",
+        "http://orcid.org/0000-0002-0545-3936",
+        "https://www.scopus.com/authid/detail.uri?authorId=57192469008"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-gan-renyou-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-gan-renyou/",
+      "title": "Prof. Gan Renyou · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Assistant Professor。",
+        "研究功能植物、食品副产物、益生菌和活性成分的营养健康价值，结合发芽、发酵及肠道菌群生物转化。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "65ffb3120ae18a4f0ca731bfd860e49300605900826db1ea56d188fb857dd56e",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/e82381c9-dd0a-4f01-9401-c3db09e9c5e5",
+        "https://www.x-mol.com/groups/rygan?lang=en ",
+        "http://orcid.org/0000-0002-4162-1511",
+        "https://www.scopus.com/authid/detail.uri?authorId=36056363000",
+        "https://scholar.google.com.hk/citations?user=BN0l4QkAAAAJ",
+        "https://publons.com/researcher/C-9868-2009",
+        "https://doi.org/10.1002/imt2.70028",
+        "https://doi.org/10.1002/adhm.202503925 ",
+        "https://doi.org/10.1016/j.eng.2024.09.019&nbsp;",
+        "https://doi.org/10.1016/j.tifs.2024.104841",
+        "https://doi.org/10.1016/j.foodchem.2023.137066  ",
+        "https://doi.org/10.1080/10408398.2023.2180478",
+        "https://doi.org/10.1016/j.jare.2023.01.008",
+        "https://doi.org/10.1002/adhm.202302899 ",
+        "https://doi.org/10.1016/j.trac.2022.116554",
+        "http://doi.org/10.1016/j.tifs.2021.01.030  ",
+        "https://doi.org/10.1016/j.foodres.2020.109888  "
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lo-kahei-kenneth/",
+      "title": "Prof. Lo Ka-hei, Kenneth · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Assistant Professor。",
+        "研究营养流行病学与公共卫生营养，探索膳食模式在慢性病预防及管理中的作用。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7402f0f4261176ff980718dfb76d52010d07c8e13016e859a3a6f61833b239a7",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/23fb814f-6933-49e4-af51-f12dc7b2288b",
+        "http://orcid.org/0000-0003-4624-2737",
+        "https://www.scopus.com/authid/detail.uri?authorId=56650544600",
+        "https://doi.org/10.1016/j.phrs.2025.107914",
+        "https://doi.org/10.1016/j.ajcnut.2025.07.027",
+        "https://doi.org/10.3390/nu16030357",
+        "https://doi.org/10.3390/nu13124360",
+        "http://dx.doi.org/10.1161/JAHA.121.021515",
+        "https://doi.org/10.1016/j.scitotenv.2021.146527",
+        "https://doi.org/10.2337/dc20-0243",
+        "https://doi.org/10.2337/dc19-0612",
+        "http://dx.doi.org/10.1111/obr.12456"
+      ]
+    },
+    {
+      "id": "polyu-fsn-prof-lu-xuanxuan-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lu-xuanxuan/",
+      "title": "Prof. Lu Xuanxuan · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Assistant Professor。",
+        "设计活性物质递送系统，提升稳定性、可控释放、生物可及性及功能，涉及食品、药物和个人护理应用。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9837652e45eeeb6c3859bdd8b712a8edc675b870ed96573aa3b9b7683209a599",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/56cff4ed-cc85-40cf-9ab4-996eccfacd69",
+        "http://orcid.org/0000-0001-6072-4412",
+        "https://www.scopus.com/authid/detail.uri?authorId=56137303800"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-chang-jinhui-gail-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-chang-jinhui-gail/",
+      "title": "Dr Chang Jinhui, Gail · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究智能食品技术、功能食品及蘑菇活体材料，也研究蘑菇发育的基因组与转录组。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c988806db2e3ae314b8dd69e9baa1861481b0f37ccd281f21b5d55589d0a74df",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f619724b-fc8c-48c7-bd94-5e552b302be4",
+        "http://orcid.org/0000-0002-6337-5913",
+        "https://www.scopus.com/authid/detail.uri?authorId=56198244500"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-cheng-wai-yin-nano-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-cheng-wai-yin-nano/",
+      "title": "Dr Cheng Wai-yin, Nano · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究时间营养学、免疫与神经科学，探索改善神经炎症和昼夜节律紊乱的膳食策略。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bc4abb5ad3b92352c84393799b8c1318504517099d86a3565a297b660aa9e675",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/6345b7e7-7506-4d2c-ae60-ef88d6b401b7",
+        "https://nanocwy.wixsite.com/chronolab",
+        "http://orcid.org/0000-0003-0143-1550",
+        "https://www.scopus.com/authid/detail.uri?authorId=57201735298"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-dong-xiaoli-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-dong-xiaoli/",
+      "title": "Dr Dong Xiaoli · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究神经退行性疾病，尤其帕金森病的致病机制，以及食品相关疗法和精神健康功能食品。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1dadea038c681de5d16c9be30004853166db2abb7788e4b8c42dbcc6ee96ffd2",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/195c15dd-9016-4379-8844-a602fcdafe9f",
+        "http://orcid.org/0000-0002-7372-0450",
+        "https://www.scopus.com/authid/detail.uri?authorId=57226360011"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-gong-guiyi-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-gong-guiyi/",
+      "title": "Dr Gong Guiyi · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究天然产物及活性肽的药理和毒理，涉及神经退行性疾病、心血管疾病与药物发现。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "c7bb374dc6f48d733acd0e3d4a45a197bbc4f354340e497364be8d8c7ff8764d",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/4dca80aa-85e6-41e1-90d8-292340670aec",
+        "http://orcid.org/0000-0002-6495-0545",
+        "https://www.scopus.com/authid/detail.uri?authorId=57187718400"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-lai-chun-him-nathanael-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-lai-chun-him-nathanael/",
+      "title": "Dr Lai Chun-Him, Nathanael · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究食品及代谢物材料、生物材料与纳米材料，探索力学传导和相关信号对食品质量与安全的意义。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "36d54473fabe75e9bfc64b17e81d5b7ceffc41ae086567d092787659221ccd7a",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/4f50f39d-3ca9-40af-be02-cf0b5245f255",
+        "https://nathanaellch.wixsite.com/nathanael-lai-s-lab",
+        "http://orcid.org/0000-0002-5816-8135",
+        "https://www.scopus.com/authid/detail.uri?authorId=57216798297"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-leung-ka-kit-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-leung-ka-kit/",
+      "title": "Dr Leung Ka-kit, Leo · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究行为、心理及生物因素与健康的联系，结合人工智能、系统生物学和中药研究探索个体化营养与干预。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2f605e62c7a39fe657ad7ab8bb8f803480ce6b30851354253616036a053db13c",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/be91d7e8-81f2-4b1a-8a3d-9bc486a973f6",
+        "http://orcid.org/0000-0001-7517-8098",
+        "https://www.scopus.com/authid/detail.uri?authorId=36604799300"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-liao-qiwen-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-liao-qiwen/",
+      "title": "Dr Liao Qiwen · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究海洋无脊椎动物活性分子及神经保护肽，也研究先天免疫相关GPCR的结构药理与信号调节。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "75bc94ac7c8797c71d582b5000f7d760978951496885806d1fc30e72b7b8c4c5",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/45a88201-d2ca-4ab2-8226-b2ea5afe8d09",
+        "http://orcid.org/0000-0001-9887-1952",
+        "https://www.scopus.com/authid/detail.uri?authorId=57193805144"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-tang-benqin-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-tang-benqin/",
+      "title": "Dr Tang Benqin · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究中药及天然产物活性成分、中药质量控制，以及神经和心血管疾病的药物发现。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "52b4041b103bdc54ef39941bc162a8f2559ea9611aa8ffed14bac1516431c373",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/757f991e-cb29-4a2f-9ba4-c07699d17e03",
+        "http://orcid.org/0000-0002-4690-4916",
+        "https://www.scopus.com/authid/detail.uri?authorId=57211807562"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-wu-haicui-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-haicui/",
+      "title": "Dr Wu Haicui · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_entry_access_failed",
+      "scope": "原名录所给个人页本次HTTP404，未读到正文。",
+      "claims": [
+        "入口返回404，不据此判断离职或是否招生。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。",
+        "HTTPError: HTTP Error 404: Not Found"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-fsn-dr-xiao-hui-hui-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xiao-hui-hui/",
+      "title": "Dr Xiao Hui-hui · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究草药与植物化学物质改善代谢病的物质基础和机制，开发药食同源的新药及补充剂。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4d5caf8ddb1163549ebe04848bb53c21bc37bf2b509f5e8c3e4eede384f177e9",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/55c3a35d-c45e-4cd9-9f74-6b19a3fd29b9",
+        "http://orcid.org/0000-0001-7501-7112",
+        "https://www.scopus.com/authid/detail.uri?authorId=35075545100"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-xie-miaomiao-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xie-miaomiao/",
+      "title": "Dr Xie Miaomiao · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究细菌耐药及传播、基因组流行病学和致病机制，开发针对细菌感染的新疗法。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6ca04936d85a09d9b79f483f743a8e07a987e9bdb454139e3144b564bbaa80c3",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/97d5a3f2-a8d7-4a01-8a53-12b579900c11",
+        "http://orcid.org/0000-0002-6408-2995",
+        "https://www.scopus.com/authid/detail.uri?authorId=57188837165"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-zhang-fang-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhang-fang/",
+      "title": "Dr Zhang Fang · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究食品安全与公共卫生监测中的生物传感，结合Cas/Ago、纳米材料及功能核酸开发快速现场诊断。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cc28ef7dc143fc921eabbede6eabff6d1e46006d07324f19404ed82727f693df",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/b171ce49-d5a4-4777-ac60-807c323e8846",
+        "https://www.researchgate.net/profile/Fang-Zhang-27",
+        "http://orcid.org/0000-0001-5323-6728",
+        "https://www.scopus.com/authid/detail.uri?authorId=56079136600"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-zhong-yuyue-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhong-yuyue/",
+      "title": "Dr Zhong Yuyue · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究淀粉消化及营养价值，以及淀粉基纳米材料和光子材料，关注肥胖与糖尿病相关应用。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "53bf982d246f57aadb8d6b70c1cdfd979fd531fc4ade7808257d9988706536d3",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/f71c2854-ddbf-4109-acc7-4f08c3f9125c",
+        "https://yuyue0221.github.io/BFM-lab.github.io/",
+        "http://orcid.org/0000-0002-5455-1030",
+        "https://www.scopus.com/authid/detail.uri?authorId=57169351500"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-mok-kamwah-daniel-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-mok-kamwah-daniel/",
+      "title": "Dr Mok Kam-wah, Daniel · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Associate Director of RCMI & Senior Lecturer。",
+        "以代谢组学和化学计量学研究慢性病及中药质量，也用理论计算研究大气反应。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bcd6a43f16fb324e0dc9c03859b56f7fc379fe63d1869c067bc945471f75225b",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/a8d439f7-8074-4413-bb24-3c7042cba905",
+        "http://orcid.org/0000-0002-6677-2949",
+        "https://www.scopus.com/authid/detail.uri?authorId=7005683712"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-geng-ping-sandy-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-geng-ping-sandy/",
+      "title": "Dr Geng Ping, Sandy · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Assistant Dean (FS) & Lecturer。",
+        "研究人工智能辅助的元宇宙教育、主动学习、绿色食品加工、食品打印与可持续包装。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "26572ee2840d2ceb6cf93061f212df1c928833c19ee3446edd4c7fe7b395293c",
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-fsn-dr-hui-lailing-connie-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-hui-lailing-connie/",
+      "title": "Dr Hui Lai-ling, Connie · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Lecturer。",
+        "研究公共卫生营养与生命历程流行病学，关注早期营养、心代谢风险、健康寿命和生物学衰老。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "9cc83597b25dae042f603a78e73d3115843f82cdeb1a9a41abaaf3f52e845869",
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/c182a0ef-45d6-46b4-845c-cdbdb36637db",
+        "http://orcid.org/0000-0003-0688-3329",
+        "https://www.scopus.com/authid/detail.uri?authorId=12774460100"
+      ]
+    },
+    {
+      "id": "polyu-fsn-dr-li-shiying-christine-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-li-shiying-christine/",
+      "title": "Dr Li Shi-ying, Christine · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Lecturer。",
+        "研究母婴营养、发育编程及早期营养与后期疾病风险，关注肥胖管理和社区营养。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "505a2bdb8cf0d2847301f2f1fe75d25cb235c6b6a2080ee2877d4ccaaaea26d5",
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-fsn-dr-wong-hoyin-marcus-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wong-hoyin-marcus/",
+      "title": "Dr Wong Ho-yin, Marcus · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页列讲师身份，本次未见研究概述或研究兴趣字段。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7473b5776075304d3963f7260f8015494aa584e843ce4a7880d414c5a6875e6e",
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-mei-yi-daphne/",
+      "title": "Dr Wu Mei-yi, Daphne · 食品科学及营养学系个人页",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页可见身份及研究概述/研究兴趣，不包括全部论文和外链正文。",
+      "claims": [
+        "个人页所列身份：Assistant Professor of Practice。",
+        "研究运动营养、功能食品与社区营养。官网列为实务助理教授，指导资格和招生安排需另核。"
+      ],
+      "knownIssues": [
+        "个人研究方向不代表研究学位指导资格或当期招生余位。"
+      ],
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "04de13f99468611e6eb604eb1b9540e014f3be813ebf06195806d06f229fd29d",
+      "discoveredLinks": [
+        "https://doi.org/10.2991/msbda-19.2019.2",
+        "https://doi.org/10.1007/s00394-013-0529-3",
+        "https://doi.org/10.1007/978-981-95-2175-3_21 ",
+        "https://doi.org/10.1007/978-981-96-0817-1_15 ",
+        "https://doi.org/10.1007/978-981-99-4491-0_23  ",
+        "https://doi.org/10.4324/9781003119111 ",
+        "https://doi.org/10.1016/C2014-0-01870-9 "
+      ]
+    },
+    {
+      "id": "polyu-fsn-category-1-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/affiliate-faculty-members/",
+      "title": "食品科学及营养学系 · 附属师资",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "仅此人员分类可见名单，不代表全系师资或指导人数。",
+      "claims": [
+        "Wong Wing-tak；网页仍列原ABCT任职，重组后的任职另核。",
+        "本页本次可见1项人员记录。"
+      ],
+      "knownIssues": [
+        "本分类的人员不自动具有指导资格或当期余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-category-2-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/professor-of-practice/",
+      "title": "食品科学及营养学系 · 兼职实务教授",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "仅此人员分类可见名单，不代表全系师资或指导人数。",
+      "claims": [
+        "Stephen Chung、Gordon Cheung、Terry Ting。不是普通全职导师名单。",
+        "本页本次可见3项人员记录。"
+      ],
+      "knownIssues": [
+        "本分类的人员不自动具有指导资格或当期余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-category-3-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/honorary-professors/",
+      "title": "食品科学及营养学系 · 荣誉人员",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "仅此人员分类可见名单，不代表全系师资或指导人数。",
+      "claims": [
+        "3 Distinguished Honorary Professors、6 Honorary Professors、1 Honorary Fellow。",
+        "本页本次可见10项人员记录。"
+      ],
+      "knownIssues": [
+        "本分类的人员不自动具有指导资格或当期余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-category-4-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/adjunct--visiting-professors/",
+      "title": "食品科学及营养学系 · 兼任与访问",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "仅此人员分类可见名单，不代表全系师资或指导人数。",
+      "claims": [
+        "1 Adjunct Professor、2 Adjunct Associate、1 Adjunct Assistant、1 Visiting。",
+        "本页本次可见5项人员记录。"
+      ],
+      "knownIssues": [
+        "本分类的人员不自动具有指导资格或当期余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-category-5-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/scientific-officers/",
+      "title": "食品科学及营养学系 · 科研技术支援",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "仅此人员分类可见名单，不代表全系师资或指导人数。",
+      "claims": [
+        "科研主任、助理科研主任及技术助理；不当作导师。",
+        "本页本次可见7项人员记录。"
+      ],
+      "knownIssues": [
+        "本分类的人员不自动具有指导资格或当期余位。"
+      ]
+    },
+    {
+      "id": "polyu-fsn-category-6-20261119",
+      "url": "https://www.polyu.edu.hk/fsn/people/administrative-staff/",
+      "title": "食品科学及营养学系 · 行政支援",
+      "checkedAt": "2026-11-19",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "仅此人员分类可见名单，不代表全系师资或指导人数。",
+      "claims": [
+        "行政与IT、秘书等支援；不当作导师。",
+        "本页本次可见11项人员记录。"
+      ],
+      "knownIssues": [
+        "本分类的人员不自动具有指导资格或当期余位。"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "polyu-fsn-prof-chen-sheng",
+      "universityId": "polyu",
+      "name": "Prof. Chen Sheng",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-sheng/",
+      "researchKeywords": [
+        "Bacterial AMR",
+        "Bacterial pathogenesis",
+        "Bacterial tolerance",
+        "Novel antimicrobial drug discovery",
+        "Vaccine and monoclonal antibody therapy development",
+        "Genomics and metagenomics",
+        "One Health research"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-chen-sheng-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-chen-sheng-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Head (FSN), Director of RIM & Chair Professor of Microbiology",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/3181ce8a-348b-49c6-8b3a-e4c565a3845d",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-chen-sheng-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-3526-7808",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-chen-sheng-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56148872100",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-chen-sheng-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究细菌耐药、毒力和耐受性，结合基因组等方法开发抗菌药、疫苗及单克隆抗体疗法。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-chen-sheng-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-wong-mankin",
+      "universityId": "polyu",
+      "name": "Prof. Wong Man-kin",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mankin/",
+      "researchKeywords": [
+        "Catalysis",
+        "Bioconjugation",
+        "Molecular Imaging",
+        "Food Safety"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-wong-mankin-20261119"
+      ],
+      "topics": [
+        "物理与化学",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-wong-mankin-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Dean (FS) & Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/2aedc475-8364-403c-8754-891614be11a4",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-wong-mankin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-1574-6860",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-wong-mankin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=7403908449",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-wong-mankin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "以合成化学研究化学、生物化学及食品安全，方向包括催化、生物偶联和分子成像。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-wong-mankin-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-chiou-jiachi-amber",
+      "universityId": "polyu",
+      "name": "Prof. Chiou Jiachi, Amber",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chiou-jiachi-amber/",
+      "researchKeywords": [
+        "Gut microbiome",
+        "Prebiotics",
+        "Probiotics",
+        "Synbiotics",
+        "Metabolic syndrome",
+        "Antimicrobial materials",
+        "Molecular detection"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-chiou-jiachi-amber-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-chiou-jiachi-amber-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Head (FSN), Associate Director of RiFood & Associate Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/8380bbe1-0d50-4dc8-9fcf-da72d19b94b2",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-chiou-jiachi-amber-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-8306-1826",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-chiou-jiachi-amber-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56317933300",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-chiou-jiachi-amber-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究肠道微生物组与健康，关注益生元、益生菌和合生元、母乳及婴儿早期营养。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-chiou-jiachi-amber-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-kwok-winghin-kevin",
+      "universityId": "polyu",
+      "name": "Prof. Kwok Wing-hin, Kevin",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-kwok-winghin-kevin/",
+      "researchKeywords": [
+        "Nanotoxicology",
+        "Environmental Quality",
+        "Food Authentication",
+        "Food Contaminants",
+        "Aquaculture"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-kwok-winghin-kevin-20261119"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-kwok-winghin-kevin-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Head (FSN), Associate Director of RiFood & Associate Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f4b89ec2-62de-44d4-b6e0-b5ef445f79e8",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-kwok-winghin-kevin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-3264-134X",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-kwok-winghin-kevin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=59036243100",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-kwok-winghin-kevin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究食品与环境毒理，分析混合污染物的危害通路，也开发改善养殖鱼免疫、品质和可持续性的技术。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-kwok-winghin-kevin-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-lee-mingyuen-simon",
+      "universityId": "polyu",
+      "name": "Prof. Lee Ming-yuen, Simon",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lee-mingyuen-simon/",
+      "researchKeywords": [
+        "Natural Product Drug Discovery and Development",
+        "Neurodegenerative Diseases and Neuroprotective Mechanisms",
+        "Multi-omics Research and Translational Medicine"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-lee-mingyuen-simon-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-lee-mingyuen-simon-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Cally Kwong Mei Wan Professor in Biomedical Sciences and Chinese Medicine Innovation, Chair Professor of Biomedical Sciences, Director of RCOcean, and Associate Director of WXRI",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f6a62433-9213-4608-80be-0a1fd1fb677d",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-lee-mingyuen-simon-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-3966-6569",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-lee-mingyuen-simon-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57867785700",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-lee-mingyuen-simon-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究天然产物与中药新药、神经退行性疾病及神经保护机制，结合多组学与转化医学开发治疗和营养策略。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-lee-mingyuen-simon-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-wong-kahing",
+      "universityId": "polyu",
+      "name": "Prof. Wong Ka-hing",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-kahing/",
+      "researchKeywords": [
+        "Functional Food Development Using Natural Bio-resources",
+        "Foodomics and Food Sustainability",
+        "Smart Technology for Future Food Industry"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-wong-kahing-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-wong-kahing-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Director of RiFood, Assoicate Director of JJRI & Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/138bcdd0-46bf-4b8d-b738-ec94343729ab",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-wong-kahing-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-0286-4921",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-wong-kahing-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57227363600",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-wong-kahing-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究天然生物资源功能食品、食品组学与可持续性，以及未来食品产业的智能技术。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-wong-kahing-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-wong-mansau",
+      "universityId": "polyu",
+      "name": "Prof. Wong Man-sau",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mansau/",
+      "researchKeywords": [
+        "Bone and Mineral Metabolism",
+        "Diet and Diseases",
+        "Osteoporosis",
+        "Phytoestrogens",
+        "Phytochemicals",
+        "Traditional Chinese Medicine",
+        "Functional Food"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-wong-mansau-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-wong-mansau-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Director of RCMI & Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/47e89e32-fbfe-409c-9cdd-631a607c6e4c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-wong-mansau-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-0729-8618",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-wong-mansau-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57218480096",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-wong-mansau-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究膳食因子、植物化学物质及中药对骨骼肌肉健康的作用，关注骨质疏松、肌少症及年龄相关疾病。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-wong-mansau-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-zhou-xiaohui",
+      "universityId": "polyu",
+      "name": "Prof. Zhou Xiaohui",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhou-xiaohui/",
+      "researchKeywords": [
+        "Host-pathogen interactions",
+        "Molecular mechanisms of infection",
+        "Antimicrobial resistance",
+        "Food-derived bioactive materials",
+        "Novel anti-infective strategies/agents",
+        "Foodborne pathogens",
+        "AI-based identification of antimicrobials"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-zhou-xiaohui-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-zhou-xiaohui-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/26c61ec9-49ac-4fd7-9ca8-493aeb70c4c8",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-zhou-xiaohui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-3205-4743",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-zhou-xiaohui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=23394297900",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-zhou-xiaohui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://scholar.google.com.hk/citations?user=https://scholar.google.com/citations?user=3JMeaYoAAAAJ&hl=zh-CN",
+          "label": "Google Scholar",
+          "parentSourceId": "polyu-fsn-prof-zhou-xiaohui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究宿主与病原相互作用及耐药机制，开发食品来源的抗感染活性材料，涉及人工智能识别抗菌物。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-zhou-xiaohui-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-fang-karhei-james",
+      "universityId": "polyu",
+      "name": "Prof. Fang Kar-hei, James",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-fang-karhei-james/",
+      "researchKeywords": [
+        "Seafood Nutrition and Sustainability",
+        "Seafood Contamination and Risk Assessments",
+        "Microplastics and Nanoplastics",
+        "Coral Reefs and Oyster Reefs",
+        "Impacts of Ocean Warming and Acidification",
+        "Marine Ecophysiology and Ecotoxicology",
+        "Marine Aquaculture Technology",
+        "3D Imaging Technologies for Ecological Applications"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-fang-karhei-james-20261119"
+      ],
+      "topics": [
+        "环境与可持续发展",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-fang-karhei-james-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Director of Research Postgraduate Studies, Associate Director of RCOcean & Associate Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/4afe0501-dd23-4fe1-8829-f1145330ce52",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-fang-karhei-james-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.seafoodmeal.today/",
+          "label": "Lab Website",
+          "parentSourceId": "polyu-fsn-prof-fang-karhei-james-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-2969-7978",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-fang-karhei-james-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=24168119000",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-fang-karhei-james-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究海产品营养与污染、微塑料、海洋养殖技术及珊瑚礁生态修复，关注海洋健康与海产品可持续性。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-fang-karhei-james-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-xia-xiaodong",
+      "universityId": "polyu",
+      "name": "Prof. Xia Xiaodong",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-xia-xiaodong/",
+      "researchKeywords": [
+        "Microbial food safety",
+        "Diet and infection",
+        "Interaction of food, gut microbiota and health",
+        "Next generation beneficial microbes"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-xia-xiaodong-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-xia-xiaodong-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/42f8b1b4-d9f8-4b7d-a820-d3a19dcc0bb2",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-xia-xiaodong-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-6336-2661",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-xia-xiaodong-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=36850836100",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-xia-xiaodong-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究食品和肠道中的有益及有害微生物，探索食源病原控制、肠道菌群、免疫与下一代益生菌。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-xia-xiaodong-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-zhao-danyue-daisy",
+      "universityId": "polyu",
+      "name": "Prof. Zhao Danyue, Daisy",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhao-danyue-daisy/",
+      "researchKeywords": [
+        "Polyphenols",
+        "Phytonutrients",
+        "Gut Microbiota",
+        "Probiotics",
+        "Food Chemistry",
+        "Metabolomics",
+        "Mass Spectrometry",
+        "Precision Nutrition"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-zhao-danyue-daisy-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-zhao-danyue-daisy-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/5512a1d8-0fc4-4ba3-8a29-4d7fc86d724a",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://drdaisyzhaogroup.wixsite.com/dr-daisyzhao",
+          "label": "Lab Website",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-1365-1748",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56074353700",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0308814626011416",
+          "label": "https://www.sciencedirect.com/science/article/pii/S0308814626011416",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.77454",
+          "label": "https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/advs.77454",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.sciencedirect.com/science/article/pii/S0924224425003723",
+          "label": "https://www.sciencedirect.com/science/article/pii/S0924224425003723",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.sciopen.com/article/10.26599/FSHW.2025.9250836",
+          "label": "https://www.sciopen.com/article/10.26599/FSHW.2025.9250836",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.analchem.4c03222 ",
+          "label": "https://pubs.acs.org/doi/10.1021/acs.analchem.4c03222",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.tifs.2024.104622 ",
+          "label": "https://doi.org/10.1016/j.tifs.2024.104622",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.foodchem.2024.141371",
+          "label": "https://doi.org/10.1016/j.foodchem.2024.141371",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.foodchem.2023.137953",
+          "label": "https://doi.org/10.1016/j.foodchem.2023.137953",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://pubs.acs.org/doi/10.1021/acs.jafc.3c08910",
+          "label": "https://pubs.acs.org/doi/10.1021/acs.jafc.3c08910",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1111/1541-4337.13268",
+          "label": "https://doi.org/10.1111/1541-4337.13268",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.foodchem.2022.134644",
+          "label": "https://doi.org/10.1016/j.foodchem.2022.134644",
+          "parentSourceId": "polyu-fsn-prof-zhao-danyue-daisy-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究活性植物成分与肠道菌群的相互作用，结合代谢组学和质谱探索疾病管理及精准营养。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-zhao-danyue-daisy-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-zhu-yuyan",
+      "universityId": "polyu",
+      "name": "Prof. Zhu Yuyan",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhu-yuyan/",
+      "researchKeywords": [
+        "Functional Food",
+        "Nutrition",
+        "Metabolic Disorders",
+        "Regulation of Adipose Tissue Expansion and Function",
+        "Cholesterol Metabolism",
+        "Adipocyte Development"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-zhu-yuyan-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-zhu-yuyan-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f7c55e1c-4d1d-478a-b556-0a5df3d36af6",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://yyzhulab.wordpress.com/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-2928-6167",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56768279000",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0022227524001858%23abs0010&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926504306%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=cE4C9PUAKZDVl%2F3umIDAR%2Fx2jW%2BztCF%2Fqg95YJOcfrs%3D&reserved=0",
+          "label": "ACAT1/SOAT1 maintains adipogenic ability in preadipocytes by regulating cholesterol homeostasis",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0092867424009000&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926550447%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=FcYENg0%2BujLGrxAgu4LOaQW6BkfD3U1m1qjCfTUZQNA%3D&reserved=0",
+          "label": "Divergent Sensory Pathways of Sneezing and Coughing",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fabs%2Fpii%2FS0924224423002042&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926565745%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2FlBcigiGHCU8bVsWdMg7lSL3zIYViO4EtUDtvXu6OgI%3D&reserved=0",
+          "label": "Cell culture medium cycling in cultured meat: Key factors and potential strategies",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2F10.1002%2Fadfm.202207096&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926581449%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=7hRXxVpHp0lSADRkqaSPm0TepxeIBmMFLZGuPkI%2Bz7w%3D&reserved=0",
+          "label": "A Liquid-Solid Contact Electrification based All-Optical Liquid Flow Sensor for Microfluidic Analysis in Biomedical Applications",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0304389422014911%3Fdgcid%3Dauthor&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926596731%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=ltZ9ns0dqpBBtxyCigasnGAAOHTM7RU5qtw9GB5q%2F48%3D&reserved=0",
+          "label": "Dietary exposure to polystyrene nanoplastics impairs fasting-induced lipolysis in adipose tissue from high-fat diet fed mice",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS0955286322000699&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926657579%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=8TPS9g7vL5A7PqfKRTEBVJkxjQl%2BK%2BK5I5nxmEJdnxc%3D&reserved=0",
+          "label": "Piceatannol Antagonizes Lipolysis by Promoting Autophagy-Lysosome-Dependent Degradation of Lipolytic Protein Clusters in Adipocytes",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS002604952100161X%3Fvia%253Dihub&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926679048%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=JpzENnveQ0Dz9%2Fo%2BNIDQavVBAUxWqOl2qyMoWqC6Qp8%3D&reserved=0",
+          "label": "Pharmacological inhibition of acyl-coenzyme A: cholesterol acyltransferase alleviates obesity and insulin resistance in diet-induced obese mice by regulating food intake",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.pnas.org%2Fdoi%2F10.1073%2Fpnas.2022874118%3Furl_ver%3DZ39.88-2003%26rfr_id%3Dori%3Arid%3Acrossref.org%26rfr_dat%3Dcr_pub%2520%25200pubmed&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926692552%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=mvA66tT%2Fuk87YQRCtX0djq9CAV6gPZ05uNjWQKMkRg0%3D&reserved=0",
+          "label": "MrgprC11+ sensory neurons mediate glabrous skin itch",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fonlinelibrary.wiley.com%2Fdoi%2Ffull%2F10.1002%2Feom2.12049&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926705595%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=3%2BEYtkTI%2FTfTiOHobUY9Ly25iYFa1qCkgOryui6oYMg%3D&reserved=0",
+          "label": "Recent advances of triboelectric nanogenerator based applications in biomedical systems",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.jlr.org%2Farticle%2FS0022-2275(20)33117-5%2Ffulltext&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926716859%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=FB19hK3aJFm4b5bOyA6wFY8RQUxShHAT5D5MLZbVcTc%3D&reserved=0",
+          "label": "In vitro exploration of ACAT contributions to lipid droplet formation during adipogenesis",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2Farticles%2FPMC5860675%2F&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926729766%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=%2FfcIP4VDiOsQMiIbf4H2HTeQ2O6Tzo7SKCdOdrlUUgo%3D&reserved=0",
+          "label": "Mrgprs activation is required for chronic itch conditions in mice",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://apc01.safelinks.protection.outlook.com/?url=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS1756464615002455&data=05%7C02%7Csukching.wan%40polyu.edu.hk%7Cb1f14279c4c04e3fc64e08ddd3e45b1c%7C8f37f760b1874981b82fe5dc6f5bcf44%7C0%7C0%7C638899699926745942%7CUnknown%7CTWFpbGZsb3d8eyJFbXB0eU1hcGkiOnRydWUsIlYiOiIwLjAuMDAwMCIsIlAiOiJXaW4zMiIsIkFOIjoiTWFpbCIsIldUIjoyfQ%3D%3D%7C0%7C%7C%7C&sdata=4u9ev4Gfh7%2BvQEP%2BRpjSTDy7T%2FpYOTNn7CZrZ%2BA4jnU%3D&reserved=0",
+          "label": "Dietary selenate attenuates adiposity and improves insulin sensitivity in high-fat diet-induced obese mice",
+          "parentSourceId": "polyu-fsn-prof-zhu-yuyan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究功能食品成分及营养素改善脂质代谢失调，关注脂肪组织、胆固醇代谢和肥胖相关代谢综合征。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-zhu-yuyan-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-chen-xu",
+      "universityId": "polyu",
+      "name": "Prof. Chen Xu",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-xu/",
+      "researchKeywords": [
+        "Metabolic diseases",
+        "Molecular nutrition",
+        "Epidemiology",
+        "Randomized controlled trial"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-chen-xu-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-chen-xu-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/074949c3-ce29-43c5-9b96-28c0072c62c9",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-chen-xu-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-0545-3936",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-chen-xu-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57192469008",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-chen-xu-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究心代谢疾病的流行病学、机制与生活方式干预，特别关注代谢功能障碍相关脂肪性肝病。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-chen-xu-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-gan-renyou",
+      "universityId": "polyu",
+      "name": "Prof. Gan Renyou",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-gan-renyou/",
+      "researchKeywords": [
+        "Tea",
+        "Microgreens",
+        "TCM plants",
+        "Phytochemicals",
+        "Polysaccharides",
+        "Microplastics",
+        "Metabolic Syndrome",
+        "Aging",
+        "Reproductive Toxicity",
+        "Gut Microbiome",
+        "Probiotics",
+        "Biotransformation",
+        "Germination and Fermentation",
+        "Functional Food Development"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-gan-renyou-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-gan-renyou-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/e82381c9-dd0a-4f01-9401-c3db09e9c5e5",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.x-mol.com/groups/rygan?lang=en ",
+          "label": "Lab Website",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-4162-1511",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=36056363000",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://scholar.google.com.hk/citations?user=BN0l4QkAAAAJ",
+          "label": "Google Scholar",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://publons.com/researcher/C-9868-2009",
+          "label": "Research ID",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1002/imt2.70028",
+          "label": "https://doi.org/10.1002/imt2.70028",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1002/adhm.202503925 ",
+          "label": "https://doi.org/10.1002/adhm.202503925",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.eng.2024.09.019&nbsp;",
+          "label": "https://doi.org/10.1016/j.eng.2024.09.019",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.tifs.2024.104841",
+          "label": "https://doi.org/10.1016/j.tifs.2024.104841",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.foodchem.2023.137066  ",
+          "label": "https://doi.org/10.1016/j.foodchem.2023.137066",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1080/10408398.2023.2180478",
+          "label": "https://doi.org/10.1080/10408398.2023.2180478",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.jare.2023.01.008",
+          "label": "https://doi.org/10.1016/j.jare.2023.01.008",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1002/adhm.202302899 ",
+          "label": "https://doi.org/10.1002/adhm.202302899",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.trac.2022.116554",
+          "label": "https://doi.org/10.1016/j.trac.2022.116554",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://doi.org/10.1016/j.tifs.2021.01.030  ",
+          "label": "http://doi.org/10.1016/j.tifs.2021.01.030",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.foodres.2020.109888  ",
+          "label": "https://doi.org/10.1016/j.foodres.2020.109888",
+          "parentSourceId": "polyu-fsn-prof-gan-renyou-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究功能植物、食品副产物、益生菌和活性成分的营养健康价值，结合发芽、发酵及肠道菌群生物转化。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-gan-renyou-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-lo-kahei-kenneth",
+      "universityId": "polyu",
+      "name": "Prof. Lo Ka-hei, Kenneth",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lo-kahei-kenneth/",
+      "researchKeywords": [
+        "Disease Prevention",
+        "Nutrition",
+        "Nutritional Epidemiology",
+        "Public Health Nutrition"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-lo-kahei-kenneth-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-lo-kahei-kenneth-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/23fb814f-6933-49e4-af51-f12dc7b2288b",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-4624-2737",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56650544600",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.phrs.2025.107914",
+          "label": "https://doi.org/10.1016/j.phrs.2025.107914",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.ajcnut.2025.07.027",
+          "label": "https://doi.org/10.1016/j.ajcnut.2025.07.027",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.3390/nu16030357",
+          "label": "https://doi.org/10.3390/nu16030357",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.3390/nu13124360",
+          "label": "https://doi.org/10.3390/nu13124360",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://dx.doi.org/10.1161/JAHA.121.021515",
+          "label": "http://dx.doi.org/10.1161/JAHA.121.021515",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/j.scitotenv.2021.146527",
+          "label": "https://doi.org/10.1016/j.scitotenv.2021.146527",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.2337/dc20-0243",
+          "label": "https://doi.org/10.2337/dc20-0243",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.2337/dc19-0612",
+          "label": "https://doi.org/10.2337/dc19-0612",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://dx.doi.org/10.1111/obr.12456",
+          "label": "http://dx.doi.org/10.1111/obr.12456",
+          "parentSourceId": "polyu-fsn-prof-lo-kahei-kenneth-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究营养流行病学与公共卫生营养，探索膳食模式在慢性病预防及管理中的作用。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-lo-kahei-kenneth-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-prof-lu-xuanxuan",
+      "universityId": "polyu",
+      "name": "Prof. Lu Xuanxuan",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lu-xuanxuan/",
+      "researchKeywords": [
+        "bioactives",
+        "functional delivery system",
+        "3D printed food",
+        "biomacromolecules",
+        "emulsions",
+        "nanoparticles"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-prof-lu-xuanxuan-20261119"
+      ],
+      "topics": [
+        "生命科学与生物工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-prof-lu-xuanxuan-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Assistant Professor",
+      "identityNote": "个人页身份和旧名录记录分开保留；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/56cff4ed-cc85-40cf-9ab4-996eccfacd69",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-prof-lu-xuanxuan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-6072-4412",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-prof-lu-xuanxuan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56137303800",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-prof-lu-xuanxuan-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "设计活性物质递送系统，提升稳定性、可控释放、生物可及性及功能，涉及食品、药物和个人护理应用。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-prof-lu-xuanxuan-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-chang-jinhui-gail",
+      "universityId": "polyu",
+      "name": "Dr Chang Jinhui, Gail",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-chang-jinhui-gail/",
+      "researchKeywords": [
+        "microbiology",
+        "mushroom",
+        "food technology",
+        "functional food"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-chang-jinhui-gail-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-chang-jinhui-gail-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f619724b-fc8c-48c7-bd94-5e552b302be4",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-chang-jinhui-gail-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-6337-5913",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-chang-jinhui-gail-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56198244500",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-chang-jinhui-gail-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究智能食品技术、功能食品及蘑菇活体材料，也研究蘑菇发育的基因组与转录组。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-chang-jinhui-gail-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-cheng-wai-yin-nano",
+      "universityId": "polyu",
+      "name": "Dr Cheng Wai-yin, Nano",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-cheng-wai-yin-nano/",
+      "researchKeywords": [
+        "Circadian clocks",
+        "Systemic inflammation",
+        "Neuroinflammation",
+        "Functional foods",
+        "Prebiotics",
+        "Beta-glucan",
+        "Gut microbiota"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-cheng-wai-yin-nano-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-cheng-wai-yin-nano-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/6345b7e7-7506-4d2c-ae60-ef88d6b401b7",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-cheng-wai-yin-nano-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://nanocwy.wixsite.com/chronolab",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fsn-dr-cheng-wai-yin-nano-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-0143-1550",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-cheng-wai-yin-nano-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57201735298",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-cheng-wai-yin-nano-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究时间营养学、免疫与神经科学，探索改善神经炎症和昼夜节律紊乱的膳食策略。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-cheng-wai-yin-nano-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-dong-xiaoli",
+      "universityId": "polyu",
+      "name": "Dr Dong Xiaoli",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-dong-xiaoli/",
+      "researchKeywords": [
+        "Parkinson’s disease",
+        "Osteoporosis",
+        "Food-based therapies",
+        "Functional foods"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-dong-xiaoli-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-dong-xiaoli-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/195c15dd-9016-4379-8844-a602fcdafe9f",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-dong-xiaoli-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-7372-0450",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-dong-xiaoli-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57226360011",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-dong-xiaoli-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究神经退行性疾病，尤其帕金森病的致病机制，以及食品相关疗法和精神健康功能食品。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-dong-xiaoli-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-gong-guiyi",
+      "universityId": "polyu",
+      "name": "Dr Gong Guiyi",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-gong-guiyi/",
+      "researchKeywords": [
+        "Bioactive peptides",
+        "Neurodegenerative diseases",
+        "Natural products",
+        "Cardiovascular diseases",
+        "Drug discovery"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-gong-guiyi-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-gong-guiyi-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/4dca80aa-85e6-41e1-90d8-292340670aec",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-gong-guiyi-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-6495-0545",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-gong-guiyi-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57187718400",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-gong-guiyi-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究天然产物及活性肽的药理和毒理，涉及神经退行性疾病、心血管疾病与药物发现。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-gong-guiyi-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-lai-chun-him-nathanael",
+      "universityId": "polyu",
+      "name": "Dr Lai Chun-Him, Nathanael",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-lai-chun-him-nathanael/",
+      "researchKeywords": [
+        "Food/Metabolite-based Materials",
+        "Mechanotransduction-associated Signalling Crosstalk",
+        "Single-Chain Nanoparticles",
+        "Hydrogels",
+        "Cell-exerted Tractions",
+        "Vascular Biology",
+        "Hydroponic Farming"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-lai-chun-him-nathanael-20261119"
+      ],
+      "topics": [
+        "生命科学与生物工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-lai-chun-him-nathanael-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/4f50f39d-3ca9-40af-be02-cf0b5245f255",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-lai-chun-him-nathanael-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://nathanaellch.wixsite.com/nathanael-lai-s-lab",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fsn-dr-lai-chun-him-nathanael-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-5816-8135",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-lai-chun-him-nathanael-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57216798297",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-lai-chun-him-nathanael-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究食品及代谢物材料、生物材料与纳米材料，探索力学传导和相关信号对食品质量与安全的意义。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-lai-chun-him-nathanael-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-leung-ka-kit",
+      "universityId": "polyu",
+      "name": "Dr Leung Ka-kit, Leo",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-leung-ka-kit/",
+      "researchKeywords": [
+        "Mental Health",
+        "Health Behavior and Nutrition",
+        "Traditional Chinese Medicine",
+        "Artificial Intelligence",
+        "Game",
+        "Systems Biology",
+        "Pharmacology and Natural Products"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-leung-ka-kit-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-leung-ka-kit-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/be91d7e8-81f2-4b1a-8a3d-9bc486a973f6",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-leung-ka-kit-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-7517-8098",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-leung-ka-kit-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=36604799300",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-leung-ka-kit-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究行为、心理及生物因素与健康的联系，结合人工智能、系统生物学和中药研究探索个体化营养与干预。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-leung-ka-kit-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-liao-qiwen",
+      "universityId": "polyu",
+      "name": "Dr Liao Qiwen",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-liao-qiwen/",
+      "researchKeywords": [
+        "AI-driven marine bioactive peptides discovery",
+        "Structural pharmacology",
+        "GPCR biased agonism and allosteric modulation",
+        "Inflammation and immunity"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-liao-qiwen-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-liao-qiwen-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/45a88201-d2ca-4ab2-8226-b2ea5afe8d09",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-liao-qiwen-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-9887-1952",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-liao-qiwen-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57193805144",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-liao-qiwen-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究海洋无脊椎动物活性分子及神经保护肽，也研究先天免疫相关GPCR的结构药理与信号调节。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-liao-qiwen-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-tang-benqin",
+      "universityId": "polyu",
+      "name": "Dr Tang Benqin",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-tang-benqin/",
+      "researchKeywords": [
+        "Natural Products and Traditional Chinese Medicine",
+        "Quality Control of Traditional Chinese Medicine",
+        "Drug Discovery",
+        "Neurodegenerative Diseases"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-tang-benqin-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-tang-benqin-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/757f991e-cb29-4a2f-9ba4-c07699d17e03",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-tang-benqin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-4690-4916",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-tang-benqin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57211807562",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-tang-benqin-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究中药及天然产物活性成分、中药质量控制，以及神经和心血管疾病的药物发现。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-tang-benqin-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-xiao-hui-hui",
+      "universityId": "polyu",
+      "name": "Dr Xiao Hui-hui",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xiao-hui-hui/",
+      "researchKeywords": [
+        "Metabolic diseases",
+        "Herbal medicine",
+        "phytochemicals",
+        "new drug development",
+        "supplements development"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-xiao-hui-hui-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-xiao-hui-hui-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/55c3a35d-c45e-4cd9-9f74-6b19a3fd29b9",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-xiao-hui-hui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-7501-7112",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-xiao-hui-hui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=35075545100",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-xiao-hui-hui-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究草药与植物化学物质改善代谢病的物质基础和机制，开发药食同源的新药及补充剂。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-xiao-hui-hui-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-xie-miaomiao",
+      "universityId": "polyu",
+      "name": "Dr Xie Miaomiao",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xie-miaomiao/",
+      "researchKeywords": [
+        "Bacterial antimicrobial resistance and transmission mechanisms",
+        "Genomics and Epidemiology",
+        "Bacterial pathogenesis",
+        "Novel antimicrobial drug discovery"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-xie-miaomiao-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-xie-miaomiao-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/97d5a3f2-a8d7-4a01-8a53-12b579900c11",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-xie-miaomiao-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-6408-2995",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-xie-miaomiao-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57188837165",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-xie-miaomiao-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究细菌耐药及传播、基因组流行病学和致病机制，开发针对细菌感染的新疗法。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-xie-miaomiao-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-zhang-fang",
+      "universityId": "polyu",
+      "name": "Dr Zhang Fang",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhang-fang/",
+      "researchKeywords": [
+        "Food Safety & Public Health Surveillance",
+        "Next-Generation Diagnostic Platforms",
+        "Data-Driven Detection & Analysis",
+        "Point-of-Care Diagnostics"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-zhang-fang-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-zhang-fang-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/b171ce49-d5a4-4777-ac60-807c323e8846",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-zhang-fang-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.researchgate.net/profile/Fang-Zhang-27",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fsn-dr-zhang-fang-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0001-5323-6728",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-zhang-fang-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=56079136600",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-zhang-fang-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究食品安全与公共卫生监测中的生物传感，结合Cas/Ago、纳米材料及功能核酸开发快速现场诊断。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-zhang-fang-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-zhong-yuyue",
+      "universityId": "polyu",
+      "name": "Dr Zhong Yuyue",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhong-yuyue/",
+      "researchKeywords": [
+        "Starch",
+        "Carbohydrate",
+        "Digestion",
+        "Nano science",
+        "photonic materials"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-zhong-yuyue-20261119"
+      ],
+      "topics": [
+        "生命科学与生物工程",
+        "材料与能源"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-zhong-yuyue-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Research Assistant Professor",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/f71c2854-ddbf-4109-acc7-4f08c3f9125c",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-zhong-yuyue-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://yuyue0221.github.io/BFM-lab.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-fsn-dr-zhong-yuyue-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-5455-1030",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-zhong-yuyue-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=57169351500",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-zhong-yuyue-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究淀粉消化及营养价值，以及淀粉基纳米材料和光子材料，关注肥胖与糖尿病相关应用。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-zhong-yuyue-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-mok-kamwah-daniel",
+      "universityId": "polyu",
+      "name": "Dr Mok Kam-wah, Daniel",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-mok-kamwah-daniel/",
+      "researchKeywords": [
+        "Theoretical Calculations",
+        "Chemometrics",
+        "Metabolomics",
+        "Chinese Medicine"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-mok-kamwah-daniel-20261119"
+      ],
+      "topics": [
+        "物理与化学",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-mok-kamwah-daniel-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Associate Director of RCMI & Senior Lecturer",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/a8d439f7-8074-4413-bb24-3c7042cba905",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-mok-kamwah-daniel-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0002-6677-2949",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-mok-kamwah-daniel-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=7005683712",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-mok-kamwah-daniel-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "以代谢组学和化学计量学研究慢性病及中药质量，也用理论计算研究大气反应。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-mok-kamwah-daniel-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-geng-ping-sandy",
+      "universityId": "polyu",
+      "name": "Dr Geng Ping, Sandy",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-geng-ping-sandy/",
+      "researchKeywords": [
+        "AI-empowered metaverse in education",
+        "Active learning pedagogy",
+        "Green food processing",
+        "Food printing",
+        "Sustainable food packaging"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-geng-ping-sandy-20261119"
+      ],
+      "topics": [
+        "教育学",
+        "环境与可持续发展",
+        "人工智能"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-geng-ping-sandy-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Assistant Dean (FS) & Lecturer",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [],
+      "summary": "研究人工智能辅助的元宇宙教育、主动学习、绿色食品加工、食品打印与可持续包装。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-geng-ping-sandy-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-hui-lailing-connie",
+      "universityId": "polyu",
+      "name": "Dr Hui Lai-ling, Connie",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-hui-lailing-connie/",
+      "researchKeywords": [
+        "Nutritional and life-course epidemiology",
+        "Biological age and Healthspan",
+        "Child growth, breastfeeding and obesity"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-hui-lailing-connie-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-hui-lailing-connie-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Lecturer",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/c182a0ef-45d6-46b4-845c-cdbdb36637db",
+          "label": "PolyU Scholars Hub",
+          "parentSourceId": "polyu-fsn-dr-hui-lailing-connie-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "http://orcid.org/0000-0003-0688-3329",
+          "label": "ORCID ID",
+          "parentSourceId": "polyu-fsn-dr-hui-lailing-connie-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://www.scopus.com/authid/detail.uri?authorId=12774460100",
+          "label": "SCOPUS ID",
+          "parentSourceId": "polyu-fsn-dr-hui-lailing-connie-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究公共卫生营养与生命历程流行病学，关注早期营养、心代谢风险、健康寿命和生物学衰老。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-hui-lailing-connie-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-li-shiying-christine",
+      "universityId": "polyu",
+      "name": "Dr Li Shi-ying, Christine",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-li-shiying-christine/",
+      "researchKeywords": [
+        "Maternal and infant nutrition",
+        "Diet and Disease, fetal programming",
+        "Obesity and weight management",
+        "Community Nutrition"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-li-shiying-christine-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-li-shiying-christine-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Lecturer",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [],
+      "summary": "研究母婴营养、发育编程及早期营养与后期疾病风险，关注肥胖管理和社区营养。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-li-shiying-christine-20261119"
+        ]
+      }
+    },
+    {
+      "id": "polyu-fsn-dr-wu-mei-yi-daphne",
+      "universityId": "polyu",
+      "name": "Dr Wu Mei-yi, Daphne",
+      "department": "食品科学及营养学系",
+      "profileUrl": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-mei-yi-daphne/",
+      "researchKeywords": [
+        "Sports nutrition",
+        "Functional foods",
+        "Community nutrition"
+      ],
+      "keywordSourceIds": [
+        "polyu-fsn-dr-wu-mei-yi-daphne-20261119"
+      ],
+      "topics": [
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "sourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c",
+        "polyu-fsn-dr-wu-mei-yi-daphne-20261119"
+      ],
+      "directorySourceIds": [
+        "entry-read-staff-route-1c1b0c34b3159f2c"
+      ],
+      "academicUnitIds": [
+        "polyu-7"
+      ],
+      "directoryRole": "Assistant Professor of Practice",
+      "identityNote": "保留个人页所列岗位。研究助理教授、讲师和实务人员与教授职级分开；研究学位指导资格须另核。",
+      "extraLinks": [
+        {
+          "url": "https://doi.org/10.2991/msbda-19.2019.2",
+          "label": "https://doi.org/10.2991/msbda-19.2019.2",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1007/s00394-013-0529-3",
+          "label": "https://doi.org/10.1007/s00394-013-0529-3",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1007/978-981-95-2175-3_21 ",
+          "label": "https://doi.org/10.1007/978-981-95-2175-3_21",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1007/978-981-96-0817-1_15 ",
+          "label": "https://doi.org/10.1007/978-981-96-0817-1_15",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1007/978-981-99-4491-0_23  ",
+          "label": "https://doi.org/10.1007/978-981-99-4491-0_23",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.4324/9781003119111 ",
+          "label": "https://doi.org/10.4324/9781003119111",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        },
+        {
+          "url": "https://doi.org/10.1016/C2014-0-01870-9 ",
+          "label": "https://doi.org/10.1016/C2014-0-01870-9",
+          "parentSourceId": "polyu-fsn-dr-wu-mei-yi-daphne-20261119",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留个人页实际提供的链接，目标正文尚待核。"
+        }
+      ],
+      "summary": "研究运动营养、功能食品与社区营养。官网列为实务助理教授，指导资格和招生安排需另核。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "已读研究介绍，研究学位指导资格、本轮招募及余位仍待核。",
+        "sourceIds": [
+          "polyu-fsn-dr-wu-mei-yi-daphne-20261119"
+        ]
+      }
+    }
+  ],
+  "directory": {
+    "id": "polyu-fsn-staff-directory",
+    "universityId": "polyu",
+    "unit": "食品科学及营养学系 / Food Science and Nutrition",
+    "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+    "sourceIds": [
+      "entry-read-staff-route-1c1b0c34b3159f2c",
+      "polyu-fsn-category-1-20261119",
+      "polyu-fsn-category-2-20261119",
+      "polyu-fsn-category-3-20261119",
+      "polyu-fsn-category-4-20261119",
+      "polyu-fsn-category-5-20261119",
+      "polyu-fsn-category-6-20261119"
+    ],
+    "reviewSourceIds": [],
+    "coverageComplete": false,
+    "coverageNotes": "可分别查看学术、附属、实务、荣誉、兼任访问、科研技术及行政人员。35个个人页入口复用2026-10-26记录，本次新核个人页的身份和研究另列日期；未确认全系现任人员、指导资格或招生余位。"
+  },
+  "regularSourceId": "entry-read-staff-route-1c1b0c34b3159f2c",
+  "regularLinks": [
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-sheng/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mankin/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chiou-jiachi-amber/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-kwok-winghin-kevin/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lee-mingyuen-simon/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-kahing/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mansau/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhou-xiaohui/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-fang-karhei-james/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-xia-xiaodong/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhao-danyue-daisy/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhu-yuyan/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-xu/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-gan-renyou/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lo-kahei-kenneth/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lu-xuanxuan/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-chang-jinhui-gail/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-cheng-wai-yin-nano/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-dong-xiaoli/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-gong-guiyi/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-lai-chun-him-nathanael/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-leung-ka-kit/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-liao-qiwen/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-tang-benqin/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-haicui/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xiao-hui-hui/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xie-miaomiao/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhang-fang/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhong-yuyue/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-mok-kamwah-daniel/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-geng-ping-sandy/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-hui-lailing-connie/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-li-shiying-christine/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wong-hoyin-marcus/",
+    "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-mei-yi-daphne/"
+  ],
+  "academicStaffEntry": {
+    "label": "食品科学及营养学系 · 学术人员",
+    "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+    "entryBodyStatus": "body_read",
+    "sourceIds": [
+      "entry-read-staff-route-1c1b0c34b3159f2c"
+    ],
+    "teacherProfilesTotal": null,
+    "enumerationComplete": false,
+    "profileLeads": [
+      {
+        "name": "Prof. Chen Sheng",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-sheng/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Chen Sheng Head (FSN), Director of RIM & Chair Professor of Microbiology",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "c87381956c8eb01c8cc0ab90845a9aa288374a0efbf210b4d8754814bbe4ad73",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-chen-sheng",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Wong Man-kin",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mankin/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Wong Man-kin Associate Dean (FS) & Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "fea9a10e6f3a3e6415b289f746ad1861d370f1e74be87617e00a060b5608bc58",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-wong-mankin",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Chiou Jiachi, Amber",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chiou-jiachi-amber/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Chiou Jiachi, Amber Associate Head (FSN), Associate Director of RiFood & Associate Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "4beb6e8dbb7082b28aa53fa1cda2d4df572629285a7e3533e7b472cd9b0bd8ab",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-chiou-jiachi-amber",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Kwok Wing-hin, Kevin",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-kwok-winghin-kevin/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Kwok Wing-hin, Kevin Associate Head (FSN), Associate Director of RiFood & Associate Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "a336d0994e03591bdcb41279e30f12e6d051f40609e32d144173b6833d1bdd39",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-kwok-winghin-kevin",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Lee Ming-yuen, Simon",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lee-mingyuen-simon/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Lee Ming-yuen, Simon Cally Kwong Mei Wan Professor in Biomedical Sciences and Chinese Medicine Innovation, Chair Professor of Biomedical Sciences, Director of RCOcean, and Associate Director of WXRI",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "2a75d3e4d8f14b132e5c6fd35d69bdf880746bb4a3613841be78f189b92f9623",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-lee-mingyuen-simon",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Wong Ka-hing",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-kahing/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Wong Ka-hing Director of RiFood, Assoicate Director of JJRI & Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "0e0f8a5b281fecdbface1bd9ce209ab7f29a0d06e95e0252d164544db74cfa42",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-wong-kahing",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Wong Man-sau",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-wong-mansau/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Wong Man-sau Director of RCMI & Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "94c95c0122323ded50536a3f14d7e60d7dee9c53263dd1c02c61a8010355a221",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-wong-mansau",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Zhou Xiaohui",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhou-xiaohui/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Zhou Xiaohui Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "0c344e81a1a1fe5668ecbeadc085758551f20870e292333479e797f40f24134d",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-zhou-xiaohui",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Fang Kar-hei, James",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-fang-karhei-james/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Fang Kar-hei, James Director of Research Postgraduate Studies, Associate Director of RCOcean & Associate Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "3b6561b1ba9651a99393ea97a5b6949339895637ad56d6e541c3be5fd39b3d23",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-fang-karhei-james",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Xia Xiaodong",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-xia-xiaodong/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Xia Xiaodong Associate Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "2e1f610e479af258c7a9aa03cb2fd31b47ed068466f4f164901ab8f08ab1b6c5",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-xia-xiaodong",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Zhao Danyue, Daisy",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhao-danyue-daisy/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Zhao Danyue, Daisy Associate Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "46bf1799feb40b94f2867d8a0ff34b8eeafc6616fcaee9b8896208beca453b9b",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-zhao-danyue-daisy",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Zhu Yuyan",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-zhu-yuyan/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Zhu Yuyan Associate Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "975fde35d8d0119ffd479e80d920d620148be5890e78a3acf80ec498b9ba6b52",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-zhu-yuyan",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Chen Xu",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-chen-xu/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Chen Xu Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "7f3f2a2faa3a8511f71b254e9400421ea2121184651c25edb151f7538b2f583e",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-chen-xu",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Gan Renyou",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-gan-renyou/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Gan Renyou Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "65ffb3120ae18a4f0ca731bfd860e49300605900826db1ea56d188fb857dd56e",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-gan-renyou",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Lo Ka-hei, Kenneth",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lo-kahei-kenneth/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Lo Ka-hei, Kenneth Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "7402f0f4261176ff980718dfb76d52010d07c8e13016e859a3a6f61833b239a7",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-lo-kahei-kenneth",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Prof. Lu Xuanxuan",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/prof-lu-xuanxuan/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Prof. Lu Xuanxuan Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "9837652e45eeeb6c3859bdd8b712a8edc675b870ed96573aa3b9b7683209a599",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-prof-lu-xuanxuan",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Chang Jinhui, Gail",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-chang-jinhui-gail/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Chang Jinhui, Gail Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "c988806db2e3ae314b8dd69e9baa1861481b0f37ccd281f21b5d55589d0a74df",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-chang-jinhui-gail",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Cheng Wai-yin, Nano",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-cheng-wai-yin-nano/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Cheng Wai-yin, Nano Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "bc4abb5ad3b92352c84393799b8c1318504517099d86a3565a297b660aa9e675",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-cheng-wai-yin-nano",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Dong Xiaoli",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-dong-xiaoli/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Dong Xiaoli Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "1dadea038c681de5d16c9be30004853166db2abb7788e4b8c42dbcc6ee96ffd2",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-dong-xiaoli",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Gong Guiyi",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-gong-guiyi/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Gong Guiyi Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "c7bb374dc6f48d733acd0e3d4a45a197bbc4f354340e497364be8d8c7ff8764d",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-gong-guiyi",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Lai Chun-Him, Nathanael",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-lai-chun-him-nathanael/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Lai Chun-Him, Nathanael Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "36d54473fabe75e9bfc64b17e81d5b7ceffc41ae086567d092787659221ccd7a",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-lai-chun-him-nathanael",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Leung Ka-kit, Leo",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-leung-ka-kit/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Leung Ka-kit, Leo Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "2f605e62c7a39fe657ad7ab8bb8f803480ce6b30851354253616036a053db13c",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-leung-ka-kit",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Liao Qiwen",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-liao-qiwen/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Liao Qiwen Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "75bc94ac7c8797c71d582b5000f7d760978951496885806d1fc30e72b7b8c4c5",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-liao-qiwen",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Tang Benqin",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-tang-benqin/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Tang Benqin Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "52b4041b103bdc54ef39941bc162a8f2559ea9611aa8ffed14bac1516431c373",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-tang-benqin",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Wu Haicui",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-haicui/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Wu Haicui Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "access_failed",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "2026-11-19原提供入口404，保留旧名录记录待核。"
+      },
+      {
+        "name": "Dr Xiao Hui-hui",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xiao-hui-hui/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Xiao Hui-hui Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "4d5caf8ddb1163549ebe04848bb53c21bc37bf2b509f5e8c3e4eede384f177e9",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-xiao-hui-hui",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Xie Miaomiao",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-xie-miaomiao/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Xie Miaomiao Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "6ca04936d85a09d9b79f483f743a8e07a987e9bdb454139e3144b564bbaa80c3",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-xie-miaomiao",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Zhang Fang",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhang-fang/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Zhang Fang Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "cc28ef7dc143fc921eabbede6eabff6d1e46006d07324f19404ed82727f693df",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-zhang-fang",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Zhong Yuyue",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-zhong-yuyue/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Zhong Yuyue Research Assistant Professor",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "53bf982d246f57aadb8d6b70c1cdfd979fd531fc4ade7808257d9988706536d3",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-zhong-yuyue",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Mok Kam-wah, Daniel",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-mok-kamwah-daniel/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Mok Kam-wah, Daniel Associate Director of RCMI & Senior Lecturer",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "bcd6a43f16fb324e0dc9c03859b56f7fc379fe63d1869c067bc945471f75225b",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-mok-kamwah-daniel",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Geng Ping, Sandy",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-geng-ping-sandy/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Geng Ping, Sandy Assistant Dean (FS) & Lecturer",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "26572ee2840d2ceb6cf93061f212df1c928833c19ee3446edd4c7fe7b395293c",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-geng-ping-sandy",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Hui Lai-ling, Connie",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-hui-lailing-connie/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Hui Lai-ling, Connie Lecturer",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "9cc83597b25dae042f603a78e73d3115843f82cdeb1a9a41abaaf3f52e845869",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-hui-lailing-connie",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Li Shi-ying, Christine",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-li-shiying-christine/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Li Shi-ying, Christine Lecturer",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "505a2bdb8cf0d2847301f2f1fe75d25cb235c6b6a2080ee2877d4ccaaaea26d5",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-li-shiying-christine",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      },
+      {
+        "name": "Dr Wong Ho-yin, Marcus",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wong-hoyin-marcus/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Wong Ho-yin, Marcus Lecturer",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "7473b5776075304d3963f7260f8015494aa584e843ce4a7880d414c5a6875e6e",
+        "readMethod": "anonymous_HTTP"
+      },
+      {
+        "name": "Dr Wu Mei-yi, Daphne",
+        "url": "https://www.polyu.edu.hk/fsn/people/academic-staff/dr-wu-mei-yi-daphne/",
+        "observedOn": "https://www.polyu.edu.hk/fsn/people/academic-staff/",
+        "directoryLabel": "Dr Wu Mei-yi, Daphne Assistant Professor of Practice",
+        "directorySourceIds": [
+          "entry-read-staff-route-1c1b0c34b3159f2c"
+        ],
+        "profileBodyStatus": "body_read",
+        "supervisionEligibility": "unknown",
+        "availability": "unknown",
+        "reviewNote": "名录标签复用2026-10-26记录；当前个人页另核身份和研究。",
+        "bodySha256": "04de13f99468611e6eb604eb1b9540e014f3be813ebf06195806d06f229fd29d",
+        "readMethod": "anonymous_HTTP",
+        "facultyId": "polyu-fsn-dr-wu-mei-yi-daphne",
+        "researchReviewStatus": "research_excerpt_and_directory_role_reviewed"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "url": "https://www.polyu.edu.hk/fsn/people/affiliate-faculty-members/",
+      "label": "附属师资",
+      "checkedAt": "2026-11-19",
+      "readStatus": "body_read",
+      "observedRows": 1,
+      "notes": "Wong Wing-tak；网页仍列原ABCT任职，重组后的任职另核。",
+      "sourceId": "polyu-fsn-category-1-20261119"
+    },
+    {
+      "url": "https://www.polyu.edu.hk/fsn/people/professor-of-practice/",
+      "label": "兼职实务教授",
+      "checkedAt": "2026-11-19",
+      "readStatus": "body_read",
+      "observedRows": 3,
+      "notes": "Stephen Chung、Gordon Cheung、Terry Ting。不是普通全职导师名单。",
+      "sourceId": "polyu-fsn-category-2-20261119"
+    },
+    {
+      "url": "https://www.polyu.edu.hk/fsn/people/honorary-professors/",
+      "label": "荣誉人员",
+      "checkedAt": "2026-11-19",
+      "readStatus": "body_read",
+      "observedRows": 10,
+      "notes": "3 Distinguished Honorary Professors、6 Honorary Professors、1 Honorary Fellow。",
+      "sourceId": "polyu-fsn-category-3-20261119"
+    },
+    {
+      "url": "https://www.polyu.edu.hk/fsn/people/adjunct--visiting-professors/",
+      "label": "兼任与访问",
+      "checkedAt": "2026-11-19",
+      "readStatus": "body_read",
+      "observedRows": 5,
+      "notes": "1 Adjunct Professor、2 Adjunct Associate、1 Adjunct Assistant、1 Visiting。",
+      "sourceId": "polyu-fsn-category-4-20261119"
+    },
+    {
+      "url": "https://www.polyu.edu.hk/fsn/people/scientific-officers/",
+      "label": "科研技术支援",
+      "checkedAt": "2026-11-19",
+      "readStatus": "body_read",
+      "observedRows": 7,
+      "notes": "科研主任、助理科研主任及技术助理；不当作导师。",
+      "sourceId": "polyu-fsn-category-5-20261119"
+    },
+    {
+      "url": "https://www.polyu.edu.hk/fsn/people/administrative-staff/",
+      "label": "行政支援",
+      "checkedAt": "2026-11-19",
+      "readStatus": "body_read",
+      "observedRows": 11,
+      "notes": "行政与IT、秘书等支援；不当作导师。",
+      "sourceId": "polyu-fsn-category-6-20261119"
+    }
+  ]
+}
