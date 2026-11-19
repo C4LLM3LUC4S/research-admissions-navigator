@@ -1,5 +1,6 @@
 (function () {
   'use strict';
+  function start() {
   const L=window.APP_LOGIC, C=window.APP_CATALOG, KEY='yanxiang-local-v1';
   const $=id=>document.getElementById(id);
   function node(tag, text, className) { const n=document.createElement(tag);if(text!==undefined && text!==null)n.textContent=String(text);if(className)n.className=className;return n; }
@@ -402,4 +403,12 @@
   if(startupSearch)startupSearch.hidden=true;
   const quickProjects=$('startup-projects');
   if(!quickProjects.contains?.(document.activeElement))quickProjects.hidden=true;
+  }
+  if(window.APP_CATALOG)start();
+  else window.APP_CATALOG_READY.then(start).catch(error=>{
+    const panel=document.getElementById('startup-error');
+    panel.textContent=error.message+' 你仍可搜索老师或打开上方项目官网。';
+    panel.hidden=false;
+    document.getElementById('startup-search').dispatchEvent(new Event('catalog-unavailable'));
+  });
 }());

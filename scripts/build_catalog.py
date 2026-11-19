@@ -2662,6 +2662,48 @@ def browser_catalog_script(catalog):
             + ";return " + encode(catalog) + ";})();\n")
 
 
+def school_catalog_scripts(catalog):
+    """Transport independent school records while restoring their original order."""
+    fields = ("faculty", "directories", "academicCoverage", "sources")
+    school_ids = [school["id"] for school in catalog["universities"]]
+    parts = {school: {field: [] for field in fields} for school in school_ids}
+    parts["shared"] = {field: [] for field in fields}
+    source_ids = {source["id"] for source in catalog["sources"]}
+    owners = {}
+
+    def collect(value, school):
+        if isinstance(value, str) and value in source_ids:
+            owners.setdefault(value, school)
+        elif isinstance(value, dict):
+            for item in value.values():
+                collect(item, school)
+        elif isinstance(value, list):
+            for item in value:
+                collect(item, school)
+
+    for field in fields[:-1]:
+        for index, record in enumerate(catalog[field]):
+            school = record["universityId"]
+            parts[school][field].append([index, record])
+            collect(record, school)
+    for index, source in enumerate(catalog["sources"]):
+        parts[owners.get(source["id"], "shared")]["sources"].append([index, source])
+    result = {}
+    manifest = []
+    for school, records in parts.items():
+        payload = {"snapshotId": catalog["snapshotId"], "key": school, "records": records}
+        content = browser_catalog_script(payload).replace("window.APP_CATALOG =", "window.APP_CATALOG_PARTS.push(", 1).rstrip()
+        content = content[:-1] + ");\n"
+        name = "catalog-" + school + ".js"
+        result[name] = content
+        manifest.append({"key": school, "url": name + "?v=" + hashlib.sha256(content.encode()).hexdigest()[:16]})
+    base = {key: value for key, value in catalog.items() if key not in fields}
+    result["catalog-loader.js"] = (ROOT / "scripts/catalog-loader.js").read_text(encoding="utf-8").replace(
+        "/* CATALOG_BASE */", json.dumps(base, ensure_ascii=False, separators=(",", ":"))
+    ).replace("/* CATALOG_MANIFEST */", json.dumps(manifest, separators=(",", ":")))
+    return result
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--check", action="store_true")
@@ -2672,6 +2714,7 @@ def main():
     quality = validate(catalog)
     encoded = json.dumps(catalog, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
     js = browser_catalog_script(browser_catalog(catalog))
+    school_scripts = school_catalog_scripts(browser_catalog(catalog))
     search_index = {
         "schools": {school["id"]: school["short"] for school in catalog["universities"]},
         "faculty": [[person["name"], person["universityId"], person["profileUrl"],
@@ -2687,6 +2730,11 @@ def main():
     assets = {name: (js.encode("utf-8") if name == "catalog.js" else (ROOT / "dist" / name).read_text(encoding="utf-8").encode("utf-8"))
               for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css", "startup-search.js")}
     assets["faculty-index.js"] = index_js.encode("utf-8")
+    assets.pop("catalog.js")
+    assets["catalog-loader.js"] = school_scripts["catalog-loader.js"].encode("utf-8")
+    for name, content in school_scripts.items():
+        outputs[ROOT / "dist" / name] = content
+        outputs[ROOT / "docs" / name] = content
     index = ROOT / "dist/index.html"
     html = index.read_text(encoding="utf-8")
     html, count = re.subn(
