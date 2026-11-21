@@ -44,7 +44,8 @@
       "claims": [
         "主页确认港大电机与计算机工程系研究助理教授任职，并介绍无线通信的信号处理和数据驱动研究。"
       ],
-      "knownIssues": []
+      "knownIssues": [],
+      "parentSourceId": "hku-ece-rap-chang-cai-profile-20261122"
     },
     {
       "id": "hku-ece-rap-ye-ding-profile-20261122",
@@ -123,7 +124,8 @@
       ],
       "knownIssues": [
         "个人主页未列 2027/28 具体余位或指导资格。"
-      ]
+      ],
+      "parentSourceId": "hku-ece-rap-zhanwei-wang-profile-20261122"
     },
     {
       "id": "hku-ece-rap-yujie-yang-profile-20261122",
@@ -153,7 +155,8 @@
       "claims": [
         "主页确认港大研究助理教授任职，并介绍强化学习、自动驾驶及机器人研究。"
       ],
-      "knownIssues": []
+      "knownIssues": [],
+      "parentSourceId": "hku-ece-rap-yujie-yang-profile-20261122"
     },
     {
       "id": "hku-ece-rap-qunsong-zeng-profile-20261122",
