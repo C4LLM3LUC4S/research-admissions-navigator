@@ -305,40 +305,72 @@
   }
   function renderFunding() { const items=L.fundingFor(C,state.profile);$('funding-results').hidden=!items.length;clear($('funding-cards'));items.forEach(f=>{const box=node('article',null,'funding-card');append(box,node('h3',f.title),node('p',f.note||'资格和资助结果以官方审核为准，不是自动获奖。'));box.append(deadlineCard({label:'相关申请日期',at:f.deadline,cycle:f.cycle},state.profile.cycle));box.append(evidence(f.sourceIds));$('funding-cards').append(box);}); }
   let resultSequence=0;
-  function neededSchools() {
+  function indexedFacultyMatches() {
+    const index=window.APP_FACULTY_INDEX;
+    if(mode!=='faculty'||state.profile.universityIds.length||!state.profile.researchQuery.trim()||!index)return null;
+    const search=L.facultySearch(state.profile.researchQuery);
+    return index.faculty.filter(([name,,,researchKeywords])=>search.matchesName(name)||search.matchedTerms({researchKeywords}).length);
+  }
+  function neededSchools(matches) {
     if(mode==='programs')return [];
     if(state.profile.universityIds.length)return state.profile.universityIds;
-    const index=window.APP_FACULTY_INDEX;
-    if(mode==='faculty'&&state.profile.researchQuery.trim()&&index){
-      const search=L.facultySearch(state.profile.researchQuery);
-      return [...new Set(index.faculty.filter(row=>search.matchesName(row[0])||search.matchedTerms({researchKeywords:row[3]}).length).map(row=>row[1]))];
-    }
+    if(matches)return [...new Set(matches.map(row=>row[1]))];
     return C.universities.map(u=>u.id);
+  }
+  function facultyPreview(matches) {
+    if(!matches?.length||state.profile.interests.length)return null;
+    const list=node('ul',null,'faculty-search-preview');
+    matches.slice(0,12).forEach(([name,school,profileUrl])=>{
+      const item=node('li');
+      item.append(L.officialUrl(profileUrl)?link(name,profileUrl):node('span',name),
+        node('span',' · '+(university(school)?.short||school)));
+      list.append(item);
+    });
+    const message=node('p',matches.length>12?'先看前 12 位匹配老师，详细档案正在读取。':'可先打开老师的主页，详细档案正在读取。','field-help');
+    return {panel:append(node('div'),message,list),message};
   }
   function renderResults() {
     const sequence = ++resultSequence;
     const needsIndex = window.APP_LOAD_FACULTY_INDEX && !window.APP_FACULTY_INDEX &&
       mode === 'faculty' && state.profile.researchQuery.trim() && !state.profile.universityIds.length &&
       !window.APP_ALL_SCHOOLS_READY;
-    const schools = needsIndex ? [] : neededSchools();
+    let matches = needsIndex ? null : indexedFacultyMatches();
+    const schools = needsIndex ? [] : neededSchools(matches);
     if (needsIndex || (window.APP_LOAD_SCHOOLS && schools.some(id => !window.APP_LOADED_SCHOOLS.has(id)))) {
-      clear($('results'));resultCards=[];resultBookmarkButtons.clear();
-      $('result-count').textContent='正在读取所选学校资料…';
+      const target=$('results');
+      clear(target);resultCards=[];resultBookmarkButtons.clear();
+      $('result-count').textContent=needsIndex?'正在检索老师…':'正在读取所选学校资料…';
       $('results-jump').textContent='查看筛选结果';$('show-more-faculty').hidden=true;
-      $('results').append(node('p','正在读取老师与院系资料，项目要求可随时查看。','field-help'));
+      target.append(node('p','正在读取老师与院系资料，项目要求可随时查看。','field-help'));
+      let preview;
+      const loadSchools=ids=>{
+        if(sequence!==resultSequence)return;
+        if(ids.some(id=>!window.APP_LOADED_SCHOOLS.has(id))){
+          preview=facultyPreview(matches);
+          if(preview)target.replaceChildren(preview.panel);
+        }
+        return window.APP_LOAD_SCHOOLS(ids);
+      };
       const request = needsIndex
         ? window.APP_LOAD_FACULTY_INDEX().then(() => {
-          if (sequence === resultSequence) return window.APP_LOAD_SCHOOLS(neededSchools());
+          if(sequence!==resultSequence)return;
+          matches=indexedFacultyMatches();
+          return loadSchools(neededSchools(matches));
         })
-        : window.APP_LOAD_SCHOOLS(schools);
+        : loadSchools(schools);
       request.then(()=>{
         sourceIndex=null;
         if(sequence!==resultSequence)return;
+        const focused=document.activeElement;
+        const focusedUrl=focused&&preview?.panel.contains(focused)?focused.href:null;
         subjectOptions=L.researchOptions(C);renderSubjectOptions();renderLoadedResults();
+        if(focusedUrl)[...target.querySelectorAll('a')].find(anchor=>anchor.href===focusedUrl)?.focus({preventScroll:true});
       }).catch(error=>{
         if(sequence!==resultSequence)return;
-        clear($('results'));$('result-count').textContent='资料暂未载入';
-        append($('results'),node('p',error.message),button('重试读取',renderResults));
+        $('result-count').textContent=preview?'详细档案暂未载入':'资料暂未载入';
+        if(preview)preview.message.textContent='仍可打开下方老师的主页。';
+        else clear(target);
+        append(target,node('p',error.message),button('重试读取',renderResults));
       });
       return;
     }
