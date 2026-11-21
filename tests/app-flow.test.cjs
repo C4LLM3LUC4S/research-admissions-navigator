@@ -1416,7 +1416,7 @@ test('cross-school index results remain usable during a pending or failed detail
 test('school load failures keep a retry action and never show an empty match as a completed search',async()=>{
  const h=lazyHarness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-faculty').emit('click');
  h.requests[0].reject(Error('模拟下载失败'));await flushLoads();assert.match(el('result-count').textContent,/暂未载入/);
- await h.button('results','重试读取').emit('click');h.requests[1].resolve();await flushLoads();assert.match(el('result-count').textContent,/362/);
+ await h.button('results','重试读取').emit('click');h.requests[1].resolve();await flushLoads();assert.equal(el('result-count').textContent,'找到 '+C.faculty.filter(f=>f.universityId==='hku').length+' 位老师（已整理研究方向）');
 });
 test('cross-school backup import loads the complete ID set before replacing or exporting any state',async()=>{
  const h=lazyHarness(),el=id=>h.byId.get(id),savedIds=[C.faculty.find(f=>f.universityId==='hku').id,C.faculty.find(f=>f.universityId==='hkustgz').id];
