@@ -1,11 +1,11 @@
 {
   "status": "passed",
-  "checkedDate": "2026-11-19",
+  "checkedDate": "2026-11-22",
   "counts": {
     "universities": 7,
     "programs": 85,
     "faculty": 2470,
-    "sources": 4761,
+    "sources": 4762,
     "funding": 1,
     "degreeRoutes": 145,
     "facultyByUniversity": {
@@ -20,7 +20,7 @@
     "unknownRecruitment": 2461,
     "dateOnlyDeadlines": 110,
     "programsWithRequirements": 84,
-    "requirementItems": 314,
+    "requirementItems": 318,
     "programsWithFinances": 81,
     "financeItems": 153,
     "officialDirectories": 136,

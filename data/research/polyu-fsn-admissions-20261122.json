@@ -1,0 +1,66 @@
+{
+  "source": {
+    "id": "polyu-fsn-department-rpg-20261122",
+    "url": "https://www.polyu.edu.hk/fsn/study/research-postgraduate-programme/",
+    "title": "港理工食品科学及营养学系 · 研究学位入学说明",
+    "checkedAt": "2026-11-22",
+    "readMethod": "web_tool_actual_body",
+    "evidenceLevel": "official_verified_page_scoped",
+    "scope": "系级通用学历和英语要求及网申入口；正文未标明入学年度。",
+    "claims": [
+      "研究型硕士为全日制两年或兼读四年，要求二等荣誉学士或同等资格。",
+      "博士按学制列两类学历路径。较短学制通常要求研究型硕士及学士；较长学制通常接受硕士加学士或一等荣誉学士等路径。",
+      "英语要求段落列 IELTS 6.5 或 TOEFL iBT 80，成绩有效期为两年。页面提供校方网申入口。"
+    ],
+    "knownIssues": [
+      "2027 年 9 月截止、材料和费用仍以对应项目页和校级文件为依据。",
+      "系级项目总览的 Daisy Zhao 职级与个人页不同；本次仅采用总览的申请说明。"
+    ],
+    "discoveredLinks": [
+      "https://rpgadmission.polyu.edu.hk/"
+    ]
+  },
+  "requirements": [
+    {
+      "label": "MPhil 学历与学制",
+      "degrees": [
+        "MPhil"
+      ],
+      "text": "全日制两年或兼读四年。至少持认可大学颁发的二等荣誉学士学位或同等资格。",
+      "action": "核对学士学位及荣誉等级证明。",
+      "sourceIds": [
+        "polyu-fsn-department-rpg-20261122"
+      ]
+    },
+    {
+      "label": "PhD 学历与学制",
+      "degrees": [
+        "PhD"
+      ],
+      "text": "全日制三年或兼读六年通常要求学士及 MPhil 或同等研究型硕士学位，且论文须为该硕士授予条件。全日制四年或兼读八年通常要求硕士加学士，或一等荣誉学士及同等资格。",
+      "action": "按拟申请学制核对学历材料，较短学制另备硕士论文要求证明。",
+      "sourceIds": [
+        "polyu-fsn-department-rpg-20261122",
+        "polyu-rpg-requirements"
+      ]
+    },
+    {
+      "label": "英语证明",
+      "text": "没有认可大学英语授课学位时，所读研究学位说明列 IELTS Academic 总分 6.5 或 TOEFL iBT 80，成绩在考试后两年内有效。若持新版 TOEFL 分数，请先确认本轮适用尺度。",
+      "action": "核对英语授课证明或单次考点考试成绩的有效期。",
+      "sourceIds": [
+        "polyu-fsn-department-rpg-20261122",
+        "polyu-rpg-requirements"
+      ]
+    },
+    {
+      "label": "提交申请",
+      "text": "系页提供校方研究学位网申入口。提交前核对所选学位、入学期及材料清单。",
+      "action": "进入校方系统核对申请项目与轮次。",
+      "url": "https://rpgadmission.polyu.edu.hk/",
+      "sourceIds": [
+        "polyu-fsn-department-rpg-20261122"
+      ]
+    }
+  ]
+}
