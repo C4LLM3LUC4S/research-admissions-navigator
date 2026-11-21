@@ -1424,5 +1424,8 @@ test('cross-school backup import loads the complete ID set before replacing or e
  const raw=JSON.stringify(backup),input=el('import-local');input.files=[{size:raw.length,text:async()=>raw}];
  const importing=input.emit('change');await flushLoads();assert.equal(h.saved.size,0);assert.equal(h.requests[0].ids.length,7);
  h.requests[0].resolve();await importing;await el('export-local').emit('click');
- const restored=JSON.parse(await h.downloads.at(-1).blob.text());assert.deepEqual(restored.shortlist,savedIds);assert.deepEqual(restored.sourceIds,backup.sourceIds);
+ const local=JSON.parse([...h.saved.values()][0]);
+ assert.deepEqual(local.facultySchools,backup.shortlist.map(id=>[id,C.faculty.find(f=>f.id===id).universityId]));
+ const restored=JSON.parse(await h.downloads.at(-1).blob.text());
+ assert.equal('facultySchools' in restored,false);assert.deepEqual(restored.shortlist,savedIds);assert.deepEqual(restored.sourceIds,backup.sourceIds);
 });

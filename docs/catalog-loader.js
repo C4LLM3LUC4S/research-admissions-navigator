@@ -85,15 +85,25 @@
     let saved;
     try { saved = JSON.parse(raw); } catch (_) { return; }
     if (!saved || !Array.isArray(saved.shortlist) || !Array.isArray(saved.tasks) || !Array.isArray(saved.sourceIds)) return;
-    const ids = [...saved.shortlist,...saved.tasks.map(task => task?.facultyId).filter(Boolean)];
+    const ids = [...new Set([...saved.shortlist,...saved.tasks.map(task => task?.facultyId).filter(Boolean)])];
     if (ids.length) {
-      let index;
-      try { index = await window.APP_LOAD_FACULTY_INDEX(); }
-      catch (_) { await window.APP_LOAD_ALL(); return; }
-      const schoolsById = new Map(index.faculty.map(row => [row[4], row[1]]));
-      // Validate unknown historical IDs against the complete catalogue.
-      if (ids.some(id => !schoolsById.has(id))) { await window.APP_LOAD_ALL(); return; }
-      await window.APP_LOAD_SCHOOLS(ids.map(id => schoolsById.get(id)));
+      const knownSchools = new Set(base.universities.map(school => school.id));
+      const validHint = row => Array.isArray(row) && typeof row[0] === 'string' && knownSchools.has(row[1]);
+      const hints = new Map(Array.isArray(saved.facultySchools) ? saved.facultySchools.filter(validHint) : []);
+      if (ids.every(id => hints.has(id))) {
+        // The hint saves a download; the current school records still decide whether the ID exists.
+        try { await window.APP_LOAD_SCHOOLS(ids.map(id => hints.get(id))); } catch (_) {}
+      }
+      const loadedIds = new Set(base.faculty.map(person => person.id));
+      if (ids.some(id => !loadedIds.has(id))) {
+        let index;
+        try { index = await window.APP_LOAD_FACULTY_INDEX(); }
+        catch (_) { await window.APP_LOAD_ALL(); return; }
+        const schoolsById = new Map(index.faculty.map(row => [row[4], row[1]]));
+        // Validate unknown historical IDs against the complete catalogue.
+        if (ids.some(id => !schoolsById.has(id))) { await window.APP_LOAD_ALL(); return; }
+        await window.APP_LOAD_SCHOOLS(ids.map(id => schoolsById.get(id)));
+      }
     }
     const available = new Set(base.sources.map(source => source.id));
     if (saved.sourceIds.some(id => !available.has(id))) await window.APP_LOAD_ALL();

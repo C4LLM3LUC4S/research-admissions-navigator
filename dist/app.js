@@ -37,7 +37,25 @@
   function verifiedLink(label,safe) {if(!safe)return node('span','链接来源待核实','field-help');const a=node('a',label);a.href=safe;a.target='_blank';a.rel='noopener noreferrer';return a;}
   function observedProfileLink(label,url,sourceIds) {const safe=L.observedProfileUrl(C,url,sourceIds);return safe?verifiedLink(label,safe):node('span',label+'（原链接待核）','field-help');}
   function sourceIdsForState() { return [...new Set([...state.sourceIds,...state.shortlist.flatMap(id=>(C.faculty.find(f=>f.id===id)||{}).sourceIds||[]),...state.tasks.flatMap(t=>(C.programs.find(p=>p.id===t.programId)||{}).sourceIds||[])])].filter(id=>C.sources.some(s=>s.id===id)); }
-  function persist(saveProfile) { try { const value=L.portable(C,{...state,profile:saveProfile?state.profile:savedProfile,sourceIds:sourceIdsForState()});localStorage.setItem(KEY,JSON.stringify(value));state.catalogHistory=value.catalogHistory;state.catalogSnapshotId=value.catalogSnapshotId;state.catalogCheckedDate=value.catalogCheckedDate;if(saveProfile)savedProfile=structuredClone(state.profile);return true; } catch(e){notify('暂时没能写入本机记录：'+e.message+' 可以先下载完整备份。',true);return false;} }
+  function writeLocalRecord(value) {
+    const facultyIds=new Set([...value.shortlist,...value.tasks.map(task=>task.facultyId).filter(Boolean)]);
+    const facultySchools=C.faculty.filter(person=>facultyIds.has(person.id)).map(person=>[person.id,person.universityId]);
+    localStorage.setItem(KEY,JSON.stringify({...value,facultySchools}));
+  }
+  function persist(saveProfile) {
+    try {
+      const value=L.portable(C,{...state,profile:saveProfile?state.profile:savedProfile,sourceIds:sourceIdsForState()});
+      writeLocalRecord(value);
+      state.catalogHistory=value.catalogHistory;
+      state.catalogSnapshotId=value.catalogSnapshotId;
+      state.catalogCheckedDate=value.catalogCheckedDate;
+      if(saveProfile)savedProfile=structuredClone(state.profile);
+      return true;
+    } catch(error) {
+      notify('暂时没能写入本机记录：'+error.message+' 可以先下载完整备份。',true);
+      return false;
+    }
+  }
   function download(name,value) { const blob=new Blob([JSON.stringify(value,null,2)+'\n'],{type:'application/json;charset=utf-8'}),url=URL.createObjectURL(blob),a=node('a');a.href=url;a.download=name;document.body.append(a);a.click();a.remove();setTimeout(()=>URL.revokeObjectURL(url),1000); }
   function empty(parent,title,description) { const box=node('div',null,'empty-state');append(box,node('strong',title),node('span',description));parent.append(box); }
   function evidence(ids,note) {
@@ -474,7 +492,7 @@
   $('task-form').addEventListener('submit',event=>{event.preventDefault();const text=$('task-text').value.trim();if(!text)return;if(state.tasks.length>=200){notify('待办已到 200 条，请先整理现有清单。',true);return;}state.tasks.push({id:'task-'+Date.now().toString(36)+'-'+Math.random().toString(36).slice(2,7),text,done:false,programId:null,facultyId:null});persist(false);$('task-text').value='';renderShortlist();});
   $('export-local').addEventListener('click',()=>{try{download('研向-完整备份.json',L.portable(C,{...state,sourceIds:sourceIdsForState()}));notify('已请求浏览器保存备份，请核对文件是否实际保存。');}catch(e){notify(e.message,true);}});
   let importSequence=0;
-  $('import-local').addEventListener('change',async event=>{const sequence=++importSequence,file=event.target.files[0];if(!file)return;try{if(file.size>1024*1024)throw new Error('备份超过 1 MiB，请保留原文件。');const contents=await file.text();if(window.APP_LOAD_ALL){notify('正在核对备份中的学校、老师和来源编号…');await window.APP_LOAD_ALL();sourceIndex=null;subjectOptions=L.researchOptions(C);renderSubjectOptions();}const next=L.parsePortable(contents,C),prepared=L.portable(C,next);if(sequence!==importSequence)return;localStorage.setItem(KEY,JSON.stringify(prepared));state=prepared;savedProfile=structuredClone(prepared.profile);populateProfile();if(state.profile.researchQuery.trim())chooseMode('faculty');else renderResults();renderShortlist();notify(next.catalogSnapshotId&&next.catalogSnapshotId===C.snapshotId?'已载入完整备份。原文件没有修改，来源编号也已核对。':'已载入你的清单，并保留旧资料版本信息。页面显示当前资料，请重新核对政策。');}catch(e){if(sequence===importSequence)notify('没有替换当前清单：'+e.message,true);}finally{if(sequence===importSequence)event.target.value='';}});
+  $('import-local').addEventListener('change',async event=>{const sequence=++importSequence,file=event.target.files[0];if(!file)return;try{if(file.size>1024*1024)throw new Error('备份超过 1 MiB，请保留原文件。');const contents=await file.text();if(window.APP_LOAD_ALL){notify('正在核对备份中的学校、老师和来源编号…');await window.APP_LOAD_ALL();sourceIndex=null;subjectOptions=L.researchOptions(C);renderSubjectOptions();}const next=L.parsePortable(contents,C),prepared=L.portable(C,next);if(sequence!==importSequence)return;writeLocalRecord(prepared);state=prepared;savedProfile=structuredClone(prepared.profile);populateProfile();if(state.profile.researchQuery.trim())chooseMode('faculty');else renderResults();renderShortlist();notify(next.catalogSnapshotId&&next.catalogSnapshotId===C.snapshotId?'已载入完整备份。原文件没有修改，来源编号也已核对。':'已载入你的清单，并保留旧资料版本信息。页面显示当前资料，请重新核对政策。');}catch(e){if(sequence===importSequence)notify('没有替换当前清单：'+e.message,true);}finally{if(sequence===importSequence)event.target.value='';}});
   $('reset-local').addEventListener('click',()=>{try{localStorage.removeItem(KEY);state={profile:L.defaultProfile(C),shortlist:[],tasks:[],sourceIds:[]};savedProfile=L.defaultProfile(C);populateProfile();renderResults();renderShortlist();notify('已清空这个浏览器的记录。你下载的文件不会被删除。');}catch(e){notify('本机记录暂时无法清空：'+e.message,true);}});
   $('community-university').append(new Option('请选择学校 / 校区',''));C.universities.forEach(u=>$('community-university').append(new Option(u.name+' · '+u.region,u.id)));$('community-university').addEventListener('change',renderCommunityPrograms);renderCommunityPrograms();$('community-cycle').value=C.cycle||'';
   $('community-form').addEventListener('submit',event=>{event.preventDefault();if(!$('community-consent').checked)return;const uid=$('community-university').value,pid=$('community-program').value;if(!C.programs.some(p=>p.id===pid&&p.universityId===uid)){notify('请先选对应学校的项目。',true);return;}const draft={kind:'anonymous-community-draft',schemaVersion:1,publiclySubmitted:false,consentToLocalExport:true,universityId:uid,programId:pid,cycle:$('community-cycle').value.trim(),outcome:$('community-outcome').value,notes:$('community-notes').value.trim(),scope:'个人匿名经历草稿，非官方要求，不用于计算录取率。'};download('研向-匿名经历草稿.json',draft);notify('已发起草稿下载，可在浏览器下载列表中查看。');});
