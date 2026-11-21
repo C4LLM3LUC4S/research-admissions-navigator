@@ -2227,6 +2227,53 @@ def build_catalog():
          "action": "核对五月入学的学费和个人资助条件。", "sourceIds": [may_fees]},
     ]
     catalog["programs"].append(cee_may)
+    cma_sources = load("hkustgz-cma-admissions-20261122.json")["sources"]
+    catalog["sources"].extend(cma_sources)
+    cma_brochure, cma_programme, cma_thrust = (source["id"] for source in cma_sources)
+    cma_dates = [cma_brochure, "gz-timeline"]
+    cma_materials = "hkustgz-bsbe-materials-20261111"
+    cma_phd = program(
+        "hkustgz-cma-phd-2027", "hkustgz", "计算媒体与艺术博士", ["PhD"],
+        "港科大广州信息枢纽，2027/28 秋季博士。方向包括互动媒体、计算艺术、视觉传播与数据可视化。",
+        "unknown", "可先从学域目录了解研究方向，再按博士路线提交。", [cma_thrust],
+        "在广州校区研究生院网申选择学域博士。创作作品集条款在简章中列于授课型 MFA。",
+        [cma_brochure, cma_programme],
+        [deadline("国际申请者校级截止", "2027-06-15", cma_dates, clock="23:59", degree="PhD"),
+         deadline("中国申请者校级截止", "2027-07-15", cma_dates, clock="23:59", degree="PhD")],
+        [cma_brochure, cma_programme, cma_thrust, "gz-timeline", "gz-central-requirements", cma_materials, "gz-scholarships-fees"],
+        "计算媒体与艺术方向的研究型硕士由红鸟硕士 MPhil (General) 统一录取，入学后再确定学域。",
+    )
+    cma_phd["entryUrl"] = cma_sources[1]["url"]
+    cma_phd["requirements"] = [
+        {"label": "博士学历", "text": "认可学士且表现优异，或能证明至少一年全日制、两年非全日制研究生学习经历符合要求。",
+         "action": "按适用学历路径准备成绩与学位证明。", "sourceIds": [cma_brochure, "gz-central-requirements"]},
+        {"label": "英语成绩", "text": "IELTS Academic 总分至少 6.5、各项至少 5.5。TOEFL iBT 按考期分 80 与 4.5 两种尺度；2026 年 1 月 21 日起用新量表。单次有效成绩，居家考试不获接受。",
+         "action": "对照考试日期和豁免条件核实英语证明。", "sourceIds": [cma_brochure, "gz-central-requirements"]},
+        {"label": "博士申请材料", "text": "按研究生院准备身份证明、成绩和学位材料、英语证明、研究计划及研究经历，校级列 2 至 5 位推荐人。若系统列额外材料，请按博士项目要求准备。",
+         "action": "从正式网申核对推荐人与材料要求。", "sourceIds": [cma_materials, cma_programme]},
+    ]
+    cma_phd["finances"] = [
+        {"id": "hkustgz-cma-application-2027", "kind": "application_fee", "label": "研究型申请费", "text": "项目页列人民币 150 元。",
+         "action": "从正式博士网申核实支付金额。", "sourceIds": [cma_programme],
+         "rates": [{"value": 150, "currency": "CNY", "unit": "application", "basis": "page_reference", "cycle": None, "condition": "项目页列示"}]},
+        {"id": "hkustgz-cma-tuition-2027", "kind": "tuition", "label": "2027/28 学费按资助情况核对",
+         "text": "简章分列获 PGS 的全日制研究生与自费博士学费。",
+         "action": "按正式录取和资助条件确定适用档位。", "sourceIds": [cma_brochure, "gz-scholarships-fees"],
+         "rates": [{"value": amount, "currency": "CNY", "unit": "academic_year", "basis": "intake", "cycle": CYCLE, "condition": condition}
+                   for amount, condition in [(60000, "获 PGS 的全日制博士"), (150000, "自费博士")]]},
+        {"id": "hkustgz-cma-pgs-2027", "kind": "studentship", "label": "博士 PGS 月额",
+         "text": "简章列全日制博士 PGS 最长四年；实际获批及发放按通知。",
+         "action": "核对正式资助资格及条款。", "sourceIds": [cma_brochure, "gz-scholarships-fees"],
+         "rates": [{"value": 15000, "currency": "CNY", "unit": "month", "basis": "intake", "cycle": CYCLE, "condition": "符合条件的全日制博士"}]},
+    ]
+    catalog["programs"].append(cma_phd)
+    redbird = next(p for p in catalog["programs"] if p["id"] == "hkust-gz-rbm")
+    redbird["sourceIds"].append(cma_brochure)
+    redbird["requirements"].append(
+        {"label": "对计算媒体与艺术感兴趣", "text": "2027/28 简章列计算媒体与艺术 MPhil 经红鸟硕士 MPhil (General) 统一录取。入学后按红鸟安排在秋季学期结束时申报学域。",
+         "action": "在网申选择 MPhil (General)，了解入学后申报学域的要求。", "sourceIds": [cma_brochure, "gz-redbird"]})
+    cma_directory = next(d for d in catalog["directories"] if d["id"] == "wide-directory-hkustgz-cma")
+    cma_directory.setdefault("reviewSourceIds", []).extend([cma_brochure, cma_thrust])
     return catalog
 
 
