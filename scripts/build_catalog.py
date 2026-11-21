@@ -2067,6 +2067,38 @@ def build_catalog():
     fsn_program = next(p for p in catalog["programs"] if p["id"] == "polyu-fsn-rpg-sept-2027")
     fsn_program["requirements"] = fsn_admissions["requirements"] + fsn_program["requirements"]
     fsn_program["sourceIds"].extend([fsn_admissions["source"]["id"], "polyu-rpg-requirements"])
+    mae_evidence = load("cuhk-mae-2027-20261122.json")
+    catalog["sources"].extend(mae_evidence["sources"])
+    mae_gs, mae_dept, mae_about = (source["id"] for source in mae_evidence["sources"])
+    mae_refs = [mae_gs, mae_dept, mae_about, "cuhk-gs-requirements", "cuhk-gs-documents", "cuhk-gs-fees"]
+    mae = program(
+        "cuhk-mae-rpg-2027", "cuhk", "机械与自动化工程研究学位", ["MPhil", "PhD"],
+        "港中文香港校本部工学院。研究方向包括机器人、先进制造、控制、力学与能源。",
+        "unknown", "项目页未说明必须提前联系导师，可从学系名录了解研究方向。", [mae_gs, mae_dept],
+        "系页称可能提前审理及面试，请以本轮通知为准。", [mae_dept],
+        [
+            deadline("常规主轮截止", "2026-12-01", [mae_gs]),
+            deadline("清理轮截止，须仍有学额", "2027-03-31", [mae_gs]),
+            deadline("HKPFS 向 RGC 初步申请", "2026-12-01", [mae_gs], clock="12:00", degree="PhD", route="HKPFS"),
+            deadline("HKPFS 向港中文提交完整申请", "2026-12-01", [mae_gs], clock="23:59", degree="PhD", route="HKPFS"),
+        ],
+        mae_refs, "常规主轮只读到日期，HKPFS 的具体时刻仅适用于博士奖学金路径。",
+    )
+    mae["entryUrl"] = mae_evidence["sources"][0]["url"]
+    mae["requirements"] = mae_evidence["requirements"]
+    mae["finances"] = [
+        {"id": "cuhk-mae-2027-tuition", "kind": "tuition", "label": "2027/28 学费",
+         "text": "项目页列每年港币 49,500，各学习模式金额相同。", "sourceIds": [mae_gs],
+         "rates": [{"value": 49500, "currency": "HKD", "unit": "year", "cycle": CYCLE, "basis": "academic_year", "condition": "2027/28 学年"}],
+         "action": "核对当期学费与个人减免资格。"},
+        {"id": "cuhk-mae-application-fee", "kind": "application_fee", "label": "网申申请费",
+         "text": "研究院费用页列每项目港币 500，该金额未单独注明轮次。", "sourceIds": ["cuhk-gs-fees"],
+         "rates": [{"value": 500, "currency": "HKD", "unit": "application", "cycle": None, "basis": "page_reference", "condition": "按网申系统核对当期金额"}],
+         "action": "在网申系统核对实际缴费金额。"},
+    ]
+    catalog["programs"].append(mae)
+    mae_directory = next(d for d in catalog["directories"] if d["id"] == "wide-dir-cuhk-mae")
+    mae_directory.setdefault("reviewSourceIds", []).extend([mae_about, mae_dept])
     return catalog
 
 

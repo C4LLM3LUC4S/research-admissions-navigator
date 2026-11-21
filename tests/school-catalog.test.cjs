@@ -49,7 +49,7 @@ test('existing local backups wait for the full ID set before validation',async()
 });
 test('a failed school keeps programmes usable and supports a bounded user retry',async()=>{
   const h=harness({fail:true});const c=await h.window.APP_CATALOG_READY;
-  await assert.rejects(h.window.APP_LOAD_SCHOOLS(['hku']),/未能下载/);assert.equal(c.faculty.length,0);assert.equal(c.programs.length,85);
+  await assert.rejects(h.window.APP_LOAD_SCHOOLS(['hku']),/未能下载/);assert.equal(c.faculty.length,0);assert.equal(c.programs.length,expected.programs.length);
   h.recover();await h.window.APP_LOAD_SCHOOLS(['hku']);assert.equal(c.faculty.length,expected.faculty.filter(f=>f.universityId==='hku').length);
 });
 test('mixed catalogue versions do not publish partial school records',async()=>{

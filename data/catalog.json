@@ -11421,6 +11421,174 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cuhk-mae-rpg-2027",
+      "universityId": "cuhk",
+      "name": "机械与自动化工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文香港校本部工学院。研究方向包括机器人、先进制造、控制、力学与能源。",
+      "contact": {
+        "status": "unknown",
+        "text": "项目页未说明必须提前联系导师，可从学系名录了解研究方向。",
+        "sourceIds": [
+          "cuhk-mae-gs-2027-20261122",
+          "cuhk-mae-department-rpg-20261122"
+        ]
+      },
+      "selection": {
+        "text": "系页称可能提前审理及面试，请以本轮通知为准。",
+        "sourceIds": [
+          "cuhk-mae-department-rpg-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "常规主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mae-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "清理轮截止，须仍有学额：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mae-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "HKPFS 向 RGC 初步申请：2026-12-01 12:00（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T12:00:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mae-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "HKPFS 向港中文提交完整申请：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mae-gs-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-mae-gs-2027-20261122",
+        "cuhk-mae-department-rpg-20261122",
+        "cuhk-mae-structure-20261122",
+        "cuhk-gs-requirements",
+        "cuhk-gs-documents",
+        "cuhk-gs-fees"
+      ],
+      "evidenceNote": "常规主轮只读到日期，HKPFS 的具体时刻仅适用于博士奖学金路径。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+      "requirements": [
+        {
+          "label": "MPhil 学历与学制",
+          "text": "通常须持相关学科荣誉学士，达到二等荣誉或 B 平均成绩等适用条件，也可核对同等专业资格。系页列全日制 24 个月。",
+          "action": "按研究院要求准备学历证明。",
+          "sourceIds": [
+            "cuhk-mae-department-rpg-20261122",
+            "cuhk-mae-gs-2027-20261122",
+            "cuhk-gs-requirements"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "PhD 学历与学制",
+          "text": "可按认可硕士、符合要求的荣誉学士或同等专业资格申请。系页按有无研究型硕士列全日制 36 或 48 个月；兼读申请通常要有硕士及较强学业表现，并须能参加日间课程。",
+          "action": "按本人学历与拟选学习模式核对。",
+          "sourceIds": [
+            "cuhk-mae-department-rpg-20261122",
+            "cuhk-mae-gs-2027-20261122",
+            "cuhk-gs-requirements"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "学历材料、论文清单及推荐",
+          "text": "准备成绩单、学历证明及评分说明。如有研究论文，提交论文清单。研究院材料页列研究型博士三份推荐，MPhil 两份。",
+          "action": "整理已有成果并按所选学位联系学术推荐人。",
+          "sourceIds": [
+            "cuhk-mae-gs-2027-20261122",
+            "cuhk-gs-documents"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "研究院列英语授课学位等途径，也接受 IELTS Academic 6.5、TOEFL 79/120 或 4.5/6。IELTS 与 TOEFL 成绩有效期为两年。",
+          "action": "按研究院页面核对适用考试类型、送分与有效期。",
+          "sourceIds": [
+            "cuhk-gs-requirements"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-mae-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "项目页列每年港币 49,500，各学习模式金额相同。",
+          "sourceIds": [
+            "cuhk-mae-gs-2027-20261122"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "year",
+              "cycle": "2027/28",
+              "basis": "academic_year",
+              "condition": "2027/28 学年"
+            }
+          ],
+          "action": "核对当期学费与个人减免资格。"
+        },
+        {
+          "id": "cuhk-mae-application-fee",
+          "kind": "application_fee",
+          "label": "网申申请费",
+          "text": "研究院费用页列每项目港币 500，该金额未单独注明轮次。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "cycle": null,
+              "basis": "page_reference",
+              "condition": "按网申系统核对当期金额"
+            }
+          ],
+          "action": "在网申系统核对实际缴费金额。"
+        }
+      ]
     }
   ],
   "faculty": [
@@ -272412,6 +272580,62 @@
       "discoveredLinks": [
         "https://rpgadmission.polyu.edu.hk/"
       ]
+    },
+    {
+      "id": "cuhk-mae-gs-2027-20261122",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/engineering/mphil-phd-mechanical-and-automation-engineering",
+      "title": "港中文研究院 · 机械与自动化工程 MPhil/PhD",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "2027/28 研究学位申请、学费及校级期限。",
+      "claims": [
+        "机械与自动化工程为工学院研究学位项目，硕士和博士分别申请。",
+        "要求相关学科背景，有研究论文者提交论文清单。",
+        "常规主轮 2026-12-01、清理轮 2027-03-31；清理轮视余位。",
+        "2027/28 学费每年港币 49,500。博士 HKPFS 的 RGC 与校方截止分别为 12 月 1 日中午和 23:59。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www4.mae.cuhk.edu.hk/research-postgraduate-programme/",
+        "https://www.gs.cuhk.edu.hk/admissions/requirements"
+      ]
+    },
+    {
+      "id": "cuhk-mae-department-rpg-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/research-postgraduate-programme/",
+      "title": "港中文机械与自动化工程学系 · 研究学位",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "系级硕博学制与面试概述。",
+      "claims": [
+        "MPhil 全日制 24 个月；PhD 全日制按有无研究型硕士分为 36 或 48 个月。",
+        "系页提及可能提前审理，亦有二月面试；以本轮通知为准。",
+        "硕士与博士为两个入学方向。"
+      ],
+      "knownIssues": [
+        "本页英语段仍用较旧尺度；申请英语证明按研究院当期要求核对。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-mae-structure-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/about-us/",
+      "title": "港中文机械与自动化工程学系 · 学系概览",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "正式学系定位及培养范围。",
+      "claims": [
+        "页面将机械与自动化工程列为独立学系，提供 MPhil 和 PhD。",
+        "能源与环境工程是所述培养和研究范围之一。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www4.mae.cuhk.edu.hk/people/academic-staff/",
+        "https://www4.mae.cuhk.edu.hk/research-postgraduate-programme/"
+      ]
     }
   ],
   "funding": [
@@ -274135,7 +274359,11 @@
       "sourceIds": [
         "wide-dir-cuhk-mae"
       ],
-      "coverageComplete": false
+      "coverageComplete": false,
+      "reviewSourceIds": [
+        "cuhk-mae-structure-20261122",
+        "cuhk-mae-department-rpg-20261122"
+      ]
     },
     {
       "id": "wide-dir-hku-dase",
@@ -352963,5 +353191,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:3a50d8a47e4b9f22812446ab62b59441808e808bd95c3e567fe57c821f253e08"
+  "snapshotId": "sha256:cb91060f0654720164aa54f4b72c6cf8c71aa01927ff488a4b759221023af409"
 }
