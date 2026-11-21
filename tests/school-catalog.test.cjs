@@ -124,3 +124,26 @@ test('PolyU CEE May keeps its year, date and departmental condition separate fro
   assert.deepEqual(may.finances.flatMap(f=>L.financeRates(f,profile).matched.map(r=>r.value)),[500,94000,47000]);
  }
 });
+
+test('a saved local school hint reopens a two-school shortlist without the search index',async()=>{
+ const people=['hku','hkustgz'].map(id=>expected.faculty.find(f=>f.universityId===id));
+ const ids=people.map(person=>person.id),backup=backupFor(ids);
+ const hints=people.map(person=>[person.id,person.universityId]);
+ const h=harness({saved:JSON.stringify({...backup,facultySchools:hints})});
+ const c=await h.window.APP_CATALOG_READY;
+ assert.equal(h.indexRequests.length,0);
+ assert.equal(h.requests.length,2);
+ assert.deepEqual(L.parsePortable(JSON.stringify(backup),plain(c)).shortlist,ids);
+ checkSources(c);
+});
+
+test('a stale local school hint is verified and repaired by normal index routing',async()=>{
+ const person=expected.faculty.find(f=>f.universityId==='hkustgz');
+ const backup=backupFor([person.id]);
+ const h=harness({saved:JSON.stringify({...backup,facultySchools:[[person.id,'hku']]})});
+ const c=await h.window.APP_CATALOG_READY;
+ assert.equal(h.indexRequests.length,1);
+ assert.equal(h.requests.length,2);
+ assert.deepEqual(L.parsePortable(JSON.stringify(backup),plain(c)).shortlist,[person.id]);
+ checkSources(c);
+});
