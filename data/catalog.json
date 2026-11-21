@@ -137896,6 +137896,345 @@
       }
     },
     {
+      "id": "hku-ece-rap-chang-cai",
+      "universityId": "hku",
+      "name": "Chang Cai",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "无线通信",
+        "生成模型",
+        "贝叶斯推断",
+        "边缘智能",
+        "wireless communications",
+        "generative models",
+        "Bayesian inference",
+        "edge intelligence"
+      ],
+      "summary": "研究无线通信的信号处理和机器学习，关注生成模型、贝叶斯推断和边缘智能。",
+      "profileUrl": "https://ece.hku.hk/people/changcai/",
+      "sourceIds": [
+        "hku-ece-rap-chang-cai-profile-20261122",
+        "hku-ece-chang-cai-home-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-chang-cai-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-chang-cai-profile-20261122"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://chang-cai.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "hku-ece-rap-chang-cai-profile-20261122",
+          "sourceId": "hku-ece-chang-cai-home-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系提供的主页正文。"
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-rap-ye-ding",
+      "universityId": "hku",
+      "name": "Ye Ding",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "生物医学与健康",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "低场磁共振成像",
+        "医学成像",
+        "计算重建",
+        "ultra-low-field MRI",
+        "MRI signal processing",
+        "computational reconstruction"
+      ],
+      "summary": "研究超低场磁共振成像和计算重建，关注成像方法和信号处理。",
+      "profileUrl": "https://ece.hku.hk/people/dingye/",
+      "sourceIds": [
+        "hku-ece-rap-ye-ding-profile-20261122",
+        "hku-ece-bisp-lab-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-ye-ding-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-ye-ding-profile-20261122"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://www4.hku.hk/bisplab/",
+          "label": "实验室主页",
+          "parentSourceId": "hku-ece-rap-ye-ding-profile-20261122",
+          "sourceId": "hku-ece-bisp-lab-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系提供的主页正文。"
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-rap-jiqiang-kang",
+      "universityId": "hku",
+      "name": "Jiqiang Kang",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "物理与化学",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "光学相干断层成像",
+        "超快激光",
+        "光纤非线性",
+        "optical coherence tomography",
+        "ultrafast lasers",
+        "optical fiber nonlinearity"
+      ],
+      "summary": "研究光学相干断层成像、超快激光及光纤非线性。",
+      "profileUrl": "https://ece.hku.hk/people/jkang/",
+      "sourceIds": [
+        "hku-ece-rap-jiqiang-kang-profile-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-jiqiang-kang-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-jiqiang-kang-profile-20261122"
+        ]
+      }
+    },
+    {
+      "id": "hku-ece-rap-zhanwei-wang",
+      "universityId": "hku",
+      "name": "Zhanwei Wang",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "网络与系统",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "边缘智能",
+        "无线通信",
+        "空间网络",
+        "edge intelligence",
+        "wireless communication",
+        "space networks"
+      ],
+      "summary": "研究空间与边缘网络、无线通信及边缘智能。",
+      "profileUrl": "https://ece.hku.hk/people/wzw/",
+      "sourceIds": [
+        "hku-ece-rap-zhanwei-wang-profile-20261122",
+        "hku-ece-zhanwei-wang-home-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-zhanwei-wang-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-zhanwei-wang-profile-20261122"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://zhanwei-wang.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "hku-ece-rap-zhanwei-wang-profile-20261122",
+          "sourceId": "hku-ece-zhanwei-wang-home-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系提供的主页正文。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "个人主页的硕博联系说明",
+          "text": "个人主页欢迎 MPhil 和 PhD 申请者了解研究机会，未注明哪一轮仍有名额。请同时核对学系和研究院规则。",
+          "degrees": [
+            "MPhil",
+            "PhD"
+          ],
+          "sourceIds": [
+            "hku-ece-zhanwei-wang-home-20261122"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-rap-yujie-yang",
+      "universityId": "hku",
+      "name": "Yujie Yang",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "机器人与控制",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "安全强化学习",
+        "最优控制",
+        "自动驾驶",
+        "具身智能",
+        "safe reinforcement learning",
+        "optimal control",
+        "autonomous driving",
+        "embodied AI"
+      ],
+      "summary": "研究安全强化学习和最优控制，应用包括自动驾驶和机器人。",
+      "profileUrl": "https://ece.hku.hk/people/yangyj/",
+      "sourceIds": [
+        "hku-ece-rap-yujie-yang-profile-20261122",
+        "hku-ece-yujie-yang-home-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-yujie-yang-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-yujie-yang-profile-20261122"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://yangyujie-jack.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "hku-ece-rap-yujie-yang-profile-20261122",
+          "sourceId": "hku-ece-yujie-yang-home-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系提供的主页正文。"
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-rap-qunsong-zeng",
+      "universityId": "hku",
+      "name": "Qunsong Zeng",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "网络与系统",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "无线通信",
+        "边缘智能",
+        "基带处理",
+        "语义通信",
+        "wireless communication",
+        "edge intelligence",
+        "baseband processing",
+        "semantic communication"
+      ],
+      "summary": "研究无线通信、边缘智能、基带处理和语义通信。",
+      "profileUrl": "https://ece.hku.hk/people/qszeng/",
+      "sourceIds": [
+        "hku-ece-rap-qunsong-zeng-profile-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-qunsong-zeng-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-qunsong-zeng-profile-20261122"
+        ]
+      }
+    },
+    {
+      "id": "hku-ece-rap-yujiao-zhao",
+      "universityId": "hku",
+      "name": "Yujiao Zhao",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "生物医学与健康",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "磁共振成像",
+        "磁共振信号处理",
+        "MRI physics",
+        "MRI signal processing"
+      ],
+      "summary": "研究磁共振成像的物理、工程及信号处理。",
+      "profileUrl": "https://ece.hku.hk/people/yzhao/",
+      "sourceIds": [
+        "hku-ece-rap-yujiao-zhao-profile-20261122",
+        "hku-ece-bisp-lab-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-yujiao-zhao-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-yujiao-zhao-profile-20261122"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://www4.hku.hk/bisplab/",
+          "label": "实验室主页",
+          "parentSourceId": "hku-ece-rap-yujiao-zhao-profile-20261122",
+          "sourceId": "hku-ece-bisp-lab-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系提供的主页正文。"
+        }
+      ]
+    },
+    {
       "id": "hku-mse-hwchoi",
       "universityId": "hku",
       "name": "Anthony CHOI",
@@ -271920,6 +272259,193 @@
       ]
     },
     {
+      "id": "hku-ece-rap-directory-20261122",
+      "url": "https://ece.hku.hk/people/",
+      "title": "港大电机与计算机工程系 · 研究助理教授",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "院系学术与教学人员页内的 Research Assistant Professors 分段。",
+      "claims": [
+        "所读分段见十二个不同姓名标题。",
+        "七张已核个人正文可对应个人研究方向。"
+      ],
+      "knownIssues": [
+        "Hehe Gong 和 Yong Hou 在所读目录指向 Jiqiang Kang 的页面，保留姓名待核。Vick Man Hin Lau、Zhaolin Wang 和 Yanmin Zhu 的个人正文未能读到。"
+      ]
+    },
+    {
+      "id": "hku-ece-rap-chang-cai-profile-20261122",
+      "url": "https://ece.hku.hk/people/changcai/",
+      "title": "Chang Cai · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究无线通信的信号处理和机器学习，关注生成模型、贝叶斯推断和边缘智能。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://chang-cai.github.io/"
+      ]
+    },
+    {
+      "id": "hku-ece-chang-cai-home-20261122",
+      "url": "https://chang-cai.github.io/",
+      "title": "Chang Cai · 个人主页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给官网主页，仅保留研究及任职范围。",
+      "claims": [
+        "主页确认港大电机与计算机工程系研究助理教授任职，并介绍无线通信的信号处理和数据驱动研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-rap-ye-ding-profile-20261122",
+      "url": "https://ece.hku.hk/people/dingye/",
+      "title": "Ye Ding · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究超低场磁共振成像和计算重建，关注成像方法和信号处理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www4.hku.hk/bisplab/"
+      ]
+    },
+    {
+      "id": "hku-ece-bisp-lab-20261122",
+      "url": "https://www4.hku.hk/bisplab/",
+      "title": "港大 · 生物医学成像与信号处理实验室",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "院系个人页所给官网主页，仅保留研究及任职范围。",
+      "claims": [
+        "实验室主页介绍磁共振成像、低场成像及神经影像研究；不单凭提供链接推定指导关系。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-rap-jiqiang-kang-profile-20261122",
+      "url": "https://ece.hku.hk/people/jkang/",
+      "title": "Jiqiang Kang · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究光学相干断层成像、超快激光及光纤非线性。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-ece-rap-zhanwei-wang-profile-20261122",
+      "url": "https://ece.hku.hk/people/wzw/",
+      "title": "Zhanwei Wang · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究空间与边缘网络、无线通信及边缘智能。"
+      ],
+      "knownIssues": [
+        "履历中沿用旧电机电子工程系名称；校方已经更名。"
+      ],
+      "discoveredLinks": [
+        "https://zhanwei-wang.github.io/"
+      ]
+    },
+    {
+      "id": "hku-ece-zhanwei-wang-home-20261122",
+      "url": "https://zhanwei-wang.github.io/",
+      "title": "Zhanwei Wang · 个人主页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给官网主页，仅保留研究及任职范围。",
+      "claims": [
+        "主页列空间网络、边缘智能与无线通信，并说明其研究合作与接受 MPhil、PhD 咨询。"
+      ],
+      "knownIssues": [
+        "个人主页未列 2027/28 具体余位或指导资格。"
+      ]
+    },
+    {
+      "id": "hku-ece-rap-yujie-yang-profile-20261122",
+      "url": "https://ece.hku.hk/people/yangyj/",
+      "title": "Yujie Yang · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究安全强化学习和最优控制，应用包括自动驾驶和机器人。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://yangyujie-jack.github.io/"
+      ]
+    },
+    {
+      "id": "hku-ece-yujie-yang-home-20261122",
+      "url": "https://yangyujie-jack.github.io/",
+      "title": "Yujie Yang · 个人主页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给官网主页，仅保留研究及任职范围。",
+      "claims": [
+        "主页确认港大研究助理教授任职，并介绍强化学习、自动驾驶及机器人研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-rap-qunsong-zeng-profile-20261122",
+      "url": "https://ece.hku.hk/people/qszeng/",
+      "title": "Qunsong Zeng · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究无线通信、边缘智能、基带处理和语义通信。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hku-ece-rap-yujiao-zhao-profile-20261122",
+      "url": "https://ece.hku.hk/people/yzhao/",
+      "title": "Yujiao Zhao · 港大电机与计算机工程系",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页实际所列任职和研究兴趣。",
+      "claims": [
+        "个人页列 Research Assistant Professor。",
+        "研究磁共振成像的物理、工程及信号处理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www4.hku.hk/bisplab/"
+      ]
+    },
+    {
       "id": "hkust-cse-2027-fee",
       "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
       "title": "港科大 · 计算机科学与工程 2027/28 项目目录申请费",
@@ -275051,7 +275577,8 @@
       "coverageComplete": false,
       "reviewSourceIds": [
         "hku-ece-central-area-20261122",
-        "hku-ece-research-interests-20261122"
+        "hku-ece-research-interests-20261122",
+        "hku-ece-rap-directory-20261122"
       ]
     },
     {
@@ -354774,5 +355301,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:275409fc6fddc9cc66f0ec229aefbaabc96f25978082fff13e474b520eb3850b"
+  "snapshotId": "sha256:1b866702ff0f7ca5d79a61b8b8454847e663f410e3c5ef174ecb1bebfa99592e"
 }
