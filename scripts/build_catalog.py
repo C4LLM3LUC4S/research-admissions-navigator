@@ -2103,6 +2103,53 @@ def build_catalog():
     catalog["sources"].extend(mae_staff["sources"])
     catalog["faculty"].extend(mae_staff["faculty"])
     mae_directory["reviewSourceIds"].extend(mae_staff["directoryReviewSourceIds"])
+    polyu_engineering = load("polyu-engineering-admissions-20261122.json")
+    polyu_requirements = "polyu-rpg-requirements"
+    polyu_fee = "polyu-eee-20261111-fee"
+    polyu_tuition = "polyu-eee-20261111-tuition"
+    for record in polyu_engineering["programmes"]:
+        source = record["source"]
+        catalog["sources"].append(source)
+        source_id = source["id"]
+        pid = record["id"]
+        contact_recommended = record["contactRecommended"]
+        row = program(
+            pid, "polyu", record["name"], ["MPhil", "PhD"],
+            f'{record["faculty"]}，2027 年 9 月，全日制或兼读。研究方向包括{record["topics"]}',
+            "recommended" if contact_recommended else "unknown",
+            "项目建议联系学系人员讨论研究机会。" if contact_recommended else "请从项目页查看研究方向与联系安排。",
+            [source_id], "按校级网申提交指定研究计划和学系所列材料。", [source_id],
+            [deadline("2027 年 9 月入学截止", "2027-05-31", [source_id])],
+            [source_id, polyu_requirements, polyu_fee, polyu_tuition],
+            "普通入学截止适用于此处的九月硕博申请。奖学金和推荐报告的额外截止请按对应计划核对。",
+        )
+        row["entryUrl"] = source["url"]
+        row["requirements"] = [
+            {"label": "MPhil 学历", "degrees": ["MPhil"], "text": "校级通常要求二等荣誉学士或同等资格。",
+             "action": "核对学士学历是否符合校级研究硕士要求。", "sourceIds": [polyu_requirements]},
+            {"label": "PhD 学历", "degrees": ["PhD"],
+             "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
+             "action": "按拟申请的培养路径核对学历和学制。", "sourceIds": [polyu_requirements]},
+            {"label": "英语证明",
+             "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
+             "action": "核对英语证明方式和成绩有效期。", "sourceIds": [polyu_requirements]},
+            {"label": "申请材料", "text": record["materials"],
+             "action": "从项目原页打开研究计划表，逐项核对材料。", "sourceIds": [source_id]},
+        ]
+        row["finances"] = [
+            {"id": f"{pid}-application", "kind": "application_fee", "label": "2027/28 申请费",
+             "text": "校级网申提交时缴付，不退还或转移。",
+             "rates": [{"value": 600, "currency": "HKD", "unit": "application", "basis": "intake",
+                        "cycle": CYCLE, "condition": "每份研究学位网申"}],
+             "action": "在正式网申核对缴费和收据。", "sourceIds": [polyu_fee]},
+            {"id": f"{pid}-tuition", "kind": "tuition", "label": "2027/28 学费",
+             "text": "按修读模式和是否获助学金分列。接受录取后注册费可抵学费。",
+             "rates": [{"value": amount, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                        "cycle": CYCLE, "condition": condition}
+                       for amount, condition in [(99000, "全日制无助学金"), (49500, "全日制有助学金"), (49500, "兼读")]],
+             "action": "核对修读模式、学费和个人资助条件。", "sourceIds": [polyu_tuition]},
+        ]
+        catalog["programs"].append(row)
     return catalog
 
 
