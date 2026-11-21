@@ -2721,7 +2721,7 @@ def browser_catalog_script(catalog):
             + ";return " + encode(catalog) + ";})();\n")
 
 
-def school_catalog_scripts(catalog):
+def school_catalog_scripts(catalog, index_js):
     """Transport independent school records while restoring their original order."""
     fields = ("faculty", "directories", "academicCoverage", "sources")
     school_ids = [school["id"] for school in catalog["universities"]]
@@ -2776,7 +2776,9 @@ def school_catalog_scripts(catalog):
         manifest.append({"key": school, "url": name + "?v=" + hashlib.sha256(content.encode()).hexdigest()[:16]})
     result["catalog-loader.js"] = (ROOT / "scripts/catalog-loader.js").read_text(encoding="utf-8").replace(
         "/* CATALOG_BASE */", browser_catalog_script(base).removeprefix("window.APP_CATALOG = ").strip().removesuffix(";")
-    ).replace("/* CATALOG_MANIFEST */", json.dumps(manifest, separators=(",", ":")))
+    ).replace("/* CATALOG_MANIFEST */", json.dumps(manifest, separators=(",", ":"))).replace(
+        "/* FACULTY_INDEX_URL */", json.dumps("faculty-index.js?v=" + hashlib.sha256(index_js.encode()).hexdigest()[:16])
+    )
     return result
 
 
@@ -2790,8 +2792,8 @@ def main():
     quality = validate(catalog)
     encoded = json.dumps(catalog, ensure_ascii=False, indent=2, allow_nan=False) + "\n"
     js = browser_catalog_script(browser_catalog(catalog))
-    school_scripts = school_catalog_scripts(browser_catalog(catalog))
     search_index = {
+        "snapshotId": catalog["snapshotId"],
         "schools": {school["id"]: school["short"] for school in catalog["universities"]},
         "faculty": [[person["name"], person["universityId"], person["profileUrl"],
                      person["researchKeywords"], person["id"]] for person in catalog["faculty"]],
@@ -2799,6 +2801,7 @@ def main():
     index_js = "window.APP_FACULTY_INDEX = " + json.dumps(
         search_index, ensure_ascii=False, separators=(",", ":"), allow_nan=False
     ) + ";\n"
+    school_scripts = school_catalog_scripts(browser_catalog(catalog), index_js)
     outputs = {ROOT / "data/catalog.json": encoded, ROOT / "dist/catalog.js": js,
                ROOT / "docs/catalog.js": js,
                ROOT / "dist/faculty-index.js": index_js,
@@ -2806,7 +2809,7 @@ def main():
                ROOT / "data/snapshots" / (identity + ".json"): encoded}
     assets = {name: (js.encode("utf-8") if name == "catalog.js" else (ROOT / "dist" / name).read_text(encoding="utf-8").encode("utf-8"))
               for name in ("catalog.js", "logic.js", "app.js", "styles.css", "discovery.css", "startup-search.js")}
-    assets["faculty-index.js"] = index_js.encode("utf-8")
+    outputs[ROOT / "docs/faculty-index.js"] = index_js
     assets.pop("catalog.js")
     assets["catalog-loader.js"] = school_scripts["catalog-loader.js"].encode("utf-8")
     for name, content in school_scripts.items():

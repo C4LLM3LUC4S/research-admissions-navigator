@@ -1,7 +1,8 @@
 (function () {
   'use strict';
-  const index=window.APP_FACULTY_INDEX, logic=window.APP_LOGIC;
-  if(!index || !logic)return;
+  const logic=window.APP_LOGIC;
+  if(!logic)return;
+  let index, searchSequence=0;
   const form=document.getElementById('startup-search');
   const input=document.getElementById('startup-research-query');
   const status=document.getElementById('startup-search-status');
@@ -34,14 +35,27 @@
     shown=results.children.length;
     more.hidden=shown>=matches.length;
   }
-  form.addEventListener('submit',event=>{
+  form.addEventListener('submit',async event=>{
     event.preventDefault();
+    const sequence=++searchSequence;
     const query=input.value.trim();
     searched=Boolean(query);
     results.replaceChildren();
     matches=[];
     shown=0;
+    more.hidden=true;
     if(query){
+      if(!window.APP_LOAD_FACULTY_INDEX && !window.APP_FACULTY_INDEX){
+        status.textContent='教师检索正在准备，请稍后再试。';
+        return;
+      }
+      status.textContent='正在读取教师检索资料…';
+      try { index=window.APP_FACULTY_INDEX || await window.APP_LOAD_FACULTY_INDEX(); }
+      catch(error) {
+        if(sequence===searchSequence)status.textContent=error.message;
+        return;
+      }
+      if(sequence!==searchSequence || input.value.trim()!==query)return;
       const search=logic.facultySearch(query);
       for(const [name, school, profileUrl, researchKeywords] of index.faculty){
         const terms=search.matchedTerms({researchKeywords});
