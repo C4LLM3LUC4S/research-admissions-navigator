@@ -896,7 +896,12 @@ test('actual finance and CIE callbacks keep scoped actions and distinguish match
   assert.match(el('results').textContent,/不能把意向导师列作这两位之一/);
   await action('硕博都先约两位推荐人').emit('click');
   h.select('hkustgz','PhD',[]);el('intake-cycle').value='2027/28';await el('profile-form').emit('input');
-  assert.match(matched(),/CNY 60,000.*有PGS/);assert.doesNotMatch(matched(),/15,000|150,000/);
+  const generalPhd=C.programs.find(p=>p.id==='hkust-gz-phd-entry');
+  const generalCard=el('results').children.find(card=>h.walk(card).some(node=>node.tagName==='h3'&&node.textContent===generalPhd.name));
+  assert.ok(generalCard);
+  const generalMatched=h.walk(generalCard).filter(node=>node.className==='finance-rate matched').map(node=>node.textContent).join(' ');
+  assert.match(generalMatched,/CNY 60,000.*有PGS/);
+  assert.doesNotMatch(generalMatched,/15,000|150,000/);
   el('intake-cycle').value='2026/27 Spring';await el('profile-form').emit('input');assert.equal(matched(),'');
   await action('有PGS与自费分开看').emit('click');await action('有PGS与自费分开看').emit('click');
   assert.equal(el('tasks').childElementCount,3);

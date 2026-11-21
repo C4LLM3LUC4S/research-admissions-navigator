@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "id": "hkustgz-inf-hub-cma-brochure-2027-20261122",
+      "url": "https://fytgs.hkust-gz.edu.cn/wp-content/uploads/2026/10/Postgraduate-Programs-Information-Hub-2027-28.pdf",
+      "title": "港科广 · 2027/28 信息枢纽招生简章",
+      "checkedAt": "2026-11-22",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "11218b4eaad1db10f9ba1dbab34f5603703f2872718a7c36661b24f299ab8463",
+      "evidenceLevel": "official_scoped_body_read",
+      "scope": "简章页 7、14–15 的 CMA 研究学位、硕士入学方式、校级日期、英语及费用。",
+      "claims": [
+        "计算媒体与艺术博士为学域博士申请路线；该学域的 MPhil 学生先由红鸟硕士 MPhil (General) 统一录取，入学后声明进入学域项目。",
+        "2027 年秋季博士在 6 月 15 日（国际申请者）及 7 月 15 日（中国申请者）23:59 截止。",
+        "简章列有 PGS 的全日制年学费 60,000 元，自费博士年学费 150,000 元；全日制博士 PGS 月额 15,000 元，最多四年。",
+        "简章的创作作品集条款列在授课型计算艺术 MFA，未读到 CMA 博士有同一条款。"
+      ],
+      "knownIssues": [
+        "PDF 页尾注明 2026 年 7 月出版，文件 URL 的目录为 2026 年 10 月。研究方向不代表录取或导师余位。"
+      ]
+    },
+    {
+      "id": "hkustgz-cma-fytgs-programme-20261122",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/computational-media-and-arts-5",
+      "title": "港科广研究生院 · 计算媒体与艺术课程与申请",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "研究学位的项目定位、校级要求、正式申请入口及申请费。",
+      "claims": [
+        "项目页列 MPhil 和 PhD 课程，资格及英语条款链接研究生院。",
+        "项目页列申请费人民币 150 元。"
+      ],
+      "knownIssues": [
+        "页面所读段落未注明年度；当前申请路径和年度用 2027/28 信息枢纽简章核实。"
+      ]
+    },
+    {
+      "id": "hkustgz-cma-thrust-admissions-20261122",
+      "url": "https://cma.hkust-gz.edu.cn/admissions/",
+      "title": "港科广计算媒体与艺术学域 · 研究招生说明",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学域介绍、研究方向与申请链接。",
+      "claims": [
+        "学域网站列研究型硕博及研究生院申请链接。"
+      ],
+      "knownIssues": [
+        "学域页以旧概述并列 MPhil 和博士，资金叙述未注明当期；2027/28 硕士通过红鸟统一申请，学费和资助按当前简章或正式通知。"
+      ]
+    }
+  ]
+}

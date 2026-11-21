@@ -147,3 +147,14 @@ test('a stale local school hint is verified and repaired by normal index routing
  assert.deepEqual(L.parsePortable(JSON.stringify(backup),plain(c)).shortlist,[person.id]);
  checkSources(c);
 });
+
+test('HKUST Guangzhou CMA uses the PhD application route and Red Bird for research MPhil',()=>{
+ const phd=expected.programs.find(p=>p.id==='hkustgz-cma-phd-2027');
+ const redbird=expected.programs.find(p=>p.id==='hkust-gz-rbm');
+ const profile={...L.defaultProfile(expected),universityIds:['hkustgz']};
+ assert.ok(!L.programsFor(expected,profile).includes(phd));
+ assert.ok(L.programsFor(expected,{...profile,degree:'PhD'}).includes(phd));
+ assert.deepEqual(phd.deadlines.map(d=>d.at),['2027-06-15T23:59:00+08:00','2027-07-15T23:59:00+08:00']);
+ assert.match(redbird.requirements.find(r=>r.label==='对计算媒体与艺术感兴趣').text,/MPhil \(General\).*统一录取/);
+ assert.match(phd.selection.text,/作品集.*授课型 MFA/);
+});
