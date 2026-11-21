@@ -111,3 +111,16 @@ test('four PolyU engineering cards preserve distinct materials and degree scope'
  assert.match(byId('aae').requirements.at(-1).text,/截止日前完成两份学术推荐/);
  assert.match(byId('ise').requirements.at(-1).text,/HKPFS/);
 });
+
+test('PolyU CEE May keeps its year, date and departmental condition separate from September and HKPFS',()=>{
+ const may=expected.programs.find(p=>p.id==='polyu-cee-rpg-may-2027');
+ assert.deepEqual(may.deadlines.map(d=>[d.date,d.at,d.cycle]),[['2027-01-31',null,'2026/27']]);
+ assert.equal(may.contact.status,'required');
+ assert.match(may.requirements.find(r=>r.label==='先确认系级递交时间').text,/十二月底.*2027 年 1 月 31 日/);
+ for(const degree of ['MPhil','PhD']){
+  const profile={...L.defaultProfile(expected),degree,universityIds:['polyu'],cycle:'2026/27'};
+  assert.ok(L.programsFor(expected,profile).includes(may));
+  assert.ok(!L.programsFor(expected,{...profile,cycle:'2027/28'}).includes(may));
+  assert.deepEqual(may.finances.flatMap(f=>L.financeRates(f,profile).matched.map(r=>r.value)),[500,94000,47000]);
+ }
+});
