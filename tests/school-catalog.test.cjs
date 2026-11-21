@@ -5,16 +5,16 @@ const root=path.join(__dirname,'../dist');
 const script=name=>fs.readFileSync(path.join(root,name),'utf8');
 const plain=value=>JSON.parse(JSON.stringify(value));
 function harness({saved=null,fail=false,mutate}={}){
-  const requests=[];let failing=fail;
+  const requests=[],indexRequests=[];let failing=fail;
   const context={window:{},URL,setTimeout,clearTimeout,localStorage:{getItem:()=>saved},document:{currentScript:{src:'https://example.org/app/catalog-loader.js'},
-    createElement(){return {remove(){}};},head:{append(element){requests.push(element.src);setTimeout(()=>{
+    createElement(){return {remove(){}};},head:{append(element){const isIndex=element.src.includes("/faculty-index.js?");(isIndex?indexRequests:requests).push(element.src);setTimeout(()=>{
       if(failing){element.onerror();return;}
       vm.runInContext(script(new URL(element.src).pathname.split('/').pop()),context);
-      if(mutate)mutate(context.window.APP_CATALOG_PARTS.at(-1));
+      if(mutate&&!isIndex)mutate(context.window.APP_CATALOG_PARTS.at(-1));
       element.onload();
     },Math.random()*5);}}}};
-  vm.createContext(context);vm.runInContext(script('faculty-index.js'),context);vm.runInContext(script('catalog-loader.js'),context);
-  return {window:context.window,requests,recover:()=>{failing=false;}};
+  vm.createContext(context);vm.runInContext(script('catalog-loader.js'),context);
+  return {window:context.window,requests,indexRequests,recover:()=>{failing=false;}};
 }
 const original={window:{}};vm.runInNewContext(script('catalog.js'),original);
 const expected=plain(original.window.APP_CATALOG);
@@ -25,7 +25,7 @@ function checkSources(catalog){
 }
 test('new visitors get complete programme requirements without requesting any school',async()=>{
   const h=harness(),c=await h.window.APP_CATALOG_READY;
-  assert.equal(h.requests.length,0);assert.equal(c.faculty.length,0);
+  assert.equal(h.requests.length,0);assert.equal(h.indexRequests.length,0);assert.equal(c.faculty.length,0);
   assert.deepEqual(plain(c.programs),expected.programs);assert.deepEqual(plain(c.funding),expected.funding);checkSources(c);
 });
 test('one school is independently usable with complete source closure and stable IDs',async()=>{
@@ -80,4 +80,17 @@ test('a faculty follow-up without a bookmark still loads the referenced school f
 });
 test('an empty valid local backup and a malformed JSON record do not request unrelated faculty data',async()=>{
  for(const saved of [JSON.stringify(backupFor([])),'{broken']){const h=harness({saved});await h.window.APP_CATALOG_READY;assert.equal(h.requests.length,0);}
+});
+test('the first cross-school search shares one optional index request and a failed request can retry',async()=>{
+  const h=harness({fail:true});await h.window.APP_CATALOG_READY;
+  assert.equal(h.indexRequests.length,0);
+  const first=h.window.APP_LOAD_FACULTY_INDEX();
+  assert.equal(h.window.APP_LOAD_FACULTY_INDEX(),first);
+  await assert.rejects(first,/暂未载入/);
+  h.recover();
+  const index=await h.window.APP_LOAD_FACULTY_INDEX();
+  assert.equal(index.snapshotId,expected.snapshotId);
+  assert.equal(index.faculty.length,expected.faculty.length);
+  assert.equal(h.indexRequests.length,2);
+  assert.equal(h.requests.length,0);
 });

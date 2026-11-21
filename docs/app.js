@@ -316,13 +316,22 @@
     return C.universities.map(u=>u.id);
   }
   function renderResults() {
-    const sequence=++resultSequence,schools=neededSchools();
-    if(window.APP_LOAD_SCHOOLS&&schools.some(id=>!window.APP_LOADED_SCHOOLS.has(id))){
+    const sequence = ++resultSequence;
+    const needsIndex = window.APP_LOAD_FACULTY_INDEX && !window.APP_FACULTY_INDEX &&
+      mode === 'faculty' && state.profile.researchQuery.trim() && !state.profile.universityIds.length &&
+      !window.APP_ALL_SCHOOLS_READY;
+    const schools = needsIndex ? [] : neededSchools();
+    if (needsIndex || (window.APP_LOAD_SCHOOLS && schools.some(id => !window.APP_LOADED_SCHOOLS.has(id)))) {
       clear($('results'));resultCards=[];resultBookmarkButtons.clear();
       $('result-count').textContent='正在读取所选学校资料…';
       $('results-jump').textContent='查看筛选结果';$('show-more-faculty').hidden=true;
       $('results').append(node('p','正在读取老师与院系资料，项目要求可随时查看。','field-help'));
-      window.APP_LOAD_SCHOOLS(schools).then(()=>{
+      const request = needsIndex
+        ? window.APP_LOAD_FACULTY_INDEX().then(() => {
+          if (sequence === resultSequence) return window.APP_LOAD_SCHOOLS(neededSchools());
+        })
+        : window.APP_LOAD_SCHOOLS(schools);
+      request.then(()=>{
         sourceIndex=null;
         if(sequence!==resultSequence)return;
         subjectOptions=L.researchOptions(C);renderSubjectOptions();renderLoadedResults();

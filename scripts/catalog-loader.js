@@ -3,6 +3,38 @@
   const base = /* CATALOG_BASE */;
   const manifest = /* CATALOG_MANIFEST */;
   const scriptRoot = new URL('.', document.currentScript.src);
+  const indexUrl = /* FACULTY_INDEX_URL */;
+  let indexRequest;
+  window.APP_LOAD_FACULTY_INDEX = function () {
+    if (indexRequest) return indexRequest;
+    indexRequest = new Promise((resolve, reject) => {
+      const script = document.createElement('script');
+      const timer = setTimeout(() => finish(new Error('教师检索资料下载超时，请重试。')), 180000);
+      function finish(error) {
+        clearTimeout(timer);
+        script.onload = script.onerror = null;
+        const index = window.APP_FACULTY_INDEX;
+        if (!error && (index?.snapshotId !== base.snapshotId || !Array.isArray(index.faculty))) {
+          error = new Error('教师检索资料版本不一致，请刷新后重试。');
+          delete window.APP_FACULTY_INDEX;
+        }
+        if (error) {
+          script.remove();
+          reject(error);
+        } else {
+          resolve(index);
+        }
+      }
+      script.src = new URL(indexUrl, scriptRoot).href;
+      script.onload = () => finish();
+      script.onerror = () => finish(new Error('教师检索资料暂未载入，请重试。'));
+      document.head.append(script);
+    }).catch(error => {
+      indexRequest = undefined;
+      throw error;
+    });
+    return indexRequest;
+  };
   const fields = ['faculty', 'directories', 'academicCoverage', 'sources'];
   const records = Object.fromEntries(fields.map(field => [field, new Map(field === 'sources' ? base.sources : [])]));
   const loaded = new Set(), pending = new Map();
@@ -54,11 +86,15 @@
     try { saved = JSON.parse(raw); } catch (_) { return; }
     if (!saved || !Array.isArray(saved.shortlist) || !Array.isArray(saved.tasks) || !Array.isArray(saved.sourceIds)) return;
     const ids = [...saved.shortlist,...saved.tasks.map(task => task?.facultyId).filter(Boolean)];
-    const schoolsById = new Map((window.APP_FACULTY_INDEX?.faculty || []).map(row => [row[4],row[1]]));
-    // Unknown/older IDs must reach the existing full-catalogue validator. Never
-    // discard an unresolved record merely to make startup appear successful.
-    if (ids.some(id => !schoolsById.has(id))) { await window.APP_LOAD_ALL();return; }
-    await window.APP_LOAD_SCHOOLS(ids.map(id => schoolsById.get(id)));
+    if (ids.length) {
+      let index;
+      try { index = await window.APP_LOAD_FACULTY_INDEX(); }
+      catch (_) { await window.APP_LOAD_ALL(); return; }
+      const schoolsById = new Map(index.faculty.map(row => [row[4], row[1]]));
+      // Validate unknown historical IDs against the complete catalogue.
+      if (ids.some(id => !schoolsById.has(id))) { await window.APP_LOAD_ALL(); return; }
+      await window.APP_LOAD_SCHOOLS(ids.map(id => schoolsById.get(id)));
+    }
     const available = new Set(base.sources.map(source => source.id));
     if (saved.sourceIds.some(id => !available.has(id))) await window.APP_LOAD_ALL();
   }
