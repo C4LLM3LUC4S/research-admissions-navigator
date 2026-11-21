@@ -1,0 +1,46 @@
+{
+  "programmes": [
+    {
+      "slug": "ai",
+      "name": "人工智能博士",
+      "field": "人工智能",
+      "text": "基础模型、具身智能、可信人工智能与应用。",
+      "source": {
+        "id": "hkustgz-ait-fytgs-programme-20261122",
+        "url": "https://fytgs.hkust-gz.edu.cn/programs/artificial-intelligence",
+        "title": "港科广研究生院 · 人工智能研究学位",
+        "checkedAt": "2026-11-22",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "学位项目概述、网申入口及申请费。",
+        "claims": [
+          "官方项目页设置研究型 MPhil 和 PhD，列研究型网申及人民币 150 元申请费。"
+        ],
+        "knownIssues": [
+          "年度路线以 2027/28 信息枢纽简章为准，MPhil 由红鸟硕士统一申请。"
+        ]
+      }
+    },
+    {
+      "slug": "iot",
+      "name": "物联网博士",
+      "field": "物联网",
+      "text": "无线通信、传感与网络、智慧城市及边缘智能。",
+      "source": {
+        "id": "hkustgz-iot-fytgs-programme-20261122",
+        "url": "https://fytgs.hkust-gz.edu.cn/programs/internet-of-things",
+        "title": "港科广研究生院 · 物联网研究学位",
+        "checkedAt": "2026-11-22",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "学位项目概述、网申入口及申请费。",
+        "claims": [
+          "官方项目页设置研究型 MPhil 和 PhD，列研究型网申及人民币 150 元申请费。"
+        ],
+        "knownIssues": [
+          "年度路线以 2027/28 信息枢纽简章为准，MPhil 由红鸟硕士统一申请。"
+        ]
+      }
+    }
+  ]
+}
