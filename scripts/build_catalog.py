@@ -2274,6 +2274,50 @@ def build_catalog():
          "action": "在网申选择 MPhil (General)，了解入学后申报学域的要求。", "sourceIds": [cma_brochure, "gz-redbird"]})
     cma_directory = next(d for d in catalog["directories"] if d["id"] == "wide-directory-hkustgz-cma")
     cma_directory.setdefault("reviewSourceIds", []).extend([cma_brochure, cma_thrust])
+    cuhk_science = load("cuhk-science-admissions-20261122.json")["programmes"]
+    for record in cuhk_science:
+        source = record["source"]
+        sid = source["id"]
+        pid = f'cuhk-{record["key"]}-rpg-2027'
+        catalog["sources"].append(source)
+        science = program(
+            pid, "cuhk", record["name"], ["MPhil", "PhD"], f'{record["scope"]} 2027/28 研究学位。',
+            "unknown", "项目页未说明申请前必须联系导师，可按研究方向查看学部或学系的进一步安排。", [sid],
+            record["selection"], [sid],
+            [deadline("常规主轮截止", "2026-12-01", [sid]),
+             deadline("清理轮截止，须仍有学额", "2027-03-31", [sid]),
+             deadline("HKPFS 向 RGC 初步申请", "2026-12-01", [sid], clock="12:00", degree="PhD", route="HKPFS"),
+             deadline("HKPFS 向港中文提交完整申请", "2026-12-01", [sid], clock="23:59", degree="PhD", route="HKPFS")],
+            [sid, "cuhk-gs-requirements", "cuhk-gs-documents", "cuhk-gs-fees"],
+            "普通轮次仅注明日期。博士奖学金的两个具体时间只适用于对应奖学金申请。",
+        )
+        science["entryUrl"] = source["url"]
+        science["requirements"] = [
+            {"label": "MPhil 学历", "degrees": ["MPhil"],
+             "text": "按研究院硕士要求核认可学士、二等荣誉或 B 平均成绩等适用条件及同等资格。",
+             "action": "核对学历和本项目对相关专业的要求。", "sourceIds": ["cuhk-gs-requirements", sid]},
+            {"label": "PhD 学历", "degrees": ["PhD"],
+             "text": "按研究院 MPhil–PhD 项目的博士路线核认可硕士、符合条件的荣誉学士或同等专业资格。" + record.get("phdStudy", ""),
+             "action": "核对博士路线的学历资格，再查项目对相关专业的要求。", "sourceIds": ["cuhk-gs-requirements", sid]},
+            {"label": "本项目学科背景", "text": record["background"],
+             "action": "看项目官网的先修与申请要求。", "sourceIds": [sid]},
+            {"label": "英语及申请材料",
+             "text": "研究院列英语授课学历等途径，另有 IELTS Academic 6.5、TOEFL 79/120 或 4.5/6。准备学历和成绩文件；MPhil 两份推荐、PhD 三份。",
+             "action": "打开研究院当期材料和英语要求，按学位准备。", "sourceIds": ["cuhk-gs-requirements", "cuhk-gs-documents"]},
+        ]
+        science["finances"] = [
+            {"id": f"{pid}-tuition", "kind": "tuition", "label": "2027/28 学费",
+             "text": "项目页列学费港币 49,500，适用于所列修读模式。", "sourceIds": [sid],
+             "rates": [{"value": 49500, "currency": "HKD", "unit": "year", "cycle": CYCLE,
+                        "basis": "academic_year", "condition": "2027/28 学年"}],
+             "action": "确认学习模式和实际费用。"},
+            {"id": f"{pid}-application", "kind": "application_fee", "label": "网申申请费",
+             "text": "研究院费用页列每项目港币 500，金额行未注明学年。", "sourceIds": ["cuhk-gs-fees"],
+             "rates": [{"value": 500, "currency": "HKD", "unit": "application", "cycle": None,
+                        "basis": "page_reference", "condition": "按网申系统确认"}],
+             "action": "核对网申缴费金额。"},
+        ]
+        catalog["programs"].append(science)
     return catalog
 
 

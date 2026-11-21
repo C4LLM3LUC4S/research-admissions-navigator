@@ -12645,6 +12645,332 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cuhk-math-rpg-2027",
+      "universityId": "cuhk",
+      "name": "数学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港中文大学理学院数学学科。方向包括代数、分析、应用数学、计算数学及几何。 2027/28 研究学位。",
+      "contact": {
+        "status": "unknown",
+        "text": "项目页未说明申请前必须联系导师，可按研究方向查看学部或学系的进一步安排。",
+        "sourceIds": [
+          "cuhk-math-rpg-gs-2027-20261122"
+        ]
+      },
+      "selection": {
+        "text": "项目可安排面试或要求数学科 GRE，是否需要按个别通知核对。",
+        "sourceIds": [
+          "cuhk-math-rpg-gs-2027-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "常规主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "清理轮截止，须仍有学额：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "HKPFS 向 RGC 初步申请：2026-12-01 12:00（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T12:00:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "HKPFS 向港中文提交完整申请：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-math-rpg-gs-2027-20261122",
+        "cuhk-gs-requirements",
+        "cuhk-gs-documents",
+        "cuhk-gs-fees"
+      ],
+      "evidenceNote": "普通轮次仅注明日期。博士奖学金的两个具体时间只适用于对应奖学金申请。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "按研究院硕士要求核认可学士、二等荣誉或 B 平均成绩等适用条件及同等资格。",
+          "action": "核对学历和本项目对相关专业的要求。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "按研究院 MPhil–PhD 项目的博士路线核认可硕士、符合条件的荣誉学士或同等专业资格。",
+          "action": "核对博士路线的学历资格，再查项目对相关专业的要求。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "本项目学科背景",
+          "text": "项目页要求数学或相关专业背景。部分申请者可能须参加面试或提交数学科 GRE。",
+          "action": "看项目官网的先修与申请要求。",
+          "sourceIds": [
+            "cuhk-math-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "英语及申请材料",
+          "text": "研究院列英语授课学历等途径，另有 IELTS Academic 6.5、TOEFL 79/120 或 4.5/6。准备学历和成绩文件；MPhil 两份推荐、PhD 三份。",
+          "action": "打开研究院当期材料和英语要求，按学位准备。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-gs-documents"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-math-rpg-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "项目页列学费港币 49,500，适用于所列修读模式。",
+          "sourceIds": [
+            "cuhk-math-rpg-gs-2027-20261122"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "year",
+              "cycle": "2027/28",
+              "basis": "academic_year",
+              "condition": "2027/28 学年"
+            }
+          ],
+          "action": "确认学习模式和实际费用。"
+        },
+        {
+          "id": "cuhk-math-rpg-2027-application",
+          "kind": "application_fee",
+          "label": "网申申请费",
+          "text": "研究院费用页列每项目港币 500，金额行未注明学年。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "cycle": null,
+              "basis": "page_reference",
+              "condition": "按网申系统确认"
+            }
+          ],
+          "action": "核对网申缴费金额。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-mse-rpg-2027",
+      "universityId": "cuhk",
+      "name": "材料科学与工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港中文大学理学院材料科学与工程项目。方向包括纳米材料、复合材料、能源材料及材料计算。 2027/28 研究学位。",
+      "contact": {
+        "status": "unknown",
+        "text": "项目页未说明申请前必须联系导师，可按研究方向查看学部或学系的进一步安排。",
+        "sourceIds": [
+          "cuhk-mse-rpg-gs-2027-20261122"
+        ]
+      },
+      "selection": {
+        "text": "按研究院要求提交，未从项目页确认统一面试安排。",
+        "sourceIds": [
+          "cuhk-mse-rpg-gs-2027-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "常规主轮截止：2026-12-01（官网未说明具体时间）",
+          "date": "2026-12-01",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "清理轮截止，须仍有学额：2027-03-31（官网未说明具体时间）",
+          "date": "2027-03-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "HKPFS 向 RGC 初步申请：2026-12-01 12:00（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T12:00:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "HKPFS 向港中文提交完整申请：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "HKPFS",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhk-mse-rpg-gs-2027-20261122",
+        "cuhk-gs-requirements",
+        "cuhk-gs-documents",
+        "cuhk-gs-fees"
+      ],
+      "evidenceNote": "普通轮次仅注明日期。博士奖学金的两个具体时间只适用于对应奖学金申请。",
+      "entryUrl": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-materials-science-and-engineering",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "按研究院硕士要求核认可学士、二等荣誉或 B 平均成绩等适用条件及同等资格。",
+          "action": "核对学历和本项目对相关专业的要求。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "按研究院 MPhil–PhD 项目的博士路线核认可硕士、符合条件的荣誉学士或同等专业资格。已有研究型硕士的博士通常修读 36 个月。",
+          "action": "核对博士路线的学历资格，再查项目对相关专业的要求。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "本项目学科背景",
+          "text": "项目页要求材料科学与工程或相关学科学士学位。",
+          "action": "看项目官网的先修与申请要求。",
+          "sourceIds": [
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ]
+        },
+        {
+          "label": "英语及申请材料",
+          "text": "研究院列英语授课学历等途径，另有 IELTS Academic 6.5、TOEFL 79/120 或 4.5/6。准备学历和成绩文件；MPhil 两份推荐、PhD 三份。",
+          "action": "打开研究院当期材料和英语要求，按学位准备。",
+          "sourceIds": [
+            "cuhk-gs-requirements",
+            "cuhk-gs-documents"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhk-mse-rpg-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "项目页列学费港币 49,500，适用于所列修读模式。",
+          "sourceIds": [
+            "cuhk-mse-rpg-gs-2027-20261122"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "year",
+              "cycle": "2027/28",
+              "basis": "academic_year",
+              "condition": "2027/28 学年"
+            }
+          ],
+          "action": "确认学习模式和实际费用。"
+        },
+        {
+          "id": "cuhk-mse-rpg-2027-application",
+          "kind": "application_fee",
+          "label": "网申申请费",
+          "text": "研究院费用页列每项目港币 500，金额行未注明学年。",
+          "sourceIds": [
+            "cuhk-gs-fees"
+          ],
+          "rates": [
+            {
+              "value": 500,
+              "currency": "HKD",
+              "unit": "application",
+              "cycle": null,
+              "basis": "page_reference",
+              "condition": "按网申系统确认"
+            }
+          ],
+          "action": "核对网申缴费金额。"
+        }
+      ]
     }
   ],
   "faculty": [
@@ -274963,6 +275289,38 @@
       "knownIssues": [
         "学域页以旧概述并列 MPhil 和博士，资金叙述未注明当期；2027/28 硕士通过红鸟统一申请，学费和资助按当前简章或正式通知。"
       ]
+    },
+    {
+      "id": "cuhk-math-rpg-gs-2027-20261122",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+      "title": "港中文研究院 · 数学 MPhil/PhD",
+      "scope": "2027/28 入学资格、期限及学费。",
+      "claims": [
+        "数学或相关专业背景；面试和数学科 GRE 可能按个别申请要求。",
+        "主轮 2026-12-01，清理轮 2027-03-31 视余位；学费港币 49,500，适用各修读模式。"
+      ],
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "knownIssues": [
+        "普通轮次只注明日期。博士奖学金的两项时点另列；当期指导资格及余位未从项目页确认。"
+      ]
+    },
+    {
+      "id": "cuhk-mse-rpg-gs-2027-20261122",
+      "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-materials-science-and-engineering",
+      "title": "港中文研究院 · 材料科学与工程 MPhil/PhD",
+      "scope": "2027/28 入学资格、期限及学费；这是理学院研究项目。",
+      "claims": [
+        "材料科学与工程或相关学科学士。已有研究型硕士的博士常规修读期为 36 个月。",
+        "主轮 2026-12-01，清理轮 2027-03-31 视余位；学费港币 49,500，适用各修读模式。"
+      ],
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "knownIssues": [
+        "普通轮次只注明日期。博士奖学金的两项时点另列；当期指导资格及余位未从项目页确认。"
+      ]
     }
   ],
   "funding": [
@@ -355530,5 +355888,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:ad8b0e770d6d82c80ca1bf25bf89238fd403372fc8a62386c468712ddc712856"
+  "snapshotId": "sha256:751055f068383a7e4f1d0752d9d061152869669181222fdfe7b862584ee64339"
 }
