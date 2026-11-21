@@ -158,3 +158,17 @@ test('HKUST Guangzhou CMA uses the PhD application route and Red Bird for resear
  assert.match(redbird.requirements.find(r=>r.label==='对计算媒体与艺术感兴趣').text,/MPhil \(General\).*统一录取/);
  assert.match(phd.selection.text,/作品集.*授课型 MFA/);
 });
+
+test('CUHK mathematics and materials science retain distinct requirements and PhD-only fellowship clocks',()=>{
+ const math=expected.programs.find(p=>p.id==='cuhk-math-rpg-2027');
+ const mse=expected.programs.find(p=>p.id==='cuhk-mse-rpg-2027');
+ const school=expected.universities.find(u=>u.id==='cuhk');
+ const mphil={...L.defaultProfile(expected),universityIds:['cuhk']};
+ for(const p of [math,mse]){
+  assert.deepEqual(L.deadlinesFor(p,mphil,school).map(d=>[d.date,d.at]),[['2026-12-01',null],['2027-03-31',null]]);
+  assert.equal(L.deadlinesFor(p,{...mphil,degree:'PhD'},school).filter(d=>/HKPFS/.test(d.label)).length,2);
+ }
+ assert.match(L.requirementsFor(math,mphil).map(r=>r.text).join(' '),/部分申请者可能.*GRE/);
+ assert.doesNotMatch(L.requirementsFor(mse,mphil).map(r=>r.text).join(' '),/36 个月|GRE/);
+ assert.match(L.requirementsFor(mse,{...mphil,degree:'PhD'}).map(r=>r.text).join(' '),/36 个月/);
+});

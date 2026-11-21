@@ -1,0 +1,51 @@
+{
+  "programmes": [
+    {
+      "key": "math",
+      "name": "数学研究学位",
+      "scope": "香港中文大学理学院数学学科。方向包括代数、分析、应用数学、计算数学及几何。",
+      "background": "项目页要求数学或相关专业背景。部分申请者可能须参加面试或提交数学科 GRE。",
+      "selection": "项目可安排面试或要求数学科 GRE，是否需要按个别通知核对。",
+      "source": {
+        "id": "cuhk-math-rpg-gs-2027-20261122",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
+        "title": "港中文研究院 · 数学 MPhil/PhD",
+        "scope": "2027/28 入学资格、期限及学费。",
+        "claims": [
+          "数学或相关专业背景；面试和数学科 GRE 可能按个别申请要求。",
+          "主轮 2026-12-01，清理轮 2027-03-31 视余位；学费港币 49,500，适用各修读模式。"
+        ],
+        "checkedAt": "2026-11-22",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "knownIssues": [
+          "普通轮次只注明日期。博士奖学金的两项时点另列；当期指导资格及余位未从项目页确认。"
+        ]
+      }
+    },
+    {
+      "key": "mse",
+      "name": "材料科学与工程研究学位",
+      "scope": "香港中文大学理学院材料科学与工程项目。方向包括纳米材料、复合材料、能源材料及材料计算。",
+      "background": "项目页要求材料科学与工程或相关学科学士学位。",
+      "selection": "按研究院要求提交，未从项目页确认统一面试安排。",
+      "source": {
+        "id": "cuhk-mse-rpg-gs-2027-20261122",
+        "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-materials-science-and-engineering",
+        "title": "港中文研究院 · 材料科学与工程 MPhil/PhD",
+        "scope": "2027/28 入学资格、期限及学费；这是理学院研究项目。",
+        "claims": [
+          "材料科学与工程或相关学科学士。已有研究型硕士的博士常规修读期为 36 个月。",
+          "主轮 2026-12-01，清理轮 2027-03-31 视余位；学费港币 49,500，适用各修读模式。"
+        ],
+        "checkedAt": "2026-11-22",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "knownIssues": [
+          "普通轮次只注明日期。博士奖学金的两项时点另列；当期指导资格及余位未从项目页确认。"
+        ]
+      },
+      "phdStudy": "已有研究型硕士的博士通常修读 36 个月。"
+    }
+  ]
+}
