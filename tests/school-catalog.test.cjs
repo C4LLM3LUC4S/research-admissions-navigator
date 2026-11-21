@@ -94,3 +94,20 @@ test('the first cross-school search shares one optional index request and a fail
   assert.equal(h.indexRequests.length,2);
   assert.equal(h.requests.length,0);
 });
+
+test('four PolyU engineering cards preserve distinct materials and degree scope',()=>{
+ const byId=id=>expected.programs.find(p=>p.id==='polyu-'+id+'-rpg-sept-2027');
+ for(const id of ['cmi','lsgs','aae','ise']){
+  const p=byId(id);
+  assert.deepEqual(L.applicationDegrees(expected,p),['MPhil','PhD']);
+  assert.deepEqual(p.deadlines.map(d=>[d.date,d.at]),[['2027-05-31',null]]);
+  assert.deepEqual(p.finances.flatMap(f=>f.rates.map(r=>r.value)),[600,99000,49500,49500]);
+  for(const degree of ['MPhil','PhD']){
+   assert.deepEqual(L.requirementsFor(p,{degree}).map(r=>r.label),[degree+' 学历','英语证明','申请材料']);
+  }
+ }
+ assert.match(byId('cmi').requirements.at(-1).text,/奖学金或奖助计划时提交两份学术推荐/);
+ assert.doesNotMatch(byId('lsgs').requirements.at(-1).text,/个人陈述/);
+ assert.match(byId('aae').requirements.at(-1).text,/截止日前完成两份学术推荐/);
+ assert.match(byId('ise').requirements.at(-1).text,/HKPFS/);
+});

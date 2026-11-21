@@ -11589,6 +11589,578 @@
           "action": "在网申系统核对实际缴费金额。"
         }
       ]
+    },
+    {
+      "id": "polyu-cmi-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "建造管理及智能研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港理工建设及环境学院，2027 年 9 月，全日制或兼读。研究方向包括施工人工智能与机器人、基础设施数字化交付、施工安全与可持续基础设施。",
+      "contact": {
+        "status": "unknown",
+        "text": "请从项目页查看研究方向与联系安排。",
+        "sourceIds": [
+          "polyu-cmi-sept-2027-20261122"
+        ]
+      },
+      "selection": {
+        "text": "按校级网申提交指定研究计划和学系所列材料。",
+        "sourceIds": [
+          "polyu-cmi-sept-2027-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-cmi-sept-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-cmi-sept-2027-20261122",
+        "polyu-rpg-requirements",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
+      ],
+      "evidenceNote": "普通入学截止适用于此处的九月硕博申请。奖学金和推荐报告的额外截止请按对应计划核对。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/cmi",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "校级通常要求二等荣誉学士或同等资格。",
+          "action": "核对学士学历是否符合校级研究硕士要求。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
+          "action": "按拟申请的培养路径核对学历和学制。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
+          "action": "核对英语证明方式和成绩有效期。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "申请奖学金或奖助计划时提交两份学术推荐；常规申请的推荐要求请以网申提示为准。另需简历、指定表格的研究计划和学历成绩证明。",
+          "action": "从项目原页打开研究计划表，逐项核对材料。",
+          "sourceIds": [
+            "polyu-cmi-sept-2027-20261122"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-cmi-rpg-sept-2027-application",
+          "kind": "application_fee",
+          "label": "2027/28 申请费",
+          "text": "校级网申提交时缴付，不退还或转移。",
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "每份研究学位网申"
+            }
+          ],
+          "action": "在正式网申核对缴费和收据。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ]
+        },
+        {
+          "id": "polyu-cmi-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "按修读模式和是否获助学金分列。接受录取后注册费可抵学费。",
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
+          ],
+          "action": "核对修读模式、学费和个人资助条件。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-lsgs-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "土地测量及地理资讯研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港理工建设及环境学院，2027 年 9 月，全日制或兼读。研究方向包括地理空间测量、城市信息学及智慧城市。",
+      "contact": {
+        "status": "unknown",
+        "text": "请从项目页查看研究方向与联系安排。",
+        "sourceIds": [
+          "polyu-lsgs-sept-2027-20261122"
+        ]
+      },
+      "selection": {
+        "text": "按校级网申提交指定研究计划和学系所列材料。",
+        "sourceIds": [
+          "polyu-lsgs-sept-2027-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-lsgs-sept-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-lsgs-sept-2027-20261122",
+        "polyu-rpg-requirements",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
+      ],
+      "evidenceNote": "普通入学截止适用于此处的九月硕博申请。奖学金和推荐报告的额外截止请按对应计划核对。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/lsgs",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "校级通常要求二等荣誉学士或同等资格。",
+          "action": "核对学士学历是否符合校级研究硕士要求。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
+          "action": "按拟申请的培养路径核对学历和学制。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
+          "action": "核对英语证明方式和成绩有效期。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "提交两份学术推荐、指定表格的研究计划及学位与成绩证明。",
+          "action": "从项目原页打开研究计划表，逐项核对材料。",
+          "sourceIds": [
+            "polyu-lsgs-sept-2027-20261122"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-lsgs-rpg-sept-2027-application",
+          "kind": "application_fee",
+          "label": "2027/28 申请费",
+          "text": "校级网申提交时缴付，不退还或转移。",
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "每份研究学位网申"
+            }
+          ],
+          "action": "在正式网申核对缴费和收据。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ]
+        },
+        {
+          "id": "polyu-lsgs-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "按修读模式和是否获助学金分列。接受录取后注册费可抵学费。",
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
+          ],
+          "action": "核对修读模式、学费和个人资助条件。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "航空及民航工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港理工工程学院，2027 年 9 月，全日制或兼读。研究方向包括航空航天工程、飞行力学与控制、卫星通信导航及航空运行。",
+      "contact": {
+        "status": "unknown",
+        "text": "请从项目页查看研究方向与联系安排。",
+        "sourceIds": [
+          "polyu-aae-sept-2027-20261122"
+        ]
+      },
+      "selection": {
+        "text": "按校级网申提交指定研究计划和学系所列材料。",
+        "sourceIds": [
+          "polyu-aae-sept-2027-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-aae-sept-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-aae-sept-2027-20261122",
+        "polyu-rpg-requirements",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
+      ],
+      "evidenceNote": "普通入学截止适用于此处的九月硕博申请。奖学金和推荐报告的额外截止请按对应计划核对。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/aae",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "校级通常要求二等荣誉学士或同等资格。",
+          "action": "核对学士学历是否符合校级研究硕士要求。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
+          "action": "按拟申请的培养路径核对学历和学制。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
+          "action": "核对英语证明方式和成绩有效期。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "须在截止日前完成两份学术推荐，并提交简历、个人陈述、指定表格的研究计划及学历成绩证明。",
+          "action": "从项目原页打开研究计划表，逐项核对材料。",
+          "sourceIds": [
+            "polyu-aae-sept-2027-20261122"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-aae-rpg-sept-2027-application",
+          "kind": "application_fee",
+          "label": "2027/28 申请费",
+          "text": "校级网申提交时缴付，不退还或转移。",
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "每份研究学位网申"
+            }
+          ],
+          "action": "在正式网申核对缴费和收据。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ]
+        },
+        {
+          "id": "polyu-aae-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "按修读模式和是否获助学金分列。接受录取后注册费可抵学费。",
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
+          ],
+          "action": "核对修读模式、学费和个人资助条件。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "polyu-ise-rpg-sept-2027",
+      "universityId": "polyu",
+      "name": "工业及系统工程研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港理工工程学院，2027 年 9 月，全日制或兼读。研究方向包括先进制造、运输物流、供应链管理、工业人工智能及智能产品。",
+      "contact": {
+        "status": "recommended",
+        "text": "项目建议联系学系人员讨论研究机会。",
+        "sourceIds": [
+          "polyu-ise-sept-2027-20261122"
+        ]
+      },
+      "selection": {
+        "text": "按校级网申提交指定研究计划和学系所列材料。",
+        "sourceIds": [
+          "polyu-ise-sept-2027-20261122"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 年 9 月入学截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "polyu-ise-sept-2027-20261122"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "polyu-ise-sept-2027-20261122",
+        "polyu-rpg-requirements",
+        "polyu-eee-20261111-fee",
+        "polyu-eee-20261111-tuition"
+      ],
+      "evidenceNote": "普通入学截止适用于此处的九月硕博申请。奖学金和推荐报告的额外截止请按对应计划核对。",
+      "entryUrl": "https://www.polyu.edu.hk/study/pg/rpg/2027/ise",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "校级通常要求二等荣誉学士或同等资格。",
+          "action": "核对学士学历是否符合校级研究硕士要求。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
+          "action": "按拟申请的培养路径核对学历和学制。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
+          "action": "核对英语证明方式和成绩有效期。",
+          "sourceIds": [
+            "polyu-rpg-requirements"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "提交两份学术推荐、简历、个人陈述、指定表格的研究计划及学历成绩证明。申请 HKPFS 时，推荐报告另有该奖学金的截止要求。",
+          "action": "从项目原页打开研究计划表，逐项核对材料。",
+          "sourceIds": [
+            "polyu-ise-sept-2027-20261122"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "polyu-ise-rpg-sept-2027-application",
+          "kind": "application_fee",
+          "label": "2027/28 申请费",
+          "text": "校级网申提交时缴付，不退还或转移。",
+          "rates": [
+            {
+              "value": 600,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "每份研究学位网申"
+            }
+          ],
+          "action": "在正式网申核对缴费和收据。",
+          "sourceIds": [
+            "polyu-eee-20261111-fee"
+          ]
+        },
+        {
+          "id": "polyu-ise-rpg-sept-2027-tuition",
+          "kind": "tuition",
+          "label": "2027/28 学费",
+          "text": "按修读模式和是否获助学金分列。接受录取后注册费可抵学费。",
+          "rates": [
+            {
+              "value": 99000,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制无助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制有助学金"
+            },
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "兼读"
+            }
+          ],
+          "action": "核对修读模式、学费和个人资助条件。",
+          "sourceIds": [
+            "polyu-eee-20261111-tuition"
+          ]
+        }
+      ]
     }
   ],
   "faculty": [
@@ -273163,6 +273735,71 @@
       "knownIssues": [
         "未从本页确定全部师资、指导资格或当期名额。"
       ]
+    },
+    {
+      "id": "polyu-cmi-sept-2027-20261122",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/cmi",
+      "title": "建造管理及智能研究学位 · 港理工 2027 年 9 月项目页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "2027 年 9 月常规 MPhil/PhD 材料、学习模式及申请日期。",
+      "claims": [
+        "MPhil 和 PhD 均可全日制或兼读，截止 2027-05-31，网页未注明时刻。",
+        "申请奖学金或奖助计划时提交两份学术推荐；常规申请的推荐要求请以网申提示为准。另需简历、指定表格的研究计划和学历成绩证明。"
+      ],
+      "knownIssues": [
+        "页面研究主题和人员条目仅为该项目页面的可见范围。当期指导资格及实际余位仍待确认。"
+      ]
+    },
+    {
+      "id": "polyu-lsgs-sept-2027-20261122",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/lsgs",
+      "title": "土地测量及地理资讯研究学位 · 港理工 2027 年 9 月项目页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "2027 年 9 月常规 MPhil/PhD 材料、学习模式及申请日期。",
+      "claims": [
+        "MPhil 和 PhD 均可全日制或兼读，截止 2027-05-31，网页未注明时刻。",
+        "提交两份学术推荐、指定表格的研究计划及学位与成绩证明。"
+      ],
+      "knownIssues": [
+        "页面研究主题和人员条目仅为该项目页面的可见范围。当期指导资格及实际余位仍待确认。"
+      ]
+    },
+    {
+      "id": "polyu-aae-sept-2027-20261122",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/aae",
+      "title": "航空及民航工程研究学位 · 港理工 2027 年 9 月项目页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "2027 年 9 月常规 MPhil/PhD 材料、学习模式及申请日期。",
+      "claims": [
+        "MPhil 和 PhD 均可全日制或兼读，截止 2027-05-31，网页未注明时刻。",
+        "须在截止日前完成两份学术推荐，并提交简历、个人陈述、指定表格的研究计划及学历成绩证明。"
+      ],
+      "knownIssues": [
+        "页面研究主题和人员条目仅为该项目页面的可见范围。当期指导资格及实际余位仍待确认。"
+      ]
+    },
+    {
+      "id": "polyu-ise-sept-2027-20261122",
+      "url": "https://www.polyu.edu.hk/study/pg/rpg/2027/ise",
+      "title": "工业及系统工程研究学位 · 港理工 2027 年 9 月项目页",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "2027 年 9 月常规 MPhil/PhD 材料、学习模式及申请日期。",
+      "claims": [
+        "MPhil 和 PhD 均可全日制或兼读，截止 2027-05-31，网页未注明时刻。",
+        "提交两份学术推荐、简历、个人陈述、指定表格的研究计划及学历成绩证明。申请 HKPFS 时，推荐报告另有该奖学金的截止要求。",
+        "项目建议联系学系人员讨论研究机会。"
+      ],
+      "knownIssues": [
+        "页面研究主题和人员条目仅为该项目页面的可见范围。当期指导资格及实际余位仍待确认。"
+      ]
     }
   ],
   "funding": [
@@ -353721,5 +354358,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:a6d7a66340751f8d30fe070d4845a4b4c60b9ec2d2dedd1d0507597e3e1374cd"
+  "snapshotId": "sha256:f40159fa9845f9e1450bbc44a0e971968641b95b8664d05737d1995ff48490d0"
 }
