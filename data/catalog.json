@@ -139718,6 +139718,331 @@
           "polyu-fsn-dr-wu-mei-yi-daphne-20261119"
         ]
       }
+    },
+    {
+      "id": "cuhk-mae-xiangyu-chu",
+      "universityId": "cuhk",
+      "name": "Xiangyu Chu / 楚翔宇",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "机器人与控制",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "robot learning",
+        "medical robotics",
+        "deformable object manipulation",
+        "robot locomotion",
+        "机器人学习",
+        "手术机器人",
+        "柔性物体操控"
+      ],
+      "summary": "研究医疗机器人、柔性物体操控和机器人运动，关注机构设计与控制。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/xiangyu-chu/",
+      "sourceIds": [
+        "cuhk-mae-xiangyu-chu-profile-20261122",
+        "cuhk-mae-xiangyu-chu-linked-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-xiangyu-chu-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-xiangyu-chu-profile-20261122",
+        "cuhk-mae-xiangyu-chu-linked-20261122"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://xiangyuchu03.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "cuhk-mae-xiangyu-chu-profile-20261122",
+          "sourceId": "cuhk-mae-xiangyu-chu-linked-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已读机构个人页所给链接的主页。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-mae-dongkun-han",
+      "universityId": "cuhk",
+      "name": "Dongkun Han / 韓東昆",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Senior Lecturer",
+      "topics": [
+        "教育学",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "engineering education",
+        "educational robotics",
+        "dynamical systems and control",
+        "cooperative control",
+        "工程教育",
+        "协同控制"
+      ],
+      "summary": "研究工程教育中的人工智能和机器人应用，以及多智能体协同控制和动力系统。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/han-dongkun/",
+      "sourceIds": [
+        "cuhk-mae-dongkun-han-profile-20261122",
+        "cuhk-mae-dongkun-han-linked-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-dongkun-han-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-dongkun-han-profile-20261122",
+        "cuhk-mae-dongkun-han-linked-20261122"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://dongkunhan.com/",
+          "label": "个人研究主页",
+          "parentSourceId": "cuhk-mae-dongkun-han-profile-20261122",
+          "sourceId": "cuhk-mae-dongkun-han-linked-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已读机构个人页所给链接的主页。"
+        }
+      ]
+    },
+    {
+      "id": "cuhk-mae-yue-chen",
+      "universityId": "cuhk",
+      "name": "Yue Chen / 陳玥",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Vice-Chancellor Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "smart grids",
+        "robust optimization",
+        "trustworthy AI",
+        "electricity markets",
+        "demand response",
+        "quantum computing",
+        "智能电网",
+        "鲁棒优化",
+        "可信人工智能",
+        "需求响应"
+      ],
+      "summary": "研究智能电网中的优化、可信人工智能和量子计算，应用涉及电力市场和需求响应。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/chenyue/",
+      "sourceIds": [
+        "cuhk-mae-yue-chen-profile-20261122",
+        "cuhk-mae-yue-chen-linked-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-yue-chen-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-yue-chen-profile-20261122",
+        "cuhk-mae-yue-chen-linked-20261122"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/academicyuechen/home",
+          "label": "GREEN Lab 课题组",
+          "parentSourceId": "cuhk-mae-yue-chen-profile-20261122",
+          "sourceId": "cuhk-mae-yue-chen-linked-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "已读机构个人页所给链接的主页。"
+        }
+      ],
+      "applicationNotes": [
+        {
+          "kind": "teacher_statement",
+          "label": "课题组博士招募说明",
+          "text": "课题组主页表示欢迎博士申请者，未注明对应轮次和剩余名额。",
+          "sourceIds": [
+            "cuhk-mae-yue-chen-linked-20261122"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "cuhk-mae-charlie-wang",
+      "universityId": "cuhk",
+      "name": "Changling Charlie Wang / 王昌凌",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Adjunct Professor",
+      "topics": [
+        "计算机图形学",
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "geometric computing",
+        "computational design",
+        "advanced manufacturing",
+        "robotics",
+        "几何计算",
+        "计算设计",
+        "先进制造"
+      ],
+      "summary": "研究几何计算、计算设计、先进制造和机器人。学系当前个人页列为兼任教授。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/wang-changling-charlie-2/",
+      "sourceIds": [
+        "cuhk-mae-charlie-wang-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-charlie-wang-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-charlie-wang-profile-20261122"
+      ]
+    },
+    {
+      "id": "cuhk-mae-fei-ai",
+      "universityId": "cuhk",
+      "name": "Fei Ai / 艾飛",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "electrolyte design",
+        "electrochemical interfaces",
+        "energy storage systems",
+        "电解液",
+        "电化学界面",
+        "储能系统"
+      ],
+      "summary": "研究储能系统中的电解液设计和电化学界面。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/ai-fei/",
+      "sourceIds": [
+        "cuhk-mae-fei-ai-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-fei-ai-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-fei-ai-profile-20261122"
+      ]
+    },
+    {
+      "id": "cuhk-mae-chaoyu-yang",
+      "universityId": "cuhk",
+      "name": "Chaoyu Yang / 楊超宇",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "microfluidics",
+        "microrobots",
+        "nature-inspired engineering",
+        "wettability",
+        "droplet dynamics",
+        "微流控",
+        "微型机器人",
+        "润湿性",
+        "液滴动力学"
+      ],
+      "summary": "研究微流控、微型机器人、仿生工程、润湿性和液滴动力学。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/yang-chaoyu/",
+      "sourceIds": [
+        "cuhk-mae-chaoyu-yang-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-chaoyu-yang-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-chaoyu-yang-profile-20261122"
+      ]
+    },
+    {
+      "id": "cuhk-mae-huan-zhao",
+      "universityId": "cuhk",
+      "name": "Huan Zhao / 趙歡",
+      "department": "Department of Mechanical and Automation Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "生物医学与健康",
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "gait analysis",
+        "Parkinson's disease",
+        "human walking dynamics",
+        "步态分析",
+        "帕金森病",
+        "人体步行动力学"
+      ],
+      "summary": "研究人体步态、步行动力学和帕金森病的智能辅助诊断。",
+      "profileUrl": "https://www4.mae.cuhk.edu.hk/peoples/zhao-huan/",
+      "sourceIds": [
+        "cuhk-mae-huan-zhao-profile-20261122"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "cuhk-mae-huan-zhao-profile-20261122"
+        ]
+      },
+      "directorySourceIds": [
+        "wide-dir-cuhk-mae"
+      ],
+      "keywordSourceIds": [
+        "cuhk-mae-huan-zhao-profile-20261122"
+      ]
     }
   ],
   "sources": [
@@ -272636,6 +272961,208 @@
         "https://www4.mae.cuhk.edu.hk/people/academic-staff/",
         "https://www4.mae.cuhk.edu.hk/research-postgraduate-programme/"
       ]
+    },
+    {
+      "id": "cuhk-mae-xiangyu-chu-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/xiangyu-chu/",
+      "title": "Xiangyu Chu / 楚翔宇 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究医疗机器人、柔性物体操控和机器人运动，关注机构设计与控制。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://xiangyuchu03.github.io/"
+      ]
+    },
+    {
+      "id": "cuhk-mae-xiangyu-chu-linked-20261122",
+      "url": "https://xiangyuchu03.github.io/",
+      "title": "Xiangyu Chu / 楚翔宇 · 个人研究主页",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "scope": "院系个人页所给链接的主页正文。",
+      "claims": [
+        "主页确认港中文 MAE 研究助理教授任职，并介绍生物医学机器人团队及研究方向。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "cuhk-mae-xiangyu-chu-profile-20261122"
+    },
+    {
+      "id": "cuhk-mae-dongkun-han-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/han-dongkun/",
+      "title": "Dongkun Han / 韓東昆 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Senior Lecturer。",
+        "研究工程教育中的人工智能和机器人应用，以及多智能体协同控制和动力系统。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://dongkunhan.com/"
+      ]
+    },
+    {
+      "id": "cuhk-mae-dongkun-han-linked-20261122",
+      "url": "https://dongkunhan.com/",
+      "title": "Dongkun Han / 韓東昆 · 个人研究主页",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "scope": "院系个人页所给链接的主页正文。",
+      "claims": [
+        "主页确认高级讲师任职，并介绍工程教育技术、多智能体协同控制和不确定系统的鲁棒性研究。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "cuhk-mae-dongkun-han-profile-20261122"
+    },
+    {
+      "id": "cuhk-mae-yue-chen-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/chenyue/",
+      "title": "Yue Chen / 陳玥 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Vice-Chancellor Assistant Professor。",
+        "研究智能电网中的优化、可信人工智能和量子计算，应用涉及电力市场和需求响应。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/academicyuechen/home"
+      ]
+    },
+    {
+      "id": "cuhk-mae-yue-chen-linked-20261122",
+      "url": "https://sites.google.com/view/academicyuechen/home",
+      "title": "Yue Chen / 陳玥 · GREEN Lab 课题组",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "scope": "院系个人页所给链接的主页正文。",
+      "claims": [
+        "课题组主页说明智能电网低碳转型、鲁棒优化及电力市场方向，并列未注明轮次的博士招募说明。"
+      ],
+      "knownIssues": [
+        "招募说明未注明轮次，未核到当期余位。"
+      ],
+      "parentSourceId": "cuhk-mae-yue-chen-profile-20261122"
+    },
+    {
+      "id": "cuhk-mae-charlie-wang-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/wang-changling-charlie-2/",
+      "title": "Changling Charlie Wang / 王昌凌 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Adjunct Professor。",
+        "研究几何计算、计算设计、先进制造和机器人。学系当前个人页列为兼任教授。"
+      ],
+      "knownIssues": [
+        "个人页标题与名录列兼任教授；履历中的旧港中文教授经历保留历史范围。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-mae-fei-ai-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/ai-fei/",
+      "title": "Fei Ai / 艾飛 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究储能系统中的电解液设计和电化学界面。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-mae-chaoyu-yang-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/yang-chaoyu/",
+      "title": "Chaoyu Yang / 楊超宇 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究微流控、微型机器人、仿生工程、润湿性和液滴动力学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-mae-huan-zhao-profile-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/peoples/zhao-huan/",
+      "title": "Huan Zhao / 趙歡 · 港中文机械与自动化工程学系",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "学系个人页所列任职与研究兴趣。",
+      "claims": [
+        "个人页所列身份：Research Assistant Professor。",
+        "研究人体步态、步行动力学和帕金森病的智能辅助诊断。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "cuhk-mae-academic-staff-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/people/academic-staff/",
+      "title": "港中文机械与自动化工程学系 · 学术人员",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "该页可见职衔和类别。",
+      "claims": [
+        "主名单含教授、讲师、研究助理教授及兼任职衔，页面另列礼聘教授和兼任教授分组。"
+      ],
+      "knownIssues": [
+        "未从本页确定全部师资、指导资格或当期名额。"
+      ]
+    },
+    {
+      "id": "cuhk-mae-advisory-committee-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/people/advisory-committee/",
+      "title": "港中文机械与自动化工程学系 · 顾问委员会",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "该页可见职衔和类别。",
+      "claims": [
+        "顾问委员会单独列出主席、成员及其外部或校内任职。"
+      ],
+      "knownIssues": [
+        "未从本页确定全部师资、指导资格或当期名额。"
+      ]
+    },
+    {
+      "id": "cuhk-mae-support-staff-20261122",
+      "url": "https://www4.mae.cuhk.edu.hk/people/support-staff/",
+      "title": "港中文机械与自动化工程学系 · 支援人员",
+      "checkedAt": "2026-11-22",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "该页可见职衔和类别。",
+      "claims": [
+        "支援人员正文区分行政人员与技术人员。"
+      ],
+      "knownIssues": [
+        "未从本页确定全部师资、指导资格或当期名额。"
+      ]
     }
   ],
   "funding": [
@@ -274362,7 +274889,10 @@
       "coverageComplete": false,
       "reviewSourceIds": [
         "cuhk-mae-structure-20261122",
-        "cuhk-mae-department-rpg-20261122"
+        "cuhk-mae-department-rpg-20261122",
+        "cuhk-mae-academic-staff-20261122",
+        "cuhk-mae-advisory-committee-20261122",
+        "cuhk-mae-support-staff-20261122"
       ]
     },
     {
@@ -353191,5 +353721,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:cb91060f0654720164aa54f4b72c6cf8c71aa01927ff488a4b759221023af409"
+  "snapshotId": "sha256:a6d7a66340751f8d30fe070d4845a4b4c60b9ec2d2dedd1d0507597e3e1374cd"
 }

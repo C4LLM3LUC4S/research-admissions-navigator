@@ -2099,6 +2099,10 @@ def build_catalog():
     catalog["programs"].append(mae)
     mae_directory = next(d for d in catalog["directories"] if d["id"] == "wide-dir-cuhk-mae")
     mae_directory.setdefault("reviewSourceIds", []).extend([mae_about, mae_dept])
+    mae_staff = load("cuhk-mae-faculty-20261122.json")
+    catalog["sources"].extend(mae_staff["sources"])
+    catalog["faculty"].extend(mae_staff["faculty"])
+    mae_directory["reviewSourceIds"].extend(mae_staff["directoryReviewSourceIds"])
     return catalog
 
 
