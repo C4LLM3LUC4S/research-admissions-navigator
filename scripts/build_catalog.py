@@ -2274,6 +2274,32 @@ def build_catalog():
          "action": "在网申选择 MPhil (General)，了解入学后申报学域的要求。", "sourceIds": [cma_brochure, "gz-redbird"]})
     cma_directory = next(d for d in catalog["directories"] if d["id"] == "wide-directory-hkustgz-cma")
     cma_directory.setdefault("reviewSourceIds", []).extend([cma_brochure, cma_thrust])
+    information_hub_admissions = load("hkustgz-ai-iot-admissions-20261122.json")["programmes"]
+    for record in information_hub_admissions:
+        source = record["source"]
+        sid = source["id"]
+        pid = f'hkustgz-{record["slug"]}-phd-2027'
+        catalog["sources"].append(source)
+        phd = program(
+            pid, "hkustgz", record["name"], ["PhD"],
+            f'港科大广州信息枢纽，2027/28 秋季博士。方向包括{record["text"]}',
+            "unknown", "从学域官网了解研究方向，按广州校区博士流程提交。", [cma_brochure, sid],
+            "在广州研究生院系统选学域博士，具体材料按申请系统核对。", [cma_brochure, sid],
+            cma_phd["deadlines"],
+            [cma_brochure, sid, "gz-timeline", "gz-central-requirements", cma_materials, "gz-scholarships-fees"],
+            "相关研究型硕士通过红鸟 MPhil (General) 统一申请。",
+        )
+        phd["entryUrl"] = source["url"]
+        phd["requirements"] = [{**row, "sourceIds": [sid if ref == cma_programme else ref for ref in row["sourceIds"]]}
+                               for row in cma_phd["requirements"]]
+        phd["finances"] = [{**row, "id": row["id"].replace("hkustgz-cma-", f'hkustgz-{record["slug"]}-'),
+                            "sourceIds": [sid if ref == cma_programme else ref for ref in row["sourceIds"]]}
+                           for row in cma_phd["finances"]]
+        catalog["programs"].append(phd)
+        redbird["requirements"].append(
+            {"label": f'对{record["field"]}感兴趣',
+             "text": f'2027/28 简章列{record["field"]} MPhil 经红鸟硕士 MPhil (General) 统一录取，入学后按秋季学期安排申报学域。',
+             "action": "网申选择 MPhil (General)，并核对入学后的学域选择办法。", "sourceIds": [cma_brochure, "gz-redbird"]})
     cuhk_science = load("cuhk-science-admissions-20261122.json")["programmes"]
     for record in cuhk_science:
         source = record["source"]

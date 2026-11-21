@@ -172,3 +172,16 @@ test('CUHK mathematics and materials science retain distinct requirements and Ph
  assert.doesNotMatch(L.requirementsFor(mse,mphil).map(r=>r.text).join(' '),/36 个月|GRE/);
  assert.match(L.requirementsFor(mse,{...mphil,degree:'PhD'}).map(r=>r.text).join(' '),/36 个月/);
 });
+
+test('HKUST Guangzhou AI and IoT separate direct PhD from the shared Red Bird application',()=>{
+ const profile={...L.defaultProfile(expected),universityIds:['hkustgz']};
+ const redbird=expected.programs.find(p=>p.id==='hkust-gz-rbm');
+ for(const [key,field] of [['ai','人工智能'],['iot','物联网']]){
+  const phd=expected.programs.find(p=>p.id==='hkustgz-'+key+'-phd-2027');
+  assert.ok(!L.programsFor(expected,profile).includes(phd));
+  assert.ok(L.programsFor(expected,{...profile,degree:'PhD'}).includes(phd));
+  assert.deepEqual(phd.deadlines.map(d=>d.at),['2027-06-15T23:59:00+08:00','2027-07-15T23:59:00+08:00']);
+  assert.ok(redbird.requirements.some(r=>r.label==='对'+field+'感兴趣'&&r.text.includes('MPhil (General)')));
+  assert.ok(!phd.selection.text.includes('MFA'));
+ }
+});
