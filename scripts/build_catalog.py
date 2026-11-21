@@ -1736,6 +1736,37 @@ def build_catalog():
                          for item in hku_common_finances]
     civil["sourceIds"] = list(dict.fromkeys(civil["sourceIds"]
         + [ref for item in civil["requirements"] + civil["finances"] for ref in item["sourceIds"]]))
+    hku_ece_sources = load("hku-ece-admissions-20261122.json")["sources"]
+    catalog["sources"].extend(hku_ece_sources)
+    ece_rpg, ece_areas, ece_research = (source["id"] for source in hku_ece_sources)
+    ece_period = [ece_areas, "HKU-CENTRAL-PERIOD"]
+    hku_ece = program(
+        "hku-ece-rpg-2027", "hku", "电机与计算机工程研究学位", ["MPhil", "PhD"],
+        "香港大学工学院，2027/28 校级申请轮次。原电机电子工程系于 2026 年 2 月更名。",
+        "recommended", "可先从学系研究主题页寻找意向导师，再按研究院流程提交。", [ece_rpg, ece_research],
+        "学系可能安排资格考试或面试。普通申请使用校级轮次，留意学系个别通知。", [ece_rpg, *ece_period],
+        [
+            deadline("校级主轮截止", "2026-12-01", ece_period, clock="23:59"),
+            deadline("校级第一轮补录截止（视余位）", "2027-04-30", ece_period, clock="23:59"),
+            deadline("校级第二轮补录截止（视余位）", "2027-08-31", ece_period, clock="23:59"),
+        ],
+        [ece_rpg, ece_research, *ece_period],
+        "院系可提前审理。校级补录仅在主轮后仍有学额时考虑。",
+    )
+    hku_ece["entryUrl"] = hku_ece_sources[0]["url"]
+    hku_ece["requirements"] = list(hku_engineering_requirements)
+    hku_ece["requirements"][-1] = {
+        **hku_engineering_requirements[-1],
+        "text": hku_engineering_requirements[-1]["text"] + " 系页的 85 分未区分考试日期，请按研究院日期规则核对。",
+        "sourceIds": [*language, ece_rpg],
+    }
+    hku_ece["finances"] = [{**item, "id": item["id"].replace("hku-dase-", "hku-ece-")}
+                           for item in hku_common_finances]
+    hku_ece["sourceIds"].extend(dict.fromkeys(ref for item in hku_ece["requirements"] + hku_ece["finances"]
+                                           for ref in item["sourceIds"] if ref not in hku_ece["sourceIds"]))
+    catalog["programs"].append(hku_ece)
+    ece_directory = next(d for d in catalog["directories"] if d["id"] == "wide-dir-hku-ece")
+    ece_directory.setdefault("reviewSourceIds", []).extend([ece_areas, ece_research])
     cityu_ee = load("cityu-ee-phd-requirements-20261116.json")
     route = next(row for row in catalog["programs"] if row["id"] == cityu_ee["stableId"])
     actions = ("选择自己的学历路径并准备相应证明。", "核考试日、送分有效期和语言要求。", "按网申材料清单提交，填写感兴趣的研究领域。")

@@ -1,0 +1,54 @@
+{
+  "sources": [
+    {
+      "id": "hku-ece-rpg-20261122",
+      "url": "https://ece.hku.hk/study/rpg/",
+      "title": "港大电机与计算机工程系 · 研究型硕博",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "系级 MPhil、PhD 培养路线、申请资格概述与研究兴趣入口。",
+      "claims": [
+        "系页列研究型 MPhil 和 PhD。博士按已有研究型硕士等条件分三年或四年；学系可能安排资格考试或面试。",
+        "项目页建议从研究兴趣页面了解潜在导师，另引研究院网申。"
+      ],
+      "knownIssues": [
+        "系页正文仍使用旧 EEE 名称，英语段落列 TOEFL 85 但未按考试日期区分量表。"
+      ],
+      "discoveredLinks": [
+        "https://ece.hku.hk/research/research-interests/",
+        "https://gradsch.hku.hk/prospective_students/application/how_to_apply"
+      ]
+    },
+    {
+      "id": "hku-ece-central-area-20261122",
+      "url": "https://gradsch.hku.hk/prospective_students/research_areas",
+      "title": "港大研究院 · 电机与计算机工程系招生单位",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "工学院研究生招生单位及学系更名说明。",
+      "claims": [
+        "研究院将电机与计算机工程系列入工学院研究生招生单位；原电机电子工程系于 2026 年 2 月更名。"
+      ],
+      "knownIssues": [
+        "本页无学系独立截止或余位。"
+      ]
+    },
+    {
+      "id": "hku-ece-research-interests-20261122",
+      "url": "https://ece.hku.hk/research/research-interests/",
+      "title": "港大电机与计算机工程系 · 研究主题和成员",
+      "checkedAt": "2026-11-22",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "院系研究主题及页面列出的对应成员。",
+      "claims": [
+        "页面列生物医学工程、电力电子与控制、智能系统与网络、光子学与电子四组研究主题。"
+      ],
+      "knownIssues": [
+        "主题和人员可作为选方向入口；院系全体名录、个人当前招生和余位未据此核实。"
+      ]
+    }
+  ]
+}
