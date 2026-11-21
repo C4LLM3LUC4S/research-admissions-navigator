@@ -2107,6 +2107,16 @@ def build_catalog():
     polyu_requirements = "polyu-rpg-requirements"
     polyu_fee = "polyu-eee-20261111-fee"
     polyu_tuition = "polyu-eee-20261111-tuition"
+    polyu_entry_requirements = [
+        {"label": "MPhil 学历", "degrees": ["MPhil"], "text": "校级通常要求二等荣誉学士或同等资格。",
+         "action": "核对学士学历是否符合校级研究硕士要求。", "sourceIds": [polyu_requirements]},
+        {"label": "PhD 学历", "degrees": ["PhD"],
+         "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
+         "action": "按拟申请的培养路径核对学历和学制。", "sourceIds": [polyu_requirements]},
+        {"label": "英语证明",
+         "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
+         "action": "核对英语证明方式和成绩有效期。", "sourceIds": [polyu_requirements]},
+    ]
     for record in polyu_engineering["programmes"]:
         source = record["source"]
         catalog["sources"].append(source)
@@ -2124,15 +2134,7 @@ def build_catalog():
             "普通入学截止适用于此处的九月硕博申请。奖学金和推荐报告的额外截止请按对应计划核对。",
         )
         row["entryUrl"] = source["url"]
-        row["requirements"] = [
-            {"label": "MPhil 学历", "degrees": ["MPhil"], "text": "校级通常要求二等荣誉学士或同等资格。",
-             "action": "核对学士学历是否符合校级研究硕士要求。", "sourceIds": [polyu_requirements]},
-            {"label": "PhD 学历", "degrees": ["PhD"],
-             "text": "校级三年制通常要求研究型硕士及学士；四年制可按硕士加学士或一等荣誉学士等资格核对。",
-             "action": "按拟申请的培养路径核对学历和学制。", "sourceIds": [polyu_requirements]},
-            {"label": "英语证明",
-             "text": "校级原文列 IELTS Academic 6.5 或 TOEFL iBT 80（两年内有效）。英语授课学历可核对替代证明。",
-             "action": "核对英语证明方式和成绩有效期。", "sourceIds": [polyu_requirements]},
+        row["requirements"] = polyu_entry_requirements + [
             {"label": "申请材料", "text": record["materials"],
              "action": "从项目原页打开研究计划表，逐项核对材料。", "sourceIds": [source_id]},
         ]
@@ -2150,6 +2152,46 @@ def build_catalog():
              "action": "核对修读模式、学费和个人资助条件。", "sourceIds": [polyu_tuition]},
         ]
         catalog["programs"].append(row)
+    cee_may_sources = load("polyu-cee-may-2027-20261122.json")["sources"]
+    catalog["sources"].extend(cee_may_sources)
+    may_catalogue, may_timeline, may_calendar = (source["id"] for source in cee_may_sources)
+    may_cycle = "2026/27"
+    may_fees = "polyu-cee-rpg-3-20261029"
+    cee_may = program(
+        "polyu-cee-rpg-may-2027", "polyu", "土木与环境工程研究学位（2027 年 5 月）", ["MPhil", "PhD"],
+        "港理工土木及环境工程学系，2026/27 学年五月入学，全日制或兼读。系页仅受理潜在导师提出的个别申请。",
+        "required", "先联系潜在导师。五月入学由导师提出个别申请。请同时确认院系的提交期限。", [may_timeline],
+        "系页写十二月底递交完整网申，未注明具体日期。校级五月项目页列 2027 年 1 月 31 日。",
+        [may_timeline, may_catalogue],
+        [deadline("校级项目页列五月入学截止", "2027-01-31", [may_catalogue], cycle=may_cycle)],
+        [may_catalogue, may_timeline, may_calendar, polyu_requirements, may_fees],
+        "系级递交时间和校级项目截止不同。准备五月入学时，请先请学系确认适用于你的期限。",
+        cycle=may_cycle,
+    )
+    cee_may["entryUrl"] = cee_may_sources[0]["url"]
+    cee_may["requirements"] = polyu_entry_requirements + [
+        {"label": "先确认系级递交时间",
+         "text": "学系网页列十二月底交表，校级五月项目页列 2027 年 1 月 31 日。先由意向导师确认可否提出申请及应遵守的期限。",
+         "action": "联系意向导师和学系核对五月入学条件与递交期限。",
+         "url": cee_may_sources[1]["url"], "sourceIds": [may_timeline, may_catalogue]},
+        {"label": "推荐、研究计划和学历材料",
+         "text": "准备两份学术推荐、指定表格的研究计划，以及已有学位和成绩证明。",
+         "action": "按五月项目页准备材料，从系级流程页进入网申。", "sourceIds": [may_catalogue, may_timeline]},
+    ]
+    cee_may["finances"] = [
+        {"id": "polyu-cee-may-2027-application", "kind": "application_fee", "label": "2026/27 申请费",
+         "text": "学系费用页列在网申提交时缴付。",
+         "rates": [{"value": 500, "currency": "HKD", "unit": "application", "basis": "intake",
+                    "cycle": may_cycle, "condition": "2026/27 学年五月入学"}],
+         "action": "在提交网申时核对实际收费。", "sourceIds": [may_fees]},
+        {"id": "polyu-cee-may-2027-tuition", "kind": "tuition", "label": "2026/27 学费",
+         "text": "按修读模式和是否获助学金分列。",
+         "rates": [{"value": amount, "currency": "HKD", "unit": "academic_year", "basis": "academic_year",
+                    "cycle": may_cycle, "condition": condition}
+                   for amount, condition in [(94000, "全日制无助学金"), (47000, "全日制有助学金或兼读")]],
+         "action": "核对五月入学的学费和个人资助条件。", "sourceIds": [may_fees]},
+    ]
+    catalog["programs"].append(cee_may)
     return catalog
 
 
