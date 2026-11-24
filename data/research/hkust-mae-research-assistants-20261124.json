@@ -1,0 +1,536 @@
+{
+  "sources": [
+    {
+      "id": "hkust-mae-rap-directory-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/research-assistant-professor",
+      "title": "港科大（香港）机械与航空航天工程系 · 研究助理教授",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "院系 Research Assistant Professor 分类，卡片和表格重复显示同一组人员。",
+      "claims": [
+        "所读分类展示七位不同的研究助理教授姓名。七个实名个人页正文已核读。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-jiachen",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-qiao",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-xuemu",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lin-pengzhu",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/liu-yaru",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/wang-yuhao",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-yixin"
+      ]
+    },
+    {
+      "id": "hkust-mae-rap-li-jiachen-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-jiachen",
+      "title": "Jiachen Li · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "a143301772d93df998c91389da1ab9bb34ed0c42e31519fef46cb8a95d032276",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-jiachen",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括增材制造、陶瓷与合金复合材料、微结构设计及第一性原理计算。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-rap-li-qiao-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-qiao",
+      "title": "Qiao Li · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "3f1837db5e9c1cec088aa573d37479b78994b8f42d5130f2528b88891cb6180f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-qiao",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括低热膨胀材料、形状记忆合金、固态制冷与中子表征。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-rap-li-xuemu-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-xuemu",
+      "title": "Xuemu Li · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "a0e0b995d02d199e80da3f1531ff3099fd7d1ed03400304dd6d64adcff54ab34",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-xuemu",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括铁电和压电材料、智能制造、柔性电子与植入式器件。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-rap-lin-pengzhu-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/lin-pengzhu",
+      "title": "Pengzhu Lin · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "233ec5cdaa72d81cb6260f51105e6856d0d69c8c7d4b4069b8d561348271f28f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lin-pengzhu",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括储能与燃料电池、传热传质及多尺度建模。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-rap-liu-yaru-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/liu-yaru",
+      "title": "Yaru Liu · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "655ede629978ee43a5af2bc4e9bcf25f106c8b89c51aec2b7f2426de3c1d2204",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/liu-yaru",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括结构建模与逆动力学、不确定性分析、传感器布局及可靠性设计。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-rap-wang-yuhao-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/wang-yuhao",
+      "title": "Yuhao Wang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "3281202b7323c9d2a167807583e9cceffaaec980f0768db12ab2469ab09023b0",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/wang-yuhao",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括质子陶瓷和固体氧化物电池、制氢器件设计及电化学诊断。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://yuhao.wang/"
+      ]
+    },
+    {
+      "id": "hkust-mae-rap-wang-yuhao-homepage-20261124",
+      "url": "http://yuhao.wang/",
+      "title": "Yuhao Wang · 个人研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "hkust-mae-rap-wang-yuhao-profile-20261124",
+      "originalUrl": "http://yuhao.wang/",
+      "retrievedUrl": "http://yuhao.wang/",
+      "bodySha256": "ed51097e54736b5a36a41a21ea7f377e71d4c97b562acafb3ce8ec2a9638d517",
+      "transportScope": "read_only_http_source_not_clickable",
+      "scope": "院系页面提供的个人主页，核对任职与能源研究方向。",
+      "claims": [
+        "主页自述港科大机械与航空航天工程系研究助理教授，研究低碳能量转换与储能。"
+      ],
+      "knownIssues": [
+        "院系提供的是 HTTP 地址。"
+      ]
+    },
+    {
+      "id": "hkust-mae-rap-xu-yixin-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-yixin",
+      "title": "Yixin Xu · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "8ca2f72fc7734018ea29a65ee4398fdd52a0dc49dcf23653dbd9665347907133",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-yixin",
+      "scope": "个人页任职及 Research Interests。",
+      "claims": [
+        "院系个人页列为研究助理教授。研究方向包括复杂体系的输运现象、分子动力学、超离子材料及能量转换。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hkust-mae-rap-li-jiachen",
+      "universityId": "hkust",
+      "name": "Jiachen Li / 李佳宸",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "增材制造",
+        "陶瓷与合金复合材料",
+        "微结构设计及第一性原理计算",
+        "Additive manufacturing (3D printing)",
+        "Advanced ceramic-alloy composite materials",
+        "Microstructure design and material characterization",
+        "First principles calculations"
+      ],
+      "summary": "研究方向包括增材制造、陶瓷与合金复合材料、微结构设计及第一性原理计算。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-jiachen",
+      "sourceIds": [
+        "hkust-mae-rap-li-jiachen-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-li-jiachen-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-li-jiachen-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-rap-li-qiao",
+      "universityId": "hkust",
+      "name": "Qiao Li / 黎橋",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "低热膨胀材料",
+        "形状记忆合金",
+        "固态制冷与中子表征",
+        "Zero/negative thermal expansion materials",
+        "Thermoelastic & elastocaloric cooling materials",
+        "High-cycle fatigue of single crystalline shape memory alloys",
+        "Advanced neutron charaterization"
+      ],
+      "summary": "研究方向包括低热膨胀材料、形状记忆合金、固态制冷与中子表征。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-qiao",
+      "sourceIds": [
+        "hkust-mae-rap-li-qiao-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-li-qiao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-li-qiao-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-rap-li-xuemu",
+      "universityId": "hkust",
+      "name": "Xuemu Li / 李學木",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "铁电和压电材料",
+        "智能制造",
+        "柔性电子与植入式器件",
+        "Ferro/piezoelectric materials",
+        "Smart manufacturing",
+        "Flexible electronics and implantable devices"
+      ],
+      "summary": "研究方向包括铁电和压电材料、智能制造、柔性电子与植入式器件。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-xuemu",
+      "sourceIds": [
+        "hkust-mae-rap-li-xuemu-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-li-xuemu-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-li-xuemu-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-rap-lin-pengzhu",
+      "universityId": "hkust",
+      "name": "Pengzhu Lin / 林鵬翥",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "储能与燃料电池",
+        "传热传质及多尺度建模",
+        "Energy storage",
+        "Energy conversion",
+        "Fuel cell technology",
+        "Heat and mass transport",
+        "AI for science"
+      ],
+      "summary": "研究方向包括储能与燃料电池、传热传质及多尺度建模。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lin-pengzhu",
+      "sourceIds": [
+        "hkust-mae-rap-lin-pengzhu-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-lin-pengzhu-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-lin-pengzhu-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-rap-liu-yaru",
+      "universityId": "hkust",
+      "name": "Yaru Liu / 劉亞儒",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "结构建模与逆动力学",
+        "不确定性分析",
+        "传感器布局及可靠性设计",
+        "Modelling and inverse dynamics",
+        "Uncertainty analysis",
+        "Sensor placement optimization",
+        "Reliability-based analysis and design"
+      ],
+      "summary": "研究方向包括结构建模与逆动力学、不确定性分析、传感器布局及可靠性设计。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/liu-yaru",
+      "sourceIds": [
+        "hkust-mae-rap-liu-yaru-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-liu-yaru-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-liu-yaru-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-rap-wang-yuhao",
+      "universityId": "hkust",
+      "name": "Yuhao Wang / 王宇豪",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "化学工程"
+      ],
+      "researchKeywords": [
+        "质子陶瓷和固体氧化物电池",
+        "制氢器件设计及电化学诊断",
+        "Protonic ceramic fuel/electrolysis cells (PCFC/PCEC)",
+        "Solid oxide fuel/electrolysis cells (SOFC/SOEC)",
+        "Electrolyzer technologies, device architecture, and system design",
+        "Electrochemical impedance spectroscopy (EIS) and distribution of relaxation times (DRT) analysis",
+        "Data-driven electrochemistry and AI-assisted materials/device optimization"
+      ],
+      "summary": "研究方向包括质子陶瓷和固体氧化物电池、制氢器件设计及电化学诊断。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/wang-yuhao",
+      "sourceIds": [
+        "hkust-mae-rap-wang-yuhao-profile-20261124",
+        "hkust-mae-rap-wang-yuhao-homepage-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-wang-yuhao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-wang-yuhao-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://yuhao.wang/",
+          "label": "个人研究主页",
+          "parentSourceId": "hkust-mae-rap-wang-yuhao-profile-20261124",
+          "sourceId": "hkust-mae-rap-wang-yuhao-homepage-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "院系提供的 HTTP 主页已核读。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-rap-xu-yixin",
+      "universityId": "hkust",
+      "name": "Yixin Xu / 徐伊昕",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "材料与能源",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "复杂体系的输运现象",
+        "分子动力学",
+        "超离子材料及能量转换",
+        "Transport phenomena in complex systems",
+        "Molecular dynamics and mesoscale simulations",
+        "Superionic crystals and energy conversion",
+        "Phonon-ion interactions in superionic materials"
+      ],
+      "summary": "研究方向包括复杂体系的输运现象、分子动力学、超离子材料及能量转换。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-yixin",
+      "sourceIds": [
+        "hkust-mae-rap-xu-yixin-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-rap-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-rap-xu-yixin-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "指导资格、当前招募和名额待核",
+        "cycle": null,
+        "sourceIds": [
+          "hkust-mae-rap-xu-yixin-profile-20261124"
+        ]
+      }
+    }
+  ],
+  "directory": {
+    "id": "hkust-mae-research-assistant-directory",
+    "universityId": "hkust",
+    "unit": "Department of Mechanical and Aerospace Engineering / Research Assistant Professors",
+    "url": "https://mae.hkust.edu.hk/en/people/faculty/research-assistant-professor",
+    "title": "Research Assistant Professor | HKUST MAE",
+    "profileLinksObserved": [
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/li-jiachen",
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/li-qiao",
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/li-xuemu",
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/lin-pengzhu",
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/liu-yaru",
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/wang-yuhao",
+      "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-yixin"
+    ],
+    "coverageNotes": "这里列的是院系名录中的研究助理教授。所列七人的个人页都有研究方向。指导资格和当前招募请向项目确认。",
+    "sourceIds": [
+      "hkust-mae-rap-directory-20261124"
+    ],
+    "coverageComplete": false,
+    "census": {
+      "observedTotal": 7,
+      "profilesRead": 7,
+      "profilesFailed": 0,
+      "entries": [
+        {
+          "name": "Jiachen Li / 李佳宸",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-jiachen",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-li-jiachen",
+          "sourceId": "hkust-mae-rap-li-jiachen-profile-20261124"
+        },
+        {
+          "name": "Qiao Li / 黎橋",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-qiao",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-li-qiao",
+          "sourceId": "hkust-mae-rap-li-qiao-profile-20261124"
+        },
+        {
+          "name": "Xuemu Li / 李學木",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-xuemu",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-li-xuemu",
+          "sourceId": "hkust-mae-rap-li-xuemu-profile-20261124"
+        },
+        {
+          "name": "Pengzhu Lin / 林鵬翥",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lin-pengzhu",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-lin-pengzhu",
+          "sourceId": "hkust-mae-rap-lin-pengzhu-profile-20261124"
+        },
+        {
+          "name": "Yaru Liu / 劉亞儒",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/liu-yaru",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-liu-yaru",
+          "sourceId": "hkust-mae-rap-liu-yaru-profile-20261124"
+        },
+        {
+          "name": "Yuhao Wang / 王宇豪",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/wang-yuhao",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-wang-yuhao",
+          "sourceId": "hkust-mae-rap-wang-yuhao-profile-20261124"
+        },
+        {
+          "name": "Yixin Xu / 徐伊昕",
+          "directoryPosition": "Research Assistant Professor",
+          "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-yixin",
+          "profileRead": true,
+          "reviewStatus": "body_read",
+          "facultyId": "hkust-mae-rap-xu-yixin",
+          "sourceId": "hkust-mae-rap-xu-yixin-profile-20261124"
+        }
+      ]
+    }
+  }
+}

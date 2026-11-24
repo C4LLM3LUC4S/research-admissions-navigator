@@ -2344,6 +2344,11 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    mae_rap = load("hkust-mae-research-assistants-20261124.json")
+    catalog["sources"].extend(mae_rap["sources"])
+    catalog["faculty"].extend(mae_rap["faculty"])
+    catalog["directories"].append(mae_rap["directory"])
+
     mech_sources = load("hkust-mechanical-admissions-20261124.json")["sources"]
     catalog["sources"].extend(mech_sources)
     mech_catalogue, mech_department, mech_apply = (source["id"] for source in mech_sources)
