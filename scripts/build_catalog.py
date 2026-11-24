@@ -2360,6 +2360,17 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    dsa_crosschecks = load("hkustgz-dsa-adjunct-crosschecks-20261124.json")
+    catalog["sources"].extend(dsa_crosschecks["sources"])
+    catalog["faculty"].extend(dsa_crosschecks["faculty"])
+    dsa_adjunct_directory = next(directory for directory in catalog["directories"] if directory["id"] == "gz-dsa-adjunct-directory")
+    dsa_adjunct_directory.setdefault("reviewSourceIds", []).extend(source["id"] for source in dsa_crosschecks["sources"])
+    dsa_adjunct_entries = {entry["profileUrl"]: entry for entry in dsa_adjunct_directory["census"]["entries"]}
+    for update in dsa_crosschecks["updates"]:
+        entry = dsa_adjunct_entries[update["profileUrl"]]
+        assert entry["reviewStatus"] == "not_read"
+        entry.update(update)
+
     aae_academic = load("polyu-aae-academic-20261124.json")
     catalog["sources"].extend(aae_academic["sources"])
     catalog["faculty"].extend(aae_academic["faculty"])
