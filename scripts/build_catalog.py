@@ -2344,6 +2344,14 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    aae_academic = load("polyu-aae-academic-20261124.json")
+    catalog["sources"].extend(aae_academic["sources"])
+    catalog["faculty"].extend(aae_academic["faculty"])
+    catalog["directories"].append(aae_academic["directory"])
+    wenhua_chen = next(person for person in catalog["faculty"] if person["id"] == "polyu-wenhua-chen")
+    wenhua_chen["directorySourceIds"] = list(dict.fromkeys(wenhua_chen.get("directorySourceIds", []) + aae_academic["directory"]["sourceIds"]))
+    wenhua_chen["sourceIds"] = list(dict.fromkeys(wenhua_chen["sourceIds"] + aae_academic["directory"]["sourceIds"]))
+
     aae_rap = load("polyu-aae-research-assistants-20261124.json")
     catalog["sources"].extend(aae_rap["sources"])
     catalog["faculty"].extend(aae_rap["faculty"])
