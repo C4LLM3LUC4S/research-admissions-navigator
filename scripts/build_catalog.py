@@ -2448,6 +2448,44 @@ def build_catalog():
                     "basis": "academic_year", "condition": "全日制或兼读"}]},
     ]
     catalog["programs"].append(mech)
+    sds = load("cuhksz-sds-admissions-20261124.json")
+    catalog["sources"].extend(sds["sources"])
+    for item in sds["programmes"]:
+        pid = "cuhksz-sds-" + item["key"]
+        admissions = [pid + "-application-2027"]
+        tuition = [pid + "-fees-2027"]
+        entry = program(pid + "-rpg-2027", "cuhksz", item["name"], ["MPhil", "PhD"],
+            "港中文（深圳）数据科学学院，2027/28 学年入学，滚动审理。",
+            "recommended", "建议提前联系意向导师。拟选联合导师时，在网申中一并注明。", admissions,
+            "按项目清单提交 PDF 材料；学院可视情况安排面试。", admissions,
+            [deadline("2027 入学滚动申请截止", "2027-05-31", admissions)],
+            admissions + tuition, "学院按项目分别列硕博学历、材料和费用。")
+        entry["entryUrl"] = item["application"]
+        mphil_degree = "认可大学学士，通常须二等荣誉或以上，或荣誉学士课程平均 B 或以上；也可用等同荣誉学位的专业资格。"
+        entry["requirements"] = [
+            {"label": "MPhil 学历", "degrees": ["MPhil"], "text": mphil_degree,
+             "action": "核对学士成绩或同等专业资格。", "sourceIds": admissions},
+            {"label": "PhD 学历", "degrees": ["PhD"], "text": "认可大学硕士可申请。走学士或专业资格路线时：" + mphil_degree,
+             "action": "按硕士或学士路径核对学历条件。", "sourceIds": admissions},
+            {"label": "英语证明", "text": "TOEFL 79/120 或 4.5/6，接受机考或居家版。IELTS Academic 6.5，接受考点或在线版；两类成绩有效期两年。香港或英语国家认可的专业资格也可按原页核对。",
+             "action": "核对成绩单的考试形式、分数及有效期。", "sourceIds": admissions},
+            {"label": "申请材料", "text": "英文简历与个人陈述、学历证书及相应认证、盖章成绩单、英语证明、身份证或护照、两位推荐人。成绩单缺累计绩点时另附证明。" + item["ranking"],
+             "action": "整理文件，并在提交后提醒两位推荐人留意系统邮件。", "sourceIds": admissions},
+            {"label": "进入网申", "text": "在研究生申请系统选择本项目并上传 PDF。",
+             "action": "打开研究生申请系统核对项目。", "url": "https://pgapply.cuhk.edu.cn/", "sourceIds": admissions},
+        ]
+        entry["finances"] = [
+            {"id": pid + "-fee-2027", "kind": "application_fee", "label": "网申申请费",
+             "text": "每次申请人民币 600 元，不予退还。", "action": "提交网申时核对付款方式。", "sourceIds": admissions,
+             "rates": [{"value": 600, "currency": "CNY", "unit": "application", "basis": "intake", "cycle": CYCLE, "condition": "研究学位申请"}]},
+            {"id": pid + "-tuition-2027", "kind": "tuition", "label": "2027/28 硕博学费",
+             "text": "学费每年人民币 162,000 元。", "action": "按预计学制估算学费。", "sourceIds": tuition,
+             "rates": [{"value": 162000, "currency": "CNY", "unit": "academic_year", "basis": "intake", "cycle": CYCLE, "condition": "MPhil 或 PhD"}]},
+            {"id": pid + "-funding-2027", "kind": "studentship", "label": "2027/28 博士资助",
+             "degrees": ["PhD"], "text": "资助依据学业和综合表现评定，续发须经年度审核，获资助期间须按安排担任助教。", "action": "核对奖助和助教义务。", "sourceIds": tuition, "rates": []},
+        ]
+        catalog["programs"].append(entry)
+
     reviewed_entries = load("unit-entry-reconciliation-20261124.json")["entries"]
     source_by_id = {source["id"]: source for source in catalog["sources"]}
     units_by_id = {unit["id"]: unit for school in catalog["academicCoverage"] for unit in school["units"]}
