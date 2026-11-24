@@ -2344,6 +2344,23 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    reviewed_entries = load("unit-entry-reconciliation-20261124.json")["entries"]
+    source_by_id = {source["id"]: source for source in catalog["sources"]}
+    units_by_id = {unit["id"]: unit for school in catalog["academicCoverage"] for unit in school["units"]}
+    for entry in reviewed_entries:
+        source = source_by_id[entry["sourceId"]]
+        unit = units_by_id[entry["parentId"]]
+        child = next(row for row in unit["children"] if row["name"] == entry["name"] and row["url"] == entry["url"])
+        assert child["entryBodyStatus"] == "not_read"
+        original = urlsplit(source.get("originalUrl", source["url"]))
+        expected = urlsplit(child["url"])
+        assert original._replace(path=original.path.rstrip("/")) == expected._replace(path=expected.path.rstrip("/"))
+        assert source["evidenceLevel"] == "official_scoped_body_read" and source.get("responseKind") != "access_challenge"
+        assert source["checkedAt"] == entry["originalCheckedAt"]
+        child.update(entryBodyStatus="body_read", checkedAt=source["checkedAt"],
+                     retrievedUrl=source["retrievedUrl"], bodySha256=source["bodySha256"],
+                     readMethod=source["readMethod"],
+                     sourceIds=list(dict.fromkeys([*child.get("sourceIds", []), source["id"]])))
     return catalog
 
 

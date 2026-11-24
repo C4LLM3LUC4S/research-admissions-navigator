@@ -307115,7 +307115,7 @@
             {
               "name": "Department of Materials and Energy",
               "url": "https://mse.hku.hk/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "relationship": "listed_on_parent_page",
@@ -307132,14 +307132,19 @@
                 "kind": "department"
               },
               "sourceIds": [
-                "stem-college-hku-engineering-departments-20261029"
+                "stem-college-hku-engineering-departments-20261029",
+                "unit-followup-entry-01-20261104"
               ],
               "parentEvidenceStatus": "body_read",
               "inventorySourceIds": [
                 "stem-college-hku-engineering-departments-20261029"
               ],
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://mse.hku.hk/",
+              "bodySha256": "828ea8d51ea5989f52f26b668b103326a60ac07bb425c2a11447b04e9af00855",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "Department of Mechanical Engineering",
@@ -307209,11 +307214,12 @@
               "url": "https://sbme.hku.hk/",
               "kind": "school",
               "relationship": "affiliated_school",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hku-science-departments-20261029"
+                "child-units-hku-science-departments-20261029",
+                "unit-followup-entry-02-20261104"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
@@ -307228,7 +307234,11 @@
               "observedName": "School of Biomedical Engineering",
               "inventorySourceIds": [
                 "stem-college-hku-engineering-departments-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://sbme.hku.hk/",
+              "bodySha256": "3ec40802ec07f471c7b16c8cd5c3d469c933d5bd550b995b3f5eb266fd26ebdf",
+              "readMethod": "anonymous_HTTP"
             }
           ],
           "staffEntries": [
@@ -311185,18 +311195,23 @@
               "url": "https://chemistry.hku.hk",
               "kind": "direct_academic_unit",
               "relationship": "direct_academic_unit",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hku-science-departments-20261029"
+                "child-units-hku-science-departments-20261029",
+                "hku-science-chemistry-unit-20261105"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hku-science-departments-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-05",
+              "retrievedUrl": "https://chemistry.hku.hk/",
+              "bodySha256": "2e45aa8b354931fbe6bef08c8597ec843bff3402cd28fc6cf035c567067f11fd",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "Department of Earth and Planetary Sciences",
@@ -311257,18 +311272,23 @@
               "url": "https://sbme.hku.hk/",
               "kind": "affiliated_school",
               "relationship": "affiliated_school",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hku-science-departments-20261029"
+                "child-units-hku-science-departments-20261029",
+                "unit-followup-entry-02-20261104"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hku-science-departments-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://sbme.hku.hk/",
+              "bodySha256": "3ec40802ec07f471c7b16c8cd5c3d469c933d5bd550b995b3f5eb266fd26ebdf",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "School of Computing and Data Science",
@@ -311293,18 +311313,23 @@
               "url": "https://i-school.hku.hk/",
               "kind": "affiliated_school",
               "relationship": "affiliated_school",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hku-science-departments-20261029"
+                "child-units-hku-science-departments-20261029",
+                "unit-followup-entry-03-20261104"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hku-science-departments-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://i-school.hku.hk/",
+              "bodySha256": "65eb13d849118979d817354f66745e1d1271efc4c1ad390f591d72f3d077502e",
+              "readMethod": "anonymous_HTTP"
             }
           ],
           "staffEntries": [
@@ -313708,9 +313733,10 @@
             {
               "name": "The School of Accountancy",
               "url": "https://www.bschool.cuhk.edu.hk/departments/accountancy/",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "sourceIds": [
-                "college-batch-cuhk-2-20261029"
+                "college-batch-cuhk-2-20261029",
+                "unit-followup-entry-04-20261104"
               ],
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
@@ -313729,7 +313755,11 @@
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://www.bschool.cuhk.edu.hk/departments/accountancy/",
+              "bodySha256": "b46b04d7e58cabee6d25537ef50448ad3155e2ea02a5f1f0794858b6c0744454",
+              "readMethod": "anonymous_HTTP"
             }
           ],
           "staffEntries": [],
@@ -327073,36 +327103,46 @@
               "url": "https://amc.hkust.edu.hk",
               "kind": "division",
               "relationship": "listed_on_parent_page",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hkust-ais-20261029"
+                "child-units-hkust-ais-20261029",
+                "hkust-ais-amc-unit-20261105"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hkust-ais-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-05",
+              "retrievedUrl": "https://amc.hkust.edu.hk",
+              "bodySha256": "598a957b9db201ab437bc4e85c1fce2bd0cbb7a53a659f64be8e7b56d114aa81",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "Division of Emerging Interdisciplinary Areas",
               "url": "https://emia.hkust.edu.hk/",
               "kind": "division",
               "relationship": "listed_on_parent_page",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hkust-ais-20261029"
+                "child-units-hkust-ais-20261029",
+                "hkust-ais-emia-unit-20261105"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hkust-ais-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-05",
+              "retrievedUrl": "https://emia.hkust.edu.hk/",
+              "bodySha256": "647a472e7263820982a2664aac2b0341ad5bdf4ad777ff1e3c584a9a9809ef21",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "Division of Environment & Sustainability",
@@ -327127,36 +327167,46 @@
               "url": "https://isd.hkust.edu.hk/",
               "kind": "division",
               "relationship": "listed_on_parent_page",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hkust-ais-20261029"
+                "child-units-hkust-ais-20261029",
+                "hkust-ais-isd-unit-20261105"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hkust-ais-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-05",
+              "retrievedUrl": "https://isd.hkust.edu.hk/",
+              "bodySha256": "f36ca010f6b8109f66fbeedc438060c9e467f512473af522b8057453e89f5dcc",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "Division of Public Policy",
               "url": "https://ppol.hkust.edu.hk/",
               "kind": "division",
               "relationship": "listed_on_parent_page",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "child-units-hkust-ais-20261029"
+                "child-units-hkust-ais-20261029",
+                "hkust-ais-ppol-unit-20261105"
               ],
               "parentEvidenceStatus": "body_read",
               "supervisionEligibility": "unknown",
               "availability": "unknown",
               "inventorySourceIds": [
                 "child-units-hkust-ais-20261029"
-              ]
+              ],
+              "checkedAt": "2026-11-05",
+              "retrievedUrl": "https://ppol.hkust.edu.hk/",
+              "bodySha256": "4dc81ab77c0d0457175f08df89e0e98a63978721121a0075b11235d13fed99d5",
+              "readMethod": "anonymous_HTTP"
             }
           ],
           "staffEntries": [
@@ -351975,11 +352025,12 @@
             {
               "name": "数据科学与分析",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/data-science-and-analytics/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "organization-gz-information-20261029"
+                "organization-gz-information-20261029",
+                "unit-followup-entry-06-20261104"
               ],
               "kind": "thrust",
               "relationship": "listed_on_parent_page",
@@ -351988,7 +352039,11 @@
                 "organization-gz-information-20261029"
               ],
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/data-science-and-analytics/?variant=zh-cn",
+              "bodySha256": "328dde986ad4c1131e5fa3d6e274c1d452a41f93709bc7950320a76a9164ed95",
+              "readMethod": "anonymous_HTTP"
             },
             {
               "name": "计算媒体与艺术",
@@ -352015,11 +352070,12 @@
             {
               "name": "物联网",
               "url": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/internet-of-things/?variant=zh-cn",
-              "entryBodyStatus": "not_read",
+              "entryBodyStatus": "body_read",
               "teacherProfilesTotal": null,
               "teacherReviewStatus": "pending",
               "sourceIds": [
-                "organization-gz-information-20261029"
+                "organization-gz-information-20261029",
+                "unit-followup-entry-07-20261104"
               ],
               "kind": "thrust",
               "relationship": "listed_on_parent_page",
@@ -352028,7 +352084,11 @@
                 "organization-gz-information-20261029"
               ],
               "supervisionEligibility": "unknown",
-              "availability": "unknown"
+              "availability": "unknown",
+              "checkedAt": "2026-11-04",
+              "retrievedUrl": "https://www.hkust-gz.edu.cn/zh/academics/hubs-and-thrust-areas/information-hub/internet-of-things/?variant=zh-cn",
+              "bodySha256": "9fa185ff6a7329820fafe90521ec472f6f2d2a79769c270947f0abf66c4e54c9",
+              "readMethod": "anonymous_HTTP"
             }
           ],
           "staffEntries": [
@@ -356261,5 +356321,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:44d074faa85ce8a50d8e413fbac8f7a8c8ad3eee68baee7f3266e1766be741ef"
+  "snapshotId": "sha256:e88b844ced11b7177133af150f08e799f37b2dfb0b66fe9a1fbc39fe1028c408"
 }
