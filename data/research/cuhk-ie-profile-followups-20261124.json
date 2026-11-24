@@ -151,6 +151,77 @@
         "院系纪念名录的魏克為条目可读，所读页保留纪念身份。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+      "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
+      "title": "港中文 · Dah Ming Chiu 个人主页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学校托管个人主页、荣休身份及所给入口。",
+      "claims": [
+        "主页列香港中文大学信息工程学系荣休教授。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://staff.ie.cuhk.edu.hk/~dmchiu/short_bio.txt",
+        "https://staff.ie.cuhk.edu.hk/~dmchiu/publications.html"
+      ]
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+      "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/short_bio.txt",
+      "title": "Dah Ming Chiu · 研究简介",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本人简介所列研究方向。",
+      "claims": [
+        "本人简介列应用数据分析、互联网内容分发及网络经济学。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+      "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/publications.html",
+      "title": "Dah Ming Chiu · 成果列表",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "所链接的成果入口。",
+      "claims": [
+        "成果列表含社交计算、引文网络和应用数据分析。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
+    },
+    {
+      "id": "cuhk-ie-john-lui-research-20261125",
+      "url": "https://www.cse.cuhk.edu.hk/~cslui/",
+      "title": "港中文 · John C. S. Lui 个人主页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学校托管个人主页和主聘身份。",
+      "claims": [
+        "主页列计算机科学与工程学系讲座教授，列在线学习、量子互联网和网络科学等研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-chiu-erg-directory-20261125",
+      "url": "https://www7.erg.cuhk.edu.hk/erg/FacultyMembers/ByName",
+      "title": "港中文工程学院 · 邱達民中英文姓名",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "按姓名排列的学院名录中该人员行。",
+      "claims": [
+        "学院名录列中文姓名邱達民，并链接到信息工程学系的荣休教授条目。"
+      ],
+      "knownIssues": []
     }
   ],
   "faculty": [
@@ -269,15 +340,83 @@
           "cuhk-ie-yue-on-ching-profile-20261124"
         ]
       }
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston",
+      "universityId": "cuhk",
+      "name": "Dah Ming Chiu / 邱達民",
+      "department": "Department of Information Engineering",
+      "role": "Emeritus Professor",
+      "directoryRole": "Emeritus Professors",
+      "topics": [
+        "网络与系统",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "应用数据分析",
+        "互联网内容分发",
+        "网络经济学",
+        "学术社交网络",
+        "applied data analysis",
+        "Internet content distribution",
+        "network economics",
+        "academic social networks"
+      ],
+      "summary": "本人简介列应用数据分析、互联网内容分发和网络经济学，相关成果包括学术社交网络研究。",
+      "profileUrl": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
+      "identityNote": "信息工程学系荣休教授。",
+      "sourceIds": [
+        "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-chiu-erg-directory-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-publications-20261125"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/short_bio.txt",
+          "label": "本人研究简介",
+          "sourceId": "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+          "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+          "bodyStatus": "body_read",
+          "readNote": "已核读原主页给出的入口。"
+        },
+        {
+          "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/publications.html",
+          "label": "成果列表",
+          "sourceId": "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+          "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+          "bodyStatus": "body_read",
+          "readNote": "已核读原主页给出的入口。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhk-ie-roster-20261111",
+          "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
+        ]
+      }
     }
   ],
   "updates": [
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chiu-dah-ming-winston/",
-      "reviewStatus": "access_failed",
-      "profileRead": false,
-      "reviewNote": "院系链接跳转至旧 HTTP 个人站。本次未核读个人正文。",
-      "retrievedProfileUrl": "http://staff.ie.cuhk.edu.hk/~dmchiu/"
+      "reviewStatus": "body_read",
+      "profileRead": true,
+      "reviewNote": "信息工程系荣休教授。个人主页、简介和成果列表已核。",
+      "retrievedProfileUrl": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
+      "sourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+      "facultyId": "cuhk-ie-chiu-dah-ming-winston"
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yum-tak-shing-peter/",
@@ -289,10 +428,12 @@
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lui-chi-shing-john/",
-      "reviewStatus": "access_failed",
-      "profileRead": false,
-      "reviewNote": "院系链接转至计算机科学与工程系 HTTP 个人站。本次未核读该落地正文。",
-      "retrievedProfileUrl": "http://www.cse.cuhk.edu.hk/~cslui/"
+      "reviewStatus": "body_read",
+      "profileRead": true,
+      "reviewNote": "信息工程系礼聘；个人主页列计算机科学与工程系主聘。沿用原档案。",
+      "retrievedProfileUrl": "https://www.cse.cuhk.edu.hk/~cslui/",
+      "sourceId": "cuhk-ie-john-lui-research-20261125",
+      "facultyId": "wide-cuhk-john-chi-shing-lui"
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chong-han-joo-peter/",
