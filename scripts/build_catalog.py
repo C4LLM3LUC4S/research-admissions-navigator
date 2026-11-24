@@ -1134,10 +1134,20 @@ def build_catalog():
         ])
     catalog["programs"].append(dsa)
     rbm = next(row for row in catalog["programs"] if row["id"] == "hkust-gz-rbm")
-    rbm["sourceIds"].append("gz-dsa-mphil")
+    dsa_archive = "gz-dsa-mphil-curriculum-2024-25"
+    catalog["sources"].append({"id": dsa_archive,
+        "url": "https://fytgs.hkust-gz.edu.cn/programs/2024-25/information-hub/data-science-and-analytics-3",
+        "title": "港科广研究生院 · 2024/25 数据科学与分析培养目录", "checkedAt": "2026-11-24",
+        "readMethod": "web_reader", "evidenceLevel": "official_verified_page_scoped",
+        "scope": "2024/25 培养目录，含 MPhil (DSA) 和博士。",
+        "claims": ["学域 MPhil 页的项目概览链接仍指向这份 2024/25 培养目录。"],
+        "knownIssues": ["适用学年为 2024/25。当期独立招生入口待核。"]})
+    dsa_mphil_refs = ["gz-dsa-mphil", "gz-redbird", dsa_archive]
+    rbm["sourceIds"].extend(["gz-dsa-mphil", dsa_archive])
     rbm.setdefault("requirements", []).append({"label": "对数据科学与分析感兴趣",
-        "text": "学域 MPhil 页面链接至红鸟硕士。申请时在系统选择 MPhil (General)，入学后再按红鸟项目安排探索研究方向并确定学域。",
-        "sourceIds": ["gz-dsa-mphil", "gz-redbird"]})
+        "text": "2027/28 可从红鸟硕士申请。网申选 MPhil (General)，入学后再按红鸟安排探索研究方向并确定学域。学域官网还有一份 2024/25 的 MPhil (DSA) 培养目录，当期独立申请入口待核。",
+        "action": "从红鸟硕士当期招生页核对申请条件与截止日期。",
+        "sourceIds": dsa_mphil_refs})
     dsa_faculty = load("hkustgz-dsa-20261110.json")
     catalog["sources"].extend(dsa_faculty["sources"])
     catalog["faculty"].extend(dsa_faculty["faculty"])

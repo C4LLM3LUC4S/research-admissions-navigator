@@ -59,6 +59,37 @@
       "knownIssues": [
         "兼任由学域名录及本人履历核对。本人履历的陈述与岭南研究档案各自标明。"
       ]
+    },
+    {
+      "id": "hkustgz-dsa-createlink-lab-en-20261124",
+      "url": "https://dsa.hkust-gz.edu.cn/research/labs-institutes/createlink-graph-data-joint-lab/",
+      "title": "港科广 · 创邻图数据联合实验室（英文）",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港科广数据科学与分析学域，联合实验室成员与公开研究条目。",
+      "claims": [
+        "成员页列出 Chen Zhang 为数据科学与分析学域实践副教授、实验室副主任。",
+        "该实验室列出其署名的图数据库专著和分布式图数据库工作。"
+      ],
+      "knownIssues": [
+        "实验室招募文字不适用于判定个人指导资格和当期余位。"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-createlink-lab-zh-20261124",
+      "url": "https://dsa.hkust-gz.edu.cn/zh/research/labs-institutes/createlink-graph-data-joint-lab/",
+      "title": "港科广 · 创邻图数据联合实验室（中文）",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港科广数据科学与分析学域，联合实验室成员与公开研究条目。",
+      "claims": [
+        "中文成员页以张晨列出同一实验室任职及个人入口。"
+      ],
+      "knownIssues": [
+        "实验室招募文字不适用于判定个人指导资格和当期余位。"
+      ]
     }
   ],
   "faculty": [
@@ -146,6 +177,46 @@
           "gz-dsa-adjunct"
         ]
       }
+    },
+    {
+      "id": "hkustgz-dsa-practice-chen-zhang",
+      "universityId": "hkustgz",
+      "name": "Chen Zhang / 张晨",
+      "department": "Thrust of Data Science and Analytics",
+      "directoryRole": "Associate Professor of Practice",
+      "role": "实践副教授",
+      "topics": [
+        "数据库与数据系统"
+      ],
+      "researchKeywords": [
+        "图数据库",
+        "分布式图数据库",
+        "graph databases",
+        "distributed graph databases"
+      ],
+      "summary": "创邻图数据联合实验室副主任。实验室所列署名成果包括图数据库专著和分布式图数据库研究。",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang#new_tab",
+      "identityNote": "学域名录与联合实验室成员页的个人入口一致。个人页此次仅返回加载提示，任职和研究线索来自学域实验室。",
+      "sourceIds": [
+        "gz-dsa-adjunct",
+        "hkustgz-dsa-createlink-lab-en-20261124",
+        "hkustgz-dsa-createlink-lab-zh-20261124"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-adjunct"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-createlink-lab-en-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "gz-dsa-adjunct",
+          "hkustgz-dsa-createlink-lab-en-20261124"
+        ]
+      }
     }
   ],
   "updates": [
@@ -158,6 +229,11 @@
       "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Dian/336#new_tab",
       "facultyId": "hkustgz-dsa-adjunct-dian-zhang",
       "reviewNote": "广州个人页正文待核；研究方向由岭南大学档案核对，兼任有名录及本人履历依据。"
+    },
+    {
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang#new_tab",
+      "facultyId": "hkustgz-dsa-practice-chen-zhang",
+      "reviewNote": "实践任职及图数据库研究已由院系联合实验室核对。个人页正文待核。"
     }
   ]
 }
