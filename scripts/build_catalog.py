@@ -3253,11 +3253,23 @@ def school_catalog_scripts(catalog, index_js):
         name = "catalog-" + school + ".js"
         result[name] = content
         manifest.append({"key": school, "url": name + "?v=" + hashlib.sha256(content.encode()).hexdigest()[:16]})
+    index_parts = {}
+    for school in catalog["universities"]:
+        key = school["id"]
+        rows = [[person["name"], person["universityId"], person["profileUrl"],
+                 person["researchKeywords"], person["id"]] for person in catalog["faculty"]
+                if person["universityId"] == key]
+        payload = {"snapshotId": catalog["snapshotId"], "faculty": rows}
+        name = f"faculty-index-{key}.js"
+        source = f"window.APP_FACULTY_INDEX_PARTS.set({json.dumps(key)}," + json.dumps(
+            payload, ensure_ascii=False, separators=(",", ":"), allow_nan=False) + ");\n"
+        result[name] = source
+        index_parts[key] = name + "?v=" + hashlib.sha256(source.encode()).hexdigest()[:16]
     result["catalog-loader.js"] = (ROOT / "scripts/catalog-loader.js").read_text(encoding="utf-8").replace(
         "/* CATALOG_BASE */", browser_catalog_script(base).removeprefix("window.APP_CATALOG = ").strip().removesuffix(";")
     ).replace("/* CATALOG_MANIFEST */", json.dumps(manifest, separators=(",", ":"))).replace(
         "/* FACULTY_INDEX_URL */", json.dumps("faculty-index.js?v=" + hashlib.sha256(index_js.encode()).hexdigest()[:16])
-    )
+    ).replace("/* FACULTY_INDEX_PART_URLS */", json.dumps(index_parts, separators=(",", ":")))
     return result
 
 

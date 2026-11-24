@@ -7,7 +7,7 @@ const plain=value=>JSON.parse(JSON.stringify(value));
 function harness({saved=null,fail=false,mutate}={}){
   const requests=[],indexRequests=[];let failing=fail;
   const context={window:{},URL,setTimeout,clearTimeout,localStorage:{getItem:()=>saved},document:{currentScript:{src:'https://example.org/app/catalog-loader.js'},
-    createElement(){return {remove(){}};},head:{append(element){const isIndex=element.src.includes("/faculty-index.js?");(isIndex?indexRequests:requests).push(element.src);setTimeout(()=>{
+    createElement(){return {remove(){}};},head:{append(element){const isIndex=/\/faculty-index(?:-[a-z]+)?\.js\?/.test(element.src);(isIndex?indexRequests:requests).push(element.src);setTimeout(()=>{
       if(failing){element.onerror();return;}
       vm.runInContext(script(new URL(element.src).pathname.split('/').pop()),context);
       if(mutate&&!isIndex)mutate(context.window.APP_CATALOG_PARTS.at(-1));
@@ -197,4 +197,21 @@ test('HKUST Guangzhou AI and IoT separate direct PhD from the shared Red Bird ap
   assert.ok(redbird.requirements.some(r=>r.label==='对'+field+'感兴趣'&&r.text.includes('MPhil (General)')));
   assert.ok(!phd.selection.text.includes('MFA'));
  }
+});
+
+test('selected campuses download only their own searchable rows and reuse those requests',async()=>{
+  const h=harness(), app=h.window;
+  const [indexes, overlap]=await Promise.all([
+    app.APP_LOAD_FACULTY_INDEX(['hku','cuhksz']),
+    app.APP_LOAD_FACULTY_INDEX(['hku'])
+  ]);
+  const names=h.indexRequests.map(url=>new URL(url).pathname.split('/').pop());
+  assert.deepEqual(names.sort(),['faculty-index-cuhksz.js','faculty-index-hku.js']);
+  assert.equal(h.requests.length,0);
+  for(const [position,school] of ['hku','cuhksz'].entries()){
+    assert.deepEqual(plain(indexes[position].faculty.map(row=>row[4])),
+      expected.faculty.filter(person=>person.universityId===school).map(person=>person.id));
+  }
+  assert.equal(overlap[0],indexes[0]);
+  assert.equal(app.APP_FACULTY_INDEX,undefined);
 });
