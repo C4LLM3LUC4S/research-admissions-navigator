@@ -2459,15 +2459,16 @@ def build_catalog():
         faculty["directorySourceIds"] = list(dict.fromkeys(faculty.get("directorySourceIds", []) + sds_affiliated["directory"]["sourceIds"]))
         faculty["identityNote"] = " ".join(filter(None, (faculty.get("identityNote"), update["identityNote"])))
 
-    sds_observed = load("cuhksz-sds-observed-faculty-20261124.json")
-    catalog["sources"].extend(sds_observed["sources"])
-    catalog["directories"].append(sds_observed["directory"])
-    catalog["faculty"].extend(sds_observed["faculty"])
-    for update in sds_observed["existingUpdates"]:
-        faculty = sds_faculty[update["id"]]
-        faculty["sourceIds"] = list(dict.fromkeys(faculty["sourceIds"] + update["sourceIds"]))
-        faculty["directorySourceIds"] = list(dict.fromkeys(faculty.get("directorySourceIds", []) + sds_observed["directory"]["sourceIds"]))
-        faculty["identityNote"] = " ".join(filter(None, (faculty.get("identityNote"), update["identityNote"])))
+    for sds_source in ("cuhksz-sds-observed-faculty-20261124.json", "cuhksz-sds-page3-20261124.json"):
+        sds_observed = load(sds_source)
+        catalog["sources"].extend(sds_observed["sources"])
+        catalog["directories"].append(sds_observed["directory"])
+        catalog["faculty"].extend(sds_observed["faculty"])
+        for update in sds_observed["existingUpdates"]:
+            faculty = sds_faculty[update["id"]]
+            faculty["sourceIds"] = list(dict.fromkeys(faculty["sourceIds"] + update["sourceIds"]))
+            faculty["directorySourceIds"] = list(dict.fromkeys(faculty.get("directorySourceIds", []) + sds_observed["directory"]["sourceIds"]))
+            faculty["identityNote"] = " ".join(filter(None, (faculty.get("identityNote"), update["identityNote"])))
 
     sds = load("cuhksz-sds-admissions-20261124.json")
     catalog["sources"].extend(sds["sources"])
