@@ -314204,7 +314204,7 @@
     {
       "id": "cuhksz-sds-observed-faculty-directory",
       "universityId": "cuhksz",
-      "unit": "School of Data Science / Faculty",
+      "unit": "数据科学学院 · 已逐人核对的师资条目",
       "url": "https://sds.cuhk.edu.cn/en/teacher-search",
       "title": "港中文（深圳）数据科学学院 · 教师浏览",
       "profileLinksObserved": [
@@ -364667,5 +364667,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:71bd565d54c0d8b7c85c5d73b3fc8ff8ad09d36d6816b68bb08775d5574c6f45"
+  "snapshotId": "sha256:8ee381cd9b8423cf27c5a21a997cc76b1191de197462627a86edeb09ffca5b8e"
 }
