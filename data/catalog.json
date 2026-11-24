@@ -808,6 +808,7 @@
         "gz-central-requirements",
         "gz-scholarships-fees",
         "gz-dsa-mphil",
+        "gz-dsa-mphil-curriculum-2024-25",
         "hkustgz-inf-hub-cma-brochure-2027-20261122"
       ],
       "evidenceNote": "仅红鸟硕士规则，不代表广州所有博士或学域。",
@@ -831,10 +832,12 @@
         },
         {
           "label": "对数据科学与分析感兴趣",
-          "text": "学域 MPhil 页面链接至红鸟硕士。申请时在系统选择 MPhil (General)，入学后再按红鸟项目安排探索研究方向并确定学域。",
+          "text": "2027/28 可从红鸟硕士申请。网申选 MPhil (General)，入学后再按红鸟安排探索研究方向并确定学域。学域官网还有一份 2024/25 的 MPhil (DSA) 培养目录，当期独立申请入口待核。",
+          "action": "从红鸟硕士当期招生页核对申请条件与截止日期。",
           "sourceIds": [
             "gz-dsa-mphil",
-            "gz-redbird"
+            "gz-redbird",
+            "gz-dsa-mphil-curriculum-2024-25"
           ]
         },
         {
@@ -143219,6 +143222,46 @@
       }
     },
     {
+      "id": "hkustgz-dsa-practice-chen-zhang",
+      "universityId": "hkustgz",
+      "name": "Chen Zhang / 张晨",
+      "department": "Thrust of Data Science and Analytics",
+      "directoryRole": "Associate Professor of Practice",
+      "role": "实践副教授",
+      "topics": [
+        "数据库与数据系统"
+      ],
+      "researchKeywords": [
+        "图数据库",
+        "分布式图数据库",
+        "graph databases",
+        "distributed graph databases"
+      ],
+      "summary": "创邻图数据联合实验室副主任。实验室所列署名成果包括图数据库专著和分布式图数据库研究。",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Chen/chenzhang#new_tab",
+      "identityNote": "学域名录与联合实验室成员页的个人入口一致。个人页此次仅返回加载提示，任职和研究线索来自学域实验室。",
+      "sourceIds": [
+        "gz-dsa-adjunct",
+        "hkustgz-dsa-createlink-lab-en-20261124",
+        "hkustgz-dsa-createlink-lab-zh-20261124"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-adjunct"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-createlink-lab-en-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "gz-dsa-adjunct",
+          "hkustgz-dsa-createlink-lab-en-20261124"
+        ]
+      }
+    },
+    {
       "id": "polyu-aae-wen-chih-yung",
       "universityId": "polyu",
       "name": "Chih-Yung Wen",
@@ -263661,6 +263704,21 @@
       "bodySha256": "5effd0439b838fdfcd8d2b771a4e49fec228029379702970d0c7bf46d50786ee"
     },
     {
+      "id": "gz-dsa-mphil-curriculum-2024-25",
+      "url": "https://fytgs.hkust-gz.edu.cn/programs/2024-25/information-hub/data-science-and-analytics-3",
+      "title": "港科广研究生院 · 2024/25 数据科学与分析培养目录",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "2024/25 培养目录，含 MPhil (DSA) 和博士。",
+      "claims": [
+        "学域 MPhil 页的项目概览链接仍指向这份 2024/25 培养目录。"
+      ],
+      "knownIssues": [
+        "适用学年为 2024/25。当期独立招生入口待核。"
+      ]
+    },
+    {
       "id": "hkustgz-dsa-20261110-profile-20",
       "url": "https://facultyprofiles.hkust-gz.edu.cn/api/itdcms-rpc/profile/primary/20",
       "title": "Lei CHEN · 港科广公开个人资料",
@@ -280690,6 +280748,37 @@
       ],
       "knownIssues": [
         "兼任由学域名录及本人履历核对。本人履历的陈述与岭南研究档案各自标明。"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-createlink-lab-en-20261124",
+      "url": "https://dsa.hkust-gz.edu.cn/research/labs-institutes/createlink-graph-data-joint-lab/",
+      "title": "港科广 · 创邻图数据联合实验室（英文）",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港科广数据科学与分析学域，联合实验室成员与公开研究条目。",
+      "claims": [
+        "成员页列出 Chen Zhang 为数据科学与分析学域实践副教授、实验室副主任。",
+        "该实验室列出其署名的图数据库专著和分布式图数据库工作。"
+      ],
+      "knownIssues": [
+        "实验室招募文字不适用于判定个人指导资格和当期余位。"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-createlink-lab-zh-20261124",
+      "url": "https://dsa.hkust-gz.edu.cn/zh/research/labs-institutes/createlink-graph-data-joint-lab/",
+      "title": "港科广 · 创邻图数据联合实验室（中文）",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港科广数据科学与分析学域，联合实验室成员与公开研究条目。",
+      "claims": [
+        "中文成员页以张晨列出同一实验室任职及个人入口。"
+      ],
+      "knownIssues": [
+        "实验室招募文字不适用于判定个人指导资格和当期余位。"
       ]
     },
     {
@@ -307648,7 +307737,8 @@
             "directoryPosition": "Associate Professor of Practice",
             "profileRead": false,
             "reviewStatus": "not_read",
-            "reviewNote": "名录身份已核，原个人入口仍未取得可绑定身份的正文。"
+            "reviewNote": "实践任职及图数据库研究已由院系联合实验室核对。个人页正文待核。",
+            "facultyId": "hkustgz-dsa-practice-chen-zhang"
           },
           {
             "name": "Dian ZHANG",
@@ -307695,7 +307785,9 @@
         "hkustgz-dsa-adjunct-haodi-zhang-research-20261124",
         "hkustgz-dsa-adjunct-haodi-zhang-identity-20261111",
         "hkustgz-dsa-adjunct-dian-zhang-research-20261124",
-        "hkustgz-dsa-adjunct-dian-zhang-identity-20261111"
+        "hkustgz-dsa-adjunct-dian-zhang-identity-20261111",
+        "hkustgz-dsa-createlink-lab-en-20261124",
+        "hkustgz-dsa-createlink-lab-zh-20261124"
       ]
     },
     {
@@ -365903,5 +365995,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:34367d8f3edcdf13d99e70d842c0cced6a7fdd2eb59d03d879081aaae70b0010"
+  "snapshotId": "sha256:f75fe2e0067005d7008aedff543c9b98f5cfe635b5374d50b84e6225a5ad2f1f"
 }
