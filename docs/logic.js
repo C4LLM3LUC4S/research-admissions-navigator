@@ -409,6 +409,8 @@
     try {const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&(!u.port||u.port==='443')?u.href:null;}catch(_){return null;}
   }
   const CROSSCHECKED_PROFILE_SOURCES = new Map([
+    ['cuhk-ie-adjunct-peter-chong-official-20261125','https://academics.aut.ac.nz/peter.chong/about'],
+    ['cuhk-ie-adjunct-chen-change-loy-official-20261125','https://www.ntu.edu.sg/computing/research-groups/institutes-centres/grail/our-people'],
     ['hkustgz-dsa-adjunct-haodi-zhang-research-20261124','https://aisc.szu.edu.cn/info/1060/1275.htm'],
     ['hkustgz-dsa-adjunct-dian-zhang-research-20261124','https://scholars.ln.edu.hk/en/persons/dian-zhang/'],
     ['hkustgz-dsa-adjunct-dian-zhang-identity-20261111','https://zhangdian617.github.io/cv/'],
