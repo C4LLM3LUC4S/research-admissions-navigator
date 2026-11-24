@@ -1,0 +1,45 @@
+{
+  "sources": [
+    {
+      "id": "hkust-mech-catalog-20261124",
+      "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-mech",
+      "title": "港科大香港 · 机械工程 2027/28 研究学位目录",
+      "scope": "机械工程 MPhil 与 PhD 的资格、学制和培养方向。",
+      "claims": [
+        "机械及航空航天工程学系开设机械工程 MPhil 和 PhD。",
+        "MPhil 全日制两年、兼读四年；PhD 全日制有相关研究硕士通常三年、否则通常四年，兼读六年。",
+        "学历与英语条款适用于 2027/28；所读项目目录未列常规申请截止。"
+      ],
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mech-dept-admissions-20261124",
+      "url": "https://mae.hkust.edu.hk/en/academics/research-postgraduate-programs/admission",
+      "title": "港科大香港机械及航空航天工程学系 · 招生导航",
+      "scope": "院系招生导航所列网申、博士奖学金及项目介绍。",
+      "claims": [
+        "学系提供研究生申请和香港博士奖学金入口；该页未列机械工程常规申请日期。"
+      ],
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mech-online-application-20261124",
+      "url": "https://fytgs.hkust.edu.hk/admissions/Admission-to-Hong-Kong-Campus/submitting-an-application/online-application",
+      "title": "港科大香港研究院 · 研究生网申",
+      "scope": "香港校区研究生网申入口。",
+      "claims": [
+        "通过香港校区研究院的申请系统提交。"
+      ],
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
+    }
+  ]
+}

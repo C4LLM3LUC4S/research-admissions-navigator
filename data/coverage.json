@@ -1,13 +1,13 @@
 {
   "status": "passed",
-  "checkedDate": "2026-11-22",
+  "checkedDate": "2026-11-24",
   "counts": {
     "universities": 7,
-    "programs": 97,
+    "programs": 98,
     "faculty": 2484,
-    "sources": 4807,
+    "sources": 4810,
     "funding": 1,
-    "degreeRoutes": 166,
+    "degreeRoutes": 168,
     "facultyByUniversity": {
       "hku": 369,
       "cuhk": 307,
@@ -19,10 +19,10 @@
     },
     "unknownRecruitment": 2475,
     "dateOnlyDeadlines": 121,
-    "programsWithRequirements": 96,
-    "requirementItems": 367,
-    "programsWithFinances": 93,
-    "financeItems": 180,
+    "programsWithRequirements": 97,
+    "requirementItems": 371,
+    "programsWithFinances": 94,
+    "financeItems": 181,
     "officialDirectories": 136,
     "directoriesByUniversity": {
       "hku": 33,
