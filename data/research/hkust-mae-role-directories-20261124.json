@@ -1,0 +1,411 @@
+{
+  "sources": [
+    {
+      "id": "hkust-mae-teaching-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/teaching-faculty",
+      "title": "港科大（香港）机械与航空航天工程系 · 教学人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5ffe31ff1b412621307a872dc43dd928ee50ea2629451252f67504d148627e53",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/teaching-faculty",
+      "scope": "院系网站所列教学人员",
+      "claims": [
+        "所读名录见 5 张不同人员卡。",
+        "从这一组核对讲师、工程教育教员和教学助理。个人指导资格请向项目确认。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-adjunct-emeritus-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/adjunct-and-professor-emeritus",
+      "title": "港科大（香港）机械与航空航天工程系 · 兼任与荣休",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6710ca29e6f103f4ea2070b7cea8226dabb2d341124cdfed4c44b4343b2e508a",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/adjunct-and-professor-emeritus",
+      "scope": "院系网站所列兼任与荣休",
+      "claims": [
+        "所读名录见 23 张不同人员卡。",
+        "兼任、荣休及兼具访问头衔的任职，按院系原页列名。指导资格和招募请向项目确认。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-in"
+      ]
+    },
+    {
+      "id": "hkust-mae-visiting-affiliate-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/visiting-affiliate-faculty",
+      "title": "港科大（香港）机械与航空航天工程系 · 访问与关联人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e93851230bc20353c63ceac182f4d81dde44e26e0d591aa1b1b4e8b9b498597e",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/visiting-affiliate-faculty",
+      "scope": "院系网站所列访问与关联人员",
+      "claims": [
+        "所读名录见 1 张不同人员卡。",
+        "院系在这一组列一位访问教授。港科大香港访问任职与广州任职分别记录。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-administrative-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/staff/administrative",
+      "title": "港科大（香港）机械与航空航天工程系 · 行政人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "6d250d7a337f1b7273e9952947e0c8b030695e8a697fece60360f4aa1c06d361",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/staff/administrative",
+      "scope": "院系网站所列行政人员",
+      "claims": [
+        "所读名录见 8 张不同人员卡。",
+        "列行政及项目支援岗位。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-technical-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/staff/technical",
+      "title": "港科大（香港）机械与航空航天工程系 · 技术人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "56768300f08daffa9938627d436783e10ebdc4f201a50bfa925e9df79f670f85",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/staff/technical",
+      "scope": "院系网站所列技术人员",
+      "claims": [
+        "所读名录见 12 张不同人员卡。",
+        "列工程、技术及信息技术岗位。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-teaching-support-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/staff/teaching-support",
+      "title": "港科大（香港）机械与航空航天工程系 · 教学支援",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7d6ed2453e7419a3aa9d5b89f5e391af389b12bf6aaa1fc9ede100e34aa4d75f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/staff/teaching-support",
+      "scope": "所读教学支援页",
+      "claims": [
+        "所读页列一项 Communication Tutor 岗位。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-lee-in-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-in",
+      "title": "In Lee · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0bd73a8740cb2fea2300089f8198b65371a0304500546d2b34af30ffd605d715",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-in",
+      "scope": "个人页所列兼任与研究兴趣。",
+      "claims": [
+        "个人页列兼任教授，研究航空结构气动弹性、振动及复合结构。"
+      ],
+      "knownIssues": []
+    }
+  ],
+  "directories": [
+    {
+      "id": "hkust-mae-teaching-directory",
+      "universityId": "hkust",
+      "unit": "Department of Mechanical and Aerospace Engineering / Teaching Faculty",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/teaching-faculty",
+      "title": "港科大（香港）机械与航空航天工程系 · 教学人员",
+      "profileLinksObserved": [],
+      "coverageNotes": "从这一组核对讲师、工程教育教员和教学助理。个人指导资格请向项目确认。",
+      "sourceIds": [
+        "hkust-mae-teaching-20261124"
+      ],
+      "coverageComplete": false,
+      "census": {
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Lok Hin Sunny CHAN 陳樂軒",
+            "directoryPosition": "Lecturer I",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Robin Lok-Wang MA 馬諾宏",
+            "directoryPosition": "Associate Professor of Engineering Education",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Hong TAO 陶宏",
+            "directoryPosition": "Assistant Professor of Engineering Education",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Henry Hang Shan CHOY 蔡恒生",
+            "directoryPosition": "Teaching Associate",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Stanley Yun Yuen LEUNG 梁潤園",
+            "directoryPosition": "Teaching Associate",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-adjunct-emeritus-directory",
+      "universityId": "hkust",
+      "unit": "Department of Mechanical and Aerospace Engineering / Adjunct and Emeritus",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/adjunct-and-professor-emeritus",
+      "title": "港科大（香港）机械与航空航天工程系 · 兼任与荣休",
+      "profileLinksObserved": [
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-in"
+      ],
+      "coverageNotes": "兼任、荣休及兼具访问头衔的任职，按院系原页列名。指导资格和招募请向项目确认。",
+      "sourceIds": [
+        "hkust-mae-adjunct-emeritus-20261124"
+      ],
+      "coverageComplete": false,
+      "census": {
+        "observedTotal": 1,
+        "profilesRead": 1,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [
+          {
+            "name": "In LEE 李仁",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-in",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "hkust-mae-adjunct-lee-in",
+            "sourceId": "hkust-mae-lee-in-profile-20261124"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Tianshou ZHAO 趙天壽",
+            "directoryPosition": "Professor Emeritus and Distinguished Visiting Professor",
+            "profileUrl": null,
+            "reason": "同校化学及生物工程系另有访问任职记录。机械与航空航天工程系本页列荣休及杰出访问教授。"
+          },
+          {
+            "name": "Christopher Yu-Hang CHAO 趙汝恒",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": null,
+            "reason": "港理工机械工程另有任职档案，本条保留港科大兼任范围。"
+          },
+          {
+            "name": "Vincent Simon HO 何世傑",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Xun HUANG 黄迅",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Yiu-Wing MAI 米耀榮",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": null,
+            "reason": "港大及港理工机械工程页面另有档案，本条保留港科大兼任范围。"
+          },
+          {
+            "name": "Ching-Ping WONG 汪正平",
+            "directoryPosition": "Adjunct Professor",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Rhea LIEM",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Wenbin SONG 宋文濱",
+            "directoryPosition": "Adjunct Associate Professor",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Jay-Chung CHEN 陳介中",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Ping CHENG 鄭平",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "港理工机械工程另有档案，本条保留港科大荣休范围。"
+          },
+          {
+            "name": "Jang-Kyo KIM 金章教",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Yang LENG 冷揚",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Huihe QIU 邱惠和",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "港科大广州另有档案，本条保留香港荣休范围。"
+          },
+          {
+            "name": "Wei SHYY 史維",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "港科大广州另有档案，本条保留香港荣休范围。"
+          },
+          {
+            "name": "Kai TANG 湯凱",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "港科大广州另有档案，本条保留香港荣休范围。"
+          },
+          {
+            "name": "Pin TONG 董平",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Michael Yu WANG 王煜",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Jingshen WU 吳景深",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Tongxi YU 余同希",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Matthew Ming-Fai YUEN 袁銘輝",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          },
+          {
+            "name": "Tong-Yi ZHANG 張統一",
+            "directoryPosition": "Professor Emeritus",
+            "profileUrl": null,
+            "reason": "港理工机械工程另有档案，本条保留港科大荣休范围。"
+          },
+          {
+            "name": "See-Chun KOT 葛時俊",
+            "directoryPosition": "Senior Lecturer Emeritus",
+            "profileUrl": null,
+            "reason": "院系这一条目未给独立个人主页。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-visiting-affiliate-directory",
+      "universityId": "hkust",
+      "unit": "Department of Mechanical and Aerospace Engineering / Visiting and Affiliate Faculty",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/visiting-affiliate-faculty",
+      "title": "港科大（香港）机械与航空航天工程系 · 访问与关联人员",
+      "profileLinksObserved": [],
+      "coverageNotes": "院系在这一组列一位访问教授。港科大香港访问任职与广州任职分别记录。",
+      "sourceIds": [
+        "hkust-mae-visiting-affiliate-20261124"
+      ],
+      "coverageComplete": false,
+      "census": {
+        "observedTotal": 0,
+        "profilesRead": 0,
+        "profilesFailed": 0,
+        "pendingReasonCounts": {},
+        "entries": [],
+        "unlinkedEntries": [
+          {
+            "name": "Shi-Wei Ricky LEE 李世瑋",
+            "directoryPosition": "Visiting Professor",
+            "profileUrl": null,
+            "reason": "港科大广州另有讲座教授档案，本条保留香港访问范围。"
+          }
+        ]
+      }
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hkust-mae-adjunct-lee-in",
+      "universityId": "hkust",
+      "name": "In Lee / 李仁",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Adjunct Professor",
+      "directoryRole": "兼任教授 · Adjunct Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "气动弹性",
+        "航空结构",
+        "结构振动",
+        "复合结构",
+        "aeroelasticity",
+        "structural dynamics",
+        "composite structures"
+      ],
+      "summary": "研究航空结构的气动弹性、振动分析及复合结构。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-in",
+      "sourceIds": [
+        "hkust-mae-lee-in-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-adjunct-emeritus-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-lee-in-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-lee-in-profile-20261124"
+        ]
+      }
+    }
+  ]
+}
