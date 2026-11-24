@@ -185,6 +185,62 @@
         "院系师资卡及个人身份对应 Associate Professor；名录研究栏目包括排队论、随机模拟及强化学习。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2436-linked-home-20261124",
+      "url": "https://bajinsheng.github.io/",
+      "title": "Jinsheng Ba · 院系名录所给主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+      "scope": "院系名录原链接的研究或任职正文。",
+      "claims": [
+        "本人主页确认数据科学学院助理教授任职，介绍软件工程、语言模型与软件可靠性研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2234-linked-home-20261124",
+      "url": "https://www.mhchen.com/",
+      "title": "Minghua Chen · 院系名录所给主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+      "scope": "院系名录原链接的研究或任职正文。",
+      "claims": [
+        "本人主页介绍在线优化、算法、智能交通和能源系统。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-265-linked-home-20261124",
+      "url": "https://tschen11.github.io/website/",
+      "title": "Tianshi Chen · 院系名录所给主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+      "scope": "院系名录原链接的研究或任职正文。",
+      "claims": [
+        "本人主页列数据驱动和物理约束建模、控制与决策。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-63-linked-home-20261124",
+      "url": "https://myweb.cuhk.edu.cn/chenxinyun",
+      "title": "Xinyun Chen · 院系名录所给主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+      "scope": "院系名录原链接的研究或任职正文。",
+      "claims": [
+        "同校学者主页确认数据科学学院副教授任职，列应用概率、排队论、随机模拟及强化学习。"
+      ],
+      "knownIssues": []
     }
   ],
   "faculty": [
@@ -207,7 +263,8 @@
       "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2436",
       "sourceIds": [
         "cuhksz-sds-observed-2436-profile-20261124",
-        "cuhksz-sds-observed-faculty-roster-20261124"
+        "cuhksz-sds-observed-faculty-roster-20261124",
+        "cuhksz-sds-observed-2436-linked-home-20261124"
       ],
       "keywordSourceIds": [
         "cuhksz-sds-observed-faculty-roster-20261124"
@@ -228,8 +285,9 @@
           "label": "名录所给个人主页",
           "url": "https://bajinsheng.github.io/",
           "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "记录院系名录所给地址，主页正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系名录给出的本人主页。",
+          "sourceId": "cuhksz-sds-observed-2436-linked-home-20261124"
         }
       ]
     },
@@ -276,7 +334,7 @@
           "url": "https://sites.google.com/view/mihabresar",
           "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
           "bodyStatus": "not_read",
-          "readNote": "记录院系名录所给地址，主页正文待核。"
+          "readNote": "原地址跳转到登录页，正文待核。"
         }
       ]
     },
@@ -361,7 +419,7 @@
           "url": "https://chenjb1997.github.io/",
           "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
           "bodyStatus": "not_read",
-          "readNote": "记录院系名录所给地址，主页正文待核。"
+          "readNote": "工具返回空正文，个人主页内容待核。"
         }
       ]
     },
@@ -386,7 +444,8 @@
       "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2234",
       "sourceIds": [
         "cuhksz-sds-observed-2234-profile-20261124",
-        "cuhksz-sds-observed-faculty-roster-20261124"
+        "cuhksz-sds-observed-faculty-roster-20261124",
+        "cuhksz-sds-observed-2234-linked-home-20261124"
       ],
       "keywordSourceIds": [
         "cuhksz-sds-observed-faculty-roster-20261124"
@@ -407,8 +466,9 @@
           "label": "名录所给个人主页",
           "url": "https://www.mhchen.com/",
           "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "记录院系名录所给地址，主页正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系名录给出的本人主页。",
+          "sourceId": "cuhksz-sds-observed-2234-linked-home-20261124"
         }
       ]
     },
@@ -433,7 +493,8 @@
       "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/265",
       "sourceIds": [
         "cuhksz-sds-observed-265-profile-20261124",
-        "cuhksz-sds-observed-faculty-roster-20261124"
+        "cuhksz-sds-observed-faculty-roster-20261124",
+        "cuhksz-sds-observed-265-linked-home-20261124"
       ],
       "keywordSourceIds": [
         "cuhksz-sds-observed-faculty-roster-20261124"
@@ -454,8 +515,9 @@
           "label": "名录所给个人主页",
           "url": "https://tschen11.github.io/website/",
           "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "记录院系名录所给地址，主页正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系名录给出的本人主页。",
+          "sourceId": "cuhksz-sds-observed-265-linked-home-20261124"
         }
       ]
     },
@@ -480,7 +542,8 @@
       "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/63",
       "sourceIds": [
         "cuhksz-sds-observed-63-profile-20261124",
-        "cuhksz-sds-observed-faculty-roster-20261124"
+        "cuhksz-sds-observed-faculty-roster-20261124",
+        "cuhksz-sds-observed-63-linked-home-20261124"
       ],
       "keywordSourceIds": [
         "cuhksz-sds-observed-faculty-roster-20261124"
@@ -501,8 +564,9 @@
           "label": "名录所给个人主页",
           "url": "https://myweb.cuhk.edu.cn/chenxinyun",
           "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "记录院系名录所给地址，主页正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "已核读院系名录给出的本人主页。",
+          "sourceId": "cuhksz-sds-observed-63-linked-home-20261124"
         }
       ]
     }
@@ -538,7 +602,11 @@
       "cuhksz-sds-observed-1629-profile-20261124",
       "cuhksz-sds-observed-2070-profile-20261124",
       "cuhksz-sds-observed-265-profile-20261124",
-      "cuhksz-sds-observed-63-profile-20261124"
+      "cuhksz-sds-observed-63-profile-20261124",
+      "cuhksz-sds-observed-2436-linked-home-20261124",
+      "cuhksz-sds-observed-2234-linked-home-20261124",
+      "cuhksz-sds-observed-265-linked-home-20261124",
+      "cuhksz-sds-observed-63-linked-home-20261124"
     ],
     "coverageComplete": false,
     "coverageNotes": "这一组保留官网此次显示的 10 张人员卡。礼聘及兼任名录另列，其他筛选类别和分页继续核对。",
