@@ -1,0 +1,163 @@
+{
+  "sources": [
+    {
+      "id": "hkustgz-dsa-adjunct-haodi-zhang-research-20261124",
+      "url": "https://aisc.szu.edu.cn/info/1060/1275.htm",
+      "title": "Haodi Zhang / 张昊迪 · 任职单位研究档案",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "scope": "从主要任职学校核对个人身份和研究方向。",
+      "claims": [
+        "深大研究中心个人档案介绍知识表示与推理、深度学习及自然语言处理。"
+      ],
+      "knownIssues": [],
+      "bodySha256": "262d0a1bb13fa9cc9c8500c38976dfa3a0472f6d6768262cbaee249f6a7b9651",
+      "retrievedUrl": "https://aisc.szu.edu.cn/info/1060/1275.htm",
+      "discoveredLinks": [
+        "https://hdzhangust.github.io/"
+      ]
+    },
+    {
+      "id": "hkustgz-dsa-adjunct-haodi-zhang-identity-20261111",
+      "url": "https://hdzhangust.github.io/",
+      "title": "Haodi Zhang / 张昊迪 · 本人主页或履历",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "scope": "本人履历所列港科广兼任身份。",
+      "claims": [
+        "本人主页列港科广数据科学与分析学域兼任助理教授。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkustgz-dsa-adjunct-haodi-zhang-research-20261124"
+    },
+    {
+      "id": "hkustgz-dsa-adjunct-dian-zhang-research-20261124",
+      "url": "https://scholars.ln.edu.hk/en/persons/dian-zhang/",
+      "title": "Dian Zhang / 張滇 · 任职单位研究档案",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "scope": "从主要任职学校核对个人身份和研究方向。",
+      "claims": [
+        "岭南大学学者档案列工业数据科学学部副教授，研究数据分析、物联网和移动计算。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-dsa-adjunct-dian-zhang-identity-20261111",
+      "url": "https://zhangdian617.github.io/cv/",
+      "title": "Dian Zhang / 張滇 · 本人主页或履历",
+      "checkedAt": "2026-11-11",
+      "evidenceLevel": "official-personal-homepage-body-opened",
+      "readMethod": "web_tool_actual_body",
+      "scope": "本人履历所列港科广兼任身份。",
+      "claims": [
+        "本人履历列自 2023 年起港科广兼任副教授。"
+      ],
+      "knownIssues": [
+        "兼任由学域名录及本人履历核对。本人履历的陈述与岭南研究档案各自标明。"
+      ]
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hkustgz-dsa-adjunct-haodi-zhang",
+      "universityId": "hkustgz",
+      "name": "Haodi Zhang / 张昊迪",
+      "department": "Thrust of Data Science and Analytics",
+      "directoryRole": "Adjunct Assistant Professor",
+      "role": "Adjunct Assistant Professor",
+      "topics": [
+        "人工智能",
+        "自然语言处理"
+      ],
+      "researchKeywords": [
+        "知识表示",
+        "知识推理",
+        "深度学习",
+        "自然语言处理",
+        "knowledge representation and reasoning",
+        "deep learning",
+        "natural language processing"
+      ],
+      "summary": "深圳大学的研究档案介绍知识表示与推理、深度学习与自然语言处理。",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Haodi/368#new_tab",
+      "identityNote": "港科广数据科学与分析学域名录列 Adjunct Assistant Professor。广州个人页正文待核，研究方向见所引深圳大学研究档案，兼任和所选学位指导资格分别核对。",
+      "sourceIds": [
+        "gz-dsa-adjunct",
+        "hkustgz-dsa-adjunct-haodi-zhang-research-20261124",
+        "hkustgz-dsa-adjunct-haodi-zhang-identity-20261111"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-adjunct"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-adjunct-haodi-zhang-research-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "gz-dsa-adjunct"
+        ]
+      }
+    },
+    {
+      "id": "hkustgz-dsa-adjunct-dian-zhang",
+      "universityId": "hkustgz",
+      "name": "Dian Zhang / 張滇",
+      "department": "Thrust of Data Science and Analytics",
+      "directoryRole": "Adjunct Associate Professor",
+      "role": "Adjunct Associate Professor",
+      "topics": [
+        "数据挖掘",
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "数据分析",
+        "物联网",
+        "移动计算",
+        "data analytics",
+        "Internet of Things",
+        "mobile computing"
+      ],
+      "summary": "岭南大学的研究档案介绍数据分析、物联网和移动计算。",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Dian/336#new_tab",
+      "identityNote": "港科广数据科学与分析学域名录列 Adjunct Associate Professor。广州个人页正文待核，研究方向见所引岭南大学研究档案，兼任和所选学位指导资格分别核对。",
+      "sourceIds": [
+        "gz-dsa-adjunct",
+        "hkustgz-dsa-adjunct-dian-zhang-research-20261124",
+        "hkustgz-dsa-adjunct-dian-zhang-identity-20261111"
+      ],
+      "directorySourceIds": [
+        "gz-dsa-adjunct"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-dsa-adjunct-dian-zhang-research-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "gz-dsa-adjunct"
+        ]
+      }
+    }
+  ],
+  "updates": [
+    {
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Haodi/368#new_tab",
+      "facultyId": "hkustgz-dsa-adjunct-haodi-zhang",
+      "reviewNote": "广州个人页正文待核；研究方向由深圳大学档案核对，兼任有名录及本人履历依据。"
+    },
+    {
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page/ZHANG-Dian/336#new_tab",
+      "facultyId": "hkustgz-dsa-adjunct-dian-zhang",
+      "reviewNote": "广州个人页正文待核；研究方向由岭南大学档案核对，兼任有名录及本人履历依据。"
+    }
+  ]
+}

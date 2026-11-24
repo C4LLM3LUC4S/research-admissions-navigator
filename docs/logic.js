@@ -408,12 +408,17 @@
   function publicHttps(value) {
     try {const u=new URL(value);return u.protocol==='https:'&&!u.username&&!u.password&&(!u.port||u.port==='443')?u.href:null;}catch(_){return null;}
   }
+  const CROSSCHECKED_PROFILE_SOURCES = new Map([
+    ['hkustgz-dsa-adjunct-haodi-zhang-research-20261124','https://aisc.szu.edu.cn/info/1060/1275.htm'],
+    ['hkustgz-dsa-adjunct-dian-zhang-research-20261124','https://scholars.ln.edu.hk/en/persons/dian-zhang/'],
+    ['hkustgz-dsa-adjunct-dian-zhang-identity-20261111','https://zhangdian617.github.io/cv/'],
+  ]);
   function sourceUrl(catalog,source) {
     const target=publicHttps(source.url);if(!target)return null;
     const seen=new Set();let current=source;
     for(let depth=0;depth<16;depth++){
       if(seen.has(current.id))return null;seen.add(current.id);
-      if(officialUrl(current.url))return target;
+      if(officialUrl(current.url)||CROSSCHECKED_PROFILE_SOURCES.get(current.id)===current.url)return target;
       if(!publicHttps(current.url)||current.evidenceLevel!=='teacher_page_linked_from_official_profile')return null;
       const parent=catalog.sources.find(s=>s.id===current.parentSourceId);if(!parent)return null;
       const links=parent.discoveredLinks||[];
