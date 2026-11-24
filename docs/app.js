@@ -334,16 +334,21 @@
   }
   function renderFunding() { const items=L.fundingFor(C,state.profile);$('funding-results').hidden=!items.length;clear($('funding-cards'));items.forEach(f=>{const box=node('article',null,'funding-card');append(box,node('h3',f.title),node('p',f.note||'资格和资助结果以官方审核为准，不是自动获奖。'));box.append(deadlineCard({label:'相关申请日期',at:f.deadline,cycle:f.cycle},state.profile.cycle));box.append(evidence(f.sourceIds));$('funding-cards').append(box);}); }
   let resultSequence=0;
+  function usesFacultyIndex() {
+    return mode==='faculty' && state.profile.universityIds.length!==1 && state.profile.researchQuery.trim();
+  }
   function indexedFacultyMatches() {
     const index=window.APP_FACULTY_INDEX;
-    if(mode!=='faculty'||state.profile.universityIds.length||!state.profile.researchQuery.trim()||!index)return null;
+    if(!usesFacultyIndex()||!index)return null;
+    const selected=new Set(state.profile.universityIds);
     const search=L.facultySearch(state.profile.researchQuery);
-    return index.faculty.filter(([name,,,researchKeywords])=>search.matchesName(name)||search.matchedTerms({researchKeywords}).length);
+    return index.faculty.filter(([name,school,,researchKeywords])=>
+      (!selected.size||selected.has(school)) && (search.matchesName(name)||search.matchedTerms({researchKeywords}).length));
   }
   function neededSchools(matches) {
     if(mode==='programs')return [];
-    if(state.profile.universityIds.length)return state.profile.universityIds;
     if(matches)return [...new Set(matches.map(row=>row[1]))];
+    if(state.profile.universityIds.length)return state.profile.universityIds;
     return C.universities.map(u=>u.id);
   }
   function facultyPreview(matches) {
@@ -374,8 +379,7 @@
   function renderResults() {
     const sequence = ++resultSequence;
     const needsIndex = window.APP_LOAD_FACULTY_INDEX && !window.APP_FACULTY_INDEX &&
-      mode === 'faculty' && state.profile.researchQuery.trim() && !state.profile.universityIds.length &&
-      !window.APP_ALL_SCHOOLS_READY;
+      usesFacultyIndex() && !window.APP_ALL_SCHOOLS_READY;
     let matches = needsIndex ? null : indexedFacultyMatches();
     const schools = needsIndex ? [] : neededSchools(matches);
     if (needsIndex || (window.APP_LOAD_SCHOOLS && schools.some(id => !window.APP_LOADED_SCHOOLS.has(id)))) {
@@ -395,11 +399,15 @@
           if(sequence===resultSequence)preview.showResearch(school);
         } : undefined);
       };
+      const schoolsForIndexFailure = state.profile.universityIds;
       const request = needsIndex
         ? window.APP_LOAD_FACULTY_INDEX().then(() => {
           if(sequence!==resultSequence)return;
           matches=indexedFacultyMatches();
           return loadSchools(neededSchools(matches));
+        }, error => {
+          if(schoolsForIndexFailure.length)return loadSchools(schoolsForIndexFailure);
+          throw error;
         })
         : loadSchools(schools);
       request.then(()=>{
