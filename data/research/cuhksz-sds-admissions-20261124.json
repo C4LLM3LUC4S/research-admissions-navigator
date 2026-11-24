@@ -1,0 +1,72 @@
+{
+  "sources": [
+    {
+      "id": "cuhksz-sds-ds-application-2027",
+      "url": "https://sds.cuhk.edu.cn/en/node/365",
+      "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 申请程序",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_programme_requirements_current_cycle",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "2027 年入学，2026 年 9 月 1 日开放，2027 年 5 月 31 日滚动申请截止；正文分别列硕博学历和申请文件。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-ds-fees-2027",
+      "url": "https://sds.cuhk.edu.cn/en/phd-programmes/scholarships",
+      "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 学费及奖学金",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_central_fee_schedule",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "硕博学费每年人民币 162,000 元，页面另说明 2027/28 博士资助安排。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-cs-application-2027",
+      "url": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications",
+      "title": "港中文（深圳）数据科学学院 · 计算机科学研究学位 · 申请程序",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_programme_requirements_current_cycle",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "2027 年入学，2026 年 9 月 1 日开放，2027 年 5 月 31 日滚动申请截止；正文分别列硕博学历和申请文件。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-cs-fees-2027",
+      "url": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/scholarships",
+      "title": "港中文（深圳）数据科学学院 · 计算机科学研究学位 · 学费及奖学金",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_central_fee_schedule",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "硕博学费每年人民币 162,000 元，页面另说明 2027/28 博士资助安排。"
+      ],
+      "knownIssues": []
+    }
+  ],
+  "programmes": [
+    {
+      "key": "ds",
+      "name": "数据科学研究学位",
+      "application": "https://sds.cuhk.edu.cn/en/node/365",
+      "fees": "https://sds.cuhk.edu.cn/en/phd-programmes/scholarships",
+      "ranking": "项目页建议提供专业或学院累计绩点排名；学校无法出具时，按原页提交官方说明或签署 Form 2。"
+    },
+    {
+      "key": "cs",
+      "name": "计算机科学研究学位",
+      "application": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications",
+      "fees": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/scholarships",
+      "ranking": "项目材料清单列累计绩点排名证明。原校没有模板时可参考该页 Form 1。"
+    }
+  ]
+}

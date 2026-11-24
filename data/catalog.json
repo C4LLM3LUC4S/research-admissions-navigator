@@ -13412,6 +13412,302 @@
           ]
         }
       ]
+    },
+    {
+      "id": "cuhksz-sds-ds-rpg-2027",
+      "universityId": "cuhksz",
+      "name": "数据科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）数据科学学院，2027/28 学年入学，滚动审理。",
+      "contact": {
+        "status": "recommended",
+        "text": "建议提前联系意向导师。拟选联合导师时，在网申中一并注明。",
+        "sourceIds": [
+          "cuhksz-sds-ds-application-2027"
+        ]
+      },
+      "selection": {
+        "text": "按项目清单提交 PDF 材料；学院可视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sds-ds-application-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 入学滚动申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sds-ds-application-2027",
+        "cuhksz-sds-ds-fees-2027"
+      ],
+      "evidenceNote": "学院按项目分别列硕博学历、材料和费用。",
+      "entryUrl": "https://sds.cuhk.edu.cn/en/node/365",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "认可大学学士，通常须二等荣誉或以上，或荣誉学士课程平均 B 或以上；也可用等同荣誉学位的专业资格。",
+          "action": "核对学士成绩或同等专业资格。",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "认可大学硕士可申请。走学士或专业资格路线时：认可大学学士，通常须二等荣誉或以上，或荣誉学士课程平均 B 或以上；也可用等同荣誉学位的专业资格。",
+          "action": "按硕士或学士路径核对学历条件。",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "TOEFL 79/120 或 4.5/6，接受机考或居家版。IELTS Academic 6.5，接受考点或在线版；两类成绩有效期两年。香港或英语国家认可的专业资格也可按原页核对。",
+          "action": "核对成绩单的考试形式、分数及有效期。",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "英文简历与个人陈述、学历证书及相应认证、盖章成绩单、英语证明、身份证或护照、两位推荐人。成绩单缺累计绩点时另附证明。项目页建议提供专业或学院累计绩点排名；学校无法出具时，按原页提交官方说明或签署 Form 2。",
+          "action": "整理文件，并在提交后提醒两位推荐人留意系统邮件。",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ]
+        },
+        {
+          "label": "进入网申",
+          "text": "在研究生申请系统选择本项目并上传 PDF。",
+          "action": "打开研究生申请系统核对项目。",
+          "url": "https://pgapply.cuhk.edu.cn/",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sds-ds-fee-2027",
+          "kind": "application_fee",
+          "label": "网申申请费",
+          "text": "每次申请人民币 600 元，不予退还。",
+          "action": "提交网申时核对付款方式。",
+          "sourceIds": [
+            "cuhksz-sds-ds-application-2027"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "研究学位申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sds-ds-tuition-2027",
+          "kind": "tuition",
+          "label": "2027/28 硕博学费",
+          "text": "学费每年人民币 162,000 元。",
+          "action": "按预计学制估算学费。",
+          "sourceIds": [
+            "cuhksz-sds-ds-fees-2027"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "MPhil 或 PhD"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sds-ds-funding-2027",
+          "kind": "studentship",
+          "label": "2027/28 博士资助",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "资助依据学业和综合表现评定，续发须经年度审核，获资助期间须按安排担任助教。",
+          "action": "核对奖助和助教义务。",
+          "sourceIds": [
+            "cuhksz-sds-ds-fees-2027"
+          ],
+          "rates": []
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-cs-rpg-2027",
+      "universityId": "cuhksz",
+      "name": "计算机科学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）数据科学学院，2027/28 学年入学，滚动审理。",
+      "contact": {
+        "status": "recommended",
+        "text": "建议提前联系意向导师。拟选联合导师时，在网申中一并注明。",
+        "sourceIds": [
+          "cuhksz-sds-cs-application-2027"
+        ]
+      },
+      "selection": {
+        "text": "按项目清单提交 PDF 材料；学院可视情况安排面试。",
+        "sourceIds": [
+          "cuhksz-sds-cs-application-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 入学滚动申请截止：2027-05-31（官网未说明具体时间）",
+          "date": "2027-05-31",
+          "at": null,
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sds-cs-application-2027",
+        "cuhksz-sds-cs-fees-2027"
+      ],
+      "evidenceNote": "学院按项目分别列硕博学历、材料和费用。",
+      "entryUrl": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "degrees": [
+            "MPhil"
+          ],
+          "text": "认可大学学士，通常须二等荣誉或以上，或荣誉学士课程平均 B 或以上；也可用等同荣誉学位的专业资格。",
+          "action": "核对学士成绩或同等专业资格。",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "认可大学硕士可申请。走学士或专业资格路线时：认可大学学士，通常须二等荣誉或以上，或荣誉学士课程平均 B 或以上；也可用等同荣誉学位的专业资格。",
+          "action": "按硕士或学士路径核对学历条件。",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "TOEFL 79/120 或 4.5/6，接受机考或居家版。IELTS Academic 6.5，接受考点或在线版；两类成绩有效期两年。香港或英语国家认可的专业资格也可按原页核对。",
+          "action": "核对成绩单的考试形式、分数及有效期。",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ]
+        },
+        {
+          "label": "申请材料",
+          "text": "英文简历与个人陈述、学历证书及相应认证、盖章成绩单、英语证明、身份证或护照、两位推荐人。成绩单缺累计绩点时另附证明。项目材料清单列累计绩点排名证明。原校没有模板时可参考该页 Form 1。",
+          "action": "整理文件，并在提交后提醒两位推荐人留意系统邮件。",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ]
+        },
+        {
+          "label": "进入网申",
+          "text": "在研究生申请系统选择本项目并上传 PDF。",
+          "action": "打开研究生申请系统核对项目。",
+          "url": "https://pgapply.cuhk.edu.cn/",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sds-cs-fee-2027",
+          "kind": "application_fee",
+          "label": "网申申请费",
+          "text": "每次申请人民币 600 元，不予退还。",
+          "action": "提交网申时核对付款方式。",
+          "sourceIds": [
+            "cuhksz-sds-cs-application-2027"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "研究学位申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sds-cs-tuition-2027",
+          "kind": "tuition",
+          "label": "2027/28 硕博学费",
+          "text": "学费每年人民币 162,000 元。",
+          "action": "按预计学制估算学费。",
+          "sourceIds": [
+            "cuhksz-sds-cs-fees-2027"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "MPhil 或 PhD"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sds-cs-funding-2027",
+          "kind": "studentship",
+          "label": "2027/28 博士资助",
+          "degrees": [
+            "PhD"
+          ],
+          "text": "资助依据学业和综合表现评定，续发须经年度审核，获资助期间须按安排担任助教。",
+          "action": "核对奖助和助教义务。",
+          "sourceIds": [
+            "cuhksz-sds-cs-fees-2027"
+          ],
+          "rates": []
+        }
+      ]
     }
   ],
   "faculty": [
@@ -281314,6 +281610,58 @@
       "evidenceLevel": "official_verified_page_scoped",
       "readMethod": "web_tool_actual_body",
       "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-ds-application-2027",
+      "url": "https://sds.cuhk.edu.cn/en/node/365",
+      "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 申请程序",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_programme_requirements_current_cycle",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "2027 年入学，2026 年 9 月 1 日开放，2027 年 5 月 31 日滚动申请截止；正文分别列硕博学历和申请文件。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-ds-fees-2027",
+      "url": "https://sds.cuhk.edu.cn/en/phd-programmes/scholarships",
+      "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 学费及奖学金",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_central_fee_schedule",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "硕博学费每年人民币 162,000 元，页面另说明 2027/28 博士资助安排。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-cs-application-2027",
+      "url": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/applications",
+      "title": "港中文（深圳）数据科学学院 · 计算机科学研究学位 · 申请程序",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_programme_requirements_current_cycle",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "2027 年入学，2026 年 9 月 1 日开放，2027 年 5 月 31 日滚动申请截止；正文分别列硕博学历和申请文件。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-cs-fees-2027",
+      "url": "https://sds.cuhk.edu.cn/en/phd-programmes-CSE/scholarships",
+      "title": "港中文（深圳）数据科学学院 · 计算机科学研究学位 · 学费及奖学金",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_central_fee_schedule",
+      "scope": "数据科学学院所列对应项目和 2027/28 入学。",
+      "claims": [
+        "硕博学费每年人民币 162,000 元，页面另说明 2027/28 博士资助安排。"
+      ],
+      "knownIssues": []
     }
   ],
   "funding": [
@@ -363281,5 +363629,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:fca7b90ede8a84fd30301053b833bc10620b5cc5c83cd8e207e97cf0d336d35a"
+  "snapshotId": "sha256:3babd4388bc397671a72fe87cc1237b0bbc08829b74e6c0fbaf63d31916f85a9"
 }
