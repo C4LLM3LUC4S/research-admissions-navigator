@@ -3,11 +3,11 @@
   "checkedDate": "2026-11-24",
   "counts": {
     "universities": 7,
-    "programs": 100,
+    "programs": 101,
     "faculty": 2571,
-    "sources": 4988,
+    "sources": 4990,
     "funding": 1,
-    "degreeRoutes": 172,
+    "degreeRoutes": 173,
     "facultyByUniversity": {
       "hku": 369,
       "cuhk": 310,
@@ -18,11 +18,11 @@
       "cuhksz": 393
     },
     "unknownRecruitment": 2562,
-    "dateOnlyDeadlines": 123,
-    "programsWithRequirements": 99,
-    "requirementItems": 381,
-    "programsWithFinances": 96,
-    "financeItems": 187,
+    "dateOnlyDeadlines": 124,
+    "programsWithRequirements": 100,
+    "requirementItems": 386,
+    "programsWithFinances": 97,
+    "financeItems": 190,
     "officialDirectories": 150,
     "directoriesByUniversity": {
       "hku": 33,
