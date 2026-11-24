@@ -4,19 +4,22 @@
   const manifest = [{"key":"hku","url":"catalog-hku.js?v=29451af104c43806"},{"key":"cuhk","url":"catalog-cuhk.js?v=6f02aa38a949ed16"},{"key":"hkust","url":"catalog-hkust.js?v=4a3a58c03c0c5f97"},{"key":"polyu","url":"catalog-polyu.js?v=9b1b67588cfcf7af"},{"key":"cityu","url":"catalog-cityu.js?v=1ece2f19797f63e5"},{"key":"cuhksz","url":"catalog-cuhksz.js?v=3f265d52992ab401"},{"key":"hkustgz","url":"catalog-hkustgz.js?v=88d33b0892ec0dce"},{"key":"shared","url":"catalog-shared.js?v=66b63b45829fa094"}];
   const scriptRoot = new URL('.', document.currentScript.src);
   const indexUrl = "faculty-index.js?v=b407f84daa363484";
-  let indexRequest;
-  window.APP_LOAD_FACULTY_INDEX = function () {
-    if (indexRequest) return indexRequest;
-    indexRequest = new Promise((resolve, reject) => {
+  const indexPartUrls = {"hku":"faculty-index-hku.js?v=3d6c48495ae374a2","cuhk":"faculty-index-cuhk.js?v=8ac68cec6c9054e7","hkust":"faculty-index-hkust.js?v=5c61f5012aa7cc76","polyu":"faculty-index-polyu.js?v=452b73807ef04b91","cityu":"faculty-index-cityu.js?v=fbbb2cb30c8708a0","cuhksz":"faculty-index-cuhksz.js?v=a766f172cbe5a820","hkustgz":"faculty-index-hkustgz.js?v=5fc6f6ccd58771d9"};
+  const indexParts = window.APP_FACULTY_INDEX_PARTS = new Map();
+  const indexRequests = new Map();
+  function loadIndex(key, url) {
+    if (indexRequests.has(key)) return indexRequests.get(key);
+    const request = new Promise((resolve, reject) => {
       const script = document.createElement('script');
       const timer = setTimeout(() => finish(new Error('教师检索资料下载超时，请重试。')), 180000);
       function finish(error) {
         clearTimeout(timer);
         script.onload = script.onerror = null;
-        const index = window.APP_FACULTY_INDEX;
+        const index = key ? indexParts.get(key) : window.APP_FACULTY_INDEX;
         if (!error && (index?.snapshotId !== base.snapshotId || !Array.isArray(index.faculty))) {
           error = new Error('教师检索资料版本不一致，请刷新后重试。');
-          delete window.APP_FACULTY_INDEX;
+          if (key) indexParts.delete(key);
+          else delete window.APP_FACULTY_INDEX;
         }
         if (error) {
           script.remove();
@@ -25,15 +28,20 @@
           resolve(index);
         }
       }
-      script.src = new URL(indexUrl, scriptRoot).href;
+      script.src = new URL(url, scriptRoot).href;
       script.onload = () => finish();
       script.onerror = () => finish(new Error('教师检索资料暂未载入，请重试。'));
       document.head.append(script);
     }).catch(error => {
-      indexRequest = undefined;
+      indexRequests.delete(key);
       throw error;
     });
-    return indexRequest;
+    indexRequests.set(key, request);
+    return request;
+  }
+  window.APP_LOAD_FACULTY_INDEX = (schools = []) => {
+    if (!schools.length || window.APP_FACULTY_INDEX) return loadIndex(null, indexUrl);
+    return Promise.all(schools.map(key => loadIndex(key, indexPartUrls[key])));
   };
   const fields = ['faculty', 'directories', 'academicCoverage', 'sources'];
   const records = Object.fromEntries(fields.map(field => [field, new Map(field === 'sources' ? base.sources : [])]));

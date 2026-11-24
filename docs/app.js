@@ -338,11 +338,15 @@
     return mode==='faculty' && state.profile.universityIds.length!==1 && state.profile.researchQuery.trim();
   }
   function indexedFacultyMatches() {
-    const index=window.APP_FACULTY_INDEX;
-    if(!usesFacultyIndex()||!index)return null;
+    if(!usesFacultyIndex())return null;
     const selected=new Set(state.profile.universityIds);
+    const globalIndex=window.APP_FACULTY_INDEX;
+    const parts=window.APP_FACULTY_INDEX_PARTS;
+    const rows=globalIndex?.faculty ?? (selected.size && [...selected].every(id=>parts?.has(id))
+      ? [...selected].flatMap(id=>parts.get(id).faculty) : null);
+    if(!rows)return null;
     const search=L.facultySearch(state.profile.researchQuery);
-    return index.faculty.filter(([name,school,,researchKeywords])=>
+    return rows.filter(([name,school,,researchKeywords])=>
       (!selected.size||selected.has(school)) && (search.matchesName(name)||search.matchedTerms({researchKeywords}).length));
   }
   function neededSchools(matches) {
@@ -378,9 +382,9 @@
   }
   function renderResults() {
     const sequence = ++resultSequence;
-    const needsIndex = window.APP_LOAD_FACULTY_INDEX && !window.APP_FACULTY_INDEX &&
+    let matches = indexedFacultyMatches();
+    const needsIndex = window.APP_LOAD_FACULTY_INDEX && !matches &&
       usesFacultyIndex() && !window.APP_ALL_SCHOOLS_READY;
-    let matches = needsIndex ? null : indexedFacultyMatches();
     const schools = needsIndex ? [] : neededSchools(matches);
     if (needsIndex || (window.APP_LOAD_SCHOOLS && schools.some(id => !window.APP_LOADED_SCHOOLS.has(id)))) {
       const target=$('results');
@@ -401,7 +405,7 @@
       };
       const schoolsForIndexFailure = state.profile.universityIds;
       const request = needsIndex
-        ? window.APP_LOAD_FACULTY_INDEX().then(() => {
+        ? window.APP_LOAD_FACULTY_INDEX(schoolsForIndexFailure).then(() => {
           if(sequence!==resultSequence)return;
           matches=indexedFacultyMatches();
           return loadSchools(neededSchools(matches));
