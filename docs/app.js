@@ -348,15 +348,28 @@
   }
   function facultyPreview(matches) {
     if(!matches?.length||state.profile.interests.length)return null;
-    const list=node('ul',null,'faculty-search-preview');
-    matches.slice(0,12).forEach(([name,school,profileUrl])=>{
+    const list=node('ul',null,'faculty-search-preview'),pendingRows=new Map();
+    matches.slice(0,12).forEach(([name,school,profileUrl,,id])=>{
       const item=node('li');
       item.append(L.officialUrl(profileUrl)?link(name,profileUrl):node('span',name),
         node('span',' · '+(university(school)?.short||school)));
       list.append(item);
+      if(id)pendingRows.set(id,item);
     });
     const message=node('p',matches.length>12?'先看前 12 位匹配老师，详细档案正在读取。':'可先打开老师的主页，详细档案正在读取。','field-help');
-    return {panel:append(node('div'),message,list),message};
+    function showResearch(school) {
+      let added=false;
+      for(const person of C.faculty){
+        if(person.universityId!==school||!person.summary)continue;
+        const row=pendingRows.get(person.id);
+        if(!row)continue;
+        row.append(node('p',person.summary,'faculty-summary'));
+        pendingRows.delete(person.id);
+        added=true;
+      }
+      if(added)message.textContent='可先查看已到齐的研究简介，其余详细档案正在读取。';
+    }
+    return {panel:append(node('div'),message,list),message,showResearch};
   }
   function renderResults() {
     const sequence = ++resultSequence;
@@ -378,7 +391,9 @@
           preview=facultyPreview(matches);
           if(preview)target.replaceChildren(preview.panel);
         }
-        return window.APP_LOAD_SCHOOLS(ids);
+        return window.APP_LOAD_SCHOOLS(ids, preview ? school => {
+          if(sequence===resultSequence)preview.showResearch(school);
+        } : undefined);
       };
       const request = needsIndex
         ? window.APP_LOAD_FACULTY_INDEX().then(() => {

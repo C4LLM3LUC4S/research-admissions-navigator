@@ -76,7 +76,10 @@
     pending.set(key,request);return request;
   }
   window.APP_LOADED_SCHOOLS = loaded;
-  window.APP_LOAD_SCHOOLS = keys => Promise.all([...new Set(keys)].map(load)).then(() => base);
+  window.APP_LOAD_SCHOOLS = (keys, onSchoolReady) => Promise.all([...new Set(keys)].map(async key => {
+    await load(key);
+    onSchoolReady?.(key);
+  })).then(() => base);
   window.APP_LOAD_ALL = () => window.APP_LOAD_SCHOOLS(manifest.map(row => row.key));
   async function prepareSavedRecords() {
     let raw;

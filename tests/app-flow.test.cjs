@@ -1392,8 +1392,15 @@ test('SSE research platforms stay separate from departments and expose the sourc
 function lazyHarness(){
  const catalog=structuredClone(C),loaded=new Set(),requests=[];
  for(const field of ['faculty','directories','academicCoverage'])catalog[field]=[];
- const state={APP_LOADED_SCHOOLS:loaded,APP_FACULTY_INDEX:{faculty:C.faculty.map(f=>[f.name,f.universityId,f.profileUrl,f.researchKeywords])}};
- state.APP_LOAD_SCHOOLS=ids=>new Promise((resolve,reject)=>{requests.push({ids,resolve(){ids.forEach(id=>loaded.add(id));for(const field of ['faculty','directories','academicCoverage'])catalog[field]=C[field].filter(row=>loaded.has(row.universityId));resolve(catalog);},reject});});
+ const state={APP_LOADED_SCHOOLS:loaded,APP_FACULTY_INDEX:{faculty:C.faculty.map(f=>[f.name,f.universityId,f.profileUrl,f.researchKeywords,f.id])}};
+ state.APP_LOAD_SCHOOLS=(ids,onSchoolReady)=>new Promise((resolve,reject)=>{
+  function publish(id){
+   loaded.add(id);
+   for(const field of ['faculty','directories','academicCoverage'])catalog[field]=C[field].filter(row=>loaded.has(row.universityId));
+   onSchoolReady?.(id);
+  }
+  requests.push({ids,publish,resolve(){ids.forEach(publish);resolve(catalog);},reject});
+ });
  state.APP_LOAD_ALL=()=>state.APP_LOAD_SCHOOLS(C.universities.map(u=>u.id));
  return {...harness(null,{catalog,window:state}),requests,catalog};
 }
@@ -1417,6 +1424,25 @@ test('cross-school index results remain usable during a pending or failed detail
  await h.button('results','重试读取').emit('click');h.requests[1].resolve();await flushLoads();
  assert.match(el('result-count').textContent,/找到 1 位老师/);
  assert.doesNotMatch(el('results').textContent,/详细档案正在读取/);
+});
+test('a cross-school search shows research summaries as matching schools arrive',async()=>{
+ const h=lazyHarness(),el=id=>h.byId.get(id);
+ el('research-query').value='流体力学';
+ await el('profile-form').emit('input',{target:el('research-query')});
+ const request=h.requests[0];
+ assert.ok(request.ids.length>1);
+ const list=h.walk(el('results')).find(x=>x.className==='faculty-search-preview');
+ assert.ok(list);
+ request.publish(request.ids[0]);
+ const summaries=h.walk(list).filter(x=>x.className==='faculty-summary');
+ assert.ok(summaries.length>0);
+ request.publish(request.ids[0]);
+ assert.equal(h.walk(list).filter(x=>x.className==='faculty-summary').length,summaries.length);
+ assert.match(el('result-count').textContent,/正在读取/);
+ request.resolve();
+ await flushLoads();
+ assert.match(el('result-count').textContent,/找到/);
+ assert.ok(!h.walk(el('results')).some(x=>x.className==='faculty-search-preview'));
 });
 test('school load failures keep a retry action and never show an empty match as a completed search',async()=>{
  const h=lazyHarness(),el=id=>h.byId.get(id);h.select('hku','PhD',[]);await el('profile-form').emit('input');await el('show-faculty').emit('click');
