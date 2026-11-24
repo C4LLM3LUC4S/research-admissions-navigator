@@ -19199,13 +19199,17 @@
       ],
       "summary": "研究统计机器学习、可信AI、表示学习和生成建模，关注统计学与AI的交叉。",
       "sourceIds": [
-        "expand-cuhksz-tianyang-hu-profile"
+        "expand-cuhksz-tianyang-hu-profile",
+        "cuhksz-sds-page3-2109-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124",
+        "cuhksz-sds-page3-2109-homepage-20261124"
       ],
       "keywordSourceIds": [
         "expand-cuhksz-tianyang-hu-profile"
       ],
       "directorySourceIds": [
-        "wide-dir-cuhksz-sds"
+        "wide-dir-cuhksz-sds",
+        "cuhksz-sds-faculty-page3-20261124"
       ],
       "availability": {
         "state": "unknown",
@@ -19214,7 +19218,8 @@
         "sourceIds": [
           "expand-cuhksz-tianyang-hu-profile"
         ]
-      }
+      },
+      "identityNote": "数据科学学院第 3 页名录也列此任职。"
     },
     {
       "id": "expand-hkustgz-ning-cai",
@@ -28492,16 +28497,19 @@
       ],
       "sourceIds": [
         "cuhksz-sai-page-1-20261027",
-        "cuhksz-sai-profile-108-20261027"
+        "cuhksz-sai-profile-108-20261027",
+        "cuhksz-sds-page3-470-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124"
       ],
       "directorySourceIds": [
-        "cuhksz-sai-page-1-20261027"
+        "cuhksz-sai-page-1-20261027",
+        "cuhksz-sds-faculty-page3-20261124"
       ],
       "academicUnitIds": [
         "cuhksz-8"
       ],
       "directoryRole": "Presidential Chair Professor",
-      "identityNote": "这是官网列出的任职。具体指导资格和本轮名额，还要看项目与老师的说明。",
+      "identityNote": "这是官网列出的任职。具体指导资格和本轮名额，还要看项目与老师的说明。 数据科学学院第 3 页名录也列此任职。",
       "extraLinks": [],
       "availability": {
         "state": "unknown",
@@ -146031,6 +146039,283 @@
           "bodyStatus": "body_read",
           "readNote": "已核读院系名录给出的本人主页。",
           "sourceId": "cuhksz-sds-observed-63-linked-home-20261124"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-page3-1029",
+      "universityId": "cuhksz",
+      "name": "Wei Chung Hsu",
+      "department": "School of Data Science",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1029",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "summary": "名录研究方向包括编译器优化、动态二进制翻译和虚拟机。",
+      "topics": [
+        "软件工程与编程语言"
+      ],
+      "researchKeywords": [
+        "编译器优化",
+        "动态二进制翻译和虚拟机",
+        "Optimizing compilers",
+        "Dynamic binary translation",
+        "Virtual machines"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-page3-1029-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-faculty-page3-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-page3-452",
+      "universityId": "cuhksz",
+      "name": "Arnulf Jentzen",
+      "department": "School of Data Science",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/452",
+      "role": "Presidential Chair Professor",
+      "directoryRole": "Presidential Chair Professor",
+      "summary": "名录研究方向包括机器学习近似、计算随机方法及高维偏微分方程。",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "机器学习近似",
+        "计算随机方法及高维偏微分方程",
+        "Machine learning approximation",
+        "Computational stochastics",
+        "High dimensional PDEs"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-page3-452-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124",
+        "cuhksz-sds-page3-452-homepage-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-faculty-page3-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://www.ajentzen.de",
+          "label": "院系名录给出的个人网站",
+          "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读所给个人主页。",
+          "sourceId": "cuhksz-sds-page3-452-homepage-20261124"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-page3-1159",
+      "universityId": "cuhksz",
+      "name": "Kui Jia",
+      "department": "School of Data Science",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1159",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "summary": "名录研究方向包括几何深度学习、生成式三维建模与机器人操作。",
+      "topics": [
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "几何深度学习",
+        "生成式三维建模与机器人操作",
+        "Geometric deep learning",
+        "Generative 3D modeling",
+        "Robotic manipulation"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-page3-1159-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-faculty-page3-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://kuijia.site/",
+          "label": "院系名录给出的个人网站",
+          "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "该入口本次读取超时。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-page3-1048",
+      "universityId": "cuhksz",
+      "name": "Li Jiang",
+      "department": "School of Data Science",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1048",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "summary": "名录研究方向包括计算机视觉、人工智能与机器学习。",
+      "topics": [
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "计算机视觉",
+        "人工智能与机器学习",
+        "Computer vision",
+        "Artificial intelligence",
+        "Machine learning"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-page3-1048-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-faculty-page3-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://llijiang.github.io/",
+          "label": "院系名录给出的个人网站",
+          "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "保留官方所给链接，主页研究内容待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-page3-1745",
+      "universityId": "cuhksz",
+      "name": "Sheng Jiang",
+      "department": "School of Data Science",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1745",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "summary": "名录研究方向包括高斯过程、变分贝叶斯、交通网络数据及不确定性量化。",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "高斯过程",
+        "变分贝叶斯",
+        "交通网络数据及不确定性量化",
+        "Gaussian processes",
+        "Variational Bayes",
+        "Traffic networks",
+        "Uncertainty quantification"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-page3-1745-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-faculty-page3-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/shengjiang/",
+          "label": "院系名录给出的个人网站",
+          "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "保留官方所给链接，主页研究内容待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-page3-1150",
+      "universityId": "cuhksz",
+      "name": "Tiefeng Jiang",
+      "department": "School of Data Science",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1150",
+      "role": "Presidential Chair Professor",
+      "directoryRole": "Presidential Chair Professor",
+      "summary": "名录研究方向包括随机矩阵、概率与高维统计。",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "随机矩阵",
+        "概率与高维统计",
+        "Random matrices",
+        "Probability",
+        "High-dimensional statistics"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-page3-1150-profile-20261124",
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-faculty-page3-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://users.stat.umn.edu/~jiang040/",
+          "label": "院系名录给出的个人网站",
+          "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "保留官方所给链接，主页研究内容待核。"
         }
       ]
     }
@@ -282362,6 +282647,239 @@
       "knownIssues": []
     },
     {
+      "id": "cuhksz-sds-faculty-page3-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search?academic=All&category=All&class_type=All&keywords=&page=3",
+      "title": "港中文（深圳）数据科学学院 · 教师名录第 3 页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官网带 page=3 参数的实际所读返回页。",
+      "claims": [
+        "列 10 张人员卡和 10 个个人页，包含荣休身份。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sds.cuhk.edu.cn/en/teacher/1029",
+        "https://sds.cuhk.edu.cn/en/teacher/2109",
+        "https://sds.cuhk.edu.cn/en/teacher/470",
+        "https://sds.cuhk.edu.cn/en/teacher/2099",
+        "https://sds.cuhk.edu.cn/en/teacher/1590",
+        "https://sds.cuhk.edu.cn/en/teacher/452",
+        "https://sds.cuhk.edu.cn/en/teacher/1159",
+        "https://sds.cuhk.edu.cn/en/teacher/1048",
+        "https://sds.cuhk.edu.cn/en/teacher/1745",
+        "https://sds.cuhk.edu.cn/en/teacher/1150",
+        "https://hu-tianyang.github.io/",
+        "https://sites.google.com/site/ajayjasra0/home",
+        "http://www.ajentzen.de",
+        "http://kuijia.site/",
+        "https://llijiang.github.io/",
+        "https://sites.google.com/view/shengjiang/",
+        "http://users.stat.umn.edu/~jiang040/"
+      ],
+      "teacherLinksByProfile": {
+        "https://sds.cuhk.edu.cn/en/teacher/2109": [
+          "https://hu-tianyang.github.io/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/1590": [
+          "https://sites.google.com/site/ajayjasra0/home"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/452": [
+          "http://www.ajentzen.de"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/1159": [
+          "http://kuijia.site/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/1048": [
+          "https://llijiang.github.io/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/1745": [
+          "https://sites.google.com/view/shengjiang/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/1150": [
+          "http://users.stat.umn.edu/~jiang040/"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-page3-1029-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1029",
+      "title": "Wei Chung Hsu · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Professor。名录研究栏目包括编译器优化、动态二进制翻译和虚拟机。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-2109-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2109",
+      "title": "Tianyang Hu · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Assistant Professor。名录研究栏目包括统计机器学习、可信人工智能与生成建模。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-2109-homepage-20261124",
+      "url": "https://hu-tianyang.github.io/",
+      "title": "Tianyang Hu · 院系名录给出的本人主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+      "originalUrl": "https://hu-tianyang.github.io/",
+      "retrievedUrl": "https://hu-tianyang.github.io/",
+      "scope": "名录所给主页的实际任职或研究正文。",
+      "claims": [
+        "本人主页确认在港中文深圳数科学院任职，并介绍统计学与人工智能的交叉研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-470-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/470",
+      "title": "Jianhua Huang · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Presidential Chair Professor。名录研究栏目包括交叉统计、数字孪生与不确定性量化。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-2099-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2099",
+      "title": "Kai Hwang · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Emeritus Professor。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-1590-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1590",
+      "title": "Ajay Jasra · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Presidential Chair Professor。名录研究栏目包括贝叶斯统计、蒙特卡洛计算与随机算法。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-1590-homepage-20261124",
+      "url": "https://sites.google.com/site/ajayjasra0/home",
+      "title": "Ajay Jasra · 院系名录给出的本人主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+      "originalUrl": "https://sites.google.com/site/ajayjasra0/home",
+      "retrievedUrl": "https://sites.google.com/site/ajayjasra0/home",
+      "scope": "名录所给主页的实际任职或研究正文。",
+      "claims": [
+        "本人主页列阿联酋穆罕默德·本·扎耶德人工智能大学的统计与数据科学教授任职。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-452-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/452",
+      "title": "Arnulf Jentzen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Presidential Chair Professor。名录研究栏目包括机器学习近似、计算随机方法及高维偏微分方程。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-452-homepage-20261124",
+      "url": "https://www.ajentzen.de/",
+      "title": "Arnulf Jentzen · 院系名录给出的本人主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhksz-sds-faculty-page3-20261124",
+      "originalUrl": "http://www.ajentzen.de",
+      "retrievedUrl": "https://www.ajentzen.de/",
+      "scope": "名录所给主页的实际任职或研究正文。",
+      "claims": [
+        "本人主页列港中文深圳与明斯特大学的任职和研究活动。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-1159-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1159",
+      "title": "Kui Jia · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Professor。名录研究栏目包括几何深度学习、生成式三维建模与机器人操作。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-1048-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1048",
+      "title": "Li Jiang · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Assistant Professor。名录研究栏目包括计算机视觉、人工智能与机器学习。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-1745-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1745",
+      "title": "Sheng Jiang · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Assistant Professor。名录研究栏目包括高斯过程、变分贝叶斯、交通网络数据及不确定性量化。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-page3-1150-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1150",
+      "title": "Tiefeng Jiang · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "具名个人页及其原名录的职位、研究方向。",
+      "claims": [
+        "院系个人入口的姓名对应名录所列 Presidential Chair Professor。名录研究栏目包括随机矩阵、概率与高维统计。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cuhksz-sds-ds-application-2027",
       "url": "https://sds.cuhk.edu.cn/en/node/365",
       "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 申请程序",
@@ -314343,6 +314861,150 @@
             "sourceId": "cuhksz-sds-observed-63-profile-20261124",
             "reviewNote": "已核对院系个人页和名录研究方向。",
             "facultyId": "cuhksz-sds-observed-63"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-page3-directory",
+      "universityId": "cuhksz",
+      "unit": "数据科学学院 · 教师名录第 3 页",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search?academic=All&category=All&class_type=All&keywords=&page=3",
+      "title": "港中文（深圳）数据科学学院 · 教师名录第 3 页",
+      "sourceIds": [
+        "cuhksz-sds-faculty-page3-20261124"
+      ],
+      "reviewSourceIds": [
+        "cuhksz-sds-page3-1029-profile-20261124",
+        "cuhksz-sds-page3-2109-profile-20261124",
+        "cuhksz-sds-page3-2109-homepage-20261124",
+        "cuhksz-sds-page3-470-profile-20261124",
+        "cuhksz-sds-page3-2099-profile-20261124",
+        "cuhksz-sds-page3-1590-profile-20261124",
+        "cuhksz-sds-page3-1590-homepage-20261124",
+        "cuhksz-sds-page3-452-profile-20261124",
+        "cuhksz-sds-page3-452-homepage-20261124",
+        "cuhksz-sds-page3-1159-profile-20261124",
+        "cuhksz-sds-page3-1048-profile-20261124",
+        "cuhksz-sds-page3-1745-profile-20261124",
+        "cuhksz-sds-page3-1150-profile-20261124"
+      ],
+      "profileLinksObserved": [
+        "https://sds.cuhk.edu.cn/en/teacher/1029",
+        "https://sds.cuhk.edu.cn/en/teacher/2109",
+        "https://sds.cuhk.edu.cn/en/teacher/470",
+        "https://sds.cuhk.edu.cn/en/teacher/2099",
+        "https://sds.cuhk.edu.cn/en/teacher/1590",
+        "https://sds.cuhk.edu.cn/en/teacher/452",
+        "https://sds.cuhk.edu.cn/en/teacher/1159",
+        "https://sds.cuhk.edu.cn/en/teacher/1048",
+        "https://sds.cuhk.edu.cn/en/teacher/1745",
+        "https://sds.cuhk.edu.cn/en/teacher/1150"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这组只对应官网第 3 页的 10 张卡。已核读个人页，并保留荣休与校外任职说明。",
+      "census": {
+        "observedTotal": 10,
+        "profilesRead": 10,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Wei Chung Hsu",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1029",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor",
+            "sourceId": "cuhksz-sds-page3-1029-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录身份。",
+            "facultyId": "cuhksz-sds-page3-1029"
+          },
+          {
+            "name": "Tianyang Hu",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2109",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "sourceId": "cuhksz-sds-page3-2109-profile-20261124",
+            "reviewNote": "已核对院系个人页，沿用已有研究档案。",
+            "facultyId": "expand-cuhksz-tianyang-hu"
+          },
+          {
+            "name": "Jianhua Huang",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/470",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Presidential Chair Professor",
+            "sourceId": "cuhksz-sds-page3-470-profile-20261124",
+            "reviewNote": "已核对院系个人页，沿用已有研究档案。",
+            "facultyId": "cuhksz-sai-108"
+          },
+          {
+            "name": "Kai Hwang",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2099",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Emeritus Professor",
+            "sourceId": "cuhksz-sds-page3-2099-profile-20261124",
+            "reviewNote": "已核对荣休身份。"
+          },
+          {
+            "name": "Ajay Jasra",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1590",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Presidential Chair Professor",
+            "sourceId": "cuhksz-sds-page3-1590-profile-20261124",
+            "reviewNote": "院系名录列讲座教授；所给本人主页列阿联酋的院校任职。两处所指任职范围待核。"
+          },
+          {
+            "name": "Arnulf Jentzen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/452",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Presidential Chair Professor",
+            "sourceId": "cuhksz-sds-page3-452-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录身份。",
+            "facultyId": "cuhksz-sds-page3-452"
+          },
+          {
+            "name": "Kui Jia",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1159",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Professor",
+            "sourceId": "cuhksz-sds-page3-1159-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录身份。",
+            "facultyId": "cuhksz-sds-page3-1159"
+          },
+          {
+            "name": "Li Jiang",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1048",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "sourceId": "cuhksz-sds-page3-1048-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录身份。",
+            "facultyId": "cuhksz-sds-page3-1048"
+          },
+          {
+            "name": "Sheng Jiang",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1745",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Assistant Professor",
+            "sourceId": "cuhksz-sds-page3-1745-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录身份。",
+            "facultyId": "cuhksz-sds-page3-1745"
+          },
+          {
+            "name": "Tiefeng Jiang",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1150",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "directoryPosition": "Presidential Chair Professor",
+            "sourceId": "cuhksz-sds-page3-1150-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录身份。",
+            "facultyId": "cuhksz-sds-page3-1150"
           }
         ]
       }
@@ -364667,5 +365329,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:8ee381cd9b8423cf27c5a21a997cc76b1191de197462627a86edeb09ffca5b8e"
+  "snapshotId": "sha256:f9ae5ac4e15d47e63a31f80c89f89cc61ef6512a9a8dd45557609996353f0818"
 }
