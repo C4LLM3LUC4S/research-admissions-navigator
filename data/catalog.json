@@ -23535,13 +23535,19 @@
         "Aerodynamics",
         "Aerospace engineering",
         "Aircraft engineering",
-        "Aircraft and aeronautical engineering"
+        "Aircraft and aeronautical engineering",
+        "气动声学",
+        "航空",
+        "车辆空气动力学"
       ],
       "keywordSourceIds": [
-        "review-profile-2efbaad7412656"
+        "review-profile-2efbaad7412656",
+        "hkust-mae-primary-zhang-xin-profile-20261124"
       ],
       "sourceIds": [
-        "review-profile-2efbaad7412656"
+        "review-profile-2efbaad7412656",
+        "hkust-mae-primary-zhang-xin-profile-20261124",
+        "hkust-mae-primary-zhang-xin-related-1-20261124"
       ],
       "topics": [
         "物理与化学",
@@ -23551,7 +23557,7 @@
         "hkust-6"
       ],
       "directoryRole": "ZHANG Xin Chair Professor (Joint Appointment)",
-      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。 机械与航空航天工程系另列任职：Swire Professor of Aerospace Engineering。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/xin-zhang/",
       "universityId": "hkust",
       "name": "Xin ZHANG",
@@ -23565,7 +23571,10 @@
         "sourceIds": [
           "review-profile-2efbaad7412656"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ]
     },
     {
       "id": "review-hkust-da25b49efa0f7d",
@@ -23942,13 +23951,18 @@
         "Surgical robots",
         "Underwater robots",
         "Implantable medical devices",
-        "Multi-material microfabrication"
+        "Multi-material microfabrication",
+        "微型机器人",
+        "软体机器人",
+        "手术机器人"
       ],
       "keywordSourceIds": [
-        "review-profile-b51279e43c553a"
+        "review-profile-b51279e43c553a",
+        "hkust-mae-primary-hu-wenqi-profile-20261124"
       ],
       "sourceIds": [
-        "review-profile-b51279e43c553a"
+        "review-profile-b51279e43c553a",
+        "hkust-mae-primary-hu-wenqi-profile-20261124"
       ],
       "topics": [
         "土木与机械工程",
@@ -23958,7 +23972,7 @@
         "hkust-6"
       ],
       "directoryRole": "HU Wenqi Assistant Professor (Joint Appointment)",
-      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。 机械与航空航天工程系另列任职：Assistant Professor。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/wenqi-hu/",
       "universityId": "hkust",
       "name": "Wenqi HU",
@@ -23972,7 +23986,10 @@
         "sourceIds": [
           "review-profile-b51279e43c553a"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ]
     },
     {
       "id": "review-hkust-6934e0ea6840d7",
@@ -24021,13 +24038,21 @@
         "Robotics",
         "Soft Robotics",
         "Rapid prototyping",
-        "Additive Manufacturing"
+        "Additive Manufacturing",
+        "软体机器人",
+        "仿生机器人",
+        "增材制造",
+        "Soft robotics",
+        "Bioinspired robotics",
+        "Additive manufacturing"
       ],
       "keywordSourceIds": [
-        "review-profile-5da47c92915273"
+        "review-profile-5da47c92915273",
+        "hkust-mae-primary-scharff-rob-profile-20261124"
       ],
       "sourceIds": [
-        "review-profile-5da47c92915273"
+        "review-profile-5da47c92915273",
+        "hkust-mae-primary-scharff-rob-profile-20261124"
       ],
       "topics": [
         "土木与机械工程",
@@ -24037,7 +24062,7 @@
         "hkust-6"
       ],
       "directoryRole": "Rob SCHARFF Assistant Professor",
-      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。",
+      "identityNote": "本条保留官网目录中的原职位；教学、实践、荣休、兼任或联合任职不等于已确认研究生指导资格。 机械与航空航天工程系另列任职：Assistant Professor of Mechanical and Aerospace Engineering。",
       "reviewedProfileUrl": "https://researchportal.hkust.edu.hk/en/persons/rob-scharff/",
       "universityId": "hkust",
       "name": "Rob SCHARFF",
@@ -24051,7 +24076,10 @@
         "sourceIds": [
           "review-profile-5da47c92915273"
         ]
-      }
+      },
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ]
     },
     {
       "id": "review-hkust-106308e3256ac3",
@@ -52642,10 +52670,12 @@
       "universityId": "hkust",
       "sourceIds": [
         "hkust-cbe-profile-046-20261027",
-        "hkust-cbe-directory-joint-20261027"
+        "hkust-cbe-directory-joint-20261027",
+        "hkust-mae-primary-yao-shuhuai-profile-20261124"
       ],
       "directorySourceIds": [
-        "hkust-cbe-directory-joint-20261027"
+        "hkust-cbe-directory-joint-20261027",
+        "hkust-mae-primary-directory-20261124"
       ],
       "academicUnitIds": [
         "hkust-2"
@@ -52671,16 +52701,23 @@
       "reviewedProfileUrl": "https://cbe.hkust.edu.hk/node/285",
       "directoryRole": "Professor · 联合任职（Zero-Percent）",
       "department": "化学及生物工程学系 · 联合任职（Zero-Percent）",
-      "identityNote": "这是官网列出的任职分类，不等于已确认所选学位的指导资格或当前正在接收。",
+      "identityNote": "这是官网列出的任职分类，不等于已确认所选学位的指导资格或当前正在接收。 机械与航空航天工程系另列任职：Professor。",
       "summary": "研究微纳流体、热质传递、相变传热和芯片实验室。",
       "researchKeywords": [
         "Microfluidics and nanofluidics",
         "Heat and mass transport",
         "Phase change heat transfer",
-        "Lab-on-a-chip"
+        "Lab-on-a-chip",
+        "微纳流体",
+        "生物微机电系统",
+        "界面现象",
+        "Microfluidics",
+        "BioMEMS",
+        "Interfacial phenomena"
       ],
       "keywordSourceIds": [
-        "hkust-cbe-profile-046-20261027"
+        "hkust-cbe-profile-046-20261027",
+        "hkust-mae-primary-yao-shuhuai-profile-20261124"
       ],
       "topics": [
         "生命科学与生物工程",
@@ -67644,11 +67681,17 @@
       "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
       "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=lin-fu-linfu",
       "directoryRole": "Associate Professor, Department of Mechanical and Aerospace Engineering Associate Professor, Department of Mathematics",
-      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。 机械与航空航天工程系另列任职：Associate Professor。",
       "summary": "研究空气动力学、湍流、流体动力学与计算流体力学，涉及偏微分方程数值方法。",
       "researchKeywords": [
         "空气动力学、湍流、流体动力学与计算流体力学，涉及偏微分方程数值方法",
-        "Aerodynamics Turbulence Fluid dynamics Computational fluid dynamics Numerical methods for partial differential equations Applied mathematics"
+        "Aerodynamics Turbulence Fluid dynamics Computational fluid dynamics Numerical methods for partial differential equations Applied mathematics",
+        "湍流和多相流",
+        "偏微分方程数值方法",
+        "科学计算",
+        "Turbulence",
+        "Multi-phase flows",
+        "High-performance computing"
       ],
       "topics": [
         "数学与统计",
@@ -67661,17 +67704,20 @@
         "math-directory-2-20261028",
         "math-directory-3-20261028",
         "math-directory-4-20261028",
-        "math-personal-09-20261028"
+        "math-personal-09-20261028",
+        "hkust-mae-primary-fu-lin-profile-20261124"
       ],
       "keywordSourceIds": [
-        "math-profile-09-20261028"
+        "math-profile-09-20261028",
+        "hkust-mae-primary-fu-lin-profile-20261124"
       ],
       "directorySourceIds": [
         "math-directory-0-20261028",
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-mae-primary-directory-20261124"
       ],
       "academicUnitIds": [
         "hkust-1"
@@ -69559,11 +69605,17 @@
       "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu",
       "reviewedProfileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=kun-xu-makxu",
       "directoryRole": "Head and Chair Professor, Department of Mathematics Stephen Kam Chuen Cheong Professor of Science Chair Professor, Department of Mechanical and Aerospace Engineering",
-      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。",
+      "identityNote": "按官网保留具体职称与跨系任职。教学人员、研究助理教授、附属或荣休身份不自动证明可以独立指导所选学位；实际指导资格和当期接收仍待项目确认。 机械与航空航天工程系另列任职：Chair Professor。",
       "summary": "研究计算流体力学、Navier–Stokes方程高阶紧致格式、多尺度气体动理学格式与非平衡稀薄流。",
       "researchKeywords": [
         "计算流体力学、Navier–Stokes方程高阶紧致格式、多尺度气体动理学格式与非平衡稀薄流",
-        "Computational fluid dynamics High-order compact schemes for Navier-Stokes equations Multiscale modeling and gas-kinetic schemes Non-equilibrium transport and rarefied flow"
+        "Computational fluid dynamics High-order compact schemes for Navier-Stokes equations Multiscale modeling and gas-kinetic schemes Non-equilibrium transport and rarefied flow",
+        "计算流体力学",
+        "稀薄流",
+        "气体动理学方法",
+        "Computational Fluid Dynamics",
+        "Rarefied flow",
+        "Gas-kinetic schemes"
       ],
       "topics": [
         "数学与统计",
@@ -69576,17 +69628,20 @@
         "math-directory-2-20261028",
         "math-directory-3-20261028",
         "math-directory-4-20261028",
-        "math-personal-47-20261028"
+        "math-personal-47-20261028",
+        "hkust-mae-primary-xu-kun-profile-20261124"
       ],
       "keywordSourceIds": [
-        "math-profile-47-20261028"
+        "math-profile-47-20261028",
+        "hkust-mae-primary-xu-kun-profile-20261124"
       ],
       "directorySourceIds": [
         "math-directory-0-20261028",
         "math-directory-1-20261028",
         "math-directory-2-20261028",
         "math-directory-3-20261028",
-        "math-directory-4-20261028"
+        "math-directory-4-20261028",
+        "hkust-mae-primary-directory-20261124"
       ],
       "academicUnitIds": [
         "hkust-1"
@@ -72467,7 +72522,7 @@
       "profileUrl": "https://facultyprofiles.ust.hk/profiles.php?profile=qing-chen-chenqing",
       "reviewedProfileUrl": "https://facultyprofiles.hkust.edu.hk/profiles.php?profile=qing-chen-chenqing",
       "directoryRole": "Associate Professor, Department of Mechanical and Aerospace Engineering Associate Professor, Department of Chemistry PG Programs Coordinator (Mechanical and Aerospace Engineering) Associate Director of HKUST Energy Institute",
-      "identityNote": "保留学院原职位与个人页的任职时间。讲师、科学教育、研究、兼任和荣休岗位不自动证明可以独立指导MPhil/PhD；实时接收另核。",
+      "identityNote": "保留学院原职位与个人页的任职时间。讲师、科学教育、研究、兼任和荣休岗位不自动证明可以独立指导MPhil/PhD；实时接收另核。 机械与航空航天工程系另列任职：Associate Professor。",
       "summary": "研究金属与合金、纳米多孔和纳米结构材料，以及储能与电化学能源技术。",
       "researchKeywords": [
         "金属与合金、纳米多孔和纳米结构材料，以及储能与电化学能源技术",
@@ -72476,7 +72531,14 @@
         "Metals and alloys",
         "Energy storage",
         "Electrochemical energy technologies",
-        "Nanoporous and nanostructured materials"
+        "Nanoporous and nanostructured materials",
+        "纳米多孔金属",
+        "锌电池",
+        "液流电池电极",
+        "电化学储能",
+        "Nanoporous metals",
+        "Alkaline zinc batteries",
+        "Flow cells"
       ],
       "topics": [
         "物理与化学",
@@ -72485,13 +72547,17 @@
       ],
       "sourceIds": [
         "chemistry-profile-04-20261028",
-        "chemistry-science-directory-0-20261028"
+        "chemistry-science-directory-0-20261028",
+        "hkust-mae-primary-chen-qing-profile-20261124",
+        "hkust-mae-primary-chen-qing-related-1-20261124"
       ],
       "keywordSourceIds": [
-        "chemistry-profile-04-20261028"
+        "chemistry-profile-04-20261028",
+        "hkust-mae-primary-chen-qing-profile-20261124"
       ],
       "directorySourceIds": [
-        "chemistry-science-directory-0-20261028"
+        "chemistry-science-directory-0-20261028",
+        "hkust-mae-primary-directory-20261124"
       ],
       "academicUnitIds": [
         "hkust-1"
@@ -125085,19 +125151,27 @@
         "海洋机器人",
         "自主系统",
         "移动传感网络",
-        "Marine robotics and autonomous systems Mobile sensor and actuator networks Bio-inspired distributed active perception Human-autonomy interaction and integration"
+        "Marine robotics and autonomous systems Mobile sensor and actuator networks Bio-inspired distributed active perception Human-autonomy interaction and integration",
+        "移动传感器网络",
+        "Marine robotics",
+        "Autonomous systems",
+        "Sensor networks"
       ],
       "sourceIds": [
         "hkust-oces-20261111-profile-fumin-zhang-eefumin",
         "hkust-oces-20261111-roster",
-        "hkust-oces-20261111-linked-3"
+        "hkust-oces-20261111-linked-3",
+        "hkust-mae-primary-zhang-fumin-profile-20261124",
+        "hkust-mae-primary-zhang-fumin-related-1-20261124"
       ],
       "directorySourceIds": [
-        "hkust-oces-20261111-roster"
+        "hkust-oces-20261111-roster",
+        "hkust-mae-primary-directory-20261124"
       ],
       "keywordSourceIds": [
         "hkust-oces-20261111-profile-fumin-zhang-eefumin",
-        "hkust-oces-20261111-roster"
+        "hkust-oces-20261111-roster",
+        "hkust-mae-primary-zhang-fumin-profile-20261124"
       ],
       "extraLinks": [
         {
@@ -125115,7 +125189,8 @@
         "sourceIds": [
           "hkust-oces-20261111-profile-fumin-zhang-eefumin"
         ]
-      }
+      },
+      "identityNote": "机械与航空航天工程系另列任职：Chair Professor。"
     },
     {
       "id": "hkust-oces-20261111-qinglu-zeng-zeng",
@@ -142205,6 +142280,1011 @@
       "keywordSourceIds": [
         "cuhk-mae-huan-zhao-profile-20261122"
       ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-yong",
+      "universityId": "hkust",
+      "name": "Yong Chen / 陳勇",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Head and Chair Professor",
+      "directoryRole": "Head and Chair Professor",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "增材制造",
+        "微纳制造",
+        "功能器件",
+        "可持续制造",
+        "Additive manufacturing",
+        "Micro/nanoscale fabrication"
+      ],
+      "summary": "研究方向包括增材制造、微纳制造、功能器件与可持续制造。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
+      "sourceIds": [
+        "hkust-mae-primary-chen-yong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-chen-yong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-chen-yong-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://yongchen.people.ust.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-chen-yong-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "证书校验失败，正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-ye-wenjing",
+      "universityId": "hkust",
+      "name": "Wenjing Ye / 葉文菁",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Head and Professor",
+      "directoryRole": "Associate Head and Professor",
+      "topics": [
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "计算力学",
+        "数据驱动设计优化",
+        "微纳系统",
+        "Computational mechanics",
+        "Design and optimization",
+        "Metamaterials"
+      ],
+      "summary": "研究方向包括计算力学、数据驱动设计优化与微纳系统。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/ye-wenjing",
+      "sourceIds": [
+        "hkust-mae-primary-ye-wenjing-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-ye-wenjing-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-ye-wenjing-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-li-larry",
+      "universityId": "hkust",
+      "name": "Larry Li / 李建邦",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Head and Professor",
+      "directoryRole": "Associate Head and Professor",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "流体力学",
+        "热声学",
+        "非线性动力学",
+        "Fluid mechanics",
+        "Thermoacoustics",
+        "Nonlinear dynamics"
+      ],
+      "summary": "研究方向包括流体力学、热声学、非线性动力学。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
+      "sourceIds": [
+        "hkust-mae-primary-li-larry-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-li-larry-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-li-larry-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://researchportal.hkust.edu.hk/en/persons/larry-li/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-li-larry-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "网站返回 HTTP 403，正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-sun-qingping",
+      "universityId": "hkust",
+      "name": "Qingping Sun / 孫慶平",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Chair Professor",
+      "directoryRole": "Chair Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "固体相变",
+        "形状记忆合金",
+        "热机械行为",
+        "Phase transition in solids",
+        "Shape memory alloys"
+      ],
+      "summary": "研究方向包括固体相变、形状记忆合金、热机械行为。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
+      "sourceIds": [
+        "hkust-mae-primary-sun-qingping-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-sun-qingping-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-sun-qingping-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://mae.hkust.edu.hk/~meqpsun/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-sun-qingping-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "仅保留院系所给链接。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-gao-yang",
+      "universityId": "hkust",
+      "name": "Yang Gao / 高揚",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Global STEM Professor",
+      "directoryRole": "Global STEM Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "机器人感知",
+        "视觉导航",
+        "仿生机构",
+        "Robotic sensing",
+        "Visual guidance",
+        "Biomimetic mechanisms"
+      ],
+      "summary": "研究方向包括机器人感知、视觉导航与仿生机构。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
+      "sourceIds": [
+        "hkust-mae-primary-gao-yang-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-gao-yang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-gao-yang-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://yanggao.people.ust.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-gao-yang-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "证书校验失败，正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-huang-baoling",
+      "universityId": "hkust",
+      "name": "Baoling Huang / 黃寶陵",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "微纳传热传质",
+        "能源材料",
+        "能量储存",
+        "Heat and mass transfer",
+        "Energy materials",
+        "Energy storage"
+      ],
+      "summary": "研究方向包括微纳传热传质、能源材料与能量储存。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/huang-baoling",
+      "sourceIds": [
+        "hkust-mae-primary-huang-baoling-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-huang-baoling-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-huang-baoling-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-lam-david",
+      "universityId": "hkust",
+      "name": "David CC Lam / 林銓振",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "topics": [
+        "土木与机械工程",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "技术价值链工程",
+        "医疗技术转化",
+        "Engineering of Value-Chains",
+        "Advanced stroke treatment technology"
+      ],
+      "summary": "研究方向包括技术价值链工程与医疗技术转化。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lam-david",
+      "sourceIds": [
+        "hkust-mae-primary-lam-david-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-lam-david-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-lam-david-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-li-zhigang",
+      "universityId": "hkust",
+      "name": "Zhigang Li / 李志剛",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "微纳流体",
+        "传热传质",
+        "界面科学",
+        "Micro/nanofluidics",
+        "Mass and heat transfer",
+        "Interfacial science"
+      ],
+      "summary": "研究方向包括微纳流体、传热传质与界面科学。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
+      "sourceIds": [
+        "hkust-mae-primary-li-zhigang-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-li-zhigang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-li-zhigang-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://mezli.people.ust.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-li-zhigang-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "院系给出 HTTP 旧地址，保留原链接待核。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-yang-jinglei",
+      "universityId": "hkust",
+      "name": "Jinglei Yang / 楊晶磊",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "多功能复合材料",
+        "涂层",
+        "微胶囊化及多尺度力学",
+        "Multifunctional composites",
+        "Microencapsulation",
+        "Multiscale mechanics"
+      ],
+      "summary": "研究方向包括多功能复合材料与涂层、微胶囊化及多尺度力学。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
+      "sourceIds": [
+        "hkust-mae-primary-yang-jinglei-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-yang-jinglei-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-yang-jinglei-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://maeyang.people.ust.hk/people.htm",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-yang-jinglei-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "院系给出 HTTP 旧地址，保留原链接待核。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-sherry",
+      "universityId": "hkust",
+      "name": "Xian Chen / 陳弦",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "相变材料设计",
+        "能量转换",
+        "跨尺度实验力学",
+        "Phase-transforming materials",
+        "Energy conversion",
+        "Experimental mechanics"
+      ],
+      "summary": "研究方向包括相变材料设计、能量转换与跨尺度实验力学。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-sherry",
+      "sourceIds": [
+        "hkust-mae-primary-chen-sherry-profile-20261124",
+        "hkust-mae-primary-chen-sherry-related-1-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-chen-sherry-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-chen-sherry-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://xchen.mae.ust.hk",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-chen-sherry-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读所给研究主页正文。",
+          "sourceId": "hkust-mae-primary-chen-sherry-related-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-gao-yongsheng",
+      "universityId": "hkust",
+      "name": "Yongsheng Gao / 高咏生",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "制造过程控制",
+        "磨削技术",
+        "在线光学测量",
+        "Manufacturing process control",
+        "Grinding technology",
+        "Optical measurement"
+      ],
+      "summary": "研究方向包括制造过程控制、磨削技术与在线光学测量。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yongsheng",
+      "sourceIds": [
+        "hkust-mae-primary-gao-yongsheng-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-gao-yongsheng-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-gao-yongsheng-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-lee-yikuen",
+      "universityId": "hkust",
+      "name": "Yi-Kuen Lee / 李貽昆",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "生物微机电系统",
+        "芯片实验室",
+        "微流体混合",
+        "Bio-MEMS",
+        "Lab-on-a-chip",
+        "Micro chaotic mixing"
+      ],
+      "summary": "研究方向包括生物微机电系统、芯片实验室与微流体混合。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-yikuen",
+      "sourceIds": [
+        "hkust-mae-primary-lee-yikuen-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-lee-yikuen-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-lee-yikuen-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-stephane-redonnet",
+      "universityId": "hkust",
+      "name": "Stephane Redonnet",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "* Professorship Accreditation (\"Habilitation\", French equivalent to UK's D.Sc), Aix-Marseille University (France)",
+      "directoryRole": "* Professorship Accreditation (\"Habilitation\", French equivalent to UK's D.Sc), Aix-Marseille University (France)",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "流动",
+        "噪声物理",
+        "计算流体力学和计算声学",
+        "Flow and noise physics",
+        "Computational fluid dynamics",
+        "Computational acoustics"
+      ],
+      "summary": "研究方向包括流动与噪声物理、计算流体力学和计算声学。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/stephane-redonnet",
+      "sourceIds": [
+        "hkust-mae-primary-stephane-redonnet-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-stephane-redonnet-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-stephane-redonnet-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-fan-shi",
+      "universityId": "hkust",
+      "name": "Fan Shi / 施帆",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "声学",
+        "超声无损检测",
+        "成像",
+        "Acoustics",
+        "Nondestructive evaluation",
+        "Ultrasonic imaging"
+      ],
+      "summary": "研究方向包括声学、超声无损检测与成像。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/fan-shi",
+      "sourceIds": [
+        "hkust-mae-primary-fan-shi-profile-20261124",
+        "hkust-mae-primary-fan-shi-related-1-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-fan-shi-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-fan-shi-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://ultrasound.hkust.edu.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-fan-shi-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读所给研究主页正文。",
+          "sourceId": "hkust-mae-primary-fan-shi-related-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-yang-zhengbao",
+      "universityId": "hkust",
+      "name": "Zhengbao Yang / 楊徵保",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "压电材料",
+        "能量采集",
+        "无线传感",
+        "Piezoelectric materials",
+        "Energy harvesting",
+        "Wireless sensors"
+      ],
+      "summary": "研究方向包括压电材料、能量采集与无线传感。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-zhengbao",
+      "sourceIds": [
+        "hkust-mae-primary-yang-zhengbao-profile-20261124",
+        "hkust-mae-primary-yang-zhengbao-related-1-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-yang-zhengbao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-yang-zhengbao-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://yanglab.hkust.edu.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-yang-zhengbao-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读所给研究主页正文。",
+          "sourceId": "hkust-mae-primary-yang-zhengbao-related-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhou-yanguang",
+      "universityId": "hkust",
+      "name": "Yanguang Zhou / 周艷光",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "蒸发",
+        "导热冷却",
+        "界面热输运",
+        "复合材料",
+        "Cooling technologies",
+        "Interfacial heat transport",
+        "MOF-based composites"
+      ],
+      "summary": "研究方向包括蒸发与导热冷却、界面热输运与复合材料。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhou-yanguang",
+      "sourceIds": [
+        "hkust-mae-primary-zhou-yanguang-profile-20261124",
+        "hkust-mae-primary-zhou-yanguang-related-1-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-zhou-yanguang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-zhou-yanguang-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://dmtrlab-dev.hkust.edu.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-zhou-yanguang-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读所给研究主页正文。",
+          "sourceId": "hkust-mae-primary-zhou-yanguang-related-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-yangyang",
+      "universityId": "hkust",
+      "name": "Yangyang Chen / 陳洋洋",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "力学超材料",
+        "固体力学",
+        "主动材料和结构",
+        "Mechanical metamaterials",
+        "Solid mechanics",
+        "Active materials"
+      ],
+      "summary": "研究方向包括力学超材料、固体力学与主动材料和结构。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yangyang",
+      "sourceIds": [
+        "hkust-mae-primary-chen-yangyang-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-chen-yangyang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-chen-yangyang-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-duan-molong",
+      "universityId": "hkust",
+      "name": "Molong Duan / 段默龍",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "智能制造",
+        "轨迹生成",
+        "机器人制造",
+        "Smart manufacturing",
+        "Trajectory generation",
+        "Robotic manufacturing"
+      ],
+      "summary": "研究方向包括智能制造、轨迹生成与机器人制造。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/duan-molong",
+      "sourceIds": [
+        "hkust-mae-primary-duan-molong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-duan-molong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-duan-molong-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-zhenyu-gao",
+      "universityId": "hkust",
+      "name": "Zhenyu Gao / 高振宇",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "航空航天系统",
+        "设计优化",
+        "自主系统",
+        "Aerospace systems",
+        "Design and optimization",
+        "Autonomous systems"
+      ],
+      "summary": "研究方向包括航空航天系统、设计优化与自主系统。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhenyu-gao",
+      "sourceIds": [
+        "hkust-mae-primary-zhenyu-gao-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-zhenyu-gao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-zhenyu-gao-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-lu-yanglong",
+      "universityId": "hkust",
+      "name": "Yanglong Lu / 陸楊龍",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "增材制造过程监测",
+        "多物理场建模及物理约束机器学习",
+        "Additive manufacturing monitoring",
+        "Multiphysics modeling",
+        "Physics-informed machine learning"
+      ],
+      "summary": "研究方向包括增材制造过程监测、多物理场建模及物理约束机器学习。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
+      "sourceIds": [
+        "hkust-mae-primary-lu-yanglong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-lu-yanglong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-lu-yanglong-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://maeylu.people.ust.hk/",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-lu-yanglong-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "证书校验失败，正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhang-tianlong",
+      "universityId": "hkust",
+      "name": "Tianlong Zhang / 張天隆",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "增材制造",
+        "相场建模和微结构设计",
+        "Additive manufacturing",
+        "Phase field modeling",
+        "Microstructure design"
+      ],
+      "summary": "研究方向包括增材制造、相场建模和微结构设计。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang_tianlong",
+      "sourceIds": [
+        "hkust-mae-primary-zhang-tianlong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-zhang-tianlong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-zhang-tianlong-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "hkust-mae-primary-zhang-xiaotian",
+      "universityId": "hkust",
+      "name": "Xiaotian Zhang / 張曉天",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "生物医学与健康",
+        "生命科学与生物工程"
+      ],
+      "researchKeywords": [
+        "生物运动",
+        "生物混合系统",
+        "神经工程",
+        "Bio-locomotion",
+        "Bio-hybrid systems",
+        "Neural engineering"
+      ],
+      "summary": "研究方向包括生物运动、生物混合系统与神经工程。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xiaotian",
+      "sourceIds": [
+        "hkust-mae-primary-zhang-xiaotian-profile-20261124",
+        "hkust-mae-primary-zhang-xiaotian-related-1-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-zhang-xiaotian-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-zhang-xiaotian-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://xzhan139.github.io",
+          "label": "研究主页",
+          "parentSourceId": "hkust-mae-primary-zhang-xiaotian-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读所给研究主页正文。",
+          "sourceId": "hkust-mae-primary-zhang-xiaotian-related-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zheng-qiye",
+      "universityId": "hkust",
+      "name": "Qiye Zheng / 鄭琪野",
+      "department": "Department of Mechanical and Aerospace Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "热输运表征",
+        "超快光谱和动态储热控制",
+        "Thermal transport",
+        "Ultrafast spectral mapping",
+        "Thermal storage"
+      ],
+      "summary": "研究方向包括热输运表征、超快光谱和动态储热控制。",
+      "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zheng-qiye",
+      "sourceIds": [
+        "hkust-mae-primary-zheng-qiye-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "hkust-mae-primary-zheng-qiye-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-mae-primary-zheng-qiye-profile-20261124"
+        ]
+      }
     },
     {
       "id": "hkust-mae-adjunct-lee-in",
@@ -276118,6 +277198,734 @@
       ]
     },
     {
+      "id": "hkust-mae-primary-directory-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+      "title": "港科大（香港）机械与航空航天工程系 · 常规师资",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4fdc57eec0b14b6ad04d828d00e83dc7efe665730f4069fbf9e1dabf2fdd7c22",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "院系 Primary Faculty 所读具名目录。",
+      "claims": [
+        "按官网列出 31 张人员卡和 31 个个人页入口，卡片和表格重复展示同一批人员。"
+      ],
+      "discoveredLinks": [
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/ye-wenjing",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-kun",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-fumin",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xin",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/huang-baoling",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lam-david",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/yao-shuhuai",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-qing",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-sherry",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/fu-lin",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yongsheng",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-yikuen",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/stephane-redonnet",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/fan-shi",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-zhengbao",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhou-yanguang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yangyang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/duan-molong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhenyu-gao",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/hu-wenqi",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/scharff-rob",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang_tianlong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xiaotian",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zheng-qiye"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-chen-yong-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
+      "title": "Yong Chen · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "5aee287d1c0fa713041c852a49a2349d6f92d348fb911565efa64f01f0bc0411",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Head and Chair Professor。研究方向包括增材制造、微纳制造、功能器件与可持续制造。"
+      ],
+      "knownIssues": [
+        "证书校验失败，正文待核。"
+      ],
+      "discoveredLinks": [
+        "https://yongchen.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-ye-wenjing-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/ye-wenjing",
+      "title": "Wenjing Ye · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "7f5637eda3dcaa8ae30bba14302d7d66cb76256956849ad50f55d62d211549f1",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/ye-wenjing",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Head and Professor。研究方向包括计算力学、数据驱动设计优化与微纳系统。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-li-larry-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
+      "title": "Larry Li · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "8a167ba20de350e3e6540ea1a5f53d52bdc7121c0dd10be1c9b7391d1de455a5",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Head and Professor。研究方向包括流体力学、热声学、非线性动力学。"
+      ],
+      "knownIssues": [
+        "网站返回 HTTP 403，正文待核。"
+      ],
+      "discoveredLinks": [
+        "https://researchportal.hkust.edu.hk/en/persons/larry-li/",
+        "https://scholar.google.com/citations?user=CXYOffEAAAAJ&hl=en"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-sun-qingping-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
+      "title": "Qingping Sun · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "43267d46d6a28b4e3cec9b4016246b8e234267fec9a4073873403c9be01eb412",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Chair Professor。研究方向包括固体相变、形状记忆合金、热机械行为。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://mae.hkust.edu.hk/~meqpsun/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-xu-kun-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-kun",
+      "title": "Kun Xu · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "66564757d8abdbc5f97309fa695a38beea11011e6c112343e9287747293d7b82",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-kun",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Chair Professor。研究方向包括计算流体力学、稀薄流、气体动理学方法。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-zhang-fumin-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-fumin",
+      "title": "Fumin Zhang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "618abf2767f5d5d74584990cba8434ccd8a8b61485d871a33f8949fe049e0e94",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-fumin",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Chair Professor。研究方向包括海洋机器人、自主系统与移动传感器网络。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://fumin-home.hkust.edu.hk/home"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhang-fumin-related-1-20261124",
+      "url": "https://fumin-home.hkust.edu.hk/home",
+      "title": "Fumin Zhang · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "862d44771482661769dc4322c69f32011e9ece478008ad8d42f2ba0977bfa751",
+      "originalUrl": "https://fumin-home.hkust.edu.hk/home",
+      "retrievedUrl": "https://fumin-home.hkust.edu.hk/home",
+      "parentSourceId": "hkust-mae-primary-zhang-fumin-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "个人网站列机器人具身灵巧与智能联合实验室。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-zhang-xin-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xin",
+      "title": "Xin Zhang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "0334bfa8779360a7344d4d0b981e11d8ef5ff7e6360d851f8c73088b0655e091",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xin",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Swire Professor of Aerospace Engineering。研究方向包括气动声学、航空与车辆空气动力学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://aantc.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhang-xin-related-1-20261124",
+      "url": "https://aantc.ust.hk/",
+      "title": "Xin Zhang · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "8748cde919c4c71479526703a583c5537270a2b35d6b458496c2b170b88f4564",
+      "originalUrl": "https://aantc.ust.hk/",
+      "retrievedUrl": "https://aantc.ust.hk/",
+      "parentSourceId": "hkust-mae-primary-zhang-xin-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "中心介绍空气动力学、声学及噪声控制研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-gao-yang-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
+      "title": "Yang Gao · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "81f339278fdda693c0cea455aed5b71b7d69e90251736512f5db0fb5f88c109a",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Global STEM Professor。研究方向包括机器人感知、视觉导航与仿生机构。"
+      ],
+      "knownIssues": [
+        "证书校验失败，正文待核。"
+      ],
+      "discoveredLinks": [
+        "https://yanggao.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-huang-baoling-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/huang-baoling",
+      "title": "Baoling Huang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "995c0c06acb9de7d5889214b6f595f9fade8379df8ef0b05edce175d7b3f14fc",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/huang-baoling",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Professor。研究方向包括微纳传热传质、能源材料与能量储存。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-lam-david-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/lam-david",
+      "title": "David CC Lam · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "eba912abd758be3f74a135036a23788efafd06be807b53e4eeed12b8cf390d62",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lam-david",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Professor。研究方向包括技术价值链工程与医疗技术转化。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-li-zhigang-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
+      "title": "Zhigang Li · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "dc87e27e6fc658392a80637bd529b7e21a88a27885fc5c08e0f83ca95100c3af",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Professor。研究方向包括微纳流体、传热传质与界面科学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://mezli.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-yang-jinglei-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
+      "title": "Jinglei Yang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "1b35bc6ad7ace6b4f64e963d4ad0cb6e2ae7756f61c5697928ba29fe89e3425e",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Professor。研究方向包括多功能复合材料与涂层、微胶囊化及多尺度力学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://maeyang.people.ust.hk/people.htm"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-yao-shuhuai-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/yao-shuhuai",
+      "title": "Shuhuai Yao · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "bbc06f516cec536b156e1b3b76cfd8d765853a840078d5684332cca012fc5edc",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yao-shuhuai",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Professor。研究方向包括微纳流体、生物微机电系统与界面现象。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://meshyao.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-qing-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-qing",
+      "title": "Qing Chen · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "0f7f7d14434da306b9a95d81b2bc2e336817bfba889fe7e44266ec8e59c429bc",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-qing",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括纳米多孔金属、锌电池、液流电池电极与电化学储能。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://chengroup.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-qing-related-1-20261124",
+      "url": "https://chengroup.hkust.edu.hk/",
+      "title": "Qing Chen · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "f2318afa56a7ea8887a548d604b86c85c80600baa78108b5a07232f44cfbbfc1",
+      "originalUrl": "https://chengroup.hkust.edu.hk/",
+      "retrievedUrl": "https://chengroup.hkust.edu.hk/",
+      "parentSourceId": "hkust-mae-primary-chen-qing-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "课题组介绍纳米多孔材料及电池研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-chen-sherry-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-sherry",
+      "title": "Xian Chen · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "4961aad80c1ae76c0bce2ead1dc910d5b81c1ec4fb232645467be3036e689117",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-sherry",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括相变材料设计、能量转换与跨尺度实验力学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://xchen.mae.ust.hk",
+        "https://xchen.mae.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-sherry-related-1-20261124",
+      "url": "https://xchen.mae.ust.hk",
+      "title": "Xian Chen · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "9ea40c41b3d7783f3fcd333381ce70380ad9b3fc8a22abb911f2cf8deab9f8fc",
+      "originalUrl": "https://xchen.mae.ust.hk",
+      "retrievedUrl": "https://xchen.mae.ust.hk",
+      "parentSourceId": "hkust-mae-primary-chen-sherry-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "正文页标题与课题组标识为 X-Mechanics Lab。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-fu-lin-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/fu-lin",
+      "title": "Lin Fu · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "62d7da67caa35dbb8ac38575662e128229845b9d2216b26ab0d1ad25886f04e9",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/fu-lin",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括湍流和多相流、偏微分方程数值方法与科学计算。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://linfu.people.ust.hk/index.html"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-gao-yongsheng-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yongsheng",
+      "title": "Yongsheng Gao · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "654e2b0fa8b8b2ef626b566c13bb462ad56c81ed679d9c9803d7696fe17de98f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yongsheng",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括制造过程控制、磨削技术与在线光学测量。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-lee-yikuen-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-yikuen",
+      "title": "Yi-Kuen Lee · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "1152fcc7d77cbdc94d0ab35dde4661ea7b06d65e8a8b466a59b265253d50e92f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-yikuen",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括生物微机电系统、芯片实验室与微流体混合。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-stephane-redonnet-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/stephane-redonnet",
+      "title": "Stephane Redonnet · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "3b9f405932cf0bd732783ff8eadcf2d0c64c3695c86bd93ffcae4ba5d55a0c1f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/stephane-redonnet",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 * Professorship Accreditation (\"Habilitation\", French equivalent to UK's D.Sc), Aix-Marseille University (France)。研究方向包括流动与噪声物理、计算流体力学和计算声学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-fan-shi-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/fan-shi",
+      "title": "Fan Shi · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "2cb37c46deba7e02c1e04f146806a32dbf5cce6ff024338e9550b978e1932dde",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/fan-shi",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括声学、超声无损检测与成像。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://ultrasound.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-fan-shi-related-1-20261124",
+      "url": "https://ultrasound.hkust.edu.hk/",
+      "title": "Fan Shi · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "c6432d37852c7e97d137320187ea571c9ec0a181d09694a060c9e25761a4dccc",
+      "originalUrl": "https://ultrasound.hkust.edu.hk/",
+      "retrievedUrl": "https://ultrasound.hkust.edu.hk/",
+      "parentSourceId": "hkust-mae-primary-fan-shi-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "课题组介绍超声无损检测和材料、结构的完整性评估。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-yang-zhengbao-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-zhengbao",
+      "title": "Zhengbao Yang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "08a763d019c2632c89464e67a93d1823b45b457ac06c7906c7d4ce4806db1783",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-zhengbao",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括压电材料、能量采集与无线传感。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.ca/citations?user=Rzm9F9IAAAAJ&hl=en",
+        "https://scholar.google.com.hk/citations?user=Rzm9F9IAAAAJ&hl=en",
+        "https://yanglab.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-yang-zhengbao-related-1-20261124",
+      "url": "https://yanglab.hkust.edu.hk/",
+      "title": "Zhengbao Yang · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "33ac00c4d652f8efae557444648fa4425a5f0ed4edcf2bacd35a2775b35cb323",
+      "originalUrl": "https://yanglab.hkust.edu.hk/",
+      "retrievedUrl": "https://yanglab.hkust.edu.hk/",
+      "parentSourceId": "hkust-mae-primary-yang-zhengbao-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "实验室介绍能量转换、频率响应及振动研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-zhou-yanguang-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhou-yanguang",
+      "title": "Yanguang Zhou · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "0d84605174f85f691144ee318c7769ce034b3ad7ea2231de3f92203cebed850b",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhou-yanguang",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Associate Professor。研究方向包括蒸发与导热冷却、界面热输运与复合材料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://dmtrlab-dev.hkust.edu.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhou-yanguang-related-1-20261124",
+      "url": "https://dmtrlab-dev.hkust.edu.hk/",
+      "title": "Yanguang Zhou · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "e4289307f890c1c2c1f995c82d4a31f0fde82a0eca5ea41c1e18ba7337992cf1",
+      "originalUrl": "https://dmtrlab-dev.hkust.edu.hk/",
+      "retrievedUrl": "https://dmtrlab-dev.hkust.edu.hk/",
+      "parentSourceId": "hkust-mae-primary-zhou-yanguang-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "主页识别为港科大微尺度热物理工程实验室。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-chen-yangyang-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yangyang",
+      "title": "Yangyang Chen · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "9a60a55665663df1a69f5ecd591e00cc1928710e3b4fdb9af408332886478cc8",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yangyang",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括力学超材料、固体力学与主动材料和结构。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-duan-molong-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/duan-molong",
+      "title": "Molong Duan · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "5cf4fd45d51e311acbde2c0add2722e117ffd8f054a31e4d4defd8675bce8267",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/duan-molong",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括智能制造、轨迹生成与机器人制造。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-zhenyu-gao-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhenyu-gao",
+      "title": "Zhenyu Gao · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "119feaaf61f93c7c5a6818168112019eb994f9662a50ae8142cb4facc7246782",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhenyu-gao",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括航空航天系统、设计优化与自主系统。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-hu-wenqi-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/hu-wenqi",
+      "title": "Wenqi Hu · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "da0b7d8ee622203a33767c85005d90718f4bde46a1f0bf3d3473a7356ccd4f5f",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/hu-wenqi",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括微型机器人、软体机器人与手术机器人。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-lu-yanglong-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
+      "title": "Yanglong Lu · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "8cbac9031721e24642c2b4542907a2efe5b9f73c106a4247f08a17abeb44bd31",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括增材制造过程监测、多物理场建模及物理约束机器学习。"
+      ],
+      "knownIssues": [
+        "证书校验失败，正文待核。"
+      ],
+      "discoveredLinks": [
+        "https://maeylu.people.ust.hk/"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-scharff-rob-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/scharff-rob",
+      "title": "Rob Scharff · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "4b3e8ccc9a8ecc4268facda7cf9dc7cbaafb4e23754949f233d69bde5db19f25",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/scharff-rob",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor of Mechanical and Aerospace Engineering。研究方向包括软体机器人、仿生机器人与增材制造。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-primary-zhang-tianlong-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang_tianlong",
+      "title": "Tianlong Zhang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "b6d2d3c6e37a3edcb51099e105f934d0102795308561dfd19c1fa51584c661b7",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang_tianlong",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括增材制造、相场建模和微结构设计。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://scholar.google.com/citations?hl=zh-CN&user=80Zw31AAAAAJ&view_op=list_works&sortby=pubdate"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhang-xiaotian-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xiaotian",
+      "title": "Xiaotian Zhang · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "711be27f44d17ca909a1b471e7fdb0007bee851e07dd1c8553af005874f9fc3b",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xiaotian",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括生物运动、生物混合系统与神经工程。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://xzhan139.github.io"
+      ]
+    },
+    {
+      "id": "hkust-mae-primary-zhang-xiaotian-related-1-20261124",
+      "url": "https://xzhan139.github.io",
+      "title": "Xiaotian Zhang · 院系提供的研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "bodySha256": "47df86e291ae28e706e080af32a87fa4a2dff1f62f8a3f8146fb2ece04bad587",
+      "originalUrl": "https://xzhan139.github.io",
+      "retrievedUrl": "https://xzhan139.github.io",
+      "parentSourceId": "hkust-mae-primary-zhang-xiaotian-profile-20261124",
+      "scope": "院系个人页所给研究入口的正文。",
+      "claims": [
+        "主页为 Xiaotian Zhang Lab at HKUST。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-zheng-qiye-profile-20261124",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/detail/zheng-qiye",
+      "title": "Qiye Zheng · 港科大（香港）机械与航空航天工程系",
+      "checkedAt": "2026-11-24",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "402c2bbc966e5714976cd9ad93da2b2218284b0c684e4a09987d9e685caac802",
+      "retrievedUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zheng-qiye",
+      "scope": "院系个人页所列任职与研究方向。",
+      "claims": [
+        "个人页列 Assistant Professor。研究方向包括热输运表征、超快光谱和动态储热控制。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
       "id": "hkust-mae-teaching-20261124",
       "url": "https://mae.hkust.edu.hk/en/people/faculty/teaching-faculty",
       "title": "港科大（香港）机械与航空航天工程系 · 教学人员",
@@ -306739,6 +308547,368 @@
       "reviewSourceIds": [],
       "coverageComplete": false,
       "coverageNotes": "可分别查看学术、附属、实务、荣誉、兼任访问、科研技术及行政人员。35个个人页入口复用2026-10-26记录，本次新核个人页的身份和研究另列日期；未确认全系现任人员、指导资格或招生余位。"
+    },
+    {
+      "id": "hkust-mae-primary-directory",
+      "universityId": "hkust",
+      "unit": "Department of Mechanical and Aerospace Engineering / Primary Faculty",
+      "url": "https://mae.hkust.edu.hk/en/people/faculty/primary-faculty",
+      "title": "港科大（香港）机械与航空航天工程系 · 常规师资",
+      "profileLinksObserved": [
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/ye-wenjing",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-kun",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-fumin",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xin",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/huang-baoling",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lam-david",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/yao-shuhuai",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-qing",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-sherry",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/fu-lin",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yongsheng",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-yikuen",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/stephane-redonnet",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/fan-shi",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-zhengbao",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhou-yanguang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yangyang",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/duan-molong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhenyu-gao",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/hu-wenqi",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/scharff-rob",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang_tianlong",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xiaotian",
+        "https://mae.hkust.edu.hk/en/people/faculty/detail/zheng-qiye"
+      ],
+      "sourceIds": [
+        "hkust-mae-primary-directory-20261124"
+      ],
+      "coverageNotes": "院系常规师资目录的 31 张人员卡及个人页均已核对。研究助理教授、教学、兼任、荣休和访问另有分类。",
+      "coverageComplete": false,
+      "census": {
+        "observedTotal": 31,
+        "profilesRead": 31,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Yong Chen / 陳勇",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Head and Chair Professor",
+            "facultyId": "hkust-mae-primary-chen-yong",
+            "sourceId": "hkust-mae-primary-chen-yong-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Wenjing Ye / 葉文菁",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/ye-wenjing",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Head and Professor",
+            "facultyId": "hkust-mae-primary-ye-wenjing",
+            "sourceId": "hkust-mae-primary-ye-wenjing-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Larry Li / 李建邦",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Head and Professor",
+            "facultyId": "hkust-mae-primary-li-larry",
+            "sourceId": "hkust-mae-primary-li-larry-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Qingping Sun / 孫慶平",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Chair Professor",
+            "facultyId": "hkust-mae-primary-sun-qingping",
+            "sourceId": "hkust-mae-primary-sun-qingping-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Kun Xu / 徐昆",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/xu-kun",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Chair Professor",
+            "facultyId": "hkust-math-47",
+            "sourceId": "hkust-mae-primary-xu-kun-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Fumin Zhang / 張福民",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-fumin",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Chair Professor",
+            "facultyId": "hkust-oces-20261111-fumin-zhang-eefumin",
+            "sourceId": "hkust-mae-primary-zhang-fumin-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Xin Zhang / 張欣",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xin",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Swire Professor of Aerospace Engineering",
+            "facultyId": "review-hkust-2efbaad7412656",
+            "sourceId": "hkust-mae-primary-zhang-xin-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Yang Gao / 高揚",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Global STEM Professor",
+            "facultyId": "hkust-mae-primary-gao-yang",
+            "sourceId": "hkust-mae-primary-gao-yang-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Baoling Huang / 黃寶陵",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/huang-baoling",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Professor",
+            "facultyId": "hkust-mae-primary-huang-baoling",
+            "sourceId": "hkust-mae-primary-huang-baoling-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "David CC Lam / 林銓振",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lam-david",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Professor",
+            "facultyId": "hkust-mae-primary-lam-david",
+            "sourceId": "hkust-mae-primary-lam-david-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Zhigang Li / 李志剛",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Professor",
+            "facultyId": "hkust-mae-primary-li-zhigang",
+            "sourceId": "hkust-mae-primary-li-zhigang-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Jinglei Yang / 楊晶磊",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Professor",
+            "facultyId": "hkust-mae-primary-yang-jinglei",
+            "sourceId": "hkust-mae-primary-yang-jinglei-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Shuhuai Yao / 姚舒懷",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yao-shuhuai",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Professor",
+            "facultyId": "hkust-cbe-d916ad09aed135",
+            "sourceId": "hkust-mae-primary-yao-shuhuai-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Qing Chen / 陳擎",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-qing",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-chemistry-04",
+            "sourceId": "hkust-mae-primary-chen-qing-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Xian Chen / 陳弦",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-sherry",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-mae-primary-chen-sherry",
+            "sourceId": "hkust-mae-primary-chen-sherry-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Lin Fu / 傅林",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/fu-lin",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-math-09",
+            "sourceId": "hkust-mae-primary-fu-lin-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Yongsheng Gao / 高咏生",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yongsheng",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-mae-primary-gao-yongsheng",
+            "sourceId": "hkust-mae-primary-gao-yongsheng-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Yi-Kuen Lee / 李貽昆",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lee-yikuen",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-mae-primary-lee-yikuen",
+            "sourceId": "hkust-mae-primary-lee-yikuen-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Stephane Redonnet",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/stephane-redonnet",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "* Professorship Accreditation (\"Habilitation\", French equivalent to UK's D.Sc), Aix-Marseille University (France)",
+            "facultyId": "hkust-mae-primary-stephane-redonnet",
+            "sourceId": "hkust-mae-primary-stephane-redonnet-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Fan Shi / 施帆",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/fan-shi",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-mae-primary-fan-shi",
+            "sourceId": "hkust-mae-primary-fan-shi-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Zhengbao Yang / 楊徵保",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-zhengbao",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-mae-primary-yang-zhengbao",
+            "sourceId": "hkust-mae-primary-yang-zhengbao-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Yanguang Zhou / 周艷光",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhou-yanguang",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Associate Professor",
+            "facultyId": "hkust-mae-primary-zhou-yanguang",
+            "sourceId": "hkust-mae-primary-zhou-yanguang-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Yangyang Chen / 陳洋洋",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yangyang",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-chen-yangyang",
+            "sourceId": "hkust-mae-primary-chen-yangyang-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Molong Duan / 段默龍",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/duan-molong",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-duan-molong",
+            "sourceId": "hkust-mae-primary-duan-molong-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Zhenyu Gao / 高振宇",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhenyu-gao",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-zhenyu-gao",
+            "sourceId": "hkust-mae-primary-zhenyu-gao-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Wenqi Hu / 胡文琪",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/hu-wenqi",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "review-hkust-b51279e43c553a",
+            "sourceId": "hkust-mae-primary-hu-wenqi-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Yanglong Lu / 陸楊龍",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-lu-yanglong",
+            "sourceId": "hkust-mae-primary-lu-yanglong-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Rob Scharff",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/scharff-rob",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor of Mechanical and Aerospace Engineering",
+            "facultyId": "review-hkust-5da47c92915273",
+            "sourceId": "hkust-mae-primary-scharff-rob-profile-20261124",
+            "reviewNote": "已核读院系个人页；沿用已有研究档案编号。"
+          },
+          {
+            "name": "Tianlong Zhang / 張天隆",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang_tianlong",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-zhang-tianlong",
+            "sourceId": "hkust-mae-primary-zhang-tianlong-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Xiaotian Zhang / 張曉天",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zhang-xiaotian",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-zhang-xiaotian",
+            "sourceId": "hkust-mae-primary-zhang-xiaotian-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          },
+          {
+            "name": "Qiye Zheng / 鄭琪野",
+            "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/zheng-qiye",
+            "reviewStatus": "body_read",
+            "profileRead": true,
+            "directoryPosition": "Assistant Professor",
+            "facultyId": "hkust-mae-primary-zheng-qiye",
+            "sourceId": "hkust-mae-primary-zheng-qiye-profile-20261124",
+            "reviewNote": "已核读院系个人页。"
+          }
+        ]
+      }
     },
     {
       "id": "hkust-mae-teaching-directory",
@@ -357394,5 +359564,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:61978e100f06d1d2edb435a6b4cb04fed21ac17210395d95c465d05b1fe9a04c"
+  "snapshotId": "sha256:09a4e2e8ff36cc8889ad3d315919f58dd6ddfc8edb324426edf4b214ef12209e"
 }

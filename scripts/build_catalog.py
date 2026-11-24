@@ -2344,6 +2344,21 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    mae_primary = load("hkust-mae-primary-20261124.json")
+    catalog["sources"].extend(mae_primary["sources"])
+    catalog["directories"].append(mae_primary["directory"])
+    faculty_by_id = {person["id"]: person for person in catalog["faculty"]}
+    for update in mae_primary["existingUpdates"]:
+        person = faculty_by_id[update["id"]]
+        assert person["universityId"] == "hkust"
+        person["sourceIds"] = list(dict.fromkeys(person["sourceIds"] + update["sourceIds"]))
+        person["directorySourceIds"] = list(dict.fromkeys(person.get("directorySourceIds", []) + [update["directorySourceId"]]))
+        person["keywordSourceIds"] = list(dict.fromkeys(person["keywordSourceIds"] + [update["keywordSourceId"]]))
+        person["researchKeywords"] = list(dict.fromkeys(person["researchKeywords"] + update["researchKeywords"]))
+        note = "机械与航空航天工程系另列任职：" + update["role"] + "。"
+        person["identityNote"] = (person.get("identityNote", "") + " " + note).strip()
+    catalog["faculty"].extend(mae_primary["faculty"])
+
     mae_roles = load("hkust-mae-role-directories-20261124.json")
     catalog["sources"].extend(mae_roles["sources"])
     catalog["faculty"].extend(mae_roles["faculty"])
