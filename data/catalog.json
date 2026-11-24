@@ -14088,7 +14088,8 @@
       "summary": "主页介绍了高级控制、自主飞行器、传感融合与视觉等方向。如果你想做控制与自主系统，可以从这些研究问题继续了解。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wen-hua-chen/",
       "sourceIds": [
-        "polyu-wenhua-chen"
+        "polyu-wenhua-chen",
+        "polyu-aae-academic-directory-20261124"
       ],
       "availability": {
         "state": "unknown",
@@ -14106,6 +14107,9 @@
       ],
       "keywordSourceIds": [
         "polyu-wenhua-chen"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
       ]
     },
     {
@@ -142280,6 +142284,1023 @@
       "keywordSourceIds": [
         "cuhk-mae-huan-zhao-profile-20261122"
       ]
+    },
+    {
+      "id": "polyu-aae-wen-chih-yung",
+      "universityId": "polyu",
+      "name": "Chih-Yung Wen",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Chair Professor",
+      "directoryRole": "Chair Professor",
+      "topics": [
+        "土木与机械工程",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "实验流体力学",
+        "计算流体力学与城市风场",
+        "Experimental fluid mechanics",
+        "Computational fluid dynamics",
+        "Urban wind field"
+      ],
+      "summary": "研究方向包括实验流体力学、计算流体力学与城市风场。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/",
+      "sourceIds": [
+        "polyu-aae-wen-chih-yung-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-wen-chih-yung-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-wen-chih-yung-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-liu-wei",
+      "universityId": "polyu",
+      "name": "Wei Liu",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Associate Head and Professor",
+      "directoryRole": "Associate Head and Professor",
+      "topics": [
+        "土木与机械工程",
+        "经济与管理"
+      ],
+      "researchKeywords": [
+        "多式联运网络建模",
+        "交通与航空经济及城市空中出行",
+        "Multimodal transport network modelling",
+        "Transport economics",
+        "Urban air mobility"
+      ],
+      "summary": "研究方向包括多式联运网络建模、交通与航空经济及城市空中出行。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
+      "sourceIds": [
+        "polyu-aae-liu-wei-profile-20261124",
+        "polyu-aae-liu-wei-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-liu-wei-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-liu-wei-profile-20261124"
+        ]
+      },
+      "identityNote": "按官网，航空及民航工程系 Liu Wei 研究交通网络与航空经济；应数系及电机电子工程系同名档案保留各自编号。",
+      "extraLinks": [
+        {
+          "url": "https://weiliu2016.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-aae-liu-wei-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-liu-wei-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-hao-jiaao",
+      "universityId": "polyu",
+      "name": "Jiaao Hao",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Associate Head and Associate Professor",
+      "directoryRole": "Associate Head and Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "空气动力学",
+        "气动热力学与计算流体力学",
+        "Aerodynamics",
+        "Aerothermodynamics",
+        "Computational fluid dynamics"
+      ],
+      "summary": "研究方向包括空气动力学、气动热力学与计算流体力学。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
+      "sourceIds": [
+        "polyu-aae-hao-jiaao-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-hao-jiaao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-hao-jiaao-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/jiaaohao",
+          "label": "https://sites.google.com/view/jiaaohao",
+          "parentSourceId": "polyu-aae-hao-jiaao-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系所给网址，正文继续待核。"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-ng-kam-hung",
+      "universityId": "polyu",
+      "name": "Kam Hung Ng",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Associate Head and Associate Professor",
+      "directoryRole": "Associate Head and Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "航空交通管理",
+        "运筹建模与航空气象",
+        "Air traffic management",
+        "Operations research",
+        "Aviation meteorology"
+      ],
+      "summary": "研究方向包括航空交通管理、运筹建模与航空气象。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
+      "sourceIds": [
+        "polyu-aae-ng-kam-hung-profile-20261124",
+        "polyu-aae-ng-kam-hung-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-ng-kam-hung-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-ng-kam-hung-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://www.polyu.edu.hk/researchgrp/khng/index.html",
+          "label": "Air Traffic Management Research Group",
+          "parentSourceId": "polyu-aae-ng-kam-hung-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-ng-kam-hung-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-fei-duan",
+      "universityId": "polyu",
+      "name": "Fei Duan",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "液滴润湿与蒸发",
+        "马兰戈尼流及热管理",
+        "Droplet wetting",
+        "Marangoni flow",
+        "Thermal management"
+      ],
+      "summary": "研究方向包括液滴润湿与蒸发、马兰戈尼流及热管理。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-fei-duan/",
+      "sourceIds": [
+        "polyu-aae-fei-duan-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-fei-duan-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-fei-duan-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-hsu-li-ta",
+      "universityId": "polyu",
+      "name": "Li-Ta Hsu",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "卫星定位和信号处理",
+        "室内导航与多传感器融合",
+        "GNSS positioning",
+        "Indoor positioning",
+        "Sensor fusion"
+      ],
+      "summary": "研究方向包括卫星定位和信号处理、室内导航与多传感器融合。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/",
+      "sourceIds": [
+        "polyu-aae-hsu-li-ta-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-hsu-li-ta-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-hsu-li-ta-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-jiang-yiping",
+      "universityId": "polyu",
+      "name": "Yiping Jiang",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "土木与机械工程",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "卫星导航",
+        "空中导航及导航完好性",
+        "Satellite navigation",
+        "Air navigation",
+        "Navigation integrity"
+      ],
+      "summary": "研究方向包括卫星导航、空中导航及导航完好性。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-jiang-yiping/",
+      "sourceIds": [
+        "polyu-aae-jiang-yiping-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-jiang-yiping-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-jiang-yiping-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-chan-kit-ying",
+      "universityId": "polyu",
+      "name": "Kit Ying Chan",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "碳纤维复合材料",
+        "结构储能及纳米复合气凝胶增材制造",
+        "CFRP composites",
+        "Structural energy storage",
+        "Nanocomposite aerogels"
+      ],
+      "summary": "研究方向包括碳纤维复合材料、结构储能及纳米复合气凝胶增材制造。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chan-kit-ying/",
+      "sourceIds": [
+        "polyu-aae-chan-kit-ying-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-chan-kit-ying-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-chan-kit-ying-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-chen-yutong",
+      "universityId": "polyu",
+      "name": "Yutong Chen",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "人机交互"
+      ],
+      "researchKeywords": [
+        "航空交通管理中的人工智能",
+        "人机协作与系统架构",
+        "Air traffic management",
+        "Human-AI collaboration",
+        "AI for aviation"
+      ],
+      "summary": "研究方向包括航空交通管理中的人工智能、人机协作与系统架构。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chen-yutong/",
+      "sourceIds": [
+        "polyu-aae-chen-yutong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-chen-yutong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-chen-yutong-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-feng-siyuan",
+      "universityId": "polyu",
+      "name": "Siyuan Feng",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "多式联运机器学习",
+        "空中出行及航空交通仿真",
+        "Multimodal transportation",
+        "Low-altitude air mobility",
+        "Transportation simulation"
+      ],
+      "summary": "研究方向包括多式联运机器学习、空中出行及航空交通仿真。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-feng-siyuan/",
+      "sourceIds": [
+        "polyu-aae-feng-siyuan-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-feng-siyuan-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-feng-siyuan-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-sangdi-gu",
+      "universityId": "polyu",
+      "name": "Sangdi Gu",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "高速气体流动",
+        "热化学非平衡与光学诊断",
+        "High-speed gas dynamics",
+        "Thermochemical nonequilibrium",
+        "Optical diagnostics"
+      ],
+      "summary": "研究方向包括高速气体流动、热化学非平衡与光学诊断。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-sangdi-gu/",
+      "sourceIds": [
+        "polyu-aae-sangdi-gu-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-sangdi-gu-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-sangdi-gu-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-guan-yu",
+      "universityId": "polyu",
+      "name": "Yu Guan",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "替代燃料燃烧",
+        "燃烧不稳定性及声学",
+        "Alternative fuels combustion",
+        "Combustion instability",
+        "Acoustics"
+      ],
+      "summary": "研究方向包括替代燃料燃烧、燃烧不稳定性及声学。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-guan-yu/",
+      "sourceIds": [
+        "polyu-aae-guan-yu-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-guan-yu-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-guan-yu-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-huang-hailong",
+      "universityId": "polyu",
+      "name": "Hailong Huang",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "移动机器人导航与控制",
+        "多智能体系统及仿真",
+        "Mobile robot navigation",
+        "Multi-agent systems",
+        "System simulation"
+      ],
+      "summary": "研究方向包括移动机器人导航与控制、多智能体系统及仿真。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
+      "sourceIds": [
+        "polyu-aae-huang-hailong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-huang-hailong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-huang-hailong-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-li-ang",
+      "universityId": "polyu",
+      "name": "Ang Li",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "城市空中出行",
+        "区域航空交通管理与多式联运",
+        "Urban air mobility",
+        "Regional air traffic management",
+        "Multimodal transport"
+      ],
+      "summary": "研究方向包括城市空中出行、区域航空交通管理与多式联运。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
+      "sourceIds": [
+        "polyu-aae-li-ang-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-li-ang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-li-ang-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://angli-joy.com",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-aae-li-ang-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系所给网址，正文继续待核。"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-li-fan",
+      "universityId": "polyu",
+      "name": "Fan Li",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "人机交互"
+      ],
+      "researchKeywords": [
+        "交通场景的人机协作",
+        "认知状态与人因数据分析",
+        "Human-AI collaboration",
+        "Cognitive states modelling",
+        "Eye-tracking"
+      ],
+      "summary": "研究方向包括交通场景的人机协作、认知状态与人因数据分析。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
+      "sourceIds": [
+        "polyu-aae-li-fan-profile-20261124",
+        "polyu-aae-li-fan-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-li-fan-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-li-fan-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://shineergo.wixsite.com/homepage",
+          "label": "Sustainable Human-centered Interactions and Ergonomics Group",
+          "parentSourceId": "polyu-aae-li-fan-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-li-fan-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-shen-xi",
+      "universityId": "polyu",
+      "name": "Xi Shen",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "聚合物纳米复合材料",
+        "热管理复合材料与复合传感",
+        "Polymer nanocomposites",
+        "Thermal management composites",
+        "Composite sensors"
+      ],
+      "summary": "研究方向包括聚合物纳米复合材料、热管理复合材料与复合传感。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-shen-xi/",
+      "sourceIds": [
+        "polyu-aae-shen-xi-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-shen-xi-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-shen-xi-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-wang-bing",
+      "universityId": "polyu",
+      "name": "Bing Wang",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "计算机视觉"
+      ],
+      "researchKeywords": [
+        "空间感知",
+        "三维视觉及视觉与激光雷达定位",
+        "Spatial perception",
+        "3D computer vision",
+        "Visual and LiDAR SLAM"
+      ],
+      "summary": "研究方向包括空间感知、三维视觉及视觉与激光雷达定位。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+      "sourceIds": [
+        "polyu-aae-wang-bing-profile-20261124",
+        "polyu-aae-wang-bing-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-wang-bing-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-wang-bing-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://bingcs.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-aae-wang-bing-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-wang-bing-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-wang-yiqing",
+      "universityId": "polyu",
+      "name": "Yiqing Wang",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "反应湍流的高性能计算",
+        "科学机器学习及替代燃料",
+        "Turbulent reacting flows",
+        "Scientific machine learning",
+        "Alternative fuels"
+      ],
+      "summary": "研究方向包括反应湍流的高性能计算、科学机器学习及替代燃料。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wang-yiqing/",
+      "sourceIds": [
+        "polyu-aae-wang-yiqing-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-wang-yiqing-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-wang-yiqing-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-wen-weisong",
+      "universityId": "polyu",
+      "name": "Weisong Wen",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "可信自主系统",
+        "具身机器人与多传感器导航",
+        "Trustworthy autonomy",
+        "Embodied robotics",
+        "Multi-sensor navigation"
+      ],
+      "summary": "研究方向包括可信自主系统、具身机器人与多传感器导航。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/",
+      "sourceIds": [
+        "polyu-aae-wen-weisong-profile-20261124",
+        "polyu-aae-wen-weisong-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-wen-weisong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-wen-weisong-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://polyu-taslab.github.io/",
+          "label": "Trustworthy AI and Autonomous Systems Laboratory (TAS Lab)",
+          "parentSourceId": "polyu-aae-wen-weisong-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-wen-weisong-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-wu-lingxiao",
+      "universityId": "polyu",
+      "name": "Lingxiao Wu",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "数据驱动优化",
+        "航空运营及航运和港口系统",
+        "Data-driven optimization",
+        "Aviation operations",
+        "Port operations"
+      ],
+      "summary": "研究方向包括数据驱动优化、航空运营及航运和港口系统。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wu-lingxiao/",
+      "sourceIds": [
+        "polyu-aae-wu-lingxiao-profile-20261124",
+        "polyu-aae-wu-lingxiao-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-wu-lingxiao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-wu-lingxiao-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/lingxiaowu/home",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-aae-wu-lingxiao-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-wu-lingxiao-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-xu-bing",
+      "universityId": "polyu",
+      "name": "Bing Xu",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "卫星定位导航",
+        "GNSS 信号处理与无线定位",
+        "Satellite positioning",
+        "GNSS signal processing",
+        "Cellular positioning"
+      ],
+      "summary": "研究方向包括卫星定位导航、GNSS 信号处理与无线定位。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-xu-bing/",
+      "sourceIds": [
+        "polyu-aae-xu-bing-profile-20261124",
+        "polyu-aae-xu-bing-linked-1-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-xu-bing-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-xu-bing-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://pbingxu.github.io/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-aae-xu-bing-profile-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "已核读该研究主页。",
+          "sourceId": "polyu-aae-xu-bing-linked-1-20261124"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-xu-gangyan",
+      "universityId": "polyu",
+      "name": "Gangyan Xu",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "人机交互"
+      ],
+      "researchKeywords": [
+        "人机组队",
+        "学习式优化及航空维修可靠性",
+        "Human-autonomy teaming",
+        "Learning-based optimization",
+        "Aircraft maintenance"
+      ],
+      "summary": "研究方向包括人机组队、学习式优化及航空维修可靠性。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
+      "sourceIds": [
+        "polyu-aae-xu-gangyan-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-xu-gangyan-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-xu-gangyan-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "http://xugangyan.cn/",
+          "label": "Personal Website",
+          "parentSourceId": "polyu-aae-xu-gangyan-profile-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系所给网址，正文继续待核。"
+        }
+      ]
+    },
+    {
+      "id": "polyu-aae-zhang-guohao",
+      "universityId": "polyu",
+      "name": "Guohao Zhang",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "复杂环境卫星定位",
+        "三维地图辅助导航及传感器融合",
+        "3D mapping-aided GNSS",
+        "Collaborative positioning",
+        "Multi-sensor integration"
+      ],
+      "summary": "研究方向包括复杂环境卫星定位、三维地图辅助导航及传感器融合。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-guohao/",
+      "sourceIds": [
+        "polyu-aae-zhang-guohao-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-zhang-guohao-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-zhang-guohao-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-zhong-siyang",
+      "universityId": "polyu",
+      "name": "Siyang Zhong",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "土木与机械工程",
+        "物理与化学"
+      ],
+      "researchKeywords": [
+        "气动声学",
+        "环境噪声与运动空气动力学",
+        "Aeroacoustics",
+        "Environmental noise",
+        "Sports aerodynamics"
+      ],
+      "summary": "研究方向包括气动声学、环境噪声与运动空气动力学。",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhong-siyang/",
+      "sourceIds": [
+        "polyu-aae-zhong-siyang-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-zhong-siyang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-zhong-siyang-profile-20261124"
+        ]
+      }
     },
     {
       "id": "polyu-aae-rap-bai-shiyu",
@@ -277679,6 +278700,556 @@
       ]
     },
     {
+      "id": "polyu-aae-academic-directory-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 常规师资",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "76053899ee45c630783344dd30163e9601fbfb934c422cd2c6e90c355627c9d8",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "scope": "Academic Staff 中列教授及助理教授的 25 张人员卡。",
+      "claims": [
+        "所读 25 张人员卡按院系原职称列名，研究助理教授、兼任、实践和教学岗位另核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wen-hua-chen/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-fei-duan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-jiang-yiping/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chan-kit-ying/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chen-yutong/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-feng-siyuan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-sangdi-gu/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-guan-yu/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-shen-xi/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wang-yiqing/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wu-lingxiao/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-xu-bing/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-guohao/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhong-siyang/"
+      ]
+    },
+    {
+      "id": "polyu-aae-wen-chih-yung-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/",
+      "title": "Chih-Yung Wen · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "724cab698441b34e255ed3ba074f6c495bce095b1e35712bf90f2aaf5db265b6",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Chair Professor；个人页所列方向包括实验流体力学、计算流体力学与城市风场。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-liu-wei-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
+      "title": "Wei Liu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3ed0f382b2603c3b62b82736bdc632c5aeba6854904c1b3b1f3d3e8a887f1114",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Associate Head and Professor；个人页所列方向包括多式联运网络建模、交通与航空经济及城市空中出行。"
+      ],
+      "knownIssues": [
+        "按官网，航空及民航工程系 Liu Wei 研究交通网络与航空经济；应数系及电机电子工程系同名档案保留各自编号。"
+      ],
+      "discoveredLinks": [
+        "https://weiliu2016.github.io/"
+      ]
+    },
+    {
+      "id": "polyu-aae-liu-wei-linked-1-20261124",
+      "url": "https://weiliu2016.github.io/",
+      "title": "Wei Liu · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-liu-wei-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "主页确认航空及民航工程学系任职，介绍大型交通系统建模、优化和交通经济。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-hao-jiaao-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
+      "title": "Jiaao Hao · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "0ceee88bc842fa23f2a546a66799cfe715ce6a724665d3c5549ca38dd0c967a7",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Associate Head and Associate Professor；个人页所列方向包括空气动力学、气动热力学与计算流体力学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/jiaaohao"
+      ]
+    },
+    {
+      "id": "polyu-aae-ng-kam-hung-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
+      "title": "Kam Hung Ng · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "4c66d381611f097fe2f4bcf1bae99cbd9b2919a74d0b8c8e523abbf4e264df48",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Associate Head and Associate Professor；个人页所列方向包括航空交通管理、运筹建模与航空气象。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/researchgrp/khng/index.html"
+      ]
+    },
+    {
+      "id": "polyu-aae-ng-kam-hung-linked-1-20261124",
+      "url": "https://www.polyu.edu.hk/researchgrp/khng/index.html",
+      "title": "Kam Hung Ng · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-ng-kam-hung-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "课题组介绍航空交通管理、航空气象、运筹与不确定性建模。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-fei-duan-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-fei-duan/",
+      "title": "Fei Duan · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "149fbc51ce9b23bac946b5bb29bbddad5360291e3e15c294f92c4be3f4d79694",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-fei-duan/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Professor；个人页所列方向包括液滴润湿与蒸发、马兰戈尼流及热管理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-hsu-li-ta-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/",
+      "title": "Li-Ta Hsu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "edc05fd9834f23e8ca83baf5f95a9e510a946d55a71d56de1355cf59f18efb92",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Associate Professor；个人页所列方向包括卫星定位和信号处理、室内导航与多传感器融合。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-jiang-yiping-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-jiang-yiping/",
+      "title": "Yiping Jiang · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "71de277be3190d7c83a0c2ec7e981e2b376edb4bcfa28f0ec223991cbbf7b8ef",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-jiang-yiping/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Associate Professor；个人页所列方向包括卫星导航、空中导航及导航完好性。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-chan-kit-ying-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chan-kit-ying/",
+      "title": "Kit Ying Chan · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "81477570441085c3ac3810457692d59748d662928480509388b8f317454958d7",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chan-kit-ying/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括碳纤维复合材料、结构储能及纳米复合气凝胶增材制造。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-chen-yutong-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chen-yutong/",
+      "title": "Yutong Chen · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cac5ca6bb0e312586e7bc727b1cb7140224818c05e07aa46f40dfbec0bfc1aae",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chen-yutong/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括航空交通管理中的人工智能、人机协作与系统架构。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-feng-siyuan-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-feng-siyuan/",
+      "title": "Siyuan Feng · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2b38a78ce28277a34b5fac12135ca72e1c2269f7250db6ede2e6218cdc999353",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-feng-siyuan/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括多式联运机器学习、空中出行及航空交通仿真。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-sangdi-gu-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-sangdi-gu/",
+      "title": "Sangdi Gu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ca640b20285943f258b1e0ded84a635223058bc91e25e51d998e205b8f70fda7",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-sangdi-gu/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括高速气体流动、热化学非平衡与光学诊断。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-guan-yu-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-guan-yu/",
+      "title": "Yu Guan · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cb603dd51b802f6ce15907b5ce1d0f6ccc1e98528f64dc35f178d97113c08221",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-guan-yu/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括替代燃料燃烧、燃烧不稳定性及声学。"
+      ],
+      "knownIssues": [
+        "院系提供的是含追踪参数的跳转链接，保留官方个人页作为入口。"
+      ],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-huang-hailong-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
+      "title": "Hailong Huang · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b2ce4972bd6154386cfde84e87341657d16d98c060b355301e89667fe91f71d4",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括移动机器人导航与控制、多智能体系统及仿真。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-li-ang-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
+      "title": "Ang Li · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "e74991d787e304d1cc034a5d35dfd3b0531b6824dbc114955d455d22ac13deb6",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括城市空中出行、区域航空交通管理与多式联运。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://angli-joy.com"
+      ]
+    },
+    {
+      "id": "polyu-aae-li-fan-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
+      "title": "Fan Li · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cb93860c7e94cef224d8d0d53ecf87545dfb036016e2c89d396f388d2532ad4b",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括交通场景的人机协作、认知状态与人因数据分析。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://shineergo.wixsite.com/homepage"
+      ]
+    },
+    {
+      "id": "polyu-aae-li-fan-linked-1-20261124",
+      "url": "https://shineergo.wixsite.com/homepage",
+      "title": "Fan Li · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-li-fan-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "课题组列交通人因与工效学研究，以及基于视线数据的警觉性分析。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-shen-xi-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-shen-xi/",
+      "title": "Xi Shen · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1af9cf2fc7cd37c662cd442f9dc131a97c452033bb601f7e76be38e52d23968b",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-shen-xi/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括聚合物纳米复合材料、热管理复合材料与复合传感。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-wang-bing-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+      "title": "Bing Wang · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "fc448e91f7387025ae2d185ae48d2fbea090938f79729b74b105b14dc6fa8861",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括空间感知、三维视觉及视觉与激光雷达定位。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://bingcs.github.io/"
+      ]
+    },
+    {
+      "id": "polyu-aae-wang-bing-linked-1-20261124",
+      "url": "https://bingcs.github.io/",
+      "title": "Bing Wang · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-wang-bing-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "个人页介绍移动机器人空间感知和三维场景理解。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-wang-yiqing-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wang-yiqing/",
+      "title": "Yiqing Wang · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "223c99d3805d40afcb13a49a750b3563603686823913961340fb9e86f60eb8c3",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wang-yiqing/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括反应湍流的高性能计算、科学机器学习及替代燃料。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-wen-weisong-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/",
+      "title": "Weisong Wen · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "bfd840a1112b6f0c4f1fca4ffc62ebe49d71a9b865155d5fc62d9e86c5e41a13",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括可信自主系统、具身机器人与多传感器导航。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://polyu-taslab.github.io/"
+      ]
+    },
+    {
+      "id": "polyu-aae-wen-weisong-linked-1-20261124",
+      "url": "https://polyu-taslab.github.io/",
+      "title": "Weisong Wen · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-wen-weisong-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "实验室介绍可信自主系统、具身智能与多传感器导航。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-wu-lingxiao-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wu-lingxiao/",
+      "title": "Lingxiao Wu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "7711fd36017820c0342aa177c77b8e91b61dc34eebb0b28a124aff30d2642f05",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wu-lingxiao/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括数据驱动优化、航空运营及航运和港口系统。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/lingxiaowu/home"
+      ]
+    },
+    {
+      "id": "polyu-aae-wu-lingxiao-linked-1-20261124",
+      "url": "https://sites.google.com/view/lingxiaowu/home",
+      "title": "Lingxiao Wu · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-wu-lingxiao-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "个人页确认院系任职，介绍航空与海事物流中的运筹和数据分析。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-xu-bing-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-xu-bing/",
+      "title": "Bing Xu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f178520b496a8ab96fe3880bd0bb75f0ba27a4c18ad48154d73c3da995a3ab20",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-xu-bing/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括卫星定位导航、GNSS 信号处理与无线定位。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://pbingxu.github.io/"
+      ]
+    },
+    {
+      "id": "polyu-aae-xu-bing-linked-1-20261124",
+      "url": "https://pbingxu.github.io/",
+      "title": "Bing Xu · 院系所给研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "parentSourceId": "polyu-aae-xu-bing-profile-20261124",
+      "scope": "院系个人页所给研究主页的正文。",
+      "claims": [
+        "实验室介绍卫星、蜂窝及近地轨道信号的定位导航与授时处理。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-xu-gangyan-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
+      "title": "Gangyan Xu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "a0c137568bed4728010fab78c2c5e72f506a8ed46fb297b925f4b409e82ccc15",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括人机组队、学习式优化及航空维修可靠性。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "http://xugangyan.cn/"
+      ]
+    },
+    {
+      "id": "polyu-aae-zhang-guohao-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-guohao/",
+      "title": "Guohao Zhang · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "86b4967041c31ad8f737e68e26a41fbe84b7c6f7ab949e45ea744b16dcd1d48f",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-guohao/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括复杂环境卫星定位、三维地图辅助导航及传感器融合。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-zhong-siyang-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhong-siyang/",
+      "title": "Siyang Zhong · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "3b60a229bec6fdbb9bc0078b3ced15d8dcd1aa404e7fb6c5e2c51421af473b69",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhong-siyang/",
+      "scope": "院系个人页的任职和研究专长。",
+      "claims": [
+        "院系列 Assistant Professor；个人页所列方向包括气动声学、环境噪声与运动空气动力学。"
+      ],
+      "knownIssues": [
+        "院系提供的是含追踪参数的跳转链接，保留官方个人页作为入口。"
+      ],
+      "discoveredLinks": []
+    },
+    {
       "id": "polyu-aae-rap-directory-20261124",
       "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
       "title": "港理工航空及民航工程学系 · 研究助理教授",
@@ -309272,6 +310843,278 @@
       "reviewSourceIds": [],
       "coverageComplete": false,
       "coverageNotes": "可分别查看学术、附属、实务、荣誉、兼任访问、科研技术及行政人员。35个个人页入口复用2026-10-26记录，本次新核个人页的身份和研究另列日期；未确认全系现任人员、指导资格或招生余位。"
+    },
+    {
+      "id": "polyu-aae-academic-directory",
+      "universityId": "polyu",
+      "unit": "Department of Aeronautical and Aviation Engineering / Primary Faculty",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 常规师资",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wen-hua-chen/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-fei-duan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-jiang-yiping/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chan-kit-ying/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chen-yutong/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-feng-siyuan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-sangdi-gu/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-guan-yu/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-shen-xi/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wang-yiqing/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wu-lingxiao/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-xu-bing/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-guohao/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhong-siyang/"
+      ],
+      "sourceIds": [
+        "polyu-aae-academic-directory-20261124"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "院系教授、学系副主管及助理教授共 25 个档案入口。研究助理教授、兼任及其他岗位另列。",
+      "census": {
+        "observedTotal": 25,
+        "profilesRead": 25,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Wen-Hua Chen",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wen-hua-chen/",
+            "directoryPosition": "Head and Chair Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-wenhua-chen",
+            "sourceId": "polyu-wenhua-chen",
+            "reviewNote": "沿用已核读的个人页及原有研究档案。"
+          },
+          {
+            "name": "Chih-Yung Wen",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-prof-wen-chih-yung/",
+            "directoryPosition": "Chair Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-wen-chih-yung",
+            "sourceId": "polyu-aae-wen-chih-yung-profile-20261124"
+          },
+          {
+            "name": "Wei Liu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
+            "directoryPosition": "Associate Head and Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-liu-wei",
+            "sourceId": "polyu-aae-liu-wei-profile-20261124"
+          },
+          {
+            "name": "Jiaao Hao",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
+            "directoryPosition": "Associate Head and Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-hao-jiaao",
+            "sourceId": "polyu-aae-hao-jiaao-profile-20261124"
+          },
+          {
+            "name": "Kam Hung Ng",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
+            "directoryPosition": "Associate Head and Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-ng-kam-hung",
+            "sourceId": "polyu-aae-ng-kam-hung-profile-20261124"
+          },
+          {
+            "name": "Fei Duan",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-fei-duan/",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-fei-duan",
+            "sourceId": "polyu-aae-fei-duan-profile-20261124"
+          },
+          {
+            "name": "Li-Ta Hsu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hsu-li-ta/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-hsu-li-ta",
+            "sourceId": "polyu-aae-hsu-li-ta-profile-20261124"
+          },
+          {
+            "name": "Yiping Jiang",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-jiang-yiping/",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-jiang-yiping",
+            "sourceId": "polyu-aae-jiang-yiping-profile-20261124"
+          },
+          {
+            "name": "Kit Ying Chan",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chan-kit-ying/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-chan-kit-ying",
+            "sourceId": "polyu-aae-chan-kit-ying-profile-20261124"
+          },
+          {
+            "name": "Yutong Chen",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-chen-yutong/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-chen-yutong",
+            "sourceId": "polyu-aae-chen-yutong-profile-20261124"
+          },
+          {
+            "name": "Siyuan Feng",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-feng-siyuan/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-feng-siyuan",
+            "sourceId": "polyu-aae-feng-siyuan-profile-20261124"
+          },
+          {
+            "name": "Sangdi Gu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-sangdi-gu/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-sangdi-gu",
+            "sourceId": "polyu-aae-sangdi-gu-profile-20261124"
+          },
+          {
+            "name": "Yu Guan",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-guan-yu/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-guan-yu",
+            "sourceId": "polyu-aae-guan-yu-profile-20261124"
+          },
+          {
+            "name": "Hailong Huang",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-huang-hailong",
+            "sourceId": "polyu-aae-huang-hailong-profile-20261124"
+          },
+          {
+            "name": "Ang Li",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-li-ang",
+            "sourceId": "polyu-aae-li-ang-profile-20261124"
+          },
+          {
+            "name": "Fan Li",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-li-fan",
+            "sourceId": "polyu-aae-li-fan-profile-20261124"
+          },
+          {
+            "name": "Xi Shen",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-shen-xi/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-shen-xi",
+            "sourceId": "polyu-aae-shen-xi-profile-20261124"
+          },
+          {
+            "name": "Bing Wang",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wang-bing/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-wang-bing",
+            "sourceId": "polyu-aae-wang-bing-profile-20261124"
+          },
+          {
+            "name": "Yiqing Wang",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-wang-yiqing/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-wang-yiqing",
+            "sourceId": "polyu-aae-wang-yiqing-profile-20261124"
+          },
+          {
+            "name": "Weisong Wen",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wen-weisong/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-wen-weisong",
+            "sourceId": "polyu-aae-wen-weisong-profile-20261124"
+          },
+          {
+            "name": "Lingxiao Wu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-wu-lingxiao/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-wu-lingxiao",
+            "sourceId": "polyu-aae-wu-lingxiao-profile-20261124"
+          },
+          {
+            "name": "Bing Xu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-xu-bing/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-xu-bing",
+            "sourceId": "polyu-aae-xu-bing-profile-20261124"
+          },
+          {
+            "name": "Gangyan Xu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-xu-gangyan",
+            "sourceId": "polyu-aae-xu-gangyan-profile-20261124"
+          },
+          {
+            "name": "Guohao Zhang",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-guohao/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-zhang-guohao",
+            "sourceId": "polyu-aae-zhang-guohao-profile-20261124"
+          },
+          {
+            "name": "Siyang Zhong",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhong-siyang/",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "facultyId": "polyu-aae-zhong-siyang",
+            "sourceId": "polyu-aae-zhong-siyang-profile-20261124"
+          }
+        ]
+      }
     },
     {
       "id": "polyu-aae-rap-directory",
@@ -360430,5 +362273,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:5925d72df362404575933889662749583c795286db78034aadbcc639ad4a0705"
+  "snapshotId": "sha256:acace5a9ecb06966c976089c9919f011e4373a0526437dd0381e535b2850b0de"
 }
