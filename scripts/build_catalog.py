@@ -14,7 +14,7 @@ from pathlib import Path
 from urllib.parse import urljoin, urlsplit
 
 ROOT = Path(__file__).resolve().parents[1]
-CHECKED = "2026-11-22"
+CHECKED = "2026-11-24"
 BASE_SOURCE_DATE = "2026-10-26"
 CYCLE = "2027/28"
 TAGS = ("人工智能", "机器学习", "计算机视觉", "自然语言处理", "机器人与控制", "数据挖掘", "网络与系统", "理论与优化", "数学与统计", "金融与精算", "生物医学与健康", "软件工程与编程语言", "网络安全", "人机交互", "数据库与数据系统", "计算机图形学", "计算机音乐与音频", "环境与可持续发展", "物理与化学", "材料与能源", "土木与机械工程", "经济与管理", "人文与社会科学", "教育学", "设计与创意", "旅游与酒店管理", "电子与集成电路", "生命科学与生物工程", "化学工程")
@@ -2344,6 +2344,39 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    mech_sources = load("hkust-mechanical-admissions-20261124.json")["sources"]
+    catalog["sources"].extend(mech_sources)
+    mech_catalogue, mech_department, mech_apply = (source["id"] for source in mech_sources)
+    mech_tuition = "hkust-amc-2027-tuition"
+    mech = program(
+        "hkust-mech-rpg-2027", "hkust", "机械工程研究学位", ["MPhil", "PhD"],
+        "港科大香港机械及航空航天工程学系，2027/28。方向包括设计与制造、精密工程、固体力学和能源。",
+        "unknown", "所读项目页未交代申请前是否须联系导师。", [mech_catalogue, mech_department],
+        "经香港校区网申。常规截止请核对学系或研究院的当期通知。", [mech_department, mech_apply],
+        [], [mech_catalogue, mech_department, mech_apply, mech_tuition],
+        "课程目录已列 2027/28 学位和资格；常规截止日期仍待核对。",
+    )
+    mech["entryUrl"] = mech_sources[0]["url"]
+    mech["requirements"] = [
+        {"label": "MPhil 学历与学制", "degrees": ["MPhil"],
+         "text": "认可院校学士或同等资格。全日制通常两年，兼读四年。",
+         "action": "核对学历和适用的修读方式。", "sourceIds": [mech_catalogue]},
+        {"label": "PhD 学历与学制", "degrees": ["PhD"],
+         "text": "获认可的学士学位且成绩优异，或至少一年全日制、两年兼读的研究生阶段合格学习经历。相关研究硕士通常对应全日制三年，其余通常四年；兼读六年。",
+         "action": "按实际学历核对博士入学资格和学制。", "sourceIds": [mech_catalogue]},
+        {"label": "英语证明", "text": "IELTS Academic 总分 6.5、各项至少 5.5。TOEFL iBT 以 2026 年 1 月 21 日为界，此前最低 80，自该日起最低 4.5。须为单次成绩，不接受居家考试。英语母语或英语授课学士可按原页核对豁免。",
+         "action": "按考试日期核对分数与豁免条件。", "sourceIds": [mech_catalogue]},
+        {"label": "香港校区网申", "text": "从研究院的网申入口核对项目、材料清单和实际截止。",
+         "action": "打开香港校区网申页核对当前轮次。", "url": mech_sources[2]["url"], "sourceIds": [mech_apply, mech_department]},
+    ]
+    mech["finances"] = [
+        {"id": "hkust-mech-tuition-2027", "kind": "tuition", "label": "2027/28 学费",
+         "text": "校级标准为每学年港币 49,500，全日制与兼读均适用。", "sourceIds": [mech_tuition],
+         "action": "核对校方收费和适用的资助办法。",
+         "rates": [{"value": 49500, "currency": "HKD", "unit": "academic_year", "cycle": CYCLE,
+                    "basis": "academic_year", "condition": "全日制或兼读"}]},
+    ]
+    catalog["programs"].append(mech)
     reviewed_entries = load("unit-entry-reconciliation-20261124.json")["entries"]
     source_by_id = {source["id"]: source for source in catalog["sources"]}
     units_by_id = {unit["id"]: unit for school in catalog["academicCoverage"] for unit in school["units"]}
