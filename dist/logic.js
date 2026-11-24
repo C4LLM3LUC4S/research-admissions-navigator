@@ -684,7 +684,13 @@
     if (!value || value.kind !== 'research-admissions-navigator-local' || ![1,2,3].includes(value.schemaVersion)) throw new Error('这不是当前版本可载入的完整研向备份。若来自更新版本，请用对应版本打开，并保留原文件。');
     if(value.schemaVersion>=2&&!Array.isArray(value.catalogHistory))throw new Error('这份备份缺少资料版本历史，请保留完整原文件。');
     if(value.schemaVersion===3&&typeof value.profile?.researchQuery!=='string')throw new Error('这份备份缺少研究关键词字段，请保留完整原文件。');
-    const profile=normalizeProfile(value.profile,catalog), shortlist=ids(value.shortlist,catalog.faculty.map(f=>f.id),'导师清单');
+    const facultyIds=new Set(catalog.faculty.map(f=>f.id));
+    const aliases=catalog.facultyAliases||{};
+    const canonicalFacultyId=id=>Object.hasOwn(aliases,id)?aliases[id]:id;
+    const shortlistIds=ids(value.shortlist,[...facultyIds,...Object.keys(aliases)],'导师清单');
+    const shortlist=[...new Set(shortlistIds.map(canonicalFacultyId))];
+    if(shortlist.some(id=>!facultyIds.has(id)))throw new Error('导师清单中的编号已不匹配。');
+    const profile=normalizeProfile(value.profile,catalog);
     const sourceIds=ids(value.sourceIds,catalog.sources.map(s=>s.id),'来源清单');
     if (!Array.isArray(value.tasks) || value.tasks.length>200) throw new Error('待办数量或格式不正确。');
     const knownTaskIds=new Set();
@@ -692,8 +698,9 @@
       if (!t || typeof t.id!=='string' || !/^task-[a-z0-9-]{1,80}$/.test(t.id) || knownTaskIds.has(t.id) || typeof t.done!=='boolean') throw new Error('待办编号或完成状态不正确。');
       knownTaskIds.add(t.id);
       if (t.programId!==null && !catalog.programs.some(p=>p.id===t.programId)) throw new Error('待办中的项目编号已不匹配。');
-      if (t.facultyId!==null && !catalog.faculty.some(f=>f.id===t.facultyId)) throw new Error('待办中的导师编号已不匹配。');
-      return {id:t.id,text:text(t.text,500,'待办'),done:t.done,programId:t.programId,facultyId:t.facultyId};
+      const facultyId=canonicalFacultyId(t.facultyId);
+      if (facultyId!==null && !facultyIds.has(facultyId)) throw new Error('待办中的导师编号已不匹配。');
+      return {id:t.id,text:text(t.text,500,'待办'),done:t.done,programId:t.programId,facultyId};
     });
     const snapshot=value.catalogSnapshotId===undefined?null:value.catalogSnapshotId;
     if(snapshot!==null&&(typeof snapshot!=='string'||!/^sha256:[0-9a-f]{64}$/.test(snapshot)))throw new Error('资料版本编号不正确，请保留原文件。');

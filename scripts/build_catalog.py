@@ -2451,12 +2451,22 @@ def build_catalog():
     sds_affiliated = load("cuhksz-sds-affiliated-20261124.json")
     catalog["sources"].extend(sds_affiliated["sources"])
     catalog["directories"].append(sds_affiliated["directory"])
-    catalog["faculty"].extend(sds_affiliated["faculty"])
+    catalog["facultyAliases"] = sds_affiliated["aliases"]
     sds_faculty = {faculty["id"]: faculty for faculty in catalog["faculty"] if faculty["universityId"] == "cuhksz"}
     for update in sds_affiliated["existingUpdates"]:
         faculty = sds_faculty[update["id"]]
         faculty["sourceIds"] = list(dict.fromkeys(faculty["sourceIds"] + update["sourceIds"]))
         faculty["directorySourceIds"] = list(dict.fromkeys(faculty.get("directorySourceIds", []) + sds_affiliated["directory"]["sourceIds"]))
+        faculty["identityNote"] = " ".join(filter(None, (faculty.get("identityNote"), update["identityNote"])))
+
+    sds_observed = load("cuhksz-sds-observed-faculty-20261124.json")
+    catalog["sources"].extend(sds_observed["sources"])
+    catalog["directories"].append(sds_observed["directory"])
+    catalog["faculty"].extend(sds_observed["faculty"])
+    for update in sds_observed["existingUpdates"]:
+        faculty = sds_faculty[update["id"]]
+        faculty["sourceIds"] = list(dict.fromkeys(faculty["sourceIds"] + update["sourceIds"]))
+        faculty["directorySourceIds"] = list(dict.fromkeys(faculty.get("directorySourceIds", []) + sds_observed["directory"]["sourceIds"]))
         faculty["identityNote"] = " ".join(filter(None, (faculty.get("identityNote"), update["identityNote"])))
 
     sds = load("cuhksz-sds-admissions-20261124.json")
@@ -2699,6 +2709,8 @@ def validate(catalog):
             assert f["availability"]["sourceIds"] and f["availability"]["text"]
             assert f["availability"].get("degrees") == ["PhD"]
             assert f["availability"]["cycle"] is None, "An undated notice must not acquire a current intake"
+    for former, canonical in catalog.get("facultyAliases", {}).items():
+        assert former not in faculty_ids and canonical in faculty_ids, "Faculty aliases must target an existing profile"
     directory_ids = set()
     for d in catalog.get("directories", []):
         assert d["id"] not in directory_ids and d["universityId"] in unis

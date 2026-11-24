@@ -28631,16 +28631,19 @@
       ],
       "sourceIds": [
         "cuhksz-sai-page-1-20261027",
-        "cuhksz-sai-profile-124-20261027"
+        "cuhksz-sai-profile-124-20261027",
+        "cuhksz-sds-observed-faculty-roster-20261124",
+        "cuhksz-sds-observed-2070-profile-20261124"
       ],
       "directorySourceIds": [
-        "cuhksz-sai-page-1-20261027"
+        "cuhksz-sai-page-1-20261027",
+        "cuhksz-sds-observed-faculty-roster-20261124"
       ],
       "academicUnitIds": [
         "cuhksz-8"
       ],
       "directoryRole": "Professor · (Joint Appointment: SDS & SAI)",
-      "identityNote": "官网列有联合任职。要申请哪个项目、能否担任主导师，还需按该项目要求核对。",
+      "identityNote": "官网列有联合任职。要申请哪个项目、能否担任主导师，还需按该项目要求核对。 数据科学学院名录也列此任职。",
       "extraLinks": [],
       "availability": {
         "state": "unknown",
@@ -56561,10 +56564,14 @@
       "universityId": "cuhksz",
       "sourceIds": [
         "cuhksz-sme-003ea2dac10457-profile",
-        "cuhksz-sme-directory-20261028"
+        "cuhksz-sme-directory-20261028",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-affiliated-person-2307-20261124",
+        "cuhksz-sds-zhengrui-jiang-research-20261124"
       ],
       "directorySourceIds": [
-        "cuhksz-sme-directory-20261028"
+        "cuhksz-sme-directory-20261028",
+        "cuhksz-sds-affiliated-roster-20261124"
       ],
       "academicUnitIds": [
         "cuhksz-1"
@@ -56574,7 +56581,7 @@
       "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/zjiang/Home/Index",
       "department": "经管学院 · 信息系统与运营管理",
       "directoryRole": "教授，深高金讲座教授，数据科学理学硕士项目联合主任，信息管理与商业分析博士项目主任（信息系统方向）",
-      "identityNote": "这是官网名录身份；教学或应用职称与其他职称都不等于已确认研究生指导资格。",
+      "identityNote": "这是官网名录身份；教学或应用职称与其他职称都不等于已确认研究生指导资格。 数据科学学院另列礼聘教授。",
       "summary": "研究商务智能与大数据分析、不确定性下的优化与决策、技术创新与扩散、信息技术经济学。",
       "researchKeywords": [
         "商务智能与大数据分析",
@@ -127160,10 +127167,13 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-15",
-        "cuhksz-sse-remaining-20261111-caixiaoqiang"
+        "cuhksz-sse-remaining-20261111-caixiaoqiang",
+        "cuhksz-sds-observed-faculty-roster-20261124",
+        "cuhksz-sds-observed-262-profile-20261124"
       ],
       "directorySourceIds": [
-        "cuhksz-sse-staff-20261107-page-15"
+        "cuhksz-sse-staff-20261107-page-15",
+        "cuhksz-sds-observed-faculty-roster-20261124"
       ],
       "keywordSourceIds": [
         "cuhksz-sse-staff-20261107-page-15",
@@ -127176,7 +127186,8 @@
         "工业与系统工程",
         "运筹学",
         "供应链与物流管理"
-      ]
+      ],
+      "identityNote": "数据科学学院名录也列此任职。"
     },
     {
       "id": "cuhksz-sse-takeokanade",
@@ -145698,49 +145709,322 @@
       }
     },
     {
-      "id": "cuhksz-sds-zhengrui-jiang",
+      "id": "cuhksz-sds-observed-2436",
       "universityId": "cuhksz",
-      "name": "Zhengrui Jiang / 姜正瑞",
+      "name": "Jinsheng Ba",
       "department": "School of Data Science",
-      "role": "Professor (Courtesy)",
-      "directoryRole": "礼聘教授 · Professor (Courtesy)",
-      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2307",
-      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/zjiang/Home/Index",
-      "identityNote": "数据科学学院名录列礼聘教授。同校学者主页列经管学院信息系统任职。",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
       "topics": [
-        "经济与管理",
-        "数据挖掘",
-        "理论与优化"
+        "软件工程与编程语言"
       ],
       "researchKeywords": [
-        "商务智能",
-        "大数据分析",
-        "优化与决策",
-        "技术创新",
-        "business intelligence",
-        "data analytics",
-        "decision making under uncertainty"
+        "大语言模型辅助软件工程与软件质量",
+        "LLM-driven software engineering",
+        "Software quality"
       ],
-      "summary": "研究方向包括商务智能、大数据分析、不确定性下的优化与决策，以及技术创新。",
+      "summary": "名录所列研究方向包括大语言模型辅助软件工程与软件质量。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2436",
       "sourceIds": [
-        "cuhksz-sds-affiliated-roster-20261124",
-        "cuhksz-sds-affiliated-person-2307-20261124",
-        "cuhksz-sds-zhengrui-jiang-research-20261124"
-      ],
-      "directorySourceIds": [
-        "cuhksz-sds-affiliated-roster-20261124"
+        "cuhksz-sds-observed-2436-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
       ],
       "keywordSourceIds": [
-        "cuhksz-sds-zhengrui-jiang-research-20261124"
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
       ],
       "availability": {
         "state": "unknown",
         "cycle": null,
         "text": "指导资格、当前招募和名额待核",
         "sourceIds": [
-          "cuhksz-sds-affiliated-roster-20261124"
+          "cuhksz-sds-observed-faculty-roster-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "label": "名录所给个人主页",
+          "url": "https://bajinsheng.github.io/",
+          "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系名录所给地址，主页正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-observed-2238",
+      "universityId": "cuhksz",
+      "name": "Miha Bresar",
+      "department": "School of Data Science",
+      "role": "Assistant Professor",
+      "directoryRole": "Assistant Professor",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "概率论",
+        "马尔可夫过程的稳定性与随机算法",
+        "Probability theory",
+        "Stability of Markov processes",
+        "Stochastic algorithms"
+      ],
+      "summary": "名录所列研究方向包括概率论、马尔可夫过程的稳定性与随机算法。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2238",
+      "sourceIds": [
+        "cuhksz-sds-observed-2238-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-observed-faculty-roster-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "label": "名录所给个人主页",
+          "url": "https://sites.google.com/view/mihabresar",
+          "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系名录所给地址，主页正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-observed-2376",
+      "universityId": "cuhksz",
+      "name": "Hongxuan Chen",
+      "department": "School of Data Science",
+      "role": "Assistant Professor (Teaching)",
+      "directoryRole": "Assistant Professor (Teaching)",
+      "topics": [
+        "教育学"
+      ],
+      "researchKeywords": [
+        "计算机科学教育",
+        "学习瓶颈与课程设计",
+        "Computer science education",
+        "Collaborative learning",
+        "Curriculum design"
+      ],
+      "summary": "名录所列研究方向包括计算机科学教育、学习瓶颈与课程设计。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2376",
+      "sourceIds": [
+        "cuhksz-sds-observed-2376-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-observed-faculty-roster-20261124"
         ]
       }
+    },
+    {
+      "id": "cuhksz-sds-observed-2145",
+      "universityId": "cuhksz",
+      "name": "Jingbang Chen",
+      "department": "School of Data Science",
+      "role": "Research Assistant Professor",
+      "directoryRole": "Research Assistant Professor",
+      "topics": [
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "图算法与数据结构",
+        "大规模数据管理与挖掘",
+        "Graph algorithms",
+        "Data structures",
+        "Large-scale data management"
+      ],
+      "summary": "名录所列研究方向包括图算法与数据结构、大规模数据管理与挖掘。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2145",
+      "sourceIds": [
+        "cuhksz-sds-observed-2145-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-observed-faculty-roster-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "label": "名录所给个人主页",
+          "url": "https://chenjb1997.github.io/",
+          "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系名录所给地址，主页正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-observed-2234",
+      "universityId": "cuhksz",
+      "name": "Minghua Chen",
+      "department": "School of Data Science",
+      "role": "Presidential Chair Professor",
+      "directoryRole": "Presidential Chair Professor",
+      "topics": [
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "在线优化",
+        "电力系统中的机器学习及智能交通",
+        "Online optimization",
+        "Power system operation",
+        "Intelligent transportation"
+      ],
+      "summary": "名录所列研究方向包括在线优化、电力系统中的机器学习及智能交通。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2234",
+      "sourceIds": [
+        "cuhksz-sds-observed-2234-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-observed-faculty-roster-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "label": "名录所给个人主页",
+          "url": "https://www.mhchen.com/",
+          "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系名录所给地址，主页正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-observed-265",
+      "universityId": "cuhksz",
+      "name": "Tianshi Chen",
+      "department": "School of Data Science",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "topics": [
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "数据驱动与物理约束建模",
+        "系统控制及决策",
+        "Data-driven modelling",
+        "Physics-informed models",
+        "Decision-making"
+      ],
+      "summary": "名录所列研究方向包括数据驱动与物理约束建模、系统控制及决策。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/265",
+      "sourceIds": [
+        "cuhksz-sds-observed-265-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-observed-faculty-roster-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "label": "名录所给个人主页",
+          "url": "https://tschen11.github.io/website/",
+          "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系名录所给地址，主页正文待核。"
+        }
+      ]
+    },
+    {
+      "id": "cuhksz-sds-observed-63",
+      "universityId": "cuhksz",
+      "name": "Xinyun Chen",
+      "department": "School of Data Science",
+      "role": "Associate Professor",
+      "directoryRole": "Associate Professor",
+      "topics": [
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "排队论",
+        "随机模拟及强化学习",
+        "Queueing theory",
+        "Stochastic simulation",
+        "Reinforcement learning"
+      ],
+      "summary": "名录所列研究方向包括排队论、随机模拟及强化学习。",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/63",
+      "sourceIds": [
+        "cuhksz-sds-observed-63-profile-20261124",
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-observed-faculty-roster-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "label": "名录所给个人主页",
+          "url": "https://myweb.cuhk.edu.cn/chenxinyun",
+          "parentSourceId": "cuhksz-sds-observed-faculty-roster-20261124",
+          "bodyStatus": "not_read",
+          "readNote": "记录院系名录所给地址，主页正文待核。"
+        }
+      ]
     }
   ],
   "sources": [
@@ -281828,6 +282112,192 @@
       "knownIssues": []
     },
     {
+      "id": "cuhksz-sds-observed-faculty-roster-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search",
+      "title": "港中文（深圳）数据科学学院 · 教师浏览",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "教师浏览页当次公开返回的 10 张具名卡及其研究栏目。",
+      "claims": [
+        "所读返回区列常规教学科研、教学及研究助理教授等职称。",
+        "这组条目只对应此次返回；其余列表范围、筛选和分页仍待复核。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sds.cuhk.edu.cn/en/teacher/2436",
+        "https://sds.cuhk.edu.cn/en/teacher/2238",
+        "https://sds.cuhk.edu.cn/en/teacher/262",
+        "https://sds.cuhk.edu.cn/en/teacher/2376",
+        "https://sds.cuhk.edu.cn/en/teacher/2145",
+        "https://sds.cuhk.edu.cn/en/teacher/2234",
+        "https://sds.cuhk.edu.cn/en/teacher/1629",
+        "https://sds.cuhk.edu.cn/en/teacher/2070",
+        "https://sds.cuhk.edu.cn/en/teacher/265",
+        "https://sds.cuhk.edu.cn/en/teacher/63",
+        "https://bajinsheng.github.io/",
+        "https://sites.google.com/view/mihabresar",
+        "https://chenjb1997.github.io/",
+        "https://www.mhchen.com/",
+        "https://tschen11.github.io/website/",
+        "https://myweb.cuhk.edu.cn/chenxinyun",
+        "https://sites.google.com/view/rchen/home"
+      ],
+      "teacherLinksByProfile": {
+        "https://sds.cuhk.edu.cn/en/teacher/2436": [
+          "https://bajinsheng.github.io/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/2238": [
+          "https://sites.google.com/view/mihabresar"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/2145": [
+          "https://chenjb1997.github.io/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/2234": [
+          "https://www.mhchen.com/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/265": [
+          "https://tschen11.github.io/website/"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/63": [
+          "https://myweb.cuhk.edu.cn/chenxinyun"
+        ],
+        "https://sds.cuhk.edu.cn/en/teacher/1629": [
+          "https://sites.google.com/view/rchen/home"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-observed-2436-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2436",
+      "title": "Jinsheng Ba · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Assistant Professor；名录研究栏目包括大语言模型辅助软件工程与软件质量。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2238-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2238",
+      "title": "Miha Bresar · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Assistant Professor；名录研究栏目包括概率论、马尔可夫过程的稳定性与随机算法。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-262-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/262",
+      "title": "Xiaoqiang Cai / 蔡小强 · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Presidential Chair Professor；名录研究栏目包括工业与系统工程、供应链与物流管理。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2376-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2376",
+      "title": "Hongxuan Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Assistant Professor (Teaching)；名录研究栏目包括计算机科学教育、学习瓶颈与课程设计。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2145-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2145",
+      "title": "Jingbang Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Research Assistant Professor；名录研究栏目包括图算法与数据结构、大规模数据管理与挖掘。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2234-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2234",
+      "title": "Minghua Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Presidential Chair Professor；名录研究栏目包括在线优化、电力系统中的机器学习及智能交通。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-1629-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1629",
+      "title": "Rui Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Assistant Professor；名录研究栏目包括离散优化、不确定性下的优化及物流中的应用。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-2070-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2070",
+      "title": "Ruizhi Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Professor；名录研究栏目包括卫星与室内定位、空间智能。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-265-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/265",
+      "title": "Tianshi Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Professor；名录研究栏目包括数据驱动与物理约束建模、系统控制及决策。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-observed-63-profile-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/63",
+      "title": "Xinyun Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学院给出的个人页以及对应的具名师资卡。",
+      "claims": [
+        "院系师资卡及个人身份对应 Associate Professor；名录研究栏目包括排队论、随机模拟及强化学习。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cuhksz-sds-ds-application-2027",
       "url": "https://sds.cuhk.edu.cn/en/node/365",
       "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 申请程序",
@@ -313634,8 +314104,8 @@
             "profileRead": true,
             "reviewStatus": "body_read",
             "sourceId": "cuhksz-sds-affiliated-person-2307-20261124",
-            "reviewNote": "已核读个人页及其所列任职。",
-            "facultyId": "cuhksz-sds-zhengrui-jiang"
+            "reviewNote": "已核读院系个人页，沿用已有研究档案，补记礼聘任职。",
+            "facultyId": "cuhksz-sme-003ea2dac10457"
           },
           {
             "name": "Xiaodong Luo",
@@ -313663,6 +314133,148 @@
             "reviewStatus": "body_read",
             "sourceId": "cuhksz-sds-affiliated-person-444-20261124",
             "reviewNote": "已核读个人页及其所列任职。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-observed-faculty-directory",
+      "universityId": "cuhksz",
+      "unit": "School of Data Science / Faculty",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-search",
+      "title": "港中文（深圳）数据科学学院 · 教师浏览",
+      "profileLinksObserved": [
+        "https://sds.cuhk.edu.cn/en/teacher/2436",
+        "https://sds.cuhk.edu.cn/en/teacher/2238",
+        "https://sds.cuhk.edu.cn/en/teacher/262",
+        "https://sds.cuhk.edu.cn/en/teacher/2376",
+        "https://sds.cuhk.edu.cn/en/teacher/2145",
+        "https://sds.cuhk.edu.cn/en/teacher/2234",
+        "https://sds.cuhk.edu.cn/en/teacher/1629",
+        "https://sds.cuhk.edu.cn/en/teacher/2070",
+        "https://sds.cuhk.edu.cn/en/teacher/265",
+        "https://sds.cuhk.edu.cn/en/teacher/63"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-observed-faculty-roster-20261124"
+      ],
+      "reviewSourceIds": [
+        "cuhksz-sds-observed-2436-profile-20261124",
+        "cuhksz-sds-observed-2238-profile-20261124",
+        "cuhksz-sds-observed-262-profile-20261124",
+        "cuhksz-sds-observed-2376-profile-20261124",
+        "cuhksz-sds-observed-2145-profile-20261124",
+        "cuhksz-sds-observed-2234-profile-20261124",
+        "cuhksz-sds-observed-1629-profile-20261124",
+        "cuhksz-sds-observed-2070-profile-20261124",
+        "cuhksz-sds-observed-265-profile-20261124",
+        "cuhksz-sds-observed-63-profile-20261124"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这一组保留官网此次显示的 10 张人员卡。礼聘及兼任名录另列，其他筛选类别和分页继续核对。",
+      "census": {
+        "observedTotal": 10,
+        "profilesRead": 10,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Jinsheng Ba",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2436",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-2436-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-2436"
+          },
+          {
+            "name": "Miha Bresar",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2238",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-2238-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-2238"
+          },
+          {
+            "name": "Xiaoqiang Cai / 蔡小强",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/262",
+            "directoryPosition": "Presidential Chair Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-262-profile-20261124",
+            "reviewNote": "已核读个人页，沿用已有研究档案。",
+            "facultyId": "cuhksz-sse-caixiaoqiang"
+          },
+          {
+            "name": "Hongxuan Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2376",
+            "directoryPosition": "Assistant Professor (Teaching)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-2376-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-2376"
+          },
+          {
+            "name": "Jingbang Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2145",
+            "directoryPosition": "Research Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-2145-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-2145"
+          },
+          {
+            "name": "Minghua Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2234",
+            "directoryPosition": "Presidential Chair Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-2234-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-2234"
+          },
+          {
+            "name": "Rui Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1629",
+            "directoryPosition": "Assistant Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-1629-profile-20261124",
+            "reviewNote": "已核读个人页。与现有同名记录的身份还在比对。"
+          },
+          {
+            "name": "Ruizhi Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2070",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-2070-profile-20261124",
+            "reviewNote": "已核读个人页，沿用已有研究档案。",
+            "facultyId": "cuhksz-sai-124"
+          },
+          {
+            "name": "Tianshi Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/265",
+            "directoryPosition": "Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-265-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-265"
+          },
+          {
+            "name": "Xinyun Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/63",
+            "directoryPosition": "Associate Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-observed-63-profile-20261124",
+            "reviewNote": "已核对院系个人页和名录研究方向。",
+            "facultyId": "cuhksz-sds-observed-63"
           }
         ]
       }
@@ -363984,5 +364596,8 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:bb4ed7a2c3e9642d0a6c3f97f595ad424456a93643235d1f26c9d627dccb3400"
+  "facultyAliases": {
+    "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
+  },
+  "snapshotId": "sha256:52da603a3c89d90a3c2c7307c1fa8a8db20fd1ebec0f3aa4397d26ee8caac323"
 }
