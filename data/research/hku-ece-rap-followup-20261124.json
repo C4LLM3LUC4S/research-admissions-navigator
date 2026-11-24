@@ -1,0 +1,370 @@
+{
+  "sources": [
+    {
+      "id": "hku-ece-rap-hehe-gong-profile-20261124",
+      "url": "https://ece.hku.hk/people/hhgong/",
+      "title": "港大电机与计算机工程系 · Hehe Gong",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官方个人资料中的研究助理教授任职及研究方向。",
+      "claims": [
+        "研究宽禁带半导体功率器件与先进封装。院系个人页记录其于 2026 年 9 月获聘。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-rap-yong-hou-profile-20261124",
+      "url": "https://ece.hku.hk/people/houyong/",
+      "title": "港大电机与计算机工程系 · Yong Hou",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官方个人资料中的研究助理教授任职及研究方向。",
+      "claims": [
+        "研究细胞力学、生物界面和金刚石生物传感。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-rap-vick-lau-profile-20261124",
+      "url": "https://ece.hku.hk/people/mhlau/",
+      "title": "港大电机与计算机工程系 · Vick Man Hin Lau",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官方个人资料中的研究助理教授任职及研究方向。",
+      "claims": [
+        "用机器学习做磁共振图像重建、复原和脑影像分析。院系个人页列其为 BISP 实验室共同负责人。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www4.hku.hk/bisplab/"
+      ]
+    },
+    {
+      "id": "hku-ece-rap-zhaolin-wang-profile-20261124",
+      "url": "https://ece.hku.hk/people/zhaolinw/",
+      "title": "港大电机与计算机工程系 · Zhaolin Wang",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官方个人资料中的研究助理教授任职及研究方向。",
+      "claims": [
+        "研究无线通信、通感一体化、多输入多输出和电磁信息论。"
+      ],
+      "knownIssues": [
+        "最初读取超时。随后按同一官方网址成功读取正文。"
+      ],
+      "discoveredLinks": [
+        "https://zhaolin820.github.io/"
+      ]
+    },
+    {
+      "id": "hku-ece-rap-yanmin-zhu-profile-20261124",
+      "url": "https://ece.hku.hk/people/y-zhu/",
+      "title": "港大电机与计算机工程系 · Yanmin Zhu",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官方个人资料中的研究助理教授任职及研究方向。",
+      "claims": [
+        "研究计算成像、数字全息和智能诊断，也涉及光谱、偏振成像和穿戴设备。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-rap-followup-20261124",
+      "url": "https://ece.hku.hk/people/",
+      "title": "港大电机与计算机工程系 · 研究助理教授个人页补核",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "官网学术与教学人员名录中的研究助理教授分段。",
+      "claims": [
+        "结合 11 月 22 日名录核查及本次个人页，已核对该分段所见的 12 位。"
+      ],
+      "knownIssues": [
+        "仅覆盖已观察到的同一分段。指导资格、招募和名额需另核。"
+      ]
+    },
+    {
+      "id": "hku-ece-rap-hou-scholars-hub-20261124",
+      "url": "https://hub.hku.hk/cris/rp/rp03607",
+      "title": "港大 Scholars Hub · 侯勇",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "大学学术资料的身份与课题组链接。",
+      "claims": [
+        "大学学术资料列研究助理教授及 The Diamond Lab 链接。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://zqchu-diamond.hku.hk/members-1"
+      ]
+    },
+    {
+      "id": "hku-ece-rap-hou-diamond-members-20261124",
+      "url": "https://zqchu-diamond.hku.hk/members-1",
+      "title": "港大 Diamond Lab 成员页 · 侯勇",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "课题组成员页范围。",
+      "claims": [
+        "成员页中可以找到 Yong Hou。"
+      ],
+      "knownIssues": [
+        "成员页仍列在博士后栏目。当前大学院系和 Scholars Hub 条目均列研究助理教授。"
+      ],
+      "parentSourceId": "hku-ece-rap-hou-scholars-hub-20261124"
+    },
+    {
+      "id": "hku-ece-rap-wang-personal-20261124",
+      "url": "https://zhaolin820.github.io/",
+      "title": "Zhaolin Wang · 研究主页",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给研究主页。",
+      "claims": [
+        "主页列港大电机与计算机工程系研究助理教授及研究入口。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hku-ece-rap-zhaolin-wang-profile-20261124"
+    }
+  ],
+  "faculty": [
+    {
+      "id": "hku-ece-rap-hehe-gong",
+      "universityId": "hku",
+      "name": "Hehe Gong",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "功率器件",
+        "宽禁带半导体",
+        "功率封装",
+        "power devices",
+        "wide bandgap semiconductors",
+        "power packaging"
+      ],
+      "summary": "研究宽禁带半导体功率器件与先进封装。院系个人页记录其于 2026 年 9 月获聘。",
+      "profileUrl": "https://ece.hku.hk/people/hhgong/",
+      "sourceIds": [
+        "hku-ece-rap-hehe-gong-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-hehe-gong-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-hehe-gong-profile-20261124"
+        ]
+      },
+      "extraLinks": [],
+      "identityNote": "旧名录所指向的 Jiqiang Kang 个人页与本条身份不同，以已核对的本人资料为准。"
+    },
+    {
+      "id": "hku-ece-rap-yong-hou",
+      "universityId": "hku",
+      "name": "Yong Hou",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "细胞力学",
+        "生物界面",
+        "生物传感器",
+        "cell mechanics",
+        "biointerfaces",
+        "biosensors"
+      ],
+      "summary": "研究细胞力学、生物界面和金刚石生物传感。",
+      "profileUrl": "https://ece.hku.hk/people/houyong/",
+      "sourceIds": [
+        "hku-ece-rap-yong-hou-profile-20261124",
+        "hku-ece-rap-hou-scholars-hub-20261124",
+        "hku-ece-rap-hou-diamond-members-20261124"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-yong-hou-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-yong-hou-profile-20261124"
+        ]
+      },
+      "extraLinks": [],
+      "identityNote": "院系与 HKU Scholars Hub 现列研究助理教授。课题组成员页仍列在博士后栏目，保留该页作研究入口。"
+    },
+    {
+      "id": "hku-ece-rap-vick-lau",
+      "universityId": "hku",
+      "name": "Vick Man Hin Lau",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "生物医学与健康",
+        "计算机视觉",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "磁共振成像",
+        "医学图像分析",
+        "医学图像重建",
+        "图像复原",
+        "MRI",
+        "medical image analysis",
+        "image reconstruction",
+        "image restoration"
+      ],
+      "summary": "用机器学习做磁共振图像重建、复原和脑影像分析。院系个人页列其为 BISP 实验室共同负责人。",
+      "profileUrl": "https://ece.hku.hk/people/mhlau/",
+      "sourceIds": [
+        "hku-ece-rap-vick-lau-profile-20261124",
+        "hku-ece-bisp-lab-20261122"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-vick-lau-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-vick-lau-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://www4.hku.hk/bisplab/",
+          "label": "BISP 实验室",
+          "parentSourceId": "hku-ece-rap-vick-lau-profile-20261124",
+          "sourceId": "hku-ece-bisp-lab-20261122",
+          "bodyStatus": "body_read",
+          "readNote": "实验室主页介绍磁共振成像研究。"
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-rap-zhaolin-wang",
+      "universityId": "hku",
+      "name": "Zhaolin Wang",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "网络与系统"
+      ],
+      "researchKeywords": [
+        "无线通信",
+        "通感一体化",
+        "多输入多输出",
+        "电磁信息论",
+        "wireless communications",
+        "integrated sensing and communications",
+        "MIMO",
+        "electromagnetic information theory"
+      ],
+      "summary": "研究无线通信、通感一体化、多输入多输出和电磁信息论。",
+      "profileUrl": "https://ece.hku.hk/people/zhaolinw/",
+      "sourceIds": [
+        "hku-ece-rap-zhaolin-wang-profile-20261124",
+        "hku-ece-rap-wang-personal-20261124"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-zhaolin-wang-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-zhaolin-wang-profile-20261124"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://zhaolin820.github.io/",
+          "label": "个人研究主页",
+          "parentSourceId": "hku-ece-rap-zhaolin-wang-profile-20261124",
+          "sourceId": "hku-ece-rap-wang-personal-20261124",
+          "bodyStatus": "body_read",
+          "readNote": "研究主页列出港大任职。"
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-rap-yanmin-zhu",
+      "universityId": "hku",
+      "name": "Yanmin Zhu",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Research Assistant Professor",
+      "topics": [
+        "生物医学与健康",
+        "计算机视觉",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "计算成像",
+        "数字全息",
+        "智能诊断",
+        "光谱学",
+        "偏振成像",
+        "可穿戴设备",
+        "computational imaging",
+        "digital holography",
+        "intelligent diagnosis",
+        "spectroscopy",
+        "polarization imaging",
+        "wearable devices"
+      ],
+      "summary": "研究计算成像、数字全息和智能诊断，也涉及光谱、偏振成像和穿戴设备。",
+      "profileUrl": "https://ece.hku.hk/people/y-zhu/",
+      "sourceIds": [
+        "hku-ece-rap-yanmin-zhu-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "wide-dir-hku-ece"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-rap-yanmin-zhu-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "text": "当前轮次及名额未核实",
+        "cycle": null,
+        "sourceIds": [
+          "hku-ece-rap-yanmin-zhu-profile-20261124"
+        ]
+      },
+      "extraLinks": [],
+      "identityNote": "院系个人页的履历使用 Presidential Research Assistant Professor。"
+    }
+  ],
+  "directoryReviewSourceId": "hku-ece-rap-followup-20261124"
+}
