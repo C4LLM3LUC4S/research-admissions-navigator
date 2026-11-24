@@ -14354,7 +14354,8 @@
       "sourceIds": [
         "cuhksz-cui",
         "cuhksz-sse-staff-20261107-page-01",
-        "cuhksz-sse-continuation-cuishuguang"
+        "cuhksz-sse-continuation-cuishuguang",
+        "cuhksz-sds-affiliated-roster-20261124"
       ],
       "availability": {
         "state": "unknown",
@@ -14365,12 +14366,14 @@
         ]
       },
       "directorySourceIds": [
-        "cuhksz-sse-staff-20261107-page-01"
+        "cuhksz-sse-staff-20261107-page-01",
+        "cuhksz-sds-affiliated-roster-20261124"
       ],
       "academicUnitIds": [
         "cuhksz-2"
       ],
-      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/cuishuguang"
+      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/cuishuguang",
+      "identityNote": "数据科学学院另列礼聘教授。研究学位指导资格请按项目确认。"
     },
     {
       "id": "polyu-wenhua-chen",
@@ -56512,10 +56515,13 @@
       "universityId": "cuhksz",
       "sourceIds": [
         "cuhksz-sme-7eff2583a8461c-profile",
-        "cuhksz-sme-directory-20261028"
+        "cuhksz-sme-directory-20261028",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-affiliated-person-264-20261124"
       ],
       "directorySourceIds": [
-        "cuhksz-sme-directory-20261028"
+        "cuhksz-sme-directory-20261028",
+        "cuhksz-sds-affiliated-roster-20261124"
       ],
       "academicUnitIds": [
         "cuhksz-1"
@@ -56525,7 +56531,7 @@
       "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/jmjia",
       "department": "经管学院 · 市场营销",
       "directoryRole": "教授，深圳高等金融研究院市场学理学硕士项目主任，深高金讲座教授",
-      "identityNote": "这是官网名录身份；教学或应用职称与其他职称都不等于已确认研究生指导资格。",
+      "identityNote": "这是官网名录身份；教学或应用职称与其他职称都不等于已确认研究生指导资格。 数据科学学院另列礼聘教授。研究学位指导资格请按项目确认。",
       "summary": "研究大数据行为研究，社交网络，决策分析，感知风险。",
       "researchKeywords": [
         "大数据行为研究",
@@ -111142,11 +111148,14 @@
         "cuhksz-med-20261109-biology",
         "cuhksz-med-20261109-biomedinfo",
         "cuhksz-sse-staff-20261107-page-15",
-        "cuhksz-sse-remaining-20261111-huanghsienda"
+        "cuhksz-sse-remaining-20261111-huanghsienda",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-affiliated-person-2305-20261124"
       ],
       "directorySourceIds": [
         "cuhksz-med-20261109-faculty",
-        "cuhksz-sse-staff-20261107-page-15"
+        "cuhksz-sse-staff-20261107-page-15",
+        "cuhksz-sds-affiliated-roster-20261124"
       ],
       "keywordSourceIds": [
         "cuhksz-med-faculty-20261109-profile-120",
@@ -111189,7 +111198,8 @@
           "cuhksz-med-20261109-biomedinfo"
         ]
       },
-      "reviewedProfileUrl": "https://sse.cuhk.edu.cn/faculty/huanghsienda"
+      "reviewedProfileUrl": "https://sse.cuhk.edu.cn/faculty/huanghsienda",
+      "identityNote": "数据科学学院另列礼聘教授。研究学位指导资格请按项目确认。"
     },
     {
       "id": "cuhksz-med-faculty-20261109-122",
@@ -145684,6 +145694,51 @@
         "cycle": null,
         "sourceIds": [
           "hkust-mae-rap-xu-yixin-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-zhengrui-jiang",
+      "universityId": "cuhksz",
+      "name": "Zhengrui Jiang / 姜正瑞",
+      "department": "School of Data Science",
+      "role": "Professor (Courtesy)",
+      "directoryRole": "礼聘教授 · Professor (Courtesy)",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2307",
+      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/zjiang/Home/Index",
+      "identityNote": "数据科学学院名录列礼聘教授。同校学者主页列经管学院信息系统任职。",
+      "topics": [
+        "经济与管理",
+        "数据挖掘",
+        "理论与优化"
+      ],
+      "researchKeywords": [
+        "商务智能",
+        "大数据分析",
+        "优化与决策",
+        "技术创新",
+        "business intelligence",
+        "data analytics",
+        "decision making under uncertainty"
+      ],
+      "summary": "研究方向包括商务智能、大数据分析、不确定性下的优化与决策，以及技术创新。",
+      "sourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-affiliated-person-2307-20261124",
+        "cuhksz-sds-zhengrui-jiang-research-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-zhengrui-jiang-research-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-affiliated-roster-20261124"
         ]
       }
     }
@@ -281612,6 +281667,167 @@
       "knownIssues": []
     },
     {
+      "id": "cuhksz-sds-affiliated-roster-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-honorary",
+      "title": "港中文（深圳）数据科学学院 · 礼聘与兼任",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "所读 Affiliated Appointments 页面及提供的人名与链接。",
+      "claims": [
+        "礼聘教授 4 位、兼任实践教授 2 位、兼任助理教授 2 位、兼任副教授与兼任教授各 1 位。"
+      ],
+      "knownIssues": [
+        "崔曙光的本学院个人入口本次返回 HTTP 403。"
+      ],
+      "discoveredLinks": [
+        "https://sds.cuhk.edu.cn/en/teacher/263",
+        "https://sds.cuhk.edu.cn/en/teacher/1632",
+        "https://sds.cuhk.edu.cn/en/teacher/2095",
+        "https://sds.cuhk.edu.cn/en/teacher/2098",
+        "https://sds.cuhk.edu.cn/en/teacher/2305",
+        "https://sds.cuhk.edu.cn/en/teacher/264",
+        "https://sds.cuhk.edu.cn/en/teacher/2307",
+        "https://sds.cuhk.edu.cn/en/teacher/412",
+        "https://sds.cuhk.edu.cn/en/teacher/2158",
+        "https://sds.cuhk.edu.cn/en/teacher/444",
+        "https://myweb.cuhk.edu.cn/cuishuguang",
+        "https://med.cuhk.edu.cn/teacher/120",
+        "https://myweb.cuhk.edu.cn/jmjia",
+        "https://myweb.cuhk.edu.cn/zjiang/Home/Index"
+      ]
+    },
+    {
+      "id": "cuhksz-sds-zhengrui-jiang-research-20261124",
+      "url": "https://myweb.cuhk.edu.cn/zjiang/Home/Index",
+      "title": "姜正瑞 · 港中文（深圳）经管学院研究档案",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "数据科学学院名录提供的同校学者主页。",
+      "claims": [
+        "主页列经管学院信息系统任职，研究商务智能、大数据分析、不确定性下的优化与决策及技术创新。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-1632-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/1632",
+      "title": "Rongfu Chen · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Professor of Practice (Adjunct)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-2095-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2095",
+      "title": "Shan Dai · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Assistant Professor (Adjunct)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-2098-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2098",
+      "title": "Anningzhe Gao · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Assistant Professor (Adjunct)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-2305-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2305",
+      "title": "Hsien-Da Huang / 黄宪达 · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Professor (Courtesy)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-264-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/264",
+      "title": "Jianmin Jia / 贾建民 · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Professor (Courtesy)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-2307-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2307",
+      "title": "Zhengrui Jiang / 姜正瑞 · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Professor (Courtesy)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-412-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/412",
+      "title": "Xiaodong Luo · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Professor of Practice (Adjunct)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-2158-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/2158",
+      "title": "Yu Li · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Associate Professor (Adjunct)。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-affiliated-person-444-20261124",
+      "url": "https://sds.cuhk.edu.cn/en/teacher/444",
+      "title": "Shipeng Li · 港中文（深圳）数据科学学院",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列身份。",
+      "claims": [
+        "院系个人页列 Professor (Adjunct)。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cuhksz-sds-ds-application-2027",
       "url": "https://sds.cuhk.edu.cn/en/node/365",
       "title": "港中文（深圳）数据科学学院 · 数据科学研究学位 · 申请程序",
@@ -313308,6 +313524,145 @@
             "reviewStatus": "body_read",
             "facultyId": "hkust-mae-rap-xu-yixin",
             "sourceId": "hkust-mae-rap-xu-yixin-profile-20261124"
+          }
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-affiliated-directory",
+      "universityId": "cuhksz",
+      "unit": "School of Data Science / Affiliated Appointments",
+      "url": "https://sds.cuhk.edu.cn/en/teacher-honorary",
+      "title": "港中文（深圳）数据科学学院 · 礼聘与兼任",
+      "profileLinksObserved": [
+        "https://sds.cuhk.edu.cn/en/teacher/263",
+        "https://sds.cuhk.edu.cn/en/teacher/1632",
+        "https://sds.cuhk.edu.cn/en/teacher/2095",
+        "https://sds.cuhk.edu.cn/en/teacher/2098",
+        "https://sds.cuhk.edu.cn/en/teacher/2305",
+        "https://sds.cuhk.edu.cn/en/teacher/264",
+        "https://sds.cuhk.edu.cn/en/teacher/2307",
+        "https://sds.cuhk.edu.cn/en/teacher/412",
+        "https://sds.cuhk.edu.cn/en/teacher/2158",
+        "https://sds.cuhk.edu.cn/en/teacher/444"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "coverageComplete": false,
+      "reviewSourceIds": [
+        "cuhksz-sds-zhengrui-jiang-research-20261124",
+        "cuhksz-sds-affiliated-person-1632-20261124",
+        "cuhksz-sds-affiliated-person-2095-20261124",
+        "cuhksz-sds-affiliated-person-2098-20261124",
+        "cuhksz-sds-affiliated-person-2305-20261124",
+        "cuhksz-sds-affiliated-person-264-20261124",
+        "cuhksz-sds-affiliated-person-2307-20261124",
+        "cuhksz-sds-affiliated-person-412-20261124",
+        "cuhksz-sds-affiliated-person-2158-20261124",
+        "cuhksz-sds-affiliated-person-444-20261124"
+      ],
+      "coverageNotes": "本页列数据科学学院礼聘和兼任人事关系。可从个人页或同校学者主页核对研究方向，指导资格按学位项目确认。",
+      "census": {
+        "observedTotal": 10,
+        "profilesRead": 9,
+        "profilesFailed": 1,
+        "pendingReasonCounts": {
+          "access_failed": 1
+        },
+        "entries": [
+          {
+            "name": "Shuguang Cui / 崔曙光",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/263",
+            "directoryPosition": "Professor (Courtesy)",
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "本次返回 HTTP 403。可查看名录提供的同校学者主页；沿用既有研究档案。",
+            "facultyId": "cuhksz-cui"
+          },
+          {
+            "name": "Rongfu Chen",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/1632",
+            "directoryPosition": "Professor of Practice (Adjunct)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-1632-20261124",
+            "reviewNote": "已核读个人页及其所列任职。"
+          },
+          {
+            "name": "Shan Dai",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2095",
+            "directoryPosition": "Assistant Professor (Adjunct)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-2095-20261124",
+            "reviewNote": "已核读个人页及其所列任职。"
+          },
+          {
+            "name": "Anningzhe Gao",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2098",
+            "directoryPosition": "Assistant Professor (Adjunct)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-2098-20261124",
+            "reviewNote": "已核读个人页及其所列任职。"
+          },
+          {
+            "name": "Hsien-Da Huang / 黄宪达",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2305",
+            "directoryPosition": "Professor (Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-2305-20261124",
+            "reviewNote": "已核读个人页及其所列任职。",
+            "facultyId": "cuhksz-med-faculty-20261109-120"
+          },
+          {
+            "name": "Jianmin Jia / 贾建民",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/264",
+            "directoryPosition": "Professor (Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-264-20261124",
+            "reviewNote": "已核读个人页及其所列任职。",
+            "facultyId": "cuhksz-sme-7eff2583a8461c"
+          },
+          {
+            "name": "Zhengrui Jiang / 姜正瑞",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2307",
+            "directoryPosition": "Professor (Courtesy)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-2307-20261124",
+            "reviewNote": "已核读个人页及其所列任职。",
+            "facultyId": "cuhksz-sds-zhengrui-jiang"
+          },
+          {
+            "name": "Xiaodong Luo",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/412",
+            "directoryPosition": "Professor of Practice (Adjunct)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-412-20261124",
+            "reviewNote": "已核读个人页及其所列任职。"
+          },
+          {
+            "name": "Yu Li",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2158",
+            "directoryPosition": "Associate Professor (Adjunct)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-2158-20261124",
+            "reviewNote": "已核读个人页及其所列任职。"
+          },
+          {
+            "name": "Shipeng Li",
+            "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/444",
+            "directoryPosition": "Professor (Adjunct)",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "cuhksz-sds-affiliated-person-444-20261124",
+            "reviewNote": "已核读个人页及其所列任职。"
           }
         ]
       }
@@ -363629,5 +363984,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:3babd4388bc397671a72fe87cc1237b0bbc08829b74e6c0fbaf63d31916f85a9"
+  "snapshotId": "sha256:bb4ed7a2c3e9642d0a6c3f97f595ad424456a93643235d1f26c9d627dccb3400"
 }

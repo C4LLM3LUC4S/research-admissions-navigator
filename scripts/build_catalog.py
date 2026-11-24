@@ -2448,6 +2448,17 @@ def build_catalog():
                     "basis": "academic_year", "condition": "全日制或兼读"}]},
     ]
     catalog["programs"].append(mech)
+    sds_affiliated = load("cuhksz-sds-affiliated-20261124.json")
+    catalog["sources"].extend(sds_affiliated["sources"])
+    catalog["directories"].append(sds_affiliated["directory"])
+    catalog["faculty"].extend(sds_affiliated["faculty"])
+    sds_faculty = {faculty["id"]: faculty for faculty in catalog["faculty"] if faculty["universityId"] == "cuhksz"}
+    for update in sds_affiliated["existingUpdates"]:
+        faculty = sds_faculty[update["id"]]
+        faculty["sourceIds"] = list(dict.fromkeys(faculty["sourceIds"] + update["sourceIds"]))
+        faculty["directorySourceIds"] = list(dict.fromkeys(faculty.get("directorySourceIds", []) + sds_affiliated["directory"]["sourceIds"]))
+        faculty["identityNote"] = " ".join(filter(None, (faculty.get("identityNote"), update["identityNote"])))
+
     sds = load("cuhksz-sds-admissions-20261124.json")
     catalog["sources"].extend(sds["sources"])
     for item in sds["programmes"]:
