@@ -65,6 +65,19 @@ test('a saved two-school shortlist loads just those schools before validating it
  assert.deepEqual(L.parsePortable(JSON.stringify(backup),plain(c)).shortlist,ids);
  assert.deepEqual(L.parsePortable(JSON.stringify(backup),plain(c)).sourceIds,backup.sourceIds);checkSources(c);
 });
+test('a merged teacher archive restores old favourites and follow-ups with the original profile',async()=>{
+ const [oldId,id]=Object.entries(expected.facultyAliases)[0];
+ const backup=backupFor([id]);
+ backup.shortlist=[oldId,id];
+ backup.tasks=[{id:'task-legacy-jiang',text:'继续核对研究方向',done:false,programId:null,facultyId:oldId}];
+ const h=harness({saved:JSON.stringify(backup)});
+ const c=await h.window.APP_CATALOG_READY;
+ const restored=L.parsePortable(JSON.stringify(backup),plain(c));
+ assert.equal(h.requests.length,1);
+ assert.deepEqual(restored.shortlist,[id]);
+ assert.equal(restored.tasks[0].facultyId,id);
+ assert.deepEqual(restored.sourceIds,backup.sourceIds);
+});
 test('historical source references beyond saved faculty trigger full fallback without dropping any source ID',async()=>{
  const id=expected.faculty.find(f=>f.universityId==='hkustgz').id,backup=backupFor([id]);
  const partial=harness({saved:JSON.stringify(backup)}),c=await partial.window.APP_CATALOG_READY;

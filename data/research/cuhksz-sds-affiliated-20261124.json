@@ -268,8 +268,8 @@
           "profileRead": true,
           "reviewStatus": "body_read",
           "sourceId": "cuhksz-sds-affiliated-person-2307-20261124",
-          "reviewNote": "已核读个人页及其所列任职。",
-          "facultyId": "cuhksz-sds-zhengrui-jiang"
+          "reviewNote": "已核读院系个人页，沿用已有研究档案，补记礼聘任职。",
+          "facultyId": "cuhksz-sme-003ea2dac10457"
         },
         {
           "name": "Xiaodong Luo",
@@ -301,53 +301,7 @@
       ]
     }
   },
-  "faculty": [
-    {
-      "id": "cuhksz-sds-zhengrui-jiang",
-      "universityId": "cuhksz",
-      "name": "Zhengrui Jiang / 姜正瑞",
-      "department": "School of Data Science",
-      "role": "Professor (Courtesy)",
-      "directoryRole": "礼聘教授 · Professor (Courtesy)",
-      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2307",
-      "reviewedProfileUrl": "https://myweb.cuhk.edu.cn/zjiang/Home/Index",
-      "identityNote": "数据科学学院名录列礼聘教授。同校学者主页列经管学院信息系统任职。",
-      "topics": [
-        "经济与管理",
-        "数据挖掘",
-        "理论与优化"
-      ],
-      "researchKeywords": [
-        "商务智能",
-        "大数据分析",
-        "优化与决策",
-        "技术创新",
-        "business intelligence",
-        "data analytics",
-        "decision making under uncertainty"
-      ],
-      "summary": "研究方向包括商务智能、大数据分析、不确定性下的优化与决策，以及技术创新。",
-      "sourceIds": [
-        "cuhksz-sds-affiliated-roster-20261124",
-        "cuhksz-sds-affiliated-person-2307-20261124",
-        "cuhksz-sds-zhengrui-jiang-research-20261124"
-      ],
-      "directorySourceIds": [
-        "cuhksz-sds-affiliated-roster-20261124"
-      ],
-      "keywordSourceIds": [
-        "cuhksz-sds-zhengrui-jiang-research-20261124"
-      ],
-      "availability": {
-        "state": "unknown",
-        "cycle": null,
-        "text": "指导资格、当前招募和名额待核",
-        "sourceIds": [
-          "cuhksz-sds-affiliated-roster-20261124"
-        ]
-      }
-    }
-  ],
+  "faculty": [],
   "existingUpdates": [
     {
       "id": "cuhksz-cui",
@@ -371,6 +325,18 @@
         "cuhksz-sds-affiliated-person-264-20261124"
       ],
       "identityNote": "数据科学学院另列礼聘教授。研究学位指导资格请按项目确认。"
+    },
+    {
+      "id": "cuhksz-sme-003ea2dac10457",
+      "sourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-affiliated-person-2307-20261124",
+        "cuhksz-sds-zhengrui-jiang-research-20261124"
+      ],
+      "identityNote": "数据科学学院另列礼聘教授。"
     }
-  ]
+  ],
+  "aliases": {
+    "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
+  }
 }

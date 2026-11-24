@@ -88,11 +88,14 @@
     let saved;
     try { saved = JSON.parse(raw); } catch (_) { return; }
     if (!saved || !Array.isArray(saved.shortlist) || !Array.isArray(saved.tasks) || !Array.isArray(saved.sourceIds)) return;
-    const ids = [...new Set([...saved.shortlist,...saved.tasks.map(task => task?.facultyId).filter(Boolean)])];
+    const storedIds = [...saved.shortlist,...saved.tasks.map(task => task?.facultyId).filter(Boolean)];
+    const aliases=base.facultyAliases||{};
+    const canonicalId=id=>Object.hasOwn(aliases,id)?aliases[id]:id;
+    const ids = [...new Set(storedIds.map(canonicalId))];
     if (ids.length) {
       const knownSchools = new Set(base.universities.map(school => school.id));
       const validHint = row => Array.isArray(row) && typeof row[0] === 'string' && knownSchools.has(row[1]);
-      const hints = new Map(Array.isArray(saved.facultySchools) ? saved.facultySchools.filter(validHint) : []);
+      const hints = new Map(Array.isArray(saved.facultySchools) ? saved.facultySchools.filter(validHint).map(([id,school])=>[canonicalId(id),school]) : []);
       if (ids.every(id => hints.has(id))) {
         // The hint saves a download; the current school records still decide whether the ID exists.
         try { await window.APP_LOAD_SCHOOLS(ids.map(id => hints.get(id))); } catch (_) {}
