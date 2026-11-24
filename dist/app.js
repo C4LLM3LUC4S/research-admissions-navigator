@@ -176,9 +176,20 @@
     const actions=node('div',null,'faculty-actions');append(actions,button('加入跟进待办',()=>taskForFaculty(f),'button secondary'),button('查这所学校的院系目录',()=>{state.profile.universityIds=[f.universityId];populateProfile();chooseMode('directories');showView('explore');},'button text-button'));card.append(actions);card.append(node('p','联系前，先确认这位老师对应的项目与入学轮次。','field-help'));
     card.append(evidence([...(f.sourceIds||[]),...(f.keywordSourceIds||[]),...((f.availability||{}).sourceIds||[])],'研究方向、任职和招生说明的原网页见下方。'));return card;
   }
+  function directoryCensusProgress(census) {
+    const unlinked=census.unlinkedEntries?.length||0;
+    const links=census.observedTotal;
+    const missing=unlinked?'另有 '+unlinked+' 张卡未提供独立个人主页。':'';
+    if(!links&&unlinked) return '已核对 '+unlinked+' 张人员卡。院系未在这些卡片上提供独立个人主页。';
+    if(links&&!census.profilesFailed) {
+      return (census.pendingReasonCounts ? links+' 个主页：'+links+' 个已读。' : '已读 '+links+' 个个人主页。')+missing;
+    }
+    if(census.pendingReasonCounts) return '这组名录保留 '+links+' 个主页：'+census.profilesRead+' 个已读，'+census.profilesFailed+' 个待核。'+missing;
+    return '这组目录列出 '+links+' 个不同主页：已读 '+census.profilesRead+' 个，'+census.profilesFailed+' 个读取超时。';
+  }
   function directoryCard(d) {
     const card=node('article',null,'result-card'),u=university(d.universityId),count=L.reviewedForDirectory(C,d),census=d.census;
-    const status=d.observedNamedCards!==undefined?'本页已核对 '+d.observedNamedCards+' 张人员卡。'+(census.observedTotal?'其中 '+census.observedTotal+' 个个人主页正文待核。':'所给网站与逐人核查进度见下方；暂未归类不等于没有个人主页。'):census?(census.pendingReasonCounts?'这组名录保留 '+census.observedTotal+' 个主页：'+census.profilesRead+' 个已读，'+census.profilesFailed+' 个待核。'+((census.unlinkedEntries||[]).length?'另有 '+census.unlinkedEntries.length+' 张卡未提供主页。':''):'这组目录列出 '+census.observedTotal+' 个不同主页：已读 '+census.profilesRead+' 个，'+census.profilesFailed+' 个读取超时。'):count?'已整理其中 '+count+' 位老师的研究方向，仍有其他老师尚未收录。':'这个院系的个人页还没整理好，可以先从官网继续找。';
+    const status=d.observedNamedCards!==undefined?'本页已核对 '+d.observedNamedCards+' 张人员卡。'+(census.observedTotal?'其中 '+census.observedTotal+' 个个人主页正文待核。':'所给网站与逐人核查进度见下方；暂未归类不等于没有个人主页。'):census?directoryCensusProgress(census):count?'已整理其中 '+count+' 位老师的研究方向，仍有其他老师尚未收录。':'这个院系的个人页还没整理好，可以先从官网继续找。';
     append(card,topLine(u),academicTitle('h3',d.unit),node('p','从院系官网查看老师、研究方向和个人主页。','coverage-status'),link('查看官方师资目录 ↗',d.url));
     if(d.applicationGuideSourceId){
       const guide=C.sources.find(s=>s.id===d.applicationGuideSourceId);
