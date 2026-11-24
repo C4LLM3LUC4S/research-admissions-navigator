@@ -549,6 +549,22 @@
         "院系提供的是含追踪参数的跳转链接，保留官方个人页作为入口。"
       ],
       "discoveredLinks": []
+    },
+    {
+      "id": "polyu-aae-hao-lab-home-20261124",
+      "url": "https://sites.google.com/view/jiaaohao",
+      "title": "Hao Research Group · Jiaao Hao",
+      "checkedAt": "2026-11-24",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人资料所给课题组首页及任职履历。",
+      "claims": [
+        "组首页列港理工航空及民航工程学系副教授任职自 2025 年 7 月起。"
+      ],
+      "knownIssues": [
+        "所读首页的范围为任职与经历。"
+      ],
+      "parentSourceId": "polyu-aae-hao-jiaao-profile-20261124"
     }
   ],
   "faculty": [
@@ -661,7 +677,8 @@
       "summary": "研究方向包括空气动力学、气动热力学与计算流体力学。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
       "sourceIds": [
-        "polyu-aae-hao-jiaao-profile-20261124"
+        "polyu-aae-hao-jiaao-profile-20261124",
+        "polyu-aae-hao-lab-home-20261124"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
@@ -680,10 +697,11 @@
       "extraLinks": [
         {
           "url": "https://sites.google.com/view/jiaaohao",
-          "label": "https://sites.google.com/view/jiaaohao",
+          "label": "Hao Research Group",
           "parentSourceId": "polyu-aae-hao-jiaao-profile-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "记录院系所给网址，正文继续待核。"
+          "bodyStatus": "body_read",
+          "readNote": "组主页列郝家傲自 2025 年 7 月任港理工航空及民航工程学系副教授。",
+          "sourceId": "polyu-aae-hao-lab-home-20261124"
         }
       ]
     },
