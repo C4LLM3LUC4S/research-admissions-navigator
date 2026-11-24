@@ -1600,6 +1600,22 @@ def build_catalog():
     catalog["sources"].extend(ie["sources"])
     catalog["faculty"].extend(ie["faculty"])
     catalog["directories"].append(ie["directory"])
+    ie_followups = load("cuhk-ie-profile-followups-20261124.json")
+    catalog["sources"].extend(ie_followups["sources"])
+    catalog["faculty"].extend(ie_followups["faculty"])
+    ie["directory"]["reviewSourceIds"].extend(source["id"] for source in ie_followups["sources"])
+    ie_census = ie["directory"]["census"]
+    ie_entries = {entry["profileUrl"]: entry for entry in ie_census["entries"]}
+    for update in ie_followups["updates"]:
+        assert ie_entries[update["profileUrl"]]["reviewStatus"] == "not_read"
+        ie_entries[update["profileUrl"]].update(update)
+    ie_census["profilesRead"] = sum(entry["profileRead"] for entry in ie_census["entries"])
+    ie_census["profilesFailed"] = ie_census["observedTotal"] - ie_census["profilesRead"]
+    ie_census["pendingReasonCounts"] = {"access_failed": ie_census["profilesFailed"]}
+    ie["directory"]["coverageNotes"] = (
+        "院系所列常规、关联、兼任、荣休及纪念条目均按原身份保留。"
+        "个人页和落地研究网站的核对结果分别记录。"
+    )
     ie_parent = next(unit for row in catalog["academicCoverage"] for unit in row["units"] if unit["id"] == "cuhk-4")
     ie_parent.setdefault("staffEntries", []).extend(ie["staffEntries"])
     for update in ie["facultyUpdates"]:

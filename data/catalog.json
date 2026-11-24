@@ -138914,6 +138914,122 @@
       }
     },
     {
+      "id": "cuhk-ie-yum-tak-shing-peter",
+      "name": "Peter Tak Shing Yum / 任德盛",
+      "department": "Department of Information Engineering",
+      "universityId": "cuhk",
+      "directoryRole": "Emeritus Professor",
+      "role": "Emeritus Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yum-tak-shing-peter/",
+      "researchKeywords": [
+        "无线互联网",
+        "传感器网络",
+        "无线定位",
+        "wireless Internet",
+        "sensor networks",
+        "wireless positioning"
+      ],
+      "topics": [
+        "网络与系统",
+        "电子与集成电路"
+      ],
+      "summary": "个人页介绍无线与互联网通信、传感器网络和无线定位。",
+      "sourceIds": [
+        "cuhk-ie-yum-tak-shing-peter-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-yum-tak-shing-peter-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募与名额待核",
+        "sourceIds": [
+          "cuhk-ie-yum-tak-shing-peter-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ie-lo-wai-shun",
+      "name": "Wai Shun Lo",
+      "department": "Department of Information Engineering",
+      "universityId": "cuhk",
+      "directoryRole": "Adjunct Associate Professor",
+      "role": "Adjunct Associate Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lo-wai-shun/",
+      "researchKeywords": [
+        "技术转移",
+        "知识产权",
+        "创新商业模式",
+        "technology transfer",
+        "intellectual property",
+        "business models"
+      ],
+      "topics": [
+        "经济与管理"
+      ],
+      "summary": "个人页介绍技术转移、知识产权与创新商业模式。",
+      "sourceIds": [
+        "cuhk-ie-lo-wai-shun-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-lo-wai-shun-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募与名额待核",
+        "sourceIds": [
+          "cuhk-ie-lo-wai-shun-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ie-yue-on-ching",
+      "name": "On Ching Yue / 余安正",
+      "department": "Department of Information Engineering",
+      "universityId": "cuhk",
+      "directoryRole": "Adjunct Professor",
+      "role": "Adjunct Professor",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yue-on-ching/",
+      "researchKeywords": [
+        "无线接入网络",
+        "网络安全",
+        "服务质量",
+        "wireless access networks",
+        "network security",
+        "quality of service"
+      ],
+      "topics": [
+        "网络与系统",
+        "网络安全"
+      ],
+      "summary": "个人页介绍无线接入网络、网络安全与应用服务质量。",
+      "sourceIds": [
+        "cuhk-ie-yue-on-ching-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-yue-on-ching-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募与名额待核",
+        "sourceIds": [
+          "cuhk-ie-yue-on-ching-profile-20261124"
+        ]
+      }
+    },
+    {
       "id": "hku-ece-rap-chang-cai",
       "universityId": "hku",
       "name": "Chang Cai",
@@ -275924,6 +276040,158 @@
       "knownIssues": []
     },
     {
+      "id": "cuhk-ie-yum-tak-shing-peter-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/yum-tak-shing-peter/",
+      "title": "YUM Tak Shing, Peter · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "8d530202de1ebc00fca4355222fcc424e22eaa03b66c4b905d43b0a3cd3ec050",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/yum-tak-shing-peter/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "个人页列 Emeritus Professor，介绍无线与互联网通信、传感器网络和无线定位。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-lo-wai-shun-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/lo-wai-shun/",
+      "title": "LO Wai Shun · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "b866e6362bdebd81a9f3adc05a6fc6b0f277360723375b9c30a8ef12deec15a3",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/lo-wai-shun/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "个人页列 Adjunct Associate Professor，介绍技术转移、知识产权与创新商业模式。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-cavan-ntu-linked-20261124",
+      "url": "https://www.mmlab-ntu.com/person/ccloy/",
+      "title": "Chen Change Loy · 南洋理工大学研究主页",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "cuhk-ie-roster-20261111",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f8126a7c7f9bdf06e51caa16a46c83fd210d644d7c546c02e8865bd20cb98ef5",
+      "retrievedUrl": "https://www.mmlab-ntu.com/person/ccloy/",
+      "originalUrl": "https://www.mmlab-ntu.com/person/ccloy/",
+      "scope": "港中文兼任名录提供的校外研究主页正文。",
+      "claims": [
+        "所读页列南洋理工大学计算机科学与数据科学学院任职及其研究实验室。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-tong-fuk-kay-frank-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/tong-fuk-kay-frank/",
+      "title": "TONG Fuk Kay, Frank · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "2dc5c16d4d8e16e11336360e87f47418f89479d754aca76f85c306c295e8c972",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/tong-fuk-kay-frank/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "个人页列兼任教授，并介绍激光物理研究和科技行业经历。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-yue-on-ching-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/yue-on-ching/",
+      "title": "YUE On Ching · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "806137938298b165a12cc1ccf29d7fe89b8d96e3e7b62105852ff1d75f72f933",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/yue-on-ching/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "个人页列 Adjunct Professor，介绍无线接入网络、网络安全与应用服务质量。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-chinlon-lin-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/chinlon-lin/",
+      "title": "Chinlon LIN · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed3265779d0cfa97df026164007a3ddb0291190ab46949a62a604f0449e03efd",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/chinlon-lin/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "院系纪念名录的同名个人条目可读，所读页保留纪念身份。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-omar-wing-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/omar-wing/",
+      "title": "Omar WING · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "f8e09748f6ecb765b434e2eade921164cb0f744286b39bc189126f11a10f1c36",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/omar-wing/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "院系纪念名录的同名个人条目可读，所读页保留纪念身份。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-sir-charles-k-kao-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/sir-charles-k-kao/",
+      "title": "Sir Charles K. KAO · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d85be47c944e0bb455b76913f52f56754ec11f64906332b0d069f7c3b098389e",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/sir-charles-k-kao/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "院系纪念名录的高錕条目可读，所读页保留纪念身份。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-tang-xiaoou-sean-2-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/tang-xiaoou-sean-2/",
+      "title": "TANG Xiaoou, Sean · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5f6b83e2af06d481698adbb496d339fad3cc2c3a07290a188de2269bc7bc7865",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/tang-xiaoou-sean-2/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "院系纪念名录的湯曉鷗条目可读，所读页保留纪念身份。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-victor-k-w-wei-profile-20261124",
+      "url": "https://www.ie.cuhk.edu.hk/faculty/victor-k-w-wei/",
+      "title": "Victor, K. W. WEI · 港中文信息工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5c09e46f69486547a9c68d7f02417410e3c73bdf50e16a4fe45a1bd7ea9ba53b",
+      "retrievedUrl": "https://www.ie.cuhk.edu.hk/faculty/victor-k-w-wei/",
+      "scope": "所读人员页身份或研究说明。",
+      "claims": [
+        "院系纪念名录的魏克為条目可读，所读页保留纪念身份。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cuhksz-sse-http-zhu-home-20261115",
       "title": "朱军 · ZHU, Jun · 官网所给课题组网站",
       "url": "http://junzhu.chem8.org/",
@@ -310695,14 +310963,24 @@
         "cuhk-ie-profile-20261111-chan-yuen-yan-rosanna",
         "cuhk-ie-profile-20261111-chau-sze-yiu",
         "cuhk-ie-profile-20261111-choi-tina",
-        "cuhk-ie-profile-20261111-hayashi-masahito"
+        "cuhk-ie-profile-20261111-hayashi-masahito",
+        "cuhk-ie-yum-tak-shing-peter-profile-20261124",
+        "cuhk-ie-lo-wai-shun-profile-20261124",
+        "cuhk-ie-cavan-ntu-linked-20261124",
+        "cuhk-ie-tong-fuk-kay-frank-profile-20261124",
+        "cuhk-ie-yue-on-ching-profile-20261124",
+        "cuhk-ie-chinlon-lin-profile-20261124",
+        "cuhk-ie-omar-wing-profile-20261124",
+        "cuhk-ie-sir-charles-k-kao-profile-20261124",
+        "cuhk-ie-tang-xiaoou-sean-2-profile-20261124",
+        "cuhk-ie-victor-k-w-wei-profile-20261124"
       ],
       "coverageComplete": false,
-      "coverageNotes": "按可见常规、荣休、关联、兼任及纪念栏查找。",
+      "coverageNotes": "院系所列常规、关联、兼任、荣休及纪念条目均按原身份保留。个人页和落地研究网站的核对结果分别记录。",
       "census": {
         "observedTotal": 54,
-        "profilesRead": 39,
-        "profilesFailed": 15,
+        "profilesRead": 48,
+        "profilesFailed": 6,
         "entries": [
           {
             "name": "CHAN Chun Kit, Calvin",
@@ -310989,8 +311267,9 @@
             "directoryPosition": "Emeritus Professors",
             "category": "Emeritus Professors",
             "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "reviewStatus": "access_failed",
+            "reviewNote": "院系链接跳转至旧 HTTP 个人站。本次未核读个人正文。",
+            "retrievedProfileUrl": "http://staff.ie.cuhk.edu.hk/~dmchiu/"
           },
           {
             "name": "LEE Tong, Tony",
@@ -311024,9 +311303,11 @@
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yum-tak-shing-peter/",
             "directoryPosition": "Emeritus Professors",
             "category": "Emeritus Professors",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读个人页。",
+            "sourceId": "cuhk-ie-yum-tak-shing-peter-profile-20261124",
+            "facultyId": "cuhk-ie-yum-tak-shing-peter"
           },
           {
             "name": "LEE Pak Ching, Patrick",
@@ -311043,8 +311324,9 @@
             "directoryPosition": "Faculty (by Courtesy)",
             "category": "Faculty (by Courtesy)",
             "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "reviewStatus": "access_failed",
+            "reviewNote": "院系链接转至计算机科学与工程系 HTTP 个人站。本次未核读该落地正文。",
+            "retrievedProfileUrl": "http://www.cse.cuhk.edu.hk/~cslui/"
           },
           {
             "name": "CHAN Yuen Yan, Rosanna",
@@ -311079,8 +311361,9 @@
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
             "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "reviewStatus": "access_failed",
+            "reviewNote": "个人链接转回全系名录。兼任身份取自现有名录。",
+            "retrievedProfileUrl": "https://www.ie.cuhk.edu.hk/faculty/"
           },
           {
             "name": "HAYASHI Masahito",
@@ -311114,9 +311397,11 @@
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lo-wai-shun/",
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读个人页。",
+            "sourceId": "cuhk-ie-lo-wai-shun-profile-20261124",
+            "facultyId": "cuhk-ie-lo-wai-shun"
           },
           {
             "name": "LOY Chen Change, Cavan",
@@ -311124,73 +311409,86 @@
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
             "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "reviewStatus": "access_failed",
+            "reviewNote": "个人链接转至新加坡南洋理工大学研究主页。港中文兼任身份取自原名录。",
+            "retrievedProfileUrl": "https://www.mmlab-ntu.com/person/ccloy/",
+            "linkedSourceId": "cuhk-ie-cavan-ntu-linked-20261124"
           },
           {
             "name": "TONG Fuk Kay, Frank",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/tong-fuk-kay-frank/",
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读个人页。",
+            "sourceId": "cuhk-ie-tong-fuk-kay-frank-profile-20261124"
           },
           {
             "name": "YUE On Ching",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yue-on-ching/",
             "directoryPosition": "Adjunct Professors",
             "category": "Adjunct Professors",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读个人页。",
+            "sourceId": "cuhk-ie-yue-on-ching-profile-20261124",
+            "facultyId": "cuhk-ie-yue-on-ching"
           },
           {
             "name": "Chinlon LIN",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chinlon-lin/",
             "directoryPosition": "In Memoriam",
             "category": "In Memoriam",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读纪念页。按纪念名录记载。",
+            "sourceId": "cuhk-ie-chinlon-lin-profile-20261124"
           },
           {
             "name": "Omar WING",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/omar-wing/",
             "directoryPosition": "In Memoriam",
             "category": "In Memoriam",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读纪念页。按纪念名录记载。",
+            "sourceId": "cuhk-ie-omar-wing-profile-20261124"
           },
           {
             "name": "Sir Charles K. KAO",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/sir-charles-k-kao/",
             "directoryPosition": "In Memoriam",
             "category": "In Memoriam",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读纪念页。按纪念名录记载。",
+            "sourceId": "cuhk-ie-sir-charles-k-kao-profile-20261124"
           },
           {
             "name": "TANG Xiaoou, Sean",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/tang-xiaoou-sean-2/",
             "directoryPosition": "In Memoriam",
             "category": "In Memoriam",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读纪念页。按纪念名录记载。",
+            "sourceId": "cuhk-ie-tang-xiaoou-sean-2-profile-20261124"
           },
           {
             "name": "Victor, K. W. WEI",
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/victor-k-w-wei/",
             "directoryPosition": "In Memoriam",
             "category": "In Memoriam",
-            "profileRead": false,
-            "reviewStatus": "not_read",
-            "reviewNote": "个人研究资料待核"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已读纪念页。按纪念名录记载。",
+            "sourceId": "cuhk-ie-victor-k-w-wei-profile-20261124"
           }
-        ]
+        ],
+        "pendingReasonCounts": {
+          "access_failed": 6
+        }
       }
     },
     {
@@ -362830,5 +363128,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:60ca9ed3f4f6fe02298cb9fad9d78661c12b78988516e3f4a15b2d93d368b064"
+  "snapshotId": "sha256:ebb34fabb760bbad91be4a35b4af22162a2d18e900cea4fd9e46afee5fc165f8"
 }
