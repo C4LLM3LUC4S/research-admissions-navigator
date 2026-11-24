@@ -2344,6 +2344,11 @@ def build_catalog():
              "action": "核对网申缴费金额。"},
         ]
         catalog["programs"].append(science)
+    aae_rap = load("polyu-aae-research-assistants-20261124.json")
+    catalog["sources"].extend(aae_rap["sources"])
+    catalog["faculty"].extend(aae_rap["faculty"])
+    catalog["directories"].append(aae_rap["directory"])
+
     mae_primary = load("hkust-mae-primary-20261124.json")
     catalog["sources"].extend(mae_primary["sources"])
     catalog["directories"].append(mae_primary["directory"])
