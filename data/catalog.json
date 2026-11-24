@@ -3485,7 +3485,7 @@
       "sourceIds": [
         "cuhksz-sme-finance-phd-2027"
       ],
-      "evidenceNote": "按本项目原页整理；与香港校本部及本校其他项目分开。信息管理与商业分析原页本轮未完整读到，本批不补猜为相同要求。"
+      "evidenceNote": "要求依据该项目招生页整理。"
     },
     {
       "id": "cuhksz-sme-economics-phd",
@@ -3675,7 +3675,7 @@
       "sourceIds": [
         "cuhksz-sme-economics-phd-2027"
       ],
-      "evidenceNote": "按本项目原页整理；与香港校本部及本校其他项目分开。信息管理与商业分析原页本轮未完整读到，本批不补猜为相同要求。"
+      "evidenceNote": "要求依据该项目招生页整理。"
     },
     {
       "id": "cuhksz-sme-accounting-phd",
@@ -3865,7 +3865,7 @@
       "sourceIds": [
         "cuhksz-sme-accounting-phd-2027"
       ],
-      "evidenceNote": "按本项目原页整理；与香港校本部及本校其他项目分开。信息管理与商业分析原页本轮未完整读到，本批不补猜为相同要求。"
+      "evidenceNote": "要求依据该项目招生页整理。"
     },
     {
       "id": "cuhksz-sme-marketing-phd",
@@ -4055,7 +4055,7 @@
       "sourceIds": [
         "cuhksz-sme-marketing-phd-2027"
       ],
-      "evidenceNote": "按本项目原页整理；与香港校本部及本校其他项目分开。信息管理与商业分析原页本轮未完整读到，本批不补猜为相同要求。"
+      "evidenceNote": "要求依据该项目招生页整理。"
     },
     {
       "id": "cuhksz-sme-management-phd",
@@ -4245,7 +4245,185 @@
       "sourceIds": [
         "cuhksz-sme-management-phd-2027"
       ],
-      "evidenceNote": "按本项目原页整理；与香港校本部及本校其他项目分开。信息管理与商业分析原页本轮未完整读到，本批不补猜为相同要求。"
+      "evidenceNote": "要求依据该项目招生页整理。"
+    },
+    {
+      "id": "cuhksz-sme-imba-phd",
+      "universityId": "cuhksz",
+      "name": "信息管理与商业分析博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港中文（深圳）经管学院，2027 秋季全日制博士。可选信息系统或运营管理方向。",
+      "entryUrl": "https://sme.cuhk.edu.cn/page/2107",
+      "contact": {
+        "status": "unknown",
+        "text": "已核的招生说明未写明申请前是否须取得导师同意。",
+        "sourceIds": [
+          "cuhksz-sme-imba-phd-2027",
+          "cuhksz-sme-autumn-phd-call-2027"
+        ]
+      },
+      "selection": {
+        "text": "在网申中选择信息系统或运营管理方向，并按该项目清单提交材料。",
+        "sourceIds": [
+          "cuhksz-sme-imba-phd-2027",
+          "cuhksz-sme-autumn-phd-call-2027"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "2027 秋季博士申请截止：2027-04-15（官网未说明具体时间）",
+          "date": "2027-04-15",
+          "at": null,
+          "degree": "PhD",
+          "route": "常规博士申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027",
+            "cuhksz-sme-autumn-phd-call-2027"
+          ]
+        }
+      ],
+      "requirements": [
+        {
+          "label": "学历和全日制学制",
+          "text": "认可大学硕士可申请。学士申请者须达到二等荣誉或 B 等成绩等条件，也可用认可的相当专业资格。已有研究型硕士的博士常规学制为 4 年，最长 6 年；其余为 5 年，最长 7 年。",
+          "action": "按申请学历核对资格，并按相应学制安排时间。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "选研究方向并核对课程基础",
+          "text": "申请时选择信息系统或运营管理。项目不限制原专业，要求有良好的数学或统计学基础，并列出运筹学、经济学、统计学和微积分等本科课程。",
+          "action": "选定方向后，把相关课程和研究经历写进英文陈述。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027",
+            "cuhksz-sme-autumn-phd-call-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "英语证明",
+          "text": "TOEFL 79/120 或 4.5/6（机考或居家），IELTS Academic 6.5（考点或在线）。GMAT Verbal 旧版 21（限成绩有效期内），Focus 版 78。TOEFL 和 IELTS 有效期 2 年，GMAT 5 年。香港或英语授课学位也可按原页核对，学校可能要求补交证明。",
+          "action": "核对考试形式和有效期。TOEFL MyBest 和 IELTS 单科重考成绩不接受。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "GRE 或 GMAT 与申请材料",
+          "text": "准备学历证明及相应认证、官方成绩单、英语证明、GRE 或 GMAT 成绩、至少两位学术推荐人的联系方式、英文个人陈述和简历。英文论文可选，非中英文文件须附经认证的翻译件。",
+          "action": "按项目原页逐项核对材料。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "提交申请",
+          "text": "学院公布的申请期为 2026 年 11 月 1 日至 2027 年 4 月 15 日。",
+          "action": "打开研究生申请系统，核对方向和提交时间。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027",
+            "cuhksz-sme-autumn-phd-call-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ],
+          "url": "https://pgapply.cuhk.edu.cn/"
+        }
+      ],
+      "finances": [
+        {
+          "id": "cuhksz-sme-imba-phd-application_fee",
+          "kind": "application_fee",
+          "label": "博士申请费",
+          "text": "每次申请人民币 600 元，缴费后不退。",
+          "action": "付款前核对申请方向。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ],
+          "rates": [
+            {
+              "value": 600,
+              "currency": "CNY",
+              "unit": "application",
+              "cycle": "2027/28",
+              "basis": "intake",
+              "condition": "博士申请"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sme-imba-phd-tuition",
+          "kind": "tuition",
+          "label": "2027 年入学学费",
+          "text": "每年人民币 162,000 元。",
+          "action": "按学制估算费用，收到资助通知后再核实个人应付金额。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027",
+            "cuhksz-sme-autumn-phd-call-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ],
+          "rates": [
+            {
+              "value": 162000,
+              "currency": "CNY",
+              "unit": "year",
+              "cycle": "2027/28",
+              "basis": "intake",
+              "condition": "全日制博士学费"
+            }
+          ]
+        },
+        {
+          "id": "cuhksz-sme-imba-phd-studentship",
+          "kind": "studentship",
+          "label": "博士学费减免与助研助教津贴",
+          "text": "有全额学费减免及常规修读期内的助研助教津贴。津贴每月税前最高人民币 10,000 元。",
+          "action": "核对资助决定和工作安排。",
+          "sourceIds": [
+            "cuhksz-sme-imba-phd-2027",
+            "cuhksz-sme-autumn-phd-call-2027"
+          ],
+          "degrees": [
+            "PhD"
+          ],
+          "rates": [
+            {
+              "value": 10000,
+              "currency": "CNY",
+              "unit": "month",
+              "cycle": "2027/28",
+              "basis": "intake",
+              "condition": "税前上限，须承担助研或助教工作"
+            }
+          ]
+        }
+      ],
+      "sourceIds": [
+        "cuhksz-sme-imba-phd-2027",
+        "cuhksz-sme-autumn-phd-call-2027"
+      ],
+      "evidenceNote": "项目页也列出全日制 MPhil 学制。2027 秋季招生通知覆盖博士，独立 MPhil 申请入口待核。"
     },
     {
       "id": "hku-dase-rpg",
@@ -178218,6 +178396,38 @@
       "receiptScope": "batched_tool_response",
       "knownIssues": [
         "摘要对应网页读取工具返回的批次文本，不是原始HTTP正文。"
+      ]
+    },
+    {
+      "id": "cuhksz-sme-imba-phd-2027",
+      "url": "https://sme.cuhk.edu.cn/page/2107",
+      "title": "信息管理与商业分析博士 · 项目与 2027 秋季申请",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港中文（深圳）经管学院，2027 年秋季博士申请",
+      "claims": [
+        "项目有信息系统和运营管理两个研究方向。按是否已有研究型硕士区分博士修读期限。",
+        "项目页列学历、英语、GRE 或 GMAT、申请材料、收费和资助。"
+      ],
+      "readMethod": "web_reader",
+      "knownIssues": [
+        "课程表列有全日制 MPhil 学制，独立申请入口仍待核实。"
+      ]
+    },
+    {
+      "id": "cuhksz-sme-autumn-phd-call-2027",
+      "url": "https://sme.cuhk.edu.cn/article/3684",
+      "title": "经管学院 2027 秋季博士招生通知",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港中文（深圳）经管学院 2027 年秋季博士申请通知",
+      "claims": [
+        "信息管理与商业分析博士按研究方向申请。申请日期为 2026 年 11 月 1 日至 2027 年 4 月 15 日。",
+        "通知列明 2027 年起研究学位年学费、博士资助及提交方式。"
+      ],
+      "readMethod": "web_reader",
+      "knownIssues": [
+        "公告未写明截止时刻。"
       ]
     },
     {
@@ -365329,5 +365539,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:f9ae5ac4e15d47e63a31f80c89f89cc61ef6512a9a8dd45557609996353f0818"
+  "snapshotId": "sha256:25416573943f06fb12f21e81b59cc9aeda0e53376795927a5ba9629330e0f70e"
 }
