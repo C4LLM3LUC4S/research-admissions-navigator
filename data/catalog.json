@@ -143303,6 +143303,85 @@
       }
     },
     {
+      "id": "polyu-aae-dr-tsz-kin-chan",
+      "universityId": "polyu",
+      "name": "Wesley Tsz-Kin Chan",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-tsz-kin-chan/",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Lecturer",
+      "directoryRole": "讲师 · Lecturer",
+      "topics": [
+        "教育学",
+        "人机交互"
+      ],
+      "researchKeywords": [
+        "机组资源管理",
+        "飞行训练",
+        "航空人因",
+        "Crew resource management",
+        "Flight crew training",
+        "Human factors"
+      ],
+      "summary": "研究飞行训练、机组资源管理及航空人因。",
+      "sourceIds": [
+        "polyu-aae-dr-tsz-kin-chan-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-lecturer-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-dr-tsz-kin-chan-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-dr-tsz-kin-chan-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-dr-zhang-hanxiang-emmanuel",
+      "universityId": "polyu",
+      "name": "Hanxiang (Emmanuel) Zhang",
+      "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-hanxiang-emmanuel/",
+      "department": "Department of Aeronautical and Aviation Engineering",
+      "role": "Lecturer",
+      "directoryRole": "讲师 · Lecturer",
+      "topics": [
+        "经济与管理",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "航空经济",
+        "运营优化",
+        "机器学习",
+        "大语言模型",
+        "Aviation economics",
+        "Operations optimization",
+        "Large language models"
+      ],
+      "summary": "研究航空经济、机器学习及航空运营优化。",
+      "sourceIds": [
+        "polyu-aae-dr-zhang-hanxiang-emmanuel-profile-20261124"
+      ],
+      "directorySourceIds": [
+        "polyu-aae-lecturer-directory-20261124"
+      ],
+      "keywordSourceIds": [
+        "polyu-aae-dr-zhang-hanxiang-emmanuel-profile-20261124"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-aae-dr-zhang-hanxiang-emmanuel-profile-20261124"
+        ]
+      }
+    },
+    {
       "id": "polyu-aae-rap-bai-shiyu",
       "universityId": "polyu",
       "name": "Shiyu Bai",
@@ -279250,6 +279329,294 @@
       "discoveredLinks": []
     },
     {
+      "id": "polyu-aae-advisory-committee-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/advisory-committee/",
+      "title": "港理工航空及民航工程学系 · 咨询委员会",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "d5fe2c0ea470b42cc263758950e442ba84339ea87be9e76b36398f621950b3c4",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/advisory-committee/",
+      "scope": "咨询委员会页面所列角色。",
+      "claims": [
+        "委员会页列过主席及外部委员。该名单用于核对咨询角色。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-departmental-academic-advisor-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/departmental-academic-advisors/",
+      "title": "港理工航空及民航工程学系 · 系级学术顾问",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "379e7cc2a12a869dc94b5e53ec75381ec737cbdf53e8cec1fdf3d215dae601d4",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/departmental-academic-advisors/",
+      "scope": "系级学术顾问页面所列角色。",
+      "claims": [
+        "顾问页列剑桥大学工程系空气动力学教授 Holger Babinsky。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-administrative-staff-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/administrative-staff/",
+      "title": "港理工航空及民航工程学系 · 行政人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "cc22337d3480998f82def8bdbf7d9610da2814e80ee3971c26de064f8a15b4ae",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/administrative-staff/",
+      "scope": "行政人员页面所列角色。",
+      "claims": [
+        "行政页列办公室行政岗位。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-technical-staff-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/technical-staff/",
+      "title": "港理工航空及民航工程学系 · 技术支援人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "5376d0370deee672f87732681e686145979ce224ec7c96484a04b53cb6b4dfe3",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/technical-staff/",
+      "scope": "技术支援人员页面所列角色。",
+      "claims": [
+        "技术页列实验技术及信息技术支援岗位。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-adjunct-directory-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 兼任教授",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "76053899ee45c630783344dd30163e9601fbfb934c422cd2c6e90c355627c9d8",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "scope": "院系 Academic Staff 页所列 Adjunct Professors 分段。",
+      "claims": [
+        "所读分段提供 3 个个人页入口。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-minghua-hu/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-li-zhiqiang/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-hongfu-zuo/"
+      ]
+    },
+    {
+      "id": "polyu-aae-prof-minghua-hu-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-minghua-hu/",
+      "title": "Minghua Hu · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "22868d91bcbf7df3ed3d219a021429f9ca183fc77227a541ea27933fb4e56308",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-minghua-hu/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页仅列南京航空航天大学民航学院教授身份。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-prof-li-zhiqiang-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-li-zhiqiang/",
+      "title": "Zhiqiang Li · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "77010f9eff61e85c3db24cf83fc72719cda19cd6048c16c2cd5fb2d47219a591",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-li-zhiqiang/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页介绍其航空制造技术行业任职。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-prof-hongfu-zuo-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-hongfu-zuo/",
+      "title": "Hongfu Zuo · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "1b01cb04d835b1eaa7f439d84422a0ca92db496b7c55256b30db850a108c1c9b",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-hongfu-zuo/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页仅列南京航空航天大学民航学院教授身份。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-practice-directory-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 实践教授",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "76053899ee45c630783344dd30163e9601fbfb934c422cd2c6e90c355627c9d8",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "scope": "院系 Academic Staff 页所列 Professors of Practice 分段。",
+      "claims": [
+        "所读分段提供 1 个个人页入口。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheong-shi-au/"
+      ]
+    },
+    {
+      "id": "polyu-aae-ir-cheong-shi-au-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheong-shi-au/",
+      "title": "Jun Au · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "147bc9231af3ad9ba94f3edb7b8ad3486e68fe75724fda2c0dd91e1f67f9ff09",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheong-shi-au/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系列实践教授，个人页介绍航空维修与质量管理经历。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-lecturer-directory-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 讲师",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "76053899ee45c630783344dd30163e9601fbfb934c422cd2c6e90c355627c9d8",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "scope": "院系 Academic Staff 页所列 Lecturers 分段。",
+      "claims": [
+        "所读分段提供 2 个个人页入口。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-tsz-kin-chan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-hanxiang-emmanuel/"
+      ]
+    },
+    {
+      "id": "polyu-aae-dr-tsz-kin-chan-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-tsz-kin-chan/",
+      "title": "Wesley Tsz-Kin Chan · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "df29e69267210b2f9f65ccf04922ff245fc7927184cdb63b80d7554202cd9182",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-tsz-kin-chan/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "个人页研究领域包括机组资源管理、飞行训练及航空人因。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-dr-zhang-hanxiang-emmanuel-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-hanxiang-emmanuel/",
+      "title": "Hanxiang (Emmanuel) Zhang · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "559f76586b967cd49140bc921c11240bba88f3aa1ffe4530c4923535595f2258",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-hanxiang-emmanuel/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "个人页研究领域包括航空经济、机器学习和运营优化。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-training-directory-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 飞行及维修训练人员",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "76053899ee45c630783344dd30163e9601fbfb934c422cd2c6e90c355627c9d8",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "scope": "院系 Academic Staff 页所列 Flight Training and HKAR-147 Instructors 分段。",
+      "claims": [
+        "所读分段提供 4 个个人页入口。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheung-wc/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/capt-entwisle-chris/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/mr-whitehead-keith/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-kam-tong-yuen/"
+      ]
+    },
+    {
+      "id": "polyu-aae-ir-cheung-wc-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheung-wc/",
+      "title": "Wan-Chuen Cheung · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "dece3173075de140d5a92c0aa936e9124491303f07da301451f8eac1d7c7a8c5",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheung-wc/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页列 HKAR-147 训练经理兼首席训练教员。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-capt-entwisle-chris-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/capt-entwisle-chris/",
+      "title": "Chris Entwisle · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "56d48d58cf0e1796deacb3844def45526ccbb68d9c5d7e787cc8a5ddd2d27b16",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/capt-entwisle-chris/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页列飞行训练机构训练负责人。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-mr-whitehead-keith-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/mr-whitehead-keith/",
+      "title": "Keith Whitehead · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "14e80961df6495e7ee58b692b79cb7e39e4b4f38fd3f943ead8fcb8f15a4ce5e",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/mr-whitehead-keith/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页列训练教员。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-ir-kam-tong-yuen-profile-20261124",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-kam-tong-yuen/",
+      "title": "Kam Tong (Jason) Yuen · 港理工航空及民航工程学系",
+      "checkedAt": "2026-11-24",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "anonymous_HTTP",
+      "bodySha256": "ed7ac75db39bf354c07c8dada8b267e4f86a1d848439e6e32c2ecfcfcbf84e0a",
+      "retrievedUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-kam-tong-yuen/",
+      "scope": "院系提供的个人页现有正文。",
+      "claims": [
+        "院系个人页列训练教员。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "polyu-aae-rap-directory-20261124",
       "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
       "title": "港理工航空及民航工程学系 · 研究助理教授",
@@ -311112,6 +311479,196 @@
             "reviewStatus": "body_read",
             "facultyId": "polyu-aae-zhong-siyang",
             "sourceId": "polyu-aae-zhong-siyang-profile-20261124"
+          }
+        ]
+      },
+      "reviewSourceIds": [
+        "polyu-aae-advisory-committee-20261124",
+        "polyu-aae-departmental-academic-advisor-20261124",
+        "polyu-aae-administrative-staff-20261124",
+        "polyu-aae-technical-staff-20261124"
+      ]
+    },
+    {
+      "id": "polyu-aae-adjunct-directory",
+      "universityId": "polyu",
+      "unit": "Department of Aeronautical and Aviation Engineering / Adjunct Professors",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 兼任教授",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-minghua-hu/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-li-zhiqiang/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/prof-hongfu-zuo/"
+      ],
+      "sourceIds": [
+        "polyu-aae-adjunct-directory-20261124"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这里是院系官网所列兼任教授。指导资格和招募请按研究学位项目核对。",
+      "census": {
+        "observedTotal": 3,
+        "profilesRead": 3,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Minghua Hu",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-minghua-hu/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-prof-minghua-hu-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          },
+          {
+            "name": "Zhiqiang Li",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-li-zhiqiang/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-prof-li-zhiqiang-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          },
+          {
+            "name": "Hongfu Zuo",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-hongfu-zuo/",
+            "directoryPosition": "Adjunct Professor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-prof-hongfu-zuo-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-practice-directory",
+      "universityId": "polyu",
+      "unit": "Department of Aeronautical and Aviation Engineering / Professors of Practice",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 实践教授",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheong-shi-au/"
+      ],
+      "sourceIds": [
+        "polyu-aae-practice-directory-20261124"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这里是院系官网所列实践教授。指导资格和招募请按研究学位项目核对。",
+      "census": {
+        "observedTotal": 1,
+        "profilesRead": 1,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Jun Au",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheong-shi-au/",
+            "directoryPosition": "Professor of Practice",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-ir-cheong-shi-au-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-lecturer-directory",
+      "universityId": "polyu",
+      "unit": "Department of Aeronautical and Aviation Engineering / Lecturers",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 讲师",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-tsz-kin-chan/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-hanxiang-emmanuel/"
+      ],
+      "sourceIds": [
+        "polyu-aae-lecturer-directory-20261124"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这里是院系官网所列讲师。指导资格和招募请按研究学位项目核对。",
+      "census": {
+        "observedTotal": 2,
+        "profilesRead": 2,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Wesley Tsz-Kin Chan",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-tsz-kin-chan/",
+            "directoryPosition": "Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-dr-tsz-kin-chan-profile-20261124",
+            "facultyId": "polyu-aae-dr-tsz-kin-chan"
+          },
+          {
+            "name": "Hanxiang (Emmanuel) Zhang",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-zhang-hanxiang-emmanuel/",
+            "directoryPosition": "Lecturer",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-dr-zhang-hanxiang-emmanuel-profile-20261124",
+            "facultyId": "polyu-aae-dr-zhang-hanxiang-emmanuel"
+          }
+        ]
+      }
+    },
+    {
+      "id": "polyu-aae-training-directory",
+      "universityId": "polyu",
+      "unit": "Department of Aeronautical and Aviation Engineering / Flight Training and HKAR-147 Instructors",
+      "url": "https://www.polyu.edu.hk/aae/people/academic-staff/",
+      "title": "港理工航空及民航工程学系 · 飞行及维修训练人员",
+      "profileLinksObserved": [
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheung-wc/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/capt-entwisle-chris/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/mr-whitehead-keith/",
+        "https://www.polyu.edu.hk/aae/people/academic-staff/ir-kam-tong-yuen/"
+      ],
+      "sourceIds": [
+        "polyu-aae-training-directory-20261124"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "这里是院系官网所列飞行及维修训练人员。指导资格和招募请按研究学位项目核对。",
+      "census": {
+        "observedTotal": 4,
+        "profilesRead": 4,
+        "profilesFailed": 0,
+        "entries": [
+          {
+            "name": "Wan-Chuen Cheung",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-cheung-wc/",
+            "directoryPosition": "Training Manager; Chief Training Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-ir-cheung-wc-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          },
+          {
+            "name": "Chris Entwisle",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/capt-entwisle-chris/",
+            "directoryPosition": "Head of Training, Flight Training Organisation",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-capt-entwisle-chris-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          },
+          {
+            "name": "Keith Whitehead",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/mr-whitehead-keith/",
+            "directoryPosition": "Training Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-mr-whitehead-keith-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
+          },
+          {
+            "name": "Kam Tong (Jason) Yuen",
+            "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/ir-kam-tong-yuen/",
+            "directoryPosition": "Training Instructor",
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "sourceId": "polyu-aae-ir-kam-tong-yuen-profile-20261124",
+            "reviewNote": "已核读任职与经历。"
           }
         ]
       }
@@ -362273,5 +362830,5 @@
       "nextEntries": []
     }
   ],
-  "snapshotId": "sha256:acace5a9ecb06966c976089c9919f011e4373a0526437dd0381e535b2850b0de"
+  "snapshotId": "sha256:60ca9ed3f4f6fe02298cb9fad9d78661c12b78988516e3f4a15b2d93d368b064"
 }

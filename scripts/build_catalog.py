@@ -2352,6 +2352,12 @@ def build_catalog():
     wenhua_chen["directorySourceIds"] = list(dict.fromkeys(wenhua_chen.get("directorySourceIds", []) + aae_academic["directory"]["sourceIds"]))
     wenhua_chen["sourceIds"] = list(dict.fromkeys(wenhua_chen["sourceIds"] + aae_academic["directory"]["sourceIds"]))
 
+    aae_other_roles = load("polyu-aae-other-roles-20261124.json")
+    catalog["sources"].extend(aae_other_roles["sources"])
+    catalog["faculty"].extend(aae_other_roles["faculty"])
+    catalog["directories"].extend(aae_other_roles["directories"])
+    aae_academic["directory"]["reviewSourceIds"] = aae_other_roles["supportSourceIds"]
+
     aae_rap = load("polyu-aae-research-assistants-20261124.json")
     catalog["sources"].extend(aae_rap["sources"])
     catalog["faculty"].extend(aae_rap["faculty"])
