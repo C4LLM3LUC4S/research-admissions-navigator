@@ -2942,6 +2942,21 @@
         "流处理"
       ],
       "identityNote": "信息工程名录另列任职类别：Faculty (by Courtesy)。"
+    },
+    {
+      "id": "wide-cuhk-john-chi-shing-lui",
+      "sourceIds": [
+        "cuhk-ie-john-lui-research-20261125",
+        "cuhk-ie-roster-20261111"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-john-lui-research-20261125"
+      ],
+      "researchKeywords": [],
+      "identityNote": "信息工程学系名录另列礼聘。主聘为计算机科学与工程学系。"
     }
   ],
   "directory": {

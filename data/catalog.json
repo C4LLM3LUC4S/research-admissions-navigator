@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-24",
+  "checkedDate": "2026-11-25",
   "cycle": "2027/28",
   "universities": [
     {
@@ -15549,7 +15549,9 @@
         "wide-cuhk-john-chi-shing-lui-profile",
         "cuhk-cse-directory-20261027",
         "cuhk-cse-profile-042-20261027",
-        "cuhk-cse-linked-042-0-20261027"
+        "cuhk-cse-linked-042-0-20261027",
+        "cuhk-ie-john-lui-research-20261125",
+        "cuhk-ie-roster-20261111"
       ],
       "availability": {
         "state": "unknown",
@@ -15561,17 +15563,19 @@
       },
       "directorySourceIds": [
         "wide-dir-cuhk-cse",
-        "cuhk-cse-directory-20261027"
+        "cuhk-cse-directory-20261027",
+        "cuhk-ie-roster-20261111"
       ],
       "keywordSourceIds": [
         "wide-cuhk-john-chi-shing-lui-profile",
-        "cuhk-cse-profile-042-20261027"
+        "cuhk-cse-profile-042-20261027",
+        "cuhk-ie-john-lui-research-20261125"
       ],
       "academicUnitIds": [
         "cuhk-4"
       ],
       "directoryRole": "Choh-Ming Li Professor of Computer Science and Engineering",
-      "identityNote": "这是官网名录中的身份；是否能指导所选学位、目前是否接收，还要核对实际院系与项目。",
+      "identityNote": "这是官网名录中的身份；是否能指导所选学位、目前是否接收，还要核对实际院系与项目。 信息工程学系名录另列礼聘。主聘为计算机科学与工程学系。",
       "extraLinks": [
         {
           "url": "https://www.cse.cuhk.edu.hk/~cslui",
@@ -139532,6 +139536,72 @@
         "text": "指导资格、当前招募与名额待核",
         "sourceIds": [
           "cuhk-ie-yue-on-ching-profile-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston",
+      "universityId": "cuhk",
+      "name": "Dah Ming Chiu / 邱達民",
+      "department": "Department of Information Engineering",
+      "role": "Emeritus Professor",
+      "directoryRole": "Emeritus Professors",
+      "topics": [
+        "网络与系统",
+        "数据挖掘"
+      ],
+      "researchKeywords": [
+        "应用数据分析",
+        "互联网内容分发",
+        "网络经济学",
+        "学术社交网络",
+        "applied data analysis",
+        "Internet content distribution",
+        "network economics",
+        "academic social networks"
+      ],
+      "summary": "本人简介列应用数据分析、互联网内容分发和网络经济学，相关成果包括学术社交网络研究。",
+      "profileUrl": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
+      "identityNote": "信息工程学系荣休教授。",
+      "sourceIds": [
+        "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-chiu-erg-directory-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-publications-20261125"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/short_bio.txt",
+          "label": "本人研究简介",
+          "sourceId": "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+          "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+          "bodyStatus": "body_read",
+          "readNote": "已核读原主页给出的入口。"
+        },
+        {
+          "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/publications.html",
+          "label": "成果列表",
+          "sourceId": "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+          "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+          "bodyStatus": "body_read",
+          "readNote": "已核读原主页给出的入口。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhk-ie-roster-20261111",
+          "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
         ]
       }
     },
@@ -277704,6 +277774,77 @@
       "knownIssues": []
     },
     {
+      "id": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+      "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
+      "title": "港中文 · Dah Ming Chiu 个人主页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学校托管个人主页、荣休身份及所给入口。",
+      "claims": [
+        "主页列香港中文大学信息工程学系荣休教授。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://staff.ie.cuhk.edu.hk/~dmchiu/short_bio.txt",
+        "https://staff.ie.cuhk.edu.hk/~dmchiu/publications.html"
+      ]
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+      "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/short_bio.txt",
+      "title": "Dah Ming Chiu · 研究简介",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "本人简介所列研究方向。",
+      "claims": [
+        "本人简介列应用数据分析、互联网内容分发及网络经济学。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
+    },
+    {
+      "id": "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+      "url": "https://staff.ie.cuhk.edu.hk/~dmchiu/publications.html",
+      "title": "Dah Ming Chiu · 成果列表",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "所链接的成果入口。",
+      "claims": [
+        "成果列表含社交计算、引文网络和应用数据分析。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
+    },
+    {
+      "id": "cuhk-ie-john-lui-research-20261125",
+      "url": "https://www.cse.cuhk.edu.hk/~cslui/",
+      "title": "港中文 · John C. S. Lui 个人主页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学校托管个人主页和主聘身份。",
+      "claims": [
+        "主页列计算机科学与工程学系讲座教授，列在线学习、量子互联网和网络科学等研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-chiu-erg-directory-20261125",
+      "url": "https://www7.erg.cuhk.edu.hk/erg/FacultyMembers/ByName",
+      "title": "港中文工程学院 · 邱達民中英文姓名",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "按姓名排列的学院名录中该人员行。",
+      "claims": [
+        "学院名录列中文姓名邱達民，并链接到信息工程学系的荣休教授条目。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cuhksz-sse-http-zhu-home-20261115",
       "title": "朱军 · ZHU, Jun · 官网所给课题组网站",
       "url": "http://junzhu.chem8.org/",
@@ -313426,14 +313567,19 @@
         "cuhk-ie-omar-wing-profile-20261124",
         "cuhk-ie-sir-charles-k-kao-profile-20261124",
         "cuhk-ie-tang-xiaoou-sean-2-profile-20261124",
-        "cuhk-ie-victor-k-w-wei-profile-20261124"
+        "cuhk-ie-victor-k-w-wei-profile-20261124",
+        "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-bio-20261125",
+        "cuhk-ie-chiu-dah-ming-winston-publications-20261125",
+        "cuhk-ie-john-lui-research-20261125",
+        "cuhk-ie-chiu-erg-directory-20261125"
       ],
       "coverageComplete": false,
       "coverageNotes": "院系所列常规、关联、兼任、荣休及纪念条目均按原身份保留。个人页和落地研究网站的核对结果分别记录。",
       "census": {
         "observedTotal": 54,
-        "profilesRead": 48,
-        "profilesFailed": 6,
+        "profilesRead": 50,
+        "profilesFailed": 4,
         "entries": [
           {
             "name": "CHAN Chun Kit, Calvin",
@@ -313719,10 +313865,12 @@
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chiu-dah-ming-winston/",
             "directoryPosition": "Emeritus Professors",
             "category": "Emeritus Professors",
-            "profileRead": false,
-            "reviewStatus": "access_failed",
-            "reviewNote": "院系链接跳转至旧 HTTP 个人站。本次未核读个人正文。",
-            "retrievedProfileUrl": "http://staff.ie.cuhk.edu.hk/~dmchiu/"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "信息工程系荣休教授。个人主页、简介和成果列表已核。",
+            "retrievedProfileUrl": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
+            "sourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
+            "facultyId": "cuhk-ie-chiu-dah-ming-winston"
           },
           {
             "name": "LEE Tong, Tony",
@@ -313776,10 +313924,12 @@
             "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lui-chi-shing-john/",
             "directoryPosition": "Faculty (by Courtesy)",
             "category": "Faculty (by Courtesy)",
-            "profileRead": false,
-            "reviewStatus": "access_failed",
-            "reviewNote": "院系链接转至计算机科学与工程系 HTTP 个人站。本次未核读该落地正文。",
-            "retrievedProfileUrl": "http://www.cse.cuhk.edu.hk/~cslui/"
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "信息工程系礼聘；个人主页列计算机科学与工程系主聘。沿用原档案。",
+            "retrievedProfileUrl": "https://www.cse.cuhk.edu.hk/~cslui/",
+            "sourceId": "cuhk-ie-john-lui-research-20261125",
+            "facultyId": "wide-cuhk-john-chi-shing-lui"
           },
           {
             "name": "CHAN Yuen Yan, Rosanna",
@@ -313940,7 +314090,7 @@
           }
         ],
         "pendingReasonCounts": {
-          "access_failed": 6
+          "access_failed": 4
         }
       }
     },
@@ -366013,5 +366163,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:d2274d8e98db41ca6198bad9b3fa4c84f6fe1c65f63cee62a30ff966d6b31e74"
+  "snapshotId": "sha256:8898121c0b0d47860bd6d506e434e2f7a0604746a5d259c96c41c39606c664a5"
 }
