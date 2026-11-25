@@ -1120,17 +1120,34 @@ def build_catalog():
             coverageComplete=False, sourceIds=[sid], coverageNotes="从学域官网按任职类别浏览个人入口。"))
 
     dsa_phd = ["gz-dsa-phd"]
+    inf_hub_2027 = "hkustgz-inf-hub-cma-brochure-2027-20261122"
+    gz_dsa_flyer = "hkustgz-dsa-thrust-brochure-20261125"
+    gz_materials = "hkustgz-bsbe-materials-20261111"
+    catalog["sources"].append({
+        "id": gz_dsa_flyer,
+        "url": "https://dsa.hkust-gz.edu.cn/wp-content/uploads/2026/09/DSA-Brochure-202606.pdf",
+        "title": "港科广数据科学与分析学域 · 学域宣传册",
+        "checkedAt": "2026-11-25",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "数据科学与分析博士的培养及英语要求段落，无明确适用招生年。",
+        "claims": ["学域宣传册将 TOEFL iBT 新旧计分的分界标为 2026 年 1 月 27 日。"],
+        "knownIssues": ["与 2027/28 信息枢纽简章及研究生院资格页的 2026 年 1 月 21 日不同。"],
+    })
     dsa = program("hkustgz-dsa-phd-2027", "hkustgz", "数据科学与分析博士", ["PhD"],
         "港科大（广州）2027/28 秋季。全日制四年，非全日制六年。",
         "unknown", "可从学域师资页了解研究方向，并按学域最新申请指引准备。", dsa_phd,
         "按研究生院流程在申请系统递交，申请滚动审理。", ["gz-timeline"],
         [deadline("国际申请者校级截止", "2027-06-15", ["gz-timeline"], clock="23:59", degree="PhD"),
          deadline("中国申请者校级截止", "2027-07-15", ["gz-timeline"], clock="23:59", degree="PhD")],
-        dsa_phd + ["gz-timeline"], "学历及英语要求来自学域博士手册。截止日期来自研究生院校级时间表。")
+        dsa_phd + ["gz-timeline", inf_hub_2027, gz_dsa_flyer, "gz-central-requirements", gz_materials],
+        "学历及英语要求见研究生院和信息枢纽当期简章。截止日期来自研究生院校级时间表。")
     dsa.update(entryUrl="https://dsa.hkust-gz.edu.cn/programs/research-postgraduate-program/phd-in-data-science-and-analytics/",
         requirements=[
             {"label": "学历要求", "text": "须具有获认可院校颁授的学士学位且成绩优异，或具有至少一年全日制或两年非全日制的研究生学习经历，并能证明表现合格。", "sourceIds": dsa_phd},
-            {"label": "英语要求", "text": "学术类雅思总分至少 6.5，单项至少 5.5。托福网考按考试日期分档，2026 年 1 月 21 日前至少 80 分，当日起至少 4.5 分。其他成绩选项见博士手册。", "sourceIds": dsa_phd},
+            {"label": "英语要求", "text": "学术类雅思总分至少 6.5，单项至少 5.5。研究生院按考试日期分档，托福网考 2026 年 1 月 21 日前至少 80 分，当日起至少 4.5 分。", "sourceIds": [inf_hub_2027, "gz-central-requirements"]},
+            {"label": "托福计分日期有出入", "text": "学域宣传册写 1 月 27 日，2027/28 信息枢纽简章和研究生院均写 1 月 21 日。若在 1 月 21 至 27 日之间考试，提交前请向项目确认。", "sourceIds": [inf_hub_2027, "gz-central-requirements", gz_dsa_flyer]},
+            {"label": "研究计划和推荐人", "text": "网上提交拟研究题目、计划和以往研究经历，并提名 2 至 5 位推荐人。研究生院会发邮件请推荐人在线填写报告。", "sourceIds": [gz_materials]},
         ])
     catalog["programs"].append(dsa)
     rbm = next(row for row in catalog["programs"] if row["id"] == "hkust-gz-rbm")
@@ -1142,10 +1159,10 @@ def build_catalog():
         "scope": "2024/25 培养目录，含 MPhil (DSA) 和博士。",
         "claims": ["学域 MPhil 页的项目概览链接仍指向这份 2024/25 培养目录。"],
         "knownIssues": ["适用学年为 2024/25。当期独立招生入口待核。"]})
-    dsa_mphil_refs = ["gz-dsa-mphil", "gz-redbird", dsa_archive]
+    dsa_mphil_refs = [inf_hub_2027, "gz-redbird", "gz-dsa-mphil", dsa_archive]
     rbm["sourceIds"].extend(["gz-dsa-mphil", dsa_archive])
     rbm.setdefault("requirements", []).append({"label": "对数据科学与分析感兴趣",
-        "text": "2027/28 可从红鸟硕士申请。网申选 MPhil (General)，入学后再按红鸟安排探索研究方向并确定学域。学域官网还有一份 2024/25 的 MPhil (DSA) 培养目录，当期独立申请入口待核。",
+        "text": "2027/28 网申选红鸟硕士 MPhil (General)。入学后按红鸟安排探索研究方向，在秋季学期结束前申报数据科学与分析学域。学域页另链接 2024/25 的培养目录。",
         "action": "从红鸟硕士当期招生页核对申请条件与截止日期。",
         "sourceIds": dsa_mphil_refs})
     dsa_faculty = load("hkustgz-dsa-20261110.json")
