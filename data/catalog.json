@@ -96734,7 +96734,8 @@
       },
       "sourceIds": [
         "cuhksz-sse-staff-20261107-page-01",
-        "cuhksz-sse-continuation-jianwei-huang"
+        "cuhksz-sse-continuation-jianwei-huang",
+        "cuhk-ie-jianwei-huang-appointments-20261125"
       ],
       "keywordSourceIds": [
         "cuhksz-sse-continuation-jianwei-huang"
@@ -96747,7 +96748,8 @@
       ],
       "researchKeywords": [
         "网络智能"
-      ]
+      ],
+      "identityNote": "深圳理工学院主聘。本人主页另列 2020 年起兼任香港校本部信息工程系教授。"
     },
     {
       "id": "cuhksz-sse-conniechang",
@@ -277964,6 +277966,21 @@
       ]
     },
     {
+      "id": "cuhk-ie-jianwei-huang-appointments-20261125",
+      "url": "https://jianwei.cuhk.edu.cn/",
+      "title": "黄建伟 · 港中深与港中文任职",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学校托管的本人主页。深圳理工学院主聘与香港信息工程系兼任。",
+      "claims": [
+        "本人主页列港中深理工学院校长讲座教授及港中文香港信息工程系 2020 年起兼任。"
+      ],
+      "knownIssues": [
+        "香港目录个人页正文待核，两地项目指导资格与接收安排需分别确认。"
+      ]
+    },
+    {
       "id": "cuhksz-sse-http-zhu-home-20261115",
       "title": "朱军 · ZHU, Jun · 官网所给课题组网站",
       "url": "http://junzhu.chem8.org/",
@@ -313693,7 +313710,8 @@
         "cuhk-ie-john-lui-research-20261125",
         "cuhk-ie-chiu-erg-directory-20261125",
         "cuhk-ie-adjunct-peter-chong-official-20261125",
-        "cuhk-ie-adjunct-chen-change-loy-official-20261125"
+        "cuhk-ie-adjunct-chen-change-loy-official-20261125",
+        "cuhk-ie-jianwei-huang-appointments-20261125"
       ],
       "coverageComplete": false,
       "coverageNotes": "院系所列常规、关联、兼任、荣休及纪念条目均按原身份保留。个人页和落地研究网站的核对结果分别记录。",
@@ -313991,7 +314009,8 @@
             "reviewNote": "信息工程系荣休教授。个人主页、简介和成果列表已核。",
             "retrievedProfileUrl": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
             "sourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
-            "facultyId": "cuhk-ie-chiu-dah-ming-winston"
+            "facultyId": "cuhk-ie-chiu-dah-ming-winston",
+            "linkedSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
           },
           {
             "name": "LEE Tong, Tony",
@@ -314050,7 +314069,8 @@
             "reviewNote": "信息工程系礼聘；个人主页列计算机科学与工程系主聘。沿用原档案。",
             "retrievedProfileUrl": "https://www.cse.cuhk.edu.hk/~cslui/",
             "sourceId": "cuhk-ie-john-lui-research-20261125",
-            "facultyId": "wide-cuhk-john-chi-shing-lui"
+            "facultyId": "wide-cuhk-john-chi-shing-lui",
+            "linkedSourceId": "cuhk-ie-john-lui-research-20261125"
           },
           {
             "name": "CHAN Yuen Yan, Rosanna",
@@ -314116,7 +314136,9 @@
             "category": "Adjunct Professors",
             "profileRead": false,
             "reviewStatus": "access_failed",
-            "reviewNote": "个人研究资料待核"
+            "reviewNote": "港中深理工学院校长讲座教授，兼任港中文香港信息工程系教授。香港个人页正文待核。",
+            "linkedSourceId": "cuhk-ie-jianwei-huang-appointments-20261125",
+            "facultyId": "cuhksz-sse-jianwei-huang"
           },
           {
             "name": "LO Wai Shun",
@@ -366287,5 +366309,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:05cbfdf184223d051bdd2b90de40b168bf3bfeaa6b9191ff4066d075ed5361ea"
+  "snapshotId": "sha256:b91aeb3cd3cec25a9abdf9414e4837431de4f435edd89413fddc66dd9d08df8c"
 }
