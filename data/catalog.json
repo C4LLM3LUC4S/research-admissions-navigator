@@ -143691,7 +143691,8 @@
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-liu-wei/",
       "sourceIds": [
         "polyu-aae-liu-wei-profile-20261124",
-        "polyu-aae-liu-wei-linked-1-20261124"
+        "polyu-aae-liu-wei-linked-1-20261124",
+        "polyu-aae-wei-lab-research-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
@@ -143741,7 +143742,8 @@
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-hao-jiaao/",
       "sourceIds": [
         "polyu-aae-hao-jiaao-profile-20261124",
-        "polyu-aae-hao-lab-home-20261124"
+        "polyu-aae-hao-lab-home-20261124",
+        "polyu-aae-hao-scholars-hub-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
@@ -144142,7 +144144,9 @@
       "summary": "研究方向包括移动机器人导航与控制、多智能体系统及仿真。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-huang-hailong/",
       "sourceIds": [
-        "polyu-aae-huang-hailong-profile-20261124"
+        "polyu-aae-huang-hailong-profile-20261124",
+        "polyu-aae-huang-profile-research-link-20261125",
+        "polyu-aae-huang-aims-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
@@ -144157,7 +144161,18 @@
         "sourceIds": [
           "polyu-aae-huang-hailong-profile-20261124"
         ]
-      }
+      },
+      "reviewedProfileUrl": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-huang-hailong/",
+      "extraLinks": [
+        {
+          "url": "https://sites.google.com/view/hailong-huang/home",
+          "label": "AIMS 研究组",
+          "parentSourceId": "polyu-aae-huang-profile-research-link-20261125",
+          "bodyStatus": "body_read",
+          "readNote": "组主页说明研究自主与交互移动系统。",
+          "sourceId": "polyu-aae-huang-aims-20261125"
+        }
+      ]
     },
     {
       "id": "polyu-aae-li-ang",
@@ -281842,7 +281857,10 @@
       "claims": [
         "主页确认航空及民航工程学系任职，介绍大型交通系统建模、优化和交通经济。"
       ],
-      "knownIssues": []
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://weiliu2016.github.io/research/"
+      ]
     },
     {
       "id": "polyu-aae-hao-jiaao-profile-20261124",
@@ -282317,6 +282335,63 @@
         "所读首页的范围为任职与经历。"
       ],
       "parentSourceId": "polyu-aae-hao-jiaao-profile-20261124"
+    },
+    {
+      "id": "polyu-aae-wei-lab-research-20261125",
+      "url": "https://weiliu2016.github.io/research/",
+      "title": "Wei Liu · 多式联运研究组的项目",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "从已核研究组主页进入的 Research 项目页。",
+      "claims": [
+        "研究组列出低空物流、区域空中交通网络和高铁运力调配等有明确起讫时间的项目。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "polyu-aae-liu-wei-linked-1-20261124"
+    },
+    {
+      "id": "polyu-aae-hao-scholars-hub-20261125",
+      "url": "https://research.polyu.edu.hk/en/persons/jiaao-hao/",
+      "title": "Jiaao Hao · 港理工学者库",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港理工学者库个人页的院系任职和研究成果。",
+      "claims": [
+        "学者库列为航空及民航工程学系副教授，近年成果包括空气动力学与边界层流动。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-huang-profile-research-link-20261125",
+      "url": "https://www.polyu.edu.hk/en/aae/people/academic-staff/dr-huang-hailong/",
+      "title": "Hailong Huang · 港理工院系任职和研究组",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "院系英文个人正文的任职与所给 AIMS 入口。",
+      "claims": [
+        "院系列助理教授、低空经济研究中心副主任，并链接 AIMS 研究组。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://sites.google.com/view/hailong-huang/home"
+      ]
+    },
+    {
+      "id": "polyu-aae-huang-aims-20261125",
+      "url": "https://sites.google.com/view/hailong-huang/home",
+      "title": "Hailong Huang · AIMS 研究组",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "从院系个人页进入的 AIMS 研究组首页。",
+      "claims": [
+        "首页介绍自主与交互移动系统及其使用体验和生产效率方向。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "polyu-aae-huang-profile-research-link-20261125"
     },
     {
       "id": "polyu-aae-advisory-committee-20261124",
@@ -367574,5 +367649,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:ceccf94abb9d6656d655aa872ac4bbd43136d584761a36b99cd0c107cba312d5"
+  "snapshotId": "sha256:45245feb05f288eea6fd35594baa04919f80ae152adcf4f5ce5edc1cf147fbaf"
 }
