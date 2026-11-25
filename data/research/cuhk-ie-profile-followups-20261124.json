@@ -222,6 +222,36 @@
         "学院名录列中文姓名邱達民，并链接到信息工程学系的荣休教授条目。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "cuhk-ie-adjunct-peter-chong-official-20261125",
+      "url": "https://academics.aut.ac.nz/peter.chong/about",
+      "title": "奥克兰理工大学 · Peter Han Joo Chong",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "AUT 学术资料列其主聘与港中文信息工程兼任。",
+      "claims": [
+        "研究无线通信、车载网络和无线资源管理，也关注强化学习在车载网络中的应用。"
+      ],
+      "knownIssues": [
+        "AUT 官方档案列港中文信息工程兼任任期为 2017 年 9 月至 2027 年 8 月。该页的指导意向属于 AUT。"
+      ]
+    },
+    {
+      "id": "cuhk-ie-adjunct-chen-change-loy-official-20261125",
+      "url": "https://www.ntu.edu.sg/computing/research-groups/institutes-centres/grail/our-people",
+      "title": "南洋理工大学 GrAIL · Chen Change Loy",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "NTU 实验室人员页中的主聘与研究范围。",
+      "claims": [
+        "研究计算机视觉与深度学习，方向包括图像和视频复原、生成与表征学习。"
+      ],
+      "knownIssues": [
+        "院系兼任身份来自港中文目录。该页只说明新加坡南洋理工大学任职和研究。"
+      ]
     }
   ],
   "faculty": [
@@ -406,6 +436,95 @@
           "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
         ]
       }
+    },
+    {
+      "id": "cuhk-ie-adjunct-peter-chong",
+      "universityId": "cuhk",
+      "name": "Peter Han Joo Chong",
+      "department": "Department of Information Engineering",
+      "role": "Adjunct Professor",
+      "directoryRole": "Adjunct Professors",
+      "topics": [
+        "网络与系统",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "无线通信",
+        "车载网络",
+        "无线资源管理",
+        "强化学习",
+        "wireless communications",
+        "vehicular networks",
+        "radio resource management",
+        "reinforcement learning"
+      ],
+      "summary": "研究无线通信、车载网络和无线资源管理，也关注强化学习在车载网络中的应用。",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chong-han-joo-peter/",
+      "identityNote": "港中文信息工程名录列兼任。本人在奥克兰理工大学任教授，校方资料同时列出港中文兼任及任期。",
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-adjunct-peter-chong-official-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-adjunct-peter-chong-official-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "港中文当前指导资格、招募及名额待核",
+        "sourceIds": [
+          "cuhk-ie-roster-20261111"
+        ]
+      }
+    },
+    {
+      "id": "cuhk-ie-adjunct-chen-change-loy",
+      "universityId": "cuhk",
+      "name": "Chen Change Loy",
+      "department": "Department of Information Engineering",
+      "role": "Adjunct Professor",
+      "directoryRole": "Adjunct Professors",
+      "topics": [
+        "计算机视觉",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "计算机视觉",
+        "深度学习",
+        "图像复原",
+        "视频复原",
+        "表征学习",
+        "computer vision",
+        "deep learning",
+        "image restoration",
+        "video restoration",
+        "representation learning"
+      ],
+      "summary": "研究计算机视觉与深度学习，方向包括图像和视频复原、生成与表征学习。",
+      "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/loy-chen-change-cavan/",
+      "identityNote": "港中文信息工程名录列兼任。现任南洋理工大学讲座教授；过去在港中文校内研究岗位与当前兼任分别记录。",
+      "sourceIds": [
+        "cuhk-ie-roster-20261111",
+        "cuhk-ie-adjunct-chen-change-loy-official-20261125",
+        "cuhk-ie-cavan-ntu-linked-20261124"
+      ],
+      "directorySourceIds": [
+        "cuhk-ie-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "cuhk-ie-adjunct-chen-change-loy-official-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "港中文当前指导资格、招募及名额待核",
+        "sourceIds": [
+          "cuhk-ie-roster-20261111"
+        ]
+      }
     }
   ],
   "updates": [
@@ -439,8 +558,10 @@
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chong-han-joo-peter/",
       "reviewStatus": "access_failed",
       "profileRead": false,
-      "reviewNote": "个人链接转回全系名录。兼任身份取自现有名录。",
-      "retrievedProfileUrl": "https://www.ie.cuhk.edu.hk/faculty/"
+      "reviewNote": "港中文信息工程名录列兼任。本人在奥克兰理工大学任教授，校方资料同时列出港中文兼任及任期。 原个人链接转回全系名录，个人页正文待核。",
+      "retrievedProfileUrl": "https://www.ie.cuhk.edu.hk/faculty/",
+      "facultyId": "cuhk-ie-adjunct-peter-chong",
+      "linkedSourceId": "cuhk-ie-adjunct-peter-chong-official-20261125"
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/lo-wai-shun/",
@@ -454,9 +575,10 @@
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/loy-chen-change-cavan/",
       "reviewStatus": "access_failed",
       "profileRead": false,
-      "reviewNote": "个人链接转至新加坡南洋理工大学研究主页。港中文兼任身份取自原名录。",
+      "reviewNote": "港中文信息工程名录列兼任。现任南洋理工大学讲座教授；过去在港中文校内研究岗位与当前兼任分别记录。 原个人链接转至新加坡南洋理工大学研究主页。",
       "retrievedProfileUrl": "https://www.mmlab-ntu.com/person/ccloy/",
-      "linkedSourceId": "cuhk-ie-cavan-ntu-linked-20261124"
+      "linkedSourceId": "cuhk-ie-adjunct-chen-change-loy-official-20261125",
+      "facultyId": "cuhk-ie-adjunct-chen-change-loy"
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/tong-fuk-kay-frank/",

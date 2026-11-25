@@ -18,6 +18,8 @@ test('HKPFS never applies to MPhil or either mainland campus even if input membe
 test('official HTTPS links reject lookalikes, credentials and executable URLs',()=>{assert.ok(L.officialUrl('https://cse.hkust.edu.hk/faculty/'));assert.ok(L.officialUrl('https://cerg1.ugc.edu.hk/hkpfs/institutions.html'));for(const url of ['javascript:alert(1)','https://hkust.edu.hk.evil.test','http://hku.hk','https://evil.test@hku.hk','https://hku.hk:8000','https://ugc.edu.hk.evil.test'])assert.equal(L.officialUrl(url),null);});
 test('actual sources retain the official or explicitly linked teacher-page policy and dated evidence',()=>{const actual=JSON.parse(fs.readFileSync(path.join(__dirname,'../data/catalog.json'),'utf8'));for(const source of actual.sources){if(source.url.startsWith('http://')){assert.equal(source.transportScope,'read_only_http_source_not_clickable');assert.equal(source.url,source.retrievedUrl);assert.match(source.bodySha256,/^[a-f0-9]{64}$/);assert.equal(L.sourceUrl(actual,source),null);continue;}assert.ok(L.sourceUrl(actual,source),source.url);if(source.evidenceLevel!=='teacher_page_linked_from_official_profile'&&!L.officialUrl(source.url)){
       assert.ok([
+        'cuhk-ie-adjunct-peter-chong-official-20261125',
+        'cuhk-ie-adjunct-chen-change-loy-official-20261125',
         'hkustgz-dsa-adjunct-haodi-zhang-research-20261124',
         'hkustgz-dsa-adjunct-dian-zhang-research-20261124',
         'hkustgz-dsa-adjunct-dian-zhang-identity-20261111',
