@@ -727,6 +727,150 @@
       ],
       "knownIssues": [],
       "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-li-larry-research-link-20261125",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/larry-li/",
+      "originalUrl": "https://researchportal.hkust.edu.hk/en/persons/larry-li/",
+      "retrievedUrl": "https://researchportal.hkust.edu.hk/en/persons/larry-li/",
+      "title": "港科大研究门户 · Larry Li",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给研究入口。",
+      "claims": [
+        "研究门户列机械与航空航天工程系教授，研究包括流体力学及热声学。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkust-mae-primary-li-larry-profile-20261124"
+    },
+    {
+      "id": "hkust-mae-gao-yang-research-link-20261125",
+      "url": "https://yanggao.people.ust.hk/",
+      "originalUrl": "https://yanggao.people.ust.hk/",
+      "retrievedUrl": "https://yanggao.people.ust.hk/",
+      "title": "Yang Gao · 港科大个人研究主页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给研究入口。",
+      "claims": [
+        "本人主页列港科大任职及空间可持续性机器人研究中心。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkust-mae-primary-gao-yang-profile-20261124"
+    },
+    {
+      "id": "hkust-mae-li-zhigang-research-link-20261125-detail",
+      "url": "https://mezli.people.ust.hk/research/research.htm",
+      "originalUrl": "https://mezli.people.ust.hk/research/research.htm",
+      "retrievedUrl": "https://mezli.people.ust.hk/research/research.htm",
+      "title": "Zhigang Li · Li Lab · 研究页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "上一级实验室页面导航给出的入口。",
+      "claims": [
+        "同一站点列微纳流体、传热传质和热管理等方向；首页的职位文字标 2025 年。"
+      ],
+      "knownIssues": [
+        "页面所列职位标注 2025 年，当前招募及余位待核。"
+      ],
+      "parentSourceId": "hkust-mae-li-zhigang-research-link-20261125",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-li-zhigang-research-link-20261125",
+      "url": "https://mezli.people.ust.hk/",
+      "originalUrl": "http://mezli.people.ust.hk/",
+      "retrievedUrl": "https://mezli.people.ust.hk/",
+      "title": "Zhigang Li · Li Lab",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给研究入口。",
+      "claims": [
+        "同一站点列微纳流体、传热传质和热管理等方向；首页的职位文字标 2025 年。"
+      ],
+      "knownIssues": [
+        "页面所列职位标注 2025 年，当前招募及余位待核。"
+      ],
+      "parentSourceId": "hkust-mae-primary-li-zhigang-profile-20261124",
+      "discoveredLinks": [
+        "https://mezli.people.ust.hk/research/research.htm"
+      ]
+    },
+    {
+      "id": "hkust-mae-yang-jinglei-research-link-20261125-detail",
+      "url": "https://maeyang.people.ust.hk/research.htm",
+      "originalUrl": "https://maeyang.people.ust.hk/research.htm",
+      "retrievedUrl": "https://maeyang.people.ust.hk/research.htm",
+      "title": "Jinglei Yang · 多功能复合材料与结构实验室 · 研究页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "上一级实验室页面导航给出的入口。",
+      "claims": [
+        "成员页列 Jinglei Yang 为负责人，实验室研究页介绍多功能复合材料及材料信息学。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkust-mae-yang-jinglei-research-link-20261125",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-yang-jinglei-research-link-20261125",
+      "url": "https://maeyang.people.ust.hk/people.htm",
+      "originalUrl": "http://maeyang.people.ust.hk/people.htm",
+      "retrievedUrl": "https://maeyang.people.ust.hk/people.htm",
+      "title": "Jinglei Yang · 多功能复合材料与结构实验室",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给研究入口。",
+      "claims": [
+        "成员页列 Jinglei Yang 为负责人，实验室研究页介绍多功能复合材料及材料信息学。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkust-mae-primary-yang-jinglei-profile-20261124",
+      "discoveredLinks": [
+        "https://maeyang.people.ust.hk/research.htm"
+      ]
+    },
+    {
+      "id": "hkust-mae-lu-yanglong-research-link-20261125-detail",
+      "url": "https://maeylu.people.ust.hk/people/",
+      "originalUrl": "https://maeylu.people.ust.hk/people/",
+      "retrievedUrl": "https://maeylu.people.ust.hk/people/",
+      "title": "Yanglong Lu · LAMID 实验室 · 成员页",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "上一级实验室页面导航给出的入口。",
+      "claims": [
+        "首页提供团队入口，成员页列 Yanglong Lu 与机械及航空航天工程系。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkust-mae-lu-yanglong-research-link-20261125",
+      "discoveredLinks": []
+    },
+    {
+      "id": "hkust-mae-lu-yanglong-research-link-20261125",
+      "url": "https://maeylu.people.ust.hk/",
+      "originalUrl": "https://maeylu.people.ust.hk/",
+      "retrievedUrl": "https://maeylu.people.ust.hk/",
+      "title": "Yanglong Lu · LAMID 实验室",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "院系个人页所给研究入口。",
+      "claims": [
+        "首页提供团队入口，成员页列 Yanglong Lu 与机械及航空航天工程系。"
+      ],
+      "knownIssues": [],
+      "parentSourceId": "hkust-mae-primary-lu-yanglong-profile-20261124",
+      "discoveredLinks": [
+        "https://maeylu.people.ust.hk/people/"
+      ]
     }
   ],
   "faculty": [
@@ -837,7 +981,8 @@
       "summary": "研究方向包括流体力学、热声学、非线性动力学。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-larry",
       "sourceIds": [
-        "hkust-mae-primary-li-larry-profile-20261124"
+        "hkust-mae-primary-li-larry-profile-20261124",
+        "hkust-mae-li-larry-research-link-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
@@ -858,8 +1003,9 @@
           "url": "https://researchportal.hkust.edu.hk/en/persons/larry-li/",
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-li-larry-profile-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "网站返回 HTTP 403，正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "研究门户列机械与航空航天工程系教授，研究包括流体力学及热声学。",
+          "sourceId": "hkust-mae-li-larry-research-link-20261125"
         }
       ]
     },
@@ -932,7 +1078,8 @@
       "summary": "研究方向包括机器人感知、视觉导航与仿生机构。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/gao-yang",
       "sourceIds": [
-        "hkust-mae-primary-gao-yang-profile-20261124"
+        "hkust-mae-primary-gao-yang-profile-20261124",
+        "hkust-mae-gao-yang-research-link-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
@@ -953,8 +1100,9 @@
           "url": "https://yanggao.people.ust.hk/",
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-gao-yang-profile-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "证书校验失败，正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "本人主页列港科大任职及空间可持续性机器人研究中心。",
+          "sourceId": "hkust-mae-gao-yang-research-link-20261125"
         }
       ]
     },
@@ -1055,7 +1203,9 @@
       "summary": "研究方向包括微纳流体、传热传质与界面科学。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/li-zhigang",
       "sourceIds": [
-        "hkust-mae-primary-li-zhigang-profile-20261124"
+        "hkust-mae-primary-li-zhigang-profile-20261124",
+        "hkust-mae-li-zhigang-research-link-20261125-detail",
+        "hkust-mae-li-zhigang-research-link-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
@@ -1076,8 +1226,9 @@
           "url": "http://mezli.people.ust.hk/",
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-li-zhigang-profile-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "院系给出 HTTP 旧地址，保留原链接待核。"
+          "bodyStatus": "body_read",
+          "readNote": "同一站点列微纳流体、传热传质和热管理等方向；首页的职位文字标 2025 年。 官网原地址为 HTTP，已核到同一站点的 HTTPS 正文。",
+          "sourceId": "hkust-mae-li-zhigang-research-link-20261125"
         }
       ]
     },
@@ -1103,7 +1254,9 @@
       "summary": "研究方向包括多功能复合材料与涂层、微胶囊化及多尺度力学。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/yang-jinglei",
       "sourceIds": [
-        "hkust-mae-primary-yang-jinglei-profile-20261124"
+        "hkust-mae-primary-yang-jinglei-profile-20261124",
+        "hkust-mae-yang-jinglei-research-link-20261125-detail",
+        "hkust-mae-yang-jinglei-research-link-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
@@ -1124,8 +1277,9 @@
           "url": "http://maeyang.people.ust.hk/people.htm",
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-yang-jinglei-profile-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "院系给出 HTTP 旧地址，保留原链接待核。"
+          "bodyStatus": "body_read",
+          "readNote": "成员页列 Jinglei Yang 为负责人，实验室研究页介绍多功能复合材料及材料信息学。 官网原地址为 HTTP，已核到同一站点的 HTTPS 正文。",
+          "sourceId": "hkust-mae-yang-jinglei-research-link-20261125"
         }
       ]
     },
@@ -1582,7 +1736,9 @@
       "summary": "研究方向包括增材制造过程监测、多物理场建模及物理约束机器学习。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/lu-yanglong",
       "sourceIds": [
-        "hkust-mae-primary-lu-yanglong-profile-20261124"
+        "hkust-mae-primary-lu-yanglong-profile-20261124",
+        "hkust-mae-lu-yanglong-research-link-20261125-detail",
+        "hkust-mae-lu-yanglong-research-link-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
@@ -1603,8 +1759,9 @@
           "url": "https://maeylu.people.ust.hk/",
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-lu-yanglong-profile-20261124",
-          "bodyStatus": "not_read",
-          "readNote": "证书校验失败，正文待核。"
+          "bodyStatus": "body_read",
+          "readNote": "首页提供团队入口，成员页列 Yanglong Lu 与机械及航空航天工程系。",
+          "sourceId": "hkust-mae-lu-yanglong-research-link-20261125"
         }
       ]
     },
