@@ -143958,19 +143958,25 @@
         "运筹建模与航空气象",
         "Air traffic management",
         "Operations research",
-        "Aviation meteorology"
+        "Aviation meteorology",
+        "低空空中出行",
+        "可持续航空",
+        "空间交通管理",
+        "Space traffic management"
       ],
-      "summary": "研究方向包括航空交通管理、运筹建模与航空气象。",
+      "summary": "研究方向包括航空交通管理、运筹建模与航空气象。港理工实验室人物页另列低空空中出行、航空排放及空间交通管理。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-ng-kam-hung/",
       "sourceIds": [
         "polyu-aae-ng-kam-hung-profile-20261124",
-        "polyu-aae-ng-kam-hung-linked-1-20261124"
+        "polyu-aae-ng-kam-hung-linked-1-20261124",
+        "polyu-aae-ng-kam-hung-atm-person-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
       ],
       "keywordSourceIds": [
-        "polyu-aae-ng-kam-hung-profile-20261124"
+        "polyu-aae-ng-kam-hung-profile-20261124",
+        "polyu-aae-ng-kam-hung-atm-person-20261125"
       ],
       "availability": {
         "state": "unknown",
@@ -144362,18 +144368,21 @@
         "区域航空交通管理与多式联运",
         "Urban air mobility",
         "Regional air traffic management",
-        "Multimodal transport"
+        "Multimodal transport",
+        "ANGRI"
       ],
-      "summary": "研究方向包括城市空中出行、区域航空交通管理与多式联运。",
+      "summary": "研究方向包括城市空中出行、区域航空交通管理与多式联运。院系研究页将 Ang Li 列在 ANGRI 组；院系页未提供该组的独立网址。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-ang/",
       "sourceIds": [
-        "polyu-aae-li-ang-profile-20261124"
+        "polyu-aae-li-ang-profile-20261124",
+        "polyu-aae-aviation-engineering-groups-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
       ],
       "keywordSourceIds": [
-        "polyu-aae-li-ang-profile-20261124"
+        "polyu-aae-li-ang-profile-20261124",
+        "polyu-aae-aviation-engineering-groups-20261125"
       ],
       "availability": {
         "state": "unknown",
@@ -144409,19 +144418,24 @@
         "认知状态与人因数据分析",
         "Human-AI collaboration",
         "Cognitive states modelling",
-        "Eye-tracking"
+        "Eye-tracking",
+        "船舶告警设计",
+        "告警疲劳",
+        "Alarm fatigue"
       ],
-      "summary": "研究方向包括交通场景的人机协作、认知状态与人因数据分析。",
+      "summary": "研究方向包括交通场景的人机协作、认知状态与人因数据分析。课题组研究子页另列船舶告警设计与告警疲劳。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/dr-li-fan/",
       "sourceIds": [
         "polyu-aae-li-fan-profile-20261124",
-        "polyu-aae-li-fan-linked-1-20261124"
+        "polyu-aae-li-fan-linked-1-20261124",
+        "polyu-aae-li-fan-shine-design-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
       ],
       "keywordSourceIds": [
-        "polyu-aae-li-fan-profile-20261124"
+        "polyu-aae-li-fan-profile-20261124",
+        "polyu-aae-li-fan-shine-design-20261125"
       ],
       "availability": {
         "state": "unknown",
@@ -144730,18 +144744,21 @@
         "学习式优化及航空维修可靠性",
         "Human-autonomy teaming",
         "Learning-based optimization",
-        "Aircraft maintenance"
+        "Aircraft maintenance",
+        "INSys Group"
       ],
-      "summary": "研究方向包括人机组队、学习式优化及航空维修可靠性。",
+      "summary": "研究方向包括人机组队、学习式优化及航空维修可靠性。院系研究页将 Gangyan Xu 列在智能与网络系统组。原组站正文待核。",
       "profileUrl": "https://www.polyu.edu.hk/aae/people/academic-staff/prof-xu-gangyan/",
       "sourceIds": [
-        "polyu-aae-xu-gangyan-profile-20261124"
+        "polyu-aae-xu-gangyan-profile-20261124",
+        "polyu-aae-aviation-engineering-groups-20261125"
       ],
       "directorySourceIds": [
         "polyu-aae-academic-directory-20261124"
       ],
       "keywordSourceIds": [
-        "polyu-aae-xu-gangyan-profile-20261124"
+        "polyu-aae-xu-gangyan-profile-20261124",
+        "polyu-aae-aviation-engineering-groups-20261125"
       ],
       "availability": {
         "state": "unknown",
@@ -282563,7 +282580,10 @@
       "claims": [
         "课题组列交通人因与工效学研究，以及基于视线数据的警觉性分析。"
       ],
-      "knownIssues": []
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://shineergo.wixsite.com/homepage/about-5-1"
+      ]
     },
     {
       "id": "polyu-aae-shen-xi-profile-20261124",
@@ -282849,6 +282869,47 @@
       ],
       "knownIssues": [],
       "parentSourceId": "polyu-aae-huang-profile-research-link-20261125"
+    },
+    {
+      "id": "polyu-aae-aviation-engineering-groups-20261125",
+      "url": "https://www.polyu.edu.hk/aae/research/overview/aviation-engineering/",
+      "title": "港理工航空工程 · 院系研究方向与研究组",
+      "scope": "院系航空工程研究主题页的人员及研究组对照。",
+      "claims": [
+        "院系列 Ang Li 对应 Aviation Next Generation Research Innovation (ANGRI)，名称没有挂独立链接。",
+        "院系列 Gangyan Xu 对应 Intelligent and Networked Systems Group (INSys Group)，组站正文待核。"
+      ],
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-ng-kam-hung-atm-person-20261125",
+      "url": "https://www.polyu.edu.hk/researchgrp/khng/Professor.html",
+      "title": "Kam Hung Ng · 港理工航空交通管理实验室人物页",
+      "scope": "港理工实验室人物页所列研究方向。",
+      "claims": [
+        "页面列航空气象与航迹、低空空中出行、可持续航空、航空安全与可靠性及空间交通管理。"
+      ],
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-aae-li-fan-shine-design-20261125",
+      "url": "https://shineergo.wixsite.com/homepage/about-5-1",
+      "title": "Fan Li · SHINE 组以人为中心的设计研究",
+      "scope": "由院系个人页所给课题组主页进入的研究子页。",
+      "claims": [
+        "研究子页列船舶告警设计与告警疲劳，采用来自船舶交通服务人员的实际设计需求。"
+      ],
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": [],
+      "parentSourceId": "polyu-aae-li-fan-linked-1-20261124"
     },
     {
       "id": "polyu-aae-advisory-committee-20261124",
@@ -368202,5 +368263,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:6b7cda2bf6ae6c92bed1e680a8af0f69f82359554fafc0836c9a517fc7af1def"
+  "snapshotId": "sha256:478baee84d7bb26a1821822f2045b389bbead743f5e3c16ee0fb335a6974612f"
 }
