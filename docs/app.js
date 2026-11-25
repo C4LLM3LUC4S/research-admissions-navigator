@@ -107,6 +107,11 @@
     const bottom=node('div',null,'card-bottom');append(bottom,link('打开官方原页 ↗',p.entryUrl||(primary&&primary.url)||(u&&u.entryUrl)),button('加入准备清单 ＋',()=>taskForProgram(p),'subtle-button'));card.append(bottom);card.append(evidence([...(p.sourceIds||[]),...((p.contact||{}).sourceIds||[]),...((p.selection||{}).sourceIds||[]),...visible.flatMap(d=>d.sourceIds||[])],p.evidenceNote));return card;
   }
   function bookmarkLabel(saved) { return saved?'已在清单中 · 移除':'放入我的清单 ＋'; }
+  function facultyBookmark(f,inResults) {
+    const control=button(bookmarkLabel(state.shortlist.includes(f.id)),()=>toggleFaculty(f),'subtle-button');
+    if(inResults)resultBookmarkButtons.set(f.id,control);
+    return control;
+  }
   function toggleFaculty(f) {
     const saved=!state.shortlist.includes(f.id);
     if(saved)state.shortlist.push(f.id);else state.shortlist=state.shortlist.filter(id=>id!==f.id);
@@ -135,8 +140,7 @@
       const termMatches=L.matchedResearchTerms(f,state.profile.researchQuery);const matchedWords=concise(termMatches);if(termMatches.length)card.append(node('p',matchedWords.length?'与你所填词语对应的官网研究词：'+matchedWords.join('、'):'研究描述与所填词语有交集，具体范围请看上文和原页。','research-match'));
       const directoryEvidence=L.directoryResearchSource(C,f);
       if(f.recordKind==='directory_research')card.append(node('p','可先从院系名录了解研究内容，再查老师的个人主页。','field-help'));
-      const bookmark=button(bookmarkLabel(state.shortlist.includes(f.id)),()=>toggleFaculty(f),'subtle-button');
-      if(inResults)resultBookmarkButtons.set(f.id,bookmark);
+      const bookmark=facultyBookmark(f,inResults);
       const bottom=node('div',null,'card-bottom');append(bottom,f.recordKind==='directory_research'?(directoryEvidence?link('看院系中的研究原文 ↗',directoryEvidence.url):node('span','研究原页仍待核实','field-help')):observedProfileLink('看院系提供的老师主页 ↗',f.profileUrl,f.directorySourceIds),bookmark);card.append(bottom);
     if(f.directoryRole||f.identityNote||(f.availability||{}).text){const identity=node('details',null,'source-details appointment-details');identity.append(node('summary','任职与招生说明'));if(f.role&&f.directoryRole&&f.directoryRole!==f.role)identity.append(node('p','官网职位：'+f.directoryRole,'scope-text'));if(f.identityNote&&generalIdentityNotes.has(f.identityNote))identity.append(node('p',f.identityNote,'field-help'));if((f.availability||{}).text)identity.append(node('p',f.availability.text,'field-help'));if(f.reviewedProfileUrl&&f.reviewedProfileUrl!==f.profileUrl)identity.append(link('查看官方研究档案 ↗',f.reviewedProfileUrl));card.append(identity);}
     const related=L.facultyLinks(C,f);
@@ -376,14 +380,15 @@
     function showResearch(school) {
       let added=false;
       for(const person of C.faculty){
-        if(person.universityId!==school||!person.summary)continue;
+        if(person.universityId!==school)continue;
         const row=pendingRows.get(person.id);
         if(!row)continue;
-        row.append(node('p',person.summary,'faculty-summary'));
+        if(person.summary)row.append(node('p',person.summary,'faculty-summary'));
+        row.append(facultyBookmark(person,true));
         pendingRows.delete(person.id);
         added=true;
       }
-      if(added)message.textContent='可先查看已到齐的研究简介，其余详细档案正在读取。';
+      if(added)message.textContent='可先查看和收藏已载入的老师，其余资料正在读取。';
     }
     return {panel:append(node('div'),message,list),message,showResearch};
   }
@@ -425,9 +430,16 @@
         sourceIndex=null;
         if(sequence!==resultSequence)return;
         const focused=document.activeElement;
-        const focusedUrl=focused&&preview?.panel.contains(focused)?focused.href:null;
+        const inPreview=focused&&preview?.panel.contains(focused);
+        const focusedUrl=inPreview?focused.href:null;
+        const focusedBookmark=inPreview?[...resultBookmarkButtons].find(([,control])=>control===focused)?.[0]:null;
         subjectOptions=L.researchOptions(C);renderSubjectOptions();renderLoadedResults();
-        if(focusedUrl)[...target.querySelectorAll('a')].find(anchor=>anchor.href===focusedUrl)?.focus({preventScroll:true});
+        if(focusedBookmark){
+          const replacement=resultBookmarkButtons.get(focusedBookmark)||resultCards[0];
+          replacement?.focus({preventScroll:true});
+        }else if(focusedUrl){
+          [...target.querySelectorAll('a')].find(anchor=>anchor.href===focusedUrl)?.focus({preventScroll:true});
+        }
       }).catch(error=>{
         if(sequence!==resultSequence)return;
         $('result-count').textContent=preview?'详细档案暂未载入':'资料暂未载入';
