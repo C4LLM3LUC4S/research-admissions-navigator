@@ -357,8 +357,10 @@
       ? [...selected].flatMap(id=>parts.get(id).faculty) : null);
     if(!rows)return null;
     const search=L.facultySearch(state.profile.researchQuery);
-    return rows.filter(([name,school,,researchKeywords])=>
-      (!selected.size||selected.has(school)) && (search.matchesName(name)||search.matchedTerms({researchKeywords}).length));
+    return rows.filter(row=>(!selected.size||selected.has(row[1])) && matchesFacultyIndexRow(search,row));
+  }
+  function matchesFacultyIndexRow(search,[name,,,researchKeywords]) {
+    return search.matchesName(name)||search.matchedTerms({researchKeywords}).length>0;
   }
   function neededSchools(matches) {
     if(mode==='programs')return [];
@@ -415,14 +417,20 @@
           if(sequence===resultSequence)preview.showResearch(school);
         } : undefined);
       };
-      const schoolsForIndexFailure = state.profile.universityIds;
+      const selectedSchools = state.profile.universityIds;
+      const search = needsIndex && L.facultySearch(state.profile.researchQuery);
+      const startMatchingSchool = (school,rows) => {
+        if(sequence!==resultSequence||!rows.some(row=>matchesFacultyIndexRow(search,row)))return;
+        // The final load reuses this request and handles any failure in the usual results flow.
+        window.APP_LOAD_SCHOOLS([school]).catch(()=>{});
+      };
       const request = needsIndex
-        ? window.APP_LOAD_FACULTY_INDEX(schoolsForIndexFailure).then(() => {
+        ? window.APP_LOAD_FACULTY_INDEX(selectedSchools,startMatchingSchool).then(() => {
           if(sequence!==resultSequence)return;
           matches=indexedFacultyMatches();
           return loadSchools(neededSchools(matches));
         }, error => {
-          if(schoolsForIndexFailure.length)return loadSchools(schoolsForIndexFailure);
+          if(selectedSchools.length)return loadSchools(selectedSchools);
           throw error;
         })
         : loadSchools(schools);

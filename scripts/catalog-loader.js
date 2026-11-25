@@ -39,9 +39,13 @@
     indexRequests.set(key, request);
     return request;
   }
-  window.APP_LOAD_FACULTY_INDEX = (schools = []) => {
+  window.APP_LOAD_FACULTY_INDEX = (schools = [], onSchoolIndexed) => {
     if (!schools.length || window.APP_FACULTY_INDEX) return loadIndex(null, indexUrl);
-    return Promise.all(schools.map(key => loadIndex(key, indexPartUrls[key])));
+    return Promise.all(schools.map(async key => {
+      const index = await loadIndex(key, indexPartUrls[key]);
+      onSchoolIndexed?.(key, index.faculty);
+      return index;
+    }));
   };
   const fields = ['faculty', 'directories', 'academicCoverage', 'sources'];
   const records = Object.fromEntries(fields.map(field => [field, new Map(field === 'sources' ? base.sources : [])]));
