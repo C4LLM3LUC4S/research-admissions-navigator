@@ -24,12 +24,32 @@ test('browser data keeps application records and the canonical snapshot identity
   assert.deepEqual(browserRecords, canonicalRecords);
   assert.equal(browserSources.length, canonicalSources.length);
   for (const [index, source] of canonicalSources.entries()) {
-    const {discoveredLinks = [], ...record} = source;
+    const {discoveredLinks = [], bodySha256, readReceiptSha256, ...record} = source;
     const {discoveredLinks: transferred = [], ...browserRecord} = browserSources[index];
+    if ('bodySha256' in browserRecord) record.bodySha256 = bodySha256;
     assert.deepEqual(browserRecord, record);
     assert.ok(transferred.every(url => discoveredLinks.includes(url)));
     assert.equal(logic.sourceUrl(browser, browserSources[index]), logic.sourceUrl(canonical, source));
   }
+});
+
+test('browser omits archive-only hashes and preserves shared school evidence', () => {
+  const browserHashes = browser.sources.filter(source => source.bodySha256).length;
+  const canonicalHashes = canonical.sources.filter(source => source.bodySha256).length;
+  assert.ok(browserHashes < canonicalHashes / 2);
+  assert.ok(canonical.sources.some(source => source.readReceiptSha256));
+  assert.ok(browser.sources.every(source => !source.readReceiptSha256));
+  let matchedEntries = 0;
+  for (const school of canonical.academicCoverage) {
+    for (const unit of school.units) {
+      for (const child of unit.children || []) {
+        const expected = logic.sharedSchoolRead(canonical, school.universityId, child);
+        if (expected) matchedEntries++;
+        assert.deepEqual(logic.sharedSchoolRead(browser, school.universityId, child), expected);
+      }
+    }
+  }
+  assert.ok(matchedEntries > 0);
 });
 
 test('browser data keeps profile and provided links as displayed in each directory', () => {
