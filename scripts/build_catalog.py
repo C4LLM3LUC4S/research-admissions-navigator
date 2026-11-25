@@ -3163,7 +3163,7 @@ def startup_project_html(catalog):
 
 
 def browser_catalog(catalog):
-    """Keep link provenance used by the app without transferring archival navigation."""
+    """Keep applicant-facing evidence and the hashes used to match shared school entries."""
     referenced = set()
 
     def collect(value):
@@ -3178,11 +3178,27 @@ def browser_catalog(catalog):
             referenced.add(value)
 
     collect(catalog)
-    sources = [
-        {**source, "discoveredLinks": [url for url in source["discoveredLinks"] if url in referenced]}
-        if "discoveredLinks" in source else source
+    shared_school_sources = {
+        source_id
+        for school in catalog["academicCoverage"]
+        for unit in school["units"]
+        for child in unit.get("children", [])
+        if child.get("kind") == "school" and child.get("entryBodyStatus") == "body_read" and child.get("bodySha256")
+        for source_id in child.get("sourceIds", [])
+    }
+    retained_source_hashes = shared_school_sources | {
+        source["navigationEvidence"]["sourceId"]
         for source in catalog["sources"]
-    ]
+        if source.get("navigationEvidence")
+    }
+    sources = []
+    for source in catalog["sources"]:
+        record = {key: value for key, value in source.items() if key != "readReceiptSha256"}
+        if source["id"] not in retained_source_hashes and not source["url"].startswith("http://"):
+            record.pop("bodySha256", None)
+        if "discoveredLinks" in source:
+            record["discoveredLinks"] = [url for url in source["discoveredLinks"] if url in referenced]
+        sources.append(record)
     return {**catalog, "sources": sources}
 
 
