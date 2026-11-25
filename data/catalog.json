@@ -140306,6 +140306,174 @@
       }
     },
     {
+      "id": "hku-ece-cc-chan",
+      "universityId": "hku",
+      "name": "C. C. Chan",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Honorary Professor",
+      "profileUrl": "https://ece.hku.hk/people/ccchan/",
+      "topics": [
+        "电子与集成电路",
+        "材料与能源"
+      ],
+      "researchKeywords": [
+        "电机",
+        "电力传动",
+        "电动汽车",
+        "electric machines",
+        "electric drives",
+        "electric vehicles"
+      ],
+      "summary": "院系个人页介绍电机、电力传动及电动汽车研究。",
+      "sourceIds": [
+        "hku-ece-honorary-adjunct-20261125",
+        "hku-ece-cc-chan-profile-20261125"
+      ],
+      "directorySourceIds": [
+        "hku-ece-honorary-adjunct-20261125"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-cc-chan-profile-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及名额待核",
+        "sourceIds": [
+          "hku-ece-honorary-adjunct-20261125",
+          "hku-ece-cc-chan-profile-20261125"
+        ]
+      }
+    },
+    {
+      "id": "hku-ece-david-john-hill",
+      "universityId": "hku",
+      "name": "David John Hill",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Emeritus Professor and Honorary Professor",
+      "profileUrl": "https://ece.hku.hk/people/dhill/",
+      "topics": [
+        "材料与能源",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "电力及能源系统",
+        "控制系统",
+        "复杂网络",
+        "稳定性分析",
+        "power and energy systems",
+        "control systems",
+        "complex networks",
+        "stability analysis"
+      ],
+      "summary": "研究电力与能源系统、控制系统、复杂网络及稳定性。港大个人页列澳大利亚莫纳什大学任职。",
+      "sourceIds": [
+        "hku-ece-honorary-adjunct-20261125",
+        "hku-ece-david-john-hill-profile-20261125"
+      ],
+      "directorySourceIds": [
+        "hku-ece-honorary-adjunct-20261125"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-david-john-hill-profile-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及名额待核",
+        "sourceIds": [
+          "hku-ece-honorary-adjunct-20261125",
+          "hku-ece-david-john-hill-profile-20261125"
+        ]
+      }
+    },
+    {
+      "id": "hku-ece-tung-sang-ng",
+      "universityId": "hku",
+      "name": "Tung Sang Ng",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Emeritus Professor and Honorary Professor",
+      "profileUrl": "https://ece.hku.hk/people/tsng/",
+      "topics": [
+        "网络与系统",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "移动通信",
+        "扩频通信",
+        "数字信号处理",
+        "天线阵列",
+        "系统识别",
+        "mobile communications",
+        "spread spectrum",
+        "digital signal processing",
+        "antenna arrays",
+        "system identification"
+      ],
+      "summary": "研究移动通信、扩频、数字信号处理、天线阵列及系统识别。",
+      "sourceIds": [
+        "hku-ece-honorary-adjunct-20261125",
+        "hku-ece-tung-sang-ng-profile-20261125"
+      ],
+      "directorySourceIds": [
+        "hku-ece-honorary-adjunct-20261125"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-tung-sang-ng-profile-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及名额待核",
+        "sourceIds": [
+          "hku-ece-honorary-adjunct-20261125",
+          "hku-ece-tung-sang-ng-profile-20261125"
+        ]
+      }
+    },
+    {
+      "id": "hku-ece-felix-fulih-wu",
+      "universityId": "hku",
+      "name": "Felix Fulih Wu",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Emeritus Professor and Honorary Professor",
+      "profileUrl": "https://ece.hku.hk/people/ffwu/",
+      "topics": [
+        "材料与能源",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "电力系统分析",
+        "电力系统控制",
+        "发输电规划",
+        "电力市场改革",
+        "power systems analysis",
+        "power system control",
+        "generation and transmission planning",
+        "electricity market restructuring"
+      ],
+      "summary": "研究电力系统分析与控制、发输电系统规划及电力市场改革。",
+      "sourceIds": [
+        "hku-ece-honorary-adjunct-20261125",
+        "hku-ece-felix-fulih-wu-profile-20261125"
+      ],
+      "directorySourceIds": [
+        "hku-ece-honorary-adjunct-20261125"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-felix-fulih-wu-profile-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及名额待核",
+        "sourceIds": [
+          "hku-ece-honorary-adjunct-20261125",
+          "hku-ece-felix-fulih-wu-profile-20261125"
+        ]
+      }
+    },
+    {
       "id": "hku-mse-hwchoi",
       "universityId": "hku",
       "name": "Anthony CHOI",
@@ -279014,6 +279182,66 @@
       "parentSourceId": "hku-ece-external-advisors-20261125"
     },
     {
+      "id": "hku-ece-cc-chan-profile-20261125",
+      "url": "https://ece.hku.hk/people/ccchan/",
+      "title": "港大 · C. C. Chan",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港大电机与计算机工程系官方个人页，核对荣誉或荣休身份及研究。",
+      "claims": [
+        "院系个人页介绍电机、电力传动及电动汽车研究。"
+      ],
+      "knownIssues": [
+        "指导资格、招生及余位待核。"
+      ]
+    },
+    {
+      "id": "hku-ece-david-john-hill-profile-20261125",
+      "url": "https://ece.hku.hk/people/dhill/",
+      "title": "港大 · David John Hill",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港大电机与计算机工程系官方个人页，核对荣誉或荣休身份及研究。",
+      "claims": [
+        "研究电力与能源系统、控制系统、复杂网络及稳定性。港大个人页列澳大利亚莫纳什大学任职。"
+      ],
+      "knownIssues": [
+        "指导资格、招生及余位待核。"
+      ]
+    },
+    {
+      "id": "hku-ece-tung-sang-ng-profile-20261125",
+      "url": "https://ece.hku.hk/people/tsng/",
+      "title": "港大 · Tung Sang Ng",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港大电机与计算机工程系官方个人页，核对荣誉或荣休身份及研究。",
+      "claims": [
+        "研究移动通信、扩频、数字信号处理、天线阵列及系统识别。"
+      ],
+      "knownIssues": [
+        "指导资格、招生及余位待核。"
+      ]
+    },
+    {
+      "id": "hku-ece-felix-fulih-wu-profile-20261125",
+      "url": "https://ece.hku.hk/people/ffwu/",
+      "title": "港大 · Felix Fulih Wu",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "港大电机与计算机工程系官方个人页，核对荣誉或荣休身份及研究。",
+      "claims": [
+        "研究电力系统分析与控制、发输电系统规划及电力市场改革。"
+      ],
+      "knownIssues": [
+        "指导资格、招生及余位待核。"
+      ]
+    },
+    {
       "id": "hkust-cse-2027-fee",
       "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
       "title": "港科大 · 计算机科学与工程 2027/28 项目目录申请费",
@@ -314734,7 +314962,9 @@
             "directoryPosition": "荣誉教授",
             "profileUrl": null,
             "providedLinks": [],
-            "reason": "该名录卡未给独立个人链接。"
+            "reason": "本页记录任职，另已核对院系个人主页。",
+            "facultyId": "hku-ece-cc-chan",
+            "linkedSourceId": "hku-ece-cc-chan-profile-20261125"
           },
           {
             "name": "Prof. Kwok-Tong CHAU",
@@ -314755,7 +314985,9 @@
             "directoryPosition": "荣休教授、荣誉教授",
             "profileUrl": null,
             "providedLinks": [],
-            "reason": "该名录卡未给独立个人链接。"
+            "reason": "本页记录任职，另已核对院系个人主页。",
+            "facultyId": "hku-ece-david-john-hill",
+            "linkedSourceId": "hku-ece-david-john-hill-profile-20261125"
           },
           {
             "name": "Prof. Y.S. HUNG",
@@ -314790,7 +315022,9 @@
             "directoryPosition": "荣休教授、荣誉教授",
             "profileUrl": null,
             "providedLinks": [],
-            "reason": "该名录卡未给独立个人链接。"
+            "reason": "本页记录任职，另已核对院系个人主页。",
+            "facultyId": "hku-ece-tung-sang-ng",
+            "linkedSourceId": "hku-ece-tung-sang-ng-profile-20261125"
           },
           {
             "name": "Prof. Wai Yin Paul POON",
@@ -314818,7 +315052,9 @@
             "directoryPosition": "荣休教授、荣誉教授",
             "profileUrl": null,
             "providedLinks": [],
-            "reason": "该名录卡未给独立个人链接。"
+            "reason": "本页记录任职，另已核对院系个人主页。",
+            "facultyId": "hku-ece-felix-fulih-wu",
+            "linkedSourceId": "hku-ece-felix-fulih-wu-profile-20261125"
           },
           {
             "name": "Prof. H. WU",
@@ -315019,7 +315255,11 @@
         ]
       },
       "reviewSourceIds": [
-        "hku-ece-lam-jacqueline-official-20261125"
+        "hku-ece-lam-jacqueline-official-20261125",
+        "hku-ece-cc-chan-profile-20261125",
+        "hku-ece-david-john-hill-profile-20261125",
+        "hku-ece-tung-sang-ng-profile-20261125",
+        "hku-ece-felix-fulih-wu-profile-20261125"
       ]
     },
     {
@@ -367177,5 +367417,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:07c05d66b0854b2d9670d96f3bdd6c7ccc9ba6a208a06423c22fac6e39f5ffdc"
+  "snapshotId": "sha256:2767ccc51a2cbb6cc3d1dad06142b6dda3c660b18aa1d6c331084d91fb76d965"
 }
