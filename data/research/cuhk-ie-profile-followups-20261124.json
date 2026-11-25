@@ -252,6 +252,21 @@
       "knownIssues": [
         "院系兼任身份来自港中文目录。该页只说明新加坡南洋理工大学任职和研究。"
       ]
+    },
+    {
+      "id": "cuhk-ie-jianwei-huang-appointments-20261125",
+      "url": "https://jianwei.cuhk.edu.cn/",
+      "title": "黄建伟 · 港中深与港中文任职",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_reader",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学校托管的本人主页。深圳理工学院主聘与香港信息工程系兼任。",
+      "claims": [
+        "本人主页列港中深理工学院校长讲座教授及港中文香港信息工程系 2020 年起兼任。"
+      ],
+      "knownIssues": [
+        "香港目录个人页正文待核，两地项目指导资格与接收安排需分别确认。"
+      ]
     }
   ],
   "faculty": [
@@ -535,7 +550,8 @@
       "reviewNote": "信息工程系荣休教授。个人主页、简介和成果列表已核。",
       "retrievedProfileUrl": "https://staff.ie.cuhk.edu.hk/~dmchiu/",
       "sourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125",
-      "facultyId": "cuhk-ie-chiu-dah-ming-winston"
+      "facultyId": "cuhk-ie-chiu-dah-ming-winston",
+      "linkedSourceId": "cuhk-ie-chiu-dah-ming-winston-profile-20261125"
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/yum-tak-shing-peter/",
@@ -552,7 +568,8 @@
       "reviewNote": "信息工程系礼聘；个人主页列计算机科学与工程系主聘。沿用原档案。",
       "retrievedProfileUrl": "https://www.cse.cuhk.edu.hk/~cslui/",
       "sourceId": "cuhk-ie-john-lui-research-20261125",
-      "facultyId": "wide-cuhk-john-chi-shing-lui"
+      "facultyId": "wide-cuhk-john-chi-shing-lui",
+      "linkedSourceId": "cuhk-ie-john-lui-research-20261125"
     },
     {
       "profileUrl": "https://www.ie.cuhk.edu.hk/faculty/chong-han-joo-peter/",
