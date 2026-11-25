@@ -2485,6 +2485,7 @@ def build_catalog():
     sds_affiliated = load("cuhksz-sds-affiliated-20261124.json")
     catalog["sources"].extend(sds_affiliated["sources"])
     catalog["directories"].append(sds_affiliated["directory"])
+    catalog["faculty"].extend(sds_affiliated["faculty"])
     catalog["facultyAliases"] = sds_affiliated["aliases"]
     sds_faculty = {faculty["id"]: faculty for faculty in catalog["faculty"] if faculty["universityId"] == "cuhksz"}
     for update in sds_affiliated["existingUpdates"]:
