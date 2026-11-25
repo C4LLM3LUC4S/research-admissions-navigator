@@ -160,6 +160,58 @@
         "院系个人页列 Professor (Adjunct)。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-gao-anningzhe-med-conference-20261125",
+      "url": "https://med.cuhk.edu.cn/sites/default/files/2023-10/%E9%A6%96%E5%B1%8A%E5%A4%A7%E6%B9%BE%E5%8C%BA%E6%99%BA%E8%83%BD%E5%8C%BB%E5%AD%A6%E6%95%99%E8%82%B2%E5%A4%A7%E4%BC%9A%E4%BC%9A%E8%AE%AE%E6%89%8B%E5%86%8C.pdf",
+      "title": "高安凝哲 · 港中文（深圳）医学院会议手册",
+      "scope": "2023 年会议手册第 64 页的高安凝哲介绍。",
+      "claims": [
+        "手册列数据挖掘、大语言模型、强化学习及当时在深圳市大数据研究院的研究工作。"
+      ],
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-luo-xiaodong-sds-research-20261125",
+      "url": "https://sds.cuhk.edu.cn/node/1731",
+      "title": "罗效东 · 港中文（深圳）数据科学学院研究简介",
+      "scope": "数据科学学院 2024 年文章中罗效东的身份和研究方向。",
+      "claims": [
+        "同页分别介绍罗效东与罗智泉；罗效东方向包括线性规划、组合优化、航空运营恢复及收益管理。"
+      ],
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-luo-xiaodong-sai-group-20261125",
+      "url": "https://sai.cuhk.edu.cn/page/191",
+      "title": "罗效东 · 港中文（深圳）智能优化与决策分析课题组",
+      "scope": "人工智能学院课题组页面所列团队成员与研究领域。",
+      "claims": [
+        "团队列罗效东为深圳市大数据研究院成员。页面的硕博说明属于人工智能学院课题组，不能推及本人当前在数据科学学院的接收安排。"
+      ],
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "knownIssues": []
+    },
+    {
+      "id": "cuhksz-sds-li-shipeng-sds-seminar-20261125",
+      "url": "https://sds.cuhk.edu.cn/node/1322",
+      "title": "李世鹏 · 港中文（深圳）数据科学学院学术讲坛",
+      "scope": "2023 年院系学术讲坛简介，限客座身份和研究方向。",
+      "claims": [
+        "简介列图像与视频处理、编码、多媒体搜索、计算机视觉及物联网。"
+      ],
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "knownIssues": []
     }
   ],
   "directory": {
@@ -194,7 +246,11 @@
       "cuhksz-sds-affiliated-person-2307-20261124",
       "cuhksz-sds-affiliated-person-412-20261124",
       "cuhksz-sds-affiliated-person-2158-20261124",
-      "cuhksz-sds-affiliated-person-444-20261124"
+      "cuhksz-sds-affiliated-person-444-20261124",
+      "cuhksz-sds-gao-anningzhe-med-conference-20261125",
+      "cuhksz-sds-luo-xiaodong-sds-research-20261125",
+      "cuhksz-sds-luo-xiaodong-sai-group-20261125",
+      "cuhksz-sds-li-shipeng-sds-seminar-20261125"
     ],
     "coverageNotes": "本页列数据科学学院礼聘和兼任人事关系。可从个人页或同校学者主页核对研究方向，指导资格按学位项目确认。",
     "census": {
@@ -239,7 +295,8 @@
           "profileRead": true,
           "reviewStatus": "body_read",
           "sourceId": "cuhksz-sds-affiliated-person-2098-20261124",
-          "reviewNote": "已核读个人页及其所列任职。"
+          "reviewNote": "已核读院系个人页的任职，并补充独立研究依据。",
+          "facultyId": "cuhksz-sds-affiliated-2098"
         },
         {
           "name": "Hsien-Da Huang / 黄宪达",
@@ -278,7 +335,8 @@
           "profileRead": true,
           "reviewStatus": "body_read",
           "sourceId": "cuhksz-sds-affiliated-person-412-20261124",
-          "reviewNote": "已核读个人页及其所列任职。"
+          "reviewNote": "已核读院系个人页的任职，并补充独立研究依据。",
+          "facultyId": "cuhksz-sds-affiliated-412"
         },
         {
           "name": "Yu Li",
@@ -296,12 +354,146 @@
           "profileRead": true,
           "reviewStatus": "body_read",
           "sourceId": "cuhksz-sds-affiliated-person-444-20261124",
-          "reviewNote": "已核读个人页及其所列任职。"
+          "reviewNote": "已核读院系个人页的任职，并补充独立研究依据。",
+          "facultyId": "cuhksz-sds-affiliated-444"
         }
       ]
     }
   },
-  "faculty": [],
+  "faculty": [
+    {
+      "id": "cuhksz-sds-affiliated-2098",
+      "universityId": "cuhksz",
+      "name": "Anningzhe Gao / 高安凝哲",
+      "department": "School of Data Science",
+      "role": "Assistant Professor (Adjunct)",
+      "directoryRole": "Assistant Professor (Adjunct)",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2098",
+      "summary": "2023 年医学院会议手册列研究方向为数据挖掘、大语言模型与强化学习。",
+      "topics": [
+        "数据挖掘",
+        "自然语言处理",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "数据挖掘",
+        "大语言模型",
+        "强化学习",
+        "Data Mining",
+        "Large Language Models",
+        "Reinforcement Learning"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-affiliated-person-2098-20261124",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-gao-anningzhe-med-conference-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-gao-anningzhe-med-conference-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-affiliated-person-2098-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-affiliated-412",
+      "universityId": "cuhksz",
+      "name": "Xiaodong Luo / 罗效东",
+      "department": "School of Data Science",
+      "role": "Professor of Practice (Adjunct)",
+      "directoryRole": "Professor of Practice (Adjunct)",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/412",
+      "summary": "研究数学规划、组合优化及其在航空运营和收益管理中的应用。",
+      "topics": [
+        "理论与优化",
+        "数学与统计"
+      ],
+      "researchKeywords": [
+        "线性规划",
+        "组合优化",
+        "列生成",
+        "运筹学",
+        "民航运营恢复",
+        "收益管理",
+        "Linear Programming",
+        "Combinatorial Optimization",
+        "Operations Research"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-affiliated-person-412-20261124",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-luo-xiaodong-sds-research-20261125",
+        "cuhksz-sds-luo-xiaodong-sai-group-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-luo-xiaodong-sds-research-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-affiliated-person-412-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-affiliated-444",
+      "universityId": "cuhksz",
+      "name": "Shipeng Li / 李世鹏",
+      "department": "School of Data Science",
+      "role": "Professor (Adjunct)",
+      "directoryRole": "Professor (Adjunct)",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/444",
+      "summary": "研究图像和视频处理、编码及传输、多媒体内容分析、计算机视觉和物联网。",
+      "topics": [
+        "计算机视觉",
+        "网络与系统",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "图像处理",
+        "视频编码",
+        "多媒体内容分析",
+        "计算机视觉",
+        "物联网",
+        "Image Processing",
+        "Video Coding",
+        "Multimedia",
+        "Internet of Things"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-affiliated-person-444-20261124",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-li-shipeng-sds-seminar-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-li-shipeng-sds-seminar-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-affiliated-person-444-20261124"
+        ]
+      }
+    }
+  ],
   "existingUpdates": [
     {
       "id": "cuhksz-cui",
