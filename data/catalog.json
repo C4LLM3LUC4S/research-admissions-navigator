@@ -133552,6 +133552,156 @@
       }
     },
     {
+      "id": "hkustgz-intr-roster-750",
+      "universityId": "hkustgz",
+      "name": "Qiang MENG",
+      "department": "智能交通学域",
+      "role": "Chair Professor",
+      "directoryRole": "Chair Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=750",
+      "summary": "城市出行建模与优化、海运和多式联运、交通运营安全风险评估。",
+      "topics": [
+        "理论与优化",
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "城市出行建模",
+        "多式联运",
+        "海运",
+        "交通运营风险评估",
+        "Urban Mobility",
+        "Intermodal Transportation",
+        "Maritime Transportation"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-750",
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-750-research-20261125"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-750-research-20261125"
+      ],
+      "identityNote": "港科广校级个人页另列低空系统和经济研究院任职。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-750"
+        ]
+      },
+      "extraLinks": []
+    },
+    {
+      "id": "hkustgz-intr-roster-686",
+      "universityId": "hkustgz",
+      "name": "Xiaobo QU / 曲小波",
+      "department": "智能交通学域",
+      "role": "Adjunct Professor",
+      "directoryRole": "Adjunct Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=686",
+      "summary": "研究智能交通系统、交通运营与控制，以及城市出行服务。",
+      "topics": [
+        "理论与优化",
+        "土木与机械工程",
+        "机器人与控制"
+      ],
+      "researchKeywords": [
+        "智能交通系统",
+        "交通运营与控制",
+        "城市出行服务",
+        "Intelligent Transportation Systems",
+        "Mobility Services"
+      ],
+      "sourceIds": [
+        "hkustgz-intr-profile-20261111-686",
+        "hkustgz-intr-roster-20261111",
+        "hkustgz-intr-686-tsinghua-20261125"
+      ],
+      "directorySourceIds": [
+        "hkustgz-intr-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-intr-686-tsinghua-20261125"
+      ],
+      "identityNote": "港科广名录为智能交通兼任教授。清华主页所示指导资格适用于清华。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkustgz-intr-profile-20261111-686"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://www.svm.tsinghua.edu.cn/essay/80/1920.html",
+          "label": "清华大学个人主页",
+          "parentSourceId": "hkustgz-intr-profile-20261111-686",
+          "bodyStatus": "body_read",
+          "sourceId": "hkustgz-intr-686-tsinghua-20261125",
+          "readNote": "广州档案所给清华个人页列其清华主聘、智能交通系统和交通运营控制等研究。该页招生说明适用于清华。"
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-smmg-roster-12",
+      "universityId": "hkustgz",
+      "name": "Jingshen WU / 吴景深",
+      "department": "智能制造学域",
+      "role": "Professor",
+      "directoryRole": "Professor",
+      "profileUrl": "https://facultyprofiles.hkust-gz.edu.cn/faculty-personal-page?id=12",
+      "summary": "研究聚合物复合材料、工程材料断裂与增韧、微电子封装失效。",
+      "topics": [
+        "材料与能源",
+        "土木与机械工程",
+        "电子与集成电路"
+      ],
+      "researchKeywords": [
+        "聚合物复合材料",
+        "材料断裂与增韧",
+        "微电子封装",
+        "材料可靠性",
+        "Polymer Composites",
+        "Fracture and Toughening",
+        "Electronic Packaging"
+      ],
+      "sourceIds": [
+        "hkustgz-smmg-profile-20261111-12",
+        "hkustgz-smmg-roster-20261111",
+        "hkustgz-smmg-12-campus-20261125",
+        "hkustgz-smmg-12-research-20261125"
+      ],
+      "directorySourceIds": [
+        "hkustgz-smmg-roster-20261111"
+      ],
+      "keywordSourceIds": [
+        "hkustgz-smmg-12-research-20261125"
+      ],
+      "identityNote": "广州名录的智能制造和红鸟教学任职有广州校方资料，香港工学院页面提供研究方向。",
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkustgz-smmg-profile-20261111-12"
+        ]
+      },
+      "extraLinks": [
+        {
+          "url": "https://seng.ust.hk/about/people/faculty/jingshen-wu",
+          "label": "广州个人页所给原链接",
+          "parentSourceId": "hkustgz-smmg-profile-20261111-12",
+          "bodyStatus": "not_read",
+          "readNote": "原链接暂无法读取；另有可核到正文的香港工学院页面，见依据。"
+        }
+      ]
+    },
+    {
       "id": "polyu-eee-chung-chi-yung",
       "universityId": "polyu",
       "name": "Prof. CHUNG Chi-yung",
@@ -275342,6 +275492,61 @@
       "knownIssues": []
     },
     {
+      "id": "hkustgz-intr-750-research-20261125",
+      "url": "https://www.hkust-gz.edu.cn/people/qiang-meng/",
+      "title": "港科广 · Qiang Meng",
+      "checkedAt": "2026-11-25",
+      "scope": "公开个人或校方介绍正文，核研究范围和所标任职。",
+      "claims": [
+        "校方个人页列智能交通讲座教授与低空系统和经济研究院负责人，研究涵盖城市出行、海运联运与交通安全。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "hkustgz-intr-686-tsinghua-20261125",
+      "url": "https://www.svm.tsinghua.edu.cn/essay/80/1920.html",
+      "title": "清华大学车辆与运载学院 · 曲小波",
+      "checkedAt": "2026-11-25",
+      "scope": "公开个人或校方介绍正文，核研究范围和所标任职。",
+      "claims": [
+        "广州档案所给清华个人页列其清华主聘、智能交通系统和交通运营控制等研究。该页招生说明适用于清华。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "parentSourceId": "hkustgz-intr-profile-20261111-686",
+      "originalUrl": "https://www.svm.tsinghua.edu.cn/essay/80/1920.html",
+      "retrievedUrl": "https://www.svm.tsinghua.edu.cn/essay/80/1920.html"
+    },
+    {
+      "id": "hkustgz-smmg-12-campus-20261125",
+      "url": "https://mbaplus.hkust-gz.edu.cn/2026/09/29/jingshen-wu/",
+      "title": "港科广 · 吴景深任职",
+      "checkedAt": "2026-11-25",
+      "scope": "公开个人或校方介绍正文，核研究范围和所标任职。",
+      "claims": [
+        "2026 年校方介绍列智能制造学域和红鸟硕士基地任职，香港校区工作经历截至 2018 年。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
+      "id": "hkustgz-smmg-12-research-20261125",
+      "url": "https://seng.hkust.edu.hk/about/people/faculty/jingshen-wu",
+      "title": "港科大香港工学院 · 吴景深研究简介",
+      "checkedAt": "2026-11-25",
+      "scope": "公开个人或校方介绍正文，核研究范围和所标任职。",
+      "claims": [
+        "工学院档案列聚合物复合材料、断裂与增韧、封装材料表征与失效。广州任职以广州名录为准。"
+      ],
+      "knownIssues": [],
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped"
+    },
+    {
       "id": "hkustgz-intr-441-research-site-20261111",
       "url": "https://qiumengl.github.io/",
       "title": "Qiumeng Li · 个人或课题组网站",
@@ -313403,7 +313608,8 @@
             "category": "常规",
             "profileRead": true,
             "reviewStatus": "body_read",
-            "reviewNote": "已核对身份，研究方向待补"
+            "reviewNote": "已核对院系任职，补充已读研究正文。",
+            "facultyId": "hkustgz-intr-roster-750"
           },
           {
             "name": "Yu HAN",
@@ -313664,7 +313870,8 @@
             "category": "兼任",
             "profileRead": true,
             "reviewStatus": "body_read",
-            "reviewNote": "已核对身份，研究方向待补"
+            "reviewNote": "已核对院系任职，补充已读研究正文。",
+            "facultyId": "hkustgz-intr-roster-686"
           },
           {
             "name": "Jianhua TANG",
@@ -313739,7 +313946,8 @@
             "category": "常规",
             "profileRead": true,
             "reviewStatus": "body_read",
-            "reviewNote": "已核对身份，研究方向待补"
+            "reviewNote": "已核对院系任职，补充已读研究正文。",
+            "facultyId": "hkustgz-smmg-roster-12"
           },
           {
             "name": "Pengcheng HU",
@@ -367994,5 +368202,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:6654b6a7593fc172278b893519fcb37f606631411b219d7836976dc43e7d5562"
+  "snapshotId": "sha256:6b7cda2bf6ae6c92bed1e680a8af0f69f82359554fafc0836c9a517fc7af1def"
 }
