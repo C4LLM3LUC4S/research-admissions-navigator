@@ -146721,6 +146721,88 @@
       }
     },
     {
+      "id": "cuhksz-sds-affiliated-2095",
+      "universityId": "cuhksz",
+      "name": "Shan Dai / 代山",
+      "department": "School of Data Science",
+      "role": "Assistant Professor (Adjunct)",
+      "directoryRole": "Assistant Professor (Adjunct)",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2095",
+      "summary": "研究方向包括时间序列、非参数统计与机器学习。",
+      "topics": [
+        "数学与统计",
+        "机器学习"
+      ],
+      "researchKeywords": [
+        "时间序列",
+        "非参数统计",
+        "机器学习",
+        "Time Series",
+        "Nonparametric Statistics",
+        "Machine Learning"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-affiliated-person-2095-20261124",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-shan-dai-wsc-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-shan-dai-wsc-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-affiliated-person-2095-20261124"
+        ]
+      }
+    },
+    {
+      "id": "cuhksz-sds-affiliated-2158",
+      "universityId": "cuhksz",
+      "name": "Yu Li / 李昱",
+      "department": "School of Data Science",
+      "role": "Associate Professor (Adjunct)",
+      "directoryRole": "Associate Professor (Adjunct)",
+      "profileUrl": "https://sds.cuhk.edu.cn/en/teacher/2158",
+      "summary": "研究方向包括计算机视觉、视频理解和视频生成。",
+      "topics": [
+        "计算机视觉",
+        "人工智能"
+      ],
+      "researchKeywords": [
+        "计算机视觉",
+        "视频理解",
+        "视频生成",
+        "Computer Vision",
+        "Video Understanding",
+        "Video Generation"
+      ],
+      "sourceIds": [
+        "cuhksz-sds-affiliated-person-2158-20261124",
+        "cuhksz-sds-affiliated-roster-20261124",
+        "cuhksz-sds-yu-li-research-20261125"
+      ],
+      "directorySourceIds": [
+        "cuhksz-sds-affiliated-roster-20261124"
+      ],
+      "keywordSourceIds": [
+        "cuhksz-sds-yu-li-research-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "cuhksz-sds-affiliated-person-2158-20261124"
+        ]
+      }
+    },
+    {
       "id": "cuhksz-sds-observed-2436",
       "universityId": "cuhksz",
       "name": "Jinsheng Ba",
@@ -284495,6 +284577,36 @@
       "knownIssues": []
     },
     {
+      "id": "cuhksz-sds-shan-dai-wsc-20261125",
+      "url": "https://www.informs-sim.org/wsc23papers/311.pdf",
+      "title": "代山 · 2023 年冬季仿真会议论文作者简介",
+      "scope": "论文所列作者身份与研究兴趣，发布年份为 2023。",
+      "claims": [
+        "作者简介列代山在深圳市大数据研究院工作，方向包括时间序列、非参数统计与机器学习。"
+      ],
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "crosschecked_external_research_source",
+      "knownIssues": [
+        "任职依据是数据科学学院名录。补充研究方向来自本人署名论文的作者简介。"
+      ]
+    },
+    {
+      "id": "cuhksz-sds-yu-li-research-20261125",
+      "url": "https://yu-li.github.io/",
+      "title": "李昱 · 本人研究主页",
+      "scope": "本人主页自述职务及计算机视觉、视频理解和生成研究。",
+      "claims": [
+        "本人列为港中文（深圳）客座副教授，介绍以人为中心的视频理解、生成和计算机视觉研究。"
+      ],
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "crosschecked_external_research_source",
+      "knownIssues": [
+        "数据科学学院名录的李昱和港中文（香港）计算机科学与工程系的李煜是不同人员。"
+      ]
+    },
+    {
       "id": "cuhksz-sds-observed-faculty-roster-20261124",
       "url": "https://sds.cuhk.edu.cn/en/teacher-search",
       "title": "港中文（深圳）数据科学学院 · 教师浏览",
@@ -317158,7 +317270,9 @@
         "cuhksz-sds-gao-anningzhe-med-conference-20261125",
         "cuhksz-sds-luo-xiaodong-sds-research-20261125",
         "cuhksz-sds-luo-xiaodong-sai-group-20261125",
-        "cuhksz-sds-li-shipeng-sds-seminar-20261125"
+        "cuhksz-sds-li-shipeng-sds-seminar-20261125",
+        "cuhksz-sds-shan-dai-wsc-20261125",
+        "cuhksz-sds-yu-li-research-20261125"
       ],
       "coverageNotes": "本页列数据科学学院礼聘和兼任人事关系。可从个人页或同校学者主页核对研究方向，指导资格按学位项目确认。",
       "census": {
@@ -317194,7 +317308,8 @@
             "profileRead": true,
             "reviewStatus": "body_read",
             "sourceId": "cuhksz-sds-affiliated-person-2095-20261124",
-            "reviewNote": "已核读个人页及其所列任职。"
+            "reviewNote": "已核读院系个人页的任职，并补充独立研究依据。",
+            "facultyId": "cuhksz-sds-affiliated-2095"
           },
           {
             "name": "Anningzhe Gao",
@@ -317253,7 +317368,8 @@
             "profileRead": true,
             "reviewStatus": "body_read",
             "sourceId": "cuhksz-sds-affiliated-person-2158-20261124",
-            "reviewNote": "已核读个人页及其所列任职。"
+            "reviewNote": "已核读院系个人页的任职，并补充独立研究依据。",
+            "facultyId": "cuhksz-sds-affiliated-2158"
           },
           {
             "name": "Shipeng Li",
@@ -367878,5 +367994,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:363669769da164ed04616df19b0fe727ebf542c15fa454e2d0b0f4fadba1583f"
+  "snapshotId": "sha256:6654b6a7593fc172278b893519fcb37f606631411b219d7836976dc43e7d5562"
 }
