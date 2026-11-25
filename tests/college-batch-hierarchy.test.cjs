@@ -20,7 +20,12 @@ test('academic centres, support units and degree titles are never relabelled as 
  const art=unit(C,'cuhk-1');assert.equal(art.children.length,11);assert.equal(art.relatedNavigationGroups[0].entries.length,3);
  const eng=unit(C,'hkust-2');assert.equal(eng.children.length,7);assert.equal(eng.relatedNavigationGroups[0].entries.length,6);
  for(const u of P.units){assert.equal(u.organizationReview.organizationComplete,false);assert.equal(u.organizationReview.facultyComplete,false);for(const g of u.navigationGroups)for(const e of g.entries){assert.equal(e.entryBodyStatus,'not_read');assert.equal(e.supervisionEligibility,'unknown');assert.equal(e.availability,'unknown');}}
- assert.match(unit(C,'hkust-5').organizationReview.summary,/MBBS/);assert.equal(unit(C,'hkust-5').children.length,0);
+ const medicine=unit(C,'hkust-5');
+ assert.match(medicine.organizationReview.summary,/MBBS/);
+ assert.deepEqual(medicine.children.map(child=>child.name),['Division of Clinical Medicine','Division of Biomedical Science']);
+ assert.ok(medicine.children.every(child=>child.kind==='division'&&child.url===null&&child.teacherProfilesTotal===null&&child.availability==='unknown'));
+ assert.equal(medicine.organizationReview.organizationComplete,false);
+ assert.equal(medicine.organizationReview.facultyComplete,false);
 });
 test('new college scope preserves all previous people policies evidence and unmodified colleges',()=>{
  // Freeze this historical patch proof; the new batch separately compares every current old object.

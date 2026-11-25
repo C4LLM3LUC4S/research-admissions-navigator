@@ -17,6 +17,26 @@
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
       "readReceiptSha256": "e9cbb153166d23b1a4acf5b293cb5b1edc33c3c2524cbcca0baaf32b022c0301"
+    },
+    {
+      "id": "hkust-medicine-divisions-announcement-20261125",
+      "url": "https://hkust.edu.hk/news/hkust-advances-preparatory-work-school-medicine-steady-progress-infrastructure-curriculum",
+      "title": "港科大医学院 · 校方公布筹建进度与两学部署任主管",
+      "checkedAt": "2026-11-25",
+      "publishedAt": "2026-10-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "校方进度公告按职务指明两个学部及两位署任主管；公告未列完整组织名单。",
+      "claims": [
+        "梁如鴻（Anskar YH Leung）为临床医学学部署任主管。",
+        "Elaine Holmes 为生物医学科学学部署任主管。",
+        "校方当时预计2028/29首届医学学生入学；具体页面未给两个学部的研究型硕博申请或余位。"
+      ],
+      "knownIssues": [],
+      "listedNames": [
+        "Division of Clinical Medicine",
+        "Division of Biomedical Science"
+      ]
     }
   ],
   "reviewedNavigation": [
@@ -25,6 +45,62 @@
       "sourceId": "hkust-medicine-mbbs-scope-20261106",
       "scope": "这份招生页针对四年制医学学士课程。官网暂定约 2027 年中开放申请、2028/29 学年入学，课程开办须获认证。研究型硕博请另查相应项目页。",
       "kind": "training_scope"
+    }
+  ],
+  "organizationUpdate": {
+    "checkedAt": "2026-11-25",
+    "status": "listed_children_matched",
+    "summary": "校方公告确认临床医学学部和生物医学科学学部，并分别列出署任主管。两学部的独立官网、师资名录与当期研究型硕博申请待核。医学院另有拟于 2028/29 入学的学士后医学课程（MBBS）。",
+    "organizationComplete": false,
+    "facultyComplete": false,
+    "listedChildren": 2
+  },
+  "children": [
+    {
+      "name": "Division of Clinical Medicine",
+      "url": null,
+      "entryBodyStatus": "not_read",
+      "teacherProfilesTotal": null,
+      "teacherReviewStatus": "pending",
+      "relationship": "listed_on_parent_page",
+      "kind": "division",
+      "observedName": "Division of Clinical Medicine",
+      "inventoryListing": {
+        "name": "Division of Clinical Medicine",
+        "url": null,
+        "sourceIds": [
+          "hkust-medicine-divisions-announcement-20261125"
+        ]
+      },
+      "inventorySourceIds": [
+        "hkust-medicine-divisions-announcement-20261125"
+      ],
+      "parentEvidenceStatus": "body_read",
+      "supervisionEligibility": "unknown",
+      "availability": "unknown"
+    },
+    {
+      "name": "Division of Biomedical Science",
+      "url": null,
+      "entryBodyStatus": "not_read",
+      "teacherProfilesTotal": null,
+      "teacherReviewStatus": "pending",
+      "relationship": "listed_on_parent_page",
+      "kind": "division",
+      "observedName": "Division of Biomedical Science",
+      "inventoryListing": {
+        "name": "Division of Biomedical Science",
+        "url": null,
+        "sourceIds": [
+          "hkust-medicine-divisions-announcement-20261125"
+        ]
+      },
+      "inventorySourceIds": [
+        "hkust-medicine-divisions-announcement-20261125"
+      ],
+      "parentEvidenceStatus": "body_read",
+      "supervisionEligibility": "unknown",
+      "availability": "unknown"
     }
   ]
 }
