@@ -1801,6 +1801,9 @@ def build_catalog():
         catalog["sources"].extend(ece_rap["sources"])
         catalog["faculty"].extend(ece_rap["faculty"])
         ece_directory["reviewSourceIds"].append(ece_rap["directoryReviewSourceId"])
+    ece_affiliates = load("hku-ece-honorary-and-advisors-20261125.json")
+    for field in ("sources", "directories", "faculty"):
+        catalog[field].extend(ece_affiliates[field])
     cityu_ee = load("cityu-ee-phd-requirements-20261116.json")
     route = next(row for row in catalog["programs"] if row["id"] == cityu_ee["stableId"])
     actions = ("选择自己的学历路径并准备相应证明。", "核考试日、送分有效期和语言要求。", "按网申材料清单提交，填写感兴趣的研究领域。")

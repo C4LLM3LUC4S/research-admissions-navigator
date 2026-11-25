@@ -140265,6 +140265,47 @@
       "identityNote": "院系个人页的履历使用 Presidential Research Assistant Professor。"
     },
     {
+      "id": "hku-ece-jacqueline-lam",
+      "universityId": "hku",
+      "name": "Jacqueline Chi Kei Lam",
+      "department": "Department of Electrical and Computer Engineering",
+      "role": "Honorary Associate Professor",
+      "topics": [
+        "人工智能",
+        "环境与可持续发展",
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "社会公益人工智能",
+        "空气污染监测",
+        "公共健康",
+        "AI for Social Good",
+        "air pollution monitoring",
+        "public health"
+      ],
+      "summary": "研究人工智能在环境和公共健康中的应用，包括空气污染监测。",
+      "profileUrl": "https://ece.hku.hk/people/jcklam/",
+      "sourceIds": [
+        "hku-ece-honorary-adjunct-20261125",
+        "hku-ece-lam-jacqueline-official-20261125"
+      ],
+      "directorySourceIds": [
+        "hku-ece-honorary-adjunct-20261125"
+      ],
+      "keywordSourceIds": [
+        "hku-ece-lam-jacqueline-official-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "当前轮次及名额未核实",
+        "sourceIds": [
+          "hku-ece-honorary-adjunct-20261125",
+          "hku-ece-lam-jacqueline-official-20261125"
+        ]
+      }
+    },
+    {
       "id": "hku-mse-hwchoi",
       "universityId": "hku",
       "name": "Anthony CHOI",
@@ -278563,6 +278604,416 @@
       "parentSourceId": "hku-ece-rap-zhaolin-wang-profile-20261124"
     },
     {
+      "id": "hku-ece-honorary-adjunct-20261125",
+      "url": "https://ece.hku.hk/people-honorary-and-visiting-staff/",
+      "title": "港大电机与计算机工程系 · 荣誉、兼任及访问人员",
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_reader",
+      "scope": "院系名录的 7 个分段，共 43 条所见人员记录。",
+      "claims": [
+        "人员标题明确列 26 条荣誉、15 条兼任及 2 条访问。"
+      ],
+      "discoveredLinks": [
+        "https://ece.hku.hk/people/jcklam/"
+      ],
+      "knownIssues": [
+        "本页所见姓名标题中，只有 Jacqueline Lam 带个人链接。"
+      ],
+      "observedStaffCards": [
+        {
+          "name": "Prof. D. CARDWELL",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. C.C. CHAN",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Kwok-Tong CHAU",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Paul Y.S. CHEUNG",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. David John HILL",
+          "directoryPosition": "荣休教授、荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Y.S. HUNG",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. R.Y.K. KWOK",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. P.T. LAI",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. C.K. LEE",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Tung Sang NG",
+          "directoryPosition": "荣休教授、荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Wai Yin Paul POON",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. R.C. ROBERTS",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. K.F. SO",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Felix Fulih WU",
+          "directoryPosition": "荣休教授、荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. H. WU",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. H. YU",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. W. ZHANG",
+          "directoryPosition": "荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Jacqueline Chi Kei LAM",
+          "directoryPosition": "荣誉副教授",
+          "profileUrl": "https://ece.hku.hk/people/jcklam/",
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Christopher Ho Tin LEE",
+          "directoryPosition": "荣誉副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Yunhe HOU",
+          "directoryPosition": "荣誉副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Grantham Kwok Hung PANG",
+          "directoryPosition": "荣誉副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Edward Wai Chau LO",
+          "directoryPosition": "荣誉副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Ir Dr. Herman Tze Wood CHING",
+          "directoryPosition": "荣誉助理教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Ir Wing Kin LEE",
+          "directoryPosition": "荣誉首席讲师",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Albert Ting Pat SO",
+          "directoryPosition": "荣誉讲师",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Y. YANG",
+          "directoryPosition": "荣誉研究助理教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Fuk Cheung CHAN",
+          "directoryPosition": "兼任教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Loong Geoffrey CHAN",
+          "directoryPosition": "兼任教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Vincent Simon HO",
+          "directoryPosition": "兼任教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Kin Man LEUNG",
+          "directoryPosition": "兼任教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Bing Kau MAK",
+          "directoryPosition": "兼任教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Mr. Kwong Fat CHAN",
+          "directoryPosition": "兼任副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Terence Kin Yuk CHUNG",
+          "directoryPosition": "兼任副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Ir Chi Shing HO",
+          "directoryPosition": "兼任副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Henry Kwong Han LEUNG",
+          "directoryPosition": "兼任副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Mr. Patrick Yiu Chung YEUNG",
+          "directoryPosition": "兼任副教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Mr. Chi Wah CHEUNG",
+          "directoryPosition": "兼任助理教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Ir Dr. Wing Han CHING",
+          "directoryPosition": "兼任助理教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Chi Wa LAM",
+          "directoryPosition": "兼任助理教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Chik Wai NG",
+          "directoryPosition": "兼任教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Ir. Chi Cheung NGAN",
+          "directoryPosition": "兼任助理教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. W.C. CHEW",
+          "directoryPosition": "访问荣誉教授",
+          "profileUrl": null,
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. J.C.C. WONG",
+          "directoryPosition": "访问讲师",
+          "profileUrl": null,
+          "providedLinks": []
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-external-advisors-20261125",
+      "url": "https://ece.hku.hk/people-external-advisors/",
+      "title": "港大电机与计算机工程系 · 外部顾问",
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_reader",
+      "scope": "同一院系页面分列国际顾问及业界顾问。",
+      "claims": [
+        "名录列 4 条国际顾问及 2 条业界顾问。"
+      ],
+      "discoveredLinks": [
+        "https://people.epfl.ch/david.atienza/?lang=en",
+        "https://profiles.imperial.ac.uk/kin.leung",
+        "https://www.eas.caltech.edu/people/chyang",
+        "https://www.ece.utoronto.ca/people/yu-w/",
+        "https://www.linkedin.com/in/david-poon-691189",
+        "https://aiquanta.ai/"
+      ],
+      "knownIssues": [
+        "外部顾问属于所列机构的任职口径。"
+      ],
+      "observedStaffCards": [
+        {
+          "name": "Prof. David ATIENZA ALONSO",
+          "directoryPosition": "国际顾问 · 洛桑联邦理工学院",
+          "profileUrl": "https://people.epfl.ch/david.atienza/?lang=en",
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Kin LEUNG",
+          "directoryPosition": "国际顾问 · 帝国理工学院",
+          "profileUrl": "https://profiles.imperial.ac.uk/kin.leung",
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Changhuei YANG",
+          "directoryPosition": "国际顾问 · 加州理工学院",
+          "profileUrl": "https://www.eas.caltech.edu/people/chyang",
+          "providedLinks": []
+        },
+        {
+          "name": "Prof. Wei YU",
+          "directoryPosition": "国际顾问 · 多伦多大学",
+          "profileUrl": "https://www.ece.utoronto.ca/people/yu-w/",
+          "providedLinks": []
+        },
+        {
+          "name": "Mr. David POON",
+          "directoryPosition": "业界顾问 · 英飞凌大中华区",
+          "profileUrl": "https://www.linkedin.com/in/david-poon-691189",
+          "providedLinks": []
+        },
+        {
+          "name": "Dr. Nim-Kwan CHEUNG",
+          "directoryPosition": "业界顾问 · AIquanta",
+          "profileUrl": "https://aiquanta.ai/",
+          "providedLinks": []
+        }
+      ]
+    },
+    {
+      "id": "hku-ece-lam-jacqueline-official-20261125",
+      "url": "https://ece.hku.hk/people/jcklam/",
+      "title": "港大 · Jacqueline Chi Kei Lam 个人主页",
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_reader",
+      "scope": "院系个人页任职。",
+      "claims": [
+        "本人校方档案列荣誉副教授。",
+        "研究关注人工智能在环境与公共健康中的应用。"
+      ],
+      "discoveredLinks": [],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-ece-external-advisors-20261125-profile-1",
+      "url": "https://people.epfl.ch/david.atienza/?lang=en",
+      "title": "Prof. David ATIENZA ALONSO · 原机构个人页",
+      "checkedAt": "2026-11-25",
+      "scope": "院系顾问名录所给外校个人主页。",
+      "claims": [
+        "EPFL 学校个人页列嵌入式系统实验室任职。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "parentSourceId": "hku-ece-external-advisors-20261125"
+    },
+    {
+      "id": "hku-ece-external-advisors-20261125-profile-2",
+      "url": "https://profiles.imperial.ac.uk/kin.leung",
+      "title": "Prof. Kin LEUNG · 原机构个人页",
+      "checkedAt": "2026-11-25",
+      "scope": "院系顾问名录所给外校个人主页。",
+      "claims": [
+        "帝国理工学院个人页列电气电子工程与计算机任职。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "parentSourceId": "hku-ece-external-advisors-20261125"
+    },
+    {
+      "id": "hku-ece-external-advisors-20261125-profile-3",
+      "url": "https://www.eas.caltech.edu/people/chyang",
+      "title": "Prof. Changhuei YANG · 原机构个人页",
+      "checkedAt": "2026-11-25",
+      "scope": "院系顾问名录所给外校个人主页。",
+      "claims": [
+        "加州理工学院个人页列电气工程、生物工程与医用工程任职。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "parentSourceId": "hku-ece-external-advisors-20261125"
+    },
+    {
+      "id": "hku-ece-external-advisors-20261125-profile-4",
+      "url": "https://www.ece.utoronto.ca/people/yu-w/",
+      "title": "Prof. Wei YU · 原机构个人页",
+      "checkedAt": "2026-11-25",
+      "scope": "院系顾问名录所给外校个人主页。",
+      "claims": [
+        "多伦多大学个人页列电气和计算机工程及信息论和无线通信研究。"
+      ],
+      "knownIssues": [],
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "readMethod": "web_reader",
+      "parentSourceId": "hku-ece-external-advisors-20261125"
+    },
+    {
       "id": "hkust-cse-2027-fee",
       "url": "https://prog-crs.hkust.edu.hk/pgprog/2027-28/mphil-phd-cse",
       "title": "港科大 · 计算机科学与工程 2027/28 项目目录申请费",
@@ -314239,6 +314690,423 @@
           "access_failed": 4
         }
       }
+    },
+    {
+      "id": "hku-ece-honorary-adjunct-20261125-directory",
+      "universityId": "hku",
+      "unit": "电机与计算机工程系 · 荣誉、兼任及访问人员",
+      "url": "https://ece.hku.hk/people-honorary-and-visiting-staff/",
+      "sourceIds": [
+        "hku-ece-honorary-adjunct-20261125"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "按页面列出的荣誉、兼任、访问身份展示。指导资格、招募和余位分别核对。",
+      "observedNamedCards": 43,
+      "enumerationScope": "saved_body_cards_only",
+      "census": {
+        "observedTotal": 1,
+        "profilesRead": 1,
+        "profilesFailed": 0,
+        "checkedAt": "2026-11-25",
+        "entries": [
+          {
+            "name": "Prof. Jacqueline Chi Kei LAM",
+            "directoryPosition": "荣誉副教授",
+            "profileUrl": "https://ece.hku.hk/people/jcklam/",
+            "providedLinks": [],
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读院系个人页。",
+            "facultyId": "hku-ece-jacqueline-lam",
+            "sourceId": "hku-ece-lam-jacqueline-official-20261125"
+          }
+        ],
+        "unlinkedEntries": [
+          {
+            "name": "Prof. D. CARDWELL",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. C.C. CHAN",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Kwok-Tong CHAU",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Paul Y.S. CHEUNG",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. David John HILL",
+            "directoryPosition": "荣休教授、荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Y.S. HUNG",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. R.Y.K. KWOK",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. P.T. LAI",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. C.K. LEE",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Tung Sang NG",
+            "directoryPosition": "荣休教授、荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Wai Yin Paul POON",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. R.C. ROBERTS",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. K.F. SO",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Felix Fulih WU",
+            "directoryPosition": "荣休教授、荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. H. WU",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. H. YU",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. W. ZHANG",
+            "directoryPosition": "荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Christopher Ho Tin LEE",
+            "directoryPosition": "荣誉副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Yunhe HOU",
+            "directoryPosition": "荣誉副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Grantham Kwok Hung PANG",
+            "directoryPosition": "荣誉副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Edward Wai Chau LO",
+            "directoryPosition": "荣誉副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Ir Dr. Herman Tze Wood CHING",
+            "directoryPosition": "荣誉助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Ir Wing Kin LEE",
+            "directoryPosition": "荣誉首席讲师",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Albert Ting Pat SO",
+            "directoryPosition": "荣誉讲师",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Y. YANG",
+            "directoryPosition": "荣誉研究助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Fuk Cheung CHAN",
+            "directoryPosition": "兼任教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Loong Geoffrey CHAN",
+            "directoryPosition": "兼任教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Vincent Simon HO",
+            "directoryPosition": "兼任教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Kin Man LEUNG",
+            "directoryPosition": "兼任教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Bing Kau MAK",
+            "directoryPosition": "兼任教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Mr. Kwong Fat CHAN",
+            "directoryPosition": "兼任副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Terence Kin Yuk CHUNG",
+            "directoryPosition": "兼任副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Ir Chi Shing HO",
+            "directoryPosition": "兼任副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. Henry Kwong Han LEUNG",
+            "directoryPosition": "兼任副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Mr. Patrick Yiu Chung YEUNG",
+            "directoryPosition": "兼任副教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Mr. Chi Wah CHEUNG",
+            "directoryPosition": "兼任助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Ir Dr. Wing Han CHING",
+            "directoryPosition": "兼任助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Chi Wa LAM",
+            "directoryPosition": "兼任助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. Chik Wai NG",
+            "directoryPosition": "兼任教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Ir. Chi Cheung NGAN",
+            "directoryPosition": "兼任助理教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Prof. W.C. CHEW",
+            "directoryPosition": "访问荣誉教授",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          },
+          {
+            "name": "Dr. J.C.C. WONG",
+            "directoryPosition": "访问讲师",
+            "profileUrl": null,
+            "providedLinks": [],
+            "reason": "该名录卡未给独立个人链接。"
+          }
+        ]
+      },
+      "reviewSourceIds": [
+        "hku-ece-lam-jacqueline-official-20261125"
+      ]
+    },
+    {
+      "id": "hku-ece-external-advisors-20261125-directory",
+      "universityId": "hku",
+      "unit": "电机与计算机工程系 · 外部顾问",
+      "url": "https://ece.hku.hk/people-external-advisors/",
+      "sourceIds": [
+        "hku-ece-external-advisors-20261125"
+      ],
+      "coverageComplete": false,
+      "coverageNotes": "本页列院系外部顾问。可查看所给个人或机构资料。",
+      "observedNamedCards": 6,
+      "enumerationScope": "saved_body_cards_only",
+      "census": {
+        "observedTotal": 6,
+        "profilesRead": 4,
+        "profilesFailed": 2,
+        "checkedAt": "2026-11-25",
+        "entries": [
+          {
+            "name": "Prof. David ATIENZA ALONSO",
+            "directoryPosition": "国际顾问 · 洛桑联邦理工学院",
+            "profileUrl": "https://people.epfl.ch/david.atienza/?lang=en",
+            "providedLinks": [],
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读 EPFL 学校个人页。",
+            "sourceId": "hku-ece-external-advisors-20261125-profile-1"
+          },
+          {
+            "name": "Prof. Kin LEUNG",
+            "directoryPosition": "国际顾问 · 帝国理工学院",
+            "profileUrl": "https://profiles.imperial.ac.uk/kin.leung",
+            "providedLinks": [],
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读帝国理工学院个人页。",
+            "sourceId": "hku-ece-external-advisors-20261125-profile-2"
+          },
+          {
+            "name": "Prof. Changhuei YANG",
+            "directoryPosition": "国际顾问 · 加州理工学院",
+            "profileUrl": "https://www.eas.caltech.edu/people/chyang",
+            "providedLinks": [],
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读加州理工学院个人页。",
+            "sourceId": "hku-ece-external-advisors-20261125-profile-3"
+          },
+          {
+            "name": "Prof. Wei YU",
+            "directoryPosition": "国际顾问 · 多伦多大学",
+            "profileUrl": "https://www.ece.utoronto.ca/people/yu-w/",
+            "providedLinks": [],
+            "profileRead": true,
+            "reviewStatus": "body_read",
+            "reviewNote": "已核读多伦多大学个人页。",
+            "sourceId": "hku-ece-external-advisors-20261125-profile-4"
+          },
+          {
+            "name": "Mr. David POON",
+            "directoryPosition": "业界顾问 · 英飞凌大中华区",
+            "profileUrl": "https://www.linkedin.com/in/david-poon-691189",
+            "providedLinks": [],
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "外部个人页返回 429，正文待核。"
+          },
+          {
+            "name": "Dr. Nim-Kwan CHEUNG",
+            "directoryPosition": "业界顾问 · AIquanta",
+            "profileUrl": "https://aiquanta.ai/",
+            "providedLinks": [],
+            "profileRead": false,
+            "reviewStatus": "access_failed",
+            "reviewNote": "落地为公司主页，顾问个人页正文待核。"
+          }
+        ],
+        "unlinkedEntries": []
+      },
+      "reviewSourceIds": [
+        "hku-ece-external-advisors-20261125-profile-1",
+        "hku-ece-external-advisors-20261125-profile-2",
+        "hku-ece-external-advisors-20261125-profile-3",
+        "hku-ece-external-advisors-20261125-profile-4"
+      ]
     },
     {
       "id": "polyu-fsn-staff-directory",
@@ -366309,5 +367177,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:b91aeb3cd3cec25a9abdf9414e4837431de4f435edd89413fddc66dd9d08df8c"
+  "snapshotId": "sha256:07c05d66b0854b2d9670d96f3bdd6c7ccc9ba6a208a06423c22fac6e39f5ffdc"
 }

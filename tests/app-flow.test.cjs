@@ -512,7 +512,7 @@ test('science-unit queue shows scoped names, supplied group sites and the unread
  const bio=reviews.find(n=>n.textContent.includes('查看生物科学学院人员页面'));assert.ok(bio);assert.match(bio.textContent,/本页已核对 48 张人员卡/);assert.match(bio.textContent,/Timothy C\. Bonebrake/);assert.match(bio.textContent,/Professor, Director/);assert.match(bio.textContent,/网站正文待核/);assert.ok(h.walk(bio).some(n=>n.tagName==='a'&&n.href==='https://tropicalconslab.com/'));assert.match(bio.textContent,/原网址：http:\/\/www\.biosch\.hku\.hk\/staff\/ay\/index\.html/);
  assert.match(bio.textContent,/暂未归类不等于没有个人主页/);assert.doesNotMatch(bio.textContent,/原页未给这些人员的独立个人主页/);
  const chemistry=reviews.find(n=>n.textContent.includes('查看化学系人员页面'));assert.match(chemistry.textContent,/本页已核对 31 张人员卡/);assert.doesNotMatch(chemistry.textContent,/0 个主页/);
- const physics=reviews.find(n=>n.textContent.includes('查看物理系人员页面'));assert.match(physics.textContent,/63 个个人主页正文待核/);assert.match(physics.textContent,/同名卡片保留各自原主页/);
+ const physics=reviews.find(n=>n.textContent.includes('查看物理系人员页面'));assert.match(physics.textContent,/63 个给出个人主页，已读 63 个，待核 0 个/);assert.match(physics.textContent,/同名卡片保留各自原主页/);
  const math=reviews.find(n=>n.textContent.includes('查看数学系人员页面'));assert.ok(math);assert.match(math.textContent,/嵌入页发生重定向循环，未读到姓名/);assert.ok(h.walk(el('academic-coverage')).some(n=>n.tagName==='a'&&n.href==='https://hkumath.hku.hk/web/index.php'));
  assert.match(bio.textContent,/目标正文待核/);assert.equal(h.networkCalls(),0);
 });

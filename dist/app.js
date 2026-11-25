@@ -189,7 +189,7 @@
   }
   function directoryCard(d) {
     const card=node('article',null,'result-card'),u=university(d.universityId),count=L.reviewedForDirectory(C,d),census=d.census;
-    const status=d.observedNamedCards!==undefined?'本页已核对 '+d.observedNamedCards+' 张人员卡。'+(census.observedTotal?'其中 '+census.observedTotal+' 个个人主页正文待核。':'所给网站与逐人核查进度见下方；暂未归类不等于没有个人主页。'):census?directoryCensusProgress(census):count?'已整理其中 '+count+' 位老师的研究方向，仍有其他老师尚未收录。':'这个院系的个人页还没整理好，可以先从官网继续找。';
+    const status=d.observedNamedCards!==undefined?'本页已核对 '+d.observedNamedCards+' 张人员卡。'+(census.observedTotal?'其中 '+census.observedTotal+' 个给出个人主页，已读 '+census.profilesRead+' 个，待核 '+census.profilesFailed+' 个。':'所给网站与逐人核查进度见下方；暂未归类不等于没有个人主页。'):census?directoryCensusProgress(census):count?'已整理其中 '+count+' 位老师的研究方向，仍有其他老师尚未收录。':'这个院系的个人页还没整理好，可以先从官网继续找。';
     append(card,topLine(u),academicTitle('h3',d.unit),node('p','从院系官网查看老师、研究方向和个人主页。','coverage-status'),link('查看官方师资目录 ↗',d.url));
     if(d.applicationGuideSourceId){
       const guide=C.sources.find(s=>s.id===d.applicationGuideSourceId);
@@ -200,7 +200,7 @@
       if(entry.linkedSourceId){
         const source=C.sources.find(item=>item.id===entry.linkedSourceId);
         const destination=source&&L.sourceUrl(C,source);
-        if(destination)li.append(link('打开已核资料 ↗',destination));
+        if(destination&&destination!==entry.profileUrl)li.append(link('打开已核资料 ↗',destination));
       }
       list.append(li);});(census.unlinkedEntries||[]).forEach(entry=>{const li=node('li');append(li,node('span',entry.name),node('div',(entry.directoryPosition?entry.directoryPosition+' · ':'')+entry.reason,'field-help'));(entry.providedLinks||[]).forEach(extra=>{append(li,observedProfileLink(extra.label+' ↗',extra.url,d.sourceIds),node('span',' · '+(entry.groupLinkReview||'网站正文待核'),'field-help'));if(extra.url.startsWith('http://'))li.append(node('div','原网址：'+extra.url,'field-help'));});list.append(li);});progress.append(list);if((d.identityNotes||[]).length)progress.append(node('p','同名卡片保留各自原主页，尚未按姓名合并或认定为不同自然人：'+d.identityNotes.join('、'),'field-help'));}
     append(card,progress,evidence([...d.sourceIds,...(d.reviewSourceIds||[])]));return card;
