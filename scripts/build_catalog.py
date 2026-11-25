@@ -653,7 +653,14 @@ def build_catalog():
         scope = load(name)
         catalog["sources"].extend(scope["sources"])
         unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == scope["unitId"])
-        unit["organizationReview"]["sourceIds"].extend(source["id"] for source in scope["sources"])
+        previous_review = unit["organizationReview"]
+        source_ids = previous_review["sourceIds"] + [source["id"] for source in scope["sources"]]
+        if "organizationUpdate" in scope:
+            unit.setdefault("organizationReviewHistory", []).append(previous_review)
+            unit["organizationReview"] = dict(scope["organizationUpdate"], sourceIds=source_ids)
+            unit["children"].extend(scope["children"])
+        else:
+            previous_review["sourceIds"] = source_ids
         unit.setdefault("reviewedNavigation", []).extend(scope["reviewedNavigation"])
     cityu_report = load("cityu-annual-report-scope-20261106.json")
     catalog["sources"].extend(cityu_report["sources"])
