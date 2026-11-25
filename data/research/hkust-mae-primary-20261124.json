@@ -871,6 +871,32 @@
       "discoveredLinks": [
         "https://maeylu.people.ust.hk/people/"
       ]
+    },
+    {
+      "id": "hkust-mae-primary-chen-yong-alternate-20261125",
+      "url": "https://ri.hkust.edu.hk/node/660",
+      "title": "Yong Chen · 港科大鄭家純機器人研究院",
+      "scope": "研究院个人页的机械与航空航天工程任职和研究方向。",
+      "claims": [
+        "研究院列陈勇为系主任及讲座教授，提到 2025 年 12 月加入港科大，研究包括增材制造及相关建模和控制。"
+      ],
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-mae-primary-sun-qingping-alternate-20261125",
+      "url": "https://seng.hkust.edu.hk/about/people/faculty/qingping-sun",
+      "title": "Qingping Sun · 港科大工学院",
+      "scope": "工学院个人页的研究兴趣和学术简介。",
+      "claims": [
+        "工学院个人页列空调与制冷、固体相变和失稳、纳米结构材料与形状记忆材料，并介绍弹热固态制冷研究。"
+      ],
+      "checkedAt": "2026-11-25",
+      "evidenceLevel": "official_verified_page_scoped",
+      "readMethod": "web_tool_actual_body",
+      "knownIssues": []
     }
   ],
   "faculty": [
@@ -890,18 +916,23 @@
         "功能器件",
         "可持续制造",
         "Additive manufacturing",
-        "Micro/nanoscale fabrication"
+        "Micro/nanoscale fabrication",
+        "增材制造建模",
+        "增材制造控制",
+        "Additive manufacturing control"
       ],
-      "summary": "研究方向包括增材制造、微纳制造、功能器件与可持续制造。",
+      "summary": "研究方向包括增材制造、微纳制造、功能器件与可持续制造。港科大机器人研究院另列增材制造建模与控制。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/chen-yong",
       "sourceIds": [
-        "hkust-mae-primary-chen-yong-profile-20261124"
+        "hkust-mae-primary-chen-yong-profile-20261124",
+        "hkust-mae-primary-chen-yong-alternate-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
       ],
       "keywordSourceIds": [
-        "hkust-mae-primary-chen-yong-profile-20261124"
+        "hkust-mae-primary-chen-yong-profile-20261124",
+        "hkust-mae-primary-chen-yong-alternate-20261125"
       ],
       "availability": {
         "state": "unknown",
@@ -917,7 +948,7 @@
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-chen-yong-profile-20261124",
           "bodyStatus": "not_read",
-          "readNote": "证书校验失败，正文待核。"
+          "readNote": "原研究主页曾出现证书校验失败，后仅取得框架提示，正文待核。"
         }
       ]
     },
@@ -1025,18 +1056,24 @@
         "形状记忆合金",
         "热机械行为",
         "Phase transition in solids",
-        "Shape memory alloys"
+        "Shape memory alloys",
+        "弹热制冷",
+        "固态制冷",
+        "弹热效应",
+        "Elastocaloric refrigeration"
       ],
-      "summary": "研究方向包括固体相变、形状记忆合金、热机械行为。",
+      "summary": "研究方向包括固体相变、形状记忆合金、热机械行为。港科大工学院另有弹热固态制冷研究介绍。",
       "profileUrl": "https://mae.hkust.edu.hk/en/people/faculty/detail/sun-qingping",
       "sourceIds": [
-        "hkust-mae-primary-sun-qingping-profile-20261124"
+        "hkust-mae-primary-sun-qingping-profile-20261124",
+        "hkust-mae-primary-sun-qingping-alternate-20261125"
       ],
       "directorySourceIds": [
         "hkust-mae-primary-directory-20261124"
       ],
       "keywordSourceIds": [
-        "hkust-mae-primary-sun-qingping-profile-20261124"
+        "hkust-mae-primary-sun-qingping-profile-20261124",
+        "hkust-mae-primary-sun-qingping-alternate-20261125"
       ],
       "availability": {
         "state": "unknown",
@@ -1052,7 +1089,7 @@
           "label": "研究主页",
           "parentSourceId": "hkust-mae-primary-sun-qingping-profile-20261124",
           "bodyStatus": "not_read",
-          "readNote": "仅保留院系所给链接。"
+          "readNote": "原研究主页无法读取，保留院系所给入口，正文待核。"
         }
       ]
     },
