@@ -126,6 +126,128 @@
         "校级研究门户列出建成遗产保护、城市规划与开发、城市可持续性等研究主题。"
       ],
       "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-michael-yam-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/ir-prof-michael-ch-yam/",
+      "title": "Michael C. H. Yam · 港理工学系个人页",
+      "scope": "个人任职与研究方向。",
+      "claims": [
+        "研究钢结构连接、抗震钢结构及施工健康与安全。"
+      ],
+      "knownIssues": [
+        "网页标题保留旧系名，现行职务依据人员目录。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/chi-ho-michael-yam/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-michael-yam-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/chi-ho-michael-yam/",
+      "title": "Michael C. H. Yam · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "研究方向和成果可在校级研究门户查看。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-heng-li-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-heng-li/",
+      "title": "Heng Li · 港理工学系个人页",
+      "scope": "个人任职与研究方向。",
+      "claims": [
+        "研究数字化建造、智能施工、机器人与人体工程学。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/heng-li/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-heng-li-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/heng-li/",
+      "title": "Heng Li · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "研究方向和成果可在校级研究门户查看。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-geoffrey-shen-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-geoffrey-qp-shen/",
+      "title": "Geoffrey Q. P. Shen · 港理工学系个人页",
+      "scope": "个人任职与研究方向。",
+      "claims": [
+        "研究施工管理，重点关注可持续建造。"
+      ],
+      "knownIssues": [
+        "校级研究门户姓名显示为 Qiping Shen，学系个人页列 Geoffrey Shen。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/qiping-shen/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-geoffrey-shen-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/qiping-shen/",
+      "title": "Geoffrey Q. P. Shen · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "研究方向和成果可在校级研究门户查看。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-albert-chan-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/ir-prof-albert-pc-chan/",
+      "title": "Albert P. C. Chan · 港理工学系个人页",
+      "scope": "个人任职与研究方向。",
+      "claims": [
+        "研究工程项目管理、施工采购与关系型合同、公私营合作及施工健康与安全。"
+      ],
+      "knownIssues": [
+        "个人简历记录 2015–2021 年曾任系主任，目前名录为杰出研究教授。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ping-chuen-chan/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-albert-chan-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/ping-chuen-chan/",
+      "title": "Albert P. C. Chan · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "研究方向和成果可在校级研究门户查看。"
+      ],
+      "knownIssues": []
     }
   ],
   "organizationSourceIds": [
@@ -290,6 +412,198 @@
           "sourceId": "polyu-cmi-esther-yung-portal-20261128",
           "bodyStatus": "body_read",
           "readNote": "已读研究兴趣。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-michael-yam",
+      "name": "Michael C. H. Yam",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "系主任、教授",
+      "directoryRole": "系主任、教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/ir-prof-michael-ch-yam/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "钢结构连接",
+        "钢结构抗震",
+        "施工健康与安全",
+        "Structural steel connections",
+        "Earthquake-resilient steel structures",
+        "Construction health and safety"
+      ],
+      "summary": "研究钢结构连接、抗震钢结构及施工健康与安全。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-michael-yam-profile-20261128",
+        "polyu-cmi-michael-yam-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-michael-yam-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/chi-ho-michael-yam/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-michael-yam-profile-20261128",
+          "sourceId": "polyu-cmi-michael-yam-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣或简介。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-heng-li",
+      "name": "Heng Li",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "施工信息学讲座教授",
+      "directoryRole": "施工信息学讲座教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-heng-li/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "数字化建造",
+        "智能施工",
+        "施工机器人",
+        "人体工程学",
+        "Digital construction",
+        "Smart construction",
+        "Construction robotics",
+        "Ergonomics"
+      ],
+      "summary": "研究数字化建造、智能施工、机器人与人体工程学。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-heng-li-profile-20261128",
+        "polyu-cmi-heng-li-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-heng-li-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/heng-li/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-heng-li-profile-20261128",
+          "sourceId": "polyu-cmi-heng-li-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣或简介。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-geoffrey-shen",
+      "name": "Geoffrey Q. P. Shen",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "施工管理讲座教授",
+      "directoryRole": "施工管理讲座教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-geoffrey-qp-shen/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工管理",
+        "可持续建造",
+        "Construction management",
+        "Sustainable construction"
+      ],
+      "summary": "研究施工管理，重点关注可持续建造。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-geoffrey-shen-profile-20261128",
+        "polyu-cmi-geoffrey-shen-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-geoffrey-shen-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/qiping-shen/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-geoffrey-shen-profile-20261128",
+          "sourceId": "polyu-cmi-geoffrey-shen-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣或简介。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-albert-chan",
+      "name": "Albert P. C. Chan",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "杰出研究教授",
+      "directoryRole": "杰出研究教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/ir-prof-albert-pc-chan/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "工程项目管理",
+        "施工采购",
+        "关系型合同",
+        "公私营合作",
+        "施工健康与安全",
+        "Project management",
+        "Construction procurement",
+        "Relational contracting",
+        "Public-private partnerships",
+        "Construction health and safety"
+      ],
+      "summary": "研究工程项目管理、施工采购与关系型合同、公私营合作及施工健康与安全。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-albert-chan-profile-20261128",
+        "polyu-cmi-albert-chan-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-albert-chan-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ping-chuen-chan/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-albert-chan-profile-20261128",
+          "sourceId": "polyu-cmi-albert-chan-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究兴趣或简介。"
         }
       ],
       "availability": {
