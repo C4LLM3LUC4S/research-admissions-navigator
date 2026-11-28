@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "checkedDate": "2026-11-25",
+  "checkedDate": "2026-11-28",
   "cycle": "2027/28",
   "universities": [
     {
@@ -85738,6 +85738,111 @@
         ]
       },
       "identityNote": "学部署任主管依据校方公告，个人研究依据港科大研究门户。"
+    },
+    {
+      "id": "hkust-medicine-roger-ho",
+      "name": "Chun Man Roger Ho / 何振民",
+      "universityId": "hkust",
+      "department": "Office of the Dean of Medicine",
+      "role": "Acting Associate Dean; Clinical Professor",
+      "directoryRole": "Acting Associate Dean; Clinical Professor",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/chun-man-roger-ho/",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "精准精神医学",
+        "功能性近红外光谱",
+        "药物精神病学",
+        "Precision psychiatry",
+        "Functional near-infrared spectroscopy",
+        "Psychopharmacology"
+      ],
+      "summary": "研究包括精准精神医学、精神药理学与功能性近红外光谱。",
+      "sourceIds": [
+        "hkust-medicine-roger-ho-profile-20261128"
+      ],
+      "keywordSourceIds": [
+        "hkust-medicine-roger-ho-profile-20261128"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-medicine-roger-ho-profile-20261128"
+        ]
+      }
+    },
+    {
+      "id": "hkust-medicine-erik-fung",
+      "name": "Erik Fung / 馮以文",
+      "universityId": "hkust",
+      "department": "Office of the Dean of Medicine",
+      "role": "Clinical Associate Professor",
+      "directoryRole": "Clinical Associate Professor",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/erik-fung/",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "心力衰竭",
+        "虚弱",
+        "心肌病",
+        "运动心脏病学",
+        "Heart failure",
+        "Frailty",
+        "Cardiomyopathies",
+        "Sports cardiology"
+      ],
+      "summary": "研究包括心力衰竭、虚弱、心肌病与运动心脏病学。",
+      "sourceIds": [
+        "hkust-medicine-erik-fung-profile-20261128"
+      ],
+      "keywordSourceIds": [
+        "hkust-medicine-erik-fung-profile-20261128"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-medicine-erik-fung-profile-20261128"
+        ]
+      }
+    },
+    {
+      "id": "hkust-medicine-king-chuen-li",
+      "name": "King Chuen Li / 李競存",
+      "universityId": "hkust",
+      "department": "Office of the Dean of Medicine",
+      "role": "Founding Dean of Medicine; Mayce Yu Professor of Medicine and Chair Professor",
+      "directoryRole": "Founding Dean of Medicine; Mayce Yu Professor of Medicine and Chair Professor",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/king-chuen-li/",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "分子影像",
+        "放射学",
+        "Molecular imaging",
+        "Radiology"
+      ],
+      "summary": "研究包括分子影像与放射学。",
+      "sourceIds": [
+        "hkust-medicine-king-chuen-li-profile-20261128"
+      ],
+      "keywordSourceIds": [
+        "hkust-medicine-king-chuen-li-profile-20261128"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-medicine-king-chuen-li-profile-20261128"
+        ]
+      }
     },
     {
       "id": "polyu-me-su-zhong-qing-prof",
@@ -240453,6 +240558,48 @@
       "knownIssues": []
     },
     {
+      "id": "hkust-medicine-roger-ho-profile-20261128",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/chun-man-roger-ho/",
+      "title": "Chun Man Roger Ho / 何振民 · 港科大研究门户",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "校方个人页所列院长办公室任职与研究方向。",
+      "claims": [
+        "Acting Associate Dean; Clinical Professor",
+        "研究包括精准精神医学、精神药理学与功能性近红外光谱。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-medicine-erik-fung-profile-20261128",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/erik-fung/",
+      "title": "Erik Fung / 馮以文 · 港科大研究门户",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "校方个人页所列院长办公室任职与研究方向。",
+      "claims": [
+        "Clinical Associate Professor",
+        "研究包括心力衰竭、虚弱、心肌病与运动心脏病学。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-medicine-king-chuen-li-profile-20261128",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/king-chuen-li/",
+      "title": "King Chuen Li / 李競存 · 港科大研究门户",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "校方个人页所列院长办公室任职与研究方向。",
+      "claims": [
+        "Founding Dean of Medicine; Mayce Yu Professor of Medicine and Chair Professor",
+        "研究包括分子影像与放射学。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "hkustgz-cft-establishment-20261106",
       "url": "https://www.hkust-gz.edu.cn/zh/2023/03/16/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E6%AD%A3%E5%BC%8F%E6%88%90%E7%AB%8B/?variant=zh-hk",
       "title": "港科广未来技术学院成立公告（2023 年）",
@@ -368482,5 +368629,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:4df435d2b973d4143c3d887b9f750c7eb31c977520579c7b5f9b8842be24b3ba"
+  "snapshotId": "sha256:f70b9f4d2c0f43fcd46959540e3e525a0f667dcecd6cda42fb298f0f25ab0b71"
 }
