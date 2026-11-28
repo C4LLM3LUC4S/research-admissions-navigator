@@ -5,7 +5,7 @@
     "universities": 7,
     "programs": 101,
     "faculty": 2598,
-    "sources": 5056,
+    "sources": 5057,
     "funding": 1,
     "degreeRoutes": 173,
     "facultyByUniversity": {
@@ -20,7 +20,7 @@
     "unknownRecruitment": 2589,
     "dateOnlyDeadlines": 124,
     "programsWithRequirements": 100,
-    "requirementItems": 388,
+    "requirementItems": 390,
     "programsWithFinances": 97,
     "financeItems": 190,
     "officialDirectories": 152,

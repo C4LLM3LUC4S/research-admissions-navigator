@@ -1405,7 +1405,8 @@
         "cityu-ee",
         "cityu-steps",
         "cityu-ee-rpg-admissions-20261029",
-        "cityu-ee-rpg-application-20261029"
+        "cityu-ee-rpg-application-20261029",
+        "cityu-ee-application-checklist-20261128"
       ],
       "evidenceNote": "中央主域曾403；用可读官方步骤与院系页核对，院系独立日程仍需确认。",
       "requirements": [
@@ -1437,6 +1438,17 @@
           "action": "按网申材料清单提交，填写感兴趣的研究领域。",
           "sourceIds": [
             "cityu-ee-rpg-application-20261029"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "准备学历文件和两份学术推荐",
+          "text": "系申请页所链的 2026 年 8 月清单列全阶段学历和成绩单，非英文文件附正式英文译本。附件分别说明常规轮与 HKPFS 的两份学术推荐流程。",
+          "action": "打开附件，按常规轮或 HKPFS 所用流程核对材料。",
+          "sourceIds": [
+            "cityu-ee-application-checklist-20261128"
           ],
           "degrees": [
             "PhD"
@@ -5655,7 +5667,8 @@
       "sourceIds": [
         "cityu-ee-rpg-admissions-20261029",
         "cityu-ee-rpg-aims-20261029",
-        "cityu-ee-rpg-application-20261029"
+        "cityu-ee-rpg-application-20261029",
+        "cityu-ee-application-checklist-20261128"
       ],
       "requirements": [
         {
@@ -5683,16 +5696,24 @@
           ]
         },
         {
-          "label": "博士流程不能直接替代硕士材料",
-          "text": "新读Application页叙述PhD和HKPFS，含2026年12月博士截止与旧2025更新标记。本批尚未核到MPhil完整材料、推荐数量、研究计划格式、截止和个人资助；不套用博士日期或其中混写月额/年额的资金数字。",
-          "action": "从EE和研究院正式入口核MPhil完整材料、费用、资助和截止",
+          "label": "用 EE2/M 核对当期申请",
+          "text": "2026 年 8 月附件列 MPhil 代码 EE2/M，文件名标 2026/27，所读材料未注明 2027/28 的报名窗口。请在正式系统核实材料、日期和实际收费。",
+          "action": "在当期网申核对 EE2/M 的开放及适用要求",
           "sourceIds": [
-            "cityu-ee-rpg-admissions-20261029",
-            "cityu-ee-rpg-application-20261029"
+            "cityu-ee-rpg-application-20261029",
+            "cityu-ee-application-checklist-20261128"
+          ]
+        },
+        {
+          "label": "准备学历文件和两份学术推荐",
+          "text": "系申请页所链的 2026 年 8 月清单列全阶段学历与成绩单，非英文文件附正式英文译本。内地已毕业、在读及境外学历有各自清单。附件列两份学术推荐，常规轮由系统向推荐人发链接。",
+          "action": "打开附件，按自己的学历情况备齐材料；用当期网申核对推荐表。",
+          "sourceIds": [
+            "cityu-ee-application-checklist-20261128"
           ]
         }
       ],
-      "evidenceNote": "学位存在和本页参考条件已核，具体招生学年、完整材料及费用仍未知。旧更新标记、博士步骤和授课MSc年份不能填成MPhil当期要求。"
+      "evidenceNote": "已核实系方参考资格及其提供的材料清单。当期 MPhil 截止、完整材料、费用和资助待核。"
     },
     {
       "id": "polyu-cee-rpg-route",
@@ -215480,6 +215501,24 @@
       ]
     },
     {
+      "id": "cityu-ee-application-checklist-20261128",
+      "url": "https://www.ee.cityu.edu.hk/-/media/project/cityuhk/academic/ee/current_students/research-degree/checklist-for-applicants-of-ee-research-degree-programmes-2026-27.pdf?hash=DCEB9897637AF448DBD0FA234A1A2ADA&rev=eb780427017d4b389aea4eed7f5b63db",
+      "title": "城大电机系 · MPhil 与 PhD 网申材料清单",
+      "checkedAt": "2026-11-28",
+      "publishedAt": "2026-08-01",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "当日院系申请页提供的 PDF，明确列 EE2/M 与 EE2/P；附件文件名为 2026/27，正文没有标注 2027/28 MPhil 开放日期或当期费用。",
+      "claims": [
+        "文件列本科及研究生阶段的学历证明与成绩单，非英文文件附正式英文译本。内地已毕业、在读及境外学历分列。",
+        "文件列两份学术推荐，常规轮由系统向推荐人发链接；HKPFS 的推荐流程另列。",
+        "附件列每个项目 HK$500，当前 MPhil 轮次、实际当期费用与资助待核。"
+      ],
+      "knownIssues": [
+        "附件文件名标2026/27，实际四页，页码显示有误。当前学年、学费及资助以目标项目当期网申为准。"
+      ]
+    },
+    {
       "id": "polyu-cee-directory-0-20261029",
       "url": "https://www.polyu.edu.hk/cee/people/academic-staff/",
       "originalUrl": "https://www.polyu.edu.hk/cee/people/academic-staff/",
@@ -368629,5 +368668,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:f70b9f4d2c0f43fcd46959540e3e525a0f667dcecd6cda42fb298f0f25ab0b71"
+  "snapshotId": "sha256:037e6481b19d709d22f750a14fe82c903b6bdc9f3cc01dd88c787ea75b32bcaa"
 }

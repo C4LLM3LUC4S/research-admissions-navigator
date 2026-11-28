@@ -25,7 +25,7 @@ test('access-checks and invalid decoding remain separate from read bodies and al
  assert.match(person('37').applicationNotes[0].text,/未说明学位或适用入学年/);assert.equal(person('37').availability.state,'unknown');
  assert.match(person('50').applicationNotes[0].text,/Adjunct.*Chair Professor/);assert.match(person('01').applicationNotes[0].text,/未明确招募学位/);
  const p=P.programmes[0];assert.deepEqual(p.degrees,['MPhil']);assert.equal(p.cycle,null);assert.equal(p.cycleVerified,false);assert.deepEqual(p.deadlines,[]);assert.equal(p.contact.status,'recommended');assert.match(p.contact.text,/不是强制/);
- assert.match(p.requirements.map(r=>r.text).join(' '),/2023.*2026.*没有据此补成2027\/28/);assert.match(p.requirements.at(-1).text,/MPhil完整材料/);
+ assert.match(p.requirements.map(r=>r.text).join(' '),/2023.*2026.*没有据此补成2027\/28/);assert.match(p.requirements.at(-1).text,/两份学术推荐/);assert.match(p.evidenceNote,/当期 MPhil 截止/);
 });
 test('new directory evidence keeps the saved profile and old known identities portable',()=>{
  const state={profile:{...L.defaultProfile(C),universityIds:['cityu'],degree:'MPhil',researchQuery:'光子集成'},shortlist:['cityu-ee-39','wide-cityu-hing-cheung-so','wide-hku-peng-lu'],tasks:[],sourceIds:[person('39').directoryEvidenceSourceId],experiences:[]};
