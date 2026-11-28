@@ -809,7 +809,12 @@
         "gz-scholarships-fees",
         "gz-dsa-mphil",
         "gz-dsa-mphil-curriculum-2024-25",
-        "hkustgz-inf-hub-cma-brochure-2027-20261122"
+        "hkustgz-inf-hub-cma-brochure-2027-20261122",
+        "hkustgz-society-brochure-20261128",
+        "hkustgz-cncc-programme-20261128",
+        "hkustgz-ftec-programme-20261128",
+        "hkustgz-ipe-programme-20261128",
+        "hkustgz-ugod-programme-20261128"
       ],
       "evidenceNote": "仅红鸟硕士规则，不代表广州所有博士或学域。",
       "requirements": [
@@ -865,6 +870,42 @@
           "action": "网申选择 MPhil (General)，并核对入学后的学域选择办法。",
           "sourceIds": [
             "hkustgz-inf-hub-cma-brochure-2027-20261122",
+            "gz-redbird"
+          ]
+        },
+        {
+          "label": "对碳中和与气候变化感兴趣",
+          "text": "碳中和与气候变化学域页面将 MPhil 申请者导向红鸟硕士。网申选择 MPhil (General)，入学后的学域申报按红鸟安排。",
+          "action": "查看红鸟硕士申请入口和该学域的培养资料。",
+          "sourceIds": [
+            "hkustgz-cncc-programme-20261128",
+            "gz-redbird"
+          ]
+        },
+        {
+          "label": "对金融科技感兴趣",
+          "text": "金融科技学域页面将 MPhil 申请者导向红鸟硕士。网申选择 MPhil (General)，入学后的学域申报按红鸟安排。",
+          "action": "查看红鸟硕士申请入口和该学域的培养资料。",
+          "sourceIds": [
+            "hkustgz-ftec-programme-20261128",
+            "gz-redbird"
+          ]
+        },
+        {
+          "label": "对创新、政策与创业感兴趣",
+          "text": "创新、政策与创业学域页面将 MPhil 申请者导向红鸟硕士。网申选择 MPhil (General)，入学后的学域申报按红鸟安排。",
+          "action": "查看红鸟硕士申请入口和该学域的培养资料。",
+          "sourceIds": [
+            "hkustgz-ipe-programme-20261128",
+            "gz-redbird"
+          ]
+        },
+        {
+          "label": "对城市治理与设计感兴趣",
+          "text": "城市治理与设计学域页面将 MPhil 申请者导向红鸟硕士。网申选择 MPhil (General)，入学后的学域申报按红鸟安排。",
+          "action": "查看红鸟硕士申请入口和该学域的培养资料。",
+          "sourceIds": [
+            "hkustgz-ugod-programme-20261128",
             "gz-redbird"
           ]
         }
@@ -13359,6 +13400,570 @@
           "action": "核对正式资助资格及条款。",
           "sourceIds": [
             "hkustgz-inf-hub-cma-brochure-2027-20261122",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 15000,
+              "currency": "CNY",
+              "unit": "month",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "符合条件的全日制博士"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-cncc-phd-2027",
+      "universityId": "hkustgz",
+      "name": "碳中和与气候变化博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港科大广州社会枢纽，2027/28 秋季博士。研究方向包括低碳技术、碳政策与经济、绿色投资及环境数据分析。",
+      "contact": {
+        "status": "unknown",
+        "text": "是否需要先联系导师，请按具体学域的网申说明核对。",
+        "sourceIds": [
+          "hkustgz-cncc-programme-20261128"
+        ]
+      },
+      "selection": {
+        "text": "从广州研究生院网申选择学域博士。录取与资助按各自审核。",
+        "sourceIds": [
+          "hkustgz-cncc-programme-20261128",
+          "hkustgz-society-brochure-20261128"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-cncc-programme-20261128",
+        "hkustgz-society-brochure-20261128",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学域研究型硕士从红鸟硕士 MPhil (General) 申请。2027/28 学费区分是否获 PGS。",
+      "entryUrl": "https://soch.hkust-gz.edu.cn/academics/cncc/programs/",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或能证明至少一年全日制、两年非全日制研究生学习经历符合要求。",
+          "action": "按适用学历路径准备成绩与学位证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "IELTS Academic 总分至少 6.5、各项至少 5.5。TOEFL iBT 按考期分 80 与 4.5 两种尺度；2026 年 1 月 21 日起用新量表。单次有效成绩，居家考试不获接受。",
+          "action": "对照考试日期和豁免条件核实英语证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "博士申请材料",
+          "text": "按研究生院准备身份证明、成绩和学位材料、英语证明、研究计划及研究经历，校级列 2 至 5 位推荐人。若系统列额外材料，请按博士项目要求准备。",
+          "action": "从正式网申核对推荐人与材料要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111",
+            "hkustgz-cncc-programme-20261128"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-cncc-tuition-2027",
+          "kind": "tuition",
+          "label": "2027/28 学费按资助情况核对",
+          "text": "简章分列获 PGS 的全日制研究生与自费博士学费。",
+          "action": "按正式录取和资助条件确定适用档位。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 60000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "获 PGS 的全日制博士"
+            },
+            {
+              "value": 150000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "自费博士"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-cncc-pgs-2027",
+          "kind": "studentship",
+          "label": "博士 PGS 月额",
+          "text": "简章列全日制博士 PGS 最长四年；实际获批及发放按通知。",
+          "action": "核对正式资助资格及条款。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 15000,
+              "currency": "CNY",
+              "unit": "month",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "符合条件的全日制博士"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-ftec-phd-2027",
+      "universityId": "hkustgz",
+      "name": "金融科技博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港科大广州社会枢纽，2027/28 秋季博士。研究方向包括金融服务中的数据分析、金融建模与技术应用。",
+      "contact": {
+        "status": "unknown",
+        "text": "是否需要先联系导师，请按具体学域的网申说明核对。",
+        "sourceIds": [
+          "hkustgz-ftec-programme-20261128"
+        ]
+      },
+      "selection": {
+        "text": "从广州研究生院网申选择学域博士。录取与资助按各自审核。",
+        "sourceIds": [
+          "hkustgz-ftec-programme-20261128",
+          "hkustgz-society-brochure-20261128"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-ftec-programme-20261128",
+        "hkustgz-society-brochure-20261128",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学域研究型硕士从红鸟硕士 MPhil (General) 申请。2027/28 学费区分是否获 PGS。",
+      "entryUrl": "https://soch.hkust-gz.edu.cn/academics/ftec/programs/",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或能证明至少一年全日制、两年非全日制研究生学习经历符合要求。",
+          "action": "按适用学历路径准备成绩与学位证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "IELTS Academic 总分至少 6.5、各项至少 5.5。TOEFL iBT 按考期分 80 与 4.5 两种尺度；2026 年 1 月 21 日起用新量表。单次有效成绩，居家考试不获接受。",
+          "action": "对照考试日期和豁免条件核实英语证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "博士申请材料",
+          "text": "按研究生院准备身份证明、成绩和学位材料、英语证明、研究计划及研究经历，校级列 2 至 5 位推荐人。若系统列额外材料，请按博士项目要求准备。",
+          "action": "从正式网申核对推荐人与材料要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111",
+            "hkustgz-ftec-programme-20261128"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-ftec-tuition-2027",
+          "kind": "tuition",
+          "label": "2027/28 学费按资助情况核对",
+          "text": "简章分列获 PGS 的全日制研究生与自费博士学费。",
+          "action": "按正式录取和资助条件确定适用档位。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 60000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "获 PGS 的全日制博士"
+            },
+            {
+              "value": 150000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "自费博士"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-ftec-pgs-2027",
+          "kind": "studentship",
+          "label": "博士 PGS 月额",
+          "text": "简章列全日制博士 PGS 最长四年；实际获批及发放按通知。",
+          "action": "核对正式资助资格及条款。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 15000,
+              "currency": "CNY",
+              "unit": "month",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "符合条件的全日制博士"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-ipe-phd-2027",
+      "universityId": "hkustgz",
+      "name": "创新、政策与创业博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港科大广州社会枢纽，2027/28 秋季博士。研究方向包括技术创新、公共政策及创业研究。",
+      "contact": {
+        "status": "unknown",
+        "text": "是否需要先联系导师，请按具体学域的网申说明核对。",
+        "sourceIds": [
+          "hkustgz-ipe-programme-20261128"
+        ]
+      },
+      "selection": {
+        "text": "从广州研究生院网申选择学域博士。录取与资助按各自审核。",
+        "sourceIds": [
+          "hkustgz-ipe-programme-20261128",
+          "hkustgz-society-brochure-20261128"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-ipe-programme-20261128",
+        "hkustgz-society-brochure-20261128",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学域研究型硕士从红鸟硕士 MPhil (General) 申请。2027/28 学费区分是否获 PGS。",
+      "entryUrl": "https://soch.hkust-gz.edu.cn/academics/ipe/programs/",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或能证明至少一年全日制、两年非全日制研究生学习经历符合要求。",
+          "action": "按适用学历路径准备成绩与学位证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "IELTS Academic 总分至少 6.5、各项至少 5.5。TOEFL iBT 按考期分 80 与 4.5 两种尺度；2026 年 1 月 21 日起用新量表。单次有效成绩，居家考试不获接受。",
+          "action": "对照考试日期和豁免条件核实英语证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "博士申请材料",
+          "text": "按研究生院准备身份证明、成绩和学位材料、英语证明、研究计划及研究经历，校级列 2 至 5 位推荐人。若系统列额外材料，请按博士项目要求准备。",
+          "action": "从正式网申核对推荐人与材料要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111",
+            "hkustgz-ipe-programme-20261128"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-ipe-tuition-2027",
+          "kind": "tuition",
+          "label": "2027/28 学费按资助情况核对",
+          "text": "简章分列获 PGS 的全日制研究生与自费博士学费。",
+          "action": "按正式录取和资助条件确定适用档位。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 60000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "获 PGS 的全日制博士"
+            },
+            {
+              "value": 150000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "自费博士"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-ipe-pgs-2027",
+          "kind": "studentship",
+          "label": "博士 PGS 月额",
+          "text": "简章列全日制博士 PGS 最长四年；实际获批及发放按通知。",
+          "action": "核对正式资助资格及条款。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 15000,
+              "currency": "CNY",
+              "unit": "month",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "符合条件的全日制博士"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hkustgz-ugod-phd-2027",
+      "universityId": "hkustgz",
+      "name": "城市治理与设计博士",
+      "degrees": [
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "港科大广州社会枢纽，2027/28 秋季博士。研究方向包括用城市统计、调查及管理数据研究治理与设计问题。",
+      "contact": {
+        "status": "unknown",
+        "text": "是否需要先联系导师，请按具体学域的网申说明核对。",
+        "sourceIds": [
+          "hkustgz-ugod-programme-20261128"
+        ]
+      },
+      "selection": {
+        "text": "从广州研究生院网申选择学域博士。录取与资助按各自审核。",
+        "sourceIds": [
+          "hkustgz-ugod-programme-20261128",
+          "hkustgz-society-brochure-20261128"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "国际申请者校级截止：2027-06-15 23:59（UTC+8）",
+          "date": "2027-06-15",
+          "at": "2027-06-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        },
+        {
+          "label": "中国申请者校级截止：2027-07-15 23:59（UTC+8）",
+          "date": "2027-07-15",
+          "at": "2027-07-15T23:59:00+08:00",
+          "degree": "PhD",
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-timeline"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hkustgz-ugod-programme-20261128",
+        "hkustgz-society-brochure-20261128",
+        "gz-timeline",
+        "gz-central-requirements",
+        "hkustgz-bsbe-materials-20261111",
+        "gz-scholarships-fees"
+      ],
+      "evidenceNote": "学域研究型硕士从红鸟硕士 MPhil (General) 申请。2027/28 学费区分是否获 PGS。",
+      "entryUrl": "https://soch.hkust-gz.edu.cn/academics/ugod/programs/",
+      "requirements": [
+        {
+          "label": "博士学历",
+          "text": "认可学士且表现优异，或能证明至少一年全日制、两年非全日制研究生学习经历符合要求。",
+          "action": "按适用学历路径准备成绩与学位证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "英语成绩",
+          "text": "IELTS Academic 总分至少 6.5、各项至少 5.5。TOEFL iBT 按考期分 80 与 4.5 两种尺度；2026 年 1 月 21 日起用新量表。单次有效成绩，居家考试不获接受。",
+          "action": "对照考试日期和豁免条件核实英语证明。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-central-requirements"
+          ]
+        },
+        {
+          "label": "博士申请材料",
+          "text": "按研究生院准备身份证明、成绩和学位材料、英语证明、研究计划及研究经历，校级列 2 至 5 位推荐人。若系统列额外材料，请按博士项目要求准备。",
+          "action": "从正式网申核对推荐人与材料要求。",
+          "sourceIds": [
+            "hkustgz-bsbe-materials-20261111",
+            "hkustgz-ugod-programme-20261128"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hkustgz-ugod-tuition-2027",
+          "kind": "tuition",
+          "label": "2027/28 学费按资助情况核对",
+          "text": "简章分列获 PGS 的全日制研究生与自费博士学费。",
+          "action": "按正式录取和资助条件确定适用档位。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
+            "gz-scholarships-fees"
+          ],
+          "rates": [
+            {
+              "value": 60000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "获 PGS 的全日制博士"
+            },
+            {
+              "value": 150000,
+              "currency": "CNY",
+              "unit": "academic_year",
+              "basis": "intake",
+              "cycle": "2027/28",
+              "condition": "自费博士"
+            }
+          ]
+        },
+        {
+          "id": "hkustgz-ugod-pgs-2027",
+          "kind": "studentship",
+          "label": "博士 PGS 月额",
+          "text": "简章列全日制博士 PGS 最长四年；实际获批及发放按通知。",
+          "action": "核对正式资助资格及条款。",
+          "sourceIds": [
+            "hkustgz-society-brochure-20261128",
             "gz-scholarships-fees"
           ],
           "rates": [
@@ -282790,6 +283395,85 @@
       ]
     },
     {
+      "id": "hkustgz-society-brochure-20261128",
+      "url": "https://soch.hkust-gz.edu.cn/wp-content/uploads/2026/07/Society-Hub-Brochure-EN-2027-28-Intake-20260706.pdf",
+      "title": "港科广社会枢纽 · 2027/28 英文简章",
+      "checkedAt": "2026-11-28",
+      "readMethod": "anonymous_HTTP",
+      "evidenceLevel": "official_verified_page_scoped",
+      "bodySha256": "cce49ed748d7353cacff573be0770fd67d85dc10ca5deb3557f3feeda0aad677",
+      "scope": "简章署 2026 年 6 月更新，招生信息第06页的博士列。",
+      "claims": [
+        "博士列涵盖碳中和与气候变化、金融科技、创新政策与创业、城市治理与设计。",
+        "获 PGS 的全日制博士从 2027/28 入学起学费为人民币 60,000 元每学年，自费全日制及兼读为 150,000 元每学年。",
+        "获 PGS 全日制博士的简章月额为 15,000 元，最长四年。",
+        "托福单次 iBT 以 2026 年 1 月 21 日分为 80 分和 4.5 分；雅思总分 6.5、单项 5.5。"
+      ],
+      "knownIssues": [
+        "博士、授课型硕士和 MBA 各列口径不同；奖助取决于实际核准。"
+      ]
+    },
+    {
+      "id": "hkustgz-cncc-programme-20261128",
+      "url": "https://soch.hkust-gz.edu.cn/academics/cncc/programs/",
+      "title": "港科广社会枢纽 · 碳中和与气候变化研究学位",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+      "claims": [
+        "该页列碳中和与气候变化 MPhil 与 PhD，研究主题包括低碳技术、碳政策与经济、绿色投资及环境数据分析。",
+        "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+        "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-ftec-programme-20261128",
+      "url": "https://soch.hkust-gz.edu.cn/academics/ftec/programs/",
+      "title": "港科广社会枢纽 · 金融科技研究学位",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+      "claims": [
+        "该页列金融科技 MPhil 与 PhD，研究主题包括金融服务中的数据分析、金融建模与技术应用。",
+        "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+        "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-ipe-programme-20261128",
+      "url": "https://soch.hkust-gz.edu.cn/academics/ipe/programs/",
+      "title": "港科广社会枢纽 · 创新、政策与创业研究学位",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+      "claims": [
+        "该页列创新、政策与创业 MPhil 与 PhD，研究主题包括技术创新、公共政策及创业研究。",
+        "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+        "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkustgz-ugod-programme-20261128",
+      "url": "https://soch.hkust-gz.edu.cn/academics/ugod/programs/",
+      "title": "港科广社会枢纽 · 城市治理与设计研究学位",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+      "claims": [
+        "该页列城市治理与设计 MPhil 与 PhD，研究主题包括用城市统计、调查及管理数据研究治理与设计问题。",
+        "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+        "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cuhk-math-rpg-gs-2027-20261122",
       "url": "https://www.gs.cuhk.edu.hk/programmes/science/mphil-phd-mathematics",
       "title": "港中文研究院 · 数学 MPhil/PhD",
@@ -369041,5 +369725,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:a93cd9f0ad14e722298d3ed898ed42a9d7ab3600cc026ec6d9078a74024f3ef9"
+  "snapshotId": "sha256:817c4bcb8ecfdec805b95c732447bbea7a46ab9bd67280ac0c4fba2ce1966650"
 }

@@ -1,0 +1,103 @@
+{
+  "brochure": {
+    "id": "hkustgz-society-brochure-20261128",
+    "url": "https://soch.hkust-gz.edu.cn/wp-content/uploads/2026/07/Society-Hub-Brochure-EN-2027-28-Intake-20260706.pdf",
+    "title": "港科广社会枢纽 · 2027/28 英文简章",
+    "checkedAt": "2026-11-28",
+    "readMethod": "anonymous_HTTP",
+    "evidenceLevel": "official_verified_page_scoped",
+    "bodySha256": "cce49ed748d7353cacff573be0770fd67d85dc10ca5deb3557f3feeda0aad677",
+    "scope": "简章署 2026 年 6 月更新，招生信息第06页的博士列。",
+    "claims": [
+      "博士列涵盖碳中和与气候变化、金融科技、创新政策与创业、城市治理与设计。",
+      "获 PGS 的全日制博士从 2027/28 入学起学费为人民币 60,000 元每学年，自费全日制及兼读为 150,000 元每学年。",
+      "获 PGS 全日制博士的简章月额为 15,000 元，最长四年。",
+      "托福单次 iBT 以 2026 年 1 月 21 日分为 80 分和 4.5 分；雅思总分 6.5、单项 5.5。"
+    ],
+    "knownIssues": [
+      "博士、授课型硕士和 MBA 各列口径不同；奖助取决于实际核准。"
+    ]
+  },
+  "programmes": [
+    {
+      "slug": "cncc",
+      "name": "碳中和与气候变化",
+      "topics": "低碳技术、碳政策与经济、绿色投资及环境数据分析。",
+      "source": {
+        "id": "hkustgz-cncc-programme-20261128",
+        "url": "https://soch.hkust-gz.edu.cn/academics/cncc/programs/",
+        "title": "港科广社会枢纽 · 碳中和与气候变化研究学位",
+        "checkedAt": "2026-11-28",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+        "claims": [
+          "该页列碳中和与气候变化 MPhil 与 PhD，研究主题包括低碳技术、碳政策与经济、绿色投资及环境数据分析。",
+          "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+          "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+        ],
+        "knownIssues": []
+      }
+    },
+    {
+      "slug": "ftec",
+      "name": "金融科技",
+      "topics": "金融服务中的数据分析、金融建模与技术应用。",
+      "source": {
+        "id": "hkustgz-ftec-programme-20261128",
+        "url": "https://soch.hkust-gz.edu.cn/academics/ftec/programs/",
+        "title": "港科广社会枢纽 · 金融科技研究学位",
+        "checkedAt": "2026-11-28",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+        "claims": [
+          "该页列金融科技 MPhil 与 PhD，研究主题包括金融服务中的数据分析、金融建模与技术应用。",
+          "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+          "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+        ],
+        "knownIssues": []
+      }
+    },
+    {
+      "slug": "ipe",
+      "name": "创新、政策与创业",
+      "topics": "技术创新、公共政策及创业研究。",
+      "source": {
+        "id": "hkustgz-ipe-programme-20261128",
+        "url": "https://soch.hkust-gz.edu.cn/academics/ipe/programs/",
+        "title": "港科广社会枢纽 · 创新、政策与创业研究学位",
+        "checkedAt": "2026-11-28",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+        "claims": [
+          "该页列创新、政策与创业 MPhil 与 PhD，研究主题包括技术创新、公共政策及创业研究。",
+          "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+          "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+        ],
+        "knownIssues": []
+      }
+    },
+    {
+      "slug": "ugod",
+      "name": "城市治理与设计",
+      "topics": "用城市统计、调查及管理数据研究治理与设计问题。",
+      "source": {
+        "id": "hkustgz-ugod-programme-20261128",
+        "url": "https://soch.hkust-gz.edu.cn/academics/ugod/programs/",
+        "title": "港科广社会枢纽 · 城市治理与设计研究学位",
+        "checkedAt": "2026-11-28",
+        "readMethod": "web_tool_actual_body",
+        "evidenceLevel": "official_verified_page_scoped",
+        "scope": "各学域官方页的硕博名称、培养、学费和红鸟入口。",
+        "claims": [
+          "该页列城市治理与设计 MPhil 与 PhD，研究主题包括用城市统计、调查及管理数据研究治理与设计问题。",
+          "学域提供红鸟硕士入口；该入口与学域博士网申分开。",
+          "该页列 2027/28 入学起获 PGS 的全日制研究生学费 60,000 元，自费为 150,000 元。"
+        ],
+        "knownIssues": []
+      }
+    }
+  ]
+}
