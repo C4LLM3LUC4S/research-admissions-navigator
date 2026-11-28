@@ -2380,6 +2380,40 @@ def build_catalog():
             {"label": f'对{record["field"]}感兴趣',
              "text": f'2027/28 简章列{record["field"]} MPhil 经红鸟硕士 MPhil (General) 统一录取，入学后按秋季学期安排申报学域。',
              "action": "网申选择 MPhil (General)，并核对入学后的学域选择办法。", "sourceIds": [cma_brochure, "gz-redbird"]})
+    society = load("hkustgz-society-admissions-20261128.json")
+    brochure = society["brochure"]
+    soc_brochure = brochure["id"]
+    catalog["sources"].append(brochure)
+    redbird["sourceIds"].append(soc_brochure)
+    for record in society["programmes"]:
+        source = record["source"]
+        sid = source["id"]
+        name = record["name"]
+        slug = record["slug"]
+        catalog["sources"].append(source)
+        date_sources = [soc_brochure, "gz-timeline"]
+        phd = program(
+            f"hkustgz-{slug}-phd-2027", "hkustgz", name + "博士", ["PhD"],
+            f'港科大广州社会枢纽，2027/28 秋季博士。研究方向包括{record["topics"]}',
+            "unknown", "是否需要先联系导师，请按具体学域的网申说明核对。", [sid],
+            "从广州研究生院网申选择学域博士。录取与资助按各自审核。", [sid, soc_brochure],
+            [{**row, "sourceIds": date_sources} for row in cma_phd["deadlines"]],
+            [sid, *date_sources, "gz-central-requirements", cma_materials, "gz-scholarships-fees"],
+            "学域研究型硕士从红鸟硕士 MPhil (General) 申请。2027/28 学费区分是否获 PGS。",
+        )
+        phd["entryUrl"] = source["url"]
+        source_replacements = {cma_brochure: soc_brochure, cma_programme: sid}
+        phd["requirements"] = [{**row, "sourceIds": [source_replacements.get(ref, ref) for ref in row["sourceIds"]]}
+                               for row in cma_phd["requirements"]]
+        phd["finances"] = [{**row, "id": row["id"].replace("hkustgz-cma-", f"hkustgz-{slug}-"),
+                            "sourceIds": [source_replacements.get(ref, ref) for ref in row["sourceIds"]]}
+                           for row in cma_phd["finances"] if row["kind"] != "application_fee"]
+        catalog["programs"].append(phd)
+        redbird["sourceIds"].append(sid)
+        redbird["requirements"].append(
+            {"label": f"对{name}感兴趣",
+             "text": f"{name}学域页面将 MPhil 申请者导向红鸟硕士。网申选择 MPhil (General)，入学后的学域申报按红鸟安排。",
+             "action": "查看红鸟硕士申请入口和该学域的培养资料。", "sourceIds": [sid, "gz-redbird"]})
     cuhk_admissions = load("cuhk-science-admissions-20261122.json")["programmes"]
     cuhk_admissions += load("cuhk-architecture-admissions-20261128.json")["programmes"]
     for record in cuhk_admissions:
