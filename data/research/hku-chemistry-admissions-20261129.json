@@ -1,0 +1,51 @@
+{
+  "sources": [
+    {
+      "id": "hku-chemistry-requirements-20261129",
+      "url": "https://chemistry.hku.hk/study/postgraduate_students/1/",
+      "title": "港大化学系 · 录取要求",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系列出的 MPhil、三年制 PhD 与四年制 PhD 学历路径。",
+      "claims": [
+        "MPhil 要求理学学士二级甲等荣誉或同等资格。",
+        "三年制 PhD 列研究型 MPhil 或同等资格；四年制列一等荣誉理学学士或同等资格。"
+      ],
+      "knownIssues": [
+        "系页未标招生年度。按研究院网申和学系说明核同等资格。"
+      ]
+    },
+    {
+      "id": "hku-chemistry-procedure-20261129",
+      "url": "https://chemistry.hku.hk/study/postgraduate_students/2/",
+      "title": "港大化学系 · 申请流程",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "两种学位的统一网申、材料与联系导师建议。",
+      "claims": [
+        "学位证书、完整成绩单和研究计划经研究院网申提交。",
+        "学系强烈建议申请前和意向导师沟通。"
+      ],
+      "knownIssues": [
+        "该系网页列申请费 600 港元；已核研究院收费页列 780 港元。"
+      ]
+    },
+    {
+      "id": "hku-chemistry-fees-20261129",
+      "url": "https://chemistry.hku.hk/study/postgraduate_students/4/",
+      "title": "港大化学系 · 收费",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "系页现列备注中的 2027/28 全日制研究学位学费及申请费口径。",
+      "claims": [
+        "2027/28 全日制学费每年 49,500 港元。"
+      ],
+      "knownIssues": [
+        "兼读 63,000 港元列于 2025/26 栏，未核实是否适用于 2027/28。"
+      ]
+    }
+  ]
+}

@@ -11524,6 +11524,152 @@
       ]
     },
     {
+      "id": "hku-chemistry-rpg-2027",
+      "universityId": "hku",
+      "name": "化学研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港大学理学院化学系常规 MPhil 与 PhD，采用研究院 2027/28 校级申请轮次。",
+      "contact": {
+        "status": "recommended",
+        "text": "化学系建议申请前联系一位或多位意向导师。",
+        "sourceIds": [
+          "hku-chemistry-procedure-20261129"
+        ]
+      },
+      "selection": {
+        "text": "经港大研究院统一网申，上传学历证明、完整成绩单和研究计划。",
+        "sourceIds": [
+          "hku-chemistry-procedure-20261129"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "校级主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第一轮补录截止（视余位）：2027-04-30 23:59（UTC+8）",
+          "date": "2027-04-30",
+          "at": "2027-04-30T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第二轮补录截止（视余位）：2027-08-31 23:59（UTC+8）",
+          "date": "2027-08-31",
+          "at": "2027-08-31T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "HKU-CENTRAL-PERIOD"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hku-chemistry-requirements-20261129",
+        "hku-chemistry-procedure-20261129",
+        "hku-chemistry-fees-20261129",
+        "HKU-CENTRAL-PERIOD",
+        "hku-dase-2027-fees",
+        "hku-central-language"
+      ],
+      "evidenceNote": "学系录取说明未标年份。补录视主轮后的学额，申请前请核对学系及研究院通知。",
+      "entryUrl": "https://chemistry.hku.hk/study/postgraduate_students/2/",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "text": "理学学士二级甲等荣誉或同等资格。",
+          "action": "核对学历等级并准备学历证明。",
+          "sourceIds": [
+            "hku-chemistry-requirements-20261129"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "text": "系页列三年制须有研究型 MPhil 或同等资格，四年制须有一等荣誉理学学士或同等资格。",
+          "action": "有其他学历组合时，先向化学系确认可申请的学制。",
+          "sourceIds": [
+            "hku-chemistry-requirements-20261129"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "成绩单与研究计划",
+          "text": "上传本科及研究生阶段的学历证明、完整成绩单和研究计划。",
+          "action": "按化学系申请页提供的表格和研究院网申要求准备。",
+          "sourceIds": [
+            "hku-chemistry-procedure-20261129"
+          ]
+        },
+        {
+          "label": "语言成绩",
+          "text": "适用英语证明要求时，IELTS Academic 总分至少 6.5、各项至少 6；TOEFL iBT 2026 年 1 月 21 日前至少 85，从该日开始至少 4.5。两年内一次考试，按校方要求由考试机构送分。",
+          "action": "核考试日期、成绩有效期及送分要求。",
+          "sourceIds": [
+            "hku-central-language",
+            "hku-chemistry-requirements-20261129"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hku-chemistry-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "化学系页面列 600 港元，研究院收费页列 780 港元。请以研究院网申实付金额为准。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees",
+            "hku-chemistry-procedure-20261129",
+            "hku-chemistry-fees-20261129"
+          ],
+          "rates": []
+        },
+        {
+          "id": "hku-chemistry-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees",
+            "hku-chemistry-fees-20261129"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hkust-iip-rpg-2027",
       "universityId": "hkust",
       "name": "跨学科自选研究学位",
@@ -282363,6 +282509,53 @@
       "knownIssues": []
     },
     {
+      "id": "hku-chemistry-requirements-20261129",
+      "url": "https://chemistry.hku.hk/study/postgraduate_students/1/",
+      "title": "港大化学系 · 录取要求",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "学系列出的 MPhil、三年制 PhD 与四年制 PhD 学历路径。",
+      "claims": [
+        "MPhil 要求理学学士二级甲等荣誉或同等资格。",
+        "三年制 PhD 列研究型 MPhil 或同等资格；四年制列一等荣誉理学学士或同等资格。"
+      ],
+      "knownIssues": [
+        "系页未标招生年度。按研究院网申和学系说明核同等资格。"
+      ]
+    },
+    {
+      "id": "hku-chemistry-procedure-20261129",
+      "url": "https://chemistry.hku.hk/study/postgraduate_students/2/",
+      "title": "港大化学系 · 申请流程",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "两种学位的统一网申、材料与联系导师建议。",
+      "claims": [
+        "学位证书、完整成绩单和研究计划经研究院网申提交。",
+        "学系强烈建议申请前和意向导师沟通。"
+      ],
+      "knownIssues": [
+        "该系网页列申请费 600 港元；已核研究院收费页列 780 港元。"
+      ]
+    },
+    {
+      "id": "hku-chemistry-fees-20261129",
+      "url": "https://chemistry.hku.hk/study/postgraduate_students/4/",
+      "title": "港大化学系 · 收费",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "系页现列备注中的 2027/28 全日制研究学位学费及申请费口径。",
+      "claims": [
+        "2027/28 全日制学费每年 49,500 港元。"
+      ],
+      "knownIssues": [
+        "兼读 63,000 港元列于 2025/26 栏，未核实是否适用于 2027/28。"
+      ]
+    },
+    {
       "id": "hku-ece-rap-directory-20261122",
       "url": "https://ece.hku.hk/people/",
       "title": "港大电机与计算机工程系 · 研究助理教授",
@@ -372200,5 +372393,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:45b47a759903438774dfad51b53846eb61c380f06e61d8537cf08ba21253cf65"
+  "snapshotId": "sha256:84ce6d3484ce82c5fb174d48f0e432deabbfd378070f98c19f2e9857d503d4a3"
 }
