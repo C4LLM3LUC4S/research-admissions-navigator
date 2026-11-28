@@ -2380,8 +2380,9 @@ def build_catalog():
             {"label": f'对{record["field"]}感兴趣',
              "text": f'2027/28 简章列{record["field"]} MPhil 经红鸟硕士 MPhil (General) 统一录取，入学后按秋季学期安排申报学域。',
              "action": "网申选择 MPhil (General)，并核对入学后的学域选择办法。", "sourceIds": [cma_brochure, "gz-redbird"]})
-    cuhk_science = load("cuhk-science-admissions-20261122.json")["programmes"]
-    for record in cuhk_science:
+    cuhk_admissions = load("cuhk-science-admissions-20261122.json")["programmes"]
+    cuhk_admissions += load("cuhk-architecture-admissions-20261128.json")["programmes"]
+    for record in cuhk_admissions:
         source = record["source"]
         sid = source["id"]
         pid = f'cuhk-{record["key"]}-rpg-2027'
@@ -2400,10 +2401,10 @@ def build_catalog():
         science["entryUrl"] = source["url"]
         science["requirements"] = [
             {"label": "MPhil 学历", "degrees": ["MPhil"],
-             "text": "按研究院硕士要求核认可学士、二等荣誉或 B 平均成绩等适用条件及同等资格。",
+             "text": record.get("mphilQualifications", "按研究院硕士要求核认可学士、二等荣誉或 B 平均成绩等适用条件及同等资格。"),
              "action": "核对学历和本项目对相关专业的要求。", "sourceIds": ["cuhk-gs-requirements", sid]},
             {"label": "PhD 学历", "degrees": ["PhD"],
-             "text": "按研究院 MPhil–PhD 项目的博士路线核认可硕士、符合条件的荣誉学士或同等专业资格。" + record.get("phdStudy", ""),
+             "text": record.get("phdQualifications", "按研究院 MPhil–PhD 项目的博士路线核认可硕士、符合条件的荣誉学士或同等专业资格。") + record.get("phdStudy", ""),
              "action": "核对博士路线的学历资格，再查项目对相关专业的要求。", "sourceIds": ["cuhk-gs-requirements", sid]},
             {"label": "本项目学科背景", "text": record["background"],
              "action": "看项目官网的先修与申请要求。", "sourceIds": [sid]},
