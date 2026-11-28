@@ -1819,6 +1819,28 @@ def build_catalog():
     hku_ece["sourceIds"].extend(dict.fromkeys(ref for item in hku_ece["requirements"] + hku_ece["finances"]
                                            for ref in item["sourceIds"] if ref not in hku_ece["sourceIds"]))
     catalog["programs"].append(hku_ece)
+    mse_admissions = load("hku-mse-admissions-20261128.json")
+    catalog["sources"].extend(mse_admissions["sources"])
+    mse_areas, mse_teaching = (source["id"] for source in mse_admissions["sources"])
+    mse_period = [mse_areas, "HKU-CENTRAL-PERIOD"]
+    mse = program(
+        "hku-mse-rpg-2027", "hku", "材料与能源研究学位", ["MPhil", "PhD"],
+        "香港大学工学院材料与能源学系，采用 2027/28 校级申请轮次。研究领域包括材料科学、能源与可持续技术、先进制造。",
+        "unknown", "院系详情页仍待更新，是否需要先联系导师请按学系说明确认。", [mse_teaching, "hku-mse-rpg-20261106"],
+        "研究院列该系为研究型研究生招生单位，按网申所选单位提交。院系审理细节待核。", [mse_areas, mse_teaching],
+        [deadline("校级主轮截止", "2026-12-01", mse_period, clock="23:59"),
+         deadline("校级第一轮补录截止（视余位）", "2027-04-30", mse_period, clock="23:59"),
+         deadline("校级第二轮补录截止（视余位）", "2027-08-31", mse_period, clock="23:59")],
+        [*mse_period, mse_teaching, "hku-mse-rpg-20261106"],
+        "校级补录以主轮后仍有学额为前提。院系具体要求、导师接收和当前余位待核。",
+    )
+    mse["entryUrl"] = mse_admissions["sources"][0]["url"]
+    mse["requirements"] = list(hku_engineering_requirements)
+    mse["finances"] = [{**item, "id": item["id"].replace("hku-dase-", "hku-mse-")}
+                       for item in hku_common_finances]
+    mse["sourceIds"] = list(dict.fromkeys(mse["sourceIds"]
+        + [ref for item in mse["requirements"] + mse["finances"] for ref in item["sourceIds"]]))
+    catalog["programs"].append(mse)
     ece_directory = next(d for d in catalog["directories"] if d["id"] == "wide-dir-hku-ece")
     ece_directory.setdefault("reviewSourceIds", []).extend([ece_areas, ece_research])
     for pack_name in ("hku-ece-research-assistants-20261122.json", "hku-ece-rap-followup-20261124.json"):

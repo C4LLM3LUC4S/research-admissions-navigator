@@ -1,0 +1,32 @@
+{
+  "sources": [
+    {
+      "id": "hku-mse-graduate-research-areas-20261128",
+      "url": "https://gradsch.hku.hk/prospective_students/research_areas",
+      "title": "港大研究院 · 材料与能源学系研究型研究生招生单位",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "研究院列工学院下研究型研究生招生单位；标 # 表示相应单位接受研究型研究生申请。",
+      "claims": [
+        "Department of Materials and Energy 在工学院下标 #。",
+        "该页未给院系专属申请截止或招募安排。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-teaching-learning-20261128",
+      "url": "https://mse.hku.hk/teaching-learning/",
+      "title": "港大材料与能源学系 · 研究型研究生培养",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "系网页所列 MPhil、PhD 与培养范围，授课型 MSc 另列。",
+      "claims": [
+        "系页分别列研究型 PhD/MPhil 与授课型 MSc。",
+        "培养领域包括材料科学、能源与可持续技术、先进制造。研究学位详情页仍为待发布占位。"
+      ],
+      "knownIssues": []
+    }
+  ]
+}
