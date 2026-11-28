@@ -242820,7 +242820,11 @@
       ],
       "receiptKind": "web_reader_returned_text",
       "receiptScope": "batched_tool_response",
-      "readReceiptSha256": "2ed56394852b8b149c6f2d1a21fce7726e4dfcd9bb9d2c39b7cae8f832f75a09"
+      "readReceiptSha256": "2ed56394852b8b149c6f2d1a21fce7726e4dfcd9bb9d2c39b7cae8f832f75a09",
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-gong-yue/",
+        "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-li-mingkai/"
+      ]
     },
     {
       "id": "polyu-cmi-former-name-20261128",
@@ -243616,6 +243620,111 @@
         "已查看校级个人档案；任职以学系当前名录为准。"
       ],
       "knownIssues": []
+    },
+    {
+      "id": "polyu-cmi-emeritus-adjunct-directory-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+      "title": "港理工建造管理及智能学系 · 荣休、荣誉与兼任教授",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "当前官网类别页及其公开人物入口。",
+      "claims": [
+        "所核目录列出 9 个人物入口。"
+      ],
+      "knownIssues": [
+        "任职、研究、指导资格与招生状态分别核对。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/prof-mike-anson/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ar-prof-donald-choi-wun-hing/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ir-fan-siu-kay-johnny/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ar-prof-ada-fung-yin-suen/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/prof-ling-kar-kan-sbs/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ir-tsui-tack-kong/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/sr-mike-wong-chik-wing-jp/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ir-wong-king/",
+        "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ar-prof-clarice-yu-po-mei/"
+      ]
+    },
+    {
+      "id": "polyu-cmi-practice-directory-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/professors-of-practice/",
+      "title": "港理工建造管理及智能学系 · 实践教授",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "当前官网类别页及其公开人物入口。",
+      "claims": [
+        "所核目录列出 2 个人物入口。"
+      ],
+      "knownIssues": [
+        "任职、研究、指导资格与招生状态分别核对。"
+      ],
+      "discoveredLinks": [
+        "https://www.polyu.edu.hk/cmi/people/professors-of-practice/dr-simon-chee/",
+        "https://www.polyu.edu.hk/cmi/people/professors-of-practice/prof-charles-lam-hei-ling/"
+      ]
+    },
+    {
+      "id": "polyu-cmi-administrative-staff-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/supporting-staff/administrative-staff/",
+      "title": "港理工建造管理及智能学系 · 行政人员",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "行政支援岗位。",
+      "claims": [
+        "行政支援岗位。"
+      ],
+      "knownIssues": [
+        "仅确认该目录入口和范围。"
+      ]
+    },
+    {
+      "id": "polyu-cmi-technical-staff-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/supporting-staff/technical-staff/",
+      "title": "港理工建造管理及智能学系 · 技术人员",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "技术及实验室支援岗位。",
+      "claims": [
+        "技术及实验室支援岗位。"
+      ],
+      "knownIssues": [
+        "仅确认该目录入口和范围。"
+      ]
+    },
+    {
+      "id": "polyu-cmi-departmental-advisory-committee-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/departmental-advisory-committee/",
+      "title": "港理工建造管理及智能学系 · 系咨询委员会",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "委员会身份与学系任职分开。",
+      "claims": [
+        "委员会身份与学系任职分开。"
+      ],
+      "knownIssues": [
+        "仅确认该目录入口和范围。"
+      ]
+    },
+    {
+      "id": "polyu-cmi-research-personnel-20261129",
+      "url": "https://www.polyu.edu.hk/cmi/people/research-personnel/",
+      "title": "港理工建造管理及智能学系 · 研究人员和研究生目录入口",
+      "checkedAt": "2026-11-29",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "该页链接 2026 年 3 月 26 日的两份文件。研究人员与研究生分列，日期早于学系更名。",
+      "claims": [
+        "该页链接 2026 年 3 月 26 日的两份文件。研究人员与研究生分列，日期早于学系更名。"
+      ],
+      "knownIssues": [
+        "仅确认该目录入口和范围。"
+      ]
     },
     {
       "id": "cityu-annual-report-2024-25-colleges-20261106",
@@ -349379,6 +349488,327 @@
                   "reason": "此类别卡片未提供个人主页或研究说明；保留角色，不猜补网址或指导资格。"
                 }
               ]
+            },
+            {
+              "label": "建造管理及智能学系 · 荣休、荣誉与兼任教授",
+              "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-emeritus-adjunct-directory-20261129"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Mike Anson",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/prof-mike-anson/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "荣休教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核荣休教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Donald Choi Wun Hing",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ar-prof-donald-choi-wun-hing/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Johnny Fan Siu Kay",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ir-fan-siu-kay-johnny/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Ada Fung Yin Suen",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ar-prof-ada-fung-yin-suen/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Ling Kar Kan",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/prof-ling-kar-kan-sbs/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Tsui Tack Kong",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ir-tsui-tack-kong/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Mike Wong Chik Wing",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/sr-mike-wong-chik-wing-jp/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Wong King",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ir-wong-king/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Clarice Yu Po Mei",
+                  "url": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/ar-prof-clarice-yu-po-mei/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/emeritus-honorary-and-adjunct-professors/",
+                  "directoryLabel": "兼任教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-emeritus-adjunct-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核兼任教授；个人页未提供可归属的研究方向。"
+                }
+              ],
+              "scopeNote": "已核所列人员的正式类别和个人主页。研究方向、指导资格及余位仍待核。"
+            },
+            {
+              "label": "建造管理及智能学系 · 实践教授",
+              "url": "https://www.polyu.edu.hk/cmi/people/professors-of-practice/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-practice-directory-20261129"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Simon Chee Wai Hung",
+                  "url": "https://www.polyu.edu.hk/cmi/people/professors-of-practice/dr-simon-chee/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/professors-of-practice/",
+                  "directoryLabel": "实践教授（法律）",
+                  "directorySourceIds": [
+                    "polyu-cmi-practice-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核实践教授（法律）；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Charles Lam Hei Ling",
+                  "url": "https://www.polyu.edu.hk/cmi/people/professors-of-practice/prof-charles-lam-hei-ling/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/professors-of-practice/",
+                  "directoryLabel": "实践教授（房地产）",
+                  "directorySourceIds": [
+                    "polyu-cmi-practice-directory-20261129"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核实践教授（房地产）；个人页未提供可归属的研究方向。"
+                }
+              ],
+              "scopeNote": "已核所列人员的正式类别和个人主页。研究方向、指导资格及余位仍待核。"
+            },
+            {
+              "label": "建造管理及智能学系 · 两位待补研究资料的研究助理教授",
+              "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-academic-directory-20261128"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Yue Gong",
+                  "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-gong-yue/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+                  "directoryLabel": "研究助理教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-academic-directory-20261128"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核研究助理教授；个人页未提供可归属的研究方向。"
+                },
+                {
+                  "readMethod": "web_reader",
+                  "receiptKind": "web_reader_returned_text",
+                  "receiptScope": "batched_tool_response",
+                  "readReceiptSha256": "fbe17664e1a633cef073db100e6112297467ff2a06133709031be27045e64c35",
+                  "name": "Mingkai Li",
+                  "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-li-mingkai/",
+                  "observedOn": "https://www.polyu.edu.hk/cmi/people/academic-staff/",
+                  "directoryLabel": "研究助理教授",
+                  "directorySourceIds": [
+                    "polyu-cmi-academic-directory-20261128"
+                  ],
+                  "profileBodyStatus": "body_read",
+                  "supervisionEligibility": "unknown",
+                  "availability": "unknown",
+                  "researchReviewStatus": "pending",
+                  "reviewNote": "已核研究助理教授；个人页未提供可归属的研究方向。"
+                }
+              ],
+              "scopeNote": "这两页确认研究助理教授身份。已核研究方向的同系档案可在教师检索中查看。"
+            },
+            {
+              "label": "建造管理及智能学系 · 行政人员",
+              "url": "https://www.polyu.edu.hk/cmi/people/supporting-staff/administrative-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-administrative-staff-20261129"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "行政支援岗位。"
+            },
+            {
+              "label": "建造管理及智能学系 · 技术人员",
+              "url": "https://www.polyu.edu.hk/cmi/people/supporting-staff/technical-staff/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-technical-staff-20261129"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "技术及实验室支援岗位。"
+            },
+            {
+              "label": "建造管理及智能学系 · 系咨询委员会",
+              "url": "https://www.polyu.edu.hk/cmi/people/departmental-advisory-committee/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-departmental-advisory-committee-20261129"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "委员会身份与学系任职分开。"
+            },
+            {
+              "label": "建造管理及智能学系 · 研究人员和研究生目录入口",
+              "url": "https://www.polyu.edu.hk/cmi/people/research-personnel/",
+              "entryBodyStatus": "body_read",
+              "sourceIds": [
+                "polyu-cmi-research-personnel-20261129"
+              ],
+              "teacherProfilesTotal": null,
+              "enumerationComplete": false,
+              "profileLeads": [],
+              "scopeNote": "该页链接 2026 年 3 月 26 日的两份文件。研究人员与研究生分列，日期早于学系更名。"
             }
           ],
           "bodySha256": "964168e5564dfc584f6095c38f8547a418090d2d51c363fbb5f55a6d7740e7da",
@@ -371770,5 +372200,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:3399e1a25cf438ba80e7f741fffb2f5627617dac7c86fcc3939a98af2bfeaaaa"
+  "snapshotId": "sha256:45b47a759903438774dfad51b53846eb61c380f06e61d8537cf08ba21253cf65"
 }
