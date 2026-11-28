@@ -654,7 +654,8 @@ def build_catalog():
         catalog["sources"].extend(scope["sources"])
         unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == scope["unitId"])
         previous_review = unit["organizationReview"]
-        source_ids = previous_review["sourceIds"] + [source["id"] for source in scope["sources"]]
+        source_ids = previous_review["sourceIds"] + scope.get("organizationSourceIds", [source["id"] for source in scope["sources"]])
+        catalog["faculty"].extend(scope.get("faculty", []))
         if "organizationUpdate" in scope:
             unit.setdefault("organizationReviewHistory", []).append(previous_review)
             unit["organizationReview"] = dict(scope["organizationUpdate"], sourceIds=source_ids)

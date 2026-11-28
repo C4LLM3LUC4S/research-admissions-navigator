@@ -85665,6 +85665,81 @@
       }
     },
     {
+      "id": "hkust-medicine-anskar-leung",
+      "universityId": "hkust",
+      "name": "Anskar Y. H. Leung / 梁如鴻",
+      "department": "Division of Clinical Medicine",
+      "role": "Acting Head of Division; Chair Professor and Clinical Professor",
+      "directoryRole": "Acting Head of Division",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/anskar-y-h-leung/",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "血液病",
+        "急性髓系白血病",
+        "克隆性造血",
+        "Haematology",
+        "Acute myeloid leukaemia"
+      ],
+      "summary": "港科大研究门户列血液病、急性髓系白血病与克隆性造血研究。",
+      "sourceIds": [
+        "hkust-medicine-divisions-announcement-20261125",
+        "hkust-medicine-anskar-leung-profile-20261125"
+      ],
+      "keywordSourceIds": [
+        "hkust-medicine-anskar-leung-profile-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-medicine-divisions-announcement-20261125",
+          "hkust-medicine-anskar-leung-profile-20261125"
+        ]
+      },
+      "identityNote": "学部署任主管依据校方公告，个人研究依据港科大研究门户。"
+    },
+    {
+      "id": "hkust-medicine-elaine-holmes",
+      "universityId": "hkust",
+      "name": "Elaine Holmes",
+      "department": "Division of Biomedical Science",
+      "role": "Acting Head of Division; Professor",
+      "directoryRole": "Acting Head of Division",
+      "profileUrl": "https://researchportal.hkust.edu.hk/en/persons/elaine-holmes/",
+      "topics": [
+        "生物医学与健康"
+      ],
+      "researchKeywords": [
+        "医学化学",
+        "代谢组学",
+        "分析化学",
+        "Medical biochemistry",
+        "Metabolomics",
+        "Analytical chemistry"
+      ],
+      "summary": "港科大研究门户列医学化学、代谢组学与分析化学。",
+      "sourceIds": [
+        "hkust-medicine-divisions-announcement-20261125",
+        "hkust-medicine-elaine-holmes-profile-20261125"
+      ],
+      "keywordSourceIds": [
+        "hkust-medicine-elaine-holmes-profile-20261125"
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "hkust-medicine-divisions-announcement-20261125",
+          "hkust-medicine-elaine-holmes-profile-20261125"
+        ]
+      },
+      "identityNote": "学部署任主管依据校方公告，个人研究依据港科大研究门户。"
+    },
+    {
       "id": "polyu-me-su-zhong-qing-prof",
       "name": "Prof. SU Zhongqing 蘇眾慶",
       "universityId": "polyu",
@@ -240352,6 +240427,32 @@
       ]
     },
     {
+      "id": "hkust-medicine-anskar-leung-profile-20261125",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/anskar-y-h-leung/",
+      "title": "Anskar Y. H. Leung / 梁如鴻 · 港科大研究门户",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列院长办公室任职与研究兴趣。学部署任身份依据校方公告。",
+      "claims": [
+        "港科大研究门户列血液病、急性髓系白血病与克隆性造血研究。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hkust-medicine-elaine-holmes-profile-20261125",
+      "url": "https://researchportal.hkust.edu.hk/en/persons/elaine-holmes/",
+      "title": "Elaine Holmes · 港科大研究门户",
+      "checkedAt": "2026-11-25",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "个人页所列院长办公室任职与研究兴趣。学部署任身份依据校方公告。",
+      "claims": [
+        "港科大研究门户列医学化学、代谢组学与分析化学。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "hkustgz-cft-establishment-20261106",
       "url": "https://www.hkust-gz.edu.cn/zh/2023/03/16/%E9%A6%99%E6%B8%AF%E7%A7%91%E6%8A%80%E5%A4%A7%E5%AD%A6%EF%BC%88%E5%B9%BF%E5%B7%9E%EF%BC%89%E6%9C%AA%E6%9D%A5%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2%E6%AD%A3%E5%BC%8F%E6%88%90%E7%AB%8B/?variant=zh-hk",
       "title": "港科广未来技术学院成立公告（2023 年）",
@@ -368381,5 +368482,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:187dabb64863af29acb6f2c03d1d33fb2bbbcbc64ffee6f48423cf16c2f1f89c"
+  "snapshotId": "sha256:4df435d2b973d4143c3d887b9f750c7eb31c977520579c7b5f9b8842be24b3ba"
 }
