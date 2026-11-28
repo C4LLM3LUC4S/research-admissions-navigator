@@ -664,6 +664,7 @@ def build_catalog():
         else:
             previous_review["sourceIds"] = source_ids
         unit.setdefault("reviewedNavigation", []).extend(scope["reviewedNavigation"])
+        unit["staffEntries"].extend(scope.get("staffEntries", []))
     cityu_report = load("cityu-annual-report-scope-20261106.json")
     catalog["sources"].extend(cityu_report["sources"])
     cityu_overview = next(row for row in catalog["academicCoverage"] if row["universityId"] == "cityu")
