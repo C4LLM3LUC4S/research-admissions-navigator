@@ -1843,6 +1843,39 @@ def build_catalog():
     mse["sourceIds"] = list(dict.fromkeys(mse["sourceIds"]
         + [ref for item in mse["requirements"] + mse["finances"] for ref in item["sourceIds"]]))
     catalog["programs"].append(mse)
+    chemistry = load("hku-chemistry-admissions-20261129.json")
+    catalog["sources"].extend(chemistry["sources"])
+    chem_eligibility, chem_process, chem_fees = (item["id"] for item in chemistry["sources"])
+    chem_period = ["HKU-CENTRAL-PERIOD"]
+    chem = program(
+        "hku-chemistry-rpg-2027", "hku", "化学研究学位", ["MPhil", "PhD"],
+        "香港大学理学院化学系常规 MPhil 与 PhD，采用研究院 2027/28 校级申请轮次。",
+        "recommended", "化学系建议申请前联系一位或多位意向导师。", [chem_process],
+        "经港大研究院统一网申，上传学历证明、完整成绩单和研究计划。", [chem_process],
+        [deadline("校级主轮截止", "2026-12-01", chem_period, clock="23:59"),
+         deadline("校级第一轮补录截止（视余位）", "2027-04-30", chem_period, clock="23:59"),
+         deadline("校级第二轮补录截止（视余位）", "2027-08-31", chem_period, clock="23:59")],
+        [chem_eligibility, chem_process, chem_fees, *chem_period, fees_source],
+        "学系录取说明未标年份。补录视主轮后的学额，申请前请核对学系及研究院通知。",
+    )
+    chem["entryUrl"] = chemistry["sources"][1]["url"]
+    chem["requirements"] = [
+        {"label": "MPhil 学历", "text": "理学学士二级甲等荣誉或同等资格。",
+         "action": "核对学历等级并准备学历证明。", "sourceIds": [chem_eligibility], "degrees": ["MPhil"]},
+        {"label": "PhD 学历", "text": "系页列三年制须有研究型 MPhil 或同等资格，四年制须有一等荣誉理学学士或同等资格。",
+         "action": "有其他学历组合时，先向化学系确认可申请的学制。", "sourceIds": [chem_eligibility], "degrees": ["PhD"]},
+        {"label": "成绩单与研究计划", "text": "上传本科及研究生阶段的学历证明、完整成绩单和研究计划。",
+         "action": "按化学系申请页提供的表格和研究院网申要求准备。", "sourceIds": [chem_process]},
+        {**hku_engineering_requirements[-1], "sourceIds": [*language, chem_eligibility]},
+    ]
+    chem["sourceIds"].extend(language)
+    chem["finances"] = [
+        {**hku_common_finances[0], "id": "hku-chemistry-2027-application-fee", "rates": [],
+         "text": "化学系页面列 600 港元，研究院收费页列 780 港元。请以研究院网申实付金额为准。",
+         "sourceIds": [fees_source, chem_process, chem_fees]},
+        {**hku_common_finances[1], "id": "hku-chemistry-2027-tuition", "sourceIds": [fees_source, chem_fees]},
+    ]
+    catalog["programs"].append(chem)
     ece_directory = next(d for d in catalog["directories"] if d["id"] == "wide-dir-hku-ece")
     ece_directory.setdefault("reviewSourceIds", []).extend([ece_areas, ece_research])
     for pack_name in ("hku-ece-research-assistants-20261122.json", "hku-ece-rap-followup-20261124.json"):
