@@ -11321,6 +11321,168 @@
       ]
     },
     {
+      "id": "hku-mse-rpg-2027",
+      "universityId": "hku",
+      "name": "材料与能源研究学位",
+      "degrees": [
+        "MPhil",
+        "PhD"
+      ],
+      "cycle": "2027/28",
+      "scope": "香港大学工学院材料与能源学系，采用 2027/28 校级申请轮次。研究领域包括材料科学、能源与可持续技术、先进制造。",
+      "contact": {
+        "status": "unknown",
+        "text": "院系详情页仍待更新，是否需要先联系导师请按学系说明确认。",
+        "sourceIds": [
+          "hku-mse-teaching-learning-20261128",
+          "hku-mse-rpg-20261106"
+        ]
+      },
+      "selection": {
+        "text": "研究院列该系为研究型研究生招生单位，按网申所选单位提交。院系审理细节待核。",
+        "sourceIds": [
+          "hku-mse-graduate-research-areas-20261128",
+          "hku-mse-teaching-learning-20261128"
+        ]
+      },
+      "deadlines": [
+        {
+          "label": "校级主轮截止：2026-12-01 23:59（UTC+8）",
+          "date": "2026-12-01",
+          "at": "2026-12-01T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hku-mse-graduate-research-areas-20261128",
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第一轮补录截止（视余位）：2027-04-30 23:59（UTC+8）",
+          "date": "2027-04-30",
+          "at": "2027-04-30T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hku-mse-graduate-research-areas-20261128",
+            "HKU-CENTRAL-PERIOD"
+          ]
+        },
+        {
+          "label": "校级第二轮补录截止（视余位）：2027-08-31 23:59（UTC+8）",
+          "date": "2027-08-31",
+          "at": "2027-08-31T23:59:00+08:00",
+          "degree": null,
+          "route": "常规申请",
+          "cycle": "2027/28",
+          "sourceIds": [
+            "hku-mse-graduate-research-areas-20261128",
+            "HKU-CENTRAL-PERIOD"
+          ]
+        }
+      ],
+      "sourceIds": [
+        "hku-mse-graduate-research-areas-20261128",
+        "HKU-CENTRAL-PERIOD",
+        "hku-mse-teaching-learning-20261128",
+        "hku-mse-rpg-20261106",
+        "hku-dase-2027-mphil",
+        "hku-dase-2027-phd-3",
+        "hku-dase-2027-phd-4",
+        "hku-dase-2027-research-proposal",
+        "hku-central-language",
+        "hku-dase-2027-fees"
+      ],
+      "evidenceNote": "校级补录以主轮后仍有学额为前提。院系具体要求、导师接收和当前余位待核。",
+      "entryUrl": "https://gradsch.hku.hk/prospective_students/research_areas",
+      "requirements": [
+        {
+          "label": "MPhil 学历",
+          "text": "校级要求为认可大学的荣誉学士或同等资格。",
+          "action": "检查学位证明与同等资格说明。",
+          "sourceIds": [
+            "hku-dase-2027-mphil"
+          ],
+          "degrees": [
+            "MPhil"
+          ]
+        },
+        {
+          "label": "PhD 学历",
+          "text": "三年制通常要求荣誉学士及研究型硕士或同等资格；四年制可凭荣誉学士加授课型硕士（或同等资格），也可凭一等荣誉学士或同等资格。",
+          "action": "按申请学制准备学历与成绩证明。",
+          "sourceIds": [
+            "hku-dase-2027-phd-3",
+            "hku-dase-2027-phd-4"
+          ],
+          "degrees": [
+            "PhD"
+          ]
+        },
+        {
+          "label": "工学院研究计划",
+          "text": "按研究院工学院栏准备研究计划，完整材料与学历条件见申请系统。",
+          "action": "打开工学院研究计划表，准备题目、问题和方法。",
+          "sourceIds": [
+            "hku-dase-2027-research-proposal"
+          ],
+          "url": "https://gradsch.hku.hk/prospective_students/application/supporting_docum/requirements_of_the_faculty_and_programme"
+        },
+        {
+          "label": "语言成绩",
+          "text": "适用英语证明要求时，IELTS Academic 总分至少 6.5、各项至少 6；TOEFL iBT 2026 年 1 月 21 日前至少 85，从该日开始至少 4.5。两年内一次考试，按校方要求由考试机构送分。",
+          "action": "核考试日期、成绩有效期及送分要求。",
+          "sourceIds": [
+            "hku-central-language"
+          ]
+        }
+      ],
+      "finances": [
+        {
+          "id": "hku-mse-2027-application-fee",
+          "kind": "application_fee",
+          "label": "申请费",
+          "text": "研究院费用页现列 780 港元，由网申系统收取。",
+          "action": "提交前核对网申实际金额。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 780,
+              "currency": "HKD",
+              "unit": "application",
+              "basis": "page_reference",
+              "cycle": null,
+              "condition": "校级费用页当前列示"
+            }
+          ]
+        },
+        {
+          "id": "hku-mse-2027-tuition",
+          "kind": "tuition",
+          "label": "学费",
+          "text": "2027/28 学年全日制每年 49,500 港元，符合条件的本地全日制学生可获豁免。兼读请向研究院核当期费率。",
+          "action": "按学年、学习模式及资格核算学费。",
+          "sourceIds": [
+            "hku-dase-2027-fees"
+          ],
+          "rates": [
+            {
+              "value": 49500,
+              "currency": "HKD",
+              "unit": "academic_year",
+              "basis": "academic_year",
+              "cycle": "2027/28",
+              "condition": "全日制"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "hkust-iip-rpg-2027",
       "universityId": "hkust",
       "name": "跨学科自选研究学位",
@@ -279267,6 +279429,34 @@
       ]
     },
     {
+      "id": "hku-mse-graduate-research-areas-20261128",
+      "url": "https://gradsch.hku.hk/prospective_students/research_areas",
+      "title": "港大研究院 · 材料与能源学系研究型研究生招生单位",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "研究院列工学院下研究型研究生招生单位；标 # 表示相应单位接受研究型研究生申请。",
+      "claims": [
+        "Department of Materials and Energy 在工学院下标 #。",
+        "该页未给院系专属申请截止或招募安排。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "hku-mse-teaching-learning-20261128",
+      "url": "https://mse.hku.hk/teaching-learning/",
+      "title": "港大材料与能源学系 · 研究型研究生培养",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "scope": "系网页所列 MPhil、PhD 与培养范围，授课型 MSc 另列。",
+      "claims": [
+        "系页分别列研究型 PhD/MPhil 与授课型 MSc。",
+        "培养领域包括材料科学、能源与可持续技术、先进制造。研究学位详情页仍为待发布占位。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "hku-ece-rap-directory-20261122",
       "url": "https://ece.hku.hk/people/",
       "title": "港大电机与计算机工程系 · 研究助理教授",
@@ -368668,5 +368858,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:037e6481b19d709d22f750a14fe82c903b6bdc9f3cc01dd88c787ea75b32bcaa"
+  "snapshotId": "sha256:3a13fe3018b3adde7bf3c873738e26782f42733ea6b5ad14e46d60152ce13241"
 }
