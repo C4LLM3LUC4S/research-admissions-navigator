@@ -649,7 +649,8 @@ def build_catalog():
     catalog["sources"].extend(polyu_science["sources"])
     catalog["programs"].extend(polyu_science["programmes"])
     for name in ("cuhk-zhizhen-establishment-20261106.json", "cuhk-zhizhen-admissions-scope-20261118.json",
-                 "hkust-medicine-scope-20261106.json", "hkustgz-cft-establishment-20261106.json"):
+                 "hkust-medicine-scope-20261106.json", "hkustgz-cft-establishment-20261106.json",
+                 "polyu-cmi-leads-20261128.json"):
         scope = load(name)
         catalog["sources"].extend(scope["sources"])
         unit = next(u for row in catalog["academicCoverage"] for u in row["units"] if u["id"] == scope["unitId"])
