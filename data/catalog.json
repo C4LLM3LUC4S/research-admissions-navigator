@@ -87142,6 +87142,440 @@
       }
     },
     {
+      "id": "polyu-cmi-ming-lu",
+      "name": "Ming Lu",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "教授",
+      "directoryRole": "教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-ming-lu/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "项目排程",
+        "施工过程仿真",
+        "工程机器学习",
+        "Project scheduling",
+        "Construction simulation",
+        "Engineering machine learning"
+      ],
+      "summary": "研究包括项目排程、施工过程仿真和工程机器学习。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-ming-lu-profile-20261128",
+        "polyu-cmi-ming-lu-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-ming-lu-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ming-lu/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-ming-lu-profile-20261128",
+          "sourceId": "polyu-cmi-ming-lu-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-tarek-zayed",
+      "name": "Tarek Zayed",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "教授",
+      "directoryRole": "教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-tarek-zayed/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工生产率",
+        "基础设施资产管理",
+        "组装合成建筑",
+        "Construction productivity",
+        "Infrastructure asset management",
+        "Modular integrated construction"
+      ],
+      "summary": "研究包括施工生产率、基础设施资产管理和组装合成建筑。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-tarek-zayed-profile-20261128",
+        "polyu-cmi-tarek-zayed-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-tarek-zayed-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/tarek-zayed/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-tarek-zayed-profile-20261128",
+          "sourceId": "polyu-cmi-tarek-zayed-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-daniel-chan",
+      "name": "Daniel W. M. Chan",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/cr-dr-daniel-wm-chan/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工采购",
+        "施工安全",
+        "建筑信息模型",
+        "建拆废弃物循环利用",
+        "Construction procurement",
+        "Construction safety",
+        "Building information modelling",
+        "Circular economy"
+      ],
+      "summary": "研究包括施工采购、施工安全、建筑信息模型和建拆废弃物循环利用。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-daniel-chan-profile-20261128",
+        "polyu-cmi-daniel-chan-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-daniel-chan-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/wai-ming-chan/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-daniel-chan-profile-20261128",
+          "sourceId": "polyu-cmi-daniel-chan-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-hongqin-fan",
+      "name": "Hongqin Fan",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-hong-qin-fan/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工协同创新",
+        "组装合成建筑政策",
+        "Collaborative innovation in construction",
+        "Modular integrated construction policy"
+      ],
+      "summary": "研究门户列出的成果涉及施工协同创新和组装合成建筑政策。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-hongqin-fan-profile-20261128",
+        "polyu-cmi-hongqin-fan-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-hongqin-fan-portal-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/hongqin-fan/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-hongqin-fan-profile-20261128",
+          "sourceId": "polyu-cmi-hongqin-fan-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-ying-fan",
+      "name": "Ying Fan",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-ying-fan/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "建成环境经济学",
+        "可持续再开发",
+        "数字基础设施",
+        "Built environment economics",
+        "Sustainable redevelopment",
+        "Digital infrastructure"
+      ],
+      "summary": "研究包括建成环境经济学、可持续再开发和数字基础设施。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-ying-fan-profile-20261128",
+        "polyu-cmi-ying-fan-portal-20261128",
+        "polyu-cmi-ying-fan-personal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-ying-fan-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/ying-fan/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-ying-fan-profile-20261128",
+          "sourceId": "polyu-cmi-ying-fan-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        },
+        {
+          "url": "https://sites.google.com/view/yingfan",
+          "label": "个人研究主页",
+          "parentSourceId": "polyu-cmi-ying-fan-profile-20261128",
+          "sourceId": "polyu-cmi-ying-fan-personal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读研究主题，职称以现行名录为准。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-jeff-shen",
+      "name": "Jianfu (Jeff) Shen",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-jeff-jianfu-shen/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "基础设施融资",
+        "绿色金融",
+        "气候金融",
+        "城市研究",
+        "Infrastructure financing",
+        "Green finance",
+        "Climate finance",
+        "Urban studies"
+      ],
+      "summary": "研究包括基础设施融资、绿色金融、气候金融和城市研究。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-jeff-shen-profile-20261128",
+        "polyu-cmi-jeff-shen-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-jeff-shen-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/jianfu-shen/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-jeff-shen-profile-20261128",
+          "sourceId": "polyu-cmi-jeff-shen-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-johnny-wei",
+      "name": "Johnny Hsi-Hsien Wei",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-wei-hsi-hsien--johnny/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工人工智能",
+        "施工信息技术",
+        "施工安全",
+        "项目管理",
+        "AI in construction",
+        "Construction information technology",
+        "Construction safety",
+        "Project management"
+      ],
+      "summary": "研究包括施工人工智能、施工信息技术、施工安全和项目管理。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-johnny-wei-profile-20261128",
+        "polyu-cmi-johnny-wei-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-johnny-wei-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/johnny-hsi-hsien-wei/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-johnny-wei-profile-20261128",
+          "sourceId": "polyu-cmi-johnny-wei-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-ivy-wong",
+      "name": "Ivy Siu Wai Wong",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/sr-dr-ivy-sw-wong/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "城镇化与地方治理",
+        "城乡关系",
+        "城市更新",
+        "Urbanization and local governance",
+        "Urban-rural relations",
+        "Urban regeneration"
+      ],
+      "summary": "研究包括城镇化与地方治理、城乡关系和城市更新。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-ivy-wong-profile-20261128",
+        "polyu-cmi-ivy-wong-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-ivy-wong-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/siu-wai-wong/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-ivy-wong-profile-20261128",
+          "sourceId": "polyu-cmi-ivy-wong-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
+      "id": "polyu-cmi-wen-yi",
+      "name": "Wen Yi",
+      "universityId": "polyu",
+      "department": "Department of Construction Management and Intelligence",
+      "role": "副教授",
+      "directoryRole": "副教授",
+      "profileUrl": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-yi-wen/",
+      "topics": [
+        "土木与机械工程"
+      ],
+      "researchKeywords": [
+        "施工健康与安全",
+        "施工管理优化",
+        "Construction health and safety",
+        "Optimization in construction management"
+      ],
+      "summary": "研究包括施工健康与安全和施工管理优化。",
+      "sourceIds": [
+        "polyu-cmi-academic-directory-20261128",
+        "polyu-cmi-wen-yi-profile-20261128",
+        "polyu-cmi-wen-yi-portal-20261128"
+      ],
+      "keywordSourceIds": [
+        "polyu-cmi-wen-yi-profile-20261128"
+      ],
+      "extraLinks": [
+        {
+          "url": "https://research.polyu.edu.hk/en/persons/wen-yi/",
+          "label": "港理工研究门户",
+          "parentSourceId": "polyu-cmi-wen-yi-profile-20261128",
+          "sourceId": "polyu-cmi-wen-yi-portal-20261128",
+          "bodyStatus": "body_read",
+          "readNote": "已读个人研究档案。"
+        }
+      ],
+      "availability": {
+        "state": "unknown",
+        "cycle": null,
+        "text": "指导资格、当前招募和名额待核",
+        "sourceIds": [
+          "polyu-cmi-academic-directory-20261128"
+        ]
+      }
+    },
+    {
       "id": "polyu-me-su-zhong-qing-prof",
       "name": "Prof. SU Zhongqing 蘇眾慶",
       "universityId": "polyu",
@@ -242183,6 +242617,299 @@
       "knownIssues": []
     },
     {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-ming-lu-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-ming-lu/",
+      "title": "Ming Lu · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括项目排程、施工过程仿真和工程机器学习。"
+      ],
+      "knownIssues": [
+        "学系简介保留旧系名，现行任职见学术人员目录。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ming-lu/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-ming-lu-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/ming-lu/",
+      "title": "Ming Lu · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-tarek-zayed-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/prof-tarek-zayed/",
+      "title": "Tarek Zayed · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括施工生产率、基础设施资产管理和组装合成建筑。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/tarek-zayed/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-tarek-zayed-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/tarek-zayed/",
+      "title": "Tarek Zayed · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-daniel-chan-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/cr-dr-daniel-wm-chan/",
+      "title": "Daniel W. M. Chan · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括施工采购、施工安全、建筑信息模型和建拆废弃物循环利用。"
+      ],
+      "knownIssues": [
+        "个人页另列授课型课程和专业博士职务。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/wai-ming-chan/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-daniel-chan-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/wai-ming-chan/",
+      "title": "Daniel W. M. Chan · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-hongqin-fan-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-hong-qin-fan/",
+      "title": "Hongqin Fan · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "现行名录列为副教授。"
+      ],
+      "knownIssues": [
+        "学系个人页未单列研究兴趣，研究词来自研究门户公开列出的项目成果。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/hongqin-fan/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-hongqin-fan-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/hongqin-fan/",
+      "title": "Hongqin Fan · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "研究门户列出的成果涉及施工协同创新和组装合成建筑政策。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-ying-fan-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-ying-fan/",
+      "title": "Ying Fan · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括建成环境经济学、可持续再开发和数字基础设施。"
+      ],
+      "knownIssues": [
+        "个人自建页继续显示旧系名和助理教授。学系现行名录及个人页页首列副教授；自建页招募条目未核适用学年与余位。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/ying-fan/",
+        "https://sites.google.com/view/yingfan"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-ying-fan-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/ying-fan/",
+      "title": "Ying Fan · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "id": "polyu-cmi-ying-fan-personal-20261128",
+      "url": "https://sites.google.com/view/yingfan",
+      "title": "Ying Fan · 个人研究主页",
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_reader",
+      "evidenceLevel": "teacher_page_linked_from_official_profile",
+      "scope": "港理工学系主页提供的个人研究主页。",
+      "claims": [
+        "自述研究包括城市经济、房地产经济及经济政策。"
+      ],
+      "knownIssues": [
+        "个人页保留较早职称与旧系名。所列招募入口尚未核适用学年或开放状态。"
+      ],
+      "receiptKind": "web_reader_returned_text",
+      "receiptScope": "batched_tool_response",
+      "readReceiptSha256": "0a440cd6d57b74bfe82e424ef725149f1a6c6c1822c738014fbbecf92a3c03a9",
+      "parentSourceId": "polyu-cmi-ying-fan-profile-20261128",
+      "originalUrl": "https://sites.google.com/view/yingfan",
+      "retrievedUrl": "https://sites.google.com/view/yingfan"
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-jeff-shen-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-jeff-jianfu-shen/",
+      "title": "Jianfu (Jeff) Shen · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括基础设施融资、绿色金融、气候金融和城市研究。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/jianfu-shen/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-jeff-shen-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/jianfu-shen/",
+      "title": "Jianfu (Jeff) Shen · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-johnny-wei-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-wei-hsi-hsien--johnny/",
+      "title": "Johnny Hsi-Hsien Wei · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括施工人工智能、施工信息技术、施工安全和项目管理。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/johnny-hsi-hsien-wei/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-johnny-wei-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/johnny-hsi-hsien-wei/",
+      "title": "Johnny Hsi-Hsien Wei · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-ivy-wong-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/sr-dr-ivy-sw-wong/",
+      "title": "Ivy Siu Wai Wong · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括城镇化与地方治理、城乡关系和城市更新。"
+      ],
+      "knownIssues": [],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/siu-wai-wong/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-ivy-wong-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/siu-wai-wong/",
+      "title": "Ivy Siu Wai Wong · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-wen-yi-profile-20261128",
+      "url": "https://www.polyu.edu.hk/cmi/people/academic-staff/dr-yi-wen/",
+      "title": "Wen Yi · 港理工学系个人页",
+      "scope": "个人页和学系目录共同核对身份及任职。",
+      "claims": [
+        "研究包括施工健康与安全和施工管理优化。"
+      ],
+      "knownIssues": [
+        "简介正文保留旧系名与助理教授称谓，现行名录及个人页页首列副教授。"
+      ],
+      "discoveredLinks": [
+        "https://research.polyu.edu.hk/en/persons/wen-yi/"
+      ]
+    },
+    {
+      "checkedAt": "2026-11-28",
+      "readMethod": "web_tool_actual_body",
+      "evidenceLevel": "official_verified_page_scoped",
+      "id": "polyu-cmi-wen-yi-portal-20261128",
+      "url": "https://research.polyu.edu.hk/en/persons/wen-yi/",
+      "title": "Wen Yi · 港理工研究门户",
+      "scope": "学系个人页提供的校级研究档案。",
+      "claims": [
+        "校级研究档案提供同一人员的专业记录。"
+      ],
+      "knownIssues": []
+    },
+    {
       "id": "cityu-annual-report-2024-25-colleges-20261106",
       "url": "https://www.cityu.edu.hk/annual-report/2024-25/assets/pdf/CityUAR_2025.pdf",
       "title": "港城大 2024/25 年报：计算学院与生物医学学院",
@@ -370335,5 +371062,5 @@
   "facultyAliases": {
     "cuhksz-sds-zhengrui-jiang": "cuhksz-sme-003ea2dac10457"
   },
-  "snapshotId": "sha256:f8a7e8902e3df03096655beee6eaa4ecdf7d89c091fe7562a5e79cf157a5c147"
+  "snapshotId": "sha256:0c0f12f75ba6bc542b09941e0e277966f897e1443bb6117bb1f86986215aa37a"
 }
